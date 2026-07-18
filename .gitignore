@@ -1,6 +1,6 @@
-# Godot 4.x
+# Godot 4+
 .godot/
-.import/
+/android/
 export.cfg
 export_credentials.cfg
 
