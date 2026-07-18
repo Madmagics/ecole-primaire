@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://ui/interact_prompt/interact_prompt.gd" id="1"]
+
+[node name="InteractPrompt" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 20.0
+offset_top = 80.0
+offset_right = 320.0
+offset_bottom = 110.0
+script = ExtResource("1")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_right = 300.0
+offset_bottom = 30.0
+text = "Appuyer sur E"

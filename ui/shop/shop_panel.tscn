@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://ui/shop/shop_panel.gd" id="1"]
+
+[node name="ShopPanel" type="Control"]
+layout_mode = 3
+script = ExtResource("1")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 0
+
+[node name="ScrollContainer" type="ScrollContainer" parent="Panel"]
+layout_mode = 0
+
+[node name="ListContainer" type="VBoxContainer" parent="Panel/ScrollContainer"]
+layout_mode = 2
