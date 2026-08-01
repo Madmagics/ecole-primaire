@@ -183,12 +183,14 @@ environment = SubResource("Environment_park")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.03, -25)
 mesh = SubResource("PlaneMesh_horizon")
 
-[node name="Ground" type="StaticBody3D" parent="WorldViewport/SubViewport" unique_id=338180402]
+[node name="ParkPreview" type="Node3D" parent="WorldViewport/SubViewport"]
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="WorldViewport/SubViewport/Ground" unique_id=537150176]
+[node name="Ground" type="StaticBody3D" parent="WorldViewport/SubViewport/ParkPreview" unique_id=338180402]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="WorldViewport/SubViewport/ParkPreview/Ground" unique_id=537150176]
 mesh = SubResource("PlaneMesh_1")
 
-[node name="SimpleGrassTextured" type="MultiMeshInstance3D" parent="WorldViewport/SubViewport/Ground/MeshInstance3D" unique_id=171136092]
+[node name="SimpleGrassTextured" type="MultiMeshInstance3D" parent="WorldViewport/SubViewport/ParkPreview/Ground/MeshInstance3D" unique_id=171136092]
 material_override = SubResource("ShaderMaterial_admiq")
 multimesh = ExtResource("20_grassdata")
 script = ExtResource("6_0r8vx")
@@ -210,47 +212,47 @@ sgt_tool_shape = {
 metadata/_custom_type_script = "uid://2juaclm8gc1n"
 metadata/SimpleGrassTextured = "2.0.5"
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="WorldViewport/SubViewport/Ground" unique_id=1967485274]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="WorldViewport/SubViewport/ParkPreview/Ground" unique_id=1967485274]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5, 0)
 shape = SubResource("BoxShape3D_1")
 
-[node name="Walls" type="Node3D" parent="WorldViewport/SubViewport" unique_id=1553348408]
+[node name="Walls" type="Node3D" parent="WorldViewport/SubViewport/ParkPreview" unique_id=1553348408]
 
-[node name="WallNorth_Left" type="StaticBody3D" parent="WorldViewport/SubViewport/Walls" unique_id=714733200]
+[node name="WallNorth_Left" type="StaticBody3D" parent="WorldViewport/SubViewport/ParkPreview/Walls" unique_id=714733200]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.5, 2, -25)
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="WorldViewport/SubViewport/Walls/WallNorth_Left" unique_id=1159152570]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="WorldViewport/SubViewport/ParkPreview/Walls/WallNorth_Left" unique_id=1159152570]
 shape = SubResource("BoxShape3D_WallNorthSeg")
 
-[node name="WallNorth_Right" type="StaticBody3D" parent="WorldViewport/SubViewport/Walls" unique_id=1721891368]
+[node name="WallNorth_Right" type="StaticBody3D" parent="WorldViewport/SubViewport/ParkPreview/Walls" unique_id=1721891368]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.5, 2, -25)
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="WorldViewport/SubViewport/Walls/WallNorth_Right" unique_id=820507670]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="WorldViewport/SubViewport/ParkPreview/Walls/WallNorth_Right" unique_id=820507670]
 shape = SubResource("BoxShape3D_WallNorthSeg")
 
-[node name="WallSouth" type="StaticBody3D" parent="WorldViewport/SubViewport/Walls" unique_id=695526817]
+[node name="WallSouth" type="StaticBody3D" parent="WorldViewport/SubViewport/ParkPreview/Walls" unique_id=695526817]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 25)
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="WorldViewport/SubViewport/Walls/WallSouth" unique_id=1954607081]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="WorldViewport/SubViewport/ParkPreview/Walls/WallSouth" unique_id=1954607081]
 shape = SubResource("BoxShape3D_WallNS")
 
-[node name="WallEast" type="StaticBody3D" parent="WorldViewport/SubViewport/Walls" unique_id=278887782]
+[node name="WallEast" type="StaticBody3D" parent="WorldViewport/SubViewport/ParkPreview/Walls" unique_id=278887782]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25, 2, 0)
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="WorldViewport/SubViewport/Walls/WallEast" unique_id=881524782]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="WorldViewport/SubViewport/ParkPreview/Walls/WallEast" unique_id=881524782]
 shape = SubResource("BoxShape3D_WallEW")
 
-[node name="WallWest" type="StaticBody3D" parent="WorldViewport/SubViewport/Walls" unique_id=652567776]
+[node name="WallWest" type="StaticBody3D" parent="WorldViewport/SubViewport/ParkPreview/Walls" unique_id=652567776]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25, 2, 0)
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="WorldViewport/SubViewport/Walls/WallWest" unique_id=1554660563]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="WorldViewport/SubViewport/ParkPreview/Walls/WallWest" unique_id=1554660563]
 shape = SubResource("BoxShape3D_WallEW")
 
-[node name="Decor" type="Node3D" parent="WorldViewport/SubViewport" unique_id=887479933]
+[node name="Decor" type="Node3D" parent="WorldViewport/SubViewport/ParkPreview" unique_id=887479933]
 
-[node name="Trees" type="Node3D" parent="WorldViewport/SubViewport/Decor" unique_id=340301603]
+[node name="Trees" type="Node3D" parent="WorldViewport/SubViewport/ParkPreview/Decor" unique_id=340301603]
 
-[node name="ParkGate" parent="WorldViewport/SubViewport" unique_id=1317087447 instance=ExtResource("32_gate")]
+[node name="ParkGate" parent="WorldViewport/SubViewport/ParkPreview" unique_id=1317087447 instance=ExtResource("32_gate")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -25)
 is_open = true
 
