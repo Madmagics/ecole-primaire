@@ -25,7 +25,10 @@
 [ext_resource type="Script" uid="uid://1lj0s1yfs7nw" path="res://entities/world_view/world_view_blur.gd" id="20_wview"]
 [ext_resource type="Shader" uid="uid://co8xas4k4ejk7" path="res://entities/world_view/world_blur.gdshader" id="21_wblur"]
 [ext_resource type="Script" uid="uid://bunkqsd4e4a20" path="res://ui/hud/menu_toggle_button.gd" id="22_menutoggle"]
-[ext_resource type="PackedScene" path="res://entities/decor/tree.tscn" id="30_tree"]
+[ext_resource type="PackedScene" path="res://entities/decor/trees/tree_birch_1.tscn" id="30_treebirch1"]
+[ext_resource type="PackedScene" path="res://entities/decor/trees/tree_common_2.tscn" id="30_treecommon2"]
+[ext_resource type="PackedScene" path="res://entities/decor/trees/tree_maple_1.tscn" id="30_treemaple1"]
+[ext_resource type="PackedScene" path="res://entities/decor/trees/tree_pine_2.tscn" id="30_treepine2"]
 [ext_resource type="PackedScene" path="res://entities/decor/park_gate.tscn" id="32_gate"]
 [ext_resource type="PackedScene" path="res://ui/inventory/inventory_panel.tscn" id="40_inventory"]
 [ext_resource type="PackedScene" path="res://ui/onboarding/welcome_panel.tscn" id="41_welcome"]
@@ -247,16 +250,16 @@ shape = SubResource("BoxShape3D_WallEW")
 
 [node name="Trees" type="Node3D" parent="WorldViewport/SubViewport/Decor" unique_id=340301603]
 
-[node name="Tree11" parent="WorldViewport/SubViewport/Decor/Trees" unique_id=767786811 instance=ExtResource("30_tree")]
+[node name="Tree11" parent="WorldViewport/SubViewport/Decor/Trees" unique_id=767786811 instance=ExtResource("30_treebirch1")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20, 0, -35)
 
-[node name="Tree12" parent="WorldViewport/SubViewport/Decor/Trees" unique_id=177326309 instance=ExtResource("30_tree")]
+[node name="Tree12" parent="WorldViewport/SubViewport/Decor/Trees" unique_id=177326309 instance=ExtResource("30_treepine2")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20, 0, -65)
 
-[node name="Tree13" parent="WorldViewport/SubViewport/Decor/Trees" unique_id=1536682308 instance=ExtResource("30_tree")]
+[node name="Tree13" parent="WorldViewport/SubViewport/Decor/Trees" unique_id=1536682308 instance=ExtResource("30_treemaple1")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -35)
 
-[node name="Tree14" parent="WorldViewport/SubViewport/Decor/Trees" unique_id=98198149 instance=ExtResource("30_tree")]
+[node name="Tree14" parent="WorldViewport/SubViewport/Decor/Trees" unique_id=98198149 instance=ExtResource("30_treecommon2")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -65)
 
 [node name="ParkGate" parent="WorldViewport/SubViewport" unique_id=1317087447 instance=ExtResource("32_gate")]
