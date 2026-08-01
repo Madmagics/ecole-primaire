@@ -1,0 +1,12 @@
+<!-- Icone concept "Piece" (2026-08-01, recoloree le meme jour) - vectoriel ecrit a la main, style
+     plat/cartoon coherent avec CHARTE_GRAPHIQUE.md (aplats, pas de degrade/ombre, contour epais
+     encre). Base en gris neutre (pas d'or fixe) : CrateItem/GradeUnlockItem appliquent
+     modulate = CardRarity.get_color(...) au runtime pour teinter la piece selon la rarete/classe
+     concernee - un gris neutre donne un resultat propre par multiplication, une base doree
+     aurait donne des teintes sales sur les couleurs froides (bleu, violet...). Voir
+     CHARTE_GRAPHIQUE.md. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <circle cx="60" cy="60" r="48" fill="#D8D8D8" stroke="#4A2E1A" stroke-width="6"/>
+  <circle cx="60" cy="60" r="36" fill="none" stroke="#B5B5B5" stroke-width="5"/>
+  <polygon points="60,42 64.1,54.3 77.1,54.4 66.7,62.2 70.6,74.6 60,67 49.4,74.6 53.3,62.2 42.9,54.4 55.9,54.3" fill="#4A2E1A"/>
+</svg>
