@@ -250,18 +250,6 @@ shape = SubResource("BoxShape3D_WallEW")
 
 [node name="Trees" type="Node3D" parent="WorldViewport/SubViewport/Decor" unique_id=340301603]
 
-[node name="Tree11" parent="WorldViewport/SubViewport/Decor/Trees" unique_id=767786811 instance=ExtResource("30_treebirch1")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20, 0, -35)
-
-[node name="Tree12" parent="WorldViewport/SubViewport/Decor/Trees" unique_id=177326309 instance=ExtResource("30_treepine2")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20, 0, -65)
-
-[node name="Tree13" parent="WorldViewport/SubViewport/Decor/Trees" unique_id=1536682308 instance=ExtResource("30_treemaple1")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -35)
-
-[node name="Tree14" parent="WorldViewport/SubViewport/Decor/Trees" unique_id=98198149 instance=ExtResource("30_treecommon2")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -65)
-
 [node name="ParkGate" parent="WorldViewport/SubViewport" unique_id=1317087447 instance=ExtResource("32_gate")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -25)
 is_open = true
@@ -314,6 +302,20 @@ mesh = SubResource("CylinderMesh_tent")
 [node name="TentPreview2" type="MeshInstance3D" parent="WorldViewport/SubViewport/FairgroundPreview" unique_id=1075234273]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 1.25, -55)
 mesh = SubResource("CylinderMesh_tent2")
+
+[node name="Trees" type="Node3D" parent="WorldViewport/SubViewport/FairgroundPreview"]
+
+[node name="Tree11" parent="WorldViewport/SubViewport/FairgroundPreview/Trees" instance=ExtResource("30_treebirch1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20, 0, -35)
+
+[node name="Tree12" parent="WorldViewport/SubViewport/FairgroundPreview/Trees" instance=ExtResource("30_treepine2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20, 0, -65)
+
+[node name="Tree13" parent="WorldViewport/SubViewport/FairgroundPreview/Trees" instance=ExtResource("30_treemaple1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -35)
+
+[node name="Tree14" parent="WorldViewport/SubViewport/FairgroundPreview/Trees" instance=ExtResource("30_treecommon2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -65)
 
 [node name="NPCs" type="Node3D" parent="WorldViewport/SubViewport" unique_id=1383072639]
 
