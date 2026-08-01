@@ -1,0 +1,328 @@
+[gd_resource type="Resource" script_class="QuestionBankResource" format=3 uid="uid://c33de24pmxlqc"]
+
+[ext_resource type="Script" uid="uid://dfbr3elc3mbig" path="res://data/question/question_resource.gd" id="1_sm5hi"]
+[ext_resource type="Script" uid="uid://c422qc1cinnna" path="res://data/question/question_bank_resource.gd" id="2_8kwji"]
+
+[sub_resource type="Resource" id="Resource_sm5hi"]
+script = ExtResource("1_sm5hi")
+subject = 2
+grade = 2
+text = "Quel pronom peut remplacer 'le chat' ?"
+correct_answer = "il"
+choices = Array[String](["je", "elle", "nous"])
+
+[sub_resource type="Resource" id="Resource_8kwji"]
+script = ExtResource("1_sm5hi")
+subject = 2
+grade = 2
+text = "Quel pronom peut remplacer 'la souris' ?"
+correct_answer = "elle"
+choices = Array[String](["nous", "tu", "il"])
+
+[sub_resource type="Resource" id="Resource_sxnhu"]
+script = ExtResource("1_sm5hi")
+subject = 2
+grade = 2
+text = "Quel pronom peut remplacer 'Marie et moi' ?"
+correct_answer = "nous"
+choices = Array[String](["ils", "elles", "elle"])
+
+[sub_resource type="Resource" id="Resource_vc0t3"]
+script = ExtResource("1_sm5hi")
+subject = 2
+grade = 2
+text = "Quel pronom peut remplacer 'Paul et toi' ?"
+correct_answer = "vous"
+choices = Array[String](["elles", "il", "tu"])
+
+[sub_resource type="Resource" id="Resource_3i30g"]
+script = ExtResource("1_sm5hi")
+subject = 2
+grade = 2
+text = "Quel pronom peut remplacer 'les enfants' ?"
+correct_answer = "ils"
+choices = Array[String](["il", "elle", "tu"])
+
+[sub_resource type="Resource" id="Resource_vlaee"]
+script = ExtResource("1_sm5hi")
+subject = 2
+grade = 2
+text = "Quel pronom peut remplacer 'les filles' ?"
+correct_answer = "elles"
+choices = Array[String](["elle", "tu", "nous"])
+
+[sub_resource type="Resource" id="Resource_lcwlp"]
+script = ExtResource("1_sm5hi")
+subject = 2
+grade = 2
+text = "Quel pronom peut remplacer 'mon père' ?"
+correct_answer = "il"
+choices = Array[String](["elle", "je", "nous"])
+
+[sub_resource type="Resource" id="Resource_jdemf"]
+script = ExtResource("1_sm5hi")
+subject = 2
+grade = 2
+text = "Quel pronom peut remplacer 'ma soeur' ?"
+correct_answer = "elle"
+choices = Array[String](["elles", "je", "tu"])
+
+[sub_resource type="Resource" id="Resource_xyvhr"]
+script = ExtResource("1_sm5hi")
+subject = 2
+grade = 2
+text = "Quel pronom peut remplacer 'Leo et Tom' ?"
+correct_answer = "ils"
+choices = Array[String](["nous", "elles", "vous"])
+
+[sub_resource type="Resource" id="Resource_srmrk"]
+script = ExtResource("1_sm5hi")
+subject = 2
+grade = 2
+text = "Quel pronom peut remplacer 'Lea et Zoe' ?"
+correct_answer = "elles"
+choices = Array[String](["je", "il", "ils"])
+
+[sub_resource type="Resource" id="Resource_apblo"]
+script = ExtResource("1_sm5hi")
+subject = 2
+grade = 2
+text = "Dans la phrase 'Le chat mange la souris.', quel est le sujet du verbe ?"
+correct_answer = "Le chat"
+choices = Array[String](["l'adjectif", "le groupe nominal complément", "le verbe"])
+
+[sub_resource type="Resource" id="Resource_w2hr6"]
+script = ExtResource("1_sm5hi")
+subject = 2
+grade = 2
+text = "Dans la phrase 'Les enfants jouent dans le jardin.', quel est le sujet du verbe ?"
+correct_answer = "Les enfants"
+choices = Array[String](["l'adjectif", "le verbe", "le groupe nominal complément"])
+
+[sub_resource type="Resource" id="Resource_0fpq7"]
+script = ExtResource("1_sm5hi")
+subject = 2
+grade = 2
+text = "Dans la phrase 'Ma mère prépare le repas.', quel est le sujet du verbe ?"
+correct_answer = "Ma mère"
+choices = Array[String](["le complément", "le groupe nominal complément", "l'adjectif"])
+
+[sub_resource type="Resource" id="Resource_f5pcc"]
+script = ExtResource("1_sm5hi")
+subject = 2
+grade = 2
+text = "Dans la phrase 'Les oiseaux chantent le matin.', quel est le sujet du verbe ?"
+correct_answer = "Les oiseaux"
+choices = Array[String](["le complément", "le groupe nominal complément", "l'adjectif"])
+
+[sub_resource type="Resource" id="Resource_vmpc2"]
+script = ExtResource("1_sm5hi")
+subject = 2
+grade = 2
+text = "Dans la phrase 'Le vent souffle fort.', quel est le sujet du verbe ?"
+correct_answer = "Le vent"
+choices = Array[String](["le verbe", "l'adjectif", "le groupe nominal complément"])
+
+[sub_resource type="Resource" id="Resource_s08la"]
+script = ExtResource("1_sm5hi")
+subject = 2
+grade = 2
+text = "Dans la phrase 'Les élèves écoutent la maîtresse.', quel est le sujet du verbe ?"
+correct_answer = "Les élèves"
+choices = Array[String](["l'adjectif", "le groupe nominal complément", "le complément"])
+
+[sub_resource type="Resource" id="Resource_urhip"]
+script = ExtResource("1_sm5hi")
+subject = 2
+grade = 2
+text = "Dans la phrase 'Mon frère lit un livre.', quel est le sujet du verbe ?"
+correct_answer = "Mon frère"
+choices = Array[String](["l'adjectif", "le verbe", "le groupe nominal complément"])
+
+[sub_resource type="Resource" id="Resource_nulcd"]
+script = ExtResource("1_sm5hi")
+subject = 2
+grade = 2
+text = "Dans la phrase 'La pluie tombe sur la ville.', quel est le sujet du verbe ?"
+correct_answer = "La pluie"
+choices = Array[String](["le complément", "le groupe nominal complément", "le verbe"])
+
+[sub_resource type="Resource" id="Resource_v22pk"]
+script = ExtResource("1_sm5hi")
+subject = 2
+grade = 2
+text = "Dans la phrase 'Les voitures roulent vite.', quel est le sujet du verbe ?"
+correct_answer = "Les voitures"
+choices = Array[String](["l'adjectif", "le verbe", "le groupe nominal complément"])
+
+[sub_resource type="Resource" id="Resource_ppn4s"]
+script = ExtResource("1_sm5hi")
+subject = 2
+grade = 2
+text = "Dans la phrase 'Le soleil brille aujourd'hui.', quel est le sujet du verbe ?"
+correct_answer = "Le soleil"
+choices = Array[String](["le verbe", "le complément", "l'adjectif"])
+
+[sub_resource type="Resource" id="Resource_nbv8a"]
+script = ExtResource("1_sm5hi")
+subject = 2
+grade = 2
+text = "Les enfants ___ dans le jardin (jouer)."
+correct_answer = "jouent"
+choices = Array[String](["joue", "joues", "jouons"])
+
+[sub_resource type="Resource" id="Resource_5twok"]
+script = ExtResource("1_sm5hi")
+subject = 2
+grade = 2
+text = "Le chat ___ la souris (chasser)."
+correct_answer = "chasse"
+choices = Array[String](["chassent", "chasses", "chassons"])
+
+[sub_resource type="Resource" id="Resource_dln83"]
+script = ExtResource("1_sm5hi")
+subject = 2
+grade = 2
+text = "Mes parents ___ un cadeau (acheter)."
+correct_answer = "achètent"
+choices = Array[String](["achète", "achètes", "achetons"])
+
+[sub_resource type="Resource" id="Resource_jlivb"]
+script = ExtResource("1_sm5hi")
+subject = 2
+grade = 2
+text = "Tu ___ très bien (chanter)."
+correct_answer = "chantes"
+choices = Array[String](["chante", "chantent", "chantons"])
+
+[sub_resource type="Resource" id="Resource_ghm3j"]
+script = ExtResource("1_sm5hi")
+subject = 2
+grade = 2
+text = "Nous ___ à la piscine (nager)."
+correct_answer = "nageons"
+choices = Array[String](["nage", "nages", "nagent"])
+
+[sub_resource type="Resource" id="Resource_70oih"]
+script = ExtResource("1_sm5hi")
+subject = 2
+grade = 2
+text = "Les élèves ___ la leçon (apprendre)."
+correct_answer = "apprennent"
+choices = Array[String](["apprend", "apprends", "apprenons"])
+
+[sub_resource type="Resource" id="Resource_ec75r"]
+script = ExtResource("1_sm5hi")
+subject = 2
+grade = 2
+text = "La maîtresse ___ la classe (surveiller)."
+correct_answer = "surveille"
+choices = Array[String](["surveillent", "surveilles", "surveillons"])
+
+[sub_resource type="Resource" id="Resource_6kg83"]
+script = ExtResource("1_sm5hi")
+subject = 2
+grade = 2
+text = "Vous ___ trop de bruit (faire)."
+correct_answer = "faites"
+choices = Array[String](["fais", "font", "faisons"])
+
+[sub_resource type="Resource" id="Resource_o58u4"]
+script = ExtResource("1_sm5hi")
+subject = 2
+grade = 2
+text = "Les chiens ___ dans la rue (courir)."
+correct_answer = "courent"
+choices = Array[String](["court", "cours", "courons"])
+
+[sub_resource type="Resource" id="Resource_i26vi"]
+script = ExtResource("1_sm5hi")
+subject = 2
+grade = 2
+text = "Je ___ mes devoirs (finir)."
+correct_answer = "finis"
+choices = Array[String](["finit", "finissent", "finissons"])
+
+[sub_resource type="Resource" id="Resource_g8lqf"]
+script = ExtResource("1_sm5hi")
+subject = 2
+grade = 2
+text = "'Quel âge as-tu ?' est une phrase de quel type ?"
+correct_answer = "interrogative"
+choices = Array[String](["déclarative", "exclamative", "impérative"])
+
+[sub_resource type="Resource" id="Resource_tvfbg"]
+script = ExtResource("1_sm5hi")
+subject = 2
+grade = 2
+text = "'Le chat dort sur le tapis.' est une phrase de quel type ?"
+correct_answer = "déclarative"
+choices = Array[String](["interrogative", "exclamative", "impérative"])
+
+[sub_resource type="Resource" id="Resource_8dpoj"]
+script = ExtResource("1_sm5hi")
+subject = 2
+grade = 2
+text = "'Comme ce gâteau est bon !' est une phrase de quel type ?"
+correct_answer = "exclamative"
+choices = Array[String](["déclarative", "interrogative", "impérative"])
+
+[sub_resource type="Resource" id="Resource_tx823"]
+script = ExtResource("1_sm5hi")
+subject = 2
+grade = 2
+text = "'Ferme la porte, s'il te plaît.' est une phrase de quel type ?"
+correct_answer = "impérative"
+choices = Array[String](["déclarative", "interrogative", "exclamative"])
+
+[sub_resource type="Resource" id="Resource_fk5cv"]
+script = ExtResource("1_sm5hi")
+subject = 2
+grade = 2
+text = "'Où habites-tu ?' est une phrase de quel type ?"
+correct_answer = "interrogative"
+choices = Array[String](["déclarative", "exclamative", "impérative"])
+
+[sub_resource type="Resource" id="Resource_kuuwr"]
+script = ExtResource("1_sm5hi")
+subject = 2
+grade = 2
+text = "'Il fait beau aujourd'hui.' est une phrase de quel type ?"
+correct_answer = "déclarative"
+choices = Array[String](["interrogative", "exclamative", "impérative"])
+
+[sub_resource type="Resource" id="Resource_xadi4"]
+script = ExtResource("1_sm5hi")
+subject = 2
+grade = 2
+text = "'Quelle belle surprise !' est une phrase de quel type ?"
+correct_answer = "exclamative"
+choices = Array[String](["déclarative", "interrogative", "impérative"])
+
+[sub_resource type="Resource" id="Resource_vnhsm"]
+script = ExtResource("1_sm5hi")
+subject = 2
+grade = 2
+text = "'Range ta chambre.' est une phrase de quel type ?"
+correct_answer = "impérative"
+choices = Array[String](["déclarative", "interrogative", "exclamative"])
+
+[sub_resource type="Resource" id="Resource_no3wv"]
+script = ExtResource("1_sm5hi")
+subject = 2
+grade = 2
+text = "'Aimes-tu le chocolat ?' est une phrase de quel type ?"
+correct_answer = "interrogative"
+choices = Array[String](["déclarative", "exclamative", "impérative"])
+
+[sub_resource type="Resource" id="Resource_1jedm"]
+script = ExtResource("1_sm5hi")
+subject = 2
+grade = 2
+text = "'Les vacances commencent demain.' est une phrase de quel type ?"
+correct_answer = "déclarative"
+choices = Array[String](["interrogative", "exclamative", "impérative"])
+
+[resource]
+script = ExtResource("2_8kwji")
+questions = Array[ExtResource("1_sm5hi")]([SubResource("Resource_sm5hi"), SubResource("Resource_8kwji"), SubResource("Resource_sxnhu"), SubResource("Resource_vc0t3"), SubResource("Resource_3i30g"), SubResource("Resource_vlaee"), SubResource("Resource_lcwlp"), SubResource("Resource_jdemf"), SubResource("Resource_xyvhr"), SubResource("Resource_srmrk"), SubResource("Resource_apblo"), SubResource("Resource_w2hr6"), SubResource("Resource_0fpq7"), SubResource("Resource_f5pcc"), SubResource("Resource_vmpc2"), SubResource("Resource_s08la"), SubResource("Resource_urhip"), SubResource("Resource_nulcd"), SubResource("Resource_v22pk"), SubResource("Resource_ppn4s"), SubResource("Resource_nbv8a"), SubResource("Resource_5twok"), SubResource("Resource_dln83"), SubResource("Resource_jlivb"), SubResource("Resource_ghm3j"), SubResource("Resource_70oih"), SubResource("Resource_ec75r"), SubResource("Resource_6kg83"), SubResource("Resource_o58u4"), SubResource("Resource_i26vi"), SubResource("Resource_g8lqf"), SubResource("Resource_tvfbg"), SubResource("Resource_8dpoj"), SubResource("Resource_tx823"), SubResource("Resource_fk5cv"), SubResource("Resource_kuuwr"), SubResource("Resource_xadi4"), SubResource("Resource_vnhsm"), SubResource("Resource_no3wv"), SubResource("Resource_1jedm")])

@@ -1,0 +1,1338 @@
+[gd_resource type="Resource" script_class="QuestionBankResource" format=3 uid="uid://cxgsqulklj116"]
+
+[ext_resource type="Script" uid="uid://dfbr3elc3mbig" path="res://data/question/question_resource.gd" id="1_dmuho"]
+[ext_resource type="Script" uid="uid://c422qc1cinnna" path="res://data/question/question_bank_resource.gd" id="2_tumpv"]
+
+[sub_resource type="Resource" id="Resource_dmuho"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le pluriel de 'lion' ?"
+correct_answer = "lions"
+choices = Array[String](["liones", "lios", "lionx"])
+
+[sub_resource type="Resource" id="Resource_tumpv"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le pluriel de 'canard' ?"
+correct_answer = "canards"
+choices = Array[String](["canardes", "canars", "canardx"])
+
+[sub_resource type="Resource" id="Resource_bp55b"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le pluriel de 'renard' ?"
+correct_answer = "renards"
+choices = Array[String](["renardes", "renars", "renardx"])
+
+[sub_resource type="Resource" id="Resource_yrodp"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le pluriel de 'classe' ?"
+correct_answer = "classes"
+choices = Array[String](["classées", "classs", "classex"])
+
+[sub_resource type="Resource" id="Resource_pa7sd"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le pluriel de 'poule' ?"
+correct_answer = "poules"
+choices = Array[String](["poulees", "pouls", "poulex"])
+
+[sub_resource type="Resource" id="Resource_n02e1"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le pluriel de 'tigre' ?"
+correct_answer = "tigres"
+choices = Array[String](["tigrées", "tigrs", "tigrex"])
+
+[sub_resource type="Resource" id="Resource_vki8m"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le pluriel de 'jardin' ?"
+correct_answer = "jardins"
+choices = Array[String](["jardines", "jardis", "jardinx"])
+
+[sub_resource type="Resource" id="Resource_s41ci"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le pluriel de 'camion' ?"
+correct_answer = "camions"
+choices = Array[String](["camiones", "camios", "camionx"])
+
+[sub_resource type="Resource" id="Resource_eenae"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le pluriel de 'fourmi' ?"
+correct_answer = "fourmis"
+choices = Array[String](["fourmies", "fourms", "fourmix"])
+
+[sub_resource type="Resource" id="Resource_qj3vr"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le pluriel de 'copain' ?"
+correct_answer = "copains"
+choices = Array[String](["copaines", "copais", "copainx"])
+
+[sub_resource type="Resource" id="Resource_eybbm"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le pluriel de 'pomme' ?"
+correct_answer = "pommes"
+choices = Array[String](["pommees", "pomms", "pommex"])
+
+[sub_resource type="Resource" id="Resource_0ecro"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le pluriel de 'chat' ?"
+correct_answer = "chats"
+choices = Array[String](["chates", "chas", "chatx"])
+
+[sub_resource type="Resource" id="Resource_35bec"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le pluriel de 'arbre' ?"
+correct_answer = "arbres"
+choices = Array[String](["arbrees", "arbrs", "arbrex"])
+
+[sub_resource type="Resource" id="Resource_c241w"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le pluriel de 'montagne' ?"
+correct_answer = "montagnes"
+choices = Array[String](["montagnees", "montagns", "montagnex"])
+
+[sub_resource type="Resource" id="Resource_qftdb"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le pluriel de 'jouet' ?"
+correct_answer = "jouets"
+choices = Array[String](["jouetes", "joues", "jouetx"])
+
+[sub_resource type="Resource" id="Resource_mh4mx"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le pluriel de 'papillon' ?"
+correct_answer = "papillons"
+choices = Array[String](["papillones", "papillos", "papillonx"])
+
+[sub_resource type="Resource" id="Resource_l3fa0"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le pluriel de 'voiture' ?"
+correct_answer = "voitures"
+choices = Array[String](["voiturees", "voiturs", "voiturex"])
+
+[sub_resource type="Resource" id="Resource_b6387"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le pluriel de 'chemise' ?"
+correct_answer = "chemises"
+choices = Array[String](["chemisees", "chemiss", "chemisex"])
+
+[sub_resource type="Resource" id="Resource_n4wsj"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le pluriel de 'grenouille' ?"
+correct_answer = "grenouilles"
+choices = Array[String](["grenouillees", "grenouills", "grenouillex"])
+
+[sub_resource type="Resource" id="Resource_l3txr"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le pluriel de 'robe' ?"
+correct_answer = "robes"
+choices = Array[String](["robees", "robs", "robex"])
+
+[sub_resource type="Resource" id="Resource_cu1da"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le pluriel de 'fleur' ?"
+correct_answer = "fleurs"
+choices = Array[String](["fleures", "fleus", "fleurx"])
+
+[sub_resource type="Resource" id="Resource_6m1lj"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le pluriel de 'tortue' ?"
+correct_answer = "tortues"
+choices = Array[String](["tortuees", "tortus", "tortuex"])
+
+[sub_resource type="Resource" id="Resource_ch82q"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le pluriel de 'singe' ?"
+correct_answer = "singes"
+choices = Array[String](["singees", "sings", "singex"])
+
+[sub_resource type="Resource" id="Resource_lpcdb"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le pluriel de 'mouton' ?"
+correct_answer = "moutons"
+choices = Array[String](["moutones", "moutos", "moutonx"])
+
+[sub_resource type="Resource" id="Resource_npihj"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le pluriel de 'jupe' ?"
+correct_answer = "jupes"
+choices = Array[String](["jupees", "jups", "jupex"])
+
+[sub_resource type="Resource" id="Resource_j4wwv"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le pluriel de 'vélo' ?"
+correct_answer = "vélos"
+choices = Array[String](["véloes", "véls", "vélox"])
+
+[sub_resource type="Resource" id="Resource_dtoxe"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le pluriel de 'cochon' ?"
+correct_answer = "cochons"
+choices = Array[String](["cochones", "cochos", "cochonx"])
+
+[sub_resource type="Resource" id="Resource_31kj4"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le pluriel de 'maison' ?"
+correct_answer = "maisons"
+choices = Array[String](["maisones", "maisos", "maisonx"])
+
+[sub_resource type="Resource" id="Resource_3huls"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le pluriel de 'lapin' ?"
+correct_answer = "lapins"
+choices = Array[String](["lapines", "lapis", "lapinx"])
+
+[sub_resource type="Resource" id="Resource_li2ey"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le pluriel de 'stylo' ?"
+correct_answer = "stylos"
+choices = Array[String](["styloes", "styls", "stylox"])
+
+[sub_resource type="Resource" id="Resource_nqnsu"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le pluriel de 'poisson' ?"
+correct_answer = "poissons"
+choices = Array[String](["poissones", "poissos", "poissonx"])
+
+[sub_resource type="Resource" id="Resource_1jqrt"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le pluriel de 'chien' ?"
+correct_answer = "chiens"
+choices = Array[String](["chienes", "chies", "chienx"])
+
+[sub_resource type="Resource" id="Resource_6gtqx"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le pluriel de 'récréation' ?"
+correct_answer = "récréations"
+choices = Array[String](["récréationes", "récréatios", "récréationx"])
+
+[sub_resource type="Resource" id="Resource_q7bsq"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le pluriel de 'trousse' ?"
+correct_answer = "trousses"
+choices = Array[String](["troussées", "trousss", "troussex"])
+
+[sub_resource type="Resource" id="Resource_rk5io"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le pluriel de 'forêt' ?"
+correct_answer = "forêts"
+choices = Array[String](["forêtes", "forês", "forêtx"])
+
+[sub_resource type="Resource" id="Resource_f0g08"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le singulier de 'grenouilles' ?"
+correct_answer = "grenouille"
+choices = Array[String](["grenouillee", "grenouill", "grenouilles"])
+
+[sub_resource type="Resource" id="Resource_144tb"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le singulier de 'parcs' ?"
+correct_answer = "parc"
+choices = Array[String](["parce", "par", "parcs"])
+
+[sub_resource type="Resource" id="Resource_68nj8"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le singulier de 'tortues' ?"
+correct_answer = "tortue"
+choices = Array[String](["tortuee", "tortu", "tortues"])
+
+[sub_resource type="Resource" id="Resource_hx0v2"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le singulier de 'guêpes' ?"
+correct_answer = "guêpe"
+choices = Array[String](["guêpee", "guêp", "guêpes"])
+
+[sub_resource type="Resource" id="Resource_7il0j"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le singulier de 'cochons' ?"
+correct_answer = "cochon"
+choices = Array[String](["cochone", "cocho", "cochons"])
+
+[sub_resource type="Resource" id="Resource_xjlp0"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le singulier de 'écoles' ?"
+correct_answer = "école"
+choices = Array[String](["écolee", "écol", "écoles"])
+
+[sub_resource type="Resource" id="Resource_5k1ua"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le singulier de 'forêts' ?"
+correct_answer = "forêt"
+choices = Array[String](["forête", "forê", "forêts"])
+
+[sub_resource type="Resource" id="Resource_jyacg"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le singulier de 'avions' ?"
+correct_answer = "avion"
+choices = Array[String](["avione", "avio", "avions"])
+
+[sub_resource type="Resource" id="Resource_efqj3"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le singulier de 'lampes' ?"
+correct_answer = "lampe"
+choices = Array[String](["lampee", "lamp", "lampes"])
+
+[sub_resource type="Resource" id="Resource_5rnee"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le singulier de 'cahiers' ?"
+correct_answer = "cahier"
+choices = Array[String](["cahiere", "cahie", "cahiers"])
+
+[sub_resource type="Resource" id="Resource_rrgj0"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Comment s'appelle la femelle du : mouton ?"
+correct_answer = "brebis"
+choices = Array[String](["mouton", "moutone", "brebise"])
+
+[sub_resource type="Resource" id="Resource_qsfm8"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Comment s'appelle la femelle du : cheval ?"
+correct_answer = "jument"
+choices = Array[String](["cheval", "chevale", "jumente"])
+
+[sub_resource type="Resource" id="Resource_o55pm"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Comment s'appelle la femelle du : âne ?"
+correct_answer = "ânesse"
+choices = Array[String](["âne", "ânee", "âness"])
+
+[sub_resource type="Resource" id="Resource_tsdo3"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Comment s'appelle la femelle du : singe ?"
+correct_answer = "guenon"
+choices = Array[String](["singe", "singee", "guenone"])
+
+[sub_resource type="Resource" id="Resource_sevxl"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Comment s'appelle la femelle du : boeuf ?"
+correct_answer = "vache"
+choices = Array[String](["boeuf", "boeufe", "vach"])
+
+[sub_resource type="Resource" id="Resource_1oomm"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Comment s'appelle la femelle du : canard ?"
+correct_answer = "cane"
+choices = Array[String](["canard", "canarde", "can"])
+
+[sub_resource type="Resource" id="Resource_2hd0b"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Comment s'appelle la femelle du : loup ?"
+correct_answer = "louve"
+choices = Array[String](["loup", "loupe", "louv"])
+
+[sub_resource type="Resource" id="Resource_ghbln"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Comment s'appelle la femelle du : lion ?"
+correct_answer = "lionne"
+choices = Array[String](["lion", "lione", "lionn"])
+
+[sub_resource type="Resource" id="Resource_wadmd"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Comment s'appelle la femelle du : coq ?"
+correct_answer = "poule"
+choices = Array[String](["coq", "coqe", "poul"])
+
+[sub_resource type="Resource" id="Resource_r4xj2"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Comment s'appelle la femelle du : tigre ?"
+correct_answer = "tigresse"
+choices = Array[String](["tigre", "tigrée", "tigress"])
+
+[sub_resource type="Resource" id="Resource_dn5cn"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Comment s'appelle la femelle du : chien ?"
+correct_answer = "chienne"
+choices = Array[String](["chien", "chiene", "chienn"])
+
+[sub_resource type="Resource" id="Resource_1kwy4"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Comment s'appelle le bébé de : éléphant ?"
+correct_answer = "éléphanteau"
+choices = Array[String](["lapereau", "chevreau", "têtard"])
+
+[sub_resource type="Resource" id="Resource_r584s"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Comment s'appelle le bébé de : vache ?"
+correct_answer = "veau"
+choices = Array[String](["poussin", "poulain", "agneau"])
+
+[sub_resource type="Resource" id="Resource_fxbm4"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Comment s'appelle le bébé de : lapin ?"
+correct_answer = "lapereau"
+choices = Array[String](["poussin", "louveteau", "veau"])
+
+[sub_resource type="Resource" id="Resource_k5fi2"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Comment s'appelle le bébé de : cheval ?"
+correct_answer = "poulain"
+choices = Array[String](["agneau", "poussin", "oisillon"])
+
+[sub_resource type="Resource" id="Resource_fwt6l"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Comment s'appelle le bébé de : loup ?"
+correct_answer = "louveteau"
+choices = Array[String](["éléphanteau", "agneau", "renardeau"])
+
+[sub_resource type="Resource" id="Resource_yqb01"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Comment s'appelle le bébé de : oiseau ?"
+correct_answer = "oisillon"
+choices = Array[String](["lionceau", "lapereau", "chevreau"])
+
+[sub_resource type="Resource" id="Resource_k5uxw"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Comment s'appelle le bébé de : lion ?"
+correct_answer = "lionceau"
+choices = Array[String](["chevreau", "têtard", "lapereau"])
+
+[sub_resource type="Resource" id="Resource_ssivg"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Comment s'appelle le bébé de : renard ?"
+correct_answer = "renardeau"
+choices = Array[String](["éléphanteau", "lionceau", "veau"])
+
+[sub_resource type="Resource" id="Resource_c7jwc"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Comment s'appelle le bébé de : chèvre ?"
+correct_answer = "chevreau"
+choices = Array[String](["ourson", "éléphanteau", "lapereau"])
+
+[sub_resource type="Resource" id="Resource_17e7g"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Comment s'appelle le bébé de : mouton ?"
+correct_answer = "agneau"
+choices = Array[String](["lapereau", "poussin", "éléphanteau"])
+
+[sub_resource type="Resource" id="Resource_cmoyo"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Comment s'appelle le bébé de : ours ?"
+correct_answer = "ourson"
+choices = Array[String](["éléphanteau", "louveteau", "têtard"])
+
+[sub_resource type="Resource" id="Resource_v3jr0"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Comment s'appelle le bébé de : poule ?"
+correct_answer = "poussin"
+choices = Array[String](["lapereau", "têtard", "poulain"])
+
+[sub_resource type="Resource" id="Resource_rymdf"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Comment s'appelle le bébé de : grenouille ?"
+correct_answer = "têtard"
+choices = Array[String](["lionceau", "veau", "lapereau"])
+
+[sub_resource type="Resource" id="Resource_al4ou"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le contraire de 'fort' ?"
+correct_answer = "faible"
+choices = Array[String](["froid", "sombre", "chaud"])
+
+[sub_resource type="Resource" id="Resource_swicl"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le contraire de 'dedans' ?"
+correct_answer = "dehors"
+choices = Array[String](["dessus", "dessous", "tard"])
+
+[sub_resource type="Resource" id="Resource_haw83"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le contraire de 'haut' ?"
+correct_answer = "bas"
+choices = Array[String](["sale", "vieux", "faible"])
+
+[sub_resource type="Resource" id="Resource_fy7r4"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le contraire de 'plein' ?"
+correct_answer = "vide"
+choices = Array[String](["léger", "sombre", "chaud"])
+
+[sub_resource type="Resource" id="Resource_b34yc"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le contraire de 'dessus' ?"
+correct_answer = "dessous"
+choices = Array[String](["dedans", "tôt", "dehors"])
+
+[sub_resource type="Resource" id="Resource_jn111"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le contraire de 'monter' ?"
+correct_answer = "descendre"
+choices = Array[String](["finir", "sortir", "entrer"])
+
+[sub_resource type="Resource" id="Resource_27baw"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le contraire de 'gros' ?"
+correct_answer = "maigre"
+choices = Array[String](["difficile", "fermé", "sale"])
+
+[sub_resource type="Resource" id="Resource_t8vv3"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le contraire de 'commencer' ?"
+correct_answer = "finir"
+choices = Array[String](["descendre", "prendre", "donner"])
+
+[sub_resource type="Resource" id="Resource_4xxtl"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le contraire de 'donner' ?"
+correct_answer = "prendre"
+choices = Array[String](["détester", "sortir", "vendre"])
+
+[sub_resource type="Resource" id="Resource_32os6"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le contraire de 'chaud' ?"
+correct_answer = "froid"
+choices = Array[String](["méchant", "sombre", "sale"])
+
+[sub_resource type="Resource" id="Resource_qho1n"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le contraire de 'tôt' ?"
+correct_answer = "tard"
+choices = Array[String](["dehors", "dedans", "dessus"])
+
+[sub_resource type="Resource" id="Resource_8y0c0"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le contraire de 'gagner' ?"
+correct_answer = "perdre"
+choices = Array[String](["détester", "finir", "vendre"])
+
+[sub_resource type="Resource" id="Resource_tejq6"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le contraire de 'propre' ?"
+correct_answer = "sale"
+choices = Array[String](["méchant", "faible", "vieux"])
+
+[sub_resource type="Resource" id="Resource_5jsde"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le contraire de 'gentil' ?"
+correct_answer = "méchant"
+choices = Array[String](["lent", "faible", "sale"])
+
+[sub_resource type="Resource" id="Resource_nmg4m"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le contraire de 'acheter' ?"
+correct_answer = "vendre"
+choices = Array[String](["partir", "sortir", "prendre"])
+
+[sub_resource type="Resource" id="Resource_7gt73"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le contraire de 'facile' ?"
+correct_answer = "difficile"
+choices = Array[String](["pauvre", "lent", "sale"])
+
+[sub_resource type="Resource" id="Resource_ruvd3"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le contraire de 'entrer' ?"
+correct_answer = "sortir"
+choices = Array[String](["prendre", "donner", "finir"])
+
+[sub_resource type="Resource" id="Resource_wb63n"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le contraire de 'jour' ?"
+correct_answer = "nuit"
+choices = Array[String](["vieux", "prendre", "méchant"])
+
+[sub_resource type="Resource" id="Resource_tynau"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le contraire de 'aimer' ?"
+correct_answer = "détester"
+choices = Array[String](["partir", "sortir", "prendre"])
+
+[sub_resource type="Resource" id="Resource_fgkvl"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le contraire de 'arriver' ?"
+correct_answer = "partir"
+choices = Array[String](["prendre", "finir", "sortir"])
+
+[sub_resource type="Resource" id="Resource_y46qj"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le contraire de 'ouvert' ?"
+correct_answer = "fermé"
+choices = Array[String](["sale", "sombre", "vieux"])
+
+[sub_resource type="Resource" id="Resource_21ud7"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le contraire de 'rapide' ?"
+correct_answer = "lent"
+choices = Array[String](["léger", "faible", "sombre"])
+
+[sub_resource type="Resource" id="Resource_gvbcp"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le contraire de 'riche' ?"
+correct_answer = "pauvre"
+choices = Array[String](["sale", "bas", "faible"])
+
+[sub_resource type="Resource" id="Resource_uu5r1"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le contraire de 'clair' ?"
+correct_answer = "sombre"
+choices = Array[String](["faible", "sale", "bas"])
+
+[sub_resource type="Resource" id="Resource_ki2l1"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le contraire de 'jeune' ?"
+correct_answer = "vieux"
+choices = Array[String](["faible", "lent", "sombre"])
+
+[sub_resource type="Resource" id="Resource_kambv"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel jour vient juste après lundi ?"
+correct_answer = "mardi"
+choices = Array[String](["dimanche", "vendredi", "mercredi"])
+
+[sub_resource type="Resource" id="Resource_xbcla"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel jour vient juste après mardi ?"
+correct_answer = "mercredi"
+choices = Array[String](["dimanche", "samedi", "mardi"])
+
+[sub_resource type="Resource" id="Resource_2urvm"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel jour vient juste après mercredi ?"
+correct_answer = "jeudi"
+choices = Array[String](["dimanche", "mardi", "vendredi"])
+
+[sub_resource type="Resource" id="Resource_th2qt"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel jour vient juste après jeudi ?"
+correct_answer = "vendredi"
+choices = Array[String](["samedi", "dimanche", "mercredi"])
+
+[sub_resource type="Resource" id="Resource_2cbaq"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel jour vient juste après vendredi ?"
+correct_answer = "samedi"
+choices = Array[String](["mardi", "dimanche", "mercredi"])
+
+[sub_resource type="Resource" id="Resource_qpeoa"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel jour vient juste après samedi ?"
+correct_answer = "dimanche"
+choices = Array[String](["samedi", "mercredi", "lundi"])
+
+[sub_resource type="Resource" id="Resource_2n8dh"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel jour vient juste après dimanche ?"
+correct_answer = "lundi"
+choices = Array[String](["mercredi", "samedi", "mardi"])
+
+[sub_resource type="Resource" id="Resource_hd5yf"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "De quelle couleur est un citron ?"
+correct_answer = "jaune"
+choices = Array[String](["blanc", "noir", "violet"])
+
+[sub_resource type="Resource" id="Resource_wcxnp"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "De quelle couleur est la mer ?"
+correct_answer = "bleu"
+choices = Array[String](["rouge", "orange", "violet"])
+
+[sub_resource type="Resource" id="Resource_3owoc"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "De quelle couleur est le ciel (par beau temps) ?"
+correct_answer = "bleu"
+choices = Array[String](["vert", "violet", "orange"])
+
+[sub_resource type="Resource" id="Resource_jwngw"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "De quelle couleur est l'herbe ?"
+correct_answer = "vert"
+choices = Array[String](["bleu", "jaune", "noir"])
+
+[sub_resource type="Resource" id="Resource_w2syd"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "De quelle couleur est une fraise ?"
+correct_answer = "rouge"
+choices = Array[String](["violet", "vert", "jaune"])
+
+[sub_resource type="Resource" id="Resource_d2emg"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "De quelle couleur est le charbon ?"
+correct_answer = "noir"
+choices = Array[String](["bleu", "blanc", "marron"])
+
+[sub_resource type="Resource" id="Resource_u4yjg"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "De quelle couleur est la neige ?"
+correct_answer = "blanc"
+choices = Array[String](["orange", "marron", "rose"])
+
+[sub_resource type="Resource" id="Resource_5tvft"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "De quelle couleur est une orange (le fruit) ?"
+correct_answer = "orange"
+choices = Array[String](["rose", "rouge", "bleu"])
+
+[sub_resource type="Resource" id="Resource_b8myq"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "De quelle couleur est le chocolat ?"
+correct_answer = "marron"
+choices = Array[String](["orange", "jaune", "violet"])
+
+[sub_resource type="Resource" id="Resource_p7x74"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Combien y a-t-il de lettres dans le mot MONTAGNE ?"
+correct_answer = "8"
+choices = Array[String](["18", "13", "9"])
+
+[sub_resource type="Resource" id="Resource_mhwfw"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Combien y a-t-il de lettres dans le mot ARAIGNÉE ?"
+correct_answer = "8"
+choices = Array[String](["6", "18", "9"])
+
+[sub_resource type="Resource" id="Resource_ojrhh"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Combien y a-t-il de lettres dans le mot MAISON ?"
+correct_answer = "6"
+choices = Array[String](["4", "8", "1"])
+
+[sub_resource type="Resource" id="Resource_u6wi3"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Combien y a-t-il de lettres dans le mot CAHIER ?"
+correct_answer = "6"
+choices = Array[String](["11", "4", "9"])
+
+[sub_resource type="Resource" id="Resource_ckh3c"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Combien y a-t-il de lettres dans le mot BANANE ?"
+correct_answer = "6"
+choices = Array[String](["7", "11", "5"])
+
+[sub_resource type="Resource" id="Resource_d0cj4"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Combien y a-t-il de lettres dans le mot ESCARGOT ?"
+correct_answer = "8"
+choices = Array[String](["11", "6", "3"])
+
+[sub_resource type="Resource" id="Resource_4cinh"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Combien y a-t-il de lettres dans le mot CHAPEAU ?"
+correct_answer = "7"
+choices = Array[String](["8", "5", "6"])
+
+[sub_resource type="Resource" id="Resource_h8ldy"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Combien y a-t-il de lettres dans le mot POMME ?"
+correct_answer = "5"
+choices = Array[String](["15", "6", "2"])
+
+[sub_resource type="Resource" id="Resource_7y4y3"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Combien y a-t-il de lettres dans le mot CHAT ?"
+correct_answer = "4"
+choices = Array[String](["1", "7", "9"])
+
+[sub_resource type="Resource" id="Resource_imx6c"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Combien y a-t-il de lettres dans le mot CHIEN ?"
+correct_answer = "5"
+choices = Array[String](["15", "10", "4"])
+
+[sub_resource type="Resource" id="Resource_khryf"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Combien y a-t-il de lettres dans le mot RENARD ?"
+correct_answer = "6"
+choices = Array[String](["1", "8", "4"])
+
+[sub_resource type="Resource" id="Resource_lfx6x"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Combien y a-t-il de lettres dans le mot GÂTEAU ?"
+correct_answer = "6"
+choices = Array[String](["7", "11", "16"])
+
+[sub_resource type="Resource" id="Resource_6vx0o"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Combien y a-t-il de lettres dans le mot CRAYON ?"
+correct_answer = "6"
+choices = Array[String](["3", "4", "9"])
+
+[sub_resource type="Resource" id="Resource_tsuhr"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Combien y a-t-il de lettres dans le mot LIVRE ?"
+correct_answer = "5"
+choices = Array[String](["10", "2", "6"])
+
+[sub_resource type="Resource" id="Resource_7v8l8"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Combien y a-t-il de lettres dans le mot GRENOUILLE ?"
+correct_answer = "10"
+choices = Array[String](["7", "13", "11"])
+
+[sub_resource type="Resource" id="Resource_dgmda"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Comment écrit-on le nombre 4 en lettres ?"
+correct_answer = "quatre"
+choices = Array[String](["kwatre", "cuatre", "quattre"])
+
+[sub_resource type="Resource" id="Resource_77i1m"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Comment écrit-on le nombre 5 en lettres ?"
+correct_answer = "cinq"
+choices = Array[String](["sinq", "cinc", "cink"])
+
+[sub_resource type="Resource" id="Resource_imlgv"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Comment écrit-on le nombre 11 en lettres ?"
+correct_answer = "onze"
+choices = Array[String](["omze", "onse", "honze"])
+
+[sub_resource type="Resource" id="Resource_20r6q"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Comment écrit-on le nombre 15 en lettres ?"
+correct_answer = "quinze"
+choices = Array[String](["quinse", "quainze", "kinze"])
+
+[sub_resource type="Resource" id="Resource_s4i7n"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Comment écrit-on le nombre 6 en lettres ?"
+correct_answer = "six"
+choices = Array[String](["sisse", "cix", "sixe"])
+
+[sub_resource type="Resource" id="Resource_njwii"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Comment écrit-on le nombre 16 en lettres ?"
+correct_answer = "seize"
+choices = Array[String](["seise", "ceize", "seze"])
+
+[sub_resource type="Resource" id="Resource_bdn4b"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Comment écrit-on le nombre 3 en lettres ?"
+correct_answer = "trois"
+choices = Array[String](["troi", "throis", "troix"])
+
+[sub_resource type="Resource" id="Resource_ftjj1"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Comment écrit-on le nombre 12 en lettres ?"
+correct_answer = "douze"
+choices = Array[String](["doze", "douhze", "douse"])
+
+[sub_resource type="Resource" id="Resource_nmykj"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Comment écrit-on le nombre 17 en lettres ?"
+correct_answer = "dix-sept"
+choices = Array[String](["disept", "dixept", "dix-cept"])
+
+[sub_resource type="Resource" id="Resource_xlkyn"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Comment écrit-on le nombre 13 en lettres ?"
+correct_answer = "treize"
+choices = Array[String](["treise", "threize", "traize"])
+
+[sub_resource type="Resource" id="Resource_rasqs"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Comment écrit-on le nombre 9 en lettres ?"
+correct_answer = "neuf"
+choices = Array[String](["neuve", "neuff", "neufs"])
+
+[sub_resource type="Resource" id="Resource_asynw"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Comment écrit-on le nombre 7 en lettres ?"
+correct_answer = "sept"
+choices = Array[String](["cept", "set", "septe"])
+
+[sub_resource type="Resource" id="Resource_k3v3y"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Comment écrit-on le nombre 18 en lettres ?"
+correct_answer = "dix-huit"
+choices = Array[String](["dixhuit", "disuit", "dix-uit"])
+
+[sub_resource type="Resource" id="Resource_v54ba"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Comment écrit-on le nombre 1 en lettres ?"
+correct_answer = "un"
+choices = Array[String](["hun", "eun", "ung"])
+
+[sub_resource type="Resource" id="Resource_mcl1s"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Comment écrit-on le nombre 14 en lettres ?"
+correct_answer = "quatorze"
+choices = Array[String](["quatorse", "cuatorze", "quatorz"])
+
+[sub_resource type="Resource" id="Resource_sw1jf"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Comment écrit-on le nombre 19 en lettres ?"
+correct_answer = "dix-neuf"
+choices = Array[String](["dixneuf", "dix-neuve", "disneuf"])
+
+[sub_resource type="Resource" id="Resource_xy76j"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Comment écrit-on le nombre 2 en lettres ?"
+correct_answer = "deux"
+choices = Array[String](["deuxs", "dheux", "deu"])
+
+[sub_resource type="Resource" id="Resource_m4425"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Comment écrit-on le nombre 8 en lettres ?"
+correct_answer = "huit"
+choices = Array[String](["huitte", "huict", "uit"])
+
+[sub_resource type="Resource" id="Resource_2g1n4"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Comment écrit-on le nombre 10 en lettres ?"
+correct_answer = "dix"
+choices = Array[String](["dic", "dixe", "dis"])
+
+[sub_resource type="Resource" id="Resource_d7tpb"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Comment écrit-on le nombre 20 en lettres ?"
+correct_answer = "vingt"
+choices = Array[String](["vint", "vingth", "vingts"])
+
+[sub_resource type="Resource" id="Resource_ew6l7"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Combien de voyelles y a-t-il dans le mot MAISON ?"
+correct_answer = "3"
+choices = Array[String](["0", "2", "1"])
+
+[sub_resource type="Resource" id="Resource_pmj0q"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Combien de voyelles y a-t-il dans le mot MONTAGNE ?"
+correct_answer = "3"
+choices = Array[String](["5", "2", "4"])
+
+[sub_resource type="Resource" id="Resource_i66ig"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Combien de voyelles y a-t-il dans le mot CRAYON ?"
+correct_answer = "2"
+choices = Array[String](["3", "1", "0"])
+
+[sub_resource type="Resource" id="Resource_gp4wd"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Combien de voyelles y a-t-il dans le mot CHAPEAU ?"
+correct_answer = "4"
+choices = Array[String](["3", "9", "2"])
+
+[sub_resource type="Resource" id="Resource_bnmvv"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Combien de voyelles y a-t-il dans le mot COCCINELLE ?"
+correct_answer = "4"
+choices = Array[String](["14", "2", "7"])
+
+[sub_resource type="Resource" id="Resource_safod"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Combien de voyelles y a-t-il dans le mot TORTUE ?"
+correct_answer = "3"
+choices = Array[String](["0", "2", "1"])
+
+[sub_resource type="Resource" id="Resource_1iv6e"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Combien de voyelles y a-t-il dans le mot GRENOUILLE ?"
+correct_answer = "5"
+choices = Array[String](["2", "8", "4"])
+
+[sub_resource type="Resource" id="Resource_f6h0g"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Combien de voyelles y a-t-il dans le mot LIVRE ?"
+correct_answer = "2"
+choices = Array[String](["3", "12", "1"])
+
+[sub_resource type="Resource" id="Resource_6jul2"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Combien de voyelles y a-t-il dans le mot BANANE ?"
+correct_answer = "3"
+choices = Array[String](["5", "2", "4"])
+
+[sub_resource type="Resource" id="Resource_n2rjw"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Combien de voyelles y a-t-il dans le mot JARDIN ?"
+correct_answer = "2"
+choices = Array[String](["3", "5", "7"])
+
+[sub_resource type="Resource" id="Resource_q5ixe"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Combien de voyelles y a-t-il dans le mot OISEAU ?"
+correct_answer = "5"
+choices = Array[String](["6", "2", "8"])
+
+[sub_resource type="Resource" id="Resource_5ca0q"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Combien de voyelles y a-t-il dans le mot CAHIER ?"
+correct_answer = "3"
+choices = Array[String](["4", "0", "2"])
+
+[sub_resource type="Resource" id="Resource_x44jk"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel jour vient juste avant lundi ?"
+correct_answer = "dimanche"
+choices = Array[String](["mardi", "mercredi", "jeudi"])
+
+[sub_resource type="Resource" id="Resource_wa16i"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel jour vient juste avant mardi ?"
+correct_answer = "lundi"
+choices = Array[String](["jeudi", "mercredi", "dimanche"])
+
+[sub_resource type="Resource" id="Resource_ahyls"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel jour vient juste avant mercredi ?"
+correct_answer = "mardi"
+choices = Array[String](["mercredi", "lundi", "jeudi"])
+
+[sub_resource type="Resource" id="Resource_g6no4"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel jour vient juste avant jeudi ?"
+correct_answer = "mercredi"
+choices = Array[String](["jeudi", "samedi", "lundi"])
+
+[sub_resource type="Resource" id="Resource_o6r72"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel jour vient juste avant vendredi ?"
+correct_answer = "jeudi"
+choices = Array[String](["lundi", "mercredi", "dimanche"])
+
+[sub_resource type="Resource" id="Resource_h65hp"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel jour vient juste avant samedi ?"
+correct_answer = "vendredi"
+choices = Array[String](["mercredi", "lundi", "mardi"])
+
+[sub_resource type="Resource" id="Resource_ovvja"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel jour vient juste avant dimanche ?"
+correct_answer = "samedi"
+choices = Array[String](["vendredi", "mardi", "dimanche"])
+
+[sub_resource type="Resource" id="Resource_v0xh4"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le masculin de 'brebis' ?"
+correct_answer = "mouton"
+choices = Array[String](["brebis", "brebise", "moutone"])
+
+[sub_resource type="Resource" id="Resource_i41xc"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le masculin de 'tigresse' ?"
+correct_answer = "tigre"
+choices = Array[String](["tigresse", "tigressee", "tigrée"])
+
+[sub_resource type="Resource" id="Resource_jyto6"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le masculin de 'ânesse' ?"
+correct_answer = "âne"
+choices = Array[String](["ânesse", "ânessee", "ânee"])
+
+[sub_resource type="Resource" id="Resource_5b74k"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le masculin de 'cane' ?"
+correct_answer = "canard"
+choices = Array[String](["cane", "canee", "canarde"])
+
+[sub_resource type="Resource" id="Resource_y5muh"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le masculin de 'louve' ?"
+correct_answer = "loup"
+choices = Array[String](["louve", "louvee", "loupe"])
+
+[sub_resource type="Resource" id="Resource_f1mpq"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le masculin de 'vache' ?"
+correct_answer = "boeuf"
+choices = Array[String](["vache", "vachee", "boeufe"])
+
+[sub_resource type="Resource" id="Resource_e6yea"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le masculin de 'poule' ?"
+correct_answer = "coq"
+choices = Array[String](["poule", "poulee", "coqe"])
+
+[sub_resource type="Resource" id="Resource_v6s8v"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le masculin de 'guenon' ?"
+correct_answer = "singe"
+choices = Array[String](["guenon", "guenone", "singee"])
+
+[sub_resource type="Resource" id="Resource_p8p51"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le masculin de 'chienne' ?"
+correct_answer = "chien"
+choices = Array[String](["chienne", "chiennee", "chiene"])
+
+[sub_resource type="Resource" id="Resource_p0u02"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le masculin de 'lionne' ?"
+correct_answer = "lion"
+choices = Array[String](["lionne", "lionnee", "lione"])
+
+[sub_resource type="Resource" id="Resource_h8s5v"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le masculin de 'jument' ?"
+correct_answer = "cheval"
+choices = Array[String](["jument", "jumente", "chevale"])
+
+[sub_resource type="Resource" id="Resource_k5b02"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le contraire de 'faible' ?"
+correct_answer = "fort"
+choices = Array[String](["gentil", "lourd", "rapide"])
+
+[sub_resource type="Resource" id="Resource_ogsy6"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le contraire de 'prendre' ?"
+correct_answer = "donner"
+choices = Array[String](["aimer", "perdre", "sortir"])
+
+[sub_resource type="Resource" id="Resource_f7umu"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le contraire de 'dessous' ?"
+correct_answer = "dessus"
+choices = Array[String](["tôt", "dedans", "tard"])
+
+[sub_resource type="Resource" id="Resource_k8wkf"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le contraire de 'sale' ?"
+correct_answer = "propre"
+choices = Array[String](["gentil", "rapide", "lourd"])
+
+[sub_resource type="Resource" id="Resource_5geqc"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le contraire de 'finir' ?"
+correct_answer = "commencer"
+choices = Array[String](["gagner", "arriver", "perdre"])
+
+[sub_resource type="Resource" id="Resource_osr5w"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le contraire de 'dehors' ?"
+correct_answer = "dedans"
+choices = Array[String](["tôt", "dessus", "dessous"])
+
+[sub_resource type="Resource" id="Resource_jbw2m"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le contraire de 'difficile' ?"
+correct_answer = "facile"
+choices = Array[String](["riche", "fort", "gentil"])
+
+[sub_resource type="Resource" id="Resource_gnl1l"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le contraire de 'méchant' ?"
+correct_answer = "gentil"
+choices = Array[String](["plein", "lourd", "rapide"])
+
+[sub_resource type="Resource" id="Resource_dk3j2"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le contraire de 'lent' ?"
+correct_answer = "rapide"
+choices = Array[String](["lourd", "clair", "fort"])
+
+[sub_resource type="Resource" id="Resource_a3ls2"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le contraire de 'perdre' ?"
+correct_answer = "gagner"
+choices = Array[String](["monter", "arriver", "donner"])
+
+[sub_resource type="Resource" id="Resource_58b7j"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le contraire de 'bas' ?"
+correct_answer = "haut"
+choices = Array[String](["clair", "lourd", "fort"])
+
+[sub_resource type="Resource" id="Resource_7mbnf"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le contraire de 'nuit' ?"
+correct_answer = "jour"
+choices = Array[String](["plein", "clair", "monter"])
+
+[sub_resource type="Resource" id="Resource_beyul"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le contraire de 'détester' ?"
+correct_answer = "aimer"
+choices = Array[String](["arriver", "donner", "perdre"])
+
+[sub_resource type="Resource" id="Resource_p7oci"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le contraire de 'pauvre' ?"
+correct_answer = "riche"
+choices = Array[String](["gros", "lourd", "fort"])
+
+[sub_resource type="Resource" id="Resource_ffgva"]
+script = ExtResource("1_dmuho")
+subject = 1
+text = "Quel est le contraire de 'léger' ?"
+correct_answer = "lourd"
+choices = Array[String](["chaud", "fort", "faible"])
+
+[resource]
+script = ExtResource("2_tumpv")
+questions = Array[ExtResource("1_dmuho")]([SubResource("Resource_dmuho"), SubResource("Resource_tumpv"), SubResource("Resource_bp55b"), SubResource("Resource_yrodp"), SubResource("Resource_pa7sd"), SubResource("Resource_n02e1"), SubResource("Resource_vki8m"), SubResource("Resource_s41ci"), SubResource("Resource_eenae"), SubResource("Resource_qj3vr"), SubResource("Resource_eybbm"), SubResource("Resource_0ecro"), SubResource("Resource_35bec"), SubResource("Resource_c241w"), SubResource("Resource_qftdb"), SubResource("Resource_mh4mx"), SubResource("Resource_l3fa0"), SubResource("Resource_b6387"), SubResource("Resource_n4wsj"), SubResource("Resource_l3txr"), SubResource("Resource_cu1da"), SubResource("Resource_6m1lj"), SubResource("Resource_ch82q"), SubResource("Resource_lpcdb"), SubResource("Resource_npihj"), SubResource("Resource_j4wwv"), SubResource("Resource_dtoxe"), SubResource("Resource_31kj4"), SubResource("Resource_3huls"), SubResource("Resource_li2ey"), SubResource("Resource_nqnsu"), SubResource("Resource_1jqrt"), SubResource("Resource_6gtqx"), SubResource("Resource_q7bsq"), SubResource("Resource_rk5io"), SubResource("Resource_f0g08"), SubResource("Resource_144tb"), SubResource("Resource_68nj8"), SubResource("Resource_hx0v2"), SubResource("Resource_7il0j"), SubResource("Resource_xjlp0"), SubResource("Resource_5k1ua"), SubResource("Resource_jyacg"), SubResource("Resource_efqj3"), SubResource("Resource_5rnee"), SubResource("Resource_rrgj0"), SubResource("Resource_qsfm8"), SubResource("Resource_o55pm"), SubResource("Resource_tsdo3"), SubResource("Resource_sevxl"), SubResource("Resource_1oomm"), SubResource("Resource_2hd0b"), SubResource("Resource_ghbln"), SubResource("Resource_wadmd"), SubResource("Resource_r4xj2"), SubResource("Resource_dn5cn"), SubResource("Resource_1kwy4"), SubResource("Resource_r584s"), SubResource("Resource_fxbm4"), SubResource("Resource_k5fi2"), SubResource("Resource_fwt6l"), SubResource("Resource_yqb01"), SubResource("Resource_k5uxw"), SubResource("Resource_ssivg"), SubResource("Resource_c7jwc"), SubResource("Resource_17e7g"), SubResource("Resource_cmoyo"), SubResource("Resource_v3jr0"), SubResource("Resource_rymdf"), SubResource("Resource_al4ou"), SubResource("Resource_swicl"), SubResource("Resource_haw83"), SubResource("Resource_fy7r4"), SubResource("Resource_b34yc"), SubResource("Resource_jn111"), SubResource("Resource_27baw"), SubResource("Resource_t8vv3"), SubResource("Resource_4xxtl"), SubResource("Resource_32os6"), SubResource("Resource_qho1n"), SubResource("Resource_8y0c0"), SubResource("Resource_tejq6"), SubResource("Resource_5jsde"), SubResource("Resource_nmg4m"), SubResource("Resource_7gt73"), SubResource("Resource_ruvd3"), SubResource("Resource_wb63n"), SubResource("Resource_tynau"), SubResource("Resource_fgkvl"), SubResource("Resource_y46qj"), SubResource("Resource_21ud7"), SubResource("Resource_gvbcp"), SubResource("Resource_uu5r1"), SubResource("Resource_ki2l1"), SubResource("Resource_kambv"), SubResource("Resource_xbcla"), SubResource("Resource_2urvm"), SubResource("Resource_th2qt"), SubResource("Resource_2cbaq"), SubResource("Resource_qpeoa"), SubResource("Resource_2n8dh"), SubResource("Resource_hd5yf"), SubResource("Resource_wcxnp"), SubResource("Resource_3owoc"), SubResource("Resource_jwngw"), SubResource("Resource_w2syd"), SubResource("Resource_d2emg"), SubResource("Resource_u4yjg"), SubResource("Resource_5tvft"), SubResource("Resource_b8myq"), SubResource("Resource_p7x74"), SubResource("Resource_mhwfw"), SubResource("Resource_ojrhh"), SubResource("Resource_u6wi3"), SubResource("Resource_ckh3c"), SubResource("Resource_d0cj4"), SubResource("Resource_4cinh"), SubResource("Resource_h8ldy"), SubResource("Resource_7y4y3"), SubResource("Resource_imx6c"), SubResource("Resource_khryf"), SubResource("Resource_lfx6x"), SubResource("Resource_6vx0o"), SubResource("Resource_tsuhr"), SubResource("Resource_7v8l8"), SubResource("Resource_dgmda"), SubResource("Resource_77i1m"), SubResource("Resource_imlgv"), SubResource("Resource_20r6q"), SubResource("Resource_s4i7n"), SubResource("Resource_njwii"), SubResource("Resource_bdn4b"), SubResource("Resource_ftjj1"), SubResource("Resource_nmykj"), SubResource("Resource_xlkyn"), SubResource("Resource_rasqs"), SubResource("Resource_asynw"), SubResource("Resource_k3v3y"), SubResource("Resource_v54ba"), SubResource("Resource_mcl1s"), SubResource("Resource_sw1jf"), SubResource("Resource_xy76j"), SubResource("Resource_m4425"), SubResource("Resource_2g1n4"), SubResource("Resource_d7tpb"), SubResource("Resource_ew6l7"), SubResource("Resource_pmj0q"), SubResource("Resource_i66ig"), SubResource("Resource_gp4wd"), SubResource("Resource_bnmvv"), SubResource("Resource_safod"), SubResource("Resource_1iv6e"), SubResource("Resource_f6h0g"), SubResource("Resource_6jul2"), SubResource("Resource_n2rjw"), SubResource("Resource_q5ixe"), SubResource("Resource_5ca0q"), SubResource("Resource_x44jk"), SubResource("Resource_wa16i"), SubResource("Resource_ahyls"), SubResource("Resource_g6no4"), SubResource("Resource_o6r72"), SubResource("Resource_h65hp"), SubResource("Resource_ovvja"), SubResource("Resource_v0xh4"), SubResource("Resource_i41xc"), SubResource("Resource_jyto6"), SubResource("Resource_5b74k"), SubResource("Resource_y5muh"), SubResource("Resource_f1mpq"), SubResource("Resource_e6yea"), SubResource("Resource_v6s8v"), SubResource("Resource_p8p51"), SubResource("Resource_p0u02"), SubResource("Resource_h8s5v"), SubResource("Resource_k5b02"), SubResource("Resource_ogsy6"), SubResource("Resource_f7umu"), SubResource("Resource_k8wkf"), SubResource("Resource_5geqc"), SubResource("Resource_osr5w"), SubResource("Resource_jbw2m"), SubResource("Resource_gnl1l"), SubResource("Resource_dk3j2"), SubResource("Resource_a3ls2"), SubResource("Resource_58b7j"), SubResource("Resource_7mbnf"), SubResource("Resource_beyul"), SubResource("Resource_p7oci"), SubResource("Resource_ffgva")])

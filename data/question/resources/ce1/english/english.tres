@@ -1,0 +1,448 @@
+[gd_resource type="Resource" script_class="QuestionBankResource" format=3 uid="uid://doelyeyij6rig"]
+
+[ext_resource type="Script" uid="uid://dfbr3elc3mbig" path="res://data/question/question_resource.gd" id="1_orqwb"]
+[ext_resource type="Script" uid="uid://c422qc1cinnna" path="res://data/question/question_bank_resource.gd" id="2_q16wl"]
+
+[sub_resource type="Resource" id="Resource_orqwb"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Comment dit-on 'oiseau' en anglais ?"
+correct_answer = "bird"
+choices = Array[String](["horse", "sheep", "mouse"])
+
+[sub_resource type="Resource" id="Resource_q16wl"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Comment dit-on 'chaussettes' en anglais ?"
+correct_answer = "socks"
+choices = Array[String](["dress", "hat", "shirt"])
+
+[sub_resource type="Resource" id="Resource_hwyhv"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Que veut dire 'five' en français ?"
+correct_answer = "cinq"
+choices = Array[String](["neuf", "un", "sept"])
+
+[sub_resource type="Resource" id="Resource_7l7nq"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Comment dit-on 'un' en anglais ?"
+correct_answer = "one"
+choices = Array[String](["nine", "six", "ten"])
+
+[sub_resource type="Resource" id="Resource_gyrd4"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Comment dit-on 'vendredi' en anglais ?"
+correct_answer = "friday"
+choices = Array[String](["sunday", "tuesday", "wednesday"])
+
+[sub_resource type="Resource" id="Resource_375cr"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Comment dit-on 'porte' en anglais ?"
+correct_answer = "door"
+choices = Array[String](["pen", "table", "window"])
+
+[sub_resource type="Resource" id="Resource_hs813"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Que veut dire 'door' en français ?"
+correct_answer = "porte"
+choices = Array[String](["chaise", "fenêtre", "livre"])
+
+[sub_resource type="Resource" id="Resource_kepb1"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Comment dit-on 'trois' en anglais ?"
+correct_answer = "three"
+choices = Array[String](["ten", "two", "five"])
+
+[sub_resource type="Resource" id="Resource_tnui1"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Comment dit-on 'bras' en anglais ?"
+correct_answer = "arm"
+choices = Array[String](["nose", "leg", "head"])
+
+[sub_resource type="Resource" id="Resource_7lbtx"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Que veut dire 'december' en français ?"
+correct_answer = "décembre"
+choices = Array[String](["novembre", "mars", "août"])
+
+[sub_resource type="Resource" id="Resource_5e563"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Comment dit-on 'rose' en anglais ?"
+correct_answer = "pink"
+choices = Array[String](["green", "orange", "black"])
+
+[sub_resource type="Resource" id="Resource_2moa0"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Comment dit-on 'lapin' en anglais ?"
+correct_answer = "rabbit"
+choices = Array[String](["sheep", "horse", "dog"])
+
+[sub_resource type="Resource" id="Resource_dvegi"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Comment dit-on 'vache' en anglais ?"
+correct_answer = "cow"
+choices = Array[String](["sheep", "horse", "bird"])
+
+[sub_resource type="Resource" id="Resource_fu2rl"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Que veut dire 'arm' en français ?"
+correct_answer = "bras"
+choices = Array[String](["pied", "oeil", "bouche"])
+
+[sub_resource type="Resource" id="Resource_p5vyk"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Comment dit-on 'avril' en anglais ?"
+correct_answer = "april"
+choices = Array[String](["may", "september", "october"])
+
+[sub_resource type="Resource" id="Resource_o4svh"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Que veut dire 'cow' en français ?"
+correct_answer = "vache"
+choices = Array[String](["cheval", "chien", "souris"])
+
+[sub_resource type="Resource" id="Resource_57qv1"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Que veut dire 'dog' en français ?"
+correct_answer = "chien"
+choices = Array[String](["cheval", "vache", "cochon"])
+
+[sub_resource type="Resource" id="Resource_ffymh"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Comment dit-on 'blanc' en anglais ?"
+correct_answer = "white"
+choices = Array[String](["red", "blue", "yellow"])
+
+[sub_resource type="Resource" id="Resource_qfi1m"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Comment dit-on 'août' en anglais ?"
+correct_answer = "august"
+choices = Array[String](["june", "february", "september"])
+
+[sub_resource type="Resource" id="Resource_2en7y"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Que veut dire 'shirt' en français ?"
+correct_answer = "chemise"
+choices = Array[String](["robe", "chapeau", "manteau"])
+
+[sub_resource type="Resource" id="Resource_d4e7s"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Comment dit-on 'jeudi' en anglais ?"
+correct_answer = "thursday"
+choices = Array[String](["friday", "tuesday", "wednesday"])
+
+[sub_resource type="Resource" id="Resource_k61bk"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Comment dit-on 'cinq' en anglais ?"
+correct_answer = "five"
+choices = Array[String](["four", "eight", "three"])
+
+[sub_resource type="Resource" id="Resource_xlr1e"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Comment dit-on 'samedi' en anglais ?"
+correct_answer = "saturday"
+choices = Array[String](["tuesday", "monday", "friday"])
+
+[sub_resource type="Resource" id="Resource_g0bjt"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Comment dit-on 'mercredi' en anglais ?"
+correct_answer = "wednesday"
+choices = Array[String](["friday", "sunday", "thursday"])
+
+[sub_resource type="Resource" id="Resource_bccqp"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Comment dit-on 'frère' en anglais ?"
+correct_answer = "brother"
+choices = Array[String](["dad", "grandma", "sister"])
+
+[sub_resource type="Resource" id="Resource_aofnd"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Que veut dire 'purple' en français ?"
+correct_answer = "violet"
+choices = Array[String](["orange", "blanc", "gris"])
+
+[sub_resource type="Resource" id="Resource_v6k0p"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Que veut dire 'pig' en français ?"
+correct_answer = "cochon"
+choices = Array[String](["poisson", "oiseau", "cheval"])
+
+[sub_resource type="Resource" id="Resource_paidu"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Que veut dire 'socks' en français ?"
+correct_answer = "chaussettes"
+choices = Array[String](["pantalon", "robe", "chemise"])
+
+[sub_resource type="Resource" id="Resource_26ipk"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Que veut dire 'june' en français ?"
+correct_answer = "juin"
+choices = Array[String](["février", "décembre", "avril"])
+
+[sub_resource type="Resource" id="Resource_n2en4"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Que veut dire 'tuesday' en français ?"
+correct_answer = "mardi"
+choices = Array[String](["lundi", "samedi", "jeudi"])
+
+[sub_resource type="Resource" id="Resource_qa6bi"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Comment dit-on 'chat' en anglais ?"
+correct_answer = "cat"
+choices = Array[String](["bird", "sheep", "mouse"])
+
+[sub_resource type="Resource" id="Resource_xl7y3"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Que veut dire 'grandma' en français ?"
+correct_answer = "grand-mère"
+choices = Array[String](["soeur", "bébé", "maman"])
+
+[sub_resource type="Resource" id="Resource_bw2km"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Comment dit-on 'chemise' en anglais ?"
+correct_answer = "shirt"
+choices = Array[String](["coat", "socks", "dress"])
+
+[sub_resource type="Resource" id="Resource_2j0fv"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Que veut dire 'thursday' en français ?"
+correct_answer = "jeudi"
+choices = Array[String](["samedi", "lundi", "dimanche"])
+
+[sub_resource type="Resource" id="Resource_ite6d"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Que veut dire 'two' en français ?"
+correct_answer = "deux"
+choices = Array[String](["cinq", "dix", "trois"])
+
+[sub_resource type="Resource" id="Resource_8fkbt"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Que veut dire 'july' en français ?"
+correct_answer = "juillet"
+choices = Array[String](["novembre", "avril", "août"])
+
+[sub_resource type="Resource" id="Resource_ve0o0"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Que veut dire 'ten' en français ?"
+correct_answer = "dix"
+choices = Array[String](["quatre", "un", "huit"])
+
+[sub_resource type="Resource" id="Resource_pr220"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Comment dit-on 'stylo' en anglais ?"
+correct_answer = "pen"
+choices = Array[String](["door", "pencil", "ruler"])
+
+[sub_resource type="Resource" id="Resource_s732a"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Comment dit-on 'dix' en anglais ?"
+correct_answer = "ten"
+choices = Array[String](["three", "five", "two"])
+
+[sub_resource type="Resource" id="Resource_ou3hm"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Que veut dire 'mouse' en français ?"
+correct_answer = "souris"
+choices = Array[String](["lapin", "chat", "oiseau"])
+
+[sub_resource type="Resource" id="Resource_h85no"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Comment dit-on 'main' en anglais ?"
+correct_answer = "hand"
+choices = Array[String](["mouth", "foot", "head"])
+
+[sub_resource type="Resource" id="Resource_jm26q"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Comment dit-on 'table' en anglais ?"
+correct_answer = "table"
+choices = Array[String](["ruler", "notebook", "book"])
+
+[sub_resource type="Resource" id="Resource_bwdm8"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Que veut dire 'september' en français ?"
+correct_answer = "septembre"
+choices = Array[String](["juin", "août", "mars"])
+
+[sub_resource type="Resource" id="Resource_qil63"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Comment dit-on 'manteau' en anglais ?"
+correct_answer = "coat"
+choices = Array[String](["trousers", "hat", "shirt"])
+
+[sub_resource type="Resource" id="Resource_35l18"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Que veut dire 'table' en français ?"
+correct_answer = "table"
+choices = Array[String](["cahier", "stylo", "livre"])
+
+[sub_resource type="Resource" id="Resource_dwwy5"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Comment dit-on 'oreille' en anglais ?"
+correct_answer = "ear"
+choices = Array[String](["eye", "hand", "mouth"])
+
+[sub_resource type="Resource" id="Resource_k1iy1"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Que veut dire 'friday' en français ?"
+correct_answer = "vendredi"
+choices = Array[String](["mardi", "mercredi", "dimanche"])
+
+[sub_resource type="Resource" id="Resource_huaf6"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Que veut dire 'monday' en français ?"
+correct_answer = "lundi"
+choices = Array[String](["vendredi", "dimanche", "jeudi"])
+
+[sub_resource type="Resource" id="Resource_3cv4d"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Comment dit-on 'tête' en anglais ?"
+correct_answer = "head"
+choices = Array[String](["tummy", "mouth", "foot"])
+
+[sub_resource type="Resource" id="Resource_x1v7q"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Comment dit-on 'mai' en anglais ?"
+correct_answer = "may"
+choices = Array[String](["january", "july", "december"])
+
+[sub_resource type="Resource" id="Resource_gwqn7"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Comment dit-on 'mars' en anglais ?"
+correct_answer = "march"
+choices = Array[String](["august", "september", "december"])
+
+[sub_resource type="Resource" id="Resource_etw5u"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Que veut dire 'trousers' en français ?"
+correct_answer = "pantalon"
+choices = Array[String](["chaussettes", "manteau", "robe"])
+
+[sub_resource type="Resource" id="Resource_pv2g1"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Comment dit-on 'grand-mère' en anglais ?"
+correct_answer = "grandma"
+choices = Array[String](["brother", "mom", "baby"])
+
+[sub_resource type="Resource" id="Resource_bcgsm"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Que veut dire 'blue' en français ?"
+correct_answer = "bleu"
+choices = Array[String](["blanc", "vert", "rose"])
+
+[sub_resource type="Resource" id="Resource_q8eis"]
+script = ExtResource("1_orqwb")
+subject = 5
+grade = 1
+text = "Que veut dire 'rabbit' en français ?"
+correct_answer = "lapin"
+choices = Array[String](["souris", "chien", "vache"])
+
+[resource]
+script = ExtResource("2_q16wl")
+questions = Array[ExtResource("1_orqwb")]([SubResource("Resource_orqwb"), SubResource("Resource_q16wl"), SubResource("Resource_hwyhv"), SubResource("Resource_7l7nq"), SubResource("Resource_gyrd4"), SubResource("Resource_375cr"), SubResource("Resource_hs813"), SubResource("Resource_kepb1"), SubResource("Resource_tnui1"), SubResource("Resource_7lbtx"), SubResource("Resource_5e563"), SubResource("Resource_2moa0"), SubResource("Resource_dvegi"), SubResource("Resource_fu2rl"), SubResource("Resource_p5vyk"), SubResource("Resource_o4svh"), SubResource("Resource_57qv1"), SubResource("Resource_ffymh"), SubResource("Resource_qfi1m"), SubResource("Resource_2en7y"), SubResource("Resource_d4e7s"), SubResource("Resource_k61bk"), SubResource("Resource_xlr1e"), SubResource("Resource_g0bjt"), SubResource("Resource_bccqp"), SubResource("Resource_aofnd"), SubResource("Resource_v6k0p"), SubResource("Resource_paidu"), SubResource("Resource_26ipk"), SubResource("Resource_n2en4"), SubResource("Resource_qa6bi"), SubResource("Resource_xl7y3"), SubResource("Resource_bw2km"), SubResource("Resource_2j0fv"), SubResource("Resource_ite6d"), SubResource("Resource_8fkbt"), SubResource("Resource_ve0o0"), SubResource("Resource_pr220"), SubResource("Resource_s732a"), SubResource("Resource_ou3hm"), SubResource("Resource_h85no"), SubResource("Resource_jm26q"), SubResource("Resource_bwdm8"), SubResource("Resource_qil63"), SubResource("Resource_35l18"), SubResource("Resource_dwwy5"), SubResource("Resource_k1iy1"), SubResource("Resource_huaf6"), SubResource("Resource_3cv4d"), SubResource("Resource_x1v7q"), SubResource("Resource_gwqn7"), SubResource("Resource_etw5u"), SubResource("Resource_pv2g1"), SubResource("Resource_bcgsm"), SubResource("Resource_q8eis")])

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://xis8wje6hc3y"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_h33e2"]
+
+[resource]
+script = ExtResource("1_h33e2")
+id = &"28"
+category = &"dragon"
+display_name = "Glacial"
+grade = 2

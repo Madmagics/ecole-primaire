@@ -1,0 +1,41 @@
+id;text;correct_answer;choice_2;choice_3;choice_4
+12000;Dans la phrase 'Il pleut depuis ce matin.', 'depuis ce matin' est un complément circonstanciel de quel type ?;temps;lieu;manière;cause
+12001;Dans la phrase 'Nous partons demain.', 'demain' est un complément circonstanciel de quel type ?;temps;lieu;manière;cause
+12002;Dans la phrase 'Elle est arrivée hier soir.', 'hier soir' est un complément circonstanciel de quel type ?;temps;lieu;manière;cause
+12003;Dans la phrase 'Les oiseaux volent dans le ciel.', 'dans le ciel' est un complément circonstanciel de quel type ?;lieu;temps;manière;cause
+12004;Dans la phrase 'Le chat dort sous la table.', 'sous la table' est un complément circonstanciel de quel type ?;lieu;temps;manière;cause
+12005;Dans la phrase 'Ils habitent près de la gare.', 'près de la gare' est un complément circonstanciel de quel type ?;lieu;temps;manière;cause
+12006;Dans la phrase 'Elle chante avec joie.', 'avec joie' est un complément circonstanciel de quel type ?;manière;temps;lieu;cause
+12007;Dans la phrase 'Il marche lentement.', 'lentement' est un complément circonstanciel de quel type ?;manière;temps;lieu;cause
+12008;Dans la phrase 'Le chien aboie furieusement.', 'furieusement' est un complément circonstanciel de quel type ?;manière;temps;lieu;cause
+12009;Dans la phrase 'Nous jouons dans le jardin.', 'dans le jardin' est un complément circonstanciel de quel type ?;lieu;temps;manière;cause
+12010;Dans la phrase 'Le train part à huit heures.', 'à huit heures' est un complément circonstanciel de quel type ?;temps;lieu;manière;cause
+12011;Dans la phrase 'Elle répond poliment.', 'poliment' est un complément circonstanciel de quel type ?;manière;temps;lieu;cause
+12012;Dans la phrase 'Les enfants rentrent après l'école.', 'après l'école' est un complément circonstanciel de quel type ?;temps;lieu;manière;cause
+12013;Dans la phrase 'Le poisson nage dans l'aquarium.', 'dans l'aquarium' est un complément circonstanciel de quel type ?;lieu;temps;manière;cause
+12014;Dans la phrase 'Il travaille avec sérieux.', 'avec sérieux' est un complément circonstanciel de quel type ?;manière;temps;lieu;cause
+12015;Le livre ___ je lis est passionnant.;que;qui;où;dont
+12016;La maison ___ j'habite est grande.;où;qui;que;dont
+12017;Le stylo ___ est sur la table appartient à Lea.;qui;que;où;dont
+12018;L'ami ___ je parle est absent.;dont;qui;que;où
+12019;La ville ___ je suis né s'appelle Lyon.;où;qui;que;dont
+12020;Le gâteau ___ tu as préparé est délicieux.;que;qui;où;dont
+12021;Le chien ___ aboie fort dérange les voisins.;qui;que;où;dont
+12022;Le film ___ nous avons regardé était triste.;que;qui;où;dont
+12023;C'est le sac ___ j'ai besoin.;dont;qui;que;où
+12024;Le jour ___ il est né, il neigeait.;où;qui;que;dont
+12025;La fille ___ chante si bien est ma cousine.;qui;que;où;dont
+12026;Voici le cahier ___ tu cherchais.;que;qui;où;dont
+12027;C'est un projet ___ je suis fier.;dont;qui;que;où
+12028;Le magasin ___ nous allons est fermé.;où;qui;que;dont
+12029;L'histoire ___ elle raconte est vraie.;que;qui;où;dont
+12030;Elle a ___ une pomme (manger).;mangé;mangée;manges;mangées
+12031;Ils ont ___ leurs devoirs (finir).;fini;finie;finis;finies
+12032;Nous avons ___ un film (voir).;vu;vue;vus;vues
+12033;Elles ont ___ la vérité (dire).;dit;dite;dits;dites
+12034;Il a ___ un gâteau (faire).;fait;faite;faits;faites
+12035;J'ai ___ mes clés (prendre).;pris;prise;prises;priss
+12036;Tu as ___ un livre (choisir).;choisi;choisie;choisis;choisies
+12037;Vous avez ___ vos affaires (vendre).;vendu;vendue;vendus;vendues
+12038;Ils ont ___ leur travail (terminer).;terminé;terminée;termines;terminées
+12039;Elle a ___ toute la journée (travailler).;travaillé;travaillée;travailles;travaillées

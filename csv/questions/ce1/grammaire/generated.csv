@@ -1,0 +1,87 @@
+id;text;correct_answer;choice_2;choice_3;choice_4
+2201;Quel est le pluriel de 'canal' ?;canaux;canals;canales;canaus
+2202;Quel est le pluriel de 'général' ?;généraux;générals;générales;généraus
+2203;Quel est le pluriel de 'hôpital' ?;hôpitaux;hôpitals;hôpitales;hôpitaus
+2204;Quel est le pluriel de 'tribunal' ?;tribunaux;tribunals;tribunales;tribunaus
+2205;Quel est le pluriel de 'cheval' ?;chevaux;chevals;chevales;chevaus
+2206;Quel est le pluriel de 'journal' ?;journaux;journals;journales;journaus
+2207;Quel est le pluriel de 'animal' ?;animaux;animals;animales;animaus
+2208;Quel est le pluriel de 'signal' ?;signaux;signals;signales;signaus
+2209;Quel est le pluriel de 'bras' ?;bras;brass;brases;brasx
+2210;Quel est le pluriel de 'souris' ?;souris;souriss;sourises;sourisx
+2211;Quel est le pluriel de 'tapis' ?;tapis;tapiss;tapises;tapisx
+2212;Quel est le pluriel de 'croix' ?;croix;croixs;croixes;croixx
+2213;Quel est le pluriel de 'voix' ?;voix;voixs;voixes;voixx
+2214;Quel est le pluriel de 'fils' ?;fils;filss;filses;filsx
+2215;Quel est le pluriel de 'pays' ?;pays;payss;payses;paysx
+2216;Quel est le pluriel de 'nez' ?;nez;nezs;nezes;nezx
+2217;Quel est le pluriel de 'temps' ?;temps;tempss;tempses;tempsx
+2218;Quel est le pluriel de 'prix' ?;prix;prixs;prixes;prixx
+2219;Quel est le féminin de 'heureux' ?;heureuse;heureux;heureuxe;heureus
+2220;Quel est le féminin de 'gros' ?;grosse;gros;grose;gross
+2221;Quel est le féminin de 'bas' ?;basse;bas;base;bass
+2222;Quel est le féminin de 'muet' ?;muette;muet;muete;muett
+2223;Quel est le féminin de 'neuf' ?;neuve;neuf;neufe;neuv
+2224;Quel est le féminin de 'italien' ?;italienne;italien;italiene;italienn
+2225;Quel est le féminin de 'blanc' ?;blanche;blanc;blance;blanch
+2226;Quel est le féminin de 'faux' ?;fausse;faux;fauxe;fauss
+2227;Quel est le féminin de 'beau' ?;belle;beau;beaue;bell
+2228;Quel est le féminin de 'bon' ?;bonne;bon;bone;bonn
+2229;Quel est le féminin de 'sec' ?;sèche;sec;sèce;sèch
+2230;Quel est le féminin de 'long' ?;longue;long;longe;longu
+2231;Quel est le féminin de 'mignon' ?;mignonne;mignon;mignone;mignonn
+2232;Quel est le féminin de 'vif' ?;vive;vif;vife;viv
+2233;Quel est le féminin de 'curieux' ?;curieuse;curieux;curieuxe;curieus
+2234;Quel est le féminin de 'actif' ?;active;actif;actife;activ
+2235;Quel est le féminin de 'frais' ?;fraîche;frais;fraise;fraîch
+2236;Quel est le féminin de 'nouveau' ?;nouvelle;nouveau;nouveaue;nouvell
+2237;Quel est le féminin de 'roux' ?;rousse;roux;rouxe;rouss
+2238;Quel est le féminin de 'jaloux' ?;jalouse;jaloux;jalouxe;jalous
+2239;Quel est le féminin de 'gentil' ?;gentille;gentil;gentile;gentill
+2240;Quel est le féminin de 'amoureux' ?;amoureuse;amoureux;amoureuxe;amoureus
+2241;Quel est le féminin de 'sérieux' ?;sérieuse;sérieux;sérieuxe;sérieus
+2242;Quel est le féminin de 'dangereux' ?;dangereuse;dangereux;dangereuxe;dangereus
+2243;Quel est le féminin de 'épais' ?;épaisse;épais;épaise;épaiss
+2244;Quel est le féminin de 'doux' ?;douce;doux;douxe;douc
+2245;Quel est le féminin de 'ancien' ?;ancienne;ancien;anciene;ancienn
+2246;Quel est le féminin de 'sportif' ?;sportive;sportif;sportife;sportiv
+2344;Quelle est la nature du mot 'joli' ?;adjectif;adverbe;verbe;nom
+2345;Quelle est la nature du mot 'maison' ?;nom;adjectif;adverbe;verbe
+2346;Quelle est la nature du mot 'petit' ?;adjectif;nom;adverbe;verbe
+2347;Quelle est la nature du mot 'danser' ?;verbe;adverbe;nom;adjectif
+2348;Quelle est la nature du mot 'table' ?;nom;adverbe;verbe;adjectif
+2349;Quelle est la nature du mot 'chanter' ?;verbe;adverbe;nom;adjectif
+2350;Quelle est la nature du mot 'beau' ?;adjectif;verbe;nom;adverbe
+2351;Quelle est la nature du mot 'jardin' ?;nom;verbe;adverbe;adjectif
+2352;Quelle est la nature du mot 'gentil' ?;adjectif;nom;adverbe;verbe
+2353;Quelle est la nature du mot 'doucement' ?;adverbe;verbe;adjectif;nom
+2354;Quelle est la nature du mot 'sauter' ?;verbe;adverbe;adjectif;nom
+2355;Quelle est la nature du mot 'voiture' ?;nom;adverbe;verbe;adjectif
+2356;Quelle est la nature du mot 'souvent' ?;adverbe;verbe;adjectif;nom
+2357;Quelle est la nature du mot 'manger' ?;verbe;nom;adjectif;adverbe
+2358;Quelle est la nature du mot 'courir' ?;verbe;adjectif;adverbe;nom
+2359;Quelle est la nature du mot 'vite' ?;adverbe;adjectif;nom;verbe
+2360;Quelle est la nature du mot 'rapidement' ?;adverbe;adjectif;nom;verbe
+2361;Quelle est la nature du mot 'chat' ?;nom;verbe;adjectif;adverbe
+2362;Quelle est la nature du mot 'lentement' ?;adverbe;adjectif;verbe;nom
+2363;Quelle est la nature du mot 'grand' ?;adjectif;nom;verbe;adverbe
+2378;Quel est le masculin de 'fausse' ?;faux;fausse;faussée;fauxe
+2379;Quel est le masculin de 'sérieuse' ?;sérieux;sérieuse;sérieusee;sérieuxe
+2380;Quel est le masculin de 'basse' ?;bas;basse;bassee;base
+2381;Quel est le masculin de 'neuve' ?;neuf;neuve;neuvee;neufe
+2382;Quel est le masculin de 'italienne' ?;italien;italienne;italiennee;italiene
+2383;Quel est le masculin de 'douce' ?;doux;douce;doucee;douxe
+2384;Quel est le masculin de 'blanche' ?;blanc;blanche;blanchee;blance
+2385;Quel est le masculin de 'curieuse' ?;curieux;curieuse;curieusee;curieuxe
+2386;Quel est le masculin de 'sèche' ?;sec;sèche;séchée;sèce
+2387;Quel est le masculin de 'rousse' ?;roux;rousse;roussee;rouxe
+2388;Quel est le masculin de 'fraîche' ?;frais;fraîche;fraîchée;fraise
+2389;Quel est le masculin de 'jalouse' ?;jaloux;jalouse;jalousée;jalouxe
+2390;Quel est le masculin de 'vive' ?;vif;vive;vivee;vife
+2391;Quel est le masculin de 'amoureuse' ?;amoureux;amoureuse;amoureusee;amoureuxe
+2392;Quel est le masculin de 'épaisse' ?;épais;épaisse;épaissée;épaise
+2393;Quel est le masculin de 'grosse' ?;gros;grosse;grossee;grose
+2394;Quel est le masculin de 'active' ?;actif;active;activée;actife
+2395;Quel est le masculin de 'muette' ?;muet;muette;muettee;muete
+2396;Quel est le masculin de 'dangereuse' ?;dangereux;dangereuse;dangereusee;dangereuxe
+2397;Quel est le masculin de 'nouvelle' ?;nouveau;nouvelle;nouvellee;nouveaue

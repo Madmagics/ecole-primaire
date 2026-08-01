@@ -1,0 +1,194 @@
+[gd_resource type="Resource" script_class="QuestionBankResource" format=3 uid="uid://bctq8mgbl6vlr"]
+
+[ext_resource type="Script" uid="uid://dfbr3elc3mbig" path="res://data/question/question_resource.gd" id="1_8p3pl"]
+[ext_resource type="Script" uid="uid://crepyep5nhuxq" path="res://data/question/passage_resource.gd" id="2_hcpos"]
+[ext_resource type="Script" uid="uid://c422qc1cinnna" path="res://data/question/question_bank_resource.gd" id="3_6v6n3"]
+
+[sub_resource type="Resource" id="Resource_qg6wc"]
+script = ExtResource("2_hcpos")
+grade = 4
+text = "Milo est un chat noir et blanc qui habite avec Emma depuis trois ans, dans une petite maison au bord d'un village entouré de collines. Chaque matin, avant même que la famille ne soit réveillée, il s'installe devant la porte du jardin et attend patiemment que quelqu'un la laisse entrouverte, ne serait-ce que quelques instants. Un jour, sa maman, pressée de partir travailler et distraite par mille pensées, oublie de bien la refermer derrière elle. Milo, toujours à l'affût, en profite aussitôt pour se glisser dehors sans faire le moindre bruit, comme s'il attendait cette occasion depuis toujours. Dehors, l'herbe est encore couverte de rosée et le soleil, à peine levé, réchauffe doucement les feuilles humides. C'est alors que Milo aperçoit un papillon jaune, aux ailes bordées de noir, qui voltige avec une grâce étonnante près des fleurs du jardin voisin. Intrigue par ce ballet léger, il décide de le suivre sans réfléchir, sautant de buisson en buisson, l'oeil rive sur sa proie, sans jamais prêter attention au chemin qu'il emprunte. Le papillon, insaisissable, finit par s'envoler très haut, bien au-delà de ce que Milo pourrait atteindre, et le chat s'arrête net, le souffle court et les pattes couvertes de terre. En regardant autour de lui, il réalise avec un pincement au coeur que plus rien ne lui est familier : ni les arbres, ni les odeurs, ni même les bruits lointains du quartier qu'il connaissait pourtant si bien. Une vague de panique s'empare alors de lui et il se réfugie sous un épais buisson d'épines, où il reste immobile de longues minutes avant de se résoudre à miauler, espérant de toutes ses forces qu'on vienne enfin le chercher. De son côté, Emma, en descendant pour le petit-déjeuner, remarque bien vite l'absence de son compagnon et se met à parcourir le jardin en l'appelant, la voix de plus en plus inquiète à chaque minute qui passe. C'est finalement près du grand chêne, tout au fond du terrain, qu'elle perçoit de faibles miaulements presque étouffés par le vent. En écartant délicatement les branches, elle découvre Milo, tremblant mais sain et sauf, blotti contre le tronc. Elle le serre longuement contre elle et lui murmure des mots rassurants, jusqu'à ce que ses ronronnements reviennent peu à peu. Tous les deux rentrent alors tranquillement à la maison, heureux d'être réunis, bien décidés à ne plus se quitter du regard de la journée."
+
+[sub_resource type="Resource" id="Resource_a8oil"]
+script = ExtResource("1_8p3pl")
+subject = 6
+grade = 4
+text = "Dans quel type de lieu habitent Milo et Emma ?"
+correct_answer = "un village entouré de collines"
+choices = Array[String](["une grande ville", "une île", "une forêt sans maisons"])
+passage = SubResource("Resource_qg6wc")
+
+[sub_resource type="Resource" id="Resource_y8jwm"]
+script = ExtResource("1_8p3pl")
+subject = 6
+grade = 4
+text = "Comment le papillon poursuivi par Milo est-il décrit ?"
+correct_answer = "jaune, avec des ailes bordées de noir"
+choices = Array[String](["bleu et minuscule", "blanc et très rapide", "rouge et immobile"])
+passage = SubResource("Resource_qg6wc")
+
+[sub_resource type="Resource" id="Resource_fhqvo"]
+script = ExtResource("1_8p3pl")
+subject = 6
+grade = 4
+text = "Comment Emma se rend-elle compte de l'absence de Milo ?"
+correct_answer = "en descendant pour le petit-déjeuner"
+choices = Array[String](["en rentrant de l'école", "en entendant un bruit dans le jardin", "un voisin la prévient"])
+passage = SubResource("Resource_qg6wc")
+
+[sub_resource type="Resource" id="Resource_rx6va"]
+script = ExtResource("1_8p3pl")
+subject = 6
+grade = 4
+text = "Que signifie \"toujours à l'affût\" ?"
+correct_answer = "attentif, prêt à saisir une occasion"
+choices = Array[String](["toujours fatigué", "toujours en colère", "toujours endormi"])
+passage = SubResource("Resource_qg6wc")
+
+[sub_resource type="Resource" id="Resource_epal8"]
+script = ExtResource("1_8p3pl")
+subject = 6
+grade = 4
+text = "Que veut dire \"insaisissable\" en parlant du papillon ?"
+correct_answer = "qu'on ne peut pas attraper"
+choices = Array[String](["très lent", "très grand", "très bruyant"])
+passage = SubResource("Resource_qg6wc")
+
+[sub_resource type="Resource" id="Resource_yjsno"]
+script = ExtResource("1_8p3pl")
+subject = 6
+grade = 4
+text = "Que signifie \"un pincement au coeur\" quand Milo se rend compte qu'il est perdu ?"
+correct_answer = "une petite douleur, une tristesse soudaine"
+choices = Array[String](["un grand bonheur", "une envie de courir", "une grande fatigue"])
+passage = SubResource("Resource_qg6wc")
+
+[sub_resource type="Resource" id="Resource_g5kf0"]
+script = ExtResource("1_8p3pl")
+subject = 6
+grade = 4
+text = "Pourquoi peut-on dire que Milo guettait la porte ouverte \"depuis toujours\" ?"
+correct_answer = "il attendait cette occasion depuis longtemps"
+choices = Array[String](["il vient d'arriver chez Emma", "il n'aime pas sortir d'habitude", "il ne remarque jamais la porte"])
+passage = SubResource("Resource_qg6wc")
+
+[sub_resource type="Resource" id="Resource_fouhj"]
+script = ExtResource("1_8p3pl")
+subject = 6
+grade = 4
+text = "Pourquoi Milo ne prête-t-il pas attention au chemin qu'il prend ?"
+correct_answer = "il est totalement concentré sur sa poursuite du papillon"
+choices = Array[String](["il connaît le chemin par coeur", "Emma marche devant lui", "il suit une odeur familière"])
+passage = SubResource("Resource_qg6wc")
+
+[sub_resource type="Resource" id="Resource_k0qv0"]
+script = ExtResource("1_8p3pl")
+subject = 6
+grade = 4
+text = "À quoi voit-on que Milo est vraiment terrifié une fois perdu ?"
+correct_answer = "il reste immobile de longues minutes avant même d'oser miauler"
+choices = Array[String](["il rentre aussitôt tout seul", "il continue de jouer normalement", "il s'endort sous le buisson"])
+passage = SubResource("Resource_qg6wc")
+
+[sub_resource type="Resource" id="Resource_k5kjh"]
+script = ExtResource("1_8p3pl")
+subject = 6
+grade = 4
+text = "Qu'est-ce qui montre qu'Emma et Milo sont très proches à la fin ?"
+correct_answer = "ils décident de ne plus se quitter du regard de la journée"
+choices = Array[String](["ils repartent chacun de leur côté", "Milo retourne aussitôt dans le jardin", "Emma le laisse seul pour se reposer"])
+passage = SubResource("Resource_qg6wc")
+
+[sub_resource type="Resource" id="Resource_kgpgb"]
+script = ExtResource("1_8p3pl")
+subject = 6
+grade = 4
+text = "Que fait Milo chaque matin avant même que la famille ne soit réveillée ?"
+correct_answer = "il s'installe devant la porte du jardin et attend"
+choices = Array[String](["il dort profondément dans le salon", "il réveille Emma en miaulant", "il mange son repas dans la cuisine"])
+passage = SubResource("Resource_qg6wc")
+
+[sub_resource type="Resource" id="Resource_vo1op"]
+script = ExtResource("1_8p3pl")
+subject = 6
+grade = 4
+text = "Sur quoi Milo garde-t-il l'œil rivé en poursuivant le papillon ?"
+correct_answer = "sur sa proie"
+choices = Array[String](["sur le chemin de la maison", "sur Emma qui le cherche", "sur les fleurs du jardin"])
+passage = SubResource("Resource_qg6wc")
+
+[sub_resource type="Resource" id="Resource_ceybs"]
+script = ExtResource("1_8p3pl")
+subject = 6
+grade = 4
+text = "Que décident Milo et Emma à la toute fin de l'histoire ?"
+correct_answer = "de ne plus se quitter du regard de la journée"
+choices = Array[String](["de repartir chercher le papillon ensemble", "de rester chacun de leur côté", "d'aller se coucher immédiatement"])
+passage = SubResource("Resource_qg6wc")
+
+[sub_resource type="Resource" id="Resource_3tvlk"]
+script = ExtResource("1_8p3pl")
+subject = 6
+grade = 4
+text = "Que veut dire \"distraite par mille pensées\" à propos de la maman de Milo ce matin-là ?"
+correct_answer = "préoccupée par de nombreuses idées différentes"
+choices = Array[String](["totalement concentrée sur une seule tâche précise", "très reposée et détendue", "en colère sans raison particulière"])
+passage = SubResource("Resource_qg6wc")
+
+[sub_resource type="Resource" id="Resource_aolp8"]
+script = ExtResource("1_8p3pl")
+subject = 6
+grade = 4
+text = "Que signifie \"le chat s'arrête net\" quand le papillon s'envole hors de portée ?"
+correct_answer = "il s'arrête brusquement et complètement"
+choices = Array[String](["il continue d'avancer lentement", "il accélère encore sa course", "il ne s'arrête jamais vraiment"])
+passage = SubResource("Resource_qg6wc")
+
+[sub_resource type="Resource" id="Resource_bk4f8"]
+script = ExtResource("1_8p3pl")
+subject = 6
+grade = 4
+text = "Que veut dire \"blotti contre le tronc\" à propos de Milo retrouvé par Emma ?"
+correct_answer = "réfugié tout contre, cherchant protection et chaleur"
+choices = Array[String](["installé confortablement en hauteur", "en train de jouer joyeusement", "en train de dormir profondément loin de là"])
+passage = SubResource("Resource_qg6wc")
+
+[sub_resource type="Resource" id="Resource_fsevn"]
+script = ExtResource("1_8p3pl")
+subject = 6
+grade = 4
+text = "Pourquoi peut-on dire que Milo profite de l'inattention de sa maman ce matin-là ?"
+correct_answer = "elle est distraite par ses pensées et ne referme pas bien la porte, ce que Milo remarque aussitôt"
+choices = Array[String](["Milo a lui-même ouvert la porte du jardin", "Emma laisse volontairement la porte ouverte pour lui", "le vent a ouvert la porte durant la nuit"])
+passage = SubResource("Resource_qg6wc")
+
+[sub_resource type="Resource" id="Resource_ae5gs"]
+script = ExtResource("1_8p3pl")
+subject = 6
+grade = 4
+text = "Qu'est-ce qui montre que Milo est complètement absorbé par sa poursuite du papillon ?"
+correct_answer = "il garde l'œil rivé sur sa proie sans jamais prêter attention au chemin qu'il emprunte"
+choices = Array[String](["il s'arrête régulièrement pour vérifier le chemin du retour", "il abandonne rapidement cette poursuite pour rentrer", "il pense sans cesse à Emma pendant qu'il court"])
+passage = SubResource("Resource_qg6wc")
+
+[sub_resource type="Resource" id="Resource_7sfuo"]
+script = ExtResource("1_8p3pl")
+subject = 6
+grade = 4
+text = "Pourquoi Milo ressent-il un pincement au cœur en réalisant qu'il est perdu ?"
+correct_answer = "il prend conscience que rien de familier ne l'entoure plus, ce qui l'inquiète profondément"
+choices = Array[String](["il regrette simplement d'avoir manqué le papillon", "il a faim et pense à son repas manqué", "il se souvient d'un mauvais souvenir passé"])
+passage = SubResource("Resource_qg6wc")
+
+[sub_resource type="Resource" id="Resource_5v82q"]
+script = ExtResource("1_8p3pl")
+subject = 6
+grade = 4
+text = "Que peut-on déduire de la décision finale de Milo et Emma de ne plus se quitter du regard ?"
+correct_answer = "cette aventure a renforcé leur attachement mutuel et leur confiance réciproque"
+choices = Array[String](["ils resteront désormais enfermés ensemble dans la maison", "Milo ne sortira plus jamais dans le jardin à l'avenir", "Emma se méfie désormais de son propre chat"])
+passage = SubResource("Resource_qg6wc")
+
+[resource]
+script = ExtResource("3_6v6n3")
+questions = Array[ExtResource("1_8p3pl")]([SubResource("Resource_a8oil"), SubResource("Resource_y8jwm"), SubResource("Resource_fhqvo"), SubResource("Resource_rx6va"), SubResource("Resource_epal8"), SubResource("Resource_yjsno"), SubResource("Resource_g5kf0"), SubResource("Resource_fouhj"), SubResource("Resource_k0qv0"), SubResource("Resource_k5kjh"), SubResource("Resource_kgpgb"), SubResource("Resource_vo1op"), SubResource("Resource_ceybs"), SubResource("Resource_3tvlk"), SubResource("Resource_aolp8"), SubResource("Resource_bk4f8"), SubResource("Resource_fsevn"), SubResource("Resource_ae5gs"), SubResource("Resource_7sfuo"), SubResource("Resource_5v82q")])

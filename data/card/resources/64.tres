@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://b2afdtsfofvmm"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_3rjlv"]
+
+[resource]
+script = ExtResource("1_3rjlv")
+id = &"64"
+category = &"maki-catta"
+display_name = "Nocturne"
+grade = 3

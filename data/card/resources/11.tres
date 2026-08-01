@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://d2te42adsq47t"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_0smrk"]
+[ext_resource type="Texture2D" uid="uid://cfjew1tyip40h" path="res://data/card/art/11.webp" id="2_3sqr5"]
+
+[resource]
+script = ExtResource("1_0smrk")
+id = &"11"
+category = &"renard"
+display_name = "Roux des Bois"
+texture = ExtResource("2_3sqr5")

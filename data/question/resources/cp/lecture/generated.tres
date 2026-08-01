@@ -1,0 +1,93 @@
+[gd_resource type="Resource" script_class="QuestionBankResource" format=3 uid="uid://bbp3cm0e6e8ay"]
+
+[ext_resource type="Script" uid="uid://dfbr3elc3mbig" path="res://data/question/question_resource.gd" id="1_db00y"]
+[ext_resource type="Script" uid="uid://crepyep5nhuxq" path="res://data/question/passage_resource.gd" id="2_ixb6b"]
+[ext_resource type="Script" uid="uid://c422qc1cinnna" path="res://data/question/question_bank_resource.gd" id="3_re8ok"]
+
+[sub_resource type="Resource" id="Resource_kq3he"]
+script = ExtResource("2_ixb6b")
+text = "Milo est un chat noir et blanc. Milo dort sur le lit. Un matin, la porte est ouverte. Milo sort dans le jardin. Il voit un papillon jaune. Milo court après le papillon. Il ne voit plus la maison. Milo a peur. Il miaule très fort. Emma entend Milo. Emma prend Milo dans ses bras. Milo est content. Milo rentre à la maison."
+
+[sub_resource type="Resource" id="Resource_xhui3"]
+script = ExtResource("1_db00y")
+subject = 6
+text = "De quelle couleur est Milo ?"
+correct_answer = "noir et blanc"
+choices = Array[String](["roux", "blanc", "gris"])
+passage = SubResource("Resource_kq3he")
+
+[sub_resource type="Resource" id="Resource_gl14x"]
+script = ExtResource("1_db00y")
+subject = 6
+text = "Où dort Milo ?"
+correct_answer = "sur le lit"
+choices = Array[String](["sous la table", "dans le jardin", "sur la chaise"])
+passage = SubResource("Resource_kq3he")
+
+[sub_resource type="Resource" id="Resource_lqsic"]
+script = ExtResource("1_db00y")
+subject = 6
+text = "Qu'est-ce que Milo voit dans le jardin ?"
+correct_answer = "un papillon"
+choices = Array[String](["un chien", "un oiseau", "une balle"])
+passage = SubResource("Resource_kq3he")
+
+[sub_resource type="Resource" id="Resource_1bove"]
+script = ExtResource("1_db00y")
+subject = 6
+text = "Comment se sent Milo quand il est perdu ?"
+correct_answer = "il a peur"
+choices = Array[String](["il est content", "il a faim", "il dort"])
+passage = SubResource("Resource_kq3he")
+
+[sub_resource type="Resource" id="Resource_w481r"]
+script = ExtResource("1_db00y")
+subject = 6
+text = "Qui vient aider Milo ?"
+correct_answer = "Emma"
+choices = Array[String](["le papillon", "un chien", "personne"])
+passage = SubResource("Resource_kq3he")
+
+[sub_resource type="Resource" id="Resource_buv6c"]
+script = ExtResource("1_db00y")
+subject = 6
+text = "Quand la porte est-elle ouverte ?"
+correct_answer = "un matin"
+choices = Array[String](["le soir", "à midi", "la nuit"])
+passage = SubResource("Resource_kq3he")
+
+[sub_resource type="Resource" id="Resource_ftnm1"]
+script = ExtResource("1_db00y")
+subject = 6
+text = "Où va Milo quand la porte est ouverte ?"
+correct_answer = "dans le jardin"
+choices = Array[String](["dans la rue", "chez le voisin", "sur le toit"])
+passage = SubResource("Resource_kq3he")
+
+[sub_resource type="Resource" id="Resource_qo5yl"]
+script = ExtResource("1_db00y")
+subject = 6
+text = "Que fait Milo quand il a peur ?"
+correct_answer = "il miaule très fort"
+choices = Array[String](["il dort", "il mange", "il joue"])
+passage = SubResource("Resource_kq3he")
+
+[sub_resource type="Resource" id="Resource_6eggl"]
+script = ExtResource("1_db00y")
+subject = 6
+text = "Qui prend Milo dans ses bras ?"
+correct_answer = "Emma"
+choices = Array[String](["le papillon", "la maman", "personne"])
+passage = SubResource("Resource_kq3he")
+
+[sub_resource type="Resource" id="Resource_73374"]
+script = ExtResource("1_db00y")
+subject = 6
+text = "Comment est Milo à la fin de l'histoire ?"
+correct_answer = "content"
+choices = Array[String](["triste", "fâché", "fatigué"])
+passage = SubResource("Resource_kq3he")
+
+[resource]
+script = ExtResource("3_re8ok")
+questions = Array[ExtResource("1_db00y")]([SubResource("Resource_xhui3"), SubResource("Resource_gl14x"), SubResource("Resource_lqsic"), SubResource("Resource_1bove"), SubResource("Resource_w481r"), SubResource("Resource_buv6c"), SubResource("Resource_ftnm1"), SubResource("Resource_qo5yl"), SubResource("Resource_6eggl"), SubResource("Resource_73374")])

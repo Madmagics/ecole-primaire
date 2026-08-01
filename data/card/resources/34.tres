@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://cvtpgvuqee0ph"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_uq2v7"]
+
+[resource]
+script = ExtResource("1_uq2v7")
+id = &"34"
+category = &"aigle"
+display_name = "Tempete"
+grade = 3

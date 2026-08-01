@@ -1,0 +1,12 @@
+id;type;text;correct_answer;choice_2;choice_3;choice_4;passage_id;qtype
+13000;passage;Milo est un chat noir et blanc. Milo dort sur le lit. Un matin, la porte est ouverte. Milo sort dans le jardin. Il voit un papillon jaune. Milo court après le papillon. Il ne voit plus la maison. Milo a peur. Il miaule très fort. Emma entend Milo. Emma prend Milo dans ses bras. Milo est content. Milo rentre à la maison.;;;;;;
+13001;question;De quelle couleur est Milo ?;noir et blanc;roux;blanc;gris;13000;L
+13002;question;Où dort Milo ?;sur le lit;sous la table;dans le jardin;sur la chaise;13000;L
+13003;question;Qu'est-ce que Milo voit dans le jardin ?;un papillon;un chien;un oiseau;une balle;13000;L
+13004;question;Comment se sent Milo quand il est perdu ?;il a peur;il est content;il a faim;il dort;13000;L
+13005;question;Qui vient aider Milo ?;Emma;le papillon;un chien;personne;13000;L
+13006;question;Quand la porte est-elle ouverte ?;un matin;le soir;à midi;la nuit;13000;L
+13007;question;Où va Milo quand la porte est ouverte ?;dans le jardin;dans la rue;chez le voisin;sur le toit;13000;L
+13008;question;Que fait Milo quand il a peur ?;il miaule très fort;il dort;il mange;il joue;13000;L
+13009;question;Qui prend Milo dans ses bras ?;Emma;le papillon;la maman;personne;13000;L
+13010;question;Comment est Milo à la fin de l'histoire ?;content;triste;fâché;fatigué;13000;L

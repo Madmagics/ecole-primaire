@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://bb0d6j1bflboq"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_kwbk1"]
+
+[resource]
+script = ExtResource("1_kwbk1")
+id = &"84"
+category = &"lézard"
+display_name = "Lézard iridescent"
+grade = 3

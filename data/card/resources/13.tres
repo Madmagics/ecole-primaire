@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://cq2cjw7vt24f0"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_uv4gd"]
+[ext_resource type="Texture2D" uid="uid://ny4nj3qcuf6w" path="res://data/card/art/13.webp" id="2_cov6c"]
+
+[resource]
+script = ExtResource("1_uv4gd")
+id = &"13"
+category = &"renard"
+display_name = "Argenté"
+texture = ExtResource("2_cov6c")
+grade = 2

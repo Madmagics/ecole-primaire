@@ -1,0 +1,328 @@
+[gd_resource type="Resource" script_class="QuestionBankResource" format=3 uid="uid://dgf1chffw5l2y"]
+
+[ext_resource type="Script" uid="uid://dfbr3elc3mbig" path="res://data/question/question_resource.gd" id="1_8w3qp"]
+[ext_resource type="Script" uid="uid://c422qc1cinnna" path="res://data/question/question_bank_resource.gd" id="2_whboa"]
+
+[sub_resource type="Resource" id="Resource_8w3qp"]
+script = ExtResource("1_8w3qp")
+subject = 2
+grade = 4
+text = "Dans la phrase 'Il pleut depuis ce matin.', 'depuis ce matin' est un complément circonstanciel de quel type ?"
+correct_answer = "temps"
+choices = Array[String](["lieu", "manière", "cause"])
+
+[sub_resource type="Resource" id="Resource_whboa"]
+script = ExtResource("1_8w3qp")
+subject = 2
+grade = 4
+text = "Dans la phrase 'Nous partons demain.', 'demain' est un complément circonstanciel de quel type ?"
+correct_answer = "temps"
+choices = Array[String](["lieu", "manière", "cause"])
+
+[sub_resource type="Resource" id="Resource_02s0f"]
+script = ExtResource("1_8w3qp")
+subject = 2
+grade = 4
+text = "Dans la phrase 'Elle est arrivée hier soir.', 'hier soir' est un complément circonstanciel de quel type ?"
+correct_answer = "temps"
+choices = Array[String](["lieu", "manière", "cause"])
+
+[sub_resource type="Resource" id="Resource_o0heo"]
+script = ExtResource("1_8w3qp")
+subject = 2
+grade = 4
+text = "Dans la phrase 'Les oiseaux volent dans le ciel.', 'dans le ciel' est un complément circonstanciel de quel type ?"
+correct_answer = "lieu"
+choices = Array[String](["temps", "manière", "cause"])
+
+[sub_resource type="Resource" id="Resource_3jeip"]
+script = ExtResource("1_8w3qp")
+subject = 2
+grade = 4
+text = "Dans la phrase 'Le chat dort sous la table.', 'sous la table' est un complément circonstanciel de quel type ?"
+correct_answer = "lieu"
+choices = Array[String](["temps", "manière", "cause"])
+
+[sub_resource type="Resource" id="Resource_57arp"]
+script = ExtResource("1_8w3qp")
+subject = 2
+grade = 4
+text = "Dans la phrase 'Ils habitent près de la gare.', 'près de la gare' est un complément circonstanciel de quel type ?"
+correct_answer = "lieu"
+choices = Array[String](["temps", "manière", "cause"])
+
+[sub_resource type="Resource" id="Resource_qh7be"]
+script = ExtResource("1_8w3qp")
+subject = 2
+grade = 4
+text = "Dans la phrase 'Elle chante avec joie.', 'avec joie' est un complément circonstanciel de quel type ?"
+correct_answer = "manière"
+choices = Array[String](["temps", "lieu", "cause"])
+
+[sub_resource type="Resource" id="Resource_t6d8d"]
+script = ExtResource("1_8w3qp")
+subject = 2
+grade = 4
+text = "Dans la phrase 'Il marche lentement.', 'lentement' est un complément circonstanciel de quel type ?"
+correct_answer = "manière"
+choices = Array[String](["temps", "lieu", "cause"])
+
+[sub_resource type="Resource" id="Resource_sb2xb"]
+script = ExtResource("1_8w3qp")
+subject = 2
+grade = 4
+text = "Dans la phrase 'Le chien aboie furieusement.', 'furieusement' est un complément circonstanciel de quel type ?"
+correct_answer = "manière"
+choices = Array[String](["temps", "lieu", "cause"])
+
+[sub_resource type="Resource" id="Resource_4lqlr"]
+script = ExtResource("1_8w3qp")
+subject = 2
+grade = 4
+text = "Dans la phrase 'Nous jouons dans le jardin.', 'dans le jardin' est un complément circonstanciel de quel type ?"
+correct_answer = "lieu"
+choices = Array[String](["temps", "manière", "cause"])
+
+[sub_resource type="Resource" id="Resource_xs4sk"]
+script = ExtResource("1_8w3qp")
+subject = 2
+grade = 4
+text = "Dans la phrase 'Le train part à huit heures.', 'à huit heures' est un complément circonstanciel de quel type ?"
+correct_answer = "temps"
+choices = Array[String](["lieu", "manière", "cause"])
+
+[sub_resource type="Resource" id="Resource_2ord7"]
+script = ExtResource("1_8w3qp")
+subject = 2
+grade = 4
+text = "Dans la phrase 'Elle répond poliment.', 'poliment' est un complément circonstanciel de quel type ?"
+correct_answer = "manière"
+choices = Array[String](["temps", "lieu", "cause"])
+
+[sub_resource type="Resource" id="Resource_sqpeo"]
+script = ExtResource("1_8w3qp")
+subject = 2
+grade = 4
+text = "Dans la phrase 'Les enfants rentrent après l'école.', 'après l'école' est un complément circonstanciel de quel type ?"
+correct_answer = "temps"
+choices = Array[String](["lieu", "manière", "cause"])
+
+[sub_resource type="Resource" id="Resource_vatxh"]
+script = ExtResource("1_8w3qp")
+subject = 2
+grade = 4
+text = "Dans la phrase 'Le poisson nage dans l'aquarium.', 'dans l'aquarium' est un complément circonstanciel de quel type ?"
+correct_answer = "lieu"
+choices = Array[String](["temps", "manière", "cause"])
+
+[sub_resource type="Resource" id="Resource_yymya"]
+script = ExtResource("1_8w3qp")
+subject = 2
+grade = 4
+text = "Dans la phrase 'Il travaille avec sérieux.', 'avec sérieux' est un complément circonstanciel de quel type ?"
+correct_answer = "manière"
+choices = Array[String](["temps", "lieu", "cause"])
+
+[sub_resource type="Resource" id="Resource_4qqlg"]
+script = ExtResource("1_8w3qp")
+subject = 2
+grade = 4
+text = "Le livre ___ je lis est passionnant."
+correct_answer = "que"
+choices = Array[String](["qui", "où", "dont"])
+
+[sub_resource type="Resource" id="Resource_c6dg6"]
+script = ExtResource("1_8w3qp")
+subject = 2
+grade = 4
+text = "La maison ___ j'habite est grande."
+correct_answer = "où"
+choices = Array[String](["qui", "que", "dont"])
+
+[sub_resource type="Resource" id="Resource_ekidf"]
+script = ExtResource("1_8w3qp")
+subject = 2
+grade = 4
+text = "Le stylo ___ est sur la table appartient à Lea."
+correct_answer = "qui"
+choices = Array[String](["que", "où", "dont"])
+
+[sub_resource type="Resource" id="Resource_uim8y"]
+script = ExtResource("1_8w3qp")
+subject = 2
+grade = 4
+text = "L'ami ___ je parle est absent."
+correct_answer = "dont"
+choices = Array[String](["qui", "que", "où"])
+
+[sub_resource type="Resource" id="Resource_elmra"]
+script = ExtResource("1_8w3qp")
+subject = 2
+grade = 4
+text = "La ville ___ je suis né s'appelle Lyon."
+correct_answer = "où"
+choices = Array[String](["qui", "que", "dont"])
+
+[sub_resource type="Resource" id="Resource_n0ykc"]
+script = ExtResource("1_8w3qp")
+subject = 2
+grade = 4
+text = "Le gâteau ___ tu as préparé est délicieux."
+correct_answer = "que"
+choices = Array[String](["qui", "où", "dont"])
+
+[sub_resource type="Resource" id="Resource_m1hfp"]
+script = ExtResource("1_8w3qp")
+subject = 2
+grade = 4
+text = "Le chien ___ aboie fort dérange les voisins."
+correct_answer = "qui"
+choices = Array[String](["que", "où", "dont"])
+
+[sub_resource type="Resource" id="Resource_oix3p"]
+script = ExtResource("1_8w3qp")
+subject = 2
+grade = 4
+text = "Le film ___ nous avons regardé était triste."
+correct_answer = "que"
+choices = Array[String](["qui", "où", "dont"])
+
+[sub_resource type="Resource" id="Resource_ewwoh"]
+script = ExtResource("1_8w3qp")
+subject = 2
+grade = 4
+text = "C'est le sac ___ j'ai besoin."
+correct_answer = "dont"
+choices = Array[String](["qui", "que", "où"])
+
+[sub_resource type="Resource" id="Resource_lrb7g"]
+script = ExtResource("1_8w3qp")
+subject = 2
+grade = 4
+text = "Le jour ___ il est né, il neigeait."
+correct_answer = "où"
+choices = Array[String](["qui", "que", "dont"])
+
+[sub_resource type="Resource" id="Resource_7l8hm"]
+script = ExtResource("1_8w3qp")
+subject = 2
+grade = 4
+text = "La fille ___ chante si bien est ma cousine."
+correct_answer = "qui"
+choices = Array[String](["que", "où", "dont"])
+
+[sub_resource type="Resource" id="Resource_fo8kj"]
+script = ExtResource("1_8w3qp")
+subject = 2
+grade = 4
+text = "Voici le cahier ___ tu cherchais."
+correct_answer = "que"
+choices = Array[String](["qui", "où", "dont"])
+
+[sub_resource type="Resource" id="Resource_awsg7"]
+script = ExtResource("1_8w3qp")
+subject = 2
+grade = 4
+text = "C'est un projet ___ je suis fier."
+correct_answer = "dont"
+choices = Array[String](["qui", "que", "où"])
+
+[sub_resource type="Resource" id="Resource_701ao"]
+script = ExtResource("1_8w3qp")
+subject = 2
+grade = 4
+text = "Le magasin ___ nous allons est fermé."
+correct_answer = "où"
+choices = Array[String](["qui", "que", "dont"])
+
+[sub_resource type="Resource" id="Resource_7u2lg"]
+script = ExtResource("1_8w3qp")
+subject = 2
+grade = 4
+text = "L'histoire ___ elle raconte est vraie."
+correct_answer = "que"
+choices = Array[String](["qui", "où", "dont"])
+
+[sub_resource type="Resource" id="Resource_76xuf"]
+script = ExtResource("1_8w3qp")
+subject = 2
+grade = 4
+text = "Elle a ___ une pomme (manger)."
+correct_answer = "mangé"
+choices = Array[String](["mangée", "manges", "mangées"])
+
+[sub_resource type="Resource" id="Resource_7x3il"]
+script = ExtResource("1_8w3qp")
+subject = 2
+grade = 4
+text = "Ils ont ___ leurs devoirs (finir)."
+correct_answer = "fini"
+choices = Array[String](["finie", "finis", "finies"])
+
+[sub_resource type="Resource" id="Resource_4d365"]
+script = ExtResource("1_8w3qp")
+subject = 2
+grade = 4
+text = "Nous avons ___ un film (voir)."
+correct_answer = "vu"
+choices = Array[String](["vue", "vus", "vues"])
+
+[sub_resource type="Resource" id="Resource_b0m8x"]
+script = ExtResource("1_8w3qp")
+subject = 2
+grade = 4
+text = "Elles ont ___ la vérité (dire)."
+correct_answer = "dit"
+choices = Array[String](["dite", "dits", "dites"])
+
+[sub_resource type="Resource" id="Resource_yh0io"]
+script = ExtResource("1_8w3qp")
+subject = 2
+grade = 4
+text = "Il a ___ un gâteau (faire)."
+correct_answer = "fait"
+choices = Array[String](["faite", "faits", "faites"])
+
+[sub_resource type="Resource" id="Resource_258c6"]
+script = ExtResource("1_8w3qp")
+subject = 2
+grade = 4
+text = "J'ai ___ mes clés (prendre)."
+correct_answer = "pris"
+choices = Array[String](["prise", "prises", "priss"])
+
+[sub_resource type="Resource" id="Resource_jw788"]
+script = ExtResource("1_8w3qp")
+subject = 2
+grade = 4
+text = "Tu as ___ un livre (choisir)."
+correct_answer = "choisi"
+choices = Array[String](["choisie", "choisis", "choisies"])
+
+[sub_resource type="Resource" id="Resource_uy251"]
+script = ExtResource("1_8w3qp")
+subject = 2
+grade = 4
+text = "Vous avez ___ vos affaires (vendre)."
+correct_answer = "vendu"
+choices = Array[String](["vendue", "vendus", "vendues"])
+
+[sub_resource type="Resource" id="Resource_qy2qg"]
+script = ExtResource("1_8w3qp")
+subject = 2
+grade = 4
+text = "Ils ont ___ leur travail (terminer)."
+correct_answer = "terminé"
+choices = Array[String](["terminée", "termines", "terminées"])
+
+[sub_resource type="Resource" id="Resource_u5mcv"]
+script = ExtResource("1_8w3qp")
+subject = 2
+grade = 4
+text = "Elle a ___ toute la journée (travailler)."
+correct_answer = "travaillé"
+choices = Array[String](["travaillée", "travailles", "travaillées"])
+
+[resource]
+script = ExtResource("2_whboa")
+questions = Array[ExtResource("1_8w3qp")]([SubResource("Resource_8w3qp"), SubResource("Resource_whboa"), SubResource("Resource_02s0f"), SubResource("Resource_o0heo"), SubResource("Resource_3jeip"), SubResource("Resource_57arp"), SubResource("Resource_qh7be"), SubResource("Resource_t6d8d"), SubResource("Resource_sb2xb"), SubResource("Resource_4lqlr"), SubResource("Resource_xs4sk"), SubResource("Resource_2ord7"), SubResource("Resource_sqpeo"), SubResource("Resource_vatxh"), SubResource("Resource_yymya"), SubResource("Resource_4qqlg"), SubResource("Resource_c6dg6"), SubResource("Resource_ekidf"), SubResource("Resource_uim8y"), SubResource("Resource_elmra"), SubResource("Resource_n0ykc"), SubResource("Resource_m1hfp"), SubResource("Resource_oix3p"), SubResource("Resource_ewwoh"), SubResource("Resource_lrb7g"), SubResource("Resource_7l8hm"), SubResource("Resource_fo8kj"), SubResource("Resource_awsg7"), SubResource("Resource_701ao"), SubResource("Resource_7u2lg"), SubResource("Resource_76xuf"), SubResource("Resource_7x3il"), SubResource("Resource_4d365"), SubResource("Resource_b0m8x"), SubResource("Resource_yh0io"), SubResource("Resource_258c6"), SubResource("Resource_jw788"), SubResource("Resource_uy251"), SubResource("Resource_qy2qg"), SubResource("Resource_u5mcv")])

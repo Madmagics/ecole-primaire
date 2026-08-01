@@ -1,0 +1,16 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://c74tpqvh7lhr0"
+
+[deps]
+
+source_file="res://csv/questions/ce2/lecture/histoires_generated.csv"
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

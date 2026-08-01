@@ -1,0 +1,288 @@
+[gd_resource type="Resource" script_class="QuestionBankResource" format=3 uid="uid://dhcth0no2snmu"]
+
+[ext_resource type="Script" uid="uid://dfbr3elc3mbig" path="res://data/question/question_resource.gd" id="1_gfs2s"]
+[ext_resource type="Script" uid="uid://c422qc1cinnna" path="res://data/question/question_bank_resource.gd" id="2_gm8u8"]
+
+[sub_resource type="Resource" id="Resource_gfs2s"]
+script = ExtResource("1_gfs2s")
+subject = 4
+grade = 3
+text = "Il pose le livre ___ (à cet endroit)."
+correct_answer = "là"
+choices = Array[String](["l'a", "las", "l'as"])
+
+[sub_resource type="Resource" id="Resource_gm8u8"]
+script = ExtResource("1_gfs2s")
+subject = 4
+grade = 3
+text = "Marie ___ vu hier (elle a)."
+correct_answer = "l'a"
+choices = Array[String](["la", "las", "l'as"])
+
+[sub_resource type="Resource" id="Resource_ciecf"]
+script = ExtResource("1_gfs2s")
+subject = 4
+grade = 3
+text = "Tu ___ déjà rencontré (tu l'as)."
+correct_answer = "l'as"
+choices = Array[String](["la", "l'a", "las"])
+
+[sub_resource type="Resource" id="Resource_rmoyt"]
+script = ExtResource("1_gfs2s")
+subject = 4
+grade = 3
+text = "Regarde ___-bas, c'est ma maison."
+correct_answer = "là"
+choices = Array[String](["l'a", "las", "l'as"])
+
+[sub_resource type="Resource" id="Resource_3k6cl"]
+script = ExtResource("1_gfs2s")
+subject = 4
+grade = 3
+text = "Il ___ manger avant de partir (a le droit de)."
+correct_answer = "peut"
+choices = Array[String](["peu", "peux", "peue"])
+
+[sub_resource type="Resource" id="Resource_l6s0l"]
+script = ExtResource("1_gfs2s")
+subject = 4
+grade = 3
+text = "Je ne ___ pas venir demain (capacité)."
+correct_answer = "peux"
+choices = Array[String](["peu", "peut", "peue"])
+
+[sub_resource type="Resource" id="Resource_rwrcd"]
+script = ExtResource("1_gfs2s")
+subject = 4
+grade = 3
+text = "Il reste ___ de temps avant le départ (quantité)."
+correct_answer = "peu"
+choices = Array[String](["peux", "peut", "peue"])
+
+[sub_resource type="Resource" id="Resource_dfxmj"]
+script = ExtResource("1_gfs2s")
+subject = 4
+grade = 3
+text = "Tu ___ finir ton assiette (capacité)."
+correct_answer = "peux"
+choices = Array[String](["peu", "peut", "peue"])
+
+[sub_resource type="Resource" id="Resource_am1ko"]
+script = ExtResource("1_gfs2s")
+subject = 4
+grade = 3
+text = "Je préfère ___ le matin que le soir (de préférence)."
+correct_answer = "plutôt"
+choices = Array[String](["plus tôt", "plutôt bien", "plu tôt"])
+
+[sub_resource type="Resource" id="Resource_yksot"]
+script = ExtResource("1_gfs2s")
+subject = 4
+grade = 3
+text = "Nous sommes arrives ___ que prévu (avant l'heure)."
+correct_answer = "plus tôt"
+choices = Array[String](["plutôt", "plus tard", "plutard"])
+
+[sub_resource type="Resource" id="Resource_0pegd"]
+script = ExtResource("1_gfs2s")
+subject = 4
+grade = 3
+text = "Il vaut mieux partir ___ que d'attendre."
+correct_answer = "plutôt"
+choices = Array[String](["plus tôt", "plus tard", "plutard"])
+
+[sub_resource type="Resource" id="Resource_rg01y"]
+script = ExtResource("1_gfs2s")
+subject = 4
+grade = 3
+text = "Elle est arrivée ___ ce matin."
+correct_answer = "plus tôt"
+choices = Array[String](["plutôt", "plus tard", "plutard"])
+
+[sub_resource type="Resource" id="Resource_h38nx"]
+script = ExtResource("1_gfs2s")
+subject = 4
+grade = 3
+text = "___ que de pleurer, il faut agir."
+correct_answer = "Plutôt"
+choices = Array[String](["Plus tôt", "Plus tard", "Plutard"])
+
+[sub_resource type="Resource" id="Resource_hixnv"]
+script = ExtResource("1_gfs2s")
+subject = 4
+grade = 3
+text = "Il est parti ___ que d'habitude (avant l'heure)."
+correct_answer = "plus tôt"
+choices = Array[String](["plutôt", "plus tard", "plutard"])
+
+[sub_resource type="Resource" id="Resource_e4do6"]
+script = ExtResource("1_gfs2s")
+subject = 4
+grade = 3
+text = "Je pense qu'il vaut mieux choisir ___ le rouge."
+correct_answer = "plutôt"
+choices = Array[String](["plus tôt", "plus tard", "plutard"])
+
+[sub_resource type="Resource" id="Resource_7b478"]
+script = ExtResource("1_gfs2s")
+subject = 4
+grade = 3
+text = "Il n'est ___ arrivé en retard (jamais)."
+correct_answer = "jamais"
+choices = Array[String](["toujours", "souvent", "parfois"])
+
+[sub_resource type="Resource" id="Resource_v2qnk"]
+script = ExtResource("1_gfs2s")
+subject = 4
+grade = 3
+text = "Elle vient ___ nous voir (souvent)."
+correct_answer = "souvent"
+choices = Array[String](["jamais", "rarement", "toujours"])
+
+[sub_resource type="Resource" id="Resource_43d78"]
+script = ExtResource("1_gfs2s")
+subject = 4
+grade = 3
+text = "Nous sommes ___ prêts à l'heure (toujours)."
+correct_answer = "toujours"
+choices = Array[String](["jamais", "rarement", "souvent"])
+
+[sub_resource type="Resource" id="Resource_6yrbi"]
+script = ExtResource("1_gfs2s")
+subject = 4
+grade = 3
+text = "Il a ___ fini son travail (déjà)."
+correct_answer = "déjà"
+choices = Array[String](["encore", "jamais", "bientôt"])
+
+[sub_resource type="Resource" id="Resource_ia3sn"]
+script = ExtResource("1_gfs2s")
+subject = 4
+grade = 3
+text = "Elle n'a pas ___ terminé (encore)."
+correct_answer = "encore"
+choices = Array[String](["déjà", "jamais", "bientôt"])
+
+[sub_resource type="Resource" id="Resource_3spyt"]
+script = ExtResource("1_gfs2s")
+subject = 4
+grade = 3
+text = "Il fait ___ trop chaud ici (vraiment)."
+correct_answer = "vraiment"
+choices = Array[String](["beaucoup", "assez", "trop"])
+
+[sub_resource type="Resource" id="Resource_485ft"]
+script = ExtResource("1_gfs2s")
+subject = 4
+grade = 3
+text = "J'ai ___ de devoirs ce soir (beaucoup)."
+correct_answer = "beaucoup"
+choices = Array[String](["trop", "assez", "peu"])
+
+[sub_resource type="Resource" id="Resource_1g6ii"]
+script = ExtResource("1_gfs2s")
+subject = 4
+grade = 3
+text = "Il est ___ grand pour son âge (assez)."
+correct_answer = "assez"
+choices = Array[String](["trop", "beaucoup", "très"])
+
+[sub_resource type="Resource" id="Resource_eig5v"]
+script = ExtResource("1_gfs2s")
+subject = 4
+grade = 3
+text = "Elle chante ___ bien (très)."
+correct_answer = "très"
+choices = Array[String](["trop", "assez", "beaucoup"])
+
+[sub_resource type="Resource" id="Resource_ryfdc"]
+script = ExtResource("1_gfs2s")
+subject = 4
+grade = 3
+text = "Nous partirons ___ (bientôt)."
+correct_answer = "bientôt"
+choices = Array[String](["déjà", "encore", "jamais"])
+
+[sub_resource type="Resource" id="Resource_6rrwa"]
+script = ExtResource("1_gfs2s")
+subject = 4
+grade = 3
+text = "Comment écrit-on le verbe 'appeler' avec 'j' au présent ?"
+correct_answer = "j'appelle"
+choices = Array[String](["j'appelé", "j'apelle", "j'apele"])
+
+[sub_resource type="Resource" id="Resource_ya8v7"]
+script = ExtResource("1_gfs2s")
+subject = 4
+grade = 3
+text = "Comment écrit-on le verbe 'jeter' avec 'je' au présent ?"
+correct_answer = "je jette"
+choices = Array[String](["je jeté", "je gette", "je gete"])
+
+[sub_resource type="Resource" id="Resource_arbun"]
+script = ExtResource("1_gfs2s")
+subject = 4
+grade = 3
+text = "Comment s'écrit le mot pour 'endroit où l'on habite' ?"
+correct_answer = "adresse"
+choices = Array[String](["esserda", "adrese", "adreesse"])
+
+[sub_resource type="Resource" id="Resource_ntodx"]
+script = ExtResource("1_gfs2s")
+subject = 4
+grade = 3
+text = "Comment s'écrit le mot pour 'personne qui enseigne' ?"
+correct_answer = "professeur"
+choices = Array[String](["profeseur", "proffeseur", "professeure"])
+
+[sub_resource type="Resource" id="Resource_ic7m1"]
+script = ExtResource("1_gfs2s")
+subject = 4
+grade = 3
+text = "Combien de 'r' dans le mot 'arriver' ?"
+correct_answer = "deux"
+choices = Array[String](["un", "trois", "zéro"])
+
+[sub_resource type="Resource" id="Resource_wfm8c"]
+script = ExtResource("1_gfs2s")
+subject = 4
+grade = 3
+text = "Combien de 'm' dans le mot 'pomme' ?"
+correct_answer = "deux"
+choices = Array[String](["un", "trois", "zéro"])
+
+[sub_resource type="Resource" id="Resource_5ioxi"]
+script = ExtResource("1_gfs2s")
+subject = 4
+grade = 3
+text = "Combien de 'l' dans le mot 'ballon' ?"
+correct_answer = "deux"
+choices = Array[String](["un", "trois", "zéro"])
+
+[sub_resource type="Resource" id="Resource_05aw2"]
+script = ExtResource("1_gfs2s")
+subject = 4
+grade = 3
+text = "Combien de 't' dans le mot 'lettre' ?"
+correct_answer = "deux"
+choices = Array[String](["un", "trois", "zéro"])
+
+[sub_resource type="Resource" id="Resource_c5nic"]
+script = ExtResource("1_gfs2s")
+subject = 4
+grade = 3
+text = "Comment s'écrit correctement : 'la classe' ou 'la clase' ?"
+correct_answer = "la classe"
+choices = Array[String](["la clase", "la classse", "la clace"])
+
+[sub_resource type="Resource" id="Resource_244je"]
+script = ExtResource("1_gfs2s")
+subject = 4
+grade = 3
+text = "Comment s'écrit correctement : 'le tapis' ou 'le tapiss' ?"
+correct_answer = "le tapis"
+choices = Array[String](["le tapiss", "le tapit", "le tapix"])
+
+[resource]
+script = ExtResource("2_gm8u8")
+questions = Array[ExtResource("1_gfs2s")]([SubResource("Resource_gfs2s"), SubResource("Resource_gm8u8"), SubResource("Resource_ciecf"), SubResource("Resource_rmoyt"), SubResource("Resource_3k6cl"), SubResource("Resource_l6s0l"), SubResource("Resource_rwrcd"), SubResource("Resource_dfxmj"), SubResource("Resource_am1ko"), SubResource("Resource_yksot"), SubResource("Resource_0pegd"), SubResource("Resource_rg01y"), SubResource("Resource_h38nx"), SubResource("Resource_hixnv"), SubResource("Resource_e4do6"), SubResource("Resource_7b478"), SubResource("Resource_v2qnk"), SubResource("Resource_43d78"), SubResource("Resource_6yrbi"), SubResource("Resource_ia3sn"), SubResource("Resource_3spyt"), SubResource("Resource_485ft"), SubResource("Resource_1g6ii"), SubResource("Resource_eig5v"), SubResource("Resource_ryfdc"), SubResource("Resource_6rrwa"), SubResource("Resource_ya8v7"), SubResource("Resource_arbun"), SubResource("Resource_ntodx"), SubResource("Resource_ic7m1"), SubResource("Resource_wfm8c"), SubResource("Resource_5ioxi"), SubResource("Resource_05aw2"), SubResource("Resource_c5nic"), SubResource("Resource_244je")])

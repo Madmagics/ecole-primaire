@@ -1,0 +1,41 @@
+id;text;correct_answer;choice_2;choice_3;choice_4
+10000;Quel pronom peut remplacer 'le chat' ?;il;je;elle;nous
+10001;Quel pronom peut remplacer 'la souris' ?;elle;nous;tu;il
+10002;Quel pronom peut remplacer 'Marie et moi' ?;nous;ils;elles;elle
+10003;Quel pronom peut remplacer 'Paul et toi' ?;vous;elles;il;tu
+10004;Quel pronom peut remplacer 'les enfants' ?;ils;il;elle;tu
+10005;Quel pronom peut remplacer 'les filles' ?;elles;elle;tu;nous
+10006;Quel pronom peut remplacer 'mon père' ?;il;elle;je;nous
+10007;Quel pronom peut remplacer 'ma soeur' ?;elle;elles;je;tu
+10008;Quel pronom peut remplacer 'Leo et Tom' ?;ils;nous;elles;vous
+10009;Quel pronom peut remplacer 'Lea et Zoe' ?;elles;je;il;ils
+10010;Dans la phrase 'Le chat mange la souris.', quel est le sujet du verbe ?;Le chat;l'adjectif;le groupe nominal complément;le verbe
+10011;Dans la phrase 'Les enfants jouent dans le jardin.', quel est le sujet du verbe ?;Les enfants;l'adjectif;le verbe;le groupe nominal complément
+10012;Dans la phrase 'Ma mère prépare le repas.', quel est le sujet du verbe ?;Ma mère;le complément;le groupe nominal complément;l'adjectif
+10013;Dans la phrase 'Les oiseaux chantent le matin.', quel est le sujet du verbe ?;Les oiseaux;le complément;le groupe nominal complément;l'adjectif
+10014;Dans la phrase 'Le vent souffle fort.', quel est le sujet du verbe ?;Le vent;le verbe;l'adjectif;le groupe nominal complément
+10015;Dans la phrase 'Les élèves écoutent la maîtresse.', quel est le sujet du verbe ?;Les élèves;l'adjectif;le groupe nominal complément;le complément
+10016;Dans la phrase 'Mon frère lit un livre.', quel est le sujet du verbe ?;Mon frère;l'adjectif;le verbe;le groupe nominal complément
+10017;Dans la phrase 'La pluie tombe sur la ville.', quel est le sujet du verbe ?;La pluie;le complément;le groupe nominal complément;le verbe
+10018;Dans la phrase 'Les voitures roulent vite.', quel est le sujet du verbe ?;Les voitures;l'adjectif;le verbe;le groupe nominal complément
+10019;Dans la phrase 'Le soleil brille aujourd'hui.', quel est le sujet du verbe ?;Le soleil;le verbe;le complément;l'adjectif
+10020;Les enfants ___ dans le jardin (jouer).;jouent;joue;joues;jouons
+10021;Le chat ___ la souris (chasser).;chasse;chassent;chasses;chassons
+10022;Mes parents ___ un cadeau (acheter).;achètent;achète;achètes;achetons
+10023;Tu ___ très bien (chanter).;chantes;chante;chantent;chantons
+10024;Nous ___ à la piscine (nager).;nageons;nage;nages;nagent
+10025;Les élèves ___ la leçon (apprendre).;apprennent;apprend;apprends;apprenons
+10026;La maîtresse ___ la classe (surveiller).;surveille;surveillent;surveilles;surveillons
+10027;Vous ___ trop de bruit (faire).;faites;fais;font;faisons
+10028;Les chiens ___ dans la rue (courir).;courent;court;cours;courons
+10029;Je ___ mes devoirs (finir).;finis;finit;finissent;finissons
+10030;'Quel âge as-tu ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+10031;'Le chat dort sur le tapis.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+10032;'Comme ce gâteau est bon !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+10033;'Ferme la porte, s'il te plaît.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
+10034;'Où habites-tu ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+10035;'Il fait beau aujourd'hui.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+10036;'Quelle belle surprise !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+10037;'Range ta chambre.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
+10038;'Aimes-tu le chocolat ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+10039;'Les vacances commencent demain.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative

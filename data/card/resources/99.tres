@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://ch6y8pn7t352o"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_j7cru"]
+
+[resource]
+script = ExtResource("1_j7cru")
+id = &"99"
+category = &"requin"
+display_name = "Requin cristal"
+grade = 3

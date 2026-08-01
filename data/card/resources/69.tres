@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://cm478n25j8ohy"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_edwyh"]
+
+[resource]
+script = ExtResource("1_edwyh")
+id = &"69"
+category = &"éléphant"
+display_name = "doré"
+grade = 3

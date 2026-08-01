@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://fbim8n60o6a"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_ledw6"]
+
+[resource]
+script = ExtResource("1_ledw6")
+id = &"87"
+category = &"bouquetin"
+display_name = "Bouquetin neigeux"
+grade = 1

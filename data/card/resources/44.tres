@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://cighta4jdbg1t"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_fgcv2"]
+
+[resource]
+script = ExtResource("1_fgcv2")
+id = &"44"
+category = &"souris"
+display_name = "Étincelle"
+grade = 3

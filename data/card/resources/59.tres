@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://bcjjfycmjch2q"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_0x4i2"]
+
+[resource]
+script = ExtResource("1_0x4i2")
+id = &"59"
+category = &"licorne"
+display_name = "Ignée"
+grade = 3

@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://d1ak0pv3j06gc"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_mmofx"]
+
+[resource]
+script = ExtResource("1_mmofx")
+id = &"91"
+category = &"dauphin"
+display_name = "Dauphin océanique"

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://bphqde8xuj88f"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_jnso3"]
+[ext_resource type="Texture2D" uid="uid://bn1htcnjew7xm" path="res://data/card/art/1.webp" id="2_y1dsj"]
+
+[resource]
+script = ExtResource("1_jnso3")
+id = &"1"
+category = &"chat"
+display_name = "Sauvage"
+texture = ExtResource("2_y1dsj")

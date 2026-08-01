@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://bt8qcuq6uuiuy"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_jp4cg"]
+
+[resource]
+script = ExtResource("1_jp4cg")
+id = &"21"
+category = &"hippocampe"
+display_name = "Corail"

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://cyje1bxpw27lo"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_aqafr"]
+
+[resource]
+script = ExtResource("1_aqafr")
+id = &"53"
+category = &"hippopotame"
+display_name = "Boueux"
+grade = 2

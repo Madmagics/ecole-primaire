@@ -1,0 +1,22 @@
+id;type;text;correct_answer;choice_2;choice_3;choice_4;passage_id;qtype
+14000;passage;Milo est un chat noir et blanc qui habite avec Emma. Un matin, la porte du jardin reste ouverte. Milo sort tout doucement dans l'herbe mouillée. Il aperçoit un papillon jaune qui vole près des fleurs. Milo court après le papillon pendant longtemps. Quand il s'arrête, il ne reconnaît plus le chemin de la maison. Milo a très peur et se cache sous un buisson. Il miaule de plus en plus fort. Emma cherche son chat dans tout le jardin. Elle entend enfin les miaulements près du grand arbre. Emma prend Milo dans ses bras et le rassure doucement. Milo ronronne de bonheur. Ensemble, ils rentrent à la maison pour goûter.;;;;;;
+14001;question;Avec qui habite Milo ?;Emma;personne;un chien;sa maman;14000;L
+14002;question;Qu'est-ce qui reste ouvert un matin ?;la porte du jardin;la fenêtre;le portail;la porte de la maison;14000;L
+14003;question;Où Milo sort-il dès que la porte est ouverte ?;dans l'herbe mouillée du jardin;sur le toit;dans la rue;chez le voisin;14000;L
+14004;question;De quelle couleur est le papillon ?;jaune;bleu;rouge;vert;14000;L
+14005;question;Où Milo se cache-t-il quand il a peur ?;sous un buisson;derrière la maison;sous le lit;dans un arbre;14000;L
+14006;question;Près de quoi Emma entend-elle Milo ?;le grand arbre;la porte;la fleur;le buisson de roses;14000;L
+14007;question;Que fait Emma quand elle trouve Milo ?;elle le prend dans ses bras;elle le gronde;elle repart;elle appelle un ami;14000;L
+14008;question;Que font Milo et Emma en rentrant ?;ils vont goûter;ils vont dormir;ils repartent au jardin;ils cherchent le papillon;14000;L
+14009;question;"Que veut dire ""Milo sort tout doucement"" ?";il sort sans faire de bruit, lentement;il sort très vite en courant;il sort en miaulant fort;il ne sort pas du tout;14000;V
+14010;question;Pourquoi Milo ne reconnaît-il plus le chemin de la maison ?;il a trop couru après le papillon et s'est trop éloigné;il fait nuit;la maison a changé de place;il a les yeux fermés;14000;I
+14011;question;De quelle couleur est Milo ?;noir et blanc;gris et blanc;roux;tout noir;14000;L
+14012;question;Quand la porte du jardin reste-t-elle ouverte ?;un matin;un soir;à midi;la nuit;14000;L
+14013;question;Comment est l'herbe dans le jardin ce matin-là ?;mouillée;sèche;couverte de feuilles;gelée;14000;L
+14014;question;Pendant combien de temps Milo court-il après le papillon ?;pendant longtemps;quelques secondes;une minute;il ne court pas;14000;L
+14015;question;Comment Milo miaule-t-il quand il a peur ?;de plus en plus fort;tout doucement;une seule fois;pas du tout;14000;L
+14016;question;Où Emma cherche-t-elle Milo dans le jardin ?;partout dans le jardin;seulement près de la porte;dans la maison;chez le voisin;14000;L
+14017;question;Que fait Milo quand Emma le prend dans ses bras ?;il ronronne de bonheur;il continue de miauler;il s'échappe en courant;il a encore peur;14000;L
+14018;question;Que fait Milo juste avant de s'arrêter de courir après le papillon ?;il poursuit le papillon pendant longtemps;il rentre directement à la maison;il s'endort dans l'herbe;il retourne voir Emma;14000;L
+14019;question;"Que veut dire ""il aperçoit un papillon"" ?";il voit soudain un papillon;il entend un papillon;il touche un papillon;il sent un papillon;14000;V
+14020;question;Pourquoi Milo se cache-t-il sous un buisson ?;parce qu'il a peur et cherche à se protéger;parce qu'il veut jouer;parce qu'il a faim;parce qu'il fait la sieste;14000;I

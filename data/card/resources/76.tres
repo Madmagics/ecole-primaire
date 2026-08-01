@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://1o1t574irbby"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_5reye"]
+
+[resource]
+script = ExtResource("1_5reye")
+id = &"76"
+category = &"vache"
+display_name = "Laitière"

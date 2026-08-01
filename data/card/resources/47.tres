@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://dxl8dktfvhp8e"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_tstfl"]
+
+[resource]
+script = ExtResource("1_tstfl")
+id = &"47"
+category = &"girafe"
+display_name = "Des Neiges"
+grade = 1

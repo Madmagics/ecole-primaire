@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://c7oy631o5y4k3"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_4lq4c"]
+
+[resource]
+script = ExtResource("1_4lq4c")
+id = &"65"
+category = &"maki-catta"
+display_name = "Arc-en-ciel"
+grade = 4

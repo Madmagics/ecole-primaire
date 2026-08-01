@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://gn8g36lvrbou"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_ugmg6"]
+
+[resource]
+script = ExtResource("1_ugmg6")
+id = &"98"
+category = &"requin"
+display_name = "Requin abyssal"
+grade = 2

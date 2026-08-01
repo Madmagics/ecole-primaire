@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://cv3gdhyvcsett"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_tgu7l"]
+
+[resource]
+script = ExtResource("1_tgu7l")
+id = &"93"
+category = &"dauphin"
+display_name = "Dauphin nocturne"
+grade = 2

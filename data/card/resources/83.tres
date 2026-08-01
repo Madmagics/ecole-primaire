@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://cdynoesvttuha"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_byw1f"]
+
+[resource]
+script = ExtResource("1_byw1f")
+id = &"83"
+category = &"lézard"
+display_name = "Lézard tropical"
+grade = 2

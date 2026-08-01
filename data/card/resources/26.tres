@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://cxgfm1dth4fvo"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_drjx0"]
+
+[resource]
+script = ExtResource("1_drjx0")
+id = &"26"
+category = &"dragon"
+display_name = "Forestier"

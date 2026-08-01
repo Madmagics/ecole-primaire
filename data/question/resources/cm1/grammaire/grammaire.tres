@@ -1,0 +1,328 @@
+[gd_resource type="Resource" script_class="QuestionBankResource" format=3 uid="uid://cs715spw6ewnv"]
+
+[ext_resource type="Script" uid="uid://dfbr3elc3mbig" path="res://data/question/question_resource.gd" id="1_w0jco"]
+[ext_resource type="Script" uid="uid://c422qc1cinnna" path="res://data/question/question_bank_resource.gd" id="2_iq31g"]
+
+[sub_resource type="Resource" id="Resource_w0jco"]
+script = ExtResource("1_w0jco")
+subject = 2
+grade = 3
+text = "Dans la phrase 'Marie mange une pomme.', quelle est la fonction de 'une pomme' ?"
+correct_answer = "COD"
+choices = Array[String](["COI", "attribut du sujet", "complément circonstanciel"])
+
+[sub_resource type="Resource" id="Resource_iq31g"]
+script = ExtResource("1_w0jco")
+subject = 2
+grade = 3
+text = "Dans la phrase 'Paul lit un livre.', quelle est la fonction de 'un livre' ?"
+correct_answer = "COD"
+choices = Array[String](["COI", "attribut du sujet", "complément circonstanciel"])
+
+[sub_resource type="Resource" id="Resource_xhykw"]
+script = ExtResource("1_w0jco")
+subject = 2
+grade = 3
+text = "Dans la phrase 'Le chat attrape la souris.', quelle est la fonction de 'la souris' ?"
+correct_answer = "COD"
+choices = Array[String](["COI", "attribut du sujet", "complément circonstanciel"])
+
+[sub_resource type="Resource" id="Resource_jkkbj"]
+script = ExtResource("1_w0jco")
+subject = 2
+grade = 3
+text = "Dans la phrase 'Les enfants regardent un film.', quelle est la fonction de 'un film' ?"
+correct_answer = "COD"
+choices = Array[String](["COI", "attribut du sujet", "complément circonstanciel"])
+
+[sub_resource type="Resource" id="Resource_p7nvp"]
+script = ExtResource("1_w0jco")
+subject = 2
+grade = 3
+text = "Dans la phrase 'Leo range ses jouets.', quelle est la fonction de 'ses jouets' ?"
+correct_answer = "COD"
+choices = Array[String](["COI", "attribut du sujet", "complément circonstanciel"])
+
+[sub_resource type="Resource" id="Resource_4ug6u"]
+script = ExtResource("1_w0jco")
+subject = 2
+grade = 3
+text = "Dans la phrase 'Paul pense à ses vacances.', quelle est la fonction de 'à ses vacances' ?"
+correct_answer = "COI"
+choices = Array[String](["COD", "attribut du sujet", "complément circonstanciel"])
+
+[sub_resource type="Resource" id="Resource_bwhi0"]
+script = ExtResource("1_w0jco")
+subject = 2
+grade = 3
+text = "Dans la phrase 'Elle parle à sa voisine.', quelle est la fonction de 'à sa voisine' ?"
+correct_answer = "COI"
+choices = Array[String](["COD", "attribut du sujet", "complément circonstanciel"])
+
+[sub_resource type="Resource" id="Resource_732ij"]
+script = ExtResource("1_w0jco")
+subject = 2
+grade = 3
+text = "Dans la phrase 'Nous obéissons à nos parents.', quelle est la fonction de 'à nos parents' ?"
+correct_answer = "COI"
+choices = Array[String](["COD", "attribut du sujet", "complément circonstanciel"])
+
+[sub_resource type="Resource" id="Resource_oxgxg"]
+script = ExtResource("1_w0jco")
+subject = 2
+grade = 3
+text = "Dans la phrase 'Il réfléchit à la question.', quelle est la fonction de 'à la question' ?"
+correct_answer = "COI"
+choices = Array[String](["COD", "attribut du sujet", "complément circonstanciel"])
+
+[sub_resource type="Resource" id="Resource_sehdw"]
+script = ExtResource("1_w0jco")
+subject = 2
+grade = 3
+text = "Dans la phrase 'Tu écris à ton correspondant.', quelle est la fonction de 'à ton correspondant' ?"
+correct_answer = "COI"
+choices = Array[String](["COD", "attribut du sujet", "complément circonstanciel"])
+
+[sub_resource type="Resource" id="Resource_y5nkl"]
+script = ExtResource("1_w0jco")
+subject = 2
+grade = 3
+text = "Dans la phrase 'Le ciel est bleu.', quelle est la fonction de 'bleu' ?"
+correct_answer = "attribut du sujet"
+choices = Array[String](["COD", "COI", "complément circonstanciel"])
+
+[sub_resource type="Resource" id="Resource_xbmlr"]
+script = ExtResource("1_w0jco")
+subject = 2
+grade = 3
+text = "Dans la phrase 'Cette histoire semble vraie.', quelle est la fonction de 'vraie' ?"
+correct_answer = "attribut du sujet"
+choices = Array[String](["COD", "COI", "complément circonstanciel"])
+
+[sub_resource type="Resource" id="Resource_0uyi1"]
+script = ExtResource("1_w0jco")
+subject = 2
+grade = 3
+text = "Dans la phrase 'Mon frère est médecin.', quelle est la fonction de 'médecin' ?"
+correct_answer = "attribut du sujet"
+choices = Array[String](["COD", "COI", "complément circonstanciel"])
+
+[sub_resource type="Resource" id="Resource_ns7fc"]
+script = ExtResource("1_w0jco")
+subject = 2
+grade = 3
+text = "Dans la phrase 'La soupe parait délicieuse.', quelle est la fonction de 'délicieuse' ?"
+correct_answer = "attribut du sujet"
+choices = Array[String](["COD", "COI", "complément circonstanciel"])
+
+[sub_resource type="Resource" id="Resource_c2gqw"]
+script = ExtResource("1_w0jco")
+subject = 2
+grade = 3
+text = "Dans la phrase 'Les élèves restent silencieux.', quelle est la fonction de 'silencieux' ?"
+correct_answer = "attribut du sujet"
+choices = Array[String](["COD", "COI", "complément circonstanciel"])
+
+[sub_resource type="Resource" id="Resource_sudnn"]
+script = ExtResource("1_w0jco")
+subject = 2
+grade = 3
+text = "___ chien aboie fort (à moi)."
+correct_answer = "Mon"
+choices = Array[String](["Ton", "Son", "Ce"])
+
+[sub_resource type="Resource" id="Resource_x8x3e"]
+script = ExtResource("1_w0jco")
+subject = 2
+grade = 3
+text = "___ cartable est neuf (à toi)."
+correct_answer = "Ton"
+choices = Array[String](["Mon", "Ces", "Cette"])
+
+[sub_resource type="Resource" id="Resource_2vqye"]
+script = ExtResource("1_w0jco")
+subject = 2
+grade = 3
+text = "___ chaussures sont sales (à lui/elle)."
+correct_answer = "Ses"
+choices = Array[String](["Ces", "Mes", "Cette"])
+
+[sub_resource type="Resource" id="Resource_n74i6"]
+script = ExtResource("1_w0jco")
+subject = 2
+grade = 3
+text = "___ maison est grande (à nous)."
+correct_answer = "Notre"
+choices = Array[String](["Votre", "Leur", "Cette"])
+
+[sub_resource type="Resource" id="Resource_d27dy"]
+script = ExtResource("1_w0jco")
+subject = 2
+grade = 3
+text = "___ voiture est rouge (à vous)."
+correct_answer = "Votre"
+choices = Array[String](["Notre", "Leur", "Ce"])
+
+[sub_resource type="Resource" id="Resource_m0cp5"]
+script = ExtResource("1_w0jco")
+subject = 2
+grade = 3
+text = "___ enfants sont sages (à eux)."
+correct_answer = "Leurs"
+choices = Array[String](["Leur", "Ses", "Ces"])
+
+[sub_resource type="Resource" id="Resource_2du1v"]
+script = ExtResource("1_w0jco")
+subject = 2
+grade = 3
+text = "___ crayon est casse (à moi)."
+correct_answer = "Mon"
+choices = Array[String](["Ma", "Mes", "Ce"])
+
+[sub_resource type="Resource" id="Resource_xp4xp"]
+script = ExtResource("1_w0jco")
+subject = 2
+grade = 3
+text = "___ trousse est neuve (à toi)."
+correct_answer = "Ta"
+choices = Array[String](["Ton", "Tes", "Cette"])
+
+[sub_resource type="Resource" id="Resource_k267m"]
+script = ExtResource("1_w0jco")
+subject = 2
+grade = 3
+text = "Regarde ___ chien-la, il est énorme (celui-ci)."
+correct_answer = "ce"
+choices = Array[String](["se", "ces", "c'est"])
+
+[sub_resource type="Resource" id="Resource_nkk8a"]
+script = ExtResource("1_w0jco")
+subject = 2
+grade = 3
+text = "___ fleurs sont magnifiques (celles-là)."
+correct_answer = "Ces"
+choices = Array[String](["Ses", "Leurs", "Cess"])
+
+[sub_resource type="Resource" id="Resource_57xdn"]
+script = ExtResource("1_w0jco")
+subject = 2
+grade = 3
+text = "___ histoire est passionnante (celle-là)."
+correct_answer = "Cette"
+choices = Array[String](["Ces", "Ses", "Cet"])
+
+[sub_resource type="Resource" id="Resource_woqo2"]
+script = ExtResource("1_w0jco")
+subject = 2
+grade = 3
+text = "___ arbre perd ses feuilles (celui-là)."
+correct_answer = "Cet"
+choices = Array[String](["Ce", "Cette", "Ces"])
+
+[sub_resource type="Resource" id="Resource_5d85n"]
+script = ExtResource("1_w0jco")
+subject = 2
+grade = 3
+text = "Je préfère ___ robe-ci (celle-ci)."
+correct_answer = "cette"
+choices = Array[String](["ces", "cet", "ce"])
+
+[sub_resource type="Resource" id="Resource_js0dy"]
+script = ExtResource("1_w0jco")
+subject = 2
+grade = 3
+text = "___ garçons jouent ensemble (ceux-là)."
+correct_answer = "Ces"
+choices = Array[String](["Ses", "Cette", "Cet"])
+
+[sub_resource type="Resource" id="Resource_aqelv"]
+script = ExtResource("1_w0jco")
+subject = 2
+grade = 3
+text = "Prends ___ livres, ils sont à toi (à toi, pluriel)."
+correct_answer = "tes"
+choices = Array[String](["ces", "ses", "ta"])
+
+[sub_resource type="Resource" id="Resource_7wu7a"]
+script = ExtResource("1_w0jco")
+subject = 2
+grade = 3
+text = "Elle est ___ tard hier soir (arriver)."
+correct_answer = "arrivée"
+choices = Array[String](["arrive", "arrives", "arrivées"])
+
+[sub_resource type="Resource" id="Resource_adcvh"]
+script = ExtResource("1_w0jco")
+subject = 2
+grade = 3
+text = "Ils sont ___ ce matin (partir)."
+correct_answer = "partis"
+choices = Array[String](["parti", "partie", "parties"])
+
+[sub_resource type="Resource" id="Resource_a2e76"]
+script = ExtResource("1_w0jco")
+subject = 2
+grade = 3
+text = "Elles sont ___ chez leur tante (aller)."
+correct_answer = "allées"
+choices = Array[String](["allé", "allée", "allés"])
+
+[sub_resource type="Resource" id="Resource_kfwnk"]
+script = ExtResource("1_w0jco")
+subject = 2
+grade = 3
+text = "Il est ___ le premier (venir)."
+correct_answer = "venu"
+choices = Array[String](["venue", "venus", "venues"])
+
+[sub_resource type="Resource" id="Resource_2p0uu"]
+script = ExtResource("1_w0jco")
+subject = 2
+grade = 3
+text = "Nous sommes ___ (garçons) au parc (aller)."
+correct_answer = "allés"
+choices = Array[String](["allé", "allée", "allées"])
+
+[sub_resource type="Resource" id="Resource_kt1pr"]
+script = ExtResource("1_w0jco")
+subject = 2
+grade = 3
+text = "Vous êtes ___ (filles) trop tard (rentrer)."
+correct_answer = "rentrées"
+choices = Array[String](["rentre", "rentres", "rentrée"])
+
+[sub_resource type="Resource" id="Resource_jy733"]
+script = ExtResource("1_w0jco")
+subject = 2
+grade = 3
+text = "Elle est ___ de sa chute (tomber)."
+correct_answer = "tombée"
+choices = Array[String](["tombe", "tombes", "tombées"])
+
+[sub_resource type="Resource" id="Resource_ylq4g"]
+script = ExtResource("1_w0jco")
+subject = 2
+grade = 3
+text = "Ils sont ___ par la fenêtre (sortir)."
+correct_answer = "sortis"
+choices = Array[String](["sorti", "sortie", "sorties"])
+
+[sub_resource type="Resource" id="Resource_vck16"]
+script = ExtResource("1_w0jco")
+subject = 2
+grade = 3
+text = "Elle est ___ chez elle (rester)."
+correct_answer = "restée"
+choices = Array[String](["reste", "restes", "restées"])
+
+[sub_resource type="Resource" id="Resource_tpyey"]
+script = ExtResource("1_w0jco")
+subject = 2
+grade = 3
+text = "Il est ___ en retard (monter)."
+correct_answer = "monté"
+choices = Array[String](["montée", "montes", "montées"])
+
+[resource]
+script = ExtResource("2_iq31g")
+questions = Array[ExtResource("1_w0jco")]([SubResource("Resource_w0jco"), SubResource("Resource_iq31g"), SubResource("Resource_xhykw"), SubResource("Resource_jkkbj"), SubResource("Resource_p7nvp"), SubResource("Resource_4ug6u"), SubResource("Resource_bwhi0"), SubResource("Resource_732ij"), SubResource("Resource_oxgxg"), SubResource("Resource_sehdw"), SubResource("Resource_y5nkl"), SubResource("Resource_xbmlr"), SubResource("Resource_0uyi1"), SubResource("Resource_ns7fc"), SubResource("Resource_c2gqw"), SubResource("Resource_sudnn"), SubResource("Resource_x8x3e"), SubResource("Resource_2vqye"), SubResource("Resource_n74i6"), SubResource("Resource_d27dy"), SubResource("Resource_m0cp5"), SubResource("Resource_2du1v"), SubResource("Resource_xp4xp"), SubResource("Resource_k267m"), SubResource("Resource_nkk8a"), SubResource("Resource_57xdn"), SubResource("Resource_woqo2"), SubResource("Resource_5d85n"), SubResource("Resource_js0dy"), SubResource("Resource_aqelv"), SubResource("Resource_7wu7a"), SubResource("Resource_adcvh"), SubResource("Resource_a2e76"), SubResource("Resource_kfwnk"), SubResource("Resource_2p0uu"), SubResource("Resource_kt1pr"), SubResource("Resource_jy733"), SubResource("Resource_ylq4g"), SubResource("Resource_vck16"), SubResource("Resource_tpyey")])

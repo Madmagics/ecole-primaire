@@ -1,0 +1,41 @@
+id;text;correct_answer;choice_2;choice_3;choice_4
+11000;Dans la phrase 'Marie mange une pomme.', quelle est la fonction de 'une pomme' ?;COD;COI;attribut du sujet;complément circonstanciel
+11001;Dans la phrase 'Paul lit un livre.', quelle est la fonction de 'un livre' ?;COD;COI;attribut du sujet;complément circonstanciel
+11002;Dans la phrase 'Le chat attrape la souris.', quelle est la fonction de 'la souris' ?;COD;COI;attribut du sujet;complément circonstanciel
+11003;Dans la phrase 'Les enfants regardent un film.', quelle est la fonction de 'un film' ?;COD;COI;attribut du sujet;complément circonstanciel
+11004;Dans la phrase 'Leo range ses jouets.', quelle est la fonction de 'ses jouets' ?;COD;COI;attribut du sujet;complément circonstanciel
+11005;Dans la phrase 'Paul pense à ses vacances.', quelle est la fonction de 'à ses vacances' ?;COI;COD;attribut du sujet;complément circonstanciel
+11006;Dans la phrase 'Elle parle à sa voisine.', quelle est la fonction de 'à sa voisine' ?;COI;COD;attribut du sujet;complément circonstanciel
+11007;Dans la phrase 'Nous obéissons à nos parents.', quelle est la fonction de 'à nos parents' ?;COI;COD;attribut du sujet;complément circonstanciel
+11008;Dans la phrase 'Il réfléchit à la question.', quelle est la fonction de 'à la question' ?;COI;COD;attribut du sujet;complément circonstanciel
+11009;Dans la phrase 'Tu écris à ton correspondant.', quelle est la fonction de 'à ton correspondant' ?;COI;COD;attribut du sujet;complément circonstanciel
+11010;Dans la phrase 'Le ciel est bleu.', quelle est la fonction de 'bleu' ?;attribut du sujet;COD;COI;complément circonstanciel
+11011;Dans la phrase 'Cette histoire semble vraie.', quelle est la fonction de 'vraie' ?;attribut du sujet;COD;COI;complément circonstanciel
+11012;Dans la phrase 'Mon frère est médecin.', quelle est la fonction de 'médecin' ?;attribut du sujet;COD;COI;complément circonstanciel
+11013;Dans la phrase 'La soupe parait délicieuse.', quelle est la fonction de 'délicieuse' ?;attribut du sujet;COD;COI;complément circonstanciel
+11014;Dans la phrase 'Les élèves restent silencieux.', quelle est la fonction de 'silencieux' ?;attribut du sujet;COD;COI;complément circonstanciel
+11015;___ chien aboie fort (à moi).;Mon;Ton;Son;Ce
+11016;___ cartable est neuf (à toi).;Ton;Mon;Ces;Cette
+11017;___ chaussures sont sales (à lui/elle).;Ses;Ces;Mes;Cette
+11018;___ maison est grande (à nous).;Notre;Votre;Leur;Cette
+11019;___ voiture est rouge (à vous).;Votre;Notre;Leur;Ce
+11020;___ enfants sont sages (à eux).;Leurs;Leur;Ses;Ces
+11021;___ crayon est casse (à moi).;Mon;Ma;Mes;Ce
+11022;___ trousse est neuve (à toi).;Ta;Ton;Tes;Cette
+11023;Regarde ___ chien-la, il est énorme (celui-ci).;ce;se;ces;c'est
+11024;___ fleurs sont magnifiques (celles-là).;Ces;Ses;Leurs;Cess
+11025;___ histoire est passionnante (celle-là).;Cette;Ces;Ses;Cet
+11026;___ arbre perd ses feuilles (celui-là).;Cet;Ce;Cette;Ces
+11027;Je préfère ___ robe-ci (celle-ci).;cette;ces;cet;ce
+11028;___ garçons jouent ensemble (ceux-là).;Ces;Ses;Cette;Cet
+11029;Prends ___ livres, ils sont à toi (à toi, pluriel).;tes;ces;ses;ta
+11030;Elle est ___ tard hier soir (arriver).;arrivée;arrive;arrives;arrivées
+11031;Ils sont ___ ce matin (partir).;partis;parti;partie;parties
+11032;Elles sont ___ chez leur tante (aller).;allées;allé;allée;allés
+11033;Il est ___ le premier (venir).;venu;venue;venus;venues
+11034;Nous sommes ___ (garçons) au parc (aller).;allés;allé;allée;allées
+11035;Vous êtes ___ (filles) trop tard (rentrer).;rentrées;rentre;rentres;rentrée
+11036;Elle est ___ de sa chute (tomber).;tombée;tombe;tombes;tombées
+11037;Ils sont ___ par la fenêtre (sortir).;sortis;sorti;sortie;sorties
+11038;Elle est ___ chez elle (rester).;restée;reste;restes;restées
+11039;Il est ___ en retard (monter).;monté;montée;montes;montées

@@ -1,0 +1,384 @@
+[gd_resource type="Resource" script_class="QuestionBankResource" format=3 uid="uid://b8jsvyvvyk1va"]
+
+[ext_resource type="Script" uid="uid://dfbr3elc3mbig" path="res://data/question/question_resource.gd" id="1_g8n4a"]
+[ext_resource type="Script" uid="uid://c422qc1cinnna" path="res://data/question/question_bank_resource.gd" id="2_wi6ct"]
+
+[sub_resource type="Resource" id="Resource_g8n4a"]
+script = ExtResource("1_g8n4a")
+subject = 4
+grade = 1
+text = "Comment s'appelle la femelle du : cheval ?"
+correct_answer = "jument"
+choices = Array[String](["cheval", "chevale", "jumente"])
+
+[sub_resource type="Resource" id="Resource_wi6ct"]
+script = ExtResource("1_g8n4a")
+subject = 4
+grade = 1
+text = "Comment s'appelle la femelle du : singe ?"
+correct_answer = "guenon"
+choices = Array[String](["singe", "singee", "guenone"])
+
+[sub_resource type="Resource" id="Resource_8qpky"]
+script = ExtResource("1_g8n4a")
+subject = 4
+grade = 1
+text = "Comment s'appelle la femelle du : chien ?"
+correct_answer = "chienne"
+choices = Array[String](["chien", "chiene", "chienn"])
+
+[sub_resource type="Resource" id="Resource_5phd8"]
+script = ExtResource("1_g8n4a")
+subject = 4
+grade = 1
+text = "Comment s'appelle la femelle du : canard ?"
+correct_answer = "cane"
+choices = Array[String](["canard", "canarde", "can"])
+
+[sub_resource type="Resource" id="Resource_uvywi"]
+script = ExtResource("1_g8n4a")
+subject = 4
+grade = 1
+text = "Comment s'appelle la femelle du : loup ?"
+correct_answer = "louve"
+choices = Array[String](["loup", "loupe", "louv"])
+
+[sub_resource type="Resource" id="Resource_fp2yn"]
+script = ExtResource("1_g8n4a")
+subject = 4
+grade = 1
+text = "Comment s'appelle la femelle du : lion ?"
+correct_answer = "lionne"
+choices = Array[String](["lion", "lione", "lionn"])
+
+[sub_resource type="Resource" id="Resource_t3dkp"]
+script = ExtResource("1_g8n4a")
+subject = 4
+grade = 1
+text = "Comment s'appelle la femelle du : coq ?"
+correct_answer = "poule"
+choices = Array[String](["coq", "coqe", "poul"])
+
+[sub_resource type="Resource" id="Resource_6ggoa"]
+script = ExtResource("1_g8n4a")
+subject = 4
+grade = 1
+text = "Comment s'appelle la femelle du : âne ?"
+correct_answer = "ânesse"
+choices = Array[String](["âne", "ânee", "âness"])
+
+[sub_resource type="Resource" id="Resource_lr5wu"]
+script = ExtResource("1_g8n4a")
+subject = 4
+grade = 1
+text = "Comment s'appelle la femelle du : tigre ?"
+correct_answer = "tigresse"
+choices = Array[String](["tigre", "tigrée", "tigress"])
+
+[sub_resource type="Resource" id="Resource_sghnj"]
+script = ExtResource("1_g8n4a")
+subject = 4
+grade = 1
+text = "Comment s'appelle la femelle du : boeuf ?"
+correct_answer = "vache"
+choices = Array[String](["boeuf", "boeufe", "vach"])
+
+[sub_resource type="Resource" id="Resource_fitln"]
+script = ExtResource("1_g8n4a")
+subject = 4
+grade = 1
+text = "Paul ___ Marie jouent ensemble."
+correct_answer = "et"
+choices = Array[String](["est", "es", "ai"])
+
+[sub_resource type="Resource" id="Resource_4bfdt"]
+script = ExtResource("1_g8n4a")
+subject = 4
+grade = 1
+text = "Le ciel ___ bleu aujourd'hui."
+correct_answer = "est"
+choices = Array[String](["et", "es", "ai"])
+
+[sub_resource type="Resource" id="Resource_62osa"]
+script = ExtResource("1_g8n4a")
+subject = 4
+grade = 1
+text = "Tom ___ Lea sont amis."
+correct_answer = "et"
+choices = Array[String](["est", "es", "ai"])
+
+[sub_resource type="Resource" id="Resource_1kkwo"]
+script = ExtResource("1_g8n4a")
+subject = 4
+grade = 1
+text = "Ce gâteau ___ délicieux."
+correct_answer = "est"
+choices = Array[String](["et", "es", "ai"])
+
+[sub_resource type="Resource" id="Resource_5uqtj"]
+script = ExtResource("1_g8n4a")
+subject = 4
+grade = 1
+text = "Il joue avec ___ chien."
+correct_answer = "son"
+choices = Array[String](["sont", "sons", "se"])
+
+[sub_resource type="Resource" id="Resource_kovkc"]
+script = ExtResource("1_g8n4a")
+subject = 4
+grade = 1
+text = "Les enfants ___ contents."
+correct_answer = "sont"
+choices = Array[String](["son", "sons", "se"])
+
+[sub_resource type="Resource" id="Resource_fqgjp"]
+script = ExtResource("1_g8n4a")
+subject = 4
+grade = 1
+text = "Elle range ___ cartable."
+correct_answer = "son"
+choices = Array[String](["sont", "sons", "se"])
+
+[sub_resource type="Resource" id="Resource_v43g0"]
+script = ExtResource("1_g8n4a")
+subject = 4
+grade = 1
+text = "Mes amis ___ en retard."
+correct_answer = "sont"
+choices = Array[String](["son", "sons", "se"])
+
+[sub_resource type="Resource" id="Resource_jncdq"]
+script = ExtResource("1_g8n4a")
+subject = 4
+grade = 1
+text = "Quel mois vient juste après janvier ?"
+correct_answer = "février"
+choices = Array[String](["octobre", "novembre", "décembre"])
+
+[sub_resource type="Resource" id="Resource_y1d5e"]
+script = ExtResource("1_g8n4a")
+subject = 4
+grade = 1
+text = "Quel mois vient juste après février ?"
+correct_answer = "mars"
+choices = Array[String](["novembre", "octobre", "juillet"])
+
+[sub_resource type="Resource" id="Resource_gf0cv"]
+script = ExtResource("1_g8n4a")
+subject = 4
+grade = 1
+text = "Quel mois vient juste après mars ?"
+correct_answer = "avril"
+choices = Array[String](["janvier", "novembre", "mars"])
+
+[sub_resource type="Resource" id="Resource_rvwx8"]
+script = ExtResource("1_g8n4a")
+subject = 4
+grade = 1
+text = "Quel mois vient juste après avril ?"
+correct_answer = "mai"
+choices = Array[String](["avril", "janvier", "juin"])
+
+[sub_resource type="Resource" id="Resource_s4ljw"]
+script = ExtResource("1_g8n4a")
+subject = 4
+grade = 1
+text = "Quel mois vient juste après mai ?"
+correct_answer = "juin"
+choices = Array[String](["avril", "novembre", "octobre"])
+
+[sub_resource type="Resource" id="Resource_o5yhb"]
+script = ExtResource("1_g8n4a")
+subject = 4
+grade = 1
+text = "Quel mois vient juste après juin ?"
+correct_answer = "juillet"
+choices = Array[String](["mars", "novembre", "août"])
+
+[sub_resource type="Resource" id="Resource_fqwd7"]
+script = ExtResource("1_g8n4a")
+subject = 4
+grade = 1
+text = "Quel mois vient juste après juillet ?"
+correct_answer = "août"
+choices = Array[String](["novembre", "juillet", "septembre"])
+
+[sub_resource type="Resource" id="Resource_igy05"]
+script = ExtResource("1_g8n4a")
+subject = 4
+grade = 1
+text = "Quel mois vient juste après août ?"
+correct_answer = "septembre"
+choices = Array[String](["décembre", "juin", "juillet"])
+
+[sub_resource type="Resource" id="Resource_cxxcp"]
+script = ExtResource("1_g8n4a")
+subject = 4
+grade = 1
+text = "Quel mois vient juste après septembre ?"
+correct_answer = "octobre"
+choices = Array[String](["septembre", "août", "mai"])
+
+[sub_resource type="Resource" id="Resource_a57fk"]
+script = ExtResource("1_g8n4a")
+subject = 4
+grade = 1
+text = "Quel mois vient juste après octobre ?"
+correct_answer = "novembre"
+choices = Array[String](["juillet", "octobre", "janvier"])
+
+[sub_resource type="Resource" id="Resource_6ccbr"]
+script = ExtResource("1_g8n4a")
+subject = 4
+grade = 1
+text = "Quel mois vient juste après novembre ?"
+correct_answer = "décembre"
+choices = Array[String](["juin", "novembre", "août"])
+
+[sub_resource type="Resource" id="Resource_obmyh"]
+script = ExtResource("1_g8n4a")
+subject = 4
+grade = 1
+text = "Quel mois vient juste après décembre ?"
+correct_answer = "janvier"
+choices = Array[String](["avril", "juin", "décembre"])
+
+[sub_resource type="Resource" id="Resource_ovwxd"]
+script = ExtResource("1_g8n4a")
+subject = 4
+grade = 1
+text = "Quel est un synonyme de 'grand' ?"
+correct_answer = "immense"
+choices = Array[String](["minuscule", "joli", "rapide"])
+
+[sub_resource type="Resource" id="Resource_u4h5p"]
+script = ExtResource("1_g8n4a")
+subject = 4
+grade = 1
+text = "Quel est un synonyme de 'commencer' ?"
+correct_answer = "débuter"
+choices = Array[String](["observer", "discuter", "raconter"])
+
+[sub_resource type="Resource" id="Resource_gm8m7"]
+script = ExtResource("1_g8n4a")
+subject = 4
+grade = 1
+text = "Quel est un synonyme de 'drôle' ?"
+correct_answer = "amusant"
+choices = Array[String](["joli", "triste", "malheureux"])
+
+[sub_resource type="Resource" id="Resource_8ng4d"]
+script = ExtResource("1_g8n4a")
+subject = 4
+grade = 1
+text = "Quel est un synonyme de 'triste' ?"
+correct_answer = "malheureux"
+choices = Array[String](["épuisé", "amusant", "immense"])
+
+[sub_resource type="Resource" id="Resource_gr6td"]
+script = ExtResource("1_g8n4a")
+subject = 4
+grade = 1
+text = "Quel est un synonyme de 'parler' ?"
+correct_answer = "discuter"
+choices = Array[String](["observer", "raconter", "débuter"])
+
+[sub_resource type="Resource" id="Resource_v67ex"]
+script = ExtResource("1_g8n4a")
+subject = 4
+grade = 1
+text = "Quel est un synonyme de 'fatigue' ?"
+correct_answer = "épuisé"
+choices = Array[String](["joli", "malheureux", "triste"])
+
+[sub_resource type="Resource" id="Resource_70gad"]
+script = ExtResource("1_g8n4a")
+subject = 4
+grade = 1
+text = "Combien y a-t-il de lettres dans le mot PORTE ?"
+correct_answer = "5"
+choices = Array[String](["4", "8", "6"])
+
+[sub_resource type="Resource" id="Resource_jkwu3"]
+script = ExtResource("1_g8n4a")
+subject = 4
+grade = 1
+text = "Combien y a-t-il de lettres dans le mot GÂTEAU ?"
+correct_answer = "6"
+choices = Array[String](["7", "3", "11"])
+
+[sub_resource type="Resource" id="Resource_vw6cq"]
+script = ExtResource("1_g8n4a")
+subject = 4
+grade = 1
+text = "Combien y a-t-il de lettres dans le mot GRENOUILLE ?"
+correct_answer = "10"
+choices = Array[String](["9", "8", "12"])
+
+[sub_resource type="Resource" id="Resource_3ebec"]
+script = ExtResource("1_g8n4a")
+subject = 4
+grade = 1
+text = "Combien y a-t-il de lettres dans le mot ÉCUREUIL ?"
+correct_answer = "8"
+choices = Array[String](["11", "9", "10"])
+
+[sub_resource type="Resource" id="Resource_ugbap"]
+script = ExtResource("1_g8n4a")
+subject = 4
+grade = 1
+text = "Combien y a-t-il de lettres dans le mot MONTAGNE ?"
+correct_answer = "8"
+choices = Array[String](["6", "5", "7"])
+
+[sub_resource type="Resource" id="Resource_t70o3"]
+script = ExtResource("1_g8n4a")
+subject = 4
+grade = 1
+text = "Combien y a-t-il de lettres dans le mot RENARD ?"
+correct_answer = "6"
+choices = Array[String](["9", "7", "3"])
+
+[sub_resource type="Resource" id="Resource_i2c5i"]
+script = ExtResource("1_g8n4a")
+subject = 4
+grade = 1
+text = "Combien y a-t-il de lettres dans le mot TABLE ?"
+correct_answer = "5"
+choices = Array[String](["2", "6", "8"])
+
+[sub_resource type="Resource" id="Resource_55ucw"]
+script = ExtResource("1_g8n4a")
+subject = 4
+grade = 1
+text = "Combien y a-t-il de lettres dans le mot CAHIER ?"
+correct_answer = "6"
+choices = Array[String](["5", "3", "8"])
+
+[sub_resource type="Resource" id="Resource_4wlmj"]
+script = ExtResource("1_g8n4a")
+subject = 4
+grade = 1
+text = "Quel mois vient juste avant janvier ?"
+correct_answer = "décembre"
+choices = Array[String](["septembre", "octobre", "août"])
+
+[sub_resource type="Resource" id="Resource_5kec6"]
+script = ExtResource("1_g8n4a")
+subject = 4
+grade = 1
+text = "Quel mois vient juste avant février ?"
+correct_answer = "janvier"
+choices = Array[String](["septembre", "mai", "avril"])
+
+[sub_resource type="Resource" id="Resource_3w6m3"]
+script = ExtResource("1_g8n4a")
+subject = 4
+grade = 1
+text = "Quel mois vient juste avant mars ?"
+correct_answer = "février"
+choices = Array[String](["septembre", "juillet", "mars"])
+
+[resource]
+script = ExtResource("2_wi6ct")
+questions = Array[ExtResource("1_g8n4a")]([SubResource("Resource_g8n4a"), SubResource("Resource_wi6ct"), SubResource("Resource_8qpky"), SubResource("Resource_5phd8"), SubResource("Resource_uvywi"), SubResource("Resource_fp2yn"), SubResource("Resource_t3dkp"), SubResource("Resource_6ggoa"), SubResource("Resource_lr5wu"), SubResource("Resource_sghnj"), SubResource("Resource_fitln"), SubResource("Resource_4bfdt"), SubResource("Resource_62osa"), SubResource("Resource_1kkwo"), SubResource("Resource_5uqtj"), SubResource("Resource_kovkc"), SubResource("Resource_fqgjp"), SubResource("Resource_v43g0"), SubResource("Resource_jncdq"), SubResource("Resource_y1d5e"), SubResource("Resource_gf0cv"), SubResource("Resource_rvwx8"), SubResource("Resource_s4ljw"), SubResource("Resource_o5yhb"), SubResource("Resource_fqwd7"), SubResource("Resource_igy05"), SubResource("Resource_cxxcp"), SubResource("Resource_a57fk"), SubResource("Resource_6ccbr"), SubResource("Resource_obmyh"), SubResource("Resource_ovwxd"), SubResource("Resource_u4h5p"), SubResource("Resource_gm8m7"), SubResource("Resource_8ng4d"), SubResource("Resource_gr6td"), SubResource("Resource_v67ex"), SubResource("Resource_70gad"), SubResource("Resource_jkwu3"), SubResource("Resource_vw6cq"), SubResource("Resource_3ebec"), SubResource("Resource_ugbap"), SubResource("Resource_t70o3"), SubResource("Resource_i2c5i"), SubResource("Resource_55ucw"), SubResource("Resource_4wlmj"), SubResource("Resource_5kec6"), SubResource("Resource_3w6m3")])

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://dbjbiml4drui5"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_jxjvt"]
+
+[resource]
+script = ExtResource("1_jxjvt")
+id = &"42"
+category = &"souris"
+display_name = "Blanche"
+grade = 1

@@ -13,7 +13,7 @@ func _ready() -> void:
 	EventBus.interactable_unfocused.connect(_on_unfocused)
 
 func _unhandled_input(event: InputEvent) -> void:
-	if _current and event.is_action_pressed("interact"):
+	if _current and not PlayerInputLock.is_locked() and event.is_action_pressed("interact"):
 		_current.trigger_interact(get_parent())
 
 func _on_focused(interactable: Node) -> void:

@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://cyiibuuquweqi"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_gh4c1"]
+[ext_resource type="Texture2D" uid="uid://ej7ew72enhw3" path="res://data/card/art/10.webp" id="2_rbptl"]
+
+[resource]
+script = ExtResource("1_gh4c1")
+id = &"10"
+category = &"chien"
+display_name = "Cerbère"
+texture = ExtResource("2_rbptl")
+grade = 4

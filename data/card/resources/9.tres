@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://cr4a41ht1r5vp"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_mpyie"]
+[ext_resource type="Texture2D" uid="uid://dy5olo1xoyrgg" path="res://data/card/art/9.webp" id="2_kwc3d"]
+
+[resource]
+script = ExtResource("1_mpyie")
+id = &"9"
+category = &"chien"
+display_name = "Mystique"
+texture = ExtResource("2_kwc3d")
+grade = 3

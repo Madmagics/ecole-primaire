@@ -1,0 +1,16 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://bm5fl388ec3yb"
+
+[deps]
+
+source_file="res://csv/questions/ce2/math/generated.csv"
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

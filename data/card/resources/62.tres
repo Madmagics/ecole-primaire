@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://f3fl0idlbnxr"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_esjm0"]
+
+[resource]
+script = ExtResource("1_esjm0")
+id = &"62"
+category = &"maki-catta"
+display_name = "Roux"
+grade = 1

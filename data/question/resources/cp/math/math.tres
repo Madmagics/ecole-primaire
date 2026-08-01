@@ -1,0 +1,3008 @@
+[gd_resource type="Resource" script_class="QuestionBankResource" format=3 uid="uid://dyqpieytuesjf"]
+
+[ext_resource type="Script" uid="uid://dfbr3elc3mbig" path="res://data/question/question_resource.gd" id="1_3thbv"]
+[ext_resource type="Script" uid="uid://c422qc1cinnna" path="res://data/question/question_bank_resource.gd" id="2_v1yrj"]
+
+[sub_resource type="Resource" id="Resource_3thbv"]
+script = ExtResource("1_3thbv")
+text = "Combien font 10 + 1 ?"
+correct_answer = "11"
+choices = Array[String](["1", "9", "13"])
+
+[sub_resource type="Resource" id="Resource_v1yrj"]
+script = ExtResource("1_3thbv")
+text = "Combien font 10 + 7 ?"
+correct_answer = "17"
+choices = Array[String](["22", "15", "16"])
+
+[sub_resource type="Resource" id="Resource_s3x3f"]
+script = ExtResource("1_3thbv")
+text = "Combien font 5 + 15 ?"
+correct_answer = "20"
+choices = Array[String](["19", "18", "15"])
+
+[sub_resource type="Resource" id="Resource_q0drq"]
+script = ExtResource("1_3thbv")
+text = "Combien font 3 + 16 ?"
+correct_answer = "19"
+choices = Array[String](["21", "24", "20"])
+
+[sub_resource type="Resource" id="Resource_rp0kr"]
+script = ExtResource("1_3thbv")
+text = "Combien font 5 + 14 ?"
+correct_answer = "19"
+choices = Array[String](["24", "17", "16"])
+
+[sub_resource type="Resource" id="Resource_stpok"]
+script = ExtResource("1_3thbv")
+text = "Combien font 9 + 5 ?"
+correct_answer = "14"
+choices = Array[String](["17", "12", "13"])
+
+[sub_resource type="Resource" id="Resource_mpfog"]
+script = ExtResource("1_3thbv")
+text = "Combien font 6 + 5 ?"
+correct_answer = "11"
+choices = Array[String](["6", "10", "21"])
+
+[sub_resource type="Resource" id="Resource_1pwxh"]
+script = ExtResource("1_3thbv")
+text = "Combien font 4 + 10 ?"
+correct_answer = "14"
+choices = Array[String](["4", "9", "19"])
+
+[sub_resource type="Resource" id="Resource_r7m1h"]
+script = ExtResource("1_3thbv")
+text = "Combien font 13 + 1 ?"
+correct_answer = "14"
+choices = Array[String](["17", "13", "15"])
+
+[sub_resource type="Resource" id="Resource_rupjy"]
+script = ExtResource("1_3thbv")
+text = "Combien font 6 + 9 ?"
+correct_answer = "15"
+choices = Array[String](["25", "14", "5"])
+
+[sub_resource type="Resource" id="Resource_tx8v3"]
+script = ExtResource("1_3thbv")
+text = "Combien font 18 + 1 ?"
+correct_answer = "19"
+choices = Array[String](["9", "16", "29"])
+
+[sub_resource type="Resource" id="Resource_45a8a"]
+script = ExtResource("1_3thbv")
+text = "Combien font 6 + 6 ?"
+correct_answer = "12"
+choices = Array[String](["14", "9", "13"])
+
+[sub_resource type="Resource" id="Resource_v6x0q"]
+script = ExtResource("1_3thbv")
+text = "Combien font 5 + 2 ?"
+correct_answer = "7"
+choices = Array[String](["9", "2", "17"])
+
+[sub_resource type="Resource" id="Resource_0dmdl"]
+script = ExtResource("1_3thbv")
+text = "Combien font 11 + 1 ?"
+correct_answer = "12"
+choices = Array[String](["11", "2", "9"])
+
+[sub_resource type="Resource" id="Resource_dp7e4"]
+script = ExtResource("1_3thbv")
+text = "Combien font 12 + 4 ?"
+correct_answer = "16"
+choices = Array[String](["13", "18", "11"])
+
+[sub_resource type="Resource" id="Resource_l0fma"]
+script = ExtResource("1_3thbv")
+text = "Combien font 6 + 2 ?"
+correct_answer = "8"
+choices = Array[String](["10", "5", "18"])
+
+[sub_resource type="Resource" id="Resource_vvxyi"]
+script = ExtResource("1_3thbv")
+text = "Combien font 17 + 2 ?"
+correct_answer = "19"
+choices = Array[String](["20", "16", "18"])
+
+[sub_resource type="Resource" id="Resource_wdv0o"]
+script = ExtResource("1_3thbv")
+text = "Combien font 2 + 16 ?"
+correct_answer = "18"
+choices = Array[String](["16", "17", "28"])
+
+[sub_resource type="Resource" id="Resource_ufkwq"]
+script = ExtResource("1_3thbv")
+text = "Combien font 9 + 3 ?"
+correct_answer = "12"
+choices = Array[String](["15", "2", "14"])
+
+[sub_resource type="Resource" id="Resource_2cf3e"]
+script = ExtResource("1_3thbv")
+text = "Combien font 15 + 4 ?"
+correct_answer = "19"
+choices = Array[String](["24", "21", "17"])
+
+[sub_resource type="Resource" id="Resource_ywxe0"]
+script = ExtResource("1_3thbv")
+text = "Combien font 2 + 8 ?"
+correct_answer = "10"
+choices = Array[String](["11", "8", "7"])
+
+[sub_resource type="Resource" id="Resource_8o0nl"]
+script = ExtResource("1_3thbv")
+text = "Combien font 5 + 10 ?"
+correct_answer = "15"
+choices = Array[String](["13", "25", "20"])
+
+[sub_resource type="Resource" id="Resource_br6lo"]
+script = ExtResource("1_3thbv")
+text = "Combien font 13 + 4 ?"
+correct_answer = "17"
+choices = Array[String](["14", "7", "16"])
+
+[sub_resource type="Resource" id="Resource_ipo57"]
+script = ExtResource("1_3thbv")
+text = "Combien font 19 + 1 ?"
+correct_answer = "20"
+choices = Array[String](["22", "15", "19"])
+
+[sub_resource type="Resource" id="Resource_7vhn2"]
+script = ExtResource("1_3thbv")
+text = "Combien font 3 + 9 ?"
+correct_answer = "12"
+choices = Array[String](["11", "13", "2"])
+
+[sub_resource type="Resource" id="Resource_tbwu1"]
+script = ExtResource("1_3thbv")
+text = "Combien font 2 + 7 ?"
+correct_answer = "9"
+choices = Array[String](["10", "4", "14"])
+
+[sub_resource type="Resource" id="Resource_1cad4"]
+script = ExtResource("1_3thbv")
+text = "Combien font 7 + 7 ?"
+correct_answer = "14"
+choices = Array[String](["15", "12", "19"])
+
+[sub_resource type="Resource" id="Resource_307k8"]
+script = ExtResource("1_3thbv")
+text = "Combien font 3 + 1 ?"
+correct_answer = "4"
+choices = Array[String](["3", "5", "7"])
+
+[sub_resource type="Resource" id="Resource_x1ayg"]
+script = ExtResource("1_3thbv")
+text = "Combien font 5 + 13 ?"
+correct_answer = "18"
+choices = Array[String](["13", "8", "20"])
+
+[sub_resource type="Resource" id="Resource_evlyl"]
+script = ExtResource("1_3thbv")
+text = "Combien font 1 + 11 ?"
+correct_answer = "12"
+choices = Array[String](["14", "15", "22"])
+
+[sub_resource type="Resource" id="Resource_olvs8"]
+script = ExtResource("1_3thbv")
+text = "Combien font 4 + 16 ?"
+correct_answer = "20"
+choices = Array[String](["22", "21", "17"])
+
+[sub_resource type="Resource" id="Resource_s1dmc"]
+script = ExtResource("1_3thbv")
+text = "Combien font 10 + 5 ?"
+correct_answer = "15"
+choices = Array[String](["25", "5", "10"])
+
+[sub_resource type="Resource" id="Resource_xxa1h"]
+script = ExtResource("1_3thbv")
+text = "Combien font 4 + 9 ?"
+correct_answer = "13"
+choices = Array[String](["14", "10", "23"])
+
+[sub_resource type="Resource" id="Resource_puyb7"]
+script = ExtResource("1_3thbv")
+text = "Combien font 5 + 5 ?"
+correct_answer = "10"
+choices = Array[String](["9", "15", "8"])
+
+[sub_resource type="Resource" id="Resource_xrbcb"]
+script = ExtResource("1_3thbv")
+text = "Combien font 9 + 7 ?"
+correct_answer = "16"
+choices = Array[String](["21", "13", "14"])
+
+[sub_resource type="Resource" id="Resource_0cbw5"]
+script = ExtResource("1_3thbv")
+text = "Combien font 6 + 11 ?"
+correct_answer = "17"
+choices = Array[String](["27", "20", "18"])
+
+[sub_resource type="Resource" id="Resource_xff6j"]
+script = ExtResource("1_3thbv")
+text = "Combien font 2 + 1 ?"
+correct_answer = "3"
+choices = Array[String](["8", "5", "2"])
+
+[sub_resource type="Resource" id="Resource_tqctf"]
+script = ExtResource("1_3thbv")
+text = "Combien font 8 + 12 ?"
+correct_answer = "20"
+choices = Array[String](["25", "18", "22"])
+
+[sub_resource type="Resource" id="Resource_0a4go"]
+script = ExtResource("1_3thbv")
+text = "Combien font 14 + 5 ?"
+correct_answer = "19"
+choices = Array[String](["9", "14", "21"])
+
+[sub_resource type="Resource" id="Resource_4qm1a"]
+script = ExtResource("1_3thbv")
+text = "Combien font 16 + 1 ?"
+correct_answer = "17"
+choices = Array[String](["14", "27", "15"])
+
+[sub_resource type="Resource" id="Resource_75w1r"]
+script = ExtResource("1_3thbv")
+text = "Combien font 9 + 8 ?"
+correct_answer = "17"
+choices = Array[String](["18", "20", "15"])
+
+[sub_resource type="Resource" id="Resource_66oij"]
+script = ExtResource("1_3thbv")
+text = "Combien font 7 + 9 ?"
+correct_answer = "16"
+choices = Array[String](["13", "11", "14"])
+
+[sub_resource type="Resource" id="Resource_o1hf6"]
+script = ExtResource("1_3thbv")
+text = "Combien font 10 + 10 ?"
+correct_answer = "20"
+choices = Array[String](["22", "19", "15"])
+
+[sub_resource type="Resource" id="Resource_ersqo"]
+script = ExtResource("1_3thbv")
+text = "Combien font 9 + 6 ?"
+correct_answer = "15"
+choices = Array[String](["5", "12", "25"])
+
+[sub_resource type="Resource" id="Resource_j246y"]
+script = ExtResource("1_3thbv")
+text = "Combien font 1 + 12 ?"
+correct_answer = "13"
+choices = Array[String](["18", "3", "10"])
+
+[sub_resource type="Resource" id="Resource_5o4e5"]
+script = ExtResource("1_3thbv")
+text = "Combien font 40 + 1 ?"
+correct_answer = "41"
+choices = Array[String](["40", "36", "51"])
+
+[sub_resource type="Resource" id="Resource_p3gyx"]
+script = ExtResource("1_3thbv")
+text = "Combien font 90 + 7 ?"
+correct_answer = "97"
+choices = Array[String](["102", "92", "87"])
+
+[sub_resource type="Resource" id="Resource_ly4fg"]
+script = ExtResource("1_3thbv")
+text = "Combien font 90 + 8 ?"
+correct_answer = "98"
+choices = Array[String](["88", "93", "96"])
+
+[sub_resource type="Resource" id="Resource_dvom7"]
+script = ExtResource("1_3thbv")
+text = "Combien font 30 + 5 ?"
+correct_answer = "35"
+choices = Array[String](["40", "36", "25"])
+
+[sub_resource type="Resource" id="Resource_tpy1j"]
+script = ExtResource("1_3thbv")
+text = "Combien font 60 + 8 ?"
+correct_answer = "68"
+choices = Array[String](["73", "69", "66"])
+
+[sub_resource type="Resource" id="Resource_8vah7"]
+script = ExtResource("1_3thbv")
+text = "Combien font 50 + 7 ?"
+correct_answer = "57"
+choices = Array[String](["54", "60", "56"])
+
+[sub_resource type="Resource" id="Resource_8w5mx"]
+script = ExtResource("1_3thbv")
+text = "Combien font 70 + 7 ?"
+correct_answer = "77"
+choices = Array[String](["78", "75", "76"])
+
+[sub_resource type="Resource" id="Resource_6n67i"]
+script = ExtResource("1_3thbv")
+text = "Combien font 10 + 3 ?"
+correct_answer = "13"
+choices = Array[String](["12", "8", "3"])
+
+[sub_resource type="Resource" id="Resource_1x31e"]
+script = ExtResource("1_3thbv")
+text = "Combien font 20 + 5 ?"
+correct_answer = "25"
+choices = Array[String](["27", "15", "23"])
+
+[sub_resource type="Resource" id="Resource_bfs6r"]
+script = ExtResource("1_3thbv")
+text = "Combien font 50 + 8 ?"
+correct_answer = "58"
+choices = Array[String](["60", "55", "59"])
+
+[sub_resource type="Resource" id="Resource_s4tqu"]
+script = ExtResource("1_3thbv")
+text = "Combien font 30 + 2 ?"
+correct_answer = "32"
+choices = Array[String](["27", "33", "37"])
+
+[sub_resource type="Resource" id="Resource_b7250"]
+script = ExtResource("1_3thbv")
+text = "Combien font 50 + 6 ?"
+correct_answer = "56"
+choices = Array[String](["46", "61", "66"])
+
+[sub_resource type="Resource" id="Resource_3pl42"]
+script = ExtResource("1_3thbv")
+text = "Combien font 10 + 2 ?"
+correct_answer = "12"
+choices = Array[String](["10", "7", "15"])
+
+[sub_resource type="Resource" id="Resource_nyjp6"]
+script = ExtResource("1_3thbv")
+text = "Combien font 70 + 2 ?"
+correct_answer = "72"
+choices = Array[String](["77", "75", "67"])
+
+[sub_resource type="Resource" id="Resource_gxavc"]
+script = ExtResource("1_3thbv")
+text = "Combien font 90 + 3 ?"
+correct_answer = "93"
+choices = Array[String](["90", "98", "92"])
+
+[sub_resource type="Resource" id="Resource_3sjlf"]
+script = ExtResource("1_3thbv")
+text = "Combien font 18 - 4 ?"
+correct_answer = "14"
+choices = Array[String](["17", "15", "9"])
+
+[sub_resource type="Resource" id="Resource_vw2tc"]
+script = ExtResource("1_3thbv")
+text = "Combien font 16 - 1 ?"
+correct_answer = "15"
+choices = Array[String](["20", "12", "18"])
+
+[sub_resource type="Resource" id="Resource_rq5mw"]
+script = ExtResource("1_3thbv")
+text = "Combien font 10 - 0 ?"
+correct_answer = "10"
+choices = Array[String](["15", "0", "9"])
+
+[sub_resource type="Resource" id="Resource_4gdk3"]
+script = ExtResource("1_3thbv")
+text = "Combien font 9 - 9 ?"
+correct_answer = "0"
+choices = Array[String](["10", "1", "3"])
+
+[sub_resource type="Resource" id="Resource_uekyt"]
+script = ExtResource("1_3thbv")
+text = "Combien font 11 - 8 ?"
+correct_answer = "3"
+choices = Array[String](["5", "8", "1"])
+
+[sub_resource type="Resource" id="Resource_tuuch"]
+script = ExtResource("1_3thbv")
+text = "Combien font 16 - 11 ?"
+correct_answer = "5"
+choices = Array[String](["0", "15", "4"])
+
+[sub_resource type="Resource" id="Resource_hcn7x"]
+script = ExtResource("1_3thbv")
+text = "Combien font 13 - 5 ?"
+correct_answer = "8"
+choices = Array[String](["6", "7", "3"])
+
+[sub_resource type="Resource" id="Resource_pblnp"]
+script = ExtResource("1_3thbv")
+text = "Combien font 14 - 11 ?"
+correct_answer = "3"
+choices = Array[String](["13", "1", "2"])
+
+[sub_resource type="Resource" id="Resource_a13pm"]
+script = ExtResource("1_3thbv")
+text = "Combien font 20 - 8 ?"
+correct_answer = "12"
+choices = Array[String](["17", "7", "22"])
+
+[sub_resource type="Resource" id="Resource_iepey"]
+script = ExtResource("1_3thbv")
+text = "Combien font 12 - 11 ?"
+correct_answer = "1"
+choices = Array[String](["11", "4", "2"])
+
+[sub_resource type="Resource" id="Resource_a2sl3"]
+script = ExtResource("1_3thbv")
+text = "Combien font 13 - 13 ?"
+correct_answer = "0"
+choices = Array[String](["2", "3", "1"])
+
+[sub_resource type="Resource" id="Resource_ljmy1"]
+script = ExtResource("1_3thbv")
+text = "Combien font 13 - 1 ?"
+correct_answer = "12"
+choices = Array[String](["7", "10", "15"])
+
+[sub_resource type="Resource" id="Resource_lxwyi"]
+script = ExtResource("1_3thbv")
+text = "Combien font 19 - 2 ?"
+correct_answer = "17"
+choices = Array[String](["18", "12", "22"])
+
+[sub_resource type="Resource" id="Resource_djdy3"]
+script = ExtResource("1_3thbv")
+text = "Combien font 17 - 6 ?"
+correct_answer = "11"
+choices = Array[String](["6", "8", "9"])
+
+[sub_resource type="Resource" id="Resource_f82mj"]
+script = ExtResource("1_3thbv")
+text = "Combien font 16 - 16 ?"
+correct_answer = "0"
+choices = Array[String](["2", "3", "5"])
+
+[sub_resource type="Resource" id="Resource_acr2b"]
+script = ExtResource("1_3thbv")
+text = "Combien font 8 - 6 ?"
+correct_answer = "2"
+choices = Array[String](["0", "12", "7"])
+
+[sub_resource type="Resource" id="Resource_via1a"]
+script = ExtResource("1_3thbv")
+text = "Combien font 18 - 18 ?"
+correct_answer = "0"
+choices = Array[String](["5", "10", "2"])
+
+[sub_resource type="Resource" id="Resource_3wfw1"]
+script = ExtResource("1_3thbv")
+text = "Combien font 4 - 0 ?"
+correct_answer = "4"
+choices = Array[String](["9", "3", "1"])
+
+[sub_resource type="Resource" id="Resource_8gr3u"]
+script = ExtResource("1_3thbv")
+text = "Combien font 13 - 10 ?"
+correct_answer = "3"
+choices = Array[String](["1", "0", "2"])
+
+[sub_resource type="Resource" id="Resource_sv41h"]
+script = ExtResource("1_3thbv")
+text = "Combien font 20 - 16 ?"
+correct_answer = "4"
+choices = Array[String](["1", "2", "5"])
+
+[sub_resource type="Resource" id="Resource_mg3ks"]
+script = ExtResource("1_3thbv")
+text = "Combien font 14 - 4 ?"
+correct_answer = "10"
+choices = Array[String](["5", "20", "7"])
+
+[sub_resource type="Resource" id="Resource_tw5n5"]
+script = ExtResource("1_3thbv")
+text = "Combien font 16 - 5 ?"
+correct_answer = "11"
+choices = Array[String](["14", "9", "6"])
+
+[sub_resource type="Resource" id="Resource_la350"]
+script = ExtResource("1_3thbv")
+text = "Combien font 11 - 11 ?"
+correct_answer = "0"
+choices = Array[String](["5", "3", "1"])
+
+[sub_resource type="Resource" id="Resource_si27x"]
+script = ExtResource("1_3thbv")
+text = "Combien font 17 - 0 ?"
+correct_answer = "17"
+choices = Array[String](["19", "18", "20"])
+
+[sub_resource type="Resource" id="Resource_67nab"]
+script = ExtResource("1_3thbv")
+text = "Combien font 18 - 3 ?"
+correct_answer = "15"
+choices = Array[String](["17", "13", "16"])
+
+[sub_resource type="Resource" id="Resource_j10hc"]
+script = ExtResource("1_3thbv")
+text = "Combien font 15 - 9 ?"
+correct_answer = "6"
+choices = Array[String](["9", "8", "1"])
+
+[sub_resource type="Resource" id="Resource_c08pt"]
+script = ExtResource("1_3thbv")
+text = "Combien font 6 - 5 ?"
+correct_answer = "1"
+choices = Array[String](["11", "4", "0"])
+
+[sub_resource type="Resource" id="Resource_g3323"]
+script = ExtResource("1_3thbv")
+text = "Combien font 12 - 8 ?"
+correct_answer = "4"
+choices = Array[String](["6", "9", "14"])
+
+[sub_resource type="Resource" id="Resource_ebyxg"]
+script = ExtResource("1_3thbv")
+text = "Combien font 12 - 7 ?"
+correct_answer = "5"
+choices = Array[String](["6", "2", "8"])
+
+[sub_resource type="Resource" id="Resource_3o2r3"]
+script = ExtResource("1_3thbv")
+text = "Combien font 13 - 3 ?"
+correct_answer = "10"
+choices = Array[String](["0", "12", "5"])
+
+[sub_resource type="Resource" id="Resource_j1fbd"]
+script = ExtResource("1_3thbv")
+text = "Combien font 9 - 1 ?"
+correct_answer = "8"
+choices = Array[String](["7", "11", "6"])
+
+[sub_resource type="Resource" id="Resource_t3mm3"]
+script = ExtResource("1_3thbv")
+text = "Combien font 19 - 6 ?"
+correct_answer = "13"
+choices = Array[String](["16", "23", "10"])
+
+[sub_resource type="Resource" id="Resource_kidnj"]
+script = ExtResource("1_3thbv")
+text = "Combien font 14 - 7 ?"
+correct_answer = "7"
+choices = Array[String](["9", "17", "10"])
+
+[sub_resource type="Resource" id="Resource_2vf5g"]
+script = ExtResource("1_3thbv")
+text = "Combien font 6 - 0 ?"
+correct_answer = "6"
+choices = Array[String](["11", "5", "4"])
+
+[sub_resource type="Resource" id="Resource_lf6lw"]
+script = ExtResource("1_3thbv")
+text = "Combien font 12 - 10 ?"
+correct_answer = "2"
+choices = Array[String](["0", "1", "3"])
+
+[sub_resource type="Resource" id="Resource_abq1o"]
+script = ExtResource("1_3thbv")
+text = "Combien font 12 - 4 ?"
+correct_answer = "8"
+choices = Array[String](["7", "6", "10"])
+
+[sub_resource type="Resource" id="Resource_xkfhj"]
+script = ExtResource("1_3thbv")
+text = "Combien font 19 - 1 ?"
+correct_answer = "18"
+choices = Array[String](["16", "20", "17"])
+
+[sub_resource type="Resource" id="Resource_0tc2n"]
+script = ExtResource("1_3thbv")
+text = "Combien font 15 - 11 ?"
+correct_answer = "4"
+choices = Array[String](["9", "5", "3"])
+
+[sub_resource type="Resource" id="Resource_x0lkd"]
+script = ExtResource("1_3thbv")
+text = "Combien font 14 - 2 ?"
+correct_answer = "12"
+choices = Array[String](["11", "17", "2"])
+
+[sub_resource type="Resource" id="Resource_fucwl"]
+script = ExtResource("1_3thbv")
+text = "Combien font 5 - 2 ?"
+correct_answer = "3"
+choices = Array[String](["5", "0", "4"])
+
+[sub_resource type="Resource" id="Resource_bxdu5"]
+script = ExtResource("1_3thbv")
+text = "Combien font 11 - 5 ?"
+correct_answer = "6"
+choices = Array[String](["4", "16", "5"])
+
+[sub_resource type="Resource" id="Resource_7q0yj"]
+script = ExtResource("1_3thbv")
+text = "Combien font 8 - 3 ?"
+correct_answer = "5"
+choices = Array[String](["0", "15", "2"])
+
+[sub_resource type="Resource" id="Resource_iyoo7"]
+script = ExtResource("1_3thbv")
+text = "Combien font 20 - 17 ?"
+correct_answer = "3"
+choices = Array[String](["8", "5", "0"])
+
+[sub_resource type="Resource" id="Resource_k78iy"]
+script = ExtResource("1_3thbv")
+text = "Combien font 19 - 18 ?"
+correct_answer = "1"
+choices = Array[String](["6", "0", "4"])
+
+[sub_resource type="Resource" id="Resource_wag8c"]
+script = ExtResource("1_3thbv")
+text = "Combien font 11 - 9 ?"
+correct_answer = "2"
+choices = Array[String](["7", "3", "0"])
+
+[sub_resource type="Resource" id="Resource_o87x8"]
+script = ExtResource("1_3thbv")
+text = "Combien faut-il ajouter à 1 pour obtenir 10 ?"
+correct_answer = "9"
+choices = Array[String](["4", "8", "11"])
+
+[sub_resource type="Resource" id="Resource_1dxai"]
+script = ExtResource("1_3thbv")
+text = "Combien faut-il ajouter à 2 pour obtenir 10 ?"
+correct_answer = "8"
+choices = Array[String](["7", "6", "13"])
+
+[sub_resource type="Resource" id="Resource_kf4br"]
+script = ExtResource("1_3thbv")
+text = "Combien faut-il ajouter à 10 pour obtenir 10 ?"
+correct_answer = "0"
+choices = Array[String](["2", "1", "10"])
+
+[sub_resource type="Resource" id="Resource_k6ibr"]
+script = ExtResource("1_3thbv")
+text = "Combien faut-il ajouter à 3 pour obtenir 10 ?"
+correct_answer = "7"
+choices = Array[String](["5", "9", "6"])
+
+[sub_resource type="Resource" id="Resource_cym7q"]
+script = ExtResource("1_3thbv")
+text = "Combien faut-il ajouter à 4 pour obtenir 10 ?"
+correct_answer = "6"
+choices = Array[String](["9", "7", "4"])
+
+[sub_resource type="Resource" id="Resource_hp2e2"]
+script = ExtResource("1_3thbv")
+text = "Combien faut-il ajouter à 6 pour obtenir 10 ?"
+correct_answer = "4"
+choices = Array[String](["1", "3", "14"])
+
+[sub_resource type="Resource" id="Resource_avhdx"]
+script = ExtResource("1_3thbv")
+text = "Combien faut-il ajouter à 9 pour obtenir 10 ?"
+correct_answer = "1"
+choices = Array[String](["6", "11", "4"])
+
+[sub_resource type="Resource" id="Resource_fuqae"]
+script = ExtResource("1_3thbv")
+text = "Combien faut-il ajouter à 8 pour obtenir 10 ?"
+correct_answer = "2"
+choices = Array[String](["4", "7", "5"])
+
+[sub_resource type="Resource" id="Resource_fqynu"]
+script = ExtResource("1_3thbv")
+text = "Combien faut-il ajouter à 7 pour obtenir 10 ?"
+correct_answer = "3"
+choices = Array[String](["5", "13", "1"])
+
+[sub_resource type="Resource" id="Resource_uff0j"]
+script = ExtResource("1_3thbv")
+text = "Combien faut-il ajouter à 0 pour obtenir 10 ?"
+correct_answer = "10"
+choices = Array[String](["13", "15", "12"])
+
+[sub_resource type="Resource" id="Resource_g4aor"]
+script = ExtResource("1_3thbv")
+text = "Combien faut-il ajouter à 0 pour obtenir 20 ?"
+correct_answer = "20"
+choices = Array[String](["17", "23", "25"])
+
+[sub_resource type="Resource" id="Resource_ahlg3"]
+script = ExtResource("1_3thbv")
+text = "Combien faut-il ajouter à 8 pour obtenir 20 ?"
+correct_answer = "12"
+choices = Array[String](["10", "15", "2"])
+
+[sub_resource type="Resource" id="Resource_dl40s"]
+script = ExtResource("1_3thbv")
+text = "Combien faut-il ajouter à 11 pour obtenir 20 ?"
+correct_answer = "9"
+choices = Array[String](["14", "4", "10"])
+
+[sub_resource type="Resource" id="Resource_hkysw"]
+script = ExtResource("1_3thbv")
+text = "Combien faut-il ajouter à 6 pour obtenir 20 ?"
+correct_answer = "14"
+choices = Array[String](["11", "9", "16"])
+
+[sub_resource type="Resource" id="Resource_0wq27"]
+script = ExtResource("1_3thbv")
+text = "Combien faut-il ajouter à 1 pour obtenir 20 ?"
+correct_answer = "19"
+choices = Array[String](["9", "22", "24"])
+
+[sub_resource type="Resource" id="Resource_ip5fe"]
+script = ExtResource("1_3thbv")
+text = "Combien faut-il ajouter à 20 pour obtenir 20 ?"
+correct_answer = "0"
+choices = Array[String](["2", "10", "5"])
+
+[sub_resource type="Resource" id="Resource_l0dyo"]
+script = ExtResource("1_3thbv")
+text = "Combien faut-il ajouter à 7 pour obtenir 20 ?"
+correct_answer = "13"
+choices = Array[String](["23", "18", "3"])
+
+[sub_resource type="Resource" id="Resource_dp7fk"]
+script = ExtResource("1_3thbv")
+text = "Combien faut-il ajouter à 3 pour obtenir 20 ?"
+correct_answer = "17"
+choices = Array[String](["19", "18", "7"])
+
+[sub_resource type="Resource" id="Resource_twi3c"]
+script = ExtResource("1_3thbv")
+text = "Combien faut-il ajouter à 5 pour obtenir 20 ?"
+correct_answer = "15"
+choices = Array[String](["5", "20", "13"])
+
+[sub_resource type="Resource" id="Resource_7i4j5"]
+script = ExtResource("1_3thbv")
+text = "Combien faut-il ajouter à 4 pour obtenir 20 ?"
+correct_answer = "16"
+choices = Array[String](["11", "19", "21"])
+
+[sub_resource type="Resource" id="Resource_n36b3"]
+script = ExtResource("1_3thbv")
+text = "Quel est le double de 1 ?"
+correct_answer = "2"
+choices = Array[String](["4", "5", "12"])
+
+[sub_resource type="Resource" id="Resource_02qre"]
+script = ExtResource("1_3thbv")
+text = "Quel est le double de 9 ?"
+correct_answer = "18"
+choices = Array[String](["21", "19", "20"])
+
+[sub_resource type="Resource" id="Resource_e45yv"]
+script = ExtResource("1_3thbv")
+text = "Quel est le double de 2 ?"
+correct_answer = "4"
+choices = Array[String](["5", "3", "1"])
+
+[sub_resource type="Resource" id="Resource_qodmb"]
+script = ExtResource("1_3thbv")
+text = "Quel est le double de 6 ?"
+correct_answer = "12"
+choices = Array[String](["10", "14", "11"])
+
+[sub_resource type="Resource" id="Resource_18so1"]
+script = ExtResource("1_3thbv")
+text = "Quel est le double de 5 ?"
+correct_answer = "10"
+choices = Array[String](["0", "12", "5"])
+
+[sub_resource type="Resource" id="Resource_rtu0t"]
+script = ExtResource("1_3thbv")
+text = "Quel est le double de 10 ?"
+correct_answer = "20"
+choices = Array[String](["21", "15", "17"])
+
+[sub_resource type="Resource" id="Resource_2js0b"]
+script = ExtResource("1_3thbv")
+text = "Quel est le double de 7 ?"
+correct_answer = "14"
+choices = Array[String](["11", "4", "19"])
+
+[sub_resource type="Resource" id="Resource_vvce5"]
+script = ExtResource("1_3thbv")
+text = "Quel est le double de 4 ?"
+correct_answer = "8"
+choices = Array[String](["9", "3", "13"])
+
+[sub_resource type="Resource" id="Resource_2n876"]
+script = ExtResource("1_3thbv")
+text = "Quel est le double de 3 ?"
+correct_answer = "6"
+choices = Array[String](["4", "3", "16"])
+
+[sub_resource type="Resource" id="Resource_fm453"]
+script = ExtResource("1_3thbv")
+text = "Quel est le double de 8 ?"
+correct_answer = "16"
+choices = Array[String](["13", "21", "17"])
+
+[sub_resource type="Resource" id="Resource_or84g"]
+script = ExtResource("1_3thbv")
+text = "Quelle est la moitié de 10 ?"
+correct_answer = "5"
+choices = Array[String](["10", "15", "0"])
+
+[sub_resource type="Resource" id="Resource_prshn"]
+script = ExtResource("1_3thbv")
+text = "Quelle est la moitié de 2 ?"
+correct_answer = "1"
+choices = Array[String](["6", "4", "3"])
+
+[sub_resource type="Resource" id="Resource_20kmk"]
+script = ExtResource("1_3thbv")
+text = "Quelle est la moitié de 8 ?"
+correct_answer = "4"
+choices = Array[String](["3", "9", "14"])
+
+[sub_resource type="Resource" id="Resource_jfimr"]
+script = ExtResource("1_3thbv")
+text = "Quelle est la moitié de 16 ?"
+correct_answer = "8"
+choices = Array[String](["18", "6", "3"])
+
+[sub_resource type="Resource" id="Resource_lijsu"]
+script = ExtResource("1_3thbv")
+text = "Quelle est la moitié de 12 ?"
+correct_answer = "6"
+choices = Array[String](["3", "7", "4"])
+
+[sub_resource type="Resource" id="Resource_26mrf"]
+script = ExtResource("1_3thbv")
+text = "Quelle est la moitié de 14 ?"
+correct_answer = "7"
+choices = Array[String](["8", "17", "2"])
+
+[sub_resource type="Resource" id="Resource_33w7s"]
+script = ExtResource("1_3thbv")
+text = "Quelle est la moitié de 6 ?"
+correct_answer = "3"
+choices = Array[String](["2", "5", "4"])
+
+[sub_resource type="Resource" id="Resource_4pv2q"]
+script = ExtResource("1_3thbv")
+text = "Quelle est la moitié de 18 ?"
+correct_answer = "9"
+choices = Array[String](["10", "14", "6"])
+
+[sub_resource type="Resource" id="Resource_uhweo"]
+script = ExtResource("1_3thbv")
+text = "Quelle est la moitié de 20 ?"
+correct_answer = "10"
+choices = Array[String](["9", "13", "8"])
+
+[sub_resource type="Resource" id="Resource_svu2s"]
+script = ExtResource("1_3thbv")
+text = "Quelle est la moitié de 4 ?"
+correct_answer = "2"
+choices = Array[String](["3", "1", "7"])
+
+[sub_resource type="Resource" id="Resource_244g6"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus grand : 69 ou 76 ?"
+correct_answer = "76"
+choices = Array[String](["69"])
+
+[sub_resource type="Resource" id="Resource_kq8cv"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus grand : 51 ou 96 ?"
+correct_answer = "96"
+choices = Array[String](["51"])
+
+[sub_resource type="Resource" id="Resource_rhdlm"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus grand : 73 ou 2 ?"
+correct_answer = "73"
+choices = Array[String](["2"])
+
+[sub_resource type="Resource" id="Resource_kiplw"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus grand : 17 ou 34 ?"
+correct_answer = "34"
+choices = Array[String](["17"])
+
+[sub_resource type="Resource" id="Resource_jcgtn"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus grand : 26 ou 55 ?"
+correct_answer = "55"
+choices = Array[String](["26"])
+
+[sub_resource type="Resource" id="Resource_ee8gl"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus grand : 14 ou 95 ?"
+correct_answer = "95"
+choices = Array[String](["14"])
+
+[sub_resource type="Resource" id="Resource_jd5sy"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus grand : 61 ou 78 ?"
+correct_answer = "78"
+choices = Array[String](["61"])
+
+[sub_resource type="Resource" id="Resource_qd2x0"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus grand : 84 ou 74 ?"
+correct_answer = "84"
+choices = Array[String](["74"])
+
+[sub_resource type="Resource" id="Resource_1wdki"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus grand : 82 ou 83 ?"
+correct_answer = "83"
+choices = Array[String](["82"])
+
+[sub_resource type="Resource" id="Resource_uomus"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus grand : 89 ou 28 ?"
+correct_answer = "89"
+choices = Array[String](["28"])
+
+[sub_resource type="Resource" id="Resource_3aen8"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus grand : 31 ou 71 ?"
+correct_answer = "71"
+choices = Array[String](["31"])
+
+[sub_resource type="Resource" id="Resource_f547i"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus grand : 86 ou 22 ?"
+correct_answer = "86"
+choices = Array[String](["22"])
+
+[sub_resource type="Resource" id="Resource_1xypc"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus grand : 67 ou 40 ?"
+correct_answer = "67"
+choices = Array[String](["40"])
+
+[sub_resource type="Resource" id="Resource_h6dks"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus grand : 46 ou 30 ?"
+correct_answer = "46"
+choices = Array[String](["30"])
+
+[sub_resource type="Resource" id="Resource_jcu5w"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus grand : 9 ou 1 ?"
+correct_answer = "9"
+choices = Array[String](["1"])
+
+[sub_resource type="Resource" id="Resource_738ij"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus petit : 3 ou 30 ?"
+correct_answer = "3"
+choices = Array[String](["30"])
+
+[sub_resource type="Resource" id="Resource_030xb"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus petit : 95 ou 60 ?"
+correct_answer = "60"
+choices = Array[String](["95"])
+
+[sub_resource type="Resource" id="Resource_4l6jb"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus petit : 18 ou 68 ?"
+correct_answer = "18"
+choices = Array[String](["68"])
+
+[sub_resource type="Resource" id="Resource_tgctl"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus petit : 86 ou 37 ?"
+correct_answer = "37"
+choices = Array[String](["86"])
+
+[sub_resource type="Resource" id="Resource_2j40s"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus petit : 5 ou 78 ?"
+correct_answer = "5"
+choices = Array[String](["78"])
+
+[sub_resource type="Resource" id="Resource_d8ulb"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus petit : 92 ou 39 ?"
+correct_answer = "39"
+choices = Array[String](["92"])
+
+[sub_resource type="Resource" id="Resource_neo48"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus petit : 5 ou 17 ?"
+correct_answer = "5"
+choices = Array[String](["17"])
+
+[sub_resource type="Resource" id="Resource_lv8ja"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus petit : 34 ou 93 ?"
+correct_answer = "34"
+choices = Array[String](["93"])
+
+[sub_resource type="Resource" id="Resource_6f552"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus petit : 28 ou 97 ?"
+correct_answer = "28"
+choices = Array[String](["97"])
+
+[sub_resource type="Resource" id="Resource_18jjc"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus petit : 8 ou 50 ?"
+correct_answer = "8"
+choices = Array[String](["50"])
+
+[sub_resource type="Resource" id="Resource_7le3k"]
+script = ExtResource("1_3thbv")
+text = "Combien font 9 dizaines et 5 unités ?"
+correct_answer = "95"
+choices = Array[String](["85", "92", "105"])
+
+[sub_resource type="Resource" id="Resource_2ymp8"]
+script = ExtResource("1_3thbv")
+text = "Combien font 2 dizaines et 0 unités ?"
+correct_answer = "20"
+choices = Array[String](["18", "19", "21"])
+
+[sub_resource type="Resource" id="Resource_ktwwd"]
+script = ExtResource("1_3thbv")
+text = "Combien font 7 dizaines et 8 unités ?"
+correct_answer = "78"
+choices = Array[String](["79", "83", "75"])
+
+[sub_resource type="Resource" id="Resource_ra5q3"]
+script = ExtResource("1_3thbv")
+text = "Combien font 4 dizaines et 1 unités ?"
+correct_answer = "41"
+choices = Array[String](["36", "46", "44"])
+
+[sub_resource type="Resource" id="Resource_q42ku"]
+script = ExtResource("1_3thbv")
+text = "Combien font 3 dizaines et 3 unités ?"
+correct_answer = "33"
+choices = Array[String](["28", "23", "36"])
+
+[sub_resource type="Resource" id="Resource_ejj2w"]
+script = ExtResource("1_3thbv")
+text = "Combien font 7 dizaines et 4 unités ?"
+correct_answer = "74"
+choices = Array[String](["72", "73", "84"])
+
+[sub_resource type="Resource" id="Resource_cy1qu"]
+script = ExtResource("1_3thbv")
+text = "Combien font 6 dizaines et 9 unités ?"
+correct_answer = "69"
+choices = Array[String](["71", "64", "74"])
+
+[sub_resource type="Resource" id="Resource_ctnou"]
+script = ExtResource("1_3thbv")
+text = "Combien font 4 dizaines et 2 unités ?"
+correct_answer = "42"
+choices = Array[String](["47", "40", "41"])
+
+[sub_resource type="Resource" id="Resource_u0iy4"]
+script = ExtResource("1_3thbv")
+text = "Combien font 1 dizaines et 5 unités ?"
+correct_answer = "15"
+choices = Array[String](["25", "16", "12"])
+
+[sub_resource type="Resource" id="Resource_60pd6"]
+script = ExtResource("1_3thbv")
+text = "Combien font 6 dizaines et 5 unités ?"
+correct_answer = "65"
+choices = Array[String](["64", "67", "66"])
+
+[sub_resource type="Resource" id="Resource_evowb"]
+script = ExtResource("1_3thbv")
+text = "Combien font 5 dizaines et 9 unités ?"
+correct_answer = "59"
+choices = Array[String](["61", "58", "57"])
+
+[sub_resource type="Resource" id="Resource_rm7uk"]
+script = ExtResource("1_3thbv")
+text = "Combien font 5 dizaines et 5 unités ?"
+correct_answer = "55"
+choices = Array[String](["58", "52", "56"])
+
+[sub_resource type="Resource" id="Resource_bb5l4"]
+script = ExtResource("1_3thbv")
+text = "Combien font 7 dizaines et 0 unités ?"
+correct_answer = "70"
+choices = Array[String](["69", "72", "60"])
+
+[sub_resource type="Resource" id="Resource_jnkp4"]
+script = ExtResource("1_3thbv")
+text = "Combien font 9 dizaines et 2 unités ?"
+correct_answer = "92"
+choices = Array[String](["95", "97", "90"])
+
+[sub_resource type="Resource" id="Resource_x30bt"]
+script = ExtResource("1_3thbv")
+text = "Combien font 8 dizaines et 3 unités ?"
+correct_answer = "83"
+choices = Array[String](["88", "78", "84"])
+
+[sub_resource type="Resource" id="Resource_613u2"]
+script = ExtResource("1_3thbv")
+text = "Lea a 4 ballons. Il/elle en reçoit 9 de plus. Combien Lea a-t-il/elle de ballons maintenant ?"
+correct_answer = "13"
+choices = Array[String](["15", "14", "8"])
+
+[sub_resource type="Resource" id="Resource_v57pj"]
+script = ExtResource("1_3thbv")
+text = "Lou a 7 billes. Il/elle en reçoit 8 de plus. Combien Lou a-t-il/elle de billes maintenant ?"
+correct_answer = "15"
+choices = Array[String](["16", "10", "13"])
+
+[sub_resource type="Resource" id="Resource_30h0c"]
+script = ExtResource("1_3thbv")
+text = "Leo a 9 crayons. Il/elle en reçoit 3 de plus. Combien Leo a-t-il/elle de crayons maintenant ?"
+correct_answer = "12"
+choices = Array[String](["2", "10", "11"])
+
+[sub_resource type="Resource" id="Resource_6metb"]
+script = ExtResource("1_3thbv")
+text = "Leo a 8 crayons. Il/elle en reçoit 7 de plus. Combien Leo a-t-il/elle de crayons maintenant ?"
+correct_answer = "15"
+choices = Array[String](["25", "10", "13"])
+
+[sub_resource type="Resource" id="Resource_p2kwq"]
+script = ExtResource("1_3thbv")
+text = "Lea a 9 gâteaux. Il/elle en reçoit 1 de plus. Combien Lea a-t-il/elle de gâteaux maintenant ?"
+correct_answer = "10"
+choices = Array[String](["11", "8", "7"])
+
+[sub_resource type="Resource" id="Resource_oeun3"]
+script = ExtResource("1_3thbv")
+text = "___ + 16 = 34. Quel nombre manque ?"
+correct_answer = "18"
+choices = Array[String](["13", "19", "14"])
+
+[sub_resource type="Resource" id="Resource_l10sa"]
+script = ExtResource("1_3thbv")
+text = "10 + 11 + ___ = 28. Quel nombre manque ?"
+correct_answer = "7"
+choices = Array[String](["12", "4", "10"])
+
+[sub_resource type="Resource" id="Resource_1rsbx"]
+script = ExtResource("1_3thbv")
+text = "6 + ___ = 27. Quel nombre manque ?"
+correct_answer = "21"
+choices = Array[String](["22", "15", "24"])
+
+[sub_resource type="Resource" id="Resource_4m676"]
+script = ExtResource("1_3thbv")
+text = "___ + 27 = 45. Quel nombre manque ?"
+correct_answer = "18"
+choices = Array[String](["24", "16", "14"])
+
+[sub_resource type="Resource" id="Resource_2bxq6"]
+script = ExtResource("1_3thbv")
+text = "___ + 10 + 4 = 34. Quel nombre manque ?"
+correct_answer = "20"
+choices = Array[String](["14", "19", "25"])
+
+[sub_resource type="Resource" id="Resource_n173h"]
+script = ExtResource("1_3thbv")
+text = "12 + 12 + ___ = 36. Quel nombre manque ?"
+correct_answer = "12"
+choices = Array[String](["10", "8", "16"])
+
+[sub_resource type="Resource" id="Resource_ey0o3"]
+script = ExtResource("1_3thbv")
+text = "___ + 21 = 40. Quel nombre manque ?"
+correct_answer = "19"
+choices = Array[String](["13", "18", "15"])
+
+[sub_resource type="Resource" id="Resource_5wkua"]
+script = ExtResource("1_3thbv")
+text = "2 + ___ = 36. Quel nombre manque ?"
+correct_answer = "34"
+choices = Array[String](["38", "32", "28"])
+
+[sub_resource type="Resource" id="Resource_6texn"]
+script = ExtResource("1_3thbv")
+text = "___ + 31 = 63. Quel nombre manque ?"
+correct_answer = "32"
+choices = Array[String](["36", "34", "38"])
+
+[sub_resource type="Resource" id="Resource_1wmrn"]
+script = ExtResource("1_3thbv")
+text = "7 + ___ = 40. Quel nombre manque ?"
+correct_answer = "33"
+choices = Array[String](["32", "36", "37"])
+
+[sub_resource type="Resource" id="Resource_ug2yk"]
+script = ExtResource("1_3thbv")
+text = "___ + 24 = 26. Quel nombre manque ?"
+correct_answer = "2"
+choices = Array[String](["4", "6", "1"])
+
+[sub_resource type="Resource" id="Resource_ig2t6"]
+script = ExtResource("1_3thbv")
+text = "___ + 31 = 55. Quel nombre manque ?"
+correct_answer = "24"
+choices = Array[String](["26", "19", "20"])
+
+[sub_resource type="Resource" id="Resource_nqmms"]
+script = ExtResource("1_3thbv")
+text = "___ + 12 = 32. Quel nombre manque ?"
+correct_answer = "20"
+choices = Array[String](["23", "17", "19"])
+
+[sub_resource type="Resource" id="Resource_wgxk0"]
+script = ExtResource("1_3thbv")
+text = "21 + ___ = 55. Quel nombre manque ?"
+correct_answer = "34"
+choices = Array[String](["32", "40", "39"])
+
+[sub_resource type="Resource" id="Resource_rd6mx"]
+script = ExtResource("1_3thbv")
+text = "___ + 10 + 8 = 19. Quel nombre manque ?"
+correct_answer = "1"
+choices = Array[String](["4", "0", "7"])
+
+[sub_resource type="Resource" id="Resource_kke15"]
+script = ExtResource("1_3thbv")
+text = "31 + ___ = 37. Quel nombre manque ?"
+correct_answer = "6"
+choices = Array[String](["0", "10", "4"])
+
+[sub_resource type="Resource" id="Resource_4iihd"]
+script = ExtResource("1_3thbv")
+text = "38 + ___ = 76. Quel nombre manque ?"
+correct_answer = "38"
+choices = Array[String](["36", "37", "39"])
+
+[sub_resource type="Resource" id="Resource_owllw"]
+script = ExtResource("1_3thbv")
+text = "___ + 13 = 34. Quel nombre manque ?"
+correct_answer = "21"
+choices = Array[String](["15", "16", "26"])
+
+[sub_resource type="Resource" id="Resource_lny7j"]
+script = ExtResource("1_3thbv")
+text = "26 + ___ = 32. Quel nombre manque ?"
+correct_answer = "6"
+choices = Array[String](["12", "8", "11"])
+
+[sub_resource type="Resource" id="Resource_ed4qo"]
+script = ExtResource("1_3thbv")
+text = "___ + 13 + 5 = 27. Quel nombre manque ?"
+correct_answer = "9"
+choices = Array[String](["12", "6", "8"])
+
+[sub_resource type="Resource" id="Resource_s043a"]
+script = ExtResource("1_3thbv")
+text = "9 + ___ = 33. Quel nombre manque ?"
+correct_answer = "24"
+choices = Array[String](["19", "29", "27"])
+
+[sub_resource type="Resource" id="Resource_vieml"]
+script = ExtResource("1_3thbv")
+text = "10 + 20 + ___ = 50. Quel nombre manque ?"
+correct_answer = "20"
+choices = Array[String](["15", "24", "17"])
+
+[sub_resource type="Resource" id="Resource_3mvl2"]
+script = ExtResource("1_3thbv")
+text = "13 + 15 + ___ = 41. Quel nombre manque ?"
+correct_answer = "13"
+choices = Array[String](["10", "11", "9"])
+
+[sub_resource type="Resource" id="Resource_vuohc"]
+script = ExtResource("1_3thbv")
+text = "20 + ___ + 10 = 40. Quel nombre manque ?"
+correct_answer = "10"
+choices = Array[String](["13", "11", "14"])
+
+[sub_resource type="Resource" id="Resource_qs7ht"]
+script = ExtResource("1_3thbv")
+text = "3 + ___ + 9 = 24. Quel nombre manque ?"
+correct_answer = "12"
+choices = Array[String](["18", "9", "15"])
+
+[sub_resource type="Resource" id="Resource_rxts1"]
+script = ExtResource("1_3thbv")
+text = "9 + 1 + ___ = 22. Quel nombre manque ?"
+correct_answer = "12"
+choices = Array[String](["7", "13", "14"])
+
+[sub_resource type="Resource" id="Resource_qqsvq"]
+script = ExtResource("1_3thbv")
+text = "20 + ___ + 5 = 29. Quel nombre manque ?"
+correct_answer = "4"
+choices = Array[String](["3", "5", "10"])
+
+[sub_resource type="Resource" id="Resource_ex3bw"]
+script = ExtResource("1_3thbv")
+text = "___ + 8 + 12 = 30. Quel nombre manque ?"
+correct_answer = "10"
+choices = Array[String](["6", "4", "8"])
+
+[sub_resource type="Resource" id="Resource_n7cg3"]
+script = ExtResource("1_3thbv")
+text = "20 + ___ = 22. Quel nombre manque ?"
+correct_answer = "2"
+choices = Array[String](["3", "1", "6"])
+
+[sub_resource type="Resource" id="Resource_fw5xq"]
+script = ExtResource("1_3thbv")
+text = "9 + ___ = 46. Quel nombre manque ?"
+correct_answer = "37"
+choices = Array[String](["42", "31", "32"])
+
+[sub_resource type="Resource" id="Resource_qcvqc"]
+script = ExtResource("1_3thbv")
+text = "10 + 6 + ___ = 17. Quel nombre manque ?"
+correct_answer = "1"
+choices = Array[String](["7", "6", "4"])
+
+[sub_resource type="Resource" id="Resource_0xx36"]
+script = ExtResource("1_3thbv")
+text = "___ + 36 = 60. Quel nombre manque ?"
+correct_answer = "24"
+choices = Array[String](["22", "28", "27"])
+
+[sub_resource type="Resource" id="Resource_r4enw"]
+script = ExtResource("1_3thbv")
+text = "___ + 6 = 43. Quel nombre manque ?"
+correct_answer = "37"
+choices = Array[String](["36", "39", "32"])
+
+[sub_resource type="Resource" id="Resource_oki68"]
+script = ExtResource("1_3thbv")
+text = "10 + ___ + 1 = 19. Quel nombre manque ?"
+correct_answer = "8"
+choices = Array[String](["10", "6", "14"])
+
+[sub_resource type="Resource" id="Resource_yyya2"]
+script = ExtResource("1_3thbv")
+text = "___ + 11 + 6 = 29. Quel nombre manque ?"
+correct_answer = "12"
+choices = Array[String](["11", "15", "8"])
+
+[sub_resource type="Resource" id="Resource_e70eo"]
+script = ExtResource("1_3thbv")
+text = "___ + 12 + 14 = 33. Quel nombre manque ?"
+correct_answer = "7"
+choices = Array[String](["3", "2", "5"])
+
+[sub_resource type="Resource" id="Resource_y7asy"]
+script = ExtResource("1_3thbv")
+text = "___ + 20 = 58. Quel nombre manque ?"
+correct_answer = "38"
+choices = Array[String](["36", "35", "42"])
+
+[sub_resource type="Resource" id="Resource_734n6"]
+script = ExtResource("1_3thbv")
+text = "10 + 1 + ___ = 26. Quel nombre manque ?"
+correct_answer = "15"
+choices = Array[String](["18", "21", "9"])
+
+[sub_resource type="Resource" id="Resource_vmh65"]
+script = ExtResource("1_3thbv")
+text = "___ + 15 + 15 = 36. Quel nombre manque ?"
+correct_answer = "6"
+choices = Array[String](["1", "5", "3"])
+
+[sub_resource type="Resource" id="Resource_oy67f"]
+script = ExtResource("1_3thbv")
+text = "___ + 21 = 56. Quel nombre manque ?"
+correct_answer = "35"
+choices = Array[String](["31", "33", "40"])
+
+[sub_resource type="Resource" id="Resource_ol7la"]
+script = ExtResource("1_3thbv")
+text = "___ + 30 = 60. Quel nombre manque ?"
+correct_answer = "30"
+choices = Array[String](["35", "29", "36"])
+
+[sub_resource type="Resource" id="Resource_ks8gb"]
+script = ExtResource("1_3thbv")
+text = "___ + 1 + 9 = 17. Quel nombre manque ?"
+correct_answer = "7"
+choices = Array[String](["5", "9", "13"])
+
+[sub_resource type="Resource" id="Resource_h3ryx"]
+script = ExtResource("1_3thbv")
+text = "___ + 4 + 1 = 19. Quel nombre manque ?"
+correct_answer = "14"
+choices = Array[String](["11", "16", "12"])
+
+[sub_resource type="Resource" id="Resource_tm41d"]
+script = ExtResource("1_3thbv")
+text = "___ + 7 + 3 = 20. Quel nombre manque ?"
+correct_answer = "10"
+choices = Array[String](["13", "14", "5"])
+
+[sub_resource type="Resource" id="Resource_wqque"]
+script = ExtResource("1_3thbv")
+text = "___ + 34 = 44. Quel nombre manque ?"
+correct_answer = "10"
+choices = Array[String](["15", "4", "11"])
+
+[sub_resource type="Resource" id="Resource_wqw1n"]
+script = ExtResource("1_3thbv")
+text = "___ + 11 = 38. Quel nombre manque ?"
+correct_answer = "27"
+choices = Array[String](["26", "30", "33"])
+
+[sub_resource type="Resource" id="Resource_nj2x8"]
+script = ExtResource("1_3thbv")
+text = "___ + 12 = 24. Quel nombre manque ?"
+correct_answer = "12"
+choices = Array[String](["14", "15", "6"])
+
+[sub_resource type="Resource" id="Resource_4fqp7"]
+script = ExtResource("1_3thbv")
+text = "___ + 30 + 20 = 80. Quel nombre manque ?"
+correct_answer = "30"
+choices = Array[String](["32", "25", "34"])
+
+[sub_resource type="Resource" id="Resource_uiw3j"]
+script = ExtResource("1_3thbv")
+text = "___ + 1 + 13 = 15. Quel nombre manque ?"
+correct_answer = "1"
+choices = Array[String](["7", "6", "3"])
+
+[sub_resource type="Resource" id="Resource_16x7p"]
+script = ExtResource("1_3thbv")
+text = "___ + 18 = 30. Quel nombre manque ?"
+correct_answer = "12"
+choices = Array[String](["18", "10", "13"])
+
+[sub_resource type="Resource" id="Resource_22py6"]
+script = ExtResource("1_3thbv")
+text = "___ + 6 + 7 = 26. Quel nombre manque ?"
+correct_answer = "13"
+choices = Array[String](["12", "17", "7"])
+
+[sub_resource type="Resource" id="Resource_fbbs6"]
+script = ExtResource("1_3thbv")
+text = "___ + 32 = 54. Quel nombre manque ?"
+correct_answer = "22"
+choices = Array[String](["27", "18", "28"])
+
+[sub_resource type="Resource" id="Resource_cijxi"]
+script = ExtResource("1_3thbv")
+text = "___ + 33 = 59. Quel nombre manque ?"
+correct_answer = "26"
+choices = Array[String](["23", "29", "27"])
+
+[sub_resource type="Resource" id="Resource_tfosr"]
+script = ExtResource("1_3thbv")
+text = "___ + 5 = 38. Quel nombre manque ?"
+correct_answer = "33"
+choices = Array[String](["32", "37", "35"])
+
+[sub_resource type="Resource" id="Resource_1j06c"]
+script = ExtResource("1_3thbv")
+text = "10 + ___ + 11 = 25. Quel nombre manque ?"
+correct_answer = "4"
+choices = Array[String](["2", "3", "0"])
+
+[sub_resource type="Resource" id="Resource_82mgq"]
+script = ExtResource("1_3thbv")
+text = "___ + 17 = 38. Quel nombre manque ?"
+correct_answer = "21"
+choices = Array[String](["24", "16", "27"])
+
+[sub_resource type="Resource" id="Resource_cara5"]
+script = ExtResource("1_3thbv")
+text = "___ + 20 + 10 = 50. Quel nombre manque ?"
+correct_answer = "20"
+choices = Array[String](["18", "19", "23"])
+
+[sub_resource type="Resource" id="Resource_tjohw"]
+script = ExtResource("1_3thbv")
+text = "___ + 25 = 58. Quel nombre manque ?"
+correct_answer = "33"
+choices = Array[String](["32", "39", "36"])
+
+[sub_resource type="Resource" id="Resource_aw7ym"]
+script = ExtResource("1_3thbv")
+text = "14 + ___ = 35. Quel nombre manque ?"
+correct_answer = "21"
+choices = Array[String](["22", "25", "16"])
+
+[sub_resource type="Resource" id="Resource_dfny7"]
+script = ExtResource("1_3thbv")
+text = "___ + 14 = 22. Quel nombre manque ?"
+correct_answer = "8"
+choices = Array[String](["2", "3", "12"])
+
+[sub_resource type="Resource" id="Resource_d1r85"]
+script = ExtResource("1_3thbv")
+text = "13 + 3 + ___ = 27. Quel nombre manque ?"
+correct_answer = "11"
+choices = Array[String](["14", "10", "8"])
+
+[sub_resource type="Resource" id="Resource_sy1k6"]
+script = ExtResource("1_3thbv")
+text = "10 + ___ + 10 = 50. Quel nombre manque ?"
+correct_answer = "30"
+choices = Array[String](["34", "32", "35"])
+
+[sub_resource type="Resource" id="Resource_u52xt"]
+script = ExtResource("1_3thbv")
+text = "9 + ___ + 14 = 32. Quel nombre manque ?"
+correct_answer = "9"
+choices = Array[String](["8", "10", "3"])
+
+[sub_resource type="Resource" id="Resource_nf6qk"]
+script = ExtResource("1_3thbv")
+text = "___ + 31 = 71. Quel nombre manque ?"
+correct_answer = "40"
+choices = Array[String](["38", "35", "34"])
+
+[sub_resource type="Resource" id="Resource_drp51"]
+script = ExtResource("1_3thbv")
+text = "20 + ___ + 15 = 37. Quel nombre manque ?"
+correct_answer = "2"
+choices = Array[String](["1", "7", "4"])
+
+[sub_resource type="Resource" id="Resource_rvg3c"]
+script = ExtResource("1_3thbv")
+text = "37 + ___ = 47. Quel nombre manque ?"
+correct_answer = "10"
+choices = Array[String](["12", "15", "9"])
+
+[sub_resource type="Resource" id="Resource_y08ql"]
+script = ExtResource("1_3thbv")
+text = "1 + ___ + 10 = 16. Quel nombre manque ?"
+correct_answer = "5"
+choices = Array[String](["0", "6", "8"])
+
+[sub_resource type="Resource" id="Resource_akyrq"]
+script = ExtResource("1_3thbv")
+text = "13 + 4 + ___ = 25. Quel nombre manque ?"
+correct_answer = "8"
+choices = Array[String](["9", "6", "5"])
+
+[sub_resource type="Resource" id="Resource_y4dmo"]
+script = ExtResource("1_3thbv")
+text = "___ + 2 = 19. Quel nombre manque ?"
+correct_answer = "17"
+choices = Array[String](["22", "16", "19"])
+
+[sub_resource type="Resource" id="Resource_fggpq"]
+script = ExtResource("1_3thbv")
+text = "___ + 19 = 26. Quel nombre manque ?"
+correct_answer = "7"
+choices = Array[String](["4", "12", "8"])
+
+[sub_resource type="Resource" id="Resource_spsup"]
+script = ExtResource("1_3thbv")
+text = "___ - 27 = 35. Quel nombre manque ?"
+correct_answer = "62"
+choices = Array[String](["65", "68", "66"])
+
+[sub_resource type="Resource" id="Resource_b6h7g"]
+script = ExtResource("1_3thbv")
+text = "54 - ___ = 8. Quel nombre manque ?"
+correct_answer = "46"
+choices = Array[String](["47", "40", "52"])
+
+[sub_resource type="Resource" id="Resource_v8ta0"]
+script = ExtResource("1_3thbv")
+text = "88 - ___ = 1. Quel nombre manque ?"
+correct_answer = "87"
+choices = Array[String](["88", "90", "82"])
+
+[sub_resource type="Resource" id="Resource_la60q"]
+script = ExtResource("1_3thbv")
+text = "___ - 16 = 22. Quel nombre manque ?"
+correct_answer = "38"
+choices = Array[String](["36", "43", "32"])
+
+[sub_resource type="Resource" id="Resource_t116u"]
+script = ExtResource("1_3thbv")
+text = "___ - 55 = 42. Quel nombre manque ?"
+correct_answer = "97"
+choices = Array[String](["92", "103", "95"])
+
+[sub_resource type="Resource" id="Resource_63qw8"]
+script = ExtResource("1_3thbv")
+text = "___ - 12 = 10. Quel nombre manque ?"
+correct_answer = "22"
+choices = Array[String](["28", "19", "21"])
+
+[sub_resource type="Resource" id="Resource_udd73"]
+script = ExtResource("1_3thbv")
+text = "34 - ___ = 14. Quel nombre manque ?"
+correct_answer = "20"
+choices = Array[String](["25", "15", "14"])
+
+[sub_resource type="Resource" id="Resource_ruuv5"]
+script = ExtResource("1_3thbv")
+text = "___ - 28 = 18. Quel nombre manque ?"
+correct_answer = "46"
+choices = Array[String](["48", "43", "47"])
+
+[sub_resource type="Resource" id="Resource_6a25v"]
+script = ExtResource("1_3thbv")
+text = "60 - ___ = 15. Quel nombre manque ?"
+correct_answer = "45"
+choices = Array[String](["48", "41", "44"])
+
+[sub_resource type="Resource" id="Resource_4p0gd"]
+script = ExtResource("1_3thbv")
+text = "99 - ___ = 48. Quel nombre manque ?"
+correct_answer = "51"
+choices = Array[String](["56", "48", "49"])
+
+[sub_resource type="Resource" id="Resource_s46d7"]
+script = ExtResource("1_3thbv")
+text = "82 - ___ = 14. Quel nombre manque ?"
+correct_answer = "68"
+choices = Array[String](["64", "69", "66"])
+
+[sub_resource type="Resource" id="Resource_a6pws"]
+script = ExtResource("1_3thbv")
+text = "26 - ___ = 4. Quel nombre manque ?"
+correct_answer = "22"
+choices = Array[String](["17", "28", "26"])
+
+[sub_resource type="Resource" id="Resource_v60ud"]
+script = ExtResource("1_3thbv")
+text = "___ - 74 = 10. Quel nombre manque ?"
+correct_answer = "84"
+choices = Array[String](["80", "83", "85"])
+
+[sub_resource type="Resource" id="Resource_lumuv"]
+script = ExtResource("1_3thbv")
+text = "25 - ___ = 0. Quel nombre manque ?"
+correct_answer = "25"
+choices = Array[String](["20", "31", "27"])
+
+[sub_resource type="Resource" id="Resource_rait6"]
+script = ExtResource("1_3thbv")
+text = "13 - ___ = 13. Quel nombre manque ?"
+correct_answer = "0"
+choices = Array[String](["3", "2", "1"])
+
+[sub_resource type="Resource" id="Resource_yeo5b"]
+script = ExtResource("1_3thbv")
+text = "___ - 39 = 44. Quel nombre manque ?"
+correct_answer = "83"
+choices = Array[String](["78", "85", "81"])
+
+[sub_resource type="Resource" id="Resource_0f37m"]
+script = ExtResource("1_3thbv")
+text = "30 - ___ = 18. Quel nombre manque ?"
+correct_answer = "12"
+choices = Array[String](["18", "13", "17"])
+
+[sub_resource type="Resource" id="Resource_20nlr"]
+script = ExtResource("1_3thbv")
+text = "___ - 14 = 32. Quel nombre manque ?"
+correct_answer = "46"
+choices = Array[String](["47", "40", "45"])
+
+[sub_resource type="Resource" id="Resource_65g17"]
+script = ExtResource("1_3thbv")
+text = "___ - 65 = 27. Quel nombre manque ?"
+correct_answer = "92"
+choices = Array[String](["86", "91", "87"])
+
+[sub_resource type="Resource" id="Resource_bcs7r"]
+script = ExtResource("1_3thbv")
+text = "___ - 12 = 17. Quel nombre manque ?"
+correct_answer = "29"
+choices = Array[String](["28", "30", "25"])
+
+[sub_resource type="Resource" id="Resource_7em5g"]
+script = ExtResource("1_3thbv")
+text = "24 - ___ = 1. Quel nombre manque ?"
+correct_answer = "23"
+choices = Array[String](["21", "25", "19"])
+
+[sub_resource type="Resource" id="Resource_5ixv7"]
+script = ExtResource("1_3thbv")
+text = "6 - ___ = 3. Quel nombre manque ?"
+correct_answer = "3"
+choices = Array[String](["0", "1", "8"])
+
+[sub_resource type="Resource" id="Resource_rltt3"]
+script = ExtResource("1_3thbv")
+text = "60 - ___ = 7. Quel nombre manque ?"
+correct_answer = "53"
+choices = Array[String](["48", "57", "52"])
+
+[sub_resource type="Resource" id="Resource_h1mfp"]
+script = ExtResource("1_3thbv")
+text = "43 - ___ = 23. Quel nombre manque ?"
+correct_answer = "20"
+choices = Array[String](["15", "16", "22"])
+
+[sub_resource type="Resource" id="Resource_25u6f"]
+script = ExtResource("1_3thbv")
+text = "___ - 35 = 14. Quel nombre manque ?"
+correct_answer = "49"
+choices = Array[String](["54", "55", "48"])
+
+[sub_resource type="Resource" id="Resource_0aa3k"]
+script = ExtResource("1_3thbv")
+text = "93 - ___ = 72. Quel nombre manque ?"
+correct_answer = "21"
+choices = Array[String](["23", "25", "17"])
+
+[sub_resource type="Resource" id="Resource_r182t"]
+script = ExtResource("1_3thbv")
+text = "72 - ___ = 43. Quel nombre manque ?"
+correct_answer = "29"
+choices = Array[String](["28", "33", "25"])
+
+[sub_resource type="Resource" id="Resource_7g8rw"]
+script = ExtResource("1_3thbv")
+text = "___ - 27 = 62. Quel nombre manque ?"
+correct_answer = "89"
+choices = Array[String](["91", "88", "85"])
+
+[sub_resource type="Resource" id="Resource_blvd1"]
+script = ExtResource("1_3thbv")
+text = "___ - 33 = 5. Quel nombre manque ?"
+correct_answer = "38"
+choices = Array[String](["35", "36", "42"])
+
+[sub_resource type="Resource" id="Resource_n6sg1"]
+script = ExtResource("1_3thbv")
+text = "___ - 23 = 31. Quel nombre manque ?"
+correct_answer = "54"
+choices = Array[String](["50", "59", "48"])
+
+[sub_resource type="Resource" id="Resource_hxfha"]
+script = ExtResource("1_3thbv")
+text = "___ - 8 = 16. Quel nombre manque ?"
+correct_answer = "24"
+choices = Array[String](["22", "26", "23"])
+
+[sub_resource type="Resource" id="Resource_yul47"]
+script = ExtResource("1_3thbv")
+text = "___ - 14 = 11. Quel nombre manque ?"
+correct_answer = "25"
+choices = Array[String](["24", "19", "28"])
+
+[sub_resource type="Resource" id="Resource_af0rq"]
+script = ExtResource("1_3thbv")
+text = "___ - 15 = 13. Quel nombre manque ?"
+correct_answer = "28"
+choices = Array[String](["29", "30", "27"])
+
+[sub_resource type="Resource" id="Resource_vtg4l"]
+script = ExtResource("1_3thbv")
+text = "74 - ___ = 72. Quel nombre manque ?"
+correct_answer = "2"
+choices = Array[String](["3", "5", "4"])
+
+[sub_resource type="Resource" id="Resource_l0gui"]
+script = ExtResource("1_3thbv")
+text = "39 - ___ = 38. Quel nombre manque ?"
+correct_answer = "1"
+choices = Array[String](["7", "3", "4"])
+
+[sub_resource type="Resource" id="Resource_bgiq7"]
+script = ExtResource("1_3thbv")
+text = "___ - 2 = 52. Quel nombre manque ?"
+correct_answer = "54"
+choices = Array[String](["48", "55", "53"])
+
+[sub_resource type="Resource" id="Resource_lhkvt"]
+script = ExtResource("1_3thbv")
+text = "___ - 0 = 21. Quel nombre manque ?"
+correct_answer = "21"
+choices = Array[String](["17", "23", "18"])
+
+[sub_resource type="Resource" id="Resource_f5w2w"]
+script = ExtResource("1_3thbv")
+text = "___ - 30 = 20. Quel nombre manque ?"
+correct_answer = "50"
+choices = Array[String](["44", "49", "47"])
+
+[sub_resource type="Resource" id="Resource_75581"]
+script = ExtResource("1_3thbv")
+text = "___ - 35 = 17. Quel nombre manque ?"
+correct_answer = "52"
+choices = Array[String](["51", "47", "56"])
+
+[sub_resource type="Resource" id="Resource_pyuj5"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus grand : 4 ou 51 ?"
+correct_answer = "51"
+choices = Array[String](["4"])
+
+[sub_resource type="Resource" id="Resource_2jdi8"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus petit : 43 ou 23 ?"
+correct_answer = "23"
+choices = Array[String](["43"])
+
+[sub_resource type="Resource" id="Resource_ykwpi"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus grand : 53 ou 73 ?"
+correct_answer = "73"
+choices = Array[String](["53"])
+
+[sub_resource type="Resource" id="Resource_nveu0"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus petit : 58 ou 92 ?"
+correct_answer = "58"
+choices = Array[String](["92"])
+
+[sub_resource type="Resource" id="Resource_cph13"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus petit : 93 ou 27 ?"
+correct_answer = "27"
+choices = Array[String](["93"])
+
+[sub_resource type="Resource" id="Resource_l86ik"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus grand : 74 ou 93 ?"
+correct_answer = "93"
+choices = Array[String](["74"])
+
+[sub_resource type="Resource" id="Resource_5tn15"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus petit : 20 ou 30 ?"
+correct_answer = "20"
+choices = Array[String](["30"])
+
+[sub_resource type="Resource" id="Resource_1pk00"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus petit : 83 ou 24 ?"
+correct_answer = "24"
+choices = Array[String](["83"])
+
+[sub_resource type="Resource" id="Resource_4ke3c"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus petit : 30 ou 51 ?"
+correct_answer = "30"
+choices = Array[String](["51"])
+
+[sub_resource type="Resource" id="Resource_f7jdo"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus grand : 39 ou 71 ?"
+correct_answer = "71"
+choices = Array[String](["39"])
+
+[sub_resource type="Resource" id="Resource_tudhh"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus petit : 64 ou 90 ?"
+correct_answer = "64"
+choices = Array[String](["90"])
+
+[sub_resource type="Resource" id="Resource_g2iif"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus grand : 94 ou 99 ?"
+correct_answer = "99"
+choices = Array[String](["94"])
+
+[sub_resource type="Resource" id="Resource_yjk34"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus petit : 27 ou 5 ?"
+correct_answer = "5"
+choices = Array[String](["27"])
+
+[sub_resource type="Resource" id="Resource_lridu"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus grand : 65 ou 97 ?"
+correct_answer = "97"
+choices = Array[String](["65"])
+
+[sub_resource type="Resource" id="Resource_2xhx8"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus petit : 1 ou 98 ?"
+correct_answer = "1"
+choices = Array[String](["98"])
+
+[sub_resource type="Resource" id="Resource_gbb17"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus grand : 89 ou 50 ?"
+correct_answer = "89"
+choices = Array[String](["50"])
+
+[sub_resource type="Resource" id="Resource_bcpn3"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus petit : 91 ou 82 ?"
+correct_answer = "82"
+choices = Array[String](["91"])
+
+[sub_resource type="Resource" id="Resource_ki87q"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus petit : 93 ou 37 ?"
+correct_answer = "37"
+choices = Array[String](["93"])
+
+[sub_resource type="Resource" id="Resource_n2xai"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus petit : 71 ou 23 ?"
+correct_answer = "23"
+choices = Array[String](["71"])
+
+[sub_resource type="Resource" id="Resource_julpg"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus grand : 17 ou 96 ?"
+correct_answer = "96"
+choices = Array[String](["17"])
+
+[sub_resource type="Resource" id="Resource_hxxja"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus petit : 99 ou 93 ?"
+correct_answer = "93"
+choices = Array[String](["99"])
+
+[sub_resource type="Resource" id="Resource_8knmh"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus petit : 55 ou 0 ?"
+correct_answer = "0"
+choices = Array[String](["55"])
+
+[sub_resource type="Resource" id="Resource_ymnu3"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus grand : 4 ou 24 ?"
+correct_answer = "24"
+choices = Array[String](["4"])
+
+[sub_resource type="Resource" id="Resource_ntobo"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus petit : 12 ou 55 ?"
+correct_answer = "12"
+choices = Array[String](["55"])
+
+[sub_resource type="Resource" id="Resource_lbls1"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus petit : 77 ou 79 ?"
+correct_answer = "77"
+choices = Array[String](["79"])
+
+[sub_resource type="Resource" id="Resource_dg4yk"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus grand : 59 ou 40 ?"
+correct_answer = "59"
+choices = Array[String](["40"])
+
+[sub_resource type="Resource" id="Resource_uj50f"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus grand : 4 ou 89 ?"
+correct_answer = "89"
+choices = Array[String](["4"])
+
+[sub_resource type="Resource" id="Resource_vpfjr"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus petit : 65 ou 59 ?"
+correct_answer = "59"
+choices = Array[String](["65"])
+
+[sub_resource type="Resource" id="Resource_gcpp7"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus petit : 97 ou 46 ?"
+correct_answer = "46"
+choices = Array[String](["97"])
+
+[sub_resource type="Resource" id="Resource_mry50"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus grand : 97 ou 43 ?"
+correct_answer = "97"
+choices = Array[String](["43"])
+
+[sub_resource type="Resource" id="Resource_krfkh"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus petit : 4 ou 36 ?"
+correct_answer = "4"
+choices = Array[String](["36"])
+
+[sub_resource type="Resource" id="Resource_ekbe8"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus petit : 14 ou 98 ?"
+correct_answer = "14"
+choices = Array[String](["98"])
+
+[sub_resource type="Resource" id="Resource_84516"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus petit : 30 ou 42 ?"
+correct_answer = "30"
+choices = Array[String](["42"])
+
+[sub_resource type="Resource" id="Resource_05ot1"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus petit : 13 ou 36 ?"
+correct_answer = "13"
+choices = Array[String](["36"])
+
+[sub_resource type="Resource" id="Resource_mrv7b"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus petit : 2 ou 78 ?"
+correct_answer = "2"
+choices = Array[String](["78"])
+
+[sub_resource type="Resource" id="Resource_8a7p6"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus petit : 64 ou 24 ?"
+correct_answer = "24"
+choices = Array[String](["64"])
+
+[sub_resource type="Resource" id="Resource_yk2kg"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus petit : 78 ou 4 ?"
+correct_answer = "4"
+choices = Array[String](["78"])
+
+[sub_resource type="Resource" id="Resource_3f4i6"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus grand : 6 ou 49 ?"
+correct_answer = "49"
+choices = Array[String](["6"])
+
+[sub_resource type="Resource" id="Resource_2cmlj"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus petit : 90 ou 74 ?"
+correct_answer = "74"
+choices = Array[String](["90"])
+
+[sub_resource type="Resource" id="Resource_v6ctx"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre est le plus petit : 13 ou 40 ?"
+correct_answer = "13"
+choices = Array[String](["40"])
+
+[sub_resource type="Resource" id="Resource_gbpil"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre vient juste avant 90 ?"
+correct_answer = "89"
+choices = Array[String](["84", "90", "88"])
+
+[sub_resource type="Resource" id="Resource_rjgk6"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre vient juste après 12 ?"
+correct_answer = "13"
+choices = Array[String](["16", "12", "14"])
+
+[sub_resource type="Resource" id="Resource_8xgut"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre vient juste avant 65 ?"
+correct_answer = "64"
+choices = Array[String](["62", "66", "59"])
+
+[sub_resource type="Resource" id="Resource_ety4g"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre vient juste avant 70 ?"
+correct_answer = "69"
+choices = Array[String](["66", "73", "71"])
+
+[sub_resource type="Resource" id="Resource_xutvv"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre vient juste avant 71 ?"
+correct_answer = "70"
+choices = Array[String](["67", "74", "73"])
+
+[sub_resource type="Resource" id="Resource_r2h3e"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre vient juste après 25 ?"
+correct_answer = "26"
+choices = Array[String](["24", "30", "29"])
+
+[sub_resource type="Resource" id="Resource_ee551"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre vient juste avant 28 ?"
+correct_answer = "27"
+choices = Array[String](["31", "22", "25"])
+
+[sub_resource type="Resource" id="Resource_awjnx"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre vient juste avant 3 ?"
+correct_answer = "2"
+choices = Array[String](["5", "4", "7"])
+
+[sub_resource type="Resource" id="Resource_0n2gn"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre vient juste avant 55 ?"
+correct_answer = "54"
+choices = Array[String](["52", "56", "59"])
+
+[sub_resource type="Resource" id="Resource_u4deh"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre vient juste après 26 ?"
+correct_answer = "27"
+choices = Array[String](["26", "30", "22"])
+
+[sub_resource type="Resource" id="Resource_nufeg"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre vient juste après 93 ?"
+correct_answer = "94"
+choices = Array[String](["93", "95", "98"])
+
+[sub_resource type="Resource" id="Resource_g68pi"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre vient juste avant 93 ?"
+correct_answer = "92"
+choices = Array[String](["90", "89", "87"])
+
+[sub_resource type="Resource" id="Resource_jb7rg"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre vient juste après 27 ?"
+correct_answer = "28"
+choices = Array[String](["24", "26", "23"])
+
+[sub_resource type="Resource" id="Resource_ptyvo"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre vient juste après 20 ?"
+correct_answer = "21"
+choices = Array[String](["24", "25", "19"])
+
+[sub_resource type="Resource" id="Resource_bwj8w"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre vient juste après 28 ?"
+correct_answer = "29"
+choices = Array[String](["24", "33", "31"])
+
+[sub_resource type="Resource" id="Resource_7jgse"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre vient juste avant 10 ?"
+correct_answer = "9"
+choices = Array[String](["12", "11", "5"])
+
+[sub_resource type="Resource" id="Resource_c2171"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre vient juste avant 19 ?"
+correct_answer = "18"
+choices = Array[String](["16", "15", "19"])
+
+[sub_resource type="Resource" id="Resource_b1ynu"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre vient juste après 67 ?"
+correct_answer = "68"
+choices = Array[String](["65", "64", "67"])
+
+[sub_resource type="Resource" id="Resource_4wfkv"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre vient juste après 44 ?"
+correct_answer = "45"
+choices = Array[String](["49", "40", "42"])
+
+[sub_resource type="Resource" id="Resource_564lf"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre vient juste après 59 ?"
+correct_answer = "60"
+choices = Array[String](["63", "55", "64"])
+
+[sub_resource type="Resource" id="Resource_s5axm"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre vient juste après 96 ?"
+correct_answer = "97"
+choices = Array[String](["92", "102", "101"])
+
+[sub_resource type="Resource" id="Resource_ximp1"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre vient juste après 91 ?"
+correct_answer = "92"
+choices = Array[String](["97", "88", "91"])
+
+[sub_resource type="Resource" id="Resource_k8s5o"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre vient juste avant 17 ?"
+correct_answer = "16"
+choices = Array[String](["12", "11", "20"])
+
+[sub_resource type="Resource" id="Resource_l1e41"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre vient juste avant 40 ?"
+correct_answer = "39"
+choices = Array[String](["41", "36", "37"])
+
+[sub_resource type="Resource" id="Resource_td5ws"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre vient juste après 53 ?"
+correct_answer = "54"
+choices = Array[String](["58", "50", "53"])
+
+[sub_resource type="Resource" id="Resource_481uk"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre vient juste avant 37 ?"
+correct_answer = "36"
+choices = Array[String](["40", "32", "31"])
+
+[sub_resource type="Resource" id="Resource_wm4b6"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre vient juste après 76 ?"
+correct_answer = "77"
+choices = Array[String](["73", "81", "74"])
+
+[sub_resource type="Resource" id="Resource_2ml7l"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre vient juste avant 12 ?"
+correct_answer = "11"
+choices = Array[String](["15", "14", "9"])
+
+[sub_resource type="Resource" id="Resource_dyhlj"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre vient juste après 92 ?"
+correct_answer = "93"
+choices = Array[String](["96", "89", "91"])
+
+[sub_resource type="Resource" id="Resource_pwiha"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre vient juste après 41 ?"
+correct_answer = "42"
+choices = Array[String](["40", "43", "46"])
+
+[sub_resource type="Resource" id="Resource_oyy6u"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre vient juste avant 15 ?"
+correct_answer = "14"
+choices = Array[String](["10", "15", "9"])
+
+[sub_resource type="Resource" id="Resource_sbksv"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre vient juste avant 96 ?"
+correct_answer = "95"
+choices = Array[String](["93", "97", "98"])
+
+[sub_resource type="Resource" id="Resource_2pyvj"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre vient juste après 38 ?"
+correct_answer = "39"
+choices = Array[String](["41", "44", "34"])
+
+[sub_resource type="Resource" id="Resource_n0dul"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre vient juste avant 75 ?"
+correct_answer = "74"
+choices = Array[String](["77", "72", "73"])
+
+[sub_resource type="Resource" id="Resource_vpjn7"]
+script = ExtResource("1_3thbv")
+text = "Quel nombre vient juste avant 83 ?"
+correct_answer = "82"
+choices = Array[String](["81", "79", "87"])
+
+[sub_resource type="Resource" id="Resource_kg708"]
+script = ExtResource("1_3thbv")
+text = "7, ___, 27, 37, 47. Quel nombre manque ?"
+correct_answer = "17"
+choices = Array[String](["18", "7", "25"])
+
+[sub_resource type="Resource" id="Resource_t7jmt"]
+script = ExtResource("1_3thbv")
+text = "0, ___, 4, 6, 8. Quel nombre manque ?"
+correct_answer = "2"
+choices = Array[String](["1", "4", "3"])
+
+[sub_resource type="Resource" id="Resource_js4b7"]
+script = ExtResource("1_3thbv")
+text = "2, 7, 12, ___, 22. Quel nombre manque ?"
+correct_answer = "17"
+choices = Array[String](["18", "16", "23"])
+
+[sub_resource type="Resource" id="Resource_qt8cw"]
+script = ExtResource("1_3thbv")
+text = "8, 13, 18, ___, 28. Quel nombre manque ?"
+correct_answer = "23"
+choices = Array[String](["29", "31", "15"])
+
+[sub_resource type="Resource" id="Resource_xqtme"]
+script = ExtResource("1_3thbv")
+text = "9, 14, 19, ___, 29. Quel nombre manque ?"
+correct_answer = "24"
+choices = Array[String](["19", "16", "33"])
+
+[sub_resource type="Resource" id="Resource_lkn48"]
+script = ExtResource("1_3thbv")
+text = "20, 25, ___, 35, 40. Quel nombre manque ?"
+correct_answer = "30"
+choices = Array[String](["26", "23", "36"])
+
+[sub_resource type="Resource" id="Resource_jcs2f"]
+script = ExtResource("1_3thbv")
+text = "15, 20, ___, 30, 35. Quel nombre manque ?"
+correct_answer = "25"
+choices = Array[String](["26", "15", "33"])
+
+[sub_resource type="Resource" id="Resource_j6f7b"]
+script = ExtResource("1_3thbv")
+text = "17, 19, 21, ___, 25. Quel nombre manque ?"
+correct_answer = "23"
+choices = Array[String](["20", "26", "22"])
+
+[sub_resource type="Resource" id="Resource_rvosi"]
+script = ExtResource("1_3thbv")
+text = "9, ___, 13, 15, 17. Quel nombre manque ?"
+correct_answer = "11"
+choices = Array[String](["10", "15", "8"])
+
+[sub_resource type="Resource" id="Resource_ivc3p"]
+script = ExtResource("1_3thbv")
+text = "5, 10, 15, ___, 25. Quel nombre manque ?"
+correct_answer = "20"
+choices = Array[String](["12", "26", "16"])
+
+[sub_resource type="Resource" id="Resource_nj60y"]
+script = ExtResource("1_3thbv")
+text = "7, 12, ___, 22, 27. Quel nombre manque ?"
+correct_answer = "17"
+choices = Array[String](["7", "18", "20"])
+
+[sub_resource type="Resource" id="Resource_24ug1"]
+script = ExtResource("1_3thbv")
+text = "10, ___, 30, 40, 50. Quel nombre manque ?"
+correct_answer = "20"
+choices = Array[String](["8", "22", "30"])
+
+[sub_resource type="Resource" id="Resource_5323h"]
+script = ExtResource("1_3thbv")
+text = "2, 12, 22, ___, 42. Quel nombre manque ?"
+correct_answer = "32"
+choices = Array[String](["16", "44", "13"])
+
+[sub_resource type="Resource" id="Resource_uptiy"]
+script = ExtResource("1_3thbv")
+text = "19, 24, ___, 34, 39. Quel nombre manque ?"
+correct_answer = "29"
+choices = Array[String](["39", "22", "23"])
+
+[sub_resource type="Resource" id="Resource_v75f4"]
+script = ExtResource("1_3thbv")
+text = "13, ___, 17, 19, 21. Quel nombre manque ?"
+correct_answer = "15"
+choices = Array[String](["16", "13", "19"])
+
+[sub_resource type="Resource" id="Resource_i261v"]
+script = ExtResource("1_3thbv")
+text = "1, 6, ___, 16, 21. Quel nombre manque ?"
+correct_answer = "11"
+choices = Array[String](["17", "5", "14"])
+
+[sub_resource type="Resource" id="Resource_nk32h"]
+script = ExtResource("1_3thbv")
+text = "2, ___, 22, 32, 42. Quel nombre manque ?"
+correct_answer = "12"
+choices = Array[String](["28", "3", "13"])
+
+[sub_resource type="Resource" id="Resource_2fat2"]
+script = ExtResource("1_3thbv")
+text = "2, 4, 6, ___, 10. Quel nombre manque ?"
+correct_answer = "8"
+choices = Array[String](["7", "12", "6"])
+
+[sub_resource type="Resource" id="Resource_qa3is"]
+script = ExtResource("1_3thbv")
+text = "5, 7, 9, ___, 13. Quel nombre manque ?"
+correct_answer = "11"
+choices = Array[String](["15", "14", "8"])
+
+[sub_resource type="Resource" id="Resource_px4q1"]
+script = ExtResource("1_3thbv")
+text = "5, 15, ___, 35, 45. Quel nombre manque ?"
+correct_answer = "25"
+choices = Array[String](["14", "30", "33"])
+
+[sub_resource type="Resource" id="Resource_rk1kc"]
+script = ExtResource("1_3thbv")
+text = "8, 10, 12, ___, 16. Quel nombre manque ?"
+correct_answer = "14"
+choices = Array[String](["12", "17", "18"])
+
+[sub_resource type="Resource" id="Resource_staqe"]
+script = ExtResource("1_3thbv")
+text = "19, ___, 23, 25, 27. Quel nombre manque ?"
+correct_answer = "21"
+choices = Array[String](["19", "20", "18"])
+
+[sub_resource type="Resource" id="Resource_ypcso"]
+script = ExtResource("1_3thbv")
+text = "20, ___, 30, 35, 40. Quel nombre manque ?"
+correct_answer = "25"
+choices = Array[String](["32", "33", "15"])
+
+[sub_resource type="Resource" id="Resource_7gagl"]
+script = ExtResource("1_3thbv")
+text = "0, 2, ___, 6, 8. Quel nombre manque ?"
+correct_answer = "4"
+choices = Array[String](["5", "6", "1"])
+
+[sub_resource type="Resource" id="Resource_w1hva"]
+script = ExtResource("1_3thbv")
+text = "9, 11, ___, 15, 17. Quel nombre manque ?"
+correct_answer = "13"
+choices = Array[String](["15", "16", "17"])
+
+[sub_resource type="Resource" id="Resource_h0mlc"]
+script = ExtResource("1_3thbv")
+text = "16, 18, ___, 22, 24. Quel nombre manque ?"
+correct_answer = "20"
+choices = Array[String](["23", "19", "21"])
+
+[sub_resource type="Resource" id="Resource_7sysw"]
+script = ExtResource("1_3thbv")
+text = "7, 17, ___, 37, 47. Quel nombre manque ?"
+correct_answer = "27"
+choices = Array[String](["36", "39", "41"])
+
+[sub_resource type="Resource" id="Resource_swwah"]
+script = ExtResource("1_3thbv")
+text = "0, 10, 20, ___, 40. Quel nombre manque ?"
+correct_answer = "30"
+choices = Array[String](["32", "11", "38"])
+
+[sub_resource type="Resource" id="Resource_gpd1b"]
+script = ExtResource("1_3thbv")
+text = "6, ___, 26, 36, 46. Quel nombre manque ?"
+correct_answer = "16"
+choices = Array[String](["4", "3", "12"])
+
+[sub_resource type="Resource" id="Resource_6apnp"]
+script = ExtResource("1_3thbv")
+text = "0, ___, 10, 15, 20. Quel nombre manque ?"
+correct_answer = "5"
+choices = Array[String](["2", "0", "6"])
+
+[sub_resource type="Resource" id="Resource_hov1i"]
+script = ExtResource("1_3thbv")
+text = "3, 13, 23, ___, 43. Quel nombre manque ?"
+correct_answer = "33"
+choices = Array[String](["30", "16", "23"])
+
+[sub_resource type="Resource" id="Resource_apuap"]
+script = ExtResource("1_3thbv")
+text = "16, 21, 26, ___, 36. Quel nombre manque ?"
+correct_answer = "31"
+choices = Array[String](["29", "36", "41"])
+
+[sub_resource type="Resource" id="Resource_gia1u"]
+script = ExtResource("1_3thbv")
+text = "18, ___, 22, 24, 26. Quel nombre manque ?"
+correct_answer = "20"
+choices = Array[String](["16", "23", "21"])
+
+[sub_resource type="Resource" id="Resource_qhxks"]
+script = ExtResource("1_3thbv")
+text = "17, ___, 21, 23, 25. Quel nombre manque ?"
+correct_answer = "19"
+choices = Array[String](["15", "21", "20"])
+
+[sub_resource type="Resource" id="Resource_w7l7k"]
+script = ExtResource("1_3thbv")
+text = "Nino a 8 pommes. Il/elle en donne 1. Combien lui reste-t-il de pommes ?"
+correct_answer = "7"
+choices = Array[String](["4", "1", "6"])
+
+[sub_resource type="Resource" id="Resource_piadv"]
+script = ExtResource("1_3thbv")
+text = "Maya a 11 pommes. Il/elle en reçoit 9 de plus. Combien Maya a-t-il/elle de pommes maintenant ?"
+correct_answer = "20"
+choices = Array[String](["18", "17", "26"])
+
+[sub_resource type="Resource" id="Resource_hfxmv"]
+script = ExtResource("1_3thbv")
+text = "Félix a 9 billes. Il/elle en reçoit 9 de plus. Combien Félix a-t-il/elle de billes maintenant ?"
+correct_answer = "18"
+choices = Array[String](["23", "22", "13"])
+
+[sub_resource type="Resource" id="Resource_53l23"]
+script = ExtResource("1_3thbv")
+text = "Jules a 17 pommes. Il/elle en donne 9. Combien lui reste-t-il de pommes ?"
+correct_answer = "8"
+choices = Array[String](["4", "12", "6"])
+
+[sub_resource type="Resource" id="Resource_6td4t"]
+script = ExtResource("1_3thbv")
+text = "Léo a 19 jouets. Il/elle en donne 17. Combien lui reste-t-il de jouets ?"
+correct_answer = "2"
+choices = Array[String](["0", "1", "7"])
+
+[sub_resource type="Resource" id="Resource_2qvu3"]
+script = ExtResource("1_3thbv")
+text = "Alice a 3 pommes. Il/elle en reçoit 15 de plus. Combien Alice a-t-il/elle de pommes maintenant ?"
+correct_answer = "18"
+choices = Array[String](["19", "23", "20"])
+
+[sub_resource type="Resource" id="Resource_4mbjp"]
+script = ExtResource("1_3thbv")
+text = "Chloé a 11 jouets. Il/elle en reçoit 14 de plus. Combien Chloé a-t-il/elle de jouets maintenant ?"
+correct_answer = "25"
+choices = Array[String](["22", "27", "24"])
+
+[sub_resource type="Resource" id="Resource_vwnnc"]
+script = ExtResource("1_3thbv")
+text = "Théo a 6 autocollants. Il/elle en donne 5. Combien lui reste-t-il de autocollants ?"
+correct_answer = "1"
+choices = Array[String](["5", "2", "3"])
+
+[sub_resource type="Resource" id="Resource_qela0"]
+script = ExtResource("1_3thbv")
+text = "Léna a 11 fleurs. Il/elle en reçoit 8 de plus. Combien Léna a-t-il/elle de fleurs maintenant ?"
+correct_answer = "19"
+choices = Array[String](["14", "24", "22"])
+
+[sub_resource type="Resource" id="Resource_te4vj"]
+script = ExtResource("1_3thbv")
+text = "Zoé a 2 cartes. Il/elle en reçoit 10 de plus. Combien Zoé a-t-il/elle de cartes maintenant ?"
+correct_answer = "12"
+choices = Array[String](["10", "7", "8"])
+
+[sub_resource type="Resource" id="Resource_3evwj"]
+script = ExtResource("1_3thbv")
+text = "Lou a 6 bonbons. Il/elle en reçoit 4 de plus. Combien Lou a-t-il/elle de bonbons maintenant ?"
+correct_answer = "10"
+choices = Array[String](["15", "5", "14"])
+
+[sub_resource type="Resource" id="Resource_3n0h5"]
+script = ExtResource("1_3thbv")
+text = "Nora a 3 livres. Il/elle en reçoit 6 de plus. Combien Nora a-t-il/elle de livres maintenant ?"
+correct_answer = "9"
+choices = Array[String](["10", "13", "12"])
+
+[sub_resource type="Resource" id="Resource_eu05s"]
+script = ExtResource("1_3thbv")
+text = "Mia a 3 livres. Il/elle en reçoit 14 de plus. Combien Mia a-t-il/elle de livres maintenant ?"
+correct_answer = "17"
+choices = Array[String](["21", "23", "15"])
+
+[sub_resource type="Resource" id="Resource_s2sx3"]
+script = ExtResource("1_3thbv")
+text = "Iris a 16 jouets. Il/elle en donne 7. Combien lui reste-t-il de jouets ?"
+correct_answer = "9"
+choices = Array[String](["10", "5", "6"])
+
+[sub_resource type="Resource" id="Resource_08r6d"]
+script = ExtResource("1_3thbv")
+text = "Léo a 16 crayons. Il/elle en donne 10. Combien lui reste-t-il de crayons ?"
+correct_answer = "6"
+choices = Array[String](["1", "10", "4"])
+
+[sub_resource type="Resource" id="Resource_xu483"]
+script = ExtResource("1_3thbv")
+text = "Mia a 9 jouets. Il/elle en reçoit 13 de plus. Combien Mia a-t-il/elle de jouets maintenant ?"
+correct_answer = "22"
+choices = Array[String](["26", "21", "18"])
+
+[sub_resource type="Resource" id="Resource_ykogg"]
+script = ExtResource("1_3thbv")
+text = "Zoé a 13 billes. Il/elle en donne 8. Combien lui reste-t-il de billes ?"
+correct_answer = "5"
+choices = Array[String](["8", "0", "2"])
+
+[sub_resource type="Resource" id="Resource_vc8es"]
+script = ExtResource("1_3thbv")
+text = "Jules a 13 billes. Il/elle en donne 6. Combien lui reste-t-il de billes ?"
+correct_answer = "7"
+choices = Array[String](["11", "6", "10"])
+
+[sub_resource type="Resource" id="Resource_7f4yt"]
+script = ExtResource("1_3thbv")
+text = "Félix a 2 billes. Il/elle en reçoit 1 de plus. Combien Félix a-t-il/elle de billes maintenant ?"
+correct_answer = "3"
+choices = Array[String](["6", "1", "7"])
+
+[sub_resource type="Resource" id="Resource_6lmxx"]
+script = ExtResource("1_3thbv")
+text = "Yanis a 18 fleurs. Il/elle en donne 14. Combien lui reste-t-il de fleurs ?"
+correct_answer = "4"
+choices = Array[String](["2", "0", "7"])
+
+[sub_resource type="Resource" id="Resource_lhfii"]
+script = ExtResource("1_3thbv")
+text = "Milo a 4 gâteaux. Il/elle en reçoit 15 de plus. Combien Milo a-t-il/elle de gâteaux maintenant ?"
+correct_answer = "19"
+choices = Array[String](["17", "22", "14"])
+
+[sub_resource type="Resource" id="Resource_o7bbb"]
+script = ExtResource("1_3thbv")
+text = "Maya a 4 bananes. Il/elle en reçoit 1 de plus. Combien Maya a-t-il/elle de bananes maintenant ?"
+correct_answer = "5"
+choices = Array[String](["3", "1", "10"])
+
+[sub_resource type="Resource" id="Resource_s3ebb"]
+script = ExtResource("1_3thbv")
+text = "Alice a 11 jouets. Il/elle en reçoit 2 de plus. Combien Alice a-t-il/elle de jouets maintenant ?"
+correct_answer = "13"
+choices = Array[String](["8", "16", "7"])
+
+[sub_resource type="Resource" id="Resource_6hyfa"]
+script = ExtResource("1_3thbv")
+text = "Léon a 9 pommes. Il/elle en donne 9. Combien lui reste-t-il de pommes ?"
+correct_answer = "0"
+choices = Array[String](["2", "1", "3"])
+
+[sub_resource type="Resource" id="Resource_l0sg8"]
+script = ExtResource("1_3thbv")
+text = "Iris a 4 billes. Il/elle en reçoit 7 de plus. Combien Iris a-t-il/elle de billes maintenant ?"
+correct_answer = "11"
+choices = Array[String](["15", "13", "12"])
+
+[sub_resource type="Resource" id="Resource_tn43f"]
+script = ExtResource("1_3thbv")
+text = "Mia a 5 crayons. Il/elle en donne 5. Combien lui reste-t-il de crayons ?"
+correct_answer = "0"
+choices = Array[String](["3", "1", "2"])
+
+[sub_resource type="Resource" id="Resource_uqioc"]
+script = ExtResource("1_3thbv")
+text = "Nino a 12 images. Il/elle en donne 12. Combien lui reste-t-il de images ?"
+correct_answer = "0"
+choices = Array[String](["2", "6", "4"])
+
+[sub_resource type="Resource" id="Resource_x144y"]
+script = ExtResource("1_3thbv")
+text = "Nino a 7 cartes. Il/elle en donne 4. Combien lui reste-t-il de cartes ?"
+correct_answer = "3"
+choices = Array[String](["0", "8", "9"])
+
+[sub_resource type="Resource" id="Resource_fhwsl"]
+script = ExtResource("1_3thbv")
+text = "Hugo a 1 gâteaux. Il/elle en reçoit 9 de plus. Combien Hugo a-t-il/elle de gâteaux maintenant ?"
+correct_answer = "10"
+choices = Array[String](["15", "4", "5"])
+
+[sub_resource type="Resource" id="Resource_8150b"]
+script = ExtResource("1_3thbv")
+text = "Noah a 9 livres. Il/elle en donne 9. Combien lui reste-t-il de livres ?"
+correct_answer = "0"
+choices = Array[String](["4", "5", "3"])
+
+[sub_resource type="Resource" id="Resource_p8stt"]
+script = ExtResource("1_3thbv")
+text = "Nino a 7 fleurs. Il/elle en reçoit 1 de plus. Combien Nino a-t-il/elle de fleurs maintenant ?"
+correct_answer = "8"
+choices = Array[String](["2", "14", "3"])
+
+[sub_resource type="Resource" id="Resource_847bd"]
+script = ExtResource("1_3thbv")
+text = "Léo a 17 autocollants. Il/elle en donne 16. Combien lui reste-t-il de autocollants ?"
+correct_answer = "1"
+choices = Array[String](["0", "3", "6"])
+
+[sub_resource type="Resource" id="Resource_dd8ho"]
+script = ExtResource("1_3thbv")
+text = "Félix a 20 pommes. Il/elle en donne 17. Combien lui reste-t-il de pommes ?"
+correct_answer = "3"
+choices = Array[String](["2", "5", "1"])
+
+[sub_resource type="Resource" id="Resource_w4754"]
+script = ExtResource("1_3thbv")
+text = "Maya a 3 bananes. Il/elle en reçoit 13 de plus. Combien Maya a-t-il/elle de bananes maintenant ?"
+correct_answer = "16"
+choices = Array[String](["17", "18", "13"])
+
+[sub_resource type="Resource" id="Resource_k58o0"]
+script = ExtResource("1_3thbv")
+text = "Nora a 11 billes. Il/elle en reçoit 11 de plus. Combien Nora a-t-il/elle de billes maintenant ?"
+correct_answer = "22"
+choices = Array[String](["28", "21", "20"])
+
+[sub_resource type="Resource" id="Resource_ixiav"]
+script = ExtResource("1_3thbv")
+text = "Le nombre 74 est-il pair ou impair ?"
+correct_answer = "pair"
+choices = Array[String](["impair"])
+
+[sub_resource type="Resource" id="Resource_thphy"]
+script = ExtResource("1_3thbv")
+text = "Le nombre 88 est-il pair ou impair ?"
+correct_answer = "pair"
+choices = Array[String](["impair"])
+
+[sub_resource type="Resource" id="Resource_6nlwm"]
+script = ExtResource("1_3thbv")
+text = "Le nombre 54 est-il pair ou impair ?"
+correct_answer = "pair"
+choices = Array[String](["impair"])
+
+[sub_resource type="Resource" id="Resource_dbkjv"]
+script = ExtResource("1_3thbv")
+text = "Le nombre 79 est-il pair ou impair ?"
+correct_answer = "impair"
+choices = Array[String](["pair"])
+
+[sub_resource type="Resource" id="Resource_w543w"]
+script = ExtResource("1_3thbv")
+text = "Le nombre 25 est-il pair ou impair ?"
+correct_answer = "impair"
+choices = Array[String](["pair"])
+
+[sub_resource type="Resource" id="Resource_dcis6"]
+script = ExtResource("1_3thbv")
+text = "Le nombre 26 est-il pair ou impair ?"
+correct_answer = "pair"
+choices = Array[String](["impair"])
+
+[sub_resource type="Resource" id="Resource_12qav"]
+script = ExtResource("1_3thbv")
+text = "Le nombre 36 est-il pair ou impair ?"
+correct_answer = "pair"
+choices = Array[String](["impair"])
+
+[sub_resource type="Resource" id="Resource_4wpsc"]
+script = ExtResource("1_3thbv")
+text = "Le nombre 65 est-il pair ou impair ?"
+correct_answer = "impair"
+choices = Array[String](["pair"])
+
+[sub_resource type="Resource" id="Resource_euuhg"]
+script = ExtResource("1_3thbv")
+text = "Le nombre 56 est-il pair ou impair ?"
+correct_answer = "pair"
+choices = Array[String](["impair"])
+
+[sub_resource type="Resource" id="Resource_svd4o"]
+script = ExtResource("1_3thbv")
+text = "Le nombre 96 est-il pair ou impair ?"
+correct_answer = "pair"
+choices = Array[String](["impair"])
+
+[sub_resource type="Resource" id="Resource_r24uq"]
+script = ExtResource("1_3thbv")
+text = "Le nombre 59 est-il pair ou impair ?"
+correct_answer = "impair"
+choices = Array[String](["pair"])
+
+[sub_resource type="Resource" id="Resource_eh3df"]
+script = ExtResource("1_3thbv")
+text = "Le nombre 12 est-il pair ou impair ?"
+correct_answer = "pair"
+choices = Array[String](["impair"])
+
+[sub_resource type="Resource" id="Resource_oon6y"]
+script = ExtResource("1_3thbv")
+text = "Le nombre 41 est-il pair ou impair ?"
+correct_answer = "impair"
+choices = Array[String](["pair"])
+
+[sub_resource type="Resource" id="Resource_f7cpw"]
+script = ExtResource("1_3thbv")
+text = "Le nombre 58 est-il pair ou impair ?"
+correct_answer = "pair"
+choices = Array[String](["impair"])
+
+[sub_resource type="Resource" id="Resource_lfh4l"]
+script = ExtResource("1_3thbv")
+text = "Le nombre 9 est-il pair ou impair ?"
+correct_answer = "impair"
+choices = Array[String](["pair"])
+
+[sub_resource type="Resource" id="Resource_i8glo"]
+script = ExtResource("1_3thbv")
+text = "Le nombre 15 est-il pair ou impair ?"
+correct_answer = "impair"
+choices = Array[String](["pair"])
+
+[sub_resource type="Resource" id="Resource_af6m5"]
+script = ExtResource("1_3thbv")
+text = "Le nombre 40 est-il pair ou impair ?"
+correct_answer = "pair"
+choices = Array[String](["impair"])
+
+[sub_resource type="Resource" id="Resource_nt12f"]
+script = ExtResource("1_3thbv")
+text = "Le nombre 73 est-il pair ou impair ?"
+correct_answer = "impair"
+choices = Array[String](["pair"])
+
+[sub_resource type="Resource" id="Resource_jft8j"]
+script = ExtResource("1_3thbv")
+text = "Le nombre 30 est-il pair ou impair ?"
+correct_answer = "pair"
+choices = Array[String](["impair"])
+
+[sub_resource type="Resource" id="Resource_7safo"]
+script = ExtResource("1_3thbv")
+text = "Le nombre 92 est-il pair ou impair ?"
+correct_answer = "pair"
+choices = Array[String](["impair"])
+
+[sub_resource type="Resource" id="Resource_6ywg2"]
+script = ExtResource("1_3thbv")
+text = "Combien y a-t-il de dizaines dans le nombre 92 ?"
+correct_answer = "9"
+choices = Array[String](["7", "6", "8"])
+
+[sub_resource type="Resource" id="Resource_gu70b"]
+script = ExtResource("1_3thbv")
+text = "Combien y a-t-il de dizaines dans le nombre 41 ?"
+correct_answer = "4"
+choices = Array[String](["7", "1", "3"])
+
+[sub_resource type="Resource" id="Resource_23gvq"]
+script = ExtResource("1_3thbv")
+text = "Combien y a-t-il d'unités dans le nombre 88 ?"
+correct_answer = "8"
+choices = Array[String](["5", "9", "6"])
+
+[sub_resource type="Resource" id="Resource_kc0pf"]
+script = ExtResource("1_3thbv")
+text = "Combien y a-t-il de dizaines dans le nombre 35 ?"
+correct_answer = "3"
+choices = Array[String](["1", "0", "4"])
+
+[sub_resource type="Resource" id="Resource_tckhs"]
+script = ExtResource("1_3thbv")
+text = "Combien y a-t-il d'unités dans le nombre 25 ?"
+correct_answer = "5"
+choices = Array[String](["8", "3", "4"])
+
+[sub_resource type="Resource" id="Resource_ulcj8"]
+script = ExtResource("1_3thbv")
+text = "Combien y a-t-il de dizaines dans le nombre 82 ?"
+correct_answer = "8"
+choices = Array[String](["6", "5", "7"])
+
+[sub_resource type="Resource" id="Resource_1xx3a"]
+script = ExtResource("1_3thbv")
+text = "Combien y a-t-il d'unités dans le nombre 49 ?"
+correct_answer = "9"
+choices = Array[String](["7", "8", "6"])
+
+[sub_resource type="Resource" id="Resource_5s5to"]
+script = ExtResource("1_3thbv")
+text = "Combien y a-t-il d'unités dans le nombre 94 ?"
+correct_answer = "4"
+choices = Array[String](["6", "7", "3"])
+
+[sub_resource type="Resource" id="Resource_e6hg3"]
+script = ExtResource("1_3thbv")
+text = "Combien y a-t-il de dizaines dans le nombre 58 ?"
+correct_answer = "5"
+choices = Array[String](["7", "2", "6"])
+
+[sub_resource type="Resource" id="Resource_afpji"]
+script = ExtResource("1_3thbv")
+text = "Combien y a-t-il de dizaines dans le nombre 13 ?"
+correct_answer = "1"
+choices = Array[String](["4", "0", "2"])
+
+[sub_resource type="Resource" id="Resource_vy3ry"]
+script = ExtResource("1_3thbv")
+text = "Combien y a-t-il d'unités dans le nombre 52 ?"
+correct_answer = "2"
+choices = Array[String](["3", "1", "0"])
+
+[sub_resource type="Resource" id="Resource_ab3dq"]
+script = ExtResource("1_3thbv")
+text = "Combien y a-t-il de dizaines dans le nombre 69 ?"
+correct_answer = "6"
+choices = Array[String](["4", "9", "7"])
+
+[sub_resource type="Resource" id="Resource_fuf0y"]
+script = ExtResource("1_3thbv")
+text = "Combien y a-t-il d'unités dans le nombre 80 ?"
+correct_answer = "0"
+choices = Array[String](["2", "1", "3"])
+
+[sub_resource type="Resource" id="Resource_swofq"]
+script = ExtResource("1_3thbv")
+text = "Combien y a-t-il d'unités dans le nombre 41 ?"
+correct_answer = "1"
+choices = Array[String](["0", "3", "2"])
+
+[sub_resource type="Resource" id="Resource_g7ys6"]
+script = ExtResource("1_3thbv")
+text = "Combien y a-t-il de dizaines dans le nombre 81 ?"
+correct_answer = "8"
+choices = Array[String](["6", "7", "5"])
+
+[sub_resource type="Resource" id="Resource_s7vpi"]
+script = ExtResource("1_3thbv")
+text = "Combien y a-t-il d'unités dans le nombre 72 ?"
+correct_answer = "2"
+choices = Array[String](["1", "5", "4"])
+
+[sub_resource type="Resource" id="Resource_lofji"]
+script = ExtResource("1_3thbv")
+text = "Combien y a-t-il de dizaines dans le nombre 16 ?"
+correct_answer = "1"
+choices = Array[String](["3", "0", "4"])
+
+[sub_resource type="Resource" id="Resource_ng543"]
+script = ExtResource("1_3thbv")
+text = "Combien y a-t-il de dizaines dans le nombre 22 ?"
+correct_answer = "2"
+choices = Array[String](["3", "1", "0"])
+
+[sub_resource type="Resource" id="Resource_6fchl"]
+script = ExtResource("1_3thbv")
+text = "Combien y a-t-il de dizaines dans le nombre 74 ?"
+correct_answer = "7"
+choices = Array[String](["4", "5", "9"])
+
+[sub_resource type="Resource" id="Resource_8bne0"]
+script = ExtResource("1_3thbv")
+text = "Combien y a-t-il d'unités dans le nombre 14 ?"
+correct_answer = "4"
+choices = Array[String](["7", "1", "2"])
+
+[sub_resource type="Resource" id="Resource_e6tk8"]
+script = ExtResource("1_3thbv")
+text = "Combien de côtés a un rond ?"
+correct_answer = "0"
+choices = Array[String](["5", "3", "4"])
+
+[sub_resource type="Resource" id="Resource_fj4w4"]
+script = ExtResource("1_3thbv")
+text = "Combien de côtés a un triangle ?"
+correct_answer = "3"
+choices = Array[String](["0", "5", "4"])
+
+[sub_resource type="Resource" id="Resource_hw50k"]
+script = ExtResource("1_3thbv")
+text = "Combien de côtés a un pentagone ?"
+correct_answer = "5"
+choices = Array[String](["4", "0", "3"])
+
+[sub_resource type="Resource" id="Resource_ibptg"]
+script = ExtResource("1_3thbv")
+text = "Combien de côtés a un cercle ?"
+correct_answer = "0"
+choices = Array[String](["3", "5", "4"])
+
+[sub_resource type="Resource" id="Resource_wv1p4"]
+script = ExtResource("1_3thbv")
+text = "Combien de côtés a un rectangle ?"
+correct_answer = "4"
+choices = Array[String](["0", "3", "5"])
+
+[sub_resource type="Resource" id="Resource_p30kf"]
+script = ExtResource("1_3thbv")
+text = "Combien de côtés a un losange ?"
+correct_answer = "4"
+choices = Array[String](["5", "0", "3"])
+
+[sub_resource type="Resource" id="Resource_f3gms"]
+script = ExtResource("1_3thbv")
+text = "Combien de côtés a un carré ?"
+correct_answer = "4"
+choices = Array[String](["0", "5", "3"])
+
+[sub_resource type="Resource" id="Resource_wf7b4"]
+script = ExtResource("1_3thbv")
+text = "Quelle est la moitié de 24 ?"
+correct_answer = "12"
+choices = Array[String](["14", "18", "13"])
+
+[sub_resource type="Resource" id="Resource_opnsb"]
+script = ExtResource("1_3thbv")
+text = "Quelle est la moitié de 26 ?"
+correct_answer = "13"
+choices = Array[String](["11", "19", "15"])
+
+[sub_resource type="Resource" id="Resource_ubvm8"]
+script = ExtResource("1_3thbv")
+text = "Quel est le double de 16 ?"
+correct_answer = "32"
+choices = Array[String](["33", "26", "29"])
+
+[sub_resource type="Resource" id="Resource_j4824"]
+script = ExtResource("1_3thbv")
+text = "Quel est le double de 15 ?"
+correct_answer = "30"
+choices = Array[String](["29", "25", "27"])
+
+[sub_resource type="Resource" id="Resource_eo502"]
+script = ExtResource("1_3thbv")
+text = "Quel est le double de 24 ?"
+correct_answer = "48"
+choices = Array[String](["42", "51", "53"])
+
+[sub_resource type="Resource" id="Resource_yttut"]
+script = ExtResource("1_3thbv")
+text = "Quelle est la moitié de 30 ?"
+correct_answer = "15"
+choices = Array[String](["11", "13", "16"])
+
+[sub_resource type="Resource" id="Resource_fenuu"]
+script = ExtResource("1_3thbv")
+text = "Quel est le double de 17 ?"
+correct_answer = "34"
+choices = Array[String](["40", "37", "38"])
+
+[sub_resource type="Resource" id="Resource_qcfl0"]
+script = ExtResource("1_3thbv")
+text = "Quel est le double de 12 ?"
+correct_answer = "24"
+choices = Array[String](["30", "28", "21"])
+
+[sub_resource type="Resource" id="Resource_c0ppy"]
+script = ExtResource("1_3thbv")
+text = "Quel est le double de 23 ?"
+correct_answer = "46"
+choices = Array[String](["40", "51", "45"])
+
+[sub_resource type="Resource" id="Resource_2dkgu"]
+script = ExtResource("1_3thbv")
+text = "Quel est le double de 14 ?"
+correct_answer = "28"
+choices = Array[String](["23", "29", "25"])
+
+[resource]
+script = ExtResource("2_v1yrj")
+questions = Array[ExtResource("1_3thbv")]([SubResource("Resource_3thbv"), SubResource("Resource_v1yrj"), SubResource("Resource_s3x3f"), SubResource("Resource_q0drq"), SubResource("Resource_rp0kr"), SubResource("Resource_stpok"), SubResource("Resource_mpfog"), SubResource("Resource_1pwxh"), SubResource("Resource_r7m1h"), SubResource("Resource_rupjy"), SubResource("Resource_tx8v3"), SubResource("Resource_45a8a"), SubResource("Resource_v6x0q"), SubResource("Resource_0dmdl"), SubResource("Resource_dp7e4"), SubResource("Resource_l0fma"), SubResource("Resource_vvxyi"), SubResource("Resource_wdv0o"), SubResource("Resource_ufkwq"), SubResource("Resource_2cf3e"), SubResource("Resource_ywxe0"), SubResource("Resource_8o0nl"), SubResource("Resource_br6lo"), SubResource("Resource_ipo57"), SubResource("Resource_7vhn2"), SubResource("Resource_tbwu1"), SubResource("Resource_1cad4"), SubResource("Resource_307k8"), SubResource("Resource_x1ayg"), SubResource("Resource_evlyl"), SubResource("Resource_olvs8"), SubResource("Resource_s1dmc"), SubResource("Resource_xxa1h"), SubResource("Resource_puyb7"), SubResource("Resource_xrbcb"), SubResource("Resource_0cbw5"), SubResource("Resource_xff6j"), SubResource("Resource_tqctf"), SubResource("Resource_0a4go"), SubResource("Resource_4qm1a"), SubResource("Resource_75w1r"), SubResource("Resource_66oij"), SubResource("Resource_o1hf6"), SubResource("Resource_ersqo"), SubResource("Resource_j246y"), SubResource("Resource_5o4e5"), SubResource("Resource_p3gyx"), SubResource("Resource_ly4fg"), SubResource("Resource_dvom7"), SubResource("Resource_tpy1j"), SubResource("Resource_8vah7"), SubResource("Resource_8w5mx"), SubResource("Resource_6n67i"), SubResource("Resource_1x31e"), SubResource("Resource_bfs6r"), SubResource("Resource_s4tqu"), SubResource("Resource_b7250"), SubResource("Resource_3pl42"), SubResource("Resource_nyjp6"), SubResource("Resource_gxavc"), SubResource("Resource_3sjlf"), SubResource("Resource_vw2tc"), SubResource("Resource_rq5mw"), SubResource("Resource_4gdk3"), SubResource("Resource_uekyt"), SubResource("Resource_tuuch"), SubResource("Resource_hcn7x"), SubResource("Resource_pblnp"), SubResource("Resource_a13pm"), SubResource("Resource_iepey"), SubResource("Resource_a2sl3"), SubResource("Resource_ljmy1"), SubResource("Resource_lxwyi"), SubResource("Resource_djdy3"), SubResource("Resource_f82mj"), SubResource("Resource_acr2b"), SubResource("Resource_via1a"), SubResource("Resource_3wfw1"), SubResource("Resource_8gr3u"), SubResource("Resource_sv41h"), SubResource("Resource_mg3ks"), SubResource("Resource_tw5n5"), SubResource("Resource_la350"), SubResource("Resource_si27x"), SubResource("Resource_67nab"), SubResource("Resource_j10hc"), SubResource("Resource_c08pt"), SubResource("Resource_g3323"), SubResource("Resource_ebyxg"), SubResource("Resource_3o2r3"), SubResource("Resource_j1fbd"), SubResource("Resource_t3mm3"), SubResource("Resource_kidnj"), SubResource("Resource_2vf5g"), SubResource("Resource_lf6lw"), SubResource("Resource_abq1o"), SubResource("Resource_xkfhj"), SubResource("Resource_0tc2n"), SubResource("Resource_x0lkd"), SubResource("Resource_fucwl"), SubResource("Resource_bxdu5"), SubResource("Resource_7q0yj"), SubResource("Resource_iyoo7"), SubResource("Resource_k78iy"), SubResource("Resource_wag8c"), SubResource("Resource_o87x8"), SubResource("Resource_1dxai"), SubResource("Resource_kf4br"), SubResource("Resource_k6ibr"), SubResource("Resource_cym7q"), SubResource("Resource_hp2e2"), SubResource("Resource_avhdx"), SubResource("Resource_fuqae"), SubResource("Resource_fqynu"), SubResource("Resource_uff0j"), SubResource("Resource_g4aor"), SubResource("Resource_ahlg3"), SubResource("Resource_dl40s"), SubResource("Resource_hkysw"), SubResource("Resource_0wq27"), SubResource("Resource_ip5fe"), SubResource("Resource_l0dyo"), SubResource("Resource_dp7fk"), SubResource("Resource_twi3c"), SubResource("Resource_7i4j5"), SubResource("Resource_n36b3"), SubResource("Resource_02qre"), SubResource("Resource_e45yv"), SubResource("Resource_qodmb"), SubResource("Resource_18so1"), SubResource("Resource_rtu0t"), SubResource("Resource_2js0b"), SubResource("Resource_vvce5"), SubResource("Resource_2n876"), SubResource("Resource_fm453"), SubResource("Resource_or84g"), SubResource("Resource_prshn"), SubResource("Resource_20kmk"), SubResource("Resource_jfimr"), SubResource("Resource_lijsu"), SubResource("Resource_26mrf"), SubResource("Resource_33w7s"), SubResource("Resource_4pv2q"), SubResource("Resource_uhweo"), SubResource("Resource_svu2s"), SubResource("Resource_244g6"), SubResource("Resource_kq8cv"), SubResource("Resource_rhdlm"), SubResource("Resource_kiplw"), SubResource("Resource_jcgtn"), SubResource("Resource_ee8gl"), SubResource("Resource_jd5sy"), SubResource("Resource_qd2x0"), SubResource("Resource_1wdki"), SubResource("Resource_uomus"), SubResource("Resource_3aen8"), SubResource("Resource_f547i"), SubResource("Resource_1xypc"), SubResource("Resource_h6dks"), SubResource("Resource_jcu5w"), SubResource("Resource_738ij"), SubResource("Resource_030xb"), SubResource("Resource_4l6jb"), SubResource("Resource_tgctl"), SubResource("Resource_2j40s"), SubResource("Resource_d8ulb"), SubResource("Resource_neo48"), SubResource("Resource_lv8ja"), SubResource("Resource_6f552"), SubResource("Resource_18jjc"), SubResource("Resource_7le3k"), SubResource("Resource_2ymp8"), SubResource("Resource_ktwwd"), SubResource("Resource_ra5q3"), SubResource("Resource_q42ku"), SubResource("Resource_ejj2w"), SubResource("Resource_cy1qu"), SubResource("Resource_ctnou"), SubResource("Resource_u0iy4"), SubResource("Resource_60pd6"), SubResource("Resource_evowb"), SubResource("Resource_rm7uk"), SubResource("Resource_bb5l4"), SubResource("Resource_jnkp4"), SubResource("Resource_x30bt"), SubResource("Resource_613u2"), SubResource("Resource_v57pj"), SubResource("Resource_30h0c"), SubResource("Resource_6metb"), SubResource("Resource_p2kwq"), SubResource("Resource_oeun3"), SubResource("Resource_l10sa"), SubResource("Resource_1rsbx"), SubResource("Resource_4m676"), SubResource("Resource_2bxq6"), SubResource("Resource_n173h"), SubResource("Resource_ey0o3"), SubResource("Resource_5wkua"), SubResource("Resource_6texn"), SubResource("Resource_1wmrn"), SubResource("Resource_ug2yk"), SubResource("Resource_ig2t6"), SubResource("Resource_nqmms"), SubResource("Resource_wgxk0"), SubResource("Resource_rd6mx"), SubResource("Resource_kke15"), SubResource("Resource_4iihd"), SubResource("Resource_owllw"), SubResource("Resource_lny7j"), SubResource("Resource_ed4qo"), SubResource("Resource_s043a"), SubResource("Resource_vieml"), SubResource("Resource_3mvl2"), SubResource("Resource_vuohc"), SubResource("Resource_qs7ht"), SubResource("Resource_rxts1"), SubResource("Resource_qqsvq"), SubResource("Resource_ex3bw"), SubResource("Resource_n7cg3"), SubResource("Resource_fw5xq"), SubResource("Resource_qcvqc"), SubResource("Resource_0xx36"), SubResource("Resource_r4enw"), SubResource("Resource_oki68"), SubResource("Resource_yyya2"), SubResource("Resource_e70eo"), SubResource("Resource_y7asy"), SubResource("Resource_734n6"), SubResource("Resource_vmh65"), SubResource("Resource_oy67f"), SubResource("Resource_ol7la"), SubResource("Resource_ks8gb"), SubResource("Resource_h3ryx"), SubResource("Resource_tm41d"), SubResource("Resource_wqque"), SubResource("Resource_wqw1n"), SubResource("Resource_nj2x8"), SubResource("Resource_4fqp7"), SubResource("Resource_uiw3j"), SubResource("Resource_16x7p"), SubResource("Resource_22py6"), SubResource("Resource_fbbs6"), SubResource("Resource_cijxi"), SubResource("Resource_tfosr"), SubResource("Resource_1j06c"), SubResource("Resource_82mgq"), SubResource("Resource_cara5"), SubResource("Resource_tjohw"), SubResource("Resource_aw7ym"), SubResource("Resource_dfny7"), SubResource("Resource_d1r85"), SubResource("Resource_sy1k6"), SubResource("Resource_u52xt"), SubResource("Resource_nf6qk"), SubResource("Resource_drp51"), SubResource("Resource_rvg3c"), SubResource("Resource_y08ql"), SubResource("Resource_akyrq"), SubResource("Resource_y4dmo"), SubResource("Resource_fggpq"), SubResource("Resource_spsup"), SubResource("Resource_b6h7g"), SubResource("Resource_v8ta0"), SubResource("Resource_la60q"), SubResource("Resource_t116u"), SubResource("Resource_63qw8"), SubResource("Resource_udd73"), SubResource("Resource_ruuv5"), SubResource("Resource_6a25v"), SubResource("Resource_4p0gd"), SubResource("Resource_s46d7"), SubResource("Resource_a6pws"), SubResource("Resource_v60ud"), SubResource("Resource_lumuv"), SubResource("Resource_rait6"), SubResource("Resource_yeo5b"), SubResource("Resource_0f37m"), SubResource("Resource_20nlr"), SubResource("Resource_65g17"), SubResource("Resource_bcs7r"), SubResource("Resource_7em5g"), SubResource("Resource_5ixv7"), SubResource("Resource_rltt3"), SubResource("Resource_h1mfp"), SubResource("Resource_25u6f"), SubResource("Resource_0aa3k"), SubResource("Resource_r182t"), SubResource("Resource_7g8rw"), SubResource("Resource_blvd1"), SubResource("Resource_n6sg1"), SubResource("Resource_hxfha"), SubResource("Resource_yul47"), SubResource("Resource_af0rq"), SubResource("Resource_vtg4l"), SubResource("Resource_l0gui"), SubResource("Resource_bgiq7"), SubResource("Resource_lhkvt"), SubResource("Resource_f5w2w"), SubResource("Resource_75581"), SubResource("Resource_pyuj5"), SubResource("Resource_2jdi8"), SubResource("Resource_ykwpi"), SubResource("Resource_nveu0"), SubResource("Resource_cph13"), SubResource("Resource_l86ik"), SubResource("Resource_5tn15"), SubResource("Resource_1pk00"), SubResource("Resource_4ke3c"), SubResource("Resource_f7jdo"), SubResource("Resource_tudhh"), SubResource("Resource_g2iif"), SubResource("Resource_yjk34"), SubResource("Resource_lridu"), SubResource("Resource_2xhx8"), SubResource("Resource_gbb17"), SubResource("Resource_bcpn3"), SubResource("Resource_ki87q"), SubResource("Resource_n2xai"), SubResource("Resource_julpg"), SubResource("Resource_hxxja"), SubResource("Resource_8knmh"), SubResource("Resource_ymnu3"), SubResource("Resource_ntobo"), SubResource("Resource_lbls1"), SubResource("Resource_dg4yk"), SubResource("Resource_uj50f"), SubResource("Resource_vpfjr"), SubResource("Resource_gcpp7"), SubResource("Resource_mry50"), SubResource("Resource_krfkh"), SubResource("Resource_ekbe8"), SubResource("Resource_84516"), SubResource("Resource_05ot1"), SubResource("Resource_mrv7b"), SubResource("Resource_8a7p6"), SubResource("Resource_yk2kg"), SubResource("Resource_3f4i6"), SubResource("Resource_2cmlj"), SubResource("Resource_v6ctx"), SubResource("Resource_gbpil"), SubResource("Resource_rjgk6"), SubResource("Resource_8xgut"), SubResource("Resource_ety4g"), SubResource("Resource_xutvv"), SubResource("Resource_r2h3e"), SubResource("Resource_ee551"), SubResource("Resource_awjnx"), SubResource("Resource_0n2gn"), SubResource("Resource_u4deh"), SubResource("Resource_nufeg"), SubResource("Resource_g68pi"), SubResource("Resource_jb7rg"), SubResource("Resource_ptyvo"), SubResource("Resource_bwj8w"), SubResource("Resource_7jgse"), SubResource("Resource_c2171"), SubResource("Resource_b1ynu"), SubResource("Resource_4wfkv"), SubResource("Resource_564lf"), SubResource("Resource_s5axm"), SubResource("Resource_ximp1"), SubResource("Resource_k8s5o"), SubResource("Resource_l1e41"), SubResource("Resource_td5ws"), SubResource("Resource_481uk"), SubResource("Resource_wm4b6"), SubResource("Resource_2ml7l"), SubResource("Resource_dyhlj"), SubResource("Resource_pwiha"), SubResource("Resource_oyy6u"), SubResource("Resource_sbksv"), SubResource("Resource_2pyvj"), SubResource("Resource_n0dul"), SubResource("Resource_vpjn7"), SubResource("Resource_kg708"), SubResource("Resource_t7jmt"), SubResource("Resource_js4b7"), SubResource("Resource_qt8cw"), SubResource("Resource_xqtme"), SubResource("Resource_lkn48"), SubResource("Resource_jcs2f"), SubResource("Resource_j6f7b"), SubResource("Resource_rvosi"), SubResource("Resource_ivc3p"), SubResource("Resource_nj60y"), SubResource("Resource_24ug1"), SubResource("Resource_5323h"), SubResource("Resource_uptiy"), SubResource("Resource_v75f4"), SubResource("Resource_i261v"), SubResource("Resource_nk32h"), SubResource("Resource_2fat2"), SubResource("Resource_qa3is"), SubResource("Resource_px4q1"), SubResource("Resource_rk1kc"), SubResource("Resource_staqe"), SubResource("Resource_ypcso"), SubResource("Resource_7gagl"), SubResource("Resource_w1hva"), SubResource("Resource_h0mlc"), SubResource("Resource_7sysw"), SubResource("Resource_swwah"), SubResource("Resource_gpd1b"), SubResource("Resource_6apnp"), SubResource("Resource_hov1i"), SubResource("Resource_apuap"), SubResource("Resource_gia1u"), SubResource("Resource_qhxks"), SubResource("Resource_w7l7k"), SubResource("Resource_piadv"), SubResource("Resource_hfxmv"), SubResource("Resource_53l23"), SubResource("Resource_6td4t"), SubResource("Resource_2qvu3"), SubResource("Resource_4mbjp"), SubResource("Resource_vwnnc"), SubResource("Resource_qela0"), SubResource("Resource_te4vj"), SubResource("Resource_3evwj"), SubResource("Resource_3n0h5"), SubResource("Resource_eu05s"), SubResource("Resource_s2sx3"), SubResource("Resource_08r6d"), SubResource("Resource_xu483"), SubResource("Resource_ykogg"), SubResource("Resource_vc8es"), SubResource("Resource_7f4yt"), SubResource("Resource_6lmxx"), SubResource("Resource_lhfii"), SubResource("Resource_o7bbb"), SubResource("Resource_s3ebb"), SubResource("Resource_6hyfa"), SubResource("Resource_l0sg8"), SubResource("Resource_tn43f"), SubResource("Resource_uqioc"), SubResource("Resource_x144y"), SubResource("Resource_fhwsl"), SubResource("Resource_8150b"), SubResource("Resource_p8stt"), SubResource("Resource_847bd"), SubResource("Resource_dd8ho"), SubResource("Resource_w4754"), SubResource("Resource_k58o0"), SubResource("Resource_ixiav"), SubResource("Resource_thphy"), SubResource("Resource_6nlwm"), SubResource("Resource_dbkjv"), SubResource("Resource_w543w"), SubResource("Resource_dcis6"), SubResource("Resource_12qav"), SubResource("Resource_4wpsc"), SubResource("Resource_euuhg"), SubResource("Resource_svd4o"), SubResource("Resource_r24uq"), SubResource("Resource_eh3df"), SubResource("Resource_oon6y"), SubResource("Resource_f7cpw"), SubResource("Resource_lfh4l"), SubResource("Resource_i8glo"), SubResource("Resource_af6m5"), SubResource("Resource_nt12f"), SubResource("Resource_jft8j"), SubResource("Resource_7safo"), SubResource("Resource_6ywg2"), SubResource("Resource_gu70b"), SubResource("Resource_23gvq"), SubResource("Resource_kc0pf"), SubResource("Resource_tckhs"), SubResource("Resource_ulcj8"), SubResource("Resource_1xx3a"), SubResource("Resource_5s5to"), SubResource("Resource_e6hg3"), SubResource("Resource_afpji"), SubResource("Resource_vy3ry"), SubResource("Resource_ab3dq"), SubResource("Resource_fuf0y"), SubResource("Resource_swofq"), SubResource("Resource_g7ys6"), SubResource("Resource_s7vpi"), SubResource("Resource_lofji"), SubResource("Resource_ng543"), SubResource("Resource_6fchl"), SubResource("Resource_8bne0"), SubResource("Resource_e6tk8"), SubResource("Resource_fj4w4"), SubResource("Resource_hw50k"), SubResource("Resource_ibptg"), SubResource("Resource_wv1p4"), SubResource("Resource_p30kf"), SubResource("Resource_f3gms"), SubResource("Resource_wf7b4"), SubResource("Resource_opnsb"), SubResource("Resource_ubvm8"), SubResource("Resource_j4824"), SubResource("Resource_eo502"), SubResource("Resource_yttut"), SubResource("Resource_fenuu"), SubResource("Resource_qcfl0"), SubResource("Resource_c0ppy"), SubResource("Resource_2dkgu")])

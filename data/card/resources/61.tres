@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://bi4g044b7uxub"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_wjdui"]
+
+[resource]
+script = ExtResource("1_wjdui")
+id = &"61"
+category = &"maki-catta"
+display_name = "Sauvage"

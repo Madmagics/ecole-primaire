@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://dx5or7anokoxi"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_5wbbh"]
+
+[resource]
+script = ExtResource("1_5wbbh")
+id = &"37"
+category = &"raton-laveur"
+display_name = "Blanc"
+grade = 1

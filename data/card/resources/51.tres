@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://ux3h3r00827k"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_00pck"]
+
+[resource]
+script = ExtResource("1_00pck")
+id = &"51"
+category = &"hippopotame"
+display_name = "Fleuve"

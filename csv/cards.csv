@@ -1,0 +1,116 @@
+id;categorie;nom;classe
+1;chat;Sauvage;CP
+2;chat;Siamois;CE1
+3;chat;Forestier;CE2
+4;chat;Céleste;CM1
+5;chat;Cosmique;CM2
+6;chien;Errant;CP
+7;chien;De Berger;CE1
+8;chien;Husky;CE2
+9;chien;Mystique;CM1
+10;chien;Cerbère;CM2
+11;renard;Roux des Bois;CP
+12;renard;Arctique;CE1
+13;renard;Argenté;CE2
+14;renard;Feu Follet;CM1
+15;renard;Céleste;CM2
+16;lapin;Champêtre;CP
+17;lapin;Angora;CE1
+18;lapin;Bélier;CE2
+19;lapin;Lunaire;CM1
+20;lapin;Arc-en-ciel;CM2
+21;hippocampe;Corail;CP
+22;hippocampe;Récif;CE1
+23;hippocampe;Abyssal;CE2
+24;hippocampe;Cristal;CM1
+25;hippocampe;Arc-en-ciel;CM2
+26;dragon;Forestier;CP
+27;dragon;Volcanique;CE1
+28;dragon;Glacial;CE2
+29;dragon;Doré;CM1
+30;dragon;Nébuleuse;CM2
+31;aigle;Royal;CP
+32;aigle;Des Neiges;CE1
+33;aigle;Doré;CE2
+34;aigle;Tempete;CM1
+35;aigle;Céleste;CM2
+36;raton-laveur;Des Bois;CP
+37;raton-laveur;Blanc;CE1
+38;raton-laveur;Roux;CE2
+39;raton-laveur;Nocturne;CM1
+40;raton-laveur;Arlequin;CM2
+41;souris;Des Champs;CP
+42;souris;Blanche;CE1
+43;souris;Grise Urbaine;CE2
+44;souris;Étincelle;CM1
+45;souris;Arlequin;CM2
+46;girafe;Savane;CP
+47;girafe;Des Neiges;CE1
+48;girafe;Réticulée;CE2
+49;girafe;Céleste;CM1
+50;girafe;Arc-en-ciel;CM2
+51;hippopotame;Fleuve;CP
+52;hippopotame;Rose;CE1
+53;hippopotame;Boueux;CE2
+54;hippopotame;Lunaire;CM1
+55;hippopotame;Arc-en-ciel;CM2
+56;licorne;Des prés;CP
+57;licorne;Nocturne;CE1
+58;licorne;Printanière;CE2
+59;licorne;Ignée;CM1
+60;licorne;Arc-en-ciel;CM2
+61;maki-catta;Sauvage;CP
+62;maki-catta;Roux;CE1
+63;maki-catta;Neigeux;CE2
+64;maki-catta;Nocturne;CM1
+65;maki-catta;Arc-en-ciel;CM2
+66;éléphant;Savane;CP
+67;éléphant;Rose;CE1
+68;éléphant;Des Neiges;CE2
+69;éléphant;doré;CM1
+70;éléphant;arc-en-ciel;CM2
+71;panda;Sauvage;CP
+72;panda;Roux;CE1
+73;panda;Neigeux;CE2
+74;panda;Nocturne;CM1
+75;panda;Arc-en-ciel;CM2
+76;vache;Laitière;CP
+77;vache;Highland;CE1
+78;vache;Rosée;CE2
+79;vache;Céleste;CM1
+80;vache;Arc-en-ciel;CM2
+81;lézard;Lézard des jardins;CP
+82;lézard;Lézard désertique;CE1
+83;lézard;Lézard tropical;CE2
+84;lézard;Lézard iridescent;CM1
+85;lézard;Lézard nébuleuse;CM2
+86;bouquetin;Bouquetin alpin;CP
+87;bouquetin;Bouquetin neigeux;CE1
+88;bouquetin;Bouquetin dore;CE2
+89;bouquetin;Bouquetin nocturne;CM1
+90;bouquetin;Bouquetin arc-en-ciel;CM2
+91;dauphin;Dauphin océanique;CP
+92;dauphin;Dauphin rose;CE1
+93;dauphin;Dauphin nocturne;CE2
+94;dauphin;Dauphin cristal;CM1
+95;dauphin;Dauphin arc-en-ciel;CM2
+96;requin;Requin récif;CP
+97;requin;Requin corail;CE1
+98;requin;Requin abyssal;CE2
+99;requin;Requin cristal;CM1
+100;requin;Requin arc-en-ciel;CM2
+101;crevette;Crevette récif;CP
+102;crevette;Crevette tropicale;CE1
+103;crevette;Crevette cristal;CE2
+104;crevette;Crevette nébuleuse;CM1
+105;crevette;Crevette arc-en-ciel;CM2
+106;baleine;Baleine océanique;CP
+107;baleine;Baleine blanche;CE1
+108;baleine;Baleine céleste;CE2
+109;baleine;Baleine corail;CM1
+110;baleine;Baleine arc-en-ciel;CM2
+111;chauve-souris;Chauve-souris des greniers;CP
+112;chauve-souris;Chauve-souris nocturne;CE1
+113;chauve-souris;Chauve-souris neigeuse;CE2
+114;chauve-souris;Chauve-souris ignee;CM1
+115;chauve-souris;Chauve-souris arc-en-ciel;CM2

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://ce643susly1vy"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_otf7u"]
+
+[resource]
+script = ExtResource("1_otf7u")
+id = &"45"
+category = &"souris"
+display_name = "Arlequin"
+grade = 4

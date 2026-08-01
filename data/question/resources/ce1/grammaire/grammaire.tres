@@ -1,0 +1,696 @@
+[gd_resource type="Resource" script_class="QuestionBankResource" format=3 uid="uid://228f4vudny20"]
+
+[ext_resource type="Script" uid="uid://dfbr3elc3mbig" path="res://data/question/question_resource.gd" id="1_2yqne"]
+[ext_resource type="Script" uid="uid://c422qc1cinnna" path="res://data/question/question_bank_resource.gd" id="2_20rle"]
+
+[sub_resource type="Resource" id="Resource_2yqne"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le pluriel de 'canal' ?"
+correct_answer = "canaux"
+choices = Array[String](["canals", "canales", "canaus"])
+
+[sub_resource type="Resource" id="Resource_20rle"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le pluriel de 'général' ?"
+correct_answer = "généraux"
+choices = Array[String](["générals", "générales", "généraus"])
+
+[sub_resource type="Resource" id="Resource_43f6n"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le pluriel de 'hôpital' ?"
+correct_answer = "hôpitaux"
+choices = Array[String](["hôpitals", "hôpitales", "hôpitaus"])
+
+[sub_resource type="Resource" id="Resource_fdeqb"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le pluriel de 'tribunal' ?"
+correct_answer = "tribunaux"
+choices = Array[String](["tribunals", "tribunales", "tribunaus"])
+
+[sub_resource type="Resource" id="Resource_ny2tq"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le pluriel de 'cheval' ?"
+correct_answer = "chevaux"
+choices = Array[String](["chevals", "chevales", "chevaus"])
+
+[sub_resource type="Resource" id="Resource_wim1b"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le pluriel de 'journal' ?"
+correct_answer = "journaux"
+choices = Array[String](["journals", "journales", "journaus"])
+
+[sub_resource type="Resource" id="Resource_2q8tv"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le pluriel de 'animal' ?"
+correct_answer = "animaux"
+choices = Array[String](["animals", "animales", "animaus"])
+
+[sub_resource type="Resource" id="Resource_0g7n3"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le pluriel de 'signal' ?"
+correct_answer = "signaux"
+choices = Array[String](["signals", "signales", "signaus"])
+
+[sub_resource type="Resource" id="Resource_2wqkf"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le pluriel de 'bras' ?"
+correct_answer = "bras"
+choices = Array[String](["brass", "brases", "brasx"])
+
+[sub_resource type="Resource" id="Resource_0p51b"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le pluriel de 'souris' ?"
+correct_answer = "souris"
+choices = Array[String](["souriss", "sourises", "sourisx"])
+
+[sub_resource type="Resource" id="Resource_gjl5a"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le pluriel de 'tapis' ?"
+correct_answer = "tapis"
+choices = Array[String](["tapiss", "tapises", "tapisx"])
+
+[sub_resource type="Resource" id="Resource_jiiuy"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le pluriel de 'croix' ?"
+correct_answer = "croix"
+choices = Array[String](["croixs", "croixes", "croixx"])
+
+[sub_resource type="Resource" id="Resource_2triq"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le pluriel de 'voix' ?"
+correct_answer = "voix"
+choices = Array[String](["voixs", "voixes", "voixx"])
+
+[sub_resource type="Resource" id="Resource_c1gyy"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le pluriel de 'fils' ?"
+correct_answer = "fils"
+choices = Array[String](["filss", "filses", "filsx"])
+
+[sub_resource type="Resource" id="Resource_ehalt"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le pluriel de 'pays' ?"
+correct_answer = "pays"
+choices = Array[String](["payss", "payses", "paysx"])
+
+[sub_resource type="Resource" id="Resource_i4sms"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le pluriel de 'nez' ?"
+correct_answer = "nez"
+choices = Array[String](["nezs", "nezes", "nezx"])
+
+[sub_resource type="Resource" id="Resource_7ffei"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le pluriel de 'temps' ?"
+correct_answer = "temps"
+choices = Array[String](["tempss", "tempses", "tempsx"])
+
+[sub_resource type="Resource" id="Resource_ime7h"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le pluriel de 'prix' ?"
+correct_answer = "prix"
+choices = Array[String](["prixs", "prixes", "prixx"])
+
+[sub_resource type="Resource" id="Resource_y6nw8"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le féminin de 'heureux' ?"
+correct_answer = "heureuse"
+choices = Array[String](["heureux", "heureuxe", "heureus"])
+
+[sub_resource type="Resource" id="Resource_cut8a"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le féminin de 'gros' ?"
+correct_answer = "grosse"
+choices = Array[String](["gros", "grose", "gross"])
+
+[sub_resource type="Resource" id="Resource_gju4q"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le féminin de 'bas' ?"
+correct_answer = "basse"
+choices = Array[String](["bas", "base", "bass"])
+
+[sub_resource type="Resource" id="Resource_td3nf"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le féminin de 'muet' ?"
+correct_answer = "muette"
+choices = Array[String](["muet", "muete", "muett"])
+
+[sub_resource type="Resource" id="Resource_4fwkj"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le féminin de 'neuf' ?"
+correct_answer = "neuve"
+choices = Array[String](["neuf", "neufe", "neuv"])
+
+[sub_resource type="Resource" id="Resource_8aci0"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le féminin de 'italien' ?"
+correct_answer = "italienne"
+choices = Array[String](["italien", "italiene", "italienn"])
+
+[sub_resource type="Resource" id="Resource_bq0qy"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le féminin de 'blanc' ?"
+correct_answer = "blanche"
+choices = Array[String](["blanc", "blance", "blanch"])
+
+[sub_resource type="Resource" id="Resource_grgii"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le féminin de 'faux' ?"
+correct_answer = "fausse"
+choices = Array[String](["faux", "fauxe", "fauss"])
+
+[sub_resource type="Resource" id="Resource_0f0tp"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le féminin de 'beau' ?"
+correct_answer = "belle"
+choices = Array[String](["beau", "beaue", "bell"])
+
+[sub_resource type="Resource" id="Resource_umu4c"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le féminin de 'bon' ?"
+correct_answer = "bonne"
+choices = Array[String](["bon", "bone", "bonn"])
+
+[sub_resource type="Resource" id="Resource_3164a"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le féminin de 'sec' ?"
+correct_answer = "sèche"
+choices = Array[String](["sec", "sèce", "sèch"])
+
+[sub_resource type="Resource" id="Resource_pb1ub"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le féminin de 'long' ?"
+correct_answer = "longue"
+choices = Array[String](["long", "longe", "longu"])
+
+[sub_resource type="Resource" id="Resource_e856c"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le féminin de 'mignon' ?"
+correct_answer = "mignonne"
+choices = Array[String](["mignon", "mignone", "mignonn"])
+
+[sub_resource type="Resource" id="Resource_udja6"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le féminin de 'vif' ?"
+correct_answer = "vive"
+choices = Array[String](["vif", "vife", "viv"])
+
+[sub_resource type="Resource" id="Resource_pgu1p"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le féminin de 'curieux' ?"
+correct_answer = "curieuse"
+choices = Array[String](["curieux", "curieuxe", "curieus"])
+
+[sub_resource type="Resource" id="Resource_8x86l"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le féminin de 'actif' ?"
+correct_answer = "active"
+choices = Array[String](["actif", "actife", "activ"])
+
+[sub_resource type="Resource" id="Resource_5jbt8"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le féminin de 'frais' ?"
+correct_answer = "fraîche"
+choices = Array[String](["frais", "fraise", "fraîch"])
+
+[sub_resource type="Resource" id="Resource_ci0rp"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le féminin de 'nouveau' ?"
+correct_answer = "nouvelle"
+choices = Array[String](["nouveau", "nouveaue", "nouvell"])
+
+[sub_resource type="Resource" id="Resource_27frw"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le féminin de 'roux' ?"
+correct_answer = "rousse"
+choices = Array[String](["roux", "rouxe", "rouss"])
+
+[sub_resource type="Resource" id="Resource_ovej2"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le féminin de 'jaloux' ?"
+correct_answer = "jalouse"
+choices = Array[String](["jaloux", "jalouxe", "jalous"])
+
+[sub_resource type="Resource" id="Resource_c07dt"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le féminin de 'gentil' ?"
+correct_answer = "gentille"
+choices = Array[String](["gentil", "gentile", "gentill"])
+
+[sub_resource type="Resource" id="Resource_sogfg"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le féminin de 'amoureux' ?"
+correct_answer = "amoureuse"
+choices = Array[String](["amoureux", "amoureuxe", "amoureus"])
+
+[sub_resource type="Resource" id="Resource_2sqcd"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le féminin de 'sérieux' ?"
+correct_answer = "sérieuse"
+choices = Array[String](["sérieux", "sérieuxe", "sérieus"])
+
+[sub_resource type="Resource" id="Resource_4yxx2"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le féminin de 'dangereux' ?"
+correct_answer = "dangereuse"
+choices = Array[String](["dangereux", "dangereuxe", "dangereus"])
+
+[sub_resource type="Resource" id="Resource_7hmmf"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le féminin de 'épais' ?"
+correct_answer = "épaisse"
+choices = Array[String](["épais", "épaise", "épaiss"])
+
+[sub_resource type="Resource" id="Resource_88s0o"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le féminin de 'doux' ?"
+correct_answer = "douce"
+choices = Array[String](["doux", "douxe", "douc"])
+
+[sub_resource type="Resource" id="Resource_jyxt7"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le féminin de 'ancien' ?"
+correct_answer = "ancienne"
+choices = Array[String](["ancien", "anciene", "ancienn"])
+
+[sub_resource type="Resource" id="Resource_4keml"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le féminin de 'sportif' ?"
+correct_answer = "sportive"
+choices = Array[String](["sportif", "sportife", "sportiv"])
+
+[sub_resource type="Resource" id="Resource_xbcwt"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quelle est la nature du mot 'joli' ?"
+correct_answer = "adjectif"
+choices = Array[String](["adverbe", "verbe", "nom"])
+
+[sub_resource type="Resource" id="Resource_uwxmv"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quelle est la nature du mot 'maison' ?"
+correct_answer = "nom"
+choices = Array[String](["adjectif", "adverbe", "verbe"])
+
+[sub_resource type="Resource" id="Resource_78qc2"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quelle est la nature du mot 'petit' ?"
+correct_answer = "adjectif"
+choices = Array[String](["nom", "adverbe", "verbe"])
+
+[sub_resource type="Resource" id="Resource_5p0ld"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quelle est la nature du mot 'danser' ?"
+correct_answer = "verbe"
+choices = Array[String](["adverbe", "nom", "adjectif"])
+
+[sub_resource type="Resource" id="Resource_jsi4f"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quelle est la nature du mot 'table' ?"
+correct_answer = "nom"
+choices = Array[String](["adverbe", "verbe", "adjectif"])
+
+[sub_resource type="Resource" id="Resource_yabbn"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quelle est la nature du mot 'chanter' ?"
+correct_answer = "verbe"
+choices = Array[String](["adverbe", "nom", "adjectif"])
+
+[sub_resource type="Resource" id="Resource_pk6ya"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quelle est la nature du mot 'beau' ?"
+correct_answer = "adjectif"
+choices = Array[String](["verbe", "nom", "adverbe"])
+
+[sub_resource type="Resource" id="Resource_5xnh0"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quelle est la nature du mot 'jardin' ?"
+correct_answer = "nom"
+choices = Array[String](["verbe", "adverbe", "adjectif"])
+
+[sub_resource type="Resource" id="Resource_8kfg5"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quelle est la nature du mot 'gentil' ?"
+correct_answer = "adjectif"
+choices = Array[String](["nom", "adverbe", "verbe"])
+
+[sub_resource type="Resource" id="Resource_xoxdb"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quelle est la nature du mot 'doucement' ?"
+correct_answer = "adverbe"
+choices = Array[String](["verbe", "adjectif", "nom"])
+
+[sub_resource type="Resource" id="Resource_a2t3o"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quelle est la nature du mot 'sauter' ?"
+correct_answer = "verbe"
+choices = Array[String](["adverbe", "adjectif", "nom"])
+
+[sub_resource type="Resource" id="Resource_s5anp"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quelle est la nature du mot 'voiture' ?"
+correct_answer = "nom"
+choices = Array[String](["adverbe", "verbe", "adjectif"])
+
+[sub_resource type="Resource" id="Resource_ajmxa"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quelle est la nature du mot 'souvent' ?"
+correct_answer = "adverbe"
+choices = Array[String](["verbe", "adjectif", "nom"])
+
+[sub_resource type="Resource" id="Resource_gc3f7"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quelle est la nature du mot 'manger' ?"
+correct_answer = "verbe"
+choices = Array[String](["nom", "adjectif", "adverbe"])
+
+[sub_resource type="Resource" id="Resource_tl0t5"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quelle est la nature du mot 'courir' ?"
+correct_answer = "verbe"
+choices = Array[String](["adjectif", "adverbe", "nom"])
+
+[sub_resource type="Resource" id="Resource_sdb0m"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quelle est la nature du mot 'vite' ?"
+correct_answer = "adverbe"
+choices = Array[String](["adjectif", "nom", "verbe"])
+
+[sub_resource type="Resource" id="Resource_8fm52"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quelle est la nature du mot 'rapidement' ?"
+correct_answer = "adverbe"
+choices = Array[String](["adjectif", "nom", "verbe"])
+
+[sub_resource type="Resource" id="Resource_8w8r6"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quelle est la nature du mot 'chat' ?"
+correct_answer = "nom"
+choices = Array[String](["verbe", "adjectif", "adverbe"])
+
+[sub_resource type="Resource" id="Resource_vdxlu"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quelle est la nature du mot 'lentement' ?"
+correct_answer = "adverbe"
+choices = Array[String](["adjectif", "verbe", "nom"])
+
+[sub_resource type="Resource" id="Resource_ck023"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quelle est la nature du mot 'grand' ?"
+correct_answer = "adjectif"
+choices = Array[String](["nom", "verbe", "adverbe"])
+
+[sub_resource type="Resource" id="Resource_o5r2n"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le masculin de 'fausse' ?"
+correct_answer = "faux"
+choices = Array[String](["fausse", "faussée", "fauxe"])
+
+[sub_resource type="Resource" id="Resource_wghsl"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le masculin de 'sérieuse' ?"
+correct_answer = "sérieux"
+choices = Array[String](["sérieuse", "sérieusee", "sérieuxe"])
+
+[sub_resource type="Resource" id="Resource_sa7u5"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le masculin de 'basse' ?"
+correct_answer = "bas"
+choices = Array[String](["basse", "bassee", "base"])
+
+[sub_resource type="Resource" id="Resource_7wwc4"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le masculin de 'neuve' ?"
+correct_answer = "neuf"
+choices = Array[String](["neuve", "neuvee", "neufe"])
+
+[sub_resource type="Resource" id="Resource_xb5rw"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le masculin de 'italienne' ?"
+correct_answer = "italien"
+choices = Array[String](["italienne", "italiennee", "italiene"])
+
+[sub_resource type="Resource" id="Resource_2svqj"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le masculin de 'douce' ?"
+correct_answer = "doux"
+choices = Array[String](["douce", "doucee", "douxe"])
+
+[sub_resource type="Resource" id="Resource_pry4t"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le masculin de 'blanche' ?"
+correct_answer = "blanc"
+choices = Array[String](["blanche", "blanchee", "blance"])
+
+[sub_resource type="Resource" id="Resource_5p4yx"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le masculin de 'curieuse' ?"
+correct_answer = "curieux"
+choices = Array[String](["curieuse", "curieusee", "curieuxe"])
+
+[sub_resource type="Resource" id="Resource_gr7ay"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le masculin de 'sèche' ?"
+correct_answer = "sec"
+choices = Array[String](["sèche", "séchée", "sèce"])
+
+[sub_resource type="Resource" id="Resource_g2cyn"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le masculin de 'rousse' ?"
+correct_answer = "roux"
+choices = Array[String](["rousse", "roussee", "rouxe"])
+
+[sub_resource type="Resource" id="Resource_osfed"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le masculin de 'fraîche' ?"
+correct_answer = "frais"
+choices = Array[String](["fraîche", "fraîchée", "fraise"])
+
+[sub_resource type="Resource" id="Resource_f7juc"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le masculin de 'jalouse' ?"
+correct_answer = "jaloux"
+choices = Array[String](["jalouse", "jalousée", "jalouxe"])
+
+[sub_resource type="Resource" id="Resource_eyeja"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le masculin de 'vive' ?"
+correct_answer = "vif"
+choices = Array[String](["vive", "vivee", "vife"])
+
+[sub_resource type="Resource" id="Resource_ohepo"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le masculin de 'amoureuse' ?"
+correct_answer = "amoureux"
+choices = Array[String](["amoureuse", "amoureusee", "amoureuxe"])
+
+[sub_resource type="Resource" id="Resource_ra45f"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le masculin de 'épaisse' ?"
+correct_answer = "épais"
+choices = Array[String](["épaisse", "épaissée", "épaise"])
+
+[sub_resource type="Resource" id="Resource_sf06y"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le masculin de 'grosse' ?"
+correct_answer = "gros"
+choices = Array[String](["grosse", "grossee", "grose"])
+
+[sub_resource type="Resource" id="Resource_cg75j"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le masculin de 'active' ?"
+correct_answer = "actif"
+choices = Array[String](["active", "activée", "actife"])
+
+[sub_resource type="Resource" id="Resource_83kxv"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le masculin de 'muette' ?"
+correct_answer = "muet"
+choices = Array[String](["muette", "muettee", "muete"])
+
+[sub_resource type="Resource" id="Resource_m1jbs"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le masculin de 'dangereuse' ?"
+correct_answer = "dangereux"
+choices = Array[String](["dangereuse", "dangereusee", "dangereuxe"])
+
+[sub_resource type="Resource" id="Resource_sjg60"]
+script = ExtResource("1_2yqne")
+subject = 2
+grade = 1
+text = "Quel est le masculin de 'nouvelle' ?"
+correct_answer = "nouveau"
+choices = Array[String](["nouvelle", "nouvellee", "nouveaue"])
+
+[resource]
+script = ExtResource("2_20rle")
+questions = Array[ExtResource("1_2yqne")]([SubResource("Resource_2yqne"), SubResource("Resource_20rle"), SubResource("Resource_43f6n"), SubResource("Resource_fdeqb"), SubResource("Resource_ny2tq"), SubResource("Resource_wim1b"), SubResource("Resource_2q8tv"), SubResource("Resource_0g7n3"), SubResource("Resource_2wqkf"), SubResource("Resource_0p51b"), SubResource("Resource_gjl5a"), SubResource("Resource_jiiuy"), SubResource("Resource_2triq"), SubResource("Resource_c1gyy"), SubResource("Resource_ehalt"), SubResource("Resource_i4sms"), SubResource("Resource_7ffei"), SubResource("Resource_ime7h"), SubResource("Resource_y6nw8"), SubResource("Resource_cut8a"), SubResource("Resource_gju4q"), SubResource("Resource_td3nf"), SubResource("Resource_4fwkj"), SubResource("Resource_8aci0"), SubResource("Resource_bq0qy"), SubResource("Resource_grgii"), SubResource("Resource_0f0tp"), SubResource("Resource_umu4c"), SubResource("Resource_3164a"), SubResource("Resource_pb1ub"), SubResource("Resource_e856c"), SubResource("Resource_udja6"), SubResource("Resource_pgu1p"), SubResource("Resource_8x86l"), SubResource("Resource_5jbt8"), SubResource("Resource_ci0rp"), SubResource("Resource_27frw"), SubResource("Resource_ovej2"), SubResource("Resource_c07dt"), SubResource("Resource_sogfg"), SubResource("Resource_2sqcd"), SubResource("Resource_4yxx2"), SubResource("Resource_7hmmf"), SubResource("Resource_88s0o"), SubResource("Resource_jyxt7"), SubResource("Resource_4keml"), SubResource("Resource_xbcwt"), SubResource("Resource_uwxmv"), SubResource("Resource_78qc2"), SubResource("Resource_5p0ld"), SubResource("Resource_jsi4f"), SubResource("Resource_yabbn"), SubResource("Resource_pk6ya"), SubResource("Resource_5xnh0"), SubResource("Resource_8kfg5"), SubResource("Resource_xoxdb"), SubResource("Resource_a2t3o"), SubResource("Resource_s5anp"), SubResource("Resource_ajmxa"), SubResource("Resource_gc3f7"), SubResource("Resource_tl0t5"), SubResource("Resource_sdb0m"), SubResource("Resource_8fm52"), SubResource("Resource_8w8r6"), SubResource("Resource_vdxlu"), SubResource("Resource_ck023"), SubResource("Resource_o5r2n"), SubResource("Resource_wghsl"), SubResource("Resource_sa7u5"), SubResource("Resource_7wwc4"), SubResource("Resource_xb5rw"), SubResource("Resource_2svqj"), SubResource("Resource_pry4t"), SubResource("Resource_5p4yx"), SubResource("Resource_gr7ay"), SubResource("Resource_g2cyn"), SubResource("Resource_osfed"), SubResource("Resource_f7juc"), SubResource("Resource_eyeja"), SubResource("Resource_ohepo"), SubResource("Resource_ra45f"), SubResource("Resource_sf06y"), SubResource("Resource_cg75j"), SubResource("Resource_83kxv"), SubResource("Resource_m1jbs"), SubResource("Resource_sjg60")])

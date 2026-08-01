@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://c400txht1nbep"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_o4no5"]
+
+[resource]
+script = ExtResource("1_o4no5")
+id = &"77"
+category = &"vache"
+display_name = "Highland"
+grade = 1

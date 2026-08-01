@@ -1,0 +1,304 @@
+[gd_resource type="Resource" script_class="QuestionBankResource" format=3 uid="uid://cwn1qxmclr074"]
+
+[ext_resource type="Script" uid="uid://dfbr3elc3mbig" path="res://data/question/question_resource.gd" id="1_3c4pk"]
+[ext_resource type="Script" uid="uid://c422qc1cinnna" path="res://data/question/question_bank_resource.gd" id="2_v0hs1"]
+
+[sub_resource type="Resource" id="Resource_3c4pk"]
+script = ExtResource("1_3c4pk")
+subject = 4
+grade = 4
+text = "___ pars-tu en vacances ?"
+correct_answer = "Quand"
+choices = Array[String](["Quant", "Qu'en", "Kan"])
+
+[sub_resource type="Resource" id="Resource_v0hs1"]
+script = ExtResource("1_3c4pk")
+subject = 4
+grade = 4
+text = "___ à moi, je reste ici."
+correct_answer = "Quant"
+choices = Array[String](["Quand", "Qu'en", "Kan"])
+
+[sub_resource type="Resource" id="Resource_a0x5h"]
+script = ExtResource("1_3c4pk")
+subject = 4
+grade = 4
+text = "Je suis sur ___ vous dites."
+correct_answer = "qu'en"
+choices = Array[String](["quand", "quant", "kan"])
+
+[sub_resource type="Resource" id="Resource_8p0tl"]
+script = ExtResource("1_3c4pk")
+subject = 4
+grade = 4
+text = "Il part ___ tarder (immédiatement)."
+correct_answer = "sans"
+choices = Array[String](["s'en", "sens", "sang"])
+
+[sub_resource type="Resource" id="Resource_qk3yn"]
+script = ExtResource("1_3c4pk")
+subject = 4
+grade = 4
+text = "Elle ___ va déjà (s'en aller)."
+correct_answer = "s'en"
+choices = Array[String](["sans", "sens", "sang"])
+
+[sub_resource type="Resource" id="Resource_q4vqt"]
+script = ExtResource("1_3c4pk")
+subject = 4
+grade = 4
+text = "Ce parfum a un bon ___ (odeur)."
+correct_answer = "sens"
+choices = Array[String](["sans", "s'en", "sang"])
+
+[sub_resource type="Resource" id="Resource_mfy5w"]
+script = ExtResource("1_3c4pk")
+subject = 4
+grade = 4
+text = "Il part ___ dire au revoir."
+correct_answer = "sans"
+choices = Array[String](["s'en", "sens", "sang"])
+
+[sub_resource type="Resource" id="Resource_44bqf"]
+script = ExtResource("1_3c4pk")
+subject = 4
+grade = 4
+text = "Elle ___ souvient bien (se souvenir)."
+correct_answer = "s'en"
+choices = Array[String](["sans", "sens", "sang"])
+
+[sub_resource type="Resource" id="Resource_cjclc"]
+script = ExtResource("1_3c4pk")
+subject = 4
+grade = 4
+text = "___ les élèves sont présents."
+correct_answer = "Tous"
+choices = Array[String](["Tout", "Toux", "xuoT"])
+
+[sub_resource type="Resource" id="Resource_rtvyi"]
+script = ExtResource("1_3c4pk")
+subject = 4
+grade = 4
+text = "Il a mangé ___ le gâteau."
+correct_answer = "tout"
+choices = Array[String](["tous", "toux", "toute"])
+
+[sub_resource type="Resource" id="Resource_kawch"]
+script = ExtResource("1_3c4pk")
+subject = 4
+grade = 4
+text = "Elles sont ___ contentes."
+correct_answer = "toutes"
+choices = Array[String](["tous", "tout", "toute"])
+
+[sub_resource type="Resource" id="Resource_c1m63"]
+script = ExtResource("1_3c4pk")
+subject = 4
+grade = 4
+text = "___ va bien, merci."
+correct_answer = "Tout"
+choices = Array[String](["Tous", "Toux", "Toutes"])
+
+[sub_resource type="Resource" id="Resource_su3u4"]
+script = ExtResource("1_3c4pk")
+subject = 4
+grade = 4
+text = "Les enfants sont ___ arrives."
+correct_answer = "tous"
+choices = Array[String](["tout", "toux", "toutes"])
+
+[sub_resource type="Resource" id="Resource_oyfr1"]
+script = ExtResource("1_3c4pk")
+subject = 4
+grade = 4
+text = "Quand ___ demanderont, dis la vérité."
+correct_answer = "quant"
+choices = Array[String](["quand", "qu'en", "kan"])
+
+[sub_resource type="Resource" id="Resource_b5lru"]
+script = ExtResource("1_3c4pk")
+subject = 4
+grade = 4
+text = "Je ne sais pas ___ il reviendra."
+correct_answer = "quand"
+choices = Array[String](["quant", "qu'en", "kan"])
+
+[sub_resource type="Resource" id="Resource_3c2qf"]
+script = ExtResource("1_3c4pk")
+subject = 4
+grade = 4
+text = "Que signifie le préfixe 're-' dans 'refaire' ?"
+correct_answer = "faire de nouveau"
+choices = Array[String](["faire le contraire", "faire avant", "faire vite"])
+
+[sub_resource type="Resource" id="Resource_pqgmc"]
+script = ExtResource("1_3c4pk")
+subject = 4
+grade = 4
+text = "Que signifie le préfixe 'de-' dans 'défaire' ?"
+correct_answer = "faire le contraire"
+choices = Array[String](["faire de nouveau", "faire avant", "faire vite"])
+
+[sub_resource type="Resource" id="Resource_tadjv"]
+script = ExtResource("1_3c4pk")
+subject = 4
+grade = 4
+text = "Que signifie le préfixe 'in-' dans 'impossible' ?"
+correct_answer = "le contraire de"
+choices = Array[String](["la même chose que", "faire de nouveau", "avant"])
+
+[sub_resource type="Resource" id="Resource_wgcut"]
+script = ExtResource("1_3c4pk")
+subject = 4
+grade = 4
+text = "Quel est le contraire de 'content' avec un préfixe ?"
+correct_answer = "mécontent"
+choices = Array[String](["decontent", "incontent", "recontent"])
+
+[sub_resource type="Resource" id="Resource_fjcgl"]
+script = ExtResource("1_3c4pk")
+subject = 4
+grade = 4
+text = "Quel est le contraire de 'faire' avec un préfixe ?"
+correct_answer = "défaire"
+choices = Array[String](["refaire", "infaire", "mecfaire"])
+
+[sub_resource type="Resource" id="Resource_ni67j"]
+script = ExtResource("1_3c4pk")
+subject = 4
+grade = 4
+text = "Quel mot signifie 'plier de nouveau' ?"
+correct_answer = "replier"
+choices = Array[String](["déplier", "implier", "complier"])
+
+[sub_resource type="Resource" id="Resource_ftmcx"]
+script = ExtResource("1_3c4pk")
+subject = 4
+grade = 4
+text = "Quel préfixe donne le sens 'pas possible' ?"
+correct_answer = "im-"
+choices = Array[String](["re-", "de-", "sur-"])
+
+[sub_resource type="Resource" id="Resource_nmjd8"]
+script = ExtResource("1_3c4pk")
+subject = 4
+grade = 4
+text = "Quel mot veut dire 'refaire une lecture' ?"
+correct_answer = "relire"
+choices = Array[String](["délire", "inlire", "surlire"])
+
+[sub_resource type="Resource" id="Resource_n8hwo"]
+script = ExtResource("1_3c4pk")
+subject = 4
+grade = 4
+text = "Quel suffixe transforme 'gentil' en nom de qualité ?"
+correct_answer = "-esse (gentillesse)"
+choices = Array[String](["-tion", "-ment", "-eur"])
+
+[sub_resource type="Resource" id="Resource_rathl"]
+script = ExtResource("1_3c4pk")
+subject = 4
+grade = 4
+text = "Quel suffixe transforme 'lent' en adverbe de manière ?"
+correct_answer = "-ment (lentement)"
+choices = Array[String](["-tion", "-esse", "-eur"])
+
+[sub_resource type="Resource" id="Resource_n7y0h"]
+script = ExtResource("1_3c4pk")
+subject = 4
+grade = 4
+text = "Quel suffixe transforme 'nager' en personne qui nage ?"
+correct_answer = "-eur (nageur)"
+choices = Array[String](["-tion", "-ment", "-esse"])
+
+[sub_resource type="Resource" id="Resource_s2kvs"]
+script = ExtResource("1_3c4pk")
+subject = 4
+grade = 4
+text = "Quel suffixe transforme 'inventer' en nom d'action ?"
+correct_answer = "-tion (invention)"
+choices = Array[String](["-ment", "-esse", "-eur"])
+
+[sub_resource type="Resource" id="Resource_1ewf4"]
+script = ExtResource("1_3c4pk")
+subject = 4
+grade = 4
+text = "Quel mot signifie 'action de laver' ?"
+correct_answer = "lavage"
+choices = Array[String](["lavement", "laveur", "lavesse"])
+
+[sub_resource type="Resource" id="Resource_agt7h"]
+script = ExtResource("1_3c4pk")
+subject = 4
+grade = 4
+text = "Quel mot désigne celui qui chante ?"
+correct_answer = "chanteur"
+choices = Array[String](["chantage", "chantment", "chanture"])
+
+[sub_resource type="Resource" id="Resource_afc75"]
+script = ExtResource("1_3c4pk")
+subject = 4
+grade = 4
+text = "Quel mot signifie 'de manière rapide' ?"
+correct_answer = "rapidement"
+choices = Array[String](["rapidage", "rapideur", "rapidesse"])
+
+[sub_resource type="Resource" id="Resource_k5vyy"]
+script = ExtResource("1_3c4pk")
+subject = 4
+grade = 4
+text = "Comment s'écrit le mot pour 'que l'on mange le matin' ?"
+correct_answer = "petit-déjeuner"
+choices = Array[String](["petit déjeune", "petit-déjeune", "petitdejeuner"])
+
+[sub_resource type="Resource" id="Resource_k82ac"]
+script = ExtResource("1_3c4pk")
+subject = 4
+grade = 4
+text = "Quel accent porte le 'e' dans 'la mère' ?"
+correct_answer = "accent grave"
+choices = Array[String](["accent aigu", "accent circonflexe", "aucun accent"])
+
+[sub_resource type="Resource" id="Resource_rrxuy"]
+script = ExtResource("1_3c4pk")
+subject = 4
+grade = 4
+text = "Quel accent porte le 'e' dans 'l'école' ?"
+correct_answer = "accent aigu"
+choices = Array[String](["accent grave", "accent circonflexe", "aucun accent"])
+
+[sub_resource type="Resource" id="Resource_ca7dj"]
+script = ExtResource("1_3c4pk")
+subject = 4
+grade = 4
+text = "Quel accent porte le 'e' dans 'la fenêtre' ?"
+correct_answer = "accent circonflexe"
+choices = Array[String](["accent grave", "accent aigu", "aucun accent"])
+
+[sub_resource type="Resource" id="Resource_3qvlx"]
+script = ExtResource("1_3c4pk")
+subject = 4
+grade = 4
+text = "Comment écrit-on correctement : 'il neige' ou 'il neiges' ?"
+correct_answer = "il neige"
+choices = Array[String](["il neiges", "il neigent", "il neigea"])
+
+[sub_resource type="Resource" id="Resource_mw0ei"]
+script = ExtResource("1_3c4pk")
+subject = 4
+grade = 4
+text = "Quel mot est correctement orthographie : 1) 'immédiatement' 2) 'imediatement' 3) 'immediatemment' ?"
+correct_answer = "immédiatement"
+choices = Array[String](["imediatement", "immediatemment", "imediatemment"])
+
+[sub_resource type="Resource" id="Resource_o00ee"]
+script = ExtResource("1_3c4pk")
+subject = 4
+grade = 4
+text = "Quel mot est correctement orthographie : 1) 'développement' 2) 'developement' 3) 'develloppement' ?"
+correct_answer = "développement"
+choices = Array[String](["developement", "develloppement", "devellopement"])
+
+[resource]
+script = ExtResource("2_v0hs1")
+questions = Array[ExtResource("1_3c4pk")]([SubResource("Resource_3c4pk"), SubResource("Resource_v0hs1"), SubResource("Resource_a0x5h"), SubResource("Resource_8p0tl"), SubResource("Resource_qk3yn"), SubResource("Resource_q4vqt"), SubResource("Resource_mfy5w"), SubResource("Resource_44bqf"), SubResource("Resource_cjclc"), SubResource("Resource_rtvyi"), SubResource("Resource_kawch"), SubResource("Resource_c1m63"), SubResource("Resource_su3u4"), SubResource("Resource_oyfr1"), SubResource("Resource_b5lru"), SubResource("Resource_3c2qf"), SubResource("Resource_pqgmc"), SubResource("Resource_tadjv"), SubResource("Resource_wgcut"), SubResource("Resource_fjcgl"), SubResource("Resource_ni67j"), SubResource("Resource_ftmcx"), SubResource("Resource_nmjd8"), SubResource("Resource_n8hwo"), SubResource("Resource_rathl"), SubResource("Resource_n7y0h"), SubResource("Resource_s2kvs"), SubResource("Resource_1ewf4"), SubResource("Resource_agt7h"), SubResource("Resource_afc75"), SubResource("Resource_k5vyy"), SubResource("Resource_k82ac"), SubResource("Resource_rrxuy"), SubResource("Resource_ca7dj"), SubResource("Resource_3qvlx"), SubResource("Resource_mw0ei"), SubResource("Resource_o00ee")])

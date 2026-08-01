@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://bfm4vhwr8trsh"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_2v7pi"]
+
+[resource]
+script = ExtResource("1_2v7pi")
+id = &"55"
+category = &"hippopotame"
+display_name = "Arc-en-ciel"
+grade = 4

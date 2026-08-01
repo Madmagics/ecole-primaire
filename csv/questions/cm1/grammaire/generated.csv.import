@@ -1,0 +1,16 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://cg2sys6pqayuh"
+
+[deps]
+
+source_file="res://csv/questions/cm1/grammaire/generated.csv"
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

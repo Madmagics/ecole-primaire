@@ -1,9 +1,0 @@
-[gd_resource type="Resource" script_class="QuestionResource" format=3 uid="uid://d0onc4fflxy2u"]
-
-[ext_resource type="Script" uid="uid://dfbr3elc3mbig" path="res://data/question/question_resource.gd" id="1_wfew8"]
-
-[resource]
-script = ExtResource("1_wfew8")
-text = "Combien font 2 + 2 ?"
-correct_answer = "4"
-metadata/_custom_type_script = "uid://dfbr3elc3mbig"

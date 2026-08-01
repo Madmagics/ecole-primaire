@@ -1,0 +1,1001 @@
+id;text;correct_answer;choice_2;choice_3;choice_4
+1201;Combien font 316 + 115 ?;431;426;432;434
+1202;Combien font 111 + 445 ?;556;546;557;566
+1203;Combien font 15 + 474 ?;489;490;494;487
+1204;Combien font 163 + 379 ?;542;543;545;544
+1205;Combien font 408 + 194 ?;602;612;604;607
+1206;Combien font 339 + 310 ?;649;647;648;654
+1207;Combien font 439 + 230 ?;669;667;679;671
+1208;Combien font 301 + 95 ?;396;401;406;391
+1209;Combien font 349 + 399 ?;748;758;750;747
+1210;Combien font 28 + 470 ?;498;496;500;493
+1211;Combien font 215 + 215 ?;430;433;440;420
+1212;Combien font 347 + 213 ?;560;558;561;555
+1213;Combien font 26 + 464 ?;490;487;491;480
+1214;Combien font 149 + 288 ?;437;432;439;447
+1215;Combien font 190 + 128 ?;318;308;316;313
+1216;Combien font 58 + 103 ?;161;163;166;162
+1217;Combien font 113 + 139 ?;252;251;242;255
+1218;Combien font 344 + 478 ?;822;823;820;821
+1219;Combien font 145 + 115 ?;260;259;257;250
+1220;Combien font 184 + 276 ?;460;461;465;455
+1221;Combien font 425 + 382 ?;807;805;810;806
+1222;Combien font 151 + 306 ?;457;458;460;456
+1223;Combien font 459 + 297 ?;756;755;759;746
+1224;Combien font 56 + 67 ?;123;120;122;124
+1225;Combien font 276 + 346 ?;622;627;632;612
+1226;Combien font 168 + 450 ?;618;621;613;628
+1227;Combien font 418 + 231 ?;649;644;647;659
+1228;Combien font 189 + 60 ?;249;254;248;259
+1229;Combien font 88 + 143 ?;231;229;221;241
+1230;Combien font 102 + 70 ?;172;177;173;182
+1231;Combien font 591 - 284 ?;307;312;310;302
+1232;Combien font 299 - 32 ?;267;264;272;270
+1233;Combien font 812 - 440 ?;372;382;371;377
+1234;Combien font 588 - 317 ?;271;274;276;268
+1235;Combien font 920 - 347 ?;573;574;575;570
+1236;Combien font 277 - 136 ?;141;139;140;138
+1237;Combien font 478 - 403 ?;75;80;85;74
+1238;Combien font 829 - 495 ?;334;339;329;332
+1239;Combien font 329 - 293 ?;36;35;41;34
+1240;Combien font 702 - 401 ?;301;296;311;304
+1241;Combien font 959 - 452 ?;507;510;506;505
+1242;Combien font 683 - 382 ?;301;296;304;300
+1243;Combien font 858 - 385 ?;473;483;471;475
+1244;Combien font 922 - 71 ?;851;852;850;853
+1245;Combien font 848 - 79 ?;769;767;772;759
+1246;Combien font 935 - 215 ?;720;717;721;722
+1247;Combien font 547 - 66 ?;481;478;480;471
+1248;Combien font 519 - 396 ?;123;126;125;124
+1249;Combien font 968 - 317 ?;651;654;652;648
+1250;Combien font 275 - 14 ?;261;259;258;256
+1251;Combien font 765 - 17 ?;748;738;743;758
+1252;Combien font 553 - 446 ?;107;104;117;102
+1253;Combien font 547 - 287 ?;260;265;257;250
+1254;Combien font 845 - 313 ?;532;527;533;535
+1255;Combien font 642 - 456 ?;186;181;185;183
+1256;Combien font 893 - 345 ?;548;551;543;546
+1257;Combien font 950 - 270 ?;680;679;683;681
+1258;Combien font 241 - 154 ?;87;88;90;97
+1259;Combien font 749 - 439 ?;310;311;320;300
+1260;Combien font 878 - 389 ?;489;499;491;492
+1261;Combien font 5 x 1 ?;5;2;6;4
+1262;Combien font 9 x 4 ?;36;37;46;26
+1263;Combien font 9 x 5 ?;45;35;55;43
+1264;Combien font 10 x 1 ?;10;15;5;12
+1265;Combien font 10 x 3 ?;30;28;32;31
+1266;Combien font 9 x 3 ?;27;32;30;25
+1267;Combien font 9 x 6 ?;54;44;52;51
+1268;Combien font 4 x 9 ?;36;41;35;46
+1269;Combien font 10 x 9 ?;90;92;95;87
+1270;Combien font 2 x 8 ?;16;19;11;26
+1271;Combien font 9 x 7 ?;63;68;61;60
+1272;Combien font 6 x 1 ?;6;3;7;4
+1273;Combien font 5 x 7 ?;35;38;25;32
+1274;Combien font 3 x 10 ?;30;32;20;27
+1275;Combien font 10 x 2 ?;20;17;18;10
+1276;Combien font 9 x 1 ?;9;6;12;7
+1277;Combien font 6 x 2 ?;12;7;17;13
+1278;Combien font 4 x 6 ?;24;27;14;25
+1279;Combien font 8 x 5 ?;40;43;42;50
+1280;Combien font 3 x 3 ?;9;19;4;14
+1281;Combien font 5 x 8 ?;40;42;50;30
+1282;Combien font 6 x 10 ?;60;70;61;50
+1283;Combien font 7 x 10 ?;70;67;80;60
+1284;Combien font 3 x 2 ?;6;7;16;1
+1285;Combien font 5 x 2 ?;10;20;7;5
+1286;Combien font 3 x 4 ?;12;2;11;22
+1287;Combien font 5 x 6 ?;30;29;40;35
+1288;Combien font 4 x 5 ?;20;30;19;23
+1289;Combien font 3 x 1 ?;3;5;1;4
+1290;Combien font 8 x 3 ?;24;27;26;34
+1291;Combien font 7 x 2 ?;14;16;4;24
+1292;Combien font 9 x 9 ?;81;78;83;76
+1293;Combien font 2 x 4 ?;8;11;7;3
+1294;Combien font 6 x 7 ?;42;40;45;39
+1295;Combien font 2 x 9 ?;18;20;17;21
+1296;Combien font 5 x 5 ?;25;27;24;35
+1297;Combien font 8 x 10 ?;80;79;90;82
+1298;Combien font 2 x 2 ?;4;9;6;2
+1299;Combien font 4 x 1 ?;4;3;7;5
+1300;Combien font 8 x 8 ?;64;74;61;65
+1301;Quel est le double de 29 ?;58;59;48;57
+1302;Quel est le double de 20 ?;40;45;30;35
+1303;Quel est le double de 2 ?;4;2;5;9
+1304;Quel est le double de 12 ?;24;14;25;21
+1305;Quel est le double de 8 ?;16;17;13;6
+1306;Quel est le double de 40 ?;80;78;79;90
+1307;Quel est le double de 13 ?;26;36;31;27
+1308;Quel est le double de 26 ?;52;62;57;51
+1309;Quel est le double de 31 ?;62;60;67;61
+1310;Quel est le double de 14 ?;28;18;29;30
+1311;Quelle est la moitié de 82 ?;41;51;46;42
+1312;Quelle est la moitié de 58 ?;29;24;28;39
+1313;Quelle est la moitié de 38 ?;19;9;22;14
+1314;Quelle est la moitié de 14 ?;7;12;5;8
+1315;Quelle est la moitié de 26 ?;13;15;14;8
+1316;Quelle est la moitié de 64 ?;32;33;42;37
+1317;Quelle est la moitié de 18 ?;9;4;11;12
+1318;Quelle est la moitié de 100 ?;50;40;48;55
+1319;Quelle est la moitié de 28 ?;14;17;13;19
+1320;Quelle est la moitié de 50 ?;25;35;30;27
+1321;Quel est le quart de 28 ?;7;4;6;10
+1322;Quel est le quart de 20 ?;5;3;6;4
+1323;Quelle est la moitié de 34 ?;17;12;7;20
+1324;Quelle est la moitié de 26 ?;13;23;14;18
+1325;Quelle est la moitié de 8 ?;4;7;2;14
+1326;Quel est le quart de 40 ?;10;11;7;9
+1327;Quelle est la moitié de 30 ?;15;17;18;25
+1328;Quelle est la moitié de 18 ?;9;19;14;7
+1329;Quel est le quart de 8 ?;2;5;7;12
+1330;Quel est le quart de 12 ?;3;13;4;5
+1331;Quel est le quart de 16 ?;4;3;7;5
+1332;Quelle est la moitié de 10 ?;5;7;6;8
+1333;Quelle est la moitié de 32 ?;16;6;14;19
+1334;Quelle est la moitié de 12 ?;6;11;8;4
+1335;Quelle est la moitié de 24 ?;12;15;22;7
+1336;Quel nombre est le plus grand : 118 ou 162 ?;162;118;;
+1337;Quel nombre est le plus grand : 508 ou 344 ?;508;344;;
+1338;Quel nombre est le plus grand : 806 ou 165 ?;806;165;;
+1339;Quel nombre est le plus grand : 687 ou 207 ?;687;207;;
+1340;Quel nombre est le plus grand : 988 ou 138 ?;988;138;;
+1341;Quel nombre est le plus grand : 946 ou 539 ?;946;539;;
+1342;Quel nombre est le plus grand : 973 ou 677 ?;973;677;;
+1343;Quel nombre est le plus grand : 580 ou 958 ?;958;580;;
+1344;Quel nombre est le plus grand : 966 ou 203 ?;966;203;;
+1345;Quel nombre est le plus grand : 856 ou 968 ?;968;856;;
+1346;Quel nombre est le plus grand : 352 ou 490 ?;490;352;;
+1347;Quel nombre est le plus grand : 877 ou 347 ?;877;347;;
+1348;Quel nombre est le plus grand : 448 ou 705 ?;705;448;;
+1349;Quel nombre est le plus grand : 180 ou 880 ?;880;180;;
+1350;Quel nombre est le plus grand : 787 ou 916 ?;916;787;;
+1351;Quel nombre est le plus petit : 727 ou 977 ?;727;977;;
+1352;Quel nombre est le plus petit : 431 ou 160 ?;160;431;;
+1353;Quel nombre est le plus petit : 368 ou 951 ?;368;951;;
+1354;Quel nombre est le plus petit : 312 ou 249 ?;249;312;;
+1355;Quel nombre est le plus petit : 764 ou 495 ?;495;764;;
+1356;Quel nombre est le plus petit : 145 ou 439 ?;145;439;;
+1357;Quel nombre est le plus petit : 699 ou 149 ?;149;699;;
+1358;Quel nombre est le plus petit : 366 ou 575 ?;366;575;;
+1359;Quel nombre est le plus petit : 339 ou 465 ?;339;465;;
+1360;Quel nombre est le plus petit : 315 ou 435 ?;315;435;;
+1361;Tu as 20 euros et tu achètes un objet à 4 euros. Combien te reste-t-il ?;16;6;14;26
+1362;Tu as 10 euros et tu achètes un objet à 7 euros. Combien te reste-t-il ?;3;8;13;6
+1363;Tu as 50 euros et tu achètes un objet à 7 euros. Combien te reste-t-il ?;43;38;53;45
+1364;Tu as 40 euros et tu achètes un objet à 8 euros. Combien te reste-t-il ?;32;37;35;34
+1365;Tu as 40 euros et tu achètes un objet à 4 euros. Combien te reste-t-il ?;36;34;33;39
+1366;Tu as 40 euros et tu achètes un objet à 9 euros. Combien te reste-t-il ?;31;28;26;34
+1367;Tu as 30 euros et tu achètes un objet à 6 euros. Combien te reste-t-il ?;24;19;27;23
+1368;Tu as 20 euros et tu achètes un objet à 6 euros. Combien te reste-t-il ?;14;13;15;16
+1369;Tu as 40 euros et tu achètes un objet à 2 euros. Combien te reste-t-il ?;38;28;33;43
+1370;Tu as 40 euros et tu achètes un objet à 1 euros. Combien te reste-t-il ?;39;36;38;41
+1371;Tu as 10 euros et tu achètes un objet à 4 euros. Combien te reste-t-il ?;6;5;7;3
+1372;Tu as 10 euros et tu achètes un objet à 9 euros. Combien te reste-t-il ?;1;11;2;6
+1373;Tu as 30 euros et tu achètes un objet à 1 euros. Combien te reste-t-il ?;29;39;34;26
+1374;Tu as 50 euros et tu achètes un objet à 8 euros. Combien te reste-t-il ?;42;41;47;44
+1375;Tu as 30 euros et tu achètes un objet à 7 euros. Combien te reste-t-il ?;23;26;18;33
+1376;Combien faut-il ajouter à 60 pour obtenir 100 ?;40;50;45;38
+1377;Combien faut-il ajouter à 90 pour obtenir 100 ?;10;13;11;5
+1378;Combien faut-il ajouter à 70 pour obtenir 100 ?;30;33;40;32
+1379;Combien faut-il ajouter à 30 pour obtenir 100 ?;70;73;75;65
+1380;Combien faut-il ajouter à 20 pour obtenir 100 ?;80;75;90;79
+1381;Combien faut-il ajouter à 40 pour obtenir 100 ?;60;70;58;63
+1382;Combien faut-il ajouter à 10 pour obtenir 100 ?;90;88;80;100
+1383;Combien faut-il ajouter à 50 pour obtenir 100 ?;50;60;51;45
+1384;Combien faut-il ajouter à 0 pour obtenir 100 ?;100;105;95;98
+1385;Combien faut-il ajouter à 80 pour obtenir 100 ?;20;30;19;22
+1386;Ana a 14 pommes. Il/elle en reçoit 33 de plus. Combien Ana a-t-il/elle de pommes maintenant ?;47;57;45;49
+1387;Lou a 51 billes. Il/elle en reçoit 35 de plus. Combien Lou a-t-il/elle de billes maintenant ?;86;96;76;91
+1388;Lou a 50 ballons. Il/elle en reçoit 17 de plus. Combien Lou a-t-il/elle de ballons maintenant ?;67;69;57;72
+1389;Ana a 42 pommes. Il/elle en reçoit 14 de plus. Combien Ana a-t-il/elle de pommes maintenant ?;56;46;59;51
+1390;Nina a 36 images. Il/elle en reçoit 15 de plus. Combien Nina a-t-il/elle d'images maintenant ?;51;56;48;49
+1391;Ana a 36 ballons. Il/elle en reçoit 8 de plus. Combien Ana a-t-il/elle de ballons maintenant ?;44;47;49;34
+1392;Mia a 35 ballons. Il/elle en reçoit 39 de plus. Combien Mia a-t-il/elle de ballons maintenant ?;74;73;77;76
+1393;Leo a 14 images. Il/elle en reçoit 21 de plus. Combien Leo a-t-il/elle d'images maintenant ?;35;38;33;37
+1394;Ana a 31 gâteaux. Il/elle en reçoit 29 de plus. Combien Ana a-t-il/elle de gâteaux maintenant ?;60;61;70;55
+1395;Leo a 40 jouets. Il/elle en reçoit 36 de plus. Combien Leo a-t-il/elle de jouets maintenant ?;76;86;74;81
+1396;Nina a 79 bonbons. Il/elle en donne 14. Combien lui en reste-t-il ?;65;68;63;60
+1397;Mia a 70 crayons. Il/elle en donne 19. Combien lui en reste-t-il ?;51;49;46;53
+1398;Noa a 63 crayons. Il/elle en donne 19. Combien lui en reste-t-il ?;44;54;45;43
+1399;Leo a 71 ballons. Il/elle en donne 16. Combien lui en reste-t-il ?;55;50;58;65
+1400;Nina a 70 crayons. Il/elle en donne 13. Combien lui en reste-t-il ?;57;56;52;62
+3000;Combien font 35 + 296 ?;331;330;326;338
+3001;Combien font 167 + 372 ?;539;531;543;547
+3002;Combien font 259 + 190 ?;449;443;451;455
+3003;Combien font 72 + 592 ?;664;661;669;656
+3004;Combien font 283 + 148 ?;431;430;426;436
+3005;Combien font 56 + 373 ?;429;437;430;425
+3006;Combien font 89 + 304 ?;393;395;389;386
+3007;Combien font 369 + 355 ?;724;721;718;716
+3008;Combien font 538 + 279 ?;817;810;816;824
+3009;Combien font 504 + 585 ?;1089;1085;1093;1097
+3010;Combien font 42 + 111 ?;153;161;159;156
+3011;Combien font 31 + 37 ?;68;71;60;72
+3012;Combien font 164 + 167 ?;331;325;328;334
+3013;Combien font 491 + 134 ?;625;633;619;622
+3014;Combien font 26 + 315 ?;341;338;334;339
+3015;Combien font 368 + 133 ?;501;503;509;504
+3016;Combien font 288 + 548 ?;836;828;843;831
+3017;Combien font 566 + 282 ?;848;841;840;855
+3018;Combien font 63 + 498 ?;561;555;563;553
+3019;Combien font 319 + 91 ?;410;411;412;416
+3020;Combien font 123 + 334 ?;457;455;456;449
+3021;Combien font 87 + 82 ?;169;173;163;174
+3022;Combien font 576 + 494 ?;1070;1078;1071;1064
+3023;Combien font 597 + 203 ?;800;803;794;796
+3024;Combien font 380 + 428 ?;808;812;803;802
+3025;Combien font 595 + 310 ?;905;899;904;908
+3026;Combien font 401 + 562 ?;963;957;961;969
+3027;Combien font 317 + 252 ?;569;566;574;564
+3028;Combien font 452 + 233 ?;685;679;688;689
+3029;Combien font 515 + 528 ?;1043;1048;1040;1051
+3030;Combien font 517 + 242 ?;759;767;764;751
+3031;Combien font 111 + 492 ?;603;608;601;604
+3032;Combien font 460 + 259 ?;719;718;721;714
+3033;Combien font 475 + 82 ?;557;553;562;549
+3034;Combien font 293 + 121 ?;414;415;406;419
+3035;Combien font 224 + 111 ?;335;339;331;327
+3036;Combien font 40 + 127 ?;167;175;174;170
+3037;Combien font 14 + 506 ?;520;524;516;523
+3038;Combien font 579 + 159 ?;738;739;737;732
+3039;Combien font 202 + 338 ?;540;548;542;535
+3040;Combien font 438 + 548 ?;986;981;992;979
+3041;Combien font 331 + 537 ?;868;873;871;862
+3042;Combien font 333 + 598 ?;931;927;932;938
+3043;Combien font 455 + 86 ?;541;537;535;542
+3044;Combien font 78 + 323 ?;401;393;399;398
+3045;Combien font 59 + 38 ?;97;101;100;95
+3046;Combien font 408 + 130 ?;538;541;533;537
+3047;Combien font 192 + 565 ?;757;759;752;754
+3048;Combien font 272 + 151 ?;423;422;429;419
+3049;Combien font 354 + 364 ?;718;722;711;726
+3050;Combien font 97 + 301 ?;398;399;396;390
+3051;Combien font 63 + 214 ?;277;285;278;279
+3052;Combien font 34 + 397 ?;431;427;423;426
+3053;Combien font 31 + 154 ?;185;193;179;177
+3054;Combien font 464 + 113 ?;577;582;574;570
+3055;Combien font 377 + 348 ?;725;717;722;720
+3056;Combien font 559 + 591 ?;1150;1142;1151;1149
+3057;Combien font 287 + 184 ?;471;479;475;465
+3058;Combien font 86 + 592 ?;678;680;671;670
+3059;Combien font 482 + 401 ?;883;881;876;880
+3060;Combien font 291 + 156 ?;447;453;450;449
+3061;Combien font 449 + 208 ?;657;660;649;651
+3062;Combien font 348 + 516 ?;864;857;861;868
+3063;Combien font 524 + 583 ?;1107;1103;1105;1114
+3064;Combien font 251 + 531 ?;782;776;780;784
+3065;Combien font 546 + 350 ?;896;888;895;901
+3066;Combien font 200 + 217 ?;417;410;412;419
+3067;Combien font 270 + 56 ?;326;321;333;331
+3068;Combien font 105 + 19 ?;124;125;126;117
+3069;Combien font 528 + 406 ?;934;926;936;928
+3070;Combien font 221 + 341 ?;562;569;556;557
+3071;Combien font 130 + 223 ?;353;347;346;348
+3072;Combien font 471 + 489 ?;960;957;964;962
+3073;Combien font 202 + 395 ?;597;590;596;594
+3074;Combien font 502 + 584 ?;1086;1094;1088;1090
+3075;Combien font 368 + 340 ?;708;715;700;706
+3076;Combien font 492 + 11 ?;503;504;498;496
+3077;Combien font 411 + 129 ?;540;544;535;547
+3078;Combien font 470 + 307 ?;777;773;781;779
+3079;Combien font 438 + 283 ?;721;714;722;728
+3080;Combien font 59 + 449 ?;508;500;510;509
+3081;Combien font 390 + 218 ?;608;615;606;600
+3082;Combien font 280 + 37 ?;317;316;320;325
+3083;Combien font 243 + 112 ?;355;356;354;360
+3084;Combien font 503 + 473 ?;976;981;970;980
+3085;Combien font 505 + 519 ?;1024;1016;1026;1030
+3086;Combien font 120 + 279 ?;399;393;392;404
+3087;Combien font 231 + 77 ?;308;304;312;306
+3088;Combien font 210 + 397 ?;607;610;606;609
+3089;Combien font 311 + 127 ?;438;431;440;444
+3090;Combien font 219 + 583 ?;802;801;809;807
+3091;Combien font 384 + 191 ?;575;572;578;579
+3092;Combien font 359 + 257 ?;616;621;613;623
+3093;Combien font 305 + 182 ?;487;495;491;482
+3094;Combien font 69 + 185 ?;254;257;261;251
+3095;Combien font 408 + 115 ?;523;518;527;517
+3096;Combien font 70 + 344 ?;414;420;416;413
+3097;Combien font 328 + 76 ?;404;398;408;405
+3098;Combien font 212 + 397 ?;609;616;615;611
+3099;Combien font 242 + 30 ?;272;279;265;275
+3100;Combien font 537 + 168 ?;705;697;707;699
+3101;Combien font 206 + 424 ?;630;624;632;637
+3102;Combien font 188 + 167 ?;355;362;356;351
+3103;Combien font 22 + 439 ?;461;464;453;455
+3104;Combien font 571 + 453 ?;1024;1029;1019;1027
+3105;Combien font 316 + 331 ?;647;654;641;644
+3106;Combien font 558 + 368 ?;926;919;929;923
+3107;Combien font 490 + 572 ?;1062;1067;1059;1070
+3108;Combien font 246 + 407 ?;653;656;649;651
+3109;Combien font 21 + 537 ?;558;561;554;566
+3110;Combien font 768 - 69 ?;699;697;703;702
+3111;Combien font 308 - 95 ?;213;217;205;209
+3112;Combien font 379 - 49 ?;330;338;333;327
+3113;Combien font 574 - 103 ?;471;473;464;468
+3114;Combien font 596 - 190 ?;406;410;412;414
+3115;Combien font 445 - 279 ?;166;158;167;164
+3116;Combien font 291 - 191 ?;100;101;92;104
+3117;Combien font 976 - 700 ?;276;284;270;283
+3118;Combien font 791 - 640 ?;151;146;150;155
+3119;Combien font 144 - 17 ?;127;120;134;119
+3120;Combien font 464 - 64 ?;400;392;394;396
+3121;Combien font 658 - 135 ?;523;519;521;526
+3122;Combien font 588 - 171 ?;417;409;420;415
+3123;Combien font 479 - 442 ?;37;35;39;32
+3124;Combien font 800 - 32 ?;768;772;762;770
+3125;Combien font 993 - 191 ?;802;809;807;801
+3126;Combien font 995 - 464 ?;531;533;529;535
+3127;Combien font 698 - 153 ?;545;542;544;553
+3128;Combien font 562 - 195 ?;367;369;366;371
+3129;Combien font 917 - 336 ?;581;582;579;589
+3130;Combien font 993 - 722 ?;271;276;264;269
+3131;Combien font 145 - 86 ?;59;67;57;51
+3132;Combien font 888 - 747 ?;141;143;145;136
+3133;Combien font 905 - 732 ?;173;174;177;170
+3134;Combien font 690 - 416 ?;274;270;268;281
+3135;Combien font 540 - 5 ?;535;541;528;533
+3136;Combien font 195 - 24 ?;171;176;178;177
+3137;Combien font 579 - 327 ?;252;245;246;260
+3138;Combien font 579 - 391 ?;188;191;192;190
+3139;Combien font 985 - 673 ?;312;309;305;313
+3140;Combien font 866 - 459 ?;407;402;411;406
+3141;Combien font 437 - 266 ?;171;172;166;179
+3142;Combien font 586 - 21 ?;565;567;573;563
+3143;Combien font 908 - 394 ?;514;507;518;509
+3144;Combien font 820 - 596 ?;224;225;219;226
+3145;Combien font 491 - 356 ?;135;127;128;140
+3146;Combien font 395 - 45 ?;350;352;358;354
+3147;Combien font 617 - 197 ?;420;419;427;412
+3148;Combien font 658 - 563 ?;95;94;92;101
+3149;Combien font 667 - 663 ?;4;12;8;3
+3150;Combien font 899 - 158 ?;741;739;743;734
+3151;Combien font 679 - 9 ?;670;668;662;664
+3152;Combien font 444 - 314 ?;130;137;135;129
+3153;Combien font 314 - 232 ?;82;80;88;83
+3154;Combien font 625 - 4 ?;621;624;622;625
+3155;Combien font 681 - 633 ?;48;47;46;44
+3156;Combien font 150 - 53 ?;97;99;100;91
+3157;Combien font 918 - 195 ?;723;715;719;731
+3158;Combien font 800 - 461 ?;339;337;343;331
+3159;Combien font 980 - 836 ?;144;150;138;137
+3160;Combien font 654 - 478 ?;176;171;172;174
+3161;Combien font 300 - 72 ?;228;232;233;226
+3162;Combien font 194 - 15 ?;179;171;183;187
+3163;Combien font 366 - 95 ?;271;265;272;273
+3164;Combien font 671 - 347 ?;324;327;317;320
+3165;Combien font 570 - 269 ?;301;294;309;307
+3166;Combien font 115 - 87 ?;28;31;35;23
+3167;Combien font 372 - 66 ?;306;301;300;298
+3168;Combien font 203 - 201 ?;2;5;0;9
+3169;Combien font 416 - 22 ?;394;400;391;393
+3170;Combien font 519 - 380 ?;139;134;142;133
+3171;Combien font 365 - 144 ?;221;218;215;214
+3172;Combien font 707 - 411 ?;296;290;293;292
+3173;Combien font 956 - 619 ?;337;336;341;345
+3174;Combien font 188 - 51 ?;137;139;140;136
+3175;Combien font 494 - 317 ?;177;172;173;171
+3176;Combien font 955 - 412 ?;543;547;536;537
+3177;Combien font 304 - 241 ?;63;64;69;65
+3178;Combien font 607 - 36 ?;571;569;579;572
+3179;Combien font 756 - 108 ?;648;649;645;647
+3180;Combien font 213 - 75 ?;138;133;142;135
+3181;Combien font 879 - 3 ?;876;872;873;875
+3182;Combien font 673 - 555 ?;118;125;124;112
+3183;Combien font 679 - 355 ?;324;325;332;326
+3184;Combien font 376 - 303 ?;73;81;75;67
+3185;Combien font 513 - 293 ?;220;228;217;214
+3186;Combien font 813 - 635 ?;178;179;184;176
+3187;Combien font 306 - 50 ?;256;264;263;259
+3188;Combien font 102 - 45 ?;57;51;52;63
+3189;Combien font 335 - 90 ?;245;246;243;239
+3190;Combien font 414 - 90 ?;324;318;332;322
+3191;Combien font 601 - 241 ?;360;352;363;365
+3192;Combien font 950 - 643 ?;307;309;303;310
+3193;Combien font 814 - 495 ?;319;327;313;311
+3194;Combien font 410 - 306 ?;104;105;99;100
+3195;Combien font 262 - 211 ?;51;47;53;59
+3196;Combien font 553 - 60 ?;493;501;489;498
+3197;Combien font 675 - 73 ?;602;601;608;595
+3198;Combien font 685 - 545 ?;140;138;132;134
+3199;Combien font 981 - 714 ?;267;266;275;264
+3200;Combien font 918 - 35 ?;883;880;891;889
+3201;Combien font 191 - 136 ?;55;52;61;51
+3202;Combien font 897 - 405 ?;492;498;488;484
+3203;Combien font 324 - 80 ?;244;252;243;239
+3204;Combien font 323 - 137 ?;186;183;193;194
+3205;Combien font 998 - 795 ?;203;201;196;199
+3206;Combien font 923 - 685 ?;238;237;235;232
+3207;Combien font 889 - 328 ?;561;556;553;562
+3208;Combien font 966 - 852 ?;114;117;118;115
+3209;Combien font 225 - 36 ?;189;190;196;194
+3210;Combien font 552 - 169 ?;383;376;381;387
+3211;Combien font 931 - 435 ?;496;501;492;495
+3212;Combien font 104 - 87 ?;17;24;16;25
+3213;Combien font 418 - 383 ?;35;41;33;34
+3214;Combien font 447 - 341 ?;106;105;111;112
+3215;Combien font 425 - 366 ?;59;67;51;62
+3216;Combien font 420 - 15 ?;405;411;403;397
+3217;Combien font 177 - 14 ?;163;161;167;155
+3218;Combien font 118 - 107 ?;11;5;3;9
+3219;Combien font 758 - 109 ?;649;642;646;650
+3220;Quel est le résultat de 9 x 5 ?;45;46;49;53
+3221;Quel est le résultat de 10 x 4 ?;40;37;36;34
+3222;Combien font 1 x 5 ?;5;9;8;11
+3223;Combien font 10 x 1 ?;10;6;15;5
+3224;Quel est le résultat de 9 x 10 ?;90;87;82;85
+3225;Quel est le résultat de 5 x 6 ?;30;35;38;39
+3226;Quel est le résultat de 2 x 7 ?;14;15;13;6
+3227;Quel est le résultat de 5 x 1 ?;5;9;7;12
+3228;Combien font 5 x 2 ?;10;4;11;3
+3229;Combien font 6 x 10 ?;60;58;65;67
+3230;Quel est le résultat de 10 x 6 ?;60;51;54;53
+3231;Quel est le résultat de 5 x 10 ?;50;51;48;58
+3232;Quel est le résultat de 6 x 5 ?;30;38;22;39
+3233;Quel est le résultat de 1 x 5 ?;5;3;2;1
+3234;Combien font 5 x 5 ?;25;21;28;17
+3235;Combien font 0 x 2 ?;0;7;9;8
+3236;Combien font 2 x 4 ?;8;9;13;5
+3237;Combien font 5 x 6 ?;30;21;35;32
+3238;Quel est le résultat de 10 x 8 ?;80;76;75;78
+3239;Quel est le résultat de 2 x 9 ?;18;26;11;15
+3240;Combien font 2 x 1 ?;2;0;3;1
+3241;Quel est le résultat de 4 x 5 ?;20;19;26;27
+3242;Quel est le résultat de 2 x 3 ?;6;3;0;16
+3243;Quel est le résultat de 4 x 2 ?;8;13;4;16
+3244;Quel est le résultat de 9 x 2 ?;18;19;15;20
+3245;Combien font 5 x 8 ?;40;49;33;50
+3246;Combien font 10 x 10 ?;100;93;96;103
+3247;Combien font 2 x 6 ?;12;22;18;16
+3248;Combien font 8 x 5 ?;40;37;35;43
+3249;Combien font 4 x 10 ?;40;30;48;44
+3250;Combien font 2 x 2 ?;4;3;14;1
+3251;Quel est le résultat de 8 x 5 ?;40;38;41;50
+3252;Combien font 10 x 7 ?;70;67;62;77
+3253;Combien font 3 x 5 ?;15;13;20;16
+3254;Quel est le résultat de 5 x 3 ?;15;7;19;5
+3255;Quel est le résultat de 2 x 4 ?;8;7;17;18
+3256;Quel est le résultat de 2 x 6 ?;12;8;3;19
+3257;Combien font 9 x 2 ?;18;8;11;12
+3258;Combien font 3 x 2 ?;6;12;4;0
+3259;Combien font 7 x 2 ?;14;24;19;12
+3260;Combien font 10 x 6 ?;60;68;52;62
+3261;Quel est le résultat de 5 x 5 ?;25;15;27;28
+3262;Combien font 1 x 10 ?;10;2;13;11
+3263;Quel est le résultat de 5 x 7 ?;35;37;45;40
+3264;Quel est le résultat de 5 x 2 ?;10;0;19;18
+3265;Quel est le résultat de 2 x 8 ?;16;12;18;24
+3266;Quel est le résultat de 1 x 10 ?;10;20;8;17
+3267;Combien font 7 x 5 ?;35;40;41;29
+3268;Combien font 10 x 4 ?;40;34;41;32
+3269;Combien font 4 x 5 ?;20;10;14;24
+3270;Combien font 2 x 3 ?;6;7;13;2
+3271;Combien font 8 x 10 ?;80;86;88;87
+3272;Quel est le résultat de 3 x 5 ?;15;21;8;16
+3273;Quel est le résultat de 4 x 10 ?;40;38;48;43
+3274;Combien font 5 x 4 ?;20;29;16;19
+3275;Quel est le résultat de 1 x 2 ?;2;8;7;12
+3276;Quel est le résultat de 10 x 5 ?;50;54;43;42
+3277;Combien font 10 x 9 ?;90;83;98;87
+3278;Combien font 2 x 8 ?;16;26;11;25
+3279;Quel est le résultat de 2 x 5 ?;10;7;0;5
+3280;Combien font 6 x 5 ?;30;32;20;21
+3281;Quel est le résultat de 5 x 9 ?;45;53;41;50
+3282;Combien font 9 x 5 ?;45;54;42;37
+3283;Combien font 7 x 10 ?;70;63;68;79
+3284;Quel est le résultat de 2 x 2 ?;4;6;1;9
+3285;Combien font 10 x 5 ?;50;47;46;40
+3286;Combien font 5 x 1 ?;5;7;0;3
+3287;Quel est le résultat de 7 x 5 ?;35;40;30;33
+3288;Quel est le résultat de 2 x 1 ?;2;9;7;1
+3289;Quel est le résultat de 6 x 2 ?;12;4;10;11
+3290;Combien font 5 x 10 ?;50;55;46;53
+3291;Combien font 0 x 10 ?;0;4;10;7
+3292;Quel est le résultat de 7 x 10 ?;70;67;64;66
+3293;Combien font 2 x 0 ?;0;8;10;7
+3294;Quel est le résultat de 6 x 10 ?;60;70;63;58
+3295;Combien font 2 x 7 ?;14;16;22;5
+3296;Quel est le résultat de 5 x 4 ?;20;30;13;24
+3297;Combien font 3 x 10 ?;30;39;20;22
+3298;Quel est le résultat de 3 x 10 ?;30;39;23;40
+3299;Quel est le résultat de 10 x 3 ?;30;40;28;32
+3300;Combien font 10 x 0 ?;0;7;3;2
+3301;Combien font 8 x 2 ?;16;17;7;20
+3302;Combien font 5 x 0 ?;0;3;2;9
+3303;Quel est le résultat de 0 x 5 ?;0;8;5;4
+3304;Quel est le résultat de 10 x 7 ?;70;80;62;67
+3305;Quel est le résultat de 0 x 10 ?;0;3;2;5
+3306;Quel est le résultat de 2 x 0 ?;0;1;3;2
+3307;Quel est le résultat de 5 x 0 ?;0;1;3;5
+3308;Quel est le résultat de 8 x 10 ?;80;86;74;84
+3309;Quel est le résultat de 3 x 2 ?;6;7;9;0
+3310;Quel est le tiers de 66 ?;22;21;19;24
+3311;Quelle est la moitié de 126 ?;63;68;62;59
+3312;Quel est le quart de 16 ?;4;2;6;1
+3313;Quelle est la moitié de 124 ?;62;70;57;64
+3314;Quel est le tiers de 57 ?;19;21;18;14
+3315;Quel est le quart de 56 ?;14;8;11;7
+3316;Quel est le tiers de 87 ?;29;21;23;27
+3317;Quel est le tiers de 60 ?;20;15;12;27
+3318;Quel est le tiers de 93 ?;31;23;38;32
+3319;Quel est le tiers de 54 ?;18;10;15;19
+3320;Quel est le quart de 84 ?;21;14;25;19
+3321;Quelle est la moitié de 158 ?;79;85;87;78
+3322;Quelle est la moitié de 148 ?;74;80;82;67
+3323;Quelle est la moitié de 98 ?;49;51;52;44
+3324;Quel est le quart de 132 ?;33;39;38;30
+3325;Quel est le tiers de 51 ?;17;25;12;20
+3326;Quel est le tiers de 90 ?;30;23;28;22
+3327;Quel est le tiers de 72 ?;24;19;22;20
+3328;Quelle est la moitié de 154 ?;77;82;81;73
+3329;Quel est le tiers de 33 ?;11;17;6;15
+3330;Quel est le tiers de 42 ?;14;13;7;16
+3331;Quel est le quart de 96 ?;24;20;16;19
+3332;Quelle est la moitié de 24 ?;12;18;11;20
+3333;Quel est le tiers de 75 ?;25;28;24;27
+3334;Quelle est la moitié de 34 ?;17;21;9;22
+3335;Quelle est la moitié de 168 ?;84;80;77;85
+3336;Quel est le quart de 192 ?;48;41;43;46
+3337;Quel est le quart de 76 ?;19;16;15;12
+3338;Quel est le quart de 196 ?;49;42;41;45
+3339;Quelle est la moitié de 122 ?;61;60;57;66
+3340;Quel est le quart de 88 ?;22;16;20;21
+3341;Quelle est la moitié de 150 ?;75;76;82;83
+3342;Quel est le tiers de 84 ?;28;20;33;34
+3343;Quel est le quart de 92 ?;23;25;24;30
+3344;Quelle est la moitié de 152 ?;76;78;79;74
+3345;Quelle est la moitié de 22 ?;11;12;3;9
+3346;Quel est le quart de 12 ?;3;2;0;5
+3347;Quelle est la moitié de 12 ?;6;1;7;10
+3348;Quel est le quart de 68 ?;17;18;20;25
+3349;Quelle est la moitié de 90 ?;45;46;48;50
+3350;Quel est le quart de 124 ?;31;38;36;27
+3351;Quel est le tiers de 39 ?;13;16;6;12
+3352;Quelle est la moitié de 194 ?;97;91;94;90
+3353;Quel est le tiers de 24 ?;8;1;7;13
+3354;Quelle est la moitié de 116 ?;58;57;62;64
+3355;Quel est le quart de 168 ?;42;35;49;45
+3356;Quel est le quart de 64 ?;16;15;8;14
+3357;Quelle est la moitié de 100 ?;50;53;52;44
+3358;Quel est le quart de 36 ?;9;10;3;11
+3359;Quelle est la moitié de 54 ?;27;25;19;30
+3360;Quelle est la moitié de 38 ?;19;24;11;16
+3361;Quel est le tiers de 63 ?;21;14;16;25
+3362;Quel est le tiers de 78 ?;26;24;23;31
+3363;Quel est le tiers de 12 ?;4;5;6;3
+3364;Quel est le tiers de 48 ?;16;23;24;12
+3365;Quel est le quart de 72 ?;18;10;12;26
+3366;Quel est le quart de 172 ?;43;38;44;41
+3367;Quelle est la moitié de 62 ?;31;36;25;28
+3368;Quelle est la moitié de 6 ?;3;9;1;10
+3369;Quel est le quart de 100 ?;25;18;23;27
+3370;Quel nombre est le plus grand : 535 ou 382 ?;535;382;;
+3371;Quel nombre est le plus grand : 947 ou 586 ?;947;586;;
+3372;Quel nombre est le plus petit : 901 ou 127 ?;127;901;;
+3373;Quel nombre est le plus grand : 831 ou 537 ?;831;537;;
+3374;Quel nombre est le plus petit : 904 ou 165 ?;165;904;;
+3375;Quel nombre est le plus petit : 639 ou 487 ?;487;639;;
+3376;Quel nombre est le plus petit : 922 ou 189 ?;189;922;;
+3377;Quel nombre est le plus petit : 167 ou 936 ?;167;936;;
+3378;Quel nombre est le plus petit : 347 ou 954 ?;347;954;;
+3379;Quel nombre est le plus grand : 104 ou 303 ?;303;104;;
+3380;Quel nombre est le plus grand : 931 ou 205 ?;931;205;;
+3381;Quel nombre est le plus grand : 811 ou 317 ?;811;317;;
+3382;Quel nombre est le plus petit : 242 ou 951 ?;242;951;;
+3383;Quel nombre est le plus petit : 634 ou 119 ?;119;634;;
+3384;Quel nombre est le plus grand : 557 ou 730 ?;730;557;;
+3385;Quel nombre est le plus grand : 251 ou 900 ?;900;251;;
+3386;Quel nombre est le plus grand : 831 ou 618 ?;831;618;;
+3387;Quel nombre est le plus petit : 742 ou 365 ?;365;742;;
+3388;Quel nombre est le plus grand : 345 ou 939 ?;939;345;;
+3389;Quel nombre est le plus grand : 791 ou 387 ?;791;387;;
+3390;Quel nombre est le plus petit : 980 ou 403 ?;403;980;;
+3391;Quel nombre est le plus petit : 928 ou 630 ?;630;928;;
+3392;Quel nombre est le plus grand : 738 ou 888 ?;888;738;;
+3393;Quel nombre est le plus grand : 613 ou 754 ?;754;613;;
+3394;Quel nombre est le plus petit : 337 ou 284 ?;284;337;;
+3395;Quel nombre est le plus grand : 293 ou 419 ?;419;293;;
+3396;Quel nombre est le plus grand : 226 ou 692 ?;692;226;;
+3397;Quel nombre est le plus petit : 772 ou 946 ?;772;946;;
+3398;Quel nombre est le plus grand : 763 ou 306 ?;763;306;;
+3399;Quel nombre est le plus grand : 967 ou 790 ?;967;790;;
+3400;Quel nombre est le plus petit : 982 ou 163 ?;163;982;;
+3401;Quel nombre est le plus petit : 878 ou 205 ?;205;878;;
+3402;Quel nombre est le plus petit : 931 ou 279 ?;279;931;;
+3403;Quel nombre est le plus grand : 365 ou 435 ?;435;365;;
+3404;Quel nombre est le plus grand : 131 ou 692 ?;692;131;;
+3405;Quel nombre est le plus grand : 867 ou 515 ?;867;515;;
+3406;Quel nombre est le plus petit : 438 ou 473 ?;438;473;;
+3407;Quel nombre est le plus grand : 843 ou 748 ?;843;748;;
+3408;Quel nombre est le plus grand : 889 ou 217 ?;889;217;;
+3409;Quel nombre est le plus grand : 937 ou 638 ?;937;638;;
+3410;Quel nombre est le plus grand : 195 ou 608 ?;608;195;;
+3411;Quel nombre est le plus petit : 361 ou 828 ?;361;828;;
+3412;Quel nombre est le plus petit : 233 ou 972 ?;233;972;;
+3413;Quel nombre est le plus petit : 583 ou 177 ?;177;583;;
+3414;Quel nombre est le plus grand : 717 ou 241 ?;717;241;;
+3415;Quel nombre est le plus petit : 519 ou 970 ?;519;970;;
+3416;Quel nombre est le plus petit : 661 ou 551 ?;551;661;;
+3417;Quel nombre est le plus grand : 462 ou 320 ?;462;320;;
+3418;Quel nombre est le plus grand : 924 ou 245 ?;924;245;;
+3419;Quel nombre est le plus grand : 153 ou 895 ?;895;153;;
+3420;Quel nombre est le plus petit : 473 ou 440 ?;440;473;;
+3421;Quel nombre est le plus petit : 233 ou 444 ?;233;444;;
+3422;Quel nombre est le plus petit : 421 ou 369 ?;369;421;;
+3423;Quel nombre est le plus petit : 866 ou 345 ?;345;866;;
+3424;Quel nombre est le plus petit : 769 ou 290 ?;290;769;;
+3425;Quel nombre est le plus grand : 511 ou 120 ?;511;120;;
+3426;Quel nombre est le plus petit : 880 ou 541 ?;541;880;;
+3427;Quel nombre est le plus petit : 136 ou 300 ?;136;300;;
+3428;Quel nombre est le plus petit : 572 ou 557 ?;557;572;;
+3429;Quel nombre est le plus grand : 298 ou 148 ?;298;148;;
+3430;Maya a 40 livres. Il/elle en achète 38 de plus puis en donne 14. Combien lui en reste-t-il ?;64;67;68;72
+3431;Jules a 20 autocollants. Il/elle en achète 16 de plus puis en donne 19. Combien lui en reste-t-il ?;17;13;19;20
+3432;Chloé a 33 pommes. Il/elle en achète 34 de plus puis en donne 6. Combien lui en reste-t-il ?;61;65;68;57
+3433;Jules a 26 cubes. Il/elle en achète 12 de plus puis en donne 20. Combien lui en reste-t-il ?;18;26;23;22
+3434;Félix a 17 autocollants. Il/elle en achète 25 de plus puis en donne 19. Combien lui en reste-t-il ?;23;21;27;22
+3435;Théo a 27 billes. Il/elle en achète 29 de plus puis en donne 38. Combien lui en reste-t-il ?;18;14;22;23
+3436;Iris a 13 bonbons. Il/elle en achète 18 de plus puis en donne 5. Combien lui en reste-t-il ?;26;31;24;30
+3437;Alice a 21 crayons. Il/elle en achète 31 de plus puis en donne 16. Combien lui en reste-t-il ?;36;30;28;29
+3438;Chloé a 12 bananes. Il/elle en achète 38 de plus puis en donne 19. Combien lui en reste-t-il ?;31;23;29;35
+3439;Alice a 16 cubes. Il/elle en achète 36 de plus puis en donne 7. Combien lui en reste-t-il ?;45;40;42;53
+3440;Hugo a 8 ballons. Il/elle en achète 6 de plus puis en donne 13. Combien lui en reste-t-il ?;1;4;7;9
+3441;Sacha a 39 autocollants. Il/elle en achète 32 de plus puis en donne 14. Combien lui en reste-t-il ?;57;58;51;54
+3442;Noa a 37 cartes. Il/elle en achète 22 de plus puis en donne 37. Combien lui en reste-t-il ?;22;21;30;25
+3443;Maya a 11 fleurs. Il/elle en achète 29 de plus puis en donne 29. Combien lui en reste-t-il ?;11;6;17;16
+3444;Jules a 21 crayons. Il/elle en achète 10 de plus puis en donne 8. Combien lui en reste-t-il ?;23;29;15;20
+3445;Emma a 16 fleurs. Il/elle en achète 21 de plus puis en donne 15. Combien lui en reste-t-il ?;22;16;29;30
+3446;Emma a 36 bonbons. Il/elle en achète 6 de plus puis en donne 1. Combien lui en reste-t-il ?;41;34;42;33
+3447;Léon a 12 ballons. Il/elle en achète 15 de plus puis en donne 20. Combien lui en reste-t-il ?;7;10;2;0
+3448;Sam a 17 images. Il/elle en achète 18 de plus puis en donne 25. Combien lui en reste-t-il ?;10;11;4;14
+3449;Maya a 11 billes. Il/elle en achète 5 de plus puis en donne 14. Combien lui en reste-t-il ?;2;5;6;9
+3450;Théo a 21 autocollants. Il/elle en achète 11 de plus puis en donne 21. Combien lui en reste-t-il ?;11;6;17;3
+3451;Ana a 5 fleurs. Il/elle en achète 9 de plus puis en donne 1. Combien lui en reste-t-il ?;13;10;18;15
+3452;Nina a 19 ballons. Il/elle en achète 36 de plus puis en donne 33. Combien lui en reste-t-il ?;22;14;29;30
+3453;Sam a 23 livres. Il/elle en achète 12 de plus puis en donne 26. Combien lui en reste-t-il ?;9;2;11;4
+3454;Léo a 8 jouets. Il/elle en achète 38 de plus puis en donne 12. Combien lui en reste-t-il ?;34;30;32;35
+3455;Iris a 15 billes. Il/elle en achète 32 de plus puis en donne 3. Combien lui en reste-t-il ?;44;50;51;46
+3456;Emma a 8 bonbons. Il/elle en achète 35 de plus puis en donne 23. Combien lui en reste-t-il ?;20;22;18;24
+3457;Hugo a 8 billes. Il/elle en achète 21 de plus puis en donne 15. Combien lui en reste-t-il ?;14;8;18;6
+3458;Maya a 17 bananes. Il/elle en achète 39 de plus puis en donne 44. Combien lui en reste-t-il ?;12;20;7;5
+3459;Nina a 8 crayons. Il/elle en achète 5 de plus puis en donne 3. Combien lui en reste-t-il ?;10;15;4;14
+3460;Iris a 24 cartes. Il/elle en achète 27 de plus puis en donne 24. Combien lui en reste-t-il ?;27;32;30;20
+3461;Yanis a 30 livres. Il/elle en achète 10 de plus puis en donne 4. Combien lui en reste-t-il ?;36;38;39;31
+3462;Zoé a 40 fleurs. Il/elle en achète 37 de plus puis en donne 31. Combien lui en reste-t-il ?;46;38;52;42
+3463;Noah a 11 gâteaux. Il/elle en achète 5 de plus puis en donne 11. Combien lui en reste-t-il ?;5;13;7;3
+3464;Jules a 9 ballons. Il/elle en achète 39 de plus puis en donne 46. Combien lui en reste-t-il ?;2;4;1;9
+3465;Nora a 15 ballons. Il/elle en achète 5 de plus puis en donne 8. Combien lui en reste-t-il ?;12;11;6;9
+3466;Alice a 31 pommes. Il/elle en achète 35 de plus puis en donne 27. Combien lui en reste-t-il ?;39;35;44;32
+3467;Nino a 9 autocollants. Il/elle en achète 36 de plus puis en donne 40. Combien lui en reste-t-il ?;5;12;7;3
+3468;Léa a 38 cartes. Il/elle en achète 27 de plus puis en donne 28. Combien lui en reste-t-il ?;37;45;38;29
+3469;Mia a 14 gâteaux. Il/elle en achète 23 de plus puis en donne 15. Combien lui en reste-t-il ?;22;20;19;14
+3470;Hugo a 24 gâteaux. Il/elle en achète 8 de plus puis en donne 6. Combien lui en reste-t-il ?;26;29;33;18
+3471;Anna a 39 livres. Il/elle en achète 5 de plus puis en donne 20. Combien lui en reste-t-il ?;24;17;31;29
+3472;Yanis a 15 bananes. Il/elle en achète 12 de plus puis en donne 17. Combien lui en reste-t-il ?;10;3;8;7
+3473;Nina a 5 gâteaux. Il/elle en achète 14 de plus puis en donne 1. Combien lui en reste-t-il ?;18;15;20;24
+3474;Milo a 10 fleurs. Il/elle en achète 30 de plus puis en donne 10. Combien lui en reste-t-il ?;30;36;26;23
+3475;Chloé a 8 cubes. Il/elle en achète 13 de plus puis en donne 2. Combien lui en reste-t-il ?;19;22;26;17
+3476;Zoé a 26 cartes. Il/elle en achète 35 de plus puis en donne 2. Combien lui en reste-t-il ?;59;60;55;57
+3477;Léna a 34 billes. Il/elle en achète 19 de plus puis en donne 46. Combien lui en reste-t-il ?;7;10;2;9
+3478;Iris a 32 livres. Il/elle en achète 24 de plus puis en donne 51. Combien lui en reste-t-il ?;5;9;3;6
+3479;Anna a 18 pommes. Il/elle en achète 23 de plus puis en donne 5. Combien lui en reste-t-il ?;36;44;40;33
+3480;Félix a 14 crayons. Il/elle en achète 19 de plus puis en donne 5. Combien lui en reste-t-il ?;28;21;20;27
+3481;Félix a 19 bananes. Il/elle en achète 8 de plus puis en donne 5. Combien lui en reste-t-il ?;22;26;24;18
+3482;Maya a 20 bonbons. Il/elle en achète 34 de plus puis en donne 31. Combien lui en reste-t-il ?;23;20;28;30
+3483;Noah a 36 fleurs. Il/elle en achète 11 de plus puis en donne 32. Combien lui en reste-t-il ?;15;21;14;10
+3484;Théo a 40 images. Il/elle en achète 31 de plus puis en donne 10. Combien lui en reste-t-il ?;61;62;63;65
+3485;Noah a 16 livres. Il/elle en achète 12 de plus puis en donne 4. Combien lui en reste-t-il ?;24;32;16;26
+3486;Léo a 21 jouets. Il/elle en achète 39 de plus puis en donne 47. Combien lui en reste-t-il ?;13;14;5;21
+3487;Nina a 15 bonbons. Il/elle en achète 26 de plus puis en donne 13. Combien lui en reste-t-il ?;28;23;27;32
+3488;Anna a 28 bonbons. Il/elle en achète 10 de plus puis en donne 7. Combien lui en reste-t-il ?;31;33;32;37
+3489;Léon a 16 crayons. Il/elle en achète 40 de plus puis en donne 35. Combien lui en reste-t-il ?;21;27;24;17
+3490;Alice a 37 autocollants. Il/elle en achète 30 de plus puis en donne 53. Combien lui en reste-t-il ?;14;13;8;10
+3491;Jules a 25 autocollants. Il/elle en achète 12 de plus puis en donne 26. Combien lui en reste-t-il ?;11;6;3;17
+3492;Tom a 19 jouets. Il/elle en achète 12 de plus puis en donne 6. Combien lui en reste-t-il ?;25;28;27;23
+3493;Maya a 21 livres. Il/elle en achète 35 de plus puis en donne 6. Combien lui en reste-t-il ?;50;45;54;58
+3494;Théo a 24 cartes. Il/elle en achète 38 de plus puis en donne 34. Combien lui en reste-t-il ?;28;33;21;20
+3495;Tom a 12 bonbons. Il/elle en achète 31 de plus puis en donne 34. Combien lui en reste-t-il ?;9;5;13;12
+3496;Ana a 36 livres. Il/elle en achète 12 de plus puis en donne 32. Combien lui en reste-t-il ?;16;19;10;14
+3497;Jules a 26 bananes. Il/elle en achète 18 de plus puis en donne 12. Combien lui en reste-t-il ?;32;26;39;35
+3498;Ana a 11 ballons. Il/elle en achète 40 de plus puis en donne 10. Combien lui en reste-t-il ?;41;35;44;46
+3499;Léon a 40 cartes. Il/elle en achète 10 de plus puis en donne 24. Combien lui en reste-t-il ?;26;20;21;34
+3500;Tu as 100 euros et tu achètes un objet à 91 euros. Combien te reste-t-il ?;9;13;6;10
+3501;Tu as 50 euros et tu achètes un objet à 17 euros. Combien te reste-t-il ?;33;38;32;27
+3502;Tu as 30 euros et tu achètes un objet à 26 euros. Combien te reste-t-il ?;4;7;6;2
+3503;Tu as 190 euros et tu achètes un objet à 44 euros. Combien te reste-t-il ?;146;143;138;153
+3504;Tu as 170 euros et tu achètes un objet à 136 euros. Combien te reste-t-il ?;34;42;31;37
+3505;Tu as 150 euros et tu achètes un objet à 58 euros. Combien te reste-t-il ?;92;93;89;84
+3506;Tu as 160 euros et tu achètes un objet à 158 euros. Combien te reste-t-il ?;2;1;5;9
+3507;Tu as 40 euros et tu achètes un objet à 34 euros. Combien te reste-t-il ?;6;14;4;7
+3508;Tu as 180 euros et tu achètes un objet à 136 euros. Combien te reste-t-il ?;44;48;40;36
+3509;Tu as 180 euros et tu achètes un objet à 131 euros. Combien te reste-t-il ?;49;50;51;43
+3510;Tu as 60 euros et tu achètes un objet à 35 euros. Combien te reste-t-il ?;25;22;26;24
+3511;Tu as 200 euros et tu achètes un objet à 19 euros. Combien te reste-t-il ?;181;188;182;183
+3512;Tu as 30 euros et tu achètes un objet à 27 euros. Combien te reste-t-il ?;3;1;5;2
+3513;Tu as 120 euros et tu achètes un objet à 60 euros. Combien te reste-t-il ?;60;52;62;65
+3514;Tu as 180 euros et tu achètes un objet à 90 euros. Combien te reste-t-il ?;90;88;91;86
+3515;Tu as 10 euros et tu achètes un objet à 7 euros. Combien te reste-t-il ?;3;6;0;9
+3516;Tu as 80 euros et tu achètes un objet à 65 euros. Combien te reste-t-il ?;15;7;18;20
+3517;Tu as 170 euros et tu achètes un objet à 67 euros. Combien te reste-t-il ?;103;107;96;102
+3518;Tu as 130 euros et tu achètes un objet à 112 euros. Combien te reste-t-il ?;18;10;25;13
+3519;Tu as 130 euros et tu achètes un objet à 58 euros. Combien te reste-t-il ?;72;73;75;64
+3520;Tu as 40 euros et tu achètes un objet à 30 euros. Combien te reste-t-il ?;10;3;2;16
+3521;Tu as 140 euros et tu achètes un objet à 91 euros. Combien te reste-t-il ?;49;48;57;54
+3522;Tu as 150 euros et tu achètes un objet à 120 euros. Combien te reste-t-il ?;30;26;23;34
+3523;Tu as 110 euros et tu achètes un objet à 75 euros. Combien te reste-t-il ?;35;42;37;39
+3524;Tu as 100 euros et tu achètes un objet à 50 euros. Combien te reste-t-il ?;50;56;46;43
+3525;Tu as 20 euros et tu achètes un objet à 14 euros. Combien te reste-t-il ?;6;13;1;9
+3526;Tu as 180 euros et tu achètes un objet à 129 euros. Combien te reste-t-il ?;51;47;44;49
+3527;Tu as 50 euros et tu achètes un objet à 20 euros. Combien te reste-t-il ?;30;22;24;29
+3528;Tu as 150 euros et tu achètes un objet à 7 euros. Combien te reste-t-il ?;143;139;137;149
+3529;Tu as 190 euros et tu achètes un objet à 33 euros. Combien te reste-t-il ?;157;155;154;160
+3530;Tu as 170 euros et tu achètes un objet à 151 euros. Combien te reste-t-il ?;19;16;11;17
+3531;Tu as 40 euros et tu achètes un objet à 13 euros. Combien te reste-t-il ?;27;31;25;20
+3532;Tu as 50 euros et tu achètes un objet à 2 euros. Combien te reste-t-il ?;48;51;44;47
+3533;Tu as 70 euros et tu achètes un objet à 3 euros. Combien te reste-t-il ?;67;66;68;69
+3534;Tu as 70 euros et tu achètes un objet à 53 euros. Combien te reste-t-il ?;17;24;19;23
+3535;Tu as 190 euros et tu achètes un objet à 136 euros. Combien te reste-t-il ?;54;46;51;55
+3536;Tu as 190 euros et tu achètes un objet à 36 euros. Combien te reste-t-il ?;154;148;153;147
+3537;Tu as 100 euros et tu achètes un objet à 73 euros. Combien te reste-t-il ?;27;30;20;32
+3538;Tu as 120 euros et tu achètes un objet à 106 euros. Combien te reste-t-il ?;14;7;22;21
+3539;Tu as 190 euros et tu achètes un objet à 101 euros. Combien te reste-t-il ?;89;82;85;90
+3540;Tu as 140 euros et tu achètes un objet à 25 euros. Combien te reste-t-il ?;115;121;118;119
+3541;Tu as 20 euros et tu achètes un objet à 13 euros. Combien te reste-t-il ?;7;2;6;3
+3542;Tu as 110 euros et tu achètes un objet à 17 euros. Combien te reste-t-il ?;93;98;85;95
+3543;Tu as 150 euros et tu achètes un objet à 138 euros. Combien te reste-t-il ?;12;9;13;10
+3544;Tu as 90 euros et tu achètes un objet à 43 euros. Combien te reste-t-il ?;47;54;43;52
+3545;Tu as 110 euros et tu achètes un objet à 87 euros. Combien te reste-t-il ?;23;28;18;24
+3546;Tu as 130 euros et tu achètes un objet à 32 euros. Combien te reste-t-il ?;98;97;106;94
+3547;Tu as 200 euros et tu achètes un objet à 190 euros. Combien te reste-t-il ?;10;2;4;7
+3548;Tu as 160 euros et tu achètes un objet à 77 euros. Combien te reste-t-il ?;83;89;76;87
+3549;Tu as 150 euros et tu achètes un objet à 90 euros. Combien te reste-t-il ?;60;68;61;64
+3550;___ - 106 = 440. Quel nombre manque ?;546;545;540;541
+3551;812 - ___ = 729. Quel nombre manque ?;83;80;91;82
+3552;___ - 123 = 196. Quel nombre manque ?;319;312;327;314
+3553;493 - ___ = 358. Quel nombre manque ?;135;132;137;129
+3554;427 + ___ = 850. Quel nombre manque ?;423;416;419;429
+3555;___ + 352 = 689. Quel nombre manque ?;337;333;336;330
+3556;___ - 240 = 231. Quel nombre manque ?;471;467;476;464
+3557;___ + 193 = 639. Quel nombre manque ?;446;441;442;451
+3558;___ + 107 = 351. Quel nombre manque ?;244;252;249;238
+3559;___ - 247 = 298. Quel nombre manque ?;545;541;549;551
+3560;691 - ___ = 564. Quel nombre manque ?;127;119;134;128
+3561;___ - 292 = 596. Quel nombre manque ?;888;882;891;887
+3562;___ + 73 = 380. Quel nombre manque ?;307;310;299;308
+3563;327 + ___ = 571. Quel nombre manque ?;244;252;241;246
+3564;___ - 47 = 680. Quel nombre manque ?;727;720;734;722
+3565;86 + ___ = 415. Quel nombre manque ?;329;334;325;331
+3566;___ - 60 = 367. Quel nombre manque ?;427;435;432;434
+3567;317 - ___ = 275. Quel nombre manque ?;42;49;50;41
+3568;182 + ___ = 661. Quel nombre manque ?;479;476;484;471
+3569;28 + ___ = 393. Quel nombre manque ?;365;362;369;363
+3570;437 + ___ = 695. Quel nombre manque ?;258;262;250;263
+3571;730 - ___ = 506. Quel nombre manque ?;224;230;226;227
+3572;762 - ___ = 38. Quel nombre manque ?;724;717;719;726
+3573;284 + ___ = 649. Quel nombre manque ?;365;368;359;371
+3574;479 + ___ = 782. Quel nombre manque ?;303;305;310;307
+3575;109 - ___ = 52. Quel nombre manque ?;57;53;56;49
+3576;412 + ___ = 799. Quel nombre manque ?;387;379;386;384
+3577;689 - ___ = 528. Quel nombre manque ?;161;162;158;167
+3578;80 + ___ = 573. Quel nombre manque ?;493;496;498;487
+3579;___ - 314 = 385. Quel nombre manque ?;699;698;701;706
+3580;320 - ___ = 55. Quel nombre manque ?;265;260;263;268
+3581;231 - ___ = 23. Quel nombre manque ?;208;200;210;209
+3582;452 - ___ = 435. Quel nombre manque ?;17;10;15;25
+3583;233 + ___ = 731. Quel nombre manque ?;498;505;495;497
+3584;___ - 268 = 442. Quel nombre manque ?;710;716;713;704
+3585;___ - 408 = 472. Quel nombre manque ?;880;886;873;875
+3586;22 + ___ = 315. Quel nombre manque ?;293;296;285;300
+3587;452 + ___ = 880. Quel nombre manque ?;428;423;426;434
+3588;338 + ___ = 450. Quel nombre manque ?;112;118;107;106
+3589;509 - ___ = 268. Quel nombre manque ?;241;242;233;248
+3590;349 + ___ = 646. Quel nombre manque ?;297;302;305;303
+3591;___ + 460 = 934. Quel nombre manque ?;474;475;471;466
+3592;___ + 460 = 756. Quel nombre manque ?;296;299;289;291
+3593;290 + ___ = 516. Quel nombre manque ?;226;230;234;222
+3594;___ - 12 = 563. Quel nombre manque ?;575;581;579;568
+3595;___ + 197 = 500. Quel nombre manque ?;303;305;302;301
+3596;___ - 175 = 188. Quel nombre manque ?;363;359;362;368
+3597;267 + ___ = 464. Quel nombre manque ?;197;199;201;202
+3598;___ - 229 = 235. Quel nombre manque ?;464;457;459;460
+3599;363 + ___ = 487. Quel nombre manque ?;124;129;128;122
+3600;___ + 379 = 605. Quel nombre manque ?;226;232;218;230
+3601;354 - ___ = 343. Quel nombre manque ?;11;13;4;18
+3602;___ + 320 = 508. Quel nombre manque ?;188;186;190;183
+3603;___ - 117 = 317. Quel nombre manque ?;434;439;433;441
+3604;___ + 146 = 248. Quel nombre manque ?;102;100;99;109
+3605;21 + ___ = 178. Quel nombre manque ?;157;153;158;165
+3606;367 - ___ = 337. Quel nombre manque ?;30;38;24;36
+3607;___ + 172 = 523. Quel nombre manque ?;351;343;344;353
+3608;___ - 144 = 160. Quel nombre manque ?;304;310;306;305
+3609;___ - 179 = 336. Quel nombre manque ?;515;520;514;507
+3610;104 + ___ = 289. Quel nombre manque ?;185;191;187;180
+3611;___ + 371 = 629. Quel nombre manque ?;258;260;256;251
+3612;___ + 100 = 563. Quel nombre manque ?;463;462;468;470
+3613;890 - ___ = 471. Quel nombre manque ?;419;427;423;421
+3614;___ + 288 = 352. Quel nombre manque ?;64;58;66;60
+3615;___ + 296 = 508. Quel nombre manque ?;212;211;214;206
+3616;___ + 88 = 399. Quel nombre manque ?;311;310;312;319
+3617;___ - 180 = 685. Quel nombre manque ?;865;871;870;867
+3618;181 + ___ = 594. Quel nombre manque ?;413;417;412;416
+3619;709 - ___ = 89. Quel nombre manque ?;620;613;626;627
+3620;18 + ___ = 470. Quel nombre manque ?;452;449;447;459
+3621;78 + ___ = 130. Quel nombre manque ?;52;55;58;54
+3622;___ + 282 = 422. Quel nombre manque ?;140;138;141;132
+3623;___ + 491 = 682. Quel nombre manque ?;191;192;183;199
+3624;375 + ___ = 818. Quel nombre manque ?;443;435;447;441
+3625;71 + ___ = 366. Quel nombre manque ?;295;302;293;299
+3626;142 - ___ = 35. Quel nombre manque ?;107;108;102;101
+3627;___ - 32 = 257. Quel nombre manque ?;289;284;281;290
+3628;___ - 130 = 390. Quel nombre manque ?;520;519;528;521
+3629;441 - ___ = 84. Quel nombre manque ?;357;358;362;355
+3630;Combien faut-il ajouter à 150 pour obtenir 200 ?;50;64;47;52
+3631;Combien faut-il ajouter à 30 pour obtenir 50 ?;20;30;39;35
+3632;Combien faut-il ajouter à 30 pour obtenir 70 ?;40;45;35;21
+3633;Combien faut-il ajouter à 100 pour obtenir 120 ?;20;14;1;6
+3634;Combien faut-il ajouter à 80 pour obtenir 100 ?;20;33;29;34
+3635;Combien faut-il ajouter à 70 pour obtenir 170 ?;100;93;104;114
+3636;Combien faut-il ajouter à 40 pour obtenir 130 ?;90;93;105;103
+3637;Combien faut-il ajouter à 20 pour obtenir 110 ?;90;91;71;96
+3638;Combien faut-il ajouter à 60 pour obtenir 150 ?;90;105;110;71
+3639;Combien faut-il ajouter à 20 pour obtenir 70 ?;50;38;51;54
+3640;Combien faut-il ajouter à 110 pour obtenir 130 ?;20;35;23;28
+3641;Combien faut-il ajouter à 130 pour obtenir 150 ?;20;36;30;3
+3642;Combien faut-il ajouter à 130 pour obtenir 160 ?;30;35;25;46
+3643;Combien faut-il ajouter à 10 pour obtenir 20 ?;10;2;28;17
+3644;Combien faut-il ajouter à 0 pour obtenir 20 ?;20;37;28;38
+3645;Combien faut-il ajouter à 20 pour obtenir 90 ?;70;77;61;71
+3646;Combien faut-il ajouter à 0 pour obtenir 30 ?;30;41;29;31
+3647;Combien faut-il ajouter à 140 pour obtenir 190 ?;50;67;47;36
+3648;Combien faut-il ajouter à 110 pour obtenir 180 ?;70;55;73;74
+3649;Combien faut-il ajouter à 50 pour obtenir 70 ?;20;40;16;30
+3650;Combien faut-il ajouter à 0 pour obtenir 100 ?;100;95;92;80
+3651;Combien faut-il ajouter à 30 pour obtenir 110 ?;80;94;97;65
+3652;Combien faut-il ajouter à 10 pour obtenir 40 ?;30;13;11;38
+3653;Combien faut-il ajouter à 60 pour obtenir 110 ?;50;34;38;63
+3654;Combien faut-il ajouter à 120 pour obtenir 170 ?;50;60;61;44
+3655;Combien faut-il ajouter à 20 pour obtenir 30 ?;10;22;2;9
+3656;Combien faut-il ajouter à 50 pour obtenir 130 ?;80;82;84;72
+3657;Combien faut-il ajouter à 100 pour obtenir 150 ?;50;43;53;64
+3658;Combien faut-il ajouter à 80 pour obtenir 170 ?;90;76;99;80
+3659;Combien faut-il ajouter à 50 pour obtenir 80 ?;30;49;17;31
+3660;Combien faut-il ajouter à 70 pour obtenir 120 ?;50;40;49;53
+3661;Combien faut-il ajouter à 150 pour obtenir 160 ?;10;6;19;13
+3662;Combien faut-il ajouter à 140 pour obtenir 160 ?;20;33;25;2
+3663;Combien faut-il ajouter à 50 pour obtenir 110 ?;60;65;59;66
+3664;Combien faut-il ajouter à 180 pour obtenir 190 ?;10;20;14;15
+3665;Combien faut-il ajouter à 90 pour obtenir 170 ?;80;91;88;79
+3666;Combien faut-il ajouter à 110 pour obtenir 150 ?;40;27;44;38
+3667;Combien faut-il ajouter à 120 pour obtenir 160 ?;40;29;36;24
+3668;Combien faut-il ajouter à 20 pour obtenir 40 ?;20;12;21;36
+3669;Combien faut-il ajouter à 100 pour obtenir 200 ?;100;114;113;119
+3670;Combien faut-il ajouter à 80 pour obtenir 180 ?;100;105;96;117
+3671;Combien faut-il ajouter à 90 pour obtenir 180 ?;90;102;107;74
+3672;Combien faut-il ajouter à 30 pour obtenir 80 ?;50;38;30;31
+3673;Combien faut-il ajouter à 0 pour obtenir 50 ?;50;64;41;42
+3674;Combien faut-il ajouter à 60 pour obtenir 160 ?;100;118;99;114
+3675;Combien faut-il ajouter à 120 pour obtenir 140 ?;20;26;36;16
+3676;Combien faut-il ajouter à 120 pour obtenir 150 ?;30;29;18;36
+3677;Combien faut-il ajouter à 110 pour obtenir 200 ?;90;79;95;71
+3678;Combien faut-il ajouter à 140 pour obtenir 200 ?;60;79;45;77
+3679;Combien faut-il ajouter à 10 pour obtenir 110 ?;100;88;102;119
+3680;40, 50, 60, ___, 80. Quel nombre manque ?;70;65;69;62
+3681;100, 150, ___, 250, 300. Quel nombre manque ?;200;217;292;132
+3682;190, ___, 210, 220, 230. Quel nombre manque ?;200;197;194;201
+3683;100, 150, 200, ___, 300. Quel nombre manque ?;250;187;304;161
+3684;100, 200, ___, 400, 500. Quel nombre manque ?;300;375;407;100
+3685;100, 200, 300, ___, 500. Quel nombre manque ?;400;437;409;546
+3686;90, 100, 110, ___, 130. Quel nombre manque ?;120;131;128;125
+3687;0, 100, 200, ___, 400. Quel nombre manque ?;300;431;357;275
+3688;0, ___, 200, 300, 400. Quel nombre manque ?;100;10;56;142
+3689;110, ___, 130, 140, 150. Quel nombre manque ?;120;140;129;106
+3690;0, 50, ___, 150, 200. Quel nombre manque ?;100;41;139;185
+3691;40, 50, ___, 70, 80. Quel nombre manque ?;60;41;74;52
+3692;90, 100, ___, 120, 130. Quel nombre manque ?;110;104;118;122
+3693;60, 70, ___, 90, 100. Quel nombre manque ?;80;89;75;61
+3694;100, 110, 120, ___, 140. Quel nombre manque ?;130;136;120;139
+3695;150, 160, 170, ___, 190. Quel nombre manque ?;180;186;198;187
+3696;100, ___, 300, 400, 500. Quel nombre manque ?;200;144;226;315
+3697;150, ___, 250, 300, 350. Quel nombre manque ?;200;230;269;117
+3698;140, ___, 160, 170, 180. Quel nombre manque ?;150;142;169;168
+3699;10, 20, ___, 40, 50. Quel nombre manque ?;30;45;15;32
+3700;50, 100, ___, 200, 250. Quel nombre manque ?;150;67;153;165
+3701;30, 40, 50, ___, 70. Quel nombre manque ?;60;54;57;80
+3702;130, ___, 150, 160, 170. Quel nombre manque ?;140;159;136;156
+3703;170, 180, 190, ___, 210. Quel nombre manque ?;200;193;217;204
+3704;0, 100, ___, 300, 400. Quel nombre manque ?;200;137;83;207
+3705;150, 200, 250, ___, 350. Quel nombre manque ?;300;354;373;377
+3706;50, 60, 70, ___, 90. Quel nombre manque ?;80;87;65;73
+3707;80, 90, ___, 110, 120. Quel nombre manque ?;100;107;119;116
+3708;50, 100, 150, ___, 250. Quel nombre manque ?;200;116;254;199
+3709;0, ___, 100, 150, 200. Quel nombre manque ?;50;58;123;92
+3710;70, 80, 90, ___, 110. Quel nombre manque ?;100;119;103;112
+3711;150, 200, ___, 300, 350. Quel nombre manque ?;250;184;331;305
+3712;160, 170, 180, ___, 200. Quel nombre manque ?;190;195;175;192
+3713;160, 170, ___, 190, 200. Quel nombre manque ?;180;165;161;179
+3714;120, 130, ___, 150, 160. Quel nombre manque ?;140;128;127;126
+3715;100, ___, 200, 250, 300. Quel nombre manque ?;150;191;97;228
+3716;0, 50, 100, ___, 200. Quel nombre manque ?;150;174;96;243
+3717;190, 200, ___, 220, 230. Quel nombre manque ?;210;213;217;214
+3718;20, 30, ___, 50, 60. Quel nombre manque ?;40;33;23;38
+3719;0, 10, ___, 30, 40. Quel nombre manque ?;20;2;23;38
+3720;Quel est le périmètre, en cm, d'un rectangle de longueur 18 cm et de largeur 7 cm ?;50;40;42;58
+3721;Quel est le périmètre, en cm, d'un rectangle de longueur 5 cm et de largeur 11 cm ?;32;38;39;31
+3722;Quel est le périmètre, en cm, d'un rectangle de longueur 7 cm et de largeur 25 cm ?;64;70;59;56
+3723;Quel est le périmètre, en cm, d'un rectangle de longueur 20 cm et de largeur 6 cm ?;52;45;59;43
+3724;Quel est le périmètre, en cm, d'un rectangle de longueur 20 cm et de largeur 19 cm ?;78;75;86;70
+3725;Quel est le périmètre, en cm, d'un rectangle de longueur 7 cm et de largeur 5 cm ?;24;29;20;31
+3726;Quel est le périmètre, en cm, d'un rectangle de longueur 12 cm et de largeur 11 cm ?;46;55;44;42
+3727;Quel est le périmètre, en cm, d'un rectangle de longueur 8 cm et de largeur 14 cm ?;44;54;38;45
+3728;Quel est le périmètre, en cm, d'un rectangle de longueur 20 cm et de largeur 2 cm ?;44;38;41;43
+3729;Quel est le périmètre, en cm, d'un rectangle de longueur 20 cm et de largeur 15 cm ?;70;76;67;75
+3730;Quel est le périmètre, en cm, d'un rectangle de longueur 7 cm et de largeur 28 cm ?;70;65;66;78
+3731;Quel est le périmètre, en cm, d'un rectangle de longueur 22 cm et de largeur 5 cm ?;54;50;55;64
+3732;Quel est le périmètre, en cm, d'un rectangle de longueur 8 cm et de largeur 29 cm ?;74;79;67;70
+3733;Quel est le périmètre, en cm, d'un rectangle de longueur 8 cm et de largeur 7 cm ?;30;34;35;36
+3734;Quel est le périmètre, en cm, d'un rectangle de longueur 4 cm et de largeur 14 cm ?;36;43;29;46
+3735;Quel est le périmètre, en cm, d'un rectangle de longueur 9 cm et de largeur 17 cm ?;52;50;47;62
+3736;Quel est le périmètre, en cm, d'un rectangle de longueur 7 cm et de largeur 16 cm ?;46;48;45;55
+3737;Quel est le périmètre, en cm, d'un rectangle de longueur 15 cm et de largeur 7 cm ?;44;53;42;50
+3738;Quel est le périmètre, en cm, d'un rectangle de longueur 16 cm et de largeur 14 cm ?;60;64;56;70
+3739;Quel est le périmètre, en cm, d'un rectangle de longueur 20 cm et de largeur 22 cm ?;84;82;81;79
+3740;Quel est le périmètre, en cm, d'un rectangle de longueur 3 cm et de largeur 17 cm ?;40;31;46;41
+3741;Quel est le périmètre, en cm, d'un rectangle de longueur 12 cm et de largeur 26 cm ?;76;73;69;82
+3742;Quel est le périmètre, en cm, d'un rectangle de longueur 13 cm et de largeur 26 cm ?;78;82;69;88
+3743;Quel est le périmètre, en cm, d'un rectangle de longueur 29 cm et de largeur 10 cm ?;78;82;72;88
+3744;Quel est le périmètre, en cm, d'un rectangle de longueur 12 cm et de largeur 3 cm ?;30;39;21;33
+3745;Quel est le périmètre, en cm, d'un rectangle de longueur 21 cm et de largeur 20 cm ?;82;79;89;91
+3746;Quel est le périmètre, en cm, d'un rectangle de longueur 27 cm et de largeur 17 cm ?;88;83;80;89
+3747;Quel est le périmètre, en cm, d'un rectangle de longueur 2 cm et de largeur 8 cm ?;20;23;11;14
+3748;Quel est le périmètre, en cm, d'un rectangle de longueur 15 cm et de largeur 12 cm ?;54;57;59;45
+3749;Quel est le périmètre, en cm, d'un rectangle de longueur 12 cm et de largeur 18 cm ?;60;56;59;68
+3750;Quel est le périmètre, en cm, d'un rectangle de longueur 5 cm et de largeur 2 cm ?;14;13;18;5
+3751;Quel est le périmètre, en cm, d'un rectangle de longueur 16 cm et de largeur 15 cm ?;62;66;69;72
+3752;Quel est le périmètre, en cm, d'un rectangle de longueur 19 cm et de largeur 2 cm ?;42;40;33;46
+3753;Quel est le périmètre, en cm, d'un rectangle de longueur 2 cm et de largeur 29 cm ?;62;66;54;56
+3754;Quel est le périmètre, en cm, d'un rectangle de longueur 26 cm et de largeur 4 cm ?;60;66;53;56
+3755;Quel est le périmètre, en cm, d'un rectangle de longueur 21 cm et de largeur 7 cm ?;56;60;54;55
+3756;Quel est le périmètre, en cm, d'un rectangle de longueur 10 cm et de largeur 26 cm ?;72;78;77;71
+3757;Quel est le périmètre, en cm, d'un rectangle de longueur 25 cm et de largeur 3 cm ?;56;58;55;48
+3758;Quel est le périmètre, en cm, d'un rectangle de longueur 6 cm et de largeur 10 cm ?;32;24;39;25
+3759;Quel est le périmètre, en cm, d'un rectangle de longueur 9 cm et de largeur 5 cm ?;28;24;23;37
+3760;Le nombre 423 est-il pair ou impair ?;impair;pair;;
+3761;Le nombre 62 est-il pair ou impair ?;pair;impair;;
+3762;Le nombre 666 est-il pair ou impair ?;pair;impair;;
+3763;Le nombre 646 est-il pair ou impair ?;pair;impair;;
+3764;Le nombre 535 est-il pair ou impair ?;impair;pair;;
+3765;Le nombre 74 est-il pair ou impair ?;pair;impair;;
+3766;Le nombre 266 est-il pair ou impair ?;pair;impair;;
+3767;Le nombre 697 est-il pair ou impair ?;impair;pair;;
+3768;Le nombre 275 est-il pair ou impair ?;impair;pair;;
+3769;Le nombre 498 est-il pair ou impair ?;pair;impair;;
+3770;Le nombre 532 est-il pair ou impair ?;pair;impair;;
+3771;Le nombre 298 est-il pair ou impair ?;pair;impair;;
+3772;Le nombre 202 est-il pair ou impair ?;pair;impair;;
+3773;Le nombre 611 est-il pair ou impair ?;impair;pair;;
+3774;Le nombre 642 est-il pair ou impair ?;pair;impair;;
+3775;Le nombre 482 est-il pair ou impair ?;pair;impair;;
+3776;Le nombre 957 est-il pair ou impair ?;impair;pair;;
+3777;Le nombre 92 est-il pair ou impair ?;pair;impair;;
+3778;Le nombre 741 est-il pair ou impair ?;impair;pair;;
+3779;Le nombre 377 est-il pair ou impair ?;impair;pair;;
+3780;Le nombre 445 est-il pair ou impair ?;impair;pair;;
+3781;Le nombre 86 est-il pair ou impair ?;pair;impair;;
+3782;Le nombre 705 est-il pair ou impair ?;impair;pair;;
+3783;Le nombre 754 est-il pair ou impair ?;pair;impair;;
+3784;Le nombre 929 est-il pair ou impair ?;impair;pair;;
+3785;Le nombre 897 est-il pair ou impair ?;impair;pair;;
+3786;Le nombre 284 est-il pair ou impair ?;pair;impair;;
+3787;Le nombre 592 est-il pair ou impair ?;pair;impair;;
+3788;Le nombre 874 est-il pair ou impair ?;pair;impair;;
+3789;Le nombre 717 est-il pair ou impair ?;impair;pair;;
+3790;Le nombre 863 est-il pair ou impair ?;impair;pair;;
+3791;Le nombre 395 est-il pair ou impair ?;impair;pair;;
+3792;Le nombre 239 est-il pair ou impair ?;impair;pair;;
+3793;Le nombre 809 est-il pair ou impair ?;impair;pair;;
+3794;Le nombre 165 est-il pair ou impair ?;impair;pair;;
+3795;Le nombre 12 est-il pair ou impair ?;pair;impair;;
+3796;Le nombre 706 est-il pair ou impair ?;pair;impair;;
+3797;Le nombre 805 est-il pair ou impair ?;impair;pair;;
+3798;Le nombre 693 est-il pair ou impair ?;impair;pair;;
+3799;Le nombre 511 est-il pair ou impair ?;impair;pair;;

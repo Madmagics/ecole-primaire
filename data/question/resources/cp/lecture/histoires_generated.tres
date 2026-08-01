@@ -1,0 +1,3957 @@
+[gd_resource type="Resource" script_class="QuestionBankResource" format=3 uid="uid://bmgd6tsrj1pr1"]
+
+[ext_resource type="Script" uid="uid://dfbr3elc3mbig" path="res://data/question/question_resource.gd" id="1_kx5v7"]
+[ext_resource type="Script" uid="uid://crepyep5nhuxq" path="res://data/question/passage_resource.gd" id="2_lihs0"]
+[ext_resource type="Script" uid="uid://c422qc1cinnna" path="res://data/question/question_bank_resource.gd" id="3_8tf1i"]
+
+[sub_resource type="Resource" id="Resource_e02mq"]
+script = ExtResource("2_lihs0")
+text = "Léa est à la plage. Elle est avec son papa. Elle prend un seau bleu. Elle prend une pelle rouge. Elle creuse le sable. Elle fait un château. Le château a quatre tours. Elle met un drapeau jaune. Papa donne des coquillages. Elle orne le château. La mer vient tout près. Elle rit très fort. Elle rit un peu."
+
+[sub_resource type="Resource" id="Resource_sb5u5"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où est Léa ?"
+correct_answer = "a la plage"
+choices = Array[String](["a la piscine", "a la maison", "au parc"])
+passage = SubResource("Resource_e02mq")
+
+[sub_resource type="Resource" id="Resource_5oafg"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Avec qui est Léa ?"
+correct_answer = "son papa"
+choices = Array[String](["sa maman", "son frère", "sa mamie"])
+passage = SubResource("Resource_e02mq")
+
+[sub_resource type="Resource" id="Resource_ryo6y"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "De quelle couleur est le seau de Léa ?"
+correct_answer = "bleu"
+choices = Array[String](["rouge", "vert", "jaune"])
+passage = SubResource("Resource_e02mq")
+
+[sub_resource type="Resource" id="Resource_hy6nr"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "De quelle couleur est la pelle ?"
+correct_answer = "rouge"
+choices = Array[String](["bleue", "verte", "noire"])
+passage = SubResource("Resource_e02mq")
+
+[sub_resource type="Resource" id="Resource_0r2lh"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qu'est-ce que Léa construit ?"
+correct_answer = "un château de sable"
+choices = Array[String](["une cabane", "un bonhomme de neige", "un bateau"])
+passage = SubResource("Resource_e02mq")
+
+[sub_resource type="Resource" id="Resource_fyr6u"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Combien de tours a le château ?"
+correct_answer = "quatre"
+choices = Array[String](["deux", "trois", "cinq"])
+passage = SubResource("Resource_e02mq")
+
+[sub_resource type="Resource" id="Resource_7itlc"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "De quelle couleur est le drapeau ?"
+correct_answer = "jaune"
+choices = Array[String](["bleu", "rouge", "vert"])
+passage = SubResource("Resource_e02mq")
+
+[sub_resource type="Resource" id="Resource_yh53h"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qu'est-ce que le papa apporte ?"
+correct_answer = "des coquillages"
+choices = Array[String](["des fleurs", "des bonbons", "des jouets"])
+passage = SubResource("Resource_e02mq")
+
+[sub_resource type="Resource" id="Resource_ltxvv"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qu'est-ce qui arrive tout près ?"
+correct_answer = "la mer"
+choices = Array[String](["la pluie", "la nuit", "le vent"])
+passage = SubResource("Resource_e02mq")
+
+[sub_resource type="Resource" id="Resource_fink4"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que fait Léa a la fin ?"
+correct_answer = "elle rit"
+choices = Array[String](["elle pleure", "elle dort", "elle part"])
+passage = SubResource("Resource_e02mq")
+
+[sub_resource type="Resource" id="Resource_wehvj"]
+script = ExtResource("2_lihs0")
+text = "Hugo va à la ferme. Il est avec sa classe. La maîtresse montre les animaux. Il voit des poules blanches. Il caresse un lapin gris. Une vache mange de l'herbe. Il donne du pain. Il donne le pain a une chèvre. Il entend un coq chanter. Les enfants mangent dehors. Il aime cette sortie. Tout le monde rentre content. Il rit un peu. Il fait beau."
+
+[sub_resource type="Resource" id="Resource_5o837"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où va Hugo ?"
+correct_answer = "a la ferme"
+choices = Array[String](["a la piscine", "au musée", "au zoo"])
+passage = SubResource("Resource_wehvj")
+
+[sub_resource type="Resource" id="Resource_566vq"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Avec qui y va-t-il ?"
+correct_answer = "sa classe"
+choices = Array[String](["sa famille", "son papa", "ses cousins"])
+passage = SubResource("Resource_wehvj")
+
+[sub_resource type="Resource" id="Resource_4s080"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "De quelle couleur sont les poules ?"
+correct_answer = "blanches"
+choices = Array[String](["noires", "grises", "rousses"])
+passage = SubResource("Resource_wehvj")
+
+[sub_resource type="Resource" id="Resource_od71p"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Quel animal Hugo caresse-t-il ?"
+correct_answer = "un lapin"
+choices = Array[String](["un chat", "un chien", "un mouton"])
+passage = SubResource("Resource_wehvj")
+
+[sub_resource type="Resource" id="Resource_x5l0h"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que mange la vache ?"
+correct_answer = "de l'herbe"
+choices = Array[String](["des carottes", "du pain", "des graines"])
+passage = SubResource("Resource_wehvj")
+
+[sub_resource type="Resource" id="Resource_dft53"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "À qui Hugo donne-t-il du pain ?"
+correct_answer = "une chèvre"
+choices = Array[String](["un cheval", "un cochon", "un âne"])
+passage = SubResource("Resource_wehvj")
+
+[sub_resource type="Resource" id="Resource_w8umi"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qu'est-ce que Hugo entend chanter ?"
+correct_answer = "un coq"
+choices = Array[String](["un oiseau", "une vache", "un chien"])
+passage = SubResource("Resource_wehvj")
+
+[sub_resource type="Resource" id="Resource_2rjq8"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que font les enfants a midi ?"
+correct_answer = "ils mangent dehors"
+choices = Array[String](["ils dorment", "ils jouent au ballon", "ils dessinent"])
+passage = SubResource("Resource_wehvj")
+
+[sub_resource type="Resource" id="Resource_wu7vv"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où mangent les enfants ?"
+correct_answer = "dehors"
+choices = Array[String](["dans la classe", "dans le bus", "a la cantine"])
+passage = SubResource("Resource_wehvj")
+
+[sub_resource type="Resource" id="Resource_yfor6"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment Hugo se sent-il a la fin ?"
+correct_answer = "content"
+choices = Array[String](["triste", "fatigué", "en colère"])
+passage = SubResource("Resource_wehvj")
+
+[sub_resource type="Resource" id="Resource_y8pl2"]
+script = ExtResource("2_lihs0")
+text = "Nora part en randonnée. Elle est avec sa maman. Elles marchent sur un sentier. Elle voit des fleurs violettes. Elle entend une cascade. Un écureuil passe le chemin. Elle boit de l'eau. En haut, on voit le village. Elle est fière. Elle a fait toute la montée. Elle rit un peu. Il fait beau. Le jour est doux."
+
+[sub_resource type="Resource" id="Resource_odu2l"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Avec qui Nora part-elle en randonnée ?"
+correct_answer = "sa maman"
+choices = Array[String](["son papa", "sa mamie", "sa classe"])
+passage = SubResource("Resource_y8pl2")
+
+[sub_resource type="Resource" id="Resource_skhug"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où marchent-elles ?"
+correct_answer = "sur un sentier"
+choices = Array[String](["sur la plage", "dans une rue", "dans un jardin"])
+passage = SubResource("Resource_y8pl2")
+
+[sub_resource type="Resource" id="Resource_2tdu3"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "De quelle couleur sont les fleurs ?"
+correct_answer = "violettes"
+choices = Array[String](["jaunes", "rouges", "blanches"])
+passage = SubResource("Resource_y8pl2")
+
+[sub_resource type="Resource" id="Resource_rvb4a"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qu'est-ce que Nora entend ?"
+correct_answer = "une cascade"
+choices = Array[String](["un train", "un chien", "la mer"])
+passage = SubResource("Resource_y8pl2")
+
+[sub_resource type="Resource" id="Resource_o42xb"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Quel animal traverse le chemin ?"
+correct_answer = "un écureuil"
+choices = Array[String](["un lapin", "un renard", "un oiseau"])
+passage = SubResource("Resource_y8pl2")
+
+[sub_resource type="Resource" id="Resource_6cfs6"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que boit Nora ?"
+correct_answer = "de l'eau"
+choices = Array[String](["du jus", "du lait", "du chocolat chaud"])
+passage = SubResource("Resource_y8pl2")
+
+[sub_resource type="Resource" id="Resource_jbjpc"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que voit-on en haut ?"
+correct_answer = "le village"
+choices = Array[String](["la mer", "la ferme seulement", "la foret seulement"])
+passage = SubResource("Resource_y8pl2")
+
+[sub_resource type="Resource" id="Resource_emhu1"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment Nora se sent-elle en haut ?"
+correct_answer = "fière"
+choices = Array[String](["triste", "en colère", "déçue"])
+passage = SubResource("Resource_y8pl2")
+
+[sub_resource type="Resource" id="Resource_mmood"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qui accompagne Nora pendant la randonnée ?"
+correct_answer = "sa maman"
+choices = Array[String](["ses cousins", "ses amis", "son grand frère"])
+passage = SubResource("Resource_y8pl2")
+
+[sub_resource type="Resource" id="Resource_ribam"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qu'a fait Nora a la fin ?"
+correct_answer = "toute la montée"
+choices = Array[String](["seulement un petit tour", "demi-tour", "rien du tout"])
+passage = SubResource("Resource_y8pl2")
+
+[sub_resource type="Resource" id="Resource_ll1uk"]
+script = ExtResource("2_lihs0")
+text = "Tom va à la fête foraine. Il est avec son grand frère. Il monte sur le manège. Il mange une barbe à papa. Il gagne un ours en peluche. Les lumières brillent la nuit. Il entend de la musique. Il rit sur les autos tamponneuses. Quelle belle soirée pour Il ! Il rit un peu. Il fait beau."
+
+[sub_resource type="Resource" id="Resource_vsh25"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Avec qui Tom va-t-il a la fête foraine ?"
+correct_answer = "son grand frère"
+choices = Array[String](["sa mamie", "sa classe", "son papa"])
+passage = SubResource("Resource_ll1uk")
+
+[sub_resource type="Resource" id="Resource_vykq8"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Sur quoi Tom monte-t-il ?"
+correct_answer = "le manège"
+choices = Array[String](["la grande roue", "le train fantôme", "le grand huit"])
+passage = SubResource("Resource_ll1uk")
+
+[sub_resource type="Resource" id="Resource_xxxq0"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que mange Tom ?"
+correct_answer = "une barbe à papa"
+choices = Array[String](["une glace", "une pomme d'amour", "des bonbons"])
+passage = SubResource("Resource_ll1uk")
+
+[sub_resource type="Resource" id="Resource_0b5j8"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que gagne Tom ?"
+correct_answer = "un ours en peluche"
+choices = Array[String](["une poupée", "un ballon", "une voiture jouet"])
+passage = SubResource("Resource_ll1uk")
+
+[sub_resource type="Resource" id="Resource_ldjyl"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que brillent dans la nuit ?"
+correct_answer = "les lumières"
+choices = Array[String](["les étoiles seulement", "la lune", "le soleil"])
+passage = SubResource("Resource_ll1uk")
+
+[sub_resource type="Resource" id="Resource_pk8w3"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que fait Tom sur les autos tamponneuses ?"
+correct_answer = "il rit"
+choices = Array[String](["il pleure", "il a peur", "il s'ennuie"])
+passage = SubResource("Resource_ll1uk")
+
+[sub_resource type="Resource" id="Resource_j3xa2"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qu'est-ce que Tom entend ?"
+correct_answer = "de la musique"
+choices = Array[String](["des cris", "le vent", "la pluie"])
+passage = SubResource("Resource_ll1uk")
+
+[sub_resource type="Resource" id="Resource_4rghb"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Quand se passe la sortie de Tom ?"
+correct_answer = "le soir"
+choices = Array[String](["le matin", "a midi", "a l'aube"])
+passage = SubResource("Resource_ll1uk")
+
+[sub_resource type="Resource" id="Resource_2ewdb"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment se termine la soirée de Tom ?"
+correct_answer = "c'est une belle soirée"
+choices = Array[String](["Tom est triste", "Tom veut rentrer vite", "Tom a perdu son ours"])
+passage = SubResource("Resource_ll1uk")
+
+[sub_resource type="Resource" id="Resource_eabxa"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Avec qui Tom rit-il sur les autos tamponneuses ?"
+correct_answer = "son grand frère"
+choices = Array[String](["sa mamie", "personne", "sa maîtresse"])
+passage = SubResource("Resource_ll1uk")
+
+[sub_resource type="Resource" id="Resource_wkhub"]
+script = ExtResource("2_lihs0")
+text = "Alice prend le train. Elle est avec sa mamie. Elle a une valise rouge. Le train passe des champs verts. Elle voit par la fenêtre. Elle voit des vaches. Mamie lui donne un goûter. Le contrôleur voit les billets. Elle dort un peu. Le train vient en gare. Elle rit un peu."
+
+[sub_resource type="Resource" id="Resource_ey608"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Avec qui Alice prend-elle le train ?"
+correct_answer = "sa mamie"
+choices = Array[String](["son papa", "sa classe", "sa soeur"])
+passage = SubResource("Resource_wkhub")
+
+[sub_resource type="Resource" id="Resource_prtu1"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "De quelle couleur est la valise d'Alice ?"
+correct_answer = "rouge"
+choices = Array[String](["bleue", "verte", "noire"])
+passage = SubResource("Resource_wkhub")
+
+[sub_resource type="Resource" id="Resource_u2lh4"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que traverse le train ?"
+correct_answer = "des champs verts"
+choices = Array[String](["une foret sombre", "un désert", "une ville"])
+passage = SubResource("Resource_wkhub")
+
+[sub_resource type="Resource" id="Resource_mhsok"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où Alice regarde-t-elle ?"
+correct_answer = "par la fenêtre"
+choices = Array[String](["sur son livre", "sur son téléphone", "vers le sol"])
+passage = SubResource("Resource_wkhub")
+
+[sub_resource type="Resource" id="Resource_gth64"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que voit Alice ?"
+correct_answer = "des vaches"
+choices = Array[String](["des bateaux", "des montagnes de neige", "des avions"])
+passage = SubResource("Resource_wkhub")
+
+[sub_resource type="Resource" id="Resource_yn3hc"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que lui donne mamie ?"
+correct_answer = "un goûter"
+choices = Array[String](["un jouet", "un livre", "une glace"])
+passage = SubResource("Resource_wkhub")
+
+[sub_resource type="Resource" id="Resource_wwo7u"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qui regarde les billets ?"
+correct_answer = "le contrôleur"
+choices = Array[String](["le chauffeur", "la maîtresse", "un policier"])
+passage = SubResource("Resource_wkhub")
+
+[sub_resource type="Resource" id="Resource_u1e0c"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que fait Alice pendant le trajet ?"
+correct_answer = "elle dort un peu"
+choices = Array[String](["elle chante fort", "elle pleure", "elle court dans le wagon"])
+passage = SubResource("Resource_wkhub")
+
+[sub_resource type="Resource" id="Resource_y76ll"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où arrive le train a la fin ?"
+correct_answer = "en gare"
+choices = Array[String](["a l'aéroport", "au port", "a l'école"])
+passage = SubResource("Resource_wkhub")
+
+[sub_resource type="Resource" id="Resource_n5k0k"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Quel objet Alice emporte-t-elle ?"
+correct_answer = "une valise"
+choices = Array[String](["un gros sac à dos", "un panier", "une boite"])
+passage = SubResource("Resource_wkhub")
+
+[sub_resource type="Resource" id="Resource_o0bmf"]
+script = ExtResource("2_lihs0")
+text = "Diego prend l'avion. C'est la première fois. Il tient la main de son papa. L'avion décolle très fort. Il voit les nuages blancs. Une hôtesse donne un jus. Il mange un petit gâteau. L'avion vole au-dessus de la mer. Il est un peu surpris. L'avion atterrit tout doux. Il rit un peu."
+
+[sub_resource type="Resource" id="Resource_rpjn7"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que fait Diego pour la première fois ?"
+correct_answer = "il prend l'avion"
+choices = Array[String](["il prend le train", "il nage", "il fait du vélo"])
+passage = SubResource("Resource_o0bmf")
+
+[sub_resource type="Resource" id="Resource_1wlw3"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "La main de qui Diego tient-il ?"
+correct_answer = "son papa"
+choices = Array[String](["sa maman", "sa mamie", "son frère"])
+passage = SubResource("Resource_o0bmf")
+
+[sub_resource type="Resource" id="Resource_uy6qq"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que regarde Diego ?"
+correct_answer = "les nuages blancs"
+choices = Array[String](["les étoiles", "les montagnes", "les avions"])
+passage = SubResource("Resource_o0bmf")
+
+[sub_resource type="Resource" id="Resource_oew3i"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qui apporte un jus ?"
+correct_answer = "une hôtesse"
+choices = Array[String](["son papa", "un steward masque", "sa mamie"])
+passage = SubResource("Resource_o0bmf")
+
+[sub_resource type="Resource" id="Resource_q0rda"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que mange Diego dans l'avion ?"
+correct_answer = "un petit gâteau"
+choices = Array[String](["une pomme", "un sandwich", "une glace"])
+passage = SubResource("Resource_o0bmf")
+
+[sub_resource type="Resource" id="Resource_1eljw"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Au-dessus de quoi vole l'avion ?"
+correct_answer = "la mer"
+choices = Array[String](["la montagne", "le désert", "la ville"])
+passage = SubResource("Resource_o0bmf")
+
+[sub_resource type="Resource" id="Resource_makhh"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment Diego se sent-il pendant le vol ?"
+correct_answer = "un peu impressionné"
+choices = Array[String](["très fâche", "très ennuyé", "malade"])
+passage = SubResource("Resource_o0bmf")
+
+[sub_resource type="Resource" id="Resource_vnfm5"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment l'avion décolle-t-il ?"
+correct_answer = "très fort"
+choices = Array[String](["tout doucement", "en silence", "lentement"])
+passage = SubResource("Resource_o0bmf")
+
+[sub_resource type="Resource" id="Resource_5iji5"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment l'avion atterrit-il ?"
+correct_answer = "tout doucement"
+choices = Array[String](["très fort", "en sautant", "de travers"])
+passage = SubResource("Resource_o0bmf")
+
+[sub_resource type="Resource" id="Resource_khckp"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qui accompagne Diego dans l'avion ?"
+correct_answer = "son papa"
+choices = Array[String](["sa classe", "personne", "ses cousins"])
+passage = SubResource("Resource_o0bmf")
+
+[sub_resource type="Resource" id="Resource_f2l0a"]
+script = ExtResource("2_lihs0")
+text = "Ingrid part en croisière. Elle est avec ses parents. Le bateau est grand et blanc. Elle voit la mer bleue. Des dauphins nagent près du bateau. Le capitaine salue les passagers. Elle dîne dans une grande salle. Le soir, des lumières brillent sur l'eau. Elle dort dans une petite cabine. Elle aime ce voyage. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien."
+
+[sub_resource type="Resource" id="Resource_utxa6"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Avec qui Ingrid part-elle en croisière ?"
+correct_answer = "ses parents"
+choices = Array[String](["sa classe", "ses cousins", "sa mamie"])
+passage = SubResource("Resource_f2l0a")
+
+[sub_resource type="Resource" id="Resource_xsfkg"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "De quelle couleur est le bateau ?"
+correct_answer = "blanc"
+choices = Array[String](["bleu", "rouge", "gris"])
+passage = SubResource("Resource_f2l0a")
+
+[sub_resource type="Resource" id="Resource_i1402"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que regarde Ingrid ?"
+correct_answer = "la mer bleue"
+choices = Array[String](["sa cabine", "la cuisine", "le port"])
+passage = SubResource("Resource_f2l0a")
+
+[sub_resource type="Resource" id="Resource_udlsc"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Quels animaux nagent près du bateau ?"
+correct_answer = "des dauphins"
+choices = Array[String](["des requins", "des phoques", "des poissons volants"])
+passage = SubResource("Resource_f2l0a")
+
+[sub_resource type="Resource" id="Resource_jtjii"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qui salue les passagers ?"
+correct_answer = "le capitaine"
+choices = Array[String](["un serveur", "un pêcheur", "un marin inconnu"])
+passage = SubResource("Resource_f2l0a")
+
+[sub_resource type="Resource" id="Resource_yjdw4"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où Ingrid dîne-t-elle ?"
+correct_answer = "dans une grande salle"
+choices = Array[String](["sur le pont", "dans sa cabine", "au port"])
+passage = SubResource("Resource_f2l0a")
+
+[sub_resource type="Resource" id="Resource_chw3q"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que font les lumières le soir ?"
+correct_answer = "elles brillent sur l'eau"
+choices = Array[String](["elles s'éteignent tout de suite", "elles restent immobiles", "elles disparaissent"])
+passage = SubResource("Resource_f2l0a")
+
+[sub_resource type="Resource" id="Resource_c0p2h"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où Ingrid dort-elle ?"
+correct_answer = "dans une petite cabine"
+choices = Array[String](["sur le pont", "dans une tente", "chez sa mamie"])
+passage = SubResource("Resource_f2l0a")
+
+[sub_resource type="Resource" id="Resource_lgwnh"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Quel est le moyen de transport de l'histoire ?"
+correct_answer = "un bateau"
+choices = Array[String](["un avion", "un train", "une voiture"])
+passage = SubResource("Resource_f2l0a")
+
+[sub_resource type="Resource" id="Resource_itse2"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment Ingrid trouve-t-elle ce voyage ?"
+correct_answer = "elle l'adore"
+choices = Array[String](["elle le déteste", "elle s'ennuie", "elle a peur"])
+passage = SubResource("Resource_f2l0a")
+
+[sub_resource type="Resource" id="Resource_uulsh"]
+script = ExtResource("2_lihs0")
+text = "Marco passe la journée chez ses cousins. Ils jouent au ballon dans le jardin. Sa cousine Livia donne du jus. Ils font une cabane avec des couvertures. Ils mangent des cookies de la tâta. Il rit avec sa cousine. Le soir, ils voient un film. Il ne veut pas repartir. Il rit un peu."
+
+[sub_resource type="Resource" id="Resource_hqbur"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Chez qui Marco passe-t-il la journée ?"
+correct_answer = "ses cousins"
+choices = Array[String](["ses grands-parents", "sa classe", "ses voisins"])
+passage = SubResource("Resource_uulsh")
+
+[sub_resource type="Resource" id="Resource_i5ar6"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "À quoi jouent-ils dans le jardin ?"
+correct_answer = "au ballon"
+choices = Array[String](["aux cartes", "au foot en salle", "aux billes"])
+passage = SubResource("Resource_uulsh")
+
+[sub_resource type="Resource" id="Resource_0ew6m"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment s'appelle la cousine de Marco ?"
+correct_answer = "Livia"
+choices = Array[String](["Sofia", "Inès", "Zoé"])
+passage = SubResource("Resource_uulsh")
+
+[sub_resource type="Resource" id="Resource_wrc06"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que fait Livia ?"
+correct_answer = "elle apporte du jus"
+choices = Array[String](["elle apporte des gâteaux", "elle apporte un ballon", "elle apporte des livres"])
+passage = SubResource("Resource_uulsh")
+
+[sub_resource type="Resource" id="Resource_btfbq"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Avec quoi font-ils une cabane ?"
+correct_answer = "des couvertures"
+choices = Array[String](["des cartons", "des chaises", "du bois"])
+passage = SubResource("Resource_uulsh")
+
+[sub_resource type="Resource" id="Resource_0d0j7"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qui a fait les cookies ?"
+correct_answer = "la tâta"
+choices = Array[String](["la mamie", "Marco", "Livia"])
+passage = SubResource("Resource_uulsh")
+
+[sub_resource type="Resource" id="Resource_usp44"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que font-ils le soir ?"
+correct_answer = "ils regardent un film"
+choices = Array[String](["ils vont se coucher tôt", "ils sortent en ville", "ils font leurs devoirs"])
+passage = SubResource("Resource_uulsh")
+
+[sub_resource type="Resource" id="Resource_pkoj0"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment Marco se sent-il avec sa cousine ?"
+correct_answer = "il rit"
+choices = Array[String](["il s'ennuie", "il est timide", "il est fâché"])
+passage = SubResource("Resource_uulsh")
+
+[sub_resource type="Resource" id="Resource_lsqgk"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que ne veut plus faire Marco ?"
+correct_answer = "repartir"
+choices = Array[String](["jouer", "manger", "dormir"])
+passage = SubResource("Resource_uulsh")
+
+[sub_resource type="Resource" id="Resource_grgrw"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où se passe cette journée ?"
+correct_answer = "chez les cousins"
+choices = Array[String](["a l'école", "a la plage", "a la montagne"])
+passage = SubResource("Resource_uulsh")
+
+[sub_resource type="Resource" id="Resource_3jhwo"]
+script = ExtResource("2_lihs0")
+text = "Sofia part pique-niquer a la campagne. Elle est avec sa famille. Ils posent une nappe sous un arbre. Elle mange un sandwich au fromage. Maman coupe une pastèque sucrée. Des vaches broutent dans le pré. Elle court apres des papillons. Papa joue de la guitare. Elle s'endort dans l'herbe. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la."
+
+[sub_resource type="Resource" id="Resource_tttd1"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où Sofia pique-nique-t-elle ?"
+correct_answer = "a la campagne"
+choices = Array[String](["a la plage", "en ville", "a la montagne"])
+passage = SubResource("Resource_3jhwo")
+
+[sub_resource type="Resource" id="Resource_f1tcr"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Avec qui part-elle ?"
+correct_answer = "sa famille"
+choices = Array[String](["sa classe", "ses cousins", "ses voisins"])
+passage = SubResource("Resource_3jhwo")
+
+[sub_resource type="Resource" id="Resource_cljnv"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Sur quoi posent-ils la nourriture ?"
+correct_answer = "une nappe"
+choices = Array[String](["une table en bois", "un sac", "un banc"])
+passage = SubResource("Resource_3jhwo")
+
+[sub_resource type="Resource" id="Resource_oash4"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que mange Sofia ?"
+correct_answer = "un sandwich au fromage"
+choices = Array[String](["une pizza", "une soupe", "un gâteau"])
+passage = SubResource("Resource_3jhwo")
+
+[sub_resource type="Resource" id="Resource_45tlv"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que coupe la maman ?"
+correct_answer = "une pastèque"
+choices = Array[String](["une pomme", "une orange", "un melon vert"])
+passage = SubResource("Resource_3jhwo")
+
+[sub_resource type="Resource" id="Resource_4u8vi"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Quels animaux broutent dans le pré ?"
+correct_answer = "des vaches"
+choices = Array[String](["des chevaux", "des moutons", "des chèvres"])
+passage = SubResource("Resource_3jhwo")
+
+[sub_resource type="Resource" id="Resource_vansd"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Apres quoi Sofia court-elle ?"
+correct_answer = "des papillons"
+choices = Array[String](["des oiseaux", "des lapins", "des chats"])
+passage = SubResource("Resource_3jhwo")
+
+[sub_resource type="Resource" id="Resource_6252l"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "De quel instrument joue le papa ?"
+correct_answer = "la guitare"
+choices = Array[String](["le piano", "le tambour", "la flûte"])
+passage = SubResource("Resource_3jhwo")
+
+[sub_resource type="Resource" id="Resource_yu8jy"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où Sofia s'endort-elle ?"
+correct_answer = "dans l'herbe"
+choices = Array[String](["dans la voiture", "sur un banc", "dans sa chambre"])
+passage = SubResource("Resource_3jhwo")
+
+[sub_resource type="Resource" id="Resource_ds5ft"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Sous quoi posent-ils la nappe ?"
+correct_answer = "un arbre"
+choices = Array[String](["un parasol", "une tente", "un toit"])
+passage = SubResource("Resource_3jhwo")
+
+[sub_resource type="Resource" id="Resource_6hbcp"]
+script = ExtResource("2_lihs0")
+text = "Elias va à la plage. Il a un cerf-volant rouge et jaune. Le vent souffle très fort. Il court sur le sable. Le cerf-volant monte très haut. Sa soeur applaudit. Un chien joue près d'eux. Il tient bien la ficelle. Il est très fier de son beau cerf-volant."
+
+[sub_resource type="Resource" id="Resource_c8y13"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où Elias va-t-il jouer ?"
+correct_answer = "a la plage"
+choices = Array[String](["au parc", "a la montagne", "dans le jardin"])
+passage = SubResource("Resource_6hbcp")
+
+[sub_resource type="Resource" id="Resource_pyj4r"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "De quelles couleurs est le cerf-volant ?"
+correct_answer = "rouge et jaune"
+choices = Array[String](["bleu et blanc", "vert et noir", "rose et violet"])
+passage = SubResource("Resource_6hbcp")
+
+[sub_resource type="Resource" id="Resource_edkqh"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment souffle le vent ?"
+correct_answer = "très fort"
+choices = Array[String](["très doucement", "pas du tout", "un peu seulement"])
+passage = SubResource("Resource_6hbcp")
+
+[sub_resource type="Resource" id="Resource_d34l4"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Sur quoi Elias court-il ?"
+correct_answer = "le sable"
+choices = Array[String](["l'herbe", "un chemin", "les rochers"])
+passage = SubResource("Resource_6hbcp")
+
+[sub_resource type="Resource" id="Resource_huhox"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où monte le cerf-volant ?"
+correct_answer = "très haut"
+choices = Array[String](["juste au-dessus du sol", "dans un arbre", "sur le toit"])
+passage = SubResource("Resource_6hbcp")
+
+[sub_resource type="Resource" id="Resource_ieope"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qui applaudit Elias ?"
+correct_answer = "sa soeur"
+choices = Array[String](["son papa", "sa mamie", "sa maîtresse"])
+passage = SubResource("Resource_6hbcp")
+
+[sub_resource type="Resource" id="Resource_hr1h3"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Quel animal joue près d'eux ?"
+correct_answer = "un chien"
+choices = Array[String](["un chat", "un oiseau", "un crabe"])
+passage = SubResource("Resource_6hbcp")
+
+[sub_resource type="Resource" id="Resource_nok2f"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que tient bien Elias ?"
+correct_answer = "la ficelle"
+choices = Array[String](["un seau", "une pelle", "un ballon"])
+passage = SubResource("Resource_6hbcp")
+
+[sub_resource type="Resource" id="Resource_sxrys"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment se sent Elias a la fin ?"
+correct_answer = "fier"
+choices = Array[String](["triste", "fatigué", "en colère"])
+passage = SubResource("Resource_6hbcp")
+
+[sub_resource type="Resource" id="Resource_7hent"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où se passe cette histoire ?"
+correct_answer = "a la plage"
+choices = Array[String](["au parc", "en montagne", "a la ferme"])
+passage = SubResource("Resource_6hbcp")
+
+[sub_resource type="Resource" id="Resource_o841p"]
+script = ExtResource("2_lihs0")
+text = "Greta va en foret. Elle est avec son papi. Ils cueillent des champignons. Elle porte un petit panier. Papi montre les bons champignons. Elle trouve un gros cèpe. Un oiseau chante au-dessus d'eux. Elle ramasse des châtaignes. Le panier devient lourd. Elle est fière. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la."
+
+[sub_resource type="Resource" id="Resource_6mmfv"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où Greta va-t-elle avec son papi ?"
+correct_answer = "en foret"
+choices = Array[String](["a la plage", "au marche", "au jardin"])
+passage = SubResource("Resource_o841p")
+
+[sub_resource type="Resource" id="Resource_k1hky"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que cueillent-ils ?"
+correct_answer = "des champignons"
+choices = Array[String](["des fraises", "des fleurs", "des pommes"])
+passage = SubResource("Resource_o841p")
+
+[sub_resource type="Resource" id="Resource_6fth2"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que porte Greta ?"
+correct_answer = "un panier"
+choices = Array[String](["un sac à dos", "une boite", "un seau"])
+passage = SubResource("Resource_o841p")
+
+[sub_resource type="Resource" id="Resource_ws2f5"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que lui montre papi ?"
+correct_answer = "les bons champignons"
+choices = Array[String](["planter des arbres", "faire du feu", "pécher"])
+passage = SubResource("Resource_o841p")
+
+[sub_resource type="Resource" id="Resource_xlq5t"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que trouve Greta ?"
+correct_answer = "un gros cèpe"
+choices = Array[String](["des fleurs", "un nid d'oiseau", "un caillou"])
+passage = SubResource("Resource_o841p")
+
+[sub_resource type="Resource" id="Resource_x63i8"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qu'est-ce qui chante au-dessus d'eux ?"
+correct_answer = "un oiseau"
+choices = Array[String](["un grillon", "le vent", "personne"])
+passage = SubResource("Resource_o841p")
+
+[sub_resource type="Resource" id="Resource_32d30"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que ramasse aussi Greta ?"
+correct_answer = "des châtaignes"
+choices = Array[String](["des noisettes", "des glands", "des pommes de pin"])
+passage = SubResource("Resource_o841p")
+
+[sub_resource type="Resource" id="Resource_b0kx0"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment devient le panier ?"
+correct_answer = "lourd"
+choices = Array[String](["léger", "tout mouillé", "casse"])
+passage = SubResource("Resource_o841p")
+
+[sub_resource type="Resource" id="Resource_867aa"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Avec qui Greta part-elle cueillir ?"
+correct_answer = "son papi"
+choices = Array[String](["sa mamie", "sa classe", "sa soeur"])
+passage = SubResource("Resource_o841p")
+
+[sub_resource type="Resource" id="Resource_q06xn"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment Greta se sent-elle a la fin ?"
+correct_answer = "fière"
+choices = Array[String](["déçue", "fatiguée et triste", "en colère"])
+passage = SubResource("Resource_o841p")
+
+[sub_resource type="Resource" id="Resource_o0t1c"]
+script = ExtResource("2_lihs0")
+text = "Oskar se réveille. Il voit la neige blanche. Il met vite ses bottes. Il met aussi son bonnet. Dehors, Il fait des boules de neige. Il joue avec son frère. Ils glissent sur une petite pente. Un merle rouge se pose sur une branche. Il a froid aux mains. Maman prépare un chocolat chaud. Il est très content. Il rit un peu."
+
+[sub_resource type="Resource" id="Resource_to3r6"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que voit Oskar en se réveillant ?"
+correct_answer = "la neige blanche"
+choices = Array[String](["la pluie", "le soleil", "le brouillard"])
+passage = SubResource("Resource_o0t1c")
+
+[sub_resource type="Resource" id="Resource_8jesa"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que met Oskar avant de sortir ?"
+correct_answer = "ses bottes et son bonnet"
+choices = Array[String](["son maillot de bain", "ses sandales", "sa casquette"])
+passage = SubResource("Resource_o0t1c")
+
+[sub_resource type="Resource" id="Resource_o3wxi"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Avec qui Oskar joue-t-il dehors ?"
+correct_answer = "son frère"
+choices = Array[String](["sa mamie", "sa classe", "son chien"])
+passage = SubResource("Resource_o0t1c")
+
+[sub_resource type="Resource" id="Resource_f81au"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que font-ils avec la neige ?"
+correct_answer = "des boules de neige"
+choices = Array[String](["un château de sable", "un cerf-volant", "un feu"])
+passage = SubResource("Resource_o0t1c")
+
+[sub_resource type="Resource" id="Resource_gh26h"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Sur quoi glissent-ils ?"
+correct_answer = "une petite pente"
+choices = Array[String](["un lac gele", "un toboggan", "un tapis"])
+passage = SubResource("Resource_o0t1c")
+
+[sub_resource type="Resource" id="Resource_3stmh"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Quel oiseau se pose sur une branche ?"
+correct_answer = "un merle rouge"
+choices = Array[String](["un pigeon", "une mésange bleue", "un corbeau"])
+passage = SubResource("Resource_o0t1c")
+
+[sub_resource type="Resource" id="Resource_3y02v"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où Oskar a-t-il froid ?"
+correct_answer = "aux mains"
+choices = Array[String](["aux pieds", "au nez", "au dos"])
+passage = SubResource("Resource_o0t1c")
+
+[sub_resource type="Resource" id="Resource_64b84"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que prépare la maman d'Oskar ?"
+correct_answer = "un chocolat chaud"
+choices = Array[String](["une soupe", "un thé", "un jus d'orange"])
+passage = SubResource("Resource_o0t1c")
+
+[sub_resource type="Resource" id="Resource_ekg14"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment est Oskar a la fin ?"
+correct_answer = "très content"
+choices = Array[String](["très triste", "fâche", "malade"])
+passage = SubResource("Resource_o0t1c")
+
+[sub_resource type="Resource" id="Resource_uo7wv"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "De quelle couleur est la neige ?"
+correct_answer = "blanche"
+choices = Array[String](["grise", "bleue", "jaune"])
+passage = SubResource("Resource_o0t1c")
+
+[sub_resource type="Resource" id="Resource_k5tmm"]
+script = ExtResource("2_lihs0")
+text = "Chiara fête son anniversaire. C'est à la maison. Maman a fait un gâteau au chocolat. Elle souffle huit bougies. Ses amis offrent des cadeaux. Ils jouent a caché-cache dans le jardin. Elle ouvre un joli livre. Tout le monde chante et danse. Elle passe une belle journée. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la."
+
+[sub_resource type="Resource" id="Resource_d3taf"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où Chiara fête-t-elle son anniversaire ?"
+correct_answer = "a la maison"
+choices = Array[String](["au restaurant", "a l'école", "au parc"])
+passage = SubResource("Resource_k5tmm")
+
+[sub_resource type="Resource" id="Resource_m0r1y"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Quel gâteau a fait la maman ?"
+correct_answer = "un gâteau au chocolat"
+choices = Array[String](["un gâteau aux fraises", "une tarte aux pommes", "des cookies"])
+passage = SubResource("Resource_k5tmm")
+
+[sub_resource type="Resource" id="Resource_u5ltb"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Combien de bougies Chiara souffle-t-elle ?"
+correct_answer = "huit"
+choices = Array[String](["six", "dix", "sept"])
+passage = SubResource("Resource_k5tmm")
+
+[sub_resource type="Resource" id="Resource_0jiw6"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que lui offrent ses amis ?"
+correct_answer = "des cadeaux"
+choices = Array[String](["des fleurs", "des bonbons", "de l'argent"])
+passage = SubResource("Resource_k5tmm")
+
+[sub_resource type="Resource" id="Resource_bi787"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "À quoi jouent-ils dans le jardin ?"
+correct_answer = "a caché-cache"
+choices = Array[String](["au ballon", "aux billes", "a la corde à sauter"])
+passage = SubResource("Resource_k5tmm")
+
+[sub_resource type="Resource" id="Resource_vv7xd"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Quel cadeau Chiara ouvre-t-elle ?"
+correct_answer = "un joli livre"
+choices = Array[String](["une poupée", "un vélo", "un puzzle"])
+passage = SubResource("Resource_k5tmm")
+
+[sub_resource type="Resource" id="Resource_6508x"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que fait tout le monde ?"
+correct_answer = "chanter et danser"
+choices = Array[String](["regarder un film", "dormir", "partir très vite"])
+passage = SubResource("Resource_k5tmm")
+
+[sub_resource type="Resource" id="Resource_egdia"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment Chiara trouve-t-elle sa journée ?"
+correct_answer = "belle"
+choices = Array[String](["ennuyeuse", "trop courte et triste", "fatigante"])
+passage = SubResource("Resource_k5tmm")
+
+[sub_resource type="Resource" id="Resource_mq2rx"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qui a fait le gâteau ?"
+correct_answer = "la maman de Chiara"
+choices = Array[String](["Chiara elle-même", "sa mamie", "le boulanger"])
+passage = SubResource("Resource_k5tmm")
+
+[sub_resource type="Resource" id="Resource_5cu7u"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Quel événement fête Chiara ?"
+correct_answer = "son anniversaire"
+choices = Array[String](["la rentrée", "Noël", "une fête d'école"])
+passage = SubResource("Resource_k5tmm")
+
+[sub_resource type="Resource" id="Resource_ito58"]
+script = ExtResource("2_lihs0")
+text = "Liam va à la bibliothèque. C'est le mercredi. Il est avec sa maman. Il cherche un livre sur les dinosaures. La bibliothécaire l'aide. Il s'installe dans un grand fauteuil. Il lit une histoire de dragons. Un garçon lit à côté de lui. Il prend trois livres. Il a hâte de les lire. Il rit un peu."
+
+[sub_resource type="Resource" id="Resource_4j1bs"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Quel jour Liam va-t-il a la bibliothèque ?"
+correct_answer = "le mercredi"
+choices = Array[String](["le lundi", "le samedi", "le dimanche"])
+passage = SubResource("Resource_ito58")
+
+[sub_resource type="Resource" id="Resource_b012e"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Avec qui y va-t-il ?"
+correct_answer = "sa maman"
+choices = Array[String](["son papa", "sa classe", "sa mamie"])
+passage = SubResource("Resource_ito58")
+
+[sub_resource type="Resource" id="Resource_t4r7k"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que cherche Liam ?"
+correct_answer = "un livre sur les dinosaures"
+choices = Array[String](["un jeu vidéo", "un cahier", "un jouet"])
+passage = SubResource("Resource_ito58")
+
+[sub_resource type="Resource" id="Resource_sh6i1"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qui l'aide à trouver un livre ?"
+correct_answer = "la bibliothécaire"
+choices = Array[String](["sa maman", "son ami", "la maîtresse"])
+passage = SubResource("Resource_ito58")
+
+[sub_resource type="Resource" id="Resource_i0f4n"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où Liam s'installe-t-il ?"
+correct_answer = "un grand fauteuil"
+choices = Array[String](["une chaise en bois", "le sol", "une table haute"])
+passage = SubResource("Resource_ito58")
+
+[sub_resource type="Resource" id="Resource_midym"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Quelle histoire Liam lit-il ?"
+correct_answer = "une histoire de dragons"
+choices = Array[String](["une histoire de princesses", "une histoire de pirates", "une histoire de robots"])
+passage = SubResource("Resource_ito58")
+
+[sub_resource type="Resource" id="Resource_tpf6o"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qui lit à côté de Liam ?"
+correct_answer = "un garçon"
+choices = Array[String](["sa maman", "la bibliothécaire", "personne"])
+passage = SubResource("Resource_ito58")
+
+[sub_resource type="Resource" id="Resource_2po0j"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Combien de livres Liam prend-il ?"
+correct_answer = "trois"
+choices = Array[String](["deux", "quatre", "un"])
+passage = SubResource("Resource_ito58")
+
+[sub_resource type="Resource" id="Resource_xut2m"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qu'a hâte de faire Liam ?"
+correct_answer = "lire les livres"
+choices = Array[String](["retourner à l'école", "rendre les livres", "dormir"])
+passage = SubResource("Resource_ito58")
+
+[sub_resource type="Resource" id="Resource_4fwx2"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où se passe cette histoire ?"
+correct_answer = "a la bibliothèque"
+choices = Array[String](["a l'école", "a la maison", "au musée"])
+passage = SubResource("Resource_ito58")
+
+[sub_resource type="Resource" id="Resource_pdjia"]
+script = ExtResource("2_lihs0")
+text = "Amelia va à la piscine. C'est le samedi. Elle est avec son papa. Elle met son maillot rose. Elle saute dans le grand bassin. Elle apprend a nager. Papa la voit et sourit. Elle glisse sur le toboggan bleu. Elle mange une glace apres. Elle est fatiguée et heureuse. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la."
+
+[sub_resource type="Resource" id="Resource_r4jqx"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Quel jour Amelia va-t-elle a la piscine ?"
+correct_answer = "le samedi"
+choices = Array[String](["le mardi", "le dimanche", "le vendredi"])
+passage = SubResource("Resource_pdjia")
+
+[sub_resource type="Resource" id="Resource_po2f2"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Avec qui y va-t-elle ?"
+correct_answer = "son papa"
+choices = Array[String](["sa maman", "sa classe", "sa mamie"])
+passage = SubResource("Resource_pdjia")
+
+[sub_resource type="Resource" id="Resource_6vq8q"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "De quelle couleur est son maillot ?"
+correct_answer = "rose"
+choices = Array[String](["bleu", "vert", "jaune"])
+passage = SubResource("Resource_pdjia")
+
+[sub_resource type="Resource" id="Resource_ycood"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où Amelia saute-t-elle ?"
+correct_answer = "le grand bassin"
+choices = Array[String](["le petit bassin", "la mer", "une rivière"])
+passage = SubResource("Resource_pdjia")
+
+[sub_resource type="Resource" id="Resource_uti1s"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qu'apprend Amelia ?"
+correct_answer = "a nager"
+choices = Array[String](["à plonger très profond", "à sauter du plongeoir", "à flotter seulement"])
+passage = SubResource("Resource_pdjia")
+
+[sub_resource type="Resource" id="Resource_ffepb"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qui regarde et sourit ?"
+correct_answer = "papa"
+choices = Array[String](["le maître nageur", "sa soeur", "personne"])
+passage = SubResource("Resource_pdjia")
+
+[sub_resource type="Resource" id="Resource_5ucxa"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "De quelle couleur est le toboggan ?"
+correct_answer = "bleu"
+choices = Array[String](["rouge", "jaune", "vert"])
+passage = SubResource("Resource_pdjia")
+
+[sub_resource type="Resource" id="Resource_cpgwx"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que mange Amelia apres la piscine ?"
+correct_answer = "une glace"
+choices = Array[String](["un gâteau", "un fruit", "un sandwich"])
+passage = SubResource("Resource_pdjia")
+
+[sub_resource type="Resource" id="Resource_u1bt2"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment Amelia se sent-elle a la fin ?"
+correct_answer = "fatiguée et heureuse"
+choices = Array[String](["triste", "malade", "en colère"])
+passage = SubResource("Resource_pdjia")
+
+[sub_resource type="Resource" id="Resource_ctidu"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que fait Amelia dans le grand bassin ?"
+correct_answer = "elle apprend a nager"
+choices = Array[String](["elle lit un livre", "elle dort", "elle mange"])
+passage = SubResource("Resource_pdjia")
+
+[sub_resource type="Resource" id="Resource_b4yqi"]
+script = ExtResource("2_lihs0")
+text = "Mateo fait une balade a vélo. Il est avec sa maman. Il met un casque bleu. Ils roulent le long de la rivière. Il voit des canards. Il s'arrête pour boire de l'eau. Une côte fatigue Il. Maman l'aide à continuer. Il vient en haut. Il est très fier. Il rit un peu."
+
+[sub_resource type="Resource" id="Resource_1blcw"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Avec qui Mateo fait-il du vélo ?"
+correct_answer = "sa maman"
+choices = Array[String](["son papa", "sa classe", "son frère"])
+passage = SubResource("Resource_b4yqi")
+
+[sub_resource type="Resource" id="Resource_latfj"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que porte Mateo sur la tête ?"
+correct_answer = "un casque bleu"
+choices = Array[String](["une casquette", "un bonnet", "rien du tout"])
+passage = SubResource("Resource_b4yqi")
+
+[sub_resource type="Resource" id="Resource_b3ngk"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Le long de quoi roulent-ils ?"
+correct_answer = "la rivière"
+choices = Array[String](["la route principale", "la foret", "la plage"])
+passage = SubResource("Resource_b4yqi")
+
+[sub_resource type="Resource" id="Resource_dy4rm"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Quels animaux Mateo voit-il ?"
+correct_answer = "des canards"
+choices = Array[String](["des poissons", "des cygnes", "des grenouilles"])
+passage = SubResource("Resource_b4yqi")
+
+[sub_resource type="Resource" id="Resource_j3xrb"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Pourquoi Mateo s'arrête-t-il ?"
+correct_answer = "pour boire de l'eau"
+choices = Array[String](["pour manger", "pour dormir", "car son vélo est cassé"])
+passage = SubResource("Resource_b4yqi")
+
+[sub_resource type="Resource" id="Resource_yam8s"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qu'est-ce qui fatigue Mateo ?"
+correct_answer = "une côte"
+choices = Array[String](["le vent", "la chaleur", "la pluie"])
+passage = SubResource("Resource_b4yqi")
+
+[sub_resource type="Resource" id="Resource_00i1i"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qui encourage Mateo ?"
+correct_answer = "sa maman"
+choices = Array[String](["son papa", "sa mamie", "un ami"])
+passage = SubResource("Resource_b4yqi")
+
+[sub_resource type="Resource" id="Resource_bdoit"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment Mateo se sent-il en haut ?"
+correct_answer = "fier"
+choices = Array[String](["triste", "en colère", "malade"])
+passage = SubResource("Resource_b4yqi")
+
+[sub_resource type="Resource" id="Resource_ajj6l"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "De quelle couleur est le casque de Mateo ?"
+correct_answer = "bleu"
+choices = Array[String](["rouge", "vert", "noir"])
+passage = SubResource("Resource_b4yqi")
+
+[sub_resource type="Resource" id="Resource_rvveg"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que fait Mateo tout au long de la balade ?"
+correct_answer = "il roule a vélo"
+choices = Array[String](["il marche", "il nage", "il court"])
+passage = SubResource("Resource_b4yqi")
+
+[sub_resource type="Resource" id="Resource_0wye6"]
+script = ExtResource("2_lihs0")
+text = "Freya trouve une cabane dans les bois. Elle est avec ses amis. La cabane est faite de branches. Elle entre par une petite porte. Il y a une table en bois. Ses amis donnent des coussins. Un écureuil voit de loin. Elle orne la cabane. Elle aime cet endroit secret. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien."
+
+[sub_resource type="Resource" id="Resource_km80i"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où Freya trouve-t-elle une cabane ?"
+correct_answer = "dans les bois"
+choices = Array[String](["dans son jardin", "a l'école", "a la plage"])
+passage = SubResource("Resource_0wye6")
+
+[sub_resource type="Resource" id="Resource_rk0f1"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Avec qui la trouve-t-elle ?"
+correct_answer = "ses amis"
+choices = Array[String](["sa famille", "sa classe", "personne"])
+passage = SubResource("Resource_0wye6")
+
+[sub_resource type="Resource" id="Resource_ce077"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "En quoi est faite la cabane ?"
+correct_answer = "des branches"
+choices = Array[String](["du carton", "des pierres", "du métal"])
+passage = SubResource("Resource_0wye6")
+
+[sub_resource type="Resource" id="Resource_43f33"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Par où Freya entre-t-elle ?"
+correct_answer = "une petite porte"
+choices = Array[String](["une grande fenêtre", "le toit", "un tunnel"])
+passage = SubResource("Resource_0wye6")
+
+[sub_resource type="Resource" id="Resource_m58s2"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qu'y a-t-il a l'intérieur ?"
+correct_answer = "une table en bois"
+choices = Array[String](["un lit", "une cuisine", "rien du tout"])
+passage = SubResource("Resource_0wye6")
+
+[sub_resource type="Resource" id="Resource_h72b5"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que apportent les amis de Freya ?"
+correct_answer = "des coussins"
+choices = Array[String](["des couvertures", "des lampes", "des livres"])
+passage = SubResource("Resource_0wye6")
+
+[sub_resource type="Resource" id="Resource_eoq20"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Quel animal regarde de loin ?"
+correct_answer = "un écureuil"
+choices = Array[String](["un oiseau", "un renard", "un lapin"])
+passage = SubResource("Resource_0wye6")
+
+[sub_resource type="Resource" id="Resource_fqeby"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que décide de faire Freya ?"
+correct_answer = "décorer la cabane"
+choices = Array[String](["détruire la cabane", "vendre la cabane", "cacher la cabane"])
+passage = SubResource("Resource_0wye6")
+
+[sub_resource type="Resource" id="Resource_v536o"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment Freya trouve-t-elle cet endroit ?"
+correct_answer = "elle adore cet endroit"
+choices = Array[String](["elle a peur de cet endroit", "elle s'ennuie", "elle est déçue"])
+passage = SubResource("Resource_0wye6")
+
+[sub_resource type="Resource" id="Resource_81p73"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Pour s'asseoir, que faut-il apporter ?"
+correct_answer = "des coussins"
+choices = Array[String](["des chaises", "des tapis", "des bancs"])
+passage = SubResource("Resource_0wye6")
+
+[sub_resource type="Resource" id="Resource_mrc5t"]
+script = ExtResource("2_lihs0")
+text = "Antoine promene son chien Rex. Ils sont dans le parc. Rex voit un chat. Il se met à courir. Il court derrière lui. Rex disparaît. Il cherche partout. Il appelle Rex très fort. Une dame trouve Rex. Elle ramene Rex a Il. Il serre son chien très fort. Il attache mieux la laisse. Il rit un peu."
+
+[sub_resource type="Resource" id="Resource_47wle"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment s'appelle le chien d'Antoine ?"
+correct_answer = "Rex"
+choices = Array[String](["Milo", "Max", "Fido"])
+passage = SubResource("Resource_mrc5t")
+
+[sub_resource type="Resource" id="Resource_nmwex"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où Antoine promene-t-il son chien ?"
+correct_answer = "dans le parc"
+choices = Array[String](["a la plage", "en foret", "dans la rue"])
+passage = SubResource("Resource_mrc5t")
+
+[sub_resource type="Resource" id="Resource_idp6r"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que voit Rex ?"
+correct_answer = "un chat"
+choices = Array[String](["un os", "un autre chien", "un oiseau"])
+passage = SubResource("Resource_mrc5t")
+
+[sub_resource type="Resource" id="Resource_5rdn3"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que fait Antoine quand Rex disparaît ?"
+correct_answer = "il cherche et appelle"
+choices = Array[String](["il rentre chez lui", "il pleure sans bouger", "il va manger"])
+passage = SubResource("Resource_mrc5t")
+
+[sub_resource type="Resource" id="Resource_4d8ks"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qui trouve Rex ?"
+correct_answer = "une dame"
+choices = Array[String](["un policier", "un autre enfant", "personne"])
+passage = SubResource("Resource_mrc5t")
+
+[sub_resource type="Resource" id="Resource_2rstn"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où trouve-t-on Rex ?"
+correct_answer = "près d'une fontaine"
+choices = Array[String](["sous un arbre", "près du toboggan", "dans une poubelle"])
+passage = SubResource("Resource_mrc5t")
+
+[sub_resource type="Resource" id="Resource_jm35l"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que fait Antoine quand il retrouve Rex ?"
+correct_answer = "il le serre dans ses bras"
+choices = Array[String](["il le gronde", "il repart sans le voir", "il pleure de peur"])
+passage = SubResource("Resource_mrc5t")
+
+[sub_resource type="Resource" id="Resource_5rkr0"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que fait Antoine différemment a la fin ?"
+correct_answer = "il attache mieux la laisse"
+choices = Array[String](["il ne promène plus Rex", "il achète un autre chien", "il reste a la maison"])
+passage = SubResource("Resource_mrc5t")
+
+[sub_resource type="Resource" id="Resource_xb0q5"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où se passe cette histoire ?"
+correct_answer = "dans un parc"
+choices = Array[String](["a l'école", "chez Antoine", "au supermarché"])
+passage = SubResource("Resource_mrc5t")
+
+[sub_resource type="Resource" id="Resource_nuhhi"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Quel animal Rex voit-il d'abord ?"
+correct_answer = "un chat"
+choices = Array[String](["un chien", "un oiseau", "un écureuil"])
+passage = SubResource("Resource_mrc5t")
+
+[sub_resource type="Resource" id="Resource_u8n6r"]
+script = ExtResource("2_lihs0")
+text = "Zoé fait sa rentrée des classes. Elle porte un nouveau cartable violet. Elle retrouve ses copains dans la cour. Sa maîtresse s'appelle madame Dubois. Elle découvre sa nouvelle classe. Elle range ses crayons. A la recreation, Elle saute a la corde. Elle est contente de sa journée. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la. C'est un beau jour."
+
+[sub_resource type="Resource" id="Resource_jecr3"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Quel jour se passe l'histoire ?"
+correct_answer = "le jour de la rentrée"
+choices = Array[String](["un jour de vacances", "un dimanche", "un jour de neige"])
+passage = SubResource("Resource_u8n6r")
+
+[sub_resource type="Resource" id="Resource_qnb82"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que porte Zoé ?"
+correct_answer = "un nouveau cartable violet"
+choices = Array[String](["un sac à dos rouge", "une valise", "un panier"])
+passage = SubResource("Resource_u8n6r")
+
+[sub_resource type="Resource" id="Resource_uyxr3"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où Zoé retrouve-t-elle ses copains ?"
+correct_answer = "dans la cour"
+choices = Array[String](["dans le bus", "a la cantine", "chez elle"])
+passage = SubResource("Resource_u8n6r")
+
+[sub_resource type="Resource" id="Resource_7je32"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment s'appelle la maîtresse ?"
+correct_answer = "madame Dubois"
+choices = Array[String](["madame Petit", "madame Roy", "madame Simon"])
+passage = SubResource("Resource_u8n6r")
+
+[sub_resource type="Resource" id="Resource_4khej"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que découvre Zoé ?"
+correct_answer = "sa nouvelle classe"
+choices = Array[String](["une nouvelle école", "un nouveau jeu", "un nouveau livre"])
+passage = SubResource("Resource_u8n6r")
+
+[sub_resource type="Resource" id="Resource_ripg6"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que range Zoé ?"
+correct_answer = "ses crayons"
+choices = Array[String](["son cartable", "ses livres", "ses vêtements"])
+passage = SubResource("Resource_u8n6r")
+
+[sub_resource type="Resource" id="Resource_ugcqb"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "À quoi Zoé joue-t-elle a la recreation ?"
+correct_answer = "a la corde à sauter"
+choices = Array[String](["au ballon", "aux billes", "a caché-cache"])
+passage = SubResource("Resource_u8n6r")
+
+[sub_resource type="Resource" id="Resource_ahumb"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment Zoé se sent-elle a la fin de la journée ?"
+correct_answer = "contente"
+choices = Array[String](["triste", "fatiguée et fâchée", "malade"])
+passage = SubResource("Resource_u8n6r")
+
+[sub_resource type="Resource" id="Resource_xplhk"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "De quelle couleur est le cartable de Zoé ?"
+correct_answer = "violet"
+choices = Array[String](["rose", "bleu", "vert"])
+passage = SubResource("Resource_u8n6r")
+
+[sub_resource type="Resource" id="Resource_n1lr6"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Quel événement vit Zoé aujourd'hui ?"
+correct_answer = "la rentrée des classes"
+choices = Array[String](["son anniversaire", "un examen", "une sortie scolaire"])
+passage = SubResource("Resource_u8n6r")
+
+[sub_resource type="Resource" id="Resource_33o7u"]
+script = ExtResource("2_lihs0")
+text = "Noah présente son expérience. C'est l'exposition de sciences. Il a fait un petit volcan en carton. Il verse du vinaigre. Une mousse orange sort du volcan. Les autres élèves sont contents. La maîtresse dit bravo a Il. Il reçoit un diplôme. Il est très fier. Il rit un peu. Il fait beau. Le jour est doux. Tout va bien."
+
+[sub_resource type="Resource" id="Resource_fcnj5"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que présente Noah ?"
+correct_answer = "son expérience"
+choices = Array[String](["un dessin", "un poème", "une chanson"])
+passage = SubResource("Resource_33o7u")
+
+[sub_resource type="Resource" id="Resource_8dqw8"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qu'a fait Noah ?"
+correct_answer = "un petit volcan en carton"
+choices = Array[String](["une fusée", "un robot", "un pont"])
+passage = SubResource("Resource_33o7u")
+
+[sub_resource type="Resource" id="Resource_xujry"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que verse Noah ?"
+correct_answer = "du vinaigre"
+choices = Array[String](["de l'eau", "du sirop", "du savon"])
+passage = SubResource("Resource_33o7u")
+
+[sub_resource type="Resource" id="Resource_u2oop"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que sort du volcan ?"
+correct_answer = "une mousse orange"
+choices = Array[String](["de la fumée noire", "de l'eau claire", "rien du tout"])
+passage = SubResource("Resource_33o7u")
+
+[sub_resource type="Resource" id="Resource_d0xeg"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que font les autres élèves ?"
+correct_answer = "ils applaudissent"
+choices = Array[String](["ils rient de lui", "ils s'ennuient", "ils partent"])
+passage = SubResource("Resource_33o7u")
+
+[sub_resource type="Resource" id="Resource_2p2nb"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qui félicite Noah ?"
+correct_answer = "la maîtresse"
+choices = Array[String](["le directeur", "sa maman", "un journaliste"])
+passage = SubResource("Resource_33o7u")
+
+[sub_resource type="Resource" id="Resource_hvagy"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que reçoit Noah ?"
+correct_answer = "un diplôme"
+choices = Array[String](["une médaille", "un livre", "un jouet"])
+passage = SubResource("Resource_33o7u")
+
+[sub_resource type="Resource" id="Resource_w65w2"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment Noah se sent-il a la fin ?"
+correct_answer = "très fier"
+choices = Array[String](["déçu", "gêne", "en colère"])
+passage = SubResource("Resource_33o7u")
+
+[sub_resource type="Resource" id="Resource_jbff5"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où se passe cette histoire ?"
+correct_answer = "a l'exposition de sciences"
+choices = Array[String](["a la piscine", "au musée", "a la ferme"])
+passage = SubResource("Resource_33o7u")
+
+[sub_resource type="Resource" id="Resource_swait"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Quelle matière concerne cette expérience ?"
+correct_answer = "les sciences"
+choices = Array[String](["le sport", "la musique", "le dessin"])
+passage = SubResource("Resource_33o7u")
+
+[sub_resource type="Resource" id="Resource_wcctm"]
+script = ExtResource("2_lihs0")
+text = "Camille fait des crêpes. Elle est avec sa grand-mère. Elles mélangent farine, oeufs et lait. Elle verse la pâte dans la poêle. Grand-mère retourne la crêpe. Elle ajoute du sucre. Elle ajoute aussi de la confiture. Elles gouttent les crêpes a table. Elle se salit de farine. Elle aime cuisiner avec sa grand-mère. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien."
+
+[sub_resource type="Resource" id="Resource_cnvcg"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que cuisine Camille ?"
+correct_answer = "des crêpes"
+choices = Array[String](["un gâteau", "une tarte", "des cookies"])
+passage = SubResource("Resource_wcctm")
+
+[sub_resource type="Resource" id="Resource_jeh0r"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Avec qui cuisine-t-elle ?"
+correct_answer = "sa grand-mère"
+choices = Array[String](["sa maman", "sa tâta", "sa soeur"])
+passage = SubResource("Resource_wcctm")
+
+[sub_resource type="Resource" id="Resource_rfwf8"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que mélangent-elles ?"
+correct_answer = "farine, oeufs et lait"
+choices = Array[String](["farine et sucre seulement", "oeufs et beurre", "lait et chocolat"])
+passage = SubResource("Resource_wcctm")
+
+[sub_resource type="Resource" id="Resource_5onc3"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où Camille verse-t-elle la pâte ?"
+correct_answer = "dans la poêle"
+choices = Array[String](["dans un bol", "dans le four", "dans une casserole"])
+passage = SubResource("Resource_wcctm")
+
+[sub_resource type="Resource" id="Resource_ocq00"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qui retourne la crêpe ?"
+correct_answer = "sa grand-mère"
+choices = Array[String](["Camille", "personne", "son papa"])
+passage = SubResource("Resource_wcctm")
+
+[sub_resource type="Resource" id="Resource_obx8n"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que Camille ajoute-t-elle ?"
+correct_answer = "du sucre et de la confiture"
+choices = Array[String](["du miel seulement", "du fromage", "de la crème"])
+passage = SubResource("Resource_wcctm")
+
+[sub_resource type="Resource" id="Resource_e8jjg"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où gouttent-elles les crêpes ?"
+correct_answer = "a table"
+choices = Array[String](["dans la cuisine debout", "dans le jardin", "dans la voiture"])
+passage = SubResource("Resource_wcctm")
+
+[sub_resource type="Resource" id="Resource_cs7el"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "De quoi Camille se salit-elle ?"
+correct_answer = "de farine"
+choices = Array[String](["de chocolat", "de confiture", "d'eau"])
+passage = SubResource("Resource_wcctm")
+
+[sub_resource type="Resource" id="Resource_up05r"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment Camille trouve-t-elle cette activité ?"
+correct_answer = "elle adore cuisiner"
+choices = Array[String](["elle déteste ca", "elle s'ennuie", "elle a peur"])
+passage = SubResource("Resource_wcctm")
+
+[sub_resource type="Resource" id="Resource_cveer"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que préparent-elles ensemble ?"
+correct_answer = "des crêpes"
+choices = Array[String](["un ragoût", "une salade", "une soupe"])
+passage = SubResource("Resource_wcctm")
+
+[sub_resource type="Resource" id="Resource_dp2k1"]
+script = ExtResource("2_lihs0")
+text = "Bruno aide son papi. Ils jardinent dans le potager. Ils plantent des graines de tomates. Il arrose la terre. Il a un petit arrosoir vert. Un ver de terre sort du sol. Papi montre les mauvaises herbes. Une coccinelle se pose sur une feuille. Il attend de voir pousser les tomates. Il aime jardiner avec papi. Il rit un peu. Il fait beau. Le jour est doux. Tout va bien."
+
+[sub_resource type="Resource" id="Resource_3e6o7"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où Bruno aide-t-il son papi ?"
+correct_answer = "dans le potager"
+choices = Array[String](["dans la cuisine", "au garage", "au marche"])
+passage = SubResource("Resource_dp2k1")
+
+[sub_resource type="Resource" id="Resource_llvyp"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que plantent-ils ?"
+correct_answer = "des graines de tomates"
+choices = Array[String](["des fleurs", "des pommes de terre", "des carottes"])
+passage = SubResource("Resource_dp2k1")
+
+[sub_resource type="Resource" id="Resource_ax6xr"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Avec quoi Bruno arrose-t-il la terre ?"
+correct_answer = "un arrosoir vert"
+choices = Array[String](["un seau", "une bouteille", "un tuyau"])
+passage = SubResource("Resource_dp2k1")
+
+[sub_resource type="Resource" id="Resource_7xnve"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qu'est-ce qui sort du sol ?"
+correct_answer = "un ver de terre"
+choices = Array[String](["une souris", "un serpent", "une grenouille"])
+passage = SubResource("Resource_dp2k1")
+
+[sub_resource type="Resource" id="Resource_lmnvs"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que montre papi a Bruno ?"
+correct_answer = "les mauvaises herbes"
+choices = Array[String](["un arbre", "un compost", "du bois"])
+passage = SubResource("Resource_dp2k1")
+
+[sub_resource type="Resource" id="Resource_mt87p"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Quel insecte se pose sur une feuille ?"
+correct_answer = "une coccinelle"
+choices = Array[String](["une abeille", "une fourmi", "un papillon"])
+passage = SubResource("Resource_dp2k1")
+
+[sub_resource type="Resource" id="Resource_1v8u7"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qu'attend Bruno ?"
+correct_answer = "voir pousser les tomates"
+choices = Array[String](["manger un gâteau", "rentrer chez lui", "jouer au ballon"])
+passage = SubResource("Resource_dp2k1")
+
+[sub_resource type="Resource" id="Resource_66i57"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment Bruno se sent-il en jardinant ?"
+correct_answer = "il aime ca"
+choices = Array[String](["il s'ennuie", "il a peur", "il est fatigué et triste"])
+passage = SubResource("Resource_dp2k1")
+
+[sub_resource type="Resource" id="Resource_58qmk"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "De quelle couleur est l'arrosoir ?"
+correct_answer = "vert"
+choices = Array[String](["bleu", "rouge", "jaune"])
+passage = SubResource("Resource_dp2k1")
+
+[sub_resource type="Resource" id="Resource_4w52n"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Avec qui Bruno jardine-t-il ?"
+correct_answer = "son papi"
+choices = Array[String](["sa mamie", "son papa", "sa classe"])
+passage = SubResource("Resource_dp2k1")
+
+[sub_resource type="Resource" id="Resource_16gwm"]
+script = ExtResource("2_lihs0")
+text = "Inès visite un musée. Elle est avec sa classe. Elle voit un grand squelette. C'est un squelette de dinosaure. Le guide dit l'histoire des dinosaures. Elle pose dès questions. Elle dessine le squelette dans son carnet. Ses copains voient aussi les vitrines. Elle prend une carte postale. Elle a beaucoup appris. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la."
+
+[sub_resource type="Resource" id="Resource_yba7j"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Avec qui Inès visite-t-elle le musée ?"
+correct_answer = "sa classe"
+choices = Array[String](["sa famille", "sa mamie", "ses cousins"])
+passage = SubResource("Resource_16gwm")
+
+[sub_resource type="Resource" id="Resource_bdmot"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que regarde Inès ?"
+correct_answer = "un squelette de dinosaure"
+choices = Array[String](["des tableaux", "des voitures anciennes", "des bijoux"])
+passage = SubResource("Resource_16gwm")
+
+[sub_resource type="Resource" id="Resource_aqmbb"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qui raconte l'histoire des dinosaures ?"
+correct_answer = "le guide"
+choices = Array[String](["la maîtresse", "un livre", "personne"])
+passage = SubResource("Resource_16gwm")
+
+[sub_resource type="Resource" id="Resource_5bl3b"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que fait Inès pendant la visite ?"
+correct_answer = "elle pose dès questions"
+choices = Array[String](["elle dort", "elle joue sur son téléphone", "elle s'ennuie"])
+passage = SubResource("Resource_16gwm")
+
+[sub_resource type="Resource" id="Resource_w8wb8"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où Inès dessine-t-elle le squelette ?"
+correct_answer = "dans son carnet"
+choices = Array[String](["sur une feuille volante", "sur le mur", "sur son cahier de maths"])
+passage = SubResource("Resource_16gwm")
+
+[sub_resource type="Resource" id="Resource_mri55"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que font les copains d'Inès ?"
+correct_answer = "ils regardent les vitrines"
+choices = Array[String](["ils courent partout", "ils crient", "ils dorment"])
+passage = SubResource("Resource_16gwm")
+
+[sub_resource type="Resource" id="Resource_wgry4"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qu'achète Inès a la sortie ?"
+correct_answer = "une carte postale"
+choices = Array[String](["un livre", "un jouet", "un bonbon"])
+passage = SubResource("Resource_16gwm")
+
+[sub_resource type="Resource" id="Resource_etk6j"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment Inès se sent-elle apres la visite ?"
+correct_answer = "elle a beaucoup appris"
+choices = Array[String](["elle est déçue", "elle s'est ennuyée", "elle a eu peur"])
+passage = SubResource("Resource_16gwm")
+
+[sub_resource type="Resource" id="Resource_h7pfp"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où se passe cette sortie ?"
+correct_answer = "au musée"
+choices = Array[String](["au zoo", "a la ferme", "a la piscine"])
+passage = SubResource("Resource_16gwm")
+
+[sub_resource type="Resource" id="Resource_tjih4"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que voit-on dans le musée ?"
+correct_answer = "un squelette de dinosaure"
+choices = Array[String](["des animaux vivants", "des poissons", "des plantes"])
+passage = SubResource("Resource_16gwm")
+
+[sub_resource type="Resource" id="Resource_0ems5"]
+script = ExtResource("2_lihs0")
+text = "Lucas passe la journée au zoo. Il est avec sa famille. Il voit des lions qui dorment. Il rit en voyant les singes. Une girafe mange des feuilles. Il aime beaucoup l'éléphant. Il voit les manchots nager. Il prend une peluche de lion. Il garde un beau souvenir. Il rit un peu."
+
+[sub_resource type="Resource" id="Resource_wou1c"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où Lucas passe-t-il la journée ?"
+correct_answer = "au zoo"
+choices = Array[String](["au musée", "a la ferme", "a la piscine"])
+passage = SubResource("Resource_0ems5")
+
+[sub_resource type="Resource" id="Resource_4834r"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Avec qui y va-t-il ?"
+correct_answer = "sa famille"
+choices = Array[String](["sa classe", "ses cousins", "ses voisins"])
+passage = SubResource("Resource_0ems5")
+
+[sub_resource type="Resource" id="Resource_kycn6"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que font les lions ?"
+correct_answer = "ils dorment"
+choices = Array[String](["ils courent partout", "ils mangent", "ils rugissent fort"])
+passage = SubResource("Resource_0ems5")
+
+[sub_resource type="Resource" id="Resource_3np8d"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Quels animaux font rire Lucas ?"
+correct_answer = "les singes"
+choices = Array[String](["les lions", "les éléphants", "les tigres"])
+passage = SubResource("Resource_0ems5")
+
+[sub_resource type="Resource" id="Resource_liyh4"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que mange la girafe ?"
+correct_answer = "des feuilles"
+choices = Array[String](["de l'herbe", "des fruits", "du pain"])
+passage = SubResource("Resource_0ems5")
+
+[sub_resource type="Resource" id="Resource_bb6qu"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Quel est l'animal préfère de Lucas ?"
+correct_answer = "l'éléphant"
+choices = Array[String](["le lion", "le singe", "la girafe"])
+passage = SubResource("Resource_0ems5")
+
+[sub_resource type="Resource" id="Resource_yupjj"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Quels animaux Lucas regarde-t-il nager ?"
+correct_answer = "les manchots"
+choices = Array[String](["les dauphins", "les phoques", "les canards"])
+passage = SubResource("Resource_0ems5")
+
+[sub_resource type="Resource" id="Resource_hf85a"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qu'achète Lucas a la fin ?"
+correct_answer = "une peluche de lion"
+choices = Array[String](["une glace", "un livre", "un ballon"])
+passage = SubResource("Resource_0ems5")
+
+[sub_resource type="Resource" id="Resource_pdfpx"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment Lucas garde-t-il ce souvenir ?"
+correct_answer = "un beau souvenir"
+choices = Array[String](["un mauvais souvenir", "il oublie vite", "il est déçu"])
+passage = SubResource("Resource_0ems5")
+
+[sub_resource type="Resource" id="Resource_073mv"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où se passe cette histoire ?"
+correct_answer = "au zoo"
+choices = Array[String](["a la campagne", "en montagne", "a la mer"])
+passage = SubResource("Resource_0ems5")
+
+[sub_resource type="Resource" id="Resource_qvjpo"]
+script = ExtResource("2_lihs0")
+text = "Marta se promene en foret. Elle est avec son papa. Le chemin est couvert de feuilles. Elle ramasse un caillou gris. Un renard passe le sentier. Elle écoute le vent dans les arbres. Papa montre un grand chêne. Ils croisent un promeneur avec son chien. Elle rentre avec de bons souvenirs. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la."
+
+[sub_resource type="Resource" id="Resource_owqb5"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où Marta se promene-t-elle ?"
+correct_answer = "en foret"
+choices = Array[String](["a la plage", "en ville", "a la montagne"])
+passage = SubResource("Resource_qvjpo")
+
+[sub_resource type="Resource" id="Resource_26xc1"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Avec qui se promene-t-elle ?"
+correct_answer = "son papa"
+choices = Array[String](["sa maman", "sa classe", "sa mamie"])
+passage = SubResource("Resource_qvjpo")
+
+[sub_resource type="Resource" id="Resource_ajo5p"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que couvre le chemin ?"
+correct_answer = "des feuilles"
+choices = Array[String](["de la neige", "du sable", "des cailloux blancs"])
+passage = SubResource("Resource_qvjpo")
+
+[sub_resource type="Resource" id="Resource_p7s8k"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que ramasse Marta ?"
+correct_answer = "un caillou gris"
+choices = Array[String](["une fleur", "un bâton", "une feuille rouge"])
+passage = SubResource("Resource_qvjpo")
+
+[sub_resource type="Resource" id="Resource_hqjok"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Quel animal traverse le sentier ?"
+correct_answer = "un renard"
+choices = Array[String](["un sanglier", "un lapin", "un cerf"])
+passage = SubResource("Resource_qvjpo")
+
+[sub_resource type="Resource" id="Resource_ny6fg"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qu'écoute Marta ?"
+correct_answer = "le vent dans les arbres"
+choices = Array[String](["des oiseaux qui chantent", "une rivière", "de la musique"])
+passage = SubResource("Resource_qvjpo")
+
+[sub_resource type="Resource" id="Resource_uemot"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que montre le papa a Marta ?"
+correct_answer = "un grand chêne"
+choices = Array[String](["une cascade", "une grotte", "un vieux pont"])
+passage = SubResource("Resource_qvjpo")
+
+[sub_resource type="Resource" id="Resource_vbmbl"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qui croisent-ils sur le chemin ?"
+correct_answer = "un promeneur avec son chien"
+choices = Array[String](["un autre enfant seul", "un cycliste", "personne"])
+passage = SubResource("Resource_qvjpo")
+
+[sub_resource type="Resource" id="Resource_k7h5f"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Avec quoi Marta rentre-t-elle ?"
+correct_answer = "de bons souvenirs"
+choices = Array[String](["un panier de fruits", "un bouquet de fleurs", "rien du tout"])
+passage = SubResource("Resource_qvjpo")
+
+[sub_resource type="Resource" id="Resource_lqd35"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où se passe cette promenade ?"
+correct_answer = "en foret"
+choices = Array[String](["au parc", "au jardin", "a la ferme"])
+passage = SubResource("Resource_qvjpo")
+
+[sub_resource type="Resource" id="Resource_vc7fg"]
+script = ExtResource("2_lihs0")
+text = "Julian voit son papi. Papi conduit le tracteur. C'est la saison des moissons. Le champ de blé est doré. Il monte dans le tracteur. La machine coupe le blé vite. De la poussière jaune vole dans l'air. Il voit des lièvres sortir du champ. A midi, ils mangent sous un arbre. Il est fier d'avoir aide. Il rit un peu."
+
+[sub_resource type="Resource" id="Resource_m6tii"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que conduit le papi de Julian ?"
+correct_answer = "un tracteur"
+choices = Array[String](["une voiture", "un camion", "un vélo"])
+passage = SubResource("Resource_vc7fg")
+
+[sub_resource type="Resource" id="Resource_gh5hw"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "De quelle couleur est le champ de blé ?"
+correct_answer = "dore"
+choices = Array[String](["vert", "gris", "blanc"])
+passage = SubResource("Resource_vc7fg")
+
+[sub_resource type="Resource" id="Resource_j5ak6"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où Julian monte-t-il ?"
+correct_answer = "dans le tracteur"
+choices = Array[String](["sur un cheval", "dans une charrette", "sur le toit de la maison"])
+passage = SubResource("Resource_vc7fg")
+
+[sub_resource type="Resource" id="Resource_kg6wd"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que fait la machine ?"
+correct_answer = "elle coupe le blé"
+choices = Array[String](["elle plante des graines", "elle arrose le champ", "elle transporte le lait"])
+passage = SubResource("Resource_vc7fg")
+
+[sub_resource type="Resource" id="Resource_376w6"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que vole dans l'air ?"
+correct_answer = "de la poussière jaune"
+choices = Array[String](["de la fumée noire", "des feuilles", "des pétales"])
+passage = SubResource("Resource_vc7fg")
+
+[sub_resource type="Resource" id="Resource_hs6xv"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Quels animaux sortent du champ ?"
+correct_answer = "des lièvres"
+choices = Array[String](["des renards", "des souris", "des sangliers"])
+passage = SubResource("Resource_vc7fg")
+
+[sub_resource type="Resource" id="Resource_y331h"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où mangent-ils a midi ?"
+correct_answer = "sous un grand arbre"
+choices = Array[String](["dans la maison", "dans le tracteur", "au village"])
+passage = SubResource("Resource_vc7fg")
+
+[sub_resource type="Resource" id="Resource_hahnx"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment Julian se sent-il d'avoir aide ?"
+correct_answer = "fier"
+choices = Array[String](["triste", "gêne", "fatigué et fâche"])
+passage = SubResource("Resource_vc7fg")
+
+[sub_resource type="Resource" id="Resource_k0w1d"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Quelle saison correspond aux moissons ?"
+correct_answer = "l'été"
+choices = Array[String](["l'hiver", "le printemps tôt", "l'automne tardif"])
+passage = SubResource("Resource_vc7fg")
+
+[sub_resource type="Resource" id="Resource_ad0a2"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Avec qui Julian passe-t-il la journée ?"
+correct_answer = "son papi"
+choices = Array[String](["sa mamie", "sa maîtresse", "ses cousins"])
+passage = SubResource("Resource_vc7fg")
+
+[sub_resource type="Resource" id="Resource_moyw0"]
+script = ExtResource("2_lihs0")
+text = "Erik construit un bonhomme de neige. Il est avec sa soeur. Ils roulent une grosse boule. C'est pour le corps. Il ajoute une petite boule. C'est pour la tête. Sa soeur plante une carotte pour le nez. Ils mettent deux boutons noirs pour les yeux. Il pose un vieux chapeau. Le bonhomme a fière allure. Il prend une photo. Il rit un peu."
+
+[sub_resource type="Resource" id="Resource_fa1xi"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Avec qui Erik construit-il le bonhomme de neige ?"
+correct_answer = "sa soeur"
+choices = Array[String](["son frère", "sa maman", "sa classe"])
+passage = SubResource("Resource_moyw0")
+
+[sub_resource type="Resource" id="Resource_pm68n"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que roulent-ils pour faire le corps ?"
+correct_answer = "une grosse boule"
+choices = Array[String](["un cube de neige", "des petites boules", "un bloc de glace"])
+passage = SubResource("Resource_moyw0")
+
+[sub_resource type="Resource" id="Resource_y3t28"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que plante la soeur d'Erik pour le nez ?"
+correct_answer = "une carotte"
+choices = Array[String](["un bâton", "un caillou", "une pomme de pin"])
+passage = SubResource("Resource_moyw0")
+
+[sub_resource type="Resource" id="Resource_avlgk"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Avec quoi font-ils les yeux ?"
+correct_answer = "deux boutons noirs"
+choices = Array[String](["des cailloux", "des feuilles", "des billes bleues"])
+passage = SubResource("Resource_moyw0")
+
+[sub_resource type="Resource" id="Resource_y73gt"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que pose Erik sur la tête du bonhomme ?"
+correct_answer = "un vieux chapeau"
+choices = Array[String](["un bonnet", "une casquette", "rien du tout"])
+passage = SubResource("Resource_moyw0")
+
+[sub_resource type="Resource" id="Resource_ptrlc"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que fait Erik a la fin ?"
+correct_answer = "il prend une photo"
+choices = Array[String](["il détruit le bonhomme", "il rentre vite", "il pleure"])
+passage = SubResource("Resource_moyw0")
+
+[sub_resource type="Resource" id="Resource_sin00"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment le bonhomme de neige a-t-il l'air ?"
+correct_answer = "fière allure"
+choices = Array[String](["tout tordu", "tout petit", "invisible"])
+passage = SubResource("Resource_moyw0")
+
+[sub_resource type="Resource" id="Resource_eqnac"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Quelle boule sert à faire la tête ?"
+correct_answer = "une petite boule"
+choices = Array[String](["la plus grosse boule", "aucune boule", "une boule carrée"])
+passage = SubResource("Resource_moyw0")
+
+[sub_resource type="Resource" id="Resource_52u5i"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Avec quoi construisent-ils le bonhomme ?"
+correct_answer = "de la neige"
+choices = Array[String](["du sable", "de la terre", "des cailloux"])
+passage = SubResource("Resource_moyw0")
+
+[sub_resource type="Resource" id="Resource_4c14p"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où se passe cette histoire ?"
+correct_answer = "dehors dans la neige"
+choices = Array[String](["a l'intérieur de la maison", "a l'école", "a la piscine"])
+passage = SubResource("Resource_moyw0")
+
+[sub_resource type="Resource" id="Resource_u0uly"]
+script = ExtResource("2_lihs0")
+text = "Mia va patiner. Elle est avec son papa. Elle met des patins blancs. Elle tombe une première fois. Papa l'aide à se relever. Elle apprend à garder l'équilibre. Elle glisse enfin toute seule. Des enfants tournent en musique. Elle est très fière. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la. C'est un beau jour."
+
+[sub_resource type="Resource" id="Resource_ffg8g"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où Mia va-t-elle patiner ?"
+correct_answer = "a la patinoire"
+choices = Array[String](["au parc", "a la plage", "a la piscine"])
+passage = SubResource("Resource_u0uly")
+
+[sub_resource type="Resource" id="Resource_fx1rg"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Avec qui y va-t-elle ?"
+correct_answer = "son papa"
+choices = Array[String](["sa maman", "sa classe", "sa mamie"])
+passage = SubResource("Resource_u0uly")
+
+[sub_resource type="Resource" id="Resource_lgjrt"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "De quelle couleur sont les patins de Mia ?"
+correct_answer = "blancs"
+choices = Array[String](["noirs", "roses", "bleus"])
+passage = SubResource("Resource_u0uly")
+
+[sub_resource type="Resource" id="Resource_5ujqh"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que fait Mia une première fois ?"
+correct_answer = "elle tombe"
+choices = Array[String](["elle pleure", "elle rentre", "elle refuse de patiner"])
+passage = SubResource("Resource_u0uly")
+
+[sub_resource type="Resource" id="Resource_irmex"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qui aide Mia à se relever ?"
+correct_answer = "son papa"
+choices = Array[String](["un moniteur", "sa maman", "une amie"])
+passage = SubResource("Resource_u0uly")
+
+[sub_resource type="Resource" id="Resource_yhu5y"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qu'apprend Mia ?"
+correct_answer = "garder son équilibre"
+choices = Array[String](["faire des sauts", "faire la course", "danser sur la glace"])
+passage = SubResource("Resource_u0uly")
+
+[sub_resource type="Resource" id="Resource_jm5qr"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment Mia finit-elle par glisser ?"
+correct_answer = "toute seule"
+choices = Array[String](["en tenant la main de son papa", "assise", "pas du tout"])
+passage = SubResource("Resource_u0uly")
+
+[sub_resource type="Resource" id="Resource_fnen2"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que font des enfants autour d'elle ?"
+correct_answer = "ils tournent en musique"
+choices = Array[String](["ils crient", "ils dorment", "ils regardent seulement"])
+passage = SubResource("Resource_u0uly")
+
+[sub_resource type="Resource" id="Resource_mrbso"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment Mia se sent-elle a la fin ?"
+correct_answer = "très fière"
+choices = Array[String](["triste", "fatiguée et déçue", "en colère"])
+passage = SubResource("Resource_u0uly")
+
+[sub_resource type="Resource" id="Resource_veyje"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Sur quoi Mia patine-t-elle ?"
+correct_answer = "la glace"
+choices = Array[String](["le bitume", "l'herbe", "le sable"])
+passage = SubResource("Resource_u0uly")
+
+[sub_resource type="Resource" id="Resource_dg8qm"]
+script = ExtResource("2_lihs0")
+text = "Léon monte en haut de la colline. Il a une luge rouge. Sa soeur l'attend en bas. Il s'assoit sur sa luge. Il pousse fort avec ses pieds. La luge descend très vite. Il rit très fort. Il s'arrête près de sa soeur. Il remonte pour recommencer. Il rit un peu."
+
+[sub_resource type="Resource" id="Resource_ke5i8"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où Léon monte-t-il ?"
+correct_answer = "en haut d'une colline"
+choices = Array[String](["en haut d'un immeuble", "sur un toit", "dans un arbre"])
+passage = SubResource("Resource_dg8qm")
+
+[sub_resource type="Resource" id="Resource_4fif1"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "De quelle couleur est la luge de Léon ?"
+correct_answer = "rouge"
+choices = Array[String](["bleue", "verte", "jaune"])
+passage = SubResource("Resource_dg8qm")
+
+[sub_resource type="Resource" id="Resource_uscl8"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qui attend Léon en bas ?"
+correct_answer = "sa soeur"
+choices = Array[String](["sa maîtresse", "sa classe", "personne"])
+passage = SubResource("Resource_dg8qm")
+
+[sub_resource type="Resource" id="Resource_pidgb"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Avec quoi Léon pousse-t-il pour démarrer ?"
+correct_answer = "ses pieds"
+choices = Array[String](["un bâton", "l'aide de son papa", "il ne bouge pas"])
+passage = SubResource("Resource_dg8qm")
+
+[sub_resource type="Resource" id="Resource_dt6nk"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment la luge descend-elle ?"
+correct_answer = "très vite"
+choices = Array[String](["très lentement", "elle ne bouge pas", "en montant"])
+passage = SubResource("Resource_dg8qm")
+
+[sub_resource type="Resource" id="Resource_2nr6d"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que fait Léon pendant la descente ?"
+correct_answer = "il rit très fort"
+choices = Array[String](["il pleure", "il ferme les yeux et crie", "il dort"])
+passage = SubResource("Resource_dg8qm")
+
+[sub_resource type="Resource" id="Resource_c14ft"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où Léon s'arrête-t-il ?"
+correct_answer = "près de sa soeur"
+choices = Array[String](["au milieu de la pente", "loin de tout le monde", "dans un arbre"])
+passage = SubResource("Resource_dg8qm")
+
+[sub_resource type="Resource" id="Resource_olbqb"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que fait Léon a la fin de la descente ?"
+correct_answer = "il remonte pour recommencer"
+choices = Array[String](["il rentre à la maison", "il pleure de fatigue", "il donne sa luge"])
+passage = SubResource("Resource_dg8qm")
+
+[sub_resource type="Resource" id="Resource_w5fhi"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Sur quoi Léon glisse-t-il ?"
+correct_answer = "la neige"
+choices = Array[String](["l'herbe", "le sable", "l'eau"])
+passage = SubResource("Resource_dg8qm")
+
+[sub_resource type="Resource" id="Resource_0xi07"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qui attend Léon en bas de la colline ?"
+correct_answer = "sa soeur"
+choices = Array[String](["ses cousins", "sa classe", "sa mamie"])
+passage = SubResource("Resource_dg8qm")
+
+[sub_resource type="Resource" id="Resource_3nu0l"]
+script = ExtResource("2_lihs0")
+text = "Anna s'assoit autour du feu. Elle est avec sa famille. Les flammes dansent dans la nuit. Elle fait griller un marshmallow. Papa dit une histoire. Des étoiles brillent dans le ciel. Elle entend un hibou chanter. Tout le monde chante une chanson. Elle se sent bien près du feu. Elle rit un peu. Il fait beau. Le jour est doux."
+
+[sub_resource type="Resource" id="Resource_mdi47"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Avec qui Anna s'assoit-elle autour du feu ?"
+correct_answer = "sa famille"
+choices = Array[String](["sa classe", "ses voisins", "personne"])
+passage = SubResource("Resource_3nu0l")
+
+[sub_resource type="Resource" id="Resource_w57ou"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment sont les flammes ?"
+correct_answer = "elles dansent"
+choices = Array[String](["elles sont éteintes", "elles sont bleues", "elles font peur"])
+passage = SubResource("Resource_3nu0l")
+
+[sub_resource type="Resource" id="Resource_hwajl"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que fait griller Anna ?"
+correct_answer = "un marshmallow"
+choices = Array[String](["une saucisse", "une pomme", "du pain"])
+passage = SubResource("Resource_3nu0l")
+
+[sub_resource type="Resource" id="Resource_warkj"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qui raconte une histoire ?"
+correct_answer = "papa"
+choices = Array[String](["maman", "sa mamie", "personne"])
+passage = SubResource("Resource_3nu0l")
+
+[sub_resource type="Resource" id="Resource_rf13e"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où brillent les étoiles ?"
+correct_answer = "dans le ciel"
+choices = Array[String](["dans l'eau", "sur les arbres", "sur la tente"])
+passage = SubResource("Resource_3nu0l")
+
+[sub_resource type="Resource" id="Resource_1eeap"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Quel animal Anna entend-elle ?"
+correct_answer = "un hibou"
+choices = Array[String](["un loup", "un chien", "un chat"])
+passage = SubResource("Resource_3nu0l")
+
+[sub_resource type="Resource" id="Resource_bd3om"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que fait tout le monde ensemble ?"
+correct_answer = "chanter une chanson"
+choices = Array[String](["danser", "dormir tout de suite", "partir se coucher"])
+passage = SubResource("Resource_3nu0l")
+
+[sub_resource type="Resource" id="Resource_yx7ht"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment Anna se sent-elle près du feu ?"
+correct_answer = "elle se sent bien"
+choices = Array[String](["elle a froid", "elle a peur", "elle s'ennuie"])
+passage = SubResource("Resource_3nu0l")
+
+[sub_resource type="Resource" id="Resource_xbcs2"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Quand se passe cette scène ?"
+correct_answer = "la nuit"
+choices = Array[String](["le matin", "a midi", "au lever du jour"])
+passage = SubResource("Resource_3nu0l")
+
+[sub_resource type="Resource" id="Resource_ymf2l"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que fait Anna avec un marshmallow ?"
+correct_answer = "elle le fait griller"
+choices = Array[String](["elle le mange froid", "elle le jette", "elle le garde"])
+passage = SubResource("Resource_3nu0l")
+
+[sub_resource type="Resource" id="Resource_6wtlg"]
+script = ExtResource("2_lihs0")
+text = "Félix part camper sous la tente. Il est avec ses parents. Ils montent la tente près d'un lac. Il plante les piquets. Il gonfle son matelas avec une pompe. La famille mange dehors. Il entend les grenouilles chanter le soir. Il dort dans son sac de couchage. Il aime dormir dans la nature. Il rit un peu."
+
+[sub_resource type="Resource" id="Resource_tud04"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où Félix part-il camper ?"
+correct_answer = "sous une tente"
+choices = Array[String](["dans un hôtel", "chez sa mamie", "dans une caravane"])
+passage = SubResource("Resource_6wtlg")
+
+[sub_resource type="Resource" id="Resource_t1u6x"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Près de quoi montent-ils la tente ?"
+correct_answer = "un lac"
+choices = Array[String](["la mer", "la montagne", "une rivière gelée"])
+passage = SubResource("Resource_6wtlg")
+
+[sub_resource type="Resource" id="Resource_cp163"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que fait Félix pour aider ?"
+correct_answer = "il plante les piquets"
+choices = Array[String](["il cuisine le repas", "il conduit la voiture", "il monte la table"])
+passage = SubResource("Resource_6wtlg")
+
+[sub_resource type="Resource" id="Resource_4ldm6"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Avec quoi Félix gonfle-t-il son matelas ?"
+correct_answer = "une pompe"
+choices = Array[String](["sa bouche", "un tuyau", "rien, il ne le gonfle pas"])
+passage = SubResource("Resource_6wtlg")
+
+[sub_resource type="Resource" id="Resource_doesa"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où la famille mange-t-elle ?"
+correct_answer = "dehors"
+choices = Array[String](["dans la voiture", "dans la tente", "au restaurant"])
+passage = SubResource("Resource_6wtlg")
+
+[sub_resource type="Resource" id="Resource_qj5te"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qu'entend Félix le soir ?"
+correct_answer = "les grenouilles chanter"
+choices = Array[String](["des voitures", "de la musique", "des oiseaux seulement"])
+passage = SubResource("Resource_6wtlg")
+
+[sub_resource type="Resource" id="Resource_y72ch"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Dans quoi Félix dort-il ?"
+correct_answer = "un sac de couchage"
+choices = Array[String](["un grand lit", "un hamac", "un canapé"])
+passage = SubResource("Resource_6wtlg")
+
+[sub_resource type="Resource" id="Resource_87bxh"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment Félix trouve-t-il le camping ?"
+correct_answer = "il adore ca"
+choices = Array[String](["il déteste ca", "il a peur", "il s'ennuie"])
+passage = SubResource("Resource_6wtlg")
+
+[sub_resource type="Resource" id="Resource_oqu2u"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Avec qui Félix part-il camper ?"
+correct_answer = "ses parents"
+choices = Array[String](["sa classe", "ses cousins", "seul"])
+passage = SubResource("Resource_6wtlg")
+
+[sub_resource type="Resource" id="Resource_u60f8"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où dort Félix pendant ce voyage ?"
+correct_answer = "sous la tente"
+choices = Array[String](["dans un hôtel", "dans la voiture", "chez des amis"])
+passage = SubResource("Resource_6wtlg")
+
+[sub_resource type="Resource" id="Resource_wysoj"]
+script = ExtResource("2_lihs0")
+text = "Louis part a la pêche. Il est avec son grand-père. Ils s'installent au bord de la rivière. Il tient sa canne à pêche. Il attend . Un poisson tire sur le fil. Il remonte un petit poisson argenté. Son grand-père le dit bravo a. Il relâche le poisson dans l'eau. Il rit un peu."
+
+[sub_resource type="Resource" id="Resource_3m805"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Avec qui Louis part-il a la pêche ?"
+correct_answer = "son grand-père"
+choices = Array[String](["son papa", "sa mamie", "sa classe"])
+passage = SubResource("Resource_wysoj")
+
+[sub_resource type="Resource" id="Resource_nm6e6"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où s'installent-ils ?"
+correct_answer = "au bord de la rivière"
+choices = Array[String](["sur un bateau en mer", "au bord d'un lac gele", "dans la foret"])
+passage = SubResource("Resource_wysoj")
+
+[sub_resource type="Resource" id="Resource_bhbv5"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que tient Louis ?"
+correct_answer = "sa canne à pêche"
+choices = Array[String](["un filet", "un seau", "une épuisette"])
+passage = SubResource("Resource_wysoj")
+
+[sub_resource type="Resource" id="Resource_rpaeq"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que fait Louis en attendant ?"
+correct_answer = "il patiente"
+choices = Array[String](["il crie", "il court partout", "il dort"])
+passage = SubResource("Resource_wysoj")
+
+[sub_resource type="Resource" id="Resource_ganie"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que se passe-t-il soudain ?"
+correct_answer = "un poisson tire sur le fil"
+choices = Array[String](["il commence a pleuvoir", "le fil se casse", "Louis tombe a l'eau"])
+passage = SubResource("Resource_wysoj")
+
+[sub_resource type="Resource" id="Resource_k8cok"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "De quelle couleur est le poisson ?"
+correct_answer = "argenté"
+choices = Array[String](["rouge", "vert", "noir"])
+passage = SubResource("Resource_wysoj")
+
+[sub_resource type="Resource" id="Resource_nspgi"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que fait le grand-père de Louis ?"
+correct_answer = "il le félicite"
+choices = Array[String](["il se fâche", "il rit de lui", "il part sans rien dire"])
+passage = SubResource("Resource_wysoj")
+
+[sub_resource type="Resource" id="Resource_uy86n"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que fait Louis avec le poisson ?"
+correct_answer = "il le relâche dans l'eau"
+choices = Array[String](["il le garde", "il le donne", "il le mange tout de suite"])
+passage = SubResource("Resource_wysoj")
+
+[sub_resource type="Resource" id="Resource_hq5wn"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où se passe cette pêche ?"
+correct_answer = "au bord d'une rivière"
+choices = Array[String](["en mer", "dans une piscine", "dans un aquarium"])
+passage = SubResource("Resource_wysoj")
+
+[sub_resource type="Resource" id="Resource_rrut2"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Quand partent-ils a la pêche ?"
+correct_answer = "tôt le matin"
+choices = Array[String](["le soir", "a midi", "la nuit"])
+passage = SubResource("Resource_wysoj")
+
+[sub_resource type="Resource" id="Resource_l8aer"]
+script = ExtResource("2_lihs0")
+text = "Charlotte monte a cheval. C'est la première fois. Elle caresse la crinière du poney. La monitrice aide Elle à monter. Elle tient bien les rênes. Le poney avance dans le manège. Elle apprend à faire du trot. Elle donne une carotte au poney. Elle veut revenir monter. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la. C'est un beau jour."
+
+[sub_resource type="Resource" id="Resource_hfwyg"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où Charlotte monte-t-elle a cheval ?"
+correct_answer = "au centre équestre"
+choices = Array[String](["a la ferme", "au zoo", "au cirque"])
+passage = SubResource("Resource_l8aer")
+
+[sub_resource type="Resource" id="Resource_b5u5p"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que caresse Charlotte ?"
+correct_answer = "la crinière du poney"
+choices = Array[String](["les oreilles du poney", "la queue du poney", "le nez du poney"])
+passage = SubResource("Resource_l8aer")
+
+[sub_resource type="Resource" id="Resource_r3aid"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "De quelle couleur est le poney ?"
+correct_answer = "brun"
+choices = Array[String](["blanc", "noir", "gris"])
+passage = SubResource("Resource_l8aer")
+
+[sub_resource type="Resource" id="Resource_2woka"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qui aide Charlotte à monter ?"
+correct_answer = "la monitrice"
+choices = Array[String](["sa maman", "son papa", "personne"])
+passage = SubResource("Resource_l8aer")
+
+[sub_resource type="Resource" id="Resource_jf5lr"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que tient Charlotte ?"
+correct_answer = "les rênes"
+choices = Array[String](["la selle", "un bâton", "une carotte"])
+passage = SubResource("Resource_l8aer")
+
+[sub_resource type="Resource" id="Resource_ym7nx"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où avance le poney ?"
+correct_answer = "dans le manège"
+choices = Array[String](["dans la rue", "dans un pré", "sur la plage"])
+passage = SubResource("Resource_l8aer")
+
+[sub_resource type="Resource" id="Resource_adbiu"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qu'apprend Charlotte à faire ?"
+correct_answer = "du trot"
+choices = Array[String](["du galop", "des sauts", "des tours"])
+passage = SubResource("Resource_l8aer")
+
+[sub_resource type="Resource" id="Resource_tfihi"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que donne Charlotte au poney ?"
+correct_answer = "une carotte"
+choices = Array[String](["une pomme", "du pain", "du sucre"])
+passage = SubResource("Resource_l8aer")
+
+[sub_resource type="Resource" id="Resource_84beg"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que veut faire Charlotte a la fin ?"
+correct_answer = "revenir monter"
+choices = Array[String](["ne plus jamais monter", "vendre le poney", "rentrer vite chez elle"])
+passage = SubResource("Resource_l8aer")
+
+[sub_resource type="Resource" id="Resource_wp3uh"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Quelle activité découvre Charlotte ?"
+correct_answer = "l'équitation"
+choices = Array[String](["la natation", "le vélo", "la danse"])
+passage = SubResource("Resource_l8aer")
+
+[sub_resource type="Resource" id="Resource_wdvfm"]
+script = ExtResource("2_lihs0")
+text = "Gabriel joue dehors. Il commence a pleuvoir. Il met ses bottes jaunes. Il met son imperméable. Il saute dans les flaques. Il fait naviguer une feuille. Un escargot avance sur le trottoir. Il ouvre un grand parapluie rouge. Il rentre trempe mais heureux. Maman prépare une serviette chaude. Il rit un peu. Il fait beau. Le jour est doux. Tout va bien. Il est bien la. C'est un beau jour."
+
+[sub_resource type="Resource" id="Resource_ykocl"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que commence-t-il à faire dehors ?"
+correct_answer = "il pleut"
+choices = Array[String](["il neige", "il vente fort", "il fait très chaud"])
+passage = SubResource("Resource_wdvfm")
+
+[sub_resource type="Resource" id="Resource_hr508"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "De quelle couleur sont les bottes de Gabriel ?"
+correct_answer = "jaunes"
+choices = Array[String](["rouges", "bleues", "vertes"])
+passage = SubResource("Resource_wdvfm")
+
+[sub_resource type="Resource" id="Resource_yrxro"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que fait Gabriel avec joie ?"
+correct_answer = "il saute dans les flaques"
+choices = Array[String](["il court se cacher", "il pleure", "il rentre tout de suite"])
+passage = SubResource("Resource_wdvfm")
+
+[sub_resource type="Resource" id="Resource_c43vu"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que fait naviguer Gabriel ?"
+correct_answer = "une feuille"
+choices = Array[String](["un bateau en papier", "une bille", "un bâton"])
+passage = SubResource("Resource_wdvfm")
+
+[sub_resource type="Resource" id="Resource_oiwa0"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Quel animal avance sur le trottoir ?"
+correct_answer = "un escargot"
+choices = Array[String](["une grenouille", "un ver de terre", "un chat"])
+passage = SubResource("Resource_wdvfm")
+
+[sub_resource type="Resource" id="Resource_cgo5l"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "De quelle couleur est le parapluie de Gabriel ?"
+correct_answer = "rouge"
+choices = Array[String](["jaune", "bleu", "noir"])
+passage = SubResource("Resource_wdvfm")
+
+[sub_resource type="Resource" id="Resource_ayhpv"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment Gabriel rentre-t-il chez lui ?"
+correct_answer = "trempe mais heureux"
+choices = Array[String](["sec et triste", "en colère", "malade"])
+passage = SubResource("Resource_wdvfm")
+
+[sub_resource type="Resource" id="Resource_qvsfu"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que prépare la maman de Gabriel ?"
+correct_answer = "une serviette chaude"
+choices = Array[String](["un chocolat chaud", "un bain", "des vêtements secs seulement"])
+passage = SubResource("Resource_wdvfm")
+
+[sub_resource type="Resource" id="Resource_e2y6i"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que porte Gabriel pour se protéger ?"
+correct_answer = "un imperméable"
+choices = Array[String](["un manteau d'hiver", "un chapeau de soleil", "un maillot de bain"])
+passage = SubResource("Resource_wdvfm")
+
+[sub_resource type="Resource" id="Resource_qdvt8"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où Gabriel joue-t-il ?"
+correct_answer = "dehors"
+choices = Array[String](["dans sa chambre", "a la piscine", "a l'école"])
+passage = SubResource("Resource_wdvfm")
+
+[sub_resource type="Resource" id="Resource_x2nhu"]
+script = ExtResource("2_lihs0")
+text = "Julia construit une cabane. Elle est avec son papa. C'est dans le jardin. Ils clouent des planches de bois. Elle peint la porte en bleu. Papa installe une petite fenêtre ronde. Elle range ses jouets dans la cabane. Un oiseau se pose sur le toit. Elle invite sa meilleure amie. Elle est fière de sa cabane. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien."
+
+[sub_resource type="Resource" id="Resource_7kkn1"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où Julia construit-elle une cabane ?"
+correct_answer = "dans le jardin"
+choices = Array[String](["dans la foret", "dans sa chambre", "a l'école"])
+passage = SubResource("Resource_x2nhu")
+
+[sub_resource type="Resource" id="Resource_x4hou"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Avec qui la construit-elle ?"
+correct_answer = "son papa"
+choices = Array[String](["sa maman", "son frère", "sa classe"])
+passage = SubResource("Resource_x2nhu")
+
+[sub_resource type="Resource" id="Resource_utd67"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que clouent-ils ensemble ?"
+correct_answer = "des planches de bois"
+choices = Array[String](["des cartons", "des briques", "des pierres"])
+passage = SubResource("Resource_x2nhu")
+
+[sub_resource type="Resource" id="Resource_dmqk0"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "De quelle couleur Julia peint-elle la porte ?"
+correct_answer = "bleu"
+choices = Array[String](["rouge", "vert", "jaune"])
+passage = SubResource("Resource_x2nhu")
+
+[sub_resource type="Resource" id="Resource_1h477"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qu'installe le papa de Julia ?"
+correct_answer = "une petite fenêtre ronde"
+choices = Array[String](["une cheminée", "un toit en tuiles", "une porte double"])
+passage = SubResource("Resource_x2nhu")
+
+[sub_resource type="Resource" id="Resource_seqd7"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que range Julia dans la cabane ?"
+correct_answer = "ses jouets"
+choices = Array[String](["ses vêtements", "ses livres d'école", "de la nourriture"])
+passage = SubResource("Resource_x2nhu")
+
+[sub_resource type="Resource" id="Resource_8jl3x"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qu'est-ce qui se pose sur le toit ?"
+correct_answer = "un oiseau"
+choices = Array[String](["un chat", "un écureuil", "une abeille"])
+passage = SubResource("Resource_x2nhu")
+
+[sub_resource type="Resource" id="Resource_jm48q"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qui Julia invite-t-elle a visiter la cabane ?"
+correct_answer = "sa meilleure amie"
+choices = Array[String](["sa maîtresse", "toute sa classe", "personne"])
+passage = SubResource("Resource_x2nhu")
+
+[sub_resource type="Resource" id="Resource_2kelw"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment Julia se sent-elle a la fin ?"
+correct_answer = "fière"
+choices = Array[String](["déçue", "fatiguée", "gêne"])
+passage = SubResource("Resource_x2nhu")
+
+[sub_resource type="Resource" id="Resource_bq8q4"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que construisent Julia et son papa ?"
+correct_answer = "une cabane"
+choices = Array[String](["une piscine", "un potager", "un garage"])
+passage = SubResource("Resource_x2nhu")
+
+[sub_resource type="Resource" id="Resource_exsj7"]
+script = ExtResource("2_lihs0")
+text = "Victor participe a une chasse au trésor. Sa mamie a tout organise. Il reçoit une carte avec des indices. Il cherche sous le grand chêne. Il trouve un indice dans une boite. Le deuxième indice est près de la fontaine. Il court partout. Il découvre un coffre plein de bonbons. Il partage sa découverte avec ses cousins. Il rit un peu. Il fait beau. Le jour est doux."
+
+[sub_resource type="Resource" id="Resource_a3740"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qui organise la chasse au trésor ?"
+correct_answer = "sa mamie"
+choices = Array[String](["sa maîtresse", "son papa", "un ami"])
+passage = SubResource("Resource_exsj7")
+
+[sub_resource type="Resource" id="Resource_ostfl"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que reçoit Victor pour commencer ?"
+correct_answer = "une carte avec des indices"
+choices = Array[String](["une pelle", "un plan de la ville", "un livre"])
+passage = SubResource("Resource_exsj7")
+
+[sub_resource type="Resource" id="Resource_q66p1"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où Victor cherche-t-il d'abord ?"
+correct_answer = "sous le grand chêne"
+choices = Array[String](["derrière la maison", "dans le garage", "dans sa chambre"])
+passage = SubResource("Resource_exsj7")
+
+[sub_resource type="Resource" id="Resource_c5xri"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où trouve-t-il le premier indice ?"
+correct_answer = "dans une boite"
+choices = Array[String](["sous une pierre", "dans un arbre", "dans l'herbe"])
+passage = SubResource("Resource_exsj7")
+
+[sub_resource type="Resource" id="Resource_2a5uy"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où se trouve le deuxième indice ?"
+correct_answer = "près de la fontaine"
+choices = Array[String](["dans la cuisine", "sous un banc", "dans le potager"])
+passage = SubResource("Resource_exsj7")
+
+[sub_resource type="Resource" id="Resource_0p084"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que fait Victor pour résoudre l'énigme ?"
+correct_answer = "il court partout"
+choices = Array[String](["il demande a sa mamie", "il abandonne", "il pleure"])
+passage = SubResource("Resource_exsj7")
+
+[sub_resource type="Resource" id="Resource_hyg6f"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que découvre Victor a la fin ?"
+correct_answer = "un coffre plein de bonbons"
+choices = Array[String](["une boite vide", "un livre ancien", "un jouet casse"])
+passage = SubResource("Resource_exsj7")
+
+[sub_resource type="Resource" id="Resource_ivj5k"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Avec qui Victor partage-t-il sa découverte ?"
+correct_answer = "ses cousins"
+choices = Array[String](["sa classe", "personne", "ses voisins"])
+passage = SubResource("Resource_exsj7")
+
+[sub_resource type="Resource" id="Resource_gwvss"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où se passe cette chasse au trésor ?"
+correct_answer = "dans le jardin"
+choices = Array[String](["en foret", "a l'école", "a la plage"])
+passage = SubResource("Resource_exsj7")
+
+[sub_resource type="Resource" id="Resource_i70wn"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qu'est-ce qui guide Victor pendant le jeu ?"
+correct_answer = "une carte avec des indices"
+choices = Array[String](["une boussole", "un livre de contes", "un téléphone"])
+passage = SubResource("Resource_exsj7")
+
+[sub_resource type="Resource" id="Resource_8spp6"]
+script = ExtResource("2_lihs0")
+text = "Rosa voit un spectacle de magie. C'est la fête du village. Le magicien porte un grand chapeau noir. Il fait disparaître une colombe blanche. Elle n'en croit pas ses yeux. Le magicien sort un lapin du chapeau. Il fait monter Elle sur scène. Elle choisit une carte. Le magicien devine sa carte. Elle est émerveillée. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien."
+
+[sub_resource type="Resource" id="Resource_onjg7"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où Rosa regarde-t-elle le spectacle ?"
+correct_answer = "a la fête du village"
+choices = Array[String](["au cirque", "a l'école", "au théâtre municipal"])
+passage = SubResource("Resource_8spp6")
+
+[sub_resource type="Resource" id="Resource_nk28f"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que porte le magicien ?"
+correct_answer = "un grand chapeau noir"
+choices = Array[String](["une cape rouge", "des lunettes", "un costume blanc"])
+passage = SubResource("Resource_8spp6")
+
+[sub_resource type="Resource" id="Resource_qucmt"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que fait disparaître le magicien ?"
+correct_answer = "une colombe blanche"
+choices = Array[String](["une pièce de monnaie", "un foulard", "une carte"])
+passage = SubResource("Resource_8spp6")
+
+[sub_resource type="Resource" id="Resource_v25h6"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que sort le magicien de son chapeau ?"
+correct_answer = "un lapin"
+choices = Array[String](["un chat", "un oiseau", "une fleur"])
+passage = SubResource("Resource_8spp6")
+
+[sub_resource type="Resource" id="Resource_1oaes"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qui le magicien fait-il monter sur scène ?"
+correct_answer = "Rosa"
+choices = Array[String](["un autre enfant", "personne", "le maire du village"])
+passage = SubResource("Resource_8spp6")
+
+[sub_resource type="Resource" id="Resource_grd6c"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que choisit Rosa ?"
+correct_answer = "une carte"
+choices = Array[String](["un numéro", "une couleur", "un objet"])
+passage = SubResource("Resource_8spp6")
+
+[sub_resource type="Resource" id="Resource_nklr0"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que devine le magicien ?"
+correct_answer = "la carte de Rosa"
+choices = Array[String](["son âge", "son prénom", "sa couleur préférée"])
+passage = SubResource("Resource_8spp6")
+
+[sub_resource type="Resource" id="Resource_q87gf"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment Rosa se sent-elle a la fin ?"
+correct_answer = "émerveillée"
+choices = Array[String](["déçue", "effrayée", "fâchée"])
+passage = SubResource("Resource_8spp6")
+
+[sub_resource type="Resource" id="Resource_f3ojo"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que fait Rosa en voyant la colombe disparaître ?"
+correct_answer = "elle n'en croit pas ses yeux"
+choices = Array[String](["elle rit fort", "elle pleure", "elle s'endort"])
+passage = SubResource("Resource_8spp6")
+
+[sub_resource type="Resource" id="Resource_g6tfp"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Quel type de spectacle Rosa regarde-t-elle ?"
+correct_answer = "un spectacle de magie"
+choices = Array[String](["un concert", "une pièce de théâtre", "un spectacle de danse"])
+passage = SubResource("Resource_8spp6")
+
+[sub_resource type="Resource" id="Resource_6gpv7"]
+script = ExtResource("2_lihs0")
+text = "Simon voit un théâtre de marionnettes. C'est au parc. Le petit théâtre a des rideaux rouges. Une marionnette de loup fait rire les enfants. Il rit avec ses copains. Une princesse chante une chanson douce. Les enfants sont contents a chaque scène. Il touche les marionnettes apres le spectacle. Il repart avec un grand sourire. Il rit un peu. Il fait beau. Le jour est doux. Tout va bien."
+
+[sub_resource type="Resource" id="Resource_yuy72"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où Simon regarde-t-il le spectacle ?"
+correct_answer = "au parc"
+choices = Array[String](["a l'école", "au cirque", "chez lui"])
+passage = SubResource("Resource_6gpv7")
+
+[sub_resource type="Resource" id="Resource_kl5hr"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "De quelle couleur sont les rideaux du théâtre ?"
+correct_answer = "rouges"
+choices = Array[String](["bleus", "verts", "jaunes"])
+passage = SubResource("Resource_6gpv7")
+
+[sub_resource type="Resource" id="Resource_f4tyx"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Quelle marionnette fait rire les enfants ?"
+correct_answer = "le loup"
+choices = Array[String](["le lapin", "le chat", "le renard"])
+passage = SubResource("Resource_6gpv7")
+
+[sub_resource type="Resource" id="Resource_i5w3c"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Avec qui Simon rit-il ?"
+correct_answer = "ses copains"
+choices = Array[String](["sa classe", "sa famille", "personne"])
+passage = SubResource("Resource_6gpv7")
+
+[sub_resource type="Resource" id="Resource_qmikj"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qui chante une chanson douce ?"
+correct_answer = "une princesse"
+choices = Array[String](["un roi", "un dragon", "une fée"])
+passage = SubResource("Resource_6gpv7")
+
+[sub_resource type="Resource" id="Resource_oicjo"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que font les enfants a chaque scène ?"
+correct_answer = "ils applaudissent"
+choices = Array[String](["ils crient de peur", "ils pleurent", "ils s'ennuient"])
+passage = SubResource("Resource_6gpv7")
+
+[sub_resource type="Resource" id="Resource_tlo58"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que fait Simon apres le spectacle ?"
+correct_answer = "il touche les marionnettes"
+choices = Array[String](["il rentre tout de suite", "il pleure", "il s'endort"])
+passage = SubResource("Resource_6gpv7")
+
+[sub_resource type="Resource" id="Resource_hfke4"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment Simon repart-il ?"
+correct_answer = "avec un grand sourire"
+choices = Array[String](["triste", "fatigué et fâche", "sans rien dire"])
+passage = SubResource("Resource_6gpv7")
+
+[sub_resource type="Resource" id="Resource_noidk"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "En quoi est fait le petit théâtre ?"
+correct_answer = "en bois"
+choices = Array[String](["en carton", "en tissu", "en plastique"])
+passage = SubResource("Resource_6gpv7")
+
+[sub_resource type="Resource" id="Resource_sgqvf"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Quel spectacle Simon regarde-t-il ?"
+correct_answer = "un théâtre de marionnettes"
+choices = Array[String](["un spectacle de magie", "un concert", "un film"])
+passage = SubResource("Resource_6gpv7")
+
+[sub_resource type="Resource" id="Resource_cidn2"]
+script = ExtResource("2_lihs0")
+text = "Emma chante dans la chorale. C'est a son école. Elle répète chaque mardi. Le jour du concert, Elle met une chemise blanche. Elle a un peu le trac. Le professeur donne le signal. Elle chante fort avec ses camarades. Les parents sont contents a la fin. Elle est très fière. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien."
+
+[sub_resource type="Resource" id="Resource_87ik4"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où Emma chante-t-elle ?"
+correct_answer = "dans la chorale de son école"
+choices = Array[String](["dans un groupe de musique", "a la télévision", "au cirque"])
+passage = SubResource("Resource_cidn2")
+
+[sub_resource type="Resource" id="Resource_lgmkc"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Quel jour Emma répète-t-elle ?"
+correct_answer = "le mardi"
+choices = Array[String](["le lundi", "le vendredi", "le dimanche"])
+passage = SubResource("Resource_cidn2")
+
+[sub_resource type="Resource" id="Resource_iuv0b"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que porte Emma le jour du concert ?"
+correct_answer = "une chemise blanche"
+choices = Array[String](["une robe rouge", "un pull vert", "un costume noir"])
+passage = SubResource("Resource_cidn2")
+
+[sub_resource type="Resource" id="Resource_mci4f"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que ressent Emma avant de monter sur scène ?"
+correct_answer = "un peu le trac"
+choices = Array[String](["de la joie seulement", "de la colère", "rien du tout"])
+passage = SubResource("Resource_cidn2")
+
+[sub_resource type="Resource" id="Resource_uvojo"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qui donne le signal ?"
+correct_answer = "le professeur"
+choices = Array[String](["la directrice", "Emma", "un parent"])
+passage = SubResource("Resource_cidn2")
+
+[sub_resource type="Resource" id="Resource_sdr5f"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que fait Emma pendant le concert ?"
+correct_answer = "elle chante fort"
+choices = Array[String](["elle joue du piano", "elle danse", "elle regarde seulement"])
+passage = SubResource("Resource_cidn2")
+
+[sub_resource type="Resource" id="Resource_hv8xl"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que font les parents à la fin ?"
+correct_answer = "ils applaudissent"
+choices = Array[String](["ils partent vite", "ils restent silencieux", "ils critiquent"])
+passage = SubResource("Resource_cidn2")
+
+[sub_resource type="Resource" id="Resource_k4aje"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment Emma se sent-elle a la fin ?"
+correct_answer = "très fière"
+choices = Array[String](["déçue", "gêne", "fatiguée et triste"])
+passage = SubResource("Resource_cidn2")
+
+[sub_resource type="Resource" id="Resource_g3arg"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Avec qui Emma répète-t-elle chaque semaine ?"
+correct_answer = "sa classe"
+choices = Array[String](["sa famille", "ses voisins", "seule"])
+passage = SubResource("Resource_cidn2")
+
+[sub_resource type="Resource" id="Resource_7r31f"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Quel événement Emma prépare-t-elle ?"
+correct_answer = "un concert de chorale"
+choices = Array[String](["un spectacle de danse", "une pièce de théâtre", "une fête d'anniversaire"])
+passage = SubResource("Resource_cidn2")
+
+[sub_resource type="Resource" id="Resource_t4xm3"]
+script = ExtResource("2_lihs0")
+text = "Nathan participe a la journée sportive. C'est a son école. Il court une course de vitesse. Il saute au saut en longueur. Son équipe joue au ballon prisonnier. La maîtresse compte les points avec un sifflet. Il boit de l'eau entre deux épreuves. Tous les enfants reçoivent une médaille. Il est très fier. Il rit un peu. Il fait beau. Le jour est doux. Tout va bien."
+
+[sub_resource type="Resource" id="Resource_2b3yr"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "À quoi Nathan participe-t-il ?"
+correct_answer = "la journée sportive de l'école"
+choices = Array[String](["un match de football professionnel", "une course cycliste", "un spectacle de danse"])
+passage = SubResource("Resource_t4xm3")
+
+[sub_resource type="Resource" id="Resource_4faga"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que court Nathan ?"
+correct_answer = "une course de vitesse"
+choices = Array[String](["un marathon", "une course a l'extérieur de l'école", "une course de relais seulement"])
+passage = SubResource("Resource_t4xm3")
+
+[sub_resource type="Resource" id="Resource_64s7s"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "À quelle épreuve Nathan saute-t-il ?"
+correct_answer = "le saut en longueur"
+choices = Array[String](["le saut en hauteur", "la corde à sauter", "le saut a la perche"])
+passage = SubResource("Resource_t4xm3")
+
+[sub_resource type="Resource" id="Resource_5kcp2"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "À quel jeu joue l'équipe de Nathan ?"
+correct_answer = "le ballon prisonnier"
+choices = Array[String](["le foot", "le basket", "le tennis"])
+passage = SubResource("Resource_t4xm3")
+
+[sub_resource type="Resource" id="Resource_h7pov"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qui chronometre les courses ?"
+correct_answer = "la maîtresse"
+choices = Array[String](["un parent", "le directeur", "Nathan lui-même"])
+passage = SubResource("Resource_t4xm3")
+
+[sub_resource type="Resource" id="Resource_gweeu"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que fait Nathan entre deux épreuves ?"
+correct_answer = "il boit de l'eau"
+choices = Array[String](["il se repose allonge", "il rentre chez lui", "il mange un sandwich"])
+passage = SubResource("Resource_t4xm3")
+
+[sub_resource type="Resource" id="Resource_kuhhn"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que reçoivent tous les enfants a la fin ?"
+correct_answer = "une médaille"
+choices = Array[String](["un trophée", "un livre", "un ballon"])
+passage = SubResource("Resource_t4xm3")
+
+[sub_resource type="Resource" id="Resource_y7cqh"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment Nathan se sent-il apres cette journée ?"
+correct_answer = "très fier"
+choices = Array[String](["déçu", "fatigué et triste", "en colère"])
+passage = SubResource("Resource_t4xm3")
+
+[sub_resource type="Resource" id="Resource_frwat"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Avec quoi la maîtresse chronometre-t-elle ?"
+correct_answer = "un sifflet"
+choices = Array[String](["une cloche", "un chronomètre silencieux", "sa voix"])
+passage = SubResource("Resource_t4xm3")
+
+[sub_resource type="Resource" id="Resource_5ky75"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où se passe la journée sportive ?"
+correct_answer = "a l'école"
+choices = Array[String](["au stade municipal", "a la piscine", "en foret"])
+passage = SubResource("Resource_t4xm3")
+
+[sub_resource type="Resource" id="Resource_7gkr3"]
+script = ExtResource("2_lihs0")
+text = "Sara essaie un parcours d'obstacles. C'est au centre de loisirs. Elle rampe sous un grand filet vert. Elle saute par-dessus des pneus. Elle grimpe sur un mur en mousse. Un moniteur aide Elle. Elle passe un pont en corde. Elle franchit la ligne d'arrivée en courant. Elle est très fière. Elle rit un peu. Il fait beau. Le jour est doux."
+
+[sub_resource type="Resource" id="Resource_cl2sj"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où Sara essaie-t-elle le parcours d'obstacles ?"
+correct_answer = "au centre de loisirs"
+choices = Array[String](["a l'école", "au stade", "a la piscine"])
+passage = SubResource("Resource_7gkr3")
+
+[sub_resource type="Resource" id="Resource_vbxl7"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Sous quoi Sara rampe-t-elle ?"
+correct_answer = "un grand filet vert"
+choices = Array[String](["une table", "une corde tendue", "un tunnel en bois"])
+passage = SubResource("Resource_7gkr3")
+
+[sub_resource type="Resource" id="Resource_bqxo8"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Par-dessus quoi Sara saute-t-elle ?"
+correct_answer = "des pneus"
+choices = Array[String](["des bancs", "des caisses", "des cordes"])
+passage = SubResource("Resource_7gkr3")
+
+[sub_resource type="Resource" id="Resource_klebb"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Sur quoi Sara grimpe-t-elle ?"
+correct_answer = "un mur en mousse"
+choices = Array[String](["un arbre", "une échelle", "un rocher"])
+passage = SubResource("Resource_7gkr3")
+
+[sub_resource type="Resource" id="Resource_nkhih"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qui encourage Sara ?"
+correct_answer = "un moniteur"
+choices = Array[String](["sa maman", "sa classe", "personne"])
+passage = SubResource("Resource_7gkr3")
+
+[sub_resource type="Resource" id="Resource_qghw1"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que traverse Sara ensuite ?"
+correct_answer = "un pont en corde"
+choices = Array[String](["une rivière", "un tunnel sombre", "une passerelle en bois fixe"])
+passage = SubResource("Resource_7gkr3")
+
+[sub_resource type="Resource" id="Resource_cmju0"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment Sara franchit-elle la ligne d'arrivée ?"
+correct_answer = "en courant"
+choices = Array[String](["en marchant lentement", "en rampant", "en sautant a cloche-pied"])
+passage = SubResource("Resource_7gkr3")
+
+[sub_resource type="Resource" id="Resource_00u2f"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment Sara se sent-elle a la fin ?"
+correct_answer = "très fière"
+choices = Array[String](["déçue", "fatiguée et triste", "effrayée"])
+passage = SubResource("Resource_7gkr3")
+
+[sub_resource type="Resource" id="Resource_4ucck"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que fait Sara pendant cette activité ?"
+correct_answer = "un parcours d'obstacles"
+choices = Array[String](["une course de natation", "un match de foot", "une chasse au trésor"])
+passage = SubResource("Resource_7gkr3")
+
+[sub_resource type="Resource" id="Resource_a57kv"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qui aide Sara pendant le parcours ?"
+correct_answer = "un moniteur"
+choices = Array[String](["sa mamie", "sa classe", "personne"])
+passage = SubResource("Resource_7gkr3")
+
+[sub_resource type="Resource" id="Resource_mtjhr"]
+script = ExtResource("2_lihs0")
+text = "Adam passe la journée au parc aquatique. Il est avec ses parents. Il glisse sur un grand toboggan bleu. Il crie de joie. Il atterrit avec un grand plouf. Maman nage avec lui. Il mange une glace au bord de l'eau. Il refait le toboggan trois fois. Il ne veut plus partir. Il rit un peu."
+
+[sub_resource type="Resource" id="Resource_d4v6e"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où Adam passe-t-il la journée ?"
+correct_answer = "au parc aquatique"
+choices = Array[String](["a la piscine du quartier", "a la plage", "au lac"])
+passage = SubResource("Resource_mtjhr")
+
+[sub_resource type="Resource" id="Resource_t358m"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Avec qui y va-t-il ?"
+correct_answer = "ses parents"
+choices = Array[String](["sa classe", "ses cousins", "ses voisins"])
+passage = SubResource("Resource_mtjhr")
+
+[sub_resource type="Resource" id="Resource_nm1gl"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "De quelle couleur est le grand toboggan ?"
+correct_answer = "bleu"
+choices = Array[String](["rouge", "vert", "jaune"])
+passage = SubResource("Resource_mtjhr")
+
+[sub_resource type="Resource" id="Resource_j0uj4"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que fait Adam pendant la descente ?"
+correct_answer = "il crie de joie"
+choices = Array[String](["il pleure", "il ferme les yeux de peur", "il reste silencieux"])
+passage = SubResource("Resource_mtjhr")
+
+[sub_resource type="Resource" id="Resource_s141x"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment Adam atterrit-il ?"
+correct_answer = "avec un grand plouf"
+choices = Array[String](["tout doucement", "sur le sable", "sur un tapis"])
+passage = SubResource("Resource_mtjhr")
+
+[sub_resource type="Resource" id="Resource_u0p7h"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Avec qui Adam nage-t-il ?"
+correct_answer = "maman"
+choices = Array[String](["papa", "un moniteur", "personne"])
+passage = SubResource("Resource_mtjhr")
+
+[sub_resource type="Resource" id="Resource_of45b"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que mange Adam au bord de l'eau ?"
+correct_answer = "une glace"
+choices = Array[String](["un sandwich", "des bonbons", "une pomme"])
+passage = SubResource("Resource_mtjhr")
+
+[sub_resource type="Resource" id="Resource_uhyvt"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Combien de fois Adam refait-il le toboggan ?"
+correct_answer = "trois fois"
+choices = Array[String](["une fois", "cinq fois", "il ne le refait pas"])
+passage = SubResource("Resource_mtjhr")
+
+[sub_resource type="Resource" id="Resource_bbkec"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que ne veut plus faire Adam a la fin ?"
+correct_answer = "partir de la"
+choices = Array[String](["aller dans l'eau", "manger une glace", "jouer avec ses parents"])
+passage = SubResource("Resource_mtjhr")
+
+[sub_resource type="Resource" id="Resource_ibqrr"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où se passe cette journée ?"
+correct_answer = "au parc aquatique"
+choices = Array[String](["a l'école", "a la ferme", "en montagne"])
+passage = SubResource("Resource_mtjhr")
+
+[sub_resource type="Resource" id="Resource_q4cbc"]
+script = ExtResource("2_lihs0")
+text = "Léna monte dans le grand huit. C'est la première fois. Elle attache bien sa ceinture. Le wagon grimpe une côte raide. Elle ferme les yeux un instant. Le wagon descend a toute vitesse. Elle leve les bras très haut. Le tour dure deux minutes. Elle demande à refaire un tour. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien."
+
+[sub_resource type="Resource" id="Resource_tol10"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où Léna monte-t-elle dans le grand huit ?"
+correct_answer = "a la fête foraine"
+choices = Array[String](["au cirque", "au parc de la ville", "a l'école"])
+passage = SubResource("Resource_q4cbc")
+
+[sub_resource type="Resource" id="Resource_3h80p"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que fait Léna avant le départ ?"
+correct_answer = "elle attache sa ceinture"
+choices = Array[String](["elle ferme la porte", "elle appelle sa maman", "elle enlève ses chaussures"])
+passage = SubResource("Resource_q4cbc")
+
+[sub_resource type="Resource" id="Resource_ymmdl"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que fait le wagon ?"
+correct_answer = "il grimpe une côte raide"
+choices = Array[String](["il reste au sol", "il traverse un tunnel", "il roule sur un pont"])
+passage = SubResource("Resource_q4cbc")
+
+[sub_resource type="Resource" id="Resource_a1s8v"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que fait Léna un court instant ?"
+correct_answer = "elle ferme les yeux"
+choices = Array[String](["elle chante", "elle dort", "elle mange"])
+passage = SubResource("Resource_q4cbc")
+
+[sub_resource type="Resource" id="Resource_hhw2s"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment le wagon descend-il ?"
+correct_answer = "a toute vitesse"
+choices = Array[String](["très lentement", "en s'arrêtant souvent", "a reculons"])
+passage = SubResource("Resource_q4cbc")
+
+[sub_resource type="Resource" id="Resource_r7sjg"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que fait Léna dans les virages ?"
+correct_answer = "elle lève les bras"
+choices = Array[String](["elle se cache les yeux", "elle pleure", "elle reste immobile"])
+passage = SubResource("Resource_q4cbc")
+
+[sub_resource type="Resource" id="Resource_nokhy"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Combien de temps dure le tour ?"
+correct_answer = "deux minutes"
+choices = Array[String](["dix minutes", "une heure", "trente secondes"])
+passage = SubResource("Resource_q4cbc")
+
+[sub_resource type="Resource" id="Resource_cvual"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que demande Léna a la fin ?"
+correct_answer = "de refaire un tour"
+choices = Array[String](["de rentrer vite", "de manger une glace", "de partir de la fête"])
+passage = SubResource("Resource_q4cbc")
+
+[sub_resource type="Resource" id="Resource_voil7"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où se passe cette histoire ?"
+correct_answer = "a la fête foraine"
+choices = Array[String](["au cirque", "a l'école", "au zoo"])
+passage = SubResource("Resource_q4cbc")
+
+[sub_resource type="Resource" id="Resource_vsg7p"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Quelle attraction Léna essaie-t-elle ?"
+correct_answer = "le grand huit"
+choices = Array[String](["le manège a chevaux", "la grande roue", "les autos tamponneuses"])
+passage = SubResource("Resource_q4cbc")
+
+[sub_resource type="Resource" id="Resource_c6ehe"]
+script = ExtResource("2_lihs0")
+text = "Paul monte sur un cheval de bois. Il est avec sa petite soeur. La musique du manège joue fort. Il tient bien la barre dorée. Le manège tourne doux. Sa soeur agite la main. Il essaie d'attraper un anneau en bois. Apres le manège, ils montent dans la grande roue. Il voit toute la fête. Il rit un peu."
+
+[sub_resource type="Resource" id="Resource_np64l"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Sur quoi Paul monte-t-il d'abord ?"
+correct_answer = "un cheval de bois"
+choices = Array[String](["un dragon", "une voiture", "un avion"])
+passage = SubResource("Resource_c6ehe")
+
+[sub_resource type="Resource" id="Resource_kqxwu"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Avec qui Paul monte-t-il sur le manège ?"
+correct_answer = "sa petite soeur"
+choices = Array[String](["son grand frère", "sa mamie", "un ami"])
+passage = SubResource("Resource_c6ehe")
+
+[sub_resource type="Resource" id="Resource_yqhdn"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment est la musique du manège ?"
+correct_answer = "elle joue fort"
+choices = Array[String](["elle est très douce", "il n'y a pas de musique", "elle est triste"])
+passage = SubResource("Resource_c6ehe")
+
+[sub_resource type="Resource" id="Resource_mqpa4"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que tient Paul ?"
+correct_answer = "la barre dorée"
+choices = Array[String](["les rênes", "un ballon", "un bouton rouge"])
+passage = SubResource("Resource_c6ehe")
+
+[sub_resource type="Resource" id="Resource_mjb4r"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment tourne le manège ?"
+correct_answer = "doucement"
+choices = Array[String](["très vite", "il ne tourne pas", "a l'envers"])
+passage = SubResource("Resource_c6ehe")
+
+[sub_resource type="Resource" id="Resource_s007v"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que fait la soeur de Paul ?"
+correct_answer = "elle agite la main"
+choices = Array[String](["elle crie de peur", "elle pleure", "elle ferme les yeux"])
+passage = SubResource("Resource_c6ehe")
+
+[sub_resource type="Resource" id="Resource_hl2x6"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qu'essaie d'attraper Paul ?"
+correct_answer = "un anneau en bois"
+choices = Array[String](["une pomme", "un chapeau", "un ballon"])
+passage = SubResource("Resource_c6ehe")
+
+[sub_resource type="Resource" id="Resource_4gnpm"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que font-ils apres le manège ?"
+correct_answer = "ils montent dans la grande roue"
+choices = Array[String](["ils rentrent chez eux", "ils mangent une glace", "ils font les autos tamponneuses"])
+passage = SubResource("Resource_c6ehe")
+
+[sub_resource type="Resource" id="Resource_0l7jf"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que voit Paul depuis la grande roue ?"
+correct_answer = "toute la fête"
+choices = Array[String](["seulement le ciel", "sa maison", "rien du tout"])
+passage = SubResource("Resource_c6ehe")
+
+[sub_resource type="Resource" id="Resource_81ein"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où se passe cette histoire ?"
+correct_answer = "a la fête foraine"
+choices = Array[String](["au cirque", "a l'école", "au zoo"])
+passage = SubResource("Resource_c6ehe")
+
+[sub_resource type="Resource" id="Resource_3irl4"]
+script = ExtResource("2_lihs0")
+text = "Iris dort chez ses grands-parents. C'est la première fois. Elle donne son doudou lapin. Mamie prépare une soupe de légumes. Elle aide papi à mettre la table. Apres le repas, papi dit une histoire. Elle se glisse dans un grand lit. Mamie chante une berceuse. Elle s'endort vite, très heureuse. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la."
+
+[sub_resource type="Resource" id="Resource_lxyi7"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où Iris dort-elle ce week-end ?"
+correct_answer = "chez ses grands-parents"
+choices = Array[String](["chez ses cousins", "a l'école", "chez une amie"])
+passage = SubResource("Resource_3irl4")
+
+[sub_resource type="Resource" id="Resource_y2ll4"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que apporte Iris ?"
+correct_answer = "son doudou lapin"
+choices = Array[String](["ses jouets", "ses livres", "ses vêtements de sport"])
+passage = SubResource("Resource_3irl4")
+
+[sub_resource type="Resource" id="Resource_n8nb7"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que prépare mamie pour le dîner ?"
+correct_answer = "une soupe de légumes"
+choices = Array[String](["des pâtés", "une pizza", "un poulet rôti"])
+passage = SubResource("Resource_3irl4")
+
+[sub_resource type="Resource" id="Resource_7arbx"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que fait Iris avant le repas ?"
+correct_answer = "elle aide à mettre la table"
+choices = Array[String](["elle regarde la télévision", "elle dort déjà", "elle joue dehors"])
+passage = SubResource("Resource_3irl4")
+
+[sub_resource type="Resource" id="Resource_1jo55"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que raconte papi apres le repas ?"
+correct_answer = "une histoire"
+choices = Array[String](["un conte de fées", "une blague", "les nouvelles du jour"])
+passage = SubResource("Resource_3irl4")
+
+[sub_resource type="Resource" id="Resource_dt8mc"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où Iris se glisse-t-elle pour dormir ?"
+correct_answer = "un grand lit"
+choices = Array[String](["un sac de couchage", "un canapé", "un lit superpose"])
+passage = SubResource("Resource_3irl4")
+
+[sub_resource type="Resource" id="Resource_wktyw"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que fait mamie pour aider Iris à dormir ?"
+correct_answer = "elle chante une berceuse"
+choices = Array[String](["elle lit une histoire", "elle allume la télévision", "elle ferme juste la porte"])
+passage = SubResource("Resource_3irl4")
+
+[sub_resource type="Resource" id="Resource_up1bk"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment Iris s'endort-elle ?"
+correct_answer = "vite et heureuse"
+choices = Array[String](["difficilement", "en pleurant", "très tard"])
+passage = SubResource("Resource_3irl4")
+
+[sub_resource type="Resource" id="Resource_f84yn"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Chez qui Iris passe-t-elle la nuit ?"
+correct_answer = "ses grands-parents"
+choices = Array[String](["ses cousins", "une amie", "sa mamie seule"])
+passage = SubResource("Resource_3irl4")
+
+[sub_resource type="Resource" id="Resource_wln2g"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que fait Iris pour la première fois ?"
+correct_answer = "dormir chez ses grands-parents"
+choices = Array[String](["manger de la soupe", "voyager en train", "aller à l'école"])
+passage = SubResource("Resource_3irl4")
+
+[sub_resource type="Resource" id="Resource_texcb"]
+script = ExtResource("2_lihs0")
+text = "Milan revient de vacances. Il était à la mer. Il sort les valises de la voiture. Il range ses coquillages dans une boite. Son chat l'attendait a la maison. Maman lave les vêtements pleins de sable. Il voit les photos avec son papa. Il pense déjà a l'école. Il garde de bons souvenirs. Il rit un peu. Il fait beau. Le jour est doux."
+
+[sub_resource type="Resource" id="Resource_8cvi4"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "D'ou Milan revient-il ?"
+correct_answer = "de vacances a la mer"
+choices = Array[String](["de l'école", "de chez ses cousins", "de la montagne"])
+passage = SubResource("Resource_texcb")
+
+[sub_resource type="Resource" id="Resource_t47os"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que fait Milan en arrivant ?"
+correct_answer = "il sort les valises de la voiture"
+choices = Array[String](["il va se coucher tout de suite", "il part jouer dehors", "il appelle ses amis"])
+passage = SubResource("Resource_texcb")
+
+[sub_resource type="Resource" id="Resource_ppf1k"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où Milan range-t-il ses coquillages ?"
+correct_answer = "dans une boite"
+choices = Array[String](["dans un tiroir", "dans sa poche", "il les jette"])
+passage = SubResource("Resource_texcb")
+
+[sub_resource type="Resource" id="Resource_xyho7"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qui attendait Milan a la maison ?"
+correct_answer = "son chat"
+choices = Array[String](["son chien", "son poisson rouge", "personne"])
+passage = SubResource("Resource_texcb")
+
+[sub_resource type="Resource" id="Resource_1lw1v"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que lave la maman de Milan ?"
+correct_answer = "les vêtements pleins de sable"
+choices = Array[String](["la voiture", "les valises", "les fenêtres"])
+passage = SubResource("Resource_texcb")
+
+[sub_resource type="Resource" id="Resource_huqhe"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que regarde Milan avec son papa ?"
+correct_answer = "les photos du séjour"
+choices = Array[String](["un film", "un livre", "la télévision"])
+passage = SubResource("Resource_texcb")
+
+[sub_resource type="Resource" id="Resource_eqgw8"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "À quoi pense Milan bientôt ?"
+correct_answer = "l'école qui recommence"
+choices = Array[String](["les prochaines vacances", "son anniversaire", "un match de foot"])
+passage = SubResource("Resource_texcb")
+
+[sub_resource type="Resource" id="Resource_5vlin"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment Milan garde-t-il ses souvenirs de l'été ?"
+correct_answer = "ce sont de bons souvenirs"
+choices = Array[String](["il les oublie vite", "il est triste en y pensant", "il ne s'en souvient pas"])
+passage = SubResource("Resource_texcb")
+
+[sub_resource type="Resource" id="Resource_4ihlb"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où Milan a-t-il passe ses vacances ?"
+correct_answer = "a la mer"
+choices = Array[String](["a la montagne", "a la campagne", "chez sa mamie"])
+passage = SubResource("Resource_texcb")
+
+[sub_resource type="Resource" id="Resource_7gbuc"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qui range les coquillages dans une boite ?"
+correct_answer = "Milan"
+choices = Array[String](["son papa", "sa maman", "personne"])
+passage = SubResource("Resource_texcb")
+
+[sub_resource type="Resource" id="Resource_22pl2"]
+script = ExtResource("2_lihs0")
+text = "Selma visite un jardin de papillons. Elle est avec sa classe. Un grand papillon bleu se pose sur sa main. Elle reste immobile. La guide explique comment naissent les papillons. Elle voit une chenille verte. Elle sent le parfum des fleurs. Elle dessine un papillon dans son cahier. Elle garde un joli souvenir. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien."
+
+[sub_resource type="Resource" id="Resource_klyve"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que visite Selma avec sa classe ?"
+correct_answer = "un jardin de papillons"
+choices = Array[String](["un zoo", "un musée", "une ferme"])
+passage = SubResource("Resource_22pl2")
+
+[sub_resource type="Resource" id="Resource_yklqr"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "De quelle couleur est le papillon qui se pose sur sa main ?"
+correct_answer = "bleu"
+choices = Array[String](["rouge", "jaune", "orange"])
+passage = SubResource("Resource_22pl2")
+
+[sub_resource type="Resource" id="Resource_eiao5"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que fait Selma pour ne pas faire peur au papillon ?"
+correct_answer = "elle reste immobile"
+choices = Array[String](["elle court vite", "elle crie", "elle ferme les yeux"])
+passage = SubResource("Resource_22pl2")
+
+[sub_resource type="Resource" id="Resource_ht1bx"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Qu'explique la guide ?"
+correct_answer = "comment naissent les papillons"
+choices = Array[String](["comment poussent les fleurs", "comment volent les oiseaux", "comment vivent les abeilles"])
+passage = SubResource("Resource_22pl2")
+
+[sub_resource type="Resource" id="Resource_lf06s"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Quel animal Selma regarde-t-elle ?"
+correct_answer = "une chenille verte"
+choices = Array[String](["une coccinelle", "une abeille", "une araignée"])
+passage = SubResource("Resource_22pl2")
+
+[sub_resource type="Resource" id="Resource_ybhf3"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que sent Selma autour d'elle ?"
+correct_answer = "le parfum des fleurs"
+choices = Array[String](["l'odeur de la pluie", "l'odeur de l'herbe coupée", "rien de particulier"])
+passage = SubResource("Resource_22pl2")
+
+[sub_resource type="Resource" id="Resource_k6s33"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Que dessine Selma a la sortie ?"
+correct_answer = "un papillon"
+choices = Array[String](["une fleur", "une chenille", "un jardin entier"])
+passage = SubResource("Resource_22pl2")
+
+[sub_resource type="Resource" id="Resource_cnr74"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Où Selma dessine-t-elle ?"
+correct_answer = "dans son cahier"
+choices = Array[String](["sur une feuille volante", "sur le mur", "sur son bras"])
+passage = SubResource("Resource_22pl2")
+
+[sub_resource type="Resource" id="Resource_s4txu"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Comment Selma garde-t-elle ce souvenir ?"
+correct_answer = "c'est un joli souvenir"
+choices = Array[String](["elle l'oublie vite", "elle est déçue", "elle a eu peur"])
+passage = SubResource("Resource_22pl2")
+
+[sub_resource type="Resource" id="Resource_afdcx"]
+script = ExtResource("1_kx5v7")
+subject = 6
+text = "Avec qui Selma visite-t-elle le jardin ?"
+correct_answer = "sa classe"
+choices = Array[String](["sa famille", "ses cousins", "seule"])
+passage = SubResource("Resource_22pl2")
+
+[resource]
+script = ExtResource("3_8tf1i")
+questions = Array[ExtResource("1_kx5v7")]([SubResource("Resource_sb5u5"), SubResource("Resource_5oafg"), SubResource("Resource_ryo6y"), SubResource("Resource_hy6nr"), SubResource("Resource_0r2lh"), SubResource("Resource_fyr6u"), SubResource("Resource_7itlc"), SubResource("Resource_yh53h"), SubResource("Resource_ltxvv"), SubResource("Resource_fink4"), SubResource("Resource_5o837"), SubResource("Resource_566vq"), SubResource("Resource_4s080"), SubResource("Resource_od71p"), SubResource("Resource_x5l0h"), SubResource("Resource_dft53"), SubResource("Resource_w8umi"), SubResource("Resource_2rjq8"), SubResource("Resource_wu7vv"), SubResource("Resource_yfor6"), SubResource("Resource_odu2l"), SubResource("Resource_skhug"), SubResource("Resource_2tdu3"), SubResource("Resource_rvb4a"), SubResource("Resource_o42xb"), SubResource("Resource_6cfs6"), SubResource("Resource_jbjpc"), SubResource("Resource_emhu1"), SubResource("Resource_mmood"), SubResource("Resource_ribam"), SubResource("Resource_vsh25"), SubResource("Resource_vykq8"), SubResource("Resource_xxxq0"), SubResource("Resource_0b5j8"), SubResource("Resource_ldjyl"), SubResource("Resource_pk8w3"), SubResource("Resource_j3xa2"), SubResource("Resource_4rghb"), SubResource("Resource_2ewdb"), SubResource("Resource_eabxa"), SubResource("Resource_ey608"), SubResource("Resource_prtu1"), SubResource("Resource_u2lh4"), SubResource("Resource_mhsok"), SubResource("Resource_gth64"), SubResource("Resource_yn3hc"), SubResource("Resource_wwo7u"), SubResource("Resource_u1e0c"), SubResource("Resource_y76ll"), SubResource("Resource_n5k0k"), SubResource("Resource_rpjn7"), SubResource("Resource_1wlw3"), SubResource("Resource_uy6qq"), SubResource("Resource_oew3i"), SubResource("Resource_q0rda"), SubResource("Resource_1eljw"), SubResource("Resource_makhh"), SubResource("Resource_vnfm5"), SubResource("Resource_5iji5"), SubResource("Resource_khckp"), SubResource("Resource_utxa6"), SubResource("Resource_xsfkg"), SubResource("Resource_i1402"), SubResource("Resource_udlsc"), SubResource("Resource_jtjii"), SubResource("Resource_yjdw4"), SubResource("Resource_chw3q"), SubResource("Resource_c0p2h"), SubResource("Resource_lgwnh"), SubResource("Resource_itse2"), SubResource("Resource_hqbur"), SubResource("Resource_i5ar6"), SubResource("Resource_0ew6m"), SubResource("Resource_wrc06"), SubResource("Resource_btfbq"), SubResource("Resource_0d0j7"), SubResource("Resource_usp44"), SubResource("Resource_pkoj0"), SubResource("Resource_lsqgk"), SubResource("Resource_grgrw"), SubResource("Resource_tttd1"), SubResource("Resource_f1tcr"), SubResource("Resource_cljnv"), SubResource("Resource_oash4"), SubResource("Resource_45tlv"), SubResource("Resource_4u8vi"), SubResource("Resource_vansd"), SubResource("Resource_6252l"), SubResource("Resource_yu8jy"), SubResource("Resource_ds5ft"), SubResource("Resource_c8y13"), SubResource("Resource_pyj4r"), SubResource("Resource_edkqh"), SubResource("Resource_d34l4"), SubResource("Resource_huhox"), SubResource("Resource_ieope"), SubResource("Resource_hr1h3"), SubResource("Resource_nok2f"), SubResource("Resource_sxrys"), SubResource("Resource_7hent"), SubResource("Resource_6mmfv"), SubResource("Resource_k1hky"), SubResource("Resource_6fth2"), SubResource("Resource_ws2f5"), SubResource("Resource_xlq5t"), SubResource("Resource_x63i8"), SubResource("Resource_32d30"), SubResource("Resource_b0kx0"), SubResource("Resource_867aa"), SubResource("Resource_q06xn"), SubResource("Resource_to3r6"), SubResource("Resource_8jesa"), SubResource("Resource_o3wxi"), SubResource("Resource_f81au"), SubResource("Resource_gh26h"), SubResource("Resource_3stmh"), SubResource("Resource_3y02v"), SubResource("Resource_64b84"), SubResource("Resource_ekg14"), SubResource("Resource_uo7wv"), SubResource("Resource_d3taf"), SubResource("Resource_m0r1y"), SubResource("Resource_u5ltb"), SubResource("Resource_0jiw6"), SubResource("Resource_bi787"), SubResource("Resource_vv7xd"), SubResource("Resource_6508x"), SubResource("Resource_egdia"), SubResource("Resource_mq2rx"), SubResource("Resource_5cu7u"), SubResource("Resource_4j1bs"), SubResource("Resource_b012e"), SubResource("Resource_t4r7k"), SubResource("Resource_sh6i1"), SubResource("Resource_i0f4n"), SubResource("Resource_midym"), SubResource("Resource_tpf6o"), SubResource("Resource_2po0j"), SubResource("Resource_xut2m"), SubResource("Resource_4fwx2"), SubResource("Resource_r4jqx"), SubResource("Resource_po2f2"), SubResource("Resource_6vq8q"), SubResource("Resource_ycood"), SubResource("Resource_uti1s"), SubResource("Resource_ffepb"), SubResource("Resource_5ucxa"), SubResource("Resource_cpgwx"), SubResource("Resource_u1bt2"), SubResource("Resource_ctidu"), SubResource("Resource_1blcw"), SubResource("Resource_latfj"), SubResource("Resource_b3ngk"), SubResource("Resource_dy4rm"), SubResource("Resource_j3xrb"), SubResource("Resource_yam8s"), SubResource("Resource_00i1i"), SubResource("Resource_bdoit"), SubResource("Resource_ajj6l"), SubResource("Resource_rvveg"), SubResource("Resource_km80i"), SubResource("Resource_rk0f1"), SubResource("Resource_ce077"), SubResource("Resource_43f33"), SubResource("Resource_m58s2"), SubResource("Resource_h72b5"), SubResource("Resource_eoq20"), SubResource("Resource_fqeby"), SubResource("Resource_v536o"), SubResource("Resource_81p73"), SubResource("Resource_47wle"), SubResource("Resource_nmwex"), SubResource("Resource_idp6r"), SubResource("Resource_5rdn3"), SubResource("Resource_4d8ks"), SubResource("Resource_2rstn"), SubResource("Resource_jm35l"), SubResource("Resource_5rkr0"), SubResource("Resource_xb0q5"), SubResource("Resource_nuhhi"), SubResource("Resource_jecr3"), SubResource("Resource_qnb82"), SubResource("Resource_uyxr3"), SubResource("Resource_7je32"), SubResource("Resource_4khej"), SubResource("Resource_ripg6"), SubResource("Resource_ugcqb"), SubResource("Resource_ahumb"), SubResource("Resource_xplhk"), SubResource("Resource_n1lr6"), SubResource("Resource_fcnj5"), SubResource("Resource_8dqw8"), SubResource("Resource_xujry"), SubResource("Resource_u2oop"), SubResource("Resource_d0xeg"), SubResource("Resource_2p2nb"), SubResource("Resource_hvagy"), SubResource("Resource_w65w2"), SubResource("Resource_jbff5"), SubResource("Resource_swait"), SubResource("Resource_cnvcg"), SubResource("Resource_jeh0r"), SubResource("Resource_rfwf8"), SubResource("Resource_5onc3"), SubResource("Resource_ocq00"), SubResource("Resource_obx8n"), SubResource("Resource_e8jjg"), SubResource("Resource_cs7el"), SubResource("Resource_up05r"), SubResource("Resource_cveer"), SubResource("Resource_3e6o7"), SubResource("Resource_llvyp"), SubResource("Resource_ax6xr"), SubResource("Resource_7xnve"), SubResource("Resource_lmnvs"), SubResource("Resource_mt87p"), SubResource("Resource_1v8u7"), SubResource("Resource_66i57"), SubResource("Resource_58qmk"), SubResource("Resource_4w52n"), SubResource("Resource_yba7j"), SubResource("Resource_bdmot"), SubResource("Resource_aqmbb"), SubResource("Resource_5bl3b"), SubResource("Resource_w8wb8"), SubResource("Resource_mri55"), SubResource("Resource_wgry4"), SubResource("Resource_etk6j"), SubResource("Resource_h7pfp"), SubResource("Resource_tjih4"), SubResource("Resource_wou1c"), SubResource("Resource_4834r"), SubResource("Resource_kycn6"), SubResource("Resource_3np8d"), SubResource("Resource_liyh4"), SubResource("Resource_bb6qu"), SubResource("Resource_yupjj"), SubResource("Resource_hf85a"), SubResource("Resource_pdfpx"), SubResource("Resource_073mv"), SubResource("Resource_owqb5"), SubResource("Resource_26xc1"), SubResource("Resource_ajo5p"), SubResource("Resource_p7s8k"), SubResource("Resource_hqjok"), SubResource("Resource_ny6fg"), SubResource("Resource_uemot"), SubResource("Resource_vbmbl"), SubResource("Resource_k7h5f"), SubResource("Resource_lqd35"), SubResource("Resource_m6tii"), SubResource("Resource_gh5hw"), SubResource("Resource_j5ak6"), SubResource("Resource_kg6wd"), SubResource("Resource_376w6"), SubResource("Resource_hs6xv"), SubResource("Resource_y331h"), SubResource("Resource_hahnx"), SubResource("Resource_k0w1d"), SubResource("Resource_ad0a2"), SubResource("Resource_fa1xi"), SubResource("Resource_pm68n"), SubResource("Resource_y3t28"), SubResource("Resource_avlgk"), SubResource("Resource_y73gt"), SubResource("Resource_ptrlc"), SubResource("Resource_sin00"), SubResource("Resource_eqnac"), SubResource("Resource_52u5i"), SubResource("Resource_4c14p"), SubResource("Resource_ffg8g"), SubResource("Resource_fx1rg"), SubResource("Resource_lgjrt"), SubResource("Resource_5ujqh"), SubResource("Resource_irmex"), SubResource("Resource_yhu5y"), SubResource("Resource_jm5qr"), SubResource("Resource_fnen2"), SubResource("Resource_mrbso"), SubResource("Resource_veyje"), SubResource("Resource_ke5i8"), SubResource("Resource_4fif1"), SubResource("Resource_uscl8"), SubResource("Resource_pidgb"), SubResource("Resource_dt6nk"), SubResource("Resource_2nr6d"), SubResource("Resource_c14ft"), SubResource("Resource_olbqb"), SubResource("Resource_w5fhi"), SubResource("Resource_0xi07"), SubResource("Resource_mdi47"), SubResource("Resource_w57ou"), SubResource("Resource_hwajl"), SubResource("Resource_warkj"), SubResource("Resource_rf13e"), SubResource("Resource_1eeap"), SubResource("Resource_bd3om"), SubResource("Resource_yx7ht"), SubResource("Resource_xbcs2"), SubResource("Resource_ymf2l"), SubResource("Resource_tud04"), SubResource("Resource_t1u6x"), SubResource("Resource_cp163"), SubResource("Resource_4ldm6"), SubResource("Resource_doesa"), SubResource("Resource_qj5te"), SubResource("Resource_y72ch"), SubResource("Resource_87bxh"), SubResource("Resource_oqu2u"), SubResource("Resource_u60f8"), SubResource("Resource_3m805"), SubResource("Resource_nm6e6"), SubResource("Resource_bhbv5"), SubResource("Resource_rpaeq"), SubResource("Resource_ganie"), SubResource("Resource_k8cok"), SubResource("Resource_nspgi"), SubResource("Resource_uy86n"), SubResource("Resource_hq5wn"), SubResource("Resource_rrut2"), SubResource("Resource_hfwyg"), SubResource("Resource_b5u5p"), SubResource("Resource_r3aid"), SubResource("Resource_2woka"), SubResource("Resource_jf5lr"), SubResource("Resource_ym7nx"), SubResource("Resource_adbiu"), SubResource("Resource_tfihi"), SubResource("Resource_84beg"), SubResource("Resource_wp3uh"), SubResource("Resource_ykocl"), SubResource("Resource_hr508"), SubResource("Resource_yrxro"), SubResource("Resource_c43vu"), SubResource("Resource_oiwa0"), SubResource("Resource_cgo5l"), SubResource("Resource_ayhpv"), SubResource("Resource_qvsfu"), SubResource("Resource_e2y6i"), SubResource("Resource_qdvt8"), SubResource("Resource_7kkn1"), SubResource("Resource_x4hou"), SubResource("Resource_utd67"), SubResource("Resource_dmqk0"), SubResource("Resource_1h477"), SubResource("Resource_seqd7"), SubResource("Resource_8jl3x"), SubResource("Resource_jm48q"), SubResource("Resource_2kelw"), SubResource("Resource_bq8q4"), SubResource("Resource_a3740"), SubResource("Resource_ostfl"), SubResource("Resource_q66p1"), SubResource("Resource_c5xri"), SubResource("Resource_2a5uy"), SubResource("Resource_0p084"), SubResource("Resource_hyg6f"), SubResource("Resource_ivj5k"), SubResource("Resource_gwvss"), SubResource("Resource_i70wn"), SubResource("Resource_onjg7"), SubResource("Resource_nk28f"), SubResource("Resource_qucmt"), SubResource("Resource_v25h6"), SubResource("Resource_1oaes"), SubResource("Resource_grd6c"), SubResource("Resource_nklr0"), SubResource("Resource_q87gf"), SubResource("Resource_f3ojo"), SubResource("Resource_g6tfp"), SubResource("Resource_yuy72"), SubResource("Resource_kl5hr"), SubResource("Resource_f4tyx"), SubResource("Resource_i5w3c"), SubResource("Resource_qmikj"), SubResource("Resource_oicjo"), SubResource("Resource_tlo58"), SubResource("Resource_hfke4"), SubResource("Resource_noidk"), SubResource("Resource_sgqvf"), SubResource("Resource_87ik4"), SubResource("Resource_lgmkc"), SubResource("Resource_iuv0b"), SubResource("Resource_mci4f"), SubResource("Resource_uvojo"), SubResource("Resource_sdr5f"), SubResource("Resource_hv8xl"), SubResource("Resource_k4aje"), SubResource("Resource_g3arg"), SubResource("Resource_7r31f"), SubResource("Resource_2b3yr"), SubResource("Resource_4faga"), SubResource("Resource_64s7s"), SubResource("Resource_5kcp2"), SubResource("Resource_h7pov"), SubResource("Resource_gweeu"), SubResource("Resource_kuhhn"), SubResource("Resource_y7cqh"), SubResource("Resource_frwat"), SubResource("Resource_5ky75"), SubResource("Resource_cl2sj"), SubResource("Resource_vbxl7"), SubResource("Resource_bqxo8"), SubResource("Resource_klebb"), SubResource("Resource_nkhih"), SubResource("Resource_qghw1"), SubResource("Resource_cmju0"), SubResource("Resource_00u2f"), SubResource("Resource_4ucck"), SubResource("Resource_a57kv"), SubResource("Resource_d4v6e"), SubResource("Resource_t358m"), SubResource("Resource_nm1gl"), SubResource("Resource_j0uj4"), SubResource("Resource_s141x"), SubResource("Resource_u0p7h"), SubResource("Resource_of45b"), SubResource("Resource_uhyvt"), SubResource("Resource_bbkec"), SubResource("Resource_ibqrr"), SubResource("Resource_tol10"), SubResource("Resource_3h80p"), SubResource("Resource_ymmdl"), SubResource("Resource_a1s8v"), SubResource("Resource_hhw2s"), SubResource("Resource_r7sjg"), SubResource("Resource_nokhy"), SubResource("Resource_cvual"), SubResource("Resource_voil7"), SubResource("Resource_vsg7p"), SubResource("Resource_np64l"), SubResource("Resource_kqxwu"), SubResource("Resource_yqhdn"), SubResource("Resource_mqpa4"), SubResource("Resource_mjb4r"), SubResource("Resource_s007v"), SubResource("Resource_hl2x6"), SubResource("Resource_4gnpm"), SubResource("Resource_0l7jf"), SubResource("Resource_81ein"), SubResource("Resource_lxyi7"), SubResource("Resource_y2ll4"), SubResource("Resource_n8nb7"), SubResource("Resource_7arbx"), SubResource("Resource_1jo55"), SubResource("Resource_dt8mc"), SubResource("Resource_wktyw"), SubResource("Resource_up1bk"), SubResource("Resource_f84yn"), SubResource("Resource_wln2g"), SubResource("Resource_8cvi4"), SubResource("Resource_t47os"), SubResource("Resource_ppf1k"), SubResource("Resource_xyho7"), SubResource("Resource_1lw1v"), SubResource("Resource_huqhe"), SubResource("Resource_eqgw8"), SubResource("Resource_5vlin"), SubResource("Resource_4ihlb"), SubResource("Resource_7gbuc"), SubResource("Resource_klyve"), SubResource("Resource_yklqr"), SubResource("Resource_eiao5"), SubResource("Resource_ht1bx"), SubResource("Resource_lf06s"), SubResource("Resource_ybhf3"), SubResource("Resource_k6s33"), SubResource("Resource_cnr74"), SubResource("Resource_s4txu"), SubResource("Resource_afdcx")])

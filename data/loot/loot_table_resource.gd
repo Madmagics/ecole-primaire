@@ -4,12 +4,16 @@ class_name LootTableResource
 extends Resource
 
 ## Alias local : GDScript ne peut pas exporter directement un enum d'une autre classe
-## via un chemin pointe (SubjectType.Subject) ; on "importe" l'enum dans une const locale.
-const Subject = SubjectType.Subject
+## via un chemin pointe (CardRarity.Rarity) ; on "importe" l'enum dans une const locale.
+const Rarity = CardRarity.Rarity
 
 @export var crate_name: String = ""
 @export var crate_price: int = 0
-@export var crate_currency: Subject = Subject.MATH
+## Rarete de ce coffre : c'est A LA FOIS la devise requise pour l'acheter (pieces de
+## cette rarete, voir Economy) ET son theme visuel dans la boutique (CardRarity.get_color).
+## Les cartes qu'il contient (entries) n'ont pas besoin de correspondre exactement, mais
+## c'est la convention utilisee par build_loot_tables.gd.
+@export var rarity: Rarity = Rarity.COMMON
 @export var entries: Array[LootEntry] = []
 
 ## Tire une carte au hasard selon les poids definis dans entries.

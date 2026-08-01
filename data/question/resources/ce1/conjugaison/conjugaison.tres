@@ -1,0 +1,544 @@
+[gd_resource type="Resource" script_class="QuestionBankResource" format=3 uid="uid://okm75cyk0x6a"]
+
+[ext_resource type="Script" uid="uid://dfbr3elc3mbig" path="res://data/question/question_resource.gd" id="1_gpym8"]
+[ext_resource type="Script" uid="uid://c422qc1cinnna" path="res://data/question/question_bank_resource.gd" id="2_kgt26"]
+
+[sub_resource type="Resource" id="Resource_gpym8"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'tomber' avec 'il' au présent ?"
+correct_answer = "il tombe"
+choices = Array[String](["il tombez", "il tombent", "il tombons"])
+
+[sub_resource type="Resource" id="Resource_kgt26"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'jardiner' avec 'nous' au présent ?"
+correct_answer = "nous jardinons"
+choices = Array[String](["nous jardinent", "nous jardinez", "nous jardine"])
+
+[sub_resource type="Resource" id="Resource_rwtvi"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'jouer' avec 'vous' au présent ?"
+correct_answer = "vous jouez"
+choices = Array[String](["vous joues", "vous jouent", "vous jouons"])
+
+[sub_resource type="Resource" id="Resource_m73mu"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'chanter' avec 'je' au présent ?"
+correct_answer = "je chante"
+choices = Array[String](["je chantez", "je chantons", "je chantent"])
+
+[sub_resource type="Resource" id="Resource_s6sur"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'habiter' avec 'nous' au présent ?"
+correct_answer = "nous habitons"
+choices = Array[String](["nous habitez", "nous habitent", "nous habite"])
+
+[sub_resource type="Resource" id="Resource_nygd4"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'laver' avec 'elle' au présent ?"
+correct_answer = "elle lave"
+choices = Array[String](["elle lavons", "elle lavez", "elle lavent"])
+
+[sub_resource type="Resource" id="Resource_6a1qb"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'brosser' avec 'elle' au présent ?"
+correct_answer = "elle brosse"
+choices = Array[String](["elle brossent", "elle brossons", "elle brossez"])
+
+[sub_resource type="Resource" id="Resource_y512p"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'garder' avec 'elle' au présent ?"
+correct_answer = "elle garde"
+choices = Array[String](["elle gardons", "elle gardes", "elle gardent"])
+
+[sub_resource type="Resource" id="Resource_8wl7y"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'sonner' avec 'il' au présent ?"
+correct_answer = "il sonne"
+choices = Array[String](["il sonnent", "il sonnes", "il sonnons"])
+
+[sub_resource type="Resource" id="Resource_hpvub"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'couper' avec 'il' au présent ?"
+correct_answer = "il coupe"
+choices = Array[String](["il coupez", "il coupent", "il coupes"])
+
+[sub_resource type="Resource" id="Resource_gwvu6"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'souffler' avec 'il' au présent ?"
+correct_answer = "il souffle"
+choices = Array[String](["il soufflent", "il soufflons", "il souffles"])
+
+[sub_resource type="Resource" id="Resource_mgssi"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'donner' avec 'nous' au présent ?"
+correct_answer = "nous donnons"
+choices = Array[String](["nous donne", "nous donnent", "nous donnez"])
+
+[sub_resource type="Resource" id="Resource_yv1p3"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'donner' avec 'il' au présent ?"
+correct_answer = "il donne"
+choices = Array[String](["il donnes", "il donnons", "il donnent"])
+
+[sub_resource type="Resource" id="Resource_fke2u"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'entrer' avec 'vous' au présent ?"
+correct_answer = "vous entrez"
+choices = Array[String](["vous entres", "vous entre", "vous entrons"])
+
+[sub_resource type="Resource" id="Resource_o71n5"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'écouter' avec 'il' au présent ?"
+correct_answer = "il écoute"
+choices = Array[String](["il écoutez", "il écoutons", "il écoutes"])
+
+[sub_resource type="Resource" id="Resource_26gng"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'sauter' avec 'elle' au présent ?"
+correct_answer = "elle saute"
+choices = Array[String](["elle sautent", "elle sautons", "elle sautez"])
+
+[sub_resource type="Resource" id="Resource_yutex"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'tourner' avec 'je' au présent ?"
+correct_answer = "je tourne"
+choices = Array[String](["je tournez", "je tournes", "je tournent"])
+
+[sub_resource type="Resource" id="Resource_w8oab"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'frapper' avec 'je' au présent ?"
+correct_answer = "je frappe"
+choices = Array[String](["je frappes", "je frappez", "je frappent"])
+
+[sub_resource type="Resource" id="Resource_5b0cu"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'rester' avec 'elle' au présent ?"
+correct_answer = "elle reste"
+choices = Array[String](["elle restes", "elle restent", "elle restons"])
+
+[sub_resource type="Resource" id="Resource_a2glc"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'tirer' avec 'elle' au présent ?"
+correct_answer = "elle tire"
+choices = Array[String](["elle tirez", "elle tirent", "elle tirons"])
+
+[sub_resource type="Resource" id="Resource_u58dp"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'parler' avec 'elle' au présent ?"
+correct_answer = "elle parle"
+choices = Array[String](["elle parles", "elle parlent", "elle parlons"])
+
+[sub_resource type="Resource" id="Resource_ofko5"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'chercher' avec 'vous' au présent ?"
+correct_answer = "vous cherchez"
+choices = Array[String](["vous cherche", "vous cherchent", "vous cherchons"])
+
+[sub_resource type="Resource" id="Resource_ueng8"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'fermer' avec 'ils' au présent ?"
+correct_answer = "ils ferment"
+choices = Array[String](["ils fermes", "ils fermons", "ils ferme"])
+
+[sub_resource type="Resource" id="Resource_pglna"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'aider' avec 'elles' au présent ?"
+correct_answer = "elles aident"
+choices = Array[String](["elles aidons", "elles aide", "elles aides"])
+
+[sub_resource type="Resource" id="Resource_16o2e"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'laisser' avec 'elle' au présent ?"
+correct_answer = "elle laisse"
+choices = Array[String](["elle laissons", "elle laissent", "elle laisses"])
+
+[sub_resource type="Resource" id="Resource_f8j8f"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'habiter' avec 'elles' au présent ?"
+correct_answer = "elles habitent"
+choices = Array[String](["elles habitez", "elles habitons", "elles habites"])
+
+[sub_resource type="Resource" id="Resource_2uyik"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'rentrer' avec 'nous' au présent ?"
+correct_answer = "nous rentrons"
+choices = Array[String](["nous rentre", "nous rentres", "nous rentrent"])
+
+[sub_resource type="Resource" id="Resource_knavi"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'sonner' avec 'nous' au présent ?"
+correct_answer = "nous sonnons"
+choices = Array[String](["nous sonnent", "nous sonnes", "nous sonne"])
+
+[sub_resource type="Resource" id="Resource_bmgt7"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'tirer' avec 'ils' au présent ?"
+correct_answer = "ils tirent"
+choices = Array[String](["ils tirons", "ils tire", "ils tirez"])
+
+[sub_resource type="Resource" id="Resource_eax0s"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'aimer' avec 'elles' au présent ?"
+correct_answer = "elles aiment"
+choices = Array[String](["elles aime", "elles aimes", "elles aimons"])
+
+[sub_resource type="Resource" id="Resource_4ka8o"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'frapper' avec 'elles' au présent ?"
+correct_answer = "elles frappent"
+choices = Array[String](["elles frappe", "elles frappez", "elles frappons"])
+
+[sub_resource type="Resource" id="Resource_grt6o"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'laver' avec 'je' au présent ?"
+correct_answer = "je lave"
+choices = Array[String](["je lavent", "je lavez", "je lavons"])
+
+[sub_resource type="Resource" id="Resource_nelet"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'entrer' avec 'nous' au présent ?"
+correct_answer = "nous entrons"
+choices = Array[String](["nous entrez", "nous entre", "nous entrent"])
+
+[sub_resource type="Resource" id="Resource_4dcxn"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'brosser' avec 'tu' au présent ?"
+correct_answer = "tu brosses"
+choices = Array[String](["tu brossent", "tu brosse", "tu brossons"])
+
+[sub_resource type="Resource" id="Resource_pyrh4"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'rester' avec 'je' au présent ?"
+correct_answer = "je reste"
+choices = Array[String](["je restez", "je restent", "je restons"])
+
+[sub_resource type="Resource" id="Resource_ideq8"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'écouter' avec 'ils' au présent ?"
+correct_answer = "ils écoutent"
+choices = Array[String](["ils écoutons", "ils écoutez", "ils écoute"])
+
+[sub_resource type="Resource" id="Resource_6f414"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'passer' avec 'nous' au présent ?"
+correct_answer = "nous passons"
+choices = Array[String](["nous passent", "nous passez", "nous passes"])
+
+[sub_resource type="Resource" id="Resource_h8o2x"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'tomber' avec 'je' au présent ?"
+correct_answer = "je tombe"
+choices = Array[String](["je tombes", "je tombez", "je tombent"])
+
+[sub_resource type="Resource" id="Resource_76nt3"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'gratter' avec 'elles' au présent ?"
+correct_answer = "elles grattent"
+choices = Array[String](["elles grattez", "elles grattons", "elles gratte"])
+
+[sub_resource type="Resource" id="Resource_cqxgq"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'danser' avec 'nous' au présent ?"
+correct_answer = "nous dansons"
+choices = Array[String](["nous danse", "nous dansez", "nous dansent"])
+
+[sub_resource type="Resource" id="Resource_wn2gr"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'pousser' avec 'elles' au présent ?"
+correct_answer = "elles poussent"
+choices = Array[String](["elles pousses", "elles pousse", "elles poussons"])
+
+[sub_resource type="Resource" id="Resource_x648g"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'dessiner' avec 'il' au présent ?"
+correct_answer = "il dessine"
+choices = Array[String](["il dessinent", "il dessinons", "il dessinez"])
+
+[sub_resource type="Resource" id="Resource_u6igo"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'chercher' avec 'elle' au présent ?"
+correct_answer = "elle cherche"
+choices = Array[String](["elle cherchons", "elle cherches", "elle cherchent"])
+
+[sub_resource type="Resource" id="Resource_r45vw"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'passer' avec 'tu' au présent ?"
+correct_answer = "tu passes"
+choices = Array[String](["tu passe", "tu passez", "tu passons"])
+
+[sub_resource type="Resource" id="Resource_khxp3"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'danser' avec 'tu' au présent ?"
+correct_answer = "tu danses"
+choices = Array[String](["tu dansons", "tu dansent", "tu danse"])
+
+[sub_resource type="Resource" id="Resource_g1044"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'chercher' avec 'il' au présent ?"
+correct_answer = "il cherche"
+choices = Array[String](["il cherchons", "il cherchent", "il cherches"])
+
+[sub_resource type="Resource" id="Resource_iycxm"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'colorier' avec 'il' au présent ?"
+correct_answer = "il colorie"
+choices = Array[String](["il colorions", "il coloriez", "il colories"])
+
+[sub_resource type="Resource" id="Resource_ambvd"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'monter' avec 'elle' au présent ?"
+correct_answer = "elle monte"
+choices = Array[String](["elle montes", "elle montons", "elle montent"])
+
+[sub_resource type="Resource" id="Resource_v657g"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'laisser' avec 'il' au présent ?"
+correct_answer = "il laisse"
+choices = Array[String](["il laissent", "il laisses", "il laissons"])
+
+[sub_resource type="Resource" id="Resource_e03di"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'rester' avec 'tu' au présent ?"
+correct_answer = "tu restes"
+choices = Array[String](["tu restez", "tu restons", "tu reste"])
+
+[sub_resource type="Resource" id="Resource_j6bcl"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'gagner' avec 'nous' au présent ?"
+correct_answer = "nous gagnons"
+choices = Array[String](["nous gagnes", "nous gagnent", "nous gagne"])
+
+[sub_resource type="Resource" id="Resource_mho8t"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'dessiner' avec 'je' au présent ?"
+correct_answer = "je dessine"
+choices = Array[String](["je dessines", "je dessinons", "je dessinent"])
+
+[sub_resource type="Resource" id="Resource_lcho2"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'garder' avec 'ils' au présent ?"
+correct_answer = "ils gardent"
+choices = Array[String](["ils gardez", "ils gardons", "ils garde"])
+
+[sub_resource type="Resource" id="Resource_ntb7p"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'habiter' avec 'elle' au présent ?"
+correct_answer = "elle habite"
+choices = Array[String](["elle habitent", "elle habitez", "elle habitons"])
+
+[sub_resource type="Resource" id="Resource_eid1j"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'écouter' avec 'vous' au présent ?"
+correct_answer = "vous écoutez"
+choices = Array[String](["vous écoutons", "vous écoute", "vous écoutent"])
+
+[sub_resource type="Resource" id="Resource_i0wga"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'être' avec 'je' au présent ?"
+correct_answer = "je suis"
+choices = Array[String](["je sont", "j'es", "je sommes"])
+
+[sub_resource type="Resource" id="Resource_xsdlx"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'être' avec 'tu' au présent ?"
+correct_answer = "tu es"
+choices = Array[String](["tu suis", "tu êtes", "tu sommes"])
+
+[sub_resource type="Resource" id="Resource_n2fys"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'être' avec 'il' au présent ?"
+correct_answer = "il est"
+choices = Array[String](["il suis", "il êtes", "il es"])
+
+[sub_resource type="Resource" id="Resource_t3b2g"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'être' avec 'nous' au présent ?"
+correct_answer = "nous sommes"
+choices = Array[String](["nous es", "nous suis", "nous est"])
+
+[sub_resource type="Resource" id="Resource_ra481"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'être' avec 'vous' au présent ?"
+correct_answer = "vous êtes"
+choices = Array[String](["vous sont", "vous es", "vous suis"])
+
+[sub_resource type="Resource" id="Resource_ae3fg"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'être' avec 'ils' au présent ?"
+correct_answer = "ils sont"
+choices = Array[String](["ils êtes", "ils sommes", "ils es"])
+
+[sub_resource type="Resource" id="Resource_cjuoi"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'avoir' avec 'je' au présent ?"
+correct_answer = "j'ai"
+choices = Array[String](["j'avez", "j'avons", "j'ont"])
+
+[sub_resource type="Resource" id="Resource_sm53f"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'avoir' avec 'tu' au présent ?"
+correct_answer = "tu as"
+choices = Array[String](["tu avons", "tu ont", "tu avez"])
+
+[sub_resource type="Resource" id="Resource_oy11c"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'avoir' avec 'il' au présent ?"
+correct_answer = "il a"
+choices = Array[String](["il avons", "il ont", "il ai"])
+
+[sub_resource type="Resource" id="Resource_l4msu"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'avoir' avec 'nous' au présent ?"
+correct_answer = "nous avons"
+choices = Array[String](["nous a", "nous ont", "nous avez"])
+
+[sub_resource type="Resource" id="Resource_ae2hu"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'avoir' avec 'vous' au présent ?"
+correct_answer = "vous avez"
+choices = Array[String](["vous ont", "vous avons", "vous a"])
+
+[sub_resource type="Resource" id="Resource_0bvl6"]
+script = ExtResource("1_gpym8")
+subject = 3
+grade = 1
+text = "Comment conjugue-t-on le verbe 'avoir' avec 'ils' au présent ?"
+correct_answer = "ils ont"
+choices = Array[String](["ils as", "ils a", "ils ai"])
+
+[resource]
+script = ExtResource("2_kgt26")
+questions = Array[ExtResource("1_gpym8")]([SubResource("Resource_gpym8"), SubResource("Resource_kgt26"), SubResource("Resource_rwtvi"), SubResource("Resource_m73mu"), SubResource("Resource_s6sur"), SubResource("Resource_nygd4"), SubResource("Resource_6a1qb"), SubResource("Resource_y512p"), SubResource("Resource_8wl7y"), SubResource("Resource_hpvub"), SubResource("Resource_gwvu6"), SubResource("Resource_mgssi"), SubResource("Resource_yv1p3"), SubResource("Resource_fke2u"), SubResource("Resource_o71n5"), SubResource("Resource_26gng"), SubResource("Resource_yutex"), SubResource("Resource_w8oab"), SubResource("Resource_5b0cu"), SubResource("Resource_a2glc"), SubResource("Resource_u58dp"), SubResource("Resource_ofko5"), SubResource("Resource_ueng8"), SubResource("Resource_pglna"), SubResource("Resource_16o2e"), SubResource("Resource_f8j8f"), SubResource("Resource_2uyik"), SubResource("Resource_knavi"), SubResource("Resource_bmgt7"), SubResource("Resource_eax0s"), SubResource("Resource_4ka8o"), SubResource("Resource_grt6o"), SubResource("Resource_nelet"), SubResource("Resource_4dcxn"), SubResource("Resource_pyrh4"), SubResource("Resource_ideq8"), SubResource("Resource_6f414"), SubResource("Resource_h8o2x"), SubResource("Resource_76nt3"), SubResource("Resource_cqxgq"), SubResource("Resource_wn2gr"), SubResource("Resource_x648g"), SubResource("Resource_u6igo"), SubResource("Resource_r45vw"), SubResource("Resource_khxp3"), SubResource("Resource_g1044"), SubResource("Resource_iycxm"), SubResource("Resource_ambvd"), SubResource("Resource_v657g"), SubResource("Resource_e03di"), SubResource("Resource_j6bcl"), SubResource("Resource_mho8t"), SubResource("Resource_lcho2"), SubResource("Resource_ntb7p"), SubResource("Resource_eid1j"), SubResource("Resource_i0wga"), SubResource("Resource_xsdlx"), SubResource("Resource_n2fys"), SubResource("Resource_t3b2g"), SubResource("Resource_ra481"), SubResource("Resource_ae3fg"), SubResource("Resource_cjuoi"), SubResource("Resource_sm53f"), SubResource("Resource_oy11c"), SubResource("Resource_l4msu"), SubResource("Resource_ae2hu"), SubResource("Resource_0bvl6")])

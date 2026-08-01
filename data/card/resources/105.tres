@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://c4gnb454gbj6o"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_4s3oi"]
+
+[resource]
+script = ExtResource("1_4s3oi")
+id = &"105"
+category = &"crevette"
+display_name = "Crevette arc-en-ciel"
+grade = 4

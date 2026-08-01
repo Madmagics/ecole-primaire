@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://78j0v81emamd"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_0wlxi"]
+[ext_resource type="Texture2D" uid="uid://bkclebl8ccloy" path="res://data/card/art/15.webp" id="2_etp24"]
+
+[resource]
+script = ExtResource("1_0wlxi")
+id = &"15"
+category = &"renard"
+display_name = "Céleste"
+texture = ExtResource("2_etp24")
+grade = 4

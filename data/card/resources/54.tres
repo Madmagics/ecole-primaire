@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://c0ni44r818sml"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_rgfdj"]
+
+[resource]
+script = ExtResource("1_rgfdj")
+id = &"54"
+category = &"hippopotame"
+display_name = "Lunaire"
+grade = 3

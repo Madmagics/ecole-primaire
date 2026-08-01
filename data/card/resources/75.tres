@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://cvk63prwdx82t"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_ymqe7"]
+
+[resource]
+script = ExtResource("1_ymqe7")
+id = &"75"
+category = &"panda"
+display_name = "Arc-en-ciel"
+grade = 4

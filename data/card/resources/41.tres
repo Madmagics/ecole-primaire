@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://ds3btl5jrmaiv"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_odxu4"]
+
+[resource]
+script = ExtResource("1_odxu4")
+id = &"41"
+category = &"souris"
+display_name = "Des Champs"

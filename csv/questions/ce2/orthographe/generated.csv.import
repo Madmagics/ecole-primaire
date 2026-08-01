@@ -1,0 +1,16 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://gwg1y5kbesxu"
+
+[deps]
+
+source_file="res://csv/questions/ce2/orthographe/generated.csv"
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

@@ -1,0 +1,126 @@
+[gd_resource type="Resource" script_class="LootTableResource" format=3 uid="uid://e2yceusxmtst"]
+
+[ext_resource type="Script" uid="uid://b8oj6atemymq0" path="res://data/loot/loot_entry.gd" id="1_omfv4"]
+[ext_resource type="Resource" uid="uid://8vbc3f25ql5u" path="res://data/card/resources/14.tres" id="2_h2ti4"]
+[ext_resource type="Resource" uid="uid://7ytsrsqnslse" path="res://data/card/resources/104.tres" id="2_upwk0"]
+[ext_resource type="Resource" uid="uid://ce3nhtbuyr5j7" path="res://data/card/resources/19.tres" id="3_466k6"]
+[ext_resource type="Resource" uid="uid://ddgt5rp4ssdd6" path="res://data/card/resources/109.tres" id="3_ay4p2"]
+[ext_resource type="Resource" uid="uid://cb7a2t41t1l71" path="res://data/card/resources/114.tres" id="4_by5sk"]
+[ext_resource type="Resource" uid="uid://k5u61ymy3uo5" path="res://data/card/resources/24.tres" id="4_t8urs"]
+[ext_resource type="Resource" uid="uid://cy7x48ytkqtx5" path="res://data/card/resources/29.tres" id="5_g7be8"]
+[ext_resource type="Resource" uid="uid://cvtpgvuqee0ph" path="res://data/card/resources/34.tres" id="6_opvtv"]
+[ext_resource type="Resource" uid="uid://c75g3wvqjqxor" path="res://data/card/resources/39.tres" id="7_oooj3"]
+[ext_resource type="Resource" uid="uid://cbgv8smhmmk0n" path="res://data/card/resources/4.tres" id="8_en5er"]
+[ext_resource type="Resource" uid="uid://cighta4jdbg1t" path="res://data/card/resources/44.tres" id="9_8hnfm"]
+[ext_resource type="Resource" uid="uid://brk76rhoa5fg4" path="res://data/card/resources/49.tres" id="10_jsce1"]
+[ext_resource type="Resource" uid="uid://cr4a41ht1r5vp" path="res://data/card/resources/9.tres" id="11_r134e"]
+[ext_resource type="Script" uid="uid://d24av07ikqoir" path="res://data/loot/loot_table_resource.gd" id="12_ckn8k"]
+[ext_resource type="Resource" uid="uid://c0ni44r818sml" path="res://data/card/resources/54.tres" id="14_ore7t"]
+[ext_resource type="Resource" uid="uid://bcjjfycmjch2q" path="res://data/card/resources/59.tres" id="15_a7qtp"]
+[ext_resource type="Resource" uid="uid://b2afdtsfofvmm" path="res://data/card/resources/64.tres" id="16_xqpal"]
+[ext_resource type="Resource" uid="uid://cm478n25j8ohy" path="res://data/card/resources/69.tres" id="17_iyo75"]
+[ext_resource type="Resource" uid="uid://2u47aqu7e0qt" path="res://data/card/resources/74.tres" id="18_rj84o"]
+[ext_resource type="Resource" uid="uid://cs8ap5ka1rr1h" path="res://data/card/resources/79.tres" id="19_5t5o3"]
+[ext_resource type="Resource" uid="uid://bb0d6j1bflboq" path="res://data/card/resources/84.tres" id="20_i845y"]
+[ext_resource type="Resource" uid="uid://yfkm85twn0h2" path="res://data/card/resources/89.tres" id="21_4ildm"]
+[ext_resource type="Resource" uid="uid://db50e3ppvh5qo" path="res://data/card/resources/94.tres" id="23_bttjx"]
+[ext_resource type="Resource" uid="uid://ch6y8pn7t352o" path="res://data/card/resources/99.tres" id="24_om4gd"]
+
+[sub_resource type="Resource" id="Resource_upwk0"]
+script = ExtResource("1_omfv4")
+card = ExtResource("2_upwk0")
+
+[sub_resource type="Resource" id="Resource_ay4p2"]
+script = ExtResource("1_omfv4")
+card = ExtResource("3_ay4p2")
+
+[sub_resource type="Resource" id="Resource_by5sk"]
+script = ExtResource("1_omfv4")
+card = ExtResource("4_by5sk")
+
+[sub_resource type="Resource" id="Resource_ore7t"]
+script = ExtResource("1_omfv4")
+card = ExtResource("2_h2ti4")
+
+[sub_resource type="Resource" id="Resource_a7qtp"]
+script = ExtResource("1_omfv4")
+card = ExtResource("3_466k6")
+
+[sub_resource type="Resource" id="Resource_xqpal"]
+script = ExtResource("1_omfv4")
+card = ExtResource("4_t8urs")
+
+[sub_resource type="Resource" id="Resource_iyo75"]
+script = ExtResource("1_omfv4")
+card = ExtResource("5_g7be8")
+
+[sub_resource type="Resource" id="Resource_rj84o"]
+script = ExtResource("1_omfv4")
+card = ExtResource("6_opvtv")
+
+[sub_resource type="Resource" id="Resource_5t5o3"]
+script = ExtResource("1_omfv4")
+card = ExtResource("7_oooj3")
+
+[sub_resource type="Resource" id="Resource_i845y"]
+script = ExtResource("1_omfv4")
+card = ExtResource("8_en5er")
+
+[sub_resource type="Resource" id="Resource_4ildm"]
+script = ExtResource("1_omfv4")
+card = ExtResource("9_8hnfm")
+
+[sub_resource type="Resource" id="Resource_bttjx"]
+script = ExtResource("1_omfv4")
+card = ExtResource("10_jsce1")
+
+[sub_resource type="Resource" id="Resource_om4gd"]
+script = ExtResource("1_omfv4")
+card = ExtResource("14_ore7t")
+
+[sub_resource type="Resource" id="Resource_684sg"]
+script = ExtResource("1_omfv4")
+card = ExtResource("15_a7qtp")
+
+[sub_resource type="Resource" id="Resource_bmj31"]
+script = ExtResource("1_omfv4")
+card = ExtResource("16_xqpal")
+
+[sub_resource type="Resource" id="Resource_cadpi"]
+script = ExtResource("1_omfv4")
+card = ExtResource("17_iyo75")
+
+[sub_resource type="Resource" id="Resource_fpibb"]
+script = ExtResource("1_omfv4")
+card = ExtResource("18_rj84o")
+
+[sub_resource type="Resource" id="Resource_vnlio"]
+script = ExtResource("1_omfv4")
+card = ExtResource("19_5t5o3")
+
+[sub_resource type="Resource" id="Resource_fy1co"]
+script = ExtResource("1_omfv4")
+card = ExtResource("20_i845y")
+
+[sub_resource type="Resource" id="Resource_fxap3"]
+script = ExtResource("1_omfv4")
+card = ExtResource("21_4ildm")
+
+[sub_resource type="Resource" id="Resource_02nd8"]
+script = ExtResource("1_omfv4")
+card = ExtResource("11_r134e")
+
+[sub_resource type="Resource" id="Resource_7d7lx"]
+script = ExtResource("1_omfv4")
+card = ExtResource("23_bttjx")
+
+[sub_resource type="Resource" id="Resource_jd5ly"]
+script = ExtResource("1_omfv4")
+card = ExtResource("24_om4gd")
+
+[resource]
+script = ExtResource("12_ckn8k")
+crate_name = "Épique"
+crate_price = 20
+rarity = 2
+entries = Array[ExtResource("1_omfv4")]([SubResource("Resource_upwk0"), SubResource("Resource_ay4p2"), SubResource("Resource_by5sk"), SubResource("Resource_ore7t"), SubResource("Resource_a7qtp"), SubResource("Resource_xqpal"), SubResource("Resource_iyo75"), SubResource("Resource_rj84o"), SubResource("Resource_5t5o3"), SubResource("Resource_i845y"), SubResource("Resource_4ildm"), SubResource("Resource_bttjx"), SubResource("Resource_om4gd"), SubResource("Resource_684sg"), SubResource("Resource_bmj31"), SubResource("Resource_cadpi"), SubResource("Resource_fpibb"), SubResource("Resource_vnlio"), SubResource("Resource_fy1co"), SubResource("Resource_fxap3"), SubResource("Resource_02nd8"), SubResource("Resource_7d7lx"), SubResource("Resource_jd5ly")])

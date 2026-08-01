@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://bbnpwbylvh5lo"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_ogsf7"]
+[ext_resource type="Texture2D" uid="uid://c1sx8eoxvgkxo" path="res://data/card/art/6.webp" id="2_os7su"]
+
+[resource]
+script = ExtResource("1_ogsf7")
+id = &"6"
+category = &"chien"
+display_name = "Errant"
+texture = ExtResource("2_os7su")

@@ -1,0 +1,22 @@
+id;type;text;correct_answer;choice_2;choice_3;choice_4;passage_id;qtype
+15000;passage;Milo est un chat noir et blanc qui habite avec Emma depuis trois ans. Chaque matin, il attend patiemment devant la porte du jardin. Un jour, sa maman oublie de bien la fermer et Milo se glisse dehors sans faire de bruit. L'herbe est encore mouillée de rosée et le soleil brille doucement. Milo aperçoit un papillon jaune qui voltige près des fleurs du voisin. Curieux, il se met à courir après lui, de buisson en buisson, sans regarder où il va. Quand le papillon disparaît enfin, Milo s'arrête et regarde autour de lui. Rien ne lui semble familier. Il ne reconnaît plus le chemin de la maison et commence à avoir très peur. Il se cache sous un buisson et miaule de plus en plus fort, espérant qu'on l'entende. Pendant ce temps, Emma cherche son chat partout dans le jardin en l'appelant. Elle finit par entendre de faibles miaulements près du grand chêne. En s'approchant doucement, elle découvre Milo tremblant sous les feuilles. Elle le prend dans ses bras et le rassure avec de petits mots doux. Milo se met à ronronner de soulagement. Ensemble, ils rentrent tranquillement à la maison pour goûter.;;;;;;
+15001;question;Depuis combien de temps Milo habite-t-il avec Emma ?;trois ans;un an;six mois;cinq ans;15000;L
+15002;question;Que fait la maman qui permet à Milo de sortir ?;elle oublie de bien fermer la porte;elle ouvre la porte exprès;elle laisse la fenêtre ouverte;elle emmène Milo dehors;15000;L
+15003;question;Près de quoi vole le papillon que Milo poursuit ?;les fleurs du jardin voisin;la maison;le grand chêne;la porte;15000;L
+15004;question;Où Milo se cache-t-il en attendant qu'on le trouve ?;sous un buisson;dans la maison;sur le toit;derrière Emma;15000;L
+15005;question;Près de quoi Emma entend-elle les miaulements de Milo ?;le grand chêne;la porte du jardin;les fleurs du voisin;la maison;15000;L
+15006;question;Que font Milo et Emma en rentrant à la maison ?;ils rentrent pour goûter;ils repartent chercher le papillon;ils vont se coucher;ils restent dans le jardin;15000;L
+15007;question;"Que veut dire ""il se glisse dehors sans faire de bruit"" ?";il sort discrètement;il court très vite;il crie en sortant;il casse la porte;15000;V
+15008;question;"Que signifie ""curieux"" quand on dit que Milo suit le papillon, curieux ?";qui a envie de découvrir, intéressé;fâché;fatigué;triste;15000;V
+15009;question;Pourquoi Milo a-t-il très peur quand il s'arrête de courir ?;il ne reconnaît plus rien autour de lui, il est perdu;il a vu un chien;il fait nuit;il a faim;15000;I
+15010;question;À quoi voit-on que Milo est content à la fin de l'histoire ?;il ronronne;il miaule très fort;il se cache encore;il court dans le jardin;15000;I
+15011;question;Où Milo attend-il chaque matin ?;devant la porte du jardin;dans le salon;sous le lit;dans la cuisine;15000;L
+15012;question;De quoi l'herbe est-elle couverte ce matin-là ?;de rosée;de neige;de feuilles mortes;de sable;15000;L
+15013;question;Comment Milo court-il après le papillon ?;de buisson en buisson;en ligne droite;en restant immobile;en volant;15000;L
+15014;question;Que se passe-t-il quand le papillon disparaît ?;Milo s'arrête et regarde autour de lui;Milo rentre aussitôt à la maison;Milo continue de courir encore longtemps;Milo retrouve immédiatement Emma;15000;L
+15015;question;Comment Emma cherche-t-elle son chat dans le jardin ?;en l'appelant dans tout le jardin;en restant silencieuse;en sonnant à la porte du voisin;en pleurant;15000;L
+15016;question;Comment rentrent Milo et Emma à la maison à la fin de l'histoire ?;tranquillement;en courant très vite;en pleurant;séparément;15000;L
+15017;question;"Que veut dire ""rien ne lui semble familier"" ?";il ne reconnaît rien autour de lui;il connaît très bien l'endroit;il a très faim;il a très chaud;15000;V
+15018;question;"Que veut dire ""Milo se met à ronronner de soulagement"" ?";il se sent enfin rassuré et détendu;il a encore très peur;il est en colère;il a très froid;15000;V
+15019;question;Pourquoi Milo attend-il patiemment devant la porte chaque matin ?;il espère qu'on la lui ouvre pour sortir dans le jardin;il a peur de la porte;il attend Emma pour manger;il veut retourner dormir;15000;I
+15020;question;Qu'est-ce qui montre que Milo a eu très peur pendant cette aventure ?;il tremble encore quand Emma le retrouve;il joue tranquillement dans le jardin;il ne miaule pas du tout;il repart aussitôt en courant;15000;I

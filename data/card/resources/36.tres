@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://baxpnt43vnaye"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_qah8d"]
+
+[resource]
+script = ExtResource("1_qah8d")
+id = &"36"
+category = &"raton-laveur"
+display_name = "Des Bois"

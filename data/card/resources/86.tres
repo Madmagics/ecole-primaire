@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://cu67jgglqra4o"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_0ody0"]
+
+[resource]
+script = ExtResource("1_0ody0")
+id = &"86"
+category = &"bouquetin"
+display_name = "Bouquetin alpin"

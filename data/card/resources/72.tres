@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://bg4d7cegmjnlm"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_cm5do"]
+
+[resource]
+script = ExtResource("1_cm5do")
+id = &"72"
+category = &"panda"
+display_name = "Roux"
+grade = 1

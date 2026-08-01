@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://cb7a2t41t1l71"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_v1xv6"]
+
+[resource]
+script = ExtResource("1_v1xv6")
+id = &"114"
+category = &"chauve-souris"
+display_name = "Chauve-souris ignee"
+grade = 3

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://b3pnor7trnb5"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_euggc"]
+
+[resource]
+script = ExtResource("1_euggc")
+id = &"107"
+category = &"baleine"
+display_name = "Baleine blanche"
+grade = 1

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://rfyqrb0duu4n"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_fwmrb"]
+
+[resource]
+script = ExtResource("1_fwmrb")
+id = &"48"
+category = &"girafe"
+display_name = "Réticulée"
+grade = 2

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://ypfvqthkw6bh"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_vrkoa"]
+
+[resource]
+script = ExtResource("1_vrkoa")
+id = &"60"
+category = &"licorne"
+display_name = "Arc-en-ciel"
+grade = 4

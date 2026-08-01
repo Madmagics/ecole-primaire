@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://dx6m24v2t4724"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_bf6vp"]
+
+[resource]
+script = ExtResource("1_bf6vp")
+id = &"16"
+category = &"lapin"
+display_name = "Champêtre"

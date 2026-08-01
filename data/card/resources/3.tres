@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://mdvqxgar4bch"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_cay5r"]
+[ext_resource type="Texture2D" uid="uid://tjrnvui3snc5" path="res://data/card/art/3.webp" id="2_psis5"]
+
+[resource]
+script = ExtResource("1_cay5r")
+id = &"3"
+category = &"chat"
+display_name = "Forestier"
+texture = ExtResource("2_psis5")
+grade = 2

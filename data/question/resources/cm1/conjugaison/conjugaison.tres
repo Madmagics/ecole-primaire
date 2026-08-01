@@ -1,0 +1,344 @@
+[gd_resource type="Resource" script_class="QuestionBankResource" format=3 uid="uid://dytpxcdu6jfkf"]
+
+[ext_resource type="Script" uid="uid://dfbr3elc3mbig" path="res://data/question/question_resource.gd" id="1_nhg2b"]
+[ext_resource type="Script" uid="uid://c422qc1cinnna" path="res://data/question/question_bank_resource.gd" id="2_gnfyr"]
+
+[sub_resource type="Resource" id="Resource_nhg2b"]
+script = ExtResource("1_nhg2b")
+subject = 3
+grade = 3
+text = "Comment conjugue-t-on le verbe 'savoir' avec 'je' au présent ?"
+correct_answer = "je sais"
+choices = Array[String](["je sait", "je savent", "je saiss"])
+
+[sub_resource type="Resource" id="Resource_gnfyr"]
+script = ExtResource("1_nhg2b")
+subject = 3
+grade = 3
+text = "Comment conjugue-t-on le verbe 'prendre' avec 'il' au présent ?"
+correct_answer = "il prend"
+choices = Array[String](["il prends", "il prenons", "il prennent"])
+
+[sub_resource type="Resource" id="Resource_bdqjl"]
+script = ExtResource("1_nhg2b")
+subject = 3
+grade = 3
+text = "Comment conjugue-t-on le verbe 'pouvoir' avec 'nous' au présent ?"
+correct_answer = "nous pouvons"
+choices = Array[String](["nous peux", "nous pouvez", "nous pouvonss"])
+
+[sub_resource type="Resource" id="Resource_e7xga"]
+script = ExtResource("1_nhg2b")
+subject = 3
+grade = 3
+text = "Comment conjugue-t-on le verbe 'pouvoir' avec 'ils' au présent ?"
+correct_answer = "ils peuvent"
+choices = Array[String](["ils peut", "ils peux", "ils peuventt"])
+
+[sub_resource type="Resource" id="Resource_p7ahk"]
+script = ExtResource("1_nhg2b")
+subject = 3
+grade = 3
+text = "Comment conjugue-t-on le verbe 'savoir' avec 'vous' au présent ?"
+correct_answer = "vous savez"
+choices = Array[String](["vous sais", "vous sait", "vous savezz"])
+
+[sub_resource type="Resource" id="Resource_rexvv"]
+script = ExtResource("1_nhg2b")
+subject = 3
+grade = 3
+text = "Comment conjugue-t-on le verbe 'prendre' avec 'nous' au présent ?"
+correct_answer = "nous prenons"
+choices = Array[String](["nous prenez", "nous prend", "nous prennent"])
+
+[sub_resource type="Resource" id="Resource_dbd7c"]
+script = ExtResource("1_nhg2b")
+subject = 3
+grade = 3
+text = "Comment conjugue-t-on le verbe 'voir' avec 'tu' au présent ?"
+correct_answer = "tu vois"
+choices = Array[String](["tu voyons", "tu voit", "tu voiss"])
+
+[sub_resource type="Resource" id="Resource_l5jta"]
+script = ExtResource("1_nhg2b")
+subject = 3
+grade = 3
+text = "Comment conjugue-t-on le verbe 'prendre' avec 'vous' au présent ?"
+correct_answer = "vous prenez"
+choices = Array[String](["vous prennent", "vous prends", "vous prenezz"])
+
+[sub_resource type="Resource" id="Resource_72jfg"]
+script = ExtResource("1_nhg2b")
+subject = 3
+grade = 3
+text = "Comment conjugue-t-on le verbe 'vouloir' avec 'nous' au présent ?"
+correct_answer = "nous voulons"
+choices = Array[String](["nous voulez", "nous veux", "nous veut"])
+
+[sub_resource type="Resource" id="Resource_42ybm"]
+script = ExtResource("1_nhg2b")
+subject = 3
+grade = 3
+text = "Comment conjugue-t-on le verbe 'vouloir' avec 'ils' au présent ?"
+correct_answer = "ils veulent"
+choices = Array[String](["ils veut", "ils voulons", "ils veux"])
+
+[sub_resource type="Resource" id="Resource_obh0c"]
+script = ExtResource("1_nhg2b")
+subject = 3
+grade = 3
+text = "Comment conjugue-t-on le verbe 'aller' avec 'je' à l'imparfait ?"
+correct_answer = "j'allais"
+choices = Array[String](["j'alliez", "j'allaient", "j'allaiss"])
+
+[sub_resource type="Resource" id="Resource_edl4w"]
+script = ExtResource("1_nhg2b")
+subject = 3
+grade = 3
+text = "Comment conjugue-t-on le verbe 'vouloir' avec 'il' à l'imparfait ?"
+correct_answer = "il voulait"
+choices = Array[String](["il voulions", "il voulaient", "il voulais"])
+
+[sub_resource type="Resource" id="Resource_atgfp"]
+script = ExtResource("1_nhg2b")
+subject = 3
+grade = 3
+text = "Comment conjugue-t-on le verbe 'faire' avec 'vous' à l'imparfait ?"
+correct_answer = "vous faisiez"
+choices = Array[String](["vous faisais", "vous faisaient", "vous faisait"])
+
+[sub_resource type="Resource" id="Resource_cvlvn"]
+script = ExtResource("1_nhg2b")
+subject = 3
+grade = 3
+text = "Comment conjugue-t-on le verbe 'vouloir' avec 'ils' à l'imparfait ?"
+correct_answer = "ils voulaient"
+choices = Array[String](["ils voulais", "ils vouliez", "ils voulions"])
+
+[sub_resource type="Resource" id="Resource_v0xmt"]
+script = ExtResource("1_nhg2b")
+subject = 3
+grade = 3
+text = "Comment conjugue-t-on le verbe 'faire' avec 'nous' à l'imparfait ?"
+correct_answer = "nous faisions"
+choices = Array[String](["nous faisaient", "nous faisais", "nous faisionss"])
+
+[sub_resource type="Resource" id="Resource_57b60"]
+script = ExtResource("1_nhg2b")
+subject = 3
+grade = 3
+text = "Comment conjugue-t-on le verbe 'sortir' avec 'vous' à l'imparfait ?"
+correct_answer = "vous sortiez"
+choices = Array[String](["vous sortais", "vous sortaient", "vous sortait"])
+
+[sub_resource type="Resource" id="Resource_mluu3"]
+script = ExtResource("1_nhg2b")
+subject = 3
+grade = 3
+text = "Comment conjugue-t-on le verbe 'prendre' avec 'tu' à l'imparfait ?"
+correct_answer = "tu prenais"
+choices = Array[String](["tu prenaient", "tu prenions", "tu preniez"])
+
+[sub_resource type="Resource" id="Resource_7muwq"]
+script = ExtResource("1_nhg2b")
+subject = 3
+grade = 3
+text = "Comment conjugue-t-on le verbe 'pouvoir' avec 'nous' à l'imparfait ?"
+correct_answer = "nous pouvions"
+choices = Array[String](["nous pouvait", "nous pouvais", "nous pouvionss"])
+
+[sub_resource type="Resource" id="Resource_l7fhu"]
+script = ExtResource("1_nhg2b")
+subject = 3
+grade = 3
+text = "Comment conjugue-t-on le verbe 'faire' avec 'il' à l'imparfait ?"
+correct_answer = "il faisait"
+choices = Array[String](["il faisiez", "il faisaient", "il faisais"])
+
+[sub_resource type="Resource" id="Resource_06bss"]
+script = ExtResource("1_nhg2b")
+subject = 3
+grade = 3
+text = "Comment conjugue-t-on le verbe 'voir' avec 'vous' à l'imparfait ?"
+correct_answer = "vous voyiez"
+choices = Array[String](["vous voyait", "vous voyions", "vous voyiezz"])
+
+[sub_resource type="Resource" id="Resource_48gks"]
+script = ExtResource("1_nhg2b")
+subject = 3
+grade = 3
+text = "Comment conjugue-t-on le verbe 'faire' avec 'je' au futur simple ?"
+correct_answer = "je ferai"
+choices = Array[String](["je feront", "je fera", "je feraii"])
+
+[sub_resource type="Resource" id="Resource_venyp"]
+script = ExtResource("1_nhg2b")
+subject = 3
+grade = 3
+text = "Comment conjugue-t-on le verbe 'vouloir' avec 'je' au futur simple ?"
+correct_answer = "je voudrai"
+choices = Array[String](["je voudront", "je voudras", "je voudra"])
+
+[sub_resource type="Resource" id="Resource_faqd6"]
+script = ExtResource("1_nhg2b")
+subject = 3
+grade = 3
+text = "Comment conjugue-t-on le verbe 'regarder' avec 'je' au futur simple ?"
+correct_answer = "je regarderai"
+choices = Array[String](["je regarderons", "je regardera", "je regarderont"])
+
+[sub_resource type="Resource" id="Resource_5fe5d"]
+script = ExtResource("1_nhg2b")
+subject = 3
+grade = 3
+text = "Comment conjugue-t-on le verbe 'faire' avec 'nous' au futur simple ?"
+correct_answer = "nous ferons"
+choices = Array[String](["nous feras", "nous feront", "nous fera"])
+
+[sub_resource type="Resource" id="Resource_lspnp"]
+script = ExtResource("1_nhg2b")
+subject = 3
+grade = 3
+text = "Comment conjugue-t-on le verbe 'aller' avec 'il' au futur simple ?"
+correct_answer = "il ira"
+choices = Array[String](["il irez", "il iras", "il irai"])
+
+[sub_resource type="Resource" id="Resource_ctd5u"]
+script = ExtResource("1_nhg2b")
+subject = 3
+grade = 3
+text = "Comment conjugue-t-on le verbe 'vouloir' avec 'nous' au futur simple ?"
+correct_answer = "nous voudrons"
+choices = Array[String](["nous voudront", "nous voudra", "nous voudrez"])
+
+[sub_resource type="Resource" id="Resource_y4ex7"]
+script = ExtResource("1_nhg2b")
+subject = 3
+grade = 3
+text = "Comment conjugue-t-on le verbe 'chanter' avec 'il' au futur simple ?"
+correct_answer = "il chantera"
+choices = Array[String](["il chanteras", "il chanterons", "il chanterez"])
+
+[sub_resource type="Resource" id="Resource_56shy"]
+script = ExtResource("1_nhg2b")
+subject = 3
+grade = 3
+text = "Comment conjugue-t-on le verbe 'pouvoir' avec 'nous' au futur simple ?"
+correct_answer = "nous pourrons"
+choices = Array[String](["nous pourra", "nous pourrai", "nous pourronss"])
+
+[sub_resource type="Resource" id="Resource_waj7j"]
+script = ExtResource("1_nhg2b")
+subject = 3
+grade = 3
+text = "Comment conjugue-t-on le verbe 'avoir' avec 'je' au futur simple ?"
+correct_answer = "j'aurai"
+choices = Array[String](["j'aura", "j'auront", "j'auraii"])
+
+[sub_resource type="Resource" id="Resource_7axdg"]
+script = ExtResource("1_nhg2b")
+subject = 3
+grade = 3
+text = "Comment conjugue-t-on le verbe 'avoir' avec 'vous' au futur simple ?"
+correct_answer = "vous aurez"
+choices = Array[String](["vous auront", "vous aurai", "vous aura"])
+
+[sub_resource type="Resource" id="Resource_ilvrg"]
+script = ExtResource("1_nhg2b")
+subject = 3
+grade = 3
+text = "Comment conjugue-t-on le verbe 'finir' avec 'je' au passe compose ?"
+correct_answer = "j'ai fini"
+choices = Array[String](["j'avons fini", "j'as fini", "j'avez fini"])
+
+[sub_resource type="Resource" id="Resource_lxani"]
+script = ExtResource("1_nhg2b")
+subject = 3
+grade = 3
+text = "Comment conjugue-t-on le verbe 'jouer' avec 'il' au passe compose ?"
+correct_answer = "il a joué"
+choices = Array[String](["il ai joué", "il as joué", "il ont joué"])
+
+[sub_resource type="Resource" id="Resource_p5h4y"]
+script = ExtResource("1_nhg2b")
+subject = 3
+grade = 3
+text = "Comment conjugue-t-on le verbe 'dire' avec 'nous' au passe compose ?"
+correct_answer = "nous avons dit"
+choices = Array[String](["nous as dit", "nous ai dit", "nous ont dit"])
+
+[sub_resource type="Resource" id="Resource_lss28"]
+script = ExtResource("1_nhg2b")
+subject = 3
+grade = 3
+text = "Comment conjugue-t-on le verbe 'faire' avec 'il' au passe compose ?"
+correct_answer = "il a fait"
+choices = Array[String](["il avez fait", "il as fait", "il avons fait"])
+
+[sub_resource type="Resource" id="Resource_a853t"]
+script = ExtResource("1_nhg2b")
+subject = 3
+grade = 3
+text = "Comment conjugue-t-on le verbe 'prendre' avec 'nous' au passe compose ?"
+correct_answer = "nous avons pris"
+choices = Array[String](["nous ont pris", "nous ai pris", "nous as pris"])
+
+[sub_resource type="Resource" id="Resource_qhafm"]
+script = ExtResource("1_nhg2b")
+subject = 3
+grade = 3
+text = "Comment conjugue-t-on le verbe 'manger' avec 'ils' au passe compose ?"
+correct_answer = "ils ont mangé"
+choices = Array[String](["ils a mangé", "ils ai mangé", "ils avons mangé"])
+
+[sub_resource type="Resource" id="Resource_menpi"]
+script = ExtResource("1_nhg2b")
+subject = 3
+grade = 3
+text = "Comment conjugue-t-on le verbe 'sortir' avec 'il' au passe compose ?"
+correct_answer = "il est sorti"
+choices = Array[String](["il est sortis", "il a sorti", "il est sorties"])
+
+[sub_resource type="Resource" id="Resource_027ju"]
+script = ExtResource("1_nhg2b")
+subject = 3
+grade = 3
+text = "Comment conjugue-t-on le verbe 'partir' avec 'elle' au passe compose ?"
+correct_answer = "elle est partie"
+choices = Array[String](["elle est partis", "elle a parti", "elle est parties"])
+
+[sub_resource type="Resource" id="Resource_4pfpe"]
+script = ExtResource("1_nhg2b")
+subject = 3
+grade = 3
+text = "Comment conjugue-t-on le verbe 'sortir' avec 'elle' au passe compose ?"
+correct_answer = "elle est sortie"
+choices = Array[String](["elle est sortis", "elle a sorti", "elle est sorties"])
+
+[sub_resource type="Resource" id="Resource_hp7m4"]
+script = ExtResource("1_nhg2b")
+subject = 3
+grade = 3
+text = "Comment conjugue-t-on le verbe 'venir' avec 'il' au passe compose ?"
+correct_answer = "il est venu"
+choices = Array[String](["il est venus", "il a venu", "il est venues"])
+
+[sub_resource type="Resource" id="Resource_e3c5b"]
+script = ExtResource("1_nhg2b")
+subject = 3
+grade = 3
+text = "Comment conjugue-t-on le verbe 'rester' avec 'elle' au passe compose ?"
+correct_answer = "elle est restée"
+choices = Array[String](["elle est restes", "elle a reste", "elle est restées"])
+
+[sub_resource type="Resource" id="Resource_snruu"]
+script = ExtResource("1_nhg2b")
+subject = 3
+grade = 3
+text = "Comment conjugue-t-on le verbe 'aller' avec 'elle' au passe compose ?"
+correct_answer = "elle est allée"
+choices = Array[String](["elle est allés", "elle a allé", "elle est allées"])
+
+[resource]
+script = ExtResource("2_gnfyr")
+questions = Array[ExtResource("1_nhg2b")]([SubResource("Resource_nhg2b"), SubResource("Resource_gnfyr"), SubResource("Resource_bdqjl"), SubResource("Resource_e7xga"), SubResource("Resource_p7ahk"), SubResource("Resource_rexvv"), SubResource("Resource_dbd7c"), SubResource("Resource_l5jta"), SubResource("Resource_72jfg"), SubResource("Resource_42ybm"), SubResource("Resource_obh0c"), SubResource("Resource_edl4w"), SubResource("Resource_atgfp"), SubResource("Resource_cvlvn"), SubResource("Resource_v0xmt"), SubResource("Resource_57b60"), SubResource("Resource_mluu3"), SubResource("Resource_7muwq"), SubResource("Resource_l7fhu"), SubResource("Resource_06bss"), SubResource("Resource_48gks"), SubResource("Resource_venyp"), SubResource("Resource_faqd6"), SubResource("Resource_5fe5d"), SubResource("Resource_lspnp"), SubResource("Resource_ctd5u"), SubResource("Resource_y4ex7"), SubResource("Resource_56shy"), SubResource("Resource_waj7j"), SubResource("Resource_7axdg"), SubResource("Resource_ilvrg"), SubResource("Resource_lxani"), SubResource("Resource_p5h4y"), SubResource("Resource_lss28"), SubResource("Resource_a853t"), SubResource("Resource_qhafm"), SubResource("Resource_menpi"), SubResource("Resource_027ju"), SubResource("Resource_4pfpe"), SubResource("Resource_hp7m4"), SubResource("Resource_e3c5b"), SubResource("Resource_snruu")])

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://bjyw8nierccf8"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_sc24s"]
+
+[resource]
+script = ExtResource("1_sc24s")
+id = &"58"
+category = &"licorne"
+display_name = "Printanière"
+grade = 2

@@ -1,0 +1,191 @@
+id;text;correct_answer;choice_2;choice_3;choice_4
+2001;Quel est le pluriel de 'lion' ?;lions;liones;lios;lionx
+2002;Quel est le pluriel de 'canard' ?;canards;canardes;canars;canardx
+2003;Quel est le pluriel de 'renard' ?;renards;renardes;renars;renardx
+2004;Quel est le pluriel de 'classe' ?;classes;classées;classs;classex
+2005;Quel est le pluriel de 'poule' ?;poules;poulees;pouls;poulex
+2006;Quel est le pluriel de 'tigre' ?;tigres;tigrées;tigrs;tigrex
+2007;Quel est le pluriel de 'jardin' ?;jardins;jardines;jardis;jardinx
+2008;Quel est le pluriel de 'camion' ?;camions;camiones;camios;camionx
+2009;Quel est le pluriel de 'fourmi' ?;fourmis;fourmies;fourms;fourmix
+2010;Quel est le pluriel de 'copain' ?;copains;copaines;copais;copainx
+2011;Quel est le pluriel de 'pomme' ?;pommes;pommees;pomms;pommex
+2012;Quel est le pluriel de 'chat' ?;chats;chates;chas;chatx
+2013;Quel est le pluriel de 'arbre' ?;arbres;arbrees;arbrs;arbrex
+2014;Quel est le pluriel de 'montagne' ?;montagnes;montagnees;montagns;montagnex
+2015;Quel est le pluriel de 'jouet' ?;jouets;jouetes;joues;jouetx
+2016;Quel est le pluriel de 'papillon' ?;papillons;papillones;papillos;papillonx
+2017;Quel est le pluriel de 'voiture' ?;voitures;voiturees;voiturs;voiturex
+2018;Quel est le pluriel de 'chemise' ?;chemises;chemisees;chemiss;chemisex
+2019;Quel est le pluriel de 'grenouille' ?;grenouilles;grenouillees;grenouills;grenouillex
+2020;Quel est le pluriel de 'robe' ?;robes;robees;robs;robex
+2021;Quel est le pluriel de 'fleur' ?;fleurs;fleures;fleus;fleurx
+2022;Quel est le pluriel de 'tortue' ?;tortues;tortuees;tortus;tortuex
+2023;Quel est le pluriel de 'singe' ?;singes;singees;sings;singex
+2024;Quel est le pluriel de 'mouton' ?;moutons;moutones;moutos;moutonx
+2025;Quel est le pluriel de 'jupe' ?;jupes;jupees;jups;jupex
+2026;Quel est le pluriel de 'vélo' ?;vélos;véloes;véls;vélox
+2027;Quel est le pluriel de 'cochon' ?;cochons;cochones;cochos;cochonx
+2028;Quel est le pluriel de 'maison' ?;maisons;maisones;maisos;maisonx
+2029;Quel est le pluriel de 'lapin' ?;lapins;lapines;lapis;lapinx
+2030;Quel est le pluriel de 'stylo' ?;stylos;styloes;styls;stylox
+2031;Quel est le pluriel de 'poisson' ?;poissons;poissones;poissos;poissonx
+2032;Quel est le pluriel de 'chien' ?;chiens;chienes;chies;chienx
+2033;Quel est le pluriel de 'récréation' ?;récréations;récréationes;récréatios;récréationx
+2034;Quel est le pluriel de 'trousse' ?;trousses;troussées;trousss;troussex
+2035;Quel est le pluriel de 'forêt' ?;forêts;forêtes;forês;forêtx
+2036;Quel est le singulier de 'grenouilles' ?;grenouille;grenouillee;grenouill;grenouilles
+2037;Quel est le singulier de 'parcs' ?;parc;parce;par;parcs
+2038;Quel est le singulier de 'tortues' ?;tortue;tortuee;tortu;tortues
+2039;Quel est le singulier de 'guêpes' ?;guêpe;guêpee;guêp;guêpes
+2040;Quel est le singulier de 'cochons' ?;cochon;cochone;cocho;cochons
+2041;Quel est le singulier de 'écoles' ?;école;écolee;écol;écoles
+2042;Quel est le singulier de 'forêts' ?;forêt;forête;forê;forêts
+2043;Quel est le singulier de 'avions' ?;avion;avione;avio;avions
+2044;Quel est le singulier de 'lampes' ?;lampe;lampee;lamp;lampes
+2045;Quel est le singulier de 'cahiers' ?;cahier;cahiere;cahie;cahiers
+2046;Comment s'appelle la femelle du : mouton ?;brebis;mouton;moutone;brebise
+2047;Comment s'appelle la femelle du : cheval ?;jument;cheval;chevale;jumente
+2048;Comment s'appelle la femelle du : âne ?;ânesse;âne;ânee;âness
+2049;Comment s'appelle la femelle du : singe ?;guenon;singe;singee;guenone
+2050;Comment s'appelle la femelle du : boeuf ?;vache;boeuf;boeufe;vach
+2051;Comment s'appelle la femelle du : canard ?;cane;canard;canarde;can
+2052;Comment s'appelle la femelle du : loup ?;louve;loup;loupe;louv
+2053;Comment s'appelle la femelle du : lion ?;lionne;lion;lione;lionn
+2054;Comment s'appelle la femelle du : coq ?;poule;coq;coqe;poul
+2055;Comment s'appelle la femelle du : tigre ?;tigresse;tigre;tigrée;tigress
+2056;Comment s'appelle la femelle du : chien ?;chienne;chien;chiene;chienn
+2057;Comment s'appelle le bébé de : éléphant ?;éléphanteau;lapereau;chevreau;têtard
+2058;Comment s'appelle le bébé de : vache ?;veau;poussin;poulain;agneau
+2059;Comment s'appelle le bébé de : lapin ?;lapereau;poussin;louveteau;veau
+2060;Comment s'appelle le bébé de : cheval ?;poulain;agneau;poussin;oisillon
+2061;Comment s'appelle le bébé de : loup ?;louveteau;éléphanteau;agneau;renardeau
+2062;Comment s'appelle le bébé de : oiseau ?;oisillon;lionceau;lapereau;chevreau
+2063;Comment s'appelle le bébé de : lion ?;lionceau;chevreau;têtard;lapereau
+2064;Comment s'appelle le bébé de : renard ?;renardeau;éléphanteau;lionceau;veau
+2065;Comment s'appelle le bébé de : chèvre ?;chevreau;ourson;éléphanteau;lapereau
+2066;Comment s'appelle le bébé de : mouton ?;agneau;lapereau;poussin;éléphanteau
+2067;Comment s'appelle le bébé de : ours ?;ourson;éléphanteau;louveteau;têtard
+2068;Comment s'appelle le bébé de : poule ?;poussin;lapereau;têtard;poulain
+2069;Comment s'appelle le bébé de : grenouille ?;têtard;lionceau;veau;lapereau
+2070;Quel est le contraire de 'fort' ?;faible;froid;sombre;chaud
+2071;Quel est le contraire de 'dedans' ?;dehors;dessus;dessous;tard
+2072;Quel est le contraire de 'haut' ?;bas;sale;vieux;faible
+2073;Quel est le contraire de 'plein' ?;vide;léger;sombre;chaud
+2074;Quel est le contraire de 'dessus' ?;dessous;dedans;tôt;dehors
+2075;Quel est le contraire de 'monter' ?;descendre;finir;sortir;entrer
+2076;Quel est le contraire de 'gros' ?;maigre;difficile;fermé;sale
+2077;Quel est le contraire de 'commencer' ?;finir;descendre;prendre;donner
+2078;Quel est le contraire de 'donner' ?;prendre;détester;sortir;vendre
+2079;Quel est le contraire de 'chaud' ?;froid;méchant;sombre;sale
+2080;Quel est le contraire de 'tôt' ?;tard;dehors;dedans;dessus
+2081;Quel est le contraire de 'gagner' ?;perdre;détester;finir;vendre
+2082;Quel est le contraire de 'propre' ?;sale;méchant;faible;vieux
+2083;Quel est le contraire de 'gentil' ?;méchant;lent;faible;sale
+2084;Quel est le contraire de 'acheter' ?;vendre;partir;sortir;prendre
+2085;Quel est le contraire de 'facile' ?;difficile;pauvre;lent;sale
+2086;Quel est le contraire de 'entrer' ?;sortir;prendre;donner;finir
+2087;Quel est le contraire de 'jour' ?;nuit;vieux;prendre;méchant
+2088;Quel est le contraire de 'aimer' ?;détester;partir;sortir;prendre
+2089;Quel est le contraire de 'arriver' ?;partir;prendre;finir;sortir
+2090;Quel est le contraire de 'ouvert' ?;fermé;sale;sombre;vieux
+2091;Quel est le contraire de 'rapide' ?;lent;léger;faible;sombre
+2092;Quel est le contraire de 'riche' ?;pauvre;sale;bas;faible
+2093;Quel est le contraire de 'clair' ?;sombre;faible;sale;bas
+2094;Quel est le contraire de 'jeune' ?;vieux;faible;lent;sombre
+2095;Quel jour vient juste après lundi ?;mardi;dimanche;vendredi;mercredi
+2096;Quel jour vient juste après mardi ?;mercredi;dimanche;samedi;mardi
+2097;Quel jour vient juste après mercredi ?;jeudi;dimanche;mardi;vendredi
+2098;Quel jour vient juste après jeudi ?;vendredi;samedi;dimanche;mercredi
+2099;Quel jour vient juste après vendredi ?;samedi;mardi;dimanche;mercredi
+2100;Quel jour vient juste après samedi ?;dimanche;samedi;mercredi;lundi
+2101;Quel jour vient juste après dimanche ?;lundi;mercredi;samedi;mardi
+2102;De quelle couleur est un citron ?;jaune;blanc;noir;violet
+2103;De quelle couleur est la mer ?;bleu;rouge;orange;violet
+2104;De quelle couleur est le ciel (par beau temps) ?;bleu;vert;violet;orange
+2105;De quelle couleur est l'herbe ?;vert;bleu;jaune;noir
+2106;De quelle couleur est une fraise ?;rouge;violet;vert;jaune
+2107;De quelle couleur est le charbon ?;noir;bleu;blanc;marron
+2108;De quelle couleur est la neige ?;blanc;orange;marron;rose
+2109;De quelle couleur est une orange (le fruit) ?;orange;rose;rouge;bleu
+2110;De quelle couleur est le chocolat ?;marron;orange;jaune;violet
+2111;Combien y a-t-il de lettres dans le mot MONTAGNE ?;8;18;13;9
+2112;Combien y a-t-il de lettres dans le mot ARAIGNÉE ?;8;6;18;9
+2113;Combien y a-t-il de lettres dans le mot MAISON ?;6;4;8;1
+2114;Combien y a-t-il de lettres dans le mot CAHIER ?;6;11;4;9
+2115;Combien y a-t-il de lettres dans le mot BANANE ?;6;7;11;5
+2116;Combien y a-t-il de lettres dans le mot ESCARGOT ?;8;11;6;3
+2117;Combien y a-t-il de lettres dans le mot CHAPEAU ?;7;8;5;6
+2118;Combien y a-t-il de lettres dans le mot POMME ?;5;15;6;2
+2119;Combien y a-t-il de lettres dans le mot CHAT ?;4;1;7;9
+2120;Combien y a-t-il de lettres dans le mot CHIEN ?;5;15;10;4
+2121;Combien y a-t-il de lettres dans le mot RENARD ?;6;1;8;4
+2122;Combien y a-t-il de lettres dans le mot GÂTEAU ?;6;7;11;16
+2123;Combien y a-t-il de lettres dans le mot CRAYON ?;6;3;4;9
+2124;Combien y a-t-il de lettres dans le mot LIVRE ?;5;10;2;6
+2125;Combien y a-t-il de lettres dans le mot GRENOUILLE ?;10;7;13;11
+2126;Comment écrit-on le nombre 4 en lettres ?;quatre;kwatre;cuatre;quattre
+2127;Comment écrit-on le nombre 5 en lettres ?;cinq;sinq;cinc;cink
+2128;Comment écrit-on le nombre 11 en lettres ?;onze;omze;onse;honze
+2129;Comment écrit-on le nombre 15 en lettres ?;quinze;quinse;quainze;kinze
+2130;Comment écrit-on le nombre 6 en lettres ?;six;sisse;cix;sixe
+2131;Comment écrit-on le nombre 16 en lettres ?;seize;seise;ceize;seze
+2132;Comment écrit-on le nombre 3 en lettres ?;trois;troi;throis;troix
+2133;Comment écrit-on le nombre 12 en lettres ?;douze;doze;douhze;douse
+2134;Comment écrit-on le nombre 17 en lettres ?;dix-sept;disept;dixept;dix-cept
+2135;Comment écrit-on le nombre 13 en lettres ?;treize;treise;threize;traize
+2136;Comment écrit-on le nombre 9 en lettres ?;neuf;neuve;neuff;neufs
+2137;Comment écrit-on le nombre 7 en lettres ?;sept;cept;set;septe
+2138;Comment écrit-on le nombre 18 en lettres ?;dix-huit;dixhuit;disuit;dix-uit
+2139;Comment écrit-on le nombre 1 en lettres ?;un;hun;eun;ung
+2140;Comment écrit-on le nombre 14 en lettres ?;quatorze;quatorse;cuatorze;quatorz
+2141;Comment écrit-on le nombre 19 en lettres ?;dix-neuf;dixneuf;dix-neuve;disneuf
+2142;Comment écrit-on le nombre 2 en lettres ?;deux;deuxs;dheux;deu
+2143;Comment écrit-on le nombre 8 en lettres ?;huit;huitte;huict;uit
+2144;Comment écrit-on le nombre 10 en lettres ?;dix;dic;dixe;dis
+2145;Comment écrit-on le nombre 20 en lettres ?;vingt;vint;vingth;vingts
+2146;Combien de voyelles y a-t-il dans le mot MAISON ?;3;0;2;1
+2147;Combien de voyelles y a-t-il dans le mot MONTAGNE ?;3;5;2;4
+2148;Combien de voyelles y a-t-il dans le mot CRAYON ?;2;3;1;0
+2149;Combien de voyelles y a-t-il dans le mot CHAPEAU ?;4;3;9;2
+2150;Combien de voyelles y a-t-il dans le mot COCCINELLE ?;4;14;2;7
+2151;Combien de voyelles y a-t-il dans le mot TORTUE ?;3;0;2;1
+2152;Combien de voyelles y a-t-il dans le mot GRENOUILLE ?;5;2;8;4
+2153;Combien de voyelles y a-t-il dans le mot LIVRE ?;2;3;12;1
+2154;Combien de voyelles y a-t-il dans le mot BANANE ?;3;5;2;4
+2155;Combien de voyelles y a-t-il dans le mot JARDIN ?;2;3;5;7
+2156;Combien de voyelles y a-t-il dans le mot OISEAU ?;5;6;2;8
+2157;Combien de voyelles y a-t-il dans le mot CAHIER ?;3;4;0;2
+2158;Quel jour vient juste avant lundi ?;dimanche;mardi;mercredi;jeudi
+2159;Quel jour vient juste avant mardi ?;lundi;jeudi;mercredi;dimanche
+2160;Quel jour vient juste avant mercredi ?;mardi;mercredi;lundi;jeudi
+2161;Quel jour vient juste avant jeudi ?;mercredi;jeudi;samedi;lundi
+2162;Quel jour vient juste avant vendredi ?;jeudi;lundi;mercredi;dimanche
+2163;Quel jour vient juste avant samedi ?;vendredi;mercredi;lundi;mardi
+2164;Quel jour vient juste avant dimanche ?;samedi;vendredi;mardi;dimanche
+2165;Quel est le masculin de 'brebis' ?;mouton;brebis;brebise;moutone
+2166;Quel est le masculin de 'tigresse' ?;tigre;tigresse;tigressee;tigrée
+2167;Quel est le masculin de 'ânesse' ?;âne;ânesse;ânessee;ânee
+2168;Quel est le masculin de 'cane' ?;canard;cane;canee;canarde
+2169;Quel est le masculin de 'louve' ?;loup;louve;louvee;loupe
+2170;Quel est le masculin de 'vache' ?;boeuf;vache;vachee;boeufe
+2171;Quel est le masculin de 'poule' ?;coq;poule;poulee;coqe
+2172;Quel est le masculin de 'guenon' ?;singe;guenon;guenone;singee
+2173;Quel est le masculin de 'chienne' ?;chien;chienne;chiennee;chiene
+2174;Quel est le masculin de 'lionne' ?;lion;lionne;lionnee;lione
+2175;Quel est le masculin de 'jument' ?;cheval;jument;jumente;chevale
+2176;Quel est le contraire de 'faible' ?;fort;gentil;lourd;rapide
+2177;Quel est le contraire de 'prendre' ?;donner;aimer;perdre;sortir
+2178;Quel est le contraire de 'dessous' ?;dessus;tôt;dedans;tard
+2179;Quel est le contraire de 'sale' ?;propre;gentil;rapide;lourd
+2180;Quel est le contraire de 'finir' ?;commencer;gagner;arriver;perdre
+2181;Quel est le contraire de 'dehors' ?;dedans;tôt;dessus;dessous
+2182;Quel est le contraire de 'difficile' ?;facile;riche;fort;gentil
+2183;Quel est le contraire de 'méchant' ?;gentil;plein;lourd;rapide
+2184;Quel est le contraire de 'lent' ?;rapide;lourd;clair;fort
+2185;Quel est le contraire de 'perdre' ?;gagner;monter;arriver;donner
+2186;Quel est le contraire de 'bas' ?;haut;clair;lourd;fort
+2187;Quel est le contraire de 'nuit' ?;jour;plein;clair;monter
+2188;Quel est le contraire de 'détester' ?;aimer;arriver;donner;perdre
+2189;Quel est le contraire de 'pauvre' ?;riche;gros;lourd;fort
+2190;Quel est le contraire de 'léger' ?;lourd;chaud;fort;faible

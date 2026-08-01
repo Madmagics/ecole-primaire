@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://bnfotsp5lcakf"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_5v6ox"]
+
+[resource]
+script = ExtResource("1_5v6ox")
+id = &"40"
+category = &"raton-laveur"
+display_name = "Arlequin"
+grade = 4

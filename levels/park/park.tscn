@@ -2,17 +2,69 @@
 
 [ext_resource type="PackedScene" path="res://entities/player/player.tscn" id="1_osieq"]
 [ext_resource type="PackedScene" uid="uid://d0eooys5bc2s6" path="res://entities/npc/npc.tscn" id="2_c10w3"]
-[ext_resource type="Script" uid="uid://dfbr3elc3mbig" path="res://data/question/question_resource.gd" id="2_owgck"]
-[ext_resource type="Resource" uid="uid://d0onc4fflxy2u" path="res://data/question/resources/math/question_addition.tres" id="3_rb02j"]
 [ext_resource type="PackedScene" path="res://ui/question_panel/question_panel.tscn" id="4_rb02j"]
+[ext_resource type="PackedScene" path="res://ui/reading_intro/reading_intro_panel.tscn" id="4_reading"]
+[ext_resource type="PackedScene" path="res://ui/subject_select/subject_select_panel.tscn" id="4_subject"]
+[ext_resource type="Resource" uid="uid://cdiy5ti42wmka" path="res://data/loot/resources/crate_commun.tres" id="5_1klq6"]
 [ext_resource type="PackedScene" path="res://ui/interact_prompt/interact_prompt.tscn" id="5_4xvba"]
-[ext_resource type="PackedScene" path="res://ui/hud/coin_hud.tscn" id="6_jg8l3"]
+[ext_resource type="PackedScene" uid="uid://7356npxenrso" path="res://ui/hud/coin_hud.tscn" id="6_jg8l3"]
+[ext_resource type="PackedScene" uid="uid://b3khbowwpo0ln" path="res://ui/collection/card_album.tscn" id="7_alb1m"]
+[ext_resource type="PackedScene" path="res://ui/loot_feed/loot_feed.tscn" id="7_loot"]
+[ext_resource type="PackedScene" path="res://entities/shop_kiosk/shop_kiosk.tscn" id="10_kiosk"]
+[ext_resource type="PackedScene" path="res://ui/shop/shop_panel.tscn" id="11_kiosk"]
+[ext_resource type="Script" uid="uid://d24av07ikqoir" path="res://data/loot/loot_table_resource.gd" id="12_kiosk"]
+[ext_resource type="Resource" uid="uid://4565osua5sbk" path="res://data/loot/resources/crate_peu_commun.tres" id="13_crate"]
+[ext_resource type="Resource" uid="uid://bogoeyragworm" path="res://data/loot/resources/crate_rare.tres" id="14_crate"]
+[ext_resource type="Resource" uid="uid://e2yceusxmtst" path="res://data/loot/resources/crate_epique.tres" id="15_crate"]
+[ext_resource type="Resource" uid="uid://demxxpica4rqb" path="res://data/loot/resources/crate_legendaire.tres" id="16_crate"]
+[ext_resource type="PackedScene" path="res://ui/game_menu/game_menu_panel.tscn" id="17_menu"]
+[ext_resource type="Script" uid="uid://1lj0s1yfs7nw" path="res://entities/world_view/world_view_blur.gd" id="20_wview"]
+[ext_resource type="Shader" uid="uid://co8xas4k4ejk7" path="res://entities/world_view/world_blur.gdshader" id="21_wblur"]
+[ext_resource type="Script" uid="uid://bunkqsd4e4a20" path="res://ui/hud/menu_toggle_button.gd" id="22_menutoggle"]
+[ext_resource type="PackedScene" path="res://entities/decor/tree.tscn" id="30_tree"]
+[ext_resource type="PackedScene" path="res://entities/decor/park_gate.tscn" id="32_gate"]
+[ext_resource type="PackedScene" path="res://ui/inventory/inventory_panel.tscn" id="40_inventory"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_blur"]
+shader = ExtResource("21_wblur")
+shader_parameter/blur_amount = 0.0
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_park"]
+sky_top_color = Color(0.34, 0.55, 0.85, 1)
+sky_horizon_color = Color(0.75, 0.82, 0.88, 1)
+ground_horizon_color = Color(0.75, 0.82, 0.88, 1)
+
+[sub_resource type="Sky" id="Sky_park"]
+sky_material = SubResource("ProceduralSkyMaterial_park")
+
+[sub_resource type="Environment" id="Environment_park"]
+background_mode = 2
+sky = SubResource("Sky_park")
+ambient_light_source = 3
+fog_enabled = true
+fog_mode = 1
+fog_light_color = Color(0.78, 0.84, 0.9, 1)
+fog_density = 1.0
+fog_sky_affect = 0.0
+fog_depth_begin = 130.0
+fog_depth_end = 250.0
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_grass"]
+albedo_color = Color(0.35, 0.65, 0.25, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_horizon"]
+material = SubResource("StandardMaterial3D_grass")
+size = Vector2(1000, 1000)
 
 [sub_resource type="PlaneMesh" id="PlaneMesh_1"]
+material = SubResource("StandardMaterial3D_grass")
 size = Vector2(50, 50)
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_1"]
 size = Vector3(50, 1, 50)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_WallNorthSeg"]
+size = Vector3(23, 4, 1)
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_WallNS"]
 size = Vector3(52, 4, 1)
@@ -20,55 +72,227 @@ size = Vector3(52, 4, 1)
 [sub_resource type="BoxShape3D" id="BoxShape3D_WallEW"]
 size = Vector3(1, 4, 52)
 
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fairground"]
+albedo_color = Color(0.85, 0.75, 0.5, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_fairground"]
+material = SubResource("StandardMaterial3D_fairground")
+size = Vector2(50, 50)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_fairgroundGround"]
+size = Vector3(50, 1, 50)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_WallFairSide"]
+size = Vector3(1, 4, 50)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pole"]
+albedo_color = Color(0.45, 0.45, 0.48, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_pole"]
+material = SubResource("StandardMaterial3D_pole")
+top_radius = 0.3
+bottom_radius = 0.3
+height = 5.0
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wheel"]
+albedo_color = Color(0.95, 0.6, 0.15, 1)
+
+[sub_resource type="TorusMesh" id="TorusMesh_wheel"]
+material = SubResource("StandardMaterial3D_wheel")
+inner_radius = 1.6
+outer_radius = 2.2
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tent"]
+albedo_color = Color(0.8, 0.15, 0.15, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_tent"]
+material = SubResource("StandardMaterial3D_tent")
+top_radius = 0.0
+bottom_radius = 1.5
+height = 3.0
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tent2"]
+albedo_color = Color(0.2, 0.3, 0.75, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_tent2"]
+material = SubResource("StandardMaterial3D_tent2")
+top_radius = 0.0
+bottom_radius = 1.2
+height = 2.5
+
 [node name="Park" type="Node3D" unique_id=306584905]
 
-[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=170552884]
+[node name="WorldViewport" type="SubViewportContainer" parent="." unique_id=371743218]
+material = SubResource("ShaderMaterial_blur")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+stretch = true
+script = ExtResource("20_wview")
+
+[node name="SubViewport" type="SubViewport" parent="WorldViewport" unique_id=247671194]
+handle_input_locally = false
+size = Vector2i(1152, 648)
+render_target_update_mode = 4
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="WorldViewport/SubViewport" unique_id=170552884]
 transform = Transform3D(1, 0, 0, 0, 0.8, 0.6, 0, -0.6, 0.8, 0, 5, 0)
 
-[node name="Ground" type="StaticBody3D" parent="." unique_id=338180402]
+[node name="WorldEnvironment" type="WorldEnvironment" parent="WorldViewport/SubViewport" unique_id=1351656441]
+environment = SubResource("Environment_park")
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="Ground" unique_id=537150176]
+[node name="GroundExtension" type="MeshInstance3D" parent="WorldViewport/SubViewport" unique_id=1086951947]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.03, -25)
+mesh = SubResource("PlaneMesh_horizon")
+
+[node name="Ground" type="StaticBody3D" parent="WorldViewport/SubViewport" unique_id=338180402]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="WorldViewport/SubViewport/Ground" unique_id=537150176]
 mesh = SubResource("PlaneMesh_1")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Ground" unique_id=1967485274]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="WorldViewport/SubViewport/Ground" unique_id=1967485274]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5, 0)
 shape = SubResource("BoxShape3D_1")
 
-[node name="Walls" type="Node3D" parent="." unique_id=1553348408]
+[node name="Walls" type="Node3D" parent="WorldViewport/SubViewport" unique_id=1553348408]
 
-[node name="WallNorth" type="StaticBody3D" parent="Walls" unique_id=1128441833]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, -25)
+[node name="WallNorth_Left" type="StaticBody3D" parent="WorldViewport/SubViewport/Walls" unique_id=714733200]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.5, 2, -25)
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Walls/WallNorth" unique_id=1210798426]
-shape = SubResource("BoxShape3D_WallNS")
+[node name="CollisionShape3D" type="CollisionShape3D" parent="WorldViewport/SubViewport/Walls/WallNorth_Left" unique_id=1159152570]
+shape = SubResource("BoxShape3D_WallNorthSeg")
 
-[node name="WallSouth" type="StaticBody3D" parent="Walls" unique_id=695526817]
+[node name="WallNorth_Right" type="StaticBody3D" parent="WorldViewport/SubViewport/Walls" unique_id=1721891368]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.5, 2, -25)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="WorldViewport/SubViewport/Walls/WallNorth_Right" unique_id=820507670]
+shape = SubResource("BoxShape3D_WallNorthSeg")
+
+[node name="WallSouth" type="StaticBody3D" parent="WorldViewport/SubViewport/Walls" unique_id=695526817]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 25)
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Walls/WallSouth" unique_id=1954607081]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="WorldViewport/SubViewport/Walls/WallSouth" unique_id=1954607081]
 shape = SubResource("BoxShape3D_WallNS")
 
-[node name="WallEast" type="StaticBody3D" parent="Walls" unique_id=278887782]
+[node name="WallEast" type="StaticBody3D" parent="WorldViewport/SubViewport/Walls" unique_id=278887782]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25, 2, 0)
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Walls/WallEast" unique_id=881524782]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="WorldViewport/SubViewport/Walls/WallEast" unique_id=881524782]
 shape = SubResource("BoxShape3D_WallEW")
 
-[node name="WallWest" type="StaticBody3D" parent="Walls" unique_id=652567776]
+[node name="WallWest" type="StaticBody3D" parent="WorldViewport/SubViewport/Walls" unique_id=652567776]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25, 2, 0)
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Walls/WallWest" unique_id=1554660563]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="WorldViewport/SubViewport/Walls/WallWest" unique_id=1554660563]
 shape = SubResource("BoxShape3D_WallEW")
 
-[node name="NPCs" type="Node3D" parent="." unique_id=1383072639]
+[node name="Decor" type="Node3D" parent="WorldViewport/SubViewport" unique_id=887479933]
 
-[node name="NPC" parent="NPCs" unique_id=947522549 instance=ExtResource("2_c10w3")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 1, 3)
+[node name="Trees" type="Node3D" parent="WorldViewport/SubViewport/Decor" unique_id=340301603]
 
-[node name="QuestionGiverComponent" parent="NPCs/NPC" index="2" unique_id=1812276546]
-question_pool = Array[ExtResource("2_owgck")]([ExtResource("3_rb02j")])
+[node name="Tree11" parent="WorldViewport/SubViewport/Decor/Trees" unique_id=767786811 instance=ExtResource("30_tree")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20, 0, -35)
 
-[node name="Chests" type="Node3D" parent="." unique_id=1542864858]
+[node name="Tree12" parent="WorldViewport/SubViewport/Decor/Trees" unique_id=177326309 instance=ExtResource("30_tree")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20, 0, -65)
+
+[node name="Tree13" parent="WorldViewport/SubViewport/Decor/Trees" unique_id=1536682308 instance=ExtResource("30_tree")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -35)
+
+[node name="Tree14" parent="WorldViewport/SubViewport/Decor/Trees" unique_id=98198149 instance=ExtResource("30_tree")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -65)
+
+[node name="ParkGate" parent="WorldViewport/SubViewport" unique_id=1317087447 instance=ExtResource("32_gate")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -25)
+is_open = true
+
+[node name="FairgroundPreview" type="Node3D" parent="WorldViewport/SubViewport" unique_id=336716541]
+
+[node name="Ground" type="StaticBody3D" parent="WorldViewport/SubViewport/FairgroundPreview" unique_id=1327395565]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -50)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="WorldViewport/SubViewport/FairgroundPreview/Ground" unique_id=966804153]
+mesh = SubResource("PlaneMesh_fairground")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="WorldViewport/SubViewport/FairgroundPreview/Ground" unique_id=166247442]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5, 0)
+shape = SubResource("BoxShape3D_fairgroundGround")
+
+[node name="WallBack" type="StaticBody3D" parent="WorldViewport/SubViewport/FairgroundPreview" unique_id=1594660722]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, -75)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="WorldViewport/SubViewport/FairgroundPreview/WallBack" unique_id=296492987]
+shape = SubResource("BoxShape3D_WallNS")
+
+[node name="WallEast" type="StaticBody3D" parent="WorldViewport/SubViewport/FairgroundPreview" unique_id=1075360507]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25, 2, -50)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="WorldViewport/SubViewport/FairgroundPreview/WallEast" unique_id=158122870]
+shape = SubResource("BoxShape3D_WallFairSide")
+
+[node name="WallWest" type="StaticBody3D" parent="WorldViewport/SubViewport/FairgroundPreview" unique_id=1820555171]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25, 2, -50)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="WorldViewport/SubViewport/FairgroundPreview/WallWest" unique_id=733920550]
+shape = SubResource("BoxShape3D_WallFairSide")
+
+[node name="FerrisWheelPreview" type="Node3D" parent="WorldViewport/SubViewport/FairgroundPreview" unique_id=56504488]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, -35)
+
+[node name="Pole" type="MeshInstance3D" parent="WorldViewport/SubViewport/FairgroundPreview/FerrisWheelPreview" unique_id=1035694021]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.5, 0)
+mesh = SubResource("CylinderMesh_pole")
+
+[node name="Wheel" type="MeshInstance3D" parent="WorldViewport/SubViewport/FairgroundPreview/FerrisWheelPreview" unique_id=269163423]
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 5.2, 0)
+mesh = SubResource("TorusMesh_wheel")
+
+[node name="TentPreview" type="MeshInstance3D" parent="WorldViewport/SubViewport/FairgroundPreview" unique_id=984716180]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 1.5, -35)
+mesh = SubResource("CylinderMesh_tent")
+
+[node name="TentPreview2" type="MeshInstance3D" parent="WorldViewport/SubViewport/FairgroundPreview" unique_id=1075234273]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 1.25, -55)
+mesh = SubResource("CylinderMesh_tent2")
+
+[node name="NPCs" type="Node3D" parent="WorldViewport/SubViewport" unique_id=1383072639]
+
+[node name="NPC_CP" parent="WorldViewport/SubViewport/NPCs" unique_id=947522001 instance=ExtResource("2_c10w3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 1, 3)
+
+[node name="NPC_CE1" parent="WorldViewport/SubViewport/NPCs" unique_id=947522002 instance=ExtResource("2_c10w3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 1, 3)
+
+[node name="QuestionGiverComponent" parent="WorldViewport/SubViewport/NPCs/NPC_CE1" index="2" unique_id=1812276546]
+grade = 1
+
+[node name="NPC_CE2" parent="WorldViewport/SubViewport/NPCs" unique_id=947522003 instance=ExtResource("2_c10w3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 3)
+
+[node name="QuestionGiverComponent" parent="WorldViewport/SubViewport/NPCs/NPC_CE2" index="2" unique_id=1812276546]
+grade = 2
+
+[node name="NPC_CM1" parent="WorldViewport/SubViewport/NPCs" unique_id=947522004 instance=ExtResource("2_c10w3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 1, 3)
+
+[node name="QuestionGiverComponent" parent="WorldViewport/SubViewport/NPCs/NPC_CM1" index="2" unique_id=1812276546]
+grade = 3
+
+[node name="NPC_CM2" parent="WorldViewport/SubViewport/NPCs" unique_id=947522005 instance=ExtResource("2_c10w3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 1, 3)
+
+[node name="QuestionGiverComponent" parent="WorldViewport/SubViewport/NPCs/NPC_CM2" index="2" unique_id=1812276546]
+grade = 4
+
+[node name="Chests" type="Node3D" parent="WorldViewport/SubViewport" unique_id=1542864858]
+
+[node name="ShopKiosk" parent="WorldViewport/SubViewport" unique_id=62455322 instance=ExtResource("10_kiosk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, -6)
+
+[node name="Player" parent="WorldViewport/SubViewport" unique_id=1397354995 instance=ExtResource("1_osieq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
 
 [node name="UI" type="CanvasLayer" parent="." unique_id=12167531]
 
@@ -76,14 +300,78 @@ question_pool = Array[ExtResource("2_owgck")]([ExtResource("3_rb02j")])
 
 [node name="QuestionPanel" parent="UI" unique_id=1391594884 instance=ExtResource("4_rb02j")]
 
+[node name="SubjectSelectPanel" parent="UI" unique_id=1764351072 instance=ExtResource("4_subject")]
+
+[node name="ReadingIntroPanel" parent="UI" unique_id=1764351099 instance=ExtResource("4_reading")]
+
 [node name="InteractPrompt" parent="UI" unique_id=1217377773 instance=ExtResource("5_4xvba")]
 
-[node name="Player" parent="." unique_id=1397354995 instance=ExtResource("1_osieq")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+[node name="CardAlbum" parent="UI" unique_id=154810642 instance=ExtResource("7_alb1m")]
 
-[connection signal="question_started" from="NPCs/NPC/QuestionGiverComponent" to="UI/QuestionPanel" method="display_question"]
-[connection signal="answered" from="UI/QuestionPanel" to="NPCs/NPC/QuestionGiverComponent" method="resolve_answer"]
-[connection signal="interactable_changed" from="Player/InteractorComponent" to="UI/InteractPrompt" method="show_for"]
+[node name="LootFeed" parent="UI" unique_id=757678196 instance=ExtResource("7_loot")]
 
-[editable path="NPCs/NPC"]
-[editable path="Player"]
+[node name="InventoryPanel" parent="UI" instance=ExtResource("40_inventory")]
+
+[node name="OpenMenuButton" type="Button" parent="UI" unique_id=-1637555203]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -70.0
+offset_top = 20.0
+offset_right = -20.0
+offset_bottom = 70.0
+grow_horizontal = 0
+text = "M"
+script = ExtResource("22_menutoggle")
+toggled_panel_paths = Array[NodePath]([NodePath("../GameMenuPanel"), NodePath("../CardAlbum"), NodePath("../InventoryPanel")])
+
+[node name="ShopPanel" parent="UI" unique_id=333939656 instance=ExtResource("11_kiosk")]
+available_crates = Array[ExtResource("12_kiosk")]([ExtResource("5_1klq6"), ExtResource("13_crate"), ExtResource("14_crate"), ExtResource("15_crate"), ExtResource("16_crate")])
+
+[node name="GameMenuPanel" parent="UI" unique_id=-1637555202 instance=ExtResource("17_menu")]
+
+[connection signal="pack_started" from="WorldViewport/SubViewport/NPCs/NPC_CP/QuestionGiverComponent" to="UI/QuestionPanel" method="display_pack"]
+[connection signal="pack_unavailable" from="WorldViewport/SubViewport/NPCs/NPC_CP/QuestionGiverComponent" to="UI/QuestionPanel" method="show_message"]
+[connection signal="reading_pack_started" from="WorldViewport/SubViewport/NPCs/NPC_CP/QuestionGiverComponent" to="UI/ReadingIntroPanel" method="open_for"]
+[connection signal="subject_selection_requested" from="WorldViewport/SubViewport/NPCs/NPC_CP/QuestionGiverComponent" to="UI/SubjectSelectPanel" method="open_for"]
+[connection signal="pack_started" from="WorldViewport/SubViewport/NPCs/NPC_CE1/QuestionGiverComponent" to="UI/QuestionPanel" method="display_pack"]
+[connection signal="pack_unavailable" from="WorldViewport/SubViewport/NPCs/NPC_CE1/QuestionGiverComponent" to="UI/QuestionPanel" method="show_message"]
+[connection signal="reading_pack_started" from="WorldViewport/SubViewport/NPCs/NPC_CE1/QuestionGiverComponent" to="UI/ReadingIntroPanel" method="open_for"]
+[connection signal="subject_selection_requested" from="WorldViewport/SubViewport/NPCs/NPC_CE1/QuestionGiverComponent" to="UI/SubjectSelectPanel" method="open_for"]
+[connection signal="pack_started" from="WorldViewport/SubViewport/NPCs/NPC_CE2/QuestionGiverComponent" to="UI/QuestionPanel" method="display_pack"]
+[connection signal="pack_unavailable" from="WorldViewport/SubViewport/NPCs/NPC_CE2/QuestionGiverComponent" to="UI/QuestionPanel" method="show_message"]
+[connection signal="reading_pack_started" from="WorldViewport/SubViewport/NPCs/NPC_CE2/QuestionGiverComponent" to="UI/ReadingIntroPanel" method="open_for"]
+[connection signal="subject_selection_requested" from="WorldViewport/SubViewport/NPCs/NPC_CE2/QuestionGiverComponent" to="UI/SubjectSelectPanel" method="open_for"]
+[connection signal="pack_started" from="WorldViewport/SubViewport/NPCs/NPC_CM1/QuestionGiverComponent" to="UI/QuestionPanel" method="display_pack"]
+[connection signal="pack_unavailable" from="WorldViewport/SubViewport/NPCs/NPC_CM1/QuestionGiverComponent" to="UI/QuestionPanel" method="show_message"]
+[connection signal="reading_pack_started" from="WorldViewport/SubViewport/NPCs/NPC_CM1/QuestionGiverComponent" to="UI/ReadingIntroPanel" method="open_for"]
+[connection signal="subject_selection_requested" from="WorldViewport/SubViewport/NPCs/NPC_CM1/QuestionGiverComponent" to="UI/SubjectSelectPanel" method="open_for"]
+[connection signal="pack_started" from="WorldViewport/SubViewport/NPCs/NPC_CM2/QuestionGiverComponent" to="UI/QuestionPanel" method="display_pack"]
+[connection signal="pack_unavailable" from="WorldViewport/SubViewport/NPCs/NPC_CM2/QuestionGiverComponent" to="UI/QuestionPanel" method="show_message"]
+[connection signal="reading_pack_started" from="WorldViewport/SubViewport/NPCs/NPC_CM2/QuestionGiverComponent" to="UI/ReadingIntroPanel" method="open_for"]
+[connection signal="subject_selection_requested" from="WorldViewport/SubViewport/NPCs/NPC_CM2/QuestionGiverComponent" to="UI/SubjectSelectPanel" method="open_for"]
+[connection signal="interacted" from="WorldViewport/SubViewport/ShopKiosk/InteractableComponent" to="UI/ShopPanel" method="open"]
+[connection signal="unfocused" from="WorldViewport/SubViewport/ShopKiosk/InteractableComponent" to="UI/ShopPanel" method="close"]
+[connection signal="interactable_changed" from="WorldViewport/SubViewport/Player/InteractorComponent" to="UI/InteractPrompt" method="show_for"]
+[connection signal="pack_completed" from="UI/QuestionPanel" to="WorldViewport/SubViewport/NPCs/NPC_CP/QuestionGiverComponent" method="resolve_pack"]
+[connection signal="pack_completed" from="UI/QuestionPanel" to="WorldViewport/SubViewport/NPCs/NPC_CE1/QuestionGiverComponent" method="resolve_pack"]
+[connection signal="pack_completed" from="UI/QuestionPanel" to="WorldViewport/SubViewport/NPCs/NPC_CE2/QuestionGiverComponent" method="resolve_pack"]
+[connection signal="pack_completed" from="UI/QuestionPanel" to="WorldViewport/SubViewport/NPCs/NPC_CM1/QuestionGiverComponent" method="resolve_pack"]
+[connection signal="pack_completed" from="UI/QuestionPanel" to="WorldViewport/SubViewport/NPCs/NPC_CM2/QuestionGiverComponent" method="resolve_pack"]
+[connection signal="subject_selected" from="UI/SubjectSelectPanel" to="WorldViewport/SubViewport/NPCs/NPC_CP/QuestionGiverComponent" method="start_pack_for_subject"]
+[connection signal="subject_selected" from="UI/SubjectSelectPanel" to="WorldViewport/SubViewport/NPCs/NPC_CE1/QuestionGiverComponent" method="start_pack_for_subject"]
+[connection signal="subject_selected" from="UI/SubjectSelectPanel" to="WorldViewport/SubViewport/NPCs/NPC_CE2/QuestionGiverComponent" method="start_pack_for_subject"]
+[connection signal="subject_selected" from="UI/SubjectSelectPanel" to="WorldViewport/SubViewport/NPCs/NPC_CM1/QuestionGiverComponent" method="start_pack_for_subject"]
+[connection signal="subject_selected" from="UI/SubjectSelectPanel" to="WorldViewport/SubViewport/NPCs/NPC_CM2/QuestionGiverComponent" method="start_pack_for_subject"]
+[connection signal="questions_requested" from="UI/ReadingIntroPanel" to="UI/QuestionPanel" method="display_pack"]
+[connection signal="pressed" from="UI/OpenMenuButton" to="UI/GameMenuPanel" method="toggle"]
+[connection signal="collection_requested" from="UI/GameMenuPanel" to="UI/CardAlbum" method="open"]
+[connection signal="inventory_requested" from="UI/GameMenuPanel" to="UI/InventoryPanel" method="open"]
+
+[editable path="WorldViewport/SubViewport/NPCs/NPC_CP"]
+[editable path="WorldViewport/SubViewport/NPCs/NPC_CE1"]
+[editable path="WorldViewport/SubViewport/NPCs/NPC_CE2"]
+[editable path="WorldViewport/SubViewport/NPCs/NPC_CM1"]
+[editable path="WorldViewport/SubViewport/NPCs/NPC_CM2"]
+[editable path="WorldViewport/SubViewport/ShopKiosk"]
+[editable path="WorldViewport/SubViewport/Player"]

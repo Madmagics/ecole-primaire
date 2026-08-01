@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://ce3nhtbuyr5j7"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_lhxwo"]
+
+[resource]
+script = ExtResource("1_lhxwo")
+id = &"19"
+category = &"lapin"
+display_name = "Lunaire"
+grade = 3

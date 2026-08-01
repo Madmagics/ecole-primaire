@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://b6kn813jog4n1"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_ixgsl"]
+[ext_resource type="Texture2D" uid="uid://cdlm5b0cilqxm" path="res://data/card/art/5.webp" id="2_jgeps"]
+
+[resource]
+script = ExtResource("1_ixgsl")
+id = &"5"
+category = &"chat"
+display_name = "Cosmique"
+texture = ExtResource("2_jgeps")
+grade = 4

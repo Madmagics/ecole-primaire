@@ -8,7 +8,3 @@ extends CharacterBody3D
 
 func _ready() -> void:
 	add_to_group("npc")
-
-
-func display_question(question: QuestionResource) -> void:
-	pass # Replace with function body.

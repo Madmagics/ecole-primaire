@@ -1,0 +1,501 @@
+id;text;correct_answer;choice_2;choice_3;choice_4
+1001;Combien font 10 + 1 ?;11;1;9;13
+1002;Combien font 10 + 7 ?;17;22;15;16
+1003;Combien font 5 + 15 ?;20;19;18;15
+1004;Combien font 3 + 16 ?;19;21;24;20
+1005;Combien font 5 + 14 ?;19;24;17;16
+1006;Combien font 9 + 5 ?;14;17;12;13
+1007;Combien font 6 + 5 ?;11;6;10;21
+1008;Combien font 4 + 10 ?;14;4;9;19
+1009;Combien font 13 + 1 ?;14;17;13;15
+1010;Combien font 6 + 9 ?;15;25;14;5
+1011;Combien font 18 + 1 ?;19;9;16;29
+1012;Combien font 6 + 6 ?;12;14;9;13
+1013;Combien font 5 + 2 ?;7;9;2;17
+1014;Combien font 11 + 1 ?;12;11;2;9
+1015;Combien font 12 + 4 ?;16;13;18;11
+1016;Combien font 6 + 2 ?;8;10;5;18
+1017;Combien font 17 + 2 ?;19;20;16;18
+1018;Combien font 2 + 16 ?;18;16;17;28
+1019;Combien font 9 + 3 ?;12;15;2;14
+1020;Combien font 15 + 4 ?;19;24;21;17
+1021;Combien font 2 + 8 ?;10;11;8;7
+1022;Combien font 5 + 10 ?;15;13;25;20
+1023;Combien font 13 + 4 ?;17;14;7;16
+1024;Combien font 19 + 1 ?;20;22;15;19
+1025;Combien font 3 + 9 ?;12;11;13;2
+1026;Combien font 2 + 7 ?;9;10;4;14
+1027;Combien font 7 + 7 ?;14;15;12;19
+1028;Combien font 3 + 1 ?;4;3;5;7
+1029;Combien font 5 + 13 ?;18;13;8;20
+1030;Combien font 1 + 11 ?;12;14;15;22
+1031;Combien font 4 + 16 ?;20;22;21;17
+1032;Combien font 10 + 5 ?;15;25;5;10
+1033;Combien font 4 + 9 ?;13;14;10;23
+1034;Combien font 5 + 5 ?;10;9;15;8
+1035;Combien font 9 + 7 ?;16;21;13;14
+1036;Combien font 6 + 11 ?;17;27;20;18
+1037;Combien font 2 + 1 ?;3;8;5;2
+1038;Combien font 8 + 12 ?;20;25;18;22
+1039;Combien font 14 + 5 ?;19;9;14;21
+1040;Combien font 16 + 1 ?;17;14;27;15
+1041;Combien font 9 + 8 ?;17;18;20;15
+1042;Combien font 7 + 9 ?;16;13;11;14
+1043;Combien font 10 + 10 ?;20;22;19;15
+1044;Combien font 9 + 6 ?;15;5;12;25
+1045;Combien font 1 + 12 ?;13;18;3;10
+1046;Combien font 40 + 1 ?;41;40;36;51
+1047;Combien font 90 + 7 ?;97;102;92;87
+1048;Combien font 90 + 8 ?;98;88;93;96
+1049;Combien font 30 + 5 ?;35;40;36;25
+1050;Combien font 60 + 8 ?;68;73;69;66
+1051;Combien font 50 + 7 ?;57;54;60;56
+1052;Combien font 70 + 7 ?;77;78;75;76
+1053;Combien font 10 + 3 ?;13;12;8;3
+1054;Combien font 20 + 5 ?;25;27;15;23
+1055;Combien font 50 + 8 ?;58;60;55;59
+1056;Combien font 30 + 2 ?;32;27;33;37
+1057;Combien font 50 + 6 ?;56;46;61;66
+1058;Combien font 10 + 2 ?;12;10;7;15
+1059;Combien font 70 + 2 ?;72;77;75;67
+1060;Combien font 90 + 3 ?;93;90;98;92
+1061;Combien font 18 - 4 ?;14;17;15;9
+1062;Combien font 16 - 1 ?;15;20;12;18
+1063;Combien font 10 - 0 ?;10;15;0;9
+1064;Combien font 9 - 9 ?;0;10;1;3
+1065;Combien font 11 - 8 ?;3;5;8;1
+1066;Combien font 16 - 11 ?;5;0;15;4
+1067;Combien font 13 - 5 ?;8;6;7;3
+1068;Combien font 14 - 11 ?;3;13;1;2
+1069;Combien font 20 - 8 ?;12;17;7;22
+1070;Combien font 12 - 11 ?;1;11;4;2
+1071;Combien font 13 - 13 ?;0;2;3;1
+1072;Combien font 13 - 1 ?;12;7;10;15
+1073;Combien font 19 - 2 ?;17;18;12;22
+1074;Combien font 17 - 6 ?;11;6;8;9
+1075;Combien font 16 - 16 ?;0;2;3;5
+1076;Combien font 8 - 6 ?;2;0;12;7
+1077;Combien font 18 - 18 ?;0;5;10;2
+1078;Combien font 4 - 0 ?;4;9;3;1
+1079;Combien font 13 - 10 ?;3;1;0;2
+1080;Combien font 20 - 16 ?;4;1;2;5
+1081;Combien font 14 - 4 ?;10;5;20;7
+1082;Combien font 16 - 5 ?;11;14;9;6
+1083;Combien font 11 - 11 ?;0;5;3;1
+1084;Combien font 17 - 0 ?;17;19;18;20
+1085;Combien font 18 - 3 ?;15;17;13;16
+1086;Combien font 15 - 9 ?;6;9;8;1
+1087;Combien font 6 - 5 ?;1;11;4;0
+1088;Combien font 12 - 8 ?;4;6;9;14
+1089;Combien font 12 - 7 ?;5;6;2;8
+1090;Combien font 13 - 3 ?;10;0;12;5
+1091;Combien font 9 - 1 ?;8;7;11;6
+1092;Combien font 19 - 6 ?;13;16;23;10
+1093;Combien font 14 - 7 ?;7;9;17;10
+1094;Combien font 6 - 0 ?;6;11;5;4
+1095;Combien font 12 - 10 ?;2;0;1;3
+1096;Combien font 12 - 4 ?;8;7;6;10
+1097;Combien font 19 - 1 ?;18;16;20;17
+1098;Combien font 15 - 11 ?;4;9;5;3
+1099;Combien font 14 - 2 ?;12;11;17;2
+1100;Combien font 5 - 2 ?;3;5;0;4
+1101;Combien font 11 - 5 ?;6;4;16;5
+1102;Combien font 8 - 3 ?;5;0;15;2
+1103;Combien font 20 - 17 ?;3;8;5;0
+1104;Combien font 19 - 18 ?;1;6;0;4
+1105;Combien font 11 - 9 ?;2;7;3;0
+1106;Combien faut-il ajouter à 1 pour obtenir 10 ?;9;4;8;11
+1107;Combien faut-il ajouter à 2 pour obtenir 10 ?;8;7;6;13
+1108;Combien faut-il ajouter à 10 pour obtenir 10 ?;0;2;1;10
+1109;Combien faut-il ajouter à 3 pour obtenir 10 ?;7;5;9;6
+1110;Combien faut-il ajouter à 4 pour obtenir 10 ?;6;9;7;4
+1111;Combien faut-il ajouter à 6 pour obtenir 10 ?;4;1;3;14
+1112;Combien faut-il ajouter à 9 pour obtenir 10 ?;1;6;11;4
+1113;Combien faut-il ajouter à 8 pour obtenir 10 ?;2;4;7;5
+1114;Combien faut-il ajouter à 7 pour obtenir 10 ?;3;5;13;1
+1115;Combien faut-il ajouter à 0 pour obtenir 10 ?;10;13;15;12
+1116;Combien faut-il ajouter à 0 pour obtenir 20 ?;20;17;23;25
+1117;Combien faut-il ajouter à 8 pour obtenir 20 ?;12;10;15;2
+1118;Combien faut-il ajouter à 11 pour obtenir 20 ?;9;14;4;10
+1119;Combien faut-il ajouter à 6 pour obtenir 20 ?;14;11;9;16
+1120;Combien faut-il ajouter à 1 pour obtenir 20 ?;19;9;22;24
+1121;Combien faut-il ajouter à 20 pour obtenir 20 ?;0;2;10;5
+1122;Combien faut-il ajouter à 7 pour obtenir 20 ?;13;23;18;3
+1123;Combien faut-il ajouter à 3 pour obtenir 20 ?;17;19;18;7
+1124;Combien faut-il ajouter à 5 pour obtenir 20 ?;15;5;20;13
+1125;Combien faut-il ajouter à 4 pour obtenir 20 ?;16;11;19;21
+1126;Quel est le double de 1 ?;2;4;5;12
+1127;Quel est le double de 9 ?;18;21;19;20
+1128;Quel est le double de 2 ?;4;5;3;1
+1129;Quel est le double de 6 ?;12;10;14;11
+1130;Quel est le double de 5 ?;10;0;12;5
+1131;Quel est le double de 10 ?;20;21;15;17
+1132;Quel est le double de 7 ?;14;11;4;19
+1133;Quel est le double de 4 ?;8;9;3;13
+1134;Quel est le double de 3 ?;6;4;3;16
+1135;Quel est le double de 8 ?;16;13;21;17
+1136;Quelle est la moitié de 10 ?;5;10;15;0
+1137;Quelle est la moitié de 2 ?;1;6;4;3
+1138;Quelle est la moitié de 8 ?;4;3;9;14
+1139;Quelle est la moitié de 16 ?;8;18;6;3
+1140;Quelle est la moitié de 12 ?;6;3;7;4
+1141;Quelle est la moitié de 14 ?;7;8;17;2
+1142;Quelle est la moitié de 6 ?;3;2;5;4
+1143;Quelle est la moitié de 18 ?;9;10;14;6
+1144;Quelle est la moitié de 20 ?;10;9;13;8
+1145;Quelle est la moitié de 4 ?;2;3;1;7
+1146;Quel nombre est le plus grand : 69 ou 76 ?;76;69;;
+1147;Quel nombre est le plus grand : 51 ou 96 ?;96;51;;
+1148;Quel nombre est le plus grand : 73 ou 2 ?;73;2;;
+1149;Quel nombre est le plus grand : 17 ou 34 ?;34;17;;
+1150;Quel nombre est le plus grand : 26 ou 55 ?;55;26;;
+1151;Quel nombre est le plus grand : 14 ou 95 ?;95;14;;
+1152;Quel nombre est le plus grand : 61 ou 78 ?;78;61;;
+1153;Quel nombre est le plus grand : 84 ou 74 ?;84;74;;
+1154;Quel nombre est le plus grand : 82 ou 83 ?;83;82;;
+1155;Quel nombre est le plus grand : 89 ou 28 ?;89;28;;
+1156;Quel nombre est le plus grand : 31 ou 71 ?;71;31;;
+1157;Quel nombre est le plus grand : 86 ou 22 ?;86;22;;
+1158;Quel nombre est le plus grand : 67 ou 40 ?;67;40;;
+1159;Quel nombre est le plus grand : 46 ou 30 ?;46;30;;
+1160;Quel nombre est le plus grand : 9 ou 1 ?;9;1;;
+1161;Quel nombre est le plus petit : 3 ou 30 ?;3;30;;
+1162;Quel nombre est le plus petit : 95 ou 60 ?;60;95;;
+1163;Quel nombre est le plus petit : 18 ou 68 ?;18;68;;
+1164;Quel nombre est le plus petit : 86 ou 37 ?;37;86;;
+1165;Quel nombre est le plus petit : 5 ou 78 ?;5;78;;
+1166;Quel nombre est le plus petit : 92 ou 39 ?;39;92;;
+1167;Quel nombre est le plus petit : 5 ou 17 ?;5;17;;
+1168;Quel nombre est le plus petit : 34 ou 93 ?;34;93;;
+1169;Quel nombre est le plus petit : 28 ou 97 ?;28;97;;
+1170;Quel nombre est le plus petit : 8 ou 50 ?;8;50;;
+1171;Combien font 9 dizaines et 5 unités ?;95;85;92;105
+1172;Combien font 2 dizaines et 0 unités ?;20;18;19;21
+1173;Combien font 7 dizaines et 8 unités ?;78;79;83;75
+1174;Combien font 4 dizaines et 1 unités ?;41;36;46;44
+1175;Combien font 3 dizaines et 3 unités ?;33;28;23;36
+1176;Combien font 7 dizaines et 4 unités ?;74;72;73;84
+1177;Combien font 6 dizaines et 9 unités ?;69;71;64;74
+1178;Combien font 4 dizaines et 2 unités ?;42;47;40;41
+1179;Combien font 1 dizaines et 5 unités ?;15;25;16;12
+1180;Combien font 6 dizaines et 5 unités ?;65;64;67;66
+1181;Combien font 5 dizaines et 9 unités ?;59;61;58;57
+1182;Combien font 5 dizaines et 5 unités ?;55;58;52;56
+1183;Combien font 7 dizaines et 0 unités ?;70;69;72;60
+1184;Combien font 9 dizaines et 2 unités ?;92;95;97;90
+1185;Combien font 8 dizaines et 3 unités ?;83;88;78;84
+1186;Lea a 4 ballons. Il/elle en reçoit 9 de plus. Combien Lea a-t-il/elle de ballons maintenant ?;13;15;14;8
+1187;Lou a 7 billes. Il/elle en reçoit 8 de plus. Combien Lou a-t-il/elle de billes maintenant ?;15;16;10;13
+1188;Leo a 9 crayons. Il/elle en reçoit 3 de plus. Combien Leo a-t-il/elle de crayons maintenant ?;12;2;10;11
+1189;Leo a 8 crayons. Il/elle en reçoit 7 de plus. Combien Leo a-t-il/elle de crayons maintenant ?;15;25;10;13
+1190;Lea a 9 gâteaux. Il/elle en reçoit 1 de plus. Combien Lea a-t-il/elle de gâteaux maintenant ?;10;11;8;7
+2000;___ + 16 = 34. Quel nombre manque ?;18;13;19;14
+2001;10 + 11 + ___ = 28. Quel nombre manque ?;7;12;4;10
+2002;6 + ___ = 27. Quel nombre manque ?;21;22;15;24
+2003;___ + 27 = 45. Quel nombre manque ?;18;24;16;14
+2004;___ + 10 + 4 = 34. Quel nombre manque ?;20;14;19;25
+2005;12 + 12 + ___ = 36. Quel nombre manque ?;12;10;8;16
+2006;___ + 21 = 40. Quel nombre manque ?;19;13;18;15
+2007;2 + ___ = 36. Quel nombre manque ?;34;38;32;28
+2008;___ + 31 = 63. Quel nombre manque ?;32;36;34;38
+2009;7 + ___ = 40. Quel nombre manque ?;33;32;36;37
+2010;___ + 24 = 26. Quel nombre manque ?;2;4;6;1
+2011;___ + 31 = 55. Quel nombre manque ?;24;26;19;20
+2012;___ + 12 = 32. Quel nombre manque ?;20;23;17;19
+2013;21 + ___ = 55. Quel nombre manque ?;34;32;40;39
+2014;___ + 10 + 8 = 19. Quel nombre manque ?;1;4;0;7
+2015;31 + ___ = 37. Quel nombre manque ?;6;0;10;4
+2016;38 + ___ = 76. Quel nombre manque ?;38;36;37;39
+2017;___ + 13 = 34. Quel nombre manque ?;21;15;16;26
+2018;26 + ___ = 32. Quel nombre manque ?;6;12;8;11
+2019;___ + 13 + 5 = 27. Quel nombre manque ?;9;12;6;8
+2020;9 + ___ = 33. Quel nombre manque ?;24;19;29;27
+2021;10 + 20 + ___ = 50. Quel nombre manque ?;20;15;24;17
+2022;13 + 15 + ___ = 41. Quel nombre manque ?;13;10;11;9
+2023;20 + ___ + 10 = 40. Quel nombre manque ?;10;13;11;14
+2024;3 + ___ + 9 = 24. Quel nombre manque ?;12;18;9;15
+2025;9 + 1 + ___ = 22. Quel nombre manque ?;12;7;13;14
+2026;20 + ___ + 5 = 29. Quel nombre manque ?;4;3;5;10
+2027;___ + 8 + 12 = 30. Quel nombre manque ?;10;6;4;8
+2028;20 + ___ = 22. Quel nombre manque ?;2;3;1;6
+2029;9 + ___ = 46. Quel nombre manque ?;37;42;31;32
+2030;10 + 6 + ___ = 17. Quel nombre manque ?;1;7;6;4
+2031;___ + 36 = 60. Quel nombre manque ?;24;22;28;27
+2032;___ + 6 = 43. Quel nombre manque ?;37;36;39;32
+2033;10 + ___ + 1 = 19. Quel nombre manque ?;8;10;6;14
+2034;___ + 11 + 6 = 29. Quel nombre manque ?;12;11;15;8
+2035;___ + 12 + 14 = 33. Quel nombre manque ?;7;3;2;5
+2036;___ + 20 = 58. Quel nombre manque ?;38;36;35;42
+2037;10 + 1 + ___ = 26. Quel nombre manque ?;15;18;21;9
+2038;___ + 15 + 15 = 36. Quel nombre manque ?;6;1;5;3
+2039;___ + 21 = 56. Quel nombre manque ?;35;31;33;40
+2040;___ + 30 = 60. Quel nombre manque ?;30;35;29;36
+2041;___ + 1 + 9 = 17. Quel nombre manque ?;7;5;9;13
+2042;___ + 4 + 1 = 19. Quel nombre manque ?;14;11;16;12
+2043;___ + 7 + 3 = 20. Quel nombre manque ?;10;13;14;5
+2044;___ + 34 = 44. Quel nombre manque ?;10;15;4;11
+2045;___ + 11 = 38. Quel nombre manque ?;27;26;30;33
+2046;___ + 12 = 24. Quel nombre manque ?;12;14;15;6
+2047;___ + 30 + 20 = 80. Quel nombre manque ?;30;32;25;34
+2048;___ + 1 + 13 = 15. Quel nombre manque ?;1;7;6;3
+2049;___ + 18 = 30. Quel nombre manque ?;12;18;10;13
+2050;___ + 6 + 7 = 26. Quel nombre manque ?;13;12;17;7
+2051;___ + 32 = 54. Quel nombre manque ?;22;27;18;28
+2052;___ + 33 = 59. Quel nombre manque ?;26;23;29;27
+2053;___ + 5 = 38. Quel nombre manque ?;33;32;37;35
+2054;10 + ___ + 11 = 25. Quel nombre manque ?;4;2;3;0
+2055;___ + 17 = 38. Quel nombre manque ?;21;24;16;27
+2056;___ + 20 + 10 = 50. Quel nombre manque ?;20;18;19;23
+2057;___ + 25 = 58. Quel nombre manque ?;33;32;39;36
+2058;14 + ___ = 35. Quel nombre manque ?;21;22;25;16
+2059;___ + 14 = 22. Quel nombre manque ?;8;2;3;12
+2060;13 + 3 + ___ = 27. Quel nombre manque ?;11;14;10;8
+2061;10 + ___ + 10 = 50. Quel nombre manque ?;30;34;32;35
+2062;9 + ___ + 14 = 32. Quel nombre manque ?;9;8;10;3
+2063;___ + 31 = 71. Quel nombre manque ?;40;38;35;34
+2064;20 + ___ + 15 = 37. Quel nombre manque ?;2;1;7;4
+2065;37 + ___ = 47. Quel nombre manque ?;10;12;15;9
+2066;1 + ___ + 10 = 16. Quel nombre manque ?;5;0;6;8
+2067;13 + 4 + ___ = 25. Quel nombre manque ?;8;9;6;5
+2068;___ + 2 = 19. Quel nombre manque ?;17;22;16;19
+2069;___ + 19 = 26. Quel nombre manque ?;7;4;12;8
+2070;___ - 27 = 35. Quel nombre manque ?;62;65;68;66
+2071;54 - ___ = 8. Quel nombre manque ?;46;47;40;52
+2072;88 - ___ = 1. Quel nombre manque ?;87;88;90;82
+2073;___ - 16 = 22. Quel nombre manque ?;38;36;43;32
+2074;___ - 55 = 42. Quel nombre manque ?;97;92;103;95
+2075;___ - 12 = 10. Quel nombre manque ?;22;28;19;21
+2076;34 - ___ = 14. Quel nombre manque ?;20;25;15;14
+2077;___ - 28 = 18. Quel nombre manque ?;46;48;43;47
+2078;60 - ___ = 15. Quel nombre manque ?;45;48;41;44
+2079;99 - ___ = 48. Quel nombre manque ?;51;56;48;49
+2080;82 - ___ = 14. Quel nombre manque ?;68;64;69;66
+2081;26 - ___ = 4. Quel nombre manque ?;22;17;28;26
+2082;___ - 74 = 10. Quel nombre manque ?;84;80;83;85
+2083;25 - ___ = 0. Quel nombre manque ?;25;20;31;27
+2084;13 - ___ = 13. Quel nombre manque ?;0;3;2;1
+2085;___ - 39 = 44. Quel nombre manque ?;83;78;85;81
+2086;30 - ___ = 18. Quel nombre manque ?;12;18;13;17
+2087;___ - 14 = 32. Quel nombre manque ?;46;47;40;45
+2088;___ - 65 = 27. Quel nombre manque ?;92;86;91;87
+2089;___ - 12 = 17. Quel nombre manque ?;29;28;30;25
+2090;24 - ___ = 1. Quel nombre manque ?;23;21;25;19
+2091;6 - ___ = 3. Quel nombre manque ?;3;0;1;8
+2092;60 - ___ = 7. Quel nombre manque ?;53;48;57;52
+2093;43 - ___ = 23. Quel nombre manque ?;20;15;16;22
+2094;___ - 35 = 14. Quel nombre manque ?;49;54;55;48
+2095;93 - ___ = 72. Quel nombre manque ?;21;23;25;17
+2096;72 - ___ = 43. Quel nombre manque ?;29;28;33;25
+2097;___ - 27 = 62. Quel nombre manque ?;89;91;88;85
+2098;___ - 33 = 5. Quel nombre manque ?;38;35;36;42
+2099;___ - 23 = 31. Quel nombre manque ?;54;50;59;48
+2100;___ - 8 = 16. Quel nombre manque ?;24;22;26;23
+2101;___ - 14 = 11. Quel nombre manque ?;25;24;19;28
+2102;___ - 15 = 13. Quel nombre manque ?;28;29;30;27
+2103;74 - ___ = 72. Quel nombre manque ?;2;3;5;4
+2104;39 - ___ = 38. Quel nombre manque ?;1;7;3;4
+2105;___ - 2 = 52. Quel nombre manque ?;54;48;55;53
+2106;___ - 0 = 21. Quel nombre manque ?;21;17;23;18
+2107;___ - 30 = 20. Quel nombre manque ?;50;44;49;47
+2108;___ - 35 = 17. Quel nombre manque ?;52;51;47;56
+2109;Quel nombre est le plus grand : 4 ou 51 ?;51;4;;
+2110;Quel nombre est le plus petit : 43 ou 23 ?;23;43;;
+2111;Quel nombre est le plus grand : 53 ou 73 ?;73;53;;
+2112;Quel nombre est le plus petit : 58 ou 92 ?;58;92;;
+2113;Quel nombre est le plus petit : 93 ou 27 ?;27;93;;
+2114;Quel nombre est le plus grand : 74 ou 93 ?;93;74;;
+2115;Quel nombre est le plus petit : 20 ou 30 ?;20;30;;
+2116;Quel nombre est le plus petit : 83 ou 24 ?;24;83;;
+2117;Quel nombre est le plus petit : 30 ou 51 ?;30;51;;
+2118;Quel nombre est le plus grand : 39 ou 71 ?;71;39;;
+2119;Quel nombre est le plus petit : 64 ou 90 ?;64;90;;
+2120;Quel nombre est le plus grand : 94 ou 99 ?;99;94;;
+2121;Quel nombre est le plus petit : 27 ou 5 ?;5;27;;
+2122;Quel nombre est le plus grand : 65 ou 97 ?;97;65;;
+2123;Quel nombre est le plus petit : 1 ou 98 ?;1;98;;
+2124;Quel nombre est le plus grand : 89 ou 50 ?;89;50;;
+2125;Quel nombre est le plus petit : 91 ou 82 ?;82;91;;
+2126;Quel nombre est le plus petit : 93 ou 37 ?;37;93;;
+2127;Quel nombre est le plus petit : 71 ou 23 ?;23;71;;
+2128;Quel nombre est le plus grand : 17 ou 96 ?;96;17;;
+2129;Quel nombre est le plus petit : 99 ou 93 ?;93;99;;
+2130;Quel nombre est le plus petit : 55 ou 0 ?;0;55;;
+2131;Quel nombre est le plus grand : 4 ou 24 ?;24;4;;
+2132;Quel nombre est le plus petit : 12 ou 55 ?;12;55;;
+2133;Quel nombre est le plus petit : 77 ou 79 ?;77;79;;
+2134;Quel nombre est le plus grand : 59 ou 40 ?;59;40;;
+2135;Quel nombre est le plus grand : 4 ou 89 ?;89;4;;
+2136;Quel nombre est le plus petit : 65 ou 59 ?;59;65;;
+2137;Quel nombre est le plus petit : 97 ou 46 ?;46;97;;
+2138;Quel nombre est le plus grand : 97 ou 43 ?;97;43;;
+2139;Quel nombre est le plus petit : 4 ou 36 ?;4;36;;
+2140;Quel nombre est le plus petit : 14 ou 98 ?;14;98;;
+2141;Quel nombre est le plus petit : 30 ou 42 ?;30;42;;
+2142;Quel nombre est le plus petit : 13 ou 36 ?;13;36;;
+2143;Quel nombre est le plus petit : 2 ou 78 ?;2;78;;
+2144;Quel nombre est le plus petit : 64 ou 24 ?;24;64;;
+2145;Quel nombre est le plus petit : 78 ou 4 ?;4;78;;
+2146;Quel nombre est le plus grand : 6 ou 49 ?;49;6;;
+2147;Quel nombre est le plus petit : 90 ou 74 ?;74;90;;
+2148;Quel nombre est le plus petit : 13 ou 40 ?;13;40;;
+2149;Quel nombre vient juste avant 90 ?;89;84;90;88
+2150;Quel nombre vient juste après 12 ?;13;16;12;14
+2151;Quel nombre vient juste avant 65 ?;64;62;66;59
+2152;Quel nombre vient juste avant 70 ?;69;66;73;71
+2153;Quel nombre vient juste avant 71 ?;70;67;74;73
+2154;Quel nombre vient juste après 25 ?;26;24;30;29
+2155;Quel nombre vient juste avant 28 ?;27;31;22;25
+2156;Quel nombre vient juste avant 3 ?;2;5;4;7
+2157;Quel nombre vient juste avant 55 ?;54;52;56;59
+2158;Quel nombre vient juste après 26 ?;27;26;30;22
+2159;Quel nombre vient juste après 93 ?;94;93;95;98
+2160;Quel nombre vient juste avant 93 ?;92;90;89;87
+2161;Quel nombre vient juste après 27 ?;28;24;26;23
+2162;Quel nombre vient juste après 20 ?;21;24;25;19
+2163;Quel nombre vient juste après 28 ?;29;24;33;31
+2164;Quel nombre vient juste avant 10 ?;9;12;11;5
+2165;Quel nombre vient juste avant 19 ?;18;16;15;19
+2166;Quel nombre vient juste après 67 ?;68;65;64;67
+2167;Quel nombre vient juste après 44 ?;45;49;40;42
+2168;Quel nombre vient juste après 59 ?;60;63;55;64
+2169;Quel nombre vient juste après 96 ?;97;92;102;101
+2170;Quel nombre vient juste après 91 ?;92;97;88;91
+2171;Quel nombre vient juste avant 17 ?;16;12;11;20
+2172;Quel nombre vient juste avant 40 ?;39;41;36;37
+2173;Quel nombre vient juste après 53 ?;54;58;50;53
+2174;Quel nombre vient juste avant 37 ?;36;40;32;31
+2175;Quel nombre vient juste après 76 ?;77;73;81;74
+2176;Quel nombre vient juste avant 12 ?;11;15;14;9
+2177;Quel nombre vient juste après 92 ?;93;96;89;91
+2178;Quel nombre vient juste après 41 ?;42;40;43;46
+2179;Quel nombre vient juste avant 15 ?;14;10;15;9
+2180;Quel nombre vient juste avant 96 ?;95;93;97;98
+2181;Quel nombre vient juste après 38 ?;39;41;44;34
+2182;Quel nombre vient juste avant 75 ?;74;77;72;73
+2183;Quel nombre vient juste avant 83 ?;82;81;79;87
+2184;7, ___, 27, 37, 47. Quel nombre manque ?;17;18;7;25
+2185;0, ___, 4, 6, 8. Quel nombre manque ?;2;1;4;3
+2186;2, 7, 12, ___, 22. Quel nombre manque ?;17;18;16;23
+2187;8, 13, 18, ___, 28. Quel nombre manque ?;23;29;31;15
+2188;9, 14, 19, ___, 29. Quel nombre manque ?;24;19;16;33
+2189;20, 25, ___, 35, 40. Quel nombre manque ?;30;26;23;36
+2190;15, 20, ___, 30, 35. Quel nombre manque ?;25;26;15;33
+2191;17, 19, 21, ___, 25. Quel nombre manque ?;23;20;26;22
+2192;9, ___, 13, 15, 17. Quel nombre manque ?;11;10;15;8
+2193;5, 10, 15, ___, 25. Quel nombre manque ?;20;12;26;16
+2194;7, 12, ___, 22, 27. Quel nombre manque ?;17;7;18;20
+2195;10, ___, 30, 40, 50. Quel nombre manque ?;20;8;22;30
+2196;2, 12, 22, ___, 42. Quel nombre manque ?;32;16;44;13
+2197;19, 24, ___, 34, 39. Quel nombre manque ?;29;39;22;23
+2198;13, ___, 17, 19, 21. Quel nombre manque ?;15;16;13;19
+2199;1, 6, ___, 16, 21. Quel nombre manque ?;11;17;5;14
+2200;2, ___, 22, 32, 42. Quel nombre manque ?;12;28;3;13
+2201;2, 4, 6, ___, 10. Quel nombre manque ?;8;7;12;6
+2202;5, 7, 9, ___, 13. Quel nombre manque ?;11;15;14;8
+2203;5, 15, ___, 35, 45. Quel nombre manque ?;25;14;30;33
+2204;8, 10, 12, ___, 16. Quel nombre manque ?;14;12;17;18
+2205;19, ___, 23, 25, 27. Quel nombre manque ?;21;19;20;18
+2206;20, ___, 30, 35, 40. Quel nombre manque ?;25;32;33;15
+2207;0, 2, ___, 6, 8. Quel nombre manque ?;4;5;6;1
+2208;9, 11, ___, 15, 17. Quel nombre manque ?;13;15;16;17
+2209;16, 18, ___, 22, 24. Quel nombre manque ?;20;23;19;21
+2210;7, 17, ___, 37, 47. Quel nombre manque ?;27;36;39;41
+2211;0, 10, 20, ___, 40. Quel nombre manque ?;30;32;11;38
+2212;6, ___, 26, 36, 46. Quel nombre manque ?;16;4;3;12
+2213;0, ___, 10, 15, 20. Quel nombre manque ?;5;2;0;6
+2214;3, 13, 23, ___, 43. Quel nombre manque ?;33;30;16;23
+2215;16, 21, 26, ___, 36. Quel nombre manque ?;31;29;36;41
+2216;18, ___, 22, 24, 26. Quel nombre manque ?;20;16;23;21
+2217;17, ___, 21, 23, 25. Quel nombre manque ?;19;15;21;20
+2218;Nino a 8 pommes. Il/elle en donne 1. Combien lui reste-t-il de pommes ?;7;4;1;6
+2219;Maya a 11 pommes. Il/elle en reçoit 9 de plus. Combien Maya a-t-il/elle de pommes maintenant ?;20;18;17;26
+2220;Félix a 9 billes. Il/elle en reçoit 9 de plus. Combien Félix a-t-il/elle de billes maintenant ?;18;23;22;13
+2221;Jules a 17 pommes. Il/elle en donne 9. Combien lui reste-t-il de pommes ?;8;4;12;6
+2222;Léo a 19 jouets. Il/elle en donne 17. Combien lui reste-t-il de jouets ?;2;0;1;7
+2223;Alice a 3 pommes. Il/elle en reçoit 15 de plus. Combien Alice a-t-il/elle de pommes maintenant ?;18;19;23;20
+2224;Chloé a 11 jouets. Il/elle en reçoit 14 de plus. Combien Chloé a-t-il/elle de jouets maintenant ?;25;22;27;24
+2225;Théo a 6 autocollants. Il/elle en donne 5. Combien lui reste-t-il de autocollants ?;1;5;2;3
+2226;Léna a 11 fleurs. Il/elle en reçoit 8 de plus. Combien Léna a-t-il/elle de fleurs maintenant ?;19;14;24;22
+2227;Zoé a 2 cartes. Il/elle en reçoit 10 de plus. Combien Zoé a-t-il/elle de cartes maintenant ?;12;10;7;8
+2228;Lou a 6 bonbons. Il/elle en reçoit 4 de plus. Combien Lou a-t-il/elle de bonbons maintenant ?;10;15;5;14
+2229;Nora a 3 livres. Il/elle en reçoit 6 de plus. Combien Nora a-t-il/elle de livres maintenant ?;9;10;13;12
+2230;Mia a 3 livres. Il/elle en reçoit 14 de plus. Combien Mia a-t-il/elle de livres maintenant ?;17;21;23;15
+2231;Iris a 16 jouets. Il/elle en donne 7. Combien lui reste-t-il de jouets ?;9;10;5;6
+2232;Léo a 16 crayons. Il/elle en donne 10. Combien lui reste-t-il de crayons ?;6;1;10;4
+2233;Mia a 9 jouets. Il/elle en reçoit 13 de plus. Combien Mia a-t-il/elle de jouets maintenant ?;22;26;21;18
+2234;Zoé a 13 billes. Il/elle en donne 8. Combien lui reste-t-il de billes ?;5;8;0;2
+2235;Jules a 13 billes. Il/elle en donne 6. Combien lui reste-t-il de billes ?;7;11;6;10
+2236;Félix a 2 billes. Il/elle en reçoit 1 de plus. Combien Félix a-t-il/elle de billes maintenant ?;3;6;1;7
+2237;Yanis a 18 fleurs. Il/elle en donne 14. Combien lui reste-t-il de fleurs ?;4;2;0;7
+2238;Milo a 4 gâteaux. Il/elle en reçoit 15 de plus. Combien Milo a-t-il/elle de gâteaux maintenant ?;19;17;22;14
+2239;Maya a 4 bananes. Il/elle en reçoit 1 de plus. Combien Maya a-t-il/elle de bananes maintenant ?;5;3;1;10
+2240;Alice a 11 jouets. Il/elle en reçoit 2 de plus. Combien Alice a-t-il/elle de jouets maintenant ?;13;8;16;7
+2241;Léon a 9 pommes. Il/elle en donne 9. Combien lui reste-t-il de pommes ?;0;2;1;3
+2242;Iris a 4 billes. Il/elle en reçoit 7 de plus. Combien Iris a-t-il/elle de billes maintenant ?;11;15;13;12
+2243;Mia a 5 crayons. Il/elle en donne 5. Combien lui reste-t-il de crayons ?;0;3;1;2
+2244;Nino a 12 images. Il/elle en donne 12. Combien lui reste-t-il de images ?;0;2;6;4
+2245;Nino a 7 cartes. Il/elle en donne 4. Combien lui reste-t-il de cartes ?;3;0;8;9
+2246;Hugo a 1 gâteaux. Il/elle en reçoit 9 de plus. Combien Hugo a-t-il/elle de gâteaux maintenant ?;10;15;4;5
+2247;Noah a 9 livres. Il/elle en donne 9. Combien lui reste-t-il de livres ?;0;4;5;3
+2248;Nino a 7 fleurs. Il/elle en reçoit 1 de plus. Combien Nino a-t-il/elle de fleurs maintenant ?;8;2;14;3
+2249;Léo a 17 autocollants. Il/elle en donne 16. Combien lui reste-t-il de autocollants ?;1;0;3;6
+2250;Félix a 20 pommes. Il/elle en donne 17. Combien lui reste-t-il de pommes ?;3;2;5;1
+2251;Maya a 3 bananes. Il/elle en reçoit 13 de plus. Combien Maya a-t-il/elle de bananes maintenant ?;16;17;18;13
+2252;Nora a 11 billes. Il/elle en reçoit 11 de plus. Combien Nora a-t-il/elle de billes maintenant ?;22;28;21;20
+2253;Le nombre 74 est-il pair ou impair ?;pair;impair;;
+2254;Le nombre 88 est-il pair ou impair ?;pair;impair;;
+2255;Le nombre 54 est-il pair ou impair ?;pair;impair;;
+2256;Le nombre 79 est-il pair ou impair ?;impair;pair;;
+2257;Le nombre 25 est-il pair ou impair ?;impair;pair;;
+2258;Le nombre 26 est-il pair ou impair ?;pair;impair;;
+2259;Le nombre 36 est-il pair ou impair ?;pair;impair;;
+2260;Le nombre 65 est-il pair ou impair ?;impair;pair;;
+2261;Le nombre 56 est-il pair ou impair ?;pair;impair;;
+2262;Le nombre 96 est-il pair ou impair ?;pair;impair;;
+2263;Le nombre 59 est-il pair ou impair ?;impair;pair;;
+2264;Le nombre 12 est-il pair ou impair ?;pair;impair;;
+2265;Le nombre 41 est-il pair ou impair ?;impair;pair;;
+2266;Le nombre 58 est-il pair ou impair ?;pair;impair;;
+2267;Le nombre 9 est-il pair ou impair ?;impair;pair;;
+2268;Le nombre 15 est-il pair ou impair ?;impair;pair;;
+2269;Le nombre 40 est-il pair ou impair ?;pair;impair;;
+2270;Le nombre 73 est-il pair ou impair ?;impair;pair;;
+2271;Le nombre 30 est-il pair ou impair ?;pair;impair;;
+2272;Le nombre 92 est-il pair ou impair ?;pair;impair;;
+2273;Combien y a-t-il de dizaines dans le nombre 92 ?;9;7;6;8
+2274;Combien y a-t-il de dizaines dans le nombre 41 ?;4;7;1;3
+2275;Combien y a-t-il d'unités dans le nombre 88 ?;8;5;9;6
+2276;Combien y a-t-il de dizaines dans le nombre 35 ?;3;1;0;4
+2277;Combien y a-t-il d'unités dans le nombre 25 ?;5;8;3;4
+2278;Combien y a-t-il de dizaines dans le nombre 82 ?;8;6;5;7
+2279;Combien y a-t-il d'unités dans le nombre 49 ?;9;7;8;6
+2280;Combien y a-t-il d'unités dans le nombre 94 ?;4;6;7;3
+2281;Combien y a-t-il de dizaines dans le nombre 58 ?;5;7;2;6
+2282;Combien y a-t-il de dizaines dans le nombre 13 ?;1;4;0;2
+2283;Combien y a-t-il d'unités dans le nombre 52 ?;2;3;1;0
+2284;Combien y a-t-il de dizaines dans le nombre 69 ?;6;4;9;7
+2285;Combien y a-t-il d'unités dans le nombre 80 ?;0;2;1;3
+2286;Combien y a-t-il d'unités dans le nombre 41 ?;1;0;3;2
+2287;Combien y a-t-il de dizaines dans le nombre 81 ?;8;6;7;5
+2288;Combien y a-t-il d'unités dans le nombre 72 ?;2;1;5;4
+2289;Combien y a-t-il de dizaines dans le nombre 16 ?;1;3;0;4
+2290;Combien y a-t-il de dizaines dans le nombre 22 ?;2;3;1;0
+2291;Combien y a-t-il de dizaines dans le nombre 74 ?;7;4;5;9
+2292;Combien y a-t-il d'unités dans le nombre 14 ?;4;7;1;2
+2293;Combien de côtés a un rond ?;0;5;3;4
+2294;Combien de côtés a un triangle ?;3;0;5;4
+2295;Combien de côtés a un pentagone ?;5;4;0;3
+2296;Combien de côtés a un cercle ?;0;3;5;4
+2297;Combien de côtés a un rectangle ?;4;0;3;5
+2298;Combien de côtés a un losange ?;4;5;0;3
+2299;Combien de côtés a un carré ?;4;0;5;3
+2300;Quelle est la moitié de 24 ?;12;14;18;13
+2301;Quelle est la moitié de 26 ?;13;11;19;15
+2302;Quel est le double de 16 ?;32;33;26;29
+2303;Quel est le double de 15 ?;30;29;25;27
+2304;Quel est le double de 24 ?;48;42;51;53
+2305;Quelle est la moitié de 30 ?;15;11;13;16
+2306;Quel est le double de 17 ?;34;40;37;38
+2307;Quel est le double de 12 ?;24;30;28;21
+2308;Quel est le double de 23 ?;46;40;51;45
+2309;Quel est le double de 14 ?;28;23;29;25

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://dcx0wbfos003b"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_6vsgf"]
+
+[resource]
+script = ExtResource("1_6vsgf")
+id = &"110"
+category = &"baleine"
+display_name = "Baleine arc-en-ciel"
+grade = 4

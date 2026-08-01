@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://brk76rhoa5fg4"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_kaq0d"]
+
+[resource]
+script = ExtResource("1_kaq0d")
+id = &"49"
+category = &"girafe"
+display_name = "Céleste"
+grade = 3

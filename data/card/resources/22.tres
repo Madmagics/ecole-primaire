@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://df70ic5kau5s8"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_oe0ii"]
+
+[resource]
+script = ExtResource("1_oe0ii")
+id = &"22"
+category = &"hippocampe"
+display_name = "Récif"
+grade = 1

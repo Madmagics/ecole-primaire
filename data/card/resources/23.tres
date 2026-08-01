@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://bga6wm5bmub8m"]
+
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_tguhm"]
+
+[resource]
+script = ExtResource("1_tguhm")
+id = &"23"
+category = &"hippocampe"
+display_name = "Abyssal"
+grade = 2

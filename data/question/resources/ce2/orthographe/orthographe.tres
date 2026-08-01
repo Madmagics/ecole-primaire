@@ -1,0 +1,408 @@
+[gd_resource type="Resource" script_class="QuestionBankResource" format=3 uid="uid://chmdaybnrbwhr"]
+
+[ext_resource type="Script" uid="uid://dfbr3elc3mbig" path="res://data/question/question_resource.gd" id="1_g5wnn"]
+[ext_resource type="Script" uid="uid://c422qc1cinnna" path="res://data/question/question_bank_resource.gd" id="2_bt4o3"]
+
+[sub_resource type="Resource" id="Resource_g5wnn"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "Les enfants ___ mangé leur goûter."
+correct_answer = "ont"
+choices = Array[String](["on", "ons", "en"])
+
+[sub_resource type="Resource" id="Resource_bt4o3"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "___ va jouer dehors."
+correct_answer = "On"
+choices = Array[String](["Ont", "En", "Ons"])
+
+[sub_resource type="Resource" id="Resource_rw4j4"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "Mes parents ___ achète un cadeau."
+correct_answer = "ont"
+choices = Array[String](["on", "ons", "en"])
+
+[sub_resource type="Resource" id="Resource_5m3a0"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "___ ne sait jamais ce qui va arriver."
+correct_answer = "On"
+choices = Array[String](["Ont", "En", "Ons"])
+
+[sub_resource type="Resource" id="Resource_tuiu0"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "Il range ___ affaires (à lui)."
+correct_answer = "ses"
+choices = Array[String](["ces", "c'est", "sait"])
+
+[sub_resource type="Resource" id="Resource_e5lkl"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "Regarde ___ fleurs-la, elles sont belles."
+correct_answer = "ces"
+choices = Array[String](["ses", "c'est", "sait"])
+
+[sub_resource type="Resource" id="Resource_4smmp"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "Elle adore ___ livres (à elle)."
+correct_answer = "ses"
+choices = Array[String](["ces", "c'est", "sait"])
+
+[sub_resource type="Resource" id="Resource_r762s"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "___ enfants jouent dans le parc."
+correct_answer = "Ces"
+choices = Array[String](["Ses", "C'est", "Sait"])
+
+[sub_resource type="Resource" id="Resource_g1pii"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "Je ___ donne un livre (à eux)."
+correct_answer = "leur"
+choices = Array[String](["leurs", "leures", "leure"])
+
+[sub_resource type="Resource" id="Resource_4ryg5"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "Le maître ___ explique la règle."
+correct_answer = "leur"
+choices = Array[String](["leurs", "leures", "leure"])
+
+[sub_resource type="Resource" id="Resource_l8jqq"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "Voici ___ cahiers (à eux)."
+correct_answer = "leurs"
+choices = Array[String](["leur", "leures", "leure"])
+
+[sub_resource type="Resource" id="Resource_1osw5"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "___ heure est-il ?"
+correct_answer = "Quelle"
+choices = Array[String](["Quel", "Qu'elle", "Quels"])
+
+[sub_resource type="Resource" id="Resource_lyyay"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "Je pense ___ est gentille."
+correct_answer = "qu'elle"
+choices = Array[String](["quelle", "quel", "qu'ils"])
+
+[sub_resource type="Resource" id="Resource_0jv5a"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "___ beau jardin !"
+correct_answer = "Quel"
+choices = Array[String](["Quelle", "Qu'elle", "Quels"])
+
+[sub_resource type="Resource" id="Resource_rr5f5"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "Il a perdu ___ casquette (à lui)."
+correct_answer = "sa"
+choices = Array[String](["ça", "sas", "cas"])
+
+[sub_resource type="Resource" id="Resource_ksrr6"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "___ ne me plaît pas du tout."
+correct_answer = "Ça"
+choices = Array[String](["Sa", "Sas", "Cas"])
+
+[sub_resource type="Resource" id="Resource_kymyn"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "Elle porte ___ valise (à elle)."
+correct_answer = "sa"
+choices = Array[String](["ça", "sas", "cas"])
+
+[sub_resource type="Resource" id="Resource_d3jup"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "___ sent très bon dans la cuisine !"
+correct_answer = "Ça"
+choices = Array[String](["Sa", "Sas", "Cas"])
+
+[sub_resource type="Resource" id="Resource_rh0n5"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "Quel est un synonyme de 'beau' ?"
+correct_answer = "joli"
+choices = Array[String](["immense", "minuscule", "grand"])
+
+[sub_resource type="Resource" id="Resource_7xep3"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "Quel est un synonyme de 'commencer' ?"
+correct_answer = "débuter"
+choices = Array[String](["découvrir", "assister", "observer"])
+
+[sub_resource type="Resource" id="Resource_c7ief"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "Quel est un synonyme de 'triste' ?"
+correct_answer = "malheureux"
+choices = Array[String](["minuscule", "grand", "heureux"])
+
+[sub_resource type="Resource" id="Resource_0sxn3"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "Quel est un synonyme de 'parler' ?"
+correct_answer = "discuter"
+choices = Array[String](["découvrir", "assister", "observer"])
+
+[sub_resource type="Resource" id="Resource_lum04"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "Quel est un synonyme de 'trouver' ?"
+correct_answer = "découvrir"
+choices = Array[String](["discuter", "assister", "observer"])
+
+[sub_resource type="Resource" id="Resource_d1vae"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "Quel est un synonyme de 'fatigue' ?"
+correct_answer = "épuisé"
+choices = Array[String](["minuscule", "grand", "immense"])
+
+[sub_resource type="Resource" id="Resource_wv16j"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "Quel est un synonyme de 'content' ?"
+correct_answer = "heureux"
+choices = Array[String](["triste", "grand", "minuscule"])
+
+[sub_resource type="Resource" id="Resource_38o3f"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "Quel est un synonyme de 'aider' ?"
+correct_answer = "assister"
+choices = Array[String](["découvrir", "observer", "discuter"])
+
+[sub_resource type="Resource" id="Resource_r4p5o"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "Quel est le contraire de 'gagner' ?"
+correct_answer = "perdre"
+choices = Array[String](["monter", "descendre", "sortir"])
+
+[sub_resource type="Resource" id="Resource_3jd1l"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "Quel est le contraire de 'aimer' ?"
+correct_answer = "détester"
+choices = Array[String](["perdre", "monter", "sortir"])
+
+[sub_resource type="Resource" id="Resource_ixw7g"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "Quel est le contraire de 'lourd' ?"
+correct_answer = "léger"
+choices = Array[String](["lent", "méchant", "faible"])
+
+[sub_resource type="Resource" id="Resource_fak4w"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "Quel est le contraire de 'plein' ?"
+correct_answer = "vide"
+choices = Array[String](["vieux", "pauvre", "faible"])
+
+[sub_resource type="Resource" id="Resource_sjwb8"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "Quel est le contraire de 'monter' ?"
+correct_answer = "descendre"
+choices = Array[String](["perdre", "entrer", "sortir"])
+
+[sub_resource type="Resource" id="Resource_t74t4"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "Quel est le contraire de 'haut' ?"
+correct_answer = "bas"
+choices = Array[String](["faible", "vieux", "sale"])
+
+[sub_resource type="Resource" id="Resource_ukune"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "Quel est le contraire de 'facile' ?"
+correct_answer = "difficile"
+choices = Array[String](["faible", "lent", "sale"])
+
+[sub_resource type="Resource" id="Resource_shq2a"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "Quel est le contraire de 'clair' ?"
+correct_answer = "sombre"
+choices = Array[String](["sale", "pauvre", "tard"])
+
+[sub_resource type="Resource" id="Resource_qvutj"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "une robe ___ (bleu)"
+correct_answer = "bleue"
+choices = Array[String](["bleu", "bleus", "bleues"])
+
+[sub_resource type="Resource" id="Resource_twpnf"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "des chats ___ (noir)"
+correct_answer = "noirs"
+choices = Array[String](["noir", "noire", "noires"])
+
+[sub_resource type="Resource" id="Resource_urcy1"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "des fleurs ___ (joli)"
+correct_answer = "jolies"
+choices = Array[String](["joli", "jolis", "jolie"])
+
+[sub_resource type="Resource" id="Resource_6mjo5"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "une maison ___ (grand)"
+correct_answer = "grande"
+choices = Array[String](["grand", "grands", "grandes"])
+
+[sub_resource type="Resource" id="Resource_0r803"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "des pommes ___ (vert)"
+correct_answer = "vertes"
+choices = Array[String](["vert", "verts", "verte"])
+
+[sub_resource type="Resource" id="Resource_34oyq"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "un manteau ___ (chaud)"
+correct_answer = "chaud"
+choices = Array[String](["chaude", "chauds", "chaudes"])
+
+[sub_resource type="Resource" id="Resource_8u0yt"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "une histoire ___ (long)"
+correct_answer = "longue"
+choices = Array[String](["long", "longs", "longues"])
+
+[sub_resource type="Resource" id="Resource_aktau"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "des enfants ___ (sage)"
+correct_answer = "sages"
+choices = Array[String](["sage", "sagee", "sagees"])
+
+[sub_resource type="Resource" id="Resource_sjrl6"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "Quel est le pluriel de 'chapeau' ?"
+correct_answer = "chapeaux"
+choices = Array[String](["chapeaus", "chapeaues", "chapeauxx"])
+
+[sub_resource type="Resource" id="Resource_my5o6"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "Quel est le pluriel de 'bateau' ?"
+correct_answer = "bateaux"
+choices = Array[String](["bateaus", "bateaues", "bateauxx"])
+
+[sub_resource type="Resource" id="Resource_2uwr1"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "Quel est le pluriel de 'cheveu' ?"
+correct_answer = "cheveux"
+choices = Array[String](["cheveus", "cheveues", "cheveuxx"])
+
+[sub_resource type="Resource" id="Resource_1v8oy"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "Quel est le pluriel de 'jeu' ?"
+correct_answer = "jeux"
+choices = Array[String](["jeus", "jeues", "jeuxx"])
+
+[sub_resource type="Resource" id="Resource_mixn7"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "Quel est le pluriel de 'gâteau' ?"
+correct_answer = "gâteaux"
+choices = Array[String](["gâteaus", "gâteaues", "gâteauxx"])
+
+[sub_resource type="Resource" id="Resource_o1qgl"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "Quel est le pluriel de 'feu' ?"
+correct_answer = "feux"
+choices = Array[String](["feus", "feues", "feuxx"])
+
+[sub_resource type="Resource" id="Resource_0tpcu"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "Quel est le pluriel de 'château' ?"
+correct_answer = "châteaux"
+choices = Array[String](["châteaus", "châteaues", "châteauxx"])
+
+[sub_resource type="Resource" id="Resource_ncbop"]
+script = ExtResource("1_g5wnn")
+subject = 4
+grade = 2
+text = "Quel est le pluriel de 'neveu' ?"
+correct_answer = "neveux"
+choices = Array[String](["neveus", "neveues", "neveuxx"])
+
+[resource]
+script = ExtResource("2_bt4o3")
+questions = Array[ExtResource("1_g5wnn")]([SubResource("Resource_g5wnn"), SubResource("Resource_bt4o3"), SubResource("Resource_rw4j4"), SubResource("Resource_5m3a0"), SubResource("Resource_tuiu0"), SubResource("Resource_e5lkl"), SubResource("Resource_4smmp"), SubResource("Resource_r762s"), SubResource("Resource_g1pii"), SubResource("Resource_4ryg5"), SubResource("Resource_l8jqq"), SubResource("Resource_1osw5"), SubResource("Resource_lyyay"), SubResource("Resource_0jv5a"), SubResource("Resource_rr5f5"), SubResource("Resource_ksrr6"), SubResource("Resource_kymyn"), SubResource("Resource_d3jup"), SubResource("Resource_rh0n5"), SubResource("Resource_7xep3"), SubResource("Resource_c7ief"), SubResource("Resource_0sxn3"), SubResource("Resource_lum04"), SubResource("Resource_d1vae"), SubResource("Resource_wv16j"), SubResource("Resource_38o3f"), SubResource("Resource_r4p5o"), SubResource("Resource_3jd1l"), SubResource("Resource_ixw7g"), SubResource("Resource_fak4w"), SubResource("Resource_sjwb8"), SubResource("Resource_t74t4"), SubResource("Resource_ukune"), SubResource("Resource_shq2a"), SubResource("Resource_qvutj"), SubResource("Resource_twpnf"), SubResource("Resource_urcy1"), SubResource("Resource_6mjo5"), SubResource("Resource_0r803"), SubResource("Resource_34oyq"), SubResource("Resource_8u0yt"), SubResource("Resource_aktau"), SubResource("Resource_sjrl6"), SubResource("Resource_my5o6"), SubResource("Resource_2uwr1"), SubResource("Resource_1v8oy"), SubResource("Resource_mixn7"), SubResource("Resource_o1qgl"), SubResource("Resource_0tpcu"), SubResource("Resource_ncbop")])

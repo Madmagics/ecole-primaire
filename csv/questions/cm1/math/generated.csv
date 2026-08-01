@@ -1,0 +1,1001 @@
+id;text;correct_answer;choice_2;choice_3;choice_4
+1601;Combien font 86 x 13 ?;1118;1120;1117;1116
+1602;Combien font 22 x 6 ?;132;133;134;137
+1603;Combien font 19 x 13 ?;247;252;249;237
+1604;Combien font 70 x 10 ?;700;705;699;710
+1605;Combien font 59 x 6 ?;354;357;352;356
+1606;Combien font 33 x 18 ?;594;597;584;591
+1607;Combien font 77 x 15 ?;1155;1154;1158;1157
+1608;Combien font 95 x 6 ?;570;572;573;580
+1609;Combien font 61 x 19 ?;1159;1164;1157;1149
+1610;Combien font 60 x 16 ?;960;959;965;961
+1611;Combien font 32 x 3 ?;96;106;97;94
+1612;Combien font 74 x 12 ?;888;891;890;883
+1613;Combien font 20 x 19 ?;380;383;385;379
+1614;Combien font 67 x 10 ?;670;672;665;675
+1615;Combien font 37 x 12 ?;444;447;445;442
+1616;Combien font 28 x 4 ?;112;107;109;122
+1617;Combien font 52 x 3 ?;156;146;159;155
+1618;Combien font 42 x 8 ?;336;341;335;337
+1619;Combien font 88 x 16 ?;1408;1409;1418;1413
+1620;Combien font 81 x 6 ?;486;476;481;496
+1621;Combien font 71 x 5 ?;355;350;354;356
+1622;Combien font 61 x 14 ?;854;849;851;857
+1623;Combien font 36 x 2 ?;72;71;69;62
+1624;Combien font 66 x 14 ?;924;926;914;929
+1625;Combien font 15 x 8 ?;120;123;130;115
+1626;Combien font 63 x 17 ?;1071;1074;1073;1061
+1627;Combien font 73 x 8 ?;584;589;586;594
+1628;Combien font 92 x 15 ?;1380;1378;1390;1379
+1629;Combien font 86 x 17 ?;1462;1452;1459;1461
+1630;Combien font 43 x 17 ?;731;728;734;733
+1631;Dans la division de 125 par 2, quel est le quotient ?;62;59;52;57
+1632;Dans la division de 125 par 2, quel est le reste ?;1;0;4;11
+1633;Dans la division de 169 par 4, quel est le quotient ?;42;45;40;39
+1634;Dans la division de 169 par 4, quel est le reste ?;1;3;2;11
+1635;Dans la division de 103 par 3, quel est le quotient ?;34;39;32;37
+1636;Dans la division de 103 par 3, quel est le reste ?;1;2;0;11
+1637;Dans la division de 124 par 5, quel est le quotient ?;24;34;29;14
+1638;Dans la division de 124 par 5, quel est le reste ?;4;2;7;1
+1639;Dans la division de 15 par 7, quel est le quotient ?;2;0;4;7
+1640;Dans la division de 15 par 7, quel est le reste ?;1;6;3;11
+1641;Dans la division de 68 par 9, quel est le quotient ?;7;2;17;6
+1642;Dans la division de 68 par 9, quel est le reste ?;5;15;0;7
+1643;Dans la division de 122 par 5, quel est le quotient ?;24;21;22;34
+1644;Dans la division de 122 par 5, quel est le reste ?;2;3;5;0
+1645;Dans la division de 127 par 2, quel est le quotient ?;63;53;61;65
+1646;Dans la division de 127 par 2, quel est le reste ?;1;6;0;4
+1647;Dans la division de 79 par 5, quel est le quotient ?;15;13;12;14
+1648;Dans la division de 79 par 5, quel est le reste ?;4;9;6;14
+1649;Dans la division de 37 par 7, quel est le quotient ?;5;15;0;10
+1650;Dans la division de 37 par 7, quel est le reste ?;2;7;1;4
+1651;Dans la division de 109 par 9, quel est le quotient ?;12;22;7;15
+1652;Dans la division de 109 par 9, quel est le reste ?;1;11;6;2
+1653;Dans la division de 67 par 5, quel est le quotient ?;13;3;11;16
+1654;Dans la division de 67 par 5, quel est le reste ?;2;1;5;3
+1655;Dans la division de 197 par 2, quel est le quotient ?;98;97;99;103
+1656;Dans la division de 197 par 2, quel est le reste ?;1;6;11;4
+1657;Dans la division de 104 par 6, quel est le quotient ?;17;15;12;16
+1658;Dans la division de 104 par 6, quel est le reste ?;2;3;12;0
+1659;Dans la division de 144 par 5, quel est le quotient ?;28;25;31;29
+1660;Dans la division de 144 par 5, quel est le reste ?;4;7;2;3
+1661;Quelle fraction est la plus grande : 3/5 ou 1/4 ?;3/5;1/4;;
+1662;Quelle fraction est la plus grande : 3/4 ou 2/5 ?;3/4;2/5;;
+1663;Quelle fraction est la plus grande : 2/3 ou 1/5 ?;2/3;1/5;;
+1664;Quelle fraction est la plus grande : 3/4 ou 1/2 ?;3/4;1/2;;
+1665;Quelle fraction est la plus grande : 3/4 ou 4/5 ?;4/5;3/4;;
+1666;Quelle fraction est la plus grande : 2/3 ou 3/5 ?;2/3;3/5;;
+1667;Quelle fraction est la plus grande : 4/5 ou 1/2 ?;4/5;1/2;;
+1668;Quelle fraction est la plus grande : 1/2 ou 3/4 ?;3/4;1/2;;
+1669;Quelle fraction est la plus grande : 3/5 ou 2/3 ?;2/3;3/5;;
+1670;Quelle fraction est la plus grande : 3/4 ou 1/5 ?;3/4;1/5;;
+1671;Quelle fraction est la plus grande : 1/4 ou 2/3 ?;2/3;1/4;;
+1672;Quelle fraction est la plus grande : 1/4 ou 3/5 ?;3/5;1/4;;
+1673;Quelle fraction est la plus grande : 4/5 ou 1/3 ?;4/5;1/3;;
+1674;Quelle fraction est la plus grande : 1/3 ou 3/4 ?;3/4;1/3;;
+1675;Quelle fraction est la plus grande : 1/2 ou 2/3 ?;2/3;1/2;;
+1676;Quelle fraction est la plus grande : 3/5 ou 1/2 ?;3/5;1/2;;
+1677;Quelle fraction est la plus grande : 3/4 ou 1/3 ?;3/4;1/3;;
+1678;Quelle fraction est la plus grande : 1/3 ou 2/5 ?;2/5;1/3;;
+1679;Quelle fraction est la plus grande : 2/5 ou 1/3 ?;2/5;1/3;;
+1680;Quelle fraction est la plus grande : 4/5 ou 3/4 ?;4/5;3/4;;
+1681;Combien font 5/8 + 1/8 ?;6/8;7/8;5/8;6/9
+1682;Combien font 2/7 + 3/7 ?;5/7;6/7;4/7;5/8
+1683;Combien font 4/9 + 1/9 ?;5/9;6/9;4/9;5/10
+1684;Combien font 3/7 + 2/7 ?;5/7;6/7;4/7;5/8
+1685;Combien font 2/9 + 4/9 ?;6/9;7/9;5/9;6/10
+1686;Combien font 1/6 + 3/6 ?;4/6;5/6;3/6;4/7
+1687;Combien font 1/7 + 3/7 ?;4/7;5/7;3/7;4/8
+1688;Combien font 2/7 + 1/7 ?;3/7;4/7;2/7;3/8
+1689;Combien font 1/9 + 7/9 ?;8/9;9/9;7/9;8/10
+1690;Combien font 1/8 + 3/8 ?;4/8;5/8;3/8;4/9
+1691;Combien font 2/9 + 3/9 ?;5/9;6/9;4/9;5/10
+1692;Combien font 2/9 + 5/9 ?;7/9;8/9;6/9;7/10
+1693;Combien font 4/9 + 2/9 ?;6/9;7/9;5/9;6/10
+1694;Combien font 1/5 + 1/5 ?;2/5;3/5;1/5;2/6
+1695;Combien font 2/6 + 2/6 ?;4/6;5/6;3/6;4/7
+1696;Quels sont les 2/3 de 72 ?;48;43;38;45
+1697;Quels sont les 2/3 de 51 ?;34;32;31;36
+1698;Quels sont les 2/3 de 48 ?;32;33;31;22
+1699;Quels sont les 2/3 de 90 ?;60;59;57;65
+1700;Quels sont les 2/3 de 66 ?;44;45;42;46
+1701;Quels sont les 3/4 de 84 ?;63;66;62;64
+1702;Quels sont les 2/3 de 24 ?;16;13;11;14
+1703;Quels sont les 2/5 de 45 ?;18;23;15;13
+1704;Quels sont les 3/4 de 12 ?;9;19;6;11
+1705;Quels sont les 2/3 de 33 ?;22;32;17;21
+1706;Quels sont les 2/3 de 30 ?;20;19;23;18
+1707;Quels sont les 2/3 de 36 ?;24;34;21;14
+1708;Quels sont les 2/3 de 45 ?;30;32;29;35
+1709;Quels sont les 2/3 de 21 ?;14;4;13;15
+1710;Quels sont les 2/3 de 42 ?;28;31;18;38
+1711;Quel nombre est le plus grand : 1,50 ou 11,23 ?;11,23;1,50;;
+1712;Quel nombre est le plus grand : 1,71 ou 3,1 ?;3,1;1,71;;
+1713;Quel nombre est le plus grand : 1,64 ou 8,56 ?;8,56;1,64;;
+1714;Quel nombre est le plus grand : 1,36 ou 7,34 ?;7,34;1,36;;
+1715;Quel nombre est le plus grand : 1,22 ou 18,23 ?;18,23;1,22;;
+1716;Quel nombre est le plus grand : 1,50 ou 5,78 ?;5,78;1,50;;
+1717;Quel nombre est le plus grand : 1,78 ou 8,56 ?;8,56;1,78;;
+1718;Quel nombre est le plus grand : 1,43 ou 4,67 ?;4,67;1,43;;
+1719;Quel nombre est le plus grand : 1,50 ou 4,67 ?;4,67;1,50;;
+1720;Quel nombre est le plus grand : 1,71 ou 3,67 ?;3,67;1,71;;
+1721;Quel nombre est le plus grand : 1,43 ou 15,1 ?;15,1;1,43;;
+1722;Quel nombre est le plus grand : 1,64 ou 14,45 ?;14,45;1,64;;
+1723;Quel nombre est le plus grand : 1,15 ou 8,23 ?;8,23;1,15;;
+1724;Quel nombre est le plus grand : 1,71 ou 8,1 ?;8,1;1,71;;
+1725;Quel nombre est le plus grand : 1,50 ou 8,89 ?;8,89;1,50;;
+1726;Combien font 6,75 + 2,85 ?;9,60;10,60;8,60;9,70
+1727;Combien font 7,00 + 6,55 ?;13,55;14,55;12,55;13,65
+1728;Combien font 4,25 + 4,70 ?;8,95;9,95;7,95;9,05
+1729;Combien font 8,25 + 15,80 ?;24,05;25,05;23,05;24,15
+1730;Combien font 4,25 + 1,74 ?;5,99;6,99;4,99;6,09
+1731;Combien font 16,50 + 2,11 ?;18,61;19,61;17,61;18,71
+1732;Combien font 14,75 + 15,06 ?;29,81;30,81;28,81;29,91
+1733;Combien font 2,50 + 11,73 ?;14,23;15,23;13,23;14,33
+1734;Combien font 13,25 + 18,02 ?;31,27;32,27;30,27;31,37
+1735;Combien font 15,00 + 3,59 ?;18,59;19,59;17,59;18,69
+1736;Combien font 10,00 + 5,44 ?;15,44;16,44;14,44;15,54
+1737;Combien font 6,00 + 18,39 ?;24,39;25,39;23,39;24,49
+1738;Combien font 19,25 + 7,66 ?;26,91;27,91;25,91;27,01
+1739;Combien font 1,25 + 18,76 ?;20,01;21,01;19,01;20,11
+1740;Combien font 12,50 + 5,44 ?;17,94;18,94;16,94;18,04
+1741;Combien de centimètres dans 3 mètres ?;300;303;302;299
+1742;Combien de centimètres dans 7 mètres ?;700;702;697;695
+1743;Combien de centimètres dans 6 mètres ?;600;610;598;602
+1744;Combien de centimètres dans 2 mètres ?;200;199;197;202
+1745;Combien de centimètres dans 9 mètres ?;900;898;910;901
+1746;Combien de centimètres dans 4 mètres ?;400;397;390;405
+1747;Combien de centimètres dans 5 mètres ?;500;510;490;501
+1748;Combien de centimètres dans 1 mètres ?;100;95;101;97
+1749;Combien de grammes dans 7 kg ?;7000;6997;7001;7005
+1750;Combien de grammes dans 8 kg ?;8000;8005;7990;7998
+1751;Combien de grammes dans 5 kg ?;5000;5005;4995;4999
+1752;Combien de grammes dans 1 kg ?;1000;1003;1001;999
+1753;Combien de grammes dans 4 kg ?;4000;3999;3990;3998
+1754;Combien de grammes dans 6 kg ?;6000;6003;5997;6005
+1755;Combien de grammes dans 3 kg ?;3000;3003;2998;2999
+1756;Combien de minutes dans 6 heures ?;360;362;365;363
+1757;Combien de minutes dans 7 heures ?;420;410;418;419
+1758;Combien de minutes dans 5 heures ?;300;303;305;299
+1759;Combien de minutes dans 8 heures ?;480;485;477;483
+1760;Combien de minutes dans 9 heures ?;540;542;541;530
+1761;Combien de minutes dans 4 heures ?;240;241;242;235
+1762;Combien de minutes dans 1 heures ?;60;70;55;50
+1763;Combien de minutes dans 3 heures ?;180;170;183;182
+1764;Quelle est l'aire, en cm2, d'un rectangle de 16 cm sur 4 cm ?;64;54;65;74
+1765;Quelle est l'aire, en cm2, d'un rectangle de 8 cm sur 5 cm ?;40;50;45;39
+1766;Quelle est l'aire, en cm2, d'un rectangle de 18 cm sur 6 cm ?;108;111;118;98
+1767;Quelle est l'aire, en cm2, d'un rectangle de 15 cm sur 5 cm ?;75;72;76;73
+1768;Quelle est l'aire, en cm2, d'un rectangle de 16 cm sur 3 cm ?;48;49;50;38
+1769;Quelle est l'aire, en cm2, d'un rectangle de 6 cm sur 4 cm ?;24;19;21;23
+1770;Quelle est l'aire, en cm2, d'un rectangle de 17 cm sur 14 cm ?;238;233;237;243
+1771;Quelle est l'aire, en cm2, d'un rectangle de 4 cm sur 4 cm ?;16;13;18;11
+1772;Quelle est l'aire, en cm2, d'un rectangle de 13 cm sur 9 cm ?;117;107;118;127
+1773;Quelle est l'aire, en cm2, d'un rectangle de 19 cm sur 3 cm ?;57;55;47;58
+1774;Quelle est l'aire, en cm2, d'un rectangle de 7 cm sur 2 cm ?;14;11;15;24
+1775;Quelle est l'aire, en cm2, d'un rectangle de 19 cm sur 7 cm ?;133;128;138;143
+1776;Quelle est l'aire, en cm2, d'un rectangle de 16 cm sur 12 cm ?;192;191;189;182
+1777;Quelle est l'aire, en cm2, d'un rectangle de 12 cm sur 3 cm ?;36;33;46;34
+1778;Quelle est l'aire, en cm2, d'un rectangle de 15 cm sur 12 cm ?;180;177;178;190
+1779;Pour 2 stylos, on paie 8 euros. Combien paie-t-on pour 4 stylos ?;16;21;15;19
+1780;Pour 4 stylos, on paie 4 euros. Combien paie-t-on pour 12 stylos ?;12;9;17;14
+1781;Pour 2 stylos, on paie 4 euros. Combien paie-t-on pour 4 stylos ?;8;5;18;7
+1782;Pour 5 stylos, on paie 10 euros. Combien paie-t-on pour 20 stylos ?;40;45;43;30
+1783;Pour 2 stylos, on paie 4 euros. Combien paie-t-on pour 6 stylos ?;12;11;10;7
+1784;Pour 4 stylos, on paie 8 euros. Combien paie-t-on pour 8 stylos ?;16;13;17;26
+1785;Pour 3 stylos, on paie 6 euros. Combien paie-t-on pour 6 stylos ?;12;7;22;11
+1786;Pour 4 stylos, on paie 4 euros. Combien paie-t-on pour 16 stylos ?;16;6;17;19
+1787;Pour 2 stylos, on paie 6 euros. Combien paie-t-on pour 4 stylos ?;12;2;14;17
+1788;Pour 2 stylos, on paie 6 euros. Combien paie-t-on pour 8 stylos ?;24;23;21;26
+1789;Pour 3 stylos, on paie 6 euros. Combien paie-t-on pour 12 stylos ?;24;22;14;27
+1790;Pour 2 stylos, on paie 10 euros. Combien paie-t-on pour 4 stylos ?;20;19;18;10
+1791;Quel est le chiffre des milliers dans 328517 ?;8;9;1;5
+1792;Quel est le chiffre des milliers dans 538721 ?;8;9;1;5
+1793;Quel est le chiffre des dizaines de mille dans 375477 ?;7;8;0;4
+1794;Quel est le chiffre des centaines de mille dans 661444 ?;6;7;9;3
+1795;Quel est le chiffre des milliers dans 983872 ?;3;4;6;0
+1796;Quel est le chiffre des unités dans 490965 ?;5;6;8;2
+1797;Quel est le chiffre des dizaines dans 291091 ?;9;0;2;6
+1798;Quel est le chiffre des dizaines dans 339528 ?;2;3;5;9
+1799;Quel est le chiffre des centaines dans 63613 ?;6;7;9;3
+1800;Quel est le chiffre des dizaines de mille dans 894001 ?;9;0;2;6
+5000;Combien font 28 x 9 ?;252;256;260;251
+5001;Combien font 18 x 11 ?;198;210;206;197
+5002;Combien font 96 x 12 ?;1152;1162;1164;1148
+5003;Combien font 33 x 4 ?;132;124;126;138
+5004;Combien font 83 x 13 ?;1079;1085;1086;1067
+5005;Combien font 81 x 5 ?;405;414;406;407
+5006;Combien font 78 x 9 ?;702;691;714;693
+5007;Combien font 90 x 4 ?;360;368;349;361
+5008;Combien font 60 x 19 ?;1140;1149;1143;1133
+5009;Combien font 77 x 20 ?;1540;1552;1529;1546
+5010;Combien font 96 x 8 ?;768;758;764;760
+5011;Combien font 73 x 4 ?;292;304;298;293
+5012;Combien font 80 x 18 ?;1440;1452;1444;1451
+5013;Combien font 97 x 4 ?;388;392;385;391
+5014;Combien font 63 x 2 ?;126;121;116;129
+5015;Combien font 36 x 6 ?;216;221;205;212
+5016;Combien font 99 x 17 ?;1683;1692;1675;1674
+5017;Combien font 19 x 9 ?;171;176;162;180
+5018;Combien font 38 x 7 ?;266;271;260;270
+5019;Combien font 77 x 4 ?;308;310;307;304
+5020;Combien font 52 x 19 ?;988;995;992;984
+5021;Combien font 56 x 20 ?;1120;1122;1113;1114
+5022;Combien font 40 x 18 ?;720;715;718;724
+5023;Combien font 67 x 19 ?;1273;1261;1280;1282
+5024;Combien font 14 x 17 ?;238;233;229;246
+5025;Combien font 15 x 13 ?;195;185;199;196
+5026;Combien font 73 x 6 ?;438;448;441;439
+5027;Combien font 67 x 7 ?;469;460;479;478
+5028;Combien font 89 x 9 ?;801;792;808;804
+5029;Combien font 98 x 20 ?;1960;1950;1956;1959
+5030;Combien font 28 x 8 ?;224;234;232;216
+5031;Combien font 84 x 5 ?;420;416;419;411
+5032;Combien font 77 x 9 ?;693;700;690;704
+5033;Combien font 81 x 8 ?;648;641;646;637
+5034;Combien font 18 x 9 ?;162;173;170;169
+5035;Combien font 72 x 11 ?;792;797;782;802
+5036;Combien font 23 x 20 ?;460;458;469;468
+5037;Combien font 79 x 12 ?;948;952;939;953
+5038;Combien font 96 x 9 ?;864;854;863;872
+5039;Combien font 86 x 4 ?;344;333;341;345
+5040;Combien font 38 x 5 ?;190;178;194;196
+5041;Combien font 24 x 11 ?;264;255;267;274
+5042;Combien font 39 x 20 ?;780;781;790;775
+5043;Combien font 62 x 15 ?;930;926;935;918
+5044;Combien font 19 x 2 ?;38;28;45;40
+5045;Combien font 63 x 15 ?;945;937;940;955
+5046;Combien font 62 x 12 ?;744;747;742;749
+5047;Combien font 49 x 13 ?;637;644;642;633
+5048;Combien font 54 x 13 ?;702;709;695;693
+5049;Combien font 99 x 14 ?;1386;1375;1378;1374
+5050;Combien font 18 x 5 ?;90;85;80;78
+5051;Combien font 21 x 7 ?;147;156;143;151
+5052;Combien font 13 x 17 ?;221;211;209;232
+5053;Combien font 42 x 14 ?;588;597;590;598
+5054;Combien font 89 x 15 ?;1335;1328;1332;1326
+5055;Combien font 90 x 9 ?;810;814;819;818
+5056;Combien font 61 x 8 ?;488;491;481;500
+5057;Combien font 25 x 17 ?;425;416;422;413
+5058;Combien font 65 x 14 ?;910;900;906;908
+5059;Combien font 64 x 17 ?;1088;1094;1087;1092
+5060;Combien font 94 x 17 ?;1598;1603;1599;1608
+5061;Combien font 13 x 3 ?;39;34;40;49
+5062;Combien font 85 x 18 ?;1530;1522;1524;1529
+5063;Combien font 16 x 16 ?;256;255;265;251
+5064;Combien font 10 x 15 ?;150;148;142;138
+5065;Combien font 46 x 17 ?;782;771;777;770
+5066;Combien font 97 x 18 ?;1746;1742;1738;1735
+5067;Combien font 73 x 10 ?;730;739;724;737
+5068;Combien font 38 x 2 ?;76;65;88;75
+5069;Combien font 30 x 15 ?;450;448;462;456
+5070;Combien font 51 x 13 ?;663;665;672;653
+5071;Combien font 97 x 17 ?;1649;1648;1646;1655
+5072;Combien font 13 x 6 ?;78;73;74;67
+5073;Combien font 24 x 16 ?;384;393;396;378
+5074;Combien font 47 x 13 ?;611;619;610;621
+5075;Combien font 14 x 2 ?;28;37;36;34
+5076;Combien font 56 x 16 ?;896;886;893;890
+5077;Combien font 33 x 16 ?;528;526;536;530
+5078;Combien font 79 x 11 ?;869;874;880;876
+5079;Combien font 22 x 16 ?;352;348;353;347
+5080;Combien font 35 x 13 ?;455;463;466;450
+5081;Combien font 58 x 6 ?;348;342;360;338
+5082;Combien font 12 x 15 ?;180;174;181;191
+5083;Combien font 90 x 7 ?;630;641;642;619
+5084;Combien font 91 x 20 ?;1820;1808;1822;1811
+5085;Combien font 41 x 15 ?;615;627;607;622
+5086;Combien font 69 x 6 ?;414;420;412;422
+5087;Combien font 79 x 20 ?;1580;1592;1572;1575
+5088;Combien font 18 x 19 ?;342;345;349;331
+5089;Combien font 89 x 2 ?;178;182;186;173
+5090;Dans la division de 145 par 3, quel est le quotient ?;48;54;45;49
+5091;Dans la division de 145 par 3, quel est le reste ?;1;3;0;2
+5092;Dans la division de 333 par 6, quel est le quotient ?;55;52;53;49
+5093;Dans la division de 333 par 6, quel est le reste ?;3;5;0;1
+5094;Dans la division de 113 par 2, quel est le quotient ?;56;50;61;59
+5095;Dans la division de 113 par 2, quel est le reste ?;1;4;2;0
+5096;Dans la division de 154 par 3, quel est le quotient ?;51;57;50;55
+5097;Dans la division de 154 par 3, quel est le reste ?;1;3;2;0
+5098;Dans la division de 41 par 3, quel est le quotient ?;13;16;8;11
+5099;Dans la division de 41 par 3, quel est le reste ?;2;5;3;4
+5100;Dans la division de 199 par 8, quel est le quotient ?;24;23;26;19
+5101;Dans la division de 199 par 8, quel est le reste ?;7;6;9;4
+5102;Dans la division de 293 par 6, quel est le quotient ?;48;50;43;46
+5103;Dans la division de 293 par 6, quel est le reste ?;5;2;6;8
+5104;Dans la division de 348 par 7, quel est le quotient ?;49;54;48;52
+5105;Dans la division de 348 par 7, quel est le reste ?;5;3;8;6
+5106;Dans la division de 107 par 2, quel est le quotient ?;53;50;57;51
+5107;Dans la division de 107 par 2, quel est le reste ?;1;2;4;3
+5108;Dans la division de 165 par 5, quel est le quotient ?;33;38;31;32
+5109;Dans la division de 165 par 5, quel est le reste ?;0;2;4;3
+5110;Dans la division de 141 par 3, quel est le quotient ?;47;49;42;46
+5111;Dans la division de 141 par 3, quel est le reste ?;0;3;1;2
+5112;Dans la division de 37 par 2, quel est le quotient ?;18;23;16;20
+5113;Dans la division de 37 par 2, quel est le reste ?;1;2;4;0
+5114;Dans la division de 135 par 5, quel est le quotient ?;27;31;26;21
+5115;Dans la division de 135 par 5, quel est le reste ?;0;2;3;4
+5116;Dans la division de 37 par 8, quel est le quotient ?;4;2;9;1
+5117;Dans la division de 37 par 8, quel est le reste ?;5;2;8;4
+5118;Dans la division de 22 par 7, quel est le quotient ?;3;1;0;5
+5119;Dans la division de 22 par 7, quel est le reste ?;1;0;3;4
+5120;Dans la division de 251 par 7, quel est le quotient ?;35;29;39;40
+5121;Dans la division de 251 par 7, quel est le reste ?;6;5;1;9
+5122;Dans la division de 42 par 4, quel est le quotient ?;10;13;8;11
+5123;Dans la division de 42 par 4, quel est le reste ?;2;0;4;3
+5124;Dans la division de 240 par 4, quel est le quotient ?;60;65;59;54
+5125;Dans la division de 240 par 4, quel est le reste ?;0;2;3;1
+5126;Dans la division de 173 par 3, quel est le quotient ?;57;62;54;60
+5127;Dans la division de 173 par 3, quel est le reste ?;2;0;3;5
+5128;Dans la division de 17 par 2, quel est le quotient ?;8;13;9;6
+5129;Dans la division de 17 par 2, quel est le reste ?;1;2;4;0
+5130;Dans la division de 274 par 9, quel est le quotient ?;30;33;31;29
+5131;Dans la division de 274 par 9, quel est le reste ?;4;8;7;2
+5132;Dans la division de 80 par 9, quel est le quotient ?;8;12;5;6
+5133;Dans la division de 80 par 9, quel est le reste ?;8;4;6;10
+5134;Dans la division de 83 par 3, quel est le quotient ?;27;23;29;32
+5135;Dans la division de 83 par 3, quel est le reste ?;2;0;3;4
+5136;Dans la division de 61 par 2, quel est le quotient ?;30;26;33;36
+5137;Dans la division de 61 par 2, quel est le reste ?;1;0;2;3
+5138;Dans la division de 45 par 2, quel est le quotient ?;22;19;28;21
+5139;Dans la division de 45 par 2, quel est le reste ?;1;2;4;3
+5140;Dans la division de 81 par 7, quel est le quotient ?;11;14;13;15
+5141;Dans la division de 81 par 7, quel est le reste ?;4;2;3;6
+5142;Dans la division de 155 par 5, quel est le quotient ?;31;37;32;33
+5143;Dans la division de 155 par 5, quel est le reste ?;0;2;1;3
+5144;Dans la division de 14 par 4, quel est le quotient ?;3;5;1;0
+5145;Dans la division de 14 par 4, quel est le reste ?;2;5;0;4
+5146;Dans la division de 133 par 3, quel est le quotient ?;44;46;47;45
+5147;Dans la division de 133 par 3, quel est le reste ?;1;4;0;3
+5148;Dans la division de 282 par 7, quel est le quotient ?;40;44;45;35
+5149;Dans la division de 282 par 7, quel est le reste ?;2;0;1;5
+5150;Dans la division de 152 par 3, quel est le quotient ?;50;48;54;52
+5151;Dans la division de 152 par 3, quel est le reste ?;2;1;5;3
+5152;Dans la division de 90 par 3, quel est le quotient ?;30;31;28;24
+5153;Dans la division de 90 par 3, quel est le reste ?;0;3;1;2
+5154;Dans la division de 92 par 6, quel est le quotient ?;15;18;16;21
+5155;Dans la division de 92 par 6, quel est le reste ?;2;4;1;3
+5156;Dans la division de 245 par 6, quel est le quotient ?;40;34;43;41
+5157;Dans la division de 245 par 6, quel est le reste ?;5;8;2;1
+5158;Dans la division de 273 par 5, quel est le quotient ?;54;58;57;56
+5159;Dans la division de 273 par 5, quel est le reste ?;3;5;1;4
+5160;Dans la division de 124 par 4, quel est le quotient ?;31;26;30;35
+5161;Dans la division de 124 par 4, quel est le reste ?;0;1;3;2
+5162;Dans la division de 257 par 5, quel est le quotient ?;51;49;54;50
+5163;Dans la division de 257 par 5, quel est le reste ?;2;0;1;3
+5164;Dans la division de 27 par 8, quel est le quotient ?;3;8;5;7
+5165;Dans la division de 27 par 8, quel est le reste ?;3;2;7;0
+5166;Dans la division de 105 par 3, quel est le quotient ?;35;32;39;33
+5167;Dans la division de 105 par 3, quel est le reste ?;0;2;3;1
+5168;Dans la division de 420 par 7, quel est le quotient ?;60;66;59;57
+5169;Dans la division de 420 par 7, quel est le reste ?;0;5;1;4
+5170;Quelle fraction est la plus grande : 3/5 ou 5/7 ?;5/7;3/5;;
+5171;Quelle fraction est la plus grande : 2/4 ou 5/6 ?;5/6;2/4;;
+5172;Quelle fraction est la plus grande : 1/3 ou 2/7 ?;1/3;2/7;;
+5173;Quelle fraction est la plus grande : 4/5 ou 4/7 ?;4/5;4/7;;
+5174;Quelle fraction est la plus grande : 7/9 ou 3/4 ?;7/9;3/4;;
+5175;Quelle fraction est la plus grande : 4/5 ou 1/7 ?;4/5;1/7;;
+5176;Quelle fraction est la plus grande : 3/7 ou 7/9 ?;7/9;3/7;;
+5177;Quelle fraction est la plus grande : 2/6 ou 5/6 ?;5/6;2/6;;
+5178;Quelle fraction est la plus grande : 5/9 ou 2/8 ?;5/9;2/8;;
+5179;Quelle fraction est la plus grande : 1/3 ou 1/9 ?;1/3;1/9;;
+5180;Quelle fraction est la plus grande : 3/6 ou 1/5 ?;3/6;1/5;;
+5181;Quelle fraction est la plus grande : 1/8 ou 2/3 ?;2/3;1/8;;
+5182;Quelle fraction est la plus grande : 3/7 ou 5/6 ?;5/6;3/7;;
+5183;Quelle fraction est la plus grande : 4/7 ou 1/8 ?;4/7;1/8;;
+5184;Quelle fraction est la plus grande : 2/3 ou 3/7 ?;2/3;3/7;;
+5185;Quelle fraction est la plus grande : 1/2 ou 2/7 ?;1/2;2/7;;
+5186;Quelle fraction est la plus grande : 2/9 ou 1/5 ?;2/9;1/5;;
+5187;Quelle fraction est la plus grande : 8/9 ou 2/3 ?;8/9;2/3;;
+5188;Quelle fraction est la plus grande : 2/5 ou 2/7 ?;2/5;2/7;;
+5189;Quelle fraction est la plus grande : 1/2 ou 6/7 ?;6/7;1/2;;
+5190;Quelle fraction est la plus grande : 1/2 ou 7/8 ?;7/8;1/2;;
+5191;Quelle fraction est la plus grande : 2/6 ou 4/8 ?;4/8;2/6;;
+5192;Quelle fraction est la plus grande : 3/9 ou 2/5 ?;2/5;3/9;;
+5193;Quelle fraction est la plus grande : 3/4 ou 3/7 ?;3/4;3/7;;
+5194;Quelle fraction est la plus grande : 2/8 ou 7/8 ?;7/8;2/8;;
+5195;Quelle fraction est la plus grande : 4/7 ou 4/5 ?;4/5;4/7;;
+5196;Quelle fraction est la plus grande : 2/4 ou 4/5 ?;4/5;2/4;;
+5197;Quelle fraction est la plus grande : 5/7 ou 3/4 ?;3/4;5/7;;
+5198;Quelle fraction est la plus grande : 2/7 ou 6/8 ?;6/8;2/7;;
+5199;Quelle fraction est la plus grande : 3/7 ou 4/7 ?;4/7;3/7;;
+5200;Quelle fraction est la plus grande : 6/8 ou 1/2 ?;6/8;1/2;;
+5201;Quelle fraction est la plus grande : 3/4 ou 3/5 ?;3/4;3/5;;
+5202;Quelle fraction est la plus grande : 1/5 ou 6/7 ?;6/7;1/5;;
+5203;Quelle fraction est la plus grande : 1/8 ou 1/6 ?;1/6;1/8;;
+5204;Quelle fraction est la plus grande : 4/5 ou 2/3 ?;4/5;2/3;;
+5205;Quelle fraction est la plus grande : 2/4 ou 5/8 ?;5/8;2/4;;
+5206;Quelle fraction est la plus grande : 2/4 ou 8/9 ?;8/9;2/4;;
+5207;Quelle fraction est la plus grande : 1/2 ou 4/7 ?;4/7;1/2;;
+5208;Quelle fraction est la plus grande : 5/6 ou 3/6 ?;5/6;3/6;;
+5209;Quelle fraction est la plus grande : 1/2 ou 5/7 ?;5/7;1/2;;
+5210;Quelle fraction est la plus grande : 2/4 ou 1/4 ?;2/4;1/4;;
+5211;Quelle fraction est la plus grande : 1/2 ou 3/9 ?;1/2;3/9;;
+5212;Quelle fraction est la plus grande : 4/9 ou 4/8 ?;4/8;4/9;;
+5213;Quelle fraction est la plus grande : 1/3 ou 4/6 ?;4/6;1/3;;
+5214;Quelle fraction est la plus grande : 1/2 ou 1/3 ?;1/2;1/3;;
+5215;Quelle fraction est la plus grande : 7/8 ou 2/4 ?;7/8;2/4;;
+5216;Quelle fraction est la plus grande : 3/5 ou 2/6 ?;3/5;2/6;;
+5217;Quelle fraction est la plus grande : 3/7 ou 1/3 ?;3/7;1/3;;
+5218;Quelle fraction est la plus grande : 1/7 ou 1/6 ?;1/6;1/7;;
+5219;Quelle fraction est la plus grande : 2/3 ou 4/8 ?;2/3;4/8;;
+5220;Quelle fraction est la plus grande : 1/7 ou 2/5 ?;2/5;1/7;;
+5221;Quelle fraction est la plus grande : 3/4 ou 3/6 ?;3/4;3/6;;
+5222;Quelle fraction est la plus grande : 1/8 ou 5/6 ?;5/6;1/8;;
+5223;Quelle fraction est la plus grande : 2/3 ou 2/5 ?;2/3;2/5;;
+5224;Quelle fraction est la plus grande : 6/7 ou 5/9 ?;6/7;5/9;;
+5225;Quelle fraction est la plus grande : 1/2 ou 7/9 ?;7/9;1/2;;
+5226;Quelle fraction est la plus grande : 6/8 ou 2/9 ?;6/8;2/9;;
+5227;Quelle fraction est la plus grande : 4/8 ou 1/7 ?;4/8;1/7;;
+5228;Quelle fraction est la plus grande : 5/6 ou 3/9 ?;5/6;3/9;;
+5229;Quelle fraction est la plus grande : 5/6 ou 1/7 ?;5/6;1/7;;
+5230;Combien font 14/15 + 1/15 ?;15/15;16/15;14/15;15/16
+5231;Combien font 8/13 + 3/13 ?;11/13;12/13;10/13;11/14
+5232;Combien font 5/13 + 3/13 ?;8/13;9/13;7/13;8/14
+5233;Combien font 11/15 + 1/15 ?;12/15;13/15;11/15;12/16
+5234;Combien font 3/14 + 5/14 ?;8/14;9/14;7/14;8/15
+5235;Combien font 2/8 + 6/8 ?;8/8;9/8;7/8;8/9
+5236;Combien font 2/4 + 1/4 ?;3/4;4/4;2/4;3/5
+5237;Combien font 6/13 + 4/13 ?;10/13;11/13;9/13;10/14
+5238;Combien font 7/14 + 6/14 ?;13/14;14/14;12/14;13/15
+5239;Combien font 7/11 + 1/11 ?;8/11;9/11;7/11;8/12
+5240;Combien font 7/14 + 2/14 ?;9/14;10/14;8/14;9/15
+5241;Combien font 5/9 + 3/9 ?;8/9;9/9;7/9;8/10
+5242;Combien font 5/11 + 3/11 ?;8/11;9/11;7/11;8/12
+5243;Combien font 3/11 + 5/11 ?;8/11;9/11;7/11;8/12
+5244;Combien font 1/4 + 3/4 ?;4/4;5/4;3/4;4/5
+5245;Combien font 12/14 + 2/14 ?;14/14;15/14;13/14;14/15
+5246;Combien font 3/4 + 1/4 ?;4/4;5/4;3/4;4/5
+5247;Combien font 1/6 + 1/6 ?;2/6;3/6;1/6;2/7
+5248;Combien font 10/14 + 3/14 ?;13/14;14/14;12/14;13/15
+5249;Combien font 8/9 + 1/9 ?;9/9;10/9;8/9;9/10
+5250;Combien font 9/14 + 5/14 ?;14/14;15/14;13/14;14/15
+5251;Combien font 3/10 + 5/10 ?;8/10;9/10;7/10;8/11
+5252;Combien font 2/7 + 5/7 ?;7/7;8/7;6/7;7/8
+5253;Combien font 6/7 + 1/7 ?;7/7;8/7;6/7;7/8
+5254;Combien font 9/12 + 2/12 ?;11/12;12/12;10/12;11/13
+5255;Combien font 3/6 + 2/6 ?;5/6;6/6;4/6;5/7
+5256;Combien font 6/10 + 2/10 ?;8/10;9/10;7/10;8/11
+5257;Combien font 7/8 + 1/8 ?;8/8;9/8;7/8;8/9
+5258;Combien font 6/9 + 1/9 ?;7/9;8/9;6/9;7/10
+5259;Combien font 10/14 + 4/14 ?;14/14;15/14;13/14;14/15
+5260;Combien font 8/10 + 2/10 ?;10/10;11/10;9/10;10/11
+5261;Combien font 5/12 + 7/12 ?;12/12;13/12;11/12;12/13
+5262;Combien font 2/5 + 2/5 ?;4/5;5/5;3/5;4/6
+5263;Combien font 4/5 + 1/5 ?;5/5;6/5;4/5;5/6
+5264;Combien font 10/14 + 2/14 ?;12/14;13/14;11/14;12/15
+5265;Combien font 4/10 + 4/10 ?;8/10;9/10;7/10;8/11
+5266;Combien font 3/9 + 6/9 ?;9/9;10/9;8/9;9/10
+5267;Combien font 3/5 + 2/5 ?;5/5;6/5;4/5;5/6
+5268;Combien font 1/7 + 2/7 ?;3/7;4/7;2/7;3/8
+5269;Combien font 10/11 + 1/11 ?;11/11;12/11;10/11;11/12
+5270;Combien font 8/11 + 2/11 ?;10/11;11/11;9/11;10/12
+5271;Combien font 6/8 + 2/8 ?;8/8;9/8;7/8;8/9
+5272;Combien font 1/4 + 1/4 ?;2/4;3/4;1/4;2/5
+5273;Combien font 5/6 + 1/6 ?;6/6;7/6;5/6;6/7
+5274;Combien font 2/11 + 7/11 ?;9/11;10/11;8/11;9/12
+5275;Combien font 7/12 + 5/12 ?;12/12;13/12;11/12;12/13
+5276;Combien font 3/7 + 4/7 ?;7/7;8/7;6/7;7/8
+5277;Combien font 8/10 + 1/10 ?;9/10;10/10;8/10;9/11
+5278;Combien font 1/5 + 3/5 ?;4/5;5/5;3/5;4/6
+5279;Combien font 3/7 + 1/7 ?;4/7;5/7;3/7;4/8
+5280;Combien font 3/7 + 3/7 ?;6/7;7/7;5/7;6/8
+5281;Combien font 13/15 + 2/15 ?;15/15;16/15;14/15;15/16
+5282;Combien font 4/6 + 2/6 ?;6/6;7/6;5/6;6/7
+5283;Combien font 9/13 + 3/13 ?;12/13;13/13;11/13;12/14
+5284;Combien font 4/10 + 1/10 ?;5/10;6/10;4/10;5/11
+5285;Combien font 8/15 + 3/15 ?;11/15;12/15;10/15;11/16
+5286;Combien font 1/7 + 1/7 ?;2/7;3/7;1/7;2/8
+5287;Combien font 4/11 + 6/11 ?;10/11;11/11;9/11;10/12
+5288;Combien font 6/15 + 8/15 ?;14/15;15/15;13/15;14/16
+5289;Combien font 8/14 + 3/14 ?;11/14;12/14;10/14;11/15
+5290;Quels sont les 1/5 de 30 ?;6;13;2;11
+5291;Quels sont les 3/4 de 72 ?;54;52;47;53
+5292;Quels sont les 3/4 de 36 ?;27;22;31;24
+5293;Quels sont les 7/10 de 180 ?;126;122;129;127
+5294;Quels sont les 1/6 de 6 ?;1;9;2;7
+5295;Quels sont les 1/6 de 120 ?;20;13;22;28
+5296;Quels sont les 1/5 de 80 ?;16;15;17;8
+5297;Quels sont les 7/9 de 153 ?;119;116;118;120
+5298;Quels sont les 2/5 de 20 ?;8;5;3;7
+5299;Quels sont les 2/3 de 27 ?;18;21;20;23
+5300;Quels sont les 3/5 de 85 ?;51;48;50;44
+5301;Quels sont les 7/10 de 130 ?;91;88;99;94
+5302;Quels sont les 7/10 de 70 ?;49;57;50;53
+5303;Quels sont les 1/6 de 60 ?;10;13;18;3
+5304;Quels sont les 1/4 de 24 ?;6;11;14;0
+5305;Quels sont les 1/6 de 54 ?;9;7;12;13
+5306;Quels sont les 1/5 de 55 ?;11;19;18;9
+5307;Quels sont les 3/10 de 150 ?;45;47;37;41
+5308;Quels sont les 1/2 de 36 ?;18;15;12;16
+5309;Quels sont les 3/4 de 24 ?;18;15;14;20
+5310;Quels sont les 5/6 de 90 ?;75;68;71;77
+5311;Quels sont les 1/3 de 3 ?;1;4;2;0
+5312;Quels sont les 3/10 de 10 ?;3;10;0;2
+5313;Quels sont les 1/4 de 64 ?;16;12;21;18
+5314;Quels sont les 1/4 de 68 ?;17;19;24;10
+5315;Quels sont les 1/3 de 6 ?;2;0;5;1
+5316;Quels sont les 5/6 de 66 ?;55;61;57;59
+5317;Quels sont les 1/6 de 42 ?;7;5;14;15
+5318;Quels sont les 1/2 de 10 ?;5;2;3;9
+5319;Quels sont les 1/2 de 4 ?;2;10;9;0
+5320;Quels sont les 1/3 de 51 ?;17;16;11;19
+5321;Quels sont les 5/6 de 54 ?;45;44;49;47
+5322;Quels sont les 1/3 de 45 ?;15;19;8;7
+5323;Quels sont les 1/5 de 100 ?;20;25;22;28
+5324;Quels sont les 3/10 de 50 ?;15;7;10;11
+5325;Quels sont les 3/10 de 170 ?;51;44;46;45
+5326;Quels sont les 1/5 de 65 ?;13;15;6;16
+5327;Quels sont les 1/2 de 28 ?;14;19;11;13
+5328;Quels sont les 5/6 de 102 ?;85;90;84;78
+5329;Quels sont les 5/6 de 36 ?;30;28;34;38
+5330;Quels sont les 3/10 de 40 ?;12;8;15;7
+5331;Quels sont les 2/3 de 3 ?;2;5;1;8
+5332;Quels sont les 3/10 de 70 ?;21;15;29;19
+5333;Quels sont les 5/6 de 120 ?;100;99;96;104
+5334;Quels sont les 1/5 de 90 ?;18;19;25;26
+5335;Quels sont les 1/2 de 6 ?;3;7;10;8
+5336;Quels sont les 3/5 de 65 ?;39;31;41;34
+5337;Quels sont les 7/9 de 36 ?;28;26;36;30
+5338;Quels sont les 2/9 de 90 ?;20;12;19;27
+5339;Quels sont les 1/2 de 8 ?;4;6;8;9
+5340;Quels sont les 7/10 de 20 ?;14;17;12;6
+5341;Quels sont les 5/6 de 24 ?;20;13;12;21
+5342;Quels sont les 1/2 de 30 ?;15;23;9;18
+5343;Quels sont les 7/10 de 110 ?;77;81;79;84
+5344;Quels sont les 7/9 de 117 ?;91;94;88;99
+5345;Quels sont les 1/3 de 18 ?;6;14;12;4
+5346;Quels sont les 7/9 de 63 ?;49;57;44;51
+5347;Quels sont les 3/10 de 80 ?;24;17;26;28
+5348;Quels sont les 1/3 de 24 ?;8;3;0;10
+5349;Quels sont les 3/5 de 45 ?;27;34;29;31
+5350;Quel nombre est le plus grand : 25,02 ou 18,55 ?;25,02;18,55;;
+5351;Quel nombre est le plus grand : 17,38 ou 5,18 ?;17,38;5,18;;
+5352;Quel nombre est le plus grand : 17,71 ou 21,28 ?;21,28;17,71;;
+5353;Quel nombre est le plus grand : 7,71 ou 13,82 ?;13,82;7,71;;
+5354;Quel nombre est le plus grand : 9,51 ou 5,03 ?;9,51;5,03;;
+5355;Quel nombre est le plus grand : 14,28 ou 12,27 ?;14,28;12,27;;
+5356;Quel nombre est le plus grand : 19,41 ou 16,77 ?;19,41;16,77;;
+5357;Quel nombre est le plus grand : 0,78 ou 16,59 ?;16,59;0,78;;
+5358;Quel nombre est le plus grand : 8,43 ou 1,77 ?;8,43;1,77;;
+5359;Quel nombre est le plus grand : 16,70 ou 23,75 ?;23,75;16,70;;
+5360;Quel nombre est le plus grand : 7,61 ou 6,63 ?;7,61;6,63;;
+5361;Quel nombre est le plus grand : 1,35 ou 17,06 ?;17,06;1,35;;
+5362;Quel nombre est le plus grand : 0,31 ou 22,28 ?;22,28;0,31;;
+5363;Quel nombre est le plus grand : 16,69 ou 21,64 ?;21,64;16,69;;
+5364;Quel nombre est le plus grand : 9,85 ou 12,97 ?;12,97;9,85;;
+5365;Quel nombre est le plus grand : 10,19 ou 11,60 ?;11,60;10,19;;
+5366;Quel nombre est le plus grand : 18,99 ou 21,25 ?;21,25;18,99;;
+5367;Quel nombre est le plus grand : 6,46 ou 18,15 ?;18,15;6,46;;
+5368;Quel nombre est le plus grand : 7,88 ou 8,48 ?;8,48;7,88;;
+5369;Quel nombre est le plus grand : 17,64 ou 12,20 ?;17,64;12,20;;
+5370;Quel nombre est le plus grand : 13,51 ou 12,40 ?;13,51;12,40;;
+5371;Quel nombre est le plus grand : 9,78 ou 15,68 ?;15,68;9,78;;
+5372;Quel nombre est le plus grand : 22,62 ou 8,77 ?;22,62;8,77;;
+5373;Quel nombre est le plus grand : 6,20 ou 7,39 ?;7,39;6,20;;
+5374;Quel nombre est le plus grand : 27,07 ou 1,50 ?;27,07;1,50;;
+5375;Quel nombre est le plus grand : 12,11 ou 7,36 ?;12,11;7,36;;
+5376;Quel nombre est le plus grand : 12,42 ou 10,01 ?;12,42;10,01;;
+5377;Quel nombre est le plus grand : 8,96 ou 10,26 ?;10,26;8,96;;
+5378;Quel nombre est le plus grand : 21,35 ou 27,23 ?;27,23;21,35;;
+5379;Quel nombre est le plus grand : 18,51 ou 14,53 ?;18,51;14,53;;
+5380;Quel nombre est le plus grand : 26,53 ou 22,80 ?;26,53;22,80;;
+5381;Quel nombre est le plus grand : 8,21 ou 12,13 ?;12,13;8,21;;
+5382;Quel nombre est le plus grand : 21,74 ou 6,14 ?;21,74;6,14;;
+5383;Quel nombre est le plus grand : 9,02 ou 17,10 ?;17,10;9,02;;
+5384;Quel nombre est le plus grand : 19,98 ou 8,36 ?;19,98;8,36;;
+5385;Quel nombre est le plus grand : 29,48 ou 8,47 ?;29,48;8,47;;
+5386;Quel nombre est le plus grand : 26,69 ou 5,68 ?;26,69;5,68;;
+5387;Quel nombre est le plus grand : 18,88 ou 1,04 ?;18,88;1,04;;
+5388;Quel nombre est le plus grand : 26,11 ou 0,11 ?;26,11;0,11;;
+5389;Quel nombre est le plus grand : 8,41 ou 20,85 ?;20,85;8,41;;
+5390;Quel nombre est le plus grand : 0,30 ou 27,23 ?;27,23;0,30;;
+5391;Quel nombre est le plus grand : 3,64 ou 20,68 ?;20,68;3,64;;
+5392;Quel nombre est le plus grand : 21,06 ou 17,22 ?;21,06;17,22;;
+5393;Quel nombre est le plus grand : 8,64 ou 8,78 ?;8,78;8,64;;
+5394;Quel nombre est le plus grand : 28,61 ou 16,44 ?;28,61;16,44;;
+5395;Quel nombre est le plus grand : 28,03 ou 3,17 ?;28,03;3,17;;
+5396;Quel nombre est le plus grand : 0,59 ou 22,62 ?;22,62;0,59;;
+5397;Quel nombre est le plus grand : 20,87 ou 15,06 ?;20,87;15,06;;
+5398;Quel nombre est le plus grand : 21,43 ou 22,94 ?;22,94;21,43;;
+5399;Quel nombre est le plus grand : 4,39 ou 4,22 ?;4,39;4,22;;
+5400;Quel nombre est le plus grand : 11,24 ou 2,64 ?;11,24;2,64;;
+5401;Quel nombre est le plus grand : 25,15 ou 16,68 ?;25,15;16,68;;
+5402;Quel nombre est le plus grand : 13,11 ou 17,00 ?;17,00;13,11;;
+5403;Quel nombre est le plus grand : 24,30 ou 22,39 ?;24,30;22,39;;
+5404;Quel nombre est le plus grand : 11,05 ou 24,39 ?;24,39;11,05;;
+5405;Quel nombre est le plus grand : 26,17 ou 15,10 ?;26,17;15,10;;
+5406;Quel nombre est le plus grand : 24,86 ou 16,81 ?;24,86;16,81;;
+5407;Quel nombre est le plus grand : 22,46 ou 5,36 ?;22,46;5,36;;
+5408;Quel nombre est le plus grand : 16,79 ou 26,69 ?;26,69;16,79;;
+5409;Quel nombre est le plus grand : 20,23 ou 21,08 ?;21,08;20,23;;
+5410;Combien font 12,28 + 12,37 ?;24,65;25,65;23,65;24,75
+5411;Combien font 2,99 + 7,54 ?;10,53;11,53;9,53;10,63
+5412;Combien font 20,22 + 1,83 ?;22,05;23,05;21,05;22,15
+5413;Combien font 7,57 + 9,16 ?;16,73;17,73;15,73;16,83
+5414;Combien font 9,87 + 19,30 ?;29,17;30,17;28,17;29,27
+5415;Combien font 9,65 + 15,32 ?;24,97;25,97;23,97;25,07
+5416;Combien font 3,50 + 24,73 ?;28,23;29,23;27,23;28,33
+5417;Combien font 12,36 + 3,69 ?;16,05;17,05;15,05;16,15
+5418;Combien font 20,82 + 6,62 ?;27,44;28,44;26,44;27,54
+5419;Combien font 23,74 + 18,33 ?;42,07;43,07;41,07;42,17
+5420;Combien font 2,54 + 3,18 ?;5,72;6,72;4,72;5,82
+5421;Combien font 3,15 + 15,92 ?;19,07;20,07;18,07;19,17
+5422;Combien font 9,42 + 22,67 ?;32,09;33,09;31,09;32,19
+5423;Combien font 10,02 + 14,37 ?;24,39;25,39;23,39;24,49
+5424;Combien font 4,81 + 4,24 ?;9,05;10,05;8,05;9,15
+5425;Combien font 1,80 + 11,86 ?;13,66;14,66;12,66;13,76
+5426;Combien font 11,04 + 9,45 ?;20,49;21,49;19,49;20,59
+5427;Combien font 17,66 + 21,75 ?;39,41;40,41;38,41;39,51
+5428;Combien font 9,02 + 24,52 ?;33,54;34,54;32,54;33,64
+5429;Combien font 13,37 + 5,86 ?;19,23;20,23;18,23;19,33
+5430;Combien font 11,68 + 4,11 ?;15,79;16,79;14,79;15,89
+5431;Combien font 22,47 + 20,46 ?;42,93;43,93;41,93;43,03
+5432;Combien font 19,88 + 15,83 ?;35,71;36,71;34,71;35,81
+5433;Combien font 22,55 + 9,04 ?;31,59;32,59;30,59;31,69
+5434;Combien font 14,16 + 11,62 ?;25,78;26,78;24,78;25,88
+5435;Combien font 16,49 + 10,55 ?;27,04;28,04;26,04;27,14
+5436;Combien font 19,70 + 20,18 ?;39,88;40,88;38,88;39,98
+5437;Combien font 15,10 + 8,19 ?;23,29;24,29;22,29;23,39
+5438;Combien font 16,63 + 7,72 ?;24,35;25,35;23,35;24,45
+5439;Combien font 4,28 + 16,73 ?;21,01;22,01;20,01;21,11
+5440;Combien font 4,44 + 8,37 ?;12,81;13,81;11,81;12,91
+5441;Combien font 22,72 + 12,97 ?;35,69;36,69;34,69;35,79
+5442;Combien font 11,39 + 6,91 ?;18,30;19,30;17,30;18,40
+5443;Combien font 24,49 + 11,64 ?;36,13;37,13;35,13;36,23
+5444;Combien font 21,33 + 22,80 ?;44,13;45,13;43,13;44,23
+5445;Combien font 4,50 + 18,93 ?;23,43;24,43;22,43;23,53
+5446;Combien font 15,69 + 11,24 ?;26,93;27,93;25,93;27,03
+5447;Combien font 18,49 + 4,66 ?;23,15;24,15;22,15;23,25
+5448;Combien font 9,66 + 12,45 ?;22,11;23,11;21,11;22,21
+5449;Combien font 3,72 + 1,71 ?;5,43;6,43;4,43;5,53
+5450;Combien font 14,65 + 6,56 ?;21,21;22,21;20,21;21,31
+5451;Combien font 14,80 + 16,06 ?;30,86;31,86;29,86;30,96
+5452;Combien font 1,87 + 3,85 ?;5,72;6,72;4,72;5,82
+5453;Combien font 22,10 + 17,35 ?;39,45;40,45;38,45;39,55
+5454;Combien font 9,66 + 3,71 ?;13,37;14,37;12,37;13,47
+5455;Combien font 19,57 + 23,75 ?;43,32;44,32;42,32;43,42
+5456;Combien font 1,08 + 20,11 ?;21,19;22,19;20,19;21,29
+5457;Combien font 23,61 + 1,49 ?;25,10;26,10;24,10;25,20
+5458;Combien font 18,94 + 20,06 ?;39,00;40,00;38,00;39,10
+5459;Combien font 18,20 + 13,85 ?;32,05;33,05;31,05;32,15
+5460;Combien font 14,91 + 16,48 ?;31,39;32,39;30,39;31,49
+5461;Combien font 1,89 + 22,46 ?;24,35;25,35;23,35;24,45
+5462;Combien font 11,07 + 5,75 ?;16,82;17,82;15,82;16,92
+5463;Combien font 11,93 + 13,17 ?;25,10;26,10;24,10;25,20
+5464;Combien font 1,40 + 23,13 ?;24,53;25,53;23,53;24,63
+5465;Combien font 8,85 + 16,77 ?;25,62;26,62;24,62;25,72
+5466;Combien font 6,90 + 24,75 ?;31,65;32,65;30,65;31,75
+5467;Combien font 15,90 + 9,03 ?;24,93;25,93;23,93;25,03
+5468;Combien font 10,26 + 18,01 ?;28,27;29,27;27,27;28,37
+5469;Combien font 12,51 + 22,39 ?;34,90;35,90;33,90;35,00
+5470;Combien font 2,42 + 24,11 ?;26,53;27,53;25,53;26,63
+5471;Combien font 15,50 + 21,30 ?;36,80;37,80;35,80;36,90
+5472;Combien font 10,14 + 16,64 ?;26,78;27,78;25,78;26,88
+5473;Combien font 23,11 + 18,72 ?;41,83;42,83;40,83;41,93
+5474;Combien font 23,80 + 19,10 ?;42,90;43,90;41,90;43,00
+5475;Combien font 15,87 + 6,67 ?;22,54;23,54;21,54;22,64
+5476;Combien font 23,18 + 3,04 ?;26,22;27,22;25,22;26,32
+5477;Combien font 7,52 + 6,64 ?;14,16;15,16;13,16;14,26
+5478;Combien font 23,17 + 10,87 ?;34,04;35,04;33,04;34,14
+5479;Combien font 10,59 + 11,86 ?;22,45;23,45;21,45;22,55
+5480;Combien font 25,11 - 23,18 ?;1,93;2,93;0,93;2,03
+5481;Combien font 6,08 - 2,08 ?;4,00;5,00;3,00;4,10
+5482;Combien font 24,14 - 22,96 ?;1,18;2,18;0,18;1,28
+5483;Combien font 38,54 - 31,63 ?;6,91;7,91;5,91;7,01
+5484;Combien font 15,28 - 8,94 ?;6,34;7,34;5,34;6,44
+5485;Combien font 16,12 - 6,06 ?;10,06;11,06;9,06;10,16
+5486;Combien font 17,54 - 17,36 ?;0,18;1,18;0,00;0,28
+5487;Combien font 16,70 - 3,82 ?;12,88;13,88;11,88;12,98
+5488;Combien font 26,77 - 1,86 ?;24,91;25,91;23,91;25,01
+5489;Combien font 26,88 - 25,20 ?;1,68;2,68;0,68;1,78
+5490;Combien font 10,51 - 1,48 ?;9,03;10,03;8,03;9,13
+5491;Combien font 27,57 - 20,66 ?;6,91;7,91;5,91;7,01
+5492;Combien font 19,62 - 1,23 ?;18,39;19,39;17,39;18,49
+5493;Combien font 31,52 - 10,71 ?;20,81;21,81;19,81;20,91
+5494;Combien font 14,50 - 9,44 ?;5,06;6,06;4,06;5,16
+5495;Combien font 8,19 - 1,28 ?;6,91;7,91;5,91;7,01
+5496;Combien font 11,21 - 9,13 ?;2,08;3,08;1,08;2,18
+5497;Combien font 37,27 - 4,19 ?;33,08;34,08;32,08;33,18
+5498;Combien font 17,16 - 6,45 ?;10,71;11,71;9,71;10,81
+5499;Combien font 30,71 - 6,52 ?;24,19;25,19;23,19;24,29
+5500;Combien font 13,32 - 12,63 ?;0,69;1,69;0,00;0,79
+5501;Combien font 10,00 - 3,46 ?;6,54;7,54;5,54;6,64
+5502;Combien font 27,03 - 14,57 ?;12,46;13,46;11,46;12,56
+5503;Combien font 33,04 - 8,44 ?;24,60;25,60;23,60;24,70
+5504;Combien font 25,65 - 11,41 ?;14,24;15,24;13,24;14,34
+5505;Combien font 17,87 - 14,77 ?;3,10;4,10;2,10;3,20
+5506;Combien font 12,25 - 3,84 ?;8,41;9,41;7,41;8,51
+5507;Combien font 14,99 - 14,39 ?;0,60;1,60;0,00;0,70
+5508;Combien font 12,32 - 3,60 ?;8,72;9,72;7,72;8,82
+5509;Combien font 25,07 - 24,35 ?;0,72;1,72;0,00;0,82
+5510;Combien font 33,90 - 9,06 ?;24,84;25,84;23,84;24,94
+5511;Combien font 38,88 - 5,63 ?;33,25;34,25;32,25;33,35
+5512;Combien font 23,11 - 14,24 ?;8,87;9,87;7,87;8,97
+5513;Combien font 34,40 - 30,08 ?;4,32;5,32;3,32;4,42
+5514;Combien font 19,66 - 1,98 ?;17,68;18,68;16,68;17,78
+5515;Combien font 30,01 - 17,16 ?;12,85;13,85;11,85;12,95
+5516;Combien font 11,82 - 1,06 ?;10,76;11,76;9,76;10,86
+5517;Combien font 22,14 - 8,49 ?;13,65;14,65;12,65;13,75
+5518;Combien font 24,01 - 10,05 ?;13,96;14,96;12,96;14,06
+5519;Combien font 8,41 - 4,02 ?;4,39;5,39;3,39;4,49
+5520;Combien font 16,85 - 4,53 ?;12,32;13,32;11,32;12,42
+5521;Combien font 28,61 - 2,91 ?;25,70;26,70;24,70;25,80
+5522;Combien font 26,47 - 9,31 ?;17,16;18,16;16,16;17,26
+5523;Combien font 28,73 - 4,82 ?;23,91;24,91;22,91;24,01
+5524;Combien font 34,48 - 17,59 ?;16,89;17,89;15,89;16,99
+5525;Combien font 39,86 - 25,77 ?;14,09;15,09;13,09;14,19
+5526;Combien font 8,45 - 6,40 ?;2,05;3,05;1,05;2,15
+5527;Combien font 10,22 - 9,21 ?;1,01;2,01;0,01;1,11
+5528;Combien font 9,37 - 5,77 ?;3,60;4,60;2,60;3,70
+5529;Combien font 15,53 - 6,41 ?;9,12;10,12;8,12;9,22
+5530;Combien de centilitres dans 9 litres ?;900;911;901;933
+5531;Combien de millimètres dans 24 cm ?;240;239;238;246
+5532;Combien de centilitres dans 13 litres ?;1300;1318;1263;1255
+5533;Combien de millimètres dans 5 cm ?;50;53;48;47
+5534;Combien de minutes dans 12 heures ?;720;693;713;696
+5535;Combien de centimètres dans 15 mètres ?;1500;1469;1543;1506
+5536;Combien de centimètres dans 8 mètres ?;800;772;814;788
+5537;Combien de millimètres dans 29 cm ?;290;284;287;289
+5538;Combien de grammes dans 15 kg ?;15000;15392;14669;14536
+5539;Combien de minutes dans 2 heures ?;120;136;152;128
+5540;Combien de millimètres dans 6 cm ?;60;67;55;61
+5541;Combien de grammes dans 9 kg ?;9000;9092;9408;9014
+5542;Combien de millimètres dans 16 cm ?;160;164;158;161
+5543;Combien de centimètres dans 14 mètres ?;1400;1390;1395;1422
+5544;Combien de centilitres dans 10 litres ?;1000;951;1003;999
+5545;Combien de millimètres dans 7 cm ?;70;77;75;66
+5546;Combien de centilitres dans 19 litres ?;1900;1924;1927;1919
+5547;Combien de millimètres dans 12 cm ?;120;117;121;127
+5548;Combien de grammes dans 2 kg ?;2000;1896;2137;1813
+5549;Combien de millimètres dans 3 cm ?;30;36;29;33
+5550;Combien de centilitres dans 20 litres ?;2000;2006;1995;2003
+5551;Combien de centilitres dans 8 litres ?;800;848;759;776
+5552;Combien de centilitres dans 1 litre ?;100;132;101;118
+5553;Combien de centilitres dans 2 litres ?;200;241;248;210
+5554;Combien de centilitres dans 4 litres ?;400;417;447;438
+5555;Combien de minutes dans 1 heure ?;60;57;58;82
+5556;Combien de centilitres dans 3 litres ?;300;327;278;284
+5557;Combien de millimètres dans 26 cm ?;260;257;253;267
+5558;Combien de minutes dans 11 heures ?;660;651;629;654
+5559;Combien de millimètres dans 19 cm ?;190;197;184;195
+5560;Combien de centimètres dans 11 mètres ?;1100;1055;1048;1136
+5561;Combien de centilitres dans 15 litres ?;1500;1484;1529;1475
+5562;Combien de centilitres dans 16 litres ?;1600;1606;1619;1597
+5563;Combien de millimètres dans 2 cm ?;20;22;26;23
+5564;Combien de millimètres dans 18 cm ?;180;175;177;187
+5565;Combien de millimètres dans 14 cm ?;140;142;144;137
+5566;Combien de millimètres dans 22 cm ?;220;217;221;216
+5567;Combien de grammes dans 11 kg ?;11000;11251;10516;11199
+5568;Combien de grammes dans 13 kg ?;13000;13067;12604;12571
+5569;Combien de grammes dans 12 kg ?;12000;12240;12499;12462
+5570;Combien de minutes dans 10 heures ?;600;598;578;584
+5571;Combien de centimètres dans 10 mètres ?;1000;1006;988;1019
+5572;Combien de millimètres dans 4 cm ?;40;39;43;47
+5573;Combien de millimètres dans 25 cm ?;250;249;247;257
+5574;Combien de millimètres dans 17 cm ?;170;176;163;172
+5575;Combien de centilitres dans 18 litres ?;1800;1790;1779;1781
+5576;Combien de millimètres dans 11 cm ?;110;114;105;104
+5577;Combien de millimètres dans 20 cm ?;200;199;198;194
+5578;Combien de centimètres dans 13 mètres ?;1300;1272;1330;1343
+5579;Combien de centilitres dans 7 litres ?;700;736;715;693
+5580;Combien de centilitres dans 6 litres ?;600;562;589;641
+5581;Combien de grammes dans 14 kg ?;14000;14165;14391;14387
+5582;Combien de millimètres dans 27 cm ?;270;271;263;277
+5583;Combien de centilitres dans 14 litres ?;1400;1429;1355;1406
+5584;Combien de millimètres dans 8 cm ?;80;75;82;86
+5585;Combien de centilitres dans 5 litres ?;500;466;491;526
+5586;Combien de millimètres dans 1 cm ?;10;15;7;5
+5587;Combien de centilitres dans 17 litres ?;1700;1708;1751;1697
+5588;Combien de millimètres dans 9 cm ?;90;94;87;84
+5589;Combien de grammes dans 10 kg ?;10000;9538;10470;10033
+5590;Combien de centimètres dans 12 mètres ?;1200;1165;1232;1151
+5591;Combien de centilitres dans 11 litres ?;1100;1141;1052;1102
+5592;Combien de millimètres dans 15 cm ?;150;157;152;147
+5593;Combien de millimètres dans 10 cm ?;100;106;94;95
+5594;Combien de millimètres dans 21 cm ?;210;212;209;211
+5595;Combien de millimètres dans 28 cm ?;280;278;282;279
+5596;Combien de centilitres dans 12 litres ?;1200;1222;1185;1193
+5597;Combien de millimètres dans 13 cm ?;130;134;129;124
+5598;Combien de millimètres dans 30 cm ?;300;307;293;302
+5599;Combien de millimètres dans 23 cm ?;230;223;224;229
+5600;Quelle est l'aire, en cm2, d'un rectangle de 18 cm sur 12 cm ?;216;221;218;213
+5601;Quelle est l'aire, en cm2, d'un rectangle de 25 cm sur 2 cm ?;50;52;38;42
+5602;Quelle est l'aire, en cm2, d'un rectangle de 17 cm sur 13 cm ?;221;218;211;228
+5603;Quelle est l'aire, en cm2, d'un rectangle de 8 cm sur 6 cm ?;48;53;43;55
+5604;Quelle est l'aire, en cm2, d'un rectangle de 15 cm sur 9 cm ?;135;124;129;133
+5605;Quelle est l'aire, en cm2, d'un rectangle de 21 cm sur 16 cm ?;336;345;346;348
+5606;Quelle est l'aire, en cm2, d'un rectangle de 22 cm sur 7 cm ?;154;148;157;158
+5607;Quelle est l'aire, en cm2, d'un rectangle de 18 cm sur 17 cm ?;306;311;305;316
+5608;Quelle est l'aire, en cm2, d'un rectangle de 25 cm sur 12 cm ?;300;302;292;303
+5609;Quelle est l'aire, en cm2, d'un rectangle de 25 cm sur 18 cm ?;450;457;442;459
+5610;Quelle est l'aire, en cm2, d'un rectangle de 25 cm sur 10 cm ?;250;244;238;248
+5611;Quelle est l'aire, en cm2, d'un rectangle de 20 cm sur 18 cm ?;360;372;369;357
+5612;Quelle est l'aire, en cm2, d'un rectangle de 15 cm sur 2 cm ?;30;38;37;40
+5613;Quelle est l'aire, en cm2, d'un rectangle de 25 cm sur 14 cm ?;350;358;348;353
+5614;Quelle est l'aire, en cm2, d'un rectangle de 20 cm sur 10 cm ?;200;188;189;201
+5615;Quelle est l'aire, en cm2, d'un rectangle de 10 cm sur 3 cm ?;30;29;23;32
+5616;Quelle est l'aire, en cm2, d'un rectangle de 19 cm sur 2 cm ?;38;35;29;31
+5617;Quelle est l'aire, en cm2, d'un rectangle de 19 cm sur 14 cm ?;266;269;259;260
+5618;Quelle est l'aire, en cm2, d'un rectangle de 16 cm sur 13 cm ?;208;196;211;202
+5619;Quelle est l'aire, en cm2, d'un rectangle de 20 cm sur 8 cm ?;160;148;149;152
+5620;Quelle est l'aire, en cm2, d'un rectangle de 19 cm sur 4 cm ?;76;67;78;68
+5621;Quelle est l'aire, en cm2, d'un rectangle de 24 cm sur 16 cm ?;384;388;393;390
+5622;Quelle est l'aire, en cm2, d'un rectangle de 23 cm sur 4 cm ?;92;91;97;101
+5623;Quelle est l'aire, en cm2, d'un rectangle de 20 cm sur 7 cm ?;140;150;151;143
+5624;Quelle est l'aire, en cm2, d'un rectangle de 13 cm sur 6 cm ?;78;75;85;76
+5625;Quelle est l'aire, en cm2, d'un rectangle de 18 cm sur 16 cm ?;288;299;281;296
+5626;Quelle est l'aire, en cm2, d'un rectangle de 18 cm sur 9 cm ?;162;173;168;156
+5627;Quelle est l'aire, en cm2, d'un rectangle de 16 cm sur 15 cm ?;240;233;251;235
+5628;Quelle est l'aire, en cm2, d'un rectangle de 15 cm sur 10 cm ?;150;145;152;157
+5629;Quelle est l'aire, en cm2, d'un rectangle de 20 cm sur 9 cm ?;180;171;183;187
+5630;Quelle est l'aire, en cm2, d'un rectangle de 14 cm sur 4 cm ?;56;58;51;67
+5631;Quelle est l'aire, en cm2, d'un rectangle de 21 cm sur 4 cm ?;84;89;76;75
+5632;Quelle est l'aire, en cm2, d'un rectangle de 24 cm sur 5 cm ?;120;129;114;112
+5633;Quelle est l'aire, en cm2, d'un rectangle de 14 cm sur 2 cm ?;28;22;20;24
+5634;Quelle est l'aire, en cm2, d'un rectangle de 23 cm sur 17 cm ?;391;402;379;393
+5635;Quelle est l'aire, en cm2, d'un rectangle de 19 cm sur 5 cm ?;95;105;99;86
+5636;Quelle est l'aire, en cm2, d'un rectangle de 18 cm sur 10 cm ?;180;187;179;176
+5637;Quelle est l'aire, en cm2, d'un rectangle de 17 cm sur 16 cm ?;272;283;276;271
+5638;Quelle est l'aire, en cm2, d'un rectangle de 15 cm sur 6 cm ?;90;94;99;78
+5639;Quelle est l'aire, en cm2, d'un rectangle de 16 cm sur 5 cm ?;80;71;89;82
+5640;Quelle est l'aire, en cm2, d'un rectangle de 16 cm sur 14 cm ?;224;216;218;212
+5641;Quelle est l'aire, en cm2, d'un rectangle de 25 cm sur 7 cm ?;175;169;171;172
+5642;Quelle est l'aire, en cm2, d'un rectangle de 24 cm sur 15 cm ?;360;362;356;370
+5643;Quelle est l'aire, en cm2, d'un rectangle de 13 cm sur 5 cm ?;65;60;72;59
+5644;Quelle est l'aire, en cm2, d'un rectangle de 15 cm sur 14 cm ?;210;207;220;201
+5645;Quelle est l'aire, en cm2, d'un rectangle de 23 cm sur 16 cm ?;368;362;374;365
+5646;Quelle est l'aire, en cm2, d'un rectangle de 17 cm sur 2 cm ?;34;28;33;41
+5647;Quelle est l'aire, en cm2, d'un rectangle de 21 cm sur 8 cm ?;168;176;179;180
+5648;Quelle est l'aire, en cm2, d'un rectangle de 22 cm sur 14 cm ?;308;301;314;318
+5649;Quelle est l'aire, en cm2, d'un rectangle de 22 cm sur 8 cm ?;176;179;183;171
+5650;Quelle est l'aire, en cm2, d'un rectangle de 13 cm sur 8 cm ?;104;115;101;98
+5651;Quelle est l'aire, en cm2, d'un rectangle de 6 cm sur 5 cm ?;30;38;28;35
+5652;Quelle est l'aire, en cm2, d'un rectangle de 22 cm sur 20 cm ?;440;428;430;434
+5653;Quelle est l'aire, en cm2, d'un rectangle de 19 cm sur 10 cm ?;190;192;182;178
+5654;Quelle est l'aire, en cm2, d'un rectangle de 11 cm sur 8 cm ?;88;78;86;90
+5655;Quelle est l'aire, en cm2, d'un rectangle de 12 cm sur 2 cm ?;24;34;19;27
+5656;Quelle est l'aire, en cm2, d'un rectangle de 24 cm sur 4 cm ?;96;100;106;104
+5657;Quelle est l'aire, en cm2, d'un rectangle de 12 cm sur 6 cm ?;72;79;70;80
+5658;Quelle est l'aire, en cm2, d'un rectangle de 21 cm sur 7 cm ?;147;151;136;137
+5659;Quelle est l'aire, en cm2, d'un rectangle de 16 cm sur 10 cm ?;160;166;170;168
+5660;Quel est le périmètre, en cm, d'un rectangle de longueur 16 cm et de largeur 11 cm ?;54;48;47;53
+5661;Quel est le périmètre, en cm, d'un rectangle de longueur 22 cm et de largeur 6 cm ?;56;59;63;54
+5662;Quel est le périmètre, en cm, d'un rectangle de longueur 11 cm et de largeur 3 cm ?;28;35;29;25
+5663;Quel est le périmètre, en cm, d'un rectangle de longueur 19 cm et de largeur 16 cm ?;70;67;65;63
+5664;Quel est le périmètre, en cm, d'un rectangle de longueur 28 cm et de largeur 16 cm ?;88;89;79;87
+5665;Quel est le périmètre, en cm, d'un rectangle de longueur 19 cm et de largeur 11 cm ?;60;53;62;70
+5666;Quel est le périmètre, en cm, d'un rectangle de longueur 5 cm et de largeur 3 cm ?;16;23;20;12
+5667;Quel est le périmètre, en cm, d'un rectangle de longueur 21 cm et de largeur 19 cm ?;80;88;81;78
+5668;Quel est le périmètre, en cm, d'un rectangle de longueur 27 cm et de largeur 5 cm ?;64;74;60;56
+5669;Quel est le périmètre, en cm, d'un rectangle de longueur 26 cm et de largeur 14 cm ?;80;79;88;74
+5670;Quel est le périmètre, en cm, d'un rectangle de longueur 26 cm et de largeur 21 cm ?;94;95;92;86
+5671;Quel est le périmètre, en cm, d'un rectangle de longueur 10 cm et de largeur 4 cm ?;28;38;20;37
+5672;Quel est le périmètre, en cm, d'un rectangle de longueur 19 cm et de largeur 6 cm ?;50;54;53;48
+5673;Quel est le périmètre, en cm, d'un rectangle de longueur 19 cm et de largeur 14 cm ?;66;58;72;73
+5674;Quel est le périmètre, en cm, d'un rectangle de longueur 18 cm et de largeur 10 cm ?;56;52;46;47
+5675;Quel est le périmètre, en cm, d'un rectangle de longueur 29 cm et de largeur 12 cm ?;82;79;85;80
+5676;Quel est le périmètre, en cm, d'un rectangle de longueur 23 cm et de largeur 19 cm ?;84;75;90;79
+5677;Quel est le périmètre, en cm, d'un rectangle de longueur 30 cm et de largeur 2 cm ?;64;69;65;59
+5678;Quel est le périmètre, en cm, d'un rectangle de longueur 21 cm et de largeur 16 cm ?;74;81;83;67
+5679;Quel est le périmètre, en cm, d'un rectangle de longueur 17 cm et de largeur 12 cm ?;58;57;49;62
+5680;Quel est le périmètre, en cm, d'un rectangle de longueur 4 cm et de largeur 2 cm ?;12;16;7;4
+5681;Quel est le périmètre, en cm, d'un rectangle de longueur 18 cm et de largeur 3 cm ?;42;39;41;52
+5682;Quel est le périmètre, en cm, d'un rectangle de longueur 30 cm et de largeur 19 cm ?;98;88;100;103
+5683;Quel est le périmètre, en cm, d'un rectangle de longueur 24 cm et de largeur 10 cm ?;68;62;58;65
+5684;Quel est le périmètre, en cm, d'un rectangle de longueur 29 cm et de largeur 2 cm ?;62;55;64;60
+5685;Quel est le périmètre, en cm, d'un rectangle de longueur 28 cm et de largeur 13 cm ?;82;80;90;91
+5686;Quel est le périmètre, en cm, d'un rectangle de longueur 19 cm et de largeur 10 cm ?;58;66;49;54
+5687;Quel est le périmètre, en cm, d'un rectangle de longueur 20 cm et de largeur 8 cm ?;56;49;48;52
+5688;Quel est le périmètre, en cm, d'un rectangle de longueur 11 cm et de largeur 9 cm ?;40;35;34;33
+5689;Quel est le périmètre, en cm, d'un rectangle de longueur 29 cm et de largeur 20 cm ?;98;103;90;108
+5690;Pour 8 autocollants, on paie 32 euros. Combien paie-t-on pour 24 autocollants ?;96;103;90;95
+5691;Pour 5 autocollants, on paie 25 euros. Combien paie-t-on pour 17 autocollants ?;85;82;78;88
+5692;Pour 6 images, on paie 24 euros. Combien paie-t-on pour 15 images ?;60;68;55;54
+5693;Pour 3 livres, on paie 18 euros. Combien paie-t-on pour 11 livres ?;66;64;62;70
+5694;Pour 8 livres, on paie 40 euros. Combien paie-t-on pour 17 livres ?;85;80;88;91
+5695;Pour 5 images, on paie 20 euros. Combien paie-t-on pour 25 images ?;100;92;98;94
+5696;Pour 3 gommes, on paie 9 euros. Combien paie-t-on pour 24 gommes ?;72;80;79;67
+5697;Pour 4 gommes, on paie 24 euros. Combien paie-t-on pour 22 gommes ?;132;138;129;133
+5698;Pour 4 gommes, on paie 8 euros. Combien paie-t-on pour 9 gommes ?;18;13;25;14
+5699;Pour 6 billes, on paie 24 euros. Combien paie-t-on pour 16 billes ?;64;66;69;72
+5700;Pour 5 billes, on paie 20 euros. Combien paie-t-on pour 13 billes ?;52;56;53;54
+5701;Pour 6 crayons, on paie 36 euros. Combien paie-t-on pour 19 crayons ?;114;120;109;121
+5702;Pour 3 gommes, on paie 6 euros. Combien paie-t-on pour 18 gommes ?;36;29;28;37
+5703;Pour 5 crayons, on paie 30 euros. Combien paie-t-on pour 15 crayons ?;90;86;93;82
+5704;Pour 6 cahiers, on paie 30 euros. Combien paie-t-on pour 5 cahiers ?;25;28;20;17
+5705;Pour 5 images, on paie 10 euros. Combien paie-t-on pour 10 images ?;20;22;23;12
+5706;Pour 4 cahiers, on paie 24 euros. Combien paie-t-on pour 3 cahiers ?;18;17;20;12
+5707;Pour 2 stylos, on paie 6 euros. Combien paie-t-on pour 18 stylos ?;54;56;57;51
+5708;Pour 5 images, on paie 30 euros. Combien paie-t-on pour 21 images ?;126;124;129;133
+5709;Pour 8 images, on paie 8 euros. Combien paie-t-on pour 13 images ?;13;7;20;16
+5710;Pour 7 images, on paie 35 euros. Combien paie-t-on pour 14 images ?;70;64;67;78
+5711;Pour 6 cahiers, on paie 18 euros. Combien paie-t-on pour 18 cahiers ?;54;46;55;51
+5712;Pour 8 livres, on paie 24 euros. Combien paie-t-on pour 10 livres ?;30;26;23;32
+5713;Pour 2 crayons, on paie 12 euros. Combien paie-t-on pour 11 crayons ?;66;68;70;63
+5714;Pour 6 stylos, on paie 12 euros. Combien paie-t-on pour 12 stylos ?;24;26;28;23
+5715;Pour 2 cahiers, on paie 10 euros. Combien paie-t-on pour 3 cahiers ?;15;19;20;13
+5716;Pour 5 crayons, on paie 25 euros. Combien paie-t-on pour 6 crayons ?;30;29;23;28
+5717;Pour 4 autocollants, on paie 4 euros. Combien paie-t-on pour 3 autocollants ?;3;8;1;9
+5718;Pour 2 cahiers, on paie 12 euros. Combien paie-t-on pour 2 cahiers ?;12;4;11;18
+5719;Pour 3 livres, on paie 6 euros. Combien paie-t-on pour 8 livres ?;16;12;10;22
+5720;Pour 5 autocollants, on paie 15 euros. Combien paie-t-on pour 15 autocollants ?;45;48;38;50
+5721;Pour 4 autocollants, on paie 8 euros. Combien paie-t-on pour 17 autocollants ?;34;35;30;31
+5722;Pour 5 cahiers, on paie 30 euros. Combien paie-t-on pour 16 cahiers ?;96;93;99;92
+5723;Pour 8 billes, on paie 32 euros. Combien paie-t-on pour 14 billes ?;56;64;48;50
+5724;Pour 6 billes, on paie 24 euros. Combien paie-t-on pour 7 billes ?;28;31;32;23
+5725;Pour 5 stylos, on paie 20 euros. Combien paie-t-on pour 13 stylos ?;52;50;57;55
+5726;Pour 8 gommes, on paie 48 euros. Combien paie-t-on pour 3 gommes ?;18;16;20;24
+5727;Pour 8 images, on paie 16 euros. Combien paie-t-on pour 4 images ?;8;12;3;9
+5728;Pour 7 crayons, on paie 7 euros. Combien paie-t-on pour 22 crayons ?;22;23;20;26
+5729;Pour 5 billes, on paie 5 euros. Combien paie-t-on pour 19 billes ?;19;25;18;12
+5730;Pour 3 autocollants, on paie 9 euros. Combien paie-t-on pour 7 autocollants ?;21;25;16;23
+5731;Pour 6 livres, on paie 30 euros. Combien paie-t-on pour 8 livres ?;40;36;33;39
+5732;Pour 4 images, on paie 4 euros. Combien paie-t-on pour 12 images ?;12;4;6;19
+5733;Pour 7 images, on paie 42 euros. Combien paie-t-on pour 13 images ?;78;73;70;82
+5734;Pour 5 stylos, on paie 15 euros. Combien paie-t-on pour 3 stylos ?;9;1;17;14
+5735;Pour 5 images, on paie 15 euros. Combien paie-t-on pour 10 images ?;30;26;22;31
+5736;Pour 6 billes, on paie 30 euros. Combien paie-t-on pour 18 billes ?;90;93;98;88
+5737;Pour 6 cahiers, on paie 6 euros. Combien paie-t-on pour 19 cahiers ?;19;17;27;25
+5738;Pour 5 gommes, on paie 10 euros. Combien paie-t-on pour 13 gommes ?;26;27;21;18
+5739;Pour 7 billes, on paie 35 euros. Combien paie-t-on pour 10 billes ?;50;51;47;52
+5740;Pour 6 autocollants, on paie 6 euros. Combien paie-t-on pour 19 autocollants ?;19;16;20;17
+5741;Pour 5 autocollants, on paie 20 euros. Combien paie-t-on pour 3 autocollants ?;12;5;10;6
+5742;Pour 8 livres, on paie 48 euros. Combien paie-t-on pour 10 livres ?;60;63;64;59
+5743;Pour 4 crayons, on paie 12 euros. Combien paie-t-on pour 5 crayons ?;15;14;7;9
+5744;Pour 8 gommes, on paie 24 euros. Combien paie-t-on pour 25 gommes ?;75;67;82;69
+5745;Pour 6 cahiers, on paie 36 euros. Combien paie-t-on pour 5 cahiers ?;30;34;27;29
+5746;Pour 6 billes, on paie 30 euros. Combien paie-t-on pour 11 billes ?;55;56;49;58
+5747;Pour 2 cahiers, on paie 12 euros. Combien paie-t-on pour 9 cahiers ?;54;47;48;59
+5748;Pour 3 autocollants, on paie 15 euros. Combien paie-t-on pour 7 autocollants ?;35;27;38;36
+5749;Pour 7 livres, on paie 7 euros. Combien paie-t-on pour 3 livres ?;3;6;0;11
+5750;Quel est le chiffre des centaines dans 110957 ?;9;7;0;1
+5751;Quel est le chiffre des milliers dans 292988 ?;2;8;9;1
+5752;Quel est le chiffre des dizaines dans 866864 ?;6;8;4;7
+5753;Quel est le chiffre des unités dans 314292 ?;2;3;4;1
+5754;Quel est le chiffre des centaines dans 877229 ?;2;8;9;7
+5755;Quel est le chiffre des dizaines dans 416870 ?;7;8;4;0
+5756;Quel est le chiffre des unités dans 830874 ?;4;0;8;7
+5757;Quel est le chiffre des dizaines dans 387661 ?;6;1;3;7
+5758;Quel est le chiffre des centaines dans 440087 ?;0;8;7;4
+5759;Quel est le chiffre des dizaines dans 354893 ?;9;5;3;4
+5760;Quel est le chiffre des unités dans 474977 ?;7;4;9;0
+5761;Quel est le chiffre des centaines de mille dans 134359 ?;1;5;3;4
+5762;Quel est le chiffre des dizaines de mille dans 149760 ?;4;7;0;9
+5763;Quel est le chiffre des dizaines de mille dans 130368 ?;3;8;6;0
+5764;Quel est le chiffre des dizaines de mille dans 578252 ?;7;8;2;5
+5765;Quel est le chiffre des dizaines dans 972463 ?;6;3;4;7
+5766;Quel est le chiffre des dizaines de mille dans 373248 ?;7;2;8;3
+5767;Quel est le chiffre des centaines de mille dans 307451 ?;3;7;0;1
+5768;Quel est le chiffre des dizaines de mille dans 667267 ?;6;7;2;8
+5769;Quel est le chiffre des centaines de mille dans 247730 ?;2;3;0;4
+5770;Quel est le chiffre des dizaines dans 598854 ?;5;9;8;4
+5771;Quel est le chiffre des centaines dans 543927 ?;9;7;5;4
+5772;Quel est le chiffre des unités dans 461772 ?;2;1;7;4
+5773;Quel est le chiffre des centaines dans 743518 ?;5;3;1;4
+5774;Quel est le chiffre des centaines de mille dans 612510 ?;6;0;1;5
+5775;Quel est le chiffre des centaines de mille dans 390706 ?;3;0;9;6
+5776;Quel est le chiffre des dizaines de mille dans 315641 ?;1;4;5;6
+5777;Quel est le chiffre des dizaines de mille dans 660488 ?;6;4;8;0
+5778;Quel est le chiffre des dizaines dans 598197 ?;9;5;7;1
+5779;Quel est le chiffre des dizaines de mille dans 500421 ?;0;1;2;4
+5780;Quel est le chiffre des milliers dans 142516 ?;2;4;6;5
+5781;Quel est le chiffre des milliers dans 900754 ?;0;9;7;5
+5782;Quel est le chiffre des centaines dans 712822 ?;8;2;7;1
+5783;Quel est le chiffre des dizaines dans 894696 ?;9;4;6;8
+5784;Quel est le chiffre des centaines dans 954553 ?;5;3;4;9
+5785;Quel est le chiffre des unités dans 494866 ?;6;4;9;8
+5786;Quel est le chiffre des unités dans 751820 ?;0;1;2;5
+5787;Quel est le chiffre des milliers dans 166472 ?;6;2;1;4
+5788;Quel est le chiffre des dizaines dans 557305 ?;0;7;5;3
+5789;Quel est le chiffre des unités dans 318881 ?;1;3;8;5
+5790;Quel est le chiffre des unités dans 753264 ?;4;5;3;7
+5791;Quel est le chiffre des unités dans 240404 ?;4;2;0;1
+5792;Quel est le chiffre des milliers dans 745250 ?;5;2;4;7
+5793;Quel est le chiffre des centaines de mille dans 883286 ?;8;2;6;3
+5794;Quel est le chiffre des centaines de mille dans 218689 ?;2;9;6;1
+5795;Quel est le chiffre des unités dans 453955 ?;5;3;9;4
+5796;Quel est le chiffre des centaines de mille dans 647465 ?;6;4;5;7
+5797;Quel est le chiffre des unités dans 218087 ?;7;0;8;1
+5798;Quel est le chiffre des unités dans 384937 ?;7;8;9;3
+5799;Quel est le chiffre des centaines dans 871821 ?;8;1;7;2

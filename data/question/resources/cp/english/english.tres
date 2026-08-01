@@ -1,0 +1,288 @@
+[gd_resource type="Resource" script_class="QuestionBankResource" format=3 uid="uid://bbse2l4kxn6dd"]
+
+[ext_resource type="Script" uid="uid://dfbr3elc3mbig" path="res://data/question/question_resource.gd" id="1_hiwpi"]
+[ext_resource type="Script" uid="uid://c422qc1cinnna" path="res://data/question/question_bank_resource.gd" id="2_48skp"]
+
+[sub_resource type="Resource" id="Resource_hiwpi"]
+script = ExtResource("1_hiwpi")
+subject = 5
+text = "Que veut dire 'one' en français ?"
+correct_answer = "un"
+choices = Array[String](["huit", "quatre", "cinq"])
+
+[sub_resource type="Resource" id="Resource_48skp"]
+script = ExtResource("1_hiwpi")
+subject = 5
+text = "Que veut dire 'thursday' en français ?"
+correct_answer = "jeudi"
+choices = Array[String](["vendredi", "dimanche", "samedi"])
+
+[sub_resource type="Resource" id="Resource_ed6gt"]
+script = ExtResource("1_hiwpi")
+subject = 5
+text = "Que veut dire 'november' en français ?"
+correct_answer = "novembre"
+choices = Array[String](["juin", "janvier", "avril"])
+
+[sub_resource type="Resource" id="Resource_1casu"]
+script = ExtResource("1_hiwpi")
+subject = 5
+text = "Comment dit-on 'juin' en anglais ?"
+correct_answer = "june"
+choices = Array[String](["may", "november", "july"])
+
+[sub_resource type="Resource" id="Resource_do3bh"]
+script = ExtResource("1_hiwpi")
+subject = 5
+text = "Comment dit-on 'souris' en anglais ?"
+correct_answer = "mouse"
+choices = Array[String](["cat", "rabbit", "cow"])
+
+[sub_resource type="Resource" id="Resource_ts3qd"]
+script = ExtResource("1_hiwpi")
+subject = 5
+text = "Que veut dire 'six' en français ?"
+correct_answer = "six"
+choices = Array[String](["deux", "sept", "cinq"])
+
+[sub_resource type="Resource" id="Resource_rv4jo"]
+script = ExtResource("1_hiwpi")
+subject = 5
+text = "Que veut dire 'white' en français ?"
+correct_answer = "blanc"
+choices = Array[String](["rose", "violet", "orange"])
+
+[sub_resource type="Resource" id="Resource_d15v0"]
+script = ExtResource("1_hiwpi")
+subject = 5
+text = "Comment dit-on 'lapin' en anglais ?"
+correct_answer = "rabbit"
+choices = Array[String](["dog", "cow", "sheep"])
+
+[sub_resource type="Resource" id="Resource_3ho6c"]
+script = ExtResource("1_hiwpi")
+subject = 5
+text = "Comment dit-on 'poisson' en anglais ?"
+correct_answer = "fish"
+choices = Array[String](["pig", "horse", "bird"])
+
+[sub_resource type="Resource" id="Resource_e32ya"]
+script = ExtResource("1_hiwpi")
+subject = 5
+text = "Que veut dire 'orange' en français ?"
+correct_answer = "orange"
+choices = Array[String](["rose", "gris", "bleu"])
+
+[sub_resource type="Resource" id="Resource_jftbp"]
+script = ExtResource("1_hiwpi")
+subject = 5
+text = "Comment dit-on 'marron' en anglais ?"
+correct_answer = "brown"
+choices = Array[String](["red", "grey", "black"])
+
+[sub_resource type="Resource" id="Resource_y2nyb"]
+script = ExtResource("1_hiwpi")
+subject = 5
+text = "Comment dit-on 'sept' en anglais ?"
+correct_answer = "seven"
+choices = Array[String](["one", "three", "six"])
+
+[sub_resource type="Resource" id="Resource_p12lt"]
+script = ExtResource("1_hiwpi")
+subject = 5
+text = "Comment dit-on 'un' en anglais ?"
+correct_answer = "one"
+choices = Array[String](["three", "seven", "six"])
+
+[sub_resource type="Resource" id="Resource_xrw8q"]
+script = ExtResource("1_hiwpi")
+subject = 5
+text = "Que veut dire 'five' en français ?"
+correct_answer = "cinq"
+choices = Array[String](["huit", "neuf", "sept"])
+
+[sub_resource type="Resource" id="Resource_tfof5"]
+script = ExtResource("1_hiwpi")
+subject = 5
+text = "Comment dit-on 'mars' en anglais ?"
+correct_answer = "march"
+choices = Array[String](["september", "june", "may"])
+
+[sub_resource type="Resource" id="Resource_15rd3"]
+script = ExtResource("1_hiwpi")
+subject = 5
+text = "Que veut dire 'cat' en français ?"
+correct_answer = "chat"
+choices = Array[String](["chien", "mouton", "cochon"])
+
+[sub_resource type="Resource" id="Resource_ftkm3"]
+script = ExtResource("1_hiwpi")
+subject = 5
+text = "Que veut dire 'july' en français ?"
+correct_answer = "juillet"
+choices = Array[String](["octobre", "avril", "décembre"])
+
+[sub_resource type="Resource" id="Resource_b5lhy"]
+script = ExtResource("1_hiwpi")
+subject = 5
+text = "Que veut dire 'mouse' en français ?"
+correct_answer = "souris"
+choices = Array[String](["cochon", "oiseau", "lapin"])
+
+[sub_resource type="Resource" id="Resource_jh1qy"]
+script = ExtResource("1_hiwpi")
+subject = 5
+text = "Comment dit-on 'neuf' en anglais ?"
+correct_answer = "nine"
+choices = Array[String](["two", "four", "eight"])
+
+[sub_resource type="Resource" id="Resource_lor2l"]
+script = ExtResource("1_hiwpi")
+subject = 5
+text = "Comment dit-on 'janvier' en anglais ?"
+correct_answer = "january"
+choices = Array[String](["november", "october", "march"])
+
+[sub_resource type="Resource" id="Resource_hek41"]
+script = ExtResource("1_hiwpi")
+subject = 5
+text = "Que veut dire 'red' en français ?"
+correct_answer = "rouge"
+choices = Array[String](["violet", "marron", "vert"])
+
+[sub_resource type="Resource" id="Resource_sftme"]
+script = ExtResource("1_hiwpi")
+subject = 5
+text = "Comment dit-on 'grand-mère' en anglais ?"
+correct_answer = "grandma"
+choices = Array[String](["brother", "grandpa", "sister"])
+
+[sub_resource type="Resource" id="Resource_h2po4"]
+script = ExtResource("1_hiwpi")
+subject = 5
+text = "Que veut dire 'april' en français ?"
+correct_answer = "avril"
+choices = Array[String](["novembre", "octobre", "juillet"])
+
+[sub_resource type="Resource" id="Resource_cawg7"]
+script = ExtResource("1_hiwpi")
+subject = 5
+text = "Que veut dire 'grandpa' en français ?"
+correct_answer = "grand-père"
+choices = Array[String](["frère", "maman", "bébé"])
+
+[sub_resource type="Resource" id="Resource_pbixd"]
+script = ExtResource("1_hiwpi")
+subject = 5
+text = "Que veut dire 'four' en français ?"
+correct_answer = "quatre"
+choices = Array[String](["six", "deux", "trois"])
+
+[sub_resource type="Resource" id="Resource_t03t5"]
+script = ExtResource("1_hiwpi")
+subject = 5
+text = "Comment dit-on 'cochon' en anglais ?"
+correct_answer = "pig"
+choices = Array[String](["sheep", "mouse", "horse"])
+
+[sub_resource type="Resource" id="Resource_25x0o"]
+script = ExtResource("1_hiwpi")
+subject = 5
+text = "Comment dit-on 'rose' en anglais ?"
+correct_answer = "pink"
+choices = Array[String](["white", "red", "black"])
+
+[sub_resource type="Resource" id="Resource_x5i67"]
+script = ExtResource("1_hiwpi")
+subject = 5
+text = "Que veut dire 'dad' en français ?"
+correct_answer = "papa"
+choices = Array[String](["frère", "grand-mère", "grand-père"])
+
+[sub_resource type="Resource" id="Resource_adyrq"]
+script = ExtResource("1_hiwpi")
+subject = 5
+text = "Comment dit-on 'août' en anglais ?"
+correct_answer = "august"
+choices = Array[String](["february", "june", "march"])
+
+[sub_resource type="Resource" id="Resource_5f7rp"]
+script = ExtResource("1_hiwpi")
+subject = 5
+text = "Que veut dire 'wednesday' en français ?"
+correct_answer = "mercredi"
+choices = Array[String](["lundi", "vendredi", "samedi"])
+
+[sub_resource type="Resource" id="Resource_vduh2"]
+script = ExtResource("1_hiwpi")
+subject = 5
+text = "Comment dit-on 'oiseau' en anglais ?"
+correct_answer = "bird"
+choices = Array[String](["horse", "cow", "dog"])
+
+[sub_resource type="Resource" id="Resource_ijvan"]
+script = ExtResource("1_hiwpi")
+subject = 5
+text = "Que veut dire 'sister' en français ?"
+correct_answer = "soeur"
+choices = Array[String](["grand-mère", "grand-père", "maman"])
+
+[sub_resource type="Resource" id="Resource_pr0fj"]
+script = ExtResource("1_hiwpi")
+subject = 5
+text = "Que veut dire 'august' en français ?"
+correct_answer = "août"
+choices = Array[String](["juin", "septembre", "avril"])
+
+[sub_resource type="Resource" id="Resource_7k5oh"]
+script = ExtResource("1_hiwpi")
+subject = 5
+text = "Comment dit-on 'vert' en anglais ?"
+correct_answer = "green"
+choices = Array[String](["black", "orange", "yellow"])
+
+[sub_resource type="Resource" id="Resource_qf2cb"]
+script = ExtResource("1_hiwpi")
+subject = 5
+text = "Comment dit-on 'jeudi' en anglais ?"
+correct_answer = "thursday"
+choices = Array[String](["friday", "sunday", "wednesday"])
+
+[sub_resource type="Resource" id="Resource_urllv"]
+script = ExtResource("1_hiwpi")
+subject = 5
+text = "Que veut dire 'black' en français ?"
+correct_answer = "noir"
+choices = Array[String](["rose", "jaune", "blanc"])
+
+[sub_resource type="Resource" id="Resource_jnwre"]
+script = ExtResource("1_hiwpi")
+subject = 5
+text = "Comment dit-on 'deux' en anglais ?"
+correct_answer = "two"
+choices = Array[String](["eight", "nine", "ten"])
+
+[sub_resource type="Resource" id="Resource_3gmqs"]
+script = ExtResource("1_hiwpi")
+subject = 5
+text = "Comment dit-on 'bleu' en anglais ?"
+correct_answer = "blue"
+choices = Array[String](["green", "yellow", "white"])
+
+[sub_resource type="Resource" id="Resource_covg2"]
+script = ExtResource("1_hiwpi")
+subject = 5
+text = "Comment dit-on 'novembre' en anglais ?"
+correct_answer = "november"
+choices = Array[String](["may", "july", "october"])
+
+[sub_resource type="Resource" id="Resource_mjfk8"]
+script = ExtResource("1_hiwpi")
+subject = 5
+text = "Comment dit-on 'septembre' en anglais ?"
+correct_answer = "september"
+choices = Array[String](["december", "january", "july"])
+
+[resource]
+script = ExtResource("2_48skp")
+questions = Array[ExtResource("1_hiwpi")]([SubResource("Resource_hiwpi"), SubResource("Resource_48skp"), SubResource("Resource_ed6gt"), SubResource("Resource_1casu"), SubResource("Resource_do3bh"), SubResource("Resource_ts3qd"), SubResource("Resource_rv4jo"), SubResource("Resource_d15v0"), SubResource("Resource_3ho6c"), SubResource("Resource_e32ya"), SubResource("Resource_jftbp"), SubResource("Resource_y2nyb"), SubResource("Resource_p12lt"), SubResource("Resource_xrw8q"), SubResource("Resource_tfof5"), SubResource("Resource_15rd3"), SubResource("Resource_ftkm3"), SubResource("Resource_b5lhy"), SubResource("Resource_jh1qy"), SubResource("Resource_lor2l"), SubResource("Resource_hek41"), SubResource("Resource_sftme"), SubResource("Resource_h2po4"), SubResource("Resource_cawg7"), SubResource("Resource_pbixd"), SubResource("Resource_t03t5"), SubResource("Resource_25x0o"), SubResource("Resource_x5i67"), SubResource("Resource_adyrq"), SubResource("Resource_5f7rp"), SubResource("Resource_vduh2"), SubResource("Resource_ijvan"), SubResource("Resource_pr0fj"), SubResource("Resource_7k5oh"), SubResource("Resource_qf2cb"), SubResource("Resource_urllv"), SubResource("Resource_jnwre"), SubResource("Resource_3gmqs"), SubResource("Resource_covg2"), SubResource("Resource_mjfk8")])
