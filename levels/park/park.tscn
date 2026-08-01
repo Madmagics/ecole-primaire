@@ -12,26 +12,50 @@
 [ext_resource type="MultiMesh" path="res://levels/park/park_grass_instances.tres" id="20_grassdata"]
 [ext_resource type="Script" uid="uid://2juaclm8gc1n" path="res://addons/simplegrasstextured/grass.gd" id="6_0r8vx"]
 [ext_resource type="PackedScene" uid="uid://7356npxenrso" path="res://ui/hud/coin_hud.tscn" id="6_jg8l3"]
+[ext_resource type="PackedScene" path="res://entities/decor/rocks/rock_medium_1.tscn" id="7_a0oti"]
 [ext_resource type="PackedScene" uid="uid://b3khbowwpo0ln" path="res://ui/collection/card_album.tscn" id="7_alb1m"]
 [ext_resource type="PackedScene" path="res://ui/loot_feed/loot_feed.tscn" id="7_loot"]
+[ext_resource type="PackedScene" path="res://entities/decor/trees/tree_common_3.tscn" id="7_nmbjc"]
+[ext_resource type="PackedScene" path="res://entities/decor/trees/tree_common_5.tscn" id="8_pt2js"]
+[ext_resource type="PackedScene" path="res://entities/decor/trees/tree_common_1.tscn" id="9_6fp56"]
 [ext_resource type="PackedScene" path="res://entities/shop_kiosk/shop_kiosk.tscn" id="10_kiosk"]
+[ext_resource type="PackedScene" path="res://entities/decor/trees/tree_common_4.tscn" id="11_jsh1l"]
 [ext_resource type="PackedScene" path="res://ui/shop/shop_panel.tscn" id="11_kiosk"]
+[ext_resource type="PackedScene" path="res://entities/decor/trees/tree_dead_4.tscn" id="12_60pyp"]
 [ext_resource type="Script" uid="uid://d24av07ikqoir" path="res://data/loot/loot_table_resource.gd" id="12_kiosk"]
 [ext_resource type="Resource" uid="uid://4565osua5sbk" path="res://data/loot/resources/crate_peu_commun.tres" id="13_crate"]
+[ext_resource type="PackedScene" path="res://entities/decor/trees/tree_dead_7.tscn" id="13_rceas"]
 [ext_resource type="Resource" uid="uid://bogoeyragworm" path="res://data/loot/resources/crate_rare.tres" id="14_crate"]
+[ext_resource type="PackedScene" path="res://entities/decor/trees/tree_maple_3.tscn" id="14_ueutm"]
 [ext_resource type="Resource" uid="uid://e2yceusxmtst" path="res://data/loot/resources/crate_epique.tres" id="15_crate"]
+[ext_resource type="PackedScene" path="res://entities/decor/trees/tree_maple_4.tscn" id="15_kv3eu"]
+[ext_resource type="PackedScene" path="res://entities/decor/trees/tree_maple_5.tscn" id="16_a0oti"]
 [ext_resource type="Resource" uid="uid://demxxpica4rqb" path="res://data/loot/resources/crate_legendaire.tres" id="16_crate"]
 [ext_resource type="PackedScene" path="res://ui/game_menu/game_menu_panel.tscn" id="17_menu"]
+[ext_resource type="PackedScene" path="res://entities/decor/trees/tree_maple_2.tscn" id="18_dquhy"]
+[ext_resource type="PackedScene" path="res://entities/decor/trees/tree_pine_4.tscn" id="20_w3gaj"]
 [ext_resource type="Script" uid="uid://1lj0s1yfs7nw" path="res://entities/world_view/world_view_blur.gd" id="20_wview"]
+[ext_resource type="PackedScene" path="res://entities/decor/trees/tree_pine_5.tscn" id="21_p8ky4"]
 [ext_resource type="Shader" uid="uid://co8xas4k4ejk7" path="res://entities/world_view/world_blur.gdshader" id="21_wblur"]
+[ext_resource type="PackedScene" path="res://entities/decor/trees/tree_pine_1.tscn" id="22_3dosr"]
 [ext_resource type="Script" uid="uid://bunkqsd4e4a20" path="res://ui/hud/menu_toggle_button.gd" id="22_menutoggle"]
+[ext_resource type="PackedScene" path="res://entities/decor/trees/tree_twisted_2.tscn" id="23_ueutm"]
+[ext_resource type="PackedScene" path="res://entities/decor/trees/tree_twisted_3.tscn" id="24_kv3eu"]
+[ext_resource type="PackedScene" path="res://entities/decor/trees/tree_twisted_4.tscn" id="25_a0oti"]
+[ext_resource type="PackedScene" path="res://entities/decor/trees/tree_twisted_5.tscn" id="26_dquhy"]
+[ext_resource type="PackedScene" path="res://entities/decor/rocks/rockpath_square_wide.tscn" id="29_kv3eu"]
 [ext_resource type="PackedScene" path="res://entities/decor/trees/tree_birch_1.tscn" id="30_treebirch1"]
 [ext_resource type="PackedScene" path="res://entities/decor/trees/tree_common_2.tscn" id="30_treecommon2"]
 [ext_resource type="PackedScene" path="res://entities/decor/trees/tree_maple_1.tscn" id="30_treemaple1"]
 [ext_resource type="PackedScene" path="res://entities/decor/trees/tree_pine_2.tscn" id="30_treepine2"]
+[ext_resource type="PackedScene" path="res://entities/decor/bushes/bush_common.tscn" id="31_p8ky4"]
+[ext_resource type="PackedScene" path="res://entities/decor/mushrooms/mushroom_common.tscn" id="32_3dosr"]
 [ext_resource type="PackedScene" path="res://entities/decor/park_gate.tscn" id="32_gate"]
+[ext_resource type="PackedScene" path="res://entities/decor/mushrooms/mushroom_laetiporus.tscn" id="33_ln1x8"]
 [ext_resource type="PackedScene" path="res://ui/inventory/inventory_panel.tscn" id="40_inventory"]
 [ext_resource type="PackedScene" path="res://ui/onboarding/welcome_panel.tscn" id="41_welcome"]
+[ext_resource type="PackedScene" path="res://entities/decor/rocks/rock_medium_3.tscn" id="50_w3gaj"]
+[ext_resource type="PackedScene" path="res://entities/decor/rocks/rock_medium_2.tscn" id="51_p8ky4"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_blur"]
 shader = ExtResource("21_wblur")
@@ -68,7 +92,7 @@ size = Vector2(1000, 1000)
 material = SubResource("StandardMaterial3D_grass")
 size = Vector2(50, 50)
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_admiq"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_0r8vx"]
 render_priority = 0
 shader = ExtResource("3_1afdi")
 shader_parameter/albedo = Color(0.79400486, 0.7245432, 0.15996924, 1)
@@ -82,7 +106,7 @@ shader_parameter/metallic_texture_channel = Vector4(1, 0, 0, 0)
 shader_parameter/roughness = 1.0
 shader_parameter/roughness_texture_channel = Vector4(1, 0, 0, 0)
 shader_parameter/specular = 0.5
-shader_parameter/scale_h = 1.0
+shader_parameter/scale_h = 0.7
 shader_parameter/scale_w = 1.0
 shader_parameter/scale_var = -0.25
 shader_parameter/grass_strength = 0.55
@@ -183,7 +207,7 @@ environment = SubResource("Environment_park")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.03, -25)
 mesh = SubResource("PlaneMesh_horizon")
 
-[node name="ParkPreview" type="Node3D" parent="WorldViewport/SubViewport"]
+[node name="ParkPreview" type="Node3D" parent="WorldViewport/SubViewport" unique_id=1799258211]
 
 [node name="Ground" type="StaticBody3D" parent="WorldViewport/SubViewport/ParkPreview" unique_id=338180402]
 
@@ -191,19 +215,20 @@ mesh = SubResource("PlaneMesh_horizon")
 mesh = SubResource("PlaneMesh_1")
 
 [node name="SimpleGrassTextured" type="MultiMeshInstance3D" parent="WorldViewport/SubViewport/ParkPreview/Ground/MeshInstance3D" unique_id=171136092]
-material_override = SubResource("ShaderMaterial_admiq")
+material_override = SubResource("ShaderMaterial_0r8vx")
 multimesh = ExtResource("20_grassdata")
 script = ExtResource("6_0r8vx")
 albedo = Color(0.79400486, 0.7245432, 0.15996924, 1)
+scale_h = 0.7
 interactive = false
-sgt_radius = 3.5
+sgt_radius = 1.0
 sgt_density = 160
-sgt_scale = 2.5
+sgt_scale = 1.0
 sgt_rotation = 0.0
 sgt_rotation_rand = 1.0
-sgt_dist_min = 0.25
+sgt_dist_min = 0.94
 sgt_follow_normal = false
-sgt_slope = Vector2(0, 45)
+sgt_slope = Vector2(0, 29)
 sgt_tool_shape = {
 "airbrush": 1,
 "eraser": 0,
@@ -251,6 +276,445 @@ shape = SubResource("BoxShape3D_WallEW")
 [node name="Decor" type="Node3D" parent="WorldViewport/SubViewport/ParkPreview" unique_id=887479933]
 
 [node name="Trees" type="Node3D" parent="WorldViewport/SubViewport/ParkPreview/Decor" unique_id=340301603]
+
+[node name="TreeCommon3" parent="WorldViewport/SubViewport/ParkPreview/Decor/Trees" unique_id=334347927 instance=ExtResource("7_nmbjc")]
+transform = Transform3D(0.33664054, 0, 0.9416332, 0, 1, 0, -0.9416332, 0, 0.33664054, -13.206986, 0.24277201, 12.550084)
+
+[node name="TreeCommon5" parent="WorldViewport/SubViewport/ParkPreview/Decor/Trees" unique_id=1283920123 instance=ExtResource("8_pt2js")]
+transform = Transform3D(-0.20516197, 0, -0.97872806, 0, 1, 0, 0.97872806, 0, -0.20516197, -22.813477, 0.24277201, 20.548346)
+
+[node name="TreeCommon4" parent="WorldViewport/SubViewport/ParkPreview/Decor/Trees" unique_id=2129322037 instance=ExtResource("7_nmbjc")]
+transform = Transform3D(-0.98414916, 0, 0.17734288, 0, 1, 0, -0.17734288, 0, -0.98414916, -13.782906, 0.24277201, 21.928486)
+
+[node name="TreeCommon1" parent="WorldViewport/SubViewport/ParkPreview/Decor/Trees" unique_id=1040461944 instance=ExtResource("9_6fp56")]
+transform = Transform3D(0.58371913, 0, -0.81195563, 0, 1, 0, 0.81195563, 0, 0.58371913, -22.684542, 0.24277249, 1.068883)
+
+[node name="TreeCommon2" parent="WorldViewport/SubViewport/ParkPreview/Decor/Trees" unique_id=111096956 instance=ExtResource("30_treecommon2")]
+transform = Transform3D(0.25908148, 0, 0.9658555, 0, 1, 0, -0.9658555, 0, 0.25908148, -21.199417, 0.24277249, -2.8255634)
+
+[node name="TreeCommon6" parent="WorldViewport/SubViewport/ParkPreview/Decor/Trees" unique_id=742956057 instance=ExtResource("7_nmbjc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.939882, 0.24277201, -3.869215)
+
+[node name="TreeCommon7" parent="WorldViewport/SubViewport/ParkPreview/Decor/Trees" unique_id=1989139875 instance=ExtResource("11_jsh1l")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.76371, 0.24277201, -1.4585676)
+
+[node name="TreeCommon8" parent="WorldViewport/SubViewport/ParkPreview/Decor/Trees" unique_id=235403171 instance=ExtResource("8_pt2js")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.051302, 0.24277297, 5.9173813)
+
+[node name="TreeCommon9" parent="WorldViewport/SubViewport/ParkPreview/Decor/Trees" unique_id=1264995069 instance=ExtResource("8_pt2js")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.544591, 0.24277201, 20.485878)
+
+[node name="TreeCommon10" parent="WorldViewport/SubViewport/ParkPreview/Decor/Trees" unique_id=761232288 instance=ExtResource("11_jsh1l")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20.355759, 0.24277297, -9.061977)
+
+[node name="TreeCommon11" parent="WorldViewport/SubViewport/ParkPreview/Decor/Trees" unique_id=94619713 instance=ExtResource("11_jsh1l")]
+transform = Transform3D(-0.25295088, 0, 0.9674791, 0, 1, 0, -0.9674791, 0, -0.25295088, -22.258217, 0.24277201, -15.403524)
+
+[node name="TreeCommon12" parent="WorldViewport/SubViewport/ParkPreview/Decor/Trees" unique_id=1793393341 instance=ExtResource("7_nmbjc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.087891, 0.24277201, 14.210905)
+
+[node name="TreeCommon13" parent="WorldViewport/SubViewport/ParkPreview/Decor/Trees" unique_id=1908826562 instance=ExtResource("30_treecommon2")]
+transform = Transform3D(0.8964282, 0, 0.443189, 0, 1, 0, -0.443189, 0, 0.8964282, 17.439083, 0.24277201, 14.596912)
+
+[node name="TreeCommon14" parent="WorldViewport/SubViewport/ParkPreview/Decor/Trees" unique_id=1473550622 instance=ExtResource("9_6fp56")]
+transform = Transform3D(-0.030277437, 0, -0.9995415, 0, 1, 0, 0.9995415, 0, -0.030277437, 12.983959, 0.24277201, 16.336033)
+
+[node name="TreeCommon15" parent="WorldViewport/SubViewport/ParkPreview/Decor/Trees" unique_id=1346916569 instance=ExtResource("30_treecommon2")]
+transform = Transform3D(0.8976762, 0, -0.44065568, 0, 1, 0, 0.44065568, 0, 0.8976762, 8.8284855, 0.24277201, -22.380526)
+
+[node name="TreeCommon16" parent="WorldViewport/SubViewport/ParkPreview/Decor/Trees" unique_id=1561915304 instance=ExtResource("9_6fp56")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.224892, 0.24277201, -22.246212)
+
+[node name="TreeCommon17" parent="WorldViewport/SubViewport/ParkPreview/Decor/Trees" unique_id=2102416516 instance=ExtResource("8_pt2js")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19.06459, 0.24277201, -8.471821)
+
+[node name="TreeCommon18" parent="WorldViewport/SubViewport/ParkPreview/Decor/Trees" unique_id=1614733914 instance=ExtResource("11_jsh1l")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.003533, 0.24277201, -15.489454)
+
+[node name="TreeCommon19" parent="WorldViewport/SubViewport/ParkPreview/Decor/Trees" unique_id=379446708 instance=ExtResource("30_treecommon2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.298826, 0.24277392, 0.9743278)
+
+[node name="TreeCommon20" parent="WorldViewport/SubViewport/ParkPreview/Decor/Trees" unique_id=368517939 instance=ExtResource("9_6fp56")]
+transform = Transform3D(0.3918755, 0, 0.92001826, 0, 1, 0, -0.92001826, 0, 0.3918755, 22.383036, 0.752965, 8.812279)
+
+[node name="TreeDead4" parent="WorldViewport/SubViewport/ParkPreview/Decor/Trees" unique_id=2003271580 instance=ExtResource("12_60pyp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.642399, 0.3355546, 13.801281)
+
+[node name="TreeDead7" parent="WorldViewport/SubViewport/ParkPreview/Decor/Trees" unique_id=174908692 instance=ExtResource("13_rceas")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.27326, 0, 4.5162506)
+
+[node name="TreeMaple3" parent="WorldViewport/SubViewport/ParkPreview/Decor/Trees" unique_id=357363277 instance=ExtResource("14_ueutm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.67374, 0, -4.3212585)
+
+[node name="TreeMaple4" parent="WorldViewport/SubViewport/ParkPreview/Decor/Trees" unique_id=859794228 instance=ExtResource("15_kv3eu")]
+transform = Transform3D(0.20488688, 0, 0.97878563, 0, 1, 0, -0.97878563, 0, 0.20488688, 11.163965, 0.005346969, -7.621067)
+
+[node name="TreeMaple5" parent="WorldViewport/SubViewport/ParkPreview/Decor/Trees" unique_id=1061454420 instance=ExtResource("16_a0oti")]
+transform = Transform3D(0.4824704, 0, -0.8759123, 0, 1, 0, 0.8759123, 0, 0.4824704, 13.8366375, 0, -9.669635)
+
+[node name="TreeMaple1" parent="WorldViewport/SubViewport/ParkPreview/Decor/Trees" unique_id=1567205465 instance=ExtResource("30_treemaple1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.926256, 0, -9.259441)
+
+[node name="TreeMaple2" parent="WorldViewport/SubViewport/ParkPreview/Decor/Trees" unique_id=1717589656 instance=ExtResource("18_dquhy")]
+transform = Transform3D(-0.99369365, 0, -0.11212903, 0, 1, 0, 0.11212903, 0, -0.99369365, -7.4844418, -9.536743e-07, -20.37908)
+
+[node name="TreeMaple6" parent="WorldViewport/SubViewport/ParkPreview/Decor/Trees" unique_id=1745878307 instance=ExtResource("30_treemaple1")]
+transform = Transform3D(-0.5814826, 0, 0.8135589, 0, 1, 0, -0.8135589, 0, -0.5814826, -15.33935, 9.536743e-07, -21.777248)
+
+[node name="TreeMaple7" parent="WorldViewport/SubViewport/ParkPreview/Decor/Trees" unique_id=591739258 instance=ExtResource("15_kv3eu")]
+transform = Transform3D(-0.13400348, 0, -0.99098086, 0, 1, 0, 0.99098086, 0, -0.13400348, -5.84363, 0.005346969, -18.192543)
+
+[node name="TreeMaple8" parent="WorldViewport/SubViewport/ParkPreview/Decor/Trees" unique_id=826158023 instance=ExtResource("18_dquhy")]
+transform = Transform3D(0.12247498, 0, 0.9924716, 0, 1, 0, -0.9924716, 0, 0.12247498, -10.153784, 0, 16.330566)
+
+[node name="TreeMaple9" parent="WorldViewport/SubViewport/ParkPreview/Decor/Trees" unique_id=1300337930 instance=ExtResource("14_ueutm")]
+transform = Transform3D(0.70382863, 0, 0.7103698, 0, 1, 0, -0.7103698, 0, 0.70382863, 7.5239367, 4, 24.78852)
+
+[node name="TreePine2" parent="WorldViewport/SubViewport/ParkPreview/Decor/Trees" unique_id=1797150606 instance=ExtResource("30_treepine2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.14806, 0.2350886, 19.473972)
+
+[node name="TreePine4" parent="WorldViewport/SubViewport/ParkPreview/Decor/Trees" unique_id=806013755 instance=ExtResource("20_w3gaj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.256128, 0.23508862, 4.4557247)
+
+[node name="TreePine5" parent="WorldViewport/SubViewport/ParkPreview/Decor/Trees" unique_id=1986809375 instance=ExtResource("21_p8ky4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.960117, 0.23508862, 18.832352)
+
+[node name="TreePine1" parent="WorldViewport/SubViewport/ParkPreview/Decor/Trees" unique_id=1885968106 instance=ExtResource("22_3dosr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.561596, 0.23509051, 20.547102)
+
+[node name="TreePine6" parent="WorldViewport/SubViewport/ParkPreview/Decor/Trees" unique_id=965353531 instance=ExtResource("21_p8ky4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.183285, 0.23508862, 12.99955)
+
+[node name="TreePine7" parent="WorldViewport/SubViewport/ParkPreview/Decor/Trees" unique_id=810708878 instance=ExtResource("20_w3gaj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.666487, 0.23508862, 22.134258)
+
+[node name="TreeTwisted2" parent="WorldViewport/SubViewport/ParkPreview/Decor/Trees" unique_id=294288267 instance=ExtResource("23_ueutm")]
+transform = Transform3D(-0.36740497, 0, -0.9300611, 0, 1, 0, 0.9300611, 0, -0.36740497, -20.554749, 0.20147468, -20.66428)
+
+[node name="TreeTwisted3" parent="WorldViewport/SubViewport/ParkPreview/Decor/Trees" unique_id=1527760784 instance=ExtResource("24_kv3eu")]
+transform = Transform3D(-0.64431906, 0, 0.7647568, 0, 1, 0, -0.7647568, 0, -0.64431906, 18.102644, 0.20147468, -22.440145)
+
+[node name="TreeTwisted4" parent="WorldViewport/SubViewport/ParkPreview/Decor/Trees" unique_id=282440565 instance=ExtResource("25_a0oti")]
+transform = Transform3D(-0.074545234, 0, 0.99721766, 0, 1, 0, -0.99721766, 0, -0.074545234, 23.656544, 0.20147468, -4.468067)
+
+[node name="TreeTwisted5" parent="WorldViewport/SubViewport/ParkPreview/Decor/Trees" unique_id=1244151507 instance=ExtResource("26_dquhy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.530281, 0.20147468, 13.738032)
+
+[node name="Rocks" type="Node3D" parent="WorldViewport/SubViewport/ParkPreview/Decor" unique_id=889207860]
+
+[node name="RockMedium3" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" unique_id=1340060086 instance=ExtResource("50_w3gaj")]
+transform = Transform3D(0.09979343, 0, 0.9950082, 0, 1, 0, -0.9950082, 0, 0.09979343, -15.57931, 0.3156444, -0.9920616)
+
+[node name="RockMedium2" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" unique_id=472784807 instance=ExtResource("51_p8ky4")]
+transform = Transform3D(0.6190748, 0, -0.785332, 0, 1, 0, 0.785332, 0, 0.6190748, 15.201348, 0.05084159, 8.42584)
+
+[node name="RockMedium4" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" unique_id=916564227 instance=ExtResource("50_w3gaj")]
+transform = Transform3D(0.7835992, 0, -0.6212667, 0, 1, 0, 0.6212667, 0, 0.7835992, 15.310498, 0.3156444, -6.870571)
+
+[node name="RockpathSquareWide" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" unique_id=394751178 instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.269597, 0.010146241, 1.1289859)
+
+[node name="RockpathSquareWide2" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" unique_id=1598017903 instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.6312225, 0.010145764, 1.1350671)
+
+[node name="RockpathSquareWide3" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" unique_id=42872601 instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.2545396, 0.010146241, -0.841187)
+
+[node name="RockpathSquareWide4" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" unique_id=1115966474 instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.72386366, 0.010146241, -0.85056233)
+
+[node name="RockpathSquareWide" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks/RockpathSquareWide4" unique_id=285370932 instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.048445, 0.010146241, 3.6298075)
+
+[node name="RockpathSquareWide2" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks/RockpathSquareWide4" unique_id=429742222 instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.9492645, 0.010145764, 3.6358888)
+
+[node name="RockpathSquareWide3" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks/RockpathSquareWide4" unique_id=100111741 instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.063503, 0.010146241, 1.6596346)
+
+[node name="RockpathSquareWide4" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks/RockpathSquareWide4" unique_id=47375054 instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.041906, 0.010146241, 1.6502593)
+
+[node name="RockpathSquareWide5" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" unique_id=1901003903 instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.4221485, 0.010146241, -2.7972667)
+
+[node name="RockpathSquareWide6" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" unique_id=138247106 instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.6264527, 0.010146241, -2.8127573)
+
+[node name="RockpathSquareWide7" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" unique_id=1772303205 instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.0486386, 0.010146241, -4.7852955)
+
+[node name="RockpathSquareWide8" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" unique_id=328516221 instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.9565688, 0.010146241, -4.7701902)
+
+[node name="RockpathSquareWide9" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" unique_id=1148825860 instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.3285444, 0.010147194, 3.075663)
+
+[node name="RockpathSquareWide10" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" unique_id=352173324 instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.7098268, 0.010146241, 3.1189117)
+
+[node name="RockpathSquareWide11" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.68478936, 0.030438245000000003, 2.7669732700000003)
+
+[node name="RockpathSquareWide12" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.58560916, 0.030437768, 2.7730543700000005)
+
+[node name="RockpathSquareWide13" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.69984696, 0.030438245000000003, 0.7968004227000001)
+
+[node name="RockpathSquareWide14" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.67825006, 0.030438245000000003, 0.7874250890000001)
+
+[node name="RockpathSquareWide15" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.414139460000001, 0.040584487, 6.724348589)
+
+[node name="RockpathSquareWide16" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.31495926, 0.040584010000000004, 6.730429689)
+
+[node name="RockpathSquareWide17" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.42919706, 0.040584487, 4.754175689)
+
+[node name="RockpathSquareWide18" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.407600160000001, 0.040584487, 4.744800589)
+
+[node name="RockpathSquareWide19" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.434965860000001, 0.050730729, 6.742103589)
+
+[node name="RockpathSquareWide20" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.335785659999999, 0.050730252, 6.748184589)
+
+[node name="RockpathSquareWide21" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.45002336, 0.050730729, 4.771930716)
+
+[node name="RockpathSquareWide22" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.42842646, 0.050730729, 4.762555621)
+
+[node name="RockpathSquareWide23" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.4608054600000004, 0.060876971, 6.846913321)
+
+[node name="RockpathSquareWide24" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.36162546, 0.060876494, 6.852994421)
+
+[node name="RockpathSquareWide25" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.4758631600000003, 0.060876971, 4.876740481)
+
+[node name="RockpathSquareWide26" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.45426626, 0.060876971, 4.867364905)
+
+[node name="RockpathSquareWide27" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.6311081399999994, 0.071023213, 7.105262305)
+
+[node name="RockpathSquareWide28" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.26971165999999946, 0.071022736, 7.111343405)
+
+[node name="RockpathSquareWide29" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.6160507399999995, 0.071023213, 5.1350894049999996)
+
+[node name="RockpathSquareWide30" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.3623525600000005, 0.071023213, 5.125714325)
+
+[node name="RockpathSquareWide31" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.694129739999997, 0.081169451, 7.064085025)
+
+[node name="RockpathSquareWide32" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.7933099399999994, 0.081168974, 7.070166125)
+
+[node name="RockpathSquareWide33" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.679072239999999, 0.081169451, 5.093912148)
+
+[node name="RockpathSquareWide34" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.700669139999998, 0.081169451, 5.084537052)
+
+[node name="RockpathSquareWide35" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.85284454, 0.091315689, 7.121128052)
+
+[node name="RockpathSquareWide36" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.71764414, 0.09131521199999999, 7.101260652)
+
+[node name="RockpathSquareWide37" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.83778814, 0.091315689, 5.150955222)
+
+[node name="RockpathSquareWide38" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.859384339999997, 0.091315689, 5.141579652)
+
+[node name="RockpathSquareWide39" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.53372504, 0.10146192700000001, 3.168782952)
+
+[node name="RockpathSquareWide40" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.63290624, 0.10146145000000001, 3.174864052)
+
+[node name="RockpathSquareWide41" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.518668439999999, 0.10146192700000001, 1.198610052)
+
+[node name="RockpathSquareWide42" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.540264889999999, 0.10146192700000001, 1.1892349520000003)
+
+[node name="RockpathSquareWide43" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.604031889999998, 0.11160816500000001, 3.322762752)
+
+[node name="RockpathSquareWide44" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.703211889999999, 0.11160768800000001, 3.3288439520000006)
+
+[node name="RockpathSquareWide45" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.58897429, 0.11160816500000001, 1.3525898220000003)
+
+[node name="RockpathSquareWide46" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.610571189999998, 0.11160816500000001, 1.3432144920000002)
+
+[node name="RockpathSquareWide47" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.85704449, 0.12175440300000001, 7.112777492)
+
+[node name="RockpathSquareWide48" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.956224719999998, 0.12175392600000001, 7.118858792)
+
+[node name="RockpathSquareWide49" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.841986889999998, 0.12175440300000001, 5.142604792)
+
+[node name="RockpathSquareWide50" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.863583849999998, 0.12175440300000001, 5.133229192)
+
+[node name="RockpathSquareWide51" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.2794202, 0.030438722, 1.1050824449999999)
+
+[node name="RockpathSquareWide52" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.3786002, 0.030438245000000003, 1.1111635450000001)
+
+[node name="RockpathSquareWide53" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.2643622, 0.030438722, -0.8650904549999998)
+
+[node name="RockpathSquareWide54" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2859594999999997, 0.030438722, -0.8744657550000001)
+
+[node name="RockpathSquareWide55" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.4319722, 0.030438722, -2.8211703549999996)
+
+[node name="RockpathSquareWide56" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.3833702000000008, 0.030438722, -2.8366607549999996)
+
+[node name="RockpathSquareWide57" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.058461199999999, 0.030438722, -4.809198755)
+
+[node name="RockpathSquareWide58" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.0532541999999996, 0.030438722, -4.794093755)
+
+[node name="RockpathSquareWide59" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.338368200000001, 0.030439675, 3.051759676)
+
+[node name="RockpathSquareWide60" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2999962, 0.030438722, 3.0950083299999998)
+
+[node name="RockpathSquareWide61" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.0465010000000001, 0.040584964, -8.78912567)
+
+[node name="RockpathSquareWide62" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.8543188000000005, 0.040584487, -8.783045670000002)
+
+[node name="RockpathSquareWide63" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.0314433999999997, 0.040584964, -10.759298670000002)
+
+[node name="RockpathSquareWide64" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.9469598, 0.040584964, -10.76867567)
+
+[node name="RockpathSquareWide65" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.1990526, 0.040584964, -12.715378670000002)
+
+[node name="RockpathSquareWide66" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.8495484999999999, 0.040584964, -12.73086967)
+
+[node name="RockpathSquareWide67" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.8255422000000002, 0.040584964, -14.703407669999999)
+
+[node name="RockpathSquareWide68" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.1796648000000003, 0.040584964, -14.688303669999998)
+
+[node name="RockpathSquareWide69" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.1054484999999996, 0.040585917, -6.842449670000001)
+
+[node name="RockpathSquareWide70" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.9329227999999999, 0.040584964, -6.799200670000001)
+
+[node name="RockpathSquareWide71" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.9199159999999998, 0.050732159, -18.63759667)
+
+[node name="RockpathSquareWide72" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.980903585, 0.0507316825, -18.63151467)
+
+[node name="RockpathSquareWide73" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.9048585000000006, 0.050732159, -20.607769670000003)
+
+[node name="RockpathSquareWide74" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.0735447000000002, 0.050732159, -20.617144670000002)
+
+[node name="RockpathSquareWide75" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.0724673999999998, 0.050732159, -22.56384767)
+
+[node name="RockpathSquareWide76" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.9761337829999998, 0.050732159, -22.57933867)
+
+[node name="RockpathSquareWide77" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.6989574999999998, 0.050732159, -24.55187667)
+
+[node name="RockpathSquareWide78" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3062498199999997, 0.050732159, -24.536772669999998)
+
+[node name="RockpathSquareWide79" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.9788632999999997, 0.050733113, -16.690918670000002)
+
+[node name="RockpathSquareWide80" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.0595079299999997, 0.050732159, -16.64766967)
+
+[node name="RockpathSquareWide" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks/RockpathSquareWide10" unique_id=990878225 instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.015149, 0.010146241, -2.0687723)
+
+[node name="RockpathSquareWide2" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks/RockpathSquareWide10" unique_id=927373995 instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.915969, 0.010145764, -2.0626912)
+
+[node name="RockpathSquareWide3" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks/RockpathSquareWide10" unique_id=169663460 instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.0302067, 0.010146241, -4.038945)
+
+[node name="RockpathSquareWide4" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks/RockpathSquareWide10" unique_id=1377182420 instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.0086102, 0.010146241, -4.048321)
+
+[node name="RockpathSquareWide5" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks/RockpathSquareWide10" unique_id=1886978616 instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.8625981, 0.010146241, -5.9950247)
+
+[node name="RockpathSquareWide6" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks/RockpathSquareWide10" unique_id=1224082667 instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.911199, 0.010146241, -6.010515)
+
+[node name="RockpathSquareWide7" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks/RockpathSquareWide10" unique_id=253026855 instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.2361078, 0.010146241, -7.9830537)
+
+[node name="RockpathSquareWide8" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks/RockpathSquareWide10" unique_id=1520957228 instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.2413154, 0.010146241, -7.9679484)
+
+[node name="RockpathSquareWide9" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks/RockpathSquareWide10" unique_id=375897303 instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.9562021, 0.010147194, -0.12209511)
+
+[node name="RockpathSquareWide10" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks/RockpathSquareWide10" unique_id=1523579517 instance=ExtResource("29_kv3eu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.994573, 0.010146241, -0.078846455)
+
+[node name="RockMedium1" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" unique_id=170446843 instance=ExtResource("7_a0oti")]
+transform = Transform3D(0.026650805, 0, -0.9996448, 0, 1, 0, 0.9996448, 0, 0.026650805, -15.968115, 0.27113134, 0.5916567)
+
+[node name="RockMedium5" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" unique_id=989927019 instance=ExtResource("51_p8ky4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.6451983, 0.050842542, 8.701402)
+
+[node name="RockMedium6" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" unique_id=698639910 instance=ExtResource("50_w3gaj")]
+transform = Transform3D(0.36985022, 0, 0.9290914, 0, 1, 0, -0.9290914, 0, 0.36985022, 5.5175214, 0.3156444, -2.3188295)
+
+[node name="BushCommon" parent="WorldViewport/SubViewport/ParkPreview/Decor" unique_id=144023470 instance=ExtResource("31_p8ky4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.679804, 0.2346947, 0.7096958)
+
+[node name="Mushrooms" type="Node3D" parent="WorldViewport/SubViewport/ParkPreview/Decor" unique_id=1449781924]
+
+[node name="MushroomCommon" parent="WorldViewport/SubViewport/ParkPreview/Decor/Mushrooms" unique_id=1762258706 instance=ExtResource("32_3dosr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.012041, 0.017470969, 7.103953)
+
+[node name="MushroomLaetiporus" parent="WorldViewport/SubViewport/ParkPreview/Decor/Mushrooms" unique_id=1880277335 instance=ExtResource("33_ln1x8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.976252, 1.9865808, -3.5345566)
+
+[node name="MushroomLaetiporus2" parent="WorldViewport/SubViewport/ParkPreview/Decor/Mushrooms" unique_id=271138092 instance=ExtResource("33_ln1x8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.585236, 1.0857925, 14.152399)
 
 [node name="ParkGate" parent="WorldViewport/SubViewport/ParkPreview" unique_id=1317087447 instance=ExtResource("32_gate")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -25)
@@ -305,18 +769,18 @@ mesh = SubResource("CylinderMesh_tent")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 1.25, -55)
 mesh = SubResource("CylinderMesh_tent2")
 
-[node name="Trees" type="Node3D" parent="WorldViewport/SubViewport/FairgroundPreview"]
+[node name="Trees" type="Node3D" parent="WorldViewport/SubViewport/FairgroundPreview" unique_id=119509837]
 
-[node name="Tree11" parent="WorldViewport/SubViewport/FairgroundPreview/Trees" instance=ExtResource("30_treebirch1")]
+[node name="Tree11" parent="WorldViewport/SubViewport/FairgroundPreview/Trees" unique_id=789554846 instance=ExtResource("30_treebirch1")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20, 0, -35)
 
-[node name="Tree12" parent="WorldViewport/SubViewport/FairgroundPreview/Trees" instance=ExtResource("30_treepine2")]
+[node name="Tree12" parent="WorldViewport/SubViewport/FairgroundPreview/Trees" unique_id=198719274 instance=ExtResource("30_treepine2")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20, 0, -65)
 
-[node name="Tree13" parent="WorldViewport/SubViewport/FairgroundPreview/Trees" instance=ExtResource("30_treemaple1")]
+[node name="Tree13" parent="WorldViewport/SubViewport/FairgroundPreview/Trees" unique_id=1954879625 instance=ExtResource("30_treemaple1")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -35)
 
-[node name="Tree14" parent="WorldViewport/SubViewport/FairgroundPreview/Trees" instance=ExtResource("30_treecommon2")]
+[node name="Tree14" parent="WorldViewport/SubViewport/FairgroundPreview/Trees" unique_id=1425383599 instance=ExtResource("30_treecommon2")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, -65)
 
 [node name="NPCs" type="Node3D" parent="WorldViewport/SubViewport" unique_id=1383072639]
