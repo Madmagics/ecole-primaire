@@ -2,11 +2,15 @@
 
 [ext_resource type="PackedScene" path="res://entities/player/player.tscn" id="1_osieq"]
 [ext_resource type="PackedScene" uid="uid://d0eooys5bc2s6" path="res://entities/npc/npc.tscn" id="2_c10w3"]
+[ext_resource type="Shader" uid="uid://bi3o8elbtqoni" path="res://addons/simplegrasstextured/shaders/grass.gdshader" id="3_1afdi"]
+[ext_resource type="Texture2D" uid="uid://c4ggdp0kg5wjk" path="res://addons/simplegrasstextured/textures/grassbushcc008.png" id="4_ctg5l"]
 [ext_resource type="PackedScene" path="res://ui/question_panel/question_panel.tscn" id="4_rb02j"]
 [ext_resource type="PackedScene" path="res://ui/reading_intro/reading_intro_panel.tscn" id="4_reading"]
 [ext_resource type="PackedScene" path="res://ui/subject_select/subject_select_panel.tscn" id="4_subject"]
 [ext_resource type="Resource" uid="uid://cdiy5ti42wmka" path="res://data/loot/resources/crate_commun.tres" id="5_1klq6"]
 [ext_resource type="PackedScene" path="res://ui/interact_prompt/interact_prompt.tscn" id="5_4xvba"]
+[ext_resource type="MultiMesh" path="res://levels/park/park_grass_instances.tres" id="20_grassdata"]
+[ext_resource type="Script" uid="uid://2juaclm8gc1n" path="res://addons/simplegrasstextured/grass.gd" id="6_0r8vx"]
 [ext_resource type="PackedScene" uid="uid://7356npxenrso" path="res://ui/hud/coin_hud.tscn" id="6_jg8l3"]
 [ext_resource type="PackedScene" uid="uid://b3khbowwpo0ln" path="res://ui/collection/card_album.tscn" id="7_alb1m"]
 [ext_resource type="PackedScene" path="res://ui/loot_feed/loot_feed.tscn" id="7_loot"]
@@ -24,6 +28,7 @@
 [ext_resource type="PackedScene" path="res://entities/decor/tree.tscn" id="30_tree"]
 [ext_resource type="PackedScene" path="res://entities/decor/park_gate.tscn" id="32_gate"]
 [ext_resource type="PackedScene" path="res://ui/inventory/inventory_panel.tscn" id="40_inventory"]
+[ext_resource type="PackedScene" path="res://ui/onboarding/welcome_panel.tscn" id="41_welcome"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_blur"]
 shader = ExtResource("21_wblur")
@@ -59,6 +64,34 @@ size = Vector2(1000, 1000)
 [sub_resource type="PlaneMesh" id="PlaneMesh_1"]
 material = SubResource("StandardMaterial3D_grass")
 size = Vector2(50, 50)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_admiq"]
+render_priority = 0
+shader = ExtResource("3_1afdi")
+shader_parameter/albedo = Color(0.79400486, 0.7245432, 0.15996924, 1)
+shader_parameter/texture_albedo = ExtResource("4_ctg5l")
+shader_parameter/texture_frames = Vector2(1, 1)
+shader_parameter/light_mode = 1
+shader_parameter/alpha_scissor_threshold = 0.5
+shader_parameter/normal_scale = 1.0
+shader_parameter/metallic = 0.0
+shader_parameter/metallic_texture_channel = Vector4(1, 0, 0, 0)
+shader_parameter/roughness = 1.0
+shader_parameter/roughness_texture_channel = Vector4(1, 0, 0, 0)
+shader_parameter/specular = 0.5
+shader_parameter/scale_h = 1.0
+shader_parameter/scale_w = 1.0
+shader_parameter/scale_var = -0.25
+shader_parameter/grass_strength = 0.55
+shader_parameter/optimization_by_distance = false
+shader_parameter/optimization_level = 7.0
+shader_parameter/optimization_dist_min = 10.0
+shader_parameter/optimization_dist_max = 50.0
+shader_parameter/grass_size_y = 1.0
+shader_parameter/interactive_mode = true
+shader_parameter/interactive_level_xz = 3.0
+shader_parameter/interactive_level_y = 0.3
+metadata/SimpleGrassTexturedMaterial = "2.1.0"
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_1"]
 size = Vector3(50, 1, 50)
@@ -151,6 +184,28 @@ mesh = SubResource("PlaneMesh_horizon")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="WorldViewport/SubViewport/Ground" unique_id=537150176]
 mesh = SubResource("PlaneMesh_1")
+
+[node name="SimpleGrassTextured" type="MultiMeshInstance3D" parent="WorldViewport/SubViewport/Ground/MeshInstance3D" unique_id=171136092]
+material_override = SubResource("ShaderMaterial_admiq")
+multimesh = ExtResource("20_grassdata")
+script = ExtResource("6_0r8vx")
+albedo = Color(0.79400486, 0.7245432, 0.15996924, 1)
+interactive = false
+sgt_radius = 3.5
+sgt_density = 160
+sgt_scale = 2.5
+sgt_rotation = 0.0
+sgt_rotation_rand = 1.0
+sgt_dist_min = 0.25
+sgt_follow_normal = false
+sgt_slope = Vector2(0, 45)
+sgt_tool_shape = {
+"airbrush": 1,
+"eraser": 0,
+"pencil": 1
+}
+metadata/_custom_type_script = "uid://2juaclm8gc1n"
+metadata/SimpleGrassTextured = "2.0.5"
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="WorldViewport/SubViewport/Ground" unique_id=1967485274]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5, 0)
@@ -310,7 +365,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
 
 [node name="LootFeed" parent="UI" unique_id=757678196 instance=ExtResource("7_loot")]
 
-[node name="InventoryPanel" parent="UI" instance=ExtResource("40_inventory")]
+[node name="InventoryPanel" parent="UI" unique_id=2665492 instance=ExtResource("40_inventory")]
 
 [node name="OpenMenuButton" type="Button" parent="UI" unique_id=-1637555203]
 anchors_preset = 1
@@ -323,12 +378,14 @@ offset_bottom = 70.0
 grow_horizontal = 0
 text = "M"
 script = ExtResource("22_menutoggle")
-toggled_panel_paths = Array[NodePath]([NodePath("../GameMenuPanel"), NodePath("../CardAlbum"), NodePath("../InventoryPanel")])
+toggled_panel_paths = Array[NodePath]([NodePath("../GameMenuPanel"), NodePath("../CardAlbum"), NodePath("../InventoryPanel"), NodePath("../WelcomePanel")])
 
 [node name="ShopPanel" parent="UI" unique_id=333939656 instance=ExtResource("11_kiosk")]
 available_crates = Array[ExtResource("12_kiosk")]([ExtResource("5_1klq6"), ExtResource("13_crate"), ExtResource("14_crate"), ExtResource("15_crate"), ExtResource("16_crate")])
 
 [node name="GameMenuPanel" parent="UI" unique_id=-1637555202 instance=ExtResource("17_menu")]
+
+[node name="WelcomePanel" parent="UI" unique_id=2100666308 instance=ExtResource("41_welcome")]
 
 [connection signal="pack_started" from="WorldViewport/SubViewport/NPCs/NPC_CP/QuestionGiverComponent" to="UI/QuestionPanel" method="display_pack"]
 [connection signal="pack_unavailable" from="WorldViewport/SubViewport/NPCs/NPC_CP/QuestionGiverComponent" to="UI/QuestionPanel" method="show_message"]
