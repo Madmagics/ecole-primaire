@@ -2,14 +2,14 @@
 
 [ext_resource type="Script" path="res://entities/decor/seasonal_skin.gd" id="1"]
 [ext_resource type="Script" path="res://entities/decor/random_variant.gd" id="2"]
-[ext_resource type="PackedScene" path="res://assets/BirchTree_1.gltf" id="10"]
-[ext_resource type="PackedScene" path="res://assets/BirchTree_3.gltf" id="11"]
-[ext_resource type="PackedScene" path="res://assets/CommonTree_2.gltf" id="12"]
-[ext_resource type="PackedScene" path="res://assets/CommonTree_4.gltf" id="13"]
-[ext_resource type="PackedScene" path="res://assets/MapleTree_1.gltf" id="14"]
-[ext_resource type="PackedScene" path="res://assets/MapleTree_5.gltf" id="15"]
-[ext_resource type="PackedScene" path="res://assets/Pine_2.gltf" id="16"]
-[ext_resource type="PackedScene" path="res://assets/Pine_4.gltf" id="17"]
+[ext_resource type="PackedScene" path="res://assets/trees/BirchTree_1.gltf" id="10"]
+[ext_resource type="PackedScene" path="res://assets/trees/BirchTree_3.gltf" id="11"]
+[ext_resource type="PackedScene" path="res://assets/trees/CommonTree_2.gltf" id="12"]
+[ext_resource type="PackedScene" path="res://assets/trees/CommonTree_4.gltf" id="13"]
+[ext_resource type="PackedScene" path="res://assets/trees/MapleTree_1.gltf" id="14"]
+[ext_resource type="PackedScene" path="res://assets/trees/MapleTree_5.gltf" id="15"]
+[ext_resource type="PackedScene" path="res://assets/trees/Pine_2.gltf" id="16"]
+[ext_resource type="PackedScene" path="res://assets/trees/Pine_4.gltf" id="17"]
 
 [sub_resource type="CylinderShape3D" id="CylinderShape3D_trunk"]
 radius = 0.4

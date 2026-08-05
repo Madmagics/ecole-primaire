@@ -1,7 +1,7 @@
 [gd_scene format=3]
 
 [ext_resource type="Script" path="res://entities/decor/seasonal_skin.gd" id="1"]
-[ext_resource type="PackedScene" path="res://assets/RockPath_Square_Small_2.gltf" id="2"]
+[ext_resource type="PackedScene" path="res://assets/rocks/RockPath_Square_Small_2.gltf" id="2"]
 
 [node name="RockpathSquareSmall2" type="Node3D"]
 script = ExtResource("1")
