@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://jmmymuratxwl"]
 
+[ext_resource type="Texture2D" path="res://assets/rocks/Rocks_Diffuse.png" id="50_groundtex"]
 [ext_resource type="PackedScene" path="res://entities/player/player.tscn" id="1_osieq"]
 [ext_resource type="PackedScene" uid="uid://d0eooys5bc2s6" path="res://entities/npc/npc.tscn" id="2_c10w3"]
 [ext_resource type="Shader" uid="uid://bi3o8elbtqoni" path="res://addons/simplegrasstextured/shaders/grass.gdshader" id="3_1afdi"]
@@ -13,6 +14,7 @@
 [ext_resource type="PackedScene" uid="uid://7356npxenrso" path="res://ui/hud/coin_hud.tscn" id="6_jg8l3"]
 [ext_resource type="PackedScene" path="res://entities/decor/rocks/rock_medium_1.tscn" id="7_a0oti"]
 [ext_resource type="PackedScene" uid="uid://b3khbowwpo0ln" path="res://ui/collection/card_album.tscn" id="7_alb1m"]
+[ext_resource type="PackedScene" path="res://entities/decor/flowers/flower_3_group.tscn" id="7_ib46y"]
 [ext_resource type="PackedScene" path="res://ui/loot_feed/loot_feed.tscn" id="7_loot"]
 [ext_resource type="PackedScene" path="res://entities/decor/trees/tree_common_3.tscn" id="7_nmbjc"]
 [ext_resource type="PackedScene" path="res://entities/decor/trees/tree_common_5.tscn" id="8_pt2js"]
@@ -54,6 +56,8 @@
 [ext_resource type="PackedScene" path="res://entities/decor/plants/plant_7.tscn" id="33_mmp38"]
 [ext_resource type="PackedScene" path="res://entities/decor/plants/plant_1_big.tscn" id="34_aykla"]
 [ext_resource type="PackedScene" path="res://entities/decor/plants/plant_1.tscn" id="35_ib46y"]
+[ext_resource type="PackedScene" path="res://entities/decor/flowers/flower_4_group.tscn" id="37_81533"]
+[ext_resource type="PackedScene" path="res://entities/decor/flowers/flower_4_single.tscn" id="38_siray"]
 [ext_resource type="PackedScene" path="res://ui/inventory/inventory_panel.tscn" id="40_inventory"]
 [ext_resource type="PackedScene" path="res://ui/onboarding/welcome_panel.tscn" id="41_welcome"]
 [ext_resource type="PackedScene" path="res://entities/decor/rocks/rock_medium_3.tscn" id="50_w3gaj"]
@@ -84,17 +88,24 @@ fog_depth_begin = 130.0
 fog_depth_end = 250.0
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_grass"]
-albedo_color = Color(0.35, 0.65, 0.25, 1)
+albedo_color = Color(1, 1, 1, 1)
+albedo_texture = ExtResource("50_groundtex")
+uv1_scale = Vector3(500, 500, 1)
 
 [sub_resource type="PlaneMesh" id="PlaneMesh_horizon"]
 material = SubResource("StandardMaterial3D_grass")
 size = Vector2(1000, 1000)
 
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ground"]
+albedo_color = Color(1, 1, 1, 1)
+albedo_texture = ExtResource("50_groundtex")
+uv1_scale = Vector3(25, 25, 1)
+
 [sub_resource type="PlaneMesh" id="PlaneMesh_1"]
-material = SubResource("StandardMaterial3D_grass")
+material = SubResource("StandardMaterial3D_ground")
 size = Vector2(50, 50)
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_ln1x8"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ib46y"]
 render_priority = 0
 shader = ExtResource("3_1afdi")
 shader_parameter/albedo = Color(0.79400486, 0.7245432, 0.15996924, 1)
@@ -214,11 +225,12 @@ mesh = SubResource("PlaneMesh_horizon")
 [node name="Ground" type="StaticBody3D" parent="WorldViewport/SubViewport/ParkPreview" unique_id=338180402]
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="WorldViewport/SubViewport/ParkPreview/Ground" unique_id=537150176]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.285307, 9.10187, -7.427786)
 mesh = SubResource("PlaneMesh_1")
 
 [node name="SimpleGrassTextured" type="MultiMeshInstance3D" parent="WorldViewport/SubViewport/ParkPreview/Ground/MeshInstance3D" unique_id=171136092]
 visible = false
-material_override = SubResource("ShaderMaterial_ln1x8")
+material_override = SubResource("ShaderMaterial_ib46y")
 multimesh = ExtResource("20_grassdata")
 script = ExtResource("6_0r8vx")
 albedo = Color(0.79400486, 0.7245432, 0.15996924, 1)
@@ -245,7 +257,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5, 0)
 shape = SubResource("BoxShape3D_1")
 
 [node name="Walls" type="Node3D" parent="WorldViewport/SubViewport/ParkPreview" unique_id=1553348408]
-visible = false
 
 [node name="WallNorth_Left" type="StaticBody3D" parent="WorldViewport/SubViewport/ParkPreview/Walls" unique_id=714733200]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.5, 2, -25)
@@ -367,7 +378,7 @@ transform = Transform3D(-0.13400348, 0, -0.99098086, 0, 1, 0, 0.99098086, 0, -0.
 transform = Transform3D(0.12247498, 0, 0.9924716, 0, 1, 0, -0.9924716, 0, 0.12247498, -10.153784, 0, 16.330566)
 
 [node name="TreeMaple9" parent="WorldViewport/SubViewport/ParkPreview/Decor/Trees" unique_id=1300337930 instance=ExtResource("14_ueutm")]
-transform = Transform3D(0.70382863, 0, 0.7103698, 0, 1, 0, -0.7103698, 0, 0.70382863, 7.5239367, 4, 24.78852)
+transform = Transform3D(0.70382863, 0, 0.7103698, 0, 1, 0, -0.7103698, 0, 0.70382863, 7.0471992, 0.52906084, 23.03115)
 
 [node name="TreePine2" parent="WorldViewport/SubViewport/ParkPreview/Decor/Trees" unique_id=1797150606 instance=ExtResource("30_treepine2")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.14806, 0.2350886, 19.473972)
@@ -701,9 +712,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.666029, 0.020293435, 2.9968
 [node name="RockpathSquareWide94" parent="WorldViewport/SubViewport/ParkPreview/Decor/Rocks" unique_id=1523579517 instance=ExtResource("29_kv3eu")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.7044, 0.020292481, 3.0400653)
 
-[node name="BushCommon" parent="WorldViewport/SubViewport/ParkPreview/Decor" unique_id=144023470 instance=ExtResource("31_p8ky4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.679804, 0.2346947, 0.7096958)
-
 [node name="Mushrooms" type="Node3D" parent="WorldViewport/SubViewport/ParkPreview/Decor" unique_id=1449781924]
 
 [node name="MushroomCommon" parent="WorldViewport/SubViewport/ParkPreview/Decor/Mushrooms" unique_id=1762258706 instance=ExtResource("32_3dosr")]
@@ -749,6 +757,101 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.0854244, 0.035024002, -14.6
 
 [node name="Plant7Big2" parent="WorldViewport/SubViewport/ParkPreview/Decor/Plants" unique_id=1017021615 instance=ExtResource("32_ln1x8")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.923846, 2.2010381, -1.342149)
+
+[node name="BushCommon" parent="WorldViewport/SubViewport/ParkPreview/Decor/Plants" unique_id=144023470 instance=ExtResource("31_p8ky4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.679804, 0.2346947, 0.7096958)
+
+[node name="Flowers" type="Node3D" parent="WorldViewport/SubViewport/ParkPreview/Decor" unique_id=96878082]
+
+[node name="Flower4Group" parent="WorldViewport/SubViewport/ParkPreview/Decor/Flowers" unique_id=949293162 instance=ExtResource("37_81533")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.176565, 0.056997612, -4.3935766)
+
+[node name="Flower4Group2" parent="WorldViewport/SubViewport/ParkPreview/Decor/Flowers" unique_id=1781517506 instance=ExtResource("37_81533")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.79126, 0.056997612, -18.45689)
+
+[node name="Flower4Group3" parent="WorldViewport/SubViewport/ParkPreview/Decor/Flowers" unique_id=2068171887 instance=ExtResource("37_81533")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.493049, 0.056997612, -9.164624)
+
+[node name="Flower4Group4" parent="WorldViewport/SubViewport/ParkPreview/Decor/Flowers" unique_id=1685365219 instance=ExtResource("37_81533")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.7819853, 0.05699666, 15.63392)
+
+[node name="Flower4Group5" parent="WorldViewport/SubViewport/ParkPreview/Decor/Flowers" unique_id=428313875 instance=ExtResource("37_81533")]
+transform = Transform3D(0.8153776, 0, -0.5789295, 0, 1, 0, 0.5789295, 0, 0.8153776, 4.5647106, 0.05699666, 14.942599)
+
+[node name="Flower4Group6" parent="WorldViewport/SubViewport/ParkPreview/Decor/Flowers" unique_id=97378531 instance=ExtResource("37_81533")]
+transform = Transform3D(0.78396297, 0, 0.6208076, 0, 1, 0, -0.6208076, 0, 0.78396297, 3.562387, 0.05699666, 15.406858)
+
+[node name="Flower4Group7" parent="WorldViewport/SubViewport/ParkPreview/Decor/Flowers" unique_id=834720108 instance=ExtResource("37_81533")]
+transform = Transform3D(0.74367553, 0, -0.6685407, 0, 1, 0, 0.6685407, 0, 0.74367553, -12.246852, 0.056997612, -7.683193)
+
+[node name="Flower4Group8" parent="WorldViewport/SubViewport/ParkPreview/Decor/Flowers" unique_id=212699851 instance=ExtResource("37_81533")]
+transform = Transform3D(0.822803, 0, -0.56832665, 0, 1, 0, 0.56832665, 0, 0.822803, 14.046668, 0.056997612, 9.647061)
+
+[node name="Flower4Single" parent="WorldViewport/SubViewport/ParkPreview/Decor/Flowers" unique_id=316114861 instance=ExtResource("38_siray")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.8529825, 0.030430483, -1.8763452)
+
+[node name="Flower4Single2" parent="WorldViewport/SubViewport/ParkPreview/Decor/Flowers" unique_id=1111219717 instance=ExtResource("38_siray")]
+transform = Transform3D(0.5668533, 0, -0.82381874, 0, 1, 0, 0.82381874, 0, 0.5668533, -16.425045, 0.030430483, 0.55576706)
+
+[node name="Flower4Single3" parent="WorldViewport/SubViewport/ParkPreview/Decor/Flowers" unique_id=1628619789 instance=ExtResource("38_siray")]
+transform = Transform3D(0.69706315, 0, 0.7170097, 0, 1, 0, -0.7170097, 0, 0.69706315, 0.4803958, 0.030431436, 14.530029)
+
+[node name="Flower3Group" parent="WorldViewport/SubViewport/ParkPreview/Decor/Flowers" unique_id=1403950046 instance=ExtResource("7_ib46y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.935404, 0.034584545, 8.029137)
+
+[node name="Flower3Group2" parent="WorldViewport/SubViewport/ParkPreview/Decor/Flowers" unique_id=99491263 instance=ExtResource("7_ib46y")]
+transform = Transform3D(0.38254762, 0, -0.9239358, 0, 1, 0, 0.9239358, 0, 0.38254762, -8.783052, 0.034584545, 8.883899)
+
+[node name="Flower3Group3" parent="WorldViewport/SubViewport/ParkPreview/Decor/Flowers" unique_id=38207044 instance=ExtResource("7_ib46y")]
+transform = Transform3D(0.77928907, 0, -0.62666464, 0, 1, 0, 0.62666464, 0, 0.77928907, 15.428347, 0.03458359, 6.2831163)
+
+[node name="Flower3Group4" parent="WorldViewport/SubViewport/ParkPreview/Decor/Flowers" unique_id=1428345729 instance=ExtResource("7_ib46y")]
+transform = Transform3D(0.6728638, 0, 0.7397664, 0, 1, 0, -0.7397664, 0, 0.6728638, 15.756691, 0.03458359, 5.6315556)
+
+[node name="Flower3Group5" parent="WorldViewport/SubViewport/ParkPreview/Decor/Flowers" unique_id=2038378094 instance=ExtResource("7_ib46y")]
+transform = Transform3D(-0.95491105, 0, 0.29689202, 0, 1, 0, -0.29689202, 0, -0.95491105, 20.92683, 0.03458359, -5.9016094)
+
+[node name="Flower3Group6" parent="WorldViewport/SubViewport/ParkPreview/Decor/Flowers" unique_id=840867296 instance=ExtResource("7_ib46y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.495749, 0.034584545, 4.7094603)
+
+[node name="Flower3Group7" parent="WorldViewport/SubViewport/ParkPreview/Decor/Flowers" unique_id=597029726 instance=ExtResource("7_ib46y")]
+transform = Transform3D(-0.68268746, 0, -0.73071045, 0, 1, 0, 0.73071045, 0, -0.68268746, 14.112492, 0.03458359, -19.912048)
+
+[node name="Flower3Group8" parent="WorldViewport/SubViewport/ParkPreview/Decor/Flowers" unique_id=574680782 instance=ExtResource("7_ib46y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20.113678, 0.034582637, -0.5978794)
+
+[node name="Flower3Group9" parent="WorldViewport/SubViewport/ParkPreview/Decor/Flowers" unique_id=714501908 instance=ExtResource("7_ib46y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.859734, 0.03458359, 1.6240845)
+
+[node name="Flower3Group10" parent="WorldViewport/SubViewport/ParkPreview/Decor/Flowers" unique_id=1902437059 instance=ExtResource("7_ib46y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.482256, 0.03458359, -5.8766212)
+
+[node name="Flower3Group11" parent="WorldViewport/SubViewport/ParkPreview/Decor/Flowers" unique_id=651794372 instance=ExtResource("7_ib46y")]
+transform = Transform3D(0.900293, 0, 0.43528444, 0, 1, 0, -0.43528444, 0, 0.900293, -12.151293, 0.034582637, -20.966724)
+
+[node name="Flower3Group12" parent="WorldViewport/SubViewport/ParkPreview/Decor/Flowers" unique_id=1359952421 instance=ExtResource("7_ib46y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.314564, 0.034582637, -17.558216)
+
+[node name="Flower3Group13" parent="WorldViewport/SubViewport/ParkPreview/Decor/Flowers" unique_id=277082735 instance=ExtResource("7_ib46y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.662549, 0.034584545, 21.072006)
+
+[node name="Flower3Group14" parent="WorldViewport/SubViewport/ParkPreview/Decor/Flowers" unique_id=1591156503 instance=ExtResource("7_ib46y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.817627, 0.034584545, 21.439096)
+
+[node name="Flower3Group15" parent="WorldViewport/SubViewport/ParkPreview/Decor/Flowers" unique_id=1860140260 instance=ExtResource("7_ib46y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.641215, 0.03458359, 16.615086)
+
+[node name="Flower3Group16" parent="WorldViewport/SubViewport/ParkPreview/Decor/Flowers" unique_id=380001732 instance=ExtResource("7_ib46y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.887478, 0.034584545, 21.89468)
+
+[node name="Flower3Group17" parent="WorldViewport/SubViewport/ParkPreview/Decor/Flowers" unique_id=886499162 instance=ExtResource("7_ib46y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.354097, 0.03458359, -12.56831)
+
+[node name="Flower3Group18" parent="WorldViewport/SubViewport/ParkPreview/Decor/Flowers" unique_id=2061962731 instance=ExtResource("7_ib46y")]
+transform = Transform3D(-0.019149726, 0, -0.99981666, 0, 1, 0, 0.99981666, 0, -0.019149726, 20.883797, 0.03458359, -20.476332)
+
+[node name="Flower3Group19" parent="WorldViewport/SubViewport/ParkPreview/Decor/Flowers" unique_id=141769319 instance=ExtResource("7_ib46y")]
+transform = Transform3D(-0.06261724, 0, -0.99803764, 0, 1, 0, 0.99803764, 0, -0.06261724, -16.065681, 0.03458359, -17.548504)
 
 [node name="ParkGate" parent="WorldViewport/SubViewport/ParkPreview" unique_id=1317087447 instance=ExtResource("32_gate")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -25)
