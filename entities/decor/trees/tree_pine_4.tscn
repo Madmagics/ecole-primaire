@@ -20,3 +20,4 @@ position = Vector3(0, 1.5, 0)
 [node name="Model" parent="Body" instance=ExtResource("2")]
 script = ExtResource("3")
 skip_surfaces = Array[int]([0])
+wind_angle_degrees = 2.0
