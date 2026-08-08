@@ -58,7 +58,9 @@ func _on_start_pressed() -> void:
 	_abort()
 	questions_requested.emit(source, questions, rarity)
 
-func _on_interactable_unfocused(interactable: InteractableComponent) -> void:
+## Node (pas InteractableComponent) : recoit indifferemment un interactable 3D ou 2D depuis le
+## passage du jeu en 2D (voir InteractorComponent.gd).
+func _on_interactable_unfocused(interactable: Node) -> void:
 	if _source == null or interactable == null:
 		return
 	if _source.get_parent() == interactable.get_parent():

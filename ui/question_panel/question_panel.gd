@@ -27,12 +27,65 @@ const WRONG_COLOR := Color(0.92, 0.35, 0.35)
 ## courte (ex. un seul chiffre).
 const MIN_CHOICE_WIDTH_RATIO := 0.3
 
+## Logique (2026-08-04) : certaines reponses de cette matiere sont des emojis/symboles (🍎 ● etc.)
+## au lieu de texte - illisibles a la taille de bouton standard (retour utilisateur ingame), d'ou
+## l'agrandissement ci-dessous. Mais Logique melange aussi des questions purement textuelles
+## (nombres, lettres, mots - voir csv/questions/*/logique/generated.csv), qui doivent rester a la
+## police standard comme les autres matieres (retour utilisateur 2026-08-04, 5e passe : la
+## distinction se fait par REPONSE, pas par matiere entiere - voir _is_emoji_choice). Grille 2
+## colonnes x 2 lignes (au lieu de l'empilement vertical habituel) appliquee a toute question de
+## Logique en revanche, texte ou emoji, pour rester lisible sur petit ecran mobile.
+## ChoicesContainer a aussi size_flags_horizontal = SIZE_SHRINK_CENTER dans la .tscn (au lieu du
+## FILL par defaut) : sans ca, la grille 2 colonnes restait calee a gauche du cadre au lieu d'etre
+## centree (le VBoxContainer parent lui laisse toute la largeur, mais une GridContainer ne centre
+## pas son propre bloc de colonnes dedans).
+const LOGIC_CHOICE_COLUMNS := 2
+
+## x2 = exactement le double de la police standard du theme actif (retour utilisateur 2026-08-04,
+## 5e passe : "le double de la taille prevue de la police utilisee", pas un multiplicateur
+## approximatif). Applique uniquement aux reponses detectees comme emoji/symbole (voir
+## _is_emoji_choice), jamais aux reponses textuelles ni a QuestionLabel.
+const LOGIC_CHOICE_FONT_MULTIPLIER := 2
+
+## Sans reduction de marge, forcer une police x2 rendrait la case enorme (retour utilisateur
+## 2026-08-04, 3e/4e passe) : la marge interne du bouton (voir _apply_logic_choice_padding, x0.7
+## sur le style du theme) et ce plancher de hauteur/largeur explicite (0.3 -> 0.21, la largeur de
+## plancher n'affecte QUE les reponses emoji - MIN_CHOICE_WIDTH_RATIO plus haut reste le plancher
+## des reponses textuelles, Logique inclue) compensent le symbole agrandi SANS jamais toucher a la
+## taille de la police elle-meme.
+const LOGIC_CHOICE_MIN_HEIGHT := 61.6
+const LOGIC_CHOICE_WIDTH_RATIO := 0.21
+const LOGIC_CHOICE_PADDING_SCALE := 0.7
+
+## Marge haut/bas des cases emoji reduite plus fort que la marge gauche/droite (retour utilisateur
+## 2026-08-05 : les formes rondes/emoji ont le haut tronque). Cause : la case reste plafonnee a
+## LOGIC_CHOICE_MIN_HEIGHT (le plancher explicite ne bouge jamais tant que le contenu tient dedans,
+## voir _apply_logic_choice_padding), et un glyphe emoji/rond de police systeme (rendu via fallback,
+## voir feedback_font_emoji_risk en memoire) deborde souvent au-dessus de l'ascendant que la police
+## declare - la marge du haut lui laissait alors trop peu de place avant le bord de la case. Reduire
+## cette marge SANS toucher LOGIC_CHOICE_MIN_HEIGHT (donc sans changer la hauteur de la case) rend
+## cet espace au contenu au lieu du vide autour. Marge gauche/droite laissee a LOGIC_CHOICE_PADDING_SCALE
+## (aucun signalement de troncature horizontale).
+const LOGIC_CHOICE_VERTICAL_PADDING_SCALE := 0.2
+
+## Codepoint Unicode a partir duquel un caractere est considere comme un symbole/emoji plutot que
+## du texte (voir _is_emoji_choice) : U+2190 (fleches) est bien au-dela de tout caractere latin/
+## accentue utilise par le contenu du jeu (French/English + accents ne depassent jamais Latin
+## Extended-A, ~U+0180), donc aucun risque de faux positif sur un mot ou un nombre.
+const EMOJI_CODEPOINT_THRESHOLD := 0x2190
+
 @onready var panel: PanelContainer = $Panel
 @onready var progress_label: Label = $Panel/Margin/Content/HeaderRow/ProgressBadge/ProgressLabel
 @onready var question_card: PanelContainer = $Panel/Margin/Content/QuestionCard
-@onready var question_label: Label = $Panel/Margin/Content/QuestionCard/QuestionCardMargin/QuestionLabel
+## RichTextLabel (pas Label, depuis 2026-08-04) : necessaire pour agrandir uniquement les
+## emojis/symboles d'une question Logique via BBCode ([font_size=X]) tout en gardant le reste du
+## texte a la taille TitleLabel standard - voir _build_question_bbcode. Le theme (les 4 variantes,
+## voir ui/theme/*.tres) porte les cles normal_font_size/default_color en plus de font_size/
+## font_color pour que ce changement de type de noeud ne change pas l'apparence des questions
+## sans emoji.
+@onready var question_label: RichTextLabel = $Panel/Margin/Content/QuestionCard/QuestionCardMargin/QuestionLabel
 @onready var answer_input: LineEdit = $Panel/Margin/Content/AnswerRow/AnswerInput
-@onready var choices_container: VBoxContainer = $Panel/Margin/Content/ChoicesContainer
+@onready var choices_container: GridContainer = $Panel/Margin/Content/ChoicesContainer
 @onready var validate_button: Button = $Panel/Margin/Content/AnswerRow/ValidateButton
 @onready var close_button: Button = $Panel/Margin/Content/HeaderRow/CloseButton
 @onready var result_scroll: ScrollContainer = $Panel/Margin/Content/ResultScroll
@@ -85,7 +138,8 @@ func show_message(_source: Node, message: String) -> void:
 	result_scroll.visible = false
 	question_card.visible = true
 	progress_label.text = ""
-	question_label.text = message
+	_update_question_label_max_width()
+	question_label.text = _build_question_bbcode(message)
 	_clear_choice_buttons()
 	choices_container.visible = false
 	answer_input.visible = false
@@ -111,7 +165,8 @@ func _display_current_question() -> void:
 	question_card.visible = true
 	var question := _questions[_current_index]
 	progress_label.text = "Question %d/%d" % [_current_index + 1, _questions.size()]
-	question_label.text = question.text
+	_update_question_label_max_width()
+	question_label.text = _build_question_bbcode(question.text)
 	_clear_choice_buttons()
 
 	## QCM par boutons des qu'une question a des choix, sur toutes les plateformes (y compris
@@ -137,13 +192,38 @@ func _populate_choice_buttons(question: QuestionResource) -> void:
 	options.append(question.correct_answer)
 	options.shuffle()
 
+	## Grille 2x2 agrandie pour Logique (voir LOGIC_CHOICE_* plus haut), sinon empilement vertical
+	## habituel (1 seule colonne) - remis a jour a chaque question au cas ou un pack melangerait
+	## les matieres (aucun cas actuel, mais pas de raison de le supposer).
+	var is_logic := question.subject == SubjectType.Subject.LOGIC
+	choices_container.columns = LOGIC_CHOICE_COLUMNS if is_logic else 1
+
 	var buttons: Array[Button] = []
 	var max_width := 0.0
+	## true des qu'au moins une reponse de cette question est un emoji/symbole (voir
+	## _is_emoji_choice) : decide le plancher de largeur applique a TOUTES les cases juste apres
+	## la boucle (une seule largeur commune pour l'ensemble, voir plus bas) - en pratique jamais
+	## melange dans le contenu actuel (une question Logique est soit toute textuelle, soit toute
+	## symbolique, voir csv/questions/*/logique/generated.csv), mais calcule au cas ou.
+	var has_emoji_choice := false
 	for option_text in options:
 		var button := Button.new()
 		button.text = str(option_text)
 		button.pressed.connect(_on_choice_pressed.bind(option_text))
 		choices_container.add_child(button)
+		if _is_emoji_choice(str(option_text)):
+			has_emoji_choice = true
+			## Applique avant la mesure de largeur ci-dessous, pour que max_width tienne compte
+			## du symbole agrandi (sinon les cases resteraient dimensionnees pour la petite taille
+			## et le texte deborderait). Multiplie la taille heritee du theme plutot qu'une valeur
+			## en dur, pour rester correct si le theme actif change (4 variantes, voir game_theme.tres).
+			var base_font_size := button.get_theme_font_size("font_size")
+			button.add_theme_font_size_override("font_size", roundi(base_font_size * LOGIC_CHOICE_FONT_MULTIPLIER))
+			button.custom_minimum_size.y = LOGIC_CHOICE_MIN_HEIGHT
+			## Retrecit la marge interne du bouton (voir LOGIC_CHOICE_PADDING_SCALE plus haut) SANS
+			## toucher a la police : c'est cette marge, pas le symbole, qui doit se reduire pour que
+			## la case suive la taille demandee (retour utilisateur 2026-08-04, 3e passe).
+			_apply_logic_choice_padding(button)
 		## Mesuree avant d'activer l'autowrap ci-dessous : une fois l'autowrap actif, la largeur
 		## minimale rapportee par le moteur ne correspond plus qu'au mot le plus long (le texte
 		## pouvant se replier), pas a la reponse entiere sur une ligne. On veut ici la largeur
@@ -159,18 +239,114 @@ func _populate_choice_buttons(question: QuestionResource) -> void:
 		button.size_flags_horizontal = Control.SIZE_SHRINK_CENTER
 		buttons.append(button)
 
-	## Plancher a 30% de la largeur du cadre (le panneau entier de la question, pas la sous-zone
-	## des choix) : une reponse la plus longue trop courte (ex. un seul chiffre) donnait des cases
-	## trop etroites une fois reduites a leur contenu (retour utilisateur 2026-08-01). "panel" plutot
-	## que "choices_container" : ce dernier bascule visible=false/true a chaque question (voir
+	## Plancher a 30% de la largeur du cadre (21% si au moins une reponse est un emoji, voir
+	## LOGIC_CHOICE_WIDTH_RATIO plus haut - MIN_CHOICE_WIDTH_RATIO reste le plancher des reponses
+	## textuelles, Logique inclue) - le panneau entier de la question, pas la sous-zone des choix :
+	## une reponse la plus longue trop courte (ex. un seul chiffre) donnait des cases trop etroites
+	## une fois reduites a leur contenu (retour utilisateur 2026-08-01). "panel" plutot que
+	## "choices_container" : ce dernier bascule visible=false/true a chaque question (voir
 	## _display_current_question), et son "size" n'est pas garanti a jour au moment precis ou ce
 	## code s'execute (le retri d'un conteneur suite a un changement de visibilite peut n'avoir
 	## lieu qu'a la frame suivante) - ce qui expliquait que le plancher restait sans effet. "panel"
 	## (le cadre) reste toujours visible et dimensionne par ses ancres des le demarrage, sa taille
 	## est donc fiable a cet instant.
-	max_width = maxf(max_width, panel.size.x * MIN_CHOICE_WIDTH_RATIO)
+	var width_ratio := LOGIC_CHOICE_WIDTH_RATIO if has_emoji_choice else MIN_CHOICE_WIDTH_RATIO
+	max_width = maxf(max_width, panel.size.x * width_ratio)
 	for button in buttons:
 		button.custom_minimum_size.x = max_width
+
+## Reduit la marge interne (content_margin) des styles normal/survol/presse/desactive de ce
+## bouton, sans toucher a la police ni aux couleurs/bordures : ce sont ces marges, heritees du
+## theme (14px/8px, voir game_theme.tres), qui font que la case reste grande une fois la police
+## fixee - reduire uniquement LOGIC_CHOICE_MIN_HEIGHT/WIDTH_RATIO plus haut n'aurait aucun effet,
+## un bouton ne peut jamais descendre sous le minimum impose par police + marge. Marge haut/bas
+## reduite plus fort (LOGIC_CHOICE_VERTICAL_PADDING_SCALE) que gauche/droite (LOGIC_CHOICE_PADDING_
+## SCALE) pour laisser plus de place verticale au glyphe sans agrandir la case (voir commentaire de
+## LOGIC_CHOICE_VERTICAL_PADDING_SCALE - retour utilisateur 2026-08-05, formes rondes tronquees en
+## haut). Duplique chaque style (jamais modifie le theme partage directement - toucherait tous les
+## boutons du jeu, pas seulement Logique) et l'applique en tant que theme override local a ce
+## bouton uniquement (voir add_theme_stylebox_override sur docs.godotengine.org/en/stable/classes/
+## class_control.html). "focus" deliberement ignore : c'est un contour decoratif dessine par dessus
+## le bouton, sans marge de contenu ni impact sur sa taille minimale.
+func _apply_logic_choice_padding(button: Button) -> void:
+	for state_name in ["normal", "hover", "pressed", "disabled"]:
+		var original := button.get_theme_stylebox(state_name)
+		var flat := original as StyleBoxFlat
+		if flat == null:
+			continue
+		var scaled: StyleBoxFlat = flat.duplicate()
+		scaled.content_margin_left *= LOGIC_CHOICE_PADDING_SCALE
+		scaled.content_margin_top *= LOGIC_CHOICE_VERTICAL_PADDING_SCALE
+		scaled.content_margin_right *= LOGIC_CHOICE_PADDING_SCALE
+		scaled.content_margin_bottom *= LOGIC_CHOICE_VERTICAL_PADDING_SCALE
+		button.add_theme_stylebox_override(state_name, scaled)
+
+## true si ce texte de reponse contient au moins un emoji/symbole (voir EMOJI_CODEPOINT_THRESHOLD
+## plus haut) - decide, par REPONSE et non par matiere entiere, si _populate_choice_buttons doit
+## agrandir la police/reduire la marge de ce bouton precis (retour utilisateur 2026-08-04, 5e
+## passe : Logique melange questions textuelles et symboliques, voir csv/questions/*/logique/).
+func _is_emoji_choice(text: String) -> bool:
+	for character in text:
+		if character.unicode_at(0) >= EMOJI_CODEPOINT_THRESHOLD:
+			return true
+	return false
+
+## Taille de police pour un emoji/symbole affiche dans la question, calee sur EXACTEMENT la meme
+## taille que dans les reponses (retour utilisateur 2026-08-04, 6e passe : "la meme taille
+## d'emoji... en gardant la taille de police inchangee"). Interroge le theme "comme si"
+## [reference] etait un Button (theme_type="Button" explicite) plutot que d'utiliser la propre
+## taille de base de QuestionLabel (TitleLabel, 24px - differente de celle des boutons, 20px) :
+## c'est cette meme reference (Button/font_size) que _populate_choice_buttons multiplie deja par
+## LOGIC_CHOICE_FONT_MULTIPLIER, donc les deux calculs restent forcement identiques quel que soit
+## le theme actif (4 variantes, voir ui/theme/*.tres).
+func _logic_emoji_font_size(reference: Control) -> int:
+	var base_font_size := reference.get_theme_font_size("font_size", "Button")
+	return roundi(base_font_size * LOGIC_CHOICE_FONT_MULTIPLIER)
+
+## Construit le texte BBCode de QuestionLabel (RichTextLabel, voir plus haut) : chaque emoji/
+## symbole (voir _is_emoji_choice) est entoure de [font_size=X] pour s'afficher agrandi, le reste
+## du texte garde la taille TitleLabel standard (24px, inchangee) - retour utilisateur 2026-08-04,
+## 6e passe. Applique a TOUT texte affiche par QuestionLabel (question ou message temporaire,
+## Logique ou non) : sans emoji, cette fonction ne fait qu'echapper un eventuel crochet litteral
+## du texte source (peu probable dans ce contenu mais defensif - [lb] est l'echappement BBCode
+## officiel pour "[", voir doc_bbcode_in_richtextlabel), donc sans risque pour les autres matieres.
+func _build_question_bbcode(text: String) -> String:
+	var emoji_font_size := _logic_emoji_font_size(question_label)
+	var result := ""
+	var current_run := ""
+	var current_is_emoji := false
+	var has_run := false
+	for character in text:
+		var char_is_emoji := character.unicode_at(0) >= EMOJI_CODEPOINT_THRESHOLD
+		if has_run and char_is_emoji != current_is_emoji:
+			result += _wrap_bbcode_run(current_run, current_is_emoji, emoji_font_size)
+			current_run = ""
+		current_run += character
+		current_is_emoji = char_is_emoji
+		has_run = true
+	if has_run:
+		result += _wrap_bbcode_run(current_run, current_is_emoji, emoji_font_size)
+	return result
+
+func _wrap_bbcode_run(run: String, is_emoji: bool, emoji_font_size: int) -> String:
+	if is_emoji:
+		return "[font_size=%d]%s[/font_size]" % [emoji_font_size, run]
+	return run.replace("[", "[lb]")
+
+## BUG CORRIGE 2026-08-04 : sans ceci, QuestionLabel (RichTextLabel + fit_content + autowrap,
+## voir plus haut) restait invisible pour TOUTES les questions, pas seulement Logique - la doc
+## officielle de RichTextLabel previent explicitement que fit_content+autowrap "must have a
+## custom maximum width configured to work correctly" (voir docs.godotengine.org/en/stable/
+## classes/class_richtextlabel.html, membre fit_content) : sans largeur maximale, le moteur ne
+## peut pas calculer le retour a la ligne ni la hauteur de contenu qui en decoule, et le label
+## s'effondre a une taille degeneree (0 ou incoherente) au lieu de s'afficher. "panel.size.x" est
+## la meme reference fiable deja utilisee dans _populate_choice_buttons (toujours visible et
+## dimensionne par ses ancres des le demarrage, contrairement a des conteneurs qui bascule
+## visible=false/true) - la valeur donnee ici est un PLAFOND (Control.custom_maximum_size), pas
+## une largeur imposee : le conteneur parent (QuestionCardMargin) continue de donner sa largeur
+## reelle, toujours <= panel.size.x, donc surestimer legerement ce plafond est sans consequence.
+func _update_question_label_max_width() -> void:
+	question_label.custom_maximum_size.x = panel.size.x
 
 func _clear_choice_buttons() -> void:
 	for child in choices_container.get_children():
@@ -195,7 +371,9 @@ func _unhandled_input(event: InputEvent) -> void:
 		_abort_pack()
 		get_viewport().set_input_as_handled()
 
-func _on_interactable_unfocused(interactable: InteractableComponent) -> void:
+## Node (pas InteractableComponent) : recoit indifferemment un interactable 3D ou 2D depuis le
+## passage du jeu en 2D (voir InteractorComponent.gd).
+func _on_interactable_unfocused(interactable: Node) -> void:
 	if _source == null or interactable == null:
 		return
 	if _source.get_parent() == interactable.get_parent():
@@ -223,6 +401,7 @@ func _submit_answer(answer_text: String) -> void:
 		"given_answer": answer_text,
 		"correct_answer": question.correct_answer,
 		"is_correct": is_correct,
+		"subject": question.subject,
 	})
 	_current_index += 1
 	if _current_index >= _questions.size():
@@ -267,7 +446,8 @@ func _populate_result_table() -> void:
 			str(record["question_text"]),
 			str(record["given_answer"]),
 			correction,
-			record["is_correct"]
+			record["is_correct"],
+			record["subject"]
 		)
 
 ## Une carte par question repondue, en 3 lignes empilees plutot qu'un tableau a colonnes (ancien
@@ -277,7 +457,14 @@ func _populate_result_table() -> void:
 ## fausse - rien a corriger sinon) ; ces deux lignes sont decalees de 20% vers la droite par
 ## rapport a la question (voir _build_indented_line) pour bien les distinguer d'un coup d'oeil
 ## (retour utilisateur 2026-08-01).
-func _add_result_row(question_text: String, given_text: String, correction_text: String, is_correct: bool) -> void:
+func _add_result_row(question_text: String, given_text: String, correction_text: String, is_correct: bool, subject: SubjectType.Subject) -> void:
+	## Logique (2026-08-04) : la reponse/correction peut etre un emoji ou une forme Unicode -
+	## le modulate rouge/vert (voir _build_indented_line) teinte les glyphes couleur au lieu de se
+	## limiter au texte, ce qui denature le symbole (retour utilisateur ingame). Pour cette
+	## matiere, seul le prefixe ("Ta réponse : "/"Correction : ") reste teinte ; le symbole garde
+	## sa couleur d'origine - la pastille ResultIcon (a cote) indique deja juste/faux sans avoir
+	## besoin de teinter le symbole.
+	var tint_value := subject != SubjectType.Subject.LOGIC
 	var lines := VBoxContainer.new()
 	## Explicite plutot que de compter sur le FILL par defaut (1, sans EXPAND) : dans cette chaine
 	## de conteneurs crees par script, la carte restait comprimee a la largeur minimale de son
@@ -303,12 +490,13 @@ func _add_result_row(question_text: String, given_text: String, correction_text:
 	answer_icon.is_correct = is_correct
 	answer_icon.badge_color = CORRECT_COLOR if is_correct else WRONG_COLOR
 	lines.add_child(_build_indented_line(
-		"Ta réponse : %s" % given_text,
+		"Ta réponse : ", given_text,
 		CORRECT_COLOR if is_correct else WRONG_COLOR,
+		tint_value,
 		answer_icon
 	))
 	if not correction_text.is_empty():
-		lines.add_child(_build_indented_line("Correction : %s" % correction_text, CORRECT_COLOR))
+		lines.add_child(_build_indented_line("Correction : ", correction_text, CORRECT_COLOR, tint_value))
 
 	var row_margin := MarginContainer.new()
 	row_margin.add_theme_constant_override("margin_left", RESULT_ROW_MARGIN)
@@ -323,11 +511,18 @@ func _add_result_row(question_text: String, given_text: String, correction_text:
 	result_rows_container.add_child(row_card)
 
 ## Ligne "reponse"/"correction" : une zone de marge (RESULT_INDENT_RATIO de la largeur) suivie du
-## label, pour que le texte demarre a 20% depuis la gauche au lieu de s'aligner sous la question.
-## "icon" (optionnel) se place dans cette marge, colle contre le label (retour utilisateur
-## 2026-08-01 : coche verte/croix rouge a cote de la reponse donnee par le joueur) - un
-## HBoxContainer aligne a droite avec un spacer avant l'icone plutot qu'un simple Control vide.
-func _build_indented_line(value: String, color: Color, icon: Control = null) -> HBoxContainer:
+## texte ("prefix" + "value" separes, voir tint_value ci-dessous), pour que le texte demarre a 20%
+## depuis la gauche au lieu de s'aligner sous la question. "icon" (optionnel) se place dans cette
+## marge, colle contre le texte (retour utilisateur 2026-08-01 : coche verte/croix rouge a cote de
+## la reponse donnee par le joueur) - un HBoxContainer aligne a droite avec un spacer avant l'icone
+## plutot qu'un simple Control vide.
+## "prefix" ("Ta réponse : "/"Correction : ") est toujours teinte de [color]. "value" (la reponse/
+## correction elle-meme) n'est teinte que si tint_value est vrai : pour Logique, value peut etre
+## un emoji/une forme Unicode - le modulate rouge/vert teinterait alors le glyphe couleur au lieu
+## de rester un simple habillage de texte (retour utilisateur ingame 2026-08-04), d'ou la scission
+## en 2 Labels au lieu d'un seul avec le texte complet (comportement inchange pour les autres
+## matieres : prefix + value restent tous deux teintes).
+func _build_indented_line(prefix: String, value: String, color: Color, tint_value: bool, icon: Control = null) -> HBoxContainer:
 	var row := HBoxContainer.new()
 	row.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 
@@ -340,12 +535,25 @@ func _build_indented_line(value: String, color: Color, icon: Control = null) -> 
 		margin_zone.add_child(icon)
 	row.add_child(margin_zone)
 
-	var label := Label.new()
-	label.text = value
-	label.autowrap_mode = TextServer.AUTOWRAP_WORD
-	label.size_flags_horizontal = Control.SIZE_EXPAND_FILL
-	label.size_flags_stretch_ratio = 1.0 - RESULT_INDENT_RATIO
-	label.modulate = color
-	row.add_child(label)
+	var text_row := HBoxContainer.new()
+	text_row.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	text_row.size_flags_stretch_ratio = 1.0 - RESULT_INDENT_RATIO
 
+	## add_theme_color_override, pas modulate (corrige 2026-08-04, meme cause que CoinHUD - voir
+	## son commentaire detaille) : modulate multipliait le font_color de base du theme, et
+	## assombrissait [color] (vert/rouge) des qu'un theme a defini un font_color pour Label.
+	var prefix_label := Label.new()
+	prefix_label.text = prefix
+	prefix_label.add_theme_color_override("font_color", color)
+	text_row.add_child(prefix_label)
+
+	var value_label := Label.new()
+	value_label.text = value
+	value_label.autowrap_mode = TextServer.AUTOWRAP_WORD
+	value_label.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	if tint_value:
+		value_label.add_theme_color_override("font_color", color)
+	text_row.add_child(value_label)
+
+	row.add_child(text_row)
 	return row
