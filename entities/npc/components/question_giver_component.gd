@@ -40,6 +40,19 @@ signal reading_pack_started(source: Node, passage: PassageResource, questions: A
 const PACK_SIZE := 10
 const RESOURCES_DIR := "res://data/question/resources"
 
+## Titre affiche dans le bouton du reticule central (voir InteractPrompt) quand ce PNJ est en
+## portee - pose sur l'InteractableComponent (prompt_text) au _ready. Genre (Maitre/Maitresse)
+## choisi au hasard par classe pour l'instant, juste pour avoir un texte plausible a l'ecran :
+## PAS de systeme de genre a construire ici, ces titres seront corriges/rendus coherents avec le
+## personnage reel une fois les modeles 3D des PNJ en place (retour Steve, 2026-08-02).
+const _GRADE_TEACHER_TITLES := {
+	GradeLevel.Grade.CP: "Maître du CP",
+	GradeLevel.Grade.CE1: "Maîtresse du CE1",
+	GradeLevel.Grade.CE2: "Maître du CE2",
+	GradeLevel.Grade.CM1: "Maîtresse du CM1",
+	GradeLevel.Grade.CM2: "Maître du CM2",
+}
+
 ## Classe fixe de ce PNJ (contrairement a l'ancienne version ou c'etait la matiere qui etait
 ## fixe et la classe choisie a l'interaction - voir MATIERES_CANDIDATES.md pour le contexte de
 ## ce changement).
@@ -75,9 +88,19 @@ func _ready() -> void:
 	_rarity = GradeLevel.get_rarity(grade)
 	if question_pool.is_empty():
 		question_pool = _load_all_for_grade(grade)
-	var interactable := _find_sibling_interactable()
-	if interactable:
-		interactable.interacted.connect(_on_interacted)
+	## Cherche d'abord un InteractableComponent 3D (PNJ historiques, voir npc.tscn), sinon son
+	## twin 2D (voir entities/npc_2d/npc_2d.tscn, jeu passe en plateformer 2D) : deux branches
+	## typees separement plutot qu'un type de retour commun affaibli en Node, pour garder le
+	## typage statique sur .interacted/.prompt_text (voir instructions du projet).
+	var interactable_3d := _find_sibling_interactable()
+	if interactable_3d:
+		interactable_3d.interacted.connect(_on_interacted)
+		interactable_3d.prompt_text = _GRADE_TEACHER_TITLES.get(grade, GradeLevel.get_label(grade))
+	else:
+		var interactable_2d := _find_sibling_interactable_2d()
+		if interactable_2d:
+			interactable_2d.interacted.connect(_on_interacted)
+			interactable_2d.prompt_text = _GRADE_TEACHER_TITLES.get(grade, GradeLevel.get_label(grade))
 	GradeUnlock.grade_unlocked.connect(_on_grade_unlocked)
 	_refresh_lock_visual()
 
@@ -88,22 +111,43 @@ func _ready() -> void:
 func _on_grade_unlocked(_unlocked_grade: Grade) -> void:
 	_refresh_lock_visual()
 
-## Grise le PNJ (materiau) tant que sa classe n'est pas debloquee - purement visuel, le blocage
-## reel de l'interaction se fait dans _on_interacted.
+## Grise le PNJ (materiau 3D, ou couleur de la capsule 2D - voir plus bas) tant que sa classe
+## n'est pas debloquee - purement visuel, le blocage reel de l'interaction se fait dans
+## _on_interacted.
 func _refresh_lock_visual() -> void:
+	var unlocked := GradeUnlock.is_unlocked(grade)
 	var mesh := _find_sibling_mesh()
-	if mesh == null:
+	if mesh:
+		if unlocked:
+			mesh.material_override = null
+		else:
+			var material := StandardMaterial3D.new()
+			material.albedo_color = _LOCKED_MATERIAL_COLOR
+			mesh.material_override = material
 		return
-	if GradeUnlock.is_unlocked(grade):
-		mesh.material_override = null
-	else:
-		var material := StandardMaterial3D.new()
-		material.albedo_color = _LOCKED_MATERIAL_COLOR
-		mesh.material_override = material
+	var capsule_2d := _find_sibling_locked_visual()
+	if capsule_2d:
+		capsule_2d.set_locked(not unlocked)
 
 func _find_sibling_mesh() -> MeshInstance3D:
 	for child in get_parent().get_children():
 		if child is MeshInstance3D:
+			return child
+	return null
+
+## Twin 2D de _find_sibling_mesh : cherche un enfant qui expose set_locked(bool) (voir
+## entities/decor_2d/capsule_2d.gd) au lieu d'un MeshInstance3D - utilise par les PNJ du
+## plateformer 2D (voir entities/npc_2d/npc_2d.tscn). Type de retour Node (pas de class_name
+## commun avec set_locked) : seul has_method("set_locked") est verifie, pas une classe precise.
+func _find_sibling_locked_visual() -> Node:
+	for child in get_parent().get_children():
+		if child.has_method("set_locked"):
+			return child
+	return null
+
+func _find_sibling_interactable_2d() -> InteractableComponent2D:
+	for child in get_parent().get_children():
+		if child is InteractableComponent2D:
 			return child
 	return null
 
@@ -359,3 +403,8 @@ func resolve_pack(source: Node, correct_count: int) -> void:
 	if reward > 0:
 		Economy.add_coins(_rarity, reward)
 	EventBus.pack_completed.emit(_current_subject, _rarity, correct_count, _current_pack_size, reward)
+	## Sauvegarde automatique (2026-08-01) : un pack reussi met a jour les pieces (Economy) et les
+	## statistiques (StatsTracker, deja a jour a ce stade - il ecoute ce meme signal
+	## EventBus.pack_completed, emis juste au-dessus, de facon synchrone) - autant persister tout
+	## de suite plutot que de compter sur une sauvegarde manuelle depuis le menu.
+	SaveManager.save_current_account()
