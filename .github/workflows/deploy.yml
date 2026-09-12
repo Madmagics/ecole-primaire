@@ -28,5 +28,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ${{ steps.export.outputs.build_directory }}
+          publish_dir: ${{ steps.export.outputs.build_directory }}/Web
           cname: www.ecole-primaire.eu
