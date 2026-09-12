@@ -11,16 +11,23 @@
 ## Relancer le script apres avoir modifie le CSV pour pousser la mise a jour : les cartes
 ## existantes (meme id) sont mises a jour sans perdre leur description assignee a la main
 ## dans l'inspecteur (ce script ne touche pas a ce champ).
-## Image : depose un fichier "data/card/art/<id>.webp" (format recommande - voir echange sur le
-## poids des images, ~59Ko en 512x612 contre 1.8Mo en PNG a la meme scene) ou "<id>.png" (ex:
-## "1.webp" pour la carte id=1) et il sera assigne automatiquement au champ Texture de la carte
-## au prochain import. .webp est cherche en premier si les deux existent pour le meme id.
+## Image : depose un fichier "assets/classe2.0/pets/<id>.webp" (format recommande - voir echange
+## sur le poids des images, ~59Ko en 512x612 contre 1.8Mo en PNG a la meme scene) ou "<id>.png"
+## (ex: "1.webp" pour la carte id=1) et il sera assigne automatiquement au champ Texture de la
+## carte au prochain import. .webp est cherche en premier si les deux existent pour le meme id.
+## ART_DIR pointe vers assets/classe2.0/pets (2026-08-30, retour utilisateur : "les pets pour les
+## cards se trouvent desormais dans ce dossier, recheck le fichier card.csv corrige le et redirige
+## les liens des images cards vers le dossier cite") - remplace l'ancien data/card/art/, qui n'avait
+## jamais recu que 15 images sur 125 cartes ; assets/classe2.0/pets/ a desormais une image par
+## carte (1.webp a 125.webp, aucun trou). Les 115 .tres existants ont ete regeneres a la main pour
+## pointer vers ce nouveau dossier (voir aussi les 10 lignes fourmi/cameleon de cards.csv, dont le
+## nom etait vide - complete au meme moment).
 @tool
 extends EditorScript
 
 const CSV_PATH := "res://csv/cards.csv"
 const OUTPUT_DIR := "res://data/card/resources"
-const ART_DIR := "res://data/card/art"
+const ART_DIR := "res://assets/classe2.0/pets"
 
 func _run() -> void:
 	# Rescanne d'abord pour que les .png tout juste deposes soient importes et chargeables.

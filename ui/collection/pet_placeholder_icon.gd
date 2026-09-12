@@ -1,7 +1,8 @@
 ## Icone generique de pet affichee dans une carte tant qu'aucune image reelle n'est disponible
-## (voir data/card/art/<id>.png et tools/admin/import_cards.gd : des qu'un fichier art est
-## depose puis reimporte, CardResource.texture est renseigne et cette icone n'est plus utilisee -
-## voir CardSlot.display()). Bonhomme chibi generique portant un t-shirt marque d'un "?" : le
+## (voir assets/classe2.0/pets/<id>.webp - dossier deplace le 2026-08-30, etait data/card/art/
+## avant - et tools/admin/import_cards.gd : des qu'un fichier art est depose puis reimporte,
+## CardResource.texture est renseigne et cette icone n'est plus utilisee - voir
+## CardSlot.display()). Bonhomme chibi generique portant un t-shirt marque d'un "?" : le
 ## t-shirt reprend la couleur de rarete de la carte (passee via set_colors), volontairement pas
 ## une espece de pet particuliere - design valide avec Steve le 2026-07-25 (mockup avant portage
 ## en jeu, cf. conversation "propose moi 10 design de cartes").

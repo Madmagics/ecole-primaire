@@ -10,7 +10,9 @@ const Rarity = CardRarity.Rarity
 @export var crate_name: String = ""
 @export var crate_price: int = 0
 ## Rarete de ce coffre : c'est A LA FOIS la devise requise pour l'acheter (pieces de
-## cette rarete, voir Economy) ET son theme visuel dans la boutique (CardRarity.get_color).
+## cette rarete, voir Economy) ET son theme visuel dans la boutique - converti en classe via
+## GradeLevel.get_grade_for_rarity() puis colore via GradeLevel.get_color() (2026-08-30, nouveau
+## code couleur unifie par classe ; CardRarity.get_color() n'existe plus, voir CrateItem.gd).
 ## Les cartes qu'il contient (entries) n'ont pas besoin de correspondre exactement, mais
 ## c'est la convention utilisee par build_loot_tables.gd.
 @export var rarity: Rarity = Rarity.COMMON

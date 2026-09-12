@@ -1,0 +1,501 @@
+id;text;correct_answer;choice_2;choice_3;choice_4
+40000;Quelle forme vient ensuite ? ● ▲ ● ▲ ●;▲;●;■;★
+40001;Quel fruit vient ensuite ? 🍎 🍌 🍎 🍌 🍎;🍌;🍎;🍊;🍇
+40002;Quel dessin ne va pas avec les autres ? 🐱 🐶 🐰 🍎;🍎;🐱;🐶;🐰
+40003;Quelle forme est différente ? ● ● ▲ ●;▲;●;■;★
+40004;Le chat 🐱 fait miaou. Le chien 🐶 fait…;ouaf;miaou;meuh;cot cot
+40005;Quel est l'animal le plus grand ? 🐘 🐭 🐱 🐰;🐘;🐭;🐱;🐰
+40006;Quel nombre vient après ? 1, 2, 3, 4, …;5;6;3;10
+40007;Quel nombre vient après ? 2, 4, 6, 8, …;10;9;12;7
+40008;Léa a 🍎🍎🍎, Tom a 🍎🍎. Qui a le plus de pommes ?;Léa;Tom;Personne;Les deux pareils
+40009;Le jour, on se réveille. La nuit, on…;dort;court;mange;chante
+40010;Quelle forme vient ensuite ? ★ ♥ ★ ♥ ★ …;♥;★;▲;♦
+40011;Quelle forme vient ensuite ? ■ ♥ ■ ♥ ■ …;♥;■;●;★
+40012;Quelle forme vient ensuite ? ■ ● ■ ● ■ …;●;■;♦;♥
+40013;Quelle forme vient ensuite ? ♥ ▲ ♥ ▲ ♥ …;▲;♥;★;■
+40014;Quelle forme vient ensuite ? ♦ ■ ♦ ■ ♦ …;■;♦;♥;★
+40015;Quelle forme vient ensuite ? ▲ ■ ▲ ■ ▲ …;■;▲;♥;★
+40016;Quelle forme vient ensuite ? ▲ ● ▲ ● ▲ …;●;▲;♦;♥
+40017;Quelle forme vient ensuite ? ■ ★ ■ ★ ■ …;★;■;●;▲
+40018;Quelle forme vient ensuite ? ■ ▲ ■ ▲ ■ …;▲;■;♥;●
+40019;Quelle forme vient ensuite ? ★ ● ★ ● ★ …;●;★;■;♥
+40020;Quelle forme vient ensuite ? ▲ ♥ ▲ ♥ ▲ …;♥;▲;■;♦
+40021;Quelle forme vient ensuite ? ♥ ● ♥ ● ♥ …;●;♥;♦;★
+40022;Quelle forme vient ensuite ? ♥ ♦ ♥ ♦ ♥ …;♦;♥;●;▲
+40023;Quelle forme vient ensuite ? ♦ ▲ ♦ ▲ ♦ …;▲;♦;●;★
+40024;Quelle forme vient ensuite ? ★ ▲ ★ ▲ ★ …;▲;★;●;♥
+40025;Quelle forme vient ensuite ? ♥ ■ ♥ ■ ♥ …;■;♥;▲;♦
+40026;Quelle forme vient ensuite ? ● ■ ● ■ ● …;■;●;♦;♥
+40027;Quelle forme vient ensuite ? ■ ♦ ■ ♦ ■ …;♦;■;★;●
+40028;Quelle forme vient ensuite ? ★ ♦ ★ ♦ ★ …;♦;★;▲;♥
+40029;Quelle forme vient ensuite ? ● ★ ● ★ ● …;★;●;♥;♦
+40030;Quelle forme vient ensuite ? ★ ■ ★ ■ ★ …;■;★;▲;♥
+40031;Quelle forme vient ensuite ? ♥ ★ ♥ ★ ♥ …;★;♥;♦;▲
+40032;Quelle forme vient ensuite ? ● ♥ ● ♥ ● …;♥;●;▲;■
+40033;Quelle forme vient ensuite ? ♦ ♥ ♦ ♥ ♦ …;♥;♦;■;●
+40034;Quelle forme vient ensuite ? ▲ ★ ▲ ★ ▲ …;★;▲;●;♥
+40035;Quelle forme vient ensuite ? ▲ ♦ ▲ ♦ ▲ …;♦;▲;●;■
+40036;Quelle forme vient ensuite ? ♦ ★ ♦ ★ ♦ …;★;♦;▲;♥
+40037;Quelle forme vient ensuite ? ● ▲ ● ▲ ● …;▲;●;★;♦
+40038;Quelle forme vient ensuite ? ● ♦ ● ♦ ● …;♦;●;■;★
+40039;Quelle forme vient ensuite ? ♦ ● ♦ ● ♦ …;●;♦;■;▲
+40040;Que vient ensuite ? 🟡 🟣 🟡 🟣 🟡 …;🟣;🟡;🔴;🔵
+40041;Que vient ensuite ? 🍋 🍐 🍋 🍐 🍋 …;🍐;🍋;🍍;🍒
+40042;Que vient ensuite ? 🎁 🎵 🎁 🎵 🎁 …;🎵;🎁;🔑;💎
+40043;Que vient ensuite ? 🐘 🐹 🐘 🐹 🐘 …;🐹;🐘;🐵;🐨
+40044;Que vient ensuite ? 🐟 🐺 🐟 🐺 🐟 …;🐺;🐟;🐶;🐰
+40045;Que vient ensuite ? 🍑 🍎 🍑 🍎 🍑 …;🍎;🍑;🥭;🍊
+40046;Que vient ensuite ? 🎈 🎵 🎈 🎵 🎈 …;🎵;🎈;👑;🔑
+40047;Que vient ensuite ? 🔵 🟡 🔵 🟡 🔵 …;🟡;🔵;🟢;🟣
+40048;Que vient ensuite ? 🍋 🍒 🍋 🍒 🍋 …;🍒;🍋;🍊;🍇
+40049;Que vient ensuite ? 🍊 🍅 🍊 🍅 🍊 …;🍅;🍊;🍒;🍑
+40050;Que vient ensuite ? 🍎 🍋 🍎 🍋 🍎 …;🍋;🍎;🥝;🥭
+40051;Que vient ensuite ? 🐯 🐱 🐯 🐱 🐯 …;🐱;🐯;🐼;🐰
+40052;Que vient ensuite ? 🐶 🐹 🐶 🐹 🐶 …;🐹;🐶;🐘;🐨
+40053;Que vient ensuite ? 🔔 🎁 🔔 🎁 🔔 …;🎁;🔔;⭐;👑
+40054;Que vient ensuite ? 🍎 🍍 🍎 🍍 🍎 …;🍍;🍎;🥝;🍉
+40055;Que vient ensuite ? 🎵 🎈 🎵 🎈 🎵 …;🎈;🎵;🎁;⭐
+40056;Que vient ensuite ? 🎈 👑 🎈 👑 🎈 …;👑;🎈;🎁;🎵
+40057;Que vient ensuite ? 🎵 👑 🎵 👑 🎵 …;👑;🎵;⭐;🔔
+40058;Que vient ensuite ? 🟢 🔴 🟢 🔴 🟢 …;🔴;🟢;🟠;🟡
+40059;Que vient ensuite ? ⭐ 👑 ⭐ 👑 ⭐ …;👑;⭐;🎵;💎
+40060;Que vient ensuite ? 🟣 🔴 🟣 🔴 🟣 …;🔴;🟣;🟢;🟡
+40061;Que vient ensuite ? 🍅 🍑 🍅 🍑 🍅 …;🍑;🍅;🍓;🍊
+40062;Que vient ensuite ? 🐟 🐭 🐟 🐭 🐟 …;🐭;🐟;🐦;🐻
+40063;Que vient ensuite ? 🔴 🟡 🔴 🟡 🔴 …;🟡;🔴;🟣;🟠
+40064;Que vient ensuite ? 🎵 🔑 🎵 🔑 🎵 …;🔑;🎵;💎;🔔
+40065;Que vient ensuite ? 🟢 🟠 🟢 🟠 🟢 …;🟠;🟢;🟣;🟡
+40066;Que vient ensuite ? 🟠 🟣 🟠 🟣 🟠 …;🟣;🟠;🔵;🟡
+40067;Que vient ensuite ? 🟣 🟠 🟣 🟠 🟣 …;🟠;🟣;🟢;🟡
+40068;Que vient ensuite ? ⭐ 💎 ⭐ 💎 ⭐ …;💎;⭐;🔑;🔔
+40069;Que vient ensuite ? 🍋 🍑 🍋 🍑 🍋 …;🍑;🍋;🍎;🍅
+40070;Que vient ensuite ? 🐸 🐼 🐸 🐼 🐸 …;🐼;🐸;🐺;🐘
+40071;Que vient ensuite ? 🍓 🥝 🍓 🥝 🍓 …;🥝;🍓;🍊;🍑
+40072;Que vient ensuite ? 🍎 🍊 🍎 🍊 🍎 …;🍊;🍎;🍌;🍓
+40073;Que vient ensuite ? 🐻 🐦 🐻 🐦 🐻 …;🐦;🐻;🐹;🐯
+40074;Que vient ensuite ? 🐺 🦊 🐺 🦊 🐺 …;🦊;🐺;🐮;🐸
+40075;Que vient ensuite ? 🟠 🔵 🟠 🔵 🟠 …;🔵;🟠;🟡;🟣
+40076;Que vient ensuite ? 🟢 🟣 🟢 🟣 🟢 …;🟣;🟢;🟡;🔴
+40077;Que vient ensuite ? 🐼 🐯 🐼 🐯 🐼 …;🐯;🐼;🐺;🐴
+40078;Que vient ensuite ? 🟢 🟡 🟢 🟡 🟢 …;🟡;🟢;🟣;🔴
+40079;Que vient ensuite ? 🍒 🍉 🍒 🍉 🍒 …;🍉;🍒;🍑;🍇
+40080;Que vient ensuite ? 🔔 👑 🔔 👑 🔔 …;👑;🔔;⭐;💎
+40081;Que vient ensuite ? 🎈 🔔 🎈 🔔 🎈 …;🔔;🎈;🎵;💎
+40082;Que vient ensuite ? 🥭 🍋 🥭 🍋 🥭 …;🍋;🥭;🍇;🍍
+40083;Que vient ensuite ? 🦊 🐝 🦊 🐝 🦊 …;🐝;🦊;🐵;🐘
+40084;Que vient ensuite ? 🥭 🍉 🥭 🍉 🥭 …;🍉;🥭;🍊;🍍
+40085;Que vient ensuite ? 🍒 🍑 🍒 🍑 🍒 …;🍑;🍒;🍎;🍋
+40086;Que vient ensuite ? 💎 🔑 💎 🔑 💎 …;🔑;💎;🔔;🎵
+40087;Que vient ensuite ? 🟢 🔵 🟢 🔵 🟢 …;🔵;🟢;🟣;🟡
+40088;Que vient ensuite ? 💎 🎁 💎 🎁 💎 …;🎁;💎;🎈;🎵
+40089;Que vient ensuite ? 🍊 🍐 🍊 🍐 🍊 …;🍐;🍊;🍌;🍇
+40090;Que vient ensuite ? 🐮 🐟 🐮 🐟 🐮 …;🐟;🐮;🐺;🐔
+40091;Que vient ensuite ? 🐸 🐺 🐸 🐺 🐸 …;🐺;🐸;🐶;🐨
+40092;Que vient ensuite ? 🔴 🟠 🔴 🟠 🔴 …;🟠;🔴;🔵;🟣
+40093;Que vient ensuite ? 🍓 🍍 🍓 🍍 🍓 …;🍍;🍓;🍇;🍊
+40094;Que vient ensuite ? 🍊 🍌 🍊 🍌 🍊 …;🍌;🍊;🍒;🍎
+40095;Que vient ensuite ? 🥭 🍊 🥭 🍊 🥭 …;🍊;🥭;🍒;🥝
+40096;Que vient ensuite ? 🐮 🐝 🐮 🐝 🐮 …;🐝;🐮;🦁;🐼
+40097;Que vient ensuite ? 🔑 🎁 🔑 🎁 🔑 …;🎁;🔑;🔔;⭐
+40098;Que vient ensuite ? 🍒 🍐 🍒 🍐 🍒 …;🍐;🍒;🍊;🍍
+40099;Que vient ensuite ? 🥭 🍅 🥭 🍅 🥭 …;🍅;🥭;🍐;🍒
+40100;Quel dessin ne va pas avec les autres ? ■ 🎁 ♥ ●;🎁;■;♥;●
+40101;Quel dessin ne va pas avec les autres ? ♦ 🎈 ● ★;🎈;♦;●;★
+40102;Quel dessin ne va pas avec les autres ? 🥝 🍎 🍅 👑;👑;🍅;🥝;🍎
+40103;Quel dessin ne va pas avec les autres ? 🟠 🟣 ● 🟡;●;🟣;🟡;🟠
+40104;Quel dessin ne va pas avec les autres ? ⭐ ♥ ● ★;⭐;♥;★;●
+40105;Quel dessin ne va pas avec les autres ? ● 🍊 ★ ♦;🍊;♦;★;●
+40106;Quel dessin ne va pas avec les autres ? 🐝 🐹 🐮 🎵;🎵;🐝;🐮;🐹
+40107;Quel dessin ne va pas avec les autres ? 🐯 🔔 🐘 🐻;🔔;🐘;🐻;🐯
+40108;Quel dessin ne va pas avec les autres ? 🎵 🔑 ■ ⭐;■;🎵;🔑;⭐
+40109;Quel dessin ne va pas avec les autres ? 🐘 🐨 🐺 💎;💎;🐘;🐺;🐨
+40110;Quel dessin ne va pas avec les autres ? 🟡 🐵 🐯 🐴;🟡;🐴;🐯;🐵
+40111;Quel dessin ne va pas avec les autres ? 🔵 🔔 🎁 ⭐;🔵;🎁;🔔;⭐
+40112;Quel dessin ne va pas avec les autres ? 🍇 🔑 🍎 🍐;🔑;🍎;🍐;🍇
+40113;Quel dessin ne va pas avec les autres ? ♦ ● ★ 🟢;🟢;♦;★;●
+40114;Quel dessin ne va pas avec les autres ? 🔴 🍋 🟣 🔵;🍋;🟣;🔴;🔵
+40115;Quel dessin ne va pas avec les autres ? 🔔 🍐 🎈 👑;🍐;🎈;🔔;👑
+40116;Quel dessin ne va pas avec les autres ? ♦ 🍒 ■ ♥;🍒;■;♥;♦
+40117;Quel dessin ne va pas avec les autres ? 🟠 🔵 🔴 🐢;🐢;🔵;🟠;🔴
+40118;Quel dessin ne va pas avec les autres ? 💎 🔔 👑 🐷;🐷;🔔;👑;💎
+40119;Quel dessin ne va pas avec les autres ? 🎁 ⭐ ■ 🔔;■;🎁;⭐;🔔
+40120;Quel dessin ne va pas avec les autres ? ★ ▲ 👑 ■;👑;■;▲;★
+40121;Quel dessin ne va pas avec les autres ? 🟠 🟣 🟢 ●;●;🟣;🟢;🟠
+40122;Quel dessin ne va pas avec les autres ? 🟣 🥭 🟢 🟡;🥭;🟣;🟡;🟢
+40123;Quel dessin ne va pas avec les autres ? 🟠 🐢 🐟 🐷;🟠;🐢;🐷;🐟
+40124;Quel dessin ne va pas avec les autres ? 🍍 🥭 ♦ 🍎;♦;🥭;🍍;🍎
+40125;Quel dessin ne va pas avec les autres ? 🍒 ▲ 🍑 🍐;▲;🍑;🍐;🍒
+40126;Quel dessin ne va pas avec les autres ? ■ 🟢 🔵 🟡;■;🔵;🟢;🟡
+40127;Quel dessin ne va pas avec les autres ? 🥭 🍊 🍋 🐟;🐟;🥭;🍊;🍋
+40128;Quel dessin ne va pas avec les autres ? 🍎 🥝 🍓 🎈;🎈;🍎;🍓;🥝
+40129;Quel dessin ne va pas avec les autres ? 🔴 🟢 🟠 🔔;🔔;🟠;🟢;🔴
+40130;Quel dessin ne va pas avec les autres ? 🟠 🔴 🐝 🟡;🐝;🟠;🔴;🟡
+40131;Quel dessin ne va pas avec les autres ? 🍅 🍓 🐺 🍎;🐺;🍎;🍅;🍓
+40132;Quel dessin ne va pas avec les autres ? 🟠 🟡 🟢 🐟;🐟;🟡;🟠;🟢
+40133;Quel dessin ne va pas avec les autres ? 🍓 🎵 🔔 👑;🍓;👑;🎵;🔔
+40134;Quel dessin ne va pas avec les autres ? 🦊 🐵 🎈 🐨;🎈;🦊;🐵;🐨
+40135;Quel dessin ne va pas avec les autres ? 🍊 👑 🍌 🍓;👑;🍓;🍊;🍌
+40136;Quel dessin ne va pas avec les autres ? 🍇 🔵 🔴 🟢;🍇;🔴;🟢;🔵
+40137;Quel dessin ne va pas avec les autres ? 🟠 🐢 🟢 🔵;🐢;🔵;🟢;🟠
+40138;Quel dessin ne va pas avec les autres ? 🐟 ● 🦁 🐭;●;🦁;🐭;🐟
+40139;Quel dessin ne va pas avec les autres ? 🐱 ● 🐷 🦁;●;🐱;🦁;🐷
+40140;Quel dessin ne va pas avec les autres ? 🔴 🟠 🍍 🟡;🍍;🟠;🔴;🟡
+40141;Quel dessin ne va pas avec les autres ? 🐹 ⭐ 💎 🔑;🐹;⭐;💎;🔑
+40142;Quel dessin ne va pas avec les autres ? 🍅 🍒 🥭 🎈;🎈;🍅;🍒;🥭
+40143;Quel dessin ne va pas avec les autres ? 🍑 🍇 🔴 🍉;🔴;🍑;🍉;🍇
+40144;Quel dessin ne va pas avec les autres ? 🎵 ★ 🔑 👑;★;👑;🎵;🔑
+40145;Quel dessin ne va pas avec les autres ? 🟡 🐼 🟠 🔵;🐼;🟡;🟠;🔵
+40146;Quel dessin ne va pas avec les autres ? 🍋 💎 🔔 🎁;🍋;💎;🔔;🎁
+40147;Quel dessin ne va pas avec les autres ? ⭐ 🔑 🎈 🍌;🍌;🎈;🔑;⭐
+40148;Quel dessin ne va pas avec les autres ? 🍋 🐔 🐘 🐴;🍋;🐴;🐘;🐔
+40149;Quel dessin ne va pas avec les autres ? 👑 🍑 🎁 🎵;🍑;🎵;👑;🎁
+40150;Quel dessin ne va pas avec les autres ? 🐨 💎 🐭 🐵;💎;🐵;🐭;🐨
+40151;Quel dessin ne va pas avec les autres ? 🎵 🍓 ⭐ 🎈;🍓;🎵;⭐;🎈
+40152;Quel dessin ne va pas avec les autres ? 🍇 🍉 🍅 🐟;🐟;🍅;🍇;🍉
+40153;Quel dessin ne va pas avec les autres ? 🍐 🍊 🥝 🟡;🟡;🍐;🥝;🍊
+40154;Quel dessin ne va pas avec les autres ? 🐔 🐴 ♦ 🐮;♦;🐮;🐔;🐴
+40155;Quel dessin ne va pas avec les autres ? 🐟 🐷 🐰 🍍;🍍;🐟;🐰;🐷
+40156;Quel dessin ne va pas avec les autres ? ● 🔔 🔑 🎵;●;🔔;🔑;🎵
+40157;Quel dessin ne va pas avec les autres ? ■ ♦ ● 🔔;🔔;♦;■;●
+40158;Quel dessin ne va pas avec les autres ? 🐷 🍓 🍊 🍇;🐷;🍓;🍊;🍇
+40159;Quel dessin ne va pas avec les autres ? 🍒 🍐 🍇 🎁;🎁;🍐;🍒;🍇
+40160;Le chat 🐱 fait miaou. La vache 🐮 fait…;meuh;miaou;bêê;couic
+40161;Le chat 🐱 fait miaou. Le canard 🐦 fait…;coincoin;miaou;cocorico;aouuuu
+40162;Le chat 🐱 fait miaou. Le mouton 🐑 fait…;bêê;miaou;cocorico;grrr
+40163;Le chat 🐱 fait miaou. Le cochon 🐷 fait…;groin groin;miaou;aouuuu;bêê
+40164;Le chat 🐱 fait miaou. Le coq 🐔 fait…;cocorico;miaou;grrr;coincoin
+40165;Le chat 🐱 fait miaou. Le lion 🦁 fait…;rrrooaar;miaou;ouaf;coa coa
+40166;Le chat 🐱 fait miaou. La grenouille 🐸 fait…;coa coa;miaou;groin groin;coincoin
+40167;Le chat 🐱 fait miaou. Le cheval 🐴 fait…;hiiii;miaou;rrrooaar;coa coa
+40168;Le chat 🐱 fait miaou. L'abeille 🐝 fait…;bzzz;miaou;coincoin;coa coa
+40169;Le chat 🐱 fait miaou. L'ours 🐻 fait…;grrr;miaou;meuh;groin groin
+40170;Le chat 🐱 fait miaou. La souris 🐭 fait…;couic;miaou;aouuuu;bzzz
+40171;Le chat 🐱 fait miaou. Le loup 🐺 fait…;aouuuu;miaou;couic;bêê
+40172;Le chien 🐶 fait ouaf. Le chat 🐱 fait…;miaou;ouaf;bêê;meuh
+40173;Le chien 🐶 fait ouaf. La vache 🐮 fait…;meuh;ouaf;hiiii;miaou
+40174;Le chien 🐶 fait ouaf. Le canard 🐦 fait…;coincoin;ouaf;groin groin;meuh
+40175;Le chien 🐶 fait ouaf. Le mouton 🐑 fait…;bêê;ouaf;aouuuu;hiiii
+40176;Le chien 🐶 fait ouaf. Le cochon 🐷 fait…;groin groin;ouaf;bêê;hiiii
+40177;Le chien 🐶 fait ouaf. Le coq 🐔 fait…;cocorico;ouaf;miaou;bêê
+40178;Le chien 🐶 fait ouaf. Le lion 🦁 fait…;rrrooaar;ouaf;couic;aouuuu
+40179;Le chien 🐶 fait ouaf. La grenouille 🐸 fait…;coa coa;ouaf;meuh;bzzz
+40180;Le chien 🐶 fait ouaf. Le cheval 🐴 fait…;hiiii;ouaf;meuh;bêê
+40181;Le chien 🐶 fait ouaf. L'abeille 🐝 fait…;bzzz;ouaf;grrr;cocorico
+40182;Le chien 🐶 fait ouaf. L'ours 🐻 fait…;grrr;ouaf;aouuuu;coa coa
+40183;Le chien 🐶 fait ouaf. La souris 🐭 fait…;couic;ouaf;aouuuu;coincoin
+40184;Le chien 🐶 fait ouaf. Le loup 🐺 fait…;aouuuu;ouaf;groin groin;bêê
+40185;La vache 🐮 fait meuh. Le chat 🐱 fait…;miaou;meuh;rrrooaar;bêê
+40186;La vache 🐮 fait meuh. Le chien 🐶 fait…;ouaf;meuh;cocorico;coa coa
+40187;La vache 🐮 fait meuh. Le canard 🐦 fait…;coincoin;meuh;aouuuu;rrrooaar
+40188;La vache 🐮 fait meuh. Le mouton 🐑 fait…;bêê;meuh;hiiii;groin groin
+40189;La vache 🐮 fait meuh. Le cochon 🐷 fait…;groin groin;meuh;grrr;coa coa
+40190;Quel est l'animal le plus petit ? 🐝 🐭 🐱 🐸;🐝;🐭;🐱;🐸
+40191;Quel est l'animal le plus petit ? 🐮 🐝 🐘 🦁;🐝;🐮;🐘;🦁
+40192;Quel est l'animal le plus petit ? 🐱 🐝 🐶 🐰;🐝;🐱;🐶;🐰
+40193;Quel est l'animal le plus petit ? 🐝 🐷 🐘 🐸;🐝;🐷;🐘;🐸
+40194;Quel est l'animal le plus petit ? 🐝 🐱 🐶 🐭;🐝;🐱;🐶;🐭
+40195;Quel est l'animal le plus grand ? 🐷 🐮 🐴 🐰;🐴;🐷;🐮;🐰
+40196;Quel est l'animal le plus petit ? 🐰 🐷 🐮 🐴;🐰;🐷;🐮;🐴
+40197;Quel est l'animal le plus grand ? 🐻 🐱 🐶 🐔;🐻;🐱;🐶;🐔
+40198;Quel est l'animal le plus grand ? 🐶 🐷 🐭 🐔;🐷;🐶;🐭;🐔
+40199;Quel est l'animal le plus petit ? 🐝 🐸 🐷 🐶;🐝;🐸;🐷;🐶
+40200;Quel est l'animal le plus grand ? 🐘 🦁 🐴 🐻;🐘;🦁;🐴;🐻
+40201;Quel est l'animal le plus grand ? 🐻 🐸 🐱 🐔;🐻;🐸;🐱;🐔
+40202;Quel est l'animal le plus grand ? 🐻 🐰 🐷 🐔;🐻;🐰;🐷;🐔
+40203;Quel est l'animal le plus petit ? 🐴 🐘 🐻 🐱;🐱;🐴;🐘;🐻
+40204;Quel est l'animal le plus grand ? 🦁 🐮 🐝 🐱;🦁;🐮;🐝;🐱
+40205;Quel est l'animal le plus grand ? 🐴 🐝 🐱 🐻;🐴;🐝;🐱;🐻
+40206;Quel est l'animal le plus petit ? 🐝 🐸 🐭 🐷;🐝;🐸;🐭;🐷
+40207;Quel est l'animal le plus grand ? 🐸 🐻 🐝 🐭;🐻;🐸;🐝;🐭
+40208;Quel est l'animal le plus petit ? 🐝 🐱 🦁 🐻;🐝;🐱;🦁;🐻
+40209;Quel est l'animal le plus petit ? 🐔 🐰 🐝 🐻;🐝;🐔;🐰;🐻
+40210;Quel est l'animal le plus grand ? 🐭 🐱 🐰 🐝;🐱;🐭;🐰;🐝
+40211;Quel est l'animal le plus grand ? 🐴 🐷 🐱 🐸;🐴;🐷;🐱;🐸
+40212;Quel est l'animal le plus grand ? 🐸 🐝 🐰 🐔;🐰;🐸;🐝;🐔
+40213;Quel est l'animal le plus grand ? 🐮 🐰 🐴 🐻;🐴;🐮;🐰;🐻
+40214;Quel est l'animal le plus grand ? 🐰 🐮 🐴 🐷;🐴;🐰;🐮;🐷
+40215;Quel est l'animal le plus grand ? 🐰 🐸 🐔 🐮;🐮;🐰;🐸;🐔
+40216;Quel est l'animal le plus grand ? 🐔 🐻 🐭 🐸;🐻;🐔;🐭;🐸
+40217;Quel est l'animal le plus petit ? 🐴 🐘 🐸 🐔;🐸;🐴;🐘;🐔
+40218;Quel est l'animal le plus petit ? 🐘 🐱 🐸 🐔;🐸;🐘;🐱;🐔
+40219;Quel est l'animal le plus grand ? 🐮 🐶 🦁 🐸;🦁;🐮;🐶;🐸
+40220;Quel est l'animal le plus petit ? 🐸 🐶 🐝 🐱;🐝;🐸;🐶;🐱
+40221;Quel est l'animal le plus petit ? 🐭 🐷 🐝 🐶;🐝;🐭;🐷;🐶
+40222;Quel est l'animal le plus grand ? 🦁 🐮 🐴 🐱;🐴;🦁;🐮;🐱
+40223;Quel est l'animal le plus petit ? 🐮 🐶 🐘 🐔;🐔;🐮;🐶;🐘
+40224;Quel est l'animal le plus petit ? 🦁 🐔 🐭 🐷;🐭;🦁;🐔;🐷
+40225;Quel est l'animal le plus grand ? 🐘 🐴 🐮 🐱;🐘;🐴;🐮;🐱
+40226;Quel est l'animal le plus petit ? 🐔 🐷 🦁 🐘;🐔;🐷;🦁;🐘
+40227;Quel est l'animal le plus petit ? 🐮 🐴 🐘 🐰;🐰;🐮;🐴;🐘
+40228;Quel est l'animal le plus petit ? 🐷 🐶 🐘 🐝;🐝;🐷;🐶;🐘
+40229;Quel est l'animal le plus grand ? 🐴 🐮 🐶 🐰;🐴;🐮;🐶;🐰
+40230;Sacha a 🥭🥭, Jade a 🥭. Qui a le moins de 🥭 ?;Jade;Sacha;Personne;Les deux pareils
+40231;Nina a 🍓🍓🍓🍓🍓, Hugo a 🍓🍓🍓. Qui a le moins de 🍓 ?;Hugo;Nina;Personne;Les deux pareils
+40232;Tom a 🍌🍌🍌🍌🍌, Emma a 🍌. Qui a le moins de 🍌 ?;Emma;Tom;Personne;Les deux pareils
+40233;Zoé a ⭐⭐⭐⭐, Hugo a ⭐⭐⭐⭐⭐. Qui a le plus de ⭐ ?;Hugo;Zoé;Personne;Les deux pareils
+40234;Léo a 🍋🍋🍋, Nina a 🍋🍋🍋🍋🍋. Qui a le moins de 🍋 ?;Léo;Nina;Personne;Les deux pareils
+40235;Théo a 🎁🎁🎁🎁🎁, Sacha a 🎁🎁🎁. Qui a le moins de 🎁 ?;Sacha;Théo;Personne;Les deux pareils
+40236;Mia a 🍐🍐🍐🍐, Théo a 🍐. Qui a le plus de 🍐 ?;Mia;Théo;Personne;Les deux pareils
+40237;Léa a 🍉🍉🍉🍉, Hugo a 🍉🍉🍉🍉🍉. Qui a le moins de 🍉 ?;Léa;Hugo;Personne;Les deux pareils
+40238;Max a 🎵🎵🎵, Sacha a 🎵🎵🎵🎵🎵🎵. Qui a le plus de 🎵 ?;Sacha;Max;Personne;Les deux pareils
+40239;Jade a 🍑🍑🍑🍑🍑, Emma a 🍑🍑🍑🍑. Qui a le plus de 🍑 ?;Jade;Emma;Personne;Les deux pareils
+40240;Nina a 🍊, Léa a 🍊🍊🍊🍊🍊. Qui a le moins de 🍊 ?;Nina;Léa;Personne;Les deux pareils
+40241;Enzo a 🍓🍓🍓, Sacha a 🍓🍓🍓🍓. Qui a le plus de 🍓 ?;Sacha;Enzo;Personne;Les deux pareils
+40242;Théo a 💎💎💎💎, Enzo a 💎💎💎💎💎. Qui a le plus de 💎 ?;Enzo;Théo;Personne;Les deux pareils
+40243;Nina a 🎁🎁🎁🎁🎁🎁, Alice a 🎁🎁. Qui a le moins de 🎁 ?;Alice;Nina;Personne;Les deux pareils
+40244;Jade a 🎁🎁🎁🎁🎁🎁, Léo a 🎁🎁🎁🎁. Qui a le plus de 🎁 ?;Jade;Léo;Personne;Les deux pareils
+40245;Sacha a 🍋🍋🍋🍋, Mia a 🍋🍋🍋🍋🍋. Qui a le moins de 🍋 ?;Sacha;Mia;Personne;Les deux pareils
+40246;Max a 🍒🍒🍒🍒🍒, Zoé a 🍒🍒🍒🍒. Qui a le moins de 🍒 ?;Zoé;Max;Personne;Les deux pareils
+40247;Nina a 🍉🍉, Sacha a 🍉🍉🍉. Qui a le moins de 🍉 ?;Nina;Sacha;Personne;Les deux pareils
+40248;Alice a 🍐🍐🍐, Zoé a 🍐🍐🍐🍐. Qui a le plus de 🍐 ?;Zoé;Alice;Personne;Les deux pareils
+40249;Jade a 🔔🔔🔔🔔🔔, Lina a 🔔🔔🔔🔔🔔🔔. Qui a le moins de 🔔 ?;Jade;Lina;Personne;Les deux pareils
+40250;Tom a 🍉🍉🍉, Zoé a 🍉🍉. Qui a le plus de 🍉 ?;Tom;Zoé;Personne;Les deux pareils
+40251;Alice a 🔑🔑🔑, Sacha a 🔑🔑🔑🔑. Qui a le moins de 🔑 ?;Alice;Sacha;Personne;Les deux pareils
+40252;Alice a 🔔🔔🔔🔔🔔, Emma a 🔔🔔🔔. Qui a le plus de 🔔 ?;Alice;Emma;Personne;Les deux pareils
+40253;Max a 🎵🎵🎵🎵🎵, Noah a 🎵🎵🎵🎵🎵🎵. Qui a le plus de 🎵 ?;Noah;Max;Personne;Les deux pareils
+40254;Max a 🍍🍍🍍🍍🍍🍍, Léa a 🍍🍍🍍🍍🍍. Qui a le plus de 🍍 ?;Max;Léa;Personne;Les deux pareils
+40255;Noah a 🎈🎈🎈🎈, Mia a 🎈🎈🎈. Qui a le plus de 🎈 ?;Noah;Mia;Personne;Les deux pareils
+40256;Enzo a 🍑, Mia a 🍑🍑🍑🍑🍑. Qui a le moins de 🍑 ?;Enzo;Mia;Personne;Les deux pareils
+40257;Hugo a 🍒🍒🍒🍒, Léo a 🍒🍒🍒🍒🍒🍒. Qui a le moins de 🍒 ?;Hugo;Léo;Personne;Les deux pareils
+40258;Max a 🍇🍇🍇🍇🍇🍇, Alice a 🍇. Qui a le plus de 🍇 ?;Max;Alice;Personne;Les deux pareils
+40259;Tom a 🍑🍑, Enzo a 🍑🍑🍑🍑. Qui a le moins de 🍑 ?;Tom;Enzo;Personne;Les deux pareils
+40260;Tom a 🍉🍉🍉🍉, Léa a 🍉🍉. Qui a le moins de 🍉 ?;Léa;Tom;Personne;Les deux pareils
+40261;Lina a 🍉, Mia a 🍉🍉🍉. Qui a le moins de 🍉 ?;Lina;Mia;Personne;Les deux pareils
+40262;Alice a ⭐⭐, Noah a ⭐⭐⭐⭐⭐. Qui a le plus de ⭐ ?;Noah;Alice;Personne;Les deux pareils
+40263;Alice a ⭐⭐⭐, Sacha a ⭐⭐. Qui a le plus de ⭐ ?;Alice;Sacha;Personne;Les deux pareils
+40264;Hugo a 🍋, Théo a 🍋🍋🍋🍋🍋🍋. Qui a le plus de 🍋 ?;Théo;Hugo;Personne;Les deux pareils
+40265;Jade a 🔑🔑, Enzo a 🔑🔑🔑🔑🔑. Qui a le moins de 🔑 ?;Jade;Enzo;Personne;Les deux pareils
+40266;Jade a 🍇🍇🍇🍇🍇, Mia a 🍇🍇🍇. Qui a le plus de 🍇 ?;Jade;Mia;Personne;Les deux pareils
+40267;Léa a 🍍🍍🍍🍍, Zoé a 🍍🍍🍍. Qui a le moins de 🍍 ?;Zoé;Léa;Personne;Les deux pareils
+40268;Mia a 🥝🥝, Zoé a 🥝🥝🥝🥝. Qui a le plus de 🥝 ?;Zoé;Mia;Personne;Les deux pareils
+40269;Max a 🍐🍐🍐, Léa a 🍐🍐🍐🍐🍐🍐. Qui a le plus de 🍐 ?;Léa;Max;Personne;Les deux pareils
+40270;Jade a 🍑🍑🍑🍑, Mia a 🍑🍑🍑. Qui a le moins de 🍑 ?;Mia;Jade;Personne;Les deux pareils
+40271;Hugo a 🔑🔑🔑🔑🔑🔑, Léo a 🔑. Qui a le plus de 🔑 ?;Hugo;Léo;Personne;Les deux pareils
+40272;Sacha a ⭐⭐⭐⭐, Nina a ⭐⭐. Qui a le moins de ⭐ ?;Nina;Sacha;Personne;Les deux pareils
+40273;Max a 🍒🍒🍒🍒🍒, Mia a 🍒🍒🍒🍒🍒🍒. Qui a le plus de 🍒 ?;Mia;Max;Personne;Les deux pareils
+40274;Sacha a 🎁🎁🎁🎁🎁, Tom a 🎁🎁🎁🎁. Qui a le plus de 🎁 ?;Sacha;Tom;Personne;Les deux pareils
+40275;Nina a 🎁, Hugo a 🎁🎁🎁🎁🎁. Qui a le plus de 🎁 ?;Hugo;Nina;Personne;Les deux pareils
+40276;Lina a 🎁🎁, Tom a 🎁🎁🎁. Qui a le plus de 🎁 ?;Tom;Lina;Personne;Les deux pareils
+40277;Emma a 🎈🎈🎈🎈🎈🎈, Lina a 🎈🎈🎈🎈🎈. Qui a le moins de 🎈 ?;Lina;Emma;Personne;Les deux pareils
+40278;Enzo a 🍓, Max a 🍓🍓🍓🍓. Qui a le plus de 🍓 ?;Max;Enzo;Personne;Les deux pareils
+40279;Hugo a 👑👑👑👑👑, Sacha a 👑👑👑👑. Qui a le plus de 👑 ?;Hugo;Sacha;Personne;Les deux pareils
+40280;Nina a 🍎🍎🍎🍎, Hugo a 🍎🍎🍎. Qui a le plus de 🍎 ?;Nina;Hugo;Personne;Les deux pareils
+40281;Emma a 🍐, Alice a 🍐🍐🍐🍐. Qui a le plus de 🍐 ?;Alice;Emma;Personne;Les deux pareils
+40282;Hugo a 🍌, Nina a 🍌🍌🍌🍌. Qui a le plus de 🍌 ?;Nina;Hugo;Personne;Les deux pareils
+40283;Enzo a 🔑🔑, Léo a 🔑🔑🔑🔑🔑🔑. Qui a le moins de 🔑 ?;Enzo;Léo;Personne;Les deux pareils
+40284;Zoé a 👑👑👑👑, Mia a 👑. Qui a le moins de 👑 ?;Mia;Zoé;Personne;Les deux pareils
+40285;Jade a 🔔, Alice a 🔔🔔. Qui a le plus de 🔔 ?;Alice;Jade;Personne;Les deux pareils
+40286;Léa a 🍎🍎🍎🍎🍎🍎, Zoé a 🍎🍎. Qui a le moins de 🍎 ?;Zoé;Léa;Personne;Les deux pareils
+40287;Jade a 🔔🔔🔔🔔🔔, Enzo a 🔔🔔🔔🔔. Qui a le plus de 🔔 ?;Jade;Enzo;Personne;Les deux pareils
+40288;Zoé a 🍐🍐, Théo a 🍐🍐🍐🍐. Qui a le plus de 🍐 ?;Théo;Zoé;Personne;Les deux pareils
+40289;Enzo a 🍌🍌🍌🍌🍌🍌, Hugo a 🍌. Qui a le plus de 🍌 ?;Enzo;Hugo;Personne;Les deux pareils
+40290;Quel nombre vient après ? 25, 26, 27, 28, …;29;30;31;28
+40291;Quel nombre vient après ? 84, 85, 86, 87, …;88;89;90;87
+40292;Quel nombre vient après ? 49, 50, 51, 52, …;53;54;55;52
+40293;Quel nombre vient après ? 32, 33, 34, 35, …;36;37;38;35
+40294;Quel nombre vient après ? 39, 40, 41, 42, …;43;44;45;42
+40295;Quel nombre vient après ? 21, 22, 23, 24, …;25;26;27;24
+40296;Quel nombre vient après ? 89, 90, 91, 92, …;93;94;95;92
+40297;Quel nombre vient après ? 68, 69, 70, 71, …;72;73;74;71
+40298;Quel nombre vient après ? 45, 46, 47, 48, …;49;50;51;48
+40299;Quel nombre vient après ? 23, 24, 25, 26, …;27;28;29;26
+40300;Quel nombre vient après ? 0, 1, 2, 3, …;4;5;6;3
+40301;Quel nombre vient après ? 50, 51, 52, 53, …;54;55;56;53
+40302;Quel nombre vient après ? 65, 66, 67, 68, …;69;70;71;68
+40303;Quel nombre vient après ? 44, 45, 46, 47, …;48;49;50;47
+40304;Quel nombre vient après ? 36, 37, 38, 39, …;40;41;42;39
+40305;Quel nombre vient après ? 88, 89, 90, 91, …;92;93;94;91
+40306;Quel nombre vient après ? 59, 60, 61, 62, …;63;64;65;62
+40307;Quel nombre vient après ? 2, 3, 4, 5, …;6;7;8;5
+40308;Quel nombre vient après ? 10, 11, 12, 13, …;14;15;16;13
+40309;Quel nombre vient après ? 87, 88, 89, 90, …;91;92;93;90
+40310;Quel nombre vient après ? 93, 94, 95, 96, …;97;98;99;96
+40311;Quel nombre vient après ? 78, 79, 80, 81, …;82;83;84;81
+40312;Quel nombre vient après ? 92, 93, 94, 95, …;96;97;98;95
+40313;Quel nombre vient après ? 90, 91, 92, 93, …;94;95;96;93
+40314;Quel nombre vient après ? 16, 17, 18, 19, …;20;21;22;19
+40315;Quel nombre vient après ? 67, 68, 69, 70, …;71;72;73;70
+40316;Quel nombre vient après ? 53, 54, 55, 56, …;57;58;59;56
+40317;Quel nombre vient après ? 13, 14, 15, 16, …;17;18;19;16
+40318;Quel nombre vient après ? 77, 78, 79, 80, …;81;82;83;80
+40319;Quel nombre vient après ? 83, 84, 85, 86, …;87;88;89;86
+40320;Quel nombre vient après ? 74, 75, 76, 77, …;78;79;80;77
+40321;Quel nombre vient après ? 48, 49, 50, 51, …;52;53;54;51
+40322;Quel nombre vient après ? 55, 56, 57, 58, …;59;60;61;58
+40323;Quel nombre vient après ? 14, 15, 16, 17, …;18;19;20;17
+40324;Quel nombre vient après ? 15, 16, 17, 18, …;19;20;21;18
+40325;Quel nombre vient après ? 70, 71, 72, 73, …;74;75;76;73
+40326;Quel nombre vient après ? 34, 35, 36, 37, …;38;39;40;37
+40327;Quel nombre vient après ? 58, 59, 60, 61, …;62;63;64;61
+40328;Quel nombre vient après ? 46, 47, 48, 49, …;50;51;52;49
+40329;Quel nombre vient après ? 19, 20, 21, 22, …;23;24;25;22
+40330;Quel nombre vient après ? 20, 15, 10, 5, …;0;4;-1;-3
+40331;Quel nombre vient après ? 7, 9, 11, 13, …;15;14;16;18
+40332;Quel nombre vient après ? 35, 32, 29, 26, …;23;25;22;20
+40333;Quel nombre vient après ? 25, 28, 31, 34, …;37;35;38;40
+40334;Quel nombre vient après ? 38, 36, 34, 32, …;30;31;29;27
+40335;Quel nombre vient après ? 54, 49, 44, 39, …;34;38;33;31
+40336;Quel nombre vient après ? 39, 36, 33, 30, …;27;29;26;24
+40337;Quel nombre vient après ? 52, 47, 42, 37, …;32;36;31;29
+40338;Quel nombre vient après ? 26, 21, 16, 11, …;6;10;5;3
+40339;Quel nombre vient après ? 40, 37, 34, 31, …;28;30;27;25
+40340;Quel nombre vient après ? 40, 38, 36, 34, …;32;33;31;29
+40341;Quel nombre vient après ? 36, 41, 46, 51, …;56;52;57;59
+40342;Quel nombre vient après ? 1, 3, 5, 7, …;9;8;10;12
+40343;Quel nombre vient après ? 38, 33, 28, 23, …;18;22;17;15
+40344;Quel nombre vient après ? 21, 23, 25, 27, …;29;28;30;32
+40345;Quel nombre vient après ? 56, 54, 52, 50, …;48;49;47;45
+40346;Quel nombre vient après ? 55, 53, 51, 49, …;47;48;46;44
+40347;Quel nombre vient après ? 36, 33, 30, 27, …;24;26;23;21
+40348;Quel nombre vient après ? 49, 44, 39, 34, …;29;33;28;26
+40349;Quel nombre vient après ? 30, 28, 26, 24, …;22;23;21;19
+40350;Quel nombre vient après ? 31, 29, 27, 25, …;23;24;22;20
+40351;Quel nombre vient après ? 33, 36, 39, 42, …;45;43;46;48
+40352;Quel nombre vient après ? 3, 5, 7, 9, …;11;10;12;14
+40353;Quel nombre vient après ? 28, 26, 24, 22, …;20;21;19;17
+40354;Quel nombre vient après ? 4, 7, 10, 13, …;16;14;17;19
+40355;Quel nombre vient après ? 0, 3, 6, 9, …;12;10;13;15
+40356;Quel nombre vient après ? 43, 41, 39, 37, …;35;36;34;32
+40357;Quel nombre vient après ? 51, 49, 47, 45, …;43;44;42;40
+40358;Quel nombre vient après ? 34, 36, 38, 40, …;42;41;43;45
+40359;Quel nombre vient après ? 20, 17, 14, 11, …;8;10;7;5
+40360;Quel nombre vient après ? 54, 52, 50, 48, …;46;47;45;43
+40361;Quel nombre vient après ? 32, 37, 42, 47, …;52;48;53;55
+40362;Quel nombre vient après ? 31, 28, 25, 22, …;19;21;18;16
+40363;Quel nombre vient après ? 33, 35, 37, 39, …;41;40;42;44
+40364;Quel nombre vient après ? 12, 14, 16, 18, …;20;19;21;23
+40365;Quel nombre vient après ? 42, 39, 36, 33, …;30;32;29;27
+40366;Quel nombre vient après ? 25, 20, 15, 10, …;5;9;4;2
+40367;Quel nombre vient après ? 14, 17, 20, 23, …;26;24;27;29
+40368;Quel nombre vient après ? 2, 7, 12, 17, …;22;18;23;25
+40369;Quel nombre vient après ? 44, 42, 40, 38, …;36;37;35;33
+40370;Le contraire de jour est nuit. Le contraire de propre est…;sale;nuit;petit;fermé
+40371;Le contraire de dur est mou. Le contraire de grand est…;petit;mou;fermé;faible
+40372;Le contraire de lourd est léger. Le contraire de fort est…;faible;léger;nuit;sombre
+40373;Le contraire de haut est bas. Le contraire de lourd est…;léger;bas;petit;vide
+40374;Le contraire de facile est difficile. Le contraire de grand est…;petit;difficile;mou;froid
+40375;Le contraire de haut est bas. Le contraire de gentil est…;méchant;bas;mou;léger
+40376;Le contraire de fort est faible. Le contraire de plein est…;vide;faible;lent;petit
+40377;Le contraire de dur est mou. Le contraire de lourd est…;léger;mou;faible;nuit
+40378;Le contraire de propre est sale. Le contraire de lourd est…;léger;sale;content;mou
+40379;Le contraire de neuf est vieux. Le contraire de gentil est…;méchant;vieux;sombre;nuit
+40380;Le contraire de haut est bas. Le contraire de propre est…;sale;bas;nuit;lent
+40381;Le contraire de jour est nuit. Le contraire de rapide est…;lent;nuit;bas;content
+40382;Le contraire de dur est mou. Le contraire de plein est…;vide;mou;fermé;sale
+40383;Le contraire de clair est sombre. Le contraire de ouvert est…;fermé;sombre;difficile;lent
+40384;Le contraire de dur est mou. Le contraire de jour est…;nuit;mou;sombre;fermé
+40385;Le contraire de haut est bas. Le contraire de chaud est…;froid;bas;nuit;content
+40386;Le contraire de chaud est froid. Le contraire de grand est…;petit;froid;content;vieux
+40387;Le contraire de plein est vide. Le contraire de fort est…;faible;vide;sale;lent
+40388;Le contraire de plein est vide. Le contraire de dur est…;mou;vide;nuit;sombre
+40389;Le contraire de facile est difficile. Le contraire de clair est…;sombre;difficile;bas;mou
+40390;Le contraire de facile est difficile. Le contraire de neuf est…;vieux;difficile;nuit;petit
+40391;Le contraire de facile est difficile. Le contraire de dur est…;mou;difficile;bas;froid
+40392;Le contraire de dur est mou. Le contraire de facile est…;difficile;mou;vide;sale
+40393;Le contraire de facile est difficile. Le contraire de ouvert est…;fermé;difficile;faible;mou
+40394;Le contraire de grand est petit. Le contraire de jour est…;nuit;petit;mou;sombre
+40395;Le contraire de rapide est lent. Le contraire de ouvert est…;fermé;lent;sombre;bas
+40396;Le contraire de triste est content. Le contraire de haut est…;bas;content;difficile;léger
+40397;Le contraire de lourd est léger. Le contraire de rapide est…;lent;léger;content;sale
+40398;Le contraire de ouvert est fermé. Le contraire de facile est…;difficile;fermé;faible;nuit
+40399;Le contraire de clair est sombre. Le contraire de chaud est…;froid;sombre;faible;petit
+40400;Le contraire de neuf est vieux. Le contraire de chaud est…;froid;vieux;bas;fermé
+40401;Le contraire de gentil est méchant. Le contraire de lourd est…;léger;méchant;faible;vide
+40402;Le contraire de lourd est léger. Le contraire de triste est…;content;léger;froid;sombre
+40403;Le contraire de fort est faible. Le contraire de lourd est…;léger;faible;lent;fermé
+40404;Le contraire de ouvert est fermé. Le contraire de clair est…;sombre;fermé;petit;vieux
+40405;Le contraire de chaud est froid. Le contraire de gentil est…;méchant;froid;sale;difficile
+40406;Le contraire de ouvert est fermé. Le contraire de propre est…;sale;fermé;bas;content
+40407;Le contraire de chaud est froid. Le contraire de facile est…;difficile;froid;sombre;sale
+40408;Le contraire de dur est mou. Le contraire de fort est…;faible;mou;froid;sale
+40409;Le contraire de rapide est lent. Le contraire de plein est…;vide;lent;vieux;sombre
+40410;Quelle couleur vient ensuite ? 🟣 🔴 🟣 🔴 🟣 …;🔴;🟣;🔵;🟡
+40411;Quelle couleur vient ensuite ? 🔴 🟡 🟢 🔴 🟡 …;🟢;🟣;🔵;🔴
+40412;Quelle couleur vient ensuite ? 🟢 🔵 🟢 🔵 🟢 …;🔵;🟢;🔴;🟣
+40413;Quelle couleur vient ensuite ? 🟢 🟣 🟡 🟢 🟣 …;🟡;🟣;🟢;🔴
+40414;Quelle couleur vient ensuite ? 🔴 🔵 🟢 🔴 🔵 …;🟢;🟣;🔵;🟠
+40415;Quelle couleur vient ensuite ? 🔴 🔵 🟣 🔴 🔵 …;🟣;🔵;🟢;🔴
+40416;Quelle couleur vient ensuite ? 🔴 🟠 🔵 🔴 🟠 …;🔵;🔴;🟢;🟡
+40417;Quelle couleur vient ensuite ? 🟠 🔴 🟣 🟠 🔴 …;🟣;🔴;🟡;🟢
+40418;Quelle couleur vient ensuite ? 🟣 🟠 🟣 🟠 🟣 …;🟠;🔵;🟣;🟢
+40419;Quelle couleur vient ensuite ? 🟢 🟠 🟢 🟠 🟢 …;🟠;🔴;🔵;🟣
+40420;Quelle couleur vient ensuite ? 🟡 🟢 🔵 🟡 🟢 …;🔵;🟣;🟡;🟠
+40421;Quelle couleur vient ensuite ? 🔴 🔵 🔴 🔵 🔴 …;🔵;🔴;🟡;🟢
+40422;Quelle couleur vient ensuite ? 🟣 🟢 🟣 🟢 🟣 …;🟢;🔴;🟡;🟠
+40423;Quelle couleur vient ensuite ? 🟠 🟣 🔴 🟠 🟣 …;🔴;🟠;🟣;🔵
+40424;Quelle couleur vient ensuite ? 🟢 🟡 🟢 🟡 🟢 …;🟡;🟣;🔵;🟢
+40425;Quelle couleur vient ensuite ? 🔵 🔴 🟡 🔵 🔴 …;🟡;🟢;🟠;🔴
+40426;Quelle couleur vient ensuite ? 🔵 🔴 🔵 🔴 🔵 …;🔴;🟢;🟡;🟣
+40427;Quelle couleur vient ensuite ? 🟡 🟢 🟡 🟢 🟡 …;🟢;🔵;🟣;🟠
+40428;Quelle couleur vient ensuite ? 🔵 🟡 🔵 🟡 🔵 …;🟡;🟢;🟣;🟠
+40429;Quelle couleur vient ensuite ? 🟡 🔴 🟡 🔴 🟡 …;🔴;🔵;🟠;🟡
+40430;Quelle couleur vient ensuite ? 🔴 🟡 🟣 🔴 🟡 …;🟣;🟠;🟡;🔴
+40431;Quelle couleur vient ensuite ? 🟢 🟡 🔵 🟢 🟡 …;🔵;🟠;🟣;🟡
+40432;Quelle couleur vient ensuite ? 🟡 🟣 🟠 🟡 🟣 …;🟠;🟡;🟢;🔵
+40433;Quelle couleur vient ensuite ? 🟡 🔵 🟡 🔵 🟡 …;🔵;🟣;🔴;🟡
+40434;Quelle couleur vient ensuite ? 🟠 🟢 🟡 🟠 🟢 …;🟡;🔴;🟢;🔵
+40435;Quelle couleur vient ensuite ? 🟢 🔵 🔴 🟢 🔵 …;🔴;🟠;🟣;🔵
+40436;Quelle couleur vient ensuite ? 🟡 🟣 🟡 🟣 🟡 …;🟣;🟡;🟠;🔴
+40437;Quelle couleur vient ensuite ? 🟠 🔵 🟠 🔵 🟠 …;🔵;🟠;🟢;🟣
+40438;Quelle couleur vient ensuite ? 🔵 🟠 🟣 🔵 🟠 …;🟣;🔴;🔵;🟡
+40439;Quelle couleur vient ensuite ? 🟠 🟢 🟠 🟢 🟠 …;🟢;🟣;🔴;🟡
+40440;Le petit de 🐷 est le porcelet. Le petit de 🐱 est…;le chaton;le porcelet;le chevreau;le poussin
+40441;Le petit de 🐑 est l'agneau. Le petit de 🐐 est…;le chevreau;l'agneau;le veau;le chiot
+40442;Le petit de 🐔 est le poussin. Le petit de 🐑 est…;l'agneau;le poussin;l'ourson;le chiot
+40443;Le petit de 🐶 est le chiot. Le petit de 🐔 est…;le poussin;le chiot;le poulain;l'ourson
+40444;Le petit de 🐴 est le poulain. Le petit de 🐻 est…;l'ourson;le poulain;l'agneau;le chiot
+40445;Le petit de 🐶 est le chiot. Le petit de 🐱 est…;le chaton;le chiot;le poussin;le chevreau
+40446;Le petit de 🦁 est le lionceau. Le petit de 🐶 est…;le chiot;le lionceau;le poussin;le poulain
+40447;Le petit de 🐔 est le poussin. Le petit de 🐴 est…;le poulain;le poussin;le chaton;le lionceau
+40448;Le petit de 🐷 est le porcelet. Le petit de 🐐 est…;le chevreau;le porcelet;le poulain;le lionceau
+40449;Le petit de 🦁 est le lionceau. Le petit de 🐱 est…;le chaton;le lionceau;l'ourson;le veau
+40450;Le petit de 🦁 est le lionceau. Le petit de 🐔 est…;le poussin;le lionceau;le veau;le poulain
+40451;Le petit de 🐶 est le chiot. Le petit de 🐐 est…;le chevreau;le chiot;le lionceau;le poussin
+40452;Le petit de 🐮 est le veau. Le petit de 🐐 est…;le chevreau;le veau;le poulain;le chiot
+40453;Le petit de 🐴 est le poulain. Le petit de 🦁 est…;le lionceau;le poulain;le poussin;le chevreau
+40454;Le petit de 🦁 est le lionceau. Le petit de 🐻 est…;l'ourson;le lionceau;le poussin;l'agneau
+40455;Le petit de 🐐 est le chevreau. Le petit de 🐑 est…;l'agneau;le chevreau;le porcelet;le chaton
+40456;Le petit de 🐶 est le chiot. Le petit de 🐻 est…;l'ourson;le chiot;le chevreau;le veau
+40457;Le petit de 🐱 est le chaton. Le petit de 🐑 est…;l'agneau;le chaton;le veau;le lionceau
+40458;Le petit de 🦁 est le lionceau. Le petit de 🐴 est…;le poulain;le lionceau;l'ourson;le chevreau
+40459;Le petit de 🐻 est l'ourson. Le petit de 🐔 est…;le poussin;l'ourson;le chiot;le chevreau
+40460;Le petit de 🐐 est le chevreau. Le petit de 🐱 est…;le chaton;le chevreau;l'agneau;l'ourson
+40461;Le petit de 🐔 est le poussin. Le petit de 🦁 est…;le lionceau;le poussin;le chevreau;le chiot
+40462;Le petit de 🦁 est le lionceau. Le petit de 🐑 est…;l'agneau;le lionceau;le poussin;le veau
+40463;Le petit de 🐱 est le chaton. Le petit de 🦁 est…;le lionceau;le chaton;le chiot;l'ourson
+40464;Le petit de 🐱 est le chaton. Le petit de 🐮 est…;le veau;le chaton;l'agneau;le poulain
+40465;Le petit de 🐷 est le porcelet. Le petit de 🐻 est…;l'ourson;le porcelet;le veau;le chevreau
+40466;Le petit de 🐑 est l'agneau. Le petit de 🐱 est…;le chaton;l'agneau;le lionceau;le poulain
+40467;Le petit de 🐶 est le chiot. Le petit de 🐑 est…;l'agneau;le chiot;le poussin;le chevreau
+40468;Le petit de 🐴 est le poulain. Le petit de 🐷 est…;le porcelet;le poulain;le chaton;le poussin
+40469;Le petit de 🐔 est le poussin. Le petit de 🐮 est…;le veau;le poussin;le chaton;le lionceau
+40470;Combien y a-t-il de 🐨 dans le prochain groupe ? 🐨🐨 | 🐨🐨🐨 | 🐨🐨🐨🐨 | …;5;4;6;2
+40471;Combien y a-t-il de 🍊 dans le prochain groupe ? 🍊🍊🍊 | 🍊🍊🍊🍊 | 🍊🍊🍊🍊🍊 | …;6;5;7;3
+40472;Combien y a-t-il de 🍋 dans le prochain groupe ? 🍋 | 🍋🍋 | 🍋🍋🍋 | …;4;3;5;1
+40473;Combien y a-t-il de 💎 dans le prochain groupe ? 💎💎💎 | 💎💎💎💎 | 💎💎💎💎💎 | …;6;5;7;3
+40474;Combien y a-t-il de 🐔 dans le prochain groupe ? 🐔🐔 | 🐔🐔🐔 | 🐔🐔🐔🐔 | …;5;4;6;2
+40475;Combien y a-t-il de 🥝 dans le prochain groupe ? 🥝🥝🥝 | 🥝🥝🥝🥝 | 🥝🥝🥝🥝🥝 | …;6;5;7;3
+40476;Combien y a-t-il de 🦊 dans le prochain groupe ? 🦊 | 🦊🦊 | 🦊🦊🦊 | …;4;3;5;1
+40477;Combien y a-t-il de 🍐 dans le prochain groupe ? 🍐 | 🍐🍐 | 🍐🍐🍐 | …;4;3;5;1
+40478;Combien y a-t-il de 🥭 dans le prochain groupe ? 🥭 | 🥭🥭 | 🥭🥭🥭 | …;4;3;5;1
+40479;Combien y a-t-il de 🎈 dans le prochain groupe ? 🎈 | 🎈🎈 | 🎈🎈🎈 | …;4;3;5;1
+40480;Combien y a-t-il de 🐵 dans le prochain groupe ? 🐵 | 🐵🐵 | 🐵🐵🐵 | …;4;3;5;1
+40481;Combien y a-t-il de 🐶 dans le prochain groupe ? 🐶🐶🐶 | 🐶🐶🐶🐶 | 🐶🐶🐶🐶🐶 | …;6;5;7;3
+40482;Combien y a-t-il de 🥭 dans le prochain groupe ? 🥭🥭 | 🥭🥭🥭 | 🥭🥭🥭🥭 | …;5;4;6;2
+40483;Combien y a-t-il de 🐶 dans le prochain groupe ? 🐶🐶 | 🐶🐶🐶 | 🐶🐶🐶🐶 | …;5;4;6;2
+40484;Combien y a-t-il de 🐴 dans le prochain groupe ? 🐴 | 🐴🐴 | 🐴🐴🐴 | …;4;3;5;1
+40485;Combien y a-t-il de 🐟 dans le prochain groupe ? 🐟 | 🐟🐟 | 🐟🐟🐟 | …;4;3;5;1
+40486;Combien y a-t-il de 🎈 dans le prochain groupe ? 🎈🎈 | 🎈🎈🎈 | 🎈🎈🎈🎈 | …;5;4;6;2
+40487;Combien y a-t-il de 🐮 dans le prochain groupe ? 🐮🐮🐮 | 🐮🐮🐮🐮 | 🐮🐮🐮🐮🐮 | …;6;5;7;3
+40488;Combien y a-t-il de 🐸 dans le prochain groupe ? 🐸 | 🐸🐸 | 🐸🐸🐸 | …;4;3;5;1
+40489;Combien y a-t-il de 🐷 dans le prochain groupe ? 🐷🐷🐷 | 🐷🐷🐷🐷 | 🐷🐷🐷🐷🐷 | …;6;5;7;3
+40490;Combien y a-t-il de 🐼 dans le prochain groupe ? 🐼🐼 | 🐼🐼🐼 | 🐼🐼🐼🐼 | …;5;4;6;2
+40491;Combien y a-t-il de 🐱 dans le prochain groupe ? 🐱 | 🐱🐱 | 🐱🐱🐱 | …;4;3;5;1
+40492;Combien y a-t-il de 🎁 dans le prochain groupe ? 🎁🎁🎁 | 🎁🎁🎁🎁 | 🎁🎁🎁🎁🎁 | …;6;5;7;3
+40493;Combien y a-t-il de 🐝 dans le prochain groupe ? 🐝 | 🐝🐝 | 🐝🐝🐝 | …;4;3;5;1
+40494;Combien y a-t-il de 🎵 dans le prochain groupe ? 🎵 | 🎵🎵 | 🎵🎵🎵 | …;4;3;5;1
+40495;Combien y a-t-il de 🐰 dans le prochain groupe ? 🐰 | 🐰🐰 | 🐰🐰🐰 | …;4;3;5;1
+40496;Combien y a-t-il de 🍋 dans le prochain groupe ? 🍋🍋🍋 | 🍋🍋🍋🍋 | 🍋🍋🍋🍋🍋 | …;6;5;7;3
+40497;Combien y a-t-il de 🍅 dans le prochain groupe ? 🍅 | 🍅🍅 | 🍅🍅🍅 | …;4;3;5;1
+40498;Combien y a-t-il de 🐢 dans le prochain groupe ? 🐢 | 🐢🐢 | 🐢🐢🐢 | …;4;3;5;1
+40499;Combien y a-t-il de 🔔 dans le prochain groupe ? 🔔🔔🔔 | 🔔🔔🔔🔔 | 🔔🔔🔔🔔🔔 | …;6;5;7;3

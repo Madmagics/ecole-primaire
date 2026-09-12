@@ -1,0 +1,501 @@
+id;text;correct_answer;choice_2;choice_3;choice_4
+43000;Quel nombre vient après ? 3, 6, 5, 10, 9, …;18;17;19;16
+43001;Si A=1, B=2, C=3…, quel nombre correspond à E ?;5;4;6;3
+43002;Si A=1, B=2, C=3…, quelle lettre correspond au nombre 4 ?;D;C;E;F
+43003;Grille : ligne 1 = ● ▲ ■, ligne 2 = ▲ ■ ●, ligne 3 = ■ ● … Quel symbole complète la grille ?;▲;●;■;★
+43004;Quel nombre vient après ? 1, 4, 9, 16, …;25;20;24;36
+43005;Emma est plus âgée que Noah. Léa est plus jeune que Noah. Qui est le plus âgé ?;Emma;Noah;Léa;Impossible à savoir
+43006;Le doigt est à la main ce que l'orteil est…;au pied;à la jambe;au genou;au bras
+43007;Quel élément vient après ? A1, B2, C3, D4, …;E5;D5;E4;F5
+43008;Dans une course, Emma arrive avant Noah. Noah arrive avant Léa. Qui arrive en dernier ?;Léa;Emma;Noah;Impossible à savoir
+43009;Quel nombre vient après ? 2, 5, 4, 7, 6, …;9;8;10;5
+43010;Quel nombre vient après ? 9, 27, 30, 90, …;93;92;94;95
+43011;Quel nombre vient après ? 3, 9, 10, 30, …;31;32;33;30
+43012;Quel nombre vient après ? 3, 6, 7, 14, …;15;16;17;14
+43013;Quel nombre vient après ? 10, 30, 29, 87, …;86;88;85;87
+43014;Quel nombre vient après ? 20, 40, 37, 74, …;71;72;73;70
+43015;Quel nombre vient après ? 5, 15, 14, 42, …;41;40;42;43
+43016;Quel nombre vient après ? 20, 40, 46, 92, …;98;97;99;100
+43017;Quel nombre vient après ? 9, 27, 28, 84, …;85;84;86;87
+43018;Quel nombre vient après ? 14, 28, 25, 50, …;47;48;49;46
+43019;Quel nombre vient après ? 11, 33, 38, 114, …;119;120;121;118
+43020;Quel nombre vient après ? 2, 6, 8, 24, …;26;25;27;28
+43021;Quel nombre vient après ? 12, 24, 22, 44, …;42;41;43;44
+43022;Quel nombre vient après ? 16, 24, 18, 26, …;20;19;21;22
+43023;Quel nombre vient après ? 7, 21, 25, 75, …;79;80;81;78
+43024;Quel nombre vient après ? 5, 14, 11, 20, …;17;16;18;19
+43025;Quel nombre vient après ? 18, 36, 41, 82, …;87;88;89;86
+43026;Quel nombre vient après ? 20, 60, 57, 171, …;168;169;170;167
+43027;Quel nombre vient après ? 10, 20, 19, 38, …;37;36;38;39
+43028;Quel nombre vient après ? 20, 40, 44, 88, …;92;91;93;94
+43029;Quel nombre vient après ? 4, 12, 7, 21, …;16;17;18;15
+43030;Quel nombre vient après ? 9, 27, 29, 87, …;89;88;90;91
+43031;Quel nombre vient après ? 11, 22, 28, 56, …;62;64;61;63
+43032;Quel nombre vient après ? 17, 22, 13, 18, …;9;8;10;11
+43033;Quel nombre vient après ? 9, 18, 20, 40, …;42;41;43;44
+43034;Quel nombre vient après ? 20, 40, 39, 78, …;77;76;78;79
+43035;Quel nombre vient après ? 20, 40, 36, 72, …;68;67;69;70
+43036;Quel nombre vient après ? 13, 19, 11, 17, …;9;8;10;11
+43037;Quel nombre vient après ? 13, 26, 32, 64, …;70;72;69;71
+43038;Quel nombre vient après ? 17, 34, 31, 62, …;59;58;60;61
+43039;Quel nombre vient après ? 19, 27, 22, 30, …;25;24;26;27
+43040;Quel nombre vient après ? 7, 14, 20, 40, …;46;48;45;47
+43041;Quel nombre vient après ? 19, 21, 16, 18, …;13;12;14;15
+43042;Quel nombre vient après ? 19, 38, 37, 74, …;73;72;74;75
+43043;Quel nombre vient après ? 10, 30, 35, 105, …;110;112;109;111
+43044;Quel nombre vient après ? 13, 15, 7, 9, …;1;2;3;4
+43045;Quel nombre vient après ? 15, 23, 21, 29, …;27;26;28;29
+43046;Quel nombre vient après ? 13, 39, 38, 114, …;113;112;114;115
+43047;Quel nombre vient après ? 18, 54, 51, 153, …;150;152;149;151
+43048;Quel nombre vient après ? 8, 24, 21, 63, …;60;59;61;62
+43049;Quel nombre vient après ? 20, 23, 19, 22, …;18;17;19;20
+43050;Quel nombre vient après ? 8, 16, 14, 28, …;26;25;27;28
+43051;Quel nombre vient après ? 10, 20, 25, 50, …;55;56;57;54
+43052;Quel nombre vient après ? 19, 26, 18, 25, …;17;16;18;19
+43053;Quel nombre vient après ? 19, 57, 59, 177, …;179;178;180;181
+43054;Quel nombre vient après ? 1, 2, 1, 2, …;1;2;3;4
+43055;Quel nombre vient après ? 18, 54, 53, 159, …;158;160;157;159
+43056;Quel nombre vient après ? 20, 60, 63, 189, …;192;193;194;191
+43057;Quel nombre vient après ? 9, 27, 24, 72, …;69;68;70;71
+43058;Quel nombre vient après ? 5, 15, 17, 51, …;53;52;54;55
+43059;Quel nombre vient après ? 15, 30, 25, 50, …;45;44;46;47
+43060;Quel nombre vient après ? 17, 51, 53, 159, …;161;160;162;163
+43061;Quel nombre vient après ? 17, 34, 38, 76, …;80;81;82;79
+43062;Quel nombre vient après ? 4, 13, 9, 18, …;14;16;13;15
+43063;Quel nombre vient après ? 14, 42, 40, 120, …;118;120;117;119
+43064;Quel nombre vient après ? 16, 25, 18, 27, …;20;19;21;22
+43065;Quel nombre vient après ? 5, 10, 13, 26, …;29;28;30;31
+43066;Quel nombre vient après ? 10, 15, 11, 16, …;12;11;13;14
+43067;Quel nombre vient après ? 18, 36, 39, 78, …;81;80;82;83
+43068;Quel nombre vient après ? 16, 20, 13, 17, …;10;9;11;12
+43069;Quel nombre vient après ? 19, 25, 17, 23, …;15;16;17;14
+43070;Quel nombre vient après ? 4, 8, 7, 14, …;13;12;14;15
+43071;Quel nombre vient après ? 13, 39, 42, 126, …;129;128;130;131
+43072;Quel nombre vient après ? 4, 12, 9, 27, …;24;25;26;23
+43073;Quel nombre vient après ? 13, 21, 17, 25, …;21;20;22;23
+43074;Quel nombre vient après ? 16, 48, 47, 141, …;140;139;141;142
+43075;Quel nombre vient après ? 6, 12, 10, 16, …;14;16;13;15
+43076;Quel nombre vient après ? 8, 24, 26, 78, …;80;81;82;79
+43077;Quel nombre vient après ? 17, 23, 16, 22, …;15;16;17;14
+43078;Quel nombre vient après ? 16, 18, 12, 14, …;8;9;10;7
+43079;Quel nombre vient après ? 18, 36, 32, 64, …;60;59;61;62
+43080;Avec le code où A=1, B=2, C=3, etc., quelle est la somme des lettres du mot CHAT ?;32;33;34;31
+43081;Avec le code où A=1, B=2, C=3, etc., quelle est la somme des lettres du mot VELO ?;54;56;53;55
+43082;Si A=1, B=2, C=3…, quel nombre correspond à R ?;18;17;19;20
+43083;Si A=1, B=2, C=3…, quel nombre correspond à N ?;14;16;13;15
+43084;Avec le code où A=1, B=2, C=3, etc., quelle est la somme des lettres du mot LUNE ?;52;51;53;54
+43085;Si A=1, B=2, C=3…, quelle lettre correspond au nombre 13 ?;M;O;N;L
+43086;Avec le code où A=1, B=2, C=3, etc., quelle est la somme des lettres du mot ROSE ?;57;56;58;59
+43087;Si A=1, B=2, C=3…, quel nombre correspond à B ?;2;1;3;4
+43088;Si A=1, B=2, C=3…, quelle lettre correspond au nombre 2 ?;B;C;D;A
+43089;Si A=1, B=2, C=3…, quel nombre correspond à Q ?;17;16;18;19
+43090;Avec le code où A=1, B=2, C=3, etc., quelle est la somme des lettres du mot PAIN ?;40;41;42;39
+43091;Avec le code où A=1, B=2, C=3, etc., quelle est la somme des lettres du mot TABLE ?;40;41;42;39
+43092;Si A=1, B=2, C=3…, quelle lettre correspond au nombre 25 ?;Y;Z;W;X
+43093;Si A=1, B=2, C=3…, quel nombre correspond à I ?;9;8;10;11
+43094;Si A=1, B=2, C=3…, quel nombre correspond à F ?;6;8;5;7
+43095;Si A=1, B=2, C=3…, quelle lettre correspond au nombre 23 ?;W;Y;V;X
+43096;Si A=1, B=2, C=3…, quel nombre correspond à D ?;4;3;5;6
+43097;Avec le code où A=1, B=2, C=3, etc., quelle est la somme des lettres du mot PORTE ?;74;73;75;76
+43098;Avec le code où A=1, B=2, C=3, etc., quelle est la somme des lettres du mot LIVRE ?;66;65;67;68
+43099;Avec le code où A=1, B=2, C=3, etc., quelle est la somme des lettres du mot ARBRE ?;44;43;45;46
+43100;Si A=1, B=2, C=3…, quelle lettre correspond au nombre 17 ?;Q;P;R;S
+43101;Avec le code où A=1, B=2, C=3, etc., quelle est la somme des lettres du mot FLEUR ?;62;64;61;63
+43102;Si A=1, B=2, C=3…, quelle lettre correspond au nombre 22 ?;V;U;W;X
+43103;Avec le code où A=1, B=2, C=3, etc., quelle est la somme des lettres du mot SOLEIL ?;72;73;74;71
+43104;Avec le code où A=1, B=2, C=3, etc., quelle est la somme des lettres du mot NUAGE ?;48;49;50;47
+43105;Si A=1, B=2, C=3…, quel nombre correspond à P ?;16;17;18;15
+43106;Si A=1, B=2, C=3…, quel nombre correspond à S ?;19;18;20;21
+43107;Avec le code où A=1, B=2, C=3, etc., quelle est la somme des lettres du mot PIERRE ?;71;72;73;70
+43108;Avec le code où A=1, B=2, C=3, etc., quelle est la somme des lettres du mot SABLE ?;39;40;41;38
+43109;Avec le code où A=1, B=2, C=3, etc., quelle est la somme des lettres du mot PLAGE ?;41;40;42;43
+43110;Si A=1, B=2, C=3…, quel nombre correspond à O ?;15;16;17;14
+43111;Si A=1, B=2, C=3…, quelle lettre correspond au nombre 5 ?;E;F;G;D
+43112;Avec le code où A=1, B=2, C=3, etc., quelle est la somme des lettres du mot FORET ?;64;65;66;63
+43113;Si A=1, B=2, C=3…, quel nombre correspond à V ?;22;24;21;23
+43114;Si A=1, B=2, C=3…, quel nombre correspond à T ?;20;19;21;22
+43115;Avec le code où A=1, B=2, C=3, etc., quelle est la somme des lettres du mot RIVE ?;54;56;53;55
+43116;Si A=1, B=2, C=3…, quelle lettre correspond au nombre 16 ?;P;Q;O;R
+43117;Si A=1, B=2, C=3…, quelle lettre correspond au nombre 19 ?;S;U;R;T
+43118;Si A=1, B=2, C=3…, quelle lettre correspond au nombre 24 ?;X;Y;Z;W
+43119;Si A=1, B=2, C=3…, quelle lettre correspond au nombre 20 ?;T;U;V;S
+43120;Avec le code où A=1, B=2, C=3, etc., quelle est la somme des lettres du mot MONTAGNE ?;89;88;90;91
+43121;Avec le code où A=1, B=2, C=3, etc., quelle est la somme des lettres du mot VILLE ?;60;59;61;62
+43122;Si A=1, B=2, C=3…, quelle lettre correspond au nombre 10 ?;J;K;L;I
+43123;Si A=1, B=2, C=3…, quelle lettre correspond au nombre 14 ?;N;O;P;M
+43124;Si A=1, B=2, C=3…, quel nombre correspond à C ?;3;2;4;5
+43125;Si A=1, B=2, C=3…, quelle lettre correspond au nombre 6 ?;F;H;G;E
+43126;Si A=1, B=2, C=3…, quelle lettre correspond au nombre 8 ?;H;J;G;I
+43127;Si A=1, B=2, C=3…, quel nombre correspond à H ?;8;9;10;7
+43128;Si A=1, B=2, C=3…, quelle lettre correspond au nombre 9 ?;I;K;H;J
+43129;Avec le code où A=1, B=2, C=3, etc., quelle est la somme des lettres du mot ROUTE ?;79;80;81;78
+43130;Si A=1, B=2, C=3…, quelle lettre correspond au nombre 15 ?;O;Q;P;N
+43131;Si A=1, B=2, C=3…, quel nombre correspond à J ?;10;9;11;12
+43132;Si A=1, B=2, C=3…, quelle lettre correspond au nombre 21 ?;U;V;W;T
+43133;Si A=1, B=2, C=3…, quel nombre correspond à U ?;21;20;22;23
+43134;Si A=1, B=2, C=3…, quelle lettre correspond au nombre 11 ?;K;J;M;L
+43135;Si A=1, B=2, C=3…, quelle lettre correspond au nombre 12 ?;L;N;K;M
+43136;Si A=1, B=2, C=3…, quelle lettre correspond au nombre 7 ?;G;H;F;I
+43137;Si A=1, B=2, C=3…, quel nombre correspond à M ?;13;12;14;15
+43138;Si A=1, B=2, C=3…, quelle lettre correspond au nombre 18 ?;R;Q;S;T
+43139;Si A=1, B=2, C=3…, quelle lettre correspond au nombre 3 ?;C;B;D;E
+43140;Si A=1, B=2, C=3…, quel nombre correspond à Y ?;25;24;26;23
+43141;Si A=1, B=2, C=3…, quel nombre correspond à G ?;7;8;9;6
+43142;Si A=1, B=2, C=3…, quel nombre correspond à X ?;24;25;26;23
+43143;Si A=1, B=2, C=3…, quel nombre correspond à W ?;23;24;25;22
+43144;Si A=1, B=2, C=3…, quel nombre correspond à L ?;12;11;13;14
+43145;Si A=1, B=2, C=3…, quel nombre correspond à K ?;11;10;12;13
+43146;Grille : ligne 1 = ● ♥ ★, ligne 2 = … ★ ●, ligne 3 = ★ ● ♥. Quel symbole complète la grille ?;♥;●;★;■
+43147;Grille : ligne 1 = ★ ♥ ●, ligne 2 = … ● ★, ligne 3 = ● ★ ♥. Quel symbole complète la grille ?;♥;●;★;▲
+43148;Grille : ligne 1 = ■ ● ▲, ligne 2 = ● … ■, ligne 3 = ▲ ■ ●. Quel symbole complète la grille ?;▲;●;■;♦
+43149;Grille : ligne 1 = ▲ ♥ ■, ligne 2 = ♥ … ▲, ligne 3 = ■ ▲ ♥. Quel symbole complète la grille ?;■;♥;▲;♦
+43150;Grille : ligne 1 = ♥ ★ ♦, ligne 2 = … ♦ ♥, ligne 3 = ♦ ♥ ★. Quel symbole complète la grille ?;★;♦;♥;▲
+43151;Grille : ligne 1 = ▲ ● ■, ligne 2 = ● ■ ▲, ligne 3 = … ▲ ●. Quel symbole complète la grille ?;■;●;▲;★
+43152;Grille : ligne 1 = ▲ ♦ ■, ligne 2 = ♦ ■ …, ligne 3 = ■ ▲ ♦. Quel symbole complète la grille ?;▲;♦;■;●
+43153;Grille : ligne 1 = ● ▲ ■, ligne 2 = … ■ ●, ligne 3 = ■ ● ▲. Quel symbole complète la grille ?;▲;●;■;♥
+43154;Grille : ligne 1 = ■ ▲ ♦, ligne 2 = ▲ ♦ ■, ligne 3 = ♦ … ▲. Quel symbole complète la grille ?;■;▲;♦;★
+43155;Grille : ligne 1 = ■ ♥ ▲, ligne 2 = ♥ ▲ ■, ligne 3 = … ■ ♥. Quel symbole complète la grille ?;▲;■;♥;●
+43156;Grille : ligne 1 = ● ■ ▲, ligne 2 = ■ ▲ …, ligne 3 = ▲ ● ■. Quel symbole complète la grille ?;●;▲;■;★
+43157;Grille : ligne 1 = ▲ ■ ●, ligne 2 = … ● ▲, ligne 3 = ● ▲ ■. Quel symbole complète la grille ?;■;●;▲;♥
+43158;Grille : ligne 1 = ♦ ♥ ★, ligne 2 = ♥ ★ ♦, ligne 3 = ★ … ♥. Quel symbole complète la grille ?;♦;★;♥;■
+43159;Grille : ligne 1 = ▲ ♦ ■, ligne 2 = ♦ ■ ▲, ligne 3 = ■ ▲ …. Quel symbole complète la grille ?;♦;▲;■;●
+43160;Grille : ligne 1 = ♥ ■ ♦, ligne 2 = ■ … ♥, ligne 3 = ♦ ♥ ■. Quel symbole complète la grille ?;♦;♥;■;●
+43161;Grille : ligne 1 = ♥ ■ ▲, ligne 2 = ■ … ♥, ligne 3 = ▲ ♥ ■. Quel symbole complète la grille ?;▲;■;♥;★
+43162;Grille : ligne 1 = ♥ ● ★, ligne 2 = ● ★ …, ligne 3 = ★ ♥ ●. Quel symbole complète la grille ?;♥;●;★;♦
+43163;Grille : ligne 1 = ★ ♥ ●, ligne 2 = ♥ ● ★, ligne 3 = ● … ♥. Quel symbole complète la grille ?;★;●;♥;■
+43164;Grille : ligne 1 = ■ ▲ ♥, ligne 2 = … ♥ ■, ligne 3 = ♥ ■ ▲. Quel symbole complète la grille ?;▲;■;♥;●
+43165;Grille : ligne 1 = ■ ▲ ♥, ligne 2 = ▲ ♥ ■, ligne 3 = ♥ ■ …. Quel symbole complète la grille ?;▲;■;♥;★
+43166;Grille : ligne 1 = ♦ ♥ ■, ligne 2 = ♥ ■ ♦, ligne 3 = … ♦ ♥. Quel symbole complète la grille ?;■;♥;♦;●
+43167;Grille : ligne 1 = ● ♥ ★, ligne 2 = ♥ … ●, ligne 3 = ★ ● ♥. Quel symbole complète la grille ?;★;●;♥;■
+43168;Grille : ligne 1 = ■ ♦ ♥, ligne 2 = … ♥ ■, ligne 3 = ♥ ■ ♦. Quel symbole complète la grille ?;♦;♥;■;●
+43169;Grille : ligne 1 = ♥ ★ ●, ligne 2 = ★ … ♥, ligne 3 = ● ♥ ★. Quel symbole complète la grille ?;●;♥;★;■
+43170;Grille : ligne 1 = ★ ▲ ●, ligne 2 = ▲ … ★, ligne 3 = ● ★ ▲. Quel symbole complète la grille ?;●;▲;★;♥
+43171;Grille : ligne 1 = ★ ▲ ●, ligne 2 = ▲ ● ★, ligne 3 = ● … ▲. Quel symbole complète la grille ?;★;▲;●;♦
+43172;Grille : ligne 1 = ♦ ♥ ■, ligne 2 = … ■ ♦, ligne 3 = ■ ♦ ♥. Quel symbole complète la grille ?;♥;■;♦;★
+43173;Grille : ligne 1 = ♦ ★ ♥, ligne 2 = … ♥ ♦, ligne 3 = ♥ ♦ ★. Quel symbole complète la grille ?;★;♦;♥;▲
+43174;Grille : ligne 1 = ★ ♦ ●, ligne 2 = ♦ ● …, ligne 3 = ● ★ ♦. Quel symbole complète la grille ?;★;♦;●;♥
+43175;Grille : ligne 1 = ● ♦ ★, ligne 2 = … ★ ●, ligne 3 = ★ ● ♦. Quel symbole complète la grille ?;♦;●;★;■
+43176;Grille : ligne 1 = ★ ● ▲, ligne 2 = ● ▲ ★, ligne 3 = ▲ … ●. Quel symbole complète la grille ?;★;▲;●;♥
+43177;Grille : ligne 1 = ♥ ■ ▲, ligne 2 = ■ ▲ ♥, ligne 3 = … ♥ ■. Quel symbole complète la grille ?;▲;■;♥;♦
+43178;Grille : ligne 1 = ♦ ★ ●, ligne 2 = ★ ● …, ligne 3 = ● ♦ ★. Quel symbole complète la grille ?;♦;●;★;■
+43179;Grille : ligne 1 = ■ ▲ ♦, ligne 2 = ▲ ♦ ■, ligne 3 = ♦ ■ …. Quel symbole complète la grille ?;▲;♦;■;●
+43180;Grille : ligne 1 = ♦ ♥ ★, ligne 2 = ♥ ★ ♦, ligne 3 = … ♦ ♥. Quel symbole complète la grille ?;★;♦;♥;▲
+43181;Grille : ligne 1 = ■ ♦ ♥, ligne 2 = ♦ ♥ ■, ligne 3 = … ■ ♦. Quel symbole complète la grille ?;♥;■;♦;●
+43182;Grille : ligne 1 = ♦ ● ★, ligne 2 = ● ★ ♦, ligne 3 = … ♦ ●. Quel symbole complète la grille ?;★;♦;●;■
+43183;Grille : ligne 1 = ♥ ★ ♦, ligne 2 = ★ … ♥, ligne 3 = ♦ ♥ ★. Quel symbole complète la grille ?;♦;★;♥;●
+43184;Grille : ligne 1 = ■ ♥ ♦, ligne 2 = ♥ ♦ ■, ligne 3 = … ■ ♥. Quel symbole complète la grille ?;♦;♥;■;▲
+43185;Grille : ligne 1 = ♥ ■ ♦, ligne 2 = … ♦ ♥, ligne 3 = ♦ ♥ ■. Quel symbole complète la grille ?;■;♥;♦;★
+43186;Grille : ligne 1 = ♥ ♦ ■, ligne 2 = ♦ ■ ♥, ligne 3 = ■ ♥ …. Quel symbole complète la grille ?;♦;♥;■;★
+43187;Grille : ligne 1 = ♥ ♦ ★, ligne 2 = ♦ ★ ♥, ligne 3 = ★ ♥ …. Quel symbole complète la grille ?;♦;★;♥;■
+43188;Grille : ligne 1 = ♥ ▲ ■, ligne 2 = ▲ ■ …, ligne 3 = ■ ♥ ▲. Quel symbole complète la grille ?;♥;■;▲;★
+43189;Grille : ligne 1 = ♥ ♦ ■, ligne 2 = … ■ ♥, ligne 3 = ■ ♥ ♦. Quel symbole complète la grille ?;♦;♥;■;★
+43190;Grille : ligne 1 = ★ ● ♥, ligne 2 = … ♥ ★, ligne 3 = ♥ ★ ●. Quel symbole complète la grille ?;●;♥;★;■
+43191;Grille : ligne 1 = ♦ ★ ●, ligne 2 = … ● ♦, ligne 3 = ● ♦ ★. Quel symbole complète la grille ?;★;♦;●;■
+43192;Grille : ligne 1 = ● ■ ▲, ligne 2 = ■ ▲ ●, ligne 3 = ▲ ● …. Quel symbole complète la grille ?;■;●;▲;★
+43193;Grille : ligne 1 = ♥ ★ ♦, ligne 2 = ★ ♦ ♥, ligne 3 = … ♥ ★. Quel symbole complète la grille ?;♦;★;♥;■
+43194;Grille : ligne 1 = ♥ ♦ ■, ligne 2 = ♦ ■ ♥, ligne 3 = … ♥ ♦. Quel symbole complète la grille ?;■;♥;♦;●
+43195;Grille : ligne 1 = ● ▲ ■, ligne 2 = ▲ ■ …, ligne 3 = ■ ● ▲. Quel symbole complète la grille ?;●;▲;■;♥
+43196;Grille : ligne 1 = ■ ♥ ▲, ligne 2 = ♥ ▲ ■, ligne 3 = ▲ ■ …. Quel symbole complète la grille ?;♥;■;▲;♦
+43197;Grille : ligne 1 = ▲ ★ ●, ligne 2 = ★ ● ▲, ligne 3 = ● … ★. Quel symbole complète la grille ?;▲;★;●;♥
+43198;Grille : ligne 1 = ▲ ♥ ■, ligne 2 = … ■ ▲, ligne 3 = ■ ▲ ♥. Quel symbole complète la grille ?;♥;■;▲;★
+43199;Grille : ligne 1 = ▲ ● ■, ligne 2 = ● ■ …, ligne 3 = ■ ▲ ●. Quel symbole complète la grille ?;▲;●;■;♦
+43200;Grille : ligne 1 = ▲ ♥ ■, ligne 2 = ♥ ■ ▲, ligne 3 = ■ … ♥. Quel symbole complète la grille ?;▲;■;♥;●
+43201;Grille : ligne 1 = ♦ ● ★, ligne 2 = ● ★ ♦, ligne 3 = ★ ♦ …. Quel symbole complète la grille ?;●;♦;★;♥
+43202;Grille : ligne 1 = ● ■ ▲, ligne 2 = ■ ▲ ●, ligne 3 = ▲ … ■. Quel symbole complète la grille ?;●;▲;■;★
+43203;Grille : ligne 1 = ♦ ★ ♥, ligne 2 = ★ ♥ …, ligne 3 = ♥ ♦ ★. Quel symbole complète la grille ?;♦;★;♥;▲
+43204;Grille : ligne 1 = ▲ ■ ●, ligne 2 = ■ ● ▲, ligne 3 = … ▲ ■. Quel symbole complète la grille ?;●;▲;■;♦
+43205;Grille : ligne 1 = ★ ● ♦, ligne 2 = ● ♦ ★, ligne 3 = … ★ ●. Quel symbole complète la grille ?;♦;●;★;▲
+43206;Sarah est plus âgée que Léa. Léa est plus âgée que Noah. Qui est le plus âgé ?;Sarah;Léa;Noah;Impossible à savoir
+43207;Jules est plus âgé que Hugo. Hugo est plus âgé que Noah. Qui est le/la plus jeune ?;Noah;Jules;Hugo;Impossible à savoir
+43208;Zoé est plus âgée que Inès. Inès est plus âgée que Camille. Qui est le/la plus jeune ?;Camille;Zoé;Inès;Impossible à savoir
+43209;Camille est plus jeune que Jules. Jules est plus jeune que Nathan. Qui est le plus âgé ?;Nathan;Jules;Camille;Impossible à savoir
+43210;Nathan est plus jeune que Sarah. Sarah est plus jeune que Adam. Qui est le plus âgé ?;Adam;Sarah;Nathan;Impossible à savoir
+43211;Camille est plus âgée que Inès. Nathan est plus jeune que Inès. Qui est le/la plus jeune ?;Nathan;Camille;Inès;Impossible à savoir
+43212;Hugo est plus jeune que Léa. Léa est plus jeune que Noah. Qui est le plus âgé ?;Noah;Léa;Hugo;Impossible à savoir
+43213;Sarah est plus jeune que Léa. Léa est plus jeune que Louis. Qui est le plus âgé ?;Louis;Léa;Sarah;Impossible à savoir
+43214;Sarah est plus âgée que Chloé. Emma est plus jeune que Chloé. Qui est le plus âgé ?;Sarah;Chloé;Emma;Impossible à savoir
+43215;Emma est plus âgée que Hugo. Noah est plus jeune que Hugo. Qui est le/la plus jeune ?;Noah;Emma;Hugo;Impossible à savoir
+43216;Adam est plus jeune que Zoé. Zoé est plus jeune que Jules. Qui est le/la plus jeune ?;Adam;Jules;Zoé;Impossible à savoir
+43217;Léa est plus jeune que Chloé. Chloé est plus jeune que Noah. Qui est le plus âgé ?;Noah;Chloé;Léa;Impossible à savoir
+43218;Lucas est plus âgé que Emma. Chloé est plus jeune que Emma. Qui est le/la plus jeune ?;Chloé;Lucas;Emma;Impossible à savoir
+43219;Chloé est plus jeune que Inès. Inès est plus jeune que Manon. Qui est le/la plus jeune ?;Chloé;Manon;Inès;Impossible à savoir
+43220;Hugo est plus jeune que Léa. Léa est plus jeune que Louis. Qui est le/la plus jeune ?;Hugo;Louis;Léa;Impossible à savoir
+43221;Manon est plus jeune que Jules. Jules est plus jeune que Louis. Qui est le plus âgé ?;Louis;Jules;Manon;Impossible à savoir
+43222;Louis est plus âgé que Lucas. Lucas est plus âgé que Nathan. Qui est le/la plus jeune ?;Nathan;Louis;Lucas;Impossible à savoir
+43223;Noah est plus jeune que Nathan. Nathan est plus jeune que Adam. Qui est le/la plus jeune ?;Noah;Adam;Nathan;Impossible à savoir
+43224;Emma est plus âgée que Inès. Hugo est plus jeune que Inès. Qui est le plus âgé ?;Emma;Inès;Hugo;Impossible à savoir
+43225;Nathan est plus âgé que Sarah. Manon est plus jeune que Sarah. Qui est le plus âgé ?;Nathan;Sarah;Manon;Impossible à savoir
+43226;Noah est plus âgé que Nathan. Léa est plus jeune que Nathan. Qui est le plus âgé ?;Noah;Nathan;Léa;Impossible à savoir
+43227;Chloé est plus jeune que Louis. Louis est plus jeune que Jules. Qui est le/la plus jeune ?;Chloé;Jules;Louis;Impossible à savoir
+43228;Léa est plus âgée que Adam. Inès est plus jeune que Adam. Qui est le plus âgé ?;Léa;Adam;Inès;Impossible à savoir
+43229;Inès est plus âgée que Sarah. Sarah est plus âgée que Léa. Qui est le/la plus jeune ?;Léa;Inès;Sarah;Impossible à savoir
+43230;Léa est plus âgée que Inès. Chloé est plus jeune que Inès. Qui est le plus âgé ?;Léa;Inès;Chloé;Impossible à savoir
+43231;Emma est plus jeune que Louis. Louis est plus jeune que Nathan. Qui est le/la plus jeune ?;Emma;Nathan;Louis;Impossible à savoir
+43232;Emma est plus âgée que Adam. Lucas est plus jeune que Adam. Qui est le plus âgé ?;Emma;Adam;Lucas;Impossible à savoir
+43233;Camille est plus âgée que Sarah. Emma est plus jeune que Sarah. Qui est le plus âgé ?;Camille;Sarah;Emma;Impossible à savoir
+43234;Louis est plus jeune que Noah. Noah est plus jeune que Hugo. Qui est le/la plus jeune ?;Louis;Hugo;Noah;Impossible à savoir
+43235;Louis est plus jeune que Zoé. Zoé est plus jeune que Chloé. Qui est le plus âgé ?;Chloé;Zoé;Louis;Impossible à savoir
+43236;Jules est plus jeune que Manon. Manon est plus jeune que Chloé. Qui est le plus âgé ?;Chloé;Manon;Jules;Impossible à savoir
+43237;Nathan est plus jeune que Chloé. Chloé est plus jeune que Lucas. Qui est le plus âgé ?;Lucas;Chloé;Nathan;Impossible à savoir
+43238;Jules est plus âgé que Zoé. Zoé est plus âgée que Hugo. Qui est le/la plus jeune ?;Hugo;Jules;Zoé;Impossible à savoir
+43239;Adam est plus âgé que Inès. Hugo est plus jeune que Inès. Qui est le plus âgé ?;Adam;Inès;Hugo;Impossible à savoir
+43240;Lucas est plus jeune que Hugo. Hugo est plus jeune que Inès. Qui est le plus âgé ?;Inès;Hugo;Lucas;Impossible à savoir
+43241;Emma est plus jeune que Sarah. Sarah est plus jeune que Hugo. Qui est le plus âgé ?;Hugo;Sarah;Emma;Impossible à savoir
+43242;Jules est plus âgé que Emma. Noah est plus jeune que Emma. Qui est le plus âgé ?;Jules;Emma;Noah;Impossible à savoir
+43243;Nathan est plus jeune que Noah. Noah est plus jeune que Emma. Qui est le/la plus jeune ?;Nathan;Emma;Noah;Impossible à savoir
+43244;Emma est plus âgée que Inès. Inès est plus âgée que Sarah. Qui est le plus âgé ?;Emma;Inès;Sarah;Impossible à savoir
+43245;Jules est plus jeune que Hugo. Hugo est plus jeune que Léa. Qui est le/la plus jeune ?;Jules;Léa;Hugo;Impossible à savoir
+43246;Chloé est plus jeune que Manon. Manon est plus jeune que Hugo. Qui est le/la plus jeune ?;Chloé;Hugo;Manon;Impossible à savoir
+43247;Adam est plus âgé que Sarah. Nathan est plus jeune que Sarah. Qui est le/la plus jeune ?;Nathan;Adam;Sarah;Impossible à savoir
+43248;Zoé est plus jeune que Emma. Emma est plus jeune que Inès. Qui est le/la plus jeune ?;Zoé;Inès;Emma;Impossible à savoir
+43249;Léa est plus âgée que Jules. Jules est plus âgé que Louis. Qui est le plus âgé ?;Léa;Jules;Louis;Impossible à savoir
+43250;Adam est plus âgé que Camille. Emma est plus jeune que Camille. Qui est le plus âgé ?;Adam;Camille;Emma;Impossible à savoir
+43251;Noah est plus jeune que Manon. Manon est plus jeune que Lucas. Qui est le plus âgé ?;Lucas;Manon;Noah;Impossible à savoir
+43252;Sarah est plus jeune que Manon. Manon est plus jeune que Emma. Qui est le/la plus jeune ?;Sarah;Emma;Manon;Impossible à savoir
+43253;Jules est plus âgé que Léa. Emma est plus jeune que Léa. Qui est le/la plus jeune ?;Emma;Jules;Léa;Impossible à savoir
+43254;Zoé est plus jeune que Manon. Manon est plus jeune que Noah. Qui est le/la plus jeune ?;Zoé;Noah;Manon;Impossible à savoir
+43255;Camille est plus âgée que Inès. Noah est plus jeune que Inès. Qui est le/la plus jeune ?;Noah;Camille;Inès;Impossible à savoir
+43256;Sarah est plus âgée que Noah. Léa est plus jeune que Noah. Qui est le plus âgé ?;Sarah;Noah;Léa;Impossible à savoir
+43257;Adam est plus jeune que Léa. Léa est plus jeune que Manon. Qui est le plus âgé ?;Manon;Léa;Adam;Impossible à savoir
+43258;Sarah est plus jeune que Adam. Adam est plus jeune que Camille. Qui est le plus âgé ?;Camille;Adam;Sarah;Impossible à savoir
+43259;Hugo est plus jeune que Louis. Louis est plus jeune que Manon. Qui est le/la plus jeune ?;Hugo;Manon;Louis;Impossible à savoir
+43260;Nathan est plus âgé que Manon. Jules est plus jeune que Manon. Qui est le/la plus jeune ?;Jules;Nathan;Manon;Impossible à savoir
+43261;Zoé est plus jeune que Noah. Noah est plus jeune que Manon. Qui est le/la plus jeune ?;Zoé;Manon;Noah;Impossible à savoir
+43262;Camille est plus jeune que Hugo. Hugo est plus jeune que Adam. Qui est le/la plus jeune ?;Camille;Adam;Hugo;Impossible à savoir
+43263;Adam est plus âgé que Léa. Noah est plus jeune que Léa. Qui est le plus âgé ?;Adam;Léa;Noah;Impossible à savoir
+43264;Camille est plus jeune que Emma. Emma est plus jeune que Manon. Qui est le plus âgé ?;Manon;Emma;Camille;Impossible à savoir
+43265;Nathan est plus jeune que Adam. Adam est plus jeune que Manon. Qui est le plus âgé ?;Manon;Adam;Nathan;Impossible à savoir
+43266;Quel est le carré de 16 ?;256;272;240;288
+43267;Quel est le carré de 2 ?;4;8;2;6
+43268;Quel est le carré de 11 ?;121;132;110;143
+43269;Quel est le carré de 12 ?;144;168;132;156
+43270;Quel nombre vient après ? 49, 64, 81, 100, …;121;120;122;123
+43271;Quel nombre vient après ? 25, 36, 49, 64, …;81;80;82;83
+43272;Quel est le carré de 6 ?;36;48;42;30
+43273;Quel est le carré de 8 ?;64;72;56;80
+43274;Quel est le carré de 20 ?;400;380;420;440
+43275;Quel est le carré de 13 ?;169;195;156;182
+43276;Quel nombre vient après ? 64, 81, 100, 121, …;144;145;146;143
+43277;Quel est le carré de 17 ?;289;272;306;323
+43278;Quel nombre vient après ? 81, 100, 121, 144, …;169;168;170;171
+43279;Quel est le carré de 15 ?;225;240;210;255
+43280;Quel nombre vient après ? 9, 16, 25, 36, …;49;48;50;51
+43281;Quel est le carré de 14 ?;196;224;210;182
+43282;Quel est le carré de 19 ?;361;380;342;399
+43283;Quel est le carré de 9 ?;81;72;90;99
+43284;Quel nombre vient après ? 16, 25, 36, 49, …;64;65;66;63
+43285;Quel nombre vient après ? 100, 121, 144, 169, …;196;195;197;198
+43286;Quel est le carré de 3 ?;9;12;6;15
+43287;Quel est le carré de 7 ?;49;56;42;63
+43288;Quel nombre vient après ? 4, 9, 16, 25, …;36;35;37;38
+43289;Quel est le carré de 18 ?;324;360;306;342
+43290;Quel est le carré de 10 ?;100;120;90;110
+43291;Quel est le carré de 5 ?;25;35;20;30
+43292;Quel est le carré de 4 ?;16;24;20;12
+43293;Quel nombre vient après ? 36, 49, 64, 81, …;100;99;101;102
+43294;Quel élément vient après ? F5, G8, H11, I14, …;J17;J16;J18;K17
+43295;Quel élément vient après ? F2, H3, J4, L5, …;N6;N5;N7;O6
+43296;Quel élément vient après ? B2, C5, D8, E11, …;F14;F13;F15;G14
+43297;Quel élément vient après ? B4, D5, F6, H7, …;J8;K8;J7;J9
+43298;Quel élément vient après ? B4, D6, F8, H10, …;J12;J11;J13;K12
+43299;Quel élément vient après ? D5, F7, H9, J11, …;L13;L12;L14;M13
+43300;Quel élément vient après ? A5, C6, E7, G8, …;I9;I10;I8;J9
+43301;Quel élément vient après ? B3, C5, D7, E9, …;F11;G11;F12;F10
+43302;Quel élément vient après ? B1, C2, D3, E4, …;F5;F4;G5;F6
+43303;Quel élément vient après ? D1, E3, F5, G7, …;H9;H8;I9;H10
+43304;Quel élément vient après ? C3, D5, E7, F9, …;G11;H11;G10;G12
+43305;Quel élément vient après ? A3, C4, E5, G6, …;I7;I6;I8;J7
+43306;Quel élément vient après ? C3, D4, E5, F6, …;G7;G6;H7;G8
+43307;Quel élément vient après ? A4, B7, C10, D13, …;E16;E17;E15;F16
+43308;Quel élément vient après ? E1, F3, G5, H7, …;I9;I10;I8;J9
+43309;Quel élément vient après ? F4, G6, H8, I10, …;J12;J11;J13;K12
+43310;Quel élément vient après ? A3, B5, C7, D9, …;E11;E10;E12;F11
+43311;Quel élément vient après ? B3, C6, D9, E12, …;F15;G15;F14;F16
+43312;Quel élément vient après ? F3, H6, J9, L12, …;N15;N14;N16;O15
+43313;Quel élément vient après ? F5, G7, H9, I11, …;J13;J12;K13;J14
+43314;Quel élément vient après ? C1, E3, G5, I7, …;K9;K8;K10;L9
+43315;Quel élément vient après ? C4, E5, G6, I7, …;K8;K9;L8;K7
+43316;Quel élément vient après ? B1, C3, D5, E7, …;F9;F10;G9;F8
+43317;Quel élément vient après ? A1, C4, E7, G10, …;I13;I12;I14;J13
+43318;Quel élément vient après ? E2, F3, G4, H5, …;I6;I7;J6;I5
+43319;Quel élément vient après ? E5, G8, I11, K14, …;M17;M18;N17;M16
+43320;Quel élément vient après ? E3, F4, G5, H6, …;I7;I6;I8;J7
+43321;Quel élément vient après ? E5, G7, I9, K11, …;M13;M14;N13;M12
+43322;Quel élément vient après ? B5, C8, D11, E14, …;F17;F18;G17;F16
+43323;Quel élément vient après ? E2, F4, G6, H8, …;I10;J10;I11;I9
+43324;Quel élément vient après ? F1, G2, H3, I4, …;J5;J6;K5;J4
+43325;Quel élément vient après ? C4, D7, E10, F13, …;G16;H16;G15;G17
+43326;Quel élément vient après ? E3, G4, I5, K6, …;M7;M6;M8;N7
+43327;Quel élément vient après ? E5, F6, G7, H8, …;I9;I10;I8;J9
+43328;Quel élément vient après ? D2, E5, F8, G11, …;H14;H15;I14;H13
+43329;Quel élément vient après ? C5, E6, G7, I8, …;K9;K8;K10;L9
+43330;Quel élément vient après ? D2, E4, F6, G8, …;H10;I10;H9;H11
+43331;Quel élément vient après ? A2, C3, E4, G5, …;I6;I7;J6;I5
+43332;Quel élément vient après ? C4, D6, E8, F10, …;G12;G11;H12;G13
+43333;Quel élément vient après ? E4, F5, G6, H7, …;I8;I7;I9;J8
+43334;Quel élément vient après ? C2, D4, E6, F8, …;G10;G11;G9;H10
+43335;Quel élément vient après ? F2, G4, H6, I8, …;J10;J9;J11;K10
+43336;Quel élément vient après ? C3, E4, G5, I6, …;K7;K8;L7;K6
+43337;Quel élément vient après ? E1, G4, I7, K10, …;M13;M14;N13;M12
+43338;Quel élément vient après ? F3, G6, H9, I12, …;J15;J16;K15;J14
+43339;Quel élément vient après ? D5, F8, H11, J14, …;L17;L18;M17;L16
+43340;Quel élément vient après ? C4, E6, G8, I10, …;K12;L12;K11;K13
+43341;Quel élément vient après ? C4, E7, G10, I13, …;K16;K17;K15;L16
+43342;Quel élément vient après ? C1, E2, G3, I4, …;K5;K6;K4;L5
+43343;Quel élément vient après ? D4, F5, H6, J7, …;L8;L7;M8;L9
+43344;Le maillon est à la chaîne ce que le grain est…;à l'épi;au gâteau;à la main;à la chaîne
+43345;L'orteil est au pied ce que la bougie est…;au gâteau;à la chaîne;au bateau;à l'épi
+43346;Le fil est à la pelote ce que le wagon est…;au train;au gâteau;au tronc;à l'avion
+43347;Le doigt est à la main ce que le pétale est…;à la fleur;au tronc;au bateau;au train
+43348;La voile est au bateau ce que le pixel est…;à l'écran;au train;au livre;à la pelote
+43349;La page est au livre ce que le rayon est…;à la roue;à l'arbre;au train;à la chaîne
+43350;La branche est au tronc ce que la touche est…;au piano;au train;à l'écran;à la roue
+43351;La voile est au bateau ce que l'orteil est…;au pied;à la roue;à l'escalier;au collier
+43352;La perle est au collier ce que le grain est…;à l'épi;à l'avion;au piano;à la roue
+43353;La page est au livre ce que le grain est…;à l'épi;à l'escalier;au collier;à la pelote
+43354;Le pixel est à l'écran ce que la voile est…;au bateau;au tronc;à la chaîne;à l'arbre
+43355;Le doigt est à la main ce que la note est…;à la mélodie;au gâteau;à l'écran;à l'avion
+43356;Le rayon est à la roue ce que la roue est…;à la voiture;à l'épi;au pied;à la pelote
+43357;Le rayon est à la roue ce que la branche est…;au tronc;au train;à la roue;à la mélodie
+43358;Le maillon est à la chaîne ce que la note est…;à la mélodie;au collier;au piano;au bateau
+43359;La feuille est à l'arbre ce que la branche est…;au tronc;à l'écran;au train;à la voiture
+43360;La branche est au tronc ce que la perle est…;au collier;au bateau;au tronc;à la voiture
+43361;La touche est au piano ce que le grain est…;à l'épi;à la fleur;à la pelote;à l'écran
+43362;Le wagon est au train ce que le doigt est…;à la main;à l'avion;à la mélodie;au piano
+43363;La touche est au piano ce que la voile est…;au bateau;au tronc;au train;à la chaîne
+43364;La bougie est au gâteau ce que le pixel est…;à l'écran;à l'escalier;à l'épi;à la roue
+43365;Le pixel est à l'écran ce que la feuille est…;à l'arbre;au piano;à l'avion;à la mélodie
+43366;Le pétale est à la fleur ce que la bougie est…;au gâteau;à la fleur;au collier;au tronc
+43367;La page est au livre ce que la touche est…;au piano;au train;à la fleur;au collier
+43368;La touche est au piano ce que le pétale est…;à la fleur;à l'épi;à la main;à l'avion
+43369;La note est à la mélodie ce que la roue est…;à la voiture;au collier;à la main;à la pelote
+43370;Le pétale est à la fleur ce que la feuille est…;à l'arbre;à la mélodie;à la fleur;à la voiture
+43371;La bougie est au gâteau ce que la voile est…;au bateau;à l'écran;à l'escalier;au tronc
+43372;La roue est à la voiture ce que le doigt est…;à la main;à la voiture;au livre;à l'avion
+43373;L'aile est à l'avion ce que la branche est…;au tronc;au bateau;à la chaîne;à l'arbre
+43374;La note est à la mélodie ce que la branche est…;au tronc;au piano;au livre;à la voiture
+43375;Le rayon est à la roue ce que la page est…;au livre;à l'épi;à la fleur;à la pelote
+43376;Le fil est à la pelote ce que la voile est…;au bateau;à l'écran;au gâteau;à la main
+43377;La note est à la mélodie ce que l'aile est…;à l'avion;à la fleur;au collier;au train
+43378;La branche est au tronc ce que la feuille est…;à l'arbre;au pied;à la voiture;à l'écran
+43379;Le pétale est à la fleur ce que le wagon est…;au train;au pied;à la chaîne;à la pelote
+43380;Le grain est à l'épi ce que la voile est…;au bateau;à l'arbre;à la roue;à l'avion
+43381;L'aile est à l'avion ce que le fil est…;à la pelote;à l'arbre;au pied;à l'avion
+43382;Le rayon est à la roue ce que le pixel est…;à l'écran;à la roue;à l'épi;à la mélodie
+43383;L'orteil est au pied ce que la note est…;à la mélodie;à l'arbre;à la fleur;à l'écran
+43384;Dans une course, Zoé arrive avant Louis. Louis arrive avant Inès. Qui arrive en premier ?;Zoé;Louis;Inès;Impossible à savoir
+43385;Dans une course, Chloé arrive avant Nathan. Nathan arrive avant Inès. Qui arrive en 2e position ?;Nathan;Chloé;Inès;Impossible à savoir
+43386;Dans une course, Inès arrive avant Hugo. Hugo arrive avant Lucas. Qui arrive en 2e position ?;Hugo;Inès;Lucas;Impossible à savoir
+43387;Dans une course, Zoé arrive avant Léa. Léa arrive avant Noah. Qui arrive en premier ?;Zoé;Léa;Noah;Impossible à savoir
+43388;Dans une course, Chloé arrive avant Nathan. Nathan arrive avant Hugo. Qui arrive en 2e position ?;Nathan;Chloé;Hugo;Impossible à savoir
+43389;Dans une course, Léa arrive avant Louis. Louis arrive avant Lucas. Qui arrive en premier ?;Léa;Louis;Lucas;Impossible à savoir
+43390;Dans une course, Sarah arrive avant Hugo. Hugo arrive avant Zoé. Qui arrive en 2e position ?;Hugo;Sarah;Zoé;Impossible à savoir
+43391;Dans une course, Zoé arrive avant Emma. Emma arrive avant Noah. Qui arrive en premier ?;Zoé;Emma;Noah;Impossible à savoir
+43392;Dans une course, Lucas arrive avant Hugo. Hugo arrive avant Louis. Qui arrive en 2e position ?;Hugo;Lucas;Louis;Impossible à savoir
+43393;Dans une course, Adam arrive avant Camille. Camille arrive avant Emma. Qui arrive en 2e position ?;Camille;Adam;Emma;Impossible à savoir
+43394;Dans une course, Adam arrive avant Zoé. Zoé arrive avant Jules. Qui arrive en dernier ?;Jules;Adam;Zoé;Impossible à savoir
+43395;Dans une course, Chloé arrive avant Louis. Louis arrive avant Lucas. Qui arrive en premier ?;Chloé;Louis;Lucas;Impossible à savoir
+43396;Dans une course, Louis arrive avant Camille. Camille arrive avant Inès. Qui arrive en premier ?;Louis;Camille;Inès;Impossible à savoir
+43397;Dans une course, Louis arrive avant Lucas. Lucas arrive avant Sarah. Qui arrive en premier ?;Louis;Lucas;Sarah;Impossible à savoir
+43398;Dans une course, Noah arrive avant Hugo. Hugo arrive avant Manon. Qui arrive en premier ?;Noah;Hugo;Manon;Impossible à savoir
+43399;Dans une course, Noah arrive avant Louis. Louis arrive avant Inès. Qui arrive en dernier ?;Inès;Noah;Louis;Impossible à savoir
+43400;Dans une course, Camille arrive avant Chloé. Chloé arrive avant Zoé. Qui arrive en dernier ?;Zoé;Camille;Chloé;Impossible à savoir
+43401;Dans une course, Louis arrive avant Zoé. Zoé arrive avant Léa. Qui arrive en premier ?;Louis;Zoé;Léa;Impossible à savoir
+43402;Dans une course, Manon arrive avant Chloé. Chloé arrive avant Léa. Qui arrive en 2e position ?;Chloé;Manon;Léa;Impossible à savoir
+43403;Dans une course, Lucas arrive avant Sarah. Sarah arrive avant Inès. Qui arrive en 2e position ?;Sarah;Lucas;Inès;Impossible à savoir
+43404;Dans une course, Noah arrive avant Sarah. Sarah arrive avant Manon. Qui arrive en 2e position ?;Sarah;Noah;Manon;Impossible à savoir
+43405;Dans une course, Lucas arrive avant Emma. Emma arrive avant Noah. Qui arrive en 2e position ?;Emma;Lucas;Noah;Impossible à savoir
+43406;Dans une course, Louis arrive avant Lucas. Lucas arrive avant Nathan. Qui arrive en premier ?;Louis;Lucas;Nathan;Impossible à savoir
+43407;Dans une course, Manon arrive avant Hugo. Hugo arrive avant Noah. Qui arrive en premier ?;Manon;Hugo;Noah;Impossible à savoir
+43408;Dans une course, Nathan arrive avant Léa. Léa arrive avant Emma. Qui arrive en 2e position ?;Léa;Nathan;Emma;Impossible à savoir
+43409;Dans une course, Louis arrive avant Manon. Manon arrive avant Nathan. Qui arrive en premier ?;Louis;Manon;Nathan;Impossible à savoir
+43410;Dans une course, Camille arrive avant Lucas. Lucas arrive avant Manon. Qui arrive en premier ?;Camille;Lucas;Manon;Impossible à savoir
+43411;Dans une course, Noah arrive avant Lucas. Lucas arrive avant Jules. Qui arrive en premier ?;Noah;Lucas;Jules;Impossible à savoir
+43412;Dans une course, Lucas arrive avant Chloé. Chloé arrive avant Emma. Qui arrive en 2e position ?;Chloé;Lucas;Emma;Impossible à savoir
+43413;Dans une course, Manon arrive avant Adam. Adam arrive avant Inès. Qui arrive en 2e position ?;Adam;Manon;Inès;Impossible à savoir
+43414;Dans une course, Jules arrive avant Noah. Noah arrive avant Lucas. Qui arrive en dernier ?;Lucas;Jules;Noah;Impossible à savoir
+43415;Dans une course, Noah arrive avant Adam. Adam arrive avant Nathan. Qui arrive en dernier ?;Nathan;Noah;Adam;Impossible à savoir
+43416;Dans une course, Jules arrive avant Chloé. Chloé arrive avant Léa. Qui arrive en dernier ?;Léa;Jules;Chloé;Impossible à savoir
+43417;Dans une course, Léa arrive avant Sarah. Sarah arrive avant Inès. Qui arrive en 2e position ?;Sarah;Léa;Inès;Impossible à savoir
+43418;Dans une course, Hugo arrive avant Adam. Adam arrive avant Noah. Qui arrive en dernier ?;Noah;Hugo;Adam;Impossible à savoir
+43419;Dans une course, Noah arrive avant Inès. Inès arrive avant Adam. Qui arrive en dernier ?;Adam;Noah;Inès;Impossible à savoir
+43420;Dans une course, Camille arrive avant Nathan. Nathan arrive avant Hugo. Qui arrive en dernier ?;Hugo;Camille;Nathan;Impossible à savoir
+43421;Dans une course, Léa arrive avant Jules. Jules arrive avant Camille. Qui arrive en premier ?;Léa;Jules;Camille;Impossible à savoir
+43422;Dans une course, Hugo arrive avant Chloé. Chloé arrive avant Noah. Qui arrive en dernier ?;Noah;Hugo;Chloé;Impossible à savoir
+43423;Dans une course, Louis arrive avant Léa. Léa arrive avant Inès. Qui arrive en premier ?;Louis;Léa;Inès;Impossible à savoir
+43424;Dans une course, Sarah arrive avant Zoé. Zoé arrive avant Noah. Qui arrive en 2e position ?;Zoé;Sarah;Noah;Impossible à savoir
+43425;Dans une course, Camille arrive avant Sarah. Sarah arrive avant Noah. Qui arrive en 2e position ?;Sarah;Camille;Noah;Impossible à savoir
+43426;Dans une course, Inès arrive avant Nathan. Nathan arrive avant Manon. Qui arrive en 2e position ?;Nathan;Inès;Manon;Impossible à savoir
+43427;Dans une course, Zoé arrive avant Jules. Jules arrive avant Chloé. Qui arrive en premier ?;Zoé;Jules;Chloé;Impossible à savoir
+43428;Dans une course, Manon arrive avant Chloé. Chloé arrive avant Sarah. Qui arrive en dernier ?;Sarah;Manon;Chloé;Impossible à savoir
+43429;Dans une course, Sarah arrive avant Léa. Léa arrive avant Noah. Qui arrive en premier ?;Sarah;Léa;Noah;Impossible à savoir
+43430;Dans une course, Adam arrive avant Chloé. Chloé arrive avant Hugo. Qui arrive en 2e position ?;Chloé;Adam;Hugo;Impossible à savoir
+43431;Dans une course, Zoé arrive avant Adam. Adam arrive avant Chloé. Qui arrive en premier ?;Zoé;Adam;Chloé;Impossible à savoir
+43432;Dans une course, Hugo arrive avant Emma. Emma arrive avant Adam. Qui arrive en 2e position ?;Emma;Hugo;Adam;Impossible à savoir
+43433;Dans une course, Jules arrive avant Louis. Louis arrive avant Léa. Qui arrive en dernier ?;Léa;Jules;Louis;Impossible à savoir
+43434;Quel est le contraire de « avare » ?;généreux;involontaire;réel;identique
+43435;Quel est le contraire de « inutile » ?;utile;ancien;régulier;impatient
+43436;Quel est le contraire de « visible » ?;invisible;imprudent;illogique;logique
+43437;Quel est le contraire de « invisible » ?;visible;vertical;bruyant;possible
+43438;Quel est le contraire de « moderne » ?;ancien;imaginaire;patient;complet
+43439;Quel est le contraire de « logique » ?;illogique;avare;pessimiste;utile
+43440;Quel est le contraire de « volontaire » ?;involontaire;irrégulier;honnête;inconnu
+43441;Quel est le contraire de « vertical » ?;horizontal;identique;involontaire;possible
+43442;Quel est le contraire de « ordonné » ?;désordonné;volontaire;malhonnête;utile
+43443;Quel est le contraire de « extérieur » ?;intérieur;irrégulier;vertical;honnête
+43444;Quel est le contraire de « régulier » ?;irrégulier;abondant;inconnu;horizontal
+43445;Quel est le contraire de « irrégulier » ?;régulier;involontaire;vertical;visible
+43446;Quel est le contraire de « identique » ?;différent;involontaire;précis;vertical
+43447;Quel est le contraire de « impossible » ?;possible;actif;intérieur;identique
+43448;Quel est le contraire de « abondant » ?;rare;connu;honnête;réel
+43449;Quel est le contraire de « prudent » ?;imprudent;malhonnête;complet;ancien
+43450;Quel est le contraire de « malhonnête » ?;honnête;identique;complet;avare
+43451;Quel est le contraire de « impatient » ?;patient;invisible;impossible;utile
+43452;Quel est le contraire de « désordonné » ?;ordonné;intérieur;incomplet;imprécis
+43453;Quel est le contraire de « bruyant » ?;silencieux;régulier;utile;impatient
+43454;Quel est le contraire de « réel » ?;imaginaire;irrégulier;imprécis;régulier
+43455;Quel est le contraire de « généreux » ?;avare;horizontal;courageux;généreux
+43456;Quel est le contraire de « inconnu » ?;connu;précis;rare;abondant
+43457;Quel est le contraire de « possible » ?;impossible;moderne;ancien;positif
+43458;Quel est le contraire de « imaginaire » ?;réel;logique;bruyant;ancien
+43459;Quel est le contraire de « ancien » ?;moderne;inconnu;involontaire;pessimiste
+43460;Quel est le contraire de « silencieux » ?;bruyant;intérieur;incomplet;visible
+43461;Quel est le contraire de « rare » ?;abondant;prudent;différent;avare
+43462;Quel est le contraire de « pessimiste » ?;optimiste;malhonnête;illogique;vertical
+43463;Quel est le contraire de « différent » ?;identique;précis;généreux;abondant
+43464;Quel est le contraire de « honnête » ?;malhonnête;incomplet;avare;possible
+43465;Quel est le contraire de « positif » ?;négatif;possible;positif;imprudent
+43466;Quel est le contraire de « complet » ?;incomplet;inconnu;complet;paresseux
+43467;Quel est le contraire de « intérieur » ?;extérieur;négatif;irrégulier;avare
+43468;Quel est le contraire de « connu » ?;inconnu;irrégulier;abondant;inutile
+43469;Quel est le contraire de « horizontal » ?;vertical;connu;ancien;invisible
+43470;Quel est le contraire de « paresseux » ?;actif;involontaire;extérieur;précis
+43471;Quel est le contraire de « courageux » ?;lâche;complet;imprécis;identique
+43472;Quel est le contraire de « optimiste » ?;pessimiste;identique;connu;extérieur
+43473;Quel est le contraire de « actif » ?;paresseux;bruyant;imprécis;volontaire
+43474;Quel nombre vient après ? 14, 19, 17, 22, …;20;19;21;22
+43475;Quel nombre vient après ? 4, 13, 7, 16, …;10;9;11;12
+43476;Quel nombre vient après ? 4, 12, 11, 33, …;32;33;34;31
+43477;Quel nombre vient après ? 15, 30, 34, 68, …;72;73;74;71
+43478;Quel nombre vient après ? 20, 40, 43, 86, …;89;88;90;91
+43479;Quel nombre vient après ? 10, 12, 6, 8, …;2;1;3;4
+43480;Quel nombre vient après ? 6, 12, 8, 16, …;12;11;13;14
+43481;Quel nombre vient après ? 19, 57, 53, 159, …;155;154;156;157
+43482;Quel nombre vient après ? 16, 48, 50, 150, …;152;153;154;151
+43483;Quel nombre vient après ? 4, 12, 15, 45, …;48;49;50;47
+43484;Quel nombre vient après ? 15, 45, 42, 126, …;123;122;124;125
+43485;Quel nombre vient après ? 13, 26, 28, 56, …;58;57;59;60
+43486;Quel nombre vient après ? 16, 32, 34, 68, …;70;72;69;71
+43487;Quel nombre vient après ? 8, 16, 13, 26, …;23;24;25;22
+43488;Quel nombre vient après ? 6, 18, 15, 45, …;42;41;43;44
+43489;Quel nombre vient après ? 14, 42, 38, 114, …;110;112;109;111
+43490;Quel nombre vient après ? 15, 30, 28, 56, …;54;56;53;55
+43491;Quel nombre vient après ? 17, 51, 52, 156, …;157;156;158;159
+43492;Quel nombre vient après ? 17, 23, 21, 27, …;25;24;26;27
+43493;Quel nombre vient après ? 3, 6, 12, 24, …;30;32;29;31
+43494;Dans une course, Manon arrive avant Nathan. Nathan arrive avant Noah. Qui arrive en 2e position ?;Nathan;Manon;Noah;Impossible à savoir
+43495;Dans une course, Hugo arrive avant Nathan. Nathan arrive avant Noah. Qui arrive en premier ?;Hugo;Nathan;Noah;Impossible à savoir
+43496;Dans une course, Emma arrive avant Léa. Léa arrive avant Hugo. Qui arrive en premier ?;Emma;Léa;Hugo;Impossible à savoir
+43497;Dans une course, Manon arrive avant Louis. Louis arrive avant Adam. Qui arrive en dernier ?;Adam;Manon;Louis;Impossible à savoir
+43498;Dans une course, Manon arrive avant Louis. Louis arrive avant Noah. Qui arrive en dernier ?;Noah;Manon;Louis;Impossible à savoir
+43499;Dans une course, Jules arrive avant Camille. Camille arrive avant Nathan. Qui arrive en premier ?;Jules;Camille;Nathan;Impossible à savoir

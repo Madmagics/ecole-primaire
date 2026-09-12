@@ -1,8 +1,11 @@
 [gd_scene format=3 uid="uid://b3khbowwpo0ln"]
 
 [ext_resource type="Script" uid="uid://dyncqgjkmkf71" path="res://ui/collection/card_album.gd" id="1"]
-[ext_resource type="Script" path="res://ui/collection/atlas_background.gd" id="2"]
-[ext_resource type="Script" path="res://ui/collection/title_underline.gd" id="3"]
+[ext_resource type="Texture2D" path="res://assets/classe2.0/icones/fleche-gauche.webp" id="4"]
+[ext_resource type="Texture2D" path="res://assets/classe2.0/icones/fleche-droite.webp" id="5"]
+
+[sub_resource type="ButtonGroup" id="ButtonGroup_filter"]
+[sub_resource type="ButtonGroup" id="ButtonGroup_sort"]
 
 [node name="CardAlbum" type="Control" unique_id=296464963]
 layout_mode = 3
@@ -19,76 +22,126 @@ layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 40.0
-offset_top = 40.0
-offset_right = -40.0
-offset_bottom = -40.0
+offset_left = 20.0
+offset_top = 20.0
+offset_right = -123.0
+offset_bottom = -20.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="AtlasBackground" type="Control" parent="Panel" unique_id=1663995100]
+[node name="TitleRow" type="HBoxContainer" parent="Panel" unique_id=1663995119]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 20.0
+offset_top = 10.0
+offset_right = -20.0
+offset_bottom = 40.0
+grow_horizontal = 2
+alignment = 1
+theme_override_constants/separation = 10
+
+[node name="TitleIcon" type="TextureRect" parent="Panel/TitleRow"]
+custom_minimum_size = Vector2(28, 28)
+layout_mode = 2
+size_flags_vertical = 4
+expand_mode = 1
+stretch_mode = 5
+
+[node name="TitleLabel" type="Label" parent="Panel/TitleRow" unique_id=1663995120]
+layout_mode = 2
+theme_type_variation = &"TitleLabel"
+text = "Grimoire des animaux extraordinaires"
+
+[node name="TitleSeparator" type="HSeparator" parent="Panel" unique_id=1663995121]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_top = 55.0
+offset_bottom = 59.0
+grow_horizontal = 2
+
+[node name="CategoryLabel" type="Label" parent="Panel" unique_id=1663995122]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 20.0
+offset_top = 64.0
+offset_right = -20.0
+offset_bottom = 88.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 20
+theme_override_colors/font_color = Color(0.721569, 0.537255, 0.180392, 1)
+text = "Chats"
+horizontal_alignment = 1
+
+[node name="OptionsBar" type="Control" parent="Panel" unique_id=1663995130]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -350.0
+offset_top = -82.0
+offset_right = 350.0
+offset_bottom = -52.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="OptionsRow" type="HBoxContainer" parent="Panel/OptionsBar"]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-mouse_filter = 2
-script = ExtResource("2")
+alignment = 1
+theme_override_constants/separation = 32
 
-[node name="TitleBlock" type="VBoxContainer" parent="Panel" unique_id=1663995119]
-layout_mode = 1
-anchors_preset = 10
-anchor_right = 1.0
-offset_left = 20.0
-offset_top = 28.0
-offset_right = -20.0
-offset_bottom = 100.0
-grow_horizontal = 2
-theme_override_constants/separation = 4
-
-[node name="TitleLabel" type="Label" parent="Panel/TitleBlock" unique_id=1663995120]
+[node name="FilterGroup" type="HBoxContainer" parent="Panel/OptionsBar/OptionsRow"]
 layout_mode = 2
-theme_type_variation = &"TitleLabel"
-text = "Grimoire des animaux extraordinaires"
-horizontal_alignment = 1
+theme_override_constants/separation = 8
 
-[node name="TitleUnderline" type="Control" parent="Panel/TitleBlock" unique_id=1663995121]
+[node name="FilterFoundCheck" type="CheckBox" parent="Panel/OptionsBar/OptionsRow/FilterGroup"]
 layout_mode = 2
-custom_minimum_size = Vector2(0, 10)
-size_flags_horizontal = 3
-script = ExtResource("3")
+theme_type_variation = &"OptionCheck"
+button_pressed = true
+button_group = SubResource("ButtonGroup_filter")
+text = "Cartes trouvées"
 
-[node name="CategoryLabel" type="Label" parent="Panel/TitleBlock" unique_id=1663995122]
+[node name="FilterAllCheck" type="CheckBox" parent="Panel/OptionsBar/OptionsRow/FilterGroup"]
 layout_mode = 2
-theme_override_font_sizes/font_size = 20
-theme_override_colors/font_color = Color(0.721569, 0.537255, 0.180392, 1)
-text = "Chats"
-horizontal_alignment = 1
+theme_type_variation = &"OptionCheck"
+button_group = SubResource("ButtonGroup_filter")
+text = "Toutes les cartes"
 
-[node name="CloseButton" type="Button" parent="Panel" unique_id=1060221148]
-layout_mode = 1
-anchors_preset = 1
-anchor_left = 1.0
-anchor_right = 1.0
-offset_left = -66.0
-offset_top = 24.0
-offset_right = -26.0
-offset_bottom = 56.0
-grow_horizontal = 0
-text = "X"
+[node name="SortGroup" type="HBoxContainer" parent="Panel/OptionsBar/OptionsRow"]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="SortClassCheck" type="CheckBox" parent="Panel/OptionsBar/OptionsRow/SortGroup"]
+layout_mode = 2
+theme_type_variation = &"OptionCheck"
+button_pressed = true
+button_group = SubResource("ButtonGroup_sort")
+text = "Par classe"
+
+[node name="SortTypeCheck" type="CheckBox" parent="Panel/OptionsBar/OptionsRow/SortGroup"]
+layout_mode = 2
+theme_type_variation = &"OptionCheck"
+button_group = SubResource("ButtonGroup_sort")
+text = "Par type"
 
 [node name="ScrollContainer" type="ScrollContainer" parent="Panel" unique_id=371646289]
 layout_mode = 1
-anchors_preset = 8
 anchor_left = 0.5
-anchor_top = 0.5
 anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -520.0
-offset_top = -160.0
-offset_right = 520.0
-offset_bottom = 160.0
+anchor_bottom = 1.0
+offset_left = -500.0
+offset_top = 88.0
+offset_right = 500.0
+offset_bottom = -122.0
 grow_horizontal = 2
 grow_vertical = 2
 
@@ -103,34 +156,23 @@ theme_override_constants/h_separation = 8
 theme_override_constants/v_separation = 16
 columns = 5
 
-[node name="PageLabel" type="Label" parent="Panel" unique_id=1175924303]
-layout_mode = 1
-anchors_preset = 7
-anchor_left = 0.5
-anchor_top = 1.0
-anchor_right = 0.5
-anchor_bottom = 1.0
-offset_left = -100.0
-offset_top = -52.0
-offset_right = 100.0
-offset_bottom = -22.0
-grow_horizontal = 2
-grow_vertical = 0
-theme_type_variation = &"TitleLabel"
-text = "Page 1 / 1"
-horizontal_alignment = 1
-
 [node name="PrevButton" type="Button" parent="Panel" unique_id=831388834]
 layout_mode = 1
 anchors_preset = 2
 anchor_top = 1.0
 anchor_bottom = 1.0
 offset_left = 20.0
-offset_top = -52.0
+offset_top = -112.0
 offset_right = 140.0
 offset_bottom = -22.0
 grow_vertical = 0
-text = "< Précédent"
+flat = true
+text = ""
+icon = ExtResource("4")
+expand_icon = true
+icon_alignment = 1
+vertical_icon_alignment = 1
+tooltip_text = "Page précédente"
 
 [node name="NextButton" type="Button" parent="Panel" unique_id=727025477]
 layout_mode = 1
@@ -140,9 +182,15 @@ anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
 offset_left = -140.0
-offset_top = -52.0
+offset_top = -112.0
 offset_right = -20.0
 offset_bottom = -22.0
 grow_horizontal = 0
 grow_vertical = 0
-text = "Suivant >"
+flat = true
+text = ""
+icon = ExtResource("5")
+expand_icon = true
+icon_alignment = 1
+vertical_icon_alignment = 1
+tooltip_text = "Page suivante"

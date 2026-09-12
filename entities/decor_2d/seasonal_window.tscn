@@ -1,0 +1,14 @@
+[gd_scene load_steps=6 format=3]
+
+[ext_resource type="Script" path="res://entities/decor_2d/seasonal_window.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/classe2.0/decor/fenetre_hiver.webp" id="2_winter"]
+[ext_resource type="Texture2D" path="res://assets/classe2.0/decor/fenetre_printemps.webp" id="3_spring"]
+[ext_resource type="Texture2D" path="res://assets/classe2.0/decor/fenetre_ete.webp" id="4_summer"]
+[ext_resource type="Texture2D" path="res://assets/classe2.0/decor/fenetre_automne.webp" id="5_autumn"]
+
+[node name="SeasonalWindow" type="Sprite2D"]
+script = ExtResource("1_script")
+texture_winter = ExtResource("2_winter")
+texture_spring = ExtResource("3_spring")
+texture_summer = ExtResource("4_summer")
+texture_autumn = ExtResource("5_autumn")

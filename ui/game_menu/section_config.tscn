@@ -1,6 +1,8 @@
-[gd_scene load_steps=2 format=3]
+[gd_scene load_steps=4 format=3]
 
 [ext_resource type="Script" path="res://ui/game_menu/section_config.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/classe2.0/icones/musique-on.webp" id="2"]
+[ext_resource type="Texture2D" path="res://assets/classe2.0/icones/son-on.webp" id="3"]
 
 [node name="SectionConfig" type="Control"]
 layout_mode = 3
@@ -19,18 +21,51 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 offset_left = 20.0
 offset_top = 20.0
-offset_right = -20.0
+offset_right = -10.0
 offset_bottom = -20.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_constants/separation = 16
 
-[node name="VolumeTitleLabel" type="Label" parent="VBoxContainer"]
+[node name="MusicVolumeRow" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="MusicVolumeTitleLabel" type="Label" parent="VBoxContainer/MusicVolumeRow"]
 theme_type_variation = &"TitleLabel"
 layout_mode = 2
-text = "Volume général"
+text = "Volume musique"
 
-[node name="VolumeSlider" type="HSlider" parent="VBoxContainer"]
+[node name="MusicMuteButton" type="TextureButton" parent="VBoxContainer/MusicVolumeRow"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+texture_normal = ExtResource("2")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="MusicVolumeSlider" type="HSlider" parent="VBoxContainer"]
+layout_mode = 2
+max_value = 1.0
+step = 0.01
+value = 1.0
+
+[node name="SfxVolumeRow" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="SfxVolumeTitleLabel" type="Label" parent="VBoxContainer/SfxVolumeRow"]
+theme_type_variation = &"TitleLabel"
+layout_mode = 2
+text = "Volume bruitages"
+
+[node name="SfxMuteButton" type="TextureButton" parent="VBoxContainer/SfxVolumeRow"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+texture_normal = ExtResource("3")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="SfxVolumeSlider" type="HSlider" parent="VBoxContainer"]
 layout_mode = 2
 max_value = 1.0
 step = 0.01
@@ -38,6 +73,7 @@ value = 1.0
 
 [node name="FullscreenCheck" type="CheckBox" parent="VBoxContainer"]
 layout_mode = 2
+size_flags_horizontal = 0
 text = "Plein écran"
 
 [node name="ThemeTitleLabel" type="Label" parent="VBoxContainer"]

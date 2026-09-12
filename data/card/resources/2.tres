@@ -1,12 +1,12 @@
 [gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://ce5nmphi35jci"]
 
-[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_x15o3"]
-[ext_resource type="Texture2D" uid="uid://duliq5e1wk3iw" path="res://data/card/art/2.webp" id="2_ebsy3"]
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/classe2.0/pets/2.webp" id="2_texture"]
 
 [resource]
-script = ExtResource("1_x15o3")
+script = ExtResource("1_script")
 id = &"2"
 category = &"chat"
-display_name = "Siamois"
-texture = ExtResource("2_ebsy3")
+display_name = "Suki"
+texture = ExtResource("2_texture")
 grade = 1

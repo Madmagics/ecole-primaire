@@ -1,14 +1,13 @@
-[gd_scene load_steps=19 format=3]
+[gd_scene load_steps=26 format=3]
 
 [ext_resource type="PackedScene" path="res://ui/question_panel/question_panel.tscn" id="4_rb02j"]
 [ext_resource type="PackedScene" path="res://ui/subject_select/subject_select_panel.tscn" id="4_subject"]
 [ext_resource type="PackedScene" path="res://ui/reading_intro/reading_intro_panel.tscn" id="4_reading"]
-[ext_resource type="PackedScene" path="res://ui/interact_prompt/interact_prompt.tscn" id="5_4xvba"]
-[ext_resource type="PackedScene" uid="uid://7356npxenrso" path="res://ui/hud/coin_hud.tscn" id="6_jg8l3"]
 [ext_resource type="PackedScene" uid="uid://b3khbowwpo0ln" path="res://ui/collection/card_album.tscn" id="7_alb1m"]
-[ext_resource type="PackedScene" path="res://ui/loot_feed/loot_feed.tscn" id="7_loot"]
-[ext_resource type="PackedScene" path="res://ui/inventory/inventory_panel.tscn" id="40_inventory"]
+[ext_resource type="PackedScene" path="res://ui/card_reveal/card_reveal_overlay.tscn" id="7_reveal"]
 [ext_resource type="Script" uid="uid://bunkqsd4e4a20" path="res://ui/hud/menu_toggle_button.gd" id="22_menutoggle"]
+[ext_resource type="PackedScene" path="res://ui/hud/backpack_menu.tscn" id="47_backpack_menu"]
+[ext_resource type="PackedScene" path="res://ui/success/success_panel.tscn" id="48_success"]
 [ext_resource type="PackedScene" path="res://ui/shop/shop_panel.tscn" id="11_kiosk"]
 [ext_resource type="Script" uid="uid://d24av07ikqoir" path="res://data/loot/loot_table_resource.gd" id="12_kiosk"]
 [ext_resource type="Resource" uid="uid://cdiy5ti42wmka" path="res://data/loot/resources/crate_commun.tres" id="5_1klq6"]
@@ -18,46 +17,146 @@
 [ext_resource type="Resource" uid="uid://demxxpica4rqb" path="res://data/loot/resources/crate_legendaire.tres" id="16_crate"]
 [ext_resource type="PackedScene" path="res://ui/game_menu/game_menu_panel.tscn" id="17_menu"]
 [ext_resource type="PackedScene" path="res://ui/onboarding/welcome_panel.tscn" id="41_welcome"]
+[ext_resource type="PackedScene" path="res://ui/game_menu/quit_overlay.tscn" id="49_quit_overlay"]
+[ext_resource type="PackedScene" path="res://ui/hud/daily_limit_badge.tscn" id="60_daily_limit_badge"]
+[ext_resource type="PackedScene" path="res://ui/hud/daily_limit_popup.tscn" id="61_daily_limit_popup"]
+[ext_resource type="PackedScene" path="res://ui/hud/daily_limit_reached_overlay.tscn" id="62_daily_limit_reached"]
+[ext_resource type="Texture2D" path="res://assets/classe2.0/icones/menu.webp" id="42_icon_menu"]
+[ext_resource type="Texture2D" path="res://assets/classe2.0/icones/inventaire.webp" id="45_icon_inventory"]
+[ext_resource type="Shader" path="res://ui/game_menu/icon_dock_blur.gdshader" id="50_blur_shader"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_backpack_blur"]
+shader = ExtResource("50_blur_shader")
+shader_parameter/blur_amount = 2.0
+shader_parameter/tint_color = Color(0, 0, 0, 0.4)
 
 [node name="UI" type="CanvasLayer"]
 
-[node name="CoinHUD" parent="." instance=ExtResource("6_jg8l3")]
+[node name="NpcBlurBG" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+material = SubResource("ShaderMaterial_backpack_blur")
+color = Color(0, 0, 0, 1)
+visible = false
 
 [node name="QuestionPanel" parent="." instance=ExtResource("4_rb02j")]
+blur_bg_path = NodePath("../NpcBlurBG")
+open_menu_button_path = NodePath("../OpenMenuButton")
+backpack_button_path = NodePath("../BackpackButton")
 
 [node name="SubjectSelectPanel" parent="." instance=ExtResource("4_subject")]
+blur_bg_path = NodePath("../NpcBlurBG")
+open_menu_button_path = NodePath("../OpenMenuButton")
+backpack_button_path = NodePath("../BackpackButton")
 
 [node name="ReadingIntroPanel" parent="." instance=ExtResource("4_reading")]
+blur_bg_path = NodePath("../NpcBlurBG")
+open_menu_button_path = NodePath("../OpenMenuButton")
+backpack_button_path = NodePath("../BackpackButton")
 
-[node name="InteractPrompt" parent="." instance=ExtResource("5_4xvba")]
+[node name="BackpackBlurBG" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+material = SubResource("ShaderMaterial_backpack_blur")
+color = Color(0, 0, 0, 1)
+visible = false
 
 [node name="CardAlbum" parent="." instance=ExtResource("7_alb1m")]
+title_icon_source_path = NodePath("../BackpackMenu/IconDock/IconList/LivreButton")
+zoom_blur_bg_path = NodePath("../CardZoomBlurBG")
 
-[node name="LootFeed" parent="." instance=ExtResource("7_loot")]
-
-[node name="InventoryPanel" parent="." instance=ExtResource("40_inventory")]
-
-[node name="OpenMenuButton" type="Button" parent="."]
-anchors_preset = 1
-anchor_left = 1.0
-anchor_right = 1.0
-offset_left = -70.0
-offset_top = 20.0
-offset_right = -20.0
-offset_bottom = 70.0
-grow_horizontal = 0
-text = "M"
-script = ExtResource("22_menutoggle")
-toggled_panel_paths = Array[NodePath]([NodePath("../GameMenuPanel"), NodePath("../CardAlbum"), NodePath("../InventoryPanel"), NodePath("../WelcomePanel")])
+[node name="SuccessPanel" parent="." instance=ExtResource("48_success")]
+title_icon_source_path = NodePath("../BackpackMenu/IconDock/IconList/SuccesButton")
 
 [node name="ShopPanel" parent="." instance=ExtResource("11_kiosk")]
 available_crates = Array[ExtResource("12_kiosk")]([ExtResource("5_1klq6"), ExtResource("13_crate"), ExtResource("14_crate"), ExtResource("15_crate"), ExtResource("16_crate")])
+title_icon_source_path = NodePath("../BackpackMenu/IconDock/IconList/SacDePiecesButton")
+
+[node name="BackpackMenu" parent="." instance=ExtResource("47_backpack_menu")]
+wallet_panel_path = NodePath("../ShopPanel")
+collection_panel_path = NodePath("../CardAlbum")
+success_panel_path = NodePath("../SuccessPanel")
+blur_bg_path = NodePath("../BackpackBlurBG")
+
+[node name="CardZoomBlurBG" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 0
+material = SubResource("ShaderMaterial_backpack_blur")
+color = Color(0, 0, 0, 1)
+visible = false
+
+[node name="OpenMenuButton" type="Button" parent="."]
+anchors_preset = 0
+anchor_left = 0.0
+anchor_right = 0.0
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 97.0
+offset_bottom = 96.0
+flat = true
+text = ""
+icon = ExtResource("42_icon_menu")
+expand_icon = true
+icon_alignment = 1
+vertical_icon_alignment = 1
+script = ExtResource("22_menutoggle")
+toggled_panel_paths = Array[NodePath]([NodePath("../GameMenuPanel"), NodePath("../CardAlbum"), NodePath("../ShopPanel"), NodePath("../SuccessPanel"), NodePath("../BackpackMenu"), NodePath("../WelcomePanel"), NodePath("../QuitOverlay")])
+
+[node name="BackpackButton" type="Button" parent="."]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 0.0
+offset_left = -93.0
+offset_top = 20.0
+offset_right = -20.0
+offset_bottom = 102.0
+grow_horizontal = 0
+flat = true
+text = ""
+icon = ExtResource("45_icon_inventory")
+expand_icon = true
+icon_alignment = 1
+vertical_icon_alignment = 1
+script = ExtResource("22_menutoggle")
+toggled_panel_paths = Array[NodePath]([NodePath("../GameMenuPanel"), NodePath("../CardAlbum"), NodePath("../ShopPanel"), NodePath("../SuccessPanel"), NodePath("../BackpackMenu"), NodePath("../WelcomePanel"), NodePath("../QuitOverlay")])
+
+[node name="DailyLimitBadge" parent="." instance=ExtResource("60_daily_limit_badge")]
+popup_path = NodePath("../DailyLimitPopup")
+hidden_when_visible_paths = Array[NodePath]([NodePath("../GameMenuPanel"), NodePath("../CardAlbum"), NodePath("../ShopPanel"), NodePath("../SuccessPanel"), NodePath("../BackpackMenu"), NodePath("../WelcomePanel"), NodePath("../QuitOverlay"), NodePath("../QuestionPanel"), NodePath("../SubjectSelectPanel"), NodePath("../ReadingIntroPanel"), NodePath("../CardRevealOverlay/InputMask")])
 
 [node name="GameMenuPanel" parent="." instance=ExtResource("17_menu")]
+quit_overlay_path = NodePath("../QuitOverlay")
+
+[node name="CardRevealOverlay" parent="." instance=ExtResource("7_reveal")]
+book_icon_path = NodePath("../BackpackMenu/IconDock/IconList/LivreButton")
 
 [node name="WelcomePanel" parent="." instance=ExtResource("41_welcome")]
 
+[node name="DailyLimitPopup" parent="." instance=ExtResource("61_daily_limit_popup")]
+
+[node name="DailyLimitReachedOverlay" parent="." instance=ExtResource("62_daily_limit_reached")]
+
+[node name="QuitOverlay" parent="." instance=ExtResource("49_quit_overlay")]
+blocking_panel_paths = Array[NodePath]([NodePath("../GameMenuPanel"), NodePath("../BackpackMenu"), NodePath("../ShopPanel"), NodePath("../CardAlbum"), NodePath("../SuccessPanel"), NodePath("../QuestionPanel"), NodePath("../SubjectSelectPanel"), NodePath("../ReadingIntroPanel"), NodePath("../CardRevealOverlay"), NodePath("../WelcomePanel")])
+
+
 [connection signal="questions_requested" from="ReadingIntroPanel" to="QuestionPanel" method="display_pack"]
 [connection signal="pressed" from="OpenMenuButton" to="GameMenuPanel" method="toggle"]
-[connection signal="collection_requested" from="GameMenuPanel" to="CardAlbum" method="open"]
-[connection signal="inventory_requested" from="GameMenuPanel" to="InventoryPanel" method="open"]
+[connection signal="pressed" from="BackpackButton" to="BackpackMenu" method="toggle"]

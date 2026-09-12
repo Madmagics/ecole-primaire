@@ -1,9 +1,11 @@
 [gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://bt8qcuq6uuiuy"]
 
-[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_jp4cg"]
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/classe2.0/pets/21.webp" id="2_texture"]
 
 [resource]
-script = ExtResource("1_jp4cg")
+script = ExtResource("1_script")
 id = &"21"
 category = &"hippocampe"
-display_name = "Corail"
+display_name = "Corallie"
+texture = ExtResource("2_texture")

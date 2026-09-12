@@ -47,6 +47,8 @@ autowrap_mode = 2
 vertical_alignment = 1
 
 [node name="CloseButton" type="Button" parent="Panel/Margin/Content/HeaderRow"]
+theme_type_variation = &"CloseButton"
+custom_minimum_size = Vector2(28, 28)
 layout_mode = 2
 size_flags_vertical = 0
 text = "X"

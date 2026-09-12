@@ -1,0 +1,69 @@
+[gd_scene load_steps=6 format=3]
+
+[ext_resource type="Script" path="res://ui/hud/backpack_menu.gd" id="1"]
+[ext_resource type="PackedScene" path="res://ui/game_menu/icon_dock.tscn" id="2_icon_dock"]
+[ext_resource type="Texture2D" path="res://assets/classe2.0/icones/sac-de-pieces.webp" id="3_icon_wallet"]
+[ext_resource type="Texture2D" path="res://assets/classe2.0/icones/livre.webp" id="4_icon_livre"]
+[ext_resource type="Texture2D" path="res://assets/classe2.0/icones/defis.webp" id="5_icon_succes"]
+
+[node name="BackpackMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("1")
+visible = false
+
+[node name="IconDock" parent="." instance=ExtResource("2_icon_dock")]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -113.0
+offset_top = 20.0
+offset_right = -20.0
+offset_bottom = -20.0
+grow_horizontal = 0
+grow_vertical = 2
+
+[node name="SacDePiecesButton" type="Button" parent="IconDock/IconList"]
+custom_minimum_size = Vector2(70, 76)
+layout_mode = 2
+size_flags_horizontal = 4
+flat = true
+text = ""
+icon = ExtResource("3_icon_wallet")
+expand_icon = true
+icon_alignment = 1
+vertical_icon_alignment = 1
+tooltip_text = "Récompenses"
+
+[node name="LivreButton" type="Button" parent="IconDock/IconList"]
+custom_minimum_size = Vector2(70, 76)
+layout_mode = 2
+size_flags_horizontal = 4
+flat = true
+text = ""
+icon = ExtResource("4_icon_livre")
+expand_icon = true
+icon_alignment = 1
+vertical_icon_alignment = 1
+tooltip_text = "Livre"
+
+[node name="SuccesButton" type="Button" parent="IconDock/IconList"]
+custom_minimum_size = Vector2(83, 77)
+layout_mode = 2
+size_flags_horizontal = 4
+flat = true
+text = ""
+icon = ExtResource("5_icon_succes")
+expand_icon = true
+icon_alignment = 1
+vertical_icon_alignment = 1
+tooltip_text = "Succès"
+
+[editable path="IconDock"]

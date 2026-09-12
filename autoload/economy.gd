@@ -8,18 +8,20 @@ const Rarity = CardRarity.Rarity
 
 signal balance_changed(rarity: Rarity, new_amount: int)
 
-## DEV/TEST : allocation de depart pour pouvoir tester toute la boutique (les 5 coffres) et
-## l'obtention de cartes sans devoir farmer des packs. Relevee de 1000 a 10000 le 2026-08-01
-## (retour utilisateur) pour avoir largement de quoi tester les cartes et la boutique. A remettre
-## a 0 avant une vraie sortie du jeu.
-const STARTING_BALANCE_FOR_TESTING := 10000
+## Solde de depart d'un compte (2026-09-05, retour utilisateur : "reinitialise le nombre de
+## pieces pour tous les nouveaux comptes crees") : remis a 0, comme prevu de longue date (voir
+## l'ancien commentaire ci-dessous, conserve pour l'historique). Etait a 10000 depuis le
+## 2026-08-01 (retour utilisateur de l'epoque : "avoir largement de quoi tester les cartes et la
+## boutique") - facilite de dev/test qui n'a plus lieu d'etre, chaque compte etant desormais cense
+## partir a zero.
+const STARTING_BALANCE := 0
 
 var _balances: Dictionary = {
-	Rarity.COMMON: STARTING_BALANCE_FOR_TESTING,
-	Rarity.UNCOMMON: STARTING_BALANCE_FOR_TESTING,
-	Rarity.RARE: STARTING_BALANCE_FOR_TESTING,
-	Rarity.EPIC: STARTING_BALANCE_FOR_TESTING,
-	Rarity.LEGENDARY: STARTING_BALANCE_FOR_TESTING,
+	Rarity.COMMON: STARTING_BALANCE,
+	Rarity.UNCOMMON: STARTING_BALANCE,
+	Rarity.RARE: STARTING_BALANCE,
+	Rarity.EPIC: STARTING_BALANCE,
+	Rarity.LEGENDARY: STARTING_BALANCE,
 }
 
 func get_balance(rarity: Rarity) -> int:
@@ -39,10 +41,13 @@ func try_spend(rarity: Rarity, amount: int) -> bool:
 	balance_changed.emit(rarity, _balances[rarity])
 	return true
 
-## Remet chaque solde a la valeur de depart (voir SaveManager.reset_progress).
+## Remet chaque solde a la valeur de depart (0, voir STARTING_BALANCE) - utilise a la fois par
+## SaveManager.create_account() (nouveau compte) et SaveManager.reset_current_account_progress()
+## (reinitialisation de la progression d'un compte existant, derriere le portail parental) : les
+## deux doivent repartir de zero de la meme facon.
 func reset() -> void:
 	for rarity in _balances.keys():
-		_balances[rarity] = STARTING_BALANCE_FOR_TESTING
+		_balances[rarity] = STARTING_BALANCE
 		balance_changed.emit(rarity, _balances[rarity])
 
 ## Instantane serialisable pour la sauvegarde (voir SaveManager). Les cles Dictionary de

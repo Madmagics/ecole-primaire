@@ -10,7 +10,9 @@
 [ext_resource type="Resource" uid="uid://bt8qcuq6uuiuy" path="res://data/card/resources/21.tres" id="5_fyvd2"]
 [ext_resource type="Resource" uid="uid://5200xg8gb8kp" path="res://data/card/resources/111.tres" id="6_4ke1v"]
 [ext_resource type="Resource" uid="uid://cxgfm1dth4fvo" path="res://data/card/resources/26.tres" id="6_wc5go"]
+[ext_resource type="Resource" path="res://data/card/resources/116.tres" id="7_4ke1v"]
 [ext_resource type="Resource" uid="uid://hunqfjg87gvc" path="res://data/card/resources/31.tres" id="7_jdo66"]
+[ext_resource type="Resource" path="res://data/card/resources/121.tres" id="8_j0vai"]
 [ext_resource type="Resource" uid="uid://baxpnt43vnaye" path="res://data/card/resources/36.tres" id="8_ruqfv"]
 [ext_resource type="Resource" uid="uid://ds3btl5jrmaiv" path="res://data/card/resources/41.tres" id="9_71uem"]
 [ext_resource type="Resource" uid="uid://d4h22txb1aiuf" path="res://data/card/resources/46.tres" id="10_l2d27"]
@@ -26,101 +28,109 @@
 [ext_resource type="Resource" uid="uid://d1ak0pv3j06gc" path="res://data/card/resources/91.tres" id="23_3cc0v"]
 [ext_resource type="Resource" uid="uid://c3fymeyjx7atc" path="res://data/card/resources/96.tres" id="24_jpty8"]
 
-[sub_resource type="Resource" id="Resource_gkl4o"]
+[sub_resource type="Resource" id="Resource_q4h4h"]
 script = ExtResource("1_p16lv")
 card = ExtResource("2_050rm")
 
-[sub_resource type="Resource" id="Resource_tuu4d"]
+[sub_resource type="Resource" id="Resource_tlqup"]
 script = ExtResource("1_p16lv")
 card = ExtResource("3_gkl4o")
 
-[sub_resource type="Resource" id="Resource_4ke1v"]
+[sub_resource type="Resource" id="Resource_48xk0"]
 script = ExtResource("1_p16lv")
 card = ExtResource("4_tuu4d")
 
-[sub_resource type="Resource" id="Resource_j0vai"]
+[sub_resource type="Resource" id="Resource_3pp1q"]
 script = ExtResource("1_p16lv")
 card = ExtResource("3_kfnse")
 
-[sub_resource type="Resource" id="Resource_q4h4h"]
+[sub_resource type="Resource" id="Resource_ws20l"]
 script = ExtResource("1_p16lv")
 card = ExtResource("6_4ke1v")
 
-[sub_resource type="Resource" id="Resource_tlqup"]
-script = ExtResource("1_p16lv")
-card = ExtResource("4_e3p55")
-
-[sub_resource type="Resource" id="Resource_48xk0"]
-script = ExtResource("1_p16lv")
-card = ExtResource("5_fyvd2")
-
-[sub_resource type="Resource" id="Resource_3pp1q"]
-script = ExtResource("1_p16lv")
-card = ExtResource("6_wc5go")
-
-[sub_resource type="Resource" id="Resource_ws20l"]
-script = ExtResource("1_p16lv")
-card = ExtResource("7_jdo66")
-
 [sub_resource type="Resource" id="Resource_k7dgr"]
 script = ExtResource("1_p16lv")
-card = ExtResource("8_ruqfv")
+card = ExtResource("7_4ke1v")
 
 [sub_resource type="Resource" id="Resource_ty1b1"]
 script = ExtResource("1_p16lv")
-card = ExtResource("9_71uem")
+card = ExtResource("8_j0vai")
 
 [sub_resource type="Resource" id="Resource_3cc0v"]
 script = ExtResource("1_p16lv")
-card = ExtResource("10_l2d27")
+card = ExtResource("4_e3p55")
 
 [sub_resource type="Resource" id="Resource_jpty8"]
 script = ExtResource("1_p16lv")
-card = ExtResource("14_j0vai")
+card = ExtResource("5_fyvd2")
 
 [sub_resource type="Resource" id="Resource_y0hxa"]
 script = ExtResource("1_p16lv")
-card = ExtResource("15_q4h4h")
+card = ExtResource("6_wc5go")
 
 [sub_resource type="Resource" id="Resource_m6tp7"]
 script = ExtResource("1_p16lv")
-card = ExtResource("11_6t17g")
+card = ExtResource("7_jdo66")
 
 [sub_resource type="Resource" id="Resource_7vln2"]
 script = ExtResource("1_p16lv")
-card = ExtResource("17_tlqup")
+card = ExtResource("8_ruqfv")
 
 [sub_resource type="Resource" id="Resource_03y8w"]
 script = ExtResource("1_p16lv")
-card = ExtResource("18_48xk0")
+card = ExtResource("9_71uem")
 
 [sub_resource type="Resource" id="Resource_cnkmx"]
 script = ExtResource("1_p16lv")
-card = ExtResource("19_3pp1q")
+card = ExtResource("10_l2d27")
 
 [sub_resource type="Resource" id="Resource_gfdbu"]
 script = ExtResource("1_p16lv")
-card = ExtResource("20_ws20l")
+card = ExtResource("14_j0vai")
 
 [sub_resource type="Resource" id="Resource_s2gys"]
 script = ExtResource("1_p16lv")
-card = ExtResource("21_k7dgr")
+card = ExtResource("15_q4h4h")
 
 [sub_resource type="Resource" id="Resource_p7bcc"]
 script = ExtResource("1_p16lv")
-card = ExtResource("22_ty1b1")
+card = ExtResource("11_6t17g")
 
 [sub_resource type="Resource" id="Resource_061ab"]
 script = ExtResource("1_p16lv")
-card = ExtResource("23_3cc0v")
+card = ExtResource("17_tlqup")
 
 [sub_resource type="Resource" id="Resource_7q37u"]
+script = ExtResource("1_p16lv")
+card = ExtResource("18_48xk0")
+
+[sub_resource type="Resource" id="Resource_ahmnk"]
+script = ExtResource("1_p16lv")
+card = ExtResource("19_3pp1q")
+
+[sub_resource type="Resource" id="Resource_bih2n"]
+script = ExtResource("1_p16lv")
+card = ExtResource("20_ws20l")
+
+[sub_resource type="Resource" id="Resource_odrr4"]
+script = ExtResource("1_p16lv")
+card = ExtResource("21_k7dgr")
+
+[sub_resource type="Resource" id="Resource_ttu0c"]
+script = ExtResource("1_p16lv")
+card = ExtResource("22_ty1b1")
+
+[sub_resource type="Resource" id="Resource_nb5bi"]
+script = ExtResource("1_p16lv")
+card = ExtResource("23_3cc0v")
+
+[sub_resource type="Resource" id="Resource_vidvt"]
 script = ExtResource("1_p16lv")
 card = ExtResource("24_jpty8")
 
 [resource]
 script = ExtResource("2_jqlpe")
-crate_name = "Commune"
+crate_name = "CP"
 crate_price = 20
-entries = Array[ExtResource("1_p16lv")]([SubResource("Resource_gkl4o"), SubResource("Resource_tuu4d"), SubResource("Resource_4ke1v"), SubResource("Resource_j0vai"), SubResource("Resource_q4h4h"), SubResource("Resource_tlqup"), SubResource("Resource_48xk0"), SubResource("Resource_3pp1q"), SubResource("Resource_ws20l"), SubResource("Resource_k7dgr"), SubResource("Resource_ty1b1"), SubResource("Resource_3cc0v"), SubResource("Resource_jpty8"), SubResource("Resource_y0hxa"), SubResource("Resource_m6tp7"), SubResource("Resource_7vln2"), SubResource("Resource_03y8w"), SubResource("Resource_cnkmx"), SubResource("Resource_gfdbu"), SubResource("Resource_s2gys"), SubResource("Resource_p7bcc"), SubResource("Resource_061ab"), SubResource("Resource_7q37u")])
+entries = Array[ExtResource("1_p16lv")]([SubResource("Resource_q4h4h"), SubResource("Resource_tlqup"), SubResource("Resource_48xk0"), SubResource("Resource_3pp1q"), SubResource("Resource_ws20l"), SubResource("Resource_k7dgr"), SubResource("Resource_ty1b1"), SubResource("Resource_3cc0v"), SubResource("Resource_jpty8"), SubResource("Resource_y0hxa"), SubResource("Resource_m6tp7"), SubResource("Resource_7vln2"), SubResource("Resource_03y8w"), SubResource("Resource_cnkmx"), SubResource("Resource_gfdbu"), SubResource("Resource_s2gys"), SubResource("Resource_p7bcc"), SubResource("Resource_061ab"), SubResource("Resource_7q37u"), SubResource("Resource_ahmnk"), SubResource("Resource_bih2n"), SubResource("Resource_odrr4"), SubResource("Resource_ttu0c"), SubResource("Resource_nb5bi"), SubResource("Resource_vidvt")])
 metadata/_custom_type_script = "uid://d24av07ikqoir"

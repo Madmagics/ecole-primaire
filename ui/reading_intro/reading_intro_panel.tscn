@@ -33,12 +33,24 @@ theme_override_constants/margin_bottom = 28
 layout_mode = 2
 theme_override_constants/separation = 18
 
-[node name="TitleLabel" type="Label" parent="Panel/Margin/Content"]
+[node name="HeaderRow" type="HBoxContainer" parent="Panel/Margin/Content"]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="TitleLabel" type="Label" parent="Panel/Margin/Content/HeaderRow"]
 theme_type_variation = &"TitleLabel"
 layout_mode = 2
+size_flags_horizontal = 3
 text = "Découvre cette histoire puis réponds aux questions."
 autowrap_mode = 2
 horizontal_alignment = 1
+
+[node name="CloseButton" type="Button" parent="Panel/Margin/Content/HeaderRow"]
+theme_type_variation = &"CloseButton"
+custom_minimum_size = Vector2(28, 28)
+layout_mode = 2
+size_flags_vertical = 0
+text = "X"
 
 [node name="TextScroll" type="ScrollContainer" parent="Panel/Margin/Content"]
 layout_mode = 2

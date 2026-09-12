@@ -146,156 +146,156 @@ choices = Array[String](["19,90", "17,90", "19,00"])
 [sub_resource type="Resource" id="Resource_pxngn"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 13 x 6 ?"
-correct_answer = "78"
-choices = Array[String](["68", "76", "88"])
+text = "Combien font 82 x 70 ?"
+correct_answer = "5740"
+choices = Array[String](["5790", "5690", "5750"])
 
 [sub_resource type="Resource" id="Resource_sfthd"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 16 x 3 ?"
-correct_answer = "48"
-choices = Array[String](["53", "45", "49"])
+text = "Combien font 375 x 12 ?"
+correct_answer = "4500"
+choices = Array[String](["4499", "4520", "4498"])
 
 [sub_resource type="Resource" id="Resource_shtp0"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 12 x 6 ?"
-correct_answer = "72"
-choices = Array[String](["82", "75", "62"])
+text = "Combien font 86 x 2 ?"
+correct_answer = "172"
+choices = Array[String](["171", "177", "182"])
 
 [sub_resource type="Resource" id="Resource_35a78"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 13 x 4 ?"
-correct_answer = "52"
-choices = Array[String](["54", "57", "62"])
+text = "Combien font 46 x 63 ?"
+correct_answer = "2898"
+choices = Array[String](["2900", "2609", "3187"])
 
 [sub_resource type="Resource" id="Resource_jy6uc"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 4 x 9 ?"
-correct_answer = "36"
-choices = Array[String](["46", "38", "26"])
+text = "Combien font 59 x 4 ?"
+correct_answer = "236"
+choices = Array[String](["235", "238", "256"])
 
 [sub_resource type="Resource" id="Resource_86rsd"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 18 x 2 ?"
-correct_answer = "36"
-choices = Array[String](["39", "38", "26"])
+text = "Combien font 44 x 12 ?"
+correct_answer = "528"
+choices = Array[String](["518", "508", "526"])
 
 [sub_resource type="Resource" id="Resource_i58m2"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 12 x 3 ?"
-correct_answer = "36"
-choices = Array[String](["39", "33", "38"])
+text = "Combien font 32 x 19 ?"
+correct_answer = "608"
+choices = Array[String](["588", "613", "668"])
 
 [sub_resource type="Resource" id="Resource_vx65t"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 13 x 9 ?"
-correct_answer = "117"
-choices = Array[String](["114", "115", "116"])
+text = "Combien font 85 x 11 ?"
+correct_answer = "935"
+choices = Array[String](["940", "930", "925"])
 
 [sub_resource type="Resource" id="Resource_8p3d2"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 13 x 8 ?"
-correct_answer = "104"
-choices = Array[String](["103", "107", "109"])
+text = "Combien font 206 x 11 ?"
+correct_answer = "2266"
+choices = Array[String](["2268", "2216", "2286"])
 
 [sub_resource type="Resource" id="Resource_voeh7"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 4 x 3 ?"
-correct_answer = "12"
-choices = Array[String](["10", "11", "22"])
+text = "Combien font 49 x 9 ?"
+correct_answer = "441"
+choices = Array[String](["485", "446", "440"])
 
 [sub_resource type="Resource" id="Resource_lpn2n"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 16 x 7 ?"
-correct_answer = "112"
-choices = Array[String](["122", "111", "113"])
+text = "Combien font 119 x 10 ?"
+correct_answer = "1190"
+choices = Array[String](["1185", "1210", "1309"])
 
 [sub_resource type="Resource" id="Resource_uj3ar"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 9 x 12 ?"
-correct_answer = "108"
-choices = Array[String](["111", "106", "98"])
+text = "Combien font 94 x 89 ?"
+correct_answer = "8366"
+choices = Array[String](["8316", "8376", "8386"])
 
 [sub_resource type="Resource" id="Resource_6ywdr"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 5 x 18 ?"
-correct_answer = "90"
-choices = Array[String](["92", "93", "100"])
+text = "Combien font 58 x 78 ?"
+correct_answer = "4524"
+choices = Array[String](["4522", "4525", "4072"])
 
 [sub_resource type="Resource" id="Resource_1acre"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 16 x 2 ?"
-correct_answer = "32"
-choices = Array[String](["37", "34", "33"])
+text = "Combien font 70 x 13 ?"
+correct_answer = "910"
+choices = Array[String](["930", "908", "920"])
 
 [sub_resource type="Resource" id="Resource_v8v1g"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 4 x 5 ?"
-correct_answer = "20"
-choices = Array[String](["10", "30", "19"])
+text = "Combien font 379 x 7 ?"
+correct_answer = "2653"
+choices = Array[String](["2703", "2643", "2658"])
 
 [sub_resource type="Resource" id="Resource_8sj2v"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 17 x 12 ?"
-correct_answer = "204"
-choices = Array[String](["199", "203", "206"])
+text = "Combien font 89 x 14 ?"
+correct_answer = "1246"
+choices = Array[String](["1122", "1236", "1251"])
 
 [sub_resource type="Resource" id="Resource_uechp"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 9 x 19 ?"
-correct_answer = "171"
-choices = Array[String](["176", "166", "169"])
+text = "Combien font 99 x 85 ?"
+correct_answer = "8415"
+choices = Array[String](["8395", "8425", "8410"])
 
 [sub_resource type="Resource" id="Resource_ae2x2"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 10 x 11 ?"
-correct_answer = "110"
-choices = Array[String](["115", "112", "105"])
+text = "Combien font 24 x 17 ?"
+correct_answer = "408"
+choices = Array[String](["406", "428", "418"])
 
 [sub_resource type="Resource" id="Resource_bmi1i"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 19 x 19 ?"
-correct_answer = "361"
-choices = Array[String](["362", "364", "356"])
+text = "Combien font 53 x 16 ?"
+correct_answer = "848"
+choices = Array[String](["850", "828", "849"])
 
 [sub_resource type="Resource" id="Resource_a5phy"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 3 x 9 ?"
-correct_answer = "27"
-choices = Array[String](["32", "17", "24"])
+text = "Combien font 28 x 74 ?"
+correct_answer = "2072"
+choices = Array[String](["2279", "2052", "1865"])
 
 [sub_resource type="Resource" id="Resource_op57s"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 17 x 14 ?"
-correct_answer = "238"
-choices = Array[String](["237", "240", "233"])
+text = "Combien font 73 x 12 ?"
+correct_answer = "876"
+choices = Array[String](["926", "963", "874"])
 
 [sub_resource type="Resource" id="Resource_xbkti"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 15 x 8 ?"
-correct_answer = "120"
-choices = Array[String](["122", "115", "119"])
+text = "Combien font 83 x 13 ?"
+correct_answer = "1079"
+choices = Array[String](["1186", "1059", "1074"])
 
 [sub_resource type="Resource" id="Resource_ft3d7"]
 script = ExtResource("1_4gkxw")
@@ -2386,912 +2386,912 @@ choices = Array[String](["10,76", "8,76", "9,86"])
 [sub_resource type="Resource" id="Resource_a4n0o"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 5 x 15 ?"
-correct_answer = "75"
-choices = Array[String](["76", "79", "67"])
+text = "Combien font 93 x 13 ?"
+correct_answer = "1209"
+choices = Array[String](["1089", "1189", "1229"])
 
 [sub_resource type="Resource" id="Resource_l2w5a"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 6 x 13 ?"
-correct_answer = "78"
-choices = Array[String](["73", "64", "89"])
+text = "Combien font 55 x 80 ?"
+correct_answer = "4400"
+choices = Array[String](["3960", "4450", "4405"])
 
 [sub_resource type="Resource" id="Resource_y5a72"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 16 x 13 ?"
-correct_answer = "208"
-choices = Array[String](["209", "206", "210"])
+text = "Combien font 11 x 59 ?"
+correct_answer = "649"
+choices = Array[String](["659", "651", "647"])
 
 [sub_resource type="Resource" id="Resource_1n8km"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 19 x 3 ?"
-correct_answer = "57"
-choices = Array[String](["51", "63", "48"])
+text = "Combien font 21 x 11 ?"
+correct_answer = "231"
+choices = Array[String](["241", "281", "221"])
 
 [sub_resource type="Resource" id="Resource_nfm3e"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 13 x 3 ?"
-correct_answer = "39"
-choices = Array[String](["52", "27", "53"])
+text = "Combien font 37 x 4 ?"
+correct_answer = "148"
+choices = Array[String](["138", "98", "128"])
 
 [sub_resource type="Resource" id="Resource_1vibl"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 19 x 15 ?"
-correct_answer = "285"
-choices = Array[String](["295", "291", "296"])
+text = "Combien font 66 x 18 ?"
+correct_answer = "1188"
+choices = Array[String](["1198", "1189", "1178"])
 
 [sub_resource type="Resource" id="Resource_hwkjx"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 4 x 14 ?"
-correct_answer = "56"
-choices = Array[String](["43", "49", "51"])
+text = "Combien font 77 x 10 ?"
+correct_answer = "770"
+choices = Array[String](["765", "693", "772"])
 
 [sub_resource type="Resource" id="Resource_etkye"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 11 x 7 ?"
-correct_answer = "77"
-choices = Array[String](["64", "87", "71"])
+text = "Combien font 83 x 26 ?"
+correct_answer = "2158"
+choices = Array[String](["2159", "2163", "2153"])
 
 [sub_resource type="Resource" id="Resource_i4l2r"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 5 x 20 ?"
-correct_answer = "100"
-choices = Array[String](["106", "99", "110"])
+text = "Combien font 322 x 9 ?"
+correct_answer = "2898"
+choices = Array[String](["2878", "2900", "2948"])
 
 [sub_resource type="Resource" id="Resource_v5w6u"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 3 x 20 ?"
-correct_answer = "60"
-choices = Array[String](["64", "53", "72"])
+text = "Combien font 98 x 47 ?"
+correct_answer = "4606"
+choices = Array[String](["4616", "4626", "4608"])
 
 [sub_resource type="Resource" id="Resource_dpcpn"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 9 x 11 ?"
-correct_answer = "99"
-choices = Array[String](["114", "101", "91"])
+text = "Combien font 99 x 18 ?"
+correct_answer = "1782"
+choices = Array[String](["1780", "1960", "1772"])
 
 [sub_resource type="Resource" id="Resource_s2l66"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 20 x 10 ?"
-correct_answer = "200"
-choices = Array[String](["193", "206", "212"])
+text = "Combien font 88 x 20 ?"
+correct_answer = "1760"
+choices = Array[String](["1710", "1750", "1761"])
 
 [sub_resource type="Resource" id="Resource_3tjrp"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 17 x 13 ?"
-correct_answer = "221"
-choices = Array[String](["213", "229", "225"])
+text = "Combien font 222 x 4 ?"
+correct_answer = "888"
+choices = Array[String](["890", "889", "886"])
 
 [sub_resource type="Resource" id="Resource_g3ssl"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 19 x 2 ?"
-correct_answer = "38"
-choices = Array[String](["52", "30", "32"])
+text = "Combien font 391 x 12 ?"
+correct_answer = "4692"
+choices = Array[String](["4642", "4694", "4697"])
 
 [sub_resource type="Resource" id="Resource_7c04s"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 19 x 10 ?"
-correct_answer = "190"
-choices = Array[String](["197", "175", "185"])
+text = "Combien font 88 x 18 ?"
+correct_answer = "1584"
+choices = Array[String](["1579", "1742", "1589"])
 
 [sub_resource type="Resource" id="Resource_l6rpw"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 3 x 16 ?"
-correct_answer = "48"
-choices = Array[String](["36", "46", "44"])
+text = "Combien font 336 x 3 ?"
+correct_answer = "1008"
+choices = Array[String](["988", "1028", "1009"])
 
 [sub_resource type="Resource" id="Resource_an80t"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 7 x 20 ?"
-correct_answer = "140"
-choices = Array[String](["146", "125", "150"])
+text = "Combien font 33 x 15 ?"
+correct_answer = "495"
+choices = Array[String](["515", "494", "545"])
 
 [sub_resource type="Resource" id="Resource_25yks"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 15 x 14 ?"
-correct_answer = "210"
-choices = Array[String](["224", "203", "208"])
+text = "Combien font 34 x 18 ?"
+correct_answer = "612"
+choices = Array[String](["610", "613", "602"])
 
 [sub_resource type="Resource" id="Resource_0hqqw"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 15 x 16 ?"
-correct_answer = "240"
-choices = Array[String](["229", "243", "249"])
+text = "Combien font 34 x 20 ?"
+correct_answer = "680"
+choices = Array[String](["690", "682", "678"])
 
 [sub_resource type="Resource" id="Resource_n00dx"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 7 x 19 ?"
-correct_answer = "133"
-choices = Array[String](["130", "132", "147"])
+text = "Combien font 95 x 62 ?"
+correct_answer = "5890"
+choices = Array[String](["5301", "5895", "6479"])
 
 [sub_resource type="Resource" id="Resource_05vg6"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 11 x 5 ?"
-correct_answer = "55"
-choices = Array[String](["65", "51", "52"])
+text = "Combien font 155 x 5 ?"
+correct_answer = "775"
+choices = Array[String](["770", "825", "774"])
 
 [sub_resource type="Resource" id="Resource_gl53w"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 14 x 6 ?"
-correct_answer = "84"
-choices = Array[String](["94", "97", "73"])
+text = "Combien font 75 x 15 ?"
+correct_answer = "1125"
+choices = Array[String](["1127", "1120", "1237"])
 
 [sub_resource type="Resource" id="Resource_seesw"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 4 x 12 ?"
-correct_answer = "48"
-choices = Array[String](["45", "40", "52"])
+text = "Combien font 87 x 18 ?"
+correct_answer = "1566"
+choices = Array[String](["1567", "1565", "1561"])
 
 [sub_resource type="Resource" id="Resource_15ivp"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 11 x 8 ?"
-correct_answer = "88"
-choices = Array[String](["93", "84", "76"])
+text = "Combien font 46 x 11 ?"
+correct_answer = "506"
+choices = Array[String](["511", "526", "505"])
 
 [sub_resource type="Resource" id="Resource_x68hg"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 20 x 5 ?"
-correct_answer = "100"
-choices = Array[String](["108", "97", "90"])
+text = "Combien font 263 x 3 ?"
+correct_answer = "789"
+choices = Array[String](["739", "791", "784"])
 
 [sub_resource type="Resource" id="Resource_jorw0"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 12 x 5 ?"
-correct_answer = "60"
-choices = Array[String](["51", "59", "68"])
+text = "Combien font 313 x 9 ?"
+correct_answer = "2817"
+choices = Array[String](["2767", "2827", "2822"])
 
 [sub_resource type="Resource" id="Resource_g3hd5"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 5 x 17 ?"
-correct_answer = "85"
-choices = Array[String](["82", "80", "86"])
+text = "Combien font 97 x 15 ?"
+correct_answer = "1455"
+choices = Array[String](["1505", "1465", "1310"])
 
 [sub_resource type="Resource" id="Resource_hby40"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 6 x 16 ?"
-correct_answer = "96"
-choices = Array[String](["107", "103", "108"])
+text = "Combien font 89 x 98 ?"
+correct_answer = "8722"
+choices = Array[String](["8712", "8723", "8724"])
 
 [sub_resource type="Resource" id="Resource_jhsmv"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 2 x 14 ?"
-correct_answer = "28"
-choices = Array[String](["38", "43", "17"])
+text = "Combien font 11 x 10 ?"
+correct_answer = "110"
+choices = Array[String](["130", "100", "105"])
 
 [sub_resource type="Resource" id="Resource_td8rb"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 13 x 2 ?"
-correct_answer = "26"
-choices = Array[String](["18", "31", "41"])
+text = "Combien font 90 x 13 ?"
+correct_answer = "1170"
+choices = Array[String](["1172", "1220", "1180"])
 
 [sub_resource type="Resource" id="Resource_3lr3k"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 14 x 11 ?"
-correct_answer = "154"
-choices = Array[String](["168", "155", "145"])
+text = "Combien font 44 x 60 ?"
+correct_answer = "2640"
+choices = Array[String](["2641", "2650", "2690"])
 
 [sub_resource type="Resource" id="Resource_22tc3"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 9 x 16 ?"
-correct_answer = "144"
-choices = Array[String](["140", "137", "133"])
+text = "Combien font 69 x 12 ?"
+correct_answer = "828"
+choices = Array[String](["778", "826", "833"])
 
 [sub_resource type="Resource" id="Resource_vqqiy"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 8 x 17 ?"
-correct_answer = "136"
-choices = Array[String](["126", "151", "142"])
+text = "Combien font 29 x 39 ?"
+correct_answer = "1131"
+choices = Array[String](["1132", "1141", "1151"])
 
 [sub_resource type="Resource" id="Resource_1ia46"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 15 x 7 ?"
-correct_answer = "105"
-choices = Array[String](["117", "95", "109"])
+text = "Combien font 39 x 62 ?"
+correct_answer = "2418"
+choices = Array[String](["2428", "2468", "2408"])
 
 [sub_resource type="Resource" id="Resource_fge43"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 19 x 9 ?"
-correct_answer = "171"
-choices = Array[String](["183", "166", "175"])
+text = "Combien font 79 x 6 ?"
+correct_answer = "474"
+choices = Array[String](["472", "479", "469"])
 
 [sub_resource type="Resource" id="Resource_s5ukf"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 15 x 9 ?"
-correct_answer = "135"
-choices = Array[String](["139", "127", "138"])
+text = "Combien font 83 x 48 ?"
+correct_answer = "3984"
+choices = Array[String](["3982", "4382", "3979"])
 
 [sub_resource type="Resource" id="Resource_cnp8h"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 17 x 6 ?"
-correct_answer = "102"
-choices = Array[String](["94", "99", "111"])
+text = "Combien font 50 x 4 ?"
+correct_answer = "200"
+choices = Array[String](["180", "205", "220"])
 
 [sub_resource type="Resource" id="Resource_e0vpo"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 12 x 18 ?"
-correct_answer = "216"
-choices = Array[String](["228", "201", "220"])
+text = "Combien font 53 x 97 ?"
+correct_answer = "5141"
+choices = Array[String](["5146", "5139", "5121"])
 
 [sub_resource type="Resource" id="Resource_axh4g"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 14 x 10 ?"
-correct_answer = "140"
-choices = Array[String](["136", "142", "153"])
+text = "Combien font 79 x 2 ?"
+correct_answer = "158"
+choices = Array[String](["163", "208", "160"])
 
 [sub_resource type="Resource" id="Resource_pux6i"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 7 x 13 ?"
-correct_answer = "91"
-choices = Array[String](["89", "90", "76"])
+text = "Combien font 60 x 65 ?"
+correct_answer = "3900"
+choices = Array[String](["3910", "3898", "3950"])
 
 [sub_resource type="Resource" id="Resource_3l8o2"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 18 x 6 ?"
-correct_answer = "108"
-choices = Array[String](["123", "99", "96"])
+text = "Combien font 346 x 2 ?"
+correct_answer = "692"
+choices = Array[String](["742", "693", "702"])
 
 [sub_resource type="Resource" id="Resource_52qib"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 3 x 18 ?"
-correct_answer = "54"
-choices = Array[String](["39", "63", "44"])
+text = "Combien font 61 x 7 ?"
+correct_answer = "427"
+choices = Array[String](["407", "422", "426"])
 
 [sub_resource type="Resource" id="Resource_2ca1h"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 18 x 20 ?"
-correct_answer = "360"
-choices = Array[String](["366", "348", "361"])
+text = "Combien font 38 x 28 ?"
+correct_answer = "1064"
+choices = Array[String](["1044", "1066", "1014"])
 
 [sub_resource type="Resource" id="Resource_v3yuu"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 10 x 14 ?"
-correct_answer = "140"
-choices = Array[String](["153", "144", "145"])
+text = "Combien font 63 x 7 ?"
+correct_answer = "441"
+choices = Array[String](["440", "442", "439"])
 
 [sub_resource type="Resource" id="Resource_vj7c8"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 5 x 16 ?"
-correct_answer = "80"
-choices = Array[String](["85", "67", "75"])
+text = "Combien font 33 x 11 ?"
+correct_answer = "363"
+choices = Array[String](["383", "353", "313"])
 
 [sub_resource type="Resource" id="Resource_jh7ww"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 11 x 20 ?"
-correct_answer = "220"
-choices = Array[String](["211", "205", "233"])
+text = "Combien font 196 x 8 ?"
+correct_answer = "1568"
+choices = Array[String](["1588", "1563", "1724"])
 
 [sub_resource type="Resource" id="Resource_j4wro"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 7 x 15 ?"
-correct_answer = "105"
-choices = Array[String](["93", "94", "118"])
+text = "Combien font 82 x 50 ?"
+correct_answer = "4100"
+choices = Array[String](["4120", "4110", "3690"])
 
 [sub_resource type="Resource" id="Resource_v3tev"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 14 x 19 ?"
-correct_answer = "266"
-choices = Array[String](["270", "251", "263"])
+text = "Combien font 11 x 14 ?"
+correct_answer = "154"
+choices = Array[String](["149", "156", "204"])
 
 [sub_resource type="Resource" id="Resource_ll6ys"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 13 x 5 ?"
-correct_answer = "65"
-choices = Array[String](["62", "53", "69"])
+text = "Combien font 48 x 12 ?"
+correct_answer = "576"
+choices = Array[String](["526", "571", "519"])
 
 [sub_resource type="Resource" id="Resource_ut40l"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 9 x 17 ?"
-correct_answer = "153"
-choices = Array[String](["159", "155", "156"])
+text = "Combien font 91 x 12 ?"
+correct_answer = "1092"
+choices = Array[String](["983", "1090", "1093"])
 
 [sub_resource type="Resource" id="Resource_byquu"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 12 x 19 ?"
-correct_answer = "228"
-choices = Array[String](["227", "229", "236"])
+text = "Combien font 337 x 11 ?"
+correct_answer = "3707"
+choices = Array[String](["3702", "3712", "3697"])
 
 [sub_resource type="Resource" id="Resource_q1am8"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 18 x 10 ?"
-correct_answer = "180"
-choices = Array[String](["182", "193", "184"])
+text = "Combien font 28 x 14 ?"
+correct_answer = "392"
+choices = Array[String](["390", "394", "353"])
 
 [sub_resource type="Resource" id="Resource_bogau"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 5 x 11 ?"
-correct_answer = "55"
-choices = Array[String](["40", "57", "48"])
+text = "Combien font 50 x 94 ?"
+correct_answer = "4700"
+choices = Array[String](["4705", "4230", "4680"])
 
 [sub_resource type="Resource" id="Resource_kn34g"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 2 x 13 ?"
-correct_answer = "26"
-choices = Array[String](["22", "13", "18"])
+text = "Combien font 56 x 89 ?"
+correct_answer = "4984"
+choices = Array[String](["4994", "4934", "4974"])
 
 [sub_resource type="Resource" id="Resource_ifx0j"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 18 x 7 ?"
-correct_answer = "126"
-choices = Array[String](["112", "114", "118"])
+text = "Combien font 64 x 53 ?"
+correct_answer = "3392"
+choices = Array[String](["3390", "3442", "3394"])
 
 [sub_resource type="Resource" id="Resource_c4hjg"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 15 x 17 ?"
-correct_answer = "255"
-choices = Array[String](["244", "270", "252"])
+text = "Combien font 53 x 87 ?"
+correct_answer = "4611"
+choices = Array[String](["4150", "4631", "4661"])
 
 [sub_resource type="Resource" id="Resource_x2xv1"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 6 x 11 ?"
-correct_answer = "66"
-choices = Array[String](["71", "52", "54"])
+text = "Combien font 95 x 28 ?"
+correct_answer = "2660"
+choices = Array[String](["2650", "2610", "2394"])
 
 [sub_resource type="Resource" id="Resource_5ol0n"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 19 x 17 ?"
-correct_answer = "323"
-choices = Array[String](["314", "319", "329"])
+text = "Combien font 307 x 4 ?"
+correct_answer = "1228"
+choices = Array[String](["1178", "1238", "1278"])
 
 [sub_resource type="Resource" id="Resource_4vrv7"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 17 x 17 ?"
-correct_answer = "289"
-choices = Array[String](["282", "303", "294"])
+text = "Combien font 63 x 90 ?"
+correct_answer = "5670"
+choices = Array[String](["5665", "5669", "5672"])
 
 [sub_resource type="Resource" id="Resource_8icci"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 6 x 19 ?"
-correct_answer = "114"
-choices = Array[String](["105", "108", "111"])
+text = "Combien font 66 x 64 ?"
+correct_answer = "4224"
+choices = Array[String](["4223", "4214", "4222"])
 
 [sub_resource type="Resource" id="Resource_pvx13"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 18 x 17 ?"
-correct_answer = "306"
-choices = Array[String](["291", "310", "303"])
+text = "Combien font 41 x 18 ?"
+correct_answer = "738"
+choices = Array[String](["733", "811", "688"])
 
 [sub_resource type="Resource" id="Resource_ffqon"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 3 x 13 ?"
-correct_answer = "39"
-choices = Array[String](["33", "35", "49"])
+text = "Combien font 63 x 20 ?"
+correct_answer = "1260"
+choices = Array[String](["1210", "1255", "1134"])
 
 [sub_resource type="Resource" id="Resource_68fjc"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 19 x 18 ?"
-correct_answer = "342"
-choices = Array[String](["336", "328", "353"])
+text = "Combien font 224 x 6 ?"
+correct_answer = "1344"
+choices = Array[String](["1478", "1342", "1210"])
 
 [sub_resource type="Resource" id="Resource_q38bh"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 10 x 16 ?"
-correct_answer = "160"
-choices = Array[String](["161", "166", "162"])
+text = "Combien font 260 x 6 ?"
+correct_answer = "1560"
+choices = Array[String](["1610", "1510", "1580"])
 
 [sub_resource type="Resource" id="Resource_ju3ex"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 14 x 14 ?"
-correct_answer = "196"
-choices = Array[String](["187", "197", "192"])
+text = "Combien font 12 x 7 ?"
+correct_answer = "84"
+choices = Array[String](["89", "83", "74"])
 
 [sub_resource type="Resource" id="Resource_o4rdl"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 2 x 18 ?"
-correct_answer = "36"
-choices = Array[String](["22", "51", "44"])
+text = "Combien font 45 x 15 ?"
+correct_answer = "675"
+choices = Array[String](["608", "680", "673"])
 
 [sub_resource type="Resource" id="Resource_a1emh"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 4 x 13 ?"
-correct_answer = "52"
-choices = Array[String](["48", "42", "39"])
+text = "Combien font 74 x 11 ?"
+correct_answer = "814"
+choices = Array[String](["733", "804", "815"])
 
 [sub_resource type="Resource" id="Resource_omlkm"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 11 x 9 ?"
-correct_answer = "99"
-choices = Array[String](["103", "98", "108"])
+text = "Combien font 20 x 67 ?"
+correct_answer = "1340"
+choices = Array[String](["1342", "1335", "1350"])
 
 [sub_resource type="Resource" id="Resource_lushx"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 19 x 14 ?"
-correct_answer = "266"
-choices = Array[String](["253", "275", "271"])
+text = "Combien font 46 x 81 ?"
+correct_answer = "3726"
+choices = Array[String](["3676", "3721", "3731"])
 
 [sub_resource type="Resource" id="Resource_qnq0p"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 17 x 2 ?"
-correct_answer = "34"
-choices = Array[String](["31", "44", "49"])
+text = "Combien font 72 x 15 ?"
+correct_answer = "1080"
+choices = Array[String](["1070", "1075", "1090"])
 
 [sub_resource type="Resource" id="Resource_fnuyw"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 8 x 2 ?"
-correct_answer = "16"
-choices = Array[String](["6", "11", "27"])
+text = "Combien font 43 x 41 ?"
+correct_answer = "1763"
+choices = Array[String](["1813", "1758", "1765"])
 
 [sub_resource type="Resource" id="Resource_pw0nq"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 3 x 5 ?"
-correct_answer = "15"
-choices = Array[String](["6", "26", "19"])
+text = "Combien font 33 x 12 ?"
+correct_answer = "396"
+choices = Array[String](["395", "416", "394"])
 
 [sub_resource type="Resource" id="Resource_xb80f"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 8 x 3 ?"
-correct_answer = "24"
-choices = Array[String](["15", "21", "13"])
+text = "Combien font 79 x 20 ?"
+correct_answer = "1580"
+choices = Array[String](["1575", "1579", "1590"])
 
 [sub_resource type="Resource" id="Resource_wsqt3"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 5 x 5 ?"
-correct_answer = "25"
-choices = Array[String](["28", "21", "26"])
+text = "Combien font 361 x 4 ?"
+correct_answer = "1444"
+choices = Array[String](["1443", "1464", "1588"])
 
 [sub_resource type="Resource" id="Resource_rgdje"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 10 x 2 ?"
-correct_answer = "20"
-choices = Array[String](["30", "25", "22"])
+text = "Combien font 15 x 6 ?"
+correct_answer = "90"
+choices = Array[String](["40", "95", "100"])
 
 [sub_resource type="Resource" id="Resource_xq34h"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 6 x 6 ?"
-correct_answer = "36"
-choices = Array[String](["39", "29", "48"])
+text = "Combien font 70 x 15 ?"
+correct_answer = "1050"
+choices = Array[String](["1052", "1060", "1045"])
 
 [sub_resource type="Resource" id="Resource_wfe0q"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 10 x 10 ?"
-correct_answer = "100"
-choices = Array[String](["89", "99", "96"])
+text = "Combien font 56 x 11 ?"
+correct_answer = "616"
+choices = Array[String](["606", "636", "566"])
 
 [sub_resource type="Resource" id="Resource_1mpji"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 1 x 3 ?"
-correct_answer = "3"
-choices = Array[String](["1", "6", "11"])
+text = "Combien font 37 x 14 ?"
+correct_answer = "518"
+choices = Array[String](["520", "538", "468"])
 
 [sub_resource type="Resource" id="Resource_kq2xn"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 2 x 9 ?"
-correct_answer = "18"
-choices = Array[String](["28", "9", "29"])
+text = "Combien font 70 x 50 ?"
+correct_answer = "3500"
+choices = Array[String](["3480", "3499", "3510"])
 
 [sub_resource type="Resource" id="Resource_sukuu"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 10 x 3 ?"
-correct_answer = "30"
-choices = Array[String](["35", "33", "22"])
+text = "Combien font 46 x 90 ?"
+correct_answer = "4140"
+choices = Array[String](["4190", "4139", "4130"])
 
 [sub_resource type="Resource" id="Resource_ntbxp"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 1 x 7 ?"
-correct_answer = "7"
-choices = Array[String](["3", "11", "13"])
+text = "Combien font 223 x 3 ?"
+correct_answer = "669"
+choices = Array[String](["667", "719", "649"])
 
 [sub_resource type="Resource" id="Resource_sswc0"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 9 x 8 ?"
-correct_answer = "72"
-choices = Array[String](["84", "66", "79"])
+text = "Combien font 35 x 30 ?"
+correct_answer = "1050"
+choices = Array[String](["1100", "1045", "1000"])
 
 [sub_resource type="Resource" id="Resource_n1gup"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 6 x 7 ?"
-correct_answer = "42"
-choices = Array[String](["41", "51", "40"])
+text = "Combien font 68 x 96 ?"
+correct_answer = "6528"
+choices = Array[String](["6508", "6523", "6529"])
 
 [sub_resource type="Resource" id="Resource_1ox7f"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 7 x 6 ?"
-correct_answer = "42"
-choices = Array[String](["49", "34", "46"])
+text = "Combien font 55 x 89 ?"
+correct_answer = "4895"
+choices = Array[String](["4875", "4406", "5384"])
 
 [sub_resource type="Resource" id="Resource_ybehl"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 9 x 10 ?"
-correct_answer = "90"
-choices = Array[String](["94", "89", "99"])
+text = "Combien font 57 x 9 ?"
+correct_answer = "513"
+choices = Array[String](["508", "515", "533"])
 
 [sub_resource type="Resource" id="Resource_nvpou"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 6 x 10 ?"
-correct_answer = "60"
-choices = Array[String](["65", "51", "48"])
+text = "Combien font 46 x 39 ?"
+correct_answer = "1794"
+choices = Array[String](["1973", "1793", "1814"])
 
 [sub_resource type="Resource" id="Resource_o432w"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 9 x 9 ?"
-correct_answer = "81"
-choices = Array[String](["73", "72", "70"])
+text = "Combien font 99 x 19 ?"
+correct_answer = "1881"
+choices = Array[String](["1693", "1901", "1871"])
 
 [sub_resource type="Resource" id="Resource_whv0e"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 6 x 5 ?"
-correct_answer = "30"
-choices = Array[String](["32", "20", "36"])
+text = "Combien font 52 x 43 ?"
+correct_answer = "2236"
+choices = Array[String](["2186", "2246", "2226"])
 
 [sub_resource type="Resource" id="Resource_r8bvo"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 5 x 9 ?"
-correct_answer = "45"
-choices = Array[String](["48", "52", "34"])
+text = "Combien font 56 x 2 ?"
+correct_answer = "112"
+choices = Array[String](["107", "162", "102"])
 
 [sub_resource type="Resource" id="Resource_drkof"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 2 x 4 ?"
-correct_answer = "8"
-choices = Array[String](["18", "0", "7"])
+text = "Combien font 58 x 14 ?"
+correct_answer = "812"
+choices = Array[String](["811", "807", "802"])
 
 [sub_resource type="Resource" id="Resource_hbuec"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 9 x 1 ?"
-correct_answer = "9"
-choices = Array[String](["5", "15", "21"])
+text = "Combien font 44 x 98 ?"
+correct_answer = "4312"
+choices = Array[String](["4307", "4292", "4314"])
 
 [sub_resource type="Resource" id="Resource_p4hlp"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 2 x 6 ?"
-correct_answer = "12"
-choices = Array[String](["15", "10", "16"])
+text = "Combien font 24 x 13 ?"
+correct_answer = "312"
+choices = Array[String](["313", "317", "302"])
 
 [sub_resource type="Resource" id="Resource_2rkvy"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 10 x 7 ?"
-correct_answer = "70"
-choices = Array[String](["77", "61", "59"])
+text = "Combien font 47 x 13 ?"
+correct_answer = "611"
+choices = Array[String](["550", "612", "591"])
 
 [sub_resource type="Resource" id="Resource_1p6ax"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 5 x 7 ?"
-correct_answer = "35"
-choices = Array[String](["32", "24", "41"])
+text = "Combien font 26 x 4 ?"
+correct_answer = "104"
+choices = Array[String](["106", "114", "99"])
 
 [sub_resource type="Resource" id="Resource_8b3ae"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 5 x 8 ?"
-correct_answer = "40"
-choices = Array[String](["46", "51", "45"])
+text = "Combien font 61 x 75 ?"
+correct_answer = "4575"
+choices = Array[String](["4595", "4576", "4573"])
 
 [sub_resource type="Resource" id="Resource_8mra6"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 1 x 2 ?"
-correct_answer = "2"
-choices = Array[String](["5", "6", "11"])
+text = "Combien font 26 x 20 ?"
+correct_answer = "520"
+choices = Array[String](["515", "540", "521"])
 
 [sub_resource type="Resource" id="Resource_mvad1"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 1 x 5 ?"
-correct_answer = "5"
-choices = Array[String](["17", "3", "1"])
+text = "Combien font 70 x 20 ?"
+correct_answer = "1400"
+choices = Array[String](["1399", "1401", "1260"])
 
 [sub_resource type="Resource" id="Resource_qe4yk"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 10 x 6 ?"
-correct_answer = "60"
-choices = Array[String](["65", "53", "72"])
+text = "Combien font 160 x 2 ?"
+correct_answer = "320"
+choices = Array[String](["322", "370", "310"])
 
 [sub_resource type="Resource" id="Resource_0k31b"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 7 x 10 ?"
-correct_answer = "70"
-choices = Array[String](["77", "68", "64"])
+text = "Combien font 94 x 47 ?"
+correct_answer = "4418"
+choices = Array[String](["3977", "4423", "4419"])
 
 [sub_resource type="Resource" id="Resource_0f4kv"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 8 x 4 ?"
-correct_answer = "32"
-choices = Array[String](["25", "34", "35"])
+text = "Combien font 24 x 82 ?"
+correct_answer = "1968"
+choices = Array[String](["2164", "1918", "1966"])
 
 [sub_resource type="Resource" id="Resource_tvnyv"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 3 x 7 ?"
-correct_answer = "21"
-choices = Array[String](["29", "16", "33"])
+text = "Combien font 40 x 21 ?"
+correct_answer = "840"
+choices = Array[String](["850", "820", "924"])
 
 [sub_resource type="Resource" id="Resource_7fsvl"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 4 x 4 ?"
-correct_answer = "16"
-choices = Array[String](["9", "13", "20"])
+text = "Combien font 272 x 9 ?"
+correct_answer = "2448"
+choices = Array[String](["2428", "2447", "2443"])
 
 [sub_resource type="Resource" id="Resource_e5bfa"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 10 x 5 ?"
-correct_answer = "50"
-choices = Array[String](["62", "38", "56"])
+text = "Combien font 48 x 42 ?"
+correct_answer = "2016"
+choices = Array[String](["2014", "2026", "2015"])
 
 [sub_resource type="Resource" id="Resource_6ubvw"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 4 x 10 ?"
-correct_answer = "40"
-choices = Array[String](["42", "48", "34"])
+text = "Combien font 49 x 4 ?"
+correct_answer = "196"
+choices = Array[String](["215", "246", "177"])
 
 [sub_resource type="Resource" id="Resource_xlgap"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 9 x 7 ?"
-correct_answer = "63"
-choices = Array[String](["72", "65", "64"])
+text = "Combien font 79 x 96 ?"
+correct_answer = "7584"
+choices = Array[String](["7586", "7582", "7604"])
 
 [sub_resource type="Resource" id="Resource_4506c"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 5 x 1 ?"
-correct_answer = "5"
-choices = Array[String](["4", "1", "17"])
+text = "Combien font 58 x 75 ?"
+correct_answer = "4350"
+choices = Array[String](["4348", "4330", "4349"])
 
 [sub_resource type="Resource" id="Resource_k2ljw"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 9 x 6 ?"
-correct_answer = "54"
-choices = Array[String](["64", "49", "47"])
+text = "Combien font 34 x 38 ?"
+correct_answer = "1292"
+choices = Array[String](["1287", "1302", "1342"])
 
 [sub_resource type="Resource" id="Resource_a5p3v"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 2 x 5 ?"
-correct_answer = "10"
-choices = Array[String](["14", "4", "2"])
+text = "Combien font 13 x 12 ?"
+correct_answer = "156"
+choices = Array[String](["171", "146", "161"])
 
 [sub_resource type="Resource" id="Resource_4hjtf"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 7 x 8 ?"
-correct_answer = "56"
-choices = Array[String](["59", "52", "67"])
+text = "Combien font 51 x 15 ?"
+correct_answer = "765"
+choices = Array[String](["785", "766", "815"])
 
 [sub_resource type="Resource" id="Resource_eemtp"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 6 x 1 ?"
-correct_answer = "6"
-choices = Array[String](["10", "18", "9"])
+text = "Combien font 293 x 12 ?"
+correct_answer = "3516"
+choices = Array[String](["3867", "3515", "3518"])
 
 [sub_resource type="Resource" id="Resource_4o7ms"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 8 x 10 ?"
-correct_answer = "80"
-choices = Array[String](["85", "78", "74"])
+text = "Combien font 70 x 64 ?"
+correct_answer = "4480"
+choices = Array[String](["4475", "4482", "4479"])
 
 [sub_resource type="Resource" id="Resource_egwhp"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 2 x 3 ?"
-correct_answer = "6"
-choices = Array[String](["11", "12", "17"])
+text = "Combien font 86 x 3 ?"
+correct_answer = "258"
+choices = Array[String](["268", "283", "259"])
 
 [sub_resource type="Resource" id="Resource_b8w4q"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 3 x 10 ?"
-correct_answer = "30"
-choices = Array[String](["33", "42", "19"])
+text = "Combien font 72 x 5 ?"
+correct_answer = "360"
+choices = Array[String](["324", "350", "370"])
 
 [sub_resource type="Resource" id="Resource_2gebh"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 4 x 2 ?"
-correct_answer = "8"
-choices = Array[String](["9", "16", "14"])
+text = "Combien font 55 x 69 ?"
+correct_answer = "3795"
+choices = Array[String](["3775", "3845", "3797"])
 
 [sub_resource type="Resource" id="Resource_ny16l"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 10 x 4 ?"
-correct_answer = "40"
-choices = Array[String](["39", "31", "44"])
+text = "Combien font 72 x 9 ?"
+correct_answer = "648"
+choices = Array[String](["643", "646", "653"])
 
 [sub_resource type="Resource" id="Resource_h63kg"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 2 x 7 ?"
-correct_answer = "14"
-choices = Array[String](["3", "7", "19"])
+text = "Combien font 38 x 11 ?"
+correct_answer = "418"
+choices = Array[String](["423", "468", "368"])
 
 [sub_resource type="Resource" id="Resource_38vi0"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 1 x 8 ?"
-correct_answer = "8"
-choices = Array[String](["15", "13", "11"])
+text = "Combien font 35 x 19 ?"
+correct_answer = "665"
+choices = Array[String](["663", "667", "599"])
 
 [sub_resource type="Resource" id="Resource_w5yrd"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 4 x 6 ?"
-correct_answer = "24"
-choices = Array[String](["18", "21", "30"])
+text = "Combien font 85 x 70 ?"
+correct_answer = "5950"
+choices = Array[String](["5940", "5948", "5960"])
 
 [sub_resource type="Resource" id="Resource_uvj6f"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 10 x 1 ?"
-correct_answer = "10"
-choices = Array[String](["16", "9", "7"])
+text = "Combien font 35 x 6 ?"
+correct_answer = "210"
+choices = Array[String](["212", "190", "230"])
 
 [sub_resource type="Resource" id="Resource_wwvr2"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 1 x 10 ?"
-correct_answer = "10"
-choices = Array[String](["20", "22", "4"])
+text = "Combien font 64 x 41 ?"
+correct_answer = "2624"
+choices = Array[String](["2625", "2626", "2644"])
 
 [sub_resource type="Resource" id="Resource_56c12"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 9 x 2 ?"
-correct_answer = "18"
-choices = Array[String](["8", "22", "9"])
+text = "Combien font 63 x 87 ?"
+correct_answer = "5481"
+choices = Array[String](["6029", "5482", "5431"])
 
 [sub_resource type="Resource" id="Resource_path7"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 7 x 7 ?"
-correct_answer = "49"
-choices = Array[String](["50", "52", "58"])
+text = "Combien font 41 x 2 ?"
+correct_answer = "82"
+choices = Array[String](["81", "80", "90"])
 
 [sub_resource type="Resource" id="Resource_74x8j"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 3 x 6 ?"
-correct_answer = "18"
-choices = Array[String](["22", "10", "21"])
+text = "Combien font 37 x 22 ?"
+correct_answer = "814"
+choices = Array[String](["816", "819", "804"])
 
 [sub_resource type="Resource" id="Resource_1jpth"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 7 x 4 ?"
-correct_answer = "28"
-choices = Array[String](["26", "32", "33"])
+text = "Combien font 75 x 51 ?"
+correct_answer = "3825"
+choices = Array[String](["3830", "3443", "3827"])
 
 [sub_resource type="Resource" id="Resource_jrv3g"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 4 x 1 ?"
-correct_answer = "4"
-choices = Array[String](["8", "16", "7"])
+text = "Combien font 18 x 16 ?"
+correct_answer = "288"
+choices = Array[String](["283", "316", "289"])
 
 [sub_resource type="Resource" id="Resource_7eoic"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 8 x 7 ?"
-correct_answer = "56"
-choices = Array[String](["49", "55", "59"])
+text = "Combien font 229 x 12 ?"
+correct_answer = "2748"
+choices = Array[String](["2753", "2798", "2746"])
 
 [sub_resource type="Resource" id="Resource_0343o"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 7 x 3 ?"
-correct_answer = "21"
-choices = Array[String](["19", "16", "14"])
+text = "Combien font 82 x 79 ?"
+correct_answer = "6478"
+choices = Array[String](["6476", "6488", "6480"])
 
 [sub_resource type="Resource" id="Resource_jopy0"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 7 x 9 ?"
-correct_answer = "63"
-choices = Array[String](["72", "55", "74"])
+text = "Combien font 42 x 42 ?"
+correct_answer = "1764"
+choices = Array[String](["1940", "1784", "1759"])
 
 [sub_resource type="Resource" id="Resource_acw6p"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 1 x 6 ?"
-correct_answer = "6"
-choices = Array[String](["1", "10", "15"])
+text = "Combien font 388 x 10 ?"
+correct_answer = "3880"
+choices = Array[String](["3492", "3875", "3885"])
 
 [sub_resource type="Resource" id="Resource_rkqlk"]
 script = ExtResource("1_4gkxw")
 grade = 4
-text = "Combien font 6 x 3 ?"
-correct_answer = "18"
-choices = Array[String](["24", "10", "19"])
+text = "Combien font 14 x 62 ?"
+correct_answer = "868"
+choices = Array[String](["818", "863", "866"])
 
 [sub_resource type="Resource" id="Resource_nvts8"]
 script = ExtResource("1_4gkxw")

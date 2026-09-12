@@ -1,0 +1,501 @@
+id;text;correct_answer;choice_2;choice_3;choice_4
+41000;Quel nombre vient après ? 3, 6, 9, 12, …;15;14;18;13
+41001;Quel nombre vient après ? 20, 18, 16, 14, …;12;10;13;16
+41002;Quelle lettre vient après ? A, B, C, D, …;E;F;D;C
+41003;Quelle lettre vient après ? A, C, E, G, …;I;H;J;F
+41004;Lequel de ces animaux n'a pas 4 pattes ? 🐱 🐶 🐟 🐰;🐟;🐱;🐶;🐰
+41005;Le petit du chat est le chaton. Le petit du chien est…;le chiot;le chevreau;le poussin;le veau
+41006;Quelle forme vient ensuite ? ● ▲ ■ ● ▲ …;■;●;▲;★
+41007;Le contraire de chaud est froid. Le contraire de grand est…;petit;tiède;doux;humide
+41008;Parmi 3, 7, 1, 5 : quel est le plus petit nombre ?;1;3;5;7
+41009;Quelle couleur vient ensuite ? 🔴 🔵 🟢 🔴 🔵 …;🟢;🔴;🔵;🟡
+41010;Quel nombre vient après ? 228, 226, 224, 222, …;220;221;219;222
+41011;Quel nombre vient après ? 144, 139, 134, 129, …;124;125;123;129
+41012;Quel nombre vient après ? 203, 199, 195, 191, …;187;188;186;191
+41013;Quel nombre vient après ? 131, 147, 163, 179, …;195;194;196;179
+41014;Quel nombre vient après ? 209, 195, 181, 167, …;153;154;152;167
+41015;Quel nombre vient après ? 150, 132, 114, 96, …;78;79;77;96
+41016;Quel nombre vient après ? 27, 33, 39, 45, …;51;50;52;45
+41017;Quel nombre vient après ? 89, 85, 81, 77, …;73;74;72;77
+41018;Quel nombre vient après ? 131, 135, 139, 143, …;147;146;148;143
+41019;Quel nombre vient après ? 99, 115, 131, 147, …;163;162;164;147
+41020;Quel nombre vient après ? 197, 177, 157, 137, …;117;118;116;137
+41021;Quel nombre vient après ? 66, 60, 54, 48, …;42;43;41;48
+41022;Quel nombre vient après ? 47, 49, 51, 53, …;55;54;56;53
+41023;Quel nombre vient après ? 75, 77, 79, 81, …;83;82;84;81
+41024;Quel nombre vient après ? 133, 142, 151, 160, …;169;168;170;160
+41025;Quel nombre vient après ? 149, 169, 189, 209, …;229;228;230;209
+41026;Quel nombre vient après ? 117, 119, 121, 123, …;125;124;126;123
+41027;Quel nombre vient après ? 185, 174, 163, 152, …;141;142;140;152
+41028;Quel nombre vient après ? 32, 47, 62, 77, …;92;91;93;77
+41029;Quel nombre vient après ? 62, 59, 56, 53, …;50;51;49;53
+41030;Quel nombre vient après ? 144, 125, 106, 87, …;68;69;67;87
+41031;Quel nombre vient après ? 141, 147, 153, 159, …;165;164;166;159
+41032;Quel nombre vient après ? 176, 172, 168, 164, …;160;161;159;164
+41033;Quel nombre vient après ? 60, 48, 36, 24, …;12;13;11;24
+41034;Quel nombre vient après ? 204, 188, 172, 156, …;140;141;139;156
+41035;Quel nombre vient après ? 82, 79, 76, 73, …;70;71;69;73
+41036;Quel nombre vient après ? 146, 149, 152, 155, …;158;157;159;155
+41037;Quel nombre vient après ? 137, 147, 157, 167, …;177;176;178;167
+41038;Quel nombre vient après ? 200, 186, 172, 158, …;144;145;143;158
+41039;Quel nombre vient après ? 0, 2, 4, 6, …;8;7;9;6
+41040;Quel nombre vient après ? 32, 36, 40, 44, …;48;47;49;44
+41041;Quel nombre vient après ? 80, 79, 78, 77, …;76;77;75;74
+41042;Quel nombre vient après ? 116, 98, 80, 62, …;44;45;43;62
+41043;Quel nombre vient après ? 269, 254, 239, 224, …;209;210;208;224
+41044;Quel nombre vient après ? 8, 21, 34, 47, …;60;59;61;47
+41045;Quel nombre vient après ? 103, 106, 109, 112, …;115;114;116;112
+41046;Quel nombre vient après ? 116, 109, 102, 95, …;88;89;87;95
+41047;Quel nombre vient après ? 283, 263, 243, 223, …;203;204;202;223
+41048;Quel nombre vient après ? 138, 127, 116, 105, …;94;95;93;105
+41049;Quel nombre vient après ? 137, 139, 141, 143, …;145;144;146;143
+41050;Quel nombre vient après ? 13, 19, 25, 31, …;37;36;38;31
+41051;Quel nombre vient après ? 106, 98, 90, 82, …;74;75;73;82
+41052;Quel nombre vient après ? 55, 67, 79, 91, …;103;102;104;91
+41053;Quel nombre vient après ? 107, 94, 81, 68, …;55;56;54;68
+41054;Quel nombre vient après ? 178, 176, 174, 172, …;170;171;169;172
+41055;Quel nombre vient après ? 6, 8, 10, 12, …;14;13;15;12
+41056;Quel nombre vient après ? 148, 149, 150, 151, …;152;151;153;154
+41057;Quel nombre vient après ? 106, 94, 82, 70, …;58;59;57;70
+41058;Quel nombre vient après ? 245, 240, 235, 230, …;225;226;224;230
+41059;Quel nombre vient après ? 63, 76, 89, 102, …;115;114;116;102
+41060;Quel nombre vient après ? 56, 57, 58, 59, …;60;59;61;62
+41061;Quel nombre vient après ? 101, 97, 93, 89, …;85;86;84;89
+41062;Quel nombre vient après ? 77, 64, 51, 38, …;25;26;24;38
+41063;Quel nombre vient après ? 96, 97, 98, 99, …;100;99;101;102
+41064;Quel nombre vient après ? 130, 126, 122, 118, …;114;115;113;118
+41065;Quel nombre vient après ? 138, 147, 156, 165, …;174;173;175;165
+41066;Quel nombre vient après ? 62, 81, 100, 119, …;138;137;139;119
+41067;Quel nombre vient après ? 11, 18, 25, 32, …;39;38;40;32
+41068;Quel nombre vient après ? 172, 169, 166, 163, …;160;161;159;163
+41069;Quel nombre vient après ? 123, 132, 141, 150, …;159;158;160;150
+41070;Quel nombre vient après ? 81, 92, 103, 114, …;125;124;126;114
+41071;Quel nombre vient après ? 53, 61, 69, 77, …;85;84;86;77
+41072;Quel nombre vient après ? 73, 89, 105, 121, …;137;136;138;121
+41073;Quel nombre vient après ? 126, 107, 88, 69, …;50;51;49;69
+41074;Quel nombre vient après ? 128, 112, 96, 80, …;64;65;63;80
+41075;Quel nombre vient après ? 266, 248, 230, 212, …;194;195;193;212
+41076;Quel nombre vient après ? 235, 217, 199, 181, …;163;164;162;181
+41077;Quel nombre vient après ? 54, 68, 82, 96, …;110;109;111;96
+41078;Quel nombre vient après ? 6, 26, 46, 66, …;86;85;87;66
+41079;Quel nombre vient après ? 59, 63, 67, 71, …;75;74;76;71
+41080;Quel nombre vient après ? 132, 139, 146, 153, …;160;159;161;153
+41081;Quel nombre vient après ? 93, 91, 89, 87, …;85;86;84;87
+41082;Quel nombre vient après ? 157, 141, 125, 109, …;93;94;92;109
+41083;Quel nombre vient après ? 87, 97, 107, 117, …;127;126;128;117
+41084;Quel nombre vient après ? 227, 212, 197, 182, …;167;168;166;182
+41085;Quel nombre vient après ? 85, 76, 67, 58, …;49;50;48;58
+41086;Quel nombre vient après ? 141, 137, 133, 129, …;125;126;124;129
+41087;Quel nombre vient après ? 75, 64, 53, 42, …;31;32;30;42
+41088;Quel nombre vient après ? 133, 120, 107, 94, …;81;82;80;94
+41089;Quel nombre vient après ? 60, 70, 80, 90, …;100;99;101;90
+41090;Quelle lettre vient après ? F, H, J, L, …;N;M;O;L
+41091;Quelle lettre vient après ? J, L, N, P, …;R;Q;S;P
+41092;Quelle lettre vient après ? H, J, L, N, …;P;O;Q;N
+41093;Quelle lettre vient après ? E, H, K, N, …;Q;P;R;N
+41094;Quelle lettre vient après ? K, N, Q, T, …;W;V;X;T
+41095;Quelle lettre vient après ? F, G, H, I, …;J;I;K;E
+41096;Quelle lettre vient après ? G, H, I, J, …;K;J;L;E
+41097;Quelle lettre vient après ? U, V, W, X, …;Y;X;Z;S
+41098;Quelle lettre vient après ? L, O, R, U, …;X;W;Y;U
+41099;Quelle lettre vient après ? D, G, J, M, …;P;O;Q;M
+41100;Quelle lettre vient après ? P, R, T, V, …;X;W;Y;V
+41101;Quelle lettre vient après ? Q, S, U, W, …;Y;X;Z;W
+41102;Quelle lettre vient après ? I, J, K, L, …;M;L;N;D
+41103;Quelle lettre vient après ? I, L, O, R, …;U;T;V;R
+41104;Quelle lettre vient après ? E, G, I, K, …;M;L;N;K
+41105;Quelle lettre vient après ? N, O, P, Q, …;R;Q;S;J
+41106;Quelle lettre vient après ? M, P, S, V, …;Y;X;Z;V
+41107;Quelle lettre vient après ? D, F, H, J, …;L;K;M;J
+41108;Quelle lettre vient après ? S, T, U, V, …;W;V;X;Q
+41109;Quelle lettre vient après ? B, D, F, H, …;J;I;K;H
+41110;Quelle lettre vient après ? O, Q, S, U, …;W;V;X;U
+41111;Quelle lettre vient après ? H, K, N, Q, …;T;S;U;Q
+41112;Quelle lettre vient après ? J, K, L, M, …;N;M;O;D
+41113;Quelle lettre vient après ? O, P, Q, R, …;S;R;T;W
+41114;Quelle lettre vient après ? V, W, X, Y, …;Z;Y;V;R
+41115;Quelle lettre vient après ? R, S, T, U, …;V;U;W;K
+41116;Quelle lettre vient après ? F, I, L, O, …;R;Q;S;O
+41117;Quelle lettre vient après ? K, L, M, N, …;O;N;P;D
+41118;Quelle lettre vient après ? H, I, J, K, …;L;K;M;D
+41119;Quelle lettre vient après ? T, U, V, W, …;X;W;Y;G
+41120;Quelle lettre vient après ? B, C, D, E, …;F;E;G;Y
+41121;Quelle lettre vient après ? D, E, F, G, …;H;G;I;J
+41122;Quelle lettre vient après ? C, D, E, F, …;G;F;H;T
+41123;Quelle lettre vient après ? M, O, Q, S, …;U;T;V;S
+41124;Quelle lettre vient après ? C, F, I, L, …;O;N;P;L
+41125;Quelle lettre vient après ? N, P, R, T, …;V;U;W;T
+41126;Quelle lettre vient après ? K, M, O, Q, …;S;R;T;Q
+41127;Quelle lettre vient après ? L, N, P, R, …;T;S;U;R
+41128;Quelle lettre vient après ? Q, R, S, T, …;U;T;V;E
+41129;Quelle lettre vient après ? C, E, G, I, …;K;J;L;I
+41130;Quelle lettre vient après ? N, Q, T, W, …;Z;Y;W;I
+41131;Quelle lettre vient après ? G, J, M, P, …;S;R;T;P
+41132;Quelle lettre vient après ? P, Q, R, S, …;T;S;U;Y
+41133;Quelle lettre vient après ? M, N, O, P, …;Q;P;R;C
+41134;Quelle lettre vient après ? J, M, P, S, …;V;U;W;S
+41135;Quelle lettre vient après ? A, D, G, J, …;M;L;N;J
+41136;Quelle lettre vient après ? I, K, M, O, …;Q;P;R;O
+41137;Quelle lettre vient après ? L, M, N, O, …;P;O;Q;J
+41138;Quelle lettre vient après ? B, E, H, K, …;N;M;O;K
+41139;Quelle lettre vient après ? G, I, K, M, …;O;N;P;M
+41140;Quelle lettre vient après ? R, T, V, X, …;Z;Y;X;W
+41141;Quelle lettre vient après ? E, F, G, H, …;I;H;J;E
+41142;Quel dessin vient ensuite ? 🍎 🍑 🍋 🍎 🍑 …;🍋;🍓;🍉;🍊
+41143;Quelle forme vient ensuite ? ● ▲ ♣ ● ▲ …;♣;♥;■;♠
+41144;Quel dessin vient ensuite ? ⭐ 🎵 👑 ⭐ 🎵 …;👑;🔔;💎;🔑
+41145;Quel dessin vient ensuite ? 🎈 🎵 ⭐ 🎈 🎵 …;⭐;🔑;🔔;💎
+41146;Quelle forme vient ensuite ? ♠ ♥ ▲ ♠ ♥ …;▲;■;♣;★
+41147;Quelle couleur vient ensuite ? 🟣 🟢 🔵 🟣 🟢 …;🔵;🟠;🟡;🔴
+41148;Quelle couleur vient ensuite ? 🔴 🟡 🟣 🔴 🟡 …;🟣;🟠;🟢;🔵
+41149;Quelle couleur vient ensuite ? 🔴 🟡 🔵 🔴 🟡 …;🔵;🟣;🟢;🟠
+41150;Quel dessin vient ensuite ? 🍅 🥭 🍇 🍅 🥭 …;🍇;🍉;🍊;🍒
+41151;Quel dessin vient ensuite ? 🍋 🍊 🍇 🍋 🍊 …;🍇;🍓;🥭;🍐
+41152;Quelle couleur vient ensuite ? 🟣 🔴 🟡 🟣 🔴 …;🟡;🟢;🟠;🔵
+41153;Quel dessin vient ensuite ? 🦊 🐯 🐱 🦊 🐯 …;🐱;🐨;🐮;🐶
+41154;Quel dessin vient ensuite ? 🐻 🦊 🐸 🐻 🦊 …;🐸;🐟;🐱;🐹
+41155;Quelle forme vient ensuite ? ♦ ★ ● ♦ ★ …;●;♠;■;▲
+41156;Quel dessin vient ensuite ? 💎 👑 ⭐ 💎 👑 …;⭐;🎵;🎈;🔑
+41157;Quel dessin vient ensuite ? 🍐 🍊 🍒 🍐 🍊 …;🍒;🥭;🍌;🍍
+41158;Quel dessin vient ensuite ? 🐺 🐻 🐯 🐺 🐻 …;🐯;🐭;🐵;🐔
+41159;Quelle couleur vient ensuite ? 🟡 🔴 🟣 🟡 🔴 …;🟣;🔵;🟠;🟢
+41160;Quel dessin vient ensuite ? 🥝 🍎 🍍 🥝 🍎 …;🍍;🍑;🍓;🍊
+41161;Quel dessin vient ensuite ? 🐵 🐯 🐱 🐵 🐯 …;🐱;🐔;🐘;🐟
+41162;Quel dessin vient ensuite ? 🔑 🎵 🎈 🔑 🎵 …;🎈;🔔;⭐;👑
+41163;Quel dessin vient ensuite ? 🎁 🎈 🔔 🎁 🎈 …;🔔;🔑;👑;💎
+41164;Quel dessin vient ensuite ? 🍌 🍒 🍋 🍌 🍒 …;🍋;🥝;🍐;🍊
+41165;Quelle forme vient ensuite ? ■ ♥ ♦ ■ ♥ …;♦;▲;♠;★
+41166;Quel dessin vient ensuite ? 🍉 🍎 🍌 🍉 🍎 …;🍌;🍐;🥭;🍇
+41167;Quelle forme vient ensuite ? ♠ ▲ ● ♠ ▲ …;●;♦;■;★
+41168;Quelle forme vient ensuite ? ♦ ♣ ♥ ♦ ♣ …;♥;●;★;♠
+41169;Quel dessin vient ensuite ? 🔔 🎈 👑 🔔 🎈 …;👑;🎁;🔑;⭐
+41170;Quelle forme vient ensuite ? ★ ▲ ♠ ★ ▲ …;♠;♦;♣;●
+41171;Quelle couleur vient ensuite ? 🟢 🔴 🔵 🟢 🔴 …;🔵;🟠;🟣;🟡
+41172;Quel dessin vient ensuite ? 🍒 🍎 🍅 🍒 🍎 …;🍅;🍐;🍇;🍓
+41173;Quelle forme vient ensuite ? ■ ♥ ♣ ■ ♥ …;♣;♦;●;★
+41174;Quel dessin vient ensuite ? 🐭 🐦 🐷 🐭 🐦 …;🐷;🐺;🐴;🐮
+41175;Quelle couleur vient ensuite ? 🟣 🔵 🟠 🟣 🔵 …;🟠;🟢;🔴;🟡
+41176;Quel dessin vient ensuite ? 🍋 🍐 🍇 🍋 🍐 …;🍇;🍎;🍉;🥭
+41177;Quel dessin vient ensuite ? 🍅 🥭 🍋 🍅 🥭 …;🍋;🍉;🍑;🍌
+41178;Quel dessin vient ensuite ? 👑 🎁 🎵 👑 🎁 …;🎵;🎈;🔔;💎
+41179;Quelle forme vient ensuite ? ♠ ■ ♥ ♠ ■ …;♥;●;▲;♣
+41180;Quel dessin vient ensuite ? 🍅 🍎 🍇 🍅 🍎 …;🍇;🍍;🍒;🍋
+41181;Quel dessin vient ensuite ? 🍊 🍓 🍑 🍊 🍓 …;🍑;🍋;🍇;🍒
+41182;Quel dessin vient ensuite ? 🐴 🐘 🐻 🐴 🐘 …;🐻;🐢;🐟;🐵
+41183;Quel dessin vient ensuite ? 🐝 🐘 🦊 🐝 🐘 …;🦊;🐦;🐼;🐶
+41184;Quel dessin vient ensuite ? 🥝 🍊 🍎 🥝 🍊 …;🍎;🍅;🍇;🍑
+41185;Quelle couleur vient ensuite ? 🔵 🟡 🟢 🔵 🟡 …;🟢;🟠;🟣;🔴
+41186;Quelle forme vient ensuite ? ♦ ★ ■ ♦ ★ …;■;♠;♣;▲
+41187;Quelle forme vient ensuite ? ▲ ★ ♣ ▲ ★ …;♣;♠;■;♥
+41188;Quelle couleur vient ensuite ? 🟡 🟢 🔵 🟡 🟢 …;🔵;🟠;🔴;🟣
+41189;Quel dessin vient ensuite ? 🍇 🥭 🍌 🍇 🥭 …;🍌;🍓;🍉;🍍
+41190;Quelle couleur vient ensuite ? 🔵 🟢 🟡 🔵 🟢 …;🟡;🟣;🔴;🟠
+41191;Quel dessin vient ensuite ? 🐝 🐢 🐵 🐝 🐢 …;🐵;🐨;🦊;🐴
+41192;Quel dessin vient ensuite ? 🐢 🐹 🐷 🐢 🐹 …;🐷;🐻;🦁;🐯
+41193;Quel dessin vient ensuite ? 🐯 🐵 🐝 🐯 🐵 …;🐝;🐦;🐘;🐭
+41194;Quel dessin vient ensuite ? 🥭 🍊 🍑 🥭 🍊 …;🍑;🍎;🍅;🥝
+41195;Quel dessin vient ensuite ? 🍑 🥭 🍓 🍑 🥭 …;🍓;🍊;🍍;🍉
+41196;Quelle forme vient ensuite ? ♦ ★ ▲ ♦ ★ …;▲;■;●;♠
+41197;Quel dessin vient ensuite ? 🐰 🐘 🐔 🐰 🐘 …;🐔;🐯;🐢;🐻
+41198;Quel dessin vient ensuite ? 🍒 🍑 🍌 🍒 🍑 …;🍌;🍍;🍉;🍋
+41199;Quelle forme vient ensuite ? ♣ ★ ■ ♣ ★ …;■;♥;●;▲
+41200;Quel dessin vient ensuite ? 🐔 🐢 🐟 🐔 🐢 …;🐟;🐻;🐝;🐯
+41201;Quel dessin vient ensuite ? 🐵 🐹 🐝 🐵 🐹 …;🐝;🐱;🐦;🐮
+41202;Lequel de ces animaux n'a pas 4 pattes ? 🐷 🐮 🐝 🐰;🐝;🐷;🐮;🐰
+41203;Lequel de ces animaux n'a pas 4 pattes ? 🐔 🐭 🐰 🐸;🐔;🐰;🐭;🐸
+41204;Lequel de ces animaux n'a pas 4 pattes ? 🐴 🐶 🐻 🐔;🐔;🐴;🐶;🐻
+41205;Lequel de ces animaux n'a pas 4 pattes ? 🐭 🐶 🐰 🐟;🐟;🐭;🐶;🐰
+41206;Lequel de ces animaux n'a pas 4 pattes ? 🐦 🐸 🐻 🐷;🐦;🐷;🐸;🐻
+41207;Lequel de ces animaux n'a pas 4 pattes ? 🐱 🐦 🐸 🐴;🐦;🐴;🐱;🐸
+41208;Lequel de ces animaux n'a pas 4 pattes ? 🐮 🐦 🐱 🐻;🐦;🐮;🐱;🐻
+41209;Lequel de ces animaux n'a pas 4 pattes ? 🐔 🐭 🐷 🐶;🐔;🐷;🐶;🐭
+41210;Lequel de ces animaux n'a pas 4 pattes ? 🐸 🐟 🐻 🐷;🐟;🐷;🐻;🐸
+41211;Lequel de ces animaux n'a pas 4 pattes ? 🐷 🐻 🐱 🐔;🐔;🐱;🐷;🐻
+41212;Lequel de ces animaux n'a pas 4 pattes ? 🐷 🐶 🦁 🐔;🐔;🐶;🐷;🦁
+41213;Lequel de ces animaux n'a pas 4 pattes ? 🐝 🐶 🐷 🐱;🐝;🐶;🐷;🐱
+41214;Lequel de ces animaux n'a pas 4 pattes ? 🐸 🐰 🐟 🐶;🐟;🐰;🐶;🐸
+41215;Lequel de ces animaux n'a pas 4 pattes ? 🐟 🦁 🐱 🐷;🐟;🐱;🦁;🐷
+41216;Lequel de ces animaux n'a pas 4 pattes ? 🐷 🐱 🐮 🐦;🐦;🐱;🐮;🐷
+41217;Lequel de ces animaux n'a pas 4 pattes ? 🐸 🐷 🐝 🦁;🐝;🐸;🐷;🦁
+41218;Lequel de ces animaux n'a pas 4 pattes ? 🐶 🐷 🐟 🐰;🐟;🐰;🐶;🐷
+41219;Lequel de ces animaux n'a pas 4 pattes ? 🐔 🐷 🐰 🐮;🐔;🐰;🐷;🐮
+41220;Lequel de ces animaux n'a pas 4 pattes ? 🐝 🐷 🐸 🐶;🐝;🐷;🐸;🐶
+41221;Lequel de ces animaux n'a pas 4 pattes ? 🐱 🐰 🦁 🐝;🐝;🐰;🦁;🐱
+41222;Quel élément n'est pas un fruit ? 🐸 🍋 🥝 🍐;🐸;🍐;🥝;🍋
+41223;Quel élément n'est pas un fruit ? 🍎 🍅 🥝 👑;👑;🥝;🍎;🍅
+41224;Quel élément n'est pas un animal ? ★ 🐷 🐝 🦊;★;🦊;🐝;🐷
+41225;Quel élément n'est pas un rond de couleur ? 🟣 🟠 🎈 🔵;🎈;🟠;🔵;🟣
+41226;Quel élément n'est pas un animal ? 🐸 🐷 🦊 ■;■;🐷;🐸;🦊
+41227;Quel élément n'est pas un animal ? 🐟 🐭 ♠ 🐝;♠;🐝;🐟;🐭
+41228;Quel élément n'est pas une forme ? ● ♣ 🔵 ♥;🔵;●;♥;♣
+41229;Quel élément n'est pas un animal ? 🎵 🐭 🐰 🐼;🎵;🐰;🐼;🐭
+41230;Quel élément n'est pas un objet ? ⭐ 🎁 🎵 🍋;🍋;⭐;🎵;🎁
+41231;Quel élément n'est pas une forme ? ♥ ♠ ■ 🍑;🍑;♥;■;♠
+41232;Quel élément n'est pas un objet ? 🎈 💎 👑 🐱;🐱;💎;🎈;👑
+41233;Quel élément n'est pas un objet ? 🎵 ♣ 🎈 👑;♣;🎵;👑;🎈
+41234;Quel élément n'est pas un rond de couleur ? ♦ 🟣 🔴 🟡;♦;🟣;🟡;🔴
+41235;Quel élément n'est pas un animal ? 🐢 🐼 🐺 🟢;🟢;🐼;🐺;🐢
+41236;Quel élément n'est pas un animal ? 🐔 🐘 🐶 💎;💎;🐘;🐔;🐶
+41237;Quel élément n'est pas une forme ? ■ ● ♥ 🐶;🐶;♥;■;●
+41238;Quel élément n'est pas un animal ? 🔑 🐻 🐦 🐭;🔑;🐭;🐻;🐦
+41239;Quel élément n'est pas un fruit ? 🍇 🥝 🍎 ⭐;⭐;🍇;🍎;🥝
+41240;Quel élément n'est pas un fruit ? 🍉 ♠ 🥝 🍌;♠;🍉;🥝;🍌
+41241;Quel élément n'est pas un objet ? 🔑 🎈 🟣 ⭐;🟣;🎈;🔑;⭐
+41242;Quel élément n'est pas un objet ? 🎁 🔴 🎵 ⭐;🔴;🎁;🎵;⭐
+41243;Quel élément n'est pas une forme ? ■ ♠ 👑 ●;👑;●;■;♠
+41244;Quel élément n'est pas un rond de couleur ? 🔴 🟣 🐵 🟡;🐵;🟡;🟣;🔴
+41245;Quel élément n'est pas un objet ? 🔔 🎁 🟢 ⭐;🟢;⭐;🔔;🎁
+41246;Quel élément n'est pas un rond de couleur ? ♠ 🟡 🟢 🟣;♠;🟣;🟡;🟢
+41247;Quel élément n'est pas un animal ? 🐺 🐝 🥝 🐟;🥝;🐺;🐝;🐟
+41248;Quel élément n'est pas un objet ? 🔑 🍊 🎁 🎈;🍊;🔑;🎈;🎁
+41249;Quel élément n'est pas un rond de couleur ? 🟢 ♦ 🟠 🟣;♦;🟢;🟣;🟠
+41250;Quel élément n'est pas un objet ? 🎁 👑 🍊 ⭐;🍊;🎁;⭐;👑
+41251;Quel élément n'est pas une forme ? ● 🐔 ♠ ♦;🐔;♠;♦;●
+41252;Quel élément n'est pas un fruit ? 🍐 🍉 ♥ 🥝;♥;🥝;🍐;🍉
+41253;Quel élément n'est pas un fruit ? 🍅 🍉 🍌 🔵;🔵;🍉;🍌;🍅
+41254;Quel élément n'est pas un fruit ? 🥝 🍉 🐴 🍇;🐴;🍉;🍇;🥝
+41255;Quel élément n'est pas une forme ? 🍐 ♥ ▲ ●;🍐;●;▲;♥
+41256;Quel élément n'est pas un rond de couleur ? 🔴 🟡 🔵 ★;★;🔵;🟡;🔴
+41257;Quel élément n'est pas un rond de couleur ? 🟣 🟡 🟠 ♥;♥;🟡;🟠;🟣
+41258;Quel élément n'est pas un objet ? 💎 🎵 🥭 🎁;🥭;🎁;🎵;💎
+41259;Quel élément n'est pas un fruit ? 🍇 🍒 🥝 👑;👑;🍇;🍒;🥝
+41260;Quel élément n'est pas un rond de couleur ? 🟣 🟡 🟢 🔑;🔑;🟣;🟡;🟢
+41261;Quel élément n'est pas une forme ? ● ♦ ♠ 💎;💎;♠;●;♦
+41262;Le contraire de calme est bruyant. Le contraire de grand est…;petit;bruyant;derrière;finir
+41263;Le contraire de gentil est méchant. Le contraire de dessus est…;dessous;méchant;sale;content
+41264;Le contraire de fort est faible. Le contraire de sec est…;mouillé;faible;dessous;nuit
+41265;Le contraire de gagner est perdre. Le contraire de jour est…;nuit;perdre;bruyant;vendre
+41266;Le contraire de propre est sale. Le contraire de ouvert est…;fermé;sale;méchant;tard
+41267;Le contraire de triste est content. Le contraire de chaud est…;froid;content;petit;nuit
+41268;Le contraire de gagner est perdre. Le contraire de fort est…;faible;perdre;étroit;dessous
+41269;Le contraire de acheter est vendre. Le contraire de facile est…;difficile;vendre;nuit;vide
+41270;Le contraire de dessus est dessous. Le contraire de plein est…;vide;dessous;vieux;léger
+41271;Le contraire de large est étroit. Le contraire de chaud est…;froid;étroit;perdre;difficile
+41272;Le contraire de rapide est lent. Le contraire de neuf est…;vieux;lent;nuit;descendre
+41273;Le contraire de gagner est perdre. Le contraire de grand est…;petit;perdre;sombre;mou
+41274;Le contraire de tôt est tard. Le contraire de chaud est…;froid;tard;dessous;lent
+41275;Le contraire de dessus est dessous. Le contraire de fort est…;faible;dessous;léger;sale
+41276;Le contraire de sec est mouillé. Le contraire de devant est…;derrière;mouillé;sombre;vieux
+41277;Le contraire de jour est nuit. Le contraire de triste est…;content;nuit;étroit;tard
+41278;Le contraire de chaud est froid. Le contraire de commencer est…;finir;froid;difficile;content
+41279;Le contraire de facile est difficile. Le contraire de dur est…;mou;difficile;froid;petit
+41280;Le contraire de plein est vide. Le contraire de fort est…;faible;vide;froid;content
+41281;Le contraire de acheter est vendre. Le contraire de tôt est…;tard;vendre;difficile;mouillé
+41282;Le contraire de neuf est vieux. Le contraire de dessus est…;dessous;vieux;léger;vendre
+41283;Le contraire de triste est content. Le contraire de acheter est…;vendre;content;sale;finir
+41284;Le contraire de triste est content. Le contraire de épais est…;fin;content;bruyant;fermé
+41285;Le contraire de haut est bas. Le contraire de clair est…;sombre;bas;dehors;petit
+41286;Le contraire de plein est vide. Le contraire de clair est…;sombre;vide;descendre;content
+41287;Le contraire de jour est nuit. Le contraire de dur est…;mou;nuit;étroit;mouillé
+41288;Le contraire de épais est fin. Le contraire de gagner est…;perdre;fin;dessous;nuit
+41289;Le contraire de dessus est dessous. Le contraire de haut est…;bas;dessous;léger;méchant
+41290;Le contraire de gentil est méchant. Le contraire de chaud est…;froid;méchant;vendre;finir
+41291;Le contraire de haut est bas. Le contraire de jour est…;nuit;bas;perdre;vide
+41292;Le contraire de calme est bruyant. Le contraire de monter est…;descendre;bruyant;sombre;lent
+41293;Le contraire de devant est derrière. Le contraire de propre est…;sale;derrière;difficile;tard
+41294;Le contraire de sec est mouillé. Le contraire de neuf est…;vieux;mouillé;dehors;vendre
+41295;Le contraire de calme est bruyant. Le contraire de gagner est…;perdre;bruyant;vendre;vieux
+41296;Le contraire de fort est faible. Le contraire de ouvert est…;fermé;faible;fin;dessous
+41297;Le contraire de calme est bruyant. Le contraire de ouvert est…;fermé;bruyant;bas;vendre
+41298;Le contraire de dur est mou. Le contraire de clair est…;sombre;mou;descendre;faible
+41299;Le contraire de fort est faible. Le contraire de lourd est…;léger;faible;dessous;mou
+41300;Le contraire de monter est descendre. Le contraire de calme est…;bruyant;descendre;fermé;derrière
+41301;Le contraire de dedans est dehors. Le contraire de jour est…;nuit;dehors;difficile;faible
+41302;Le contraire de chaud est froid. Le contraire de devant est…;derrière;froid;léger;finir
+41303;Le contraire de calme est bruyant. Le contraire de acheter est…;vendre;bruyant;sombre;nuit
+41304;Le contraire de triste est content. Le contraire de neuf est…;vieux;content;mou;sombre
+41305;Le contraire de épais est fin. Le contraire de triste est…;content;fin;dehors;méchant
+41306;Le contraire de lourd est léger. Le contraire de dedans est…;dehors;léger;étroit;bas
+41307;Le contraire de dur est mou. Le contraire de monter est…;descendre;mou;tard;léger
+41308;Le contraire de dur est mou. Le contraire de ouvert est…;fermé;mou;dehors;content
+41309;Le contraire de fort est faible. Le contraire de dessus est…;dessous;faible;froid;tard
+41310;Le contraire de dedans est dehors. Le contraire de acheter est…;vendre;dehors;faible;bas
+41311;Le contraire de gagner est perdre. Le contraire de large est…;étroit;perdre;fin;léger
+41312;Le petit du mouton est l'agneau. Le petit du renard est…;le renardeau;l'agneau;le chiot;le chaton
+41313;Le petit du chien est le chiot. Le petit du renard est…;le renardeau;le chiot;l'ourson;le chevreau
+41314;Le petit de la vache est le veau. Le petit de l'ours est…;l'ourson;le veau;le chaton;le chevreau
+41315;Le petit de la poule est le poussin. Le petit du canard est…;le caneton;le poussin;le chevreau;le porcelet
+41316;Le petit de l'ours est l'ourson. Le petit du renard est…;le renardeau;l'ourson;le porcelet;le poulain
+41317;Le petit du lion est le lionceau. Le petit du chat est…;le chaton;le lionceau;le chiot;le renardeau
+41318;Le petit de la poule est le poussin. Le petit du chien est…;le chiot;le poussin;le lionceau;le caneton
+41319;Le petit du chat est le chaton. Le petit du canard est…;le caneton;le chaton;le porcelet;l'agneau
+41320;Le petit de la chèvre est le chevreau. Le petit du canard est…;le caneton;le chevreau;le porcelet;le veau
+41321;Le petit du lion est le lionceau. Le petit du cheval est…;le poulain;le lionceau;le porcelet;le poussin
+41322;Le petit du canard est le caneton. Le petit du renard est…;le renardeau;le caneton;le chiot;le veau
+41323;Le petit du lion est le lionceau. Le petit du chien est…;le chiot;le lionceau;le poulain;le chaton
+41324;Le petit du chien est le chiot. Le petit du canard est…;le caneton;le chiot;le renardeau;le chevreau
+41325;Le petit de la vache est le veau. Le petit du canard est…;le caneton;le veau;le chevreau;le chiot
+41326;Le petit du mouton est l'agneau. Le petit de la poule est…;le poussin;l'agneau;l'ourson;le lionceau
+41327;Le petit du canard est le caneton. Le petit de la chèvre est…;le chevreau;le caneton;le porcelet;l'ourson
+41328;Le petit de la chèvre est le chevreau. Le petit du lion est…;le lionceau;le chevreau;le chaton;le veau
+41329;Le petit de l'ours est l'ourson. Le petit du lion est…;le lionceau;l'ourson;le caneton;le chaton
+41330;Le petit du chat est le chaton. Le petit de l'ours est…;l'ourson;le chaton;le renardeau;le poussin
+41331;Le petit du canard est le caneton. Le petit du chat est…;le chaton;le caneton;l'ourson;le chevreau
+41332;Le petit du lion est le lionceau. Le petit de la poule est…;le poussin;le lionceau;le chevreau;le porcelet
+41333;Le petit du cochon est le porcelet. Le petit de l'ours est…;l'ourson;le porcelet;le poussin;le caneton
+41334;Le petit du canard est le caneton. Le petit du cheval est…;le poulain;le caneton;le renardeau;le porcelet
+41335;Le petit de la poule est le poussin. Le petit de la chèvre est…;le chevreau;le poussin;le renardeau;le caneton
+41336;Le petit du renard est le renardeau. Le petit du chien est…;le chiot;le renardeau;le porcelet;l'agneau
+41337;Le petit du renard est le renardeau. Le petit du lion est…;le lionceau;le renardeau;le chevreau;le poulain
+41338;Le petit du renard est le renardeau. Le petit du chat est…;le chaton;le renardeau;le chevreau;le veau
+41339;Le petit du canard est le caneton. Le petit de la vache est…;le veau;le caneton;le poussin;le poulain
+41340;Le petit du mouton est l'agneau. Le petit de l'ours est…;l'ourson;l'agneau;le renardeau;le poussin
+41341;Le petit de la chèvre est le chevreau. Le petit de l'ours est…;l'ourson;le chevreau;le poussin;le renardeau
+41342;Parmi 95, 71, 2, 98 : quel est le plus petit nombre ?;2;95;71;98
+41343;Parmi 62, 53, 25, 65 : quel est le plus grand nombre ?;65;62;53;25
+41344;Parmi 40, 23, 91, 27 : quel est le plus grand nombre ?;91;40;23;27
+41345;Parmi 53, 62, 58, 10 : quel est le plus petit nombre ?;10;53;62;58
+41346;Parmi 22, 58, 28, 67 : quel est le plus grand nombre ?;67;22;58;28
+41347;Parmi 53, 28, 76, 21 : quel est le plus petit nombre ?;21;53;28;76
+41348;Parmi 53, 12, 4, 79 : quel est le plus petit nombre ?;4;53;12;79
+41349;Parmi 3, 50, 18, 12 : quel est le plus petit nombre ?;3;50;18;12
+41350;Parmi 21, 75, 66, 40 : quel est le plus petit nombre ?;21;75;66;40
+41351;Parmi 99, 2, 66, 4 : quel est le plus petit nombre ?;2;99;66;4
+41352;Parmi 31, 29, 39, 44 : quel est le plus grand nombre ?;44;31;29;39
+41353;Parmi 1, 85, 99, 44 : quel est le plus petit nombre ?;1;85;99;44
+41354;Parmi 55, 24, 18, 82 : quel est le plus grand nombre ?;82;55;24;18
+41355;Parmi 39, 13, 56, 83 : quel est le plus petit nombre ?;13;39;56;83
+41356;Parmi 93, 20, 98, 14 : quel est le plus grand nombre ?;98;93;20;14
+41357;Parmi 45, 39, 42, 58 : quel est le plus petit nombre ?;39;45;42;58
+41358;Parmi 71, 96, 81, 35 : quel est le plus grand nombre ?;96;71;81;35
+41359;Parmi 88, 83, 16, 47 : quel est le plus petit nombre ?;16;88;83;47
+41360;Parmi 91, 20, 90, 55 : quel est le plus petit nombre ?;20;91;90;55
+41361;Parmi 89, 92, 7, 1 : quel est le plus grand nombre ?;92;89;7;1
+41362;Parmi 59, 47, 81, 99 : quel est le plus grand nombre ?;99;59;47;81
+41363;Parmi 79, 69, 53, 81 : quel est le plus grand nombre ?;81;79;69;53
+41364;Parmi 28, 75, 35, 97 : quel est le plus petit nombre ?;28;75;35;97
+41365;Parmi 51, 17, 50, 65 : quel est le plus petit nombre ?;17;51;50;65
+41366;Parmi 82, 91, 5, 1 : quel est le plus petit nombre ?;1;82;91;5
+41367;Parmi 72, 24, 82, 32 : quel est le plus petit nombre ?;24;72;82;32
+41368;Parmi 65, 20, 41, 33 : quel est le plus petit nombre ?;20;65;41;33
+41369;Parmi 77, 91, 3, 25 : quel est le plus petit nombre ?;3;77;91;25
+41370;Parmi 69, 56, 57, 72 : quel est le plus petit nombre ?;56;69;57;72
+41371;Parmi 15, 59, 95, 37 : quel est le plus petit nombre ?;15;59;95;37
+41372;Parmi 10, 71, 63, 48 : quel est le plus grand nombre ?;71;10;63;48
+41373;Parmi 34, 58, 64, 16 : quel est le plus petit nombre ?;16;34;58;64
+41374;Parmi 3, 13, 4, 55 : quel est le plus petit nombre ?;3;13;4;55
+41375;Parmi 79, 90, 17, 91 : quel est le plus petit nombre ?;17;79;90;91
+41376;Parmi 33, 45, 22, 96 : quel est le plus petit nombre ?;22;33;45;96
+41377;Parmi 60, 39, 20, 47 : quel est le plus grand nombre ?;60;39;20;47
+41378;Parmi 76, 20, 10, 66 : quel est le plus grand nombre ?;76;20;10;66
+41379;Parmi 70, 83, 37, 65 : quel est le plus grand nombre ?;83;70;37;65
+41380;Parmi 91, 95, 25, 23 : quel est le plus grand nombre ?;95;91;25;23
+41381;Parmi 17, 51, 42, 50 : quel est le plus grand nombre ?;51;17;42;50
+41382;Parmi 6, 39, 38, 25 : quel est le plus grand nombre ?;39;6;38;25
+41383;Parmi 2, 61, 17, 86 : quel est le plus petit nombre ?;2;61;17;86
+41384;Parmi 52, 30, 48, 14 : quel est le plus petit nombre ?;14;52;30;48
+41385;Parmi 98, 96, 6, 86 : quel est le plus petit nombre ?;6;98;96;86
+41386;Parmi 1, 87, 90, 55 : quel est le plus petit nombre ?;1;87;90;55
+41387;Parmi 64, 33, 79, 80 : quel est le plus petit nombre ?;33;64;79;80
+41388;Parmi 54, 45, 58, 5 : quel est le plus petit nombre ?;5;54;45;58
+41389;Parmi 25, 35, 61, 90 : quel est le plus petit nombre ?;25;35;61;90
+41390;Parmi 13, 36, 34, 72 : quel est le plus grand nombre ?;72;13;36;34
+41391;Parmi 26, 70, 30, 15 : quel est le plus grand nombre ?;70;26;30;15
+41392;Parmi 74, 87, 48, 11 : quel est le plus grand nombre ?;87;74;48;11
+41393;Parmi 76, 13, 96, 58 : quel est le plus grand nombre ?;96;76;13;58
+41394;Parmi 32, 95, 81, 59 : quel est le plus grand nombre ?;95;32;81;59
+41395;Parmi 45, 96, 22, 43 : quel est le plus grand nombre ?;96;45;22;43
+41396;Parmi 55, 72, 36, 97 : quel est le plus petit nombre ?;36;55;72;97
+41397;Parmi 52, 48, 4, 94 : quel est le plus grand nombre ?;94;52;48;4
+41398;Parmi 73, 67, 50, 30 : quel est le plus petit nombre ?;30;73;67;50
+41399;Parmi 24, 2, 82, 12 : quel est le plus grand nombre ?;82;24;2;12
+41400;Parmi 87, 69, 60, 17 : quel est le plus grand nombre ?;87;69;60;17
+41401;Parmi 75, 32, 59, 45 : quel est le plus petit nombre ?;32;75;59;45
+41402;Parmi 7, 24, 83, 38 : quel est le plus grand nombre ?;83;7;24;38
+41403;Parmi 62, 6, 59, 94 : quel est le plus grand nombre ?;94;62;6;59
+41404;Parmi 34, 90, 37, 42 : quel est le plus petit nombre ?;34;90;37;42
+41405;Parmi 6, 39, 95, 8 : quel est le plus petit nombre ?;6;39;95;8
+41406;Parmi 83, 1, 72, 73 : quel est le plus petit nombre ?;1;83;72;73
+41407;Parmi 47, 17, 46, 50 : quel est le plus petit nombre ?;17;47;46;50
+41408;Parmi 43, 51, 3, 19 : quel est le plus grand nombre ?;51;43;3;19
+41409;Parmi 98, 11, 90, 62 : quel est le plus grand nombre ?;98;11;90;62
+41410;Le sécateur sert à tailler les branches. Le savon sert à…;se laver;tailler les branches;clouer;écrire
+41411;La cuillère sert à manger la soupe. Le marteau sert à…;clouer;manger la soupe;éclairer;balayer
+41412;La cuillère sert à manger la soupe. La lampe sert à…;éclairer;manger la soupe;ouvrir;couper
+41413;Le parapluie sert à protéger de la pluie. La brosse à dents sert à…;se brosser les dents;protéger de la pluie;se coiffer;clouer
+41414;Le parachute sert à freiner la chute. Le sécateur sert à…;tailler les branches;freiner la chute;ouvrir;lire
+41415;Le pinceau sert à peindre. La lampe sert à…;éclairer;peindre;ouvrir;réveiller
+41416;La balance sert à peser. La règle sert à…;mesurer;peser;balayer;ouvrir
+41417;Le marteau sert à clouer. Le pinceau sert à…;peindre;clouer;freiner la chute;balayer
+41418;Le pinceau sert à peindre. La cuillère sert à…;manger la soupe;peindre;peser;clouer
+41419;Le livre sert à lire. Le balai sert à…;balayer;lire;manger la soupe;freiner la chute
+41420;La brosse à dents sert à se brosser les dents. Le livre sert à…;lire;se brosser les dents;se coiffer;freiner la chute
+41421;La clé sert à ouvrir. Le sécateur sert à…;tailler les branches;ouvrir;peser;manger la soupe
+41422;Le couteau sert à couper. Le thermomètre sert à…;mesurer la température;couper;éclairer;se laver
+41423;Le thermomètre sert à mesurer la température. La règle sert à…;mesurer;mesurer la température;peser;se coiffer
+41424;Le couteau sert à couper. La balance sert à…;peser;couper;se laver;clouer
+41425;Le marteau sert à clouer. Le balai sert à…;balayer;clouer;réveiller;peser
+41426;Le sécateur sert à tailler les branches. Le stylo sert à…;écrire;tailler les branches;couper;balayer
+41427;La brosse à dents sert à se brosser les dents. Le savon sert à…;se laver;se brosser les dents;manger la soupe;balayer
+41428;Les ciseaux servent à découper. Le balai sert à…;balayer;découper;ouvrir;mesurer
+41429;Le livre sert à lire. Le sécateur sert à…;tailler les branches;lire;se laver;manger la soupe
+41430;Le balai sert à balayer. Les ciseaux servent à…;découper;balayer;manger la soupe;écrire
+41431;La clé sert à ouvrir. Le réveil sert à…;réveiller;ouvrir;se coiffer;se brosser les dents
+41432;Le parapluie sert à protéger de la pluie. La règle sert à…;mesurer;protéger de la pluie;éclairer;se coiffer
+41433;La cuillère sert à manger la soupe. Le peigne sert à…;se coiffer;manger la soupe;tailler les branches;mesurer la température
+41434;Le marteau sert à clouer. Le savon sert à…;se laver;clouer;mesurer la température;écrire
+41435;Le réveil sert à réveiller. La cuillère sert à…;manger la soupe;réveiller;couper;peser
+41436;Le parapluie sert à protéger de la pluie. La cuillère sert à…;manger la soupe;protéger de la pluie;clouer;freiner la chute
+41437;Le parachute sert à freiner la chute. La balance sert à…;peser;freiner la chute;ouvrir;lire
+41438;Le stylo sert à écrire. Le peigne sert à…;se coiffer;écrire;couper;manger la soupe
+41439;Les ciseaux servent à découper. La cuillère sert à…;manger la soupe;découper;balayer;clouer
+41440;Le sécateur sert à tailler les branches. La cuillère sert à…;manger la soupe;tailler les branches;mesurer la température;peser
+41441;Les ciseaux servent à découper. Le thermomètre sert à…;mesurer la température;découper;mesurer;tailler les branches
+41442;Le couteau sert à couper. La brosse à dents sert à…;se brosser les dents;couper;freiner la chute;réveiller
+41443;La lampe sert à éclairer. Le couteau sert à…;couper;éclairer;tailler les branches;balayer
+41444;Le réveil sert à réveiller. Le stylo sert à…;écrire;réveiller;mesurer;se brosser les dents
+41445;La lampe sert à éclairer. Le livre sert à…;lire;éclairer;peser;protéger de la pluie
+41446;Le parachute sert à freiner la chute. Le balai sert à…;balayer;freiner la chute;mesurer;tailler les branches
+41447;Le sécateur sert à tailler les branches. Le livre sert à…;lire;tailler les branches;peindre;se coiffer
+41448;La cuillère sert à manger la soupe. Les ciseaux servent à…;découper;manger la soupe;mesurer la température;se brosser les dents
+41449;Le réveil sert à réveiller. Le savon sert à…;se laver;réveiller;se coiffer;freiner la chute
+41450;Le parachute sert à freiner la chute. Les ciseaux servent à…;découper;freiner la chute;manger la soupe;lire
+41451;Le parachute sert à freiner la chute. Le stylo sert à…;écrire;freiner la chute;couper;protéger de la pluie
+41452;Le sécateur sert à tailler les branches. Les ciseaux servent à…;découper;tailler les branches;écrire;mesurer la température
+41453;Le stylo sert à écrire. La règle sert à…;mesurer;écrire;se laver;couper
+41454;La brosse à dents sert à se brosser les dents. Le pinceau sert à…;peindre;se brosser les dents;mesurer;se laver
+41455;La règle sert à mesurer. La clé sert à…;ouvrir;mesurer;se laver;peser
+41456;Le peigne sert à se coiffer. La balance sert à…;peser;se coiffer;peindre;se laver
+41457;La balance sert à peser. Le parapluie sert à…;protéger de la pluie;peser;écrire;clouer
+41458;Le réveil sert à réveiller. Le livre sert à…;lire;réveiller;écrire;ouvrir
+41459;Le savon sert à se laver. La lampe sert à…;éclairer;se laver;freiner la chute;ouvrir
+41460;Quel nombre n'est pas un multiple de 5 ? 50, 90, 71, 65;71;90;50;65
+41461;Quel nombre n'est pas un nombre pair ? 20, 96, 88, 9;9;96;88;20
+41462;Quel nombre n'est pas un multiple de 10 ? 120, 30, 140, 86;86;140;30;120
+41463;Quel nombre n'est pas un multiple de 10 ? 140, 190, 116, 170;116;190;140;170
+41464;Quel nombre n'est pas un multiple de 10 ? 150, 15, 70, 20;15;70;150;20
+41465;Quel nombre n'est pas un multiple de 10 ? 180, 10, 50, 66;66;10;180;50
+41466;Quel nombre n'est pas un nombre impair ? 25, 26, 31, 21;26;31;25;21
+41467;Quel nombre n'est pas un nombre impair ? 27, 48, 43, 75;48;75;43;27
+41468;Quel nombre n'est pas un multiple de 5 ? 25, 90, 65, 36;36;25;90;65
+41469;Quel nombre n'est pas un nombre impair ? 59, 60, 17, 39;60;39;59;17
+41470;Quel nombre n'est pas un multiple de 5 ? 59, 80, 65, 90;59;65;80;90
+41471;Quel nombre n'est pas un nombre impair ? 72, 95, 41, 79;72;95;41;79
+41472;Quel nombre n'est pas un multiple de 5 ? 70, 75, 25, 91;91;70;75;25
+41473;Quel nombre n'est pas un multiple de 10 ? 20, 110, 134, 60;134;110;60;20
+41474;Quel nombre n'est pas un nombre impair ? 76, 13, 35, 25;76;25;13;35
+41475;Quel nombre n'est pas un nombre impair ? 93, 15, 39, 96;96;39;93;15
+41476;Quel nombre n'est pas un nombre impair ? 98, 15, 77, 73;98;73;77;15
+41477;Quel nombre n'est pas un multiple de 10 ? 180, 60, 26, 170;26;60;170;180
+41478;Quel nombre n'est pas un nombre pair ? 72, 8, 46, 9;9;46;8;72
+41479;Quel nombre n'est pas un nombre pair ? 35, 8, 98, 92;35;92;98;8
+41480;Quel nombre n'est pas un multiple de 10 ? 20, 140, 190, 177;177;20;140;190
+41481;Quel nombre n'est pas un multiple de 10 ? 10, 160, 50, 59;59;50;10;160
+41482;Quel nombre n'est pas un nombre impair ? 6, 85, 33, 97;6;85;97;33
+41483;Quel nombre n'est pas un multiple de 10 ? 40, 50, 180, 82;82;180;50;40
+41484;Quel nombre n'est pas un nombre impair ? 24, 49, 93, 27;24;49;93;27
+41485;Quel nombre n'est pas un multiple de 10 ? 81, 20, 190, 10;81;190;10;20
+41486;Quel nombre n'est pas un multiple de 5 ? 8, 55, 40, 95;8;40;95;55
+41487;Quel nombre n'est pas un multiple de 10 ? 60, 180, 15, 50;15;50;60;180
+41488;Quel nombre n'est pas un multiple de 10 ? 120, 70, 125, 80;125;70;80;120
+41489;Quel nombre n'est pas un multiple de 5 ? 95, 40, 37, 35;37;40;35;95
+41490;Quel nombre n'est pas un multiple de 5 ? 55, 87, 35, 50;87;35;50;55
+41491;Quel nombre n'est pas un nombre impair ? 15, 55, 40, 33;40;15;33;55
+41492;Quel nombre n'est pas un nombre impair ? 49, 55, 22, 79;22;55;49;79
+41493;Quel nombre n'est pas un nombre pair ? 78, 75, 50, 18;75;50;18;78
+41494;Quel nombre n'est pas un nombre impair ? 65, 92, 41, 23;92;41;23;65
+41495;Quel nombre n'est pas un nombre impair ? 41, 15, 5, 80;80;15;41;5
+41496;Quel nombre n'est pas un nombre impair ? 1, 95, 13, 56;56;95;13;1
+41497;Quel nombre n'est pas un multiple de 5 ? 90, 80, 24, 65;24;90;80;65
+41498;Quel nombre n'est pas un multiple de 5 ? 15, 80, 33, 30;33;15;30;80
+41499;Quel nombre n'est pas un multiple de 10 ? 70, 147, 20, 170;147;20;170;70

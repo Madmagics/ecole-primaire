@@ -1,10 +1,12 @@
 [gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://bx2nedw6vib02"]
 
-[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_2sv6r"]
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/classe2.0/pets/67.webp" id="2_texture"]
 
 [resource]
-script = ExtResource("1_2sv6r")
+script = ExtResource("1_script")
 id = &"67"
 category = &"éléphant"
-display_name = "Rose"
+display_name = "Praline"
+texture = ExtResource("2_texture")
 grade = 1

@@ -1,9 +1,11 @@
 [gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://c3fymeyjx7atc"]
 
-[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_krh8h"]
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/classe2.0/pets/96.webp" id="2_texture"]
 
 [resource]
-script = ExtResource("1_krh8h")
+script = ExtResource("1_script")
 id = &"96"
 category = &"requin"
-display_name = "Requin récif"
+display_name = "Corsaire"
+texture = ExtResource("2_texture")

@@ -31,6 +31,15 @@ signal subject_selection_requested(source: Node, grade: Grade, available_subject
 signal pack_started(source: Node, questions: Array[QuestionResource], rarity: Rarity)
 ## Emis si la matiere choisie n'a pas (encore) de questions dans ce PNJ.
 signal pack_unavailable(source: Node, message: String)
+## Emis specifiquement quand la limite d'utilisation quotidienne (controle parental) est deja
+## atteinte a l'interaction (voir _on_interacted) - VOLONTAIREMENT distinct de pack_unavailable
+## (2026-09-06, retour utilisateur : "lorsque la limite est atteinte jaimerais que le click sur un
+## npc ouvre une popup reduite comme celle dun manque de piece pour la boutique avec un message en
+## rouge. actuellement cest une fenetre avec un cadre titre vide inutile" - pack_unavailable ouvre
+## la fenetre COMPLETE de QuestionPanel via show_message, pensee pour un vrai message de contenu
+## indisponible, pas pour un simple avertissement) : cable vers un petit popup dedie
+## (DailyLimitReachedOverlay, voir school.tscn) plutot que de reutiliser pack_unavailable.
+signal daily_limit_reached(source: Node)
 ## Emis specifiquement pour Subject.READING ("Comprehension de texte") : contrairement a
 ## pack_started (questions immediates), il faut d'abord montrer le texte du passage tire au
 ## sort - l'UI (ReadingIntroPanel) l'affiche, puis relaie vers QuestionPanel une fois le bouton
@@ -46,11 +55,11 @@ const RESOURCES_DIR := "res://data/question/resources"
 ## PAS de systeme de genre a construire ici, ces titres seront corriges/rendus coherents avec le
 ## personnage reel une fois les modeles 3D des PNJ en place (retour Steve, 2026-08-02).
 const _GRADE_TEACHER_TITLES := {
-	GradeLevel.Grade.CP: "Maître du CP",
-	GradeLevel.Grade.CE1: "Maîtresse du CE1",
-	GradeLevel.Grade.CE2: "Maître du CE2",
-	GradeLevel.Grade.CM1: "Maîtresse du CM1",
-	GradeLevel.Grade.CM2: "Maître du CM2",
+	GradeLevel.Grade.CP: "Maîtresse du CP",
+	GradeLevel.Grade.CE1: "Maître du CE1",
+	GradeLevel.Grade.CE2: "Maîtresse du CE2",
+	GradeLevel.Grade.CM1: "Maître du CM1",
+	GradeLevel.Grade.CM2: "Maîtresse du CM2",
 }
 
 ## Classe fixe de ce PNJ (contrairement a l'ancienne version ou c'etait la matiere qui etait
@@ -79,73 +88,25 @@ var _rarity: Rarity = Rarity.COMMON
 var _current_subject: Subject = Subject.MATH
 var _current_pack_size: int = PACK_SIZE
 
-## Materiau gris applique au PNJ tant que sa classe n'est pas debloquee (voir GradeUnlock) -
-## construit en code plutot qu'une ressource .tres a part, le placeholder actuel (capsule
-## magenta, voir npc.tscn) n'ayant pas encore de vrai art a assombrir plus finement.
-const _LOCKED_MATERIAL_COLOR := Color(0.3, 0.3, 0.3)
-
 func _ready() -> void:
 	_rarity = GradeLevel.get_rarity(grade)
 	if question_pool.is_empty():
 		question_pool = _load_all_for_grade(grade)
-	## Cherche d'abord un InteractableComponent 3D (PNJ historiques, voir npc.tscn), sinon son
-	## twin 2D (voir entities/npc_2d/npc_2d.tscn, jeu passe en plateformer 2D) : deux branches
-	## typees separement plutot qu'un type de retour commun affaibli en Node, pour garder le
-	## typage statique sur .interacted/.prompt_text (voir instructions du projet).
-	var interactable_3d := _find_sibling_interactable()
-	if interactable_3d:
-		interactable_3d.interacted.connect(_on_interacted)
-		interactable_3d.prompt_text = _GRADE_TEACHER_TITLES.get(grade, GradeLevel.get_label(grade))
-	else:
-		var interactable_2d := _find_sibling_interactable_2d()
-		if interactable_2d:
-			interactable_2d.interacted.connect(_on_interacted)
-			interactable_2d.prompt_text = _GRADE_TEACHER_TITLES.get(grade, GradeLevel.get_label(grade))
-	GradeUnlock.grade_unlocked.connect(_on_grade_unlocked)
-	_refresh_lock_visual()
+	## Le jeu est desormais 2D uniquement (voir entities/npc_2d/npc_2d.tscn) - la branche 3D
+	## historique (InteractableComponent/npc.tscn) a ete retiree avec le reste du park 3D
+	## (voir project_2d_pivot en memoire ; recuperable via la branche git "backup3d" si besoin).
+	var interactable := _find_sibling_interactable()
+	if interactable:
+		interactable.interacted.connect(_on_interacted)
+		interactable.prompt_text = _GRADE_TEACHER_TITLES.get(grade, GradeLevel.get_label(grade))
+	## Auto-connexion via EventBus (pas une connexion posee dans le .tscn) : voir event_bus.gd,
+	## une connexion de scene pour ce signal s'est perdue plusieurs fois (reconstruction de
+	## scene, ou ecrasee par un enregistrement depuis l'editeur). start_pack_for_subject
+	## s'auto-filtre deja sur "source", donc chaque PNJ peut s'abonner sans risque au signal
+	## diffuse a tous.
+	EventBus.subject_selected.connect(start_pack_for_subject)
 
-## Rappele a chaque achat reussi en boutique (voir GradeUnlock.grade_unlocked) : un seul PNJ
-## est concretement concerne a la fois, mais tous les PNJ ecoutent (ils sont peu nombreux, 5
-## au total) plutot que de router l'evenement vers un PNJ precis - plus simple et robuste si
-## de nouveaux PNJ sont ajoutes plus tard.
-func _on_grade_unlocked(_unlocked_grade: Grade) -> void:
-	_refresh_lock_visual()
-
-## Grise le PNJ (materiau 3D, ou couleur de la capsule 2D - voir plus bas) tant que sa classe
-## n'est pas debloquee - purement visuel, le blocage reel de l'interaction se fait dans
-## _on_interacted.
-func _refresh_lock_visual() -> void:
-	var unlocked := GradeUnlock.is_unlocked(grade)
-	var mesh := _find_sibling_mesh()
-	if mesh:
-		if unlocked:
-			mesh.material_override = null
-		else:
-			var material := StandardMaterial3D.new()
-			material.albedo_color = _LOCKED_MATERIAL_COLOR
-			mesh.material_override = material
-		return
-	var capsule_2d := _find_sibling_locked_visual()
-	if capsule_2d:
-		capsule_2d.set_locked(not unlocked)
-
-func _find_sibling_mesh() -> MeshInstance3D:
-	for child in get_parent().get_children():
-		if child is MeshInstance3D:
-			return child
-	return null
-
-## Twin 2D de _find_sibling_mesh : cherche un enfant qui expose set_locked(bool) (voir
-## entities/decor_2d/capsule_2d.gd) au lieu d'un MeshInstance3D - utilise par les PNJ du
-## plateformer 2D (voir entities/npc_2d/npc_2d.tscn). Type de retour Node (pas de class_name
-## commun avec set_locked) : seul has_method("set_locked") est verifie, pas une classe precise.
-func _find_sibling_locked_visual() -> Node:
-	for child in get_parent().get_children():
-		if child.has_method("set_locked"):
-			return child
-	return null
-
-func _find_sibling_interactable_2d() -> InteractableComponent2D:
+func _find_sibling_interactable() -> InteractableComponent2D:
 	for child in get_parent().get_children():
 		if child is InteractableComponent2D:
 			return child
@@ -203,23 +164,29 @@ func get_available_subjects() -> Array[Subject]:
 	result.sort()
 	return result
 
-func _find_sibling_interactable() -> InteractableComponent:
-	for child in get_parent().get_children():
-		if child is InteractableComponent:
-			return child
-	return null
-
+## Toutes les classes sont accessibles des le depart (2026-08-29, retour utilisateur : plus de
+## deblocage payant - un enfant qui commence a un niveau donne peut reviser les classes
+## precedentes ou tester les classes superieures sans rien acheter) : l'ancien blocage via
+## GradeUnlock.is_unlocked() est retire ici, ainsi que l'ecoute de GradeUnlock.grade_unlocked et
+## le grisage de la capsule dans _ready() (deja invisible en jeu, voir school.tscn -
+## CapsuleVisual/visible=false, remplace par ProfVisual).
+## Limite quotidienne de jeu (2026-09-06, retour utilisateur : "remise a zero a minuit, on
+## applique cette mod maintenant") : verifiee ICI, avant meme de proposer le choix de matiere -
+## une session DEJA en cours (SubjectSelectPanel ou QuestionPanel deja ouvert) n'est jamais
+## interrompue par cette limite, seul le lancement d'un NOUVEAU pack est bloque. Emet
+## daily_limit_reached (voir son commentaire ci-dessus) plutot que pack_unavailable depuis le
+## 2026-09-06, 2e passe - petit popup dedie au lieu de la fenetre complete de QuestionPanel.
 func _on_interacted(_who: Node) -> void:
-	if not GradeUnlock.is_unlocked(grade):
-		pack_unavailable.emit(self, "Classe verrouillée ! Débloque le %s en boutique (%d pièces %s)." % [
-			GradeLevel.get_label(grade), GradeUnlock.UNLOCK_PRICE, CardRarity.get_label(GradeUnlock.get_unlock_currency())
-		])
-		return
 	if question_pool.is_empty():
+		return
+	if SaveManager.has_reached_daily_game_limit():
+		daily_limit_reached.emit(self)
 		return
 	subject_selection_requested.emit(self, grade, get_available_subjects())
 
-## Appele par l'UI (SubjectSelectPanel, partagee par tous les PNJ) une fois la matiere choisie.
+## Appele via EventBus.subject_selected (voir _ready et event_bus.gd), pas via une connexion
+## posee dans le .tscn. Diffuse a tous les PNJ a la fois - le filtre "source != self" ci-dessous
+## est donc essentiel, pas une securite superflue.
 func start_pack_for_subject(source: Node, subject: Subject) -> void:
 	if source != self:
 		return
@@ -245,7 +212,7 @@ func start_pack_for_subject(source: Node, subject: Subject) -> void:
 ## tirage y est donc toujours integral, sans variation possible, ce qui est attendu (pas de pool
 ## plus large prevu pour cette classe). L'UI affiche d'abord le texte (ReadingIntroPanel) avant
 ## d'enchainer sur les questions, voir reading_pack_started.
-func _start_reading_pack(source: Node) -> void:
+func _start_reading_pack(_source: Node) -> void:
 	var passages := _load_passages_for_grade(grade)
 	if passages.is_empty():
 		pack_unavailable.emit(self, "Pas encore de texte de %s pour le %s !" % [SubjectType.get_label(Subject.READING), GradeLevel.get_label(grade)])
@@ -330,14 +297,14 @@ func _compute_review_quotas(scope: Array[Grade], idx: int) -> Array:
 	if idx == 0:
 		return [[scope[0], PACK_SIZE]]
 	if idx == scope.size() - 1:
-		var weights: Array[float] = []
+		var equal_weights: Array[float] = []
 		for _g in scope:
-			weights.append(1.0)
-		var counts := _distribute_quota(weights, PACK_SIZE)
-		var quotas: Array = []
+			equal_weights.append(1.0)
+		var equal_counts := _distribute_quota(equal_weights, PACK_SIZE)
+		var equal_quotas: Array = []
 		for i in scope.size():
-			quotas.append([scope[i], counts[i]])
-		return quotas
+			equal_quotas.append([scope[i], equal_counts[i]])
+		return equal_quotas
 	var weights: Array[float] = [2.0]
 	for _i in range(idx):
 		weights.append(1.0)

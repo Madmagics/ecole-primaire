@@ -1,0 +1,4008 @@
+[gd_resource type="Resource" script_class="QuestionBankResource" format=3 uid="uid://bxrcbmpnkswds"]
+
+[ext_resource type="Script" uid="uid://dfbr3elc3mbig" path="res://data/question/question_resource.gd" id="1_ci8d3"]
+[ext_resource type="Script" uid="uid://c422qc1cinnna" path="res://data/question/question_bank_resource.gd" id="2_tn1pa"]
+
+[sub_resource type="Resource" id="Resource_ci8d3"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 1, 2, 4, 5, 7, …"
+correct_answer = "8"
+choices = Array[String](["9", "6", "10"])
+
+[sub_resource type="Resource" id="Resource_tn1pa"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 2, 4, 8, 16, …"
+correct_answer = "32"
+choices = Array[String](["24", "18", "20"])
+
+[sub_resource type="Resource" id="Resource_du5fe"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "L'oiseau vole. Le poisson…"
+correct_answer = "nage"
+choices = Array[String](["court", "saute", "marche"])
+
+[sub_resource type="Resource" id="Resource_b0fle"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le jour est à la nuit ce que le chaud est…"
+correct_answer = "au froid"
+choices = Array[String](["à la pluie", "à l'été", "au vent"])
+
+[sub_resource type="Resource" id="Resource_qvffr"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Tous les chats sont des animaux. Félix est un chat. Donc Félix est…"
+correct_answer = "un animal"
+choices = Array[String](["un chien", "une plante", "un objet"])
+
+[sub_resource type="Resource" id="Resource_45s1w"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Lequel de ces aliments n'est pas un fruit ? 🍎 🍌 🥕 🍊"
+correct_answer = "🥕"
+choices = Array[String](["🍎", "🍌", "🍊"])
+
+[sub_resource type="Resource" id="Resource_q6kuk"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quelle lettre vient après ? A, D, G, J, …"
+correct_answer = "M"
+choices = Array[String](["L", "K", "N"])
+
+[sub_resource type="Resource" id="Resource_174mo"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Dans une grille, le rond est en haut à gauche. On le déplace de 2 cases vers la droite. Où est-il ?"
+correct_answer = "en haut à droite"
+choices = Array[String](["en bas à gauche", "au milieu", "en bas à droite"])
+
+[sub_resource type="Resource" id="Resource_1u6j7"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 32, 16, 8, 4, …"
+correct_answer = "2"
+choices = Array[String](["1", "6", "0"])
+
+[sub_resource type="Resource" id="Resource_gy4f3"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Léo est plus grand que Zoé. Zoé est plus grand que Nino. Qui est le plus petit ?"
+correct_answer = "Nino"
+choices = Array[String](["Léo", "Zoé", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_eskbm"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 22, 29, 38, 45, 54, …"
+correct_answer = "61"
+choices = Array[String](["62", "60", "54"])
+
+[sub_resource type="Resource" id="Resource_o3kwj"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 3, 10, 6, 13, 9, …"
+correct_answer = "16"
+choices = Array[String](["17", "15", "9"])
+
+[sub_resource type="Resource" id="Resource_2uxw3"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 12, 16, 18, 22, 24, …"
+correct_answer = "28"
+choices = Array[String](["29", "27", "24"])
+
+[sub_resource type="Resource" id="Resource_8g7ob"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 48, 51, 38, 41, 28, …"
+correct_answer = "31"
+choices = Array[String](["32", "30", "28"])
+
+[sub_resource type="Resource" id="Resource_yn2gc"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 45, 55, 48, 58, 51, …"
+correct_answer = "61"
+choices = Array[String](["62", "60", "51"])
+
+[sub_resource type="Resource" id="Resource_shd62"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 79, 81, 75, 77, 71, …"
+correct_answer = "73"
+choices = Array[String](["74", "72", "71"])
+
+[sub_resource type="Resource" id="Resource_henyi"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 75, 78, 80, 83, 85, …"
+correct_answer = "88"
+choices = Array[String](["89", "87", "85"])
+
+[sub_resource type="Resource" id="Resource_2jjv0"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 13, 15, 10, 12, 7, …"
+correct_answer = "9"
+choices = Array[String](["10", "8", "7"])
+
+[sub_resource type="Resource" id="Resource_udli0"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 61, 67, 74, 80, 87, …"
+correct_answer = "93"
+choices = Array[String](["94", "92", "87"])
+
+[sub_resource type="Resource" id="Resource_yu4wv"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 24, 32, 47, 55, 70, …"
+correct_answer = "78"
+choices = Array[String](["79", "77", "70"])
+
+[sub_resource type="Resource" id="Resource_7c8se"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 6, 9, 14, 17, 22, …"
+correct_answer = "25"
+choices = Array[String](["26", "24", "22"])
+
+[sub_resource type="Resource" id="Resource_elyh8"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 47, 59, 47, 59, 47, …"
+correct_answer = "59"
+choices = Array[String](["60", "58", "47"])
+
+[sub_resource type="Resource" id="Resource_47a5a"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 75, 89, 81, 95, 87, …"
+correct_answer = "101"
+choices = Array[String](["102", "100", "87"])
+
+[sub_resource type="Resource" id="Resource_n5gbp"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 29, 42, 51, 64, 73, …"
+correct_answer = "86"
+choices = Array[String](["87", "85", "73"])
+
+[sub_resource type="Resource" id="Resource_35bnn"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 78, 86, 78, 86, 78, …"
+correct_answer = "86"
+choices = Array[String](["87", "85", "78"])
+
+[sub_resource type="Resource" id="Resource_u5dtk"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 35, 49, 63, 77, 91, …"
+correct_answer = "105"
+choices = Array[String](["106", "104", "91"])
+
+[sub_resource type="Resource" id="Resource_4s5u4"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 1, 4, 5, 8, 9, …"
+correct_answer = "12"
+choices = Array[String](["13", "11", "9"])
+
+[sub_resource type="Resource" id="Resource_t4lxg"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 45, 55, 42, 52, 39, …"
+correct_answer = "49"
+choices = Array[String](["50", "48", "39"])
+
+[sub_resource type="Resource" id="Resource_henj8"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 14, 24, 20, 30, 26, …"
+correct_answer = "36"
+choices = Array[String](["37", "35", "26"])
+
+[sub_resource type="Resource" id="Resource_50hio"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 28, 34, 40, 46, 52, …"
+correct_answer = "58"
+choices = Array[String](["59", "57", "52"])
+
+[sub_resource type="Resource" id="Resource_xggpe"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 55, 65, 77, 87, 99, …"
+correct_answer = "109"
+choices = Array[String](["110", "108", "99"])
+
+[sub_resource type="Resource" id="Resource_jrb0k"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 15, 28, 27, 40, 39, …"
+correct_answer = "52"
+choices = Array[String](["53", "51", "39"])
+
+[sub_resource type="Resource" id="Resource_llkj4"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 79, 82, 85, 88, 91, …"
+correct_answer = "94"
+choices = Array[String](["95", "93", "91"])
+
+[sub_resource type="Resource" id="Resource_fa8ns"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 34, 45, 50, 61, 66, …"
+correct_answer = "77"
+choices = Array[String](["78", "76", "66"])
+
+[sub_resource type="Resource" id="Resource_f75e1"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 35, 37, 36, 38, 37, …"
+correct_answer = "39"
+choices = Array[String](["40", "38", "37"])
+
+[sub_resource type="Resource" id="Resource_wv3ot"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 7, 10, 22, 25, 37, …"
+correct_answer = "40"
+choices = Array[String](["41", "39", "37"])
+
+[sub_resource type="Resource" id="Resource_5iwv8"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 8, 13, 5, 10, 2, …"
+correct_answer = "7"
+choices = Array[String](["8", "6", "2"])
+
+[sub_resource type="Resource" id="Resource_bwtdp"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 69, 78, 65, 74, 61, …"
+correct_answer = "70"
+choices = Array[String](["71", "69", "61"])
+
+[sub_resource type="Resource" id="Resource_6833y"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 36, 49, 57, 70, 78, …"
+correct_answer = "91"
+choices = Array[String](["92", "90", "78"])
+
+[sub_resource type="Resource" id="Resource_jxxc6"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 51, 59, 54, 62, 57, …"
+correct_answer = "65"
+choices = Array[String](["66", "64", "57"])
+
+[sub_resource type="Resource" id="Resource_oi3kb"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 9, 14, 5, 10, 1, …"
+correct_answer = "6"
+choices = Array[String](["7", "5", "1"])
+
+[sub_resource type="Resource" id="Resource_ui0y4"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 16, 22, 27, 33, 38, …"
+correct_answer = "44"
+choices = Array[String](["45", "43", "38"])
+
+[sub_resource type="Resource" id="Resource_2jfuk"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 56, 67, 70, 81, 84, …"
+correct_answer = "95"
+choices = Array[String](["96", "94", "84"])
+
+[sub_resource type="Resource" id="Resource_yebjh"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 56, 63, 52, 59, 48, …"
+correct_answer = "55"
+choices = Array[String](["56", "54", "48"])
+
+[sub_resource type="Resource" id="Resource_dyw3k"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 35, 37, 42, 44, 49, …"
+correct_answer = "51"
+choices = Array[String](["52", "50", "49"])
+
+[sub_resource type="Resource" id="Resource_7ksve"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 31, 43, 34, 46, 37, …"
+correct_answer = "49"
+choices = Array[String](["50", "48", "37"])
+
+[sub_resource type="Resource" id="Resource_px2tp"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 52, 60, 58, 66, 64, …"
+correct_answer = "72"
+choices = Array[String](["73", "71", "64"])
+
+[sub_resource type="Resource" id="Resource_esh5h"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 32, 44, 41, 53, 50, …"
+correct_answer = "62"
+choices = Array[String](["63", "61", "50"])
+
+[sub_resource type="Resource" id="Resource_e5dnh"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 67, 70, 66, 69, 65, …"
+correct_answer = "68"
+choices = Array[String](["69", "67", "65"])
+
+[sub_resource type="Resource" id="Resource_bi62s"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 63, 65, 59, 61, 55, …"
+correct_answer = "57"
+choices = Array[String](["58", "56", "55"])
+
+[sub_resource type="Resource" id="Resource_sub2r"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 10, 13, 28, 31, 46, …"
+correct_answer = "49"
+choices = Array[String](["50", "48", "46"])
+
+[sub_resource type="Resource" id="Resource_6n5cb"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 51, 66, 51, 66, 51, …"
+correct_answer = "66"
+choices = Array[String](["67", "65", "51"])
+
+[sub_resource type="Resource" id="Resource_03m2d"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 28, 35, 25, 32, 22, …"
+correct_answer = "29"
+choices = Array[String](["30", "28", "22"])
+
+[sub_resource type="Resource" id="Resource_0ciuf"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 0, 4, 7, 11, 14, …"
+correct_answer = "18"
+choices = Array[String](["19", "17", "14"])
+
+[sub_resource type="Resource" id="Resource_rjhie"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 68, 74, 79, 85, 90, …"
+correct_answer = "96"
+choices = Array[String](["97", "95", "90"])
+
+[sub_resource type="Resource" id="Resource_f56aw"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 21, 33, 37, 49, 53, …"
+correct_answer = "65"
+choices = Array[String](["66", "64", "53"])
+
+[sub_resource type="Resource" id="Resource_aqx4p"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 9, 13, 22, 26, 35, …"
+correct_answer = "39"
+choices = Array[String](["40", "38", "35"])
+
+[sub_resource type="Resource" id="Resource_wp64j"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 68, 70, 68, 70, 68, …"
+correct_answer = "70"
+choices = Array[String](["71", "69", "68"])
+
+[sub_resource type="Resource" id="Resource_20n8g"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 51, 60, 59, 68, 67, …"
+correct_answer = "76"
+choices = Array[String](["77", "75", "67"])
+
+[sub_resource type="Resource" id="Resource_whyex"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 79, 82, 87, 90, 95, …"
+correct_answer = "98"
+choices = Array[String](["99", "97", "95"])
+
+[sub_resource type="Resource" id="Resource_oaqdo"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 69, 81, 79, 91, 89, …"
+correct_answer = "101"
+choices = Array[String](["102", "100", "89"])
+
+[sub_resource type="Resource" id="Resource_0mncf"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 79, 89, 74, 84, 69, …"
+correct_answer = "79"
+choices = Array[String](["80", "78", "69"])
+
+[sub_resource type="Resource" id="Resource_7qra2"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 4, 18, 23, 37, 42, …"
+correct_answer = "56"
+choices = Array[String](["57", "55", "42"])
+
+[sub_resource type="Resource" id="Resource_g7pco"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 24, 37, 41, 54, 58, …"
+correct_answer = "71"
+choices = Array[String](["72", "70", "58"])
+
+[sub_resource type="Resource" id="Resource_ti663"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 54, 63, 65, 74, 76, …"
+correct_answer = "85"
+choices = Array[String](["86", "84", "76"])
+
+[sub_resource type="Resource" id="Resource_qnmpa"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 47, 59, 54, 66, 61, …"
+correct_answer = "73"
+choices = Array[String](["74", "72", "61"])
+
+[sub_resource type="Resource" id="Resource_j6rcb"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 19, 23, 13, 17, 7, …"
+correct_answer = "11"
+choices = Array[String](["12", "10", "7"])
+
+[sub_resource type="Resource" id="Resource_qsvvn"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 20, 25, 20, 25, 20, …"
+correct_answer = "25"
+choices = Array[String](["26", "24", "20"])
+
+[sub_resource type="Resource" id="Resource_xs553"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 22, 33, 30, 41, 38, …"
+correct_answer = "49"
+choices = Array[String](["50", "48", "38"])
+
+[sub_resource type="Resource" id="Resource_51ljt"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 60, 65, 57, 62, 54, …"
+correct_answer = "59"
+choices = Array[String](["60", "58", "54"])
+
+[sub_resource type="Resource" id="Resource_r2aot"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 208, 104, 52, 26, …"
+correct_answer = "13"
+choices = Array[String](["14", "12", "0"])
+
+[sub_resource type="Resource" id="Resource_hdiqy"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 192, 96, 48, 24, …"
+correct_answer = "12"
+choices = Array[String](["13", "11", "0"])
+
+[sub_resource type="Resource" id="Resource_fflte"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 128, 64, 32, 16, …"
+correct_answer = "8"
+choices = Array[String](["9", "7", "0"])
+
+[sub_resource type="Resource" id="Resource_wlkec"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 160, 80, 40, 20, …"
+correct_answer = "10"
+choices = Array[String](["11", "9", "0"])
+
+[sub_resource type="Resource" id="Resource_c8g1m"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 9, 18, 36, 72, …"
+correct_answer = "144"
+choices = Array[String](["145", "143", "108"])
+
+[sub_resource type="Resource" id="Resource_d4bar"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 16, 32, 64, 128, …"
+correct_answer = "256"
+choices = Array[String](["257", "255", "192"])
+
+[sub_resource type="Resource" id="Resource_jsn07"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 12, 24, 48, 96, …"
+correct_answer = "192"
+choices = Array[String](["193", "191", "144"])
+
+[sub_resource type="Resource" id="Resource_uwcif"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 14, 28, 56, 112, …"
+correct_answer = "224"
+choices = Array[String](["225", "223", "168"])
+
+[sub_resource type="Resource" id="Resource_syuyv"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 80, 40, 20, 10, …"
+correct_answer = "5"
+choices = Array[String](["6", "4", "0"])
+
+[sub_resource type="Resource" id="Resource_xywde"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 8, 16, 32, 64, …"
+correct_answer = "128"
+choices = Array[String](["129", "127", "96"])
+
+[sub_resource type="Resource" id="Resource_8l8mr"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 16, 8, 4, 2, …"
+correct_answer = "1"
+choices = Array[String](["2", "0", "4"])
+
+[sub_resource type="Resource" id="Resource_1i8a0"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 7, 14, 28, 56, …"
+correct_answer = "112"
+choices = Array[String](["113", "111", "84"])
+
+[sub_resource type="Resource" id="Resource_ty5tl"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 176, 88, 44, 22, …"
+correct_answer = "11"
+choices = Array[String](["12", "10", "0"])
+
+[sub_resource type="Resource" id="Resource_qe870"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 10, 20, 40, 80, …"
+correct_answer = "160"
+choices = Array[String](["161", "159", "120"])
+
+[sub_resource type="Resource" id="Resource_nsc14"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 224, 112, 56, 28, …"
+correct_answer = "14"
+choices = Array[String](["15", "13", "0"])
+
+[sub_resource type="Resource" id="Resource_esb75"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 15, 30, 60, 120, …"
+correct_answer = "240"
+choices = Array[String](["241", "239", "180"])
+
+[sub_resource type="Resource" id="Resource_8dojy"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 17, 34, 68, 136, …"
+correct_answer = "272"
+choices = Array[String](["273", "271", "204"])
+
+[sub_resource type="Resource" id="Resource_c5w4b"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 1, 2, 4, 8, …"
+correct_answer = "16"
+choices = Array[String](["17", "15", "12"])
+
+[sub_resource type="Resource" id="Resource_ht3np"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 18, 36, 72, 144, …"
+correct_answer = "288"
+choices = Array[String](["289", "287", "216"])
+
+[sub_resource type="Resource" id="Resource_nopao"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 4, 8, 16, 32, …"
+correct_answer = "64"
+choices = Array[String](["65", "63", "48"])
+
+[sub_resource type="Resource" id="Resource_o0l14"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 20, 40, 80, 160, …"
+correct_answer = "320"
+choices = Array[String](["321", "319", "240"])
+
+[sub_resource type="Resource" id="Resource_xlhkn"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 144, 72, 36, 18, …"
+correct_answer = "9"
+choices = Array[String](["10", "8", "0"])
+
+[sub_resource type="Resource" id="Resource_nx5un"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 13, 26, 52, 104, …"
+correct_answer = "208"
+choices = Array[String](["209", "207", "156"])
+
+[sub_resource type="Resource" id="Resource_n585h"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 240, 120, 60, 30, …"
+correct_answer = "15"
+choices = Array[String](["16", "14", "0"])
+
+[sub_resource type="Resource" id="Resource_dreba"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 3, 6, 12, 24, …"
+correct_answer = "48"
+choices = Array[String](["49", "47", "36"])
+
+[sub_resource type="Resource" id="Resource_8krow"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 11, 22, 44, 88, …"
+correct_answer = "176"
+choices = Array[String](["177", "175", "132"])
+
+[sub_resource type="Resource" id="Resource_u5c2b"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 48, 24, 12, 6, …"
+correct_answer = "3"
+choices = Array[String](["4", "2", "0"])
+
+[sub_resource type="Resource" id="Resource_8d6nf"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 19, 38, 76, 152, …"
+correct_answer = "304"
+choices = Array[String](["305", "303", "228"])
+
+[sub_resource type="Resource" id="Resource_5a7s7"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 112, 56, 28, 14, …"
+correct_answer = "7"
+choices = Array[String](["8", "6", "0"])
+
+[sub_resource type="Resource" id="Resource_dkmm1"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quel nombre vient après ? 64, 32, 16, 8, …"
+correct_answer = "4"
+choices = Array[String](["5", "3", "0"])
+
+[sub_resource type="Resource" id="Resource_4wdod"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le poisson nage. Le kangourou…"
+correct_answer = "bondit"
+choices = Array[String](["nage", "grimpe", "rampe"])
+
+[sub_resource type="Resource" id="Resource_eva4a"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "La grenouille saute. La chèvre…"
+correct_answer = "grimpe"
+choices = Array[String](["saute", "glisse", "bondit"])
+
+[sub_resource type="Resource" id="Resource_gdyel"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "L'oiseau vole. La grenouille…"
+correct_answer = "saute"
+choices = Array[String](["vole", "galope", "glisse"])
+
+[sub_resource type="Resource" id="Resource_31y47"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "La chèvre grimpe. L'escargot…"
+correct_answer = "glisse"
+choices = Array[String](["grimpe", "bondit", "nage"])
+
+[sub_resource type="Resource" id="Resource_3maoi"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "La grenouille saute. L'oiseau…"
+correct_answer = "vole"
+choices = Array[String](["saute", "bondit", "glisse"])
+
+[sub_resource type="Resource" id="Resource_wbj7s"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "La chèvre grimpe. Le kangourou…"
+correct_answer = "bondit"
+choices = Array[String](["grimpe", "saute", "vole"])
+
+[sub_resource type="Resource" id="Resource_ew4nq"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "L'oiseau vole. Le cheval…"
+correct_answer = "galope"
+choices = Array[String](["vole", "grimpe", "bondit"])
+
+[sub_resource type="Resource" id="Resource_vfwsq"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le kangourou bondit. L'oiseau…"
+correct_answer = "vole"
+choices = Array[String](["bondit", "grimpe", "glisse"])
+
+[sub_resource type="Resource" id="Resource_dw6im"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "La chèvre grimpe. Le serpent…"
+correct_answer = "rampe"
+choices = Array[String](["grimpe", "glisse", "bondit"])
+
+[sub_resource type="Resource" id="Resource_tp2d2"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le kangourou bondit. L'escargot…"
+correct_answer = "glisse"
+choices = Array[String](["bondit", "rampe", "saute"])
+
+[sub_resource type="Resource" id="Resource_5hh0d"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le cheval galope. L'oiseau…"
+correct_answer = "vole"
+choices = Array[String](["galope", "rampe", "glisse"])
+
+[sub_resource type="Resource" id="Resource_j0hjo"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le cheval galope. Le kangourou…"
+correct_answer = "bondit"
+choices = Array[String](["galope", "vole", "grimpe"])
+
+[sub_resource type="Resource" id="Resource_wys1d"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le poisson nage. Le serpent…"
+correct_answer = "rampe"
+choices = Array[String](["nage", "grimpe", "bondit"])
+
+[sub_resource type="Resource" id="Resource_m0dcx"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le cheval galope. Le serpent…"
+correct_answer = "rampe"
+choices = Array[String](["galope", "grimpe", "nage"])
+
+[sub_resource type="Resource" id="Resource_4tv6r"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le serpent rampe. Le cheval…"
+correct_answer = "galope"
+choices = Array[String](["rampe", "grimpe", "vole"])
+
+[sub_resource type="Resource" id="Resource_h3cmu"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "L'escargot glisse. Le serpent…"
+correct_answer = "rampe"
+choices = Array[String](["glisse", "nage", "saute"])
+
+[sub_resource type="Resource" id="Resource_nnrdr"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "L'oiseau vole. Le kangourou…"
+correct_answer = "bondit"
+choices = Array[String](["vole", "grimpe", "galope"])
+
+[sub_resource type="Resource" id="Resource_76dte"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le kangourou bondit. Le serpent…"
+correct_answer = "rampe"
+choices = Array[String](["bondit", "galope", "saute"])
+
+[sub_resource type="Resource" id="Resource_4pm3e"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "La chèvre grimpe. La grenouille…"
+correct_answer = "saute"
+choices = Array[String](["grimpe", "rampe", "bondit"])
+
+[sub_resource type="Resource" id="Resource_43t6h"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le poisson nage. Le cheval…"
+correct_answer = "galope"
+choices = Array[String](["nage", "glisse", "bondit"])
+
+[sub_resource type="Resource" id="Resource_hu633"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le kangourou bondit. La chèvre…"
+correct_answer = "grimpe"
+choices = Array[String](["bondit", "nage", "rampe"])
+
+[sub_resource type="Resource" id="Resource_7570h"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "L'oiseau vole. La chèvre…"
+correct_answer = "grimpe"
+choices = Array[String](["vole", "rampe", "nage"])
+
+[sub_resource type="Resource" id="Resource_574uv"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "L'escargot glisse. Le poisson…"
+correct_answer = "nage"
+choices = Array[String](["glisse", "saute", "vole"])
+
+[sub_resource type="Resource" id="Resource_8gh52"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le cheval galope. Le poisson…"
+correct_answer = "nage"
+choices = Array[String](["galope", "saute", "grimpe"])
+
+[sub_resource type="Resource" id="Resource_87cft"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "La grenouille saute. Le kangourou…"
+correct_answer = "bondit"
+choices = Array[String](["saute", "vole", "glisse"])
+
+[sub_resource type="Resource" id="Resource_2nxpu"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le cheval galope. La chèvre…"
+correct_answer = "grimpe"
+choices = Array[String](["galope", "saute", "nage"])
+
+[sub_resource type="Resource" id="Resource_m6lbj"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le poisson nage. L'oiseau…"
+correct_answer = "vole"
+choices = Array[String](["nage", "glisse", "rampe"])
+
+[sub_resource type="Resource" id="Resource_d7etk"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "L'escargot glisse. L'oiseau…"
+correct_answer = "vole"
+choices = Array[String](["glisse", "rampe", "bondit"])
+
+[sub_resource type="Resource" id="Resource_3juhd"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le cheval galope. La grenouille…"
+correct_answer = "saute"
+choices = Array[String](["galope", "grimpe", "rampe"])
+
+[sub_resource type="Resource" id="Resource_urgve"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "L'escargot glisse. La chèvre…"
+correct_answer = "grimpe"
+choices = Array[String](["glisse", "nage", "rampe"])
+
+[sub_resource type="Resource" id="Resource_wi6cr"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "La taupe vit sous terre. L'oiseau…"
+correct_answer = "vit dans un nid"
+choices = Array[String](["vit sous terre", "vit dans une toile", "vit dans un bocal"])
+
+[sub_resource type="Resource" id="Resource_xh6nk"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le lapin vit dans un terrier. L'araignée…"
+correct_answer = "vit dans une toile"
+choices = Array[String](["vit dans un terrier", "vit dans une tanière", "vit dans un nid"])
+
+[sub_resource type="Resource" id="Resource_nfpes"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "La taupe vit sous terre. Le lapin…"
+correct_answer = "vit dans un terrier"
+choices = Array[String](["vit sous terre", "vit dans une tanière", "vit dans une toile"])
+
+[sub_resource type="Resource" id="Resource_ethxk"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "L'abeille vit dans une ruche. Le lapin…"
+correct_answer = "vit dans un terrier"
+choices = Array[String](["vit dans une ruche", "vit dans une toile", "vit dans une tanière"])
+
+[sub_resource type="Resource" id="Resource_o62p7"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le poisson rouge vit dans un bocal. L'oiseau…"
+correct_answer = "vit dans un nid"
+choices = Array[String](["vit dans un bocal", "vit dans un terrier", "vit dans une tanière"])
+
+[sub_resource type="Resource" id="Resource_bwrkr"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "L'abeille vit dans une ruche. L'araignée…"
+correct_answer = "vit dans une toile"
+choices = Array[String](["vit dans une ruche", "vit dans l'eau", "vit dans une tanière"])
+
+[sub_resource type="Resource" id="Resource_ar86o"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "L'oiseau vit dans un nid. La taupe…"
+correct_answer = "vit sous terre"
+choices = Array[String](["vit dans un nid", "vit dans un terrier", "vit dans une ruche"])
+
+[sub_resource type="Resource" id="Resource_dk5o5"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "L'araignée vit dans une toile. L'ours…"
+correct_answer = "vit dans une tanière"
+choices = Array[String](["vit dans une toile", "vit dans l'eau", "vit dans une ruche"])
+
+[sub_resource type="Resource" id="Resource_8n10x"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "L'araignée vit dans une toile. Le poisson rouge…"
+correct_answer = "vit dans un bocal"
+choices = Array[String](["vit dans une toile", "vit dans un nid", "vit dans l'eau"])
+
+[sub_resource type="Resource" id="Resource_jdgaf"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le poisson rouge vit dans un bocal. Le poisson…"
+correct_answer = "vit dans l'eau"
+choices = Array[String](["vit dans un bocal", "vit dans un terrier", "vit dans une ruche"])
+
+[sub_resource type="Resource" id="Resource_3mexb"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "L'araignée vit dans une toile. L'abeille…"
+correct_answer = "vit dans une ruche"
+choices = Array[String](["vit dans une toile", "vit dans un bocal", "vit dans l'eau"])
+
+[sub_resource type="Resource" id="Resource_o3rhv"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le poisson rouge vit dans un bocal. L'abeille…"
+correct_answer = "vit dans une ruche"
+choices = Array[String](["vit dans un bocal", "vit dans un nid", "vit sous terre"])
+
+[sub_resource type="Resource" id="Resource_aow3l"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le poisson vit dans l'eau. Le poisson rouge…"
+correct_answer = "vit dans un bocal"
+choices = Array[String](["vit dans l'eau", "vit dans une tanière", "vit dans un nid"])
+
+[sub_resource type="Resource" id="Resource_53ei3"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le poisson vit dans l'eau. La taupe…"
+correct_answer = "vit sous terre"
+choices = Array[String](["vit dans l'eau", "vit dans un terrier", "vit dans un nid"])
+
+[sub_resource type="Resource" id="Resource_mu7p7"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "L'ours vit dans une tanière. La taupe…"
+correct_answer = "vit sous terre"
+choices = Array[String](["vit dans une tanière", "vit dans un bocal", "vit dans un terrier"])
+
+[sub_resource type="Resource" id="Resource_e5erl"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "L'araignée vit dans une toile. La taupe…"
+correct_answer = "vit sous terre"
+choices = Array[String](["vit dans une toile", "vit dans une tanière", "vit dans un nid"])
+
+[sub_resource type="Resource" id="Resource_qypnq"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "L'oiseau vit dans un nid. Le lapin…"
+correct_answer = "vit dans un terrier"
+choices = Array[String](["vit dans un nid", "vit dans l'eau", "vit dans un bocal"])
+
+[sub_resource type="Resource" id="Resource_xitfs"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "L'abeille vit dans une ruche. L'oiseau…"
+correct_answer = "vit dans un nid"
+choices = Array[String](["vit dans une ruche", "vit dans une toile", "vit dans l'eau"])
+
+[sub_resource type="Resource" id="Resource_nxpy4"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le lapin vit dans un terrier. La taupe…"
+correct_answer = "vit sous terre"
+choices = Array[String](["vit dans un terrier", "vit dans un bocal", "vit dans une toile"])
+
+[sub_resource type="Resource" id="Resource_1eub8"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "L'oiseau vit dans un nid. L'ours…"
+correct_answer = "vit dans une tanière"
+choices = Array[String](["vit dans un nid", "vit dans un bocal", "vit dans un terrier"])
+
+[sub_resource type="Resource" id="Resource_oxjye"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le poisson rouge vit dans un bocal. L'araignée…"
+correct_answer = "vit dans une toile"
+choices = Array[String](["vit dans un bocal", "vit dans un terrier", "vit dans l'eau"])
+
+[sub_resource type="Resource" id="Resource_ntb4i"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "L'araignée vit dans une toile. L'oiseau…"
+correct_answer = "vit dans un nid"
+choices = Array[String](["vit dans une toile", "vit sous terre", "vit dans l'eau"])
+
+[sub_resource type="Resource" id="Resource_pdiba"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "La taupe vit sous terre. L'ours…"
+correct_answer = "vit dans une tanière"
+choices = Array[String](["vit sous terre", "vit dans un terrier", "vit dans une toile"])
+
+[sub_resource type="Resource" id="Resource_ojctt"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "L'ours vit dans une tanière. Le poisson rouge…"
+correct_answer = "vit dans un bocal"
+choices = Array[String](["vit dans une tanière", "vit dans un terrier", "vit dans une ruche"])
+
+[sub_resource type="Resource" id="Resource_sbk4m"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le lapin vit dans un terrier. L'ours…"
+correct_answer = "vit dans une tanière"
+choices = Array[String](["vit dans un terrier", "vit dans une toile", "vit dans l'eau"])
+
+[sub_resource type="Resource" id="Resource_nv53w"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le poisson vit dans l'eau. L'araignée…"
+correct_answer = "vit dans une toile"
+choices = Array[String](["vit dans l'eau", "vit dans un bocal", "vit sous terre"])
+
+[sub_resource type="Resource" id="Resource_n7sbl"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le lapin vit dans un terrier. Le poisson rouge…"
+correct_answer = "vit dans un bocal"
+choices = Array[String](["vit dans un terrier", "vit dans une toile", "vit dans une tanière"])
+
+[sub_resource type="Resource" id="Resource_bl036"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "L'oiseau vit dans un nid. L'araignée…"
+correct_answer = "vit dans une toile"
+choices = Array[String](["vit dans un nid", "vit dans un bocal", "vit dans l'eau"])
+
+[sub_resource type="Resource" id="Resource_ius8e"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "L'ours vit dans une tanière. Le lapin…"
+correct_answer = "vit dans un terrier"
+choices = Array[String](["vit dans une tanière", "vit dans un nid", "vit sous terre"])
+
+[sub_resource type="Resource" id="Resource_dsifj"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le lapin vit dans un terrier. L'abeille…"
+correct_answer = "vit dans une ruche"
+choices = Array[String](["vit dans un terrier", "vit sous terre", "vit dans un bocal"])
+
+[sub_resource type="Resource" id="Resource_1ww67"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Toutes les fraises sont des fruits. Zoé a rencontré une fraise. C'est donc…"
+correct_answer = "un fruit"
+choices = Array[String](["un instrument de musique", "un légume", "un animal"])
+
+[sub_resource type="Resource" id="Resource_rbcq5"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Toutes les tomates sont des légumes. Léa a rencontré une tomate. C'est donc…"
+correct_answer = "un légume"
+choices = Array[String](["un animal", "un véhicule", "un instrument de musique"])
+
+[sub_resource type="Resource" id="Resource_f2lne"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Toutes les courgettes sont des légumes. Emma a rencontré une courgette. C'est donc…"
+correct_answer = "un légume"
+choices = Array[String](["une fleur", "un véhicule", "un animal"])
+
+[sub_resource type="Resource" id="Resource_d2k82"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Toutes les carottes sont des légumes. Enzo a rencontré une carotte. C'est donc…"
+correct_answer = "un légume"
+choices = Array[String](["un véhicule", "une fleur", "un instrument de musique"])
+
+[sub_resource type="Resource" id="Resource_k08cf"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Tous les lapins sont des animaux. Zoé a rencontré un lapin. C'est donc…"
+correct_answer = "un animal"
+choices = Array[String](["un instrument de musique", "un véhicule", "un fruit"])
+
+[sub_resource type="Resource" id="Resource_yuwcm"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Tous les chiens sont des animaux. Léna a rencontré un chien. C'est donc…"
+correct_answer = "un animal"
+choices = Array[String](["un légume", "une fleur", "un instrument de musique"])
+
+[sub_resource type="Resource" id="Resource_g8svl"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Tous les poissons sont des animaux. Lina a rencontré un poisson. C'est donc…"
+correct_answer = "un animal"
+choices = Array[String](["un fruit", "un légume", "un véhicule"])
+
+[sub_resource type="Resource" id="Resource_cnbhy"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Tous les bus sont des véhicules. Adam a rencontré un bus. C'est donc…"
+correct_answer = "un véhicule"
+choices = Array[String](["un légume", "un animal", "une fleur"])
+
+[sub_resource type="Resource" id="Resource_45qcu"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Tous les oiseaux sont des animaux. Jade a rencontré un oiseau. C'est donc…"
+correct_answer = "un animal"
+choices = Array[String](["un fruit", "un instrument de musique", "une fleur"])
+
+[sub_resource type="Resource" id="Resource_gqex1"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Toutes les pommes sont des fruits. Alice a rencontré une pomme. C'est donc…"
+correct_answer = "un fruit"
+choices = Array[String](["un véhicule", "une fleur", "un instrument de musique"])
+
+[sub_resource type="Resource" id="Resource_rqy05"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Toutes les oranges sont des fruits. Camille a rencontré une orange. C'est donc…"
+correct_answer = "un fruit"
+choices = Array[String](["un instrument de musique", "une fleur", "un véhicule"])
+
+[sub_resource type="Resource" id="Resource_12ueh"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Toutes les tulipes sont des fleurs. Mia a rencontré une tulipe. C'est donc…"
+correct_answer = "une fleur"
+choices = Array[String](["un animal", "un légume", "un véhicule"])
+
+[sub_resource type="Resource" id="Resource_phdnk"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Tous les vélos sont des véhicules. Hugo a rencontré un vélo. C'est donc…"
+correct_answer = "un véhicule"
+choices = Array[String](["un légume", "un animal", "un instrument de musique"])
+
+[sub_resource type="Resource" id="Resource_ds34p"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Tous les citrons sont des fruits. Mia a rencontré un citron. C'est donc…"
+correct_answer = "un fruit"
+choices = Array[String](["une fleur", "un véhicule", "un légume"])
+
+[sub_resource type="Resource" id="Resource_e8keu"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Tous les tournesols sont des fleurs. Sacha a rencontré un tournesol. C'est donc…"
+correct_answer = "une fleur"
+choices = Array[String](["un fruit", "un instrument de musique", "un véhicule"])
+
+[sub_resource type="Resource" id="Resource_0fsec"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Tous les chats sont des animaux. Léa a rencontré un chat. C'est donc…"
+correct_answer = "un animal"
+choices = Array[String](["un instrument de musique", "un véhicule", "une fleur"])
+
+[sub_resource type="Resource" id="Resource_qlwfr"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Toutes les marguerites sont des fleurs. Nolan a rencontré une marguerite. C'est donc…"
+correct_answer = "une fleur"
+choices = Array[String](["un véhicule", "un animal", "un fruit"])
+
+[sub_resource type="Resource" id="Resource_10neh"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Toutes les guitares sont des instruments de musique. Emma a rencontré une guitare. C'est donc…"
+correct_answer = "un instrument de musique"
+choices = Array[String](["un légume", "un animal", "un véhicule"])
+
+[sub_resource type="Resource" id="Resource_insll"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Toutes les bananes sont des fruits. Nolan a rencontré une banane. C'est donc…"
+correct_answer = "un fruit"
+choices = Array[String](["un véhicule", "une fleur", "un légume"])
+
+[sub_resource type="Resource" id="Resource_tc5cx"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Toutes les voitures sont des véhicules. Emma a rencontré une voiture. C'est donc…"
+correct_answer = "un véhicule"
+choices = Array[String](["un légume", "un fruit", "un animal"])
+
+[sub_resource type="Resource" id="Resource_dp4r8"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Tous les pianos sont des instruments de musique. Camille a rencontré un piano. C'est donc…"
+correct_answer = "un instrument de musique"
+choices = Array[String](["une fleur", "un animal", "un légume"])
+
+[sub_resource type="Resource" id="Resource_w2r2h"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Toutes les motos sont des véhicules. Camille a rencontré une moto. C'est donc…"
+correct_answer = "un véhicule"
+choices = Array[String](["un animal", "une fleur", "un instrument de musique"])
+
+[sub_resource type="Resource" id="Resource_abotv"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Toutes les flûtes sont des instruments de musique. Léa a rencontré une flûte. C'est donc…"
+correct_answer = "un instrument de musique"
+choices = Array[String](["un légume", "un véhicule", "une fleur"])
+
+[sub_resource type="Resource" id="Resource_iv278"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Tous les camions sont des véhicules. Nolan a rencontré un camion. C'est donc…"
+correct_answer = "un véhicule"
+choices = Array[String](["une fleur", "un instrument de musique", "un légume"])
+
+[sub_resource type="Resource" id="Resource_6fr13"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Tous les poireaux sont des légumes. Léna a rencontré un poireau. C'est donc…"
+correct_answer = "un légume"
+choices = Array[String](["une fleur", "un véhicule", "un instrument de musique"])
+
+[sub_resource type="Resource" id="Resource_8s8qr"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Tous les lions sont des animaux. Nina a rencontré un lion. C'est donc…"
+correct_answer = "un animal"
+choices = Array[String](["une fleur", "un fruit", "un véhicule"])
+
+[sub_resource type="Resource" id="Resource_030be"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Tous les chevaux sont des animaux. Enzo a rencontré un cheval. C'est donc…"
+correct_answer = "un animal"
+choices = Array[String](["un instrument de musique", "un légume", "un fruit"])
+
+[sub_resource type="Resource" id="Resource_d5a7p"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Tous les renards sont des animaux. Tom a rencontré un renard. C'est donc…"
+correct_answer = "un animal"
+choices = Array[String](["un véhicule", "une fleur", "un instrument de musique"])
+
+[sub_resource type="Resource" id="Resource_nbm68"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Toutes les roses sont des fleurs. Emma a rencontré une rose. C'est donc…"
+correct_answer = "une fleur"
+choices = Array[String](["un instrument de musique", "un animal", "un légume"])
+
+[sub_resource type="Resource" id="Resource_ivm6y"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Tous les violons sont des instruments de musique. Hugo a rencontré un violon. C'est donc…"
+correct_answer = "un instrument de musique"
+choices = Array[String](["un fruit", "une fleur", "un légume"])
+
+[sub_resource type="Resource" id="Resource_bvlxt"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Toutes les fraises sont des fruits. Léo a rencontré une fraise. C'est donc…"
+correct_answer = "un fruit"
+choices = Array[String](["un véhicule", "un légume", "une fleur"])
+
+[sub_resource type="Resource" id="Resource_rmgjp"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Toutes les tomates sont des légumes. Alice a rencontré une tomate. C'est donc…"
+correct_answer = "un légume"
+choices = Array[String](["un instrument de musique", "un véhicule", "une fleur"])
+
+[sub_resource type="Resource" id="Resource_p6fua"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Toutes les courgettes sont des légumes. Léo a rencontré une courgette. C'est donc…"
+correct_answer = "un légume"
+choices = Array[String](["un instrument de musique", "un animal", "un fruit"])
+
+[sub_resource type="Resource" id="Resource_gajhi"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Toutes les carottes sont des légumes. Noah a rencontré une carotte. C'est donc…"
+correct_answer = "un légume"
+choices = Array[String](["un véhicule", "un instrument de musique", "une fleur"])
+
+[sub_resource type="Resource" id="Resource_wnf7j"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Tous les lapins sont des animaux. Alice a rencontré un lapin. C'est donc…"
+correct_answer = "un animal"
+choices = Array[String](["un véhicule", "un fruit", "une fleur"])
+
+[sub_resource type="Resource" id="Resource_b8yk3"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Tous les chiens sont des animaux. Enzo a rencontré un chien. C'est donc…"
+correct_answer = "un animal"
+choices = Array[String](["un véhicule", "un légume", "un instrument de musique"])
+
+[sub_resource type="Resource" id="Resource_wgxym"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Tous les poissons sont des animaux. Léa a rencontré un poisson. C'est donc…"
+correct_answer = "un animal"
+choices = Array[String](["une fleur", "un instrument de musique", "un fruit"])
+
+[sub_resource type="Resource" id="Resource_eprhm"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Tous les bus sont des véhicules. Tom a rencontré un bus. C'est donc…"
+correct_answer = "un véhicule"
+choices = Array[String](["une fleur", "un fruit", "un animal"])
+
+[sub_resource type="Resource" id="Resource_57sd6"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Tous les oiseaux sont des animaux. Noah a rencontré un oiseau. C'est donc…"
+correct_answer = "un animal"
+choices = Array[String](["un fruit", "une fleur", "un véhicule"])
+
+[sub_resource type="Resource" id="Resource_crm6l"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Toutes les pommes sont des fruits. Sacha a rencontré une pomme. C'est donc…"
+correct_answer = "un fruit"
+choices = Array[String](["un instrument de musique", "un légume", "un véhicule"])
+
+[sub_resource type="Resource" id="Resource_lt2t2"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Toutes les oranges sont des fruits. Sacha a rencontré une orange. C'est donc…"
+correct_answer = "un fruit"
+choices = Array[String](["un véhicule", "un légume", "un animal"])
+
+[sub_resource type="Resource" id="Resource_shej5"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Toutes les tulipes sont des fleurs. Théo a rencontré une tulipe. C'est donc…"
+correct_answer = "une fleur"
+choices = Array[String](["un animal", "un légume", "un véhicule"])
+
+[sub_resource type="Resource" id="Resource_d0ugv"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Tous les vélos sont des véhicules. Emma a rencontré un vélo. C'est donc…"
+correct_answer = "un véhicule"
+choices = Array[String](["une fleur", "un animal", "un légume"])
+
+[sub_resource type="Resource" id="Resource_0ssq6"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Tous les citrons sont des fruits. Léa a rencontré un citron. C'est donc…"
+correct_answer = "un fruit"
+choices = Array[String](["une fleur", "un animal", "un légume"])
+
+[sub_resource type="Resource" id="Resource_wgjmm"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Tous les tournesols sont des fleurs. Tom a rencontré un tournesol. C'est donc…"
+correct_answer = "une fleur"
+choices = Array[String](["un instrument de musique", "un véhicule", "un fruit"])
+
+[sub_resource type="Resource" id="Resource_sfdbl"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Tous les chats sont des animaux. Sacha a rencontré un chat. C'est donc…"
+correct_answer = "un animal"
+choices = Array[String](["un véhicule", "une fleur", "un instrument de musique"])
+
+[sub_resource type="Resource" id="Resource_7pcup"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Toutes les marguerites sont des fleurs. Adam a rencontré une marguerite. C'est donc…"
+correct_answer = "une fleur"
+choices = Array[String](["un fruit", "un véhicule", "un instrument de musique"])
+
+[sub_resource type="Resource" id="Resource_4t1sd"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Toutes les guitares sont des instruments de musique. Nina a rencontré une guitare. C'est donc…"
+correct_answer = "un instrument de musique"
+choices = Array[String](["un légume", "un animal", "un fruit"])
+
+[sub_resource type="Resource" id="Resource_2fmgj"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Toutes les bananes sont des fruits. Tom a rencontré une banane. C'est donc…"
+correct_answer = "un fruit"
+choices = Array[String](["un animal", "un instrument de musique", "un véhicule"])
+
+[sub_resource type="Resource" id="Resource_oeqm3"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Toutes les voitures sont des véhicules. Mia a rencontré une voiture. C'est donc…"
+correct_answer = "un véhicule"
+choices = Array[String](["un instrument de musique", "un légume", "une fleur"])
+
+[sub_resource type="Resource" id="Resource_iqs51"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Tous les pianos sont des instruments de musique. Max a rencontré un piano. C'est donc…"
+correct_answer = "un instrument de musique"
+choices = Array[String](["une fleur", "un véhicule", "un légume"])
+
+[sub_resource type="Resource" id="Resource_xvx4n"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Toutes les motos sont des véhicules. Léa a rencontré une moto. C'est donc…"
+correct_answer = "un véhicule"
+choices = Array[String](["une fleur", "un légume", "un fruit"])
+
+[sub_resource type="Resource" id="Resource_x0lhj"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Toutes les flûtes sont des instruments de musique. Nina a rencontré une flûte. C'est donc…"
+correct_answer = "un instrument de musique"
+choices = Array[String](["un fruit", "un véhicule", "un animal"])
+
+[sub_resource type="Resource" id="Resource_vgclm"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Tous les camions sont des véhicules. Adam a rencontré un camion. C'est donc…"
+correct_answer = "un véhicule"
+choices = Array[String](["un légume", "un instrument de musique", "un animal"])
+
+[sub_resource type="Resource" id="Resource_1qb5m"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Tous les poireaux sont des légumes. Hugo a rencontré un poireau. C'est donc…"
+correct_answer = "un légume"
+choices = Array[String](["un véhicule", "un instrument de musique", "un fruit"])
+
+[sub_resource type="Resource" id="Resource_wgpuh"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Tous les lions sont des animaux. Emma a rencontré un lion. C'est donc…"
+correct_answer = "un animal"
+choices = Array[String](["un instrument de musique", "un fruit", "une fleur"])
+
+[sub_resource type="Resource" id="Resource_cuf28"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Tous les chevaux sont des animaux. Nolan a rencontré un cheval. C'est donc…"
+correct_answer = "un animal"
+choices = Array[String](["un légume", "un fruit", "une fleur"])
+
+[sub_resource type="Resource" id="Resource_i0xhy"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Tous les renards sont des animaux. Zoé a rencontré un renard. C'est donc…"
+correct_answer = "un animal"
+choices = Array[String](["une fleur", "un légume", "un fruit"])
+
+[sub_resource type="Resource" id="Resource_buuwg"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Toutes les roses sont des fleurs. Nolan a rencontré une rose. C'est donc…"
+correct_answer = "une fleur"
+choices = Array[String](["un animal", "un véhicule", "un légume"])
+
+[sub_resource type="Resource" id="Resource_lackt"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Tous les violons sont des instruments de musique. Mia a rencontré un violon. C'est donc…"
+correct_answer = "un instrument de musique"
+choices = Array[String](["un légume", "une fleur", "un animal"])
+
+[sub_resource type="Resource" id="Resource_q22y4"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Lequel de ces aliments n'est pas un légume ? 🥒 🍊 🥬 🍆"
+correct_answer = "🍊"
+choices = Array[String](["🥒", "🥬", "🍆"])
+
+[sub_resource type="Resource" id="Resource_mxr1x"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Lequel de ces aliments n'est pas un fruit ? 🥔 🍉 🍒 🥝"
+correct_answer = "🥔"
+choices = Array[String](["🍒", "🥝", "🍉"])
+
+[sub_resource type="Resource" id="Resource_i6ryy"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Lequel de ces aliments n'est pas un fruit ? 🥕 🍉 🍍 🥭"
+correct_answer = "🥕"
+choices = Array[String](["🍉", "🥭", "🍍"])
+
+[sub_resource type="Resource" id="Resource_5ixlk"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Lequel de ces aliments n'est pas un légume ? 🥒 🍆 🥔 🍓"
+correct_answer = "🍓"
+choices = Array[String](["🥒", "🍆", "🥔"])
+
+[sub_resource type="Resource" id="Resource_a56m2"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Lequel de ces aliments n'est pas un légume ? 🍌 🥕 🥬 🍆"
+correct_answer = "🍌"
+choices = Array[String](["🥕", "🍆", "🥬"])
+
+[sub_resource type="Resource" id="Resource_nxgir"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Lequel de ces aliments n'est pas un fruit ? 🍓 🍒 🥭 🥒"
+correct_answer = "🥒"
+choices = Array[String](["🥭", "🍓", "🍒"])
+
+[sub_resource type="Resource" id="Resource_favd2"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Lequel de ces aliments n'est pas un fruit ? 🍆 🍉 🍅 🍑"
+correct_answer = "🍆"
+choices = Array[String](["🍉", "🍑", "🍅"])
+
+[sub_resource type="Resource" id="Resource_a4aye"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Lequel de ces aliments n'est pas un fruit ? 🌽 🍒 🍇 🍍"
+correct_answer = "🌽"
+choices = Array[String](["🍒", "🍍", "🍇"])
+
+[sub_resource type="Resource" id="Resource_loqq6"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Lequel de ces aliments n'est pas un légume ? 🧅 🥔 🍑 🍆"
+correct_answer = "🍑"
+choices = Array[String](["🥔", "🍆", "🧅"])
+
+[sub_resource type="Resource" id="Resource_sqpdk"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Lequel de ces aliments n'est pas un légume ? 🥦 🥕 🍎 🥬"
+correct_answer = "🍎"
+choices = Array[String](["🥦", "🥬", "🥕"])
+
+[sub_resource type="Resource" id="Resource_s8bt1"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Lequel de ces aliments n'est pas un fruit ? 🧅 🥝 🍐 🍑"
+correct_answer = "🧅"
+choices = Array[String](["🍑", "🍐", "🥝"])
+
+[sub_resource type="Resource" id="Resource_aun6e"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Lequel de ces aliments n'est pas un fruit ? 🍑 🍊 🍒 🥕"
+correct_answer = "🥕"
+choices = Array[String](["🍑", "🍊", "🍒"])
+
+[sub_resource type="Resource" id="Resource_3n1cn"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Lequel de ces aliments n'est pas un légume ? 🧅 🍐 🌽 🥬"
+correct_answer = "🍐"
+choices = Array[String](["🌽", "🧅", "🥬"])
+
+[sub_resource type="Resource" id="Resource_0ujyv"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Lequel de ces aliments n'est pas un fruit ? 🍑 🥝 🌽 🍓"
+correct_answer = "🌽"
+choices = Array[String](["🍓", "🥝", "🍑"])
+
+[sub_resource type="Resource" id="Resource_u21qv"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Lequel de ces aliments n'est pas un légume ? 🍊 🥦 🌽 🥔"
+correct_answer = "🍊"
+choices = Array[String](["🥔", "🌽", "🥦"])
+
+[sub_resource type="Resource" id="Resource_4s0dh"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Lequel de ces aliments n'est pas un légume ? 🧅 🌽 🍐 🥬"
+correct_answer = "🍐"
+choices = Array[String](["🧅", "🥬", "🌽"])
+
+[sub_resource type="Resource" id="Resource_10iop"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Lequel de ces aliments n'est pas un fruit ? 🥭 🍇 🥒 🍅"
+correct_answer = "🥒"
+choices = Array[String](["🍇", "🍅", "🥭"])
+
+[sub_resource type="Resource" id="Resource_rd7bq"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Lequel de ces aliments n'est pas un fruit ? 🍉 🍆 🍊 🍇"
+correct_answer = "🍆"
+choices = Array[String](["🍉", "🍇", "🍊"])
+
+[sub_resource type="Resource" id="Resource_7bu6b"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Lequel de ces aliments n'est pas un fruit ? 🌽 🍍 🍑 🍉"
+correct_answer = "🌽"
+choices = Array[String](["🍉", "🍑", "🍍"])
+
+[sub_resource type="Resource" id="Resource_rpmrq"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Lequel de ces aliments n'est pas un fruit ? 🥝 🥔 🍊 🥭"
+correct_answer = "🥔"
+choices = Array[String](["🥭", "🍊", "🥝"])
+
+[sub_resource type="Resource" id="Resource_7w6m8"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Lequel de ces aliments n'est pas un légume ? 🥬 🥦 🥝 🥒"
+correct_answer = "🥝"
+choices = Array[String](["🥦", "🥬", "🥒"])
+
+[sub_resource type="Resource" id="Resource_18wmj"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Lequel de ces aliments n'est pas un fruit ? 🥭 🍆 🍍 🍓"
+correct_answer = "🍆"
+choices = Array[String](["🍓", "🥭", "🍍"])
+
+[sub_resource type="Resource" id="Resource_g88eq"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Lequel de ces aliments n'est pas un légume ? 🥦 🌽 🍆 🥭"
+correct_answer = "🥭"
+choices = Array[String](["🥦", "🍆", "🌽"])
+
+[sub_resource type="Resource" id="Resource_gdtgf"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Lequel de ces aliments n'est pas un fruit ? 🧅 🍓 🥭 🍅"
+correct_answer = "🧅"
+choices = Array[String](["🥭", "🍓", "🍅"])
+
+[sub_resource type="Resource" id="Resource_4561v"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Lequel de ces aliments n'est pas un légume ? 🥕 🍅 🥔 🥬"
+correct_answer = "🍅"
+choices = Array[String](["🥔", "🥕", "🥬"])
+
+[sub_resource type="Resource" id="Resource_ylmxb"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Lequel de ces aliments n'est pas un fruit ? 🍐 🍇 🥦 🍑"
+correct_answer = "🥦"
+choices = Array[String](["🍐", "🍇", "🍑"])
+
+[sub_resource type="Resource" id="Resource_8bvkq"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Lequel de ces aliments n'est pas un légume ? 🥒 🥕 🧅 🍒"
+correct_answer = "🍒"
+choices = Array[String](["🥒", "🧅", "🥕"])
+
+[sub_resource type="Resource" id="Resource_8k65a"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Lequel de ces aliments n'est pas un fruit ? 🍌 🌽 🍋 🍐"
+correct_answer = "🌽"
+choices = Array[String](["🍌", "🍋", "🍐"])
+
+[sub_resource type="Resource" id="Resource_1buyv"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Lequel de ces aliments n'est pas un fruit ? 🍓 🍆 🍇 🥝"
+correct_answer = "🍆"
+choices = Array[String](["🍇", "🥝", "🍓"])
+
+[sub_resource type="Resource" id="Resource_s0u7v"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Lequel de ces aliments n'est pas un légume ? 🌽 🥬 🧅 🍇"
+correct_answer = "🍇"
+choices = Array[String](["🌽", "🥬", "🧅"])
+
+[sub_resource type="Resource" id="Resource_e4imq"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Lequel de ces aliments n'est pas un légume ? 🍊 🥬 🧅 🥒"
+correct_answer = "🍊"
+choices = Array[String](["🧅", "🥒", "🥬"])
+
+[sub_resource type="Resource" id="Resource_y2h7w"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Lequel de ces aliments n'est pas un fruit ? 🍐 🍉 🥭 🥒"
+correct_answer = "🥒"
+choices = Array[String](["🍐", "🍉", "🥭"])
+
+[sub_resource type="Resource" id="Resource_wrpi6"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Lequel de ces aliments n'est pas un fruit ? 🍎 🥕 🍋 🥭"
+correct_answer = "🥕"
+choices = Array[String](["🍋", "🥭", "🍎"])
+
+[sub_resource type="Resource" id="Resource_61jvc"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Lequel de ces aliments n'est pas un fruit ? 🥕 🍊 🥭 🍋"
+correct_answer = "🥕"
+choices = Array[String](["🥭", "🍋", "🍊"])
+
+[sub_resource type="Resource" id="Resource_034ec"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Lequel de ces aliments n'est pas un légume ? 🍇 🥔 🥬 🧅"
+correct_answer = "🍇"
+choices = Array[String](["🧅", "🥬", "🥔"])
+
+[sub_resource type="Resource" id="Resource_7clec"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Lequel de ces aliments n'est pas un légume ? 🥔 🥒 🍊 🍆"
+correct_answer = "🍊"
+choices = Array[String](["🍆", "🥔", "🥒"])
+
+[sub_resource type="Resource" id="Resource_446xw"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Lequel de ces aliments n'est pas un légume ? 🍆 🥒 🥦 🍓"
+correct_answer = "🍓"
+choices = Array[String](["🥦", "🥒", "🍆"])
+
+[sub_resource type="Resource" id="Resource_mnjjs"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Lequel de ces aliments n'est pas un fruit ? 🍊 🍅 🍇 🥕"
+correct_answer = "🥕"
+choices = Array[String](["🍅", "🍇", "🍊"])
+
+[sub_resource type="Resource" id="Resource_s3s1y"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Lequel de ces aliments n'est pas un légume ? 🧅 🥔 🍉 🌽"
+correct_answer = "🍉"
+choices = Array[String](["🧅", "🌽", "🥔"])
+
+[sub_resource type="Resource" id="Resource_3g7lq"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Lequel de ces aliments n'est pas un légume ? 🧅 🥒 🥦 🍐"
+correct_answer = "🍐"
+choices = Array[String](["🧅", "🥦", "🥒"])
+
+[sub_resource type="Resource" id="Resource_ytglf"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quelle lettre vient après ? D, H, L, P, …"
+correct_answer = "T"
+choices = Array[String](["S", "U", "P"])
+
+[sub_resource type="Resource" id="Resource_3jgye"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quelle lettre vient après ? R, T, V, X, …"
+correct_answer = "Z"
+choices = Array[String](["Y", "X", "A"])
+
+[sub_resource type="Resource" id="Resource_t18m7"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quelle lettre vient après ? G, K, O, S, …"
+correct_answer = "W"
+choices = Array[String](["V", "X", "S"])
+
+[sub_resource type="Resource" id="Resource_yvls1"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quelle lettre vient après ? I, K, M, O, …"
+correct_answer = "Q"
+choices = Array[String](["P", "R", "O"])
+
+[sub_resource type="Resource" id="Resource_t6g7u"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quelle lettre vient après ? F, J, N, R, …"
+correct_answer = "V"
+choices = Array[String](["U", "W", "R"])
+
+[sub_resource type="Resource" id="Resource_ncttu"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quelle lettre vient après ? I, J, K, L, …"
+correct_answer = "M"
+choices = Array[String](["L", "N", "A"])
+
+[sub_resource type="Resource" id="Resource_a5wcw"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quelle lettre vient après ? N, Q, T, W, …"
+correct_answer = "Z"
+choices = Array[String](["Y", "W", "T"])
+
+[sub_resource type="Resource" id="Resource_5wqah"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quelle lettre vient après ? G, H, I, J, …"
+correct_answer = "K"
+choices = Array[String](["J", "L", "U"])
+
+[sub_resource type="Resource" id="Resource_thcav"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quelle lettre vient après ? C, F, I, L, …"
+correct_answer = "O"
+choices = Array[String](["N", "P", "L"])
+
+[sub_resource type="Resource" id="Resource_et4vx"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quelle lettre vient après ? I, M, Q, U, …"
+correct_answer = "Y"
+choices = Array[String](["X", "Z", "U"])
+
+[sub_resource type="Resource" id="Resource_iaox2"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quelle lettre vient après ? D, G, J, M, …"
+correct_answer = "P"
+choices = Array[String](["O", "Q", "M"])
+
+[sub_resource type="Resource" id="Resource_j21dc"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quelle lettre vient après ? B, C, D, E, …"
+correct_answer = "F"
+choices = Array[String](["E", "G", "N"])
+
+[sub_resource type="Resource" id="Resource_ikh3j"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quelle lettre vient après ? L, O, R, U, …"
+correct_answer = "X"
+choices = Array[String](["W", "Y", "U"])
+
+[sub_resource type="Resource" id="Resource_b8vx1"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quelle lettre vient après ? H, L, P, T, …"
+correct_answer = "X"
+choices = Array[String](["W", "Y", "T"])
+
+[sub_resource type="Resource" id="Resource_t81kl"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quelle lettre vient après ? J, M, P, S, …"
+correct_answer = "V"
+choices = Array[String](["U", "W", "S"])
+
+[sub_resource type="Resource" id="Resource_iqp2q"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quelle lettre vient après ? R, S, T, U, …"
+correct_answer = "V"
+choices = Array[String](["U", "W", "B"])
+
+[sub_resource type="Resource" id="Resource_m6twm"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quelle lettre vient après ? P, Q, R, S, …"
+correct_answer = "T"
+choices = Array[String](["S", "U", "B"])
+
+[sub_resource type="Resource" id="Resource_omkoj"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quelle lettre vient après ? D, E, F, G, …"
+correct_answer = "H"
+choices = Array[String](["G", "I", "Y"])
+
+[sub_resource type="Resource" id="Resource_f6g6m"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quelle lettre vient après ? O, P, Q, R, …"
+correct_answer = "S"
+choices = Array[String](["R", "T", "B"])
+
+[sub_resource type="Resource" id="Resource_pnjds"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quelle lettre vient après ? G, I, K, M, …"
+correct_answer = "O"
+choices = Array[String](["N", "P", "M"])
+
+[sub_resource type="Resource" id="Resource_w8i45"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quelle lettre vient après ? E, G, I, K, …"
+correct_answer = "M"
+choices = Array[String](["L", "N", "K"])
+
+[sub_resource type="Resource" id="Resource_vsmo7"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quelle lettre vient après ? M, O, Q, S, …"
+correct_answer = "U"
+choices = Array[String](["T", "V", "S"])
+
+[sub_resource type="Resource" id="Resource_f6wr5"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quelle lettre vient après ? J, N, R, V, …"
+correct_answer = "Z"
+choices = Array[String](["Y", "V", "D"])
+
+[sub_resource type="Resource" id="Resource_gjbe1"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quelle lettre vient après ? F, I, L, O, …"
+correct_answer = "R"
+choices = Array[String](["Q", "S", "O"])
+
+[sub_resource type="Resource" id="Resource_01u1t"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quelle lettre vient après ? H, J, L, N, …"
+correct_answer = "P"
+choices = Array[String](["O", "Q", "N"])
+
+[sub_resource type="Resource" id="Resource_yugun"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quelle lettre vient après ? S, T, U, V, …"
+correct_answer = "W"
+choices = Array[String](["V", "X", "P"])
+
+[sub_resource type="Resource" id="Resource_bvf20"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quelle lettre vient après ? J, K, L, M, …"
+correct_answer = "N"
+choices = Array[String](["M", "O", "B"])
+
+[sub_resource type="Resource" id="Resource_liplu"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quelle lettre vient après ? C, G, K, O, …"
+correct_answer = "S"
+choices = Array[String](["R", "T", "O"])
+
+[sub_resource type="Resource" id="Resource_ycmxo"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quelle lettre vient après ? B, D, F, H, …"
+correct_answer = "J"
+choices = Array[String](["I", "K", "H"])
+
+[sub_resource type="Resource" id="Resource_hkgkl"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Quelle lettre vient après ? I, L, O, R, …"
+correct_answer = "U"
+choices = Array[String](["T", "V", "R"])
+
+[sub_resource type="Resource" id="Resource_8v1jg"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Dans une grille de 3 cases sur 3, un objet est en haut à gauche. On le déplace de 2 cases vers la droite. Où est-il maintenant ?"
+correct_answer = "en haut à droite"
+choices = Array[String](["au milieu à gauche", "en bas à gauche", "en bas à droite"])
+
+[sub_resource type="Resource" id="Resource_hnfhj"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Dans une grille de 3 cases sur 3, un objet est en bas au centre. On le déplace de 2 cases vers le haut. Où est-il maintenant ?"
+correct_answer = "en haut au centre"
+choices = Array[String](["en bas au centre", "en bas à gauche", "au milieu à gauche"])
+
+[sub_resource type="Resource" id="Resource_jokxm"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Dans une grille de 3 cases sur 3, un objet est en bas au centre. On le déplace de 1 case vers la droite. Où est-il maintenant ?"
+correct_answer = "en bas à droite"
+choices = Array[String](["au centre", "en bas au centre", "en haut au centre"])
+
+[sub_resource type="Resource" id="Resource_0ye68"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Dans une grille de 3 cases sur 3, un objet est en haut à droite. On le déplace de 2 cases vers le bas. Où est-il maintenant ?"
+correct_answer = "en bas à droite"
+choices = Array[String](["en bas à gauche", "en haut à gauche", "en bas au centre"])
+
+[sub_resource type="Resource" id="Resource_au7ii"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Dans une grille de 3 cases sur 3, un objet est en bas à gauche. On le déplace de 2 cases vers la droite. Où est-il maintenant ?"
+correct_answer = "en bas à droite"
+choices = Array[String](["en haut à droite", "en bas à gauche", "au milieu à droite"])
+
+[sub_resource type="Resource" id="Resource_w1lwk"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Dans une grille de 3 cases sur 3, un objet est en haut au centre. On le déplace de 1 case vers la gauche. Où est-il maintenant ?"
+correct_answer = "en haut à gauche"
+choices = Array[String](["en bas à droite", "au milieu à gauche", "en haut au centre"])
+
+[sub_resource type="Resource" id="Resource_7m0vp"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Dans une grille de 3 cases sur 3, un objet est en haut à droite. On le déplace de 1 case vers la gauche. Où est-il maintenant ?"
+correct_answer = "en haut au centre"
+choices = Array[String](["en haut à droite", "en bas au centre", "en bas à gauche"])
+
+[sub_resource type="Resource" id="Resource_p1l8m"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Dans une grille de 3 cases sur 3, un objet est en haut à gauche. On le déplace de 1 case vers la droite. Où est-il maintenant ?"
+correct_answer = "en haut au centre"
+choices = Array[String](["en bas à gauche", "au milieu à droite", "en bas à droite"])
+
+[sub_resource type="Resource" id="Resource_nbyuy"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Dans une grille de 3 cases sur 3, un objet est en bas à droite. On le déplace de 1 case vers la gauche. Où est-il maintenant ?"
+correct_answer = "en bas au centre"
+choices = Array[String](["au milieu à droite", "au centre", "en bas à gauche"])
+
+[sub_resource type="Resource" id="Resource_4gdsi"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Dans une grille de 3 cases sur 3, un objet est en haut à droite. On le déplace de 2 cases vers la gauche. Où est-il maintenant ?"
+correct_answer = "en haut à gauche"
+choices = Array[String](["en bas à droite", "au milieu à gauche", "au centre"])
+
+[sub_resource type="Resource" id="Resource_fkem7"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Dans une grille de 3 cases sur 3, un objet est au milieu à gauche. On le déplace de 1 case vers le haut. Où est-il maintenant ?"
+correct_answer = "en haut à gauche"
+choices = Array[String](["en bas à gauche", "en bas à droite", "au milieu à gauche"])
+
+[sub_resource type="Resource" id="Resource_5ccfr"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Dans une grille de 3 cases sur 3, un objet est au milieu à droite. On le déplace de 1 case vers le haut. Où est-il maintenant ?"
+correct_answer = "en haut à droite"
+choices = Array[String](["au milieu à gauche", "en haut à gauche", "en haut au centre"])
+
+[sub_resource type="Resource" id="Resource_5df7n"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Dans une grille de 3 cases sur 3, un objet est au centre. On le déplace de 1 case vers le bas. Où est-il maintenant ?"
+correct_answer = "en bas au centre"
+choices = Array[String](["en haut à droite", "en bas à droite", "en bas à gauche"])
+
+[sub_resource type="Resource" id="Resource_k5kd2"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Dans une grille de 3 cases sur 3, un objet est en bas au centre. On le déplace de 1 case vers le haut. Où est-il maintenant ?"
+correct_answer = "au centre"
+choices = Array[String](["au milieu à droite", "en haut à gauche", "en bas au centre"])
+
+[sub_resource type="Resource" id="Resource_84ily"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Dans une grille de 3 cases sur 3, un objet est en bas à gauche. On le déplace de 1 case vers la droite. Où est-il maintenant ?"
+correct_answer = "en bas au centre"
+choices = Array[String](["au milieu à droite", "en haut au centre", "en haut à gauche"])
+
+[sub_resource type="Resource" id="Resource_yc4yi"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Dans une grille de 3 cases sur 3, un objet est en bas au centre. On le déplace de 1 case vers la gauche. Où est-il maintenant ?"
+correct_answer = "en bas à gauche"
+choices = Array[String](["en haut à gauche", "en bas au centre", "au milieu à droite"])
+
+[sub_resource type="Resource" id="Resource_o27y8"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Dans une grille de 3 cases sur 3, un objet est au centre. On le déplace de 1 case vers le haut. Où est-il maintenant ?"
+correct_answer = "en haut au centre"
+choices = Array[String](["en bas au centre", "au milieu à gauche", "au milieu à droite"])
+
+[sub_resource type="Resource" id="Resource_ca64y"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Dans une grille de 3 cases sur 3, un objet est au milieu à gauche. On le déplace de 1 case vers la droite. Où est-il maintenant ?"
+correct_answer = "au centre"
+choices = Array[String](["en bas à droite", "au milieu à droite", "en bas au centre"])
+
+[sub_resource type="Resource" id="Resource_7f67g"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Dans une grille de 3 cases sur 3, un objet est au milieu à droite. On le déplace de 1 case vers le bas. Où est-il maintenant ?"
+correct_answer = "en bas à droite"
+choices = Array[String](["au milieu à droite", "en haut à droite", "en bas au centre"])
+
+[sub_resource type="Resource" id="Resource_bko4f"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Dans une grille de 3 cases sur 3, un objet est au milieu à droite. On le déplace de 1 case vers la gauche. Où est-il maintenant ?"
+correct_answer = "au centre"
+choices = Array[String](["au milieu à droite", "en bas au centre", "en bas à droite"])
+
+[sub_resource type="Resource" id="Resource_ob14j"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Dans une grille de 3 cases sur 3, un objet est au centre. On le déplace de 1 case vers la gauche. Où est-il maintenant ?"
+correct_answer = "au milieu à gauche"
+choices = Array[String](["en bas au centre", "au centre", "en haut au centre"])
+
+[sub_resource type="Resource" id="Resource_hsalm"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Dans une grille de 3 cases sur 3, un objet est au centre. On le déplace de 1 case vers la droite. Où est-il maintenant ?"
+correct_answer = "au milieu à droite"
+choices = Array[String](["en bas à gauche", "en haut au centre", "en haut à droite"])
+
+[sub_resource type="Resource" id="Resource_c88va"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Dans une grille de 3 cases sur 3, un objet est en bas à droite. On le déplace de 1 case vers le haut. Où est-il maintenant ?"
+correct_answer = "au milieu à droite"
+choices = Array[String](["en bas au centre", "en haut au centre", "en haut à gauche"])
+
+[sub_resource type="Resource" id="Resource_fygp5"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Dans une grille de 3 cases sur 3, un objet est en haut au centre. On le déplace de 1 case vers la droite. Où est-il maintenant ?"
+correct_answer = "en haut à droite"
+choices = Array[String](["en haut à gauche", "en bas à droite", "au milieu à droite"])
+
+[sub_resource type="Resource" id="Resource_a8v02"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Dans une grille de 3 cases sur 3, un objet est en bas à droite. On le déplace de 2 cases vers la gauche. Où est-il maintenant ?"
+correct_answer = "en bas à gauche"
+choices = Array[String](["en bas à droite", "en bas au centre", "en haut au centre"])
+
+[sub_resource type="Resource" id="Resource_217fw"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Dans une grille de 3 cases sur 3, un objet est au milieu à droite. On le déplace de 2 cases vers la gauche. Où est-il maintenant ?"
+correct_answer = "au milieu à gauche"
+choices = Array[String](["en bas au centre", "au centre", "en haut au centre"])
+
+[sub_resource type="Resource" id="Resource_yty70"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Dans une grille de 3 cases sur 3, un objet est en haut à gauche. On le déplace de 1 case vers le bas. Où est-il maintenant ?"
+correct_answer = "au milieu à gauche"
+choices = Array[String](["en haut à droite", "en bas à gauche", "au centre"])
+
+[sub_resource type="Resource" id="Resource_svc6o"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Dans une grille de 3 cases sur 3, un objet est au milieu à gauche. On le déplace de 2 cases vers la droite. Où est-il maintenant ?"
+correct_answer = "au milieu à droite"
+choices = Array[String](["en haut au centre", "en haut à droite", "en haut à gauche"])
+
+[sub_resource type="Resource" id="Resource_nx43d"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Dans une grille de 3 cases sur 3, un objet est en haut au centre. On le déplace de 2 cases vers le bas. Où est-il maintenant ?"
+correct_answer = "en bas au centre"
+choices = Array[String](["au milieu à gauche", "en haut à droite", "au centre"])
+
+[sub_resource type="Resource" id="Resource_8xc23"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Dans une grille de 3 cases sur 3, un objet est en haut à gauche. On le déplace de 2 cases vers le bas. Où est-il maintenant ?"
+correct_answer = "en bas à gauche"
+choices = Array[String](["en bas à droite", "en haut au centre", "au centre"])
+
+[sub_resource type="Resource" id="Resource_1y74y"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Dans une grille de 3 cases sur 3, un objet est en bas à gauche. On le déplace de 1 case vers le haut. Où est-il maintenant ?"
+correct_answer = "au milieu à gauche"
+choices = Array[String](["en bas au centre", "en bas à gauche", "en haut au centre"])
+
+[sub_resource type="Resource" id="Resource_eix5s"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Dans une grille de 3 cases sur 3, un objet est en haut à droite. On le déplace de 1 case vers le bas. Où est-il maintenant ?"
+correct_answer = "au milieu à droite"
+choices = Array[String](["en bas au centre", "en bas à droite", "en haut au centre"])
+
+[sub_resource type="Resource" id="Resource_ywwan"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Dans une grille de 3 cases sur 3, un objet est en bas à droite. On le déplace de 2 cases vers le haut. Où est-il maintenant ?"
+correct_answer = "en haut à droite"
+choices = Array[String](["en bas à droite", "en bas à gauche", "en bas au centre"])
+
+[sub_resource type="Resource" id="Resource_1tssi"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Dans une grille de 3 cases sur 3, un objet est au milieu à gauche. On le déplace de 1 case vers le bas. Où est-il maintenant ?"
+correct_answer = "en bas à gauche"
+choices = Array[String](["au milieu à droite", "en haut à gauche", "au milieu à gauche"])
+
+[sub_resource type="Resource" id="Resource_dewrx"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Dans une grille de 3 cases sur 3, un objet est en haut au centre. On le déplace de 1 case vers le bas. Où est-il maintenant ?"
+correct_answer = "au centre"
+choices = Array[String](["au milieu à gauche", "en bas à droite", "en haut au centre"])
+
+[sub_resource type="Resource" id="Resource_7ncap"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Dans une grille de 3 cases sur 3, un objet est en bas à gauche. On le déplace de 2 cases vers le haut. Où est-il maintenant ?"
+correct_answer = "en haut à gauche"
+choices = Array[String](["en bas à gauche", "au milieu à gauche", "en bas au centre"])
+
+[sub_resource type="Resource" id="Resource_86icf"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Hugo est plus grand que Tom. Tom est plus grand que Léo. Qui est le plus petit ?"
+correct_answer = "Léo"
+choices = Array[String](["Hugo", "Tom", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_l0oyk"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Alice est plus grande que Enzo. Enzo est plus grand que Léo. Qui est le plus grand ?"
+correct_answer = "Alice"
+choices = Array[String](["Enzo", "Léo", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_uaxsf"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Zoé est plus grande que Léa. Léa est plus grande que Camille. Qui est le plus petit ?"
+correct_answer = "Camille"
+choices = Array[String](["Zoé", "Léa", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_o8hh8"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Léna est plus grande que Adam. Adam est plus grand que Nolan. Qui est le plus grand ?"
+correct_answer = "Léna"
+choices = Array[String](["Adam", "Nolan", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_1sj0u"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Léo est plus grand que Lina. Lina est plus grande que Léa. Qui est ni le plus grand, ni le plus petit ?"
+correct_answer = "Lina"
+choices = Array[String](["Léo", "Léa", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_vo1sm"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Enzo est plus grand que Zoé. Zoé est plus grande que Noah. Qui est le plus petit ?"
+correct_answer = "Noah"
+choices = Array[String](["Enzo", "Zoé", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_osui5"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Nina est plus grande que Léo. Léo est plus grand que Enzo. Qui est le plus petit ?"
+correct_answer = "Enzo"
+choices = Array[String](["Nina", "Léo", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_2qe81"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Camille est plus grande que Jade. Jade est plus grande que Léo. Qui est le plus petit ?"
+correct_answer = "Léo"
+choices = Array[String](["Camille", "Jade", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_dplxy"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Léa est plus grande que Nina. Nina est plus grande que Lina. Qui est le plus grand ?"
+correct_answer = "Léa"
+choices = Array[String](["Nina", "Lina", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_eff83"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Zoé est plus grande que Adam. Adam est plus grand que Tom. Qui est ni le plus grand, ni le plus petit ?"
+correct_answer = "Adam"
+choices = Array[String](["Zoé", "Tom", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_5by7r"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Lina est plus grande que Zoé. Zoé est plus grande que Noah. Qui est le plus grand ?"
+correct_answer = "Lina"
+choices = Array[String](["Zoé", "Noah", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_50wui"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Max est plus grand que Noah. Noah est plus grand que Adam. Qui est le plus grand ?"
+correct_answer = "Max"
+choices = Array[String](["Noah", "Adam", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_3sei4"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Adam est plus grand que Hugo. Hugo est plus grand que Lina. Qui est le plus grand ?"
+correct_answer = "Adam"
+choices = Array[String](["Hugo", "Lina", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_kbqh5"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Théo est plus grand que Hugo. Hugo est plus grand que Max. Qui est ni le plus grand, ni le plus petit ?"
+correct_answer = "Hugo"
+choices = Array[String](["Théo", "Max", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_v2otv"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Camille est plus grande que Léa. Léa est plus grande que Tom. Qui est le plus grand ?"
+correct_answer = "Camille"
+choices = Array[String](["Léa", "Tom", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_6tti1"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Tom est plus grand que Léo. Léo est plus grand que Nolan. Qui est le plus grand ?"
+correct_answer = "Tom"
+choices = Array[String](["Léo", "Nolan", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_3vnq5"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Enzo est plus grand que Adam. Adam est plus grand que Emma. Qui est le plus petit ?"
+correct_answer = "Emma"
+choices = Array[String](["Enzo", "Adam", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_frnw6"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Emma est plus grande que Alice. Alice est plus grande que Adam. Qui est le plus grand ?"
+correct_answer = "Emma"
+choices = Array[String](["Alice", "Adam", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_7bo8b"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Léo est plus grand que Théo. Théo est plus grand que Nolan. Qui est le plus petit ?"
+correct_answer = "Nolan"
+choices = Array[String](["Léo", "Théo", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_cdns5"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Tom est plus grand que Mia. Mia est plus grande que Lina. Qui est le plus grand ?"
+correct_answer = "Tom"
+choices = Array[String](["Mia", "Lina", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_ws80w"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Théo est plus grand que Léo. Léo est plus grand que Max. Qui est ni le plus grand, ni le plus petit ?"
+correct_answer = "Léo"
+choices = Array[String](["Théo", "Max", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_2brps"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Zoé est plus grande que Sacha. Sacha est plus grande que Mia. Qui est le plus petit ?"
+correct_answer = "Mia"
+choices = Array[String](["Zoé", "Sacha", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_v3g5t"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Hugo est plus grand que Alice. Alice est plus grande que Léa. Qui est ni le plus grand, ni le plus petit ?"
+correct_answer = "Alice"
+choices = Array[String](["Hugo", "Léa", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_5sah1"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Mia est plus grande que Jade. Jade est plus grande que Noah. Qui est ni le plus grand, ni le plus petit ?"
+correct_answer = "Jade"
+choices = Array[String](["Mia", "Noah", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_70ouw"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Léa est plus grande que Jade. Jade est plus grande que Zoé. Qui est le plus grand ?"
+correct_answer = "Léa"
+choices = Array[String](["Jade", "Zoé", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_grfhl"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Tom est plus grand que Lina. Lina est plus grande que Théo. Qui est le plus grand ?"
+correct_answer = "Tom"
+choices = Array[String](["Lina", "Théo", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_h2fs6"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Jade est plus grande que Max. Max est plus grand que Camille. Qui est ni le plus grand, ni le plus petit ?"
+correct_answer = "Max"
+choices = Array[String](["Jade", "Camille", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_bxa6d"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Hugo est plus grand que Zoé. Zoé est plus grande que Nina. Qui est le plus grand ?"
+correct_answer = "Hugo"
+choices = Array[String](["Zoé", "Nina", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_sdr62"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Hugo est plus grand que Théo. Théo est plus grand que Jade. Qui est le plus petit ?"
+correct_answer = "Jade"
+choices = Array[String](["Hugo", "Théo", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_hb65s"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Sacha est plus grande que Mia. Mia est plus grande que Tom. Qui est le plus grand ?"
+correct_answer = "Sacha"
+choices = Array[String](["Mia", "Tom", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_2ygov"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Sacha est plus grande que Alice. Alice est plus grande que Jade. Qui est le plus grand ?"
+correct_answer = "Sacha"
+choices = Array[String](["Alice", "Jade", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_ag1hb"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Sacha est plus grande que Nolan. Nolan est plus grand que Mia. Qui est le plus petit ?"
+correct_answer = "Mia"
+choices = Array[String](["Sacha", "Nolan", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_iymcq"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Noah est plus grand que Léna. Léna est plus grande que Lina. Qui est le plus petit ?"
+correct_answer = "Lina"
+choices = Array[String](["Noah", "Léna", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_gt677"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Nina est plus grande que Jade. Jade est plus grande que Sacha. Qui est le plus petit ?"
+correct_answer = "Sacha"
+choices = Array[String](["Nina", "Jade", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_muog8"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Mia est plus grande que Jade. Jade est plus grande que Nina. Qui est ni le plus grand, ni le plus petit ?"
+correct_answer = "Jade"
+choices = Array[String](["Mia", "Nina", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_w0agv"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Enzo est plus grand que Sacha. Sacha est plus grande que Léna. Qui est ni le plus grand, ni le plus petit ?"
+correct_answer = "Sacha"
+choices = Array[String](["Enzo", "Léna", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_afatm"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Camille est plus grande que Alice. Alice est plus grande que Léo. Qui est ni le plus grand, ni le plus petit ?"
+correct_answer = "Alice"
+choices = Array[String](["Camille", "Léo", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_tmek1"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Théo est plus grand que Sacha. Sacha est plus grande que Léna. Qui est le plus petit ?"
+correct_answer = "Léna"
+choices = Array[String](["Théo", "Sacha", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_ag4sh"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Jade est plus grande que Noah. Noah est plus grand que Sacha. Qui est le plus grand ?"
+correct_answer = "Jade"
+choices = Array[String](["Noah", "Sacha", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_f76cr"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Nolan est plus grand que Théo. Théo est plus grand que Léna. Qui est le plus petit ?"
+correct_answer = "Léna"
+choices = Array[String](["Nolan", "Théo", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_50q8b"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Alice est plus grande que Enzo. Enzo est plus grand que Léna. Qui est le plus petit ?"
+correct_answer = "Léna"
+choices = Array[String](["Alice", "Enzo", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_qxjxe"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Hugo est plus grand que Sacha. Sacha est plus grande que Nolan. Qui est le plus grand ?"
+correct_answer = "Hugo"
+choices = Array[String](["Sacha", "Nolan", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_qcqxy"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Camille est plus grande que Noah. Noah est plus grand que Tom. Qui est ni le plus grand, ni le plus petit ?"
+correct_answer = "Noah"
+choices = Array[String](["Camille", "Tom", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_cnry0"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Camille est plus grande que Tom. Tom est plus grand que Théo. Qui est le plus petit ?"
+correct_answer = "Théo"
+choices = Array[String](["Camille", "Tom", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_eeweq"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Max est plus grand que Noah. Noah est plus grand que Emma. Qui est le plus grand ?"
+correct_answer = "Max"
+choices = Array[String](["Noah", "Emma", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_5auu5"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Léna est plus grande que Sacha. Sacha est plus grande que Théo. Qui est le plus petit ?"
+correct_answer = "Théo"
+choices = Array[String](["Léna", "Sacha", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_d72ca"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Adam est plus grand que Noah. Noah est plus grand que Tom. Qui est ni le plus grand, ni le plus petit ?"
+correct_answer = "Noah"
+choices = Array[String](["Adam", "Tom", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_ewses"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Alice est plus grande que Mia. Mia est plus grande que Nolan. Qui est le plus petit ?"
+correct_answer = "Nolan"
+choices = Array[String](["Alice", "Mia", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_kuh7l"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Théo est plus grand que Max. Max est plus grand que Jade. Qui est le plus grand ?"
+correct_answer = "Théo"
+choices = Array[String](["Max", "Jade", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_4gym2"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Jade est plus grande que Tom. Tom est plus grand que Camille. Qui est le plus grand ?"
+correct_answer = "Jade"
+choices = Array[String](["Tom", "Camille", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_bayn1"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Alice est plus grande que Adam. Adam est plus grand que Tom. Qui est le plus grand ?"
+correct_answer = "Alice"
+choices = Array[String](["Adam", "Tom", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_b7ka4"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Hugo est plus grand que Zoé. Zoé est plus grande que Mia. Qui est le plus petit ?"
+correct_answer = "Mia"
+choices = Array[String](["Hugo", "Zoé", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_6s5ix"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Sacha est plus grande que Lina. Lina est plus grande que Nina. Qui est le plus petit ?"
+correct_answer = "Nina"
+choices = Array[String](["Sacha", "Lina", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_bo38h"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Max est plus grand que Lina. Lina est plus grande que Léa. Qui est le plus grand ?"
+correct_answer = "Max"
+choices = Array[String](["Lina", "Léa", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_808xo"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Hugo est plus grand que Jade. Jade est plus grande que Zoé. Qui est le plus grand ?"
+correct_answer = "Hugo"
+choices = Array[String](["Jade", "Zoé", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_c5y7i"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Enzo est plus grand que Jade. Jade est plus grande que Hugo. Qui est ni le plus grand, ni le plus petit ?"
+correct_answer = "Jade"
+choices = Array[String](["Enzo", "Hugo", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_p2gw5"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Mia est plus grande que Tom. Tom est plus grand que Enzo. Qui est le plus petit ?"
+correct_answer = "Enzo"
+choices = Array[String](["Mia", "Tom", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_lp1r2"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Zoé est plus grande que Noah. Noah est plus grand que Léna. Qui est le plus petit ?"
+correct_answer = "Léna"
+choices = Array[String](["Zoé", "Noah", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_1afh0"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Nina est plus grande que Sacha. Sacha est plus grande que Mia. Qui est le plus petit ?"
+correct_answer = "Mia"
+choices = Array[String](["Nina", "Sacha", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_ijrw1"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Adam est plus grand que Noah. Noah est plus grand que Sacha. Qui est le plus petit ?"
+correct_answer = "Sacha"
+choices = Array[String](["Adam", "Noah", "Impossible à savoir"])
+
+[sub_resource type="Resource" id="Resource_mbbth"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "S'il est fatigué, Zoé va se coucher. Il est fatigué. Donc Zoé…"
+correct_answer = "va se coucher"
+choices = Array[String](["allume la lumière", "sort en récréation", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_rlq4g"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "S'il fait froid, Léna met un manteau. Il fait froid. Donc Léna…"
+correct_answer = "met un manteau"
+choices = Array[String](["avance", "va se coucher", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_85p1n"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "S'il fait nuit, Alice allume la lumière. Il fait nuit. Donc Alice…"
+correct_answer = "allume la lumière"
+choices = Array[String](["mange un fruit", "va se coucher", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_2c0pm"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Si le feu est vert, Camille avance. Le feu est vert. Donc Camille…"
+correct_answer = "avance"
+choices = Array[String](["se réveille", "allume la lumière", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_ipr73"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "S'il pleut, Alice prend un parapluie. Il pleut. Donc Alice…"
+correct_answer = "prend un parapluie"
+choices = Array[String](["met un manteau", "se réveille", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_bjjfh"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "S'il est fatigué, Mia va se coucher. Il est fatigué. Donc Mia…"
+correct_answer = "va se coucher"
+choices = Array[String](["boit un verre d'eau", "prend un parapluie", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_8p8g3"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "S'il a faim, Nolan mange un fruit. Il a faim. Donc Nolan…"
+correct_answer = "mange un fruit"
+choices = Array[String](["frappe", "se réveille", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_qgqlr"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "S'il fait froid, Léa met un manteau. Il fait froid. Donc Léa…"
+correct_answer = "met un manteau"
+choices = Array[String](["frappe", "prend un parapluie", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_2eewc"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Si le réveil sonne, Léa se réveille. Le réveil sonne. Donc Léa…"
+correct_answer = "se réveille"
+choices = Array[String](["boit de l'eau fraîche", "sort en récréation", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_m3euo"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "S'il fait chaud, Léna boit de l'eau fraîche. Il fait chaud. Donc Léna…"
+correct_answer = "boit de l'eau fraîche"
+choices = Array[String](["frappe", "avance", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_jvw84"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Si le réveil sonne, Jade se réveille. Le réveil sonne. Donc Jade…"
+correct_answer = "se réveille"
+choices = Array[String](["mange un fruit", "s'arrête", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_dk4jj"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Si la porte est fermée, Enzo frappe. La porte est fermée. Donc Enzo…"
+correct_answer = "frappe"
+choices = Array[String](["met un manteau", "sort en récréation", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_q2tpt"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "S'il a soif, Nina boit un verre d'eau. Il a soif. Donc Nina…"
+correct_answer = "boit un verre d'eau"
+choices = Array[String](["se réveille", "frappe", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_4jsf6"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Si la cloche sonne, Sacha sort en récréation. La cloche sonne. Donc Sacha…"
+correct_answer = "sort en récréation"
+choices = Array[String](["boit de l'eau fraîche", "se réveille", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_tg8jq"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "S'il est fatigué, Emma va se coucher. Il est fatigué. Donc Emma…"
+correct_answer = "va se coucher"
+choices = Array[String](["sort en récréation", "prend un parapluie", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_43bip"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Si la cloche sonne, Jade sort en récréation. La cloche sonne. Donc Jade…"
+correct_answer = "sort en récréation"
+choices = Array[String](["mange un fruit", "met un manteau", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_qtc0t"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Si le feu est vert, Nina avance. Le feu est vert. Donc Nina…"
+correct_answer = "avance"
+choices = Array[String](["boit un verre d'eau", "se réveille", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_p12r0"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "S'il fait nuit, Sacha allume la lumière. Il fait nuit. Donc Sacha…"
+correct_answer = "allume la lumière"
+choices = Array[String](["avance", "met un manteau", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_ycwly"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "S'il fait froid, Camille met un manteau. Il fait froid. Donc Camille…"
+correct_answer = "met un manteau"
+choices = Array[String](["mange un fruit", "allume la lumière", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_2x8me"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Si le feu est rouge, Léna s'arrête. Le feu est rouge. Donc Léna…"
+correct_answer = "s'arrête"
+choices = Array[String](["boit de l'eau fraîche", "va se coucher", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_tipsq"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "S'il a soif, Alice boit un verre d'eau. Il a soif. Donc Alice…"
+correct_answer = "boit un verre d'eau"
+choices = Array[String](["mange un fruit", "met un manteau", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_j06jw"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "S'il fait nuit, Lina allume la lumière. Il fait nuit. Donc Lina…"
+correct_answer = "allume la lumière"
+choices = Array[String](["prend un parapluie", "boit un verre d'eau", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_3yfse"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "S'il fait nuit, Mia allume la lumière. Il fait nuit. Donc Mia…"
+correct_answer = "allume la lumière"
+choices = Array[String](["s'arrête", "va se coucher", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_rxq2x"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "S'il a faim, Nina mange un fruit. Il a faim. Donc Nina…"
+correct_answer = "mange un fruit"
+choices = Array[String](["sort en récréation", "avance", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_og7pu"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "S'il est fatigué, Hugo va se coucher. Il est fatigué. Donc Hugo…"
+correct_answer = "va se coucher"
+choices = Array[String](["frappe", "se réveille", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_lf88e"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Si le réveil sonne, Camille se réveille. Le réveil sonne. Donc Camille…"
+correct_answer = "se réveille"
+choices = Array[String](["avance", "prend un parapluie", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_onq5m"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Si le réveil sonne, Sacha se réveille. Le réveil sonne. Donc Sacha…"
+correct_answer = "se réveille"
+choices = Array[String](["sort en récréation", "boit de l'eau fraîche", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_nd772"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "S'il fait nuit, Théo allume la lumière. Il fait nuit. Donc Théo…"
+correct_answer = "allume la lumière"
+choices = Array[String](["va se coucher", "avance", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_cyc84"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Si la cloche sonne, Théo sort en récréation. La cloche sonne. Donc Théo…"
+correct_answer = "sort en récréation"
+choices = Array[String](["met un manteau", "s'arrête", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_53i28"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "S'il fait chaud, Zoé boit de l'eau fraîche. Il fait chaud. Donc Zoé…"
+correct_answer = "boit de l'eau fraîche"
+choices = Array[String](["met un manteau", "frappe", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_nm0cr"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "S'il fait nuit, Emma allume la lumière. Il fait nuit. Donc Emma…"
+correct_answer = "allume la lumière"
+choices = Array[String](["prend un parapluie", "se réveille", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_ltnka"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "S'il fait chaud, Nina boit de l'eau fraîche. Il fait chaud. Donc Nina…"
+correct_answer = "boit de l'eau fraîche"
+choices = Array[String](["boit un verre d'eau", "va se coucher", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_r1138"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "S'il est fatigué, Lina va se coucher. Il est fatigué. Donc Lina…"
+correct_answer = "va se coucher"
+choices = Array[String](["frappe", "allume la lumière", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_aiqig"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Si le feu est rouge, Lina s'arrête. Le feu est rouge. Donc Lina…"
+correct_answer = "s'arrête"
+choices = Array[String](["met un manteau", "se réveille", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_la4dm"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Si le feu est vert, Max avance. Le feu est vert. Donc Max…"
+correct_answer = "avance"
+choices = Array[String](["allume la lumière", "sort en récréation", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_yjdfv"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Si la cloche sonne, Mia sort en récréation. La cloche sonne. Donc Mia…"
+correct_answer = "sort en récréation"
+choices = Array[String](["boit un verre d'eau", "se réveille", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_0ttak"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Si le feu est rouge, Max s'arrête. Le feu est rouge. Donc Max…"
+correct_answer = "s'arrête"
+choices = Array[String](["se réveille", "boit un verre d'eau", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_ik4fh"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Si le réveil sonne, Hugo se réveille. Le réveil sonne. Donc Hugo…"
+correct_answer = "se réveille"
+choices = Array[String](["met un manteau", "frappe", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_brnk5"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Si le réveil sonne, Enzo se réveille. Le réveil sonne. Donc Enzo…"
+correct_answer = "se réveille"
+choices = Array[String](["boit un verre d'eau", "mange un fruit", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_ywisu"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Si le réveil sonne, Zoé se réveille. Le réveil sonne. Donc Zoé…"
+correct_answer = "se réveille"
+choices = Array[String](["prend un parapluie", "avance", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_dcsuq"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "S'il fait chaud, Enzo boit de l'eau fraîche. Il fait chaud. Donc Enzo…"
+correct_answer = "boit de l'eau fraîche"
+choices = Array[String](["sort en récréation", "allume la lumière", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_hi0wd"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "S'il pleut, Léa prend un parapluie. Il pleut. Donc Léa…"
+correct_answer = "prend un parapluie"
+choices = Array[String](["avance", "frappe", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_gi6if"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "S'il pleut, Théo prend un parapluie. Il pleut. Donc Théo…"
+correct_answer = "prend un parapluie"
+choices = Array[String](["met un manteau", "boit de l'eau fraîche", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_7okgy"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "S'il a faim, Zoé mange un fruit. Il a faim. Donc Zoé…"
+correct_answer = "mange un fruit"
+choices = Array[String](["frappe", "allume la lumière", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_nkw01"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "S'il pleut, Emma prend un parapluie. Il pleut. Donc Emma…"
+correct_answer = "prend un parapluie"
+choices = Array[String](["va se coucher", "boit de l'eau fraîche", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_uqodm"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "S'il fait froid, Alice met un manteau. Il fait froid. Donc Alice…"
+correct_answer = "met un manteau"
+choices = Array[String](["prend un parapluie", "boit un verre d'eau", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_jc7sp"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "S'il pleut, Hugo prend un parapluie. Il pleut. Donc Hugo…"
+correct_answer = "prend un parapluie"
+choices = Array[String](["met un manteau", "avance", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_saw4h"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "S'il fait froid, Sacha met un manteau. Il fait froid. Donc Sacha…"
+correct_answer = "met un manteau"
+choices = Array[String](["se réveille", "s'arrête", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_t1w7j"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "S'il fait nuit, Nolan allume la lumière. Il fait nuit. Donc Nolan…"
+correct_answer = "allume la lumière"
+choices = Array[String](["boit un verre d'eau", "met un manteau", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_6q5k1"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "S'il fait froid, Théo met un manteau. Il fait froid. Donc Théo…"
+correct_answer = "met un manteau"
+choices = Array[String](["prend un parapluie", "sort en récréation", "ne fait rien"])
+
+[sub_resource type="Resource" id="Resource_w13mx"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le contraire de propre est sale. Le contraire de sec est…"
+correct_answer = "mouillé"
+choices = Array[String](["sale", "descendre", "sombre"])
+
+[sub_resource type="Resource" id="Resource_iajbh"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le contraire de neuf est vieux. Le contraire de dur est…"
+correct_answer = "mou"
+choices = Array[String](["vieux", "nuit", "étroit"])
+
+[sub_resource type="Resource" id="Resource_y2axv"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le contraire de gentil est méchant. Le contraire de calme est…"
+correct_answer = "bruyant"
+choices = Array[String](["méchant", "étroit", "froid"])
+
+[sub_resource type="Resource" id="Resource_ytkto"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le contraire de lourd est léger. Le contraire de propre est…"
+correct_answer = "sale"
+choices = Array[String](["léger", "petit", "bas"])
+
+[sub_resource type="Resource" id="Resource_5ynn5"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le contraire de grand est petit. Le contraire de gagner est…"
+correct_answer = "perdre"
+choices = Array[String](["petit", "descendre", "faible"])
+
+[sub_resource type="Resource" id="Resource_wm1u4"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le contraire de monter est descendre. Le contraire de dur est…"
+correct_answer = "mou"
+choices = Array[String](["descendre", "bas", "petit"])
+
+[sub_resource type="Resource" id="Resource_ueuii"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le contraire de facile est difficile. Le contraire de plein est…"
+correct_answer = "vide"
+choices = Array[String](["difficile", "sale", "froid"])
+
+[sub_resource type="Resource" id="Resource_bj5wc"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le contraire de tôt est tard. Le contraire de gentil est…"
+correct_answer = "méchant"
+choices = Array[String](["tard", "finir", "vide"])
+
+[sub_resource type="Resource" id="Resource_eecdt"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le contraire de fort est faible. Le contraire de facile est…"
+correct_answer = "difficile"
+choices = Array[String](["faible", "fin", "nuit"])
+
+[sub_resource type="Resource" id="Resource_xo4ir"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le contraire de sec est mouillé. Le contraire de lourd est…"
+correct_answer = "léger"
+choices = Array[String](["mouillé", "difficile", "fermé"])
+
+[sub_resource type="Resource" id="Resource_8vqxi"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le contraire de sec est mouillé. Le contraire de rapide est…"
+correct_answer = "lent"
+choices = Array[String](["mouillé", "sale", "fermé"])
+
+[sub_resource type="Resource" id="Resource_harrj"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le contraire de neuf est vieux. Le contraire de clair est…"
+correct_answer = "sombre"
+choices = Array[String](["vieux", "lent", "étroit"])
+
+[sub_resource type="Resource" id="Resource_qkr4h"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le contraire de épais est fin. Le contraire de rapide est…"
+correct_answer = "lent"
+choices = Array[String](["fin", "faible", "froid"])
+
+[sub_resource type="Resource" id="Resource_jbiqf"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le contraire de fort est faible. Le contraire de épais est…"
+correct_answer = "fin"
+choices = Array[String](["faible", "lent", "perdre"])
+
+[sub_resource type="Resource" id="Resource_2l6nf"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le contraire de calme est bruyant. Le contraire de lourd est…"
+correct_answer = "léger"
+choices = Array[String](["bruyant", "faible", "vieux"])
+
+[sub_resource type="Resource" id="Resource_mgl7k"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le contraire de propre est sale. Le contraire de monter est…"
+correct_answer = "descendre"
+choices = Array[String](["sale", "bruyant", "méchant"])
+
+[sub_resource type="Resource" id="Resource_hd42g"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le contraire de commencer est finir. Le contraire de fort est…"
+correct_answer = "faible"
+choices = Array[String](["finir", "léger", "froid"])
+
+[sub_resource type="Resource" id="Resource_gnxn4"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le contraire de neuf est vieux. Le contraire de jour est…"
+correct_answer = "nuit"
+choices = Array[String](["vieux", "perdre", "content"])
+
+[sub_resource type="Resource" id="Resource_8oyfc"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le contraire de calme est bruyant. Le contraire de dur est…"
+correct_answer = "mou"
+choices = Array[String](["bruyant", "perdre", "tard"])
+
+[sub_resource type="Resource" id="Resource_2g3lk"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le contraire de lourd est léger. Le contraire de jour est…"
+correct_answer = "nuit"
+choices = Array[String](["léger", "lent", "descendre"])
+
+[sub_resource type="Resource" id="Resource_f23uo"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le contraire de large est étroit. Le contraire de monter est…"
+correct_answer = "descendre"
+choices = Array[String](["étroit", "petit", "content"])
+
+[sub_resource type="Resource" id="Resource_rwyhx"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le contraire de clair est sombre. Le contraire de gentil est…"
+correct_answer = "méchant"
+choices = Array[String](["sombre", "bruyant", "faible"])
+
+[sub_resource type="Resource" id="Resource_1q3fx"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le contraire de facile est difficile. Le contraire de gentil est…"
+correct_answer = "méchant"
+choices = Array[String](["difficile", "vide", "étroit"])
+
+[sub_resource type="Resource" id="Resource_7x326"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le contraire de calme est bruyant. Le contraire de haut est…"
+correct_answer = "bas"
+choices = Array[String](["bruyant", "difficile", "fermé"])
+
+[sub_resource type="Resource" id="Resource_i3vxm"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le contraire de haut est bas. Le contraire de tôt est…"
+correct_answer = "tard"
+choices = Array[String](["bas", "vieux", "mouillé"])
+
+[sub_resource type="Resource" id="Resource_3yox3"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le contraire de grand est petit. Le contraire de large est…"
+correct_answer = "étroit"
+choices = Array[String](["petit", "sale", "perdre"])
+
+[sub_resource type="Resource" id="Resource_kba4l"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le contraire de facile est difficile. Le contraire de tôt est…"
+correct_answer = "tard"
+choices = Array[String](["difficile", "léger", "étroit"])
+
+[sub_resource type="Resource" id="Resource_llfb6"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le contraire de gentil est méchant. Le contraire de fort est…"
+correct_answer = "faible"
+choices = Array[String](["méchant", "sale", "perdre"])
+
+[sub_resource type="Resource" id="Resource_tno20"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le contraire de triste est content. Le contraire de commencer est…"
+correct_answer = "finir"
+choices = Array[String](["content", "mouillé", "tard"])
+
+[sub_resource type="Resource" id="Resource_ow650"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Le contraire de ouvert est fermé. Le contraire de commencer est…"
+correct_answer = "finir"
+choices = Array[String](["fermé", "vieux", "perdre"])
+
+[sub_resource type="Resource" id="Resource_65cq8"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Parmi 755, 536, 954, 820 : quel est le plus grand nombre ?"
+correct_answer = "954"
+choices = Array[String](["755", "536", "820"])
+
+[sub_resource type="Resource" id="Resource_pd2hw"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Parmi 419, 344, 688, 64 : quel est le plus grand nombre ?"
+correct_answer = "688"
+choices = Array[String](["419", "344", "64"])
+
+[sub_resource type="Resource" id="Resource_rkj3t"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Parmi 446, 369, 758, 708 : quel est le plus grand nombre ?"
+correct_answer = "758"
+choices = Array[String](["446", "369", "708"])
+
+[sub_resource type="Resource" id="Resource_apra5"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Parmi 707, 582, 757, 788 : quel est le plus grand nombre ?"
+correct_answer = "788"
+choices = Array[String](["707", "582", "757"])
+
+[sub_resource type="Resource" id="Resource_gfkd0"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Parmi 426, 762, 98, 207 : quel est le plus grand nombre ?"
+correct_answer = "762"
+choices = Array[String](["426", "98", "207"])
+
+[sub_resource type="Resource" id="Resource_7rnf3"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Parmi 72, 168, 341, 960 : quel est le plus grand nombre ?"
+correct_answer = "960"
+choices = Array[String](["72", "168", "341"])
+
+[sub_resource type="Resource" id="Resource_vhk6u"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Parmi 442, 594, 162, 588 : quel est le plus petit nombre ?"
+correct_answer = "162"
+choices = Array[String](["442", "594", "588"])
+
+[sub_resource type="Resource" id="Resource_sp3cj"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Parmi 595, 216, 693, 54 : quel est le plus grand nombre ?"
+correct_answer = "693"
+choices = Array[String](["595", "216", "54"])
+
+[sub_resource type="Resource" id="Resource_lo01h"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Parmi 919, 204, 209, 17 : quel est le plus petit nombre ?"
+correct_answer = "17"
+choices = Array[String](["919", "204", "209"])
+
+[sub_resource type="Resource" id="Resource_dpt65"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Parmi 122, 160, 384, 727 : quel est le plus grand nombre ?"
+correct_answer = "727"
+choices = Array[String](["122", "160", "384"])
+
+[sub_resource type="Resource" id="Resource_dgd54"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Parmi 720, 591, 588, 638 : quel est le plus grand nombre ?"
+correct_answer = "720"
+choices = Array[String](["591", "588", "638"])
+
+[sub_resource type="Resource" id="Resource_8lynd"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Parmi 640, 649, 175, 54 : quel est le plus petit nombre ?"
+correct_answer = "54"
+choices = Array[String](["640", "649", "175"])
+
+[sub_resource type="Resource" id="Resource_6ji5a"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Parmi 636, 680, 204, 458 : quel est le plus petit nombre ?"
+correct_answer = "204"
+choices = Array[String](["636", "680", "458"])
+
+[sub_resource type="Resource" id="Resource_kyptl"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Parmi 199, 860, 270, 239 : quel est le plus grand nombre ?"
+correct_answer = "860"
+choices = Array[String](["199", "270", "239"])
+
+[sub_resource type="Resource" id="Resource_tkffi"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Parmi 211, 320, 49, 577 : quel est le plus petit nombre ?"
+correct_answer = "49"
+choices = Array[String](["211", "320", "577"])
+
+[sub_resource type="Resource" id="Resource_1q77o"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Parmi 913, 267, 944, 393 : quel est le plus grand nombre ?"
+correct_answer = "944"
+choices = Array[String](["913", "267", "393"])
+
+[sub_resource type="Resource" id="Resource_bh5ph"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Parmi 414, 998, 397, 887 : quel est le plus petit nombre ?"
+correct_answer = "397"
+choices = Array[String](["414", "998", "887"])
+
+[sub_resource type="Resource" id="Resource_4pbdc"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Parmi 516, 111, 273, 396 : quel est le plus petit nombre ?"
+correct_answer = "111"
+choices = Array[String](["516", "273", "396"])
+
+[sub_resource type="Resource" id="Resource_p8jpn"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Parmi 302, 34, 875, 493 : quel est le plus grand nombre ?"
+correct_answer = "875"
+choices = Array[String](["302", "34", "493"])
+
+[sub_resource type="Resource" id="Resource_pfyda"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Parmi 482, 779, 391, 649 : quel est le plus petit nombre ?"
+correct_answer = "391"
+choices = Array[String](["482", "779", "649"])
+
+[sub_resource type="Resource" id="Resource_oyhxq"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Parmi 837, 487, 440, 495 : quel est le plus petit nombre ?"
+correct_answer = "440"
+choices = Array[String](["837", "487", "495"])
+
+[sub_resource type="Resource" id="Resource_npcsr"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Parmi 485, 684, 132, 934 : quel est le plus petit nombre ?"
+correct_answer = "132"
+choices = Array[String](["485", "684", "934"])
+
+[sub_resource type="Resource" id="Resource_l8vmi"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Parmi 438, 876, 881, 204 : quel est le plus grand nombre ?"
+correct_answer = "881"
+choices = Array[String](["438", "876", "204"])
+
+[sub_resource type="Resource" id="Resource_dvt1e"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Parmi 702, 189, 371, 248 : quel est le plus petit nombre ?"
+correct_answer = "189"
+choices = Array[String](["702", "371", "248"])
+
+[sub_resource type="Resource" id="Resource_umu1y"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Parmi 732, 616, 296, 901 : quel est le plus grand nombre ?"
+correct_answer = "901"
+choices = Array[String](["732", "616", "296"])
+
+[sub_resource type="Resource" id="Resource_34oyo"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Parmi 902, 693, 33, 596 : quel est le plus grand nombre ?"
+correct_answer = "902"
+choices = Array[String](["693", "33", "596"])
+
+[sub_resource type="Resource" id="Resource_ujeje"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Parmi 21, 103, 654, 767 : quel est le plus petit nombre ?"
+correct_answer = "21"
+choices = Array[String](["103", "654", "767"])
+
+[sub_resource type="Resource" id="Resource_6k6nj"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Parmi 958, 255, 349, 259 : quel est le plus grand nombre ?"
+correct_answer = "958"
+choices = Array[String](["255", "349", "259"])
+
+[sub_resource type="Resource" id="Resource_5dave"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Parmi 187, 882, 744, 522 : quel est le plus grand nombre ?"
+correct_answer = "882"
+choices = Array[String](["187", "744", "522"])
+
+[sub_resource type="Resource" id="Resource_c3uw4"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Parmi 696, 457, 275, 43 : quel est le plus petit nombre ?"
+correct_answer = "43"
+choices = Array[String](["696", "457", "275"])
+
+[sub_resource type="Resource" id="Resource_fht7v"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Parmi 361, 995, 385, 979 : quel est le plus grand nombre ?"
+correct_answer = "995"
+choices = Array[String](["361", "385", "979"])
+
+[sub_resource type="Resource" id="Resource_skpkw"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Parmi 812, 333, 600, 670 : quel est le plus grand nombre ?"
+correct_answer = "812"
+choices = Array[String](["333", "600", "670"])
+
+[sub_resource type="Resource" id="Resource_uad5w"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Parmi 652, 864, 401, 801 : quel est le plus petit nombre ?"
+correct_answer = "401"
+choices = Array[String](["652", "864", "801"])
+
+[sub_resource type="Resource" id="Resource_nonj8"]
+script = ExtResource("1_ci8d3")
+subject = 7
+grade = 2
+text = "Parmi 219, 205, 176, 410 : quel est le plus grand nombre ?"
+correct_answer = "410"
+choices = Array[String](["219", "205", "176"])
+
+[resource]
+script = ExtResource("2_tn1pa")
+questions = Array[ExtResource("1_ci8d3")]([SubResource("Resource_ci8d3"), SubResource("Resource_tn1pa"), SubResource("Resource_du5fe"), SubResource("Resource_b0fle"), SubResource("Resource_qvffr"), SubResource("Resource_45s1w"), SubResource("Resource_q6kuk"), SubResource("Resource_174mo"), SubResource("Resource_1u6j7"), SubResource("Resource_gy4f3"), SubResource("Resource_eskbm"), SubResource("Resource_o3kwj"), SubResource("Resource_2uxw3"), SubResource("Resource_8g7ob"), SubResource("Resource_yn2gc"), SubResource("Resource_shd62"), SubResource("Resource_henyi"), SubResource("Resource_2jjv0"), SubResource("Resource_udli0"), SubResource("Resource_yu4wv"), SubResource("Resource_7c8se"), SubResource("Resource_elyh8"), SubResource("Resource_47a5a"), SubResource("Resource_n5gbp"), SubResource("Resource_35bnn"), SubResource("Resource_u5dtk"), SubResource("Resource_4s5u4"), SubResource("Resource_t4lxg"), SubResource("Resource_henj8"), SubResource("Resource_50hio"), SubResource("Resource_xggpe"), SubResource("Resource_jrb0k"), SubResource("Resource_llkj4"), SubResource("Resource_fa8ns"), SubResource("Resource_f75e1"), SubResource("Resource_wv3ot"), SubResource("Resource_5iwv8"), SubResource("Resource_bwtdp"), SubResource("Resource_6833y"), SubResource("Resource_jxxc6"), SubResource("Resource_oi3kb"), SubResource("Resource_ui0y4"), SubResource("Resource_2jfuk"), SubResource("Resource_yebjh"), SubResource("Resource_dyw3k"), SubResource("Resource_7ksve"), SubResource("Resource_px2tp"), SubResource("Resource_esh5h"), SubResource("Resource_e5dnh"), SubResource("Resource_bi62s"), SubResource("Resource_sub2r"), SubResource("Resource_6n5cb"), SubResource("Resource_03m2d"), SubResource("Resource_0ciuf"), SubResource("Resource_rjhie"), SubResource("Resource_f56aw"), SubResource("Resource_aqx4p"), SubResource("Resource_wp64j"), SubResource("Resource_20n8g"), SubResource("Resource_whyex"), SubResource("Resource_oaqdo"), SubResource("Resource_0mncf"), SubResource("Resource_7qra2"), SubResource("Resource_g7pco"), SubResource("Resource_ti663"), SubResource("Resource_qnmpa"), SubResource("Resource_j6rcb"), SubResource("Resource_qsvvn"), SubResource("Resource_xs553"), SubResource("Resource_51ljt"), SubResource("Resource_r2aot"), SubResource("Resource_hdiqy"), SubResource("Resource_fflte"), SubResource("Resource_wlkec"), SubResource("Resource_c8g1m"), SubResource("Resource_d4bar"), SubResource("Resource_jsn07"), SubResource("Resource_uwcif"), SubResource("Resource_syuyv"), SubResource("Resource_xywde"), SubResource("Resource_8l8mr"), SubResource("Resource_1i8a0"), SubResource("Resource_ty5tl"), SubResource("Resource_qe870"), SubResource("Resource_nsc14"), SubResource("Resource_esb75"), SubResource("Resource_8dojy"), SubResource("Resource_c5w4b"), SubResource("Resource_ht3np"), SubResource("Resource_nopao"), SubResource("Resource_o0l14"), SubResource("Resource_xlhkn"), SubResource("Resource_nx5un"), SubResource("Resource_n585h"), SubResource("Resource_dreba"), SubResource("Resource_8krow"), SubResource("Resource_u5c2b"), SubResource("Resource_8d6nf"), SubResource("Resource_5a7s7"), SubResource("Resource_dkmm1"), SubResource("Resource_4wdod"), SubResource("Resource_eva4a"), SubResource("Resource_gdyel"), SubResource("Resource_31y47"), SubResource("Resource_3maoi"), SubResource("Resource_wbj7s"), SubResource("Resource_ew4nq"), SubResource("Resource_vfwsq"), SubResource("Resource_dw6im"), SubResource("Resource_tp2d2"), SubResource("Resource_5hh0d"), SubResource("Resource_j0hjo"), SubResource("Resource_wys1d"), SubResource("Resource_m0dcx"), SubResource("Resource_4tv6r"), SubResource("Resource_h3cmu"), SubResource("Resource_nnrdr"), SubResource("Resource_76dte"), SubResource("Resource_4pm3e"), SubResource("Resource_43t6h"), SubResource("Resource_hu633"), SubResource("Resource_7570h"), SubResource("Resource_574uv"), SubResource("Resource_8gh52"), SubResource("Resource_87cft"), SubResource("Resource_2nxpu"), SubResource("Resource_m6lbj"), SubResource("Resource_d7etk"), SubResource("Resource_3juhd"), SubResource("Resource_urgve"), SubResource("Resource_wi6cr"), SubResource("Resource_xh6nk"), SubResource("Resource_nfpes"), SubResource("Resource_ethxk"), SubResource("Resource_o62p7"), SubResource("Resource_bwrkr"), SubResource("Resource_ar86o"), SubResource("Resource_dk5o5"), SubResource("Resource_8n10x"), SubResource("Resource_jdgaf"), SubResource("Resource_3mexb"), SubResource("Resource_o3rhv"), SubResource("Resource_aow3l"), SubResource("Resource_53ei3"), SubResource("Resource_mu7p7"), SubResource("Resource_e5erl"), SubResource("Resource_qypnq"), SubResource("Resource_xitfs"), SubResource("Resource_nxpy4"), SubResource("Resource_1eub8"), SubResource("Resource_oxjye"), SubResource("Resource_ntb4i"), SubResource("Resource_pdiba"), SubResource("Resource_ojctt"), SubResource("Resource_sbk4m"), SubResource("Resource_nv53w"), SubResource("Resource_n7sbl"), SubResource("Resource_bl036"), SubResource("Resource_ius8e"), SubResource("Resource_dsifj"), SubResource("Resource_1ww67"), SubResource("Resource_rbcq5"), SubResource("Resource_f2lne"), SubResource("Resource_d2k82"), SubResource("Resource_k08cf"), SubResource("Resource_yuwcm"), SubResource("Resource_g8svl"), SubResource("Resource_cnbhy"), SubResource("Resource_45qcu"), SubResource("Resource_gqex1"), SubResource("Resource_rqy05"), SubResource("Resource_12ueh"), SubResource("Resource_phdnk"), SubResource("Resource_ds34p"), SubResource("Resource_e8keu"), SubResource("Resource_0fsec"), SubResource("Resource_qlwfr"), SubResource("Resource_10neh"), SubResource("Resource_insll"), SubResource("Resource_tc5cx"), SubResource("Resource_dp4r8"), SubResource("Resource_w2r2h"), SubResource("Resource_abotv"), SubResource("Resource_iv278"), SubResource("Resource_6fr13"), SubResource("Resource_8s8qr"), SubResource("Resource_030be"), SubResource("Resource_d5a7p"), SubResource("Resource_nbm68"), SubResource("Resource_ivm6y"), SubResource("Resource_bvlxt"), SubResource("Resource_rmgjp"), SubResource("Resource_p6fua"), SubResource("Resource_gajhi"), SubResource("Resource_wnf7j"), SubResource("Resource_b8yk3"), SubResource("Resource_wgxym"), SubResource("Resource_eprhm"), SubResource("Resource_57sd6"), SubResource("Resource_crm6l"), SubResource("Resource_lt2t2"), SubResource("Resource_shej5"), SubResource("Resource_d0ugv"), SubResource("Resource_0ssq6"), SubResource("Resource_wgjmm"), SubResource("Resource_sfdbl"), SubResource("Resource_7pcup"), SubResource("Resource_4t1sd"), SubResource("Resource_2fmgj"), SubResource("Resource_oeqm3"), SubResource("Resource_iqs51"), SubResource("Resource_xvx4n"), SubResource("Resource_x0lhj"), SubResource("Resource_vgclm"), SubResource("Resource_1qb5m"), SubResource("Resource_wgpuh"), SubResource("Resource_cuf28"), SubResource("Resource_i0xhy"), SubResource("Resource_buuwg"), SubResource("Resource_lackt"), SubResource("Resource_q22y4"), SubResource("Resource_mxr1x"), SubResource("Resource_i6ryy"), SubResource("Resource_5ixlk"), SubResource("Resource_a56m2"), SubResource("Resource_nxgir"), SubResource("Resource_favd2"), SubResource("Resource_a4aye"), SubResource("Resource_loqq6"), SubResource("Resource_sqpdk"), SubResource("Resource_s8bt1"), SubResource("Resource_aun6e"), SubResource("Resource_3n1cn"), SubResource("Resource_0ujyv"), SubResource("Resource_u21qv"), SubResource("Resource_4s0dh"), SubResource("Resource_10iop"), SubResource("Resource_rd7bq"), SubResource("Resource_7bu6b"), SubResource("Resource_rpmrq"), SubResource("Resource_7w6m8"), SubResource("Resource_18wmj"), SubResource("Resource_g88eq"), SubResource("Resource_gdtgf"), SubResource("Resource_4561v"), SubResource("Resource_ylmxb"), SubResource("Resource_8bvkq"), SubResource("Resource_8k65a"), SubResource("Resource_1buyv"), SubResource("Resource_s0u7v"), SubResource("Resource_e4imq"), SubResource("Resource_y2h7w"), SubResource("Resource_wrpi6"), SubResource("Resource_61jvc"), SubResource("Resource_034ec"), SubResource("Resource_7clec"), SubResource("Resource_446xw"), SubResource("Resource_mnjjs"), SubResource("Resource_s3s1y"), SubResource("Resource_3g7lq"), SubResource("Resource_ytglf"), SubResource("Resource_3jgye"), SubResource("Resource_t18m7"), SubResource("Resource_yvls1"), SubResource("Resource_t6g7u"), SubResource("Resource_ncttu"), SubResource("Resource_a5wcw"), SubResource("Resource_5wqah"), SubResource("Resource_thcav"), SubResource("Resource_et4vx"), SubResource("Resource_iaox2"), SubResource("Resource_j21dc"), SubResource("Resource_ikh3j"), SubResource("Resource_b8vx1"), SubResource("Resource_t81kl"), SubResource("Resource_iqp2q"), SubResource("Resource_m6twm"), SubResource("Resource_omkoj"), SubResource("Resource_f6g6m"), SubResource("Resource_pnjds"), SubResource("Resource_w8i45"), SubResource("Resource_vsmo7"), SubResource("Resource_f6wr5"), SubResource("Resource_gjbe1"), SubResource("Resource_01u1t"), SubResource("Resource_yugun"), SubResource("Resource_bvf20"), SubResource("Resource_liplu"), SubResource("Resource_ycmxo"), SubResource("Resource_hkgkl"), SubResource("Resource_8v1jg"), SubResource("Resource_hnfhj"), SubResource("Resource_jokxm"), SubResource("Resource_0ye68"), SubResource("Resource_au7ii"), SubResource("Resource_w1lwk"), SubResource("Resource_7m0vp"), SubResource("Resource_p1l8m"), SubResource("Resource_nbyuy"), SubResource("Resource_4gdsi"), SubResource("Resource_fkem7"), SubResource("Resource_5ccfr"), SubResource("Resource_5df7n"), SubResource("Resource_k5kd2"), SubResource("Resource_84ily"), SubResource("Resource_yc4yi"), SubResource("Resource_o27y8"), SubResource("Resource_ca64y"), SubResource("Resource_7f67g"), SubResource("Resource_bko4f"), SubResource("Resource_ob14j"), SubResource("Resource_hsalm"), SubResource("Resource_c88va"), SubResource("Resource_fygp5"), SubResource("Resource_a8v02"), SubResource("Resource_217fw"), SubResource("Resource_yty70"), SubResource("Resource_svc6o"), SubResource("Resource_nx43d"), SubResource("Resource_8xc23"), SubResource("Resource_1y74y"), SubResource("Resource_eix5s"), SubResource("Resource_ywwan"), SubResource("Resource_1tssi"), SubResource("Resource_dewrx"), SubResource("Resource_7ncap"), SubResource("Resource_86icf"), SubResource("Resource_l0oyk"), SubResource("Resource_uaxsf"), SubResource("Resource_o8hh8"), SubResource("Resource_1sj0u"), SubResource("Resource_vo1sm"), SubResource("Resource_osui5"), SubResource("Resource_2qe81"), SubResource("Resource_dplxy"), SubResource("Resource_eff83"), SubResource("Resource_5by7r"), SubResource("Resource_50wui"), SubResource("Resource_3sei4"), SubResource("Resource_kbqh5"), SubResource("Resource_v2otv"), SubResource("Resource_6tti1"), SubResource("Resource_3vnq5"), SubResource("Resource_frnw6"), SubResource("Resource_7bo8b"), SubResource("Resource_cdns5"), SubResource("Resource_ws80w"), SubResource("Resource_2brps"), SubResource("Resource_v3g5t"), SubResource("Resource_5sah1"), SubResource("Resource_70ouw"), SubResource("Resource_grfhl"), SubResource("Resource_h2fs6"), SubResource("Resource_bxa6d"), SubResource("Resource_sdr62"), SubResource("Resource_hb65s"), SubResource("Resource_2ygov"), SubResource("Resource_ag1hb"), SubResource("Resource_iymcq"), SubResource("Resource_gt677"), SubResource("Resource_muog8"), SubResource("Resource_w0agv"), SubResource("Resource_afatm"), SubResource("Resource_tmek1"), SubResource("Resource_ag4sh"), SubResource("Resource_f76cr"), SubResource("Resource_50q8b"), SubResource("Resource_qxjxe"), SubResource("Resource_qcqxy"), SubResource("Resource_cnry0"), SubResource("Resource_eeweq"), SubResource("Resource_5auu5"), SubResource("Resource_d72ca"), SubResource("Resource_ewses"), SubResource("Resource_kuh7l"), SubResource("Resource_4gym2"), SubResource("Resource_bayn1"), SubResource("Resource_b7ka4"), SubResource("Resource_6s5ix"), SubResource("Resource_bo38h"), SubResource("Resource_808xo"), SubResource("Resource_c5y7i"), SubResource("Resource_p2gw5"), SubResource("Resource_lp1r2"), SubResource("Resource_1afh0"), SubResource("Resource_ijrw1"), SubResource("Resource_mbbth"), SubResource("Resource_rlq4g"), SubResource("Resource_85p1n"), SubResource("Resource_2c0pm"), SubResource("Resource_ipr73"), SubResource("Resource_bjjfh"), SubResource("Resource_8p8g3"), SubResource("Resource_qgqlr"), SubResource("Resource_2eewc"), SubResource("Resource_m3euo"), SubResource("Resource_jvw84"), SubResource("Resource_dk4jj"), SubResource("Resource_q2tpt"), SubResource("Resource_4jsf6"), SubResource("Resource_tg8jq"), SubResource("Resource_43bip"), SubResource("Resource_qtc0t"), SubResource("Resource_p12r0"), SubResource("Resource_ycwly"), SubResource("Resource_2x8me"), SubResource("Resource_tipsq"), SubResource("Resource_j06jw"), SubResource("Resource_3yfse"), SubResource("Resource_rxq2x"), SubResource("Resource_og7pu"), SubResource("Resource_lf88e"), SubResource("Resource_onq5m"), SubResource("Resource_nd772"), SubResource("Resource_cyc84"), SubResource("Resource_53i28"), SubResource("Resource_nm0cr"), SubResource("Resource_ltnka"), SubResource("Resource_r1138"), SubResource("Resource_aiqig"), SubResource("Resource_la4dm"), SubResource("Resource_yjdfv"), SubResource("Resource_0ttak"), SubResource("Resource_ik4fh"), SubResource("Resource_brnk5"), SubResource("Resource_ywisu"), SubResource("Resource_dcsuq"), SubResource("Resource_hi0wd"), SubResource("Resource_gi6if"), SubResource("Resource_7okgy"), SubResource("Resource_nkw01"), SubResource("Resource_uqodm"), SubResource("Resource_jc7sp"), SubResource("Resource_saw4h"), SubResource("Resource_t1w7j"), SubResource("Resource_6q5k1"), SubResource("Resource_w13mx"), SubResource("Resource_iajbh"), SubResource("Resource_y2axv"), SubResource("Resource_ytkto"), SubResource("Resource_5ynn5"), SubResource("Resource_wm1u4"), SubResource("Resource_ueuii"), SubResource("Resource_bj5wc"), SubResource("Resource_eecdt"), SubResource("Resource_xo4ir"), SubResource("Resource_8vqxi"), SubResource("Resource_harrj"), SubResource("Resource_qkr4h"), SubResource("Resource_jbiqf"), SubResource("Resource_2l6nf"), SubResource("Resource_mgl7k"), SubResource("Resource_hd42g"), SubResource("Resource_gnxn4"), SubResource("Resource_8oyfc"), SubResource("Resource_2g3lk"), SubResource("Resource_f23uo"), SubResource("Resource_rwyhx"), SubResource("Resource_1q3fx"), SubResource("Resource_7x326"), SubResource("Resource_i3vxm"), SubResource("Resource_3yox3"), SubResource("Resource_kba4l"), SubResource("Resource_llfb6"), SubResource("Resource_tno20"), SubResource("Resource_ow650"), SubResource("Resource_65cq8"), SubResource("Resource_pd2hw"), SubResource("Resource_rkj3t"), SubResource("Resource_apra5"), SubResource("Resource_gfkd0"), SubResource("Resource_7rnf3"), SubResource("Resource_vhk6u"), SubResource("Resource_sp3cj"), SubResource("Resource_lo01h"), SubResource("Resource_dpt65"), SubResource("Resource_dgd54"), SubResource("Resource_8lynd"), SubResource("Resource_6ji5a"), SubResource("Resource_kyptl"), SubResource("Resource_tkffi"), SubResource("Resource_1q77o"), SubResource("Resource_bh5ph"), SubResource("Resource_4pbdc"), SubResource("Resource_p8jpn"), SubResource("Resource_pfyda"), SubResource("Resource_oyhxq"), SubResource("Resource_npcsr"), SubResource("Resource_l8vmi"), SubResource("Resource_dvt1e"), SubResource("Resource_umu1y"), SubResource("Resource_34oyo"), SubResource("Resource_ujeje"), SubResource("Resource_6k6nj"), SubResource("Resource_5dave"), SubResource("Resource_c3uw4"), SubResource("Resource_fht7v"), SubResource("Resource_skpkw"), SubResource("Resource_uad5w"), SubResource("Resource_nonj8")])

@@ -1,0 +1,501 @@
+id;text;correct_answer;choice_2;choice_3;choice_4
+42000;Quel nombre vient après ? 1, 2, 4, 5, 7, …;8;9;6;10
+42001;Quel nombre vient après ? 2, 4, 8, 16, …;32;24;18;20
+42002;L'oiseau vole. Le poisson…;nage;court;saute;marche
+42003;Le jour est à la nuit ce que le chaud est…;au froid;à la pluie;à l'été;au vent
+42004;Tous les chats sont des animaux. Félix est un chat. Donc Félix est…;un animal;un chien;une plante;un objet
+42005;Lequel de ces aliments n'est pas un fruit ? 🍎 🍌 🥕 🍊;🥕;🍎;🍌;🍊
+42006;Quelle lettre vient après ? A, D, G, J, …;M;L;K;N
+42007;Dans une grille, le rond est en haut à gauche. On le déplace de 2 cases vers la droite. Où est-il ?;en haut à droite;en bas à gauche;au milieu;en bas à droite
+42008;Quel nombre vient après ? 32, 16, 8, 4, …;2;1;6;0
+42009;Léo est plus grand que Zoé. Zoé est plus grand que Nino. Qui est le plus petit ?;Nino;Léo;Zoé;Impossible à savoir
+42010;Quel nombre vient après ? 22, 29, 38, 45, 54, …;61;62;60;54
+42011;Quel nombre vient après ? 3, 10, 6, 13, 9, …;16;17;15;9
+42012;Quel nombre vient après ? 12, 16, 18, 22, 24, …;28;29;27;24
+42013;Quel nombre vient après ? 48, 51, 38, 41, 28, …;31;32;30;28
+42014;Quel nombre vient après ? 45, 55, 48, 58, 51, …;61;62;60;51
+42015;Quel nombre vient après ? 79, 81, 75, 77, 71, …;73;74;72;71
+42016;Quel nombre vient après ? 75, 78, 80, 83, 85, …;88;89;87;85
+42017;Quel nombre vient après ? 13, 15, 10, 12, 7, …;9;10;8;7
+42018;Quel nombre vient après ? 61, 67, 74, 80, 87, …;93;94;92;87
+42019;Quel nombre vient après ? 24, 32, 47, 55, 70, …;78;79;77;70
+42020;Quel nombre vient après ? 6, 9, 14, 17, 22, …;25;26;24;22
+42021;Quel nombre vient après ? 47, 59, 47, 59, 47, …;59;60;58;47
+42022;Quel nombre vient après ? 75, 89, 81, 95, 87, …;101;102;100;87
+42023;Quel nombre vient après ? 29, 42, 51, 64, 73, …;86;87;85;73
+42024;Quel nombre vient après ? 78, 86, 78, 86, 78, …;86;87;85;78
+42025;Quel nombre vient après ? 35, 49, 63, 77, 91, …;105;106;104;91
+42026;Quel nombre vient après ? 1, 4, 5, 8, 9, …;12;13;11;9
+42027;Quel nombre vient après ? 45, 55, 42, 52, 39, …;49;50;48;39
+42028;Quel nombre vient après ? 14, 24, 20, 30, 26, …;36;37;35;26
+42029;Quel nombre vient après ? 28, 34, 40, 46, 52, …;58;59;57;52
+42030;Quel nombre vient après ? 55, 65, 77, 87, 99, …;109;110;108;99
+42031;Quel nombre vient après ? 15, 28, 27, 40, 39, …;52;53;51;39
+42032;Quel nombre vient après ? 79, 82, 85, 88, 91, …;94;95;93;91
+42033;Quel nombre vient après ? 34, 45, 50, 61, 66, …;77;78;76;66
+42034;Quel nombre vient après ? 35, 37, 36, 38, 37, …;39;40;38;37
+42035;Quel nombre vient après ? 7, 10, 22, 25, 37, …;40;41;39;37
+42036;Quel nombre vient après ? 8, 13, 5, 10, 2, …;7;8;6;2
+42037;Quel nombre vient après ? 69, 78, 65, 74, 61, …;70;71;69;61
+42038;Quel nombre vient après ? 36, 49, 57, 70, 78, …;91;92;90;78
+42039;Quel nombre vient après ? 51, 59, 54, 62, 57, …;65;66;64;57
+42040;Quel nombre vient après ? 9, 14, 5, 10, 1, …;6;7;5;1
+42041;Quel nombre vient après ? 16, 22, 27, 33, 38, …;44;45;43;38
+42042;Quel nombre vient après ? 56, 67, 70, 81, 84, …;95;96;94;84
+42043;Quel nombre vient après ? 56, 63, 52, 59, 48, …;55;56;54;48
+42044;Quel nombre vient après ? 35, 37, 42, 44, 49, …;51;52;50;49
+42045;Quel nombre vient après ? 31, 43, 34, 46, 37, …;49;50;48;37
+42046;Quel nombre vient après ? 52, 60, 58, 66, 64, …;72;73;71;64
+42047;Quel nombre vient après ? 32, 44, 41, 53, 50, …;62;63;61;50
+42048;Quel nombre vient après ? 67, 70, 66, 69, 65, …;68;69;67;65
+42049;Quel nombre vient après ? 63, 65, 59, 61, 55, …;57;58;56;55
+42050;Quel nombre vient après ? 10, 13, 28, 31, 46, …;49;50;48;46
+42051;Quel nombre vient après ? 51, 66, 51, 66, 51, …;66;67;65;51
+42052;Quel nombre vient après ? 28, 35, 25, 32, 22, …;29;30;28;22
+42053;Quel nombre vient après ? 0, 4, 7, 11, 14, …;18;19;17;14
+42054;Quel nombre vient après ? 68, 74, 79, 85, 90, …;96;97;95;90
+42055;Quel nombre vient après ? 21, 33, 37, 49, 53, …;65;66;64;53
+42056;Quel nombre vient après ? 9, 13, 22, 26, 35, …;39;40;38;35
+42057;Quel nombre vient après ? 68, 70, 68, 70, 68, …;70;71;69;68
+42058;Quel nombre vient après ? 51, 60, 59, 68, 67, …;76;77;75;67
+42059;Quel nombre vient après ? 79, 82, 87, 90, 95, …;98;99;97;95
+42060;Quel nombre vient après ? 69, 81, 79, 91, 89, …;101;102;100;89
+42061;Quel nombre vient après ? 79, 89, 74, 84, 69, …;79;80;78;69
+42062;Quel nombre vient après ? 4, 18, 23, 37, 42, …;56;57;55;42
+42063;Quel nombre vient après ? 24, 37, 41, 54, 58, …;71;72;70;58
+42064;Quel nombre vient après ? 54, 63, 65, 74, 76, …;85;86;84;76
+42065;Quel nombre vient après ? 47, 59, 54, 66, 61, …;73;74;72;61
+42066;Quel nombre vient après ? 19, 23, 13, 17, 7, …;11;12;10;7
+42067;Quel nombre vient après ? 20, 25, 20, 25, 20, …;25;26;24;20
+42068;Quel nombre vient après ? 22, 33, 30, 41, 38, …;49;50;48;38
+42069;Quel nombre vient après ? 60, 65, 57, 62, 54, …;59;60;58;54
+42070;Quel nombre vient après ? 208, 104, 52, 26, …;13;14;12;0
+42071;Quel nombre vient après ? 192, 96, 48, 24, …;12;13;11;0
+42072;Quel nombre vient après ? 128, 64, 32, 16, …;8;9;7;0
+42073;Quel nombre vient après ? 160, 80, 40, 20, …;10;11;9;0
+42074;Quel nombre vient après ? 9, 18, 36, 72, …;144;145;143;108
+42075;Quel nombre vient après ? 16, 32, 64, 128, …;256;257;255;192
+42076;Quel nombre vient après ? 12, 24, 48, 96, …;192;193;191;144
+42077;Quel nombre vient après ? 14, 28, 56, 112, …;224;225;223;168
+42078;Quel nombre vient après ? 80, 40, 20, 10, …;5;6;4;0
+42079;Quel nombre vient après ? 8, 16, 32, 64, …;128;129;127;96
+42080;Quel nombre vient après ? 16, 8, 4, 2, …;1;2;0;4
+42081;Quel nombre vient après ? 7, 14, 28, 56, …;112;113;111;84
+42082;Quel nombre vient après ? 176, 88, 44, 22, …;11;12;10;0
+42083;Quel nombre vient après ? 10, 20, 40, 80, …;160;161;159;120
+42084;Quel nombre vient après ? 224, 112, 56, 28, …;14;15;13;0
+42085;Quel nombre vient après ? 15, 30, 60, 120, …;240;241;239;180
+42086;Quel nombre vient après ? 17, 34, 68, 136, …;272;273;271;204
+42087;Quel nombre vient après ? 1, 2, 4, 8, …;16;17;15;12
+42088;Quel nombre vient après ? 18, 36, 72, 144, …;288;289;287;216
+42089;Quel nombre vient après ? 4, 8, 16, 32, …;64;65;63;48
+42090;Quel nombre vient après ? 20, 40, 80, 160, …;320;321;319;240
+42091;Quel nombre vient après ? 144, 72, 36, 18, …;9;10;8;0
+42092;Quel nombre vient après ? 13, 26, 52, 104, …;208;209;207;156
+42093;Quel nombre vient après ? 240, 120, 60, 30, …;15;16;14;0
+42094;Quel nombre vient après ? 3, 6, 12, 24, …;48;49;47;36
+42095;Quel nombre vient après ? 11, 22, 44, 88, …;176;177;175;132
+42096;Quel nombre vient après ? 48, 24, 12, 6, …;3;4;2;0
+42097;Quel nombre vient après ? 19, 38, 76, 152, …;304;305;303;228
+42098;Quel nombre vient après ? 112, 56, 28, 14, …;7;8;6;0
+42099;Quel nombre vient après ? 64, 32, 16, 8, …;4;5;3;0
+42100;Le poisson nage. Le kangourou…;bondit;nage;grimpe;rampe
+42101;La grenouille saute. La chèvre…;grimpe;saute;glisse;bondit
+42102;L'oiseau vole. La grenouille…;saute;vole;galope;glisse
+42103;La chèvre grimpe. L'escargot…;glisse;grimpe;bondit;nage
+42104;La grenouille saute. L'oiseau…;vole;saute;bondit;glisse
+42105;La chèvre grimpe. Le kangourou…;bondit;grimpe;saute;vole
+42106;L'oiseau vole. Le cheval…;galope;vole;grimpe;bondit
+42107;Le kangourou bondit. L'oiseau…;vole;bondit;grimpe;glisse
+42108;La chèvre grimpe. Le serpent…;rampe;grimpe;glisse;bondit
+42109;Le kangourou bondit. L'escargot…;glisse;bondit;rampe;saute
+42110;Le cheval galope. L'oiseau…;vole;galope;rampe;glisse
+42111;Le cheval galope. Le kangourou…;bondit;galope;vole;grimpe
+42112;Le poisson nage. Le serpent…;rampe;nage;grimpe;bondit
+42113;Le cheval galope. Le serpent…;rampe;galope;grimpe;nage
+42114;Le serpent rampe. Le cheval…;galope;rampe;grimpe;vole
+42115;L'escargot glisse. Le serpent…;rampe;glisse;nage;saute
+42116;L'oiseau vole. Le kangourou…;bondit;vole;grimpe;galope
+42117;Le kangourou bondit. Le serpent…;rampe;bondit;galope;saute
+42118;La chèvre grimpe. La grenouille…;saute;grimpe;rampe;bondit
+42119;Le poisson nage. Le cheval…;galope;nage;glisse;bondit
+42120;Le kangourou bondit. La chèvre…;grimpe;bondit;nage;rampe
+42121;L'oiseau vole. La chèvre…;grimpe;vole;rampe;nage
+42122;L'escargot glisse. Le poisson…;nage;glisse;saute;vole
+42123;Le cheval galope. Le poisson…;nage;galope;saute;grimpe
+42124;La grenouille saute. Le kangourou…;bondit;saute;vole;glisse
+42125;Le cheval galope. La chèvre…;grimpe;galope;saute;nage
+42126;Le poisson nage. L'oiseau…;vole;nage;glisse;rampe
+42127;L'escargot glisse. L'oiseau…;vole;glisse;rampe;bondit
+42128;Le cheval galope. La grenouille…;saute;galope;grimpe;rampe
+42129;L'escargot glisse. La chèvre…;grimpe;glisse;nage;rampe
+42130;La taupe vit sous terre. L'oiseau…;vit dans un nid;vit sous terre;vit dans une toile;vit dans un bocal
+42131;Le lapin vit dans un terrier. L'araignée…;vit dans une toile;vit dans un terrier;vit dans une tanière;vit dans un nid
+42132;La taupe vit sous terre. Le lapin…;vit dans un terrier;vit sous terre;vit dans une tanière;vit dans une toile
+42133;L'abeille vit dans une ruche. Le lapin…;vit dans un terrier;vit dans une ruche;vit dans une toile;vit dans une tanière
+42134;Le poisson rouge vit dans un bocal. L'oiseau…;vit dans un nid;vit dans un bocal;vit dans un terrier;vit dans une tanière
+42135;L'abeille vit dans une ruche. L'araignée…;vit dans une toile;vit dans une ruche;vit dans l'eau;vit dans une tanière
+42136;L'oiseau vit dans un nid. La taupe…;vit sous terre;vit dans un nid;vit dans un terrier;vit dans une ruche
+42137;L'araignée vit dans une toile. L'ours…;vit dans une tanière;vit dans une toile;vit dans l'eau;vit dans une ruche
+42138;L'araignée vit dans une toile. Le poisson rouge…;vit dans un bocal;vit dans une toile;vit dans un nid;vit dans l'eau
+42139;Le poisson rouge vit dans un bocal. Le poisson…;vit dans l'eau;vit dans un bocal;vit dans un terrier;vit dans une ruche
+42140;L'araignée vit dans une toile. L'abeille…;vit dans une ruche;vit dans une toile;vit dans un bocal;vit dans l'eau
+42141;Le poisson rouge vit dans un bocal. L'abeille…;vit dans une ruche;vit dans un bocal;vit dans un nid;vit sous terre
+42142;Le poisson vit dans l'eau. Le poisson rouge…;vit dans un bocal;vit dans l'eau;vit dans une tanière;vit dans un nid
+42143;Le poisson vit dans l'eau. La taupe…;vit sous terre;vit dans l'eau;vit dans un terrier;vit dans un nid
+42144;L'ours vit dans une tanière. La taupe…;vit sous terre;vit dans une tanière;vit dans un bocal;vit dans un terrier
+42145;L'araignée vit dans une toile. La taupe…;vit sous terre;vit dans une toile;vit dans une tanière;vit dans un nid
+42146;L'oiseau vit dans un nid. Le lapin…;vit dans un terrier;vit dans un nid;vit dans l'eau;vit dans un bocal
+42147;L'abeille vit dans une ruche. L'oiseau…;vit dans un nid;vit dans une ruche;vit dans une toile;vit dans l'eau
+42148;Le lapin vit dans un terrier. La taupe…;vit sous terre;vit dans un terrier;vit dans un bocal;vit dans une toile
+42149;L'oiseau vit dans un nid. L'ours…;vit dans une tanière;vit dans un nid;vit dans un bocal;vit dans un terrier
+42150;Le poisson rouge vit dans un bocal. L'araignée…;vit dans une toile;vit dans un bocal;vit dans un terrier;vit dans l'eau
+42151;L'araignée vit dans une toile. L'oiseau…;vit dans un nid;vit dans une toile;vit sous terre;vit dans l'eau
+42152;La taupe vit sous terre. L'ours…;vit dans une tanière;vit sous terre;vit dans un terrier;vit dans une toile
+42153;L'ours vit dans une tanière. Le poisson rouge…;vit dans un bocal;vit dans une tanière;vit dans un terrier;vit dans une ruche
+42154;Le lapin vit dans un terrier. L'ours…;vit dans une tanière;vit dans un terrier;vit dans une toile;vit dans l'eau
+42155;Le poisson vit dans l'eau. L'araignée…;vit dans une toile;vit dans l'eau;vit dans un bocal;vit sous terre
+42156;Le lapin vit dans un terrier. Le poisson rouge…;vit dans un bocal;vit dans un terrier;vit dans une toile;vit dans une tanière
+42157;L'oiseau vit dans un nid. L'araignée…;vit dans une toile;vit dans un nid;vit dans un bocal;vit dans l'eau
+42158;L'ours vit dans une tanière. Le lapin…;vit dans un terrier;vit dans une tanière;vit dans un nid;vit sous terre
+42159;Le lapin vit dans un terrier. L'abeille…;vit dans une ruche;vit dans un terrier;vit sous terre;vit dans un bocal
+42160;Toutes les fraises sont des fruits. Zoé a rencontré une fraise. C'est donc…;un fruit;un instrument de musique;un légume;un animal
+42161;Toutes les tomates sont des légumes. Léa a rencontré une tomate. C'est donc…;un légume;un animal;un véhicule;un instrument de musique
+42162;Toutes les courgettes sont des légumes. Emma a rencontré une courgette. C'est donc…;un légume;une fleur;un véhicule;un animal
+42163;Toutes les carottes sont des légumes. Enzo a rencontré une carotte. C'est donc…;un légume;un véhicule;une fleur;un instrument de musique
+42164;Tous les lapins sont des animaux. Zoé a rencontré un lapin. C'est donc…;un animal;un instrument de musique;un véhicule;un fruit
+42165;Tous les chiens sont des animaux. Léna a rencontré un chien. C'est donc…;un animal;un légume;une fleur;un instrument de musique
+42166;Tous les poissons sont des animaux. Lina a rencontré un poisson. C'est donc…;un animal;un fruit;un légume;un véhicule
+42167;Tous les bus sont des véhicules. Adam a rencontré un bus. C'est donc…;un véhicule;un légume;un animal;une fleur
+42168;Tous les oiseaux sont des animaux. Jade a rencontré un oiseau. C'est donc…;un animal;un fruit;un instrument de musique;une fleur
+42169;Toutes les pommes sont des fruits. Alice a rencontré une pomme. C'est donc…;un fruit;un véhicule;une fleur;un instrument de musique
+42170;Toutes les oranges sont des fruits. Camille a rencontré une orange. C'est donc…;un fruit;un instrument de musique;une fleur;un véhicule
+42171;Toutes les tulipes sont des fleurs. Mia a rencontré une tulipe. C'est donc…;une fleur;un animal;un légume;un véhicule
+42172;Tous les vélos sont des véhicules. Hugo a rencontré un vélo. C'est donc…;un véhicule;un légume;un animal;un instrument de musique
+42173;Tous les citrons sont des fruits. Mia a rencontré un citron. C'est donc…;un fruit;une fleur;un véhicule;un légume
+42174;Tous les tournesols sont des fleurs. Sacha a rencontré un tournesol. C'est donc…;une fleur;un fruit;un instrument de musique;un véhicule
+42175;Tous les chats sont des animaux. Léa a rencontré un chat. C'est donc…;un animal;un instrument de musique;un véhicule;une fleur
+42176;Toutes les marguerites sont des fleurs. Nolan a rencontré une marguerite. C'est donc…;une fleur;un véhicule;un animal;un fruit
+42177;Toutes les guitares sont des instruments de musique. Emma a rencontré une guitare. C'est donc…;un instrument de musique;un légume;un animal;un véhicule
+42178;Toutes les bananes sont des fruits. Nolan a rencontré une banane. C'est donc…;un fruit;un véhicule;une fleur;un légume
+42179;Toutes les voitures sont des véhicules. Emma a rencontré une voiture. C'est donc…;un véhicule;un légume;un fruit;un animal
+42180;Tous les pianos sont des instruments de musique. Camille a rencontré un piano. C'est donc…;un instrument de musique;une fleur;un animal;un légume
+42181;Toutes les motos sont des véhicules. Camille a rencontré une moto. C'est donc…;un véhicule;un animal;une fleur;un instrument de musique
+42182;Toutes les flûtes sont des instruments de musique. Léa a rencontré une flûte. C'est donc…;un instrument de musique;un légume;un véhicule;une fleur
+42183;Tous les camions sont des véhicules. Nolan a rencontré un camion. C'est donc…;un véhicule;une fleur;un instrument de musique;un légume
+42184;Tous les poireaux sont des légumes. Léna a rencontré un poireau. C'est donc…;un légume;une fleur;un véhicule;un instrument de musique
+42185;Tous les lions sont des animaux. Nina a rencontré un lion. C'est donc…;un animal;une fleur;un fruit;un véhicule
+42186;Tous les chevaux sont des animaux. Enzo a rencontré un cheval. C'est donc…;un animal;un instrument de musique;un légume;un fruit
+42187;Tous les renards sont des animaux. Tom a rencontré un renard. C'est donc…;un animal;un véhicule;une fleur;un instrument de musique
+42188;Toutes les roses sont des fleurs. Emma a rencontré une rose. C'est donc…;une fleur;un instrument de musique;un animal;un légume
+42189;Tous les violons sont des instruments de musique. Hugo a rencontré un violon. C'est donc…;un instrument de musique;un fruit;une fleur;un légume
+42190;Toutes les fraises sont des fruits. Léo a rencontré une fraise. C'est donc…;un fruit;un véhicule;un légume;une fleur
+42191;Toutes les tomates sont des légumes. Alice a rencontré une tomate. C'est donc…;un légume;un instrument de musique;un véhicule;une fleur
+42192;Toutes les courgettes sont des légumes. Léo a rencontré une courgette. C'est donc…;un légume;un instrument de musique;un animal;un fruit
+42193;Toutes les carottes sont des légumes. Noah a rencontré une carotte. C'est donc…;un légume;un véhicule;un instrument de musique;une fleur
+42194;Tous les lapins sont des animaux. Alice a rencontré un lapin. C'est donc…;un animal;un véhicule;un fruit;une fleur
+42195;Tous les chiens sont des animaux. Enzo a rencontré un chien. C'est donc…;un animal;un véhicule;un légume;un instrument de musique
+42196;Tous les poissons sont des animaux. Léa a rencontré un poisson. C'est donc…;un animal;une fleur;un instrument de musique;un fruit
+42197;Tous les bus sont des véhicules. Tom a rencontré un bus. C'est donc…;un véhicule;une fleur;un fruit;un animal
+42198;Tous les oiseaux sont des animaux. Noah a rencontré un oiseau. C'est donc…;un animal;un fruit;une fleur;un véhicule
+42199;Toutes les pommes sont des fruits. Sacha a rencontré une pomme. C'est donc…;un fruit;un instrument de musique;un légume;un véhicule
+42200;Toutes les oranges sont des fruits. Sacha a rencontré une orange. C'est donc…;un fruit;un véhicule;un légume;un animal
+42201;Toutes les tulipes sont des fleurs. Théo a rencontré une tulipe. C'est donc…;une fleur;un animal;un légume;un véhicule
+42202;Tous les vélos sont des véhicules. Emma a rencontré un vélo. C'est donc…;un véhicule;une fleur;un animal;un légume
+42203;Tous les citrons sont des fruits. Léa a rencontré un citron. C'est donc…;un fruit;une fleur;un animal;un légume
+42204;Tous les tournesols sont des fleurs. Tom a rencontré un tournesol. C'est donc…;une fleur;un instrument de musique;un véhicule;un fruit
+42205;Tous les chats sont des animaux. Sacha a rencontré un chat. C'est donc…;un animal;un véhicule;une fleur;un instrument de musique
+42206;Toutes les marguerites sont des fleurs. Adam a rencontré une marguerite. C'est donc…;une fleur;un fruit;un véhicule;un instrument de musique
+42207;Toutes les guitares sont des instruments de musique. Nina a rencontré une guitare. C'est donc…;un instrument de musique;un légume;un animal;un fruit
+42208;Toutes les bananes sont des fruits. Tom a rencontré une banane. C'est donc…;un fruit;un animal;un instrument de musique;un véhicule
+42209;Toutes les voitures sont des véhicules. Mia a rencontré une voiture. C'est donc…;un véhicule;un instrument de musique;un légume;une fleur
+42210;Tous les pianos sont des instruments de musique. Max a rencontré un piano. C'est donc…;un instrument de musique;une fleur;un véhicule;un légume
+42211;Toutes les motos sont des véhicules. Léa a rencontré une moto. C'est donc…;un véhicule;une fleur;un légume;un fruit
+42212;Toutes les flûtes sont des instruments de musique. Nina a rencontré une flûte. C'est donc…;un instrument de musique;un fruit;un véhicule;un animal
+42213;Tous les camions sont des véhicules. Adam a rencontré un camion. C'est donc…;un véhicule;un légume;un instrument de musique;un animal
+42214;Tous les poireaux sont des légumes. Hugo a rencontré un poireau. C'est donc…;un légume;un véhicule;un instrument de musique;un fruit
+42215;Tous les lions sont des animaux. Emma a rencontré un lion. C'est donc…;un animal;un instrument de musique;un fruit;une fleur
+42216;Tous les chevaux sont des animaux. Nolan a rencontré un cheval. C'est donc…;un animal;un légume;un fruit;une fleur
+42217;Tous les renards sont des animaux. Zoé a rencontré un renard. C'est donc…;un animal;une fleur;un légume;un fruit
+42218;Toutes les roses sont des fleurs. Nolan a rencontré une rose. C'est donc…;une fleur;un animal;un véhicule;un légume
+42219;Tous les violons sont des instruments de musique. Mia a rencontré un violon. C'est donc…;un instrument de musique;un légume;une fleur;un animal
+42220;Lequel de ces aliments n'est pas un légume ? 🥒 🍊 🥬 🍆;🍊;🥒;🥬;🍆
+42221;Lequel de ces aliments n'est pas un fruit ? 🥔 🍉 🍒 🥝;🥔;🍒;🥝;🍉
+42222;Lequel de ces aliments n'est pas un fruit ? 🥕 🍉 🍍 🥭;🥕;🍉;🥭;🍍
+42223;Lequel de ces aliments n'est pas un légume ? 🥒 🍆 🥔 🍓;🍓;🥒;🍆;🥔
+42224;Lequel de ces aliments n'est pas un légume ? 🍌 🥕 🥬 🍆;🍌;🥕;🍆;🥬
+42225;Lequel de ces aliments n'est pas un fruit ? 🍓 🍒 🥭 🥒;🥒;🥭;🍓;🍒
+42226;Lequel de ces aliments n'est pas un fruit ? 🍆 🍉 🍅 🍑;🍆;🍉;🍑;🍅
+42227;Lequel de ces aliments n'est pas un fruit ? 🌽 🍒 🍇 🍍;🌽;🍒;🍍;🍇
+42228;Lequel de ces aliments n'est pas un légume ? 🧅 🥔 🍑 🍆;🍑;🥔;🍆;🧅
+42229;Lequel de ces aliments n'est pas un légume ? 🥦 🥕 🍎 🥬;🍎;🥦;🥬;🥕
+42230;Lequel de ces aliments n'est pas un fruit ? 🧅 🥝 🍐 🍑;🧅;🍑;🍐;🥝
+42231;Lequel de ces aliments n'est pas un fruit ? 🍑 🍊 🍒 🥕;🥕;🍑;🍊;🍒
+42232;Lequel de ces aliments n'est pas un légume ? 🧅 🍐 🌽 🥬;🍐;🌽;🧅;🥬
+42233;Lequel de ces aliments n'est pas un fruit ? 🍑 🥝 🌽 🍓;🌽;🍓;🥝;🍑
+42234;Lequel de ces aliments n'est pas un légume ? 🍊 🥦 🌽 🥔;🍊;🥔;🌽;🥦
+42235;Lequel de ces aliments n'est pas un légume ? 🧅 🌽 🍐 🥬;🍐;🧅;🥬;🌽
+42236;Lequel de ces aliments n'est pas un fruit ? 🥭 🍇 🥒 🍅;🥒;🍇;🍅;🥭
+42237;Lequel de ces aliments n'est pas un fruit ? 🍉 🍆 🍊 🍇;🍆;🍉;🍇;🍊
+42238;Lequel de ces aliments n'est pas un fruit ? 🌽 🍍 🍑 🍉;🌽;🍉;🍑;🍍
+42239;Lequel de ces aliments n'est pas un fruit ? 🥝 🥔 🍊 🥭;🥔;🥭;🍊;🥝
+42240;Lequel de ces aliments n'est pas un légume ? 🥬 🥦 🥝 🥒;🥝;🥦;🥬;🥒
+42241;Lequel de ces aliments n'est pas un fruit ? 🥭 🍆 🍍 🍓;🍆;🍓;🥭;🍍
+42242;Lequel de ces aliments n'est pas un légume ? 🥦 🌽 🍆 🥭;🥭;🥦;🍆;🌽
+42243;Lequel de ces aliments n'est pas un fruit ? 🧅 🍓 🥭 🍅;🧅;🥭;🍓;🍅
+42244;Lequel de ces aliments n'est pas un légume ? 🥕 🍅 🥔 🥬;🍅;🥔;🥕;🥬
+42245;Lequel de ces aliments n'est pas un fruit ? 🍐 🍇 🥦 🍑;🥦;🍐;🍇;🍑
+42246;Lequel de ces aliments n'est pas un légume ? 🥒 🥕 🧅 🍒;🍒;🥒;🧅;🥕
+42247;Lequel de ces aliments n'est pas un fruit ? 🍌 🌽 🍋 🍐;🌽;🍌;🍋;🍐
+42248;Lequel de ces aliments n'est pas un fruit ? 🍓 🍆 🍇 🥝;🍆;🍇;🥝;🍓
+42249;Lequel de ces aliments n'est pas un légume ? 🌽 🥬 🧅 🍇;🍇;🌽;🥬;🧅
+42250;Lequel de ces aliments n'est pas un légume ? 🍊 🥬 🧅 🥒;🍊;🧅;🥒;🥬
+42251;Lequel de ces aliments n'est pas un fruit ? 🍐 🍉 🥭 🥒;🥒;🍐;🍉;🥭
+42252;Lequel de ces aliments n'est pas un fruit ? 🍎 🥕 🍋 🥭;🥕;🍋;🥭;🍎
+42253;Lequel de ces aliments n'est pas un fruit ? 🥕 🍊 🥭 🍋;🥕;🥭;🍋;🍊
+42254;Lequel de ces aliments n'est pas un légume ? 🍇 🥔 🥬 🧅;🍇;🧅;🥬;🥔
+42255;Lequel de ces aliments n'est pas un légume ? 🥔 🥒 🍊 🍆;🍊;🍆;🥔;🥒
+42256;Lequel de ces aliments n'est pas un légume ? 🍆 🥒 🥦 🍓;🍓;🥦;🥒;🍆
+42257;Lequel de ces aliments n'est pas un fruit ? 🍊 🍅 🍇 🥕;🥕;🍅;🍇;🍊
+42258;Lequel de ces aliments n'est pas un légume ? 🧅 🥔 🍉 🌽;🍉;🧅;🌽;🥔
+42259;Lequel de ces aliments n'est pas un légume ? 🧅 🥒 🥦 🍐;🍐;🧅;🥦;🥒
+42260;Quelle lettre vient après ? D, H, L, P, …;T;S;U;P
+42261;Quelle lettre vient après ? R, T, V, X, …;Z;Y;X;A
+42262;Quelle lettre vient après ? G, K, O, S, …;W;V;X;S
+42263;Quelle lettre vient après ? I, K, M, O, …;Q;P;R;O
+42264;Quelle lettre vient après ? F, J, N, R, …;V;U;W;R
+42265;Quelle lettre vient après ? I, J, K, L, …;M;L;N;A
+42266;Quelle lettre vient après ? N, Q, T, W, …;Z;Y;W;T
+42267;Quelle lettre vient après ? G, H, I, J, …;K;J;L;U
+42268;Quelle lettre vient après ? C, F, I, L, …;O;N;P;L
+42269;Quelle lettre vient après ? I, M, Q, U, …;Y;X;Z;U
+42270;Quelle lettre vient après ? D, G, J, M, …;P;O;Q;M
+42271;Quelle lettre vient après ? B, C, D, E, …;F;E;G;N
+42272;Quelle lettre vient après ? L, O, R, U, …;X;W;Y;U
+42273;Quelle lettre vient après ? H, L, P, T, …;X;W;Y;T
+42274;Quelle lettre vient après ? J, M, P, S, …;V;U;W;S
+42275;Quelle lettre vient après ? R, S, T, U, …;V;U;W;B
+42276;Quelle lettre vient après ? P, Q, R, S, …;T;S;U;B
+42277;Quelle lettre vient après ? D, E, F, G, …;H;G;I;Y
+42278;Quelle lettre vient après ? O, P, Q, R, …;S;R;T;B
+42279;Quelle lettre vient après ? G, I, K, M, …;O;N;P;M
+42280;Quelle lettre vient après ? E, G, I, K, …;M;L;N;K
+42281;Quelle lettre vient après ? M, O, Q, S, …;U;T;V;S
+42282;Quelle lettre vient après ? J, N, R, V, …;Z;Y;V;D
+42283;Quelle lettre vient après ? F, I, L, O, …;R;Q;S;O
+42284;Quelle lettre vient après ? H, J, L, N, …;P;O;Q;N
+42285;Quelle lettre vient après ? S, T, U, V, …;W;V;X;P
+42286;Quelle lettre vient après ? J, K, L, M, …;N;M;O;B
+42287;Quelle lettre vient après ? C, G, K, O, …;S;R;T;O
+42288;Quelle lettre vient après ? B, D, F, H, …;J;I;K;H
+42289;Quelle lettre vient après ? I, L, O, R, …;U;T;V;R
+42290;Dans une grille de 3 cases sur 3, un objet est en haut à gauche. On le déplace de 2 cases vers la droite. Où est-il maintenant ?;en haut à droite;au milieu à gauche;en bas à gauche;en bas à droite
+42291;Dans une grille de 3 cases sur 3, un objet est en bas au centre. On le déplace de 2 cases vers le haut. Où est-il maintenant ?;en haut au centre;en bas au centre;en bas à gauche;au milieu à gauche
+42292;Dans une grille de 3 cases sur 3, un objet est en bas au centre. On le déplace de 1 case vers la droite. Où est-il maintenant ?;en bas à droite;au centre;en bas au centre;en haut au centre
+42293;Dans une grille de 3 cases sur 3, un objet est en haut à droite. On le déplace de 2 cases vers le bas. Où est-il maintenant ?;en bas à droite;en bas à gauche;en haut à gauche;en bas au centre
+42294;Dans une grille de 3 cases sur 3, un objet est en bas à gauche. On le déplace de 2 cases vers la droite. Où est-il maintenant ?;en bas à droite;en haut à droite;en bas à gauche;au milieu à droite
+42295;Dans une grille de 3 cases sur 3, un objet est en haut au centre. On le déplace de 1 case vers la gauche. Où est-il maintenant ?;en haut à gauche;en bas à droite;au milieu à gauche;en haut au centre
+42296;Dans une grille de 3 cases sur 3, un objet est en haut à droite. On le déplace de 1 case vers la gauche. Où est-il maintenant ?;en haut au centre;en haut à droite;en bas au centre;en bas à gauche
+42297;Dans une grille de 3 cases sur 3, un objet est en haut à gauche. On le déplace de 1 case vers la droite. Où est-il maintenant ?;en haut au centre;en bas à gauche;au milieu à droite;en bas à droite
+42298;Dans une grille de 3 cases sur 3, un objet est en bas à droite. On le déplace de 1 case vers la gauche. Où est-il maintenant ?;en bas au centre;au milieu à droite;au centre;en bas à gauche
+42299;Dans une grille de 3 cases sur 3, un objet est en haut à droite. On le déplace de 2 cases vers la gauche. Où est-il maintenant ?;en haut à gauche;en bas à droite;au milieu à gauche;au centre
+42300;Dans une grille de 3 cases sur 3, un objet est au milieu à gauche. On le déplace de 1 case vers le haut. Où est-il maintenant ?;en haut à gauche;en bas à gauche;en bas à droite;au milieu à gauche
+42301;Dans une grille de 3 cases sur 3, un objet est au milieu à droite. On le déplace de 1 case vers le haut. Où est-il maintenant ?;en haut à droite;au milieu à gauche;en haut à gauche;en haut au centre
+42302;Dans une grille de 3 cases sur 3, un objet est au centre. On le déplace de 1 case vers le bas. Où est-il maintenant ?;en bas au centre;en haut à droite;en bas à droite;en bas à gauche
+42303;Dans une grille de 3 cases sur 3, un objet est en bas au centre. On le déplace de 1 case vers le haut. Où est-il maintenant ?;au centre;au milieu à droite;en haut à gauche;en bas au centre
+42304;Dans une grille de 3 cases sur 3, un objet est en bas à gauche. On le déplace de 1 case vers la droite. Où est-il maintenant ?;en bas au centre;au milieu à droite;en haut au centre;en haut à gauche
+42305;Dans une grille de 3 cases sur 3, un objet est en bas au centre. On le déplace de 1 case vers la gauche. Où est-il maintenant ?;en bas à gauche;en haut à gauche;en bas au centre;au milieu à droite
+42306;Dans une grille de 3 cases sur 3, un objet est au centre. On le déplace de 1 case vers le haut. Où est-il maintenant ?;en haut au centre;en bas au centre;au milieu à gauche;au milieu à droite
+42307;Dans une grille de 3 cases sur 3, un objet est au milieu à gauche. On le déplace de 1 case vers la droite. Où est-il maintenant ?;au centre;en bas à droite;au milieu à droite;en bas au centre
+42308;Dans une grille de 3 cases sur 3, un objet est au milieu à droite. On le déplace de 1 case vers le bas. Où est-il maintenant ?;en bas à droite;au milieu à droite;en haut à droite;en bas au centre
+42309;Dans une grille de 3 cases sur 3, un objet est au milieu à droite. On le déplace de 1 case vers la gauche. Où est-il maintenant ?;au centre;au milieu à droite;en bas au centre;en bas à droite
+42310;Dans une grille de 3 cases sur 3, un objet est au centre. On le déplace de 1 case vers la gauche. Où est-il maintenant ?;au milieu à gauche;en bas au centre;au centre;en haut au centre
+42311;Dans une grille de 3 cases sur 3, un objet est au centre. On le déplace de 1 case vers la droite. Où est-il maintenant ?;au milieu à droite;en bas à gauche;en haut au centre;en haut à droite
+42312;Dans une grille de 3 cases sur 3, un objet est en bas à droite. On le déplace de 1 case vers le haut. Où est-il maintenant ?;au milieu à droite;en bas au centre;en haut au centre;en haut à gauche
+42313;Dans une grille de 3 cases sur 3, un objet est en haut au centre. On le déplace de 1 case vers la droite. Où est-il maintenant ?;en haut à droite;en haut à gauche;en bas à droite;au milieu à droite
+42314;Dans une grille de 3 cases sur 3, un objet est en bas à droite. On le déplace de 2 cases vers la gauche. Où est-il maintenant ?;en bas à gauche;en bas à droite;en bas au centre;en haut au centre
+42315;Dans une grille de 3 cases sur 3, un objet est au milieu à droite. On le déplace de 2 cases vers la gauche. Où est-il maintenant ?;au milieu à gauche;en bas au centre;au centre;en haut au centre
+42316;Dans une grille de 3 cases sur 3, un objet est en haut à gauche. On le déplace de 1 case vers le bas. Où est-il maintenant ?;au milieu à gauche;en haut à droite;en bas à gauche;au centre
+42317;Dans une grille de 3 cases sur 3, un objet est au milieu à gauche. On le déplace de 2 cases vers la droite. Où est-il maintenant ?;au milieu à droite;en haut au centre;en haut à droite;en haut à gauche
+42318;Dans une grille de 3 cases sur 3, un objet est en haut au centre. On le déplace de 2 cases vers le bas. Où est-il maintenant ?;en bas au centre;au milieu à gauche;en haut à droite;au centre
+42319;Dans une grille de 3 cases sur 3, un objet est en haut à gauche. On le déplace de 2 cases vers le bas. Où est-il maintenant ?;en bas à gauche;en bas à droite;en haut au centre;au centre
+42320;Dans une grille de 3 cases sur 3, un objet est en bas à gauche. On le déplace de 1 case vers le haut. Où est-il maintenant ?;au milieu à gauche;en bas au centre;en bas à gauche;en haut au centre
+42321;Dans une grille de 3 cases sur 3, un objet est en haut à droite. On le déplace de 1 case vers le bas. Où est-il maintenant ?;au milieu à droite;en bas au centre;en bas à droite;en haut au centre
+42322;Dans une grille de 3 cases sur 3, un objet est en bas à droite. On le déplace de 2 cases vers le haut. Où est-il maintenant ?;en haut à droite;en bas à droite;en bas à gauche;en bas au centre
+42323;Dans une grille de 3 cases sur 3, un objet est au milieu à gauche. On le déplace de 1 case vers le bas. Où est-il maintenant ?;en bas à gauche;au milieu à droite;en haut à gauche;au milieu à gauche
+42324;Dans une grille de 3 cases sur 3, un objet est en haut au centre. On le déplace de 1 case vers le bas. Où est-il maintenant ?;au centre;au milieu à gauche;en bas à droite;en haut au centre
+42325;Dans une grille de 3 cases sur 3, un objet est en bas à gauche. On le déplace de 2 cases vers le haut. Où est-il maintenant ?;en haut à gauche;en bas à gauche;au milieu à gauche;en bas au centre
+42326;Hugo est plus grand que Tom. Tom est plus grand que Léo. Qui est le plus petit ?;Léo;Hugo;Tom;Impossible à savoir
+42327;Alice est plus grande que Enzo. Enzo est plus grand que Léo. Qui est le plus grand ?;Alice;Enzo;Léo;Impossible à savoir
+42328;Zoé est plus grande que Léa. Léa est plus grande que Camille. Qui est le plus petit ?;Camille;Zoé;Léa;Impossible à savoir
+42329;Léna est plus grande que Adam. Adam est plus grand que Nolan. Qui est le plus grand ?;Léna;Adam;Nolan;Impossible à savoir
+42330;Léo est plus grand que Lina. Lina est plus grande que Léa. Qui est ni le plus grand, ni le plus petit ?;Lina;Léo;Léa;Impossible à savoir
+42331;Enzo est plus grand que Zoé. Zoé est plus grande que Noah. Qui est le plus petit ?;Noah;Enzo;Zoé;Impossible à savoir
+42332;Nina est plus grande que Léo. Léo est plus grand que Enzo. Qui est le plus petit ?;Enzo;Nina;Léo;Impossible à savoir
+42333;Camille est plus grande que Jade. Jade est plus grande que Léo. Qui est le plus petit ?;Léo;Camille;Jade;Impossible à savoir
+42334;Léa est plus grande que Nina. Nina est plus grande que Lina. Qui est le plus grand ?;Léa;Nina;Lina;Impossible à savoir
+42335;Zoé est plus grande que Adam. Adam est plus grand que Tom. Qui est ni le plus grand, ni le plus petit ?;Adam;Zoé;Tom;Impossible à savoir
+42336;Lina est plus grande que Zoé. Zoé est plus grande que Noah. Qui est le plus grand ?;Lina;Zoé;Noah;Impossible à savoir
+42337;Max est plus grand que Noah. Noah est plus grand que Adam. Qui est le plus grand ?;Max;Noah;Adam;Impossible à savoir
+42338;Adam est plus grand que Hugo. Hugo est plus grand que Lina. Qui est le plus grand ?;Adam;Hugo;Lina;Impossible à savoir
+42339;Théo est plus grand que Hugo. Hugo est plus grand que Max. Qui est ni le plus grand, ni le plus petit ?;Hugo;Théo;Max;Impossible à savoir
+42340;Camille est plus grande que Léa. Léa est plus grande que Tom. Qui est le plus grand ?;Camille;Léa;Tom;Impossible à savoir
+42341;Tom est plus grand que Léo. Léo est plus grand que Nolan. Qui est le plus grand ?;Tom;Léo;Nolan;Impossible à savoir
+42342;Enzo est plus grand que Adam. Adam est plus grand que Emma. Qui est le plus petit ?;Emma;Enzo;Adam;Impossible à savoir
+42343;Emma est plus grande que Alice. Alice est plus grande que Adam. Qui est le plus grand ?;Emma;Alice;Adam;Impossible à savoir
+42344;Léo est plus grand que Théo. Théo est plus grand que Nolan. Qui est le plus petit ?;Nolan;Léo;Théo;Impossible à savoir
+42345;Tom est plus grand que Mia. Mia est plus grande que Lina. Qui est le plus grand ?;Tom;Mia;Lina;Impossible à savoir
+42346;Théo est plus grand que Léo. Léo est plus grand que Max. Qui est ni le plus grand, ni le plus petit ?;Léo;Théo;Max;Impossible à savoir
+42347;Zoé est plus grande que Sacha. Sacha est plus grande que Mia. Qui est le plus petit ?;Mia;Zoé;Sacha;Impossible à savoir
+42348;Hugo est plus grand que Alice. Alice est plus grande que Léa. Qui est ni le plus grand, ni le plus petit ?;Alice;Hugo;Léa;Impossible à savoir
+42349;Mia est plus grande que Jade. Jade est plus grande que Noah. Qui est ni le plus grand, ni le plus petit ?;Jade;Mia;Noah;Impossible à savoir
+42350;Léa est plus grande que Jade. Jade est plus grande que Zoé. Qui est le plus grand ?;Léa;Jade;Zoé;Impossible à savoir
+42351;Tom est plus grand que Lina. Lina est plus grande que Théo. Qui est le plus grand ?;Tom;Lina;Théo;Impossible à savoir
+42352;Jade est plus grande que Max. Max est plus grand que Camille. Qui est ni le plus grand, ni le plus petit ?;Max;Jade;Camille;Impossible à savoir
+42353;Hugo est plus grand que Zoé. Zoé est plus grande que Nina. Qui est le plus grand ?;Hugo;Zoé;Nina;Impossible à savoir
+42354;Hugo est plus grand que Théo. Théo est plus grand que Jade. Qui est le plus petit ?;Jade;Hugo;Théo;Impossible à savoir
+42355;Sacha est plus grande que Mia. Mia est plus grande que Tom. Qui est le plus grand ?;Sacha;Mia;Tom;Impossible à savoir
+42356;Sacha est plus grande que Alice. Alice est plus grande que Jade. Qui est le plus grand ?;Sacha;Alice;Jade;Impossible à savoir
+42357;Sacha est plus grande que Nolan. Nolan est plus grand que Mia. Qui est le plus petit ?;Mia;Sacha;Nolan;Impossible à savoir
+42358;Noah est plus grand que Léna. Léna est plus grande que Lina. Qui est le plus petit ?;Lina;Noah;Léna;Impossible à savoir
+42359;Nina est plus grande que Jade. Jade est plus grande que Sacha. Qui est le plus petit ?;Sacha;Nina;Jade;Impossible à savoir
+42360;Mia est plus grande que Jade. Jade est plus grande que Nina. Qui est ni le plus grand, ni le plus petit ?;Jade;Mia;Nina;Impossible à savoir
+42361;Enzo est plus grand que Sacha. Sacha est plus grande que Léna. Qui est ni le plus grand, ni le plus petit ?;Sacha;Enzo;Léna;Impossible à savoir
+42362;Camille est plus grande que Alice. Alice est plus grande que Léo. Qui est ni le plus grand, ni le plus petit ?;Alice;Camille;Léo;Impossible à savoir
+42363;Théo est plus grand que Sacha. Sacha est plus grande que Léna. Qui est le plus petit ?;Léna;Théo;Sacha;Impossible à savoir
+42364;Jade est plus grande que Noah. Noah est plus grand que Sacha. Qui est le plus grand ?;Jade;Noah;Sacha;Impossible à savoir
+42365;Nolan est plus grand que Théo. Théo est plus grand que Léna. Qui est le plus petit ?;Léna;Nolan;Théo;Impossible à savoir
+42366;Alice est plus grande que Enzo. Enzo est plus grand que Léna. Qui est le plus petit ?;Léna;Alice;Enzo;Impossible à savoir
+42367;Hugo est plus grand que Sacha. Sacha est plus grande que Nolan. Qui est le plus grand ?;Hugo;Sacha;Nolan;Impossible à savoir
+42368;Camille est plus grande que Noah. Noah est plus grand que Tom. Qui est ni le plus grand, ni le plus petit ?;Noah;Camille;Tom;Impossible à savoir
+42369;Camille est plus grande que Tom. Tom est plus grand que Théo. Qui est le plus petit ?;Théo;Camille;Tom;Impossible à savoir
+42370;Max est plus grand que Noah. Noah est plus grand que Emma. Qui est le plus grand ?;Max;Noah;Emma;Impossible à savoir
+42371;Léna est plus grande que Sacha. Sacha est plus grande que Théo. Qui est le plus petit ?;Théo;Léna;Sacha;Impossible à savoir
+42372;Adam est plus grand que Noah. Noah est plus grand que Tom. Qui est ni le plus grand, ni le plus petit ?;Noah;Adam;Tom;Impossible à savoir
+42373;Alice est plus grande que Mia. Mia est plus grande que Nolan. Qui est le plus petit ?;Nolan;Alice;Mia;Impossible à savoir
+42374;Théo est plus grand que Max. Max est plus grand que Jade. Qui est le plus grand ?;Théo;Max;Jade;Impossible à savoir
+42375;Jade est plus grande que Tom. Tom est plus grand que Camille. Qui est le plus grand ?;Jade;Tom;Camille;Impossible à savoir
+42376;Alice est plus grande que Adam. Adam est plus grand que Tom. Qui est le plus grand ?;Alice;Adam;Tom;Impossible à savoir
+42377;Hugo est plus grand que Zoé. Zoé est plus grande que Mia. Qui est le plus petit ?;Mia;Hugo;Zoé;Impossible à savoir
+42378;Sacha est plus grande que Lina. Lina est plus grande que Nina. Qui est le plus petit ?;Nina;Sacha;Lina;Impossible à savoir
+42379;Max est plus grand que Lina. Lina est plus grande que Léa. Qui est le plus grand ?;Max;Lina;Léa;Impossible à savoir
+42380;Hugo est plus grand que Jade. Jade est plus grande que Zoé. Qui est le plus grand ?;Hugo;Jade;Zoé;Impossible à savoir
+42381;Enzo est plus grand que Jade. Jade est plus grande que Hugo. Qui est ni le plus grand, ni le plus petit ?;Jade;Enzo;Hugo;Impossible à savoir
+42382;Mia est plus grande que Tom. Tom est plus grand que Enzo. Qui est le plus petit ?;Enzo;Mia;Tom;Impossible à savoir
+42383;Zoé est plus grande que Noah. Noah est plus grand que Léna. Qui est le plus petit ?;Léna;Zoé;Noah;Impossible à savoir
+42384;Nina est plus grande que Sacha. Sacha est plus grande que Mia. Qui est le plus petit ?;Mia;Nina;Sacha;Impossible à savoir
+42385;Adam est plus grand que Noah. Noah est plus grand que Sacha. Qui est le plus petit ?;Sacha;Adam;Noah;Impossible à savoir
+42386;S'il est fatigué, Zoé va se coucher. Il est fatigué. Donc Zoé…;va se coucher;allume la lumière;sort en récréation;ne fait rien
+42387;S'il fait froid, Léna met un manteau. Il fait froid. Donc Léna…;met un manteau;avance;va se coucher;ne fait rien
+42388;S'il fait nuit, Alice allume la lumière. Il fait nuit. Donc Alice…;allume la lumière;mange un fruit;va se coucher;ne fait rien
+42389;Si le feu est vert, Camille avance. Le feu est vert. Donc Camille…;avance;se réveille;allume la lumière;ne fait rien
+42390;S'il pleut, Alice prend un parapluie. Il pleut. Donc Alice…;prend un parapluie;met un manteau;se réveille;ne fait rien
+42391;S'il est fatigué, Mia va se coucher. Il est fatigué. Donc Mia…;va se coucher;boit un verre d'eau;prend un parapluie;ne fait rien
+42392;S'il a faim, Nolan mange un fruit. Il a faim. Donc Nolan…;mange un fruit;frappe;se réveille;ne fait rien
+42393;S'il fait froid, Léa met un manteau. Il fait froid. Donc Léa…;met un manteau;frappe;prend un parapluie;ne fait rien
+42394;Si le réveil sonne, Léa se réveille. Le réveil sonne. Donc Léa…;se réveille;boit de l'eau fraîche;sort en récréation;ne fait rien
+42395;S'il fait chaud, Léna boit de l'eau fraîche. Il fait chaud. Donc Léna…;boit de l'eau fraîche;frappe;avance;ne fait rien
+42396;Si le réveil sonne, Jade se réveille. Le réveil sonne. Donc Jade…;se réveille;mange un fruit;s'arrête;ne fait rien
+42397;Si la porte est fermée, Enzo frappe. La porte est fermée. Donc Enzo…;frappe;met un manteau;sort en récréation;ne fait rien
+42398;S'il a soif, Nina boit un verre d'eau. Il a soif. Donc Nina…;boit un verre d'eau;se réveille;frappe;ne fait rien
+42399;Si la cloche sonne, Sacha sort en récréation. La cloche sonne. Donc Sacha…;sort en récréation;boit de l'eau fraîche;se réveille;ne fait rien
+42400;S'il est fatigué, Emma va se coucher. Il est fatigué. Donc Emma…;va se coucher;sort en récréation;prend un parapluie;ne fait rien
+42401;Si la cloche sonne, Jade sort en récréation. La cloche sonne. Donc Jade…;sort en récréation;mange un fruit;met un manteau;ne fait rien
+42402;Si le feu est vert, Nina avance. Le feu est vert. Donc Nina…;avance;boit un verre d'eau;se réveille;ne fait rien
+42403;S'il fait nuit, Sacha allume la lumière. Il fait nuit. Donc Sacha…;allume la lumière;avance;met un manteau;ne fait rien
+42404;S'il fait froid, Camille met un manteau. Il fait froid. Donc Camille…;met un manteau;mange un fruit;allume la lumière;ne fait rien
+42405;Si le feu est rouge, Léna s'arrête. Le feu est rouge. Donc Léna…;s'arrête;boit de l'eau fraîche;va se coucher;ne fait rien
+42406;S'il a soif, Alice boit un verre d'eau. Il a soif. Donc Alice…;boit un verre d'eau;mange un fruit;met un manteau;ne fait rien
+42407;S'il fait nuit, Lina allume la lumière. Il fait nuit. Donc Lina…;allume la lumière;prend un parapluie;boit un verre d'eau;ne fait rien
+42408;S'il fait nuit, Mia allume la lumière. Il fait nuit. Donc Mia…;allume la lumière;s'arrête;va se coucher;ne fait rien
+42409;S'il a faim, Nina mange un fruit. Il a faim. Donc Nina…;mange un fruit;sort en récréation;avance;ne fait rien
+42410;S'il est fatigué, Hugo va se coucher. Il est fatigué. Donc Hugo…;va se coucher;frappe;se réveille;ne fait rien
+42411;Si le réveil sonne, Camille se réveille. Le réveil sonne. Donc Camille…;se réveille;avance;prend un parapluie;ne fait rien
+42412;Si le réveil sonne, Sacha se réveille. Le réveil sonne. Donc Sacha…;se réveille;sort en récréation;boit de l'eau fraîche;ne fait rien
+42413;S'il fait nuit, Théo allume la lumière. Il fait nuit. Donc Théo…;allume la lumière;va se coucher;avance;ne fait rien
+42414;Si la cloche sonne, Théo sort en récréation. La cloche sonne. Donc Théo…;sort en récréation;met un manteau;s'arrête;ne fait rien
+42415;S'il fait chaud, Zoé boit de l'eau fraîche. Il fait chaud. Donc Zoé…;boit de l'eau fraîche;met un manteau;frappe;ne fait rien
+42416;S'il fait nuit, Emma allume la lumière. Il fait nuit. Donc Emma…;allume la lumière;prend un parapluie;se réveille;ne fait rien
+42417;S'il fait chaud, Nina boit de l'eau fraîche. Il fait chaud. Donc Nina…;boit de l'eau fraîche;boit un verre d'eau;va se coucher;ne fait rien
+42418;S'il est fatigué, Lina va se coucher. Il est fatigué. Donc Lina…;va se coucher;frappe;allume la lumière;ne fait rien
+42419;Si le feu est rouge, Lina s'arrête. Le feu est rouge. Donc Lina…;s'arrête;met un manteau;se réveille;ne fait rien
+42420;Si le feu est vert, Max avance. Le feu est vert. Donc Max…;avance;allume la lumière;sort en récréation;ne fait rien
+42421;Si la cloche sonne, Mia sort en récréation. La cloche sonne. Donc Mia…;sort en récréation;boit un verre d'eau;se réveille;ne fait rien
+42422;Si le feu est rouge, Max s'arrête. Le feu est rouge. Donc Max…;s'arrête;se réveille;boit un verre d'eau;ne fait rien
+42423;Si le réveil sonne, Hugo se réveille. Le réveil sonne. Donc Hugo…;se réveille;met un manteau;frappe;ne fait rien
+42424;Si le réveil sonne, Enzo se réveille. Le réveil sonne. Donc Enzo…;se réveille;boit un verre d'eau;mange un fruit;ne fait rien
+42425;Si le réveil sonne, Zoé se réveille. Le réveil sonne. Donc Zoé…;se réveille;prend un parapluie;avance;ne fait rien
+42426;S'il fait chaud, Enzo boit de l'eau fraîche. Il fait chaud. Donc Enzo…;boit de l'eau fraîche;sort en récréation;allume la lumière;ne fait rien
+42427;S'il pleut, Léa prend un parapluie. Il pleut. Donc Léa…;prend un parapluie;avance;frappe;ne fait rien
+42428;S'il pleut, Théo prend un parapluie. Il pleut. Donc Théo…;prend un parapluie;met un manteau;boit de l'eau fraîche;ne fait rien
+42429;S'il a faim, Zoé mange un fruit. Il a faim. Donc Zoé…;mange un fruit;frappe;allume la lumière;ne fait rien
+42430;S'il pleut, Emma prend un parapluie. Il pleut. Donc Emma…;prend un parapluie;va se coucher;boit de l'eau fraîche;ne fait rien
+42431;S'il fait froid, Alice met un manteau. Il fait froid. Donc Alice…;met un manteau;prend un parapluie;boit un verre d'eau;ne fait rien
+42432;S'il pleut, Hugo prend un parapluie. Il pleut. Donc Hugo…;prend un parapluie;met un manteau;avance;ne fait rien
+42433;S'il fait froid, Sacha met un manteau. Il fait froid. Donc Sacha…;met un manteau;se réveille;s'arrête;ne fait rien
+42434;S'il fait nuit, Nolan allume la lumière. Il fait nuit. Donc Nolan…;allume la lumière;boit un verre d'eau;met un manteau;ne fait rien
+42435;S'il fait froid, Théo met un manteau. Il fait froid. Donc Théo…;met un manteau;prend un parapluie;sort en récréation;ne fait rien
+42436;Le contraire de propre est sale. Le contraire de sec est…;mouillé;sale;descendre;sombre
+42437;Le contraire de neuf est vieux. Le contraire de dur est…;mou;vieux;nuit;étroit
+42438;Le contraire de gentil est méchant. Le contraire de calme est…;bruyant;méchant;étroit;froid
+42439;Le contraire de lourd est léger. Le contraire de propre est…;sale;léger;petit;bas
+42440;Le contraire de grand est petit. Le contraire de gagner est…;perdre;petit;descendre;faible
+42441;Le contraire de monter est descendre. Le contraire de dur est…;mou;descendre;bas;petit
+42442;Le contraire de facile est difficile. Le contraire de plein est…;vide;difficile;sale;froid
+42443;Le contraire de tôt est tard. Le contraire de gentil est…;méchant;tard;finir;vide
+42444;Le contraire de fort est faible. Le contraire de facile est…;difficile;faible;fin;nuit
+42445;Le contraire de sec est mouillé. Le contraire de lourd est…;léger;mouillé;difficile;fermé
+42446;Le contraire de sec est mouillé. Le contraire de rapide est…;lent;mouillé;sale;fermé
+42447;Le contraire de neuf est vieux. Le contraire de clair est…;sombre;vieux;lent;étroit
+42448;Le contraire de épais est fin. Le contraire de rapide est…;lent;fin;faible;froid
+42449;Le contraire de fort est faible. Le contraire de épais est…;fin;faible;lent;perdre
+42450;Le contraire de calme est bruyant. Le contraire de lourd est…;léger;bruyant;faible;vieux
+42451;Le contraire de propre est sale. Le contraire de monter est…;descendre;sale;bruyant;méchant
+42452;Le contraire de commencer est finir. Le contraire de fort est…;faible;finir;léger;froid
+42453;Le contraire de neuf est vieux. Le contraire de jour est…;nuit;vieux;perdre;content
+42454;Le contraire de calme est bruyant. Le contraire de dur est…;mou;bruyant;perdre;tard
+42455;Le contraire de lourd est léger. Le contraire de jour est…;nuit;léger;lent;descendre
+42456;Le contraire de large est étroit. Le contraire de monter est…;descendre;étroit;petit;content
+42457;Le contraire de clair est sombre. Le contraire de gentil est…;méchant;sombre;bruyant;faible
+42458;Le contraire de facile est difficile. Le contraire de gentil est…;méchant;difficile;vide;étroit
+42459;Le contraire de calme est bruyant. Le contraire de haut est…;bas;bruyant;difficile;fermé
+42460;Le contraire de haut est bas. Le contraire de tôt est…;tard;bas;vieux;mouillé
+42461;Le contraire de grand est petit. Le contraire de large est…;étroit;petit;sale;perdre
+42462;Le contraire de facile est difficile. Le contraire de tôt est…;tard;difficile;léger;étroit
+42463;Le contraire de gentil est méchant. Le contraire de fort est…;faible;méchant;sale;perdre
+42464;Le contraire de triste est content. Le contraire de commencer est…;finir;content;mouillé;tard
+42465;Le contraire de ouvert est fermé. Le contraire de commencer est…;finir;fermé;vieux;perdre
+42466;Parmi 755, 536, 954, 820 : quel est le plus grand nombre ?;954;755;536;820
+42467;Parmi 419, 344, 688, 64 : quel est le plus grand nombre ?;688;419;344;64
+42468;Parmi 446, 369, 758, 708 : quel est le plus grand nombre ?;758;446;369;708
+42469;Parmi 707, 582, 757, 788 : quel est le plus grand nombre ?;788;707;582;757
+42470;Parmi 426, 762, 98, 207 : quel est le plus grand nombre ?;762;426;98;207
+42471;Parmi 72, 168, 341, 960 : quel est le plus grand nombre ?;960;72;168;341
+42472;Parmi 442, 594, 162, 588 : quel est le plus petit nombre ?;162;442;594;588
+42473;Parmi 595, 216, 693, 54 : quel est le plus grand nombre ?;693;595;216;54
+42474;Parmi 919, 204, 209, 17 : quel est le plus petit nombre ?;17;919;204;209
+42475;Parmi 122, 160, 384, 727 : quel est le plus grand nombre ?;727;122;160;384
+42476;Parmi 720, 591, 588, 638 : quel est le plus grand nombre ?;720;591;588;638
+42477;Parmi 640, 649, 175, 54 : quel est le plus petit nombre ?;54;640;649;175
+42478;Parmi 636, 680, 204, 458 : quel est le plus petit nombre ?;204;636;680;458
+42479;Parmi 199, 860, 270, 239 : quel est le plus grand nombre ?;860;199;270;239
+42480;Parmi 211, 320, 49, 577 : quel est le plus petit nombre ?;49;211;320;577
+42481;Parmi 913, 267, 944, 393 : quel est le plus grand nombre ?;944;913;267;393
+42482;Parmi 414, 998, 397, 887 : quel est le plus petit nombre ?;397;414;998;887
+42483;Parmi 516, 111, 273, 396 : quel est le plus petit nombre ?;111;516;273;396
+42484;Parmi 302, 34, 875, 493 : quel est le plus grand nombre ?;875;302;34;493
+42485;Parmi 482, 779, 391, 649 : quel est le plus petit nombre ?;391;482;779;649
+42486;Parmi 837, 487, 440, 495 : quel est le plus petit nombre ?;440;837;487;495
+42487;Parmi 485, 684, 132, 934 : quel est le plus petit nombre ?;132;485;684;934
+42488;Parmi 438, 876, 881, 204 : quel est le plus grand nombre ?;881;438;876;204
+42489;Parmi 702, 189, 371, 248 : quel est le plus petit nombre ?;189;702;371;248
+42490;Parmi 732, 616, 296, 901 : quel est le plus grand nombre ?;901;732;616;296
+42491;Parmi 902, 693, 33, 596 : quel est le plus grand nombre ?;902;693;33;596
+42492;Parmi 21, 103, 654, 767 : quel est le plus petit nombre ?;21;103;654;767
+42493;Parmi 958, 255, 349, 259 : quel est le plus grand nombre ?;958;255;349;259
+42494;Parmi 187, 882, 744, 522 : quel est le plus grand nombre ?;882;187;744;522
+42495;Parmi 696, 457, 275, 43 : quel est le plus petit nombre ?;43;696;457;275
+42496;Parmi 361, 995, 385, 979 : quel est le plus grand nombre ?;995;361;385;979
+42497;Parmi 812, 333, 600, 670 : quel est le plus grand nombre ?;812;333;600;670
+42498;Parmi 652, 864, 401, 801 : quel est le plus petit nombre ?;401;652;864;801
+42499;Parmi 219, 205, 176, 410 : quel est le plus grand nombre ?;410;219;205;176

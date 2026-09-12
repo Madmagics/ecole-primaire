@@ -8,35 +8,21 @@ extends RefCounted
 ## reutiliser/decaler les numeros existants.
 enum Rarity { COMMON = 0, UNCOMMON = 4, RARE = 1, EPIC = 2, LEGENDARY = 3 }
 
-## Code couleur des raretes (utilise pour les cartes, l'album et les coffres de la boutique) :
-## commune = blanc, peu commune = vert, rare = bleu, epique = violet, legendaire = orange.
-static func get_color(rarity: Rarity) -> Color:
-	match rarity:
-		Rarity.COMMON:
-			return Color("FFFFFF")
-		Rarity.UNCOMMON:
-			return Color("81C784")
-		Rarity.RARE:
-			return Color("4FC3F7")
-		Rarity.EPIC:
-			return Color("BA68C8")
-		Rarity.LEGENDARY:
-			return Color("FF9800")
-	return Color.WHITE
+## get_color() (palette par rarete : commune=blanc, peu commune=vert, rare=bleu, epique=violet,
+## legendaire=orange) retire le 2026-08-30 (retour utilisateur : "on va instaurer un nouveau code
+## couleur valable pour tout le jeu : cp=bleu, ce1=vert, ce2=jaune, cm1=violet, cm2=rouge") :
+## GradeLevel.get_color() a sa propre palette fixe desormais, independante de CardRarity - dernier
+## appelant de cette fonction (GradeLevel.get_color(), qui faisait le pont rarete->couleur) mis a
+## jour pour ne plus en dependre. Voir GradeLevel.get_color()/get_coin_icon_path() pour le systeme
+## actuel.
 
-static func get_label(rarity: Rarity) -> String:
-	match rarity:
-		Rarity.COMMON:
-			return "Commune"
-		Rarity.UNCOMMON:
-			return "Peu commune"
-		Rarity.RARE:
-			return "Rare"
-		Rarity.EPIC:
-			return "Épique"
-		Rarity.LEGENDARY:
-			return "Légendaire"
-	return "?"
+## get_label() (libelles "Commune"/"Peu commune"/etc) retire le 2026-08-29 (section "Récompenses",
+## retour utilisateur : "on enleve le systeme commun peu commun etc et on remplace juste par le nom
+## des classes CP, CE1 etc") : plus aucun texte joueur n'affiche de nom de rarete, uniquement des
+## noms de classe (voir GradeLevel.get_label, GradeLevel.get_grade_for_rarity). CardRarity ne sert
+## plus qu'en interne (cle Economy, couleurs, poids de tirage, calcul de recompense) - dernier
+## appelant de get_label() supprime dans coin_hud.gd/inventory_row.gd(retire)/question_panel.gd/
+## question_giver_component.gd/build_loot_tables.gd, voir CHARTE_GRAPHIQUE.md pour le detail complet.
 
 ## Poids de tirage par defaut suggere pour une table de loot equilibree
 ## (a ajuster par coffre dans l'inspecteur, ceci n'est qu'un point de depart).

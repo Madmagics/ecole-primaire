@@ -1,9 +1,11 @@
 [gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://cxgfm1dth4fvo"]
 
-[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_drjx0"]
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/classe2.0/pets/26.webp" id="2_texture"]
 
 [resource]
-script = ExtResource("1_drjx0")
+script = ExtResource("1_script")
 id = &"26"
 category = &"dragon"
-display_name = "Forestier"
+display_name = "Ronce"
+texture = ExtResource("2_texture")

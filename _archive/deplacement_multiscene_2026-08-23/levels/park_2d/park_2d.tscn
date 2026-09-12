@@ -1,0 +1,130 @@
+[gd_scene format=3 uid="uid://nt1wh7ieki2s"]
+
+[ext_resource type="PackedScene" path="res://entities/player_2d/player_2d.tscn" id="1_player"]
+[ext_resource type="PackedScene" path="res://entities/npc_2d/npc_2d.tscn" id="2_npc"]
+[ext_resource type="PackedScene" path="res://entities/shop_kiosk_2d/shop_kiosk_2d.tscn" id="3_shop"]
+[ext_resource type="PackedScene" path="res://ui/game_ui.tscn" id="4_ui"]
+[ext_resource type="Texture2D" uid="uid://c5muir2dvdppk" path="res://assets/backgrounds/park_2d/ciel.webp" id="5_bg_ciel"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ground"]
+size = Vector2(1711, 80)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wall"]
+size = Vector2(40, 1000)
+
+[node name="ParkSide" type="Node2D" unique_id=1911298431]
+position = Vector2(32, 246)
+
+[node name="BackgroundSky" type="TextureRect" parent="." unique_id=450622545]
+offset_left = -436.0
+offset_top = -668.00006
+offset_right = 1964.0
+offset_bottom = 702.99994
+scale = Vector2(0.86799806, 0.86799806)
+texture = ExtResource("5_bg_ciel")
+expand_mode = 3
+stretch_mode = 6
+metadata/_edit_use_anchors_ = true
+
+[node name="Ground" type="StaticBody2D" parent="." unique_id=121135196]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground" unique_id=498041778]
+position = Vector2(670, 145.00002)
+scale = Vector2(0.99874365, 1)
+shape = SubResource("RectangleShape2D_ground")
+
+[node name="Visual" type="ColorRect" parent="Ground" unique_id=1499004913]
+offset_left = -848.0
+offset_top = 105.0
+offset_right = 2552.0
+offset_bottom = 205.0
+color = Color(0.36, 0.25, 0.16, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="LeftWall" type="StaticBody2D" parent="." unique_id=803202351]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="LeftWall" unique_id=1674109574]
+position = Vector2(-169, -118)
+shape = SubResource("RectangleShape2D_wall")
+
+[node name="RightWall" type="StaticBody2D" parent="." unique_id=1287886716]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RightWall" unique_id=2018660789]
+position = Vector2(1513, -127)
+shape = SubResource("RectangleShape2D_wall")
+
+[node name="Player" parent="." unique_id=884207885 instance=ExtResource("1_player")]
+position = Vector2(515, 75)
+
+[node name="MovementComponent2D" parent="Player" index="2"]
+zone_min_x = -130.0
+zone_max_x = 1470.0
+
+[node name="FixedCamera" type="Camera2D" parent="." unique_id=720935444]
+position = Vector2(671, -96)
+zoom = Vector2(0.7, 0.7)
+
+[node name="NPCs" type="Node2D" parent="." unique_id=458688551]
+
+[node name="NPC_CP" parent="NPCs" unique_id=1816592244 instance=ExtResource("2_npc")]
+position = Vector2(-60, 64)
+
+[node name="NPC_CE1" parent="NPCs" unique_id=450666633 instance=ExtResource("2_npc")]
+position = Vector2(128, 68)
+
+[node name="QuestionGiverComponent" parent="NPCs/NPC_CE1" index="2"]
+grade = 1
+
+[node name="NPC_CE2" parent="NPCs" unique_id=1986927470 instance=ExtResource("2_npc")]
+position = Vector2(670, 84)
+
+[node name="QuestionGiverComponent" parent="NPCs/NPC_CE2" index="2"]
+grade = 2
+
+[node name="NPC_CM1" parent="NPCs" unique_id=29868540 instance=ExtResource("2_npc")]
+position = Vector2(940, 51)
+
+[node name="QuestionGiverComponent" parent="NPCs/NPC_CM1" index="2"]
+grade = 3
+
+[node name="NPC_CM2" parent="NPCs" unique_id=560552292 instance=ExtResource("2_npc")]
+position = Vector2(1240, 58)
+
+[node name="QuestionGiverComponent" parent="NPCs/NPC_CM2" index="2"]
+grade = 4
+
+[node name="ShopKiosk" parent="." unique_id=1078315933 instance=ExtResource("3_shop")]
+position = Vector2(282, 53)
+
+[node name="UI" parent="." unique_id=1462786456 instance=ExtResource("4_ui")]
+
+[connection signal="interactable_changed" from="Player/InteractorComponent" to="UI/InteractPrompt" method="show_for"]
+[connection signal="interacted" from="ShopKiosk/InteractableComponent" to="UI/ShopPanel" method="open"]
+[connection signal="unfocused" from="ShopKiosk/InteractableComponent" to="UI/ShopPanel" method="close"]
+[connection signal="pack_started" from="NPCs/NPC_CP/QuestionGiverComponent" to="UI/QuestionPanel" method="display_pack"]
+[connection signal="pack_unavailable" from="NPCs/NPC_CP/QuestionGiverComponent" to="UI/QuestionPanel" method="show_message"]
+[connection signal="reading_pack_started" from="NPCs/NPC_CP/QuestionGiverComponent" to="UI/ReadingIntroPanel" method="open_for"]
+[connection signal="subject_selection_requested" from="NPCs/NPC_CP/QuestionGiverComponent" to="UI/SubjectSelectPanel" method="open_for"]
+[connection signal="pack_started" from="NPCs/NPC_CE1/QuestionGiverComponent" to="UI/QuestionPanel" method="display_pack"]
+[connection signal="pack_unavailable" from="NPCs/NPC_CE1/QuestionGiverComponent" to="UI/QuestionPanel" method="show_message"]
+[connection signal="reading_pack_started" from="NPCs/NPC_CE1/QuestionGiverComponent" to="UI/ReadingIntroPanel" method="open_for"]
+[connection signal="subject_selection_requested" from="NPCs/NPC_CE1/QuestionGiverComponent" to="UI/SubjectSelectPanel" method="open_for"]
+[connection signal="pack_started" from="NPCs/NPC_CE2/QuestionGiverComponent" to="UI/QuestionPanel" method="display_pack"]
+[connection signal="pack_unavailable" from="NPCs/NPC_CE2/QuestionGiverComponent" to="UI/QuestionPanel" method="show_message"]
+[connection signal="reading_pack_started" from="NPCs/NPC_CE2/QuestionGiverComponent" to="UI/ReadingIntroPanel" method="open_for"]
+[connection signal="subject_selection_requested" from="NPCs/NPC_CE2/QuestionGiverComponent" to="UI/SubjectSelectPanel" method="open_for"]
+[connection signal="pack_started" from="NPCs/NPC_CM1/QuestionGiverComponent" to="UI/QuestionPanel" method="display_pack"]
+[connection signal="pack_unavailable" from="NPCs/NPC_CM1/QuestionGiverComponent" to="UI/QuestionPanel" method="show_message"]
+[connection signal="reading_pack_started" from="NPCs/NPC_CM1/QuestionGiverComponent" to="UI/ReadingIntroPanel" method="open_for"]
+[connection signal="subject_selection_requested" from="NPCs/NPC_CM1/QuestionGiverComponent" to="UI/SubjectSelectPanel" method="open_for"]
+[connection signal="pack_started" from="NPCs/NPC_CM2/QuestionGiverComponent" to="UI/QuestionPanel" method="display_pack"]
+[connection signal="pack_unavailable" from="NPCs/NPC_CM2/QuestionGiverComponent" to="UI/QuestionPanel" method="show_message"]
+[connection signal="reading_pack_started" from="NPCs/NPC_CM2/QuestionGiverComponent" to="UI/ReadingIntroPanel" method="open_for"]
+[connection signal="subject_selection_requested" from="NPCs/NPC_CM2/QuestionGiverComponent" to="UI/SubjectSelectPanel" method="open_for"]
+
+[editable path="Player"]
+[editable path="NPCs/NPC_CP"]
+[editable path="NPCs/NPC_CE1"]
+[editable path="NPCs/NPC_CE2"]
+[editable path="NPCs/NPC_CM1"]
+[editable path="NPCs/NPC_CM2"]

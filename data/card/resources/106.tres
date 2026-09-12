@@ -1,9 +1,11 @@
 [gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://bv4maf3kijoy5"]
 
-[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_m33fv"]
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/classe2.0/pets/106.webp" id="2_texture"]
 
 [resource]
-script = ExtResource("1_m33fv")
+script = ExtResource("1_script")
 id = &"106"
 category = &"baleine"
-display_name = "Baleine océanique"
+display_name = "Onde"
+texture = ExtResource("2_texture")

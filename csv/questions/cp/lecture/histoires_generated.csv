@@ -1,26 +1,26 @@
 id;type;text;correct_answer;choice_2;choice_3;choice_4;passage_id;qtype
-23000;passage;Léa est à la plage. Elle est avec son papa. Elle prend un seau bleu. Elle prend une pelle rouge. Elle creuse le sable. Elle fait un château. Le château a quatre tours. Elle met un drapeau jaune. Papa donne des coquillages. Elle orne le château. La mer vient tout près. Elle rit très fort. Elle rit un peu.;;;;;;
-23001;question;Où est Léa ?;a la plage;a la piscine;a la maison;au parc;23000;L
+23000;passage;Léa est à la plage. Elle est avec son papa. Elle prend un seau bleu. Elle prend une pelle rouge. Elle creuse le sable. Elle fait un château. Le château à quatre tours. Elle met un drapeau jaune. Papa donne des coquillages. Elle orne le château. La mer vient tout près. Elle rit très fort. Elle rit un peu.;;;;;;
+23001;question;Où est Léa ?;à la plage;à la piscine;à la maison;au parc;23000;L
 23002;question;Avec qui est Léa ?;son papa;sa maman;son frère;sa mamie;23000;L
 23003;question;De quelle couleur est le seau de Léa ?;bleu;rouge;vert;jaune;23000;L
 23004;question;De quelle couleur est la pelle ?;rouge;bleue;verte;noire;23000;L
 23005;question;Qu'est-ce que Léa construit ?;un château de sable;une cabane;un bonhomme de neige;un bateau;23000;L
-23006;question;Combien de tours a le château ?;quatre;deux;trois;cinq;23000;L
+23006;question;Combien de tours à le château ?;quatre;deux;trois;cinq;23000;L
 23007;question;De quelle couleur est le drapeau ?;jaune;bleu;rouge;vert;23000;L
 23008;question;Qu'est-ce que le papa apporte ?;des coquillages;des fleurs;des bonbons;des jouets;23000;L
 23009;question;Qu'est-ce qui arrive tout près ?;la mer;la pluie;la nuit;le vent;23000;L
-23010;question;Que fait Léa a la fin ?;elle rit;elle pleure;elle dort;elle part;23000;L
-23011;passage;Hugo va à la ferme. Il est avec sa classe. La maîtresse montre les animaux. Il voit des poules blanches. Il caresse un lapin gris. Une vache mange de l'herbe. Il donne du pain. Il donne le pain a une chèvre. Il entend un coq chanter. Les enfants mangent dehors. Il aime cette sortie. Tout le monde rentre content. Il rit un peu. Il fait beau.;;;;;;
-23012;question;Où va Hugo ?;a la ferme;a la piscine;au musée;au zoo;23011;L
+23010;question;Que fait Léa à la fin ?;elle rit;elle pleure;elle dort;elle part;23000;L
+23011;passage;Hugo va à la ferme. Il est avec sa classe. La maîtresse montre les animaux. Il voit des poules blanches. Il caresse un lapin gris. Une vache mange de l'herbe. Il donne du pain. Il donne le pain à une chèvre. Il entend un coq chanter. Les enfants mangent dehors. Il aime cette sortie. Tout le monde rentre content. Il rit un peu. Il fait beau.;;;;;;
+23012;question;Où va Hugo ?;à la ferme;à la piscine;au musée;au zoo;23011;L
 23013;question;Avec qui y va-t-il ?;sa classe;sa famille;son papa;ses cousins;23011;L
 23014;question;De quelle couleur sont les poules ?;blanches;noires;grises;rousses;23011;L
 23015;question;Quel animal Hugo caresse-t-il ?;un lapin;un chat;un chien;un mouton;23011;L
 23016;question;Que mange la vache ?;de l'herbe;des carottes;du pain;des graines;23011;L
 23017;question;À qui Hugo donne-t-il du pain ?;une chèvre;un cheval;un cochon;un âne;23011;L
 23018;question;Qu'est-ce que Hugo entend chanter ?;un coq;un oiseau;une vache;un chien;23011;L
-23019;question;Que font les enfants a midi ?;ils mangent dehors;ils dorment;ils jouent au ballon;ils dessinent;23011;L
-23020;question;Où mangent les enfants ?;dehors;dans la classe;dans le bus;a la cantine;23011;L
-23021;question;Comment Hugo se sent-il a la fin ?;content;triste;fatigué;en colère;23011;L
+23019;question;Que font les enfants à midi ?;ils mangent dehors;ils dorment;ils jouent au ballon;ils dessinent;23011;L
+23020;question;Où mangent les enfants ?;dehors;dans la classe;dans le bus;à la cantine;23011;L
+23021;question;Comment Hugo se sent-il à la fin ?;content;triste;fatigué;en colère;23011;L
 23022;passage;Nora part en randonnée. Elle est avec sa maman. Elles marchent sur un sentier. Elle voit des fleurs violettes. Elle entend une cascade. Un écureuil passe le chemin. Elle boit de l'eau. En haut, on voit le village. Elle est fière. Elle a fait toute la montée. Elle rit un peu. Il fait beau. Le jour est doux.;;;;;;
 23023;question;Avec qui Nora part-elle en randonnée ?;sa maman;son papa;sa mamie;sa classe;23022;L
 23024;question;Où marchent-elles ?;sur un sentier;sur la plage;dans une rue;dans un jardin;23022;L
@@ -28,31 +28,31 @@ id;type;text;correct_answer;choice_2;choice_3;choice_4;passage_id;qtype
 23026;question;Qu'est-ce que Nora entend ?;une cascade;un train;un chien;la mer;23022;L
 23027;question;Quel animal traverse le chemin ?;un écureuil;un lapin;un renard;un oiseau;23022;L
 23028;question;Que boit Nora ?;de l'eau;du jus;du lait;du chocolat chaud;23022;L
-23029;question;Que voit-on en haut ?;le village;la mer;la ferme seulement;la foret seulement;23022;L
+23029;question;Que voit-on en haut ?;le village;la mer;la ferme seulement;la forêt seulement;23022;L
 23030;question;Comment Nora se sent-elle en haut ?;fière;triste;en colère;déçue;23022;L
 23031;question;Qui accompagne Nora pendant la randonnée ?;sa maman;ses cousins;ses amis;son grand frère;23022;L
-23032;question;Qu'a fait Nora a la fin ?;toute la montée;seulement un petit tour;demi-tour;rien du tout;23022;L
+23032;question;Qu'a fait Nora à la fin ?;toute la montée;seulement un petit tour;demi-tour;rien du tout;23022;L
 23033;passage;Tom va à la fête foraine. Il est avec son grand frère. Il monte sur le manège. Il mange une barbe à papa. Il gagne un ours en peluche. Les lumières brillent la nuit. Il entend de la musique. Il rit sur les autos tamponneuses. Quelle belle soirée pour Il ! Il rit un peu. Il fait beau.;;;;;;
-23034;question;Avec qui Tom va-t-il a la fête foraine ?;son grand frère;sa mamie;sa classe;son papa;23033;L
+23034;question;Avec qui Tom va-t-il à la fête foraine ?;son grand frère;sa mamie;sa classe;son papa;23033;L
 23035;question;Sur quoi Tom monte-t-il ?;le manège;la grande roue;le train fantôme;le grand huit;23033;L
 23036;question;Que mange Tom ?;une barbe à papa;une glace;une pomme d'amour;des bonbons;23033;L
 23037;question;Que gagne Tom ?;un ours en peluche;une poupée;un ballon;une voiture jouet;23033;L
 23038;question;Que brillent dans la nuit ?;les lumières;les étoiles seulement;la lune;le soleil;23033;L
 23039;question;Que fait Tom sur les autos tamponneuses ?;il rit;il pleure;il a peur;il s'ennuie;23033;L
 23040;question;Qu'est-ce que Tom entend ?;de la musique;des cris;le vent;la pluie;23033;L
-23041;question;Quand se passe la sortie de Tom ?;le soir;le matin;a midi;a l'aube;23033;L
+23041;question;Quand se passe la sortie de Tom ?;le soir;le matin;à midi;à l'aube;23033;L
 23042;question;Comment se termine la soirée de Tom ?;c'est une belle soirée;Tom est triste;Tom veut rentrer vite;Tom a perdu son ours;23033;L
 23043;question;Avec qui Tom rit-il sur les autos tamponneuses ?;son grand frère;sa mamie;personne;sa maîtresse;23033;L
-23044;passage;Alice prend le train. Elle est avec sa mamie. Elle a une valise rouge. Le train passe des champs verts. Elle voit par la fenêtre. Elle voit des vaches. Mamie lui donne un goûter. Le contrôleur voit les billets. Elle dort un peu. Le train vient en gare. Elle rit un peu.;;;;;;
+23044;passage;Alice prend le train. Elle est avec sa mamie. Elle à une valise rouge. Le train passe des champs verts. Elle voit par la fenêtre. Elle voit des vaches. Mamie lui donne un goûter. Le contrôleur voit les billets. Elle dort un peu. Le train vient en gare. Elle rit un peu.;;;;;;
 23045;question;Avec qui Alice prend-elle le train ?;sa mamie;son papa;sa classe;sa soeur;23044;L
 23046;question;De quelle couleur est la valise d'Alice ?;rouge;bleue;verte;noire;23044;L
-23047;question;Que traverse le train ?;des champs verts;une foret sombre;un désert;une ville;23044;L
+23047;question;Que traverse le train ?;des champs verts;une forêt sombre;un désert;une ville;23044;L
 23048;question;Où Alice regarde-t-elle ?;par la fenêtre;sur son livre;sur son téléphone;vers le sol;23044;L
 23049;question;Que voit Alice ?;des vaches;des bateaux;des montagnes de neige;des avions;23044;L
 23050;question;Que lui donne mamie ?;un goûter;un jouet;un livre;une glace;23044;L
 23051;question;Qui regarde les billets ?;le contrôleur;le chauffeur;la maîtresse;un policier;23044;L
 23052;question;Que fait Alice pendant le trajet ?;elle dort un peu;elle chante fort;elle pleure;elle court dans le wagon;23044;L
-23053;question;Où arrive le train a la fin ?;en gare;a l'aéroport;au port;a l'école;23044;L
+23053;question;Où arrive le train à la fin ?;en gare;à l'aéroport;au port;à l'école;23044;L
 23054;question;Quel objet Alice emporte-t-elle ?;une valise;un gros sac à dos;un panier;une boite;23044;L
 23055;passage;Diego prend l'avion. C'est la première fois. Il tient la main de son papa. L'avion décolle très fort. Il voit les nuages blancs. Une hôtesse donne un jus. Il mange un petit gâteau. L'avion vole au-dessus de la mer. Il est un peu surpris. L'avion atterrit tout doux. Il rit un peu.;;;;;;
 23056;question;Que fait Diego pour la première fois ?;il prend l'avion;il prend le train;il nage;il fait du vélo;23055;L
@@ -86,20 +86,20 @@ id;type;text;correct_answer;choice_2;choice_3;choice_4;passage_id;qtype
 23084;question;Que font-ils le soir ?;ils regardent un film;ils vont se coucher tôt;ils sortent en ville;ils font leurs devoirs;23077;L
 23085;question;Comment Marco se sent-il avec sa cousine ?;il rit;il s'ennuie;il est timide;il est fâché;23077;L
 23086;question;Que ne veut plus faire Marco ?;repartir;jouer;manger;dormir;23077;L
-23087;question;Où se passe cette journée ?;chez les cousins;a l'école;a la plage;a la montagne;23077;L
-23088;passage;Sofia part pique-niquer a la campagne. Elle est avec sa famille. Ils posent une nappe sous un arbre. Elle mange un sandwich au fromage. Maman coupe une pastèque sucrée. Des vaches broutent dans le pré. Elle court apres des papillons. Papa joue de la guitare. Elle s'endort dans l'herbe. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la.;;;;;;
-23089;question;Où Sofia pique-nique-t-elle ?;a la campagne;a la plage;en ville;a la montagne;23088;L
+23087;question;Où se passe cette journée ?;chez les cousins;à l'école;à la plage;à la montagne;23077;L
+23088;passage;Sofia part pique-niquer à la campagne. Elle est avec sa famille. Ils posent une nappe sous un arbre. Elle mange un sandwich au fromage. Maman coupe une pastèque sucrée. Des vaches broutent dans le pré. Elle court après des papillons. Papa joue de la guitare. Elle s'endort dans l'herbe. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la.;;;;;;
+23089;question;Où Sofia pique-nique-t-elle ?;à la campagne;à la plage;en ville;à la montagne;23088;L
 23090;question;Avec qui part-elle ?;sa famille;sa classe;ses cousins;ses voisins;23088;L
 23091;question;Sur quoi posent-ils la nourriture ?;une nappe;une table en bois;un sac;un banc;23088;L
 23092;question;Que mange Sofia ?;un sandwich au fromage;une pizza;une soupe;un gâteau;23088;L
 23093;question;Que coupe la maman ?;une pastèque;une pomme;une orange;un melon vert;23088;L
 23094;question;Quels animaux broutent dans le pré ?;des vaches;des chevaux;des moutons;des chèvres;23088;L
-23095;question;Apres quoi Sofia court-elle ?;des papillons;des oiseaux;des lapins;des chats;23088;L
+23095;question;Après quoi Sofia court-elle ?;des papillons;des oiseaux;des lapins;des chats;23088;L
 23096;question;De quel instrument joue le papa ?;la guitare;le piano;le tambour;la flûte;23088;L
 23097;question;Où Sofia s'endort-elle ?;dans l'herbe;dans la voiture;sur un banc;dans sa chambre;23088;L
 23098;question;Sous quoi posent-ils la nappe ?;un arbre;un parasol;une tente;un toit;23088;L
-23099;passage;Elias va à la plage. Il a un cerf-volant rouge et jaune. Le vent souffle très fort. Il court sur le sable. Le cerf-volant monte très haut. Sa soeur applaudit. Un chien joue près d'eux. Il tient bien la ficelle. Il est très fier de son beau cerf-volant.;;;;;;
-23100;question;Où Elias va-t-il jouer ?;a la plage;au parc;a la montagne;dans le jardin;23099;L
+23099;passage;Elias va à la plage. Il à un cerf-volant rouge et jaune. Le vent souffle très fort. Il court sur le sable. Le cerf-volant monte très haut. Sa soeur applaudit. Un chien joue près d'eux. Il tient bien la ficelle. Il est très fier de son beau cerf-volant.;;;;;;
+23100;question;Où Elias va-t-il jouer ?;à la plage;au parc;à la montagne;dans le jardin;23099;L
 23101;question;De quelles couleurs est le cerf-volant ?;rouge et jaune;bleu et blanc;vert et noir;rose et violet;23099;L
 23102;question;Comment souffle le vent ?;très fort;très doucement;pas du tout;un peu seulement;23099;L
 23103;question;Sur quoi Elias court-il ?;le sable;l'herbe;un chemin;les rochers;23099;L
@@ -107,10 +107,10 @@ id;type;text;correct_answer;choice_2;choice_3;choice_4;passage_id;qtype
 23105;question;Qui applaudit Elias ?;sa soeur;son papa;sa mamie;sa maîtresse;23099;L
 23106;question;Quel animal joue près d'eux ?;un chien;un chat;un oiseau;un crabe;23099;L
 23107;question;Que tient bien Elias ?;la ficelle;un seau;une pelle;un ballon;23099;L
-23108;question;Comment se sent Elias a la fin ?;fier;triste;fatigué;en colère;23099;L
-23109;question;Où se passe cette histoire ?;a la plage;au parc;en montagne;a la ferme;23099;L
-23110;passage;Greta va en foret. Elle est avec son papi. Ils cueillent des champignons. Elle porte un petit panier. Papi montre les bons champignons. Elle trouve un gros cèpe. Un oiseau chante au-dessus d'eux. Elle ramasse des châtaignes. Le panier devient lourd. Elle est fière. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la.;;;;;;
-23111;question;Où Greta va-t-elle avec son papi ?;en foret;a la plage;au marche;au jardin;23110;L
+23108;question;Comment se sent Elias à la fin ?;fier;triste;fatigué;en colère;23099;L
+23109;question;Où se passe cette histoire ?;à la plage;au parc;en montagne;à la ferme;23099;L
+23110;passage;Greta va en forêt. Elle est avec son papi. Ils cueillent des champignons. Elle porte un petit panier. Papi montre les bons champignons. Elle trouve un gros cèpe. Un oiseau chante au-dessus d'eux. Elle ramasse des châtaignes. Le panier devient lourd. Elle est fière. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la.;;;;;;
+23111;question;Où Greta va-t-elle avec son papi ?;en forêt;à la plage;au marche;au jardin;23110;L
 23112;question;Que cueillent-ils ?;des champignons;des fraises;des fleurs;des pommes;23110;L
 23113;question;Que porte Greta ?;un panier;un sac à dos;une boite;un seau;23110;L
 23114;question;Que lui montre papi ?;les bons champignons;planter des arbres;faire du feu;pécher;23110;L
@@ -119,31 +119,31 @@ id;type;text;correct_answer;choice_2;choice_3;choice_4;passage_id;qtype
 23117;question;Que ramasse aussi Greta ?;des châtaignes;des noisettes;des glands;des pommes de pin;23110;L
 23118;question;Comment devient le panier ?;lourd;léger;tout mouillé;casse;23110;L
 23119;question;Avec qui Greta part-elle cueillir ?;son papi;sa mamie;sa classe;sa soeur;23110;L
-23120;question;Comment Greta se sent-elle a la fin ?;fière;déçue;fatiguée et triste;en colère;23110;L
+23120;question;Comment Greta se sent-elle à la fin ?;fière;déçue;fatiguée et triste;en colère;23110;L
 23121;passage;Oskar se réveille. Il voit la neige blanche. Il met vite ses bottes. Il met aussi son bonnet. Dehors, Il fait des boules de neige. Il joue avec son frère. Ils glissent sur une petite pente. Un merle rouge se pose sur une branche. Il a froid aux mains. Maman prépare un chocolat chaud. Il est très content. Il rit un peu.;;;;;;
 23122;question;Que voit Oskar en se réveillant ?;la neige blanche;la pluie;le soleil;le brouillard;23121;L
 23123;question;Que met Oskar avant de sortir ?;ses bottes et son bonnet;son maillot de bain;ses sandales;sa casquette;23121;L
 23124;question;Avec qui Oskar joue-t-il dehors ?;son frère;sa mamie;sa classe;son chien;23121;L
 23125;question;Que font-ils avec la neige ?;des boules de neige;un château de sable;un cerf-volant;un feu;23121;L
-23126;question;Sur quoi glissent-ils ?;une petite pente;un lac gele;un toboggan;un tapis;23121;L
+23126;question;Sur quoi glissent-ils ?;une petite pente;un lac gelé;un toboggan;un tapis;23121;L
 23127;question;Quel oiseau se pose sur une branche ?;un merle rouge;un pigeon;une mésange bleue;un corbeau;23121;L
 23128;question;Où Oskar a-t-il froid ?;aux mains;aux pieds;au nez;au dos;23121;L
 23129;question;Que prépare la maman d'Oskar ?;un chocolat chaud;une soupe;un thé;un jus d'orange;23121;L
-23130;question;Comment est Oskar a la fin ?;très content;très triste;fâche;malade;23121;L
+23130;question;Comment est Oskar à la fin ?;très content;très triste;fâche;malade;23121;L
 23131;question;De quelle couleur est la neige ?;blanche;grise;bleue;jaune;23121;L
-23132;passage;Chiara fête son anniversaire. C'est à la maison. Maman a fait un gâteau au chocolat. Elle souffle huit bougies. Ses amis offrent des cadeaux. Ils jouent a caché-cache dans le jardin. Elle ouvre un joli livre. Tout le monde chante et danse. Elle passe une belle journée. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la.;;;;;;
-23133;question;Où Chiara fête-t-elle son anniversaire ?;a la maison;au restaurant;a l'école;au parc;23132;L
+23132;passage;Chiara fête son anniversaire. C'est à la maison. Maman a fait un gâteau au chocolat. Elle souffle huit bougies. Ses amis offrent des cadeaux. Ils jouent à caché-cache dans le jardin. Elle ouvre un joli livre. Tout le monde chante et danse. Elle passe une belle journée. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la.;;;;;;
+23133;question;Où Chiara fête-t-elle son anniversaire ?;à la maison;au restaurant;à l'école;au parc;23132;L
 23134;question;Quel gâteau a fait la maman ?;un gâteau au chocolat;un gâteau aux fraises;une tarte aux pommes;des cookies;23132;L
 23135;question;Combien de bougies Chiara souffle-t-elle ?;huit;six;dix;sept;23132;L
 23136;question;Que lui offrent ses amis ?;des cadeaux;des fleurs;des bonbons;de l'argent;23132;L
-23137;question;À quoi jouent-ils dans le jardin ?;a caché-cache;au ballon;aux billes;a la corde à sauter;23132;L
+23137;question;À quoi jouent-ils dans le jardin ?;à caché-cache;au ballon;aux billes;à la corde à sauter;23132;L
 23138;question;Quel cadeau Chiara ouvre-t-elle ?;un joli livre;une poupée;un vélo;un puzzle;23132;L
 23139;question;Que fait tout le monde ?;chanter et danser;regarder un film;dormir;partir très vite;23132;L
 23140;question;Comment Chiara trouve-t-elle sa journée ?;belle;ennuyeuse;trop courte et triste;fatigante;23132;L
 23141;question;Qui a fait le gâteau ?;la maman de Chiara;Chiara elle-même;sa mamie;le boulanger;23132;L
 23142;question;Quel événement fête Chiara ?;son anniversaire;la rentrée;Noël;une fête d'école;23132;L
 23143;passage;Liam va à la bibliothèque. C'est le mercredi. Il est avec sa maman. Il cherche un livre sur les dinosaures. La bibliothécaire l'aide. Il s'installe dans un grand fauteuil. Il lit une histoire de dragons. Un garçon lit à côté de lui. Il prend trois livres. Il a hâte de les lire. Il rit un peu.;;;;;;
-23144;question;Quel jour Liam va-t-il a la bibliothèque ?;le mercredi;le lundi;le samedi;le dimanche;23143;L
+23144;question;Quel jour Liam va-t-il à la bibliothèque ?;le mercredi;le lundi;le samedi;le dimanche;23143;L
 23145;question;Avec qui y va-t-il ?;sa maman;son papa;sa classe;sa mamie;23143;L
 23146;question;Que cherche Liam ?;un livre sur les dinosaures;un jeu vidéo;un cahier;un jouet;23143;L
 23147;question;Qui l'aide à trouver un livre ?;la bibliothécaire;sa maman;son ami;la maîtresse;23143;L
@@ -152,63 +152,63 @@ id;type;text;correct_answer;choice_2;choice_3;choice_4;passage_id;qtype
 23150;question;Qui lit à côté de Liam ?;un garçon;sa maman;la bibliothécaire;personne;23143;L
 23151;question;Combien de livres Liam prend-il ?;trois;deux;quatre;un;23143;L
 23152;question;Qu'a hâte de faire Liam ?;lire les livres;retourner à l'école;rendre les livres;dormir;23143;L
-23153;question;Où se passe cette histoire ?;a la bibliothèque;a l'école;a la maison;au musée;23143;L
-23154;passage;Amelia va à la piscine. C'est le samedi. Elle est avec son papa. Elle met son maillot rose. Elle saute dans le grand bassin. Elle apprend a nager. Papa la voit et sourit. Elle glisse sur le toboggan bleu. Elle mange une glace apres. Elle est fatiguée et heureuse. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la.;;;;;;
-23155;question;Quel jour Amelia va-t-elle a la piscine ?;le samedi;le mardi;le dimanche;le vendredi;23154;L
+23153;question;Où se passe cette histoire ?;à la bibliothèque;à l'école;à la maison;au musée;23143;L
+23154;passage;Amelia va à la piscine. C'est le samedi. Elle est avec son papa. Elle met son maillot rose. Elle saute dans le grand bassin. Elle apprend à nager. Papa la voit et sourit. Elle glisse sur le toboggan bleu. Elle mange une glace après. Elle est fatiguée et heureuse. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la.;;;;;;
+23155;question;Quel jour Amelia va-t-elle à la piscine ?;le samedi;le mardi;le dimanche;le vendredi;23154;L
 23156;question;Avec qui y va-t-elle ?;son papa;sa maman;sa classe;sa mamie;23154;L
 23157;question;De quelle couleur est son maillot ?;rose;bleu;vert;jaune;23154;L
 23158;question;Où Amelia saute-t-elle ?;le grand bassin;le petit bassin;la mer;une rivière;23154;L
-23159;question;Qu'apprend Amelia ?;a nager;à plonger très profond;à sauter du plongeoir;à flotter seulement;23154;L
+23159;question;Qu'apprend Amelia ?;à nager;à plonger très profond;à sauter du plongeoir;à flotter seulement;23154;L
 23160;question;Qui regarde et sourit ?;papa;le maître nageur;sa soeur;personne;23154;L
 23161;question;De quelle couleur est le toboggan ?;bleu;rouge;jaune;vert;23154;L
-23162;question;Que mange Amelia apres la piscine ?;une glace;un gâteau;un fruit;un sandwich;23154;L
-23163;question;Comment Amelia se sent-elle a la fin ?;fatiguée et heureuse;triste;malade;en colère;23154;L
-23164;question;Que fait Amelia dans le grand bassin ?;elle apprend a nager;elle lit un livre;elle dort;elle mange;23154;L
-23165;passage;Mateo fait une balade a vélo. Il est avec sa maman. Il met un casque bleu. Ils roulent le long de la rivière. Il voit des canards. Il s'arrête pour boire de l'eau. Une côte fatigue Il. Maman l'aide à continuer. Il vient en haut. Il est très fier. Il rit un peu.;;;;;;
+23162;question;Que mange Amelia après la piscine ?;une glace;un gâteau;un fruit;un sandwich;23154;L
+23163;question;Comment Amelia se sent-elle à la fin ?;fatiguée et heureuse;triste;malade;en colère;23154;L
+23164;question;Que fait Amelia dans le grand bassin ?;elle apprend à nager;elle lit un livre;elle dort;elle mange;23154;L
+23165;passage;Mateo fait une balade à vélo. Il est avec sa maman. Il met un casque bleu. Ils roulent le long de la rivière. Il voit des canards. Il s'arrête pour boire de l'eau. Une côte fatigue Il. Maman l'aide à continuer. Il vient en haut. Il est très fier. Il rit un peu.;;;;;;
 23166;question;Avec qui Mateo fait-il du vélo ?;sa maman;son papa;sa classe;son frère;23165;L
 23167;question;Que porte Mateo sur la tête ?;un casque bleu;une casquette;un bonnet;rien du tout;23165;L
-23168;question;Le long de quoi roulent-ils ?;la rivière;la route principale;la foret;la plage;23165;L
+23168;question;Le long de quoi roulent-ils ?;la rivière;la route principale;la forêt;la plage;23165;L
 23169;question;Quels animaux Mateo voit-il ?;des canards;des poissons;des cygnes;des grenouilles;23165;L
 23170;question;Pourquoi Mateo s'arrête-t-il ?;pour boire de l'eau;pour manger;pour dormir;car son vélo est cassé;23165;L
 23171;question;Qu'est-ce qui fatigue Mateo ?;une côte;le vent;la chaleur;la pluie;23165;L
 23172;question;Qui encourage Mateo ?;sa maman;son papa;sa mamie;un ami;23165;L
 23173;question;Comment Mateo se sent-il en haut ?;fier;triste;en colère;malade;23165;L
 23174;question;De quelle couleur est le casque de Mateo ?;bleu;rouge;vert;noir;23165;L
-23175;question;Que fait Mateo tout au long de la balade ?;il roule a vélo;il marche;il nage;il court;23165;L
+23175;question;Que fait Mateo tout au long de la balade ?;il roule à vélo;il marche;il nage;il court;23165;L
 23176;passage;Freya trouve une cabane dans les bois. Elle est avec ses amis. La cabane est faite de branches. Elle entre par une petite porte. Il y a une table en bois. Ses amis donnent des coussins. Un écureuil voit de loin. Elle orne la cabane. Elle aime cet endroit secret. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien.;;;;;;
-23177;question;Où Freya trouve-t-elle une cabane ?;dans les bois;dans son jardin;a l'école;a la plage;23176;L
+23177;question;Où Freya trouve-t-elle une cabane ?;dans les bois;dans son jardin;à l'école;à la plage;23176;L
 23178;question;Avec qui la trouve-t-elle ?;ses amis;sa famille;sa classe;personne;23176;L
 23179;question;En quoi est faite la cabane ?;des branches;du carton;des pierres;du métal;23176;L
 23180;question;Par où Freya entre-t-elle ?;une petite porte;une grande fenêtre;le toit;un tunnel;23176;L
-23181;question;Qu'y a-t-il a l'intérieur ?;une table en bois;un lit;une cuisine;rien du tout;23176;L
+23181;question;Qu'y à-t-il à l'intérieur ?;une table en bois;un lit;une cuisine;rien du tout;23176;L
 23182;question;Que apportent les amis de Freya ?;des coussins;des couvertures;des lampes;des livres;23176;L
 23183;question;Quel animal regarde de loin ?;un écureuil;un oiseau;un renard;un lapin;23176;L
 23184;question;Que décide de faire Freya ?;décorer la cabane;détruire la cabane;vendre la cabane;cacher la cabane;23176;L
 23185;question;Comment Freya trouve-t-elle cet endroit ?;elle adore cet endroit;elle a peur de cet endroit;elle s'ennuie;elle est déçue;23176;L
 23186;question;Pour s'asseoir, que faut-il apporter ?;des coussins;des chaises;des tapis;des bancs;23176;L
-23187;passage;Antoine promene son chien Rex. Ils sont dans le parc. Rex voit un chat. Il se met à courir. Il court derrière lui. Rex disparaît. Il cherche partout. Il appelle Rex très fort. Une dame trouve Rex. Elle ramene Rex a Il. Il serre son chien très fort. Il attache mieux la laisse. Il rit un peu.;;;;;;
+23187;passage;Antoine promène son chien Rex. Ils sont dans le parc. Rex voit un chat. Il se met à courir. Il court derrière lui. Rex disparaît. Il cherche partout. Il appelle Rex très fort. Une dame trouve Rex. Elle ramène Rex à Il. Il serre son chien très fort. Il attache mieux la laisse. Il rit un peu.;;;;;;
 23188;question;Comment s'appelle le chien d'Antoine ?;Rex;Milo;Max;Fido;23187;L
-23189;question;Où Antoine promene-t-il son chien ?;dans le parc;a la plage;en foret;dans la rue;23187;L
+23189;question;Où Antoine promène-t-il son chien ?;dans le parc;à la plage;en forêt;dans la rue;23187;L
 23190;question;Que voit Rex ?;un chat;un os;un autre chien;un oiseau;23187;L
 23191;question;Que fait Antoine quand Rex disparaît ?;il cherche et appelle;il rentre chez lui;il pleure sans bouger;il va manger;23187;L
 23192;question;Qui trouve Rex ?;une dame;un policier;un autre enfant;personne;23187;L
 23193;question;Où trouve-t-on Rex ?;près d'une fontaine;sous un arbre;près du toboggan;dans une poubelle;23187;L
 23194;question;Que fait Antoine quand il retrouve Rex ?;il le serre dans ses bras;il le gronde;il repart sans le voir;il pleure de peur;23187;L
-23195;question;Que fait Antoine différemment a la fin ?;il attache mieux la laisse;il ne promène plus Rex;il achète un autre chien;il reste a la maison;23187;L
-23196;question;Où se passe cette histoire ?;dans un parc;a l'école;chez Antoine;au supermarché;23187;L
+23195;question;Que fait Antoine différemment à la fin ?;il attache mieux la laisse;il ne promène plus Rex;il achète un autre chien;il reste à la maison;23187;L
+23196;question;Où se passe cette histoire ?;dans un parc;à l'école;chez Antoine;au supermarché;23187;L
 23197;question;Quel animal Rex voit-il d'abord ?;un chat;un chien;un oiseau;un écureuil;23187;L
-23198;passage;Zoé fait sa rentrée des classes. Elle porte un nouveau cartable violet. Elle retrouve ses copains dans la cour. Sa maîtresse s'appelle madame Dubois. Elle découvre sa nouvelle classe. Elle range ses crayons. A la recreation, Elle saute a la corde. Elle est contente de sa journée. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la. C'est un beau jour.;;;;;;
+23198;passage;Zoé fait sa rentrée des classes. Elle porte un nouveau cartable violet. Elle retrouve ses copains dans la cour. Sa maîtresse s'appelle madame Dubois. Elle découvre sa nouvelle classe. Elle range ses crayons. A la récréation, Elle saute à la corde. Elle est contente de sa journée. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la. C'est un beau jour.;;;;;;
 23199;question;Quel jour se passe l'histoire ?;le jour de la rentrée;un jour de vacances;un dimanche;un jour de neige;23198;L
 23200;question;Que porte Zoé ?;un nouveau cartable violet;un sac à dos rouge;une valise;un panier;23198;L
-23201;question;Où Zoé retrouve-t-elle ses copains ?;dans la cour;dans le bus;a la cantine;chez elle;23198;L
+23201;question;Où Zoé retrouve-t-elle ses copains ?;dans la cour;dans le bus;à la cantine;chez elle;23198;L
 23202;question;Comment s'appelle la maîtresse ?;madame Dubois;madame Petit;madame Roy;madame Simon;23198;L
 23203;question;Que découvre Zoé ?;sa nouvelle classe;une nouvelle école;un nouveau jeu;un nouveau livre;23198;L
 23204;question;Que range Zoé ?;ses crayons;son cartable;ses livres;ses vêtements;23198;L
-23205;question;À quoi Zoé joue-t-elle a la recreation ?;a la corde à sauter;au ballon;aux billes;a caché-cache;23198;L
-23206;question;Comment Zoé se sent-elle a la fin de la journée ?;contente;triste;fatiguée et fâchée;malade;23198;L
+23205;question;À quoi Zoé joue-t-elle à la récréation ?;à la corde à sauter;au ballon;aux billes;à caché-cache;23198;L
+23206;question;Comment Zoé se sent-elle à la fin de la journée ?;contente;triste;fatiguée et fâchée;malade;23198;L
 23207;question;De quelle couleur est le cartable de Zoé ?;violet;rose;bleu;vert;23198;L
 23208;question;Quel événement vit Zoé aujourd'hui ?;la rentrée des classes;son anniversaire;un examen;une sortie scolaire;23198;L
-23209;passage;Noah présente son expérience. C'est l'exposition de sciences. Il a fait un petit volcan en carton. Il verse du vinaigre. Une mousse orange sort du volcan. Les autres élèves sont contents. La maîtresse dit bravo a Il. Il reçoit un diplôme. Il est très fier. Il rit un peu. Il fait beau. Le jour est doux. Tout va bien.;;;;;;
+23209;passage;Noah présente son expérience. C'est l'exposition de sciences. Il a fait un petit volcan en carton. Il verse du vinaigre. Une mousse orange sort du volcan. Les autres élèves sont contents. La maîtresse dit bravo à Il. Il reçoit un diplôme. Il est très fier. Il rit un peu. Il fait beau. Le jour est doux. Tout va bien.;;;;;;
 23210;question;Que présente Noah ?;son expérience;un dessin;un poème;une chanson;23209;L
 23211;question;Qu'a fait Noah ?;un petit volcan en carton;une fusée;un robot;un pont;23209;L
 23212;question;Que verse Noah ?;du vinaigre;de l'eau;du sirop;du savon;23209;L
@@ -216,88 +216,88 @@ id;type;text;correct_answer;choice_2;choice_3;choice_4;passage_id;qtype
 23214;question;Que font les autres élèves ?;ils applaudissent;ils rient de lui;ils s'ennuient;ils partent;23209;L
 23215;question;Qui félicite Noah ?;la maîtresse;le directeur;sa maman;un journaliste;23209;L
 23216;question;Que reçoit Noah ?;un diplôme;une médaille;un livre;un jouet;23209;L
-23217;question;Comment Noah se sent-il a la fin ?;très fier;déçu;gêne;en colère;23209;L
-23218;question;Où se passe cette histoire ?;a l'exposition de sciences;a la piscine;au musée;a la ferme;23209;L
+23217;question;Comment Noah se sent-il à la fin ?;très fier;déçu;gêne;en colère;23209;L
+23218;question;Où se passe cette histoire ?;à l'exposition de sciences;à la piscine;au musée;à la ferme;23209;L
 23219;question;Quelle matière concerne cette expérience ?;les sciences;le sport;la musique;le dessin;23209;L
-23220;passage;Camille fait des crêpes. Elle est avec sa grand-mère. Elles mélangent farine, oeufs et lait. Elle verse la pâte dans la poêle. Grand-mère retourne la crêpe. Elle ajoute du sucre. Elle ajoute aussi de la confiture. Elles gouttent les crêpes a table. Elle se salit de farine. Elle aime cuisiner avec sa grand-mère. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien.;;;;;;
+23220;passage;Camille fait des crêpes. Elle est avec sa grand-mère. Elles mélangent farine, oeufs et lait. Elle verse la pâte dans la poêle. Grand-mère retourne la crêpe. Elle ajoute du sucre. Elle ajoute aussi de la confiture. Elles gouttent les crêpes à table. Elle se salit de farine. Elle aime cuisiner avec sa grand-mère. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien.;;;;;;
 23221;question;Que cuisine Camille ?;des crêpes;un gâteau;une tarte;des cookies;23220;L
 23222;question;Avec qui cuisine-t-elle ?;sa grand-mère;sa maman;sa tâta;sa soeur;23220;L
 23223;question;Que mélangent-elles ?;farine, oeufs et lait;farine et sucre seulement;oeufs et beurre;lait et chocolat;23220;L
 23224;question;Où Camille verse-t-elle la pâte ?;dans la poêle;dans un bol;dans le four;dans une casserole;23220;L
 23225;question;Qui retourne la crêpe ?;sa grand-mère;Camille;personne;son papa;23220;L
 23226;question;Que Camille ajoute-t-elle ?;du sucre et de la confiture;du miel seulement;du fromage;de la crème;23220;L
-23227;question;Où gouttent-elles les crêpes ?;a table;dans la cuisine debout;dans le jardin;dans la voiture;23220;L
+23227;question;Où gouttent-elles les crêpes ?;à table;dans la cuisine debout;dans le jardin;dans la voiture;23220;L
 23228;question;De quoi Camille se salit-elle ?;de farine;de chocolat;de confiture;d'eau;23220;L
-23229;question;Comment Camille trouve-t-elle cette activité ?;elle adore cuisiner;elle déteste ca;elle s'ennuie;elle a peur;23220;L
+23229;question;Comment Camille trouve-t-elle cette activité ?;elle adore cuisiner;elle déteste ça;elle s'ennuie;elle a peur;23220;L
 23230;question;Que préparent-elles ensemble ?;des crêpes;un ragoût;une salade;une soupe;23220;L
-23231;passage;Bruno aide son papi. Ils jardinent dans le potager. Ils plantent des graines de tomates. Il arrose la terre. Il a un petit arrosoir vert. Un ver de terre sort du sol. Papi montre les mauvaises herbes. Une coccinelle se pose sur une feuille. Il attend de voir pousser les tomates. Il aime jardiner avec papi. Il rit un peu. Il fait beau. Le jour est doux. Tout va bien.;;;;;;
+23231;passage;Bruno aide son papi. Ils jardinent dans le potager. Ils plantent des graines de tomates. Il arrose la terre. Il à un petit arrosoir vert. Un ver de terre sort du sol. Papi montre les mauvaises herbes. Une coccinelle se pose sur une feuille. Il attend de voir pousser les tomates. Il aime jardiner avec papi. Il rit un peu. Il fait beau. Le jour est doux. Tout va bien.;;;;;;
 23232;question;Où Bruno aide-t-il son papi ?;dans le potager;dans la cuisine;au garage;au marche;23231;L
 23233;question;Que plantent-ils ?;des graines de tomates;des fleurs;des pommes de terre;des carottes;23231;L
 23234;question;Avec quoi Bruno arrose-t-il la terre ?;un arrosoir vert;un seau;une bouteille;un tuyau;23231;L
 23235;question;Qu'est-ce qui sort du sol ?;un ver de terre;une souris;un serpent;une grenouille;23231;L
-23236;question;Que montre papi a Bruno ?;les mauvaises herbes;un arbre;un compost;du bois;23231;L
+23236;question;Que montre papi à Bruno ?;les mauvaises herbes;un arbre;un compost;du bois;23231;L
 23237;question;Quel insecte se pose sur une feuille ?;une coccinelle;une abeille;une fourmi;un papillon;23231;L
 23238;question;Qu'attend Bruno ?;voir pousser les tomates;manger un gâteau;rentrer chez lui;jouer au ballon;23231;L
-23239;question;Comment Bruno se sent-il en jardinant ?;il aime ca;il s'ennuie;il a peur;il est fatigué et triste;23231;L
+23239;question;Comment Bruno se sent-il en jardinant ?;il aime ça;il s'ennuie;il a peur;il est fatigué et triste;23231;L
 23240;question;De quelle couleur est l'arrosoir ?;vert;bleu;rouge;jaune;23231;L
 23241;question;Avec qui Bruno jardine-t-il ?;son papi;sa mamie;son papa;sa classe;23231;L
-23242;passage;Inès visite un musée. Elle est avec sa classe. Elle voit un grand squelette. C'est un squelette de dinosaure. Le guide dit l'histoire des dinosaures. Elle pose dès questions. Elle dessine le squelette dans son carnet. Ses copains voient aussi les vitrines. Elle prend une carte postale. Elle a beaucoup appris. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la.;;;;;;
+23242;passage;Inès visite un musée. Elle est avec sa classe. Elle voit un grand squelette. C'est un squelette de dinosaure. Le guide dit l'histoire des dinosaures. Elle pose dès questions. Elle dessine le squelette dans son carnet. Ses copains voient aussi les vitrines. Elle prend une carte postale. Elle à beaucoup appris. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la.;;;;;;
 23243;question;Avec qui Inès visite-t-elle le musée ?;sa classe;sa famille;sa mamie;ses cousins;23242;L
 23244;question;Que regarde Inès ?;un squelette de dinosaure;des tableaux;des voitures anciennes;des bijoux;23242;L
 23245;question;Qui raconte l'histoire des dinosaures ?;le guide;la maîtresse;un livre;personne;23242;L
 23246;question;Que fait Inès pendant la visite ?;elle pose dès questions;elle dort;elle joue sur son téléphone;elle s'ennuie;23242;L
 23247;question;Où Inès dessine-t-elle le squelette ?;dans son carnet;sur une feuille volante;sur le mur;sur son cahier de maths;23242;L
 23248;question;Que font les copains d'Inès ?;ils regardent les vitrines;ils courent partout;ils crient;ils dorment;23242;L
-23249;question;Qu'achète Inès a la sortie ?;une carte postale;un livre;un jouet;un bonbon;23242;L
-23250;question;Comment Inès se sent-elle apres la visite ?;elle a beaucoup appris;elle est déçue;elle s'est ennuyée;elle a eu peur;23242;L
-23251;question;Où se passe cette sortie ?;au musée;au zoo;a la ferme;a la piscine;23242;L
+23249;question;Qu'achète Inès à la sortie ?;une carte postale;un livre;un jouet;un bonbon;23242;L
+23250;question;Comment Inès se sent-elle après la visite ?;elle a beaucoup appris;elle est déçue;elle s'est ennuyée;elle a eu peur;23242;L
+23251;question;Où se passe cette sortie ?;au musée;au zoo;à la ferme;à la piscine;23242;L
 23252;question;Que voit-on dans le musée ?;un squelette de dinosaure;des animaux vivants;des poissons;des plantes;23242;L
 23253;passage;Lucas passe la journée au zoo. Il est avec sa famille. Il voit des lions qui dorment. Il rit en voyant les singes. Une girafe mange des feuilles. Il aime beaucoup l'éléphant. Il voit les manchots nager. Il prend une peluche de lion. Il garde un beau souvenir. Il rit un peu.;;;;;;
-23254;question;Où Lucas passe-t-il la journée ?;au zoo;au musée;a la ferme;a la piscine;23253;L
+23254;question;Où Lucas passe-t-il la journée ?;au zoo;au musée;à la ferme;à la piscine;23253;L
 23255;question;Avec qui y va-t-il ?;sa famille;sa classe;ses cousins;ses voisins;23253;L
 23256;question;Que font les lions ?;ils dorment;ils courent partout;ils mangent;ils rugissent fort;23253;L
 23257;question;Quels animaux font rire Lucas ?;les singes;les lions;les éléphants;les tigres;23253;L
 23258;question;Que mange la girafe ?;des feuilles;de l'herbe;des fruits;du pain;23253;L
-23259;question;Quel est l'animal préfère de Lucas ?;l'éléphant;le lion;le singe;la girafe;23253;L
+23259;question;Quel est l'animal préféré de Lucas ?;l'éléphant;le lion;le singe;la girafe;23253;L
 23260;question;Quels animaux Lucas regarde-t-il nager ?;les manchots;les dauphins;les phoques;les canards;23253;L
-23261;question;Qu'achète Lucas a la fin ?;une peluche de lion;une glace;un livre;un ballon;23253;L
+23261;question;Qu'achète Lucas à la fin ?;une peluche de lion;une glace;un livre;un ballon;23253;L
 23262;question;Comment Lucas garde-t-il ce souvenir ?;un beau souvenir;un mauvais souvenir;il oublie vite;il est déçu;23253;L
-23263;question;Où se passe cette histoire ?;au zoo;a la campagne;en montagne;a la mer;23253;L
-23264;passage;Marta se promene en foret. Elle est avec son papa. Le chemin est couvert de feuilles. Elle ramasse un caillou gris. Un renard passe le sentier. Elle écoute le vent dans les arbres. Papa montre un grand chêne. Ils croisent un promeneur avec son chien. Elle rentre avec de bons souvenirs. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la.;;;;;;
-23265;question;Où Marta se promene-t-elle ?;en foret;a la plage;en ville;a la montagne;23264;L
-23266;question;Avec qui se promene-t-elle ?;son papa;sa maman;sa classe;sa mamie;23264;L
+23263;question;Où se passe cette histoire ?;au zoo;à la campagne;en montagne;à la mer;23253;L
+23264;passage;Marta se promène en forêt. Elle est avec son papa. Le chemin est couvert de feuilles. Elle ramasse un caillou gris. Un renard passe le sentier. Elle écoute le vent dans les arbres. Papa montre un grand chêne. Ils croisent un promeneur avec son chien. Elle rentre avec de bons souvenirs. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la.;;;;;;
+23265;question;Où Marta se promène-t-elle ?;en forêt;à la plage;en ville;à la montagne;23264;L
+23266;question;Avec qui se promène-t-elle ?;son papa;sa maman;sa classe;sa mamie;23264;L
 23267;question;Que couvre le chemin ?;des feuilles;de la neige;du sable;des cailloux blancs;23264;L
 23268;question;Que ramasse Marta ?;un caillou gris;une fleur;un bâton;une feuille rouge;23264;L
 23269;question;Quel animal traverse le sentier ?;un renard;un sanglier;un lapin;un cerf;23264;L
 23270;question;Qu'écoute Marta ?;le vent dans les arbres;des oiseaux qui chantent;une rivière;de la musique;23264;L
-23271;question;Que montre le papa a Marta ?;un grand chêne;une cascade;une grotte;un vieux pont;23264;L
+23271;question;Que montre le papa à Marta ?;un grand chêne;une cascade;une grotte;un vieux pont;23264;L
 23272;question;Qui croisent-ils sur le chemin ?;un promeneur avec son chien;un autre enfant seul;un cycliste;personne;23264;L
 23273;question;Avec quoi Marta rentre-t-elle ?;de bons souvenirs;un panier de fruits;un bouquet de fleurs;rien du tout;23264;L
-23274;question;Où se passe cette promenade ?;en foret;au parc;au jardin;a la ferme;23264;L
-23275;passage;Julian voit son papi. Papi conduit le tracteur. C'est la saison des moissons. Le champ de blé est doré. Il monte dans le tracteur. La machine coupe le blé vite. De la poussière jaune vole dans l'air. Il voit des lièvres sortir du champ. A midi, ils mangent sous un arbre. Il est fier d'avoir aide. Il rit un peu.;;;;;;
+23274;question;Où se passe cette promenade ?;en forêt;au parc;au jardin;à la ferme;23264;L
+23275;passage;Julian voit son papi. Papi conduit le tracteur. C'est la saison des moissons. Le champ de blé est doré. Il monte dans le tracteur. La machine coupe le blé vite. De la poussière jaune vole dans l'air. Il voit des lièvres sortir du champ. A midi, ils mangent sous un arbre. Il est fier d'avoir aidé. Il rit un peu.;;;;;;
 23276;question;Que conduit le papi de Julian ?;un tracteur;une voiture;un camion;un vélo;23275;L
 23277;question;De quelle couleur est le champ de blé ?;dore;vert;gris;blanc;23275;L
 23278;question;Où Julian monte-t-il ?;dans le tracteur;sur un cheval;dans une charrette;sur le toit de la maison;23275;L
 23279;question;Que fait la machine ?;elle coupe le blé;elle plante des graines;elle arrose le champ;elle transporte le lait;23275;L
 23280;question;Que vole dans l'air ?;de la poussière jaune;de la fumée noire;des feuilles;des pétales;23275;L
 23281;question;Quels animaux sortent du champ ?;des lièvres;des renards;des souris;des sangliers;23275;L
-23282;question;Où mangent-ils a midi ?;sous un grand arbre;dans la maison;dans le tracteur;au village;23275;L
-23283;question;Comment Julian se sent-il d'avoir aide ?;fier;triste;gêne;fatigué et fâche;23275;L
+23282;question;Où mangent-ils à midi ?;sous un grand arbre;dans la maison;dans le tracteur;au village;23275;L
+23283;question;Comment Julian se sent-il d'avoir aidé ?;fier;triste;gêne;fatigué et fâche;23275;L
 23284;question;Quelle saison correspond aux moissons ?;l'été;l'hiver;le printemps tôt;l'automne tardif;23275;L
 23285;question;Avec qui Julian passe-t-il la journée ?;son papi;sa mamie;sa maîtresse;ses cousins;23275;L
-23286;passage;Erik construit un bonhomme de neige. Il est avec sa soeur. Ils roulent une grosse boule. C'est pour le corps. Il ajoute une petite boule. C'est pour la tête. Sa soeur plante une carotte pour le nez. Ils mettent deux boutons noirs pour les yeux. Il pose un vieux chapeau. Le bonhomme a fière allure. Il prend une photo. Il rit un peu.;;;;;;
+23286;passage;Erik construit un bonhomme de neige. Il est avec sa soeur. Ils roulent une grosse boule. C'est pour le corps. Il ajoute une petite boule. C'est pour la tête. Sa soeur plante une carotte pour le nez. Ils mettent deux boutons noirs pour les yeux. Il pose un vieux chapeau. Le bonhomme à fière allure. Il prend une photo. Il rit un peu.;;;;;;
 23287;question;Avec qui Erik construit-il le bonhomme de neige ?;sa soeur;son frère;sa maman;sa classe;23286;L
 23288;question;Que roulent-ils pour faire le corps ?;une grosse boule;un cube de neige;des petites boules;un bloc de glace;23286;L
 23289;question;Que plante la soeur d'Erik pour le nez ?;une carotte;un bâton;un caillou;une pomme de pin;23286;L
 23290;question;Avec quoi font-ils les yeux ?;deux boutons noirs;des cailloux;des feuilles;des billes bleues;23286;L
 23291;question;Que pose Erik sur la tête du bonhomme ?;un vieux chapeau;un bonnet;une casquette;rien du tout;23286;L
-23292;question;Que fait Erik a la fin ?;il prend une photo;il détruit le bonhomme;il rentre vite;il pleure;23286;L
-23293;question;Comment le bonhomme de neige a-t-il l'air ?;fière allure;tout tordu;tout petit;invisible;23286;L
+23292;question;Que fait Erik à la fin ?;il prend une photo;il détruit le bonhomme;il rentre vite;il pleure;23286;L
+23293;question;Comment le bonhomme de neige à-t-il l'air ?;fière allure;tout tordu;tout petit;invisible;23286;L
 23294;question;Quelle boule sert à faire la tête ?;une petite boule;la plus grosse boule;aucune boule;une boule carrée;23286;L
 23295;question;Avec quoi construisent-ils le bonhomme ?;de la neige;du sable;de la terre;des cailloux;23286;L
-23296;question;Où se passe cette histoire ?;dehors dans la neige;a l'intérieur de la maison;a l'école;a la piscine;23286;L
+23296;question;Où se passe cette histoire ?;dehors dans la neige;à l'intérieur de la maison;à l'école;à la piscine;23286;L
 23297;passage;Mia va patiner. Elle est avec son papa. Elle met des patins blancs. Elle tombe une première fois. Papa l'aide à se relever. Elle apprend à garder l'équilibre. Elle glisse enfin toute seule. Des enfants tournent en musique. Elle est très fière. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la. C'est un beau jour.;;;;;;
-23298;question;Où Mia va-t-elle patiner ?;a la patinoire;au parc;a la plage;a la piscine;23297;L
+23298;question;Où Mia va-t-elle patiner ?;à la patinoire;au parc;à la plage;à la piscine;23297;L
 23299;question;Avec qui y va-t-elle ?;son papa;sa maman;sa classe;sa mamie;23297;L
 23300;question;De quelle couleur sont les patins de Mia ?;blancs;noirs;roses;bleus;23297;L
 23301;question;Que fait Mia une première fois ?;elle tombe;elle pleure;elle rentre;elle refuse de patiner;23297;L
@@ -305,9 +305,9 @@ id;type;text;correct_answer;choice_2;choice_3;choice_4;passage_id;qtype
 23303;question;Qu'apprend Mia ?;garder son équilibre;faire des sauts;faire la course;danser sur la glace;23297;L
 23304;question;Comment Mia finit-elle par glisser ?;toute seule;en tenant la main de son papa;assise;pas du tout;23297;L
 23305;question;Que font des enfants autour d'elle ?;ils tournent en musique;ils crient;ils dorment;ils regardent seulement;23297;L
-23306;question;Comment Mia se sent-elle a la fin ?;très fière;triste;fatiguée et déçue;en colère;23297;L
+23306;question;Comment Mia se sent-elle à la fin ?;très fière;triste;fatiguée et déçue;en colère;23297;L
 23307;question;Sur quoi Mia patine-t-elle ?;la glace;le bitume;l'herbe;le sable;23297;L
-23308;passage;Léon monte en haut de la colline. Il a une luge rouge. Sa soeur l'attend en bas. Il s'assoit sur sa luge. Il pousse fort avec ses pieds. La luge descend très vite. Il rit très fort. Il s'arrête près de sa soeur. Il remonte pour recommencer. Il rit un peu.;;;;;;
+23308;passage;Léon monte en haut de la colline. Il à une luge rouge. Sa soeur l'attend en bas. Il s'assoit sur sa luge. Il pousse fort avec ses pieds. La luge descend très vite. Il rit très fort. Il s'arrête près de sa soeur. Il remonte pour recommencer. Il rit un peu.;;;;;;
 23309;question;Où Léon monte-t-il ?;en haut d'une colline;en haut d'un immeuble;sur un toit;dans un arbre;23308;L
 23310;question;De quelle couleur est la luge de Léon ?;rouge;bleue;verte;jaune;23308;L
 23311;question;Qui attend Léon en bas ?;sa soeur;sa maîtresse;sa classe;personne;23308;L
@@ -315,7 +315,7 @@ id;type;text;correct_answer;choice_2;choice_3;choice_4;passage_id;qtype
 23313;question;Comment la luge descend-elle ?;très vite;très lentement;elle ne bouge pas;en montant;23308;L
 23314;question;Que fait Léon pendant la descente ?;il rit très fort;il pleure;il ferme les yeux et crie;il dort;23308;L
 23315;question;Où Léon s'arrête-t-il ?;près de sa soeur;au milieu de la pente;loin de tout le monde;dans un arbre;23308;L
-23316;question;Que fait Léon a la fin de la descente ?;il remonte pour recommencer;il rentre à la maison;il pleure de fatigue;il donne sa luge;23308;L
+23316;question;Que fait Léon à la fin de la descente ?;il remonte pour recommencer;il rentre à la maison;il pleure de fatigue;il donne sa luge;23308;L
 23317;question;Sur quoi Léon glisse-t-il ?;la neige;l'herbe;le sable;l'eau;23308;L
 23318;question;Qui attend Léon en bas de la colline ?;sa soeur;ses cousins;sa classe;sa mamie;23308;L
 23319;passage;Anna s'assoit autour du feu. Elle est avec sa famille. Les flammes dansent dans la nuit. Elle fait griller un marshmallow. Papa dit une histoire. Des étoiles brillent dans le ciel. Elle entend un hibou chanter. Tout le monde chante une chanson. Elle se sent bien près du feu. Elle rit un peu. Il fait beau. Le jour est doux.;;;;;;
@@ -327,7 +327,7 @@ id;type;text;correct_answer;choice_2;choice_3;choice_4;passage_id;qtype
 23325;question;Quel animal Anna entend-elle ?;un hibou;un loup;un chien;un chat;23319;L
 23326;question;Que fait tout le monde ensemble ?;chanter une chanson;danser;dormir tout de suite;partir se coucher;23319;L
 23327;question;Comment Anna se sent-elle près du feu ?;elle se sent bien;elle a froid;elle a peur;elle s'ennuie;23319;L
-23328;question;Quand se passe cette scène ?;la nuit;le matin;a midi;au lever du jour;23319;L
+23328;question;Quand se passe cette scène ?;la nuit;le matin;à midi;au lever du jour;23319;L
 23329;question;Que fait Anna avec un marshmallow ?;elle le fait griller;elle le mange froid;elle le jette;elle le garde;23319;L
 23330;passage;Félix part camper sous la tente. Il est avec ses parents. Ils montent la tente près d'un lac. Il plante les piquets. Il gonfle son matelas avec une pompe. La famille mange dehors. Il entend les grenouilles chanter le soir. Il dort dans son sac de couchage. Il aime dormir dans la nature. Il rit un peu.;;;;;;
 23331;question;Où Félix part-il camper ?;sous une tente;dans un hôtel;chez sa mamie;dans une caravane;23330;L
@@ -337,22 +337,22 @@ id;type;text;correct_answer;choice_2;choice_3;choice_4;passage_id;qtype
 23335;question;Où la famille mange-t-elle ?;dehors;dans la voiture;dans la tente;au restaurant;23330;L
 23336;question;Qu'entend Félix le soir ?;les grenouilles chanter;des voitures;de la musique;des oiseaux seulement;23330;L
 23337;question;Dans quoi Félix dort-il ?;un sac de couchage;un grand lit;un hamac;un canapé;23330;L
-23338;question;Comment Félix trouve-t-il le camping ?;il adore ca;il déteste ca;il a peur;il s'ennuie;23330;L
+23338;question;Comment Félix trouve-t-il le camping ?;il adore ça;il déteste ça;il a peur;il s'ennuie;23330;L
 23339;question;Avec qui Félix part-il camper ?;ses parents;sa classe;ses cousins;seul;23330;L
 23340;question;Où dort Félix pendant ce voyage ?;sous la tente;dans un hôtel;dans la voiture;chez des amis;23330;L
-23341;passage;Louis part a la pêche. Il est avec son grand-père. Ils s'installent au bord de la rivière. Il tient sa canne à pêche. Il attend . Un poisson tire sur le fil. Il remonte un petit poisson argenté. Son grand-père le dit bravo a. Il relâche le poisson dans l'eau. Il rit un peu.;;;;;;
-23342;question;Avec qui Louis part-il a la pêche ?;son grand-père;son papa;sa mamie;sa classe;23341;L
-23343;question;Où s'installent-ils ?;au bord de la rivière;sur un bateau en mer;au bord d'un lac gele;dans la foret;23341;L
+23341;passage;Louis part à la pêche. Il est avec son grand-père. Ils s'installent au bord de la rivière. Il tient sa canne à pêche. Il attend . Un poisson tire sur le fil. Il remonte un petit poisson argenté. Son grand-père le dit bravo à. Il relâche le poisson dans l'eau. Il rit un peu.;;;;;;
+23342;question;Avec qui Louis part-il à la pêche ?;son grand-père;son papa;sa mamie;sa classe;23341;L
+23343;question;Où s'installent-ils ?;au bord de la rivière;sur un bateau en mer;au bord d'un lac gelé;dans la forêt;23341;L
 23344;question;Que tient Louis ?;sa canne à pêche;un filet;un seau;une épuisette;23341;L
 23345;question;Que fait Louis en attendant ?;il patiente;il crie;il court partout;il dort;23341;L
-23346;question;Que se passe-t-il soudain ?;un poisson tire sur le fil;il commence a pleuvoir;le fil se casse;Louis tombe a l'eau;23341;L
+23346;question;Que se passe-t-il soudain ?;un poisson tire sur le fil;il commence à pleuvoir;le fil se casse;Louis tombe à l'eau;23341;L
 23347;question;De quelle couleur est le poisson ?;argenté;rouge;vert;noir;23341;L
 23348;question;Que fait le grand-père de Louis ?;il le félicite;il se fâche;il rit de lui;il part sans rien dire;23341;L
 23349;question;Que fait Louis avec le poisson ?;il le relâche dans l'eau;il le garde;il le donne;il le mange tout de suite;23341;L
 23350;question;Où se passe cette pêche ?;au bord d'une rivière;en mer;dans une piscine;dans un aquarium;23341;L
-23351;question;Quand partent-ils a la pêche ?;tôt le matin;le soir;a midi;la nuit;23341;L
-23352;passage;Charlotte monte a cheval. C'est la première fois. Elle caresse la crinière du poney. La monitrice aide Elle à monter. Elle tient bien les rênes. Le poney avance dans le manège. Elle apprend à faire du trot. Elle donne une carotte au poney. Elle veut revenir monter. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la. C'est un beau jour.;;;;;;
-23353;question;Où Charlotte monte-t-elle a cheval ?;au centre équestre;a la ferme;au zoo;au cirque;23352;L
+23351;question;Quand partent-ils à la pêche ?;tôt le matin;le soir;à midi;la nuit;23341;L
+23352;passage;Charlotte monte à cheval. C'est la première fois. Elle caresse la crinière du poney. La monitrice aide Elle à monter. Elle tient bien les rênes. Le poney avance dans le manège. Elle apprend à faire du trot. Elle donne une carotte au poney. Elle veut revenir monter. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la. C'est un beau jour.;;;;;;
+23353;question;Où Charlotte monte-t-elle à cheval ?;au centre équestre;à la ferme;au zoo;au cirque;23352;L
 23354;question;Que caresse Charlotte ?;la crinière du poney;les oreilles du poney;la queue du poney;le nez du poney;23352;L
 23355;question;De quelle couleur est le poney ?;brun;blanc;noir;gris;23352;L
 23356;question;Qui aide Charlotte à monter ?;la monitrice;sa maman;son papa;personne;23352;L
@@ -360,9 +360,9 @@ id;type;text;correct_answer;choice_2;choice_3;choice_4;passage_id;qtype
 23358;question;Où avance le poney ?;dans le manège;dans la rue;dans un pré;sur la plage;23352;L
 23359;question;Qu'apprend Charlotte à faire ?;du trot;du galop;des sauts;des tours;23352;L
 23360;question;Que donne Charlotte au poney ?;une carotte;une pomme;du pain;du sucre;23352;L
-23361;question;Que veut faire Charlotte a la fin ?;revenir monter;ne plus jamais monter;vendre le poney;rentrer vite chez elle;23352;L
+23361;question;Que veut faire Charlotte à la fin ?;revenir monter;ne plus jamais monter;vendre le poney;rentrer vite chez elle;23352;L
 23362;question;Quelle activité découvre Charlotte ?;l'équitation;la natation;le vélo;la danse;23352;L
-23363;passage;Gabriel joue dehors. Il commence a pleuvoir. Il met ses bottes jaunes. Il met son imperméable. Il saute dans les flaques. Il fait naviguer une feuille. Un escargot avance sur le trottoir. Il ouvre un grand parapluie rouge. Il rentre trempe mais heureux. Maman prépare une serviette chaude. Il rit un peu. Il fait beau. Le jour est doux. Tout va bien. Il est bien la. C'est un beau jour.;;;;;;
+23363;passage;Gabriel joue dehors. Il commence à pleuvoir. Il met ses bottes jaunes. Il met son imperméable. Il saute dans les flaques. Il fait naviguer une feuille. Un escargot avance sur le trottoir. Il ouvre un grand parapluie rouge. Il rentre trempe mais heureux. Maman prépare une serviette chaude. Il rit un peu. Il fait beau. Le jour est doux. Tout va bien. Il est bien la. C'est un beau jour.;;;;;;
 23364;question;Que commence-t-il à faire dehors ?;il pleut;il neige;il vente fort;il fait très chaud;23363;L
 23365;question;De quelle couleur sont les bottes de Gabriel ?;jaunes;rouges;bleues;vertes;23363;L
 23366;question;Que fait Gabriel avec joie ?;il saute dans les flaques;il court se cacher;il pleure;il rentre tout de suite;23363;L
@@ -372,86 +372,86 @@ id;type;text;correct_answer;choice_2;choice_3;choice_4;passage_id;qtype
 23370;question;Comment Gabriel rentre-t-il chez lui ?;trempe mais heureux;sec et triste;en colère;malade;23363;L
 23371;question;Que prépare la maman de Gabriel ?;une serviette chaude;un chocolat chaud;un bain;des vêtements secs seulement;23363;L
 23372;question;Que porte Gabriel pour se protéger ?;un imperméable;un manteau d'hiver;un chapeau de soleil;un maillot de bain;23363;L
-23373;question;Où Gabriel joue-t-il ?;dehors;dans sa chambre;a la piscine;a l'école;23363;L
+23373;question;Où Gabriel joue-t-il ?;dehors;dans sa chambre;à la piscine;à l'école;23363;L
 23374;passage;Julia construit une cabane. Elle est avec son papa. C'est dans le jardin. Ils clouent des planches de bois. Elle peint la porte en bleu. Papa installe une petite fenêtre ronde. Elle range ses jouets dans la cabane. Un oiseau se pose sur le toit. Elle invite sa meilleure amie. Elle est fière de sa cabane. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien.;;;;;;
-23375;question;Où Julia construit-elle une cabane ?;dans le jardin;dans la foret;dans sa chambre;a l'école;23374;L
+23375;question;Où Julia construit-elle une cabane ?;dans le jardin;dans la forêt;dans sa chambre;à l'école;23374;L
 23376;question;Avec qui la construit-elle ?;son papa;sa maman;son frère;sa classe;23374;L
 23377;question;Que clouent-ils ensemble ?;des planches de bois;des cartons;des briques;des pierres;23374;L
 23378;question;De quelle couleur Julia peint-elle la porte ?;bleu;rouge;vert;jaune;23374;L
 23379;question;Qu'installe le papa de Julia ?;une petite fenêtre ronde;une cheminée;un toit en tuiles;une porte double;23374;L
 23380;question;Que range Julia dans la cabane ?;ses jouets;ses vêtements;ses livres d'école;de la nourriture;23374;L
 23381;question;Qu'est-ce qui se pose sur le toit ?;un oiseau;un chat;un écureuil;une abeille;23374;L
-23382;question;Qui Julia invite-t-elle a visiter la cabane ?;sa meilleure amie;sa maîtresse;toute sa classe;personne;23374;L
-23383;question;Comment Julia se sent-elle a la fin ?;fière;déçue;fatiguée;gêne;23374;L
+23382;question;Qui Julia invite-t-elle à visiter la cabane ?;sa meilleure amie;sa maîtresse;toute sa classe;personne;23374;L
+23383;question;Comment Julia se sent-elle à la fin ?;fière;déçue;fatiguée;gêne;23374;L
 23384;question;Que construisent Julia et son papa ?;une cabane;une piscine;un potager;un garage;23374;L
-23385;passage;Victor participe a une chasse au trésor. Sa mamie a tout organise. Il reçoit une carte avec des indices. Il cherche sous le grand chêne. Il trouve un indice dans une boite. Le deuxième indice est près de la fontaine. Il court partout. Il découvre un coffre plein de bonbons. Il partage sa découverte avec ses cousins. Il rit un peu. Il fait beau. Le jour est doux.;;;;;;
+23385;passage;Victor participe à une chasse au trésor. Sa mamie a tout organisé. Il reçoit une carte avec des indices. Il cherche sous le grand chêne. Il trouve un indice dans une boite. Le deuxième indice est près de la fontaine. Il court partout. Il découvre un coffre plein de bonbons. Il partage sa découverte avec ses cousins. Il rit un peu. Il fait beau. Le jour est doux.;;;;;;
 23386;question;Qui organise la chasse au trésor ?;sa mamie;sa maîtresse;son papa;un ami;23385;L
 23387;question;Que reçoit Victor pour commencer ?;une carte avec des indices;une pelle;un plan de la ville;un livre;23385;L
 23388;question;Où Victor cherche-t-il d'abord ?;sous le grand chêne;derrière la maison;dans le garage;dans sa chambre;23385;L
 23389;question;Où trouve-t-il le premier indice ?;dans une boite;sous une pierre;dans un arbre;dans l'herbe;23385;L
 23390;question;Où se trouve le deuxième indice ?;près de la fontaine;dans la cuisine;sous un banc;dans le potager;23385;L
-23391;question;Que fait Victor pour résoudre l'énigme ?;il court partout;il demande a sa mamie;il abandonne;il pleure;23385;L
-23392;question;Que découvre Victor a la fin ?;un coffre plein de bonbons;une boite vide;un livre ancien;un jouet casse;23385;L
+23391;question;Que fait Victor pour résoudre l'énigme ?;il court partout;il demande à sa mamie;il abandonne;il pleure;23385;L
+23392;question;Que découvre Victor à la fin ?;un coffre plein de bonbons;une boite vide;un livre ancien;un jouet casse;23385;L
 23393;question;Avec qui Victor partage-t-il sa découverte ?;ses cousins;sa classe;personne;ses voisins;23385;L
-23394;question;Où se passe cette chasse au trésor ?;dans le jardin;en foret;a l'école;a la plage;23385;L
+23394;question;Où se passe cette chasse au trésor ?;dans le jardin;en forêt;à l'école;à la plage;23385;L
 23395;question;Qu'est-ce qui guide Victor pendant le jeu ?;une carte avec des indices;une boussole;un livre de contes;un téléphone;23385;L
 23396;passage;Rosa voit un spectacle de magie. C'est la fête du village. Le magicien porte un grand chapeau noir. Il fait disparaître une colombe blanche. Elle n'en croit pas ses yeux. Le magicien sort un lapin du chapeau. Il fait monter Elle sur scène. Elle choisit une carte. Le magicien devine sa carte. Elle est émerveillée. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien.;;;;;;
-23397;question;Où Rosa regarde-t-elle le spectacle ?;a la fête du village;au cirque;a l'école;au théâtre municipal;23396;L
+23397;question;Où Rosa regarde-t-elle le spectacle ?;à la fête du village;au cirque;à l'école;au théâtre municipal;23396;L
 23398;question;Que porte le magicien ?;un grand chapeau noir;une cape rouge;des lunettes;un costume blanc;23396;L
 23399;question;Que fait disparaître le magicien ?;une colombe blanche;une pièce de monnaie;un foulard;une carte;23396;L
 23400;question;Que sort le magicien de son chapeau ?;un lapin;un chat;un oiseau;une fleur;23396;L
 23401;question;Qui le magicien fait-il monter sur scène ?;Rosa;un autre enfant;personne;le maire du village;23396;L
 23402;question;Que choisit Rosa ?;une carte;un numéro;une couleur;un objet;23396;L
 23403;question;Que devine le magicien ?;la carte de Rosa;son âge;son prénom;sa couleur préférée;23396;L
-23404;question;Comment Rosa se sent-elle a la fin ?;émerveillée;déçue;effrayée;fâchée;23396;L
+23404;question;Comment Rosa se sent-elle à la fin ?;émerveillée;déçue;effrayée;fâchée;23396;L
 23405;question;Que fait Rosa en voyant la colombe disparaître ?;elle n'en croit pas ses yeux;elle rit fort;elle pleure;elle s'endort;23396;L
 23406;question;Quel type de spectacle Rosa regarde-t-elle ?;un spectacle de magie;un concert;une pièce de théâtre;un spectacle de danse;23396;L
-23407;passage;Simon voit un théâtre de marionnettes. C'est au parc. Le petit théâtre a des rideaux rouges. Une marionnette de loup fait rire les enfants. Il rit avec ses copains. Une princesse chante une chanson douce. Les enfants sont contents a chaque scène. Il touche les marionnettes apres le spectacle. Il repart avec un grand sourire. Il rit un peu. Il fait beau. Le jour est doux. Tout va bien.;;;;;;
-23408;question;Où Simon regarde-t-il le spectacle ?;au parc;a l'école;au cirque;chez lui;23407;L
+23407;passage;Simon voit un théâtre de marionnettes. C'est au parc. Le petit théâtre à des rideaux rouges. Une marionnette de loup fait rire les enfants. Il rit avec ses copains. Une princesse chante une chanson douce. Les enfants sont contents à chaque scène. Il touche les marionnettes après le spectacle. Il repart avec un grand sourire. Il rit un peu. Il fait beau. Le jour est doux. Tout va bien.;;;;;;
+23408;question;Où Simon regarde-t-il le spectacle ?;au parc;à l'école;au cirque;chez lui;23407;L
 23409;question;De quelle couleur sont les rideaux du théâtre ?;rouges;bleus;verts;jaunes;23407;L
 23410;question;Quelle marionnette fait rire les enfants ?;le loup;le lapin;le chat;le renard;23407;L
 23411;question;Avec qui Simon rit-il ?;ses copains;sa classe;sa famille;personne;23407;L
 23412;question;Qui chante une chanson douce ?;une princesse;un roi;un dragon;une fée;23407;L
-23413;question;Que font les enfants a chaque scène ?;ils applaudissent;ils crient de peur;ils pleurent;ils s'ennuient;23407;L
-23414;question;Que fait Simon apres le spectacle ?;il touche les marionnettes;il rentre tout de suite;il pleure;il s'endort;23407;L
+23413;question;Que font les enfants à chaque scène ?;ils applaudissent;ils crient de peur;ils pleurent;ils s'ennuient;23407;L
+23414;question;Que fait Simon après le spectacle ?;il touche les marionnettes;il rentre tout de suite;il pleure;il s'endort;23407;L
 23415;question;Comment Simon repart-il ?;avec un grand sourire;triste;fatigué et fâche;sans rien dire;23407;L
 23416;question;En quoi est fait le petit théâtre ?;en bois;en carton;en tissu;en plastique;23407;L
 23417;question;Quel spectacle Simon regarde-t-il ?;un théâtre de marionnettes;un spectacle de magie;un concert;un film;23407;L
-23418;passage;Emma chante dans la chorale. C'est a son école. Elle répète chaque mardi. Le jour du concert, Elle met une chemise blanche. Elle a un peu le trac. Le professeur donne le signal. Elle chante fort avec ses camarades. Les parents sont contents a la fin. Elle est très fière. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien.;;;;;;
-23419;question;Où Emma chante-t-elle ?;dans la chorale de son école;dans un groupe de musique;a la télévision;au cirque;23418;L
+23418;passage;Emma chante dans la chorale. C'est à son école. Elle répète chaque mardi. Le jour du concert, Elle met une chemise blanche. Elle à un peu le trac. Le professeur donne le signal. Elle chante fort avec ses camarades. Les parents sont contents à la fin. Elle est très fière. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien.;;;;;;
+23419;question;Où Emma chante-t-elle ?;dans la chorale de son école;dans un groupe de musique;à la télévision;au cirque;23418;L
 23420;question;Quel jour Emma répète-t-elle ?;le mardi;le lundi;le vendredi;le dimanche;23418;L
 23421;question;Que porte Emma le jour du concert ?;une chemise blanche;une robe rouge;un pull vert;un costume noir;23418;L
 23422;question;Que ressent Emma avant de monter sur scène ?;un peu le trac;de la joie seulement;de la colère;rien du tout;23418;L
 23423;question;Qui donne le signal ?;le professeur;la directrice;Emma;un parent;23418;L
 23424;question;Que fait Emma pendant le concert ?;elle chante fort;elle joue du piano;elle danse;elle regarde seulement;23418;L
 23425;question;Que font les parents à la fin ?;ils applaudissent;ils partent vite;ils restent silencieux;ils critiquent;23418;L
-23426;question;Comment Emma se sent-elle a la fin ?;très fière;déçue;gêne;fatiguée et triste;23418;L
+23426;question;Comment Emma se sent-elle à la fin ?;très fière;déçue;gêne;fatiguée et triste;23418;L
 23427;question;Avec qui Emma répète-t-elle chaque semaine ?;sa classe;sa famille;ses voisins;seule;23418;L
 23428;question;Quel événement Emma prépare-t-elle ?;un concert de chorale;un spectacle de danse;une pièce de théâtre;une fête d'anniversaire;23418;L
-23429;passage;Nathan participe a la journée sportive. C'est a son école. Il court une course de vitesse. Il saute au saut en longueur. Son équipe joue au ballon prisonnier. La maîtresse compte les points avec un sifflet. Il boit de l'eau entre deux épreuves. Tous les enfants reçoivent une médaille. Il est très fier. Il rit un peu. Il fait beau. Le jour est doux. Tout va bien.;;;;;;
+23429;passage;Nathan participe à la journée sportive. C'est à son école. Il court une course de vitesse. Il saute au saut en longueur. Son équipe joue au ballon prisonnier. La maîtresse compte les points avec un sifflet. Il boit de l'eau entre deux épreuves. Tous les enfants reçoivent une médaille. Il est très fier. Il rit un peu. Il fait beau. Le jour est doux. Tout va bien.;;;;;;
 23430;question;À quoi Nathan participe-t-il ?;la journée sportive de l'école;un match de football professionnel;une course cycliste;un spectacle de danse;23429;L
-23431;question;Que court Nathan ?;une course de vitesse;un marathon;une course a l'extérieur de l'école;une course de relais seulement;23429;L
-23432;question;À quelle épreuve Nathan saute-t-il ?;le saut en longueur;le saut en hauteur;la corde à sauter;le saut a la perche;23429;L
+23431;question;Que court Nathan ?;une course de vitesse;un marathon;une course à l'extérieur de l'école;une course de relais seulement;23429;L
+23432;question;À quelle épreuve Nathan saute-t-il ?;le saut en longueur;le saut en hauteur;la corde à sauter;le saut à la perche;23429;L
 23433;question;À quel jeu joue l'équipe de Nathan ?;le ballon prisonnier;le foot;le basket;le tennis;23429;L
-23434;question;Qui chronometre les courses ?;la maîtresse;un parent;le directeur;Nathan lui-même;23429;L
+23434;question;Qui chronomètre les courses ?;la maîtresse;un parent;le directeur;Nathan lui-même;23429;L
 23435;question;Que fait Nathan entre deux épreuves ?;il boit de l'eau;il se repose allonge;il rentre chez lui;il mange un sandwich;23429;L
-23436;question;Que reçoivent tous les enfants a la fin ?;une médaille;un trophée;un livre;un ballon;23429;L
-23437;question;Comment Nathan se sent-il apres cette journée ?;très fier;déçu;fatigué et triste;en colère;23429;L
-23438;question;Avec quoi la maîtresse chronometre-t-elle ?;un sifflet;une cloche;un chronomètre silencieux;sa voix;23429;L
-23439;question;Où se passe la journée sportive ?;a l'école;au stade municipal;a la piscine;en foret;23429;L
+23436;question;Que reçoivent tous les enfants à la fin ?;une médaille;un trophée;un livre;un ballon;23429;L
+23437;question;Comment Nathan se sent-il après cette journée ?;très fier;déçu;fatigué et triste;en colère;23429;L
+23438;question;Avec quoi la maîtresse chronomètre-t-elle ?;un sifflet;une cloche;un chronomètre silencieux;sa voix;23429;L
+23439;question;Où se passe la journée sportive ?;à l'école;au stade municipal;à la piscine;en forêt;23429;L
 23440;passage;Sara essaie un parcours d'obstacles. C'est au centre de loisirs. Elle rampe sous un grand filet vert. Elle saute par-dessus des pneus. Elle grimpe sur un mur en mousse. Un moniteur aide Elle. Elle passe un pont en corde. Elle franchit la ligne d'arrivée en courant. Elle est très fière. Elle rit un peu. Il fait beau. Le jour est doux.;;;;;;
-23441;question;Où Sara essaie-t-elle le parcours d'obstacles ?;au centre de loisirs;a l'école;au stade;a la piscine;23440;L
+23441;question;Où Sara essaie-t-elle le parcours d'obstacles ?;au centre de loisirs;à l'école;au stade;à la piscine;23440;L
 23442;question;Sous quoi Sara rampe-t-elle ?;un grand filet vert;une table;une corde tendue;un tunnel en bois;23440;L
 23443;question;Par-dessus quoi Sara saute-t-elle ?;des pneus;des bancs;des caisses;des cordes;23440;L
 23444;question;Sur quoi Sara grimpe-t-elle ?;un mur en mousse;un arbre;une échelle;un rocher;23440;L
 23445;question;Qui encourage Sara ?;un moniteur;sa maman;sa classe;personne;23440;L
 23446;question;Que traverse Sara ensuite ?;un pont en corde;une rivière;un tunnel sombre;une passerelle en bois fixe;23440;L
-23447;question;Comment Sara franchit-elle la ligne d'arrivée ?;en courant;en marchant lentement;en rampant;en sautant a cloche-pied;23440;L
-23448;question;Comment Sara se sent-elle a la fin ?;très fière;déçue;fatiguée et triste;effrayée;23440;L
+23447;question;Comment Sara franchit-elle la ligne d'arrivée ?;en courant;en marchant lentement;en rampant;en sautant à cloche-pied;23440;L
+23448;question;Comment Sara se sent-elle à la fin ?;très fière;déçue;fatiguée et triste;effrayée;23440;L
 23449;question;Que fait Sara pendant cette activité ?;un parcours d'obstacles;une course de natation;un match de foot;une chasse au trésor;23440;L
 23450;question;Qui aide Sara pendant le parcours ?;un moniteur;sa mamie;sa classe;personne;23440;L
 23451;passage;Adam passe la journée au parc aquatique. Il est avec ses parents. Il glisse sur un grand toboggan bleu. Il crie de joie. Il atterrit avec un grand plouf. Maman nage avec lui. Il mange une glace au bord de l'eau. Il refait le toboggan trois fois. Il ne veut plus partir. Il rit un peu.;;;;;;
-23452;question;Où Adam passe-t-il la journée ?;au parc aquatique;a la piscine du quartier;a la plage;au lac;23451;L
+23452;question;Où Adam passe-t-il la journée ?;au parc aquatique;à la piscine du quartier;à la plage;au lac;23451;L
 23453;question;Avec qui y va-t-il ?;ses parents;sa classe;ses cousins;ses voisins;23451;L
 23454;question;De quelle couleur est le grand toboggan ?;bleu;rouge;vert;jaune;23451;L
 23455;question;Que fait Adam pendant la descente ?;il crie de joie;il pleure;il ferme les yeux de peur;il reste silencieux;23451;L
@@ -459,51 +459,51 @@ id;type;text;correct_answer;choice_2;choice_3;choice_4;passage_id;qtype
 23457;question;Avec qui Adam nage-t-il ?;maman;papa;un moniteur;personne;23451;L
 23458;question;Que mange Adam au bord de l'eau ?;une glace;un sandwich;des bonbons;une pomme;23451;L
 23459;question;Combien de fois Adam refait-il le toboggan ?;trois fois;une fois;cinq fois;il ne le refait pas;23451;L
-23460;question;Que ne veut plus faire Adam a la fin ?;partir de la;aller dans l'eau;manger une glace;jouer avec ses parents;23451;L
-23461;question;Où se passe cette journée ?;au parc aquatique;a l'école;a la ferme;en montagne;23451;L
-23462;passage;Léna monte dans le grand huit. C'est la première fois. Elle attache bien sa ceinture. Le wagon grimpe une côte raide. Elle ferme les yeux un instant. Le wagon descend a toute vitesse. Elle leve les bras très haut. Le tour dure deux minutes. Elle demande à refaire un tour. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien.;;;;;;
-23463;question;Où Léna monte-t-elle dans le grand huit ?;a la fête foraine;au cirque;au parc de la ville;a l'école;23462;L
+23460;question;Que ne veut plus faire Adam à la fin ?;partir de la;aller dans l'eau;manger une glace;jouer avec ses parents;23451;L
+23461;question;Où se passe cette journée ?;au parc aquatique;à l'école;à la ferme;en montagne;23451;L
+23462;passage;Léna monte dans le grand huit. C'est la première fois. Elle attache bien sa ceinture. Le wagon grimpe une côte raide. Elle ferme les yeux un instant. Le wagon descend à toute vitesse. Elle lève les bras très haut. Le tour dure deux minutes. Elle demande à refaire un tour. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien.;;;;;;
+23463;question;Où Léna monte-t-elle dans le grand huit ?;à la fête foraine;au cirque;au parc de la ville;à l'école;23462;L
 23464;question;Que fait Léna avant le départ ?;elle attache sa ceinture;elle ferme la porte;elle appelle sa maman;elle enlève ses chaussures;23462;L
 23465;question;Que fait le wagon ?;il grimpe une côte raide;il reste au sol;il traverse un tunnel;il roule sur un pont;23462;L
 23466;question;Que fait Léna un court instant ?;elle ferme les yeux;elle chante;elle dort;elle mange;23462;L
-23467;question;Comment le wagon descend-il ?;a toute vitesse;très lentement;en s'arrêtant souvent;a reculons;23462;L
+23467;question;Comment le wagon descend-il ?;à toute vitesse;très lentement;en s'arrêtant souvent;à reculons;23462;L
 23468;question;Que fait Léna dans les virages ?;elle lève les bras;elle se cache les yeux;elle pleure;elle reste immobile;23462;L
 23469;question;Combien de temps dure le tour ?;deux minutes;dix minutes;une heure;trente secondes;23462;L
-23470;question;Que demande Léna a la fin ?;de refaire un tour;de rentrer vite;de manger une glace;de partir de la fête;23462;L
-23471;question;Où se passe cette histoire ?;a la fête foraine;au cirque;a l'école;au zoo;23462;L
-23472;question;Quelle attraction Léna essaie-t-elle ?;le grand huit;le manège a chevaux;la grande roue;les autos tamponneuses;23462;L
-23473;passage;Paul monte sur un cheval de bois. Il est avec sa petite soeur. La musique du manège joue fort. Il tient bien la barre dorée. Le manège tourne doux. Sa soeur agite la main. Il essaie d'attraper un anneau en bois. Apres le manège, ils montent dans la grande roue. Il voit toute la fête. Il rit un peu.;;;;;;
+23470;question;Que demande Léna à la fin ?;de refaire un tour;de rentrer vite;de manger une glace;de partir de la fête;23462;L
+23471;question;Où se passe cette histoire ?;à la fête foraine;au cirque;à l'école;au zoo;23462;L
+23472;question;Quelle attraction Léna essaie-t-elle ?;le grand huit;le manège à chevaux;la grande roue;les autos tamponneuses;23462;L
+23473;passage;Paul monte sur un cheval de bois. Il est avec sa petite soeur. La musique du manège joue fort. Il tient bien la barre dorée. Le manège tourne doux. Sa soeur agite la main. Il essaie d'attraper un anneau en bois. Après le manège, ils montent dans la grande roue. Il voit toute la fête. Il rit un peu.;;;;;;
 23474;question;Sur quoi Paul monte-t-il d'abord ?;un cheval de bois;un dragon;une voiture;un avion;23473;L
 23475;question;Avec qui Paul monte-t-il sur le manège ?;sa petite soeur;son grand frère;sa mamie;un ami;23473;L
-23476;question;Comment est la musique du manège ?;elle joue fort;elle est très douce;il n'y a pas de musique;elle est triste;23473;L
+23476;question;Comment est la musique du manège ?;elle joue fort;elle est très douce;il n'y à pas de musique;elle est triste;23473;L
 23477;question;Que tient Paul ?;la barre dorée;les rênes;un ballon;un bouton rouge;23473;L
-23478;question;Comment tourne le manège ?;doucement;très vite;il ne tourne pas;a l'envers;23473;L
+23478;question;Comment tourne le manège ?;doucement;très vite;il ne tourne pas;à l'envers;23473;L
 23479;question;Que fait la soeur de Paul ?;elle agite la main;elle crie de peur;elle pleure;elle ferme les yeux;23473;L
 23480;question;Qu'essaie d'attraper Paul ?;un anneau en bois;une pomme;un chapeau;un ballon;23473;L
-23481;question;Que font-ils apres le manège ?;ils montent dans la grande roue;ils rentrent chez eux;ils mangent une glace;ils font les autos tamponneuses;23473;L
+23481;question;Que font-ils après le manège ?;ils montent dans la grande roue;ils rentrent chez eux;ils mangent une glace;ils font les autos tamponneuses;23473;L
 23482;question;Que voit Paul depuis la grande roue ?;toute la fête;seulement le ciel;sa maison;rien du tout;23473;L
-23483;question;Où se passe cette histoire ?;a la fête foraine;au cirque;a l'école;au zoo;23473;L
-23484;passage;Iris dort chez ses grands-parents. C'est la première fois. Elle donne son doudou lapin. Mamie prépare une soupe de légumes. Elle aide papi à mettre la table. Apres le repas, papi dit une histoire. Elle se glisse dans un grand lit. Mamie chante une berceuse. Elle s'endort vite, très heureuse. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la.;;;;;;
-23485;question;Où Iris dort-elle ce week-end ?;chez ses grands-parents;chez ses cousins;a l'école;chez une amie;23484;L
+23483;question;Où se passe cette histoire ?;à la fête foraine;au cirque;à l'école;au zoo;23473;L
+23484;passage;Iris dort chez ses grands-parents. C'est la première fois. Elle donne son doudou lapin. Mamie prépare une soupe de légumes. Elle aide papi à mettre la table. Après le repas, papi dit une histoire. Elle se glisse dans un grand lit. Mamie chante une berceuse. Elle s'endort vite, très heureuse. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la.;;;;;;
+23485;question;Où Iris dort-elle ce week-end ?;chez ses grands-parents;chez ses cousins;à l'école;chez une amie;23484;L
 23486;question;Que apporte Iris ?;son doudou lapin;ses jouets;ses livres;ses vêtements de sport;23484;L
 23487;question;Que prépare mamie pour le dîner ?;une soupe de légumes;des pâtés;une pizza;un poulet rôti;23484;L
 23488;question;Que fait Iris avant le repas ?;elle aide à mettre la table;elle regarde la télévision;elle dort déjà;elle joue dehors;23484;L
-23489;question;Que raconte papi apres le repas ?;une histoire;un conte de fées;une blague;les nouvelles du jour;23484;L
+23489;question;Que raconte papi après le repas ?;une histoire;un conte de fées;une blague;les nouvelles du jour;23484;L
 23490;question;Où Iris se glisse-t-elle pour dormir ?;un grand lit;un sac de couchage;un canapé;un lit superpose;23484;L
 23491;question;Que fait mamie pour aider Iris à dormir ?;elle chante une berceuse;elle lit une histoire;elle allume la télévision;elle ferme juste la porte;23484;L
 23492;question;Comment Iris s'endort-elle ?;vite et heureuse;difficilement;en pleurant;très tard;23484;L
 23493;question;Chez qui Iris passe-t-elle la nuit ?;ses grands-parents;ses cousins;une amie;sa mamie seule;23484;L
 23494;question;Que fait Iris pour la première fois ?;dormir chez ses grands-parents;manger de la soupe;voyager en train;aller à l'école;23484;L
-23495;passage;Milan revient de vacances. Il était à la mer. Il sort les valises de la voiture. Il range ses coquillages dans une boite. Son chat l'attendait a la maison. Maman lave les vêtements pleins de sable. Il voit les photos avec son papa. Il pense déjà a l'école. Il garde de bons souvenirs. Il rit un peu. Il fait beau. Le jour est doux.;;;;;;
-23496;question;D'ou Milan revient-il ?;de vacances a la mer;de l'école;de chez ses cousins;de la montagne;23495;L
+23495;passage;Milan revient de vacances. Il était à la mer. Il sort les valises de la voiture. Il range ses coquillages dans une boite. Son chat l'attendait à la maison. Maman lave les vêtements pleins de sable. Il voit les photos avec son papa. Il pense déjà à l'école. Il garde de bons souvenirs. Il rit un peu. Il fait beau. Le jour est doux.;;;;;;
+23496;question;D'ou Milan revient-il ?;de vacances à la mer;de l'école;de chez ses cousins;de la montagne;23495;L
 23497;question;Que fait Milan en arrivant ?;il sort les valises de la voiture;il va se coucher tout de suite;il part jouer dehors;il appelle ses amis;23495;L
 23498;question;Où Milan range-t-il ses coquillages ?;dans une boite;dans un tiroir;dans sa poche;il les jette;23495;L
-23499;question;Qui attendait Milan a la maison ?;son chat;son chien;son poisson rouge;personne;23495;L
+23499;question;Qui attendait Milan à la maison ?;son chat;son chien;son poisson rouge;personne;23495;L
 23500;question;Que lave la maman de Milan ?;les vêtements pleins de sable;la voiture;les valises;les fenêtres;23495;L
 23501;question;Que regarde Milan avec son papa ?;les photos du séjour;un film;un livre;la télévision;23495;L
 23502;question;À quoi pense Milan bientôt ?;l'école qui recommence;les prochaines vacances;son anniversaire;un match de foot;23495;L
 23503;question;Comment Milan garde-t-il ses souvenirs de l'été ?;ce sont de bons souvenirs;il les oublie vite;il est triste en y pensant;il ne s'en souvient pas;23495;L
-23504;question;Où Milan a-t-il passe ses vacances ?;a la mer;a la montagne;a la campagne;chez sa mamie;23495;L
+23504;question;Où Milan à-t-il passe ses vacances ?;à la mer;à la montagne;à la campagne;chez sa mamie;23495;L
 23505;question;Qui range les coquillages dans une boite ?;Milan;son papa;sa maman;personne;23495;L
 23506;passage;Selma visite un jardin de papillons. Elle est avec sa classe. Un grand papillon bleu se pose sur sa main. Elle reste immobile. La guide explique comment naissent les papillons. Elle voit une chenille verte. Elle sent le parfum des fleurs. Elle dessine un papillon dans son cahier. Elle garde un joli souvenir. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien.;;;;;;
 23507;question;Que visite Selma avec sa classe ?;un jardin de papillons;un zoo;un musée;une ferme;23506;L
@@ -512,7 +512,7 @@ id;type;text;correct_answer;choice_2;choice_3;choice_4;passage_id;qtype
 23510;question;Qu'explique la guide ?;comment naissent les papillons;comment poussent les fleurs;comment volent les oiseaux;comment vivent les abeilles;23506;L
 23511;question;Quel animal Selma regarde-t-elle ?;une chenille verte;une coccinelle;une abeille;une araignée;23506;L
 23512;question;Que sent Selma autour d'elle ?;le parfum des fleurs;l'odeur de la pluie;l'odeur de l'herbe coupée;rien de particulier;23506;L
-23513;question;Que dessine Selma a la sortie ?;un papillon;une fleur;une chenille;un jardin entier;23506;L
+23513;question;Que dessine Selma à la sortie ?;un papillon;une fleur;une chenille;un jardin entier;23506;L
 23514;question;Où Selma dessine-t-elle ?;dans son cahier;sur une feuille volante;sur le mur;sur son bras;23506;L
 23515;question;Comment Selma garde-t-elle ce souvenir ?;c'est un joli souvenir;elle l'oublie vite;elle est déçue;elle a eu peur;23506;L
 23516;question;Avec qui Selma visite-t-elle le jardin ?;sa classe;sa famille;ses cousins;seule;23506;L

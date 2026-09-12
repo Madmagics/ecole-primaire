@@ -11,7 +11,9 @@
 [ext_resource type="Resource" uid="uid://dm5w88id8rwxn" path="res://data/card/resources/30.tres" id="6_hmxd6"]
 [ext_resource type="Resource" uid="uid://x3qtiusyndny" path="res://data/card/resources/115.tres" id="6_lc5ht"]
 [ext_resource type="Resource" uid="uid://tq16romp1dou" path="res://data/card/resources/35.tres" id="7_4tiin"]
+[ext_resource type="Resource" path="res://data/card/resources/120.tres" id="7_wubdd"]
 [ext_resource type="Resource" uid="uid://bnfotsp5lcakf" path="res://data/card/resources/40.tres" id="8_h8ahf"]
+[ext_resource type="Resource" path="res://data/card/resources/125.tres" id="8_lc5ht"]
 [ext_resource type="Resource" uid="uid://ce643susly1vy" path="res://data/card/resources/45.tres" id="9_q8biy"]
 [ext_resource type="Resource" uid="uid://b6kn813jog4n1" path="res://data/card/resources/5.tres" id="10_l46xr"]
 [ext_resource type="Resource" uid="uid://b8eeqd258wc27" path="res://data/card/resources/50.tres" id="11_vtthg"]
@@ -26,101 +28,109 @@
 [ext_resource type="Resource" uid="uid://cvhxv3d472di7" path="res://data/card/resources/90.tres" id="23_8hgor"]
 [ext_resource type="Resource" uid="uid://cvqfas0jfc3af" path="res://data/card/resources/95.tres" id="24_hpj0j"]
 
-[sub_resource type="Resource" id="Resource_f75mx"]
+[sub_resource type="Resource" id="Resource_beeys"]
 script = ExtResource("1_vf5wx")
 card = ExtResource("2_sy2mr")
 
-[sub_resource type="Resource" id="Resource_qa7ga"]
+[sub_resource type="Resource" id="Resource_jfvrx"]
 script = ExtResource("1_vf5wx")
 card = ExtResource("3_f75mx")
 
-[sub_resource type="Resource" id="Resource_wubdd"]
+[sub_resource type="Resource" id="Resource_c346g"]
 script = ExtResource("1_vf5wx")
 card = ExtResource("4_qa7ga")
 
-[sub_resource type="Resource" id="Resource_lc5ht"]
+[sub_resource type="Resource" id="Resource_jl7sx"]
 script = ExtResource("1_vf5wx")
 card = ExtResource("5_wubdd")
 
-[sub_resource type="Resource" id="Resource_beeys"]
+[sub_resource type="Resource" id="Resource_uu6hr"]
 script = ExtResource("1_vf5wx")
 card = ExtResource("6_lc5ht")
 
-[sub_resource type="Resource" id="Resource_jfvrx"]
-script = ExtResource("1_vf5wx")
-card = ExtResource("3_ntlgu")
-
-[sub_resource type="Resource" id="Resource_c346g"]
-script = ExtResource("1_vf5wx")
-card = ExtResource("4_bbfyk")
-
-[sub_resource type="Resource" id="Resource_jl7sx"]
-script = ExtResource("1_vf5wx")
-card = ExtResource("5_k7la0")
-
-[sub_resource type="Resource" id="Resource_uu6hr"]
-script = ExtResource("1_vf5wx")
-card = ExtResource("6_hmxd6")
-
 [sub_resource type="Resource" id="Resource_r5d1a"]
 script = ExtResource("1_vf5wx")
-card = ExtResource("7_4tiin")
+card = ExtResource("7_wubdd")
 
 [sub_resource type="Resource" id="Resource_xopsk"]
 script = ExtResource("1_vf5wx")
-card = ExtResource("8_h8ahf")
+card = ExtResource("8_lc5ht")
 
 [sub_resource type="Resource" id="Resource_8hgor"]
 script = ExtResource("1_vf5wx")
-card = ExtResource("9_q8biy")
+card = ExtResource("3_ntlgu")
 
 [sub_resource type="Resource" id="Resource_hpj0j"]
 script = ExtResource("1_vf5wx")
-card = ExtResource("10_l46xr")
+card = ExtResource("4_bbfyk")
 
 [sub_resource type="Resource" id="Resource_0vxhe"]
 script = ExtResource("1_vf5wx")
-card = ExtResource("11_vtthg")
+card = ExtResource("5_k7la0")
 
 [sub_resource type="Resource" id="Resource_bu0lh"]
 script = ExtResource("1_vf5wx")
-card = ExtResource("16_beeys")
+card = ExtResource("6_hmxd6")
 
 [sub_resource type="Resource" id="Resource_0grce"]
 script = ExtResource("1_vf5wx")
-card = ExtResource("17_jfvrx")
+card = ExtResource("7_4tiin")
 
 [sub_resource type="Resource" id="Resource_kbouj"]
 script = ExtResource("1_vf5wx")
-card = ExtResource("18_c346g")
+card = ExtResource("8_h8ahf")
 
 [sub_resource type="Resource" id="Resource_gupos"]
 script = ExtResource("1_vf5wx")
-card = ExtResource("19_jl7sx")
+card = ExtResource("9_q8biy")
 
 [sub_resource type="Resource" id="Resource_of2pv"]
 script = ExtResource("1_vf5wx")
-card = ExtResource("20_uu6hr")
+card = ExtResource("10_l46xr")
 
 [sub_resource type="Resource" id="Resource_pog2q"]
 script = ExtResource("1_vf5wx")
-card = ExtResource("21_r5d1a")
+card = ExtResource("11_vtthg")
 
 [sub_resource type="Resource" id="Resource_rpemh"]
 script = ExtResource("1_vf5wx")
-card = ExtResource("22_xopsk")
+card = ExtResource("16_beeys")
 
 [sub_resource type="Resource" id="Resource_rhjy0"]
 script = ExtResource("1_vf5wx")
-card = ExtResource("23_8hgor")
+card = ExtResource("17_jfvrx")
 
 [sub_resource type="Resource" id="Resource_reno3"]
+script = ExtResource("1_vf5wx")
+card = ExtResource("18_c346g")
+
+[sub_resource type="Resource" id="Resource_48yhf"]
+script = ExtResource("1_vf5wx")
+card = ExtResource("19_jl7sx")
+
+[sub_resource type="Resource" id="Resource_dekrl"]
+script = ExtResource("1_vf5wx")
+card = ExtResource("20_uu6hr")
+
+[sub_resource type="Resource" id="Resource_l4lpr"]
+script = ExtResource("1_vf5wx")
+card = ExtResource("21_r5d1a")
+
+[sub_resource type="Resource" id="Resource_k8xna"]
+script = ExtResource("1_vf5wx")
+card = ExtResource("22_xopsk")
+
+[sub_resource type="Resource" id="Resource_2210d"]
+script = ExtResource("1_vf5wx")
+card = ExtResource("23_8hgor")
+
+[sub_resource type="Resource" id="Resource_nn2qt"]
 script = ExtResource("1_vf5wx")
 card = ExtResource("24_hpj0j")
 
 [resource]
 script = ExtResource("12_pruyt")
-crate_name = "Légendaire"
+crate_name = "CM2"
 crate_price = 20
 rarity = 3
-entries = Array[ExtResource("1_vf5wx")]([SubResource("Resource_f75mx"), SubResource("Resource_qa7ga"), SubResource("Resource_wubdd"), SubResource("Resource_lc5ht"), SubResource("Resource_beeys"), SubResource("Resource_jfvrx"), SubResource("Resource_c346g"), SubResource("Resource_jl7sx"), SubResource("Resource_uu6hr"), SubResource("Resource_r5d1a"), SubResource("Resource_xopsk"), SubResource("Resource_8hgor"), SubResource("Resource_hpj0j"), SubResource("Resource_0vxhe"), SubResource("Resource_bu0lh"), SubResource("Resource_0grce"), SubResource("Resource_kbouj"), SubResource("Resource_gupos"), SubResource("Resource_of2pv"), SubResource("Resource_pog2q"), SubResource("Resource_rpemh"), SubResource("Resource_rhjy0"), SubResource("Resource_reno3")])
+entries = Array[ExtResource("1_vf5wx")]([SubResource("Resource_beeys"), SubResource("Resource_jfvrx"), SubResource("Resource_c346g"), SubResource("Resource_jl7sx"), SubResource("Resource_uu6hr"), SubResource("Resource_r5d1a"), SubResource("Resource_xopsk"), SubResource("Resource_8hgor"), SubResource("Resource_hpj0j"), SubResource("Resource_0vxhe"), SubResource("Resource_bu0lh"), SubResource("Resource_0grce"), SubResource("Resource_kbouj"), SubResource("Resource_gupos"), SubResource("Resource_of2pv"), SubResource("Resource_pog2q"), SubResource("Resource_rpemh"), SubResource("Resource_rhjy0"), SubResource("Resource_reno3"), SubResource("Resource_48yhf"), SubResource("Resource_dekrl"), SubResource("Resource_l4lpr"), SubResource("Resource_k8xna"), SubResource("Resource_2210d"), SubResource("Resource_nn2qt")])

@@ -8,6 +8,8 @@
 [ext_resource type="Resource" uid="uid://bga6wm5bmub8m" path="res://data/card/resources/23.tres" id="4_dyhyt"]
 [ext_resource type="Resource" uid="uid://e0hbcxwaxdpi" path="res://data/card/resources/113.tres" id="4_hxkjs"]
 [ext_resource type="Resource" uid="uid://xis8wje6hc3y" path="res://data/card/resources/28.tres" id="5_5hdxg"]
+[ext_resource type="Resource" path="res://data/card/resources/118.tres" id="5_hxkjs"]
+[ext_resource type="Resource" path="res://data/card/resources/123.tres" id="6_0mdo5"]
 [ext_resource type="Resource" uid="uid://mdvqxgar4bch" path="res://data/card/resources/3.tres" id="6_aqkit"]
 [ext_resource type="Resource" uid="uid://cvb36xrpkrw5e" path="res://data/card/resources/33.tres" id="7_ecj8u"]
 [ext_resource type="Resource" uid="uid://boi1mmegu4kif" path="res://data/card/resources/38.tres" id="8_76wvc"]
@@ -26,101 +28,109 @@
 [ext_resource type="Resource" uid="uid://cv3gdhyvcsett" path="res://data/card/resources/93.tres" id="23_rsv10"]
 [ext_resource type="Resource" uid="uid://gn8g36lvrbou" path="res://data/card/resources/98.tres" id="24_33cqb"]
 
-[sub_resource type="Resource" id="Resource_fjd6u"]
+[sub_resource type="Resource" id="Resource_cxmkb"]
 script = ExtResource("1_tkwwr")
 card = ExtResource("2_fjd6u")
 
-[sub_resource type="Resource" id="Resource_qfwqr"]
+[sub_resource type="Resource" id="Resource_v5ma0"]
 script = ExtResource("1_tkwwr")
 card = ExtResource("3_qfwqr")
 
-[sub_resource type="Resource" id="Resource_hxkjs"]
+[sub_resource type="Resource" id="Resource_bfe0p"]
 script = ExtResource("1_tkwwr")
 card = ExtResource("4_hxkjs")
 
-[sub_resource type="Resource" id="Resource_0mdo5"]
-script = ExtResource("1_tkwwr")
-card = ExtResource("2_lk011")
-
-[sub_resource type="Resource" id="Resource_cxmkb"]
-script = ExtResource("1_tkwwr")
-card = ExtResource("3_frlo0")
-
-[sub_resource type="Resource" id="Resource_v5ma0"]
-script = ExtResource("1_tkwwr")
-card = ExtResource("4_dyhyt")
-
-[sub_resource type="Resource" id="Resource_bfe0p"]
-script = ExtResource("1_tkwwr")
-card = ExtResource("5_5hdxg")
-
 [sub_resource type="Resource" id="Resource_w1tw2"]
 script = ExtResource("1_tkwwr")
-card = ExtResource("6_aqkit")
+card = ExtResource("5_hxkjs")
 
 [sub_resource type="Resource" id="Resource_c2c5d"]
 script = ExtResource("1_tkwwr")
-card = ExtResource("7_ecj8u")
+card = ExtResource("6_0mdo5")
 
 [sub_resource type="Resource" id="Resource_75fta"]
 script = ExtResource("1_tkwwr")
-card = ExtResource("8_76wvc")
+card = ExtResource("2_lk011")
 
 [sub_resource type="Resource" id="Resource_u4xob"]
 script = ExtResource("1_tkwwr")
-card = ExtResource("9_s024y")
+card = ExtResource("3_frlo0")
 
 [sub_resource type="Resource" id="Resource_rsv10"]
 script = ExtResource("1_tkwwr")
-card = ExtResource("10_hhfhv")
+card = ExtResource("4_dyhyt")
 
 [sub_resource type="Resource" id="Resource_33cqb"]
 script = ExtResource("1_tkwwr")
-card = ExtResource("14_0mdo5")
+card = ExtResource("5_5hdxg")
 
 [sub_resource type="Resource" id="Resource_73yvu"]
 script = ExtResource("1_tkwwr")
-card = ExtResource("15_cxmkb")
+card = ExtResource("6_aqkit")
 
 [sub_resource type="Resource" id="Resource_5374u"]
 script = ExtResource("1_tkwwr")
-card = ExtResource("16_v5ma0")
+card = ExtResource("7_ecj8u")
 
 [sub_resource type="Resource" id="Resource_2igg5"]
 script = ExtResource("1_tkwwr")
-card = ExtResource("17_bfe0p")
+card = ExtResource("8_76wvc")
 
 [sub_resource type="Resource" id="Resource_xein7"]
 script = ExtResource("1_tkwwr")
-card = ExtResource("18_w1tw2")
+card = ExtResource("9_s024y")
 
 [sub_resource type="Resource" id="Resource_srpd2"]
 script = ExtResource("1_tkwwr")
-card = ExtResource("19_c2c5d")
+card = ExtResource("10_hhfhv")
 
 [sub_resource type="Resource" id="Resource_khya2"]
 script = ExtResource("1_tkwwr")
-card = ExtResource("11_irtm7")
+card = ExtResource("14_0mdo5")
 
 [sub_resource type="Resource" id="Resource_3fpeg"]
 script = ExtResource("1_tkwwr")
-card = ExtResource("21_75fta")
+card = ExtResource("15_cxmkb")
 
 [sub_resource type="Resource" id="Resource_31x42"]
 script = ExtResource("1_tkwwr")
-card = ExtResource("22_u4xob")
+card = ExtResource("16_v5ma0")
 
 [sub_resource type="Resource" id="Resource_vbrjk"]
 script = ExtResource("1_tkwwr")
-card = ExtResource("23_rsv10")
+card = ExtResource("17_bfe0p")
 
 [sub_resource type="Resource" id="Resource_gfwkf"]
+script = ExtResource("1_tkwwr")
+card = ExtResource("18_w1tw2")
+
+[sub_resource type="Resource" id="Resource_6u6ft"]
+script = ExtResource("1_tkwwr")
+card = ExtResource("19_c2c5d")
+
+[sub_resource type="Resource" id="Resource_thot5"]
+script = ExtResource("1_tkwwr")
+card = ExtResource("11_irtm7")
+
+[sub_resource type="Resource" id="Resource_nrx6l"]
+script = ExtResource("1_tkwwr")
+card = ExtResource("21_75fta")
+
+[sub_resource type="Resource" id="Resource_ddwa3"]
+script = ExtResource("1_tkwwr")
+card = ExtResource("22_u4xob")
+
+[sub_resource type="Resource" id="Resource_g5yy0"]
+script = ExtResource("1_tkwwr")
+card = ExtResource("23_rsv10")
+
+[sub_resource type="Resource" id="Resource_7qyds"]
 script = ExtResource("1_tkwwr")
 card = ExtResource("24_33cqb")
 
 [resource]
 script = ExtResource("12_2dshw")
-crate_name = "Rare"
+crate_name = "CE2"
 crate_price = 20
 rarity = 1
-entries = Array[ExtResource("1_tkwwr")]([SubResource("Resource_fjd6u"), SubResource("Resource_qfwqr"), SubResource("Resource_hxkjs"), SubResource("Resource_0mdo5"), SubResource("Resource_cxmkb"), SubResource("Resource_v5ma0"), SubResource("Resource_bfe0p"), SubResource("Resource_w1tw2"), SubResource("Resource_c2c5d"), SubResource("Resource_75fta"), SubResource("Resource_u4xob"), SubResource("Resource_rsv10"), SubResource("Resource_33cqb"), SubResource("Resource_73yvu"), SubResource("Resource_5374u"), SubResource("Resource_2igg5"), SubResource("Resource_xein7"), SubResource("Resource_srpd2"), SubResource("Resource_khya2"), SubResource("Resource_3fpeg"), SubResource("Resource_31x42"), SubResource("Resource_vbrjk"), SubResource("Resource_gfwkf")])
+entries = Array[ExtResource("1_tkwwr")]([SubResource("Resource_cxmkb"), SubResource("Resource_v5ma0"), SubResource("Resource_bfe0p"), SubResource("Resource_w1tw2"), SubResource("Resource_c2c5d"), SubResource("Resource_75fta"), SubResource("Resource_u4xob"), SubResource("Resource_rsv10"), SubResource("Resource_33cqb"), SubResource("Resource_73yvu"), SubResource("Resource_5374u"), SubResource("Resource_2igg5"), SubResource("Resource_xein7"), SubResource("Resource_srpd2"), SubResource("Resource_khya2"), SubResource("Resource_3fpeg"), SubResource("Resource_31x42"), SubResource("Resource_vbrjk"), SubResource("Resource_gfwkf"), SubResource("Resource_6u6ft"), SubResource("Resource_thot5"), SubResource("Resource_nrx6l"), SubResource("Resource_ddwa3"), SubResource("Resource_g5yy0"), SubResource("Resource_7qyds")])

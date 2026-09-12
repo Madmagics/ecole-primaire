@@ -1,0 +1,279 @@
+[gd_scene format=3 uid="uid://bs5b4o1gxrp3s"]
+
+[ext_resource type="Script" uid="uid://du2lcwn0v0avw" path="res://levels/school/school.gd" id="1_8eu0f"]
+[ext_resource type="Texture2D" uid="uid://4xitsvo0ehq8" path="res://assets/classe2.0/decor/classe_vide.webp" id="2_j1555"]
+[ext_resource type="Texture2D" uid="uid://cjptu7oh5lu6h" path="res://assets/classe2.0/decor/fenetre_ete.webp" id="3_h7fk5"]
+[ext_resource type="Texture2D" uid="uid://goaj5kdf5o8d" path="res://assets/classe2.0/decor/les_regles.webp" id="4_wj4f5"]
+[ext_resource type="Texture2D" uid="uid://bro71wgcepsyk" path="res://assets/classe2.0/decor/bureau.webp" id="5_lxcg8"]
+[ext_resource type="Texture2D" uid="uid://bs68p3tirmai5" path="res://assets/classe2.0/decor/plante01.webp" id="6_h4nx1"]
+[ext_resource type="Texture2D" uid="uid://carlsat0jgaur" path="res://assets/classe2.0/decor/table02.webp" id="7_h5jb0"]
+[ext_resource type="Texture2D" uid="uid://cg6hm0d7v2xsb" path="res://assets/classe2.0/decor/table03.webp" id="8_qccqv"]
+[ext_resource type="Texture2D" uid="uid://ckckyrqn8ugow" path="res://assets/classe2.0/decor/table01.webp" id="9_1quvy"]
+[ext_resource type="Texture2D" uid="uid://c06dkogwfcdi4" path="res://assets/classe2.0/decor/plante02.webp" id="10_67r2w"]
+[ext_resource type="Texture2D" uid="uid://dwt3nti14ubpn" path="res://assets/classe2.0/decor/bac_rouge.webp" id="11_5yci5"]
+[ext_resource type="Texture2D" uid="uid://bjxa5ngvpv2rm" path="res://assets/classe2.0/decor/bac_jaune.webp" id="12_3ixh2"]
+[ext_resource type="Texture2D" uid="uid://cy63svsv7a70q" path="res://assets/classe2.0/decor/bac_vert.webp" id="13_a0t5s"]
+[ext_resource type="Texture2D" uid="uid://ci6dhx18827yy" path="res://assets/classe2.0/decor/fanion.webp" id="14_gmn17"]
+[ext_resource type="Texture2D" uid="uid://bfw3enun23plm" path="res://assets/classe2.0/decor/horloge.webp" id="15_fwwja"]
+[ext_resource type="Texture2D" uid="uid://bml6roxuuqsof" path="res://assets/classe2.0/decor/le_temps.webp" id="16_2i34d"]
+[ext_resource type="Texture2D" uid="uid://bawpf8abwtk4n" path="res://assets/classe2.0/decor/etagere.webp" id="17_fcyr5"]
+[ext_resource type="Texture2D" uid="uid://b2teykvm7qi0w" path="res://assets/classe2.0/decor/planete.webp" id="18_6w1sr"]
+[ext_resource type="Texture2D" uid="uid://clgxtdh48teb8" path="res://assets/classe2.0/decor/livre02.webp" id="19_7d68w"]
+[ext_resource type="Texture2D" uid="uid://be47kcvx3dmtd" path="res://assets/classe2.0/decor/livre01.webp" id="20_wcqvf"]
+[ext_resource type="Texture2D" uid="uid://csox4b5odrnrt" path="res://assets/classe2.0/decor/tableau.webp" id="21_xdekm"]
+[ext_resource type="Texture2D" uid="uid://cph0efajuuh4b" path="res://assets/classe2.0/decor/dessinsX3.webp" id="22_oqbbg"]
+[ext_resource type="PackedScene" path="res://entities/npc_2d/npc_2d.tscn" id="23_3wm3i"]
+[ext_resource type="Texture2D" uid="uid://dg7sceuyao4rg" path="res://assets/classe2.0/profs/prof1.0.webp" id="24_1y388"]
+[ext_resource type="Script" uid="uid://ctewycpwm3g2u" path="res://entities/npc/components/prof_visual.gd" id="25_4i240"]
+[ext_resource type="Texture2D" uid="uid://c3csfrdy824dl" path="res://assets/classe2.0/profs/prof2.0.webp" id="26_fsj5k"]
+[ext_resource type="Texture2D" uid="uid://bixjxy284s35s" path="res://assets/classe2.0/profs/prof3.0.webp" id="27_2wu2n"]
+[ext_resource type="Texture2D" uid="uid://b3i8f5ggfwlou" path="res://assets/classe2.0/profs/prof4.0.webp" id="28_lamqi"]
+[ext_resource type="Texture2D" uid="uid://c37icm35fuxln" path="res://assets/classe2.0/profs/prof5.0.webp" id="29_6ucpl"]
+[ext_resource type="PackedScene" path="res://ui/game_ui.tscn" id="30_cfne0"]
+
+[node name="School" type="Node2D" unique_id=765689896]
+script = ExtResource("1_8eu0f")
+
+[node name="Background" type="Node2D" parent="." unique_id=1288811364]
+
+[node name="ClasseVide" type="Sprite2D" parent="Background" unique_id=1703417914]
+position = Vector2(576, 324)
+scale = Vector2(0.688995, 0.688629)
+texture = ExtResource("2_j1555")
+
+[node name="FixedCamera" type="Camera2D" parent="." unique_id=1281644587]
+position = Vector2(576, 324)
+
+[node name="Decor" type="Node2D" parent="." unique_id=1157127673]
+
+[node name="FenetreEte" type="Sprite2D" parent="Decor" unique_id=605431050]
+position = Vector2(574.8, 262.8)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("3_h7fk5")
+
+[node name="LesRegles" type="Sprite2D" parent="Decor" unique_id=1588250878]
+position = Vector2(376.8, 291)
+scale = Vector2(0.64315134, 0.5015931)
+texture = ExtResource("4_wj4f5")
+
+[node name="Bureau" type="Sprite2D" parent="Decor" unique_id=1039941029]
+z_index = 1
+position = Vector2(586.8, 413.4)
+scale = Vector2(0.48101982, 0.5022859)
+texture = ExtResource("5_lxcg8")
+
+[node name="Plante01" type="Sprite2D" parent="Decor" unique_id=667203505]
+position = Vector2(1045.8, 467.4)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("6_h4nx1")
+
+[node name="Table02" type="Sprite2D" parent="Decor" unique_id=416689779]
+z_index = 1
+position = Vector2(491, 557)
+scale = Vector2(0.57373923, 0.55719924)
+texture = ExtResource("7_h5jb0")
+
+[node name="Table03" type="Sprite2D" parent="Decor" unique_id=181654188]
+z_index = 1
+position = Vector2(259.8, 541.2)
+scale = Vector2(0.5764649, 0.56529206)
+texture = ExtResource("8_qccqv")
+
+[node name="Table01" type="Sprite2D" parent="Decor" unique_id=657733546]
+z_index = 1
+position = Vector2(782.99994, 553)
+scale = Vector2(-0.5901285, 0.6002787)
+texture = ExtResource("9_1quvy")
+
+[node name="Plante02" type="Sprite2D" parent="Decor" unique_id=1021199939]
+position = Vector2(29.4, 568.2)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("10_67r2w")
+
+[node name="BacRouge" type="Sprite2D" parent="Decor" unique_id=1057871329]
+position = Vector2(1091, 557)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("11_5yci5")
+
+[node name="BacJaune" type="Sprite2D" parent="Decor" unique_id=1040222408]
+position = Vector2(52.8, 610.8)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("12_3ixh2")
+
+[node name="BacVert" type="Sprite2D" parent="Decor" unique_id=1904516318]
+position = Vector2(1104, 590)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("13_a0t5s")
+
+[node name="Fanion" type="Sprite2D" parent="Decor" unique_id=773259467]
+position = Vector2(774, 186.00002)
+rotation = 0.18721096
+scale = Vector2(0.407475, 0.363923)
+texture = ExtResource("14_gmn17")
+
+[node name="Fanion2" type="Sprite2D" parent="Decor" unique_id=19919013]
+position = Vector2(374.99997, 189)
+rotation = -0.21193336
+scale = Vector2(0.39354, 0.356865)
+texture = ExtResource("14_gmn17")
+
+[node name="Horloge" type="Sprite2D" parent="Decor" unique_id=625240430]
+position = Vector2(576, 121.19999)
+scale = Vector2(0.3119, 0.287835)
+texture = ExtResource("15_fwwja")
+
+[node name="LeTemps" type="Sprite2D" parent="Decor" unique_id=1340625852]
+position = Vector2(783.6, 294)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("16_2i34d")
+
+[node name="Etagere" type="Sprite2D" parent="Decor" unique_id=1715433247]
+position = Vector2(799.2, 410.4)
+scale = Vector2(0.354098, 0.36464)
+texture = ExtResource("17_fcyr5")
+
+[node name="Planete" type="Sprite2D" parent="Decor" unique_id=687118041]
+position = Vector2(829.2, 339.6)
+scale = Vector2(0.388992, 0.394683)
+texture = ExtResource("18_6w1sr")
+
+[node name="Livre02" type="Sprite2D" parent="Decor" unique_id=2017614337]
+position = Vector2(118.8, 621.6)
+scale = Vector2(-0.588952, 0.625638)
+texture = ExtResource("19_7d68w")
+
+[node name="Livre01" type="Sprite2D" parent="Decor" unique_id=1095154927]
+position = Vector2(1047, 612)
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("20_wcqvf")
+
+[node name="Polygon2D" type="Polygon2D" parent="Decor" unique_id=135358174]
+position = Vector2(40.8, 204.6)
+texture = ExtResource("21_xdekm")
+polygon = PackedVector2Array(8.993005, -22.884193, 8.424316, 206.30106, 199.50726, 164.7826, 199.5068, 18.630756)
+uv = PackedVector2Array(2.145752, 1.2420807, 1.2841187, 328.67422, 459.68915, 337.29086, 456.2425, 2.1037445)
+
+[node name="DessinsX3" type="Sprite2D" parent="Decor" unique_id=163068085]
+z_index = 1
+position = Vector2(587.4, 435.6)
+scale = Vector2(0.307311, 0.283289)
+texture = ExtResource("22_oqbbg")
+
+[node name="NPCs" type="Node2D" parent="." unique_id=1623536013]
+
+[node name="NPC_CP" parent="NPCs" unique_id=587832817 instance=ExtResource("23_3wm3i")]
+position = Vector2(246, 391)
+
+[node name="CapsuleVisual" parent="NPCs/NPC_CP" index="3"]
+visible = false
+
+[node name="ProfVisual" type="Sprite2D" parent="NPCs/NPC_CP" unique_id=305817264]
+position = Vector2(5, -6.9999847)
+scale = Vector2(0.72, 0.72)
+texture = ExtResource("24_1y388")
+script = ExtResource("25_4i240")
+
+[node name="NPC_CE1" parent="NPCs" unique_id=1909564223 instance=ExtResource("23_3wm3i")]
+position = Vector2(465, 370)
+
+[node name="QuestionGiverComponent" parent="NPCs/NPC_CE1" index="2"]
+grade = 1
+
+[node name="CapsuleVisual" parent="NPCs/NPC_CE1" index="3"]
+visible = false
+
+[node name="ProfVisual" type="Sprite2D" parent="NPCs/NPC_CE1" unique_id=728194053]
+position = Vector2(-4.000004, -12.999977)
+scale = Vector2(0.72, 0.72)
+texture = ExtResource("26_fsj5k")
+script = ExtResource("25_4i240")
+
+[node name="NPC_CE2" parent="NPCs" unique_id=1274094477 instance=ExtResource("23_3wm3i")]
+position = Vector2(703, 364)
+
+[node name="QuestionGiverComponent" parent="NPCs/NPC_CE2" index="2"]
+grade = 2
+
+[node name="CapsuleVisual" parent="NPCs/NPC_CE2" index="3"]
+visible = false
+
+[node name="ProfVisual" type="Sprite2D" parent="NPCs/NPC_CE2" unique_id=946271038]
+position = Vector2(-1.0000038, -3.999989)
+scale = Vector2(0.72, 0.72)
+texture = ExtResource("27_2wu2n")
+flip_h = true
+script = ExtResource("25_4i240")
+
+[node name="NPC_CM1" parent="NPCs" unique_id=89895470 instance=ExtResource("23_3wm3i")]
+position = Vector2(885, 388)
+
+[node name="QuestionGiverComponent" parent="NPCs/NPC_CM1" index="2"]
+grade = 3
+
+[node name="CapsuleVisual" parent="NPCs/NPC_CM1" index="3"]
+visible = false
+
+[node name="ProfVisual" type="Sprite2D" parent="NPCs/NPC_CM1" unique_id=182746395]
+position = Vector2(-13.0000105, -3.9999893)
+scale = Vector2(0.72, 0.72)
+texture = ExtResource("28_lamqi")
+flip_h = true
+script = ExtResource("25_4i240")
+
+[node name="NPC_CM2" parent="NPCs" unique_id=41311839 instance=ExtResource("23_3wm3i")]
+position = Vector2(1006, 453)
+
+[node name="CollisionShape2D" parent="NPCs/NPC_CM2/InteractableComponent" index="0"]
+position = Vector2(-25, 37)
+
+[node name="QuestionGiverComponent" parent="NPCs/NPC_CM2" index="2"]
+grade = 4
+
+[node name="CapsuleVisual" parent="NPCs/NPC_CM2" index="3"]
+visible = false
+
+[node name="ProfVisual" type="Sprite2D" parent="NPCs/NPC_CM2" unique_id=563921740]
+position = Vector2(-22.000004, 31.000015)
+scale = Vector2(0.72, 0.72)
+texture = ExtResource("29_6ucpl")
+flip_h = true
+script = ExtResource("25_4i240")
+
+[node name="UI" parent="." unique_id=244385027 instance=ExtResource("30_cfne0")]
+
+[connection signal="pack_started" from="NPCs/NPC_CP/QuestionGiverComponent" to="UI/QuestionPanel" method="display_pack"]
+[connection signal="pack_unavailable" from="NPCs/NPC_CP/QuestionGiverComponent" to="UI/QuestionPanel" method="show_message"]
+[connection signal="reading_pack_started" from="NPCs/NPC_CP/QuestionGiverComponent" to="UI/ReadingIntroPanel" method="open_for"]
+[connection signal="subject_selection_requested" from="NPCs/NPC_CP/QuestionGiverComponent" to="UI/SubjectSelectPanel" method="open_for"]
+[connection signal="pack_started" from="NPCs/NPC_CE1/QuestionGiverComponent" to="UI/QuestionPanel" method="display_pack"]
+[connection signal="pack_unavailable" from="NPCs/NPC_CE1/QuestionGiverComponent" to="UI/QuestionPanel" method="show_message"]
+[connection signal="reading_pack_started" from="NPCs/NPC_CE1/QuestionGiverComponent" to="UI/ReadingIntroPanel" method="open_for"]
+[connection signal="subject_selection_requested" from="NPCs/NPC_CE1/QuestionGiverComponent" to="UI/SubjectSelectPanel" method="open_for"]
+[connection signal="pack_started" from="NPCs/NPC_CE2/QuestionGiverComponent" to="UI/QuestionPanel" method="display_pack"]
+[connection signal="pack_unavailable" from="NPCs/NPC_CE2/QuestionGiverComponent" to="UI/QuestionPanel" method="show_message"]
+[connection signal="reading_pack_started" from="NPCs/NPC_CE2/QuestionGiverComponent" to="UI/ReadingIntroPanel" method="open_for"]
+[connection signal="subject_selection_requested" from="NPCs/NPC_CE2/QuestionGiverComponent" to="UI/SubjectSelectPanel" method="open_for"]
+[connection signal="pack_started" from="NPCs/NPC_CM1/QuestionGiverComponent" to="UI/QuestionPanel" method="display_pack"]
+[connection signal="pack_unavailable" from="NPCs/NPC_CM1/QuestionGiverComponent" to="UI/QuestionPanel" method="show_message"]
+[connection signal="reading_pack_started" from="NPCs/NPC_CM1/QuestionGiverComponent" to="UI/ReadingIntroPanel" method="open_for"]
+[connection signal="subject_selection_requested" from="NPCs/NPC_CM1/QuestionGiverComponent" to="UI/SubjectSelectPanel" method="open_for"]
+[connection signal="pack_started" from="NPCs/NPC_CM2/QuestionGiverComponent" to="UI/QuestionPanel" method="display_pack"]
+[connection signal="pack_unavailable" from="NPCs/NPC_CM2/QuestionGiverComponent" to="UI/QuestionPanel" method="show_message"]
+[connection signal="reading_pack_started" from="NPCs/NPC_CM2/QuestionGiverComponent" to="UI/ReadingIntroPanel" method="open_for"]
+[connection signal="subject_selection_requested" from="NPCs/NPC_CM2/QuestionGiverComponent" to="UI/SubjectSelectPanel" method="open_for"]
+[connection signal="pack_completed" from="UI/QuestionPanel" to="NPCs/NPC_CP/QuestionGiverComponent" method="resolve_pack"]
+[connection signal="pack_completed" from="UI/QuestionPanel" to="NPCs/NPC_CE1/QuestionGiverComponent" method="resolve_pack"]
+[connection signal="pack_completed" from="UI/QuestionPanel" to="NPCs/NPC_CE2/QuestionGiverComponent" method="resolve_pack"]
+[connection signal="pack_completed" from="UI/QuestionPanel" to="NPCs/NPC_CM1/QuestionGiverComponent" method="resolve_pack"]
+[connection signal="pack_completed" from="UI/QuestionPanel" to="NPCs/NPC_CM2/QuestionGiverComponent" method="resolve_pack"]
+[connection signal="daily_limit_reached" from="NPCs/NPC_CP/QuestionGiverComponent" to="UI/DailyLimitReachedOverlay" method="open"]
+[connection signal="daily_limit_reached" from="NPCs/NPC_CE1/QuestionGiverComponent" to="UI/DailyLimitReachedOverlay" method="open"]
+[connection signal="daily_limit_reached" from="NPCs/NPC_CE2/QuestionGiverComponent" to="UI/DailyLimitReachedOverlay" method="open"]
+[connection signal="daily_limit_reached" from="NPCs/NPC_CM1/QuestionGiverComponent" to="UI/DailyLimitReachedOverlay" method="open"]
+[connection signal="daily_limit_reached" from="NPCs/NPC_CM2/QuestionGiverComponent" to="UI/DailyLimitReachedOverlay" method="open"]
+
+[editable path="NPCs/NPC_CP"]
+[editable path="NPCs/NPC_CE1"]
+[editable path="NPCs/NPC_CE2"]
+[editable path="NPCs/NPC_CM1"]
+[editable path="NPCs/NPC_CM2"]

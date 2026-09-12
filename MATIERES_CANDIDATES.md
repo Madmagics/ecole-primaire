@@ -23,6 +23,7 @@ Revue faite avec l'utilisateur, une classe à la fois, du CP au CM2 — chaque l
 | CM1 | Décidé (2026-07-20) : Grammaire/Conjugaison/Orthographe, + Anglais, + Lecture | — |
 | CM2 | Décidé (2026-07-20) : Grammaire/Conjugaison/Orthographe, + Anglais, + Lecture | — |
 | **Toutes classes (CP → CM2)** | **Lecture (compréhension de texte) confirmée** — nouvelle matière transversale, voir section dédiée plus bas | 2026-07-20 |
+| **Toutes classes (CP → CM2)** | **Logique (tests psychotechniques) validée et étendue** — 500 questions/classe, voir section dédiée plus bas | 2026-08-04, étendue le 2026-08-05 |
 
 **Note sur le renommage CE1 :** vérification faite sur le contenu réel de
 `csv/questions/ce1/french/generated.csv` (200 lignes) : ~90% sont déjà de la grammaire pure
@@ -82,6 +83,44 @@ d'Orthographe/Grammaire, pas un doublon).
 
 Ces points seront tranchés avec l'utilisateur avant de commencer l'implémentation (voir
 questions posées dans la conversation).
+
+## Logique (tests psychotechniques) — matière transversale CP → CM2, hors programme officiel
+
+Décidée le 2026-08-04, à la demande de l'utilisateur (pas une matière du programme scolaire
+officiel, contrairement à toutes les autres de ce document — c'est une exception assumée : le
+critère "programme officiel" n'est pas un prérequis absolu, seuls comptent le côté
+factuel/structuré et le volume de contenu possible). Inspirée des tests psychotechniques/tests
+d'aptitude utilisés dans la prépa aux évaluations et aux concours (suites logiques, analogies
+verbales, classification, raisonnement spatial) adaptés à l'âge de chaque classe.
+
+**Contrainte de format identifiée avant de lancer le contenu :** le jeu n'a aucun asset image par
+matière (`SubjectSelectPanel` affiche juste couleur + libellé texte, voir `SubjectType`), et la
+police du jeu (`Baloo2-SemiBold.ttf`) ne couvre que le latin + accents français — pas d'emoji ni
+de symboles géométriques nativement. Le rendu emoji dépend donc du fallback système de Godot
+(`allow_system_fallback=true` sur la police), qui fonctionne probablement sous Windows (Segoe UI
+Emoji) mais n'est pas garanti sur les autres cibles d'export. D'où le choix de lancer un **lot de
+test de 10 questions par classe (tranches 40000-44999, dossier `<classe>/logique/`) mêlant
+emoji simples (fruits/animaux) et symboles géométriques (●▲■★, plus robustes que les emoji
+pictographiques). L'utilisateur a validé le rendu en jeu (avec un passage par plusieurs
+ajustements UI — grille 2×2, taille des emoji, voir `project_logique_qcm_layout_fix` en mémoire),
+puis demandé l'extension à **500 questions par classe le 2026-08-05** (2500 questions au total)
+— voir `project_logique_500` en mémoire pour le détail complet (bugs de grammaire rencontrés et
+corrigés par classe, familles exactes, méthodologie de génération/validation).
+
+**Contenu par classe (finalisé le 2026-08-05, 500 questions chacune) :** CP = suites de
+formes/emoji, intrus, association son-animal, comparaison de taille, dénombrement, suites
+numériques de 1/2 en 1/2, motifs de couleur, bébés animaux. CE1 = suites numériques à un seul
+pas, suites alphabétiques, motifs ABC, intrus à 2 critères (catégorie/nombre de pattes),
+contraires, extrêmes (plus grand/petit nombre), analogies fonctionnelles, intrus numérique.
+CE2 = suites à règle double, double/moitié, locomotion, habitat, syllogismes, intrus alimentaire,
+suites alphabétiques, repérage spatial sur grille 3×3, déduction transitive (âge), si...alors,
+contraires, extrêmes. CM1 = suites composées (opération ×/± alternée), codes lettre↔chiffre
+(direct, inverse, somme de mot), grilles 2D à rotation cyclique, déduction âge/course à 2
+indices, carrés parfaits, suites appariées lettre+chiffre, analogies partie-tout, contraires.
+CM2 = suites de Fibonacci simplifiées, carrés+k, chiffrement de César, grilles numériques façon
+Raven, déduction multi-indices avec attribution (type "qui a quel animal"), suites entrelacées
+(deux suites alternées), énigmes menteur/vérité, analogies fonctionnelles, suites composées
+×k+c, dénombrement/combinatoire simple (permutations, paires, arrangements).
 
 ## Recommandation de mise en œuvre
 

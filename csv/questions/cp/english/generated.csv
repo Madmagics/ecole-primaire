@@ -39,3 +39,482 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 18037;Comment dit-on 'bleu' en anglais ?;blue;green;yellow;white
 18038;Comment dit-on 'novembre' en anglais ?;november;may;july;october
 18039;Comment dit-on 'septembre' en anglais ?;september;december;january;july
+18040;Comment dit-on 'zéro' en anglais ?;zero;eleven;two;one
+18041;Que veut dire 'zero' en français ?;zéro;douze;cinq;quatre
+18042;Comment dit-on 'trois' en anglais ?;three;four;two;one
+18043;Que veut dire 'three' en français ?;trois;onze;neuf;un
+18044;Comment dit-on 'huit' en anglais ?;eight;ten;six;zero
+18045;Que veut dire 'eight' en français ?;huit;zéro;un;trois
+18046;Comment dit-on 'dix' en anglais ?;ten;three;eight;nine
+18047;Que veut dire 'ten' en français ?;dix;zéro;huit;trois
+18048;Comment dit-on 'onze' en anglais ?;eleven;twelve;ten;eight
+18049;Que veut dire 'eleven' en français ?;onze;six;trois;sept
+18050;Comment dit-on 'douze' en anglais ?;twelve;nine;four;zero
+18051;Que veut dire 'twelve' en français ?;douze;deux;six;cinq
+18052;Comment dit-on 'jaune' en anglais ?;yellow;white;green;black
+18053;Que veut dire 'yellow' en français ?;jaune;marron;bleu;orange
+18054;Comment dit-on 'violet' en anglais ?;purple;brown;blue;white
+18055;Que veut dire 'purple' en français ?;violet;blanc;noir;rouge
+18056;Comment dit-on 'gris' en anglais ?;grey;pink;purple;blue
+18057;Que veut dire 'grey' en français ?;gris;marron;bleu;noir
+18058;Comment dit-on 'lundi' en anglais ?;monday;sunday;saturday;thursday
+18059;Que veut dire 'monday' en français ?;lundi;samedi;mercredi;mardi
+18060;Comment dit-on 'mardi' en anglais ?;tuesday;monday;wednesday;thursday
+18061;Que veut dire 'tuesday' en français ?;mardi;lundi;mercredi;dimanche
+18062;Comment dit-on 'vendredi' en anglais ?;friday;thursday;wednesday;sunday
+18063;Que veut dire 'friday' en français ?;vendredi;dimanche;mercredi;mardi
+18064;Comment dit-on 'samedi' en anglais ?;saturday;wednesday;sunday;tuesday
+18065;Que veut dire 'saturday' en français ?;samedi;dimanche;mercredi;lundi
+18066;Comment dit-on 'dimanche' en anglais ?;sunday;friday;tuesday;saturday
+18067;Que veut dire 'sunday' en français ?;dimanche;mardi;jeudi;vendredi
+18068;Comment dit-on 'février' en anglais ?;february;june;october;may
+18069;Que veut dire 'february' en français ?;février;décembre;juillet;janvier
+18070;Comment dit-on 'mai' en anglais ?;may;april;january;july
+18071;Que veut dire 'may' en français ?;mai;août;juin;février
+18072;Comment dit-on 'octobre' en anglais ?;october;april;november;june
+18073;Que veut dire 'october' en français ?;octobre;avril;août;juillet
+18074;Comment dit-on 'décembre' en anglais ?;december;november;august;march
+18075;Que veut dire 'december' en français ?;décembre;mai;mars;avril
+18076;Comment dit-on 'chien' en anglais ?;dog;sheep;frog;bird
+18077;Que veut dire 'dog' en français ?;chien;canard;vache;grenouille
+18078;Comment dit-on 'cheval' en anglais ?;horse;bird;rabbit;mouse
+18079;Que veut dire 'horse' en français ?;cheval;mouton;cochon;chat
+18080;Comment dit-on 'vache' en anglais ?;cow;dog;cat;mouse
+18081;Que veut dire 'cow' en français ?;vache;grenouille;souris;cheval
+18082;Comment dit-on 'mouton' en anglais ?;sheep;duck;cat;horse
+18083;Que veut dire 'sheep' en français ?;mouton;cheval;canard;vache
+18084;Comment dit-on 'canard' en anglais ?;duck;pig;fish;frog
+18085;Que veut dire 'duck' en français ?;canard;chien;chat;cochon
+18086;Comment dit-on 'grenouille' en anglais ?;frog;fish;bird;cat
+18087;Que veut dire 'frog' en français ?;grenouille;poisson;cheval;souris
+18088;Comment dit-on 'maman' en anglais ?;mum;grandma;dad;brother
+18089;Que veut dire 'mum' en français ?;maman;grand-père;soeur;papa
+18090;Comment dit-on 'frère' en anglais ?;brother;baby;sister;dad
+18091;Que veut dire 'brother' en français ?;frère;papa;soeur;bébé
+18092;Comment dit-on 'bébé' en anglais ?;baby;grandma;grandpa;mum
+18093;Que veut dire 'baby' en français ?;bébé;grand-mère;soeur;frère
+18094;Comment dit-on 'pomme' en anglais ?;apple;banana;bread;milk
+18095;Que veut dire 'apple' en français ?;pomme;oeuf;fromage;banane
+18096;Comment dit-on 'banane' en anglais ?;banana;cheese;bread;apple
+18097;Que veut dire 'banana' en français ?;banane;eau;pain;gâteau
+18098;Comment dit-on 'pain' en anglais ?;bread;juice;milk;banana
+18099;Que veut dire 'bread' en français ?;pain;eau;lait;jus de fruit
+18100;Comment dit-on 'lait' en anglais ?;milk;juice;cake;banana
+18101;Que veut dire 'milk' en français ?;lait;jus de fruit;fromage;chocolat
+18102;Comment dit-on 'fromage' en anglais ?;cheese;egg;cake;chocolate
+18103;Que veut dire 'cheese' en français ?;fromage;chocolat;eau;oeuf
+18104;Comment dit-on 'oeuf' en anglais ?;egg;water;banana;juice
+18105;Que veut dire 'egg' en français ?;oeuf;lait;banane;pain
+18106;Comment dit-on 'chocolat' en anglais ?;chocolate;apple;milk;cheese
+18107;Que veut dire 'chocolate' en français ?;chocolat;lait;pomme;eau
+18108;Comment dit-on 'gâteau' en anglais ?;cake;apple;milk;juice
+18109;Que veut dire 'cake' en français ?;gâteau;pomme;oeuf;jus de fruit
+18110;Comment dit-on 'eau' en anglais ?;water;juice;milk;bread
+18111;Que veut dire 'water' en français ?;eau;gâteau;lait;fromage
+18112;Comment dit-on 'jus de fruit' en anglais ?;juice;bread;cake;banana
+18113;Que veut dire 'juice' en français ?;jus de fruit;gâteau;chocolat;banane
+18114;Comment dit-on 'tête' en anglais ?;head;knees;feet;mouth
+18115;Que veut dire 'head' en français ?;tête;nez;bouche;yeux
+18116;Comment dit-on 'épaules' en anglais ?;shoulders;nose;hands;feet
+18117;Que veut dire 'shoulders' en français ?;épaules;tête;genoux;pieds
+18118;Comment dit-on 'genoux' en anglais ?;knees;nose;mouth;feet
+18119;Que veut dire 'knees' en français ?;genoux;épaules;yeux;pieds
+18120;Comment dit-on 'orteils' en anglais ?;toes;eyes;hands;shoulders
+18121;Que veut dire 'toes' en français ?;orteils;nez;genoux;mains
+18122;Comment dit-on 'yeux' en anglais ?;eyes;hands;toes;nose
+18123;Que veut dire 'eyes' en français ?;yeux;épaules;mains;nez
+18124;Comment dit-on 'oreilles' en anglais ?;ears;feet;shoulders;head
+18125;Que veut dire 'ears' en français ?;oreilles;pieds;tête;mains
+18126;Comment dit-on 'bouche' en anglais ?;mouth;toes;knees;feet
+18127;Que veut dire 'mouth' en français ?;bouche;mains;pieds;épaules
+18128;Comment dit-on 'nez' en anglais ?;nose;mouth;head;shoulders
+18129;Que veut dire 'nose' en français ?;nez;bouche;tête;orteils
+18130;Comment dit-on 'mains' en anglais ?;hands;eyes;nose;knees
+18131;Que veut dire 'hands' en français ?;mains;bouche;nez;épaules
+18132;Comment dit-on 'pieds' en anglais ?;feet;toes;eyes;shoulders
+18133;Que veut dire 'feet' en français ?;pieds;tête;mains;oreilles
+18134;Comment dit-on 'ensoleillé' en anglais ?;sunny;cloudy;rainy;snowy
+18135;Que veut dire 'sunny' en français ?;ensoleillé;neigeux;nuageux;pluvieux
+18136;Comment dit-on 'pluvieux' en anglais ?;rainy;sunny;cloudy;snowy
+18137;Que veut dire 'rainy' en français ?;pluvieux;venteux;ensoleillé;nuageux
+18138;Comment dit-on 'venteux' en anglais ?;windy;rainy;snowy;sunny
+18139;Que veut dire 'windy' en français ?;venteux;pluvieux;nuageux;ensoleillé
+18140;Comment dit-on 'nuageux' en anglais ?;cloudy;sunny;rainy;windy
+18141;Que veut dire 'cloudy' en français ?;nuageux;venteux;ensoleillé;pluvieux
+18142;Comment dit-on 'neigeux' en anglais ?;snowy;rainy;cloudy;windy
+18143;Que veut dire 'snowy' en français ?;neigeux;pluvieux;venteux;nuageux
+18144;Comment dit-on 'crayon' en anglais ?;pencil;chair;glue;scissors
+18145;Que veut dire 'pencil' en français ?;crayon;règle;gomme;livre
+18146;Comment dit-on 'gomme' en anglais ?;rubber;ruler;table;pen
+18147;Que veut dire 'rubber' en français ?;gomme;livre;stylo;règle
+18148;Comment dit-on 'règle' en anglais ?;ruler;glue;rubber;chair
+18149;Que veut dire 'ruler' en français ?;règle;colle;stylo;gomme
+18150;Comment dit-on 'cartable' en anglais ?;schoolbag;chair;pen;table
+18151;Que veut dire 'schoolbag' en français ?;cartable;table;crayon;colle
+18152;Comment dit-on 'livre' en anglais ?;book;table;pen;glue
+18153;Que veut dire 'book' en français ?;livre;gomme;règle;chaise
+18154;Comment dit-on 'stylo' en anglais ?;pen;rubber;table;glue
+18155;Que veut dire 'pen' en français ?;stylo;table;règle;chaise
+18156;Comment dit-on 'colle' en anglais ?;glue;book;schoolbag;pen
+18157;Que veut dire 'glue' en français ?;colle;stylo;cartable;table
+18158;Comment dit-on 'ciseaux' en anglais ?;scissors;book;chair;ruler
+18159;Que veut dire 'scissors' en français ?;ciseaux;crayon;gomme;stylo
+18160;Comment dit-on 'chaise' en anglais ?;chair;glue;book;pencil
+18161;Que veut dire 'chair' en français ?;chaise;crayon;stylo;colle
+18162;Comment dit-on 'table' en anglais ?;table;ruler;book;rubber
+18163;Que veut dire 'table' en français ?;table;ciseaux;colle;livre
+18164;Comment dit-on 'bonjour' en anglais ?;hello;goodbye;welcome;sorry
+18165;Que veut dire 'hello' en français ?;bonjour;bienvenue;s'il te plaît;au revoir
+18166;Comment dit-on 'au revoir' en anglais ?;goodbye;yes;sorry;please
+18167;Que veut dire 'goodbye' en français ?;au revoir;non;s'il te plaît;bonjour
+18168;Comment dit-on 's'il te plaît' en anglais ?;please;yes;welcome;hello
+18169;Que veut dire 'please' en français ?;s'il te plaît;oui;au revoir;pardon
+18170;Comment dit-on 'oui' en anglais ?;yes;welcome;hello;please
+18171;Que veut dire 'yes' en français ?;oui;pardon;non;au revoir
+18172;Comment dit-on 'non' en anglais ?;no;goodbye;welcome;sorry
+18173;Que veut dire 'no' en français ?;non;oui;bonjour;au revoir
+18174;Comment dit-on 'pardon' en anglais ?;sorry;welcome;please;yes
+18175;Que veut dire 'sorry' en français ?;pardon;bienvenue;au revoir;s'il te plaît
+18176;Comment dit-on 'bienvenue' en anglais ?;welcome;goodbye;hello;yes
+18177;Que veut dire 'welcome' en français ?;bienvenue;bonjour;oui;au revoir
+18178;Comment dit-on 'content' en anglais ?;happy;angry;tired;hungry
+18179;Que veut dire 'happy' en français ?;content;apeuré;fâché;triste
+18180;Comment dit-on 'triste' en anglais ?;sad;happy;angry;tired
+18181;Que veut dire 'sad' en français ?;triste;apeuré;affamé;content
+18182;Comment dit-on 'fâché' en anglais ?;angry;scared;hungry;tired
+18183;Que veut dire 'angry' en français ?;fâché;affamé;fatigué;apeuré
+18184;Comment dit-on 'apeuré' en anglais ?;scared;hungry;angry;happy
+18185;Que veut dire 'scared' en français ?;apeuré;content;fâché;affamé
+18186;Comment dit-on 'fatigué' en anglais ?;tired;hungry;angry;happy
+18187;Que veut dire 'tired' en français ?;fatigué;content;apeuré;triste
+18188;Comment dit-on 'affamé' en anglais ?;hungry;angry;scared;tired
+18189;Que veut dire 'hungry' en français ?;affamé;fatigué;content;triste
+18190;Comment dit-on 'j'aime le rouge' en anglais ?;I like red;I like cheese;I like apples;I like yellow
+18191;Comment dit-on 'je n'aime pas le rouge' en anglais ?;I don't like red;I don't like cows;I don't like blue;I don't like cheese
+18192;Comment dit-on 'j'aime le bleu' en anglais ?;I like blue;I like rabbits;I like cows;I like white
+18193;Comment dit-on 'je n'aime pas le bleu' en anglais ?;I don't like blue;I don't like cats;I don't like dogs;I don't like purple
+18194;Comment dit-on 'j'aime le vert' en anglais ?;I like green;I like cakes;I like horses;I like dogs
+18195;Comment dit-on 'je n'aime pas le vert' en anglais ?;I don't like green;I don't like birds;I don't like eggs;I don't like orange
+18196;Comment dit-on 'j'aime le jaune' en anglais ?;I like yellow;I like cheese;I like horses;I like fish
+18197;Comment dit-on 'je n'aime pas le jaune' en anglais ?;I don't like yellow;I don't like milk;I don't like cakes;I don't like birds
+18198;Comment dit-on 'j'aime le noir' en anglais ?;I like black;I like red;I like cakes;I like eggs
+18199;Comment dit-on 'je n'aime pas le noir' en anglais ?;I don't like black;I don't like chocolate;I don't like cows;I don't like dogs
+18200;Comment dit-on 'j'aime le blanc' en anglais ?;I like white;I like sheep;I like pigs;I like chocolate
+18201;Comment dit-on 'je n'aime pas le blanc' en anglais ?;I don't like white;I don't like ducks;I don't like bread;I don't like brown
+18202;Comment dit-on 'j'aime le marron' en anglais ?;I like brown;I like eggs;I like cats;I like white
+18203;Comment dit-on 'je n'aime pas le marron' en anglais ?;I don't like brown;I don't like juice;I don't like cakes;I don't like water
+18204;Comment dit-on 'j'aime le rose' en anglais ?;I like pink;I like cheese;I like grey;I like blue
+18205;Comment dit-on 'je n'aime pas le rose' en anglais ?;I don't like pink;I don't like green;I don't like juice;I don't like ducks
+18206;Comment dit-on 'j'aime le violet' en anglais ?;I like purple;I like black;I like sheep;I like horses
+18207;Comment dit-on 'je n'aime pas le violet' en anglais ?;I don't like purple;I don't like cheese;I don't like fish;I don't like frogs
+18208;Comment dit-on 'j'aime l'orange' en anglais ?;I like orange;I like birds;I like juice;I like grey
+18209;Comment dit-on 'je n'aime pas l'orange' en anglais ?;I don't like orange;I don't like red;I don't like brown;I don't like cows
+18210;Comment dit-on 'j'aime le gris' en anglais ?;I like grey;I like water;I like milk;I like sheep
+18211;Comment dit-on 'je n'aime pas le gris' en anglais ?;I don't like grey;I don't like yellow;I don't like juice;I don't like pink
+18212;Comment dit-on 'j'aime le pain' en anglais ?;I like bread;I like sheep;I like purple;I like dogs
+18213;Comment dit-on 'je n'aime pas le pain' en anglais ?;I don't like bread;I don't like pigs;I don't like cows;I don't like grey
+18214;Comment dit-on 'j'aime le lait' en anglais ?;I like milk;I like ducks;I like pigs;I like apples
+18215;Comment dit-on 'je n'aime pas le lait' en anglais ?;I don't like milk;I don't like juice;I don't like bananas;I don't like frogs
+18216;Comment dit-on 'j'aime le fromage' en anglais ?;I like cheese;I like juice;I like bananas;I like pigs
+18217;Comment dit-on 'je n'aime pas le fromage' en anglais ?;I don't like cheese;I don't like black;I don't like eggs;I don't like juice
+18218;Comment dit-on 'j'aime le chocolat' en anglais ?;I like chocolate;I like bananas;I like cats;I like dogs
+18219;Comment dit-on 'je n'aime pas le chocolat' en anglais ?;I don't like chocolate;I don't like white;I don't like purple;I don't like orange
+18220;Comment dit-on 'j'aime l'eau' en anglais ?;I like water;I like chocolate;I like fish;I like orange
+18221;Comment dit-on 'je n'aime pas l'eau' en anglais ?;I don't like water;I don't like cheese;I don't like black;I don't like horses
+18222;Comment dit-on 'j'aime le jus de fruit' en anglais ?;I like juice;I like horses;I like cats;I like sheep
+18223;Comment dit-on 'je n'aime pas le jus de fruit' en anglais ?;I don't like juice;I don't like horses;I don't like yellow;I don't like cheese
+18224;Comment dit-on 'j'aime les pommes' en anglais ?;I like apples;I like horses;I like fish;I like blue
+18225;Comment dit-on 'je n'aime pas les pommes' en anglais ?;I don't like apples;I don't like fish;I don't like ducks;I don't like red
+18226;Comment dit-on 'j'aime les bananes' en anglais ?;I like bananas;I like mice;I like cakes;I like fish
+18227;Comment dit-on 'je n'aime pas les bananes' en anglais ?;I don't like bananas;I don't like horses;I don't like chocolate;I don't like frogs
+18228;Comment dit-on 'j'aime les oeufs' en anglais ?;I like eggs;I like chocolate;I like apples;I like cows
+18229;Comment dit-on 'je n'aime pas les oeufs' en anglais ?;I don't like eggs;I don't like frogs;I don't like blue;I don't like fish
+18230;Comment dit-on 'j'aime les gâteaux' en anglais ?;I like cakes;I like cats;I like birds;I like grey
+18231;Comment dit-on 'je n'aime pas les gâteaux' en anglais ?;I don't like cakes;I don't like sheep;I don't like purple;I don't like blue
+18232;Comment dit-on 'j'aime les chiens' en anglais ?;I like dogs;I like birds;I like blue;I like white
+18233;Comment dit-on 'je n'aime pas les chiens' en anglais ?;I don't like dogs;I don't like cows;I don't like purple;I don't like sheep
+18234;Comment dit-on 'j'aime les chats' en anglais ?;I like cats;I like bread;I like yellow;I like juice
+18235;Comment dit-on 'je n'aime pas les chats' en anglais ?;I don't like cats;I don't like fish;I don't like cakes;I don't like cheese
+18236;Comment dit-on 'j'aime les souris' en anglais ?;I like mice;I like sheep;I like cakes;I like dogs
+18237;Comment dit-on 'je n'aime pas les souris' en anglais ?;I don't like mice;I don't like fish;I don't like apples;I don't like horses
+18238;Comment dit-on 'j'aime les lapins' en anglais ?;I like rabbits;I like juice;I like white;I like ducks
+18239;Comment dit-on 'je n'aime pas les lapins' en anglais ?;I don't like rabbits;I don't like blue;I don't like yellow;I don't like cats
+18240;Comment dit-on 'j'aime les poissons' en anglais ?;I like fish;I like chocolate;I like black;I like green
+18241;Comment dit-on 'je n'aime pas les poissons' en anglais ?;I don't like fish;I don't like blue;I don't like water;I don't like milk
+18242;Comment dit-on 'j'aime les oiseaux' en anglais ?;I like birds;I like blue;I like orange;I like water
+18243;Comment dit-on 'je n'aime pas les oiseaux' en anglais ?;I don't like birds;I don't like purple;I don't like ducks;I don't like pink
+18244;Comment dit-on 'j'aime les chevaux' en anglais ?;I like horses;I like cheese;I like sheep;I like juice
+18245;Comment dit-on 'je n'aime pas les chevaux' en anglais ?;I don't like horses;I don't like mice;I don't like grey;I don't like pink
+18246;Comment dit-on 'j'aime les vaches' en anglais ?;I like cows;I like grey;I like eggs;I like brown
+18247;Comment dit-on 'je n'aime pas les vaches' en anglais ?;I don't like cows;I don't like blue;I don't like eggs;I don't like rabbits
+18248;Comment dit-on 'j'aime les cochons' en anglais ?;I like pigs;I like fish;I like milk;I like black
+18249;Comment dit-on 'je n'aime pas les cochons' en anglais ?;I don't like pigs;I don't like water;I don't like brown;I don't like eggs
+18250;Comment dit-on 'j'aime les moutons' en anglais ?;I like sheep;I like pink;I like green;I like cats
+18251;Comment dit-on 'je n'aime pas les moutons' en anglais ?;I don't like sheep;I don't like horses;I don't like mice;I don't like black
+18252;Comment dit-on 'j'aime les canards' en anglais ?;I like ducks;I like dogs;I like red;I like birds
+18253;Comment dit-on 'je n'aime pas les canards' en anglais ?;I don't like ducks;I don't like frogs;I don't like brown;I don't like horses
+18254;Comment dit-on 'j'aime les grenouilles' en anglais ?;I like frogs;I like mice;I like pigs;I like orange
+18255;Comment dit-on 'je n'aime pas les grenouilles' en anglais ?;I don't like frogs;I don't like horses;I don't like bread;I don't like apples
+18256;Comment dit-on 'Ma couleur préférée est le rouge' en anglais ?;My favourite colour is red;My favourite colour is grey;My favourite colour is orange;My favourite colour is purple
+18257;Comment dit-on 'Ma couleur préférée est le bleu' en anglais ?;My favourite colour is blue;My favourite colour is purple;My favourite colour is pink;My favourite colour is white
+18258;Comment dit-on 'Ma couleur préférée est le vert' en anglais ?;My favourite colour is green;My favourite colour is brown;My favourite colour is black;My favourite colour is blue
+18259;Comment dit-on 'Ma couleur préférée est le jaune' en anglais ?;My favourite colour is yellow;My favourite colour is white;My favourite colour is purple;My favourite colour is black
+18260;Comment dit-on 'Ma couleur préférée est le noir' en anglais ?;My favourite colour is black;My favourite colour is purple;My favourite colour is pink;My favourite colour is brown
+18261;Comment dit-on 'Ma couleur préférée est le blanc' en anglais ?;My favourite colour is white;My favourite colour is red;My favourite colour is purple;My favourite colour is brown
+18262;Comment dit-on 'Ma couleur préférée est le marron' en anglais ?;My favourite colour is brown;My favourite colour is green;My favourite colour is purple;My favourite colour is yellow
+18263;Comment dit-on 'Ma couleur préférée est le rose' en anglais ?;My favourite colour is pink;My favourite colour is white;My favourite colour is black;My favourite colour is grey
+18264;Comment dit-on 'Ma couleur préférée est le violet' en anglais ?;My favourite colour is purple;My favourite colour is black;My favourite colour is grey;My favourite colour is red
+18265;Comment dit-on 'Ma couleur préférée est l'orange' en anglais ?;My favourite colour is orange;My favourite colour is purple;My favourite colour is yellow;My favourite colour is blue
+18266;Comment dit-on 'Ma couleur préférée est le gris' en anglais ?;My favourite colour is grey;My favourite colour is yellow;My favourite colour is brown;My favourite colour is pink
+18267;Comment dit-on 'j'ai quatre ans' en anglais ?;I'm 4 years old;I'm 9 years old;I'm 6 years old;I'm 7 years old
+18268;Comment dit-on 'j'ai cinq ans' en anglais ?;I'm 5 years old;I'm 8 years old;I'm 9 years old;I'm 6 years old
+18269;Comment dit-on 'j'ai six ans' en anglais ?;I'm 6 years old;I'm 4 years old;I'm 9 years old;I'm 5 years old
+18270;Comment dit-on 'j'ai sept ans' en anglais ?;I'm 7 years old;I'm 5 years old;I'm 8 years old;I'm 6 years old
+18271;Comment dit-on 'j'ai huit ans' en anglais ?;I'm 8 years old;I'm 5 years old;I'm 6 years old;I'm 7 years old
+18272;Comment dit-on 'j'ai neuf ans' en anglais ?;I'm 9 years old;I'm 8 years old;I'm 6 years old;I'm 5 years old
+18273;Comment dit-on 'j'ai un animal, c'est un/une chien' en anglais ?;I've got a pet, it's a dog;I've got a pet, it's a sheep;I've got a pet, it's a frog;I've got a pet, it's a horse
+18274;Comment dit-on 'j'ai un animal, c'est un/une chat' en anglais ?;I've got a pet, it's a cat;I've got a pet, it's a cow;I've got a pet, it's a sheep;I've got a pet, it's a horse
+18275;Comment dit-on 'j'ai un animal, c'est un/une souris' en anglais ?;I've got a pet, it's a mouse;I've got a pet, it's a horse;I've got a pet, it's a pig;I've got a pet, it's a bird
+18276;Comment dit-on 'j'ai un animal, c'est un/une lapin' en anglais ?;I've got a pet, it's a rabbit;I've got a pet, it's a bird;I've got a pet, it's a frog;I've got a pet, it's a fish
+18277;Comment dit-on 'j'ai un animal, c'est un/une poisson' en anglais ?;I've got a pet, it's a fish;I've got a pet, it's a cat;I've got a pet, it's a rabbit;I've got a pet, it's a horse
+18278;Comment dit-on 'j'ai un animal, c'est un/une oiseau' en anglais ?;I've got a pet, it's a bird;I've got a pet, it's a cat;I've got a pet, it's a sheep;I've got a pet, it's a mouse
+18279;Comment dit-on 'j'ai un animal, c'est un/une cheval' en anglais ?;I've got a pet, it's a horse;I've got a pet, it's a rabbit;I've got a pet, it's a frog;I've got a pet, it's a pig
+18280;Comment dit-on 'j'ai un animal, c'est un/une vache' en anglais ?;I've got a pet, it's a cow;I've got a pet, it's a fish;I've got a pet, it's a duck;I've got a pet, it's a sheep
+18281;Comment dit-on 'j'ai un animal, c'est un/une cochon' en anglais ?;I've got a pet, it's a pig;I've got a pet, it's a duck;I've got a pet, it's a fish;I've got a pet, it's a cat
+18282;Comment dit-on 'j'ai un animal, c'est un/une mouton' en anglais ?;I've got a pet, it's a sheep;I've got a pet, it's a rabbit;I've got a pet, it's a fish;I've got a pet, it's a frog
+18283;Comment dit-on 'j'ai un animal, c'est un/une canard' en anglais ?;I've got a pet, it's a duck;I've got a pet, it's a bird;I've got a pet, it's a mouse;I've got a pet, it's a fish
+18284;Comment dit-on 'j'ai un animal, c'est un/une grenouille' en anglais ?;I've got a pet, it's a frog;I've got a pet, it's a dog;I've got a pet, it's a pig;I've got a pet, it's a mouse
+18285;Comment dit-on 'il fait ensoleillé' en anglais ?;It's sunny;It's cloudy;It's rainy;It's snowy
+18286;Comment dit-on 'il fait pluvieux' en anglais ?;It's rainy;It's cloudy;It's snowy;It's sunny
+18287;Comment dit-on 'il fait venteux' en anglais ?;It's windy;It's snowy;It's sunny;It's cloudy
+18288;Comment dit-on 'il fait nuageux' en anglais ?;It's cloudy;It's windy;It's rainy;It's snowy
+18289;Comment dit-on 'il fait neigeux' en anglais ?;It's snowy;It's cloudy;It's rainy;It's sunny
+18290;Comment dit-on 'Voici maman' en anglais ?;This is my mum;This is my dad;This is my brother;This is my grandma
+18291;Comment dit-on 'Voici papa' en anglais ?;This is my dad;This is my mum;This is my baby;This is my grandma
+18292;Comment dit-on 'Voici ma soeur' en anglais ?;This is my sister;This is my grandma;This is my mum;This is my grandpa
+18293;Comment dit-on 'Voici mon frère' en anglais ?;This is my brother;This is my dad;This is my baby;This is my sister
+18294;Comment dit-on 'Voici ma grand-mère' en anglais ?;This is my grandma;This is my mum;This is my dad;This is my baby
+18295;Comment dit-on 'Voici mon grand-père' en anglais ?;This is my grandpa;This is my grandma;This is my brother;This is my dad
+18296;Comment dit-on 'Voici mon bébé' en anglais ?;This is my baby;This is my grandma;This is my brother;This is my grandpa
+18297;Comment dit-on 'je suis content' en anglais ?;I'm happy;I'm tired;I'm scared;I'm hungry
+18298;Comment dit-on 'je suis triste' en anglais ?;I'm sad;I'm tired;I'm scared;I'm hungry
+18299;Comment dit-on 'je suis fâché' en anglais ?;I'm angry;I'm hungry;I'm happy;I'm scared
+18300;Comment dit-on 'je suis apeuré' en anglais ?;I'm scared;I'm happy;I'm sad;I'm angry
+18301;Comment dit-on 'je suis fatigué' en anglais ?;I'm tired;I'm sad;I'm angry;I'm scared
+18302;Comment dit-on 'je suis affamé' en anglais ?;I'm hungry;I'm happy;I'm sad;I'm tired
+18303;Comment dit-on 'Touche ta tête' en anglais ?;Touch your head;Touch your toes;Touch your knees;Touch your hands
+18304;Comment dit-on 'Touche tes épaules' en anglais ?;Touch your shoulders;Touch your head;Touch your nose;Touch your eyes
+18305;Comment dit-on 'Touche tes genoux' en anglais ?;Touch your knees;Touch your hands;Touch your ears;Touch your head
+18306;Comment dit-on 'Touche tes orteils' en anglais ?;Touch your toes;Touch your eyes;Touch your ears;Touch your mouth
+18307;Comment dit-on 'Touche tes yeux' en anglais ?;Touch your eyes;Touch your ears;Touch your hands;Touch your head
+18308;Comment dit-on 'Touche tes oreilles' en anglais ?;Touch your ears;Touch your toes;Touch your eyes;Touch your nose
+18309;Comment dit-on 'Touche ta bouche' en anglais ?;Touch your mouth;Touch your toes;Touch your nose;Touch your head
+18310;Comment dit-on 'Touche ton nez' en anglais ?;Touch your nose;Touch your feet;Touch your toes;Touch your ears
+18311;Comment dit-on 'Touche tes mains' en anglais ?;Touch your hands;Touch your knees;Touch your eyes;Touch your mouth
+18312;Comment dit-on 'Touche tes pieds' en anglais ?;Touch your feet;Touch your knees;Touch your shoulders;Touch your head
+18313;Comment dit-on 'lève-toi' en anglais ?;stand up;jump;listen;run
+18314;Comment dit-on 'assieds-toi' en anglais ?;sit down;stop;clap your hands;be quiet
+18315;Comment dit-on 'tape des mains' en anglais ?;clap your hands;listen;come here;be quiet
+18316;Comment dit-on 'saute' en anglais ?;jump;walk;be quiet;stop
+18317;Comment dit-on 'tourne sur toi-même' en anglais ?;turn around;stop;sit down;stand up
+18318;Comment dit-on 'écoute' en anglais ?;listen;come here;look;turn around
+18319;Comment dit-on 'regarde' en anglais ?;look;stand up;sit down;jump
+18320;Comment dit-on 'viens ici' en anglais ?;come here;be quiet;run;stand up
+18321;Comment dit-on 'arrête-toi' en anglais ?;stop;be quiet;turn around;stand up
+18322;Comment dit-on 'marche' en anglais ?;walk;clap your hands;come here;stop
+18323;Comment dit-on 'cours' en anglais ?;run;be quiet;come here;turn around
+18324;Comment dit-on 'tais-toi' en anglais ?;be quiet;clap your hands;walk;look
+18325;Comment dit-on 'Prends ton crayon' en anglais ?;Take your pencil;Take your chair;Take your ruler;Take your book
+18326;Comment dit-on 'Prends ta gomme' en anglais ?;Take your rubber;Take your glue;Take your scissors;Take your schoolbag
+18327;Comment dit-on 'Prends ta règle' en anglais ?;Take your ruler;Take your glue;Take your rubber;Take your scissors
+18328;Comment dit-on 'Prends ton cartable' en anglais ?;Take your schoolbag;Take your ruler;Take your glue;Take your book
+18329;Comment dit-on 'Prends ton livre' en anglais ?;Take your book;Take your chair;Take your pen;Take your glue
+18330;Comment dit-on 'Prends ton stylo' en anglais ?;Take your pen;Take your scissors;Take your pencil;Take your schoolbag
+18331;Comment dit-on 'Prends ta colle' en anglais ?;Take your glue;Take your rubber;Take your pen;Take your ruler
+18332;Comment dit-on 'Prends tes ciseaux' en anglais ?;Take your scissors;Take your pen;Take your rubber;Take your glue
+18333;Comment dit-on 'Prends ta chaise' en anglais ?;Take your chair;Take your glue;Take your pencil;Take your pen
+18334;Comment dit-on 'Prends ta table' en anglais ?;Take your table;Take your chair;Take your scissors;Take your schoolbag
+18335;Comment dit-on 'j'ai deux pommes' en anglais ?;I have 2 apples;I have 2 eggs;I have 2 pencils;I have 2 cats
+18336;Que veut dire 'I have 2 apples' en français ?;j'ai deux pommes;j'ai deux lapins;j'ai deux chiens;j'ai deux vaches
+18337;Comment dit-on 'j'ai deux bananes' en anglais ?;I have 2 bananas;I have 2 frogs;I have 2 birds;I have 2 pens
+18338;Que veut dire 'I have 2 bananas' en français ?;j'ai deux bananes;j'ai deux oeufs;j'ai deux crayons;j'ai deux gommes
+18339;Comment dit-on 'j'ai deux oeufs' en anglais ?;I have 2 eggs;I have 2 rubbers;I have 2 ducks;I have 2 frogs
+18340;Que veut dire 'I have 2 eggs' en français ?;j'ai deux oeufs;j'ai deux canards;j'ai deux grenouilles;j'ai deux lapins
+18341;Comment dit-on 'j'ai deux gâteaux' en anglais ?;I have 2 cakes;I have 2 frogs;I have 2 bananas;I have 2 apples
+18342;Que veut dire 'I have 2 cakes' en français ?;j'ai deux gâteaux;j'ai deux stylos;j'ai deux lapins;j'ai deux oeufs
+18343;Comment dit-on 'j'ai deux crayons' en anglais ?;I have 2 pencils;I have 2 dogs;I have 2 cats;I have 2 apples
+18344;Que veut dire 'I have 2 pencils' en français ?;j'ai deux crayons;j'ai deux cochons;j'ai deux bananes;j'ai deux gâteaux
+18345;Comment dit-on 'j'ai deux gommes' en anglais ?;I have 2 rubbers;I have 2 cakes;I have 2 pens;I have 2 bananas
+18346;Que veut dire 'I have 2 rubbers' en français ?;j'ai deux gommes;j'ai deux crayons;j'ai deux stylos;j'ai deux lapins
+18347;Comment dit-on 'j'ai deux règles' en anglais ?;I have 2 rulers;I have 2 dogs;I have 2 cats;I have 2 rabbits
+18348;Que veut dire 'I have 2 rulers' en français ?;j'ai deux règles;j'ai deux chats;j'ai deux livres;j'ai deux cochons
+18349;Comment dit-on 'j'ai deux livres' en anglais ?;I have 2 books;I have 2 frogs;I have 2 pens;I have 2 cakes
+18350;Que veut dire 'I have 2 books' en français ?;j'ai deux livres;j'ai deux canards;j'ai deux chats;j'ai deux oeufs
+18351;Comment dit-on 'j'ai deux stylos' en anglais ?;I have 2 pens;I have 2 cows;I have 2 cakes;I have 2 dogs
+18352;Que veut dire 'I have 2 pens' en français ?;j'ai deux stylos;j'ai deux crayons;j'ai deux cochons;j'ai deux bananes
+18353;Comment dit-on 'j'ai deux chats' en anglais ?;I have 2 cats;I have 2 pens;I have 2 cows;I have 2 ducks
+18354;Que veut dire 'I have 2 cats' en français ?;j'ai deux chats;j'ai deux cochons;j'ai deux gommes;j'ai deux vaches
+18355;Comment dit-on 'j'ai deux chiens' en anglais ?;I have 2 dogs;I have 2 pens;I have 2 pigs;I have 2 apples
+18356;Que veut dire 'I have 2 dogs' en français ?;j'ai deux chiens;j'ai deux chats;j'ai deux lapins;j'ai deux crayons
+18357;Comment dit-on 'j'ai deux oiseaux' en anglais ?;I have 2 birds;I have 2 frogs;I have 2 pigs;I have 2 eggs
+18358;Que veut dire 'I have 2 birds' en français ?;j'ai deux oiseaux;j'ai deux canards;j'ai deux stylos;j'ai deux livres
+18359;Comment dit-on 'j'ai deux lapins' en anglais ?;I have 2 rabbits;I have 2 birds;I have 2 rubbers;I have 2 pens
+18360;Que veut dire 'I have 2 rabbits' en français ?;j'ai deux lapins;j'ai deux vaches;j'ai deux livres;j'ai deux gommes
+18361;Comment dit-on 'j'ai deux vaches' en anglais ?;I have 2 cows;I have 2 rulers;I have 2 birds;I have 2 cakes
+18362;Que veut dire 'I have 2 cows' en français ?;j'ai deux vaches;j'ai deux lapins;j'ai deux gâteaux;j'ai deux cochons
+18363;Comment dit-on 'j'ai deux cochons' en anglais ?;I have 2 pigs;I have 2 cows;I have 2 apples;I have 2 rubbers
+18364;Que veut dire 'I have 2 pigs' en français ?;j'ai deux cochons;j'ai deux grenouilles;j'ai deux oiseaux;j'ai deux lapins
+18365;Comment dit-on 'j'ai deux canards' en anglais ?;I have 2 ducks;I have 2 rabbits;I have 2 rulers;I have 2 dogs
+18366;Que veut dire 'I have 2 ducks' en français ?;j'ai deux canards;j'ai deux crayons;j'ai deux livres;j'ai deux pommes
+18367;Comment dit-on 'j'ai deux grenouilles' en anglais ?;I have 2 frogs;I have 2 pencils;I have 2 pens;I have 2 cats
+18368;Que veut dire 'I have 2 frogs' en français ?;j'ai deux grenouilles;j'ai deux chiens;j'ai deux vaches;j'ai deux bananes
+18369;Comment dit-on 'j'ai trois pommes' en anglais ?;I have 3 apples;I have 3 ducks;I have 3 eggs;I have 3 cats
+18370;Que veut dire 'I have 3 apples' en français ?;j'ai trois pommes;j'ai trois canards;j'ai trois bananes;j'ai trois lapins
+18371;Comment dit-on 'j'ai trois bananes' en anglais ?;I have 3 bananas;I have 3 rubbers;I have 3 books;I have 3 pigs
+18372;Que veut dire 'I have 3 bananas' en français ?;j'ai trois bananes;j'ai trois gommes;j'ai trois oeufs;j'ai trois stylos
+18373;Comment dit-on 'j'ai trois oeufs' en anglais ?;I have 3 eggs;I have 3 cats;I have 3 rulers;I have 3 dogs
+18374;Que veut dire 'I have 3 eggs' en français ?;j'ai trois oeufs;j'ai trois vaches;j'ai trois oiseaux;j'ai trois bananes
+18375;Comment dit-on 'j'ai trois gâteaux' en anglais ?;I have 3 cakes;I have 3 birds;I have 3 pigs;I have 3 frogs
+18376;Que veut dire 'I have 3 cakes' en français ?;j'ai trois gâteaux;j'ai trois vaches;j'ai trois règles;j'ai trois oiseaux
+18377;Comment dit-on 'j'ai trois crayons' en anglais ?;I have 3 pencils;I have 3 frogs;I have 3 pigs;I have 3 cats
+18378;Que veut dire 'I have 3 pencils' en français ?;j'ai trois crayons;j'ai trois bananes;j'ai trois chiens;j'ai trois grenouilles
+18379;Comment dit-on 'j'ai trois gommes' en anglais ?;I have 3 rubbers;I have 3 pens;I have 3 birds;I have 3 ducks
+18380;Que veut dire 'I have 3 rubbers' en français ?;j'ai trois gommes;j'ai trois chiens;j'ai trois gâteaux;j'ai trois lapins
+18381;Comment dit-on 'j'ai trois règles' en anglais ?;I have 3 rulers;I have 3 eggs;I have 3 books;I have 3 bananas
+18382;Que veut dire 'I have 3 rulers' en français ?;j'ai trois règles;j'ai trois gâteaux;j'ai trois stylos;j'ai trois oeufs
+18383;Comment dit-on 'j'ai trois livres' en anglais ?;I have 3 books;I have 3 dogs;I have 3 ducks;I have 3 apples
+18384;Que veut dire 'I have 3 books' en français ?;j'ai trois livres;j'ai trois bananes;j'ai trois gommes;j'ai trois vaches
+18385;Comment dit-on 'j'ai trois stylos' en anglais ?;I have 3 pens;I have 3 bananas;I have 3 pencils;I have 3 rubbers
+18386;Que veut dire 'I have 3 pens' en français ?;j'ai trois stylos;j'ai trois lapins;j'ai trois règles;j'ai trois oeufs
+18387;Comment dit-on 'j'ai trois chats' en anglais ?;I have 3 cats;I have 3 books;I have 3 pens;I have 3 rulers
+18388;Que veut dire 'I have 3 cats' en français ?;j'ai trois chats;j'ai trois gommes;j'ai trois oeufs;j'ai trois canards
+18389;Comment dit-on 'j'ai trois chiens' en anglais ?;I have 3 dogs;I have 3 eggs;I have 3 cats;I have 3 pigs
+18390;Que veut dire 'I have 3 dogs' en français ?;j'ai trois chiens;j'ai trois vaches;j'ai trois chats;j'ai trois oiseaux
+18391;Comment dit-on 'j'ai trois oiseaux' en anglais ?;I have 3 birds;I have 3 books;I have 3 frogs;I have 3 cats
+18392;Que veut dire 'I have 3 birds' en français ?;j'ai trois oiseaux;j'ai trois crayons;j'ai trois gâteaux;j'ai trois livres
+18393;Comment dit-on 'j'ai trois lapins' en anglais ?;I have 3 rabbits;I have 3 pens;I have 3 books;I have 3 pencils
+18394;Que veut dire 'I have 3 rabbits' en français ?;j'ai trois lapins;j'ai trois pommes;j'ai trois canards;j'ai trois vaches
+18395;Comment dit-on 'j'ai trois vaches' en anglais ?;I have 3 cows;I have 3 ducks;I have 3 frogs;I have 3 pencils
+18396;Que veut dire 'I have 3 cows' en français ?;j'ai trois vaches;j'ai trois gommes;j'ai trois bananes;j'ai trois livres
+18397;Comment dit-on 'j'ai trois cochons' en anglais ?;I have 3 pigs;I have 3 birds;I have 3 cats;I have 3 pencils
+18398;Que veut dire 'I have 3 pigs' en français ?;j'ai trois cochons;j'ai trois vaches;j'ai trois oiseaux;j'ai trois crayons
+18399;Comment dit-on 'j'ai trois canards' en anglais ?;I have 3 ducks;I have 3 pigs;I have 3 cows;I have 3 pencils
+18400;Que veut dire 'I have 3 ducks' en français ?;j'ai trois canards;j'ai trois règles;j'ai trois grenouilles;j'ai trois vaches
+18401;Comment dit-on 'j'ai trois grenouilles' en anglais ?;I have 3 frogs;I have 3 ducks;I have 3 bananas;I have 3 cakes
+18402;Que veut dire 'I have 3 frogs' en français ?;j'ai trois grenouilles;j'ai trois lapins;j'ai trois chats;j'ai trois gommes
+18403;Comment dit-on 'j'ai quatre pommes' en anglais ?;I have 4 apples;I have 4 dogs;I have 4 rabbits;I have 4 rubbers
+18404;Que veut dire 'I have 4 apples' en français ?;j'ai quatre pommes;j'ai quatre bananes;j'ai quatre cochons;j'ai quatre oiseaux
+18405;Comment dit-on 'j'ai quatre bananes' en anglais ?;I have 4 bananas;I have 4 cows;I have 4 rubbers;I have 4 apples
+18406;Que veut dire 'I have 4 bananas' en français ?;j'ai quatre bananes;j'ai quatre oeufs;j'ai quatre canards;j'ai quatre chiens
+18407;Comment dit-on 'j'ai quatre oeufs' en anglais ?;I have 4 eggs;I have 4 frogs;I have 4 pigs;I have 4 rubbers
+18408;Que veut dire 'I have 4 eggs' en français ?;j'ai quatre oeufs;j'ai quatre stylos;j'ai quatre chiens;j'ai quatre vaches
+18409;Comment dit-on 'j'ai quatre gâteaux' en anglais ?;I have 4 cakes;I have 4 rabbits;I have 4 pencils;I have 4 birds
+18410;Que veut dire 'I have 4 cakes' en français ?;j'ai quatre gâteaux;j'ai quatre livres;j'ai quatre chiens;j'ai quatre gommes
+18411;Comment dit-on 'j'ai quatre crayons' en anglais ?;I have 4 pencils;I have 4 rubbers;I have 4 birds;I have 4 bananas
+18412;Que veut dire 'I have 4 pencils' en français ?;j'ai quatre crayons;j'ai quatre bananes;j'ai quatre gommes;j'ai quatre vaches
+18413;Comment dit-on 'j'ai quatre gommes' en anglais ?;I have 4 rubbers;I have 4 ducks;I have 4 apples;I have 4 dogs
+18414;Que veut dire 'I have 4 rubbers' en français ?;j'ai quatre gommes;j'ai quatre lapins;j'ai quatre grenouilles;j'ai quatre oeufs
+18415;Comment dit-on 'j'ai quatre règles' en anglais ?;I have 4 rulers;I have 4 eggs;I have 4 ducks;I have 4 pencils
+18416;Que veut dire 'I have 4 rulers' en français ?;j'ai quatre règles;j'ai quatre oiseaux;j'ai quatre lapins;j'ai quatre livres
+18417;Comment dit-on 'j'ai quatre livres' en anglais ?;I have 4 books;I have 4 rubbers;I have 4 cakes;I have 4 eggs
+18418;Que veut dire 'I have 4 books' en français ?;j'ai quatre livres;j'ai quatre lapins;j'ai quatre chats;j'ai quatre canards
+18419;Comment dit-on 'j'ai quatre stylos' en anglais ?;I have 4 pens;I have 4 cats;I have 4 pigs;I have 4 eggs
+18420;Que veut dire 'I have 4 pens' en français ?;j'ai quatre stylos;j'ai quatre chats;j'ai quatre canards;j'ai quatre cochons
+18421;Comment dit-on 'j'ai quatre chats' en anglais ?;I have 4 cats;I have 4 frogs;I have 4 cows;I have 4 pencils
+18422;Que veut dire 'I have 4 cats' en français ?;j'ai quatre chats;j'ai quatre oiseaux;j'ai quatre vaches;j'ai quatre bananes
+18423;Comment dit-on 'j'ai quatre chiens' en anglais ?;I have 4 dogs;I have 4 ducks;I have 4 bananas;I have 4 eggs
+18424;Que veut dire 'I have 4 dogs' en français ?;j'ai quatre chiens;j'ai quatre livres;j'ai quatre cochons;j'ai quatre oiseaux
+18425;Comment dit-on 'j'ai quatre oiseaux' en anglais ?;I have 4 birds;I have 4 cows;I have 4 pigs;I have 4 frogs
+18426;Que veut dire 'I have 4 birds' en français ?;j'ai quatre oiseaux;j'ai quatre lapins;j'ai quatre bananes;j'ai quatre vaches
+18427;Comment dit-on 'j'ai quatre lapins' en anglais ?;I have 4 rabbits;I have 4 cows;I have 4 apples;I have 4 pencils
+18428;Que veut dire 'I have 4 rabbits' en français ?;j'ai quatre lapins;j'ai quatre gâteaux;j'ai quatre livres;j'ai quatre gommes
+18429;Comment dit-on 'j'ai quatre vaches' en anglais ?;I have 4 cows;I have 4 pens;I have 4 cats;I have 4 rulers
+18430;Que veut dire 'I have 4 cows' en français ?;j'ai quatre vaches;j'ai quatre oiseaux;j'ai quatre bananes;j'ai quatre chiens
+18431;Comment dit-on 'j'ai quatre cochons' en anglais ?;I have 4 pigs;I have 4 books;I have 4 frogs;I have 4 apples
+18432;Que veut dire 'I have 4 pigs' en français ?;j'ai quatre cochons;j'ai quatre chiens;j'ai quatre canards;j'ai quatre chats
+18433;Comment dit-on 'j'ai quatre canards' en anglais ?;I have 4 ducks;I have 4 books;I have 4 dogs;I have 4 bananas
+18434;Que veut dire 'I have 4 ducks' en français ?;j'ai quatre canards;j'ai quatre cochons;j'ai quatre grenouilles;j'ai quatre oiseaux
+18435;Comment dit-on 'j'ai quatre grenouilles' en anglais ?;I have 4 frogs;I have 4 cats;I have 4 dogs;I have 4 rulers
+18436;Que veut dire 'I have 4 frogs' en français ?;j'ai quatre grenouilles;j'ai quatre gâteaux;j'ai quatre oeufs;j'ai quatre pommes
+18437;Comment dit-on 'j'ai cinq pommes' en anglais ?;I have 5 apples;I have 5 eggs;I have 5 rubbers;I have 5 pens
+18438;Que veut dire 'I have 5 apples' en français ?;j'ai cinq pommes;j'ai cinq crayons;j'ai cinq oeufs;j'ai cinq grenouilles
+18439;Comment dit-on 'j'ai cinq bananes' en anglais ?;I have 5 bananas;I have 5 rubbers;I have 5 books;I have 5 pens
+18440;Que veut dire 'I have 5 bananas' en français ?;j'ai cinq bananes;j'ai cinq lapins;j'ai cinq oiseaux;j'ai cinq grenouilles
+18441;Comment dit-on 'j'ai cinq oeufs' en anglais ?;I have 5 eggs;I have 5 pigs;I have 5 dogs;I have 5 rabbits
+18442;Que veut dire 'I have 5 eggs' en français ?;j'ai cinq oeufs;j'ai cinq gommes;j'ai cinq canards;j'ai cinq livres
+18443;Comment dit-on 'j'ai cinq gâteaux' en anglais ?;I have 5 cakes;I have 5 pencils;I have 5 pigs;I have 5 pens
+18444;Que veut dire 'I have 5 cakes' en français ?;j'ai cinq gâteaux;j'ai cinq cochons;j'ai cinq gommes;j'ai cinq pommes
+18445;Comment dit-on 'j'ai cinq crayons' en anglais ?;I have 5 pencils;I have 5 rabbits;I have 5 cakes;I have 5 pens
+18446;Que veut dire 'I have 5 pencils' en français ?;j'ai cinq crayons;j'ai cinq canards;j'ai cinq gâteaux;j'ai cinq cochons
+18447;Comment dit-on 'j'ai cinq gommes' en anglais ?;I have 5 rubbers;I have 5 rabbits;I have 5 bananas;I have 5 birds
+18448;Que veut dire 'I have 5 rubbers' en français ?;j'ai cinq gommes;j'ai cinq lapins;j'ai cinq chats;j'ai cinq oiseaux
+18449;Comment dit-on 'j'ai cinq règles' en anglais ?;I have 5 rulers;I have 5 rabbits;I have 5 apples;I have 5 books
+18450;Que veut dire 'I have 5 rulers' en français ?;j'ai cinq règles;j'ai cinq chats;j'ai cinq gâteaux;j'ai cinq bananes
+18451;Comment dit-on 'j'ai cinq livres' en anglais ?;I have 5 books;I have 5 ducks;I have 5 bananas;I have 5 birds
+18452;Que veut dire 'I have 5 books' en français ?;j'ai cinq livres;j'ai cinq règles;j'ai cinq oiseaux;j'ai cinq canards
+18453;Comment dit-on 'j'ai cinq stylos' en anglais ?;I have 5 pens;I have 5 apples;I have 5 frogs;I have 5 cows
+18454;Que veut dire 'I have 5 pens' en français ?;j'ai cinq stylos;j'ai cinq oiseaux;j'ai cinq gâteaux;j'ai cinq oeufs
+18455;Comment dit-on 'j'ai cinq chats' en anglais ?;I have 5 cats;I have 5 rulers;I have 5 bananas;I have 5 pigs
+18456;Que veut dire 'I have 5 cats' en français ?;j'ai cinq chats;j'ai cinq règles;j'ai cinq chiens;j'ai cinq gâteaux
+18457;Comment dit-on 'j'ai cinq chiens' en anglais ?;I have 5 dogs;I have 5 books;I have 5 rubbers;I have 5 cows
+18458;Que veut dire 'I have 5 dogs' en français ?;j'ai cinq chiens;j'ai cinq crayons;j'ai cinq vaches;j'ai cinq chats
+18459;Comment dit-on 'j'ai cinq oiseaux' en anglais ?;I have 5 birds;I have 5 apples;I have 5 pencils;I have 5 pigs
+18460;Que veut dire 'I have 5 birds' en français ?;j'ai cinq oiseaux;j'ai cinq crayons;j'ai cinq oeufs;j'ai cinq stylos
+18461;Comment dit-on 'j'ai cinq lapins' en anglais ?;I have 5 rabbits;I have 5 pens;I have 5 cows;I have 5 eggs
+18462;Que veut dire 'I have 5 rabbits' en français ?;j'ai cinq lapins;j'ai cinq gâteaux;j'ai cinq chiens;j'ai cinq cochons
+18463;Comment dit-on 'j'ai cinq vaches' en anglais ?;I have 5 cows;I have 5 apples;I have 5 eggs;I have 5 frogs
+18464;Que veut dire 'I have 5 cows' en français ?;j'ai cinq vaches;j'ai cinq oiseaux;j'ai cinq lapins;j'ai cinq canards
+18465;Comment dit-on 'j'ai cinq cochons' en anglais ?;I have 5 pigs;I have 5 books;I have 5 cats;I have 5 rubbers
+18466;Que veut dire 'I have 5 pigs' en français ?;j'ai cinq cochons;j'ai cinq pommes;j'ai cinq oeufs;j'ai cinq crayons
+18467;Comment dit-on 'j'ai cinq canards' en anglais ?;I have 5 ducks;I have 5 bananas;I have 5 eggs;I have 5 birds
+18468;Que veut dire 'I have 5 ducks' en français ?;j'ai cinq canards;j'ai cinq vaches;j'ai cinq stylos;j'ai cinq bananes
+18469;Comment dit-on 'j'ai cinq grenouilles' en anglais ?;I have 5 frogs;I have 5 eggs;I have 5 books;I have 5 pigs
+18470;Que veut dire 'I have 5 frogs' en français ?;j'ai cinq grenouilles;j'ai cinq oiseaux;j'ai cinq stylos;j'ai cinq chats
+18471;Comment dit-on 'j'ai six pommes' en anglais ?;I have 6 apples;I have 6 pencils;I have 6 pens;I have 6 cats
+18472;Que veut dire 'I have 6 apples' en français ?;j'ai six pommes;j'ai six stylos;j'ai six chiens;j'ai six bananes
+18473;Comment dit-on 'j'ai six bananes' en anglais ?;I have 6 bananas;I have 6 dogs;I have 6 pens;I have 6 birds
+18474;Que veut dire 'I have 6 bananas' en français ?;j'ai six bananes;j'ai six pommes;j'ai six grenouilles;j'ai six stylos
+18475;Comment dit-on 'j'ai six oeufs' en anglais ?;I have 6 eggs;I have 6 cows;I have 6 books;I have 6 birds
+18476;Que veut dire 'I have 6 eggs' en français ?;j'ai six oeufs;j'ai six crayons;j'ai six stylos;j'ai six lapins
+18477;Comment dit-on 'j'ai six gâteaux' en anglais ?;I have 6 cakes;I have 6 ducks;I have 6 bananas;I have 6 frogs
+18478;Que veut dire 'I have 6 cakes' en français ?;j'ai six gâteaux;j'ai six oiseaux;j'ai six chiens;j'ai six oeufs
+18479;Comment dit-on 'j'ai six crayons' en anglais ?;I have 6 pencils;I have 6 eggs;I have 6 frogs;I have 6 rubbers
+18480;Que veut dire 'I have 6 pencils' en français ?;j'ai six crayons;j'ai six oiseaux;j'ai six livres;j'ai six chiens
+18481;Comment dit-on 'j'ai six gommes' en anglais ?;I have 6 rubbers;I have 6 dogs;I have 6 pens;I have 6 cats
+18482;Que veut dire 'I have 6 rubbers' en français ?;j'ai six gommes;j'ai six cochons;j'ai six bananes;j'ai six vaches
+18483;Comment dit-on 'j'ai six règles' en anglais ?;I have 6 rulers;I have 6 cakes;I have 6 pigs;I have 6 birds
+18484;Que veut dire 'I have 6 rulers' en français ?;j'ai six règles;j'ai six livres;j'ai six grenouilles;j'ai six stylos
+18485;Comment dit-on 'j'ai six livres' en anglais ?;I have 6 books;I have 6 pens;I have 6 rulers;I have 6 rubbers
+18486;Que veut dire 'I have 6 books' en français ?;j'ai six livres;j'ai six canards;j'ai six règles;j'ai six grenouilles
+18487;Comment dit-on 'j'ai six stylos' en anglais ?;I have 6 pens;I have 6 cakes;I have 6 rubbers;I have 6 rulers
+18488;Que veut dire 'I have 6 pens' en français ?;j'ai six stylos;j'ai six oiseaux;j'ai six grenouilles;j'ai six crayons
+18489;Comment dit-on 'j'ai six chats' en anglais ?;I have 6 cats;I have 6 rabbits;I have 6 eggs;I have 6 birds
+18490;Que veut dire 'I have 6 cats' en français ?;j'ai six chats;j'ai six grenouilles;j'ai six bananes;j'ai six canards
+18491;Comment dit-on 'j'ai six chiens' en anglais ?;I have 6 dogs;I have 6 eggs;I have 6 bananas;I have 6 rulers
+18492;Que veut dire 'I have 6 dogs' en français ?;j'ai six chiens;j'ai six gâteaux;j'ai six lapins;j'ai six canards
+18493;Comment dit-on 'j'ai six oiseaux' en anglais ?;I have 6 birds;I have 6 rabbits;I have 6 cows;I have 6 eggs
+18494;Que veut dire 'I have 6 birds' en français ?;j'ai six oiseaux;j'ai six bananes;j'ai six chats;j'ai six stylos
+18495;Comment dit-on 'j'ai six lapins' en anglais ?;I have 6 rabbits;I have 6 dogs;I have 6 frogs;I have 6 bananas
+18496;Que veut dire 'I have 6 rabbits' en français ?;j'ai six lapins;j'ai six cochons;j'ai six gommes;j'ai six grenouilles
+18497;Comment dit-on 'j'ai six vaches' en anglais ?;I have 6 cows;I have 6 pigs;I have 6 frogs;I have 6 birds
+18498;Que veut dire 'I have 6 cows' en français ?;j'ai six vaches;j'ai six bananes;j'ai six crayons;j'ai six chats
+18499;Comment dit-on 'j'ai six cochons' en anglais ?;I have 6 pigs;I have 6 cats;I have 6 rubbers;I have 6 bananas
+18500;Que veut dire 'I have 6 pigs' en français ?;j'ai six cochons;j'ai six règles;j'ai six oeufs;j'ai six chiens
+18501;Comment dit-on 'j'ai six canards' en anglais ?;I have 6 ducks;I have 6 frogs;I have 6 cakes;I have 6 cows
+18502;Que veut dire 'I have 6 ducks' en français ?;j'ai six canards;j'ai six gâteaux;j'ai six gommes;j'ai six vaches
+18503;Comment dit-on 'j'ai six grenouilles' en anglais ?;I have 6 frogs;I have 6 birds;I have 6 bananas;I have 6 rabbits
+18504;Que veut dire 'I have 6 frogs' en français ?;j'ai six grenouilles;j'ai six stylos;j'ai six chats;j'ai six gâteaux
+18505;Comment dit-on 'aujourd'hui, nous sommes lundi' en anglais ?;Today is monday;Today is friday;Today is saturday;Today is tuesday
+18506;Que veut dire 'Today is monday' en français ?;aujourd'hui, nous sommes lundi;aujourd'hui, nous sommes samedi;aujourd'hui, nous sommes jeudi;aujourd'hui, nous sommes mardi
+18507;Comment dit-on 'aujourd'hui, nous sommes mardi' en anglais ?;Today is tuesday;Today is wednesday;Today is thursday;Today is saturday
+18508;Que veut dire 'Today is tuesday' en français ?;aujourd'hui, nous sommes mardi;aujourd'hui, nous sommes jeudi;aujourd'hui, nous sommes dimanche;aujourd'hui, nous sommes lundi
+18509;Comment dit-on 'aujourd'hui, nous sommes mercredi' en anglais ?;Today is wednesday;Today is tuesday;Today is sunday;Today is friday
+18510;Que veut dire 'Today is wednesday' en français ?;aujourd'hui, nous sommes mercredi;aujourd'hui, nous sommes lundi;aujourd'hui, nous sommes mardi;aujourd'hui, nous sommes dimanche
+18511;Comment dit-on 'aujourd'hui, nous sommes jeudi' en anglais ?;Today is thursday;Today is monday;Today is saturday;Today is tuesday
+18512;Que veut dire 'Today is thursday' en français ?;aujourd'hui, nous sommes jeudi;aujourd'hui, nous sommes vendredi;aujourd'hui, nous sommes dimanche;aujourd'hui, nous sommes samedi
+18513;Comment dit-on 'aujourd'hui, nous sommes vendredi' en anglais ?;Today is friday;Today is wednesday;Today is tuesday;Today is sunday
+18514;Que veut dire 'Today is friday' en français ?;aujourd'hui, nous sommes vendredi;aujourd'hui, nous sommes mercredi;aujourd'hui, nous sommes dimanche;aujourd'hui, nous sommes lundi
+18515;Comment dit-on 'aujourd'hui, nous sommes samedi' en anglais ?;Today is saturday;Today is monday;Today is tuesday;Today is friday
+18516;Que veut dire 'Today is saturday' en français ?;aujourd'hui, nous sommes samedi;aujourd'hui, nous sommes vendredi;aujourd'hui, nous sommes lundi;aujourd'hui, nous sommes dimanche
+18517;Comment dit-on 'aujourd'hui, nous sommes dimanche' en anglais ?;Today is sunday;Today is wednesday;Today is thursday;Today is friday
+18518;Que veut dire 'Today is sunday' en français ?;aujourd'hui, nous sommes dimanche;aujourd'hui, nous sommes jeudi;aujourd'hui, nous sommes vendredi;aujourd'hui, nous sommes samedi

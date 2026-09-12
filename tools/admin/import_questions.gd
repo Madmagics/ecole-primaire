@@ -67,6 +67,7 @@ const SUBJECT_FOLDERS := {
 	"conjugaison": SubjectType.Subject.CONJUGATION,
 	"orthographe": SubjectType.Subject.SPELLING,
 	"english": SubjectType.Subject.ENGLISH,
+	"logique": SubjectType.Subject.LOGIC,
 	## "lecture" (READING) n'est PAS ici : une question de lecture est toujours liee a un texte
 	## (voir MATIERES_CANDIDATES.md), donc pas compatible avec l'import "1 ligne CSV = 1
 	## QuestionResource" de ce script - elle aura son propre outil d'import dedie.

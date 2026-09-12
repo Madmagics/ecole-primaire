@@ -433,9 +433,9 @@ choices = Array[String](["2", "6", "4"])
 [sub_resource type="Resource" id="Resource_jt82n"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Combien font 9 x 4 ?"
-correct_answer = "36"
-choices = Array[String](["37", "46", "26"])
+text = "Combien font 2 x 10 ?"
+correct_answer = "20"
+choices = Array[String](["16", "26", "15"])
 
 [sub_resource type="Resource" id="Resource_osgum"]
 script = ExtResource("1_1fdn6")
@@ -461,23 +461,23 @@ choices = Array[String](["28", "32", "31"])
 [sub_resource type="Resource" id="Resource_kto6g"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Combien font 9 x 3 ?"
-correct_answer = "27"
-choices = Array[String](["32", "30", "25"])
+text = "Combien font 5 x 3 ?"
+correct_answer = "15"
+choices = Array[String](["12", "13", "22"])
 
 [sub_resource type="Resource" id="Resource_nmlag"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Combien font 9 x 6 ?"
-correct_answer = "54"
-choices = Array[String](["44", "52", "51"])
+text = "Combien font 4 x 2 ?"
+correct_answer = "8"
+choices = Array[String](["10", "4", "13"])
 
 [sub_resource type="Resource" id="Resource_dkak0"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Combien font 4 x 9 ?"
-correct_answer = "36"
-choices = Array[String](["41", "35", "46"])
+text = "Combien font 10 x 8 ?"
+correct_answer = "80"
+choices = Array[String](["90", "84", "78"])
 
 [sub_resource type="Resource" id="Resource_7rccw"]
 script = ExtResource("1_1fdn6")
@@ -496,9 +496,9 @@ choices = Array[String](["19", "11", "26"])
 [sub_resource type="Resource" id="Resource_dhchv"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Combien font 9 x 7 ?"
-correct_answer = "63"
-choices = Array[String](["68", "61", "60"])
+text = "Combien font 5 x 9 ?"
+correct_answer = "45"
+choices = Array[String](["51", "43", "52"])
 
 [sub_resource type="Resource" id="Resource_ignf2"]
 script = ExtResource("1_1fdn6")
@@ -545,9 +545,9 @@ choices = Array[String](["7", "17", "13"])
 [sub_resource type="Resource" id="Resource_he7nt"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Combien font 4 x 6 ?"
-correct_answer = "24"
-choices = Array[String](["27", "14", "25"])
+text = "Combien font 9 x 10 ?"
+correct_answer = "90"
+choices = Array[String](["88", "93", "95"])
 
 [sub_resource type="Resource" id="Resource_fqhol"]
 script = ExtResource("1_1fdn6")
@@ -559,9 +559,9 @@ choices = Array[String](["43", "42", "50"])
 [sub_resource type="Resource" id="Resource_o3vd0"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Combien font 3 x 3 ?"
-correct_answer = "9"
-choices = Array[String](["19", "4", "14"])
+text = "Combien font 11 x 2 ?"
+correct_answer = "22"
+choices = Array[String](["24", "29", "23"])
 
 [sub_resource type="Resource" id="Resource_5frg8"]
 script = ExtResource("1_1fdn6")
@@ -601,9 +601,9 @@ choices = Array[String](["20", "7", "5"])
 [sub_resource type="Resource" id="Resource_eku8k"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Combien font 3 x 4 ?"
-correct_answer = "12"
-choices = Array[String](["2", "11", "22"])
+text = "Combien font 2 x 11 ?"
+correct_answer = "22"
+choices = Array[String](["18", "30", "23"])
 
 [sub_resource type="Resource" id="Resource_0bd7y"]
 script = ExtResource("1_1fdn6")
@@ -629,9 +629,9 @@ choices = Array[String](["5", "1", "4"])
 [sub_resource type="Resource" id="Resource_4l1oi"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Combien font 8 x 3 ?"
-correct_answer = "24"
-choices = Array[String](["27", "26", "34"])
+text = "Combien font 11 x 5 ?"
+correct_answer = "55"
+choices = Array[String](["56", "65", "64"])
 
 [sub_resource type="Resource" id="Resource_k3tky"]
 script = ExtResource("1_1fdn6")
@@ -643,9 +643,9 @@ choices = Array[String](["16", "4", "24"])
 [sub_resource type="Resource" id="Resource_pthbj"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Combien font 9 x 9 ?"
-correct_answer = "81"
-choices = Array[String](["78", "83", "76"])
+text = "Combien font 5 x 11 ?"
+correct_answer = "55"
+choices = Array[String](["58", "59", "62"])
 
 [sub_resource type="Resource" id="Resource_883g2"]
 script = ExtResource("1_1fdn6")
@@ -657,9 +657,9 @@ choices = Array[String](["11", "7", "3"])
 [sub_resource type="Resource" id="Resource_smsp5"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Combien font 6 x 7 ?"
-correct_answer = "42"
-choices = Array[String](["40", "45", "39"])
+text = "Combien font 11 x 10 ?"
+correct_answer = "110"
+choices = Array[String](["114", "116", "109"])
 
 [sub_resource type="Resource" id="Resource_nxlo8"]
 script = ExtResource("1_1fdn6")
@@ -699,9 +699,9 @@ choices = Array[String](["3", "7", "5"])
 [sub_resource type="Resource" id="Resource_vvqix"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Combien font 8 x 8 ?"
-correct_answer = "64"
-choices = Array[String](["74", "61", "65"])
+text = "Combien font 10 x 11 ?"
+correct_answer = "110"
+choices = Array[String](["106", "108", "117"])
 
 [sub_resource type="Resource" id="Resource_y8va0"]
 script = ExtResource("1_1fdn6")
@@ -867,9 +867,9 @@ choices = Array[String](["12", "7", "20"])
 [sub_resource type="Resource" id="Resource_mdys1"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Quelle est la moitié de 26 ?"
-correct_answer = "13"
-choices = Array[String](["23", "14", "18"])
+text = "Quelle est la moitié de 16 ?"
+correct_answer = "8"
+choices = Array[String](["6", "7", "9"])
 
 [sub_resource type="Resource" id="Resource_d6ql8"]
 script = ExtResource("1_1fdn6")
@@ -895,9 +895,9 @@ choices = Array[String](["17", "18", "25"])
 [sub_resource type="Resource" id="Resource_8simu"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Quelle est la moitié de 18 ?"
-correct_answer = "9"
-choices = Array[String](["19", "14", "7"])
+text = "Quelle est la moitié de 20 ?"
+correct_answer = "10"
+choices = Array[String](["8", "9", "11"])
 
 [sub_resource type="Resource" id="Resource_rx2st"]
 script = ExtResource("1_1fdn6")
@@ -1301,105 +1301,105 @@ choices = Array[String](["30", "19", "22"])
 [sub_resource type="Resource" id="Resource_2vjcs"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Ana a 14 pommes. Il/elle en reçoit 33 de plus. Combien Ana a-t-il/elle de pommes maintenant ?"
+text = "Ana a 14 pommes. Elle en reçoit 33 de plus. Combien Ana a-t-elle de pommes maintenant ?"
 correct_answer = "47"
 choices = Array[String](["57", "45", "49"])
 
 [sub_resource type="Resource" id="Resource_mbg0t"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Lou a 51 billes. Il/elle en reçoit 35 de plus. Combien Lou a-t-il/elle de billes maintenant ?"
+text = "Lou a 51 billes. Elle en reçoit 35 de plus. Combien Lou a-t-elle de billes maintenant ?"
 correct_answer = "86"
 choices = Array[String](["96", "76", "91"])
 
 [sub_resource type="Resource" id="Resource_dh6e8"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Lou a 50 ballons. Il/elle en reçoit 17 de plus. Combien Lou a-t-il/elle de ballons maintenant ?"
+text = "Lou a 50 ballons. Elle en reçoit 17 de plus. Combien Lou a-t-elle de ballons maintenant ?"
 correct_answer = "67"
 choices = Array[String](["69", "57", "72"])
 
 [sub_resource type="Resource" id="Resource_2hon2"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Ana a 42 pommes. Il/elle en reçoit 14 de plus. Combien Ana a-t-il/elle de pommes maintenant ?"
+text = "Ana a 42 pommes. Elle en reçoit 14 de plus. Combien Ana a-t-elle de pommes maintenant ?"
 correct_answer = "56"
 choices = Array[String](["46", "59", "51"])
 
 [sub_resource type="Resource" id="Resource_4ajyg"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Nina a 36 images. Il/elle en reçoit 15 de plus. Combien Nina a-t-il/elle d'images maintenant ?"
+text = "Nina a 36 images. Elle en reçoit 15 de plus. Combien Nina a-t-elle d'images maintenant ?"
 correct_answer = "51"
 choices = Array[String](["56", "48", "49"])
 
 [sub_resource type="Resource" id="Resource_xam37"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Ana a 36 ballons. Il/elle en reçoit 8 de plus. Combien Ana a-t-il/elle de ballons maintenant ?"
+text = "Ana a 36 ballons. Elle en reçoit 8 de plus. Combien Ana a-t-elle de ballons maintenant ?"
 correct_answer = "44"
 choices = Array[String](["47", "49", "34"])
 
 [sub_resource type="Resource" id="Resource_s5jcc"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Mia a 35 ballons. Il/elle en reçoit 39 de plus. Combien Mia a-t-il/elle de ballons maintenant ?"
+text = "Mia a 35 ballons. Elle en reçoit 39 de plus. Combien Mia a-t-elle de ballons maintenant ?"
 correct_answer = "74"
 choices = Array[String](["73", "77", "76"])
 
 [sub_resource type="Resource" id="Resource_bufiu"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Leo a 14 images. Il/elle en reçoit 21 de plus. Combien Leo a-t-il/elle d'images maintenant ?"
+text = "Leo a 14 images. Il en reçoit 21 de plus. Combien Leo a-t-il d'images maintenant ?"
 correct_answer = "35"
 choices = Array[String](["38", "33", "37"])
 
 [sub_resource type="Resource" id="Resource_6ktqv"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Ana a 31 gâteaux. Il/elle en reçoit 29 de plus. Combien Ana a-t-il/elle de gâteaux maintenant ?"
+text = "Ana a 31 gâteaux. Elle en reçoit 29 de plus. Combien Ana a-t-elle de gâteaux maintenant ?"
 correct_answer = "60"
 choices = Array[String](["61", "70", "55"])
 
 [sub_resource type="Resource" id="Resource_mvb2k"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Leo a 40 jouets. Il/elle en reçoit 36 de plus. Combien Leo a-t-il/elle de jouets maintenant ?"
+text = "Leo a 40 jouets. Il en reçoit 36 de plus. Combien Leo a-t-il de jouets maintenant ?"
 correct_answer = "76"
 choices = Array[String](["86", "74", "81"])
 
 [sub_resource type="Resource" id="Resource_ussmf"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Nina a 79 bonbons. Il/elle en donne 14. Combien lui en reste-t-il ?"
+text = "Nina a 79 bonbons. Elle en donne 14. Combien lui en reste-t-il ?"
 correct_answer = "65"
 choices = Array[String](["68", "63", "60"])
 
 [sub_resource type="Resource" id="Resource_tkvew"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Mia a 70 crayons. Il/elle en donne 19. Combien lui en reste-t-il ?"
+text = "Mia a 70 crayons. Elle en donne 19. Combien lui en reste-t-il ?"
 correct_answer = "51"
 choices = Array[String](["49", "46", "53"])
 
 [sub_resource type="Resource" id="Resource_2uhch"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Noa a 63 crayons. Il/elle en donne 19. Combien lui en reste-t-il ?"
+text = "Noa a 63 crayons. Il en donne 19. Combien lui en reste-t-il ?"
 correct_answer = "44"
 choices = Array[String](["54", "45", "43"])
 
 [sub_resource type="Resource" id="Resource_tkahf"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Leo a 71 ballons. Il/elle en donne 16. Combien lui en reste-t-il ?"
+text = "Leo a 71 ballons. Il en donne 16. Combien lui en reste-t-il ?"
 correct_answer = "55"
 choices = Array[String](["50", "58", "65"])
 
 [sub_resource type="Resource" id="Resource_mpihr"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Nina a 70 crayons. Il/elle en donne 13. Combien lui en reste-t-il ?"
+text = "Nina a 70 crayons. Elle en donne 13. Combien lui en reste-t-il ?"
 correct_answer = "57"
 choices = Array[String](["56", "52", "62"])
 
@@ -2967,9 +2967,9 @@ choices = Array[String](["9", "8", "11"])
 [sub_resource type="Resource" id="Resource_ebm08"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Combien font 10 x 1 ?"
-correct_answer = "10"
-choices = Array[String](["6", "15", "5"])
+text = "Combien font 0 x 0 ?"
+correct_answer = "0"
+choices = Array[String](["1", "2", "3"])
 
 [sub_resource type="Resource" id="Resource_ggc25"]
 script = ExtResource("1_1fdn6")
@@ -3002,16 +3002,16 @@ choices = Array[String](["9", "7", "12"])
 [sub_resource type="Resource" id="Resource_ca5bo"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Combien font 5 x 2 ?"
-correct_answer = "10"
-choices = Array[String](["4", "11", "3"])
+text = "Combien font 0 x 1 ?"
+correct_answer = "0"
+choices = Array[String](["1", "2", "3"])
 
 [sub_resource type="Resource" id="Resource_afrr5"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Combien font 6 x 10 ?"
-correct_answer = "60"
-choices = Array[String](["58", "65", "67"])
+text = "Combien font 0 x 3 ?"
+correct_answer = "0"
+choices = Array[String](["1", "2", "3"])
 
 [sub_resource type="Resource" id="Resource_hcemj"]
 script = ExtResource("1_1fdn6")
@@ -3044,9 +3044,9 @@ choices = Array[String](["3", "2", "1"])
 [sub_resource type="Resource" id="Resource_imsdm"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Combien font 5 x 5 ?"
-correct_answer = "25"
-choices = Array[String](["21", "28", "17"])
+text = "Combien font 0 x 4 ?"
+correct_answer = "0"
+choices = Array[String](["1", "2", "3"])
 
 [sub_resource type="Resource" id="Resource_qmtvo"]
 script = ExtResource("1_1fdn6")
@@ -3058,16 +3058,16 @@ choices = Array[String](["7", "9", "8"])
 [sub_resource type="Resource" id="Resource_m013t"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Combien font 2 x 4 ?"
-correct_answer = "8"
-choices = Array[String](["9", "13", "5"])
+text = "Combien font 0 x 5 ?"
+correct_answer = "0"
+choices = Array[String](["1", "2", "3"])
 
 [sub_resource type="Resource" id="Resource_jo2hn"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Combien font 5 x 6 ?"
-correct_answer = "30"
-choices = Array[String](["21", "35", "32"])
+text = "Combien font 0 x 6 ?"
+correct_answer = "0"
+choices = Array[String](["1", "2", "3"])
 
 [sub_resource type="Resource" id="Resource_wuokr"]
 script = ExtResource("1_1fdn6")
@@ -3121,9 +3121,9 @@ choices = Array[String](["19", "15", "20"])
 [sub_resource type="Resource" id="Resource_lehw8"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Combien font 5 x 8 ?"
-correct_answer = "40"
-choices = Array[String](["49", "33", "50"])
+text = "Combien font 0 x 7 ?"
+correct_answer = "0"
+choices = Array[String](["1", "2", "3"])
 
 [sub_resource type="Resource" id="Resource_5iomn"]
 script = ExtResource("1_1fdn6")
@@ -3142,9 +3142,9 @@ choices = Array[String](["22", "18", "16"])
 [sub_resource type="Resource" id="Resource_tvv3m"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Combien font 8 x 5 ?"
-correct_answer = "40"
-choices = Array[String](["37", "35", "43"])
+text = "Combien font 0 x 8 ?"
+correct_answer = "0"
+choices = Array[String](["1", "2", "3"])
 
 [sub_resource type="Resource" id="Resource_4w2wy"]
 script = ExtResource("1_1fdn6")
@@ -3156,9 +3156,9 @@ choices = Array[String](["30", "48", "44"])
 [sub_resource type="Resource" id="Resource_lu64r"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Combien font 2 x 2 ?"
-correct_answer = "4"
-choices = Array[String](["3", "14", "1"])
+text = "Combien font 0 x 9 ?"
+correct_answer = "0"
+choices = Array[String](["1", "2", "3"])
 
 [sub_resource type="Resource" id="Resource_skrqq"]
 script = ExtResource("1_1fdn6")
@@ -3212,16 +3212,16 @@ choices = Array[String](["8", "11", "12"])
 [sub_resource type="Resource" id="Resource_ya68j"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Combien font 3 x 2 ?"
-correct_answer = "6"
-choices = Array[String](["12", "4", "0"])
+text = "Combien font 1 x 0 ?"
+correct_answer = "0"
+choices = Array[String](["1", "2", "3"])
 
 [sub_resource type="Resource" id="Resource_tkjnf"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Combien font 7 x 2 ?"
-correct_answer = "14"
-choices = Array[String](["24", "19", "12"])
+text = "Combien font 1 x 1 ?"
+correct_answer = "1"
+choices = Array[String](["2", "3", "4"])
 
 [sub_resource type="Resource" id="Resource_ohouf"]
 script = ExtResource("1_1fdn6")
@@ -3289,9 +3289,9 @@ choices = Array[String](["34", "41", "32"])
 [sub_resource type="Resource" id="Resource_w8qw6"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Combien font 4 x 5 ?"
-correct_answer = "20"
-choices = Array[String](["10", "14", "24"])
+text = "Combien font 1 x 2 ?"
+correct_answer = "2"
+choices = Array[String](["0", "1", "3"])
 
 [sub_resource type="Resource" id="Resource_rm0sn"]
 script = ExtResource("1_1fdn6")
@@ -3303,9 +3303,9 @@ choices = Array[String](["7", "13", "2"])
 [sub_resource type="Resource" id="Resource_2kr5y"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Combien font 8 x 10 ?"
-correct_answer = "80"
-choices = Array[String](["86", "88", "87"])
+text = "Combien font 1 x 3 ?"
+correct_answer = "3"
+choices = Array[String](["1", "2", "4"])
 
 [sub_resource type="Resource" id="Resource_hewvf"]
 script = ExtResource("1_1fdn6")
@@ -3345,16 +3345,16 @@ choices = Array[String](["54", "43", "42"])
 [sub_resource type="Resource" id="Resource_lyyul"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Combien font 10 x 9 ?"
-correct_answer = "90"
-choices = Array[String](["83", "98", "87"])
+text = "Combien font 1 x 4 ?"
+correct_answer = "4"
+choices = Array[String](["2", "3", "5"])
 
 [sub_resource type="Resource" id="Resource_da8cn"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Combien font 2 x 8 ?"
-correct_answer = "16"
-choices = Array[String](["26", "11", "25"])
+text = "Combien font 1 x 6 ?"
+correct_answer = "6"
+choices = Array[String](["4", "5", "7"])
 
 [sub_resource type="Resource" id="Resource_hv8a3"]
 script = ExtResource("1_1fdn6")
@@ -3380,16 +3380,16 @@ choices = Array[String](["53", "41", "50"])
 [sub_resource type="Resource" id="Resource_85oqf"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Combien font 9 x 5 ?"
-correct_answer = "45"
-choices = Array[String](["54", "42", "37"])
+text = "Combien font 1 x 7 ?"
+correct_answer = "7"
+choices = Array[String](["5", "6", "8"])
 
 [sub_resource type="Resource" id="Resource_or0xt"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Combien font 7 x 10 ?"
-correct_answer = "70"
-choices = Array[String](["63", "68", "79"])
+text = "Combien font 1 x 8 ?"
+correct_answer = "8"
+choices = Array[String](["6", "7", "9"])
 
 [sub_resource type="Resource" id="Resource_mrsm1"]
 script = ExtResource("1_1fdn6")
@@ -3408,9 +3408,9 @@ choices = Array[String](["47", "46", "40"])
 [sub_resource type="Resource" id="Resource_ub2kb"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Combien font 5 x 1 ?"
-correct_answer = "5"
-choices = Array[String](["7", "0", "3"])
+text = "Combien font 1 x 9 ?"
+correct_answer = "9"
+choices = Array[String](["7", "8", "10"])
 
 [sub_resource type="Resource" id="Resource_onrg5"]
 script = ExtResource("1_1fdn6")
@@ -3485,9 +3485,9 @@ choices = Array[String](["30", "13", "24"])
 [sub_resource type="Resource" id="Resource_nigv0"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Combien font 3 x 10 ?"
-correct_answer = "30"
-choices = Array[String](["39", "20", "22"])
+text = "Combien font 2 x 5 ?"
+correct_answer = "10"
+choices = Array[String](["8", "9", "11"])
 
 [sub_resource type="Resource" id="Resource_dvw3c"]
 script = ExtResource("1_1fdn6")
@@ -3590,9 +3590,9 @@ choices = Array[String](["68", "62", "59"])
 [sub_resource type="Resource" id="Resource_ve51m"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Quel est le quart de 16 ?"
-correct_answer = "4"
-choices = Array[String](["2", "6", "1"])
+text = "Quel est le quart de 24 ?"
+correct_answer = "6"
+choices = Array[String](["4", "5", "7"])
 
 [sub_resource type="Resource" id="Resource_67oja"]
 script = ExtResource("1_1fdn6")
@@ -3730,9 +3730,9 @@ choices = Array[String](["20", "16", "19"])
 [sub_resource type="Resource" id="Resource_s0fkx"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Quelle est la moitié de 24 ?"
-correct_answer = "12"
-choices = Array[String](["18", "11", "20"])
+text = "Quelle est la moitié de 36 ?"
+correct_answer = "18"
+choices = Array[String](["16", "17", "19"])
 
 [sub_resource type="Resource" id="Resource_iae5s"]
 script = ExtResource("1_1fdn6")
@@ -3744,9 +3744,9 @@ choices = Array[String](["28", "24", "27"])
 [sub_resource type="Resource" id="Resource_ra7c6"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Quelle est la moitié de 34 ?"
-correct_answer = "17"
-choices = Array[String](["21", "9", "22"])
+text = "Quelle est la moitié de 40 ?"
+correct_answer = "20"
+choices = Array[String](["18", "19", "21"])
 
 [sub_resource type="Resource" id="Resource_kaafy"]
 script = ExtResource("1_1fdn6")
@@ -3828,16 +3828,16 @@ choices = Array[String](["12", "3", "9"])
 [sub_resource type="Resource" id="Resource_k2pvo"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Quel est le quart de 12 ?"
-correct_answer = "3"
-choices = Array[String](["2", "0", "5"])
+text = "Quel est le quart de 32 ?"
+correct_answer = "8"
+choices = Array[String](["6", "7", "9"])
 
 [sub_resource type="Resource" id="Resource_yo16l"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Quelle est la moitié de 12 ?"
-correct_answer = "6"
-choices = Array[String](["1", "7", "10"])
+text = "Quelle est la moitié de 42 ?"
+correct_answer = "21"
+choices = Array[String](["19", "20", "22"])
 
 [sub_resource type="Resource" id="Resource_qt6ey"]
 script = ExtResource("1_1fdn6")
@@ -3905,9 +3905,9 @@ choices = Array[String](["15", "8", "14"])
 [sub_resource type="Resource" id="Resource_xtci6"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Quelle est la moitié de 100 ?"
-correct_answer = "50"
-choices = Array[String](["53", "52", "44"])
+text = "Quelle est la moitié de 44 ?"
+correct_answer = "22"
+choices = Array[String](["20", "21", "23"])
 
 [sub_resource type="Resource" id="Resource_eslxs"]
 script = ExtResource("1_1fdn6")
@@ -3926,9 +3926,9 @@ choices = Array[String](["25", "19", "30"])
 [sub_resource type="Resource" id="Resource_ne7uy"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Quelle est la moitié de 38 ?"
-correct_answer = "19"
-choices = Array[String](["24", "11", "16"])
+text = "Quelle est la moitié de 46 ?"
+correct_answer = "23"
+choices = Array[String](["21", "22", "24"])
 
 [sub_resource type="Resource" id="Resource_rhp6q"]
 script = ExtResource("1_1fdn6")
@@ -4416,490 +4416,490 @@ choices = Array[String](["148"])
 [sub_resource type="Resource" id="Resource_3dy5y"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Maya a 40 livres. Il/elle en achète 38 de plus puis en donne 14. Combien lui en reste-t-il ?"
+text = "Maya a 40 livres. Elle en achète 38 de plus puis en donne 14. Combien lui en reste-t-il ?"
 correct_answer = "64"
 choices = Array[String](["67", "68", "72"])
 
 [sub_resource type="Resource" id="Resource_cg10l"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Jules a 20 autocollants. Il/elle en achète 16 de plus puis en donne 19. Combien lui en reste-t-il ?"
+text = "Jules a 20 autocollants. Il en achète 16 de plus puis en donne 19. Combien lui en reste-t-il ?"
 correct_answer = "17"
 choices = Array[String](["13", "19", "20"])
 
 [sub_resource type="Resource" id="Resource_84176"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Chloé a 33 pommes. Il/elle en achète 34 de plus puis en donne 6. Combien lui en reste-t-il ?"
+text = "Chloé a 33 pommes. Elle en achète 34 de plus puis en donne 6. Combien lui en reste-t-il ?"
 correct_answer = "61"
 choices = Array[String](["65", "68", "57"])
 
 [sub_resource type="Resource" id="Resource_r1n4l"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Jules a 26 cubes. Il/elle en achète 12 de plus puis en donne 20. Combien lui en reste-t-il ?"
+text = "Jules a 26 cubes. Il en achète 12 de plus puis en donne 20. Combien lui en reste-t-il ?"
 correct_answer = "18"
 choices = Array[String](["26", "23", "22"])
 
 [sub_resource type="Resource" id="Resource_fn6ht"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Félix a 17 autocollants. Il/elle en achète 25 de plus puis en donne 19. Combien lui en reste-t-il ?"
+text = "Félix a 17 autocollants. Il en achète 25 de plus puis en donne 19. Combien lui en reste-t-il ?"
 correct_answer = "23"
 choices = Array[String](["21", "27", "22"])
 
 [sub_resource type="Resource" id="Resource_v52e1"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Théo a 27 billes. Il/elle en achète 29 de plus puis en donne 38. Combien lui en reste-t-il ?"
+text = "Théo a 27 billes. Il en achète 29 de plus puis en donne 38. Combien lui en reste-t-il ?"
 correct_answer = "18"
 choices = Array[String](["14", "22", "23"])
 
 [sub_resource type="Resource" id="Resource_hxm6m"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Iris a 13 bonbons. Il/elle en achète 18 de plus puis en donne 5. Combien lui en reste-t-il ?"
+text = "Iris a 13 bonbons. Elle en achète 18 de plus puis en donne 5. Combien lui en reste-t-il ?"
 correct_answer = "26"
 choices = Array[String](["31", "24", "30"])
 
 [sub_resource type="Resource" id="Resource_sdoc6"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Alice a 21 crayons. Il/elle en achète 31 de plus puis en donne 16. Combien lui en reste-t-il ?"
+text = "Alice a 21 crayons. Elle en achète 31 de plus puis en donne 16. Combien lui en reste-t-il ?"
 correct_answer = "36"
 choices = Array[String](["30", "28", "29"])
 
 [sub_resource type="Resource" id="Resource_houp0"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Chloé a 12 bananes. Il/elle en achète 38 de plus puis en donne 19. Combien lui en reste-t-il ?"
+text = "Chloé a 12 bananes. Elle en achète 38 de plus puis en donne 19. Combien lui en reste-t-il ?"
 correct_answer = "31"
 choices = Array[String](["23", "29", "35"])
 
 [sub_resource type="Resource" id="Resource_c3h78"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Alice a 16 cubes. Il/elle en achète 36 de plus puis en donne 7. Combien lui en reste-t-il ?"
+text = "Alice a 16 cubes. Elle en achète 36 de plus puis en donne 7. Combien lui en reste-t-il ?"
 correct_answer = "45"
 choices = Array[String](["40", "42", "53"])
 
 [sub_resource type="Resource" id="Resource_1fwre"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Hugo a 8 ballons. Il/elle en achète 6 de plus puis en donne 13. Combien lui en reste-t-il ?"
+text = "Hugo a 8 ballons. Il en achète 6 de plus puis en donne 13. Combien lui en reste-t-il ?"
 correct_answer = "1"
 choices = Array[String](["4", "7", "9"])
 
 [sub_resource type="Resource" id="Resource_ouvsl"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Sacha a 39 autocollants. Il/elle en achète 32 de plus puis en donne 14. Combien lui en reste-t-il ?"
+text = "Sacha a 39 autocollants. Il en achète 32 de plus puis en donne 14. Combien lui en reste-t-il ?"
 correct_answer = "57"
 choices = Array[String](["58", "51", "54"])
 
 [sub_resource type="Resource" id="Resource_p82ld"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Noa a 37 cartes. Il/elle en achète 22 de plus puis en donne 37. Combien lui en reste-t-il ?"
+text = "Noa a 37 cartes. Il en achète 22 de plus puis en donne 37. Combien lui en reste-t-il ?"
 correct_answer = "22"
 choices = Array[String](["21", "30", "25"])
 
 [sub_resource type="Resource" id="Resource_ychli"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Maya a 11 fleurs. Il/elle en achète 29 de plus puis en donne 29. Combien lui en reste-t-il ?"
+text = "Maya a 11 fleurs. Elle en achète 29 de plus puis en donne 29. Combien lui en reste-t-il ?"
 correct_answer = "11"
 choices = Array[String](["6", "17", "16"])
 
 [sub_resource type="Resource" id="Resource_0wue1"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Jules a 21 crayons. Il/elle en achète 10 de plus puis en donne 8. Combien lui en reste-t-il ?"
+text = "Jules a 21 crayons. Il en achète 10 de plus puis en donne 8. Combien lui en reste-t-il ?"
 correct_answer = "23"
 choices = Array[String](["29", "15", "20"])
 
 [sub_resource type="Resource" id="Resource_e8wgy"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Emma a 16 fleurs. Il/elle en achète 21 de plus puis en donne 15. Combien lui en reste-t-il ?"
+text = "Emma a 16 fleurs. Elle en achète 21 de plus puis en donne 15. Combien lui en reste-t-il ?"
 correct_answer = "22"
 choices = Array[String](["16", "29", "30"])
 
 [sub_resource type="Resource" id="Resource_v0esx"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Emma a 36 bonbons. Il/elle en achète 6 de plus puis en donne 1. Combien lui en reste-t-il ?"
+text = "Emma a 36 bonbons. Elle en achète 6 de plus puis en donne 1. Combien lui en reste-t-il ?"
 correct_answer = "41"
 choices = Array[String](["34", "42", "33"])
 
 [sub_resource type="Resource" id="Resource_8nm0t"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Léon a 12 ballons. Il/elle en achète 15 de plus puis en donne 20. Combien lui en reste-t-il ?"
+text = "Léon a 12 ballons. Il en achète 15 de plus puis en donne 20. Combien lui en reste-t-il ?"
 correct_answer = "7"
 choices = Array[String](["10", "2", "0"])
 
 [sub_resource type="Resource" id="Resource_oyxdl"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Sam a 17 images. Il/elle en achète 18 de plus puis en donne 25. Combien lui en reste-t-il ?"
+text = "Sam a 17 images. Il en achète 18 de plus puis en donne 25. Combien lui en reste-t-il ?"
 correct_answer = "10"
 choices = Array[String](["11", "4", "14"])
 
 [sub_resource type="Resource" id="Resource_f2t7a"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Maya a 11 billes. Il/elle en achète 5 de plus puis en donne 14. Combien lui en reste-t-il ?"
+text = "Maya a 11 billes. Elle en achète 5 de plus puis en donne 14. Combien lui en reste-t-il ?"
 correct_answer = "2"
 choices = Array[String](["5", "6", "9"])
 
 [sub_resource type="Resource" id="Resource_x0gs1"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Théo a 21 autocollants. Il/elle en achète 11 de plus puis en donne 21. Combien lui en reste-t-il ?"
+text = "Théo a 21 autocollants. Il en achète 11 de plus puis en donne 21. Combien lui en reste-t-il ?"
 correct_answer = "11"
 choices = Array[String](["6", "17", "3"])
 
 [sub_resource type="Resource" id="Resource_iu3eo"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Ana a 5 fleurs. Il/elle en achète 9 de plus puis en donne 1. Combien lui en reste-t-il ?"
+text = "Ana a 5 fleurs. Elle en achète 9 de plus puis en donne 1. Combien lui en reste-t-il ?"
 correct_answer = "13"
 choices = Array[String](["10", "18", "15"])
 
 [sub_resource type="Resource" id="Resource_e2b1q"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Nina a 19 ballons. Il/elle en achète 36 de plus puis en donne 33. Combien lui en reste-t-il ?"
+text = "Nina a 19 ballons. Elle en achète 36 de plus puis en donne 33. Combien lui en reste-t-il ?"
 correct_answer = "22"
 choices = Array[String](["14", "29", "30"])
 
 [sub_resource type="Resource" id="Resource_cmn5i"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Sam a 23 livres. Il/elle en achète 12 de plus puis en donne 26. Combien lui en reste-t-il ?"
+text = "Sam a 23 livres. Il en achète 12 de plus puis en donne 26. Combien lui en reste-t-il ?"
 correct_answer = "9"
 choices = Array[String](["2", "11", "4"])
 
 [sub_resource type="Resource" id="Resource_7shj0"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Léo a 8 jouets. Il/elle en achète 38 de plus puis en donne 12. Combien lui en reste-t-il ?"
+text = "Léo a 8 jouets. Il en achète 38 de plus puis en donne 12. Combien lui en reste-t-il ?"
 correct_answer = "34"
 choices = Array[String](["30", "32", "35"])
 
 [sub_resource type="Resource" id="Resource_k77mv"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Iris a 15 billes. Il/elle en achète 32 de plus puis en donne 3. Combien lui en reste-t-il ?"
+text = "Iris a 15 billes. Elle en achète 32 de plus puis en donne 3. Combien lui en reste-t-il ?"
 correct_answer = "44"
 choices = Array[String](["50", "51", "46"])
 
 [sub_resource type="Resource" id="Resource_dk4r7"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Emma a 8 bonbons. Il/elle en achète 35 de plus puis en donne 23. Combien lui en reste-t-il ?"
+text = "Emma a 8 bonbons. Elle en achète 35 de plus puis en donne 23. Combien lui en reste-t-il ?"
 correct_answer = "20"
 choices = Array[String](["22", "18", "24"])
 
 [sub_resource type="Resource" id="Resource_u3id6"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Hugo a 8 billes. Il/elle en achète 21 de plus puis en donne 15. Combien lui en reste-t-il ?"
+text = "Hugo a 8 billes. Il en achète 21 de plus puis en donne 15. Combien lui en reste-t-il ?"
 correct_answer = "14"
 choices = Array[String](["8", "18", "6"])
 
 [sub_resource type="Resource" id="Resource_51e4v"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Maya a 17 bananes. Il/elle en achète 39 de plus puis en donne 44. Combien lui en reste-t-il ?"
+text = "Maya a 17 bananes. Elle en achète 39 de plus puis en donne 44. Combien lui en reste-t-il ?"
 correct_answer = "12"
 choices = Array[String](["20", "7", "5"])
 
 [sub_resource type="Resource" id="Resource_l5ylo"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Nina a 8 crayons. Il/elle en achète 5 de plus puis en donne 3. Combien lui en reste-t-il ?"
+text = "Nina a 8 crayons. Elle en achète 5 de plus puis en donne 3. Combien lui en reste-t-il ?"
 correct_answer = "10"
 choices = Array[String](["15", "4", "14"])
 
 [sub_resource type="Resource" id="Resource_k0qi6"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Iris a 24 cartes. Il/elle en achète 27 de plus puis en donne 24. Combien lui en reste-t-il ?"
+text = "Iris a 24 cartes. Elle en achète 27 de plus puis en donne 24. Combien lui en reste-t-il ?"
 correct_answer = "27"
 choices = Array[String](["32", "30", "20"])
 
 [sub_resource type="Resource" id="Resource_jw80v"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Yanis a 30 livres. Il/elle en achète 10 de plus puis en donne 4. Combien lui en reste-t-il ?"
+text = "Yanis a 30 livres. Il en achète 10 de plus puis en donne 4. Combien lui en reste-t-il ?"
 correct_answer = "36"
 choices = Array[String](["38", "39", "31"])
 
 [sub_resource type="Resource" id="Resource_q140y"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Zoé a 40 fleurs. Il/elle en achète 37 de plus puis en donne 31. Combien lui en reste-t-il ?"
+text = "Zoé a 40 fleurs. Elle en achète 37 de plus puis en donne 31. Combien lui en reste-t-il ?"
 correct_answer = "46"
 choices = Array[String](["38", "52", "42"])
 
 [sub_resource type="Resource" id="Resource_tkl2k"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Noah a 11 gâteaux. Il/elle en achète 5 de plus puis en donne 11. Combien lui en reste-t-il ?"
+text = "Noah a 11 gâteaux. Il en achète 5 de plus puis en donne 11. Combien lui en reste-t-il ?"
 correct_answer = "5"
 choices = Array[String](["13", "7", "3"])
 
 [sub_resource type="Resource" id="Resource_3wg1w"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Jules a 9 ballons. Il/elle en achète 39 de plus puis en donne 46. Combien lui en reste-t-il ?"
+text = "Jules a 9 ballons. Il en achète 39 de plus puis en donne 46. Combien lui en reste-t-il ?"
 correct_answer = "2"
 choices = Array[String](["4", "1", "9"])
 
 [sub_resource type="Resource" id="Resource_hgltc"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Nora a 15 ballons. Il/elle en achète 5 de plus puis en donne 8. Combien lui en reste-t-il ?"
+text = "Nora a 15 ballons. Elle en achète 5 de plus puis en donne 8. Combien lui en reste-t-il ?"
 correct_answer = "12"
 choices = Array[String](["11", "6", "9"])
 
 [sub_resource type="Resource" id="Resource_fvgj5"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Alice a 31 pommes. Il/elle en achète 35 de plus puis en donne 27. Combien lui en reste-t-il ?"
+text = "Alice a 31 pommes. Elle en achète 35 de plus puis en donne 27. Combien lui en reste-t-il ?"
 correct_answer = "39"
 choices = Array[String](["35", "44", "32"])
 
 [sub_resource type="Resource" id="Resource_uv78o"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Nino a 9 autocollants. Il/elle en achète 36 de plus puis en donne 40. Combien lui en reste-t-il ?"
+text = "Nino a 9 autocollants. Il en achète 36 de plus puis en donne 40. Combien lui en reste-t-il ?"
 correct_answer = "5"
 choices = Array[String](["12", "7", "3"])
 
 [sub_resource type="Resource" id="Resource_ti0l0"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Léa a 38 cartes. Il/elle en achète 27 de plus puis en donne 28. Combien lui en reste-t-il ?"
+text = "Léa a 38 cartes. Elle en achète 27 de plus puis en donne 28. Combien lui en reste-t-il ?"
 correct_answer = "37"
 choices = Array[String](["45", "38", "29"])
 
 [sub_resource type="Resource" id="Resource_nliie"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Mia a 14 gâteaux. Il/elle en achète 23 de plus puis en donne 15. Combien lui en reste-t-il ?"
+text = "Mia a 14 gâteaux. Elle en achète 23 de plus puis en donne 15. Combien lui en reste-t-il ?"
 correct_answer = "22"
 choices = Array[String](["20", "19", "14"])
 
 [sub_resource type="Resource" id="Resource_gdsbr"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Hugo a 24 gâteaux. Il/elle en achète 8 de plus puis en donne 6. Combien lui en reste-t-il ?"
+text = "Hugo a 24 gâteaux. Il en achète 8 de plus puis en donne 6. Combien lui en reste-t-il ?"
 correct_answer = "26"
 choices = Array[String](["29", "33", "18"])
 
 [sub_resource type="Resource" id="Resource_205i6"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Anna a 39 livres. Il/elle en achète 5 de plus puis en donne 20. Combien lui en reste-t-il ?"
+text = "Anna a 39 livres. Elle en achète 5 de plus puis en donne 20. Combien lui en reste-t-il ?"
 correct_answer = "24"
 choices = Array[String](["17", "31", "29"])
 
 [sub_resource type="Resource" id="Resource_k3cdw"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Yanis a 15 bananes. Il/elle en achète 12 de plus puis en donne 17. Combien lui en reste-t-il ?"
+text = "Yanis a 15 bananes. Il en achète 12 de plus puis en donne 17. Combien lui en reste-t-il ?"
 correct_answer = "10"
 choices = Array[String](["3", "8", "7"])
 
 [sub_resource type="Resource" id="Resource_hjg1i"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Nina a 5 gâteaux. Il/elle en achète 14 de plus puis en donne 1. Combien lui en reste-t-il ?"
+text = "Nina a 5 gâteaux. Elle en achète 14 de plus puis en donne 1. Combien lui en reste-t-il ?"
 correct_answer = "18"
 choices = Array[String](["15", "20", "24"])
 
 [sub_resource type="Resource" id="Resource_ylka3"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Milo a 10 fleurs. Il/elle en achète 30 de plus puis en donne 10. Combien lui en reste-t-il ?"
+text = "Milo a 10 fleurs. Il en achète 30 de plus puis en donne 10. Combien lui en reste-t-il ?"
 correct_answer = "30"
 choices = Array[String](["36", "26", "23"])
 
 [sub_resource type="Resource" id="Resource_qgkag"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Chloé a 8 cubes. Il/elle en achète 13 de plus puis en donne 2. Combien lui en reste-t-il ?"
+text = "Chloé a 8 cubes. Elle en achète 13 de plus puis en donne 2. Combien lui en reste-t-il ?"
 correct_answer = "19"
 choices = Array[String](["22", "26", "17"])
 
 [sub_resource type="Resource" id="Resource_3vujq"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Zoé a 26 cartes. Il/elle en achète 35 de plus puis en donne 2. Combien lui en reste-t-il ?"
+text = "Zoé a 26 cartes. Elle en achète 35 de plus puis en donne 2. Combien lui en reste-t-il ?"
 correct_answer = "59"
 choices = Array[String](["60", "55", "57"])
 
 [sub_resource type="Resource" id="Resource_lshxr"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Léna a 34 billes. Il/elle en achète 19 de plus puis en donne 46. Combien lui en reste-t-il ?"
+text = "Léna a 34 billes. Elle en achète 19 de plus puis en donne 46. Combien lui en reste-t-il ?"
 correct_answer = "7"
 choices = Array[String](["10", "2", "9"])
 
 [sub_resource type="Resource" id="Resource_5uqjv"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Iris a 32 livres. Il/elle en achète 24 de plus puis en donne 51. Combien lui en reste-t-il ?"
+text = "Iris a 32 livres. Elle en achète 24 de plus puis en donne 51. Combien lui en reste-t-il ?"
 correct_answer = "5"
 choices = Array[String](["9", "3", "6"])
 
 [sub_resource type="Resource" id="Resource_1pkmp"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Anna a 18 pommes. Il/elle en achète 23 de plus puis en donne 5. Combien lui en reste-t-il ?"
+text = "Anna a 18 pommes. Elle en achète 23 de plus puis en donne 5. Combien lui en reste-t-il ?"
 correct_answer = "36"
 choices = Array[String](["44", "40", "33"])
 
 [sub_resource type="Resource" id="Resource_a615m"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Félix a 14 crayons. Il/elle en achète 19 de plus puis en donne 5. Combien lui en reste-t-il ?"
+text = "Félix a 14 crayons. Il en achète 19 de plus puis en donne 5. Combien lui en reste-t-il ?"
 correct_answer = "28"
 choices = Array[String](["21", "20", "27"])
 
 [sub_resource type="Resource" id="Resource_dxr7r"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Félix a 19 bananes. Il/elle en achète 8 de plus puis en donne 5. Combien lui en reste-t-il ?"
+text = "Félix a 19 bananes. Il en achète 8 de plus puis en donne 5. Combien lui en reste-t-il ?"
 correct_answer = "22"
 choices = Array[String](["26", "24", "18"])
 
 [sub_resource type="Resource" id="Resource_hfhr2"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Maya a 20 bonbons. Il/elle en achète 34 de plus puis en donne 31. Combien lui en reste-t-il ?"
+text = "Maya a 20 bonbons. Elle en achète 34 de plus puis en donne 31. Combien lui en reste-t-il ?"
 correct_answer = "23"
 choices = Array[String](["20", "28", "30"])
 
 [sub_resource type="Resource" id="Resource_652o8"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Noah a 36 fleurs. Il/elle en achète 11 de plus puis en donne 32. Combien lui en reste-t-il ?"
+text = "Noah a 36 fleurs. Il en achète 11 de plus puis en donne 32. Combien lui en reste-t-il ?"
 correct_answer = "15"
 choices = Array[String](["21", "14", "10"])
 
 [sub_resource type="Resource" id="Resource_dojfy"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Théo a 40 images. Il/elle en achète 31 de plus puis en donne 10. Combien lui en reste-t-il ?"
+text = "Théo a 40 images. Il en achète 31 de plus puis en donne 10. Combien lui en reste-t-il ?"
 correct_answer = "61"
 choices = Array[String](["62", "63", "65"])
 
 [sub_resource type="Resource" id="Resource_bhupg"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Noah a 16 livres. Il/elle en achète 12 de plus puis en donne 4. Combien lui en reste-t-il ?"
+text = "Noah a 16 livres. Il en achète 12 de plus puis en donne 4. Combien lui en reste-t-il ?"
 correct_answer = "24"
 choices = Array[String](["32", "16", "26"])
 
 [sub_resource type="Resource" id="Resource_io01y"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Léo a 21 jouets. Il/elle en achète 39 de plus puis en donne 47. Combien lui en reste-t-il ?"
+text = "Léo a 21 jouets. Il en achète 39 de plus puis en donne 47. Combien lui en reste-t-il ?"
 correct_answer = "13"
 choices = Array[String](["14", "5", "21"])
 
 [sub_resource type="Resource" id="Resource_xfuaj"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Nina a 15 bonbons. Il/elle en achète 26 de plus puis en donne 13. Combien lui en reste-t-il ?"
+text = "Nina a 15 bonbons. Elle en achète 26 de plus puis en donne 13. Combien lui en reste-t-il ?"
 correct_answer = "28"
 choices = Array[String](["23", "27", "32"])
 
 [sub_resource type="Resource" id="Resource_utbrh"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Anna a 28 bonbons. Il/elle en achète 10 de plus puis en donne 7. Combien lui en reste-t-il ?"
+text = "Anna a 28 bonbons. Elle en achète 10 de plus puis en donne 7. Combien lui en reste-t-il ?"
 correct_answer = "31"
 choices = Array[String](["33", "32", "37"])
 
 [sub_resource type="Resource" id="Resource_qku7k"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Léon a 16 crayons. Il/elle en achète 40 de plus puis en donne 35. Combien lui en reste-t-il ?"
+text = "Léon a 16 crayons. Il en achète 40 de plus puis en donne 35. Combien lui en reste-t-il ?"
 correct_answer = "21"
 choices = Array[String](["27", "24", "17"])
 
 [sub_resource type="Resource" id="Resource_lkmsa"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Alice a 37 autocollants. Il/elle en achète 30 de plus puis en donne 53. Combien lui en reste-t-il ?"
+text = "Alice a 37 autocollants. Elle en achète 30 de plus puis en donne 53. Combien lui en reste-t-il ?"
 correct_answer = "14"
 choices = Array[String](["13", "8", "10"])
 
 [sub_resource type="Resource" id="Resource_bo1c0"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Jules a 25 autocollants. Il/elle en achète 12 de plus puis en donne 26. Combien lui en reste-t-il ?"
+text = "Jules a 25 autocollants. Il en achète 12 de plus puis en donne 26. Combien lui en reste-t-il ?"
 correct_answer = "11"
 choices = Array[String](["6", "3", "17"])
 
 [sub_resource type="Resource" id="Resource_yjb5n"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Tom a 19 jouets. Il/elle en achète 12 de plus puis en donne 6. Combien lui en reste-t-il ?"
+text = "Tom a 19 jouets. Il en achète 12 de plus puis en donne 6. Combien lui en reste-t-il ?"
 correct_answer = "25"
 choices = Array[String](["28", "27", "23"])
 
 [sub_resource type="Resource" id="Resource_f0thx"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Maya a 21 livres. Il/elle en achète 35 de plus puis en donne 6. Combien lui en reste-t-il ?"
+text = "Maya a 21 livres. Elle en achète 35 de plus puis en donne 6. Combien lui en reste-t-il ?"
 correct_answer = "50"
 choices = Array[String](["45", "54", "58"])
 
 [sub_resource type="Resource" id="Resource_yy6gm"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Théo a 24 cartes. Il/elle en achète 38 de plus puis en donne 34. Combien lui en reste-t-il ?"
+text = "Théo a 24 cartes. Il en achète 38 de plus puis en donne 34. Combien lui en reste-t-il ?"
 correct_answer = "28"
 choices = Array[String](["33", "21", "20"])
 
 [sub_resource type="Resource" id="Resource_kltha"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Tom a 12 bonbons. Il/elle en achète 31 de plus puis en donne 34. Combien lui en reste-t-il ?"
+text = "Tom a 12 bonbons. Il en achète 31 de plus puis en donne 34. Combien lui en reste-t-il ?"
 correct_answer = "9"
 choices = Array[String](["5", "13", "12"])
 
 [sub_resource type="Resource" id="Resource_ggrp6"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Ana a 36 livres. Il/elle en achète 12 de plus puis en donne 32. Combien lui en reste-t-il ?"
+text = "Ana a 36 livres. Elle en achète 12 de plus puis en donne 32. Combien lui en reste-t-il ?"
 correct_answer = "16"
 choices = Array[String](["19", "10", "14"])
 
 [sub_resource type="Resource" id="Resource_btpx4"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Jules a 26 bananes. Il/elle en achète 18 de plus puis en donne 12. Combien lui en reste-t-il ?"
+text = "Jules a 26 bananes. Il en achète 18 de plus puis en donne 12. Combien lui en reste-t-il ?"
 correct_answer = "32"
 choices = Array[String](["26", "39", "35"])
 
 [sub_resource type="Resource" id="Resource_31q8a"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Ana a 11 ballons. Il/elle en achète 40 de plus puis en donne 10. Combien lui en reste-t-il ?"
+text = "Ana a 11 ballons. Elle en achète 40 de plus puis en donne 10. Combien lui en reste-t-il ?"
 correct_answer = "41"
 choices = Array[String](["35", "44", "46"])
 
 [sub_resource type="Resource" id="Resource_dxwg3"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Léon a 40 cartes. Il/elle en achète 10 de plus puis en donne 24. Combien lui en reste-t-il ?"
+text = "Léon a 40 cartes. Il en achète 10 de plus puis en donne 24. Combien lui en reste-t-il ?"
 correct_answer = "26"
 choices = Array[String](["20", "21", "34"])
 
@@ -5011,9 +5011,9 @@ choices = Array[String](["88", "91", "86"])
 [sub_resource type="Resource" id="Resource_p4i5h"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Tu as 10 euros et tu achètes un objet à 7 euros. Combien te reste-t-il ?"
-correct_answer = "3"
-choices = Array[String](["6", "0", "9"])
+text = "Tu as 15 euros et tu achètes un objet à 9 euros. Combien te reste-t-il ?"
+correct_answer = "6"
+choices = Array[String](["5", "7", "4"])
 
 [sub_resource type="Resource" id="Resource_8etnj"]
 script = ExtResource("1_1fdn6")
@@ -5844,9 +5844,9 @@ choices = Array[String](["14", "1", "6"])
 [sub_resource type="Resource" id="Resource_aigqb"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Combien faut-il ajouter à 80 pour obtenir 100 ?"
-correct_answer = "20"
-choices = Array[String](["33", "29", "34"])
+text = "Combien faut-il ajouter à 1 pour obtenir 100 ?"
+correct_answer = "99"
+choices = Array[String](["97", "98", "100"])
 
 [sub_resource type="Resource" id="Resource_su8ju"]
 script = ExtResource("1_1fdn6")
@@ -5956,9 +5956,9 @@ choices = Array[String](["40", "16", "30"])
 [sub_resource type="Resource" id="Resource_kmim0"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Combien faut-il ajouter à 0 pour obtenir 100 ?"
-correct_answer = "100"
-choices = Array[String](["95", "92", "80"])
+text = "Combien faut-il ajouter à 2 pour obtenir 100 ?"
+correct_answer = "98"
+choices = Array[String](["96", "97", "99"])
 
 [sub_resource type="Resource" id="Resource_28euf"]
 script = ExtResource("1_1fdn6")
@@ -6453,14 +6453,14 @@ choices = Array[String](["40", "42", "58"])
 [sub_resource type="Resource" id="Resource_lmyys"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Quel est le périmètre, en cm, d'un rectangle de longueur 5 cm et de largeur 11 cm ?"
+text = "Quel est le périmètre, en cm, d'un rectangle de longueur 11 cm et de largeur 5 cm ?"
 correct_answer = "32"
 choices = Array[String](["38", "39", "31"])
 
 [sub_resource type="Resource" id="Resource_eidv2"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Quel est le périmètre, en cm, d'un rectangle de longueur 7 cm et de largeur 25 cm ?"
+text = "Quel est le périmètre, en cm, d'un rectangle de longueur 25 cm et de largeur 7 cm ?"
 correct_answer = "64"
 choices = Array[String](["70", "59", "56"])
 
@@ -6495,7 +6495,7 @@ choices = Array[String](["55", "44", "42"])
 [sub_resource type="Resource" id="Resource_8h02q"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Quel est le périmètre, en cm, d'un rectangle de longueur 8 cm et de largeur 14 cm ?"
+text = "Quel est le périmètre, en cm, d'un rectangle de longueur 14 cm et de largeur 8 cm ?"
 correct_answer = "44"
 choices = Array[String](["54", "38", "45"])
 
@@ -6516,7 +6516,7 @@ choices = Array[String](["76", "67", "75"])
 [sub_resource type="Resource" id="Resource_5tyln"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Quel est le périmètre, en cm, d'un rectangle de longueur 7 cm et de largeur 28 cm ?"
+text = "Quel est le périmètre, en cm, d'un rectangle de longueur 28 cm et de largeur 7 cm ?"
 correct_answer = "70"
 choices = Array[String](["65", "66", "78"])
 
@@ -6530,7 +6530,7 @@ choices = Array[String](["50", "55", "64"])
 [sub_resource type="Resource" id="Resource_71grs"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Quel est le périmètre, en cm, d'un rectangle de longueur 8 cm et de largeur 29 cm ?"
+text = "Quel est le périmètre, en cm, d'un rectangle de longueur 29 cm et de largeur 8 cm ?"
 correct_answer = "74"
 choices = Array[String](["79", "67", "70"])
 
@@ -6544,21 +6544,21 @@ choices = Array[String](["34", "35", "36"])
 [sub_resource type="Resource" id="Resource_5kass"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Quel est le périmètre, en cm, d'un rectangle de longueur 4 cm et de largeur 14 cm ?"
+text = "Quel est le périmètre, en cm, d'un rectangle de longueur 14 cm et de largeur 4 cm ?"
 correct_answer = "36"
 choices = Array[String](["43", "29", "46"])
 
 [sub_resource type="Resource" id="Resource_gs3yq"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Quel est le périmètre, en cm, d'un rectangle de longueur 9 cm et de largeur 17 cm ?"
+text = "Quel est le périmètre, en cm, d'un rectangle de longueur 17 cm et de largeur 9 cm ?"
 correct_answer = "52"
 choices = Array[String](["50", "47", "62"])
 
 [sub_resource type="Resource" id="Resource_ycw7k"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Quel est le périmètre, en cm, d'un rectangle de longueur 7 cm et de largeur 16 cm ?"
+text = "Quel est le périmètre, en cm, d'un rectangle de longueur 16 cm et de largeur 7 cm ?"
 correct_answer = "46"
 choices = Array[String](["48", "45", "55"])
 
@@ -6579,28 +6579,28 @@ choices = Array[String](["64", "56", "70"])
 [sub_resource type="Resource" id="Resource_5c2j8"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Quel est le périmètre, en cm, d'un rectangle de longueur 20 cm et de largeur 22 cm ?"
+text = "Quel est le périmètre, en cm, d'un rectangle de longueur 22 cm et de largeur 20 cm ?"
 correct_answer = "84"
 choices = Array[String](["82", "81", "79"])
 
 [sub_resource type="Resource" id="Resource_pugqg"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Quel est le périmètre, en cm, d'un rectangle de longueur 3 cm et de largeur 17 cm ?"
+text = "Quel est le périmètre, en cm, d'un rectangle de longueur 17 cm et de largeur 3 cm ?"
 correct_answer = "40"
 choices = Array[String](["31", "46", "41"])
 
 [sub_resource type="Resource" id="Resource_of06j"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Quel est le périmètre, en cm, d'un rectangle de longueur 12 cm et de largeur 26 cm ?"
+text = "Quel est le périmètre, en cm, d'un rectangle de longueur 26 cm et de largeur 12 cm ?"
 correct_answer = "76"
 choices = Array[String](["73", "69", "82"])
 
 [sub_resource type="Resource" id="Resource_fntpk"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Quel est le périmètre, en cm, d'un rectangle de longueur 13 cm et de largeur 26 cm ?"
+text = "Quel est le périmètre, en cm, d'un rectangle de longueur 26 cm et de largeur 13 cm ?"
 correct_answer = "78"
 choices = Array[String](["82", "69", "88"])
 
@@ -6635,7 +6635,7 @@ choices = Array[String](["83", "80", "89"])
 [sub_resource type="Resource" id="Resource_ayerb"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Quel est le périmètre, en cm, d'un rectangle de longueur 2 cm et de largeur 8 cm ?"
+text = "Quel est le périmètre, en cm, d'un rectangle de longueur 8 cm et de largeur 2 cm ?"
 correct_answer = "20"
 choices = Array[String](["23", "11", "14"])
 
@@ -6649,7 +6649,7 @@ choices = Array[String](["57", "59", "45"])
 [sub_resource type="Resource" id="Resource_4y2cf"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Quel est le périmètre, en cm, d'un rectangle de longueur 12 cm et de largeur 18 cm ?"
+text = "Quel est le périmètre, en cm, d'un rectangle de longueur 18 cm et de largeur 12 cm ?"
 correct_answer = "60"
 choices = Array[String](["56", "59", "68"])
 
@@ -6677,7 +6677,7 @@ choices = Array[String](["40", "33", "46"])
 [sub_resource type="Resource" id="Resource_qi6sj"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Quel est le périmètre, en cm, d'un rectangle de longueur 2 cm et de largeur 29 cm ?"
+text = "Quel est le périmètre, en cm, d'un rectangle de longueur 29 cm et de largeur 2 cm ?"
 correct_answer = "62"
 choices = Array[String](["66", "54", "56"])
 
@@ -6698,7 +6698,7 @@ choices = Array[String](["60", "54", "55"])
 [sub_resource type="Resource" id="Resource_1jkak"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Quel est le périmètre, en cm, d'un rectangle de longueur 10 cm et de largeur 26 cm ?"
+text = "Quel est le périmètre, en cm, d'un rectangle de longueur 26 cm et de largeur 10 cm ?"
 correct_answer = "72"
 choices = Array[String](["78", "77", "71"])
 
@@ -6712,7 +6712,7 @@ choices = Array[String](["58", "55", "48"])
 [sub_resource type="Resource" id="Resource_knnng"]
 script = ExtResource("1_1fdn6")
 grade = 1
-text = "Quel est le périmètre, en cm, d'un rectangle de longueur 6 cm et de largeur 10 cm ?"
+text = "Quel est le périmètre, en cm, d'un rectangle de longueur 10 cm et de largeur 6 cm ?"
 correct_answer = "32"
 choices = Array[String](["24", "39", "25"])
 

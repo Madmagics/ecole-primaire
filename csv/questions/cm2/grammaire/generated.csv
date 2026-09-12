@@ -29,13 +29,973 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 12027;C'est un projet ___ je suis fier.;dont;qui;que;où
 12028;Le magasin ___ nous allons est fermé.;où;qui;que;dont
 12029;L'histoire ___ elle raconte est vraie.;que;qui;où;dont
-12030;Elle a ___ une pomme (manger).;mangé;mangée;manges;mangées
-12031;Ils ont ___ leurs devoirs (finir).;fini;finie;finis;finies
-12032;Nous avons ___ un film (voir).;vu;vue;vus;vues
-12033;Elles ont ___ la vérité (dire).;dit;dite;dits;dites
-12034;Il a ___ un gâteau (faire).;fait;faite;faits;faites
-12035;J'ai ___ mes clés (prendre).;pris;prise;prises;priss
-12036;Tu as ___ un livre (choisir).;choisi;choisie;choisis;choisies
-12037;Vous avez ___ vos affaires (vendre).;vendu;vendue;vendus;vendues
-12038;Ils ont ___ leur travail (terminer).;terminé;terminée;termines;terminées
-12039;Elle a ___ toute la journée (travailler).;travaillé;travaillée;travailles;travaillées
+12030;Elle a ___ une pomme.;mangé;mangée;manges;mangées
+12031;Ils ont ___ leurs devoirs.;fini;finie;finis;finies
+12032;Nous avons ___ un film.;vu;vue;vus;vues
+12033;Elles ont ___ la vérité.;dit;dite;dits;dites
+12034;Il a ___ un gâteau.;fait;faite;faits;faites
+12035;J'ai ___ mes clés.;pris;prise;prises;prisent
+12036;Tu as ___ un livre.;choisi;choisie;choisis;choisies
+12037;Vous avez ___ vos affaires.;vendu;vendue;vendus;vendues
+12038;Ils ont ___ leur travail.;terminé;terminée;termines;terminées
+12039;Elle a ___ toute la journée.;travaillé;travaillée;travailles;travaillées
+37000;Dans la phrase 'Il travaille le week-end.', 'le week-end' est un complément circonstanciel de quel type ?;temps;lieu;manière;cause
+37001;Dans la phrase 'Nous nous voyons chaque semaine.', 'chaque semaine' est un complément circonstanciel de quel type ?;temps;lieu;manière;cause
+37002;Dans la phrase 'Le magasin ouvre à neuf heures.', 'à neuf heures' est un complément circonstanciel de quel type ?;temps;lieu;manière;cause
+37003;Dans la phrase 'Elle part en vacances en juillet.', 'en juillet' est un complément circonstanciel de quel type ?;temps;lieu;manière;cause
+37004;Dans la phrase 'Il se lève tôt le matin.', 'tôt le matin' est un complément circonstanciel de quel type ?;temps;lieu;manière;cause
+37005;Dans la phrase 'Nous mangeons à midi.', 'à midi' est un complément circonstanciel de quel type ?;temps;lieu;manière;cause
+37006;Dans la phrase 'Le spectacle commence ce soir.', 'ce soir' est un complément circonstanciel de quel type ?;temps;lieu;manière;cause
+37007;Dans la phrase 'Elle range ses affaires dans l'armoire.', 'dans l'armoire' est un complément circonstanciel de quel type ?;lieu;temps;manière;cause
+37008;Dans la phrase 'Les enfants courent sur la plage.', 'sur la plage' est un complément circonstanciel de quel type ?;lieu;temps;manière;cause
+37009;Dans la phrase 'Le chien dort devant la cheminée.', 'devant la cheminée' est un complément circonstanciel de quel type ?;lieu;temps;manière;cause
+37010;Dans la phrase 'Nous nous promenons dans la forêt.', 'dans la forêt' est un complément circonstanciel de quel type ?;lieu;temps;manière;cause
+37011;Dans la phrase 'Le livre est posé sur le bureau.', 'sur le bureau' est un complément circonstanciel de quel type ?;lieu;temps;manière;cause
+37012;Dans la phrase 'Nous avançons prudemment.', 'prudemment' est un complément circonstanciel de quel type ?;manière;temps;lieu;cause
+37013;Dans la phrase 'Elle parle doucement.', 'doucement' est un complément circonstanciel de quel type ?;manière;temps;lieu;cause
+37014;Dans la phrase 'Il conduit dangereusement.', 'dangereusement' est un complément circonstanciel de quel type ?;manière;temps;lieu;cause
+37015;Dans la phrase 'Ils dansent gracieusement.', 'gracieusement' est un complément circonstanciel de quel type ?;manière;temps;lieu;cause
+37016;Dans la phrase 'Elle écrit soigneusement.', 'soigneusement' est un complément circonstanciel de quel type ?;manière;temps;lieu;cause
+37017;Le stylo ___ est sur la table appartient à Léo.;qui;que;où;dont
+37018;L'homme ___ traverse la rue est mon voisin.;qui;que;où;dont
+37019;Le vélo ___ est garé là appartient à Tom.;qui;que;où;dont
+37020;La dame ___ nous a salués est institutrice.;qui;que;où;dont
+37021;Le chat ___ dort sur le canapé s'appelle Milo.;qui;que;où;dont
+37022;Les enfants ___ jouent dehors sont mes cousins.;qui;que;où;dont
+37023;Le train ___ arrive en gare est en retard.;qui;que;où;dont
+37024;L'oiseau ___ chante dans l'arbre est un merle.;qui;que;où;dont
+37025;Le cadeau ___ tu m'as offert me plaît beaucoup.;que;qui;où;dont
+37026;La chanson ___ il chante est célèbre.;que;qui;où;dont
+37027;Le repas ___ elle a cuisiné sentait bon.;que;qui;où;dont
+37028;Le dessin ___ tu as fait est magnifique.;que;qui;où;dont
+37029;La robe ___ elle porte est neuve.;que;qui;où;dont
+37030;L'école ___ je vais est proche.;où;qui;que;dont
+37031;Le pays ___ elle est née est lointain.;où;qui;que;dont
+37032;Le village ___ mes grands-parents vivent est calme.;où;qui;que;dont
+37033;La chambre ___ je dors est petite.;où;qui;que;dont
+37034;Le moment ___ tout a commencé reste flou.;où;qui;que;dont
+37035;La forêt ___ nous marchons est immense.;où;qui;que;dont
+37036;Le livre ___ je me souviens était captivant.;dont;qui;que;où
+37037;C'est un voyage ___ elle rêve depuis longtemps.;dont;qui;que;où
+37038;Voici l'histoire ___ tout le monde parle.;dont;qui;que;où
+37039;C'est un sujet ___ nous discutons souvent.;dont;qui;que;où
+37040;L'objet ___ tu as besoin est dans le tiroir.;dont;qui;que;où
+37041;C'est une réussite ___ elle est fière.;dont;qui;que;où
+37042;Le résultat ___ il se souvient était excellent.;dont;qui;que;où
+37043;Hier, ils ont ___ leur travail.;trouvé;trouvée;trouvés;trouvées
+37044;Hier, ils ont ___ leurs devoirs.;corrigé;corrigés;corrigée;corrigées
+37045;Hier, elle a ___ une pomme.;trouvé;trouvée;trouvés;trouvées
+37046;Hier, nous avons ___ un film.;trouvé;trouvés;trouvée;trouvées
+37047;Hier, il a ___ un gâteau.;cuisiné;cuisinée;cuisinées;cuisinés
+37048;Elle a ___ une lettre.;reçu;reçue;reçus;reçues
+37049;Ce matin, il a ___ un gâteau.;préparé;préparées;préparés;préparée
+37050;Hier, elle a ___ une lettre.;lu;lus;lue;lues
+37051;Hier, elles ont ___ la vérité.;trouvé;trouvée;trouvés;trouvées
+37052;Ce matin, elles ont ___ la vérité.;cherché;cherchés;cherchées;cherchée
+37053;Hier, j'ai ___ mes clés.;perdu;perdue;perdus;perdues
+37054;Ce matin, nous avons ___ un film.;regardé;regardées;regardés;regardée
+37055;Ce matin, ils ont ___ leur travail.;fini;finies;finie;finis
+37056;Ce matin, elle a ___ une lettre.;rangé;rangée;rangées;rangés
+37057;Ce matin, elle a ___ une pomme.;choisi;choisie;choisies;choisis
+37058;Hier, vous avez ___ vos affaires.;lavé;lavés;lavées;lavée
+37059;Finalement, il a ___ un gâteau.;mangé;mangée;mangées;mangés
+37060;Elle a ___ une poire.;offert;offerte;offerts;offertes
+37061;Finalement, elle a ___ une lettre.;écrit;écrites;écrite;écrits
+37062;Hier, tu as ___ un livre.;trouvé;trouvés;trouvée;trouvées
+37063;Ils ont ___ leurs exercices.;fini;finies;finie;finis
+37064;Hier, ils ont ___ leurs exercices.;cherché;cherchée;cherchées;cherchés
+37065;Elles ont ___ la solution.;trouvé;trouvée;trouvées;trouvés
+37066;Finalement, ils ont ___ leur travail.;organisé;organisés;organisée;organisées
+37067;Hier, elle a ___ une poire.;vendu;vendue;vendues;vendus
+37068;Nous avons ___ un documentaire.;vu;vue;vues;vus
+37069;Hier, nous avons ___ un documentaire.;acheté;achetées;achetée;achetés
+37070;Ce matin, j'ai ___ mes clés.;rangé;rangées;rangés;rangée
+37071;Ce matin, nous avons ___ un documentaire.;choisi;choisis;choisie;choisies
+37072;Enfin, elle a ___ une lettre.;trouvé;trouvée;trouvées;trouvés
+37073;Enfin, il a ___ un gâteau.;trouvé;trouvées;trouvée;trouvés
+37074;Finalement, nous avons ___ un documentaire.;vendu;vendue;vendus;vendues
+37075;Ce matin, tu as ___ un livre.;acheté;achetées;achetée;achetés
+37076;Finalement, j'ai ___ mes clés.;trouvé;trouvée;trouvés;trouvées
+37077;Cette semaine, elle a ___ une lettre.;cherché;cherchés;cherchées;cherchée
+37078;Hier, elles ont ___ la solution.;découvert;découverte;découvertes;découverts
+37079;Ce matin, elles ont ___ la solution.;cherché;cherchés;cherchées;cherchée
+37080;Ils ont ___ leur exercice.;terminé;terminés;terminée;terminées
+37081;Enfin, ils ont ___ leur travail.;choisi;choisies;choisis;choisie
+37082;Enfin, nous avons ___ un documentaire.;regardé;regardée;regardés;regardées
+37083;Ce matin, vous avez ___ vos affaires.;pris;prenez;prises;prise
+37084;Finalement, tu as ___ un livre.;terminé;terminée;terminées;terminés
+37085;Ce matin, ils ont ___ leurs devoirs.;terminé;terminées;terminés;terminée
+37086;Elle a ___ une carte.;trouvé;trouvées;trouvée;trouvés
+37087;Finalement, elle a ___ une pomme.;lavé;lavées;lavés;lavée
+37088;Finalement, vous avez ___ vos affaires.;cherché;cherchés;cherchée;cherchées
+37089;Finalement, elles ont ___ la solution.;dit;dits;dite;dites
+37090;Hier, ils ont ___ leur exercice.;évalué;évaluées;évalués;évaluée
+37091;Ce matin, elle a ___ une poire.;perdu;perdue;perdus;perdues
+37092;Cette semaine, il a ___ un gâteau.;choisi;choisies;choisie;choisis
+37093;Enfin, vous avez ___ vos affaires.;préparé;préparés;préparée;préparées
+37094;Sans attendre, elle a ___ une lettre.;perdu;perdus;perdues;perdue
+37095;Finalement, elle a ___ une poire.;mangé;mangés;mangées;mangée
+37096;Enfin, j'ai ___ mes clés.;vu;vue;vues;vus
+37097;Enfin, elle a ___ une poire.;lavé;lavées;lavée;lavés
+37098;Cette semaine, elle a ___ une poire.;choisi;choisis;choisies;choisie
+37099;Sans attendre, elle a ___ une poire.;trouvé;trouvés;trouvée;trouvées
+37100;Enfin, elle a ___ une pomme.;offert;offerts;offerte;offertes
+37101;Hier, elle a ___ une carte.;écrit;écrites;écrits;écrite
+37102;Cette semaine, vous avez ___ vos affaires.;perdu;perdue;perdus;perdues
+37103;Sans attendre, vous avez ___ vos affaires.;rangé;rangés;rangée;rangées
+37104;Ce matin, elle a ___ une carte.;cherché;cherchés;cherchées;cherchée
+37105;Ce matin, ils ont ___ leurs exercices.;terminé;terminées;terminée;terminés
+37106;Finalement, elle a ___ une carte.;reçu;reçues;reçue;reçus
+37107;Enfin, elle a ___ une carte.;rangé;rangée;rangées;rangés
+37108;Cette semaine, nous avons ___ un documentaire.;trouvé;trouvés;trouvée;trouvées
+37109;Cette semaine, j'ai ___ mes clés.;cherché;cherchée;cherchées;cherchés
+37110;Sans attendre, il a ___ un gâteau.;acheté;achetés;achetées;achetée
+37111;Cette semaine, elle a ___ une carte.;ouvert;ouverts;ouvertes;ouverte
+37112;Sans attendre, nous avons ___ un documentaire.;offert;offerts;offerte;offertes
+37113;Enfin, tu as ___ un livre.;fini;finie;finies;finis
+37114;Ce matin, ils ont ___ leur exercice.;choisi;choisies;choisie;choisis
+37115;Avec soin, vous avez ___ vos affaires.;choisi;choisies;choisie;choisis
+37116;Avec soin, il a ___ un gâteau.;décoré;décorées;décorés;décorée
+37117;J'ai ___ mes lunettes.;cherché;cherchées;cherchés;cherchée
+37118;Finalement, ils ont ___ leurs exercices.;organisé;organisée;organisés;organisées
+37119;Elles ont ___ la cause.;dit;dite;dits;dites
+37120;Cette semaine, ils ont ___ leur travail.;préparé;préparés;préparées;préparée
+37121;Enfin, ils ont ___ leurs exercices.;fait;faites;faits;faite
+37122;Hier, j'ai ___ mes lunettes.;perdu;perdues;perdus;perdue
+37123;Finalement, ils ont ___ leur exercice.;trouvé;trouvés;trouvée;trouvées
+37124;Comme prévu, il a ___ un gâteau.;offert;offertes;offerte;offerts
+37125;Ce matin, j'ai ___ mes lunettes.;pris;prenez;prises;prise
+37126;Nous avons ___ un dessin animé.;offert;offerts;offertes;offerte
+37127;Cette semaine, ils ont ___ leurs exercices.;corrigé;corrigées;corrigée;corrigés
+37128;Sans attendre, ils ont ___ leurs exercices.;rangé;rangée;rangés;rangées
+37129;Cette semaine, tu as ___ un livre.;vendu;vendues;vendue;vendus
+37130;Comme prévu, vous avez ___ vos affaires.;trouvé;trouvées;trouvés;trouvée
+37131;Cette semaine, elle a ___ une pomme.;acheté;achetée;achetés;achetées
+37132;Sans attendre, tu as ___ un livre.;offert;offerts;offertes;offerte
+37133;Ils ont ___ leurs leçons.;organisé;organisés;organisées;organisée
+37134;Vous avez ___ vos vêtements.;vendu;vendues;vendus;vendue
+37135;Hier, nous avons ___ un dessin animé.;vu;vue;vus;vues
+37136;Avec soin, tu as ___ un livre.;reçu;reçue;reçus;reçues
+37137;Hier, elles ont ___ la cause.;découvert;découvertes;découverte;découverts
+37138;Sans attendre, ils ont ___ leur travail.;fait;faite;faites;faits
+37139;Finalement, j'ai ___ mes lunettes.;vu;vus;vues;vue
+37140;Ce matin, nous avons ___ un dessin animé.;regardé;regardées;regardés;regardée
+37141;Il a ___ une tarte.;offert;offertes;offerte;offerts
+37142;Enfin, j'ai ___ mes lunettes.;trouvé;trouvées;trouvée;trouvés
+37143;Comme prévu, tu as ___ un livre.;perdu;perdues;perdue;perdus
+37144;Cette semaine, j'ai ___ mes lunettes.;rangé;rangée;rangés;rangées
+37145;Hier, ils ont ___ leurs leçons.;fait;faite;faits;faites
+37146;Finalement, nous avons ___ un dessin animé.;vendu;vendue;vendues;vendus
+37147;Ce matin, elles ont ___ la cause.;trouvé;trouvée;trouvées;trouvés
+37148;Finalement, nous avons ___ un film.;vendu;vendus;vendues;vendue
+37149;Avec soin, elle a ___ une poire.;acheté;achetée;achetées;achetés
+37150;Après le repas, tu as ___ un livre.;lu;lus;lue;lues
+37151;Enfin, ils ont ___ leur exercice.;corrigé;corrigée;corrigées;corrigés
+37152;Finalement, ils ont ___ leurs devoirs.;fait;faits;faites;faite
+37153;Ce matin, ils ont ___ leurs leçons.;terminé;terminés;terminée;terminées
+37154;J'ai ___ mes gants.;rangé;rangées;rangés;rangée
+37155;Enfin, nous avons ___ un dessin animé.;acheté;achetés;achetées;achetée
+37156;Hier, j'ai ___ mes gants.;pris;prises;prenez;prise
+37157;Hier, vous avez ___ vos vêtements.;cherché;cherchés;cherchées;cherchée
+37158;Finalement, elles ont ___ la cause.;cherché;cherchés;cherchée;cherchées
+37159;Hier, il a ___ une tarte.;fait;faites;faits;faite
+37160;Un peu plus tard, tu as ___ un livre.;écrit;écrite;écrits;écrites
+37161;Elles ont ___ le mystère.;cherché;cherchées;cherchée;cherchés
+37162;Cette semaine, ils ont ___ leur exercice.;fini;finis;finie;finies
+37163;Enfin, nous avons ___ un film.;acheté;achetés;achetée;achetées
+37164;Sans attendre, ils ont ___ leur exercice.;préparé;préparée;préparées;préparés
+37165;Avant de partir, tu as ___ un livre.;cherché;cherchés;cherchées;cherchée
+37166;Ce matin, vous avez ___ vos vêtements.;lavé;lavées;lavés;lavée
+37167;Sans attendre, elle a ___ une carte.;lu;lus;lues;lue
+37168;Finalement, vous avez ___ vos vêtements.;préparé;préparés;préparées;préparée
+37169;Tu as ___ un roman.;terminé;terminées;terminée;terminés
+37170;Enfin, vous avez ___ vos vêtements.;choisi;choisies;choisis;choisie
+37171;Ce matin, il a ___ une tarte.;perdu;perdue;perdues;perdus
+37172;Finalement, ils ont ___ leurs leçons.;corrigé;corrigées;corrigés;corrigée
+37173;Cette semaine, nous avons ___ un film.;offert;offerts;offertes;offerte
+37174;Après le repas, vous avez ___ vos affaires.;acheté;achetés;achetée;achetées
+37175;Après le repas, il a ___ un gâteau.;perdu;perdues;perdus;perdue
+37176;Tout à l'heure, tu as ___ un livre.;ouvert;ouverts;ouverte;ouvertes
+37177;Finalement, elles ont ___ la vérité.;découvert;découvertes;découverte;découverts
+37178;Avec soin, elle a ___ une carte.;perdu;perdus;perdues;perdue
+37179;Avec soin, ils ont ___ leur exercice.;imaginé;imaginés;imaginées;imaginée
+37180;Sans attendre, elle a ___ une pomme.;vendu;vendues;vendue;vendus
+37181;Finalement, il a ___ une tarte.;cuisiné;cuisinés;cuisinées;cuisinée
+37182;Cette semaine, nous avons ___ un dessin animé.;choisi;choisis;choisie;choisies
+37183;Enfin, ils ont ___ leurs leçons.;cherché;cherchées;cherchés;cherchée
+37184;Cette semaine, ils ont ___ leurs leçons.;rangé;rangés;rangée;rangées
+37185;Ce matin, j'ai ___ mes gants.;cherché;cherchées;cherchée;cherchés
+37186;Sans attendre, nous avons ___ un dessin animé.;trouvé;trouvée;trouvées;trouvés
+37187;Sans se presser, tu as ___ un livre.;rangé;rangés;rangée;rangées
+37188;Hier, elles ont ___ le mystère.;trouvé;trouvée;trouvés;trouvées
+37189;Cette semaine, vous avez ___ vos vêtements.;perdu;perdus;perdues;perdue
+37190;Elle a ___ une orange.;lavé;lavées;lavée;lavés
+37191;Comme prévu, ils ont ___ leur exercice.;fait;faits;faites;faite
+37192;Ce matin, elles ont ___ le mystère.;dit;dits;dite;dites
+37193;Hier, tu as ___ un roman.;choisi;choisie;choisies;choisis
+37194;Nous avons ___ une série.;vendu;vendues;vendus;vendue
+37195;Sans attendre, vous avez ___ vos vêtements.;pris;prise;prenez;prises
+37196;Avec soin, vous avez ___ vos vêtements.;trouvé;trouvés;trouvées;trouvée
+37197;Enfin, il a ___ une tarte.;décoré;décorées;décorée;décorés
+37198;Après le repas, ils ont ___ leur exercice.;organisé;organisées;organisée;organisés
+37199;Un peu plus tard, ils ont ___ leur exercice.;testé;testés;testée;testées
+37200;Hier, nous avons ___ une série.;acheté;achetées;achetés;achetée
+37201;Finalement, j'ai ___ mes gants.;perdu;perdues;perdue;perdus
+37202;Finalement, elles ont ___ le mystère.;découvert;découvertes;découverte;découverts
+37203;Ils ont ___ leur devoir.;cherché;cherchée;cherchés;cherchées
+37204;Hier, ils ont ___ leur devoir.;fini;finie;finies;finis
+37205;Ce matin, tu as ___ un roman.;acheté;achetées;achetée;achetés
+37206;Ce matin, nous avons ___ une série.;vu;vus;vue;vues
+37207;Sans attendre, ils ont ___ leurs leçons.;fini;finies;finis;finie
+37208;Elles ont ___ le secret.;cherché;cherchés;cherchées;cherchée
+37209;Ce matin, ils ont ___ leur devoir.;corrigé;corrigées;corrigée;corrigés
+37210;Enfin, j'ai ___ mes gants.;trouvé;trouvées;trouvés;trouvée
+37211;Hier, elle a ___ une orange.;mangé;mangées;mangée;mangés
+37212;Avec soin, elle a ___ une pomme.;perdu;perdues;perdue;perdus
+37213;Cette semaine, j'ai ___ mes gants.;vu;vues;vue;vus
+37214;Elle a ___ un message.;trouvé;trouvés;trouvées;trouvée
+37215;Finalement, ils ont ___ leur devoir.;terminé;terminée;terminés;terminées
+37216;Ce matin, elle a ___ une orange.;choisi;choisies;choisis;choisie
+37217;Hier, elles ont ___ le secret.;découvert;découverts;découverte;découvertes
+37218;Hier, elle a ___ un message.;cherché;cherchées;cherchée;cherchés
+37219;Un peu plus tard, il a ___ un gâteau.;vendu;vendue;vendues;vendus
+37220;Comme prévu, vous avez ___ vos vêtements.;rangé;rangées;rangée;rangés
+37221;Finalement, elle a ___ une orange.;acheté;achetés;achetées;achetée
+37222;Sans attendre, nous avons ___ un film.;choisi;choisie;choisis;choisies
+37223;Finalement, tu as ___ un roman.;ouvert;ouverts;ouvertes;ouverte
+37224;Après le repas, vous avez ___ vos vêtements.;acheté;achetée;achetées;achetés
+37225;Ce matin, elles ont ___ le secret.;trouvé;trouvés;trouvées;trouvée
+37226;Vous avez ___ vos jouets.;perdu;perdus;perdues;perdue
+37227;Avec soin, elle a ___ une lettre.;ouvert;ouverte;ouvertes;ouverts
+37228;Finalement, nous avons ___ une série.;regardé;regardée;regardés;regardées
+37229;J'ai ___ mon sac.;vu;vues;vue;vus
+37230;Enfin, elle a ___ une orange.;vendu;vendue;vendues;vendus
+37231;Finalement, elles ont ___ le secret.;dit;dites;dits;dite
+37232;Hier, vous avez ___ vos jouets.;cherché;cherchées;cherchés;cherchée
+37233;Enfin, ils ont ___ leur devoir.;organisé;organisées;organisés;organisée
+37234;Ce matin, elle a ___ un message.;reçu;reçus;reçues;reçue
+37235;Enfin, tu as ___ un roman.;lu;lus;lues;lue
+37236;Cette semaine, elle a ___ une orange.;offert;offerts;offertes;offerte
+37237;Ce matin, vous avez ___ vos jouets.;vendu;vendues;vendue;vendus
+37238;Finalement, elle a ___ un message.;lu;lue;lus;lues
+37239;Elles ont ___ l'explication.;trouvé;trouvée;trouvés;trouvées
+37240;Cette semaine, ils ont ___ leur devoir.;fait;faite;faites;faits
+37241;Finalement, vous avez ___ vos jouets.;lavé;lavées;lavés;lavée
+37242;Cette semaine, il a ___ une tarte.;vendu;vendues;vendue;vendus
+37243;Dans la phrase 'Les élèves arrivent à huit heures.', quel est le type de complément circonstanciel exprimé ?;temps;lieu;manière;cause
+37244;Dans la phrase 'Les abeilles partent demain matin.', quel est le type de complément circonstanciel exprimé ?;temps;lieu;manière;cause
+37245;Dans la phrase 'Les chiens travaillent depuis lundi.', quel est le type de complément circonstanciel exprimé ?;temps;lieu;manière;cause
+37246;Dans la phrase 'La pluie revient ce soir.', quel est le type de complément circonstanciel exprimé ?;temps;lieu;manière;cause
+37247;Dans la phrase 'Les étoiles apparaissent dans une heure.', quel est le type de complément circonstanciel exprimé ?;temps;lieu;manière;cause
+37248;Dans la phrase 'Le pêcheur dort toute la nuit.', quel est le type de complément circonstanciel exprimé ?;temps;lieu;manière;cause
+37249;Dans la phrase 'Le fermier joue le week-end.', quel est le type de complément circonstanciel exprimé ?;temps;lieu;manière;cause
+37250;Dans la phrase 'Les enfants se réveillent tôt.', quel est le type de complément circonstanciel exprimé ?;temps;lieu;manière;cause
+37251;Dans la phrase 'Le bateau part en vacances en été.', quel est le type de complément circonstanciel exprimé ?;temps;lieu;manière;cause
+37252;Dans la phrase 'Les oiseaux rentrent au coucher du soleil.', quel est le type de complément circonstanciel exprimé ?;temps;lieu;manière;cause
+37253;Dans la phrase 'Le soleil sort chaque matin.', quel est le type de complément circonstanciel exprimé ?;temps;lieu;manière;cause
+37254;Dans la phrase 'Le fermier dîne à vingt heures.', quel est le type de complément circonstanciel exprimé ?;temps;lieu;manière;cause
+37255;Dans la phrase 'Le jardinier part dans dix minutes.', quel est le type de complément circonstanciel exprimé ?;temps;lieu;manière;cause
+37256;Dans la phrase 'La maîtresse reste jusqu'à demain.', quel est le type de complément circonstanciel exprimé ?;temps;lieu;manière;cause
+37257;Dans la phrase 'Le facteur arrive en retard aujourd'hui.', quel est le type de complément circonstanciel exprimé ?;temps;lieu;manière;cause
+37258;Dans la phrase 'Les fleurs poussent près de la mairie.', quel est le type de complément circonstanciel exprimé ?;lieu;temps;manière;cause
+37259;Dans la phrase 'Les poissons nagent dans le bassin.', quel est le type de complément circonstanciel exprimé ?;lieu;temps;manière;cause
+37260;Dans la phrase 'L'oiseau vole au-dessus des toits.', quel est le type de complément circonstanciel exprimé ?;lieu;temps;manière;cause
+37261;Dans la phrase 'Le boulanger nage dans la rivière.', quel est le type de complément circonstanciel exprimé ?;lieu;temps;manière;cause
+37262;Dans la phrase 'Les voitures stationnent sous l'arbre.', quel est le type de complément circonstanciel exprimé ?;lieu;temps;manière;cause
+37263;Dans la phrase 'Les fermiers travaillent dans les champs.', quel est le type de complément circonstanciel exprimé ?;lieu;temps;manière;cause
+37264;Dans la phrase 'Le renard vit dans la forêt.', quel est le type de complément circonstanciel exprimé ?;lieu;temps;manière;cause
+37265;Dans la phrase 'Ma soeur passe devant l'école.', quel est le type de complément circonstanciel exprimé ?;lieu;temps;manière;cause
+37266;Dans la phrase 'Le chat se cache derrière la maison.', quel est le type de complément circonstanciel exprimé ?;lieu;temps;manière;cause
+37267;Dans la phrase 'Le professeur court sur la plage.', quel est le type de complément circonstanciel exprimé ?;lieu;temps;manière;cause
+37268;Dans la phrase 'Mon père attend à l'arrêt de bus.', quel est le type de complément circonstanciel exprimé ?;lieu;temps;manière;cause
+37269;Dans la phrase 'Les enfants grimpent sur le rocher.', quel est le type de complément circonstanciel exprimé ?;lieu;temps;manière;cause
+37270;Dans la phrase 'Les bateaux naviguent sur le lac.', quel est le type de complément circonstanciel exprimé ?;lieu;temps;manière;cause
+37271;Dans la phrase 'Le jardinier travaille dans le jardin.', quel est le type de complément circonstanciel exprimé ?;lieu;temps;manière;cause
+37272;Dans la phrase 'L'étoile brille dans le ciel.', quel est le type de complément circonstanciel exprimé ?;lieu;temps;manière;cause
+37273;Dans la phrase 'Les élèves chantent joyeusement.', quel est le type de complément circonstanciel exprimé ?;manière;temps;lieu;cause
+37274;Dans la phrase 'Les abeilles volent prudemment.', quel est le type de complément circonstanciel exprimé ?;manière;temps;lieu;cause
+37275;Dans la phrase 'Les chiens répondent calmement.', quel est le type de complément circonstanciel exprimé ?;manière;temps;lieu;cause
+37276;Dans la phrase 'L'ouvrier travaille sérieusement.', quel est le type de complément circonstanciel exprimé ?;manière;temps;lieu;cause
+37277;Dans la phrase 'Les enfants parlent doucement.', quel est le type de complément circonstanciel exprimé ?;manière;temps;lieu;cause
+37278;Dans la phrase 'Le pêcheur court rapidement.', quel est le type de complément circonstanciel exprimé ?;manière;temps;lieu;cause
+37279;Dans la phrase 'Le fermier écrit soigneusement.', quel est le type de complément circonstanciel exprimé ?;manière;temps;lieu;cause
+37280;Dans la phrase 'Les enfants dansent gracieusement.', quel est le type de complément circonstanciel exprimé ?;manière;temps;lieu;cause
+37281;Dans la phrase 'Le chauffeur conduit prudemment.', quel est le type de complément circonstanciel exprimé ?;manière;temps;lieu;cause
+37282;Dans la phrase 'Les oiseaux écoutent attentivement.', quel est le type de complément circonstanciel exprimé ?;manière;temps;lieu;cause
+37283;Dans la phrase 'Le voisin salue poliment.', quel est le type de complément circonstanciel exprimé ?;manière;temps;lieu;cause
+37284;Dans la phrase 'Le vélo avance lentement.', quel est le type de complément circonstanciel exprimé ?;manière;temps;lieu;cause
+37285;Dans la phrase 'Le jardinier réagit vivement.', quel est le type de complément circonstanciel exprimé ?;manière;temps;lieu;cause
+37286;Dans la phrase 'La maîtresse se comporte gentiment.', quel est le type de complément circonstanciel exprimé ?;manière;temps;lieu;cause
+37287;Dans la phrase 'Le commerçant agit honnêtement.', quel est le type de complément circonstanciel exprimé ?;manière;temps;lieu;cause
+37288;Le professeur ___ enseigne le français est gentil.;qui;que;où;dont
+37289;La voiture ___ roule vite est rouge.;qui;que;où;dont
+37290;Le boulanger ___ vend le pain se lève tôt.;qui;que;où;dont
+37291;L'élève ___ lève la main a une question.;qui;que;où;dont
+37292;Le facteur ___ distribue le courrier passe tôt.;qui;que;où;dont
+37293;La chanteuse ___ monte sur scène est célèbre.;qui;que;où;dont
+37294;Le nuage ___ passe dans le ciel est gris.;qui;que;où;dont
+37295;Les enfants ___ crient dans la cour s'amusent.;qui;que;où;dont
+37296;Le fermier ___ cultive ce champ travaille dur.;qui;que;où;dont
+37297;La rivière ___ coule ici est calme.;qui;que;où;dont
+37298;La lettre ___ j'ai reçue me réjouit.;que;qui;où;dont
+37299;Le tableau ___ elle a peint est superbe.;que;qui;où;dont
+37300;L'exercice ___ nous avons fait était difficile.;que;qui;où;dont
+37301;La chanson ___ tu écoutes est belle.;que;qui;où;dont
+37302;Le jouet ___ il préfère est cassé.;que;qui;où;dont
+37303;La décision ___ nous avons prise est bonne.;que;qui;où;dont
+37304;Le chemin ___ nous avons suivi était long.;que;qui;où;dont
+37305;Le dessert ___ elle a choisi est sucré.;que;qui;où;dont
+37306;Le voyage ___ ils ont fait était magnifique.;que;qui;où;dont
+37307;La réponse ___ tu as donnée est juste.;que;qui;où;dont
+37308;Le quartier ___ j'ai grandi a changé.;où;qui;que;dont
+37309;La saison ___ il fait le plus chaud est l'été.;où;qui;que;dont
+37310;L'endroit ___ nous campons est magnifique.;où;qui;que;dont
+37311;Le musée ___ nous allons est fermé le lundi.;où;qui;que;dont
+37312;L'année ___ elle est née fut particulière.;où;qui;que;dont
+37313;Le café ___ ils se retrouvent est calme.;où;qui;que;dont
+37314;La rue ___ j'habite est calme.;où;qui;que;dont
+37315;Le parc ___ nous jouons est immense.;où;qui;que;dont
+37316;Le stade ___ ils s'entraînent est neuf.;où;qui;que;dont
+37317;Le port ___ le bateau accoste est petit.;où;qui;que;dont
+37318;Le film ___ tout le monde parle sortira bientôt.;dont;qui;que;où
+37319;La maladie ___ il souffre est soignée.;dont;qui;que;où
+37320;Le trésor ___ ils rêvent n'existe peut-être pas.;dont;qui;que;où
+37321;L'ami ___ je me souviens a déménagé.;dont;qui;que;où
+37322;Le prix ___ elle est fière est mérité.;dont;qui;que;où
+37323;Le sport ___ il raffole est le tennis.;dont;qui;que;où
+37324;L'histoire ___ on se souvient est émouvante.;dont;qui;que;où
+37325;Le succès ___ elle est fière la rend heureuse.;dont;qui;que;où
+37326;Le cadeau ___ il a besoin coûte cher.;dont;qui;que;où
+37327;Le secret ___ elle parle est bien gardé.;dont;qui;que;où
+37328;Sans attendre, ils ont ___ leur devoir.;rangé;rangées;rangée;rangés
+37329;Le sportif a ___ le match.;regardé;regardés;regardées;regardée
+37330;Vous avez ___ le projet.;organisé;organisée;organisés;organisées
+37331;Elle a ___ la réponse.;écrit;écrites;écrits;écrite
+37332;Le peintre a ___ un tableau.;vendu;vendus;vendues;vendue
+37333;Nous avons ___ la maison.;trouvé;trouvée;trouvées;trouvés
+37334;Hier, nous avons ___ la maison.;décoré;décorée;décorés;décorées
+37335;Tu as ___ le calcul.;corrigé;corrigée;corrigés;corrigées
+37336;Hier, le sportif a ___ le match.;perdu;perdue;perdues;perdus
+37337;Hier, elle a ___ la réponse.;dit;dite;dits;dites
+37338;J'ai ___ cette idée.;testé;testée;testés;testées
+37339;Hier, le peintre a ___ un tableau.;vu;vues;vue;vus
+37340;Ce matin, nous avons ___ la maison.;acheté;achetée;achetées;achetés
+37341;Ce matin, elle a ___ la réponse.;noté;notées;notée;notés
+37342;Finalement, nous avons ___ la maison.;construit;construites;construite;construits
+37343;Les musiciens ont ___ une mélodie.;noté;notés;notée;notées
+37344;Ce matin, le peintre a ___ un tableau.;regardé;regardés;regardées;regardée
+37345;La cuisinière a ___ un plat.;mangé;mangées;mangés;mangée
+37346;Hier, j'ai ___ cette idée.;choisi;choisie;choisies;choisis
+37347;Hier, la cuisinière a ___ un plat.;lavé;lavée;lavées;lavés
+37348;Ils ont ___ leur activité.;fini;finis;finies;finie
+37349;Hier, tu as ___ le calcul.;évalué;évalués;évaluées;évaluée
+37350;Finalement, elle a ___ la réponse.;trouvé;trouvés;trouvées;trouvée
+37351;Hier, vous avez ___ le projet.;préparé;préparées;préparée;préparés
+37352;Enfin, elle a ___ la réponse.;cherché;cherchées;cherchée;cherchés
+37353;Ce matin, j'ai ___ cette idée.;noté;notées;notés;notée
+37354;Hier, les musiciens ont ___ une mélodie.;chanté;chantés;chantées;chantée
+37355;Ce matin, vous avez ___ le projet.;évalué;évaluée;évalués;évaluées
+37356;Finalement, le peintre a ___ un tableau.;décoré;décorée;décorés;décorées
+37357;Ce matin, tu as ___ le calcul.;fini;finies;finie;finis
+37358;Ce matin, les musiciens ont ___ une mélodie.;choisi;choisis;choisies;choisie
+37359;Finalement, tu as ___ le calcul.;terminé;terminée;terminées;terminés
+37360;Ce matin, le sportif a ___ le match.;vu;vues;vus;vue
+37361;Finalement, vous avez ___ le projet.;terminé;terminée;terminées;terminés
+37362;Finalement, j'ai ___ cette idée.;imaginé;imaginée;imaginées;imaginés
+37363;Cette semaine, elle a ___ la réponse.;choisi;choisies;choisis;choisie
+37364;Enfin, nous avons ___ la maison.;rangé;rangée;rangées;rangés
+37365;Tu as ___ le problème.;testé;testées;testés;testée
+37366;Enfin, le peintre a ___ un tableau.;transporté;transportée;transportés;transportées
+37367;Le sportif a ___ le tournoi.;perdu;perdue;perdus;perdues
+37368;Hier, ils ont ___ leur activité.;fait;faits;faites;faite
+37369;Cette semaine, nous avons ___ la maison.;réparé;réparée;réparées;réparés
+37370;Ce matin, ils ont ___ leur activité.;préparé;préparées;préparés;préparée
+37371;Cette semaine, le peintre a ___ un tableau.;réparé;réparées;réparés;réparée
+37372;Ce matin, la cuisinière a ___ un plat.;cuisiné;cuisinée;cuisinés;cuisinées
+37373;J'ai ___ cette solution.;découvert;découverte;découverts;découvertes
+37374;Enfin, vous avez ___ le projet.;choisi;choisie;choisis;choisies
+37375;Elle a ___ la solution.;dit;dites;dits;dite
+37376;Sans attendre, le peintre a ___ un tableau.;choisi;choisies;choisie;choisis
+37377;Sans attendre, nous avons ___ la maison.;vendu;vendue;vendues;vendus
+37378;Hier, tu as ___ le problème.;terminé;terminés;terminées;terminée
+37379;Finalement, la cuisinière a ___ un plat.;choisi;choisie;choisies;choisis
+37380;Finalement, les musiciens ont ___ une mélodie.;imaginé;imaginées;imaginée;imaginés
+37381;Enfin, la cuisinière a ___ un plat.;préparé;préparées;préparée;préparés
+37382;Enfin, les musiciens ont ___ une mélodie.;trouvé;trouvées;trouvée;trouvés
+37383;Ce matin, tu as ___ le problème.;fini;finies;finis;finie
+37384;Cette semaine, la cuisinière a ___ un plat.;offert;offertes;offerts;offerte
+37385;Hier, elle a ___ la solution.;découvert;découverte;découverts;découvertes
+37386;Finalement, ils ont ___ leur activité.;corrigé;corrigés;corrigée;corrigées
+37387;Ce matin, elle a ___ la solution.;cherché;cherchés;cherchée;cherchées
+37388;Nous avons ___ la ferme.;réparé;réparés;réparées;réparée
+37389;Hier, nous avons ___ la ferme.;trouvé;trouvées;trouvée;trouvés
+37390;Sans attendre, la cuisinière a ___ un plat.;rangé;rangés;rangée;rangées
+37391;Enfin, j'ai ___ cette idée.;trouvé;trouvées;trouvée;trouvés
+37392;Finalement, le sportif a ___ le match.;organisé;organisée;organisés;organisées
+37393;Avec soin, la cuisinière a ___ un plat.;trouvé;trouvés;trouvée;trouvées
+37394;Cette semaine, vous avez ___ le projet.;corrigé;corrigée;corrigés;corrigées
+37395;Hier, le sportif a ___ le tournoi.;organisé;organisés;organisées;organisée
+37396;Enfin, ils ont ___ leur activité.;choisi;choisies;choisis;choisie
+37397;Cette semaine, j'ai ___ cette idée.;corrigé;corrigés;corrigée;corrigées
+37398;Cette semaine, ils ont ___ leur activité.;terminé;terminées;terminés;terminée
+37399;Sans attendre, j'ai ___ cette idée.;évalué;évaluées;évalués;évaluée
+37400;Sans attendre, vous avez ___ le projet.;fini;finis;finies;finie
+37401;Comme prévu, la cuisinière a ___ un plat.;vendu;vendus;vendues;vendue
+37402;Finalement, elle a ___ la solution.;trouvé;trouvés;trouvées;trouvée
+37403;Ce matin, le sportif a ___ le tournoi.;vu;vus;vues;vue
+37404;Avec soin, le peintre a ___ un tableau.;peint;peinte;peints;peintes
+37405;Finalement, tu as ___ le problème.;évalué;évaluées;évalués;évaluée
+37406;Finalement, le sportif a ___ le tournoi.;regardé;regardée;regardés;regardées
+37407;Hier, j'ai ___ cette solution.;trouvé;trouvée;trouvés;trouvées
+37408;Le sportif a ___ la compétition.;regardé;regardée;regardés;regardées
+37409;Les musiciens ont ___ une chanson.;trouvé;trouvés;trouvée;trouvées
+37410;Comme prévu, le peintre a ___ un tableau.;offert;offertes;offerts;offerte
+37411;Sans attendre, ils ont ___ leur activité.;organisé;organisée;organisés;organisées
+37412;Enfin, tu as ___ le calcul.;testé;testée;testés;testées
+37413;Après le repas, la cuisinière a ___ un plat.;acheté;achetées;achetée;achetés
+37414;Avec soin, ils ont ___ leur activité.;trouvé;trouvée;trouvés;trouvées
+37415;Avec soin, vous avez ___ le projet.;testé;testée;testés;testées
+37416;Ce matin, j'ai ___ cette solution.;dit;dite;dits;dites
+37417;J'ai ___ ce projet.;terminé;terminée;terminés;terminées
+37418;Hier, le sportif a ___ la compétition.;vu;vues;vus;vue
+37419;Elle a ___ l'explication.;découvert;découverte;découverts;découvertes
+37420;Enfin, tu as ___ le problème.;corrigé;corrigées;corrigés;corrigée
+37421;Après le repas, le peintre a ___ un tableau.;perdu;perdus;perdues;perdue
+37422;Vous avez ___ le dossier.;corrigé;corrigés;corrigées;corrigée
+37423;Ce matin, le sportif a ___ la compétition.;perdu;perdus;perdues;perdue
+37424;Hier, les musiciens ont ___ une chanson.;choisi;choisies;choisis;choisie
+37425;Ils ont ___ leur mission.;préparé;préparée;préparées;préparés
+37426;Finalement, le sportif a ___ la compétition.;organisé;organisées;organisée;organisés
+37427;Ce matin, les musiciens ont ___ une chanson.;chanté;chantées;chantée;chantés
+37428;Hier, ils ont ___ leur mission.;trouvé;trouvées;trouvée;trouvés
+37429;Le sportif a ___ la partie.;vu;vue;vus;vues
+37430;La cuisinière a ___ un repas.;offert;offerts;offertes;offerte
+37431;Un peu plus tard, le peintre a ___ un tableau.;trouvé;trouvée;trouvés;trouvées
+37432;Hier, elle a ___ l'explication.;dit;dite;dits;dites
+37433;Avec soin, ils ont ___ leur travail.;corrigé;corrigée;corrigés;corrigées
+37434;Avant de partir, le peintre a ___ un tableau.;acheté;achetée;achetés;achetées
+37435;Ce matin, nous avons ___ la ferme.;décoré;décorés;décorées;décorée
+37436;Hier, le sportif a ___ la partie.;organisé;organisées;organisés;organisée
+37437;Tu as ___ l'exercice.;organisé;organisée;organisés;organisées
+37438;Tout à l'heure, le peintre a ___ un tableau.;observé;observée;observés;observées
+37439;Ce matin, ils ont ___ leur mission.;organisé;organisées;organisés;organisée
+37440;Finalement, les musiciens ont ___ une chanson.;écrit;écrits;écrites;écrite
+37441;Hier, j'ai ___ ce projet.;fini;finie;finis;finies
+37442;Ce matin, le sportif a ___ la partie.;regardé;regardée;regardés;regardées
+37443;Finalement, nous avons ___ la ferme.;acheté;achetées;achetés;achetée
+37444;Sans attendre, elle a ___ la réponse.;corrigé;corrigée;corrigés;corrigées
+37445;Finalement, le sportif a ___ la partie.;perdu;perdue;perdues;perdus
+37446;Ce matin, elle a ___ l'explication.;cherché;cherchée;cherchés;cherchées
+37447;Les musiciens ont ___ un air.;trouvé;trouvées;trouvée;trouvés
+37448;Finalement, j'ai ___ cette solution.;cherché;cherchée;cherchés;cherchées
+37449;Le sportif a ___ le concours.;organisé;organisée;organisées;organisés
+37450;Sans se presser, le peintre a ___ un tableau.;aperçu;aperçues;aperçue;aperçus
+37451;Ce matin, j'ai ___ ce projet.;préparé;préparée;préparés;préparées
+37452;Hier, vous avez ___ le dossier.;imaginé;imaginés;imaginées;imaginée
+37453;Le peintre a ___ une peinture.;choisi;choisies;choisis;choisie
+37454;Enfin, nous avons ___ la ferme.;rangé;rangée;rangées;rangés
+37455;Hier, le peintre a ___ une peinture.;vu;vus;vues;vue
+37456;Hier, tu as ___ l'exercice.;cherché;cherchée;cherchés;cherchées
+37457;Finalement, elle a ___ l'explication.;trouvé;trouvée;trouvés;trouvées
+37458;Comme prévu, vous avez ___ le projet.;imaginé;imaginée;imaginés;imaginées
+37459;Cette semaine, nous avons ___ la ferme.;vendu;vendues;vendue;vendus
+37460;J'ai ___ les valises.;vu;vue;vus;vues
+37461;Vous avez ___ la recette.;testé;testés;testée;testées
+37462;La couturière a ___ des photos.;trouvé;trouvée;trouvés;trouvées
+37463;Ma tante a ___ la lettre.;reçu;reçues;reçus;reçue
+37464;J'ai ___ la lettre.;cherché;cherchés;cherchée;cherchées
+37465;La couturière a ___ le colis.;préparé;préparés;préparée;préparées
+37466;Nous avons ___ les paquets.;attendu;attendue;attendus;attendues
+37467;Le boulanger a ___ la recette.;trouvé;trouvées;trouvée;trouvés
+37468;Le boulanger a ___ le colis.;attendu;attendus;attendues;attendue
+37469;Vous avez ___ les valises.;cherché;cherchée;cherchées;cherchés
+37470;Nous avons ___ un dessin.;choisi;choisie;choisis;choisies
+37471;Mon oncle a ___ le colis.;cherché;cherchée;cherchés;cherchées
+37472;Hier, vous avez ___ la recette.;écrit;écrits;écrite;écrites
+37473;Les fermières ont ___ la recette.;préparé;préparés;préparée;préparées
+37474;Mon oncle a ___ des cadeaux.;offert;offertes;offerts;offerte
+37475;Mon oncle a ___ les affiches.;rangé;rangée;rangés;rangées
+37476;Le boulanger a ___ les valises.;préparé;préparée;préparés;préparées
+37477;Les fermières ont ___ un dessin.;acheté;achetée;achetés;achetées
+37478;J'ai ___ les affiches.;trouvé;trouvée;trouvés;trouvées
+37479;Les fermières ont ___ les paquets.;cherché;cherchés;cherchées;cherchée
+37480;Ma tante a ___ la recette.;trouvé;trouvée;trouvés;trouvées
+37481;Ma tante a ___ des cadeaux.;perdu;perdue;perdues;perdus
+37482;Hier, ma tante a ___ des cadeaux.;reçu;reçues;reçus;reçue
+37483;Les fermières ont ___ des cadeaux.;reçu;reçus;reçue;reçues
+37484;Nous avons ___ les valises.;préparé;préparée;préparés;préparées
+37485;Vous avez ___ les affiches.;rangé;rangée;rangés;rangées
+37486;Vous avez ___ des photos.;perdu;perdue;perdus;perdues
+37487;Ma tante a ___ des photos.;trouvé;trouvés;trouvée;trouvées
+37488;Hier, j'ai ___ les affiches.;décoré;décorées;décorée;décorés
+37489;Hier, le boulanger a ___ les valises.;rangé;rangés;rangées;rangée
+37490;Les enfants ont ___ le colis.;reçu;reçue;reçus;reçues
+37491;Le boulanger a ___ le rapport.;organisé;organisées;organisée;organisés
+37492;Hier, les fermières ont ___ les paquets.;attendu;attendues;attendue;attendus
+37493;Vous avez ___ les paquets.;rangé;rangée;rangés;rangées
+37494;Mon oncle a ___ la lettre.;écrit;écrite;écrites;écrits
+37495;Ma tante a ___ une histoire.;lu;lue;lus;lues
+37496;Hier, ma tante a ___ des photos.;rangé;rangée;rangés;rangées
+37497;Hier, vous avez ___ des photos.;choisi;choisie;choisis;choisies
+37498;Les élèves ont ___ les paquets.;rangé;rangées;rangée;rangés
+37499;Les enfants ont ___ un dessin.;offert;offerte;offerts;offertes
+37500;Les enfants ont ___ des cadeaux.;reçu;reçues;reçus;reçue
+37501;La couturière a ___ le rapport.;préparé;préparée;préparés;préparées
+37502;Nous avons ___ des cadeaux.;perdu;perdus;perdues;perdue
+37503;Le boulanger a ___ une histoire.;écrit;écrits;écrites;écrite
+37504;Hier, les enfants ont ___ des cadeaux.;offert;offerts;offerte;offertes
+37505;J'ai ___ le rapport.;trouvé;trouvés;trouvée;trouvées
+37506;Le boulanger a ___ un dessin.;corrigé;corrigée;corrigées;corrigés
+37507;Les enfants ont ___ les valises.;préparé;préparés;préparées;préparée
+37508;Vous avez ___ un dessin.;rangé;rangés;rangées;rangée
+37509;Les voisines ont ___ le colis.;préparé;préparée;préparés;préparées
+37510;Les enfants ont ___ une histoire.;terminé;terminée;terminés;terminées
+37511;Les voisines ont ___ les paquets.;transporté;transportés;transportées;transportée
+37512;Les fermières ont ___ une histoire.;imaginé;imaginées;imaginés;imaginée
+37513;Hier, nous avons ___ les valises.;perdu;perdue;perdus;perdues
+37514;La couturière a ___ les affiches.;vu;vue;vus;vues
+37515;La couturière a ___ les valises.;vu;vues;vue;vus
+37516;Ma tante a ___ les valises.;fait;faites;faite;faits
+37517;Mon oncle a ___ les paquets.;trouvé;trouvés;trouvée;trouvées
+37518;Hier, ma tante a ___ la recette.;choisi;choisie;choisis;choisies
+37519;Le boulanger a ___ les paquets.;attendu;attendus;attendues;attendue
+37520;Ma tante a ___ les affiches.;trouvé;trouvées;trouvés;trouvée
+37521;Le boulanger a ___ les affiches.;vu;vues;vue;vus
+37522;Les voisines ont ___ des photos.;trouvé;trouvée;trouvées;trouvés
+37523;Les fermières ont ___ les documents.;trouvé;trouvées;trouvée;trouvés
+37524;Hier, le boulanger a ___ le colis.;ouvert;ouverte;ouvertes;ouverts
+37525;Nous avons ___ le rapport.;trouvé;trouvées;trouvée;trouvés
+37526;Tu as ___ les paquets.;perdu;perdues;perdus;perdue
+37527;Hier, le boulanger a ___ la recette.;préparé;préparée;préparés;préparées
+37528;Ce matin, ma tante a ___ la recette.;écrit;écrites;écrits;écrite
+37529;J'ai ___ la recette.;cherché;cherchée;cherchés;cherchées
+37530;Les voisines ont ___ les valises.;perdu;perdue;perdus;perdues
+37531;Hier, le boulanger a ___ une histoire.;imaginé;imaginée;imaginés;imaginées
+37532;Les fermières ont ___ les valises.;pris;prennent;prises;prise
+37533;J'ai ___ un dessin.;rangé;rangée;rangés;rangées
+37534;Les fermières ont ___ les affiches.;rangé;rangée;rangés;rangées
+37535;Ce matin, le boulanger a ___ une histoire.;choisi;choisis;choisies;choisie
+37536;Hier, le boulanger a ___ les affiches.;choisi;choisie;choisies;choisis
+37537;Ce matin, ma tante a ___ des photos.;choisi;choisis;choisie;choisies
+37538;Les fermières ont ___ le rapport.;corrigé;corrigée;corrigées;corrigés
+37539;Ce matin, nous avons ___ les valises.;rangé;rangée;rangés;rangées
+37540;Les enfants ont ___ la recette.;préparé;préparées;préparés;préparée
+37541;Ce matin, ma tante a ___ des cadeaux.;offert;offerte;offerts;offertes
+37542;Vous avez ___ les documents.;rangé;rangées;rangés;rangée
+37543;J'ai ___ le colis.;perdu;perdue;perdus;perdues
+37544;Hier, les enfants ont ___ le colis.;attendu;attendue;attendues;attendus
+37545;Complète avec le participe passé du verbe 'prendre' : Ma tante a ___ des photos.;pris;prise;prises;ouvert
+37546;Hier, la couturière a ___ les affiches.;préparé;préparées;préparés;préparée
+37547;Les enfants ont ___ les paquets.;ouvert;ouvertes;ouverts;ouverte
+37548;Hier, vous avez ___ les valises.;vu;vues;vus;vue
+37549;Tu as ___ le rapport.;cherché;cherchées;cherchée;cherchés
+37550;Le boulanger a ___ des photos.;vu;vue;vus;vues
+37551;Hier, mon oncle a ___ la lettre.;cherché;cherchée;cherchées;cherchés
+37552;La couturière a ___ une histoire.;imaginé;imaginées;imaginés;imaginée
+37553;Les élèves ont ___ les documents.;trouvé;trouvés;trouvée;trouvées
+37554;Hier, mon oncle a ___ les affiches.;regardé;regardés;regardées;regardée
+37555;Hier, vous avez ___ un dessin.;trouvé;trouvée;trouvés;trouvées
+37556;Hier, le boulanger a ___ un dessin.;perdu;perdues;perdue;perdus
+37557;Hier, les fermières ont ___ les valises.;vu;vue;vus;vues
+37558;Hier, les fermières ont ___ le rapport.;préparé;préparée;préparés;préparées
+37559;Ma tante a ___ le rapport.;écrit;écrite;écrits;écrites
+37560;Mon oncle a ___ les documents.;organisé;organisées;organisés;organisée
+37561;Nous avons ___ la lettre.;trouvé;trouvées;trouvée;trouvés
+37562;J'ai ___ des photos.;regardé;regardées;regardés;regardée
+37563;Hier, nous avons ___ un dessin.;offert;offerte;offerts;offertes
+37564;Ce matin, vous avez ___ les valises.;choisi;choisies;choisis;choisie
+37565;Ce matin, le boulanger a ___ le colis.;perdu;perdue;perdues;perdus
+37566;La couturière a ___ les paquets.;attendu;attendus;attendue;attendues
+37567;Ce matin, le boulanger a ___ un dessin.;trouvé;trouvés;trouvées;trouvée
+37568;Les élèves ont ___ les affiches.;regardé;regardés;regardée;regardées
+37569;Tu as ___ la lettre.;lu;lus;lues;lue
+37570;Les pommes que vous avez ___.;vendues;vendue;vendus;vendu
+37571;La pomme qu'elles ont ___.;perdue;perdus;perdues;perdu
+37572;Le gâteau que tu as ___.;mangé;mangées;mangée;mangés
+37573;Les lettres qu'elles ont ___.;reçues;reçue;reçu;reçus
+37574;Le dessin qu'ils ont ___.;noté;notés;notées;notée
+37575;Les messages que vous avez ___.;écrits;écrit;écrites;écrite
+37576;Le dessin qu'elles ont ___.;trouvé;trouvée;trouvés;trouvées
+37577;Le film qu'ils ont ___.;acheté;achetés;achetée;achetées
+37578;Le message que tu as ___.;cherché;cherchés;cherchée;cherchées
+37579;Les valises que vous avez ___.;rangées;rangée;rangés;rangé
+37580;Les messages que nous avons ___.;lus;lu;lue;lues
+37581;Les chansons qu'ils ont ___.;choisies;choisie;choisi;choisis
+37582;La pomme qu'elle a ___.;offerte;offertes;offerts;offert
+37583;Les gâteaux qu'elle a ___.;choisis;choisi;choisie;choisies
+37584;La valise que j'ai ___.;choisie;choisi;choisis;choisies
+37585;La lettre que vous avez ___.;trouvée;trouvées;trouvé;trouvés
+37586;Les chansons que j'ai ___.;trouvées;trouvée;trouvés;trouvé
+37587;La valise que nous avons ___.;transportée;transporté;transportées;transportés
+37588;Les messages que j'ai ___.;écrits;écrit;écrites;écrite
+37589;Voici la valise que j'ai ___.;rangée;rangées;rangés;rangé
+37590;Le message que nous avons ___.;cherché;cherchée;cherchés;cherchées
+37591;Les dessins qu'ils ont ___.;rangés;rangé;rangée;rangées
+37592;Le dessin qu'il a ___.;trouvé;trouvés;trouvées;trouvée
+37593;Les valises qu'elles ont ___.;préparées;préparé;préparée;préparés
+37594;Le gâteau qu'elles ont ___.;acheté;achetées;achetés;achetée
+37595;La valise qu'ils ont ___.;trouvée;trouvés;trouvé;trouvées
+37596;Les chansons que vous avez ___.;écrites;écrite;écrits;écrit
+37597;Les dessins qu'il a ___.;faits;fait;faite;faites
+37598;Le film qu'il a ___.;choisi;choisie;choisis;choisies
+37599;La valise qu'elles ont ___.;rangée;rangé;rangées;rangés
+37600;La pomme que tu as ___.;lavée;lavés;lavé;lavées
+37601;Les photos qu'ils ont ___.;offertes;offerte;offerts;offert
+37602;Voici la lettre que vous avez ___.;cherchée;cherché;cherchés;cherchées
+37603;Les gâteaux que nous avons ___.;faits;fait;faites;faite
+37604;Les chansons que tu as ___.;chantées;chantée;chantés;chanté
+37605;Les films que tu as ___.;vendus;vendu;vendues;vendue
+37606;Voici les valises que vous avez ___.;perdue;perdu;perdues;perdus
+37607;Voici les chansons que vous avez ___.;chantée;chantées;chantés;chanté
+37608;Les films que nous avons ___.;regardés;regardé;regardées;regardée
+37609;Le gâteau qu'ils ont ___.;fait;faite;faites;faits
+37610;Les valises qu'il a ___.;prises;pris;prise;perdue
+37611;Regarde la lettre que vous avez ___.;perdue;perdues;perdu;perdus
+37612;La lettre que tu as ___.;écrite;écrit;écrits;écrites
+37613;La lettre qu'il a ___.;lue;lu;lus;lues
+37614;Regarde la lettre qu'il a ___.;reçue;reçu;reçues;reçus
+37615;Les photos que j'ai ___.;choisies;choisie;choisi;choisis
+37616;Hier, les valises qu'elles ont ___.;faites;fait;faite;faits
+37617;Le film qu'elles ont ___.;offert;offerts;offerte;offertes
+37618;Les dessins que nous avons ___.;achetés;acheté;achetée;achetées
+37619;Les dessins qu'elle a ___.;regardés;regardé;regardée;regardées
+37620;Voici la lettre qu'il a ___.;ouverte;ouvertes;ouverts;ouvert
+37621;Voici le dessin qu'ils ont ___.;regardé;regardées;regardée;regardés
+37622;Le livre qu'ils ont ___.;cherché;cherchée;cherchés;cherchées
+37623;Les pommes qu'il a ___.;choisies;choisi;choisie;choisis
+37624;Le film que vous avez ___.;vendu;vendue;vendus;vendues
+37625;Regarde le dessin qu'ils ont ___.;rangé;rangée;rangés;rangées
+37626;La photo que j'ai ___.;regardée;regardé;regardés;regardées
+37627;La photo qu'il a ___.;vue;vu;vus;vues
+37628;Les films qu'elle a ___.;achetés;acheté;achetées;achetée
+37629;Voici les pommes que vous avez ___.;perdues;perdu;perdue;perdus
+37630;Voici les dessins qu'ils ont ___.;choisis;choisi;choisie;choisies
+37631;La pomme que j'ai ___.;achetée;achetées;achetés;acheté
+37632;Le message qu'il a ___.;lu;lue;lus;lues
+37633;La photo que vous avez ___.;perdue;perdu;perdues;perdus
+37634;Les messages qu'ils ont ___.;trouvés;trouvé;trouvées;trouvée
+37635;Voici le livre qu'ils ont ___.;acheté;achetées;achetés;achetée
+37636;Voici les dessins que nous avons ___.;vendu;vendus;vendues;vendue
+37637;Les chansons que nous avons ___.;trouvées;trouvée;trouvés;trouvé
+37638;Les valises qu'elle a ___.;transportées;transportée;transportés;transporté
+37639;Regarde le gâteau qu'ils ont ___.;choisi;choisie;choisis;choisies
+37640;La valise que tu as ___.;trouvée;trouvé;trouvés;trouvées
+37641;Les pommes que nous avons ___.;achetées;achetée;achetés;acheté
+37642;Les livres qu'ils ont ___.;perdus;perdu;perdue;perdues
+37643;Le film que j'ai ___.;choisi;choisie;choisis;choisies
+37644;Voici les chansons que j'ai ___.;écrite;écrit;écrites;écrits
+37645;Les gâteaux qu'ils ont ___.;offerts;offert;offertes;offerte
+37646;Le film que nous avons ___.;offert;offerte;offertes;offerts
+37647;Voici le dessin qu'il a ___.;offert;offerte;offertes;offerts
+37648;La pomme que vous avez ___.;offerte;offerts;offertes;offert
+37649;Les livres qu'elle a ___.;vendus;vendu;vendue;vendues
+37650;La chanson que j'ai ___.;trouvée;trouvé;trouvés;trouvées
+37651;Les dessins que tu as ___.;regardés;regardé;regardée;regardées
+37652;La chanson que vous avez ___.;trouvée;trouvé;trouvés;trouvées
+37653;Voici les messages que vous avez ___.;cherchés;cherché;cherchée;cherchées
+37654;Voici la pomme que tu as ___.;trouvée;trouvé;trouvés;trouvées
+37655;Le gâteau qu'il a ___.;acheté;achetée;achetés;achetées
+37656;Voici les chansons que tu as ___.;choisies;choisi;choisie;choisis
+37657;La photo qu'ils ont ___.;perdue;perdu;perdus;perdues
+37658;Le livre que tu as ___.;lu;lue;lus;lues
+37659;Le dessin que tu as ___.;rangé;rangée;rangés;rangées
+37660;Les gâteaux que tu as ___.;trouvés;trouvé;trouvée;trouvées
+37661;Voici la pomme qu'elle a ___.;trouvée;trouvées;trouvés;trouvé
+37662;La chanson qu'elles ont ___.;chantée;chantées;chanté;chantés
+37663;Voici les dessins que tu as ___.;fini;finis;finies;finie
+37664;Les livres que j'ai ___.;lus;lu;lue;lues
+37665;Les photos qu'elle a ___.;prises;pris;prise;perdue
+37666;Les pommes qu'ils ont ___.;mangées;mangée;mangés;mangé
+37667;Voici les messages que nous avons ___.;trouvés;trouvé;trouvée;trouvées
+37668;Voici les livres qu'elle a ___.;rangé;rangées;rangée;rangés
+37669;Les gâteaux qu'il a ___.;préparés;préparé;préparées;préparée
+37670;La valise que vous avez ___.;prise;pris;prises;perdue
+37671;Le dessin que vous avez ___.;perdu;perdues;perdus;perdue
+37672;Voici les gâteaux que tu as ___.;acheté;achetés;achetées;achetée
+37673;Hier, les dessins qu'ils ont ___.;finis;fini;finie;finies
+37674;Regarde la valise que j'ai ___.;vue;vu;vus;vues
+37675;Voici la chanson que j'ai ___.;écrite;écrits;écrit;écrites
+37676;Regarde les dessins qu'il a ___.;noté;notés;notées;notée
+37677;Voici la valise que tu as ___.;perdue;perdu;perdus;perdues
+37678;Voici les valises qu'il a ___.;rangée;rangées;rangé;rangés
+37679;Le dessin qu'elle a ___.;noté;notés;notée;notées
+37680;Les pommes qu'elle a ___.;vendues;vendue;vendus;vendu
+37681;Voici les films que nous avons ___.;acheté;achetées;achetée;achetés
+37682;La lettre qu'elles ont ___.;rangée;rangés;rangées;rangé
+37683;Le livre qu'elles ont ___.;fini;finies;finis;finie
+37684;Voici les pommes qu'ils ont ___.;choisie;choisi;choisis;choisies
+37685;Les photos qu'elles ont ___.;choisies;choisie;choisi;choisis
+37686;Le livre que j'ai ___.;vendu;vendus;vendues;vendue
+37687;Les films qu'ils ont ___.;vus;vu;vue;vues
+37688;Les films que j'ai ___.;achetés;acheté;achetée;achetées
+37689;Regarde les dessins que tu as ___.;terminé;terminée;terminés;terminées
+37690;Les élèves ___ travaillent sont sérieux.;qui;que;dont;où
+37691;Le pompier ___ arrive est courageux.;qui;où;dont;que
+37692;Le livre ___ je parle est captivant.;dont;où;qui;que
+37693;Le jour ___ elle est née fut ensoleillé.;où;dont;que;qui
+37694;La forêt ___ ils marchent est dense.;où;dont;qui;que
+37695;Le pays ___ ils voyagent est lointain.;où;qui;que;dont
+37696;La chanteuse ___ on parle est célèbre.;dont;que;où;qui
+37697;L'oiseau ___ chante est un rossignol.;qui;où;dont;que
+37698;La chanson ___ vous écoutez est belle.;que;qui;où;dont
+37699;Le vélo ___ roule vite est neuf.;qui;dont;que;où
+37700;Le dessin ___ il montre est original.;que;dont;qui;où
+37701;La ville ___ j'habite est calme.;où;que;dont;qui
+37702;Le projet ___ ils sont fiers avance bien.;dont;qui;que;où
+37703;La maison ___ nous vivons est ancienne.;où;qui;dont;que
+37704;La robe ___ tu portes est jolie.;que;dont;qui;où
+37705;Le film ___ nous regardons est passionnant.;que;où;dont;qui
+37706;L'ami ___ tu te souviens habite loin.;dont;où;que;qui
+37707;Les amis ___ j'invite arrivent demain.;que;qui;dont;où
+37708;L'année ___ il est parti fut difficile.;où;dont;qui;que
+37709;Le restaurant ___ nous mangeons est excellent.;où;que;qui;dont
+37710;Le film ___ tout le monde parle sort bientôt.;dont;qui;que;où
+37711;Le gâteau ___ elle prépare sent bon.;que;où;dont;qui
+37712;L'école ___ tu vas est proche.;où;dont;que;qui
+37713;La maison ___ il rêve est immense.;dont;que;qui;où
+37714;Les enfants ___ jouent sont mes cousins.;qui;où;dont;que
+37715;Le chien ___ aboie fait peur aux voisins.;qui;que;où;dont
+37716;Le livre ___ je lis est captivant.;que;dont;où;qui
+37717;La dame ___ chante a une belle voix.;qui;que;dont;où
+37718;La voiture ___ freine est rouge.;qui;dont;où;que
+37719;Les fleurs ___ elle cueille sont blanches.;que;dont;où;qui
+37720;Le sujet ___ nous discutons est complexe.;dont;où;qui;que
+37721;L'histoire ___ elle se souvient est triste.;dont;où;qui;que
+37722;Dans la phrase 'Le nid est caché derrière la haie.', 'derrière la haie' est un complément circonstanciel de quel type ?;lieu;temps;manière;cause
+37723;Dans la phrase 'Nous partirons dans une semaine.', 'dans une semaine' est un complément circonstanciel de quel type ?;temps;manière;lieu;cause
+37724;Dans la phrase 'Il parle avec calme.', 'avec calme' est un complément circonstanciel de quel type ?;manière;temps;lieu;cause
+37725;Dans la phrase 'Nous déjeunons vers midi.', 'vers midi' est un complément circonstanciel de quel type ?;temps;cause;manière;lieu
+37726;Dans la phrase 'Ils campent près du lac.', 'près du lac' est un complément circonstanciel de quel type ?;lieu;cause;manière;temps
+37727;Dans la phrase 'Il range ses affaires soigneusement.', 'soigneusement' est un complément circonstanciel de quel type ?;manière;cause;temps;lieu
+37728;Dans la phrase 'Nous nous retrouvons ce week-end.', 'ce week-end' est un complément circonstanciel de quel type ?;temps;manière;lieu;cause
+37729;Dans la phrase 'Le magasin ferme à minuit.', 'à minuit' est un complément circonstanciel de quel type ?;temps;lieu;cause;manière
+37730;Dans la phrase 'Le ballon roule vers la porte.', 'vers la porte' est un complément circonstanciel de quel type ?;lieu;temps;cause;manière
+37731;Dans la phrase 'Ils arriveront après le dîner.', 'après le dîner' est un complément circonstanciel de quel type ?;temps;cause;lieu;manière
+37732;Dans la phrase 'Il écrit avec application.', 'avec application' est un complément circonstanciel de quel type ?;manière;lieu;cause;temps
+37733;Dans la phrase 'Nous voyageons pendant l'été.', 'pendant l'été' est un complément circonstanciel de quel type ?;temps;manière;cause;lieu
+37734;Dans la phrase 'Le chat grimpe sur le toit.', 'sur le toit' est un complément circonstanciel de quel type ?;lieu;manière;cause;temps
+37735;Dans la phrase 'Le spectacle commence dans dix minutes.', 'dans dix minutes' est un complément circonstanciel de quel type ?;temps;lieu;manière;cause
+37736;Dans la phrase 'Elle sourit avec douceur.', 'avec douceur' est un complément circonstanciel de quel type ?;manière;cause;lieu;temps
+37737;Dans la phrase 'Les enfants jouent sur la plage.', 'sur la plage' est un complément circonstanciel de quel type ?;lieu;temps;manière;cause
+37738;Dans la phrase 'Elle chante avec entrain.', 'avec entrain' est un complément circonstanciel de quel type ?;manière;cause;lieu;temps
+37739;Dans la phrase 'Les oiseaux nichent dans les arbres.', 'dans les arbres' est un complément circonstanciel de quel type ?;lieu;temps;cause;manière
+37740;Dans la phrase 'Elle danse avec grâce.', 'avec grâce' est un complément circonstanciel de quel type ?;manière;cause;temps;lieu
+37741;Dans la phrase 'Elle répond avec assurance.', 'avec assurance' est un complément circonstanciel de quel type ?;manière;cause;temps;lieu
+37742;Dans la phrase 'Nous rentrerons avant la nuit.', 'avant la nuit' est un complément circonstanciel de quel type ?;temps;cause;lieu;manière
+37743;Dans la phrase 'La voiture roule sur l'autoroute.', 'sur l'autoroute' est un complément circonstanciel de quel type ?;lieu;cause;manière;temps
+37744;Dans la phrase 'Elle se lève tôt chaque matin.', 'tôt' est un complément circonstanciel de quel type ?;temps;cause;manière;lieu
+37745;Dans la phrase 'Il conduit prudemment.', 'prudemment' est un complément circonstanciel de quel type ?;manière;lieu;temps;cause
+37746;Dans la phrase 'Le cours commence à huit heures.', 'à huit heures' est un complément circonstanciel de quel type ?;temps;lieu;manière;cause
+37747;Dans la phrase 'Il salue poliment.', 'poliment' est un complément circonstanciel de quel type ?;manière;lieu;temps;cause
+37748;Dans la phrase 'Les enfants courent dans le couloir.', 'dans le couloir' est un complément circonstanciel de quel type ?;lieu;temps;cause;manière
+37749;Dans la phrase 'Le chien dort sous le lit.', 'sous le lit' est un complément circonstanciel de quel type ?;lieu;cause;temps;manière
+37750;Dans la phrase 'Les poissons nagent dans la rivière.', 'dans la rivière' est un complément circonstanciel de quel type ?;lieu;temps;cause;manière
+37751;Les dessins que j'ai ___.;perdus;perdu;perdue;perdues
+37752;Le dessin que nous avons ___.;regardé;regardées;regardée;regardés
+37753;Le gâteau que vous avez ___.;offert;offerte;offerts;offertes
+37754;Voici le gâteau qu'il a ___.;trouvé;trouvée;trouvées;trouvés
+37755;Les lettres qu'ils ont ___.;cherchées;cherché;cherchée;cherchés
+37756;La lettre qu'elle a ___.;trouvée;trouvé;trouvées;trouvés
+37757;C'est les dessins que tu as ___.;rangés;rangé;rangée;rangées
+37758;Voici la photo que vous avez ___.;choisie;choisi;choisies;choisis
+37759;Voici la photo que j'ai ___.;prise;prises;perdues;pris
+37760;Voici les chansons que nous avons ___.;choisie;choisis;choisies;choisi
+37761;Voici la valise que vous avez ___.;faite;fait;faits;faites
+37762;Voici les gâteaux que nous avons ___.;préparé;préparée;préparées;préparés
+37763;Voici la valise que nous avons ___.;vue;vu;vus;vues
+37764;Le livre que vous avez ___.;ouvert;ouverts;ouverte;ouvertes
+37765;Les gâteaux que vous avez ___.;choisis;choisi;choisie;choisies
+37766;Les livres que nous avons ___.;finis;fini;finie;finies
+37767;Les photos qu'il a ___.;offertes;offerte;offerts;offert
+37768;La chanson qu'elle a ___.;écrite;écrits;écrites;écrit
+37769;Le livre qu'elle a ___.;terminé;terminée;terminés;terminées
+37770;Hier, les pommes qu'il a ___.;trouvées;trouvé;trouvée;trouvés
+37771;Voici le gâteau qu'ils ont ___.;mangé;mangée;mangées;mangés
+37772;Regarde les chansons que tu as ___.;écrite;écrit;écrits;écrites
+37773;C'est la lettre que vous avez ___.;lue;lu;lus;lues
+37774;La chanson que tu as ___.;écrite;écrits;écrites;écrit
+37775;Regarde les gâteaux que tu as ___.;choisis;choisi;choisie;choisies
+37776;Voici la chanson que tu as ___.;chantée;chantés;chantées;chanté
+37777;Les pommes qu'elles ont ___.;perdues;perdue;perdu;perdus
+37778;Regarde les messages que nous avons ___.;cherché;cherchée;cherchés;cherchées
+37779;Voici les valises qu'elle a ___.;prises;prise;perdue;pris
+37780;La chanson qu'il a ___.;écrite;écrites;écrit;écrits
+37781;Les pommes que j'ai ___.;choisies;choisie;choisis;choisi
+37782;Hier, les livres qu'ils ont ___.;achetés;acheté;achetée;achetées
+37783;Les photos que vous avez ___.;vues;vue;vu;vus
+37784;Les chansons qu'il a ___.;chantées;chantée;chanté;chantés
+37785;La valise qu'il a ___.;vue;vues;vus;vu
+37786;Les valises que j'ai ___.;perdues;perdue;perdus;perdu
+37787;Voici la lettre qu'elles ont ___.;écrite;écrits;écrit;écrites
+37788;Les photos que nous avons ___.;regardées;regardée;regardés;regardé
+37789;Regarde les dessins que nous avons ___.;trouvé;trouvées;trouvée;trouvés
+37790;Le film qu'elle a ___.;vendu;vendue;vendus;vendues
+37791;Voici les messages qu'ils ont ___.;reçu;reçus;reçue;reçues
+37792;Regarde la photo que j'ai ___.;trouvée;trouvé;trouvées;trouvés
+37793;C'est les dessins que nous avons ___.;fini;finis;finies;finie
+37794;La pomme qu'ils ont ___.;offerte;offertes;offerts;offert
+37795;C'est les lettres qu'elles ont ___.;cherchées;cherché;cherchée;cherchés
+37796;Le livre que nous avons ___.;offert;offerts;offertes;offerte
+37797;Voici la valise qu'elles ont ___.;préparée;préparés;préparées;préparé
+37798;Hier, la lettre qu'il a ___.;ouverte;ouvert;ouverts;ouvertes
+37799;Voici les chansons qu'ils ont ___.;écrite;écrites;écrit;écrits
+37800;La lettre qu'ils ont ___.;rangée;rangé;rangés;rangées
+37801;Regarde les valises que vous avez ___.;faites;fait;faite;faits
+37802;Voici la pomme que vous avez ___.;lavée;lavées;lavés;lavé
+37803;Voici la chanson qu'elles ont ___.;choisie;choisi;choisies;choisis
+37804;Les livres que vous avez ___.;écrits;écrit;écrite;écrites
+37805;Voici les pommes que nous avons ___.;vendue;vendu;vendues;vendus
+37806;Voici les messages que j'ai ___.;reçus;reçu;reçue;reçues
+37807;Regarde les gâteaux qu'il a ___.;choisis;choisi;choisie;choisies
+37808;Les lettres que tu as ___.;rangées;rangé;rangée;rangés
+37809;Voici les films qu'ils ont ___.;vendus;vendu;vendue;vendues
+37810;Regarde la pomme que tu as ___.;achetée;achetées;acheté;achetés
+37811;Le dessin que j'ai ___.;regardé;regardée;regardées;regardés
+37812;Voici les gâteaux qu'elle a ___.;perdu;perdue;perdues;perdus
+37813;Le message que j'ai ___.;trouvé;trouvées;trouvés;trouvée
+37814;C'est les gâteaux que tu as ___.;offert;offerts;offertes;offerte
+37815;C'est la photo que j'ai ___.;choisie;choisies;choisis;choisi
+37816;Regarde les films que nous avons ___.;vendu;vendues;vendus;vendue
+37817;La photo que tu as ___.;rangée;rangé;rangés;rangées
+37818;Voici le film que nous avons ___.;acheté;achetée;achetés;achetées
+37819;La lettre que j'ai ___.;lue;lues;lus;lu
+37820;Regarde la photo qu'il a ___.;trouvée;trouvé;trouvés;trouvées
+37821;Le livre qu'il a ___.;écrit;écrite;écrits;écrites
+37822;La chanson que nous avons ___.;choisie;choisi;choisies;choisis
+37823;La pomme que nous avons ___.;offerte;offerts;offertes;offert
+37824;Voici le film qu'il a ___.;trouvé;trouvées;trouvée;trouvés
+37825;Les dessins qu'elles ont ___.;perdus;perdu;perdue;perdues
+37826;La photo que nous avons ___.;perdue;perdues;perdu;perdus
+37827;Regarde le dessin qu'elle a ___.;acheté;achetée;achetés;achetées
+37828;Hier, les lettres qu'ils ont ___.;trouvées;trouvé;trouvée;trouvés
+37829;Voici les photos qu'ils ont ___.;prises;perdue;pris;prise
+37830;Voici la photo qu'il a ___.;rangée;rangés;rangées;rangé
+37831;Voici la photo que nous avons ___.;trouvée;trouvés;trouvé;trouvées
+37832;Regarde les chansons que j'ai ___.;chantée;chantés;chantées;chanté
+37833;Regarde les pommes que vous avez ___.;trouvées;trouvé;trouvée;trouvés
+37834;La photo qu'elle a ___.;choisie;choisis;choisi;choisies
+37835;Les films que vous avez ___.;trouvés;trouvé;trouvées;trouvée
+37836;Les livres que tu as ___.;cherchés;cherché;cherchée;cherchées
+37837;Voilà les valises qu'elle a ___.;rangées;rangé;rangée;rangés
+37838;Les livres qu'elles ont ___.;finis;fini;finies;finie
+37839;Regarde les livres qu'elle a ___.;offert;offertes;offerts;offerte
+37840;Les chansons qu'elles ont ___.;choisies;choisie;choisis;choisi
+37841;Voici les photos qu'elle a ___.;offerte;offert;offertes;offerts
+37842;Voici le message que j'ai ___.;reçu;reçus;reçues;reçue
+37843;Hier, le film qu'elle a ___.;offert;offerte;offerts;offertes
+37844;Voici le livre que nous avons ___.;reçu;reçue;reçus;reçues
+37845;Voici la pomme qu'elles ont ___.;achetée;achetés;acheté;achetées
+37846;Les valises que nous avons ___.;transportées;transportée;transportés;transporté
+37847;Regarde le film qu'elle a ___.;vu;vues;vus;vue
+37848;Les chansons qu'elle a ___.;chantées;chantée;chantés;chanté
+37849;Regarde la pomme qu'elle a ___.;achetée;achetés;achetées;acheté
+37850;C'est les chansons que j'ai ___.;choisie;choisies;choisis;choisi
+37851;Voici les films que j'ai ___.;vu;vues;vus;vue
+37852;Voici le dessin que j'ai ___.;trouvé;trouvée;trouvés;trouvées
+37853;Le gâteau qu'elle a ___.;trouvé;trouvée;trouvés;trouvées
+37854;Voici le livre qu'il a ___.;vendu;vendue;vendues;vendus
+37855;Regarde la chanson qu'elles ont ___.;écrite;écrites;écrit;écrits
+37856;Voici les livres que tu as ___.;vendus;vendu;vendue;vendues
+37857;Voici le dessin que nous avons ___.;acheté;achetée;achetés;achetées
+37858;Voici les photos qu'il a ___.;regardées;regardé;regardée;regardés
+37859;Voici le film que vous avez ___.;choisi;choisie;choisies;choisis
+37860;Les valises que tu as ___.;rangées;rangée;rangé;rangés
+37861;Voici les dessins qu'il a ___.;acheté;achetée;achetés;achetées
+37862;Les lettres qu'elle a ___.;rangées;rangé;rangée;rangés
+37863;Regarde les messages que vous avez ___.;lu;lues;lue;lus
+37864;Regarde les valises qu'elle a ___.;vue;vu;vus;vues
+37865;Complète avec le participe passé du verbe 'prendre' : Les photos que j'ai ___.;prises;pris;prise;rangées
+37866;C'est les valises qu'elle a ___.;choisie;choisi;choisies;choisis
+37867;Voici les chansons qu'il a ___.;trouvée;trouvés;trouvé;trouvées
+37868;Regarde les pommes que nous avons ___.;offertes;offert;offerte;offerts
+37869;Voici les valises que nous avons ___.;cherchée;cherché;cherchés;cherchées
+37870;La chanson qu'ils ont ___.;chantée;chantés;chantées;chanté
+37871;Le message que vous avez ___.;reçu;reçus;reçue;reçues
+37872;Voici les lettres qu'elles ont ___.;lue;lues;lu;lus
+37873;Voici le message que tu as ___.;écrit;écrites;écrite;écrits
+37874;Les messages que tu as ___.;trouvés;trouvé;trouvée;trouvées
+37875;Voilà la lettre que vous avez ___.;écrite;écrites;écrit;écrits
+37876;Le film que tu as ___.;acheté;achetée;achetés;achetées
+37877;Voici les films qu'elle a ___.;trouvé;trouvées;trouvée;trouvés
+37878;Les lettres que vous avez ___.;reçues;reçue;reçu;reçus
+37879;Voici le gâteau que tu as ___.;perdu;perdue;perdus;perdues
+37880;Voici les gâteaux qu'ils ont ___.;choisi;choisie;choisis;choisies
+37881;Les messages qu'elle a ___.;écrits;écrit;écrite;écrites
+37882;Voici le dessin que vous avez ___.;fait;faite;faits;faites
+37883;Voici la valise qu'il a ___.;préparée;préparés;préparé;préparées
+37884;Voici les gâteaux que vous avez ___.;cuisiné;cuisinée;cuisinées;cuisinés
+37885;Voici les pommes qu'elles ont ___.;trouvée;trouvé;trouvés;trouvées
+37886;Voici les chansons qu'elles ont ___.;trouvée;trouvés;trouvées;trouvé
+37887;Voici la valise qu'ils ont ___.;choisie;choisi;choisies;choisis
+37888;Voici les photos que j'ai ___.;perdue;perdues;perdu;perdus
+37889;Regarde le livre qu'elles ont ___.;ouvert;ouverte;ouverts;ouvertes
+37890;Le gâteau que nous avons ___.;perdu;perdue;perdus;perdues
+37891;Regarde les photos qu'elle a ___.;choisie;choisis;choisies;choisi
+37892;C'est les livres qu'elle a ___.;perdus;perdu;perdue;perdues
+37893;Les lettres qu'il a ___.;lues;lue;lu;lus
+37894;Regarde le film qu'ils ont ___.;trouvé;trouvée;trouvés;trouvées
+37895;C'est les pommes que vous avez ___.;offerte;offertes;offerts;offert
+37896;Voici les messages que tu as ___.;cherchés;cherché;cherchée;cherchées
+37897;Voici la chanson que vous avez ___.;écrite;écrits;écrit;écrites
+37898;Regarde les livres que tu as ___.;finis;fini;finie;finies
+37899;Regarde les gâteaux que nous avons ___.;choisis;choisi;choisie;choisies
+37900;C'est les gâteaux qu'ils ont ___.;préparés;préparé;préparée;préparées
+37901;Voici les livres qu'ils ont ___.;trouvé;trouvée;trouvés;trouvées
+37902;Regarde la valise que nous avons ___.;préparée;préparé;préparés;préparées
+37903;Voici les lettres que tu as ___.;cherchée;cherchées;cherchés;cherché
+37904;La valise qu'elle a ___.;prise;perdues;pris;prises
+37905;C'est la valise que j'ai ___.;faite;fait;faits;faites
+37906;Voici le livre qu'elle a ___.;rangé;rangée;rangées;rangés
+37907;Voici le film que tu as ___.;vu;vus;vues;vue
+37908;Voici les valises qu'elles ont ___.;faite;faites;faits;fait
+37909;Les gâteaux que j'ai ___.;cuisinés;cuisiné;cuisinée;cuisinées
+37910;Regarde la chanson que j'ai ___.;chantée;chanté;chantés;chantées
+37911;Voici les pommes que j'ai ___.;offertes;offert;offerte;offerts
+37912;Voici les gâteaux qu'il a ___.;mangé;mangées;mangée;mangés
+37913;Regarde les pommes qu'elles ont ___.;vendue;vendus;vendu;vendues
+37914;Voici les lettres que vous avez ___.;ouverte;ouverts;ouvert;ouvertes
+37915;Regarde le dessin qu'il a ___.;trouvé;trouvée;trouvés;trouvées
+37916;Les lettres que nous avons ___.;reçues;reçu;reçue;reçus
+37917;Regarde les photos que j'ai ___.;regardées;regardé;regardée;regardés
+37918;Voici le film qu'elle a ___.;regardé;regardée;regardées;regardés
+37919;Voici la chanson qu'elle a ___.;chantée;chantés;chantées;chanté
+37920;Voici les livres que nous avons ___.;choisis;choisi;choisie;choisies
+37921;Voici les pommes qu'il a ___.;mangée;mangés;mangées;mangé
+37922;Voici les chansons qu'elle a ___.;choisie;choisis;choisi;choisies
+37923;Regarde le film que nous avons ___.;vendu;vendues;vendus;vendue
+37924;Voici le film qu'ils ont ___.;vendu;vendues;vendus;vendue
+37925;Regarde la valise que tu as ___.;préparée;préparées;préparés;préparé
+37926;Regarde le dessin que vous avez ___.;trouvé;trouvés;trouvées;trouvée
+37927;Regarde le message que tu as ___.;lu;lus;lue;lues
+37928;Voici les photos que vous avez ___.;regardée;regardés;regardé;regardées
+37929;Les livres qu'il a ___.;achetés;acheté;achetée;achetées
+37930;Voici le livre qu'elles ont ___.;rangé;rangés;rangée;rangées
+37931;Voici les valises que tu as ___.;perdue;perdus;perdu;perdues
+37932;Regarde les lettres que tu as ___.;ouvertes;ouvert;ouverte;ouverts
+37933;Voici la pomme que j'ai ___.;vendue;vendues;vendus;vendu
+37934;Regarde la chanson que tu as ___.;trouvée;trouvé;trouvées;trouvés
+37935;Regarde le livre que nous avons ___.;rangé;rangée;rangés;rangées
+37936;Hier, le gâteau qu'elle a ___.;acheté;achetée;achetés;achetées
+37937;Regarde les films que j'ai ___.;choisi;choisie;choisies;choisis
+37938;C'est les livres que tu as ___.;rangés;rangé;rangée;rangées
+37939;Voici le dessin qu'elle a ___.;trouvé;trouvée;trouvés;trouvées
+37940;Regarde le livre qu'elle a ___.;vendu;vendue;vendus;vendues
+37941;Voici la pomme qu'ils ont ___.;choisie;choisies;choisis;choisi
+37942;Regarde les gâteaux qu'ils ont ___.;perdu;perdus;perdues;perdue
+37943;Les valises qu'ils ont ___.;transportées;transportée;transportés;transporté
+37944;Voici les films que tu as ___.;regardé;regardées;regardés;regardée
+37945;La photo qu'elles ont ___.;trouvée;trouvés;trouvé;trouvées
+37946;C'est les gâteaux que nous avons ___.;trouvés;trouvé;trouvée;trouvées
+37947;C'est la pomme que tu as ___.;choisie;choisis;choisi;choisies
+37948;Voici le film qu'elles ont ___.;vu;vue;vus;vues
+37949;Regarde la valise que vous avez ___.;choisie;choisi;choisis;choisies
+37950;Voici le gâteau qu'elles ont ___.;préparé;préparée;préparés;préparées
+37951;Regarde les films qu'elle a ___.;regardé;regardée;regardés;regardées
+37952;Regarde les lettres qu'elles ont ___.;cherchée;cherché;cherchés;cherchées
+37953;Voici la chanson qu'ils ont ___.;trouvée;trouvés;trouvé;trouvées
+37954;Regarde le livre qu'ils ont ___.;perdu;perdues;perdus;perdue
+37955;Voici les lettres qu'ils ont ___.;cherchée;cherché;cherchés;cherchées
+37956;C'est le film que nous avons ___.;regardé;regardées;regardés;regardée
+37957;Le message qu'ils ont ___.;lu;lues;lus;lue
+37958;C'est les chansons que tu as ___.;trouvée;trouvés;trouvées;trouvé
+37959;Ce matin, le gâteau qu'elle a ___.;vendu;vendue;vendus;vendues

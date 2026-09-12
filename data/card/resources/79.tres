@@ -1,10 +1,12 @@
 [gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://cs8ap5ka1rr1h"]
 
-[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_m5y0m"]
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/classe2.0/pets/79.webp" id="2_texture"]
 
 [resource]
-script = ExtResource("1_m5y0m")
+script = ExtResource("1_script")
 id = &"79"
 category = &"vache"
-display_name = "Céleste"
+display_name = "Lactée"
+texture = ExtResource("2_texture")
 grade = 3

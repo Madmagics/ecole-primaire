@@ -1,0 +1,3508 @@
+[gd_resource type="Resource" script_class="QuestionBankResource" format=3 uid="uid://cutjwth3m57hn"]
+
+[ext_resource type="Script" uid="uid://dfbr3elc3mbig" path="res://data/question/question_resource.gd" id="1_gqvkc"]
+[ext_resource type="Script" uid="uid://c422qc1cinnna" path="res://data/question/question_bank_resource.gd" id="2_jxvdo"]
+
+[sub_resource type="Resource" id="Resource_gqvkc"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle forme vient ensuite ? ● ▲ ● ▲ ●"
+correct_answer = "▲"
+choices = Array[String](["●", "■", "★"])
+
+[sub_resource type="Resource" id="Resource_jxvdo"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel fruit vient ensuite ? 🍎 🍌 🍎 🍌 🍎"
+correct_answer = "🍌"
+choices = Array[String](["🍎", "🍊", "🍇"])
+
+[sub_resource type="Resource" id="Resource_5rmn6"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🐱 🐶 🐰 🍎"
+correct_answer = "🍎"
+choices = Array[String](["🐱", "🐶", "🐰"])
+
+[sub_resource type="Resource" id="Resource_t5370"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle forme est différente ? ● ● ▲ ●"
+correct_answer = "▲"
+choices = Array[String](["●", "■", "★"])
+
+[sub_resource type="Resource" id="Resource_gf68e"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le chat 🐱 fait miaou. Le chien 🐶 fait…"
+correct_answer = "ouaf"
+choices = Array[String](["miaou", "meuh", "cot cot"])
+
+[sub_resource type="Resource" id="Resource_jirgp"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel est l'animal le plus grand ? 🐘 🐭 🐱 🐰"
+correct_answer = "🐘"
+choices = Array[String](["🐭", "🐱", "🐰"])
+
+[sub_resource type="Resource" id="Resource_h5yfr"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 1, 2, 3, 4, …"
+correct_answer = "5"
+choices = Array[String](["6", "3", "10"])
+
+[sub_resource type="Resource" id="Resource_ne68n"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 2, 4, 6, 8, …"
+correct_answer = "10"
+choices = Array[String](["9", "12", "7"])
+
+[sub_resource type="Resource" id="Resource_xcn36"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Léa a 🍎🍎🍎, Tom a 🍎🍎. Qui a le plus de pommes ?"
+correct_answer = "Léa"
+choices = Array[String](["Tom", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_00tj8"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le jour, on se réveille. La nuit, on…"
+correct_answer = "dort"
+choices = Array[String](["court", "mange", "chante"])
+
+[sub_resource type="Resource" id="Resource_wmw8t"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle forme vient ensuite ? ★ ♥ ★ ♥ ★ …"
+correct_answer = "♥"
+choices = Array[String](["★", "▲", "♦"])
+
+[sub_resource type="Resource" id="Resource_tqgf1"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle forme vient ensuite ? ■ ♥ ■ ♥ ■ …"
+correct_answer = "♥"
+choices = Array[String](["■", "●", "★"])
+
+[sub_resource type="Resource" id="Resource_t04nr"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle forme vient ensuite ? ■ ● ■ ● ■ …"
+correct_answer = "●"
+choices = Array[String](["■", "♦", "♥"])
+
+[sub_resource type="Resource" id="Resource_bw8bc"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle forme vient ensuite ? ♥ ▲ ♥ ▲ ♥ …"
+correct_answer = "▲"
+choices = Array[String](["♥", "★", "■"])
+
+[sub_resource type="Resource" id="Resource_31p0j"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle forme vient ensuite ? ♦ ■ ♦ ■ ♦ …"
+correct_answer = "■"
+choices = Array[String](["♦", "♥", "★"])
+
+[sub_resource type="Resource" id="Resource_0s8re"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle forme vient ensuite ? ▲ ■ ▲ ■ ▲ …"
+correct_answer = "■"
+choices = Array[String](["▲", "♥", "★"])
+
+[sub_resource type="Resource" id="Resource_2st5g"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle forme vient ensuite ? ▲ ● ▲ ● ▲ …"
+correct_answer = "●"
+choices = Array[String](["▲", "♦", "♥"])
+
+[sub_resource type="Resource" id="Resource_pde7g"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle forme vient ensuite ? ■ ★ ■ ★ ■ …"
+correct_answer = "★"
+choices = Array[String](["■", "●", "▲"])
+
+[sub_resource type="Resource" id="Resource_vbto6"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle forme vient ensuite ? ■ ▲ ■ ▲ ■ …"
+correct_answer = "▲"
+choices = Array[String](["■", "♥", "●"])
+
+[sub_resource type="Resource" id="Resource_gchj1"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle forme vient ensuite ? ★ ● ★ ● ★ …"
+correct_answer = "●"
+choices = Array[String](["★", "■", "♥"])
+
+[sub_resource type="Resource" id="Resource_ki2ij"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle forme vient ensuite ? ▲ ♥ ▲ ♥ ▲ …"
+correct_answer = "♥"
+choices = Array[String](["▲", "■", "♦"])
+
+[sub_resource type="Resource" id="Resource_ffocx"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle forme vient ensuite ? ♥ ● ♥ ● ♥ …"
+correct_answer = "●"
+choices = Array[String](["♥", "♦", "★"])
+
+[sub_resource type="Resource" id="Resource_0o6fk"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle forme vient ensuite ? ♥ ♦ ♥ ♦ ♥ …"
+correct_answer = "♦"
+choices = Array[String](["♥", "●", "▲"])
+
+[sub_resource type="Resource" id="Resource_6xp70"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle forme vient ensuite ? ♦ ▲ ♦ ▲ ♦ …"
+correct_answer = "▲"
+choices = Array[String](["♦", "●", "★"])
+
+[sub_resource type="Resource" id="Resource_0b4q3"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle forme vient ensuite ? ★ ▲ ★ ▲ ★ …"
+correct_answer = "▲"
+choices = Array[String](["★", "●", "♥"])
+
+[sub_resource type="Resource" id="Resource_s1frp"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle forme vient ensuite ? ♥ ■ ♥ ■ ♥ …"
+correct_answer = "■"
+choices = Array[String](["♥", "▲", "♦"])
+
+[sub_resource type="Resource" id="Resource_q3e3c"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle forme vient ensuite ? ● ■ ● ■ ● …"
+correct_answer = "■"
+choices = Array[String](["●", "♦", "♥"])
+
+[sub_resource type="Resource" id="Resource_jw8yk"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle forme vient ensuite ? ■ ♦ ■ ♦ ■ …"
+correct_answer = "♦"
+choices = Array[String](["■", "★", "●"])
+
+[sub_resource type="Resource" id="Resource_22psm"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle forme vient ensuite ? ★ ♦ ★ ♦ ★ …"
+correct_answer = "♦"
+choices = Array[String](["★", "▲", "♥"])
+
+[sub_resource type="Resource" id="Resource_w5kp3"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle forme vient ensuite ? ● ★ ● ★ ● …"
+correct_answer = "★"
+choices = Array[String](["●", "♥", "♦"])
+
+[sub_resource type="Resource" id="Resource_15qf3"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle forme vient ensuite ? ★ ■ ★ ■ ★ …"
+correct_answer = "■"
+choices = Array[String](["★", "▲", "♥"])
+
+[sub_resource type="Resource" id="Resource_loig7"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle forme vient ensuite ? ♥ ★ ♥ ★ ♥ …"
+correct_answer = "★"
+choices = Array[String](["♥", "♦", "▲"])
+
+[sub_resource type="Resource" id="Resource_ludwm"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle forme vient ensuite ? ● ♥ ● ♥ ● …"
+correct_answer = "♥"
+choices = Array[String](["●", "▲", "■"])
+
+[sub_resource type="Resource" id="Resource_ahavj"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle forme vient ensuite ? ♦ ♥ ♦ ♥ ♦ …"
+correct_answer = "♥"
+choices = Array[String](["♦", "■", "●"])
+
+[sub_resource type="Resource" id="Resource_ivtrq"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle forme vient ensuite ? ▲ ★ ▲ ★ ▲ …"
+correct_answer = "★"
+choices = Array[String](["▲", "●", "♥"])
+
+[sub_resource type="Resource" id="Resource_0bic7"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle forme vient ensuite ? ▲ ♦ ▲ ♦ ▲ …"
+correct_answer = "♦"
+choices = Array[String](["▲", "●", "■"])
+
+[sub_resource type="Resource" id="Resource_opm77"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle forme vient ensuite ? ♦ ★ ♦ ★ ♦ …"
+correct_answer = "★"
+choices = Array[String](["♦", "▲", "♥"])
+
+[sub_resource type="Resource" id="Resource_kxb6c"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle forme vient ensuite ? ● ▲ ● ▲ ● …"
+correct_answer = "▲"
+choices = Array[String](["●", "★", "♦"])
+
+[sub_resource type="Resource" id="Resource_ayf8a"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle forme vient ensuite ? ● ♦ ● ♦ ● …"
+correct_answer = "♦"
+choices = Array[String](["●", "■", "★"])
+
+[sub_resource type="Resource" id="Resource_m1fg2"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle forme vient ensuite ? ♦ ● ♦ ● ♦ …"
+correct_answer = "●"
+choices = Array[String](["♦", "■", "▲"])
+
+[sub_resource type="Resource" id="Resource_c3ro6"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🟡 🟣 🟡 🟣 🟡 …"
+correct_answer = "🟣"
+choices = Array[String](["🟡", "🔴", "🔵"])
+
+[sub_resource type="Resource" id="Resource_c48bc"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🍋 🍐 🍋 🍐 🍋 …"
+correct_answer = "🍐"
+choices = Array[String](["🍋", "🍍", "🍒"])
+
+[sub_resource type="Resource" id="Resource_pp1af"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🎁 🎵 🎁 🎵 🎁 …"
+correct_answer = "🎵"
+choices = Array[String](["🎁", "🔑", "💎"])
+
+[sub_resource type="Resource" id="Resource_h5jkw"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🐘 🐹 🐘 🐹 🐘 …"
+correct_answer = "🐹"
+choices = Array[String](["🐘", "🐵", "🐨"])
+
+[sub_resource type="Resource" id="Resource_f5ta5"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🐟 🐺 🐟 🐺 🐟 …"
+correct_answer = "🐺"
+choices = Array[String](["🐟", "🐶", "🐰"])
+
+[sub_resource type="Resource" id="Resource_p3hbl"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🍑 🍎 🍑 🍎 🍑 …"
+correct_answer = "🍎"
+choices = Array[String](["🍑", "🥭", "🍊"])
+
+[sub_resource type="Resource" id="Resource_7kwa2"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🎈 🎵 🎈 🎵 🎈 …"
+correct_answer = "🎵"
+choices = Array[String](["🎈", "👑", "🔑"])
+
+[sub_resource type="Resource" id="Resource_n81nv"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🔵 🟡 🔵 🟡 🔵 …"
+correct_answer = "🟡"
+choices = Array[String](["🔵", "🟢", "🟣"])
+
+[sub_resource type="Resource" id="Resource_8mjrp"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🍋 🍒 🍋 🍒 🍋 …"
+correct_answer = "🍒"
+choices = Array[String](["🍋", "🍊", "🍇"])
+
+[sub_resource type="Resource" id="Resource_8pbay"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🍊 🍅 🍊 🍅 🍊 …"
+correct_answer = "🍅"
+choices = Array[String](["🍊", "🍒", "🍑"])
+
+[sub_resource type="Resource" id="Resource_1amm1"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🍎 🍋 🍎 🍋 🍎 …"
+correct_answer = "🍋"
+choices = Array[String](["🍎", "🥝", "🥭"])
+
+[sub_resource type="Resource" id="Resource_c1ymh"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🐯 🐱 🐯 🐱 🐯 …"
+correct_answer = "🐱"
+choices = Array[String](["🐯", "🐼", "🐰"])
+
+[sub_resource type="Resource" id="Resource_foxte"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🐶 🐹 🐶 🐹 🐶 …"
+correct_answer = "🐹"
+choices = Array[String](["🐶", "🐘", "🐨"])
+
+[sub_resource type="Resource" id="Resource_ry8bm"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🔔 🎁 🔔 🎁 🔔 …"
+correct_answer = "🎁"
+choices = Array[String](["🔔", "⭐", "👑"])
+
+[sub_resource type="Resource" id="Resource_gen3e"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🍎 🍍 🍎 🍍 🍎 …"
+correct_answer = "🍍"
+choices = Array[String](["🍎", "🥝", "🍉"])
+
+[sub_resource type="Resource" id="Resource_in3x2"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🎵 🎈 🎵 🎈 🎵 …"
+correct_answer = "🎈"
+choices = Array[String](["🎵", "🎁", "⭐"])
+
+[sub_resource type="Resource" id="Resource_edin4"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🎈 👑 🎈 👑 🎈 …"
+correct_answer = "👑"
+choices = Array[String](["🎈", "🎁", "🎵"])
+
+[sub_resource type="Resource" id="Resource_t3ov6"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🎵 👑 🎵 👑 🎵 …"
+correct_answer = "👑"
+choices = Array[String](["🎵", "⭐", "🔔"])
+
+[sub_resource type="Resource" id="Resource_4uown"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🟢 🔴 🟢 🔴 🟢 …"
+correct_answer = "🔴"
+choices = Array[String](["🟢", "🟠", "🟡"])
+
+[sub_resource type="Resource" id="Resource_tmlrg"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? ⭐ 👑 ⭐ 👑 ⭐ …"
+correct_answer = "👑"
+choices = Array[String](["⭐", "🎵", "💎"])
+
+[sub_resource type="Resource" id="Resource_5ddh2"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🟣 🔴 🟣 🔴 🟣 …"
+correct_answer = "🔴"
+choices = Array[String](["🟣", "🟢", "🟡"])
+
+[sub_resource type="Resource" id="Resource_dm3oi"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🍅 🍑 🍅 🍑 🍅 …"
+correct_answer = "🍑"
+choices = Array[String](["🍅", "🍓", "🍊"])
+
+[sub_resource type="Resource" id="Resource_vphgx"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🐟 🐭 🐟 🐭 🐟 …"
+correct_answer = "🐭"
+choices = Array[String](["🐟", "🐦", "🐻"])
+
+[sub_resource type="Resource" id="Resource_kn4v8"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🔴 🟡 🔴 🟡 🔴 …"
+correct_answer = "🟡"
+choices = Array[String](["🔴", "🟣", "🟠"])
+
+[sub_resource type="Resource" id="Resource_bux8w"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🎵 🔑 🎵 🔑 🎵 …"
+correct_answer = "🔑"
+choices = Array[String](["🎵", "💎", "🔔"])
+
+[sub_resource type="Resource" id="Resource_06y0y"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🟢 🟠 🟢 🟠 🟢 …"
+correct_answer = "🟠"
+choices = Array[String](["🟢", "🟣", "🟡"])
+
+[sub_resource type="Resource" id="Resource_8vc43"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🟠 🟣 🟠 🟣 🟠 …"
+correct_answer = "🟣"
+choices = Array[String](["🟠", "🔵", "🟡"])
+
+[sub_resource type="Resource" id="Resource_057gv"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🟣 🟠 🟣 🟠 🟣 …"
+correct_answer = "🟠"
+choices = Array[String](["🟣", "🟢", "🟡"])
+
+[sub_resource type="Resource" id="Resource_l267i"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? ⭐ 💎 ⭐ 💎 ⭐ …"
+correct_answer = "💎"
+choices = Array[String](["⭐", "🔑", "🔔"])
+
+[sub_resource type="Resource" id="Resource_v7llv"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🍋 🍑 🍋 🍑 🍋 …"
+correct_answer = "🍑"
+choices = Array[String](["🍋", "🍎", "🍅"])
+
+[sub_resource type="Resource" id="Resource_gvcus"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🐸 🐼 🐸 🐼 🐸 …"
+correct_answer = "🐼"
+choices = Array[String](["🐸", "🐺", "🐘"])
+
+[sub_resource type="Resource" id="Resource_ajmaq"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🍓 🥝 🍓 🥝 🍓 …"
+correct_answer = "🥝"
+choices = Array[String](["🍓", "🍊", "🍑"])
+
+[sub_resource type="Resource" id="Resource_jpi18"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🍎 🍊 🍎 🍊 🍎 …"
+correct_answer = "🍊"
+choices = Array[String](["🍎", "🍌", "🍓"])
+
+[sub_resource type="Resource" id="Resource_57x4p"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🐻 🐦 🐻 🐦 🐻 …"
+correct_answer = "🐦"
+choices = Array[String](["🐻", "🐹", "🐯"])
+
+[sub_resource type="Resource" id="Resource_fjexy"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🐺 🦊 🐺 🦊 🐺 …"
+correct_answer = "🦊"
+choices = Array[String](["🐺", "🐮", "🐸"])
+
+[sub_resource type="Resource" id="Resource_l0lds"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🟠 🔵 🟠 🔵 🟠 …"
+correct_answer = "🔵"
+choices = Array[String](["🟠", "🟡", "🟣"])
+
+[sub_resource type="Resource" id="Resource_pilqt"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🟢 🟣 🟢 🟣 🟢 …"
+correct_answer = "🟣"
+choices = Array[String](["🟢", "🟡", "🔴"])
+
+[sub_resource type="Resource" id="Resource_0c5t4"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🐼 🐯 🐼 🐯 🐼 …"
+correct_answer = "🐯"
+choices = Array[String](["🐼", "🐺", "🐴"])
+
+[sub_resource type="Resource" id="Resource_ug5fd"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🟢 🟡 🟢 🟡 🟢 …"
+correct_answer = "🟡"
+choices = Array[String](["🟢", "🟣", "🔴"])
+
+[sub_resource type="Resource" id="Resource_l153x"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🍒 🍉 🍒 🍉 🍒 …"
+correct_answer = "🍉"
+choices = Array[String](["🍒", "🍑", "🍇"])
+
+[sub_resource type="Resource" id="Resource_pwu2u"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🔔 👑 🔔 👑 🔔 …"
+correct_answer = "👑"
+choices = Array[String](["🔔", "⭐", "💎"])
+
+[sub_resource type="Resource" id="Resource_1rjjs"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🎈 🔔 🎈 🔔 🎈 …"
+correct_answer = "🔔"
+choices = Array[String](["🎈", "🎵", "💎"])
+
+[sub_resource type="Resource" id="Resource_wdynb"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🥭 🍋 🥭 🍋 🥭 …"
+correct_answer = "🍋"
+choices = Array[String](["🥭", "🍇", "🍍"])
+
+[sub_resource type="Resource" id="Resource_xy5i8"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🦊 🐝 🦊 🐝 🦊 …"
+correct_answer = "🐝"
+choices = Array[String](["🦊", "🐵", "🐘"])
+
+[sub_resource type="Resource" id="Resource_atur5"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🥭 🍉 🥭 🍉 🥭 …"
+correct_answer = "🍉"
+choices = Array[String](["🥭", "🍊", "🍍"])
+
+[sub_resource type="Resource" id="Resource_kd1tg"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🍒 🍑 🍒 🍑 🍒 …"
+correct_answer = "🍑"
+choices = Array[String](["🍒", "🍎", "🍋"])
+
+[sub_resource type="Resource" id="Resource_irgip"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 💎 🔑 💎 🔑 💎 …"
+correct_answer = "🔑"
+choices = Array[String](["💎", "🔔", "🎵"])
+
+[sub_resource type="Resource" id="Resource_3cqcj"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🟢 🔵 🟢 🔵 🟢 …"
+correct_answer = "🔵"
+choices = Array[String](["🟢", "🟣", "🟡"])
+
+[sub_resource type="Resource" id="Resource_tq2gl"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 💎 🎁 💎 🎁 💎 …"
+correct_answer = "🎁"
+choices = Array[String](["💎", "🎈", "🎵"])
+
+[sub_resource type="Resource" id="Resource_l24hu"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🍊 🍐 🍊 🍐 🍊 …"
+correct_answer = "🍐"
+choices = Array[String](["🍊", "🍌", "🍇"])
+
+[sub_resource type="Resource" id="Resource_r46ii"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🐮 🐟 🐮 🐟 🐮 …"
+correct_answer = "🐟"
+choices = Array[String](["🐮", "🐺", "🐔"])
+
+[sub_resource type="Resource" id="Resource_2m7aa"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🐸 🐺 🐸 🐺 🐸 …"
+correct_answer = "🐺"
+choices = Array[String](["🐸", "🐶", "🐨"])
+
+[sub_resource type="Resource" id="Resource_gus13"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🔴 🟠 🔴 🟠 🔴 …"
+correct_answer = "🟠"
+choices = Array[String](["🔴", "🔵", "🟣"])
+
+[sub_resource type="Resource" id="Resource_flred"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🍓 🍍 🍓 🍍 🍓 …"
+correct_answer = "🍍"
+choices = Array[String](["🍓", "🍇", "🍊"])
+
+[sub_resource type="Resource" id="Resource_lan3u"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🍊 🍌 🍊 🍌 🍊 …"
+correct_answer = "🍌"
+choices = Array[String](["🍊", "🍒", "🍎"])
+
+[sub_resource type="Resource" id="Resource_egptk"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🥭 🍊 🥭 🍊 🥭 …"
+correct_answer = "🍊"
+choices = Array[String](["🥭", "🍒", "🥝"])
+
+[sub_resource type="Resource" id="Resource_dw4y3"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🐮 🐝 🐮 🐝 🐮 …"
+correct_answer = "🐝"
+choices = Array[String](["🐮", "🦁", "🐼"])
+
+[sub_resource type="Resource" id="Resource_yraie"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🔑 🎁 🔑 🎁 🔑 …"
+correct_answer = "🎁"
+choices = Array[String](["🔑", "🔔", "⭐"])
+
+[sub_resource type="Resource" id="Resource_h5r4y"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🍒 🍐 🍒 🍐 🍒 …"
+correct_answer = "🍐"
+choices = Array[String](["🍒", "🍊", "🍍"])
+
+[sub_resource type="Resource" id="Resource_hg27e"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Que vient ensuite ? 🥭 🍅 🥭 🍅 🥭 …"
+correct_answer = "🍅"
+choices = Array[String](["🥭", "🍐", "🍒"])
+
+[sub_resource type="Resource" id="Resource_hqhan"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? ■ 🎁 ♥ ●"
+correct_answer = "🎁"
+choices = Array[String](["■", "♥", "●"])
+
+[sub_resource type="Resource" id="Resource_6rmem"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? ♦ 🎈 ● ★"
+correct_answer = "🎈"
+choices = Array[String](["♦", "●", "★"])
+
+[sub_resource type="Resource" id="Resource_qbbed"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🥝 🍎 🍅 👑"
+correct_answer = "👑"
+choices = Array[String](["🍅", "🥝", "🍎"])
+
+[sub_resource type="Resource" id="Resource_u8xhd"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🟠 🟣 ● 🟡"
+correct_answer = "●"
+choices = Array[String](["🟣", "🟡", "🟠"])
+
+[sub_resource type="Resource" id="Resource_34ye1"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? ⭐ ♥ ● ★"
+correct_answer = "⭐"
+choices = Array[String](["♥", "★", "●"])
+
+[sub_resource type="Resource" id="Resource_yxg03"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? ● 🍊 ★ ♦"
+correct_answer = "🍊"
+choices = Array[String](["♦", "★", "●"])
+
+[sub_resource type="Resource" id="Resource_tod4m"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🐝 🐹 🐮 🎵"
+correct_answer = "🎵"
+choices = Array[String](["🐝", "🐮", "🐹"])
+
+[sub_resource type="Resource" id="Resource_27lek"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🐯 🔔 🐘 🐻"
+correct_answer = "🔔"
+choices = Array[String](["🐘", "🐻", "🐯"])
+
+[sub_resource type="Resource" id="Resource_jdl0f"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🎵 🔑 ■ ⭐"
+correct_answer = "■"
+choices = Array[String](["🎵", "🔑", "⭐"])
+
+[sub_resource type="Resource" id="Resource_yqckw"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🐘 🐨 🐺 💎"
+correct_answer = "💎"
+choices = Array[String](["🐘", "🐺", "🐨"])
+
+[sub_resource type="Resource" id="Resource_n7d33"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🟡 🐵 🐯 🐴"
+correct_answer = "🟡"
+choices = Array[String](["🐴", "🐯", "🐵"])
+
+[sub_resource type="Resource" id="Resource_p5jqh"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🔵 🔔 🎁 ⭐"
+correct_answer = "🔵"
+choices = Array[String](["🎁", "🔔", "⭐"])
+
+[sub_resource type="Resource" id="Resource_gxijk"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🍇 🔑 🍎 🍐"
+correct_answer = "🔑"
+choices = Array[String](["🍎", "🍐", "🍇"])
+
+[sub_resource type="Resource" id="Resource_rpvva"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? ♦ ● ★ 🟢"
+correct_answer = "🟢"
+choices = Array[String](["♦", "★", "●"])
+
+[sub_resource type="Resource" id="Resource_gjiml"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🔴 🍋 🟣 🔵"
+correct_answer = "🍋"
+choices = Array[String](["🟣", "🔴", "🔵"])
+
+[sub_resource type="Resource" id="Resource_i0iwv"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🔔 🍐 🎈 👑"
+correct_answer = "🍐"
+choices = Array[String](["🎈", "🔔", "👑"])
+
+[sub_resource type="Resource" id="Resource_aqpyi"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? ♦ 🍒 ■ ♥"
+correct_answer = "🍒"
+choices = Array[String](["■", "♥", "♦"])
+
+[sub_resource type="Resource" id="Resource_yswij"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🟠 🔵 🔴 🐢"
+correct_answer = "🐢"
+choices = Array[String](["🔵", "🟠", "🔴"])
+
+[sub_resource type="Resource" id="Resource_hn76x"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 💎 🔔 👑 🐷"
+correct_answer = "🐷"
+choices = Array[String](["🔔", "👑", "💎"])
+
+[sub_resource type="Resource" id="Resource_sdilh"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🎁 ⭐ ■ 🔔"
+correct_answer = "■"
+choices = Array[String](["🎁", "⭐", "🔔"])
+
+[sub_resource type="Resource" id="Resource_31asr"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? ★ ▲ 👑 ■"
+correct_answer = "👑"
+choices = Array[String](["■", "▲", "★"])
+
+[sub_resource type="Resource" id="Resource_4btm0"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🟠 🟣 🟢 ●"
+correct_answer = "●"
+choices = Array[String](["🟣", "🟢", "🟠"])
+
+[sub_resource type="Resource" id="Resource_g3p6o"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🟣 🥭 🟢 🟡"
+correct_answer = "🥭"
+choices = Array[String](["🟣", "🟡", "🟢"])
+
+[sub_resource type="Resource" id="Resource_wvras"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🟠 🐢 🐟 🐷"
+correct_answer = "🟠"
+choices = Array[String](["🐢", "🐷", "🐟"])
+
+[sub_resource type="Resource" id="Resource_2644x"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🍍 🥭 ♦ 🍎"
+correct_answer = "♦"
+choices = Array[String](["🥭", "🍍", "🍎"])
+
+[sub_resource type="Resource" id="Resource_uf01w"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🍒 ▲ 🍑 🍐"
+correct_answer = "▲"
+choices = Array[String](["🍑", "🍐", "🍒"])
+
+[sub_resource type="Resource" id="Resource_tp7ko"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? ■ 🟢 🔵 🟡"
+correct_answer = "■"
+choices = Array[String](["🔵", "🟢", "🟡"])
+
+[sub_resource type="Resource" id="Resource_3bfvj"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🥭 🍊 🍋 🐟"
+correct_answer = "🐟"
+choices = Array[String](["🥭", "🍊", "🍋"])
+
+[sub_resource type="Resource" id="Resource_ivpac"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🍎 🥝 🍓 🎈"
+correct_answer = "🎈"
+choices = Array[String](["🍎", "🍓", "🥝"])
+
+[sub_resource type="Resource" id="Resource_58rkr"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🔴 🟢 🟠 🔔"
+correct_answer = "🔔"
+choices = Array[String](["🟠", "🟢", "🔴"])
+
+[sub_resource type="Resource" id="Resource_a5t4g"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🟠 🔴 🐝 🟡"
+correct_answer = "🐝"
+choices = Array[String](["🟠", "🔴", "🟡"])
+
+[sub_resource type="Resource" id="Resource_kbrsb"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🍅 🍓 🐺 🍎"
+correct_answer = "🐺"
+choices = Array[String](["🍎", "🍅", "🍓"])
+
+[sub_resource type="Resource" id="Resource_iiadf"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🟠 🟡 🟢 🐟"
+correct_answer = "🐟"
+choices = Array[String](["🟡", "🟠", "🟢"])
+
+[sub_resource type="Resource" id="Resource_jbsnt"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🍓 🎵 🔔 👑"
+correct_answer = "🍓"
+choices = Array[String](["👑", "🎵", "🔔"])
+
+[sub_resource type="Resource" id="Resource_0onko"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🦊 🐵 🎈 🐨"
+correct_answer = "🎈"
+choices = Array[String](["🦊", "🐵", "🐨"])
+
+[sub_resource type="Resource" id="Resource_30sgb"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🍊 👑 🍌 🍓"
+correct_answer = "👑"
+choices = Array[String](["🍓", "🍊", "🍌"])
+
+[sub_resource type="Resource" id="Resource_3mfsm"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🍇 🔵 🔴 🟢"
+correct_answer = "🍇"
+choices = Array[String](["🔴", "🟢", "🔵"])
+
+[sub_resource type="Resource" id="Resource_08y07"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🟠 🐢 🟢 🔵"
+correct_answer = "🐢"
+choices = Array[String](["🔵", "🟢", "🟠"])
+
+[sub_resource type="Resource" id="Resource_6n3kc"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🐟 ● 🦁 🐭"
+correct_answer = "●"
+choices = Array[String](["🦁", "🐭", "🐟"])
+
+[sub_resource type="Resource" id="Resource_u1frj"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🐱 ● 🐷 🦁"
+correct_answer = "●"
+choices = Array[String](["🐱", "🦁", "🐷"])
+
+[sub_resource type="Resource" id="Resource_daqrj"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🔴 🟠 🍍 🟡"
+correct_answer = "🍍"
+choices = Array[String](["🟠", "🔴", "🟡"])
+
+[sub_resource type="Resource" id="Resource_u5yxf"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🐹 ⭐ 💎 🔑"
+correct_answer = "🐹"
+choices = Array[String](["⭐", "💎", "🔑"])
+
+[sub_resource type="Resource" id="Resource_jylla"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🍅 🍒 🥭 🎈"
+correct_answer = "🎈"
+choices = Array[String](["🍅", "🍒", "🥭"])
+
+[sub_resource type="Resource" id="Resource_es1hu"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🍑 🍇 🔴 🍉"
+correct_answer = "🔴"
+choices = Array[String](["🍑", "🍉", "🍇"])
+
+[sub_resource type="Resource" id="Resource_ao8ko"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🎵 ★ 🔑 👑"
+correct_answer = "★"
+choices = Array[String](["👑", "🎵", "🔑"])
+
+[sub_resource type="Resource" id="Resource_wy7u8"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🟡 🐼 🟠 🔵"
+correct_answer = "🐼"
+choices = Array[String](["🟡", "🟠", "🔵"])
+
+[sub_resource type="Resource" id="Resource_7exq4"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🍋 💎 🔔 🎁"
+correct_answer = "🍋"
+choices = Array[String](["💎", "🔔", "🎁"])
+
+[sub_resource type="Resource" id="Resource_f8eu7"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? ⭐ 🔑 🎈 🍌"
+correct_answer = "🍌"
+choices = Array[String](["🎈", "🔑", "⭐"])
+
+[sub_resource type="Resource" id="Resource_4oywm"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🍋 🐔 🐘 🐴"
+correct_answer = "🍋"
+choices = Array[String](["🐴", "🐘", "🐔"])
+
+[sub_resource type="Resource" id="Resource_egqkk"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 👑 🍑 🎁 🎵"
+correct_answer = "🍑"
+choices = Array[String](["🎵", "👑", "🎁"])
+
+[sub_resource type="Resource" id="Resource_rb1dw"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🐨 💎 🐭 🐵"
+correct_answer = "💎"
+choices = Array[String](["🐵", "🐭", "🐨"])
+
+[sub_resource type="Resource" id="Resource_1hhoq"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🎵 🍓 ⭐ 🎈"
+correct_answer = "🍓"
+choices = Array[String](["🎵", "⭐", "🎈"])
+
+[sub_resource type="Resource" id="Resource_h2mim"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🍇 🍉 🍅 🐟"
+correct_answer = "🐟"
+choices = Array[String](["🍅", "🍇", "🍉"])
+
+[sub_resource type="Resource" id="Resource_x1oqt"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🍐 🍊 🥝 🟡"
+correct_answer = "🟡"
+choices = Array[String](["🍐", "🥝", "🍊"])
+
+[sub_resource type="Resource" id="Resource_oesnt"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🐔 🐴 ♦ 🐮"
+correct_answer = "♦"
+choices = Array[String](["🐮", "🐔", "🐴"])
+
+[sub_resource type="Resource" id="Resource_ba26r"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🐟 🐷 🐰 🍍"
+correct_answer = "🍍"
+choices = Array[String](["🐟", "🐰", "🐷"])
+
+[sub_resource type="Resource" id="Resource_qd7rw"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? ● 🔔 🔑 🎵"
+correct_answer = "●"
+choices = Array[String](["🔔", "🔑", "🎵"])
+
+[sub_resource type="Resource" id="Resource_y5gcw"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? ■ ♦ ● 🔔"
+correct_answer = "🔔"
+choices = Array[String](["♦", "■", "●"])
+
+[sub_resource type="Resource" id="Resource_iqrm0"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🐷 🍓 🍊 🍇"
+correct_answer = "🐷"
+choices = Array[String](["🍓", "🍊", "🍇"])
+
+[sub_resource type="Resource" id="Resource_0ovyi"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel dessin ne va pas avec les autres ? 🍒 🍐 🍇 🎁"
+correct_answer = "🎁"
+choices = Array[String](["🍐", "🍒", "🍇"])
+
+[sub_resource type="Resource" id="Resource_rgj4n"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le chat 🐱 fait miaou. La vache 🐮 fait…"
+correct_answer = "meuh"
+choices = Array[String](["miaou", "bêê", "couic"])
+
+[sub_resource type="Resource" id="Resource_xsy6g"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le chat 🐱 fait miaou. Le canard 🐦 fait…"
+correct_answer = "coincoin"
+choices = Array[String](["miaou", "cocorico", "aouuuu"])
+
+[sub_resource type="Resource" id="Resource_3e0bk"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le chat 🐱 fait miaou. Le mouton 🐑 fait…"
+correct_answer = "bêê"
+choices = Array[String](["miaou", "cocorico", "grrr"])
+
+[sub_resource type="Resource" id="Resource_pgtgd"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le chat 🐱 fait miaou. Le cochon 🐷 fait…"
+correct_answer = "groin groin"
+choices = Array[String](["miaou", "aouuuu", "bêê"])
+
+[sub_resource type="Resource" id="Resource_ccnqq"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le chat 🐱 fait miaou. Le coq 🐔 fait…"
+correct_answer = "cocorico"
+choices = Array[String](["miaou", "grrr", "coincoin"])
+
+[sub_resource type="Resource" id="Resource_35iw2"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le chat 🐱 fait miaou. Le lion 🦁 fait…"
+correct_answer = "rrrooaar"
+choices = Array[String](["miaou", "ouaf", "coa coa"])
+
+[sub_resource type="Resource" id="Resource_4hcb8"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le chat 🐱 fait miaou. La grenouille 🐸 fait…"
+correct_answer = "coa coa"
+choices = Array[String](["miaou", "groin groin", "coincoin"])
+
+[sub_resource type="Resource" id="Resource_lyldr"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le chat 🐱 fait miaou. Le cheval 🐴 fait…"
+correct_answer = "hiiii"
+choices = Array[String](["miaou", "rrrooaar", "coa coa"])
+
+[sub_resource type="Resource" id="Resource_tlwws"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le chat 🐱 fait miaou. L'abeille 🐝 fait…"
+correct_answer = "bzzz"
+choices = Array[String](["miaou", "coincoin", "coa coa"])
+
+[sub_resource type="Resource" id="Resource_5854d"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le chat 🐱 fait miaou. L'ours 🐻 fait…"
+correct_answer = "grrr"
+choices = Array[String](["miaou", "meuh", "groin groin"])
+
+[sub_resource type="Resource" id="Resource_oiusx"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le chat 🐱 fait miaou. La souris 🐭 fait…"
+correct_answer = "couic"
+choices = Array[String](["miaou", "aouuuu", "bzzz"])
+
+[sub_resource type="Resource" id="Resource_3pq0r"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le chat 🐱 fait miaou. Le loup 🐺 fait…"
+correct_answer = "aouuuu"
+choices = Array[String](["miaou", "couic", "bêê"])
+
+[sub_resource type="Resource" id="Resource_v4jdx"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le chien 🐶 fait ouaf. Le chat 🐱 fait…"
+correct_answer = "miaou"
+choices = Array[String](["ouaf", "bêê", "meuh"])
+
+[sub_resource type="Resource" id="Resource_nh1d7"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le chien 🐶 fait ouaf. La vache 🐮 fait…"
+correct_answer = "meuh"
+choices = Array[String](["ouaf", "hiiii", "miaou"])
+
+[sub_resource type="Resource" id="Resource_mv4yq"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le chien 🐶 fait ouaf. Le canard 🐦 fait…"
+correct_answer = "coincoin"
+choices = Array[String](["ouaf", "groin groin", "meuh"])
+
+[sub_resource type="Resource" id="Resource_tofix"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le chien 🐶 fait ouaf. Le mouton 🐑 fait…"
+correct_answer = "bêê"
+choices = Array[String](["ouaf", "aouuuu", "hiiii"])
+
+[sub_resource type="Resource" id="Resource_qudc5"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le chien 🐶 fait ouaf. Le cochon 🐷 fait…"
+correct_answer = "groin groin"
+choices = Array[String](["ouaf", "bêê", "hiiii"])
+
+[sub_resource type="Resource" id="Resource_swjmr"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le chien 🐶 fait ouaf. Le coq 🐔 fait…"
+correct_answer = "cocorico"
+choices = Array[String](["ouaf", "miaou", "bêê"])
+
+[sub_resource type="Resource" id="Resource_1luvt"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le chien 🐶 fait ouaf. Le lion 🦁 fait…"
+correct_answer = "rrrooaar"
+choices = Array[String](["ouaf", "couic", "aouuuu"])
+
+[sub_resource type="Resource" id="Resource_4h0p6"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le chien 🐶 fait ouaf. La grenouille 🐸 fait…"
+correct_answer = "coa coa"
+choices = Array[String](["ouaf", "meuh", "bzzz"])
+
+[sub_resource type="Resource" id="Resource_igksj"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le chien 🐶 fait ouaf. Le cheval 🐴 fait…"
+correct_answer = "hiiii"
+choices = Array[String](["ouaf", "meuh", "bêê"])
+
+[sub_resource type="Resource" id="Resource_58ief"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le chien 🐶 fait ouaf. L'abeille 🐝 fait…"
+correct_answer = "bzzz"
+choices = Array[String](["ouaf", "grrr", "cocorico"])
+
+[sub_resource type="Resource" id="Resource_k7a67"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le chien 🐶 fait ouaf. L'ours 🐻 fait…"
+correct_answer = "grrr"
+choices = Array[String](["ouaf", "aouuuu", "coa coa"])
+
+[sub_resource type="Resource" id="Resource_ur0n0"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le chien 🐶 fait ouaf. La souris 🐭 fait…"
+correct_answer = "couic"
+choices = Array[String](["ouaf", "aouuuu", "coincoin"])
+
+[sub_resource type="Resource" id="Resource_haf7v"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le chien 🐶 fait ouaf. Le loup 🐺 fait…"
+correct_answer = "aouuuu"
+choices = Array[String](["ouaf", "groin groin", "bêê"])
+
+[sub_resource type="Resource" id="Resource_f0cda"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "La vache 🐮 fait meuh. Le chat 🐱 fait…"
+correct_answer = "miaou"
+choices = Array[String](["meuh", "rrrooaar", "bêê"])
+
+[sub_resource type="Resource" id="Resource_l72xh"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "La vache 🐮 fait meuh. Le chien 🐶 fait…"
+correct_answer = "ouaf"
+choices = Array[String](["meuh", "cocorico", "coa coa"])
+
+[sub_resource type="Resource" id="Resource_cp7f2"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "La vache 🐮 fait meuh. Le canard 🐦 fait…"
+correct_answer = "coincoin"
+choices = Array[String](["meuh", "aouuuu", "rrrooaar"])
+
+[sub_resource type="Resource" id="Resource_ilevb"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "La vache 🐮 fait meuh. Le mouton 🐑 fait…"
+correct_answer = "bêê"
+choices = Array[String](["meuh", "hiiii", "groin groin"])
+
+[sub_resource type="Resource" id="Resource_ft0pp"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "La vache 🐮 fait meuh. Le cochon 🐷 fait…"
+correct_answer = "groin groin"
+choices = Array[String](["meuh", "grrr", "coa coa"])
+
+[sub_resource type="Resource" id="Resource_hiexo"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel est l'animal le plus petit ? 🐝 🐭 🐱 🐸"
+correct_answer = "🐝"
+choices = Array[String](["🐭", "🐱", "🐸"])
+
+[sub_resource type="Resource" id="Resource_0ihbw"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel est l'animal le plus petit ? 🐮 🐝 🐘 🦁"
+correct_answer = "🐝"
+choices = Array[String](["🐮", "🐘", "🦁"])
+
+[sub_resource type="Resource" id="Resource_cnrf8"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel est l'animal le plus petit ? 🐱 🐝 🐶 🐰"
+correct_answer = "🐝"
+choices = Array[String](["🐱", "🐶", "🐰"])
+
+[sub_resource type="Resource" id="Resource_h0tv7"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel est l'animal le plus petit ? 🐝 🐷 🐘 🐸"
+correct_answer = "🐝"
+choices = Array[String](["🐷", "🐘", "🐸"])
+
+[sub_resource type="Resource" id="Resource_42ogl"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel est l'animal le plus petit ? 🐝 🐱 🐶 🐭"
+correct_answer = "🐝"
+choices = Array[String](["🐱", "🐶", "🐭"])
+
+[sub_resource type="Resource" id="Resource_r7nbi"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel est l'animal le plus grand ? 🐷 🐮 🐴 🐰"
+correct_answer = "🐴"
+choices = Array[String](["🐷", "🐮", "🐰"])
+
+[sub_resource type="Resource" id="Resource_1vcao"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel est l'animal le plus petit ? 🐰 🐷 🐮 🐴"
+correct_answer = "🐰"
+choices = Array[String](["🐷", "🐮", "🐴"])
+
+[sub_resource type="Resource" id="Resource_7bqye"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel est l'animal le plus grand ? 🐻 🐱 🐶 🐔"
+correct_answer = "🐻"
+choices = Array[String](["🐱", "🐶", "🐔"])
+
+[sub_resource type="Resource" id="Resource_8bjks"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel est l'animal le plus grand ? 🐶 🐷 🐭 🐔"
+correct_answer = "🐷"
+choices = Array[String](["🐶", "🐭", "🐔"])
+
+[sub_resource type="Resource" id="Resource_u1h3e"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel est l'animal le plus petit ? 🐝 🐸 🐷 🐶"
+correct_answer = "🐝"
+choices = Array[String](["🐸", "🐷", "🐶"])
+
+[sub_resource type="Resource" id="Resource_i8y2n"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel est l'animal le plus grand ? 🐘 🦁 🐴 🐻"
+correct_answer = "🐘"
+choices = Array[String](["🦁", "🐴", "🐻"])
+
+[sub_resource type="Resource" id="Resource_4tlkk"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel est l'animal le plus grand ? 🐻 🐸 🐱 🐔"
+correct_answer = "🐻"
+choices = Array[String](["🐸", "🐱", "🐔"])
+
+[sub_resource type="Resource" id="Resource_uyb6n"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel est l'animal le plus grand ? 🐻 🐰 🐷 🐔"
+correct_answer = "🐻"
+choices = Array[String](["🐰", "🐷", "🐔"])
+
+[sub_resource type="Resource" id="Resource_sb75w"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel est l'animal le plus petit ? 🐴 🐘 🐻 🐱"
+correct_answer = "🐱"
+choices = Array[String](["🐴", "🐘", "🐻"])
+
+[sub_resource type="Resource" id="Resource_yji5a"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel est l'animal le plus grand ? 🦁 🐮 🐝 🐱"
+correct_answer = "🦁"
+choices = Array[String](["🐮", "🐝", "🐱"])
+
+[sub_resource type="Resource" id="Resource_x3eid"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel est l'animal le plus grand ? 🐴 🐝 🐱 🐻"
+correct_answer = "🐴"
+choices = Array[String](["🐝", "🐱", "🐻"])
+
+[sub_resource type="Resource" id="Resource_oe2s8"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel est l'animal le plus petit ? 🐝 🐸 🐭 🐷"
+correct_answer = "🐝"
+choices = Array[String](["🐸", "🐭", "🐷"])
+
+[sub_resource type="Resource" id="Resource_ijee4"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel est l'animal le plus grand ? 🐸 🐻 🐝 🐭"
+correct_answer = "🐻"
+choices = Array[String](["🐸", "🐝", "🐭"])
+
+[sub_resource type="Resource" id="Resource_dfqnn"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel est l'animal le plus petit ? 🐝 🐱 🦁 🐻"
+correct_answer = "🐝"
+choices = Array[String](["🐱", "🦁", "🐻"])
+
+[sub_resource type="Resource" id="Resource_5embw"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel est l'animal le plus petit ? 🐔 🐰 🐝 🐻"
+correct_answer = "🐝"
+choices = Array[String](["🐔", "🐰", "🐻"])
+
+[sub_resource type="Resource" id="Resource_o7tib"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel est l'animal le plus grand ? 🐭 🐱 🐰 🐝"
+correct_answer = "🐱"
+choices = Array[String](["🐭", "🐰", "🐝"])
+
+[sub_resource type="Resource" id="Resource_aflej"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel est l'animal le plus grand ? 🐴 🐷 🐱 🐸"
+correct_answer = "🐴"
+choices = Array[String](["🐷", "🐱", "🐸"])
+
+[sub_resource type="Resource" id="Resource_k5xdy"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel est l'animal le plus grand ? 🐸 🐝 🐰 🐔"
+correct_answer = "🐰"
+choices = Array[String](["🐸", "🐝", "🐔"])
+
+[sub_resource type="Resource" id="Resource_puyil"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel est l'animal le plus grand ? 🐮 🐰 🐴 🐻"
+correct_answer = "🐴"
+choices = Array[String](["🐮", "🐰", "🐻"])
+
+[sub_resource type="Resource" id="Resource_3k76g"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel est l'animal le plus grand ? 🐰 🐮 🐴 🐷"
+correct_answer = "🐴"
+choices = Array[String](["🐰", "🐮", "🐷"])
+
+[sub_resource type="Resource" id="Resource_lcu1l"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel est l'animal le plus grand ? 🐰 🐸 🐔 🐮"
+correct_answer = "🐮"
+choices = Array[String](["🐰", "🐸", "🐔"])
+
+[sub_resource type="Resource" id="Resource_lcwc8"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel est l'animal le plus grand ? 🐔 🐻 🐭 🐸"
+correct_answer = "🐻"
+choices = Array[String](["🐔", "🐭", "🐸"])
+
+[sub_resource type="Resource" id="Resource_pgqx4"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel est l'animal le plus petit ? 🐴 🐘 🐸 🐔"
+correct_answer = "🐸"
+choices = Array[String](["🐴", "🐘", "🐔"])
+
+[sub_resource type="Resource" id="Resource_kdhti"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel est l'animal le plus petit ? 🐘 🐱 🐸 🐔"
+correct_answer = "🐸"
+choices = Array[String](["🐘", "🐱", "🐔"])
+
+[sub_resource type="Resource" id="Resource_1xteg"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel est l'animal le plus grand ? 🐮 🐶 🦁 🐸"
+correct_answer = "🦁"
+choices = Array[String](["🐮", "🐶", "🐸"])
+
+[sub_resource type="Resource" id="Resource_2f58n"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel est l'animal le plus petit ? 🐸 🐶 🐝 🐱"
+correct_answer = "🐝"
+choices = Array[String](["🐸", "🐶", "🐱"])
+
+[sub_resource type="Resource" id="Resource_ess25"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel est l'animal le plus petit ? 🐭 🐷 🐝 🐶"
+correct_answer = "🐝"
+choices = Array[String](["🐭", "🐷", "🐶"])
+
+[sub_resource type="Resource" id="Resource_wdsjh"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel est l'animal le plus grand ? 🦁 🐮 🐴 🐱"
+correct_answer = "🐴"
+choices = Array[String](["🦁", "🐮", "🐱"])
+
+[sub_resource type="Resource" id="Resource_u11ne"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel est l'animal le plus petit ? 🐮 🐶 🐘 🐔"
+correct_answer = "🐔"
+choices = Array[String](["🐮", "🐶", "🐘"])
+
+[sub_resource type="Resource" id="Resource_e4jfb"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel est l'animal le plus petit ? 🦁 🐔 🐭 🐷"
+correct_answer = "🐭"
+choices = Array[String](["🦁", "🐔", "🐷"])
+
+[sub_resource type="Resource" id="Resource_c4ngf"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel est l'animal le plus grand ? 🐘 🐴 🐮 🐱"
+correct_answer = "🐘"
+choices = Array[String](["🐴", "🐮", "🐱"])
+
+[sub_resource type="Resource" id="Resource_gij0t"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel est l'animal le plus petit ? 🐔 🐷 🦁 🐘"
+correct_answer = "🐔"
+choices = Array[String](["🐷", "🦁", "🐘"])
+
+[sub_resource type="Resource" id="Resource_fqs82"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel est l'animal le plus petit ? 🐮 🐴 🐘 🐰"
+correct_answer = "🐰"
+choices = Array[String](["🐮", "🐴", "🐘"])
+
+[sub_resource type="Resource" id="Resource_y3asn"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel est l'animal le plus petit ? 🐷 🐶 🐘 🐝"
+correct_answer = "🐝"
+choices = Array[String](["🐷", "🐶", "🐘"])
+
+[sub_resource type="Resource" id="Resource_klwmp"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel est l'animal le plus grand ? 🐴 🐮 🐶 🐰"
+correct_answer = "🐴"
+choices = Array[String](["🐮", "🐶", "🐰"])
+
+[sub_resource type="Resource" id="Resource_la3qv"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Sacha a 🥭🥭, Jade a 🥭. Qui a le moins de 🥭 ?"
+correct_answer = "Jade"
+choices = Array[String](["Sacha", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_8w8k0"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Nina a 🍓🍓🍓🍓🍓, Hugo a 🍓🍓🍓. Qui a le moins de 🍓 ?"
+correct_answer = "Hugo"
+choices = Array[String](["Nina", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_w4qgr"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Tom a 🍌🍌🍌🍌🍌, Emma a 🍌. Qui a le moins de 🍌 ?"
+correct_answer = "Emma"
+choices = Array[String](["Tom", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_ba3by"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Zoé a ⭐⭐⭐⭐, Hugo a ⭐⭐⭐⭐⭐. Qui a le plus de ⭐ ?"
+correct_answer = "Hugo"
+choices = Array[String](["Zoé", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_hjecm"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Léo a 🍋🍋🍋, Nina a 🍋🍋🍋🍋🍋. Qui a le moins de 🍋 ?"
+correct_answer = "Léo"
+choices = Array[String](["Nina", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_t8jvw"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Théo a 🎁🎁🎁🎁🎁, Sacha a 🎁🎁🎁. Qui a le moins de 🎁 ?"
+correct_answer = "Sacha"
+choices = Array[String](["Théo", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_h80ny"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Mia a 🍐🍐🍐🍐, Théo a 🍐. Qui a le plus de 🍐 ?"
+correct_answer = "Mia"
+choices = Array[String](["Théo", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_q2m7a"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Léa a 🍉🍉🍉🍉, Hugo a 🍉🍉🍉🍉🍉. Qui a le moins de 🍉 ?"
+correct_answer = "Léa"
+choices = Array[String](["Hugo", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_l64p2"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Max a 🎵🎵🎵, Sacha a 🎵🎵🎵🎵🎵🎵. Qui a le plus de 🎵 ?"
+correct_answer = "Sacha"
+choices = Array[String](["Max", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_sq55i"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Jade a 🍑🍑🍑🍑🍑, Emma a 🍑🍑🍑🍑. Qui a le plus de 🍑 ?"
+correct_answer = "Jade"
+choices = Array[String](["Emma", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_dh866"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Nina a 🍊, Léa a 🍊🍊🍊🍊🍊. Qui a le moins de 🍊 ?"
+correct_answer = "Nina"
+choices = Array[String](["Léa", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_yomrg"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Enzo a 🍓🍓🍓, Sacha a 🍓🍓🍓🍓. Qui a le plus de 🍓 ?"
+correct_answer = "Sacha"
+choices = Array[String](["Enzo", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_v3x1y"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Théo a 💎💎💎💎, Enzo a 💎💎💎💎💎. Qui a le plus de 💎 ?"
+correct_answer = "Enzo"
+choices = Array[String](["Théo", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_lf5qn"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Nina a 🎁🎁🎁🎁🎁🎁, Alice a 🎁🎁. Qui a le moins de 🎁 ?"
+correct_answer = "Alice"
+choices = Array[String](["Nina", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_d0jmj"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Jade a 🎁🎁🎁🎁🎁🎁, Léo a 🎁🎁🎁🎁. Qui a le plus de 🎁 ?"
+correct_answer = "Jade"
+choices = Array[String](["Léo", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_6a3kf"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Sacha a 🍋🍋🍋🍋, Mia a 🍋🍋🍋🍋🍋. Qui a le moins de 🍋 ?"
+correct_answer = "Sacha"
+choices = Array[String](["Mia", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_iek1x"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Max a 🍒🍒🍒🍒🍒, Zoé a 🍒🍒🍒🍒. Qui a le moins de 🍒 ?"
+correct_answer = "Zoé"
+choices = Array[String](["Max", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_e3sh0"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Nina a 🍉🍉, Sacha a 🍉🍉🍉. Qui a le moins de 🍉 ?"
+correct_answer = "Nina"
+choices = Array[String](["Sacha", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_61j7k"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Alice a 🍐🍐🍐, Zoé a 🍐🍐🍐🍐. Qui a le plus de 🍐 ?"
+correct_answer = "Zoé"
+choices = Array[String](["Alice", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_krl7f"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Jade a 🔔🔔🔔🔔🔔, Lina a 🔔🔔🔔🔔🔔🔔. Qui a le moins de 🔔 ?"
+correct_answer = "Jade"
+choices = Array[String](["Lina", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_leavm"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Tom a 🍉🍉🍉, Zoé a 🍉🍉. Qui a le plus de 🍉 ?"
+correct_answer = "Tom"
+choices = Array[String](["Zoé", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_ortdh"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Alice a 🔑🔑🔑, Sacha a 🔑🔑🔑🔑. Qui a le moins de 🔑 ?"
+correct_answer = "Alice"
+choices = Array[String](["Sacha", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_vj1nr"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Alice a 🔔🔔🔔🔔🔔, Emma a 🔔🔔🔔. Qui a le plus de 🔔 ?"
+correct_answer = "Alice"
+choices = Array[String](["Emma", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_wdmjv"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Max a 🎵🎵🎵🎵🎵, Noah a 🎵🎵🎵🎵🎵🎵. Qui a le plus de 🎵 ?"
+correct_answer = "Noah"
+choices = Array[String](["Max", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_23a6w"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Max a 🍍🍍🍍🍍🍍🍍, Léa a 🍍🍍🍍🍍🍍. Qui a le plus de 🍍 ?"
+correct_answer = "Max"
+choices = Array[String](["Léa", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_0ene3"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Noah a 🎈🎈🎈🎈, Mia a 🎈🎈🎈. Qui a le plus de 🎈 ?"
+correct_answer = "Noah"
+choices = Array[String](["Mia", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_eb6pq"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Enzo a 🍑, Mia a 🍑🍑🍑🍑🍑. Qui a le moins de 🍑 ?"
+correct_answer = "Enzo"
+choices = Array[String](["Mia", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_8s5wc"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Hugo a 🍒🍒🍒🍒, Léo a 🍒🍒🍒🍒🍒🍒. Qui a le moins de 🍒 ?"
+correct_answer = "Hugo"
+choices = Array[String](["Léo", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_pcvc0"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Max a 🍇🍇🍇🍇🍇🍇, Alice a 🍇. Qui a le plus de 🍇 ?"
+correct_answer = "Max"
+choices = Array[String](["Alice", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_sbvd6"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Tom a 🍑🍑, Enzo a 🍑🍑🍑🍑. Qui a le moins de 🍑 ?"
+correct_answer = "Tom"
+choices = Array[String](["Enzo", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_l5chx"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Tom a 🍉🍉🍉🍉, Léa a 🍉🍉. Qui a le moins de 🍉 ?"
+correct_answer = "Léa"
+choices = Array[String](["Tom", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_k1xhl"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Lina a 🍉, Mia a 🍉🍉🍉. Qui a le moins de 🍉 ?"
+correct_answer = "Lina"
+choices = Array[String](["Mia", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_ulew4"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Alice a ⭐⭐, Noah a ⭐⭐⭐⭐⭐. Qui a le plus de ⭐ ?"
+correct_answer = "Noah"
+choices = Array[String](["Alice", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_7pgd3"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Alice a ⭐⭐⭐, Sacha a ⭐⭐. Qui a le plus de ⭐ ?"
+correct_answer = "Alice"
+choices = Array[String](["Sacha", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_dnlgl"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Hugo a 🍋, Théo a 🍋🍋🍋🍋🍋🍋. Qui a le plus de 🍋 ?"
+correct_answer = "Théo"
+choices = Array[String](["Hugo", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_oytjj"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Jade a 🔑🔑, Enzo a 🔑🔑🔑🔑🔑. Qui a le moins de 🔑 ?"
+correct_answer = "Jade"
+choices = Array[String](["Enzo", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_l3cxh"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Jade a 🍇🍇🍇🍇🍇, Mia a 🍇🍇🍇. Qui a le plus de 🍇 ?"
+correct_answer = "Jade"
+choices = Array[String](["Mia", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_qudjm"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Léa a 🍍🍍🍍🍍, Zoé a 🍍🍍🍍. Qui a le moins de 🍍 ?"
+correct_answer = "Zoé"
+choices = Array[String](["Léa", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_8av8q"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Mia a 🥝🥝, Zoé a 🥝🥝🥝🥝. Qui a le plus de 🥝 ?"
+correct_answer = "Zoé"
+choices = Array[String](["Mia", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_a4egy"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Max a 🍐🍐🍐, Léa a 🍐🍐🍐🍐🍐🍐. Qui a le plus de 🍐 ?"
+correct_answer = "Léa"
+choices = Array[String](["Max", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_ocxmr"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Jade a 🍑🍑🍑🍑, Mia a 🍑🍑🍑. Qui a le moins de 🍑 ?"
+correct_answer = "Mia"
+choices = Array[String](["Jade", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_g8fb2"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Hugo a 🔑🔑🔑🔑🔑🔑, Léo a 🔑. Qui a le plus de 🔑 ?"
+correct_answer = "Hugo"
+choices = Array[String](["Léo", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_y363c"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Sacha a ⭐⭐⭐⭐, Nina a ⭐⭐. Qui a le moins de ⭐ ?"
+correct_answer = "Nina"
+choices = Array[String](["Sacha", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_vn55n"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Max a 🍒🍒🍒🍒🍒, Mia a 🍒🍒🍒🍒🍒🍒. Qui a le plus de 🍒 ?"
+correct_answer = "Mia"
+choices = Array[String](["Max", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_qe8n1"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Sacha a 🎁🎁🎁🎁🎁, Tom a 🎁🎁🎁🎁. Qui a le plus de 🎁 ?"
+correct_answer = "Sacha"
+choices = Array[String](["Tom", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_58cpm"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Nina a 🎁, Hugo a 🎁🎁🎁🎁🎁. Qui a le plus de 🎁 ?"
+correct_answer = "Hugo"
+choices = Array[String](["Nina", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_4ohob"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Lina a 🎁🎁, Tom a 🎁🎁🎁. Qui a le plus de 🎁 ?"
+correct_answer = "Tom"
+choices = Array[String](["Lina", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_n1tni"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Emma a 🎈🎈🎈🎈🎈🎈, Lina a 🎈🎈🎈🎈🎈. Qui a le moins de 🎈 ?"
+correct_answer = "Lina"
+choices = Array[String](["Emma", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_ff5uo"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Enzo a 🍓, Max a 🍓🍓🍓🍓. Qui a le plus de 🍓 ?"
+correct_answer = "Max"
+choices = Array[String](["Enzo", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_q0qu8"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Hugo a 👑👑👑👑👑, Sacha a 👑👑👑👑. Qui a le plus de 👑 ?"
+correct_answer = "Hugo"
+choices = Array[String](["Sacha", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_8ma4e"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Nina a 🍎🍎🍎🍎, Hugo a 🍎🍎🍎. Qui a le plus de 🍎 ?"
+correct_answer = "Nina"
+choices = Array[String](["Hugo", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_netx6"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Emma a 🍐, Alice a 🍐🍐🍐🍐. Qui a le plus de 🍐 ?"
+correct_answer = "Alice"
+choices = Array[String](["Emma", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_bld64"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Hugo a 🍌, Nina a 🍌🍌🍌🍌. Qui a le plus de 🍌 ?"
+correct_answer = "Nina"
+choices = Array[String](["Hugo", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_rn6aq"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Enzo a 🔑🔑, Léo a 🔑🔑🔑🔑🔑🔑. Qui a le moins de 🔑 ?"
+correct_answer = "Enzo"
+choices = Array[String](["Léo", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_ubq8n"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Zoé a 👑👑👑👑, Mia a 👑. Qui a le moins de 👑 ?"
+correct_answer = "Mia"
+choices = Array[String](["Zoé", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_3y022"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Jade a 🔔, Alice a 🔔🔔. Qui a le plus de 🔔 ?"
+correct_answer = "Alice"
+choices = Array[String](["Jade", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_xh0va"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Léa a 🍎🍎🍎🍎🍎🍎, Zoé a 🍎🍎. Qui a le moins de 🍎 ?"
+correct_answer = "Zoé"
+choices = Array[String](["Léa", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_ymncs"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Jade a 🔔🔔🔔🔔🔔, Enzo a 🔔🔔🔔🔔. Qui a le plus de 🔔 ?"
+correct_answer = "Jade"
+choices = Array[String](["Enzo", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_wiby0"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Zoé a 🍐🍐, Théo a 🍐🍐🍐🍐. Qui a le plus de 🍐 ?"
+correct_answer = "Théo"
+choices = Array[String](["Zoé", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_ai585"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Enzo a 🍌🍌🍌🍌🍌🍌, Hugo a 🍌. Qui a le plus de 🍌 ?"
+correct_answer = "Enzo"
+choices = Array[String](["Hugo", "Personne", "Les deux pareils"])
+
+[sub_resource type="Resource" id="Resource_jxooh"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 25, 26, 27, 28, …"
+correct_answer = "29"
+choices = Array[String](["30", "31", "28"])
+
+[sub_resource type="Resource" id="Resource_sutdn"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 84, 85, 86, 87, …"
+correct_answer = "88"
+choices = Array[String](["89", "90", "87"])
+
+[sub_resource type="Resource" id="Resource_e7djm"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 49, 50, 51, 52, …"
+correct_answer = "53"
+choices = Array[String](["54", "55", "52"])
+
+[sub_resource type="Resource" id="Resource_gru3v"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 32, 33, 34, 35, …"
+correct_answer = "36"
+choices = Array[String](["37", "38", "35"])
+
+[sub_resource type="Resource" id="Resource_tgi27"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 39, 40, 41, 42, …"
+correct_answer = "43"
+choices = Array[String](["44", "45", "42"])
+
+[sub_resource type="Resource" id="Resource_u27bx"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 21, 22, 23, 24, …"
+correct_answer = "25"
+choices = Array[String](["26", "27", "24"])
+
+[sub_resource type="Resource" id="Resource_c6tvu"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 89, 90, 91, 92, …"
+correct_answer = "93"
+choices = Array[String](["94", "95", "92"])
+
+[sub_resource type="Resource" id="Resource_c3j5f"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 68, 69, 70, 71, …"
+correct_answer = "72"
+choices = Array[String](["73", "74", "71"])
+
+[sub_resource type="Resource" id="Resource_wcf1g"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 45, 46, 47, 48, …"
+correct_answer = "49"
+choices = Array[String](["50", "51", "48"])
+
+[sub_resource type="Resource" id="Resource_h4w7r"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 23, 24, 25, 26, …"
+correct_answer = "27"
+choices = Array[String](["28", "29", "26"])
+
+[sub_resource type="Resource" id="Resource_5t4ev"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 0, 1, 2, 3, …"
+correct_answer = "4"
+choices = Array[String](["5", "6", "3"])
+
+[sub_resource type="Resource" id="Resource_5snab"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 50, 51, 52, 53, …"
+correct_answer = "54"
+choices = Array[String](["55", "56", "53"])
+
+[sub_resource type="Resource" id="Resource_ye11l"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 65, 66, 67, 68, …"
+correct_answer = "69"
+choices = Array[String](["70", "71", "68"])
+
+[sub_resource type="Resource" id="Resource_o34ji"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 44, 45, 46, 47, …"
+correct_answer = "48"
+choices = Array[String](["49", "50", "47"])
+
+[sub_resource type="Resource" id="Resource_4uivs"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 36, 37, 38, 39, …"
+correct_answer = "40"
+choices = Array[String](["41", "42", "39"])
+
+[sub_resource type="Resource" id="Resource_uylhb"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 88, 89, 90, 91, …"
+correct_answer = "92"
+choices = Array[String](["93", "94", "91"])
+
+[sub_resource type="Resource" id="Resource_rdcxg"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 59, 60, 61, 62, …"
+correct_answer = "63"
+choices = Array[String](["64", "65", "62"])
+
+[sub_resource type="Resource" id="Resource_sh6c5"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 2, 3, 4, 5, …"
+correct_answer = "6"
+choices = Array[String](["7", "8", "5"])
+
+[sub_resource type="Resource" id="Resource_fnukn"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 10, 11, 12, 13, …"
+correct_answer = "14"
+choices = Array[String](["15", "16", "13"])
+
+[sub_resource type="Resource" id="Resource_eq45s"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 87, 88, 89, 90, …"
+correct_answer = "91"
+choices = Array[String](["92", "93", "90"])
+
+[sub_resource type="Resource" id="Resource_vsgiq"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 93, 94, 95, 96, …"
+correct_answer = "97"
+choices = Array[String](["98", "99", "96"])
+
+[sub_resource type="Resource" id="Resource_rwyaw"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 78, 79, 80, 81, …"
+correct_answer = "82"
+choices = Array[String](["83", "84", "81"])
+
+[sub_resource type="Resource" id="Resource_0suol"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 92, 93, 94, 95, …"
+correct_answer = "96"
+choices = Array[String](["97", "98", "95"])
+
+[sub_resource type="Resource" id="Resource_mtux1"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 90, 91, 92, 93, …"
+correct_answer = "94"
+choices = Array[String](["95", "96", "93"])
+
+[sub_resource type="Resource" id="Resource_jl2o3"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 16, 17, 18, 19, …"
+correct_answer = "20"
+choices = Array[String](["21", "22", "19"])
+
+[sub_resource type="Resource" id="Resource_lu8eo"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 67, 68, 69, 70, …"
+correct_answer = "71"
+choices = Array[String](["72", "73", "70"])
+
+[sub_resource type="Resource" id="Resource_8uq4c"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 53, 54, 55, 56, …"
+correct_answer = "57"
+choices = Array[String](["58", "59", "56"])
+
+[sub_resource type="Resource" id="Resource_pc7wn"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 13, 14, 15, 16, …"
+correct_answer = "17"
+choices = Array[String](["18", "19", "16"])
+
+[sub_resource type="Resource" id="Resource_yon58"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 77, 78, 79, 80, …"
+correct_answer = "81"
+choices = Array[String](["82", "83", "80"])
+
+[sub_resource type="Resource" id="Resource_p2q8x"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 83, 84, 85, 86, …"
+correct_answer = "87"
+choices = Array[String](["88", "89", "86"])
+
+[sub_resource type="Resource" id="Resource_y6pep"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 74, 75, 76, 77, …"
+correct_answer = "78"
+choices = Array[String](["79", "80", "77"])
+
+[sub_resource type="Resource" id="Resource_fh24w"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 48, 49, 50, 51, …"
+correct_answer = "52"
+choices = Array[String](["53", "54", "51"])
+
+[sub_resource type="Resource" id="Resource_alxe7"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 55, 56, 57, 58, …"
+correct_answer = "59"
+choices = Array[String](["60", "61", "58"])
+
+[sub_resource type="Resource" id="Resource_s1ptg"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 14, 15, 16, 17, …"
+correct_answer = "18"
+choices = Array[String](["19", "20", "17"])
+
+[sub_resource type="Resource" id="Resource_7mffc"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 15, 16, 17, 18, …"
+correct_answer = "19"
+choices = Array[String](["20", "21", "18"])
+
+[sub_resource type="Resource" id="Resource_q3dbe"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 70, 71, 72, 73, …"
+correct_answer = "74"
+choices = Array[String](["75", "76", "73"])
+
+[sub_resource type="Resource" id="Resource_sebke"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 34, 35, 36, 37, …"
+correct_answer = "38"
+choices = Array[String](["39", "40", "37"])
+
+[sub_resource type="Resource" id="Resource_f17xa"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 58, 59, 60, 61, …"
+correct_answer = "62"
+choices = Array[String](["63", "64", "61"])
+
+[sub_resource type="Resource" id="Resource_ogmhi"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 46, 47, 48, 49, …"
+correct_answer = "50"
+choices = Array[String](["51", "52", "49"])
+
+[sub_resource type="Resource" id="Resource_wm5p5"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 19, 20, 21, 22, …"
+correct_answer = "23"
+choices = Array[String](["24", "25", "22"])
+
+[sub_resource type="Resource" id="Resource_uteco"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 20, 15, 10, 5, …"
+correct_answer = "0"
+choices = Array[String](["4", "-1", "-3"])
+
+[sub_resource type="Resource" id="Resource_xknl6"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 7, 9, 11, 13, …"
+correct_answer = "15"
+choices = Array[String](["14", "16", "18"])
+
+[sub_resource type="Resource" id="Resource_56o20"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 35, 32, 29, 26, …"
+correct_answer = "23"
+choices = Array[String](["25", "22", "20"])
+
+[sub_resource type="Resource" id="Resource_jumc1"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 25, 28, 31, 34, …"
+correct_answer = "37"
+choices = Array[String](["35", "38", "40"])
+
+[sub_resource type="Resource" id="Resource_we7u3"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 38, 36, 34, 32, …"
+correct_answer = "30"
+choices = Array[String](["31", "29", "27"])
+
+[sub_resource type="Resource" id="Resource_cpjfm"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 54, 49, 44, 39, …"
+correct_answer = "34"
+choices = Array[String](["38", "33", "31"])
+
+[sub_resource type="Resource" id="Resource_jiogq"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 39, 36, 33, 30, …"
+correct_answer = "27"
+choices = Array[String](["29", "26", "24"])
+
+[sub_resource type="Resource" id="Resource_2kd1k"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 52, 47, 42, 37, …"
+correct_answer = "32"
+choices = Array[String](["36", "31", "29"])
+
+[sub_resource type="Resource" id="Resource_ffo3n"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 26, 21, 16, 11, …"
+correct_answer = "6"
+choices = Array[String](["10", "5", "3"])
+
+[sub_resource type="Resource" id="Resource_onfrb"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 40, 37, 34, 31, …"
+correct_answer = "28"
+choices = Array[String](["30", "27", "25"])
+
+[sub_resource type="Resource" id="Resource_eha6g"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 40, 38, 36, 34, …"
+correct_answer = "32"
+choices = Array[String](["33", "31", "29"])
+
+[sub_resource type="Resource" id="Resource_ycacq"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 36, 41, 46, 51, …"
+correct_answer = "56"
+choices = Array[String](["52", "57", "59"])
+
+[sub_resource type="Resource" id="Resource_jmejm"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 1, 3, 5, 7, …"
+correct_answer = "9"
+choices = Array[String](["8", "10", "12"])
+
+[sub_resource type="Resource" id="Resource_qhdhp"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 38, 33, 28, 23, …"
+correct_answer = "18"
+choices = Array[String](["22", "17", "15"])
+
+[sub_resource type="Resource" id="Resource_3y2ye"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 21, 23, 25, 27, …"
+correct_answer = "29"
+choices = Array[String](["28", "30", "32"])
+
+[sub_resource type="Resource" id="Resource_v0x4j"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 56, 54, 52, 50, …"
+correct_answer = "48"
+choices = Array[String](["49", "47", "45"])
+
+[sub_resource type="Resource" id="Resource_fdvhf"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 55, 53, 51, 49, …"
+correct_answer = "47"
+choices = Array[String](["48", "46", "44"])
+
+[sub_resource type="Resource" id="Resource_1hnjm"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 36, 33, 30, 27, …"
+correct_answer = "24"
+choices = Array[String](["26", "23", "21"])
+
+[sub_resource type="Resource" id="Resource_k8dg1"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 49, 44, 39, 34, …"
+correct_answer = "29"
+choices = Array[String](["33", "28", "26"])
+
+[sub_resource type="Resource" id="Resource_kbwx2"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 30, 28, 26, 24, …"
+correct_answer = "22"
+choices = Array[String](["23", "21", "19"])
+
+[sub_resource type="Resource" id="Resource_fkm0i"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 31, 29, 27, 25, …"
+correct_answer = "23"
+choices = Array[String](["24", "22", "20"])
+
+[sub_resource type="Resource" id="Resource_gqujw"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 33, 36, 39, 42, …"
+correct_answer = "45"
+choices = Array[String](["43", "46", "48"])
+
+[sub_resource type="Resource" id="Resource_goxch"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 3, 5, 7, 9, …"
+correct_answer = "11"
+choices = Array[String](["10", "12", "14"])
+
+[sub_resource type="Resource" id="Resource_y8y3i"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 28, 26, 24, 22, …"
+correct_answer = "20"
+choices = Array[String](["21", "19", "17"])
+
+[sub_resource type="Resource" id="Resource_k8jcb"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 4, 7, 10, 13, …"
+correct_answer = "16"
+choices = Array[String](["14", "17", "19"])
+
+[sub_resource type="Resource" id="Resource_qqher"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 0, 3, 6, 9, …"
+correct_answer = "12"
+choices = Array[String](["10", "13", "15"])
+
+[sub_resource type="Resource" id="Resource_8rcwt"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 43, 41, 39, 37, …"
+correct_answer = "35"
+choices = Array[String](["36", "34", "32"])
+
+[sub_resource type="Resource" id="Resource_kfg1u"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 51, 49, 47, 45, …"
+correct_answer = "43"
+choices = Array[String](["44", "42", "40"])
+
+[sub_resource type="Resource" id="Resource_gn6c7"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 34, 36, 38, 40, …"
+correct_answer = "42"
+choices = Array[String](["41", "43", "45"])
+
+[sub_resource type="Resource" id="Resource_cmarm"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 20, 17, 14, 11, …"
+correct_answer = "8"
+choices = Array[String](["10", "7", "5"])
+
+[sub_resource type="Resource" id="Resource_y6r1o"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 54, 52, 50, 48, …"
+correct_answer = "46"
+choices = Array[String](["47", "45", "43"])
+
+[sub_resource type="Resource" id="Resource_pbakn"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 32, 37, 42, 47, …"
+correct_answer = "52"
+choices = Array[String](["48", "53", "55"])
+
+[sub_resource type="Resource" id="Resource_bi0mq"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 31, 28, 25, 22, …"
+correct_answer = "19"
+choices = Array[String](["21", "18", "16"])
+
+[sub_resource type="Resource" id="Resource_p7rme"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 33, 35, 37, 39, …"
+correct_answer = "41"
+choices = Array[String](["40", "42", "44"])
+
+[sub_resource type="Resource" id="Resource_p7558"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 12, 14, 16, 18, …"
+correct_answer = "20"
+choices = Array[String](["19", "21", "23"])
+
+[sub_resource type="Resource" id="Resource_ki2mm"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 42, 39, 36, 33, …"
+correct_answer = "30"
+choices = Array[String](["32", "29", "27"])
+
+[sub_resource type="Resource" id="Resource_x317n"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 25, 20, 15, 10, …"
+correct_answer = "5"
+choices = Array[String](["9", "4", "2"])
+
+[sub_resource type="Resource" id="Resource_cvhnj"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 14, 17, 20, 23, …"
+correct_answer = "26"
+choices = Array[String](["24", "27", "29"])
+
+[sub_resource type="Resource" id="Resource_ywpkx"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 2, 7, 12, 17, …"
+correct_answer = "22"
+choices = Array[String](["18", "23", "25"])
+
+[sub_resource type="Resource" id="Resource_l07w1"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quel nombre vient après ? 44, 42, 40, 38, …"
+correct_answer = "36"
+choices = Array[String](["37", "35", "33"])
+
+[sub_resource type="Resource" id="Resource_xa5un"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le contraire de jour est nuit. Le contraire de propre est…"
+correct_answer = "sale"
+choices = Array[String](["nuit", "petit", "fermé"])
+
+[sub_resource type="Resource" id="Resource_ylltb"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le contraire de dur est mou. Le contraire de grand est…"
+correct_answer = "petit"
+choices = Array[String](["mou", "fermé", "faible"])
+
+[sub_resource type="Resource" id="Resource_s7pb2"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le contraire de lourd est léger. Le contraire de fort est…"
+correct_answer = "faible"
+choices = Array[String](["léger", "nuit", "sombre"])
+
+[sub_resource type="Resource" id="Resource_y1y07"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le contraire de haut est bas. Le contraire de lourd est…"
+correct_answer = "léger"
+choices = Array[String](["bas", "petit", "vide"])
+
+[sub_resource type="Resource" id="Resource_yyolg"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le contraire de facile est difficile. Le contraire de grand est…"
+correct_answer = "petit"
+choices = Array[String](["difficile", "mou", "froid"])
+
+[sub_resource type="Resource" id="Resource_5kqxs"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le contraire de haut est bas. Le contraire de gentil est…"
+correct_answer = "méchant"
+choices = Array[String](["bas", "mou", "léger"])
+
+[sub_resource type="Resource" id="Resource_tfe1x"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le contraire de fort est faible. Le contraire de plein est…"
+correct_answer = "vide"
+choices = Array[String](["faible", "lent", "petit"])
+
+[sub_resource type="Resource" id="Resource_p3saq"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le contraire de dur est mou. Le contraire de lourd est…"
+correct_answer = "léger"
+choices = Array[String](["mou", "faible", "nuit"])
+
+[sub_resource type="Resource" id="Resource_vcec2"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le contraire de propre est sale. Le contraire de lourd est…"
+correct_answer = "léger"
+choices = Array[String](["sale", "content", "mou"])
+
+[sub_resource type="Resource" id="Resource_0qh5w"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le contraire de neuf est vieux. Le contraire de gentil est…"
+correct_answer = "méchant"
+choices = Array[String](["vieux", "sombre", "nuit"])
+
+[sub_resource type="Resource" id="Resource_2pcvl"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le contraire de haut est bas. Le contraire de propre est…"
+correct_answer = "sale"
+choices = Array[String](["bas", "nuit", "lent"])
+
+[sub_resource type="Resource" id="Resource_jrlu8"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le contraire de jour est nuit. Le contraire de rapide est…"
+correct_answer = "lent"
+choices = Array[String](["nuit", "bas", "content"])
+
+[sub_resource type="Resource" id="Resource_u86ek"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le contraire de dur est mou. Le contraire de plein est…"
+correct_answer = "vide"
+choices = Array[String](["mou", "fermé", "sale"])
+
+[sub_resource type="Resource" id="Resource_p3b7d"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le contraire de clair est sombre. Le contraire de ouvert est…"
+correct_answer = "fermé"
+choices = Array[String](["sombre", "difficile", "lent"])
+
+[sub_resource type="Resource" id="Resource_82ud7"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le contraire de dur est mou. Le contraire de jour est…"
+correct_answer = "nuit"
+choices = Array[String](["mou", "sombre", "fermé"])
+
+[sub_resource type="Resource" id="Resource_7oho2"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le contraire de haut est bas. Le contraire de chaud est…"
+correct_answer = "froid"
+choices = Array[String](["bas", "nuit", "content"])
+
+[sub_resource type="Resource" id="Resource_l8a1j"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le contraire de chaud est froid. Le contraire de grand est…"
+correct_answer = "petit"
+choices = Array[String](["froid", "content", "vieux"])
+
+[sub_resource type="Resource" id="Resource_mk7po"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le contraire de plein est vide. Le contraire de fort est…"
+correct_answer = "faible"
+choices = Array[String](["vide", "sale", "lent"])
+
+[sub_resource type="Resource" id="Resource_rajbw"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le contraire de plein est vide. Le contraire de dur est…"
+correct_answer = "mou"
+choices = Array[String](["vide", "nuit", "sombre"])
+
+[sub_resource type="Resource" id="Resource_crlyn"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le contraire de facile est difficile. Le contraire de clair est…"
+correct_answer = "sombre"
+choices = Array[String](["difficile", "bas", "mou"])
+
+[sub_resource type="Resource" id="Resource_ml1j1"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le contraire de facile est difficile. Le contraire de neuf est…"
+correct_answer = "vieux"
+choices = Array[String](["difficile", "nuit", "petit"])
+
+[sub_resource type="Resource" id="Resource_253ax"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le contraire de facile est difficile. Le contraire de dur est…"
+correct_answer = "mou"
+choices = Array[String](["difficile", "bas", "froid"])
+
+[sub_resource type="Resource" id="Resource_0sqn2"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le contraire de dur est mou. Le contraire de facile est…"
+correct_answer = "difficile"
+choices = Array[String](["mou", "vide", "sale"])
+
+[sub_resource type="Resource" id="Resource_8wpbl"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le contraire de facile est difficile. Le contraire de ouvert est…"
+correct_answer = "fermé"
+choices = Array[String](["difficile", "faible", "mou"])
+
+[sub_resource type="Resource" id="Resource_w240s"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le contraire de grand est petit. Le contraire de jour est…"
+correct_answer = "nuit"
+choices = Array[String](["petit", "mou", "sombre"])
+
+[sub_resource type="Resource" id="Resource_amya2"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le contraire de rapide est lent. Le contraire de ouvert est…"
+correct_answer = "fermé"
+choices = Array[String](["lent", "sombre", "bas"])
+
+[sub_resource type="Resource" id="Resource_xtomr"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le contraire de triste est content. Le contraire de haut est…"
+correct_answer = "bas"
+choices = Array[String](["content", "difficile", "léger"])
+
+[sub_resource type="Resource" id="Resource_taatt"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le contraire de lourd est léger. Le contraire de rapide est…"
+correct_answer = "lent"
+choices = Array[String](["léger", "content", "sale"])
+
+[sub_resource type="Resource" id="Resource_l0f28"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le contraire de ouvert est fermé. Le contraire de facile est…"
+correct_answer = "difficile"
+choices = Array[String](["fermé", "faible", "nuit"])
+
+[sub_resource type="Resource" id="Resource_pmpmr"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le contraire de clair est sombre. Le contraire de chaud est…"
+correct_answer = "froid"
+choices = Array[String](["sombre", "faible", "petit"])
+
+[sub_resource type="Resource" id="Resource_cgwxl"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le contraire de neuf est vieux. Le contraire de chaud est…"
+correct_answer = "froid"
+choices = Array[String](["vieux", "bas", "fermé"])
+
+[sub_resource type="Resource" id="Resource_viafk"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le contraire de gentil est méchant. Le contraire de lourd est…"
+correct_answer = "léger"
+choices = Array[String](["méchant", "faible", "vide"])
+
+[sub_resource type="Resource" id="Resource_p2bab"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le contraire de lourd est léger. Le contraire de triste est…"
+correct_answer = "content"
+choices = Array[String](["léger", "froid", "sombre"])
+
+[sub_resource type="Resource" id="Resource_4r64r"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le contraire de fort est faible. Le contraire de lourd est…"
+correct_answer = "léger"
+choices = Array[String](["faible", "lent", "fermé"])
+
+[sub_resource type="Resource" id="Resource_gfpjb"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le contraire de ouvert est fermé. Le contraire de clair est…"
+correct_answer = "sombre"
+choices = Array[String](["fermé", "petit", "vieux"])
+
+[sub_resource type="Resource" id="Resource_2t4jf"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le contraire de chaud est froid. Le contraire de gentil est…"
+correct_answer = "méchant"
+choices = Array[String](["froid", "sale", "difficile"])
+
+[sub_resource type="Resource" id="Resource_0ay62"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le contraire de ouvert est fermé. Le contraire de propre est…"
+correct_answer = "sale"
+choices = Array[String](["fermé", "bas", "content"])
+
+[sub_resource type="Resource" id="Resource_751co"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le contraire de chaud est froid. Le contraire de facile est…"
+correct_answer = "difficile"
+choices = Array[String](["froid", "sombre", "sale"])
+
+[sub_resource type="Resource" id="Resource_7vy5c"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le contraire de dur est mou. Le contraire de fort est…"
+correct_answer = "faible"
+choices = Array[String](["mou", "froid", "sale"])
+
+[sub_resource type="Resource" id="Resource_anult"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le contraire de rapide est lent. Le contraire de plein est…"
+correct_answer = "vide"
+choices = Array[String](["lent", "vieux", "sombre"])
+
+[sub_resource type="Resource" id="Resource_ggdst"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle couleur vient ensuite ? 🟣 🔴 🟣 🔴 🟣 …"
+correct_answer = "🔴"
+choices = Array[String](["🟣", "🔵", "🟡"])
+
+[sub_resource type="Resource" id="Resource_d64mt"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle couleur vient ensuite ? 🔴 🟡 🟢 🔴 🟡 …"
+correct_answer = "🟢"
+choices = Array[String](["🟣", "🔵", "🔴"])
+
+[sub_resource type="Resource" id="Resource_x5rw1"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle couleur vient ensuite ? 🟢 🔵 🟢 🔵 🟢 …"
+correct_answer = "🔵"
+choices = Array[String](["🟢", "🔴", "🟣"])
+
+[sub_resource type="Resource" id="Resource_bik71"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle couleur vient ensuite ? 🟢 🟣 🟡 🟢 🟣 …"
+correct_answer = "🟡"
+choices = Array[String](["🟣", "🟢", "🔴"])
+
+[sub_resource type="Resource" id="Resource_aj5h3"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle couleur vient ensuite ? 🔴 🔵 🟢 🔴 🔵 …"
+correct_answer = "🟢"
+choices = Array[String](["🟣", "🔵", "🟠"])
+
+[sub_resource type="Resource" id="Resource_d781j"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle couleur vient ensuite ? 🔴 🔵 🟣 🔴 🔵 …"
+correct_answer = "🟣"
+choices = Array[String](["🔵", "🟢", "🔴"])
+
+[sub_resource type="Resource" id="Resource_mrgrk"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle couleur vient ensuite ? 🔴 🟠 🔵 🔴 🟠 …"
+correct_answer = "🔵"
+choices = Array[String](["🔴", "🟢", "🟡"])
+
+[sub_resource type="Resource" id="Resource_dbd7t"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle couleur vient ensuite ? 🟠 🔴 🟣 🟠 🔴 …"
+correct_answer = "🟣"
+choices = Array[String](["🔴", "🟡", "🟢"])
+
+[sub_resource type="Resource" id="Resource_4gufm"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle couleur vient ensuite ? 🟣 🟠 🟣 🟠 🟣 …"
+correct_answer = "🟠"
+choices = Array[String](["🔵", "🟣", "🟢"])
+
+[sub_resource type="Resource" id="Resource_7ik1y"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle couleur vient ensuite ? 🟢 🟠 🟢 🟠 🟢 …"
+correct_answer = "🟠"
+choices = Array[String](["🔴", "🔵", "🟣"])
+
+[sub_resource type="Resource" id="Resource_m42gd"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle couleur vient ensuite ? 🟡 🟢 🔵 🟡 🟢 …"
+correct_answer = "🔵"
+choices = Array[String](["🟣", "🟡", "🟠"])
+
+[sub_resource type="Resource" id="Resource_dejqa"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle couleur vient ensuite ? 🔴 🔵 🔴 🔵 🔴 …"
+correct_answer = "🔵"
+choices = Array[String](["🔴", "🟡", "🟢"])
+
+[sub_resource type="Resource" id="Resource_fnci7"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle couleur vient ensuite ? 🟣 🟢 🟣 🟢 🟣 …"
+correct_answer = "🟢"
+choices = Array[String](["🔴", "🟡", "🟠"])
+
+[sub_resource type="Resource" id="Resource_a3yi7"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle couleur vient ensuite ? 🟠 🟣 🔴 🟠 🟣 …"
+correct_answer = "🔴"
+choices = Array[String](["🟠", "🟣", "🔵"])
+
+[sub_resource type="Resource" id="Resource_sd6f1"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle couleur vient ensuite ? 🟢 🟡 🟢 🟡 🟢 …"
+correct_answer = "🟡"
+choices = Array[String](["🟣", "🔵", "🟢"])
+
+[sub_resource type="Resource" id="Resource_ukdsw"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle couleur vient ensuite ? 🔵 🔴 🟡 🔵 🔴 …"
+correct_answer = "🟡"
+choices = Array[String](["🟢", "🟠", "🔴"])
+
+[sub_resource type="Resource" id="Resource_jryrk"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle couleur vient ensuite ? 🔵 🔴 🔵 🔴 🔵 …"
+correct_answer = "🔴"
+choices = Array[String](["🟢", "🟡", "🟣"])
+
+[sub_resource type="Resource" id="Resource_7235f"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle couleur vient ensuite ? 🟡 🟢 🟡 🟢 🟡 …"
+correct_answer = "🟢"
+choices = Array[String](["🔵", "🟣", "🟠"])
+
+[sub_resource type="Resource" id="Resource_nk7s8"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle couleur vient ensuite ? 🔵 🟡 🔵 🟡 🔵 …"
+correct_answer = "🟡"
+choices = Array[String](["🟢", "🟣", "🟠"])
+
+[sub_resource type="Resource" id="Resource_vyipc"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle couleur vient ensuite ? 🟡 🔴 🟡 🔴 🟡 …"
+correct_answer = "🔴"
+choices = Array[String](["🔵", "🟠", "🟡"])
+
+[sub_resource type="Resource" id="Resource_j3feo"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle couleur vient ensuite ? 🔴 🟡 🟣 🔴 🟡 …"
+correct_answer = "🟣"
+choices = Array[String](["🟠", "🟡", "🔴"])
+
+[sub_resource type="Resource" id="Resource_4c2u0"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle couleur vient ensuite ? 🟢 🟡 🔵 🟢 🟡 …"
+correct_answer = "🔵"
+choices = Array[String](["🟠", "🟣", "🟡"])
+
+[sub_resource type="Resource" id="Resource_d5xjc"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle couleur vient ensuite ? 🟡 🟣 🟠 🟡 🟣 …"
+correct_answer = "🟠"
+choices = Array[String](["🟡", "🟢", "🔵"])
+
+[sub_resource type="Resource" id="Resource_vrjyt"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle couleur vient ensuite ? 🟡 🔵 🟡 🔵 🟡 …"
+correct_answer = "🔵"
+choices = Array[String](["🟣", "🔴", "🟡"])
+
+[sub_resource type="Resource" id="Resource_w04qv"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle couleur vient ensuite ? 🟠 🟢 🟡 🟠 🟢 …"
+correct_answer = "🟡"
+choices = Array[String](["🔴", "🟢", "🔵"])
+
+[sub_resource type="Resource" id="Resource_wdjqx"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle couleur vient ensuite ? 🟢 🔵 🔴 🟢 🔵 …"
+correct_answer = "🔴"
+choices = Array[String](["🟠", "🟣", "🔵"])
+
+[sub_resource type="Resource" id="Resource_12tji"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle couleur vient ensuite ? 🟡 🟣 🟡 🟣 🟡 …"
+correct_answer = "🟣"
+choices = Array[String](["🟡", "🟠", "🔴"])
+
+[sub_resource type="Resource" id="Resource_5ery4"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle couleur vient ensuite ? 🟠 🔵 🟠 🔵 🟠 …"
+correct_answer = "🔵"
+choices = Array[String](["🟠", "🟢", "🟣"])
+
+[sub_resource type="Resource" id="Resource_jpdl6"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle couleur vient ensuite ? 🔵 🟠 🟣 🔵 🟠 …"
+correct_answer = "🟣"
+choices = Array[String](["🔴", "🔵", "🟡"])
+
+[sub_resource type="Resource" id="Resource_k7abc"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Quelle couleur vient ensuite ? 🟠 🟢 🟠 🟢 🟠 …"
+correct_answer = "🟢"
+choices = Array[String](["🟣", "🔴", "🟡"])
+
+[sub_resource type="Resource" id="Resource_jimdy"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le petit de 🐷 est le porcelet. Le petit de 🐱 est…"
+correct_answer = "le chaton"
+choices = Array[String](["le porcelet", "le chevreau", "le poussin"])
+
+[sub_resource type="Resource" id="Resource_chy0y"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le petit de 🐑 est l'agneau. Le petit de 🐐 est…"
+correct_answer = "le chevreau"
+choices = Array[String](["l'agneau", "le veau", "le chiot"])
+
+[sub_resource type="Resource" id="Resource_ld4bs"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le petit de 🐔 est le poussin. Le petit de 🐑 est…"
+correct_answer = "l'agneau"
+choices = Array[String](["le poussin", "l'ourson", "le chiot"])
+
+[sub_resource type="Resource" id="Resource_k85im"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le petit de 🐶 est le chiot. Le petit de 🐔 est…"
+correct_answer = "le poussin"
+choices = Array[String](["le chiot", "le poulain", "l'ourson"])
+
+[sub_resource type="Resource" id="Resource_lks51"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le petit de 🐴 est le poulain. Le petit de 🐻 est…"
+correct_answer = "l'ourson"
+choices = Array[String](["le poulain", "l'agneau", "le chiot"])
+
+[sub_resource type="Resource" id="Resource_k850m"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le petit de 🐶 est le chiot. Le petit de 🐱 est…"
+correct_answer = "le chaton"
+choices = Array[String](["le chiot", "le poussin", "le chevreau"])
+
+[sub_resource type="Resource" id="Resource_xcv5o"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le petit de 🦁 est le lionceau. Le petit de 🐶 est…"
+correct_answer = "le chiot"
+choices = Array[String](["le lionceau", "le poussin", "le poulain"])
+
+[sub_resource type="Resource" id="Resource_g54r2"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le petit de 🐔 est le poussin. Le petit de 🐴 est…"
+correct_answer = "le poulain"
+choices = Array[String](["le poussin", "le chaton", "le lionceau"])
+
+[sub_resource type="Resource" id="Resource_8mmfq"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le petit de 🐷 est le porcelet. Le petit de 🐐 est…"
+correct_answer = "le chevreau"
+choices = Array[String](["le porcelet", "le poulain", "le lionceau"])
+
+[sub_resource type="Resource" id="Resource_pbmx2"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le petit de 🦁 est le lionceau. Le petit de 🐱 est…"
+correct_answer = "le chaton"
+choices = Array[String](["le lionceau", "l'ourson", "le veau"])
+
+[sub_resource type="Resource" id="Resource_prvtn"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le petit de 🦁 est le lionceau. Le petit de 🐔 est…"
+correct_answer = "le poussin"
+choices = Array[String](["le lionceau", "le veau", "le poulain"])
+
+[sub_resource type="Resource" id="Resource_4al5j"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le petit de 🐶 est le chiot. Le petit de 🐐 est…"
+correct_answer = "le chevreau"
+choices = Array[String](["le chiot", "le lionceau", "le poussin"])
+
+[sub_resource type="Resource" id="Resource_gu6rc"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le petit de 🐮 est le veau. Le petit de 🐐 est…"
+correct_answer = "le chevreau"
+choices = Array[String](["le veau", "le poulain", "le chiot"])
+
+[sub_resource type="Resource" id="Resource_iq46o"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le petit de 🐴 est le poulain. Le petit de 🦁 est…"
+correct_answer = "le lionceau"
+choices = Array[String](["le poulain", "le poussin", "le chevreau"])
+
+[sub_resource type="Resource" id="Resource_jgck6"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le petit de 🦁 est le lionceau. Le petit de 🐻 est…"
+correct_answer = "l'ourson"
+choices = Array[String](["le lionceau", "le poussin", "l'agneau"])
+
+[sub_resource type="Resource" id="Resource_3gk0m"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le petit de 🐐 est le chevreau. Le petit de 🐑 est…"
+correct_answer = "l'agneau"
+choices = Array[String](["le chevreau", "le porcelet", "le chaton"])
+
+[sub_resource type="Resource" id="Resource_lt7o0"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le petit de 🐶 est le chiot. Le petit de 🐻 est…"
+correct_answer = "l'ourson"
+choices = Array[String](["le chiot", "le chevreau", "le veau"])
+
+[sub_resource type="Resource" id="Resource_c0ajd"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le petit de 🐱 est le chaton. Le petit de 🐑 est…"
+correct_answer = "l'agneau"
+choices = Array[String](["le chaton", "le veau", "le lionceau"])
+
+[sub_resource type="Resource" id="Resource_yihae"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le petit de 🦁 est le lionceau. Le petit de 🐴 est…"
+correct_answer = "le poulain"
+choices = Array[String](["le lionceau", "l'ourson", "le chevreau"])
+
+[sub_resource type="Resource" id="Resource_o2aeo"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le petit de 🐻 est l'ourson. Le petit de 🐔 est…"
+correct_answer = "le poussin"
+choices = Array[String](["l'ourson", "le chiot", "le chevreau"])
+
+[sub_resource type="Resource" id="Resource_ngkyx"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le petit de 🐐 est le chevreau. Le petit de 🐱 est…"
+correct_answer = "le chaton"
+choices = Array[String](["le chevreau", "l'agneau", "l'ourson"])
+
+[sub_resource type="Resource" id="Resource_1gk4k"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le petit de 🐔 est le poussin. Le petit de 🦁 est…"
+correct_answer = "le lionceau"
+choices = Array[String](["le poussin", "le chevreau", "le chiot"])
+
+[sub_resource type="Resource" id="Resource_d3208"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le petit de 🦁 est le lionceau. Le petit de 🐑 est…"
+correct_answer = "l'agneau"
+choices = Array[String](["le lionceau", "le poussin", "le veau"])
+
+[sub_resource type="Resource" id="Resource_c70vr"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le petit de 🐱 est le chaton. Le petit de 🦁 est…"
+correct_answer = "le lionceau"
+choices = Array[String](["le chaton", "le chiot", "l'ourson"])
+
+[sub_resource type="Resource" id="Resource_agnux"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le petit de 🐱 est le chaton. Le petit de 🐮 est…"
+correct_answer = "le veau"
+choices = Array[String](["le chaton", "l'agneau", "le poulain"])
+
+[sub_resource type="Resource" id="Resource_oyyf7"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le petit de 🐷 est le porcelet. Le petit de 🐻 est…"
+correct_answer = "l'ourson"
+choices = Array[String](["le porcelet", "le veau", "le chevreau"])
+
+[sub_resource type="Resource" id="Resource_2hc1g"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le petit de 🐑 est l'agneau. Le petit de 🐱 est…"
+correct_answer = "le chaton"
+choices = Array[String](["l'agneau", "le lionceau", "le poulain"])
+
+[sub_resource type="Resource" id="Resource_6px6r"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le petit de 🐶 est le chiot. Le petit de 🐑 est…"
+correct_answer = "l'agneau"
+choices = Array[String](["le chiot", "le poussin", "le chevreau"])
+
+[sub_resource type="Resource" id="Resource_fnkf0"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le petit de 🐴 est le poulain. Le petit de 🐷 est…"
+correct_answer = "le porcelet"
+choices = Array[String](["le poulain", "le chaton", "le poussin"])
+
+[sub_resource type="Resource" id="Resource_agfpt"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Le petit de 🐔 est le poussin. Le petit de 🐮 est…"
+correct_answer = "le veau"
+choices = Array[String](["le poussin", "le chaton", "le lionceau"])
+
+[sub_resource type="Resource" id="Resource_gn1rd"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Combien y a-t-il de 🐨 dans le prochain groupe ? 🐨🐨 | 🐨🐨🐨 | 🐨🐨🐨🐨 | …"
+correct_answer = "5"
+choices = Array[String](["4", "6", "2"])
+
+[sub_resource type="Resource" id="Resource_x582o"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Combien y a-t-il de 🍊 dans le prochain groupe ? 🍊🍊🍊 | 🍊🍊🍊🍊 | 🍊🍊🍊🍊🍊 | …"
+correct_answer = "6"
+choices = Array[String](["5", "7", "3"])
+
+[sub_resource type="Resource" id="Resource_suea0"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Combien y a-t-il de 🍋 dans le prochain groupe ? 🍋 | 🍋🍋 | 🍋🍋🍋 | …"
+correct_answer = "4"
+choices = Array[String](["3", "5", "1"])
+
+[sub_resource type="Resource" id="Resource_ijdcr"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Combien y a-t-il de 💎 dans le prochain groupe ? 💎💎💎 | 💎💎💎💎 | 💎💎💎💎💎 | …"
+correct_answer = "6"
+choices = Array[String](["5", "7", "3"])
+
+[sub_resource type="Resource" id="Resource_tv1d2"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Combien y a-t-il de 🐔 dans le prochain groupe ? 🐔🐔 | 🐔🐔🐔 | 🐔🐔🐔🐔 | …"
+correct_answer = "5"
+choices = Array[String](["4", "6", "2"])
+
+[sub_resource type="Resource" id="Resource_xgkjj"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Combien y a-t-il de 🥝 dans le prochain groupe ? 🥝🥝🥝 | 🥝🥝🥝🥝 | 🥝🥝🥝🥝🥝 | …"
+correct_answer = "6"
+choices = Array[String](["5", "7", "3"])
+
+[sub_resource type="Resource" id="Resource_53nst"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Combien y a-t-il de 🦊 dans le prochain groupe ? 🦊 | 🦊🦊 | 🦊🦊🦊 | …"
+correct_answer = "4"
+choices = Array[String](["3", "5", "1"])
+
+[sub_resource type="Resource" id="Resource_i4rsv"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Combien y a-t-il de 🍐 dans le prochain groupe ? 🍐 | 🍐🍐 | 🍐🍐🍐 | …"
+correct_answer = "4"
+choices = Array[String](["3", "5", "1"])
+
+[sub_resource type="Resource" id="Resource_b80na"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Combien y a-t-il de 🥭 dans le prochain groupe ? 🥭 | 🥭🥭 | 🥭🥭🥭 | …"
+correct_answer = "4"
+choices = Array[String](["3", "5", "1"])
+
+[sub_resource type="Resource" id="Resource_c0l6g"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Combien y a-t-il de 🎈 dans le prochain groupe ? 🎈 | 🎈🎈 | 🎈🎈🎈 | …"
+correct_answer = "4"
+choices = Array[String](["3", "5", "1"])
+
+[sub_resource type="Resource" id="Resource_a08am"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Combien y a-t-il de 🐵 dans le prochain groupe ? 🐵 | 🐵🐵 | 🐵🐵🐵 | …"
+correct_answer = "4"
+choices = Array[String](["3", "5", "1"])
+
+[sub_resource type="Resource" id="Resource_xv00h"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Combien y a-t-il de 🐶 dans le prochain groupe ? 🐶🐶🐶 | 🐶🐶🐶🐶 | 🐶🐶🐶🐶🐶 | …"
+correct_answer = "6"
+choices = Array[String](["5", "7", "3"])
+
+[sub_resource type="Resource" id="Resource_ndxgb"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Combien y a-t-il de 🥭 dans le prochain groupe ? 🥭🥭 | 🥭🥭🥭 | 🥭🥭🥭🥭 | …"
+correct_answer = "5"
+choices = Array[String](["4", "6", "2"])
+
+[sub_resource type="Resource" id="Resource_tyvu1"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Combien y a-t-il de 🐶 dans le prochain groupe ? 🐶🐶 | 🐶🐶🐶 | 🐶🐶🐶🐶 | …"
+correct_answer = "5"
+choices = Array[String](["4", "6", "2"])
+
+[sub_resource type="Resource" id="Resource_hmit3"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Combien y a-t-il de 🐴 dans le prochain groupe ? 🐴 | 🐴🐴 | 🐴🐴🐴 | …"
+correct_answer = "4"
+choices = Array[String](["3", "5", "1"])
+
+[sub_resource type="Resource" id="Resource_xp7ky"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Combien y a-t-il de 🐟 dans le prochain groupe ? 🐟 | 🐟🐟 | 🐟🐟🐟 | …"
+correct_answer = "4"
+choices = Array[String](["3", "5", "1"])
+
+[sub_resource type="Resource" id="Resource_04cr4"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Combien y a-t-il de 🎈 dans le prochain groupe ? 🎈🎈 | 🎈🎈🎈 | 🎈🎈🎈🎈 | …"
+correct_answer = "5"
+choices = Array[String](["4", "6", "2"])
+
+[sub_resource type="Resource" id="Resource_3fijq"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Combien y a-t-il de 🐮 dans le prochain groupe ? 🐮🐮🐮 | 🐮🐮🐮🐮 | 🐮🐮🐮🐮🐮 | …"
+correct_answer = "6"
+choices = Array[String](["5", "7", "3"])
+
+[sub_resource type="Resource" id="Resource_c8wvb"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Combien y a-t-il de 🐸 dans le prochain groupe ? 🐸 | 🐸🐸 | 🐸🐸🐸 | …"
+correct_answer = "4"
+choices = Array[String](["3", "5", "1"])
+
+[sub_resource type="Resource" id="Resource_lbxov"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Combien y a-t-il de 🐷 dans le prochain groupe ? 🐷🐷🐷 | 🐷🐷🐷🐷 | 🐷🐷🐷🐷🐷 | …"
+correct_answer = "6"
+choices = Array[String](["5", "7", "3"])
+
+[sub_resource type="Resource" id="Resource_xuka7"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Combien y a-t-il de 🐼 dans le prochain groupe ? 🐼🐼 | 🐼🐼🐼 | 🐼🐼🐼🐼 | …"
+correct_answer = "5"
+choices = Array[String](["4", "6", "2"])
+
+[sub_resource type="Resource" id="Resource_e5l8a"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Combien y a-t-il de 🐱 dans le prochain groupe ? 🐱 | 🐱🐱 | 🐱🐱🐱 | …"
+correct_answer = "4"
+choices = Array[String](["3", "5", "1"])
+
+[sub_resource type="Resource" id="Resource_dxgsx"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Combien y a-t-il de 🎁 dans le prochain groupe ? 🎁🎁🎁 | 🎁🎁🎁🎁 | 🎁🎁🎁🎁🎁 | …"
+correct_answer = "6"
+choices = Array[String](["5", "7", "3"])
+
+[sub_resource type="Resource" id="Resource_62r7b"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Combien y a-t-il de 🐝 dans le prochain groupe ? 🐝 | 🐝🐝 | 🐝🐝🐝 | …"
+correct_answer = "4"
+choices = Array[String](["3", "5", "1"])
+
+[sub_resource type="Resource" id="Resource_yeni5"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Combien y a-t-il de 🎵 dans le prochain groupe ? 🎵 | 🎵🎵 | 🎵🎵🎵 | …"
+correct_answer = "4"
+choices = Array[String](["3", "5", "1"])
+
+[sub_resource type="Resource" id="Resource_8ot8q"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Combien y a-t-il de 🐰 dans le prochain groupe ? 🐰 | 🐰🐰 | 🐰🐰🐰 | …"
+correct_answer = "4"
+choices = Array[String](["3", "5", "1"])
+
+[sub_resource type="Resource" id="Resource_sc725"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Combien y a-t-il de 🍋 dans le prochain groupe ? 🍋🍋🍋 | 🍋🍋🍋🍋 | 🍋🍋🍋🍋🍋 | …"
+correct_answer = "6"
+choices = Array[String](["5", "7", "3"])
+
+[sub_resource type="Resource" id="Resource_u85l7"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Combien y a-t-il de 🍅 dans le prochain groupe ? 🍅 | 🍅🍅 | 🍅🍅🍅 | …"
+correct_answer = "4"
+choices = Array[String](["3", "5", "1"])
+
+[sub_resource type="Resource" id="Resource_iv17g"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Combien y a-t-il de 🐢 dans le prochain groupe ? 🐢 | 🐢🐢 | 🐢🐢🐢 | …"
+correct_answer = "4"
+choices = Array[String](["3", "5", "1"])
+
+[sub_resource type="Resource" id="Resource_cgmx7"]
+script = ExtResource("1_gqvkc")
+subject = 7
+text = "Combien y a-t-il de 🔔 dans le prochain groupe ? 🔔🔔🔔 | 🔔🔔🔔🔔 | 🔔🔔🔔🔔🔔 | …"
+correct_answer = "6"
+choices = Array[String](["5", "7", "3"])
+
+[resource]
+script = ExtResource("2_jxvdo")
+questions = Array[ExtResource("1_gqvkc")]([SubResource("Resource_gqvkc"), SubResource("Resource_jxvdo"), SubResource("Resource_5rmn6"), SubResource("Resource_t5370"), SubResource("Resource_gf68e"), SubResource("Resource_jirgp"), SubResource("Resource_h5yfr"), SubResource("Resource_ne68n"), SubResource("Resource_xcn36"), SubResource("Resource_00tj8"), SubResource("Resource_wmw8t"), SubResource("Resource_tqgf1"), SubResource("Resource_t04nr"), SubResource("Resource_bw8bc"), SubResource("Resource_31p0j"), SubResource("Resource_0s8re"), SubResource("Resource_2st5g"), SubResource("Resource_pde7g"), SubResource("Resource_vbto6"), SubResource("Resource_gchj1"), SubResource("Resource_ki2ij"), SubResource("Resource_ffocx"), SubResource("Resource_0o6fk"), SubResource("Resource_6xp70"), SubResource("Resource_0b4q3"), SubResource("Resource_s1frp"), SubResource("Resource_q3e3c"), SubResource("Resource_jw8yk"), SubResource("Resource_22psm"), SubResource("Resource_w5kp3"), SubResource("Resource_15qf3"), SubResource("Resource_loig7"), SubResource("Resource_ludwm"), SubResource("Resource_ahavj"), SubResource("Resource_ivtrq"), SubResource("Resource_0bic7"), SubResource("Resource_opm77"), SubResource("Resource_kxb6c"), SubResource("Resource_ayf8a"), SubResource("Resource_m1fg2"), SubResource("Resource_c3ro6"), SubResource("Resource_c48bc"), SubResource("Resource_pp1af"), SubResource("Resource_h5jkw"), SubResource("Resource_f5ta5"), SubResource("Resource_p3hbl"), SubResource("Resource_7kwa2"), SubResource("Resource_n81nv"), SubResource("Resource_8mjrp"), SubResource("Resource_8pbay"), SubResource("Resource_1amm1"), SubResource("Resource_c1ymh"), SubResource("Resource_foxte"), SubResource("Resource_ry8bm"), SubResource("Resource_gen3e"), SubResource("Resource_in3x2"), SubResource("Resource_edin4"), SubResource("Resource_t3ov6"), SubResource("Resource_4uown"), SubResource("Resource_tmlrg"), SubResource("Resource_5ddh2"), SubResource("Resource_dm3oi"), SubResource("Resource_vphgx"), SubResource("Resource_kn4v8"), SubResource("Resource_bux8w"), SubResource("Resource_06y0y"), SubResource("Resource_8vc43"), SubResource("Resource_057gv"), SubResource("Resource_l267i"), SubResource("Resource_v7llv"), SubResource("Resource_gvcus"), SubResource("Resource_ajmaq"), SubResource("Resource_jpi18"), SubResource("Resource_57x4p"), SubResource("Resource_fjexy"), SubResource("Resource_l0lds"), SubResource("Resource_pilqt"), SubResource("Resource_0c5t4"), SubResource("Resource_ug5fd"), SubResource("Resource_l153x"), SubResource("Resource_pwu2u"), SubResource("Resource_1rjjs"), SubResource("Resource_wdynb"), SubResource("Resource_xy5i8"), SubResource("Resource_atur5"), SubResource("Resource_kd1tg"), SubResource("Resource_irgip"), SubResource("Resource_3cqcj"), SubResource("Resource_tq2gl"), SubResource("Resource_l24hu"), SubResource("Resource_r46ii"), SubResource("Resource_2m7aa"), SubResource("Resource_gus13"), SubResource("Resource_flred"), SubResource("Resource_lan3u"), SubResource("Resource_egptk"), SubResource("Resource_dw4y3"), SubResource("Resource_yraie"), SubResource("Resource_h5r4y"), SubResource("Resource_hg27e"), SubResource("Resource_hqhan"), SubResource("Resource_6rmem"), SubResource("Resource_qbbed"), SubResource("Resource_u8xhd"), SubResource("Resource_34ye1"), SubResource("Resource_yxg03"), SubResource("Resource_tod4m"), SubResource("Resource_27lek"), SubResource("Resource_jdl0f"), SubResource("Resource_yqckw"), SubResource("Resource_n7d33"), SubResource("Resource_p5jqh"), SubResource("Resource_gxijk"), SubResource("Resource_rpvva"), SubResource("Resource_gjiml"), SubResource("Resource_i0iwv"), SubResource("Resource_aqpyi"), SubResource("Resource_yswij"), SubResource("Resource_hn76x"), SubResource("Resource_sdilh"), SubResource("Resource_31asr"), SubResource("Resource_4btm0"), SubResource("Resource_g3p6o"), SubResource("Resource_wvras"), SubResource("Resource_2644x"), SubResource("Resource_uf01w"), SubResource("Resource_tp7ko"), SubResource("Resource_3bfvj"), SubResource("Resource_ivpac"), SubResource("Resource_58rkr"), SubResource("Resource_a5t4g"), SubResource("Resource_kbrsb"), SubResource("Resource_iiadf"), SubResource("Resource_jbsnt"), SubResource("Resource_0onko"), SubResource("Resource_30sgb"), SubResource("Resource_3mfsm"), SubResource("Resource_08y07"), SubResource("Resource_6n3kc"), SubResource("Resource_u1frj"), SubResource("Resource_daqrj"), SubResource("Resource_u5yxf"), SubResource("Resource_jylla"), SubResource("Resource_es1hu"), SubResource("Resource_ao8ko"), SubResource("Resource_wy7u8"), SubResource("Resource_7exq4"), SubResource("Resource_f8eu7"), SubResource("Resource_4oywm"), SubResource("Resource_egqkk"), SubResource("Resource_rb1dw"), SubResource("Resource_1hhoq"), SubResource("Resource_h2mim"), SubResource("Resource_x1oqt"), SubResource("Resource_oesnt"), SubResource("Resource_ba26r"), SubResource("Resource_qd7rw"), SubResource("Resource_y5gcw"), SubResource("Resource_iqrm0"), SubResource("Resource_0ovyi"), SubResource("Resource_rgj4n"), SubResource("Resource_xsy6g"), SubResource("Resource_3e0bk"), SubResource("Resource_pgtgd"), SubResource("Resource_ccnqq"), SubResource("Resource_35iw2"), SubResource("Resource_4hcb8"), SubResource("Resource_lyldr"), SubResource("Resource_tlwws"), SubResource("Resource_5854d"), SubResource("Resource_oiusx"), SubResource("Resource_3pq0r"), SubResource("Resource_v4jdx"), SubResource("Resource_nh1d7"), SubResource("Resource_mv4yq"), SubResource("Resource_tofix"), SubResource("Resource_qudc5"), SubResource("Resource_swjmr"), SubResource("Resource_1luvt"), SubResource("Resource_4h0p6"), SubResource("Resource_igksj"), SubResource("Resource_58ief"), SubResource("Resource_k7a67"), SubResource("Resource_ur0n0"), SubResource("Resource_haf7v"), SubResource("Resource_f0cda"), SubResource("Resource_l72xh"), SubResource("Resource_cp7f2"), SubResource("Resource_ilevb"), SubResource("Resource_ft0pp"), SubResource("Resource_hiexo"), SubResource("Resource_0ihbw"), SubResource("Resource_cnrf8"), SubResource("Resource_h0tv7"), SubResource("Resource_42ogl"), SubResource("Resource_r7nbi"), SubResource("Resource_1vcao"), SubResource("Resource_7bqye"), SubResource("Resource_8bjks"), SubResource("Resource_u1h3e"), SubResource("Resource_i8y2n"), SubResource("Resource_4tlkk"), SubResource("Resource_uyb6n"), SubResource("Resource_sb75w"), SubResource("Resource_yji5a"), SubResource("Resource_x3eid"), SubResource("Resource_oe2s8"), SubResource("Resource_ijee4"), SubResource("Resource_dfqnn"), SubResource("Resource_5embw"), SubResource("Resource_o7tib"), SubResource("Resource_aflej"), SubResource("Resource_k5xdy"), SubResource("Resource_puyil"), SubResource("Resource_3k76g"), SubResource("Resource_lcu1l"), SubResource("Resource_lcwc8"), SubResource("Resource_pgqx4"), SubResource("Resource_kdhti"), SubResource("Resource_1xteg"), SubResource("Resource_2f58n"), SubResource("Resource_ess25"), SubResource("Resource_wdsjh"), SubResource("Resource_u11ne"), SubResource("Resource_e4jfb"), SubResource("Resource_c4ngf"), SubResource("Resource_gij0t"), SubResource("Resource_fqs82"), SubResource("Resource_y3asn"), SubResource("Resource_klwmp"), SubResource("Resource_la3qv"), SubResource("Resource_8w8k0"), SubResource("Resource_w4qgr"), SubResource("Resource_ba3by"), SubResource("Resource_hjecm"), SubResource("Resource_t8jvw"), SubResource("Resource_h80ny"), SubResource("Resource_q2m7a"), SubResource("Resource_l64p2"), SubResource("Resource_sq55i"), SubResource("Resource_dh866"), SubResource("Resource_yomrg"), SubResource("Resource_v3x1y"), SubResource("Resource_lf5qn"), SubResource("Resource_d0jmj"), SubResource("Resource_6a3kf"), SubResource("Resource_iek1x"), SubResource("Resource_e3sh0"), SubResource("Resource_61j7k"), SubResource("Resource_krl7f"), SubResource("Resource_leavm"), SubResource("Resource_ortdh"), SubResource("Resource_vj1nr"), SubResource("Resource_wdmjv"), SubResource("Resource_23a6w"), SubResource("Resource_0ene3"), SubResource("Resource_eb6pq"), SubResource("Resource_8s5wc"), SubResource("Resource_pcvc0"), SubResource("Resource_sbvd6"), SubResource("Resource_l5chx"), SubResource("Resource_k1xhl"), SubResource("Resource_ulew4"), SubResource("Resource_7pgd3"), SubResource("Resource_dnlgl"), SubResource("Resource_oytjj"), SubResource("Resource_l3cxh"), SubResource("Resource_qudjm"), SubResource("Resource_8av8q"), SubResource("Resource_a4egy"), SubResource("Resource_ocxmr"), SubResource("Resource_g8fb2"), SubResource("Resource_y363c"), SubResource("Resource_vn55n"), SubResource("Resource_qe8n1"), SubResource("Resource_58cpm"), SubResource("Resource_4ohob"), SubResource("Resource_n1tni"), SubResource("Resource_ff5uo"), SubResource("Resource_q0qu8"), SubResource("Resource_8ma4e"), SubResource("Resource_netx6"), SubResource("Resource_bld64"), SubResource("Resource_rn6aq"), SubResource("Resource_ubq8n"), SubResource("Resource_3y022"), SubResource("Resource_xh0va"), SubResource("Resource_ymncs"), SubResource("Resource_wiby0"), SubResource("Resource_ai585"), SubResource("Resource_jxooh"), SubResource("Resource_sutdn"), SubResource("Resource_e7djm"), SubResource("Resource_gru3v"), SubResource("Resource_tgi27"), SubResource("Resource_u27bx"), SubResource("Resource_c6tvu"), SubResource("Resource_c3j5f"), SubResource("Resource_wcf1g"), SubResource("Resource_h4w7r"), SubResource("Resource_5t4ev"), SubResource("Resource_5snab"), SubResource("Resource_ye11l"), SubResource("Resource_o34ji"), SubResource("Resource_4uivs"), SubResource("Resource_uylhb"), SubResource("Resource_rdcxg"), SubResource("Resource_sh6c5"), SubResource("Resource_fnukn"), SubResource("Resource_eq45s"), SubResource("Resource_vsgiq"), SubResource("Resource_rwyaw"), SubResource("Resource_0suol"), SubResource("Resource_mtux1"), SubResource("Resource_jl2o3"), SubResource("Resource_lu8eo"), SubResource("Resource_8uq4c"), SubResource("Resource_pc7wn"), SubResource("Resource_yon58"), SubResource("Resource_p2q8x"), SubResource("Resource_y6pep"), SubResource("Resource_fh24w"), SubResource("Resource_alxe7"), SubResource("Resource_s1ptg"), SubResource("Resource_7mffc"), SubResource("Resource_q3dbe"), SubResource("Resource_sebke"), SubResource("Resource_f17xa"), SubResource("Resource_ogmhi"), SubResource("Resource_wm5p5"), SubResource("Resource_uteco"), SubResource("Resource_xknl6"), SubResource("Resource_56o20"), SubResource("Resource_jumc1"), SubResource("Resource_we7u3"), SubResource("Resource_cpjfm"), SubResource("Resource_jiogq"), SubResource("Resource_2kd1k"), SubResource("Resource_ffo3n"), SubResource("Resource_onfrb"), SubResource("Resource_eha6g"), SubResource("Resource_ycacq"), SubResource("Resource_jmejm"), SubResource("Resource_qhdhp"), SubResource("Resource_3y2ye"), SubResource("Resource_v0x4j"), SubResource("Resource_fdvhf"), SubResource("Resource_1hnjm"), SubResource("Resource_k8dg1"), SubResource("Resource_kbwx2"), SubResource("Resource_fkm0i"), SubResource("Resource_gqujw"), SubResource("Resource_goxch"), SubResource("Resource_y8y3i"), SubResource("Resource_k8jcb"), SubResource("Resource_qqher"), SubResource("Resource_8rcwt"), SubResource("Resource_kfg1u"), SubResource("Resource_gn6c7"), SubResource("Resource_cmarm"), SubResource("Resource_y6r1o"), SubResource("Resource_pbakn"), SubResource("Resource_bi0mq"), SubResource("Resource_p7rme"), SubResource("Resource_p7558"), SubResource("Resource_ki2mm"), SubResource("Resource_x317n"), SubResource("Resource_cvhnj"), SubResource("Resource_ywpkx"), SubResource("Resource_l07w1"), SubResource("Resource_xa5un"), SubResource("Resource_ylltb"), SubResource("Resource_s7pb2"), SubResource("Resource_y1y07"), SubResource("Resource_yyolg"), SubResource("Resource_5kqxs"), SubResource("Resource_tfe1x"), SubResource("Resource_p3saq"), SubResource("Resource_vcec2"), SubResource("Resource_0qh5w"), SubResource("Resource_2pcvl"), SubResource("Resource_jrlu8"), SubResource("Resource_u86ek"), SubResource("Resource_p3b7d"), SubResource("Resource_82ud7"), SubResource("Resource_7oho2"), SubResource("Resource_l8a1j"), SubResource("Resource_mk7po"), SubResource("Resource_rajbw"), SubResource("Resource_crlyn"), SubResource("Resource_ml1j1"), SubResource("Resource_253ax"), SubResource("Resource_0sqn2"), SubResource("Resource_8wpbl"), SubResource("Resource_w240s"), SubResource("Resource_amya2"), SubResource("Resource_xtomr"), SubResource("Resource_taatt"), SubResource("Resource_l0f28"), SubResource("Resource_pmpmr"), SubResource("Resource_cgwxl"), SubResource("Resource_viafk"), SubResource("Resource_p2bab"), SubResource("Resource_4r64r"), SubResource("Resource_gfpjb"), SubResource("Resource_2t4jf"), SubResource("Resource_0ay62"), SubResource("Resource_751co"), SubResource("Resource_7vy5c"), SubResource("Resource_anult"), SubResource("Resource_ggdst"), SubResource("Resource_d64mt"), SubResource("Resource_x5rw1"), SubResource("Resource_bik71"), SubResource("Resource_aj5h3"), SubResource("Resource_d781j"), SubResource("Resource_mrgrk"), SubResource("Resource_dbd7t"), SubResource("Resource_4gufm"), SubResource("Resource_7ik1y"), SubResource("Resource_m42gd"), SubResource("Resource_dejqa"), SubResource("Resource_fnci7"), SubResource("Resource_a3yi7"), SubResource("Resource_sd6f1"), SubResource("Resource_ukdsw"), SubResource("Resource_jryrk"), SubResource("Resource_7235f"), SubResource("Resource_nk7s8"), SubResource("Resource_vyipc"), SubResource("Resource_j3feo"), SubResource("Resource_4c2u0"), SubResource("Resource_d5xjc"), SubResource("Resource_vrjyt"), SubResource("Resource_w04qv"), SubResource("Resource_wdjqx"), SubResource("Resource_12tji"), SubResource("Resource_5ery4"), SubResource("Resource_jpdl6"), SubResource("Resource_k7abc"), SubResource("Resource_jimdy"), SubResource("Resource_chy0y"), SubResource("Resource_ld4bs"), SubResource("Resource_k85im"), SubResource("Resource_lks51"), SubResource("Resource_k850m"), SubResource("Resource_xcv5o"), SubResource("Resource_g54r2"), SubResource("Resource_8mmfq"), SubResource("Resource_pbmx2"), SubResource("Resource_prvtn"), SubResource("Resource_4al5j"), SubResource("Resource_gu6rc"), SubResource("Resource_iq46o"), SubResource("Resource_jgck6"), SubResource("Resource_3gk0m"), SubResource("Resource_lt7o0"), SubResource("Resource_c0ajd"), SubResource("Resource_yihae"), SubResource("Resource_o2aeo"), SubResource("Resource_ngkyx"), SubResource("Resource_1gk4k"), SubResource("Resource_d3208"), SubResource("Resource_c70vr"), SubResource("Resource_agnux"), SubResource("Resource_oyyf7"), SubResource("Resource_2hc1g"), SubResource("Resource_6px6r"), SubResource("Resource_fnkf0"), SubResource("Resource_agfpt"), SubResource("Resource_gn1rd"), SubResource("Resource_x582o"), SubResource("Resource_suea0"), SubResource("Resource_ijdcr"), SubResource("Resource_tv1d2"), SubResource("Resource_xgkjj"), SubResource("Resource_53nst"), SubResource("Resource_i4rsv"), SubResource("Resource_b80na"), SubResource("Resource_c0l6g"), SubResource("Resource_a08am"), SubResource("Resource_xv00h"), SubResource("Resource_ndxgb"), SubResource("Resource_tyvu1"), SubResource("Resource_hmit3"), SubResource("Resource_xp7ky"), SubResource("Resource_04cr4"), SubResource("Resource_3fijq"), SubResource("Resource_c8wvb"), SubResource("Resource_lbxov"), SubResource("Resource_xuka7"), SubResource("Resource_e5l8a"), SubResource("Resource_dxgsx"), SubResource("Resource_62r7b"), SubResource("Resource_yeni5"), SubResource("Resource_8ot8q"), SubResource("Resource_sc725"), SubResource("Resource_u85l7"), SubResource("Resource_iv17g"), SubResource("Resource_cgmx7")])

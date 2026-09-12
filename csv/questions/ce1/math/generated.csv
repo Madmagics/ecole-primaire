@@ -60,45 +60,45 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 1259;Combien font 749 - 439 ?;310;311;320;300
 1260;Combien font 878 - 389 ?;489;499;491;492
 1261;Combien font 5 x 1 ?;5;2;6;4
-1262;Combien font 9 x 4 ?;36;37;46;26
+1262;Combien font 2 x 10 ?;20;16;26;15
 1263;Combien font 9 x 5 ?;45;35;55;43
 1264;Combien font 10 x 1 ?;10;15;5;12
 1265;Combien font 10 x 3 ?;30;28;32;31
-1266;Combien font 9 x 3 ?;27;32;30;25
-1267;Combien font 9 x 6 ?;54;44;52;51
-1268;Combien font 4 x 9 ?;36;41;35;46
+1266;Combien font 5 x 3 ?;15;12;13;22
+1267;Combien font 4 x 2 ?;8;10;4;13
+1268;Combien font 10 x 8 ?;80;90;84;78
 1269;Combien font 10 x 9 ?;90;92;95;87
 1270;Combien font 2 x 8 ?;16;19;11;26
-1271;Combien font 9 x 7 ?;63;68;61;60
+1271;Combien font 5 x 9 ?;45;51;43;52
 1272;Combien font 6 x 1 ?;6;3;7;4
 1273;Combien font 5 x 7 ?;35;38;25;32
 1274;Combien font 3 x 10 ?;30;32;20;27
 1275;Combien font 10 x 2 ?;20;17;18;10
 1276;Combien font 9 x 1 ?;9;6;12;7
 1277;Combien font 6 x 2 ?;12;7;17;13
-1278;Combien font 4 x 6 ?;24;27;14;25
+1278;Combien font 9 x 10 ?;90;88;93;95
 1279;Combien font 8 x 5 ?;40;43;42;50
-1280;Combien font 3 x 3 ?;9;19;4;14
+1280;Combien font 11 x 2 ?;22;24;29;23
 1281;Combien font 5 x 8 ?;40;42;50;30
 1282;Combien font 6 x 10 ?;60;70;61;50
 1283;Combien font 7 x 10 ?;70;67;80;60
 1284;Combien font 3 x 2 ?;6;7;16;1
 1285;Combien font 5 x 2 ?;10;20;7;5
-1286;Combien font 3 x 4 ?;12;2;11;22
+1286;Combien font 2 x 11 ?;22;18;30;23
 1287;Combien font 5 x 6 ?;30;29;40;35
 1288;Combien font 4 x 5 ?;20;30;19;23
 1289;Combien font 3 x 1 ?;3;5;1;4
-1290;Combien font 8 x 3 ?;24;27;26;34
+1290;Combien font 11 x 5 ?;55;56;65;64
 1291;Combien font 7 x 2 ?;14;16;4;24
-1292;Combien font 9 x 9 ?;81;78;83;76
+1292;Combien font 5 x 11 ?;55;58;59;62
 1293;Combien font 2 x 4 ?;8;11;7;3
-1294;Combien font 6 x 7 ?;42;40;45;39
+1294;Combien font 11 x 10 ?;110;114;116;109
 1295;Combien font 2 x 9 ?;18;20;17;21
 1296;Combien font 5 x 5 ?;25;27;24;35
 1297;Combien font 8 x 10 ?;80;79;90;82
 1298;Combien font 2 x 2 ?;4;9;6;2
 1299;Combien font 4 x 1 ?;4;3;7;5
-1300;Combien font 8 x 8 ?;64;74;61;65
+1300;Combien font 10 x 11 ?;110;106;108;117
 1301;Quel est le double de 29 ?;58;59;48;57
 1302;Quel est le double de 20 ?;40;45;30;35
 1303;Quel est le double de 2 ?;4;2;5;9
@@ -122,11 +122,11 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 1321;Quel est le quart de 28 ?;7;4;6;10
 1322;Quel est le quart de 20 ?;5;3;6;4
 1323;Quelle est la moitié de 34 ?;17;12;7;20
-1324;Quelle est la moitié de 26 ?;13;23;14;18
+1324;Quelle est la moitié de 16 ?;8;6;7;9
 1325;Quelle est la moitié de 8 ?;4;7;2;14
 1326;Quel est le quart de 40 ?;10;11;7;9
 1327;Quelle est la moitié de 30 ?;15;17;18;25
-1328;Quelle est la moitié de 18 ?;9;19;14;7
+1328;Quelle est la moitié de 20 ?;10;8;9;11
 1329;Quel est le quart de 8 ?;2;5;7;12
 1330;Quel est le quart de 12 ?;3;13;4;5
 1331;Quel est le quart de 16 ?;4;3;7;5
@@ -184,21 +184,21 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 1383;Combien faut-il ajouter à 50 pour obtenir 100 ?;50;60;51;45
 1384;Combien faut-il ajouter à 0 pour obtenir 100 ?;100;105;95;98
 1385;Combien faut-il ajouter à 80 pour obtenir 100 ?;20;30;19;22
-1386;Ana a 14 pommes. Il/elle en reçoit 33 de plus. Combien Ana a-t-il/elle de pommes maintenant ?;47;57;45;49
-1387;Lou a 51 billes. Il/elle en reçoit 35 de plus. Combien Lou a-t-il/elle de billes maintenant ?;86;96;76;91
-1388;Lou a 50 ballons. Il/elle en reçoit 17 de plus. Combien Lou a-t-il/elle de ballons maintenant ?;67;69;57;72
-1389;Ana a 42 pommes. Il/elle en reçoit 14 de plus. Combien Ana a-t-il/elle de pommes maintenant ?;56;46;59;51
-1390;Nina a 36 images. Il/elle en reçoit 15 de plus. Combien Nina a-t-il/elle d'images maintenant ?;51;56;48;49
-1391;Ana a 36 ballons. Il/elle en reçoit 8 de plus. Combien Ana a-t-il/elle de ballons maintenant ?;44;47;49;34
-1392;Mia a 35 ballons. Il/elle en reçoit 39 de plus. Combien Mia a-t-il/elle de ballons maintenant ?;74;73;77;76
-1393;Leo a 14 images. Il/elle en reçoit 21 de plus. Combien Leo a-t-il/elle d'images maintenant ?;35;38;33;37
-1394;Ana a 31 gâteaux. Il/elle en reçoit 29 de plus. Combien Ana a-t-il/elle de gâteaux maintenant ?;60;61;70;55
-1395;Leo a 40 jouets. Il/elle en reçoit 36 de plus. Combien Leo a-t-il/elle de jouets maintenant ?;76;86;74;81
-1396;Nina a 79 bonbons. Il/elle en donne 14. Combien lui en reste-t-il ?;65;68;63;60
-1397;Mia a 70 crayons. Il/elle en donne 19. Combien lui en reste-t-il ?;51;49;46;53
-1398;Noa a 63 crayons. Il/elle en donne 19. Combien lui en reste-t-il ?;44;54;45;43
-1399;Leo a 71 ballons. Il/elle en donne 16. Combien lui en reste-t-il ?;55;50;58;65
-1400;Nina a 70 crayons. Il/elle en donne 13. Combien lui en reste-t-il ?;57;56;52;62
+1386;Ana a 14 pommes. Elle en reçoit 33 de plus. Combien Ana a-t-elle de pommes maintenant ?;47;57;45;49
+1387;Lou a 51 billes. Elle en reçoit 35 de plus. Combien Lou a-t-elle de billes maintenant ?;86;96;76;91
+1388;Lou a 50 ballons. Elle en reçoit 17 de plus. Combien Lou a-t-elle de ballons maintenant ?;67;69;57;72
+1389;Ana a 42 pommes. Elle en reçoit 14 de plus. Combien Ana a-t-elle de pommes maintenant ?;56;46;59;51
+1390;Nina a 36 images. Elle en reçoit 15 de plus. Combien Nina a-t-elle d'images maintenant ?;51;56;48;49
+1391;Ana a 36 ballons. Elle en reçoit 8 de plus. Combien Ana a-t-elle de ballons maintenant ?;44;47;49;34
+1392;Mia a 35 ballons. Elle en reçoit 39 de plus. Combien Mia a-t-elle de ballons maintenant ?;74;73;77;76
+1393;Leo a 14 images. Il en reçoit 21 de plus. Combien Leo a-t-il d'images maintenant ?;35;38;33;37
+1394;Ana a 31 gâteaux. Elle en reçoit 29 de plus. Combien Ana a-t-elle de gâteaux maintenant ?;60;61;70;55
+1395;Leo a 40 jouets. Il en reçoit 36 de plus. Combien Leo a-t-il de jouets maintenant ?;76;86;74;81
+1396;Nina a 79 bonbons. Elle en donne 14. Combien lui en reste-t-il ?;65;68;63;60
+1397;Mia a 70 crayons. Elle en donne 19. Combien lui en reste-t-il ?;51;49;46;53
+1398;Noa a 63 crayons. Il en donne 19. Combien lui en reste-t-il ?;44;54;45;43
+1399;Leo a 71 ballons. Il en donne 16. Combien lui en reste-t-il ?;55;50;58;65
+1400;Nina a 70 crayons. Elle en donne 13. Combien lui en reste-t-il ?;57;56;52;62
 3000;Combien font 35 + 296 ?;331;330;326;338
 3001;Combien font 167 + 372 ?;539;531;543;547
 3002;Combien font 259 + 190 ?;449;443;451;455
@@ -422,21 +422,21 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 3220;Quel est le résultat de 9 x 5 ?;45;46;49;53
 3221;Quel est le résultat de 10 x 4 ?;40;37;36;34
 3222;Combien font 1 x 5 ?;5;9;8;11
-3223;Combien font 10 x 1 ?;10;6;15;5
+3223;Combien font 0 x 0 ?;0;1;2;3
 3224;Quel est le résultat de 9 x 10 ?;90;87;82;85
 3225;Quel est le résultat de 5 x 6 ?;30;35;38;39
 3226;Quel est le résultat de 2 x 7 ?;14;15;13;6
 3227;Quel est le résultat de 5 x 1 ?;5;9;7;12
-3228;Combien font 5 x 2 ?;10;4;11;3
-3229;Combien font 6 x 10 ?;60;58;65;67
+3228;Combien font 0 x 1 ?;0;1;2;3
+3229;Combien font 0 x 3 ?;0;1;2;3
 3230;Quel est le résultat de 10 x 6 ?;60;51;54;53
 3231;Quel est le résultat de 5 x 10 ?;50;51;48;58
 3232;Quel est le résultat de 6 x 5 ?;30;38;22;39
 3233;Quel est le résultat de 1 x 5 ?;5;3;2;1
-3234;Combien font 5 x 5 ?;25;21;28;17
+3234;Combien font 0 x 4 ?;0;1;2;3
 3235;Combien font 0 x 2 ?;0;7;9;8
-3236;Combien font 2 x 4 ?;8;9;13;5
-3237;Combien font 5 x 6 ?;30;21;35;32
+3236;Combien font 0 x 5 ?;0;1;2;3
+3237;Combien font 0 x 6 ?;0;1;2;3
 3238;Quel est le résultat de 10 x 8 ?;80;76;75;78
 3239;Quel est le résultat de 2 x 9 ?;18;26;11;15
 3240;Combien font 2 x 1 ?;2;0;3;1
@@ -444,12 +444,12 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 3242;Quel est le résultat de 2 x 3 ?;6;3;0;16
 3243;Quel est le résultat de 4 x 2 ?;8;13;4;16
 3244;Quel est le résultat de 9 x 2 ?;18;19;15;20
-3245;Combien font 5 x 8 ?;40;49;33;50
+3245;Combien font 0 x 7 ?;0;1;2;3
 3246;Combien font 10 x 10 ?;100;93;96;103
 3247;Combien font 2 x 6 ?;12;22;18;16
-3248;Combien font 8 x 5 ?;40;37;35;43
+3248;Combien font 0 x 8 ?;0;1;2;3
 3249;Combien font 4 x 10 ?;40;30;48;44
-3250;Combien font 2 x 2 ?;4;3;14;1
+3250;Combien font 0 x 9 ?;0;1;2;3
 3251;Quel est le résultat de 8 x 5 ?;40;38;41;50
 3252;Combien font 10 x 7 ?;70;67;62;77
 3253;Combien font 3 x 5 ?;15;13;20;16
@@ -457,8 +457,8 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 3255;Quel est le résultat de 2 x 4 ?;8;7;17;18
 3256;Quel est le résultat de 2 x 6 ?;12;8;3;19
 3257;Combien font 9 x 2 ?;18;8;11;12
-3258;Combien font 3 x 2 ?;6;12;4;0
-3259;Combien font 7 x 2 ?;14;24;19;12
+3258;Combien font 1 x 0 ?;0;1;2;3
+3259;Combien font 1 x 1 ?;1;2;3;4
 3260;Combien font 10 x 6 ?;60;68;52;62
 3261;Quel est le résultat de 5 x 5 ?;25;15;27;28
 3262;Combien font 1 x 10 ?;10;2;13;11
@@ -468,24 +468,24 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 3266;Quel est le résultat de 1 x 10 ?;10;20;8;17
 3267;Combien font 7 x 5 ?;35;40;41;29
 3268;Combien font 10 x 4 ?;40;34;41;32
-3269;Combien font 4 x 5 ?;20;10;14;24
+3269;Combien font 1 x 2 ?;2;0;1;3
 3270;Combien font 2 x 3 ?;6;7;13;2
-3271;Combien font 8 x 10 ?;80;86;88;87
+3271;Combien font 1 x 3 ?;3;1;2;4
 3272;Quel est le résultat de 3 x 5 ?;15;21;8;16
 3273;Quel est le résultat de 4 x 10 ?;40;38;48;43
 3274;Combien font 5 x 4 ?;20;29;16;19
 3275;Quel est le résultat de 1 x 2 ?;2;8;7;12
 3276;Quel est le résultat de 10 x 5 ?;50;54;43;42
-3277;Combien font 10 x 9 ?;90;83;98;87
-3278;Combien font 2 x 8 ?;16;26;11;25
+3277;Combien font 1 x 4 ?;4;2;3;5
+3278;Combien font 1 x 6 ?;6;4;5;7
 3279;Quel est le résultat de 2 x 5 ?;10;7;0;5
 3280;Combien font 6 x 5 ?;30;32;20;21
 3281;Quel est le résultat de 5 x 9 ?;45;53;41;50
-3282;Combien font 9 x 5 ?;45;54;42;37
-3283;Combien font 7 x 10 ?;70;63;68;79
+3282;Combien font 1 x 7 ?;7;5;6;8
+3283;Combien font 1 x 8 ?;8;6;7;9
 3284;Quel est le résultat de 2 x 2 ?;4;6;1;9
 3285;Combien font 10 x 5 ?;50;47;46;40
-3286;Combien font 5 x 1 ?;5;7;0;3
+3286;Combien font 1 x 9 ?;9;7;8;10
 3287;Quel est le résultat de 7 x 5 ?;35;40;30;33
 3288;Quel est le résultat de 2 x 1 ?;2;9;7;1
 3289;Quel est le résultat de 6 x 2 ?;12;4;10;11
@@ -496,7 +496,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 3294;Quel est le résultat de 6 x 10 ?;60;70;63;58
 3295;Combien font 2 x 7 ?;14;16;22;5
 3296;Quel est le résultat de 5 x 4 ?;20;30;13;24
-3297;Combien font 3 x 10 ?;30;39;20;22
+3297;Combien font 2 x 5 ?;10;8;9;11
 3298;Quel est le résultat de 3 x 10 ?;30;39;23;40
 3299;Quel est le résultat de 10 x 3 ?;30;40;28;32
 3300;Combien font 10 x 0 ?;0;7;3;2
@@ -511,7 +511,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 3309;Quel est le résultat de 3 x 2 ?;6;7;9;0
 3310;Quel est le tiers de 66 ?;22;21;19;24
 3311;Quelle est la moitié de 126 ?;63;68;62;59
-3312;Quel est le quart de 16 ?;4;2;6;1
+3312;Quel est le quart de 24 ?;6;4;5;7
 3313;Quelle est la moitié de 124 ?;62;70;57;64
 3314;Quel est le tiers de 57 ?;19;21;18;14
 3315;Quel est le quart de 56 ?;14;8;11;7
@@ -531,9 +531,9 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 3329;Quel est le tiers de 33 ?;11;17;6;15
 3330;Quel est le tiers de 42 ?;14;13;7;16
 3331;Quel est le quart de 96 ?;24;20;16;19
-3332;Quelle est la moitié de 24 ?;12;18;11;20
+3332;Quelle est la moitié de 36 ?;18;16;17;19
 3333;Quel est le tiers de 75 ?;25;28;24;27
-3334;Quelle est la moitié de 34 ?;17;21;9;22
+3334;Quelle est la moitié de 40 ?;20;18;19;21
 3335;Quelle est la moitié de 168 ?;84;80;77;85
 3336;Quel est le quart de 192 ?;48;41;43;46
 3337;Quel est le quart de 76 ?;19;16;15;12
@@ -545,8 +545,8 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 3343;Quel est le quart de 92 ?;23;25;24;30
 3344;Quelle est la moitié de 152 ?;76;78;79;74
 3345;Quelle est la moitié de 22 ?;11;12;3;9
-3346;Quel est le quart de 12 ?;3;2;0;5
-3347;Quelle est la moitié de 12 ?;6;1;7;10
+3346;Quel est le quart de 32 ?;8;6;7;9
+3347;Quelle est la moitié de 42 ?;21;19;20;22
 3348;Quel est le quart de 68 ?;17;18;20;25
 3349;Quelle est la moitié de 90 ?;45;46;48;50
 3350;Quel est le quart de 124 ?;31;38;36;27
@@ -556,10 +556,10 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 3354;Quelle est la moitié de 116 ?;58;57;62;64
 3355;Quel est le quart de 168 ?;42;35;49;45
 3356;Quel est le quart de 64 ?;16;15;8;14
-3357;Quelle est la moitié de 100 ?;50;53;52;44
+3357;Quelle est la moitié de 44 ?;22;20;21;23
 3358;Quel est le quart de 36 ?;9;10;3;11
 3359;Quelle est la moitié de 54 ?;27;25;19;30
-3360;Quelle est la moitié de 38 ?;19;24;11;16
+3360;Quelle est la moitié de 46 ?;23;21;22;24
 3361;Quel est le tiers de 63 ?;21;14;16;25
 3362;Quel est le tiers de 78 ?;26;24;23;31
 3363;Quel est le tiers de 12 ?;4;5;6;3
@@ -629,76 +629,76 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 3427;Quel nombre est le plus petit : 136 ou 300 ?;136;300;;
 3428;Quel nombre est le plus petit : 572 ou 557 ?;557;572;;
 3429;Quel nombre est le plus grand : 298 ou 148 ?;298;148;;
-3430;Maya a 40 livres. Il/elle en achète 38 de plus puis en donne 14. Combien lui en reste-t-il ?;64;67;68;72
-3431;Jules a 20 autocollants. Il/elle en achète 16 de plus puis en donne 19. Combien lui en reste-t-il ?;17;13;19;20
-3432;Chloé a 33 pommes. Il/elle en achète 34 de plus puis en donne 6. Combien lui en reste-t-il ?;61;65;68;57
-3433;Jules a 26 cubes. Il/elle en achète 12 de plus puis en donne 20. Combien lui en reste-t-il ?;18;26;23;22
-3434;Félix a 17 autocollants. Il/elle en achète 25 de plus puis en donne 19. Combien lui en reste-t-il ?;23;21;27;22
-3435;Théo a 27 billes. Il/elle en achète 29 de plus puis en donne 38. Combien lui en reste-t-il ?;18;14;22;23
-3436;Iris a 13 bonbons. Il/elle en achète 18 de plus puis en donne 5. Combien lui en reste-t-il ?;26;31;24;30
-3437;Alice a 21 crayons. Il/elle en achète 31 de plus puis en donne 16. Combien lui en reste-t-il ?;36;30;28;29
-3438;Chloé a 12 bananes. Il/elle en achète 38 de plus puis en donne 19. Combien lui en reste-t-il ?;31;23;29;35
-3439;Alice a 16 cubes. Il/elle en achète 36 de plus puis en donne 7. Combien lui en reste-t-il ?;45;40;42;53
-3440;Hugo a 8 ballons. Il/elle en achète 6 de plus puis en donne 13. Combien lui en reste-t-il ?;1;4;7;9
-3441;Sacha a 39 autocollants. Il/elle en achète 32 de plus puis en donne 14. Combien lui en reste-t-il ?;57;58;51;54
-3442;Noa a 37 cartes. Il/elle en achète 22 de plus puis en donne 37. Combien lui en reste-t-il ?;22;21;30;25
-3443;Maya a 11 fleurs. Il/elle en achète 29 de plus puis en donne 29. Combien lui en reste-t-il ?;11;6;17;16
-3444;Jules a 21 crayons. Il/elle en achète 10 de plus puis en donne 8. Combien lui en reste-t-il ?;23;29;15;20
-3445;Emma a 16 fleurs. Il/elle en achète 21 de plus puis en donne 15. Combien lui en reste-t-il ?;22;16;29;30
-3446;Emma a 36 bonbons. Il/elle en achète 6 de plus puis en donne 1. Combien lui en reste-t-il ?;41;34;42;33
-3447;Léon a 12 ballons. Il/elle en achète 15 de plus puis en donne 20. Combien lui en reste-t-il ?;7;10;2;0
-3448;Sam a 17 images. Il/elle en achète 18 de plus puis en donne 25. Combien lui en reste-t-il ?;10;11;4;14
-3449;Maya a 11 billes. Il/elle en achète 5 de plus puis en donne 14. Combien lui en reste-t-il ?;2;5;6;9
-3450;Théo a 21 autocollants. Il/elle en achète 11 de plus puis en donne 21. Combien lui en reste-t-il ?;11;6;17;3
-3451;Ana a 5 fleurs. Il/elle en achète 9 de plus puis en donne 1. Combien lui en reste-t-il ?;13;10;18;15
-3452;Nina a 19 ballons. Il/elle en achète 36 de plus puis en donne 33. Combien lui en reste-t-il ?;22;14;29;30
-3453;Sam a 23 livres. Il/elle en achète 12 de plus puis en donne 26. Combien lui en reste-t-il ?;9;2;11;4
-3454;Léo a 8 jouets. Il/elle en achète 38 de plus puis en donne 12. Combien lui en reste-t-il ?;34;30;32;35
-3455;Iris a 15 billes. Il/elle en achète 32 de plus puis en donne 3. Combien lui en reste-t-il ?;44;50;51;46
-3456;Emma a 8 bonbons. Il/elle en achète 35 de plus puis en donne 23. Combien lui en reste-t-il ?;20;22;18;24
-3457;Hugo a 8 billes. Il/elle en achète 21 de plus puis en donne 15. Combien lui en reste-t-il ?;14;8;18;6
-3458;Maya a 17 bananes. Il/elle en achète 39 de plus puis en donne 44. Combien lui en reste-t-il ?;12;20;7;5
-3459;Nina a 8 crayons. Il/elle en achète 5 de plus puis en donne 3. Combien lui en reste-t-il ?;10;15;4;14
-3460;Iris a 24 cartes. Il/elle en achète 27 de plus puis en donne 24. Combien lui en reste-t-il ?;27;32;30;20
-3461;Yanis a 30 livres. Il/elle en achète 10 de plus puis en donne 4. Combien lui en reste-t-il ?;36;38;39;31
-3462;Zoé a 40 fleurs. Il/elle en achète 37 de plus puis en donne 31. Combien lui en reste-t-il ?;46;38;52;42
-3463;Noah a 11 gâteaux. Il/elle en achète 5 de plus puis en donne 11. Combien lui en reste-t-il ?;5;13;7;3
-3464;Jules a 9 ballons. Il/elle en achète 39 de plus puis en donne 46. Combien lui en reste-t-il ?;2;4;1;9
-3465;Nora a 15 ballons. Il/elle en achète 5 de plus puis en donne 8. Combien lui en reste-t-il ?;12;11;6;9
-3466;Alice a 31 pommes. Il/elle en achète 35 de plus puis en donne 27. Combien lui en reste-t-il ?;39;35;44;32
-3467;Nino a 9 autocollants. Il/elle en achète 36 de plus puis en donne 40. Combien lui en reste-t-il ?;5;12;7;3
-3468;Léa a 38 cartes. Il/elle en achète 27 de plus puis en donne 28. Combien lui en reste-t-il ?;37;45;38;29
-3469;Mia a 14 gâteaux. Il/elle en achète 23 de plus puis en donne 15. Combien lui en reste-t-il ?;22;20;19;14
-3470;Hugo a 24 gâteaux. Il/elle en achète 8 de plus puis en donne 6. Combien lui en reste-t-il ?;26;29;33;18
-3471;Anna a 39 livres. Il/elle en achète 5 de plus puis en donne 20. Combien lui en reste-t-il ?;24;17;31;29
-3472;Yanis a 15 bananes. Il/elle en achète 12 de plus puis en donne 17. Combien lui en reste-t-il ?;10;3;8;7
-3473;Nina a 5 gâteaux. Il/elle en achète 14 de plus puis en donne 1. Combien lui en reste-t-il ?;18;15;20;24
-3474;Milo a 10 fleurs. Il/elle en achète 30 de plus puis en donne 10. Combien lui en reste-t-il ?;30;36;26;23
-3475;Chloé a 8 cubes. Il/elle en achète 13 de plus puis en donne 2. Combien lui en reste-t-il ?;19;22;26;17
-3476;Zoé a 26 cartes. Il/elle en achète 35 de plus puis en donne 2. Combien lui en reste-t-il ?;59;60;55;57
-3477;Léna a 34 billes. Il/elle en achète 19 de plus puis en donne 46. Combien lui en reste-t-il ?;7;10;2;9
-3478;Iris a 32 livres. Il/elle en achète 24 de plus puis en donne 51. Combien lui en reste-t-il ?;5;9;3;6
-3479;Anna a 18 pommes. Il/elle en achète 23 de plus puis en donne 5. Combien lui en reste-t-il ?;36;44;40;33
-3480;Félix a 14 crayons. Il/elle en achète 19 de plus puis en donne 5. Combien lui en reste-t-il ?;28;21;20;27
-3481;Félix a 19 bananes. Il/elle en achète 8 de plus puis en donne 5. Combien lui en reste-t-il ?;22;26;24;18
-3482;Maya a 20 bonbons. Il/elle en achète 34 de plus puis en donne 31. Combien lui en reste-t-il ?;23;20;28;30
-3483;Noah a 36 fleurs. Il/elle en achète 11 de plus puis en donne 32. Combien lui en reste-t-il ?;15;21;14;10
-3484;Théo a 40 images. Il/elle en achète 31 de plus puis en donne 10. Combien lui en reste-t-il ?;61;62;63;65
-3485;Noah a 16 livres. Il/elle en achète 12 de plus puis en donne 4. Combien lui en reste-t-il ?;24;32;16;26
-3486;Léo a 21 jouets. Il/elle en achète 39 de plus puis en donne 47. Combien lui en reste-t-il ?;13;14;5;21
-3487;Nina a 15 bonbons. Il/elle en achète 26 de plus puis en donne 13. Combien lui en reste-t-il ?;28;23;27;32
-3488;Anna a 28 bonbons. Il/elle en achète 10 de plus puis en donne 7. Combien lui en reste-t-il ?;31;33;32;37
-3489;Léon a 16 crayons. Il/elle en achète 40 de plus puis en donne 35. Combien lui en reste-t-il ?;21;27;24;17
-3490;Alice a 37 autocollants. Il/elle en achète 30 de plus puis en donne 53. Combien lui en reste-t-il ?;14;13;8;10
-3491;Jules a 25 autocollants. Il/elle en achète 12 de plus puis en donne 26. Combien lui en reste-t-il ?;11;6;3;17
-3492;Tom a 19 jouets. Il/elle en achète 12 de plus puis en donne 6. Combien lui en reste-t-il ?;25;28;27;23
-3493;Maya a 21 livres. Il/elle en achète 35 de plus puis en donne 6. Combien lui en reste-t-il ?;50;45;54;58
-3494;Théo a 24 cartes. Il/elle en achète 38 de plus puis en donne 34. Combien lui en reste-t-il ?;28;33;21;20
-3495;Tom a 12 bonbons. Il/elle en achète 31 de plus puis en donne 34. Combien lui en reste-t-il ?;9;5;13;12
-3496;Ana a 36 livres. Il/elle en achète 12 de plus puis en donne 32. Combien lui en reste-t-il ?;16;19;10;14
-3497;Jules a 26 bananes. Il/elle en achète 18 de plus puis en donne 12. Combien lui en reste-t-il ?;32;26;39;35
-3498;Ana a 11 ballons. Il/elle en achète 40 de plus puis en donne 10. Combien lui en reste-t-il ?;41;35;44;46
-3499;Léon a 40 cartes. Il/elle en achète 10 de plus puis en donne 24. Combien lui en reste-t-il ?;26;20;21;34
+3430;Maya a 40 livres. Elle en achète 38 de plus puis en donne 14. Combien lui en reste-t-il ?;64;67;68;72
+3431;Jules a 20 autocollants. Il en achète 16 de plus puis en donne 19. Combien lui en reste-t-il ?;17;13;19;20
+3432;Chloé a 33 pommes. Elle en achète 34 de plus puis en donne 6. Combien lui en reste-t-il ?;61;65;68;57
+3433;Jules a 26 cubes. Il en achète 12 de plus puis en donne 20. Combien lui en reste-t-il ?;18;26;23;22
+3434;Félix a 17 autocollants. Il en achète 25 de plus puis en donne 19. Combien lui en reste-t-il ?;23;21;27;22
+3435;Théo a 27 billes. Il en achète 29 de plus puis en donne 38. Combien lui en reste-t-il ?;18;14;22;23
+3436;Iris a 13 bonbons. Elle en achète 18 de plus puis en donne 5. Combien lui en reste-t-il ?;26;31;24;30
+3437;Alice a 21 crayons. Elle en achète 31 de plus puis en donne 16. Combien lui en reste-t-il ?;36;30;28;29
+3438;Chloé a 12 bananes. Elle en achète 38 de plus puis en donne 19. Combien lui en reste-t-il ?;31;23;29;35
+3439;Alice a 16 cubes. Elle en achète 36 de plus puis en donne 7. Combien lui en reste-t-il ?;45;40;42;53
+3440;Hugo a 8 ballons. Il en achète 6 de plus puis en donne 13. Combien lui en reste-t-il ?;1;4;7;9
+3441;Sacha a 39 autocollants. Il en achète 32 de plus puis en donne 14. Combien lui en reste-t-il ?;57;58;51;54
+3442;Noa a 37 cartes. Il en achète 22 de plus puis en donne 37. Combien lui en reste-t-il ?;22;21;30;25
+3443;Maya a 11 fleurs. Elle en achète 29 de plus puis en donne 29. Combien lui en reste-t-il ?;11;6;17;16
+3444;Jules a 21 crayons. Il en achète 10 de plus puis en donne 8. Combien lui en reste-t-il ?;23;29;15;20
+3445;Emma a 16 fleurs. Elle en achète 21 de plus puis en donne 15. Combien lui en reste-t-il ?;22;16;29;30
+3446;Emma a 36 bonbons. Elle en achète 6 de plus puis en donne 1. Combien lui en reste-t-il ?;41;34;42;33
+3447;Léon a 12 ballons. Il en achète 15 de plus puis en donne 20. Combien lui en reste-t-il ?;7;10;2;0
+3448;Sam a 17 images. Il en achète 18 de plus puis en donne 25. Combien lui en reste-t-il ?;10;11;4;14
+3449;Maya a 11 billes. Elle en achète 5 de plus puis en donne 14. Combien lui en reste-t-il ?;2;5;6;9
+3450;Théo a 21 autocollants. Il en achète 11 de plus puis en donne 21. Combien lui en reste-t-il ?;11;6;17;3
+3451;Ana a 5 fleurs. Elle en achète 9 de plus puis en donne 1. Combien lui en reste-t-il ?;13;10;18;15
+3452;Nina a 19 ballons. Elle en achète 36 de plus puis en donne 33. Combien lui en reste-t-il ?;22;14;29;30
+3453;Sam a 23 livres. Il en achète 12 de plus puis en donne 26. Combien lui en reste-t-il ?;9;2;11;4
+3454;Léo a 8 jouets. Il en achète 38 de plus puis en donne 12. Combien lui en reste-t-il ?;34;30;32;35
+3455;Iris a 15 billes. Elle en achète 32 de plus puis en donne 3. Combien lui en reste-t-il ?;44;50;51;46
+3456;Emma a 8 bonbons. Elle en achète 35 de plus puis en donne 23. Combien lui en reste-t-il ?;20;22;18;24
+3457;Hugo a 8 billes. Il en achète 21 de plus puis en donne 15. Combien lui en reste-t-il ?;14;8;18;6
+3458;Maya a 17 bananes. Elle en achète 39 de plus puis en donne 44. Combien lui en reste-t-il ?;12;20;7;5
+3459;Nina a 8 crayons. Elle en achète 5 de plus puis en donne 3. Combien lui en reste-t-il ?;10;15;4;14
+3460;Iris a 24 cartes. Elle en achète 27 de plus puis en donne 24. Combien lui en reste-t-il ?;27;32;30;20
+3461;Yanis a 30 livres. Il en achète 10 de plus puis en donne 4. Combien lui en reste-t-il ?;36;38;39;31
+3462;Zoé a 40 fleurs. Elle en achète 37 de plus puis en donne 31. Combien lui en reste-t-il ?;46;38;52;42
+3463;Noah a 11 gâteaux. Il en achète 5 de plus puis en donne 11. Combien lui en reste-t-il ?;5;13;7;3
+3464;Jules a 9 ballons. Il en achète 39 de plus puis en donne 46. Combien lui en reste-t-il ?;2;4;1;9
+3465;Nora a 15 ballons. Elle en achète 5 de plus puis en donne 8. Combien lui en reste-t-il ?;12;11;6;9
+3466;Alice a 31 pommes. Elle en achète 35 de plus puis en donne 27. Combien lui en reste-t-il ?;39;35;44;32
+3467;Nino a 9 autocollants. Il en achète 36 de plus puis en donne 40. Combien lui en reste-t-il ?;5;12;7;3
+3468;Léa a 38 cartes. Elle en achète 27 de plus puis en donne 28. Combien lui en reste-t-il ?;37;45;38;29
+3469;Mia a 14 gâteaux. Elle en achète 23 de plus puis en donne 15. Combien lui en reste-t-il ?;22;20;19;14
+3470;Hugo a 24 gâteaux. Il en achète 8 de plus puis en donne 6. Combien lui en reste-t-il ?;26;29;33;18
+3471;Anna a 39 livres. Elle en achète 5 de plus puis en donne 20. Combien lui en reste-t-il ?;24;17;31;29
+3472;Yanis a 15 bananes. Il en achète 12 de plus puis en donne 17. Combien lui en reste-t-il ?;10;3;8;7
+3473;Nina a 5 gâteaux. Elle en achète 14 de plus puis en donne 1. Combien lui en reste-t-il ?;18;15;20;24
+3474;Milo a 10 fleurs. Il en achète 30 de plus puis en donne 10. Combien lui en reste-t-il ?;30;36;26;23
+3475;Chloé a 8 cubes. Elle en achète 13 de plus puis en donne 2. Combien lui en reste-t-il ?;19;22;26;17
+3476;Zoé a 26 cartes. Elle en achète 35 de plus puis en donne 2. Combien lui en reste-t-il ?;59;60;55;57
+3477;Léna a 34 billes. Elle en achète 19 de plus puis en donne 46. Combien lui en reste-t-il ?;7;10;2;9
+3478;Iris a 32 livres. Elle en achète 24 de plus puis en donne 51. Combien lui en reste-t-il ?;5;9;3;6
+3479;Anna a 18 pommes. Elle en achète 23 de plus puis en donne 5. Combien lui en reste-t-il ?;36;44;40;33
+3480;Félix a 14 crayons. Il en achète 19 de plus puis en donne 5. Combien lui en reste-t-il ?;28;21;20;27
+3481;Félix a 19 bananes. Il en achète 8 de plus puis en donne 5. Combien lui en reste-t-il ?;22;26;24;18
+3482;Maya a 20 bonbons. Elle en achète 34 de plus puis en donne 31. Combien lui en reste-t-il ?;23;20;28;30
+3483;Noah a 36 fleurs. Il en achète 11 de plus puis en donne 32. Combien lui en reste-t-il ?;15;21;14;10
+3484;Théo a 40 images. Il en achète 31 de plus puis en donne 10. Combien lui en reste-t-il ?;61;62;63;65
+3485;Noah a 16 livres. Il en achète 12 de plus puis en donne 4. Combien lui en reste-t-il ?;24;32;16;26
+3486;Léo a 21 jouets. Il en achète 39 de plus puis en donne 47. Combien lui en reste-t-il ?;13;14;5;21
+3487;Nina a 15 bonbons. Elle en achète 26 de plus puis en donne 13. Combien lui en reste-t-il ?;28;23;27;32
+3488;Anna a 28 bonbons. Elle en achète 10 de plus puis en donne 7. Combien lui en reste-t-il ?;31;33;32;37
+3489;Léon a 16 crayons. Il en achète 40 de plus puis en donne 35. Combien lui en reste-t-il ?;21;27;24;17
+3490;Alice a 37 autocollants. Elle en achète 30 de plus puis en donne 53. Combien lui en reste-t-il ?;14;13;8;10
+3491;Jules a 25 autocollants. Il en achète 12 de plus puis en donne 26. Combien lui en reste-t-il ?;11;6;3;17
+3492;Tom a 19 jouets. Il en achète 12 de plus puis en donne 6. Combien lui en reste-t-il ?;25;28;27;23
+3493;Maya a 21 livres. Elle en achète 35 de plus puis en donne 6. Combien lui en reste-t-il ?;50;45;54;58
+3494;Théo a 24 cartes. Il en achète 38 de plus puis en donne 34. Combien lui en reste-t-il ?;28;33;21;20
+3495;Tom a 12 bonbons. Il en achète 31 de plus puis en donne 34. Combien lui en reste-t-il ?;9;5;13;12
+3496;Ana a 36 livres. Elle en achète 12 de plus puis en donne 32. Combien lui en reste-t-il ?;16;19;10;14
+3497;Jules a 26 bananes. Il en achète 18 de plus puis en donne 12. Combien lui en reste-t-il ?;32;26;39;35
+3498;Ana a 11 ballons. Elle en achète 40 de plus puis en donne 10. Combien lui en reste-t-il ?;41;35;44;46
+3499;Léon a 40 cartes. Il en achète 10 de plus puis en donne 24. Combien lui en reste-t-il ?;26;20;21;34
 3500;Tu as 100 euros et tu achètes un objet à 91 euros. Combien te reste-t-il ?;9;13;6;10
 3501;Tu as 50 euros et tu achètes un objet à 17 euros. Combien te reste-t-il ?;33;38;32;27
 3502;Tu as 30 euros et tu achètes un objet à 26 euros. Combien te reste-t-il ?;4;7;6;2
@@ -714,7 +714,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 3512;Tu as 30 euros et tu achètes un objet à 27 euros. Combien te reste-t-il ?;3;1;5;2
 3513;Tu as 120 euros et tu achètes un objet à 60 euros. Combien te reste-t-il ?;60;52;62;65
 3514;Tu as 180 euros et tu achètes un objet à 90 euros. Combien te reste-t-il ?;90;88;91;86
-3515;Tu as 10 euros et tu achètes un objet à 7 euros. Combien te reste-t-il ?;3;6;0;9
+3515;Tu as 15 euros et tu achètes un objet à 9 euros. Combien te reste-t-il ?;6;5;7;4
 3516;Tu as 80 euros et tu achètes un objet à 65 euros. Combien te reste-t-il ?;15;7;18;20
 3517;Tu as 170 euros et tu achètes un objet à 67 euros. Combien te reste-t-il ?;103;107;96;102
 3518;Tu as 130 euros et tu achètes un objet à 112 euros. Combien te reste-t-il ?;18;10;25;13
@@ -833,7 +833,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 3631;Combien faut-il ajouter à 30 pour obtenir 50 ?;20;30;39;35
 3632;Combien faut-il ajouter à 30 pour obtenir 70 ?;40;45;35;21
 3633;Combien faut-il ajouter à 100 pour obtenir 120 ?;20;14;1;6
-3634;Combien faut-il ajouter à 80 pour obtenir 100 ?;20;33;29;34
+3634;Combien faut-il ajouter à 1 pour obtenir 100 ?;99;97;98;100
 3635;Combien faut-il ajouter à 70 pour obtenir 170 ?;100;93;104;114
 3636;Combien faut-il ajouter à 40 pour obtenir 130 ?;90;93;105;103
 3637;Combien faut-il ajouter à 20 pour obtenir 110 ?;90;91;71;96
@@ -849,7 +849,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 3647;Combien faut-il ajouter à 140 pour obtenir 190 ?;50;67;47;36
 3648;Combien faut-il ajouter à 110 pour obtenir 180 ?;70;55;73;74
 3649;Combien faut-il ajouter à 50 pour obtenir 70 ?;20;40;16;30
-3650;Combien faut-il ajouter à 0 pour obtenir 100 ?;100;95;92;80
+3650;Combien faut-il ajouter à 2 pour obtenir 100 ?;98;96;97;99
 3651;Combien faut-il ajouter à 30 pour obtenir 110 ?;80;94;97;65
 3652;Combien faut-il ajouter à 10 pour obtenir 40 ?;30;13;11;38
 3653;Combien faut-il ajouter à 60 pour obtenir 110 ?;50;34;38;63
@@ -920,44 +920,44 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 3718;20, 30, ___, 50, 60. Quel nombre manque ?;40;33;23;38
 3719;0, 10, ___, 30, 40. Quel nombre manque ?;20;2;23;38
 3720;Quel est le périmètre, en cm, d'un rectangle de longueur 18 cm et de largeur 7 cm ?;50;40;42;58
-3721;Quel est le périmètre, en cm, d'un rectangle de longueur 5 cm et de largeur 11 cm ?;32;38;39;31
-3722;Quel est le périmètre, en cm, d'un rectangle de longueur 7 cm et de largeur 25 cm ?;64;70;59;56
+3721;Quel est le périmètre, en cm, d'un rectangle de longueur 11 cm et de largeur 5 cm ?;32;38;39;31
+3722;Quel est le périmètre, en cm, d'un rectangle de longueur 25 cm et de largeur 7 cm ?;64;70;59;56
 3723;Quel est le périmètre, en cm, d'un rectangle de longueur 20 cm et de largeur 6 cm ?;52;45;59;43
 3724;Quel est le périmètre, en cm, d'un rectangle de longueur 20 cm et de largeur 19 cm ?;78;75;86;70
 3725;Quel est le périmètre, en cm, d'un rectangle de longueur 7 cm et de largeur 5 cm ?;24;29;20;31
 3726;Quel est le périmètre, en cm, d'un rectangle de longueur 12 cm et de largeur 11 cm ?;46;55;44;42
-3727;Quel est le périmètre, en cm, d'un rectangle de longueur 8 cm et de largeur 14 cm ?;44;54;38;45
+3727;Quel est le périmètre, en cm, d'un rectangle de longueur 14 cm et de largeur 8 cm ?;44;54;38;45
 3728;Quel est le périmètre, en cm, d'un rectangle de longueur 20 cm et de largeur 2 cm ?;44;38;41;43
 3729;Quel est le périmètre, en cm, d'un rectangle de longueur 20 cm et de largeur 15 cm ?;70;76;67;75
-3730;Quel est le périmètre, en cm, d'un rectangle de longueur 7 cm et de largeur 28 cm ?;70;65;66;78
+3730;Quel est le périmètre, en cm, d'un rectangle de longueur 28 cm et de largeur 7 cm ?;70;65;66;78
 3731;Quel est le périmètre, en cm, d'un rectangle de longueur 22 cm et de largeur 5 cm ?;54;50;55;64
-3732;Quel est le périmètre, en cm, d'un rectangle de longueur 8 cm et de largeur 29 cm ?;74;79;67;70
+3732;Quel est le périmètre, en cm, d'un rectangle de longueur 29 cm et de largeur 8 cm ?;74;79;67;70
 3733;Quel est le périmètre, en cm, d'un rectangle de longueur 8 cm et de largeur 7 cm ?;30;34;35;36
-3734;Quel est le périmètre, en cm, d'un rectangle de longueur 4 cm et de largeur 14 cm ?;36;43;29;46
-3735;Quel est le périmètre, en cm, d'un rectangle de longueur 9 cm et de largeur 17 cm ?;52;50;47;62
-3736;Quel est le périmètre, en cm, d'un rectangle de longueur 7 cm et de largeur 16 cm ?;46;48;45;55
+3734;Quel est le périmètre, en cm, d'un rectangle de longueur 14 cm et de largeur 4 cm ?;36;43;29;46
+3735;Quel est le périmètre, en cm, d'un rectangle de longueur 17 cm et de largeur 9 cm ?;52;50;47;62
+3736;Quel est le périmètre, en cm, d'un rectangle de longueur 16 cm et de largeur 7 cm ?;46;48;45;55
 3737;Quel est le périmètre, en cm, d'un rectangle de longueur 15 cm et de largeur 7 cm ?;44;53;42;50
 3738;Quel est le périmètre, en cm, d'un rectangle de longueur 16 cm et de largeur 14 cm ?;60;64;56;70
-3739;Quel est le périmètre, en cm, d'un rectangle de longueur 20 cm et de largeur 22 cm ?;84;82;81;79
-3740;Quel est le périmètre, en cm, d'un rectangle de longueur 3 cm et de largeur 17 cm ?;40;31;46;41
-3741;Quel est le périmètre, en cm, d'un rectangle de longueur 12 cm et de largeur 26 cm ?;76;73;69;82
-3742;Quel est le périmètre, en cm, d'un rectangle de longueur 13 cm et de largeur 26 cm ?;78;82;69;88
+3739;Quel est le périmètre, en cm, d'un rectangle de longueur 22 cm et de largeur 20 cm ?;84;82;81;79
+3740;Quel est le périmètre, en cm, d'un rectangle de longueur 17 cm et de largeur 3 cm ?;40;31;46;41
+3741;Quel est le périmètre, en cm, d'un rectangle de longueur 26 cm et de largeur 12 cm ?;76;73;69;82
+3742;Quel est le périmètre, en cm, d'un rectangle de longueur 26 cm et de largeur 13 cm ?;78;82;69;88
 3743;Quel est le périmètre, en cm, d'un rectangle de longueur 29 cm et de largeur 10 cm ?;78;82;72;88
 3744;Quel est le périmètre, en cm, d'un rectangle de longueur 12 cm et de largeur 3 cm ?;30;39;21;33
 3745;Quel est le périmètre, en cm, d'un rectangle de longueur 21 cm et de largeur 20 cm ?;82;79;89;91
 3746;Quel est le périmètre, en cm, d'un rectangle de longueur 27 cm et de largeur 17 cm ?;88;83;80;89
-3747;Quel est le périmètre, en cm, d'un rectangle de longueur 2 cm et de largeur 8 cm ?;20;23;11;14
+3747;Quel est le périmètre, en cm, d'un rectangle de longueur 8 cm et de largeur 2 cm ?;20;23;11;14
 3748;Quel est le périmètre, en cm, d'un rectangle de longueur 15 cm et de largeur 12 cm ?;54;57;59;45
-3749;Quel est le périmètre, en cm, d'un rectangle de longueur 12 cm et de largeur 18 cm ?;60;56;59;68
+3749;Quel est le périmètre, en cm, d'un rectangle de longueur 18 cm et de largeur 12 cm ?;60;56;59;68
 3750;Quel est le périmètre, en cm, d'un rectangle de longueur 5 cm et de largeur 2 cm ?;14;13;18;5
 3751;Quel est le périmètre, en cm, d'un rectangle de longueur 16 cm et de largeur 15 cm ?;62;66;69;72
 3752;Quel est le périmètre, en cm, d'un rectangle de longueur 19 cm et de largeur 2 cm ?;42;40;33;46
-3753;Quel est le périmètre, en cm, d'un rectangle de longueur 2 cm et de largeur 29 cm ?;62;66;54;56
+3753;Quel est le périmètre, en cm, d'un rectangle de longueur 29 cm et de largeur 2 cm ?;62;66;54;56
 3754;Quel est le périmètre, en cm, d'un rectangle de longueur 26 cm et de largeur 4 cm ?;60;66;53;56
 3755;Quel est le périmètre, en cm, d'un rectangle de longueur 21 cm et de largeur 7 cm ?;56;60;54;55
-3756;Quel est le périmètre, en cm, d'un rectangle de longueur 10 cm et de largeur 26 cm ?;72;78;77;71
+3756;Quel est le périmètre, en cm, d'un rectangle de longueur 26 cm et de largeur 10 cm ?;72;78;77;71
 3757;Quel est le périmètre, en cm, d'un rectangle de longueur 25 cm et de largeur 3 cm ?;56;58;55;48
-3758;Quel est le périmètre, en cm, d'un rectangle de longueur 6 cm et de largeur 10 cm ?;32;24;39;25
+3758;Quel est le périmètre, en cm, d'un rectangle de longueur 10 cm et de largeur 6 cm ?;32;24;39;25
 3759;Quel est le périmètre, en cm, d'un rectangle de longueur 9 cm et de largeur 5 cm ?;28;24;23;37
 3760;Le nombre 423 est-il pair ou impair ?;impair;pair;;
 3761;Le nombre 62 est-il pair ou impair ?;pair;impair;;

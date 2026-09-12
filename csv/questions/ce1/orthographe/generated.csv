@@ -34,15 +34,968 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 2366;Quel est un synonyme de 'drôle' ?;amusant;joli;triste;malheureux
 2367;Quel est un synonyme de 'triste' ?;malheureux;épuisé;amusant;immense
 2368;Quel est un synonyme de 'parler' ?;discuter;observer;raconter;débuter
-2369;Quel est un synonyme de 'fatigue' ?;épuisé;joli;malheureux;triste
-2370;Combien y a-t-il de lettres dans le mot PORTE ?;5;4;8;6
-2371;Combien y a-t-il de lettres dans le mot GÂTEAU ?;6;7;3;11
-2372;Combien y a-t-il de lettres dans le mot GRENOUILLE ?;10;9;8;12
-2373;Combien y a-t-il de lettres dans le mot ÉCUREUIL ?;8;11;9;10
-2374;Combien y a-t-il de lettres dans le mot MONTAGNE ?;8;6;5;7
-2375;Combien y a-t-il de lettres dans le mot RENARD ?;6;9;7;3
-2376;Combien y a-t-il de lettres dans le mot TABLE ?;5;2;6;8
-2377;Combien y a-t-il de lettres dans le mot CAHIER ?;6;5;3;8
+2369;Quel est un synonyme de 'fatigue' ?;épuisement;joli;malheureux;triste
+2370;Noé ___ rapide en ce moment.;est;et;es;ai
+2371;Louna ___ vraiment timide.;est;et;es;ai
+2372;Aujourd'hui, Capucine ___ bavarde.;est;et;es;ai
+2373;Lola ___ bavarde en ce moment.;est;et;es;ai
+2374;Louna ___ vraiment douée.;est;et;es;ai
+2375;Aujourd'hui, Robin ___ vif.;est;et;es;ai
+2376;Milo ___ têtu en ce moment.;est;et;es;ai
+2377;Raphaël ___ vraiment serviable.;est;et;es;ai
 2398;Quel mois vient juste avant janvier ?;décembre;septembre;octobre;août
 2399;Quel mois vient juste avant février ?;janvier;septembre;mai;avril
 2400;Quel mois vient juste avant mars ?;février;septembre;juillet;mars
+30000;Comment s'appelle la femelle du : cerf ?;biche;cerf;cerfe;bichee
+30001;Comment s'appelle le mâle de la : biche ?;cerf;biche;bichee;cerfe
+30002;Comment s'appelle la femelle du : bouc ?;chèvre;bouc;bouce;chèvree
+30003;Comment s'appelle le mâle de la : chèvre ?;bouc;chèvre;chèvree;bouce
+30004;Comment s'appelle la femelle du : dindon ?;dinde;dindon;dindone;dindee
+30005;Comment s'appelle le mâle de la : dinde ?;dindon;dinde;dindee;dindone
+30006;Comment s'appelle la femelle du : jars ?;oie;jars;jarse;oiee
+30007;Comment s'appelle le mâle de la : oie ?;jars;oie;oiee;jarse
+30008;Comment s'appelle la femelle du : taureau ?;vache;taureau;taureaue;vachee
+30009;Comment s'appelle le mâle de la : vache ?;taureau;vache;vachee;taureaue
+30010;Comment s'appelle la femelle du : éléphant ?;éléphante;éléphant;éléphantee;éléphantes
+30011;Comment s'appelle le mâle de la : éléphante ?;éléphant;éléphante;éléphantee;éléphants
+30012;Comment s'appelle la femelle du : perroquet ?;perruche;perroquet;perroquete;perruchee
+30013;Comment s'appelle le mâle de la : perruche ?;perroquet;perruche;perruchee;perroquete
+30014;Comment s'appelle la femelle du : chat ?;chatte;chat;chate;chattee
+30015;Comment s'appelle le mâle de la : chatte ?;chat;chatte;chattee;chate
+30016;Comment s'appelle la femelle du : ours ?;ourse;ours;oursee;ourses
+30017;Comment s'appelle le mâle de la : ourse ?;ours;ourse;oursee;ourss
+30018;Comment s'appelle la femelle du : renard ?;renarde;renard;renardee;renardes
+30019;Comment s'appelle le mâle de la : renarde ?;renard;renarde;renardee;renards
+30020;Comment s'appelle la femelle du : lapin ?;lapine;lapin;lapinee;lapines
+30021;Comment s'appelle le mâle de la : lapine ?;lapin;lapine;lapinee;lapins
+30022;Comment s'appelle la femelle du : sanglier ?;laie;sanglier;sangliere;laiee
+30023;Comment s'appelle le mâle de la : laie ?;sanglier;laie;laiee;sangliere
+30024;Comment s'appelle la femelle du : paon ?;paonne;paon;paone;paonnee
+30025;Comment s'appelle le mâle de la : paonne ?;paon;paonne;paonnee;paone
+30026;Comment s'appelle la femelle du : faisan ?;faisane;faisan;faisanee;faisanes
+30027;Comment s'appelle le mâle de la : faisane ?;faisan;faisane;faisanee;faisans
+30028;Comment s'appelle la femelle du : cygne ?;cygnette;cygne;cygnee;cygnettee
+30029;Comment s'appelle le mâle de la : cygnette ?;cygne;cygnette;cygnettee;cygnee
+30030;Tom ___ Lea jouent ensemble.;et;est;es;ai
+30031;Léo ___ Zoé jouent ensemble.;et;est;es;ai
+30032;Nina ___ Hugo jouent ensemble.;et;est;es;ai
+30033;Sami ___ Chloé jouent ensemble.;et;est;es;ai
+30034;Le chien ___ le chat jouent ensemble.;et;est;es;ai
+30035;La maîtresse ___ le facteur jouent ensemble.;et;est;es;ai
+30036;Mon frère ___ ma soeur jouent ensemble.;et;est;es;ai
+30037;Le voisin ___ la voisine jouent ensemble.;et;est;es;ai
+30038;Le pêcheur ___ le fermier jouent ensemble.;et;est;es;ai
+30039;Paul ___ très content aujourd'hui.;est;et;es;ai
+30040;Marie ___ très contente aujourd'hui.;est;et;es;ai
+30041;Tom ___ très content aujourd'hui.;est;et;es;ai
+30042;Lea ___ très contente aujourd'hui.;est;et;es;ai
+30043;Léo ___ très content aujourd'hui.;est;et;es;ai
+30044;Zoé ___ très contente aujourd'hui.;est;et;es;ai
+30045;Paul ___ très fatigué aujourd'hui.;est;et;es;ai
+30046;Marie ___ très fatiguée aujourd'hui.;est;et;es;ai
+30047;Tom ___ très fatigué aujourd'hui.;est;et;es;ai
+30048;Lea ___ très fatiguée aujourd'hui.;est;et;es;ai
+30049;Léo ___ très fatigué aujourd'hui.;est;et;es;ai
+30050;Zoé ___ très fatiguée aujourd'hui.;est;et;es;ai
+30051;Paul ___ très malade aujourd'hui.;est;et;es;ai
+30052;Marie ___ très malade aujourd'hui.;est;et;es;ai
+30053;Tom ___ très malade aujourd'hui.;est;et;es;ai
+30054;Lea ___ très malade aujourd'hui.;est;et;es;ai
+30055;Léo ___ très malade aujourd'hui.;est;et;es;ai
+30056;Zoé ___ très malade aujourd'hui.;est;et;es;ai
+30057;Paul ___ très joyeux aujourd'hui.;est;et;es;ai
+30058;Marie ___ très joyeuse aujourd'hui.;est;et;es;ai
+30059;Tom ___ très joyeux aujourd'hui.;est;et;es;ai
+30060;Lea ___ très joyeuse aujourd'hui.;est;et;es;ai
+30061;Léo ___ très joyeux aujourd'hui.;est;et;es;ai
+30062;Zoé ___ très joyeuse aujourd'hui.;est;et;es;ai
+30063;Paul ___ très gentil aujourd'hui.;est;et;es;ai
+30064;Marie ___ très gentille aujourd'hui.;est;et;es;ai
+30065;Tom ___ très gentil aujourd'hui.;est;et;es;ai
+30066;Lea ___ très gentille aujourd'hui.;est;et;es;ai
+30067;Léo ___ très gentil aujourd'hui.;est;et;es;ai
+30068;Zoé ___ très gentille aujourd'hui.;est;et;es;ai
+30069;Paul ___ très poli aujourd'hui.;est;et;es;ai
+30070;Marie ___ très polie aujourd'hui.;est;et;es;ai
+30071;Tom ___ très poli aujourd'hui.;est;et;es;ai
+30072;Lea ___ très polie aujourd'hui.;est;et;es;ai
+30073;Léo ___ très poli aujourd'hui.;est;et;es;ai
+30074;Zoé ___ très polie aujourd'hui.;est;et;es;ai
+30075;Paul ___ très sage aujourd'hui.;est;et;es;ai
+30076;Marie ___ très sage aujourd'hui.;est;et;es;ai
+30077;Tom ___ très sage aujourd'hui.;est;et;es;ai
+30078;Lea ___ très sage aujourd'hui.;est;et;es;ai
+30079;Léo ___ très sage aujourd'hui.;est;et;es;ai
+30080;Zoé ___ très sage aujourd'hui.;est;et;es;ai
+30081;Paul ___ très calme aujourd'hui.;est;et;es;ai
+30082;Marie ___ très calme aujourd'hui.;est;et;es;ai
+30083;Tom ___ très calme aujourd'hui.;est;et;es;ai
+30084;Lea ___ très calme aujourd'hui.;est;et;es;ai
+30085;Léo ___ très calme aujourd'hui.;est;et;es;ai
+30086;Zoé ___ très calme aujourd'hui.;est;et;es;ai
+30087;Paul ___ très curieux aujourd'hui.;est;et;es;ai
+30088;Marie ___ très curieuse aujourd'hui.;est;et;es;ai
+30089;Tom ___ très curieux aujourd'hui.;est;et;es;ai
+30090;Lea ___ très curieuse aujourd'hui.;est;et;es;ai
+30091;Léo ___ très curieux aujourd'hui.;est;et;es;ai
+30092;Zoé ___ très curieuse aujourd'hui.;est;et;es;ai
+30093;Paul ___ très fier aujourd'hui.;est;et;es;ai
+30094;Marie ___ très fière aujourd'hui.;est;et;es;ai
+30095;Tom ___ très fier aujourd'hui.;est;et;es;ai
+30096;Lea ___ très fière aujourd'hui.;est;et;es;ai
+30097;Léo ___ très fier aujourd'hui.;est;et;es;ai
+30098;Zoé ___ très fière aujourd'hui.;est;et;es;ai
+30099;Elle joue avec ___ chien.;son;sont;sons;se
+30100;Il joue avec ___ chat.;son;sont;sons;se
+30101;Elle joue avec ___ chat.;son;sont;sons;se
+30102;Il joue avec ___ cahier.;son;sont;sons;se
+30103;Elle joue avec ___ cahier.;son;sont;sons;se
+30104;Il joue avec ___ ballon.;son;sont;sons;se
+30105;Elle joue avec ___ ballon.;son;sont;sons;se
+30106;Il joue avec ___ vélo.;son;sont;sons;se
+30107;Elle joue avec ___ vélo.;son;sont;sons;se
+30108;Il joue avec ___ cartable.;son;sont;sons;se
+30109;Elle joue avec ___ cartable.;son;sont;sons;se
+30110;Il joue avec ___ goûter.;son;sont;sons;se
+30111;Elle joue avec ___ goûter.;son;sont;sons;se
+30112;Il joue avec ___ manteau.;son;sont;sons;se
+30113;Elle joue avec ___ manteau.;son;sont;sons;se
+30114;Il joue avec ___ chapeau.;son;sont;sons;se
+30115;Elle joue avec ___ chapeau.;son;sont;sons;se
+30116;Il joue avec ___ livre.;son;sont;sons;se
+30117;Elle joue avec ___ livre.;son;sont;sons;se
+30118;Les enfants ___ contents de la sortie.;sont;son;sons;se
+30119;Les élèves ___ contents de la sortie.;sont;son;sons;se
+30120;Mes parents ___ contents de la sortie.;sont;son;sons;se
+30121;Mes amis ___ contents de la sortie.;sont;son;sons;se
+30122;Les chiens ___ contents de la sortie.;sont;son;sons;se
+30123;Les oiseaux ___ contents de la sortie.;sont;son;sons;se
+30124;Les voisins ___ contents de la sortie.;sont;son;sons;se
+30125;Les filles ___ contents de la sortie.;sont;son;sons;se
+30126;Les garçons ___ contents de la sortie.;sont;son;sons;se
+30127;Mes cousins ___ contents de la sortie.;sont;son;sons;se
+30128;Aujourd'hui, le fermier ___ distrait.;est;et;es;ai
+30129;La musicienne ___ patiente en ce moment.;est;et;es;ai
+30130;Alice ___ vraiment patiente.;est;et;es;ai
+30131;Aujourd'hui, le peintre ___ rêveur.;est;et;es;ai
+30132;Victor ___ doué en ce moment.;est;et;es;ai
+30133;Juliette ___ vraiment maladroite.;est;et;es;ai
+30134;Aujourd'hui, Salomé ___ discrète.;est;et;es;ai
+30135;La peintre ___ têtue en ce moment.;est;et;es;ai
+30136;Le voisin ___ vraiment confiant.;est;et;es;ai
+30137;Aujourd'hui, la boulangère ___ souriante.;est;et;es;ai
+30138;Anaïs ___ têtue en ce moment.;est;et;es;ai
+30139;Agathe ___ vraiment impatiente.;est;et;es;ai
+30140;Aujourd'hui, Basile ___ discret.;est;et;es;ai
+30141;Noé ___ patient en ce moment.;est;et;es;ai
+30142;Noé ___ vraiment rêveur.;est;et;es;ai
+30143;Aujourd'hui, Éléa ___ attentive.;est;et;es;ai
+30144;Noé ___ lent en ce moment.;est;et;es;ai
+30145;Le fermier ___ vraiment lent.;est;et;es;ai
+30146;Aujourd'hui, Enzo ___ attentif.;est;et;es;ai
+30147;Enzo ___ souriant en ce moment.;est;et;es;ai
+30148;Aaron ___ vraiment heureux.;est;et;es;ai
+30149;Aujourd'hui, la fermière ___ espiègle.;est;et;es;ai
+30150;Axel ___ aimable en ce moment.;est;et;es;ai
+30151;Faustine ___ vraiment aimable.;est;et;es;ai
+30152;Aujourd'hui, Robin ___ discret.;est;et;es;ai
+30153;Elio ___ têtu en ce moment.;est;et;es;ai
+30154;Maël ___ vraiment espiègle.;est;et;es;ai
+30155;Aujourd'hui, le boulanger ___ distrait.;est;et;es;ai
+30156;Nathan ___ attentif en ce moment.;est;et;es;ai
+30157;Jade ___ vraiment étourdie.;est;et;es;ai
+30158;Aujourd'hui, Gabin ___ distrait.;est;et;es;ai
+30159;Éléa ___ paisible en ce moment.;est;et;es;ai
+30160;La boulangère ___ vraiment aimable.;est;et;es;ai
+30161;Aujourd'hui, Malo ___ aimable.;est;et;es;ai
+30162;Gabin ___ enthousiaste en ce moment.;est;et;es;ai
+30163;La musicienne ___ vraiment bavarde.;est;et;es;ai
+30164;Aujourd'hui, le peintre ___ enthousiaste.;est;et;es;ai
+30165;Romy ___ malicieuse en ce moment.;est;et;es;ai
+30166;Le cuisinier ___ vraiment confiant.;est;et;es;ai
+30167;Aujourd'hui, Faustine ___ discrète.;est;et;es;ai
+30168;La voisine ___ énervée en ce moment.;est;et;es;ai
+30169;Iris ___ vraiment maladroite.;est;et;es;ai
+30170;Aujourd'hui, Victor ___ attentif.;est;et;es;ai
+30171;Noé ___ bavard en ce moment.;est;et;es;ai
+30172;Anaïs ___ vraiment triste.;est;et;es;ai
+30173;Aujourd'hui, la boulangère ___ maladroite.;est;et;es;ai
+30174;Tiago ___ bavard en ce moment.;est;et;es;ai
+30175;Robin ___ vraiment têtu.;est;et;es;ai
+30176;Aujourd'hui, Capucine ___ têtue.;est;et;es;ai
+30177;Malo ___ bavard en ce moment.;est;et;es;ai
+30178;Louna ___ vraiment patiente.;est;et;es;ai
+30179;Aujourd'hui, Louis ___ souriant.;est;et;es;ai
+30180;Raphaël ___ souriant en ce moment.;est;et;es;ai
+30181;Axel ___ vraiment triste.;est;et;es;ai
+30182;Aujourd'hui, Axel ___ espiègle.;est;et;es;ai
+30183;La voisine ___ douée en ce moment.;est;et;es;ai
+30184;Le musicien ___ vraiment attentif.;est;et;es;ai
+30185;Aujourd'hui, Noé ___ élégant.;est;et;es;ai
+30186;Le pompier ___ malicieux en ce moment.;est;et;es;ai
+30187;La fermière ___ vraiment impatiente.;est;et;es;ai
+30188;Aujourd'hui, la musicienne ___ distraite.;est;et;es;ai
+30189;Maël ___ rapide en ce moment.;est;et;es;ai
+30190;La musicienne ___ vraiment aimable.;est;et;es;ai
+30191;Aujourd'hui, Elio ___ doux.;est;et;es;ai
+30192;Suzanne ___ discrète en ce moment.;est;et;es;ai
+30193;Noé ___ vraiment attentif.;est;et;es;ai
+30194;Aujourd'hui, Agathe ___ douce.;est;et;es;ai
+30195;Axel ___ timide en ce moment.;est;et;es;ai
+30196;La pompière ___ vraiment distraite.;est;et;es;ai
+30197;Aujourd'hui, Milo ___ timide.;est;et;es;ai
+30198;Malo ___ courageux en ce moment.;est;et;es;ai
+30199;Gabin ___ vraiment paisible.;est;et;es;ai
+30200;Aujourd'hui, Juliette ___ étourdie.;est;et;es;ai
+30201;Lola ___ vive en ce moment.;est;et;es;ai
+30202;Le fermier ___ vraiment attentif.;est;et;es;ai
+30203;Aujourd'hui, la voisine ___ têtue.;est;et;es;ai
+30204;Anaïs ___ enthousiaste en ce moment.;est;et;es;ai
+30205;La voisine ___ vraiment souriante.;est;et;es;ai
+30206;Aujourd'hui, Victor ___ discret.;est;et;es;ai
+30207;Salomé ___ distraite en ce moment.;est;et;es;ai
+30208;Faustine ___ vraiment têtue.;est;et;es;ai
+30209;Aujourd'hui, Victor ___ étourdi.;est;et;es;ai
+30210;La voisine ___ enthousiaste en ce moment.;est;et;es;ai
+30211;Suzanne ___ vraiment bavarde.;est;et;es;ai
+30212;Aujourd'hui, Maël ___ doux.;est;et;es;ai
+30213;Capucine ___ malicieuse en ce moment.;est;et;es;ai
+30214;Baptiste ___ vraiment serviable.;est;et;es;ai
+30215;Aujourd'hui, le cuisinier ___ attentif.;est;et;es;ai
+30216;Enzo ___ élégant en ce moment.;est;et;es;ai
+30217;Maël ___ vraiment maladroit.;est;et;es;ai
+30218;Aujourd'hui, Capucine ___ patiente.;est;et;es;ai
+30219;Yanis ___ paisible en ce moment.;est;et;es;ai
+30220;Gabin ___ vraiment doux.;est;et;es;ai
+30221;Aujourd'hui, Romy ___ impatiente.;est;et;es;ai
+30222;Iris ___ serviable en ce moment.;est;et;es;ai
+30223;Raphaël ___ vraiment généreux.;est;et;es;ai
+30224;Aujourd'hui, le musicien ___ patient.;est;et;es;ai
+30225;Agathe ___ timide en ce moment.;est;et;es;ai
+30226;Victor ___ vraiment courageux.;est;et;es;ai
+30227;Aujourd'hui, Capucine ___ attentive.;est;et;es;ai
+30228;La boulangère ___ confiante en ce moment.;est;et;es;ai
+30229;Le cuisinier ___ vraiment aimable.;est;et;es;ai
+30230;Aujourd'hui, Milo ___ serviable.;est;et;es;ai
+30231;Baptiste ___ souriant en ce moment.;est;et;es;ai
+30232;Ambre ___ vraiment étourdie.;est;et;es;ai
+30233;Aujourd'hui, Agathe ___ rapide.;est;et;es;ai
+30234;Agathe ___ confiante en ce moment.;est;et;es;ai
+30235;Jade ___ vraiment discrète.;est;et;es;ai
+30236;Aujourd'hui, Éléa ___ triste.;est;et;es;ai
+30237;Raphaël ___ impatient en ce moment.;est;et;es;ai
+30238;Louis ___ vraiment attentif.;est;et;es;ai
+30239;Aujourd'hui, Lola ___ étourdie.;est;et;es;ai
+30240;Yanis ___ rapide en ce moment.;est;et;es;ai
+30241;Yanis ___ vraiment confiant.;est;et;es;ai
+30242;Aujourd'hui, Romy ___ têtue.;est;et;es;ai
+30243;Jade ___ courageuse en ce moment.;est;et;es;ai
+30244;Maël ___ vraiment enthousiaste.;est;et;es;ai
+30245;Aujourd'hui, le voisin ___ élégant.;est;et;es;ai
+30246;Milo ___ patient en ce moment.;est;et;es;ai
+30247;Le boulanger ___ vraiment rapide.;est;et;es;ai
+30248;Aujourd'hui, Baptiste ___ discret.;est;et;es;ai
+30249;Milo ___ doué en ce moment.;est;et;es;ai
+30250;Louis ___ vraiment serviable.;est;et;es;ai
+30251;Aujourd'hui, Enzo ___ distrait.;est;et;es;ai
+30252;Le peintre ___ souriant en ce moment.;est;et;es;ai
+30253;Margot ___ vraiment maladroite.;est;et;es;ai
+30254;Aujourd'hui, Nathan ___ rêveur.;est;et;es;ai
+30255;Romy ___ courageuse en ce moment.;est;et;es;ai
+30256;Agathe ___ vraiment énervée.;est;et;es;ai
+30257;Aujourd'hui, Romy ___ enthousiaste.;est;et;es;ai
+30258;Salomé ___ paisible en ce moment.;est;et;es;ai
+30259;Tiago ___ vraiment lent.;est;et;es;ai
+30260;Aujourd'hui, Axel ___ rapide.;est;et;es;ai
+30261;Suzanne ___ étourdie en ce moment.;est;et;es;ai
+30262;Le boulanger ___ vraiment enthousiaste.;est;et;es;ai
+30263;Aujourd'hui, Lily ___ triste.;est;et;es;ai
+30264;Lily ___ serviable en ce moment.;est;et;es;ai
+30265;Le voisin ___ vraiment courageux.;est;et;es;ai
+30266;Aujourd'hui, Yanis ___ doux.;est;et;es;ai
+30267;Léon ___ paisible en ce moment.;est;et;es;ai
+30268;Éléa ___ vraiment bavarde.;est;et;es;ai
+30269;Aujourd'hui, Robin ___ enthousiaste.;est;et;es;ai
+30270;Louna ___ Ambre mangent.;et;est;es;ai
+30271;Louis ___ l'infirmière travaillent.;et;est;es;ai
+30272;Faustine ___ le hérisson jouent.;et;est;es;ai
+30273;Gabin ___ Anaïs peignent.;et;est;es;ai
+30274;Romy ___ l'infirmière volent.;et;est;es;ai
+30275;Malo ___ Lola grandissent.;et;est;es;ai
+30276;Juliette ___ Ambre applaudissent.;et;est;es;ai
+30277;Victor ___ le cuisinier construisent.;et;est;es;ai
+30278;Maël ___ Salomé nettoient.;et;est;es;ai
+30279;Le cuisinier ___ l'infirmière rangent.;et;est;es;ai
+30280;Louis ___ Mila décorent.;et;est;es;ai
+30281;Victor ___ Faustine fabriquent.;et;est;es;ai
+30282;Nathan ___ Mila explorent.;et;est;es;ai
+30283;Baptiste ___ Suzanne observent.;et;est;es;ai
+30284;Lily ___ la couturière répètent.;et;est;es;ai
+30285;Basile ___ Milo jardinent.;et;est;es;ai
+30286;Milo ___ Iris pêchent.;et;est;es;ai
+30287;Juliette ___ Anaïs campent.;et;est;es;ai
+30288;Elio ___ Louna bricolent.;et;est;es;ai
+30289;Mila ___ Faustine plantent.;et;est;es;ai
+30290;Aaron ___ Inès arrosent.;et;est;es;ai
+30291;Louna ___ le menuisier comptent.;et;est;es;ai
+30292;Enzo ___ Iris calculent.;et;est;es;ai
+30293;Anaïs ___ le menuisier dictent.;et;est;es;ai
+30294;Noé ___ le pêcheur récitent.;et;est;es;ai
+30295;Le renard ___ la tortue mangent.;et;est;es;ai
+30296;Malo ___ Noé découpent.;et;est;es;ai
+30297;Louis ___ Juliette collent.;et;est;es;ai
+30298;Milo ___ Juliette empilent.;et;est;es;ai
+30299;Léon ___ le pêcheur partagent.;et;est;es;ai
+30300;Enzo ___ Margot mangent.;et;est;es;ai
+30301;Milo ___ Ambre travaillent.;et;est;es;ai
+30302;Robin ___ la biche mangent.;et;est;es;ai
+30303;Maël ___ le menuisier peignent.;et;est;es;ai
+30304;Jade ___ Océane chantent.;et;est;es;ai
+30305;Inès ___ Juliette grandissent.;et;est;es;ai
+30306;Alice ___ Jade applaudissent.;et;est;es;ai
+30307;La biche ___ la tortue marchent.;et;est;es;ai
+30308;Tiago ___ Alice nettoient.;et;est;es;ai
+30309;Maël ___ l'infirmière rangent.;et;est;es;ai
+30310;Axel ___ Iris décorent.;et;est;es;ai
+30311;Noé ___ la tortue grandissent.;et;est;es;ai
+30312;Iris ___ Salomé explorent.;et;est;es;ai
+30313;Suzanne ___ Salomé observent.;et;est;es;ai
+30314;Malo ___ Elio répètent.;et;est;es;ai
+30315;Aaron ___ Jade jardinent.;et;est;es;ai
+30316;Enzo ___ Gabin pêchent.;et;est;es;ai
+30317;Raphaël ___ Capucine campent.;et;est;es;ai
+30318;Le hérisson ___ le chat jouent.;et;est;es;ai
+30319;Malo ___ le cuisinier plantent.;et;est;es;ai
+30320;Faustine ___ la biche mangent.;et;est;es;ai
+30321;Basile ___ Noé comptent.;et;est;es;ai
+30322;L'abeille ___ le papillon volent.;et;est;es;ai
+30323;Jade ___ Anaïs dictent.;et;est;es;ai
+30324;Suzanne ___ la couturière récitent.;et;est;es;ai
+30325;Gabin ___ Agathe colorient.;et;est;es;ai
+30326;Aaron ___ Lily découpent.;et;est;es;ai
+30327;Salomé ___ l'infirmière collent.;et;est;es;ai
+30328;Ambre ___ Océane empilent.;et;est;es;ai
+30329;Tiago ___ Basile partagent.;et;est;es;ai
+30330;Iris ___ la biche mangent.;et;est;es;ai
+30331;Louis ___ Maël travaillent.;et;est;es;ai
+30332;Agathe ___ Océane cuisinent.;et;est;es;ai
+30333;Louis ___ Tiago peignent.;et;est;es;ai
+30334;Louis ___ Elio chantent.;et;est;es;ai
+30335;Noé ___ Éléa grandissent.;et;est;es;ai
+30336;Yanis ___ Faustine applaudissent.;et;est;es;ai
+30337;Mila ___ le pêcheur construisent.;et;est;es;ai
+30338;Milo ___ Noé nettoient.;et;est;es;ai
+30339;Tiago ___ Aaron rangent.;et;est;es;ai
+30340;Ambre ___ Salomé décorent.;et;est;es;ai
+30341;Maël ___ Lily fabriquent.;et;est;es;ai
+30342;Alice ___ Agathe explorent.;et;est;es;ai
+30343;Louis ___ Louna observent.;et;est;es;ai
+30344;Louna ___ la tortue avancent.;et;est;es;ai
+30345;Yanis ___ Lily jardinent.;et;est;es;ai
+30346;Anaïs ___ Éléa pêchent.;et;est;es;ai
+30347;Malo ___ Iris campent.;et;est;es;ai
+30348;Éléa ___ le menuisier bricolent.;et;est;es;ai
+30349;La couturière ___ l'infirmière plantent.;et;est;es;ai
+30350;Léon ___ Faustine arrosent.;et;est;es;ai
+30351;Basile ___ Robin comptent.;et;est;es;ai
+30352;Basile ___ Suzanne calculent.;et;est;es;ai
+30353;Le menuisier ___ l'infirmière dictent.;et;est;es;ai
+30354;Axel ___ Noé récitent.;et;est;es;ai
+30355;Robin ___ Louna colorient.;et;est;es;ai
+30356;Baptiste ___ Éléa découpent.;et;est;es;ai
+30357;Basile ___ Jade collent.;et;est;es;ai
+30358;Léon ___ Lily empilent.;et;est;es;ai
+30359;Louna ___ le cuisinier partagent.;et;est;es;ai
+30360;Le hérisson ___ le pêcheur mangent.;et;est;es;ai
+30361;Elio ___ Noé travaillent.;et;est;es;ai
+30362;Elio ___ le pêcheur cuisinent.;et;est;es;ai
+30363;Océane ___ le dauphin nagent.;et;est;es;ai
+30364;Suzanne ___ son amie chantent.;et;est;es;ai
+30365;Suzanne ___ le hérisson grandissent.;et;est;es;ai
+30366;Inès ___ Océane applaudissent.;et;est;es;ai
+30367;Romy ___ le chien jouent.;et;est;es;ai
+30368;Maël ___ Juliette nettoient.;et;est;es;ai
+30369;Alice ___ Iris rangent.;et;est;es;ai
+30370;Gabin ___ Alice décorent.;et;est;es;ai
+30371;Capucine ___ le pêcheur fabriquent.;et;est;es;ai
+30372;Océane ___ le pêcheur explorent.;et;est;es;ai
+30373;Milo ___ Éléa observent.;et;est;es;ai
+30374;Louis ___ le chat jouent.;et;est;es;ai
+30375;L'abeille ___ la coccinelle volent.;et;est;es;ai
+30376;Lola ___ Éléa pêchent.;et;est;es;ai
+30377;Raphaël ___ le pêcheur campent.;et;est;es;ai
+30378;Baptiste ___ Juliette bricolent.;et;est;es;ai
+30379;Enzo ___ Éléa plantent.;et;est;es;ai
+30380;Mila ___ Salomé arrosent.;et;est;es;ai
+30381;Victor ___ Alice comptent.;et;est;es;ai
+30382;Victor ___ Noé calculent.;et;est;es;ai
+30383;Juliette ___ Salomé dictent.;et;est;es;ai
+30384;Alice ___ sa cousine chantent.;et;est;es;ai
+30385;Jade ___ Salomé colorient.;et;est;es;ai
+30386;Iris ___ le chat jouent.;et;est;es;ai
+30387;Malo ___ la tortue marchent.;et;est;es;ai
+30388;Aaron ___ Éléa empilent.;et;est;es;ai
+30389;Noé ___ Margot partagent.;et;est;es;ai
+30390;Baptiste ___ Ambre mangent.;et;est;es;ai
+30391;Iris ___ la tortue avancent.;et;est;es;ai
+30392;Baptiste ___ Lily cuisinent.;et;est;es;ai
+30393;Mila ___ le menuisier peignent.;et;est;es;ai
+30394;Malo ___ Ambre chantent.;et;est;es;ai
+30395;Malo ___ la boulangère grandissent.;et;est;es;ai
+30396;Raphaël ___ Alice applaudissent.;et;est;es;ai
+30397;Nathan ___ Enzo construisent.;et;est;es;ai
+30398;Alice ___ Mila nettoient.;et;est;es;ai
+30399;Le boulanger ___ la fleuriste discutent.;et;est;es;ai
+30400;Le jardinier ___ la doctoresse discutent.;et;est;es;ai
+30401;Mon cousin ___ ma cousine discutent.;et;est;es;ai
+30402;Le maître ___ la directrice discutent.;et;est;es;ai
+30403;Le gardien ___ l'infirmière discutent.;et;est;es;ai
+30404;Il cherche ___ cahier partout.;son;sont;sons;se
+30405;Elle cherche ___ cahier partout.;son;sont;sons;se
+30406;Il cherche ___ stylo partout.;son;sont;sons;se
+30407;Elle cherche ___ stylo partout.;son;sont;sons;se
+30408;Il cherche ___ sac partout.;son;sont;sons;se
+30409;Elle cherche ___ sac partout.;son;sont;sons;se
+30410;Il cherche ___ goûter partout.;son;sont;sons;se
+30411;Elle cherche ___ goûter partout.;son;sont;sons;se
+30412;Il cherche ___ doudou partout.;son;sont;sons;se
+30413;Elle cherche ___ doudou partout.;son;sont;sons;se
+30414;Il cherche ___ vélo partout.;son;sont;sons;se
+30415;Elle cherche ___ vélo partout.;son;sont;sons;se
+30416;Il cherche ___ ballon partout.;son;sont;sons;se
+30417;Elle cherche ___ ballon partout.;son;sont;sons;se
+30418;Il cherche ___ chapeau partout.;son;sont;sons;se
+30419;Elle cherche ___ chapeau partout.;son;sont;sons;se
+30420;Il cherche ___ parapluie partout.;son;sont;sons;se
+30421;Elle cherche ___ parapluie partout.;son;sont;sons;se
+30422;Il cherche ___ manteau partout.;son;sont;sons;se
+30423;Elle cherche ___ manteau partout.;son;sont;sons;se
+30424;Les voisins ___ arrivés en retard.;sont;son;sons;se
+30425;Les cousins ___ arrivés en retard.;sont;son;sons;se
+30426;Les amis ___ arrivés en retard.;sont;son;sons;se
+30427;Les élèves ___ arrivés en retard.;sont;son;sons;se
+30428;Les joueurs ___ arrivés en retard.;sont;son;sons;se
+30429;Les danseurs ___ arrivés en retard.;sont;son;sons;se
+30430;Les musiciens ___ arrivés en retard.;sont;son;sons;se
+30431;Les artistes ___ arrivés en retard.;sont;son;sons;se
+30432;Les pompiers ___ arrivés en retard.;sont;son;sons;se
+30433;Les médecins ___ arrivés en retard.;sont;son;sons;se
+30434;Victor ___ Lola rangent.;et;est;es;ai
+30435;Baptiste ___ Capucine décorent.;et;est;es;ai
+30436;Léon ___ le renard courent.;et;est;es;ai
+30437;Anaïs ___ la boulangère explorent.;et;est;es;ai
+30438;Lily ___ Mila observent.;et;est;es;ai
+30439;Malo ___ Aaron répètent.;et;est;es;ai
+30440;Samuel ___ le menuisier jardinent.;et;est;es;ai
+30441;Maël ___ Margot pêchent.;et;est;es;ai
+30442;Maël ___ Gabin campent.;et;est;es;ai
+30443;Le pêcheur ___ la couturière bricolent.;et;est;es;ai
+30444;Yanis ___ Salomé plantent.;et;est;es;ai
+30445;Agathe ___ Capucine arrosent.;et;est;es;ai
+30446;Lily ___ le cuisinier comptent.;et;est;es;ai
+30447;Iris ___ son frère calculent.;et;est;es;ai
+30448;Ambre ___ Suzanne dictent.;et;est;es;ai
+30449;Le menuisier ___ le pêcheur discutent.;et;est;es;ai
+30450;Louis ___ Milo colorient.;et;est;es;ai
+30451;Capucine ___ le cuisinier découpent.;et;est;es;ai
+30452;Juliette ___ Capucine collent.;et;est;es;ai
+30453;Mila ___ Océane empilent.;et;est;es;ai
+30454;Malo ___ Inès partagent.;et;est;es;ai
+30455;Il porte ___ gâteau.;son;sont;sons;se
+30456;Elle porte ___ gâteau.;son;sont;sons;se
+30457;Il porte ___ panier.;son;sont;sons;se
+30458;Elle porte ___ panier.;son;sont;sons;se
+30459;Il porte ___ seau.;son;sont;sons;se
+30460;Elle porte ___ seau.;son;sont;sons;se
+30461;Il porte ___ tricycle.;son;sont;sons;se
+30462;Elle porte ___ tricycle.;son;sont;sons;se
+30464;Il porte ___ déguisement.;son;sont;sons;se
+30465;Elle porte ___ déguisement.;son;sont;sons;se
+30466;Il montre ___ album.;son;sont;sons;se
+30467;Elle montre ___ album.;son;sont;sons;se
+30468;Il montre ___ puzzle.;son;sont;sons;se
+30469;Elle montre ___ puzzle.;son;sont;sons;se
+30470;Il montre ___ carnet.;son;sont;sons;se
+30471;Elle montre ___ carnet.;son;sont;sons;se
+30472;Il montre ___ herbier.;son;sont;sons;se
+30473;Elle montre ___ herbier.;son;sont;sons;se
+30474;Il montre ___ coloriage.;son;sont;sons;se
+30475;Elle montre ___ coloriage.;son;sont;sons;se
+30476;Il ouvre ___ agenda.;son;sont;sons;se
+30477;Elle ouvre ___ agenda.;son;sont;sons;se
+30478;Il ouvre ___ album.;son;sont;sons;se
+30479;Elle ouvre ___ album.;son;sont;sons;se
+30480;Il ouvre ___ carnet.;son;sont;sons;se
+30481;Elle ouvre ___ carnet.;son;sont;sons;se
+30482;Il ouvre ___ réveil.;son;sont;sons;se
+30483;Elle ouvre ___ réveil.;son;sont;sons;se
+30484;Il ouvre ___ aquarium.;son;sont;sons;se
+30485;Elle ouvre ___ aquarium.;son;sont;sons;se
+30486;Il prend ___ panier.;son;sont;sons;se
+30487;Elle prend ___ panier.;son;sont;sons;se
+30488;Il prend ___ seau.;son;sont;sons;se
+30489;Elle prend ___ seau.;son;sont;sons;se
+30490;Il prend ___ masque.;son;sont;sons;se
+30491;Elle prend ___ masque.;son;sont;sons;se
+30492;Il prend ___ tambourin.;son;sont;sons;se
+30493;Elle prend ___ tambourin.;son;sont;sons;se
+30494;Il prend ___ xylophone.;son;sont;sons;se
+30495;Elle prend ___ xylophone.;son;sont;sons;se
+30496;Il ferme ___ album.;son;sont;sons;se
+30497;Elle ferme ___ album.;son;sont;sons;se
+30498;Il ferme ___ carnet.;son;sont;sons;se
+30499;Elle ferme ___ carnet.;son;sont;sons;se
+30500;Il ferme ___ agenda.;son;sont;sons;se
+30501;Elle ferme ___ agenda.;son;sont;sons;se
+30502;Il ferme ___ terrarium.;son;sont;sons;se
+30503;Elle ferme ___ terrarium.;son;sont;sons;se
+30504;Il ferme ___ aquarium.;son;sont;sons;se
+30505;Elle ferme ___ aquarium.;son;sont;sons;se
+30506;Il attache ___ tricycle.;son;sont;sons;se
+30507;Elle attache ___ tricycle.;son;sont;sons;se
+30508;Il attache ___ déguisement.;son;sont;sons;se
+30509;Elle attache ___ déguisement.;son;sont;sons;se
+30510;Il attache ___ cerf-volant.;son;sont;sons;se
+30511;Elle attache ___ cerf-volant.;son;sont;sons;se
+30512;Il attache ___ masque.;son;sont;sons;se
+30513;Elle attache ___ masque.;son;sont;sons;se
+30514;Il prépare ___ gâteau.;son;sont;sons;se
+30515;Elle prépare ___ gâteau.;son;sont;sons;se
+30516;Il prépare ___ panier.;son;sont;sons;se
+30517;Elle prépare ___ panier.;son;sont;sons;se
+30518;Il prépare ___ biscuit.;son;sont;sons;se
+30519;Elle prépare ___ biscuit.;son;sont;sons;se
+30520;Il prépare ___ bonbon.;son;sont;sons;se
+30521;Elle prépare ___ bonbon.;son;sont;sons;se
+30522;Il prépare ___ coloriage.;son;sont;sons;se
+30523;Elle prépare ___ coloriage.;son;sont;sons;se
+30524;Il partage ___ gâteau.;son;sont;sons;se
+30525;Elle partage ___ gâteau.;son;sont;sons;se
+30526;Il partage ___ bonbon.;son;sont;sons;se
+30527;Elle partage ___ bonbon.;son;sont;sons;se
+30528;Il partage ___ biscuit.;son;sont;sons;se
+30529;Elle partage ___ biscuit.;son;sont;sons;se
+30530;Il partage ___ panier.;son;sont;sons;se
+30531;Elle partage ___ panier.;son;sont;sons;se
+30532;Il partage ___ puzzle.;son;sont;sons;se
+30533;Elle partage ___ puzzle.;son;sont;sons;se
+30534;Il gonfle ___ cerf-volant.;son;sont;sons;se
+30535;Elle gonfle ___ cerf-volant.;son;sont;sons;se
+30536;Il cherche ___ carnet.;son;sont;sons;se
+30537;Elle cherche ___ carnet.;son;sont;sons;se
+30538;Il cherche ___ agenda.;son;sont;sons;se
+30539;Elle cherche ___ agenda.;son;sont;sons;se
+30540;Il cherche ___ puzzle.;son;sont;sons;se
+30541;Elle cherche ___ puzzle.;son;sont;sons;se
+30542;Il cherche ___ réveil.;son;sont;sons;se
+30543;Elle cherche ___ réveil.;son;sont;sons;se
+30544;Il lave ___ tricycle.;son;sont;sons;se
+30545;Elle lave ___ tricycle.;son;sont;sons;se
+30546;Il lave ___ seau.;son;sont;sons;se
+30547;Elle lave ___ seau.;son;sont;sons;se
+30548;Il lave ___ déguisement.;son;sont;sons;se
+30549;Elle lave ___ déguisement.;son;sont;sons;se
+30550;Il décore ___ album.;son;sont;sons;se
+30551;Elle décore ___ album.;son;sont;sons;se
+30552;Il décore ___ carnet.;son;sont;sons;se
+30553;Elle décore ___ carnet.;son;sont;sons;se
+30554;Il décore ___ coloriage.;son;sont;sons;se
+30555;Elle décore ___ coloriage.;son;sont;sons;se
+30556;Il décore ___ déguisement.;son;sont;sons;se
+30557;Elle décore ___ déguisement.;son;sont;sons;se
+30558;Il finit ___ puzzle.;son;sont;sons;se
+30559;Elle finit ___ puzzle.;son;sont;sons;se
+30560;Il finit ___ coloriage.;son;sont;sons;se
+30561;Elle finit ___ coloriage.;son;sont;sons;se
+30562;Il finit ___ herbier.;son;sont;sons;se
+30563;Elle finit ___ herbier.;son;sont;sons;se
+30564;Il finit ___ album.;son;sont;sons;se
+30565;Elle finit ___ album.;son;sont;sons;se
+30566;Il perd ___ carnet.;son;sont;sons;se
+30567;Elle perd ___ carnet.;son;sont;sons;se
+30568;Il perd ___ agenda.;son;sont;sons;se
+30569;Elle perd ___ agenda.;son;sont;sons;se
+30570;Il perd ___ masque.;son;sont;sons;se
+30571;Elle perd ___ masque.;son;sont;sons;se
+30572;Il perd ___ tambourin.;son;sont;sons;se
+30573;Elle perd ___ tambourin.;son;sont;sons;se
+30574;Il range ___ album.;son;sont;sons;se
+30575;Elle range ___ album.;son;sont;sons;se
+30576;Il range ___ carnet.;son;sont;sons;se
+30577;Elle range ___ carnet.;son;sont;sons;se
+30578;Il range ___ xylophone.;son;sont;sons;se
+30579;Elle range ___ xylophone.;son;sont;sons;se
+30580;Il range ___ tambourin.;son;sont;sons;se
+30581;Elle range ___ tambourin.;son;sont;sons;se
+30582;Il range ___ herbier.;son;sont;sons;se
+30583;Elle range ___ herbier.;son;sont;sons;se
+30584;Il plie ___ déguisement.;son;sont;sons;se
+30585;Elle plie ___ déguisement.;son;sont;sons;se
+30586;Il plie ___ masque.;son;sont;sons;se
+30587;Elle plie ___ masque.;son;sont;sons;se
+30588;Il dessine ___ album.;son;sont;sons;se
+30589;Elle dessine ___ album.;son;sont;sons;se
+30590;Il dessine ___ carnet.;son;sont;sons;se
+30591;Elle dessine ___ carnet.;son;sont;sons;se
+30592;Il dessine ___ herbier.;son;sont;sons;se
+30593;Elle dessine ___ herbier.;son;sont;sons;se
+30594;Il fabrique ___ cerf-volant.;son;sont;sons;se
+30595;Elle fabrique ___ cerf-volant.;son;sont;sons;se
+30596;Il fabrique ___ déguisement.;son;sont;sons;se
+30597;Elle fabrique ___ déguisement.;son;sont;sons;se
+30598;Il fabrique ___ masque.;son;sont;sons;se
+30599;Elle fabrique ___ masque.;son;sont;sons;se
+30600;Il fabrique ___ puzzle.;son;sont;sons;se
+30601;Elle fabrique ___ puzzle.;son;sont;sons;se
+30602;Il construit ___ puzzle.;son;sont;sons;se
+30603;Elle construit ___ puzzle.;son;sont;sons;se
+30604;Il construit ___ terrarium.;son;sont;sons;se
+30605;Elle construit ___ terrarium.;son;sont;sons;se
+30606;Les tortues ___ silencieuses.;sont;son;sons;se
+30607;Les abeilles ___ vraiment silencieuses aujourd'hui.;sont;son;sons;se
+30608;Les poussins ___ impatients.;sont;son;sons;se
+30609;Les singes ___ vraiment ravis aujourd'hui.;sont;son;sons;se
+30610;Les poussins ___ souriants.;sont;son;sons;se
+30611;Les éléphants ___ vraiment lents aujourd'hui.;sont;son;sons;se
+30612;Les coccinelles ___ ravies.;sont;son;sons;se
+30613;Les tortues ___ vraiment attentives aujourd'hui.;sont;son;sons;se
+30614;Les lapins ___ ravis.;sont;son;sons;se
+30616;Les écureuils ___ vraiment calmes aujourd'hui.;sont;son;sons;se
+30617;Les canards ___ fiers.;sont;son;sons;se
+30618;Les hérissons ___ vraiment paisibles aujourd'hui.;sont;son;sons;se
+30619;Les chevaux ___ rapides.;sont;son;sons;se
+30620;Les papillons ___ vraiment ravis aujourd'hui.;sont;son;sons;se
+30621;Les écureuils ___ émerveillés.;sont;son;sons;se
+30622;Les pingouins ___ vraiment joyeux aujourd'hui.;sont;son;sons;se
+30623;Les poussins ___ paisibles.;sont;son;sons;se
+30624;Les chevreaux ___ vraiment fatigués aujourd'hui.;sont;son;sons;se
+30625;Les canards ___ impatients.;sont;son;sons;se
+30626;Les pingouins ___ vraiment calmes aujourd'hui.;sont;son;sons;se
+30627;Les tortues ___ ravies.;sont;son;sons;se
+30628;Les lapins ___ vraiment affamés aujourd'hui.;sont;son;sons;se
+30629;Les tortues ___ assoiffées.;sont;son;sons;se
+30630;Les hérissons ___ vraiment lents aujourd'hui.;sont;son;sons;se
+30631;Les hérissons ___ fiers.;sont;son;sons;se
+30632;Les abeilles ___ vraiment ravies aujourd'hui.;sont;son;sons;se
+30633;Les escargots ___ fiers.;sont;son;sons;se
+30634;Les pingouins ___ vraiment ravis aujourd'hui.;sont;son;sons;se
+30635;Les pingouins ___ polis.;sont;son;sons;se
+30636;Les chevreaux ___ vraiment ravis aujourd'hui.;sont;son;sons;se
+30637;Les dauphins ___ affamés.;sont;son;sons;se
+30638;Les singes ___ vraiment calmes aujourd'hui.;sont;son;sons;se
+30639;Les chevreaux ___ impatients.;sont;son;sons;se
+30640;Les poussins ___ vraiment studieux aujourd'hui.;sont;son;sons;se
+30641;Les hérissons ___ fatigués.;sont;son;sons;se
+30642;Les chevreaux ___ vraiment studieux aujourd'hui.;sont;son;sons;se
+30643;Les écureuils ___ affamés.;sont;son;sons;se
+30644;Les singes ___ vraiment lents aujourd'hui.;sont;son;sons;se
+30645;Les chevreaux ___ lents.;sont;son;sons;se
+30646;Les lapins ___ vraiment polis aujourd'hui.;sont;son;sons;se
+30647;Les hérissons ___ émerveillés.;sont;son;sons;se
+30648;Les poussins ___ vraiment adorables aujourd'hui.;sont;son;sons;se
+30649;Les chevreaux ___ attentifs.;sont;son;sons;se
+30650;Les escargots ___ vraiment joyeux aujourd'hui.;sont;son;sons;se
+30651;Les tortues ___ bruyantes.;sont;son;sons;se
+30652;Les lapins ___ vraiment attentifs aujourd'hui.;sont;son;sons;se
+30653;Les coccinelles ___ adorables.;sont;son;sons;se
+30654;Les dauphins ___ vraiment émerveillés aujourd'hui.;sont;son;sons;se
+30655;Les tortues ___ calmes.;sont;son;sons;se
+30656;Les pingouins ___ vraiment fiers aujourd'hui.;sont;son;sons;se
+30657;Les fourmis ___ fatiguées.;sont;son;sons;se
+30658;Les cygnes ___ vraiment impatients aujourd'hui.;sont;son;sons;se
+30659;Les éléphants ___ impatients.;sont;son;sons;se
+30660;Les dauphins ___ vraiment fatigués aujourd'hui.;sont;son;sons;se
+30661;Les pingouins ___ émerveillés.;sont;son;sons;se
+30662;Les pingouins ___ vraiment adorables aujourd'hui.;sont;son;sons;se
+30663;Les hérissons ___ attentifs.;sont;son;sons;se
+30664;Les papillons ___ vraiment paisibles aujourd'hui.;sont;son;sons;se
+30665;Les lapins ___ joyeux.;sont;son;sons;se
+30666;Les coccinelles ___ vraiment studieuses aujourd'hui.;sont;son;sons;se
+30667;Les coccinelles ___ rapides.;sont;son;sons;se
+30668;Les écureuils ___ vraiment paisibles aujourd'hui.;sont;son;sons;se
+30669;Les dauphins ___ lents.;sont;son;sons;se
+30670;Les chevaux ___ vraiment assoiffés aujourd'hui.;sont;son;sons;se
+30671;Les singes ___ fatigués.;sont;son;sons;se
+30672;Les singes ___ vraiment souriants aujourd'hui.;sont;son;sons;se
+30673;Les écureuils ___ assoiffés.;sont;son;sons;se
+30674;Les moutons ___ vraiment lents aujourd'hui.;sont;son;sons;se
+30675;Les poussins ___ attentifs.;sont;son;sons;se
+30676;Les dauphins ___ vraiment rapides aujourd'hui.;sont;son;sons;se
+30677;Les lapins ___ impatients.;sont;son;sons;se
+30678;Les fourmis ___ vraiment assoiffées aujourd'hui.;sont;son;sons;se
+30679;Les lapins ___ rapides.;sont;son;sons;se
+30680;Les lapins ___ vraiment fiers aujourd'hui.;sont;son;sons;se
+30681;Les cygnes ___ calmes.;sont;son;sons;se
+30682;Les fourmis ___ vraiment paisibles aujourd'hui.;sont;son;sons;se
+30683;Les hérissons ___ ravis.;sont;son;sons;se
+30684;Les hérissons ___ vraiment malicieux aujourd'hui.;sont;son;sons;se
+30685;Les canards ___ bruyants.;sont;son;sons;se
+30686;Les coccinelles ___ vraiment bruyantes aujourd'hui.;sont;son;sons;se
+30687;Les pingouins ___ malicieux.;sont;son;sons;se
+30688;Les abeilles ___ vraiment bruyantes aujourd'hui.;sont;son;sons;se
+30689;Les escargots ___ malicieux.;sont;son;sons;se
+30691;Les abeilles ___ vraiment fières aujourd'hui.;sont;son;sons;se
+30692;Les dauphins ___ bruyants.;sont;son;sons;se
+30693;Les éléphants ___ vraiment paisibles aujourd'hui.;sont;son;sons;se
+30694;Les abeilles ___ affamées.;sont;son;sons;se
+30695;Les lapins ___ vraiment souriants aujourd'hui.;sont;son;sons;se
+30696;Les tortues ___ malicieuses.;sont;son;sons;se
+30697;Les singes ___ vraiment bruyants aujourd'hui.;sont;son;sons;se
+30698;Les chevreaux ___ paisibles.;sont;son;sons;se
+30699;Les pingouins ___ vraiment paisibles aujourd'hui.;sont;son;sons;se
+30700;Les chevaux ___ polis.;sont;son;sons;se
+30701;Les hérissons ___ vraiment polis aujourd'hui.;sont;son;sons;se
+30702;Les canards ___ lents.;sont;son;sons;se
+30703;Les singes ___ vraiment silencieux aujourd'hui.;sont;son;sons;se
+30704;Les fourmis ___ souriantes.;sont;son;sons;se
+30705;Les tortues ___ vraiment adorables aujourd'hui.;sont;son;sons;se
+30706;Les dauphins ___ calmes.;sont;son;sons;se
+30707;Les tortues ___ vraiment émerveillées aujourd'hui.;sont;son;sons;se
+30708;Les lapins ___ émerveillés.;sont;son;sons;se
+30709;Les poussins ___ vraiment malicieux aujourd'hui.;sont;son;sons;se
+30710;Les moutons ___ impatients.;sont;son;sons;se
+30711;Les chevaux ___ vraiment souriants aujourd'hui.;sont;son;sons;se
+30712;Les coccinelles ___ silencieuses.;sont;son;sons;se
+30713;Les tortues ___ vraiment studieuses aujourd'hui.;sont;son;sons;se
+30714;Les chevreaux ___ fiers.;sont;son;sons;se
+30715;Les escargots ___ vraiment affamés aujourd'hui.;sont;son;sons;se
+30716;Les singes ___ rapides.;sont;son;sons;se
+30717;Les coccinelles ___ vraiment souriantes aujourd'hui.;sont;son;sons;se
+30718;Les éléphants ___ joyeux.;sont;son;sons;se
+30719;Les abeilles ___ vraiment adorables aujourd'hui.;sont;son;sons;se
+30720;Les chevaux ___ bruyants.;sont;son;sons;se
+30721;Les singes ___ vraiment joyeux aujourd'hui.;sont;son;sons;se
+30722;Les fourmis ___ fières.;sont;son;sons;se
+30723;Les moutons ___ vraiment paisibles aujourd'hui.;sont;son;sons;se
+30724;Les escargots ___ attentifs.;sont;son;sons;se
+30725;Les pingouins ___ vraiment assoiffés aujourd'hui.;sont;son;sons;se
+30726;Les éléphants ___ bruyants.;sont;son;sons;se
+30727;Les cygnes ___ vraiment paisibles aujourd'hui.;sont;son;sons;se
+30728;Les abeilles ___ polies.;sont;son;sons;se
+30729;Les hérissons ___ vraiment rapides aujourd'hui.;sont;son;sons;se
+30730;Les fourmis ___ joyeuses.;sont;son;sons;se
+30731;Les chevaux ___ vraiment affamés aujourd'hui.;sont;son;sons;se
+30732;Les écureuils ___ impatients.;sont;son;sons;se
+30733;Les dauphins ___ vraiment malicieux aujourd'hui.;sont;son;sons;se
+30734;Les cygnes ___ émerveillés.;sont;son;sons;se
+30735;Les papillons ___ vraiment bruyants aujourd'hui.;sont;son;sons;se
+30736;Les chevaux ___ silencieux.;sont;son;sons;se
+30737;Les abeilles ___ vraiment joyeuses aujourd'hui.;sont;son;sons;se
+30738;Les chevreaux ___ joyeux.;sont;son;sons;se
+30739;Les canards ___ vraiment affamés aujourd'hui.;sont;son;sons;se
+30740;Les cygnes ___ bruyants.;sont;son;sons;se
+30741;Les chevreaux ___ vraiment silencieux aujourd'hui.;sont;son;sons;se
+30742;Les singes ___ impatients.;sont;son;sons;se
+30743;Les lapins ___ vraiment lents aujourd'hui.;sont;son;sons;se
+30744;Les chevaux ___ calmes.;sont;son;sons;se
+30745;Les hérissons ___ vraiment souriants aujourd'hui.;sont;son;sons;se
+30746;Les agneaux ___ ravis.;sont;son;sons;se
+30747;Les éléphants ___ vraiment silencieux aujourd'hui.;sont;son;sons;se
+30748;Les éléphants ___ affamés.;sont;son;sons;se
+30750;Les cygnes ___ vraiment joyeux aujourd'hui.;sont;son;sons;se
+30751;Les cygnes ___ fiers.;sont;son;sons;se
+30752;Les poussins ___ vraiment fiers aujourd'hui.;sont;son;sons;se
+30753;Les dauphins ___ silencieux.;sont;son;sons;se
+30754;Les lapins ___ vraiment bruyants aujourd'hui.;sont;son;sons;se
+30755;Les écureuils ___ attentifs.;sont;son;sons;se
+30756;Les escargots ___ vraiment émerveillés aujourd'hui.;sont;son;sons;se
+30757;Les chevreaux ___ assoiffés.;sont;son;sons;se
+30758;Les pingouins ___ vraiment attentifs aujourd'hui.;sont;son;sons;se
+30759;Quel est un synonyme de 'terminer' ?;finir;donner;descendre;fermer
+30760;Quel est un synonyme de 'observer' ?;fixer;donner;monter;pleurer
+30761;Quel est un synonyme de 'dire' ?;raconter;rire;monter;prendre
+30762;Quel est un synonyme de 'aimer' ?;adorer;fermer;rire;tomber
+30763;Quel est un synonyme de 'détester' ?;haïr;donner;parler;chanter
+30764;Quel est un synonyme de 'pleurer' ?;sangloter;dormir;ouvrir;sauter
+30765;Quel est un synonyme de 'rire' ?;glousser;aider;prendre;pleurer
+30766;Quel est un synonyme de 'courir' ?;filer;manger;descendre;dormir
+30767;Quel est un synonyme de 'sauter' ?;bondir;dormir;fermer;courir
+30768;Quel est un synonyme de 'tomber' ?;chuter;regarder;manger;prendre
+30769;Quel est un synonyme de 'marcher' ?;avancer;jouer;prendre;pleurer
+30770;Quel est un synonyme de 'manger' ?;dévorer;descendre;regarder;marcher
+30771;Quel est un synonyme de 'boire' ?;avaler;prendre;manger;dormir
+30773;Quel est un synonyme de 'dormir' ?;sommeiller;prendre;parler;donner
+30774;Quel est un synonyme de 'réveiller' ?;éveiller;descendre;dormir;regarder
+30775;Quel est un synonyme de 'attraper' ?;saisir;marcher;courir;monter
+30776;Quel est un synonyme de 'lancer' ?;jeter;parler;manger;dormir
+30777;Quel est un synonyme de 'porter' ?;transporter;ouvrir;tomber;chercher
+30778;Quel est un synonyme de 'casser' ?;briser;tomber;parler;chercher
+30779;Quel est un synonyme de 'réparer' ?;arranger;dormir;manger;ouvrir
+30780;Quel est un synonyme de 'construire' ?;bâtir;pleurer;fermer;sauter
+30781;Quel est un synonyme de 'détruire' ?;démolir;prendre;chercher;ouvrir
+30782;Quel est un synonyme de 'chanter' ?;fredonner;donner;dormir;courir
+30783;Quel est un synonyme de 'jouer' ?;s'amuser;regarder;marcher;dormir
+30784;Quel est un synonyme de 'gagner' ?;remporter;parler;marcher;manger
+30785;Quel est un synonyme de 'perdre' ?;égarer;aider;tomber;chanter
+30786;Quel est un synonyme de 'donner' ?;offrir;courir;tomber;manger
+30787;Quel est un synonyme de 'garder' ?;conserver;sauter;donner;prendre
+30788;Quel est un synonyme de 'cacher' ?;dissimuler;rire;descendre;pleurer
+30789;Quel est un synonyme de 'chuchoter' ?;murmurer;donner;monter;pleurer
+30790;Quel est un synonyme de 'penser' ?;réfléchir;chanter;aider;chercher
+30792;Quel est un synonyme de 'essayer' ?;tenter;tomber;chercher;aider
+30793;Quel est un synonyme de 'réussir' ?;parvenir;pleurer;manger;regarder
+30794;Quel est un synonyme de 'échouer' ?;rater;ouvrir;parler;manger
+30795;Quel est un synonyme de 'continuer' ?;poursuivre;pleurer;rire;chercher
+30796;Quel est un synonyme de 'arrêter' ?;stopper;fermer;ouvrir;tomber
+30797;Quel est un synonyme de 'bouger' ?;remuer;sauter;chanter;pleurer
+30798;Quel est un synonyme de 'trembler' ?;frissonner;donner;regarder;manger
+30799;Quel est un synonyme de 'briller' ?;scintiller;fermer;marcher;parler
+30800;Quel est un synonyme de 'crier' ?;hurler;chercher;dormir;ouvrir
+30801;Quel est un synonyme de 'appeler' ?;héler;dormir;pleurer;courir
+30802;Quel est un synonyme de 'expliquer' ?;détailler;manger;jouer;ouvrir
+30803;Quel est un synonyme de 'choisir' ?;sélectionner;fermer;donner;chanter
+30804;Quel est un synonyme de 'admirer' ?;contempler;ouvrir;prendre;chanter
+30805;Le livre ___ ouvert.;est;et;son;sont
+30806;L'eau ___ froide.;est;et;son;sont
+30807;Le ballon ___ rouge.;est;et;son;sont
+30808;Ce mot ___ difficile.;est;et;son;sont
+30809;Cette histoire ___ drôle.;est;et;son;sont
+30810;La classe ___ silencieuse.;est;et;son;sont
+30811;Le café ___ chaud.;est;et;son;sont
+30812;Le sac ___ lourd.;est;et;son;sont
+30813;Le chemin ___ long.;est;et;son;sont
+30814;Le temps ___ agréable.;est;et;son;sont
+30815;Le vent ___ fort.;est;et;son;sont
+30816;Ce dessin ___ joli.;est;et;son;sont
+30817;Le repas ___ prêt.;est;et;son;sont
+30818;La porte ___ fermée.;est;et;son;sont
+30819;Le chien ___ calme.;est;et;son;sont
+30820;Ce jouet ___ cassé.;est;et;son;sont
+30821;La musique ___ belle.;est;et;son;sont
+30822;Ce jeu ___ amusant.;est;et;son;sont
+30823;Ce film ___ intéressant.;est;et;son;sont
+30824;Ce fruit ___ sucré.;est;et;son;sont
+30825;Rose ___ Sacha peignent.;et;est;son;sont
+30826;Léna ___ Mathis nagent.;et;est;son;sont
+30827;Le vélo ___ la trottinette roulent.;et;est;son;sont
+30828;Lina ___ Nolan jouent.;et;est;son;sont
+30829;Jules ___ Zoé courent.;et;est;son;sont
+30830;Adam ___ Camille rient.;et;est;son;sont
+30831;Eva ___ Timéo marchent.;et;est;son;sont
+30832;Léo ___ Emma dessinent.;et;est;son;sont
+30833;Nina ___ Théo dansent.;et;est;son;sont
+30834;La pomme ___ la banane sont mûres.;et;est;son;sont
+30835;Noah ___ Chloé chantent.;et;est;son;sont
+30836;Le stylo ___ le cahier sont neufs.;et;est;son;sont
+30837;Le crayon ___ la gomme sont sur la table.;et;est;son;sont
+30838;Le chat ___ le chien dorment.;et;est;son;sont
+30839;La fleur ___ l'arbre poussent.;et;est;son;sont
+30840;Anna ___ Ethan sautent.;et;est;son;sont
+30841;Lucas ___ Manon lisent.;et;est;son;sont
+30842;Le soleil ___ la lune brillent.;et;est;son;sont
+30843;Le pain ___ le beurre sont frais.;et;est;son;sont
+30844;Hugo ___ Sarah écoutent.;et;est;son;sont
+30845;Il porte ___ sac.;son;est;et;sont
+30846;Il montre ___ dessin.;son;est;et;sont
+30847;Il ouvre ___ cahier.;son;est;et;sont
+30848;Elle prend ___ manteau.;son;est;et;sont
+30849;Elle ferme ___ livre.;son;est;et;sont
+30850;Elle attache ___ vélo.;son;est;et;sont
+30851;Elle prépare ___ repas.;son;est;et;sont
+30852;Il partage ___ goûter.;son;est;et;sont
+30853;Il gonfle ___ ballon.;son;est;et;sont
+30854;Il cherche ___ stylo.;son;est;et;sont
+30855;Elle lave ___ chien.;son;est;et;sont
+30856;Elle décore ___ cartable.;son;est;et;sont
+30857;Il finit ___ jeu.;son;est;et;sont
+30858;Il perd ___ ballon.;son;est;et;sont
+30859;Elle range ___ classeur.;son;est;et;sont
+30860;Elle plie ___ manteau.;son;est;et;sont
+30861;Les gâteaux ___ délicieux.;sont;est;et;son
+30862;Les enfants ___ sages.;sont;est;et;son
+30863;Les oiseaux ___ dans l'arbre.;sont;est;et;son
+30864;Les jouets ___ rangés.;sont;est;et;son
+30865;Les voitures ___ garées.;sont;est;et;son
+30866;Les étoiles ___ brillantes.;sont;est;et;son
+30867;Les élèves ___ attentifs.;sont;est;et;son
+30868;Les fleurs ___ jolies.;sont;est;et;son
+30869;Les livres ___ rangés.;sont;est;et;son
+30870;Les nuages ___ gris.;sont;est;et;son
+30871;Les portes ___ fermées.;sont;est;et;son
+30872;Les chiens ___ dans le jardin.;sont;est;et;son
+30873;Les poissons ___ dans l'aquarium.;sont;est;et;son
+30874;Les fenêtres ___ ouvertes.;sont;est;et;son
+30875;Les crayons ___ neufs.;sont;est;et;son
+30876;Les feuilles ___ tombées.;sont;est;et;son
+30877;Comment s'appelle la femelle du : bélier ?;brebis;chienne;chatte;vache
+30878;Comment s'appelle le mâle de la : brebis ?;bélier;chien;chat;taureau
+30879;Comment s'appelle la femelle du : pigeon ?;pigeonne;chienne;chatte;vache
+30880;Comment s'appelle le mâle de la : pigeonne ?;pigeon;chien;chat;taureau
+30881;Comment s'appelle la femelle du : chameau ?;chamelle;chienne;chatte;vache
+30882;Comment s'appelle le mâle de la : chamelle ?;chameau;chien;chat;taureau
+30883;Quel est un synonyme de 'content' ?;heureux;triste;lent;petit
+30884;Quel est un synonyme de 'rapide' ?;vif;triste;lent;petit
+30885;Quel est un synonyme de 'beau' ?;magnifique;triste;lent;petit
+30886;Quel est un synonyme de 'laid' ?;affreux;triste;lent;petit
+30887;Quel est un synonyme de 'petit' ?;minuscule;triste;lent;grand
+30888;Quel est un synonyme de 'fort' ?;puissant;triste;lent;petit
+30889;Quel est un synonyme de 'intelligent' ?;malin;triste;lent;petit
+30890;Quel est un synonyme de 'gentil' ?;aimable;triste;lent;petit
+30891;Quel est un synonyme de 'courageux' ?;brave;triste;lent;petit
+30892;Quel est un synonyme de 'peur' ?;crainte;triste;lent;petit
+30893;Quel est un synonyme de 'joie' ?;bonheur;triste;lent;petit
+30894;Quel est un synonyme de 'colère' ?;fureur;triste;lent;petit
+30895;Quel est un synonyme de 'regarder' ?;observer;triste;lent;petit
+30896;Quel est un synonyme de 'écouter' ?;entendre;triste;lent;petit
+30897;Quel est un synonyme de 'chercher' ?;fouiller;triste;lent;petit
+30898;Quel est un synonyme de 'trouver' ?;découvrir;triste;lent;petit
+30899;Quel est un synonyme de 'aider' ?;assister;triste;lent;petit
+30900;Quel est un synonyme de 'finir' ?;terminer;triste;lent;petit
+30901;Quel est un synonyme de 'débuter' ?;commencer;triste;lent;petit
+30902;Quel est un synonyme de 'montrer' ?;indiquer;triste;lent;petit
+30903;Quel mois vient juste avant avril ?;mars;août;février;juillet
+30904;Quel mois vient juste avant mai ?;avril;novembre;juin;juillet
+30905;Quel mois vient juste avant juin ?;mai;décembre;juin;février
+30906;Quel mois vient juste avant juillet ?;juin;août;septembre;mars
+30907;Quel mois vient juste avant août ?;juillet;février;mars;juin
+30908;Quel mois vient juste avant septembre ?;août;mai;septembre;décembre
+30909;Quel mois vient juste avant octobre ?;septembre;février;juillet;novembre
+30910;Quel mois vient juste avant novembre ?;octobre;mai;février;mars
+30911;Quel mois vient juste avant décembre ?;novembre;juin;octobre;septembre
+30912;Quel est un synonyme de 'surveiller' ?;guetter;chercher;rire;chanter
+30914;Quel est un synonyme de 'posséder' ?;détenir;parler;courir;ouvrir
+30916;Quel est un synonyme de 'refuser' ?;décliner;pleurer;rire;descendre
+30917;Quel est un synonyme de 'accepter' ?;approuver;pleurer;chercher;prendre
+30918;Quel est un synonyme de 'inventer' ?;créer;fermer;dormir;aider
+30919;Quel est un synonyme de 'mignon' ?;adorable;carré;content;triste
+30920;Quel est un synonyme de 'immense' ?;gigantesque;carré;triste;chaud
+30921;Quel est un synonyme de 'minuscule' ?;microscopique;clair;rond;chaud
+30922;Quel est un synonyme de 'propre' ?;impeccable;léger;court;vieux
+30923;Quel est un synonyme de 'sale' ?;crasseux;triste;doux;froid
+30924;Quel est un synonyme de 'puissant' ?;robuste;lent;clair;court
+30925;Quel est un synonyme de 'malin' ?;astucieux;joli;froid;chaud
+30926;Quel est un synonyme de 'rusé' ?;futé;poli;joli;rouge
+30927;Quel est un synonyme de 'effrayé' ?;apeuré;froid;chaud;léger
+30928;Quel est un synonyme de 'fatigué' ?;exténué;salé;clair;carré
+30929;Quel est un synonyme de 'calme' ?;tranquille;carré;doux;vieux
+30930;Quel est un synonyme de 'agité' ?;turbulent;grand;triste;lent
+30931;Quel est un synonyme de 'difficile' ?;ardu;froid;grand;lent
+30932;Quel est un synonyme de 'facile' ?;aisé;salé;petit;lent
+30933;Quel est un synonyme de 'simple' ?;élémentaire;carré;rouge;court
+30934;Quel est un synonyme de 'joli' ?;charmant;grand;vieux;rouge
+30935;Quel est un synonyme de 'magnifique' ?;splendide;rouge;froid;court
+30936;Quel est un synonyme de 'horrible' ?;affreux;froid;vieux;petit
+30937;Quel est un synonyme de 'étrange' ?;bizarre;lent;froid;triste
+30938;Quel est un synonyme de 'célèbre' ?;connu;salé;grand;carré
+30939;Quel est un synonyme de 'précieux' ?;inestimable;lent;petit;grand
+30941;Quel est un synonyme de 'solide' ?;résistant;froid;court;joli
+30942;Quel est un synonyme de 'fragile' ?;délicat;léger;rouge;court
+30943;Quel est un synonyme de 'véloce' ?;prompt;rouge;rond;triste
+30944;Quel est un synonyme de 'maison' ?;demeure;table;chapeau;fenêtre
+30945;Quel est un synonyme de 'chemin' ?;sentier;montagne;fenêtre;voiture
+30946;Quel est un synonyme de 'bois' ?;forêt;rivière;nuage;cahier
+30947;Quel est un synonyme de 'bruit' ?;vacarme;voiture;cahier;chaise
+30948;Quel est un synonyme de 'odeur' ?;parfum;porte;ballon;route
+30949;Quel est un synonyme de 'travail' ?;labeur;montagne;vélo;fleur
+30950;Quel est un synonyme de 'récompense' ?;prix;table;nuage;chapeau
+30951;Quel est un synonyme de 'problème' ?;souci;montagne;ballon;table
+30952;Quel est un synonyme de 'idée' ?;pensée;ballon;chaise;fenêtre
+30953;Quel est un synonyme de 'histoire' ?;récit;route;fleur;chapeau
+30954;Quel est un synonyme de 'ami' ?;copain;route;nuage;table
+30955;Quel est un synonyme de 'collation' ?;goûter;chaise;nuage;montagne
+30956;Comment s'appelle le mâle de la : jument ?;cheval;jument;jumente;chevale
+30957;Comment s'appelle le mâle de la : guenon ?;singe;guenon;guenone;singee
+30958;Comment s'appelle le mâle de la : chienne ?;chien;chienne;chienneee;chiene
+30959;Comment s'appelle le mâle de la : cane ?;canard;cane;caneee;canarde
+30960;Comment s'appelle le mâle de la : louve ?;loup;louve;louveee;loupe
+30961;Comment s'appelle le mâle de la : lionne ?;lion;lionne;lionneee;lione

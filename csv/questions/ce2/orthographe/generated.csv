@@ -3,26 +3,26 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 10091;___ va jouer dehors.;On;Ont;En;Ons
 10092;Mes parents ___ achète un cadeau.;ont;on;ons;en
 10093;___ ne sait jamais ce qui va arriver.;On;Ont;En;Ons
-10094;Il range ___ affaires (à lui).;ses;ces;c'est;sait
-10095;Regarde ___ fleurs-la, elles sont belles.;ces;ses;c'est;sait
-10096;Elle adore ___ livres (à elle).;ses;ces;c'est;sait
-10097;___ enfants jouent dans le parc.;Ces;Ses;C'est;Sait
-10098;Je ___ donne un livre (à eux).;leur;leurs;leures;leure
+10094;Il range ___ affaires.;ses;ces;c'est;sait
+10095;Regarde ___ fleurs-là, elles sont belles.;ces;ses;c'est;sait
+10096;Elle range ___ livres.;ses;ces;c'est;sait
+10097;___ enfants-là jouent dans le parc.;Ces;Ses;C'est;Sait
+10098;Je ___ donne un livre.;leur;leurs;leures;leure
 10099;Le maître ___ explique la règle.;leur;leurs;leures;leure
-10100;Voici ___ cahiers (à eux).;leurs;leur;leures;leure
+10100;Voici ___ cahiers.;leurs;leur;leures;leure
 10101;___ heure est-il ?;Quelle;Quel;Qu'elle;Quels
 10102;Je pense ___ est gentille.;qu'elle;quelle;quel;qu'ils
 10103;___ beau jardin !;Quel;Quelle;Qu'elle;Quels
-10104;Il a perdu ___ casquette (à lui).;sa;ça;sas;cas
+10104;Il a perdu ___ casquette.;sa;ça;sas;cas
 10105;___ ne me plaît pas du tout.;Ça;Sa;Sas;Cas
-10106;Elle porte ___ valise (à elle).;sa;ça;sas;cas
+10106;Elle porte ___ valise.;sa;ça;sas;cas
 10107;___ sent très bon dans la cuisine !;Ça;Sa;Sas;Cas
 10108;Quel est un synonyme de 'beau' ?;joli;immense;minuscule;grand
 10109;Quel est un synonyme de 'commencer' ?;débuter;découvrir;assister;observer
 10110;Quel est un synonyme de 'triste' ?;malheureux;minuscule;grand;heureux
 10111;Quel est un synonyme de 'parler' ?;discuter;découvrir;assister;observer
 10112;Quel est un synonyme de 'trouver' ?;découvrir;discuter;assister;observer
-10113;Quel est un synonyme de 'fatigue' ?;épuisé;minuscule;grand;immense
+10113;Quel est un synonyme de 'fatigue' ?;épuisement;minuscule;grand;immense
 10114;Quel est un synonyme de 'content' ?;heureux;triste;grand;minuscule
 10115;Quel est un synonyme de 'aider' ?;assister;découvrir;observer;discuter
 10116;Quel est le contraire de 'gagner' ?;perdre;monter;descendre;sortir
@@ -33,14 +33,14 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 10121;Quel est le contraire de 'haut' ?;bas;faible;vieux;sale
 10122;Quel est le contraire de 'facile' ?;difficile;faible;lent;sale
 10123;Quel est le contraire de 'clair' ?;sombre;sale;pauvre;tard
-10124;une robe ___ (bleu);bleue;bleu;bleus;bleues
-10125;des chats ___ (noir);noirs;noir;noire;noires
-10126;des fleurs ___ (joli);jolies;joli;jolis;jolie
-10127;une maison ___ (grand);grande;grand;grands;grandes
-10128;des pommes ___ (vert);vertes;vert;verts;verte
-10129;un manteau ___ (chaud);chaud;chaude;chauds;chaudes
-10130;une histoire ___ (long);longue;long;longs;longues
-10131;des enfants ___ (sage);sages;sage;sagee;sagees
+10124;Cette robe est ___.;bleue;bleu;bleus;bleues
+10125;Ces chats sont ___.;noirs;noir;noire;noires
+10126;Ces fleurs sont ___.;jolies;joli;jolis;jolie
+10127;Cette maison est ___.;grande;grand;grands;grandes
+10128;Ces pommes sont ___.;vertes;vert;verts;verte
+10129;Ces manteaux sont ___.;chauds;chaud;chaude;chaudes
+10130;Cette histoire est ___.;longue;long;longs;longues
+10131;Ces enfants sont ___.;sages;sage;sagee;sagees
 10132;Quel est le pluriel de 'chapeau' ?;chapeaux;chapeaus;chapeaues;chapeauxx
 10133;Quel est le pluriel de 'bateau' ?;bateaux;bateaus;bateaues;bateauxx
 10134;Quel est le pluriel de 'cheveu' ?;cheveux;cheveus;cheveues;cheveuxx
@@ -49,3 +49,953 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 10137;Quel est le pluriel de 'feu' ?;feux;feus;feues;feuxx
 10138;Quel est le pluriel de 'château' ?;châteaux;châteaus;châteaues;châteauxx
 10139;Quel est le pluriel de 'neveu' ?;neveux;neveus;neveues;neveuxx
+33000;Mes parents ___ acheté un cadeau.;ont;on;ons;en
+33001;Les élèves ___ fini leurs devoirs.;ont;on;ons;en
+33002;Les chiens ___ aboyé toute la nuit.;ont;on;ons;en
+33003;Les oiseaux ___ chanté ce matin.;ont;on;ons;en
+33004;Mes cousins ___ visité le musée.;ont;on;ons;en
+33005;Les voisins ___ planté des fleurs.;ont;on;ons;en
+33006;Les enfants ___ joué dehors.;ont;on;ons;en
+33007;Mes amis ___ gagné le match.;ont;on;ons;en
+33008;Les pêcheurs ___ attrapé des poissons.;ont;on;ons;en
+33009;___ frappe à la porte.;On;Ont;En;Ons
+33010;___ arrive bientôt.;On;Ont;En;Ons
+33011;___ mange à midi.;On;Ont;En;Ons
+33012;___ chante une chanson.;On;Ont;En;Ons
+33013;___ range la classe.;On;Ont;En;Ons
+33014;___ prépare le goûter.;On;Ont;En;Ons
+33015;___ regarde la télévision.;On;Ont;En;Ons
+33016;___ écoute la maîtresse.;On;Ont;En;Ons
+33017;Regarde ___ affaires-là, elles sont belles.;ces;ses;c'est;sait
+33018;Il range ___ cahiers.;ses;ces;c'est;sait
+33019;Regarde ___ cahiers-là, ils sont beaux.;ces;ses;c'est;sait
+33020;Il range ___ chaussures.;ses;ces;c'est;sait
+33021;Regarde ___ chaussures-là, elles sont belles.;ces;ses;c'est;sait
+33022;Il range ___ jouets.;ses;ces;c'est;sait
+33023;Regarde ___ jouets-là, ils sont beaux.;ces;ses;c'est;sait
+33024;Il range ___ livres.;ses;ces;c'est;sait
+33025;Regarde ___ livres-là, ils sont beaux.;ces;ses;c'est;sait
+33026;Il range ___ crayons.;ses;ces;c'est;sait
+33027;Regarde ___ crayons-là, ils sont beaux.;ces;ses;c'est;sait
+33028;Il range ___ habits.;ses;ces;c'est;sait
+33029;Regarde ___ habits-là, ils sont beaux.;ces;ses;c'est;sait
+33030;Il range ___ chaussettes.;ses;ces;c'est;sait
+33031;Regarde ___ chaussettes-là, elles sont belles.;ces;ses;c'est;sait
+33032;Il range ___ gants.;ses;ces;c'est;sait
+33033;Regarde ___ gants-là, ils sont beaux.;ces;ses;c'est;sait
+33034;Il range ___ bonbons.;ses;ces;c'est;sait
+33035;Regarde ___ bonbons-là, ils sont beaux.;ces;ses;c'est;sait
+33036;Je ___ donne un cahier.;leur;leurs;leures;leure
+33037;Voici ___ jouets.;leurs;leur;leures;leure
+33038;Je ___ donne un jouet.;leur;leurs;leures;leure
+33039;Voici ___ livres.;leurs;leur;leures;leure
+33040;Voici ___ affaires.;leurs;leur;leures;leure
+33041;Je ___ donne une affaire.;leur;leurs;leures;leure
+33042;Voici ___ vélos.;leurs;leur;leures;leure
+33043;Je ___ donne un vélo.;leur;leurs;leures;leure
+33044;Voici ___ chaussures.;leurs;leur;leures;leure
+33045;Je ___ donne une chaussure.;leur;leurs;leures;leure
+33046;Voici ___ cartables.;leurs;leur;leures;leure
+33047;Je ___ donne un cartable.;leur;leurs;leures;leure
+33048;Voici ___ dessins.;leurs;leur;leures;leure
+33049;Je ___ donne un dessin.;leur;leurs;leures;leure
+33050;___ belle histoire !;Quelle;Qu'elle;Quels;Quelles
+33051;___ grand jardin !;Quel;Qu'elle;Quels;Quelles
+33052;___ jolie fleur !;Quelle;Qu'elle;Quels;Quelles
+33053;___ drôle d'histoire !;Quelle;Qu'elle;Quels;Quelles
+33054;___ dommage !;Quel;Qu'elle;Quels;Quelles
+33055;___ chance !;Quelle;Qu'elle;Quels;Quelles
+33056;___ bel oiseau !;Quel;Qu'elle;Quels;Quelles
+33057;___ bonne idée !;Quelle;Qu'elle;Quels;Quelles
+33058;Je pense ___ viendra demain.;qu'elle;quelle;quel;qu'ils
+33059;Je pense ___ sait nager.;qu'elle;quelle;quel;qu'ils
+33060;Je pense ___ aime lire.;qu'elle;quelle;quel;qu'ils
+33061;Je pense ___ chante bien.;qu'elle;quelle;quel;qu'ils
+33062;Je pense ___ dort encore.;qu'elle;quelle;quel;qu'ils
+33063;Je pense ___ arrive bientôt.;qu'elle;quelle;quel;qu'ils
+33064;Je pense ___ joue dehors.;qu'elle;quelle;quel;qu'ils
+33065;Il a perdu ___ trousse.;sa;ça;sas;cas
+33066;Elle porte ___ veste.;sa;ça;sas;cas
+33067;Il a perdu ___ veste.;sa;ça;sas;cas
+33068;Elle porte ___ balle.;sa;ça;sas;cas
+33069;Il a perdu ___ gourde.;sa;ça;sas;cas
+33070;Elle porte ___ brosse.;sa;ça;sas;cas
+33071;___ sent très bon !;Ça;Sa;Sas;Cas
+33072;___ m'énerve un peu.;Ça;Sa;Sas;Cas
+33073;___ me fait peur.;Ça;Sa;Sas;Cas
+33074;___ me rend triste.;Ça;Sa;Sas;Cas
+33075;___ me rend heureux.;Ça;Sa;Sas;Cas
+33076;___ va très vite.;Ça;Sa;Sas;Cas
+33077;___ sent mauvais.;Ça;Sa;Sas;Cas
+33078;Quel est un synonyme de 'joli' ?;beau;minuscule;content;regarder
+33079;Quel est un synonyme de 'débuter' ?;commencer;fatigue;content;aider
+33080;Quel est un synonyme de 'malheureux' ?;triste;intelligent;aider;joli
+33081;Quel est un synonyme de 'discuter' ?;parler;brave;puissant;regarder
+33082;Quel est un synonyme de 'découvrir' ?;trouver;content;drôle;calme
+33083;Quel est un synonyme de 'épuisé' ?;fatigué;raconter;rapide;minuscule
+33084;Quel est un synonyme de 'heureux' ?;content;joli;malin;parler
+33085;Quel est un synonyme de 'assister' ?;aider;heureux;débuter;aimable
+33086;Quel est un synonyme de 'regarder' ?;observer;heureux;aimable;immense
+33087;Quel est un synonyme de 'observer' ?;regarder;trouver;aimable;puissant
+33088;Quel est un synonyme de 'raconter' ?;narrer;courageux;rapide;aimable
+33089;Quel est un synonyme de 'narrer' ?;raconter;découvrir;drôle;petit
+33090;Quel est un synonyme de 'courageux' ?;brave;minuscule;content;discuter
+33091;Quel est un synonyme de 'brave' ?;courageux;gentil;aimable;fatigue
+33092;Quel est un synonyme de 'intelligent' ?;malin;découvrir;terrifiant;courageux
+33093;Quel est un synonyme de 'malin' ?;intelligent;minuscule;observer;amusant
+33094;Quel est un synonyme de 'rapide' ?;véloce;minuscule;beau;commencer
+33095;Quel est un synonyme de 'véloce' ?;rapide;épuisé;amusant;puissant
+33096;Quel est un synonyme de 'gentil' ?;aimable;aider;découvrir;trouver
+33097;Quel est un synonyme de 'aimable' ?;gentil;beau;raconter;débuter
+33098;Quel est un synonyme de 'drôle' ?;amusant;parler;beau;petit
+33099;Quel est un synonyme de 'amusant' ?;drôle;joli;effrayant;débuter
+33100;Quel est un synonyme de 'grand' ?;immense;découvrir;heureux;petit
+33101;Quel est un synonyme de 'immense' ?;grand;assister;découvrir;débuter
+33102;Quel est un synonyme de 'petit' ?;minuscule;terrifiant;observer;discuter
+33103;Quel est un synonyme de 'minuscule' ?;petit;narrer;immense;triste
+33104;Quel est un synonyme de 'effrayant' ?;terrifiant;parler;immense;grand
+33105;Quel est un synonyme de 'terrifiant' ?;effrayant;raconter;heureux;débuter
+33106;Quel est un synonyme de 'fort' ?;puissant;aider;heureux;drôle
+33107;Quel est un synonyme de 'puissant' ?;fort;malheureux;minuscule;immense
+33108;Quel est un synonyme de 'calme' ?;paisible;brave;épuisé;commencer
+33109;Quel est un synonyme de 'paisible' ?;calme;aimable;content;terrifiant
+33110;Quel est le contraire de 'perdre' ?;gagner;lourd;froid;bruyant
+33111;Quel est le contraire de 'détester' ?;aimer;difficile;léger;riche
+33112;Quel est le contraire de 'léger' ?;lourd;bruyant;commencer;faible
+33113;Quel est le contraire de 'vide' ?;plein;aimer;pauvre;petit
+33114;Quel est le contraire de 'descendre' ?;monter;triste;méchant;vieux
+33115;Quel est le contraire de 'bas' ?;haut;aimer;silencieux;descendre
+33116;Quel est le contraire de 'difficile' ?;facile;petit;bruyant;jeune
+33117;Quel est le contraire de 'sombre' ?;clair;froid;méchant;haut
+33118;Quel est le contraire de 'chaud' ?;froid;fermé;plein;facile
+33119;Quel est le contraire de 'froid' ?;chaud;rapide;perdre;sombre
+33120;Quel est le contraire de 'grand' ?;petit;triste;difficile;ouvert
+33121;Quel est le contraire de 'petit' ?;grand;chaud;triste;froid
+33122;Quel est le contraire de 'rapide' ?;lent;méchant;finir;ouvert
+33123;Quel est le contraire de 'lent' ?;rapide;bruyant;silencieux;sale
+33124;Quel est le contraire de 'propre' ?;sale;monter;bruyant;lourd
+33125;Quel est le contraire de 'sale' ?;propre;monter;gagner;difficile
+33126;Quel est le contraire de 'riche' ?;pauvre;chaud;bruyant;difficile
+33127;Quel est le contraire de 'pauvre' ?;riche;rapide;haut;détester
+33128;Quel est le contraire de 'jeune' ?;vieux;difficile;léger;lent
+33129;Quel est le contraire de 'vieux' ?;jeune;froid;léger;riche
+33130;Quel est le contraire de 'ouvert' ?;fermé;sale;bruyant;bas
+33131;Quel est le contraire de 'fermé' ?;ouvert;haut;faible;riche
+33132;Quel est le contraire de 'gentil' ?;méchant;sale;froid;plein
+33133;Quel est le contraire de 'méchant' ?;gentil;sale;commencer;triste
+33134;Quel est le contraire de 'fort' ?;faible;vide;jeune;commencer
+33135;Quel est le contraire de 'faible' ?;fort;vieux;jeune;fermé
+33136;Quel est le contraire de 'commencer' ?;finir;facile;sombre;riche
+33137;Quel est le contraire de 'finir' ?;commencer;petit;clair;pauvre
+33138;Quel est le contraire de 'silencieux' ?;bruyant;plein;gentil;fermé
+33139;Quel est le contraire de 'bruyant' ?;silencieux;vide;méchant;clair
+33140;Quel est le contraire de 'triste' ?;joyeux;haut;méchant;propre
+33141;Quel est le contraire de 'joyeux' ?;triste;bruyant;détester;ouvert
+33142;Ces renards sont ___.;fatigués;fatigué;fatiguée;fatiguées
+33143;Cette trousse est ___.;usée;pointu;pointus;pointues
+33144;Ces villages sont ___.;calmes;calme;chaudes;vertes
+33145;Ces toits sont ___.;pointus;pointu;pointue;pointues
+33146;Cette biche est ___.;fraîche;frais;fraîches;gentilles
+33147;Cette prairie est ___.;verte;vert;verts;vertes
+33148;Ces chaises sont ___.;solides;solide;gentille;rapide
+33149;Ces murs sont ___.;hauts;haut;haute;hautes
+33150;Ces jardins sont ___.;fleuris;fleuri;fleurie;fleuries
+33151;Ces voitures sont ___.;rapides;rapide;gentille;solide
+33152;Ces chiens sont ___.;gentils;gentil;gentille;gentilles
+33153;Cette montagne est ___.;haute;haut;hauts;hautes
+33154;Ces chaussures sont ___.;neuves;neuve;neuf;neufs
+33155;Ces cahiers sont ___.;neufs;neuf;neuve;neuves
+33156;Ces chapeaux sont ___.;jolis;joli;jolie;jolies
+33157;Cette écharpe est ___.;douce;doux;joyeuses;douces
+33158;Ces gants sont ___.;chauds;chaude;chaud;chaudes
+33159;Ces rivières sont ___.;calmes;calme;gentille;rapide
+33160;Ces forêts sont ___.;sombres;sombre;gentille;rapide
+33161;Ces étoiles sont ___.;brillantes;brillant;brillants;brillante
+33162;Quel est le pluriel de 'cadeau' ?;cadeaux;cadeaus;cadeaues;cadeax
+33163;Quel est le pluriel de 'rideau' ?;rideaux;rideaus;rideaues;rideax
+33164;Quel est le pluriel de 'tableau' ?;tableaux;tableaus;tableaues;tableax
+33165;Quel est le pluriel de 'chameau' ?;chameaux;chameaus;chameaues;chameax
+33166;Quel est le pluriel de 'oiseau' ?;oiseaux;oiseaus;oiseaues;oiseax
+33167;Quel est le pluriel de 'morceau' ?;morceaux;morceaus;morceaues;morceax
+33168;Quel est le pluriel de 'couteau' ?;couteaux;couteaus;couteaues;couteax
+33169;Quel est le pluriel de 'seau' ?;seaux;seaus;seaues;seax
+33170;Quel est le pluriel de 'préau' ?;préaux;préaus;préaues;préax
+33171;Quel est le pluriel de 'radeau' ?;radeaux;radeaus;radeaues;radeax
+33172;Quel est le pluriel de 'corbeau' ?;corbeaux;corbeaus;corbeaues;corbeax
+33173;Quel est le pluriel de 'anneau' ?;anneaux;anneaus;anneaues;anneax
+33174;Quel est le pluriel de 'carreau' ?;carreaux;carreaus;carreaues;carreax
+33175;Quel est le pluriel de 'noyau' ?;noyaux;noyaus;noyaues;noyax
+33176;Quel est le pluriel de 'joyau' ?;joyaux;joyaus;joyaues;joyax
+33177;Quel est le pluriel de 'fardeau' ?;fardeaux;fardeaus;fardeaues;fardeax
+33178;Quel est le pluriel de 'voeu' ?;voeux;voeus;voeues;voex
+33179;Quel est le pluriel de 'enjeu' ?;enjeux;enjeus;enjeues;enjex
+33180;Quel est le pluriel de 'milieu' ?;milieux;milieus;milieues;miliex
+33181;Quel est le pluriel de 'adieu' ?;adieux;adieus;adieues;adiex
+33182;Quel est le pluriel de 'lieu' ?;lieux;lieus;lieues;liex
+33183;Quel est le pluriel de 'essieu' ?;essieux;essieus;essieues;essiex
+33184;Cette chaise est ___.;bleue;bleues;bleus;bleu
+33185;Cette valise est ___.;verte;vertes;vert;verts
+33186;Ces murs sont ___.;jaunes;jaune;gentille;rapide
+33187;Ces histoires sont ___.;amusantes;amusant;amusants;amusante
+33188;Cette maison est ___.;neuve;neufs;neuves;neuf
+33189;Cette chemise est ___.;étroite;étroits;étroites;étroit
+33190;Cette voiture est ___.;longue;long;longs;longues
+33191;Cette chaise est ___.;neuve;neufs;neuf;neuves
+33192;Ces robes sont ___.;rouges;rouge;gentille;rapide
+33193;Cette boîte est ___.;curieuse;curieux;curieuses;gentilles
+33194;Cette histoire est ___.;lourde;lourds;lourd;lourdes
+33195;Cette lampe est ___.;cassée;joyeuses;joyeux;propres
+33196;Ces maisons sont ___.;rouges;rouge;gentille;rapide
+33197;Ces murs semblent ___.;fatigués;fatigué;fatiguée;fatiguées
+33198;Cette rivière est ___.;brillante;brillants;brillant;brillantes
+33199;Ces chiens sont ___.;chauds;chaud;chaude;chaudes
+33200;Ces toits sont ___.;neufs;neuf;neuve;neuves
+33201;Cette robe est ___.;brillante;brillants;brillantes;brillant
+33202;Ces murs paraissent ___.;rouges;rouge;gentille;rapide
+33203;Ces jardins sont ___.;rouges;rouge;gentille;rapide
+33204;Ces lampes sont ___.;propres;propre;gentille;rapide
+33205;Ces bureaux sont ___.;lourds;lourd;lourde;lourdes
+33206;Cette maison semble ___.;verte;verts;vertes;vert
+33207;Cette cantine est ___.;animée;curieux;curieuses;gentilles
+33208;Ces livres sont ___.;jolis;joli;jolie;jolies
+33209;Cette fleur est ___.;grande;grandes;grand;grands
+33210;Cette chanson est ___.;vieille;vieux;vieilles;gentilles
+33211;Ces jardins semblent ___.;fleuris;fleurie;fleuri;fleuries
+33212;Ces voitures sont ___.;rouges;rouge;gentille;rapide
+33213;Cette lampe est ___.;forte;forts;fort;fortes
+33214;Cette table est ___.;lourde;lourdes;lourds;lourd
+33215;Ces livres sont ___.;blancs;blanc;blanche;blanches
+33216;Ces livres semblent ___.;sales;sale;gentille;rapide
+33217;Ces murs ont l'air ___.;propres;propre;gentille;rapide
+33218;Cette chatte est ___.;curieuse;curieux;curieuses;gentilles
+33219;Ces bureaux sont ___.;petits;petit;petite;petites
+33220;Cette robe semble ___.;lourde;lourd;lourdes;lourds
+33221;Cette lampe semble ___.;bleue;bleu;bleues;bleus
+33222;Cette lampe paraît ___.;brillante;brillantes;brillant;brillants
+33223;Cette cheminée est ___.;chaude;poli;polies;polis
+33224;Cette porte est ___.;jolie;jolis;joli;jolies
+33225;Cette robe paraît ___.;usée;grises;curieuses;curieux
+33226;Cette rivière est ___.;grande;grand;grandes;grands
+33227;Cette chaussette est ___.;trouée;joyeux;joyeuses;gentilles
+33228;Cette valise est ___.;neuve;neuves;neufs;neuf
+33229;On dirait que ces murs sont ___.;chauds;chaud;chaude;chaudes
+33230;Cette valise semble ___.;forte;forts;fortes;fort
+33231;Cette robe a l'air ___.;blanche;blanches;blanc;blancs
+33232;Ces pantalons sont ___.;sales;sale;gentille;rapide
+33233;Cette chatte est ___.;neuve;neufs;neuves;neuf
+33234;Ces chapeaux sont ___.;propres;propre;gentille;rapide
+33235;Ces vélos sont ___.;fatigués;fatigué;fatiguée;fatiguées
+33236;Cette voiture est ___.;brillante;brillant;brillants;brillantes
+33237;Ces bureaux semblent ___.;fatigués;fatigué;fatiguée;fatiguées
+33238;Ces valises sont ___.;jaunes;jaune;gentille;rapide
+33239;Cette chaise semble ___.;lourde;lourd;lourdes;lourds
+33240;Cette table est ___.;blanche;blancs;blanc;blanches
+33241;Cette rivière semble ___.;douce;doux;propres;douces
+33242;Cette porte est ___.;brillante;brillant;brillantes;brillants
+33243;Cette porte semble ___.;fatiguée;fatigué;fatiguées;fatigués
+33244;Cette histoire semble ___.;neuve;neuves;neufs;neuf
+33245;Ces chapeaux semblent ___.;chauds;chaud;chaude;chaudes
+33246;Ces portes sont ___.;rouges;rouge;gentille;rapide
+33247;Cette rivière paraît ___.;noire;noires;noirs;noir
+33248;Ces chiens semblent ___.;longs;long;longue;longues
+33249;Ces villages sont ___.;froids;froid;froide;froides
+33250;Ces fleurs sont ___.;rouges;rouge;gentille;rapide
+33251;Cette valise paraît ___.;abîmée;curieux;heureuses;curieuses
+33252;Cette valise a l'air ___.;lourde;lourd;lourds;lourdes
+33253;Ces arbres sont ___.;calmes;calme;gentille;rapide
+33254;Cette cheminée est ___.;petite;petits;petites;petit
+33255;Cette fleur est ___.;étroite;étroit;étroits;étroites
+33256;Ces livres paraissent ___.;longs;long;longue;longues
+33257;Cette rivière a l'air ___.;profonde;poli;polies;polis
+33258;Cette chemise est ___.;douce;doux;douces;gentilles
+33259;Ces jardins paraissent ___.;bleus;bleu;bleue;bleues
+33260;Cette chaise paraît ___.;verte;vert;verts;vertes
+33261;Ces chapeaux paraissent ___.;neufs;neuf;neuve;neuves
+33262;Cette maison paraît ___.;petite;petit;petits;petites
+33263;Ces chemises sont ___.;larges;large;gentille;rapide
+33264;Ces fenêtres sont ___.;larges;large;gentille;rapide
+33265;Ces toits semblent ___.;forts;fort;forte;fortes
+33266;Ces pantalons sont ___.;neufs;neuf;neuve;neuves
+33267;Ces toits paraissent ___.;verts;vert;verte;vertes
+33268;Ces arbres sont ___.;noirs;noir;noire;noires
+33269;Cette fleur semble ___.;jolie;jolies;joli;jolis
+33270;Ces jardins ont l'air ___.;propres;propre;gentille;rapide
+33271;Cette porte paraît ___.;légère;légers;léger;légères
+33272;Les jardins sont ___.;sales;sale;gentille;rapide
+33273;Cette colline est ___.;vieille;vieux;vieilles;gentilles
+33274;Cette table semble ___.;grande;grand;grands;grandes
+33275;Ma valise est ___.;lourde;polies;polis;poli
+33276;Ces chattes sont ___.;douces;douce;doux;chaudes
+33277;Cette fenêtre est ___.;cassée;cassé;cassés;cassées
+33278;Cette fleur paraît ___.;noire;noir;noirs;noires
+33279;Ces livres ont l'air ___.;épais;calme;gentille;rapide
+33280;Ces sacs sont ___.;jolis;joli;jolie;jolies
+33281;Cette cour est ___.;vieille;vieux;vieilles;gentilles
+33282;Ces fenêtres sont ___.;rouges;rouge;gentille;rapide
+33283;Cette fleur a l'air ___.;fanée;polis;poli;polies
+33284;Ma fleur est ___.;neuve;neufs;neuf;neuves
+33285;Ces toits ont l'air ___.;petits;petit;petite;petites
+33286;Voici des murs bien ___.;larges;large;gentille;rapide
+33287;Cette maison a l'air ___.;brillante;brillants;brillantes;brillant
+33288;Ces rivières sont ___.;rouges;rouge;gentille;rapide
+33289;Voici des jardins bien ___.;neufs;neuf;neuve;neuves
+33290;Ces villages semblent ___.;brillants;brillant;brillante;brillantes
+33291;Ces portes sont ___.;brillantes;brillants;brillante;brillant
+33292;Ces pantalons semblent ___.;propres;propre;gentille;rapide
+33293;Ces vélos sont ___.;bleus;bleu;bleue;bleues
+33294;Cette histoire paraît ___.;petite;petits;petites;petit
+33295;Ces fenêtres semblent ___.;jaunes;jaune;gentille;rapide
+33296;Ces vélos semblent ___.;brillants;brillant;brillante;brillantes
+33297;Ces chiens paraissent ___.;fatigués;fatigué;fatiguée;fatiguées
+33298;Ces bureaux paraissent ___.;brillants;brillant;brillante;brillantes
+33299;Voici une fleur bien ___.;froide;froids;froides;froid
+33300;Ces bureaux ont l'air ___.;jaunes;jaune;gentille;rapide
+33301;On dirait que ces bureaux sont ___.;blancs;blanc;blanche;blanches
+33302;Ma rivière est ___.;froide;froids;froid;froides
+33303;Ces sacs sont ___.;forts;fort;forte;fortes
+33304;Cette cheminée semble ___.;ancienne;ancien;anciens;anciennes
+33305;Ces vélos paraissent ___.;petits;petit;petite;petites
+33306;Cette chemise semble ___.;blanche;blancs;blanches;blanc
+33307;Ces fleurs semblent ___.;propres;propre;gentille;rapide
+33308;Cette fenêtre est ___.;ronde;ronds;rond;rondes
+33309;Ces villages paraissent ___.;bleus;bleu;bleue;bleues
+33310;Ces villages ont l'air ___.;sales;sale;gentille;rapide
+33311;Ma maison est ___.;longue;longs;long;longues
+33312;Regarde, ces jardins sont ___.;brillants;brillant;brillante;brillantes
+33313;Ces jardins-là sont ___.;chauds;chaud;chaude;chaudes
+33314;Ces chiens ont l'air ___.;sales;sale;gentille;rapide
+33315;Regarde, cette fleur est ___.;vieille;vieux;vieilles;gentilles
+33316;Ces sacs semblent ___.;brillants;brillant;brillante;brillantes
+33317;On dirait que ces jardins sont ___.;immenses;poli;polie;polies
+33318;Ces arbres semblent ___.;étroits;étroit;étroite;étroites
+33319;Ces voitures semblent ___.;propres;propre;gentille;rapide
+33320;Ces valises sont ___.;rouges;rouge;gentille;rapide
+33321;Ces rivières semblent ___.;propres;propre;gentille;rapide
+33322;Ces pantalons paraissent ___.;grands;grand;grande;grandes
+33323;Cette lampe a l'air ___.;longue;long;longues;longs
+33324;Cette table paraît ___.;forte;forts;fortes;fort
+33325;Cette voiture semble ___.;noire;noir;noirs;noires
+33326;Ma lampe est ___.;verte;vert;verts;vertes
+33327;Cette chatte semble ___.;blanche;blanches;blanc;blancs
+33328;Regarde, ces murs sont ___.;petits;petit;petite;petites
+33329;Cette chemise paraît ___.;grande;grand;grands;grandes
+33330;Cette forêt est ___.;vieille;vieux;vieilles;gentilles
+33331;Ces chattes sont ___.;propres;propre;gentille;rapide
+33332;Ces toits deviennent ___.;abîmés;poli;polie;polies
+33333;Cette chatte paraît ___.;noire;noir;noirs;noires
+33334;Ces portes semblent ___.;larges;large;gentille;rapide
+33335;Ces vélos ont l'air ___.;verts;vert;verte;vertes
+33336;Ces chemises sont ___.;sales;sale;gentille;rapide
+33337;Voici une valise bien ___.;neuve;joyeuses;timides;joyeux
+33338;Voici des bureaux bien ___.;bleus;bleu;bleue;bleues
+33339;Cette chemise a l'air ___.;chaude;chaud;chauds;chaudes
+33340;Cette chatte a l'air ___.;bleue;bleues;bleus;bleu
+33341;Ces chapeaux ont l'air ___.;sales;sale;gentille;rapide
+33342;Cette glace est ___.;douce;doux;douces;gentilles
+33343;Cette gomme est ___.;blanche;curieux;curieuses;gentilles
+33344;Ces pantalons ont l'air ___.;bleus;bleu;bleue;bleues
+33345;Ces villages resteront ___.;calmes;calme;gentille;rapide
+33346;Cette cheminée paraît ___.;jolie;joli;jolies;jolis
+33347;Ces chemises semblent ___.;jaunes;jaune;gentille;rapide
+33348;Ces lampes sont ___.;brillantes;brillants;brillante;brillant
+33349;Je trouve ces jardins ___.;verts;vert;verte;vertes
+33350;Ces jardins deviennent ___.;jaunes;jaune;gentille;rapide
+33351;Ces jardins resteront ___.;froids;froid;froide;froides
+33352;Cette voiture paraît ___.;légère;légères;léger;légers
+33353;Cette fenêtre semble ___.;blanche;blanches;blanc;blancs
+33354;Cette voiture a l'air ___.;neuve;neuves;neuf;neufs
+33355;Ma voiture est ___.;blanche;blancs;blanc;blanches
+33356;Ces maisons sont ___.;larges;large;gentille;rapide
+33357;Cette fleur-là est ___.;blanche;blanc;blancs;blanches
+33358;Mes chapeaux sont ___.;neufs;neuf;neuve;neuves
+33359;Voici une rivière bien ___.;jolie;jolies;jolis;joli
+33360;Cette fenêtre paraît ___.;petite;petites;petit;petits
+33361;Voici des toits bien ___.;jolis;joli;jolie;jolies
+33362;Cette fenêtre a l'air ___.;verte;vertes;vert;verts
+33363;On dirait que cette fleur est ___.;verte;verts;vert;vertes
+33364;Regarde, ces toits sont ___.;fatigués;fatigué;fatiguée;fatiguées
+33365;Cette chaise a l'air ___.;cassée;cassé;cassés;cassées
+33366;Je trouve cette fleur ___.;lourde;lourdes;lourd;lourds
+33367;Regarde, cette valise est ___.;lourde;lourds;lourdes;lourd
+33368;Mes chiens sont ___.;brillants;brillant;brillante;brillantes
+33369;Voici une voiture bien ___.;froide;froid;froides;froids
+33370;Cette porte a l'air ___.;blanche;blancs;blanches;blanc
+33371;Regarde, cette voiture est ___.;forte;forts;fort;fortes
+33372;Ces jardins me semblent ___.;calmes;calme;gentille;rapide
+33373;Ces sacs paraissent ___.;neufs;neuf;neuve;neuves
+33374;Ces chattes semblent ___.;sales;sale;gentille;rapide
+33375;Ma chaise est ___.;cassée;larges;curieux;curieuses
+33376;Cette histoire a l'air ___.;vieille;vieux;vieilles;gentilles
+33377;Ma robe est ___.;légère;léger;légers;légères
+33378;Ma porte est ___.;petite;petits;petites;petit
+33379;Voici des chiens bien ___.;calmes;calme;gentille;rapide
+33380;Regarde, ces bureaux sont ___.;longs;long;longue;longues
+33381;Ces sacs ont l'air ___.;sales;sale;gentille;rapide
+33382;Cette table a l'air ___.;jolie;jolis;joli;jolies
+33383;Ces valises semblent ___.;sales;sale;gentille;rapide
+33384;Ces jardins étaient ___.;blancs;blanc;blanche;blanches
+33385;Regarde, cette rivière est ___.;petite;petit;petits;petites
+33386;Ces rivières paraissent ___.;larges;large;gentille;rapide
+33387;Ma chatte est ___.;chaude;chaudes;chauds;chaud
+33388;Cette image est ___.;grise;gris;grises;gentilles
+33389;Cette jupe est ___.;grise;gris;grises;gentilles
+33390;Regarde, ces chiens sont ___.;lourds;lourd;lourde;lourdes
+33391;Voici une maison bien ___.;légère;légères;légers;léger
+33392;Voici des chapeaux bien ___.;rouges;rouge;gentille;rapide
+33393;Voici des villages bien ___.;jolis;joli;jolie;jolies
+33394;Ces cheminées sont ___.;calmes;calme;gentille;rapide
+33395;Cette valise-là est ___.;fatiguée;fatigués;fatiguées;fatigué
+33396;Ma fenêtre est ___.;lourde;lourd;lourds;lourdes
+33397;Ces chattes paraissent ___.;rouges;rouge;gentille;rapide
+33398;Ma table est ___.;grise;gris;claires;grises
+33399;Mes sacs sont ___.;neufs;neuf;neuve;neuves
+33400;Mon histoire est ___.;bleue;bleues;bleu;bleus
+33401;Regarde, ces villages sont ___.;verts;vert;verte;vertes
+33402;Ces chaises sont ___.;larges;large;gentille;rapide
+33403;Cette fleur devient ___.;petite;petit;petits;petites
+33404;Quel est un synonyme de 'magnifique' ?;beau;brillant;gentil;petit
+33405;Quel est un synonyme de 'énorme' ?;grand;facile;fort;difficile
+33406;Quel est un synonyme de 'prompt' ?;rapide;robuste;fort;aimable
+33407;Quel est un synonyme de 'difficile' ?;ardu;brillant;beau;prompt
+33408;Quel est un synonyme de 'ardu' ?;difficile;facile;minuscule;aimable
+33409;Quel est un synonyme de 'simple' ?;facile;robuste;petit;rapide
+33410;Quel est un synonyme de 'facile' ?;simple;prompt;robuste;énorme
+33411;Quel est un synonyme de 'robuste' ?;fort;beau;astucieux;ardu
+33412;Quel est un synonyme de 'astucieux' ?;malin;éclatant;grand;simple
+33413;Quel est un synonyme de 'brillant' ?;éclatant;ardu;fort;simple
+33414;Quel est un synonyme de 'éclatant' ?;brillant;facile;rapide;prompt
+33415;Quel est le contraire de 'simple' ?;compliqué;propre;loin;terne
+33416;Quel est le contraire de 'compliqué' ?;simple;étroit;dernier;épais
+33417;Quel est le contraire de 'brillant' ?;terne;simple;épais;dedans
+33418;Quel est le contraire de 'terne' ?;brillant;simple;doux;dur
+33419;Quel est le contraire de 'large' ?;étroit;terne;épais;dur
+33420;Quel est le contraire de 'étroit' ?;large;doux;dernier;près
+33421;Quel est le contraire de 'épais' ?;fin;large;simple;doux
+33422;Quel est le contraire de 'fin' ?;épais;brillant;près;étroit
+33423;Quel est le contraire de 'doux' ?;dur;simple;sale;large
+33424;Quel est le contraire de 'dur' ?;doux;dehors;sale;étroit
+33425;Quel est le contraire de 'près' ?;loin;premier;compliqué;simple
+33426;Quel est le contraire de 'loin' ?;près;dehors;dessus;propre
+33427;Quel est le contraire de 'dessus' ?;dessous;loin;épais;simple
+33428;Quel est le contraire de 'dessous' ?;dessus;large;dehors;doux
+33429;Quel est le contraire de 'dedans' ?;dehors;étroit;doux;brillant
+33430;Quel est le contraire de 'dehors' ?;dedans;sale;près;compliqué
+33431;Quel est le contraire de 'premier' ?;dernier;sale;terne;dedans
+33432;Quel est le contraire de 'dernier' ?;premier;dessous;brillant;étroit
+33433;Les pompiers ___ éteint le feu.;ont;on;ons;en
+33434;Les infirmières ___ soigné les malades.;ont;on;ons;en
+33435;Les fermiers ___ récolté le blé.;ont;on;ons;en
+33436;Les artistes ___ peint une fresque.;ont;on;ons;en
+33437;Les scouts ___ monté leur tente.;ont;on;ons;en
+33438;Marie a perdu ses clés et cherche ___ sac.;son;sont;sons;se
+33439;Paul a perdu ses clés et cherche ___ sac.;son;sont;sons;se
+33440;Léo a perdu ses clés et cherche ___ sac.;son;sont;sons;se
+33441;Zoé a perdu ses clés et cherche ___ sac.;son;sont;sons;se
+33442;Tom a perdu ses clés et cherche ___ sac.;son;sont;sons;se
+33443;Nina a perdu ses clés et cherche ___ sac.;son;sont;sons;se
+33444;Hugo a perdu ses clés et cherche ___ sac.;son;sont;sons;se
+33445;Chloé a perdu ses clés et cherche ___ sac.;son;sont;sons;se
+33446;Quel est le pluriel de 'genou' ?;genoux;genous;genoues;genox
+33447;Quel est le pluriel de 'bijou' ?;bijoux;bijous;bijoues;bijox
+33448;Quel est le pluriel de 'caillou' ?;cailloux;caillous;cailloues;caillox
+33449;Quel est le pluriel de 'chou' ?;choux;chous;choues;chox
+33450;Cette route est ___.;noire;noirs;noires;noir
+33451;Ces arbres paraissent ___.;jolis;joli;jolie;jolies
+33452;Cette soupe est ___.;salée;salé;salés;salées
+33453;Cette soupe est ___.;chaude;longues;curieuses;curieux
+33454;Ces cahiers sont ___.;étroits;étroit;étroite;étroites
+33455;Ces ponts sont ___.;étroits;étroit;étroite;étroites
+33456;Ces manteaux sont ___.;neufs;neuf;neuve;neuves
+33457;Ces ponts sont ___.;solides;sucré;sucrée;sucrées
+33458;Ces soupes sont ___.;rouges;rouge;gentille;rapide
+33459;Cette photo est ___.;ancienne;polis;poli;polies
+33460;Ces villages-là sont ___.;modernes;moderne;étroit;propre
+33461;Voici une fenêtre bien ___.;cassée;gourmands;gourmand;gourmandes
+33462;Cette écharpe est ___.;neuve;gourmands;gourmand;gourmandes
+33463;Ces oiseaux sont ___.;légers;amer;amère;amères
+33464;Cette gomme est ___.;ancienne;anciens;anciennes;ancien
+33465;On dirait que ces villages sont ___.;fragiles;fragile;carré;fatigué
+33466;Ces chaussettes sont ___.;propres;énorme;salée;tendre
+33467;Ces étoiles sont ___.;jaunes;jaune;fatiguée;forte
+33468;Cette voiture-là est ___.;vive;vifs;vif;vives
+33469;Cette règle est ___.;dorée;doré;dorés;dorées
+33470;Mes livres sont ___.;bleus;bleu;bleue;bleues
+33471;Voici une lampe bien ___.;brillante;curieux;curieuses;gentilles
+33472;Cette lune est ___.;ronde;ronds;rond;rondes
+33473;Voici une chaise bien ___.;vieille;vieilles;vieux;énormes
+33474;Cette rue est ___.;fleurie;fleuri;fleuris;fleuries
+33475;Ces classeurs sont ___.;foncés;foncé;foncée;foncées
+33476;Ces camionnettes sont ___.;rouges;neuve;blanche;rouge
+33477;Ces cahiers semblent ___.;brillants;brillante;brillant;brillantes
+33478;Regarde, cette maison est ___.;grise;gris;grises;gentilles
+33479;Mes pantalons sont ___.;jaunes;jaune;gentille;rapide
+33480;Voici des sacs bien ___.;lourds;timide;vif;bleu
+33481;Ces dessins sont ___.;sales;sale;gentille;rapide
+33482;Voici des pantalons bien ___.;solides;solide;gentille;rapide
+33483;Je trouve ces villages ___.;anciens;amer;amère;amères
+33484;Ces chevaux sont ___.;rapides;plat;plate;plates
+33485;Cette montagne est ___.;vieille;vieux;vieilles;gentilles
+33486;Cette étoile est ___.;foncée;foncées;foncé;foncés
+33487;Ces trains sont ___.;légers;léger;légère;légères
+33488;Ces histoires sont ___.;modernes;moderne;gentille;rapide
+33489;Cette rue est ___.;active;actives;actif;actifs
+33490;Ces oursons sont ___.;colorés;coloré;colorée;colorées
+33491;Ces fruits sont ___.;anciens;ancien;ancienne;anciennes
+33492;Cette soupe semble ___.;chaude;chaud;chauds;chaudes
+33493;Ces cahiers paraissent ___.;énormes;énorme;profond;large
+33494;Ces nuages sont ___.;blancs;blanc;blanche;blanches
+33495;Ces chiens-là sont ___.;dorés;doré;dorées;dorée
+33496;Cette photo est ___.;grise;gris;grises;gentilles
+33497;Cette rivière-là est ___.;agitée;agités;agité;agitées
+33498;Ces tortues sont ___.;lentes;lent;lente;lents
+33499;Ces jardins paraissaient ___.;dorés;doré;dorée;dorées
+33500;Ces ballons sont ___.;ronds;rond;ronde;rondes
+33501;Ces biches sont ___.;calmes;calme;gentille;rapide
+33502;Ces trains sont ___.;lourds;lourd;lourde;lourdes
+33503;Cette règle est ___.;fleurie;fleuries;fleuri;fleuris
+33504;Cette tarte est ___.;plate;plates;plats;plat
+33505;Ces manteaux semblent ___.;larges;large;gentille;rapide
+33506;Ces stylos sont ___.;anciens;ancien;ancienne;anciennes
+33507;Ces fruits sont ___.;rouges;rouge;gentille;rapide
+33508;Mes vélos sont ___.;légers;léger;légère;légères
+33509;Ces toits-là sont ___.;noirs;noir;noire;noires
+33510;Ces jardins sembleront ___.;fleuris;active;actif;actives
+33511;Regarde, ces pantalons sont ___.;déchirés;poli;polie;polies
+33512;Ces murs-là sont ___.;noirs;noir;noire;noires
+33513;Ces cahiers ont l'air ___.;longs;long;longue;longues
+33514;Cette gomme semble ___.;rose;silencieux;silencieuses;salées
+33515;Cette école est ___.;étroite;étroites;étroit;étroits
+33516;Ces écoles sont ___.;calmes;calme;gentille;rapide
+33517;Cette place est ___.;calme;calmes;gentille;rapide
+33518;Ces rivières ont l'air ___.;profondes;moderne;gentille;rapide
+33519;Cette place est ___.;haute;hauts;haut;hautes
+33520;Ces pantalons-là sont ___.;rouges;rouge;gentille;rapide
+33521;Ces villages deviennent ___.;neufs;neuve;neuf;neuves
+33522;Cette plage est ___.;immense;heureux;heureuses;gentilles
+33523;Cette jupe est ___.;courte;curieuses;curieux;calmes
+33524;Cette jupe semble ___.;froissée;malin;malins;malignes
+33525;Ces étoiles semblent ___.;scintillantes;paresseuse;dure;paresseux
+33526;Cette plage est ___.;précieuse;précieuses;solides;précieux
+33527;Ces gants sont ___.;verts;vert;verte;vertes
+33528;Ces classeurs sont ___.;lourds;actif;active;actives
+33529;Ces champs sont ___.;larges;salé;salée;salées
+33530;Ces bureaux-là sont ___.;jaunes;poli;polie;polies
+33531;On dirait que ces toits sont ___.;clairs;clair;claire;claires
+33532;Cette chanson est ___.;profonde;profondes;profond;profonds
+33533;Ces oiseaux sont ___.;longs;long;longue;longues
+33534;Voici une porte bien ___.;précieuse;précieux;précieuses;gentilles
+33535;Voici des vélos bien ___.;neufs;neuf;neuve;neuves
+33536;Ces champs sont ___.;longs;long;longue;longues
+33537;Cette chaussette est ___.;verte;vert;vertes;verts
+33538;Cette cantine est ___.;propre;sucré;sucrées;sucrés
+33539;Cette cour est ___.;dorée;dorés;dorées;doré
+33540;Ces écharpes sont ___.;chaudes;chaud;chaude;chauds
+33541;Cette place semble ___.;fleurie;fleuri;fleuris;fleuries
+33542;Ces tableaux sont ___.;anciens;ancien;ancienne;anciennes
+33543;Ces voitures paraissent ___.;rapides;plats;plat;plate
+33544;Ces ballons sont ___.;colorés;coloré;colorée;colorées
+33545;Ces pulls sont ___.;pâles;pâle;gentille;rapide
+33546;Ces gants semblent ___.;sombres;énorme;sage;sombre
+33547;Ces légumes sont ___.;verts;vert;verte;vertes
+33548;Ces stylos sont ___.;fatigués;fatigué;fatiguée;fatiguées
+33549;Ces lunes sont ___.;rouges;rouge;gentille;rapide
+33550;Ces champs semblent ___.;larges;large;gentille;rapide
+33551;Ma chemise est ___.;brillante;brillants;brillant;brillantes
+33552;Ces maisons semblent ___.;fortes;forte;forts;fort
+33553;Cette prairie est ___.;longue;long;longs;longues
+33554;Ces fleurs paraissent ___.;fatiguées;fatigué;fatiguée;fatigués
+33555;On dirait que ces pantalons sont ___.;déchirés;sage;gentille;rapide
+33556;Ces manteaux paraissent ___.;usés;actif;active;actives
+33557;Voici une chemise bien ___.;carrée;carrés;carrées;carré
+33558;Cette image est ___.;ancienne;ancien;anciennes;anciens
+33559;Ces arbres ont l'air ___.;immenses;muettes;muet;muette
+33560;Ces soupes sont ___.;sombres;sombre;gentille;rapide
+33561;Voici une histoire bien ___.;légère;légères;léger;légers
+33562;Cette récréation est ___.;bruyante;pointu;pointus;pointues
+33563;Ces chaussettes sont ___.;précieuses;propre;précieuse;précieux
+33564;Cette tarte est ___.;carrée;carrées;carré;carrés
+33565;Cette maison-là est ___.;fatiguée;fatigué;fatigués;fatiguées
+33566;Cette gomme paraît ___.;verte;vertes;vert;verts
+33567;Ces avions sont ___.;anciens;ancien;ancienne;anciennes
+33568;Ces chats sont ___.;gentils;gentille;gentil;gentilles
+33569;Ces manteaux ont l'air ___.;longs;long;longue;longues
+33570;Ces dessins sont ___.;colorés;coloré;colorée;colorées
+33571;Regarde, ces sacs sont ___.;neufs;vive;vif;vives
+33572;Regarde, cette porte est ___.;lourde;lourds;lourdes;lourd
+33573;Ces nuages sont ___.;menaçants;menaçante;menaçantes;menaçant
+33574;Je trouve ces toits ___.;larges;large;gentille;rapide
+33575;Ces jardins demeurent ___.;dorés;salé;salée;salées
+33576;Ces bateaux sont ___.;fragiles;fragile;gentille;rapide
+33577;Voici une chatte bien ___.;foncée;foncées;foncés;foncé
+33578;Ces écharpes sont ___.;énormes;énorme;gentille;rapide
+33579;Cette trousse est ___.;neuve;sucrés;sucrées;sucré
+33580;Ces chats semblent ___.;sombres;propre;sombre;rond
+33581;Voici une robe bien ___.;courte;courts;courtes;court
+33582;Ces oiseaux semblent ___.;rapides;plat;plate;plates
+33583;Ces montagnes sont ___.;rondes;ronde;ronds;rond
+33584;Regarde, cette lampe est ___.;étroite;étroit;étroites;étroits
+33585;Cette rue semble ___.;claire;clair;clairs;claires
+33586;Cette lampe-là est ___.;longue;bleues;heureux;heureuses
+33587;Ces jupes sont ___.;énormes;énorme;gentille;rapide
+33588;Ces histoires semblent ___.;énormes;énorme;gentille;rapide
+33589;Cette rue paraît ___.;foncée;foncé;foncées;foncés
+33590;Cette route est ___.;large;paresseuses;sales;paresseux
+33591;Regarde, cette fenêtre est ___.;neuve;neuves;neuf;neufs
+33592;Ces oiseaux paraissent ___.;sales;sale;gentille;rapide
+33593;Ces lapins sont ___.;forts;fort;forte;fortes
+33594;On dirait que ces chiens sont ___.;muets;muet;muette;muettes
+33595;Cette fleur restera ___.;fanée;gourmands;gourmandes;gourmand
+33596;Cette souris est ___.;noire;noirs;noires;noir
+33597;Ces repas sont ___.;chauds;malin;maligne;malignes
+33598;Cette prairie semble ___.;douce;doux;douces;gentilles
+33599;Mes manteaux sont ___.;chauds;chaud;chaude;chaudes
+33600;Quel est le contraire de 'net' ?;flou;sombre;gagner;perdre
+33601;Quel est le contraire de 'agité' ?;calme;compliqué;difficile;observer
+33602;Quel est le contraire de 'prudent' ?;imprudent;aimer;sombre;raconter
+33603;Quel est le contraire de 'majeur' ?;mineur;observer;raconter;aimer
+33604;Quel est le contraire de 'généreux' ?;égoïste;raconter;difficile;observer
+33605;Quel est le contraire de 'content' ?;triste;gagner;sombre;observer
+33606;Quel est le contraire de 'actif' ?;paresseux;sombre;compliqué;monter
+33607;Quel est le contraire de 'public' ?;privé;gagner;difficile;perdre
+33608;Quel est le contraire de 'souriant' ?;grognon;gagner;compliqué;difficile
+33609;Quel est le contraire de 'possible' ?;impossible;sombre;perdre;aimer
+33610;Quel est le contraire de 'plat' ?;bombé;descendre;raconter;aimer
+33611;Quel est le contraire de 'lisse' ?;rugueux;monter;gagner;perdre
+33612;Quel est le contraire de 'fatigué' ?;reposé;compliqué;aimer;observer
+33613;Quel est le contraire de 'intérieur' ?;extérieur;observer;monter;gagner
+33614;Quel est le contraire de 'honnête' ?;menteur;raconter;gagner;descendre
+33615;Quel est le contraire de 'sage' ?;turbulent;compliqué;raconter;aimer
+33616;Quel est le contraire de 'poli' ?;impoli;raconter;perdre;gagner
+33617;Quel est le contraire de 'souple' ?;raide;monter;sombre;perdre
+33618;Quel est le contraire de 'vrai' ?;faux;sombre;aimer;compliqué
+33619;Quel est le contraire de 'patient' ?;impatient;raconter;compliqué;monter
+33620;Quel est le contraire de 'occupé' ?;libre;raconter;monter;perdre
+33621;Quel est le contraire de 'supérieur' ?;inférieur;monter;aimer;gagner
+33622;Quel est le contraire de 'visible' ?;invisible;descendre;compliqué;aimer
+33623;Quel est le contraire de 'mince' ?;épais;gagner;raconter;difficile
+33624;Quel est le contraire de 'humide' ?;sec;aimer;perdre;sombre
+33625;Quel est le contraire de 'juste' ?;injuste;compliqué;difficile;perdre
+33626;Quel est le contraire de 'gai' ?;triste;gagner;aimer;sombre
+33627;Quel est le contraire de 'gagnant' ?;perdant;sombre;observer;compliqué
+33628;Quel est le contraire de 'devant' ?;derrière;observer;monter;gagner
+33629;Quel est le contraire de 'commun' ?;rare;difficile;observer;aimer
+33630;Quel est le contraire de 'droit' ?;tordu;compliqué;aimer;observer
+33631;Quel est le contraire de 'laid' ?;beau;gagner;sombre;aimer
+33632;Quel est le contraire de 'tôt' ?;tard;aimer;compliqué;observer
+33633;Quel est le contraire de 'solide' ?;fragile;compliqué;sombre;observer
+33634;Quel est le contraire de 'timide' ?;audacieux;observer;gagner;aimer
+33635;Quel est le contraire de 'ici' ?;là-bas;difficile;gagner;sombre
+33636;Quel est le contraire de 'mou' ?;dur;observer;difficile;perdre
+33637;Quel est le contraire de 'pointu' ?;émoussé;sombre;observer;gagner
+33638;Quel est le contraire de 'neuf' ?;usé;compliqué;descendre;raconter
+33639;Quel est le contraire de 'moderne' ?;ancien;compliqué;perdre;aimer
+33640;Quel est le contraire de 'beau' ?;moche;difficile;aimer;descendre
+33641;Quel est le contraire de 'aimable' ?;désagréable;difficile;descendre;gagner
+33642;Quel est le contraire de 'uni' ?;rayé;difficile;sombre;descendre
+33643;Quel est le contraire de 'calme' ?;énervé;observer;difficile;perdre
+33644;Quel est le contraire de 'précis' ?;vague;monter;gagner;raconter
+33645;Quel est le contraire de 'peureux' ?;courageux;gagner;sombre;descendre
+33646;Quel est le contraire de 'géant' ?;minuscule;descendre;monter;raconter
+33647;Quel est un synonyme de 'prendre' ?;saisir;commencer;perdre;gagner
+33648;Quel est un synonyme de 'marcher' ?;avancer;observer;descendre;monter
+33649;Quel est un synonyme de 'porter' ?;transporter;petit;monter;triste
+33650;Quel est un synonyme de 'pleurer' ?;sangloter;petit;gagner;descendre
+33651;Quel est un synonyme de 'penser' ?;réfléchir;perdre;monter;détruire
+33652;Quel est un synonyme de 'finir' ?;terminer;commencer;descendre;gagner
+33653;Quel est un synonyme de 'construire' ?;bâtir;commencer;monter;descendre
+33654;Quel est un synonyme de 'perdre' ?;égarer;monter;petit;descendre
+33655;Quel est un synonyme de 'aimer' ?;adorer;petit;triste;descendre
+33656;Quel est un synonyme de 'manger' ?;dévorer;commencer;perdre;gagner
+33657;Quel est un synonyme de 'courir' ?;filer;descendre;commencer;observer
+33658;Quel est un synonyme de 'crier' ?;hurler;découvrir;perdre;observer
+33659;Quel est un synonyme de 'réparer' ?;arranger;gagner;monter;triste
+33660;Quel est un synonyme de 'cacher' ?;dissimuler;détruire;observer;triste
+33661;Quel est un synonyme de 'gagner' ?;remporter;perdre;détruire;triste
+33662;Quel est un synonyme de 'acheter' ?;se procurer;découvrir;observer;descendre
+33663;Quel est un synonyme de 'donner' ?;offrir;monter;observer;gagner
+33664;Quel est un synonyme de 'détester' ?;haïr;gagner;détruire;descendre
+33665;Quel est un synonyme de 'attraper' ?;saisir;gagner;triste;commencer
+33666;Quel est un synonyme de 'rire' ?;glousser;observer;monter;petit
+33667;Quel est un synonyme de 'jeter' ?;lancer;commencer;observer;petit
+33668;Quel est un synonyme de 'changer' ?;modifier;triste;découvrir;gagner
+33669;Quel est un synonyme de 'dormir' ?;sommeiller;découvrir;commencer;petit
+33670;Quel est un synonyme de 'vendre' ?;céder;monter;commencer;perdre
+33671;Quel est un synonyme de 'répondre' ?;réagir;perdre;découvrir;monter
+33672;Quel est un synonyme de 'chercher' ?;fouiller;perdre;monter;détruire
+33673;Quel est un synonyme de 'écouter' ?;entendre;monter;détruire;descendre
+33674;Quel est un synonyme de 'montrer' ?;indiquer;monter;détruire;découvrir
+33675;Quel est un synonyme de 'détruire' ?;démolir;petit;commencer;découvrir
+33676;Quel est un synonyme de 'fatigué' ?;épuisé;découvrir;commencer;perdre
+33677;Quel est le pluriel de 'tuyau' ?;tuyaux;tuyaus;tuyaues;tuyauxs
+33678;Quel est le singulier de 'tuyaux' ?;tuyau;tuyaux;tuyaus;tuyaue
+33679;Quel est le pluriel de 'hameau' ?;hameaux;hameaus;hameaues;hameauxs
+33680;Quel est le singulier de 'hameaux' ?;hameau;hameaux;hameaus;hameaue
+33681;Quel est le pluriel de 'plateau' ?;plateaux;plateaus;plateaues;plateauxs
+33682;Quel est le singulier de 'plateaux' ?;plateau;plateaux;plateaus;plateaue
+33683;Quel est le pluriel de 'panneau' ?;panneaux;panneaus;panneaues;panneauxs
+33684;Quel est le singulier de 'panneaux' ?;panneau;panneaux;panneaus;panneaue
+33685;Quel est le pluriel de 'vaisseau' ?;vaisseaux;vaisseaus;vaisseaues;vaisseauxs
+33686;Quel est le singulier de 'vaisseaux' ?;vaisseau;vaisseaux;vaisseaus;vaisseaue
+33687;Quel est le pluriel de 'tonneau' ?;tonneaux;tonneaus;tonneaues;tonneauxs
+33688;Quel est le singulier de 'tonneaux' ?;tonneau;tonneaux;tonneaus;tonneaue
+33689;Quel est le pluriel de 'escabeau' ?;escabeaux;escabeaus;escabeaues;escabeauxs
+33690;Quel est le singulier de 'escabeaux' ?;escabeau;escabeaux;escabeaus;escabeaue
+33691;Quel est le pluriel de 'réseau' ?;réseaux;réseaus;réseaues;réseauxs
+33692;Quel est le singulier de 'réseaux' ?;réseau;réseaux;réseaus;réseaue
+33693;Quel est le pluriel de 'joujou' ?;joujoux;joujous;joujoues;joujouxs
+33694;Quel est le singulier de 'joujoux' ?;joujou;joujoux;joujous;joujoue
+33695;Quel est le pluriel de 'chapiteau' ?;chapiteaux;chapiteaus;chapiteaues;chapiteauxs
+33696;Quel est le singulier de 'chapiteaux' ?;chapiteau;chapiteaux;chapiteaus;chapiteaue
+33697;Quel est le pluriel de 'rouleau' ?;rouleaux;rouleaus;rouleaues;rouleauxs
+33698;Quel est le singulier de 'rouleaux' ?;rouleau;rouleaux;rouleaus;rouleaue
+33699;Quel est le pluriel de 'landau' ?;landaus;landaux;landaues;landauxs
+33700;Quel est le singulier de 'landaus' ?;landau;landaux;landaue;landeau
+33701;Quel est le pluriel de 'niveau' ?;niveaux;niveaus;niveaues;niveauxs
+33702;Quel est le singulier de 'niveaux' ?;niveau;niveaux;niveaus;niveaue
+33703;Quel est le pluriel de 'ruisseau' ?;ruisseaux;ruisseaus;ruisseaues;ruisseauxs
+33704;Quel est le singulier de 'ruisseaux' ?;ruisseau;ruisseaux;ruisseaus;ruisseaue
+33705;Quel est le pluriel de 'roseau' ?;roseaux;roseaus;roseaues;roseauxs
+33706;Quel est le singulier de 'roseaux' ?;roseau;roseaux;roseaus;roseaue
+33707;Quel est le pluriel de 'flambeau' ?;flambeaux;flambeaus;flambeaues;flambeauxs
+33708;Quel est le singulier de 'flambeaux' ?;flambeau;flambeaux;flambeaus;flambeaue
+33709;Quel est le pluriel de 'traîneau' ?;traîneaux;traîneaus;traîneaues;traîneauxs
+33710;Quel est le singulier de 'traîneaux' ?;traîneau;traîneaux;traîneaus;traîneaue
+33711;Quel est le pluriel de 'barreau' ?;barreaux;barreaus;barreaues;barreauxs
+33712;Quel est le singulier de 'barreaux' ?;barreau;barreaux;barreaus;barreaue
+33713;Quel est le pluriel de 'troupeau' ?;troupeaux;troupeaus;troupeaues;troupeauxs
+33714;Quel est le singulier de 'troupeaux' ?;troupeau;troupeaux;troupeaus;troupeaue
+33715;Quel est le pluriel de 'drapeau' ?;drapeaux;drapeaus;drapeaues;drapeauxs
+33716;Quel est le singulier de 'drapeaux' ?;drapeau;drapeaux;drapeaus;drapeaue
+33717;Quel est le pluriel de 'bureau' ?;bureaux;bureaus;bureaues;bureauxs
+33718;Quel est le singulier de 'bureaux' ?;bureau;bureaux;bureaus;bureaue
+33719;Quel est le pluriel de 'jumeau' ?;jumeaux;jumeaus;jumeaues;jumeauxs
+33720;Quel est le singulier de 'jumeaux' ?;jumeau;jumeaux;jumeaus;jumeaue
+33721;Quel est le pluriel de 'berceau' ?;berceaux;berceaus;berceaues;berceauxs
+33722;Quel est le singulier de 'berceaux' ?;berceau;berceaux;berceaus;berceaue
+33723;Quel est le pluriel de 'marteau' ?;marteaux;marteaus;marteaues;marteauxs
+33724;Quel est le singulier de 'marteaux' ?;marteau;marteaux;marteaus;marteaue
+33725;Quel est le pluriel de 'pou' ?;poux;pous;poues;pouxs
+33726;Quel est le singulier de 'poux' ?;pou;poux;pous;poue
+33727;Quel est le pluriel de 'créneau' ?;créneaux;créneaus;créneaues;créneauxs
+33728;Quel est le singulier de 'créneaux' ?;créneau;créneaux;créneaus;créneaue
+33729;Quel est le pluriel de 'poteau' ?;poteaux;poteaus;poteaues;poteauxs
+33730;Quel est le singulier de 'poteaux' ?;poteau;poteaux;poteaus;poteaue
+33731;Quel est le pluriel de 'bandeau' ?;bandeaux;bandeaus;bandeaues;bandeauxs
+33732;Quel est le singulier de 'bandeaux' ?;bandeau;bandeaux;bandeaus;bandeaue
+33733;Quel est le pluriel de 'hibou' ?;hiboux;hibous;hiboues;hibouxs
+33734;Quel est le singulier de 'hiboux' ?;hibou;hiboux;hibous;hiboue
+33735;Quel est le pluriel de 'fourneau' ?;fourneaux;fourneaus;fourneaues;fourneauxs
+33736;Quel est le singulier de 'fourneaux' ?;fourneau;fourneaux;fourneaus;fourneaue
+33737;___ joue dans le jardin.;On;Ont;En;Ons
+33738;___ lit une histoire.;On;Ont;En;Ons
+33739;___ dort déjà.;On;Ont;En;Ons
+33740;___ court dans la cour.;On;Ont;En;Ons
+33741;___ rit beaucoup.;On;Ont;En;Ons
+33742;___ part en voyage.;On;Ont;En;Ons
+33743;___ construit une cabane.;On;Ont;En;Ons
+33744;___ dessine un soleil.;On;Ont;En;Ons
+33745;___ chante fort.;On;Ont;En;Ons
+33746;___ range sa chambre.;On;Ont;En;Ons
+33747;___ écrit une lettre.;On;Ont;En;Ons
+33748;___ nage dans la mer.;On;Ont;En;Ons
+33749;___ grimpe à l'arbre.;On;Ont;En;Ons
+33750;___ répète la leçon.;On;Ont;En;Ons
+33751;___ colorie le dessin.;On;Ont;En;Ons
+33752;Les enfants ___ faim.;ont;on;en;ons
+33753;Mes parents ___ soif.;ont;on;en;ons
+33754;Les chiens ___ peur.;ont;on;en;ons
+33755;Ils ___ gagné le match.;ont;on;en;ons
+33756;Elles ___ terminé leur repas.;ont;on;en;ons
+33757;Les élèves ___ un livre.;ont;on;en;ons
+33758;Mes cousins ___ un chien.;ont;on;en;ons
+33759;Les oiseaux ___ construit un nid.;ont;on;en;ons
+33760;Les voisins ___ un grand jardin.;ont;on;en;ons
+33761;Les enfants ___ mangé leur soupe.;ont;on;en;ons
+33762;Mes frères ___ acheté un jeu.;ont;on;en;ons
+33763;Les fourmis ___ transporté une feuille.;ont;on;en;ons
+33764;Les élèves ___ fini l'exercice.;ont;on;en;ons
+33765;Les joueurs ___ remporté la coupe.;ont;on;en;ons
+33766;Les nuages ___ apporté la pluie.;ont;on;en;ons
+33767;Il range ___ tasses.;ses;ces;c'est;sait
+33768;Regarde ___ tasses-là, elles sont belles.;ces;ses;c'est;sait
+33769;Il range ___ ballons.;ses;ces;c'est;sait
+33770;Regarde ___ ballons-là, ils sont beaux.;ces;ses;c'est;sait
+33771;Il range ___ stylos.;ses;ces;c'est;sait
+33772;Regarde ___ stylos-là, ils sont beaux.;ces;ses;c'est;sait
+33773;Il range ___ montres.;ses;ces;c'est;sait
+33774;Regarde ___ montres-là, elles sont belles.;ces;ses;c'est;sait
+33775;Il range ___ dessins.;ses;ces;c'est;sait
+33776;Regarde ___ dessins-là, ils sont beaux.;ces;ses;c'est;sait
+33777;Il range ___ clés.;ses;ces;c'est;sait
+33778;Regarde ___ clés-là, elles sont belles.;ces;ses;c'est;sait
+33779;Il range ___ billes.;ses;ces;c'est;sait
+33780;Regarde ___ billes-là, elles sont belles.;ces;ses;c'est;sait
+33781;Il range ___ gâteaux.;ses;ces;c'est;sait
+33782;Regarde ___ gâteaux-là, ils sont beaux.;ces;ses;c'est;sait
+33783;Il range ___ vestes.;ses;ces;c'est;sait
+33784;Regarde ___ vestes-là, elles sont belles.;ces;ses;c'est;sait
+33785;Il range ___ chapeaux.;ses;ces;c'est;sait
+33786;Regarde ___ chapeaux-là, ils sont beaux.;ces;ses;c'est;sait
+33787;Il range ___ photos.;ses;ces;c'est;sait
+33788;Regarde ___ photos-là, elles sont belles.;ces;ses;c'est;sait
+33789;Il range ___ bagues.;ses;ces;c'est;sait
+33790;Regarde ___ bagues-là, elles sont belles.;ces;ses;c'est;sait
+33791;Il range ___ peluches.;ses;ces;c'est;sait
+33792;Regarde ___ peluches-là, elles sont belles.;ces;ses;c'est;sait
+33793;Il range ___ sacs.;ses;ces;c'est;sait
+33794;Regarde ___ sacs-là, ils sont beaux.;ces;ses;c'est;sait
+33795;Je ___ donne un bonbon.;leur;leurs;leures;leure
+33796;Voici ___ bonbons.;leurs;leur;leures;leure
+33797;Je ___ donne un classeur.;leur;leurs;leures;leure
+33798;Voici ___ classeurs.;leurs;leur;leures;leure
+33799;Je ___ donne un stylo.;leur;leurs;leures;leure
+33800;Voici ___ stylos.;leurs;leur;leures;leure
+33801;Je ___ donne un gâteau.;leur;leurs;leures;leure
+33802;Voici ___ gâteaux.;leurs;leur;leures;leure
+33803;Je ___ donne un sac.;leur;leurs;leures;leure
+33804;Voici ___ sacs.;leurs;leur;leures;leure
+33805;Je ___ donne un chapeau.;leur;leurs;leures;leure
+33806;Voici ___ chapeaux.;leurs;leur;leures;leure
+33807;Je ___ donne un ballon.;leur;leurs;leures;leure
+33808;Voici ___ ballons.;leurs;leur;leures;leure
+33809;Elle porte ___ robe.;sa;ça;sas;cas
+33810;Il a perdu ___ montre.;sa;ça;sas;cas
+33811;Elle porte ___ ceinture.;sa;ça;sas;cas
+33812;Elle porte ___ jupe.;sa;ça;sas;cas
+33813;Il a perdu ___ clé.;sa;ça;sas;cas
+33814;Elle porte ___ bague.;sa;ça;sas;cas
+33815;___ sent bon dans le jardin !;Ça;Sa;Sas;Cas
+33816;___ fait plaisir de te voir.;Ça;Sa;Sas;Cas
+33817;___ suffit pour aujourd'hui.;Ça;Sa;Sas;Cas
+33818;___ arrive tout de suite.;Ça;Sa;Sas;Cas
+33819;___ prend du temps.;Ça;Sa;Sas;Cas
+33820;___ vaut la peine d'essayer.;Ça;Sa;Sas;Cas
+33821;___ dépend du temps qu'il fait.;Ça;Sa;Sas;Cas
+33822;___ commence bientôt.;Ça;Sa;Sas;Cas
+33823;___ belle surprise !;Quel;Qu'elle;Quels;Quelles
+33824;___ jour sommes-nous ?;Quel;Qu'elle;Quels;Quelles
+33825;___ magnifique tableau !;Quel;Qu'elle;Quels;Quelles
+33826;___ heure as-tu rendez-vous ?;Quel;Qu'elle;Quels;Quelles
+33827;___ étrange bruit !;Quel;Qu'elle;Quels;Quelles
+33828;Je crois ___ parte bientôt.;qu'elle;quelle;quel;qu'ils
+33829;Je crois ___ arrive bientôt.;qu'elle;quelle;quel;qu'ils
+33830;Je crois ___ vienne bientôt.;qu'elle;quelle;quel;qu'ils
+33831;Je crois ___ chante bientôt.;qu'elle;quelle;quel;qu'ils
+33832;Je crois ___ danse bientôt.;qu'elle;quelle;quel;qu'ils
+33833;Je crois ___ gagne bientôt.;qu'elle;quelle;quel;qu'ils
+33834;Je crois ___ réussisse bientôt.;qu'elle;quelle;quel;qu'ils
+33835;Je crois ___ dorme bientôt.;qu'elle;quelle;quel;qu'ils
+33836;Ces chats paraissent ___.;actifs;active;actives;actif
+33837;Ces fruits semblent ___.;légers;léger;légère;légères
+33838;Cette soupe paraît ___.;épaisse;pointues;pointu;pointus
+33839;Cette école est ___.;ronde;polies;poli;polis
+33840;Cette boîte est ___.;brillante;brillant;brillants;brillantes
+33841;On dirait que cette rivière est ___.;grise;gris;grises;gentilles
+33842;Ces gants paraissent ___.;troués;sage;doux;timide
+33843;Ces avions sont ___.;jolis;joli;jolie;jolies
+33844;Ces pulls sont ___.;fleuris;fleuri;fleurie;fleuries
+33845;Regarde, ces chapeaux sont ___.;foncés;foncé;foncée;foncées
+33846;Ces voitures ont l'air ___.;rapides;rapide;gentille;solide
+33847;Cette chaussette semble ___.;neuve;neuf;neufs;neuves
+33848;Cette écharpe semble ___.;neuve;neuf;neuves;neufs
+33849;Ces champs paraissent ___.;brillants;brillant;brillante;brillantes
+33850;Ces glaces sont ___.;fragiles;fragile;gentille;rapide
+33851;Ces fleurs ont l'air ___.;vertes;verte;vert;verts
+33852;Cette cour semble ___.;silencieuse;silencieux;noires;silencieuses
+33853;Ces lapins sont ___.;fatigués;fatigué;fatiguée;fatiguées
+33854;Ces bateaux sont ___.;sales;timide;gentille;rapide
+33855;Ces sacs-là sont ___.;petits;petit;petite;petites
+33856;Regarde, cette robe est ___.;déchirée;paresseux;paresseuses;gentilles
+33857;Ces rues sont ___.;calmes;calme;gentille;rapide
+33858;Ces jardins restent ___.;étroits;étroit;étroite;étroites
+33859;Cette fenêtre-là est ___.;ronde;rond;rondes;ronds
+33860;Cette biche est ___.;vieille;vieilles;vieux;épaisses
+33861;Ces soupes semblent ___.;épaisses;calme;gentille;rapide
+33862;Ces renards sont ___.;rapides;rapide;gentille;solide
+33863;Cette glace est ___.;claire;claires;clair;clairs
+33864;Ces vergers sont ___.;dorés;dorée;dorées;doré
+33865;Regarde, cette chemise est ___.;claire;clair;claires;clairs
+33866;Cette école semble ___.;neuve;neuf;neufs;neuves
+33867;Je trouve ces chiens ___.;rouges;rouge;gentil;fatigué
+33868;Je trouve ces arbres ___.;étroits;sucrées;sucré;sucrée
+33869;Cette école paraît ___.;bleue;bleues;bleus;bleu
+33870;Cette biche semble ___.;brillante;brillants;brillantes;brillant
+33871;Voici des arbres bien ___.;rouges;blanc;rouge;bleu
+33872;Cette route semble ___.;sinueuse;heureux;heureuses;gentilles
+33873;Il paraît que ces jardins sont ___.;profonds;profonde;profondes;profond
+33874;Cette porte-là est ___.;noire;noires;noir;noirs
+33875;Cette étoile est ___.;pointue;pointues;pointu;pointus
+33876;Cette glace semble ___.;neuve;neuf;neufs;neuves
+33877;Cette récréation est ___.;animée;animé;animés;animées
+33878;Cette tarte semble ___.;claire;clair;claires;clairs
+33879;Cette cantine semble ___.;bruyante;plat;plats;plates
+33880;Cette rue a l'air ___.;calme;calmes;gentille;rapide
+33881;Ces maisons paraissent ___.;anciennes;tendre;gentille;rapide
+33882;Cette récréation semble ___.;animée;brillantes;brillant;brillants
+33883;Cette image semble ___.;noire;noirs;noir;noires
+33884;Cette photo semble ___.;ancienne;ancien;anciennes;anciens
+33885;Je trouve cette rivière ___.;noire;curieuses;curieux;vieilles
+33886;Ces étoiles paraissent ___.;rouges;polie;rouge;étroite
+33887;Mes cahiers sont ___.;longs;amer;amères;amère
+33888;Cette veste est ___.;neuve;gentil;gentilles;gentils
+33889;Voici des manteaux bien ___.;forts;fortes;fort;forte
+33890;Ces cartables sont ___.;lourds;lourd;lourde;lourdes
+33891;Ces bateaux semblent ___.;sales;sale;gentille;rapide
+33892;Cette règle semble ___.;neuve;neuf;neufs;neuves
+33893;Ces cartables sont ___.;étroits;étroit;étroite;étroites
+33894;Cette jupe paraît ___.;longue;fortes;fort;forts
+33895;Ces ballons semblent ___.;colorés;amer;amère;amères
+33896;Ces avions semblent ___.;fragiles;fragile;gentille;rapide
+33897;Ces oiseaux ont l'air ___.;bruyants;sucré;sucrée;sucrées
+33898;Cette biche paraît ___.;calme;calmes;gentille;rapide
+33899;Cette image paraît ___.;floue;moelleuses;silencieux;silencieuses
+33900;Ces cartables semblent ___.;neufs;neuf;neuve;neuves
+33901;Cette étoile semble ___.;scintillante;scintillants;scintillant;scintillantes
+33902;Ces lapins semblent ___.;blancs;blanc;blanche;blanches
+33903;Regarde, ces manteaux sont ___.;chauds;dures;dur;dure
+33904;Regarde, cette histoire est ___.;captivante;pointus;pointues;pointu
+33905;Ces tableaux sont ___.;pâles;pâle;gentille;rapide
+33906;On dirait que cette voiture est ___.;silencieuse;claires;silencieuses;silencieux
+33907;Ces glaces sont ___.;sucrées;sucré;sucrés;sucrée
+33908;Ces nuages semblent ___.;gris;moderne;gentille;rapide
+33909;Cette colline est ___.;haute;hauts;haut;hautes
+33910;Ces étoiles ont l'air ___.;lointaines;tendre;propre;rapide
+33911;Cette école a l'air ___.;ronde;rond;ronds;rondes
+33912;Ces stylos semblent ___.;neufs;neuf;neuve;neuves
+33913;Cette récréation paraît ___.;calme;curieux;curieuses;gentilles
+33914;Cette chanson semble ___.;forte;fortes;fort;forts
+33915;Cette soupe a l'air ___.;grise;gris;grises;gentilles
+33916;Ces rues sont ___.;animées;animés;animée;animé
+33917;Cette tortue est ___.;gourmande;gourmandes;gourmands;gourmand
+33918;Ces gâteaux sont ___.;énormes;énorme;gentille;rapide
+33919;Ces nuages paraissent ___.;menaçants;salées;salée;salé
+33920;Cette route paraît ___.;bleue;bleues;bleu;bleus
+33921;Cette glace paraît ___.;amère;amères;amers;amer
+33922;Regarde, ces arbres sont ___.;hauts;haut;haute;hautes
+33923;J'ai des jardins très ___.;plats;plat;plate;plates
+33924;Ces arbres-là sont ___.;immenses;plate;plat;plates
+33925;Regarde, cette chaise est ___.;bancale;gentils;gentilles;gentil
+33926;Cette souris est ___.;curieuse;curieux;curieuses;gentilles
+33927;Ces chapeaux-là sont ___.;colorés;coloré;colorée;colorées
+33928;Ces plages sont ___.;propres;timide;gentille;rapide
+33929;Ces chaussettes semblent ___.;sales;gentille;sale;noire
+33930;Cette colline semble ___.;dure;durs;dur;dures
+33931;Mes oiseaux sont ___.;fatigués;fatigué;fatiguée;fatiguées
+33932;Ces gâteaux sont ___.;fleuris;fleuri;fleurie;fleuries
+33933;Ces nuages ont l'air ___.;épais;gentilles;gentille;gentil
+33934;Ces chats ont l'air ___.;curieux;pointue;pointues;pointu
+33935;Voici une table bien ___.;moelleuse;moelleux;moelleuses;gentilles
+33936;Cette tarte paraît ___.;brûlée;curieux;curieuses;gentilles
+33937;Cette tarte a l'air ___.;dorée;dorés;doré;dorées
+33938;On dirait que ces arbres sont ___.;immenses;poli;polie;polies
+33939;Ces souris sont ___.;calmes;calme;gentille;rapide
+33940;Cette photo paraît ___.;vieille;vieux;vieilles;heureuses
+33941;Ces maisons ont l'air ___.;sales;sale;gentille;rapide
+33942;Ces manteaux-là sont ___.;petits;petite;petites;petit
+33943;Ces gâteaux semblent ___.;appétissants;gourmand;gourmande;gourmandes
+33944;Cette gomme a l'air ___.;rose;muets;muet;muettes
+33945;Ces montagnes sont ___.;dures;dur;durs;dure
+33946;Ces écharpes semblent ___.;sales;sale;gentille;rapide
+33947;Ces chattes ont l'air ___.;timides;timide;gentille;rapide
+33948;Regarde, cette chatte est ___.;curieuse;plat;plats;plates
+33949;Cette tortue est ___.;précieuse;précieux;précieuses;gentilles

@@ -1,0 +1,453 @@
+[gd_scene format=3 uid="uid://dwu2xei3xuf87"]
+
+[ext_resource type="Script" uid="uid://bejad3i7ea7k0" path="res://ui/onboarding/welcome_panel.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://d1h41ed4ec6f3" path="res://assets/classe2.0/intro/intro.webp" id="2"]
+[ext_resource type="Texture2D" uid="uid://cflio354ueky3" path="res://assets/classe2.0/intro/enter-up.webp" id="3"]
+[ext_resource type="Texture2D" uid="uid://c4ugta8ia2ls4" path="res://assets/classe2.0/intro/enter-down.webp" id="4"]
+[ext_resource type="Texture2D" uid="uid://ddi6c48rm0skt" path="res://assets/classe2.0/intro/quitter-up.webp" id="5"]
+[ext_resource type="Texture2D" uid="uid://76pxbrlx2jna" path="res://assets/classe2.0/intro/quitter-down.webp" id="6"]
+[ext_resource type="Script" uid="uid://c77ewbku76c26" path="res://ui/onboarding/seasonal_background.gd" id="7_seasonal_background"]
+[ext_resource type="Texture2D" uid="uid://j86mgri8bhkn" path="res://assets/classe2.0/intro/printemps.webp" id="8_spring"]
+[ext_resource type="Texture2D" uid="uid://8viyxepd1k7v" path="res://assets/classe2.0/intro/automne.webp" id="9_autumn"]
+[ext_resource type="Texture2D" uid="uid://bsaf3l70s83dk" path="res://assets/classe2.0/intro/hiver.webp" id="10_winter"]
+[ext_resource type="Script" uid="uid://bkfltmv3k5m4k" path="res://ui/onboarding/help_button.gd" id="11_help_button"]
+[ext_resource type="Texture2D" uid="uid://befr47ftxwtr3" path="res://assets/classe2.0/icones/help.webp" id="12_icon_help"]
+[ext_resource type="PackedScene" uid="uid://cn16e2u5cb0q" path="res://ui/onboarding/help_overlay.tscn" id="13_help_overlay"]
+
+[node name="WelcomePanel" type="Control" unique_id=309200071]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1")
+
+[node name="Background" type="TextureRect" parent="." unique_id=1573906388]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+expand_mode = 1
+stretch_mode = 6
+script = ExtResource("7_seasonal_background")
+texture_winter = ExtResource("10_winter")
+texture_spring = ExtResource("8_spring")
+texture_summer = ExtResource("2")
+texture_autumn = ExtResource("9_autumn")
+
+[node name="IntroMenu" type="HBoxContainer" parent="." unique_id=455775908]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -300.0
+offset_top = -124.0
+offset_right = 300.0
+offset_bottom = -40.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_constants/separation = 40
+alignment = 1
+
+[node name="EntrerButton" type="TextureButton" parent="IntroMenu" unique_id=604557227]
+custom_minimum_size = Vector2(253, 84)
+layout_mode = 2
+size_flags_vertical = 4
+tooltip_text = "Entrer en classe"
+texture_normal = ExtResource("3")
+texture_pressed = ExtResource("4")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="QuitterButton" type="TextureButton" parent="IntroMenu" unique_id=101905298]
+custom_minimum_size = Vector2(266, 84)
+layout_mode = 2
+size_flags_vertical = 4
+tooltip_text = "Quitter"
+texture_normal = ExtResource("5")
+texture_pressed = ExtResource("6")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Panel" type="Panel" parent="." unique_id=767375251]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.2
+anchor_top = 0.06
+anchor_right = 0.8
+anchor_bottom = 0.94
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TitleRow" type="HBoxContainer" parent="Panel" unique_id=1525183595]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 20.0
+offset_top = 10.0
+offset_right = -20.0
+offset_bottom = 40.0
+grow_horizontal = 2
+theme_override_constants/separation = 12
+
+[node name="TitleLabel" type="Label" parent="Panel/TitleRow" unique_id=1341137122]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"TitleLabel"
+text = "Bienvenue !"
+horizontal_alignment = 1
+
+[node name="CloseButton" type="Button" parent="Panel/TitleRow" unique_id=852675471]
+custom_minimum_size = Vector2(28, 28)
+layout_mode = 2
+size_flags_vertical = 0
+theme_type_variation = &"CloseButton"
+text = "X"
+
+[node name="TitleSeparator" type="HSeparator" parent="Panel" unique_id=367893531]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_top = 55.0
+offset_bottom = 59.0
+grow_horizontal = 2
+
+[node name="Margin" type="MarginContainer" parent="Panel" unique_id=651793444]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 80.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 28
+theme_override_constants/margin_top = 0
+theme_override_constants/margin_right = 28
+theme_override_constants/margin_bottom = 28
+
+[node name="Content" type="VBoxContainer" parent="Panel/Margin" unique_id=682749076]
+layout_mode = 2
+theme_override_constants/separation = 18
+
+[node name="LoginSection" type="VBoxContainer" parent="Panel/Margin/Content" unique_id=52266348]
+layout_mode = 2
+theme_override_constants/separation = 14
+
+[node name="LoginRow" type="HBoxContainer" parent="Panel/Margin/Content/LoginSection" unique_id=285428542]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="LoginLabel" type="Label" parent="Panel/Margin/Content/LoginSection/LoginRow" unique_id=1236734425]
+custom_minimum_size = Vector2(160, 0)
+layout_mode = 2
+theme_type_variation = &"TitleLabel"
+text = "Pseudo"
+
+[node name="LoginInput" type="LineEdit" parent="Panel/Margin/Content/LoginSection/LoginRow" unique_id=1626031274]
+custom_minimum_size = Vector2(220, 0)
+layout_mode = 2
+
+[node name="PseudoForgetButton" type="Button" parent="Panel/Margin/Content/LoginSection" unique_id=1682833266]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 0
+text = "Oublier ce pseudo sur cet appareil"
+
+[node name="PasswordRow" type="HBoxContainer" parent="Panel/Margin/Content/LoginSection" unique_id=439972480]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="PasswordLabel" type="Label" parent="Panel/Margin/Content/LoginSection/PasswordRow" unique_id=2084664583]
+custom_minimum_size = Vector2(160, 0)
+layout_mode = 2
+theme_type_variation = &"TitleLabel"
+text = "Mot de passe"
+
+[node name="PasswordInput" type="LineEdit" parent="Panel/Margin/Content/LoginSection/PasswordRow" unique_id=1725716610]
+custom_minimum_size = Vector2(220, 0)
+layout_mode = 2
+secret = true
+
+[node name="LoginErrorLabel" type="Label" parent="Panel/Margin/Content/LoginSection" unique_id=62318794]
+visible = false
+layout_mode = 2
+autowrap_mode = 2
+
+[node name="LoginButton" type="Button" parent="Panel/Margin/Content/LoginSection" unique_id=1750531258]
+layout_mode = 2
+size_flags_horizontal = 0
+text = "Se connecter"
+
+[node name="SwitchToCreateButton" type="Button" parent="Panel/Margin/Content/LoginSection" unique_id=1669334749]
+layout_mode = 2
+size_flags_horizontal = 0
+text = "Pas encore de compte ? Créer un compte"
+
+[node name="LoginSuggestionsDropdown" type="PanelContainer" parent="Panel/Margin/Content/LoginSection" unique_id=1233099866]
+visible = false
+top_level = true
+layout_mode = 2
+
+[node name="LoginSuggestionsScroll" type="ScrollContainer" parent="Panel/Margin/Content/LoginSection/LoginSuggestionsDropdown"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 160)
+horizontal_scroll_mode = 0
+
+[node name="LoginSuggestionsBox" type="VBoxContainer" parent="Panel/Margin/Content/LoginSection/LoginSuggestionsDropdown/LoginSuggestionsScroll"]
+layout_mode = 2
+theme_override_constants/separation = 4
+
+[node name="CreateSection" type="VBoxContainer" parent="Panel/Margin/Content" unique_id=918702366]
+visible = false
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/separation = 14
+
+[node name="CreateScroll" type="ScrollContainer" parent="Panel/Margin/Content/CreateSection" unique_id=1029625931]
+layout_mode = 2
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+
+[node name="ScrollMargin" type="MarginContainer" parent="Panel/Margin/Content/CreateSection/CreateScroll" unique_id=1543156611]
+layout_mode = 2
+theme_override_constants/margin_top = 6
+theme_override_constants/margin_right = 16
+
+[node name="CreateList" type="VBoxContainer" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin" unique_id=558523976]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 12
+
+[node name="NomRow" type="HBoxContainer" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList" unique_id=231789519]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="NomLabel" type="Label" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/NomRow" unique_id=1140339151]
+custom_minimum_size = Vector2(160, 0)
+layout_mode = 2
+theme_type_variation = &"TitleLabel"
+text = "Nom"
+
+[node name="NomInput" type="LineEdit" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/NomRow" unique_id=1052618107]
+custom_minimum_size = Vector2(220, 0)
+layout_mode = 2
+
+[node name="PrenomRow" type="HBoxContainer" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList" unique_id=1172428567]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="PrenomLabel" type="Label" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/PrenomRow" unique_id=1576605199]
+custom_minimum_size = Vector2(160, 0)
+layout_mode = 2
+theme_type_variation = &"TitleLabel"
+text = "Prénom"
+
+[node name="PrenomInput" type="LineEdit" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/PrenomRow" unique_id=1992374381]
+custom_minimum_size = Vector2(220, 0)
+layout_mode = 2
+
+[node name="ClasseRow" type="HBoxContainer" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList" unique_id=2099585633]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="ClasseLabel" type="Label" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/ClasseRow" unique_id=765481046]
+custom_minimum_size = Vector2(160, 0)
+layout_mode = 2
+theme_type_variation = &"TitleLabel"
+text = "Classe"
+
+[node name="ClasseOption" type="OptionButton" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/ClasseRow" unique_id=314513388]
+layout_mode = 2
+
+[node name="BirthdateRow" type="HBoxContainer" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList" unique_id=1489933202]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="BirthdateLabel" type="Label" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/BirthdateRow" unique_id=325683994]
+custom_minimum_size = Vector2(160, 0)
+layout_mode = 2
+theme_type_variation = &"TitleLabel"
+text = "Date de naissance"
+
+[node name="DaySpin" type="SpinBox" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/BirthdateRow" unique_id=20345883]
+layout_mode = 2
+min_value = 1.0
+max_value = 31.0
+value = 1.0
+
+[node name="MonthSpin" type="SpinBox" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/BirthdateRow" unique_id=1977302068]
+layout_mode = 2
+min_value = 1.0
+max_value = 12.0
+value = 1.0
+
+[node name="YearSpin" type="SpinBox" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/BirthdateRow" unique_id=1093209759]
+layout_mode = 2
+min_value = 2000.0
+max_value = 2026.0
+value = 2018.0
+
+[node name="PaysRow" type="HBoxContainer" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList" unique_id=85152593]
+visible = false
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="PaysLabel" type="Label" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/PaysRow" unique_id=1641082322]
+custom_minimum_size = Vector2(160, 0)
+layout_mode = 2
+theme_type_variation = &"TitleLabel"
+text = "Pays"
+
+[node name="PaysOption" type="OptionButton" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/PaysRow" unique_id=955885462]
+layout_mode = 2
+theme_override_constants/icon_max_width = 84
+
+[node name="NewLoginRow" type="HBoxContainer" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList" unique_id=1847876690]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="NewLoginLabel" type="Label" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/NewLoginRow" unique_id=266392549]
+custom_minimum_size = Vector2(160, 0)
+layout_mode = 2
+theme_type_variation = &"TitleLabel"
+text = "Pseudo"
+
+[node name="NewLoginInput" type="LineEdit" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/NewLoginRow" unique_id=1164524022]
+custom_minimum_size = Vector2(220, 0)
+layout_mode = 2
+
+[node name="LoginSuggestionButton" type="Button" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList" unique_id=1452472109]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 0
+
+[node name="NewPasswordRow" type="HBoxContainer" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList" unique_id=1242766423]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="NewPasswordLabel" type="Label" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/NewPasswordRow" unique_id=905494423]
+custom_minimum_size = Vector2(160, 0)
+layout_mode = 2
+theme_type_variation = &"TitleLabel"
+text = "Mot de passe"
+
+[node name="NewPasswordInput" type="LineEdit" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/NewPasswordRow" unique_id=1391794019]
+custom_minimum_size = Vector2(220, 0)
+layout_mode = 2
+secret = true
+
+[node name="ConfirmPasswordRow" type="HBoxContainer" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList" unique_id=1142323499]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="ConfirmPasswordLabel" type="Label" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/ConfirmPasswordRow" unique_id=62293211]
+custom_minimum_size = Vector2(160, 0)
+layout_mode = 2
+theme_type_variation = &"TitleLabel"
+text = "Confirmer"
+
+[node name="ConfirmPasswordInput" type="LineEdit" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/ConfirmPasswordRow" unique_id=507337570]
+custom_minimum_size = Vector2(220, 0)
+layout_mode = 2
+secret = true
+
+[node name="ParentalControlFrame" type="PanelContainer" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList" unique_id=624885312]
+layout_mode = 2
+
+[node name="Margin" type="MarginContainer" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/ParentalControlFrame" unique_id=591742299]
+layout_mode = 2
+theme_override_constants/margin_left = 16
+theme_override_constants/margin_top = 16
+theme_override_constants/margin_right = 16
+theme_override_constants/margin_bottom = 16
+
+[node name="Content" type="VBoxContainer" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/ParentalControlFrame/Margin" unique_id=1981047289]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="ParentalControlCheck" type="CheckBox" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/ParentalControlFrame/Margin/Content" unique_id=1587207844]
+layout_mode = 2
+size_flags_horizontal = 0
+text = "Contrôle parental"
+
+[node name="ParentalPasswordGroup" type="VBoxContainer" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/ParentalControlFrame/Margin/Content" unique_id=857080110]
+visible = false
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="ParentalPasswordRow" type="HBoxContainer" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/ParentalControlFrame/Margin/Content/ParentalPasswordGroup" unique_id=1632190617]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="ParentalPasswordLabel" type="Label" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/ParentalControlFrame/Margin/Content/ParentalPasswordGroup/ParentalPasswordRow" unique_id=1069376185]
+custom_minimum_size = Vector2(160, 0)
+layout_mode = 2
+theme_type_variation = &"TitleLabel"
+text = "Mot de passe contrôle parental"
+
+[node name="ParentalPasswordInput" type="LineEdit" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/ParentalControlFrame/Margin/Content/ParentalPasswordGroup/ParentalPasswordRow" unique_id=1860974291]
+custom_minimum_size = Vector2(220, 0)
+layout_mode = 2
+secret = true
+
+[node name="ParentalPasswordConfirmRow" type="HBoxContainer" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/ParentalControlFrame/Margin/Content/ParentalPasswordGroup" unique_id=165874701]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="ParentalPasswordConfirmLabel" type="Label" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/ParentalControlFrame/Margin/Content/ParentalPasswordGroup/ParentalPasswordConfirmRow" unique_id=755142377]
+custom_minimum_size = Vector2(160, 0)
+layout_mode = 2
+theme_type_variation = &"TitleLabel"
+text = "Confirmer le mot de passe"
+
+[node name="ParentalPasswordConfirmInput" type="LineEdit" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/ParentalControlFrame/Margin/Content/ParentalPasswordGroup/ParentalPasswordConfirmRow" unique_id=1416775448]
+custom_minimum_size = Vector2(220, 0)
+layout_mode = 2
+secret = true
+
+[node name="CreateErrorLabel" type="Label" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList" unique_id=1910272739]
+visible = false
+layout_mode = 2
+autowrap_mode = 2
+
+[node name="CreateButton" type="Button" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList" unique_id=1969909297]
+layout_mode = 2
+size_flags_horizontal = 0
+text = "Créer le compte"
+
+[node name="SwitchToLoginButton" type="Button" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList" unique_id=1534250578]
+layout_mode = 2
+size_flags_horizontal = 0
+text = "Déjà un compte ? Se connecter"
+
+[node name="HelpButton" type="Button" parent="." unique_id=304739026]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -88.0
+offset_top = -88.0
+offset_right = -20.0
+offset_bottom = -20.0
+grow_horizontal = 0
+grow_vertical = 0
+pivot_offset = Vector2(34, 34)
+tooltip_text = "Aide"
+focus_mode = 0
+icon = ExtResource("12_icon_help")
+flat = true
+icon_alignment = 1
+expand_icon = true
+script = ExtResource("11_help_button")
+overlay_path = NodePath("../HelpOverlay")
+
+[node name="HelpOverlay" parent="." unique_id=1869504952 instance=ExtResource("13_help_overlay")]
+visible = false
+layout_mode = 1

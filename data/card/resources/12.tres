@@ -1,12 +1,12 @@
 [gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://hat1eixbby2r"]
 
-[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_twmou"]
-[ext_resource type="Texture2D" uid="uid://25jy317d2xej" path="res://data/card/art/12.webp" id="2_f7hau"]
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/classe2.0/pets/12.webp" id="2_texture"]
 
 [resource]
-script = ExtResource("1_twmou")
+script = ExtResource("1_script")
 id = &"12"
 category = &"renard"
-display_name = "Arctique"
-texture = ExtResource("2_f7hau")
+display_name = "Givre"
+texture = ExtResource("2_texture")
 grade = 1

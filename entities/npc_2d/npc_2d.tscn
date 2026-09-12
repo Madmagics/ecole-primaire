@@ -1,18 +1,22 @@
-[gd_scene load_steps=6 format=3]
+[gd_scene load_steps=7 format=3]
 
 [ext_resource type="Script" path="res://entities/npc_2d/npc_2d.gd" id="1"]
 [ext_resource type="Script" path="res://entities/interactable/interactable_component_2d.gd" id="2"]
 [ext_resource type="Script" path="res://entities/npc/components/question_giver_component.gd" id="3"]
 [ext_resource type="Script" path="res://entities/decor_2d/capsule_2d.gd" id="4"]
+[ext_resource type="PackedScene" path="res://ui/speech_bubble/speech_bubble.tscn" id="5"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_1"]
-radius = 16.0
-height = 56.0
+radius = 9.6
+height = 33.6
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_1"]
-radius = 80.0
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_2"]
+radius = 48.0
+height = 190.0
 
 [node name="NPC2D" type="CharacterBody2D"]
+collision_layer = 0
+collision_mask = 0
 script = ExtResource("1")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
@@ -22,7 +26,7 @@ shape = SubResource("CapsuleShape2D_1")
 script = ExtResource("2")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="InteractableComponent"]
-shape = SubResource("CircleShape2D_1")
+shape = SubResource("CapsuleShape2D_2")
 
 [node name="QuestionGiverComponent" type="Node" parent="."]
 script = ExtResource("3")
@@ -30,5 +34,7 @@ script = ExtResource("3")
 [node name="CapsuleVisual" type="Node2D" parent="."]
 script = ExtResource("4")
 color = Color(1, 0.09019608, 1, 1)
-radius = 16.0
-height = 56.0
+radius = 9.6
+height = 33.6
+
+[node name="SpeechBubble" parent="." instance=ExtResource("5")]

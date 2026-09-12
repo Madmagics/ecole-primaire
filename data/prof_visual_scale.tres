@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="ProfVisualScale" format=3 uid="uid://drcdi12anymur"]
+
+[ext_resource type="Script" uid="uid://bdbi85acdkjvp" path="res://data/prof_visual_scale.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+factor = 0.72

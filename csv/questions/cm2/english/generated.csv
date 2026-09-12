@@ -1,86 +1,529 @@
 id;text;correct_answer;choice_2;choice_3;choice_4
-22000;Comment dit-on 'samedi' en anglais ?;saturday;thursday;monday;friday
-22001;Comment dit-on 'professeur' en anglais ?;teacher;firefighter;police officer;doctor
-22002;Que veut dire 'black' en français ?;noir;rouge;jaune;gris
-22003;Que veut dire 'september' en français ?;septembre;mars;octobre;avril
-22004;Comment dit-on 'cheval' en anglais ?;horse;dog;sheep;pig
-22005;Comment dit-on 'pied' en anglais ?;foot;hand;mouth;head
-22006;Que veut dire 'water' en français ?;eau;lait;pomme;viande
-22007;Que veut dire 'nose' en français ?;nez;bouche;oreille;tête
-22008;Que veut dire 'mom' en français ?;maman;bébé;grand-père;papa
+22000;Comment dit-on 'j'ai fait du/de la gymnastique le week-end dernier' en anglais ?;I did gymnastics last weekend;I did volleyball last weekend;I did rugby last weekend;I did tennis last weekend
+22001;Que veut dire 'cleanest' en français ?;le plus propre;le plus riche;le plus chaud;le plus lourd
+22002;Comment dit-on 'un fleuve est plus large que un ruisseau' en anglais ?;A river is wider than a stream;A truck is longer than a motorbike;A mountain is cleaner than a hill;A rock is wider than a feather
+22003;Comment dit-on 'j'ai choisi' en anglais ?;I chose;I sent;I drove;I broke
+22004;Comment dit-on 'je suis tombé' en anglais ?;I fell;I thought;I chose;I flew
+22005;Comment dit-on 'j'ai porté un/une chaussettes hier' en anglais ?;I wore socks yesterday;I wore a tie yesterday;I wore a coat yesterday;I wore a dress yesterday
+22006;Comment dit-on 'j'ai rencontré un/une écrivain hier' en anglais ?;I met a writer yesterday;I met an architect yesterday;I met a driver yesterday;I met a sailor yesterday
+22007;Comment dit-on 'j'ai vu un/une hibou au zoo' en anglais ?;I saw an owl at the zoo;I saw a bat at the zoo;I saw a fox at the zoo;I saw a crab at the zoo
+22008;Comment dit-on 'j'ai rencontré un/une mécanicien hier' en anglais ?;I met a mechanic yesterday;I met a journalist yesterday;I met a butcher yesterday;I met a pilot yesterday
 22009;Comment dit-on 'camion' en anglais ?;truck;boat;bus;plane
-22010;Que veut dire 'bread' en français ?;pain;lait;gâteau;riz
-22011;Que veut dire 'milk' en français ?;lait;eau;oeuf;pomme
+22010;Comment dit-on 'j'ai porté un/une chaussures hier' en anglais ?;I wore shoes yesterday;I wore socks yesterday;I wore a coat yesterday;I wore gloves yesterday
+22011;Comment dit-on 'un camion est plus riche que une moto' en anglais ?;A truck is richer than a motorbike;A building is hotter than a house;A train is higher than a bicycle;A plane is louder than a bird
 22012;Que veut dire 'noon' en français ?;midi;hier;aujourd'hui;matin
-22013;Que veut dire 'hot' en français ?;chaud;orage;nuage;pluie
-22014;Comment dit-on 'livre' en anglais ?;book;notebook;bag;window
-22015;Que veut dire 'truck' en français ?;camion;bateau;moto;avion
-22016;Comment dit-on 'mouton' en anglais ?;sheep;fish;dog;mouse
-22017;Que veut dire 'boat' en français ?;bateau;avion;moto;voiture
-22018;Comment dit-on 'docteur' en anglais ?;doctor;cook;farmer;dentist
-22019;Que veut dire 'pig' en français ?;cochon;oiseau;vache;chien
-22020;Comment dit-on 'février' en anglais ?;february;august;april;june
-22021;Que veut dire 'orange' en français ?;orange;blanc;marron;rouge
-22022;Comment dit-on 'bouche' en anglais ?;mouth;head;leg;eye
-22023;Comment dit-on 'jeudi' en anglais ?;thursday;monday;sunday;tuesday
-22024;Que veut dire 'door' en français ?;porte;règle;table;fenêtre
+22013;Comment dit-on 'parfois, je fais mes devoirs' en anglais ?;I sometimes do my homework;I never wash my hands;I never do my homework;I often do sport
+22014;Comment dit-on 'j'ai rencontré un/une avocat hier' en anglais ?;I met a lawyer yesterday;I met a butcher yesterday;I met a driver yesterday;I met a baker yesterday
+22015;Comment dit-on 'moins riche que' en anglais ?;less rich than;less wide than;less heavy than;heaviest
+22016;Comment dit-on 'un train est plus long que une bicyclette' en anglais ?;A train is longer than a bicycle;A mountain is louder than a hill;A truck is richer than a motorbike;A plane is longer than a bird
+22017;Comment dit-on 'j'ai vu un/une lézard au zoo' en anglais ?;I saw a lizard at the zoo;I saw a peacock at the zoo;I saw an eagle at the zoo;I saw a swan at the zoo
+22018;Comment dit-on 'j'ai vu un/une cygne au zoo' en anglais ?;I saw a swan at the zoo;I saw a crocodile at the zoo;I saw an eagle at the zoo;I saw a seal at the zoo
+22019;Comment dit-on 'j'ai fermé la fenêtre' en anglais ?;I closed the window;I found a treasure;I broke my toy;I broke a plate
+22020;Comment dit-on 'j'ai construit une maison' en anglais ?;I built a house;I broke my toy;I found a treasure;I opened the present
+22021;Comment dit-on 'j'ai mangé du/de la fromage ce midi' en anglais ?;I ate cheese at lunch;I ate jam at lunch;I ate chocolate at lunch;I ate chicken at lunch
+22022;Comment dit-on 'j'ai vu mon grand-père le week-end dernier' en anglais ?;I saw my grandpa last weekend;I saw my uncle last weekend;I saw my niece last weekend;I saw my cousin last weekend
+22023;Comment dit-on 'j'ai fait du/de la pêche le week-end dernier' en anglais ?;I did fishing last weekend;I did climbing last weekend;I did skating last weekend;I did volleyball last weekend
+22024;Comment dit-on 'jamais, je me lave les mains' en anglais ?;I never wash my hands;I often do my homework;I sometimes drink water;I often do sport
 22025;Comment dit-on 'hier' en anglais ?;yesterday;afternoon;morning;night
-22026;Comment dit-on 'chemise' en anglais ?;shirt;trousers;dress;hat
-22027;Comment dit-on 'gâteau' en anglais ?;cake;milk;cheese;bread
-22028;Que veut dire 'bedroom' en français ?;chambre;toit;escalier;salon
+22026;Comment dit-on 'j'ai rencontré un/une chauffeur hier' en anglais ?;I met a driver yesterday;I met a pilot yesterday;I met an electrician yesterday;I met an architect yesterday
+22027;Comment dit-on 'un train est plus bruyant que une bicyclette' en anglais ?;A train is louder than a bicycle;A river is higher than a stream;A truck is higher than a motorbike;A plane is cleaner than a bird
+22028;Comment dit-on 'j'ai porté un/une cravate hier' en anglais ?;I wore a tie yesterday;I wore a hat yesterday;I wore a belt yesterday;I wore gloves yesterday
 22029;Que veut dire 'today' en français ?;aujourd'hui;demain;matin;midi
-22030;Comment dit-on 'pomme' en anglais ?;apple;milk;egg;meat
-22031;Comment dit-on 'bébé' en anglais ?;baby;grandma;dad;sister
-22032;Que veut dire 'may' en français ?;mai;février;janvier;octobre
-22033;Comment dit-on 'six' en anglais ?;six;seven;five;two
-22034;Que veut dire 'mouse' en français ?;souris;cheval;vache;oiseau
-22035;Que veut dire 'garden' en français ?;jardin;salon;escalier;chambre
-22036;Comment dit-on 'mercredi' en anglais ?;wednesday;sunday;saturday;monday
-22037;Comment dit-on 'neuf' en anglais ?;nine;one;four;ten
-22038;Comment dit-on 'salle de bain' en anglais ?;bathroom;roof;living room;kitchen
-22039;Que veut dire 'six' en français ?;six;neuf;huit;sept
-22040;Que veut dire 'july' en français ?;juillet;août;juin;décembre
-22041;Que veut dire 'cat' en français ?;chat;chien;oiseau;poisson
-22042;Comment dit-on 'robe' en anglais ?;dress;shoes;socks;coat
+22030;Comment dit-on 'j'ai mangé du/de la riz ce midi' en anglais ?;I ate rice at lunch;I ate chicken at lunch;I ate honey at lunch;I ate chocolate at lunch
+22031;Comment dit-on 'j'ai vu un/une renard au zoo' en anglais ?;I saw a fox at the zoo;I saw a wolf at the zoo;I saw a bat at the zoo;I saw a hedgehog at the zoo
+22032;Que veut dire 'widest' en français ?;le plus large;le plus haut;le plus bruyant;le plus lourd
+22033;Comment dit-on 'j'ai porté un/une manteau hier' en anglais ?;I wore a coat yesterday;I wore pyjamas yesterday;I wore trousers yesterday;I wore a belt yesterday
+22034;Comment dit-on 'j'ai vu mon oncle le week-end dernier' en anglais ?;I saw my uncle last weekend;I saw my twin last weekend;I saw my nephew last weekend;I saw my grandpa last weekend
+22035;Comment dit-on 'un livre est plus propre que une feuille' en anglais ?;A book is cleaner than a leaf;A train is higher than a bicycle;A building is longer than a house;A rock is higher than a feather
+22036;Comment dit-on 'un camion est plus bruyant que une moto' en anglais ?;A truck is louder than a motorbike;A plane is longer than a bird;A river is richer than a stream;A rock is cleaner than a feather
+22037;Comment dit-on 'j'ai vu un/une crocodile au zoo' en anglais ?;I saw a crocodile at the zoo;I saw an eagle at the zoo;I saw a seal at the zoo;I saw a peacock at the zoo
+22038;Comment dit-on 'un camion est plus chaud que une moto' en anglais ?;A truck is hotter than a motorbike;A plane is cleaner than a bird;A book is wider than a leaf;A book is louder than a leaf
+22039;Comment dit-on 'une fusée est plus riche qu'une voiture' en anglais ?;A rocket is richer than a car;A plane is cleaner than a bird;A book is cleaner than a leaf;A truck is hotter than a motorbike
+22040;Comment dit-on 'une montagne est plus lourde que une colline' en anglais ?;A mountain is heavier than a hill;A truck is louder than a motorbike;A rock is richer than a feather;A building is hotter than a house
+22041;Comment dit-on 'j'ai fermé mon livre' en anglais ?;I closed my book;I painted a chair;I cleaned my room;I opened the present
+22042;Comment dit-on 'j'ai vu un/une baleine au zoo' en anglais ?;I saw a whale at the zoo;I saw a hedgehog at the zoo;I saw a penguin at the zoo;I saw a camel at the zoo
 22043;Que veut dire 'to drink' en français ?;boire;jouer;écrire;chanter
-22044;Comment dit-on 'soeur' en anglais ?;sister;brother;grandpa;dad
-22045;Comment dit-on 'noir' en anglais ?;black;white;orange;brown
-22046;Comment dit-on 'oeil' en anglais ?;eye;head;tummy;mouth
+22044;Comment dit-on 'j'ai vu un/une paon au zoo' en anglais ?;I saw a peacock at the zoo;I saw a lizard at the zoo;I saw a seal at the zoo;I saw a crocodile at the zoo
+22045;Comment dit-on 'j'ai vu un/une phoque au zoo' en anglais ?;I saw a seal at the zoo;I saw a swan at the zoo;I saw a crocodile at the zoo;I saw an eagle at the zoo
+22046;Comment dit-on 'j'ai cassé une assiette' en anglais ?;I broke a plate;I washed the dog;I opened the present;I painted my bike
 22047;Comment dit-on 'demain' en anglais ?;tomorrow;morning;night;evening
 22048;Comment dit-on 'chanter' en anglais ?;to sing;to play;to sleep;to read
-22049;Que veut dire 'grandma' en français ?;grand-mère;frère;papa;maman
-22050;Que veut dire 'white' en français ?;blanc;gris;orange;rose
-22051;Que veut dire 'eye' en français ?;oeil;tête;bras;main
-22052;Que veut dire 'firefighter' en français ?;pompier;policier;cuisinier;fermier
-22053;Que veut dire 'cycling' en français ?;vélo;natation;course;danse
-22054;Comment dit-on 'souris' en anglais ?;mouse;bird;dog;pig
-22055;Que veut dire 'brother' en français ?;frère;maman;grand-mère;bébé
-22056;Comment dit-on 'orange' en anglais ?;orange;brown;white;yellow
-22057;Que veut dire 'leg' en français ?;jambe;oreille;bouche;pied
-22058;Que veut dire 'egg' en français ?;oeuf;soupe;riz;pain
-22059;Que veut dire 'storm' en français ?;orage;neige;nuage;soleil
-22060;Comment dit-on 'avion' en anglais ?;plane;bus;truck;boat
-22061;Que veut dire 'bag' en français ?;sac;chaise;porte;table
-22062;Comment dit-on 'poisson' en anglais ?;fish;cow;horse;mouse
-22063;Que veut dire 'football' en français ?;football;natation;course;tennis
-22064;Comment dit-on 'cuisinier' en anglais ?;cook;firefighter;farmer;police officer
-22065;Que veut dire 'sad' en français ?;triste;surpris;effrayé;fatigué
-22066;Que veut dire 'kitchen' en français ?;cuisine;toit;chambre;escalier
-22067;Comment dit-on 'pompier' en anglais ?;firefighter;farmer;teacher;cook
-22068;Comment dit-on 'dix' en anglais ?;ten;three;four;six
-22069;Que veut dire 'ten' en français ?;dix;trois;deux;un
-22070;Comment dit-on 'ventre' en anglais ?;tummy;arm;nose;foot
-22071;Que veut dire 'ruler' en français ?;règle;livre;chaise;fenêtre
-22072;Comment dit-on 'football' en anglais ?;football;dancing;running;swimming
+22049;Comment dit-on 'j'ai ouvert le cadeau' en anglais ?;I opened the present;I bought an ice cream;I cleaned the table;I broke a glass
+22050;Comment dit-on 'un rocher est plus bruyant que une plume' en anglais ?;A rock is louder than a feather;A river is higher than a stream;A truck is richer than a motorbike;A river is longer than a stream
+22051;Comment dit-on 'j'ai rencontré un/une scientifique hier' en anglais ?;I met a scientist yesterday;I met a doctor yesterday;I met an architect yesterday;I met a mechanic yesterday
+22052;Comment dit-on 'toujours, je fais du sport' en anglais ?;I always do sport;I always do my homework;I never do sport;I often walk the dog
+22053;Comment dit-on 'un fleuve est plus long que un ruisseau' en anglais ?;A river is longer than a stream;A truck is longer than a motorbike;A mountain is hotter than a hill;A truck is cleaner than a motorbike
+22054;Comment dit-on 'aussi lourd que' en anglais ?;as heavy as;cleanest;heaviest;as hot as
+22055;Comment dit-on 'j'ai pleuré' en anglais ?;I cried;I flew;I taught;I won
+22056;Comment dit-on 'j'ai vu mon beau-père le week-end dernier' en anglais ?;I saw my stepfather last weekend;I saw my aunt last weekend;I saw my grandpa last weekend;I saw my uncle last weekend
+22057;Comment dit-on 'je suis allé au/à la plage hier' en anglais ?;I went to the beach yesterday;I went to the lake yesterday;I went to the library yesterday;I went to the swimming pool yesterday
+22058;Comment dit-on 'je suis allé au/à la ferme hier' en anglais ?;I went to the farm yesterday;I went to the museum yesterday;I went to the park yesterday;I went to the library yesterday
+22059;Comment dit-on 'j'ai vu un/une chauve-souris au zoo' en anglais ?;I saw a bat at the zoo;I saw an owl at the zoo;I saw a kangaroo at the zoo;I saw a squirrel at the zoo
+22060;Comment dit-on 'j'ai vu mon neveu le week-end dernier' en anglais ?;I saw my nephew last weekend;I saw my twin last weekend;I saw my grandpa last weekend;I saw my stepfather last weekend
+22061;Comment dit-on 'j'ai rencontré un/une dentiste hier' en anglais ?;I met a dentist yesterday;I met a singer yesterday;I met a plumber yesterday;I met a postman yesterday
+22062;Comment dit-on 'j'ai peint le mur' en anglais ?;I painted the wall;I washed the dog;I lost my hat;I closed the window
+22063;Comment dit-on 'j'ai envoyé' en anglais ?;I sent;I flew;I lost;I fell
+22064;Comment dit-on 'une montagne est plus haute que une colline' en anglais ?;A mountain is higher than a hill;A mountain is wider than a hill;A rock is higher than a feather;A building is cleaner than a house
+22065;Comment dit-on 'j'ai rencontré un/une acteur hier' en anglais ?;I met an actor yesterday;I met a singer yesterday;I met a plumber yesterday;I met a scientist yesterday
+22066;Comment dit-on 'un immeuble est plus chaud que une maison' en anglais ?;A building is hotter than a house;A train is wider than a bicycle;A mountain is hotter than a hill;A book is louder than a leaf
+22067;Comment dit-on 'j'ai vu un/une hérisson au zoo' en anglais ?;I saw a hedgehog at the zoo;I saw a fox at the zoo;I saw a kangaroo at the zoo;I saw a penguin at the zoo
+22068;Comment dit-on 'un immeuble est plus riche que une maison' en anglais ?;A building is richer than a house;A river is cleaner than a stream;A rock is higher than a feather;A book is richer than a leaf
+22069;Comment dit-on 'toujours, je fais mes devoirs' en anglais ?;I always do my homework;I often do sport;I sometimes tidy my room;I never tidy my room
+22070;Que veut dire 'heaviest' en français ?;le plus lourd;le plus riche;le plus propre;le plus chaud
+22071;Comment dit-on 'souvent, je bois de l'eau' en anglais ?;I often drink water;I often do sport;I always do my homework;I sometimes walk the dog
+22072;Comment dit-on 'j'ai peint une chaise' en anglais ?;I painted a chair;I broke a glass;I opened the fridge;I closed the door
 22073;Que veut dire 'to read' en français ?;lire;boire;jouer;manger
-22074;Comment dit-on 'octobre' en anglais ?;october;april;august;january
+22074;Comment dit-on 'un livre est plus lourd que une feuille' en anglais ?;A book is heavier than a leaf;A building is cleaner than a house;A building is louder than a house;A rock is longer than a feather
 22075;Comment dit-on 'nuit' en anglais ?;night;morning;yesterday;today
 22076;Que veut dire 'morning' en français ?;matin;midi;hier;aujourd'hui
-22077;Comment dit-on 'juillet' en anglais ?;july;december;may;june
-22078;Que veut dire 'yellow' en français ?;jaune;rouge;orange;violet
+22077;Comment dit-on 'j'ai construit' en anglais ?;I built;I laughed;I thought;I chose
+22078;Comment dit-on 'un rocher est plus haut que une plume' en anglais ?;A rock is higher than a feather;A truck is higher than a motorbike;A rock is hotter than a feather;A train is higher than a bicycle
 22079;Que veut dire 'to write' en français ?;écrire;lire;dormir;manger
-22080;Que veut dire 'dress' en français ?;robe;chaussures;chapeau;chaussettes
-22081;Comment dit-on 'décembre' en anglais ?;december;may;june;january
-22082;Que veut dire 'cook' en français ?;cuisinier;dentiste;pompier;professeur
-22083;Que veut dire 'monday' en français ?;lundi;mercredi;jeudi;dimanche
-22084;Comment dit-on 'chapeau' en anglais ?;hat;coat;shirt;trousers
+22080;Comment dit-on 'aussi propre que' en anglais ?;as clean as;hotter than;less heavy than;richer than
+22081;Comment dit-on 'un livre est plus large que une feuille' en anglais ?;A book is wider than a leaf;A river is richer than a stream;A river is longer than a stream;A book is louder than a leaf
+22082;Comment dit-on 'toujours, je bois de l'eau' en anglais ?;I always drink water;I sometimes wash my hands;I never do my homework;I always walk the dog
+22083;Comment dit-on 'aussi large que' en anglais ?;as wide as;less loud than;as heavy as;cleaner than
+22084;Comment dit-on 'plus large que' en anglais ?;wider than;cleanest;as hot as;longest
+22087;Comment dit-on 'j'ai trouvé un trésor' en anglais ?;I found a treasure;I lost my ball;I lost my hat;I painted the wall
+22088;Comment dit-on 'j'ai fait du/de la golf le week-end dernier' en anglais ?;I did golf last weekend;I did tennis last weekend;I did horse riding last weekend;I did skating last weekend
+22089;Comment dit-on 'j'ai porté un/une robe hier' en anglais ?;I wore a dress yesterday;I wore a belt yesterday;I wore a coat yesterday;I wore a hat yesterday
+22090;Comment dit-on 'j'ai mangé du/de la pain ce midi' en anglais ?;I ate bread at lunch;I ate chicken at lunch;I ate pasta at lunch;I ate soup at lunch
+22091;Comment dit-on 'j'ai suivi' en anglais ?;I followed;I received;I believed;I started
+22092;Comment dit-on 'j'ai voulu' en anglais ?;I wanted;I believed;I followed;I received
+22093;Comment dit-on 'j'ai perdu mon ballon' en anglais ?;I lost my ball;I cleaned the table;I found my keys;I closed my book
+22094;Comment dit-on 'un rocher est plus long que une plume' en anglais ?;A rock is longer than a feather;A building is louder than a house;A building is higher than a house;A mountain is hotter than a hill
+22095;Comment dit-on 'un camion est plus long que une moto' en anglais ?;A truck is longer than a motorbike;A plane is wider than a bird;A mountain is hotter than a hill;A train is higher than a bicycle
+22096;Comment dit-on 'j'ai joué du/de la batterie hier' en anglais ?;I played the drums yesterday;I played the piano yesterday;I played the guitar yesterday;I played the flute yesterday
+22097;Comment dit-on 'j'ai vu un/une aigle au zoo' en anglais ?;I saw an eagle at the zoo;I saw a peacock at the zoo;I saw a swan at the zoo;I saw a seal at the zoo
+22098;Comment dit-on 'un train est plus riche que une bicyclette' en anglais ?;A train is richer than a bicycle;A rock is cleaner than a feather;A truck is longer than a motorbike;A river is wider than a stream
+22099;Comment dit-on 'un immeuble est plus lourd que une maison' en anglais ?;A building is heavier than a house;A truck is wider than a motorbike;A river is higher than a stream;A rock is louder than a feather
+22100;Comment dit-on 'j'ai porté un/une pull hier' en anglais ?;I wore a sweater yesterday;I wore a shirt yesterday;I wore a dress yesterday;I wore a coat yesterday
+22101;Comment dit-on 'j'ai joué du/de la harpe hier' en anglais ?;I played the harp yesterday;I played the piano yesterday;I played the flute yesterday;I played the drums yesterday
+22102;Comment dit-on 'j'ai joué du/de la guitare hier' en anglais ?;I played the guitar yesterday;I played the piano yesterday;I played the drum yesterday;I played the harp yesterday
+22103;Comment dit-on 'j'ai rencontré un/une coiffeur hier' en anglais ?;I met a hairdresser yesterday;I met a musician yesterday;I met a scientist yesterday;I met a postman yesterday
+22104;Comment dit-on 'je suis allé au/à la bibliothèque hier' en anglais ?;I went to the library yesterday;I went to the shop yesterday;I went to the farm yesterday;I went to the lake yesterday
+22105;Comment dit-on 'moins bruyant que' en anglais ?;less loud than;as wide as;hotter than;less hot than
+22106;Comment dit-on 'un camion est plus haut que une moto' en anglais ?;A truck is higher than a motorbike;A truck is longer than a motorbike;A book is heavier than a leaf;A river is heavier than a stream
+22107;Comment dit-on 'j'ai mangé du/de la gâteau ce midi' en anglais ?;I ate cake at lunch;I ate bread at lunch;I ate pasta at lunch;I ate jam at lunch
+22108;Comment dit-on 'j'ai perdu mon chapeau' en anglais ?;I lost my hat;I opened the fridge;I opened the box;I found a coin
+22109;Que veut dire 'richest' en français ?;le plus riche;le plus bruyant;le plus chaud;le plus propre
+22110;Comment dit-on 'j'ai porté un/une écharpe hier' en anglais ?;I wore a scarf yesterday;I wore a tie yesterday;I wore a sweater yesterday;I wore socks yesterday
+22111;Que veut dire 'hottest' en français ?;le plus chaud;le plus haut;le plus lourd;le plus riche
+22112;Comment dit-on 'jamais, je promène le chien' en anglais ?;I never walk the dog;I never do sport;I sometimes do my homework;I always drink water
+22113;Comment dit-on 'souvent, je range ma chambre' en anglais ?;I often tidy my room;I sometimes drink water;I never wash my hands;I often drink water
+22114;Comment dit-on 'une montagne est plus chaude que une colline' en anglais ?;A mountain is hotter than a hill;A train is richer than a bicycle;A book is heavier than a leaf;A truck is wider than a motorbike
+22115;Comment dit-on 'une fusée est plus haute qu'une voiture' en anglais ?;A rocket is higher than a car;A rock is heavier than a feather;A train is hotter than a bicycle;A river is longer than a stream
+22116;Comment dit-on 'j'ai mangé du/de la miel ce midi' en anglais ?;I ate honey at lunch;I ate cheese at lunch;I ate rice at lunch;I ate chocolate at lunch
+22117;Comment dit-on 'un livre est plus riche que une feuille' en anglais ?;A book is richer than a leaf;A building is heavier than a house;A train is richer than a bicycle;A rock is longer than a feather
+22118;Comment dit-on 'j'ai porté un/une pyjama hier' en anglais ?;I wore pyjamas yesterday;I wore gloves yesterday;I wore trousers yesterday;I wore shoes yesterday
+22119;Comment dit-on 'je suis allé au/à la hôpital hier' en anglais ?;I went to the hospital yesterday;I went to the mountain yesterday;I went to the library yesterday;I went to the farm yesterday
+22120;Comment dit-on 'j'ai acheté une glace' en anglais ?;I bought an ice cream;I broke a plate;I lost my hat;I bought some fruit
+22121;Comment dit-on 'j'ai perdu mon stylo' en anglais ?;I lost my pen;I built a house;I bought a book;I cleaned my shoes
+22122;Comment dit-on 'j'ai ouvert le frigo' en anglais ?;I opened the fridge;I built a bridge;I cleaned my shoes;I opened the present
+22123;Comment dit-on 'j'ai lavé mes mains' en anglais ?;I washed my hands;I opened the box;I opened the present;I closed my book
+22124;Comment dit-on 'j'ai fait du/de la volley le week-end dernier' en anglais ?;I did volleyball last weekend;I did horse riding last weekend;I did skiing last weekend;I did swimming last weekend
+22125;Comment dit-on 'j'ai vu un/une dauphin au zoo' en anglais ?;I saw a dolphin at the zoo;I saw a hedgehog at the zoo;I saw an octopus at the zoo;I saw a giraffe at the zoo
+22126;Comment dit-on 'un fleuve est plus haut que un ruisseau' en anglais ?;A river is higher than a stream;A river is richer than a stream;A rock is longer than a feather;A plane is hotter than a bird
+22127;Comment dit-on 'j'ai lu' en anglais ?;I read;I lost;I won;I fell
+22128;Comment dit-on 'aussi long que' en anglais ?;as long as;higher than;richer than;less loud than
+22129;Comment dit-on 'j'ai rencontré un/une boucher hier' en anglais ?;I met a butcher yesterday;I met a journalist yesterday;I met a sailor yesterday;I met an architect yesterday
+22130;Comment dit-on 'j'ai rencontré un/une peintre hier' en anglais ?;I met a painter yesterday;I met a postman yesterday;I met a sailor yesterday;I met an electrician yesterday
+22131;Comment dit-on 'j'ai cru' en anglais ?;I believed;I wanted;I heard;I followed
+22132;Comment dit-on 'aussi chaud que' en anglais ?;as hot as;as wide as;as long as;wider than
+22133;Comment dit-on 'une montagne est plus large que une colline' en anglais ?;A mountain is wider than a hill;A book is longer than a leaf;A book is cleaner than a leaf;A building is higher than a house
+22134;Comment dit-on 'j'ai vu un/une écureuil au zoo' en anglais ?;I saw a squirrel at the zoo;I saw a hedgehog at the zoo;I saw a penguin at the zoo;I saw a crab at the zoo
+22135;Comment dit-on 'jamais, je fais mes devoirs' en anglais ?;I never do my homework;I sometimes do my homework;I never tidy my room;I often wash my hands
+22136;Comment dit-on 'j'ai fait du/de la escalade le week-end dernier' en anglais ?;I did climbing last weekend;I did tennis last weekend;I did skating last weekend;I did gymnastics last weekend
+22137;Comment dit-on 'j'ai vu ma nièce le week-end dernier' en anglais ?;I saw my niece last weekend;I saw my cousin last weekend;I saw my uncle last weekend;I saw my nephew last weekend
+22138;Comment dit-on 'j'ai mangé du/de la soupe ce midi' en anglais ?;I ate soup at lunch;I ate chocolate at lunch;I ate salad at lunch;I ate chicken at lunch
+22139;Comment dit-on 'j'ai vu un/une pieuvre au zoo' en anglais ?;I saw an octopus at the zoo;I saw a crab at the zoo;I saw a dolphin at the zoo;I saw a kangaroo at the zoo
+22140;Comment dit-on 'un camion est plus lourd que une moto' en anglais ?;A truck is heavier than a motorbike;A building is cleaner than a house;A rock is louder than a feather;A river is longer than a stream
+22141;Comment dit-on 'une fusée est plus lourde qu'une voiture' en anglais ?;A rocket is heavier than a car;A mountain is richer than a hill;A book is louder than a leaf;A truck is higher than a motorbike
+22142;Comment dit-on 'un livre est plus bruyant que une feuille' en anglais ?;A book is louder than a leaf;A book is higher than a leaf;A rock is longer than a feather;A river is wider than a stream
+22143;Comment dit-on 'je suis allé au/à la zoo hier' en anglais ?;I went to the zoo yesterday;I went to the swimming pool yesterday;I went to the market yesterday;I went to the mountain yesterday
+22144;Comment dit-on 'j'ai fait du/de la équitation le week-end dernier' en anglais ?;I did horse riding last weekend;I did gymnastics last weekend;I did swimming last weekend;I did judo last weekend
+22145;Comment dit-on 'un immeuble est plus large que une maison' en anglais ?;A building is wider than a house;A plane is hotter than a bird;A rock is higher than a feather;A mountain is hotter than a hill
+22146;Comment dit-on 'un train est plus haut que une bicyclette' en anglais ?;A train is higher than a bicycle;A river is richer than a stream;A book is hotter than a leaf;A train is richer than a bicycle
+22147;Comment dit-on 'j'ai trouvé' en anglais ?;I found;I broke;I cried;I drove
+22148;Comment dit-on 'j'ai peint mon vélo' en anglais ?;I painted my bike;I closed the window;I lost my hat;I bought some fruit
+22149;Comment dit-on 'une fusée est plus longue qu'une voiture' en anglais ?;A rocket is longer than a car;A plane is heavier than a bird;A truck is longer than a motorbike;A rock is wider than a feather
+22150;Comment dit-on 'plus lourd que' en anglais ?;heavier than;wider than;less high than;as clean as
+22151;Comment dit-on 'j'ai entendu' en anglais ?;I heard;I waited;I followed;I received
+22152;Comment dit-on 'j'ai vu un/une girafe au zoo' en anglais ?;I saw a giraffe at the zoo;I saw a bat at the zoo;I saw a hedgehog at the zoo;I saw a kangaroo at the zoo
+22153;Comment dit-on 'un immeuble est plus bruyant que une maison' en anglais ?;A building is louder than a house;A rock is louder than a feather;A truck is wider than a motorbike;A train is louder than a bicycle
+22154;Comment dit-on 'j'ai construit un pont' en anglais ?;I built a bridge;I found a treasure;I painted the wall;I bought an ice cream
+22155;Comment dit-on 'j'ai rencontré un/une facteur hier' en anglais ?;I met a postman yesterday;I met a baker yesterday;I met a journalist yesterday;I met a lawyer yesterday
+22156;Comment dit-on 'souvent, je promène le chien' en anglais ?;I often walk the dog;I never do my homework;I never drink water;I often wash my hands
+22157;Comment dit-on 'plus chaud que' en anglais ?;hotter than;heaviest;loudest;less wide than
+22158;Comment dit-on 'j'ai fait du/de la ski le week-end dernier' en anglais ?;I did skiing last weekend;I did skating last weekend;I did judo last weekend;I did rugby last weekend
+22159;Comment dit-on 'j'ai souri' en anglais ?;I smiled;I flew;I learned;I read
+22160;Comment dit-on 'j'ai construit une tour' en anglais ?;I built a tower;I painted a chair;I painted the wall;I opened the fridge
+22161;Comment dit-on 'j'ai trouvé mes clés' en anglais ?;I found my keys;I broke my toy;I painted my bike;I closed the window
+22162;Que veut dire 'bird' en français ?;oiseau;vache;mouton;cochon
+22163;Comment dit-on 'j'ai vu un/une chameau au zoo' en anglais ?;I saw a camel at the zoo;I saw a hedgehog at the zoo;I saw a squirrel at the zoo;I saw an octopus at the zoo
+22164;Comment dit-on 'un fleuve est plus propre que un ruisseau' en anglais ?;A river is cleaner than a stream;A river is richer than a stream;A building is cleaner than a house;A plane is louder than a bird
+22165;Comment dit-on 'j'ai oublié' en anglais ?;I forgot;I built;I cried;I caught
+22166;Comment dit-on 'j'ai rencontré un/une plombier hier' en anglais ?;I met a plumber yesterday;I met a driver yesterday;I met an architect yesterday;I met a painter yesterday
+22167;Comment dit-on 'j'ai mangé du/de la yaourt ce midi' en anglais ?;I ate yogurt at lunch;I ate soup at lunch;I ate pasta at lunch;I ate rice at lunch
+22168;Comment dit-on 'j'ai acheté un livre' en anglais ?;I bought a book;I broke a plate;I opened the present;I cleaned my shoes
+22169;Comment dit-on 'j'ai porté un/une chemise hier' en anglais ?;I wore a shirt yesterday;I wore socks yesterday;I wore a jacket yesterday;I wore pyjamas yesterday
+22170;Comment dit-on 'jamais, je bois de l'eau' en anglais ?;I never drink water;I always do sport;I often tidy my room;I often wash my hands
+22171;Comment dit-on 'une fusée est plus large qu'une voiture' en anglais ?;A rocket is wider than a car;A river is richer than a stream;A truck is cleaner than a motorbike;A mountain is hotter than a hill
+22172;Comment dit-on 'un immeuble est plus propre que une maison' en anglais ?;A building is cleaner than a house;A building is louder than a house;A river is hotter than a stream;A truck is hotter than a motorbike
+22173;Comment dit-on 'j'ai lavé la voiture' en anglais ?;I washed the car;I lost my hat;I built a house;I broke a glass
+22174;Comment dit-on 'j'ai joué du/de la trompette hier' en anglais ?;I played the trumpet yesterday;I played the flute yesterday;I played the harp yesterday;I played the piano yesterday
+22175;Comment dit-on 'j'ai acheté des fruits' en anglais ?;I bought some fruit;I lost my hat;I broke a plate;I opened the present
+22176;Comment dit-on 'j'ai vu un/une requin au zoo' en anglais ?;I saw a shark at the zoo;I saw a bat at the zoo;I saw a giraffe at the zoo;I saw a hedgehog at the zoo
+22177;Comment dit-on 'j'ai vu mon cousin le week-end dernier' en anglais ?;I saw my cousin last weekend;I saw my aunt last weekend;I saw my stepmother last weekend;I saw my uncle last weekend
+22178;Comment dit-on 'un train est plus large que une bicyclette' en anglais ?;A train is wider than a bicycle;A mountain is hotter than a hill;A rock is cleaner than a feather;A truck is louder than a motorbike
+22179;Comment dit-on 'parfois, je range ma chambre' en anglais ?;I sometimes tidy my room;I never tidy my room;I often tidy my room;I always tidy my room
+22180;Que veut dire 'longest' en français ?;le plus long;le plus chaud;le plus large;le plus propre
+22181;Comment dit-on 'j'ai vu un/une loup au zoo' en anglais ?;I saw a wolf at the zoo;I saw a whale at the zoo;I saw a kangaroo at the zoo;I saw a squirrel at the zoo
+22182;Comment dit-on 'une montagne est plus bruyante que une colline' en anglais ?;A mountain is louder than a hill;A river is wider than a stream;A river is hotter than a stream;A mountain is cleaner than a hill
+22183;Comment dit-on 'une fusée est plus bruyante qu'une voiture' en anglais ?;A rocket is louder than a car;A river is longer than a stream;A river is higher than a stream;A rock is hotter than a feather
+22184;Comment dit-on 'j'ai cassé mon jouet' en anglais ?;I broke my toy;I built a tower;I found a coin;I cleaned the table
+22185;Comment dit-on 'jamais, je fais du sport' en anglais ?;I never do sport;I sometimes drink water;I never walk the dog;I never tidy my room
+22186;Comment dit-on 'j'ai vu un/une zèbre au zoo' en anglais ?;I saw a zebra at the zoo;I saw a dolphin at the zoo;I saw a bat at the zoo;I saw a wolf at the zoo
+22187;Comment dit-on 'j'ai vu ma belle-mère le week-end dernier' en anglais ?;I saw my stepmother last weekend;I saw my aunt last weekend;I saw my nephew last weekend;I saw my uncle last weekend
+22188;Comment dit-on 'j'ai porté un/une chapeau hier' en anglais ?;I wore a hat yesterday;I wore gloves yesterday;I wore a scarf yesterday;I wore socks yesterday
+22189;Comment dit-on 'aussi riche que' en anglais ?;as rich as;longest;heavier than;cleaner than
+22190;Comment dit-on 'j'ai mangé du/de la salade ce midi' en anglais ?;I ate salad at lunch;I ate soup at lunch;I ate bread at lunch;I ate rice at lunch
+22191;Comment dit-on 'je suis allé au/à la musée hier' en anglais ?;I went to the museum yesterday;I went to the market yesterday;I went to the shop yesterday;I went to the beach yesterday
+22192;Comment dit-on 'j'ai vu un/une crabe au zoo' en anglais ?;I saw a crab at the zoo;I saw a shark at the zoo;I saw an owl at the zoo;I saw a giraffe at the zoo
+22193;Comment dit-on 'un livre est plus haut que une feuille' en anglais ?;A book is higher than a leaf;A plane is hotter than a bird;A train is heavier than a bicycle;A train is louder than a bicycle
+22194;Comment dit-on 'moins propre que' en anglais ?;less clean than;widest;highest;as clean as
+22195;Comment dit-on 'un livre est plus long que une feuille' en anglais ?;A book is longer than a leaf;A train is heavier than a bicycle;A truck is louder than a motorbike;A book is louder than a leaf
+22196;Comment dit-on 'parfois, je bois de l'eau' en anglais ?;I sometimes drink water;I always walk the dog;I always do sport;I often wash my hands
+22197;Comment dit-on 'j'ai joué du/de la piano hier' en anglais ?;I played the piano yesterday;I played the drum yesterday;I played the drums yesterday;I played the trumpet yesterday
+22198;Comment dit-on 'j'ai attendu' en anglais ?;I waited;I heard;I wanted;I believed
+22199;Comment dit-on 'une fusée est plus propre qu'une voiture' en anglais ?;A rocket is cleaner than a car;A train is higher than a bicycle;A train is wider than a bicycle;A train is heavier than a bicycle
+22200;Comment dit-on 'j'ai fermé la porte' en anglais ?;I closed the door;I broke a plate;I broke my toy;I washed my hands
+22201;Comment dit-on 'aussi bruyant que' en anglais ?;as loud as;less high than;richest;as hot as
+22202;Comment dit-on 'j'ai vu ma grand-mère le week-end dernier' en anglais ?;I saw my grandma last weekend;I saw my niece last weekend;I saw my cousin last weekend;I saw my grandpa last weekend
+22203;Comment dit-on 'toujours, je range ma chambre' en anglais ?;I always tidy my room;I always do my homework;I always walk the dog;I sometimes do my homework
+22204;Comment dit-on 'j'ai mangé du/de la chocolat ce midi' en anglais ?;I ate chocolate at lunch;I ate yogurt at lunch;I ate honey at lunch;I ate pasta at lunch
+22205;Comment dit-on 'j'ai rencontré un/une juge hier' en anglais ?;I met a judge yesterday;I met a doctor yesterday;I met a pilot yesterday;I met a musician yesterday
+22206;Comment dit-on 'un train est plus propre que une bicyclette' en anglais ?;A train is cleaner than a bicycle;A book is louder than a leaf;A mountain is cleaner than a hill;A mountain is hotter than a hill
+22207;Comment dit-on 'j'ai compris' en anglais ?;I understood;I thought;I smiled;I learned
+22208;Comment dit-on 'souvent, je me lave les mains' en anglais ?;I often wash my hands;I often do my homework;I never tidy my room;I sometimes drink water
+22209;Comment dit-on 'j'ai cassé un verre' en anglais ?;I broke a glass;I cleaned my shoes;I built a bridge;I opened the box
+22210;Comment dit-on 'souvent, je fais mes devoirs' en anglais ?;I often do my homework;I never tidy my room;I always do sport;I always drink water
+22211;Comment dit-on 'plus riche que' en anglais ?;richer than;richest;less high than;heaviest
+22212;Comment dit-on 'j'ai rencontré un/une médecin hier' en anglais ?;I met a doctor yesterday;I met a sailor yesterday;I met a driver yesterday;I met a painter yesterday
+22213;Comment dit-on 'j'ai rencontré un/une chanteur hier' en anglais ?;I met a singer yesterday;I met a baker yesterday;I met a judge yesterday;I met a pilot yesterday
+22214;Comment dit-on 'j'ai rencontré un/une musicien hier' en anglais ?;I met a musician yesterday;I met a judge yesterday;I met a painter yesterday;I met a scientist yesterday
+22215;Comment dit-on 'j'ai rencontré un/une pilote hier' en anglais ?;I met a pilot yesterday;I met a scientist yesterday;I met a postman yesterday;I met a writer yesterday
+22216;Comment dit-on 'j'ai gagné' en anglais ?;I won;I read;I drove;I built
+22217;Comment dit-on 'moins chaud que' en anglais ?;less hot than;longer than;wider than;as high as
+22218;Comment dit-on 'je suis allé au/à la lac hier' en anglais ?;I went to the lake yesterday;I went to the hospital yesterday;I went to the museum yesterday;I went to the forest yesterday
+22219;Comment dit-on 'un livre est plus chaud que une feuille' en anglais ?;A book is hotter than a leaf;A plane is hotter than a bird;A mountain is longer than a hill;A rock is longer than a feather
+22220;Comment dit-on 'j'ai nettoyé ma chambre' en anglais ?;I cleaned my room;I bought a book;I built a house;I closed the door
+22221;Comment dit-on 'j'ai rencontré un/une marin hier' en anglais ?;I met a sailor yesterday;I met a soldier yesterday;I met a doctor yesterday;I met an electrician yesterday
+22222;Comment dit-on 'j'ai porté un/une pantalon hier' en anglais ?;I wore trousers yesterday;I wore a dress yesterday;I wore pyjamas yesterday;I wore a belt yesterday
+22223;Comment dit-on 'j'ai ouvert la boîte' en anglais ?;I opened the box;I closed the door;I lost my hat;I cleaned my room
+22224;Comment dit-on 'je suis allé au/à la marché hier' en anglais ?;I went to the market yesterday;I went to the shop yesterday;I went to the mountain yesterday;I went to the museum yesterday
+22225;Comment dit-on 'un rocher est plus lourd que une plume' en anglais ?;A rock is heavier than a feather;A train is higher than a bicycle;A building is longer than a house;A plane is longer than a bird
+22226;Comment dit-on 'j'ai porté un/une gants hier' en anglais ?;I wore gloves yesterday;I wore a belt yesterday;I wore shoes yesterday;I wore socks yesterday
+22227;Comment dit-on 'j'ai vu un/une pingouin au zoo' en anglais ?;I saw a penguin at the zoo;I saw a camel at the zoo;I saw a crab at the zoo;I saw a dolphin at the zoo
+22228;Comment dit-on 'un rocher est plus propre que une plume' en anglais ?;A rock is cleaner than a feather;A mountain is hotter than a hill;A truck is cleaner than a motorbike;A train is longer than a bicycle
+22229;Comment dit-on 'j'ai fait du/de la tennis le week-end dernier' en anglais ?;I did tennis last weekend;I did judo last weekend;I did volleyball last weekend;I did horse riding last weekend
+22230;Comment dit-on 'toujours, je promène le chien' en anglais ?;I always walk the dog;I always do my homework;I sometimes drink water;I often do sport
+22231;Comment dit-on 'je suis allé au/à la château hier' en anglais ?;I went to the castle yesterday;I went to the beach yesterday;I went to the shop yesterday;I went to the library yesterday
+22232;Comment dit-on 'un immeuble est plus haut que une maison' en anglais ?;A building is higher than a house;A building is richer than a house;A book is cleaner than a leaf;A rock is longer than a feather
+22233;Comment dit-on 'un camion est plus propre que une moto' en anglais ?;A truck is cleaner than a motorbike;A rock is longer than a feather;A river is heavier than a stream;A plane is richer than a bird
+22234;Comment dit-on 'j'ai cassé' en anglais ?;I broke;I thought;I laughed;I drove
+22235;Comment dit-on 'j'ai fait du/de la rugby le week-end dernier' en anglais ?;I did rugby last weekend;I did golf last weekend;I did skating last weekend;I did tennis last weekend
+22236;Comment dit-on 'j'ai vu ma tante le week-end dernier' en anglais ?;I saw my aunt last weekend;I saw my twin last weekend;I saw my stepfather last weekend;I saw my nephew last weekend
+22237;Comment dit-on 'j'ai appris' en anglais ?;I learned;I taught;I lost;I forgot
+22238;Comment dit-on 'j'ai mangé du/de la confiture ce midi' en anglais ?;I ate jam at lunch;I ate cheese at lunch;I ate chocolate at lunch;I ate soup at lunch
+22239;Comment dit-on 'j'ai vu mon jumeau le week-end dernier' en anglais ?;I saw my twin last weekend;I saw my grandma last weekend;I saw my stepmother last weekend;I saw my nephew last weekend
+22240;Comment dit-on 'une montagne est plus propre que une colline' en anglais ?;A mountain is cleaner than a hill;A train is higher than a bicycle;A plane is cleaner than a bird;A plane is longer than a bird
+22241;Comment dit-on 'souvent, je fais du sport' en anglais ?;I often do sport;I always walk the dog;I never do my homework;I sometimes tidy my room
+22242;Comment dit-on 'j'ai porté un/une ceinture hier' en anglais ?;I wore a belt yesterday;I wore gloves yesterday;I wore a hat yesterday;I wore a sweater yesterday
+22243;Comment dit-on 'un fleuve est plus lourd que un ruisseau' en anglais ?;A river is heavier than a stream;A river is richer than a stream;A mountain is longer than a hill;A plane is hotter than a bird
+22244;Comment dit-on 'un fleuve est plus bruyant que un ruisseau' en anglais ?;A river is louder than a stream;A book is louder than a leaf;A plane is louder than a bird;A river is heavier than a stream
+22245;Comment dit-on 'moins long que' en anglais ?;less long than;as high as;wider than;less hot than
+22246;Que veut dire 'sun' en français ?;soleil;froid;pluie;vent
+22247;Comment dit-on 'j'ai joué du/de la flûte hier' en anglais ?;I played the flute yesterday;I played the drum yesterday;I played the violin yesterday;I played the drums yesterday
+22248;Que veut dire 'rain' en français ?;pluie;orage;chaud;vent
+22249;Comment dit-on 'une montagne est plus riche que une colline' en anglais ?;A mountain is richer than a hill;A plane is longer than a bird;A building is louder than a house;A river is heavier than a stream
+22250;Comment dit-on 'j'ai rencontré un/une boulanger hier' en anglais ?;I met a baker yesterday;I met a lawyer yesterday;I met a judge yesterday;I met an architect yesterday
+22251;Comment dit-on 'j'ai joué du/de la violon hier' en anglais ?;I played the violin yesterday;I played the flute yesterday;I played the piano yesterday;I played the drum yesterday
+22252;Comment dit-on 'parfois, je me lave les mains' en anglais ?;I sometimes wash my hands;I sometimes do sport;I always do sport;I always walk the dog
+22253;Comment dit-on 'un camion est plus large que une moto' en anglais ?;A truck is wider than a motorbike;A truck is heavier than a motorbike;A river is longer than a stream;A plane is hotter than a bird
+22254;Comment dit-on 'j'ai mangé du/de la poulet ce midi' en anglais ?;I ate chicken at lunch;I ate rice at lunch;I ate cake at lunch;I ate bread at lunch
+22255;Comment dit-on 'un rocher est plus chaud que une plume' en anglais ?;A rock is hotter than a feather;A rock is wider than a feather;A river is hotter than a stream;A book is richer than a leaf
+22256;Comment dit-on 'un train est plus chaud que une bicyclette' en anglais ?;A train is hotter than a bicycle;A book is higher than a leaf;A mountain is heavier than a hill;A plane is wider than a bird
+22257;Comment dit-on 'j'ai lavé le chien' en anglais ?;I washed the dog;I bought a book;I found my keys;I closed my book
+22258;Comment dit-on 'une fusée est plus chaude qu'une voiture' en anglais ?;A rocket is hotter than a car;A mountain is louder than a hill;A book is hotter than a leaf;A train is richer than a bicycle
+22259;Que veut dire 'loudest' en français ?;le plus bruyant;le plus long;le plus large;le plus lourd
+22260;Comment dit-on 'je suis allé au/à la montagne hier' en anglais ?;I went to the mountain yesterday;I went to the forest yesterday;I went to the market yesterday;I went to the museum yesterday
+22261;Comment dit-on 'un rocher est plus large que une plume' en anglais ?;A rock is wider than a feather;A train is heavier than a bicycle;A truck is longer than a motorbike;A plane is wider than a bird
+22262;Comment dit-on 'plus long que' en anglais ?;longer than;less high than;less loud than;less hot than
+22263;Comment dit-on 'une montagne est plus longue que une colline' en anglais ?;A mountain is longer than a hill;A building is wider than a house;A book is higher than a leaf;A river is longer than a stream
+22264;Comment dit-on 'j'ai mangé du/de la pâtes ce midi' en anglais ?;I ate pasta at lunch;I ate soup at lunch;I ate chicken at lunch;I ate cheese at lunch
+22265;Comment dit-on 'j'ai rencontré un/une architecte hier' en anglais ?;I met an architect yesterday;I met a driver yesterday;I met a singer yesterday;I met a scientist yesterday
+22266;Comment dit-on 'un immeuble est plus long que une maison' en anglais ?;A building is longer than a house;A truck is wider than a motorbike;A mountain is hotter than a hill;A rock is hotter than a feather
+22267;Comment dit-on 'navire' en anglais ?;ship;truck;car;bus
+22268;Que veut dire 'ship' en français ?;navire;voiture;bus;taxi
+22269;Comment dit-on 'taxi' en anglais ?;taxi;ship;scooter;boat
+22270;Que veut dire 'taxi' en français ?;taxi;camion;avion;train
+22271;Comment dit-on 'j'ai fait du/de la natation le week-end dernier' en anglais ?;I did swimming last weekend;I did climbing last weekend;I did rugby last weekend;I did skating last weekend
+22272;Comment dit-on 'un rocher est plus riche que une plume' en anglais ?;A rock is richer than a feather;A rock is higher than a feather;A train is higher than a bicycle;A plane is hotter than a bird
+22273;Comment dit-on 'toujours, je me lave les mains' en anglais ?;I always wash my hands;I often drink water;I often tidy my room;I never do my homework
+22274;Comment dit-on 'parfois, je promène le chien' en anglais ?;I sometimes walk the dog;I never walk the dog;I often drink water;I sometimes tidy my room
+22275;Comment dit-on 'j'ai rencontré un/une électricien hier' en anglais ?;I met an electrician yesterday;I met a mechanic yesterday;I met an architect yesterday;I met a postman yesterday
+22276;Comment dit-on 'un train est plus lourd que une bicyclette' en anglais ?;A train is heavier than a bicycle;A truck is cleaner than a motorbike;A plane is richer than a bird;A building is louder than a house
+22277;Comment dit-on 'j'ai nettoyé la table' en anglais ?;I cleaned the table;I washed the car;I lost my hat;I found a coin
+22278;Comment dit-on 'j'ai fait du/de la patinage le week-end dernier' en anglais ?;I did skating last weekend;I did swimming last weekend;I did volleyball last weekend;I did golf last weekend
+22279;Comment dit-on 'je suis allé au/à la parc hier' en anglais ?;I went to the park yesterday;I went to the lake yesterday;I went to the shop yesterday;I went to the mountain yesterday
+22280;Comment dit-on 'j'ai trouvé une pièce' en anglais ?;I found a coin;I opened the fridge;I lost my hat;I broke a plate
+22281;Comment dit-on 'j'ai ri' en anglais ?;I laughed;I thought;I smiled;I won
+22282;Comment dit-on 'un fleuve est plus chaud que un ruisseau' en anglais ?;A river is hotter than a stream;A train is cleaner than a bicycle;A mountain is richer than a hill;A train is longer than a bicycle
+22283;Comment dit-on 'journaliste' en anglais ?;journalist;firefighter;engineer;doctor
+22284;Que veut dire 'journalist' en français ?;journaliste;dentiste;infirmier;pompier
+22285;Comment dit-on 'ingénieur' en anglais ?;engineer;baker;doctor;nurse
+22286;Que veut dire 'engineer' en français ?;ingénieur;journaliste;dentiste;fermier
+22287;Comment dit-on 'j'ai fait du/de la judo le week-end dernier' en anglais ?;I did judo last weekend;I did gymnastics last weekend;I did volleyball last weekend;I did horse riding last weekend
+22288;Comment dit-on 'je suis allé au/à la piscine hier' en anglais ?;I went to the swimming pool yesterday;I went to the castle yesterday;I went to the shop yesterday;I went to the beach yesterday
+22289;Comment dit-on 'moins large que' en anglais ?;less wide than;cleanest;wider than;hottest
+22290;Comment dit-on 'plus bruyant que' en anglais ?;louder than;less rich than;hottest;hotter than
+22291;Comment dit-on 'jamais, je range ma chambre' en anglais ?;I never tidy my room;I never drink water;I often tidy my room;I never wash my hands
+22292;Comment dit-on 'plus propre que' en anglais ?;cleaner than;longest;as wide as;heavier than
+22293;Comment dit-on 'j'ai rencontré un/une journaliste hier' en anglais ?;I met a journalist yesterday;I met a butcher yesterday;I met a musician yesterday;I met a scientist yesterday
+22294;Comment dit-on 'j'ai rencontré un/une soldat hier' en anglais ?;I met a soldier yesterday;I met a painter yesterday;I met a baker yesterday;I met a journalist yesterday
+22295;Comment dit-on 'un fleuve est plus riche que un ruisseau' en anglais ?;A river is richer than a stream;A train is wider than a bicycle;A plane is richer than a bird;A truck is louder than a motorbike
+22296;Comment dit-on 'j'ai joué du/de la tambour hier' en anglais ?;I played the drum yesterday;I played the trumpet yesterday;I played the piano yesterday;I played the drums yesterday
+22297;Comment dit-on 'parfois, je fais du sport' en anglais ?;I sometimes do sport;I never wash my hands;I often tidy my room;I sometimes drink water
+22298;Comment dit-on 'j'ai vu un/une kangourou au zoo' en anglais ?;I saw a kangaroo at the zoo;I saw a penguin at the zoo;I saw a camel at the zoo;I saw a zebra at the zoo
+22299;Comment dit-on 'j'ai porté un/une veste hier' en anglais ?;I wore a jacket yesterday;I wore socks yesterday;I wore pyjamas yesterday;I wore a shirt yesterday
+22300;Comment dit-on 'j'ai reçu' en anglais ?;I received;I followed;I finished;I answered
+22301;Comment dit-on 'j'ai nettoyé mes chaussures' en anglais ?;I cleaned my shoes;I opened the fridge;I built a bridge;I broke a plate
+22302;Comment dit-on 'je suis allé au/à la forêt hier' en anglais ?;I went to the forest yesterday;I went to the zoo yesterday;I went to the mountain yesterday;I went to the castle yesterday
+22303;Comment dit-on 'aéroport' en anglais ?;airport;beach;suitcase;river
+22304;Que veut dire 'airport' en français ?;aéroport;montagne;forêt;carte
+22305;Comment dit-on 'hôtel' en anglais ?;hotel;museum;city;passport
+22306;Que veut dire 'hotel' en français ?;hôtel;aéroport;village;ville
+22307;Comment dit-on 'passeport' en anglais ?;passport;forest;ticket;airport
+22308;Que veut dire 'passport' en français ?;passeport;montagne;plage;marché
+22309;Comment dit-on 'valise' en anglais ?;suitcase;river;hotel;mountain
+22310;Que veut dire 'suitcase' en français ?;valise;passeport;carte;village
+22311;Comment dit-on 'carte' en anglais ?;map;ticket;beach;market
+22312;Que veut dire 'map' en français ?;carte;musée;passeport;montagne
+22313;Comment dit-on 'billet' en anglais ?;ticket;village;river;mountain
+22314;Que veut dire 'ticket' en français ?;billet;musée;valise;carte
+22315;Comment dit-on 'musée' en anglais ?;museum;passport;mountain;ticket
+22316;Que veut dire 'museum' en français ?;musée;carte;passeport;rivière
+22317;Comment dit-on 'marché' en anglais ?;market;village;forest;museum
+22318;Que veut dire 'market' en français ?;marché;valise;billet;passeport
+22319;Comment dit-on 'ville' en anglais ?;city;beach;passport;map
+22320;Que veut dire 'city' en français ?;ville;aéroport;musée;village
+22321;Comment dit-on 'village' en anglais ?;village;passport;map;city
+22322;Que veut dire 'village' en français ?;village;rivière;aéroport;valise
+22323;Comment dit-on 'montagne' en anglais ?;mountain;suitcase;city;river
+22324;Que veut dire 'mountain' en français ?;montagne;plage;musée;carte
+22325;Comment dit-on 'plage' en anglais ?;beach;airport;ticket;city
+22326;Que veut dire 'beach' en français ?;plage;billet;valise;marché
+22327;Comment dit-on 'forêt' en anglais ?;forest;hotel;museum;river
+22328;Que veut dire 'forest' en français ?;forêt;valise;billet;hôtel
+22329;Comment dit-on 'rivière' en anglais ?;river;hotel;map;suitcase
+22330;Que veut dire 'river' en français ?;rivière;billet;marché;ville
+22331;Comment dit-on 'j'ai joué' en anglais ?;I played;I liked;I talked;I wrote
+22332;Que veut dire 'I played' en français ?;j'ai joué;j'ai grimpé;j'ai peint;j'ai fait
+22333;Comment dit-on 'j'ai regardé' en anglais ?;I watched;I played;I made;I helped
+22334;Que veut dire 'I watched' en français ?;j'ai regardé;j'ai vu;j'ai fabriqué;j'ai vécu
+22335;Comment dit-on 'j'ai marché' en anglais ?;I walked;I listened;I ate;I helped
+22336;Que veut dire 'I walked' en français ?;j'ai marché;j'ai sauté;j'ai donné;j'ai grimpé
+22337;Comment dit-on 'j'ai écouté' en anglais ?;I listened;I asked;I made;I sang
+22338;Que veut dire 'I listened' en français ?;j'ai écouté;j'ai aimé;j'ai ouvert;j'ai sauté
+22339;Comment dit-on 'j'ai nettoyé' en anglais ?;I cleaned;I cooked;I bought;I watched
+22340;Que veut dire 'I cleaned' en français ?;j'ai nettoyé;j'ai aimé;j'ai peint;j'ai fabriqué
+22341;Comment dit-on 'j'ai cuisiné' en anglais ?;I cooked;I drank;I saw;I ate
+22342;Que veut dire 'I cooked' en français ?;j'ai cuisiné;je suis arrivé;j'ai écrit;j'ai aidé
+22343;Comment dit-on 'j'ai visité' en anglais ?;I visited;I walked;I helped;I cooked
+22344;Que veut dire 'I visited' en français ?;j'ai visité;j'ai sauté;j'ai demandé;j'ai fabriqué
+22345;Comment dit-on 'j'ai sauté' en anglais ?;I jumped;I talked;I arrived;I liked
+22346;Que veut dire 'I jumped' en français ?;j'ai sauté;j'ai regardé;j'ai mangé;j'ai dormi
+22347;Comment dit-on 'j'ai dansé' en anglais ?;I danced;I wrote;I did;I watched
+22348;Que veut dire 'I danced' en français ?;j'ai dansé;j'ai visité;j'ai lavé;j'ai regardé
+22349;Comment dit-on 'j'ai aimé' en anglais ?;I liked;I cooked;I painted;I listened
+22350;Que veut dire 'I liked' en français ?;j'ai aimé;j'ai bu;j'ai mangé;j'ai nettoyé
+22351;Comment dit-on 'j'ai aidé' en anglais ?;I helped;I gave;I played;I opened
+22352;Que veut dire 'I helped' en français ?;j'ai aidé;j'ai mangé;j'ai marché;je suis arrivé
+22353;Comment dit-on 'j'ai lavé' en anglais ?;I washed;I slept;I watched;I asked
+22354;Que veut dire 'I washed' en français ?;j'ai lavé;je suis allé;j'ai couru;je suis venu
+22355;Comment dit-on 'j'ai grimpé' en anglais ?;I climbed;I made;I wrote;I liked
+22356;Que veut dire 'I climbed' en français ?;j'ai grimpé;je suis arrivé;j'ai pris;j'ai regardé
+22357;Comment dit-on 'j'ai peint' en anglais ?;I painted;I listened;I bought;I drank
+22358;Que veut dire 'I painted' en français ?;j'ai peint;j'ai nettoyé;j'ai écrit;j'ai bu
+22359;Comment dit-on 'j'ai demandé' en anglais ?;I asked;I bought;I swam;I came
+22360;Que veut dire 'I asked' en français ?;j'ai demandé;j'ai couru;j'ai acheté;je suis venu
+22361;Comment dit-on 'j'ai parlé' en anglais ?;I talked;I took;I drank;I went
+22362;Que veut dire 'I talked' en français ?;j'ai parlé;je suis arrivé;j'ai vu;j'ai acheté
+22363;Comment dit-on 'j'ai vécu' en anglais ?;I lived;I listened;I cooked;I saw
+22364;Que veut dire 'I lived' en français ?;j'ai vécu;j'ai bu;j'ai écrit;j'ai demandé
+22365;Comment dit-on 'je suis arrivé' en anglais ?;I arrived;I took;I danced;I visited
+22366;Que veut dire 'I arrived' en français ?;je suis arrivé;j'ai visité;j'ai acheté;j'ai demandé
+22367;Comment dit-on 'j'ai fermé' en anglais ?;I closed;I climbed;I liked;I made
+22368;Que veut dire 'I closed' en français ?;j'ai fermé;j'ai aidé;je suis venu;je suis arrivé
+22369;Comment dit-on 'j'ai ouvert' en anglais ?;I opened;I cleaned;I came;I asked
+22370;Que veut dire 'I opened' en français ?;j'ai ouvert;j'ai sauté;j'ai vécu;j'ai eu
+22371;Comment dit-on 'je suis allé' en anglais ?;I went;I climbed;I sang;I wrote
+22372;Que veut dire 'I went' en français ?;je suis allé;j'ai pris;j'ai écouté;j'ai écrit
+22373;Comment dit-on 'j'ai mangé' en anglais ?;I ate;I came;I talked;I climbed
+22374;Que veut dire 'I ate' en français ?;j'ai mangé;j'ai cuisiné;j'ai demandé;j'ai chanté
+22375;Comment dit-on 'j'ai vu' en anglais ?;I saw;I washed;I lived;I helped
+22376;Que veut dire 'I saw' en français ?;j'ai vu;j'ai visité;j'ai fait;j'ai aidé
+22377;Comment dit-on 'j'ai eu' en anglais ?;I had;I cleaned;I danced;I visited
+22378;Que veut dire 'I had' en français ?;j'ai eu;j'ai vu;je suis venu;j'ai fabriqué
+22379;Comment dit-on 'j'ai fait' en anglais ?;I did;I saw;I liked;I asked
+22380;Que veut dire 'I did' en français ?;j'ai fait;j'ai bu;je suis allé;j'ai sauté
+22381;Comment dit-on 'j'ai fabriqué' en anglais ?;I made;I talked;I closed;I lived
+22382;Que veut dire 'I made' en français ?;j'ai fabriqué;j'ai couru;j'ai joué;j'ai mangé
+22383;Comment dit-on 'j'ai acheté' en anglais ?;I bought;I drank;I made;I played
+22384;Que veut dire 'I bought' en français ?;j'ai acheté;j'ai écrit;j'ai aidé;je suis venu
+22385;Comment dit-on 'je suis venu' en anglais ?;I came;I slept;I washed;I helped
+22386;Que veut dire 'I came' en français ?;je suis venu;j'ai chanté;j'ai couru;je suis allé
+22387;Comment dit-on 'j'ai pris' en anglais ?;I took;I danced;I asked;I had
+22388;Que veut dire 'I took' en français ?;j'ai pris;j'ai visité;j'ai fait;j'ai acheté
+22389;Comment dit-on 'j'ai donné' en anglais ?;I gave;I took;I had;I saw
+22390;Que veut dire 'I gave' en français ?;j'ai donné;j'ai lavé;j'ai couru;j'ai fait
+22391;Comment dit-on 'j'ai bu' en anglais ?;I drank;I painted;I jumped;I played
+22392;Que veut dire 'I drank' en français ?;j'ai bu;j'ai acheté;j'ai nagé;j'ai fermé
+22393;Comment dit-on 'j'ai écrit' en anglais ?;I wrote;I liked;I danced;I walked
+22394;Que veut dire 'I wrote' en français ?;j'ai écrit;j'ai écouté;j'ai lavé;j'ai marché
+22395;Comment dit-on 'j'ai nagé' en anglais ?;I swam;I liked;I ran;I closed
+22396;Que veut dire 'I swam' en français ?;j'ai nagé;j'ai visité;j'ai grimpé;j'ai mangé
+22397;Comment dit-on 'j'ai couru' en anglais ?;I ran;I saw;I talked;I liked
+22398;Que veut dire 'I ran' en français ?;j'ai couru;j'ai fermé;j'ai nagé;j'ai demandé
+22399;Comment dit-on 'j'ai chanté' en anglais ?;I sang;I lived;I wrote;I listened
+22400;Que veut dire 'I sang' en français ?;j'ai chanté;j'ai pris;j'ai fabriqué;j'ai fait
+22401;Comment dit-on 'j'ai dormi' en anglais ?;I slept;I talked;I drank;I walked
+22402;Que veut dire 'I slept' en français ?;j'ai dormi;j'ai joué;j'ai aimé;j'ai parlé
+22403;Comment dit-on 'je vais jouer' en anglais ?;I'm going to play;I'm going to draw;I'm going to watch;I'm going to sing
+22404;Que veut dire 'I'm going to play' en français ?;je vais jouer;je vais chanter;je vais cuisiner;je vais visiter
+22405;Comment dit-on 'je vais regarder' en anglais ?;I'm going to watch;I'm going to sing;I'm going to dance;I'm going to visit
+22406;Que veut dire 'I'm going to watch' en français ?;je vais regarder;je vais voyager;je vais chanter;je vais nager
+22407;Comment dit-on 'je vais visiter' en anglais ?;I'm going to visit;I'm going to draw;I'm going to dance;I'm going to read
+22408;Que veut dire 'I'm going to visit' en français ?;je vais visiter;je vais lire;je vais nager;je vais danser
+22409;Comment dit-on 'je vais lire' en anglais ?;I'm going to read;I'm going to travel;I'm going to cook;I'm going to sing
+22410;Que veut dire 'I'm going to read' en français ?;je vais lire;je vais visiter;je vais cuisiner;je vais regarder
+22411;Comment dit-on 'je vais nager' en anglais ?;I'm going to swim;I'm going to draw;I'm going to watch;I'm going to sing
+22412;Que veut dire 'I'm going to swim' en français ?;je vais nager;je vais lire;je vais voyager;je vais danser
+22413;Comment dit-on 'je vais voyager' en anglais ?;I'm going to travel;I'm going to draw;I'm going to watch;I'm going to read
+22414;Que veut dire 'I'm going to travel' en français ?;je vais voyager;je vais chanter;je vais lire;je vais cuisiner
+22415;Comment dit-on 'je vais cuisiner' en anglais ?;I'm going to cook;I'm going to watch;I'm going to read;I'm going to dance
+22416;Que veut dire 'I'm going to cook' en français ?;je vais cuisiner;je vais chanter;je vais voyager;je vais jouer
+22417;Comment dit-on 'je vais danser' en anglais ?;I'm going to dance;I'm going to watch;I'm going to swim;I'm going to draw
+22418;Que veut dire 'I'm going to dance' en français ?;je vais danser;je vais regarder;je vais voyager;je vais dessiner
+22419;Comment dit-on 'je vais chanter' en anglais ?;I'm going to sing;I'm going to travel;I'm going to swim;I'm going to watch
+22420;Que veut dire 'I'm going to sing' en français ?;je vais chanter;je vais dessiner;je vais voyager;je vais danser
+22421;Comment dit-on 'je vais dessiner' en anglais ?;I'm going to draw;I'm going to watch;I'm going to swim;I'm going to read
+22422;Que veut dire 'I'm going to draw' en français ?;je vais dessiner;je vais chanter;je vais danser;je vais visiter
+22423;Comment dit-on 'plus grand que' en anglais ?;bigger than;less strong than;the strongest;the fastest
+22424;Comment dit-on 'le plus grand' en anglais ?;the biggest;less old than;cheaper than;less tall than
+22425;Comment dit-on 'aussi grand que' en anglais ?;as big as;as strong as;faster than;cheaper than
+22426;Comment dit-on 'moins grand que' en anglais ?;less big than;bigger than;less old than;the youngest
+22427;Comment dit-on 'plus petit que' en anglais ?;smaller than;younger than;less old than;as old as
+22428;Comment dit-on 'le plus petit' en anglais ?;the smallest;less fast than;as fast as;as tall as
+22429;Comment dit-on 'aussi petit que' en anglais ?;as small as;cheaper than;as young as;bigger than
+22430;Comment dit-on 'moins petit que' en anglais ?;less small than;the cheapest;less slow than;less fast than
+22431;Comment dit-on 'plus rapide que' en anglais ?;faster than;less slow than;the fastest;more expensive than
+22432;Comment dit-on 'le plus rapide' en anglais ?;the fastest;the strongest;less big than;the biggest
+22433;Comment dit-on 'aussi rapide que' en anglais ?;as fast as;less strong than;as slow as;younger than
+22434;Comment dit-on 'moins rapide que' en anglais ?;less fast than;taller than;the youngest;as tall as
+22435;Comment dit-on 'plus lent que' en anglais ?;slower than;smaller than;faster than;less fast than
+22436;Comment dit-on 'le plus lent' en anglais ?;the slowest;the most expensive;the smallest;bigger than
+22437;Comment dit-on 'aussi lent que' en anglais ?;as slow as;less tall than;as young as;the cheapest
+22438;Comment dit-on 'moins lent que' en anglais ?;less slow than;less expensive than;smaller than;as cheap as
+22439;Comment dit-on 'plus vieux que' en anglais ?;older than;smaller than;the cheapest;the oldest
+22440;Comment dit-on 'le plus vieux' en anglais ?;the oldest;as slow as;the most expensive;the youngest
+22441;Comment dit-on 'aussi vieux que' en anglais ?;as old as;less slow than;more expensive than;as fast as
+22442;Comment dit-on 'moins vieux que' en anglais ?;less old than;as old as;less young than;more expensive than
+22443;Comment dit-on 'plus jeune que' en anglais ?;younger than;as tall as;the fastest;slower than
+22444;Comment dit-on 'le plus jeune' en anglais ?;the youngest;the tallest;faster than;as young as
+22445;Comment dit-on 'aussi jeune que' en anglais ?;as young as;as big as;the slowest;more expensive than
+22446;Comment dit-on 'moins jeune que' en anglais ?;less young than;less fast than;as fast as;the slowest
+22447;Comment dit-on 'plus fort que' en anglais ?;stronger than;as cheap as;the tallest;the strongest
+22448;Comment dit-on 'le plus fort' en anglais ?;the strongest;less strong than;as fast as;the slowest
+22449;Comment dit-on 'aussi fort que' en anglais ?;as strong as;less slow than;the most expensive;the youngest
+22450;Comment dit-on 'moins fort que' en anglais ?;less strong than;the most expensive;as big as;the strongest
+22451;Comment dit-on 'plus haut que' en anglais ?;taller than;less old than;as small as;as slow as
+22452;Comment dit-on 'le plus haut' en anglais ?;the tallest;the smallest;less big than;less small than
+22453;Comment dit-on 'aussi haut que' en anglais ?;as tall as;as big as;less big than;the smallest
+22454;Comment dit-on 'moins haut que' en anglais ?;less tall than;the slowest;as fast as;as strong as
+22455;Comment dit-on 'plus bon marché que' en anglais ?;cheaper than;less big than;stronger than;less old than
+22456;Comment dit-on 'le plus bon marché' en anglais ?;the cheapest;the youngest;less young than;as strong as
+22457;Comment dit-on 'aussi bon marché que' en anglais ?;as cheap as;faster than;less cheap than;the most expensive
+22458;Comment dit-on 'moins bon marché que' en anglais ?;less cheap than;bigger than;less tall than;as slow as
+22459;Comment dit-on 'plus cher que' en anglais ?;more expensive than;less fast than;older than;less young than
+22460;Comment dit-on 'le plus cher' en anglais ?;the most expensive;less strong than;as big as;less slow than
+22461;Comment dit-on 'aussi cher que' en anglais ?;as expensive as;the slowest;as old as;less strong than
+22462;Comment dit-on 'moins cher que' en anglais ?;less expensive than;less young than;older than;less fast than
+22463;Comment dit-on 'toujours, je me brosse les dents' en anglais ?;I always brush my teeth;I often brush my teeth;I sometimes brush my teeth;I never brush my teeth
+22464;Comment dit-on 'toujours, je mange des légumes' en anglais ?;I always eat vegetables;I often eat vegetables;I never eat vegetables;I usually eat vegetables
+22465;Comment dit-on 'toujours, je regarde la télé' en anglais ?;I always watch TV;I never watch TV;I often watch TV;I usually watch TV
+22466;Comment dit-on 'toujours, je lis des livres' en anglais ?;I always read books;I often read books;I sometimes read books;I usually read books
+22467;Comment dit-on 'toujours, je joue dehors' en anglais ?;I always play outside;I never play outside;I sometimes play outside;I often play outside
+22468;Comment dit-on 'd'habitude, je me brosse les dents' en anglais ?;I usually brush my teeth;I never brush my teeth;I always brush my teeth;I sometimes brush my teeth
+22469;Comment dit-on 'd'habitude, je mange des légumes' en anglais ?;I usually eat vegetables;I sometimes eat vegetables;I never eat vegetables;I often eat vegetables
+22470;Comment dit-on 'd'habitude, je regarde la télé' en anglais ?;I usually watch TV;I often watch TV;I always watch TV;I never watch TV
+22471;Comment dit-on 'd'habitude, je lis des livres' en anglais ?;I usually read books;I sometimes read books;I often read books;I always read books
+22472;Comment dit-on 'd'habitude, je joue dehors' en anglais ?;I usually play outside;I never play outside;I always play outside;I sometimes play outside
+22473;Comment dit-on 'souvent, je me brosse les dents' en anglais ?;I often brush my teeth;I usually brush my teeth;I sometimes brush my teeth;I always brush my teeth
+22474;Comment dit-on 'souvent, je mange des légumes' en anglais ?;I often eat vegetables;I always eat vegetables;I sometimes eat vegetables;I usually eat vegetables
+22475;Comment dit-on 'souvent, je regarde la télé' en anglais ?;I often watch TV;I usually watch TV;I sometimes watch TV;I never watch TV
+22476;Comment dit-on 'souvent, je lis des livres' en anglais ?;I often read books;I usually read books;I never read books;I sometimes read books
+22477;Comment dit-on 'souvent, je joue dehors' en anglais ?;I often play outside;I usually play outside;I never play outside;I always play outside
+22478;Comment dit-on 'parfois, je me brosse les dents' en anglais ?;I sometimes brush my teeth;I usually brush my teeth;I always brush my teeth;I often brush my teeth
+22479;Comment dit-on 'parfois, je mange des légumes' en anglais ?;I sometimes eat vegetables;I often eat vegetables;I always eat vegetables;I never eat vegetables
+22480;Comment dit-on 'parfois, je regarde la télé' en anglais ?;I sometimes watch TV;I never watch TV;I often watch TV;I always watch TV
+22481;Comment dit-on 'parfois, je lis des livres' en anglais ?;I sometimes read books;I often read books;I always read books;I never read books
+22482;Comment dit-on 'parfois, je joue dehors' en anglais ?;I sometimes play outside;I never play outside;I often play outside;I usually play outside
+22483;Comment dit-on 'jamais, je me brosse les dents' en anglais ?;I never brush my teeth;I usually brush my teeth;I always brush my teeth;I sometimes brush my teeth
+22484;Comment dit-on 'jamais, je mange des légumes' en anglais ?;I never eat vegetables;I sometimes eat vegetables;I always eat vegetables;I usually eat vegetables
+22485;Comment dit-on 'jamais, je regarde la télé' en anglais ?;I never watch TV;I often watch TV;I usually watch TV;I always watch TV
+22486;Comment dit-on 'jamais, je lis des livres' en anglais ?;I never read books;I usually read books;I always read books;I often read books
+22487;Comment dit-on 'jamais, je joue dehors' en anglais ?;I never play outside;I often play outside;I usually play outside;I sometimes play outside
+22488;Comment dit-on 'je suis en train de jouer' en anglais ?;I'm playing;I'm reading;I'm singing;I'm dancing
+22489;Que veut dire 'I'm playing' en français ?;je suis en train de jouer;je suis en train de regarder;je suis en train de lire;je suis en train d'écrire
+22490;Comment dit-on 'je suis en train de lire' en anglais ?;I'm reading;I'm singing;I'm playing;I'm sleeping
+22491;Que veut dire 'I'm reading' en français ?;je suis en train de lire;je suis en train d'écrire;je suis en train de nager;je suis en train de dormir
+22492;Comment dit-on 'je suis en train de regarder' en anglais ?;I'm watching;I'm reading;I'm writing;I'm eating
+22493;Que veut dire 'I'm watching' en français ?;je suis en train de regarder;je suis en train de dormir;je suis en train de chanter;je suis en train de nager
+22494;Comment dit-on 'je suis en train de manger' en anglais ?;I'm eating;I'm dancing;I'm playing;I'm watching
+22495;Que veut dire 'I'm eating' en français ?;je suis en train de manger;je suis en train de chanter;je suis en train de dormir;je suis en train de lire
+22496;Comment dit-on 'je suis en train de chanter' en anglais ?;I'm singing;I'm reading;I'm running;I'm writing
+22497;Que veut dire 'I'm singing' en français ?;je suis en train de chanter;je suis en train de danser;je suis en train de lire;je suis en train de nager
+22498;Comment dit-on 'je suis en train de danser' en anglais ?;I'm dancing;I'm writing;I'm watching;I'm singing
+22499;Que veut dire 'I'm dancing' en français ?;je suis en train de danser;je suis en train de courir;je suis en train de lire;je suis en train de chanter
+22500;Comment dit-on 'je suis en train de nager' en anglais ?;I'm swimming;I'm eating;I'm writing;I'm watching
+22501;Que veut dire 'I'm swimming' en français ?;je suis en train de nager;je suis en train de courir;je suis en train de chanter;je suis en train de jouer
+22502;Comment dit-on 'je suis en train d'écrire' en anglais ?;I'm writing;I'm swimming;I'm running;I'm playing
+22503;Que veut dire 'I'm writing' en français ?;je suis en train d'écrire;je suis en train de chanter;je suis en train de nager;je suis en train de jouer
+22504;Comment dit-on 'je suis en train de courir' en anglais ?;I'm running;I'm watching;I'm eating;I'm writing
+22505;Que veut dire 'I'm running' en français ?;je suis en train de courir;je suis en train de jouer;je suis en train de danser;je suis en train de chanter
+22506;Comment dit-on 'je suis en train de dormir' en anglais ?;I'm sleeping;I'm eating;I'm running;I'm singing
+22507;Que veut dire 'I'm sleeping' en français ?;je suis en train de dormir;je suis en train de regarder;je suis en train de jouer;je suis en train de nager
+22508;Quel est un synonyme de 'happy' en anglais ?;glad;happy;big;quick
+22509;Quel est un synonyme de 'glad' en anglais ?;happy;large;small;kind
+22510;Quel est un synonyme de 'big' en anglais ?;large;fast;big;happy
+22511;Quel est un synonyme de 'large' en anglais ?;big;fast;happy;little
+22512;Quel est un synonyme de 'small' en anglais ?;little;big;fast;kind
+22513;Quel est un synonyme de 'little' en anglais ?;small;quick;kind;large
+22514;Quel est un synonyme de 'nice' en anglais ?;kind;large;little;quick
+22515;Quel est un synonyme de 'kind' en anglais ?;nice;glad;little;big
+22516;Quel est un synonyme de 'fast' en anglais ?;quick;glad;kind;large
+22517;Quel est un synonyme de 'quick' en anglais ?;fast;small;happy;little
+22518;Comment dit-on 'tu ne devrais pas crier' en anglais ?;You shouldn't shout;You can't touch that;You mustn't lie;You mustn't cheat
+22519;Que veut dire 'You shouldn't shout' en français ?;tu ne devrais pas crier;tu ne dois pas tricher;tu ne devrais pas être impoli;tu ne dois pas mentir
+22520;Comment dit-on 'tu ne devrais pas être impoli' en anglais ?;You shouldn't be rude;You can't touch that;You can't run here;You mustn't cheat
+22521;Que veut dire 'You shouldn't be rude' en français ?;tu ne devrais pas être impoli;tu ne peux pas courir ici;tu ne dois pas tricher;tu ne dois pas mentir
+22522;Comment dit-on 'tu ne peux pas courir ici' en anglais ?;You can't run here;You shouldn't be rude;You shouldn't shout;You mustn't lie
+22523;Que veut dire 'You can't run here' en français ?;tu ne peux pas courir ici;tu ne dois pas mentir;tu ne devrais pas être impoli;tu ne peux pas toucher ça
+22524;Comment dit-on 'tu ne peux pas toucher ça' en anglais ?;You can't touch that;You mustn't cheat;You shouldn't shout;You shouldn't be rude
+22525;Que veut dire 'You can't touch that' en français ?;tu ne peux pas toucher ça;tu ne peux pas courir ici;tu ne dois pas tricher;tu ne devrais pas être impoli
+22526;Comment dit-on 'tu ne dois pas mentir' en anglais ?;You mustn't lie;You shouldn't be rude;You mustn't cheat;You can't touch that
+22527;Que veut dire 'You mustn't lie' en français ?;tu ne dois pas mentir;tu ne peux pas courir ici;tu ne dois pas tricher;tu ne devrais pas crier
+22528;Comment dit-on 'tu ne dois pas tricher' en anglais ?;You mustn't cheat;You can't touch that;You shouldn't shout;You mustn't lie
+22529;Que veut dire 'You mustn't cheat' en français ?;tu ne dois pas tricher;tu ne devrais pas être impoli;tu ne dois pas mentir;tu ne peux pas toucher ça

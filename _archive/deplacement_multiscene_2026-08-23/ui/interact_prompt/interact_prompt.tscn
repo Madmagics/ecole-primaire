@@ -1,0 +1,60 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://ui/interact_prompt/interact_prompt.gd" id="1"]
+
+[node name="InteractPrompt" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("1")
+
+[node name="Center" type="CenterContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="PromptButton" type="Button" parent="Center"]
+layout_mode = 2
+visible = false
+text = ""
+
+[node name="Content" type="HBoxContainer" parent="Center/PromptButton"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+alignment = 1
+theme_override_constants/separation = 6
+
+[node name="KeyBadge" type="PanelContainer" parent="Center/PromptButton/Content"]
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 2
+size_flags_vertical = 4
+mouse_filter = 2
+
+[node name="KeyBadgeLabel" type="Label" parent="Center/PromptButton/Content/KeyBadge"]
+layout_mode = 2
+theme_type_variation = &"TitleLabel"
+horizontal_alignment = 1
+vertical_alignment = 1
+text = "E"
+mouse_filter = 2
+
+[node name="PromptLabel" type="Label" parent="Center/PromptButton/Content"]
+layout_mode = 2
+size_flags_vertical = 4
+theme_type_variation = &"TitleLabel"
+vertical_alignment = 1
+text = "Boutique"
+mouse_filter = 2

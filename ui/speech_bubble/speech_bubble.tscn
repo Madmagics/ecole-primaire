@@ -1,0 +1,103 @@
+[gd_scene load_steps=6 format=3]
+
+[ext_resource type="Script" path="res://ui/speech_bubble/speech_bubble.gd" id="1"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_body"]
+bg_color = Color(1, 0.941176, 0.839216, 1)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.478431, 0.290196, 0.168627, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+content_margin_left = 12.0
+content_margin_top = 6.0
+content_margin_right = 12.0
+content_margin_bottom = 6.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dot_far"]
+bg_color = Color(1, 0.941176, 0.839216, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.478431, 0.290196, 0.168627, 1)
+corner_radius_top_left = 7
+corner_radius_top_right = 7
+corner_radius_bottom_right = 7
+corner_radius_bottom_left = 7
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dot_mid"]
+bg_color = Color(1, 0.941176, 0.839216, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.478431, 0.290196, 0.168627, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dot_near"]
+bg_color = Color(1, 0.941176, 0.839216, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.478431, 0.290196, 0.168627, 1)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+
+[node name="SpeechBubble" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 0.0
+offset_bottom = 0.0
+mouse_filter = 2
+script = ExtResource("1")
+
+[node name="Body" type="PanelContainer" parent="."]
+layout_mode = 0
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_body")
+
+[node name="Margin" type="MarginContainer" parent="Body"]
+layout_mode = 2
+mouse_filter = 2
+
+[node name="Label" type="Label" parent="Body/Margin"]
+layout_mode = 2
+mouse_filter = 2
+theme_override_colors/font_color = Color(0.478431, 0.290196, 0.168627, 1)
+theme_override_font_sizes/font_size = 16
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+text = ""
+
+[node name="DotFar" type="Panel" parent="."]
+layout_mode = 0
+custom_minimum_size = Vector2(14, 14)
+size = Vector2(14, 14)
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_dot_far")
+
+[node name="DotMid" type="Panel" parent="."]
+layout_mode = 0
+custom_minimum_size = Vector2(10, 10)
+size = Vector2(10, 10)
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_dot_mid")
+
+[node name="DotNear" type="Panel" parent="."]
+layout_mode = 0
+custom_minimum_size = Vector2(6, 6)
+size = Vector2(6, 6)
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_dot_near")

@@ -14,28 +14,988 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 11012;Dans la phrase 'Mon frère est médecin.', quelle est la fonction de 'médecin' ?;attribut du sujet;COD;COI;complément circonstanciel
 11013;Dans la phrase 'La soupe parait délicieuse.', quelle est la fonction de 'délicieuse' ?;attribut du sujet;COD;COI;complément circonstanciel
 11014;Dans la phrase 'Les élèves restent silencieux.', quelle est la fonction de 'silencieux' ?;attribut du sujet;COD;COI;complément circonstanciel
-11015;___ chien aboie fort (à moi).;Mon;Ton;Son;Ce
-11016;___ cartable est neuf (à toi).;Ton;Mon;Ces;Cette
-11017;___ chaussures sont sales (à lui/elle).;Ses;Ces;Mes;Cette
-11018;___ maison est grande (à nous).;Notre;Votre;Leur;Cette
-11019;___ voiture est rouge (à vous).;Votre;Notre;Leur;Ce
-11020;___ enfants sont sages (à eux).;Leurs;Leur;Ses;Ces
-11021;___ crayon est casse (à moi).;Mon;Ma;Mes;Ce
-11022;___ trousse est neuve (à toi).;Ta;Ton;Tes;Cette
-11023;Regarde ___ chien-la, il est énorme (celui-ci).;ce;se;ces;c'est
-11024;___ fleurs sont magnifiques (celles-là).;Ces;Ses;Leurs;Cess
-11025;___ histoire est passionnante (celle-là).;Cette;Ces;Ses;Cet
-11026;___ arbre perd ses feuilles (celui-là).;Cet;Ce;Cette;Ces
-11027;Je préfère ___ robe-ci (celle-ci).;cette;ces;cet;ce
-11028;___ garçons jouent ensemble (ceux-là).;Ces;Ses;Cette;Cet
-11029;Prends ___ livres, ils sont à toi (à toi, pluriel).;tes;ces;ses;ta
-11030;Elle est ___ tard hier soir (arriver).;arrivée;arrive;arrives;arrivées
-11031;Ils sont ___ ce matin (partir).;partis;parti;partie;parties
-11032;Elles sont ___ chez leur tante (aller).;allées;allé;allée;allés
-11033;Il est ___ le premier (venir).;venu;venue;venus;venues
-11034;Nous sommes ___ (garçons) au parc (aller).;allés;allé;allée;allées
-11035;Vous êtes ___ (filles) trop tard (rentrer).;rentrées;rentre;rentres;rentrée
-11036;Elle est ___ de sa chute (tomber).;tombée;tombe;tombes;tombées
-11037;Ils sont ___ par la fenêtre (sortir).;sortis;sorti;sortie;sorties
-11038;Elle est ___ chez elle (rester).;restée;reste;restes;restées
-11039;Il est ___ en retard (monter).;monté;montée;montes;montées
+11015;C'est à moi : ___ chien aboie fort.;mon;ton;son;ce
+11016;C'est à toi : ___ cartable est neuf.;ton;mon;ces;cette
+11017;C'est à lui : ___ chaussures sont sales.;ses;ces;mes;cette
+11018;C'est à nous : ___ maison est grande.;notre;votre;leur;cette
+11019;C'est à vous : ___ voiture est rouge.;votre;notre;leur;ce
+11020;C'est à eux : ___ enfants sont sages.;leurs;leur;ses;ces
+11021;C'est à moi : ___ crayon est casse.;mon;ma;mes;ce
+11022;C'est à toi : ___ trousse est neuve.;ta;ton;tes;cette
+11023;Regarde ___ chien-là, il est énorme.;ce;se;ces;c'est
+11024;___ fleurs-là sont magnifiques.;Ces;Ses;Leurs;Cette
+11025;___ histoire-là est passionnante.;Cette;Ces;Ses;Cet
+11026;___ arbre perd ses feuilles.;Cet;Ce;Cette;Ces
+11027;Je préfère ___ robe-ci.;cette;ces;cet;ce
+11028;___ garçons-là jouent ensemble.;Ces;Ses;Cette;Cet
+11029;Prends ___ livres, ils sont à toi.;tes;ces;ses;ta
+11030;Elle est ___ tard hier soir.;arrivée;arrive;arrives;arrivées
+11031;Ils sont ___ ce matin.;partis;parti;partie;parties
+11032;Elles sont ___ chez leur tante.;allées;allé;allée;allés
+11033;Il est ___ le premier.;venu;venue;venus;venues
+11034;Nous, les garçons, sommes ___ au parc.;allés;allé;allée;allées
+11035;Vous, les filles, êtes ___ trop tard.;rentrées;rentre;rentres;rentrée
+11036;Elle est ___ de sa chute.;tombée;tombe;tombes;tombées
+11037;Ils sont ___ par la fenêtre.;sortis;sorti;sortie;sorties
+11038;Elle est ___ chez elle.;restée;reste;restes;restées
+11039;Il est ___ en retard.;monté;montée;montes;montées
+34000;Dans la phrase 'Marie achète une robe.', quelle est la fonction de 'une robe' ?;COD;COI;attribut du sujet;complément circonstanciel
+34001;Dans la phrase 'Paul répare son vélo.', quelle est la fonction de 'son vélo' ?;COD;COI;attribut du sujet;complément circonstanciel
+34002;Dans la phrase 'Le chat griffe le canapé.', quelle est la fonction de 'le canapé' ?;COD;COI;attribut du sujet;complément circonstanciel
+34003;Dans la phrase 'Les enfants dessinent un château.', quelle est la fonction de 'un château' ?;COD;COI;attribut du sujet;complément circonstanciel
+34004;Dans la phrase 'Léo construit une cabane.', quelle est la fonction de 'une cabane' ?;COD;COI;attribut du sujet;complément circonstanciel
+34005;Dans la phrase 'Zoé porte un sac.', quelle est la fonction de 'un sac' ?;COD;COI;attribut du sujet;complément circonstanciel
+34006;Dans la phrase 'Le boulanger vend du pain.', quelle est la fonction de 'du pain' ?;COD;COI;attribut du sujet;complément circonstanciel
+34007;Dans la phrase 'Nous rangeons la cuisine.', quelle est la fonction de 'la cuisine' ?;COD;COI;attribut du sujet;complément circonstanciel
+34008;Dans la phrase 'Vous cherchez vos clés.', quelle est la fonction de 'vos clés' ?;COD;COI;attribut du sujet;complément circonstanciel
+34009;Dans la phrase 'Tu lis un roman.', quelle est la fonction de 'un roman' ?;COD;COI;attribut du sujet;complément circonstanciel
+34010;Dans la phrase 'Le fermier cultive son champ.', quelle est la fonction de 'son champ' ?;COD;COI;attribut du sujet;complément circonstanciel
+34011;Dans la phrase 'La maîtresse corrige les cahiers.', quelle est la fonction de 'les cahiers' ?;COD;COI;attribut du sujet;complément circonstanciel
+34012;Dans la phrase 'Mon oncle conduit une camionnette.', quelle est la fonction de 'une camionnette' ?;COD;COI;attribut du sujet;complément circonstanciel
+34013;Dans la phrase 'Les élèves apprennent une poésie.', quelle est la fonction de 'une poésie' ?;COD;COI;attribut du sujet;complément circonstanciel
+34014;Dans la phrase 'Le peintre peint un tableau.', quelle est la fonction de 'un tableau' ?;COD;COI;attribut du sujet;complément circonstanciel
+34015;Dans la phrase 'Ma tante coud une robe.', quelle est la fonction de 'une robe' ?;COD;COI;attribut du sujet;complément circonstanciel
+34016;Dans la phrase 'Les pompiers éteignent le feu.', quelle est la fonction de 'le feu' ?;COD;COI;attribut du sujet;complément circonstanciel
+34017;Dans la phrase 'Le vétérinaire soigne les animaux.', quelle est la fonction de 'les animaux' ?;COD;COI;attribut du sujet;complément circonstanciel
+34018;Dans la phrase 'Nous préparons le repas.', quelle est la fonction de 'le repas' ?;COD;COI;attribut du sujet;complément circonstanciel
+34019;Dans la phrase 'Ils construisent un pont.', quelle est la fonction de 'un pont' ?;COD;COI;attribut du sujet;complément circonstanciel
+34020;Dans la phrase 'Le musicien accorde son violon.', quelle est la fonction de 'son violon' ?;COD;COI;attribut du sujet;complément circonstanciel
+34021;Dans la phrase 'La chanteuse répète sa chanson.', quelle est la fonction de 'sa chanson' ?;COD;COI;attribut du sujet;complément circonstanciel
+34022;Dans la phrase 'Les jardiniers taillent les arbres.', quelle est la fonction de 'les arbres' ?;COD;COI;attribut du sujet;complément circonstanciel
+34023;Dans la phrase 'Le boucher découpe la viande.', quelle est la fonction de 'la viande' ?;COD;COI;attribut du sujet;complément circonstanciel
+34024;Dans la phrase 'La couturière coud un manteau.', quelle est la fonction de 'un manteau' ?;COD;COI;attribut du sujet;complément circonstanciel
+34025;Dans la phrase 'Les élèves récitent une fable.', quelle est la fonction de 'une fable' ?;COD;COI;attribut du sujet;complément circonstanciel
+34026;Dans la phrase 'Le photographe prend une photo.', quelle est la fonction de 'une photo' ?;COD;COI;attribut du sujet;complément circonstanciel
+34027;Dans la phrase 'Ma cousine range ses affaires.', quelle est la fonction de 'ses affaires' ?;COD;COI;attribut du sujet;complément circonstanciel
+34028;Dans la phrase 'Le pêcheur attrape un poisson.', quelle est la fonction de 'un poisson' ?;COD;COI;attribut du sujet;complément circonstanciel
+34029;Dans la phrase 'Nous visitons le musée.', quelle est la fonction de 'le musée' ?;COD;COI;attribut du sujet;complément circonstanciel
+34030;Dans la phrase 'Elle écrit une lettre.', quelle est la fonction de 'une lettre' ?;COD;COI;attribut du sujet;complément circonstanciel
+34031;Dans la phrase 'Il répare la clôture.', quelle est la fonction de 'la clôture' ?;COD;COI;attribut du sujet;complément circonstanciel
+34032;Dans la phrase 'Les ouvriers construisent une maison.', quelle est la fonction de 'une maison' ?;COD;COI;attribut du sujet;complément circonstanciel
+34033;Dans la phrase 'Le chauffeur gare le camion.', quelle est la fonction de 'le camion' ?;COD;COI;attribut du sujet;complément circonstanciel
+34034;Dans la phrase 'La secrétaire classe les dossiers.', quelle est la fonction de 'les dossiers' ?;COD;COI;attribut du sujet;complément circonstanciel
+34035;Dans la phrase 'Le facteur distribue le courrier.', quelle est la fonction de 'le courrier' ?;COD;COI;attribut du sujet;complément circonstanciel
+34036;Dans la phrase 'Les enfants ramassent des coquillages.', quelle est la fonction de 'des coquillages' ?;COD;COI;attribut du sujet;complément circonstanciel
+34037;Dans la phrase 'Mon grand-père raconte une histoire.', quelle est la fonction de 'une histoire' ?;COD;COI;attribut du sujet;complément circonstanciel
+34038;Dans la phrase 'Le boulanger pétrit la pâte.', quelle est la fonction de 'la pâte' ?;COD;COI;attribut du sujet;complément circonstanciel
+34039;Dans la phrase 'Les randonneurs suivent le sentier.', quelle est la fonction de 'le sentier' ?;COD;COI;attribut du sujet;complément circonstanciel
+34040;Dans la phrase 'Il pense à ses examens.', quelle est la fonction de 'à ses examens' ?;COI;COD;attribut du sujet;complément circonstanciel
+34041;Dans la phrase 'Elle obéit à ses parents.', quelle est la fonction de 'à ses parents' ?;COI;COD;attribut du sujet;complément circonstanciel
+34042;Dans la phrase 'Nous réfléchissons à la question.', quelle est la fonction de 'à la question' ?;COI;COD;attribut du sujet;complément circonstanciel
+34043;Dans la phrase 'Tu écris à ta correspondante.', quelle est la fonction de 'à ta correspondante' ?;COI;COD;attribut du sujet;complément circonstanciel
+34044;Dans la phrase 'Le chien obéit à son maître.', quelle est la fonction de 'à son maître' ?;COI;COD;attribut du sujet;complément circonstanciel
+34045;Dans la phrase 'Vous parlez à vos amis.', quelle est la fonction de 'à vos amis' ?;COI;COD;attribut du sujet;complément circonstanciel
+34046;Dans la phrase 'Je téléphone à ma grand-mère.', quelle est la fonction de 'à ma grand-mère' ?;COI;COD;attribut du sujet;complément circonstanciel
+34047;Dans la phrase 'Elle ressemble à sa mère.', quelle est la fonction de 'à sa mère' ?;COI;COD;attribut du sujet;complément circonstanciel
+34048;Dans la phrase 'Ce jeu plaît à tout le monde.', quelle est la fonction de 'à tout le monde' ?;COI;COD;attribut du sujet;complément circonstanciel
+34049;Dans la phrase 'Les élèves participent à la sortie.', quelle est la fonction de 'à la sortie' ?;COI;COD;attribut du sujet;complément circonstanciel
+34050;Dans la phrase 'Il s'intéresse à l'astronomie.', quelle est la fonction de 'à l'astronomie' ?;COI;COD;attribut du sujet;complément circonstanciel
+34051;Dans la phrase 'Nous pensons à nos vacances.', quelle est la fonction de 'à nos vacances' ?;COI;COD;attribut du sujet;complément circonstanciel
+34052;Dans la phrase 'Tu obéis à la loi.', quelle est la fonction de 'à la loi' ?;COI;COD;attribut du sujet;complément circonstanciel
+34053;Dans la phrase 'Elle répond à sa maîtresse.', quelle est la fonction de 'à sa maîtresse' ?;COI;COD;attribut du sujet;complément circonstanciel
+34054;Dans la phrase 'Le résultat plaît à l'entraîneur.', quelle est la fonction de 'à l'entraîneur' ?;COI;COD;attribut du sujet;complément circonstanciel
+34055;Dans la phrase 'Les enfants jouent à la marelle.', quelle est la fonction de 'à la marelle' ?;COI;COD;attribut du sujet;complément circonstanciel
+34056;Dans la phrase 'Il songe à son avenir.', quelle est la fonction de 'à son avenir' ?;COI;COD;attribut du sujet;complément circonstanciel
+34057;Dans la phrase 'Vous réfléchissez à votre choix.', quelle est la fonction de 'à votre choix' ?;COI;COD;attribut du sujet;complément circonstanciel
+34058;Dans la phrase 'Elle succède à son père.', quelle est la fonction de 'à son père' ?;COI;COD;attribut du sujet;complément circonstanciel
+34059;Dans la phrase 'Nous assistons à la réunion.', quelle est la fonction de 'à la réunion' ?;COI;COD;attribut du sujet;complément circonstanciel
+34060;Dans la phrase 'Le chat échappe à son maître.', quelle est la fonction de 'à son maître' ?;COI;COD;attribut du sujet;complément circonstanciel
+34061;Dans la phrase 'Elle renonce à son projet.', quelle est la fonction de 'à son projet' ?;COI;COD;attribut du sujet;complément circonstanciel
+34062;Dans la phrase 'Il survit à l'accident.', quelle est la fonction de 'à l'accident' ?;COI;COD;attribut du sujet;complément circonstanciel
+34063;Dans la phrase 'Nous goûtons à la soupe.', quelle est la fonction de 'à la soupe' ?;COI;COD;attribut du sujet;complément circonstanciel
+34064;Dans la phrase 'Tu ressembles à ton père.', quelle est la fonction de 'à ton père' ?;COI;COD;attribut du sujet;complément circonstanciel
+34065;Dans la phrase 'Le sportif participe à la compétition.', quelle est la fonction de 'à la compétition' ?;COI;COD;attribut du sujet;complément circonstanciel
+34066;Dans la phrase 'Ils obéissent à leur professeur.', quelle est la fonction de 'à leur professeur' ?;COI;COD;attribut du sujet;complément circonstanciel
+34067;Dans la phrase 'Elle pense à son avenir.', quelle est la fonction de 'à son avenir' ?;COI;COD;attribut du sujet;complément circonstanciel
+34068;Dans la phrase 'Je m'intéresse à la musique.', quelle est la fonction de 'à la musique' ?;COI;COD;attribut du sujet;complément circonstanciel
+34069;Dans la phrase 'Nous croyons à cette histoire.', quelle est la fonction de 'à cette histoire' ?;COI;COD;attribut du sujet;complément circonstanciel
+34070;Dans la phrase 'Le ciel est gris.', quelle est la fonction de 'gris' ?;attribut du sujet;COD;COI;complément circonstanciel
+34071;Dans la phrase 'Cette histoire semble incroyable.', quelle est la fonction de 'incroyable' ?;attribut du sujet;COD;COI;complément circonstanciel
+34072;Dans la phrase 'Mon père est pompier.', quelle est la fonction de 'pompier' ?;attribut du sujet;COD;COI;complément circonstanciel
+34073;Dans la phrase 'La soupe paraît froide.', quelle est la fonction de 'froide' ?;attribut du sujet;COD;COI;complément circonstanciel
+34074;Dans la phrase 'Les élèves restent attentifs.', quelle est la fonction de 'attentifs' ?;attribut du sujet;COD;COI;complément circonstanciel
+34075;Dans la phrase 'Ce fruit est mûr.', quelle est la fonction de 'mûr' ?;attribut du sujet;COD;COI;complément circonstanciel
+34076;Dans la phrase 'Ma soeur devient infirmière.', quelle est la fonction de 'infirmière' ?;attribut du sujet;COD;COI;complément circonstanciel
+34077;Dans la phrase 'Le chemin semble dangereux.', quelle est la fonction de 'dangereux' ?;attribut du sujet;COD;COI;complément circonstanciel
+34078;Dans la phrase 'Cette idée paraît excellente.', quelle est la fonction de 'excellente' ?;attribut du sujet;COD;COI;complément circonstanciel
+34079;Dans la phrase 'Le film semble long.', quelle est la fonction de 'long' ?;attribut du sujet;COD;COI;complément circonstanciel
+34080;Dans la phrase 'Mon frère est architecte.', quelle est la fonction de 'architecte' ?;attribut du sujet;COD;COI;complément circonstanciel
+34081;Dans la phrase 'La réponse semble juste.', quelle est la fonction de 'juste' ?;attribut du sujet;COD;COI;complément circonstanciel
+34082;Dans la phrase 'Ces enfants restent sages.', quelle est la fonction de 'sages' ?;attribut du sujet;COD;COI;complément circonstanciel
+34083;Dans la phrase 'Le gâteau semble délicieux.', quelle est la fonction de 'délicieux' ?;attribut du sujet;COD;COI;complément circonstanciel
+34084;Dans la phrase 'Cette maison paraît vide.', quelle est la fonction de 'vide' ?;attribut du sujet;COD;COI;complément circonstanciel
+34085;Dans la phrase 'Ton projet semble ambitieux.', quelle est la fonction de 'ambitieux' ?;attribut du sujet;COD;COI;complément circonstanciel
+34086;Dans la phrase 'Elle devient médecin.', quelle est la fonction de 'médecin' ?;attribut du sujet;COD;COI;complément circonstanciel
+34087;Dans la phrase 'Ce livre paraît passionnant.', quelle est la fonction de 'passionnant' ?;attribut du sujet;COD;COI;complément circonstanciel
+34088;Dans la phrase 'Ce chemin reste boueux.', quelle est la fonction de 'boueux' ?;attribut du sujet;COD;COI;complément circonstanciel
+34089;Dans la phrase 'La météo semble incertaine.', quelle est la fonction de 'incertaine' ?;attribut du sujet;COD;COI;complément circonstanciel
+34090;Dans la phrase 'Cet exercice paraît facile.', quelle est la fonction de 'facile' ?;attribut du sujet;COD;COI;complément circonstanciel
+34091;Dans la phrase 'Le professeur est patient.', quelle est la fonction de 'patient' ?;attribut du sujet;COD;COI;complément circonstanciel
+34092;Dans la phrase 'Cette plante reste fragile.', quelle est la fonction de 'fragile' ?;attribut du sujet;COD;COI;complément circonstanciel
+34093;Dans la phrase 'Le résultat semble surprenant.', quelle est la fonction de 'surprenant' ?;attribut du sujet;COD;COI;complément circonstanciel
+34094;Dans la phrase 'Mon voisin est gentil.', quelle est la fonction de 'gentil' ?;attribut du sujet;COD;COI;complément circonstanciel
+34095;Dans la phrase 'La rue reste calme.', quelle est la fonction de 'calme' ?;attribut du sujet;COD;COI;complément circonstanciel
+34096;Dans la phrase 'Ce dessert paraît succulent.', quelle est la fonction de 'succulent' ?;attribut du sujet;COD;COI;complément circonstanciel
+34097;Dans la phrase 'L'eau devient glacée.', quelle est la fonction de 'glacée' ?;attribut du sujet;COD;COI;complément circonstanciel
+34098;Dans la phrase 'Le ciel reste couvert.', quelle est la fonction de 'couvert' ?;attribut du sujet;COD;COI;complément circonstanciel
+34099;Dans la phrase 'Cette nouvelle semble fausse.', quelle est la fonction de 'fausse' ?;attribut du sujet;COD;COI;complément circonstanciel
+34100;C'est à moi : ___ chapeau est là.;mon;votre;leur;ma
+34101;C'est à moi : ___ écharpe est là.;mon;notre;son;votre
+34102;C'est à moi : ___ gants sont là.;mes;ton;son;ma
+34103;C'est à moi : ___ stylo est là.;mon;ta;notre;ton
+34104;C'est à moi : ___ gomme est là.;ma;votre;mon;ton
+34105;C'est à toi : ___ vélo est là.;ton;son;ta;leur
+34106;C'est à toi : ___ trousse est là.;ta;notre;ton;ma
+34107;C'est à toi : ___ cahiers sont là.;tes;votre;sa;leur
+34108;C'est à toi : ___ ballon est là.;ton;votre;sa;mon
+34109;C'est à toi : ___ chaussette est là.;ta;leur;son;mon
+34110;C'est à lui : ___ sac est là.;son;mon;ta;sa
+34111;C'est à lui : ___ gomme est là.;sa;ton;votre;ma
+34112;C'est à lui : ___ crayons sont là.;ses;sa;ma;votre
+34113;C'est à lui : ___ manteau est là.;son;mon;ta;votre
+34114;C'est à lui : ___ écharpe est là.;son;sa;ton;mon
+34115;C'est à nous : ___ maison est là.;notre;son;ta;mon
+34116;C'est à nous : ___ jardin est là.;notre;leur;mon;sa
+34117;C'est à nous : ___ amis sont là.;nos;leur;sa;ta
+34118;C'est à nous : ___ classe est là.;notre;ta;leur;mon
+34119;C'est à nous : ___ cousins sont là.;nos;son;notre;leur
+34120;C'est à vous : ___ voiture est là.;votre;ton;sa;mon
+34121;C'est à vous : ___ chien est là.;votre;sa;ma;mon
+34122;C'est à vous : ___ livres sont là.;vos;mon;son;leur
+34123;C'est à vous : ___ maison est là.;votre;mon;ta;ton
+34124;C'est à vous : ___ outils sont là.;vos;votre;sa;notre
+34125;C'est à eux : ___ ferme est là.;leur;son;ta;votre
+34126;C'est à eux : ___ chat est là.;leur;ton;notre;son
+34127;C'est à eux : ___ enfants sont là.;leurs;notre;leur;votre
+34128;C'est à eux : ___ jardin est là.;leur;mon;votre;ton
+34129;C'est à eux : ___ affaires sont là.;leurs;ta;ton;notre
+34130;Regarde ___ chien, il est superbe.;ce;ces;cette;cet
+34131;Regarde ___ arbre, il est superbe.;cet;ces;cette;ce
+34132;Regarde ___ histoire, elle est superbe.;cette;cet;ce;ces
+34133;Regarde ___ fleurs, elles sont superbes.;ces;ce;cet;cette
+34134;Regarde ___ garçon, il est superbe.;ce;cet;cette;ces
+34135;Regarde ___ idée, elle est superbe.;cette;ce;cet;ces
+34136;Regarde ___ animal, il est superbe.;cet;ces;ce;cette
+34137;Regarde ___ robe, elle est superbe.;cette;cet;ces;ce
+34138;Regarde ___ enfants, ils sont superbes.;ces;cet;ce;cette
+34139;Regarde ___ stylo, il est superbe.;ce;cette;ces;cet
+34140;Regarde ___ orage, il est superbe.;cet;cette;ce;ces
+34141;Regarde ___ classe, elle est superbe.;cette;cet;ces;ce
+34142;Regarde ___ crayons, ils sont superbes.;ces;ce;cette;cet
+34143;Regarde ___ maison, elle est superbe.;cette;ces;cet;ce
+34144;Regarde ___ hôtel, il est superbe.;cet;ce;ces;cette
+34145;Regarde ___ livre, il est superbe.;ce;cet;ces;cette
+34146;Regarde ___ étoile, elle est superbe.;cette;cet;ce;ces
+34147;Regarde ___ outil, il est superbe.;cet;cette;ces;ce
+34148;Regarde ___ filles, elles sont superbes.;ces;cet;cette;ce
+34149;Regarde ___ bateau, il est superbe.;ce;cette;cet;ces
+34150;Regarde ___ île, elle est superbe.;cette;ces;ce;cet
+34151;Regarde ___ chapeau, il est superbe.;ce;ces;cet;cette
+34152;Regarde ___ horloge, elle est superbe.;cette;cet;ces;ce
+34153;Regarde ___ avions, ils sont superbes.;ces;cette;ce;cet
+34154;Paul est ___ chez nous.;venu;venues;venue;venus
+34155;Zoé est ___ dans la cour.;sortie;sortis;sorties;sorti
+34156;Les garçons sont ___.;venus;venu;venue;venues
+34157;Paul et Tom sont ___ de leur chambre.;descendus;descendu;descendue;descendues
+34158;Hugo est ___ de sa chambre.;descendu;descendus;descendues;descendue
+34159;Paul est ___ aujourd'hui.;revenu;revenus;revenue;revenues
+34160;Lea est ___ à la maison.;retournée;retournées;retourné;retournés
+34161;Zoé est ___ aujourd'hui.;passée;passées;passé;passés
+34162;Les filles sont ___.;parties;partie;parti;partis
+34163;Tom est ___ sur le toit.;monté;montée;montés;montées
+34164;Marie et Lea sont ___ tard le soir.;rentrées;rentrée;rentré;rentrés
+34165;Hugo est ___ aujourd'hui.;resté;restées;restée;restés
+34166;Marie et Lea sont ___ aujourd'hui.;nées;né;nés;née
+34167;Chloé est ___ à la maison.;restée;restées;restés;resté
+34168;Paul et Tom sont ___ aujourd'hui.;morts;mortes;morte;mort
+34169;Chloé est ___ aujourd'hui.;passée;passé;passés;passées
+34170;Les filles sont ___ aujourd'hui.;mortes;morte;mort;morts
+34171;Sami est ___ à la maison.;resté;restées;restée;restés
+34172;Chloé était ___ hier.;rentrée;rentrées;rentré;rentrés
+34173;Nina est ___ dans la salle de classe.;entrée;entré;entrés;entrées
+34174;Lea est ___ aujourd'hui.;restée;restées;restés;resté
+34175;Nina est ___ aujourd'hui.;sortie;sorti;sorties;sortis
+34176;Les filles étaient ___ hier.;restées;restée;resté;restés
+34177;Marie est ___ dans la cour.;sortie;sorti;sorties;sortis
+34178;Sami est ___ aujourd'hui.;parti;parties;partie;partis
+34179;Léo est ___ à Paris.;né;nées;nés;née
+34180;Lea était ___ hier.;arrivée;arrivés;arrivé;arrivées
+34181;Tom est ___ aujourd'hui.;revenu;revenus;revenue;revenues
+34182;Les filles sont ___ par le jardin.;passées;passés;passé;passée
+34183;Lea est ___ de l'école.;revenue;revenues;revenus;revenu
+34184;Chloé est ___ à Paris.;née;né;nés;nées
+34185;Nina était ___ hier.;allée;allés;allées;allé
+34186;Les garçons sont ___ aujourd'hui.;montés;montée;montées;monté
+34187;Paul était ___ hier.;entré;entrée;entrés;entrées
+34188;Sami était ___ hier.;passé;passée;passés;passées
+34189;Lea est ___ un dimanche.;née;nées;né;nés
+34190;Les garçons étaient ___ hier.;descendus;descendue;descendues;descendu
+34191;Sami est ___ en 2015.;né;nées;née;nés
+34192;Nina est ___ de l'arbre.;descendue;descendues;descendu;descendus
+34193;Les filles sont ___ tard le soir.;rentrées;rentré;rentrés;rentrée
+34194;Paul est ___ de son vélo.;tombé;tombés;tombées;tombée
+34195;Paul et Tom étaient ___ hier.;entrés;entrée;entré;entrées
+34196;Chloé est ___ de l'échelle.;tombée;tombé;tombées;tombés
+34197;Les garçons sont ___ au stade.;allés;allées;allée;allé
+34198;Lea est déjà ___.;venue;venus;venu;venues
+34199;Hugo était ___ hier.;allé;allée;allées;allés
+34200;Nina est ___ par la boulangerie.;passée;passées;passé;passés
+34201;Lea est bien ___.;entrée;entrées;entré;entrés
+34202;Lea était ___ sur l'échelle.;montée;montés;montées;monté
+34203;Zoé était ___ hier.;entrée;entrées;entrés;entré
+34204;Marie est ___ aujourd'hui.;née;né;nés;nées
+34205;Paul est ___ en avance.;arrivé;arrivés;arrivées;arrivée
+34206;Paul est déjà ___.;né;nés;nées;née
+34207;Lea est encore ___.;descendue;descendues;descendu;descendus
+34208;Les garçons sont ___ en excursion.;partis;parties;partie;parti
+34209;Tom était ___ hier.;mort;mortes;morts;morte
+34210;Paul et Tom sont ___ à la maison.;restés;resté;restée;restées
+34211;Léo est ___ aujourd'hui.;entré;entrés;entrées;entrée
+34212;Marie était ___ hier.;restée;resté;restés;restées
+34213;Lea vient d'être ___.;morte;mortes;morts;mort
+34214;Les filles sont déjà ___.;entrées;entré;entrée;entrés
+34215;Les filles sont bien ___.;montées;montés;monté;montée
+34216;Marie et Lea étaient ___ hier.;montées;montée;monté;montés
+34217;Paul est bien ___.;passé;passées;passés;passée
+34218;Marie est ___ du bus.;descendue;descendu;descendus;descendues
+34219;Marie et Lea sont ___ dans le jardin.;restées;restée;resté;restés
+34220;Nina est déjà ___.;partie;partis;parti;parties
+34221;Léo était ___ hier.;retourné;retournées;retournés;retournée
+34222;Zoé est ___ du marché.;revenue;revenus;revenues;revenu
+34223;Paul était ___ à la cantine.;resté;restés;restée;restées
+34224;Chloé est déjà ___.;morte;mortes;mort;morts
+34225;Nina est bien ___.;rentrée;rentrées;rentré;rentrés
+34226;Paul et Tom sont ___ à la bibliothèque.;allés;allées;allé;allée
+34227;Paul est encore ___.;rentré;rentrée;rentrées;rentrés
+34228;Zoé est ___ au marché.;allée;allé;allés;allées
+34229;Marie et Lea sont ___ de la ferme.;revenues;revenus;revenue;revenu
+34230;Hugo est ___ de rire.;mort;mortes;morts;morte
+34231;Marie est ___ dans la cour.;entrée;entrées;entrés;entré
+34232;Léo est ___ en vacances.;parti;partis;partie;parties
+34233;Marie est déjà ___.;montée;montées;montés;monté
+34234;Nina était ___ à l'hôpital.;née;nées;nés;né
+34235;Paul et Tom sont déjà ___.;sortis;sorti;sortie;sorties
+34236;Les filles étaient ___ en automne.;nées;né;nés;née
+34237;Les garçons sont déjà ___.;morts;morte;mort;mortes
+34238;Zoé est déjà ___.;née;né;nées;nés
+34239;Nina est encore ___.;revenue;revenu;revenus;revenues
+34240;Les garçons sont bien ___.;restés;restée;restées;resté
+34241;Paul vient d'être ___.;parti;partie;parties;partis
+34242;Paul et Tom sont bien ___.;arrivés;arrivée;arrivées;arrivé
+34243;Tom est ___ à Lyon.;né;nés;née;nées
+34244;Hugo est ___ du camping.;revenu;revenus;revenue;revenues
+34245;Tom est ___ sans prévenir.;parti;partie;partis;parties
+34246;Marie et Lea sont déjà ___ au marché.;allées;allé;allés;allée
+34247;Sami est ___ à la piscine.;allé;allées;allés;allée
+34248;Zoé est bien ___.;venue;venu;venues;venus
+34249;Paul et Tom étaient ___ voir leurs amis.;venus;venu;venue;venues
+34250;Les filles sont encore ___.;tombées;tombés;tombé;tombée
+34251;Sami est déjà ___.;descendu;descendue;descendues;descendus
+34252;Sami est bien ___.;arrivé;arrivée;arrivés;arrivées
+34253;Hugo est déjà ___.;passé;passées;passés;passée
+34254;Paul et Tom sont encore ___.;montés;monté;montées;montée
+34255;Nina vient d'être ___.;morte;mort;morts;mortes
+34256;Paul et Tom viennent d'être ___.;rentrés;rentrée;rentré;rentrées
+34257;Marie est bien ___.;partie;partis;parti;parties
+34258;Hugo est bien ___.;arrivé;arrivés;arrivées;arrivée
+34259;Hugo était ___ sous la pluie.;sorti;sorties;sortie;sortis
+34260;Zoé était ___ voir ses cousins.;retournée;retournés;retourné;retournées
+34261;Lea était déjà ___.;sortie;sortis;sorti;sorties
+34262;Léo est ___ au cinéma.;allé;allées;allés;allée
+34263;Marie était ___ à la cantine.;allée;allées;allé;allés
+34264;Nina était déjà ___.;arrivée;arrivé;arrivés;arrivées
+34265;Les garçons étaient ___ dans le couloir.;entrés;entré;entrée;entrées
+34266;Marie et Lea sont bien ___.;mortes;mort;morts;morte
+34267;Sami était ___ chercher son cahier.;retourné;retournés;retournées;retournée
+34268;Paul et Tom étaient déjà ___.;nés;né;née;nées
+34269;Hugo est encore ___.;parti;partis;partie;parties
+34270;Hugo vient d'être ___.;tombé;tombés;tombées;tombée
+34271;Léo est déjà ___.;mort;morte;mortes;morts
+34272;Marie et Lea étaient ___ avec dix minutes de retard.;arrivées;arrivé;arrivée;arrivés
+34273;Sami est encore ___.;revenu;revenues;revenus;revenue
+34274;Tom est déjà ___.;entré;entrée;entrées;entrés
+34275;Léo est bien ___.;resté;restée;restées;restés
+34276;Léo était ___ sur le muret.;monté;montée;montées;montés
+34277;Lea sera ___ en voyage.;partie;partis;parties;parti
+34278;Zoé est encore ___.;descendue;descendues;descendu;descendus
+34279;Marie est encore ___.;rentrée;rentrées;rentrés;rentré
+34280;Marie et Lea sont encore ___.;passées;passée;passé;passés
+34281;Marie vient d'être ___.;passée;passées;passés;passé
+34282;Sami vient d'être ___.;mort;morts;mortes;morte
+34283;Paul et Tom seront ___ à la maison.;retournés;retournées;retourné;retournée
+34284;Les filles viennent d'être ___.;descendues;descendu;descendue;descendus
+34285;Les garçons sont encore ___.;revenus;revenu;revenue;revenues
+34286;Marie et Lea viennent d'être ___.;entrées;entrée;entré;entrés
+34287;Tom est bien ___.;resté;restés;restée;restées
+34288;Sami était déjà ___.;rentré;rentrés;rentrée;rentrées
+34289;Léo est encore ___.;sorti;sorties;sortie;sortis
+34290;Sami sera ___ de son vélo.;tombé;tombés;tombée;tombées
+34291;Zoé vient d'être ___.;partie;parti;partis;parties
+34292;Sami est ___ dans le couloir.;sorti;sorties;sortie;sortis
+34293;Les garçons viennent d'être ___.;passés;passées;passée;passé
+34294;Les garçons étaient déjà ___.;rentrés;rentrée;rentrées;rentré
+34295;Les garçons seront ___.;arrivés;arrivées;arrivé;arrivée
+34296;Chloé est bien ___.;entrée;entré;entrés;entrées
+34297;Les garçons sont ___ de leur vélo.;tombés;tombées;tombé;tombée
+34298;Marie et Lea étaient déjà ___ à la maison.;retournées;retournée;retourné;retournés
+34299;Tom était ___ juste à temps.;rentré;rentrée;rentrés;rentrées
+34300;Paul et Tom sont ___ par le gymnase.;passés;passées;passé;passée
+34301;Marie et Lea seront ___ dans la cour.;sorties;sortis;sorti;sortie
+34302;Nina sera ___ à la maison.;restée;resté;restées;restés
+34303;Zoé était déjà ___.;morte;morts;mort;mortes
+34304;Hugo était déjà ___.;rentré;rentrées;rentrés;rentrée
+34305;Hugo sera ___ sur le toit.;monté;montées;montés;montée
+34306;Léo vient d'être ___.;tombé;tombée;tombés;tombées
+34307;Zoé sera ___ de son vélo.;tombée;tombées;tombés;tombé
+34308;Chloé était ___ juste avant la cloche.;arrivée;arrivées;arrivé;arrivés
+34309;Marie et Lea sont ___ près du portail.;descendues;descendus;descendu;descendue
+34310;Les filles étaient déjà ___ à la maison.;retournées;retourné;retournée;retournés
+34311;Zoé est ___ sur le rocher.;montée;montées;monté;montés
+34312;Sami est maintenant ___.;entré;entrés;entrées;entrée
+34313;Les filles seront ___.;sorties;sortis;sorti;sortie
+34314;Zoé est maintenant ___.;arrivée;arrivé;arrivés;arrivées
+34315;Les filles sont ___ au fond de la classe.;allées;allés;allée;allé
+34316;Chloé est encore ___.;revenue;revenus;revenu;revenues
+34317;Tom est encore ___.;passé;passées;passés;passée
+34318;Paul et Tom sont maintenant ___.;revenus;revenues;revenue;revenu
+34319;Léo était déjà ___.;rentré;rentrés;rentrées;rentrée
+34320;Marie était déjà ___.;venue;venues;venu;venus
+34321;Hugo est ___ à la campagne.;né;nés;nées;née
+34322;Chloé vient d'être ___ au marché.;allée;allé;allés;allées
+34323;Paul était déjà ___.;descendu;descendus;descendue;descendues
+34324;Tom vient d'être ___.;descendu;descendus;descendue;descendues
+34325;Paul sera ___ de rire.;mort;morte;mortes;morts
+34326;Marie et Lea sont maintenant ___.;venues;venue;venu;venus
+34327;Marie sera ___ en retard.;arrivée;arrivé;arrivés;arrivées
+34328;Paul et Tom sont enfin ___.;tombés;tombé;tombées;tombée
+34329;Les garçons sont maintenant ___.;sortis;sortie;sorties;sorti
+34330;Tom était déjà ___.;arrivé;arrivées;arrivée;arrivés
+34331;Lea est ___ voir la maîtresse.;passée;passés;passé;passées
+34332;Tom sera ___ à la maison.;retourné;retournée;retournées;retournés
+34333;Hugo est maintenant ___.;entré;entrées;entrés;entrée
+34334;Chloé était déjà ___.;sortie;sortis;sorti;sorties
+34335;Tom est ___ avec sa sœur.;venu;venues;venue;venus
+34336;Marie est ___ au vestiaire.;retournée;retourné;retournés;retournées
+34337;Paul est ___ au tableau.;allé;allées;allés;allée
+34338;Les garçons sont enfin ___ à la maison.;retournés;retournée;retournées;retourné
+34339;Tom est maintenant ___.;tombé;tombée;tombés;tombées
+34340;Chloé sera ___ chez nous.;venue;venus;venu;venues
+34341;Léo sera ___ par le parc.;passé;passées;passés;passée
+34342;Nina est ___ près du tableau.;retournée;retourné;retournés;retournées
+34343;Paul est maintenant ___ à la maison.;retourné;retournés;retournée;retournées
+34344;Chloé est ___ sur le toboggan.;montée;montées;monté;montés
+34345;Paul est enfin ___.;monté;montées;montés;montée
+34346;Nina est maintenant ___.;tombée;tombées;tombés;tombé
+34347;Les filles sont maintenant ___.;venues;venue;venu;venus
+34348;Paul et Tom sont toujours ___.;partis;partie;parties;parti
+34349;Chloé est maintenant ___.;descendue;descendu;descendus;descendues
+34350;Tom est enfin ___ au marché.;allé;allés;allée;allées
+34351;Lea est maintenant ___.;tombée;tombées;tombé;tombés
+34352;Les filles sont enfin ___.;revenues;revenue;revenu;revenus
+34353;Marie et Lea sont enfin ___.;parties;partie;parti;partis
+34354;Hugo est enfin ___.;venu;venues;venue;venus
+34355;Les garçons sont toujours ___.;nés;née;nées;né
+34356;Léo est ___ le dernier.;arrivé;arrivée;arrivés;arrivées
+34357;Zoé est enfin ___.;rentrée;rentrés;rentrées;rentré
+34358;Les filles sont toujours ___.;arrivées;arrivée;arrivés;arrivé
+34359;Chloé est enfin ___.;partie;parti;partis;parties
+34360;Chloé est toujours ___ à la maison.;retournée;retournées;retourné;retournés
+34361;Marie est maintenant ___.;tombée;tombées;tombés;tombé
+34362;Marie est enfin ___.;morte;mort;mortes;morts
+34363;Nina est enfin ___.;venue;venus;venues;venu
+34364;Hugo est toujours ___ en classe.;retourné;retournées;retournés;retournée
+34365;Paul est toujours ___.;sorti;sortie;sorties;sortis
+34366;Zoé est toujours ___.;restée;restés;resté;restées
+34367;Marie est toujours ___.;revenue;revenu;revenus;revenues
+34368;Léo est maintenant ___.;descendu;descendues;descendus;descendue
+34369;Tom est toujours ___.;sorti;sorties;sortie;sortis
+34370;Lea est enfin ___.;rentrée;rentrées;rentrés;rentré
+34371;Sami est enfin ___.;monté;montées;montés;montée
+34372;Léo est enfin ___.;revenu;revenues;revenue;revenus
+34373;Marie et Lea sont toujours ___.;tombées;tombée;tombés;tombé
+34374;Nina est toujours ___.;montée;montées;montés;monté
+34375;Léo est toujours ___.;venu;venues;venue;venus
+34376;Sami est toujours ___.;venu;venue;venus;venues
+34377;Lea est toujours ___ à l'école.;allée;allé;allées;allés
+34378;Les fermières sont ___.;arrivées;arrivés;arrivée;arrivé
+34379;Les voisines sont ___.;descendues;descendus;descendu;descendue
+34380;Mes cousines sont ___.;revenues;revenu;revenue;revenus
+34381;Jade est ___ de son vélo.;tombée;tombés;tombées;tombé
+34382;Emma est ___ au marché.;allée;allé;allés;allées
+34383;Manon est ___ tard le soir.;rentrée;rentrées;rentré;rentrés
+34384;Louise est ___ par le parc.;passée;passées;passé;passés
+34385;Les pêcheurs sont ___.;venus;venu;venue;venues
+34386;Ethan est ___ sur le toit.;monté;montées;montée;montés
+34387;Karim est ___ de rire.;mort;morte;morts;mortes
+34388;Inès est ___ à Paris.;née;né;nées;nés
+34389;Ethan est ___ aujourd'hui.;passé;passée;passées;passés
+34390;Enzo est ___ à Paris.;né;nés;nées;née
+34391;Alice est ___ sur le toit.;montée;montées;monté;montés
+34392;Raphaël est ___ à la maison.;retourné;retournées;retournés;retournée
+34393;Julia est ___ en retard.;arrivée;arrivé;arrivés;arrivées
+34394;Louise est ___ aujourd'hui.;retournée;retournés;retourné;retournées
+34395;Manon est ___ aujourd'hui.;née;nées;nés;né
+34396;Alice est ___ aujourd'hui.;descendue;descendus;descendu;descendues
+34397;Les fermières sont ___ aujourd'hui.;sorties;sortie;sorti;sortis
+34398;Manon était ___ hier.;revenue;revenu;revenues;revenus
+34399;Louis est ___ en voyage.;parti;parties;partie;partis
+34400;Mathis est ___ par le parc.;passé;passées;passés;passée
+34401;Julia est ___ aujourd'hui.;née;nées;nés;né
+34402;Mes cousines sont ___ aujourd'hui.;venues;venus;venu;venue
+34403;Adam est ___ en voyage.;parti;partis;parties;partie
+34404;Louise était ___ hier.;allée;allés;allé;allées
+34405;Noah est ___ en retard.;arrivé;arrivée;arrivés;arrivées
+34406;Manon est ___ dans l'escalier.;tombée;tombées;tombé;tombés
+34407;Karim est ___ aujourd'hui.;sorti;sortie;sorties;sortis
+34408;Rose est ___ de vacances.;revenue;revenues;revenus;revenu
+34409;Mathis est ___ aujourd'hui.;tombé;tombées;tombée;tombés
+34410;Manon est ___ chercher son sac.;retournée;retourné;retournés;retournées
+34411;Mes cousines étaient ___ hier.;allées;allés;allée;allé
+34412;Louise est ___ de sa chambre.;descendue;descendu;descendues;descendus
+34413;Raphaël est ___ aujourd'hui.;mort;morts;mortes;morte
+34414;Raphaël était ___ hier.;né;nés;née;nées
+34415;Mes cousins sont ___.;revenus;revenu;revenues;revenue
+34416;Anna est ___ de rire.;morte;mortes;mort;morts
+34417;Camille est ___ en voyage.;partie;parti;partis;parties
+34418;Les pêcheurs sont ___ aujourd'hui.;passés;passées;passée;passé
+34419;Gabriel est ___ de sa chambre.;descendu;descendues;descendue;descendus
+34420;Adam est ___ aujourd'hui.;passé;passés;passées;passée
+34421;Rose est ___ aujourd'hui.;restée;resté;restées;restés
+34422;Nathan est ___ en voyage.;parti;partis;partie;parties
+34423;Enzo est ___ aujourd'hui.;venu;venues;venue;venus
+34424;Adam était ___ hier.;tombé;tombés;tombée;tombées
+34425;Raphaël est ___ devant l'école.;passé;passés;passée;passées
+34426;Raphaël est ___ en courant.;sorti;sortis;sorties;sortie
+34427;Karim était ___ hier.;descendu;descendus;descendue;descendues
+34428;Adam est ___ à l'école en retard.;arrivé;arrivées;arrivée;arrivés
+34429;Nos amies sont ___.;rentrées;rentré;rentrée;rentrés
+34430;Gabriel est ___ aujourd'hui.;retourné;retournés;retournées;retournée
+34431;Manon est déjà ___.;passée;passé;passées;passés
+34432;Manon est bien ___.;montée;montés;monté;montées
+34433;Jade est ___ aujourd'hui.;rentrée;rentrées;rentré;rentrés
+34434;Nathan est ___ aujourd'hui.;arrivé;arrivées;arrivés;arrivée
+34435;Ethan était ___ hier.;né;nées;nés;née
+34436;Rose était ___ hier.;tombée;tombées;tombés;tombé
+34437;Les voisines sont ___ aujourd'hui.;allées;allés;allée;allé
+34438;Inès est ___ aujourd'hui.;descendue;descendues;descendu;descendus
+34439;Raphaël est déjà ___.;venu;venues;venus;venue
+34440;Mes cousines sont ___ chez moi.;restées;resté;restée;restés
+34441;Les voisines étaient ___ hier.;restées;restés;resté;restée
+34442;Emma est ___ aujourd'hui.;descendue;descendus;descendues;descendu
+34443;Enzo était ___ hier.;passé;passés;passée;passées
+34444;Ethan est ___ chez ses amis.;allé;allée;allés;allées
+34445;Anna est ___ aujourd'hui.;arrivée;arrivées;arrivés;arrivé
+34446;Les pêcheurs étaient ___ hier.;entrés;entrée;entrées;entré
+34447;Julia était ___ hier.;retournée;retournées;retourné;retournés
+34448;Ethan est ___ dans le magasin.;entré;entrées;entrée;entrés
+34449;Les voisines sont ___ le même jour.;nées;né;nés;née
+34450;Louise est ___ debout.;restée;resté;restés;restées
+34451;Mes cousins sont ___ aujourd'hui.;entrés;entrée;entrées;entré
+34452;Emma était ___ hier.;restée;restées;restés;resté
+34453;Rose est ___ dans la classe.;entrée;entrées;entré;entrés
+34454;Les pêcheurs sont ___ du bateau.;descendus;descendues;descendu;descendue
+34455;Les pêcheurs sont ___ du muret.;tombés;tombé;tombées;tombée
+34456;Jade était ___ hier.;montée;monté;montées;montés
+34457;Nathan était ___ hier.;descendu;descendue;descendues;descendus
+34458;Alice était ___ hier.;venue;venus;venues;venu
+34459;Inès était ___ hier.;passée;passées;passé;passés
+34460;Dans la phrase 'Nous nous souvenons de ce jour.', quelle est la fonction de 'de ce jour' ?;COI;complément circonstanciel;attribut du sujet;COD
+34461;Dans la phrase 'Le jardinier taille les rosiers.', quelle est la fonction de 'les rosiers' ?;COD;COI;attribut du sujet;complément circonstanciel
+34462;Dans la phrase 'Mon oncle est devenu pompier.', quelle est la fonction de 'pompier' ?;attribut du sujet;COD;complément circonstanciel;COI
+34463;Dans la phrase 'Il ressemble à son grand-père.', quelle est la fonction de 'à son grand-père' ?;COI;complément circonstanciel;COD;attribut du sujet
+34464;Dans la phrase 'Tu ranges ta chambre.', quelle est la fonction de 'ta chambre' ?;COD;COI;attribut du sujet;complément circonstanciel
+34465;Dans la phrase 'Les enfants construisent un igloo.', quelle est la fonction de 'un igloo' ?;COD;COI;complément circonstanciel;attribut du sujet
+34466;Dans la phrase 'Le peintre termine son tableau.', quelle est la fonction de 'son tableau' ?;COD;attribut du sujet;COI;complément circonstanciel
+34467;Dans la phrase 'Ils s'habituent à la nouvelle école.', quelle est la fonction de 'à la nouvelle école' ?;COI;COD;attribut du sujet;complément circonstanciel
+34468;Dans la phrase 'La météo reste incertaine.', quelle est la fonction de 'incertaine' ?;attribut du sujet;COI;complément circonstanciel;COD
+34469;Dans la phrase 'Les enfants dessinent un dragon.', quelle est la fonction de 'un dragon' ?;COD;complément circonstanciel;attribut du sujet;COI
+34470;Dans la phrase 'Les élèves recopient la leçon.', quelle est la fonction de 'la leçon' ?;COD;complément circonstanciel;attribut du sujet;COI
+34471;Dans la phrase 'Elle rêve d'un beau voyage.', quelle est la fonction de 'd'un beau voyage' ?;COI;complément circonstanciel;attribut du sujet;COD
+34472;Dans la phrase 'Ma tante peint une fresque.', quelle est la fonction de 'une fresque' ?;COD;attribut du sujet;COI;complément circonstanciel
+34473;Dans la phrase 'Le fermier récolte le maïs.', quelle est la fonction de 'le maïs' ?;COD;complément circonstanciel;COI;attribut du sujet
+34474;Dans la phrase 'Vous fermez la porte.', quelle est la fonction de 'la porte' ?;COD;attribut du sujet;complément circonstanciel;COI
+34475;Dans la phrase 'Vous téléphonez à vos cousins.', quelle est la fonction de 'à vos cousins' ?;COI;COD;complément circonstanciel;attribut du sujet
+34476;Dans la phrase 'Cette élève est devenue championne.', quelle est la fonction de 'championne' ?;attribut du sujet;complément circonstanciel;COI;COD
+34477;Dans la phrase 'Ce chemin paraît long.', quelle est la fonction de 'long' ?;attribut du sujet;COD;complément circonstanciel;COI
+34478;Dans la phrase 'Le ciel reste gris.', quelle est la fonction de 'gris' ?;attribut du sujet;complément circonstanciel;COD;COI
+34479;Dans la phrase 'Mon frère répare son vélo.', quelle est la fonction de 'son vélo' ?;COD;COI;attribut du sujet;complément circonstanciel
+34480;Dans la phrase 'Le résultat paraît étonnant.', quelle est la fonction de 'étonnant' ?;attribut du sujet;COD;COI;complément circonstanciel
+34481;Dans la phrase 'Le chien poursuit le facteur.', quelle est la fonction de 'le facteur' ?;COD;COI;attribut du sujet;complément circonstanciel
+34482;Dans la phrase 'Le boulanger vend des croissants.', quelle est la fonction de 'des croissants' ?;COD;COI;attribut du sujet;complément circonstanciel
+34483;Dans la phrase 'Elle profite de ses vacances.', quelle est la fonction de 'de ses vacances' ?;COI;attribut du sujet;COD;complément circonstanciel
+34484;Dans la phrase 'Ce fruit paraît mûr.', quelle est la fonction de 'mûr' ?;attribut du sujet;complément circonstanciel;COI;COD
+34485;Dans la phrase 'Le public applaudit aux artistes.', quelle est la fonction de 'aux artistes' ?;COI;attribut du sujet;complément circonstanciel;COD
+34486;Dans la phrase 'Les musiciens répètent leur morceau.', quelle est la fonction de 'leur morceau' ?;COD;complément circonstanciel;attribut du sujet;COI
+34487;Dans la phrase 'Tu obéis à ton entraîneur.', quelle est la fonction de 'à ton entraîneur' ?;COI;COD;attribut du sujet;complément circonstanciel
+34488;Dans la phrase 'Le chat attrape une souris.', quelle est la fonction de 'une souris' ?;COD;complément circonstanciel;attribut du sujet;COI
+34489;Dans la phrase 'Nous parlons à nos voisins.', quelle est la fonction de 'à nos voisins' ?;COI;complément circonstanciel;attribut du sujet;COD
+34490;Dans la phrase 'Cet exercice devient difficile.', quelle est la fonction de 'difficile' ?;attribut du sujet;COI;COD;complément circonstanciel
+34491;Dans la phrase 'Le film était passionnant.', quelle est la fonction de 'passionnant' ?;attribut du sujet;COI;complément circonstanciel;COD
+34492;Dans la phrase 'Je pense à mon prochain voyage.', quelle est la fonction de 'à mon prochain voyage' ?;COI;COD;complément circonstanciel;attribut du sujet
+34493;Dans la phrase 'Nous préparons le dîner.', quelle est la fonction de 'le dîner' ?;COD;COI;attribut du sujet;complément circonstanciel
+34494;Dans la phrase 'Nous répondons à la maîtresse.', quelle est la fonction de 'à la maîtresse' ?;COI;COD;complément circonstanciel;attribut du sujet
+34495;Dans la phrase 'La glace devient molle.', quelle est la fonction de 'molle' ?;attribut du sujet;COD;COI;complément circonstanciel
+34496;Dans la phrase 'Ce jeu semble amusant.', quelle est la fonction de 'amusant' ?;attribut du sujet;COD;COI;complément circonstanciel
+34497;Dans la phrase 'Les enfants pensent à leurs vacances.', quelle est la fonction de 'à leurs vacances' ?;COI;complément circonstanciel;COD;attribut du sujet
+34498;Dans la phrase 'Les castors bâtissent un barrage.', quelle est la fonction de 'un barrage' ?;COD;COI;complément circonstanciel;attribut du sujet
+34499;Dans la phrase 'Les élèves réfléchissent à la question.', quelle est la fonction de 'à la question' ?;COI;complément circonstanciel;attribut du sujet;COD
+34500;Dans la phrase 'Les alpinistes gravissent le sommet.', quelle est la fonction de 'le sommet' ?;COD;COI;complément circonstanciel;attribut du sujet
+34501;Dans la phrase 'La soupe semble trop salée.', quelle est la fonction de 'trop salée' ?;attribut du sujet;COI;COD;complément circonstanciel
+34502;Dans la phrase 'Les pêcheurs remontent leurs filets.', quelle est la fonction de 'leurs filets' ?;COD;attribut du sujet;COI;complément circonstanciel
+34503;Dans la phrase 'Elle range ses affaires.', quelle est la fonction de 'ses affaires' ?;COD;complément circonstanciel;attribut du sujet;COI
+34504;Dans la phrase 'La rivière paraît calme.', quelle est la fonction de 'calme' ?;attribut du sujet;COD;COI;complément circonstanciel
+34505;Dans la phrase 'Les touristes s'intéressent au musée.', quelle est la fonction de 'au musée' ?;COI;complément circonstanciel;attribut du sujet;COD
+34506;Timéo est ___ au marché.;allé;allée;allés;allées
+34507;Clément est ___ au marché.;allé;allée;allés;allées
+34508;Lisa est ___ par le parc.;passée;passé;passés;passées
+34509;Aaron est ___ à la maison.;resté;restée;restés;restées
+34510;Romain est ___ en retard.;arrivé;arrivée;arrivés;arrivées
+34511;Ilyes est ___ dans la salle de classe.;entré;entrée;entrés;entrées
+34512;Aaron est ___ aujourd'hui.;parti;partie;partis;parties
+34513;Ilyes est ___ aujourd'hui.;mort;morte;morts;mortes
+34514;Ilyes était ___ hier.;monté;montée;montés;montées
+34515;Timéo et Malo sont ___ à la maison.;retournés;retourné;retournée;retournées
+34516;Yasmine est ___ en retard.;arrivée;arrivé;arrivés;arrivées
+34517;Iris est ___ à la maison.;retournée;retourné;retournés;retournées
+34518;Naomi est ___ de rire.;morte;mort;morts;mortes
+34519;Malo est ___ de son vélo.;tombé;tombée;tombés;tombées
+34520;Malo est ___ aujourd'hui.;allé;allée;allés;allées
+34521;Maxime est ___ dans la cour.;sorti;sortie;sortis;sorties
+34522;Bastien est ___ par le parc.;passé;passée;passés;passées
+34523;Lola est ___ de son vélo.;tombée;tombé;tombés;tombées
+34524;Jade et Naomi sont ___ dans la cour.;sorties;sorti;sortie;sortis
+34525;Océane est ___ à Paris.;née;né;nés;nées
+34526;Anaïs est ___ dans la cour.;sortie;sorti;sortis;sorties
+34527;Anaïs est ___ aujourd'hui.;tombée;tombé;tombés;tombées
+34528;Malo était ___ hier.;sorti;sortie;sortis;sorties
+34529;Ilyes est ___ de vacances.;revenu;revenue;revenus;revenues
+34530;Victor est ___ en voyage.;parti;partie;partis;parties
+34531;Timéo et Malo sont ___ aujourd'hui.;descendus;descendu;descendue;descendues
+34532;Malo est ___ de rire.;mort;morte;morts;mortes
+34533;Yasmine est ___ aujourd'hui.;allée;allé;allés;allées
+34534;Agathe est ___ de rire.;morte;mort;morts;mortes
+34535;Sacha est ___ de rire.;mort;morte;morts;mortes
+34536;Océane est ___ aujourd'hui.;restée;resté;restés;restées
+34537;Mattéo est ___ chez nous.;venu;venue;venus;venues
+34538;Antoine est ___ chez nous.;venu;venue;venus;venues
+34539;Jade et Naomi sont ___ aujourd'hui.;montées;monté;montée;montés
+34540;Lisa est ___ aujourd'hui.;devenue;devenu;devenus;devenues
+34541;Clara est ___ de vacances.;revenue;revenu;revenus;revenues
+34542;Anaïs était ___ hier.;venue;venu;venus;venues
+34543;Margaux est ___ au marché.;allée;allé;allés;allées
+34544;Clara est ___ aujourd'hui.;descendue;descendu;descendus;descendues
+34545;Timéo et Jade sont ___ par le parc.;passés;passé;passée;passées
+34546;Naomi est ___ aujourd'hui.;partie;parti;partis;parties
+34547;Timéo est ___ aujourd'hui.;passé;passée;passés;passées
+34548;Jade et Naomi étaient ___ hier.;retournées;retourné;retournée;retournés
+34549;Aaron était ___ hier.;passé;passée;passés;passées
+34550;Mattéo est ___ aujourd'hui.;mort;morte;morts;mortes
+34551;Yasmine était ___ hier.;montée;monté;montés;montées
+34552;Juliette est ___ de vacances.;revenue;revenu;revenus;revenues
+34553;Salomé est ___ à la maison.;retournée;retourné;retournés;retournées
+34554;Maya est ___ de son vélo.;tombée;tombé;tombés;tombées
+34555;Océane était ___ hier.;retournée;retourné;retournés;retournées
+34556;Jade et Naomi sont ___ à la fête.;venues;venu;venue;venus
+34557;Timéo et Malo étaient ___ hier.;allés;allé;allée;allées
+34558;Malo est ___ sur la scène.;monté;montée;montés;montées
+34559;Maya est ___ aujourd'hui.;allée;allé;allés;allées
+34560;Anaïs est ___ à l'école toute la journée.;restée;resté;restés;restées
+34561;Salomé est ___ aujourd'hui.;venue;venu;venus;venues
+34562;Maya était ___ hier.;revenue;revenu;revenus;revenues
+34563;Bastien est ___ aujourd'hui.;entré;entrée;entrés;entrées
+34564;Timéo et Malo sont ___ de la piscine.;revenus;revenu;revenue;revenues
+34565;Agathe est ___ aujourd'hui.;arrivée;arrivé;arrivés;arrivées
+34566;Yasmine est ___ dans sa chambre.;restée;resté;restés;restées
+34567;Lisa était ___ hier.;montée;monté;montés;montées
+34568;Aaron est ___ à l'heure.;arrivé;arrivée;arrivés;arrivées
+34569;Mattéo était ___ hier.;tombé;tombée;tombés;tombées
+34570;Simon est ___ chez nous.;venu;venue;venus;venues
+34571;Timéo et Jade sont ___ aujourd'hui.;entrés;entré;entrée;entrées
+34572;Yasmine est ___ avec sa sœur.;venue;venu;venus;venues
+34573;Timéo et Malo sont ___ de faim.;morts;mort;morte;mortes
+34574;Romain est ___ aujourd'hui.;descendu;descendue;descendus;descendues
+34575;Antoine est ___ aujourd'hui.;mort;morte;morts;mortes
+34576;Simon est ___ aujourd'hui.;entré;entrée;entrés;entrées
+34577;Mattéo est ___ le premier.;arrivé;arrivée;arrivés;arrivées
+34578;Maxime est ___ aujourd'hui.;monté;montée;montés;montées
+34579;Naomi était ___ hier.;passée;passé;passés;passées
+34580;Jade est ___ de la classe.;sortie;sorti;sortis;sorties
+34581;Timéo et Jade étaient ___ hier.;morts;mort;morte;mortes
+34582;Clément est ___ aujourd'hui.;mort;morte;morts;mortes
+34583;Ilyes est ___ voir ses grands-parents.;retourné;retournée;retournés;retournées
+34584;Simon était ___ hier.;né;née;nés;nées
+34585;Jade et Naomi sont ___ plus tôt que prévu.;revenues;revenu;revenue;revenus
+34586;Aaron est ___ dans la bibliothèque.;entré;entrée;entrés;entrées
+34587;Antoine était ___ hier.;monté;montée;montés;montées
+34588;Kylian est ___ chez nous.;venu;venue;venus;venues
+34589;Yasmine est déjà ___.;descendue;descendu;descendus;descendues
+34590;Naomi est ___ dans la cour.;sortie;sorti;sortis;sorties
+34591;Iris est ___ aujourd'hui.;arrivée;arrivé;arrivés;arrivées
+34592;Yasmine est bien ___.;revenue;revenu;revenus;revenues
+34593;Bastien était ___ hier.;resté;restée;restés;restées
+34594;Naomi est ___ assise au fond de la classe.;restée;resté;restés;restées
+34595;Lisa est ___ sous la pluie.;sortie;sorti;sortis;sorties
+34596;Antoine est ___ du sport.;revenu;revenue;revenus;revenues
+34597;Simon est ___ à la maison.;retourné;retournée;retournés;retournées
+34598;Juliette est ___ aujourd'hui.;partie;parti;partis;parties
+34599;Timéo était ___ hier.;monté;montée;montés;montées
+34600;Eliott est ___ au marché.;allé;allée;allés;allées
+34601;Mattéo est ___ devant la mairie.;passé;passée;passés;passées
+34602;Océane est ___ en récréation.;sortie;sorti;sortis;sorties
+34603;Antoine est ___ sans bruit.;entré;entrée;entrés;entrées
+34604;Capucine est ___ de vacances.;revenue;revenu;revenus;revenues
+34605;Lola est ___ aujourd'hui.;partie;parti;partis;parties
+34606;Capucine est ___ aujourd'hui.;montée;monté;montés;montées
+34607;Eliott est ___ aujourd'hui.;passé;passée;passés;passées
+34608;Ilyes est déjà ___ un grand champion.;devenu;devenue;devenus;devenues
+34609;Ilyes est bien ___ à l'école.;allé;allée;allés;allées
+34610;Maxime était ___ hier.;passé;passée;passés;passées
+34611;Juliette était ___ hier.;arrivée;arrivé;arrivés;arrivées
+34612;Anaïs est ___ juste à temps.;arrivée;arrivé;arrivés;arrivées
+34613;Yasmine était ___ par la porte de derrière.;sortie;sorti;sortis;sorties
+34614;Mattéo est déjà ___ à la maison.;retourné;retournée;retournés;retournées
+34615;Lola était ___ hier.;entrée;entré;entrés;entrées
+34616;Simon est ___ chez le voisin.;passé;passée;passés;passées
+34617;Victor est ___ aujourd'hui.;resté;restée;restés;restées
+34618;Clara était ___ hier.;morte;mort;morts;mortes
+34619;Mattéo est bien ___.;sorti;sortie;sortis;sorties
+34620;Lisa est ___ chez le docteur.;allée;allé;allés;allées
+34621;Malo est déjà ___.;descendu;descendue;descendus;descendues
+34622;Agathe était ___ hier.;restée;resté;restés;restées
+34623;Anaïs est déjà ___.;passée;passé;passés;passées
+34624;Maxime est ___ en classe.;retourné;retournée;retournés;retournées
+34625;Iris était ___ hier.;morte;mort;morts;mortes
+34626;Sacha est ___ aujourd'hui.;devenu;devenue;devenus;devenues
+34627;Juliette est ___ sur le toboggan.;montée;monté;montés;montées
+34628;Aaron est déjà ___.;né;née;nés;nées
+34629;Romain était ___ hier.;sorti;sortie;sortis;sorties
+34630;Margaux est ___ aujourd'hui.;montée;monté;montés;montées
+34631;Timéo et Jade sont ___ les premiers.;arrivés;arrivé;arrivée;arrivées
+34632;Jade est ___ à vélo.;venue;venu;venus;venues
+34633;Timéo est ___ à l'école à vélo.;venu;venue;venus;venues
+34634;Mattéo était ___ sans frapper.;entré;entrée;entrés;entrées
+34635;Clément était ___ hier.;revenu;revenue;revenus;revenues
+34636;Victor était ___ hier.;descendu;descendue;descendus;descendues
+34637;Capucine était ___ hier.;venue;venu;venus;venues
+34638;Capucine est ___ la dernière.;arrivée;arrivé;arrivés;arrivées
+34639;Simon est déjà ___.;mort;morte;morts;mortes
+34640;Aaron est bien ___.;tombé;tombée;tombés;tombées
+34641;Lola est ___ la première.;sortie;sorti;sortis;sorties
+34642;Maya est ___ de l'école.;sortie;sorti;sortis;sorties
+34643;Romain est ___ à l'école.;allé;allée;allés;allées
+34644;Clément est ___ avec ses amis.;venu;venue;venus;venues
+34645;Juliette est ___ au printemps.;née;né;nés;nées
+34646;Maya est ___ par le stade.;passée;passé;passés;passées
+34647;Mattéo est encore ___.;revenu;revenue;revenus;revenues
+34648;Sacha était ___ hier.;monté;montée;montés;montées
+34649;Antoine est déjà ___.;sorti;sortie;sortis;sorties
+34650;Maya est déjà ___.;arrivée;arrivé;arrivés;arrivées
+34651;Romain est ___ dans le grenier.;monté;montée;montés;montées
+34652;Aaron était ___ acheter le pain.;sorti;sortie;sortis;sorties
+34653;Lola est ___ en Belgique.;née;né;nés;nées
+34654;Victor est ___ champion.;devenu;devenue;devenus;devenues
+34655;Aaron est encore ___.;mort;morte;morts;mortes
+34656;Lisa est déjà ___.;tombée;tombé;tombés;tombées
+34657;Yasmine est encore ___.;partie;parti;partis;parties
+34658;Clément est ___ seul dans la cour.;resté;restée;restés;restées
+34659;Salomé était ___ hier.;entrée;entré;entrés;entrées
+34660;Les filles étaient ___ plus calmes.;devenues;devenu;devenue;devenus
+34661;Victor est ___ au musée.;allé;allée;allés;allées
+34662;Simon est bien ___.;tombé;tombée;tombés;tombées
+34663;Océane est ___ avec le bus.;arrivée;arrivé;arrivés;arrivées
+34664;Kylian est ___ aujourd'hui.;descendu;descendue;descendus;descendues
+34665;Lola est déjà ___.;revenue;revenu;revenus;revenues
+34666;Iris est ___ la meilleure de la classe.;devenue;devenu;devenus;devenues
+34667;Jade est déjà ___.;retournée;retourné;retournés;retournées
+34668;Clara est ___ calme pendant le cours.;restée;resté;restés;restées
+34669;Iris est ___ devant chez moi.;passée;passé;passés;passées
+34670;Antoine est bien ___ un grand champion.;devenu;devenue;devenus;devenues
+34671;Océane est déjà ___.;montée;monté;montés;montées
+34672;Kylian était ___ hier.;entré;entrée;entrés;entrées
+34673;Bastien est ___ les escaliers en courant.;descendu;descendue;descendus;descendues
+34674;Timéo est ___ de rire.;mort;morte;morts;mortes
+34675;Océane est bien ___ une grande championne.;devenue;devenu;devenus;devenues
+34676;Maxime est ___ tranquille.;resté;restée;restés;restées
+34677;Malo est bien ___.;né;née;nés;nées
+34678;Yasmine vient d'être ___.;tombée;tombé;tombés;tombées
+34679;Clara est ___ plus patiente.;devenue;devenu;devenus;devenues
+34680;Ilyes était ___ par la cour.;passé;passée;passés;passées
+34681;Bastien est ___ à l'hôpital du quartier.;né;née;nés;nées
+34682;Timéo est déjà ___.;né;née;nés;nées
+34683;Timéo et Malo sont déjà ___.;passés;passé;passée;passées
+34684;Naomi est déjà ___.;descendue;descendu;descendus;descendues
+34685;Salomé est ___ de sa chaise.;tombée;tombé;tombés;tombées
+34686;Romain est déjà ___.;passé;passée;passés;passées
+34687;Océane était ___ dans la cour.;descendue;descendu;descendus;descendues
+34688;Kylian est ___ très fort en calcul.;devenu;devenue;devenus;devenues
+34689;Maxime est déjà ___.;né;née;nés;nées
+34690;Romain est bien ___ un grand champion.;devenu;devenue;devenus;devenues
+34691;Eliott était ___ hier.;tombé;tombée;tombés;tombées
+34692;Bastien est déjà ___.;arrivé;arrivée;arrivés;arrivées
+34693;Mattéo vient d'être ___ un grand champion.;devenu;devenue;devenus;devenues
+34694;Juliette est déjà ___.;tombée;tombé;tombés;tombées
+34695;Victor est déjà ___.;entré;entrée;entrés;entrées
+34696;Jade et Naomi sont déjà ___.;nées;né;née;nés
+34697;Jade est bien ___.;arrivée;arrivé;arrivés;arrivées
+34698;Yasmine était déjà ___.;passée;passé;passés;passées
+34699;Eliott est ___ dans sa chambre.;retourné;retournée;retournés;retournées
+34700;Clément est déjà ___.;parti;partie;partis;parties
+34701;Maxime est bien ___ au parc.;allé;allée;allés;allées
+34702;Eliott est ___ à pied.;venu;venue;venus;venues
+34703;Naomi est bien ___.;revenue;revenu;revenus;revenues
+34704;Océane est encore ___.;partie;parti;partis;parties
+34705;Victor est bien ___.;passé;passée;passés;passées
+34706;Mattéo était déjà ___.;né;née;nés;nées
+34707;Maxime était ___ avec son vélo.;venu;venue;venus;venues
+34708;Eliott est déjà ___.;entré;entrée;entrés;entrées
+34709;Margaux était ___ hier.;revenue;revenu;revenus;revenues
+34710;Sacha est ___ dans la salle.;entré;entrée;entrés;entrées
+34711;Naomi était ___ plus sérieuse.;devenue;devenu;devenus;devenues
+34712;Juliette est bien ___.;descendue;descendu;descendus;descendues
+34713;Aaron vient d'être ___ à la maison.;retourné;retournée;retournés;retournées
+34714;Ilyes est encore ___.;descendu;descendue;descendus;descendues
+34715;Agathe est ___ de chez sa grand-mère.;revenue;revenu;revenus;revenues
+34716;Victor était ___ sur la colline.;monté;montée;montés;montées
+34717;Timéo est bien ___ un grand champion.;devenu;devenue;devenus;devenues
+34718;Timéo et Malo sont bien ___.;nés;né;née;nées
+34719;Margaux est ___ au lit.;restée;resté;restés;restées
+34720;Romain était ___ de faim.;mort;morte;morts;mortes
+34721;Salomé est ___ immobile.;restée;resté;restés;restées
+34722;Jade et Naomi sont bien ___.;tombées;tombé;tombée;tombés
+34723;Lisa est bien ___.;entrée;entré;entrés;entrées
+34724;Timéo et Jade sont ___ à pied.;partis;parti;partie;parties
+34725;Jade était ___ chez elle.;restée;resté;restés;restées
+34726;Capucine est ___ dans la piscine.;tombée;tombé;tombés;tombées
+34727;Victor est encore ___.;revenu;revenue;revenus;revenues
+34728;Margaux est ___ la capitaine de l'équipe.;devenue;devenu;devenus;devenues
+34729;Lisa était ___ de rire.;morte;mort;morts;mortes
+34730;Timéo et Jade sont déjà ___ à la piscine.;allés;allé;allée;allées
+34731;Victor vient d'être ___.;né;née;nés;nées
+34732;Eliott est bien ___ un grand champion.;devenu;devenue;devenus;devenues
+34733;Malo était ___ discrètement.;entré;entrée;entrés;entrées
+34734;Océane vient d'être ___.;passée;passé;passés;passées
+34735;Victor était déjà ___.;sorti;sortie;sortis;sorties
+34736;C'est à lui : ___ vélo est là.;son;ses;tes;mon
+34737;C'est à lui : ___ pull est là.;son;ses;notre;nos
+34738;C'est à moi : ___ ballon est là.;mon;ton;son;leurs
+34739;C'est à moi : ___ bonnet est là.;mon;ma;sa;ses
+34740;C'est à vous : ___ stylos sont là.;vos;ta;ma;ses
+34741;C'est à lui : ___ chaussures sont là.;ses;notre;tes;sa
+34742;C'est à eux : ___ cartable est là.;leur;mon;nos;ton
+34743;C'est à toi : ___ écharpe est là.;ton;ses;son;leur
+34744;C'est à vous : ___ cahiers sont là.;vos;leur;ta;ma
+34745;C'est à toi : ___ photo est là.;ta;leurs;nos;ma
+34746;C'est à eux : ___ dessins sont là.;leurs;ses;mon;sa
+34747;C'est à nous : ___ clés sont là.;nos;notre;leur;son
+34748;C'est à moi : ___ cartable est là.;mon;mes;ta;ma
+34749;C'est à vous : ___ crayon est là.;votre;ma;son;ta
+34750;C'est à lui : ___ stylos sont là.;ses;vos;leur;ta
+34751;C'est à nous : ___ dessins sont là.;nos;tes;ses;mon
+34752;C'est à nous : ___ cartable est là.;notre;son;sa;mon
+34753;C'est à lui : ___ chien est là.;son;ma;sa;leur
+34754;C'est à nous : ___ écharpe est là.;notre;ta;leur;ses
+34755;C'est à vous : ___ téléphone est là.;votre;ses;mes;ton
+34756;C'est à toi : ___ cartable est là.;ton;mon;ma;son
+34757;C'est à lui : ___ clé est là.;sa;mon;nos;notre
+34758;C'est à eux : ___ agenda est là.;leur;leurs;ses;tes
+34759;C'est à moi : ___ chaussures sont là.;mes;leur;son;mon
+34760;C'est à toi : ___ dessin est là.;ton;votre;nos;sa
+34761;C'est à toi : ___ montre est là.;ta;son;tes;ma
+34762;C'est à nous : ___ crayon est là.;notre;leur;leurs;son
+34763;C'est à nous : ___ chapeau est là.;notre;leurs;ta;tes
+34764;C'est à moi : ___ pull est là.;mon;sa;tes;son
+34765;C'est à vous : ___ ceinture est là.;votre;nos;sa;leurs
+34766;C'est à toi : ___ chapeau est là.;ton;mes;notre;mon
+34767;C'est à toi : ___ gourde est là.;ta;son;notre;ton
+34768;C'est à nous : ___ chaussure est là.;notre;ta;ton;nos
+34769;C'est à lui : ___ livres sont là.;ses;nos;ta;sa
+34770;C'est à nous : ___ livres sont là.;nos;vos;ma;notre
+34771;C'est à eux : ___ bracelet est là.;leur;votre;ta;ses
+34772;C'est à eux : ___ chaussure est là.;leur;ton;ta;votre
+34773;C'est à lui : ___ gants sont là.;ses;ta;ma;mon
+34774;C'est à eux : ___ classeur est là.;leur;mon;son;vos
+34775;C'est à vous : ___ clé est là.;votre;ta;mes;ton
+34776;C'est à eux : ___ crayon est là.;leur;mes;mon;vos
+34777;C'est à moi : ___ veste est là.;ma;ses;vos;ta
+34778;C'est à eux : ___ vélo est là.;leur;leurs;ses;vos
+34779;C'est à nous : ___ agenda est là.;notre;nos;vos;mes
+34780;C'est à eux : ___ ballon est là.;leur;sa;ma;notre
+34781;C'est à eux : ___ montre est là.;leur;ton;mon;notre
+34782;C'est à vous : ___ bonnet est là.;votre;leur;leurs;sa
+34783;C'est à moi : ___ cahiers sont là.;mes;mon;ses;nos
+34784;C'est à nous : ___ gourde est là.;notre;ton;ta;ma
+34785;C'est à vous : ___ écharpe est là.;votre;mon;ta;leurs
+34786;C'est à eux : ___ dessin est là.;leur;tes;notre;ses
+34787;C'est à nous : ___ vélo est là.;notre;ma;tes;mes
+34788;C'est à vous : ___ parapluie est là.;votre;tes;sa;ma
+34789;C'est à toi : ___ clé est là.;ta;vos;votre;ses
+34790;C'est à vous : ___ clés sont là.;vos;son;notre;ton
+34791;C'est à nous : ___ veste est là.;notre;votre;mes;tes
+34792;C'est à moi : ___ chat est là.;mon;ses;son;mes
+34793;C'est à vous : ___ dessins sont là.;vos;leur;nos;votre
+34794;C'est à toi : ___ chaussure est là.;ta;mes;mon;ma
+34795;C'est à lui : ___ clés sont là.;ses;votre;nos;ta
+34796;C'est à toi : ___ photos sont là.;tes;sa;mes;ta
+34797;C'est à lui : ___ bonnet est là.;son;vos;mes;leur
+34798;C'est à moi : ___ classeur est là.;mon;sa;notre;ton
+34799;C'est à eux : ___ cahiers sont là.;leurs;mes;ta;vos
+34800;C'est à toi : ___ bonnet est là.;ton;leur;son;tes
+34801;C'est à toi : ___ ceinture est là.;ta;mes;nos;son
+34802;C'est à nous : ___ classeur est là.;notre;ma;ton;leurs
+34803;C'est à vous : ___ classeur est là.;votre;notre;mes;mon
+34804;C'est à toi : ___ clés sont là.;tes;son;votre;notre
+34805;C'est à lui : ___ bracelet est là.;son;ma;mon;leurs
+34806;C'est à eux : ___ clés sont là.;leurs;votre;mon;sa
+34807;C'est à nous : ___ boîte est là.;notre;vos;ton;ma
+34808;C'est à eux : ___ stylos sont là.;leurs;son;leur;ton
+34809;C'est à moi : ___ montre est là.;ma;sa;ta;mes
+34810;C'est à toi : ___ dessins sont là.;tes;sa;ma;leur
+34811;C'est à eux : ___ veste est là.;leur;notre;votre;mes
+34812;C'est à moi : ___ téléphone est là.;mon;nos;votre;ton
+34813;C'est à toi : ___ bracelet est là.;ton;sa;ses;notre
+34814;C'est à lui : ___ classeur est là.;son;ses;ma;votre
+34815;C'est à eux : ___ téléphone est là.;leur;nos;leurs;ta
+34816;C'est à toi : ___ parapluie est là.;ton;ma;ta;ses
+34817;C'est à lui : ___ cahiers sont là.;ses;leur;sa;nos
+34818;C'est à nous : ___ photo est là.;notre;ses;vos;mes
+34819;C'est à moi : ___ gourde est là.;ma;leurs;notre;son
+34820;C'est à eux : ___ livres sont là.;leurs;son;ses;ma
+34821;C'est à lui : ___ crayon est là.;son;votre;leurs;ta
+34822;C'est à vous : ___ veste est là.;votre;leurs;leur;nos
+34823;C'est à lui : ___ parapluie est là.;son;mes;leur;mon
+34824;C'est à nous : ___ téléphone est là.;notre;nos;leur;leurs
+34825;C'est à nous : ___ bonnet est là.;notre;nos;ta;votre
+34826;C'est à moi : ___ chaussure est là.;ma;notre;tes;sa
+34827;C'est à moi : ___ dessins sont là.;mes;ton;leur;leurs
+34828;C'est à eux : ___ clé est là.;leur;ses;son;mon
+34829;C'est à vous : ___ cartable est là.;votre;ma;sa;tes
+34830;C'est à lui : ___ chaussure est là.;sa;mon;tes;votre
+34831;C'est à nous : ___ chien est là.;notre;ses;mon;son
+34832;C'est à nous : ___ chaussures sont là.;nos;ses;leurs;leur
+34833;C'est à moi : ___ agenda est là.;mon;nos;ta;tes
+34834;C'est à vous : ___ chaussure est là.;votre;mes;leurs;ta
+34835;C'est à eux : ___ écharpe est là.;leur;notre;ton;ta
+34836;Regarde ___ classeur, il est superbe.;ce;ces;cet;cette
+34837;Regarde ___ fille, elle est superbe.;cette;ces;ce;cet
+34838;Regarde ___ immeuble, il est superbe.;cet;cette;ces;ce
+34839;Regarde ___ crayon, il est superbe.;ce;ces;cet;cette
+34840;Regarde ___ outils, ils sont superbes.;ces;cet;ce;cette
+34841;Regarde ___ ballon, il est superbe.;ce;cet;ces;cette
+34842;Regarde ___ dessin, il est superbe.;ce;cet;cette;ces
+34843;Regarde ___ veste, elle est superbe.;cette;ce;ces;cet
+34844;Regarde ___ cartable, il est superbe.;cet;ce;cette;ces
+34845;Regarde ___ garçons, ils sont superbes.;ces;cet;cette;ce
+34846;Regarde ___ bonnet, il est superbe.;ce;cette;cet;ces
+34847;Regarde ___ étoiles, elles sont superbes.;ces;cet;ce;cette
+34848;Regarde ___ tableau, il est superbe.;ce;cette;ces;cet
+34849;Regarde ___ photo, elle est superbe.;cette;ce;cet;ces
+34850;Regarde ___ forêt, elle est superbe.;cette;ces;cet;ce
+34851;Regarde ___ rivière, elle est superbe.;cette;cet;ces;ce
+34852;Regarde ___ montagnes, elles sont superbes.;ces;ce;cette;cet
+34853;Regarde ___ avion, il est superbe.;cet;ces;cette;ce
+34854;Regarde ___ escargot, il est superbe.;cet;ces;cette;ce
+34855;Regarde ___ gourde, elle est superbe.;cette;cet;ces;ce
+34856;Regarde ___ écharpe, elle est superbe.;cette;cet;ces;ce
+34857;Regarde ___ oiseau, il est superbe.;cet;ce;ces;cette
+34858;Regarde ___ enfant, il est superbe.;cet;ces;ce;cette
+34859;Jade et Naomi étaient ___ devant la cantine.;passées;passé;passée;passés
+34860;Iris est déjà ___.;sortie;sorti;sortis;sorties
+34861;Juliette était ___ avec ses camarades.;sortie;sorti;sortis;sorties
+34862;Eliott était ___ un lundi.;né;née;nés;nées
+34863;Malo est encore ___ un grand champion.;devenu;devenue;devenus;devenues
+34864;Jade est encore ___.;passée;passé;passés;passées
+34865;Anaïs est bien ___ une grande championne.;devenue;devenu;devenus;devenues
+34866;Yasmine sera ___ dans la salle de classe.;entrée;entré;entrés;entrées
+34867;Jade vient d'être ___ une grande championne.;devenue;devenu;devenus;devenues
+34868;Ilyes vient d'être ___.;né;née;nés;nées
+34869;Eliott est encore ___.;descendu;descendue;descendus;descendues
+34870;Maxime est encore ___.;parti;partie;partis;parties
+34871;Margaux est déjà ___.;tombée;tombé;tombés;tombées
+34872;Romain est encore ___.;tombé;tombée;tombés;tombées
+34873;Ilyes était déjà ___.;venu;venue;venus;venues
+34874;Agathe est ___ très sérieuse.;devenue;devenu;devenus;devenues
+34875;Maxime vient d'être ___.;mort;morte;morts;mortes
+34876;Romain vient d'être ___.;resté;restée;restés;restées
+34877;Ilyes sera ___ en voyage.;parti;partie;partis;parties
+34878;Mattéo sera ___ de sa chambre.;descendu;descendue;descendus;descendues
+34879;Clara est déjà ___.;sortie;sorti;sortis;sorties
+34880;Victor sera ___ de rire.;mort;morte;morts;mortes
+34881;Timéo et Malo étaient ___ sans manteau.;sortis;sorti;sortie;sorties
+34882;Salomé est déjà ___.;morte;mort;morts;mortes
+34883;Bastien est bien ___ chez le médecin.;allé;allée;allés;allées
+34884;Anaïs était ___ au sous-sol.;descendue;descendu;descendus;descendues
+34885;Agathe est déjà ___.;passée;passé;passés;passées
+34886;Kylian est ___ à la boulangerie.;allé;allée;allés;allées
+34887;Lola est bien ___ une grande championne.;devenue;devenu;devenus;devenues
+34888;Lisa est encore ___.;venue;venu;venus;venues
+34889;Mattéo est ___ sans un mot.;parti;partie;partis;parties
+34890;Simon était ___ sur le tabouret.;monté;montée;montés;montées
+34891;Sacha est ___ acheter du pain.;sorti;sortie;sortis;sorties
+34892;Timéo et Malo sont encore ___.;arrivés;arrivé;arrivée;arrivées
+34893;Agathe est bien ___.;tombée;tombé;tombés;tombées
+34894;Bastien était ___ malgré la pluie.;venu;venue;venus;venues
+34895;Timéo et Malo viennent d'être ___.;montés;monté;montée;montées
+34896;Kylian est déjà ___.;monté;montée;montés;montées
+34897;Bastien est encore ___.;mort;morte;morts;mortes
+34898;Antoine était ___ chercher son ballon.;descendu;descendue;descendus;descendues
+34899;Timéo et Jade sont bien ___ de grands champions.;devenus;devenu;devenue;devenues
+34900;Romain était déjà ___.;revenu;revenue;revenus;revenues
+34901;Iris est bien ___.;tombée;tombé;tombés;tombées
+34902;Kylian est bien ___.;sorti;sortie;sortis;sorties
+34903;Timéo était ___ silencieux.;resté;restée;restés;restées
+34904;Timéo est encore ___.;arrivé;arrivée;arrivés;arrivées
+34905;Maxime était déjà ___.;descendu;descendue;descendus;descendues
+34906;Eliott vient d'être ___.;parti;partie;partis;parties
+34907;Juliette est encore ___.;entrée;entré;entrés;entrées
+34908;Sacha est déjà ___.;arrivé;arrivée;arrivés;arrivées
+34909;Juliette vient d'être ___ à la maison.;retournée;retourné;retournés;retournées
+34910;Océane était déjà ___.;morte;mort;morts;mortes
+34911;Ilyes est ___ en courant.;tombé;tombée;tombés;tombées
+34912;Naomi est encore ___.;entrée;entré;entrés;entrées
+34913;Sacha est bien ___ à la bibliothèque.;allé;allée;allés;allées
+34914;Lola était ___ trop vite.;descendue;descendu;descendus;descendues
+34915;Capucine est déjà ___.;née;né;nés;nées
+34916;Aaron était déjà ___.;venu;venue;venus;venues
+34917;Timéo et Malo étaient déjà ___.;entrés;entré;entrée;entrées
+34918;Lola est encore ___.;montée;monté;montés;montées
+34919;Lisa vient d'être ___.;partie;parti;partis;parties
+34920;Clément est bien ___.;monté;montée;montés;montées
+34921;Yasmine est ___ de fatigue.;morte;mort;morts;mortes
+34922;Salomé est bien ___ au marché.;allée;allé;allés;allées
+34923;Timéo et Jade étaient ___ en France.;nés;né;née;nées
+34924;Yasmine est maintenant ___.;née;né;nés;nées
+34925;Maya est bien ___.;entrée;entré;entrés;entrées
+34926;Iris était ___ de la cantine.;revenue;revenu;revenus;revenues
+34927;Timéo et Malo seront ___ de grands champions.;devenus;devenu;devenue;devenues
+34928;Iris est encore ___.;venue;venu;venus;venues
+34929;Océane sera ___ de vacances.;revenue;revenu;revenus;revenues
+34930;Timéo vient d'être ___.;tombé;tombée;tombés;tombées
+34931;Ilyes est maintenant ___.;sorti;sortie;sortis;sorties
+34932;Lola vient d'être ___.;passée;passé;passés;passées
+34933;Clément était ___ en courant.;entré;entrée;entrés;entrées
+34934;Iris vient d'être ___.;montée;monté;montés;montées
+34935;Anaïs est encore ___.;revenue;revenu;revenus;revenues
+34936;Simon est encore ___ chez le dentiste.;allé;allée;allés;allées
+34937;Jade et Naomi sont encore ___ de grandes championnes.;devenues;devenu;devenue;devenus
+34938;Eliott était déjà ___.;revenu;revenue;revenus;revenues
+34939;Anaïs vient d'être ___.;partie;parti;partis;parties
+34940;Océane est ___ la première.;entrée;entré;entrés;entrées
+34941;Timéo et Jade sont encore ___.;sortis;sorti;sortie;sorties
+34942;Maya était ___ à sa place.;retournée;retourné;retournés;retournées
+34943;Romain sera ___ à Paris.;né;née;nés;nées
+34944;Timéo et Jade viennent d'être ___.;revenus;revenu;revenue;revenues
+34945;Lisa était déjà ___.;arrivée;arrivé;arrivés;arrivées
+34946;Jade et Naomi viennent d'être ___.;descendues;descendu;descendue;descendus
+34947;Clara est bien ___.;tombée;tombé;tombés;tombées
+34948;Jade et Naomi étaient déjà ___.;restées;resté;restée;restés
+34949;Eliott sera ___ sur le toit.;monté;montée;montés;montées
+34950;Océane est maintenant ___.;tombée;tombé;tombés;tombées
+34951;Jade était déjà ___.;partie;parti;partis;parties
+34952;Jade sera ___ à Paris.;née;né;nés;nées
+34953;Agathe était ___ dans la salle de classe.;retournée;retourné;retournés;retournées
+34954;Margaux est bien ___.;morte;mort;morts;mortes
+34955;Maya est encore ___.;partie;parti;partis;parties
+34956;Margaux était ___ en dernier.;descendue;descendu;descendus;descendues
+34957;Clara était ___ à Marseille.;née;né;nés;nées
+34958;Clément est encore ___.;arrivé;arrivée;arrivés;arrivées
+34959;Malo vient d'être ___.;passé;passée;passés;passées

@@ -1,10 +1,12 @@
 [gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://fmo7gtlpugi8"]
 
-[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_nxm6a"]
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/classe2.0/pets/88.webp" id="2_texture"]
 
 [resource]
-script = ExtResource("1_nxm6a")
+script = ExtResource("1_script")
 id = &"88"
 category = &"bouquetin"
-display_name = "Bouquetin dore"
+display_name = "Écu"
+texture = ExtResource("2_texture")
 grade = 2

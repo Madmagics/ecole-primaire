@@ -7,8 +7,38 @@
 ## tableau recapitulatif (une ligne par question : reponse donnee en vert si juste, en rouge
 ## avec la correction a cote si fausse) qui reste affiche jusqu'a fermeture manuelle.
 ## Se ferme (sans recompense si le pack n'est pas termine, la recompense ayant deja ete versee
-## des l'affichage du recapitulatif sinon) si le joueur quitte la bulle du PNJ en cours, via la
-## croix de fermeture, ou avec Echap.
+## des l'affichage du recapitulatif sinon) si le joueur quitte la bulle du PNJ en cours, ou via la
+## croix de fermeture.
+##
+## Plus aucun raccourci clavier (2026-09-02, retour utilisateur : "on supprime tous les raccourcis
+## clavier, je veux un jeu qui se joue uniquement a la souris ou au tactile") : _unhandled_input()
+## (Echap pour fermer) est retire - close_button fait deja ca a la souris/au tactile. La saisie
+## texte + Entree pour valider (ligne ci-dessus) N'EST PAS concernee : c'est un champ de texte
+## (LineEdit.text_submitted), pas un raccourci - fonctionne au clavier physique comme au clavier
+## virtuel tactile, le bouton "Valider" restant de toute facon l'equivalent souris/tactile direct.
+##
+## Floutage d'arriere-plan (2026-09-04, retour utilisateur : "on va uniformiser le floutage arriere
+## pour toutes les fenetres quand celles ci sont actives... je veux appliquer la meme chose aux
+## questions et menus proposes par les npc") : meme mecanisme que BackpackMenu.blur_bg_path (voir
+## ui/hud/backpack_menu.gd) - blur_bg_path pointe vers NpcBlurBG (ColorRect partage avec
+## SubjectSelectPanel et ReadingIntroPanel dans game_ui.tscn, place avant les 3 pour se dessiner en
+## dessous), bascule sa visibilite dans _on_visibility_changed() en meme temps que PlayerInputLock.
+##
+## Menus masques + Echap reintroduit pour cette fenetre uniquement (2026-09-04, retour utilisateur :
+## "lorsque les questions sont ouvertes, il faut desactiver les 2 menus (les masquer), la touche
+## echap ou la croix permettent de quitter une session de questions en cours, attention echap apres
+## l apparition des resultats n invalidera pas la session mais quittera simplement l ecran de
+## correction") :
+## - open_menu_button_path/backpack_button_path pointent vers OpenMenuButton/BackpackButton
+##   (game_ui.tscn) - masques (visible = false) tant que ce panneau est visible, pour empecher
+##   d'ouvrir un des 2 menus pendant une session de questions ; remis visibles a la fermeture.
+## - _unhandled_input() reapparait ICI SEULEMENT (contrairement au reste du jeu, voir plus haut,
+##   2026-09-02 : "on supprime tous les raccourcis clavier") : Echap appelle le meme _abort_pack()
+##   que close_button, donc le meme comportement s'applique deja aux deux - si le recapitulatif est
+##   deja affiche (_show_result deja appelee), la recompense a deja ete versee (voir commentaire de
+##   _abort_pack plus bas) : fermer ne fait qu'arreter l'affichage, "invalider la session" n'a alors
+##   plus de sens puisqu'elle est deja terminee. Uniquement quand le panneau est visible (sinon Echap
+##   couperait par erreur la fermeture d'une autre fenetre, ex. GameMenuPanel).
 class_name QuestionPanel
 extends Control
 
@@ -74,30 +104,91 @@ const LOGIC_CHOICE_VERTICAL_PADDING_SCALE := 0.2
 ## Extended-A, ~U+0180), donc aucun risque de faux positif sur un mot ou un nombre.
 const EMOJI_CODEPOINT_THRESHOLD := 0x2190
 
+## Taille affichee de l'icone piece dans la pastille d'en-tete, a cote du texte de resultat (voir
+## _show_result). Plus petite que CoinHUD.ICON_SIZE (48) : ici l'icone est en ligne avec du texte
+## de la taille TitleLabel standard, pas dans une bande dediee.
+const PROGRESS_ICON_SIZE := 28
+
+## Flou plein ecran derriere ce panneau (voir commentaire de classe, 2026-09-04) : NodePath vers
+## NpcBlurBG, ColorRect EXTERNE partage avec SubjectSelectPanel/ReadingIntroPanel dans game_ui.tscn -
+## assigne la-bas, meme convention que BackpackMenu.blur_bg_path.
+@export var blur_bg_path: NodePath
+## Boutons d'ouverture des 2 menus (game_ui.tscn), masques tant que ce panneau est visible (voir
+## commentaire de classe, 2026-09-04) - assignes dans game_ui.tscn.
+@export var open_menu_button_path: NodePath
+@export var backpack_button_path: NodePath
+
 @onready var panel: PanelContainer = $Panel
-@onready var progress_label: Label = $Panel/Margin/Content/HeaderRow/ProgressBadge/ProgressLabel
-@onready var question_card: PanelContainer = $Panel/Margin/Content/QuestionCard
+## Marge du cadre (Panel/Margin) - lue dynamiquement (get_theme_constant) dans
+## _populate_choice_buttons pour plafonner la largeur des boutons QCM, plutot que dupliquer les
+## valeurs 28/28 du .tscn en dur (voir commentaire de _populate_choice_buttons, 2026-09-11).
+@onready var content_margin: MarginContainer = $Panel/Margin
+@onready var progress_badge_row: HBoxContainer = $Panel/Margin/Content/HeaderRow/ProgressBadge/ProgressBadgeRow
+@onready var progress_label: Label = $Panel/Margin/Content/HeaderRow/ProgressBadge/ProgressBadgeRow/ProgressLabel
+## QuestionCard/AnswerRow/ChoicesContainer sont maintenant dans QuestionScroll (ScrollContainer,
+## voir commentaire de classe et _update_question_label_max_width, 2026-09-11) : un pack CM2 dont
+## la question ET les 4 reponses sont tres longues peut demander plus de hauteur que le cadre n'en
+## a (0.08-0.92 de l'ecran, voir la .tscn) - avant ce changement, Content (VBoxContainer) imposait
+## alors cette hauteur au Panel entier, qui grandissait (grow_vertical = 2) au-dela de l'ecran par
+## le haut ET le bas a la fois. Le ScrollContainer absorbe ce surplus en scroll interne, exactement
+## comme ResultScroll le fait deja pour le tableau recapitulatif juste en dessous.
+## BUG CORRIGE 2026-09-11 (retour utilisateur : "grande marge entre le cadre resultat et les
+## reponses corrigees") : QuestionScroll lui-meme (le ScrollContainer, pas seulement QuestionCard/
+## choices_container/answer_input/validate_button a l'interieur) doit etre masque quand le
+## recapitulatif s'affiche (voir _show_result) et remontre quand une question s'affiche (voir
+## _display_current_question/show_message) - sinon il reste visible, vide mais size_flags_vertical
+## = SIZE_EXPAND_FILL, et se partage l'espace disponible de Content a parts egales avec
+## ResultScroll (les 2 sont EXPAND_FILL) au lieu de lui laisser toute la place.
+@onready var question_scroll: ScrollContainer = $Panel/Margin/Content/QuestionScroll
+@onready var question_card: PanelContainer = $Panel/Margin/Content/QuestionScroll/QuestionScrollMargin/QuestionScrollContent/QuestionCard
 ## RichTextLabel (pas Label, depuis 2026-08-04) : necessaire pour agrandir uniquement les
 ## emojis/symboles d'une question Logique via BBCode ([font_size=X]) tout en gardant le reste du
 ## texte a la taille TitleLabel standard - voir _build_question_bbcode. Le theme (les 4 variantes,
 ## voir ui/theme/*.tres) porte les cles normal_font_size/default_color en plus de font_size/
 ## font_color pour que ce changement de type de noeud ne change pas l'apparence des questions
 ## sans emoji.
-@onready var question_label: RichTextLabel = $Panel/Margin/Content/QuestionCard/QuestionCardMargin/QuestionLabel
-@onready var answer_input: LineEdit = $Panel/Margin/Content/AnswerRow/AnswerInput
-@onready var choices_container: GridContainer = $Panel/Margin/Content/ChoicesContainer
-@onready var validate_button: Button = $Panel/Margin/Content/AnswerRow/ValidateButton
+@onready var question_label: RichTextLabel = $Panel/Margin/Content/QuestionScroll/QuestionScrollMargin/QuestionScrollContent/QuestionCard/QuestionCardMargin/QuestionLabel
+## Marge de QuestionCard (voir question_card plus haut) - lue dynamiquement dans
+## _get_question_scroll_content_width, meme role que content_margin/question_scroll_margin.
+@onready var question_card_margin: MarginContainer = $Panel/Margin/Content/QuestionScroll/QuestionScrollMargin/QuestionScrollContent/QuestionCard/QuestionCardMargin
+@onready var answer_input: LineEdit = $Panel/Margin/Content/QuestionScroll/QuestionScrollMargin/QuestionScrollContent/AnswerRow/AnswerInput
+@onready var choices_container: GridContainer = $Panel/Margin/Content/QuestionScroll/QuestionScrollMargin/QuestionScrollContent/ChoicesContainer
+@onready var validate_button: Button = $Panel/Margin/Content/QuestionScroll/QuestionScrollMargin/QuestionScrollContent/AnswerRow/ValidateButton
+## Marge droite (10px) reservee a la scrollbar de QuestionScroll (voir question_card plus haut) -
+## meme role que ResultRowsMargin pour ResultScroll : lue dynamiquement dans
+## _populate_choice_buttons pour ne pas laisser un bouton QCM deborder sous la scrollbar.
+@onready var question_scroll_margin: MarginContainer = $Panel/Margin/Content/QuestionScroll/QuestionScrollMargin
 @onready var close_button: Button = $Panel/Margin/Content/HeaderRow/CloseButton
 @onready var result_scroll: ScrollContainer = $Panel/Margin/Content/ResultScroll
 @onready var result_rows_container: VBoxContainer = $Panel/Margin/Content/ResultScroll/ResultRowsMargin/ResultRows
+## Ligne "Défi" ajoutee au recapitulatif pour un pack sans faute (voir _show_result()) -
+## noeud statique du .tscn (comme les autres @onready ci-dessus), masque par defaut.
+@onready var challenge_label: Label = $Panel/Margin/Content/ChallengeLabel
+## Petit popup flottant (voir _show_challenge_popup()) - enfant direct de la racine pour se
+## dessiner au-dessus de Panel, pas de _progress_icon (voir plus bas) : c'est un evenement
+## distinct de la recompense en pieces, jamais affiche en meme temps que la fanfare
+## PACK_REWARD (voir SoundManager.Sfx).
+@onready var challenge_popup: PanelContainer = $ChallengePopup
+@onready var challenge_popup_label: Label = $ChallengePopup/ChallengePopupMargin/ChallengePopupLabel
 
 ## Marge interne d'une ligne du tableau recapitulatif (voir _add_result_row) - assez large pour
 ## une lecture confortable sans gonfler artificiellement la hauteur de chaque ligne.
-const RESULT_ROW_MARGIN := 10.0
+const RESULT_ROW_MARGIN := 10
 ## Part de largeur laissee vide avant la reponse/correction (voir _build_indented_line) : decale
 ## ces deux lignes de 20% vers la droite par rapport a la question, pour bien les distinguer d'un
 ## simple coup d'oeil (retour utilisateur 2026-08-01).
 const RESULT_INDENT_RATIO := 0.2
+
+## Taille visee pour Panel (voir _update_panel_max_size), mise en cache ici plutot que relue via
+## panel.size a chaque calcul de largeur (_get_question_scroll_content_width,
+## _update_question_label_max_width, _populate_choice_buttons) : panel.size ne reflete l'effet de
+## custom_maximum_size qu'apres que le moteur ait retraite la mise en page (differe d'au moins une
+## frame apres un show()), donc juste apres display_pack()/show_message() il peut encore renvoyer
+## l'ANCIENNE taille - ce qui recreait exactement le meme bug de troncature/debordement que ce
+## fichier corrige (retour utilisateur 2026-09-11 : "toutes les lignes sont coupees"). _panel_target_
+## size, lui, est calcule directement depuis les ancres (voir _update_panel_max_size), donc toujours
+## a jour instantanement, sans dependre du rythme de la mise en page du moteur.
+var _panel_target_size: Vector2 = Vector2.ZERO
 
 var _source: Node
 var _questions: Array[QuestionResource] = []
@@ -108,6 +199,12 @@ var _correct_count: int = 0
 ## construire le tableau recapitulatif affiche par _show_result.
 var _history: Array[Dictionary] = []
 
+## Icone piece coloree affichee dans la pastille de resultat (voir _show_result) - creee au
+## runtime comme les icones de CoinHUD, plutot que posee dans la .tscn : masquee (visible = false)
+## tant qu'aucun resultat n'est affiche (pastille reutilisee pour "Question X/Y" et les messages
+## temporaires, voir show_message/_display_current_question).
+var _progress_icon: TextureRect
+
 func _ready() -> void:
 	## Applique le theme d'interface choisi (et reagit a un changement) : ce panneau est un
 	## enfant direct du CanvasLayer "UI", qui coupe la propagation automatique de Theme depuis
@@ -117,27 +214,74 @@ func _ready() -> void:
 	answer_input.text_submitted.connect(_on_answer_submitted)
 	validate_button.pressed.connect(_on_validate_pressed)
 	close_button.pressed.connect(_on_close_pressed)
-	## Se ferme si le PNJ dont le pack est en cours sort de la portee du joueur (le joueur
-	## s'est eloigne). Compare via le parent commun (InteractableComponent et
-	## QuestionGiverComponent sont freres sous le meme noeud PNJ), sans lien direct entre les
-	## composants (voir la regle EventBus du projet).
-	EventBus.interactable_unfocused.connect(_on_interactable_unfocused)
 	## Fige le joueur (deplacement + interaction) tant que ce panneau est visible.
 	visibility_changed.connect(_on_visibility_changed)
+	## Meme pattern que CoinHUD._ready() (icone creee en code, jamais posee dans la .tscn) :
+	## expand_mode = EXPAND_IGNORE_SIZE, sinon get_minimum_size() renvoie la taille native de la
+	## texture (120x120) au lieu de respecter custom_minimum_size - voir le commentaire detaille
+	## dans coin_hud.gd.
+	_progress_icon = TextureRect.new()
+	_progress_icon.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+	_progress_icon.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+	_progress_icon.custom_minimum_size = Vector2(PROGRESS_ICON_SIZE, PROGRESS_ICON_SIZE)
+	_progress_icon.visible = false
+	progress_badge_row.add_child(_progress_icon)
+	## Filet de securite (2026-09-11, retour utilisateur : meme apres le plafond de largeur des
+	## boutons QCM et le passage de la zone question en ScrollContainer, "le cadre deborde encore
+	## de la fenetre de jeu") : quel que soit ce qui, plus bas dans l'arbre, exige encore une taille
+	## minimale trop grande pour Panel (un contenu tres long peut toujours faire remonter un besoin
+	## de hauteur/largeur superieur a ce que ses ancres lui allouent), Panel ne peut desormais plus
+	## JAMAIS depasser physiquement la zone qui lui est reservee a l'ecran. custom_maximum_size est
+	## un veritable plafond applique par le moteur sur la taille finale du Control (voir
+	## Control::_size_changed()/get_combined_maximum_size() dans scene/gui/control.cpp, source
+	## Godot 4.7) - contrairement au custom_maximum_size de QuestionLabel plus bas, qui ne sert lui
+	## qu'a calculer un retour a la ligne (voir _update_question_label_max_width). Le contenu qui ne
+	## rentre plus dans ce plafond est desormais contraint de scroller a l'interieur de
+	## QuestionScroll/ResultScroll (deja en place) au lieu de pousser Panel hors ecran.
+	_update_panel_max_size()
+	## Recalcule si la fenetre change de taille (canvas_items ne change pas les ancres, mais la
+	## taille reelle en pixels change) - QuestionPanel (ce script) couvre tout l'ecran (ancres 0-1),
+	## donc son propre "resized" reflete fidelement chaque changement de taille du viewport.
+	resized.connect(_update_panel_max_size)
 
 func _on_visibility_changed() -> void:
+	var blur_bg := get_node_or_null(blur_bg_path) as CanvasItem
+	if blur_bg:
+		blur_bg.visible = visible
+	var open_menu_button := get_node_or_null(open_menu_button_path) as CanvasItem
+	if open_menu_button:
+		open_menu_button.visible = not visible
+	var backpack_button := get_node_or_null(backpack_button_path) as CanvasItem
+	if backpack_button:
+		backpack_button.visible = not visible
 	if visible:
 		PlayerInputLock.lock()
 	else:
 		PlayerInputLock.unlock()
 
+## Echap = meme action que close_button (voir commentaire de classe, 2026-09-04) : seule fenetre du
+## jeu a reintroduire un raccourci clavier depuis la suppression generale du 2026-09-02, sur demande
+## explicite. Ignore tout evenement tant que ce panneau n'est pas visible, pour ne jamais intercepter
+## l'Echap destine a une autre fenetre (ex. GameMenuPanel).
+func _unhandled_input(event: InputEvent) -> void:
+	if not visible:
+		return
+	if event.is_action_pressed("ui_cancel"):
+		get_viewport().set_input_as_handled()
+		_abort_pack()
+
 ## Affiche un message temporaire (ex: "pas encore de questions pour ce niveau") puis se
 ## referme toute seule, comme l'ecran de resultat. Reutilise pour QuestionGiverComponent.
-## pack_unavailable ; le "source" en parametre n'est pas utilise ici, l'affichage seul suffit.
-func show_message(_source: Node, message: String) -> void:
+## pack_unavailable ; le "source" en parametre n'est pas utilise ici, l'affichage seul suffit -
+## nomme differemment de la variable membre _source (voir plus haut) pour eviter de la masquer
+## par erreur (elle suit le PNJ du pack EN COURS, pas celui d'un simple message).
+func show_message(_unused_source: Node, message: String) -> void:
 	result_scroll.visible = false
+	challenge_label.visible = false
+	question_scroll.visible = true
 	question_card.visible = true
 	progress_label.text = ""
+	_progress_icon.visible = false
 	_update_question_label_max_width()
 	question_label.text = _build_question_bbcode(message)
 	_clear_choice_buttons()
@@ -158,13 +302,16 @@ func display_pack(source: Node, questions: Array[QuestionResource], rarity: Card
 	_correct_count = 0
 	_history = []
 	result_scroll.visible = false
+	challenge_label.visible = false
 	show()
 	_display_current_question()
 
 func _display_current_question() -> void:
+	question_scroll.visible = true
 	question_card.visible = true
 	var question := _questions[_current_index]
 	progress_label.text = "Question %d/%d" % [_current_index + 1, _questions.size()]
+	_progress_icon.visible = false
 	_update_question_label_max_width()
 	question_label.text = _build_question_bbcode(question.text)
 	_clear_choice_buttons()
@@ -243,15 +390,31 @@ func _populate_choice_buttons(question: QuestionResource) -> void:
 	## LOGIC_CHOICE_WIDTH_RATIO plus haut - MIN_CHOICE_WIDTH_RATIO reste le plancher des reponses
 	## textuelles, Logique inclue) - le panneau entier de la question, pas la sous-zone des choix :
 	## une reponse la plus longue trop courte (ex. un seul chiffre) donnait des cases trop etroites
-	## une fois reduites a leur contenu (retour utilisateur 2026-08-01). "panel" plutot que
-	## "choices_container" : ce dernier bascule visible=false/true a chaque question (voir
-	## _display_current_question), et son "size" n'est pas garanti a jour au moment precis ou ce
-	## code s'execute (le retri d'un conteneur suite a un changement de visibilite peut n'avoir
-	## lieu qu'a la frame suivante) - ce qui expliquait que le plancher restait sans effet. "panel"
-	## (le cadre) reste toujours visible et dimensionne par ses ancres des le demarrage, sa taille
-	## est donc fiable a cet instant.
+	## une fois reduites a leur contenu (retour utilisateur 2026-08-01). _panel_target_size (voir sa
+	## declaration), pas panel.size ni choices_container.size : les deux peuvent encore refleter une
+	## ancienne taille juste apres display_pack()/show_message() (retri differe d'au moins une frame),
+	## la ou _panel_target_size est fiable des l'appel.
 	var width_ratio := LOGIC_CHOICE_WIDTH_RATIO if has_emoji_choice else MIN_CHOICE_WIDTH_RATIO
-	max_width = maxf(max_width, panel.size.x * width_ratio)
+	max_width = maxf(max_width, _panel_target_size.x * width_ratio)
+	## Plafond ajoute le 2026-09-11 (retour utilisateur : question/reponses de comprehension de
+	## texte CM2 tres longues poussaient le cadre au-dela de l'ecran). Avant ce plafond, max_width
+	## restait la largeur naturelle sur UNE SEULE ligne de la reponse la plus longue (mesuree plus
+	## haut, avant l'activation de l'autowrap sur chaque bouton) : pour une reponse-phrase complete
+	## (courant en comprehension de texte), cette largeur peut largement depasser celle du cadre.
+	## custom_minimum_size.x etant un plancher que Godot respecte meme au-dela du rect du parent
+	## (voir docs.godotengine.org/en/4.7/tutorials/ui/size_and_anchors.html), la case forcait alors
+	## Content, puis Margin, puis Panel a s'elargir - et Panel grandissant dans les 2 sens
+	## (grow_horizontal = 2, voir la .tscn), il debordait de l'ecran a la fois a gauche et a droite.
+	## En plafonnant ici a la largeur reellement disponible dans le cadre, l'autowrap deja actif sur
+	## chaque bouton (button.autowrap_mode plus haut) prend enfin le relais et la reponse passe sur
+	## plusieurs lignes (le bouton grandit alors en hauteur, comportement deja supporte) au lieu de
+	## deborder en largeur.
+	var available_width := _get_question_scroll_content_width()
+	if is_logic:
+		## 2 colonnes cote a cote (voir LOGIC_CHOICE_COLUMNS) : chaque case ne dispose que de la
+		## moitie de available_width, moins l'ecart entre les 2 colonnes.
+		available_width = (available_width - choices_container.get_theme_constant("h_separation")) / float(LOGIC_CHOICE_COLUMNS)
+	max_width = minf(max_width, available_width)
 	for button in buttons:
 		button.custom_minimum_size.x = max_width
 
@@ -333,20 +496,68 @@ func _wrap_bbcode_run(run: String, is_emoji: bool, emoji_font_size: int) -> Stri
 		return "[font_size=%d]%s[/font_size]" % [emoji_font_size, run]
 	return run.replace("[", "[lb]")
 
+## Plafonne la taille REELLE de Panel a la portion d'ecran que ses ancres lui reservent (voir
+## commentaire dans _ready()) - "size" ici est celle de QuestionPanel (racine de ce script), qui
+## couvre tout l'ecran (ancres 0-1, voir la .tscn) : la meme reference que get_viewport_rect().size
+## en pratique, mais sans dependre du viewport si ce panneau etait un jour reparente. Les ratios
+## sont lus depuis les ancres de Panel elle-meme plutot que dupliques en dur (0.8/0.84), pour rester
+## corrects si ces ancres changent un jour dans la .tscn.
+## Met aussi en cache _panel_target_size (voir sa declaration) : panel.size lui-meme ne refletera
+## ce plafond qu'apres que le moteur ait retraite la mise en page (differe d'au moins une frame
+## apres un show()) - _get_question_scroll_content_width et _update_question_label_max_width
+## utilisent donc ce cache, jamais panel.size directement, pour ne pas recalculer une largeur
+## disponible perimee juste apres display_pack()/show_message().
+func _update_panel_max_size() -> void:
+	var ratio := Vector2(panel.anchor_right - panel.anchor_left, panel.anchor_bottom - panel.anchor_top)
+	_panel_target_size = size * ratio
+	panel.custom_maximum_size = _panel_target_size
+
+## Largeur reellement disponible pour le contenu direct de QuestionScrollContent (QuestionCard,
+## boutons QCM dans ChoicesContainer) : _panel_target_size (fiable immediatement, voir sa
+## declaration) moins les marges imbriquees jusqu'a ce niveau.
+## CORRECTION 2026-09-11 (2e passe, retour utilisateur : toujours tronque cote droit apres la 1ere
+## correction) : il manquait la marge INTERNE du style de Panel lui-meme. "Panel" est un
+## PanelContainer brut (pas de theme_type_variation), donc il herite du style par defaut
+## PanelContainer/styles/panel du theme (StyleBoxFlat_row dans game_theme.tres) qui porte
+## content_margin_left/right = 12 - un espace invisible dans l'editeur de scene (ce n'est pas un
+## MarginContainer, donc pas de theme_override_constants a voir dans la .tscn) mais bien reel a
+## l'affichage. Cette marge etait sans consequence tant que Panel pouvait grandir librement (avant
+## le plafond de _update_panel_max_size) : le cadre s'agrandissait simplement de 24px de trop,
+## invisible. Une fois Panel plafonne, ces 24px manquants dans le calcul font deborder le contenu
+## de 24px a droite - d'ou la marge encore lue ici via get_theme_stylebox("panel").get_margin(...),
+## jamais dupliquee en dur, pour rester correcte si le theme actif change (4 variantes, voir
+## ui/theme/*.tres - toutes basees sur la meme structure).
+func _get_question_scroll_content_width() -> float:
+	var panel_style := panel.get_theme_stylebox("panel")
+	return _panel_target_size.x \
+			- panel_style.get_margin(SIDE_LEFT) \
+			- panel_style.get_margin(SIDE_RIGHT) \
+			- content_margin.get_theme_constant("margin_left") \
+			- content_margin.get_theme_constant("margin_right") \
+			- question_scroll_margin.get_theme_constant("margin_right")
+
 ## BUG CORRIGE 2026-08-04 : sans ceci, QuestionLabel (RichTextLabel + fit_content + autowrap,
 ## voir plus haut) restait invisible pour TOUTES les questions, pas seulement Logique - la doc
 ## officielle de RichTextLabel previent explicitement que fit_content+autowrap "must have a
 ## custom maximum width configured to work correctly" (voir docs.godotengine.org/en/stable/
 ## classes/class_richtextlabel.html, membre fit_content) : sans largeur maximale, le moteur ne
 ## peut pas calculer le retour a la ligne ni la hauteur de contenu qui en decoule, et le label
-## s'effondre a une taille degeneree (0 ou incoherente) au lieu de s'afficher. "panel.size.x" est
-## la meme reference fiable deja utilisee dans _populate_choice_buttons (toujours visible et
-## dimensionne par ses ancres des le demarrage, contrairement a des conteneurs qui bascule
-## visible=false/true) - la valeur donnee ici est un PLAFOND (Control.custom_maximum_size), pas
-## une largeur imposee : le conteneur parent (QuestionCardMargin) continue de donner sa largeur
-## reelle, toujours <= panel.size.x, donc surestimer legerement ce plafond est sans consequence.
+## s'effondre a une taille degeneree (0 ou incoherente) au lieu de s'afficher.
+## Largeur precise (2026-09-11, remplace l'ancien "panel.size.x brut, surestimation sans
+## consequence") : cette approximation etait fausse des que Panel ne peut plus grandir librement
+## (voir _update_panel_max_size) - surestimer la largeur de retour a la ligne faisait alors
+## déborder/tronquer le texte au lieu de le faire passer a la ligne, la vraie largeur disponible
+## etant plus etroite que ce plafond. _get_question_scroll_content_width() moins la marge INTERNE
+## du style de QuestionCard (meme cas que Panel juste au-dessus - QuestionCard est aussi un
+## PanelContainer brut, meme style par defaut 12px gauche/droite) moins la marge de
+## QuestionCardMargin (question_card_margin) donne la largeur exacte que QuestionLabel recevra.
 func _update_question_label_max_width() -> void:
-	question_label.custom_maximum_size.x = panel.size.x
+	var card_style := question_card.get_theme_stylebox("panel")
+	question_label.custom_maximum_size.x = _get_question_scroll_content_width() \
+			- card_style.get_margin(SIDE_LEFT) \
+			- card_style.get_margin(SIDE_RIGHT) \
+			- question_card_margin.get_theme_constant("margin_left") \
+			- question_card_margin.get_theme_constant("margin_right")
 
 func _clear_choice_buttons() -> void:
 	for child in choices_container.get_children():
@@ -366,20 +577,7 @@ func _on_validate_pressed() -> void:
 func _on_close_pressed() -> void:
 	_abort_pack()
 
-func _unhandled_input(event: InputEvent) -> void:
-	if visible and event.is_action_pressed("ui_cancel"):
-		_abort_pack()
-		get_viewport().set_input_as_handled()
-
-## Node (pas InteractableComponent) : recoit indifferemment un interactable 3D ou 2D depuis le
-## passage du jeu en 2D (voir InteractorComponent.gd).
-func _on_interactable_unfocused(interactable: Node) -> void:
-	if _source == null or interactable == null:
-		return
-	if _source.get_parent() == interactable.get_parent():
-		_abort_pack()
-
-## Ferme la fenetre (croix, Echap, ou joueur qui s'eloigne du PNJ en cours). Si le pack etait
+## Ferme la fenetre (croix, ou joueur qui s'eloigne du PNJ en cours). Si le pack etait
 ## deja termine (tableau recapitulatif affiche), la recompense a deja ete versee dans
 ## _show_result : fermer ici ne fait qu'arreter l'affichage, rien n'est perdu pour le joueur.
 func _abort_pack() -> void:
@@ -394,6 +592,9 @@ func _abort_pack() -> void:
 func _submit_answer(answer_text: String) -> void:
 	var question := _questions[_current_index]
 	var is_correct := question.is_correct(answer_text)
+	## Retour sonore immediat a chaque question, avant meme la mise a jour de _correct_count
+	## (voir autoload/sound_manager.gd).
+	SoundManager.play(SoundManager.Sfx.CORRECT if is_correct else SoundManager.Sfx.WRONG)
 	if is_correct:
 		_correct_count += 1
 	_history.append({
@@ -410,20 +611,33 @@ func _submit_answer(answer_text: String) -> void:
 		_display_current_question()
 
 ## Affiche le tableau recapitulatif du pack (une ligne par question, reponse en vert si juste,
-## en rouge avec la correction a cote si fausse). Reste affiche jusqu'a fermeture manuelle
-## (croix ou Echap, geres globalement par _on_close_pressed / _unhandled_input) : contrairement
-## a show_message, pas de fermeture automatique, pour laisser le temps de relire le detail.
+## en rouge avec la correction a cote si fausse). Reste affiche jusqu'a fermeture manuelle (croix,
+## voir _on_close_pressed) : contrairement a show_message, pas de fermeture automatique, pour
+## laisser le temps de relire le detail.
 func _show_result() -> void:
 	var correct := _correct_count
 	var total := _questions.size()
 	var reward := CardRarity.get_pack_reward(_rarity, correct, total)
+	## Petite fanfare de fin de pack, seulement si une recompense est effectivement gagnee.
+	if reward > 0:
+		SoundManager.play(SoundManager.Sfx.PACK_REWARD)
 	## "Score" et "Résultat" fusionnes dans la pastille d'en-tete (ProgressBadge) - plus de carte
 	## question separee pour l'afficher, elle est masquee ci-dessous. HeaderSpacer (entre pastille
 	## et croix) reste actif comme en mode question : la pastille est collee a gauche et la croix
 	## epinglee en haut a droite du cadre, quelle que soit la largeur du texte (retour utilisateur
 	## 2026-08-01).
-	var piece_word := "pièce" if reward <= 1 else "pièces"
-	progress_label.text = "Résultat : %d/%d, tu gagnes %d %s %s" % [correct, total, reward, piece_word, CardRarity.get_label(_rarity)]
+	## Nom de classe (CP/CE1/...) plutot que de rarete ("Commune"/"Peu commune"/...) depuis la
+	## section "Récompenses" (2026-08-29, retour utilisateur : "on enleve le systeme commun peu
+	## commun etc et on remplace juste par le nom des classes") - voir GradeLevel.get_grade_for_rarity.
+	var grade := GradeLevel.get_grade_for_rarity(_rarity)
+	## "pièce(s) {classe}" remplace par l'icone piece coloree de la classe (2026-08-31, retour
+	## utilisateur : "remplace 'piece CP' par l icone de piece de la bonne couleur... pour toutes
+	## les classes toutes les matieres") - le texte s'arrete desormais au nombre, l'icone (creee
+	## dans _ready(), voir _progress_icon) prend le relais juste apres dans ProgressBadgeRow.
+	progress_label.text = "Résultat : %d/%d, tu gagnes %d" % [correct, total, reward]
+	_progress_icon.texture = load(GradeLevel.get_coin_icon_path(grade))
+	_progress_icon.visible = true
+	question_scroll.visible = false
 	question_card.visible = false
 	_clear_choice_buttons()
 	choices_container.visible = false
@@ -431,8 +645,38 @@ func _show_result() -> void:
 	validate_button.visible = false
 	_populate_result_table()
 	result_scroll.visible = true
+	## Défi "classe + matière" (2026-09-05, voir ChallengeTracker) : incremente uniquement pour un
+	## pack SANS FAUTE (retour utilisateur : "l'incrementation de succes se fait pour un resultat
+	## sans faute"), donc plus exigeant que le seuil de 50% qui donne deja une recompense en pieces
+	## ci-dessus. _questions (toujours la liste complete a ce stade, remise a [] juste apres) donne
+	## la matiere du pack : uniforme sur tout le pack, jamais mélangée en cours de route, meme pour
+	## un pack de revision qui pioche dans plusieurs classes anterieures (voir FRANCAIS_DIFFICULTE.md).
+	## Popup + son (Sfx.CHALLENGE_SUCCESS) distincts de la fanfare PACK_REWARD ci-dessus : un
+	## evenement different (progression Défis), pas la recompense en pieces - retour utilisateur :
+	## "on precise l'incrementation de succes avec une popup et un petit son de reussite".
+	if correct == total and total > 0:
+		var subject: SubjectType.Subject = _questions[0].subject
+		var new_count := ChallengeTracker.register_success(grade, subject)
+		var challenge_text := "Défi \"%s\" (%s) : sans faute ! %d / %d réussites" % [
+			SubjectType.get_label(subject), GradeLevel.get_label(grade), new_count, ChallengeTracker.GOLD_GOAL,
+		]
+		challenge_label.text = challenge_text
+		challenge_label.visible = true
+		_show_challenge_popup(challenge_text)
+		SoundManager.play(SoundManager.Sfx.CHALLENGE_SUCCESS)
+	else:
+		challenge_label.visible = false
 	_questions = []
 	pack_completed.emit(_source, correct)
+
+## Petit encart flottant confirmant la progression d'un Défi (voir _show_result()) - reste
+## affiche RESULT_DISPLAY_SECONDS (meme duree que show_message()) puis se masque tout seul, sans
+## bloquer la fermeture du recapitulatif (mouse_filter=2/IGNORE sur ChallengePopup, voir le .tscn).
+func _show_challenge_popup(text: String) -> void:
+	challenge_popup_label.text = text
+	challenge_popup.visible = true
+	await get_tree().create_timer(RESULT_DISPLAY_SECONDS).timeout
+	challenge_popup.visible = false
 
 func _clear_result_rows() -> void:
 	for child in result_rows_container.get_children():

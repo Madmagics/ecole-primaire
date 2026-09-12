@@ -1,0 +1,501 @@
+id;text;correct_answer;choice_2;choice_3;choice_4
+44000;Quel nombre vient après ? 1, 1, 2, 3, 5, …;8;7;9;6
+44001;Quel nombre vient après ? 2, 5, 10, 17, …;26;24;25;28
+44002;Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on 'CAT' ?;DBU;BZS;DBV;CBU
+44003;Grille : ligne 1 = 1 2 3, ligne 2 = 2 3 4, ligne 3 = 3 4 … Quel nombre complète la grille ?;5;4;6;3
+44004;Léo, Emma et Noah ont chacun un animal différent : chat, chien, poisson. Emma a un chat. Léo n'a pas de poisson. Qui a le poisson ?;Noah;Léo;Emma;Impossible à savoir
+44005;Quel nombre vient après ? 1, 10, 2, 9, 3, …;8;7;9;4
+44006;Sur une île, Ana dit toujours la vérité et Bo ment toujours. Une personne dit 'Il pleut', mais il ne pleut pas. Qui a parlé ?;Bo;Ana;Les deux;Aucun des deux
+44007;Le livre est à lire ce que la musique est…;à écouter;à voir;à toucher;à sentir
+44008;Quel nombre vient après ? 1, 3, 7, 15, …;31;30;29;32
+44009;Combien de façons différentes peut-on ranger 3 livres différents côte à côte sur une étagère ?;6;3;9;4
+44010;Quel nombre vient après ? 2, 7, 9, 16, 25, …;41;40;42;66
+44011;Quel nombre vient après ? 1, 4, 5, 9, 14, …;23;24;37;22
+44012;Quel nombre vient après ? 3, 1, 4, 5, 9, …;14;23;13;15
+44013;Quel nombre vient après ? 1, 2, 3, 5, 8, …;13;12;21;14
+44014;Quel nombre vient après ? 6, 1, 7, 8, 15, …;23;24;38;22
+44015;Quel nombre vient après ? 1, 3, 4, 7, 11, …;18;17;19;29
+44016;Quel nombre vient après ? 5, 6, 11, 17, 28, …;45;73;44;46
+44017;Quel nombre vient après ? 8, 6, 14, 20, 34, …;54;88;53;55
+44018;Quel nombre vient après ? 3, 8, 11, 19, 30, …;49;48;50;79
+44019;Quel nombre vient après ? 8, 2, 10, 12, 22, …;34;56;33;35
+44020;Quel nombre vient après ? 7, 4, 11, 15, 26, …;41;40;42;67
+44021;Quel nombre vient après ? 6, 8, 14, 22, 36, …;58;57;59;94
+44022;Quel nombre vient après ? 5, 3, 8, 11, 19, …;30;49;29;31
+44023;Quel nombre vient après ? 2, 6, 8, 14, 22, …;36;58;35;37
+44024;Quel nombre vient après ? 8, 7, 15, 22, 37, …;59;96;58;60
+44025;Quel nombre vient après ? 3, 7, 10, 17, 27, …;44;43;45;71
+44026;Quel nombre vient après ? 4, 2, 6, 8, 14, …;22;36;21;23
+44027;Quel nombre vient après ? 4, 6, 10, 16, 26, …;42;41;43;68
+44028;Quel nombre vient après ? 2, 5, 7, 12, 19, …;31;32;50;30
+44029;Quel nombre vient après ? 3, 6, 9, 15, 24, …;39;40;38;63
+44030;Quel nombre vient après ? 3, 4, 7, 11, 18, …;29;28;30;47
+44031;Quel nombre vient après ? 3, 5, 8, 13, 21, …;34;33;35;55
+44032;Quel nombre vient après ? 7, 1, 8, 9, 17, …;26;25;27;43
+44033;Quel nombre vient après ? 7, 8, 15, 23, 38, …;61;99;60;62
+44034;Quel nombre vient après ? 7, 5, 12, 17, 29, …;46;75;45;47
+44035;Quel nombre vient après ? 5, 7, 12, 19, 31, …;50;81;49;51
+44036;Quel nombre vient après ? 6, 5, 11, 16, 27, …;43;42;44;70
+44037;Quel nombre vient après ? 8, 5, 13, 18, 31, …;49;48;50;80
+44038;Quel nombre vient après ? 5, 1, 6, 7, 13, …;20;33;19;21
+44039;Quel nombre vient après ? 4, 1, 5, 6, 11, …;17;16;18;28
+44040;Quel nombre vient après ? 6, 7, 13, 20, 33, …;53;86;52;54
+44041;Quel nombre vient après ? 8, 1, 9, 10, 19, …;29;48;28;30
+44042;Quel nombre vient après ? 2, 3, 5, 8, 13, …;21;34;20;22
+44043;Quel nombre vient après ? 1, 7, 8, 15, 23, …;38;61;37;39
+44044;Quel nombre vient après ? 2, 4, 6, 10, 16, …;26;25;42;27
+44045;Quel nombre vient après ? 1, 6, 7, 13, 20, …;33;32;34;53
+44046;Quel nombre vient après ? 6, 4, 10, 14, 24, …;38;37;62;39
+44047;Quel nombre vient après ? 2, 8, 10, 18, 28, …;46;74;45;47
+44048;Quel nombre vient après ? 4, 7, 11, 18, 29, …;47;48;76;46
+44049;Quel nombre vient après ? 7, 3, 10, 13, 23, …;36;59;35;37
+44050;Quel nombre vient après ? 3, 2, 5, 7, 12, …;19;18;20;31
+44051;Quel nombre vient après ? 6, 2, 8, 10, 18, …;28;27;29;46
+44052;Quel nombre vient après ? 2, 1, 3, 4, 7, …;11;10;18;12
+44053;Quel nombre vient après ? 7, 6, 13, 19, 32, …;51;50;83;52
+44054;Quel nombre vient après ? 4, 3, 7, 10, 17, …;27;26;28;44
+44055;Quel nombre vient après ? 4, 8, 12, 20, 32, …;52;51;84;53
+44056;Quel nombre vient après ? 5, 2, 7, 9, 16, …;25;24;41;26
+44057;Quel nombre vient après ? 4, 5, 9, 14, 23, …;37;36;38;60
+44058;Quel nombre vient après ? 6, 3, 9, 12, 21, …;33;32;34;54
+44059;Quel nombre vient après ? 7, 2, 9, 11, 20, …;31;32;51;30
+44060;Quel nombre vient après ? 14, 23, 34, 47, …;62;64;61;63
+44061;Quel nombre vient après ? 2, 7, 14, 23, …;34;33;35;36
+44062;Quel nombre vient après ? 38, 51, 66, 83, …;102;104;101;103
+44063;Quel nombre vient après ? 15, 24, 35, 48, …;63;64;65;62
+44064;Quel nombre vient après ? 23, 34, 47, 62, …;79;80;81;78
+44065;Quel nombre vient après ? 6, 11, 18, 27, …;38;40;37;39
+44066;Quel nombre vient après ? 27, 38, 51, 66, …;83;82;84;85
+44067;Quel nombre vient après ? 7, 12, 19, 28, …;39;40;41;38
+44068;Quel nombre vient après ? 3, 8, 15, 24, …;35;34;36;37
+44069;Quel nombre vient après ? 35, 48, 63, 80, …;99;98;100;101
+44070;Quel nombre vient après ? 19, 28, 39, 52, …;67;66;68;69
+44071;Quel nombre vient après ? 8, 15, 24, 35, …;48;49;50;47
+44072;Quel nombre vient après ? 12, 19, 28, 39, …;52;51;53;54
+44073;Quel nombre vient après ? 5, 10, 17, 26, …;37;36;38;39
+44074;Quel nombre vient après ? 28, 39, 52, 67, …;84;83;85;86
+44075;Quel nombre vient après ? 18, 27, 38, 51, …;66;65;67;68
+44076;Quel nombre vient après ? 26, 37, 50, 65, …;82;81;83;84
+44077;Quel nombre vient après ? 37, 50, 65, 82, …;101;100;102;103
+44078;Quel nombre vient après ? 10, 17, 26, 37, …;50;49;51;52
+44079;Quel nombre vient après ? 3, 6, 11, 18, …;27;26;28;29
+44080;Quel nombre vient après ? 17, 26, 37, 50, …;65;64;66;67
+44081;Quel nombre vient après ? 4, 7, 12, 19, …;28;27;29;30
+44082;Quel nombre vient après ? 34, 47, 62, 79, …;98;97;99;100
+44083;Quel nombre vient après ? 39, 52, 67, 84, …;103;104;105;102
+44084;Quel nombre vient après ? 7, 14, 23, 34, …;47;48;49;46
+44085;Quel nombre vient après ? 24, 35, 48, 63, …;80;81;82;79
+44086;Quel nombre vient après ? 11, 18, 27, 38, …;51;50;52;53
+44087;Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on 'SOLEIL' ?;TPMFJM;UQNGKN;VROHLO;MJFMPT
+44088;Avec un décalage de +5 où A devient F, B devient G, etc., comment écrit-on 'MAISON' ?;RFNXTS;SGOYUT;QEMWSR;STXNFR
+44089;Avec un décalage de +5 où A devient F, B devient G, etc., comment écrit-on 'TABLE' ?;YFGQJ;ZGHRK;XEFPI;JQGFY
+44090;Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on 'VELO' ?;YHOR;ZIPS;XGNQ;ROHY
+44091;Avec un décalage de +4 où A devient E, B devient F, etc., comment écrit-on 'PIERRE' ?;TMIVVI;UNJWWJ;SLHUUH;IVVIMT
+44092;Avec un décalage de +4 où A devient E, B devient F, etc., comment écrit-on 'MONTAGNE' ?;QSRXEKRI;RTSYFLSJ;PRQWDJQH;IRKEXRSQ
+44093;Avec un décalage de +4 où A devient E, B devient F, etc., comment écrit-on 'PORTE' ?;TSVXI;UTWYJ;SRUWH;IXVST
+44094;Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on 'MAISON' ?;PDLVRQ;QEMWSR;OCKUQP;QRVLDP
+44095;Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on 'JARDIN' ?;LCTFKP;MDUGLQ;KBSEJO;PKFTCL
+44096;Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on 'PIERRE' ?;QJFSSF;RKGTTG;SLHUUH;FSSFJQ
+44097;Avec un décalage de +4 où A devient E, B devient F, etc., comment écrit-on 'TABLE' ?;XEFPI;YFGQJ;WDEOH;IPFEX
+44098;Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on 'ROUTE' ?;URXWH;VSYXI;TQWVG;HWXRU
+44099;Avec un décalage de +8 où A devient I, B devient J, etc., comment écrit-on 'MAISON' ?;UIQAWV;VJRBXW;THPZVU;VWAQIU
+44100;Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on 'NUAGE' ?;PWCIG;QXDJH;OVBHF;GICWP
+44101;Avec un décalage de +4 où A devient E, B devient F, etc., comment écrit-on 'CHIEN' ?;GLMIR;HMNJS;FKLHQ;RIMLG
+44102;Avec un décalage de +7 où A devient H, B devient I, etc., comment écrit-on 'CHAT' ?;JOHA;KPIB;INGZ;AHOJ
+44103;Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on 'SOLEIL' ?;UQNGKN;VROHLO;TPMFJM;NKGNQU
+44104;Avec un décalage de +6 où A devient G, B devient H, etc., comment écrit-on 'PLAGE' ?;VRGMK;WSHNL;UQFLJ;KMGRV
+44105;Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on 'TABLE' ?;VCDNG;WDEOH;UBCMF;GNDCV
+44106;Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on 'LIVRE' ?;OLYUH;PMZVI;NKXTG;HUYLO
+44107;Avec un décalage de +5 où A devient F, B devient G, etc., comment écrit-on 'PIERRE' ?;UNJWWJ;VOKXXK;TMIVVI;JWWJNU
+44108;Avec un décalage de +5 où A devient F, B devient G, etc., comment écrit-on 'RIVIERE' ?;WNANJWJ;XOBOKXK;VMZMIVI;JWJNANW
+44109;Avec un décalage de +7 où A devient H, B devient I, etc., comment écrit-on 'OISEAU' ?;VPZLHB;WQAMIC;UOYKGA;BHLZPV
+44110;Avec un décalage de +7 où A devient H, B devient I, etc., comment écrit-on 'FORET' ?;MVYLA;NWZMB;LUXKZ;ALYVM
+44111;Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on 'FLEUR' ?;HNGWT;IOHXU;GMFVS;TWGNH
+44112;Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on 'NUAGE' ?;QXDJH;RYEKI;PWCIG;HJDXQ
+44113;Avec un décalage de +8 où A devient I, B devient J, etc., comment écrit-on 'SOLEIL' ?;AWTMQT;BXUNRU;ZVSLPS;TQMTWA
+44114;Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on 'FORET' ?;HQTGV;IRUHW;GPSFU;VGTQH
+44115;Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on 'SABLE' ?;UCDNG;VDEOH;TBCMF;GNDCU
+44116;Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on 'CHIEN' ?;DIJFO;EJKGP;FKLHQ;OFJID
+44117;Avec un décalage de +4 où A devient E, B devient F, etc., comment écrit-on 'RIVIERE' ?;VMZMIVI;WNANJWJ;ULYLHUH;IVIMZMV
+44118;Avec un décalage de +5 où A devient F, B devient G, etc., comment écrit-on 'JARDIN' ?;OFWINS;PGXJOT;NEVHMR;SNIWFO
+44119;Avec un décalage de +6 où A devient G, B devient H, etc., comment écrit-on 'OISEAU' ?;UOYKGA;VPZLHB;TNXJFZ;AGKYOU
+44120;Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on 'OISEAU' ?;QKUGCW;RLVHDX;PJTFBV;WCGUKQ
+44121;Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on 'FORET' ?;GPSFU;HQTGV;IRUHW;UFSPG
+44122;Avec un décalage de +6 où A devient G, B devient H, etc., comment écrit-on 'POISSON' ?;VUOYYUT;WVPZZVU;UTNXXTS;TUYYOUV
+44123;Avec un décalage de +5 où A devient F, B devient G, etc., comment écrit-on 'CHIEN' ?;HMNJS;INOKT;GLMIR;SJNMH
+44124;Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on 'PIERRE' ?;SLHUUH;TMIVVI;RKGTTG;HUUHLS
+44125;Avec un décalage de +5 où A devient F, B devient G, etc., comment écrit-on 'SOLEIL' ?;XTQJNQ;YURKOR;WSPIMP;QNJQTX
+44126;Avec un décalage de +7 où A devient H, B devient I, etc., comment écrit-on 'NUAGE' ?;UBHNL;VCIOM;TAGMK;LNHBU
+44127;Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on 'RIVIERE' ?;TKXKGTG;ULYLHUH;SJWJFSF;GTGKXKT
+44128;Avec un décalage de +7 où A devient H, B devient I, etc., comment écrit-on 'PLAGE' ?;WSHNL;XTIOM;VRGMK;LNHSW
+44129;Avec un décalage de +8 où A devient I, B devient J, etc., comment écrit-on 'BATEAU' ?;JIBMIC;KJCNJD;IHALHB;CIMBIJ
+44130;Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on 'BATEAU' ?;CBUFBV;DCVGCW;EDWHDX;VBFUBC
+44131;Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on 'OISEAU' ?;PJTFBV;QKUGCW;RLVHDX;VBFTJP
+44132;Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on 'VELO' ?;WFMP;XGNQ;YHOR;PMFW
+44133;Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on 'NUAGE' ?;OVBHF;PWCIG;QXDJH;FHBVO
+44134;Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on 'ROUTE' ?;SPVUF;TQWVG;URXWH;FUVPS
+44135;Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on 'PORTE' ?;QPSUF;RQTVG;SRUWH;FUSPQ
+44136;Avec un décalage de +4 où A devient E, B devient F, etc., comment écrit-on 'CHAT' ?;GLEX;HMFY;FKDW;XELG
+44137;Avec un décalage de +8 où A devient I, B devient J, etc., comment écrit-on 'RIVIERE' ?;ZQDQMZM;ARERNAN;YPCPLYL;MZMQDQZ
+44138;Avec un décalage de +5 où A devient F, B devient G, etc., comment écrit-on 'PLAGE' ?;UQFLJ;VRGMK;TPEKI;JLFQU
+44139;Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on 'LIVRE' ?;NKXTG;OLYUH;MJWSF;GTXKN
+44140;Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on 'MAISON' ?;NBJTPO;OCKUQP;PDLVRQ;OPTJBN
+44141;Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on 'MAISON' ?;OCKUQP;PDLVRQ;NBJTPO;PQUKCO
+44142;Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on 'PLAGE' ?;SODJH;TPEKI;RNCIG;HJDOS
+44143;Avec un décalage de +8 où A devient I, B devient J, etc., comment écrit-on 'ROUTE' ?;ZWCBM;AXDCN;YVBAL;MBCWZ
+44144;Avec un décalage de +5 où A devient F, B devient G, etc., comment écrit-on 'BATEAU' ?;GFYJFZ;HGZKGA;FEXIEY;ZFJYFG
+44145;Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on 'FLEUR' ?;IOHXU;JPIYV;HNGWT;UXHOI
+44146;Avec un décalage de +7 où A devient H, B devient I, etc., comment écrit-on 'SOLEIL' ?;ZVSLPS;AWTMQT;YURKOR;SPLSVZ
+44147;Grille : ligne 1 = 8 11 14, ligne 2 = 10 13 …, ligne 3 = 12 15 18. Quel nombre complète la grille ?;16;17;18;15
+44148;Grille : ligne 1 = 7 10 13, ligne 2 = 11 14 17, ligne 3 = … 18 21. Quel nombre complète la grille ?;15;16;19;14
+44149;Grille : ligne 1 = 2 6 10, ligne 2 = 5 9 13, ligne 3 = … 12 16. Quel nombre complète la grille ?;8;9;11;7
+44150;Grille : ligne 1 = 3 5 7, ligne 2 = 7 9 11, ligne 3 = … 13 15. Quel nombre complète la grille ?;11;10;12;15
+44151;Grille : ligne 1 = … 8 10, ligne 2 = 7 9 11, ligne 3 = 8 10 12. Quel nombre complète la grille ?;6;8;5;7
+44152;Grille : ligne 1 = 2 6 10, ligne 2 = 3 … 11, ligne 3 = 4 8 12. Quel nombre complète la grille ?;7;8;11;6
+44153;Grille : ligne 1 = 2 5 8, ligne 2 = 4 7 10, ligne 3 = 6 9 …. Quel nombre complète la grille ?;12;11;13;14
+44154;Grille : ligne 1 = 10 14 18, ligne 2 = … 15 19, ligne 3 = 12 16 20. Quel nombre complète la grille ?;11;10;12;15
+44155;Grille : ligne 1 = 4 7 10, ligne 2 = … 9 12, ligne 3 = 8 11 14. Quel nombre complète la grille ?;6;8;5;7
+44156;Grille : ligne 1 = 3 6 9, ligne 2 = 5 8 11, ligne 3 = 7 … 13. Quel nombre complète la grille ?;10;9;11;12
+44157;Grille : ligne 1 = 1 3 5, ligne 2 = 2 … 6, ligne 3 = 3 5 7. Quel nombre complète la grille ?;4;3;5;6
+44158;Grille : ligne 1 = 3 5 7, ligne 2 = 7 9 …, ligne 3 = 11 13 15. Quel nombre complète la grille ?;11;10;12;15
+44159;Grille : ligne 1 = 4 … 6, ligne 2 = 7 8 9, ligne 3 = 10 11 12. Quel nombre complète la grille ?;5;8;4;6
+44160;Grille : ligne 1 = 2 4 6, ligne 2 = 6 8 10, ligne 3 = 10 … 14. Quel nombre complète la grille ?;12;16;11;13
+44161;Grille : ligne 1 = 2 5 8, ligne 2 = 6 9 …, ligne 3 = 10 13 16. Quel nombre complète la grille ?;12;16;11;13
+44162;Grille : ligne 1 = 3 6 9, ligne 2 = 4 7 10, ligne 3 = 5 8 …. Quel nombre complète la grille ?;11;10;12;14
+44163;Grille : ligne 1 = 7 10 13, ligne 2 = 9 12 …, ligne 3 = 11 14 17. Quel nombre complète la grille ?;15;16;17;14
+44164;Grille : ligne 1 = 3 6 9, ligne 2 = 4 7 …, ligne 3 = 5 8 11. Quel nombre complète la grille ?;10;9;11;13
+44165;Grille : ligne 1 = 5 … 9, ligne 2 = 9 11 13, ligne 3 = 13 15 17. Quel nombre complète la grille ?;7;8;11;6
+44166;Grille : ligne 1 = 4 8 …, ligne 2 = 7 11 15, ligne 3 = 10 14 18. Quel nombre complète la grille ?;12;11;13;15
+44167;Grille : ligne 1 = 9 10 11, ligne 2 = 12 13 14, ligne 3 = 15 … 17. Quel nombre complète la grille ?;16;17;19;15
+44168;Grille : ligne 1 = 2 3 4, ligne 2 = 5 6 7, ligne 3 = 8 … 10. Quel nombre complète la grille ?;9;8;10;12
+44169;Grille : ligne 1 = 6 … 10, ligne 2 = 7 9 11, ligne 3 = 8 10 12. Quel nombre complète la grille ?;8;9;10;7
+44170;Grille : ligne 1 = 8 12 16, ligne 2 = 9 13 17, ligne 3 = 10 14 …. Quel nombre complète la grille ?;18;17;19;22
+44171;Grille : ligne 1 = 2 6 10, ligne 2 = … 8 12, ligne 3 = 6 10 14. Quel nombre complète la grille ?;4;3;5;6
+44172;Grille : ligne 1 = 5 9 13, ligne 2 = 7 11 15, ligne 3 = 9 13 …. Quel nombre complète la grille ?;17;16;18;19
+44173;Grille : ligne 1 = 3 … 11, ligne 2 = 4 8 12, ligne 3 = 5 9 13. Quel nombre complète la grille ?;7;8;11;6
+44174;Grille : ligne 1 = 6 8 10, ligne 2 = 7 9 11, ligne 3 = … 10 12. Quel nombre complète la grille ?;8;9;10;7
+44175;Grille : ligne 1 = 7 8 9, ligne 2 = 11 12 13, ligne 3 = … 16 17. Quel nombre complète la grille ?;15;16;19;14
+44176;Grille : ligne 1 = … 6 10, ligne 2 = 5 9 13, ligne 3 = 8 12 16. Quel nombre complète la grille ?;2;1;3;5
+44177;Grille : ligne 1 = 9 10 11, ligne 2 = 11 … 13, ligne 3 = 13 14 15. Quel nombre complète la grille ?;12;11;13;14
+44178;Grille : ligne 1 = 1 5 9, ligne 2 = … 8 12, ligne 3 = 7 11 15. Quel nombre complète la grille ?;4;3;5;7
+44179;Grille : ligne 1 = 3 6 9, ligne 2 = … 8 11, ligne 3 = 7 10 13. Quel nombre complète la grille ?;5;4;6;7
+44180;Grille : ligne 1 = 10 14 18, ligne 2 = 11 … 19, ligne 3 = 12 16 20. Quel nombre complète la grille ?;15;16;19;14
+44181;Grille : ligne 1 = … 6 9, ligne 2 = 4 7 10, ligne 3 = 5 8 11. Quel nombre complète la grille ?;3;2;4;6
+44182;Grille : ligne 1 = … 12 15, ligne 2 = 13 16 19, ligne 3 = 17 20 23. Quel nombre complète la grille ?;9;8;10;13
+44183;Grille : ligne 1 = 10 13 16, ligne 2 = 11 … 17, ligne 3 = 12 15 18. Quel nombre complète la grille ?;14;17;13;15
+44184;Grille : ligne 1 = … 4 5, ligne 2 = 5 6 7, ligne 3 = 7 8 9. Quel nombre complète la grille ?;3;2;4;5
+44185;Grille : ligne 1 = 8 9 10, ligne 2 = 11 … 13, ligne 3 = 14 15 16. Quel nombre complète la grille ?;12;11;13;15
+44186;Grille : ligne 1 = 2 5 …, ligne 2 = 3 6 9, ligne 3 = 4 7 10. Quel nombre complète la grille ?;8;9;11;7
+44187;Grille : ligne 1 = 6 7 …, ligne 2 = 8 9 10, ligne 3 = 10 11 12. Quel nombre complète la grille ?;8;9;10;7
+44188;Grille : ligne 1 = 3 6 9, ligne 2 = 4 … 10, ligne 3 = 5 8 11. Quel nombre complète la grille ?;7;8;10;6
+44189;Grille : ligne 1 = 9 13 17, ligne 2 = 11 15 19, ligne 3 = … 17 21. Quel nombre complète la grille ?;13;12;14;15
+44190;Grille : ligne 1 = 10 11 12, ligne 2 = 13 14 15, ligne 3 = 16 … 18. Quel nombre complète la grille ?;17;16;18;20
+44191;Grille : ligne 1 = 7 9 11, ligne 2 = 10 12 14, ligne 3 = 13 … 17. Quel nombre complète la grille ?;15;16;18;14
+44192;Grille : ligne 1 = 2 5 8, ligne 2 = … 9 12, ligne 3 = 10 13 16. Quel nombre complète la grille ?;6;10;5;7
+44193;Grille : ligne 1 = 1 3 5, ligne 2 = 5 7 9, ligne 3 = 9 11 …. Quel nombre complète la grille ?;13;17;12;14
+44194;Grille : ligne 1 = 4 5 …, ligne 2 = 6 7 8, ligne 3 = 8 9 10. Quel nombre complète la grille ?;6;8;5;7
+44195;Grille : ligne 1 = 10 … 16, ligne 2 = 11 14 17, ligne 3 = 12 15 18. Quel nombre complète la grille ?;13;16;12;14
+44196;Grille : ligne 1 = 9 12 15, ligne 2 = 11 14 …, ligne 3 = 13 16 19. Quel nombre complète la grille ?;17;16;18;19
+44197;Grille : ligne 1 = 8 9 10, ligne 2 = 11 12 13, ligne 3 = … 15 16. Quel nombre complète la grille ?;14;17;13;15
+44198;Grille : ligne 1 = 7 11 15, ligne 2 = 8 12 16, ligne 3 = 9 … 17. Quel nombre complète la grille ?;13;17;12;14
+44199;Grille : ligne 1 = 2 6 10, ligne 2 = … 7 11, ligne 3 = 4 8 12. Quel nombre complète la grille ?;3;2;4;7
+44200;Grille : ligne 1 = 4 … 12, ligne 2 = 7 11 15, ligne 3 = 10 14 18. Quel nombre complète la grille ?;8;9;11;7
+44201;Grille : ligne 1 = 9 12 …, ligne 2 = 10 13 16, ligne 3 = 11 14 17. Quel nombre complète la grille ?;15;16;18;14
+44202;Grille : ligne 1 = 8 9 …, ligne 2 = 11 12 13, ligne 3 = 14 15 16. Quel nombre complète la grille ?;10;9;11;13
+44203;Grille : ligne 1 = 8 … 16, ligne 2 = 10 14 18, ligne 3 = 12 16 20. Quel nombre complète la grille ?;12;11;13;14
+44204;Grille : ligne 1 = 6 7 8, ligne 2 = 10 11 …, ligne 3 = 14 15 16. Quel nombre complète la grille ?;12;16;11;13
+44205;Grille : ligne 1 = 2 4 6, ligne 2 = 6 8 10, ligne 3 = 10 12 …. Quel nombre complète la grille ?;14;18;13;15
+44206;Grille : ligne 1 = 8 10 12, ligne 2 = 9 11 13, ligne 3 = … 12 14. Quel nombre complète la grille ?;10;9;11;12
+44207;Chloé, Camille et Adam ont chacun un instrument différent : la guitare, le piano, la flûte. Chloé joue la guitare. Camille ne joue pas la flûte. Qui joue la flûte ?;Adam;Chloé;Camille;Impossible à savoir
+44208;Emma, Manon et Léo ont chacun un animal différent : chien, chat, poisson. Emma a un chien. Manon n'a pas de poisson. Qui a le poisson ?;Léo;Emma;Manon;Impossible à savoir
+44209;Zoé, Camille et Adam ont chacun un animal différent : chat, poisson, chien. Zoé a un chat. Camille n'a pas de chien. Qui a le chien ?;Adam;Zoé;Camille;Impossible à savoir
+44210;Adam, Lucas et Léo ont chacun un sport différent : la natation, le foot, le tennis. Adam pratique la natation. Lucas ne pratique pas le tennis. Qui pratique le tennis ?;Léo;Adam;Lucas;Impossible à savoir
+44211;Jules, Lucas et Hugo ont chacun une couleur préférée différente : le rouge, le bleu, le vert. Jules aime le rouge. Lucas n'aime pas le vert. Qui aime le vert ?;Hugo;Jules;Lucas;Impossible à savoir
+44212;Jules, Sarah et Léo ont chacun un animal différent : chien, chat, poisson. Jules a un chien. Sarah n'a pas de poisson. Qui a le poisson ?;Léo;Jules;Sarah;Impossible à savoir
+44213;Noah, Camille et Emma ont chacun un instrument différent : la guitare, le piano, la flûte. Noah joue la guitare. Camille ne joue pas la flûte. Qui joue la flûte ?;Emma;Noah;Camille;Impossible à savoir
+44214;Hugo, Lucas et Manon ont chacun un animal différent : chat, chien, poisson. Hugo a un chat. Lucas n'a pas de poisson. Qui a le poisson ?;Manon;Hugo;Lucas;Impossible à savoir
+44215;Hugo, Zoé et Lucas ont chacun un animal différent : chat, poisson, chien. Hugo a un chat. Zoé n'a pas de chien. Qui a le chien ?;Lucas;Hugo;Zoé;Impossible à savoir
+44216;Adam, Hugo et Jules ont chacun un instrument différent : la flûte, la guitare, le piano. Adam joue la flûte. Hugo ne joue pas le piano. Qui joue le piano ?;Jules;Adam;Hugo;Impossible à savoir
+44217;Léo, Zoé et Lucas ont chacun un fruit différent : pomme, banane, poire. Léo a une pomme. Zoé n'a pas de poire. Qui a la poire ?;Lucas;Léo;Zoé;Impossible à savoir
+44218;Jules, Manon et Noah ont chacun un sport différent : la natation, le foot, le tennis. Jules pratique la natation. Manon ne pratique pas le tennis. Qui pratique le tennis ?;Noah;Jules;Manon;Impossible à savoir
+44219;Camille, Chloé et Adam ont chacun une couleur préférée différente : le rouge, le vert, le bleu. Camille aime le rouge. Chloé n'aime pas le bleu. Qui aime le bleu ?;Adam;Camille;Chloé;Impossible à savoir
+44220;Manon, Hugo et Léo ont chacun un fruit différent : banane, poire, pomme. Manon a une banane. Hugo n'a pas de pomme. Qui a la pomme ?;Léo;Manon;Hugo;Impossible à savoir
+44221;Emma, Jules et Adam ont chacun une couleur préférée différente : le bleu, le rouge, le vert. Emma aime le bleu. Jules n'aime pas le vert. Qui aime le vert ?;Adam;Emma;Jules;Impossible à savoir
+44222;Chloé, Camille et Manon ont chacun un sport différent : le foot, le tennis, la natation. Chloé pratique le foot. Camille ne pratique pas la natation. Qui pratique la natation ?;Manon;Chloé;Camille;Impossible à savoir
+44223;Adam, Lucas et Léo ont chacun un animal différent : chien, poisson, chat. Adam a un chien. Lucas n'a pas de chat. Qui a le chat ?;Léo;Adam;Lucas;Impossible à savoir
+44224;Hugo, Chloé et Emma ont chacun une couleur préférée différente : le rouge, le bleu, le vert. Hugo aime le rouge. Chloé n'aime pas le vert. Qui aime le vert ?;Emma;Hugo;Chloé;Impossible à savoir
+44225;Adam, Camille et Hugo ont chacun une couleur préférée différente : le bleu, le rouge, le vert. Adam aime le bleu. Camille n'aime pas le vert. Qui aime le vert ?;Hugo;Adam;Camille;Impossible à savoir
+44226;Emma, Camille et Noah ont chacun un métier rêvé différent : pompier, astronaute, vétérinaire. Emma veut devenir pompier. Camille ne veut pas devenir vétérinaire. Qui veut devenir vétérinaire ?;Noah;Emma;Camille;Impossible à savoir
+44227;Chloé, Manon et Adam ont chacun une couleur préférée différente : le vert, le rouge, le bleu. Chloé aime le vert. Manon n'aime pas le bleu. Qui aime le bleu ?;Adam;Chloé;Manon;Impossible à savoir
+44228;Hugo, Zoé et Emma ont chacun une couleur préférée différente : le vert, le rouge, le bleu. Hugo aime le vert. Zoé n'aime pas le bleu. Qui aime le bleu ?;Emma;Hugo;Zoé;Impossible à savoir
+44229;Sarah, Léo et Noah ont chacun un métier rêvé différent : astronaute, pompier, vétérinaire. Sarah veut devenir astronaute. Léo ne veut pas devenir vétérinaire. Qui veut devenir vétérinaire ?;Noah;Sarah;Léo;Impossible à savoir
+44230;Manon, Sarah et Zoé ont chacun un fruit différent : banane, poire, pomme. Manon a une banane. Sarah n'a pas de pomme. Qui a la pomme ?;Zoé;Manon;Sarah;Impossible à savoir
+44231;Manon, Léo et Emma ont chacun une couleur préférée différente : le bleu, le rouge, le vert. Manon aime le bleu. Léo n'aime pas le vert. Qui aime le vert ?;Emma;Manon;Léo;Impossible à savoir
+44232;Manon, Adam et Noah ont chacun un sport différent : le tennis, la natation, le foot. Manon pratique le tennis. Adam ne pratique pas le foot. Qui pratique le foot ?;Noah;Manon;Adam;Impossible à savoir
+44233;Sarah, Adam et Noah ont chacun un métier rêvé différent : pompier, astronaute, vétérinaire. Sarah veut devenir pompier. Adam ne veut pas devenir vétérinaire. Qui veut devenir vétérinaire ?;Noah;Sarah;Adam;Impossible à savoir
+44234;Noah, Emma et Hugo ont chacun un animal différent : chien, poisson, chat. Noah a un chien. Emma n'a pas de chat. Qui a le chat ?;Hugo;Noah;Emma;Impossible à savoir
+44235;Jules, Léo et Noah ont chacun un instrument différent : le piano, la guitare, la flûte. Jules joue le piano. Léo ne joue pas la flûte. Qui joue la flûte ?;Noah;Jules;Léo;Impossible à savoir
+44236;Sarah, Chloé et Léo ont chacun un fruit différent : banane, poire, pomme. Sarah a une banane. Chloé n'a pas de pomme. Qui a la pomme ?;Léo;Sarah;Chloé;Impossible à savoir
+44237;Emma, Manon et Chloé ont chacun un animal différent : poisson, chat, chien. Emma a un poisson. Manon n'a pas de chien. Qui a le chien ?;Chloé;Emma;Manon;Impossible à savoir
+44238;Emma, Chloé et Zoé ont chacun un animal différent : chat, poisson, chien. Emma a un chat. Chloé n'a pas de chien. Qui a le chien ?;Zoé;Emma;Chloé;Impossible à savoir
+44239;Lucas, Chloé et Adam ont chacun un animal différent : poisson, chien, chat. Lucas a un poisson. Chloé n'a pas de chat. Qui a le chat ?;Adam;Lucas;Chloé;Impossible à savoir
+44240;Jules, Léo et Camille ont chacun un animal différent : chien, chat, poisson. Jules a un chien. Léo n'a pas de poisson. Qui a le poisson ?;Camille;Jules;Léo;Impossible à savoir
+44241;Zoé, Hugo et Lucas ont chacun un animal différent : chat, chien, poisson. Zoé a un chat. Hugo n'a pas de poisson. Qui a le poisson ?;Lucas;Zoé;Hugo;Impossible à savoir
+44242;Emma, Noah et Adam ont chacun un fruit différent : pomme, banane, poire. Emma a une pomme. Noah n'a pas de poire. Qui a la poire ?;Adam;Emma;Noah;Impossible à savoir
+44243;Chloé, Adam et Léo ont chacun un sport différent : le foot, la natation, le tennis. Chloé pratique le foot. Adam ne pratique pas le tennis. Qui pratique le tennis ?;Léo;Chloé;Adam;Impossible à savoir
+44244;Jules, Noah et Hugo ont chacun une couleur préférée différente : le vert, le rouge, le bleu. Jules aime le vert. Noah n'aime pas le bleu. Qui aime le bleu ?;Hugo;Jules;Noah;Impossible à savoir
+44245;Chloé, Emma et Zoé ont chacun un fruit différent : banane, pomme, poire. Chloé a une banane. Emma n'a pas de poire. Qui a la poire ?;Zoé;Chloé;Emma;Impossible à savoir
+44246;Chloé, Zoé et Emma ont chacun un instrument différent : le piano, la guitare, la flûte. Chloé joue le piano. Zoé ne joue pas la flûte. Qui joue la flûte ?;Emma;Chloé;Zoé;Impossible à savoir
+44247;Hugo, Emma et Adam ont chacun un fruit différent : pomme, banane, poire. Hugo a une pomme. Emma n'a pas de poire. Qui a la poire ?;Adam;Hugo;Emma;Impossible à savoir
+44248;Hugo, Camille et Léo ont chacun un métier rêvé différent : astronaute, pompier, vétérinaire. Hugo veut devenir astronaute. Camille ne veut pas devenir vétérinaire. Qui veut devenir vétérinaire ?;Léo;Hugo;Camille;Impossible à savoir
+44249;Lucas, Noah et Sarah ont chacun un métier rêvé différent : astronaute, pompier, vétérinaire. Lucas veut devenir astronaute. Noah ne veut pas devenir vétérinaire. Qui veut devenir vétérinaire ?;Sarah;Lucas;Noah;Impossible à savoir
+44250;Lucas, Manon et Sarah ont chacun un sport différent : le tennis, la natation, le foot. Lucas pratique le tennis. Manon ne pratique pas le foot. Qui pratique le foot ?;Sarah;Lucas;Manon;Impossible à savoir
+44251;Camille, Adam et Noah ont chacun un sport différent : le tennis, le foot, la natation. Camille pratique le tennis. Adam ne pratique pas la natation. Qui pratique la natation ?;Noah;Camille;Adam;Impossible à savoir
+44252;Zoé, Emma et Hugo ont chacun une couleur préférée différente : le vert, le bleu, le rouge. Zoé aime le vert. Emma n'aime pas le rouge. Qui aime le rouge ?;Hugo;Zoé;Emma;Impossible à savoir
+44253;Manon, Emma et Noah ont chacun un sport différent : la natation, le foot, le tennis. Manon pratique la natation. Emma ne pratique pas le tennis. Qui pratique le tennis ?;Noah;Manon;Emma;Impossible à savoir
+44254;Emma, Hugo et Lucas ont chacun un instrument différent : la flûte, la guitare, le piano. Emma joue la flûte. Hugo ne joue pas le piano. Qui joue le piano ?;Lucas;Emma;Hugo;Impossible à savoir
+44255;Adam, Lucas et Manon ont chacun une couleur préférée différente : le vert, le rouge, le bleu. Adam aime le vert. Lucas n'aime pas le bleu. Qui aime le bleu ?;Manon;Adam;Lucas;Impossible à savoir
+44256;Camille, Jules et Zoé ont chacun un métier rêvé différent : pompier, astronaute, vétérinaire. Camille veut devenir pompier. Jules ne veut pas devenir vétérinaire. Qui veut devenir vétérinaire ?;Zoé;Camille;Jules;Impossible à savoir
+44257;Sarah, Camille et Léo ont chacun une couleur préférée différente : le bleu, le rouge, le vert. Sarah aime le bleu. Camille n'aime pas le vert. Qui aime le vert ?;Léo;Sarah;Camille;Impossible à savoir
+44258;Noah, Zoé et Chloé ont chacun une couleur préférée différente : le rouge, le bleu, le vert. Noah aime le rouge. Zoé n'aime pas le vert. Qui aime le vert ?;Chloé;Noah;Zoé;Impossible à savoir
+44259;Zoé, Manon et Noah ont chacun une couleur préférée différente : le rouge, le bleu, le vert. Zoé aime le rouge. Manon n'aime pas le vert. Qui aime le vert ?;Noah;Zoé;Manon;Impossible à savoir
+44260;Camille, Noah et Zoé ont chacun un métier rêvé différent : vétérinaire, astronaute, pompier. Camille veut devenir vétérinaire. Noah ne veut pas devenir pompier. Qui veut devenir pompier ?;Zoé;Camille;Noah;Impossible à savoir
+44261;Lucas, Noah et Hugo ont chacun un métier rêvé différent : pompier, astronaute, vétérinaire. Lucas veut devenir pompier. Noah ne veut pas devenir vétérinaire. Qui veut devenir vétérinaire ?;Hugo;Lucas;Noah;Impossible à savoir
+44262;Camille, Lucas et Emma ont chacun un sport différent : le tennis, la natation, le foot. Camille pratique le tennis. Lucas ne pratique pas le foot. Qui pratique le foot ?;Emma;Camille;Lucas;Impossible à savoir
+44263;Sarah, Léo et Noah ont chacun un fruit différent : poire, banane, pomme. Sarah a une poire. Léo n'a pas de pomme. Qui a la pomme ?;Noah;Sarah;Léo;Impossible à savoir
+44264;Lucas, Noah et Chloé ont chacun un animal différent : chien, chat, poisson. Lucas a un chien. Noah n'a pas de poisson. Qui a le poisson ?;Chloé;Lucas;Noah;Impossible à savoir
+44265;Hugo, Sarah et Zoé ont chacun une couleur préférée différente : le rouge, le bleu, le vert. Hugo aime le rouge. Sarah n'aime pas le vert. Qui aime le vert ?;Zoé;Hugo;Sarah;Impossible à savoir
+44266;Zoé, Hugo et Emma ont chacun une couleur préférée différente : le rouge, le bleu, le vert. Zoé aime le rouge. Hugo n'aime pas le vert. Qui aime le vert ?;Emma;Zoé;Hugo;Impossible à savoir
+44267;Quel nombre vient après ? 3, 25, 4, 23, 5, …;21;19;20;22
+44268;Quel nombre vient après ? 2, 15, 5, 12, 8, …;9;8;10;12
+44269;Quel nombre vient après ? 1, 17, 3, 16, 5, …;15;16;17;14
+44270;Quel nombre vient après ? 2, 17, 3, 15, 4, …;13;11;12;14
+44271;Quel nombre vient après ? 6, 16, 8, 13, 10, …;10;9;11;12
+44272;Quel nombre vient après ? 3, 25, 4, 24, 5, …;23;24;25;22
+44273;Quel nombre vient après ? 4, 23, 6, 21, 8, …;19;18;20;21
+44274;Quel nombre vient après ? 6, 17, 8, 16, 10, …;15;16;17;14
+44275;Quel nombre vient après ? 1, 18, 3, 17, 5, …;16;17;18;15
+44276;Quel nombre vient après ? 5, 19, 7, 16, 9, …;13;12;14;15
+44277;Quel nombre vient après ? 1, 23, 2, 21, 3, …;19;17;18;20
+44278;Quel nombre vient après ? 5, 20, 6, 18, 7, …;16;17;14;15
+44279;Quel nombre vient après ? 1, 17, 3, 14, 5, …;11;10;12;13
+44280;Quel nombre vient après ? 2, 17, 5, 14, 8, …;11;10;12;14
+44281;Quel nombre vient après ? 4, 18, 5, 15, 6, …;12;9;11;13
+44282;Quel nombre vient après ? 5, 22, 7, 21, 9, …;20;19;21;22
+44283;Quel nombre vient après ? 6, 21, 7, 18, 8, …;15;16;12;14
+44284;Quel nombre vient après ? 4, 21, 7, 18, 10, …;15;16;18;14
+44285;Quel nombre vient après ? 5, 25, 8, 24, 11, …;23;24;26;22
+44286;Quel nombre vient après ? 4, 16, 5, 14, 6, …;12;10;11;13
+44287;Quel nombre vient après ? 1, 20, 3, 19, 5, …;18;17;19;20
+44288;Quel nombre vient après ? 1, 22, 4, 21, 7, …;20;19;21;23
+44289;Quel nombre vient après ? 2, 22, 5, 20, 8, …;18;17;19;21
+44290;Quel nombre vient après ? 2, 16, 3, 15, 4, …;14;16;13;15
+44291;Quel nombre vient après ? 1, 24, 4, 21, 7, …;18;17;19;21
+44292;Quel nombre vient après ? 5, 16, 8, 14, 11, …;12;11;13;15
+44293;Quel nombre vient après ? 1, 15, 2, 12, 3, …;9;8;10;6
+44294;Quel nombre vient après ? 1, 17, 4, 15, 7, …;13;16;12;14
+44295;Quel nombre vient après ? 6, 15, 7, 13, 8, …;11;9;10;12
+44296;Quel nombre vient après ? 2, 24, 5, 23, 8, …;22;25;21;23
+44297;Quel nombre vient après ? 5, 23, 8, 21, 11, …;19;18;20;22
+44298;Quel nombre vient après ? 4, 17, 5, 15, 6, …;13;11;12;14
+44299;Quel nombre vient après ? 6, 19, 8, 16, 10, …;13;12;14;15
+44300;Quel nombre vient après ? 1, 23, 3, 22, 5, …;21;20;22;23
+44301;Quel nombre vient après ? 2, 17, 5, 15, 8, …;13;16;12;14
+44302;Quel nombre vient après ? 1, 15, 3, 12, 5, …;9;8;10;11
+44303;Quel nombre vient après ? 4, 24, 6, 23, 8, …;22;24;21;23
+44304;Quel nombre vient après ? 3, 18, 5, 16, 7, …;14;16;13;15
+44305;Quel nombre vient après ? 6, 23, 9, 20, 12, …;17;16;18;20
+44306;Quel nombre vient après ? 2, 20, 3, 17, 4, …;14;11;13;15
+44307;Quel nombre vient après ? 3, 19, 4, 18, 5, …;17;16;18;19
+44308;Quel nombre vient après ? 3, 16, 6, 13, 9, …;10;9;11;13
+44309;Quel nombre vient après ? 6, 24, 7, 22, 8, …;20;18;19;21
+44310;Quel nombre vient après ? 3, 22, 5, 19, 7, …;16;17;18;15
+44311;Quel nombre vient après ? 4, 15, 6, 13, 8, …;11;10;12;13
+44312;Quel nombre vient après ? 4, 22, 6, 21, 8, …;20;19;21;22
+44313;Quel nombre vient après ? 2, 23, 3, 22, 4, …;21;20;22;23
+44314;Quel nombre vient après ? 3, 24, 6, 22, 9, …;20;19;21;23
+44315;Quel nombre vient après ? 5, 17, 8, 16, 11, …;15;16;18;14
+44316;Quel nombre vient après ? 4, 21, 5, 18, 6, …;15;16;12;14
+44317;Sur une île, Léa dit toujours la vérité et Tom ment toujours. Une personne dit 'Le magasin est ouvert', mais ce n'est pas le cas. Qui a parlé ?;Tom;Léa;Les deux;Aucun des deux
+44318;Sur une île, Bo dit toujours la vérité et Sam ment toujours. Une personne dit 'La fenêtre est fermée', et c'est le cas. Qui a parlé ?;Bo;Sam;Les deux;Aucun des deux
+44319;Sur une île, Kim dit toujours la vérité et Ana ment toujours. Une personne dit 'Le sac est plein', et c'est le cas. Qui a parlé ?;Kim;Ana;Les deux;Aucun des deux
+44320;Sur une île, Kim dit toujours la vérité et Ana ment toujours. Une personne dit 'Le feu est rouge', mais ce n'est pas le cas. Qui a parlé ?;Ana;Kim;Les deux;Aucun des deux
+44321;Sur une île, Bo dit toujours la vérité et Léa ment toujours. Une personne dit 'Le feu est rouge', mais ce n'est pas le cas. Qui a parlé ?;Léa;Bo;Les deux;Aucun des deux
+44322;Sur une île, Bo dit toujours la vérité et Ana ment toujours. Une personne dit 'La lumière est allumée', et c'est le cas. Qui a parlé ?;Bo;Ana;Les deux;Aucun des deux
+44323;Sur une île, Léa dit toujours la vérité et Sam ment toujours. Une personne dit 'Il fait froid', mais ce n'est pas le cas. Qui a parlé ?;Sam;Léa;Les deux;Aucun des deux
+44324;Sur une île, Léa dit toujours la vérité et Sam ment toujours. Une personne dit 'Il fait nuit', mais ce n'est pas le cas. Qui a parlé ?;Sam;Léa;Les deux;Aucun des deux
+44325;Sur une île, Bo dit toujours la vérité et Tom ment toujours. Une personne dit 'Il pleut', mais ce n'est pas le cas. Qui a parlé ?;Tom;Bo;Les deux;Aucun des deux
+44326;Sur une île, Bo dit toujours la vérité et Ana ment toujours. Une personne dit 'La fenêtre est fermée', mais ce n'est pas le cas. Qui a parlé ?;Ana;Bo;Les deux;Aucun des deux
+44327;Sur une île, Léa dit toujours la vérité et Tom ment toujours. Une personne dit 'La fenêtre est fermée', mais ce n'est pas le cas. Qui a parlé ?;Tom;Léa;Les deux;Aucun des deux
+44328;Sur une île, Sam dit toujours la vérité et Tom ment toujours. Une personne dit 'Le magasin est ouvert', mais ce n'est pas le cas. Qui a parlé ?;Tom;Sam;Les deux;Aucun des deux
+44329;Sur une île, Ana dit toujours la vérité et Tom ment toujours. Une personne dit 'La porte est ouverte', mais ce n'est pas le cas. Qui a parlé ?;Tom;Ana;Les deux;Aucun des deux
+44330;Sur une île, Sam dit toujours la vérité et Bo ment toujours. Une personne dit 'Il pleut', mais ce n'est pas le cas. Qui a parlé ?;Bo;Sam;Les deux;Aucun des deux
+44331;Sur une île, Tom dit toujours la vérité et Bo ment toujours. Une personne dit 'Le magasin est ouvert', et c'est le cas. Qui a parlé ?;Tom;Bo;Les deux;Aucun des deux
+44332;Sur une île, Ana dit toujours la vérité et Kim ment toujours. Une personne dit 'Le sac est plein', mais ce n'est pas le cas. Qui a parlé ?;Kim;Ana;Les deux;Aucun des deux
+44333;Sur une île, Sam dit toujours la vérité et Ana ment toujours. Une personne dit 'La lumière est allumée', mais ce n'est pas le cas. Qui a parlé ?;Ana;Sam;Les deux;Aucun des deux
+44334;Sur une île, Ana dit toujours la vérité et Sam ment toujours. Une personne dit 'Le magasin est ouvert', et c'est le cas. Qui a parlé ?;Ana;Sam;Les deux;Aucun des deux
+44335;Sur une île, Bo dit toujours la vérité et Tom ment toujours. Une personne dit 'La lumière est allumée', et c'est le cas. Qui a parlé ?;Bo;Tom;Les deux;Aucun des deux
+44336;Sur une île, Léa dit toujours la vérité et Bo ment toujours. Une personne dit 'La fenêtre est fermée', mais ce n'est pas le cas. Qui a parlé ?;Bo;Léa;Les deux;Aucun des deux
+44337;Sur une île, Sam dit toujours la vérité et Bo ment toujours. Une personne dit 'Le chat dort', mais ce n'est pas le cas. Qui a parlé ?;Bo;Sam;Les deux;Aucun des deux
+44338;Sur une île, Sam dit toujours la vérité et Tom ment toujours. Une personne dit 'La porte est ouverte', et c'est le cas. Qui a parlé ?;Sam;Tom;Les deux;Aucun des deux
+44339;Sur une île, Léa dit toujours la vérité et Kim ment toujours. Une personne dit 'La porte est ouverte', mais ce n'est pas le cas. Qui a parlé ?;Kim;Léa;Les deux;Aucun des deux
+44340;Sur une île, Bo dit toujours la vérité et Tom ment toujours. Une personne dit 'La porte est ouverte', mais ce n'est pas le cas. Qui a parlé ?;Tom;Bo;Les deux;Aucun des deux
+44341;Sur une île, Bo dit toujours la vérité et Ana ment toujours. Une personne dit 'Il pleut', et c'est le cas. Qui a parlé ?;Bo;Ana;Les deux;Aucun des deux
+44342;Sur une île, Léa dit toujours la vérité et Kim ment toujours. Une personne dit 'La lumière est allumée', mais ce n'est pas le cas. Qui a parlé ?;Kim;Léa;Les deux;Aucun des deux
+44343;Sur une île, Léa dit toujours la vérité et Ana ment toujours. Une personne dit 'Il pleut', et c'est le cas. Qui a parlé ?;Léa;Ana;Les deux;Aucun des deux
+44344;Sur une île, Sam dit toujours la vérité et Bo ment toujours. Une personne dit 'Il fait froid', et c'est le cas. Qui a parlé ?;Sam;Bo;Les deux;Aucun des deux
+44345;Sur une île, Bo dit toujours la vérité et Ana ment toujours. Une personne dit 'Il fait froid', mais ce n'est pas le cas. Qui a parlé ?;Ana;Bo;Les deux;Aucun des deux
+44346;Sur une île, Léa dit toujours la vérité et Bo ment toujours. Une personne dit 'La lumière est allumée', et c'est le cas. Qui a parlé ?;Léa;Bo;Les deux;Aucun des deux
+44347;Sur une île, Bo dit toujours la vérité et Ana ment toujours. Une personne dit 'Le magasin est ouvert', mais ce n'est pas le cas. Qui a parlé ?;Ana;Bo;Les deux;Aucun des deux
+44348;Sur une île, Ana dit toujours la vérité et Sam ment toujours. Une personne dit 'Le chat dort', et c'est le cas. Qui a parlé ?;Ana;Sam;Les deux;Aucun des deux
+44349;Sur une île, Sam dit toujours la vérité et Tom ment toujours. Une personne dit 'Le feu est rouge', et c'est le cas. Qui a parlé ?;Sam;Tom;Les deux;Aucun des deux
+44350;Sur une île, Sam dit toujours la vérité et Ana ment toujours. Une personne dit 'Le magasin est ouvert', et c'est le cas. Qui a parlé ?;Sam;Ana;Les deux;Aucun des deux
+44351;Sur une île, Sam dit toujours la vérité et Léa ment toujours. Une personne dit 'Il fait nuit', et c'est le cas. Qui a parlé ?;Sam;Léa;Les deux;Aucun des deux
+44352;Sur une île, Kim dit toujours la vérité et Tom ment toujours. Une personne dit 'Il pleut', et c'est le cas. Qui a parlé ?;Kim;Tom;Les deux;Aucun des deux
+44353;Sur une île, Kim dit toujours la vérité et Bo ment toujours. Une personne dit 'Le chat dort', mais ce n'est pas le cas. Qui a parlé ?;Bo;Kim;Les deux;Aucun des deux
+44354;Sur une île, Sam dit toujours la vérité et Léa ment toujours. Une personne dit 'Le chat dort', et c'est le cas. Qui a parlé ?;Sam;Léa;Les deux;Aucun des deux
+44355;Sur une île, Léa dit toujours la vérité et Bo ment toujours. Une personne dit 'Le feu est rouge', mais ce n'est pas le cas. Qui a parlé ?;Bo;Léa;Les deux;Aucun des deux
+44356;Sur une île, Ana dit toujours la vérité et Sam ment toujours. Une personne dit 'La porte est ouverte', mais ce n'est pas le cas. Qui a parlé ?;Sam;Ana;Les deux;Aucun des deux
+44357;Le jeu est à jouer ce que le feu est…;à éteindre;à manger;à porter;à prendre
+44358;La lettre est à envoyer ce que le livre est…;à lire;à offrir;à regarder;à assembler
+44359;Le pain est à manger ce que la voiture est…;à conduire;à éteindre;à lire;à planter
+44360;La graine est à planter ce que le feu est…;à éteindre;à planter;à chanter;à assembler
+44361;Le feu est à éteindre ce que le jeu est…;à jouer;à manger;à chanter;à planter
+44362;Le linge est à laver ce que l'eau est…;à boire;à assembler;à laver;à écrire
+44363;Le stylo est à écrire ce que le feu est…;à éteindre;à chanter;à écouter;à lire
+44364;Le ballon est à lancer ce que le stylo est…;à écrire;à écouter;à offrir;à boire
+44365;Le film est à regarder ce que la valise est…;à porter;à conduire;à lancer;à ouvrir
+44366;Le stylo est à écrire ce que le film est…;à regarder;à lancer;à boire;à ouvrir
+44367;Le puzzle est à assembler ce que la chanson est…;à chanter;à écouter;à manger;à ouvrir
+44368;Le cadeau est à offrir ce que la chanson est…;à chanter;à lancer;à regarder;à manger
+44369;La valise est à porter ce que la photo est…;à prendre;à écouter;à laver;à regarder
+44370;Le film est à regarder ce que le jeu est…;à jouer;à pédaler;à éteindre;à écouter
+44371;La musique est à écouter ce que la photo est…;à prendre;à offrir;à chanter;à envoyer
+44372;Le ballon est à lancer ce que le puzzle est…;à assembler;à ouvrir;à porter;à pédaler
+44373;Le jeu est à jouer ce que la voiture est…;à conduire;à ouvrir;à boire;à lancer
+44374;La chanson est à chanter ce que la valise est…;à porter;à laver;à chanter;à éteindre
+44375;Le stylo est à écrire ce que le puzzle est…;à assembler;à regarder;à envoyer;à pédaler
+44376;Le pain est à manger ce que la lettre est…;à envoyer;à regarder;à chanter;à porter
+44377;Le puzzle est à assembler ce que le feu est…;à éteindre;à ouvrir;à laver;à porter
+44378;Le feu est à éteindre ce que le cadeau est…;à offrir;à jouer;à chanter;à envoyer
+44379;La voiture est à conduire ce que le stylo est…;à écrire;à chanter;à prendre;à porter
+44380;La musique est à écouter ce que le pain est…;à manger;à laver;à conduire;à ouvrir
+44381;La porte est à ouvrir ce que le vélo est…;à pédaler;à laver;à planter;à éteindre
+44382;La musique est à écouter ce que l'eau est…;à boire;à regarder;à ouvrir;à jouer
+44383;La chanson est à chanter ce que le pain est…;à manger;à écouter;à jouer;à lire
+44384;Le livre est à lire ce que le film est…;à regarder;à envoyer;à planter;à porter
+44385;La voiture est à conduire ce que le film est…;à regarder;à conduire;à lancer;à assembler
+44386;La voiture est à conduire ce que le jeu est…;à jouer;à regarder;à porter;à planter
+44387;Le puzzle est à assembler ce que le vélo est…;à pédaler;à conduire;à assembler;à porter
+44388;La voiture est à conduire ce que le vélo est…;à pédaler;à regarder;à conduire;à assembler
+44389;Le feu est à éteindre ce que le ballon est…;à lancer;à écrire;à offrir;à ouvrir
+44390;Le puzzle est à assembler ce que le jeu est…;à jouer;à éteindre;à écrire;à planter
+44391;Le pain est à manger ce que le puzzle est…;à assembler;à chanter;à jouer;à lire
+44392;Le vélo est à pédaler ce que le puzzle est…;à assembler;à envoyer;à éteindre;à porter
+44393;La lettre est à envoyer ce que le vélo est…;à pédaler;à écouter;à regarder;à prendre
+44394;Le linge est à laver ce que la porte est…;à ouvrir;à prendre;à envoyer;à éteindre
+44395;Le pain est à manger ce que le feu est…;à éteindre;à ouvrir;à porter;à écouter
+44396;Le ballon est à lancer ce que le film est…;à regarder;à ouvrir;à éteindre;à boire
+44397;Quel nombre vient après ? 4, 7, 13, 25, …;49;48;50;51
+44398;Quel nombre vient après ? 2, 7, 17, 37, …;77;80;76;78
+44399;Quel nombre vient après ? 1, 6, 16, 36, …;76;80;75;77
+44400;Quel nombre vient après ? 1, 4, 13, 40, …;121;120;122;123
+44401;Quel nombre vient après ? 5, 14, 41, 122, …;365;364;366;367
+44402;Quel nombre vient après ? 1, 4, 10, 22, …;46;48;45;47
+44403;Quel nombre vient après ? 1, 5, 17, 53, …;161;160;162;163
+44404;Quel nombre vient après ? 1, 7, 25, 79, …;241;240;242;245
+44405;Quel nombre vient après ? 4, 17, 56, 173, …;524;529;523;525
+44406;Quel nombre vient après ? 5, 18, 57, 174, …;525;528;524;526
+44407;Quel nombre vient après ? 5, 8, 14, 26, …;50;48;49;51
+44408;Quel nombre vient après ? 5, 13, 29, 61, …;125;128;124;126
+44409;Quel nombre vient après ? 4, 10, 22, 46, …;94;96;93;95
+44410;Quel nombre vient après ? 5, 12, 26, 54, …;110;112;109;111
+44411;Quel nombre vient après ? 3, 7, 15, 31, …;63;64;65;62
+44412;Quel nombre vient après ? 1, 6, 21, 66, …;201;200;202;204
+44413;Quel nombre vient après ? 4, 10, 28, 82, …;244;242;243;245
+44414;Quel nombre vient après ? 4, 6, 10, 18, …;34;32;33;35
+44415;Quel nombre vient après ? 3, 14, 47, 146, …;443;448;442;444
+44416;Quel nombre vient après ? 1, 5, 13, 29, …;61;64;60;62
+44417;Quel nombre vient après ? 3, 11, 35, 107, …;323;322;324;325
+44418;Quel nombre vient après ? 4, 5, 7, 11, …;19;16;18;20
+44419;Quel nombre vient après ? 5, 16, 49, 148, …;445;444;446;447
+44420;Quel nombre vient après ? 4, 12, 28, 60, …;124;128;123;125
+44421;Quel nombre vient après ? 1, 2, 5, 14, …;41;40;42;43
+44422;Quel nombre vient après ? 5, 13, 37, 109, …;325;323;324;326
+44423;Quel nombre vient après ? 5, 14, 32, 68, …;140;144;139;141
+44424;Quel nombre vient après ? 4, 11, 25, 53, …;109;112;108;110
+44425;Quel nombre vient après ? 2, 10, 34, 106, …;322;321;323;326
+44426;Quel nombre vient après ? 3, 9, 21, 45, …;93;96;92;94
+44427;Quel nombre vient après ? 2, 3, 6, 15, …;42;41;43;39
+44428;Quel nombre vient après ? 4, 9, 24, 69, …;204;201;203;205
+44429;Quel nombre vient après ? 3, 5, 9, 17, …;33;32;34;35
+44430;Quel nombre vient après ? 4, 14, 44, 134, …;404;403;405;406
+44431;Quel nombre vient après ? 2, 4, 10, 28, …;82;80;81;83
+44432;Quel nombre vient après ? 5, 11, 23, 47, …;95;96;97;94
+44433;Quel nombre vient après ? 2, 8, 20, 44, …;92;96;91;93
+44434;Quel nombre vient après ? 5, 17, 53, 161, …;485;484;486;487
+44435;Quel nombre vient après ? 3, 8, 23, 68, …;203;202;204;205
+44436;Quel nombre vient après ? 4, 9, 19, 39, …;79;80;81;78
+44437;Quel nombre vient après ? 2, 7, 22, 67, …;202;201;203;204
+44438;Quel nombre vient après ? 3, 12, 39, 120, …;363;362;364;366
+44439;Quel nombre vient après ? 3, 8, 18, 38, …;78;80;77;79
+44440;Quel nombre vient après ? 5, 19, 61, 187, …;565;569;564;566
+44441;Quel nombre vient après ? 5, 15, 35, 75, …;155;160;154;156
+44442;Quel nombre vient après ? 5, 20, 65, 200, …;605;610;604;606
+44443;Quel nombre vient après ? 1, 7, 19, 43, …;91;96;90;92
+44444;Quel nombre vient après ? 4, 11, 32, 95, …;284;283;285;286
+44445;Quel nombre vient après ? 3, 10, 24, 52, …;108;112;107;109
+44446;Quel nombre vient après ? 4, 13, 40, 121, …;364;363;365;366
+44447;Combien de façons différentes peut-on ranger 4 objets différents côte à côte sur une étagère ?;24;16;28;6
+44448;Avec 8 amis, combien de paires différentes peut-on former ?;28;56;8;27
+44449;Combien de façons différentes peut-on ranger 5 objets différents côte à côte sur une étagère ?;120;24;25;125
+44450;Avec 4 amis, combien de paires différentes peut-on former ?;6;4;12;5
+44451;Avec 9 amis, combien de paires différentes peut-on former ?;36;72;9;35
+44452;Avec 6 amis, combien de paires différentes peut-on former ?;15;16;6;30
+44453;Avec 7 amis, combien de paires différentes peut-on former ?;21;42;20;22
+44454;Combien de façons différentes peut-on ranger 6 objets différents côte à côte sur une étagère ?;720;120;36;726
+44455;Avec 5 amis, combien de paires différentes peut-on former ?;10;9;11;20
+44456;Avec un décalage de +6 où A devient G, B devient H, etc., comment écrit-on 'LIVRE' ?;ROBXK;SPCYL;QNAWJ;KXBOR
+44457;Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on 'PIERRE' ?;RKGTTG;SLHUUH;QJFSSF;GTTGKR
+44458;Avec un décalage de +4 où A devient E, B devient F, etc., comment écrit-on 'SABLE' ?;WEFPI;XFGQJ;VDEOH;IPFEW
+44459;Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on 'CHIEN' ?;FKLHQ;GLMIR;EJKGP;QHLKF
+44460;Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on 'SABLE' ?;VDEOH;WEFPI;UCDNG;HOEDV
+44461;Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on 'VELO' ?;XGNQ;YHOR;WFMP;QNGX
+44462;Avec un décalage de +7 où A devient H, B devient I, etc., comment écrit-on 'ARBRE' ?;HYIYL;IZJZM;GXHXK;LYIYH
+44463;Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on 'PLAGE' ?;QMBHF;RNCIG;SODJH;FHBMQ
+44464;Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on 'FORET' ?;IRUHW;JSVIX;HQTGV;WHURI
+44465;Avec un décalage de +7 où A devient H, B devient I, etc., comment écrit-on 'JARDIN' ?;QHYKPU;RIZLQV;PGXJOT;UPKYHQ
+44466;Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on 'SABLE' ?;TBCMF;UCDNG;VDEOH;FMCBT
+44467;Avec un décalage de +8 où A devient I, B devient J, etc., comment écrit-on 'MONTAGNE' ?;UWVBIOVM;VXWCJPWN;TVUAHNUL;MVOIBVWU
+44468;Avec un décalage de +4 où A devient E, B devient F, etc., comment écrit-on 'SOLEIL' ?;WSPIMP;XTQJNQ;VROHLO;PMIPSW
+44469;Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on 'POISSON' ?;SRLVVRQ;TSMWWSR;RQKUUQP;QRVVLRS
+44470;Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on 'BATEAU' ?;EDWHDX;FEXIEY;DCVGCW;XDHWDE
+44471;Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on 'PORTE' ?;RQTVG;SRUWH;QPSUF;GVTQR
+44472;Avec un décalage de +6 où A devient G, B devient H, etc., comment écrit-on 'JARDIN' ?;PGXJOT;QHYKPU;OFWINS;TOJXGP
+44473;Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on 'ARBRE' ?;CTDTG;DUEUH;BSCSF;GTDTC
+44474;Avec un décalage de +8 où A devient I, B devient J, etc., comment écrit-on 'FORET' ?;NWZMB;OXANC;MVYLA;BMZWN
+44475;Avec un décalage de +4 où A devient E, B devient F, etc., comment écrit-on 'MAISON' ?;QEMWSR;RFNXTS;PDLVRQ;RSWMEQ
+44476;Avec un décalage de +5 où A devient F, B devient G, etc., comment écrit-on 'CHAT' ?;HMFY;INGZ;GLEX;YFMH
+44477;Avec un décalage de +5 où A devient F, B devient G, etc., comment écrit-on 'ROUTE' ?;WTZYJ;XUAZK;VSYXI;JYZTW
+44478;Avec un décalage de +7 où A devient H, B devient I, etc., comment écrit-on 'MAISON' ?;THPZVU;UIQAWV;SGOYUT;UVZPHT
+44479;Avec un décalage de +8 où A devient I, B devient J, etc., comment écrit-on 'POISSON' ?;XWQAAWV;YXRBBXW;WVPZZVU;VWAAQWX
+44480;Avec un décalage de +7 où A devient H, B devient I, etc., comment écrit-on 'FLEUR' ?;MSLBY;NTMCZ;LRKAX;YBLSM
+44481;Avec un décalage de +7 où A devient H, B devient I, etc., comment écrit-on 'PORTE' ?;WVYAL;XWZBM;VUXZK;LAYVW
+44482;Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on 'LIVRE' ?;MJWSF;NKXTG;OLYUH;FSWJM
+44483;Avec un décalage de +6 où A devient G, B devient H, etc., comment écrit-on 'SABLE' ?;YGHRK;ZHISL;XFGQJ;KRHGY
+44484;Avec un décalage de +7 où A devient H, B devient I, etc., comment écrit-on 'CHIEN' ?;JOPLU;KPQMV;INOKT;ULPOJ
+44485;Avec un décalage de +5 où A devient F, B devient G, etc., comment écrit-on 'OISEAU' ?;TNXJFZ;UOYKGA;SMWIEY;ZFJXNT
+44486;Grille : ligne 1 = 8 … 12, ligne 2 = 11 13 15, ligne 3 = 14 16 18. Quel nombre complète la grille ?;10;9;11;13
+44487;Grille : ligne 1 = 6 9 12, ligne 2 = 7 10 …, ligne 3 = 8 11 14. Quel nombre complète la grille ?;13;16;12;14
+44488;Grille : ligne 1 = 8 12 16, ligne 2 = 9 13 17, ligne 3 = 10 … 18. Quel nombre complète la grille ?;14;18;13;15
+44489;Grille : ligne 1 = 4 6 8, ligne 2 = … 10 12, ligne 3 = 12 14 16. Quel nombre complète la grille ?;8;9;12;7
+44490;Grille : ligne 1 = 3 4 5, ligne 2 = 6 7 …, ligne 3 = 9 10 11. Quel nombre complète la grille ?;8;9;11;7
+44491;Grille : ligne 1 = 2 5 8, ligne 2 = 4 … 10, ligne 3 = 6 9 12. Quel nombre complète la grille ?;7;8;9;6
+44492;Grille : ligne 1 = 4 7 10, ligne 2 = 5 … 11, ligne 3 = 6 9 12. Quel nombre complète la grille ?;8;9;11;7
+44493;Grille : ligne 1 = 9 11 13, ligne 2 = 10 12 14, ligne 3 = … 13 15. Quel nombre complète la grille ?;11;10;12;13
+44494;Grille : ligne 1 = 8 11 14, ligne 2 = 10 13 16, ligne 3 = 12 … 18. Quel nombre complète la grille ?;15;16;17;14
+44495;Grille : ligne 1 = 6 8 10, ligne 2 = 7 9 11, ligne 3 = 8 … 12. Quel nombre complète la grille ?;10;9;11;12
+44496;Grille : ligne 1 = 9 12 15, ligne 2 = 13 16 …, ligne 3 = 17 20 23. Quel nombre complète la grille ?;19;18;20;23
+44497;Grille : ligne 1 = 2 4 6, ligne 2 = 5 … 9, ligne 3 = 8 10 12. Quel nombre complète la grille ?;7;8;10;6
+44498;Grille : ligne 1 = 6 10 14, ligne 2 = … 11 15, ligne 3 = 8 12 16. Quel nombre complète la grille ?;7;8;11;6
+44499;Grille : ligne 1 = 3 4 5, ligne 2 = … 7 8, ligne 3 = 9 10 11. Quel nombre complète la grille ?;6;9;5;7

@@ -1,9 +1,11 @@
 [gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://d1ak0pv3j06gc"]
 
-[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_mmofx"]
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/classe2.0/pets/91.webp" id="2_texture"]
 
 [resource]
-script = ExtResource("1_mmofx")
+script = ExtResource("1_script")
 id = &"91"
 category = &"dauphin"
-display_name = "Dauphin océanique"
+display_name = "Marin"
+texture = ExtResource("2_texture")

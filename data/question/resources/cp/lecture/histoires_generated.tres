@@ -6,14 +6,14 @@
 
 [sub_resource type="Resource" id="Resource_e02mq"]
 script = ExtResource("2_lihs0")
-text = "Léa est à la plage. Elle est avec son papa. Elle prend un seau bleu. Elle prend une pelle rouge. Elle creuse le sable. Elle fait un château. Le château a quatre tours. Elle met un drapeau jaune. Papa donne des coquillages. Elle orne le château. La mer vient tout près. Elle rit très fort. Elle rit un peu."
+text = "Léa est à la plage. Elle est avec son papa. Elle prend un seau bleu. Elle prend une pelle rouge. Elle creuse le sable. Elle fait un château. Le château à quatre tours. Elle met un drapeau jaune. Papa donne des coquillages. Elle orne le château. La mer vient tout près. Elle rit très fort. Elle rit un peu."
 
 [sub_resource type="Resource" id="Resource_sb5u5"]
 script = ExtResource("1_kx5v7")
 subject = 6
 text = "Où est Léa ?"
-correct_answer = "a la plage"
-choices = Array[String](["a la piscine", "a la maison", "au parc"])
+correct_answer = "à la plage"
+choices = Array[String](["à la piscine", "à la maison", "au parc"])
 passage = SubResource("Resource_e02mq")
 
 [sub_resource type="Resource" id="Resource_5oafg"]
@@ -51,7 +51,7 @@ passage = SubResource("Resource_e02mq")
 [sub_resource type="Resource" id="Resource_fyr6u"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Combien de tours a le château ?"
+text = "Combien de tours à le château ?"
 correct_answer = "quatre"
 choices = Array[String](["deux", "trois", "cinq"])
 passage = SubResource("Resource_e02mq")
@@ -83,21 +83,21 @@ passage = SubResource("Resource_e02mq")
 [sub_resource type="Resource" id="Resource_fink4"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Que fait Léa a la fin ?"
+text = "Que fait Léa à la fin ?"
 correct_answer = "elle rit"
 choices = Array[String](["elle pleure", "elle dort", "elle part"])
 passage = SubResource("Resource_e02mq")
 
 [sub_resource type="Resource" id="Resource_wehvj"]
 script = ExtResource("2_lihs0")
-text = "Hugo va à la ferme. Il est avec sa classe. La maîtresse montre les animaux. Il voit des poules blanches. Il caresse un lapin gris. Une vache mange de l'herbe. Il donne du pain. Il donne le pain a une chèvre. Il entend un coq chanter. Les enfants mangent dehors. Il aime cette sortie. Tout le monde rentre content. Il rit un peu. Il fait beau."
+text = "Hugo va à la ferme. Il est avec sa classe. La maîtresse montre les animaux. Il voit des poules blanches. Il caresse un lapin gris. Une vache mange de l'herbe. Il donne du pain. Il donne le pain à une chèvre. Il entend un coq chanter. Les enfants mangent dehors. Il aime cette sortie. Tout le monde rentre content. Il rit un peu. Il fait beau."
 
 [sub_resource type="Resource" id="Resource_5o837"]
 script = ExtResource("1_kx5v7")
 subject = 6
 text = "Où va Hugo ?"
-correct_answer = "a la ferme"
-choices = Array[String](["a la piscine", "au musée", "au zoo"])
+correct_answer = "à la ferme"
+choices = Array[String](["à la piscine", "au musée", "au zoo"])
 passage = SubResource("Resource_wehvj")
 
 [sub_resource type="Resource" id="Resource_566vq"]
@@ -151,7 +151,7 @@ passage = SubResource("Resource_wehvj")
 [sub_resource type="Resource" id="Resource_2rjq8"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Que font les enfants a midi ?"
+text = "Que font les enfants à midi ?"
 correct_answer = "ils mangent dehors"
 choices = Array[String](["ils dorment", "ils jouent au ballon", "ils dessinent"])
 passage = SubResource("Resource_wehvj")
@@ -161,13 +161,13 @@ script = ExtResource("1_kx5v7")
 subject = 6
 text = "Où mangent les enfants ?"
 correct_answer = "dehors"
-choices = Array[String](["dans la classe", "dans le bus", "a la cantine"])
+choices = Array[String](["dans la classe", "dans le bus", "à la cantine"])
 passage = SubResource("Resource_wehvj")
 
 [sub_resource type="Resource" id="Resource_yfor6"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Comment Hugo se sent-il a la fin ?"
+text = "Comment Hugo se sent-il à la fin ?"
 correct_answer = "content"
 choices = Array[String](["triste", "fatigué", "en colère"])
 passage = SubResource("Resource_wehvj")
@@ -229,7 +229,7 @@ script = ExtResource("1_kx5v7")
 subject = 6
 text = "Que voit-on en haut ?"
 correct_answer = "le village"
-choices = Array[String](["la mer", "la ferme seulement", "la foret seulement"])
+choices = Array[String](["la mer", "la ferme seulement", "la forêt seulement"])
 passage = SubResource("Resource_y8pl2")
 
 [sub_resource type="Resource" id="Resource_emhu1"]
@@ -251,7 +251,7 @@ passage = SubResource("Resource_y8pl2")
 [sub_resource type="Resource" id="Resource_ribam"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Qu'a fait Nora a la fin ?"
+text = "Qu'a fait Nora à la fin ?"
 correct_answer = "toute la montée"
 choices = Array[String](["seulement un petit tour", "demi-tour", "rien du tout"])
 passage = SubResource("Resource_y8pl2")
@@ -263,7 +263,7 @@ text = "Tom va à la fête foraine. Il est avec son grand frère. Il monte sur l
 [sub_resource type="Resource" id="Resource_vsh25"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Avec qui Tom va-t-il a la fête foraine ?"
+text = "Avec qui Tom va-t-il à la fête foraine ?"
 correct_answer = "son grand frère"
 choices = Array[String](["sa mamie", "sa classe", "son papa"])
 passage = SubResource("Resource_ll1uk")
@@ -321,7 +321,7 @@ script = ExtResource("1_kx5v7")
 subject = 6
 text = "Quand se passe la sortie de Tom ?"
 correct_answer = "le soir"
-choices = Array[String](["le matin", "a midi", "a l'aube"])
+choices = Array[String](["le matin", "à midi", "à l'aube"])
 passage = SubResource("Resource_ll1uk")
 
 [sub_resource type="Resource" id="Resource_2ewdb"]
@@ -342,7 +342,7 @@ passage = SubResource("Resource_ll1uk")
 
 [sub_resource type="Resource" id="Resource_wkhub"]
 script = ExtResource("2_lihs0")
-text = "Alice prend le train. Elle est avec sa mamie. Elle a une valise rouge. Le train passe des champs verts. Elle voit par la fenêtre. Elle voit des vaches. Mamie lui donne un goûter. Le contrôleur voit les billets. Elle dort un peu. Le train vient en gare. Elle rit un peu."
+text = "Alice prend le train. Elle est avec sa mamie. Elle à une valise rouge. Le train passe des champs verts. Elle voit par la fenêtre. Elle voit des vaches. Mamie lui donne un goûter. Le contrôleur voit les billets. Elle dort un peu. Le train vient en gare. Elle rit un peu."
 
 [sub_resource type="Resource" id="Resource_ey608"]
 script = ExtResource("1_kx5v7")
@@ -365,7 +365,7 @@ script = ExtResource("1_kx5v7")
 subject = 6
 text = "Que traverse le train ?"
 correct_answer = "des champs verts"
-choices = Array[String](["une foret sombre", "un désert", "une ville"])
+choices = Array[String](["une forêt sombre", "un désert", "une ville"])
 passage = SubResource("Resource_wkhub")
 
 [sub_resource type="Resource" id="Resource_mhsok"]
@@ -411,9 +411,9 @@ passage = SubResource("Resource_wkhub")
 [sub_resource type="Resource" id="Resource_y76ll"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Où arrive le train a la fin ?"
+text = "Où arrive le train à la fin ?"
 correct_answer = "en gare"
-choices = Array[String](["a l'aéroport", "au port", "a l'école"])
+choices = Array[String](["à l'aéroport", "au port", "à l'école"])
 passage = SubResource("Resource_wkhub")
 
 [sub_resource type="Resource" id="Resource_n5k0k"]
@@ -673,19 +673,19 @@ script = ExtResource("1_kx5v7")
 subject = 6
 text = "Où se passe cette journée ?"
 correct_answer = "chez les cousins"
-choices = Array[String](["a l'école", "a la plage", "a la montagne"])
+choices = Array[String](["à l'école", "à la plage", "à la montagne"])
 passage = SubResource("Resource_uulsh")
 
 [sub_resource type="Resource" id="Resource_3jhwo"]
 script = ExtResource("2_lihs0")
-text = "Sofia part pique-niquer a la campagne. Elle est avec sa famille. Ils posent une nappe sous un arbre. Elle mange un sandwich au fromage. Maman coupe une pastèque sucrée. Des vaches broutent dans le pré. Elle court apres des papillons. Papa joue de la guitare. Elle s'endort dans l'herbe. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la."
+text = "Sofia part pique-niquer à la campagne. Elle est avec sa famille. Ils posent une nappe sous un arbre. Elle mange un sandwich au fromage. Maman coupe une pastèque sucrée. Des vaches broutent dans le pré. Elle court après des papillons. Papa joue de la guitare. Elle s'endort dans l'herbe. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la."
 
 [sub_resource type="Resource" id="Resource_tttd1"]
 script = ExtResource("1_kx5v7")
 subject = 6
 text = "Où Sofia pique-nique-t-elle ?"
-correct_answer = "a la campagne"
-choices = Array[String](["a la plage", "en ville", "a la montagne"])
+correct_answer = "à la campagne"
+choices = Array[String](["à la plage", "en ville", "à la montagne"])
 passage = SubResource("Resource_3jhwo")
 
 [sub_resource type="Resource" id="Resource_f1tcr"]
@@ -731,7 +731,7 @@ passage = SubResource("Resource_3jhwo")
 [sub_resource type="Resource" id="Resource_vansd"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Apres quoi Sofia court-elle ?"
+text = "Après quoi Sofia court-elle ?"
 correct_answer = "des papillons"
 choices = Array[String](["des oiseaux", "des lapins", "des chats"])
 passage = SubResource("Resource_3jhwo")
@@ -762,14 +762,14 @@ passage = SubResource("Resource_3jhwo")
 
 [sub_resource type="Resource" id="Resource_6hbcp"]
 script = ExtResource("2_lihs0")
-text = "Elias va à la plage. Il a un cerf-volant rouge et jaune. Le vent souffle très fort. Il court sur le sable. Le cerf-volant monte très haut. Sa soeur applaudit. Un chien joue près d'eux. Il tient bien la ficelle. Il est très fier de son beau cerf-volant."
+text = "Elias va à la plage. Il à un cerf-volant rouge et jaune. Le vent souffle très fort. Il court sur le sable. Le cerf-volant monte très haut. Sa soeur applaudit. Un chien joue près d'eux. Il tient bien la ficelle. Il est très fier de son beau cerf-volant."
 
 [sub_resource type="Resource" id="Resource_c8y13"]
 script = ExtResource("1_kx5v7")
 subject = 6
 text = "Où Elias va-t-il jouer ?"
-correct_answer = "a la plage"
-choices = Array[String](["au parc", "a la montagne", "dans le jardin"])
+correct_answer = "à la plage"
+choices = Array[String](["au parc", "à la montagne", "dans le jardin"])
 passage = SubResource("Resource_6hbcp")
 
 [sub_resource type="Resource" id="Resource_pyj4r"]
@@ -831,7 +831,7 @@ passage = SubResource("Resource_6hbcp")
 [sub_resource type="Resource" id="Resource_sxrys"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Comment se sent Elias a la fin ?"
+text = "Comment se sent Elias à la fin ?"
 correct_answer = "fier"
 choices = Array[String](["triste", "fatigué", "en colère"])
 passage = SubResource("Resource_6hbcp")
@@ -840,20 +840,20 @@ passage = SubResource("Resource_6hbcp")
 script = ExtResource("1_kx5v7")
 subject = 6
 text = "Où se passe cette histoire ?"
-correct_answer = "a la plage"
-choices = Array[String](["au parc", "en montagne", "a la ferme"])
+correct_answer = "à la plage"
+choices = Array[String](["au parc", "en montagne", "à la ferme"])
 passage = SubResource("Resource_6hbcp")
 
 [sub_resource type="Resource" id="Resource_o841p"]
 script = ExtResource("2_lihs0")
-text = "Greta va en foret. Elle est avec son papi. Ils cueillent des champignons. Elle porte un petit panier. Papi montre les bons champignons. Elle trouve un gros cèpe. Un oiseau chante au-dessus d'eux. Elle ramasse des châtaignes. Le panier devient lourd. Elle est fière. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la."
+text = "Greta va en forêt. Elle est avec son papi. Ils cueillent des champignons. Elle porte un petit panier. Papi montre les bons champignons. Elle trouve un gros cèpe. Un oiseau chante au-dessus d'eux. Elle ramasse des châtaignes. Le panier devient lourd. Elle est fière. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la."
 
 [sub_resource type="Resource" id="Resource_6mmfv"]
 script = ExtResource("1_kx5v7")
 subject = 6
 text = "Où Greta va-t-elle avec son papi ?"
-correct_answer = "en foret"
-choices = Array[String](["a la plage", "au marche", "au jardin"])
+correct_answer = "en forêt"
+choices = Array[String](["à la plage", "au marche", "au jardin"])
 passage = SubResource("Resource_o841p")
 
 [sub_resource type="Resource" id="Resource_k1hky"]
@@ -923,7 +923,7 @@ passage = SubResource("Resource_o841p")
 [sub_resource type="Resource" id="Resource_q06xn"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Comment Greta se sent-elle a la fin ?"
+text = "Comment Greta se sent-elle à la fin ?"
 correct_answer = "fière"
 choices = Array[String](["déçue", "fatiguée et triste", "en colère"])
 passage = SubResource("Resource_o841p")
@@ -969,7 +969,7 @@ script = ExtResource("1_kx5v7")
 subject = 6
 text = "Sur quoi glissent-ils ?"
 correct_answer = "une petite pente"
-choices = Array[String](["un lac gele", "un toboggan", "un tapis"])
+choices = Array[String](["un lac gelé", "un toboggan", "un tapis"])
 passage = SubResource("Resource_o0t1c")
 
 [sub_resource type="Resource" id="Resource_3stmh"]
@@ -999,7 +999,7 @@ passage = SubResource("Resource_o0t1c")
 [sub_resource type="Resource" id="Resource_ekg14"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Comment est Oskar a la fin ?"
+text = "Comment est Oskar à la fin ?"
 correct_answer = "très content"
 choices = Array[String](["très triste", "fâche", "malade"])
 passage = SubResource("Resource_o0t1c")
@@ -1014,14 +1014,14 @@ passage = SubResource("Resource_o0t1c")
 
 [sub_resource type="Resource" id="Resource_k5tmm"]
 script = ExtResource("2_lihs0")
-text = "Chiara fête son anniversaire. C'est à la maison. Maman a fait un gâteau au chocolat. Elle souffle huit bougies. Ses amis offrent des cadeaux. Ils jouent a caché-cache dans le jardin. Elle ouvre un joli livre. Tout le monde chante et danse. Elle passe une belle journée. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la."
+text = "Chiara fête son anniversaire. C'est à la maison. Maman a fait un gâteau au chocolat. Elle souffle huit bougies. Ses amis offrent des cadeaux. Ils jouent à caché-cache dans le jardin. Elle ouvre un joli livre. Tout le monde chante et danse. Elle passe une belle journée. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la."
 
 [sub_resource type="Resource" id="Resource_d3taf"]
 script = ExtResource("1_kx5v7")
 subject = 6
 text = "Où Chiara fête-t-elle son anniversaire ?"
-correct_answer = "a la maison"
-choices = Array[String](["au restaurant", "a l'école", "au parc"])
+correct_answer = "à la maison"
+choices = Array[String](["au restaurant", "à l'école", "au parc"])
 passage = SubResource("Resource_k5tmm")
 
 [sub_resource type="Resource" id="Resource_m0r1y"]
@@ -1052,8 +1052,8 @@ passage = SubResource("Resource_k5tmm")
 script = ExtResource("1_kx5v7")
 subject = 6
 text = "À quoi jouent-ils dans le jardin ?"
-correct_answer = "a caché-cache"
-choices = Array[String](["au ballon", "aux billes", "a la corde à sauter"])
+correct_answer = "à caché-cache"
+choices = Array[String](["au ballon", "aux billes", "à la corde à sauter"])
 passage = SubResource("Resource_k5tmm")
 
 [sub_resource type="Resource" id="Resource_vv7xd"]
@@ -1103,7 +1103,7 @@ text = "Liam va à la bibliothèque. C'est le mercredi. Il est avec sa maman. Il
 [sub_resource type="Resource" id="Resource_4j1bs"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Quel jour Liam va-t-il a la bibliothèque ?"
+text = "Quel jour Liam va-t-il à la bibliothèque ?"
 correct_answer = "le mercredi"
 choices = Array[String](["le lundi", "le samedi", "le dimanche"])
 passage = SubResource("Resource_ito58")
@@ -1176,18 +1176,18 @@ passage = SubResource("Resource_ito58")
 script = ExtResource("1_kx5v7")
 subject = 6
 text = "Où se passe cette histoire ?"
-correct_answer = "a la bibliothèque"
-choices = Array[String](["a l'école", "a la maison", "au musée"])
+correct_answer = "à la bibliothèque"
+choices = Array[String](["à l'école", "à la maison", "au musée"])
 passage = SubResource("Resource_ito58")
 
 [sub_resource type="Resource" id="Resource_pdjia"]
 script = ExtResource("2_lihs0")
-text = "Amelia va à la piscine. C'est le samedi. Elle est avec son papa. Elle met son maillot rose. Elle saute dans le grand bassin. Elle apprend a nager. Papa la voit et sourit. Elle glisse sur le toboggan bleu. Elle mange une glace apres. Elle est fatiguée et heureuse. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la."
+text = "Amelia va à la piscine. C'est le samedi. Elle est avec son papa. Elle met son maillot rose. Elle saute dans le grand bassin. Elle apprend à nager. Papa la voit et sourit. Elle glisse sur le toboggan bleu. Elle mange une glace après. Elle est fatiguée et heureuse. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la."
 
 [sub_resource type="Resource" id="Resource_r4jqx"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Quel jour Amelia va-t-elle a la piscine ?"
+text = "Quel jour Amelia va-t-elle à la piscine ?"
 correct_answer = "le samedi"
 choices = Array[String](["le mardi", "le dimanche", "le vendredi"])
 passage = SubResource("Resource_pdjia")
@@ -1220,7 +1220,7 @@ passage = SubResource("Resource_pdjia")
 script = ExtResource("1_kx5v7")
 subject = 6
 text = "Qu'apprend Amelia ?"
-correct_answer = "a nager"
+correct_answer = "à nager"
 choices = Array[String](["à plonger très profond", "à sauter du plongeoir", "à flotter seulement"])
 passage = SubResource("Resource_pdjia")
 
@@ -1243,7 +1243,7 @@ passage = SubResource("Resource_pdjia")
 [sub_resource type="Resource" id="Resource_cpgwx"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Que mange Amelia apres la piscine ?"
+text = "Que mange Amelia après la piscine ?"
 correct_answer = "une glace"
 choices = Array[String](["un gâteau", "un fruit", "un sandwich"])
 passage = SubResource("Resource_pdjia")
@@ -1251,7 +1251,7 @@ passage = SubResource("Resource_pdjia")
 [sub_resource type="Resource" id="Resource_u1bt2"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Comment Amelia se sent-elle a la fin ?"
+text = "Comment Amelia se sent-elle à la fin ?"
 correct_answer = "fatiguée et heureuse"
 choices = Array[String](["triste", "malade", "en colère"])
 passage = SubResource("Resource_pdjia")
@@ -1260,13 +1260,13 @@ passage = SubResource("Resource_pdjia")
 script = ExtResource("1_kx5v7")
 subject = 6
 text = "Que fait Amelia dans le grand bassin ?"
-correct_answer = "elle apprend a nager"
+correct_answer = "elle apprend à nager"
 choices = Array[String](["elle lit un livre", "elle dort", "elle mange"])
 passage = SubResource("Resource_pdjia")
 
 [sub_resource type="Resource" id="Resource_b4yqi"]
 script = ExtResource("2_lihs0")
-text = "Mateo fait une balade a vélo. Il est avec sa maman. Il met un casque bleu. Ils roulent le long de la rivière. Il voit des canards. Il s'arrête pour boire de l'eau. Une côte fatigue Il. Maman l'aide à continuer. Il vient en haut. Il est très fier. Il rit un peu."
+text = "Mateo fait une balade à vélo. Il est avec sa maman. Il met un casque bleu. Ils roulent le long de la rivière. Il voit des canards. Il s'arrête pour boire de l'eau. Une côte fatigue Il. Maman l'aide à continuer. Il vient en haut. Il est très fier. Il rit un peu."
 
 [sub_resource type="Resource" id="Resource_1blcw"]
 script = ExtResource("1_kx5v7")
@@ -1289,7 +1289,7 @@ script = ExtResource("1_kx5v7")
 subject = 6
 text = "Le long de quoi roulent-ils ?"
 correct_answer = "la rivière"
-choices = Array[String](["la route principale", "la foret", "la plage"])
+choices = Array[String](["la route principale", "la forêt", "la plage"])
 passage = SubResource("Resource_b4yqi")
 
 [sub_resource type="Resource" id="Resource_dy4rm"]
@@ -1344,7 +1344,7 @@ passage = SubResource("Resource_b4yqi")
 script = ExtResource("1_kx5v7")
 subject = 6
 text = "Que fait Mateo tout au long de la balade ?"
-correct_answer = "il roule a vélo"
+correct_answer = "il roule à vélo"
 choices = Array[String](["il marche", "il nage", "il court"])
 passage = SubResource("Resource_b4yqi")
 
@@ -1357,7 +1357,7 @@ script = ExtResource("1_kx5v7")
 subject = 6
 text = "Où Freya trouve-t-elle une cabane ?"
 correct_answer = "dans les bois"
-choices = Array[String](["dans son jardin", "a l'école", "a la plage"])
+choices = Array[String](["dans son jardin", "à l'école", "à la plage"])
 passage = SubResource("Resource_0wye6")
 
 [sub_resource type="Resource" id="Resource_rk0f1"]
@@ -1387,7 +1387,7 @@ passage = SubResource("Resource_0wye6")
 [sub_resource type="Resource" id="Resource_m58s2"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Qu'y a-t-il a l'intérieur ?"
+text = "Qu'y à-t-il à l'intérieur ?"
 correct_answer = "une table en bois"
 choices = Array[String](["un lit", "une cuisine", "rien du tout"])
 passage = SubResource("Resource_0wye6")
@@ -1434,7 +1434,7 @@ passage = SubResource("Resource_0wye6")
 
 [sub_resource type="Resource" id="Resource_mrc5t"]
 script = ExtResource("2_lihs0")
-text = "Antoine promene son chien Rex. Ils sont dans le parc. Rex voit un chat. Il se met à courir. Il court derrière lui. Rex disparaît. Il cherche partout. Il appelle Rex très fort. Une dame trouve Rex. Elle ramene Rex a Il. Il serre son chien très fort. Il attache mieux la laisse. Il rit un peu."
+text = "Antoine promène son chien Rex. Ils sont dans le parc. Rex voit un chat. Il se met à courir. Il court derrière lui. Rex disparaît. Il cherche partout. Il appelle Rex très fort. Une dame trouve Rex. Elle ramène Rex à Il. Il serre son chien très fort. Il attache mieux la laisse. Il rit un peu."
 
 [sub_resource type="Resource" id="Resource_47wle"]
 script = ExtResource("1_kx5v7")
@@ -1447,9 +1447,9 @@ passage = SubResource("Resource_mrc5t")
 [sub_resource type="Resource" id="Resource_nmwex"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Où Antoine promene-t-il son chien ?"
+text = "Où Antoine promène-t-il son chien ?"
 correct_answer = "dans le parc"
-choices = Array[String](["a la plage", "en foret", "dans la rue"])
+choices = Array[String](["à la plage", "en forêt", "dans la rue"])
 passage = SubResource("Resource_mrc5t")
 
 [sub_resource type="Resource" id="Resource_idp6r"]
@@ -1495,9 +1495,9 @@ passage = SubResource("Resource_mrc5t")
 [sub_resource type="Resource" id="Resource_5rkr0"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Que fait Antoine différemment a la fin ?"
+text = "Que fait Antoine différemment à la fin ?"
 correct_answer = "il attache mieux la laisse"
-choices = Array[String](["il ne promène plus Rex", "il achète un autre chien", "il reste a la maison"])
+choices = Array[String](["il ne promène plus Rex", "il achète un autre chien", "il reste à la maison"])
 passage = SubResource("Resource_mrc5t")
 
 [sub_resource type="Resource" id="Resource_xb0q5"]
@@ -1505,7 +1505,7 @@ script = ExtResource("1_kx5v7")
 subject = 6
 text = "Où se passe cette histoire ?"
 correct_answer = "dans un parc"
-choices = Array[String](["a l'école", "chez Antoine", "au supermarché"])
+choices = Array[String](["à l'école", "chez Antoine", "au supermarché"])
 passage = SubResource("Resource_mrc5t")
 
 [sub_resource type="Resource" id="Resource_nuhhi"]
@@ -1518,7 +1518,7 @@ passage = SubResource("Resource_mrc5t")
 
 [sub_resource type="Resource" id="Resource_u8n6r"]
 script = ExtResource("2_lihs0")
-text = "Zoé fait sa rentrée des classes. Elle porte un nouveau cartable violet. Elle retrouve ses copains dans la cour. Sa maîtresse s'appelle madame Dubois. Elle découvre sa nouvelle classe. Elle range ses crayons. A la recreation, Elle saute a la corde. Elle est contente de sa journée. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la. C'est un beau jour."
+text = "Zoé fait sa rentrée des classes. Elle porte un nouveau cartable violet. Elle retrouve ses copains dans la cour. Sa maîtresse s'appelle madame Dubois. Elle découvre sa nouvelle classe. Elle range ses crayons. A la récréation, Elle saute à la corde. Elle est contente de sa journée. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la. C'est un beau jour."
 
 [sub_resource type="Resource" id="Resource_jecr3"]
 script = ExtResource("1_kx5v7")
@@ -1541,7 +1541,7 @@ script = ExtResource("1_kx5v7")
 subject = 6
 text = "Où Zoé retrouve-t-elle ses copains ?"
 correct_answer = "dans la cour"
-choices = Array[String](["dans le bus", "a la cantine", "chez elle"])
+choices = Array[String](["dans le bus", "à la cantine", "chez elle"])
 passage = SubResource("Resource_u8n6r")
 
 [sub_resource type="Resource" id="Resource_7je32"]
@@ -1571,15 +1571,15 @@ passage = SubResource("Resource_u8n6r")
 [sub_resource type="Resource" id="Resource_ugcqb"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "À quoi Zoé joue-t-elle a la recreation ?"
-correct_answer = "a la corde à sauter"
-choices = Array[String](["au ballon", "aux billes", "a caché-cache"])
+text = "À quoi Zoé joue-t-elle à la récréation ?"
+correct_answer = "à la corde à sauter"
+choices = Array[String](["au ballon", "aux billes", "à caché-cache"])
 passage = SubResource("Resource_u8n6r")
 
 [sub_resource type="Resource" id="Resource_ahumb"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Comment Zoé se sent-elle a la fin de la journée ?"
+text = "Comment Zoé se sent-elle à la fin de la journée ?"
 correct_answer = "contente"
 choices = Array[String](["triste", "fatiguée et fâchée", "malade"])
 passage = SubResource("Resource_u8n6r")
@@ -1602,7 +1602,7 @@ passage = SubResource("Resource_u8n6r")
 
 [sub_resource type="Resource" id="Resource_33o7u"]
 script = ExtResource("2_lihs0")
-text = "Noah présente son expérience. C'est l'exposition de sciences. Il a fait un petit volcan en carton. Il verse du vinaigre. Une mousse orange sort du volcan. Les autres élèves sont contents. La maîtresse dit bravo a Il. Il reçoit un diplôme. Il est très fier. Il rit un peu. Il fait beau. Le jour est doux. Tout va bien."
+text = "Noah présente son expérience. C'est l'exposition de sciences. Il a fait un petit volcan en carton. Il verse du vinaigre. Une mousse orange sort du volcan. Les autres élèves sont contents. La maîtresse dit bravo à Il. Il reçoit un diplôme. Il est très fier. Il rit un peu. Il fait beau. Le jour est doux. Tout va bien."
 
 [sub_resource type="Resource" id="Resource_fcnj5"]
 script = ExtResource("1_kx5v7")
@@ -1663,7 +1663,7 @@ passage = SubResource("Resource_33o7u")
 [sub_resource type="Resource" id="Resource_w65w2"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Comment Noah se sent-il a la fin ?"
+text = "Comment Noah se sent-il à la fin ?"
 correct_answer = "très fier"
 choices = Array[String](["déçu", "gêne", "en colère"])
 passage = SubResource("Resource_33o7u")
@@ -1672,8 +1672,8 @@ passage = SubResource("Resource_33o7u")
 script = ExtResource("1_kx5v7")
 subject = 6
 text = "Où se passe cette histoire ?"
-correct_answer = "a l'exposition de sciences"
-choices = Array[String](["a la piscine", "au musée", "a la ferme"])
+correct_answer = "à l'exposition de sciences"
+choices = Array[String](["à la piscine", "au musée", "à la ferme"])
 passage = SubResource("Resource_33o7u")
 
 [sub_resource type="Resource" id="Resource_swait"]
@@ -1686,7 +1686,7 @@ passage = SubResource("Resource_33o7u")
 
 [sub_resource type="Resource" id="Resource_wcctm"]
 script = ExtResource("2_lihs0")
-text = "Camille fait des crêpes. Elle est avec sa grand-mère. Elles mélangent farine, oeufs et lait. Elle verse la pâte dans la poêle. Grand-mère retourne la crêpe. Elle ajoute du sucre. Elle ajoute aussi de la confiture. Elles gouttent les crêpes a table. Elle se salit de farine. Elle aime cuisiner avec sa grand-mère. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien."
+text = "Camille fait des crêpes. Elle est avec sa grand-mère. Elles mélangent farine, oeufs et lait. Elle verse la pâte dans la poêle. Grand-mère retourne la crêpe. Elle ajoute du sucre. Elle ajoute aussi de la confiture. Elles gouttent les crêpes à table. Elle se salit de farine. Elle aime cuisiner avec sa grand-mère. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien."
 
 [sub_resource type="Resource" id="Resource_cnvcg"]
 script = ExtResource("1_kx5v7")
@@ -1740,7 +1740,7 @@ passage = SubResource("Resource_wcctm")
 script = ExtResource("1_kx5v7")
 subject = 6
 text = "Où gouttent-elles les crêpes ?"
-correct_answer = "a table"
+correct_answer = "à table"
 choices = Array[String](["dans la cuisine debout", "dans le jardin", "dans la voiture"])
 passage = SubResource("Resource_wcctm")
 
@@ -1757,7 +1757,7 @@ script = ExtResource("1_kx5v7")
 subject = 6
 text = "Comment Camille trouve-t-elle cette activité ?"
 correct_answer = "elle adore cuisiner"
-choices = Array[String](["elle déteste ca", "elle s'ennuie", "elle a peur"])
+choices = Array[String](["elle déteste ça", "elle s'ennuie", "elle a peur"])
 passage = SubResource("Resource_wcctm")
 
 [sub_resource type="Resource" id="Resource_cveer"]
@@ -1770,7 +1770,7 @@ passage = SubResource("Resource_wcctm")
 
 [sub_resource type="Resource" id="Resource_dp2k1"]
 script = ExtResource("2_lihs0")
-text = "Bruno aide son papi. Ils jardinent dans le potager. Ils plantent des graines de tomates. Il arrose la terre. Il a un petit arrosoir vert. Un ver de terre sort du sol. Papi montre les mauvaises herbes. Une coccinelle se pose sur une feuille. Il attend de voir pousser les tomates. Il aime jardiner avec papi. Il rit un peu. Il fait beau. Le jour est doux. Tout va bien."
+text = "Bruno aide son papi. Ils jardinent dans le potager. Ils plantent des graines de tomates. Il arrose la terre. Il à un petit arrosoir vert. Un ver de terre sort du sol. Papi montre les mauvaises herbes. Une coccinelle se pose sur une feuille. Il attend de voir pousser les tomates. Il aime jardiner avec papi. Il rit un peu. Il fait beau. Le jour est doux. Tout va bien."
 
 [sub_resource type="Resource" id="Resource_3e6o7"]
 script = ExtResource("1_kx5v7")
@@ -1807,7 +1807,7 @@ passage = SubResource("Resource_dp2k1")
 [sub_resource type="Resource" id="Resource_lmnvs"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Que montre papi a Bruno ?"
+text = "Que montre papi à Bruno ?"
 correct_answer = "les mauvaises herbes"
 choices = Array[String](["un arbre", "un compost", "du bois"])
 passage = SubResource("Resource_dp2k1")
@@ -1832,7 +1832,7 @@ passage = SubResource("Resource_dp2k1")
 script = ExtResource("1_kx5v7")
 subject = 6
 text = "Comment Bruno se sent-il en jardinant ?"
-correct_answer = "il aime ca"
+correct_answer = "il aime ça"
 choices = Array[String](["il s'ennuie", "il a peur", "il est fatigué et triste"])
 passage = SubResource("Resource_dp2k1")
 
@@ -1854,7 +1854,7 @@ passage = SubResource("Resource_dp2k1")
 
 [sub_resource type="Resource" id="Resource_16gwm"]
 script = ExtResource("2_lihs0")
-text = "Inès visite un musée. Elle est avec sa classe. Elle voit un grand squelette. C'est un squelette de dinosaure. Le guide dit l'histoire des dinosaures. Elle pose dès questions. Elle dessine le squelette dans son carnet. Ses copains voient aussi les vitrines. Elle prend une carte postale. Elle a beaucoup appris. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la."
+text = "Inès visite un musée. Elle est avec sa classe. Elle voit un grand squelette. C'est un squelette de dinosaure. Le guide dit l'histoire des dinosaures. Elle pose dès questions. Elle dessine le squelette dans son carnet. Ses copains voient aussi les vitrines. Elle prend une carte postale. Elle à beaucoup appris. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la."
 
 [sub_resource type="Resource" id="Resource_yba7j"]
 script = ExtResource("1_kx5v7")
@@ -1907,7 +1907,7 @@ passage = SubResource("Resource_16gwm")
 [sub_resource type="Resource" id="Resource_wgry4"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Qu'achète Inès a la sortie ?"
+text = "Qu'achète Inès à la sortie ?"
 correct_answer = "une carte postale"
 choices = Array[String](["un livre", "un jouet", "un bonbon"])
 passage = SubResource("Resource_16gwm")
@@ -1915,7 +1915,7 @@ passage = SubResource("Resource_16gwm")
 [sub_resource type="Resource" id="Resource_etk6j"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Comment Inès se sent-elle apres la visite ?"
+text = "Comment Inès se sent-elle après la visite ?"
 correct_answer = "elle a beaucoup appris"
 choices = Array[String](["elle est déçue", "elle s'est ennuyée", "elle a eu peur"])
 passage = SubResource("Resource_16gwm")
@@ -1925,7 +1925,7 @@ script = ExtResource("1_kx5v7")
 subject = 6
 text = "Où se passe cette sortie ?"
 correct_answer = "au musée"
-choices = Array[String](["au zoo", "a la ferme", "a la piscine"])
+choices = Array[String](["au zoo", "à la ferme", "à la piscine"])
 passage = SubResource("Resource_16gwm")
 
 [sub_resource type="Resource" id="Resource_tjih4"]
@@ -1945,7 +1945,7 @@ script = ExtResource("1_kx5v7")
 subject = 6
 text = "Où Lucas passe-t-il la journée ?"
 correct_answer = "au zoo"
-choices = Array[String](["au musée", "a la ferme", "a la piscine"])
+choices = Array[String](["au musée", "à la ferme", "à la piscine"])
 passage = SubResource("Resource_0ems5")
 
 [sub_resource type="Resource" id="Resource_4834r"]
@@ -1983,7 +1983,7 @@ passage = SubResource("Resource_0ems5")
 [sub_resource type="Resource" id="Resource_bb6qu"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Quel est l'animal préfère de Lucas ?"
+text = "Quel est l'animal préféré de Lucas ?"
 correct_answer = "l'éléphant"
 choices = Array[String](["le lion", "le singe", "la girafe"])
 passage = SubResource("Resource_0ems5")
@@ -1999,7 +1999,7 @@ passage = SubResource("Resource_0ems5")
 [sub_resource type="Resource" id="Resource_hf85a"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Qu'achète Lucas a la fin ?"
+text = "Qu'achète Lucas à la fin ?"
 correct_answer = "une peluche de lion"
 choices = Array[String](["une glace", "un livre", "un ballon"])
 passage = SubResource("Resource_0ems5")
@@ -2017,25 +2017,25 @@ script = ExtResource("1_kx5v7")
 subject = 6
 text = "Où se passe cette histoire ?"
 correct_answer = "au zoo"
-choices = Array[String](["a la campagne", "en montagne", "a la mer"])
+choices = Array[String](["à la campagne", "en montagne", "à la mer"])
 passage = SubResource("Resource_0ems5")
 
 [sub_resource type="Resource" id="Resource_qvjpo"]
 script = ExtResource("2_lihs0")
-text = "Marta se promene en foret. Elle est avec son papa. Le chemin est couvert de feuilles. Elle ramasse un caillou gris. Un renard passe le sentier. Elle écoute le vent dans les arbres. Papa montre un grand chêne. Ils croisent un promeneur avec son chien. Elle rentre avec de bons souvenirs. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la."
+text = "Marta se promène en forêt. Elle est avec son papa. Le chemin est couvert de feuilles. Elle ramasse un caillou gris. Un renard passe le sentier. Elle écoute le vent dans les arbres. Papa montre un grand chêne. Ils croisent un promeneur avec son chien. Elle rentre avec de bons souvenirs. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la."
 
 [sub_resource type="Resource" id="Resource_owqb5"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Où Marta se promene-t-elle ?"
-correct_answer = "en foret"
-choices = Array[String](["a la plage", "en ville", "a la montagne"])
+text = "Où Marta se promène-t-elle ?"
+correct_answer = "en forêt"
+choices = Array[String](["à la plage", "en ville", "à la montagne"])
 passage = SubResource("Resource_qvjpo")
 
 [sub_resource type="Resource" id="Resource_26xc1"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Avec qui se promene-t-elle ?"
+text = "Avec qui se promène-t-elle ?"
 correct_answer = "son papa"
 choices = Array[String](["sa maman", "sa classe", "sa mamie"])
 passage = SubResource("Resource_qvjpo")
@@ -2075,7 +2075,7 @@ passage = SubResource("Resource_qvjpo")
 [sub_resource type="Resource" id="Resource_uemot"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Que montre le papa a Marta ?"
+text = "Que montre le papa à Marta ?"
 correct_answer = "un grand chêne"
 choices = Array[String](["une cascade", "une grotte", "un vieux pont"])
 passage = SubResource("Resource_qvjpo")
@@ -2100,13 +2100,13 @@ passage = SubResource("Resource_qvjpo")
 script = ExtResource("1_kx5v7")
 subject = 6
 text = "Où se passe cette promenade ?"
-correct_answer = "en foret"
-choices = Array[String](["au parc", "au jardin", "a la ferme"])
+correct_answer = "en forêt"
+choices = Array[String](["au parc", "au jardin", "à la ferme"])
 passage = SubResource("Resource_qvjpo")
 
 [sub_resource type="Resource" id="Resource_vc7fg"]
 script = ExtResource("2_lihs0")
-text = "Julian voit son papi. Papi conduit le tracteur. C'est la saison des moissons. Le champ de blé est doré. Il monte dans le tracteur. La machine coupe le blé vite. De la poussière jaune vole dans l'air. Il voit des lièvres sortir du champ. A midi, ils mangent sous un arbre. Il est fier d'avoir aide. Il rit un peu."
+text = "Julian voit son papi. Papi conduit le tracteur. C'est la saison des moissons. Le champ de blé est doré. Il monte dans le tracteur. La machine coupe le blé vite. De la poussière jaune vole dans l'air. Il voit des lièvres sortir du champ. A midi, ils mangent sous un arbre. Il est fier d'avoir aidé. Il rit un peu."
 
 [sub_resource type="Resource" id="Resource_m6tii"]
 script = ExtResource("1_kx5v7")
@@ -2159,7 +2159,7 @@ passage = SubResource("Resource_vc7fg")
 [sub_resource type="Resource" id="Resource_y331h"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Où mangent-ils a midi ?"
+text = "Où mangent-ils à midi ?"
 correct_answer = "sous un grand arbre"
 choices = Array[String](["dans la maison", "dans le tracteur", "au village"])
 passage = SubResource("Resource_vc7fg")
@@ -2167,7 +2167,7 @@ passage = SubResource("Resource_vc7fg")
 [sub_resource type="Resource" id="Resource_hahnx"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Comment Julian se sent-il d'avoir aide ?"
+text = "Comment Julian se sent-il d'avoir aidé ?"
 correct_answer = "fier"
 choices = Array[String](["triste", "gêne", "fatigué et fâche"])
 passage = SubResource("Resource_vc7fg")
@@ -2190,7 +2190,7 @@ passage = SubResource("Resource_vc7fg")
 
 [sub_resource type="Resource" id="Resource_moyw0"]
 script = ExtResource("2_lihs0")
-text = "Erik construit un bonhomme de neige. Il est avec sa soeur. Ils roulent une grosse boule. C'est pour le corps. Il ajoute une petite boule. C'est pour la tête. Sa soeur plante une carotte pour le nez. Ils mettent deux boutons noirs pour les yeux. Il pose un vieux chapeau. Le bonhomme a fière allure. Il prend une photo. Il rit un peu."
+text = "Erik construit un bonhomme de neige. Il est avec sa soeur. Ils roulent une grosse boule. C'est pour le corps. Il ajoute une petite boule. C'est pour la tête. Sa soeur plante une carotte pour le nez. Ils mettent deux boutons noirs pour les yeux. Il pose un vieux chapeau. Le bonhomme à fière allure. Il prend une photo. Il rit un peu."
 
 [sub_resource type="Resource" id="Resource_fa1xi"]
 script = ExtResource("1_kx5v7")
@@ -2235,7 +2235,7 @@ passage = SubResource("Resource_moyw0")
 [sub_resource type="Resource" id="Resource_ptrlc"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Que fait Erik a la fin ?"
+text = "Que fait Erik à la fin ?"
 correct_answer = "il prend une photo"
 choices = Array[String](["il détruit le bonhomme", "il rentre vite", "il pleure"])
 passage = SubResource("Resource_moyw0")
@@ -2243,7 +2243,7 @@ passage = SubResource("Resource_moyw0")
 [sub_resource type="Resource" id="Resource_sin00"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Comment le bonhomme de neige a-t-il l'air ?"
+text = "Comment le bonhomme de neige à-t-il l'air ?"
 correct_answer = "fière allure"
 choices = Array[String](["tout tordu", "tout petit", "invisible"])
 passage = SubResource("Resource_moyw0")
@@ -2269,7 +2269,7 @@ script = ExtResource("1_kx5v7")
 subject = 6
 text = "Où se passe cette histoire ?"
 correct_answer = "dehors dans la neige"
-choices = Array[String](["a l'intérieur de la maison", "a l'école", "a la piscine"])
+choices = Array[String](["à l'intérieur de la maison", "à l'école", "à la piscine"])
 passage = SubResource("Resource_moyw0")
 
 [sub_resource type="Resource" id="Resource_u0uly"]
@@ -2280,8 +2280,8 @@ text = "Mia va patiner. Elle est avec son papa. Elle met des patins blancs. Elle
 script = ExtResource("1_kx5v7")
 subject = 6
 text = "Où Mia va-t-elle patiner ?"
-correct_answer = "a la patinoire"
-choices = Array[String](["au parc", "a la plage", "a la piscine"])
+correct_answer = "à la patinoire"
+choices = Array[String](["au parc", "à la plage", "à la piscine"])
 passage = SubResource("Resource_u0uly")
 
 [sub_resource type="Resource" id="Resource_fx1rg"]
@@ -2343,7 +2343,7 @@ passage = SubResource("Resource_u0uly")
 [sub_resource type="Resource" id="Resource_mrbso"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Comment Mia se sent-elle a la fin ?"
+text = "Comment Mia se sent-elle à la fin ?"
 correct_answer = "très fière"
 choices = Array[String](["triste", "fatiguée et déçue", "en colère"])
 passage = SubResource("Resource_u0uly")
@@ -2358,7 +2358,7 @@ passage = SubResource("Resource_u0uly")
 
 [sub_resource type="Resource" id="Resource_dg8qm"]
 script = ExtResource("2_lihs0")
-text = "Léon monte en haut de la colline. Il a une luge rouge. Sa soeur l'attend en bas. Il s'assoit sur sa luge. Il pousse fort avec ses pieds. La luge descend très vite. Il rit très fort. Il s'arrête près de sa soeur. Il remonte pour recommencer. Il rit un peu."
+text = "Léon monte en haut de la colline. Il à une luge rouge. Sa soeur l'attend en bas. Il s'assoit sur sa luge. Il pousse fort avec ses pieds. La luge descend très vite. Il rit très fort. Il s'arrête près de sa soeur. Il remonte pour recommencer. Il rit un peu."
 
 [sub_resource type="Resource" id="Resource_ke5i8"]
 script = ExtResource("1_kx5v7")
@@ -2419,7 +2419,7 @@ passage = SubResource("Resource_dg8qm")
 [sub_resource type="Resource" id="Resource_olbqb"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Que fait Léon a la fin de la descente ?"
+text = "Que fait Léon à la fin de la descente ?"
 correct_answer = "il remonte pour recommencer"
 choices = Array[String](["il rentre à la maison", "il pleure de fatigue", "il donne sa luge"])
 passage = SubResource("Resource_dg8qm")
@@ -2513,7 +2513,7 @@ script = ExtResource("1_kx5v7")
 subject = 6
 text = "Quand se passe cette scène ?"
 correct_answer = "la nuit"
-choices = Array[String](["le matin", "a midi", "au lever du jour"])
+choices = Array[String](["le matin", "à midi", "au lever du jour"])
 passage = SubResource("Resource_3nu0l")
 
 [sub_resource type="Resource" id="Resource_ymf2l"]
@@ -2588,8 +2588,8 @@ passage = SubResource("Resource_6wtlg")
 script = ExtResource("1_kx5v7")
 subject = 6
 text = "Comment Félix trouve-t-il le camping ?"
-correct_answer = "il adore ca"
-choices = Array[String](["il déteste ca", "il a peur", "il s'ennuie"])
+correct_answer = "il adore ça"
+choices = Array[String](["il déteste ça", "il a peur", "il s'ennuie"])
 passage = SubResource("Resource_6wtlg")
 
 [sub_resource type="Resource" id="Resource_oqu2u"]
@@ -2610,12 +2610,12 @@ passage = SubResource("Resource_6wtlg")
 
 [sub_resource type="Resource" id="Resource_wysoj"]
 script = ExtResource("2_lihs0")
-text = "Louis part a la pêche. Il est avec son grand-père. Ils s'installent au bord de la rivière. Il tient sa canne à pêche. Il attend . Un poisson tire sur le fil. Il remonte un petit poisson argenté. Son grand-père le dit bravo a. Il relâche le poisson dans l'eau. Il rit un peu."
+text = "Louis part à la pêche. Il est avec son grand-père. Ils s'installent au bord de la rivière. Il tient sa canne à pêche. Il attend . Un poisson tire sur le fil. Il remonte un petit poisson argenté. Son grand-père le dit bravo à. Il relâche le poisson dans l'eau. Il rit un peu."
 
 [sub_resource type="Resource" id="Resource_3m805"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Avec qui Louis part-il a la pêche ?"
+text = "Avec qui Louis part-il à la pêche ?"
 correct_answer = "son grand-père"
 choices = Array[String](["son papa", "sa mamie", "sa classe"])
 passage = SubResource("Resource_wysoj")
@@ -2625,7 +2625,7 @@ script = ExtResource("1_kx5v7")
 subject = 6
 text = "Où s'installent-ils ?"
 correct_answer = "au bord de la rivière"
-choices = Array[String](["sur un bateau en mer", "au bord d'un lac gele", "dans la foret"])
+choices = Array[String](["sur un bateau en mer", "au bord d'un lac gelé", "dans la forêt"])
 passage = SubResource("Resource_wysoj")
 
 [sub_resource type="Resource" id="Resource_bhbv5"]
@@ -2649,7 +2649,7 @@ script = ExtResource("1_kx5v7")
 subject = 6
 text = "Que se passe-t-il soudain ?"
 correct_answer = "un poisson tire sur le fil"
-choices = Array[String](["il commence a pleuvoir", "le fil se casse", "Louis tombe a l'eau"])
+choices = Array[String](["il commence à pleuvoir", "le fil se casse", "Louis tombe à l'eau"])
 passage = SubResource("Resource_wysoj")
 
 [sub_resource type="Resource" id="Resource_k8cok"]
@@ -2687,21 +2687,21 @@ passage = SubResource("Resource_wysoj")
 [sub_resource type="Resource" id="Resource_rrut2"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Quand partent-ils a la pêche ?"
+text = "Quand partent-ils à la pêche ?"
 correct_answer = "tôt le matin"
-choices = Array[String](["le soir", "a midi", "la nuit"])
+choices = Array[String](["le soir", "à midi", "la nuit"])
 passage = SubResource("Resource_wysoj")
 
 [sub_resource type="Resource" id="Resource_l8aer"]
 script = ExtResource("2_lihs0")
-text = "Charlotte monte a cheval. C'est la première fois. Elle caresse la crinière du poney. La monitrice aide Elle à monter. Elle tient bien les rênes. Le poney avance dans le manège. Elle apprend à faire du trot. Elle donne une carotte au poney. Elle veut revenir monter. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la. C'est un beau jour."
+text = "Charlotte monte à cheval. C'est la première fois. Elle caresse la crinière du poney. La monitrice aide Elle à monter. Elle tient bien les rênes. Le poney avance dans le manège. Elle apprend à faire du trot. Elle donne une carotte au poney. Elle veut revenir monter. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la. C'est un beau jour."
 
 [sub_resource type="Resource" id="Resource_hfwyg"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Où Charlotte monte-t-elle a cheval ?"
+text = "Où Charlotte monte-t-elle à cheval ?"
 correct_answer = "au centre équestre"
-choices = Array[String](["a la ferme", "au zoo", "au cirque"])
+choices = Array[String](["à la ferme", "au zoo", "au cirque"])
 passage = SubResource("Resource_l8aer")
 
 [sub_resource type="Resource" id="Resource_b5u5p"]
@@ -2763,7 +2763,7 @@ passage = SubResource("Resource_l8aer")
 [sub_resource type="Resource" id="Resource_84beg"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Que veut faire Charlotte a la fin ?"
+text = "Que veut faire Charlotte à la fin ?"
 correct_answer = "revenir monter"
 choices = Array[String](["ne plus jamais monter", "vendre le poney", "rentrer vite chez elle"])
 passage = SubResource("Resource_l8aer")
@@ -2778,7 +2778,7 @@ passage = SubResource("Resource_l8aer")
 
 [sub_resource type="Resource" id="Resource_wdvfm"]
 script = ExtResource("2_lihs0")
-text = "Gabriel joue dehors. Il commence a pleuvoir. Il met ses bottes jaunes. Il met son imperméable. Il saute dans les flaques. Il fait naviguer une feuille. Un escargot avance sur le trottoir. Il ouvre un grand parapluie rouge. Il rentre trempe mais heureux. Maman prépare une serviette chaude. Il rit un peu. Il fait beau. Le jour est doux. Tout va bien. Il est bien la. C'est un beau jour."
+text = "Gabriel joue dehors. Il commence à pleuvoir. Il met ses bottes jaunes. Il met son imperméable. Il saute dans les flaques. Il fait naviguer une feuille. Un escargot avance sur le trottoir. Il ouvre un grand parapluie rouge. Il rentre trempe mais heureux. Maman prépare une serviette chaude. Il rit un peu. Il fait beau. Le jour est doux. Tout va bien. Il est bien la. C'est un beau jour."
 
 [sub_resource type="Resource" id="Resource_ykocl"]
 script = ExtResource("1_kx5v7")
@@ -2857,7 +2857,7 @@ script = ExtResource("1_kx5v7")
 subject = 6
 text = "Où Gabriel joue-t-il ?"
 correct_answer = "dehors"
-choices = Array[String](["dans sa chambre", "a la piscine", "a l'école"])
+choices = Array[String](["dans sa chambre", "à la piscine", "à l'école"])
 passage = SubResource("Resource_wdvfm")
 
 [sub_resource type="Resource" id="Resource_x2nhu"]
@@ -2869,7 +2869,7 @@ script = ExtResource("1_kx5v7")
 subject = 6
 text = "Où Julia construit-elle une cabane ?"
 correct_answer = "dans le jardin"
-choices = Array[String](["dans la foret", "dans sa chambre", "a l'école"])
+choices = Array[String](["dans la forêt", "dans sa chambre", "à l'école"])
 passage = SubResource("Resource_x2nhu")
 
 [sub_resource type="Resource" id="Resource_x4hou"]
@@ -2923,7 +2923,7 @@ passage = SubResource("Resource_x2nhu")
 [sub_resource type="Resource" id="Resource_jm48q"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Qui Julia invite-t-elle a visiter la cabane ?"
+text = "Qui Julia invite-t-elle à visiter la cabane ?"
 correct_answer = "sa meilleure amie"
 choices = Array[String](["sa maîtresse", "toute sa classe", "personne"])
 passage = SubResource("Resource_x2nhu")
@@ -2931,7 +2931,7 @@ passage = SubResource("Resource_x2nhu")
 [sub_resource type="Resource" id="Resource_2kelw"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Comment Julia se sent-elle a la fin ?"
+text = "Comment Julia se sent-elle à la fin ?"
 correct_answer = "fière"
 choices = Array[String](["déçue", "fatiguée", "gêne"])
 passage = SubResource("Resource_x2nhu")
@@ -2946,7 +2946,7 @@ passage = SubResource("Resource_x2nhu")
 
 [sub_resource type="Resource" id="Resource_exsj7"]
 script = ExtResource("2_lihs0")
-text = "Victor participe a une chasse au trésor. Sa mamie a tout organise. Il reçoit une carte avec des indices. Il cherche sous le grand chêne. Il trouve un indice dans une boite. Le deuxième indice est près de la fontaine. Il court partout. Il découvre un coffre plein de bonbons. Il partage sa découverte avec ses cousins. Il rit un peu. Il fait beau. Le jour est doux."
+text = "Victor participe à une chasse au trésor. Sa mamie a tout organisé. Il reçoit une carte avec des indices. Il cherche sous le grand chêne. Il trouve un indice dans une boite. Le deuxième indice est près de la fontaine. Il court partout. Il découvre un coffre plein de bonbons. Il partage sa découverte avec ses cousins. Il rit un peu. Il fait beau. Le jour est doux."
 
 [sub_resource type="Resource" id="Resource_a3740"]
 script = ExtResource("1_kx5v7")
@@ -2993,13 +2993,13 @@ script = ExtResource("1_kx5v7")
 subject = 6
 text = "Que fait Victor pour résoudre l'énigme ?"
 correct_answer = "il court partout"
-choices = Array[String](["il demande a sa mamie", "il abandonne", "il pleure"])
+choices = Array[String](["il demande à sa mamie", "il abandonne", "il pleure"])
 passage = SubResource("Resource_exsj7")
 
 [sub_resource type="Resource" id="Resource_hyg6f"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Que découvre Victor a la fin ?"
+text = "Que découvre Victor à la fin ?"
 correct_answer = "un coffre plein de bonbons"
 choices = Array[String](["une boite vide", "un livre ancien", "un jouet casse"])
 passage = SubResource("Resource_exsj7")
@@ -3017,7 +3017,7 @@ script = ExtResource("1_kx5v7")
 subject = 6
 text = "Où se passe cette chasse au trésor ?"
 correct_answer = "dans le jardin"
-choices = Array[String](["en foret", "a l'école", "a la plage"])
+choices = Array[String](["en forêt", "à l'école", "à la plage"])
 passage = SubResource("Resource_exsj7")
 
 [sub_resource type="Resource" id="Resource_i70wn"]
@@ -3036,8 +3036,8 @@ text = "Rosa voit un spectacle de magie. C'est la fête du village. Le magicien 
 script = ExtResource("1_kx5v7")
 subject = 6
 text = "Où Rosa regarde-t-elle le spectacle ?"
-correct_answer = "a la fête du village"
-choices = Array[String](["au cirque", "a l'école", "au théâtre municipal"])
+correct_answer = "à la fête du village"
+choices = Array[String](["au cirque", "à l'école", "au théâtre municipal"])
 passage = SubResource("Resource_8spp6")
 
 [sub_resource type="Resource" id="Resource_nk28f"]
@@ -3091,7 +3091,7 @@ passage = SubResource("Resource_8spp6")
 [sub_resource type="Resource" id="Resource_q87gf"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Comment Rosa se sent-elle a la fin ?"
+text = "Comment Rosa se sent-elle à la fin ?"
 correct_answer = "émerveillée"
 choices = Array[String](["déçue", "effrayée", "fâchée"])
 passage = SubResource("Resource_8spp6")
@@ -3114,14 +3114,14 @@ passage = SubResource("Resource_8spp6")
 
 [sub_resource type="Resource" id="Resource_6gpv7"]
 script = ExtResource("2_lihs0")
-text = "Simon voit un théâtre de marionnettes. C'est au parc. Le petit théâtre a des rideaux rouges. Une marionnette de loup fait rire les enfants. Il rit avec ses copains. Une princesse chante une chanson douce. Les enfants sont contents a chaque scène. Il touche les marionnettes apres le spectacle. Il repart avec un grand sourire. Il rit un peu. Il fait beau. Le jour est doux. Tout va bien."
+text = "Simon voit un théâtre de marionnettes. C'est au parc. Le petit théâtre à des rideaux rouges. Une marionnette de loup fait rire les enfants. Il rit avec ses copains. Une princesse chante une chanson douce. Les enfants sont contents à chaque scène. Il touche les marionnettes après le spectacle. Il repart avec un grand sourire. Il rit un peu. Il fait beau. Le jour est doux. Tout va bien."
 
 [sub_resource type="Resource" id="Resource_yuy72"]
 script = ExtResource("1_kx5v7")
 subject = 6
 text = "Où Simon regarde-t-il le spectacle ?"
 correct_answer = "au parc"
-choices = Array[String](["a l'école", "au cirque", "chez lui"])
+choices = Array[String](["à l'école", "au cirque", "chez lui"])
 passage = SubResource("Resource_6gpv7")
 
 [sub_resource type="Resource" id="Resource_kl5hr"]
@@ -3159,7 +3159,7 @@ passage = SubResource("Resource_6gpv7")
 [sub_resource type="Resource" id="Resource_oicjo"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Que font les enfants a chaque scène ?"
+text = "Que font les enfants à chaque scène ?"
 correct_answer = "ils applaudissent"
 choices = Array[String](["ils crient de peur", "ils pleurent", "ils s'ennuient"])
 passage = SubResource("Resource_6gpv7")
@@ -3167,7 +3167,7 @@ passage = SubResource("Resource_6gpv7")
 [sub_resource type="Resource" id="Resource_tlo58"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Que fait Simon apres le spectacle ?"
+text = "Que fait Simon après le spectacle ?"
 correct_answer = "il touche les marionnettes"
 choices = Array[String](["il rentre tout de suite", "il pleure", "il s'endort"])
 passage = SubResource("Resource_6gpv7")
@@ -3198,14 +3198,14 @@ passage = SubResource("Resource_6gpv7")
 
 [sub_resource type="Resource" id="Resource_cidn2"]
 script = ExtResource("2_lihs0")
-text = "Emma chante dans la chorale. C'est a son école. Elle répète chaque mardi. Le jour du concert, Elle met une chemise blanche. Elle a un peu le trac. Le professeur donne le signal. Elle chante fort avec ses camarades. Les parents sont contents a la fin. Elle est très fière. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien."
+text = "Emma chante dans la chorale. C'est à son école. Elle répète chaque mardi. Le jour du concert, Elle met une chemise blanche. Elle à un peu le trac. Le professeur donne le signal. Elle chante fort avec ses camarades. Les parents sont contents à la fin. Elle est très fière. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien."
 
 [sub_resource type="Resource" id="Resource_87ik4"]
 script = ExtResource("1_kx5v7")
 subject = 6
 text = "Où Emma chante-t-elle ?"
 correct_answer = "dans la chorale de son école"
-choices = Array[String](["dans un groupe de musique", "a la télévision", "au cirque"])
+choices = Array[String](["dans un groupe de musique", "à la télévision", "au cirque"])
 passage = SubResource("Resource_cidn2")
 
 [sub_resource type="Resource" id="Resource_lgmkc"]
@@ -3259,7 +3259,7 @@ passage = SubResource("Resource_cidn2")
 [sub_resource type="Resource" id="Resource_k4aje"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Comment Emma se sent-elle a la fin ?"
+text = "Comment Emma se sent-elle à la fin ?"
 correct_answer = "très fière"
 choices = Array[String](["déçue", "gêne", "fatiguée et triste"])
 passage = SubResource("Resource_cidn2")
@@ -3282,7 +3282,7 @@ passage = SubResource("Resource_cidn2")
 
 [sub_resource type="Resource" id="Resource_t4xm3"]
 script = ExtResource("2_lihs0")
-text = "Nathan participe a la journée sportive. C'est a son école. Il court une course de vitesse. Il saute au saut en longueur. Son équipe joue au ballon prisonnier. La maîtresse compte les points avec un sifflet. Il boit de l'eau entre deux épreuves. Tous les enfants reçoivent une médaille. Il est très fier. Il rit un peu. Il fait beau. Le jour est doux. Tout va bien."
+text = "Nathan participe à la journée sportive. C'est à son école. Il court une course de vitesse. Il saute au saut en longueur. Son équipe joue au ballon prisonnier. La maîtresse compte les points avec un sifflet. Il boit de l'eau entre deux épreuves. Tous les enfants reçoivent une médaille. Il est très fier. Il rit un peu. Il fait beau. Le jour est doux. Tout va bien."
 
 [sub_resource type="Resource" id="Resource_2b3yr"]
 script = ExtResource("1_kx5v7")
@@ -3297,7 +3297,7 @@ script = ExtResource("1_kx5v7")
 subject = 6
 text = "Que court Nathan ?"
 correct_answer = "une course de vitesse"
-choices = Array[String](["un marathon", "une course a l'extérieur de l'école", "une course de relais seulement"])
+choices = Array[String](["un marathon", "une course à l'extérieur de l'école", "une course de relais seulement"])
 passage = SubResource("Resource_t4xm3")
 
 [sub_resource type="Resource" id="Resource_64s7s"]
@@ -3305,7 +3305,7 @@ script = ExtResource("1_kx5v7")
 subject = 6
 text = "À quelle épreuve Nathan saute-t-il ?"
 correct_answer = "le saut en longueur"
-choices = Array[String](["le saut en hauteur", "la corde à sauter", "le saut a la perche"])
+choices = Array[String](["le saut en hauteur", "la corde à sauter", "le saut à la perche"])
 passage = SubResource("Resource_t4xm3")
 
 [sub_resource type="Resource" id="Resource_5kcp2"]
@@ -3319,7 +3319,7 @@ passage = SubResource("Resource_t4xm3")
 [sub_resource type="Resource" id="Resource_h7pov"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Qui chronometre les courses ?"
+text = "Qui chronomètre les courses ?"
 correct_answer = "la maîtresse"
 choices = Array[String](["un parent", "le directeur", "Nathan lui-même"])
 passage = SubResource("Resource_t4xm3")
@@ -3335,7 +3335,7 @@ passage = SubResource("Resource_t4xm3")
 [sub_resource type="Resource" id="Resource_kuhhn"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Que reçoivent tous les enfants a la fin ?"
+text = "Que reçoivent tous les enfants à la fin ?"
 correct_answer = "une médaille"
 choices = Array[String](["un trophée", "un livre", "un ballon"])
 passage = SubResource("Resource_t4xm3")
@@ -3343,7 +3343,7 @@ passage = SubResource("Resource_t4xm3")
 [sub_resource type="Resource" id="Resource_y7cqh"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Comment Nathan se sent-il apres cette journée ?"
+text = "Comment Nathan se sent-il après cette journée ?"
 correct_answer = "très fier"
 choices = Array[String](["déçu", "fatigué et triste", "en colère"])
 passage = SubResource("Resource_t4xm3")
@@ -3351,7 +3351,7 @@ passage = SubResource("Resource_t4xm3")
 [sub_resource type="Resource" id="Resource_frwat"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Avec quoi la maîtresse chronometre-t-elle ?"
+text = "Avec quoi la maîtresse chronomètre-t-elle ?"
 correct_answer = "un sifflet"
 choices = Array[String](["une cloche", "un chronomètre silencieux", "sa voix"])
 passage = SubResource("Resource_t4xm3")
@@ -3360,8 +3360,8 @@ passage = SubResource("Resource_t4xm3")
 script = ExtResource("1_kx5v7")
 subject = 6
 text = "Où se passe la journée sportive ?"
-correct_answer = "a l'école"
-choices = Array[String](["au stade municipal", "a la piscine", "en foret"])
+correct_answer = "à l'école"
+choices = Array[String](["au stade municipal", "à la piscine", "en forêt"])
 passage = SubResource("Resource_t4xm3")
 
 [sub_resource type="Resource" id="Resource_7gkr3"]
@@ -3373,7 +3373,7 @@ script = ExtResource("1_kx5v7")
 subject = 6
 text = "Où Sara essaie-t-elle le parcours d'obstacles ?"
 correct_answer = "au centre de loisirs"
-choices = Array[String](["a l'école", "au stade", "a la piscine"])
+choices = Array[String](["à l'école", "au stade", "à la piscine"])
 passage = SubResource("Resource_7gkr3")
 
 [sub_resource type="Resource" id="Resource_vbxl7"]
@@ -3421,13 +3421,13 @@ script = ExtResource("1_kx5v7")
 subject = 6
 text = "Comment Sara franchit-elle la ligne d'arrivée ?"
 correct_answer = "en courant"
-choices = Array[String](["en marchant lentement", "en rampant", "en sautant a cloche-pied"])
+choices = Array[String](["en marchant lentement", "en rampant", "en sautant à cloche-pied"])
 passage = SubResource("Resource_7gkr3")
 
 [sub_resource type="Resource" id="Resource_00u2f"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Comment Sara se sent-elle a la fin ?"
+text = "Comment Sara se sent-elle à la fin ?"
 correct_answer = "très fière"
 choices = Array[String](["déçue", "fatiguée et triste", "effrayée"])
 passage = SubResource("Resource_7gkr3")
@@ -3457,7 +3457,7 @@ script = ExtResource("1_kx5v7")
 subject = 6
 text = "Où Adam passe-t-il la journée ?"
 correct_answer = "au parc aquatique"
-choices = Array[String](["a la piscine du quartier", "a la plage", "au lac"])
+choices = Array[String](["à la piscine du quartier", "à la plage", "au lac"])
 passage = SubResource("Resource_mtjhr")
 
 [sub_resource type="Resource" id="Resource_t358m"]
@@ -3519,7 +3519,7 @@ passage = SubResource("Resource_mtjhr")
 [sub_resource type="Resource" id="Resource_bbkec"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Que ne veut plus faire Adam a la fin ?"
+text = "Que ne veut plus faire Adam à la fin ?"
 correct_answer = "partir de la"
 choices = Array[String](["aller dans l'eau", "manger une glace", "jouer avec ses parents"])
 passage = SubResource("Resource_mtjhr")
@@ -3529,19 +3529,19 @@ script = ExtResource("1_kx5v7")
 subject = 6
 text = "Où se passe cette journée ?"
 correct_answer = "au parc aquatique"
-choices = Array[String](["a l'école", "a la ferme", "en montagne"])
+choices = Array[String](["à l'école", "à la ferme", "en montagne"])
 passage = SubResource("Resource_mtjhr")
 
 [sub_resource type="Resource" id="Resource_q4cbc"]
 script = ExtResource("2_lihs0")
-text = "Léna monte dans le grand huit. C'est la première fois. Elle attache bien sa ceinture. Le wagon grimpe une côte raide. Elle ferme les yeux un instant. Le wagon descend a toute vitesse. Elle leve les bras très haut. Le tour dure deux minutes. Elle demande à refaire un tour. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien."
+text = "Léna monte dans le grand huit. C'est la première fois. Elle attache bien sa ceinture. Le wagon grimpe une côte raide. Elle ferme les yeux un instant. Le wagon descend à toute vitesse. Elle lève les bras très haut. Le tour dure deux minutes. Elle demande à refaire un tour. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien."
 
 [sub_resource type="Resource" id="Resource_tol10"]
 script = ExtResource("1_kx5v7")
 subject = 6
 text = "Où Léna monte-t-elle dans le grand huit ?"
-correct_answer = "a la fête foraine"
-choices = Array[String](["au cirque", "au parc de la ville", "a l'école"])
+correct_answer = "à la fête foraine"
+choices = Array[String](["au cirque", "au parc de la ville", "à l'école"])
 passage = SubResource("Resource_q4cbc")
 
 [sub_resource type="Resource" id="Resource_3h80p"]
@@ -3572,8 +3572,8 @@ passage = SubResource("Resource_q4cbc")
 script = ExtResource("1_kx5v7")
 subject = 6
 text = "Comment le wagon descend-il ?"
-correct_answer = "a toute vitesse"
-choices = Array[String](["très lentement", "en s'arrêtant souvent", "a reculons"])
+correct_answer = "à toute vitesse"
+choices = Array[String](["très lentement", "en s'arrêtant souvent", "à reculons"])
 passage = SubResource("Resource_q4cbc")
 
 [sub_resource type="Resource" id="Resource_r7sjg"]
@@ -3595,7 +3595,7 @@ passage = SubResource("Resource_q4cbc")
 [sub_resource type="Resource" id="Resource_cvual"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Que demande Léna a la fin ?"
+text = "Que demande Léna à la fin ?"
 correct_answer = "de refaire un tour"
 choices = Array[String](["de rentrer vite", "de manger une glace", "de partir de la fête"])
 passage = SubResource("Resource_q4cbc")
@@ -3604,8 +3604,8 @@ passage = SubResource("Resource_q4cbc")
 script = ExtResource("1_kx5v7")
 subject = 6
 text = "Où se passe cette histoire ?"
-correct_answer = "a la fête foraine"
-choices = Array[String](["au cirque", "a l'école", "au zoo"])
+correct_answer = "à la fête foraine"
+choices = Array[String](["au cirque", "à l'école", "au zoo"])
 passage = SubResource("Resource_q4cbc")
 
 [sub_resource type="Resource" id="Resource_vsg7p"]
@@ -3613,12 +3613,12 @@ script = ExtResource("1_kx5v7")
 subject = 6
 text = "Quelle attraction Léna essaie-t-elle ?"
 correct_answer = "le grand huit"
-choices = Array[String](["le manège a chevaux", "la grande roue", "les autos tamponneuses"])
+choices = Array[String](["le manège à chevaux", "la grande roue", "les autos tamponneuses"])
 passage = SubResource("Resource_q4cbc")
 
 [sub_resource type="Resource" id="Resource_c6ehe"]
 script = ExtResource("2_lihs0")
-text = "Paul monte sur un cheval de bois. Il est avec sa petite soeur. La musique du manège joue fort. Il tient bien la barre dorée. Le manège tourne doux. Sa soeur agite la main. Il essaie d'attraper un anneau en bois. Apres le manège, ils montent dans la grande roue. Il voit toute la fête. Il rit un peu."
+text = "Paul monte sur un cheval de bois. Il est avec sa petite soeur. La musique du manège joue fort. Il tient bien la barre dorée. Le manège tourne doux. Sa soeur agite la main. Il essaie d'attraper un anneau en bois. Après le manège, ils montent dans la grande roue. Il voit toute la fête. Il rit un peu."
 
 [sub_resource type="Resource" id="Resource_np64l"]
 script = ExtResource("1_kx5v7")
@@ -3641,7 +3641,7 @@ script = ExtResource("1_kx5v7")
 subject = 6
 text = "Comment est la musique du manège ?"
 correct_answer = "elle joue fort"
-choices = Array[String](["elle est très douce", "il n'y a pas de musique", "elle est triste"])
+choices = Array[String](["elle est très douce", "il n'y à pas de musique", "elle est triste"])
 passage = SubResource("Resource_c6ehe")
 
 [sub_resource type="Resource" id="Resource_mqpa4"]
@@ -3657,7 +3657,7 @@ script = ExtResource("1_kx5v7")
 subject = 6
 text = "Comment tourne le manège ?"
 correct_answer = "doucement"
-choices = Array[String](["très vite", "il ne tourne pas", "a l'envers"])
+choices = Array[String](["très vite", "il ne tourne pas", "à l'envers"])
 passage = SubResource("Resource_c6ehe")
 
 [sub_resource type="Resource" id="Resource_s007v"]
@@ -3679,7 +3679,7 @@ passage = SubResource("Resource_c6ehe")
 [sub_resource type="Resource" id="Resource_4gnpm"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Que font-ils apres le manège ?"
+text = "Que font-ils après le manège ?"
 correct_answer = "ils montent dans la grande roue"
 choices = Array[String](["ils rentrent chez eux", "ils mangent une glace", "ils font les autos tamponneuses"])
 passage = SubResource("Resource_c6ehe")
@@ -3696,20 +3696,20 @@ passage = SubResource("Resource_c6ehe")
 script = ExtResource("1_kx5v7")
 subject = 6
 text = "Où se passe cette histoire ?"
-correct_answer = "a la fête foraine"
-choices = Array[String](["au cirque", "a l'école", "au zoo"])
+correct_answer = "à la fête foraine"
+choices = Array[String](["au cirque", "à l'école", "au zoo"])
 passage = SubResource("Resource_c6ehe")
 
 [sub_resource type="Resource" id="Resource_3irl4"]
 script = ExtResource("2_lihs0")
-text = "Iris dort chez ses grands-parents. C'est la première fois. Elle donne son doudou lapin. Mamie prépare une soupe de légumes. Elle aide papi à mettre la table. Apres le repas, papi dit une histoire. Elle se glisse dans un grand lit. Mamie chante une berceuse. Elle s'endort vite, très heureuse. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la."
+text = "Iris dort chez ses grands-parents. C'est la première fois. Elle donne son doudou lapin. Mamie prépare une soupe de légumes. Elle aide papi à mettre la table. Après le repas, papi dit une histoire. Elle se glisse dans un grand lit. Mamie chante une berceuse. Elle s'endort vite, très heureuse. Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la."
 
 [sub_resource type="Resource" id="Resource_lxyi7"]
 script = ExtResource("1_kx5v7")
 subject = 6
 text = "Où Iris dort-elle ce week-end ?"
 correct_answer = "chez ses grands-parents"
-choices = Array[String](["chez ses cousins", "a l'école", "chez une amie"])
+choices = Array[String](["chez ses cousins", "à l'école", "chez une amie"])
 passage = SubResource("Resource_3irl4")
 
 [sub_resource type="Resource" id="Resource_y2ll4"]
@@ -3739,7 +3739,7 @@ passage = SubResource("Resource_3irl4")
 [sub_resource type="Resource" id="Resource_1jo55"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Que raconte papi apres le repas ?"
+text = "Que raconte papi après le repas ?"
 correct_answer = "une histoire"
 choices = Array[String](["un conte de fées", "une blague", "les nouvelles du jour"])
 passage = SubResource("Resource_3irl4")
@@ -3786,13 +3786,13 @@ passage = SubResource("Resource_3irl4")
 
 [sub_resource type="Resource" id="Resource_texcb"]
 script = ExtResource("2_lihs0")
-text = "Milan revient de vacances. Il était à la mer. Il sort les valises de la voiture. Il range ses coquillages dans une boite. Son chat l'attendait a la maison. Maman lave les vêtements pleins de sable. Il voit les photos avec son papa. Il pense déjà a l'école. Il garde de bons souvenirs. Il rit un peu. Il fait beau. Le jour est doux."
+text = "Milan revient de vacances. Il était à la mer. Il sort les valises de la voiture. Il range ses coquillages dans une boite. Son chat l'attendait à la maison. Maman lave les vêtements pleins de sable. Il voit les photos avec son papa. Il pense déjà à l'école. Il garde de bons souvenirs. Il rit un peu. Il fait beau. Le jour est doux."
 
 [sub_resource type="Resource" id="Resource_8cvi4"]
 script = ExtResource("1_kx5v7")
 subject = 6
 text = "D'ou Milan revient-il ?"
-correct_answer = "de vacances a la mer"
+correct_answer = "de vacances à la mer"
 choices = Array[String](["de l'école", "de chez ses cousins", "de la montagne"])
 passage = SubResource("Resource_texcb")
 
@@ -3815,7 +3815,7 @@ passage = SubResource("Resource_texcb")
 [sub_resource type="Resource" id="Resource_xyho7"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Qui attendait Milan a la maison ?"
+text = "Qui attendait Milan à la maison ?"
 correct_answer = "son chat"
 choices = Array[String](["son chien", "son poisson rouge", "personne"])
 passage = SubResource("Resource_texcb")
@@ -3855,9 +3855,9 @@ passage = SubResource("Resource_texcb")
 [sub_resource type="Resource" id="Resource_4ihlb"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Où Milan a-t-il passe ses vacances ?"
-correct_answer = "a la mer"
-choices = Array[String](["a la montagne", "a la campagne", "chez sa mamie"])
+text = "Où Milan à-t-il passe ses vacances ?"
+correct_answer = "à la mer"
+choices = Array[String](["à la montagne", "à la campagne", "chez sa mamie"])
 passage = SubResource("Resource_texcb")
 
 [sub_resource type="Resource" id="Resource_7gbuc"]
@@ -3923,7 +3923,7 @@ passage = SubResource("Resource_22pl2")
 [sub_resource type="Resource" id="Resource_k6s33"]
 script = ExtResource("1_kx5v7")
 subject = 6
-text = "Que dessine Selma a la sortie ?"
+text = "Que dessine Selma à la sortie ?"
 correct_answer = "un papillon"
 choices = Array[String](["une fleur", "une chenille", "un jardin entier"])
 passage = SubResource("Resource_22pl2")

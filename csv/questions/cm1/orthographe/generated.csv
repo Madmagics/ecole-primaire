@@ -1,36 +1,1001 @@
 id;text;correct_answer;choice_2;choice_3;choice_4
-11082;Il pose le livre ___ (à cet endroit).;là;l'a;las;l'as
-11083;Marie ___ vu hier (elle a).;l'a;la;las;l'as
-11084;Tu ___ déjà rencontré (tu l'as).;l'as;la;l'a;las
+11082;Il pose le livre ___.;là;l'a;las;l'as
+11083;Marie ___ vu hier.;l'a;la;las;l'as
+11084;Tu ___ déjà rencontré, ce chanteur.;l'as;la;l'a;las
 11085;Regarde ___-bas, c'est ma maison.;là;l'a;las;l'as
-11086;Il ___ manger avant de partir (a le droit de).;peut;peu;peux;peue
-11087;Je ne ___ pas venir demain (capacité).;peux;peu;peut;peue
-11088;Il reste ___ de temps avant le départ (quantité).;peu;peux;peut;peue
-11089;Tu ___ finir ton assiette (capacité).;peux;peu;peut;peue
-11090;Je préfère ___ le matin que le soir (de préférence).;plutôt;plus tôt;plutôt bien;plu tôt
-11091;Nous sommes arrives ___ que prévu (avant l'heure).;plus tôt;plutôt;plus tard;plutard
+11086;Il ___ manger avant de partir.;peut;peu;peux;peue
+11087;Je ne ___ pas venir demain.;peux;peu;peut;peue
+11088;Il reste ___ de temps avant le départ.;peu;peux;peut;peue
+11089;Tu ___ finir ton assiette.;peux;peu;peut;peue
+11090;Je préfère ___ le matin que le soir.;plutôt;plus tôt;plutôt bien;plu tôt
+11091;Nous sommes arrivés ___ que prévu, avec vingt minutes d'avance.;plus tôt;plutôt;plus tard;plutard
 11092;Il vaut mieux partir ___ que d'attendre.;plutôt;plus tôt;plus tard;plutard
 11093;Elle est arrivée ___ ce matin.;plus tôt;plutôt;plus tard;plutard
 11094;___ que de pleurer, il faut agir.;Plutôt;Plus tôt;Plus tard;Plutard
-11095;Il est parti ___ que d'habitude (avant l'heure).;plus tôt;plutôt;plus tard;plutard
+11095;Il est parti ___ que d'habitude, avant même le lever du soleil.;plus tôt;plutôt;plus tard;plutard
 11096;Je pense qu'il vaut mieux choisir ___ le rouge.;plutôt;plus tôt;plus tard;plutard
-11097;Il n'est ___ arrivé en retard (jamais).;jamais;toujours;souvent;parfois
-11098;Elle vient ___ nous voir (souvent).;souvent;jamais;rarement;toujours
-11099;Nous sommes ___ prêts à l'heure (toujours).;toujours;jamais;rarement;souvent
-11100;Il a ___ fini son travail (déjà).;déjà;encore;jamais;bientôt
-11101;Elle n'a pas ___ terminé (encore).;encore;déjà;jamais;bientôt
-11102;Il fait ___ trop chaud ici (vraiment).;vraiment;beaucoup;assez;trop
-11103;J'ai ___ de devoirs ce soir (beaucoup).;beaucoup;trop;assez;peu
-11104;Il est ___ grand pour son âge (assez).;assez;trop;beaucoup;très
-11105;Elle chante ___ bien (très).;très;trop;assez;beaucoup
-11106;Nous partirons ___ (bientôt).;bientôt;déjà;encore;jamais
+11097;Il n'est ___ arrivé en retard.;jamais;toujours;souvent;parfois
+11098;Elle vient ___ nous voir, presque toutes les semaines.;souvent;jamais;rarement;toujours
+11099;Nous sommes ___ prêts à l'heure, sans aucune exception.;toujours;jamais;rarement;souvent
+11100;Il a ___ fini son travail.;déjà;encore;jamais;bientôt
+11101;Elle n'a pas ___ terminé.;encore;déjà;jamais;bientôt
+11102;Il fait ___ chaud aujourd'hui, on ne peut pas dire le contraire.;vraiment;beaucoup;assez;trop
+11103;J'ai ___ de devoirs ce soir, bien plus que d'habitude.;beaucoup;trop;assez;peu
+11104;Il est ___ grand pour son âge : il dépasse tout juste la taille minimum exigée pour le manège.;assez;trop;beaucoup;très
+11105;Elle chante ___ bien, elle mériterait de passer à la télévision !;très;trop;assez;beaucoup
+11106;Nous partirons ___, dans un instant.;bientôt;déjà;encore;jamais
 11107;Comment écrit-on le verbe 'appeler' avec 'j' au présent ?;j'appelle;j'appelé;j'apelle;j'apele
 11108;Comment écrit-on le verbe 'jeter' avec 'je' au présent ?;je jette;je jeté;je gette;je gete
 11109;Comment s'écrit le mot pour 'endroit où l'on habite' ?;adresse;esserda;adrese;adreesse
 11110;Comment s'écrit le mot pour 'personne qui enseigne' ?;professeur;profeseur;proffeseur;professeure
-11111;Combien de 'r' dans le mot 'arriver' ?;deux;un;trois;zéro
-11112;Combien de 'm' dans le mot 'pomme' ?;deux;un;trois;zéro
-11113;Combien de 'l' dans le mot 'ballon' ?;deux;un;trois;zéro
-11114;Combien de 't' dans le mot 'lettre' ?;deux;un;trois;zéro
+11111;Quelle est la bonne orthographe ?;arriver;ariver;arrriver;arrivre
+11112;Quelle est la bonne orthographe ?;pomme;pome;pommme;pomem
+11113;Quelle est la bonne orthographe ?;ballon;balon;balllon;ballno
+11114;Quelle est la bonne orthographe ?;lettre;letre;letttre;letter
 11115;Comment s'écrit correctement : 'la classe' ou 'la clase' ?;la classe;la clase;la classse;la clace
 11116;Comment s'écrit correctement : 'le tapis' ou 'le tapiss' ?;le tapis;le tapiss;le tapit;le tapix
+36000;Marie ___ trouvée hier.;l'a;la;las;l'as
+36001;Regarde ___-bas, c'est une revue.;là;l'a;las;l'as
+36002;Paul ___ trouvée hier.;l'a;la;las;l'as
+36003;Regarde ___-bas, c'est une lettre.;là;l'a;las;l'as
+36004;Léo ___ trouvée hier.;l'a;la;las;l'as
+36005;Regarde ___-bas, c'est une photo.;là;l'a;las;l'as
+36006;Zoé ___ trouvée hier.;l'a;la;las;l'as
+36007;Regarde ___-bas, c'est une clé.;là;l'a;las;l'as
+36008;Tom ___ trouvée hier.;l'a;la;las;l'as
+36009;Regarde ___-bas, c'est une montre.;là;l'a;las;l'as
+36010;Nina ___ trouvée hier.;l'a;la;las;l'as
+36011;Regarde ___-bas, c'est une balle.;là;l'a;las;l'as
+36012;Hugo ___ trouvée hier.;l'a;la;las;l'as
+36013;Regarde ___-bas, c'est une carte.;là;l'a;las;l'as
+36014;Chloé ___ trouvée hier.;l'a;la;las;l'as
+36015;Regarde ___-bas, c'est une boîte.;là;l'a;las;l'as
+36016;Sami ___ trouvée hier.;l'a;la;las;l'as
+36017;Regarde ___-bas, c'est une valise.;là;l'a;las;l'as
+36018;Louise ___ trouvée hier.;l'a;la;las;l'as
+36019;Regarde ___-bas, c'est une affiche.;là;l'a;las;l'as
+36020;Marie ___ vue hier au marché.;l'a;la;las;l'as
+36021;Paul ___ vue hier au marché.;l'a;la;las;l'as
+36022;Léo ___ vue hier au marché.;l'a;la;las;l'as
+36023;Zoé ___ vue hier au marché.;l'a;la;las;l'as
+36024;Tom ___ vue hier au marché.;l'a;la;las;l'as
+36025;Nina ___ vue hier au marché.;l'a;la;las;l'as
+36026;Hugo ___ vue hier au marché.;l'a;la;las;l'as
+36027;Chloé ___ vue hier au marché.;l'a;la;las;l'as
+36028;Sami ___ vue hier au marché.;l'a;la;las;l'as
+36029;Louise ___ vue hier au marché.;l'a;la;las;l'as
+36030;Il ___ venir demain.;peut;peu;peux;pouvez
+36031;Je ne ___ pas courir vite.;peux;peu;peut;pouvez
+36032;Il reste ___ de pain.;peu;peux;peut;pouvez
+36033;Tu ___ finir ton dessin.;peux;peu;peut;pouvez
+36034;Elle ___ nager longtemps.;peut;peu;peux;pouvez
+36035;Nous avons ___ de temps.;peu;peux;peut;pouvez
+36036;Il ___ partir maintenant.;peut;peu;peux;pouvez
+36037;Je ___ t'aider si tu veux.;peux;peu;peut;pouvez
+36038;Il y a ___ de monde ici.;peu;peux;peut;pouvez
+36039;Vous ___ entrer.;pouvez;peu;peux;peut
+36040;Je préfère ___ le rouge.;plutôt;plus tôt;plus tard;plutard
+36041;Nous sommes arrivés ___ que prévu, bien avant tout le monde.;plus tôt;plutôt;plus tard;plutard
+36042;Il est parti ___ que d'habitude.;plus tôt;plutôt;plus tard;plutard
+36043;Je pense qu'il vaut mieux choisir ___ le bleu.;plutôt;plus tôt;plus tard;plutard
+36044;Le train est parti ___ que d'habitude.;plus tôt;plutôt;plus tard;plutard
+36045;___ deviner, demande directement.;Plutôt;Plus tôt;Plus tard;Plutard
+36046;Réveille-toi ___ demain matin.;plus tôt;plutôt;plus tard;plutard
+36047;Elle n'est ___ arrivée en retard, pas une seule fois.;jamais;toujours;souvent;parfois
+36048;Léo vient ___ nous rendre visite, plusieurs fois par semaine.;souvent;jamais;rarement;toujours
+36049;Il se lève ___ à la même heure, sans aucune exception.;toujours;jamais;rarement;souvent
+36050;Quand la cloche a sonné, Emma avait ___ fini son exercice.;déjà;encore;bientôt;jamais
+36051;Le magasin n'était pas ___ ouvert quand nous sommes passés.;encore;déjà;bientôt;jamais
+36052;Es-tu sûr qu'il est ___ arrivé, ou l'as-tu seulement imaginé?;vraiment;beaucoup;assez;trop
+36053;Il y a ___ d'élèves dans cette école : plus de mille répartis dans quarante classes.;beaucoup;trop;assez;peu
+36054;Le gâteau est ___ sucré : c'est pile la dose qu'il fallait, pas besoin d'en rajouter.;assez;trop;beaucoup;très
+36055;Le film va ___ commencer, dans deux minutes montre en main, dépêchons-nous !;bientôt;déjà;encore;jamais
+36056;Le chat est resté ___ toute la nuit, sous la pluie.;dehors;dedans;dessus;dessous
+36057;Il pleuvait fort, alors elle est restée bien ___, au chaud.;dedans;dehors;dessus;dessous
+36058;Après la tempête, des feuilles mortes se retrouvent ___ dans le jardin, sur chaque brin d'herbe.;partout;ailleurs;nulle part;ici
+36059;"Ce restaurant est complet ce soir ; il faut trouver une table ___.";ailleurs;partout;ici;là
+36060;"Il pleuvait fort ; ils ont ___ décidé de sortir quand même.";cependant;donc;alors;ensuite
+36061;"Le chemin semblait dangereux ; elle a ___ continué sans hésiter.";pourtant;donc;alors;ensuite
+36062;Depuis cet accident, il conduit ___ beaucoup plus prudemment.;désormais;autrefois;jadis;naguère
+36063;Le verre est ___ plein, il ne manque qu'une goutte.;presque;totalement;entièrement;complètement
+36064;Le trajet dure ___ deux heures, à quelques minutes près.;environ;exactement;précisément;juste
+36065;Ils ont discuté ___, pendant plus de trois heures.;longtemps;brièvement;rapidement;aussitôt
+36066;Dès qu'elle a entendu la sonnette, elle a ___ ouvert la porte.;aussitôt;longtemps;tard;lentement
+36067;Dans la phrase 'Il pleut souvent en automne.', quel est l'adverbe invariable ?;souvent;en;automne;pleut
+36068;Dans la phrase 'Nous partons bientôt en vacances.', quel est l'adverbe invariable ?;bientôt;partons;en;vacances
+36069;Dans la phrase 'Ils habitent environ à dix kilomètres.', quel est l'adverbe invariable ?;environ;dix;kilomètres;à
+36070;Dans la phrase 'Le chat dort toujours dans son panier.', quel est l'adverbe invariable ?;toujours;dort;dans;panier
+36071;Dans la phrase 'Cependant, il a réussi.', quel est l'adverbe invariable ?;Cependant;a;il;réussi
+36072;Dans la phrase 'Pourtant, elle a essayé.', quel est l'adverbe invariable ?;Pourtant;elle;a;essayé
+36073;Comment écrit-on le verbe 'étiqueter' avec 'je' au présent ?;j'étiquette;je étiquete;j'étiquete;j'étiquettee
+36074;Comment écrit-on le verbe 'épeler' avec 'je' au présent ?;j'épelle;je épele;j'épele;j'épellee
+36075;Quelle est la bonne orthographe ?;carotte;carote;carottte;carotet
+36076;Quelle est la bonne orthographe ?;chaussette;chaussete;chaussettte;chaussetet
+36077;Quelle est la bonne orthographe ?;bouteille;boutteille;bouteilel;bbouteille
+36078;Quelle est la bonne orthographe ?;addition;adition;adddition;additino
+36079;Quelle est la bonne orthographe ?;collier;colier;colllier;collire
+36080;Quelle est la bonne orthographe ?;grammaire;gramaire;grammmaire;grammaier
+36081;Quelle est la bonne orthographe ?;attention;atention;atttention;attentino
+36082;Quelle est la bonne orthographe ?;nettoyer;netoyer;netttoyer;nettoyre
+36083;Quelle est la bonne orthographe ?;caravane;caravvane;caravaen;ccaravane
+36084;Quelle est la bonne orthographe ?;assiette;assiete;assiettte;assietet
+36085;Quelle est la bonne orthographe ?;bicyclette;bicyclete;bicyclettte;bicycletet
+36086;Quelle est la bonne orthographe ?;cassette;cassete;cassettte;cassetet
+36087;Quelle est la bonne orthographe ?;difficile;dificile;diffficile;difficiel
+36088;Quelle est la bonne orthographe ?;apporter;aporter;appporter;apportre
+36089;Quelle est la bonne orthographe ?;appartement;apartement;apppartement;appartemetn
+36090;Quelle est la bonne orthographe ?;immense;imense;immmense;immenes
+36091;Quelle est la bonne orthographe ?;chatte;chate;chattte;chatet
+36092;Quelle est la bonne orthographe ?;printemps;pprintemps;printemsp;prrintemps
+36093;Quelle est la bonne orthographe ?;ennemi;enemi;ennnemi;enneim
+36094;Quelle est la bonne orthographe ?;intelligent;inteligent;intellligent;intelligetn
+36095;Quelle est la bonne orthographe ?;commencer;comencer;commmencer;commencre
+36096;Quelle est la bonne orthographe ?;gramme;grame;grammme;gramem
+36097;Quelle est la bonne orthographe ?;possible;posible;posssible;possibel
+36098;Quelle est la bonne orthographe ?;professionnel;professionel;professionnnel;professionnle
+36099;Quelle est la bonne orthographe ?;tellement;telement;telllement;tellemetn
+36100;Quelle est la bonne orthographe ?;terrible;terible;terrrible;terribel
+36101;Quelle est la bonne orthographe ?;horrible;horible;horrrible;horribel
+36102;Quelle est la bonne orthographe ?;nappe;nape;napppe;napep
+36103;Quelle est la bonne orthographe ?;trottoir;trotoir;trotttoir;trottori
+36104;Quelle est la bonne orthographe ?;chariot;charriot;charito;cchariot
+36105;Quelle est la bonne orthographe ?;hirondelle;hirondele;hirondellle;hirondelel
+36106;Quelle est la bonne orthographe ?;cannelle;canelle;cannnelle;cannelel
+36107;Quelle est la bonne orthographe ?;dictionnaire;dictionaire;dictionnnaire;dictionnaier
+36108;Quelle est la bonne orthographe ?;questionnaire;questionaire;questionnnaire;questionnaier
+36109;Quelle est la bonne orthographe ?;million;milion;milllion;millino
+36110;Quelle est la bonne orthographe ?;billet;bilet;billlet;billte
+36111;Quelle est la bonne orthographe ?;famille;famile;famillle;familel
+36112;Quelle est la bonne orthographe ?;bataille;bataile;bataillle;batailel
+36113;Quelle est la bonne orthographe ?;médaille;médaile;médaillle;médailel
+36114;Quelle est la bonne orthographe ?;fourmi;fourrmi;fourim;ffourmi
+36115;Quelle est la bonne orthographe ?;tomber;tommber;tombre;ttomber
+36116;Quelle est la bonne orthographe ?;courrier;courier;courrrier;courrire
+36117;Quelle est la bonne orthographe ?;terrasse;terasse;terrrasse;terrases
+36118;Quelle est la bonne orthographe ?;piscine;pisscine;piscien;ppiscine
+36119;Quelle est la bonne orthographe ?;classe;clase;classse;clases
+36120;Quelle est la bonne orthographe ?;bosse;bose;bossse;boses
+36121;Quelle est la bonne orthographe ?;brosse;brose;brossse;broses
+36122;Quelle est la bonne orthographe ?;tasse;tase;tassse;tases
+36123;Quelle est la bonne orthographe ?;masse;mase;massse;mases
+36124;Quelle est la bonne orthographe ?;adresse;adrese;adressse;adreses
+36125;Quelle est la bonne orthographe ?;pinceau;pinnceau;pinceua;ppinceau
+36126;Quelle est la bonne orthographe ?;cheminée;chemminée;chemineé;ccheminée
+36127;Quelle est la bonne orthographe ?;cannette;canette;cannnette;cannetet
+36128;Quelle est la bonne orthographe ?;baguette;baguete;baguettte;baguetet
+36129;Quelle est la bonne orthographe ?;fourchette;fourchete;fourchettte;fourchetet
+36130;Quelle est la bonne orthographe ?;serviette;serviete;serviettte;servietet
+36131;Quelle est la bonne orthographe ?;omelette;omelete;omelettte;omeletet
+36132;Quelle est la bonne orthographe ?;silhouette;silhouete;silhouettte;silhouetet
+36133;Quelle est la bonne orthographe ?;chouette;chouete;chouettte;chouetet
+36134;Quelle est la bonne orthographe ?;sommeil;someil;sommmeil;sommeli
+36135;Quelle est la bonne orthographe ?;comme;come;commme;comem
+36136;Quelle est la bonne orthographe ?;gomme;gome;gommme;gomem
+36137;Quelle est la bonne orthographe ?;appeler;apeler;apppeler;appelre
+36138;Quelle est la bonne orthographe ?;appartenir;apartenir;apppartenir;appartenri
+36139;Quelle est la bonne orthographe ?;apprendre;aprendre;appprendre;apprender
+36140;Quelle est la bonne orthographe ?;approcher;aprocher;appprocher;approchre
+36141;Quelle est la bonne orthographe ?;allumer;alumer;alllumer;allumre
+36142;Quelle est la bonne orthographe ?;aller;aler;alller;allre
+36143;Quelle est la bonne orthographe ?;cassette;casette;casssette;cassetet
+36144;Quelle est la bonne orthographe ?;cheveux;cheeveux;chevexu;ccheveux
+36145;Emma ___ appelée hier soir.;l'a;la;las;l'as
+36146;Camille ___ appelée hier soir.;l'a;la;las;l'as
+36147;Manon ___ appelée hier soir.;l'a;la;las;l'as
+36148;Louise ___ appelée hier soir.;l'a;la;las;l'as
+36149;Alice ___ appelée hier soir.;l'a;la;las;l'as
+36150;Inès ___ appelée hier soir.;l'a;la;las;l'as
+36151;Julia ___ appelée hier soir.;l'a;la;las;l'as
+36152;Rose ___ appelée hier soir.;l'a;la;las;l'as
+36153;Anna ___ appelée hier soir.;l'a;la;las;l'as
+36154;Jade ___ appelée hier soir.;l'a;la;las;l'as
+36155;Enzo ___ appelée hier soir.;l'a;la;las;l'as
+36156;Nathan ___ appelée hier soir.;l'a;la;las;l'as
+36157;Gabriel ___ appelée hier soir.;l'a;la;las;l'as
+36158;Adam ___ appelée hier soir.;l'a;la;las;l'as
+36159;Louis ___ appelée hier soir.;l'a;la;las;l'as
+36160;Noah ___ appelée hier soir.;l'a;la;las;l'as
+36161;Mathis ___ appelée hier soir.;l'a;la;las;l'as
+36162;Ethan ___ appelée hier soir.;l'a;la;las;l'as
+36163;Karim ___ appelée hier soir.;l'a;la;las;l'as
+36164;Raphaël ___ appelée hier soir.;l'a;la;las;l'as
+36165;Range ___ montre ici.;la;l'a;las;l'as
+36166;Range ___ boite ici.;la;l'a;las;l'as
+36167;Range ___ carte ici.;la;l'a;las;l'as
+36168;Range ___ gomme ici.;la;l'a;las;l'as
+36169;Range ___ veste ici.;la;l'a;las;l'as
+36170;Range ___ recette ici.;la;l'a;las;l'as
+36171;Range ___ tarte ici.;la;l'a;las;l'as
+36172;Range ___ trousse ici.;la;l'a;las;l'as
+36173;Range ___ règle ici.;la;l'a;las;l'as
+36174;Range ___ balle ici.;la;l'a;las;l'as
+36175;Il a laissé son sac ___-bas, près de la table.;là;l'a;la;l'as
+36176;Il a laissé son sac ___-bas, près de la fenêtre.;là;l'a;la;l'as
+36177;Il a laissé son sac ___-bas, près de la porte.;là;l'a;la;l'as
+36178;Il a laissé son sac ___-bas, près de la lampe.;là;l'a;la;l'as
+36179;Il a laissé son sac ___-bas, près de la bibliothèque.;là;l'a;la;l'as
+36180;Il a laissé son sac ___-bas, près de la recette.;là;l'a;la;l'as
+36181;Il a laissé son sac ___-bas, près de la tarte.;là;l'a;la;l'as
+36182;Il a laissé son sac ___-bas, près de la chambre.;là;l'a;la;l'as
+36183;Il a laissé son sac ___-bas, près de la salle.;là;l'a;la;l'as
+36184;Il a laissé son sac ___-bas, près de la cour.;là;l'a;la;l'as
+36185;Elle ne ___ pas dormir ce soir.;peut;peuvent;peu;peux
+36186;Nous ___ vous accompagner si besoin.;pouvons;pouvez;peu;peut
+36187;Il se sent ___ fatigué aujourd'hui.;peu;peuvent;pouvons;peux
+36188;Vous ___ répondre à cette question.;pouvez;peu;peuvent;pouvons
+36189;Ils ___ partir dès maintenant.;peuvent;peux;pouvons;pouvez
+36190;Je ___ patienter encore un peu.;peux;peut;peu;pouvons
+36191;Il reste ___ de neige sur la route.;peu;peut;pouvez;peux
+36192;Tu ___ toujours essayer.;peux;pouvons;pouvez;peut
+36193;Il vaudrait mieux partir ___, avant que la pluie ne commence.;plus tôt;plutôt;plus tard;plutard
+36194;Nous préférons ___ rester ici.;plutôt;plus tôt;plus tard;plutard
+36195;Elle est rentrée ___ que ses amies.;plus tôt;plutôt;plus tard;plutard
+36196;___ que de te plaindre, agis !;Plutôt;Plus tôt;Plus tard;Plutard
+36197;Le réveil a sonné ___ que d'habitude.;plus tôt;plutôt;plus tard;plutard
+36198;Dans la phrase 'Il fait très beau ce matin.', quel est l'adverbe invariable ?;très;fait;beau;matin
+36199;Dans la phrase 'Ils arrivent tard le soir.', quel est l'adverbe invariable ?;tard;arrivent;le;soir
+36200;Dans la phrase 'Range tes affaires devant la porte.', quelle est la préposition invariable ?;devant;tes;la;porte
+36201;Dans la phrase 'Le chat se cache derrière le canapé.', quelle est la préposition invariable ?;derrière;canapé;se;chat
+36202;Dans la phrase 'Il joue dehors malgré la pluie.', quel est l'adverbe invariable ?;dehors;malgré;pluie;la
+36203;Dans la phrase 'Elle range ses jouets dedans.', quel est l'adverbe invariable ?;dedans;range;jouets;ses
+36204;Dans la phrase 'Il vit seul dans cette maison.', quelle est la préposition invariable ?;dans;vit;cette;seul
+36205;Quelle est la bonne orthographe ?;chatouiller;cchatouiller;chatouillre;chhatouiller
+36206;Quelle est la bonne orthographe ?;terrain;terain;terrrain;terrani
+36207;Quelle est la bonne orthographe ?;cueillette;cueilette;cueilllette;cueilletet
+36208;Quelle est la bonne orthographe ?;favori;favvori;favoir;ffavori
+36209;Quelle est la bonne orthographe ?;semaine;semmaine;semaien;ssemaine
+36210;Quelle est la bonne orthographe ?;incendie;inncendie;incendei;inccendie
+36211;Quelle est la bonne orthographe ?;lampion;lammpion;lampino;llampion
+36212;Quelle est la bonne orthographe ?;déjeuner;déjjeuner;déjeunre;ddéjeuner
+36213;Quelle est la bonne orthographe ?;ordonnance;orddonnance;ordonnanec;orrdonnance
+36214;Quelle est la bonne orthographe ?;spectacle;specttacle;spectacel;sspectacle
+36215;Quelle est la bonne orthographe ?;camion;cammion;camino;ccamion
+36216;Quelle est la bonne orthographe ?;télévision;télévvision;télévisino;ttélévision
+36217;Quelle est la bonne orthographe ?;empereur;emppereur;empereru;emmpereur
+36218;Quelle est la bonne orthographe ?;allumette;allumete;allumettte;allumetet
+36219;Quelle est la bonne orthographe ?;vaisselle;vvaisselle;vaisselel;vàisselle
+36220;Quelle est la bonne orthographe ?;koala;kkoala;koaal;koalla
+36221;Quelle est la bonne orthographe ?;anniversaire;anniverrsaire;anniversaier;annivversaire
+36222;Quelle est la bonne orthographe ?;mademoiselle;mmademoiselle;mademoiselel;maddemoiselle
+36223;Quelle est la bonne orthographe ?;fontaine;ffontaine;fontaien;fonntaine
+36224;Quelle est la bonne orthographe ?;traversée;traverssée;traverseé;ttraversée
+36225;Quelle est la bonne orthographe ?;village;vilage;villlage;villaeg
+36226;Quelle est la bonne orthographe ?;ressembler;resembler;resssembler;ressemblre
+36227;Quelle est la bonne orthographe ?;imprimer;immprimer;imprimre;impprimer
+36228;Quelle est la bonne orthographe ?;exercice;exerccice;exerciec;exxercice
+36229;Quelle est la bonne orthographe ?;attraper;attrraper;attrapre;attrapper
+36230;Quelle est la bonne orthographe ?;message;messagge;messaeg;mmessage
+36231;Quelle est la bonne orthographe ?;machine;macchine;machien;mmachine
+36232;Quelle est la bonne orthographe ?;voisin;vvoisin;voisni;voissin
+36233;Quelle est la bonne orthographe ?;policier;pollicier;policire;ppolicier
+36234;Quelle est la bonne orthographe ?;hérisson;hérison;hérissson;hérissno
+36235;Quelle est la bonne orthographe ?;affaire;afaire;afffaire;affaier
+36236;Quelle est la bonne orthographe ?;costume;ccostume;costuem;cosstume
+36237;Quelle est la bonne orthographe ?;quotidien;qquotidien;quotidine;quottidien
+36238;Quelle est la bonne orthographe ?;immeuble;immeublle;immeubel;immeubble
+36239;Quelle est la bonne orthographe ?;griller;griler;grilller;grillre
+36240;Quelle est la bonne orthographe ?;oiseau;oisseau;oiseua;ôiseau
+36241;Quelle est la bonne orthographe ?;admettre;admmettre;admetter;addmettre
+36242;Quelle est la bonne orthographe ?;jonquille;jjonquille;jonquilel;jonnquille
+36243;Quelle est la bonne orthographe ?;félicitation;félicittation;félicitatino;ffélicitation
+36244;Quelle est la bonne orthographe ?;oreille;orreille;oreilel;ôreille
+36245;Quelle est la bonne orthographe ?;emmener;emener;emmmener;emmenre
+36246;Quelle est la bonne orthographe ?;raquette;raqquette;raquetet;rraquette
+36247;Quelle est la bonne orthographe ?;lapin;lappin;lapni;llapin
+36248;Quelle est la bonne orthographe ?;meuble;meubble;meubel;mmeuble
+36249;Quelle est la bonne orthographe ?;miroir;mmiroir;mirori;mirroir
+36250;Quelle est la bonne orthographe ?;sandwich;sanddwich;sandwihc;ssandwich
+36251;Quelle est la bonne orthographe ?;nuage;nnuage;nuaeg;nuagge
+36252;Quelle est la bonne orthographe ?;étiquette;étiqquette;étiquetet;etiquette
+36253;Quelle est la bonne orthographe ?;attitude;atitude;atttitude;attitued
+36254;Quelle est la bonne orthographe ?;yaourt;yaourtt;yaoutr;yaourrt
+36255;Quelle est la bonne orthographe ?;recommander;recommandder;recommandre;rrecommander
+36256;Quelle est la bonne orthographe ?;cinéma;ccinéma;cinéam;cinnéma
+36257;Quelle est la bonne orthographe ?;verglas;vergllas;verglsa;vverglas
+36258;Quelle est la bonne orthographe ?;menuisier;menuisierr;menuisire;mmenuisier
+36259;Quelle est la bonne orthographe ?;corridor;ccorridor;corridro;corriddor
+36260;Quelle est la bonne orthographe ?;malheur;mmalheur;malheru;mallheur
+36261;Quelle est la bonne orthographe ?;voyage;vvoyage;voyaeg;voyagge
+36262;Quelle est la bonne orthographe ?;flamme;fflamme;flamem;fllamme
+36263;Quelle est la bonne orthographe ?;passeport;passeportt;passepotr;ppasseport
+36264;Quelle est la bonne orthographe ?;rassembler;rassembller;rassemblre;rrassembler
+36265;Quelle est la bonne orthographe ?;rondelle;rondele;rondellle;rondelel
+36266;Quelle est la bonne orthographe ?;usine;ussine;usien;usinne
+36267;Quelle est la bonne orthographe ?;timbre;timbrre;timber;ttimbre
+36268;Quelle est la bonne orthographe ?;grimper;ggrimper;grimpre;grrimper
+36269;Quelle est la bonne orthographe ?;mouette;mmouette;mouetet;môuette
+36270;Quelle est la bonne orthographe ?;tuyau;ttuyau;tuyua;tûyau
+36271;Quelle est la bonne orthographe ?;horloge;horlloge;horloeg;hhorloge
+36272;Quelle est la bonne orthographe ?;promenade;prromenade;promenaed;ppromenade
+36273;Quelle est la bonne orthographe ?;lentille;lenttille;lentilel;lenntille
+36274;Quelle est la bonne orthographe ?;fripon;frippon;fripno;ffripon
+36275;Quelle est la bonne orthographe ?;bouillir;bbouillir;bouillri;bouillirr
+36276;Quelle est la bonne orthographe ?;assis;asis;asssis;asssi
+36277;Quelle est la bonne orthographe ?;ruisseau;rruisseau;ruisseua;rûisseau
+36278;Quelle est la bonne orthographe ?;ennuyer;ennuyerr;ennuyre;énnuyer
+36279;Quelle est la bonne orthographe ?;souris;ssouris;soursi;sourris
+36280;Quelle est la bonne orthographe ?;vagabond;vaggabond;vagabodn;vvagabond
+36281;Quelle est la bonne orthographe ?;renard;renardd;renadr;rrenard
+36282;Quelle est la bonne orthographe ?;directeur;directteur;directeru;ddirecteur
+36283;Quelle est la bonne orthographe ?;équipe;éqquipe;équiep;équippe
+36284;Quelle est la bonne orthographe ?;vallée;valée;valllée;valleé
+36285;Quelle est la bonne orthographe ?;territoire;teritoire;terrritoire;territoier
+36286;Quelle est la bonne orthographe ?;couronne;courone;couronnne;couronen
+36287;Quelle est la bonne orthographe ?;mystère;mystèrre;mystèer;mmystère
+36288;Quelle est la bonne orthographe ?;voyageur;vvoyageur;voyageru;voyaggeur
+36289;Quelle est la bonne orthographe ?;potager;potagerr;potagre;ppotager
+36290;Quelle est la bonne orthographe ?;plumier;plumierr;plumire;pplumier
+36291;Quelle est la bonne orthographe ?;opposer;opposser;opposre;opposerr
+36292;Quelle est la bonne orthographe ?;poisson;poison;poissson;poissno
+36293;Quelle est la bonne orthographe ?;ordinateur;ordinatteur;ordinateru;orrdinateur
+36294;Quelle est la bonne orthographe ?;omelette;omellette;omeletet;ommelette
+36295;Quelle est la bonne orthographe ?;repas;reppas;repsa;rrepas
+36296;Quelle est la bonne orthographe ?;famille;fammille;familel;ffamille
+36297;Quelle est la bonne orthographe ?;lumière;llumière;lumièer;lummière
+36298;Quelle est la bonne orthographe ?;exposition;expossition;expositino;exxposition
+36299;Quelle est la bonne orthographe ?;laboratoire;labboratoire;laboratoier;llaboratoire
+36300;Quelle est la bonne orthographe ?;université;unniversité;universiét;univversité
+36301;Quelle est la bonne orthographe ?;planète;pllanète;planèet;pplanète
+36302;Quelle est la bonne orthographe ?;serrure;sserrure;serruer;sérrure
+36303;Quelle est la bonne orthographe ?;interdit;interddit;interdti;innterdit
+36304;Quelle est la bonne orthographe ?;confiture;confitture;confituer;cconfiture
+36305;Quelle est la bonne orthographe ?;bonhomme;bbonhomme;bonhomem;bonnhomme
+36306;Quelle est la bonne orthographe ?;domicile;domiccile;domiciel;ddomicile
+36307;Quelle est la bonne orthographe ?;gazon;gazzon;gazno;ggazon
+36308;Quelle est la bonne orthographe ?;nourriture;nnourriture;nourrituer;nourritture
+36309;Quelle est la bonne orthographe ?;grillon;grillonn;grillno;ggrillon
+36310;Quelle est la bonne orthographe ?;escalier;esscalier;escalire;esccalier
+36311;Quelle est la bonne orthographe ?;tremplin;trempplin;tremplni;ttremplin
+36312;Quelle est la bonne orthographe ?;panier;ppanier;panire;pannier
+36313;Quelle est la bonne orthographe ?;bijou;bijjou;bijuo;bbijou
+36314;Quelle est la bonne orthographe ?;souhait;souhaitt;souhati;ssouhait
+36315;Quelle est la bonne orthographe ?;trompette;trommpette;trompetet;trrompette
+36316;Quelle est la bonne orthographe ?;laine;lainne;laien;llaine
+36317;Quelle est la bonne orthographe ?;charrette;charrete;charrettte;charretet
+36318;Quelle est la bonne orthographe ?;appareil;appareill;appareli;apparreil
+36319;Quelle est la bonne orthographe ?;phrase;phrasse;phraes;pphrase
+36320;Quelle est la bonne orthographe ?;cahier;ccahier;cahhier;cahire
+36321;Quelle est la bonne orthographe ?;marionnette;marrionnette;marionnetet;mmarionnette
+36322;Quelle est la bonne orthographe ?;orage;orrage;oraeg;oragge
+36323;Quelle est la bonne orthographe ?;fillette;filette;filllette;filletet
+36324;Quelle est la bonne orthographe ?;radio;rradio;radoi;raddio
+36325;Quelle est la bonne orthographe ?;tempête;temppête;tempêet;ttempête
+36326;Quelle est la bonne orthographe ?;pirate;piratte;piraet;ppirate
+36327;Quelle est la bonne orthographe ?;chandelle;channdelle;chandelel;cchandelle
+36328;Quelle est la bonne orthographe ?;banquette;banquete;banquettte;banquetet
+36329;Quelle est la bonne orthographe ?;délicieux;déliccieux;déliciexu;ddélicieux
+36330;Quelle est la bonne orthographe ?;beignet;beignett;beignte;bbeignet
+36331;Quelle est la bonne orthographe ?;affreux;affrreux;affrexu;affreuxx
+36332;Quelle est la bonne orthographe ?;crapaud;ccrapaud;crapadu;crrapaud
+36333;Quelle est la bonne orthographe ?;excellent;excellentt;excelletn;exxcellent
+36334;Quelle est la bonne orthographe ?;occasion;ocasion;occcasion;occasino
+36335;Quelle est la bonne orthographe ?;spatule;spatulle;spatuel;sspatule
+36336;Quelle est la bonne orthographe ?;cassure;cassurre;cassuer;ccassure
+36337;Quelle est la bonne orthographe ?;échelle;écchelle;échelel;échhelle
+36338;Quelle est la bonne orthographe ?;casquette;ccasquette;casquetet;cassquette
+36339;Quelle est la bonne orthographe ?;respirer;resspirer;respirre;rrespirer
+36340;Quelle est la bonne orthographe ?;sympathique;sympathiqque;sympathiqeu;ssympathique
+36341;Quelle est la bonne orthographe ?;squelette;sqquelette;squeletet;ssquelette
+36342;Quelle est la bonne orthographe ?;remercier;remerccier;remercire;rremercier
+36343;Quelle est la bonne orthographe ?;agrandir;agranndir;agrandri;aggrandir
+36344;Quelle est la bonne orthographe ?;apporter;apportter;apportre;apporrter
+36345;Quelle est la bonne orthographe ?;amitié;ammitié;amitéi;amittié
+36346;Quelle est la bonne orthographe ?;zoologique;zoologgique;zoologiqeu;zzoologique
+36347;Quelle est la bonne orthographe ?;dictionnaire;dictionnairre;dictionnaier;ddictionnaire
+36348;Quelle est la bonne orthographe ?;quartier;quarrtier;quartire;qquartier
+36349;Quelle est la bonne orthographe ?;habitude;habbitude;habitued;hhabitude
+36350;Quelle est la bonne orthographe ?;vestiaire;vestiairre;vestiaier;vvestiaire
+36351;Quelle est la bonne orthographe ?;allée;alée;alllée;alleé
+36352;Quelle est la bonne orthographe ?;vaisseau;vaiseau;vaissseau;vaisseua
+36353;Quelle est la bonne orthographe ?;lunette;lunete;lunettte;lunetet
+36354;Quelle est la bonne orthographe ?;effacer;effaccer;effacre;effacerr
+36355;Quelle est la bonne orthographe ?;tartine;tartinne;tartien;ttartine
+36356;Quelle est la bonne orthographe ?;violette;vviolette;violetet;viollette
+36357;Quelle est la bonne orthographe ?;vitrine;vvitrine;vitrien;vittrine
+36358;Quelle est la bonne orthographe ?;parcourir;parccourir;parcourri;pparcourir
+36359;Quelle est la bonne orthographe ?;dimanche;ddimanche;dimanceh;dimmanche
+36360;Quelle est la bonne orthographe ?;jardinier;jardinnier;jardinire;jjardinier
+36361;Quelle est la bonne orthographe ?;important;imporrtant;importatn;immportant
+36362;Quelle est la bonne orthographe ?;volcan;vollcan;volcna;vvolcan
+36363;Quelle est la bonne orthographe ?;fourrure;ffourrure;fourruer;fôurrure
+36364;Quelle est la bonne orthographe ?;pommier;pommierr;pommire;ppommier
+36365;Quelle est la bonne orthographe ?;appartenir;apparttenir;appartenri;apparrtenir
+36366;Quelle est la bonne orthographe ?;surprendre;surpprendre;surprender;ssurprendre
+36367;Quelle est la bonne orthographe ?;rivière;rivvière;rivièer;rrivière
+36368;Quelle est la bonne orthographe ?;céréale;ccéréale;céréael;cérréale
+36369;Quelle est la bonne orthographe ?;tabouret;ttabouret;tabourte;tabbouret
+36370;Quelle est la bonne orthographe ?;élastique;élasstique;élastiqeu;éllastique
+36371;Quelle est la bonne orthographe ?;statue;sttatue;stateu;sstatue
+36372;Quelle est la bonne orthographe ?;pelouse;pellouse;peloues;ppelouse
+36373;Quelle est la bonne orthographe ?;entourer;enttourer;entourre;enntourer
+36374;Quelle est la bonne orthographe ?;vélo;vvélo;véol;véllo
+36375;Quelle est la bonne orthographe ?;joyeux;jjoyeux;joyexu;joyeuxx
+36376;Quelle est la bonne orthographe ?;emporter;empporter;emportre;emmporter
+36377;Quelle est la bonne orthographe ?;catastrophe;catasstrophe;catastropeh;ccatastrophe
+36378;Quelle est la bonne orthographe ?;acrobate;acrobbate;acrobaet;accrobate
+36379;Quelle est la bonne orthographe ?;paysage;paysagge;paysaeg;ppaysage
+36380;Quelle est la bonne orthographe ?;récréation;récréattion;récréatino;rrécréation
+36381;Quelle est la bonne orthographe ?;interrompre;interrommpre;interromper;innterrompre
+36382;Quelle est la bonne orthographe ?;illustration;illusstration;illustratino;illusttration
+36383;Quelle est la bonne orthographe ?;moquette;mmoquette;moquetet;moqquette
+36384;Quelle est la bonne orthographe ?;caillou;ccaillou;cailluo;çaillou
+36385;Quelle est la bonne orthographe ?;bonjour;bonjourr;bonjoru;bbonjour
+36386;Quelle est la bonne orthographe ?;hurler;hurller;hurlre;hhurler
+36387;Quelle est la bonne orthographe ?;infirmier;infirmmier;infirmire;innfirmier
+36388;Quelle est la bonne orthographe ?;approuver;apprrouver;approuvre;approuvver
+36389;Quelle est la bonne orthographe ?;irrégulier;irégulier;irrrégulier;irrégulire
+36390;Quelle est la bonne orthographe ?;tranquille;trranquille;tranquilel;ttranquille
+36391;Quelle est la bonne orthographe ?;bibliothèque;bibliothèqque;bibliothèqeu;bbibliothèque
+36392;Quelle est la bonne orthographe ?;gazelle;ggazelle;gazelel;gazzelle
+36393;Quelle est la bonne orthographe ?;département;départtement;départemetn;ddépartement
+36394;Quelle est la bonne orthographe ?;déranger;ddéranger;dérangre;dérranger
+36395;Quelle est la bonne orthographe ?;manteau;mmanteau;manteua;mannteau
+36396;Quelle est la bonne orthographe ?;sauterelle;sauterrelle;sauterelel;ssauterelle
+36397;Quelle est la bonne orthographe ?;rossignol;rossignnol;rossignlo;rrossignol
+36398;Quelle est la bonne orthographe ?;tomate;ttomate;tomaet;tommate
+36399;Quelle est la bonne orthographe ?;savon;savonn;savno;ssavon
+36400;Quelle est la bonne orthographe ?;brouette;bbrouette;brouetet;brrouette
+36401;Quelle est la bonne orthographe ?;énorme;énorrme;énorem;énnorme
+36402;Quelle est la bonne orthographe ?;essuyer;essuyerr;essuyre;éssuyer
+36403;Quelle est la bonne orthographe ?;gouvernail;gouvernaill;gouvernali;ggouvernail
+36404;Quelle est la bonne orthographe ?;indiquer;indiqquer;indiqure;inndiquer
+36405;Quelle est la bonne orthographe ?;occuper;ocuper;occcuper;occupre
+36406;Quelle est la bonne orthographe ?;kilomètre;kilomètrre;kilomèter;kkilomètre
+36407;Quelle est la bonne orthographe ?;fantôme;fanttôme;fantôem;ffantôme
+36408;Quelle est la bonne orthographe ?;citrouille;cittrouille;citrouilel;ccitrouille
+36409;Quelle est la bonne orthographe ?;girafe;girrafe;giraef;ggirafe
+36410;Quelle est la bonne orthographe ?;personnage;perssonnage;personnaeg;ppersonnage
+36411;Quelle est la bonne orthographe ?;poule;poulle;pouel;ppoule
+36412;Quelle est la bonne orthographe ?;caisse;caise;caissse;caises
+36413;Quelle est la bonne orthographe ?;passager;passagger;passagre;ppassager
+36414;Quelle est la bonne orthographe ?;crevette;crrevette;crevetet;ccrevette
+36415;Quelle est la bonne orthographe ?;batterie;bbatterie;batterei;batterrie
+36416;Quelle est la bonne orthographe ?;librairie;libbrairie;librairei;llibrairie
+36417;Quelle est la bonne orthographe ?;chocolat;chocollat;chocolta;cchocolat
+36418;Quelle est la bonne orthographe ?;rougeole;rrougeole;rougeoel;rouggeole
+36419;Quelle est la bonne orthographe ?;offrir;ofrir;offfrir;offrri
+36420;Quelle est la bonne orthographe ?;siffler;siffller;sifflre;ssiffler
+36421;Quelle est la bonne orthographe ?;tortue;torrtue;torteu;ttortue
+36422;Quelle est la bonne orthographe ?;commande;commannde;commaned;ccommande
+36423;Quelle est la bonne orthographe ?;barrière;bbarrière;barrièer;barriere
+36424;Quelle est la bonne orthographe ?;bonbonnière;bonbonnièrre;bonbonnièer;bbonbonnière
+36425;Quelle est la bonne orthographe ?;affiche;afficche;afficeh;affichhe
+36426;Quelle est la bonne orthographe ?;triangle;trianngle;triangel;ttriangle
+36427;Quelle est la bonne orthographe ?;attaquer;attaqquer;attaqure;attaquerr
+36428;Quelle est la bonne orthographe ?;papillon;papillonn;papillno;ppapillon
+36429;Quelle est la bonne orthographe ?;ficelle;ficele;ficellle;ficelel
+36430;Quelle est la bonne orthographe ?;montagne;monntagne;montagen;mmontagne
+36431;Quelle est la bonne orthographe ?;mission;mmission;missino;missionn
+36432;Quelle est la bonne orthographe ?;magicien;mmagicien;magicine;maggicien
+36433;Quelle est la bonne orthographe ?;écureuil;écureuill;écureuli;éccureuil
+36434;Quelle est la bonne orthographe ?;habiller;habiler;habilller;habillre
+36435;Quelle est la bonne orthographe ?;collection;collecttion;collectino;ccollection
+36436;Quelle est la bonne orthographe ?;abeille;abeile;abeillle;abeilel
+36437;Quelle est la bonne orthographe ?;médecin;médecinn;médecni;mmédecin
+36438;Quelle est la bonne orthographe ?;quiche;quicche;quiceh;qquiche
+36439;Quelle est la bonne orthographe ?;capitaine;cappitaine;capitaien;ccapitaine
+36440;Quelle est la bonne orthographe ?;perroquet;perroqquet;perroqute;pperroquet
+36441;Quelle est la bonne orthographe ?;embarquer;embbarquer;embarqure;emmbarquer
+36442;Quelle est la bonne orthographe ?;accident;acciddent;accidetn;accidennt
+36443;Quelle est la bonne orthographe ?;attendre;attenddre;attender;attenndre
+36444;Quelle est la bonne orthographe ?;surveiller;survveiller;surveillre;ssurveiller
+36445;Quelle est la bonne orthographe ?;grenouille;grennouille;grenouilel;ggrenouille
+36446;Quelle est la bonne orthographe ?;paresseux;pparesseux;paressexu;parresseux
+36447;Quelle est la bonne orthographe ?;parapluie;parrapluie;parapluei;pparapluie
+36448;Quelle est la bonne orthographe ?;pastèque;ppastèque;pastèqeu;passtèque
+36449;Quelle est la bonne orthographe ?;croissant;croisant;croisssant;croissatn
+36450;Quelle est la bonne orthographe ?;dommage;domage;dommmage;dommaeg
+36451;Quelle est la bonne orthographe ?;antenne;antene;antennne;antenen
+36452;Quelle est la bonne orthographe ?;prairie;pprairie;prairei;prrairie
+36453;Quelle est la bonne orthographe ?;vignoble;vvignoble;vignobel;viggnoble
+36454;Quelle est la bonne orthographe ?;saluer;salluer;salure;ssaluer
+36455;Quelle est la bonne orthographe ?;préparer;ppréparer;préparre;prréparer
+36456;Quelle est la bonne orthographe ?;vacances;vaccances;vacancse;vvacances
+36457;Quelle est la bonne orthographe ?;innocent;innocentt;innocetn;innoccent
+36458;Quelle est la bonne orthographe ?;applaudir;applaudirr;applaudri;appllaudir
+36459;Quelle est la bonne orthographe ?;dauphin;daupphin;dauphni;ddauphin
+36460;Quelle est la bonne orthographe ?;hôtesse;hôtese;hôtessse;hôteses
+36461;Quelle est la bonne orthographe ?;devoirs;devoirss;devoisr;ddevoirs
+36462;Quelle est la bonne orthographe ?;soleil;ssoleil;soleli;solleil
+36463;Quelle est la bonne orthographe ?;anneau;aneau;annneau;anneua
+36464;Quelle est la bonne orthographe ?;discussion;discussionn;discussino;ddiscussion
+36465;Quelle est la bonne orthographe ?;obligation;obligattion;obligatino;obbligation
+36466;Quelle est la bonne orthographe ?;aigrette;aaigrette;aigretet;aiggrette
+36467;Quelle est la bonne orthographe ?;moustique;mousstique;moustiqeu;mmoustique
+36468;Quelle est la bonne orthographe ?;continuer;contiinuer;continure;ccontinuer
+36469;Quelle est la bonne orthographe ?;réfléchir;réflécchir;réfléchri;rréfléchir
+36470;Quelle est la bonne orthographe ?;compagnie;commpagnie;compagnei;ccompagnie
+36471;Quelle est la bonne orthographe ?;consommer;consommeer;consommre;cconsommer
+36472;Quelle est la bonne orthographe ?;conseiller;connseiller;conseillre;cconseiller
+36473;Quelle est la bonne orthographe ?;application;aapplication;applicatino;appllication
+36474;Quelle est la bonne orthographe ?;assister;assisteer;assistre;assistter
+36475;Quelle est la bonne orthographe ?;résumé;rrésumé;résuém;réssumé
+36476;Quelle est la bonne orthographe ?;favorite;ffavorite;favoriet;favvorite
+36477;Quelle est la bonne orthographe ?;participation;partticipation;participatino;pparticipation
+36478;Quelle est la bonne orthographe ?;négociation;négociattion;négociatino;nnégociation
+36479;Quelle est la bonne orthographe ?;carrefour;ccarrefour;carreforu;carreffour
+36480;Quelle est la bonne orthographe ?;atterrir;atterriir;atterrri;àtterrir
+36481;Quelle est la bonne orthographe ?;continuer;conttinuer;continure;ccontinuer
+36482;Quelle est la bonne orthographe ?;communiquer;comuniquer;commmuniquer;communiqure
+36483;Quelle est la bonne orthographe ?;organisation;organiisation;organisatino;orrganisation
+36484;Quelle est la bonne orthographe ?;cadenas;caadenas;cadensa;ccadenas
+36485;Quelle est la bonne orthographe ?;musicien;musicienn;musicine;mmusicien
+36486;Quelle est la bonne orthographe ?;dessert;ddessert;dessetr;desserrt
+36487;Quelle est la bonne orthographe ?;bagarre;baagarre;bagarer;bbagarre
+36488;Quelle est la bonne orthographe ?;fermeture;fermmeture;fermetuer;ffermeture
+36489;Quelle est la bonne orthographe ?;observation;obseervation;observatino;obbservation
+36490;Quelle est la bonne orthographe ?;balcon;balconn;balcno;bbalcon
+36491;Quelle est la bonne orthographe ?;brosser;broosser;brossre;bbrosser
+36492;Quelle est la bonne orthographe ?;importance;importaance;importanec;immportance
+36493;Quelle est la bonne orthographe ?;application;applicattion;applicatino;appllication
+36494;Quelle est la bonne orthographe ?;passerelle;paasserelle;passerelel;ppasserelle
+36495;Quelle est la bonne orthographe ?;communiquer;commuuniquer;communiqure;ccommuniquer
+36496;Quelle est la bonne orthographe ?;festival;ffestival;festivla;fesstival
+36497;Quelle est la bonne orthographe ?;festival;festivall;festivla;ffestival
+36498;Quelle est la bonne orthographe ?;particulier;particulieer;particulire;pparticulier
+36499;Quelle est la bonne orthographe ?;municipal;municippal;municipla;mmunicipal
+36500;Quelle est la bonne orthographe ?;baladeur;balladeur;baladeru;bbaladeur
+36501;Quelle est la bonne orthographe ?;comparer;ccomparer;comparre;commparer
+36502;Quelle est la bonne orthographe ?;participation;paarticipation;participatino;pparticipation
+36503;Quelle est la bonne orthographe ?;grattoir;graattoir;grattori;ggrattoir
+36504;Quelle est la bonne orthographe ?;journalier;jourrnalier;journalire;jjournalier
+36505;Quelle est la bonne orthographe ?;observation;observationn;observatino;obbservation
+36506;Quelle est la bonne orthographe ?;abbaye;abbayee;abbaey;àbbaye
+36507;Quelle est la bonne orthographe ?;escargot;esscargot;escargto;esccargot
+36508;Quelle est la bonne orthographe ?;natte;naatte;natet;nnatte
+36509;Quelle est la bonne orthographe ?;dessin;desin;desssin;dessni
+36510;Quelle est la bonne orthographe ?;recommencer;reccommencer;recommencre;rrecommencer
+36511;Quelle est la bonne orthographe ?;monnaie;monnaaie;monnaei;mmonnaie
+36512;Quelle est la bonne orthographe ?;atelier;aatelier;atellier;atelire
+36513;Quelle est la bonne orthographe ?;mitraille;mitrraille;mitrailel;mmitraille
+36514;Quelle est la bonne orthographe ?;limonade;llimonade;limonnade;limonaed
+36515;Quelle est la bonne orthographe ?;manifestation;mannifestation;manifestatino;mmanifestation
+36516;Quelle est la bonne orthographe ?;enveloppe;envveloppe;envelopep;ennveloppe
+36517;Quelle est la bonne orthographe ?;indication;indicattion;indicatino;inndication
+36518;Quelle est la bonne orthographe ?;toiture;ttoiture;toiturre;toituer
+36519;Quelle est la bonne orthographe ?;échange;échangge;échaneg;écchange
+36520;Quelle est la bonne orthographe ?;tonnerre;ttonnerre;tonnerer;tônnerre
+36521;Quelle est la bonne orthographe ?;interdire;intterdire;interdier;innterdire
+36522;Quelle est la bonne orthographe ?;différent;différentt;différetn;ddifférent
+36523;Quelle est la bonne orthographe ?;corriger;corriiger;corrigre;ccorriger
+36524;Quelle est la bonne orthographe ?;ambulance;ambulancee;ambulanec;ammbulance
+36525;Quelle est la bonne orthographe ?;impatience;impatieence;impatienec;immpatience
+36526;Quelle est la bonne orthographe ?;interdire;iinterdire;interdier;innterdire
+36527;Quelle est la bonne orthographe ?;annoncer;annonccer;annoncre;annoncerr
+36528;Quelle est la bonne orthographe ?;communiquer;communiqquer;communiqure;ccommuniquer
+36529;Quelle est la bonne orthographe ?;raconter;raconteer;racontre;rraconter
+36530;Quelle est la bonne orthographe ?;comprimé;coomprimé;compriém;ccomprimé
+36531;Quelle est la bonne orthographe ?;calendrier;calenndrier;calendrire;ccalendrier
+36532;Quelle est la bonne orthographe ?;passerelle;ppasserelle;passerelel;passerrelle
+36533;Quelle est la bonne orthographe ?;poussière;poussiière;poussièer;ppoussière
+36534;Quelle est la bonne orthographe ?;possession;possessionn;possessino;ppossession
+36535;Quelle est la bonne orthographe ?;lampadaire;laampadaire;lampadaier;llampadaire
+36536;Quelle est la bonne orthographe ?;raccourci;raccouurci;raccouric;rraccourci
+36537;Quelle est la bonne orthographe ?;dessert;dessertt;dessetr;ddessert
+36538;Quelle est la bonne orthographe ?;raccourci;raccourcii;raccouric;rraccourci
+36539;Quelle est la bonne orthographe ?;moustique;moustiqque;moustiqeu;mmoustique
+36540;Quelle est la bonne orthographe ?;confortable;confortablle;confortabel;cconfortable
+36541;Quelle est la bonne orthographe ?;supporter;supportter;supportre;ssupporter
+36542;Quelle est la bonne orthographe ?;grattoir;ggrattoir;grattori;grrattoir
+36543;Quelle est la bonne orthographe ?;annoncer;annonceer;annoncre;annonccer
+36544;Quelle est la bonne orthographe ?;direction;directioon;directino;ddirection
+36545;Quelle est la bonne orthographe ?;mitraille;mitraaille;mitrailel;mmitraille
+36546;Quelle est la bonne orthographe ?;littérature;littéraature;littératuer;llittérature
+36547;Quelle est la bonne orthographe ?;littérature;llittérature;littératuer;littérrature
+36548;Quelle est la bonne orthographe ?;apparaître;aapparaître;apparaîter;apparraître
+36549;Quelle est la bonne orthographe ?;aggraver;aaggraver;aggravre;aggrraver
+36550;Quelle est la bonne orthographe ?;escadrille;escadrile;escadrillle;escadrilel
+36551;Quelle est la bonne orthographe ?;ministère;ministtère;ministèer;mministère
+36552;Quelle est la bonne orthographe ?;négociation;négociiation;négociatino;nnégociation
+36553;Quelle est la bonne orthographe ?;participation;pparticipation;participatino;parrticipation
+36554;Quelle est la bonne orthographe ?;communiquer;communiqueer;communiqure;ccommuniquer
+36555;Quelle est la bonne orthographe ?;intersection;interrsection;intersectino;inntersection
+36556;Quelle est la bonne orthographe ?;gouvernement;gouuvernement;gouvernemetn;ggouvernement
+36557;Quelle est la bonne orthographe ?;instrument;instrumeent;instrumetn;innstrument
+36558;Quelle est la bonne orthographe ?;indication;iindication;indicatino;inndication
+36559;Quelle est la bonne orthographe ?;manifestation;manifeestation;manifestatino;mmanifestation
+36560;Quelle est la bonne orthographe ?;sifflet;ssifflet;sifflte;siffllet
+36561;Quelle est la bonne orthographe ?;favorite;favoritee;favoriet;ffavorite
+36562;Quelle est la bonne orthographe ?;fourniture;fouurniture;fournituer;ffourniture
+36563;Quelle est la bonne orthographe ?;liberté;liberrté;liberét;lliberté
+36564;Quelle est la bonne orthographe ?;consommer;coonsommer;consommre;cconsommer
+36565;Quelle est la bonne orthographe ?;communiquer;ccommuniquer;communiqure;communniquer
+36566;Quelle est la bonne orthographe ?;recommencer;recomencer;recommmencer;recommencre
+36567;Quelle est la bonne orthographe ?;carrelage;carelage;carrrelage;carrelaeg
+36568;Quelle est la bonne orthographe ?;difficulté;difficuulté;difficulét;ddifficulté
+36569;Quelle est la bonne orthographe ?;comparer;compaarer;comparre;ccomparer
+36570;Quelle est la bonne orthographe ?;panneau;panneauu;panneua;ppanneau
+36571;Quelle est la bonne orthographe ?;perturbation;pertuurbation;perturbatino;pperturbation
+36572;Quelle est la bonne orthographe ?;participation;participatioon;participatino;pparticipation
+36573;Quelle est la bonne orthographe ?;jardinage;jjardinage;jardinaeg;jarrdinage
+36574;Quelle est la bonne orthographe ?;interdire;inteerdire;interdier;innterdire
+36575;Quelle est la bonne orthographe ?;annoncer;anoncer;annnoncer;annoncre
+36576;Quelle est la bonne orthographe ?;permission;ppermission;permissino;perrmission
+36577;Quelle est la bonne orthographe ?;confortable;confortablee;confortabel;cconfortable
+36578;Quelle est la bonne orthographe ?;ceinture;cceinture;ceintture;ceintuer
+36579;Quelle est la bonne orthographe ?;dessiner;dessinerr;dessinre;ddessiner
+36580;Quelle est la bonne orthographe ?;valise;vvalise;valies;vallise
+36581;Quelle est la bonne orthographe ?;carrelage;carrelagge;carrelaeg;ccarrelage
+36582;Quelle est la bonne orthographe ?;grattoir;gratoir;gratttoir;grattori
+36583;Quelle est la bonne orthographe ?;escargot;escaargot;escargto;esscargot
+36584;Quelle est la bonne orthographe ?;aventure;aaventure;aventture;aventuer
+36585;Quelle est la bonne orthographe ?;impatience;imppatience;impatienec;immpatience
+36586;Quelle est la bonne orthographe ?;distraction;distraaction;distractino;ddistraction
+36587;Quelle est la bonne orthographe ?;personne;perssonne;personen;ppersonne
+36588;Quelle est la bonne orthographe ?;particulier;particculier;particulire;pparticulier
+36589;Quelle est la bonne orthographe ?;colonne;colonnee;colonen;ccolonne
+36590;Quelle est la bonne orthographe ?;balcon;ballcon;balcno;bbalcon
+36591;Quelle est la bonne orthographe ?;bracelet;bracellet;bracelte;bbracelet
+36592;Quelle est la bonne orthographe ?;personnel;ppersonnel;personnle;perrsonnel
+36593;Quelle est la bonne orthographe ?;accueil;aaccueil;accueli;accueill
+36594;Quelle est la bonne orthographe ?;accompagner;acompagner;acccompagner;accompagnre
+36595;Quelle est la bonne orthographe ?;jardinage;jarddinage;jardinaeg;jjardinage
+36596;Quelle est la bonne orthographe ?;arracher;aracher;arrracher;arrachre
+36597;Quelle est la bonne orthographe ?;naturel;naturrel;naturle;nnaturel
+36598;Quelle est la bonne orthographe ?;littérature;liittérature;littératuer;llittérature
+36599;Quelle est la bonne orthographe ?;résumé;résummé;résuém;rrésumé
+36600;Quelle est la bonne orthographe ?;mitraille;mmitraille;mitrailel;mittraille
+36601;Quelle est la bonne orthographe ?;instrument;insttrument;instrumetn;innstrument
+36602;Quelle est la bonne orthographe ?;constellation;constellaation;constellatino;cconstellation
+36603;Quelle est la bonne orthographe ?;souligner;soouligner;soulignre;ssouligner
+36604;Quelle est la bonne orthographe ?;biscuit;bbiscuit;bisccuit;biscuti
+36605;Quelle est la bonne orthographe ?;invitation;iinvitation;invitatino;innvitation
+36606;Quelle est la bonne orthographe ?;communiquer;communiiquer;communiqure;ccommuniquer
+36607;Quelle est la bonne orthographe ?;nourrisson;nouurrisson;nourrissno;nnourrisson
+36608;Quelle est la bonne orthographe ?;embarras;embaras;embarrras;embarrsa
+36609;Quelle est la bonne orthographe ?;direction;direection;directino;ddirection
+36610;Quelle est la bonne orthographe ?;campagne;ccampagne;campaggne;campagen
+36611;Quelle est la bonne orthographe ?;croissance;croissannce;croissanec;ccroissance
+36612;Quelle est la bonne orthographe ?;supporter;suporter;suppporter;supportre
+36613;Quelle est la bonne orthographe ?;étoffe;étoffee;étofef;éttoffe
+36614;Quelle est la bonne orthographe ?;artiste;arttiste;artiset;arrtiste
+36615;Quelle est la bonne orthographe ?;calendrier;callendrier;calendrire;ccalendrier
+36616;Quelle est la bonne orthographe ?;passion;passionn;passino;ppassion
+36617;Quelle est la bonne orthographe ?;supporter;ssupporter;supportre;supporrter
+36618;Quelle est la bonne orthographe ?;distraction;diistraction;distractino;ddistraction
+36619;Quelle est la bonne orthographe ?;intersection;intersecction;intersectino;inntersection
+36620;Quelle est la bonne orthographe ?;consommer;conssommer;consommre;cconsommer
+36621;Quelle est la bonne orthographe ?;accompagner;accompagnner;accompagnre;accommpagner
+36622;Quelle est la bonne orthographe ?;correspondance;correespondance;correspondanec;ccorrespondance
+36623;Quelle est la bonne orthographe ?;comparer;compareer;comparre;ccomparer
+36624;Quelle est la bonne orthographe ?;chapeau;cchapeau;chappeau;chapeua
+36625;Quelle est la bonne orthographe ?;fantastique;faantastique;fantastiqeu;ffantastique
+36626;Quelle est la bonne orthographe ?;impatience;impaatience;impatienec;immpatience
+36627;Quelle est la bonne orthographe ?;constellation;constelation;constelllation;constellatino
+36628;Quelle est la bonne orthographe ?;corbeille;corbeeille;corbeilel;ccorbeille
+36629;Quelle est la bonne orthographe ?;fourniture;fournituree;fournituer;ffourniture
+36630;Quelle est la bonne orthographe ?;cadenas;cadenass;cadensa;ccadenas
+36631;Quelle est la bonne orthographe ?;énergie;énerggie;énergei;énnergie
+36632;Quelle est la bonne orthographe ?;croissance;croiissance;croissanec;ccroissance
+36633;Quelle est la bonne orthographe ?;panorama;panoramma;panoraam;ppanorama
+36634;Quelle est la bonne orthographe ?;équipement;équipeement;équipemetn;éqquipement
+36635;Quelle est la bonne orthographe ?;personne;persoonne;personen;ppersonne
+36636;Quelle est la bonne orthographe ?;mitraille;mitraillee;mitrailel;mmitraille
+36637;Quelle est la bonne orthographe ?;observation;observaation;observatino;obbservation
+36638;Quelle est la bonne orthographe ?;exemplaire;exemmplaire;exemplaier;exxemplaire
+36639;Quelle est la bonne orthographe ?;importance;importannce;importanec;immportance
+36640;Quelle est la bonne orthographe ?;impatience;impattience;impatienec;immpatience
+36641;Quelle est la bonne orthographe ?;tonnerre;tonnere;tonnerrre;tonnerer
+36642;Quelle est la bonne orthographe ?;accompagner;accompagnerr;accompagnre;accommpagner
+36643;Quelle est la bonne orthographe ?;valise;vaalise;valies;vvalise
+36644;Quelle est la bonne orthographe ?;étoffe;étooffe;étofef;éttoffe
+36645;Quelle est la bonne orthographe ?;étoffe;étofe;étofffe;étofef
+36646;Quelle est la bonne orthographe ?;corriger;coorriger;corrigre;ccorriger
+36647;Quelle est la bonne orthographe ?;dessiner;deessiner;dessinre;ddessiner
+36648;Quelle est la bonne orthographe ?;différent;diifférent;différetn;ddifférent
+36649;Quelle est la bonne orthographe ?;corbeille;corrbeille;corbeilel;ccorbeille
+36650;Quelle est la bonne orthographe ?;poussière;pouussière;poussièer;ppoussière
+36651;Quelle est la bonne orthographe ?;panorama;pannorama;panoraam;ppanorama
+36652;Quelle est la bonne orthographe ?;carrelage;carrellage;carrelaeg;ccarrelage
+36653;Quelle est la bonne orthographe ?;direction;direcction;directino;ddirection
+36654;Quelle est la bonne orthographe ?;intersection;inttersection;intersectino;inntersection
+36655;Quelle est la bonne orthographe ?;bagarre;bagare;bagarrre;bagarer
+36656;Quelle est la bonne orthographe ?;fantastique;fantastiquee;fantastiqeu;ffantastique
+36657;Quelle est la bonne orthographe ?;magnifique;maggnifique;magnifiqeu;mmagnifique
+36658;Quelle est la bonne orthographe ?;pilotage;pillotage;pilotaeg;ppilotage
+36659;Quelle est la bonne orthographe ?;cadenas;cadennas;cadensa;ccadenas
+36660;Quelle est la bonne orthographe ?;fantastique;ffantastique;fantastiqeu;fanntastique
+36661;Quelle est la bonne orthographe ?;préparation;préparatioon;préparatino;ppréparation
+36662;Quelle est la bonne orthographe ?;personne;peersonne;personen;ppersonne
+36663;Quelle est la bonne orthographe ?;générosité;générrosité;générosiét;ggénérosité
+36664;Quelle est la bonne orthographe ?;pénitencier;péniteencier;pénitencire;ppénitencier
+36665;Quelle est la bonne orthographe ?;colonne;colone;colonnne;colonen
+36666;Quelle est la bonne orthographe ?;commissaire;coommissaire;commissaier;ccommissaire
+36667;Quelle est la bonne orthographe ?;exemplaire;exempplaire;exemplaier;exxemplaire
+36668;Quelle est la bonne orthographe ?;limitation;limittation;limitatino;llimitation
+36669;Quelle est la bonne orthographe ?;atmosphère;aatmosphère;atmosphèer;attmosphère
+36670;Quelle est la bonne orthographe ?;matériel;matériell;matérile;mmatériel
+36671;Quelle est la bonne orthographe ?;calendrier;caalendrier;calendrire;ccalendrier
+36672;Quelle est la bonne orthographe ?;ministère;minnistère;ministèer;mministère
+36673;Quelle est la bonne orthographe ?;patiemment;patiemmennt;patiemmetn;ppatiemment
+36674;Quelle est la bonne orthographe ?;jardinage;jardinagge;jardinaeg;jjardinage
+36675;Quelle est la bonne orthographe ?;sorcière;ssorcière;sorccière;sorcièer
+36676;Quelle est la bonne orthographe ?;aigrette;aigreette;aigretet;aiggrette
+36677;Quelle est la bonne orthographe ?;constellation;connstellation;constellatino;cconstellation
+36678;Quelle est la bonne orthographe ?;population;popuulation;populatino;ppopulation
+36679;Quelle est la bonne orthographe ?;comparer;compparer;comparre;ccomparer
+36680;Quelle est la bonne orthographe ?;conseiller;conseeiller;conseillre;cconseiller
+36681;Quelle est la bonne orthographe ?;frontière;ffrontière;frontièer;frrontière
+36682;Quelle est la bonne orthographe ?;festival;festivaal;festivla;ffestival
+36683;Quelle est la bonne orthographe ?;indication;indicaation;indicatino;inndication
+36684;Quelle est la bonne orthographe ?;grattoir;grattooir;grattori;ggrattoir
+36685;Agathe ___ trouvée hier.;l'a;la;las;l'as
+36686;Ilyes ___ trouvée hier.;l'a;la;las;l'as
+36687;Victor ___ trouvée hier.;l'a;la;las;l'as
+36688;Sacha ___ trouvée hier.;l'a;la;las;l'as
+36689;Lola ___ trouvée hier.;l'a;la;las;l'as
+36690;Iris ___ trouvée hier.;l'a;la;las;l'as
+36691;Clara ___ trouvée hier.;l'a;la;las;l'as
+36692;Timéo ___ trouvée hier.;l'a;la;las;l'as
+36693;Maya ___ trouvée hier.;l'a;la;las;l'as
+36694;Simon ___ trouvée hier.;l'a;la;las;l'as
+36695;Naomi ___ trouvée hier.;l'a;la;las;l'as
+36696;Jade ___ trouvée hier.;l'a;la;las;l'as
+36697;Malo ___ trouvée hier.;l'a;la;las;l'as
+36698;Yasmine ___ trouvée hier.;l'a;la;las;l'as
+36699;Kylian ___ trouvée hier.;l'a;la;las;l'as
+36700;Regarde ___-bas, c'est une trousse.;là;l'a;las;l'as
+36701;Regarde ___-bas, c'est une gomme.;là;l'a;las;l'as
+36702;Regarde ___-bas, c'est une veste.;là;l'a;las;l'as
+36703;Regarde ___-bas, c'est une écharpe.;là;l'a;las;l'as
+36704;Range ___ brosse ici.;la;l'a;las;l'as
+36705;Range ___ casquette ici.;la;l'a;las;l'as
+36706;Range ___ ceinture ici.;la;l'a;las;l'as
+36707;Range ___ corbeille ici.;la;l'a;las;l'as
+36708;Elle ___ chanter juste.;peut;peu;peux;pouvez
+36709;Vous ___ sortir maintenant.;pouvez;peu;peux;peut
+36710;Il y a ___ de bruit ici.;peu;peux;peut;pouvez
+36711;Tu ___ répondre à la question.;peux;peu;peut;pouvez
+36712;Nous avons ___ de sucre.;peu;peux;peut;pouvez
+36713;Elle ___ partir si elle veut.;peut;peu;peux;pouvez
+36714;Je ___ t'accompagner.;peux;peu;peut;pouvez
+36715;Il reste ___ de jus dans la bouteille.;peu;peux;peut;pouvez
+36716;Vous ___ commencer l'exercice.;pouvez;peu;peux;peut
+36717;Il ___ nager sans brassards.;peut;peu;peux;pouvez
+36718;Elle a ___ d'amis dans cette ville.;peu;peux;peut;pouvez
+36719;Tu ___ prendre mon vélo.;peux;peu;peut;pouvez
+36720;Nous ___ vous aider si besoin.;pouvons;peu;peux;peut
+36721;Il ___ pleuvoir ce soir.;peut;peu;peux;pouvez
+36722;Vous avez ___ de temps devant vous.;peu;peux;peut;pouvez
+36723;Je préfère ___ le vert.;plutôt;plus tôt;plus tard;plutard
+36724;Nous voulons ___ partir ce soir.;plutôt;plus tôt;plus tard;plutard
+36725;Elle a fini ___ que prévu.;plus tôt;plutôt;plus tard;plutard
+36726;Réveille-toi ___ la prochaine fois.;plus tôt;plutôt;plus tard;plutard
+36727;___ que d'attendre, allons-y.;Plutôt;Plus tôt;Plus tard;Plutard
+36728;Le magasin ferme ___ le dimanche.;plus tôt;plutôt;plus tard;plutard
+36729;Je viendrai ___ demain matin.;plus tôt;plutôt;plus tard;plutard
+36730;Il vaut mieux choisir ___ le bleu.;plutôt;plus tôt;plus tard;plutard
+36731;Nous sommes rentrés ___ que d'habitude.;plus tôt;plutôt;plus tard;plutard
+36732;Elle préfère ___ lire que jouer.;plutôt;plus tôt;plus tard;plutard
+36733;Pars ___ pour éviter les bouchons.;plus tôt;plutôt;plus tard;plutard
+36734;___ que de crier, explique calmement.;Plutôt;Plus tôt;Plus tard;Plutard
+36735;Le magasin est tout ___, à deux pas de chez moi.;près;beaucoup;jamais;peu
+36736;En un instant à peine, le ciel s'est ___ assombri, sans aucun signe annonciateur.;subitement;jamais;beaucoup;toujours
+36737;Regarde ___, au sommet de cette colline !;là-bas;souvent;toujours;tard
+36738;J'ai rangé ce livre ___, mais je ne me souviens plus où exactement.;quelque part;lentement;beaucoup;vite
+36739;Il faut ___ ranger sa chambre, et ensuite seulement aller jouer dehors.;d'abord;tard;vite;dedans
+36740;Ce jeu est réservé ___ aux enfants de plus de dix ans.;uniquement;vite;beaucoup;lentement
+36741;Pour ce devoir, chaque élève doit travailler ___, sans aide de personne.;séparément;lentement;dedans;souvent
+36742;Le chat s'est caché ___, sous le grand canapé du salon.;dessous;beaucoup;tard;dedans
+36743;Sans le moindre avertissement, la voiture a freiné ___ : tout le monde a été projeté en avant.;brusquement;beaucoup;tard;vite
+36744;Il faisait ___ chaud que tout le monde restait à l'ombre.;tellement;souvent;tard;peu
+36745;"Il pleut des cordes ; nous resterons ___ à la maison.";donc;peu;beaucoup;souvent
+36746;J'ai cherché mes clés partout, mais je ne les trouve ___.;nulle part;dehors;vite;dedans
+36747;Il a ___ plu cette semaine que la rivière a débordé.;tant;vite;souvent;toujours
+36748;Nous avons d'abord visité le musée, et ___ nous sommes allés au parc.;ensuite;peu;lentement;beaucoup
+36749;Le rendez-vous est fixé à quatorze heures ___, pas une minute de plus ou de moins.;précisément;dehors;peu;dedans
+36750;Pose ce sac ___, juste à côté de la porte.;ici;beaucoup;dedans;souvent
+36751;"Il pleuvait ce matin ; ___, en début d'après-midi, le soleil est revenu.";tantôt;dehors;dedans;jamais
+36752;Il a posé son livre sur la table, puis un chat est monté ___ pour dormir.;dessus;toujours;tard;vite
+36753;Du sommet de la tour, on peut admirer toute la campagne ___.;alentour;beaucoup;souvent;tard
+36754;Aujourd'hui il pleut, mais la météo annonce du soleil pour ___.;demain;toujours;jamais;lentement
+36755;"Nous sommes le mardi 15 ; ___, c'était donc lundi 14.";hier;beaucoup;souvent;vite
+36756;"Ce vieux château était ___ le lieu d'un grand royaume ; aujourd'hui il est en ruines.";naguère;toujours;vite;jamais
+36757;Il a plié le tissu en quatre, ___ obtenant un joli petit carré.;ainsi;toujours;tard;dehors
+36758;Le feu est passé au vert, et c'est ___ que toutes les voitures ont redémarré.;alors;beaucoup;vite;souvent
+36759;Elle voudrait manger ___ de légumes, car elle n'en mange pas assez.;davantage;peu;dedans;vite
+36760;Cette soupe est ___ salée, je ne peux pas la manger.;trop;peu;toujours;tard
+36761;J'aime tous les fruits, mais ___ les fraises : j'en mangerais tous les jours !;surtout;toujours;souvent;jamais
+36762;Les deux amies ont décidé de faire leurs devoirs ___, côte à côte.;ensemble;vite;souvent;beaucoup
+36763;Ce magasin vend beaucoup de fruits, ___ des mangues et des ananas.;notamment;toujours;dedans;jamais
+36764;Elle a ouvert la porte, ___ elle est entrée dans la pièce.;puis;dedans;jamais;tard
+36765;"Le temps était menaçant ; ils ont ___ décidé de partir en randonnée.";néanmoins;souvent;dehors;toujours
+36766;Après des heures d'attente, le train est ___ arrivé en gare.;enfin;beaucoup;souvent;lentement
+36767;___, les gens se déplaçaient à cheval plutôt qu'en voiture.;jadis;peu;dedans;toujours
+36768;La tortue avance ___, un pas après l'autre, sans jamais se presser.;lentement;souvent;beaucoup;tard
+36769;Ce billet permet d'entrer ___ dans la salle principale, pas dans les coulisses.;seulement;lentement;dedans;peu
+36770;Il reste ___ de sucre dans le placard, à peine une cuillère.;peu;souvent;jamais;dehors
+36771;Cours ___, le bus va partir dans une minute.;vite;souvent;beaucoup;toujours
+36772;Le chien a couru se cacher ___ le canapé quand il a entendu l'orage.;derrière;vite;souvent;jamais
+36773;Range ta chambre ___, avant que je ne me fâche.;maintenant;peu;beaucoup;souvent
+36774;Il neige ___ dans cette région, peut-être une fois tous les dix ans.;rarement;toujours;dedans;souvent
+36775;___, un grand bruit a retenti dans toute la maison, et tout le monde a sursauté de peur.;soudain;tard;dedans;lentement
+36776;Ce robinet fuit ___, jour et nuit, sans jamais s'arrêter.;continuellement;dedans;jamais;dehors
+36777;"Le plan semblait risqué ; l'équipe a ___ décidé de le suivre.";toutefois;beaucoup;lentement;dedans
+36778;Gare la voiture juste ___ la maison, près de l'entrée.;devant;lentement;souvent;tard
+36779;Caresse le chaton bien ___, il est encore tout petit et fragile.;doucement;vite;peu;beaucoup
+36780;Ce chien aboie ___ à chaque fois, puis se calme aussitôt.;brièvement;souvent;peu;jamais
+36781;___, il neige encore en avril dans cette région.;parfois;dedans;beaucoup;vite
+36782;___, c'est l'anniversaire de ma petite soeur.;aujourd'hui;vite;souvent;dedans
+36783;L'école est trop ___ pour y aller à pied, il faut prendre le bus.;loin;beaucoup;vite;dedans
+36784;Après cet avertissement, il fera ___ plus attention en traversant la rue.;dorénavant;jamais;beaucoup;lentement
+36785;___ le repas terminé, les enfants ont couru jouer dans le jardin.;Sitôt;Dehors;Dedans;Beaucoup
+36786;___, il n'y avait pas d'électricité dans les maisons.;autrefois;toujours;souvent;peu
+36787;Le pompier est intervenu très ___ après l'appel, en à peine deux minutes.;rapidement;souvent;peu;beaucoup
+36788;Ce bébé pleure ___, jour et nuit, sans aucune pause.;constamment;lentement;souvent;jamais
+36789;Il est ___ midi, pas une minute de plus ou de moins.;exactement;beaucoup;souvent;dehors
+36790;Dans la phrase 'Il range soigneusement ses outils.', quel est l'adverbe invariable ?;soigneusement;range;ses;outils
+36791;Dans la phrase 'Nous mangeons ensemble le dimanche.', quel est l'adverbe invariable ?;ensemble;mangeons;le;dimanche
+36792;Dans la phrase 'Le train part bientôt de la gare.', quel est l'adverbe invariable ?;bientôt;part;de;gare
+36793;Dans la phrase 'Les oiseaux chantent partout dans le jardin.', quel est l'adverbe invariable ?;partout;chantent;dans;jardin
+36794;Dans la phrase 'Elle range soigneusement ses affaires.', quel est l'adverbe invariable ?;soigneusement;range;ses;affaires
+36795;Dans la phrase 'Le chien dort dehors ce soir.', quel est l'adverbe invariable ?;dehors;dort;ce;soir
+36796;Dans la phrase 'Elle parle doucement à son chat.', quel est l'adverbe invariable ?;doucement;parle;à;chat
+36797;Dans la phrase 'Elle chante toujours sous la douche.', quel est l'adverbe invariable ?;toujours;chante;sous;douche
+36798;Dans la phrase 'Il travaille rarement le samedi.', quel est l'adverbe invariable ?;rarement;travaille;le;samedi
+36799;Dans la phrase 'Le magasin ouvre tôt le matin.', quel est l'adverbe invariable ?;tôt;ouvre;le;matin
+36800;Dans la phrase 'Ils marchent lentement vers l'école.', quel est l'adverbe invariable ?;lentement;marchent;vers;école
+36801;Dans la phrase 'Nous partons aujourd'hui en voyage.', quel est l'adverbe invariable ?;aujourd'hui;partons;en;voyage
+36802;Dans la phrase 'Nous arrivons enfin au sommet.', quel est l'adverbe invariable ?;enfin;arrivons;au;sommet
+36803;Dans la phrase 'Nous restons ici jusqu'au soir.', quel est l'adverbe invariable ?;ici;restons;jusqu'au;soir
+36804;Dans la phrase 'Il pleut rarement en été.', quel est l'adverbe invariable ?;rarement;pleut;en;été
+36805;Quelle est la bonne orthographe ?;chaussure;cchaussure;chausssure;chaussuer
+36806;Quelle est la bonne orthographe ?;participation;partiicipation;participatino;pparticipation
+36807;Quelle est la bonne orthographe ?;particulier;partticulier;particulire;pparticulier
+36808;Quelle est la bonne orthographe ?;population;popullation;populatino;ppopulation
+36809;Quelle est la bonne orthographe ?;embouteillage;emboouteillage;embouteillaeg;emmbouteillage
+36810;Quelle est la bonne orthographe ?;milliard;milliaard;milliadr;mmilliard
+36811;Quelle est la bonne orthographe ?;démonstration;démonsttration;démonstratino;ddémonstration
+36812;Quelle est la bonne orthographe ?;omettre;ometre;ometttre;ometter
+36813;Quelle est la bonne orthographe ?;importance;imporrtance;importanec;immportance
+36814;Quelle est la bonne orthographe ?;difficulté;diifficulté;difficulét;ddifficulté
+36815;Quelle est la bonne orthographe ?;aggraver;agraver;agggraver;aggravre
+36816;Quelle est la bonne orthographe ?;pyjama;pyjjama;pyjaam;ppyjama
+36817;Quelle est la bonne orthographe ?;fenêtre;ffenêtre;fenêttre;fenêter
+36818;Quelle est la bonne orthographe ?;embarras;embarrass;embarrsa;emmbarras
+36819;Quelle est la bonne orthographe ?;marchandise;marcchandise;marchandies;mmarchandise
+36820;Quelle est la bonne orthographe ?;fantastique;fantasstique;fantastiqeu;ffantastique
+36821;Quelle est la bonne orthographe ?;grille;griille;grilel;ggrille
+36822;Quelle est la bonne orthographe ?;générosité;générositté;générosiét;ggénérosité
+36823;Quelle est la bonne orthographe ?;installer;instaaller;installre;innstaller
+36824;Quelle est la bonne orthographe ?;accompagner;accompagneer;accompagnre;accommpagner
+36825;Quelle est la bonne orthographe ?;circonstance;circonstaance;circonstanec;ccirconstance
+36826;Quelle est la bonne orthographe ?;toboggan;ttoboggan;tobogggan;toboggna
+36827;Quelle est la bonne orthographe ?;perturbation;perturbatiion;perturbatino;pperturbation
+36828;Quelle est la bonne orthographe ?;fermeture;fermetuure;fermetuer;ffermeture
+36829;Quelle est la bonne orthographe ?;chevalier;chevaalier;chevalire;cchevalier
+36830;Quelle est la bonne orthographe ?;fondation;fondaation;fondatino;ffondation
+36831;Quelle est la bonne orthographe ?;paradis;paraddis;paradsi;pparadis
+36832;Quelle est la bonne orthographe ?;arrondir;arondir;arrrondir;arrondri
+36833;Quelle est la bonne orthographe ?;organisation;orgganisation;organisatino;orrganisation
+36834;Quelle est la bonne orthographe ?;festival;festiival;festivla;ffestival
+36835;Quelle est la bonne orthographe ?;permission;permissioon;permissino;ppermission
+36836;Quelle est la bonne orthographe ?;monstre;mmonstre;monsttre;monster
+36837;Quelle est la bonne orthographe ?;souligner;souuligner;soulignre;ssouligner
+36838;Quelle est la bonne orthographe ?;installer;insttaller;installre;innstaller
+36839;Quelle est la bonne orthographe ?;exemplaire;eexemplaire;exemplaier;exxemplaire
+36840;Quelle est la bonne orthographe ?;autobus;autobuss;autobsu;auttobus
+36841;Quelle est la bonne orthographe ?;paradis;paradiss;paradsi;pparadis
+36842;Quelle est la bonne orthographe ?;festival;feestival;festivla;ffestival
+36843;Quelle est la bonne orthographe ?;direction;directionn;directino;ddirection
+36844;Quelle est la bonne orthographe ?;pilotage;pilootage;pilotaeg;ppilotage
+36845;Quelle est la bonne orthographe ?;paradis;parradis;paradsi;pparadis
+36846;Quelle est la bonne orthographe ?;crotte;crrotte;crotet;ccrotte
+36847;Quelle est la bonne orthographe ?;distraction;disttraction;distractino;ddistraction
+36848;Quelle est la bonne orthographe ?;carrefour;carreefour;carreforu;ccarrefour
+36849;Quelle est la bonne orthographe ?;négociation;néggociation;négociatino;nnégociation
+36850;Quelle est la bonne orthographe ?;commander;commannder;commandre;ccommander
+36851;Quelle est la bonne orthographe ?;impatience;impatiencce;impatienec;immpatience
+36852;Quelle est la bonne orthographe ?;monument;monuument;monumetn;mmonument
+36853;Quelle est la bonne orthographe ?;pénitencier;ppénitencier;pénitencire;pénnitencier
+36854;Quelle est la bonne orthographe ?;confortable;cconfortable;confortabel;connfortable
+36855;Quelle est la bonne orthographe ?;pantalon;ppantalon;panttalon;pantalno
+36856;Quelle est la bonne orthographe ?;invitation;innvitation;invitatino;invvitation
+36857;Quelle est la bonne orthographe ?;paradis;paaradis;paradsi;pparadis
+36858;Quelle est la bonne orthographe ?;manifestation;maniffestation;manifestatino;mmanifestation
+36859;Quelle est la bonne orthographe ?;monument;mmonument;monumetn;monnument
+36860;Quelle est la bonne orthographe ?;baladeur;baladeuur;baladeru;bbaladeur
+36861;Quelle est la bonne orthographe ?;raconter;raaconter;racontre;rraconter
+36862;Quelle est la bonne orthographe ?;perturbation;pertturbation;perturbatino;pperturbation
+36863;Quelle est la bonne orthographe ?;raconter;racoonter;racontre;rraconter
+36864;Quelle est la bonne orthographe ?;consommer;consomer;consommmer;consommre
+36865;Quelle est la bonne orthographe ?;sifflet;siifflet;sifflte;ssifflet
+36866;Quelle est la bonne orthographe ?;escadrille;escaddrille;escadrilel;esscadrille
+36867;Quelle est la bonne orthographe ?;fantastique;fanttastique;fantastiqeu;ffantastique
+36868;Quelle est la bonne orthographe ?;circonstance;ccirconstance;circonstanec;cirrconstance
+36869;Quelle est la bonne orthographe ?;ministère;ministèree;ministèer;mministère
+36870;Quelle est la bonne orthographe ?;dessin;ddessin;dessni;dessinn
+36871;Quelle est la bonne orthographe ?;accueil;acueil;acccueil;accueli
+36872;Quelle est la bonne orthographe ?;personne;persone;personnne;personen
+36873;Quelle est la bonne orthographe ?;journalier;journaliier;journalire;jjournalier
+36874;Quelle est la bonne orthographe ?;constellation;consstellation;constellatino;cconstellation
+36875;Quelle est la bonne orthographe ?;souligner;souliggner;soulignre;ssouligner
+36876;Quelle est la bonne orthographe ?;particulier;paarticulier;particulire;pparticulier
+36877;Quelle est la bonne orthographe ?;valise;valiise;valies;vvalise
+36878;Quelle est la bonne orthographe ?;zeppelin;zepelin;zepppelin;zeppelni
+36879;Quelle est la bonne orthographe ?;matériel;matérriel;matérile;mmatériel
+36880;Quelle est la bonne orthographe ?;gouvernement;gouveernement;gouvernemetn;ggouvernement
+36881;Quelle est la bonne orthographe ?;constellation;coonstellation;constellatino;cconstellation
+36882;Quelle est la bonne orthographe ?;opération;oppération;opératino;opérration
+36883;Quelle est la bonne orthographe ?;continuer;continuerr;continure;ccontinuer
+36884;Quelle est la bonne orthographe ?;continuer;continuuer;continure;ccontinuer
+36885;Quelle est la bonne orthographe ?;pénitencier;pénitenccier;pénitencire;ppénitencier
+36886;Quelle est la bonne orthographe ?;liberté;libberté;liberét;lliberté
+36887;Quelle est la bonne orthographe ?;observation;observatiion;observatino;obbservation
+36888;Quelle est la bonne orthographe ?;raccourci;raaccourci;raccouric;rraccourci
+36889;Quelle est la bonne orthographe ?;conseiller;consseiller;conseillre;cconseiller
+36890;Quelle est la bonne orthographe ?;particulier;partiiculier;particulire;pparticulier
+36891;Quelle est la bonne orthographe ?;nourrisson;noourrisson;nourrissno;nnourrisson
+36892;Quelle est la bonne orthographe ?;patiemment;patiiemment;patiemmetn;ppatiemment
+36893;Quelle est la bonne orthographe ?;souffle;soouffle;souffel;ssouffle
+36894;Quelle est la bonne orthographe ?;perturbation;perturbbation;perturbatino;pperturbation
+36895;Quelle est la bonne orthographe ?;fourniture;foourniture;fournituer;ffourniture
+36896;Quelle est la bonne orthographe ?;bagarre;bagarree;bagarer;bbagarre
+36897;Quelle est la bonne orthographe ?;natte;nate;nattte;natet
+36898;Quelle est la bonne orthographe ?;abricot;abriccot;abricto;abbricot
+36899;Quelle est la bonne orthographe ?;corriger;corrigger;corrigre;ccorriger
+36900;Quelle est la bonne orthographe ?;mitraille;mitraile;mitraillle;mitrailel
+36901;Quelle est la bonne orthographe ?;énergie;énergiie;énergei;énnergie
+36902;Quelle est la bonne orthographe ?;passion;passioon;passino;ppassion
+36903;Quelle est la bonne orthographe ?;opération;opéraation;opératino;oppération
+36904;Quelle est la bonne orthographe ?;importance;importancee;importanec;immportance
+36905;Quelle est la bonne orthographe ?;économie;économiie;économei;écconomie
+36906;Quelle est la bonne orthographe ?;abbaye;aabbaye;abbaey;àbbaye
+36907;Quelle est la bonne orthographe ?;gouvernement;gouverrnement;gouvernemetn;ggouvernement
+36908;Quelle est la bonne orthographe ?;commander;comander;commmander;commandre
+36909;Quelle est la bonne orthographe ?;monnaie;mmonnaie;monnaei;mônnaie
+36910;Quelle est la bonne orthographe ?;démonstration;démonstraation;démonstratino;ddémonstration
+36911;Quelle est la bonne orthographe ?;marchandise;marchandiise;marchandies;mmarchandise
+36912;Quelle est la bonne orthographe ?;grommeler;ggrommeler;grommelre;grrommeler
+36913;Quelle est la bonne orthographe ?;compagnie;coompagnie;compagnei;ccompagnie
+36914;Quelle est la bonne orthographe ?;conseiller;conseillerr;conseillre;cconseiller
+36915;Quelle est la bonne orthographe ?;omettre;oomettre;ometter;ommettre
+36916;Quelle est la bonne orthographe ?;embarras;embbarras;embarrsa;emmbarras
+36917;Quelle est la bonne orthographe ?;surprise;surpriise;surpries;ssurprise
+36918;Quelle est la bonne orthographe ?;bracelet;braacelet;bracelte;bbracelet
+36919;Quelle est la bonne orthographe ?;matériel;mattériel;matérile;mmatériel
+36920;Quelle est la bonne orthographe ?;autobus;autoobus;autobsu;auttobus
+36921;Quelle est la bonne orthographe ?;permission;permision;permisssion;permissino
+36922;Quelle est la bonne orthographe ?;limitation;llimitation;limitatino;limmitation
+36923;Quelle est la bonne orthographe ?;corbeille;coorbeille;corbeilel;ccorbeille
+36924;Quelle est la bonne orthographe ?;baladeur;baladdeur;baladeru;bbaladeur
+36925;Quelle est la bonne orthographe ?;dessin;deessin;dessni;ddessin
+36926;Quelle est la bonne orthographe ?;embarras;eembarras;embarrsa;emmbarras
+36927;Quelle est la bonne orthographe ?;dragon;ddragon;draggon;dragno
+36928;Quelle est la bonne orthographe ?;gouvernement;goouvernement;gouvernemetn;ggouvernement
+36929;Quelle est la bonne orthographe ?;cascade;ccascade;casccade;cascaed
+36930;Quelle est la bonne orthographe ?;cafétéria;ccafétéria;cafétérai;caffétéria
+36931;Quelle est la bonne orthographe ?;peinture;ppeinture;peintture;peintuer
+36932;Quelle est la bonne orthographe ?;générosité;génnérosité;générosiét;ggénérosité
+36933;Quelle est la bonne orthographe ?;équipement;équiipement;équipemetn;éqquipement
+36934;Quelle est la bonne orthographe ?;essayer;esayer;esssayer;essayre
+36935;Quelle est la bonne orthographe ?;surprise;ssurprise;surpries;surrprise
+36936;Quelle est la bonne orthographe ?;location;loccation;locatino;llocation
+36937;Quelle est la bonne orthographe ?;recommencer;recommenncer;recommencre;rrecommencer
+36938;Quelle est la bonne orthographe ?;manifestation;maniifestation;manifestatino;mmanifestation
+36939;Quelle est la bonne orthographe ?;laitière;laaitière;laitièer;llaitière
+36940;Quelle est la bonne orthographe ?;photographe;phootographe;photograpeh;pphotographe
+36941;Quelle est la bonne orthographe ?;fondation;ffondation;fondatino;fonndation
+36942;Quelle est la bonne orthographe ?;colonne;collonne;colonen;ccolonne
+36943;Quelle est la bonne orthographe ?;grille;ggrille;grilel;grrille
+36944;Quelle est la bonne orthographe ?;fantastique;fantastiquue;fantastiqeu;ffantastique
+36945;Quelle est la bonne orthographe ?;inspection;insspection;inspectino;innspection
+36946;Quelle est la bonne orthographe ?;chevalier;cheevalier;chevalire;cchevalier
+36947;Quelle est la bonne orthographe ?;ancêtre;anccêtre;ancêter;anncêtre
+36948;Quelle est la bonne orthographe ?;raccourci;raccoourci;raccouric;rraccourci
+36949;Quelle est la bonne orthographe ?;aggraver;aggrraver;aggravre;aggravver
+36950;Quelle est la bonne orthographe ?;confortable;confortaable;confortabel;cconfortable
+36951;Quelle est la bonne orthographe ?;poussière;pousière;pousssière;poussièer
+36952;Quelle est la bonne orthographe ?;bracelet;brracelet;bracelte;bbracelet
+36953;Quelle est la bonne orthographe ?;accueil;accuueil;accueli;accueill
+36954;Quelle est la bonne orthographe ?;location;locattion;locatino;llocation
+36955;Quelle est la bonne orthographe ?;musicien;mmusicien;musicine;mussicien
+36956;Quelle est la bonne orthographe ?;opération;opérationn;opératino;oppération
+36957;Quelle est la bonne orthographe ?;négociation;négoociation;négociatino;nnégociation
+36958;Quelle est la bonne orthographe ?;médicament;médicaament;médicametn;mmédicament
+36959;Quelle est la bonne orthographe ?;zeppelin;zeeppelin;zeppelni;zzeppelin
+36960;Quelle est la bonne orthographe ?;monument;moonument;monumetn;mmonument
+36961;Quelle est la bonne orthographe ?;distraction;distrraction;distractino;ddistraction
+36962;Quelle est la bonne orthographe ?;natte;nattee;natet;nnatte
+36963;Quelle est la bonne orthographe ?;crotte;crote;crottte;crotet
+36964;Quelle est la bonne orthographe ?;brosser;bbrosser;brossre;brrosser

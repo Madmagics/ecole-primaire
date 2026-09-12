@@ -41,7 +41,11 @@ theme_override_constants/separation = 12
 layout_mode = 2
 size_flags_horizontal = 0
 
-[node name="ProgressLabel" type="Label" parent="Panel/Margin/Content/HeaderRow/ProgressBadge"]
+[node name="ProgressBadgeRow" type="HBoxContainer" parent="Panel/Margin/Content/HeaderRow/ProgressBadge"]
+layout_mode = 2
+theme_override_constants/separation = 6
+
+[node name="ProgressLabel" type="Label" parent="Panel/Margin/Content/HeaderRow/ProgressBadge/ProgressBadgeRow"]
 theme_type_variation = &"TitleLabel"
 layout_mode = 2
 text = "Question 1/10"
@@ -52,31 +56,58 @@ layout_mode = 2
 size_flags_horizontal = 3
 
 [node name="CloseButton" type="Button" parent="Panel/Margin/Content/HeaderRow"]
+theme_type_variation = &"CloseButton"
+custom_minimum_size = Vector2(28, 28)
 layout_mode = 2
 size_flags_vertical = 0
 text = "X"
 
-[node name="QuestionCard" type="PanelContainer" parent="Panel/Margin/Content"]
+[node name="ChallengeLabel" type="Label" parent="Panel/Margin/Content"]
+visible = false
+layout_mode = 2
+autowrap_mode = 2
+theme_type_variation = &"TitleLabel"
+text = ""
+
+[node name="QuestionScroll" type="ScrollContainer" parent="Panel/Margin/Content"]
+layout_mode = 2
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+
+[node name="QuestionScrollMargin" type="MarginContainer" parent="Panel/Margin/Content/QuestionScroll"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/margin_right = 10
+
+[node name="QuestionScrollContent" type="VBoxContainer" parent="Panel/Margin/Content/QuestionScroll/QuestionScrollMargin"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 18
+
+[node name="QuestionCard" type="PanelContainer" parent="Panel/Margin/Content/QuestionScroll/QuestionScrollMargin/QuestionScrollContent"]
 layout_mode = 2
 
-[node name="QuestionCardMargin" type="MarginContainer" parent="Panel/Margin/Content/QuestionCard"]
+[node name="QuestionCardMargin" type="MarginContainer" parent="Panel/Margin/Content/QuestionScroll/QuestionScrollMargin/QuestionScrollContent/QuestionCard"]
 layout_mode = 2
 theme_override_constants/margin_left = 20
 theme_override_constants/margin_top = 16
 theme_override_constants/margin_right = 20
 theme_override_constants/margin_bottom = 16
 
-[node name="QuestionLabel" type="Label" parent="Panel/Margin/Content/QuestionCard/QuestionCardMargin"]
+[node name="QuestionLabel" type="RichTextLabel" parent="Panel/Margin/Content/QuestionScroll/QuestionScrollMargin/QuestionScrollContent/QuestionCard/QuestionCardMargin"]
 theme_type_variation = &"TitleLabel"
 layout_mode = 2
+bbcode_enabled = true
 text = "Question"
+fit_content = true
+scroll_active = false
 autowrap_mode = 2
 
-[node name="AnswerRow" type="HBoxContainer" parent="Panel/Margin/Content"]
+[node name="AnswerRow" type="HBoxContainer" parent="Panel/Margin/Content/QuestionScroll/QuestionScrollMargin/QuestionScrollContent"]
 layout_mode = 2
 theme_override_constants/separation = 12
 
-[node name="AnswerInput" type="LineEdit" parent="Panel/Margin/Content/AnswerRow"]
+[node name="AnswerInput" type="LineEdit" parent="Panel/Margin/Content/QuestionScroll/QuestionScrollMargin/QuestionScrollContent/AnswerRow"]
 layout_mode = 2
 size_flags_horizontal = 3
 placeholder_text = "Ta réponse..."
@@ -84,13 +115,16 @@ virtual_keyboard_type = 2
 horizontal_alignment = 1
 keep_editing_on_text_submit = true
 
-[node name="ValidateButton" type="Button" parent="Panel/Margin/Content/AnswerRow"]
+[node name="ValidateButton" type="Button" parent="Panel/Margin/Content/QuestionScroll/QuestionScrollMargin/QuestionScrollContent/AnswerRow"]
 layout_mode = 2
 text = "Valider"
 
-[node name="ChoicesContainer" type="VBoxContainer" parent="Panel/Margin/Content"]
+[node name="ChoicesContainer" type="GridContainer" parent="Panel/Margin/Content/QuestionScroll/QuestionScrollMargin/QuestionScrollContent"]
 layout_mode = 2
-theme_override_constants/separation = 10
+size_flags_horizontal = 4
+theme_override_constants/h_separation = 10
+theme_override_constants/v_separation = 10
+columns = 1
 visible = false
 
 [node name="ResultScroll" type="ScrollContainer" parent="Panel/Margin/Content"]
@@ -108,3 +142,34 @@ theme_override_constants/margin_right = 10
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/separation = 10
+
+[node name="ChallengePopup" type="PanelContainer" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.08
+anchor_right = 0.5
+anchor_bottom = 0.08
+offset_left = -220.0
+offset_top = -10.0
+offset_right = 220.0
+offset_bottom = 40.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="ChallengePopupMargin" type="MarginContainer" parent="ChallengePopup"]
+layout_mode = 2
+theme_override_constants/margin_left = 16
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 16
+theme_override_constants/margin_bottom = 10
+
+[node name="ChallengePopupLabel" type="Label" parent="ChallengePopup/ChallengePopupMargin"]
+layout_mode = 2
+theme_type_variation = &"TitleLabel"
+horizontal_alignment = 1
+autowrap_mode = 2
+text = ""
+

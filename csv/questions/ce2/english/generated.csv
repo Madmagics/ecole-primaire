@@ -1,66 +1,506 @@
 id;text;correct_answer;choice_2;choice_3;choice_4
-20000;Comment dit-on 'oiseau' en anglais ?;bird;fish;mouse;horse
-20001;Comment dit-on 'football' en anglais ?;football;dancing;cycling;swimming
-20002;Comment dit-on 'huit' en anglais ?;eight;three;one;five
-20003;Que veut dire 'sheep' en français ?;mouton;chat;chien;souris
-20004;Comment dit-on 'bras' en anglais ?;arm;leg;eye;foot
-20005;Comment dit-on 'danse' en anglais ?;dancing;tennis;running;football
-20006;Comment dit-on 'poisson' en anglais ?;fish;sheep;mouse;bird
-20007;Comment dit-on 'règle' en anglais ?;ruler;book;pencil;table
-20008;Que veut dire 'mouse' en français ?;souris;cheval;lapin;cochon
-20009;Comment dit-on 'mai' en anglais ?;may;december;march;november
+20000;Comment dit-on 'tableau noir' en anglais ?;blackboard;ceiling;window;marker
+20001;Comment dit-on 'au milieu, il y a sept éléphants' en anglais ?;In the middle, there are 7 elephants;In the middle, there are 7 cats;In the middle, there are 7 tigers;In the middle, there are 7 snakes
+20002;Comment dit-on 'japonais' en anglais ?;Japanese;Chinese;Portuguese;Brazilian
+20003;Comment dit-on 'en haut, il y a six serpents' en anglais ?;At the top, there are 6 snakes;At the top, there are 6 pigs;At the top, there are 6 cats;At the top, there are 6 birds
+20004;Comment dit-on 'il y a quatre ours' en anglais ?;There are 4 bears;There are 4 sheep;There are 4 pigs;There are 4 elephants
+20005;Comment dit-on 'en haut, il y a sept chiens' en anglais ?;At the top, there are 7 dogs;At the top, there are 7 pigs;At the top, there are 7 elephants;At the top, there are 7 horses
+20006;Comment dit-on 'brésilien' en anglais ?;Brazilian;Australian;Swiss;Welsh
+20007;Comment dit-on 'il y a six lapins' en anglais ?;There are 6 rabbits;There are 6 birds;There are 6 snakes;There are 6 dogs
+20008;Que veut dire 'writer' en français ?;écrivain;coiffeur;serveur;plombier
+20009;Comment dit-on 'dinde' en anglais ?;turkey;turtle;crab;penguin
 20010;Que veut dire 'ear' en français ?;oreille;ventre;main;oeil
-20011;Comment dit-on 'nez' en anglais ?;nose;arm;tummy;hand
-20012;Que veut dire 'mouth' en français ?;bouche;oreille;bras;ventre
-20013;Comment dit-on 'stylo' en anglais ?;pen;pencil;bag;ruler
-20014;Comment dit-on 'manteau' en anglais ?;coat;hat;shirt;shoes
+20011;Comment dit-on 'en bas, il y a sept cochons' en anglais ?;At the bottom, there are 7 pigs;At the bottom, there are 7 birds;At the bottom, there are 7 snakes;At the bottom, there are 7 fish
+20012;Comment dit-on 'il y a six chiens' en anglais ?;There are 6 dogs;There are 6 fish;There are 6 birds;There are 6 cats
+20013;Comment dit-on 'à droite, il y a cinq ours' en anglais ?;On the right, there are 5 bears;On the right, there are 5 frogs;On the right, there are 5 dogs;On the right, there are 5 snakes
+20014;Comment dit-on 'au milieu, il y a quatre éléphants' en anglais ?;In the middle, there are 4 elephants;In the middle, there are 4 cows;In the middle, there are 4 cats;In the middle, there are 4 sheep
 20015;Que veut dire 'rice' en français ?;riz;fromage;oeuf;pomme
-20016;Comment dit-on 'un' en anglais ?;one;seven;eight;three
-20017;Que veut dire 'shoes' en français ?;chaussures;chapeau;chaussettes;chemise
+20016;Comment dit-on 'pomme de terre' en anglais ?;potato;honey;sugar;pepper
+20017;Comment dit-on 'à gauche, il y a sept oiseaus' en anglais ?;On the left, there are 7 birds;On the left, there are 7 monkeys;On the left, there are 7 fish;On the left, there are 7 sheep
 20018;Que veut dire 'bag' en français ?;sac;fenêtre;table;stylo
-20019;Comment dit-on 'chat' en anglais ?;cat;horse;sheep;mouse
-20020;Comment dit-on 'décembre' en anglais ?;december;july;january;june
-20021;Que veut dire 'september' en français ?;septembre;mars;août;octobre
+20019;Comment dit-on 'à gauche, il y a cinq cochons' en anglais ?;On the left, there are 5 pigs;On the left, there are 5 rabbits;On the left, there are 5 bears;On the left, there are 5 ducks
+20020;Comment dit-on 'étoile' en anglais ?;star;valley;volcano;root
+20021;Comment dit-on 'à droite, il y a sept souriss' en anglais ?;On the right, there are 7 mice;On the right, there are 7 rabbits;On the right, there are 7 pigs;On the right, there are 7 monkeys
 20022;Comment dit-on 'pantalon' en anglais ?;trousers;shoes;coat;shirt
-20023;Comment dit-on 'deux' en anglais ?;two;eight;seven;four
-20024;Que veut dire 'dancing' en français ?;danse;course;tennis;vélo
-20025;Que veut dire 'six' en français ?;six;quatre;huit;deux
-20026;Comment dit-on 'porte' en anglais ?;door;notebook;book;chair
+20023;Comment dit-on 'j'ai commencé' en anglais ?;I started;I finished;I answered;I waited
+20024;Comment dit-on 'à gauche, il y a cinq lapins' en anglais ?;On the left, there are 5 rabbits;On the left, there are 5 elephants;On the left, there are 5 pigs;On the left, there are 5 lions
+20025;Que veut dire 'shark' en français ?;requin;kangourou;aigle;poule
+20026;Comment dit-on 'au milieu, il y a sept canards' en anglais ?;In the middle, there are 7 ducks;In the middle, there are 7 sheep;In the middle, there are 7 horses;In the middle, there are 7 fish
 20027;Comment dit-on 'juillet' en anglais ?;july;january;march;october
-20028;Comment dit-on 'chapeau' en anglais ?;hat;dress;coat;shirt
-20029;Que veut dire 'mom' en français ?;maman;bébé;soeur;frère
-20030;Que veut dire 'october' en français ?;octobre;novembre;avril;mars
+20028;Comment dit-on 'au milieu, il y a six grenouilles' en anglais ?;In the middle, there are 6 frogs;In the middle, there are 6 fish;In the middle, there are 6 snakes;In the middle, there are 6 rabbits
+20029;Comment dit-on 'au milieu, il y a sept chevaux' en anglais ?;In the middle, there are 7 horses;In the middle, there are 7 sheep;In the middle, there are 7 monkeys;In the middle, there are 7 bears
+20030;Que veut dire 'zebra' en français ?;zèbre;chameau;fourmi;loup
 20031;Que veut dire 'cloud' en français ?;nuage;soleil;vent;orage
-20032;Que veut dire 'august' en français ?;août;novembre;mai;décembre
-20033;Que veut dire 'notebook' en français ?;cahier;table;porte;sac
-20034;Que veut dire 'pig' en français ?;cochon;chien;vache;poisson
-20035;Comment dit-on 'table' en anglais ?;table;window;book;ruler
-20036;Que veut dire 'apple' en français ?;pomme;riz;oeuf;lait
+20032;Que veut dire 'I found' en français ?;j'ai trouvé;j'ai volé;j'ai pensé;j'ai bu
+20033;Comment dit-on 'il y a six tigres' en anglais ?;There are 6 tigers;There are 6 fish;There are 6 bears;There are 6 cats
+20034;Comment dit-on 'en bas, il y a cinq moutons' en anglais ?;At the bottom, there are 5 sheep;At the bottom, there are 5 pigs;At the bottom, there are 5 bears;At the bottom, there are 5 fish
+20035;Comment dit-on 'à gauche, il y a quatre poissons' en anglais ?;On the left, there are 4 fish;On the left, there are 4 lions;On the left, there are 4 cats;On the left, there are 4 ducks
+20036;Comment dit-on 'à droite, il y a sept serpents' en anglais ?;On the right, there are 7 snakes;On the right, there are 7 elephants;On the right, there are 7 pigs;On the right, there are 7 horses
 20037;Comment dit-on 'pluie' en anglais ?;rain;snow;sun;storm
-20038;Comment dit-on 'oeil' en anglais ?;eye;ear;hand;head
-20039;Comment dit-on 'chaussures' en anglais ?;shoes;dress;shirt;socks
-20040;Que veut dire 'brother' en français ?;frère;maman;grand-mère;bébé
-20041;Que veut dire 'nine' en français ?;neuf;dix;cinq;quatre
+20038;Comment dit-on 'en bas, il y a cinq chats' en anglais ?;At the bottom, there are 5 cats;At the bottom, there are 5 rabbits;At the bottom, there are 5 frogs;At the bottom, there are 5 ducks
+20039;Comment dit-on 'à droite, il y a six lapins' en anglais ?;On the right, there are 6 rabbits;On the right, there are 6 tigers;On the right, there are 6 sheep;On the right, there are 6 horses
+20040;Comment dit-on 'au milieu, il y a six souriss' en anglais ?;In the middle, there are 6 mice;In the middle, there are 6 bears;In the middle, there are 6 lions;In the middle, there are 6 sheep
+20041;Comment dit-on 'en bas, il y a six chiens' en anglais ?;At the bottom, there are 6 dogs;At the bottom, there are 6 tigers;At the bottom, there are 6 birds;At the bottom, there are 6 horses
 20042;Que veut dire 'storm' en français ?;orage;vent;froid;soleil
-20043;Comment dit-on 'chien' en anglais ?;dog;mouse;pig;bird
-20044;Comment dit-on 'vert' en anglais ?;green;yellow;black;brown
-20045;Que veut dire 'dad' en français ?;papa;grand-père;bébé;maman
-20046;Que veut dire 'dog' en français ?;chien;cochon;poisson;cheval
-20047;Comment dit-on 'tête' en anglais ?;head;mouth;ear;foot
+20043;Comment dit-on 'piano' en anglais ?;piano;flute;guitar;violin
+20044;Comment dit-on 'portugais' en anglais ?;Portuguese;Mexican;Russian;Swedish
+20045;Que veut dire 'snail' en français ?;escargot;chèvre;renard;dinde
+20046;Que veut dire 'cup' en français ?;tasse;bol;four;verre
+20047;Comment dit-on 'en haut, il y a quatre poissons' en anglais ?;At the top, there are 4 fish;At the top, there are 4 dogs;At the top, there are 4 pigs;At the top, there are 4 frogs
 20048;Comment dit-on 'riz' en anglais ?;rice;meat;egg;water
 20049;Que veut dire 'meat' en français ?;viande;oeuf;pomme;fromage
-20050;Comment dit-on 'chaussettes' en anglais ?;socks;coat;hat;shoes
-20051;Comment dit-on 'bébé' en anglais ?;baby;mom;grandma;grandpa
-20052;Que veut dire 'january' en français ?;janvier;février;décembre;juin
-20053;Que veut dire 'book' en français ?;livre;règle;chaise;cahier
-20054;Que veut dire 'leg' en français ?;jambe;nez;bras;oreille
-20055;Comment dit-on 'lait' en anglais ?;milk;apple;bread;cake
-20056;Comment dit-on 'natation' en anglais ?;swimming;cycling;dancing;running
-20057;Que veut dire 'may' en français ?;mai;septembre;décembre;janvier
-20058;Comment dit-on 'vache' en anglais ?;cow;dog;horse;fish
-20059;Comment dit-on 'pomme' en anglais ?;apple;cheese;bread;meat
+20050;Comment dit-on 'en haut, il y a quatre lions' en anglais ?;At the top, there are 4 lions;At the top, there are 4 ducks;At the top, there are 4 mice;At the top, there are 4 tigers
+20051;Comment dit-on 'à droite, il y a cinq grenouilles' en anglais ?;On the right, there are 5 frogs;On the right, there are 5 tigers;On the right, there are 5 lions;On the right, there are 5 horses
+20052;Comment dit-on 'en haut, il y a six canards' en anglais ?;At the top, there are 6 ducks;At the top, there are 6 birds;At the top, there are 6 sheep;At the top, there are 6 horses
+20053;Comment dit-on 'il y a sept singes' en anglais ?;There are 7 monkeys;There are 7 ducks;There are 7 horses;There are 7 sheep
+20054;Comment dit-on 'en bas, il y a six oiseaus' en anglais ?;At the bottom, there are 6 birds;At the bottom, there are 6 elephants;At the bottom, there are 6 cats;At the bottom, there are 6 bears
+20055;Comment dit-on 'à gauche, il y a cinq éléphants' en anglais ?;On the left, there are 5 elephants;On the left, there are 5 fish;On the left, there are 5 lions;On the left, there are 5 tigers
+20056;Comment dit-on 'à droite, il y a quatre souriss' en anglais ?;On the right, there are 4 mice;On the right, there are 4 cats;On the right, there are 4 rabbits;On the right, there are 4 birds
+20057;Que veut dire 'Australian' en français ?;australien;gallois;japonais;belge
+20058;Comment dit-on 'poulet' en anglais ?;chicken;pineapple;salt;pepper
+20059;Comment dit-on 'à droite, il y a cinq poissons' en anglais ?;On the right, there are 5 fish;On the right, there are 5 mice;On the right, there are 5 tigers;On the right, there are 5 ducks
 20060;Comment dit-on 'soupe' en anglais ?;soup;water;meat;cheese
-20061;Comment dit-on 'avril' en anglais ?;april;august;march;january
-20062;Que veut dire 'rabbit' en français ?;lapin;mouton;oiseau;poisson
-20063;Que veut dire 'baby' en français ?;bébé;grand-mère;papa;soeur
-20064;Que veut dire 'cow' en français ?;vache;lapin;poisson;chien
+20061;Comment dit-on 'à gauche, il y a cinq serpents' en anglais ?;On the left, there are 5 snakes;On the left, there are 5 fish;On the left, there are 5 frogs;On the left, there are 5 elephants
+20062;Comment dit-on 'à droite, il y a sept chiens' en anglais ?;On the right, there are 7 dogs;On the right, there are 7 pigs;On the right, there are 7 mice;On the right, there are 7 fish
+20063;Comment dit-on 'il y a six chevaux' en anglais ?;There are 6 horses;There are 6 birds;There are 6 tigers;There are 6 elephants
+20064;Comment dit-on 'à gauche, il y a cinq canards' en anglais ?;On the left, there are 5 ducks;On the left, there are 5 rabbits;On the left, there are 5 frogs;On the left, there are 5 birds
+20065;Comment dit-on 'j'ai fini' en anglais ?;I finished;I started;I heard;I waited
+20066;Que veut dire 'fourth' en français ?;quatrième;premier;dixième;septième
+20067;Comment dit-on 'au milieu, il y a cinq chevaux' en anglais ?;In the middle, there are 5 horses;In the middle, there are 5 rabbits;In the middle, there are 5 ducks;In the middle, there are 5 lions
+20068;Que veut dire 'carrot' en français ?;carotte;poire;céréales;confiture
+20069;Comment dit-on 'au milieu, il y a quatre vaches' en anglais ?;In the middle, there are 4 cows;In the middle, there are 4 tigers;In the middle, there are 4 frogs;In the middle, there are 4 ducks
+20070;Que veut dire 'fox' en français ?;renard;ours polaire;grenouille;crabe
+20071;Comment dit-on 'j'ai répondu' en anglais ?;I answered;I started;I heard;I wanted
+20072;Comment dit-on 'au milieu, il y a cinq chats' en anglais ?;In the middle, there are 5 cats;In the middle, there are 5 cows;In the middle, there are 5 ducks;In the middle, there are 5 monkeys
+20073;Comment dit-on 'gel' en anglais ?;frost;storm;rainbow;thunder
+20074;Que veut dire 'oven' en français ?;four;bol;cuillère;tasse
+20075;Comment dit-on 'au milieu, il y a sept oiseaus' en anglais ?;In the middle, there are 7 birds;In the middle, there are 7 elephants;In the middle, there are 7 horses;In the middle, there are 7 frogs
+20076;Comment dit-on 'à gauche, il y a sept ours' en anglais ?;On the left, there are 7 bears;On the left, there are 7 snakes;On the left, there are 7 rabbits;On the left, there are 7 horses
+20077;Comment dit-on 'au milieu, il y a cinq oiseaus' en anglais ?;In the middle, there are 5 birds;In the middle, there are 5 bears;In the middle, there are 5 frogs;In the middle, there are 5 elephants
+20078;Comment dit-on 'il y a cinq tigres' en anglais ?;There are 5 tigers;There are 5 sheep;There are 5 rabbits;There are 5 fish
+20079;Comment dit-on 'quarante' en anglais ?;forty;two;one hundred;sixty
+20080;Que veut dire 'forty' en français ?;quarante;deux;vingt;trente
+20081;Comment dit-on 'cinquante' en anglais ?;fifty;eighty;seventy;five
+20082;Que veut dire 'fifty' en français ?;cinquante;huit;quatre-vingts;soixante-dix
+20083;Comment dit-on 'soixante' en anglais ?;sixty;thirty;two;nine
+20084;Que veut dire 'sixty' en français ?;soixante;six;un;huit
+20085;Comment dit-on 'soixante-dix' en anglais ?;seventy;one;ten;thirty
+20086;Que veut dire 'seventy' en français ?;soixante-dix;sept;quarante;quatre
+20087;Comment dit-on 'quatre-vingts' en anglais ?;eighty;thirty;twenty;four
+20088;Que veut dire 'eighty' en français ?;quatre-vingts;huit;deux;cinquante
+20089;Comment dit-on 'quatre-vingt-dix' en anglais ?;ninety;two;seventy;four
+20090;Que veut dire 'ninety' en français ?;quatre-vingt-dix;cinq;six;un
+20091;Comment dit-on 'cent' en anglais ?;one hundred;ten;three;nine
+20092;Que veut dire 'one hundred' en français ?;cent;trois;un;cinquante
+20093;Comment dit-on 'à droite, il y a six ours' en anglais ?;On the right, there are 6 bears;On the right, there are 6 rabbits;On the right, there are 6 cows;On the right, there are 6 tigers
+20094;Que veut dire 'roof' en français ?;toit;garage;salon;cave
+20095;Comment dit-on 'chinois' en anglais ?;Chinese;Scottish;Brazilian;Mexican
+20096;Comment dit-on 'à gauche, il y a six oiseaus' en anglais ?;On the left, there are 6 birds;On the left, there are 6 frogs;On the left, there are 6 horses;On the left, there are 6 pigs
+20097;Comment dit-on 'dauphin' en anglais ?;dolphin;polar bear;hen;fox
+20098;Que veut dire 'park' en français ?;parc;plage;aéroport;ferme
+20099;Comment dit-on 'à droite, il y a quatre éléphants' en anglais ?;On the right, there are 4 elephants;On the right, there are 4 pigs;On the right, there are 4 rabbits;On the right, there are 4 tigers
+20100;Que veut dire 'bee' en français ?;abeille;dinde;chèvre;crabe
+20101;Comment dit-on 'en bas, il y a sept grenouilles' en anglais ?;At the bottom, there are 7 frogs;At the bottom, there are 7 elephants;At the bottom, there are 7 mice;At the bottom, there are 7 horses
+20102;Que veut dire 'knife' en français ?;couteau;bol;évier;verre
+20103;Comment dit-on 'chauffeur' en anglais ?;driver;baker;postman;baker
+20104;Comment dit-on 'à droite, il y a cinq chats' en anglais ?;On the right, there are 5 cats;On the right, there are 5 pigs;On the right, there are 5 rabbits;On the right, there are 5 monkeys
+20105;Comment dit-on 'hibou' en anglais ?;owl;squirrel;octopus;spider
+20106;Que veut dire 'pink' en français ?;rose;jaune;rouge;gris
+20107;Comment dit-on 'sucre' en anglais ?;sugar;lemon;cookie;carrot
+20108;Que veut dire 'lavender' en français ?;lavande;beige;crème;bordeaux
+20109;Comment dit-on 'en bas, il y a quatre chats' en anglais ?;At the bottom, there are 4 cats;At the bottom, there are 4 lions;At the bottom, there are 4 tigers;At the bottom, there are 4 horses
+20110;Que veut dire 'camel' en français ?;chameau;lézard;ours polaire;pieuvre
+20111;Comment dit-on 'j'ai attrapé' en anglais ?;I caught;I found;I lost;I sat
+20112;Que veut dire 'marker' en français ?;feutre;mur;calculatrice;ordinateur
+20113;Comment dit-on 'araignée' en anglais ?;spider;eagle;bee;goat
+20114;Que veut dire 'I sat' en français ?;je me suis assis;j'ai perdu;j'ai conduit;j'ai envoyé
+20115;Comment dit-on 'gallois' en anglais ?;Welsh;Portuguese;Chinese;Scottish
+20116;Que veut dire 'march' en français ?;mars;mai;décembre;avril
+20117;Comment dit-on 'premier' en anglais ?;first;second;ninth;sixth
+20118;Comment dit-on 'au milieu, il y a quatre ours' en anglais ?;In the middle, there are 4 bears;In the middle, there are 4 fish;In the middle, there are 4 horses;In the middle, there are 4 frogs
+20119;Comment dit-on 'sol' en anglais ?;floor;map;window;ceiling
+20120;Que veut dire 'painter' en français ?;peintre;coiffeur;acteur;facteur
+20121;Comment dit-on 'écureuil' en anglais ?;squirrel;crab;peacock;deer
+20122;Que veut dire 'pot' en français ?;casserole;fourchette;assiette;cuillère
+20123;Comment dit-on 'poule' en anglais ?;hen;owl;fox;octopus
+20124;Que veut dire 'Scottish' en français ?;écossais;grec;indien;japonais
+20125;Comment dit-on 'à droite, il y a six chats' en anglais ?;On the right, there are 6 cats;On the right, there are 6 ducks;On the right, there are 6 horses;On the right, there are 6 tigers
+20126;Que veut dire 'grape' en français ?;raisin;soupe;chocolat;pain
+20127;Comment dit-on 'cygne' en anglais ?;swan;penguin;deer;donkey
+20128;Que veut dire 'Belgian' en français ?;belge;brésilien;suisse;japonais
+20129;Comment dit-on 'chauve-souris' en anglais ?;bat;rooster;frog;giraffe
+20130;Que veut dire 'ant' en français ?;fourmi;aigle;abeille;poule
+20131;Comment dit-on 'caillou' en anglais ?;stone;sun;volcano;root
+20132;Que veut dire 'I taught' en français ?;j'ai enseigné;j'ai perdu;j'ai chanté;j'ai écrit
+20133;Comment dit-on 'jumeau' en anglais ?;twin;cousin;stepmother;stepfather
+20134;Que veut dire 'stepmother' en français ?;belle-mère;nièce;tante;cousin
+20135;Comment dit-on 'j'ai volé' en anglais ?;I flew;I sang;I thought;I swam
+20136;Que veut dire 'sandwich' en français ?;sandwich;gâteau;pêche;pastèque
+20137;Comment dit-on 'en bas, il y a six grenouilles' en anglais ?;At the bottom, there are 6 frogs;At the bottom, there are 6 tigers;At the bottom, there are 6 bears;At the bottom, there are 6 snakes
+20138;Comment dit-on 'au milieu, il y a quatre souriss' en anglais ?;In the middle, there are 4 mice;In the middle, there are 4 pigs;In the middle, there are 4 frogs;In the middle, there are 4 rabbits
+20139;Comment dit-on 'à gauche, il y a six ours' en anglais ?;On the left, there are 6 bears;On the left, there are 6 birds;On the left, there are 6 fish;On the left, there are 6 dogs
+20140;Comment dit-on 'à gauche, il y a six tigres' en anglais ?;On the left, there are 6 tigers;On the left, there are 6 rabbits;On the left, there are 6 mice;On the left, there are 6 dogs
+20141;Comment dit-on 'à droite, il y a sept ours' en anglais ?;On the right, there are 7 bears;On the right, there are 7 elephants;On the right, there are 7 snakes;On the right, there are 7 dogs
+20142;Comment dit-on 'à droite, il y a six chiens' en anglais ?;On the right, there are 6 dogs;On the right, there are 6 rabbits;On the right, there are 6 cows;On the right, there are 6 mice
+20143;Comment dit-on 'à droite, il y a six lions' en anglais ?;On the right, there are 6 lions;On the right, there are 6 ducks;On the right, there are 6 monkeys;On the right, there are 6 snakes
+20144;Comment dit-on 'il y a six serpents' en anglais ?;There are 6 snakes;There are 6 pigs;There are 6 lions;There are 6 monkeys
+20145;Comment dit-on 'en haut, il y a cinq vaches' en anglais ?;At the top, there are 5 cows;At the top, there are 5 cats;At the top, there are 5 fish;At the top, there are 5 elephants
+20146;Comment dit-on 'en bas, il y a quatre poissons' en anglais ?;At the bottom, there are 4 fish;At the bottom, there are 4 bears;At the bottom, there are 4 tigers;At the bottom, there are 4 lions
+20147;Comment dit-on 'il y a sept chiens' en anglais ?;There are 7 dogs;There are 7 bears;There are 7 elephants;There are 7 cats
+20148;Comment dit-on 'il y a sept oiseaus' en anglais ?;There are 7 birds;There are 7 rabbits;There are 7 cats;There are 7 frogs
+20149;Comment dit-on 'en bas, il y a six poissons' en anglais ?;At the bottom, there are 6 fish;At the bottom, there are 6 rabbits;At the bottom, there are 6 dogs;At the bottom, there are 6 ducks
+20150;Comment dit-on 'en haut, il y a sept canards' en anglais ?;At the top, there are 7 ducks;At the top, there are 7 bears;At the top, there are 7 birds;At the top, there are 7 pigs
+20151;Comment dit-on 'en haut, il y a six moutons' en anglais ?;At the top, there are 6 sheep;At the top, there are 6 cows;At the top, there are 6 bears;At the top, there are 6 tigers
+20152;Comment dit-on 'il y a quatre vaches' en anglais ?;There are 4 cows;There are 4 frogs;There are 4 fish;There are 4 rabbits
+20153;Comment dit-on 'en bas, il y a six lions' en anglais ?;At the bottom, there are 6 lions;At the bottom, there are 6 snakes;At the bottom, there are 6 horses;At the bottom, there are 6 cows
+20154;Que veut dire 'hand' en français ?;main;tête;pied;oreille
+20155;Comment dit-on 'en bas, il y a quatre éléphants' en anglais ?;At the bottom, there are 4 elephants;At the bottom, there are 4 cows;At the bottom, there are 4 mice;At the bottom, there are 4 fish
+20156;Comment dit-on 'en haut, il y a cinq lions' en anglais ?;At the top, there are 5 lions;At the top, there are 5 pigs;At the top, there are 5 fish;At the top, there are 5 sheep
+20157;Comment dit-on 'en bas, il y a sept serpents' en anglais ?;At the bottom, there are 7 snakes;At the bottom, there are 7 horses;At the bottom, there are 7 lions;At the bottom, there are 7 rabbits
+20158;Comment dit-on 'en haut, il y a sept chats' en anglais ?;At the top, there are 7 cats;At the top, there are 7 cows;At the top, there are 7 horses;At the top, there are 7 ducks
+20159;Comment dit-on 'il y a cinq cochons' en anglais ?;There are 5 pigs;There are 5 cows;There are 5 birds;There are 5 cats
+20160;Comment dit-on 'à gauche, il y a quatre chevaux' en anglais ?;On the left, there are 4 horses;On the left, there are 4 frogs;On the left, there are 4 monkeys;On the left, there are 4 rabbits
+20161;Comment dit-on 'à gauche, il y a sept chats' en anglais ?;On the left, there are 7 cats;On the left, there are 7 rabbits;On the left, there are 7 elephants;On the left, there are 7 cows
+20162;Que veut dire 'glass' en français ?;verre;fourchette;assiette;frigo
+20163;Comment dit-on 'escalier' en anglais ?;stairs;bed;garden;bathroom
+20164;Comment dit-on 'en haut, il y a quatre moutons' en anglais ?;At the top, there are 4 sheep;At the top, there are 4 ducks;At the top, there are 4 fish;At the top, there are 4 rabbits
+20165;Comment dit-on 'à gauche, il y a quatre serpents' en anglais ?;On the left, there are 4 snakes;On the left, there are 4 birds;On the left, there are 4 frogs;On the left, there are 4 bears
+20166;Que veut dire 'shoulder' en français ?;épaule;bras;pied;jambe
+20167;Comment dit-on 'au milieu, il y a cinq ours' en anglais ?;In the middle, there are 5 bears;In the middle, there are 5 elephants;In the middle, there are 5 sheep;In the middle, there are 5 dogs
+20168;Comment dit-on 'en bas, il y a sept lapins' en anglais ?;At the bottom, there are 7 rabbits;At the bottom, there are 7 cats;At the bottom, there are 7 ducks;At the bottom, there are 7 horses
+20169;Comment dit-on 'en bas, il y a quatre grenouilles' en anglais ?;At the bottom, there are 4 frogs;At the bottom, there are 4 snakes;At the bottom, there are 4 tigers;At the bottom, there are 4 birds
+20170;Comment dit-on 'à gauche, il y a six singes' en anglais ?;On the left, there are 6 monkeys;On the left, there are 6 bears;On the left, there are 6 lions;On the left, there are 6 ducks
+20171;Comment dit-on 'à gauche, il y a sept canards' en anglais ?;On the left, there are 7 ducks;On the left, there are 7 cows;On the left, there are 7 mice;On the left, there are 7 fish
+20172;Comment dit-on 'à gauche, il y a six canards' en anglais ?;On the left, there are 6 ducks;On the left, there are 6 lions;On the left, there are 6 frogs;On the left, there are 6 cows
+20173;Comment dit-on 'en bas, il y a six serpents' en anglais ?;At the bottom, there are 6 snakes;At the bottom, there are 6 sheep;At the bottom, there are 6 fish;At the bottom, there are 6 tigers
+20174;Comment dit-on 'à gauche, il y a sept lapins' en anglais ?;On the left, there are 7 rabbits;On the left, there are 7 snakes;On the left, there are 7 elephants;On the left, there are 7 cows
+20175;Comment dit-on 'en haut, il y a sept poissons' en anglais ?;At the top, there are 7 fish;At the top, there are 7 bears;At the top, there are 7 lions;At the top, there are 7 horses
+20176;Comment dit-on 'au milieu, il y a cinq vaches' en anglais ?;In the middle, there are 5 cows;In the middle, there are 5 horses;In the middle, there are 5 pigs;In the middle, there are 5 bears
+20177;Comment dit-on 'en bas, il y a cinq cochons' en anglais ?;At the bottom, there are 5 pigs;At the bottom, there are 5 elephants;At the bottom, there are 5 snakes;At the bottom, there are 5 rabbits
+20178;Comment dit-on 'à droite, il y a six chevaux' en anglais ?;On the right, there are 6 horses;On the right, there are 6 fish;On the right, there are 6 rabbits;On the right, there are 6 cows
+20179;Comment dit-on 'en haut, il y a six oiseaus' en anglais ?;At the top, there are 6 birds;At the top, there are 6 pigs;At the top, there are 6 elephants;At the top, there are 6 cats
+20180;Comment dit-on 'il y a quatre singes' en anglais ?;There are 4 monkeys;There are 4 cats;There are 4 rabbits;There are 4 frogs
+20181;Comment dit-on 'en haut, il y a quatre chevaux' en anglais ?;At the top, there are 4 horses;At the top, there are 4 pigs;At the top, there are 4 ducks;At the top, there are 4 birds
+20182;Comment dit-on 'à droite, il y a quatre moutons' en anglais ?;On the right, there are 4 sheep;On the right, there are 4 monkeys;On the right, there are 4 cows;On the right, there are 4 mice
+20183;Comment dit-on 'à droite, il y a quatre singes' en anglais ?;On the right, there are 4 monkeys;On the right, there are 4 dogs;On the right, there are 4 elephants;On the right, there are 4 horses
+20184;Comment dit-on 'en haut, il y a cinq souriss' en anglais ?;At the top, there are 5 mice;At the top, there are 5 rabbits;At the top, there are 5 elephants;At the top, there are 5 tigers
+20185;Comment dit-on 'à droite, il y a quatre poissons' en anglais ?;On the right, there are 4 fish;On the right, there are 4 horses;On the right, there are 4 cats;On the right, there are 4 elephants
+20186;Comment dit-on 'en bas, il y a cinq poissons' en anglais ?;At the bottom, there are 5 fish;At the bottom, there are 5 snakes;At the bottom, there are 5 monkeys;At the bottom, there are 5 elephants
+20187;Comment dit-on 'en haut, il y a quatre chiens' en anglais ?;At the top, there are 4 dogs;At the top, there are 4 birds;At the top, there are 4 frogs;At the top, there are 4 pigs
+20188;Comment dit-on 'à gauche, il y a sept singes' en anglais ?;On the left, there are 7 monkeys;On the left, there are 7 tigers;On the left, there are 7 frogs;On the left, there are 7 cows
+20189;Comment dit-on 'en bas, il y a cinq éléphants' en anglais ?;At the bottom, there are 5 elephants;At the bottom, there are 5 lions;At the bottom, there are 5 sheep;At the bottom, there are 5 cats
+20190;Comment dit-on 'à droite, il y a cinq singes' en anglais ?;On the right, there are 5 monkeys;On the right, there are 5 mice;On the right, there are 5 horses;On the right, there are 5 lions
+20191;Comment dit-on 'à droite, il y a sept lions' en anglais ?;On the right, there are 7 lions;On the right, there are 7 snakes;On the right, there are 7 fish;On the right, there are 7 pigs
+20192;Comment dit-on 'il y a cinq chevaux' en anglais ?;There are 5 horses;There are 5 rabbits;There are 5 lions;There are 5 mice
+20193;Comment dit-on 'à gauche, il y a quatre singes' en anglais ?;On the left, there are 4 monkeys;On the left, there are 4 rabbits;On the left, there are 4 frogs;On the left, there are 4 fish
+20194;Comment dit-on 'en bas, il y a cinq lapins' en anglais ?;At the bottom, there are 5 rabbits;At the bottom, there are 5 mice;At the bottom, there are 5 fish;At the bottom, there are 5 dogs
+20195;Comment dit-on 'au milieu, il y a sept ours' en anglais ?;In the middle, there are 7 bears;In the middle, there are 7 tigers;In the middle, there are 7 pigs;In the middle, there are 7 frogs
+20196;Comment dit-on 'en bas, il y a cinq serpents' en anglais ?;At the bottom, there are 5 snakes;At the bottom, there are 5 monkeys;At the bottom, there are 5 cats;At the bottom, there are 5 lions
+20197;Comment dit-on 'en bas, il y a cinq canards' en anglais ?;At the bottom, there are 5 ducks;At the bottom, there are 5 frogs;At the bottom, there are 5 cats;At the bottom, there are 5 cows
+20198;Comment dit-on 'en bas, il y a cinq chiens' en anglais ?;At the bottom, there are 5 dogs;At the bottom, there are 5 rabbits;At the bottom, there are 5 elephants;At the bottom, there are 5 birds
+20199;Comment dit-on 'il y a six canards' en anglais ?;There are 6 ducks;There are 6 monkeys;There are 6 cows;There are 6 birds
+20200;Comment dit-on 'il y a cinq lapins' en anglais ?;There are 5 rabbits;There are 5 mice;There are 5 elephants;There are 5 lions
+20201;Comment dit-on 'il y a cinq vaches' en anglais ?;There are 5 cows;There are 5 snakes;There are 5 birds;There are 5 lions
+20202;Comment dit-on 'en bas, il y a six ours' en anglais ?;At the bottom, there are 6 bears;At the bottom, there are 6 birds;At the bottom, there are 6 lions;At the bottom, there are 6 ducks
+20203;Comment dit-on 'plat de poisson' en anglais ?;fish dish;egg;bread;chocolate
+20204;Que veut dire 'fish dish' en français ?;poisson (plat);fromage;viande;eau
+20205;Comment dit-on 'au milieu, il y a six poissons' en anglais ?;In the middle, there are 6 fish;In the middle, there are 6 bears;In the middle, there are 6 rabbits;In the middle, there are 6 tigers
+20206;Comment dit-on 'au milieu, il y a cinq lions' en anglais ?;In the middle, there are 5 lions;In the middle, there are 5 tigers;In the middle, there are 5 snakes;In the middle, there are 5 sheep
+20207;Comment dit-on 'au milieu, il y a sept cochons' en anglais ?;In the middle, there are 7 pigs;In the middle, there are 7 fish;In the middle, there are 7 frogs;In the middle, there are 7 bears
+20208;Comment dit-on 'en bas, il y a sept chats' en anglais ?;At the bottom, there are 7 cats;At the bottom, there are 7 sheep;At the bottom, there are 7 cows;At the bottom, there are 7 fish
+20209;Comment dit-on 'au milieu, il y a quatre chats' en anglais ?;In the middle, there are 4 cats;In the middle, there are 4 horses;In the middle, there are 4 frogs;In the middle, there are 4 birds
+20210;Comment dit-on 'en haut, il y a six vaches' en anglais ?;At the top, there are 6 cows;At the top, there are 6 cats;At the top, there are 6 elephants;At the top, there are 6 horses
+20211;Comment dit-on 'en bas, il y a quatre moutons' en anglais ?;At the bottom, there are 4 sheep;At the bottom, there are 4 mice;At the bottom, there are 4 rabbits;At the bottom, there are 4 cats
+20212;Comment dit-on 'à droite, il y a cinq chevaux' en anglais ?;On the right, there are 5 horses;On the right, there are 5 lions;On the right, there are 5 snakes;On the right, there are 5 cows
+20213;Comment dit-on 'au milieu, il y a sept serpents' en anglais ?;In the middle, there are 7 snakes;In the middle, there are 7 dogs;In the middle, there are 7 cows;In the middle, there are 7 bears
+20214;Comment dit-on 'en bas, il y a six cochons' en anglais ?;At the bottom, there are 6 pigs;At the bottom, there are 6 cows;At the bottom, there are 6 cats;At the bottom, there are 6 horses
+20215;Comment dit-on 'à gauche, il y a six chats' en anglais ?;On the left, there are 6 cats;On the left, there are 6 cows;On the left, there are 6 dogs;On the left, there are 6 pigs
+20216;Comment dit-on 'à droite, il y a quatre chats' en anglais ?;On the right, there are 4 cats;On the right, there are 4 horses;On the right, there are 4 monkeys;On the right, there are 4 ducks
+20217;Comment dit-on 'il y a cinq canards' en anglais ?;There are 5 ducks;There are 5 tigers;There are 5 monkeys;There are 5 birds
+20218;Comment dit-on 'il y a quatre moutons' en anglais ?;There are 4 sheep;There are 4 dogs;There are 4 mice;There are 4 frogs
+20219;Comment dit-on 'au milieu, il y a sept poissons' en anglais ?;In the middle, there are 7 fish;In the middle, there are 7 frogs;In the middle, there are 7 cats;In the middle, there are 7 ducks
+20220;Comment dit-on 'il y a quatre tigres' en anglais ?;There are 4 tigers;There are 4 cats;There are 4 elephants;There are 4 lions
+20221;Comment dit-on 'voiture' en anglais ?;car;on foot;plane;bus
+20222;Que veut dire 'car' en français ?;voiture;bateau;train;bus
+20223;Comment dit-on 'bus' en anglais ?;bus;scooter;boat;on foot
+20224;Que veut dire 'bus' en français ?;bus;bateau;vélo;train
+20225;Comment dit-on 'train' en anglais ?;train;bus;plane;scooter
+20226;Que veut dire 'train' en français ?;train;bateau;voiture;bus
+20227;Comment dit-on 'avion' en anglais ?;plane;train;scooter;bike
+20228;Que veut dire 'plane' en français ?;avion;bateau;train;vélo
+20229;Comment dit-on 'bateau' en anglais ?;boat;plane;car;bike
+20230;Que veut dire 'boat' en français ?;bateau;à pied;bus;vélo
+20231;Comment dit-on 'vélo' en anglais ?;bike;on foot;plane;train
+20232;Que veut dire 'bike' en français ?;vélo;voiture;trottinette;bateau
+20233;Comment dit-on 'trottinette' en anglais ?;scooter;plane;car;train
+20234;Que veut dire 'scooter' en français ?;trottinette;à pied;bus;bateau
+20235;Comment dit-on 'à pied' en anglais ?;on foot;plane;bike;car
+20236;Que veut dire 'on foot' en français ?;à pied;vélo;train;voiture
+20237;Comment dit-on 'professeur' en anglais ?;teacher;cook;doctor;firefighter
+20238;Que veut dire 'teacher' en français ?;professeur;pompier;docteur;dentiste
+20239;Comment dit-on 'docteur' en anglais ?;doctor;firefighter;teacher;cook
+20240;Que veut dire 'doctor' en français ?;docteur;policier;cuisinier;boulanger
+20241;Comment dit-on 'pompier' en anglais ?;firefighter;teacher;vet;police officer
+20242;Que veut dire 'firefighter' en français ?;pompier;professeur;infirmier;fermier
+20243;Comment dit-on 'policier' en anglais ?;police officer;teacher;nurse;baker
+20244;Que veut dire 'police officer' en français ?;policier;professeur;cuisinier;docteur
+20245;Comment dit-on 'infirmier' en anglais ?;nurse;doctor;baker;firefighter
+20246;Que veut dire 'nurse' en français ?;infirmier;boulanger;policier;pompier
+20247;Comment dit-on 'fermier' en anglais ?;farmer;dentist;firefighter;vet
+20248;Que veut dire 'farmer' en français ?;fermier;docteur;boulanger;professeur
+20249;Comment dit-on 'dentiste' en anglais ?;dentist;teacher;vet;doctor
+20250;Que veut dire 'dentist' en français ?;dentiste;infirmier;fermier;policier
+20251;Comment dit-on 'vétérinaire' en anglais ?;vet;farmer;baker;cook
+20252;Que veut dire 'vet' en français ?;vétérinaire;cuisinier;infirmier;professeur
+20253;Comment dit-on 'boulanger' en anglais ?;baker;vet;firefighter;cook
+20254;Que veut dire 'baker' en français ?;boulanger;pompier;fermier;docteur
+20255;Comment dit-on 'cuisinier' en anglais ?;cook;farmer;nurse;baker
+20256;Que veut dire 'cook' en français ?;cuisinier;professeur;policier;boulanger
+20257;Comment dit-on 'faire du vélo' en anglais ?;cycling;basketball;football;singing
+20258;Que veut dire 'cycling' en français ?;faire du vélo;course;lecture;tennis
+20259;Comment dit-on 'à droite, il y a quatre lapins' en anglais ?;On the right, there are 4 rabbits;On the right, there are 4 dogs;On the right, there are 4 cows;On the right, there are 4 elephants
+20260;Comment dit-on 'il y a cinq serpents' en anglais ?;There are 5 snakes;There are 5 frogs;There are 5 cows;There are 5 fish
+20261;Comment dit-on 'en haut, il y a quatre vaches' en anglais ?;At the top, there are 4 cows;At the top, there are 4 dogs;At the top, there are 4 fish;At the top, there are 4 snakes
+20262;Comment dit-on 'à gauche, il y a six cochons' en anglais ?;On the left, there are 6 pigs;On the left, there are 6 tigers;On the left, there are 6 mice;On the left, there are 6 frogs
+20263;Comment dit-on 'au milieu, il y a six canards' en anglais ?;In the middle, there are 6 ducks;In the middle, there are 6 bears;In the middle, there are 6 frogs;In the middle, there are 6 sheep
+20264;Comment dit-on 'à droite, il y a quatre vaches' en anglais ?;On the right, there are 4 cows;On the right, there are 4 snakes;On the right, there are 4 pigs;On the right, there are 4 dogs
+20265;Comment dit-on 'au milieu, il y a quatre chevaux' en anglais ?;In the middle, there are 4 horses;In the middle, there are 4 lions;In the middle, there are 4 rabbits;In the middle, there are 4 tigers
+20266;Comment dit-on 'en haut, il y a sept grenouilles' en anglais ?;At the top, there are 7 frogs;At the top, there are 7 snakes;At the top, there are 7 ducks;At the top, there are 7 bears
+20267;Comment dit-on 'tennis' en anglais ?;tennis;reading;drawing;swimming
+20268;Que veut dire 'tennis' en français ?;tennis;faire du vélo;basket;course
+20269;Comment dit-on 'basket' en anglais ?;basketball;singing;swimming;running
+20270;Que veut dire 'basketball' en français ?;basket;natation;dessin;faire du vélo
+20271;Comment dit-on 'au milieu, il y a six cochons' en anglais ?;In the middle, there are 6 pigs;In the middle, there are 6 lions;In the middle, there are 6 dogs;In the middle, there are 6 monkeys
+20272;Comment dit-on 'à gauche, il y a sept chevaux' en anglais ?;On the left, there are 7 horses;On the left, there are 7 pigs;On the left, there are 7 bears;On the left, there are 7 mice
+20273;Comment dit-on 'en haut, il y a cinq lapins' en anglais ?;At the top, there are 5 rabbits;At the top, there are 5 dogs;At the top, there are 5 tigers;At the top, there are 5 bears
+20274;Comment dit-on 'en bas, il y a quatre lions' en anglais ?;At the bottom, there are 4 lions;At the bottom, there are 4 sheep;At the bottom, there are 4 rabbits;At the bottom, there are 4 tigers
+20275;Comment dit-on 'il y a six éléphants' en anglais ?;There are 6 elephants;There are 6 mice;There are 6 lions;There are 6 dogs
+20276;Comment dit-on 'à droite, il y a sept vaches' en anglais ?;On the right, there are 7 cows;On the right, there are 7 fish;On the right, there are 7 horses;On the right, there are 7 frogs
+20277;Comment dit-on 'en bas, il y a quatre ours' en anglais ?;At the bottom, there are 4 bears;At the bottom, there are 4 pigs;At the bottom, there are 4 ducks;At the bottom, there are 4 horses
+20278;Comment dit-on 'à droite, il y a cinq tigres' en anglais ?;On the right, there are 5 tigers;On the right, there are 5 pigs;On the right, there are 5 bears;On the right, there are 5 monkeys
+20279;Comment dit-on 'il y a quatre cochons' en anglais ?;There are 4 pigs;There are 4 rabbits;There are 4 horses;There are 4 elephants
+20280;Comment dit-on 'en bas, il y a quatre chiens' en anglais ?;At the bottom, there are 4 dogs;At the bottom, there are 4 birds;At the bottom, there are 4 frogs;At the bottom, there are 4 cows
+20281;Comment dit-on 'il y a quatre chats' en anglais ?;There are 4 cats;There are 4 frogs;There are 4 sheep;There are 4 bears
+20282;Comment dit-on 'à gauche, il y a cinq chiens' en anglais ?;On the left, there are 5 dogs;On the left, there are 5 pigs;On the left, there are 5 cats;On the left, there are 5 ducks
+20283;Comment dit-on 'il y a un/une chien' en anglais ?;There is a dog;There is a rabbit;There is a sheep;There is a cat
+20284;Comment dit-on 'il y a un/une chat' en anglais ?;There is a cat;There is a bear;There is a dog;There is a monkey
+20285;Comment dit-on 'il y a un/une souris' en anglais ?;There is a mouse;There is a duck;There is a snake;There is a dog
+20286;Comment dit-on 'il y a un/une lapin' en anglais ?;There is a rabbit;There is an elephant;There is a bear;There is a horse
+20287;Comment dit-on 'il y a un/une oiseau' en anglais ?;There is a bird;There is an elephant;There is a bear;There is a fish
+20288;Comment dit-on 'il y a un/une vache' en anglais ?;There is a cow;There is a lion;There is a snake;There is a frog
+20289;Comment dit-on 'il y a un/une cochon' en anglais ?;There is a pig;There is a bear;There is an elephant;There is a dog
+20290;Comment dit-on 'il y a un/une cheval' en anglais ?;There is a horse;There is an elephant;There is a cat;There is a bear
+20291;Comment dit-on 'il y a un/une mouton' en anglais ?;There is a sheep;There is a lion;There is a monkey;There is a frog
+20292;Comment dit-on 'il y a un/une poisson' en anglais ?;There is a fish;There is a tiger;There is an elephant;There is a pig
+20293;Comment dit-on 'il y a un/une canard' en anglais ?;There is a duck;There is an elephant;There is a bear;There is a rabbit
+20294;Comment dit-on 'il y a un/une grenouille' en anglais ?;There is a frog;There is an elephant;There is a cow;There is a lion
+20295;Comment dit-on 'il y a un/une serpent' en anglais ?;There is a snake;There is a tiger;There is a rabbit;There is an elephant
+20296;Comment dit-on 'il y a un/une lion' en anglais ?;There is a lion;There is a pig;There is a bird;There is a mouse
+20297;Comment dit-on 'il y a un/une éléphant' en anglais ?;There is an elephant;There is a bird;There is a monkey;There is a snake
+20298;Comment dit-on 'il y a un/une singe' en anglais ?;There is a monkey;There is a mouse;There is a tiger;There is a dog
+20299;Comment dit-on 'il y a un/une tigre' en anglais ?;There is a tiger;There is a bear;There is a sheep;There is a fish
+20300;Comment dit-on 'il y a un/une ours' en anglais ?;There is a bear;There is a monkey;There is a snake;There is a tiger
+20301;Comment dit-on 'il y a deux chiens' en anglais ?;There are 2 dogs;There are 2 cats;There are 2 snakes;There are 2 fish
+20302;Comment dit-on 'il y a deux chats' en anglais ?;There are 2 cats;There are 2 horses;There are 2 rabbits;There are 2 frogs
+20303;Comment dit-on 'il y a deux souris' en anglais ?;There are 2 mice;There are 2 cats;There are 2 pigs;There are 2 ducks
+20304;Comment dit-on 'il y a deux lapins' en anglais ?;There are 2 rabbits;There are 2 snakes;There are 2 lions;There are 2 mice
+20305;Comment dit-on 'il y a deux oiseaux' en anglais ?;There are 2 birds;There are 2 frogs;There are 2 pigs;There are 2 sheep
+20306;Comment dit-on 'il y a deux vaches' en anglais ?;There are 2 cows;There are 2 snakes;There are 2 mice;There are 2 dogs
+20307;Comment dit-on 'il y a deux cochons' en anglais ?;There are 2 pigs;There are 2 mice;There are 2 cows;There are 2 lions
+20308;Comment dit-on 'il y a deux chevaux' en anglais ?;There are 2 horses;There are 2 ducks;There are 2 lions;There are 2 bears
+20309;Comment dit-on 'il y a deux moutons' en anglais ?;There are 2 sheep;There are 2 lions;There are 2 ducks;There are 2 rabbits
+20310;Comment dit-on 'il y a deux poissons' en anglais ?;There are 2 fish;There are 2 horses;There are 2 rabbits;There are 2 cows
+20311;Comment dit-on 'il y a deux canards' en anglais ?;There are 2 ducks;There are 2 frogs;There are 2 lions;There are 2 pigs
+20312;Comment dit-on 'il y a deux grenouilles' en anglais ?;There are 2 frogs;There are 2 snakes;There are 2 rabbits;There are 2 elephants
+20313;Comment dit-on 'il y a deux serpents' en anglais ?;There are 2 snakes;There are 2 monkeys;There are 2 tigers;There are 2 elephants
+20314;Comment dit-on 'il y a deux lions' en anglais ?;There are 2 lions;There are 2 birds;There are 2 monkeys;There are 2 sheep
+20315;Comment dit-on 'il y a deux éléphants' en anglais ?;There are 2 elephants;There are 2 cows;There are 2 pigs;There are 2 sheep
+20316;Comment dit-on 'il y a deux singes' en anglais ?;There are 2 monkeys;There are 2 bears;There are 2 ducks;There are 2 tigers
+20317;Comment dit-on 'il y a deux tigres' en anglais ?;There are 2 tigers;There are 2 mice;There are 2 monkeys;There are 2 dogs
+20318;Comment dit-on 'il y a deux ours' en anglais ?;There are 2 bears;There are 2 horses;There are 2 lions;There are 2 birds
+20319;Comment dit-on 'il y a trois chiens' en anglais ?;There are 3 dogs;There are 3 mice;There are 3 monkeys;There are 3 frogs
+20320;Comment dit-on 'il y a trois chats' en anglais ?;There are 3 cats;There are 3 bears;There are 3 horses;There are 3 pigs
+20321;Comment dit-on 'il y a trois souris' en anglais ?;There are 3 mice;There are 3 monkeys;There are 3 frogs;There are 3 rabbits
+20322;Comment dit-on 'il y a trois lapins' en anglais ?;There are 3 rabbits;There are 3 horses;There are 3 elephants;There are 3 pigs
+20323;Comment dit-on 'il y a trois oiseaux' en anglais ?;There are 3 birds;There are 3 horses;There are 3 cows;There are 3 sheep
+20324;Comment dit-on 'il y a trois vaches' en anglais ?;There are 3 cows;There are 3 lions;There are 3 cats;There are 3 birds
+20325;Comment dit-on 'il y a trois cochons' en anglais ?;There are 3 pigs;There are 3 fish;There are 3 cows;There are 3 horses
+20326;Comment dit-on 'il y a trois chevaux' en anglais ?;There are 3 horses;There are 3 elephants;There are 3 dogs;There are 3 cats
+20327;Comment dit-on 'il y a trois moutons' en anglais ?;There are 3 sheep;There are 3 monkeys;There are 3 mice;There are 3 snakes
+20328;Comment dit-on 'il y a trois poissons' en anglais ?;There are 3 fish;There are 3 frogs;There are 3 bears;There are 3 tigers
+20329;Comment dit-on 'il y a trois canards' en anglais ?;There are 3 ducks;There are 3 bears;There are 3 dogs;There are 3 mice
+20330;Comment dit-on 'il y a trois grenouilles' en anglais ?;There are 3 frogs;There are 3 horses;There are 3 sheep;There are 3 rabbits
+20331;Comment dit-on 'il y a trois serpents' en anglais ?;There are 3 snakes;There are 3 cows;There are 3 mice;There are 3 lions
+20332;Comment dit-on 'il y a trois lions' en anglais ?;There are 3 lions;There are 3 sheep;There are 3 horses;There are 3 bears
+20333;Comment dit-on 'il y a trois éléphants' en anglais ?;There are 3 elephants;There are 3 lions;There are 3 cows;There are 3 tigers
+20334;Comment dit-on 'il y a trois singes' en anglais ?;There are 3 monkeys;There are 3 dogs;There are 3 cats;There are 3 bears
+20335;Comment dit-on 'il y a trois tigres' en anglais ?;There are 3 tigers;There are 3 pigs;There are 3 monkeys;There are 3 sheep
+20336;Comment dit-on 'il y a trois ours' en anglais ?;There are 3 bears;There are 3 birds;There are 3 monkeys;There are 3 sheep
+20337;Comment dit-on 'je préfère les pommes' en anglais ?;I prefer apple;I prefer fish dish;I prefer egg;I prefer tennis
+20338;Que veut dire 'I prefer apple' en français ?;je préfère les pommes;je préfère le poisson;je préfère la course;je préfère le chant
+20339;Comment dit-on 'je préfère les bananes' en anglais ?;I prefer banana;I prefer cake;I prefer apple;I prefer tennis
+20340;Que veut dire 'I prefer banana' en français ?;je préfère les bananes;je préfère le poisson;je préfère les pommes;je préfère le basket
+20341;Comment dit-on 'je préfère le pain' en anglais ?;I prefer bread;I prefer soup;I prefer egg;I prefer meat
+20342;Que veut dire 'I prefer bread' en français ?;je préfère le pain;je préfère le lait;je préfère la lecture;je préfère le dessin
+20343;Comment dit-on 'je préfère le lait' en anglais ?;I prefer milk;I prefer rice;I prefer apple;I prefer cheese
+20344;Que veut dire 'I prefer milk' en français ?;je préfère le lait;je préfère la natation;je préfère la soupe;je préfère les pommes
+20345;Comment dit-on 'je préfère le fromage' en anglais ?;I prefer cheese;I prefer reading;I prefer rice;I prefer egg
+20346;Que veut dire 'I prefer cheese' en français ?;je préfère le fromage;je préfère la natation;je préfère la course;je préfère les pommes
+20347;Comment dit-on 'je préfère les oeufs' en anglais ?;I prefer egg;I prefer dancing;I prefer drawing;I prefer cheese
+20348;Que veut dire 'I prefer egg' en français ?;je préfère les oeufs;je préfère le poisson;je préfère la soupe;je préfère les gâteaux
+20349;Comment dit-on 'je préfère le chocolat' en anglais ?;I prefer chocolate;I prefer cycling;I prefer singing;I prefer bread
+20350;Que veut dire 'I prefer chocolate' en français ?;je préfère le chocolat;je préfère la lecture;je préfère l'eau;je préfère la course
+20351;Comment dit-on 'je préfère les gâteaux' en anglais ?;I prefer cake;I prefer meat;I prefer dancing;I prefer egg
+20352;Que veut dire 'I prefer cake' en français ?;je préfère les gâteaux;je préfère le football;je préfère le riz;je préfère les oeufs
+20353;Comment dit-on 'je préfère l'eau' en anglais ?;I prefer water;I prefer cake;I prefer rice;I prefer apple
+20354;Que veut dire 'I prefer water' en français ?;je préfère l'eau;je préfère la danse;je préfère les pommes;je préfère faire du vélo
+20355;Comment dit-on 'je préfère le riz' en anglais ?;I prefer rice;I prefer singing;I prefer football;I prefer tennis
+20356;Que veut dire 'I prefer rice' en français ?;je préfère le riz;je préfère le pain;je préfère le chant;je préfère la soupe
+20357;Comment dit-on 'je préfère la viande' en anglais ?;I prefer meat;I prefer soup;I prefer singing;I prefer egg
+20358;Que veut dire 'I prefer meat' en français ?;je préfère la viande;je préfère la course;je préfère le basket;je préfère le dessin
+20359;Comment dit-on 'je préfère la soupe' en anglais ?;I prefer soup;I prefer football;I prefer rice;I prefer egg
+20360;Que veut dire 'I prefer soup' en français ?;je préfère la soupe;je préfère le riz;je préfère la danse;je préfère le lait
+20361;Comment dit-on 'je préfère le poisson' en anglais ?;I prefer fish;I prefer meat;I prefer tennis;I prefer apple
+20362;Que veut dire 'I prefer fish' en français ?;je préfère le poisson;je préfère le tennis;je préfère le pain;je préfère le chocolat
+20363;Comment dit-on 'je préfère le football' en anglais ?;I prefer football;I prefer egg;I prefer soup;I prefer apple
+20364;Que veut dire 'I prefer football' en français ?;je préfère le football;je préfère le chant;je préfère le dessin;je préfère la natation
+20365;Comment dit-on 'je préfère la natation' en anglais ?;I prefer swimming;I prefer running;I prefer cheese;I prefer apple
+20366;Que veut dire 'I prefer swimming' en français ?;je préfère la natation;je préfère le chocolat;je préfère faire du vélo;je préfère le lait
+20367;Comment dit-on 'je préfère faire du vélo' en anglais ?;I prefer cycling;I prefer bread;I prefer reading;I prefer singing
+20368;Que veut dire 'I prefer cycling' en français ?;je préfère faire du vélo;je préfère la danse;je préfère le riz;je préfère le tennis
+20369;Comment dit-on 'je préfère la danse' en anglais ?;I prefer dancing;I prefer bread;I prefer egg;I prefer running
+20370;Que veut dire 'I prefer dancing' en français ?;je préfère la danse;je préfère la viande;je préfère le chant;je préfère les bananes
+20371;Comment dit-on 'je préfère le dessin' en anglais ?;I prefer drawing;I prefer reading;I prefer running;I prefer apple
+20372;Que veut dire 'I prefer drawing' en français ?;je préfère le dessin;je préfère les gâteaux;je préfère la natation;je préfère le pain
+20373;Comment dit-on 'je préfère la lecture' en anglais ?;I prefer reading;I prefer basketball;I prefer cheese;I prefer cake
+20374;Que veut dire 'I prefer reading' en français ?;je préfère la lecture;je préfère les oeufs;je préfère le chant;je préfère l'eau
+20375;Comment dit-on 'je préfère le chant' en anglais ?;I prefer singing;I prefer cycling;I prefer cheese;I prefer reading
+20376;Que veut dire 'I prefer singing' en français ?;je préfère le chant;je préfère la soupe;je préfère le poisson;je préfère la course
+20377;Comment dit-on 'je préfère la course' en anglais ?;I prefer running;I prefer soup;I prefer apple;I prefer milk
+20378;Que veut dire 'I prefer running' en français ?;je préfère la course;je préfère le chant;je préfère l'eau;je préfère la natation
+20379;Comment dit-on 'je préfère le tennis' en anglais ?;I prefer tennis;I prefer meat;I prefer drawing;I prefer banana
+20380;Que veut dire 'I prefer tennis' en français ?;je préfère le tennis;je préfère la soupe;je préfère la danse;je préfère les oeufs
+20381;Comment dit-on 'je préfère le basket' en anglais ?;I prefer basketball;I prefer dancing;I prefer water;I prefer milk
+20382;Que veut dire 'I prefer basketball' en français ?;je préfère le basket;je préfère la course;je préfère le lait;je préfère le chocolat
+20383;Comment dit-on 'à gauche, il y a un/une chien' en anglais ?;On the left, there is a dog;On the left, there is a tiger;On the left, there is a monkey;On the left, there is a bear
+20384;Comment dit-on 'à gauche, il y a un/une chat' en anglais ?;On the left, there is a cat;On the left, there is an elephant;On the left, there is a duck;On the left, there is a mouse
+20385;Comment dit-on 'à gauche, il y a un/une souris' en anglais ?;On the left, there is a mouse;On the left, there is a fish;On the left, there is a rabbit;On the left, there is a dog
+20386;Comment dit-on 'à gauche, il y a un/une lapin' en anglais ?;On the left, there is a rabbit;On the left, there is a lion;On the left, there is a horse;On the left, there is a tiger
+20387;Comment dit-on 'à gauche, il y a un/une oiseau' en anglais ?;On the left, there is a bird;On the left, there is a cat;On the left, there is a mouse;On the left, there is a pig
+20388;Comment dit-on 'à gauche, il y a un/une vache' en anglais ?;On the left, there is a cow;On the left, there is a horse;On the left, there is a frog;On the left, there is a snake
+20389;Comment dit-on 'à gauche, il y a un/une cochon' en anglais ?;On the left, there is a pig;On the left, there is a cat;On the left, there is a duck;On the left, there is a snake
+20390;Comment dit-on 'à gauche, il y a un/une cheval' en anglais ?;On the left, there is a horse;On the left, there is a monkey;On the left, there is a cat;On the left, there is a dog
+20391;Comment dit-on 'à gauche, il y a un/une mouton' en anglais ?;On the left, there is a sheep;On the left, there is a fish;On the left, there is a cow;On the left, there is a duck
+20392;Comment dit-on 'à gauche, il y a un/une poisson' en anglais ?;On the left, there is a fish;On the left, there is a cat;On the left, there is a frog;On the left, there is a monkey
+20393;Comment dit-on 'à gauche, il y a un/une canard' en anglais ?;On the left, there is a duck;On the left, there is a cat;On the left, there is a sheep;On the left, there is a dog
+20394;Comment dit-on 'à gauche, il y a un/une grenouille' en anglais ?;On the left, there is a frog;On the left, there is a bear;On the left, there is a sheep;On the left, there is a bird
+20395;Comment dit-on 'à gauche, il y a un/une serpent' en anglais ?;On the left, there is a snake;On the left, there is a duck;On the left, there is a cow;On the left, there is a pig
+20396;Comment dit-on 'à gauche, il y a un/une lion' en anglais ?;On the left, there is a lion;On the left, there is a pig;On the left, there is a rabbit;On the left, there is a monkey
+20397;Comment dit-on 'à gauche, il y a un/une éléphant' en anglais ?;On the left, there is an elephant;On the left, there is a rabbit;On the left, there is a dog;On the left, there is a cow
+20398;Comment dit-on 'à gauche, il y a un/une singe' en anglais ?;On the left, there is a monkey;On the left, there is a tiger;On the left, there is a mouse;On the left, there is a lion
+20399;Comment dit-on 'à gauche, il y a un/une tigre' en anglais ?;On the left, there is a tiger;On the left, there is a sheep;On the left, there is a snake;On the left, there is a dog
+20400;Comment dit-on 'à gauche, il y a un/une ours' en anglais ?;On the left, there is a bear;On the left, there is an elephant;On the left, there is a lion;On the left, there is a mouse
+20401;Comment dit-on 'à droite, il y a un/une chien' en anglais ?;On the right, there is a dog;On the right, there is a rabbit;On the right, there is a duck;On the right, there is a bear
+20402;Comment dit-on 'à droite, il y a un/une chat' en anglais ?;On the right, there is a cat;On the right, there is a dog;On the right, there is a frog;On the right, there is a lion
+20403;Comment dit-on 'à droite, il y a un/une souris' en anglais ?;On the right, there is a mouse;On the right, there is a monkey;On the right, there is a duck;On the right, there is a sheep
+20404;Comment dit-on 'à droite, il y a un/une lapin' en anglais ?;On the right, there is a rabbit;On the right, there is a cat;On the right, there is a lion;On the right, there is an elephant
+20405;Comment dit-on 'à droite, il y a un/une oiseau' en anglais ?;On the right, there is a bird;On the right, there is a rabbit;On the right, there is a mouse;On the right, there is a cat
+20406;Comment dit-on 'à droite, il y a un/une vache' en anglais ?;On the right, there is a cow;On the right, there is an elephant;On the right, there is a lion;On the right, there is a fish
+20407;Comment dit-on 'à droite, il y a un/une cochon' en anglais ?;On the right, there is a pig;On the right, there is a horse;On the right, there is a snake;On the right, there is a rabbit
+20408;Comment dit-on 'à droite, il y a un/une cheval' en anglais ?;On the right, there is a horse;On the right, there is a rabbit;On the right, there is a sheep;On the right, there is a cow
+20409;Comment dit-on 'à droite, il y a un/une mouton' en anglais ?;On the right, there is a sheep;On the right, there is a bear;On the right, there is a horse;On the right, there is a cat
+20410;Comment dit-on 'à droite, il y a un/une poisson' en anglais ?;On the right, there is a fish;On the right, there is a monkey;On the right, there is a tiger;On the right, there is a rabbit
+20411;Comment dit-on 'à droite, il y a un/une canard' en anglais ?;On the right, there is a duck;On the right, there is a bear;On the right, there is a pig;On the right, there is a fish
+20412;Comment dit-on 'à droite, il y a un/une grenouille' en anglais ?;On the right, there is a frog;On the right, there is a monkey;On the right, there is a mouse;On the right, there is an elephant
+20413;Comment dit-on 'à droite, il y a un/une serpent' en anglais ?;On the right, there is a snake;On the right, there is a fish;On the right, there is a duck;On the right, there is a bear
+20414;Comment dit-on 'à droite, il y a un/une lion' en anglais ?;On the right, there is a lion;On the right, there is a cat;On the right, there is a dog;On the right, there is a monkey
+20415;Comment dit-on 'à droite, il y a un/une éléphant' en anglais ?;On the right, there is an elephant;On the right, there is a sheep;On the right, there is a duck;On the right, there is a monkey
+20416;Comment dit-on 'à droite, il y a un/une singe' en anglais ?;On the right, there is a monkey;On the right, there is a bear;On the right, there is a pig;On the right, there is a dog
+20417;Comment dit-on 'à droite, il y a un/une tigre' en anglais ?;On the right, there is a tiger;On the right, there is a dog;On the right, there is a monkey;On the right, there is a horse
+20418;Comment dit-on 'à droite, il y a un/une ours' en anglais ?;On the right, there is a bear;On the right, there is a fish;On the right, there is a frog;On the right, there is a pig
+20419;Comment dit-on 'il est une heure' en anglais ?;It's 1 o'clock;It's 5 o'clock;It's 6 o'clock;It's 4 o'clock
+20420;Que veut dire 'It's 1 o'clock' en français ?;il est une heure;il est onze heures;il est huit heures;il est trois heures
+20421;Comment dit-on 'il est deux heures' en anglais ?;It's 2 o'clock;It's 3 o'clock;It's 11 o'clock;It's 12 o'clock
+20422;Que veut dire 'It's 2 o'clock' en français ?;il est deux heures;il est cinq heures;il est huit heures;il est quatre heures
+20423;Comment dit-on 'il est trois heures' en anglais ?;It's 3 o'clock;It's 10 o'clock;It's 4 o'clock;It's 1 o'clock
+20424;Que veut dire 'It's 3 o'clock' en français ?;il est trois heures;il est quatre heures;il est neuf heures;il est dix heures
+20425;Comment dit-on 'il est quatre heures' en anglais ?;It's 4 o'clock;It's 11 o'clock;It's 7 o'clock;It's 12 o'clock
+20426;Que veut dire 'It's 4 o'clock' en français ?;il est quatre heures;il est deux heures;il est six heures;il est onze heures
+20427;Comment dit-on 'il est cinq heures' en anglais ?;It's 5 o'clock;It's 12 o'clock;It's 7 o'clock;It's 4 o'clock
+20428;Que veut dire 'It's 5 o'clock' en français ?;il est cinq heures;il est une heure;il est onze heures;il est six heures
+20429;Comment dit-on 'il est six heures' en anglais ?;It's 6 o'clock;It's 2 o'clock;It's 1 o'clock;It's 11 o'clock
+20430;Que veut dire 'It's 6 o'clock' en français ?;il est six heures;il est deux heures;il est douze heures;il est quatre heures
+20431;Comment dit-on 'il est sept heures' en anglais ?;It's 7 o'clock;It's 4 o'clock;It's 3 o'clock;It's 12 o'clock
+20432;Que veut dire 'It's 7 o'clock' en français ?;il est sept heures;il est trois heures;il est neuf heures;il est douze heures
+20433;Comment dit-on 'il est huit heures' en anglais ?;It's 8 o'clock;It's 6 o'clock;It's 4 o'clock;It's 5 o'clock
+20434;Que veut dire 'It's 8 o'clock' en français ?;il est huit heures;il est douze heures;il est cinq heures;il est deux heures
+20435;Comment dit-on 'il est neuf heures' en anglais ?;It's 9 o'clock;It's 4 o'clock;It's 11 o'clock;It's 2 o'clock
+20436;Que veut dire 'It's 9 o'clock' en français ?;il est neuf heures;il est deux heures;il est huit heures;il est cinq heures
+20437;Comment dit-on 'il est dix heures' en anglais ?;It's 10 o'clock;It's 1 o'clock;It's 6 o'clock;It's 9 o'clock
+20438;Que veut dire 'It's 10 o'clock' en français ?;il est dix heures;il est douze heures;il est neuf heures;il est six heures
+20439;Comment dit-on 'il est onze heures' en anglais ?;It's 11 o'clock;It's 1 o'clock;It's 9 o'clock;It's 8 o'clock
+20440;Que veut dire 'It's 11 o'clock' en français ?;il est onze heures;il est trois heures;il est cinq heures;il est six heures
+20441;Comment dit-on 'il est douze heures' en anglais ?;It's 12 o'clock;It's 5 o'clock;It's 11 o'clock;It's 9 o'clock
+20442;Que veut dire 'It's 12 o'clock' en français ?;il est douze heures;il est trois heures;il est onze heures;il est sept heures
+20443;Comment dit-on 'elle aime le football' en anglais ?;She likes football;She likes singing;She likes basketball;She likes drawing
+20444;Que veut dire 'She likes football' en français ?;elle aime le football;elle aime le chant;elle aime la natation;elle aime le basket
+20445;Comment dit-on 'elle aime la natation' en anglais ?;She likes swimming;She likes tennis;She likes football;She likes drawing
+20446;Que veut dire 'She likes swimming' en français ?;elle aime la natation;elle aime le chant;elle aime le dessin;elle aime la danse
+20447;Comment dit-on 'elle aime faire du vélo' en anglais ?;She likes cycling;She likes singing;She likes tennis;She likes dancing
+20448;Que veut dire 'She likes cycling' en français ?;elle aime faire du vélo;elle aime la course;elle aime le chant;elle aime la natation
+20449;Comment dit-on 'elle aime la danse' en anglais ?;She likes dancing;She likes drawing;She likes swimming;She likes running
+20450;Que veut dire 'She likes dancing' en français ?;elle aime la danse;elle aime le basket;elle aime le tennis;elle aime la lecture
+20451;Comment dit-on 'elle aime le dessin' en anglais ?;She likes drawing;She likes tennis;She likes football;She likes swimming
+20452;Que veut dire 'She likes drawing' en français ?;elle aime le dessin;elle aime la danse;elle aime la natation;elle aime le basket
+20453;Comment dit-on 'elle aime la lecture' en anglais ?;She likes reading;She likes drawing;She likes running;She likes singing
+20454;Que veut dire 'She likes reading' en français ?;elle aime la lecture;elle aime le dessin;elle aime le football;elle aime la course
+20455;Comment dit-on 'elle aime le chant' en anglais ?;She likes singing;She likes basketball;She likes football;She likes drawing
+20456;Que veut dire 'She likes singing' en français ?;elle aime le chant;elle aime le dessin;elle aime la natation;elle aime le tennis
+20457;Comment dit-on 'elle aime la course' en anglais ?;She likes running;She likes football;She likes drawing;She likes singing
+20458;Que veut dire 'She likes running' en français ?;elle aime la course;elle aime le dessin;elle aime le chant;elle aime la danse
+20459;Comment dit-on 'elle aime le tennis' en anglais ?;She likes tennis;She likes singing;She likes swimming;She likes running
+20460;Que veut dire 'She likes tennis' en français ?;elle aime le tennis;elle aime le dessin;elle aime la lecture;elle aime le basket
+20461;Comment dit-on 'elle aime le basket' en anglais ?;She likes basketball;She likes drawing;She likes cycling;She likes reading
+20462;Que veut dire 'She likes basketball' en français ?;elle aime le basket;elle aime la natation;elle aime le dessin;elle aime la danse
+20463;Comment dit-on 'le lundi, nous avons anglais' en anglais ?;On Mondays we have English;On Mondays we have PE;On Mondays we have Art;On Mondays we have Maths
+20464;Comment dit-on 'le lundi, nous avons mathématiques' en anglais ?;On Mondays we have Maths;On Mondays we have Art;On Mondays we have Science;On Mondays we have Music
+20465;Comment dit-on 'le lundi, nous avons arts plastiques' en anglais ?;On Mondays we have Art;On Mondays we have English;On Mondays we have Music;On Mondays we have PE
+20466;Comment dit-on 'le lundi, nous avons musique' en anglais ?;On Mondays we have Music;On Mondays we have Science;On Mondays we have Art;On Mondays we have English
+20467;Comment dit-on 'le lundi, nous avons sport' en anglais ?;On Mondays we have PE;On Mondays we have Music;On Mondays we have English;On Mondays we have Art
+20468;Comment dit-on 'le lundi, nous avons sciences' en anglais ?;On Mondays we have Science;On Mondays we have Maths;On Mondays we have English;On Mondays we have PE
+20469;Comment dit-on 'le mardi, nous avons anglais' en anglais ?;On Tuesdays we have English;On Tuesdays we have Maths;On Tuesdays we have Science;On Tuesdays we have PE
+20470;Comment dit-on 'le mardi, nous avons mathématiques' en anglais ?;On Tuesdays we have Maths;On Tuesdays we have PE;On Tuesdays we have Music;On Tuesdays we have Art
+20471;Comment dit-on 'le mardi, nous avons arts plastiques' en anglais ?;On Tuesdays we have Art;On Tuesdays we have Music;On Tuesdays we have PE;On Tuesdays we have English
+20472;Comment dit-on 'le mardi, nous avons musique' en anglais ?;On Tuesdays we have Music;On Tuesdays we have Art;On Tuesdays we have PE;On Tuesdays we have Science
+20473;Comment dit-on 'le mardi, nous avons sport' en anglais ?;On Tuesdays we have PE;On Tuesdays we have Art;On Tuesdays we have Science;On Tuesdays we have English
+20474;Comment dit-on 'le mardi, nous avons sciences' en anglais ?;On Tuesdays we have Science;On Tuesdays we have Music;On Tuesdays we have English;On Tuesdays we have Maths
+20475;Comment dit-on 'le mercredi, nous avons anglais' en anglais ?;On Wednesdays we have English;On Wednesdays we have Music;On Wednesdays we have Maths;On Wednesdays we have PE
+20476;Comment dit-on 'le mercredi, nous avons mathématiques' en anglais ?;On Wednesdays we have Maths;On Wednesdays we have Music;On Wednesdays we have Science;On Wednesdays we have English
+20477;Comment dit-on 'le mercredi, nous avons arts plastiques' en anglais ?;On Wednesdays we have Art;On Wednesdays we have English;On Wednesdays we have Music;On Wednesdays we have Maths
+20478;Comment dit-on 'le mercredi, nous avons musique' en anglais ?;On Wednesdays we have Music;On Wednesdays we have Science;On Wednesdays we have Art;On Wednesdays we have PE
+20479;Comment dit-on 'le mercredi, nous avons sport' en anglais ?;On Wednesdays we have PE;On Wednesdays we have Science;On Wednesdays we have Maths;On Wednesdays we have English
+20480;Comment dit-on 'le mercredi, nous avons sciences' en anglais ?;On Wednesdays we have Science;On Wednesdays we have English;On Wednesdays we have Music;On Wednesdays we have PE
+20481;Comment dit-on 'le jeudi, nous avons anglais' en anglais ?;On Thursdays we have English;On Thursdays we have Music;On Thursdays we have PE;On Thursdays we have Maths
+20482;Comment dit-on 'le jeudi, nous avons mathématiques' en anglais ?;On Thursdays we have Maths;On Thursdays we have Art;On Thursdays we have English;On Thursdays we have Science
+20483;Comment dit-on 'le jeudi, nous avons arts plastiques' en anglais ?;On Thursdays we have Art;On Thursdays we have Science;On Thursdays we have Music;On Thursdays we have English
+20484;Comment dit-on 'le jeudi, nous avons musique' en anglais ?;On Thursdays we have Music;On Thursdays we have PE;On Thursdays we have Art;On Thursdays we have Maths
+20485;Comment dit-on 'le jeudi, nous avons sport' en anglais ?;On Thursdays we have PE;On Thursdays we have Maths;On Thursdays we have Art;On Thursdays we have Music
+20486;Comment dit-on 'le jeudi, nous avons sciences' en anglais ?;On Thursdays we have Science;On Thursdays we have Music;On Thursdays we have PE;On Thursdays we have English
+20487;Comment dit-on 'le vendredi, nous avons anglais' en anglais ?;On Fridays we have English;On Fridays we have Art;On Fridays we have Science;On Fridays we have PE
+20488;Comment dit-on 'le vendredi, nous avons mathématiques' en anglais ?;On Fridays we have Maths;On Fridays we have Art;On Fridays we have PE;On Fridays we have English
+20489;Comment dit-on 'le vendredi, nous avons arts plastiques' en anglais ?;On Fridays we have Art;On Fridays we have PE;On Fridays we have Maths;On Fridays we have English
+20490;Comment dit-on 'le vendredi, nous avons musique' en anglais ?;On Fridays we have Music;On Fridays we have Art;On Fridays we have Maths;On Fridays we have Science
+20491;Comment dit-on 'le vendredi, nous avons sport' en anglais ?;On Fridays we have PE;On Fridays we have Music;On Fridays we have Science;On Fridays we have Art
+20492;Comment dit-on 'le vendredi, nous avons sciences' en anglais ?;On Fridays we have Science;On Fridays we have Art;On Fridays we have Music;On Fridays we have English
+20493;Comment dit-on 'le samedi, nous avons anglais' en anglais ?;On Saturdays we have English;On Saturdays we have Science;On Saturdays we have Maths;On Saturdays we have Art
+20494;Comment dit-on 'le samedi, nous avons mathématiques' en anglais ?;On Saturdays we have Maths;On Saturdays we have Music;On Saturdays we have PE;On Saturdays we have English
+20495;Comment dit-on 'le samedi, nous avons arts plastiques' en anglais ?;On Saturdays we have Art;On Saturdays we have Science;On Saturdays we have Music;On Saturdays we have PE
+20496;Comment dit-on 'le samedi, nous avons musique' en anglais ?;On Saturdays we have Music;On Saturdays we have English;On Saturdays we have Art;On Saturdays we have Science
+20497;Comment dit-on 'le samedi, nous avons sport' en anglais ?;On Saturdays we have PE;On Saturdays we have Maths;On Saturdays we have English;On Saturdays we have Science
+20498;Comment dit-on 'le samedi, nous avons sciences' en anglais ?;On Saturdays we have Science;On Saturdays we have Maths;On Saturdays we have Art;On Saturdays we have Music
+20499;Comment dit-on 'le dimanche, nous avons anglais' en anglais ?;On Sundays we have English;On Sundays we have Science;On Sundays we have Art;On Sundays we have Music
+20500;Comment dit-on 'le dimanche, nous avons mathématiques' en anglais ?;On Sundays we have Maths;On Sundays we have PE;On Sundays we have Music;On Sundays we have Art
+20501;Comment dit-on 'le dimanche, nous avons arts plastiques' en anglais ?;On Sundays we have Art;On Sundays we have Music;On Sundays we have English;On Sundays we have Science
+20502;Comment dit-on 'le dimanche, nous avons musique' en anglais ?;On Sundays we have Music;On Sundays we have English;On Sundays we have Maths;On Sundays we have Science
+20503;Comment dit-on 'le dimanche, nous avons sport' en anglais ?;On Sundays we have PE;On Sundays we have Science;On Sundays we have Music;On Sundays we have Maths
+20504;Comment dit-on 'le dimanche, nous avons sciences' en anglais ?;On Sundays we have Science;On Sundays we have Art;On Sundays we have PE;On Sundays we have Music

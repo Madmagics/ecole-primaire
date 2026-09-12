@@ -2,16 +2,16 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 12080;___ pars-tu en vacances ?;Quand;Quant;Qu'en;Kan
 12081;___ à moi, je reste ici.;Quant;Quand;Qu'en;Kan
 12082;Je suis sur ___ vous dites.;qu'en;quand;quant;kan
-12083;Il part ___ tarder (immédiatement).;sans;s'en;sens;sang
-12084;Elle ___ va déjà (s'en aller).;s'en;sans;sens;sang
-12085;Ce parfum a un bon ___ (odeur).;sens;sans;s'en;sang
+12083;Elle part ___ tarder.;sans;s'en;sens;sang
+12084;Elle ___ va déjà, sans dire au revoir.;s'en;sans;sens;sang
+12085;Ce gâteau a un bon ___.;sens;sans;s'en;sang
 12086;Il part ___ dire au revoir.;sans;s'en;sens;sang
-12087;Elle ___ souvient bien (se souvenir).;s'en;sans;sens;sang
-12088;___ les élèves sont présents.;Tous;Tout;Toux;xuoT
+12087;Elle ___ souvient bien.;s'en;sans;sens;sang
+12088;___ les élèves sont présents.;Tous;Tout;Toux;XuoT
 12089;Il a mangé ___ le gâteau.;tout;tous;toux;toute
 12090;Elles sont ___ contentes.;toutes;tous;tout;toute
 12091;___ va bien, merci.;Tout;Tous;Toux;Toutes
-12092;Les enfants sont ___ arrives.;tous;tout;toux;toutes
+12092;Les élèves sont ___ arrivés.;tous;tout;toux;toutes
 12093;Quand ___ demanderont, dis la vérité.;quant;quand;qu'en;kan
 12094;Je ne sais pas ___ il reviendra.;quand;quant;qu'en;kan
 12095;Que signifie le préfixe 're-' dans 'refaire' ?;faire de nouveau;faire le contraire;faire avant;faire vite
@@ -22,10 +22,10 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 12100;Quel mot signifie 'plier de nouveau' ?;replier;déplier;implier;complier
 12101;Quel préfixe donne le sens 'pas possible' ?;im-;re-;de-;sur-
 12102;Quel mot veut dire 'refaire une lecture' ?;relire;délire;inlire;surlire
-12103;Quel suffixe transforme 'gentil' en nom de qualité ?;-esse (gentillesse);-tion;-ment;-eur
-12104;Quel suffixe transforme 'lent' en adverbe de manière ?;-ment (lentement);-tion;-esse;-eur
-12105;Quel suffixe transforme 'nager' en personne qui nage ?;-eur (nageur);-tion;-ment;-esse
-12106;Quel suffixe transforme 'inventer' en nom d'action ?;-tion (invention);-ment;-esse;-eur
+12103;Quel suffixe transforme l'adjectif 'gentil' en 'gentillesse' ?;-esse;-tion;-ment;-eur
+12104;Quel suffixe transforme l'adjectif 'lent' en 'lentement' ?;-ment;-tion;-esse;-eur
+12105;Quel suffixe transforme le verbe 'nager' en 'nageur' ?;-eur;-tion;-ment;-esse
+12106;Quel suffixe transforme le verbe 'inventer' en 'invention' ?;-tion;-ment;-esse;-eur
 12107;Quel mot signifie 'action de laver' ?;lavage;lavement;laveur;lavesse
 12108;Quel mot désigne celui qui chante ?;chanteur;chantage;chantment;chanture
 12109;Quel mot signifie 'de manière rapide' ?;rapidement;rapidage;rapideur;rapidesse
@@ -34,5 +34,968 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 12112;Quel accent porte le 'e' dans 'l'école' ?;accent aigu;accent grave;accent circonflexe;aucun accent
 12113;Quel accent porte le 'e' dans 'la fenêtre' ?;accent circonflexe;accent grave;accent aigu;aucun accent
 12114;Comment écrit-on correctement : 'il neige' ou 'il neiges' ?;il neige;il neiges;il neigent;il neigea
-12115;Quel mot est correctement orthographie : 1) 'immédiatement' 2) 'imediatement' 3) 'immediatemment' ?;immédiatement;imediatement;immediatemment;imediatemment
-12116;Quel mot est correctement orthographie : 1) 'développement' 2) 'developement' 3) 'develloppement' ?;développement;developement;develloppement;devellopement
+12115;Quelle est la bonne orthographe ?;anniversaire;anniverssaire;anniversère;aniversaire
+12116;Quelle est la bonne orthographe ?;restaurant;restorant;réstaurant;restaurent
+39000;___ arrives-tu demain ?;Quand;Quant;Qu'en;Lorsque
+39001;___ viendras-tu nous voir ?;Quand;Quant;Qu'en;Lorsque
+39002;Dis-moi ___ tu seras prêt.;quand;quant;qu'en;lorsque
+39003;___ la cloche sonne, sortez.;Quand;Quant;Qu'en;Lorsque
+39004;___ à elle, elle préfère lire.;Quant;Quand;Qu'en;Lorsque
+39005;___ à vous, que pensez-vous ?;Quant;Quand;Qu'en;Lorsque
+39006;___ à eux, ils ont refusé.;Quant;Quand;Qu'en;Lorsque
+39007;Il ne s'exprime ___ français.;qu'en;quand;quant;lorsque
+39008;Elle ne parle ___ anglais.;qu'en;quand;quant;lorsque
+39009;Nous ne voyageons ___ été.;qu'en;quand;quant;lorsque
+39010;Il part ___ tarder.;sans;s'en;sens;sang
+39011;Elle sort ___ manteau.;sans;s'en;sens;sang
+39012;Il agit ___ réfléchir.;sans;s'en;sens;sang
+39013;Elle ___ va déjà.;s'en;sans;sens;sang
+39014;Il ___ souvient encore.;s'en;sans;sens;sang
+39015;Elle ___ occupe bien.;s'en;sans;sens;sang
+39016;Ce parfum a un bon ___.;sens;sans;s'en;sang
+39017;Il a le ___ de l'humour.;sens;sans;s'en;sang
+39018;Cette phrase n'a pas de ___.;sens;sans;s'en;sang
+39019;Il part ___ un mot.;sans;s'en;sens;sang
+39020;Elle ___ va sans prévenir.;s'en;sans;sens;sang
+39021;Le vin a un bon ___.;sens;sans;s'en;sang
+39022;Les enfants sont ___ arrivés.;tous;tout;toute;toutes
+39023;Elle a ___ fini son travail.;tout;tous;toute;toutes
+39024;Nous sommes ___ d'accord.;tous;tout;toute;toutes
+39025;Ces filles sont ___ ravies.;toutes;tout;tous;toute
+39026;___ le monde est là.;Tout;Tous;Toute;Toutes
+39027;Il connaît ___ les réponses.;toutes;tout;tous;toute
+39028;Ils ont ___ compris.;tout;tous;toute;toutes
+39029;___ ces livres sont à moi.;Tous;Tout;Toute;Toutes
+39030;Que signifie le préfixe 're-' dans 'relire' ?;lire de nouveau;faire le contraire;le contraire de;voler au-dessus
+39031;Que signifie le préfixe 'dé-' dans 'déplier' ?;plier en sens contraire;voler au-dessus;faire le contraire;faire de nouveau
+39032;Que signifie le préfixe 'in-' dans 'incertain' ?;le contraire de;voir à l'avance;porter à travers;voler au-dessus
+39033;Que signifie le préfixe 're-' dans 'revoir' ?;voir de nouveau;faire de nouveau;contre le gel;voler au-dessus
+39034;Que signifie le préfixe 'dé-' dans 'découdre' ?;défaire une couture;lire de nouveau;voler au-dessus;porter à travers
+39035;Que signifie le préfixe 'in-' dans 'inutile' ?;le contraire de;lire de nouveau;contre le gel;faire de nouveau
+39036;Que signifie le préfixe 're-' dans 'rejouer' ?;jouer de nouveau;lire de nouveau;faire de nouveau;contre le gel
+39037;Que signifie le préfixe 'dé-' dans 'décoller' ?;détacher ce qui était collé;lire de nouveau;le contraire de;faire de nouveau
+39038;Que signifie le préfixe 'im-' dans 'impoli' ?;le contraire de;faire de nouveau;contre le gel;lire de nouveau
+39039;Que signifie le préfixe 're-' dans 'recommencer' ?;commencer de nouveau;faire de nouveau;voler au-dessus;voir à l'avance
+39040;Que signifie le préfixe 'dé-' dans 'démonter' ?;défaire un montage;faire de nouveau;porter à travers;le contraire de
+39041;Que signifie le préfixe 'mé-' dans 'mécontent' ?;le contraire de content;porter à travers;faire de nouveau;voir à l'avance
+39042;Que signifie le préfixe 'sur-' dans 'survoler' ?;voler au-dessus;le contraire de;contre le gel;faire de nouveau
+39043;Que signifie le préfixe 'sous-' dans 'souligner' ?;tirer un trait en dessous;faire de nouveau;porter à travers;contre le gel
+39044;Que signifie le préfixe 'anti-' dans 'antigel' ?;contre le gel;voler au-dessus;faire de nouveau;voir à l'avance
+39045;Que signifie le préfixe 'pré-' dans 'prévoir' ?;voir à l'avance;porter à travers;faire de nouveau;faire le contraire
+39046;Que signifie le préfixe 'trans-' dans 'transporter' ?;porter à travers;voir à l'avance;faire le contraire;faire de nouveau
+39047;Quel suffixe transforme 'gentil' en 'gentillesse' ?;-esse;-tion;-ment;-able
+39048;Quel suffixe transforme 'lent' en 'lentement' ?;-ment;-esse;-ette;-eur
+39049;Quel suffixe transforme 'nager' en 'nageur' ?;-eur;-iste;-tion;-ment
+39050;Quel suffixe transforme 'inventer' en 'invention' ?;-tion;-ette;-iste;-able
+39051;Quel suffixe transforme 'laver' en 'lavage' ?;-age;-tion;-esse;-able
+39052;Quel suffixe transforme 'chanter' en 'chanteur' ?;-eur;-able;-ette;-tion
+39053;Quel suffixe transforme 'rapide' en 'rapidement' ?;-ment;-tion;-esse;-able
+39054;Quel suffixe transforme 'créer' en 'création' ?;-tion;-age;-eur;-esse
+39055;Quel suffixe transforme 'voler' en 'voleur' ?;-eur;-ette;-iste;-esse
+39056;Quel suffixe transforme 'nettoyer' en 'nettoyage' ?;-age;-iste;-esse;-ment
+39057;Quel suffixe transforme 'riche' en 'richesse' ?;-esse;-ette;-iste;-age
+39058;Quel suffixe transforme 'doux' en 'doucement' ?;-ment;-ette;-age;-able
+39059;Quel suffixe transforme 'informer' en 'information' ?;-tion;-iste;-age;-ette
+39060;Quel suffixe transforme 'balayer' en 'balayage' ?;-age;-able;-tion;-esse
+39061;Quel suffixe transforme 'danser' en 'danseur' ?;-eur;-iste;-esse;-ette
+39062;Quel suffixe transforme 'fille' en 'fillette' ?;-ette;-eur;-ment;-esse
+39063;Quel suffixe transforme 'cigare' en 'cigarette' ?;-ette;-esse;-age;-iste
+39064;Quel suffixe transforme 'manger' en 'mangeable' ?;-able;-ment;-esse;-tion
+39065;Quel suffixe transforme 'laver' en 'lavable' ?;-able;-age;-eur;-ette
+39066;Quel suffixe transforme 'art' en 'artiste' ?;-iste;-eur;-ment;-age
+39067;Quel accent porte le 'e' dans 'le père' ?;accent grave;aucun accent;accent aigu;accent circonflexe
+39068;Quel accent porte le 'e' dans 'le vélo' ?;accent aigu;aucun accent;accent circonflexe;accent grave
+39069;Quel accent porte le 'e' dans 'la forêt' ?;accent circonflexe;aucun accent;accent aigu;accent grave
+39070;Quel accent porte le 'e' dans 'la fête' ?;accent circonflexe;accent grave;aucun accent;accent aigu
+39071;Quel accent porte le 'e' dans 'le café' ?;accent aigu;aucun accent;accent circonflexe;accent grave
+39072;Quel accent porte le 'e' dans 'la crème' ?;accent grave;aucun accent;accent aigu;accent circonflexe
+39073;Quel accent porte le 'e' dans 'le théâtre' ?;accent circonflexe;aucun accent;accent aigu;accent grave
+39074;Quel accent porte le 'e' dans 'la rivière' ?;accent grave;accent circonflexe;accent aigu;aucun accent
+39075;Quel accent porte le 'e' dans 'le résultat' ?;accent aigu;aucun accent;accent grave;accent circonflexe
+39076;Quel accent porte le 'e' dans 'la scène' ?;accent grave;accent aigu;aucun accent;accent circonflexe
+39077;Quel accent porte le 'e' dans 'le château' ?;accent circonflexe;accent aigu;aucun accent;accent grave
+39078;Quel accent porte le 'e' dans 'la télévision' ?;accent aigu;accent grave;accent circonflexe;aucun accent
+39079;Quel accent porte le 'e' dans 'le frère' ?;accent grave;accent aigu;aucun accent;accent circonflexe
+39080;Quel accent porte le 'e' dans 'le bébé' ?;accent aigu;aucun accent;accent grave;accent circonflexe
+39081;Quel accent porte le 'e' dans 'l'hôpital' ?;accent circonflexe;aucun accent;accent aigu;accent grave
+39082;Quel accent porte le 'e' dans 'le problème' ?;accent grave;accent aigu;accent circonflexe;aucun accent
+39083;Quel accent porte le 'e' dans 'la réponse' ?;accent aigu;accent circonflexe;aucun accent;accent grave
+39084;Quelle est la bonne orthographe ?;immédiatement;imediatement;immediatemment;immédiatementt
+39085;Quelle est la bonne orthographe ?;développement;developement;develloppement;développementt
+39086;Quelle est la bonne orthographe ?;appartement;apartement;appartemment;appartementt
+39087;Quelle est la bonne orthographe ?;intéressant;interessant;interressant;intéressantt
+39088;Quelle est la bonne orthographe ?;nécessaire;necessaire;nessessaire;nécessairee
+39089;Quelle est la bonne orthographe ?;professionnel;profesionnel;proffessionnel;professionnell
+39090;Quelle est la bonne orthographe ?;occasion;ocasion;occassion;occasionn
+39091;Quelle est la bonne orthographe ?;addition;adition;addittion;additionn
+39092;Quelle est la bonne orthographe ?;collection;colection;collecttion;collectionn
+39093;Quelle est la bonne orthographe ?;gouvernement;gouvernemant;gouvernemment;gouvernementt
+39094;Quelle est la bonne orthographe ?;appareil;apareil;apparreil;appareill
+39095;Quelle est la bonne orthographe ?;accompagner;acompagner;accompagnner;accompagnerr
+39096;Quel accent porte le 'e' dans 'la tempête' ?;accent circonflexe;accent aigu;accent grave;aucun accent
+39097;Quel accent porte le 'e' dans 'le zèbre' ?;accent grave;accent aigu;accent circonflexe;aucun accent
+39098;Quel accent porte le 'e' dans 'la pêche' ?;accent circonflexe;accent grave;aucun accent;accent aigu
+39099;Quel accent porte le 'e' dans 'le collège' ?;accent grave;accent aigu;aucun accent;accent circonflexe
+39100;Quel accent porte le 'e' dans 'la modèle' ?;accent grave;accent circonflexe;accent aigu;aucun accent
+39101;Quel accent porte le 'e' dans 'le modèle' ?;accent grave;accent circonflexe;accent aigu;aucun accent
+39102;Quel accent porte le 'e' dans 'la fièvre' ?;accent grave;aucun accent;accent aigu;accent circonflexe
+39103;Quel accent porte le 'e' dans 'le siège' ?;accent grave;aucun accent;accent circonflexe;accent aigu
+39104;Quel accent porte le 'e' dans 'le manège' ?;accent grave;accent circonflexe;accent aigu;aucun accent
+39105;Quel accent porte le 'e' dans 'la crêpe' ?;accent circonflexe;accent aigu;accent grave;aucun accent
+39106;Quel accent porte le 'e' dans 'le prêtre' ?;accent circonflexe;accent grave;aucun accent;accent aigu
+39107;Quel accent porte le 'e' dans 'la bête' ?;accent circonflexe;accent aigu;aucun accent;accent grave
+39108;Quel accent porte le 'e' dans 'le maître' ?;accent circonflexe;accent grave;aucun accent;accent aigu
+39109;Quel accent porte le 'e' dans 'la tête' ?;accent circonflexe;aucun accent;accent aigu;accent grave
+39110;Quel accent porte le 'e' dans 'l'ancêtre' ?;accent circonflexe;aucun accent;accent aigu;accent grave
+39111;Quel accent porte le 'e' dans 'le poème' ?;accent grave;accent circonflexe;accent aigu;aucun accent
+39112;Quel accent porte le 'e' dans 'le système' ?;accent grave;accent aigu;accent circonflexe;aucun accent
+39113;Quel accent porte le 'e' dans 'la pierre' ?;aucun accent;accent circonflexe;accent grave;accent aigu
+39114;Quel accent porte le 'e' dans 'la lumière' ?;accent grave;accent aigu;aucun accent;accent circonflexe
+39115;Quel accent porte le 'e' dans 'la carrière' ?;accent grave;accent circonflexe;aucun accent;accent aigu
+39116;Quel accent porte le 'e' dans 'la barrière' ?;accent grave;accent circonflexe;accent aigu;aucun accent
+39117;Quel accent porte le 'e' dans 'le repère' ?;accent grave;accent circonflexe;accent aigu;aucun accent
+39118;Quel accent porte le 'e' dans 'la sphère' ?;accent grave;accent aigu;accent circonflexe;aucun accent
+39119;Quel accent porte le 'e' dans 'l'hémisphère' ?;accent grave;aucun accent;accent aigu;accent circonflexe
+39120;Quel accent porte le 'e' dans 'le progrès' ?;accent grave;accent aigu;accent circonflexe;aucun accent
+39121;Quel accent porte le 'e' dans 'le succès' ?;accent grave;accent aigu;aucun accent;accent circonflexe
+39122;Quel accent porte le 'e' dans 'l'accès' ?;accent grave;aucun accent;accent circonflexe;accent aigu
+39123;Quel accent porte le 'e' dans 'le décès' ?;accent aigu;aucun accent;accent grave;accent circonflexe
+39124;Quel accent porte le 'e' dans 'le décor' ?;aucun accent;accent aigu;accent circonflexe;accent grave
+39125;Quel accent porte le 'e' dans 'le décodeur' ?;aucun accent;accent aigu;accent grave;accent circonflexe
+39126;Quel accent porte le 'e' dans 'le résumé' ?;accent aigu;accent circonflexe;aucun accent;accent grave
+39127;Quel accent porte le 'e' dans 'le téléphone' ?;accent aigu;accent grave;aucun accent;accent circonflexe
+39128;Quel accent porte le 'e' dans 'l'éléphant' ?;accent aigu;accent grave;accent circonflexe;aucun accent
+39129;Quel accent porte le 'e' dans 'l'étoile' ?;accent aigu;accent circonflexe;aucun accent;accent grave
+39130;Quel accent porte le 'e' dans 'l'équipe' ?;accent aigu;aucun accent;accent circonflexe;accent grave
+39131;Quel accent porte le 'e' dans 'l'écran' ?;accent aigu;accent grave;accent circonflexe;aucun accent
+39132;Quel accent porte le 'e' dans 'le générique' ?;accent aigu;accent grave;aucun accent;accent circonflexe
+39133;Quel accent porte le 'e' dans 'le mérite' ?;accent aigu;accent circonflexe;accent grave;aucun accent
+39134;Quel accent porte le 'e' dans 'le zéro' ?;accent aigu;aucun accent;accent grave;accent circonflexe
+39135;Quel accent porte le 'e' dans 'le numéro' ?;accent aigu;accent grave;aucun accent;accent circonflexe
+39136;Quelle est la bonne orthographe ?;appeler;apeler;appeller;appéler
+39137;Quelle est la bonne orthographe ?;attention;atention;attenttion;atténtion
+39138;Quelle est la bonne orthographe ?;balayer;balaier;ballayer;balayér
+39139;Quelle est la bonne orthographe ?;chariot;charriot;chariotte;chariots
+39140;Quelle est la bonne orthographe ?;collier;colier;collierr;colliér
+39141;Quelle est la bonne orthographe ?;commencer;comencer;commencée;comméncer
+39142;Quelle est la bonne orthographe ?;connaître;conaitre;conaître;connaîtré
+39143;Quelle est la bonne orthographe ?;dictionnaire;dictionaire;diccionnaire;dictionnairé
+39144;Quelle est la bonne orthographe ?;difficile;dificile;diffficile;difficilé
+39145;Quelle est la bonne orthographe ?;directeur;direteur;dirrecteur;dirécteur
+39146;Quelle est la bonne orthographe ?;dommage;domage;dommmage;dommagé
+39147;Quelle est la bonne orthographe ?;enveloppe;envelope;envellope;envéloppe
+39148;Quelle est la bonne orthographe ?;fourchette;fourchete;fourrchette;fourchétte
+39149;Quelle est la bonne orthographe ?;grammaire;gramaire;grammairre;grammairé
+39150;Quelle est la bonne orthographe ?;horrible;horible;horrrible;horriblé
+39151;Quelle est la bonne orthographe ?;immense;imense;immmense;imménse
+39152;Quelle est la bonne orthographe ?;intelligent;inteligent;intelligeant;intélligent
+39153;Quelle est la bonne orthographe ?;nourriture;nouriture;nourritture;nourrituré
+39154;Quelle est la bonne orthographe ?;parapluie;paraplui;parappluie;parapluié
+39155;Quelle est la bonne orthographe ?;professeur;profeseur;proffesseur;profésseur
+39156;Quelle est la bonne orthographe ?;questionnaire;questionaire;questionnairre;quéstionnaire
+39157;Quelle est la bonne orthographe ?;raquette;raquete;raquettte;raquétte
+39158;Quelle est la bonne orthographe ?;silhouette;silouette;silhouete;silhouétte
+39159;Quelle est la bonne orthographe ?;tellement;telement;tellemant;téllement
+39160;Quelle est la bonne orthographe ?;terrible;terible;terrrible;térrible
+39161;Quelle est la bonne orthographe ?;tranquille;tranquile;tranquiile;tranquillé
+39162;Quelle est la bonne orthographe ?;vacances;vacanses;vaccances;vacancés
+39163;Quelle est la bonne orthographe ?;bicyclette;bicyclete;bycyclette;bicyclétte
+39164;Quelle est la bonne orthographe ?;cassette;casette;cassete;cassétte
+39165;Quelle est la bonne orthographe ?;chatouiller;chatoiller;chattouiller;chatouillér
+39166;Quelle est la bonne orthographe ?;épouvantable;épouventable;épouvantablle;épouvantablé
+39167;Quelle est la bonne orthographe ?;gouvernail;gouvernaille;gouvernaile;gouvérnail
+39168;Quelle est la bonne orthographe ?;hirondelle;hirondele;hyrondelle;hirondélle
+39169;Quelle est la bonne orthographe ?;million;milion;milllion;millions
+39170;Quelle est la bonne orthographe ?;nettoyer;netoyer;nettoier;néttoyer
+39171;Quelle est la bonne orthographe ?;possible;posible;possibble;possiblé
+39172;Que signifie le préfixe 're-' dans 'reprendre' ?;prendre de nouveau;avant l'histoire;chauffer excessivement;de plusieurs couleurs
+39173;Que signifie le préfixe 're-' dans 'retourner' ?;tourner de nouveau ou en sens inverse;chauffer excessivement;d'une seule couleur;après l'écrit
+39174;Que signifie le préfixe 'dé-' dans 'dénouer' ?;défaire un noeud;contre le vol;avant l'histoire;qui est sous la mer
+39175;Que signifie le préfixe 'in-' dans 'incapable' ?;le contraire de;chauffer excessivement;après l'écrit;défaire un noeud
+39176;Que signifie le préfixe 'im-' dans 'immobile' ?;le contraire de;qui est sous la mer;prendre de nouveau;après l'écrit
+39177;Que signifie le préfixe 'il-' dans 'illisible' ?;le contraire de;prendre de nouveau;tourner de nouveau ou en sens inverse;d'une seule couleur
+39178;Que signifie le préfixe 'ir-' dans 'irréel' ?;le contraire de;tourner de nouveau ou en sens inverse;après l'écrit;prendre de nouveau
+39179;Que signifie le préfixe 'sur-' dans 'surchauffer' ?;chauffer excessivement;prendre de nouveau;à deux roues;le contraire de
+39180;Que signifie le préfixe 'sous-' dans 'sous-marin' ?;qui est sous la mer;défaire un noeud;de plusieurs couleurs;avant l'histoire
+39181;Que signifie le préfixe 'anti-' dans 'antivol' ?;contre le vol;de plusieurs couleurs;qui est sous la mer;à deux roues
+39182;Que signifie le préfixe 'pré-' dans 'préhistoire' ?;avant l'histoire;prendre de nouveau;contre le vol;défaire un noeud
+39183;Que signifie le préfixe 'post-' dans 'post-scriptum' ?;après l'écrit;qui est sous la mer;prendre de nouveau;contre le vol
+39184;Que signifie le préfixe 'multi-' dans 'multicolore' ?;de plusieurs couleurs;chauffer excessivement;avant l'histoire;prendre de nouveau
+39185;Que signifie le préfixe 'mono-' dans 'monocolore' ?;d'une seule couleur;qui est sous la mer;prendre de nouveau;contre le vol
+39186;Que signifie le préfixe 'bi-' dans 'bicyclette' ?;à deux roues;le contraire de;avant l'histoire;tourner de nouveau ou en sens inverse
+39187;Quel suffixe transforme 'boulanger' en 'boulangerie' ?;-erie;-el;-if;-oire
+39188;Quel suffixe transforme 'épicier' en 'épicerie' ?;-erie;-ette;-al;-oire
+39189;Quel suffixe transforme 'fourche' en 'fourchette' ?;-ette;-oire;-el;-al
+39190;Quel suffixe transforme 'laver' en 'lavoir' ?;-oir;-erie;-ette;-if
+39191;Quel suffixe transforme 'obliger' en 'obligatoire' ?;-oire;-el;-eux;-al
+39192;Quel suffixe transforme 'sport' en 'sportif' ?;-if;-oire;-el;-eux
+39193;Quel suffixe transforme 'courage' en 'courageux' ?;-eux;-if;-oir;-ette
+39194;Quel suffixe transforme 'nation' en 'national' ?;-al;-if;-oir;-el
+39195;Quel suffixe transforme 'exception' en 'exceptionnel' ?;-el;-erie;-ette;-oire
+39196;Marie se demande ___ le train va arriver.;quand;quant;qu'en;lorsque
+39197;Paul se demande ___ le train va arriver.;quand;quant;qu'en;lorsque
+39198;Léo se demande ___ le train va arriver.;quand;quant;qu'en;lorsque
+39199;Zoé se demande ___ le train va arriver.;quand;quant;qu'en;lorsque
+39200;Tom se demande ___ le train va arriver.;quand;quant;qu'en;lorsque
+39201;Nina se demande ___ le train va arriver.;quand;quant;qu'en;lorsque
+39202;Hugo se demande ___ le train va arriver.;quand;quant;qu'en;lorsque
+39203;Chloé se demande ___ le train va arriver.;quand;quant;qu'en;lorsque
+39204;Sami se demande ___ le train va arriver.;quand;quant;qu'en;lorsque
+39205;Louise se demande ___ le train va arriver.;quand;quant;qu'en;lorsque
+39206;Emma se demande ___ le train va arriver.;quand;quant;qu'en;lorsque
+39207;Nathan se demande ___ le train va arriver.;quand;quant;qu'en;lorsque
+39208;Marie part ___ dire un mot à personne.;sans;s'en;sens;cent
+39209;Paul part ___ dire un mot à personne.;sans;s'en;sens;cent
+39210;Léo part ___ dire un mot à personne.;sans;s'en;sens;cent
+39211;Zoé part ___ dire un mot à personne.;sans;s'en;sens;cent
+39212;Tom part ___ dire un mot à personne.;sans;s'en;sens;cent
+39213;Nina part ___ dire un mot à personne.;sans;s'en;sens;cent
+39214;Hugo part ___ dire un mot à personne.;sans;s'en;sens;cent
+39215;Chloé part ___ dire un mot à personne.;sans;s'en;sens;cent
+39216;Marie a ___ compris la leçon.;tout;tous;toute;toutes
+39217;Paul a ___ compris la leçon.;tout;tous;toute;toutes
+39218;Léo a ___ compris la leçon.;tout;tous;toute;toutes
+39219;Zoé a ___ compris la leçon.;tout;tous;toute;toutes
+39220;Tom a ___ compris la leçon.;tout;tous;toute;toutes
+39221;Nina a ___ compris la leçon.;tout;tous;toute;toutes
+39222;Quelle est la bonne orthographe ?;bijou;bijjou;bîjou;bijuo
+39223;Quelle est la bonne orthographe ?;brillant;brillannt;brîllant;brillatn
+39224;Quelle est la bonne orthographe ?;gouvernail;ggouvernail;gôuvernail;gouvernali
+39225;Quelle est la bonne orthographe ?;siffler;siffller;sîffler;sifflre
+39226;Quelle est la bonne orthographe ?;habiller;habiler;habilller;hàbiller
+39227;Quelle est la bonne orthographe ?;rivière;rrivière;riviere;rivièer
+39228;Quelle est la bonne orthographe ?;nourriture;nouriture;nourrriture;nôurriture
+39229;Quelle est la bonne orthographe ?;timbre;timbbre;tîmbre;timber
+39230;Quelle est la bonne orthographe ?;corridor;coridor;corrridor;çorridor
+39231;Quelle est la bonne orthographe ?;félicitation;félicitationn;felicitation;félicitatino
+39232;Quelle est la bonne orthographe ?;interrompre;intterrompre;înterrompre;interromper
+39233;Quelle est la bonne orthographe ?;fillette;fillete;fillettte;fîllette
+39234;Quelle est la bonne orthographe ?;cabane;ccabane;çabane;cabaen
+39235;Quelle est la bonne orthographe ?;radio;rradio;ràdio;radoi
+39236;Quelle est la bonne orthographe ?;appareil;apareil;apppareil;àppareil
+39237;Quelle est la bonne orthographe ?;tabouret;ttabouret;tàbouret;tabourte
+39238;Quelle est la bonne orthographe ?;empereur;emperreur;émpereur;empereru
+39239;Quelle est la bonne orthographe ?;poisson;ppoisson;pôisson;poissno
+39240;Quelle est la bonne orthographe ?;terrain;terrainn;térrain;terrani
+39241;Quelle est la bonne orthographe ?;volcan;volccan;vôlcan;volcna
+39242;Quelle est la bonne orthographe ?;emporter;emmporter;émporter;emportre
+39243;Quelle est la bonne orthographe ?;bonbonnière;bonbonière;bonbonnnière;bonbonniere
+39244;Quelle est la bonne orthographe ?;papillon;ppapillon;pàpillon;papillno
+39245;Quelle est la bonne orthographe ?;emmener;emmenner;émmener;emmenre
+39246;Quelle est la bonne orthographe ?;statue;sstatue;stàtue;stateu
+39247;Quelle est la bonne orthographe ?;mystère;mysstère;mystere;mystèer
+39248;Quelle est la bonne orthographe ?;quotidien;quotiddien;qûotidien;quotidine
+39249;Quelle est la bonne orthographe ?;bloquer;bloqquer;blôquer;bloqure
+39250;Quelle est la bonne orthographe ?;numéro;nnuméro;numero;numéor
+39251;Quelle est la bonne orthographe ?;gazon;ggazon;gàzon;gazno
+39252;Quelle est la bonne orthographe ?;élastique;éllastique;elastique;élastiqeu
+39253;Quelle est la bonne orthographe ?;irrégulier;irrégullier;irregulier;irrégulire
+39254;Quelle est la bonne orthographe ?;gazelle;gazzelle;gàzelle;gazelel
+39255;Quelle est la bonne orthographe ?;miroir;mirroir;mîroir;mirori
+39256;Quelle est la bonne orthographe ?;moquette;moqquette;môquette;moquetet
+39257;Quelle est la bonne orthographe ?;préparer;ppréparer;preparer;préparre
+39258;Quelle est la bonne orthographe ?;accueillir;accueillirr;àccueillir;accueillri
+39259;Quelle est la bonne orthographe ?;hérisson;hérissonn;herisson;hérissno
+39260;Quelle est la bonne orthographe ?;applaudir;aplaudir;appplaudir;àpplaudir
+39261;Quelle est la bonne orthographe ?;antenne;anttenne;àntenne;antenen
+39262;Quelle est la bonne orthographe ?;bavarder;bbavarder;bàvarder;bavardre
+39263;Quelle est la bonne orthographe ?;koala;koalla;kôala;koaal
+39264;Quelle est la bonne orthographe ?;incendie;incenddie;încendie;incendei
+39265;Quelle est la bonne orthographe ?;lavabo;lavvabo;làvabo;lavaob
+39266;Quelle est la bonne orthographe ?;marionnette;marionette;marionnnette;màrionnette
+39267;Quelle est la bonne orthographe ?;glissade;gglissade;glîssade;glissaed
+39268;Quelle est la bonne orthographe ?;planète;pllanète;planete;planèet
+39269;Quelle est la bonne orthographe ?;raquette;raquete;raquettte;ràquette
+39270;Quelle est la bonne orthographe ?;zébu;zébbu;zebu;zéub
+39271;Quelle est la bonne orthographe ?;effacer;efacer;efffacer;éffacer
+39272;Quelle est la bonne orthographe ?;lumière;lumièrre;lumiere;lumièer
+39273;Quelle est la bonne orthographe ?;triangle;trianglle;trîangle;triangel
+39274;Quelle est la bonne orthographe ?;attirer;atirer;atttirer;àttirer
+39275;Quelle est la bonne orthographe ?;aventure;aventurre;àventure;aventuer
+39276;Quelle est la bonne orthographe ?;costume;ccostume;çostume;costuem
+39277;Quelle est la bonne orthographe ?;chocolat;cchocolat;çhocolat;chocolta
+39278;Quelle est la bonne orthographe ?;apporter;aporter;appporter;àpporter
+39279;Quelle est la bonne orthographe ?;repas;reppas;répas;repsa
+39280;Quelle est la bonne orthographe ?;discussion;ddiscussion;dîscussion;discussino
+39281;Quelle est la bonne orthographe ?;anniversaire;anniverssaire;ànniversaire;anniversaier
+39282;Quelle est la bonne orthographe ?;potager;potagger;pôtager;potagre
+39283;Quelle est la bonne orthographe ?;anneau;aneau;annneau;ànneau
+39284;Quelle est la bonne orthographe ?;exercice;exerrcice;éxercice;exerciec
+39285;Quelle est la bonne orthographe ?;aggraver;aggravver;àggraver;aggravre
+39286;Quelle est la bonne orthographe ?;hutte;hute;huttte;hûtte
+39287;Quelle est la bonne orthographe ?;opposer;opposser;ôpposer;opposre
+39288;Quelle est la bonne orthographe ?;grimper;grrimper;grîmper;grimpre
+39289;Quelle est la bonne orthographe ?;tremplin;tremmplin;trémplin;tremplni
+39290;Quelle est la bonne orthographe ?;corbeille;corbeile;corbeillle;çorbeille
+39291;Quelle est la bonne orthographe ?;offrir;offrrir;ôffrir;offrri
+39292;Quelle est la bonne orthographe ?;approuver;aprouver;appprouver;àpprouver
+39293;Quelle est la bonne orthographe ?;embarquer;embarrquer;émbarquer;embarqure
+39294;Quelle est la bonne orthographe ?;montagne;mmontagne;môntagne;montagen
+39295;Quelle est la bonne orthographe ?;enveloppe;ennveloppe;énveloppe;envelopep
+39296;Quelle est la bonne orthographe ?;mission;missionn;mîssion;missino
+39297;Quelle est la bonne orthographe ?;approcher;aprocher;appprocher;àpprocher
+39298;Quelle est la bonne orthographe ?;personnage;personage;personnnage;pérsonnage
+39299;Quelle est la bonne orthographe ?;banquette;bannquette;bànquette;banquetet
+39300;Quelle est la bonne orthographe ?;manteau;mannteau;mànteau;manteua
+39301;Quelle est la bonne orthographe ?;vestiaire;vesstiaire;véstiaire;vestiaier
+39302;Quelle est la bonne orthographe ?;bonhomme;bonhome;bonhommme;bônhomme
+39303;Quelle est la bonne orthographe ?;allumette;alumette;alllumette;àllumette
+39304;Quelle est la bonne orthographe ?;balancer;ballancer;bàlancer;balancre
+39305;Quelle est la bonne orthographe ?;traversée;travversée;traversee;traverseé
+39306;Quelle est la bonne orthographe ?;bronzer;bbronzer;brônzer;bronzre
+39307;Quelle est la bonne orthographe ?;semaine;ssemaine;sémaine;semaien
+39308;Quelle est la bonne orthographe ?;abeille;abbeille;àbeille;abeilel
+39309;Quelle est la bonne orthographe ?;liberté;lliberté;liberte;liberét
+39310;Quelle est la bonne orthographe ?;ballon;ballonn;bàllon;ballno
+39311;Quelle est la bonne orthographe ?;fontaine;fonttaine;fôntaine;fontaien
+39312;Quelle est la bonne orthographe ?;vacances;vaccances;vàcances;vacancse
+39313;Quelle est la bonne orthographe ?;yaourt;yaourtt;yàourt;yaoutr
+39314;Quelle est la bonne orthographe ?;rougeole;rouggeole;rôugeole;rougeoel
+39315;Quelle est la bonne orthographe ?;apercevoir;apercevvoir;àpercevoir;apercevori
+39316;Quelle est la bonne orthographe ?;astronaute;asstronaute;àstronaute;astronauet
+39317;Quelle est la bonne orthographe ?;bricolage;brricolage;brîcolage;bricolaeg
+39318;Quelle est la bonne orthographe ?;griller;griler;grilller;grîller
+39319;Quelle est la bonne orthographe ?;essayer;esayer;esssayer;éssayer
+39320;Quelle est la bonne orthographe ?;hurler;hurrler;hûrler;hurlre
+39321;Quelle est la bonne orthographe ?;rossignol;rrossignol;rôssignol;rossignlo
+39322;Quelle est la bonne orthographe ?;caisse;ccaisse;çaisse;caises
+39323;Quelle est la bonne orthographe ?;amplitude;ampplitude;àmplitude;amplitued
+39324;Quelle est la bonne orthographe ?;trésor;ttrésor;tresor;trésro
+39325;Quelle est la bonne orthographe ?;favori;favorri;fàvori;favoir
+39326;Quelle est la bonne orthographe ?;atmosphère;atmosphèrre;atmosphere;atmosphèer
+39327;Quelle est la bonne orthographe ?;aquarium;aquariumm;àquarium;aquarimu
+39328;Quelle est la bonne orthographe ?;brouette;bbrouette;brôuette;brouetet
+39329;Quelle est la bonne orthographe ?;céréale;ccéréale;ceréale;céréael
+39330;Quelle est la bonne orthographe ?;commande;ccommande;çommande;commaned
+39331;Quelle est la bonne orthographe ?;dauphin;daupphin;dàuphin;dauphni
+39332;Quelle est la bonne orthographe ?;quiche;quicche;qûiche;quiceh
+39333;Quelle est la bonne orthographe ?;orage;oragge;ôrage;oraeg
+39334;Quelle est la bonne orthographe ?;arbitre;arbbitre;àrbitre;arbiter
+39335;Quelle est la bonne orthographe ?;parapluie;pparapluie;pàrapluie;parapluei
+39336;Quelle est la bonne orthographe ?;crapaud;crappaud;çrapaud;crapadu
+39337;Quelle est la bonne orthographe ?;tourbillon;tourbbillon;tôurbillon;tourbillno
+39338;Quelle est la bonne orthographe ?;assortir;assorttir;àssortir;assortri
+39339;Quelle est la bonne orthographe ?;aspirer;aspirrer;àspirer;aspirre
+39340;Quelle est la bonne orthographe ?;énorme;énorrme;enorme;énorem
+39341;Quelle est la bonne orthographe ?;ficelle;ficcelle;fîcelle;ficelel
+39342;Quelle est la bonne orthographe ?;mademoiselle;maddemoiselle;màdemoiselle;mademoiselel
+39343;Quelle est la bonne orthographe ?;aplatir;applatir;àplatir;aplatri
+39344;Quelle est la bonne orthographe ?;architecte;arrchitecte;àrchitecte;architecet
+39345;Quelle est la bonne orthographe ?;essuyer;esuyer;esssuyer;éssuyer
+39346;Quelle est la bonne orthographe ?;tomate;tommate;tômate;tomaet
+39347;Quelle est la bonne orthographe ?;passager;pasager;passsager;pàssager
+39348;Quelle est la bonne orthographe ?;quartier;qquartier;qûartier;quartire
+39349;Quelle est la bonne orthographe ?;télévision;télévisionn;telévision;télévisino
+39350;Quelle est la bonne orthographe ?;magicien;maggicien;màgicien;magicine
+39351;Quelle est la bonne orthographe ?;squelette;ssquelette;sqûelette;squeletet
+39352;Quelle est la bonne orthographe ?;artisan;artissan;àrtisan;artisna
+39353;Quelle est la bonne orthographe ?;échelle;écchelle;echelle;échelel
+39354;Quelle est la bonne orthographe ?;attraper;attrapper;àttraper;attrapre
+39355;Quelle est la bonne orthographe ?;lampion;lammpion;làmpion;lampino
+39356;Quelle est la bonne orthographe ?;surprendre;surrprendre;sûrprendre;surprender
+39357;Quelle est la bonne orthographe ?;zoologique;zzoologique;zôologique;zoologiqeu
+39358;Quelle est la bonne orthographe ?;imprimer;imprrimer;împrimer;imprimre
+39359;Quelle est la bonne orthographe ?;escalier;esccalier;éscalier;escalire
+39360;Quelle est la bonne orthographe ?;admettre;admmettre;àdmettre;admetter
+39361;Quelle est la bonne orthographe ?;machine;machinne;màchine;machien
+39362;Quelle est la bonne orthographe ?;horrible;horribble;hôrrible;horribel
+39363;Quelle est la bonne orthographe ?;autoroute;autorroute;àutoroute;autorouet
+39364;Quelle est la bonne orthographe ?;passeport;paseport;passseport;pàsseport
+39365;Quelle est la bonne orthographe ?;jardinier;jjardinier;jàrdinier;jardinire
+39366;Quelle est la bonne orthographe ?;bonjour;bonjourr;bônjour;bonjoru
+39367;Quelle est la bonne orthographe ?;panier;panierr;pànier;panire
+39368;Quelle est la bonne orthographe ?;tuyau;ttuyau;tûyau;tuyua
+39369;Quelle est la bonne orthographe ?;fripon;ffripon;frîpon;fripno
+39370;Quelle est la bonne orthographe ?;plumier;plummier;plûmier;plumire
+39371;Quelle est la bonne orthographe ?;confiture;confiturre;çonfiture;confituer
+39372;Quelle est la bonne orthographe ?;amortir;amorttir;àmortir;amortri
+39373;Quelle est la bonne orthographe ?;brousse;brouse;broussse;brôusse
+39374;Quelle est la bonne orthographe ?;sympathique;symmpathique;sympàthique;sympathiqeu
+39375;Quelle est la bonne orthographe ?;appartenir;apparttenir;àppartenir;appartenri
+39376;Quelle est la bonne orthographe ?;ancêtre;anncêtre;ancetre;ancêter
+39377;Quelle est la bonne orthographe ?;ordinateur;ordinatteur;ôrdinateur;ordinateru
+39378;Quelle est la bonne orthographe ?;renard;rennard;rénard;renadr
+39379;Quelle est la bonne orthographe ?;recommander;rrecommander;récommander;recommandre
+39380;Quelle est la bonne orthographe ?;bidon;bbidon;bîdon;bidno
+39381;Quelle est la bonne orthographe ?;phrase;pphrase;phràse;phraes
+39382;Quelle est la bonne orthographe ?;caillou;ccaillou;çaillou;cailluo
+39383;Quelle est la bonne orthographe ?;interdit;intterdit;înterdit;interdti
+39384;Quelle est la bonne orthographe ?;fourrure;fourure;fourrrure;fôurrure
+39385;Quelle est la bonne orthographe ?;citrouille;citrrouille;çitrouille;citrouilel
+39386;Quelle est la bonne orthographe ?;agrandir;agrrandir;àgrandir;agrandri
+39387;Quelle est la bonne orthographe ?;cinéma;ccinéma;cinema;cinéam
+39388;Quelle est la bonne orthographe ?;rondelle;rrondelle;rôndelle;rondelel
+39389;Quelle est la bonne orthographe ?;perroquet;perroqquet;pérroquet;perroqute
+39390;Quelle est la bonne orthographe ?;trottoir;trotoir;trotttoir;trôttoir
+39391;Quelle est la bonne orthographe ?;pelouse;pellouse;pélouse;peloues
+39392;Quelle est la bonne orthographe ?;étiquette;étiqquette;etiquette;étiquetet
+39393;Quelle est la bonne orthographe ?;écureuil;écureuill;ecureuil;écureuli
+39394;Quelle est la bonne orthographe ?;verglas;verrglas;vérglas;verglsa
+39395;Quelle est la bonne orthographe ?;hôtesse;hôtese;hôtessse;hotesse
+39396;Quelle est la bonne orthographe ?;arriver;ariver;arrriver;àrriver
+39397;Quelle est la bonne orthographe ?;directeur;directteur;dîrecteur;directeru
+39398;Quelle est la bonne orthographe ?;territoire;teritoire;terrritoire;térritoire
+39399;Quelle est la bonne orthographe ?;meuble;mmeuble;méuble;meubel
+39400;Quelle est la bonne orthographe ?;affirmer;affirmmer;àffirmer;affirmre
+39401;Quelle est la bonne orthographe ?;agiter;agitter;àgiter;agitre
+39402;Quelle est la bonne orthographe ?;omelette;omellette;ômelette;omeletet
+39403;Quelle est la bonne orthographe ?;famille;fammille;fàmille;familel
+39404;Quelle est la bonne orthographe ?;vélo;véllo;velo;véol
+39405;Quelle est la bonne orthographe ?;devoirs;ddevoirs;dévoirs;devoisr
+39406;Quelle est la bonne orthographe ?;attaquer;attaqquer;àttaquer;attaqure
+39407;Quelle est la bonne orthographe ?;lunette;lunnette;lûnette;lunetet
+39408;Quelle est la bonne orthographe ?;acrobate;acrobbate;àcrobate;acrobaet
+39409;Quelle est la bonne orthographe ?;poubelle;poubbelle;pôubelle;poubelel
+39410;Quelle est la bonne orthographe ?;université;univversité;universite;universiét
+39411;Quelle est la bonne orthographe ?;serrure;sserrure;sérrure;serruer
+39412;Quelle est la bonne orthographe ?;joyeux;jjoyeux;jôyeux;joyexu
+39413;Quelle est la bonne orthographe ?;trompette;trommpette;trômpette;trompetet
+39414;Quelle est la bonne orthographe ?;poule;poulle;pôule;pouel
+39415;Quelle est la bonne orthographe ?;compter;comppter;çompter;comptre
+39416;Quelle est la bonne orthographe ?;princesse;princese;princessse;prîncesse
+39417;Quelle est la bonne orthographe ?;girafe;ggirafe;gîrafe;giraef
+39418;Quelle est la bonne orthographe ?;dentelle;denttelle;déntelle;dentelel
+39419;Quelle est la bonne orthographe ?;médecin;médecinn;medecin;médecni
+39420;Quelle est la bonne orthographe ?;grillon;ggrillon;grîllon;grillno
+39421;Quelle est la bonne orthographe ?;rassembler;rassembbler;ràssembler;rassemblre
+39422;Quelle est la bonne orthographe ?;souris;ssouris;sôuris;soursi
+39423;Quelle est la bonne orthographe ?;alphabet;alpphabet;àlphabet;alphabte
+39424;Quelle est la bonne orthographe ?;paresseux;pparesseux;pàresseux;paressexu
+39425;Quelle est la bonne orthographe ?;lentille;lenttille;léntille;lentilel
+39426;Quelle est la bonne orthographe ?;malheur;malheurr;màlheur;malheru
+39427;Quelle est la bonne orthographe ?;arracher;arraccher;àrracher;arrachre
+39428;Quelle est la bonne orthographe ?;excellent;excelent;excelllent;éxcellent
+39429;Quelle est la bonne orthographe ?;sauterelle;ssauterelle;sàuterelle;sauterelel
+39430;Quelle est la bonne orthographe ?;spatule;spatulle;spàtule;spatuel
+39431;Quelle est la bonne orthographe ?;bibliothèque;bbibliothèque;bibliotheque;bibliothèqeu
+39432;Quelle est la bonne orthographe ?;domicile;dommicile;dômicile;domiciel
+39433;Quelle est la bonne orthographe ?;cabinet;cabinnet;çabinet;cabinte
+39434;Quelle est la bonne orthographe ?;vignoble;vignobble;vîgnoble;vignobel
+39435;Quelle est la bonne orthographe ?;mouette;mouete;mouettte;môuette
+39436;Quelle est la bonne orthographe ?;librairie;libbrairie;lîbrairie;librairei
+39437;Quelle est la bonne orthographe ?;kilomètre;kilommètre;kilometre;kilomèter
+39438;Quelle est la bonne orthographe ?;laboratoire;laborratoire;làboratoire;laboratoier
+39439;Quelle est la bonne orthographe ?;tartine;tartinne;tàrtine;tartien
+39440;Quelle est la bonne orthographe ?;boussole;boussolle;bôussole;boussoel
+39441;Quelle est la bonne orthographe ?;paysage;payssage;pàysage;paysaeg
+39442;Quelle est la bonne orthographe ?;fantôme;ffantôme;fantome;fantôem
+39443;Quelle est la bonne orthographe ?;pirate;ppirate;pîrate;piraet
+39444;Quelle est la bonne orthographe ?;tranquille;tranqquille;trànquille;tranquilel
+39445;Quelle est la bonne orthographe ?;entourer;entourrer;éntourer;entourre
+39446;Quelle est la bonne orthographe ?;tortue;ttortue;tôrtue;torteu
+39447;Quelle est la bonne orthographe ?;dimanche;ddimanche;dîmanche;dimanceh
+39448;Quelle est la bonne orthographe ?;saluer;salluer;sàluer;salure
+39449;Quelle est la bonne orthographe ?;ruisseau;ruiseau;ruissseau;rûisseau
+39450;Quelle est la bonne orthographe ?;oiseau;oisseau;ôiseau;oiseua
+39451;Quelle est la bonne orthographe ?;affreux;affrreux;àffreux;affrexu
+39452;Quelle est la bonne orthographe ?;couronne;courronne;çouronne;couronen
+39453;Quelle est la bonne orthographe ?;vitesse;vitese;vitessse;vîtesse
+39454;Quelle est la bonne orthographe ?;vallée;vvallée;vallee;valleé
+39455;Quelle est la bonne orthographe ?;collection;colection;colllection;çollection
+39456;Quelle est la bonne orthographe ?;allée;alée;alllée;allee
+39457;Quelle est la bonne orthographe ?;boueux;bboueux;bôueux;bouexu
+39458;Quelle est la bonne orthographe ?;beignet;beiggnet;béignet;beignte
+39459;Quelle est la bonne orthographe ?;ressembler;ressembller;réssembler;ressemblre
+39460;Quelle est la bonne orthographe ?;surveiller;survveiller;sûrveiller;surveillre
+39461;Quelle est la bonne orthographe ?;croissant;croisant;croisssant;çroissant
+39462;Quelle est la bonne orthographe ?;violette;violete;violettte;vîolette
+39463;Quelle est la bonne orthographe ?;gravitation;gravitationn;gràvitation;gravitatino
+39464;Quelle est la bonne orthographe ?;développement;dévelooppement;developpement;développemetn
+39465;Quelle est la bonne orthographe ?;hostilité;hostiilité;hostilite;hostiliét
+39466;Quelle est la bonne orthographe ?;climatisation;climatisatioon;çlimatisation;climatisatino
+39467;Quelle est la bonne orthographe ?;exploitation;exploitationn;éxploitation;exploitatino
+39468;Quelle est la bonne orthographe ?;enregistrement;enreggistrement;énregistrement;enregistremetn
+39469;Quelle est la bonne orthographe ?;limitation;limitatioon;lîmitation;limitatino
+39470;Quelle est la bonne orthographe ?;jardinage;jjardinage;jàrdinage;jardinaeg
+39471;Quelle est la bonne orthographe ?;élimination;éliimination;elimination;éliminatino
+39472;Quelle est la bonne orthographe ?;confiance;confiaance;çonfiance;confianec
+39473;Quelle est la bonne orthographe ?;naturel;naturrel;nàturel;naturle
+39474;Quelle est la bonne orthographe ?;attraction;attractioon;àttraction;attractino
+39475;Quelle est la bonne orthographe ?;entraînement;entraînemment;entrainement;entraînemetn
+39476;Quelle est la bonne orthographe ?;ustensile;ustennsile;ûstensile;ustensiel
+39477;Quelle est la bonne orthographe ?;employeur;emmployeur;émployeur;employeru
+39478;Quelle est la bonne orthographe ?;tribunal;ttribunal;trîbunal;tribunla
+39479;Quelle est la bonne orthographe ?;importation;importtation;împortation;importatino
+39480;Quelle est la bonne orthographe ?;assurance;assurannce;àssurance;assuranec
+39481;Quelle est la bonne orthographe ?;population;popuulation;pôpulation;populatino
+39482;Quelle est la bonne orthographe ?;élimination;éllimination;elimination;éliminatino
+39483;Quelle est la bonne orthographe ?;municipal;mmunicipal;mûnicipal;municipla
+39484;Quelle est la bonne orthographe ?;organisation;oorganisation;ôrganisation;organisatino
+39485;Quelle est la bonne orthographe ?;tribunal;tribunaal;trîbunal;tribunla
+39486;Quelle est la bonne orthographe ?;générateur;généraateur;genérateur;générateru
+39487;Quelle est la bonne orthographe ?;générateur;générateuur;genérateur;générateru
+39488;Quelle est la bonne orthographe ?;générateur;générrateur;genérateur;générateru
+39489;Quelle est la bonne orthographe ?;création;créationn;creation;créatino
+39490;Quelle est la bonne orthographe ?;indignation;iindignation;îndignation;indignatino
+39491;Quelle est la bonne orthographe ?;destination;deestination;déstination;destinatino
+39492;Quelle est la bonne orthographe ?;duplication;dupliccation;dûplication;duplicatino
+39493;Quelle est la bonne orthographe ?;décoration;déccoration;decoration;décoratino
+39494;Quelle est la bonne orthographe ?;enseignement;eenseignement;énseignement;enseignemetn
+39495;Quelle est la bonne orthographe ?;recyclage;reecyclage;récyclage;recyclaeg
+39496;Quelle est la bonne orthographe ?;indignation;inndignation;îndignation;indignatino
+39497;Quelle est la bonne orthographe ?;monument;mmonument;mônument;monumetn
+39498;Quelle est la bonne orthographe ?;gouvernement;ggouvernement;gôuvernement;gouvernemetn
+39499;Quelle est la bonne orthographe ?;encouragement;encouragemment;éncouragement;encouragemetn
+39500;Quelle est la bonne orthographe ?;environnement;envirronnement;énvironnement;environnemetn
+39501;Quelle est la bonne orthographe ?;évaluation;évaluatioon;evaluation;évaluatino
+39502;Quelle est la bonne orthographe ?;biodiversité;biodiverssité;biodiversite;biodiversiét
+39503;Quelle est la bonne orthographe ?;considération;considérration;consideration;considératino
+39504;Quelle est la bonne orthographe ?;observation;observvation;ôbservation;observatino
+39505;Quelle est la bonne orthographe ?;initiative;iinitiative;înitiative;initiatiev
+39506;Quelle est la bonne orthographe ?;habitation;habbitation;hàbitation;habitatino
+39507;Quelle est la bonne orthographe ?;tolérance;toléraance;tolerance;toléranec
+39508;Quelle est la bonne orthographe ?;obligation;oobligation;ôbligation;obligatino
+39509;Quelle est la bonne orthographe ?;jardinage;jardinnage;jàrdinage;jardinaeg
+39510;Quelle est la bonne orthographe ?;préparation;préparationn;preparation;préparatino
+39511;Quelle est la bonne orthographe ?;signature;ssignature;sîgnature;signatuer
+39512;Quelle est la bonne orthographe ?;négociation;nnégociation;negociation;négociatino
+39513;Quelle est la bonne orthographe ?;émotion;émottion;emotion;émotino
+39514;Quelle est la bonne orthographe ?;intersection;inteersection;întersection;intersectino
+39515;Quelle est la bonne orthographe ?;contenu;contenuu;çontenu;conteun
+39516;Quelle est la bonne orthographe ?;facturation;factturation;fàcturation;facturatino
+39517;Quelle est la bonne orthographe ?;industrie;inndustrie;îndustrie;industrei
+39518;Quelle est la bonne orthographe ?;répétition;réppétition;repétition;répétitino
+39519;Quelle est la bonne orthographe ?;transformation;trannsformation;trànsformation;transformatino
+39520;Quelle est la bonne orthographe ?;répétition;répétitionn;repétition;répétitino
+39521;Quelle est la bonne orthographe ?;perturbation;perturbatiion;pérturbation;perturbatino
+39522;Quelle est la bonne orthographe ?;alimentation;allimentation;àlimentation;alimentatino
+39523;Quelle est la bonne orthographe ?;solidarité;ssolidarité;solidarite;solidariét
+39524;Quelle est la bonne orthographe ?;émotion;émootion;emotion;émotino
+39525;Quelle est la bonne orthographe ?;musicien;musiccien;mûsicien;musicine
+39526;Quelle est la bonne orthographe ?;technique;techniqque;téchnique;techniqeu
+39527;Quelle est la bonne orthographe ?;dégustation;dégusstation;degustation;dégustatino
+39528;Quelle est la bonne orthographe ?;secrétaire;seecrétaire;secretaire;secrétaier
+39529;Quelle est la bonne orthographe ?;tradition;traditioon;tràdition;traditino
+39530;Quelle est la bonne orthographe ?;restaurant;resstaurant;réstaurant;restauratn
+39531;Quelle est la bonne orthographe ?;impatience;impaatience;împatience;impatienec
+39532;Quelle est la bonne orthographe ?;expression;eexpression;éxpression;expressino
+39533;Quelle est la bonne orthographe ?;description;descripption;déscription;descriptino
+39534;Quelle est la bonne orthographe ?;coordination;coordinnation;çoordination;coordinatino
+39535;Quelle est la bonne orthographe ?;surveillance;ssurveillance;sûrveillance;surveillanec
+39536;Quelle est la bonne orthographe ?;collaboration;colaboration;colllaboration;çollaboration
+39537;Quelle est la bonne orthographe ?;fiabilité;fiabbilité;fiabilite;fiabiliét
+39538;Quelle est la bonne orthographe ?;organisation;organisattion;ôrganisation;organisatino
+39539;Quelle est la bonne orthographe ?;formation;formationn;fôrmation;formatino
+39540;Quelle est la bonne orthographe ?;climatisation;climatissation;çlimatisation;climatisatino
+39541;Quelle est la bonne orthographe ?;invitation;innvitation;învitation;invitatino
+39542;Quelle est la bonne orthographe ?;surveillance;surveillaance;sûrveillance;surveillanec
+39543;Quelle est la bonne orthographe ?;commerçant;coommerçant;commercant;commerçatn
+39544;Quelle est la bonne orthographe ?;visibilité;visibillité;visibilite;visibiliét
+39545;Quelle est la bonne orthographe ?;assurance;assurancce;àssurance;assuranec
+39546;Quelle est la bonne orthographe ?;perturbation;pertturbation;pérturbation;perturbatino
+39547;Quelle est la bonne orthographe ?;audience;auudience;àudience;audienec
+39548;Quelle est la bonne orthographe ?;correction;corection;corrrection;çorrection
+39549;Quelle est la bonne orthographe ?;aérodrome;aéroodrome;aerodrome;aérodroem
+39550;Quelle est la bonne orthographe ?;cathédrale;ccathédrale;cathedrale;cathédrael
+39551;Quelle est la bonne orthographe ?;apprentissage;apprenntissage;àpprentissage;apprentissaeg
+39552;Quelle est la bonne orthographe ?;documentation;documenttation;dôcumentation;documentatino
+39553;Quelle est la bonne orthographe ?;littérature;littératuure;litterature;littératuer
+39554;Quelle est la bonne orthographe ?;explication;expllication;éxplication;explicatino
+39555;Quelle est la bonne orthographe ?;environnement;enviironnement;énvironnement;environnemetn
+39556;Quelle est la bonne orthographe ?;intersection;iintersection;întersection;intersectino
+39557;Quelle est la bonne orthographe ?;destination;destinnation;déstination;destinatino
+39558;Quelle est la bonne orthographe ?;hydratation;hydraatation;hydràtation;hydratatino
+39559;Quelle est la bonne orthographe ?;imagination;iimagination;îmagination;imaginatino
+39560;Quelle est la bonne orthographe ?;correction;correcttion;çorrection;correctino
+39561;Quelle est la bonne orthographe ?;limitation;llimitation;lîmitation;limitatino
+39562;Quelle est la bonne orthographe ?;implantation;impplantation;împlantation;implantatino
+39563;Quelle est la bonne orthographe ?;habitation;habitationn;hàbitation;habitatino
+39564;Quelle est la bonne orthographe ?;tradition;traditionn;tràdition;traditino
+39565;Quelle est la bonne orthographe ?;visibilité;vissibilité;visibilite;visibiliét
+39566;Quelle est la bonne orthographe ?;championnat;champpionnat;çhampionnat;championnta
+39567;Quelle est la bonne orthographe ?;température;teempérature;temperature;températuer
+39568;Quelle est la bonne orthographe ?;estimation;estimationn;éstimation;estimatino
+39569;Quelle est la bonne orthographe ?;harmonisation;harmoonisation;hàrmonisation;harmonisatino
+39570;Quelle est la bonne orthographe ?;photographe;phottographe;phôtographe;photograpeh
+39571;Quelle est la bonne orthographe ?;semestre;semmestre;sémestre;semester
+39572;Quelle est la bonne orthographe ?;illumination;illuminattion;îllumination;illuminatino
+39573;Quelle est la bonne orthographe ?;municipal;munnicipal;mûnicipal;municipla
+39574;Quelle est la bonne orthographe ?;tapisserie;taapisserie;tàpisserie;tapisserei
+39575;Quelle est la bonne orthographe ?;correspondant;correspondaant;çorrespondant;correspondatn
+39576;Quelle est la bonne orthographe ?;vigilance;viigilance;vîgilance;vigilanec
+39577;Quelle est la bonne orthographe ?;confiance;coonfiance;çonfiance;confianec
+39578;Quelle est la bonne orthographe ?;organisation;organissation;ôrganisation;organisatino
+39579;Quelle est la bonne orthographe ?;destruction;destructiion;déstruction;destructino
+39580;Quelle est la bonne orthographe ?;impression;immpression;împression;impressino
+39581;Quelle est la bonne orthographe ?;évolution;évoluution;evolution;évolutino
+39582;Quelle est la bonne orthographe ?;conducteur;conducteeur;çonducteur;conducteru
+39583;Quelle est la bonne orthographe ?;documentation;documentatiion;dôcumentation;documentatino
+39584;Quelle est la bonne orthographe ?;apprentissage;appreentissage;àpprentissage;apprentissaeg
+39585;Quelle est la bonne orthographe ?;inquiétude;inquiétudde;inquietude;inquiétued
+39586;Quelle est la bonne orthographe ?;détermination;déterrmination;determination;déterminatino
+39587;Quelle est la bonne orthographe ?;rendez-vous;rendez-vouus;réndez-vous;rendez-vosu
+39588;Quelle est la bonne orthographe ?;milliard;miilliard;mîlliard;milliadr
+39589;Quelle est la bonne orthographe ?;enseignement;enseiggnement;énseignement;enseignemetn
+39590;Quelle est la bonne orthographe ?;identification;identificaation;îdentification;identificatino
+39591;Quelle est la bonne orthographe ?;hostilité;hosttilité;hostilite;hostiliét
+39592;Quelle est la bonne orthographe ?;spectacle;specttacle;spéctacle;spectacel
+39593;Quelle est la bonne orthographe ?;démolition;démolittion;demolition;démolitino
+39594;Quelle est la bonne orthographe ?;marchandise;maarchandise;màrchandise;marchandies
+39595;Quelle est la bonne orthographe ?;rendez-vous;rendez-voous;réndez-vous;rendez-vosu
+39596;Quelle est la bonne orthographe ?;dépendance;dépendancce;dependance;dépendanec
+39597;Quelle est la bonne orthographe ?;circulation;circulationn;çirculation;circulatino
+39598;Quelle est la bonne orthographe ?;population;populatiion;pôpulation;populatino
+39599;Quelle est la bonne orthographe ?;ministère;mministère;ministere;ministèer
+39600;Quelle est la bonne orthographe ?;démonstration;démmonstration;demonstration;démonstratino
+39601;Quelle est la bonne orthographe ?;impression;impressionn;împression;impressino
+39602;Quelle est la bonne orthographe ?;employeur;employeurr;émployeur;employeru
+39603;Quelle est la bonne orthographe ?;paradis;paradiss;pàradis;paradsi
+39604;Quelle est la bonne orthographe ?;consultation;conssultation;çonsultation;consultatino
+39605;Quelle est la bonne orthographe ?;royaume;royaumme;rôyaume;royauem
+39606;Quelle est la bonne orthographe ?;comportement;comportemennt;çomportement;comportemetn
+39607;Quelle est la bonne orthographe ?;élimination;élimmination;elimination;éliminatino
+39608;Quelle est la bonne orthographe ?;considération;considérattion;consideration;considératino
+39609;Quelle est la bonne orthographe ?;perturbation;perturbaation;pérturbation;perturbatino
+39610;Quelle est la bonne orthographe ?;compétition;compéttition;competition;compétitino
+39611;Quelle est la bonne orthographe ?;exploration;exploratiion;éxploration;exploratino
+39612;Quelle est la bonne orthographe ?;démonstration;démoonstration;demonstration;démonstratino
+39613;Quelle est la bonne orthographe ?;lampadaire;lampadairee;làmpadaire;lampadaier
+39614;Quelle est la bonne orthographe ?;harmonisation;harmoniisation;hàrmonisation;harmonisatino
+39615;Quelle est la bonne orthographe ?;extraction;extrraction;éxtraction;extractino
+39616;Quelle est la bonne orthographe ?;lampadaire;lampadaiire;làmpadaire;lampadaier
+39617;Quelle est la bonne orthographe ?;colonisation;coloniisation;çolonisation;colonisatino
+39618;Quelle est la bonne orthographe ?;coordination;cordination;cooordination;çoordination
+39619;Quelle est la bonne orthographe ?;facturation;faacturation;fàcturation;facturatino
+39620;Quelle est la bonne orthographe ?;magnifique;magniifique;màgnifique;magnifiqeu
+39621;Quelle est la bonne orthographe ?;ambassade;ambassadee;àmbassade;ambassaed
+39622;Quelle est la bonne orthographe ?;coopération;coopérattion;cooperation;coopératino
+39623;Quelle est la bonne orthographe ?;curiosité;curiiosité;curiosite;curiosiét
+39624;Quelle est la bonne orthographe ?;succession;suuccession;sûccession;successino
+39625;Quelle est la bonne orthographe ?;habitude;habitudde;hàbitude;habitued
+39626;Quelle est la bonne orthographe ?;vétérinaire;vétérrinaire;vetérinaire;vétérinaier
+39627;Quelle est la bonne orthographe ?;opération;opérationn;operation;opératino
+39628;Quelle est la bonne orthographe ?;croisement;croissement;çroisement;croisemetn
+39629;Quelle est la bonne orthographe ?;coordination;coorddination;çoordination;coordinatino
+39630;Quelle est la bonne orthographe ?;biodiversité;bioddiversité;biodiversite;biodiversiét
+39631;Quelle est la bonne orthographe ?;tribunal;tribunall;trîbunal;tribunla
+39632;Quelle est la bonne orthographe ?;vigilance;vigillance;vîgilance;vigilanec
+39633;Quelle est la bonne orthographe ?;obligation;obligattion;ôbligation;obligatino
+39634;Quelle est la bonne orthographe ?;succession;succesion;successsion;sûccession
+39635;Quelle est la bonne orthographe ?;coordination;ccoordination;çoordination;coordinatino
+39636;Quelle est la bonne orthographe ?;entraînement;enttraînement;entrainement;entraînemetn
+39637;Quelle est la bonne orthographe ?;illumination;illuumination;îllumination;illuminatino
+39638;Quelle est la bonne orthographe ?;extraction;exttraction;éxtraction;extractino
+39639;Quelle est la bonne orthographe ?;cathédrale;caathédrale;cathedrale;cathédrael
+39640;Quelle est la bonne orthographe ?;conséquence;connséquence;consequence;conséquenec
+39641;Quelle est la bonne orthographe ?;transformation;ttransformation;trànsformation;transformatino
+39642;Quelle est la bonne orthographe ?;création;crréation;creation;créatino
+39643;Quelle est la bonne orthographe ?;protection;pprotection;prôtection;protectino
+39644;Quelle est la bonne orthographe ?;ancienneté;ancieneté;anciennneté;anciennete
+39645;Quelle est la bonne orthographe ?;conférence;conféreence;conference;conférenec
+39646;Quelle est la bonne orthographe ?;démocratie;démocratiee;democratie;démocratei
+39647;Quelle est la bonne orthographe ?;atterrissage;atterrisage;atterrisssage;àtterrissage
+39648;Quelle est la bonne orthographe ?;détermination;déttermination;determination;déterminatino
+39649;Quelle est la bonne orthographe ?;découverte;découuverte;decouverte;découveret
+39650;Quelle est la bonne orthographe ?;fréquentation;fréquenntation;frequentation;fréquentatino
+39651;Quelle est la bonne orthographe ?;panorama;pannorama;pànorama;panoraam
+39652;Quelle est la bonne orthographe ?;exploration;exploraation;éxploration;exploratino
+39653;Quelle est la bonne orthographe ?;encouragement;enccouragement;éncouragement;encouragemetn
+39654;Quelle est la bonne orthographe ?;industrie;industtrie;îndustrie;industrei
+39655;Quelle est la bonne orthographe ?;implantation;implantatioon;împlantation;implantatino
+39656;Quelle est la bonne orthographe ?;compétition;compétitionn;competition;compétitino
+39657;Quelle est la bonne orthographe ?;semestre;ssemestre;sémestre;semester
+39658;Quelle est la bonne orthographe ?;immigration;imigration;immmigration;îmmigration
+39659;Quelle est la bonne orthographe ?;entraînement;entraaînement;entrainement;entraînemetn
+39660;Quelle est la bonne orthographe ?;habitude;habitudee;hàbitude;habitued
+39661;Quelle est la bonne orthographe ?;extraction;extractiion;éxtraction;extractino
+39662;Quelle est la bonne orthographe ?;habitude;habituude;hàbitude;habitued
+39663;Que signifie le préfixe 'mono-' dans 'monoplace' ?;une seule;plusieurs;après;avant
+39664;Que signifie le préfixe 'post-' dans 'postdater' ?;après;à travers;avant;en dessous de
+39665;Que signifie le préfixe 'dé-' dans 'dévisser' ?;le contraire de;deux;plusieurs;en dessous de
+39666;Que signifie le préfixe 'im-' dans 'imparfait' ?;le contraire de;une seule;contre;deux
+39667;Que signifie le préfixe 'il-' dans 'illégal' ?;le contraire de;une seule;contre;plusieurs
+39668;Que signifie le préfixe 'trans-' dans 'transatlantique' ?;à travers;une seule;en dessous de;de nouveau
+39669;Que signifie le préfixe 'sous-' dans 'souterrain' ?;en dessous de;une seule;avant;de nouveau
+39670;Que signifie le préfixe 'sur-' dans 'surcharger' ?;en trop;contre;deux;une seule
+39671;Que signifie le préfixe 'in-' dans 'inconnu' ?;le contraire de;à travers;de nouveau;plusieurs
+39672;Quel suffixe transforme 'juste' en 'justice' ?;-ice;-ette;-age;-al
+39673;Quel suffixe transforme 'beau' en 'beauté' ?;-té;-ité;-if;-iste
+39674;Quel suffixe transforme 'jardin' en 'jardinage' ?;-age;-eur;-al;-ice
+39675;Quel suffixe transforme 'aimer' en 'aimable' ?;-able;-ette;-oire;-té
+39676;Quel suffixe transforme 'laid' en 'laideur' ?;-eur;-oire;-isme;-esse
+39677;Quel suffixe transforme 'propre' en 'propreté' ?;-té;-eur;-ice;-oire
+39678;Quel suffixe transforme 'réparer' en 'réparable' ?;-able;-ité;-al;-age
+39679;Quel suffixe transforme 'nettoyer' en 'nettoyable' ?;-able;-al;-ice;-ité
+39680;Quel suffixe transforme 'vendre' en 'vendable' ?;-able;-age;-al;-iste
+39681;Quel suffixe transforme 'dent' en 'dentiste' ?;-iste;-age;-té;-ité
+39682;Quel suffixe transforme 'pur' en 'pureté' ?;-té;-able;-ité;-ice
+39683;Quel suffixe transforme 'doux' en 'douceur' ?;-eur;-té;-able;-age
+39684;Quel suffixe transforme 'simple' en 'simplicité' ?;-ité;-té;-eur;-age
+39685;Quel suffixe transforme 'national' en 'nationalisme' ?;-isme;-ette;-eur;-oire
+39686;Quel accent porte le 'e' dans 'la générosité' ?;accent aigu;accent circonflexe;aucun accent;accent grave
+39687;Quel accent porte le 'e' dans 'le livre' ?;aucun accent;accent circonflexe;accent grave;accent aigu
+39688;Quel accent porte le 'e' dans 'l'énergie' ?;accent aigu;accent grave;accent circonflexe;aucun accent
+39689;Quel accent porte le 'e' dans 'la classe' ?;aucun accent;accent circonflexe;accent grave;accent aigu
+39690;Quel accent porte le 'e' dans 'la porte' ?;aucun accent;accent aigu;accent circonflexe;accent grave
+39691;Quel accent porte le 'e' dans 'le référé' ?;accent aigu;aucun accent;accent grave;accent circonflexe
+39692;Quel accent porte le 'e' dans 'l'âge' ?;accent circonflexe;aucun accent;accent grave;accent aigu
+39693;Quel accent porte le 'e' dans 'le début' ?;accent aigu;accent grave;accent circonflexe;aucun accent
+39694;Quel accent porte le 'e' dans 'la table' ?;aucun accent;accent aigu;accent grave;accent circonflexe
+39695;Quel accent porte le 'e' dans 'la sévérité' ?;accent aigu;accent grave;accent circonflexe;aucun accent
+39696;Quel accent porte le 'e' dans 'le sac' ?;aucun accent;accent aigu;accent grave;accent circonflexe
+39697;Quel accent porte le 'e' dans 'la sécurité' ?;accent aigu;accent grave;aucun accent;accent circonflexe
+39698;Quel accent porte le 'e' dans 'la vérité' ?;accent aigu;aucun accent;accent circonflexe;accent grave
+39699;Quel accent porte le 'e' dans 'le stylo' ?;aucun accent;accent grave;accent aigu;accent circonflexe
+39700;Quel accent porte le 'e' dans 'le mémoire' ?;accent aigu;accent grave;accent circonflexe;aucun accent
+39701;Quel accent porte le 'e' dans 'la boîte' ?;accent circonflexe;accent aigu;accent grave;aucun accent
+39702;___ es-tu revenu ?;Quand;Quant;Qu'en;Kan
+39703;___ à elle, elle est d'accord.;Quant;Quand;Qu'en;Kan
+39704;Je me demande ___ tu penses.;qu'en;quand;quant;kan
+39705;___ dis-tu de cette idée ?;Qu'en;Quand;Quant;Kan
+39706;___ pense-t-il de ce projet ?;Qu'en;Quand;Quant;Kan
+39707;___ à moi, je préfère rester.;Quant;Quand;Qu'en;Kan
+39708;___ finira cette réunion ?;Quand;Quant;Qu'en;Kan
+39709;Il viendra ___ il pourra.;quand;quant;qu'en;kan
+39710;___ à nous, nous restons ici.;Quant;Quand;Qu'en;Kan
+39711;Je ne sais pas ___ il arrivera.;quand;quant;qu'en;kan
+39712;Le chemin change de ___.;sens;sans;s'en;sang
+39713;Il part ___ prévenir personne.;sans;s'en;sens;sang
+39714;Elle ___ va tout de suite.;s'en;sans;sens;sang
+39715;Elle ___ souvient très bien.;s'en;sans;sens;sang
+39716;Ce mot n'a aucun ___.;sens;sans;s'en;sang
+39717;Le miel a un ___ sucré.;sens;sans;s'en;sang
+39718;Le fruit a un bon ___.;sens;sans;s'en;sang
+39719;Elle ___ moque gentiment.;s'en;sans;sens;sang
+39720;Il traverse ___ regarder.;sans;s'en;sens;sang
+39721;Il agit ___ réfléchir vraiment.;sans;s'en;sens;sang
+39722;Il joue ___ se fatiguer.;sans;s'en;sens;sang
+39723;Elles ont ___ fini leurs devoirs.;tout;toute;tous;toutes
+39724;Nous avons ___ terminé l'exercice.;tout;toutes;toute;tous
+39725;Il a lu ___ le livre.;tout;toute;toutes;tous
+39726;Ils sont ___ arrivés à l'heure.;tous;tout;toutes;toute
+39727;Elles sont ___ contentes du résultat.;toutes;tout;tous;toute
+39728;Les enfants sont ___ sages.;tous;tout;toute;toutes
+39729;Vous êtes ___ invités.;tous;toutes;toute;tout
+39730;Elle a ___ rangé sa chambre.;tout;toute;toutes;tous
+39731;Les garçons sont ___ partis.;tous;tout;toute;toutes
+39732;Les filles sont ___ prêtes.;toutes;tout;tous;toute
+39733;Quelle est la bonne orthographe ?;gouvernement;governement;gouvernemant;gouvernementt
+39734;Quelle est la bonne orthographe ?;aventure;avanture;aventurre;aventuree
+39735;Quelle est la bonne orthographe ?;catastrophe;catastrofe;catastroffe;catastrophée
+39736;Quelle est la bonne orthographe ?;nourriture;nouriture;norriture;nourriturre
+39737;Quelle est la bonne orthographe ?;difficulté;dificulté;difficultée;difficulter
+39738;Quelle est la bonne orthographe ?;aujourd'hui;aujourdhui;aujourd'huit;ojourd'hui
+39739;Quelle est la bonne orthographe ?;privilège;priviledge;privilége;privilègee
+39740;Quelle est la bonne orthographe ?;appartement;apartement;appartemant;appartementt
+39741;Quelle est la bonne orthographe ?;magnifique;magnifik;magnifiqe;magnifiquee
+39742;Quelle est la bonne orthographe ?;succession;sucession;succesion;successionn
+39743;Quelle est la bonne orthographe ?;collection;colection;collexion;collectionn
+39744;Quelle est la bonne orthographe ?;attention;attantion;atention;attentionn
+39745;Quelle est la bonne orthographe ?;silencieux;silencieu;cilencieux;silencieuxx
+39746;Quelle est la bonne orthographe ?;municipal;municipale;municippal;municipall
+39747;Quelle est la bonne orthographe ?;bibliothèque;bibliothéque;bibliotheque;bibliotèque
+39748;Quelle est la bonne orthographe ?;mademoiselle;madmoiselle;mademoisselle;mademoisele
+39749;Quelle est la bonne orthographe ?;addition;adition;additionn;addicion
+39750;Quelle est la bonne orthographe ?;technicien;tecknicien;techniciens;technicient
+39751;Quelle est la bonne orthographe ?;téléphone;telefone;téléfone;téléphonne
+39752;Quelle est la bonne orthographe ?;photographe;fotographe;photograffe;photographee
+39753;Quelle est la bonne orthographe ?;gymnastique;jimnastique;gymnastic;gymnastiquee
+39754;Quelle est la bonne orthographe ?;championnat;champione;championat;championnatt
+39755;Quelle est la bonne orthographe ?;beaucoup;beaucou;beaucoups;baucoup
+39756;Quelle est la bonne orthographe ?;tradition;traadition;tràdition;traditino
+39757;Quelle est la bonne orthographe ?;transformation;transformmation;trànsformation;transformatino
+39758;Quelle est la bonne orthographe ?;contamination;contamiination;çontamination;contaminatino
+39759;Quelle est la bonne orthographe ?;vigilance;vvigilance;vîgilance;vigilanec
+39760;Quelle est la bonne orthographe ?;location;llocation;lôcation;locatino
+39761;Quelle est la bonne orthographe ?;expression;exppression;éxpression;expressino
+39762;Quelle est la bonne orthographe ?;vétérinaire;véttérinaire;vetérinaire;vétérinaier
+39763;Quelle est la bonne orthographe ?;tribunal;triibunal;trîbunal;tribunla
+39764;Quelle est la bonne orthographe ?;panorama;paanorama;pànorama;panoraam
+39765;Quelle est la bonne orthographe ?;tapisserie;tapiserie;tapissserie;tàpisserie
+39766;Quelle est la bonne orthographe ?;élaboration;élaboratiion;elaboration;élaboratino
+39767;Quelle est la bonne orthographe ?;promenade;proomenade;prômenade;promenaed
+39768;Quelle est la bonne orthographe ?;vaccination;vacination;vacccination;vàccination
+39769;Quelle est la bonne orthographe ?;moustique;moustiquee;môustique;moustiqeu
+39770;Quelle est la bonne orthographe ?;pépinière;pépinièree;pepinière;pépinièer
+39771;Quelle est la bonne orthographe ?;colonisation;ccolonisation;çolonisation;colonisatino
+39772;Quelle est la bonne orthographe ?;recyclage;recyclagge;récyclage;recyclaeg
+39773;Quelle est la bonne orthographe ?;prisonnier;prisonier;prisonnnier;prîsonnier
+39774;Quelle est la bonne orthographe ?;assemblée;asemblée;asssemblée;assemblee
+39775;Quelle est la bonne orthographe ?;cérémonie;ccérémonie;cerémonie;cérémonei
+39776;Quelle est la bonne orthographe ?;initiative;initiativee;înitiative;initiatiev
+39777;Quelle est la bonne orthographe ?;agriculture;aagriculture;àgriculture;agricultuer
+39778;Quelle est la bonne orthographe ?;consultation;connsultation;çonsultation;consultatino
+39779;Quelle est la bonne orthographe ?;implantation;implanntation;împlantation;implantatino
+39780;Quelle est la bonne orthographe ?;médicament;médiccament;medicament;médicametn
+39781;Quelle est la bonne orthographe ?;coordination;coordinaation;çoordination;coordinatino
+39782;Quelle est la bonne orthographe ?;ministère;ministèrre;ministere;ministèer
+39783;Quelle est la bonne orthographe ?;glissement;glissementt;glîssement;glissemetn
+39784;Quelle est la bonne orthographe ?;harmonisation;harmmonisation;hàrmonisation;harmonisatino
+39785;Quelle est la bonne orthographe ?;couverture;couvverture;çouverture;couvertuer
+39786;Quelle est la bonne orthographe ?;identification;identiffication;îdentification;identificatino
+39787;Quelle est la bonne orthographe ?;atterrissage;atterriissage;àtterrissage;atterrissaeg
+39788;Quelle est la bonne orthographe ?;recyclage;recycllage;récyclage;recyclaeg
+39789;Quelle est la bonne orthographe ?;restaurant;restaaurant;réstaurant;restauratn
+39790;Quelle est la bonne orthographe ?;température;temmpérature;temperature;températuer
+39791;Quelle est la bonne orthographe ?;instrument;instruument;înstrument;instrumetn
+39792;Quelle est la bonne orthographe ?;démocratie;ddémocratie;democratie;démocratei
+39793;Quelle est la bonne orthographe ?;développement;développemennt;developpement;développemetn
+39794;Quelle est la bonne orthographe ?;efficacité;eficacité;effficacité;efficacite
+39795;Quelle est la bonne orthographe ?;couverture;couveerture;çouverture;couvertuer
+39796;Quelle est la bonne orthographe ?;turbulence;turbbulence;tûrbulence;turbulenec
+39797;Quelle est la bonne orthographe ?;exploitation;expploitation;éxploitation;exploitatino
+39798;Quelle est la bonne orthographe ?;volontaire;volonntaire;vôlontaire;volontaier
+39799;Quelle est la bonne orthographe ?;développement;déveeloppement;developpement;développemetn
+39800;Quelle est la bonne orthographe ?;conjugaison;conjugaaison;çonjugaison;conjugaisno
+39801;Quelle est la bonne orthographe ?;duplication;dupplication;dûplication;duplicatino
+39802;Quelle est la bonne orthographe ?;importance;immportance;împortance;importanec
+39803;Quelle est la bonne orthographe ?;vigilance;vigilaance;vîgilance;vigilanec
+39804;Quelle est la bonne orthographe ?;développement;dévveloppement;developpement;développemetn
+39805;Quelle est la bonne orthographe ?;conscience;cconscience;çonscience;conscienec
+39806;Quelle est la bonne orthographe ?;illumination;ilumination;illlumination;îllumination
+39807;Quelle est la bonne orthographe ?;observation;observattion;ôbservation;observatino
+39808;Quelle est la bonne orthographe ?;élimination;éliminnation;elimination;éliminatino
+39809;Quelle est la bonne orthographe ?;découverte;ddécouverte;decouverte;découveret
+39810;Quelle est la bonne orthographe ?;secrétaire;ssecrétaire;secretaire;secrétaier
+39811;Quelle est la bonne orthographe ?;semestre;semesttre;sémestre;semester
+39812;Quelle est la bonne orthographe ?;rendez-vous;rrendez-vous;réndez-vous;rendez-vosu
+39813;Quelle est la bonne orthographe ?;démonstration;démonnstration;demonstration;démonstratino
+39814;Quelle est la bonne orthographe ?;impression;iimpression;împression;impressino
+39815;Quelle est la bonne orthographe ?;sanctuaire;saanctuaire;sànctuaire;sanctuaier
+39816;Quelle est la bonne orthographe ?;vagabond;vagabbond;vàgabond;vagabodn
+39817;Quelle est la bonne orthographe ?;excursion;excursionn;éxcursion;excursino
+39818;Quelle est la bonne orthographe ?;correspondant;corresponddant;çorrespondant;correspondatn
+39819;Quelle est la bonne orthographe ?;tournevis;tourrnevis;tôurnevis;tournevsi
+39820;Quelle est la bonne orthographe ?;location;locatiion;lôcation;locatino
+39821;Quelle est la bonne orthographe ?;enseignement;enseignemment;énseignement;enseignemetn
+39822;Quelle est la bonne orthographe ?;imagination;imaagination;îmagination;imaginatino
+39823;Quelle est la bonne orthographe ?;imagination;imaggination;îmagination;imaginatino
+39824;Quelle est la bonne orthographe ?;rendez-vous;rendez-vouss;réndez-vous;rendez-vosu
+39825;Quelle est la bonne orthographe ?;fréquentation;frréquentation;frequentation;fréquentatino
+39826;Quelle est la bonne orthographe ?;ustensile;usteensile;ûstensile;ustensiel
+39827;Quelle est la bonne orthographe ?;initiative;innitiative;înitiative;initiatiev
+39828;Quelle est la bonne orthographe ?;répétition;répéttition;repétition;répétitino
+39829;Quelle est la bonne orthographe ?;implantation;immplantation;împlantation;implantatino
+39830;Quelle est la bonne orthographe ?;importance;importancce;împortance;importanec
+39831;Quelle est la bonne orthographe ?;élimination;éliminaation;elimination;éliminatino
+39832;Quelle est la bonne orthographe ?;consultation;coonsultation;çonsultation;consultatino
+39833;Quelle est la bonne orthographe ?;générosité;générositté;genérosité;générosiét
+39834;Quelle est la bonne orthographe ?;journalier;journaliier;jôurnalier;journalire
+39835;Quelle est la bonne orthographe ?;évaluation;évalluation;evaluation;évaluatino
+39836;Quelle est la bonne orthographe ?;fluctuation;flucctuation;flûctuation;fluctuatino
+39837;Quelle est la bonne orthographe ?;création;ccréation;creation;créatino
+39838;Quelle est la bonne orthographe ?;printemps;pprintemps;prîntemps;printemsp
+39839;Quelle est la bonne orthographe ?;marchandise;marchanddise;màrchandise;marchandies
+39840;Quelle est la bonne orthographe ?;création;créattion;creation;créatino
+39841;Quelle est la bonne orthographe ?;contenu;coontenu;çontenu;conteun
+39842;Quelle est la bonne orthographe ?;détermination;détermiination;determination;déterminatino
+39843;Quelle est la bonne orthographe ?;perturbation;perturbatioon;pérturbation;perturbatino
+39844;Quelle est la bonne orthographe ?;dépendance;ddépendance;dependance;dépendanec
+39845;Quelle est la bonne orthographe ?;élaboration;éllaboration;elaboration;élaboratino
+39846;Quelle est la bonne orthographe ?;cathédrale;cathédralee;cathedrale;cathédrael
+39847;Quelle est la bonne orthographe ?;monument;monumeent;mônument;monumetn
+39848;Quelle est la bonne orthographe ?;décoration;décoraation;decoration;décoratino
+39849;Quelle est la bonne orthographe ?;signature;signatture;sîgnature;signatuer
+39850;Quelle est la bonne orthographe ?;croisement;croisemment;çroisement;croisemetn
+39851;Quelle est la bonne orthographe ?;apprentissage;apprentissagge;àpprentissage;apprentissaeg
+39852;Quelle est la bonne orthographe ?;imagination;imaginattion;îmagination;imaginatino
+39853;Quelle est la bonne orthographe ?;expression;expressioon;éxpression;expressino
+39854;Quelle est la bonne orthographe ?;préparation;préparatiion;preparation;préparatino
+39855;Quelle est la bonne orthographe ?;panorama;panoorama;pànorama;panoraam
+39856;Quelle est la bonne orthographe ?;générateur;génératteur;genérateur;générateru
+39857;Quelle est la bonne orthographe ?;solidarité;solidarrité;solidarite;solidariét
+39858;Quelle est la bonne orthographe ?;détermination;détermmination;determination;déterminatino
+39859;Quelle est la bonne orthographe ?;construction;consstruction;çonstruction;constructino
+39860;Quelle est la bonne orthographe ?;personnel;peersonnel;pérsonnel;personnle
+39861;Quelle est la bonne orthographe ?;immigration;immigrration;îmmigration;immigratino
+39862;Quelle est la bonne orthographe ?;entraînement;eentraînement;entrainement;entraînemetn
+39863;Quelle est la bonne orthographe ?;cotisation;cootisation;çotisation;cotisatino
+39864;Quelle est la bonne orthographe ?;conversation;converrsation;çonversation;conversatino
+39865;Quelle est la bonne orthographe ?;tolérance;tollérance;tolerance;toléranec
+39866;Quelle est la bonne orthographe ?;diminution;diminutioon;dîminution;diminutino
+39867;Quelle est la bonne orthographe ?;connexion;connexiion;çonnexion;connexino
+39868;Quelle est la bonne orthographe ?;volontaire;volonttaire;vôlontaire;volontaier
+39869;Quelle est la bonne orthographe ?;gravitation;graavitation;gràvitation;gravitatino
+39870;Quelle est la bonne orthographe ?;information;infoormation;înformation;informatino
+39871;Quelle est la bonne orthographe ?;permission;perrmission;pérmission;permissino
+39872;Quelle est la bonne orthographe ?;incompréhension;incomprréhension;incomprehension;incompréhensino
+39873;Quelle est la bonne orthographe ?;coordination;coordinattion;çoordination;coordinatino
+39874;Quelle est la bonne orthographe ?;vagabond;vagaboond;vàgabond;vagabodn
+39875;Quelle est la bonne orthographe ?;thermomètre;thermmomètre;thermometre;thermomèter
+39876;Quelle est la bonne orthographe ?;appartenance;apparrtenance;àppartenance;appartenanec
+39877;Quelle est la bonne orthographe ?;atterrissage;aatterrissage;àtterrissage;atterrissaeg
+39878;Quelle est la bonne orthographe ?;température;tempérrature;temperature;températuer
+39879;Quelle est la bonne orthographe ?;manifestation;maniffestation;mànifestation;manifestatino
+39880;Quelle est la bonne orthographe ?;fondamental;fondamenttal;fôndamental;fondamentla
+39881;Quelle est la bonne orthographe ?;comportement;comporteement;çomportement;comportemetn
+39882;Quelle est la bonne orthographe ?;distribution;distributionn;dîstribution;distributino
+39883;Quelle est la bonne orthographe ?;équilibre;équilibree;equilibre;équiliber
+39884;Quelle est la bonne orthographe ?;générosité;générosiité;genérosité;générosiét
+39885;Quelle est la bonne orthographe ?;invitation;invitaation;învitation;invitatino
+39886;Quelle est la bonne orthographe ?;supermarché;superrmarché;supermarche;supermarcéh
+39887;Quelle est la bonne orthographe ?;catastrophe;cattastrophe;çatastrophe;catastropeh
+39888;Quelle est la bonne orthographe ?;biodiversité;biodiveersité;biodiversite;biodiversiét
+39889;Quelle est la bonne orthographe ?;indépendance;indépendancce;independance;indépendanec
+39890;Quelle est la bonne orthographe ?;vaccination;vaccinatioon;vàccination;vaccinatino
+39891;Quelle est la bonne orthographe ?;immatriculation;immatriculationn;îmmatriculation;immatriculatino
+39892;Quelle est la bonne orthographe ?;observation;oobservation;ôbservation;observatino
+39893;Quelle est la bonne orthographe ?;conducteur;conductteur;çonducteur;conducteru
+39894;Quelle est la bonne orthographe ?;immatriculation;immaatriculation;îmmatriculation;immatriculatino
+39895;Quelle est la bonne orthographe ?;assurance;assurancee;àssurance;assuranec
+39896;Quelle est la bonne orthographe ?;cathédrale;cathédrrale;cathedrale;cathédrael
+39897;Quelle est la bonne orthographe ?;construction;consttruction;çonstruction;constructino
+39898;Quelle est la bonne orthographe ?;architecture;architeecture;àrchitecture;architectuer
+39899;Quelle est la bonne orthographe ?;conducteur;conduucteur;çonducteur;conducteru
+39900;Quelle est la bonne orthographe ?;marchandise;marchandisee;màrchandise;marchandies
+39901;Quelle est la bonne orthographe ?;démocratie;démoocratie;democratie;démocratei
+39902;Quelle est la bonne orthographe ?;destruction;ddestruction;déstruction;destructino
+39903;Quelle est la bonne orthographe ?;couverture;couvertture;çouverture;couvertuer
+39904;Quelle est la bonne orthographe ?;disparition;dispaarition;dîsparition;disparitino
+39905;Quelle est la bonne orthographe ?;solidarité;solidaritté;solidarite;solidariét
+39906;Quelle est la bonne orthographe ?;découverte;découvertte;decouverte;découveret
+39907;Quelle est la bonne orthographe ?;signature;siggnature;sîgnature;signatuer
+39908;Quelle est la bonne orthographe ?;laitière;llaitière;laitiere;laitièer
+39909;Quelle est la bonne orthographe ?;hospitalité;hosppitalité;hospitalite;hospitaliét
+39910;Quelle est la bonne orthographe ?;cérémonie;cérémoniie;cerémonie;cérémonei
+39911;Quelle est la bonne orthographe ?;protection;prottection;prôtection;protectino
+39912;Quelle est la bonne orthographe ?;importance;importannce;împortance;importanec
+39913;Quelle est la bonne orthographe ?;disparition;ddisparition;dîsparition;disparitino
+39914;Quelle est la bonne orthographe ?;estimation;estimmation;éstimation;estimatino
+39915;Quelle est la bonne orthographe ?;publicité;publiccité;publicite;publiciét
+39916;Quelle est la bonne orthographe ?;instrument;iinstrument;înstrument;instrumetn
+39917;Quelle est la bonne orthographe ?;ministère;ministtère;ministere;ministèer
+39918;Quelle est la bonne orthographe ?;immigration;immigraation;îmmigration;immigratino
+39919;Quelle est la bonne orthographe ?;impression;impreession;împression;impressino
+39920;Quelle est la bonne orthographe ?;opération;opérattion;operation;opératino
+39921;Quelle est la bonne orthographe ?;cérémonie;cérémonnie;cerémonie;cérémonei
+39922;Quelle est la bonne orthographe ?;gaspillage;gasspillage;gàspillage;gaspillaeg
+39923;Quelle est la bonne orthographe ?;correction;coorrection;çorrection;correctino
+39924;Quelle est la bonne orthographe ?;gravitation;gravittation;gràvitation;gravitatino
+39925;Quelle est la bonne orthographe ?;coopération;coopérationn;cooperation;coopératino
+39926;Quelle est la bonne orthographe ?;restaurant;resttaurant;réstaurant;restauratn
+39927;Quelle est la bonne orthographe ?;climatisation;climaatisation;çlimatisation;climatisatino
+39928;Quelle est la bonne orthographe ?;conversation;converssation;çonversation;conversatino
+39929;Quelle est la bonne orthographe ?;protection;protectionn;prôtection;protectino
+39930;Quelle est la bonne orthographe ?;alimentation;alimeentation;àlimentation;alimentatino
+39931;Quelle est la bonne orthographe ?;permission;permissionn;pérmission;permissino
+39932;Quelle est la bonne orthographe ?;complexité;compllexité;complexite;complexiét
+39933;Quelle est la bonne orthographe ?;illumination;illummination;îllumination;illuminatino
+39934;Quelle est la bonne orthographe ?;surveillance;suurveillance;sûrveillance;surveillanec
+39935;Quelle est la bonne orthographe ?;indication;indicaation;îndication;indicatino
+39936;Quelle est la bonne orthographe ?;sanctuaire;sanctuaiire;sànctuaire;sanctuaier
+39937;Quelle est la bonne orthographe ?;promenade;promenadde;prômenade;promenaed
+39938;Quelle est la bonne orthographe ?;exploration;explorration;éxploration;exploratino
+39939;Quelle est la bonne orthographe ?;personnel;perssonnel;pérsonnel;personnle
+39940;Quelle est la bonne orthographe ?;illumination;illuminnation;îllumination;illuminatino
+39941;Quelle est la bonne orthographe ?;championnat;chammpionnat;çhampionnat;championnta
+39942;Quelle est la bonne orthographe ?;conception;conceptiion;çonception;conceptino
+39943;Quelle est la bonne orthographe ?;photographe;photoggraphe;phôtographe;photograpeh
+39944;Quelle est la bonne orthographe ?;passerelle;paasserelle;pàsserelle;passerelel
+39945;Quelle est la bonne orthographe ?;construction;cconstruction;çonstruction;constructino
+39946;Quelle est la bonne orthographe ?;visibilité;visibbilité;visibilite;visibiliét
+39947;Quelle est la bonne orthographe ?;conversation;convversation;çonversation;conversatino
+39948;Quelle est la bonne orthographe ?;information;iinformation;înformation;informatino
+39949;Quelle est la bonne orthographe ?;transformation;transfformation;trànsformation;transformatino
+39950;Quelle est la bonne orthographe ?;initiative;inittiative;înitiative;initiatiev
+39951;Quelle est la bonne orthographe ?;inspection;insppection;înspection;inspectino
+39952;Quelle est la bonne orthographe ?;négociation;négocciation;negociation;négociatino
+39953;Quelle est la bonne orthographe ?;dégustation;déguustation;degustation;dégustatino
+39954;Quelle est la bonne orthographe ?;conception;concepption;çonception;conceptino
+39955;Quelle est la bonne orthographe ?;décoration;décooration;decoration;décoratino
+39956;Quelle est la bonne orthographe ?;employeur;emplooyeur;émployeur;employeru
+39957;Quelle est la bonne orthographe ?;attraction;attractiion;àttraction;attractino
+39958;Quelle est la bonne orthographe ?;engagement;enggagement;éngagement;engagemetn
+39959;Quelle est la bonne orthographe ?;fluctuation;fluctuatioon;flûctuation;fluctuatino
+39960;Quelle est la bonne orthographe ?;illumination;iillumination;îllumination;illuminatino
+39961;Quelle est la bonne orthographe ?;musicien;mmusicien;mûsicien;musicine
+39962;Quelle est la bonne orthographe ?;thermomètre;tthermomètre;thermometre;thermomèter

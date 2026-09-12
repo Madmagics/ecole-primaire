@@ -5,11 +5,32 @@
 ## Partage par tous les PNJ, meme principe de "source" que QuestionPanel pour savoir a qui
 ## repondre. Remplace l'ancien GradeSelectPanel (classe/matiere ont echange leurs roles, voir
 ## MATIERES_CANDIDATES.md).
+##
+## Plus aucun raccourci clavier (2026-09-02, retour utilisateur : "on supprime tous les raccourcis
+## clavier, je veux un jeu qui se joue uniquement a la souris ou au tactile") : _unhandled_input()
+## (Echap pour fermer) est retire - close_button fait deja ca a la souris/au tactile.
+##
+## Floutage d'arriere-plan (2026-09-04, retour utilisateur : "on va uniformiser le floutage arriere
+## pour toutes les fenetres quand celles ci sont actives... je veux appliquer la meme chose aux
+## questions et menus proposes par les npc") : meme mecanisme que BackpackMenu.blur_bg_path (voir
+## ui/hud/backpack_menu.gd) - blur_bg_path pointe vers NpcBlurBG (ColorRect partage avec QuestionPanel
+## et ReadingIntroPanel dans game_ui.tscn), bascule dans _on_visibility_changed().
+##
+## Menus masques (2026-09-04, 2e passe, retour utilisateur : "les icones de menu droit et gauche
+## sont touours la quand jouvre un menu npc") : le premier passage n'avait masque les 2 boutons de
+## menu que depuis QuestionPanel - manquant ici, ce panneau (premiere fenetre du flux PNJ, avant
+## QuestionPanel) laissait les 2 icones cliquables. Meme mecanisme (open_menu_button_path/
+## backpack_button_path, voir QuestionPanel) applique ici aussi.
 class_name SubjectSelectPanel
 extends Control
 
-## Emis quand le joueur a choisi une matiere.
-signal subject_selected(source: Node, subject: SubjectType.Subject)
+## Flou plein ecran derriere ce panneau (voir commentaire de classe, 2026-09-04) : NodePath vers
+## NpcBlurBG, ColorRect EXTERNE partage avec QuestionPanel/ReadingIntroPanel dans game_ui.tscn.
+@export var blur_bg_path: NodePath
+## Boutons d'ouverture des 2 menus (game_ui.tscn), masques tant que ce panneau est visible (voir
+## commentaire de classe, 2026-09-04) - assignes dans game_ui.tscn.
+@export var open_menu_button_path: NodePath
+@export var backpack_button_path: NodePath
 
 @onready var title_label: Label = $Panel/Margin/Content/HeaderRow/TitleLabel
 @onready var buttons_container: GridContainer = $Panel/Margin/Content/Center/ButtonsContainer
@@ -41,11 +62,19 @@ func _ready() -> void:
 	theme = SaveManager.THEMES[SaveManager.ui_theme]
 	EventBus.ui_theme_changed.connect(func(new_theme: Theme) -> void: theme = new_theme)
 	close_button.pressed.connect(_on_close_pressed)
-	EventBus.interactable_unfocused.connect(_on_interactable_unfocused)
 	## Fige le joueur (deplacement + interaction) tant que ce menu est visible.
 	visibility_changed.connect(_on_visibility_changed)
 
 func _on_visibility_changed() -> void:
+	var blur_bg := get_node_or_null(blur_bg_path) as CanvasItem
+	if blur_bg:
+		blur_bg.visible = visible
+	var open_menu_button := get_node_or_null(open_menu_button_path) as CanvasItem
+	if open_menu_button:
+		open_menu_button.visible = not visible
+	var backpack_button := get_node_or_null(backpack_button_path) as CanvasItem
+	if backpack_button:
+		backpack_button.visible = not visible
 	if visible:
 		PlayerInputLock.lock()
 	else:
@@ -92,27 +121,17 @@ func _build_subject_frame(subject: SubjectType.Subject) -> PanelContainer:
 
 	return frame
 
+## Diffuse via EventBus (pas un signal local) : QuestionGiverComponent.start_pack_for_subject
+## s'auto-connecte a EventBus.subject_selected dans son _ready() (voir event_bus.gd pour le
+## pourquoi - une connexion posee dans le .tscn s'est perdue plusieurs fois).
 func _on_subject_pressed(subject: SubjectType.Subject) -> void:
 	var source := _source
 	_source = null
 	hide()
-	subject_selected.emit(source, subject)
+	EventBus.subject_selected.emit(source, subject)
 
 func _on_close_pressed() -> void:
 	_close()
-
-## Node (pas InteractableComponent) : recoit indifferemment un interactable 3D ou 2D depuis le
-## passage du jeu en 2D (voir InteractorComponent.gd).
-func _on_interactable_unfocused(interactable: Node) -> void:
-	if _source == null or interactable == null:
-		return
-	if _source.get_parent() == interactable.get_parent():
-		_close()
-
-func _unhandled_input(event: InputEvent) -> void:
-	if visible and event.is_action_pressed("ui_cancel"):
-		_close()
-		get_viewport().set_input_as_handled()
 
 func _close() -> void:
 	_source = null

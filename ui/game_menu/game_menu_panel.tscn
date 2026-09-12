@@ -1,10 +1,24 @@
-[gd_scene load_steps=6 format=3]
+[gd_scene load_steps=15 format=3]
 
 [ext_resource type="Script" path="res://ui/game_menu/game_menu_panel.gd" id="1"]
+[ext_resource type="Theme" path="res://ui/theme/menu_options_font.tres" id="20_options_font"]
 [ext_resource type="PackedScene" path="res://ui/game_menu/section_config.tscn" id="2"]
 [ext_resource type="PackedScene" path="res://ui/game_menu/section_save.tscn" id="3"]
-[ext_resource type="PackedScene" path="res://ui/game_menu/section_controls.tscn" id="4"]
-[ext_resource type="PackedScene" path="res://ui/game_menu/section_stats.tscn" id="5"]
+[ext_resource type="PackedScene" path="res://ui/game_menu/section_profile.tscn" id="6"]
+[ext_resource type="PackedScene" path="res://ui/game_menu/section_parental_control.tscn" id="23_section_parental"]
+[ext_resource type="PackedScene" path="res://ui/game_menu/parental_gate_overlay.tscn" id="7"]
+[ext_resource type="Texture2D" path="res://assets/classe2.0/icones/reglages.webp" id="8_icon_config"]
+[ext_resource type="Texture2D" path="res://assets/classe2.0/icones/save.webp" id="9_icon_save"]
+[ext_resource type="Texture2D" path="res://assets/classe2.0/icones/profil.webp" id="11_icon_profil"]
+[ext_resource type="Shader" path="res://ui/game_menu/icon_dock_blur.gdshader" id="19_blur_shader"]
+[ext_resource type="PackedScene" path="res://ui/game_menu/icon_dock.tscn" id="21_icon_dock"]
+[ext_resource type="Texture2D" path="res://assets/classe2.0/icones/quitter.webp" id="22_icon_quit"]
+[ext_resource type="Texture2D" path="res://assets/classe2.0/icones/controle-parental.webp" id="24_icon_parental"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_menu_blur"]
+shader = ExtResource("19_blur_shader")
+shader_parameter/blur_amount = 2.0
+shader_parameter/tint_color = Color(0, 0, 0, 0.4)
 
 [node name="GameMenuPanel" type="Control"]
 layout_mode = 3
@@ -16,20 +30,30 @@ grow_vertical = 2
 script = ExtResource("1")
 visible = false
 
+[node name="BlurBG" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+material = SubResource("ShaderMaterial_menu_blur")
+color = Color(0, 0, 0, 1)
+
 [node name="Panel" type="Panel" parent="."]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 40.0
-offset_top = 40.0
-offset_right = -40.0
-offset_bottom = -40.0
+offset_left = 123.0
+offset_top = 20.0
+offset_right = -20.0
+offset_bottom = -20.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="TitleLabel" type="Label" parent="Panel"]
-theme_type_variation = &"TitleLabel"
+[node name="TitleRow" type="HBoxContainer" parent="Panel"]
 layout_mode = 1
 anchors_preset = 10
 anchor_right = 1.0
@@ -38,161 +62,41 @@ offset_top = 10.0
 offset_right = -20.0
 offset_bottom = 40.0
 grow_horizontal = 2
-text = "Menu"
-horizontal_alignment = 1
-
-[node name="CloseButton" type="Button" parent="Panel"]
-layout_mode = 1
-anchors_preset = 1
-anchor_left = 1.0
-anchor_right = 1.0
-offset_left = -60.0
-offset_top = 8.0
-offset_right = -20.0
-offset_bottom = 40.0
-grow_horizontal = 0
-text = "X"
-
-[node name="NavContainer" type="VBoxContainer" parent="Panel"]
-custom_minimum_size = Vector2(220, 0)
-layout_mode = 1
-anchors_preset = -1
-anchor_left = 0.0
-anchor_top = 0.0
-anchor_right = 0.0
-anchor_bottom = 1.0
-offset_left = 20.0
-offset_top = 60.0
-offset_right = 240.0
-offset_bottom = -20.0
-grow_vertical = 2
+alignment = 1
 theme_override_constants/separation = 10
 
-[node name="ConfigRow" type="HBoxContainer" parent="Panel/NavContainer"]
+[node name="TitleIcon" type="TextureRect" parent="Panel/TitleRow"]
+custom_minimum_size = Vector2(28, 28)
 layout_mode = 2
-theme_override_constants/separation = 8
+size_flags_vertical = 4
+expand_mode = 1
+stretch_mode = 5
 
-[node name="ConfigButton" type="Button" parent="Panel/NavContainer/ConfigRow"]
-layout_mode = 2
-size_flags_horizontal = 3
-text = "Configuration"
-
-[node name="ConfigBadge" type="PanelContainer" parent="Panel/NavContainer/ConfigRow"]
-custom_minimum_size = Vector2(40, 40)
-layout_mode = 2
-size_flags_horizontal = 0
-
-[node name="ConfigBadgeLabel" type="Label" parent="Panel/NavContainer/ConfigRow/ConfigBadge"]
+[node name="TitleLabel" type="Label" parent="Panel/TitleRow"]
 theme_type_variation = &"TitleLabel"
 layout_mode = 2
-text = "C"
-horizontal_alignment = 1
-vertical_alignment = 1
+text = "Menu"
 
-[node name="SaveRow" type="HBoxContainer" parent="Panel/NavContainer"]
-layout_mode = 2
-theme_override_constants/separation = 8
-
-[node name="SaveButton" type="Button" parent="Panel/NavContainer/SaveRow"]
-layout_mode = 2
-size_flags_horizontal = 3
-text = "Sauvegarde"
-
-[node name="SaveBadge" type="PanelContainer" parent="Panel/NavContainer/SaveRow"]
-custom_minimum_size = Vector2(40, 40)
-layout_mode = 2
-size_flags_horizontal = 0
-
-[node name="SaveBadgeLabel" type="Label" parent="Panel/NavContainer/SaveRow/SaveBadge"]
-theme_type_variation = &"TitleLabel"
-layout_mode = 2
-text = "V"
-horizontal_alignment = 1
-vertical_alignment = 1
-
-[node name="ControlsRow" type="HBoxContainer" parent="Panel/NavContainer"]
-layout_mode = 2
-theme_override_constants/separation = 8
-
-[node name="ControlsButton" type="Button" parent="Panel/NavContainer/ControlsRow"]
-layout_mode = 2
-size_flags_horizontal = 3
-text = "Commandes"
-
-[node name="ControlsBadge" type="PanelContainer" parent="Panel/NavContainer/ControlsRow"]
-custom_minimum_size = Vector2(40, 40)
-layout_mode = 2
-size_flags_horizontal = 0
-
-[node name="ControlsBadgeLabel" type="Label" parent="Panel/NavContainer/ControlsRow/ControlsBadge"]
-theme_type_variation = &"TitleLabel"
-layout_mode = 2
-text = "K"
-horizontal_alignment = 1
-vertical_alignment = 1
-
-[node name="CollectionRow" type="HBoxContainer" parent="Panel/NavContainer"]
-layout_mode = 2
-theme_override_constants/separation = 8
-
-[node name="CollectionButton" type="Button" parent="Panel/NavContainer/CollectionRow"]
-layout_mode = 2
-size_flags_horizontal = 3
-text = "Collection"
-
-[node name="CollectionBadge" type="PanelContainer" parent="Panel/NavContainer/CollectionRow"]
-custom_minimum_size = Vector2(40, 40)
-layout_mode = 2
-size_flags_horizontal = 0
-
-[node name="CollectionBadgeLabel" type="Label" parent="Panel/NavContainer/CollectionRow/CollectionBadge"]
-theme_type_variation = &"TitleLabel"
-layout_mode = 2
-text = "L"
-horizontal_alignment = 1
-vertical_alignment = 1
-
-[node name="InventoryRow" type="HBoxContainer" parent="Panel/NavContainer"]
-layout_mode = 2
-theme_override_constants/separation = 8
-
-[node name="InventoryButton" type="Button" parent="Panel/NavContainer/InventoryRow"]
-layout_mode = 2
-size_flags_horizontal = 3
-text = "Inventaire"
-
-[node name="StatsRow" type="HBoxContainer" parent="Panel/NavContainer"]
-layout_mode = 2
-theme_override_constants/separation = 8
-
-[node name="StatsButton" type="Button" parent="Panel/NavContainer/StatsRow"]
-layout_mode = 2
-size_flags_horizontal = 3
-text = "Statistiques"
-
-[node name="StatsBadge" type="PanelContainer" parent="Panel/NavContainer/StatsRow"]
-custom_minimum_size = Vector2(40, 40)
-layout_mode = 2
-size_flags_horizontal = 0
-
-[node name="StatsBadgeLabel" type="Label" parent="Panel/NavContainer/StatsRow/StatsBadge"]
-theme_type_variation = &"TitleLabel"
-layout_mode = 2
-text = "T"
-horizontal_alignment = 1
-vertical_alignment = 1
+[node name="TitleSeparator" type="HSeparator" parent="Panel"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_top = 55.0
+offset_bottom = 59.0
+grow_horizontal = 2
 
 [node name="ContentArea" type="Control" parent="Panel"]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 260.0
-offset_top = 60.0
+offset_left = 40.0
+offset_top = 80.0
 offset_right = -20.0
 offset_bottom = -20.0
 grow_horizontal = 2
 grow_vertical = 2
+theme = ExtResource("20_options_font")
 
 [node name="SectionConfig" parent="Panel/ContentArea" instance=ExtResource("2")]
 layout_mode = 1
@@ -200,8 +104,95 @@ layout_mode = 1
 [node name="SectionSave" parent="Panel/ContentArea" instance=ExtResource("3")]
 layout_mode = 1
 
-[node name="SectionControls" parent="Panel/ContentArea" instance=ExtResource("4")]
+[node name="SectionProfile" parent="Panel/ContentArea" instance=ExtResource("6")]
 layout_mode = 1
 
-[node name="SectionStats" parent="Panel/ContentArea" instance=ExtResource("5")]
+[node name="SectionParentalControl" parent="Panel/ContentArea" instance=ExtResource("23_section_parental")]
 layout_mode = 1
+
+[node name="IconDock" parent="." instance=ExtResource("21_icon_dock")]
+layout_mode = 1
+anchors_preset = -1
+anchor_bottom = 1.0
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 113.0
+offset_bottom = -20.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ConfigButton" type="Button" parent="IconDock/IconList"]
+custom_minimum_size = Vector2(73, 73)
+layout_mode = 2
+size_flags_horizontal = 4
+flat = true
+text = ""
+icon = ExtResource("8_icon_config")
+expand_icon = true
+icon_alignment = 1
+vertical_icon_alignment = 1
+tooltip_text = "Configuration"
+
+[node name="SaveButton" type="Button" parent="IconDock/IconList"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+size_flags_horizontal = 4
+flat = true
+text = ""
+icon = ExtResource("9_icon_save")
+expand_icon = true
+icon_alignment = 1
+vertical_icon_alignment = 1
+tooltip_text = "Sauvegarde"
+
+[node name="InformationsButton" type="Button" parent="IconDock/IconList"]
+custom_minimum_size = Vector2(69, 72)
+layout_mode = 2
+size_flags_horizontal = 4
+flat = true
+text = ""
+icon = ExtResource("11_icon_profil")
+expand_icon = true
+icon_alignment = 1
+vertical_icon_alignment = 1
+tooltip_text = "Informations personnelles"
+
+[node name="ParentalControlButton" type="Button" parent="IconDock/IconList"]
+visible = false
+custom_minimum_size = Vector2(80, 59)
+layout_mode = 2
+size_flags_horizontal = 4
+flat = true
+text = ""
+icon = ExtResource("24_icon_parental")
+expand_icon = true
+icon_alignment = 1
+vertical_icon_alignment = 1
+tooltip_text = "Contrôle parental"
+
+[node name="QuitterButton" type="Button" parent="IconDock"]
+custom_minimum_size = Vector2(62, 59)
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -31.0
+offset_top = -69.0
+offset_right = 31.0
+offset_bottom = -10.0
+grow_horizontal = 2
+grow_vertical = 0
+flat = true
+text = ""
+icon = ExtResource("22_icon_quit")
+expand_icon = true
+icon_alignment = 1
+vertical_icon_alignment = 1
+tooltip_text = "Quitter"
+
+[node name="ParentalGate" parent="." instance=ExtResource("7")]
+layout_mode = 1
+
+[editable path="IconDock"]

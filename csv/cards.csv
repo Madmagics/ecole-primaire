@@ -1,116 +1,126 @@
 id;categorie;nom;classe
-1;chat;Sauvage;CP
-2;chat;Siamois;CE1
-3;chat;Forestier;CE2
-4;chat;Céleste;CM1
-5;chat;Cosmique;CM2
-6;chien;Errant;CP
-7;chien;De Berger;CE1
-8;chien;Husky;CE2
-9;chien;Mystique;CM1
-10;chien;Cerbère;CM2
-11;renard;Roux des Bois;CP
-12;renard;Arctique;CE1
-13;renard;Argenté;CE2
-14;renard;Feu Follet;CM1
-15;renard;Céleste;CM2
-16;lapin;Champêtre;CP
-17;lapin;Angora;CE1
-18;lapin;Bélier;CE2
-19;lapin;Lunaire;CM1
-20;lapin;Arc-en-ciel;CM2
-21;hippocampe;Corail;CP
-22;hippocampe;Récif;CE1
-23;hippocampe;Abyssal;CE2
-24;hippocampe;Cristal;CM1
-25;hippocampe;Arc-en-ciel;CM2
-26;dragon;Forestier;CP
-27;dragon;Volcanique;CE1
-28;dragon;Glacial;CE2
-29;dragon;Doré;CM1
-30;dragon;Nébuleuse;CM2
-31;aigle;Royal;CP
-32;aigle;Des Neiges;CE1
-33;aigle;Doré;CE2
-34;aigle;Tempete;CM1
-35;aigle;Céleste;CM2
-36;raton-laveur;Des Bois;CP
-37;raton-laveur;Blanc;CE1
-38;raton-laveur;Roux;CE2
-39;raton-laveur;Nocturne;CM1
-40;raton-laveur;Arlequin;CM2
-41;souris;Des Champs;CP
-42;souris;Blanche;CE1
-43;souris;Grise Urbaine;CE2
-44;souris;Étincelle;CM1
-45;souris;Arlequin;CM2
-46;girafe;Savane;CP
-47;girafe;Des Neiges;CE1
-48;girafe;Réticulée;CE2
-49;girafe;Céleste;CM1
-50;girafe;Arc-en-ciel;CM2
-51;hippopotame;Fleuve;CP
-52;hippopotame;Rose;CE1
-53;hippopotame;Boueux;CE2
-54;hippopotame;Lunaire;CM1
-55;hippopotame;Arc-en-ciel;CM2
-56;licorne;Des prés;CP
-57;licorne;Nocturne;CE1
-58;licorne;Printanière;CE2
-59;licorne;Ignée;CM1
-60;licorne;Arc-en-ciel;CM2
-61;maki-catta;Sauvage;CP
-62;maki-catta;Roux;CE1
-63;maki-catta;Neigeux;CE2
-64;maki-catta;Nocturne;CM1
-65;maki-catta;Arc-en-ciel;CM2
-66;éléphant;Savane;CP
-67;éléphant;Rose;CE1
-68;éléphant;Des Neiges;CE2
-69;éléphant;doré;CM1
-70;éléphant;arc-en-ciel;CM2
-71;panda;Sauvage;CP
-72;panda;Roux;CE1
-73;panda;Neigeux;CE2
-74;panda;Nocturne;CM1
-75;panda;Arc-en-ciel;CM2
-76;vache;Laitière;CP
-77;vache;Highland;CE1
-78;vache;Rosée;CE2
-79;vache;Céleste;CM1
-80;vache;Arc-en-ciel;CM2
-81;lézard;Lézard des jardins;CP
-82;lézard;Lézard désertique;CE1
-83;lézard;Lézard tropical;CE2
-84;lézard;Lézard iridescent;CM1
-85;lézard;Lézard nébuleuse;CM2
-86;bouquetin;Bouquetin alpin;CP
-87;bouquetin;Bouquetin neigeux;CE1
-88;bouquetin;Bouquetin dore;CE2
-89;bouquetin;Bouquetin nocturne;CM1
-90;bouquetin;Bouquetin arc-en-ciel;CM2
-91;dauphin;Dauphin océanique;CP
-92;dauphin;Dauphin rose;CE1
-93;dauphin;Dauphin nocturne;CE2
-94;dauphin;Dauphin cristal;CM1
-95;dauphin;Dauphin arc-en-ciel;CM2
-96;requin;Requin récif;CP
-97;requin;Requin corail;CE1
-98;requin;Requin abyssal;CE2
-99;requin;Requin cristal;CM1
-100;requin;Requin arc-en-ciel;CM2
-101;crevette;Crevette récif;CP
-102;crevette;Crevette tropicale;CE1
-103;crevette;Crevette cristal;CE2
-104;crevette;Crevette nébuleuse;CM1
-105;crevette;Crevette arc-en-ciel;CM2
-106;baleine;Baleine océanique;CP
-107;baleine;Baleine blanche;CE1
-108;baleine;Baleine céleste;CE2
-109;baleine;Baleine corail;CM1
-110;baleine;Baleine arc-en-ciel;CM2
-111;chauve-souris;Chauve-souris des greniers;CP
-112;chauve-souris;Chauve-souris nocturne;CE1
-113;chauve-souris;Chauve-souris neigeuse;CE2
-114;chauve-souris;Chauve-souris ignee;CM1
-115;chauve-souris;Chauve-souris arc-en-ciel;CM2
+1;chat;Grisou;CP
+2;chat;Suki;CE1
+3;chat;Sylvain;CE2
+4;chat;Luna;CM1
+5;chat;Nova;CM2
+6;chien;Bandit;CP
+7;chien;Rex;CE1
+8;chien;Neige;CE2
+9;chien;Ombre;CM1
+10;chien;Titan;CM2
+11;renard;Goupil;CP
+12;renard;Givre;CE1
+13;renard;Perle;CE2
+14;renard;Flamèche;CM1
+15;renard;Étoile;CM2
+16;lapin;Pâquerette;CP
+17;lapin;Duvet;CE1
+18;lapin;Bouclette;CE2
+19;lapin;Clairelune;CM1
+20;lapin;Iris;CM2
+21;hippocampe;Corallie;CP
+22;hippocampe;Vague;CE1
+23;hippocampe;Abysse;CE2
+24;hippocampe;Diamantine;CM1
+25;hippocampe;Opaline;CM2
+26;dragon;Ronce;CP
+27;dragon;Braise;CE1
+28;dragon;Frimas;CE2
+29;dragon;Or;CM1
+30;dragon;Nébula;CM2
+31;aigle;Plume;CP
+32;aigle;Blizzard;CE1
+33;aigle;Icare;CE2
+34;aigle;Foudre;CM1
+35;aigle;Zéphyr;CM2
+36;raton-laveur;Filou;CP
+37;raton-laveur;Ivoire;CE1
+38;raton-laveur;Rouky;CE2
+39;raton-laveur;Minuit;CM1
+40;raton-laveur;Domino;CM2
+41;souris;Blé;CP
+42;souris;Perline;CE1
+43;souris;Grison;CE2
+44;souris;Pixel;CM1
+45;souris;Confetti;CM2
+46;girafe;Girafon;CP
+47;girafe;Flocon;CE1
+48;girafe;Tacha;CE2
+49;girafe;Astra;CM1
+50;girafe;Prisme;CM2
+51;hippopotame;Nil;CP
+52;hippopotame;Rosalie;CE1
+53;hippopotame;Glouglou;CE2
+54;hippopotame;Séléna;CM1
+55;hippopotame;Kaléido;CM2
+56;licorne;Trèfle;CP
+57;licorne;Velours;CE1
+58;licorne;Fleurette;CE2
+59;licorne;Ambre;CM1
+60;licorne;Iridia;CM2
+61;maki-catta;Rikiki;CP
+62;maki-catta;Ambroise;CE1
+63;maki-catta;Blanchon;CE2
+64;maki-catta;Nocta;CM1
+65;maki-catta;Zigzag;CM2
+66;éléphant;Baobab;CP
+67;éléphant;Praline;CE1
+68;éléphant;Frimousse;CE2
+69;éléphant;Pépite;CM1
+70;éléphant;Mirage;CM2
+71;panda;Bambou;CP
+72;panda;Cannelle;CE1
+73;panda;Poudreuse;CE2
+74;panda;Encre;CM1
+75;panda;Bonbon;CM2
+76;vache;Marguerite;CP
+77;vache;Angus;CE1
+78;vache;Bruyère;CE2
+79;vache;Lactée;CM1
+80;vache;Caramel;CM2
+81;lézard;Basilic;CP
+82;lézard;Sable;CE1
+83;lézard;Mango;CE2
+84;lézard;Opale;CM1
+85;lézard;Comète;CM2
+86;bouquetin;Edelweiss;CP
+87;bouquetin;Alpage;CE1
+88;bouquetin;Écu;CE2
+89;bouquetin;Pénombre;CM1
+90;bouquetin;Zénith;CM2
+91;dauphin;Marin;CP
+92;dauphin;Coquille;CE1
+93;dauphin;Écho;CE2
+94;dauphin;Cristal;CM1
+95;dauphin;Sirène;CM2
+96;requin;Corsaire;CP
+97;requin;Mako;CE1
+98;requin;Léviathan;CE2
+99;requin;Glacia;CM1
+100;requin;Arc;CM2
+101;crevette;Bulle;CP
+102;crevette;Papaye;CE1
+103;crevette;Gouttelette;CE2
+104;crevette;Stellaire;CM1
+105;crevette;Pastel;CM2
+106;baleine;Onde;CP
+107;baleine;Nacre;CE1
+108;baleine;Voûte;CE2
+109;baleine;Amphitrite;CM1
+110;baleine;Aurore;CM2
+111;chauve-souris;Poussière;CP
+112;chauve-souris;Crépuscule;CE1
+113;chauve-souris;Blanchette;CE2
+114;chauve-souris;Cendra;CM1
+115;chauve-souris;Éclipse;CM2
+116;fourmi;Miette;CP
+117;fourmi;Groseille;CE1
+118;fourmi;Épi;CE2
+119;fourmi;Ambroisie;CM1
+120;fourmi;Scintille;CM2
+121;cameleon;Pistache;CP
+122;cameleon;Moka;CE1
+123;cameleon;Kiwi;CE2
+124;cameleon;Miroir;CM1
+125;cameleon;Camaïeu;CM2

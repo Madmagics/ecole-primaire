@@ -68,7 +68,12 @@ func _run() -> void:
 			crate = LootTableResource.new()
 			crate.crate_price = DEFAULT_PRICES[rarity]
 
-		crate.crate_name = "Coffre %s" % CardRarity.get_label(rarity)
+		## Nom de classe (CP/CE1/...) plutot que de rarete (2026-08-29, section "Récompenses",
+		## retour utilisateur : "on enleve le systeme commun peu commun etc et on remplace juste
+		## par le nom des classes") - et sans prefixe "Coffre " (deja retire a la main dans les
+		## .tres existants avant ce jour, ce generateur n'etait plus a jour avec eux : "Commune",
+		## pas "Coffre Commune" - corrige au passage pour que regenerer ne desynchronise plus rien).
+		crate.crate_name = GradeLevel.get_label(GradeLevel.get_grade_for_rarity(rarity))
 		crate.rarity = rarity
 
 		var entries: Array[LootEntry] = []

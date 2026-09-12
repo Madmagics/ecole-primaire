@@ -1,0 +1,64 @@
+[gd_scene format=3 uid="uid://w2t5plfxiu8c"]
+
+[ext_resource type="PackedScene" path="res://entities/player_2d/player_2d.tscn" id="1_player"]
+[ext_resource type="PackedScene" path="res://entities/shop_kiosk_2d/shop_kiosk_2d.tscn" id="2_shop"]
+[ext_resource type="PackedScene" path="res://ui/game_ui.tscn" id="4_ui"]
+[ext_resource type="Texture2D" uid="uid://7e37ssxtkmmr" path="res://entities/shop_kiosk_2d/shop.webp" id="5_5dai8"]
+[ext_resource type="PackedScene" path="res://entities/edge_trigger_2d/edge_trigger_2d.tscn" id="5_edge"]
+[ext_resource type="Texture2D" uid="uid://y31qg1o564ed" path="res://assets/backgrounds/shop.webp" id="5_gvg5y"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ground"]
+size = Vector2(1600, 120)
+
+[node name="Boutique" type="Node2D" unique_id=722354364]
+
+[node name="Shop2" type="Sprite2D" parent="." unique_id=425288450]
+position = Vector2(574.99994, 327)
+scale = Vector2(0.87072515, 0.87072515)
+texture = ExtResource("5_gvg5y")
+
+[node name="Shop" type="Sprite2D" parent="." unique_id=1003737776]
+position = Vector2(618, 357.99997)
+scale = Vector2(0.3982594, 0.3982594)
+texture = ExtResource("5_5dai8")
+
+[node name="Ground" type="StaticBody2D" parent="." unique_id=979893507]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground" unique_id=381972414]
+position = Vector2(586, 624)
+shape = SubResource("RectangleShape2D_ground")
+
+[node name="FixedCamera" type="Camera2D" parent="." unique_id=1912018281]
+position = Vector2(576, 324)
+
+[node name="Player" parent="." unique_id=873261455 instance=ExtResource("1_player")]
+position = Vector2(576, 455)
+
+[node name="MovementComponent2D" parent="Player" index="2"]
+zone_min_x = 60.0
+zone_max_x = 1090.0
+
+[node name="ShopKiosk" parent="." unique_id=1815740712 instance=ExtResource("2_shop")]
+position = Vector2(576, 498)
+
+[node name="CapsuleVisual" parent="ShopKiosk" index="1"]
+visible = false
+
+[node name="EdgeTriggerRetourEcole" parent="." unique_id=1876665957 instance=ExtResource("5_edge")]
+position = Vector2(17, 396)
+target_scene_path = "res://levels/ecole_exterieure_2d/ecole_exterieure_2d.tscn"
+entry_edge = 2
+
+[node name="EdgeTriggerCirque" parent="." unique_id=914664424 instance=ExtResource("5_edge")]
+position = Vector2(1134, 393)
+target_scene_path = "res://levels/cirque_2d/cirque_2d.tscn"
+entry_edge = 1
+
+[node name="UI" parent="." unique_id=1813675419 instance=ExtResource("4_ui")]
+
+[connection signal="interactable_changed" from="Player/InteractorComponent" to="UI/InteractPrompt" method="show_for"]
+[connection signal="interacted" from="ShopKiosk/InteractableComponent" to="UI/ShopPanel" method="open"]
+[connection signal="unfocused" from="ShopKiosk/InteractableComponent" to="UI/ShopPanel" method="close"]
+
+[editable path="Player"]
+[editable path="ShopKiosk"]

@@ -1,10 +1,12 @@
 [gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://2u47aqu7e0qt"]
 
-[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_6g48u"]
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/classe2.0/pets/74.webp" id="2_texture"]
 
 [resource]
-script = ExtResource("1_6g48u")
+script = ExtResource("1_script")
 id = &"74"
 category = &"panda"
-display_name = "Nocturne"
+display_name = "Encre"
+texture = ExtResource("2_texture")
 grade = 3

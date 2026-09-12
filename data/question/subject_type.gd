@@ -9,8 +9,11 @@ extends RefCounted
 ## GRAMMAR ne couvre plus que la grammaire pure (accords, nature des mots) depuis le 2026-07-20 :
 ## CONJUGATION et SPELLING ont ete separes du meme contenu francais d'origine (voir
 ## MATIERES_CANDIDATES.md). ENGLISH et READING reserves pour les prochains chantiers (vocabulaire
-## anglais et lecture/comprehension), ajoutes ici a l'avance pour figer leur numero.
-enum Subject { MATH = 0, FRENCH = 1, GRAMMAR = 2, CONJUGATION = 3, SPELLING = 4, ENGLISH = 5, READING = 6 }
+## anglais et lecture/comprehension), ajoutes ici a l'avance pour figer leur numero. LOGIC
+## (2026-08-04) : tests psychotechniques/logique pour enfants (suites, intrus, analogies,
+## deduction) - hors programme scolaire officiel contrairement aux autres matieres, voir
+## MATIERES_CANDIDATES.md pour la justification.
+enum Subject { MATH = 0, FRENCH = 1, GRAMMAR = 2, CONJUGATION = 3, SPELLING = 4, ENGLISH = 5, READING = 6, LOGIC = 7 }
 
 ## Couleur de la piece recompense pour cette matiere (HUD, popups...) - reutilisee telle quelle
 ## comme code couleur des cadres de matiere dans SubjectSelectPanel (un seul systeme de couleurs
@@ -37,6 +40,8 @@ static func get_color(subject: Subject) -> Color:
 			return Color("66BB6A") # vert
 		Subject.READING:
 			return Color("8B5E34") # marron
+		Subject.LOGIC:
+			return Color("7E57C2") # violet
 	return Color.WHITE
 
 ## Nom de dossier (sous csv/questions/<classe>/ et data/question/resources/<classe>/) associe a
@@ -59,6 +64,8 @@ static func get_folder_name(subject: Subject) -> String:
 			return "english"
 		Subject.READING:
 			return "lecture"
+		Subject.LOGIC:
+			return "logique"
 	return ""
 
 static func get_label(subject: Subject) -> String:
@@ -77,4 +84,6 @@ static func get_label(subject: Subject) -> String:
 			return "Anglais"
 		Subject.READING:
 			return "Compréhension de texte"
+		Subject.LOGIC:
+			return "Logique"
 	return "?"

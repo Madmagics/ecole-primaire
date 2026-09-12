@@ -1,9 +1,11 @@
 [gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://gh6widfg7hvu"]
 
-[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_h0avg"]
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/classe2.0/pets/66.webp" id="2_texture"]
 
 [resource]
-script = ExtResource("1_h0avg")
+script = ExtResource("1_script")
 id = &"66"
 category = &"éléphant"
-display_name = "Savane"
+display_name = "Baobab"
+texture = ExtResource("2_texture")

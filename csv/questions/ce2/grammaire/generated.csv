@@ -19,16 +19,16 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 10017;Dans la phrase 'La pluie tombe sur la ville.', quel est le sujet du verbe ?;La pluie;le complément;le groupe nominal complément;le verbe
 10018;Dans la phrase 'Les voitures roulent vite.', quel est le sujet du verbe ?;Les voitures;l'adjectif;le verbe;le groupe nominal complément
 10019;Dans la phrase 'Le soleil brille aujourd'hui.', quel est le sujet du verbe ?;Le soleil;le verbe;le complément;l'adjectif
-10020;Les enfants ___ dans le jardin (jouer).;jouent;joue;joues;jouons
-10021;Le chat ___ la souris (chasser).;chasse;chassent;chasses;chassons
-10022;Mes parents ___ un cadeau (acheter).;achètent;achète;achètes;achetons
-10023;Tu ___ très bien (chanter).;chantes;chante;chantent;chantons
-10024;Nous ___ à la piscine (nager).;nageons;nage;nages;nagent
-10025;Les élèves ___ la leçon (apprendre).;apprennent;apprend;apprends;apprenons
-10026;La maîtresse ___ la classe (surveiller).;surveille;surveillent;surveilles;surveillons
-10027;Vous ___ trop de bruit (faire).;faites;fais;font;faisons
-10028;Les chiens ___ dans la rue (courir).;courent;court;cours;courons
-10029;Je ___ mes devoirs (finir).;finis;finit;finissent;finissons
+10020;Les enfants ___ dans le jardin.;jouent;joue;joues;jouons
+10021;Le chat ___ la souris.;chasse;chassent;chasses;chassons
+10022;Mes parents ___ un cadeau.;achètent;achète;achètes;achetons
+10023;Tu ___ très bien.;chantes;chante;chantent;chantons
+10024;Nous ___ à la piscine.;nageons;nage;nages;nagent
+10025;Les élèves ___ la leçon.;apprennent;apprend;apprends;apprenons
+10026;La maîtresse ___ la classe.;surveille;surveillent;surveilles;surveillons
+10027;Vous ___ trop de bruit.;faites;fais;font;faisons
+10028;Les chiens ___ dans la rue.;courent;court;cours;courons
+10029;Je ___ mes devoirs.;finis;finit;finissent;finissons
 10030;'Quel âge as-tu ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
 10031;'Le chat dort sur le tapis.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
 10032;'Comme ce gâteau est bon !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
@@ -39,3 +39,963 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 10037;'Range ta chambre.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
 10038;'Aimes-tu le chocolat ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
 10039;'Les vacances commencent demain.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31000;Quel pronom peut remplacer 'le chien' ?;il;elle;ils;elles
+31001;Quel pronom peut remplacer 'le vélo' ?;il;elle;ils;elles
+31002;Quel pronom peut remplacer 'le ballon' ?;il;elle;ils;elles
+31003;Quel pronom peut remplacer 'mon frère' ?;il;elle;ils;elles
+31004;Quel pronom peut remplacer 'le maître' ?;il;elle;ils;elles
+31005;Quel pronom peut remplacer 'le facteur' ?;il;elle;ils;elles
+31006;Quel pronom peut remplacer 'le pêcheur' ?;il;elle;ils;elles
+31007;Quel pronom peut remplacer 'le fermier' ?;il;elle;ils;elles
+31008;Quel pronom peut remplacer 'le boulanger' ?;il;elle;ils;elles
+31009;Quel pronom peut remplacer 'le docteur' ?;il;elle;ils;elles
+31010;Quel pronom peut remplacer 'le voisin' ?;il;elle;ils;elles
+31011;Quel pronom peut remplacer 'le cousin' ?;il;elle;ils;elles
+31012;Quel pronom peut remplacer 'Paul' ?;il;elle;ils;elles
+31013;Quel pronom peut remplacer 'Tom' ?;il;elle;ils;elles
+31014;Quel pronom peut remplacer 'Léo' ?;il;elle;ils;elles
+31015;Quel pronom peut remplacer 'Hugo' ?;il;elle;ils;elles
+31016;Quel pronom peut remplacer 'Sami' ?;il;elle;ils;elles
+31017;Quel pronom peut remplacer 'la voiture' ?;elle;il;ils;elles
+31018;Quel pronom peut remplacer 'la maison' ?;elle;il;ils;elles
+31019;Quel pronom peut remplacer 'ma mère' ?;elle;il;ils;elles
+31020;Quel pronom peut remplacer 'la maîtresse' ?;elle;il;ils;elles
+31021;Quel pronom peut remplacer 'la doctoresse' ?;elle;il;ils;elles
+31022;Quel pronom peut remplacer 'la voisine' ?;elle;il;ils;elles
+31023;Quel pronom peut remplacer 'la cousine' ?;elle;il;ils;elles
+31024;Quel pronom peut remplacer 'la fleuriste' ?;elle;il;ils;elles
+31025;Quel pronom peut remplacer 'Marie' ?;elle;il;ils;elles
+31026;Quel pronom peut remplacer 'Lea' ?;elle;il;ils;elles
+31027;Quel pronom peut remplacer 'Zoé' ?;elle;il;ils;elles
+31028;Quel pronom peut remplacer 'Nina' ?;elle;il;ils;elles
+31029;Quel pronom peut remplacer 'Chloé' ?;elle;il;ils;elles
+31030;Quel pronom peut remplacer 'les chiens' ?;ils;il;elle;elles
+31031;Quel pronom peut remplacer 'les vélos' ?;ils;il;elle;elles
+31032;Quel pronom peut remplacer 'les garçons' ?;ils;il;elle;elles
+31033;Quel pronom peut remplacer 'Paul et Hugo' ?;ils;il;elle;elles
+31034;Quel pronom peut remplacer 'mes cousins' ?;ils;il;elle;elles
+31035;Quel pronom peut remplacer 'les voisins' ?;ils;il;elle;elles
+31036;Quel pronom peut remplacer 'les pêcheurs' ?;ils;il;elle;elles
+31037;Quel pronom peut remplacer 'les souris' ?;elles;il;elle;ils
+31038;Quel pronom peut remplacer 'les voitures' ?;elles;il;elle;ils
+31039;Quel pronom peut remplacer 'Marie et Nina' ?;elles;il;elle;ils
+31040;Quel pronom peut remplacer 'mes cousines' ?;elles;il;elle;ils
+31041;Quel pronom peut remplacer 'les voisines' ?;elles;il;elle;ils
+31042;Quel pronom peut remplacer 'les fleuristes' ?;elles;il;elle;ils
+31043;Dans la phrase 'Mon père travaille dur.', quel est le sujet du verbe ?;Mon père;l'adjectif;le verbe;le complément
+31044;Dans la phrase 'La maîtresse explique la leçon.', quel est le sujet du verbe ?;La maîtresse;l'adjectif;le verbe;le complément
+31045;Dans la phrase 'Les chiens aboient fort.', quel est le sujet du verbe ?;Les chiens;l'adjectif;le verbe;le complément
+31046;Dans la phrase 'Le facteur distribue le courrier.', quel est le sujet du verbe ?;Le facteur;l'adjectif;le verbe;le complément
+31047;Dans la phrase 'Les fleurs poussent au printemps.', quel est le sujet du verbe ?;Les fleurs;l'adjectif;le verbe;le complément
+31048;Dans la phrase 'Le fermier cultive son champ.', quel est le sujet du verbe ?;Le fermier;l'adjectif;le verbe;le complément
+31049;Dans la phrase 'Les nuages cachent le soleil.', quel est le sujet du verbe ?;Les nuages;l'adjectif;le verbe;le complément
+31050;Dans la phrase 'La rivière coule doucement.', quel est le sujet du verbe ?;La rivière;l'adjectif;le verbe;le complément
+31051;Dans la phrase 'Le vélo roule vite.', quel est le sujet du verbe ?;Le vélo;l'adjectif;le verbe;le complément
+31052;Dans la phrase 'Les avions décollent à midi.', quel est le sujet du verbe ?;Les avions;l'adjectif;le verbe;le complément
+31053;Dans la phrase 'Le train arrive en retard.', quel est le sujet du verbe ?;Le train;l'adjectif;le verbe;le complément
+31054;Dans la phrase 'Ma soeur dessine un chat.', quel est le sujet du verbe ?;Ma soeur;l'adjectif;le verbe;le complément
+31055;Dans la phrase 'Les poissons nagent dans l'étang.', quel est le sujet du verbe ?;Les poissons;l'adjectif;le verbe;le complément
+31056;Dans la phrase 'Le jardinier plante des fleurs.', quel est le sujet du verbe ?;Le jardinier;l'adjectif;le verbe;le complément
+31057;Dans la phrase 'Les abeilles butinent les fleurs.', quel est le sujet du verbe ?;Les abeilles;l'adjectif;le verbe;le complément
+31058;Dans la phrase 'Le boulanger vend du pain.', quel est le sujet du verbe ?;Le boulanger;l'adjectif;le verbe;le complément
+31059;Dans la phrase 'La neige tombe en hiver.', quel est le sujet du verbe ?;La neige;l'adjectif;le verbe;le complément
+31060;Dans la phrase 'Les feuilles tombent en automne.', quel est le sujet du verbe ?;Les feuilles;l'adjectif;le verbe;le complément
+31061;Dans la phrase 'Le bateau navigue sur le lac.', quel est le sujet du verbe ?;Le bateau;l'adjectif;le verbe;le complément
+31062;Dans la phrase 'Les étoiles brillent la nuit.', quel est le sujet du verbe ?;Les étoiles;l'adjectif;le verbe;le complément
+31063;Les enfants ___ dans la cour de récréation.;jouent;joue;joues;jouons
+31064;Le chat ___ le papillon.;chasse;chasses;chassons;chassent
+31065;Mes parents ___ des fruits au marché.;achètent;achète;achètes;achetez
+31066;Nous ___ à la piscine.;nageons;nage;nagent;nagez
+31067;Les élèves ___ une nouvelle leçon.;apprennent;apprends;apprenez;apprend
+31068;La maîtresse ___ la classe.;surveille;surveillons;surveillent;surveillez
+31069;Les chiens ___ dans le jardin.;courent;courons;courez;court
+31070;Je ___ mes devoirs.;finis;finissez;finit;finissent
+31071;Mon frère ___ un sac lourd.;porte;portez;portent;portes
+31072;Vous ___ un film.;regardez;regarde;regardent;regardes
+31073;Tu ___ une pomme.;manges;mangez;mangent;mangeons
+31074;Les filles ___ leur chambre.;rangent;rangeons;range;rangez
+31075;Il ___ la voiture.;lave;laves;lavent;lavons
+31076;Elle ___ la fenêtre.;ferme;fermons;fermes;ferment
+31077;Les garçons ___ leurs parents.;aident;aidez;aidons;aide
+31078;Chaque jour, nous ___.;dansons;dansez;danse;danses
+31079;Chaque jour, je ___.;dessine;dessinent;dessines;dessinez
+31080;Les voisins ___ leurs clés.;cherchent;cherche;cherches;cherchez
+31081;Ma soeur ___ le repas.;prépare;préparons;préparent;prépares
+31082;Ils ___ la salle.;décorent;décore;décorez;décorons
+31083;Chaque jour, vous ___.;plantez;plante;plantes;plantent
+31084;Chaque jour, tu ___.;arroses;arrosons;arrosez;arrose
+31085;Les scientifiques ___ les étoiles.;observent;observons;observez;observes
+31086;Chaque jour, il ___.;calcule;calcules;calculent;calculez
+31087;Elles ___ une fête.;organisent;organisez;organises;organisons
+31088;En ce moment, nous ___.;chantons;chantez;chante;chantes
+31089;'Mon frère joue au football.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31090;'La maîtresse écrit au tableau.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31091;'Les oiseaux chantent dans les arbres.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31092;'Nous allons à la piscine.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31093;'Le train arrive à l'heure.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31094;'Ma soeur aime la musique.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31095;'Les enfants dessinent en classe.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31096;'Le soleil se couche tard en été.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31097;'Mon père répare la voiture.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31098;'La neige tombe en hiver.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31099;'Les fleurs poussent au printemps.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31100;'Le chien aboie fort.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31101;'Comment t'appelles-tu ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31102;'Que fais-tu ce soir ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31103;'Pourquoi pleures-tu ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31104;'Quand pars-tu en vacances ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31105;'As-tu fini tes devoirs ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31106;'Veux-tu jouer avec moi ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31107;'Qui a cassé ce vase ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31108;'Combien de frères as-tu ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31109;'Est-ce que tu viens ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31110;'Sais-tu nager ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31111;'Peux-tu m'aider ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31112;'Où est mon cartable ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31113;'Que cette histoire est drôle !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31114;'Comme il fait froid !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31115;'Quel beau paysage !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31116;'Que tu es grand !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31117;'Comme c'est amusant !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31118;'Quelle chance nous avons !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31119;'Comme cette musique est jolie !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31120;'Quel dommage !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31121;'Comme cette forêt est immense !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31122;'Que ce chien est mignon !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31123;'Quelle belle journée !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31124;'Comme tu cours vite !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31125;'Quel magnifique tableau !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31126;'Mange tes légumes.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
+31127;'Viens ici.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
+31128;'Fais tes devoirs.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
+31129;'Écoute la maîtresse.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
+31130;'Range tes affaires.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
+31131;'Prends ton manteau.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
+31132;'Attends-moi.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
+31133;'Regarde ce paysage.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
+31134;'Donne-moi ce livre.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
+31135;'Assieds-toi.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
+31136;'Lève-toi.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
+31137;'Parle plus fort.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
+31138;'Marche plus vite.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
+31139;Quel pronom peut remplacer 'Karim' ?;il;elle;ils;elles
+31140;Quel pronom peut remplacer 'Noah' ?;il;elle;ils;elles
+31141;Quel pronom peut remplacer 'Adam' ?;il;elle;ils;elles
+31142;Quel pronom peut remplacer 'Louis' ?;il;elle;ils;elles
+31143;Quel pronom peut remplacer 'Gabriel' ?;il;elle;ils;elles
+31144;Quel pronom peut remplacer 'Nathan' ?;il;elle;ils;elles
+31145;Quel pronom peut remplacer 'Enzo' ?;il;elle;ils;elles
+31146;Quel pronom peut remplacer 'Mathis' ?;il;elle;ils;elles
+31147;Quel pronom peut remplacer 'Ethan' ?;il;elle;ils;elles
+31148;Quel pronom peut remplacer 'Raphaël' ?;il;elle;ils;elles
+31149;Quel pronom peut remplacer 'le renard' ?;il;elle;ils;elles
+31150;Quel pronom peut remplacer 'le lapin' ?;il;elle;ils;elles
+31151;Quel pronom peut remplacer 'le cheval' ?;il;elle;ils;elles
+31152;Quel pronom peut remplacer 'le mouton' ?;il;elle;ils;elles
+31153;Quel pronom peut remplacer 'le canard' ?;il;elle;ils;elles
+31154;Quel pronom peut remplacer 'le dauphin' ?;il;elle;ils;elles
+31155;Quel pronom peut remplacer 'le tigre' ?;il;elle;ils;elles
+31156;Quel pronom peut remplacer 'le lion' ?;il;elle;ils;elles
+31157;Quel pronom peut remplacer 'le singe' ?;il;elle;ils;elles
+31158;Quel pronom peut remplacer 'le poisson' ?;il;elle;ils;elles
+31159;Quel pronom peut remplacer 'le loup' ?;il;elle;ils;elles
+31160;Quel pronom peut remplacer 'Emma' ?;elle;il;ils;elles
+31161;Quel pronom peut remplacer 'Camille' ?;elle;il;ils;elles
+31162;Quel pronom peut remplacer 'Manon' ?;elle;il;ils;elles
+31163;Quel pronom peut remplacer 'Louise' ?;elle;il;ils;elles
+31164;Quel pronom peut remplacer 'Alice' ?;elle;il;ils;elles
+31165;Quel pronom peut remplacer 'Inès' ?;elle;il;ils;elles
+31166;Quel pronom peut remplacer 'Léa' ?;elle;il;ils;elles
+31167;Quel pronom peut remplacer 'Julia' ?;elle;il;ils;elles
+31168;Quel pronom peut remplacer 'Rose' ?;elle;il;ils;elles
+31169;Quel pronom peut remplacer 'Anna' ?;elle;il;ils;elles
+31170;Quel pronom peut remplacer 'la biche' ?;elle;il;ils;elles
+31171;Quel pronom peut remplacer 'la chèvre' ?;elle;il;ils;elles
+31172;Quel pronom peut remplacer 'la vache' ?;elle;il;ils;elles
+31173;Quel pronom peut remplacer 'la jument' ?;elle;il;ils;elles
+31174;Quel pronom peut remplacer 'la poule' ?;elle;il;ils;elles
+31175;Quel pronom peut remplacer 'la tortue' ?;elle;il;ils;elles
+31176;Quel pronom peut remplacer 'la baleine' ?;elle;il;ils;elles
+31177;Quel pronom peut remplacer 'la fourmi' ?;elle;il;ils;elles
+31178;Quel pronom peut remplacer 'la coccinelle' ?;elle;il;ils;elles
+31179;Quel pronom peut remplacer 'la libellule' ?;elle;il;ils;elles
+31180;Quel pronom peut remplacer 'Paul et Tom' ?;ils;il;elle;elles
+31181;Quel pronom peut remplacer 'Léo et Hugo' ?;ils;il;elle;elles
+31182;Quel pronom peut remplacer 'Sami et Karim' ?;ils;il;elle;elles
+31183;Quel pronom peut remplacer 'Noah et Adam' ?;ils;il;elle;elles
+31184;Quel pronom peut remplacer 'Louis et Gabriel' ?;ils;il;elle;elles
+31185;Quel pronom peut remplacer 'Nathan et Enzo' ?;ils;il;elle;elles
+31186;Quel pronom peut remplacer 'Mathis et Ethan' ?;ils;il;elle;elles
+31187;Quel pronom peut remplacer 'Marie et Lea' ?;elles;il;elle;ils
+31188;Quel pronom peut remplacer 'Zoé et Nina' ?;elles;il;elle;ils
+31189;Quel pronom peut remplacer 'Chloé et Emma' ?;elles;il;elle;ils
+31190;Quel pronom peut remplacer 'Camille et Manon' ?;elles;il;elle;ils
+31191;Quel pronom peut remplacer 'Louise et Alice' ?;elles;il;elle;ils
+31192;Quel pronom peut remplacer 'Inès et Léa' ?;elles;il;elle;ils
+31193;Quel pronom peut remplacer 'Julia et Rose' ?;elles;il;elle;ils
+31194;Quel pronom peut remplacer 'Paul et Marie' ?;ils;elles;il;elle
+31195;Quel pronom peut remplacer 'Léo et Zoé' ?;ils;elles;il;elle
+31196;Quel pronom peut remplacer 'Sami et Chloé' ?;ils;elles;il;elle
+31197;Quel pronom peut remplacer 'Noah et Camille' ?;ils;elles;il;elle
+31198;Quel pronom peut remplacer 'Louis et Louise' ?;ils;elles;il;elle
+31199;Quel pronom peut remplacer 'Nathan et Inès' ?;ils;elles;il;elle
+31200;Quel pronom peut remplacer 'Mathis et Julia' ?;ils;elles;il;elle
+31201;Quel pronom peut remplacer 'mon frère et moi' ?;nous;vous;ils;elles
+31202;Quel pronom peut remplacer 'ma soeur et moi' ?;nous;vous;ils;elles
+31203;Quel pronom peut remplacer 'mes parents et moi' ?;nous;vous;ils;elles
+31204;Quel pronom peut remplacer 'mes amis et moi' ?;nous;vous;ils;elles
+31205;Quel pronom peut remplacer 'toi et ton frère' ?;vous;nous;ils;elles
+31206;Quel pronom peut remplacer 'toi et ta soeur' ?;vous;nous;ils;elles
+31207;Quel pronom peut remplacer 'toi et tes amis' ?;vous;nous;ils;elles
+31208;Dans la phrase 'Le renard court dans la forêt.', quel est le sujet du verbe ?;Le renard;l'adjectif;le verbe;le complément
+31209;Dans la phrase 'La biche broute l'herbe.', quel est le sujet du verbe ?;La biche;l'adjectif;le verbe;le complément
+31210;Dans la phrase 'Les lapins creusent un terrier.', quel est le sujet du verbe ?;Les lapins;l'adjectif;le verbe;le complément
+31211;Dans la phrase 'Mon cousin répare son vélo.', quel est le sujet du verbe ?;Mon cousin;l'adjectif;le verbe;le complément
+31212;Dans la phrase 'Ma cousine lit un magazine.', quel est le sujet du verbe ?;Ma cousine;l'adjectif;le verbe;le complément
+31213;Dans la phrase 'Les pêcheurs attrapent des poissons.', quel est le sujet du verbe ?;Les pêcheurs;l'adjectif;le verbe;le complément
+31214;Dans la phrase 'Le boulanger vend des croissants.', quel est le sujet du verbe ?;Le boulanger;l'adjectif;le verbe;le complément
+31215;Dans la phrase 'La fleuriste vend des bouquets.', quel est le sujet du verbe ?;La fleuriste;l'adjectif;le verbe;le complément
+31216;Dans la phrase 'Les tortues nagent lentement.', quel est le sujet du verbe ?;Les tortues;l'adjectif;le verbe;le complément
+31217;Dans la phrase 'Le dauphin saute hors de l'eau.', quel est le sujet du verbe ?;Le dauphin;l'adjectif;le verbe;le complément
+31218;Dans la phrase 'Les fourmis transportent des graines.', quel est le sujet du verbe ?;Les fourmis;l'adjectif;le verbe;le complément
+31219;Dans la phrase 'La coccinelle vole de fleur en fleur.', quel est le sujet du verbe ?;La coccinelle;l'adjectif;le verbe;le complément
+31220;Dans la phrase 'Le loup hurle la nuit.', quel est le sujet du verbe ?;Le loup;l'adjectif;le verbe;le complément
+31221;Dans la phrase 'Les moutons paissent dans le pré.', quel est le sujet du verbe ?;Les moutons;l'adjectif;le verbe;le complément
+31222;Dans la phrase 'La chèvre broute aussi l'herbe.', quel est le sujet du verbe ?;La chèvre;l'adjectif;le verbe;le complément
+31223;Dans la phrase 'Le berger garde le troupeau.', quel est le sujet du verbe ?;Le berger;l'adjectif;le verbe;le complément
+31224;Dans la phrase 'La libellule vole doucement.', quel est le sujet du verbe ?;La libellule;l'adjectif;le verbe;le complément
+31225;Dans la phrase 'Le hérisson se cache sous les feuilles.', quel est le sujet du verbe ?;Le hérisson;l'adjectif;le verbe;le complément
+31226;Dans la phrase 'Les papillons volent au-dessus du jardin.', quel est le sujet du verbe ?;Les papillons;l'adjectif;le verbe;le complément
+31227;Dans la phrase 'Le jardinier plante des légumes.', quel est le sujet du verbe ?;Le jardinier;l'adjectif;le verbe;le complément
+31228;Dans la phrase 'La cuisinière prépare le dîner.', quel est le sujet du verbe ?;La cuisinière;l'adjectif;le verbe;le complément
+31229;Dans la phrase 'Les musiciens jouent une mélodie.', quel est le sujet du verbe ?;Les musiciens;l'adjectif;le verbe;le complément
+31230;Dans la phrase 'Le peintre peint un tableau.', quel est le sujet du verbe ?;Le peintre;l'adjectif;le verbe;le complément
+31231;Dans la phrase 'La danseuse danse sur scène.', quel est le sujet du verbe ?;La danseuse;l'adjectif;le verbe;le complément
+31232;Dans la phrase 'Les chanteurs chantent en choeur.', quel est le sujet du verbe ?;Les chanteurs;l'adjectif;le verbe;le complément
+31233;Dans la phrase 'Le sportif court le marathon.', quel est le sujet du verbe ?;Le sportif;l'adjectif;le verbe;le complément
+31234;Dans la phrase 'La nageuse nage dans la piscine.', quel est le sujet du verbe ?;La nageuse;l'adjectif;le verbe;le complément
+31235;Dans la phrase 'Les cyclistes roulent vite.', quel est le sujet du verbe ?;Les cyclistes;l'adjectif;le verbe;le complément
+31236;Dans la phrase 'Le coureur gagne la course.', quel est le sujet du verbe ?;Le coureur;l'adjectif;le verbe;le complément
+31237;Les poissons ___ dans la rivière.;nagent;nagez;nage;nageons
+31238;Le fermier ___ les légumes.;récolte;récoltons;récoltez;récoltes
+31239;Chaque jour, les élèves ___.;écoutent;écoutons;écoute;écoutez
+31240;Ma tante ___ un bon repas.;cuisine;cuisinez;cuisinent;cuisinons
+31241;Aujourd'hui, nous ___.;rangeons;range;ranges;rangent
+31242;En ce moment, vous ___.;chantez;chantons;chante;chantes
+31243;En ce moment, tu ___.;danses;dansons;dansent;danse
+31244;En ce moment, je ___.;joue;jouons;jouez;joues
+31245;En ce moment, il ___.;ferme;ferment;fermons;fermez
+31246;Chaque jour, elle ___.;ouvre;ouvrent;ouvres;ouvrez
+31247;Les oiseaux ___ dans le ciel.;volent;voles;volez;volons
+31248;Le peintre ___ un paysage.;dessine;dessines;dessinent;dessinons
+31249;Les musiciens ___ de la musique.;jouent;joues;joue;jouons
+31250;La danseuse ___ sur elle-même.;tourne;tournent;tournes;tournez
+31251;D'habitude, nous ___.;observons;observes;observez;observe
+31252;Aujourd'hui, vous ___.;calculez;calculent;calculons;calcules
+31253;Aujourd'hui, tu ___.;mesures;mesurons;mesurent;mesurez
+31254;Aujourd'hui, je ___.;prépare;préparent;préparons;préparez
+31255;Aujourd'hui, il ___.;range;ranges;rangeons;rangez
+31256;En ce moment, elle ___.;décore;décorons;décorent;décores
+31257;Chaque jour, les enfants ___.;plantent;plantons;plantez;plantes
+31258;Le jardinier ___ les fleurs.;arrose;arroses;arrosons;arrosez
+31259;Les abeilles ___ les fleurs du jardin.;butinent;butinez;butinons;butine
+31260;Chaque jour, ma soeur ___.;dessine;dessinons;dessines;dessinent
+31261;Chaque jour, mon frère ___.;construit;construisez;construisons;construis
+31262;Maintenant, nous ___.;voyageons;voyages;voyagez;voyagent
+31263;D'habitude, vous ___.;visitez;visites;visitons;visitent
+31264;D'habitude, tu ___.;observes;observez;observe;observons
+31265;D'habitude, je ___.;note;notez;notons;notent
+31266;D'habitude, il ___.;teste;testons;testent;testez
+31267;'Les moutons paissent dans le pré.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31268;'Le loup hurle la nuit.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31269;'Les canards nagent dans la piscine.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31270;'Les papillons volent au-dessus du jardin.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31271;'Ma cousine broute aussi l'herbe.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31272;'Les athlètes gagnent la course.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31273;'Le chat mange la souris.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31274;'La libellule vole doucement.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31275;'Les tortues broute l'herbe.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31276;'Les abeilles butinent les fleurs.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31277;'Les fourmis chantent le matin.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31278;'Le peintre peint un tableau.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31279;'La fleuriste vend des bouquets.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31280;'Les souris se cachent sous les feuilles.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31281;'La voiture roule vite.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31282;'Le berger répare son vélo.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31283;'Les enfants courent dans la forêt.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31284;'Le coureur court le marathon.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31285;'Le boulanger vend des croissants.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31286;'Les papillons jouent dans le jardin.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31287;'Les lapins creusent un terrier.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31288;'Les pêcheurs attrapent des poissons.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31289;'Les musiciens nagent lentement.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31290;'Le peintre prépare le repas.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31291;'Les fourmis transportent des graines.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31292;'Les chanteurs préparent le dîner.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31293;'Le papillon vole de fleur en fleur.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31294;'Le jardinier plante des légumes.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31295;'Les danseurs dansent sur scène.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31296;'Le coureur souffle fort.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31297;'Les enfants chantent en choeur.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31298;'Les enfants lisent un magazine.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31299;'Ma mère joue une mélodie.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31300;'Le berger garde le troupeau.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31301;'Le vent saute hors de l'eau.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31302;'Est-ce que le renard court dans la forêt ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31303;'Est-ce que la biche broute l'herbe ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31304;'Est-ce que les lapins creusent un terrier ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31305;'Est-ce que mon cousin répare son vélo ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31306;'Est-ce que ma cousine lit un magazine ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31307;'Est-ce que les pêcheurs attrapent des poissons ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31308;'Est-ce que le boulanger vend des croissants ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31309;'Est-ce que la fleuriste vend des bouquets ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31310;'Est-ce que les tortues nagent lentement ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31311;'Est-ce que le dauphin saute hors de l'eau ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31312;'Est-ce que les fourmis transportent des graines ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31313;'Est-ce que la coccinelle vole de fleur en fleur ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31314;'Est-ce que le loup hurle la nuit ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31315;'Est-ce que les moutons paissent dans le pré ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31316;'Est-ce que la chèvre broute aussi l'herbe ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31317;'Est-ce que le berger garde le troupeau ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31318;'Est-ce que les abeilles butinent les fleurs ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31319;'Est-ce que la libellule vole doucement ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31320;'Est-ce que le hérisson se cache sous les feuilles ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31321;'Est-ce que les papillons volent au-dessus du jardin ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31322;'Est-ce que le jardinier plante des légumes ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31323;'Est-ce que la cuisinière prépare le dîner ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31324;'Est-ce que les musiciens jouent une mélodie ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31325;'Est-ce que le peintre peint un tableau ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31326;'Est-ce que la danseuse danse sur scène ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31327;'Comme c'est beau !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31328;'Comme c'est drôle !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31329;'Comme c'est étonnant !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31330;'Comme c'est incroyable !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31331;'Comme c'est magnifique !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31332;'Comme c'est fantastique !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31333;'Comme c'est génial !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31334;'Comme c'est formidable !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31335;'Comme c'est surprenant !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31336;'Comme c'est joli !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31337;'Comme c'est impressionnant !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31338;'Comme c'est émouvant !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31339;'Comme c'est spectaculaire !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31340;'Comme c'est merveilleux !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31341;'Comme c'est charmant !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31342;'Comme c'est passionnant !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31343;'Comme c'est extraordinaire !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31344;'Comme c'est captivant !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31345;'Comme c'est réjouissant !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31346;'Ferme la porte.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
+31347;'Chante les yeux.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
+31348;'Danse une chanson.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
+31349;'Écoute avec moi.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
+31350;'Regarde la maîtresse.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
+31351;'Prépare ce paysage.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
+31352;'Décore le dîner.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
+31353;'Plante le sapin.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
+31354;'Arrose des fleurs.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
+31355;'Observe le jardin.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
+31356;'Note les étoiles.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
+31357;'Calcule ce chiffre.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
+31358;'Imagine cette histoire.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
+31359;'Dessine ce dessin.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
+31360;'Lave les mains.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
+31361;'Brosse les dents.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
+31362;'Aide ton petit frère.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
+31363;'Partage ta chambre.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
+31364;Quel pronom peut remplacer 'le livre' ?;il;elle;ils;elles
+31365;Quel pronom peut remplacer 'le stylo' ?;il;elle;ils;elles
+31366;Quel pronom peut remplacer 'le cahier' ?;il;elle;ils;elles
+31367;Quel pronom peut remplacer 'le tableau' ?;il;elle;ils;elles
+31368;Quel pronom peut remplacer 'le miroir' ?;il;elle;ils;elles
+31369;Quel pronom peut remplacer 'le parapluie' ?;il;elle;ils;elles
+31370;Quel pronom peut remplacer 'le bateau' ?;il;elle;ils;elles
+31371;Quel pronom peut remplacer 'le nuage' ?;il;elle;ils;elles
+31372;Quel pronom peut remplacer 'le fromage' ?;il;elle;ils;elles
+31373;Quel pronom peut remplacer 'le gâteau' ?;il;elle;ils;elles
+31374;Quel pronom peut remplacer 'le sac' ?;il;elle;ils;elles
+31375;Quel pronom peut remplacer 'le journal' ?;il;elle;ils;elles
+31376;Quel pronom peut remplacer 'le drapeau' ?;il;elle;ils;elles
+31377;Quel pronom peut remplacer 'le violon' ?;il;elle;ils;elles
+31378;Quel pronom peut remplacer 'le tambour' ?;il;elle;ils;elles
+31379;Quel pronom peut remplacer 'la table' ?;elle;il;ils;elles
+31380;Quel pronom peut remplacer 'la lampe' ?;elle;il;ils;elles
+31381;Quel pronom peut remplacer 'la fenêtre' ?;elle;il;ils;elles
+31382;Quel pronom peut remplacer 'la porte' ?;elle;il;ils;elles
+31383;Quel pronom peut remplacer 'la chaise' ?;elle;il;ils;elles
+31384;Quel pronom peut remplacer 'la bicyclette' ?;elle;il;ils;elles
+31385;Quel pronom peut remplacer 'la trottinette' ?;elle;il;ils;elles
+31386;Quel pronom peut remplacer 'la clé' ?;elle;il;ils;elles
+31387;Quel pronom peut remplacer 'la montre' ?;elle;il;ils;elles
+31388;Quel pronom peut remplacer 'la horloge' ?;elle;il;ils;elles
+31389;Quel pronom peut remplacer 'la boîte' ?;elle;il;ils;elles
+31390;Quel pronom peut remplacer 'la lettre' ?;elle;il;ils;elles
+31391;Quel pronom peut remplacer 'la carte' ?;elle;il;ils;elles
+31392;Quel pronom peut remplacer 'la photo' ?;elle;il;ils;elles
+31393;Quel pronom peut remplacer 'la valise' ?;elle;il;ils;elles
+31394;Quel pronom peut remplacer 'les livres' ?;ils;il;elle;elles
+31395;Quel pronom peut remplacer 'les stylos' ?;ils;il;elle;elles
+31396;Quel pronom peut remplacer 'les cahiers' ?;ils;il;elle;elles
+31397;Quel pronom peut remplacer 'les tableaux' ?;ils;il;elle;elles
+31398;Quel pronom peut remplacer 'les miroirs' ?;ils;il;elle;elles
+31399;Quel pronom peut remplacer 'les tables' ?;elles;il;elle;ils
+31400;Quel pronom peut remplacer 'les lampes' ?;elles;il;elle;ils
+31401;Quel pronom peut remplacer 'les fenêtres' ?;elles;il;elle;ils
+31402;Quel pronom peut remplacer 'les portes' ?;elles;il;elle;ils
+31403;Quel pronom peut remplacer 'les chaises' ?;elles;il;elle;ils
+31404;Les chats ___ leur repas.;finissent;finis;finissez;finissons
+31405;Le bébé ___ vite.;grandit;grandis;grandissez;grandissent
+31406;Les fleurs ___ au printemps.;fleurissent;fleuris;fleurissons;fleurit
+31407;Souvent, nous ___.;choisissons;choisissent;choisissez;choisit
+31408;Maintenant, vous ___.;réussissez;réussit;réussis;réussissons
+31409;Maintenant, tu ___.;obéis;obéit;obéissent;obéissons
+31410;Maintenant, j'___.;agis;agissez;agit;agissent
+31411;Maintenant, il ___.;rougit;rougissons;rougissent;rougis
+31412;Aujourd'hui, elle ___.;pâlit;pâlissons;pâlissent;pâlissez
+31413;En ce moment, les élèves ___.;réfléchissent;réfléchis;réfléchit;réfléchissons
+31414;Le chien ___ très fidèle.;est;sont;es;sommes
+31415;En ce moment, les enfants ___.;sont;suis;es;sommes
+31416;Souvent, je ___.;suis;es;sommes;est
+31417;Souvent, tu ___.;es;sont;est;suis
+31418;Parfois, nous ___.;avons;ont;as;a
+31419;Souvent, vous ___.;avez;ai;a;as
+31420;Souvent, il ___.;a;ont;avez;avons
+31421;Chaque jour, elles ___.;ont;avons;as;avez
+31422;Le pêcheur ___ un gros poisson.;attrape;attrapent;attrapez;attrapons
+31423;Les cyclistes ___ sur la piste.;roulent;roules;roulez;roulons
+31424;La pluie ___ sans arrêt.;tombe;tombez;tombent;tombons
+31425;Mon oncle ___ à l'usine.;travaille;travaillent;travaillez;travaillons
+31426;Mes tantes ___ pour la fête.;cuisinent;cuisine;cuisinez;cuisinons
+31427;Le vent ___ fort.;souffle;soufflons;souffles;soufflez
+31428;Les vagues ___ sur la plage.;déferlent;déferlons;déferlez;déferle
+31429;'Où vas-tu ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31430;'Quand arrives-tu ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31431;'Pourquoi ris-tu ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31432;'Comment fais-tu cela ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31433;'Qui est venu ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31434;'Que manges-tu ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31435;'Combien coûte ce jouet ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31436;'Quel jour sommes-nous ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31437;'As-tu vu mon chat ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31438;'Peux-tu m'expliquer ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31439;'Veux-tu venir avec nous ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31440;'Sais-tu où est mon sac ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31441;'Est-ce que tu as faim ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31442;'Est-ce qu'il pleut dehors ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31443;'Aimerais-tu un dessert ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31444;'Quel magnifique coucher de soleil !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31445;'Quelle drôle d'histoire !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31446;'Quel bel oiseau !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31447;'Quelle bonne idée !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31448;'Quelle grande maison !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31449;'Quel curieux animal !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31450;'Que la mer est calme !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31451;'Que le ciel est bleu !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31452;'Que cette musique est douce !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31453;'Va te laver les mains.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
+31454;'Viens vite ici.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
+31455;'Prends ton parapluie.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
+31456;'Sois sage.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
+31457;'Aie confiance.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
+31458;'Reste calme.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
+31459;'Pars maintenant.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
+31460;Quel pronom peut remplacer 'Jules' ?;il;nous;elle;elles
+31461;Quel pronom peut remplacer 'les mouettes' ?;elles;il;ils;elle
+31462;Quel pronom peut remplacer 'le cactus' ?;il;nous;ils;vous
+31463;Quel pronom peut remplacer 'l'échelle' ?;elle;nous;elles;ils
+31464;Quel pronom peut remplacer 'les chouettes' ?;elles;elle;ils;nous
+31465;Quel pronom peut remplacer 'Clément' ?;il;elle;elles;vous
+31466;Quel pronom peut remplacer 'le moulin' ?;il;elle;nous;vous
+31467;Quel pronom peut remplacer 'le crabe' ?;il;elle;nous;vous
+31468;Quel pronom peut remplacer 'Yasmine' ?;elle;vous;elles;nous
+31469;Quel pronom peut remplacer 'les sirènes' ?;elles;vous;nous;ils
+31470;Quel pronom peut remplacer 'les actrices' ?;elles;vous;ils;nous
+31471;Quel pronom peut remplacer 'la charrette' ?;elle;elles;il;vous
+31472;Quel pronom peut remplacer 'le paon' ?;il;elles;ils;vous
+31473;Quel pronom peut remplacer 'le homard' ?;il;nous;ils;elle
+31474;Quel pronom peut remplacer 'la brouette' ?;elle;ils;elles;vous
+31475;Quel pronom peut remplacer 'les mésanges' ?;elles;nous;il;elle
+31476;Quel pronom peut remplacer 'Axel' ?;il;ils;elle;nous
+31477;Quel pronom peut remplacer 'les pieuvres' ?;elles;il;vous;elle
+31478;Quel pronom peut remplacer 'Nolan' ?;il;elle;vous;nous
+31479;Quel pronom peut remplacer 'les corbeaux' ?;ils;elle;il;nous
+31480;Quel pronom peut remplacer 'les infirmières' ?;elles;vous;nous;ils
+31481;Quel pronom peut remplacer 'le concombre' ?;il;ils;elles;nous
+31482;Quel pronom peut remplacer 'la meunière' ?;elle;ils;vous;nous
+31483;Quel pronom peut remplacer 'la corneille' ?;elle;vous;elles;ils
+31484;Quel pronom peut remplacer 'la bergère' ?;elle;elles;nous;ils
+31485;Quel pronom peut remplacer 'les méduses' ?;elles;il;elle;nous
+31486;Quel pronom peut remplacer 'le classeur' ?;il;elle;nous;vous
+31487;Quel pronom peut remplacer 'Naomi' ?;elle;elles;ils;nous
+31488;Quel pronom peut remplacer 'Milo' ?;il;vous;ils;nous
+31489;Quel pronom peut remplacer 'le scorpion' ?;il;vous;elles;elle
+31490;Quel pronom peut remplacer 'l'avocate' ?;elle;vous;nous;il
+31491;Quel pronom peut remplacer 'le fantôme' ?;il;elle;elles;ils
+31492;Quel pronom peut remplacer 'les ponts' ?;ils;nous;elle;elles
+31493;Quel pronom peut remplacer 'la dentiste' ?;elle;nous;elles;ils
+31494;Quel pronom peut remplacer 'la mouette' ?;elle;vous;ils;il
+31495;Quel pronom peut remplacer 'le phare' ?;il;elles;nous;elle
+31496;Quel pronom peut remplacer 'les échelles' ?;elles;ils;vous;elle
+31497;Quel pronom peut remplacer 'l'anémone' ?;elle;elles;il;nous
+31498;Quel pronom peut remplacer 'les marins' ?;ils;nous;elle;vous
+31499;Quel pronom peut remplacer 'Sacha' ?;il;elles;vous;elle
+31500;Quel pronom peut remplacer 'les planètes' ?;elles;elle;vous;nous
+31501;Quel pronom peut remplacer 'les cygnes' ?;ils;vous;elle;nous
+31502;Quel pronom peut remplacer 'le château' ?;il;elle;nous;vous
+31503;Quel pronom peut remplacer 'les perroquets' ?;ils;elles;vous;elle
+31504;Quel pronom peut remplacer 'l'avion' ?;il;ils;nous;vous
+31505;Quel pronom peut remplacer 'la buse' ?;elle;ils;elles;nous
+31506;Quel pronom peut remplacer 'Mila' ?;elle;il;nous;elles
+31507;Quel pronom peut remplacer 'le corbeau' ?;il;nous;vous;elles
+31508;Quel pronom peut remplacer 'les scooters' ?;ils;elles;elle;nous
+31509;Quel pronom peut remplacer 'le marin' ?;il;vous;elle;nous
+31510;Quel pronom peut remplacer 'les sapins' ?;ils;il;elle;nous
+31511;Quel pronom peut remplacer 'les chevaliers' ?;ils;vous;nous;elles
+31512;Quel pronom peut remplacer 'les rochers' ?;ils;nous;elles;vous
+31513;Quel pronom peut remplacer 'les gymnastes' ?;elles;ils;elle;nous
+31514;Quel pronom peut remplacer 'les salamandres' ?;elles;vous;elle;ils
+31515;Quel pronom peut remplacer 'Nora' ?;elle;il;elles;vous
+31516;Quel pronom peut remplacer 'le menuisier' ?;il;vous;ils;nous
+31517;Quel pronom peut remplacer 'toi et Sacha' ?;vous;elle;nous;il
+31518;Quel pronom peut remplacer 'la chenille' ?;elle;il;elles;ils
+31519;Quel pronom peut remplacer 'le cuisinier' ?;il;elles;ils;elle
+31520;Quel pronom peut remplacer 'la fermière' ?;elle;vous;elles;ils
+31521;Quel pronom peut remplacer 'l'infirmière' ?;elle;ils;il;vous
+31522;Quel pronom peut remplacer 'les journalistes' ?;elles;elle;ils;vous
+31523;Quel pronom peut remplacer 'l'algue' ?;elle;il;vous;ils
+31524;Quel pronom peut remplacer 'Evan' ?;il;elle;nous;vous
+31525;Quel pronom peut remplacer 'mes oncles' ?;ils;il;vous;elle
+31526;Quel pronom peut remplacer 'les taxis' ?;ils;elles;il;nous
+31527;Quel pronom peut remplacer 'la balançoire' ?;elle;vous;nous;elles
+31528;Quel pronom peut remplacer 'le robot' ?;il;nous;elle;vous
+31529;Quel pronom peut remplacer 'les tracteurs' ?;ils;elle;il;elles
+31530;Quel pronom peut remplacer 'les bouchers' ?;ils;il;nous;vous
+31531;Quel pronom peut remplacer 'le taxi' ?;il;elles;vous;nous
+31532;Quel pronom peut remplacer 'l'alouette' ?;elle;ils;elles;nous
+31533;Quel pronom peut remplacer 'la truite' ?;elle;vous;nous;ils
+31534;Quel pronom peut remplacer 'Agathe' ?;elle;vous;ils;elles
+31535;Quel pronom peut remplacer 'le morse' ?;il;nous;vous;ils
+31536;Quel pronom peut remplacer 'Océane' ?;elle;elles;nous;il
+31537;Quel pronom peut remplacer 'Salomé' ?;elle;nous;ils;il
+31538;Quel pronom peut remplacer 'les fermières' ?;elles;il;ils;elle
+31539;Quel pronom peut remplacer 'la comète' ?;elle;vous;il;elles
+31540;Quel pronom peut remplacer 'les joueuses' ?;elles;il;elle;vous
+31541;Quel pronom peut remplacer 'le poivron' ?;il;elle;ils;vous
+31542;Quel pronom peut remplacer 'la cavalière' ?;elle;vous;ils;nous
+31543;Quel pronom peut remplacer 'le photographe' ?;il;elles;nous;elle
+31544;Quel pronom peut remplacer 'Aaron' ?;il;elles;vous;elle
+31545;Quel pronom peut remplacer 'les hérissons' ?;ils;elle;elles;nous
+31546;Quel pronom peut remplacer 'Anaïs' ?;elle;vous;elles;nous
+31547;Quel pronom peut remplacer 'Timéo et Jade' ?;ils;il;vous;nous
+31548;Quel pronom peut remplacer 'le pâtissier' ?;il;vous;elle;elles
+31549;Quel pronom peut remplacer 'Romy' ?;elle;elles;nous;vous
+31550;Quel pronom peut remplacer 'la boulangère' ?;elle;nous;il;ils
+31551;Quel pronom peut remplacer 'les bergers' ?;ils;vous;nous;il
+31552;Quel pronom peut remplacer 'Capucine' ?;elle;elles;ils;nous
+31553;Quel pronom peut remplacer 'le paysan' ?;il;elle;nous;ils
+31554;Quel pronom peut remplacer 'mes voisines' ?;elles;vous;nous;il
+31555;Quel pronom peut remplacer 'les châteaux' ?;ils;il;elle;vous
+31556;Quel pronom peut remplacer 'Antoine' ?;il;ils;vous;elles
+31557;Quel pronom peut remplacer 'les cuisiniers' ?;ils;il;vous;elles
+31558;Quel pronom peut remplacer 'Margaux' ?;elle;ils;il;vous
+31559;Quel pronom peut remplacer 'le sapin' ?;il;vous;elle;ils
+31560;Quel pronom peut remplacer 'les chenilles' ?;elles;nous;ils;vous
+31561;Quel pronom peut remplacer 'le musicien' ?;il;vous;ils;nous
+31562;Quel pronom peut remplacer 'la galaxie' ?;elle;ils;il;elles
+31563;Quel pronom peut remplacer 'le phoque' ?;il;elles;ils;nous
+31564;Quel pronom peut remplacer 'les magiciens' ?;ils;il;elles;nous
+31565;Quel pronom peut remplacer 'Malo' ?;il;elles;elle;vous
+31566;Quel pronom peut remplacer 'les balançoires' ?;elles;elle;ils;nous
+31567;Quel pronom peut remplacer 'la pie' ?;elle;ils;il;elles
+31568;Quel pronom peut remplacer 'le sous-marin' ?;il;nous;elle;elles
+31569;Quel pronom peut remplacer 'Alix' ?;elle;il;vous;nous
+31570;Quel pronom peut remplacer 'les sorcières' ?;elles;il;ils;nous
+31571;Quel pronom peut remplacer 'Mattéo' ?;il;vous;elles;ils
+31572;Quel pronom peut remplacer 'les sauterelles' ?;elles;il;ils;vous
+31573;Quel pronom peut remplacer 'la actrice' ?;elle;nous;il;vous
+31574;Quel pronom peut remplacer 'le chêne' ?;il;elles;nous;vous
+31575;Quel pronom peut remplacer 'le cartable' ?;il;nous;elles;vous
+31576;Quel pronom peut remplacer 'Romain' ?;il;vous;ils;elles
+31577;Quel pronom peut remplacer 'le boucher' ?;il;ils;elles;nous
+31578;Quel pronom peut remplacer 'les photographes' ?;ils;il;nous;elles
+31579;Quel pronom peut remplacer 'les alouettes' ?;elles;il;ils;elle
+31580;Quel pronom peut remplacer 'les pilotes' ?;ils;nous;elles;vous
+31581;Quel pronom peut remplacer 'les pâtissiers' ?;ils;elle;nous;il
+31582;Quel pronom peut remplacer 'Kylian' ?;il;elle;nous;ils
+31583;Quel pronom peut remplacer 'le tracteur' ?;il;ils;elles;vous
+31584;Quel pronom peut remplacer 'la coiffeuse' ?;elle;nous;vous;ils
+31585;Quel pronom peut remplacer 'la planète' ?;elle;il;ils;nous
+31586;Quel pronom peut remplacer 'les bergères' ?;elles;nous;vous;il
+31587;Quel pronom peut remplacer 'Elsa' ?;elle;ils;il;elles
+31588;Quel pronom peut remplacer 'Maxime' ?;il;elle;ils;nous
+31589;Quel pronom peut remplacer 'les brouettes' ?;elles;nous;il;ils
+31590;Quel pronom peut remplacer 'les flamants' ?;ils;vous;nous;elles
+31591;Quel pronom peut remplacer 'les paysans' ?;ils;il;elle;elles
+31592;Quel pronom peut remplacer 'le radis' ?;il;elles;elle;vous
+31593;Quel pronom peut remplacer 'Tao' ?;il;ils;vous;nous
+31594;Quel pronom peut remplacer 'le hérisson' ?;il;ils;nous;elles
+31595;Quel pronom peut remplacer 'les truites' ?;elles;ils;il;vous
+31596;Quel pronom peut remplacer 'les radis' ?;ils;elle;elles;il
+31597;Quel pronom peut remplacer 'le moineau' ?;il;ils;vous;nous
+31598;Quel pronom peut remplacer 'les caravanes' ?;elles;ils;elle;nous
+31599;Quel pronom peut remplacer 'le géant' ?;il;ils;elles;elle
+31600;Quel pronom peut remplacer 'les cigognes' ?;elles;il;ils;nous
+31601;Quel pronom peut remplacer 'la princesse' ?;elle;vous;elles;ils
+31602;Quel pronom peut remplacer 'la salamandre' ?;elle;nous;elles;ils
+31603;Quel pronom peut remplacer 'les cartables' ?;ils;nous;elle;vous
+31604;Quel pronom peut remplacer 'la limace' ?;elle;nous;elles;vous
+31605;Quel pronom peut remplacer 'la mésange' ?;elle;elles;vous;il
+31606;Quel pronom peut remplacer 'Iris' ?;elle;nous;elles;il
+31607;Quel pronom peut remplacer 'Yasmine et moi' ?;nous;ils;elle;vous
+31608;Quel pronom peut remplacer 'mes voisins' ?;ils;elles;vous;il
+31609;Quel pronom peut remplacer 'le chevalier' ?;il;ils;elle;elles
+31610;Quel pronom peut remplacer 'la remorque' ?;elle;vous;il;nous
+31611;Quel pronom peut remplacer 'Jade et Naomi' ?;elles;vous;elle;nous
+31612;Quel pronom peut remplacer 'Victor' ?;il;elles;nous;elle
+31613;Quel pronom peut remplacer 'toi et moi' ?;nous;vous;ils;il
+31614;Quel pronom peut remplacer 'les moulins' ?;ils;vous;elles;nous
+31615;Quel pronom peut remplacer 'Suzie' ?;elle;elles;nous;ils
+31616;Quel pronom peut remplacer 'la gymnaste' ?;elle;ils;elles;il
+31617;Quel pronom peut remplacer 'le champion' ?;il;elle;nous;vous
+31618;Quel pronom peut remplacer 'le sportif' ?;il;vous;nous;elles
+31619;Quel pronom peut remplacer 'le dragon' ?;il;vous;elle;ils
+31620;Quel pronom peut remplacer 'les crabes' ?;ils;elles;vous;il
+31621;Quel pronom peut remplacer 'la sorcière' ?;elle;vous;il;ils
+31622;Quel pronom peut remplacer 'l'hélicoptère' ?;il;nous;elles;vous
+31623;Quel pronom peut remplacer 'mes tantes' ?;elles;nous;vous;elle
+31624;Quel pronom peut remplacer 'le rossignol' ?;il;nous;ils;vous
+31625;Quel pronom peut remplacer 'les moineaux' ?;ils;il;elles;elle
+31626;Quel pronom peut remplacer 'le scooter' ?;il;vous;ils;elle
+31627;Quel pronom peut remplacer 'les pies' ?;elles;elle;il;ils
+31628;Quel pronom peut remplacer 'la coureuse' ?;elle;vous;elles;ils
+31629;Quel pronom peut remplacer 'Marius' ?;il;elle;vous;nous
+31630;Quel pronom peut remplacer 'Éléa' ?;elle;elles;nous;vous
+31631;Quel pronom peut remplacer 'le rocher' ?;il;vous;elles;elle
+31632;Quel pronom peut remplacer 'les princesses' ?;elles;il;ils;vous
+31633;Quel pronom peut remplacer 'la joueuse' ?;elle;elles;ils;vous
+31634;Quel pronom peut remplacer 'les musiciens' ?;ils;elle;vous;nous
+31635;Quel pronom peut remplacer 'les robots' ?;ils;elle;nous;il
+31636;Quel pronom peut remplacer 'Eliott' ?;il;nous;vous;elles
+31637;Quel pronom peut remplacer 'Diego' ?;il;elles;elle;nous
+31638;Quel pronom peut remplacer 'la journaliste' ?;elle;ils;nous;vous
+31639;Quel pronom peut remplacer 'le pont' ?;il;elles;vous;ils
+31640;Quel pronom peut remplacer 'la fée' ?;elle;vous;ils;nous
+31641;Quel pronom peut remplacer 'les dragons' ?;ils;elle;nous;il
+31642;Quel pronom peut remplacer 'le sculpteur' ?;il;ils;elle;nous
+31643;Quel pronom peut remplacer 'le cygne' ?;il;ils;elle;vous
+31644;Quel pronom peut remplacer 'les phoques' ?;ils;vous;nous;elles
+31645;Quel pronom peut remplacer 'les avions' ?;ils;elles;nous;vous
+31646;Quel pronom peut remplacer 'Yanis' ?;il;elle;ils;nous
+31647;Quel pronom peut remplacer 'les clowns' ?;ils;elles;vous;il
+31648;Quel pronom peut remplacer 'les géants' ?;ils;elles;vous;nous
+31649;Quel pronom peut remplacer 'Timéo' ?;il;nous;elle;ils
+31650;Quel pronom peut remplacer 'Ilyes' ?;il;elle;elles;vous
+31651;Quel pronom peut remplacer 'Théa' ?;elle;ils;elles;il
+31652;Quel pronom peut remplacer 'le sentier' ?;il;elle;ils;nous
+31653;Quel pronom peut remplacer 'Fatou' ?;elle;nous;elles;vous
+31654;Quel pronom peut remplacer 'la reine' ?;elle;ils;elles;nous
+31655;Quel pronom peut remplacer 'le tournesol' ?;il;ils;vous;elle
+31656;Quel pronom peut remplacer 'le magicien' ?;il;elle;elles;nous
+31657;Quel pronom peut remplacer 'l'architecte' ?;elle;il;elles;ils
+31658;Quel pronom peut remplacer 'les grues' ?;elles;elle;nous;ils
+31659;Quel pronom peut remplacer 'les sportifs' ?;ils;elles;nous;vous
+31660;'Le champion lève la coupe.' est une phrase de quel type ?;déclarative;exclamative;interrogative;impérative
+31661;'Comme cette chanson est belle !' est une phrase de quel type ?;exclamative;impérative;déclarative;interrogative
+31662;'Comme cette soupe est chaude !' est une phrase de quel type ?;exclamative;interrogative;déclarative;impérative
+31663;'Éteins ton téléphone.' est une phrase de quel type ?;impérative;interrogative;déclarative;exclamative
+31664;'Les hérissons se cachent sous les feuilles.' est une phrase de quel type ?;déclarative;exclamative;interrogative;impérative
+31665;'Le dragon garde le trésor.' est une phrase de quel type ?;déclarative;exclamative;impérative;interrogative
+31666;'Mon cousin répare son vélo.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31667;'Comment s'appelle ta maîtresse ?' est une phrase de quel type ?;interrogative;exclamative;déclarative;impérative
+31668;'Le pâtissier décore le gâteau.' est une phrase de quel type ?;déclarative;impérative;exclamative;interrogative
+31669;'As-tu terminé ton dessin ?' est une phrase de quel type ?;interrogative;impérative;déclarative;exclamative
+31670;'Est-ce que vous partez demain ?' est une phrase de quel type ?;interrogative;impérative;déclarative;exclamative
+31671;'Combien pèse ce sac ?' est une phrase de quel type ?;interrogative;exclamative;impérative;déclarative
+31672;'Comme tu as changé !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31673;'Plie tes vêtements.' est une phrase de quel type ?;impérative;exclamative;déclarative;interrogative
+31674;'Sais-tu faire du vélo ?' est une phrase de quel type ?;interrogative;exclamative;impérative;déclarative
+31675;'La sorcière prépare une potion.' est une phrase de quel type ?;déclarative;exclamative;impérative;interrogative
+31676;'Écoute bien la consigne.' est une phrase de quel type ?;impérative;interrogative;déclarative;exclamative
+31677;'Éteins la télévision.' est une phrase de quel type ?;impérative;exclamative;interrogative;déclarative
+31678;'Ma tante peint un tableau.' est une phrase de quel type ?;déclarative;interrogative;impérative;exclamative
+31679;'Traverse au feu vert.' est une phrase de quel type ?;impérative;déclarative;exclamative;interrogative
+31680;'Où vas-tu ce week-end ?' est une phrase de quel type ?;interrogative;exclamative;impérative;déclarative
+31681;'Range tes crayons.' est une phrase de quel type ?;impérative;interrogative;déclarative;exclamative
+31682;'Les explorateurs traversent le désert.' est une phrase de quel type ?;déclarative;interrogative;impérative;exclamative
+31683;'Les sirènes chantent dans la mer.' est une phrase de quel type ?;déclarative;impérative;interrogative;exclamative
+31684;'Le pâtissier prépare des croissants.' est une phrase de quel type ?;déclarative;interrogative;impérative;exclamative
+31685;'Avance doucement.' est une phrase de quel type ?;impérative;interrogative;déclarative;exclamative
+31686;'Est-ce que le parc est fermé ?' est une phrase de quel type ?;interrogative;impérative;exclamative;déclarative
+31687;'Le berger guide son troupeau.' est une phrase de quel type ?;déclarative;interrogative;impérative;exclamative
+31688;'Respecte les règles.' est une phrase de quel type ?;impérative;exclamative;déclarative;interrogative
+31689;'Mange lentement.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
+31690;'Quelle excellente idée !' est une phrase de quel type ?;exclamative;impérative;interrogative;déclarative
+31691;'Ferme le robinet.' est une phrase de quel type ?;impérative;exclamative;déclarative;interrogative
+31692;'Le boucher coupe la viande.' est une phrase de quel type ?;déclarative;interrogative;impérative;exclamative
+31693;'Pourquoi le ciel devient-il rouge ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31694;'Quelle catastrophe !' est une phrase de quel type ?;exclamative;interrogative;impérative;déclarative
+31695;'Le chat grimpe sur l'arbre.' est une phrase de quel type ?;déclarative;impérative;exclamative;interrogative
+31696;'Quelle aventure formidable !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31697;'Ramasse tes jouets.' est une phrase de quel type ?;impérative;exclamative;interrogative;déclarative
+31698;'Les nuages annoncent la pluie.' est une phrase de quel type ?;déclarative;impérative;interrogative;exclamative
+31699;'Le prince libère la princesse.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31700;'Pourquoi cries-tu si fort ?' est une phrase de quel type ?;interrogative;impérative;déclarative;exclamative
+31701;'Quel vacarme incroyable !' est une phrase de quel type ?;exclamative;interrogative;impérative;déclarative
+31702;'Le facteur sonne à la porte.' est une phrase de quel type ?;déclarative;impérative;interrogative;exclamative
+31703;'Le professeur explique la leçon.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31704;'Qui a remporté le tournoi ?' est une phrase de quel type ?;interrogative;impérative;déclarative;exclamative
+31705;'Quelle drôle d'idée !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31706;'Le pompier éteint l'incendie.' est une phrase de quel type ?;déclarative;interrogative;impérative;exclamative
+31707;'Où se cache le chat ?' est une phrase de quel type ?;interrogative;déclarative;impérative;exclamative
+31708;'Attention à la marche !' est une phrase de quel type ?;exclamative;interrogative;déclarative;impérative
+31709;'Comme cette montagne est haute !' est une phrase de quel type ?;exclamative;déclarative;impérative;interrogative
+31710;'Est-ce que tu aimes les fraises ?' est une phrase de quel type ?;interrogative;déclarative;impérative;exclamative
+31711;'Les abeilles retournent à la ruche.' est une phrase de quel type ?;déclarative;impérative;interrogative;exclamative
+31712;'Quel silence extraordinaire !' est une phrase de quel type ?;exclamative;impérative;déclarative;interrogative
+31713;'Ouvre la porte.' est une phrase de quel type ?;impérative;exclamative;interrogative;déclarative
+31714;'La reine dirige son royaume.' est une phrase de quel type ?;déclarative;impérative;interrogative;exclamative
+31715;'Comme cette glace est délicieuse !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31716;'Attends ton tour.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
+31717;'Les moineaux picorent des graines.' est une phrase de quel type ?;déclarative;exclamative;impérative;interrogative
+31718;'Les phoques plongent dans l'eau glacée.' est une phrase de quel type ?;déclarative;impérative;exclamative;interrogative
+31719;'Le hibou chasse la nuit.' est une phrase de quel type ?;déclarative;interrogative;impérative;exclamative
+31720;'Quel joli chapeau !' est une phrase de quel type ?;exclamative;impérative;déclarative;interrogative
+31721;'Salue ta maîtresse.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
+31722;'Quand commence le spectacle ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31723;'Le bus s'arrête à l'arrêt.' est une phrase de quel type ?;déclarative;interrogative;impérative;exclamative
+31724;'Bravo pour ton dessin !' est une phrase de quel type ?;exclamative;déclarative;impérative;interrogative
+31725;'Marche sur le trottoir.' est une phrase de quel type ?;impérative;interrogative;exclamative;déclarative
+31726;'Le vent agite les branches.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31727;'Comme il court vite !' est une phrase de quel type ?;exclamative;impérative;interrogative;déclarative
+31728;'Essuie la table.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
+31729;'Comme il fait chaud aujourd'hui !' est une phrase de quel type ?;exclamative;interrogative;impérative;déclarative
+31730;'Les fourmis transportent une feuille.' est une phrase de quel type ?;déclarative;impérative;interrogative;exclamative
+31731;'Comme cette fleur sent bon !' est une phrase de quel type ?;exclamative;interrogative;déclarative;impérative
+31732;'Que manges-tu ce midi ?' est une phrase de quel type ?;interrogative;exclamative;impérative;déclarative
+31733;'Chante avec nous.' est une phrase de quel type ?;impérative;interrogative;déclarative;exclamative
+31734;'Les castors construisent un barrage.' est une phrase de quel type ?;déclarative;exclamative;interrogative;impérative
+31735;'Aimes-tu les histoires de dragons ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31736;'Est-ce que la mer est froide ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31737;'Les feuilles jaunissent en automne.' est une phrase de quel type ?;déclarative;interrogative;impérative;exclamative
+31738;'Range ton cartable.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
+31739;'Les élèves rangent leurs cahiers.' est une phrase de quel type ?;déclarative;exclamative;interrogative;impérative
+31740;'Les randonneurs traversent le pont.' est une phrase de quel type ?;déclarative;impérative;interrogative;exclamative
+31741;'Termine ton exercice.' est une phrase de quel type ?;impérative;interrogative;exclamative;déclarative
+31742;'Le paysan laboure son champ.' est une phrase de quel type ?;déclarative;interrogative;impérative;exclamative
+31743;'Les scouts montent leur tente.' est une phrase de quel type ?;déclarative;impérative;interrogative;exclamative
+31744;'Le ruisseau serpente dans la forêt.' est une phrase de quel type ?;déclarative;exclamative;impérative;interrogative
+31745;'Les enfants construisent une cabane.' est une phrase de quel type ?;déclarative;exclamative;impérative;interrogative
+31746;'Brosse-toi les dents.' est une phrase de quel type ?;impérative;exclamative;déclarative;interrogative
+31747;'Le magicien réalise un tour.' est une phrase de quel type ?;déclarative;exclamative;interrogative;impérative
+31748;'Comme cette légende est fascinante !' est une phrase de quel type ?;exclamative;impérative;interrogative;déclarative
+31749;'Quelle bravoure !' est une phrase de quel type ?;exclamative;déclarative;impérative;interrogative
+31750;'Comme ce chien est mignon !' est une phrase de quel type ?;exclamative;interrogative;impérative;déclarative
+31751;'Quel spectacle magnifique !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31752;'Bois ton lait.' est une phrase de quel type ?;impérative;interrogative;exclamative;déclarative
+31753;'Le chevalier porte une armure.' est une phrase de quel type ?;déclarative;exclamative;interrogative;impérative
+31754;'La coccinelle grimpe sur la tige.' est une phrase de quel type ?;déclarative;interrogative;impérative;exclamative
+31755;'Est-ce que les oiseaux chantent le matin ?' est une phrase de quel type ?;interrogative;exclamative;impérative;déclarative
+31756;'Quel beau coucher de soleil !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31757;'Noue tes lacets.' est une phrase de quel type ?;impérative;interrogative;exclamative;déclarative
+31758;'Le chat miaule devant la porte.' est une phrase de quel type ?;déclarative;interrogative;impérative;exclamative
+31759;'Veux-tu venir au cinéma ?' est une phrase de quel type ?;interrogative;exclamative;impérative;déclarative
+31760;'Range ton vélo.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
+31761;'Ferme les yeux.' est une phrase de quel type ?;impérative;déclarative;exclamative;interrogative
+31762;'Où as-tu rangé mes ciseaux ?' est une phrase de quel type ?;interrogative;impérative;exclamative;déclarative
+31763;'Quel exploit incroyable !' est une phrase de quel type ?;exclamative;déclarative;interrogative;impérative
+31764;'Les truites nagent dans le ruisseau.' est une phrase de quel type ?;déclarative;impérative;exclamative;interrogative
+31765;'Le vieux chêne perd ses feuilles.' est une phrase de quel type ?;déclarative;exclamative;impérative;interrogative
+31766;'Le clown fait rire les enfants.' est une phrase de quel type ?;déclarative;impérative;interrogative;exclamative
+31767;'La brume recouvre la vallée.' est une phrase de quel type ?;déclarative;impérative;exclamative;interrogative
+31768;'Les cigognes reviennent chaque année.' est une phrase de quel type ?;déclarative;interrogative;exclamative;impérative
+31769;'Nous partons en vacances demain.' est une phrase de quel type ?;déclarative;impérative;interrogative;exclamative
+31770;'Sois patient.' est une phrase de quel type ?;impérative;déclarative;interrogative;exclamative
+31771;'Quelle est la capitale de la France ?' est une phrase de quel type ?;interrogative;déclarative;exclamative;impérative
+31772;Dans la phrase 'Les élèves rangent leurs cahiers.', quel est le sujet du verbe ?;Les élèves;l'adjectif;le verbe;le complément
+31773;Dans la phrase 'Le boucher coupe la viande.', quel est le sujet du verbe ?;Le boucher;l'adjectif;le verbe;le complément
+31774;Dans la phrase 'Le pâtissier prépare des croissants.', quel est le sujet du verbe ?;Le pâtissier;l'adjectif;le verbe;le complément
+31775;Dans la phrase 'La coccinelle grimpe sur la tige.', quel est le sujet du verbe ?;La coccinelle;l'adjectif;le verbe;le complément
+31776;Dans la phrase 'Les truites nagent dans le ruisseau.', quel est le sujet du verbe ?;Les truites;l'adjectif;le verbe;le complément
+31777;Dans la phrase 'Le dragon garde le trésor.', quel est le sujet du verbe ?;Le dragon;l'adjectif;le verbe;le complément
+31778;Dans la phrase 'Le bus s'arrête à l'arrêt.', quel est le sujet du verbe ?;Le bus;l'adjectif;le verbe;le complément
+31779;Dans la phrase 'Le pompier éteint l'incendie.', quel est le sujet du verbe ?;Le pompier;l'adjectif;le verbe;le complément
+31780;Dans la phrase 'Le paysan laboure son champ.', quel est le sujet du verbe ?;Le paysan;l'adjectif;le verbe;le complément
+31781;Dans la phrase 'Les castors construisent un barrage.', quel est le sujet du verbe ?;Les castors;l'adjectif;le verbe;le complément
+31782;Dans la phrase 'Les nuages annoncent la pluie.', quel est le sujet du verbe ?;Les nuages;l'adjectif;le verbe;le complément
+31783;Dans la phrase 'La brume recouvre la vallée.', quel est le sujet du verbe ?;La brume;l'adjectif;le verbe;le complément
+31784;Dans la phrase 'Les phoques plongent dans l'eau glacée.', quel est le sujet du verbe ?;Les phoques;l'adjectif;le verbe;le complément
+31785;Dans la phrase 'Le chat miaule devant la porte.', quel est le sujet du verbe ?;Le chat;l'adjectif;le verbe;le complément
+31786;Dans la phrase 'Les cigognes reviennent chaque année.', quel est le sujet du verbe ?;Les cigognes;l'adjectif;le verbe;le complément
+31787;Dans la phrase 'Les fourmis transportent une feuille.', quel est le sujet du verbe ?;Les fourmis;l'adjectif;le verbe;le complément
+31788;Dans la phrase 'Le vent agite les branches.', quel est le sujet du verbe ?;Le vent;l'adjectif;le verbe;le complément
+31789;Dans la phrase 'Les abeilles retournent à la ruche.', quel est le sujet du verbe ?;Les abeilles;l'adjectif;le verbe;le complément
+31790;Dans la phrase 'Le professeur explique la leçon.', quel est le sujet du verbe ?;Le professeur;l'adjectif;le verbe;le complément
+31791;Dans la phrase 'Le facteur sonne à la porte.', quel est le sujet du verbe ?;Le facteur;l'adjectif;le verbe;le complément
+31792;Dans la phrase 'Le berger guide son troupeau.', quel est le sujet du verbe ?;Le berger;l'adjectif;le verbe;le complément
+31793;Dans la phrase 'Les hérissons se cachent sous les feuilles.', quel est le sujet du verbe ?;Les hérissons;l'adjectif;le verbe;le complément
+31794;Dans la phrase 'Les feuilles jaunissent en automne.', quel est le sujet du verbe ?;Les feuilles;l'adjectif;le verbe;le complément
+31795;Dans la phrase 'Les randonneurs traversent le pont.', quel est le sujet du verbe ?;Les randonneurs;l'adjectif;le verbe;le complément
+31796;Dans la phrase 'Les sirènes chantent dans la mer.', quel est le sujet du verbe ?;Les sirènes;l'adjectif;le verbe;le complément
+31797;Dans la phrase 'Le magicien réalise un tour.', quel est le sujet du verbe ?;Le magicien;l'adjectif;le verbe;le complément
+31798;Dans la phrase 'Le hibou chasse la nuit.', quel est le sujet du verbe ?;Le hibou;l'adjectif;le verbe;le complément
+31799;Dans la phrase 'Le prince libère la princesse.', quel est le sujet du verbe ?;Le prince;l'adjectif;le verbe;le complément
+31800;Dans la phrase 'La sorcière prépare une potion.', quel est le sujet du verbe ?;La sorcière;l'adjectif;le verbe;le complément
+31801;Dans la phrase 'Les explorateurs traversent le désert.', quel est le sujet du verbe ?;Les explorateurs;l'adjectif;le verbe;le complément
+31802;Dans la phrase 'Le clown fait rire les enfants.', quel est le sujet du verbe ?;Le clown;l'adjectif;le verbe;le complément
+31803;Dans la phrase 'Le vieux chêne perd ses feuilles.', quel est le sujet du verbe ?;Le vieux chêne;l'adjectif;le verbe;le complément
+31804;Dans la phrase 'Le chevalier porte une armure.', quel est le sujet du verbe ?;Le chevalier;l'adjectif;le verbe;le complément
+31805;Dans la phrase 'Les moineaux picorent des graines.', quel est le sujet du verbe ?;Les moineaux;l'adjectif;le verbe;le complément
+31806;Dans la phrase 'Ma tante peint un tableau.', quel est le sujet du verbe ?;Ma tante;l'adjectif;le verbe;le complément
+31807;Dans la phrase 'Les castors rongent le tronc.', quel est le sujet du verbe ?;Les castors;l'adjectif;le verbe;le complément
+31808;Dans la phrase 'La reine dirige son royaume.', quel est le sujet du verbe ?;La reine;l'adjectif;le verbe;le complément
+31809;Dans la phrase 'Le champion lève la coupe.', quel est le sujet du verbe ?;Le champion;l'adjectif;le verbe;le complément
+31810;La factrice ___ avant de répondre.;réfléchit;réfléchis;réfléchissent;réfléchissez
+31811;Parfois, j'___.;achète;achètent;achetons;achetez
+31812;Ma cousine ___ la situation.;juge;jugez;jugeons;juges
+31813;Chaque jour, ils ___.;descendent;descendez;descend;descendons
+31814;Chaque jour, les voisins ___.;parlent;parle;parlez;parles
+31815;La cuisinière ___ le dîner.;prépare;préparez;prépares;préparent
+31816;La secrétaire ___ les clients.;aide;aidez;aides;aidons
+31817;Le boulanger ___ avant de répondre.;réfléchit;réfléchis;réfléchissent;réfléchissez
+31818;Mon grand-père ___ les oiseaux.;observe;observes;observez;observons
+31819;Parfois, tu ___.;nages;nageons;nage;nagez
+31820;Chaque jour, la secrétaire ___.;arrose;arrosons;arrosent;arroses
+31821;Mes soeurs ___ doucement.;vieillissent;vieillit;vieillis;vieillissons
+31822;La chanteuse ___ avant le concert.;mange;mangent;mangez;mangeons
+31823;En ce moment, elles ___.;nourrissent;nourrissez;nourris;nourrissons
+31824;Ici, tu ___.;cours;courent;courons;court
+31825;Le chauffeur ___ le camion.;décore;décorons;décorez;décorent
+31826;Les sirènes ___ de leur plus belle voix.;chantent;chantez;chante;chantons
+31827;Les écureuils ___ leur repas.;finissent;finis;finit;finissons
+31828;Les pompiers ___ près de la caserne.;habitent;habite;habitons;habites
+31829;D'habitude, elle ___.;observe;observent;observez;observons
+31830;Chaque jour, les écureuils ___.;obéissent;obéit;obéissons;obéissez
+31831;En ce moment, les voisins ___.;sont;sommes;est;êtes
+31832;Chaque jour, la chanteuse ___.;décore;décores;décorons;décorez
+31833;La reine ___ son trésor.;cherche;cherchons;cherchez;cherchent
+31834;Ici, je ___.;commence;commences;commençons;commencez
+31835;En ce moment, les écureuils ___.;grimpent;grimpes;grimpe;grimpez
+31836;Aujourd'hui, les écureuils ___.;grandissent;grandis;grandissons;grandit
+31837;Chaque jour, le boulanger ___.;ouvre;ouvrent;ouvrez;ouvres
+31838;En ce moment, la chanteuse ___.;réussit;réussissent;réussissez;réussissons
+31839;Aujourd'hui, la chanteuse ___.;observe;observons;observez;observes
+31840;Ici, nous ___.;réfléchissons;réfléchissez;réfléchit;réfléchissent
+31841;Chaque jour, les sirènes ___.;dansent;dansons;danses;dansez
+31842;Le berger ___ son troupeau.;aide;aides;aidons;aident
+31843;Les moineaux ___ un nid dans l'arbre.;ont;avez;a;avons
+31844;Parfois, il ___.;prépare;préparons;préparent;prépares
+31845;Chaque jour, les pompiers ___.;grandissent;grandissons;grandis;grandissez
+31846;Les randonneurs ___ leurs chaussures.;salissent;salis;salit;salissons
+31847;D'habitude, les écureuils ___.;courent;court;courons;courez
+31848;Mon ami ___ des pâtes.;cuisine;cuisinons;cuisinent;cuisines
+31849;En ce moment, les sirènes ___.;réfléchissent;réfléchissons;réfléchissez;réfléchis
+31850;Parfois, vous ___.;portez;portent;portons;porte
+31851;Aujourd'hui, elles ___.;chantent;chante;chantons;chantez
+31852;Chaque jour, mon grand-père ___.;descend;descendent;descendons;descendez
+31853;Les girafes ___ à courir vite.;apprennent;apprend;apprends;apprenons
+31854;En ce moment, ils ___.;rangent;range;rangeons;ranges
+31855;Chaque jour, la reine ___.;nage;nagent;nages;nageons
+31856;En général, tu ___.;prends;prenez;prend;prennent
+31857;Aujourd'hui, les voisins ___.;testent;testez;testes;testons
+31858;Chaque jour, la factrice ___.;habite;habitez;habitent;habites
+31859;Les tortues ___ de la nourriture.;cherchent;cherche;cherchons;cherchez
+31860;Chaque jour, mes soeurs ___.;pâlissent;pâlissons;pâlit;pâlissez
+31861;Chaque jour, les randonneurs ___.;observent;observes;observez;observe
+31862;En ce moment, la secrétaire ___.;grandit;grandissez;grandissons;grandissent
+31863;Chaque jour, la cuisinière ___.;court;courent;courez;courons
+31864;Les dauphins ___ dans l'océan.;nagent;nages;nageons;nage
+31865;Les étudiants ___ à la piscine.;nagent;nages;nageons;nage
+31866;Aujourd'hui, ils ___.;agissent;agissons;agissez;agis
+31867;Chaque jour, les tortues ___.;nagent;nages;nageons;nagez
+31868;Chaque jour, ma cousine ___.;aide;aides;aidez;aident
+31869;Ici, il ___.;nourrit;nourris;nourrissent;nourrissez
+31870;Chaque jour, les moineaux ___.;nourrissent;nourrissez;nourrissons;nourrit
+31871;Le vétérinaire ___ les médicaments.;prépare;préparez;préparent;prépares
+31872;Chaque jour, le vétérinaire ___.;grandit;grandissez;grandis;grandissons
+31873;Chaque jour, les dauphins ___.;nagent;nage;nagez;nageons
+31874;Les danseurs ___ la scène.;décorent;décore;décorons;décores
+31875;Les grenouilles ___ dans la mare.;sautent;sautons;sautez;sautes
+31876;D'habitude, ils ___.;réfléchissent;réfléchissons;réfléchis;réfléchit
+31877;En ce moment, mon grand-père ___.;finit;finissent;finissez;finis
+31878;En général, je ___.;réussis;réussissez;réussissons;réussissent
+31879;Maintenant, ils ___.;prennent;prends;prenez;prend
+31880;En ce moment, ma cousine ___.;court;courez;courent;cours
+31881;Aujourd'hui, la secrétaire ___.;teste;testons;testes;testent
+31882;En ce moment, les tortues ___.;creusent;creusons;creuse;creuses
+31883;Mes cousines ___ à la fête.;dansent;dansons;danse;danses
+31884;Chaque jour, le berger ___.;finit;finissez;finissent;finis
+31885;En ce moment, le vétérinaire ___.;cherche;cherchent;cherchez;cherchons
+31886;D'habitude, la chanteuse ___.;remplit;remplissent;remplissez;remplis
+31887;Chaque jour, mes cousines ___.;nagent;nagez;nages;nage
+31888;Les champions ___ la compétition.;préparent;prépare;préparez;prépares
+31889;En ce moment, le berger ___.;pâlit;pâlissons;pâlis;pâlissez
+31890;Chaque jour, les danseurs ___.;punissent;punissez;punis;punissons
+31891;D'habitude, les voisins ___.;commencent;commencez;commençons;commence
+31892;En ce moment, les randonneurs ___.;vieillissent;vieillissons;vieillit;vieillissez
+31893;Aujourd'hui, le berger ___.;grandit;grandis;grandissons;grandissez
+31894;Chaque jour, les champions ___.;ont;as;a;avons
+31895;En ce moment, le boulanger ___.;finit;finissent;finissons;finis
+31896;Aujourd'hui, le vétérinaire ___.;prend;prennent;prends;prenons
+31897;En général, nous ___.;vieillissons;vieillissent;vieillis;vieillissez
+31898;Tous les jours, tu ___.;achètes;achètent;achetez;achetons
+31899;Maintenant, elle ___.;dessine;dessinent;dessines;dessinons
+31900;Chaque jour, les grenouilles ___.;voyagent;voyage;voyages;voyagez
+31901;En ce moment, les pompiers ___.;sont;sommes;es;suis
+31902;Aujourd'hui, les randonneurs ___.;habitent;habite;habitez;habitons
+31903;En ce moment, les grenouilles ___.;construisent;construis;construisons;construit
+31904;En ce moment, les dauphins ___.;courent;cours;court;courons
+31905;Aujourd'hui, les sirènes ___.;commencent;commence;commences;commencez
+31906;En général, il ___.;commence;commencez;commences;commençons
+31907;En ce moment, les champions ___.;vieillissent;vieillissez;vieillissons;vieillit
+31908;D'habitude, le berger ___.;observe;observes;observent;observez
+31909;En ce moment, mes soeurs ___.;ferment;fermez;fermes;fermons
+31910;D'habitude, les sirènes ___.;nourrissent;nourris;nourrit;nourrissez
+31911;D'habitude, la secrétaire ___.;place;places;plaçons;placent
+31912;Tous les jours, nous ___.;cuisinons;cuisine;cuisines;cuisinez
+31913;Maintenant, les voisins ___.;prennent;prends;prenons;prenez
+31914;Chaque jour, mon ami ___.;a;ont;avons;ai
+31915;Aujourd'hui, les tortues ___.;avancent;avancez;avançons;avances
+31916;D'habitude, elles ___.;finissent;finissons;finis;finit
+31917;D'habitude, les tortues ___.;vieillissent;vieillit;vieillis;vieillissons
+31918;En ce moment, les moineaux ___.;chantent;chantons;chante;chantez
+31919;Aujourd'hui, mon grand-père ___.;chante;chantons;chantes;chantent
+31920;Aujourd'hui, ma cousine ___.;note;notons;notez;notent
+31921;Aujourd'hui, les moineaux ___.;dansent;danses;danse;dansez
+31922;D'habitude, mon grand-père ___.;habite;habites;habitez;habitent
+31923;D'habitude, ma cousine ___.;descend;descendent;descends;descendez
+31924;Chaque jour, le chauffeur ___.;lave;lavent;laves;lavons
+31925;Tous les jours, il ___.;obéit;obéissent;obéis;obéissons
+31926;En ce moment, la cuisinière ___.;grandit;grandissons;grandissent;grandissez
+31927;Sans cesse, nous ___.;sommes;êtes;es;suis
+31928;En ce moment, la factrice ___.;construit;construisez;construis;construisons
+31929;Aujourd'hui, les grenouilles ___.;cherchent;cherchez;cherche;cherchons
+31930;D'habitude, les randonneurs ___.;décorent;décores;décorez;décorons
+31931;Chaque jour, les girafes ___.;broutent;broute;broutons;broutes
+31932;Chaque jour, les étudiants ___.;préparent;préparons;prépare;préparez
+31933;Aujourd'hui, les pompiers ___.;ouvrent;ouvrons;ouvres;ouvre
+31934;Aujourd'hui, le boulanger ___.;prend;prennent;prenez;prends
+31935;En ce moment, le chauffeur ___.;bâtit;bâtissons;bâtissez;bâtissent
+31936;Aujourd'hui, mes soeurs ___.;construisent;construis;construisons;construisez
+31937;En ce moment, les étudiants ___.;choisissent;choisissons;choisit;choisissez
+31938;Sans cesse, il ___.;prend;prennent;prenons;prenez
+31939;Aujourd'hui, les dauphins ___.;punissent;punit;punissez;punis
+31940;En ce moment, la reine ___.;prépare;prépares;préparez;préparons
+31941;Tous les jours, je ___.;décore;décorez;décorent;décores
+31942;Maintenant, elles ___.;agissent;agissons;agis;agissez
+31943;Maintenant, les randonneurs ___.;obéissent;obéit;obéissons;obéissez
+31944;Maintenant, les sirènes ___.;chantent;chante;chantons;chantes
+31945;En ce moment, les girafes ___.;ouvrent;ouvres;ouvrez;ouvrons
+31946;Maintenant, ma cousine ___.;arrose;arrosez;arroses;arrosent
+31947;Souvent, elles ___.;dessinent;dessinons;dessinez;dessine
+31948;Souvent, les sirènes ___.;portent;portes;portons;portez
+31949;Aujourd'hui, les champions ___.;chantent;chantes;chante;chantons
+31950;Maintenant, les écureuils ___.;cherchent;cherchons;cherchez;cherches
+31951;Parfois, elles ___.;construisent;construit;construisons;construisez
+31952;Maintenant, mon grand-père ___.;punit;punissons;punissent;punis
+31953;Maintenant, la chanteuse ___.;cherche;cherches;cherchez;cherchent
+31954;Aujourd'hui, la cuisinière ___.;ouvre;ouvrez;ouvrent;ouvrons
+31955;D'habitude, la cuisinière ___.;danse;danses;dansez;dansons
+31956;Souvent, les écureuils ___.;mangent;mangez;mangeons;mange
+31957;En ce moment, mes cousines ___.;observent;observe;observons;observes
+31958;Ici, elles ___.;cuisinent;cuisinez;cuisinons;cuisines
+31959;Souvent, la chanteuse ___.;punit;punis;punissez;punissent

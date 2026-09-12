@@ -1,0 +1,257 @@
+[gd_scene format=3 uid="uid://cn16e2u5cb0q"]
+
+[ext_resource type="Script" uid="uid://b2pflp8kuybb8" path="res://ui/onboarding/help_overlay.gd" id="1"]
+
+[node name="HelpOverlay" type="Control" unique_id=821936609]
+visible = false
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1")
+
+[node name="Panel" type="Panel" parent="." unique_id=393354289]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.2
+anchor_top = 0.06
+anchor_right = 0.8
+anchor_bottom = 0.94
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TitleRow" type="HBoxContainer" parent="Panel" unique_id=1719829687]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 20.0
+offset_top = 10.0
+offset_right = -20.0
+offset_bottom = 40.0
+grow_horizontal = 2
+theme_override_constants/separation = 12
+
+[node name="TitleLabel" type="Label" parent="Panel/TitleRow" unique_id=1746178177]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"TitleLabel"
+text = "Aide"
+horizontal_alignment = 1
+
+[node name="CloseButton" type="Button" parent="Panel/TitleRow" unique_id=1823946187]
+custom_minimum_size = Vector2(28, 28)
+layout_mode = 2
+size_flags_vertical = 0
+theme_type_variation = &"CloseButton"
+text = "X"
+
+[node name="TitleSeparator" type="HSeparator" parent="Panel" unique_id=699958134]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_top = 55.0
+offset_bottom = 59.0
+grow_horizontal = 2
+
+[node name="Margin" type="MarginContainer" parent="Panel" unique_id=1722741423]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 80.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 28
+theme_override_constants/margin_top = 0
+theme_override_constants/margin_right = 28
+theme_override_constants/margin_bottom = 28
+
+[node name="Content" type="VBoxContainer" parent="Panel/Margin" unique_id=205491159]
+layout_mode = 2
+theme_override_constants/separation = 18
+
+[node name="Tabs" type="TabContainer" parent="Panel/Margin/Content" unique_id=410168712]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/side_margin = 13
+current_tab = 0
+
+[node name="Intro" type="MarginContainer" parent="Panel/Margin/Content/Tabs" unique_id=708065198]
+layout_mode = 2
+theme_override_constants/margin_left = 16
+theme_override_constants/margin_top = 16
+theme_override_constants/margin_right = 16
+theme_override_constants/margin_bottom = 16
+metadata/_tab_index = 0
+
+[node name="Scroll" type="ScrollContainer" parent="Panel/Margin/Content/Tabs/Intro" unique_id=1022784242]
+layout_mode = 2
+horizontal_scroll_mode = 0
+
+[node name="ScrollMargin" type="MarginContainer" parent="Panel/Margin/Content/Tabs/Intro/Scroll" unique_id=512719945]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/margin_right = 16
+
+[node name="List" type="VBoxContainer" parent="Panel/Margin/Content/Tabs/Intro/Scroll/ScrollMargin" unique_id=1428841959]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 16
+
+[node name="Title" type="Label" parent="Panel/Margin/Content/Tabs/Intro/Scroll/ScrollMargin/List" unique_id=1465213423]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "Le but du jeu"
+autowrap_mode = 2
+
+[node name="Para1" type="Label" parent="Panel/Margin/Content/Tabs/Intro/Scroll/ScrollMargin/List" unique_id=1731051863]
+layout_mode = 2
+text = "Ce jeu transforme les révisions scolaires en aventure : chaque enfant explore une salle de classe virtuelle et progresse à son rythme, du CP jusqu'au CM2."
+autowrap_mode = 2
+
+[node name="Para2" type="Label" parent="Panel/Margin/Content/Tabs/Intro/Scroll/ScrollMargin/List" unique_id=102116207]
+layout_mode = 2
+text = "Dans cette salle, cinq professeurs proposent chacun de petites séries de questions, un par niveau du CP au CM2. Un résultat supérieur à la moitié rapporte des pièces, et un sans-faute fait avancer les défis de la classe."
+autowrap_mode = 2
+
+[node name="Para3" type="Label" parent="Panel/Margin/Content/Tabs/Intro/Scroll/ScrollMargin/List" unique_id=838784631]
+layout_mode = 2
+text = "Les pièces gagnées s'échangent ensuite à la boutique contre des cartes à collectionner, rangées dans un album personnel, ou contre de nouvelles tenues et décors pour la classe."
+autowrap_mode = 2
+
+[node name="Para4" type="Label" parent="Panel/Margin/Content/Tabs/Intro/Scroll/ScrollMargin/List" unique_id=1687447657]
+layout_mode = 2
+text = "Le tout se joue à la souris ou au doigt, sans texte compliqué ni raccourci clavier, pour rester accessible aux plus jeunes."
+autowrap_mode = 2
+
+[node name="Para5" type="Label" parent="Panel/Margin/Content/Tabs/Intro/Scroll/ScrollMargin/List" unique_id=172899045]
+layout_mode = 2
+text = "Un espace contrôle parental, réservé aux parents, permet de régler tranquillement le temps de jeu quotidien de chaque compte."
+autowrap_mode = 2
+
+[node name="ContenuJeu" type="MarginContainer" parent="Panel/Margin/Content/Tabs" unique_id=1430786389]
+visible = false
+layout_mode = 2
+theme_override_constants/margin_left = 16
+theme_override_constants/margin_top = 16
+theme_override_constants/margin_right = 16
+theme_override_constants/margin_bottom = 16
+metadata/_tab_index = 1
+
+[node name="Scroll" type="ScrollContainer" parent="Panel/Margin/Content/Tabs/ContenuJeu" unique_id=426637628]
+layout_mode = 2
+horizontal_scroll_mode = 0
+
+[node name="ScrollMargin" type="MarginContainer" parent="Panel/Margin/Content/Tabs/ContenuJeu/Scroll" unique_id=2080453706]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/margin_right = 16
+
+[node name="List" type="VBoxContainer" parent="Panel/Margin/Content/Tabs/ContenuJeu/Scroll/ScrollMargin" unique_id=1617898916]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 16
+
+[node name="ClassesTitle" type="Label" parent="Panel/Margin/Content/Tabs/ContenuJeu/Scroll/ScrollMargin/List" unique_id=1993054813]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "Les classes et les matières"
+autowrap_mode = 2
+
+[node name="ClassesBody" type="Label" parent="Panel/Margin/Content/Tabs/ContenuJeu/Scroll/ScrollMargin/List" unique_id=78848358]
+layout_mode = 2
+text = "Une seule salle de classe accueille cinq professeurs, un par niveau du CP au CM2. Sept matières sont proposées au total : Mathématiques, Grammaire, Conjugaison, Orthographe, Anglais, Compréhension de texte et Logique."
+autowrap_mode = 2
+
+[node name="QuestionsTitle" type="Label" parent="Panel/Margin/Content/Tabs/ContenuJeu/Scroll/ScrollMargin/List" unique_id=159161777]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "Les questions"
+autowrap_mode = 2
+
+[node name="QuestionsBody" type="Label" parent="Panel/Margin/Content/Tabs/ContenuJeu/Scroll/ScrollMargin/List" unique_id=434909886]
+layout_mode = 2
+text = "En cliquant sur un professeur, l'enfant reçoit un petit paquet de questions dans sa matière. Un résultat supérieur à la moitié des questions rapporte des pièces à la couleur de la matière, et un sans-faute (100 %) fait gagner un point de succès pour le défi de la classe et de la matière."
+autowrap_mode = 2
+
+[node name="RecompensesTitle" type="Label" parent="Panel/Margin/Content/Tabs/ContenuJeu/Scroll/ScrollMargin/List" unique_id=2009965787]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "La boutique et les récompenses"
+autowrap_mode = 2
+
+[node name="RecompensesBody" type="Label" parent="Panel/Margin/Content/Tabs/ContenuJeu/Scroll/ScrollMargin/List" unique_id=778981043]
+layout_mode = 2
+text = "L'icône « Récompenses » ouvre la boutique : les pièces permettent d'ouvrir des coffres pour obtenir de nouvelles cartes, ou d'acheter des tenues de professeur pour personnaliser chaque classe."
+autowrap_mode = 2
+
+[node name="DefisTitle" type="Label" parent="Panel/Margin/Content/Tabs/ContenuJeu/Scroll/ScrollMargin/List" unique_id=2111874738]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "Les défis"
+autowrap_mode = 2
+
+[node name="DefisBody" type="Label" parent="Panel/Margin/Content/Tabs/ContenuJeu/Scroll/ScrollMargin/List" unique_id=1490052085]
+layout_mode = 2
+text = "L'icône « Succès » suit un défi par classe et par matière : plus on enchaîne les paquets sans erreur, plus la barre progresse, du bronze à l'argent puis à l'or. L'argent débloque une nouvelle musique de classe, l'or débloque un nouveau décor de classe."
+autowrap_mode = 2
+
+[node name="CartesTitle" type="Label" parent="Panel/Margin/Content/Tabs/ContenuJeu/Scroll/ScrollMargin/List" unique_id=900935007]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "Les cartes"
+autowrap_mode = 2
+
+[node name="CartesBody" type="Label" parent="Panel/Margin/Content/Tabs/ContenuJeu/Scroll/ScrollMargin/List" unique_id=907628933]
+layout_mode = 2
+text = "Chaque coffre ouvert offre une carte à collectionner, qui rejoint aussitôt le « Livre » : l'album personnel où toutes les cartes obtenues restent consultables à tout moment."
+autowrap_mode = 2
+
+[node name="MisesAJour" type="MarginContainer" parent="Panel/Margin/Content/Tabs" unique_id=1676537048]
+visible = false
+layout_mode = 2
+theme_override_constants/margin_left = 16
+theme_override_constants/margin_top = 16
+theme_override_constants/margin_right = 16
+theme_override_constants/margin_bottom = 16
+metadata/_tab_index = 2
+
+[node name="Scroll" type="ScrollContainer" parent="Panel/Margin/Content/Tabs/MisesAJour" unique_id=506011647]
+layout_mode = 2
+horizontal_scroll_mode = 0
+
+[node name="ScrollMargin" type="MarginContainer" parent="Panel/Margin/Content/Tabs/MisesAJour/Scroll" unique_id=169400970]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/margin_right = 16
+
+[node name="List" type="VBoxContainer" parent="Panel/Margin/Content/Tabs/MisesAJour/Scroll/ScrollMargin" unique_id=1872215932]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 16
+
+[node name="Title" type="Label" parent="Panel/Margin/Content/Tabs/MisesAJour/Scroll/ScrollMargin/List" unique_id=965518411]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "Prochaine mise à jour : V1.01"
+autowrap_mode = 2
+
+[node name="Intro" type="Label" parent="Panel/Margin/Content/Tabs/MisesAJour/Scroll/ScrollMargin/List" unique_id=483433055]
+layout_mode = 2
+text = "Voici ce qui arrive bientôt dans le jeu :"
+autowrap_mode = 2
+
+[node name="Liste" type="Label" parent="Panel/Margin/Content/Tabs/MisesAJour/Scroll/ScrollMargin/List" unique_id=1844344695]
+layout_mode = 2
+text = "- De nouvelles musiques de classe
+- Un son amélioré dans tout le jeu
+- Des corrections dans les questions
+- Un ajustement de la difficulté"
+autowrap_mode = 2
+
+[node name="Cloture" type="Label" parent="Panel/Margin/Content/Tabs/MisesAJour/Scroll/ScrollMargin/List" unique_id=296488017]
+layout_mode = 2
+text = "Cette page sera mise à jour à chaque nouvelle version du jeu."
+autowrap_mode = 2

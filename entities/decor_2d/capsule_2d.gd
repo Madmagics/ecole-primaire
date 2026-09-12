@@ -3,6 +3,12 @@
 ## npc.tscn/player.tscn historiques), le temps que le jeu 2D recoive de vrais sprites/animations.
 ## Convention radius/height alignee sur CapsuleShape2D (voir la CollisionShape2D soeur dans les
 ## scenes qui utilisent ce script) : orientee verticale, centree sur son origine locale.
+##
+## set_locked()/etat grise retires (2026-08-29, retour utilisateur : suppression du deblocage de
+## classe payant, un PNJ n'est plus jamais verrouille - voir
+## QuestionGiverComponent._on_interacted) : ce noeud ne fait plus que dessiner sa silhouette
+## coloree. CapsuleVisual reste par ailleurs invisible dans school.tscn (remplace par ProfVisual,
+## voir prof_visual.gd).
 @tool
 class_name Capsule2D
 extends Node2D
@@ -21,19 +27,8 @@ extends Node2D
 		height = value
 		queue_redraw()
 
-const _LOCKED_COLOR := Color(0.3, 0.3, 0.3)
-var _locked: bool = false
-
 func _draw() -> void:
-	var draw_color := _LOCKED_COLOR if _locked else color
 	var rect_half_height: float = maxf(0.0, height * 0.5 - radius)
-	draw_rect(Rect2(-radius, -rect_half_height, radius * 2.0, rect_half_height * 2.0), draw_color)
-	draw_circle(Vector2(0.0, -rect_half_height), radius, draw_color)
-	draw_circle(Vector2(0.0, rect_half_height), radius, draw_color)
-
-## Appele par QuestionGiverComponent._refresh_lock_visual() (voir
-## entities/npc/components/question_giver_component.gd) tant que la classe de ce PNJ n'est pas
-## debloquee - twin 2D du grisage par material_override utilise sur les PNJ 3D historiques.
-func set_locked(locked: bool) -> void:
-	_locked = locked
-	queue_redraw()
+	draw_rect(Rect2(-radius, -rect_half_height, radius * 2.0, rect_half_height * 2.0), color)
+	draw_circle(Vector2(0.0, -rect_half_height), radius, color)
+	draw_circle(Vector2(0.0, rect_half_height), radius, color)

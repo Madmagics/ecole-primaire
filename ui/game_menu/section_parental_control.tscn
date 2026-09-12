@@ -1,0 +1,105 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://ui/game_menu/section_parental_control.gd" id="1"]
+
+[node name="SectionParentalControl" type="Control"]
+visible = false
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 20.0
+offset_top = 20.0
+offset_right = -10.0
+offset_bottom = -20.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 16
+
+[node name="LockGroup" type="VBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="LockLabel" type="Label" parent="VBoxContainer/LockGroup"]
+layout_mode = 2
+theme_type_variation = &"TitleLabel"
+autowrap_mode = 2
+text = "Mot de passe requis pour accéder au contrôle parental."
+
+[node name="PasswordRow" type="HBoxContainer" parent="VBoxContainer/LockGroup"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="PasswordLabel" type="Label" parent="VBoxContainer/LockGroup/PasswordRow"]
+theme_type_variation = &"TitleLabel"
+custom_minimum_size = Vector2(160, 0)
+layout_mode = 2
+text = "Mot de passe"
+
+[node name="PasswordInput" type="LineEdit" parent="VBoxContainer/LockGroup/PasswordRow"]
+custom_minimum_size = Vector2(220, 0)
+layout_mode = 2
+secret = true
+
+[node name="ErrorLabel" type="Label" parent="VBoxContainer/LockGroup"]
+layout_mode = 2
+autowrap_mode = 2
+visible = false
+text = "Mot de passe incorrect."
+
+[node name="ValidateButton" type="Button" parent="VBoxContainer/LockGroup"]
+layout_mode = 2
+size_flags_horizontal = 0
+text = "Valider"
+
+[node name="OptionsContent" type="VBoxContainer" parent="VBoxContainer"]
+visible = false
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="DailyLimitRow" type="HBoxContainer" parent="VBoxContainer/OptionsContent"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="DailyLimitLabel" type="Label" parent="VBoxContainer/OptionsContent/DailyLimitRow"]
+theme_type_variation = &"TitleLabel"
+custom_minimum_size = Vector2(160, 0)
+layout_mode = 2
+text = "Limite de jeux par jour :"
+
+[node name="DailyLimitSpin" type="SpinBox" parent="VBoxContainer/OptionsContent/DailyLimitRow"]
+layout_mode = 2
+min_value = 0.0
+max_value = 50.0
+value = 0.0
+
+[node name="UnlimitedRow" type="HBoxContainer" parent="VBoxContainer/OptionsContent"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="UnlimitedLabel" type="Label" parent="VBoxContainer/OptionsContent/UnlimitedRow"]
+theme_type_variation = &"TitleLabel"
+custom_minimum_size = Vector2(160, 0)
+layout_mode = 2
+text = "Nombre de jeux illimité"
+
+[node name="UnlimitedCheck" type="CheckBox" parent="VBoxContainer/OptionsContent/UnlimitedRow"]
+layout_mode = 2
+
+[node name="DailyLimitValidateButton" type="Button" parent="VBoxContainer/OptionsContent"]
+layout_mode = 2
+size_flags_horizontal = 0
+text = "Valider"
+
+[node name="DailyLimitCurrentLabel" type="Label" parent="VBoxContainer/OptionsContent"]
+layout_mode = 2
+text = "Limite actuelle de jeu : 0"

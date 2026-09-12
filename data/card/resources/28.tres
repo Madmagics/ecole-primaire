@@ -1,10 +1,12 @@
 [gd_resource type="Resource" script_class="CardResource" format=3 uid="uid://xis8wje6hc3y"]
 
-[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_h33e2"]
+[ext_resource type="Script" uid="uid://bti6vsxlw66ss" path="res://data/card/card_resource.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/classe2.0/pets/28.webp" id="2_texture"]
 
 [resource]
-script = ExtResource("1_h33e2")
+script = ExtResource("1_script")
 id = &"28"
 category = &"dragon"
-display_name = "Glacial"
+display_name = "Frimas"
+texture = ExtResource("2_texture")
 grade = 2

@@ -1,0 +1,126 @@
+id;categorie;variante;classe;prenom
+1;chat;Sauvage;CP;Grisou
+2;chat;Siamois;CE1;Suki
+3;chat;Forestier;CE2;Sylvain
+4;chat;Céleste;CM1;Luna
+5;chat;Cosmique;CM2;Nova
+6;chien;Errant;CP;Bandit
+7;chien;De Berger;CE1;Rex
+8;chien;Husky;CE2;Neige
+9;chien;Mystique;CM1;Ombre
+10;chien;Cerbère;CM2;Titan
+11;renard;Roux des Bois;CP;Goupil
+12;renard;Arctique;CE1;Givre
+13;renard;Argenté;CE2;Perle
+14;renard;Feu Follet;CM1;Flamèche
+15;renard;Céleste;CM2;Étoile
+16;lapin;Champêtre;CP;Pâquerette
+17;lapin;Angora;CE1;Duvet
+18;lapin;Bélier;CE2;Bouclette
+19;lapin;Lunaire;CM1;Clairelune
+20;lapin;Arc-en-ciel;CM2;Iris
+21;hippocampe;Corail;CP;Corallie
+22;hippocampe;Récif;CE1;Vague
+23;hippocampe;Abyssal;CE2;Abysse
+24;hippocampe;Cristal;CM1;Diamantine
+25;hippocampe;Arc-en-ciel;CM2;Opaline
+26;dragon;Forestier;CP;Ronce
+27;dragon;Volcanique;CE1;Braise
+28;dragon;Glacial;CE2;Frimas
+29;dragon;Doré;CM1;Or
+30;dragon;Nébuleuse;CM2;Nébula
+31;aigle;Royal;CP;Plume
+32;aigle;Des Neiges;CE1;Blizzard
+33;aigle;Doré;CE2;Icare
+34;aigle;Tempête;CM1;Foudre
+35;aigle;Céleste;CM2;Zéphyr
+36;raton-laveur;Des Bois;CP;Filou
+37;raton-laveur;Blanc;CE1;Ivoire
+38;raton-laveur;Roux;CE2;Rouky
+39;raton-laveur;Nocturne;CM1;Minuit
+40;raton-laveur;Arlequin;CM2;Domino
+41;souris;Des Champs;CP;Blé
+42;souris;Blanche;CE1;Perline
+43;souris;Grise Urbaine;CE2;Grison
+44;souris;Étincelle;CM1;Pixel
+45;souris;Arlequin;CM2;Confetti
+46;girafe;Savane;CP;Girafon
+47;girafe;Des Neiges;CE1;Flocon
+48;girafe;Réticulée;CE2;Tacha
+49;girafe;Céleste;CM1;Astra
+50;girafe;Arc-en-ciel;CM2;Prisme
+51;hippopotame;Fleuve;CP;Nil
+52;hippopotame;Rose;CE1;Rosalie
+53;hippopotame;Boueux;CE2;Glouglou
+54;hippopotame;Lunaire;CM1;Séléna
+55;hippopotame;Arc-en-ciel;CM2;Kaléido
+56;licorne;Des prés;CP;Trèfle
+57;licorne;Nocturne;CE1;Velours
+58;licorne;Printanière;CE2;Fleurette
+59;licorne;Ignée;CM1;Ambre
+60;licorne;Arc-en-ciel;CM2;Iridia
+61;maki-catta;Sauvage;CP;Rikiki
+62;maki-catta;Roux;CE1;Ambroise
+63;maki-catta;Neigeux;CE2;Blanchon
+64;maki-catta;Nocturne;CM1;Nocta
+65;maki-catta;Arc-en-ciel;CM2;Zigzag
+66;éléphant;Savane;CP;Baobab
+67;éléphant;Rose;CE1;Praline
+68;éléphant;Des Neiges;CE2;Frimousse
+69;éléphant;Doré;CM1;Pépite
+70;éléphant;Arc-en-ciel;CM2;Mirage
+71;panda;Sauvage;CP;Bambou
+72;panda;Roux;CE1;Cannelle
+73;panda;Neigeux;CE2;Poudreuse
+74;panda;Nocturne;CM1;Encre
+75;panda;Arc-en-ciel;CM2;Bonbon
+76;vache;Laitière;CP;Marguerite
+77;vache;Highland;CE1;Angus
+78;vache;Rosée;CE2;Bruyère
+79;vache;Céleste;CM1;Lactée
+80;vache;Arc-en-ciel;CM2;Caramel
+81;lézard;Des jardins;CP;Basilic
+82;lézard;Désertique;CE1;Sable
+83;lézard;Tropical;CE2;Mango
+84;lézard;Iridescent;CM1;Opale
+85;lézard;Nébuleuse;CM2;Comète
+86;bouquetin;Alpin;CP;Edelweiss
+87;bouquetin;Neigeux;CE1;Alpage
+88;bouquetin;Doré;CE2;Écu
+89;bouquetin;Nocturne;CM1;Pénombre
+90;bouquetin;Arc-en-ciel;CM2;Zénith
+91;dauphin;Océanique;CP;Marin
+92;dauphin;Rose;CE1;Coquille
+93;dauphin;Nocturne;CE2;Écho
+94;dauphin;Cristal;CM1;Cristal
+95;dauphin;Arc-en-ciel;CM2;Sirène
+96;requin;Récif;CP;Corsaire
+97;requin;Corail;CE1;Mako
+98;requin;Abyssal;CE2;Léviathan
+99;requin;Cristal;CM1;Glacia
+100;requin;Arc-en-ciel;CM2;Arc
+101;crevette;Récif;CP;Bulle
+102;crevette;Tropicale;CE1;Papaye
+103;crevette;Cristal;CE2;Gouttelette
+104;crevette;Nébuleuse;CM1;Stellaire
+105;crevette;Arc-en-ciel;CM2;Pastel
+106;baleine;Océanique;CP;Onde
+107;baleine;Blanche;CE1;Nacre
+108;baleine;Céleste;CE2;Voûte
+109;baleine;Corail;CM1;Amphitrite
+110;baleine;Arc-en-ciel;CM2;Aurore
+111;chauve-souris;Des Greniers;CP;Poussière
+112;chauve-souris;Nocturne;CE1;Crépuscule
+113;chauve-souris;Neigeuse;CE2;Blanchette
+114;chauve-souris;Ignée;CM1;Cendra
+115;chauve-souris;Arc-en-ciel;CM2;Éclipse
+116;fourmi;Noire;CP;Miette
+117;fourmi;Rousse;CE1;Groseille
+118;fourmi;Moissonneuse;CE2;Épi
+119;fourmi;Dorée;CM1;Ambroisie
+120;fourmi;Arc-en-ciel;CM2;Scintille
+121;cameleon;Vert;CP;Pistache
+122;cameleon;Tacheté;CE1;Moka
+123;cameleon;Tropical;CE2;Kiwi
+124;cameleon;Iridescent;CM1;Miroir
+125;cameleon;Arc-en-ciel;CM2;Camaïeu
