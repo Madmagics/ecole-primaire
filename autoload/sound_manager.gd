@@ -135,11 +135,21 @@ func _ready() -> void:
 ## Joue le bruitage [sfx_id]. Ne fait rien silencieusement si le fichier correspondant est
 ## absent (voir _STREAM_PATHS) - permet d'appeler play() partout dans le code sans jamais
 ## planter, meme avant que tous les sons definitifs soient integres.
+##
+## Bus "Bruitages" passe EXPLICITEMENT ici (2026-09-12, bug curseur bruitages sans effet sur la
+## version en ligne) : bug moteur confirme (github.com/godotengine/godot issues #100696 et
+## #118498, reproduit jusqu'en 4.7.dev4) - AudioStreamPlaybackPolyphonic.play_stream() est cense
+## heriter le bus de l'AudioStreamPlayer proprietaire (ici "Bruitages", voir player.bus dans
+## _ready()) quand aucun bus n'est precise, MAIS cet heritage echoue UNIQUEMENT dans l'export Web,
+## qui joue alors tout sur "Master" a la place - le curseur "Bruitages" de SectionConfig (qui ne
+## touche que le bus Bruitages via SaveManager.preview_sfx_volume/AudioServer.set_bus_volume_db)
+## n'a alors plus aucune prise sur les sons reellement joues. Passer "Bruitages" explicitement
+## rend le bus correct sur toutes les plateformes, y compris celles ou l'heritage marchait deja.
 func play(sfx_id: Sfx) -> void:
 	var stream: AudioStream = _streams.get(sfx_id)
 	if stream == null or _playback == null:
 		return
-	_playback.play_stream(stream)
+	_playback.play_stream(stream, 0.0, 0.0, 1.0, AudioServer.PLAYBACK_TYPE_DEFAULT, &"Bruitages")
 
 func _on_node_added(node: Node) -> void:
 	if node is Button and not node.pressed.is_connected(_on_button_pressed):

@@ -127,25 +127,27 @@ func _load_all_for_grade(target_grade: Grade) -> Array[QuestionResource]:
 	_scan_dir(RESOURCES_DIR + "/" + folder_name, result)
 	return result
 
+## Enumeration via ResourceLoader.list_directory(), PAS DirAccess (2026-09-12, bug clic PNJ
+## inactif sur la version en ligne) : DirAccess.open()/list_dir_begin()/get_next() sur un dossier
+## res:// est un cas documente comme non fiable sur un projet EXPORTE (PCK), meme si parfaitement
+## fiable dans l'editeur (confirme via github.com/godotengine/godot issues #87552/#99047 et la
+## proposition officielle godot-proposals#13122 qui documente cette incoherence editeur/export) -
+## ce projet n'ayant qu'un seul export (Web, voir export_presets.cfg), le symptome se voit
+## uniquement "en ligne", jamais en testant depuis l'editeur. Consequence concrete ici : dir restait
+## null (ou la liste vide) sur la version deployee -> question_pool restait vide pour les 5 PNJ ->
+## _on_interacted() ci-dessous sortait des sa toute premiere ligne (question_pool.is_empty()) sans
+## rien faire, ni signal ni erreur - d'ou l'impression d'un clic totalement mort sur les PNJ.
+## ResourceLoader.list_directory() est le contournement confirme fonctionnel a l'export (meme
+## proposition #13122) : renvoie les noms de ressources "propres" (pas de suffixe .import/.remap a
+## filtrer) avec un "/" final pour les sous-dossiers.
 func _scan_dir(dir_path: String, result: Array[QuestionResource]) -> void:
-	var dir := DirAccess.open(dir_path)
-	if dir == null:
-		return
-	dir.list_dir_begin()
-	var entry := dir.get_next()
-	while entry != "":
-		if entry.begins_with("."):
-			entry = dir.get_next()
-			continue
-		var entry_path := "%s/%s" % [dir_path, entry]
-		if dir.current_is_dir():
-			_scan_dir(entry_path, result)
+	for entry: String in ResourceLoader.list_directory(dir_path):
+		if entry.ends_with("/"):
+			_scan_dir("%s/%s" % [dir_path, entry.trim_suffix("/")], result)
 		elif entry.ends_with(".tres"):
-			var bank := load(entry_path) as QuestionBankResource
+			var bank := load("%s/%s" % [dir_path, entry]) as QuestionBankResource
 			if bank:
 				result.append_array(bank.questions)
-		entry = dir.get_next()
-	dir.list_dir_end()
 
 ## Matieres reellement disponibles pour ce PNJ (donc cette classe), deduites du contenu charge
 ## plutot que d'une liste figee a la main : une nouvelle matiere apparait automatiquement des
