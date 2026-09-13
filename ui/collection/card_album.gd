@@ -336,9 +336,19 @@ func _on_visibility_changed() -> void:
 		## avec un zoom fantome deja affiche.
 		_close_zoom()
 
+## Enumeration via ResourceLoader.list_directory(), PAS DirAccess (2026-09-13, bug "livre toujours
+## vide en ligne") : meme cause et meme correctif que le clic PNJ mort du 2026-09-12 (voir
+## question_giver_component.gd._scan_dir) - DirAccess.get_files_at()/list_dir_begin() sur un dossier
+## res:// est documente comme non fiable sur un projet EXPORTE (PCK), meme si parfaitement fiable
+## dans l'editeur (github.com/godotengine/godot #87552/#99047, godot-proposals#13122). Cette
+## fonction-ci utilisait encore l'ancienne methode : le symptome (livre vide malgre des cartes
+## bien enregistrees dans CardCollection, y compris apres rechargement) ne se voyait donc que sur
+## la version en ligne, jamais en testant depuis l'editeur - jusqu'ici passe inapercu car ce fix
+## n'avait ete applique qu'a question_giver_component.gd, pas ici. ResourceLoader.list_directory()
+## renvoie des noms "propres" (pas de suffixe .import/.remap a filtrer, pas de sous-dossier ici).
 func _load_pages() -> void:
 	var all_cards: Array[CardResource] = []
-	for file_name in DirAccess.get_files_at(CARDS_DIR):
+	for file_name in ResourceLoader.list_directory(CARDS_DIR):
 		if not file_name.ends_with(".tres"):
 			continue
 		var card := load("%s/%s" % [CARDS_DIR, file_name]) as CardResource

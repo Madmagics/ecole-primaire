@@ -1,6 +1,6 @@
 [gd_resource type="Theme" format=3 uid="uid://ry2bp6jq8416"]
 
-[ext_resource type="FontFile" uid="uid://bw6gmha2bnweb" path="res://ui/theme/fonts/Baloo2-SemiBold.ttf" id="1"]
+[ext_resource type="FontVariation" path="res://ui/theme/fonts/baloo2_fallback_emoji.tres" id="1"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_btn_disabled"]
 content_margin_left = 14.0
