@@ -13,6 +13,8 @@ config_version=5
 config/name="Projet petshop"
 run/main_scene="res://levels/school/school.tscn"
 config/features=PackedStringArray("4.7", "GL Compatibility")
+boot_splash/bg_color=Color(1, 0.941176, 0.839216, 1)
+boot_splash/image="res://assets/classe2.0/intro/chargement.png"
 config/icon="res://icon.svg"
 
 [autoload]
