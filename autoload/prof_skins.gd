@@ -69,6 +69,17 @@ func reset() -> void:
 	for grade in _unlocked.keys():
 		_unlocked[grade] = [0]
 		_active[grade] = 0
+	## BUG FIX (2026-09-13, meme famille que le correctif deserialize() du 2026-09-11 juste en
+	## dessous, retour utilisateur : "les tenues des profs ne sont pas les bonnes des la creation du
+	## compte, ce sont celle de mon compte de test") : reset() remettait _active a 0 EN MEMOIRE sans
+	## jamais emettre skin_activated, donc sans jamais prevenir ProfVisual - en restant dans la MEME
+	## session (park.tscn n'est pas recharge entre 2 comptes, voir WelcomePanel), un ProfVisual
+	## continuait donc d'afficher le skin du compte PRECEDENT apres creation/suppression/
+	## reinitialisation d'un compte (voir SaveManager.create_account()/logout()/delete_current_
+	## account()/reset_current_account_progress(), qui appellent tous reset() ici) - exactement le
+	## meme symptome, et la meme cause, que le bug deserialize() deja corrige.
+	for grade in _active.keys():
+		skin_activated.emit(grade, _active[grade])
 
 func serialize() -> Dictionary:
 	return {"unlocked": _unlocked.duplicate(true), "active": _active.duplicate(true)}

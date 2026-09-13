@@ -390,11 +390,15 @@ func _do_purchase_crate(loot_table: LootTableResource, quantity: int) -> void:
 	if not Economy.try_spend(loot_table.rarity, total_price):
 		_show_insufficient_funds()
 		return
+	## Journal d'evenements pour la synchro serveur (2026-09-13, voir SaveManager.log_event()) :
+	## juste apres la mutation reelle (Economy.try_spend ci-dessus).
+	SaveManager.log_event("depense_piece", {"rarity": int(loot_table.rarity), "montant": total_price})
 	for i in quantity:
 		var card := loot_table.draw_card()
 		if card:
 			CardCollection.add_card(card)
 			EventBus.card_obtained.emit(card)
+			SaveManager.log_event("carte_debloquee", {"card_id": str(card.id)})
 	## Recalcule le plafond +/- des autres coffres de la meme rarete (voir _refresh_crate_items) :
 	## la case achetee repart a 1, les autres voient juste leur plafond +/- recalcule.
 	_refresh_crate_items(loot_table)
@@ -479,6 +483,12 @@ func _do_prof_skin_purchase(grade: GradeLevel.Grade, skin_index: int) -> void:
 	## pas le chemin normal.
 	if ProfSkins.try_unlock(grade, skin_index):
 		SoundManager.play(SoundManager.Sfx.PURCHASE)
+		## Journal d'evenements pour la synchro serveur (2026-09-13, voir SaveManager.log_event()) :
+		## try_unlock() spend ET equipe en un seul appel (voir ProfSkins.try_unlock), donc 2
+		## evenements distincts ici pour refleter les 2 effets separement cote serveur (economy
+		## d'un cote, prof_skins de l'autre - voir schema.sql).
+		SaveManager.log_event("depense_piece", {"rarity": int(GradeLevel.get_rarity(grade)), "montant": ProfSkins.SKIN_PRICE})
+		SaveManager.log_event("achat_skin_prof", {"grade": int(grade), "skin_index": skin_index})
 	else:
 		_show_insufficient_funds()
 	_refresh_prof_skin_items()
@@ -489,6 +499,10 @@ func _do_prof_skin_purchase(grade: GradeLevel.Grade, skin_index: int) -> void:
 ## ProfSkinItem._on_pressed et le commentaire de classe) - applique et sauvegarde directement.
 func _on_prof_skin_equip_requested(grade: GradeLevel.Grade, skin_index: int) -> void:
 	ProfSkins.set_active(grade, skin_index)
+	## Journal d'evenements pour la synchro serveur (2026-09-13, voir SaveManager.log_event()) -
+	## distinct de "achat_skin_prof" ci-dessus : ici aucun achat, juste un changement d'equipement
+	## gratuit d'un skin deja possede.
+	SaveManager.log_event("skin_actif_change", {"grade": int(grade), "skin_index": skin_index})
 	_refresh_prof_skin_items()
 	SaveManager.save_current_account()
 
@@ -518,6 +532,9 @@ func _do_classroom_decor_purchase(grade: GradeLevel.Grade) -> void:
 	if not ClassroomDecor.try_unlock(grade):
 		_show_insufficient_funds(INSUFFICIENT_CHALLENGES_TEXT)
 		return
+	## Journal d'evenements pour la synchro serveur (2026-09-13, voir SaveManager.log_event()) :
+	## deblocage via les Defis, jamais de piece depensee ici (voir ClassroomDecor.try_unlock).
+	SaveManager.log_event("decor_debloque", {"grade": int(grade)})
 	SoundManager.play(SoundManager.Sfx.PURCHASE)
 	_refresh_classroom_decor_items()
 	## Sauvegarde automatique (2026-08-01) : voir le meme commentaire dans _do_purchase_crate.
@@ -537,7 +554,11 @@ func _refresh_classroom_decor_items() -> void:
 ## _on_prof_skin_equip_requested (pas de popup de confirmation, ClassroomDecor.toggle_active ne
 ## peut pas echouer sur une case debloquee).
 func _on_classroom_decor_toggle_requested(grade: GradeLevel.Grade) -> void:
-	ClassroomDecor.toggle_active(grade)
+	var new_active := ClassroomDecor.toggle_active(grade)
+	## Journal d'evenements pour la synchro serveur (2026-09-13, retour utilisateur "il faut que les
+	## options du jeu suivent partout" - voir SaveManager.log_event() et fn_pousser_evenements dans
+	## schema.sql pour la regle d'exclusivite repliquee cote serveur).
+	SaveManager.log_event("decor_actif_change", {"grade": int(grade), "actif": new_active})
 	_refresh_classroom_decor_items()
 	SaveManager.save_current_account()
 
@@ -559,6 +580,9 @@ func _do_classroom_music_purchase(grade: GradeLevel.Grade) -> void:
 	if not ClassroomMusic.try_unlock(grade):
 		_show_insufficient_funds(INSUFFICIENT_CHALLENGES_TEXT)
 		return
+	## Journal d'evenements pour la synchro serveur (2026-09-13, voir SaveManager.log_event()) :
+	## deblocage via les Defis, jamais de piece depensee ici (voir ClassroomMusic.try_unlock).
+	SaveManager.log_event("musique_debloquee", {"grade": int(grade)})
 	SoundManager.play(SoundManager.Sfx.PURCHASE)
 	_refresh_classroom_music_items()
 	## Sauvegarde automatique (2026-08-01) : voir le meme commentaire dans _do_purchase_crate.
@@ -573,7 +597,10 @@ func _refresh_classroom_music_items() -> void:
 ## Bascule active/inactive de la 2e ligne (meme mecanique que _on_classroom_decor_toggle_
 ## requested, voir son commentaire pour le detail).
 func _on_classroom_music_toggle_requested(grade: GradeLevel.Grade) -> void:
-	ClassroomMusic.toggle_active(grade)
+	var new_active := ClassroomMusic.toggle_active(grade)
+	## Journal d'evenements pour la synchro serveur (2026-09-13) - meme raison que
+	## _on_classroom_decor_toggle_requested ci-dessus.
+	SaveManager.log_event("musique_active_change", {"grade": int(grade), "actif": new_active})
 	_refresh_classroom_music_items()
 	SaveManager.save_current_account()
 

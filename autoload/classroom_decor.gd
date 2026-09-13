@@ -118,6 +118,12 @@ func reset() -> void:
 	for grade in _unlocked.keys():
 		_unlocked[grade] = false
 		_active[grade] = false
+	## Meme famille de bug que ProfSkins.reset() (voir son commentaire, 2026-09-13) : le decor visuel
+	## lui-meme n'est pas encore construit (voir le commentaire de classe), donc aucun symptome
+	## visible a ce jour - decor_activated est tout de meme emis ici par prevention, pour qu'un futur
+	## affichage de decor (equivalent de ProfVisual) n'hérite pas silencieusement du meme piege.
+	for grade in _active.keys():
+		decor_activated.emit(grade, false)
 
 func serialize() -> Dictionary:
 	return {"unlocked": _unlocked.duplicate(true), "active": _active.duplicate(true)}

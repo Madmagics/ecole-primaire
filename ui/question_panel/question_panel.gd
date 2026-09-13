@@ -657,6 +657,9 @@ func _show_result() -> void:
 	if correct == total and total > 0:
 		var subject: SubjectType.Subject = _questions[0].subject
 		var new_count := ChallengeTracker.register_success(grade, subject)
+		## Journal d'evenements pour la synchro serveur (2026-09-13, voir SaveManager.log_event()) :
+		## juste apres la mutation reelle (ChallengeTracker.register_success ci-dessus).
+		SaveManager.log_event("defi_reussi", {"grade": int(grade), "subject": int(subject), "nouveau_total": new_count})
 		var challenge_text := "Défi \"%s\" (%s) : sans faute ! %d / %d réussites" % [
 			SubjectType.get_label(subject), GradeLevel.get_label(grade), new_count, ChallengeTracker.GOLD_GOAL,
 		]

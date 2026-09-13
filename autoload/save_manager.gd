@@ -41,6 +41,19 @@ const SAVE_PATH := "user://savegame.json"
 const SALT_BYTE_LENGTH := 16
 const MIN_PASSWORD_LENGTH := 4
 
+## Longueur (en octets, voir _generate_random_hex) de l'id genere pour chaque evenement pousse au
+## serveur (voir log_event() plus bas) - identique a SALT_BYTE_LENGTH par simplicite, pas de lien
+## particulier entre les deux, juste "assez long pour ne jamais entrer en collision".
+const EVENT_ID_BYTE_LENGTH := 16
+## Intervalle (secondes) entre deux tentatives automatiques de pousser les evenements en attente
+## (voir _setup_sync_retry_timer()) - filet de secours pour le cas ou le reseau revient APRES le
+## dernier evenement/la derniere connexion (log_event()/login() tentent deja une synchro
+## immediate a chaque appel, ce timer ne fait que rattraper les cas ou aucun des deux ne s'est
+## reproduit depuis la coupure). Pas trop court : chaque tentative est une requete HTTP, inutile
+## de la refaire toutes les secondes tant que rien de nouveau n'attend d'etre envoye (voir la garde
+## "pending.is_empty()" dans _flush_pending_events()).
+const SYNC_RETRY_INTERVAL_SECONDS := 30.0
+
 ## Volume (musique ET bruitages) applique sur l'ecran d'accueil (personne connecte) et pour tout
 ## compte qui n'a pas encore choisi son propre reglage (2026-09-05, retour utilisateur : "pour
 ## l'ecran d'arrivee, jaimerai que le son et la musique soient regle de base a 50%, chaque compte
@@ -129,6 +142,9 @@ func _ready() -> void:
 	## Voir le commentaire de _on_pack_completed_for_daily_limit() plus bas (application de la
 	## limite quotidienne, 2026-09-06).
 	EventBus.pack_completed.connect(_on_pack_completed_for_daily_limit)
+	## Voir le commentaire de _setup_sync_retry_timer() plus bas (chantier "sauvegarde serveur",
+	## 2026-09-13).
+	_setup_sync_retry_timer()
 
 ## Voir le commentaire au point d'appel dans _ready(). Login silencieux (aucune UI a ce stade) sur
 ## un compte local fixe, cree au tout premier lancement puis simplement reutilise ensuite - permet
@@ -213,6 +229,10 @@ func login(login_name: String, password: String) -> bool:
 	## Memorise ce pseudo sur cet appareil (2026-09-13, voir PseudoCache) - permet l autocompletion
 	## au prochain retour sur cet ecran, voir WelcomePanel.
 	PseudoCache.remember(login_name)
+	## Rattrape tout evenement reste en attente d'une session precedente hors-ligne (voir
+	## log_event()/_flush_pending_events() plus bas, chantier "sauvegarde serveur" 2026-09-13) -
+	## sans effet (retour immediat) si la file est deja vide, jamais bloquant pour ce login.
+	_flush_pending_events()
 	return true
 
 ## Cree un nouveau compte et connecte immediatement dessus. [profile] attend les cles nom/prenom/
@@ -251,6 +271,13 @@ func create_account(login_name: String, password: String, profile: Dictionary) -
 		"prof_skins": ProfSkins.serialize(),
 		"classroom_decor": ClassroomDecor.serialize(),
 		"classroom_music": ClassroomMusic.serialize(),
+		## Chantier "sauvegarde serveur" (2026-09-13, voir log_event()/_flush_pending_events() plus
+		## bas) : "sync_jeton" est le jeton de session Supabase courant (vide tant qu'aucune synchro
+		## n'a encore reussi, voir _ensure_server_session()) ; "sync_evenements" est la file locale
+		## des evenements pas encore confirmes par le serveur (voir fn_pousser_evenements dans
+		## schema.sql) - vide a la creation, se remplit au premier gain de pieces/carte/etc.
+		"sync_jeton": "",
+		"sync_evenements": [],
 	}
 	_accounts.append(account)
 	current_account_id = account["id"]
@@ -259,6 +286,15 @@ func create_account(login_name: String, password: String, profile: Dictionary) -
 	_save_to_disk()
 	account_logged_in.emit(account["profile"])
 	PseudoCache.remember(trimmed_login)
+	## Enregistre le compte cote serveur DES MAINTENANT, sans attendre un premier evenement de
+	## progression (2026-09-13, retour utilisateur : une maitresse qui cree des comptes en serie
+	## pour toute sa classe ne va pas elle-meme "jouer" pour declencher la 1ere synchro - voir
+	## _ensure_server_session()/log_event() plus bas, qui ne synchronisaient jusqu'ici qu'au premier
+	## gain de piece/achat/etc. - un enfant doit pouvoir se connecter et retrouver son compte, meme
+	## encore vide, depuis un AUTRE appareil des la creation). Fire-and-forget (voir
+	## _register_account_on_server() plus bas) : jamais bloquant, la creation locale a deja reussi
+	## juste au-dessus et l'ecran a deja bascule sur le jeu, meme hors-ligne.
+	_register_account_on_server(_accounts.size() - 1)
 	return ""
 
 ## Deconnecte le compte courant (sauvegarde d'abord sa progression) et remet Economy/
@@ -502,11 +538,17 @@ func delete_current_account() -> void:
 	var index := _current_account_index()
 	if index == -1:
 		return
+	## Instantane des identifiants AVANT de retirer le compte localement (necessaire pour tenter une
+	## suppression cote serveur juste apres, voir _delete_account_on_server() plus bas - le compte
+	## n'existera plus dans _accounts une fois cette fonction terminee).
+	var login_snapshot := String(_accounts[index].get("login", ""))
+	var mdp_hash_snapshot := String(_accounts[index].get("password_hash", ""))
+	var jeton_snapshot := String(_accounts[index].get("sync_jeton", ""))
 	## Oublie ce pseudo du cache local AVANT de retirer le compte (2026-09-13, retour utilisateur :
 	## un pseudo supprime restait propose par l'autocompletion de WelcomePanel, mais toute tentative
 	## de connexion avec echouait ensuite avec "Pseudo ou mot de passe incorrect", puisque le compte
 	## n'existe plus) - voir PseudoCache.forget().
-	PseudoCache.forget(String(_accounts[index].get("login", "")))
+	PseudoCache.forget(login_snapshot)
 	_accounts.remove_at(index)
 	current_account_id = ""
 	Economy.reset()
@@ -519,6 +561,33 @@ func delete_current_account() -> void:
 	_reset_theme_to_default()
 	_save_to_disk()
 	account_logged_out.emit()
+	## Suppression cote serveur en tache de fond, best-effort (2026-09-13, retour utilisateur "la
+	## suppression se fait correctement en local mais pas sur le serveur Supabase" - AUCUNE fonction
+	## serveur n'existait pour ca, voir fn_supprimer_compte dans schema.sql). Volontairement PAS
+	## awaited ici (meme principe que log_event()/_flush_pending_events()) : le compte est deja
+	## supprime localement et l'ecran est deja revenu a WelcomePanel, la suppression serveur ne doit
+	## jamais faire attendre le joueur. CHOIX UTILISATEUR (2026-09-13) : pas de file de retry
+	## persistee si ca echoue (hors-ligne pile a cet instant) - la suppression passe deja par le
+	## portail parental et se fait normalement en jouant en ligne, un compte orphelin cote serveur
+	## dans ce cas rare est assume comme limite connue plutot que de complexifier le code pour un
+	## cas jugee marginal.
+	if not login_snapshot.is_empty() and not mdp_hash_snapshot.is_empty():
+		_delete_account_on_server(login_snapshot, mdp_hash_snapshot, jeton_snapshot)
+
+## Tente de supprimer [login_snapshot] cote serveur - obtient un jeton de session si besoin, meme
+## logique que _ensure_server_session() mais sans dependre d'un index dans _accounts (le compte a
+## deja ete retire localement quand cette fonction s'execute, voir delete_current_account()).
+## Ne cree JAMAIS de compte manquant a la difference de _ensure_server_session() : un compte qui
+## n'existait pas encore cote serveur n'a par definition rien a y supprimer.
+func _delete_account_on_server(login_snapshot: String, mdp_hash_snapshot: String, jeton_snapshot: String) -> void:
+	var jeton := jeton_snapshot
+	if jeton.is_empty():
+		var login_result := await ServerApi.login(login_snapshot, mdp_hash_snapshot)
+		if not login_result.get("ok", false):
+			return # hors-ligne, VPS injoignable, ou compte jamais synchronise (rien a supprimer alors)
+		var data: Dictionary = login_result.get("data", {})
+		jeton = String(data.get("jeton", ""))
+	await ServerApi.supprimer_compte(jeton)
 
 func _current_account_index() -> int:
 	for i in _accounts.size():
@@ -533,6 +602,177 @@ func _apply_account_to_runtime(account: Dictionary) -> void:
 	ProfSkins.deserialize(account.get("prof_skins", {}))
 	ClassroomDecor.deserialize(account.get("classroom_decor", {}))
 	ClassroomMusic.deserialize(account.get("classroom_music", {}))
+
+## --- Synchronisation serveur (2026-09-13) ---
+##
+## Journal d'evenements idempotent (voir server/schema.sql et project_save_sync_architecture.md en
+## memoire projet) : chaque mutation de progression (gain/depense de pieces, carte debloquee, Defi
+## reussi, achat/reequipement de skin de prof, deblocage/activation d'un decor ou d'une musique de
+## classe) est journalisee ICI via log_event(), appelee par les points d'appel existants juste apres
+## chaque mutation (voir question_giver_component.gd/question_panel.gd/shop_panel.gd) - PAS ecoutee
+## via un signal (EventBus ou autre) : certains signaux d'autoload (ex. ProfSkins.skin_activated)
+## sont aussi emis au CHARGEMENT d'un compte (_apply_account_to_runtime -> deserialize) pour
+## rafraichir l'affichage, ce qui creerait de faux evenements a chaque connexion si on les ecoutait
+## ici - l'appel explicite au point d'action reste la seule source fiable de "ceci vient vraiment de
+## se produire maintenant".
+##
+## JAMAIS BLOQUANT (voir ServerApi, meme principe) : aucune fonction de cette section ne fait
+## planter/attendre l'appelant en cas de probleme reseau - le jeu reste 100% jouable hors-ligne, les
+## evenements non confirmes restent simplement dans la file locale (persistee sur disque comme le
+## reste du compte, voir "sync_evenements" dans create_account()) jusqu'a la prochaine tentative
+## reussie (prochain evenement, prochaine connexion, ou le minuteur de _setup_sync_retry_timer()).
+
+## Cree un minuteur qui retente periodiquement d'envoyer la file d'evenements en attente (voir le
+## commentaire de SYNC_RETRY_INTERVAL_SECONDS) - filet de secours pour le cas ou le reseau revient
+## sans qu'aucun nouvel evenement/connexion ne se produise entre-temps. _flush_pending_events()
+## ressort immediatement si la file est vide (cas normal la plupart du temps), ce minuteur ne coute
+## donc quasiment rien quand tout est deja synchronise.
+func _setup_sync_retry_timer() -> void:
+	var timer := Timer.new()
+	timer.wait_time = SYNC_RETRY_INTERVAL_SECONDS
+	timer.autostart = true
+	timer.timeout.connect(_flush_pending_events)
+	add_child(timer)
+
+## Ajoute un evenement a la file d'attente du compte CONNECTE et tente aussitot un envoi en
+## arriere-plan (voir _flush_pending_events()) - ne fait rien si personne n'est connecte, meme garde
+## que save_current_account(). [event_type] doit etre une des valeurs de l'enum type_evenement de
+## schema.sql (ex. "gain_piece"), [payload] son contenu associe (voir l'en-tete de
+## fn_pousser_evenements dans schema.sql pour le detail attendu par type). Persiste tout de suite
+## sur disque (comme save_current_account()) : un evenement ne doit jamais pouvoir se perdre entre
+## le moment ou il est journalise ici et la prochaine sauvegarde "normale" faite par l'appelant,
+## meme si en pratique tous les points d'appel actuels sauvegardent deja juste apres.
+func log_event(event_type: String, payload: Dictionary) -> void:
+	var index := _current_account_index()
+	if index == -1:
+		return
+	var event := {
+		"id": _generate_random_hex(EVENT_ID_BYTE_LENGTH),
+		"type": event_type,
+		"payload": payload,
+		"horodatage_client": Time.get_datetime_string_from_system(true) + "Z",
+	}
+	var pending: Array = _accounts[index].get("sync_evenements", [])
+	pending.append(event)
+	_accounts[index]["sync_evenements"] = pending
+	_save_to_disk()
+	_flush_pending_events()
+
+## true pendant qu'une synchro (fn_pousser_evenements) est deja en vol pour ce compte_id (cle) -
+## evite d'en lancer une deuxieme en parallele pour le MEME compte (deux lots concurrents pourraient
+## sinon se marcher dessus sur la meme file locale, l'un retirant des evenements pendant que l'autre
+## les relit encore). Pas de probleme en revanche si deux comptes DIFFERENTS synchronisaient en
+## meme temps (n'arrive de toute facon jamais dans ce jeu, un seul compte connecte a la fois) -
+## Dictionary plutot qu'un simple bool pour rester correct si ce jour arrivait.
+var _sync_en_cours: Dictionary = {}
+
+## Point d'entree "tenter une synchro maintenant" - appele par log_event()/login() a chaque action
+## pertinente, et par le minuteur de secours (_setup_sync_retry_timer()). Toujours sans risque a
+## appeler "pour rien" (ressort immediatement si rien n'attend d'etre envoye, ou si une synchro pour
+## ce compte est deja en cours) : c'est ce qui permet a tous ces points d'appel differents de
+## coexister sans logique de coordination entre eux.
+func _flush_pending_events() -> void:
+	var index := _current_account_index()
+	if index == -1:
+		return
+	var account_id := current_account_id
+	var pending: Array = _accounts[index].get("sync_evenements", [])
+	if pending.is_empty():
+		return
+	if _sync_en_cours.get(account_id, false):
+		return
+	_sync_en_cours[account_id] = true
+	await _do_flush(index, account_id, pending)
+	_sync_en_cours.erase(account_id)
+
+## Coeur de la synchro : s'assure d'une session serveur valide (voir _ensure_server_session()) puis
+## pousse [sent_events] (l'instantane de la file au moment ou _flush_pending_events() a demarre).
+## Relit l'index/la file APRES chaque attente reseau plutot que de garder les references initiales :
+## le joueur a pu se deconnecter, changer de compte, ou journaliser de nouveaux evenements pendant
+## que cette fonction etait suspendue en attente d'une reponse HTTP (voir les gardes
+## "String(...) != account_id" ci-dessous).
+func _do_flush(index: int, account_id: String, sent_events: Array) -> void:
+	if not await _ensure_server_session(index):
+		return # hors-ligne ou VPS injoignable - _flush_pending_events() retentera plus tard
+	var index_now := _current_account_index()
+	if index_now == -1 or String(_accounts[index_now].get("id", "")) != account_id:
+		return # le compte connecte a change pendant l'attente reseau ci-dessus
+	var jeton: String = _accounts[index_now].get("sync_jeton", "")
+	var result := await ServerApi.pousser_evenements(jeton, sent_events)
+
+	index_now = _current_account_index()
+	if index_now == -1 or String(_accounts[index_now].get("id", "")) != account_id:
+		return # idem, verifie une 2e fois : cette attente reseau a pu, elle aussi, chevaucher un changement de compte
+
+	if not result.get("ok", false):
+		## "session_expiree" : le jeton est perime (>48h, voir fn_login dans schema.sql) - on l'efface
+		## pour qu'_ensure_server_session() en redemande un neuf au prochain essai. Toute autre erreur
+		## (reseau, ou refus serveur inattendu) : on ne touche a rien, la file entiere reste en
+		## attente pour le prochain essai (le minuteur de secours s'en chargera).
+		if result.get("type", "") == "serveur" and result.get("message", "") == "session_expiree":
+			_accounts[index_now]["sync_jeton"] = ""
+		return
+
+	## Le serveur a traite tout le lot envoye (accepte comme nouveau OU deja vu, voir le commentaire
+	## de fn_pousser_evenements dans schema.sql - "ids_appliques" ne liste que les evenements
+	## REELLEMENT nouveaux, mais un evenement "deja vu" ne doit de toute facon plus jamais etre
+	## repousse) : on retire de la file COURANTE tout evenement dont l'id figurait dans [sent_events],
+	## plutot que de filtrer sur "ids_appliques" - la file courante peut contenir des evenements plus
+	## recents journalises PENDANT cette requete (voir log_event()), qui doivent rester.
+	var sent_ids := {}
+	for evt in sent_events:
+		sent_ids[evt["id"]] = true
+	var still_pending: Array = []
+	for evt in (_accounts[index_now].get("sync_evenements", []) as Array):
+		if not sent_ids.has(evt["id"]):
+			still_pending.append(evt)
+	_accounts[index_now]["sync_evenements"] = still_pending
+	_save_to_disk()
+
+## Wrapper fire-and-forget autour de _ensure_server_session() (2026-09-13, voir le commentaire au
+## point d'appel dans create_account()) - une fonction async appelee SANS await depuis un contexte
+## synchrone tourne deja en tache de fond en GDScript (meme principe que _flush_pending_events()
+## appelee sans await par log_event(), ou _delete_account_on_server() par delete_current_account()),
+## mais _ensure_server_session() renvoie un bool : l'appeler telle quelle comme instruction autonome
+## depuis create_account() (qui n'a besoin d'aucun resultat ici) declenche un avertissement GDScript
+## "valeur de retour ignoree" - ce petit wrapper qui ne renvoie rien evite juste ca proprement.
+func _register_account_on_server(index: int) -> void:
+	await _ensure_server_session(index)
+
+## S'assure que _accounts[index]["sync_jeton"] contient un jeton de session valide, en obtenant un
+## nouveau si necessaire (jeton absent ou efface suite a "session_expiree", voir _do_flush()).
+## Renvoie false SANS lever d'erreur en cas de probleme reseau (voir le commentaire de section) -
+## l'appelant retentera plus tard. Enregistre RETROACTIVEMENT le compte cote serveur si besoin (voir
+## le bloc "identifiants_invalides" ci-dessous) : un compte cree AVANT ce chantier, ou jamais
+## synchronise faute de reseau jusqu'ici, n'existe pas encore dans la table `comptes` - fn_creer_
+## compte est idempotent sur l'id (voir schema.sql) donc rejouer cet appel plus tard, si jamais il
+## avait deja reussi sans que ce client l'ait su, ne cree jamais de doublon.
+func _ensure_server_session(index: int) -> bool:
+	if not String(_accounts[index].get("sync_jeton", "")).is_empty():
+		return true
+
+	var account_id := String(_accounts[index].get("id", ""))
+	var login_name := String(_accounts[index].get("login", ""))
+	var mdp_hash := String(_accounts[index].get("password_hash", ""))
+	var mdp_sel := String(_accounts[index].get("password_salt", ""))
+
+	var login_result := await ServerApi.login(login_name, mdp_hash)
+	if not login_result.get("ok", false):
+		if login_result.get("type", "") != "serveur" or login_result.get("message", "") != "identifiants_invalides":
+			return false # hors-ligne, ou refus serveur inattendu - on ne tente pas de creer/recreer dans ce cas
+		var create_result := await ServerApi.creer_compte(account_id, login_name, mdp_hash, mdp_sel)
+		if not create_result.get("ok", false):
+			return false
+		login_result = await ServerApi.login(login_name, mdp_hash)
+		if not login_result.get("ok", false):
+			return false
+
+	var index_now := _current_account_index()
+	if index_now == -1 or String(_accounts[index_now].get("id", "")) != account_id:
+		return true # le compte a change pendant l'attente reseau - la connexion a quand meme reussi, juste inutile a stocker ici
+	var data: Dictionary = login_result.get("data", {})
+	_accounts[index_now]["sync_jeton"] = String(data.get("jeton", ""))
+	return true
 
 ## --- Persistance disque ---
 

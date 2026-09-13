@@ -1,8 +1,9 @@
-[gd_resource type="FontVariation" load_steps=3 format=3]
+[gd_resource type="FontVariation" load_steps=4 format=3]
 
 [ext_resource type="FontFile" uid="uid://bw6gmha2bnweb" path="res://ui/theme/fonts/Baloo2-SemiBold.ttf" id="1"]
 [ext_resource type="FontFile" uid="uid://cg0otaxws5gwk" path="res://ui/theme/fonts/NotoEmoji.ttf" id="2"]
+[ext_resource type="FontFile" path="res://ui/theme/fonts/NotoSansSymbols2.ttf" id="3"]
 
 [resource]
 base_font = ExtResource("1")
-fallbacks = Array[Font]([ExtResource("2")])
+fallbacks = Array[Font]([ExtResource("2"), ExtResource("3")])

@@ -115,6 +115,11 @@ func reset() -> void:
 	for grade in _unlocked.keys():
 		_unlocked[grade] = false
 		_active[grade] = false
+	## Meme famille de bug que ProfSkins.reset() (voir son commentaire, 2026-09-13) - meme raison que
+	## ClassroomDecor.reset() ci-dessus (voir son commentaire) : musique_activated emis par
+	## prevention, la musique de classe n'etant pas non plus encore appliquee visuellement/sonorement.
+	for grade in _active.keys():
+		music_activated.emit(grade, false)
 
 func serialize() -> Dictionary:
 	return {"unlocked": _unlocked.duplicate(true), "active": _active.duplicate(true)}

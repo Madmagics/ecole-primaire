@@ -371,6 +371,9 @@ func resolve_pack(source: Node, correct_count: int) -> void:
 	var reward := CardRarity.get_pack_reward(_rarity, correct_count, _current_pack_size)
 	if reward > 0:
 		Economy.add_coins(_rarity, reward)
+		## Journal d'evenements pour la synchro serveur (2026-09-13, voir SaveManager.log_event()) :
+		## juste apres la mutation reelle (Economy.add_coins ci-dessus), jamais avant.
+		SaveManager.log_event("gain_piece", {"rarity": int(_rarity), "montant": reward})
 	EventBus.pack_completed.emit(_current_subject, _rarity, correct_count, _current_pack_size, reward)
 	## Sauvegarde automatique (2026-08-01) : un pack reussi met a jour les pieces (Economy) et les
 	## statistiques (StatsTracker, deja a jour a ce stade - il ecoute ce meme signal
