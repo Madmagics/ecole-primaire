@@ -37,6 +37,15 @@ func _ready() -> void:
 	quit_button.pressed.connect(_on_quit_pressed)
 	cancel_button.pressed.connect(close)
 	visibility_changed.connect(_on_visibility_changed)
+	## Bouton "Quitter le jeu" retire sur la version Web (2026-09-12, meme retour utilisateur que
+	## pour WelcomePanel.QuitterButton, voir son commentaire) : get_tree().quit() ne fait que figer
+	## la boucle du moteur sans jamais fermer l'onglet sur export Web (comportement documente, pas un
+	## bug - github.com/godotengine/godot issues #42783/#23010), et fermer l'onglet par script est
+	## bloque par tous les navigateurs pour un onglet ouvert normalement par le joueur (voir
+	## developer.mozilla.org/docs/Web/API/Window/close). On masque donc uniquement QuitButton ;
+	## LogoutButton et CancelButton restent disponibles pour se deconnecter ou annuler.
+	if OS.has_feature("web"):
+		quit_button.hide()
 
 func open() -> void:
 	show()

@@ -216,6 +216,18 @@ func _ready() -> void:
 
 	enter_button.pressed.connect(_on_enter_pressed)
 	quit_button.pressed.connect(_on_quit_pressed)
+	## Bouton "Quitter" retire sur la version Web (2026-09-12, retour utilisateur : "Quitter" fige
+	## la page d'intro au lieu de fermer quoi que ce soit) : get_tree().quit() arrete la boucle du
+	## moteur mais ne ferme jamais l'onglet - comportement documente du moteur sur export Web, pas
+	## un bug (voir github.com/godotengine/godot issues #42783/#23010). Fermer l'onglet par script
+	## (JavaScriptBridge.eval("window.close()")) ne fonctionnerait pas non plus : un navigateur ne
+	## laisse un site fermer par script que les onglets QU'IL A LUI-MEME ouverts par script, jamais
+	## un onglet ouvert normalement par le joueur (URL tapee, favori, lien) - restriction de securite
+	## de tous les navigateurs, voir developer.mozilla.org/docs/Web/API/Window/close. "Quitter"
+	## n'ayant donc pas de sens dans un onglet de navigateur, on le masque entierement sur le web ;
+	## HBoxContainer (intro_menu) recentre automatiquement EntrerButton une fois QuitterButton caché.
+	if OS.has_feature("web"):
+		quit_button.hide()
 	## Meme convention que ReadingIntroPanel/QuestionPanel/SubjectSelectPanel (HeaderRow + CloseButton
 	## en haut a droite) - retour utilisateur : "ajoute une croix de fermeture a la fenetre en haut a
 	## droite" (2026-09-04). Revient a l'ecran d'intro (les 2 gros boutons), PAS hide() : ce formulaire
