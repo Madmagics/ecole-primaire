@@ -1,7 +1,7 @@
-## Client HTTP vers les fonctions RPC Supabase (voir server/schema.sql pour le detail des 6
+## Client HTTP vers les fonctions RPC Supabase (voir server/schema.sql pour le detail des 9
 ## fonctions fn_obtenir_sel/fn_creer_compte/fn_login/fn_pousser_evenements/fn_recuperer_progression/
-## fn_supprimer_compte, toutes exposees automatiquement par PostgREST comme endpoints POST
-## /rest/v1/rpc/<nom_fonction>).
+## fn_supprimer_compte/fn_maj_profil/fn_pulse_session/fn_deconnecter, toutes exposees
+## automatiquement par PostgREST comme endpoints POST /rest/v1/rpc/<nom_fonction>).
 ## Autoload volontairement mince (meme principe qu'Economy/CardCollection : pas de logique metier
 ## lourde) : encapsule uniquement le TRANSPORT (HTTPRequest, en-tetes, parsing JSON, distinction
 ## erreur reseau / erreur serveur) - aucune logique de sauvegarde/file d'evenements ici, ca reste le
@@ -81,6 +81,27 @@ func recuperer_progression(p_jeton: String) -> Dictionary:
 ## cascade cote SQL, voir fn_supprimer_compte dans schema.sql) - data (si ok) : {"ok": true}.
 func supprimer_compte(p_jeton: String) -> Dictionary:
 	return await _call_rpc("fn_supprimer_compte", {"p_jeton": p_jeton})
+
+## Remplace le profil (nom/prenom/classe/date de naissance/pays + controle parental/limite
+## quotidienne, voir SaveManager.update_current_profile()) du compte associe au jeton - data (si ok)
+## : {"ok": true}. Chantier "connexion cross-device" 2026-09-13, voir fn_maj_profil dans schema.sql
+## pour le detail (remplacement complet, pas de fusion cle par cle).
+func maj_profil(p_jeton: String, p_profil: Dictionary) -> Dictionary:
+	return await _call_rpc("fn_maj_profil", {"p_jeton": p_jeton, "p_profil": p_profil})
+
+## "Battement de coeur" de presence (chantier "conflit de connexion" 2026-09-13, voir fn_pulse_session
+## dans schema.sql) - rafraichit derniere_activite pour ce jeton, sans rien lire/ecrire d'autre. A
+## appeler periodiquement tant qu'un compte est connecte, voir SaveManager._send_session_heartbeat().
+func pulse_session(p_jeton: String) -> Dictionary:
+	return await _call_rpc("fn_pulse_session", {"p_jeton": p_jeton})
+
+## Libere immediatement la session associee au jeton (chantier "conflit de connexion" 2026-09-13,
+## voir fn_deconnecter dans schema.sql) - a appeler sur une deconnexion VOLONTAIRE (SaveManager.
+## logout()) pour que ce compte redevienne connectable ailleurs sans attendre l'expiration naturelle
+## de la presence. Idempotente/best-effort (data (si ok) : {"ok": true} meme sur un jeton deja
+## absent/expire).
+func deconnecter(p_jeton: String) -> Dictionary:
+	return await _call_rpc("fn_deconnecter", {"p_jeton": p_jeton})
 
 ## Coeur du client : POST vers BASE_URL + [fn_name], [params] comme corps JSON - les cles de
 ## [params] doivent correspondre EXACTEMENT aux noms de parametres SQL (p_xxx compris), c'est la

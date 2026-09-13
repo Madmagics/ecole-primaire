@@ -27,6 +27,15 @@
 -- Ce fichier reste la référence texte du schéma complet voulu (utile pour une réinstallation sur
 -- une instance neuve), mais toute évolution sur l'instance existante se déploie désormais en
 -- collant SEULEMENT le nouveau bloc CREATE OR REPLACE FUNCTION concerné dans Supabase Studio.
+--
+-- AJOUT (2026-09-13, chantiers "connexion cross-device" complète + "conflit de connexion") : sur
+-- l'instance déjà déployée, coller UNIQUEMENT, dans cet ordre, le ALTER TABLE sur "sessions" puis
+-- chaque CREATE OR REPLACE FUNCTION modifié/ajouté par ces 2 chantiers (fn_login, fn_maj_profil,
+-- fn_pulse_session, fn_deconnecter, fn_pousser_evenements, fn_recuperer_progression) - PAS ce
+-- fichier en entier, pour la même raison que ci-dessus.
+drop function if exists fn_deconnecter(text);
+drop function if exists fn_pulse_session(text);
+drop function if exists fn_maj_profil(text, jsonb);
 drop function if exists fn_supprimer_compte(text);
 drop function if exists fn_pousser_evenements(text, jsonb);
 drop function if exists fn_recuperer_progression(text);
@@ -94,15 +103,22 @@ create table if not exists evenements (
 );
 create index if not exists evenements_compte_recu_idx on evenements (compte_id, recu_le);
 
--- 4. sessions — jetons de connexion de courte durée (48h), évite de faire circuler mdp_hash partout
+-- 4. sessions — jetons de connexion de courte durée (48h), évite de faire circuler mdp_hash partout.
+-- derniere_activite (ajoutée le 2026-09-13, chantier "conflit de connexion") : distincte de
+-- expire_le - expire_le borne la durée de vie du JETON comme identifiant (48h, pour la synchro en
+-- tâche de fond même app fermée puis rouverte), derniere_activite mesure la PRESENCE réelle
+-- (rafraîchie par fn_login/fn_pulse_session/fn_pousser_evenements/fn_recuperer_progression), voir
+-- fn_login pour la fenêtre de tolérance utilisée pour juger un compte "déjà connecté".
 create table if not exists sessions (
 	jeton               text primary key,
 	compte_id           text not null references comptes(id) on delete cascade,
 	cree_le             timestamptz not null default now(),
-	expire_le           timestamptz not null
+	expire_le           timestamptz not null,
+	derniere_activite   timestamptz not null default now()
 );
 create index if not exists sessions_compte_idx on sessions (compte_id);
 create index if not exists sessions_expire_idx on sessions (expire_le);
+create index if not exists sessions_activite_idx on sessions (compte_id, derniere_activite);
 
 -- ============================================================================
 -- Sécurité : RLS fermée sur les 4 tables, aucun accès direct via la clé anon publique. Tout passe
@@ -218,6 +234,24 @@ $$;
 -- ============================================================================
 -- fn_login : verifie le hash (deja calcule cote client avec le sel obtenu via fn_obtenir_sel),
 -- emet un jeton de session. Purge paresseuse des jetons expires au passage.
+--
+-- MODIFIEE le 2026-09-13 (2 chantiers a la fois, voir project_save_sync_architecture.md en memoire
+-- projet) :
+-- 1. "profil" ajoute au retour jsonb - necessaire pour qu'un appareil qui recupere un compte
+--    EXISTANT (connexion cross-device, un pseudo inconnu de cet appareil) restaure aussi
+--    nom/prenom/classe/date de naissance/pays ET le controle parental (mot de passe/limite
+--    quotidienne, stockes dans ce meme "profil" cote client - voir SaveManager) - avant cette
+--    modification, seule la PROGRESSION de jeu (via fn_recuperer_progression) etait recuperee.
+-- 2. "compte_deja_connecte" : refuse la connexion si une AUTRE session de ce compte est encore
+--    active a l'instant (derniere_activite recente, voir la colonne ajoutee sur "sessions" et
+--    v_delai_presence ci-dessous) - evite que 2 appareils jouent SIMULTANEMENT sur le meme compte
+--    (conflit d'ecriture sur la progression). Le seuil (90s) tolere 2-3 battements de coeur
+--    manques (SaveManager.pulse_session(), toutes les 30s cote client, voir
+--    SYNC_RETRY_INTERVAL_SECONDS) avant de considerer une session comme abandonnee (app fermee/
+--    crashee sans deconnexion propre) - LIMITE CONNUE ET ASSUMEE : apres une fermeture brutale
+--    (pas de clic sur "Se deconnecter"), CE MEME appareil doit attendre jusqu'a 90s avant de
+--    pouvoir se reconnecter au meme compte. fn_deconnecter (voir plus bas) libere la session
+--    IMMEDIATEMENT sur une deconnexion volontaire, pour eviter cette attente dans le cas normal.
 -- ============================================================================
 create or replace function fn_login(p_login text, p_mdp_hash text)
 returns jsonb
@@ -228,21 +262,116 @@ as $$
 declare
 	v_compte_id text;
 	v_jeton text;
+	v_profil jsonb;
+	v_deja_connecte boolean;
+	-- Fenetre de tolerance de presence (voir commentaire de fonction ci-dessus) - reprise a
+	-- l'identique dans fn_pulse_session plus bas, aucune autre fonction n'a besoin de la connaitre.
+	v_delai_presence interval := interval '90 seconds';
 begin
 	delete from sessions where expire_le < now();
 
-	select id into v_compte_id from comptes
+	select id, profil into v_compte_id, v_profil from comptes
 	where login_normalise = lower(p_login) and mdp_hash = p_mdp_hash;
 
 	if v_compte_id is null then
 		raise exception 'identifiants_invalides';
 	end if;
 
-	v_jeton := encode(gen_random_bytes(32), 'hex');
-	insert into sessions (jeton, compte_id, expire_le)
-	values (v_jeton, v_compte_id, now() + interval '48 hours');
+	select exists(
+		select 1 from sessions
+		where compte_id = v_compte_id and derniere_activite > now() - v_delai_presence
+	) into v_deja_connecte;
+	if v_deja_connecte then
+		raise exception 'compte_deja_connecte';
+	end if;
 
-	return jsonb_build_object('jeton', v_jeton, 'compte_id', v_compte_id);
+	v_jeton := encode(gen_random_bytes(32), 'hex');
+	insert into sessions (jeton, compte_id, expire_le, derniere_activite)
+	values (v_jeton, v_compte_id, now() + interval '48 hours', now());
+
+	return jsonb_build_object('jeton', v_jeton, 'compte_id', v_compte_id, 'profil', v_profil);
+end;
+$$;
+
+-- ============================================================================
+-- fn_maj_profil : remplace le "profil" du compte (nom/prenom/classe/date de naissance/pays +
+-- controle parental/limite quotidienne, voir SaveManager - c'est le MEME dictionnaire cote client,
+-- pousse ici tel quel). Ajoutee le 2026-09-13 : jusqu'ici, "profil" n'etait ecrit qu'UNE FOIS a la
+-- creation du compte (fn_creer_compte) et ne recevait plus jamais aucune mise a jour ulterieure -
+-- une modification du profil (classe, controle parental, limite quotidienne...) APRES la creation
+-- ne suivait donc PAS sur un autre appareil. Remplacement complet (pas de fusion cle par cle) : le
+-- client envoie deja le dictionnaire "profile" complet a chaque appel (voir
+-- SaveManager.update_current_profile()), le meme choix que le client fait deja localement.
+-- Rafraichit aussi derniere_activite au passage (une mise a jour de profil est une preuve de
+-- presence comme une autre, voir fn_login pour le detail de cette mecanique).
+-- ============================================================================
+create or replace function fn_maj_profil(p_jeton text, p_profil jsonb)
+returns jsonb
+language plpgsql
+security definer
+set search_path = public, extensions
+as $$
+declare
+	v_compte_id text;
+begin
+	select compte_id into v_compte_id from sessions
+	where jeton = p_jeton and expire_le > now();
+	if v_compte_id is null then
+		raise exception 'session_expiree';
+	end if;
+
+	update comptes set profil = p_profil, maj_le = now() where id = v_compte_id;
+	update sessions set derniere_activite = now() where jeton = p_jeton;
+
+	return jsonb_build_object('ok', true);
+end;
+$$;
+
+-- ============================================================================
+-- fn_pulse_session : "battement de coeur" de presence (chantier "conflit de connexion", voir
+-- fn_login ci-dessus) - rafraichit derniere_activite pour un jeton encore valide, sans rien lire ni
+-- ecrire d'autre. Appelee par SaveManager toutes les SYNC_RETRY_INTERVAL_SECONDS (30s) tant qu'un
+-- compte est connecte ET qu'un jeton est deja disponible localement (jamais de creation de session
+-- ici, voir fn_login pour ca).
+-- ============================================================================
+create or replace function fn_pulse_session(p_jeton text)
+returns jsonb
+language plpgsql
+security definer
+set search_path = public, extensions
+as $$
+declare
+	v_compte_id text;
+begin
+	update sessions set derniere_activite = now()
+	where jeton = p_jeton and expire_le > now()
+	returning compte_id into v_compte_id;
+
+	if v_compte_id is null then
+		raise exception 'session_expiree';
+	end if;
+
+	return jsonb_build_object('ok', true);
+end;
+$$;
+
+-- ============================================================================
+-- fn_deconnecter : libere IMMEDIATEMENT la session (chantier "conflit de connexion", voir fn_login
+-- ci-dessus) - appelee par SaveManager.logout() sur une deconnexion VOLONTAIRE, pour que cet
+-- appareil (ou un autre) puisse se reconnecter au meme compte sans attendre l'expiration naturelle
+-- de la presence (90s, voir fn_login). Idempotente/best-effort a dessein (meme principe que
+-- fn_supprimer_compte pour la logique de suppression cote client) : un jeton deja absent/expire ne
+-- leve PAS d'erreur, la deconnexion locale ne doit jamais rester bloquee sur ca.
+-- ============================================================================
+create or replace function fn_deconnecter(p_jeton text)
+returns jsonb
+language plpgsql
+security definer
+set search_path = public, extensions
+as $$
+begin
+	delete from sessions where jeton = p_jeton;
+	return jsonb_build_object('ok', true);
 end;
 $$;
 
@@ -264,6 +393,9 @@ begin
 	if v_compte_id is null then
 		raise exception 'session_expiree';
 	end if;
+	-- Preuve de presence (2026-09-13, chantier "conflit de connexion", voir fn_login) - meme
+	-- raison que dans fn_pousser_evenements ci-dessus.
+	update sessions set derniere_activite = now() where jeton = p_jeton;
 
 	select * into v_ligne from progressions where compte_id = v_compte_id;
 	if not found then
@@ -334,6 +466,10 @@ begin
 	if v_compte_id is null then
 		raise exception 'session_expiree';
 	end if;
+	-- Preuve de presence (2026-09-13, chantier "conflit de connexion", voir fn_login) - une poussee
+	-- d'evenements est une activite comme une autre, pas la peine d'attendre le prochain
+	-- fn_pulse_session() dedie pour la refleter.
+	update sessions set derniere_activite = now() where jeton = p_jeton;
 
 	for v_evt in select * from jsonb_array_elements(p_evenements)
 	loop

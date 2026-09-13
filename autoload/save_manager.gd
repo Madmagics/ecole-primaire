@@ -123,6 +123,14 @@ var _accounts: Array[Dictionary] = []
 ## Id du compte actuellement connecte, ou "" si personne n'est connecte (WelcomePanel visible).
 var current_account_id: String = ""
 
+## Motif du dernier echec de login() (2026-09-13, chantier "conflit de connexion") - vide des le
+## debut de chaque appel a login()/_login_from_server(), rempli UNIQUEMENT sur un refus serveur
+## explicite "compte_deja_connecte" (voir ces deux fonctions plus bas). WelcomePanel s'en sert pour
+## distinguer ce cas d'un simple pseudo/mot de passe incorrect - contrairement a ce dernier cas
+## (volontairement indistinct, voir login()), un joueur qui vient de taper SES BONS identifiants
+## merite de savoir pourquoi il ne rentre pas, ce n'est pas une information a proteger.
+var last_login_error: String = ""
+
 func _ready() -> void:
 	_read_from_disk()
 	## Toujours deconnecte au demarrage, meme si des comptes existent sur le disque - voir
@@ -162,7 +170,7 @@ const DEV_ACCOUNT_LOGIN := "dev"
 const DEV_ACCOUNT_PASSWORD := "devdev"
 
 func _auto_login_dev_account() -> void:
-	if login(DEV_ACCOUNT_LOGIN, DEV_ACCOUNT_PASSWORD):
+	if await login(DEV_ACCOUNT_LOGIN, DEV_ACCOUNT_PASSWORD):
 		return
 	create_account(DEV_ACCOUNT_LOGIN, DEV_ACCOUNT_PASSWORD, {
 		"nom": "Dev",
@@ -211,16 +219,52 @@ func _generate_random_hex(byte_length: int) -> String:
 
 ## Tente une connexion. Renvoie true et connecte le compte si le pseudo existe et le mot de passe
 ## correspond, false sinon - pas de distinction entre "pseudo inconnu" et "mauvais mot de passe"
-## dans le retour, pour ne pas laisser deviner quels pseudos existent deja.
+## dans le retour, pour ne pas laisser deviner quels pseudos existent deja (voir last_login_error
+## pour la SEULE exception a cette regle). Devenue asynchrone le 2026-09-13 (2 chantiers, voir
+## project_save_sync_architecture.md en memoire projet) :
+## 1. "connexion cross-device" : un pseudo INCONNU de cet appareil (nouvel appareil/navigateur, ou
+##    compte cree par une maitresse pour un enfant qui se connecte ensuite d'ailleurs) declenche une
+##    tentative de recuperation aupres du serveur avant d'echouer, voir _login_from_server() plus
+##    bas.
+## 2. "conflit de connexion" : meme pour un pseudo DEJA connu de cet appareil, une reclamation de
+##    session serveur est tentee (voir plus bas) - UNIQUEMENT pour verifier qu'aucun AUTRE appareil
+##    ne joue deja sur ce compte en ce moment (voir fn_login dans schema.sql), jamais pour re-
+##    verifier le mot de passe (deja fait juste avant, en local). Un probleme reseau/VPS injoignable
+##    ici NE BLOQUE PAS la connexion (le jeu doit rester jouable hors-ligne) - seul un refus EXPLICITE
+##    "compte_deja_connecte" la bloque reellement.
 func login(login_name: String, password: String) -> bool:
+	last_login_error = ""
 	var index := _find_account_index_by_login(login_name)
 	if index == -1:
-		return false
+		return await _login_from_server(login_name, password)
 	var account: Dictionary = _accounts[index]
 	var expected_hash: String = account.get("password_hash", "")
 	var actual_hash := _hash_password(password, String(account.get("password_salt", "")))
 	if expected_hash != actual_hash:
 		return false
+
+	## Reclame une session serveur MAINTENANT (voir le point 2 du commentaire de fonction) - sert
+	## aussi a obtenir un jeton frais tout de suite (evite d'attendre le prochain log_event()/
+	## _ensure_server_session() pour ca, voir plus bas dans ce fichier).
+	var login_result := await ServerApi.login(login_name, actual_hash)
+	if login_result.get("ok", false):
+		var data: Dictionary = login_result.get("data", {})
+		## Relit l'index : le compte courant (ou la liste) a pu changer pendant l'attente reseau
+		## (meme prudence que _do_flush()/_ensure_server_session() plus bas dans ce fichier).
+		index = _find_account_index_by_login(login_name)
+		if index != -1:
+			_accounts[index]["sync_jeton"] = String(data.get("jeton", ""))
+	elif login_result.get("type", "") == "serveur" and login_result.get("message", "") == "compte_deja_connecte":
+		last_login_error = "compte_deja_connecte"
+		return false
+	## Tout autre cas (reseau, VPS injoignable, ou tout refus serveur AUTRE que
+	## "compte_deja_connecte") : on ignore et on continue en confiance locale, exactement comme
+	## avant ce chantier - le mot de passe local vient deja d'etre verifie plus haut.
+
+	index = _find_account_index_by_login(login_name)
+	if index == -1: # compte retire localement pendant l'attente reseau (tres improbable) - filet
+		return false
+	account = _accounts[index]
 	current_account_id = String(account.get("id", ""))
 	_apply_account_to_runtime(account)
 	_apply_volume_from_profile(account.get("profile", {}))
@@ -233,6 +277,86 @@ func login(login_name: String, password: String) -> bool:
 	## log_event()/_flush_pending_events() plus bas, chantier "sauvegarde serveur" 2026-09-13) -
 	## sans effet (retour immediat) si la file est deja vide, jamais bloquant pour ce login.
 	_flush_pending_events()
+	return true
+
+## Recupere un compte existant cote serveur quand son pseudo est inconnu de CET appareil (voir
+## login() ci-dessus) : obtient le VRAI sel via fn_obtenir_sel (impossible de calculer le bon
+## mdp_hash sans lui sur un appareil qui n'a jamais stocke ce compte localement, voir
+## _hash_password), verifie les identifiants via fn_login (qui applique AUSSI la verification "pas
+## deja connecte ailleurs", voir le point 2 du commentaire de login() ci-dessus - ce cas remplit
+## last_login_error comme dans login()), puis rapatrie le profil (renvoye par fn_login desormais,
+## voir schema.sql - nom/prenom/classe/date de naissance/pays ET controle parental/limite
+## quotidienne, stockes dans ce meme "profil" cote client) et la progression via
+## fn_recuperer_progression pour reconstruire une entree _accounts locale complete. Renvoie false
+## SANS distinction d'erreur dans les autres cas (pseudo inconnu, mauvais mot de passe, hors-ligne,
+## VPS injoignable...) - meme principe de discretion que login(), et sans jamais bloquer/planter sur
+## un souci reseau ici (ServerApi ne leve aucune erreur Godot, voir son commentaire de classe).
+func _login_from_server(login_name: String, password: String) -> bool:
+	var trimmed_login := login_name.strip_edges()
+	if trimmed_login.is_empty():
+		return false
+
+	var sel_result := await ServerApi.obtenir_sel(trimmed_login)
+	if not sel_result.get("ok", false):
+		return false
+	var salt := String(sel_result.get("data", ""))
+	var mdp_hash := _hash_password(password, salt)
+
+	var login_result := await ServerApi.login(trimmed_login, mdp_hash)
+	if not login_result.get("ok", false):
+		if login_result.get("type", "") == "serveur" and login_result.get("message", "") == "compte_deja_connecte":
+			last_login_error = "compte_deja_connecte"
+		return false
+	var login_data: Dictionary = login_result.get("data", {})
+	var jeton := String(login_data.get("jeton", ""))
+	var compte_id := String(login_data.get("compte_id", ""))
+	var profil: Dictionary = login_data.get("profil", {})
+	if jeton.is_empty() or compte_id.is_empty():
+		return false
+
+	var progression_result := await ServerApi.recuperer_progression(jeton)
+	if not progression_result.get("ok", false):
+		return false
+	var data: Dictionary = progression_result.get("data", {})
+
+	## Repart d'un etat neuf avant d'appliquer la progression distante, meme logique que
+	## create_account() plus haut (pas de residu d'un compte precedemment connecte dans cette meme
+	## session).
+	Economy.reset()
+	CardCollection.reset()
+	ChallengeTracker.reset()
+	ProfSkins.reset()
+	ClassroomDecor.reset()
+	ClassroomMusic.reset()
+
+	var account := {
+		"id": compte_id,
+		"login": trimmed_login,
+		"password_hash": mdp_hash,
+		"password_salt": salt,
+		"profile": profil,
+		"economy": data.get("economy", {}),
+		"cards": data.get("cards", {}),
+		"defis": data.get("defis", {}),
+		"prof_skins": data.get("prof_skins", {"unlocked": {}, "active": {}}),
+		"classroom_decor": data.get("classroom_decor", {"unlocked": {}, "active": {}}),
+		"classroom_music": data.get("classroom_music", {"unlocked": {}, "active": {}}),
+		## Deja rapatrie a l'instant depuis le serveur : un jeton flambant neuf, aucune raison de le
+		## jeter puis en redemander un autre au prochain log_event() (voir _ensure_server_session()).
+		"sync_jeton": jeton,
+		"sync_evenements": [],
+		## Le profil VIENT d'etre lu depuis le serveur : par definition synchronise a cet instant
+		## (voir "profil_synchronise" dans create_account()/update_current_profile() plus haut/bas).
+		"profil_synchronise": true,
+	}
+	_accounts.append(account)
+	current_account_id = compte_id
+	_apply_account_to_runtime(account)
+	_apply_volume_from_profile(account["profile"])
+	_apply_theme_from_profile(account["profile"])
+	_save_to_disk()
+	account_logged_in.emit(account["profile"])
+	PseudoCache.remember(trimmed_login)
 	return true
 
 ## Cree un nouveau compte et connecte immediatement dessus. [profile] attend les cles nom/prenom/
@@ -278,6 +402,11 @@ func create_account(login_name: String, password: String, profile: Dictionary) -
 		## schema.sql) - vide a la creation, se remplit au premier gain de pieces/carte/etc.
 		"sync_jeton": "",
 		"sync_evenements": [],
+		## Chantier "connexion cross-device" (2026-09-13, voir update_current_profile() plus bas) :
+		## le profil VIENT d'etre envoye tel quel a fn_creer_compte via _register_account_on_server()
+		## juste en dessous - synchronise a cet instant, tant qu'aucune modification locale
+		## ulterieure (update_current_profile()) ne le repasse a false.
+		"profil_synchronise": true,
 	}
 	_accounts.append(account)
 	current_account_id = account["id"]
@@ -305,6 +434,19 @@ func logout() -> void:
 	if current_account_id.is_empty():
 		return
 	save_current_account()
+	## Libere IMMEDIATEMENT la place cote serveur (2026-09-13, chantier "conflit de connexion") -
+	## sans ca, une reconnexion sur CE MEME appareil resterait bloquee jusqu'a expiration naturelle
+	## de la presence (90s, voir fn_login dans schema.sql) meme juste apres une deconnexion
+	## volontaire. Fire-and-forget (voir _notify_server_logout() plus bas, meme principe que
+	## _delete_account_on_server()) : la deconnexion locale n'attend jamais le reseau. Efface aussi
+	## le jeton local tout de suite : il vient d'etre invalide cote serveur, plus la peine de le
+	## garder en cache (le prochain login() en obtiendra un nouveau).
+	var index := _current_account_index()
+	if index != -1:
+		var jeton := String(_accounts[index].get("sync_jeton", ""))
+		if not jeton.is_empty():
+			_notify_server_logout(jeton)
+			_accounts[index]["sync_jeton"] = ""
 	current_account_id = ""
 	Economy.reset()
 	CardCollection.reset()
@@ -316,21 +458,36 @@ func logout() -> void:
 	_reset_theme_to_default()
 	account_logged_out.emit()
 
+## Wrapper fire-and-forget autour de ServerApi.deconnecter() (meme raison que
+## _register_account_on_server() plus bas : absorber la valeur de retour Dictionary proprement, pas
+## de logique en plus ici - la deconnexion locale est deja actee par logout() avant meme cet appel).
+func _notify_server_logout(jeton: String) -> void:
+	await ServerApi.deconnecter(jeton)
+
 func get_current_profile() -> Dictionary:
 	var index := _current_account_index()
 	if index == -1:
 		return {}
 	return _accounts[index].get("profile", {})
 
-## Met a jour le profil (nom/prenom/classe/date de naissance/pays) du compte connecte - voir la
-## future section "Informations personnelles" du menu. Ne touche pas au mot de passe ni a la
-## progression.
+## Met a jour le profil (nom/prenom/classe/date de naissance/pays + controle parental/limite
+## quotidienne, tout ce qui vit dans ce Dictionary - voir la future section "Informations
+## personnelles" du menu) du compte connecte. Ne touche pas au mot de passe ni a la progression.
+## Pousse desormais AUSSI vers le serveur (2026-09-13, chantier "connexion cross-device", voir
+## project_save_sync_architecture.md en memoire projet - jusqu'ici, seul le profil de CREATION
+## etait envoye, une modification ulterieure ne suivait jamais sur un autre appareil) : marque
+## "profil_synchronise" a false avant la tentative (retente par le minuteur de secours, voir
+## _setup_sync_retry_timer(), si hors-ligne au moment de l'appel), fire-and-forget (voir
+## _push_profile_to_server() plus bas, jamais bloquant, meme philosophie que le reste de ce
+## fichier).
 func update_current_profile(profile: Dictionary) -> void:
 	var index := _current_account_index()
 	if index == -1:
 		return
 	_accounts[index]["profile"] = profile.duplicate(true)
+	_accounts[index]["profil_synchronise"] = false
 	_save_to_disk()
+	_push_profile_to_server(index)
 
 ## Genere hash+sel pour un mot de passe de controle parental (2026-09-05, retour utilisateur :
 ## "dans la fenetre de creation du jeu lorsque l'on coche controle parental, il faut proposer de
@@ -627,12 +784,82 @@ func _apply_account_to_runtime(account: Dictionary) -> void:
 ## sans qu'aucun nouvel evenement/connexion ne se produise entre-temps. _flush_pending_events()
 ## ressort immediatement si la file est vide (cas normal la plupart du temps), ce minuteur ne coute
 ## donc quasiment rien quand tout est deja synchronise.
+##
+## Sert AUSSI (2026-09-13, voir _on_sync_retry_timeout() juste en dessous) de battement de coeur de
+## presence et de filet de secours pour un profil pas encore synchronise - un seul minuteur partage
+## pour les 3 roles plutot que 3 Timer separes, meme principe d'autoload mince que le reste de ce
+## fichier.
 func _setup_sync_retry_timer() -> void:
 	var timer := Timer.new()
 	timer.wait_time = SYNC_RETRY_INTERVAL_SECONDS
 	timer.autostart = true
-	timer.timeout.connect(_flush_pending_events)
+	timer.timeout.connect(_on_sync_retry_timeout)
 	add_child(timer)
+
+func _on_sync_retry_timeout() -> void:
+	_flush_pending_events()
+	_send_session_heartbeat()
+	_retry_profile_sync_if_needed()
+
+## "Battement de coeur" de presence (2026-09-13, chantier "conflit de connexion", voir fn_login/
+## fn_pulse_session dans schema.sql) - sans effet si personne n'est connecte, hors-ligne, ou si
+## aucun jeton n'est encore disponible localement (ne FORCE jamais l'obtention d'un jeton ici, voir
+## _ensure_server_session() pour ca - un pulse ne fait que rafraichir une session qui existe deja).
+func _send_session_heartbeat() -> void:
+	var index := _current_account_index()
+	if index == -1:
+		return
+	var jeton := String(_accounts[index].get("sync_jeton", ""))
+	if jeton.is_empty():
+		return
+	await ServerApi.pulse_session(jeton)
+
+## Filet de secours pour update_current_profile() (2026-09-13, meme chantier que ci-dessus) : si le
+## profil du compte connecte n'a pas pu etre pousse au moment de sa modification (hors-ligne a cet
+## instant), ce minuteur retente ici - meme role que _flush_pending_events() pour les evenements de
+## progression, en plus simple (pas de file, juste un booleen : la derniere valeur du profil "gagne"
+## de toute facon, pas besoin de rejouer un historique).
+func _retry_profile_sync_if_needed() -> void:
+	var index := _current_account_index()
+	if index == -1:
+		return
+	if _accounts[index].get("profil_synchronise", true):
+		return
+	_push_profile_to_server(index)
+
+## Pousse le profil de _accounts[index] vers le serveur (voir update_current_profile()/
+## _retry_profile_sync_if_needed() ci-dessus) - obtient d'abord un jeton si besoin (voir
+## _ensure_server_session()), jamais bloquant/sans erreur Godot en cas de souci reseau (meme
+## principe que le reste de cette section). Relit l'index via _current_account_index() + comparaison
+## d'id APRES chaque attente reseau (meme prudence/idiome que _do_flush() plus haut) : le compte
+## connecte a pu changer entre-temps.
+func _push_profile_to_server(index: int) -> void:
+	var account_id := String(_accounts[index].get("id", ""))
+	if not await _ensure_server_session(index):
+		return # hors-ligne ou VPS injoignable - _retry_profile_sync_if_needed() retentera plus tard
+
+	var index_now := _current_account_index()
+	if index_now == -1 or String(_accounts[index_now].get("id", "")) != account_id:
+		return # le compte connecte a change pendant l'attente reseau ci-dessus
+	var jeton := String(_accounts[index_now].get("sync_jeton", ""))
+	if jeton.is_empty():
+		return
+	var profile_snapshot: Dictionary = _accounts[index_now].get("profile", {})
+	var result := await ServerApi.maj_profil(jeton, profile_snapshot)
+	if not result.get("ok", false):
+		return # retente au prochain passage du minuteur (voir _retry_profile_sync_if_needed())
+
+	index_now = _current_account_index()
+	if index_now == -1 or String(_accounts[index_now].get("id", "")) != account_id:
+		return # idem, verifie une 2e fois : cette attente reseau a pu, elle aussi, chevaucher un changement de compte
+	## Ne marque "synchronise" que si le profil local n'a PAS change pendant cet appel reseau (sinon
+	## la modification la plus recente, pas encore envoyee, se retrouverait marquee a tort comme a
+	## jour) - comparaison par egalite de contenu plutot que par un simple flag, pour rester correct
+	## meme si update_current_profile() a ete appelee (et a donc remis "profil_synchronise" a false)
+	## PENDANT que cette requete etait en vol.
+	if _accounts[index_now].get("profile", {}) == profile_snapshot:
+		_accounts[index_now]["profil_synchronise"] = true
+		_save_to_disk()
 
 ## Ajoute un evenement a la file d'attente du compte CONNECTE et tente aussitot un envoi en
 ## arriere-plan (voir _flush_pending_events()) - ne fait rien si personne n'est connecte, meme garde
@@ -755,12 +982,31 @@ func _ensure_server_session(index: int) -> bool:
 	var login_name := String(_accounts[index].get("login", ""))
 	var mdp_hash := String(_accounts[index].get("password_hash", ""))
 	var mdp_sel := String(_accounts[index].get("password_salt", ""))
+	## Capture avant tout await, comme les 4 lignes ci-dessus : _accounts peut changer pendant
+	## l'attente reseau (voir la relecture par id plus bas dans cette fonction).
+	var profile_snapshot: Dictionary = _accounts[index].get("profile", {})
 
 	var login_result := await ServerApi.login(login_name, mdp_hash)
 	if not login_result.get("ok", false):
+		## "compte_deja_connecte" (2026-09-13, chantier "conflit de connexion") : un AUTRE appareil
+		## joue deja sur ce compte en ce moment - on ne tente evidemment pas de le "re-creer" dans ce
+		## cas (il existe deja), et on n'interrompt PAS non plus la partie en cours sur CET appareil
+		## (elle a deja ete autorisee a demarrer par login(), voir son commentaire) : juste un echec
+		## de synchro comme un autre, retente au prochain _flush_pending_events()/battement de coeur -
+		## meme branche que "hors-ligne, ou refus serveur inattendu" ci-dessous, sans traitement
+		## special, LIMITE CONNUE ET ASSUMEE (voir project_save_sync_architecture.md en memoire
+		## projet).
 		if login_result.get("type", "") != "serveur" or login_result.get("message", "") != "identifiants_invalides":
 			return false # hors-ligne, ou refus serveur inattendu - on ne tente pas de creer/recreer dans ce cas
-		var create_result := await ServerApi.creer_compte(account_id, login_name, mdp_hash, mdp_sel)
+		## BUG CORRIGE le 2026-09-13 (chantier "connexion cross-device") : le profil n'etait jusqu'ici
+		## JAMAIS transmis a la creation retroactive du compte (p_profil manquant dans cet appel,
+		## repli silencieux sur le "{}" par defaut de ServerApi.creer_compte()) - `comptes.profil`
+		## restait donc TOUJOURS vide cote serveur, meme pour un compte cree avec un profil complet
+		## (nom/prenom/classe/controle parental...). Invisible jusqu'ici car rien ne relisait encore
+		## ce profil (voir fn_login/_login_from_server, memes chantier/date).
+		var create_result := await ServerApi.creer_compte(
+			account_id, login_name, mdp_hash, mdp_sel, profile_snapshot
+		)
 		if not create_result.get("ok", false):
 			return false
 		login_result = await ServerApi.login(login_name, mdp_hash)

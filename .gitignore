@@ -17,3 +17,19 @@ mono_crash.*.json
 Thumbs.db
 
 test-export/
+
+# Filet de securite (2026-09-13) : fichiers d'export Web generes PAR ERREUR a la racine du projet
+# (l'export doit toujours pointer vers test-export/ ci-dessus, jamais ici) - si ca se reproduit,
+# ces fichiers ne pourront au moins jamais partir sur GitHub via push_github.bat (git add -A).
+/index.html
+/index.js
+/index.wasm
+/index.pck
+/index.png
+/index.png.import
+/index.icon.png
+/index.icon.png.import
+/index.apple-touch-icon.png
+/index.apple-touch-icon.png.import
+/index.audio.worklet.js
+/index.audio.position.worklet.js

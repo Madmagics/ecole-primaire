@@ -337,8 +337,23 @@ func _on_parental_control_toggled(is_checked: bool) -> void:
 		parental_password_confirm_input.clear()
 
 func _on_login_pressed() -> void:
-	if SaveManager.login(login_input.text, password_input.text):
+	## Devenu asynchrone le 2026-09-13 (SaveManager.login() interroge desormais toujours le serveur,
+	## meme pour un pseudo deja connu de cet appareil - chantiers "connexion cross-device" ET
+	## "conflit de connexion", voir le commentaire de login()) : le bouton est desactive le temps de
+	## l'attente reseau (jusqu'a 8s si le VPS est injoignable, voir ServerApi.TIMEOUT_SECONDS) pour
+	## eviter qu'un double-clic ne lance deux tentatives en parallele.
+	login_button.disabled = true
+	login_error_label.hide()
+	var success := await SaveManager.login(login_input.text, password_input.text)
+	login_button.disabled = false
+	if success:
 		hide()
+	elif SaveManager.last_login_error == "compte_deja_connecte":
+		## Seul cas ou on s'ecarte du message generique ci-dessous (voir SaveManager.
+		## last_login_error) : le joueur vient de taper SES BONS identifiants, ce n'est pas une
+		## information a lui cacher.
+		login_error_label.text = "Ce compte est déjà connecté sur un autre appareil."
+		login_error_label.show()
 	else:
 		login_error_label.text = "Pseudo ou mot de passe incorrect."
 		login_error_label.show()
