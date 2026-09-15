@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vérification — École Primaire</title>
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+<style>
+	:root {
+		--ink: #4A2E1A;
+		--fond: #FBF3E7;
+		--carte: #FFFFFF;
+		--vert: #3F8F5F;
+		--rouge: #C0453A;
+		--bordure: #E4D3B8;
+	}
+	* { box-sizing: border-box; }
+	body {
+		margin: 0;
+		min-height: 100vh;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: var(--fond);
+		color: var(--ink);
+		font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+		padding: 24px;
+	}
+	.carte {
+		background: var(--carte);
+		border: 3px solid var(--bordure);
+		border-radius: 20px;
+		max-width: 420px;
+		width: 100%;
+		padding: 36px 28px;
+		text-align: center;
+		box-shadow: 0 6px 0 var(--bordure);
+	}
+	h1 { font-size: 22px; margin: 0 0 8px; }
+	p { font-size: 16px; line-height: 1.5; margin: 0 0 20px; opacity: 0.85; }
+	.widget { display: flex; justify-content: center; margin-bottom: 12px; }
+	.code {
+		font-size: 40px;
+		font-weight: 700;
+		letter-spacing: 10px;
+		color: var(--vert);
+		background: var(--fond);
+		border: 3px dashed var(--vert);
+		border-radius: 14px;
+		padding: 18px 8px;
+		margin-bottom: 16px;
+		word-break: break-all;
+	}
+	.erreur { color: var(--rouge); font-weight: 600; margin-bottom: 16px; }
+	button {
+		font-family: inherit;
+		font-size: 15px;
+		font-weight: 600;
+		color: var(--carte);
+		background: var(--ink);
+		border: none;
+		border-radius: 10px;
+		padding: 10px 20px;
+		cursor: pointer;
+	}
+	button:hover { opacity: 0.9; }
+	.masque { display: none; }
+</style>
+</head>
+<body>
+	<div class="carte">
+		<div id="etape-widget">
+			<h1>Vérification</h1>
+			<p>Coche la case ci-dessous pour prouver que tu n'es pas un robot, puis retourne dans le jeu.</p>
+			<div class="widget">
+				<div class="cf-turnstile"
+					data-sitekey="0x4AAAAAAE0EDJZpy-RwAN5-"
+					data-callback="onTurnstileSuccess"
+					data-error-callback="onTurnstileErreur"
+					data-expired-callback="onTurnstileExpire"></div>
+			</div>
+			<p id="erreur-widget" class="erreur masque"></p>
+		</div>
+
+		<div id="etape-code" class="masque">
+			<h1>C'est bon !</h1>
+			<p>Retape ce code dans le jeu pour continuer la création du compte (valable 10 minutes) :</p>
+			<div class="code" id="valeur-code"></div>
+			<p>Tu peux fermer cette page une fois le code recopié.</p>
+		</div>
+
+		<div id="etape-erreur-code" class="masque">
+			<h1 style="color: var(--rouge);">Un problème est survenu</h1>
+			<p id="texte-erreur-code"></p>
+			<button onclick="reessayer()">Réessayer</button>
+		</div>
+	</div>
+
+	<script>
+		// Même clé publique "anon" que le client Godot (autoload/server_api.gd) - non secrète par
+		// design, uniquement une porte d'entrée vers PostgREST (voir commentaire de ce fichier).
+		const ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYW5vbiIsImlzcyI6InN1cGFiYXNlIiwiaWF0IjoxNzg5MjMyOTUyLCJleHAiOjE5NDY5MTI5NTJ9.U5jI5pXgwMonbnpiOvlHKtxUShJ8jLWtgdMHwkecoXQ";
+		const RPC_URL = "https://api.ecole-primaire.eu/rest/v1/rpc/fn_verifier_turnstile_creer_code";
+
+		function montrer(id) {
+			["etape-widget", "etape-code", "etape-erreur-code"].forEach(function (autre) {
+				document.getElementById(autre).classList.toggle("masque", autre !== id);
+			});
+		}
+
+		function onTurnstileSuccess(token) {
+			document.getElementById("erreur-widget").classList.add("masque");
+			fetch(RPC_URL, {
+				method: "POST",
+				headers: {
+					"Content-Type": "application/json",
+					"apikey": ANON_KEY,
+					"Authorization": "Bearer " + ANON_KEY
+				},
+				body: JSON.stringify({ p_turnstile_token: token })
+			})
+			.then(function (reponse) {
+				return reponse.json().catch(function () { return {}; }).then(function (corps) {
+					return { ok: reponse.ok, corps: corps };
+				});
+			})
+			.then(function (resultat) {
+				if (resultat.ok && resultat.corps && resultat.corps.code) {
+					document.getElementById("valeur-code").textContent = resultat.corps.code;
+					montrer("etape-code");
+				} else {
+					document.getElementById("texte-erreur-code").textContent =
+						"La vérification a échoué. Réessaie ci-dessous.";
+					montrer("etape-erreur-code");
+				}
+			})
+			.catch(function () {
+				document.getElementById("texte-erreur-code").textContent =
+					"Impossible de contacter le serveur. Vérifie ta connexion internet et réessaie.";
+				montrer("etape-erreur-code");
+			});
+		}
+
+		function onTurnstileErreur() {
+			const erreur = document.getElementById("erreur-widget");
+			erreur.textContent = "La vérification n'a pas pu s'afficher. Recharge la page pour réessayer.";
+			erreur.classList.remove("masque");
+		}
+
+		function onTurnstileExpire() {
+			if (typeof turnstile !== "undefined") {
+				turnstile.reset();
+			}
+		}
+
+		function reessayer() {
+			montrer("etape-widget");
+			if (typeof turnstile !== "undefined") {
+				turnstile.reset();
+			}
+		}
+	</script>
+</body>
+</html>

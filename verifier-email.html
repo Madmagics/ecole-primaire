@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Confirmation d'email — École Primaire</title>
+<style>
+	:root {
+		--ink: #4A2E1A;
+		--fond: #FBF3E7;
+		--carte: #FFFFFF;
+		--vert: #3F8F5F;
+		--rouge: #C0453A;
+		--bordure: #E4D3B8;
+	}
+	* { box-sizing: border-box; }
+	body {
+		margin: 0;
+		min-height: 100vh;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: var(--fond);
+		color: var(--ink);
+		font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+		padding: 24px;
+	}
+	.carte {
+		background: var(--carte);
+		border: 3px solid var(--bordure);
+		border-radius: 20px;
+		max-width: 420px;
+		width: 100%;
+		padding: 36px 28px;
+		text-align: center;
+		box-shadow: 0 6px 0 var(--bordure);
+	}
+	.icone { font-size: 56px; line-height: 1; margin-bottom: 12px; }
+	h1 { font-size: 22px; margin: 0 0 12px; }
+	p { font-size: 16px; line-height: 1.5; margin: 0; opacity: 0.85; }
+	.statut-ok h1 { color: var(--vert); }
+	.statut-erreur h1 { color: var(--rouge); }
+	.spinner {
+		width: 32px; height: 32px; margin: 0 auto 16px;
+		border: 4px solid var(--bordure);
+		border-top-color: var(--ink);
+		border-radius: 50%;
+		animation: tourner 0.8s linear infinite;
+	}
+	@keyframes tourner { to { transform: rotate(360deg); } }
+</style>
+</head>
+<body>
+	<div class="carte" id="carte">
+		<div class="spinner"></div>
+		<h1>Vérification en cours…</h1>
+		<p>Un instant, on confirme ton adresse email.</p>
+	</div>
+
+	<script>
+		// Même clé publique "anon" que le client Godot (autoload/server_api.gd) - non secrète par
+		// design, uniquement une porte d'entrée vers PostgREST (voir commentaire de ce fichier).
+		const ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYW5vbiIsImlzcyI6InN1cGFiYXNlIiwiaWF0IjoxNzg5MjMyOTUyLCJleHAiOjE5NDY5MTI5NTJ9.U5jI5pXgwMonbnpiOvlHKtxUShJ8jLWtgdMHwkecoXQ";
+		const RPC_URL = "https://api.ecole-primaire.eu/rest/v1/rpc/fn_verifier_email";
+
+		function afficher(icone, classe, titre, texte) {
+			document.getElementById("carte").outerHTML =
+				'<div class="carte statut-' + classe + '">' +
+					'<div class="icone">' + icone + '</div>' +
+					'<h1>' + titre + '</h1>' +
+					'<p>' + texte + '</p>' +
+				'</div>';
+		}
+
+		// Messages du champ "message" renvoyé par PostgREST (voir fn_verifier_email dans
+		// schema.sql, raise exception 'token_invalide'/'token_expire') - fallback générique sinon.
+		const MESSAGES_ERREUR = {
+			token_invalide: "Ce lien de confirmation n'est pas valide. Vérifie que tu as bien copié le lien complet reçu par email.",
+			token_expire: "Ce lien de confirmation a expiré (il n'est valable que 24 heures). Reviens dans le jeu et clique sur « renvoyer l'email » pour en recevoir un nouveau."
+		};
+
+		const params = new URLSearchParams(window.location.search);
+		const token = params.get("token");
+
+		if (!token) {
+			afficher("⚠️", "erreur", "Lien incomplet",
+				"Ce lien ne contient pas de code de confirmation. Ouvre le lien complet reçu par email, ou retourne dans le jeu pour en demander un nouveau.");
+		} else {
+			fetch(RPC_URL, {
+				method: "POST",
+				headers: {
+					"Content-Type": "application/json",
+					"apikey": ANON_KEY,
+					"Authorization": "Bearer " + ANON_KEY
+				},
+				body: JSON.stringify({ p_token: token })
+			})
+			.then(function (reponse) {
+				return reponse.json().catch(function () { return {}; }).then(function (corps) {
+					return { ok: reponse.ok, corps: corps };
+				});
+			})
+			.then(function (resultat) {
+				if (resultat.ok) {
+					afficher("✅", "ok", "Email confirmé !",
+						"Ton adresse email est bien vérifiée. Tu peux fermer cette page et retourner dans le jeu.");
+				} else {
+					const message = resultat.corps && resultat.corps.message;
+					afficher("⚠️", "erreur", "Confirmation impossible",
+						MESSAGES_ERREUR[message] || "Une erreur inattendue est survenue. Réessaie un peu plus tard, ou retourne dans le jeu pour demander un nouveau lien.");
+				}
+			})
+			.catch(function () {
+				afficher("⚠️", "erreur", "Connexion impossible",
+					"Impossible de contacter le serveur pour l'instant. Vérifie ta connexion internet et réessaie en rouvrant le lien reçu par email.");
+			});
+		}
+	</script>
+</body>
+</html>
