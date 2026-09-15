@@ -23,6 +23,8 @@ jobs:
           relative_project_path: ./
           presets_to_export: "Web"
           cache: true
+      - name: Copier les pages statiques (vérification email + captcha desktop/mobile)
+        run: cp web/*.html "${{ steps.export.outputs.build_directory }}/Web/"
 
       - name: Publier sur GitHub Pages
         uses: peaceiris/actions-gh-pages@v4

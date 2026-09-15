@@ -690,3 +690,384 @@ $$;
 -- publics (RLS activé + aucune policy suffit déjà en théorie, ceci est une double sécurité) :
 -- revoke all on comptes, progressions, evenements, sessions from anon, authenticated;
 -- Les fonctions elles-mêmes restent appelables (SECURITY DEFINER + exposées via PostgREST RPC).
+
+-- ============================================================================
+-- CRÉATION DE COMPTE "EN LIGNE" (email + captcha) - ajoutée le 2026-09-14, voir
+-- project_auth_creation_comptes.md (mémoire projet) pour les décisions de conception (points 1-7).
+-- Complète fn_creer_compte (noyau, ci-dessus) sans le remplacer : fn_creer_compte reste utilisée
+-- tel quel par SaveManager._ensure_server_session() (enregistrement silencieux en arrière-plan d'un
+-- compte créé/connu localement, ex. re-création rétroactive après un jeton perdu - pas un nouveau
+-- venu, pas de captcha à demander à ce moment-là). fn_creer_compte_public ci-dessous est le NOUVEAU
+-- point d'entrée prévu pour le formulaire de création en ligne (câblage côté client Godot = tâche
+-- suivante, pas encore fait à ce stade).
+-- ============================================================================
+
+-- 5. config_secrets — clés d'API externes (Brevo, Turnstile). JAMAIS de valeur réelle dans ce
+-- fichier texte (qui est versionné sur GitHub) : les vraies valeurs sont insérées à la main,
+-- UNE FOIS, directement dans Supabase Studio (voir instructions données à part). RLS activé sans
+-- policy comme les autres tables - lisible uniquement par les fonctions SECURITY DEFINER ci-dessous.
+create table if not exists config_secrets (
+	cle     text primary key,
+	valeur  text not null
+);
+alter table config_secrets enable row level security;
+-- Lignes attendues (à insérer séparément, jamais ici) : 'brevo_api_key', 'turnstile_secret_key'.
+
+-- 6. verifications_email — un token de vérification en attente par compte (le renvoi remplace le
+-- précédent plutôt que d'en empiler plusieurs). Seul le HACHÉ du token est stocké, même logique que
+-- mdp_hash - un accès en lecture à cette table ne permet donc pas de vérifier un email à la place
+-- du destinataire réel.
+create table if not exists verifications_email (
+	compte_id          text primary key references comptes(id) on delete cascade,
+	token_hash         text not null,
+	expire_le          timestamptz not null,
+	dernier_envoi_le   timestamptz not null default now()
+);
+alter table verifications_email enable row level security;
+
+-- 7. creations_recentes — limite de VITESSE (burst) de création de compte, PAS un plafond de
+-- volume total (voir point 4 de project_auth_creation_comptes.md : un plafond total casserait le
+-- cas d'une classe entière créée depuis la même IP/le même email). Une ligne par tentative
+-- (honeypot rempli exclu, voir fn_creer_compte_public), purge paresseuse par la fonction elle-même
+-- (delete des lignes de plus de 10 minutes à chaque appel) - aucune rétention longue durée, donc
+-- aucune question RGPD de conservation de l'IP à se poser ici.
+create table if not exists creations_recentes (
+	id           bigserial primary key,
+	cle          text not null,
+	horodatage   timestamptz not null default now()
+);
+create index if not exists creations_recentes_cle_horodatage_idx on creations_recentes (cle, horodatage);
+alter table creations_recentes enable row level security;
+
+-- 8. defis_captcha — code court (6 caractères) à usage unique prouvant qu'un token Turnstile
+-- valide a déjà été vérifié, pour les plateformes desktop/mobile où le client Godot n'a aucun
+-- moteur JS pour afficher le widget Turnstile lui-même (ajouté 2026-09-15, voir
+-- project_auth_creation_comptes.md). Parcours : une page web (captcha.html, sur le domaine du jeu,
+-- ouverte dans le navigateur système via OS.shell_open) affiche le widget Turnstile, envoie le
+-- token obtenu à fn_verifier_turnstile_creer_code ci-dessous, affiche le code renvoyé - l'enfant/
+-- le parent le retape dans le jeu, qui l'envoie à fn_creer_compte_public (paramètre
+-- p_code_captcha) à la place d'un token direct. Seul le HACHÉ du code est stocké, même logique que
+-- mdp_hash/token_hash - un accès en lecture à cette table ne permet donc pas d'utiliser un code à
+-- la place de son destinataire réel.
+create table if not exists defis_captcha (
+	code_hash    text primary key,
+	expire_le    timestamptz not null,
+	utilise      boolean not null default false
+);
+create index if not exists defis_captcha_expire_le_idx on defis_captcha (expire_le);
+alter table defis_captcha enable row level security;
+
+-- ============================================================================
+-- fn_creer_compte_public : point d'entrée du formulaire de création en ligne. Enchaîne, dans
+-- l'ordre : honeypot (rejet silencieux) -> limite de vitesse par IP et par email -> vérification
+-- Turnstile (appel HTTP sortant via l'extension "http") -> création du compte proprement dite
+-- (réutilise fn_creer_compte, aucune logique dupliquée) -> enregistrement de l'email + génération
+-- du token de vérification -> envoi de l'email via Brevo (appel HTTP sortant). L'échec de l'ENVOI
+-- de l'email (Brevo injoignable, quota dépassé...) ne fait PAS échouer la création du compte - le
+-- compte existe et reste jouable, "email_envoye" à false dans le retour permet au client d'inviter
+-- à cliquer sur "renvoyer" (fn_renvoyer_verification ci-dessous) plutôt que de bloquer l'enfant.
+-- p_ip est lu depuis les en-têtes de la requête PostgREST (x-forwarded-for, transmis par Caddy) -
+-- si ce réglage n'est pas exposé tel quel sur cette instance, la lecture échoue silencieusement et
+-- seule la limite par EMAIL continue de s'appliquer (dégradation, pas un blocage).
+-- p_code_captcha (ajouté 2026-09-15, repli desktop/mobile) : si fourni (non vide), remplace
+-- p_turnstile_token - vérifié contre defis_captcha au lieu d'un appel direct à Cloudflare, voir
+-- commentaire de cette table et fn_verifier_turnstile_creer_code. Signature changée par rapport à
+-- la version du 2026-09-14 : drop explicite ci-dessous (create or replace ne suffit pas quand la
+-- liste de paramètres change, ça créerait une 2e fonction en doublon au lieu de remplacer).
+-- ============================================================================
+drop function if exists fn_creer_compte_public(text, text, text, text, jsonb, text, text, text);
+
+create or replace function fn_creer_compte_public(
+	p_id text,
+	p_login text,
+	p_mdp_hash text,
+	p_mdp_sel text,
+	p_profil jsonb,
+	p_email text,
+	p_turnstile_token text default '',
+	p_code_captcha text default '',
+	p_honeypot text default ''
+)
+returns jsonb
+language plpgsql
+security definer
+set search_path = public, extensions
+as $$
+declare
+	v_ip                text;
+	v_cle_ip            text;
+	v_cle_email         text;
+	v_nb_tentatives      int;
+	v_turnstile_secret   text;
+	v_reponse_turnstile  http_response;
+	v_captcha_ok         boolean;
+	v_resultat           jsonb;
+	v_compte_id          text;
+	v_email              text := nullif(trim(p_email), '');
+	v_token              text;
+	v_brevo_ok           boolean := false;
+begin
+	-- Honeypot : un vrai enfant/parent ne remplit jamais ce champ (caché en CSS côté formulaire) -
+	-- un bot qui remplit tous les champs du formulaire, si. Rejet générique, même message qu'un
+	-- captcha invalide - ne pas donner d'indice à un bot sur la raison précise du refus.
+	if p_honeypot is not null and p_honeypot <> '' then
+		raise exception 'captcha_invalide';
+	end if;
+
+	begin
+		v_ip := (current_setting('request.headers', true)::jsonb ->> 'x-forwarded-for');
+	exception when others then
+		v_ip := null;
+	end;
+
+	-- Purge paresseuse (voir commentaire de la table).
+	delete from creations_recentes where horodatage < now() - interval '10 minutes';
+
+	v_cle_ip := 'ip:' || coalesce(v_ip, '');
+	v_cle_email := 'email:' || lower(coalesce(v_email, ''));
+
+	-- BUG CORRIGÉ le 2026-09-14 (repéré en relisant le code juste après le 1er déploiement, avant
+	-- toute donnée réelle) : la vérification de la limite de vitesse doit se faire AVANT l'appel à
+	-- Turnstile (lecture seule des tentatives déjà enregistrées, évite un appel HTTP inutile si le
+	-- quota est déjà dépassé) - l'ENREGISTREMENT de la tentative, lui, ne peut se faire qu'APRÈS un
+	-- captcha validé (voir plus bas) : un `raise exception` plus loin dans la fonction annule toute
+	-- la transaction de l'appel, y compris une insertion faite plus tôt dans le même appel - une
+	-- tentative enregistrée AVANT l'échec du captcha aurait donc toujours été effacée avant de
+	-- pouvoir compter, rendant la limite de vitesse inopérante contre les captchas invalides en
+	-- boucle (Cloudflare Turnstile freine déjà ce cas de son côté, donc pas une faille critique en
+	-- soi, mais la fonction n'aurait pas fait ce qu'elle prétend faire).
+	if v_ip is not null then
+		select count(*) into v_nb_tentatives from creations_recentes
+		where cle = v_cle_ip and horodatage > now() - interval '1 minute';
+		if v_nb_tentatives >= 5 then
+			raise exception 'trop_de_creations';
+		end if;
+	end if;
+	if v_email is not null then
+		select count(*) into v_nb_tentatives from creations_recentes
+		where cle = v_cle_email and horodatage > now() - interval '1 minute';
+		if v_nb_tentatives >= 5 then
+			raise exception 'trop_de_creations';
+		end if;
+	end if;
+
+	if p_code_captcha is not null and p_code_captcha <> '' then
+		-- Repli desktop/mobile (voir commentaire de defis_captcha) : le code vient de captcha.html,
+		-- déjà vérifié auprès de Cloudflare par fn_verifier_turnstile_creer_code à sa génération -
+		-- ici on vérifie seulement qu'il existe, n'a pas expiré, et pas déjà été utilisé (usage
+		-- unique, comme un token Turnstile). upper()/trim() : le code affiché est tout en
+		-- majuscules, insensible à la casse à la retape pour ne pas ajouter de friction inutile.
+		delete from defis_captcha where expire_le < now();
+		update defis_captcha
+			set utilise = true
+			where code_hash = encode(digest(upper(trim(p_code_captcha)), 'sha256'), 'hex')
+				and not utilise
+				and expire_le > now()
+			returning true into v_captcha_ok;
+		v_captcha_ok := coalesce(v_captcha_ok, false);
+	else
+		-- Plateforme Web : widget Turnstile affiché directement dans la page, vérification classique.
+		select valeur into v_turnstile_secret from config_secrets where cle = 'turnstile_secret_key';
+		if v_turnstile_secret is null then
+			-- Config manquante côté serveur (clé pas encore insérée) - on ne laisse jamais passer une
+			-- création "par défaut" faute de captcha configurable, on échoue explicitement.
+			raise exception 'captcha_non_configure';
+		end if;
+
+		select * into v_reponse_turnstile from http_post(
+			'https://challenges.cloudflare.com/turnstile/v0/siteverify',
+			jsonb_build_object('secret', v_turnstile_secret, 'response', p_turnstile_token)::text,
+			'application/json'
+		);
+		v_captcha_ok := coalesce((v_reponse_turnstile.content::jsonb ->> 'success')::boolean, false);
+	end if;
+
+	if not v_captcha_ok then
+		raise exception 'captcha_invalide';
+	end if;
+
+	-- Enregistré seulement maintenant (captcha validé) : fait partie du chemin de succès, ne sera
+	-- donc jamais annulé par un échec ultérieur - ne compte que les tentatives réellement humaines.
+	insert into creations_recentes (cle) values (v_cle_ip);
+	if v_email is not null then
+		insert into creations_recentes (cle) values (v_cle_email);
+	end if;
+
+	-- Création proprement dite : réutilise fn_creer_compte (idempotence sur l'id, gestion de
+	-- collision de login déjà gérées là-bas, pas de raison de dupliquer cette logique ici).
+	select fn_creer_compte(p_id, p_login, p_mdp_hash, p_mdp_sel, p_profil) into v_resultat;
+	v_compte_id := v_resultat ->> 'id';
+
+	if v_email is not null then
+		update comptes set email = v_email, email_verifie = false where id = v_compte_id;
+
+		v_token := encode(gen_random_bytes(32), 'hex');
+		insert into verifications_email (compte_id, token_hash, expire_le, dernier_envoi_le)
+		values (v_compte_id, encode(digest(v_token, 'sha256'), 'hex'), now() + interval '24 hours', now())
+		on conflict (compte_id) do update
+			set token_hash = excluded.token_hash,
+			    expire_le = excluded.expire_le,
+			    dernier_envoi_le = excluded.dernier_envoi_le;
+
+		-- L'échec d'envoi ne doit jamais faire échouer la création du compte (voir en-tête de
+		-- fonction) - capturé ici, jamais propagé.
+		begin
+			v_brevo_ok := fn_envoyer_email_verification(v_email, v_token);
+		exception when others then
+			v_brevo_ok := false;
+		end;
+	end if;
+
+	return jsonb_build_object(
+		'id', v_compte_id,
+		'login', v_resultat ->> 'login',
+		'email_envoye', v_brevo_ok
+	);
+end;
+$$;
+
+-- ============================================================================
+-- fn_envoyer_email_verification : envoi de l'email de vérification via l'API transactionnelle
+-- Brevo. Fonction interne (appelée par fn_creer_compte_public et fn_renvoyer_verification), PAS
+-- pensée pour être appelée directement depuis le client - elle n'a aucune vérification d'identité
+-- de son cru (elle fait confiance à ses deux appelants, qui ont déjà authentifié la demande avant
+-- de l'appeler). Le lien pointe vers une page de confirmation SUR LE DOMAINE DU JEU (pas une
+-- réponse API brute) - cette page reste à créer côté client (tâche suivante), elle devra lire le
+-- paramètre ?token=... dans l'URL et appeler fn_verifier_email avec.
+-- ============================================================================
+create or replace function fn_envoyer_email_verification(p_email text, p_token text)
+returns boolean
+language plpgsql
+security definer
+set search_path = public, extensions
+as $$
+declare
+	v_brevo_api_key   text;
+	v_lien            text;
+	v_corps           jsonb;
+	v_reponse         http_response;
+begin
+	select valeur into v_brevo_api_key from config_secrets where cle = 'brevo_api_key';
+	if v_brevo_api_key is null then
+		return false;
+	end if;
+
+	v_lien := 'https://www.ecole-primaire.eu/verifier-email.html?token=' || p_token;
+
+	v_corps := jsonb_build_object(
+		'sender', jsonb_build_object('name', 'École Primaire', 'email', 'noreply@ecole-primaire.eu'),
+		'to', jsonb_build_array(jsonb_build_object('email', p_email)),
+		'subject', 'Confirmez votre adresse email',
+		'htmlContent',
+			'<p>Bonjour,</p>' ||
+			'<p>Un compte a été créé sur le jeu École Primaire avec cette adresse email.</p>' ||
+			'<p><a href="' || v_lien || '">Cliquez ici pour confirmer votre adresse email</a></p>' ||
+			'<p>Ce lien expire dans 24 heures. Si vous n''êtes pas à l''origine de cette demande, ignorez cet email.</p>' ||
+			'<p>Cette adresse ne sert qu''à la vérification et à la récupération de compte, elle n''est jamais partagée ni utilisée à d''autres fins.</p>'
+	);
+
+	select * into v_reponse from http((
+		'POST',
+		'https://api.brevo.com/v3/smtp/email',
+		http_headers('api-key', v_brevo_api_key, 'Accept', 'application/json'),
+		'application/json',
+		v_corps::text
+	)::http_request);
+
+	return v_reponse.status = 201;
+end;
+$$;
+
+-- SECURITE : contrairement aux autres fonctions de ce fichier, fn_envoyer_email_verification n'a
+-- AUCUNE vérification d'identité de son cru (elle fait confiance à ses appelants internes) - si
+-- elle restait appelable directement via l'API publique PostgREST (comportement par défaut pour
+-- toute fonction du schéma public), n'importe qui pourrait l'utiliser pour envoyer des emails
+-- arbitraires via notre compte Brevo (abus de relais). Retrait explicite du droit d'exécution pour
+-- les rôles publics - seul l'appel INTERNE depuis fn_creer_compte_public/fn_renvoyer_verification
+-- (SECURITY DEFINER, donc exécuté avec les privilèges du propriétaire de la fonction) continue de
+-- fonctionner, un appel RPC direct sera refusé.
+revoke execute on function fn_envoyer_email_verification(text, text) from anon, authenticated;
+
+-- ============================================================================
+-- fn_verifier_email : appelée par la page de confirmation (task client à venir) avec le token lu
+-- dans l'URL. Le HACHÉ est comparé, jamais le token en clair stocké nulle part côté serveur.
+-- ============================================================================
+create or replace function fn_verifier_email(p_token text)
+returns jsonb
+language plpgsql
+security definer
+set search_path = public, extensions
+as $$
+declare
+	v_compte_id   text;
+	v_expire_le   timestamptz;
+begin
+	select compte_id, expire_le into v_compte_id, v_expire_le
+	from verifications_email
+	where token_hash = encode(digest(p_token, 'sha256'), 'hex');
+
+	if v_compte_id is null then
+		raise exception 'token_invalide';
+	end if;
+	if v_expire_le < now() then
+		raise exception 'token_expire';
+	end if;
+
+	update comptes set email_verifie = true where id = v_compte_id;
+	delete from verifications_email where compte_id = v_compte_id;
+
+	return jsonb_build_object('ok', true);
+end;
+$$;
+
+-- ============================================================================
+-- fn_renvoyer_verification : bouton "renvoyer l'email" côté client (task à venir), protégé par un
+-- cooldown de 5 minutes (voir point 3 de project_auth_creation_comptes.md) pour ne pas déplacer
+-- l'abus vers cette fonction d'envoi. Authentifiée par jeton de session, comme fn_maj_profil.
+-- ============================================================================
+create or replace function fn_renvoyer_verification(p_jeton text)
+returns jsonb
+language plpgsql
+security definer
+set search_path = public, extensions
+as $$
+declare
+	v_compte_id        text;
+	v_email            text;
+	v_dernier_envoi    timestamptz;
+	v_token            text;
+	v_brevo_ok         boolean := false;
+begin
+	select compte_id into v_compte_id from sessions
+	where jeton = p_jeton and expire_le > now();
+	if v_compte_id is null then
+		raise exception 'session_expiree';
+	end if;
+
+	select email into v_email from comptes where id = v_compte_id;
+	if v_email is null then
+		raise exception 'email_absent';
+	end if;
+
+	select dernier_envoi_le into v_dernier_envoi from verifications_email where compte_id = v_compte_id;
+	if v_dernier_envoi is not null and v_dernier_envoi > now() - interval '5 minutes' then
+		raise exception 'attendre_avant_renvoi';
+	end if;
+
+	v_token := encode(gen_random_bytes(32), 'hex');
+	insert into verifications_email (compte_id, token_hash, expire_le, dernier_envoi_le)
+	values (v_compte_id, encode(digest(v_token, 'sha256'), 'hex'), now() + interval '24 hours', now())
+	on conflict (compte_id) do update
+		set token_hash = excluded.token_hash,
+		    expire_le = excluded.expire_le,
+		    dernier_envoi_le = excluded.dernier_envoi_le;
+
+	begin
+		v_brevo_ok := fn_envoyer_email_verification(v_email, v_token);
+	exception when others then
+		v_brevo_ok := false;
+	end;
+
+	return jsonb_build_object('ok', true, 'email_envoye', v_brevo_ok);
+end;
+$$;
