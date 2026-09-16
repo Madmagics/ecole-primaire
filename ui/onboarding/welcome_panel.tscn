@@ -188,6 +188,11 @@ layout_mode = 2
 size_flags_horizontal = 0
 text = "Pas encore de compte ? Créer un compte"
 
+[node name="ForgotPasswordButton" type="LinkButton" parent="Panel/Margin/Content/LoginSection"]
+layout_mode = 2
+size_flags_horizontal = 0
+text = "Mot de passe oublié ?"
+
 [node name="LoginSuggestionsDropdown" type="PanelContainer" parent="Panel/Margin/Content/LoginSection" unique_id=1233099866]
 visible = false
 top_level = true
@@ -201,6 +206,76 @@ horizontal_scroll_mode = 0
 [node name="LoginSuggestionsBox" type="VBoxContainer" parent="Panel/Margin/Content/LoginSection/LoginSuggestionsDropdown/LoginSuggestionsScroll"]
 layout_mode = 2
 theme_override_constants/separation = 4
+
+[node name="ForgotPasswordSection" type="VBoxContainer" parent="Panel/Margin/Content"]
+visible = false
+layout_mode = 2
+theme_override_constants/separation = 14
+
+[node name="ForgotPasswordLabel" type="Label" parent="Panel/Margin/Content/ForgotPasswordSection"]
+layout_mode = 2
+autowrap_mode = 2
+text = "Tape ton pseudo ou l'email du compte : si un compte existe, un lien de réinitialisation lui sera envoyé."
+
+[node name="ForgotLoginRow" type="HBoxContainer" parent="Panel/Margin/Content/ForgotPasswordSection"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="ForgotLoginLabel" type="Label" parent="Panel/Margin/Content/ForgotPasswordSection/ForgotLoginRow"]
+custom_minimum_size = Vector2(160, 0)
+layout_mode = 2
+theme_type_variation = &"TitleLabel"
+text = "Pseudo ou email"
+
+[node name="ForgotLoginInput" type="LineEdit" parent="Panel/Margin/Content/ForgotPasswordSection/ForgotLoginRow"]
+custom_minimum_size = Vector2(220, 0)
+layout_mode = 2
+
+[node name="ForgotSendButton" type="Button" parent="Panel/Margin/Content/ForgotPasswordSection"]
+layout_mode = 2
+size_flags_horizontal = 0
+text = "Envoyer le lien"
+
+[node name="ForgotStatusLabel" type="Label" parent="Panel/Margin/Content/ForgotPasswordSection"]
+layout_mode = 2
+autowrap_mode = 2
+visible = false
+
+[node name="ForgotBackButton" type="Button" parent="Panel/Margin/Content/ForgotPasswordSection"]
+layout_mode = 2
+size_flags_horizontal = 0
+text = "Retour à la connexion"
+
+[node name="EmailPendingSection" type="VBoxContainer" parent="Panel/Margin/Content"]
+visible = false
+layout_mode = 2
+theme_override_constants/separation = 14
+
+[node name="EmailPendingLabel" type="Label" parent="Panel/Margin/Content/EmailPendingSection"]
+layout_mode = 2
+theme_type_variation = &"TitleLabel"
+autowrap_mode = 2
+text = "Vérifie ta boîte mail ! Clique sur le lien reçu pour confirmer ton adresse avant de pouvoir jouer."
+
+[node name="ResendEmailButton" type="Button" parent="Panel/Margin/Content/EmailPendingSection"]
+layout_mode = 2
+size_flags_horizontal = 0
+text = "Renvoyer l'email"
+
+[node name="ResendEmailStatusLabel" type="Label" parent="Panel/Margin/Content/EmailPendingSection"]
+layout_mode = 2
+autowrap_mode = 2
+visible = false
+
+[node name="RecheckEmailButton" type="Button" parent="Panel/Margin/Content/EmailPendingSection"]
+layout_mode = 2
+size_flags_horizontal = 0
+text = "J'ai confirmé, vérifier à nouveau"
+
+[node name="RecheckEmailStatusLabel" type="Label" parent="Panel/Margin/Content/EmailPendingSection"]
+layout_mode = 2
+autowrap_mode = 2
+visible = false
 
 [node name="CreateSection" type="VBoxContainer" parent="Panel/Margin/Content" unique_id=918702366]
 visible = false
@@ -262,6 +337,7 @@ theme_type_variation = &"TitleLabel"
 text = "Classe"
 
 [node name="ClasseOption" type="OptionButton" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/ClasseRow" unique_id=314513388]
+mouse_filter = 1
 layout_mode = 2
 
 [node name="BirthdateRow" type="HBoxContainer" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList" unique_id=1489933202]
@@ -304,6 +380,7 @@ theme_type_variation = &"TitleLabel"
 text = "Pays"
 
 [node name="PaysOption" type="OptionButton" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/PaysRow" unique_id=955885462]
+mouse_filter = 1
 layout_mode = 2
 theme_override_constants/icon_max_width = 84
 
@@ -322,6 +399,7 @@ custom_minimum_size = Vector2(220, 0)
 layout_mode = 2
 
 [node name="LoginSuggestionButton" type="Button" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList" unique_id=1452472109]
+mouse_filter = 1
 visible = false
 layout_mode = 2
 size_flags_horizontal = 0
@@ -356,7 +434,27 @@ custom_minimum_size = Vector2(220, 0)
 layout_mode = 2
 secret = true
 
+[node name="EmailRow" type="HBoxContainer" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="EmailLabel" type="Label" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/EmailRow"]
+custom_minimum_size = Vector2(160, 0)
+layout_mode = 2
+theme_type_variation = &"TitleLabel"
+text = "Email"
+
+[node name="EmailInput" type="LineEdit" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/EmailRow"]
+custom_minimum_size = Vector2(220, 0)
+layout_mode = 2
+
 [node name="ParentalControlFrame" type="PanelContainer" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList" unique_id=624885312]
+## mouse_filter=2 (Ignore) (2026-09-16, TODO_UI_MODS.md "Bug - Scroll tactile impossible") : un
+## PanelContainer a mouse_filter=Stop par defaut (contrairement aux autres Container), ce cadre
+## purement visuel bloquait donc le glissement tactile destine a CreateScroll des qu'on posait le
+## doigt sur son fond plutot que pile sur ParentalControlCheck - ses enfants interactifs restent
+## testes en priorite quel que soit le filtre du cadre, seul le fond devient traversable.
+mouse_filter = 2
 layout_mode = 2
 
 [node name="Margin" type="MarginContainer" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/ParentalControlFrame" unique_id=591742299]
@@ -371,9 +469,12 @@ layout_mode = 2
 theme_override_constants/separation = 12
 
 [node name="ParentalControlCheck" type="CheckBox" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/ParentalControlFrame/Margin/Content" unique_id=1587207844]
+mouse_filter = 1
 layout_mode = 2
 size_flags_horizontal = 0
-text = "Contrôle parental"
+button_pressed = true
+disabled = true
+text = "Contrôle parental (obligatoire)"
 
 [node name="ParentalPasswordGroup" type="VBoxContainer" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/ParentalControlFrame/Margin/Content" unique_id=857080110]
 visible = false
@@ -410,17 +511,82 @@ custom_minimum_size = Vector2(220, 0)
 layout_mode = 2
 secret = true
 
+[node name="CaptchaFrame" type="PanelContainer" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList"]
+## mouse_filter=2 (Ignore), meme raison que ParentalControlFrame ci-dessus (voir son commentaire).
+mouse_filter = 2
+layout_mode = 2
+
+[node name="Margin" type="MarginContainer" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/CaptchaFrame"]
+layout_mode = 2
+theme_override_constants/margin_left = 16
+theme_override_constants/margin_top = 16
+theme_override_constants/margin_right = 16
+theme_override_constants/margin_bottom = 16
+
+[node name="Content" type="VBoxContainer" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/CaptchaFrame/Margin"]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="CaptchaWebGroup" type="VBoxContainer" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/CaptchaFrame/Margin/Content"]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="CaptchaWebStatusLabel" type="Label" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/CaptchaFrame/Margin/Content/CaptchaWebGroup"]
+layout_mode = 2
+autowrap_mode = 2
+text = "Vérification anti-robot en attente…"
+
+[node name="CaptchaWebRetryButton" type="Button" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/CaptchaFrame/Margin/Content/CaptchaWebGroup"]
+mouse_filter = 1
+visible = false
+layout_mode = 2
+size_flags_horizontal = 0
+text = "Recommencer la vérification"
+
+[node name="CaptchaDesktopGroup" type="VBoxContainer" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/CaptchaFrame/Margin/Content"]
+visible = false
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="CaptchaDesktopButton" type="Button" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/CaptchaFrame/Margin/Content/CaptchaDesktopGroup"]
+mouse_filter = 1
+layout_mode = 2
+size_flags_horizontal = 0
+text = "Ouvrir la vérification dans le navigateur"
+
+[node name="CaptchaCodeRow" type="HBoxContainer" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/CaptchaFrame/Margin/Content/CaptchaDesktopGroup"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="CaptchaCodeLabel" type="Label" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/CaptchaFrame/Margin/Content/CaptchaDesktopGroup/CaptchaCodeRow"]
+custom_minimum_size = Vector2(160, 0)
+layout_mode = 2
+theme_type_variation = &"TitleLabel"
+text = "Code reçu"
+
+[node name="CaptchaCodeInput" type="LineEdit" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/CaptchaFrame/Margin/Content/CaptchaDesktopGroup/CaptchaCodeRow"]
+custom_minimum_size = Vector2(220, 0)
+layout_mode = 2
+max_length = 6
+
+[node name="CaptchaDesktopStatusLabel" type="Label" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/CaptchaFrame/Margin/Content/CaptchaDesktopGroup"]
+visible = false
+layout_mode = 2
+autowrap_mode = 2
+
 [node name="CreateErrorLabel" type="Label" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList" unique_id=1910272739]
 visible = false
 layout_mode = 2
 autowrap_mode = 2
 
 [node name="CreateButton" type="Button" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList" unique_id=1969909297]
+mouse_filter = 1
 layout_mode = 2
 size_flags_horizontal = 0
 text = "Créer le compte"
 
 [node name="SwitchToLoginButton" type="Button" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList" unique_id=1534250578]
+mouse_filter = 1
 layout_mode = 2
 size_flags_horizontal = 0
 text = "Déjà un compte ? Se connecter"

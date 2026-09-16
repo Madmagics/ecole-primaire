@@ -253,6 +253,12 @@ $$;
 --    pouvoir se reconnecter au meme compte. fn_deconnecter (voir plus bas) libere la session
 --    IMMEDIATEMENT sur une deconnexion volontaire, pour eviter cette attente dans le cas normal.
 -- ============================================================================
+-- MODIFIEE le 2026-09-16 (voir TODO_UI_MODS.md, bug "acces au jeu possible avant confirmation
+-- d'email") : "email"/"email_verifie" ajoutes au retour jsonb - le client (SaveManager.login()/
+-- _login_from_server()) doit pouvoir decider, a CHAQUE connexion, si l'email du compte est encore
+-- a confirmer, sans appel RPC supplementaire (fn_statut_email, ajoutee la meme session, ne sert
+-- qu'au recheck MANUEL depuis l'ecran "Vérifie ta boîte mail", pendant qu'une session est deja
+-- ouverte).
 create or replace function fn_login(p_login text, p_mdp_hash text)
 returns jsonb
 language plpgsql
@@ -263,6 +269,8 @@ declare
 	v_compte_id text;
 	v_jeton text;
 	v_profil jsonb;
+	v_email text;
+	v_email_verifie boolean;
 	v_deja_connecte boolean;
 	-- Fenetre de tolerance de presence (voir commentaire de fonction ci-dessus) - reprise a
 	-- l'identique dans fn_pulse_session plus bas, aucune autre fonction n'a besoin de la connaitre.
@@ -270,7 +278,8 @@ declare
 begin
 	delete from sessions where expire_le < now();
 
-	select id, profil into v_compte_id, v_profil from comptes
+	select id, profil, email, email_verifie into v_compte_id, v_profil, v_email, v_email_verifie
+	from comptes
 	where login_normalise = lower(p_login) and mdp_hash = p_mdp_hash;
 
 	if v_compte_id is null then
@@ -289,7 +298,13 @@ begin
 	insert into sessions (jeton, compte_id, expire_le, derniere_activite)
 	values (v_jeton, v_compte_id, now() + interval '48 hours', now());
 
-	return jsonb_build_object('jeton', v_jeton, 'compte_id', v_compte_id, 'profil', v_profil);
+	return jsonb_build_object(
+		'jeton', v_jeton,
+		'compte_id', v_compte_id,
+		'profil', v_profil,
+		'email', coalesce(v_email, ''),
+		'email_verifie', v_email_verifie
+	);
 end;
 $$;
 
@@ -966,10 +981,18 @@ begin
 			'<p>Cette adresse ne sert qu''à la vérification et à la récupération de compte, elle n''est jamais partagée ni utilisée à d''autres fins.</p>'
 	);
 
+	-- BUG CORRIGE le 2026-09-15 (repere au 1er vrai test d'envoi email, voir project_auth_creation_
+	-- comptes.md) : "http_headers(...)" n'existe PAS dans l'extension http (confirme sur le depot
+	-- pramsey/pgsql-http) - seule la fonction SINGULIER "http_header(field, value)" existe, qui
+	-- construit UN seul en-tete (type compose) ; plusieurs en-tetes s'assemblent dans un tableau
+	-- ARRAY[...]::http_header[], le type reellement attendu par le champ "headers" de
+	-- http_request. Cette fonction n'avait encore jamais ete exercee de bout en bout (le test du
+	-- 2026-09-14 n'avait verifie que l'appel Turnstile, qui utilise http_post() et non http_header,
+	-- voir project_auth_creation_comptes.md) - l'erreur passait donc inapercue depuis sa creation.
 	select * into v_reponse from http((
 		'POST',
 		'https://api.brevo.com/v3/smtp/email',
-		http_headers('api-key', v_brevo_api_key, 'Accept', 'application/json'),
+		ARRAY[http_header('api-key', v_brevo_api_key), http_header('Accept', 'application/json')],
 		'application/json',
 		v_corps::text
 	)::http_request);
@@ -1069,5 +1092,293 @@ begin
 	end;
 
 	return jsonb_build_object('ok', true, 'email_envoye', v_brevo_ok);
+end;
+$$;
+
+-- ============================================================================
+-- Reprise du 2026-09-16 (voir TODO_UI_MODS.md, mods 1/6/7 et le bug "acces au jeu possible avant
+-- confirmation d'email") : 3 fonctions authentifiees par jeton (meme convention que fn_maj_profil)
+-- pour laisser un parent (depuis Contrôle parental, voir section_parental_control.gd) changer le
+-- pseudo/l'email/le mot de passe DU COMPTE (colonnes de "comptes", distinctes du jsonb "profil"
+-- deja gere par fn_maj_profil), + le flux complet "mot de passe oublié" (table dediee, envoi
+-- d'email, reinitialisation par lien) et une fonction de consultation du statut de verification
+-- d'email pour le bouton "j'ai confirmé, vérifier à nouveau".
+-- ============================================================================
+
+-- fn_changer_login : meme regle d'unicite que fn_creer_compte (login_normalise), mais REFUSE
+-- explicitement plutot que de suffixer automatiquement - un pseudo choisi a la main par un parent
+-- doit rester EXACTEMENT celui demande ou echouer clairement, pas devenir "pseudo7" en silence.
+create or replace function fn_changer_login(p_jeton text, p_nouveau_login text)
+returns jsonb
+language plpgsql
+security definer
+set search_path = public, extensions
+as $$
+declare
+	v_compte_id text;
+	v_nouveau_login text := trim(p_nouveau_login);
+begin
+	select compte_id into v_compte_id from sessions where jeton = p_jeton and expire_le > now();
+	if v_compte_id is null then
+		raise exception 'session_expiree';
+	end if;
+	if v_nouveau_login = '' then
+		raise exception 'login_vide';
+	end if;
+	if exists(
+		select 1 from comptes where login_normalise = lower(v_nouveau_login) and id <> v_compte_id
+	) then
+		raise exception 'pseudo_indisponible';
+	end if;
+
+	update comptes set login = v_nouveau_login, maj_le = now() where id = v_compte_id;
+	update sessions set derniere_activite = now() where jeton = p_jeton;
+
+	return jsonb_build_object('ok', true, 'login', v_nouveau_login);
+end;
+$$;
+
+-- fn_changer_email : remplace l'email ET repart de zero sur la verification (email_verifie remis a
+-- false, nouveau token envoye, meme mecanique que fn_creer_compte_public) - une adresse qui vient
+-- de remplacer une adresse confirmee n'est PAS elle-meme confirmee pour autant. Meme prudence
+-- "l'echec d'ENVOI ne fait pas echouer l'operation" que fn_creer_compte_public/
+-- fn_renvoyer_verification (voir "email_envoye" dans le retour).
+create or replace function fn_changer_email(p_jeton text, p_nouvel_email text)
+returns jsonb
+language plpgsql
+security definer
+set search_path = public, extensions
+as $$
+declare
+	v_compte_id text;
+	v_email text := trim(p_nouvel_email);
+	v_token text;
+	v_brevo_ok boolean := false;
+begin
+	select compte_id into v_compte_id from sessions where jeton = p_jeton and expire_le > now();
+	if v_compte_id is null then
+		raise exception 'session_expiree';
+	end if;
+	if v_email = '' or position('@' in v_email) = 0 then
+		raise exception 'email_invalide';
+	end if;
+
+	update comptes set email = v_email, email_verifie = false, maj_le = now() where id = v_compte_id;
+	update sessions set derniere_activite = now() where jeton = p_jeton;
+
+	v_token := encode(gen_random_bytes(32), 'hex');
+	insert into verifications_email (compte_id, token_hash, expire_le, dernier_envoi_le)
+	values (v_compte_id, encode(digest(v_token, 'sha256'), 'hex'), now() + interval '24 hours', now())
+	on conflict (compte_id) do update
+		set token_hash = excluded.token_hash,
+		    expire_le = excluded.expire_le,
+		    dernier_envoi_le = excluded.dernier_envoi_le;
+
+	begin
+		v_brevo_ok := fn_envoyer_email_verification(v_email, v_token);
+	exception when others then
+		v_brevo_ok := false;
+	end;
+
+	return jsonb_build_object('ok', true, 'email_envoye', v_brevo_ok);
+end;
+$$;
+
+-- fn_changer_mot_de_passe : le hash+sel sont deja recalcules CÔTE CLIENT avec un sel FRAIS (voir
+-- SaveManager.change_password()) - le serveur se contente de les stocker, meme principe que
+-- fn_creer_compte (jamais de calcul de hash cote serveur, le mot de passe en clair ne le traverse
+-- jamais).
+create or replace function fn_changer_mot_de_passe(p_jeton text, p_nouveau_mdp_hash text, p_nouveau_mdp_sel text)
+returns jsonb
+language plpgsql
+security definer
+set search_path = public, extensions
+as $$
+declare
+	v_compte_id text;
+begin
+	select compte_id into v_compte_id from sessions where jeton = p_jeton and expire_le > now();
+	if v_compte_id is null then
+		raise exception 'session_expiree';
+	end if;
+
+	update comptes set mdp_hash = p_nouveau_mdp_hash, mdp_sel = p_nouveau_mdp_sel, maj_le = now()
+	where id = v_compte_id;
+	update sessions set derniere_activite = now() where jeton = p_jeton;
+
+	return jsonb_build_object('ok', true);
+end;
+$$;
+
+-- fn_statut_email : consultation seule (pas de mutation autre que le rafraichissement de presence
+-- habituel), utilisee par le bouton "j'ai confirmé, vérifier à nouveau" de WelcomePanel pendant
+-- qu'une session est deja ouverte - evite de repasser par un fn_login complet juste pour ca.
+create or replace function fn_statut_email(p_jeton text)
+returns jsonb
+language plpgsql
+security definer
+set search_path = public, extensions
+as $$
+declare
+	v_compte_id text;
+	v_verifie boolean;
+begin
+	select compte_id into v_compte_id from sessions where jeton = p_jeton and expire_le > now();
+	if v_compte_id is null then
+		raise exception 'session_expiree';
+	end if;
+
+	select email_verifie into v_verifie from comptes where id = v_compte_id;
+	update sessions set derniere_activite = now() where jeton = p_jeton;
+
+	return jsonb_build_object('ok', true, 'email_verifie', coalesce(v_verifie, true));
+end;
+$$;
+
+-- 9. reinitialisations_mdp — un token de reinitialisation de mot de passe en attente par compte
+-- (meme structure/logique que verifications_email : le renvoi remplace le precedent, seul le
+-- HACHE du token est stocke).
+create table if not exists reinitialisations_mdp (
+	compte_id          text primary key references comptes(id) on delete cascade,
+	token_hash         text not null,
+	expire_le          timestamptz not null,
+	demande_le         timestamptz not null default now()
+);
+alter table reinitialisations_mdp enable row level security;
+
+-- fn_envoyer_email_reinitialisation : meme mecanique que fn_envoyer_email_verification (voir son
+-- commentaire pour le detail de l'appel Brevo) - fonction INTERNE, jamais appelable directement en
+-- RPC public (voir le revoke juste en dessous), le lien pointe vers reinitialiser-mdp.html (a
+-- creer cote client web, PAS dans ce client Godot - meme logique que verifier-email.html).
+create or replace function fn_envoyer_email_reinitialisation(p_email text, p_token text)
+returns boolean
+language plpgsql
+security definer
+set search_path = public, extensions
+as $$
+declare
+	v_brevo_api_key   text;
+	v_lien            text;
+	v_corps           jsonb;
+	v_reponse         http_response;
+begin
+	select valeur into v_brevo_api_key from config_secrets where cle = 'brevo_api_key';
+	if v_brevo_api_key is null then
+		return false;
+	end if;
+
+	v_lien := 'https://www.ecole-primaire.eu/reinitialiser-mdp.html?token=' || p_token;
+
+	v_corps := jsonb_build_object(
+		'sender', jsonb_build_object('name', 'École Primaire', 'email', 'noreply@ecole-primaire.eu'),
+		'to', jsonb_build_array(jsonb_build_object('email', p_email)),
+		'subject', 'Réinitialisation de votre mot de passe',
+		'htmlContent',
+			'<p>Bonjour,</p>' ||
+			'<p>Une réinitialisation de mot de passe a été demandée pour le compte associé à cette adresse email sur le jeu École Primaire.</p>' ||
+			'<p><a href="' || v_lien || '">Cliquez ici pour choisir un nouveau mot de passe</a></p>' ||
+			'<p>Ce lien expire dans 1 heure. Si vous n''êtes pas à l''origine de cette demande, ignorez cet email : votre mot de passe actuel reste inchangé.</p>'
+	);
+
+	select * into v_reponse from http((
+		'POST',
+		'https://api.brevo.com/v3/smtp/email',
+		ARRAY[http_header('api-key', v_brevo_api_key), http_header('Accept', 'application/json')],
+		'application/json',
+		v_corps::text
+	)::http_request);
+
+	return v_reponse.status = 201;
+end;
+$$;
+
+revoke execute on function fn_envoyer_email_reinitialisation(text, text) from anon, authenticated;
+
+-- fn_demander_reinitialisation_mdp : [p_login_ou_email] essaie d'abord un pseudo, puis un email -
+-- renvoie TOUJOURS {"ok": true}, que le compte existe ou non et qu'il ait un email ou non (jamais
+-- laisser deviner quels comptes existent, meme principe que fn_obtenir_sel). Cooldown 5 minutes
+-- par compte (meme duree que fn_renvoyer_verification) pour eviter l'abus - silencieux lui aussi
+-- (toujours {"ok": true}), pas d'exception distincte qui revelerait qu'un envoi recent a eu lieu.
+create or replace function fn_demander_reinitialisation_mdp(p_login_ou_email text)
+returns jsonb
+language plpgsql
+security definer
+set search_path = public, extensions
+as $$
+declare
+	v_saisie text := trim(p_login_ou_email);
+	v_compte_id text;
+	v_email text;
+	v_dernier_envoi timestamptz;
+	v_token text;
+begin
+	select id, email into v_compte_id, v_email from comptes where login_normalise = lower(v_saisie);
+	if v_compte_id is null then
+		select id, email into v_compte_id, v_email from comptes
+		where email is not null and lower(email) = lower(v_saisie);
+	end if;
+
+	if v_compte_id is null or v_email is null or v_email = '' then
+		return jsonb_build_object('ok', true);
+	end if;
+
+	select demande_le into v_dernier_envoi from reinitialisations_mdp where compte_id = v_compte_id;
+	if v_dernier_envoi is not null and v_dernier_envoi > now() - interval '5 minutes' then
+		return jsonb_build_object('ok', true);
+	end if;
+
+	v_token := encode(gen_random_bytes(32), 'hex');
+	insert into reinitialisations_mdp (compte_id, token_hash, expire_le, demande_le)
+	values (v_compte_id, encode(digest(v_token, 'sha256'), 'hex'), now() + interval '1 hour', now())
+	on conflict (compte_id) do update
+		set token_hash = excluded.token_hash,
+		    expire_le = excluded.expire_le,
+		    demande_le = excluded.demande_le;
+
+	begin
+		perform fn_envoyer_email_reinitialisation(v_email, v_token);
+	exception when others then
+		null; -- echec d'envoi silencieux, meme principe que partout ailleurs dans ce fichier
+	end;
+
+	return jsonb_build_object('ok', true);
+end;
+$$;
+
+-- fn_reinitialiser_mdp : appelee par reinitialiser-mdp.html avec le token lu dans l'URL et un
+-- nouveau hash+sel calcules CÔTE PAGE WEB (Web Crypto API, meme algorithme sha256(sel+mdp) que le
+-- client Godot - voir _hash_password() dans save_manager.gd) - PAS d'authentification par jeton de
+-- SESSION ici (le joueur ne peut par definition pas se connecter, c'est son mot de passe qui est
+-- oublie), le token de reinitialisation en tient lieu. Invalide TOUTES les sessions existantes du
+-- compte (un mot de passe oublie/compromis justifie de forcer une reconnexion partout) - voir
+-- SaveManager.login(), qui sait deja se resynchroniser sur un hash local perime dans ce cas
+-- precis (_resync_password_from_server()).
+create or replace function fn_reinitialiser_mdp(p_token text, p_nouveau_mdp_hash text, p_nouveau_mdp_sel text)
+returns jsonb
+language plpgsql
+security definer
+set search_path = public, extensions
+as $$
+declare
+	v_compte_id   text;
+	v_expire_le   timestamptz;
+begin
+	select compte_id, expire_le into v_compte_id, v_expire_le
+	from reinitialisations_mdp
+	where token_hash = encode(digest(p_token, 'sha256'), 'hex');
+
+	if v_compte_id is null then
+		raise exception 'token_invalide';
+	end if;
+	if v_expire_le < now() then
+		raise exception 'token_expire';
+	end if;
+
+	update comptes set mdp_hash = p_nouveau_mdp_hash, mdp_sel = p_nouveau_mdp_sel, maj_le = now()
+	where id = v_compte_id;
+	delete from reinitialisations_mdp where compte_id = v_compte_id;
+	delete from sessions where compte_id = v_compte_id;
+
+	return jsonb_build_object('ok', true);
 end;
 $$;

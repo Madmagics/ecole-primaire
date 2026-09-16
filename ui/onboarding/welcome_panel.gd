@@ -107,6 +107,35 @@ extends Control
 ## (ScrollContainer, qui coupe tout ce qui depasse sa zone visible) rognait ce debordement quand
 ## ScrollMargin n'avait aucune marge en haut (NomRow colle au bord superieur de la zone de
 ## defilement). Les 6px laissent la place a cet anneau de se dessiner en entier.
+##
+## Email + captcha obligatoires a la creation (2026-09-15, demande utilisateur, voir
+## project_auth_creation_comptes.md) : EmailRow (nouveau champ, apres ConfirmPasswordRow) et
+## CaptchaFrame (nouveau cadre, meme principe visuel que ParentalControlFrame, entre ce dernier et
+## CreateErrorLabel) - voir TURNSTILE_SITE_KEY/_is_web plus bas pour le detail des 2 chemins (Web :
+## widget Turnstile en superposition JS ; hors Web, en pratique seulement l'editeur en dev : bouton
+## qui ouvre captcha.html dans le navigateur systeme + champ pour retaper le code). La creation
+## passe desormais par SaveManager.create_account_online() (attend la confirmation serveur) au lieu
+## de create_account() (offline-first, encore utilisee par SaveManager.DEV_AUTO_LOGIN uniquement).
+##
+## Controle parental desormais OBLIGATOIRE a la creation (2026-09-16, voir TODO_UI_MODS.md mod 5 -
+## "rendre le controle parental systematique, plus optionnel") : ParentalControlCheck passe a
+## button_pressed=true/disabled=true dans le .tscn (case cochee, grisee, impossible a decocher)
+## plutot que d'etre retiree - _on_parental_control_toggled()/_on_create_pressed() ci-dessous n'ont
+## PAS besoin de changer, ils continuent de lire button_pressed normalement (toujours true
+## desormais) : le mot de passe de controle parental reste donc toujours demande et valide.
+##
+## "Mot de passe oublié" + blocage email non confirme (2026-09-16, meme reprise de
+## TODO_UI_MODS.md, mods 1 et bug "acces au jeu possible avant confirmation d'email") :
+## ForgotPasswordSection (lien depuis LoginSection, voir ForgotPasswordButton) et
+## EmailPendingSection (affichee a la place du jeu si login()/create_account_online() reussit mais
+## que SaveManager.current_account_needs_email_verification() est vrai) sont deux nouvelles
+## sections enfants de Content, au meme niveau que LoginSection/CreateSection - _show_xxx_section()
+## masque toujours les 4 en meme temps (voir les nouvelles fonctions plus bas) pour ne jamais en
+## avoir deux affichees a la fois. EmailPendingSection ne fait PAS hide() sur ce panneau : tant
+## qu'elle est affichee, WelcomePanel reste visible (donc PlayerInputLock reste verrouille, voir
+## _on_visibility_changed) meme si SaveManager.current_account_id est deja rempli - c'est le choix
+## le plus simple pour reutiliser le jeton de session deja obtenu (necessaire aux boutons "renvoyer
+## l'email"/"j'ai confirme, verifier a nouveau") sans redemander une 2e authentification.
 const ENABLED := true
 
 const COUNTRY_FLAG_FRANCE := preload("res://assets/flags/flag_fr.svg")
@@ -131,10 +160,38 @@ const GRADE_OPTIONS: Array[GradeLevel.Grade] = [
 	GradeLevel.Grade.CM2,
 ]
 
+## Email + captcha obligatoires a la creation (2026-09-15, demande utilisateur : le jeu est joue
+## en priorite DANS UN NAVIGATEUR - desktop, tablette ou telephone, tous "Web" du point de vue de
+## Godot, voir _is_web plus bas) - voir project_auth_creation_comptes.md/SaveManager.
+## create_account_online(). Site Key Turnstile PUBLIQUE (voir autoload/server_api.gd pour la
+## meme logique sur ANON_KEY) - sans danger a coder en dur, concue pour etre embarquee cote client.
+const TURNSTILE_SITE_KEY := "0x4AAAAAAE0EDJZpy-RwAN5-"
+## Page ouverte dans le navigateur SYSTEME (OS.shell_open, voir _on_captcha_desktop_button_pressed)
+## quand ce client tourne HORS export Web - concretement seulement en lancant le jeu depuis
+## l'editeur Godot en dev (voir _is_web plus bas), aucun joueur reel ne passe par ce chemin
+## puisque le jeu n'est distribue QUE via l'export Web (voir project_deploiement_web.md).
+const CAPTCHA_PAGE_URL := "https://www.ecole-primaire.eu/captcha.html"
+
 ## Pseudo propose par SaveManager.suggest_login_variant() quand le pseudo choisi a la creation est
 ## deja pris (voir point 5 de project_auth_creation_comptes.md) - retenu ici le temps que l'enfant
 ## clique sur LoginSuggestionButton (voir _on_create_pressed()/_on_login_suggestion_button_pressed()).
 var _pending_login_suggestion: String = ""
+
+## true si ce client tourne dans l'export Web (navigateur, quelle que soit la plateforme physique -
+## desktop/tablette/telephone comptent tous comme "Web" ici) - decide UNE FOIS dans _ready(),
+## controle quelle moitie de CaptchaFrame est visible (voir commentaire de TURNSTILE_SITE_KEY).
+var _is_web: bool = false
+
+## Token Turnstile valide obtenu par le widget integre (Web uniquement, voir _start_web_captcha) -
+## vide tant qu'aucune verification n'a reussi. PAS encore consomme cote serveur a ce stade (voir
+## _on_create_pressed()) : reste utilisable jusqu'a expiration naturelle du token (quelques
+## minutes) ou jusqu'a l'appel reel a fn_creer_compte_public.
+var _turnstile_token: String = ""
+
+## Reference JS conservee tant que ce panneau existe (voir doc JavaScriptBridge.create_callback :
+## "the reference must be kept until the callback happens") - creee une seule fois dans
+## _start_web_captcha(), jamais recreee aux tentatives suivantes.
+var _turnstile_js_callback: JavaScriptObject
 
 @onready var background: TextureRect = $Background
 @onready var intro_menu: HBoxContainer = $IntroMenu
@@ -164,6 +221,26 @@ var _pending_login_suggestion: String = ""
 @onready var login_suggestions_dropdown: PanelContainer = $Panel/Margin/Content/LoginSection/LoginSuggestionsDropdown
 @onready var login_suggestions_box: VBoxContainer = $Panel/Margin/Content/LoginSection/LoginSuggestionsDropdown/LoginSuggestionsScroll/LoginSuggestionsBox
 @onready var pseudo_forget_button: Button = $Panel/Margin/Content/LoginSection/PseudoForgetButton
+@onready var forgot_password_button: LinkButton = $Panel/Margin/Content/LoginSection/ForgotPasswordButton
+
+## "Mot de passe oublié" (2026-09-16, voir TODO_UI_MODS.md mod 1) : petit formulaire separe
+## (pseudo/email + bouton d'envoi), pas une simple boite de dialogue - reutilise le meme cadre que
+## LoginSection/CreateSection (voir _show_forgot_password_section()).
+@onready var forgot_password_section: VBoxContainer = $Panel/Margin/Content/ForgotPasswordSection
+@onready var forgot_login_input: LineEdit = $Panel/Margin/Content/ForgotPasswordSection/ForgotLoginRow/ForgotLoginInput
+@onready var forgot_send_button: Button = $Panel/Margin/Content/ForgotPasswordSection/ForgotSendButton
+@onready var forgot_status_label: Label = $Panel/Margin/Content/ForgotPasswordSection/ForgotStatusLabel
+@onready var forgot_back_button: Button = $Panel/Margin/Content/ForgotPasswordSection/ForgotBackButton
+
+## "Vérifie ta boîte mail" (2026-09-16, voir TODO_UI_MODS.md, bug "accès au jeu possible avant
+## confirmation d'email") : affichee a la place du jeu tant que l'email du compte connecte n'est
+## pas confirme (voir SaveManager.current_account_needs_email_verification()) - voir le commentaire
+## de classe pour le detail de ce choix (WelcomePanel reste visible, PAS de hide()).
+@onready var email_pending_section: VBoxContainer = $Panel/Margin/Content/EmailPendingSection
+@onready var resend_email_button: Button = $Panel/Margin/Content/EmailPendingSection/ResendEmailButton
+@onready var resend_email_status_label: Label = $Panel/Margin/Content/EmailPendingSection/ResendEmailStatusLabel
+@onready var recheck_email_button: Button = $Panel/Margin/Content/EmailPendingSection/RecheckEmailButton
+@onready var recheck_email_status_label: Label = $Panel/Margin/Content/EmailPendingSection/RecheckEmailStatusLabel
 
 @onready var create_list: VBoxContainer = $Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList
 @onready var parental_control_check: CheckBox = $Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/ParentalControlFrame/Margin/Content/ParentalControlCheck
@@ -181,6 +258,14 @@ var _pending_login_suggestion: String = ""
 @onready var login_suggestion_button: Button = $Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/LoginSuggestionButton
 @onready var new_password_input: LineEdit = $Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/NewPasswordRow/NewPasswordInput
 @onready var confirm_password_input: LineEdit = $Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/ConfirmPasswordRow/ConfirmPasswordInput
+@onready var email_input: LineEdit = $Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/EmailRow/EmailInput
+@onready var captcha_web_group: VBoxContainer = $Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/CaptchaFrame/Margin/Content/CaptchaWebGroup
+@onready var captcha_web_status_label: Label = $Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/CaptchaFrame/Margin/Content/CaptchaWebGroup/CaptchaWebStatusLabel
+@onready var captcha_web_retry_button: Button = $Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/CaptchaFrame/Margin/Content/CaptchaWebGroup/CaptchaWebRetryButton
+@onready var captcha_desktop_group: VBoxContainer = $Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/CaptchaFrame/Margin/Content/CaptchaDesktopGroup
+@onready var captcha_desktop_button: Button = $Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/CaptchaFrame/Margin/Content/CaptchaDesktopGroup/CaptchaDesktopButton
+@onready var captcha_code_input: LineEdit = $Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/CaptchaFrame/Margin/Content/CaptchaDesktopGroup/CaptchaCodeRow/CaptchaCodeInput
+@onready var captcha_desktop_status_label: Label = $Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/CaptchaFrame/Margin/Content/CaptchaDesktopGroup/CaptchaDesktopStatusLabel
 @onready var create_error_label: Label = $Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/CreateErrorLabel
 @onready var create_button: Button = $Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/CreateButton
 @onready var switch_to_login_button: Button = $Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/SwitchToLoginButton
@@ -240,6 +325,15 @@ func _ready() -> void:
 	parental_control_check.toggled.connect(_on_parental_control_toggled)
 	_on_parental_control_toggled(parental_control_check.button_pressed)
 
+	## Decide une seule fois pour toute la duree de vie de ce panneau (voir commentaire de _is_web) -
+	## controle quelle moitie de CaptchaFrame reste visible (l'autre est masquee ici, jamais montree
+	## par erreur si _show_create_section() est appele avant que ceci ait tourne).
+	_is_web = OS.has_feature("web")
+	captcha_web_group.visible = _is_web
+	captcha_desktop_group.visible = not _is_web
+	captcha_desktop_button.pressed.connect(_on_captcha_desktop_button_pressed)
+	captcha_web_retry_button.pressed.connect(_on_captcha_web_retry_pressed)
+
 	login_button.pressed.connect(_on_login_pressed)
 	## Entree valide directement la connexion depuis l'un ou l'autre champ (LineEdit.
 	## text_submitted, emis par Godot a l'appui sur Entree) - la creation de compte reste
@@ -256,6 +350,14 @@ func _ready() -> void:
 	login_input.text_changed.connect(_on_login_input_text_changed)
 	pseudo_forget_button.pressed.connect(_on_pseudo_forget_pressed)
 	login_suggestion_button.pressed.connect(_on_login_suggestion_button_pressed)
+
+	## "Mot de passe oublié" (2026-09-16, mod 1) + blocage email non confirme (meme reprise, voir
+	## le bug correspondant dans TODO_UI_MODS.md).
+	forgot_password_button.pressed.connect(_show_forgot_password_section)
+	forgot_send_button.pressed.connect(_on_forgot_send_pressed)
+	forgot_back_button.pressed.connect(_show_login_section)
+	resend_email_button.pressed.connect(_on_resend_email_pressed)
+	recheck_email_button.pressed.connect(_on_recheck_email_pressed)
 	## Une suggestion affichee devient perimee des que l'enfant retouche au champ - on la masque
 	## plutot que de la laisser trainer sur un pseudo qui a change.
 	new_login_input.text_changed.connect(func(_text: String) -> void: login_suggestion_button.hide())
@@ -300,6 +402,11 @@ func _on_account_logged_out() -> void:
 func _show_intro_menu() -> void:
 	intro_menu.show()
 	panel.hide()
+	## Le widget Turnstile (Web) vit dans une superposition JS PAR-DESSUS le canvas du jeu, hors du
+	## controle de Godot (voir _start_web_captcha) - sans ce nettoyage, elle resterait affichee a
+	## l'ecran meme apres avoir quitte le formulaire de creation.
+	if _is_web:
+		_remove_turnstile_overlay()
 
 ## "Entrer en classe" : bascule vers le formulaire (Panel), toujours sur l'onglet connexion
 ## (_show_login_section) - la creation de compte reste accessible depuis la, via
@@ -317,15 +424,54 @@ func _on_quit_pressed() -> void:
 func _show_login_section() -> void:
 	login_section.show()
 	create_section.hide()
+	forgot_password_section.hide()
+	email_pending_section.hide()
 	login_error_label.hide()
 	pseudo_forget_button.visible = PseudoCache.has_pseudo(login_input.text)
 	login_input.grab_focus()
+	## Meme raison que _show_intro_menu() ci-dessus - la superposition Turnstile ne doit jamais
+	## rester affichee en dehors du formulaire de creation.
+	if _is_web:
+		_remove_turnstile_overlay()
+
+## "Mot de passe oublié" (2026-09-16, mod 1) : reprend le pseudo deja tape sur l'ecran de
+## connexion (souvent deja rempli, voir PseudoCache) plutot que de repartir d'un champ vide.
+func _show_forgot_password_section() -> void:
+	login_section.hide()
+	create_section.hide()
+	email_pending_section.hide()
+	forgot_password_section.show()
+	forgot_status_label.hide()
+	forgot_login_input.text = login_input.text
+	forgot_login_input.grab_focus()
+
+## "Vérifie ta boîte mail" (2026-09-16, bug email non confirme) : voir le commentaire de classe -
+## WelcomePanel reste VISIBLE (pas de hide()), seule la section affichee a l'interieur change.
+func _show_email_pending_section() -> void:
+	login_section.hide()
+	create_section.hide()
+	forgot_password_section.hide()
+	email_pending_section.show()
+	resend_email_status_label.hide()
+	recheck_email_status_label.hide()
+	show()
 
 func _show_create_section() -> void:
 	login_section.hide()
+	forgot_password_section.hide()
+	email_pending_section.hide()
 	create_section.show()
 	create_error_label.hide()
 	login_suggestion_button.hide()
+	## Email + captcha obligatoires (voir commentaire de TURNSTILE_SITE_KEY) : repart toujours d'un
+	## etat neuf a l'ouverture du formulaire plutot que de conserver un email/code d'une visite
+	## precedente - un token/code perime redonnerait une erreur "captcha_invalide" bien plus
+	## deroutante pour un enfant qu'un formulaire simplement vide a re-remplir.
+	email_input.clear()
+	captcha_code_input.clear()
+	captcha_desktop_status_label.hide()
+	if _is_web:
+		_start_web_captcha()
 	nom_input.grab_focus()
 
 ## Affiche/masque ParentalPasswordGroup au fil de la case a cocher (voir commentaire de classe) -
@@ -347,7 +493,15 @@ func _on_login_pressed() -> void:
 	var success := await SaveManager.login(login_input.text, password_input.text)
 	login_button.disabled = false
 	if success:
-		hide()
+		## Blocage dur avant confirmation d'email (2026-09-16, voir TODO_UI_MODS.md) : verifie a
+		## CHAQUE connexion (pas seulement a la creation), voir SaveManager.
+		## current_account_needs_email_verification() - reflete la reponse SERVEUR la plus recente
+		## obtenue par SaveManager.login() (fn_login renvoie desormais aussi email/email_verifie),
+		## ou la derniere valeur connue localement si hors-ligne a cet instant.
+		if SaveManager.current_account_needs_email_verification():
+			_show_email_pending_section()
+		else:
+			hide()
 	elif SaveManager.last_login_error == "compte_deja_connecte":
 		## Seul cas ou on s'ecarte du message generique ci-dessous (voir SaveManager.
 		## last_login_error) : le joueur vient de taper SES BONS identifiants, ce n'est pas une
@@ -358,11 +512,47 @@ func _on_login_pressed() -> void:
 		login_error_label.text = "Pseudo ou mot de passe incorrect."
 		login_error_label.show()
 
+## Devenue asynchrone le 2026-09-15 (email + captcha obligatoires, voir commentaire de
+## TURNSTILE_SITE_KEY) : SaveManager.create_account_online() attend la reponse du serveur avant de
+## creer quoi que ce soit en local (contrairement a l'ancien SaveManager.create_account(), encore
+## utilise par SaveManager.DEV_AUTO_LOGIN, voir son commentaire) - le bouton est desactive le temps
+## de l'attente reseau, meme principe que _on_login_pressed() ci-dessus.
 func _on_create_pressed() -> void:
 	if new_password_input.text != confirm_password_input.text:
 		create_error_label.text = "Les mots de passe ne correspondent pas."
 		create_error_label.show()
 		return
+
+	var email := email_input.text.strip_edges()
+	if email.is_empty():
+		create_error_label.text = "L'email est obligatoire pour créer un compte."
+		create_error_label.show()
+		return
+	## Verification volontairement grossiere (presence d'un "@" suivi d'un "." plus loin) - PAS une
+	## validation stricte au sens RFC 5322, inutile ici : le vrai controle est le clic sur le lien
+	## de confirmation envoye par Brevo (voir fn_verifier_email dans schema.sql). Ca evite juste une
+	## faute de frappe evidente avant de consommer un captcha pour rien.
+	var arobase := email.find("@")
+	if arobase == -1 or not email.substr(arobase).contains("."):
+		create_error_label.text = "Cette adresse email n'a pas l'air valide."
+		create_error_label.show()
+		return
+
+	var turnstile_token := ""
+	var code_captcha := ""
+	if _is_web:
+		if _turnstile_token.is_empty():
+			create_error_label.text = "Termine la vérification anti-robot avant de continuer."
+			create_error_label.show()
+			return
+		turnstile_token = _turnstile_token
+	else:
+		code_captcha = captcha_code_input.text.strip_edges()
+		if code_captcha.is_empty():
+			create_error_label.text = "Retape le code reçu après la vérification dans le navigateur."
+			create_error_label.show()
+			return
+
 	## Mot de passe de controle parental (voir commentaire de classe) : memes regles que le mot de
 	## passe de connexion (SaveManager.MIN_PASSWORD_LENGTH, ecrit 2 fois) mais uniquement si la
 	## case est cochee - aucune contrainte si elle ne l'est pas.
@@ -401,9 +591,15 @@ func _on_create_pressed() -> void:
 		var hashed := SaveManager.hash_parental_control_password(parental_password_input.text)
 		profile["controle_parental_password_hash"] = hashed["hash"]
 		profile["controle_parental_password_salt"] = hashed["salt"]
-	var error := SaveManager.create_account(new_login_input.text, new_password_input.text, profile)
+	create_button.disabled = true
+	create_error_label.hide()
+	var error := await SaveManager.create_account_online(new_login_input.text, new_password_input.text, profile, email, turnstile_token, code_captcha)
+	create_button.disabled = false
 	if error.is_empty():
-		hide()
+		## "À la création du compte : au lieu d'entrer dans le jeu, afficher un écran 'Vérifie ta
+		## boîte mail'" (2026-09-16, voir TODO_UI_MODS.md) - un compte frais cree via ce formulaire
+		## n'a par definition jamais encore confirme son email (email_verifie=false cote serveur).
+		_show_email_pending_section()
 		return
 	create_error_label.text = error
 	create_error_label.show()
@@ -416,6 +612,78 @@ func _on_create_pressed() -> void:
 		login_suggestion_button.show()
 	else:
 		login_suggestion_button.hide()
+	## Un code retape invalide/expire a deja ete consomme cote serveur si jamais il existait (usage
+	## unique, voir defis_captcha dans schema.sql) - jamais reutilisable tel quel, on vide le champ
+	## pour eviter un 2e essai voue silencieusement au meme echec.
+	if not _is_web:
+		captcha_code_input.clear()
+
+## Lance (ou relance, voir _on_captcha_web_retry_pressed) une verification Turnstile sur Web : cree
+## une superposition HTML PAR-DESSUS le canvas du jeu (position:fixed, hors du controle de Godot -
+## la seule facon d'afficher un vrai widget Turnstile, qui a besoin du DOM/d'un iframe) plutot que
+## d'essayer de l'incruster A L'INTERIEUR du canvas (impossible, le canvas est une simple surface
+## de rendu WebGL sans DOM). window.turnstile peut ne pas encore etre charge au tout premier appel
+## (script "async defer", voir export_presets.cfg > html/head_include) - reessaie pendant 5s avant
+## d'abandonner.
+func _start_web_captcha() -> void:
+	_turnstile_token = ""
+	captcha_web_status_label.text = "Vérification anti-robot en cours…"
+	## Cree UNE SEULE FOIS pour toute la duree de vie du panneau (voir commentaire de
+	## _turnstile_js_callback) - JavaScriptBridge.get_interface("window") expose l'objet global
+	## "window" du navigateur, sur lequel on pose une propriete portant la reference Callable :
+	## c'est ce qui permet au JS injecte plus bas de rappeler _on_turnstile_token_received().
+	if _turnstile_js_callback == null:
+		_turnstile_js_callback = JavaScriptBridge.create_callback(_on_turnstile_token_received)
+		var window_obj: JavaScriptObject = JavaScriptBridge.get_interface("window")
+		window_obj.godotTurnstileCallback = _turnstile_js_callback
+	JavaScriptBridge.eval("""
+	(function() {
+		var ancien = document.getElementById('turnstile-overlay');
+		if (ancien) { ancien.remove(); }
+		var overlay = document.createElement('div');
+		overlay.id = 'turnstile-overlay';
+		overlay.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,0.55);display:flex;align-items:center;justify-content:center;z-index:9999;padding:16px;';
+		var carte = document.createElement('div');
+		carte.style.cssText = 'background:#FBF3E7;border-radius:16px;padding:20px;max-width:90vw;';
+		overlay.appendChild(carte);
+		document.body.appendChild(overlay);
+		function essayerAfficher(tentative) {
+			if (typeof window.turnstile === 'undefined') {
+				if (tentative < 20) { setTimeout(function () { essayerAfficher(tentative + 1); }, 250); }
+				return;
+			}
+			window.turnstile.render(carte, {
+				sitekey: '%s',
+				callback: function (token) { window.godotTurnstileCallback(token); }
+			});
+		}
+		essayerAfficher(0);
+	})();
+	""" % TURNSTILE_SITE_KEY, true)
+
+## Retire la superposition Turnstile du DOM si elle existe encore (voir _start_web_captcha) - sans
+## effet si elle a deja ete retiree/n'a jamais existe (getElementById renvoie null, rien a faire).
+func _remove_turnstile_overlay() -> void:
+	JavaScriptBridge.eval("(function () { var o = document.getElementById('turnstile-overlay'); if (o) { o.remove(); } })();", true)
+
+## Callback JS -> GDScript (voir _start_web_captcha) : [args] est TOUJOURS un Array, ses elements
+## sont les arguments JS convertis (voir doc JavaScriptBridge.create_callback) - ici un seul, le
+## token Turnstile.
+func _on_turnstile_token_received(args: Array) -> void:
+	_turnstile_token = String(args[0]) if args.size() > 0 else ""
+	captcha_web_status_label.text = "Vérification réussie ✅"
+	_remove_turnstile_overlay()
+
+func _on_captcha_web_retry_pressed() -> void:
+	_start_web_captcha()
+
+## Repli desktop/mobile (voir commentaire de CAPTCHA_PAGE_URL - en pratique seulement l'editeur
+## Godot en dev, aucun joueur reel) : ouvre la page dans le navigateur systeme, PAS dans le jeu
+## lui-meme (aucun DOM/JS disponible hors export Web pour afficher un widget Turnstile).
+func _on_captcha_desktop_button_pressed() -> void:
+	OS.shell_open(CAPTCHA_PAGE_URL)
+	captcha_desktop_status_label.text = "Reviens ici une fois le code affiché, et retape-le ci-dessus."
+	captcha_desktop_status_label.show()
 
 func _on_login_suggestion_button_pressed() -> void:
 	new_login_input.text = _pending_login_suggestion
@@ -439,6 +707,11 @@ func _on_login_input_text_changed(new_text: String) -> void:
 		var button := Button.new()
 		button.text = suggestion
 		button.size_flags_horizontal = 3
+		## mouse_filter=Pass (2026-09-16, TODO_UI_MODS.md "Bug - Scroll tactile impossible") : ce
+		## bouton cree a la volee vit dans LoginSuggestionsScroll (voir _on_login_input_text_changed
+		## plus haut) - sans ca son mouse_filter=Stop par defaut empecherait le glissement tactile
+		## d'atteindre ce ScrollContainer quand la liste depasse la hauteur visible.
+		button.mouse_filter = Control.MOUSE_FILTER_PASS
 		## Capture par valeur (suggestion est une variable de boucle, voir GDScript closures) -
 		## chaque bouton reste bien associe a SON propre pseudo.
 		button.pressed.connect(func() -> void: _on_login_suggestion_chosen(suggestion))
@@ -472,3 +745,52 @@ func _clear_login_suggestions() -> void:
 func _on_pseudo_forget_pressed() -> void:
 	PseudoCache.forget(login_input.text)
 	pseudo_forget_button.hide()
+
+## "Mot de passe oublié" (2026-09-16, voir TODO_UI_MODS.md mod 1) : message TOUJOURS identique,
+## que le pseudo/email existe ou non (voir fn_demander_reinitialisation_mdp dans schema.sql) - ne
+## jamais laisser deviner quels comptes existent, meme principe que le login/mot de passe incorrect
+## sur l'ecran de connexion. Seul un probleme reseau AVERE change le message (rien a voir avec
+## l'existence d'un compte, juste une impossibilite technique de contacter le serveur).
+func _on_forgot_send_pressed() -> void:
+	var login_or_email := forgot_login_input.text.strip_edges()
+	if login_or_email.is_empty():
+		forgot_status_label.text = "Tape ton pseudo ou ton email."
+		forgot_status_label.show()
+		return
+	forgot_send_button.disabled = true
+	var result := await SaveManager.request_password_reset(login_or_email)
+	forgot_send_button.disabled = false
+	if not result.get("ok", false) and result.get("type", "") == "reseau":
+		forgot_status_label.text = "Impossible de contacter le serveur, vérifie ta connexion internet."
+	else:
+		forgot_status_label.text = "Si un compte existe avec ce pseudo ou cet email, un lien de réinitialisation vient d'être envoyé."
+	forgot_status_label.show()
+
+## "Renvoyer l'email" (ecran EmailPendingSection) - reutilise ServerApi.renvoyer_verification() via
+## SaveManager (deja cable pour le bouton "renvoyer" prevu par project_auth_creation_comptes.md,
+## jamais relie a un bouton UI jusqu'ici).
+func _on_resend_email_pressed() -> void:
+	resend_email_button.disabled = true
+	var result := await SaveManager.resend_email_verification()
+	resend_email_button.disabled = false
+	if result.get("ok", false):
+		if result.get("data", {}).get("email_envoye", false):
+			resend_email_status_label.text = "Email renvoyé, pense à vérifier tes spams."
+		else:
+			resend_email_status_label.text = "Le renvoi a échoué, réessaie dans quelques minutes."
+	else:
+		resend_email_status_label.text = "Impossible de contacter le serveur, vérifie ta connexion internet."
+	resend_email_status_label.show()
+
+## "J'ai confirmé, vérifier à nouveau" - revient au jeu immediatement si le lien a bien ete
+## clique entre-temps (voir SaveManager.recheck_email_verification()), sans exiger de refaire tout
+## le formulaire de connexion.
+func _on_recheck_email_pressed() -> void:
+	recheck_email_button.disabled = true
+	var verified := await SaveManager.recheck_email_verification()
+	recheck_email_button.disabled = false
+	if verified:
+		hide()
+		return
+	recheck_email_status_label.text = "Toujours pas confirmé - clique sur le lien reçu par email, puis réessaie."
+	recheck_email_status_label.show()

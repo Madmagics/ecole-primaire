@@ -116,6 +116,7 @@ horizontal_alignment = 1
 keep_editing_on_text_submit = true
 
 [node name="ValidateButton" type="Button" parent="Panel/Margin/Content/QuestionScroll/QuestionScrollMargin/QuestionScrollContent/AnswerRow"]
+mouse_filter = 1
 layout_mode = 2
 text = "Valider"
 

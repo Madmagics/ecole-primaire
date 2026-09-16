@@ -241,7 +241,16 @@ func login(login_name: String, password: String) -> bool:
 	var expected_hash: String = account.get("password_hash", "")
 	var actual_hash := _hash_password(password, String(account.get("password_salt", "")))
 	if expected_hash != actual_hash:
-		return false
+		## Mot de passe oublie/reinitialise (2026-09-16, voir TODO_UI_MODS.md mod 1) : un mot de
+		## passe reinitialise par email (reinitialiser-mdp.html) change le sel ET le hash cote
+		## SERVEUR - le hash LOCAL (calcule avec l'ANCIEN sel) ne correspondra alors plus JAMAIS,
+		## meme si l'enfant retape le bon nouveau mot de passe, sur CE MEME appareil. Avant
+		## d'echouer, on retente donc exactement comme pour un pseudo totalement inconnu de cet
+		## appareil (sel/hash obtenus fraichement du serveur) : si ca reussit, c'est la preuve que
+		## le mot de passe tape est le bon (juste reinitialise ailleurs) - on se contente alors de
+		## RESYNCHRONISER le hash/sel locaux du compte EXISTANT plutot que d'en creer un doublon
+		## (voir _resync_password_from_server()).
+		return await _resync_password_from_server(login_name, password)
 
 	## Reclame une session serveur MAINTENANT (voir le point 2 du commentaire de fonction) - sert
 	## aussi a obtenir un jeton frais tout de suite (evite d'attendre le prochain log_event()/
@@ -254,6 +263,13 @@ func login(login_name: String, password: String) -> bool:
 		index = _find_account_index_by_login(login_name)
 		if index != -1:
 			_accounts[index]["sync_jeton"] = String(data.get("jeton", ""))
+			## Blocage dur avant confirmation d'email (2026-09-16, voir TODO_UI_MODS.md) : fn_login
+			## renvoie desormais aussi "email"/"email_verifie" (schema.sql) - verifie a CHAQUE
+			## connexion reussie, pas seulement a la creation. Defaut "true" si la cle est absente
+			## (ancien serveur pas encore a jour) : jamais bloquant par erreur, voir le commentaire
+			## de current_account_needs_email_verification() plus bas.
+			_accounts[index]["email"] = String(data.get("email", _accounts[index].get("email", "")))
+			_accounts[index]["email_verifie"] = bool(data.get("email_verifie", true))
 	elif login_result.get("type", "") == "serveur" and login_result.get("message", "") == "compte_deja_connecte":
 		last_login_error = "compte_deja_connecte"
 		return false
@@ -348,6 +364,10 @@ func _login_from_server(login_name: String, password: String) -> bool:
 		## Le profil VIENT d'etre lu depuis le serveur : par definition synchronise a cet instant
 		## (voir "profil_synchronise" dans create_account()/update_current_profile() plus haut/bas).
 		"profil_synchronise": true,
+		## Blocage dur avant confirmation d'email (2026-09-16, meme chantier que ci-dessus, voir
+		## login()) : fn_login renvoie aussi "email"/"email_verifie" desormais.
+		"email": String(login_data.get("email", "")),
+		"email_verifie": bool(login_data.get("email_verifie", true)),
 	}
 	_accounts.append(account)
 	current_account_id = compte_id
@@ -426,6 +446,110 @@ func create_account(login_name: String, password: String, profile: Dictionary) -
 	_register_account_on_server(_accounts.size() - 1)
 	return ""
 
+## Cree un compte DEPUIS LE FORMULAIRE DE CREATION EN LIGNE (email + captcha, voir
+## project_auth_creation_comptes.md et WelcomePanel._on_create_pressed()) - a la difference de
+## create_account() ci-dessus (offline-first, JAMAIS bloquant, synchro serveur en arriere-plan sans
+## captcha), cette version ATTEND la reponse du serveur (ServerApi.creer_compte_public()) AVANT de
+## creer quoi que ce soit en local : le captcha resolu est une preuve VALIDE UNE SEULE FOIS
+## cote serveur, un compte cree localement sans confirmation serveur perdrait cette preuve pour
+## toujours (fn_renvoyer_verification exige un email deja enregistre sur le compte, voir
+## schema.sql - impossible de "rattraper" apres coup sans redemander un nouveau captcha). Utilisee
+## UNIQUEMENT quand un email est fourni - sans email, create_account() ci-dessus reste le chemin
+## normal (aucun reseau requis, aucun captcha).
+## Renvoie "" en cas de succes, ou un message d'erreur a afficher tel quel (meme convention que
+## create_account()).
+func create_account_online(login_name: String, password: String, profile: Dictionary, email: String, turnstile_token: String, code_captcha: String) -> String:
+	var trimmed_login := login_name.strip_edges()
+	if trimmed_login.is_empty():
+		return "Le pseudo ne peut pas être vide."
+	if password.length() < MIN_PASSWORD_LENGTH:
+		return "Le mot de passe doit faire au moins %d caractères." % MIN_PASSWORD_LENGTH
+	## Filtre local en 1er rideau seulement (meme verification que create_account() ci-dessus) : le
+	## serveur reste l'arbitre final au niveau GLOBAL (fn_creer_compte suffixe automatiquement en
+	## cas de collision avec un compte cree depuis un AUTRE appareil, voir final_login plus bas) -
+	## ce filtre local evite juste un aller-retour reseau + une consommation de captcha inutiles
+	## pour un pseudo deja pris SUR CET APPAREIL.
+	if is_login_taken(trimmed_login):
+		return "Ce pseudo est déjà pris."
+
+	var salt := _generate_random_hex(SALT_BYTE_LENGTH)
+	var id := _generate_random_hex(SALT_BYTE_LENGTH)
+	var password_hash := _hash_password(password, salt)
+
+	var result := await ServerApi.creer_compte_public(id, trimmed_login, password_hash, salt, profile, email, turnstile_token, code_captcha)
+	if not result.get("ok", false):
+		return _describe_public_creation_error(String(result.get("message", "")))
+
+	## Repart d'un etat neuf (voir create_account() ci-dessus, meme raison) - APRES la reponse
+	## serveur seulement : rien n'est cree/reinitialise localement si le serveur refuse la demande.
+	Economy.reset()
+	CardCollection.reset()
+	ChallengeTracker.reset()
+	ProfSkins.reset()
+	ClassroomDecor.reset()
+	ClassroomMusic.reset()
+
+	var data: Dictionary = result.get("data", {})
+	## final_login/final_id : ce que le serveur a REELLEMENT enregistre (voir fn_creer_compte_public
+	## dans schema.sql, qui reutilise fn_creer_compte) - peut differer de [trimmed_login]/[id] si un
+	## autre appareil a cree entre-temps un compte avec le meme pseudo (suffixe automatique cote
+	## serveur, aucune erreur dans ce cas, voir commentaire de creer_compte() dans server_api.gd).
+	var final_login := String(data.get("login", trimmed_login))
+	var final_id := String(data.get("id", id))
+	var account := {
+		"id": final_id,
+		"login": final_login,
+		"password_hash": password_hash,
+		"password_salt": salt,
+		"profile": profile.duplicate(true),
+		"economy": Economy.serialize(),
+		"cards": CardCollection.serialize(),
+		"defis": ChallengeTracker.serialize(),
+		"prof_skins": ProfSkins.serialize(),
+		"classroom_decor": ClassroomDecor.serialize(),
+		"classroom_music": ClassroomMusic.serialize(),
+		"sync_jeton": "",
+		"sync_evenements": [],
+		"profil_synchronise": true,
+		## Compte cree via le formulaire en ligne (voir fn_creer_compte_public) - "email_envoye"
+		## reflete uniquement l'envoi Brevo (jamais si l'enfant/le parent a clique sur le lien,
+		## email_verifie n'est nulle part encore lu par ce client), voir
+		## project_auth_creation_comptes.md. Aucun bouton "renvoyer" cote UI pour l'instant (chantier
+		## suivant, voir ServerApi.renvoyer_verification()) - ces 2 champs suffisent a le construire
+		## plus tard sans nouvelle migration de savegame.json.
+		"email": email,
+		"email_envoye": bool(data.get("email_envoye", false)),
+		## Blocage dur avant confirmation d'email (2026-09-16, voir TODO_UI_MODS.md) : un compte
+		## flambant neuf n'a par definition jamais confirme son email - voir WelcomePanel.
+		## _on_create_pressed(), qui affiche desormais l'ecran "Vérifie ta boîte mail" plutot que
+		## d'entrer directement dans le jeu.
+		"email_verifie": false,
+	}
+	_accounts.append(account)
+	current_account_id = final_id
+	_apply_volume_from_profile(account["profile"])
+	_apply_theme_from_profile(account["profile"])
+	_save_to_disk()
+	account_logged_in.emit(account["profile"])
+	PseudoCache.remember(final_login)
+	return ""
+
+## Traduit en texte affichable les messages d'erreur de fn_creer_compte_public (schema.sql) - voir
+## WelcomePanel, qui affiche ce texte directement dans CreateErrorLabel. "" (chaine vide) couvre le
+## cas reseau (voir ServerApi._call_rpc(), {"type": "reseau", ...} n'a pas toujours de "message").
+func _describe_public_creation_error(message: String) -> String:
+	match message:
+		"captcha_invalide":
+			return "La vérification anti-robot a échoué, réessaie."
+		"captcha_non_configure":
+			return "La vérification anti-robot n'est pas disponible pour le moment, réessaie plus tard."
+		"trop_de_creations":
+			return "Trop de comptes créés en peu de temps, réessaie dans une minute."
+		"":
+			return "Impossible de contacter le serveur, vérifie ta connexion internet et réessaie."
+		_:
+			return "Une erreur est survenue (%s), réessaie." % message
+
 ## Deconnecte le compte courant (sauvegarde d'abord sa progression) et remet Economy/
 ## CardCollection/ChallengeTracker a un etat neutre, pour que WelcomePanel ne montre
 ## jamais les donnees d'un compte a un autre pendant la transition. Pas encore appele depuis
@@ -488,6 +612,226 @@ func update_current_profile(profile: Dictionary) -> void:
 	_accounts[index]["profil_synchronise"] = false
 	_save_to_disk()
 	_push_profile_to_server(index)
+
+## Pseudo/email du compte CONNECTE (2026-09-16, voir TODO_UI_MODS.md mods 6/7) - contrairement au
+## "profil" (nom/prenom/date de naissance/pays), ce sont des colonnes du COMPTE cote serveur (voir
+## schema.sql), pas du jsonb "profil" - d'ou ces 2 accesseurs dedies plutot qu'une cle de plus dans
+## get_current_profile(). "email" est absent (chaine vide) pour un compte cree AVANT que l'email
+## devienne obligatoire (2026-09-15) ou enregistre en silence par _ensure_server_session().
+func get_current_login() -> String:
+	var index := _current_account_index()
+	if index == -1:
+		return ""
+	return String(_accounts[index].get("login", ""))
+
+func get_current_email() -> String:
+	var index := _current_account_index()
+	if index == -1:
+		return ""
+	return String(_accounts[index].get("email", ""))
+
+## Blocage dur avant confirmation d'email (2026-09-16, voir TODO_UI_MODS.md, bug "acces au jeu
+## possible avant confirmation d'email") : vrai UNIQUEMENT si le compte a un email enregistre ET
+## que ce dernier n'est pas confirme - un compte SANS email (cree avant que l'email devienne
+## obligatoire, ou enregistrement silencieux via _ensure_server_session()) n'a rien a confirmer et
+## n'est donc JAMAIS bloque, meme si "email_verifie" vaut false par defaut cote serveur pour lui
+## aussi (voir schema.sql, "email_verifie boolean not null default false" - cette colonne ne
+## distingue pas a elle seule "pas d'email" de "email pas confirme"). "email_verifie" reflete la
+## derniere reponse SERVEUR connue (rafraichie a chaque login()/recheck_email_verification()) - la
+## DECISION (2026-09-16, confirmee explicitement) est de bloquer aussi HORS-LIGNE si la derniere
+## valeur connue est "non confirme" : pas de traitement special ici, cette fonction lit juste l'etat
+## local tel quel, qu'il vienne d'un appel reseau recent ou d'une session precedente.
+func current_account_needs_email_verification() -> bool:
+	var index := _current_account_index()
+	if index == -1:
+		return false
+	var account: Dictionary = _accounts[index]
+	return not String(account.get("email", "")).is_empty() and not bool(account.get("email_verifie", true))
+
+## "Renvoyer l'email" (EmailPendingSection) - obtient un jeton si besoin (compte flambant neuf deja
+## muni du sien, mais un jeton peut avoir expire entretemps) avant d'appeler ServerApi directement.
+func resend_email_verification() -> Dictionary:
+	var index := _current_account_index()
+	if index == -1:
+		return {"ok": false}
+	if String(_accounts[index].get("sync_jeton", "")).is_empty():
+		if not await _ensure_server_session(index):
+			return {"ok": false, "type": "reseau"}
+		index = _current_account_index()
+		if index == -1:
+			return {"ok": false}
+	var jeton := String(_accounts[index].get("sync_jeton", ""))
+	if jeton.is_empty():
+		return {"ok": false}
+	return await ServerApi.renvoyer_verification(jeton)
+
+## "J'ai confirmé, vérifier à nouveau" (EmailPendingSection) - interroge fn_statut_email sans
+## repasser par un login() complet (le compte est deja connecte, juste en attente de confirmation).
+## Met a jour le cache local "email_verifie" au passage, comme login() le fait deja.
+func recheck_email_verification() -> bool:
+	var index := _current_account_index()
+	if index == -1:
+		return false
+	if String(_accounts[index].get("sync_jeton", "")).is_empty():
+		if not await _ensure_server_session(index):
+			return false
+		index = _current_account_index()
+		if index == -1:
+			return false
+	var jeton := String(_accounts[index].get("sync_jeton", ""))
+	if jeton.is_empty():
+		return false
+	var result := await ServerApi.statut_email(jeton)
+	if not result.get("ok", false):
+		return false
+	var verifie := bool(result.get("data", {}).get("email_verifie", false))
+	index = _current_account_index()
+	if index != -1:
+		_accounts[index]["email_verifie"] = verifie
+		_save_to_disk()
+	return verifie
+
+## "Mot de passe oublié" (2026-09-16, voir TODO_UI_MODS.md mod 1) : PAS d'authentification requise
+## (c'est justement le mot de passe qui est oublie) - passe [login_or_email] tel quel, le serveur
+## decide lui-meme s'il correspond a un pseudo ou un email (voir fn_demander_reinitialisation_mdp
+## dans schema.sql). Le retour ne distingue JAMAIS "compte inexistant" de "email envoye" (voir
+## WelcomePanel._on_forgot_send_pressed(), qui affiche toujours le meme message) - seul un
+## probleme reseau AVERE ({"type": "reseau"}) change l'affichage cote appelant.
+func request_password_reset(login_or_email: String) -> Dictionary:
+	return await ServerApi.demander_reinitialisation_mdp(login_or_email)
+
+## Change le pseudo du compte connecte - vide localement ET cote serveur (voir
+## fn_changer_login dans schema.sql, qui refuse un pseudo deja pris par un AUTRE compte). Renvoie
+## "" en cas de succes, un message a afficher tel quel sinon (meme convention que create_account()).
+func change_login(new_login: String) -> String:
+	var trimmed := new_login.strip_edges()
+	if trimmed.is_empty():
+		return "Le pseudo ne peut pas être vide."
+	var index := _current_account_index()
+	if index == -1:
+		return "Aucun compte connecté."
+	if not await _ensure_server_session(index):
+		return "Impossible de contacter le serveur, réessaie plus tard."
+	index = _current_account_index()
+	if index == -1:
+		return "Aucun compte connecté."
+	var jeton := String(_accounts[index].get("sync_jeton", ""))
+	var result := await ServerApi.changer_login(jeton, trimmed)
+	if not result.get("ok", false):
+		var message := String(result.get("message", ""))
+		if message == "pseudo_indisponible":
+			return "Ce pseudo est déjà pris."
+		return "Impossible de contacter le serveur, réessaie plus tard."
+	var old_login := String(_accounts[index].get("login", ""))
+	index = _current_account_index()
+	if index != -1:
+		_accounts[index]["login"] = String(result.get("data", {}).get("login", trimmed))
+		_save_to_disk()
+	PseudoCache.forget(old_login)
+	PseudoCache.remember(trimmed)
+	return ""
+
+## Change l'email du compte connecte - repart d'une verification NEUVE (voir fn_changer_email dans
+## schema.sql : email_verifie remis a false, nouveau lien envoye), meme raison que create_account_
+## online() : une adresse remplacee n'a par definition jamais ete confirmee ELLE-MEME.
+func change_email(new_email: String) -> String:
+	var trimmed := new_email.strip_edges()
+	if trimmed.is_empty() or not trimmed.contains("@"):
+		return "Cette adresse email n'a pas l'air valide."
+	var index := _current_account_index()
+	if index == -1:
+		return "Aucun compte connecté."
+	if not await _ensure_server_session(index):
+		return "Impossible de contacter le serveur, réessaie plus tard."
+	index = _current_account_index()
+	if index == -1:
+		return "Aucun compte connecté."
+	var jeton := String(_accounts[index].get("sync_jeton", ""))
+	var result := await ServerApi.changer_email(jeton, trimmed)
+	if not result.get("ok", false):
+		return "Impossible de contacter le serveur, réessaie plus tard."
+	index = _current_account_index()
+	if index != -1:
+		_accounts[index]["email"] = trimmed
+		_accounts[index]["email_verifie"] = false
+		_save_to_disk()
+	return ""
+
+## Change le mot de passe du compte connecte - verifie l'ANCIEN mot de passe LOCALEMENT d'abord
+## (pas d'appel reseau gaspille sur une simple faute de frappe), genere un sel NEUF (voir
+## fn_changer_mot_de_passe dans schema.sql, meme raison que create_account() : jamais reutiliser un
+## sel existant).
+func change_password(current_password: String, new_password: String) -> String:
+	var index := _current_account_index()
+	if index == -1:
+		return "Aucun compte connecté."
+	var account: Dictionary = _accounts[index]
+	var expected_hash: String = account.get("password_hash", "")
+	var current_hash := _hash_password(current_password, String(account.get("password_salt", "")))
+	if current_hash != expected_hash:
+		return "Le mot de passe actuel est incorrect."
+	if new_password.length() < MIN_PASSWORD_LENGTH:
+		return "Le nouveau mot de passe doit faire au moins %d caractères." % MIN_PASSWORD_LENGTH
+
+	if not await _ensure_server_session(index):
+		return "Impossible de contacter le serveur, réessaie plus tard."
+	index = _current_account_index()
+	if index == -1:
+		return "Aucun compte connecté."
+	var jeton := String(_accounts[index].get("sync_jeton", ""))
+	var new_salt := _generate_random_hex(SALT_BYTE_LENGTH)
+	var new_hash := _hash_password(new_password, new_salt)
+	var result := await ServerApi.changer_mot_de_passe(jeton, new_hash, new_salt)
+	if not result.get("ok", false):
+		return "Impossible de contacter le serveur, réessaie plus tard."
+	index = _current_account_index()
+	if index != -1:
+		_accounts[index]["password_hash"] = new_hash
+		_accounts[index]["password_salt"] = new_salt
+		_save_to_disk()
+	return ""
+
+## Voir le point d'appel dans login() ci-dessus (mot de passe reinitialise par email, changement de
+## sel cote serveur) - retrouve [login_name] par SON PSEUDO (pas par index, deja invalide par
+## l'await qui precede l'appel a cette fonction) exactement comme _login_from_server(), mais met a
+## jour le compte EXISTANT au lieu d'en ajouter un nouveau (voir son commentaire pour le detail des
+## champs copies).
+func _resync_password_from_server(login_name: String, password: String) -> bool:
+	var trimmed_login := login_name.strip_edges()
+	var sel_result := await ServerApi.obtenir_sel(trimmed_login)
+	if not sel_result.get("ok", false):
+		return false
+	var salt := String(sel_result.get("data", ""))
+	var mdp_hash := _hash_password(password, salt)
+
+	var login_result := await ServerApi.login(trimmed_login, mdp_hash)
+	if not login_result.get("ok", false):
+		if login_result.get("type", "") == "serveur" and login_result.get("message", "") == "compte_deja_connecte":
+			last_login_error = "compte_deja_connecte"
+		return false
+	var data: Dictionary = login_result.get("data", {})
+	var jeton := String(data.get("jeton", ""))
+	if jeton.is_empty():
+		return false
+
+	var index := _find_account_index_by_login(trimmed_login)
+	if index == -1:
+		return false
+	_accounts[index]["password_hash"] = mdp_hash
+	_accounts[index]["password_salt"] = salt
+	_accounts[index]["sync_jeton"] = jeton
+	_accounts[index]["email"] = String(data.get("email", _accounts[index].get("email", "")))
+	_accounts[index]["email_verifie"] = bool(data.get("email_verifie", true))
+	var account: Dictionary = _accounts[index]
+	current_account_id = String(account.get("id", ""))
+	_apply_account_to_runtime(account)
+	_apply_volume_from_profile(account.get("profile", {}))
+	_apply_theme_from_profile(account.get("profile", {}))
+	_save_to_disk()
+	account_logged_in.emit(account.get("profile", {}))
+	PseudoCache.remember(trimmed_login)
+	_flush_pending_events()
+	return true
 
 ## Genere hash+sel pour un mot de passe de controle parental (2026-09-05, retour utilisateur :
 ## "dans la fenetre de creation du jeu lorsque l'on coche controle parental, il faut proposer de

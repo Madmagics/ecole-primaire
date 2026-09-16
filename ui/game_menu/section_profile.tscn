@@ -25,101 +25,98 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_constants/separation = 16
 
-[node name="NomRow" type="HBoxContainer" parent="VBoxContainer"]
+[node name="InfoLabel" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+autowrap_mode = 2
+text = "Ces informations sont gérées par un parent, depuis l'onglet Contrôle parental."
+
+[node name="ReadOnlyGroup" type="VBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 16
+modulate = Color(1, 1, 1, 0.6)
+
+[node name="NomRow" type="HBoxContainer" parent="VBoxContainer/ReadOnlyGroup"]
 layout_mode = 2
 theme_override_constants/separation = 10
 
-[node name="NomLabel" type="Label" parent="VBoxContainer/NomRow"]
+[node name="NomLabel" type="Label" parent="VBoxContainer/ReadOnlyGroup/NomRow"]
 theme_type_variation = &"TitleLabel"
 custom_minimum_size = Vector2(160, 0)
 layout_mode = 2
 text = "Nom"
 
-[node name="NomInput" type="LineEdit" parent="VBoxContainer/NomRow"]
+[node name="NomInput" type="LineEdit" parent="VBoxContainer/ReadOnlyGroup/NomRow"]
 custom_minimum_size = Vector2(220, 0)
 layout_mode = 2
+editable = false
+focus_mode = 0
+mouse_filter = 2
 
-[node name="PrenomRow" type="HBoxContainer" parent="VBoxContainer"]
+[node name="PrenomRow" type="HBoxContainer" parent="VBoxContainer/ReadOnlyGroup"]
 layout_mode = 2
 theme_override_constants/separation = 10
 
-[node name="PrenomLabel" type="Label" parent="VBoxContainer/PrenomRow"]
+[node name="PrenomLabel" type="Label" parent="VBoxContainer/ReadOnlyGroup/PrenomRow"]
 theme_type_variation = &"TitleLabel"
 custom_minimum_size = Vector2(160, 0)
 layout_mode = 2
 text = "Prénom"
 
-[node name="PrenomInput" type="LineEdit" parent="VBoxContainer/PrenomRow"]
+[node name="PrenomInput" type="LineEdit" parent="VBoxContainer/ReadOnlyGroup/PrenomRow"]
 custom_minimum_size = Vector2(220, 0)
 layout_mode = 2
+editable = false
+focus_mode = 0
+mouse_filter = 2
 
-[node name="ClasseRow" type="HBoxContainer" parent="VBoxContainer"]
+[node name="BirthdateRow" type="HBoxContainer" parent="VBoxContainer/ReadOnlyGroup"]
 layout_mode = 2
 theme_override_constants/separation = 10
 
-[node name="ClasseLabel" type="Label" parent="VBoxContainer/ClasseRow"]
-theme_type_variation = &"TitleLabel"
-custom_minimum_size = Vector2(160, 0)
-layout_mode = 2
-text = "Classe"
-
-[node name="ClasseOption" type="OptionButton" parent="VBoxContainer/ClasseRow"]
-layout_mode = 2
-
-[node name="BirthdateRow" type="HBoxContainer" parent="VBoxContainer"]
-layout_mode = 2
-theme_override_constants/separation = 10
-
-[node name="BirthdateLabel" type="Label" parent="VBoxContainer/BirthdateRow"]
+[node name="BirthdateLabel" type="Label" parent="VBoxContainer/ReadOnlyGroup/BirthdateRow"]
 theme_type_variation = &"TitleLabel"
 custom_minimum_size = Vector2(160, 0)
 layout_mode = 2
 text = "Date de naissance"
 
-[node name="DaySpin" type="SpinBox" parent="VBoxContainer/BirthdateRow"]
+[node name="DaySpin" type="SpinBox" parent="VBoxContainer/ReadOnlyGroup/BirthdateRow"]
 layout_mode = 2
 min_value = 1
 max_value = 31
 value = 1
+editable = false
 
-[node name="MonthSpin" type="SpinBox" parent="VBoxContainer/BirthdateRow"]
+[node name="MonthSpin" type="SpinBox" parent="VBoxContainer/ReadOnlyGroup/BirthdateRow"]
 layout_mode = 2
 min_value = 1
 max_value = 12
 value = 1
+editable = false
 
-[node name="YearSpin" type="SpinBox" parent="VBoxContainer/BirthdateRow"]
+[node name="YearSpin" type="SpinBox" parent="VBoxContainer/ReadOnlyGroup/BirthdateRow"]
 layout_mode = 2
 min_value = 2000
 max_value = 2026
 value = 2018
+editable = false
 
-[node name="PaysRow" type="HBoxContainer" parent="VBoxContainer"]
+[node name="PaysRow" type="HBoxContainer" parent="VBoxContainer/ReadOnlyGroup"]
 visible = false
 layout_mode = 2
 theme_override_constants/separation = 10
 
-[node name="PaysLabel" type="Label" parent="VBoxContainer/PaysRow"]
+[node name="PaysLabel" type="Label" parent="VBoxContainer/ReadOnlyGroup/PaysRow"]
 theme_type_variation = &"TitleLabel"
 custom_minimum_size = Vector2(160, 0)
 layout_mode = 2
 text = "Pays"
 
-[node name="PaysOption" type="OptionButton" parent="VBoxContainer/PaysRow"]
+[node name="PaysOption" type="OptionButton" parent="VBoxContainer/ReadOnlyGroup/PaysRow"]
 layout_mode = 2
 theme_override_constants/icon_max_width = 84
+disabled = true
 
-[node name="SaveButton" type="Button" parent="VBoxContainer"]
+[node name="DailyLimitInfoLabel" type="Label" parent="VBoxContainer"]
 layout_mode = 2
-size_flags_horizontal = 0
-text = "Enregistrer"
-
-[node name="StatusLabel" type="Label" parent="VBoxContainer"]
-layout_mode = 2
-theme_type_variation = &"TitleLabel"
+autowrap_mode = 2
 visible = false
-
-[node name="DeleteAccountButton" type="Button" parent="VBoxContainer"]
-layout_mode = 2
-size_flags_horizontal = 0
-text = "Supprimer le compte"

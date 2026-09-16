@@ -61,45 +61,262 @@ layout_mode = 2
 size_flags_horizontal = 0
 text = "Valider"
 
-[node name="OptionsContent" type="VBoxContainer" parent="VBoxContainer"]
+[node name="OptionsScroll" type="ScrollContainer" parent="VBoxContainer"]
 visible = false
 layout_mode = 2
+size_flags_vertical = 3
+
+[node name="OptionsContent" type="VBoxContainer" parent="VBoxContainer/OptionsScroll"]
+layout_mode = 2
+size_flags_horizontal = 3
 theme_override_constants/separation = 12
 
-[node name="DailyLimitRow" type="HBoxContainer" parent="VBoxContainer/OptionsContent"]
+[node name="DailyLimitRow" type="HBoxContainer" parent="VBoxContainer/OptionsScroll/OptionsContent"]
 layout_mode = 2
 theme_override_constants/separation = 10
 
-[node name="DailyLimitLabel" type="Label" parent="VBoxContainer/OptionsContent/DailyLimitRow"]
+[node name="DailyLimitLabel" type="Label" parent="VBoxContainer/OptionsScroll/OptionsContent/DailyLimitRow"]
 theme_type_variation = &"TitleLabel"
 custom_minimum_size = Vector2(160, 0)
 layout_mode = 2
 text = "Limite de jeux par jour :"
 
-[node name="DailyLimitSpin" type="SpinBox" parent="VBoxContainer/OptionsContent/DailyLimitRow"]
+[node name="DailyLimitSpin" type="SpinBox" parent="VBoxContainer/OptionsScroll/OptionsContent/DailyLimitRow"]
 layout_mode = 2
 min_value = 0.0
 max_value = 50.0
 value = 0.0
 
-[node name="UnlimitedRow" type="HBoxContainer" parent="VBoxContainer/OptionsContent"]
+[node name="UnlimitedRow" type="HBoxContainer" parent="VBoxContainer/OptionsScroll/OptionsContent"]
 layout_mode = 2
 theme_override_constants/separation = 10
 
-[node name="UnlimitedLabel" type="Label" parent="VBoxContainer/OptionsContent/UnlimitedRow"]
+[node name="UnlimitedLabel" type="Label" parent="VBoxContainer/OptionsScroll/OptionsContent/UnlimitedRow"]
 theme_type_variation = &"TitleLabel"
 custom_minimum_size = Vector2(160, 0)
 layout_mode = 2
 text = "Nombre de jeux illimité"
 
-[node name="UnlimitedCheck" type="CheckBox" parent="VBoxContainer/OptionsContent/UnlimitedRow"]
+[node name="UnlimitedCheck" type="CheckBox" parent="VBoxContainer/OptionsScroll/OptionsContent/UnlimitedRow"]
+mouse_filter = 1
 layout_mode = 2
 
-[node name="DailyLimitValidateButton" type="Button" parent="VBoxContainer/OptionsContent"]
+[node name="DailyLimitValidateButton" type="Button" parent="VBoxContainer/OptionsScroll/OptionsContent"]
+mouse_filter = 1
 layout_mode = 2
 size_flags_horizontal = 0
 text = "Valider"
 
-[node name="DailyLimitCurrentLabel" type="Label" parent="VBoxContainer/OptionsContent"]
+[node name="DailyLimitCurrentLabel" type="Label" parent="VBoxContainer/OptionsScroll/OptionsContent"]
 layout_mode = 2
 text = "Limite actuelle de jeu : 0"
+
+[node name="ResetProgressButton" type="Button" parent="VBoxContainer/OptionsScroll/OptionsContent"]
+mouse_filter = 1
+layout_mode = 2
+size_flags_horizontal = 0
+text = "Réinitialiser la progression"
+
+[node name="ResetStatusLabel" type="Label" parent="VBoxContainer/OptionsScroll/OptionsContent"]
+layout_mode = 2
+visible = false
+
+[node name="PersonalInfoSeparator" type="HSeparator" parent="VBoxContainer/OptionsScroll/OptionsContent"]
+layout_mode = 2
+
+[node name="PersonalInfoLabel" type="Label" parent="VBoxContainer/OptionsScroll/OptionsContent"]
+layout_mode = 2
+theme_type_variation = &"TitleLabel"
+text = "Informations personnelles"
+
+[node name="NomRow" type="HBoxContainer" parent="VBoxContainer/OptionsScroll/OptionsContent"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="NomLabel" type="Label" parent="VBoxContainer/OptionsScroll/OptionsContent/NomRow"]
+theme_type_variation = &"TitleLabel"
+custom_minimum_size = Vector2(160, 0)
+layout_mode = 2
+text = "Nom"
+
+[node name="NomInput" type="LineEdit" parent="VBoxContainer/OptionsScroll/OptionsContent/NomRow"]
+custom_minimum_size = Vector2(220, 0)
+layout_mode = 2
+
+[node name="PrenomRow" type="HBoxContainer" parent="VBoxContainer/OptionsScroll/OptionsContent"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="PrenomLabel" type="Label" parent="VBoxContainer/OptionsScroll/OptionsContent/PrenomRow"]
+theme_type_variation = &"TitleLabel"
+custom_minimum_size = Vector2(160, 0)
+layout_mode = 2
+text = "Prénom"
+
+[node name="PrenomInput" type="LineEdit" parent="VBoxContainer/OptionsScroll/OptionsContent/PrenomRow"]
+custom_minimum_size = Vector2(220, 0)
+layout_mode = 2
+
+[node name="BirthdateRow" type="HBoxContainer" parent="VBoxContainer/OptionsScroll/OptionsContent"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="BirthdateLabel" type="Label" parent="VBoxContainer/OptionsScroll/OptionsContent/BirthdateRow"]
+theme_type_variation = &"TitleLabel"
+custom_minimum_size = Vector2(160, 0)
+layout_mode = 2
+text = "Date de naissance"
+
+[node name="DaySpin" type="SpinBox" parent="VBoxContainer/OptionsScroll/OptionsContent/BirthdateRow"]
+layout_mode = 2
+min_value = 1
+max_value = 31
+value = 1
+
+[node name="MonthSpin" type="SpinBox" parent="VBoxContainer/OptionsScroll/OptionsContent/BirthdateRow"]
+layout_mode = 2
+min_value = 1
+max_value = 12
+value = 1
+
+[node name="YearSpin" type="SpinBox" parent="VBoxContainer/OptionsScroll/OptionsContent/BirthdateRow"]
+layout_mode = 2
+min_value = 2000
+max_value = 2026
+value = 2018
+
+[node name="PaysRow" type="HBoxContainer" parent="VBoxContainer/OptionsScroll/OptionsContent"]
+visible = false
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="PaysLabel" type="Label" parent="VBoxContainer/OptionsScroll/OptionsContent/PaysRow"]
+theme_type_variation = &"TitleLabel"
+custom_minimum_size = Vector2(160, 0)
+layout_mode = 2
+text = "Pays"
+
+[node name="PaysOption" type="OptionButton" parent="VBoxContainer/OptionsScroll/OptionsContent/PaysRow"]
+mouse_filter = 1
+layout_mode = 2
+theme_override_constants/icon_max_width = 84
+
+[node name="LoginRow" type="HBoxContainer" parent="VBoxContainer/OptionsScroll/OptionsContent"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="LoginLabel" type="Label" parent="VBoxContainer/OptionsScroll/OptionsContent/LoginRow"]
+theme_type_variation = &"TitleLabel"
+custom_minimum_size = Vector2(160, 0)
+layout_mode = 2
+text = "Pseudo"
+
+[node name="LoginInput" type="LineEdit" parent="VBoxContainer/OptionsScroll/OptionsContent/LoginRow"]
+custom_minimum_size = Vector2(220, 0)
+layout_mode = 2
+
+[node name="EmailRow" type="HBoxContainer" parent="VBoxContainer/OptionsScroll/OptionsContent"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="EmailLabel" type="Label" parent="VBoxContainer/OptionsScroll/OptionsContent/EmailRow"]
+theme_type_variation = &"TitleLabel"
+custom_minimum_size = Vector2(160, 0)
+layout_mode = 2
+text = "Email"
+
+[node name="EmailInput" type="LineEdit" parent="VBoxContainer/OptionsScroll/OptionsContent/EmailRow"]
+custom_minimum_size = Vector2(220, 0)
+layout_mode = 2
+
+[node name="PersonalInfoErrorLabel" type="Label" parent="VBoxContainer/OptionsScroll/OptionsContent"]
+layout_mode = 2
+autowrap_mode = 2
+visible = false
+
+[node name="PersonalInfoSaveButton" type="Button" parent="VBoxContainer/OptionsScroll/OptionsContent"]
+mouse_filter = 1
+layout_mode = 2
+size_flags_horizontal = 0
+text = "Enregistrer les informations"
+
+[node name="PersonalInfoStatusLabel" type="Label" parent="VBoxContainer/OptionsScroll/OptionsContent"]
+layout_mode = 2
+visible = false
+
+[node name="PasswordChangeSeparator" type="HSeparator" parent="VBoxContainer/OptionsScroll/OptionsContent"]
+layout_mode = 2
+
+[node name="PasswordChangeLabel" type="Label" parent="VBoxContainer/OptionsScroll/OptionsContent"]
+layout_mode = 2
+theme_type_variation = &"TitleLabel"
+text = "Mot de passe du compte"
+
+[node name="CurrentPasswordRow" type="HBoxContainer" parent="VBoxContainer/OptionsScroll/OptionsContent"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="CurrentPasswordLabel" type="Label" parent="VBoxContainer/OptionsScroll/OptionsContent/CurrentPasswordRow"]
+theme_type_variation = &"TitleLabel"
+custom_minimum_size = Vector2(160, 0)
+layout_mode = 2
+text = "Mot de passe actuel"
+
+[node name="CurrentPasswordInput" type="LineEdit" parent="VBoxContainer/OptionsScroll/OptionsContent/CurrentPasswordRow"]
+custom_minimum_size = Vector2(220, 0)
+layout_mode = 2
+secret = true
+
+[node name="NewPasswordRow" type="HBoxContainer" parent="VBoxContainer/OptionsScroll/OptionsContent"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="NewPasswordLabel" type="Label" parent="VBoxContainer/OptionsScroll/OptionsContent/NewPasswordRow"]
+theme_type_variation = &"TitleLabel"
+custom_minimum_size = Vector2(160, 0)
+layout_mode = 2
+text = "Nouveau mot de passe"
+
+[node name="NewPasswordInput" type="LineEdit" parent="VBoxContainer/OptionsScroll/OptionsContent/NewPasswordRow"]
+custom_minimum_size = Vector2(220, 0)
+layout_mode = 2
+secret = true
+
+[node name="ConfirmNewPasswordRow" type="HBoxContainer" parent="VBoxContainer/OptionsScroll/OptionsContent"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="ConfirmNewPasswordLabel" type="Label" parent="VBoxContainer/OptionsScroll/OptionsContent/ConfirmNewPasswordRow"]
+theme_type_variation = &"TitleLabel"
+custom_minimum_size = Vector2(160, 0)
+layout_mode = 2
+text = "Confirmer"
+
+[node name="ConfirmNewPasswordInput" type="LineEdit" parent="VBoxContainer/OptionsScroll/OptionsContent/ConfirmNewPasswordRow"]
+custom_minimum_size = Vector2(220, 0)
+layout_mode = 2
+secret = true
+
+[node name="ChangePasswordErrorLabel" type="Label" parent="VBoxContainer/OptionsScroll/OptionsContent"]
+layout_mode = 2
+autowrap_mode = 2
+visible = false
+
+[node name="ChangePasswordButton" type="Button" parent="VBoxContainer/OptionsScroll/OptionsContent"]
+mouse_filter = 1
+layout_mode = 2
+size_flags_horizontal = 0
+text = "Changer le mot de passe"
+
+[node name="ChangePasswordStatusLabel" type="Label" parent="VBoxContainer/OptionsScroll/OptionsContent"]
+layout_mode = 2
+visible = false
+
+[node name="DeleteAccountSeparator" type="HSeparator" parent="VBoxContainer/OptionsScroll/OptionsContent"]
+layout_mode = 2
+
+[node name="DeleteAccountButton" type="Button" parent="VBoxContainer/OptionsScroll/OptionsContent"]
+mouse_filter = 1
+layout_mode = 2
+size_flags_horizontal = 0
+text = "Supprimer le compte"

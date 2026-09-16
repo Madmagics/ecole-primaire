@@ -3,6 +3,10 @@
 [ext_resource type="Script" path="res://ui/shop/classroom_music_item.gd" id="1"]
 
 [node name="ClassroomMusicItem" type="Button"]
+## mouse_filter=1 (Pass), meme raison que CrateItem.tscn (voir son commentaire) - laisse le
+## ScrollContainer parent (grille de la boutique) recevoir le glissement tactile a travers ce
+## bouton (2026-09-16, TODO_UI_MODS.md "Bug - Scroll tactile impossible").
+mouse_filter = 1
 custom_minimum_size = Vector2(112, 112)
 layout_mode = 3
 size_flags_horizontal = 3

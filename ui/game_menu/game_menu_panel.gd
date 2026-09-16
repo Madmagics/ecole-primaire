@@ -1,6 +1,13 @@
-## Menu de jeu principal : coquille de navigation entre 3 entrees (Configuration, Sauvegarde,
-## Informations personnelles - "Commandes" retiree le 2026-09-02, "Statistiques" retiree le
-## 2026-09-05, voir plus bas), plus "Controle parental" quand le compte connecte y a droit.
+## Menu de jeu principal : coquille de navigation entre 2 entrees (Configuration, Informations
+## personnelles - "Commandes" retiree le 2026-09-02, "Statistiques" retiree le 2026-09-05,
+## "Sauvegarde" retiree le 2026-09-16, voir plus bas), plus "Controle parental" quand le compte
+## connecte y a droit.
+##
+## "Sauvegarde" supprimee le 2026-09-16 (voir TODO_UI_MODS.md mod 9) : le jeu est sauvegarde en
+## ligne (chantier "sauvegarde serveur"), "Charger" n'a jamais ete cable a quoi que ce soit
+## d'utile (rejoue juste le dernier etat sur disque) et "Reinitialiser la progression" a demenage
+## dans Contrôle parental (mod 2, voir section_parental_control.gd) - SaveButton/SectionSave et
+## section_save.gd/.tscn sont retires en entier plutot que laisses vides.
 ## Meme convention que les autres panneaux modaux du jeu (CardAlbum, ShopPanel, QuestionPanel) :
 ## Control racine, Panel visuel, verrouille les deplacements du joueur via PlayerInputLock tant
 ## qu'il est ouvert, se ferme au clic sur le CloseButton en haut de la colonne (voir plus bas,
@@ -273,7 +280,6 @@ extends Control
 ## StringName que _current_section.
 const SECTION_TITLES := {
 	&"config": "Configuration",
-	&"save": "Sauvegarde",
 	&"profile": "Informations personnelles",
 	&"parental_control": "Contrôle parental",
 }
@@ -291,13 +297,11 @@ const SECTION_TITLES := {
 @onready var title_label: Label = $Panel/TitleRow/TitleLabel
 @onready var close_column_button: Button = $IconDock/CloseButton
 @onready var config_button: Button = $IconDock/IconList/ConfigButton
-@onready var save_button: Button = $IconDock/IconList/SaveButton
 @onready var informations_button: Button = $IconDock/IconList/InformationsButton
 @onready var parental_control_button: Button = $IconDock/IconList/ParentalControlButton
 @onready var quit_button: Button = $IconDock/QuitterButton
 
 @onready var section_config: SectionConfig = $Panel/ContentArea/SectionConfig
-@onready var section_save: SectionSave = $Panel/ContentArea/SectionSave
 @onready var section_profile: SectionProfile = $Panel/ContentArea/SectionProfile
 @onready var section_parental_control: SectionParentalControl = $Panel/ContentArea/SectionParentalControl
 
@@ -307,7 +311,7 @@ const SECTION_TITLES := {
 ## meme convention que ShopPanel._pending_purchase.
 var _pending_gated_action: Callable
 
-## Section actuellement affichee ("config"/"save"/"profile"/"stats"/"" si fermee).
+## Section actuellement affichee ("config"/"profile"/"parental_control"/"" si fermee).
 var _current_section: StringName = &""
 
 func _ready() -> void:
@@ -319,11 +323,10 @@ func _ready() -> void:
 	close_column_button.pressed.connect(close)
 	quit_button.pressed.connect(_on_quit_button_pressed)
 	config_button.pressed.connect(_show_config)
-	save_button.pressed.connect(_show_save)
 	informations_button.pressed.connect(_show_profile)
 	parental_control_button.pressed.connect(_show_parental_control)
-	section_save.reset_requested.connect(_on_reset_requested)
-	section_profile.delete_account_requested.connect(_on_delete_account_requested)
+	section_parental_control.reset_requested.connect(_on_reset_requested)
+	section_parental_control.delete_account_requested.connect(_on_delete_account_requested)
 	parental_gate.confirmed.connect(_on_gate_confirmed)
 	visibility_changed.connect(_on_visibility_changed)
 
@@ -367,8 +370,6 @@ func _icon_button_for(id: StringName) -> Button:
 	match id:
 		&"config":
 			return config_button
-		&"save":
-			return save_button
 		&"profile":
 			return informations_button
 		&"parental_control":
@@ -377,7 +378,6 @@ func _icon_button_for(id: StringName) -> Button:
 
 func _hide_all_sections() -> void:
 	section_config.hide()
-	section_save.hide()
 	section_profile.hide()
 	section_parental_control.hide()
 
@@ -386,13 +386,6 @@ func _show_config() -> void:
 	section_config.refresh()
 	section_config.show()
 	_current_section = &"config"
-	_update_header(_current_section)
-
-func _show_save() -> void:
-	_hide_all_sections()
-	section_save.refresh()
-	section_save.show()
-	_current_section = &"save"
 	_update_header(_current_section)
 
 func _show_profile() -> void:
@@ -417,7 +410,7 @@ func _on_reset_requested() -> void:
 
 func _do_reset_progress() -> void:
 	SaveManager.reset_current_account_progress()
-	section_save.notify_reset_done()
+	section_parental_control.notify_reset_done()
 
 ## Supprimer le compte ferme ce menu (comme quitter la Collection) : SaveManager.
 ## current_account_id redevient vide, WelcomePanel se raffiche tout seul (voir son abonnement a

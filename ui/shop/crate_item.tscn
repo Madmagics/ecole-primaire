@@ -4,6 +4,15 @@
 [ext_resource type="Texture2D" path="res://assets/classe2.0/icones/coffre.webp" id="2"]
 
 [node name="CrateItem" type="Button"]
+## mouse_filter=1 (Pass) sur ce bouton racine ET sur Minus/PlusButton plus bas (2026-09-16, voir
+## TODO_UI_MODS.md "Bug - Scroll tactile impossible") : par defaut un Button a mouse_filter=Stop et
+## absorbe totalement l'evenement, empechant le ScrollContainer (Cartes) qui contient chaque
+## CrateItem instancie de recevoir le geste de glissement du doigt pour faire defiler la grille -
+## Pass laisse le bouton continuer a consommer son propre clic (voir godotengine/godot#94141,
+## contournement confirme par les auteurs du moteur) tout en laissant l'evenement remonter au
+## ScrollContainer natif (qui gere deja lui-meme le drag-to-scroll avec zone morte, voir
+## scroll_container.cpp - aucun script personnalise necessaire).
+mouse_filter = 1
 custom_minimum_size = Vector2(140, 140)
 layout_mode = 3
 size_flags_horizontal = 3
@@ -85,6 +94,7 @@ alignment = 1
 theme_override_constants/separation = 4
 
 [node name="MinusButton" type="Button" parent="Frame/QuantityRow"]
+mouse_filter = 1
 custom_minimum_size = Vector2(28, 28)
 layout_mode = 2
 size_flags_vertical = 4
@@ -99,6 +109,7 @@ vertical_alignment = 1
 text = "1"
 
 [node name="PlusButton" type="Button" parent="Frame/QuantityRow"]
+mouse_filter = 1
 custom_minimum_size = Vector2(28, 28)
 layout_mode = 2
 size_flags_vertical = 4

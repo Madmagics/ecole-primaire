@@ -1,7 +1,16 @@
-## Client HTTP vers les fonctions RPC Supabase (voir server/schema.sql pour le detail des 9
+## Client HTTP vers les fonctions RPC Supabase (voir server/schema.sql pour le detail des 11
 ## fonctions fn_obtenir_sel/fn_creer_compte/fn_login/fn_pousser_evenements/fn_recuperer_progression/
-## fn_supprimer_compte/fn_maj_profil/fn_pulse_session/fn_deconnecter, toutes exposees
-## automatiquement par PostgREST comme endpoints POST /rest/v1/rpc/<nom_fonction>).
+## fn_supprimer_compte/fn_maj_profil/fn_pulse_session/fn_deconnecter/fn_creer_compte_public/
+## fn_renvoyer_verification, toutes exposees automatiquement par PostgREST comme endpoints POST
+## /rest/v1/rpc/<nom_fonction> - fn_verifier_email et fn_verifier_turnstile_creer_code (2026-09-15)
+## NE SONT PAS ici : appelees directement en JS depuis les pages statiques web/verifier-email.html
+## et web/captcha.html, jamais depuis ce client Godot. Idem pour fn_reinitialiser_mdp (2026-09-16,
+## appelee depuis web/reinitialiser-mdp.html) - seule fn_demander_reinitialisation_mdp (declenchee
+## DEPUIS le jeu, voir "Mot de passe oublié" dans WelcomePanel) a besoin d'un wrapper ici.
+##
+## fn_changer_login/fn_changer_email/fn_changer_mot_de_passe/fn_statut_email (2026-09-16, voir
+## TODO_UI_MODS.md mods 6/7 et le bug de blocage email) ajoutees a cette meme liste de fonctions
+## RPC, memes conventions (authentifiees par jeton comme fn_maj_profil).
 ## Autoload volontairement mince (meme principe qu'Economy/CardCollection : pas de logique metier
 ## lourde) : encapsule uniquement le TRANSPORT (HTTPRequest, en-tetes, parsing JSON, distinction
 ## erreur reseau / erreur serveur) - aucune logique de sauvegarde/file d'evenements ici, ca reste le
@@ -54,6 +63,39 @@ func creer_compte(p_id: String, p_login: String, p_mdp_hash: String, p_mdp_sel: 
 		"p_profil": p_profil,
 	})
 
+## Cree un compte DEPUIS LE FORMULAIRE DE CREATION EN LIGNE (email + captcha, voir
+## fn_creer_compte_public dans schema.sql) - a la difference de creer_compte() ci-dessus, TOUJOURS
+## utilisee par WelcomePanel (creer_compte() reste reservee a SaveManager._ensure_server_session(),
+## l'enregistrement silencieux en arriere-plan d'un compte deja connu localement, sans captcha a
+## demander a ce moment-la). Exactement UN des deux [p_turnstile_token]/[p_code_captcha] doit etre
+## non vide : [p_turnstile_token] sur Web (widget Turnstile integre directement dans la page),
+## [p_code_captcha] sur desktop/mobile (code a 6 caracteres retape depuis captcha.html, voir
+## WelcomePanel._on_create_pressed()). [p_email] optionnel (chaine vide si non fourni).
+## data (si ok) : {"id": String, "login": String, "email_envoye": bool} - "email_envoye" a false
+## n'est PAS un echec de creation (voir commentaire de fn_creer_compte_public), juste une invitation
+## a proposer "renvoyer" (renvoyer_verification() ci-dessous).
+func creer_compte_public(p_id: String, p_login: String, p_mdp_hash: String, p_mdp_sel: String, p_profil: Dictionary, p_email: String, p_turnstile_token: String = "", p_code_captcha: String = "") -> Dictionary:
+	return await _call_rpc("fn_creer_compte_public", {
+		"p_id": p_id,
+		"p_login": p_login,
+		"p_mdp_hash": p_mdp_hash,
+		"p_mdp_sel": p_mdp_sel,
+		"p_profil": p_profil,
+		"p_email": p_email,
+		"p_turnstile_token": p_turnstile_token,
+		"p_code_captcha": p_code_captcha,
+		## Toujours vide cote client (champ honeypot, voir fn_creer_compte_public dans schema.sql) :
+		## un vrai joueur ne le remplit jamais, aucun champ de formulaire n'y est meme relie ici -
+		## seul un appel direct a l'API RPC (en dehors de ce client) pourrait le remplir.
+		"p_honeypot": "",
+	})
+
+## Renvoie l'email de verification (bouton "renvoyer l'email", voir fn_renvoyer_verification dans
+## schema.sql) - authentifie par jeton de session, cooldown 5 min cote serveur ("message":
+## "attendre_avant_renvoi" si declenche trop tot). data (si ok) : {"ok": true, "email_envoye": bool}.
+func renvoyer_verification(p_jeton: String) -> Dictionary:
+	return await _call_rpc("fn_renvoyer_verification", {"p_jeton": p_jeton})
+
 ## Connexion - data (si ok) : {"jeton": String, "compte_id": String}. [p_mdp_hash] doit deja etre
 ## calcule cote appelant avec le sel obtenu via obtenir_sel() (voir save_manager.gd _hash_password),
 ## jamais le mot de passe en clair.
@@ -102,6 +144,42 @@ func pulse_session(p_jeton: String) -> Dictionary:
 ## absent/expire).
 func deconnecter(p_jeton: String) -> Dictionary:
 	return await _call_rpc("fn_deconnecter", {"p_jeton": p_jeton})
+
+## Change le pseudo du compte associe au jeton - data (si ok) : {"login": String} (voir
+## fn_changer_login dans schema.sql, qui peut refuser avec "pseudo_indisponible").
+func changer_login(p_jeton: String, p_nouveau_login: String) -> Dictionary:
+	return await _call_rpc("fn_changer_login", {"p_jeton": p_jeton, "p_nouveau_login": p_nouveau_login})
+
+## Change l'email du compte associe au jeton (repart d'une verification neuve, voir
+## fn_changer_email dans schema.sql) - data (si ok) : {"email_envoye": bool}, meme convention que
+## creer_compte_public()/renvoyer_verification() ci-dessus (l'echec d'ENVOI n'est pas un echec de
+## l'operation elle-meme).
+func changer_email(p_jeton: String, p_nouvel_email: String) -> Dictionary:
+	return await _call_rpc("fn_changer_email", {"p_jeton": p_jeton, "p_nouvel_email": p_nouvel_email})
+
+## Change le mot de passe du compte associe au jeton - [p_nouveau_mdp_hash]/[p_nouveau_mdp_sel]
+## deja calcules cote appelant avec un sel FRAIS (voir SaveManager.change_password()), jamais le
+## mot de passe en clair. data (si ok) : {"ok": true}.
+func changer_mot_de_passe(p_jeton: String, p_nouveau_mdp_hash: String, p_nouveau_mdp_sel: String) -> Dictionary:
+	return await _call_rpc("fn_changer_mot_de_passe", {
+		"p_jeton": p_jeton,
+		"p_nouveau_mdp_hash": p_nouveau_mdp_hash,
+		"p_nouveau_mdp_sel": p_nouveau_mdp_sel,
+	})
+
+## Etat de confirmation de l'email du compte associe au jeton (2026-09-16, voir fn_statut_email
+## dans schema.sql) - data (si ok) : {"email_verifie": bool}. Utilisee par le bouton "j'ai
+## confirmé, vérifier à nouveau" (WelcomePanel) sans repasser par un login() complet.
+func statut_email(p_jeton: String) -> Dictionary:
+	return await _call_rpc("fn_statut_email", {"p_jeton": p_jeton})
+
+## "Mot de passe oublié" (2026-09-16, voir fn_demander_reinitialisation_mdp dans schema.sql) -
+## PAS de jeton (c'est justement le mot de passe qui est oublie) : [p_login_ou_email] peut etre un
+## pseudo OU un email, le serveur essaie les deux. data (si ok) : {"ok": true} INCONDITIONNEL, que
+## le compte existe ou non (voir le commentaire de la fonction SQL - jamais laisser deviner quels
+## comptes existent).
+func demander_reinitialisation_mdp(p_login_ou_email: String) -> Dictionary:
+	return await _call_rpc("fn_demander_reinitialisation_mdp", {"p_login_ou_email": p_login_ou_email})
 
 ## Coeur du client : POST vers BASE_URL + [fn_name], [params] comme corps JSON - les cles de
 ## [params] doivent correspondre EXACTEMENT aux noms de parametres SQL (p_xxx compris), c'est la
