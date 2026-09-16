@@ -326,20 +326,6 @@ text = "Prénom"
 custom_minimum_size = Vector2(220, 0)
 layout_mode = 2
 
-[node name="ClasseRow" type="HBoxContainer" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList" unique_id=2099585633]
-layout_mode = 2
-theme_override_constants/separation = 10
-
-[node name="ClasseLabel" type="Label" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/ClasseRow" unique_id=765481046]
-custom_minimum_size = Vector2(160, 0)
-layout_mode = 2
-theme_type_variation = &"TitleLabel"
-text = "Classe"
-
-[node name="ClasseOption" type="OptionButton" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/ClasseRow" unique_id=314513388]
-mouse_filter = 1
-layout_mode = 2
-
 [node name="BirthdateRow" type="HBoxContainer" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList" unique_id=1489933202]
 layout_mode = 2
 theme_override_constants/separation = 10

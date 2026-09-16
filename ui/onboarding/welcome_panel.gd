@@ -150,15 +150,12 @@ const COUNTRY_FLAG_FRANCE := preload("res://assets/flags/flag_fr.svg")
 ## taille -30%") - meme correctif que SectionProfile.gd, sur le meme drapeau (flag_fr.svg, 120x80
 ## natif) partage entre les deux ecrans.
 ##
-## Ordre d'affichage dans ClasseOption : index dans ce tableau == index selectionne dans
-## l'OptionButton, voir _on_create_pressed().
-const GRADE_OPTIONS: Array[GradeLevel.Grade] = [
-	GradeLevel.Grade.CP,
-	GradeLevel.Grade.CE1,
-	GradeLevel.Grade.CE2,
-	GradeLevel.Grade.CM1,
-	GradeLevel.Grade.CM2,
-]
+## GRADE_OPTIONS/ClasseOption retires (2026-09-16, correctif suite a un oubli du mod 4 de
+## TODO_UI_MODS.md : "classe" avait ete retire de SectionProfile mais pas du formulaire de creation
+## de compte, qui la redemandait encore) - "classe" reste une cle du dictionnaire "profile" (voir
+## SectionParentalControl._on_personal_info_save_pressed(), qui la relit en fallback), donc
+## _on_create_pressed() lui donne desormais directement une valeur fixe plutot que de la lire sur
+## un OptionButton qui n'existe plus (voir plus bas).
 
 ## Email + captcha obligatoires a la creation (2026-09-15, demande utilisateur : le jeu est joue
 ## en priorite DANS UN NAVIGATEUR - desktop, tablette ou telephone, tous "Web" du point de vue de
@@ -249,7 +246,6 @@ var _turnstile_js_callback: JavaScriptObject
 @onready var parental_password_confirm_input: LineEdit = $Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/ParentalControlFrame/Margin/Content/ParentalPasswordGroup/ParentalPasswordConfirmRow/ParentalPasswordConfirmInput
 @onready var nom_input: LineEdit = $Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/NomRow/NomInput
 @onready var prenom_input: LineEdit = $Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/PrenomRow/PrenomInput
-@onready var classe_option: OptionButton = $Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/ClasseRow/ClasseOption
 @onready var day_spin: SpinBox = $Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/BirthdateRow/DaySpin
 @onready var month_spin: SpinBox = $Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/BirthdateRow/MonthSpin
 @onready var year_spin: SpinBox = $Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/BirthdateRow/YearSpin
@@ -277,8 +273,6 @@ func _ready() -> void:
 	theme = SaveManager.THEMES[SaveManager.ui_theme]
 	EventBus.ui_theme_changed.connect(func(new_theme: Theme) -> void: theme = new_theme)
 
-	for grade in GRADE_OPTIONS:
-		classe_option.add_item(GradeLevel.get_label(grade))
 	## Choix du pays DESACTIVE pour l'instant (2026-09-05, retour utilisateur : "desactive le choix
 	## du pays, si le jeu se developpe on y reviendra plus tard, en attendant on laisse de cote
 	## l'option du pays") : PaysRow masque dans le .tscn (visible=false), voir aussi
@@ -569,7 +563,11 @@ func _on_create_pressed() -> void:
 	var profile := {
 		"nom": nom_input.text.strip_edges(),
 		"prenom": prenom_input.text.strip_edges(),
-		"classe": GRADE_OPTIONS[classe_option.selected],
+		## Valeur fixe (voir commentaire de classe pres de l'ancien GRADE_OPTIONS) : toutes les
+		## classes sont accessibles des la creation (GradeUnlock retire le 2026-08-29), "classe" est
+		## purement declarative et n'est plus demandee au formulaire - CP choisi comme valeur neutre
+		## par defaut, modifiable ensuite si besoin (mod 6, onglet Controle parental).
+		"classe": GradeLevel.Grade.CP,
 		"date_naissance": {
 			"year": int(year_spin.value),
 			"month": int(month_spin.value),
