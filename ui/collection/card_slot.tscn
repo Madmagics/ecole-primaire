@@ -4,13 +4,6 @@
 [ext_resource type="Script" uid="uid://b8pj4ctl7vte8" path="res://ui/collection/pet_placeholder_icon.gd" id="2"]
 
 [node name="CardSlot" type="Control" unique_id=1369651028]
-## mouse_filter=2 (Ignore) sur ce Control racine et sur tous ses habillages decoratifs Panel/
-## TextureRect ci-dessous (2026-09-16, TODO_UI_MODS.md "Bug - Scroll tactile impossible") :
-## card_slot.gd ne lit aucune entree (pas de _gui_input, pas de bouton), ces noeuds servent
-## uniquement a dessiner la carte - avec le mouse_filter=Stop par defaut d'un Control/Panel, chaque
-## carte de la grille (GridContainer, deja Pass par defaut) bloquait totalement le glissement du
-## doigt destine au ScrollContainer parent (card_album.tscn), ne laissant que les rares espaces
-## entre les cartes pour faire defiler. Meme convention deja utilisee dans ui/shop/crate_item.tscn.
 mouse_filter = 2
 layout_mode = 3
 anchors_preset = 0

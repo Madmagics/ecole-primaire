@@ -449,11 +449,6 @@ custom_minimum_size = Vector2(220, 0)
 layout_mode = 2
 
 [node name="ParentalControlFrame" type="PanelContainer" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList" unique_id=624885312]
-## mouse_filter=2 (Ignore) (2026-09-16, TODO_UI_MODS.md "Bug - Scroll tactile impossible") : un
-## PanelContainer a mouse_filter=Stop par defaut (contrairement aux autres Container), ce cadre
-## purement visuel bloquait donc le glissement tactile destine a CreateScroll des qu'on posait le
-## doigt sur son fond plutot que pile sur ParentalControlCheck - ses enfants interactifs restent
-## testes en priorite quel que soit le filtre du cadre, seul le fond devient traversable.
 mouse_filter = 2
 layout_mode = 2
 
@@ -512,7 +507,6 @@ layout_mode = 2
 secret = true
 
 [node name="CaptchaFrame" type="PanelContainer" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList"]
-## mouse_filter=2 (Ignore), meme raison que ParentalControlFrame ci-dessus (voir son commentaire).
 mouse_filter = 2
 layout_mode = 2
 
