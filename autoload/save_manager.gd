@@ -1253,8 +1253,27 @@ func _flush_pending_events() -> void:
 	if _sync_en_cours.get(account_id, false):
 		return
 	_sync_en_cours[account_id] = true
-	await _do_flush(index, account_id, pending)
+	## BUG CORRIGE le 2026-09-16 (retour utilisateur : cartes obtenues jamais synchronisees sur le
+	## serveur alors que les autres types d'evenements passaient) : [pending] est un Array GDScript
+	## passe PAR REFERENCE, pas par copie. Comme l'appel reseau ci-dessous est asynchrone, la file
+	## continue de grossir pendant qu'il est en vol (ex. plusieurs "carte_debloquee" journalises
+	## juste apres un "depense_piece" dans la meme boucle d'achat, voir shop_panel.gd) - MAIS
+	## _do_flush() compare ensuite les ids qu'il croit avoir envoyes a la file COURANTE pour savoir
+	## quoi en retirer : sans copie figee ici, un evenement ajoute PENDANT cet appel reseau se
+	## retrouve avec son id present dans "sent_events" (meme objet que la file live) sans avoir
+	## jamais ete inclus dans le JSON reellement transmis (deja serialise avant que la boucle
+	## d'achat ne continue) - il est alors marque a tort "deja synchronise" et disparait
+	## silencieusement de la file, sans jamais atteindre le serveur. .duplicate() fige un
+	## instantane independant au moment de l'envoi, pour que la comparaison au retour porte
+	## exactement sur ce qui a ete transmis.
+	await _do_flush(index, account_id, pending.duplicate())
 	_sync_en_cours.erase(account_id)
+	## Un ou plusieurs evenements ont pu s'accumuler dans la file PENDANT l'appel reseau ci-dessus
+	## (voir le commentaire juste au-dessus) - on retente tout de suite plutot que d'attendre le
+	## prochain log_event()/le minuteur de secours (SYNC_RETRY_INTERVAL_SECONDS, 30s). Sans risque
+	## de boucle infinie : ce nouvel appel ressort immediatement si la file est vide ou si une
+	## synchro est deja en cours.
+	_flush_pending_events()
 
 ## Coeur de la synchro : s'assure d'une session serveur valide (voir _ensure_server_session()) puis
 ## pousse [sent_events] (l'instantane de la file au moment ou _flush_pending_events() a demarre).
