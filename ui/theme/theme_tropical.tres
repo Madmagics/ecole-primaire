@@ -1,6 +1,7 @@
 [gd_resource type="Theme" format=3 uid="uid://404h0nqx8ly"]
 
 [ext_resource type="FontVariation" path="res://ui/theme/fonts/baloo2_fallback_emoji.tres" id="1"]
+[ext_resource type="FontVariation" path="res://ui/theme/fonts/baloo2_italic.tres" id="2"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_btn_disabled"]
 content_margin_left = 14.0
@@ -12,7 +13,7 @@ border_width_left = 3
 border_width_top = 3
 border_width_right = 3
 border_width_bottom = 3
-border_color = Color(0.54902, 0.65098, 0.615686, 1)
+border_color = Color(0.34902, 0.34902, 0.34902, 1)
 corner_radius_top_left = 10
 corner_radius_top_right = 10
 corner_radius_bottom_right = 10
@@ -338,7 +339,7 @@ corner_radius_bottom_left = 10
 default_font = ExtResource("1")
 default_font_size = 20
 Button/colors/font_color = Color(0.054902, 0.360784, 0.321569, 1)
-Button/colors/font_disabled_color = Color(0.54902, 0.65098, 0.615686, 1)
+Button/colors/font_disabled_color = Color(0.34902, 0.34902, 0.34902, 1)
 Button/colors/font_focus_color = Color(0.054902, 0.360784, 0.321569, 1)
 Button/colors/font_hover_color = Color(0.054902, 0.360784, 0.321569, 1)
 Button/colors/font_hover_pressed_color = Color(0.054902, 0.360784, 0.321569, 1)
@@ -348,7 +349,7 @@ Button/styles/hover = SubResource("StyleBoxFlat_btn_hover")
 Button/styles/normal = SubResource("StyleBoxFlat_btn_normal")
 Button/styles/pressed = SubResource("StyleBoxFlat_btn_pressed")
 CheckBox/colors/font_color = Color(0.054902, 0.360784, 0.321569, 1)
-CheckBox/colors/font_disabled_color = Color(0.54902, 0.65098, 0.615686, 1)
+CheckBox/colors/font_disabled_color = Color(0.34902, 0.34902, 0.34902, 1)
 CheckBox/colors/font_focus_color = Color(0.054902, 0.360784, 0.321569, 1)
 CheckBox/colors/font_hover_color = Color(0.054902, 0.360784, 0.321569, 1)
 CheckBox/colors/font_hover_pressed_color = Color(0.054902, 0.360784, 0.321569, 1)
@@ -366,9 +367,17 @@ CloseButton/styles/normal = SubResource("StyleBoxFlat_closebtn_normal")
 CloseButton/styles/pressed = SubResource("StyleBoxFlat_closebtn_pressed")
 HSeparator/styles/separator = SubResource("StyleBoxLine_title_separator")
 Label/colors/font_color = Color(0.054902, 0.360784, 0.321569, 1)
+LineEdit/colors/font_uneditable_color = Color(0.34902, 0.34902, 0.34902, 1)
+LinkButton/colors/font_color = Color(0.34902, 0.34902, 0.34902, 1)
+LinkButton/fonts/font = ExtResource("2")
+MutedLabel/base_type = &"Label"
+MutedLabel/colors/font_color = Color(0.34902, 0.34902, 0.34902, 1)
+MutedLabel/font_sizes/font_size = 24
+MutedLabel/fonts/font = ExtResource("2")
+OptionButton/colors/font_disabled_color = Color(0.34902, 0.34902, 0.34902, 1)
 OptionCheck/base_type = &"CheckBox"
 OptionCheck/colors/font_color = Color(0.054902, 0.360784, 0.321569, 1)
-OptionCheck/colors/font_disabled_color = Color(0.54902, 0.65098, 0.615686, 1)
+OptionCheck/colors/font_disabled_color = Color(0.34902, 0.34902, 0.34902, 1)
 OptionCheck/colors/font_focus_color = Color(0.054902, 0.360784, 0.321569, 1)
 OptionCheck/colors/font_hover_color = Color(0.054902, 0.360784, 0.321569, 1)
 OptionCheck/colors/font_hover_pressed_color = Color(0.054902, 0.360784, 0.321569, 1)
@@ -384,7 +393,7 @@ ShortcutBadge/base_type = &"PanelContainer"
 ShortcutBadge/styles/panel = SubResource("StyleBoxFlat_shortcut_badge")
 SubjectButton/base_type = &"Button"
 SubjectButton/colors/font_color = Color(0.054902, 0.360784, 0.321569, 1)
-SubjectButton/colors/font_disabled_color = Color(0.54902, 0.65098, 0.615686, 1)
+SubjectButton/colors/font_disabled_color = Color(0.34902, 0.34902, 0.34902, 1)
 SubjectButton/colors/font_focus_color = Color(0.054902, 0.360784, 0.321569, 1)
 SubjectButton/colors/font_hover_color = Color(0.054902, 0.360784, 0.321569, 1)
 SubjectButton/colors/font_hover_pressed_color = Color(0.054902, 0.360784, 0.321569, 1)
@@ -393,7 +402,7 @@ SubjectButton/styles/disabled = SubResource("StyleBoxFlat_subjectbtn_disabled")
 SubjectButton/styles/hover = SubResource("StyleBoxFlat_subjectbtn_hover")
 SubjectButton/styles/normal = SubResource("StyleBoxFlat_subjectbtn_normal")
 SubjectButton/styles/pressed = SubResource("StyleBoxFlat_subjectbtn_pressed")
-TabContainer/colors/font_disabled_color = Color(0.54902, 0.65098, 0.615686, 1)
+TabContainer/colors/font_disabled_color = Color(0.34902, 0.34902, 0.34902, 1)
 TabContainer/colors/font_hovered_color = Color(0.054902, 0.360784, 0.321569, 1)
 TabContainer/colors/font_selected_color = Color(0.054902, 0.360784, 0.321569, 1)
 TabContainer/colors/font_unselected_color = Color(0.054902, 0.360784, 0.321569, 1)

@@ -1,0 +1,7 @@
+[gd_resource type="FontVariation" load_steps=2 format=3]
+
+[ext_resource type="FontFile" uid="uid://bw6gmha2bnweb" path="res://ui/theme/fonts/Baloo2-SemiBold.ttf" id="1"]
+
+[resource]
+base_font = ExtResource("1")
+variation_transform = Transform2D(1, 0, 0.2, 1, 0, 0)

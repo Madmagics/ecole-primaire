@@ -1266,14 +1266,21 @@ func _flush_pending_events() -> void:
 	## silencieusement de la file, sans jamais atteindre le serveur. .duplicate() fige un
 	## instantane independant au moment de l'envoi, pour que la comparaison au retour porte
 	## exactement sur ce qui a ete transmis.
-	await _do_flush(index, account_id, pending.duplicate())
+	var succeeded := await _do_flush(index, account_id, pending.duplicate())
 	_sync_en_cours.erase(account_id)
-	## Un ou plusieurs evenements ont pu s'accumuler dans la file PENDANT l'appel reseau ci-dessus
-	## (voir le commentaire juste au-dessus) - on retente tout de suite plutot que d'attendre le
-	## prochain log_event()/le minuteur de secours (SYNC_RETRY_INTERVAL_SECONDS, 30s). Sans risque
-	## de boucle infinie : ce nouvel appel ressort immediatement si la file est vide ou si une
-	## synchro est deja en cours.
-	_flush_pending_events()
+	## BUG CORRIGE le 2026-09-17 (retour utilisateur : plus AUCUN evenement, meme les defis, ne
+	## synchronisait plus) : cette relance immediate ne doit avoir lieu QUE si l'envoi precedent a
+	## reussi (voir [succeeded] ci-dessus) - la premiere version rappelait _flush_pending_events()
+	## inconditionnellement, y compris apres un ECHEC (hors-ligne, session perimee, ou l'autre
+	## appareil deja connecte sur ce compte, voir _ensure_server_session()) : la file restait alors
+	## non-vide, le garde-fou _sync_en_cours etait deja leve (erase() juste au-dessus), et l'appel se
+	## relancait aussitot en boucle SERREE (sans le moindre delai) tant que l'echec persistait -
+	## bombardant le serveur de tentatives au lieu de laisser le minuteur de secours (30s, voir
+	## SYNC_RETRY_INTERVAL_SECONDS) reessayer plus tard. Un succes, en revanche, ne pose aucun risque
+	## de boucle : la file ne peut alors etre non-vide que si de nouveaux evenements sont arrives
+	## PENDANT cet envoi (voir le commentaire plus haut), donc un nombre fini de relances.
+	if succeeded:
+		_flush_pending_events()
 
 ## Coeur de la synchro : s'assure d'une session serveur valide (voir _ensure_server_session()) puis
 ## pousse [sent_events] (l'instantane de la file au moment ou _flush_pending_events() a demarre).
@@ -1281,18 +1288,23 @@ func _flush_pending_events() -> void:
 ## le joueur a pu se deconnecter, changer de compte, ou journaliser de nouveaux evenements pendant
 ## que cette fonction etait suspendue en attente d'une reponse HTTP (voir les gardes
 ## "String(...) != account_id" ci-dessous).
-func _do_flush(index: int, account_id: String, sent_events: Array) -> void:
+## Renvoie true si [sent_events] a bien ete accepte par le serveur, false sinon (hors-ligne, session
+## perimee, autre appareil deja connecte sur ce compte, ou compte change pendant l'attente reseau) -
+## voir _flush_pending_events(), qui n'enchaine une relance immediate que sur un true : un false ne
+## doit RIEN redeclencher ici (le minuteur de secours de 30s s'en charge), pour ne pas transformer un
+## echec persistant en boucle de tentatives serree (voir son commentaire, bug du 2026-09-17).
+func _do_flush(index: int, account_id: String, sent_events: Array) -> bool:
 	if not await _ensure_server_session(index):
-		return # hors-ligne ou VPS injoignable - _flush_pending_events() retentera plus tard
+		return false # hors-ligne ou VPS injoignable - _flush_pending_events() retentera plus tard
 	var index_now := _current_account_index()
 	if index_now == -1 or String(_accounts[index_now].get("id", "")) != account_id:
-		return # le compte connecte a change pendant l'attente reseau ci-dessus
+		return false # le compte connecte a change pendant l'attente reseau ci-dessus
 	var jeton: String = _accounts[index_now].get("sync_jeton", "")
 	var result := await ServerApi.pousser_evenements(jeton, sent_events)
 
 	index_now = _current_account_index()
 	if index_now == -1 or String(_accounts[index_now].get("id", "")) != account_id:
-		return # idem, verifie une 2e fois : cette attente reseau a pu, elle aussi, chevaucher un changement de compte
+		return false # idem, verifie une 2e fois : cette attente reseau a pu, elle aussi, chevaucher un changement de compte
 
 	if not result.get("ok", false):
 		## "session_expiree" : le jeton est perime (>48h, voir fn_login dans schema.sql) - on l'efface
@@ -1301,7 +1313,7 @@ func _do_flush(index: int, account_id: String, sent_events: Array) -> void:
 		## attente pour le prochain essai (le minuteur de secours s'en chargera).
 		if result.get("type", "") == "serveur" and result.get("message", "") == "session_expiree":
 			_accounts[index_now]["sync_jeton"] = ""
-		return
+		return false
 
 	## Le serveur a traite tout le lot envoye (accepte comme nouveau OU deja vu, voir le commentaire
 	## de fn_pousser_evenements dans schema.sql - "ids_appliques" ne liste que les evenements
@@ -1318,6 +1330,7 @@ func _do_flush(index: int, account_id: String, sent_events: Array) -> void:
 			still_pending.append(evt)
 	_accounts[index_now]["sync_evenements"] = still_pending
 	_save_to_disk()
+	return true
 
 ## Wrapper fire-and-forget autour de _ensure_server_session() (2026-09-13, voir le commentaire au
 ## point d'appel dans create_account()) - une fonction async appelee SANS await depuis un contexte
