@@ -282,24 +282,24 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 20280;Comment dit-on 'en bas, il y a quatre chiens' en anglais ?;At the bottom, there are 4 dogs;At the bottom, there are 4 birds;At the bottom, there are 4 frogs;At the bottom, there are 4 cows
 20281;Comment dit-on 'il y a quatre chats' en anglais ?;There are 4 cats;There are 4 frogs;There are 4 sheep;There are 4 bears
 20282;Comment dit-on 'à gauche, il y a cinq chiens' en anglais ?;On the left, there are 5 dogs;On the left, there are 5 pigs;On the left, there are 5 cats;On the left, there are 5 ducks
-20283;Comment dit-on 'il y a un chien' en anglais ?;There is a dog;There is a rabbit;There is a sheep;There is a cat
-20284;Comment dit-on 'il y a un chat' en anglais ?;There is a cat;There is a bear;There is a dog;There is a monkey
-20285;Comment dit-on 'il y a une souris' en anglais ?;There is a mouse;There is a duck;There is a snake;There is a dog
-20286;Comment dit-on 'il y a un lapin' en anglais ?;There is a rabbit;There is an elephant;There is a bear;There is a horse
-20287;Comment dit-on 'il y a un oiseau' en anglais ?;There is a bird;There is an elephant;There is a bear;There is a fish
-20288;Comment dit-on 'il y a une vache' en anglais ?;There is a cow;There is a lion;There is a snake;There is a frog
-20289;Comment dit-on 'il y a un cochon' en anglais ?;There is a pig;There is a bear;There is an elephant;There is a dog
-20290;Comment dit-on 'il y a un cheval' en anglais ?;There is a horse;There is an elephant;There is a cat;There is a bear
-20291;Comment dit-on 'il y a un mouton' en anglais ?;There is a sheep;There is a lion;There is a monkey;There is a frog
-20292;Comment dit-on 'il y a un poisson' en anglais ?;There is a fish;There is a tiger;There is an elephant;There is a pig
-20293;Comment dit-on 'il y a un canard' en anglais ?;There is a duck;There is an elephant;There is a bear;There is a rabbit
-20294;Comment dit-on 'il y a une grenouille' en anglais ?;There is a frog;There is an elephant;There is a cow;There is a lion
-20295;Comment dit-on 'il y a un serpent' en anglais ?;There is a snake;There is a tiger;There is a rabbit;There is an elephant
-20296;Comment dit-on 'il y a un lion' en anglais ?;There is a lion;There is a pig;There is a bird;There is a mouse
-20297;Comment dit-on 'il y a un éléphant' en anglais ?;There is an elephant;There is a bird;There is a monkey;There is a snake
-20298;Comment dit-on 'il y a un singe' en anglais ?;There is a monkey;There is a mouse;There is a tiger;There is a dog
-20299;Comment dit-on 'il y a un tigre' en anglais ?;There is a tiger;There is a bear;There is a sheep;There is a fish
-20300;Comment dit-on 'il y a un ours' en anglais ?;There is a bear;There is a monkey;There is a snake;There is a tiger
+20283;Comment dit-on 'il y a un/une chien' en anglais ?;There is a dog;There is a rabbit;There is a sheep;There is a cat
+20284;Comment dit-on 'il y a un/une chat' en anglais ?;There is a cat;There is a bear;There is a dog;There is a monkey
+20285;Comment dit-on 'il y a un/une souris' en anglais ?;There is a mouse;There is a duck;There is a snake;There is a dog
+20286;Comment dit-on 'il y a un/une lapin' en anglais ?;There is a rabbit;There is an elephant;There is a bear;There is a horse
+20287;Comment dit-on 'il y a un/une oiseau' en anglais ?;There is a bird;There is an elephant;There is a bear;There is a fish
+20288;Comment dit-on 'il y a un/une vache' en anglais ?;There is a cow;There is a lion;There is a snake;There is a frog
+20289;Comment dit-on 'il y a un/une cochon' en anglais ?;There is a pig;There is a bear;There is an elephant;There is a dog
+20290;Comment dit-on 'il y a un/une cheval' en anglais ?;There is a horse;There is an elephant;There is a cat;There is a bear
+20291;Comment dit-on 'il y a un/une mouton' en anglais ?;There is a sheep;There is a lion;There is a monkey;There is a frog
+20292;Comment dit-on 'il y a un/une poisson' en anglais ?;There is a fish;There is a tiger;There is an elephant;There is a pig
+20293;Comment dit-on 'il y a un/une canard' en anglais ?;There is a duck;There is an elephant;There is a bear;There is a rabbit
+20294;Comment dit-on 'il y a un/une grenouille' en anglais ?;There is a frog;There is an elephant;There is a cow;There is a lion
+20295;Comment dit-on 'il y a un/une serpent' en anglais ?;There is a snake;There is a tiger;There is a rabbit;There is an elephant
+20296;Comment dit-on 'il y a un/une lion' en anglais ?;There is a lion;There is a pig;There is a bird;There is a mouse
+20297;Comment dit-on 'il y a un/une éléphant' en anglais ?;There is an elephant;There is a bird;There is a monkey;There is a snake
+20298;Comment dit-on 'il y a un/une singe' en anglais ?;There is a monkey;There is a mouse;There is a tiger;There is a dog
+20299;Comment dit-on 'il y a un/une tigre' en anglais ?;There is a tiger;There is a bear;There is a sheep;There is a fish
+20300;Comment dit-on 'il y a un/une ours' en anglais ?;There is a bear;There is a monkey;There is a snake;There is a tiger
 20301;Comment dit-on 'il y a deux chiens' en anglais ?;There are 2 dogs;There are 2 cats;There are 2 snakes;There are 2 fish
 20302;Comment dit-on 'il y a deux chats' en anglais ?;There are 2 cats;There are 2 horses;There are 2 rabbits;There are 2 frogs
 20303;Comment dit-on 'il y a deux souris' en anglais ?;There are 2 mice;There are 2 cats;There are 2 pigs;There are 2 ducks
@@ -382,42 +382,42 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 20380;Que veut dire 'I prefer tennis' en français ?;je préfère le tennis;je préfère la soupe;je préfère la danse;je préfère les oeufs
 20381;Comment dit-on 'je préfère le basket' en anglais ?;I prefer basketball;I prefer dancing;I prefer water;I prefer milk
 20382;Que veut dire 'I prefer basketball' en français ?;je préfère le basket;je préfère la course;je préfère le lait;je préfère le chocolat
-20383;Comment dit-on 'à gauche, il y a un chien' en anglais ?;On the left, there is a dog;On the left, there is a tiger;On the left, there is a monkey;On the left, there is a bear
-20384;Comment dit-on 'à gauche, il y a un chat' en anglais ?;On the left, there is a cat;On the left, there is an elephant;On the left, there is a duck;On the left, there is a mouse
-20385;Comment dit-on 'à gauche, il y a une souris' en anglais ?;On the left, there is a mouse;On the left, there is a fish;On the left, there is a rabbit;On the left, there is a dog
-20386;Comment dit-on 'à gauche, il y a un lapin' en anglais ?;On the left, there is a rabbit;On the left, there is a lion;On the left, there is a horse;On the left, there is a tiger
-20387;Comment dit-on 'à gauche, il y a un oiseau' en anglais ?;On the left, there is a bird;On the left, there is a cat;On the left, there is a mouse;On the left, there is a pig
-20388;Comment dit-on 'à gauche, il y a une vache' en anglais ?;On the left, there is a cow;On the left, there is a horse;On the left, there is a frog;On the left, there is a snake
-20389;Comment dit-on 'à gauche, il y a un cochon' en anglais ?;On the left, there is a pig;On the left, there is a cat;On the left, there is a duck;On the left, there is a snake
-20390;Comment dit-on 'à gauche, il y a un cheval' en anglais ?;On the left, there is a horse;On the left, there is a monkey;On the left, there is a cat;On the left, there is a dog
-20391;Comment dit-on 'à gauche, il y a un mouton' en anglais ?;On the left, there is a sheep;On the left, there is a fish;On the left, there is a cow;On the left, there is a duck
-20392;Comment dit-on 'à gauche, il y a un poisson' en anglais ?;On the left, there is a fish;On the left, there is a cat;On the left, there is a frog;On the left, there is a monkey
-20393;Comment dit-on 'à gauche, il y a un canard' en anglais ?;On the left, there is a duck;On the left, there is a cat;On the left, there is a sheep;On the left, there is a dog
-20394;Comment dit-on 'à gauche, il y a une grenouille' en anglais ?;On the left, there is a frog;On the left, there is a bear;On the left, there is a sheep;On the left, there is a bird
-20395;Comment dit-on 'à gauche, il y a un serpent' en anglais ?;On the left, there is a snake;On the left, there is a duck;On the left, there is a cow;On the left, there is a pig
-20396;Comment dit-on 'à gauche, il y a un lion' en anglais ?;On the left, there is a lion;On the left, there is a pig;On the left, there is a rabbit;On the left, there is a monkey
-20397;Comment dit-on 'à gauche, il y a un éléphant' en anglais ?;On the left, there is an elephant;On the left, there is a rabbit;On the left, there is a dog;On the left, there is a cow
-20398;Comment dit-on 'à gauche, il y a un singe' en anglais ?;On the left, there is a monkey;On the left, there is a tiger;On the left, there is a mouse;On the left, there is a lion
-20399;Comment dit-on 'à gauche, il y a un tigre' en anglais ?;On the left, there is a tiger;On the left, there is a sheep;On the left, there is a snake;On the left, there is a dog
-20400;Comment dit-on 'à gauche, il y a un ours' en anglais ?;On the left, there is a bear;On the left, there is an elephant;On the left, there is a lion;On the left, there is a mouse
-20401;Comment dit-on 'à droite, il y a un chien' en anglais ?;On the right, there is a dog;On the right, there is a rabbit;On the right, there is a duck;On the right, there is a bear
-20402;Comment dit-on 'à droite, il y a un chat' en anglais ?;On the right, there is a cat;On the right, there is a dog;On the right, there is a frog;On the right, there is a lion
-20403;Comment dit-on 'à droite, il y a une souris' en anglais ?;On the right, there is a mouse;On the right, there is a monkey;On the right, there is a duck;On the right, there is a sheep
-20404;Comment dit-on 'à droite, il y a un lapin' en anglais ?;On the right, there is a rabbit;On the right, there is a cat;On the right, there is a lion;On the right, there is an elephant
-20405;Comment dit-on 'à droite, il y a un oiseau' en anglais ?;On the right, there is a bird;On the right, there is a rabbit;On the right, there is a mouse;On the right, there is a cat
-20406;Comment dit-on 'à droite, il y a une vache' en anglais ?;On the right, there is a cow;On the right, there is an elephant;On the right, there is a lion;On the right, there is a fish
-20407;Comment dit-on 'à droite, il y a un cochon' en anglais ?;On the right, there is a pig;On the right, there is a horse;On the right, there is a snake;On the right, there is a rabbit
-20408;Comment dit-on 'à droite, il y a un cheval' en anglais ?;On the right, there is a horse;On the right, there is a rabbit;On the right, there is a sheep;On the right, there is a cow
-20409;Comment dit-on 'à droite, il y a un mouton' en anglais ?;On the right, there is a sheep;On the right, there is a bear;On the right, there is a horse;On the right, there is a cat
-20410;Comment dit-on 'à droite, il y a un poisson' en anglais ?;On the right, there is a fish;On the right, there is a monkey;On the right, there is a tiger;On the right, there is a rabbit
-20411;Comment dit-on 'à droite, il y a un canard' en anglais ?;On the right, there is a duck;On the right, there is a bear;On the right, there is a pig;On the right, there is a fish
-20412;Comment dit-on 'à droite, il y a une grenouille' en anglais ?;On the right, there is a frog;On the right, there is a monkey;On the right, there is a mouse;On the right, there is an elephant
-20413;Comment dit-on 'à droite, il y a un serpent' en anglais ?;On the right, there is a snake;On the right, there is a fish;On the right, there is a duck;On the right, there is a bear
-20414;Comment dit-on 'à droite, il y a un lion' en anglais ?;On the right, there is a lion;On the right, there is a cat;On the right, there is a dog;On the right, there is a monkey
-20415;Comment dit-on 'à droite, il y a un éléphant' en anglais ?;On the right, there is an elephant;On the right, there is a sheep;On the right, there is a duck;On the right, there is a monkey
-20416;Comment dit-on 'à droite, il y a un singe' en anglais ?;On the right, there is a monkey;On the right, there is a bear;On the right, there is a pig;On the right, there is a dog
-20417;Comment dit-on 'à droite, il y a un tigre' en anglais ?;On the right, there is a tiger;On the right, there is a dog;On the right, there is a monkey;On the right, there is a horse
-20418;Comment dit-on 'à droite, il y a un ours' en anglais ?;On the right, there is a bear;On the right, there is a fish;On the right, there is a frog;On the right, there is a pig
+20383;Comment dit-on 'à gauche, il y a un/une chien' en anglais ?;On the left, there is a dog;On the left, there is a tiger;On the left, there is a monkey;On the left, there is a bear
+20384;Comment dit-on 'à gauche, il y a un/une chat' en anglais ?;On the left, there is a cat;On the left, there is an elephant;On the left, there is a duck;On the left, there is a mouse
+20385;Comment dit-on 'à gauche, il y a un/une souris' en anglais ?;On the left, there is a mouse;On the left, there is a fish;On the left, there is a rabbit;On the left, there is a dog
+20386;Comment dit-on 'à gauche, il y a un/une lapin' en anglais ?;On the left, there is a rabbit;On the left, there is a lion;On the left, there is a horse;On the left, there is a tiger
+20387;Comment dit-on 'à gauche, il y a un/une oiseau' en anglais ?;On the left, there is a bird;On the left, there is a cat;On the left, there is a mouse;On the left, there is a pig
+20388;Comment dit-on 'à gauche, il y a un/une vache' en anglais ?;On the left, there is a cow;On the left, there is a horse;On the left, there is a frog;On the left, there is a snake
+20389;Comment dit-on 'à gauche, il y a un/une cochon' en anglais ?;On the left, there is a pig;On the left, there is a cat;On the left, there is a duck;On the left, there is a snake
+20390;Comment dit-on 'à gauche, il y a un/une cheval' en anglais ?;On the left, there is a horse;On the left, there is a monkey;On the left, there is a cat;On the left, there is a dog
+20391;Comment dit-on 'à gauche, il y a un/une mouton' en anglais ?;On the left, there is a sheep;On the left, there is a fish;On the left, there is a cow;On the left, there is a duck
+20392;Comment dit-on 'à gauche, il y a un/une poisson' en anglais ?;On the left, there is a fish;On the left, there is a cat;On the left, there is a frog;On the left, there is a monkey
+20393;Comment dit-on 'à gauche, il y a un/une canard' en anglais ?;On the left, there is a duck;On the left, there is a cat;On the left, there is a sheep;On the left, there is a dog
+20394;Comment dit-on 'à gauche, il y a un/une grenouille' en anglais ?;On the left, there is a frog;On the left, there is a bear;On the left, there is a sheep;On the left, there is a bird
+20395;Comment dit-on 'à gauche, il y a un/une serpent' en anglais ?;On the left, there is a snake;On the left, there is a duck;On the left, there is a cow;On the left, there is a pig
+20396;Comment dit-on 'à gauche, il y a un/une lion' en anglais ?;On the left, there is a lion;On the left, there is a pig;On the left, there is a rabbit;On the left, there is a monkey
+20397;Comment dit-on 'à gauche, il y a un/une éléphant' en anglais ?;On the left, there is an elephant;On the left, there is a rabbit;On the left, there is a dog;On the left, there is a cow
+20398;Comment dit-on 'à gauche, il y a un/une singe' en anglais ?;On the left, there is a monkey;On the left, there is a tiger;On the left, there is a mouse;On the left, there is a lion
+20399;Comment dit-on 'à gauche, il y a un/une tigre' en anglais ?;On the left, there is a tiger;On the left, there is a sheep;On the left, there is a snake;On the left, there is a dog
+20400;Comment dit-on 'à gauche, il y a un/une ours' en anglais ?;On the left, there is a bear;On the left, there is an elephant;On the left, there is a lion;On the left, there is a mouse
+20401;Comment dit-on 'à droite, il y a un/une chien' en anglais ?;On the right, there is a dog;On the right, there is a rabbit;On the right, there is a duck;On the right, there is a bear
+20402;Comment dit-on 'à droite, il y a un/une chat' en anglais ?;On the right, there is a cat;On the right, there is a dog;On the right, there is a frog;On the right, there is a lion
+20403;Comment dit-on 'à droite, il y a un/une souris' en anglais ?;On the right, there is a mouse;On the right, there is a monkey;On the right, there is a duck;On the right, there is a sheep
+20404;Comment dit-on 'à droite, il y a un/une lapin' en anglais ?;On the right, there is a rabbit;On the right, there is a cat;On the right, there is a lion;On the right, there is an elephant
+20405;Comment dit-on 'à droite, il y a un/une oiseau' en anglais ?;On the right, there is a bird;On the right, there is a rabbit;On the right, there is a mouse;On the right, there is a cat
+20406;Comment dit-on 'à droite, il y a un/une vache' en anglais ?;On the right, there is a cow;On the right, there is an elephant;On the right, there is a lion;On the right, there is a fish
+20407;Comment dit-on 'à droite, il y a un/une cochon' en anglais ?;On the right, there is a pig;On the right, there is a horse;On the right, there is a snake;On the right, there is a rabbit
+20408;Comment dit-on 'à droite, il y a un/une cheval' en anglais ?;On the right, there is a horse;On the right, there is a rabbit;On the right, there is a sheep;On the right, there is a cow
+20409;Comment dit-on 'à droite, il y a un/une mouton' en anglais ?;On the right, there is a sheep;On the right, there is a bear;On the right, there is a horse;On the right, there is a cat
+20410;Comment dit-on 'à droite, il y a un/une poisson' en anglais ?;On the right, there is a fish;On the right, there is a monkey;On the right, there is a tiger;On the right, there is a rabbit
+20411;Comment dit-on 'à droite, il y a un/une canard' en anglais ?;On the right, there is a duck;On the right, there is a bear;On the right, there is a pig;On the right, there is a fish
+20412;Comment dit-on 'à droite, il y a un/une grenouille' en anglais ?;On the right, there is a frog;On the right, there is a monkey;On the right, there is a mouse;On the right, there is an elephant
+20413;Comment dit-on 'à droite, il y a un/une serpent' en anglais ?;On the right, there is a snake;On the right, there is a fish;On the right, there is a duck;On the right, there is a bear
+20414;Comment dit-on 'à droite, il y a un/une lion' en anglais ?;On the right, there is a lion;On the right, there is a cat;On the right, there is a dog;On the right, there is a monkey
+20415;Comment dit-on 'à droite, il y a un/une éléphant' en anglais ?;On the right, there is an elephant;On the right, there is a sheep;On the right, there is a duck;On the right, there is a monkey
+20416;Comment dit-on 'à droite, il y a un/une singe' en anglais ?;On the right, there is a monkey;On the right, there is a bear;On the right, there is a pig;On the right, there is a dog
+20417;Comment dit-on 'à droite, il y a un/une tigre' en anglais ?;On the right, there is a tiger;On the right, there is a dog;On the right, there is a monkey;On the right, there is a horse
+20418;Comment dit-on 'à droite, il y a un/une ours' en anglais ?;On the right, there is a bear;On the right, there is a fish;On the right, there is a frog;On the right, there is a pig
 20419;Comment dit-on 'il est une heure' en anglais ?;It's 1 o'clock;It's 5 o'clock;It's 6 o'clock;It's 4 o'clock
 20420;Que veut dire 'It's 1 o'clock' en français ?;il est une heure;il est onze heures;il est huit heures;il est trois heures
 20421;Comment dit-on 'il est deux heures' en anglais ?;It's 2 o'clock;It's 3 o'clock;It's 11 o'clock;It's 12 o'clock

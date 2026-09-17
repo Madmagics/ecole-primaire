@@ -174,6 +174,15 @@ const CAPTCHA_PAGE_URL := "https://www.ecole-primaire.eu/captcha.html"
 ## clique sur LoginSuggestionButton (voir _on_create_pressed()/_on_login_suggestion_button_pressed()).
 var _pending_login_suggestion: String = ""
 
+## Valeurs par defaut du formulaire de creation (jour/mois/annee de naissance), capturees
+## une seule fois dans _ready() juste apres que year_spin.value ait ete calcule depuis la
+## date systeme (voir plus bas) - reutilisees par _show_create_section() pour remettre ces 3
+## champs a un etat neutre plutot que de laisser trainer la date du compte precedent (voir
+## commentaire de _show_create_section()).
+var _default_birth_day: float = 1.0
+var _default_birth_month: float = 1.0
+var _default_birth_year: float = 2018.0
+
 ## true si ce client tourne dans l'export Web (navigateur, quelle que soit la plateforme physique -
 ## desktop/tablette/telephone comptent tous comme "Web" ici) - decide UNE FOIS dans _ready(),
 ## controle quelle moitie de CaptchaFrame est visible (voir commentaire de TURNSTILE_SITE_KEY).
@@ -292,6 +301,9 @@ func _ready() -> void:
 	year_spin.min_value = current_year - 99
 	year_spin.max_value = current_year
 	year_spin.value = current_year - 7
+	_default_birth_day = day_spin.value
+	_default_birth_month = month_spin.value
+	_default_birth_year = year_spin.value
 
 	enter_button.pressed.connect(_on_enter_pressed)
 	quit_button.pressed.connect(_on_quit_pressed)
@@ -481,6 +493,26 @@ func _show_create_section() -> void:
 	create_section.show()
 	create_error_label.hide()
 	login_suggestion_button.hide()
+	_pending_login_suggestion = ""
+	## Formulaire remis a neuf a CHAQUE ouverture (2026-09-17, bug signale par l'utilisateur :
+	## "quand je cree un nouveau compte, que j'entre dans le jeu puis je me deconnecte et je cree
+	## un autre nouveau compte, le formulaire a garde en memoire les infos de creation du compte
+	## precedent" - jusqu'ici seuls email/captcha etaient vides ici, voir plus bas) : nom/prenom/
+	## pseudo/mot de passe/confirmation/mot de passe de controle parental restaient tels que tapes
+	## pour le compte precedent, et la date de naissance restait sur celle entree la derniere fois
+	## au lieu de revenir a sa valeur neutre - un parent qui cree un 2e compte pour un autre enfant
+	## sur le meme appareil se retrouvait donc a soumettre par erreur des infos du premier compte
+	## s'il ne repensait pas a tout re-effacer lui-meme.
+	nom_input.clear()
+	prenom_input.clear()
+	day_spin.value = _default_birth_day
+	month_spin.value = _default_birth_month
+	year_spin.value = _default_birth_year
+	new_login_input.clear()
+	new_password_input.clear()
+	confirm_password_input.clear()
+	parental_password_input.clear()
+	parental_password_confirm_input.clear()
 	## Email + captcha obligatoires (voir commentaire de TURNSTILE_SITE_KEY) : repart toujours d'un
 	## etat neuf a l'ouverture du formulaire plutot que de conserver un email/code d'une visite
 	## precedente - un token/code perime redonnerait une erreur "captcha_invalide" bien plus

@@ -266,11 +266,6 @@ script = ExtResource("30_profvisual")
 [connection signal="pack_unavailable" from="NPCs/NPC_CM2/QuestionGiverComponent" to="UI/QuestionPanel" method="show_message"]
 [connection signal="reading_pack_started" from="NPCs/NPC_CM2/QuestionGiverComponent" to="UI/ReadingIntroPanel" method="open_for"]
 [connection signal="subject_selection_requested" from="NPCs/NPC_CM2/QuestionGiverComponent" to="UI/SubjectSelectPanel" method="open_for"]
-[connection signal="pack_completed" from="UI/QuestionPanel" to="NPCs/NPC_CP/QuestionGiverComponent" method="resolve_pack"]
-[connection signal="pack_completed" from="UI/QuestionPanel" to="NPCs/NPC_CE1/QuestionGiverComponent" method="resolve_pack"]
-[connection signal="pack_completed" from="UI/QuestionPanel" to="NPCs/NPC_CE2/QuestionGiverComponent" method="resolve_pack"]
-[connection signal="pack_completed" from="UI/QuestionPanel" to="NPCs/NPC_CM1/QuestionGiverComponent" method="resolve_pack"]
-[connection signal="pack_completed" from="UI/QuestionPanel" to="NPCs/NPC_CM2/QuestionGiverComponent" method="resolve_pack"]
 
 [editable path="NPCs/NPC_CP"]
 [editable path="NPCs/NPC_CE1"]

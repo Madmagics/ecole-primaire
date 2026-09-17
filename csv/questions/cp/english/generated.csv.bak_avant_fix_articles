@@ -272,18 +272,18 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 18270;Comment dit-on 'j'ai sept ans' en anglais ?;I'm 7 years old;I'm 5 years old;I'm 8 years old;I'm 6 years old
 18271;Comment dit-on 'j'ai huit ans' en anglais ?;I'm 8 years old;I'm 5 years old;I'm 6 years old;I'm 7 years old
 18272;Comment dit-on 'j'ai neuf ans' en anglais ?;I'm 9 years old;I'm 8 years old;I'm 6 years old;I'm 5 years old
-18273;Comment dit-on 'j'ai un animal, c'est un chien' en anglais ?;I've got a pet, it's a dog;I've got a pet, it's a sheep;I've got a pet, it's a frog;I've got a pet, it's a horse
-18274;Comment dit-on 'j'ai un animal, c'est un chat' en anglais ?;I've got a pet, it's a cat;I've got a pet, it's a cow;I've got a pet, it's a sheep;I've got a pet, it's a horse
-18275;Comment dit-on 'j'ai un animal, c'est une souris' en anglais ?;I've got a pet, it's a mouse;I've got a pet, it's a horse;I've got a pet, it's a pig;I've got a pet, it's a bird
-18276;Comment dit-on 'j'ai un animal, c'est un lapin' en anglais ?;I've got a pet, it's a rabbit;I've got a pet, it's a bird;I've got a pet, it's a frog;I've got a pet, it's a fish
-18277;Comment dit-on 'j'ai un animal, c'est un poisson' en anglais ?;I've got a pet, it's a fish;I've got a pet, it's a cat;I've got a pet, it's a rabbit;I've got a pet, it's a horse
-18278;Comment dit-on 'j'ai un animal, c'est un oiseau' en anglais ?;I've got a pet, it's a bird;I've got a pet, it's a cat;I've got a pet, it's a sheep;I've got a pet, it's a mouse
-18279;Comment dit-on 'j'ai un animal, c'est un cheval' en anglais ?;I've got a pet, it's a horse;I've got a pet, it's a rabbit;I've got a pet, it's a frog;I've got a pet, it's a pig
-18280;Comment dit-on 'j'ai un animal, c'est une vache' en anglais ?;I've got a pet, it's a cow;I've got a pet, it's a fish;I've got a pet, it's a duck;I've got a pet, it's a sheep
-18281;Comment dit-on 'j'ai un animal, c'est un cochon' en anglais ?;I've got a pet, it's a pig;I've got a pet, it's a duck;I've got a pet, it's a fish;I've got a pet, it's a cat
-18282;Comment dit-on 'j'ai un animal, c'est un mouton' en anglais ?;I've got a pet, it's a sheep;I've got a pet, it's a rabbit;I've got a pet, it's a fish;I've got a pet, it's a frog
-18283;Comment dit-on 'j'ai un animal, c'est un canard' en anglais ?;I've got a pet, it's a duck;I've got a pet, it's a bird;I've got a pet, it's a mouse;I've got a pet, it's a fish
-18284;Comment dit-on 'j'ai un animal, c'est une grenouille' en anglais ?;I've got a pet, it's a frog;I've got a pet, it's a dog;I've got a pet, it's a pig;I've got a pet, it's a mouse
+18273;Comment dit-on 'j'ai un animal, c'est un/une chien' en anglais ?;I've got a pet, it's a dog;I've got a pet, it's a sheep;I've got a pet, it's a frog;I've got a pet, it's a horse
+18274;Comment dit-on 'j'ai un animal, c'est un/une chat' en anglais ?;I've got a pet, it's a cat;I've got a pet, it's a cow;I've got a pet, it's a sheep;I've got a pet, it's a horse
+18275;Comment dit-on 'j'ai un animal, c'est un/une souris' en anglais ?;I've got a pet, it's a mouse;I've got a pet, it's a horse;I've got a pet, it's a pig;I've got a pet, it's a bird
+18276;Comment dit-on 'j'ai un animal, c'est un/une lapin' en anglais ?;I've got a pet, it's a rabbit;I've got a pet, it's a bird;I've got a pet, it's a frog;I've got a pet, it's a fish
+18277;Comment dit-on 'j'ai un animal, c'est un/une poisson' en anglais ?;I've got a pet, it's a fish;I've got a pet, it's a cat;I've got a pet, it's a rabbit;I've got a pet, it's a horse
+18278;Comment dit-on 'j'ai un animal, c'est un/une oiseau' en anglais ?;I've got a pet, it's a bird;I've got a pet, it's a cat;I've got a pet, it's a sheep;I've got a pet, it's a mouse
+18279;Comment dit-on 'j'ai un animal, c'est un/une cheval' en anglais ?;I've got a pet, it's a horse;I've got a pet, it's a rabbit;I've got a pet, it's a frog;I've got a pet, it's a pig
+18280;Comment dit-on 'j'ai un animal, c'est un/une vache' en anglais ?;I've got a pet, it's a cow;I've got a pet, it's a fish;I've got a pet, it's a duck;I've got a pet, it's a sheep
+18281;Comment dit-on 'j'ai un animal, c'est un/une cochon' en anglais ?;I've got a pet, it's a pig;I've got a pet, it's a duck;I've got a pet, it's a fish;I've got a pet, it's a cat
+18282;Comment dit-on 'j'ai un animal, c'est un/une mouton' en anglais ?;I've got a pet, it's a sheep;I've got a pet, it's a rabbit;I've got a pet, it's a fish;I've got a pet, it's a frog
+18283;Comment dit-on 'j'ai un animal, c'est un/une canard' en anglais ?;I've got a pet, it's a duck;I've got a pet, it's a bird;I've got a pet, it's a mouse;I've got a pet, it's a fish
+18284;Comment dit-on 'j'ai un animal, c'est un/une grenouille' en anglais ?;I've got a pet, it's a frog;I've got a pet, it's a dog;I've got a pet, it's a pig;I've got a pet, it's a mouse
 18285;Comment dit-on 'il fait ensoleillé' en anglais ?;It's sunny;It's cloudy;It's rainy;It's snowy
 18286;Comment dit-on 'il fait pluvieux' en anglais ?;It's rainy;It's cloudy;It's snowy;It's sunny
 18287;Comment dit-on 'il fait venteux' en anglais ?;It's windy;It's snowy;It's sunny;It's cloudy

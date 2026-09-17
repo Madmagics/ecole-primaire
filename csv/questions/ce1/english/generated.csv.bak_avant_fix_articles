@@ -458,12 +458,12 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 19456;Comment dit-on 'pilote' en anglais ?;pilot;cook;baker;waiter
 19457;Comment dit-on 'château' en anglais ?;castle;beach;airport;zoo
 19458;Comment dit-on 'oncle' en anglais ?;uncle;nephew;aunt;husband
-19459;Comment dit-on 'j'ai un animal, c'est un serpent' en anglais ?;I've got a pet, it's a snake;I've got a pet, it's a mouse;I've got a pet, it's a tiger;I've got a pet, it's a cat
-19460;Comment dit-on 'j'ai un animal, c'est un lion' en anglais ?;I've got a pet, it's a lion;I've got a pet, it's a sheep;I've got a pet, it's a bird;I've got a pet, it's a snake
-19461;Comment dit-on 'j'ai un animal, c'est un éléphant' en anglais ?;I've got a pet, it's a elephant;I've got a pet, it's a sheep;I've got a pet, it's a bird;I've got a pet, it's a tiger
-19462;Comment dit-on 'j'ai un animal, c'est un singe' en anglais ?;I've got a pet, it's a monkey;I've got a pet, it's a fish;I've got a pet, it's a frog;I've got a pet, it's a snake
-19463;Comment dit-on 'j'ai un animal, c'est un tigre' en anglais ?;I've got a pet, it's a tiger;I've got a pet, it's a horse;I've got a pet, it's a sheep;I've got a pet, it's a cow
-19464;Comment dit-on 'j'ai un animal, c'est un ours' en anglais ?;I've got a pet, it's a bear;I've got a pet, it's a snake;I've got a pet, it's a pig;I've got a pet, it's a mouse
+19459;Comment dit-on 'j'ai un animal, c'est un/une serpent' en anglais ?;I've got a pet, it's a snake;I've got a pet, it's a mouse;I've got a pet, it's a tiger;I've got a pet, it's a cat
+19460;Comment dit-on 'j'ai un animal, c'est un/une lion' en anglais ?;I've got a pet, it's a lion;I've got a pet, it's a sheep;I've got a pet, it's a bird;I've got a pet, it's a snake
+19461;Comment dit-on 'j'ai un animal, c'est un/une éléphant' en anglais ?;I've got a pet, it's a elephant;I've got a pet, it's a sheep;I've got a pet, it's a bird;I've got a pet, it's a tiger
+19462;Comment dit-on 'j'ai un animal, c'est un/une singe' en anglais ?;I've got a pet, it's a monkey;I've got a pet, it's a fish;I've got a pet, it's a frog;I've got a pet, it's a snake
+19463;Comment dit-on 'j'ai un animal, c'est un/une tigre' en anglais ?;I've got a pet, it's a tiger;I've got a pet, it's a horse;I've got a pet, it's a sheep;I've got a pet, it's a cow
+19464;Comment dit-on 'j'ai un animal, c'est un/une ours' en anglais ?;I've got a pet, it's a bear;I've got a pet, it's a snake;I've got a pet, it's a pig;I've got a pet, it's a mouse
 19465;Comment dit-on 'il est gentil' en anglais ?;He is nice;He is clever;He is brave;He is shy
 19466;Que veut dire 'He is nice' en français ?;il est gentil;il est courageux;il est timide;il est fort
 19467;Comment dit-on 'il est drôle' en anglais ?;He is funny;He is strong;He is shy;He is nice

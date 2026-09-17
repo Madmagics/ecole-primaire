@@ -10,13 +10,13 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21008;Comment dit-on 'je porte des pantalon' en anglais ?;I am wearing trousers;I am wearing a shirt;I am wearing a jacket;I am wearing a dress
 21009;Comment dit-on 'soleil' en anglais ?;sun;cold;snow;rain
 21010;Comment dit-on 'il est né en Chine' en anglais ?;He was born in China;He was born in Germany;He was born in France;I come from France
-21011;Comment dit-on 'je porte une écharpe' en anglais ?;I am wearing a scarf;I am wearing a coat;I am wearing trousers;I am wearing a jacket
+21011;Comment dit-on 'je porte un/une écharpe' en anglais ?;I am wearing a scarf;I am wearing a coat;I am wearing trousers;I am wearing a jacket
 21012;Comment dit-on 'un rocher est plus haut qu'une plume' en anglais ?;A rock is higher than a feather;A building is cleaner than a house;A giant is cleaner than a mouse;A mountain is louder than a hill
 21013;Comment dit-on 'un rocher est plus propre qu'une plume' en anglais ?;A rock is cleaner than a feather;A giant is louder than a mouse;A rock is higher than a feather;A book is wider than a leaf
 21014;Comment dit-on 'une voiture est plus lourde qu'un vélo' en anglais ?;A car is heavier than a bike;A truck is richer than a motorbike;A whale is hotter than a fish;A car is cleaner than a bike
 21015;Comment dit-on 'un cheval est plus propre qu'un chien' en anglais ?;A horse is cleaner than a dog;An elephant is cleaner than a mouse;A car is louder than a bike;A lion is cleaner than a duck
 21016;Comment dit-on 'nuage' en anglais ?;cloud;storm;snow;sun
-21017;Comment dit-on 'j'ai mal au nez' en anglais ?;My nose hurts;My head hurts;My foot hurts;My tooth hurts
+21017;Comment dit-on 'j'ai mal au/à la nez' en anglais ?;My nose hurts;My head hurts;My foot hurts;My tooth hurts
 21018;Comment dit-on 'mon sport préféré est natation' en anglais ?;My favourite sport is swimming;My favourite sport is golf;My favourite sport is tennis;My favourite sport is horse riding
 21019;Comment dit-on 'j'ai un bébé' en anglais ?;I have a baby;I have an uncle;I have a twin;I have a niece
 21020;Comment dit-on 'il est né en Belgique' en anglais ?;He was born in Belgium;He was born in England;He was born in China;I come from Switzerland
@@ -24,19 +24,19 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21022;Comment dit-on 'une baleine est plus riche qu'un poisson' en anglais ?;A whale is richer than a fish;A car is heavier than a bike;A lion is heavier than a duck;A horse is cleaner than a dog
 21023;Comment dit-on 'mon sport préféré est gymnastique' en anglais ?;My favourite sport is gymnastics;My favourite sport is skiing;My favourite sport is judo;My favourite sport is horse riding
 21024;Comment dit-on 'plus large' en anglais ?;wider;longest;quieter;coldest
-21025;Comment dit-on 'je porte un pull' en anglais ?;I am wearing a sweater;I am wearing a coat;I am wearing a jacket;I am wearing a scarf
+21025;Comment dit-on 'je porte un/une pull' en anglais ?;I am wearing a sweater;I am wearing a coat;I am wearing a jacket;I am wearing a scarf
 21026;Comment dit-on 'un livre est plus propre qu'une feuille' en anglais ?;A book is cleaner than a leaf;A train is wider than a bicycle;A train is higher than a bicycle;A giant is longer than a mouse
 21027;Comment dit-on 'un lion est plus propre qu'un canard' en anglais ?;A lion is cleaner than a duck;An elephant is heavier than a mouse;A lion is louder than a duck;A horse is cleaner than a dog
 21028;Comment dit-on 'un livre est plus lourd qu'une feuille' en anglais ?;A book is heavier than a leaf;A mountain is louder than a hill;A plane is heavier than a bird;A mountain is heavier than a hill
 21029;Comment dit-on 'une tortue est plus chaude qu'un lapin' en anglais ?;A tortoise is hotter than a rabbit;A lion is heavier than a duck;A truck is louder than a motorbike;A car is cleaner than a bike
-21030;Comment dit-on 'j'ai mal au pied' en anglais ?;My foot hurts;My back hurts;My nose hurts;My head hurts
+21030;Comment dit-on 'j'ai mal au/à la pied' en anglais ?;My foot hurts;My back hurts;My nose hurts;My head hurts
 21031;Comment dit-on 'je porte des chaussettes' en anglais ?;I am wearing socks;I am wearing a scarf;I am wearing shoes;I am wearing a dress
 21032;Comment dit-on 'le plus long' en anglais ?;longest;heavier;coldest;shorter
 21033;Comment dit-on 'un fleuve est plus propre qu'un ruisseau' en anglais ?;A river is cleaner than a stream;A river is louder than a stream;A book is richer than a leaf;A rock is higher than a feather
 21034;Comment dit-on 'un avion est plus bruyant qu'un oiseau' en anglais ?;A plane is louder than a bird;A rock is richer than a feather;A mountain is higher than a hill;A train is wider than a bicycle
 21035;Comment dit-on 'plus sale' en anglais ?;dirtier;richer;widest;lighter
 21036;Comment dit-on 'un éléphant est plus lourd qu'une souris' en anglais ?;An elephant is heavier than a mouse;A horse is heavier than a dog;A horse is louder than a dog;A truck is louder than a motorbike
-21037;Comment dit-on 'je joue du tambour' en anglais ?;I play the drum;I play the violin;I play the trumpet;I play the piano
+21037;Comment dit-on 'je joue du/de la tambour' en anglais ?;I play the drum;I play the violin;I play the trumpet;I play the piano
 21038;Que veut dire 'motorbike' en français ?;moto;voiture;train;bateau
 21039;Que veut dire 'second' en français ?;deuxième;huitième;troisième;neuvième
 21040;Comment dit-on 'le plus léger' en anglais ?;lightest;poorer;wider;coldest
@@ -46,7 +46,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21044;Comment dit-on 'je viens d'Allemagne' en anglais ?;I come from Germany;I come from Belgium;I come from Scotland;He was born in Italy
 21045;Comment dit-on 'je viens de Chine' en anglais ?;I come from China;He was born in England;He was born in Japan;I come from Scotland
 21046;Comment dit-on 'un immeuble est plus riche qu'une maison' en anglais ?;A building is richer than a house;A building is higher than a house;A plane is hotter than a bird;A book is hotter than a leaf
-21047;Comment dit-on 'je porte un chapeau' en anglais ?;I am wearing a hat;I am wearing pyjamas;I am wearing shoes;I am wearing a sweater
+21047;Comment dit-on 'je porte un/une chapeau' en anglais ?;I am wearing a hat;I am wearing pyjamas;I am wearing shoes;I am wearing a sweater
 21048;Comment dit-on 'plus étroit' en anglais ?;narrower;cleanest;poorest;quietest
 21049;Comment dit-on 'un livre est plus large qu'une feuille' en anglais ?;A book is wider than a leaf;A river is cleaner than a stream;A train is cleaner than a bicycle;A plane is cleaner than a bird
 21050;Comment dit-on 'le plus calme' en anglais ?;quietest;richer;higher;cleaner
@@ -56,14 +56,14 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21054;Comment dit-on 'le septième' en anglais ?;the seventh;the fifth;the second;the tenth
 21055;Comment dit-on 'le plus propre' en anglais ?;cleanest;hottest;louder;wider
 21056;Que veut dire 'the sixth' en français ?;le sixième;la neuvième;la dixième;le septième
-21057;Comment dit-on 'j'ai mal au bras' en anglais ?;My arm hurts;My foot hurts;My leg hurts;My knee hurts
+21057;Comment dit-on 'j'ai mal au/à la bras' en anglais ?;My arm hurts;My foot hurts;My leg hurts;My knee hurts
 21058;Comment dit-on 'mon sport préféré est patinage' en anglais ?;My favourite sport is skating;My favourite sport is swimming;My favourite sport is judo;My favourite sport is tennis
-21059;Comment dit-on 'j'ai mal au dos' en anglais ?;My back hurts;My tooth hurts;My foot hurts;My stomach hurts
+21059;Comment dit-on 'j'ai mal au/à la dos' en anglais ?;My back hurts;My tooth hurts;My foot hurts;My stomach hurts
 21060;Comment dit-on 'il est né au Canada' en anglais ?;He was born in Canada;I come from Switzerland;I come from Japan;I come from Belgium
 21061;Comment dit-on 'une montagne est plus lourde qu'une colline' en anglais ?;A mountain is heavier than a hill;A river is louder than a stream;A mountain is higher than a hill;A plane is cleaner than a bird
 21062;Comment dit-on 'ne chante pas si fort' en anglais ?;don't sing so loud;don't forget your notebook;don't sleep in class;don't draw on the wall
 21063;Comment dit-on 'plus lourd' en anglais ?;heavier;quieter;longer;quietest
-21064;Comment dit-on 'je suis dans le garage' en anglais ?;I am in the garage;I am in the bathroom;I am in the cellar;I am in the living room
+21064;Comment dit-on 'je suis dans le/la garage' en anglais ?;I am in the garage;I am in the bathroom;I am in the cellar;I am in the living room
 21065;Comment dit-on 'un avion est plus haut qu'un oiseau' en anglais ?;A plane is higher than a bird;A train is longer than a bicycle;A giant is longer than a mouse;A book is heavier than a leaf
 21066;Comment dit-on 'une montagne est plus longue qu'une colline' en anglais ?;A mountain is longer than a hill;A train is higher than a bicycle;A giant is louder than a mouse;A plane is longer than a bird
 21067;Comment dit-on 'un géant est plus haut qu'une souris' en anglais ?;A giant is higher than a mouse;A giant is heavier than a mouse;A book is richer than a leaf;A rock is longer than a feather
@@ -75,7 +75,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21073;Comment dit-on 'le plus court' en anglais ?;shortest;heavier;quieter;heaviest
 21074;Que veut dire 'truck' en français ?;camion;voiture;bateau;moto
 21076;Que veut dire 'fifth' en français ?;cinquième;dixième;sixième;septième
-21077;Comment dit-on 'je suis dans la salle de bain' en anglais ?;I am in the bathroom;I am in the living room;I am in the garden;I am in the bedroom
+21077;Comment dit-on 'je suis dans le/la salle de bain' en anglais ?;I am in the bathroom;I am in the living room;I am in the garden;I am in the bedroom
 21078;Comment dit-on 'un fleuve est plus long qu'un ruisseau' en anglais ?;A river is longer than a stream;A building is richer than a house;A river is wider than a stream;A rock is hotter than a feather
 21079;Comment dit-on 'mon sport préféré est rugby' en anglais ?;My favourite sport is rugby;My favourite sport is skating;My favourite sport is tennis;My favourite sport is judo
 21080;Comment dit-on 'je porte des gants' en anglais ?;I am wearing gloves;I am wearing socks;I am wearing a dress;I am wearing a shirt
@@ -92,7 +92,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21091;Que veut dire 'five hundred' en français ?;cinq cents;un;deux cents;six
 21092;Comment dit-on 'mille' en anglais ?;one thousand;six;two hundred;seven
 21093;Que veut dire 'one thousand' en français ?;mille;cent;cinq cents;neuf
-21094;Comment dit-on 'je porte une veste' en anglais ?;I am wearing a jacket;I am wearing a tie;I am wearing a belt;I am wearing shoes
+21094;Comment dit-on 'je porte un/une veste' en anglais ?;I am wearing a jacket;I am wearing a tie;I am wearing a belt;I am wearing shoes
 21095;Comment dit-on 'la neuvième' en anglais ?;the ninth;the fourth;the second;the sixth
 21096;Comment dit-on 'un lion est plus large qu'un canard' en anglais ?;A lion is wider than a duck;A horse is richer than a dog;A bear is heavier than a cat;A horse is heavier than a dog
 21097;Que veut dire 'the eighth' en français ?;le huitième;la dixième;la cinquième;le premier
@@ -102,16 +102,16 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21101;Comment dit-on 'une tortue est plus riche qu'un lapin' en anglais ?;A tortoise is richer than a rabbit;A horse is longer than a dog;A lion is louder than a duck;A car is longer than a bike
 21102;Comment dit-on 'un immeuble est plus lourd qu'une maison' en anglais ?;A building is heavier than a house;A plane is richer than a bird;A mountain is wider than a hill;A rock is richer than a feather
 21103;Comment dit-on 'mon sport préféré est golf' en anglais ?;My favourite sport is golf;My favourite sport is tennis;My favourite sport is skiing;My favourite sport is fishing
-21104;Comment dit-on 'je suis dans la cave' en anglais ?;I am in the cellar;I am in the bedroom;I am in the bathroom;I am in the garage
+21104;Comment dit-on 'je suis dans le/la cave' en anglais ?;I am in the cellar;I am in the bedroom;I am in the bathroom;I am in the garage
 21105;Comment dit-on 'je viens d'Italie' en anglais ?;I come from Italy;He was born in England;He was born in Japan;He was born in Scotland
 21106;Comment dit-on 'plus léger' en anglais ?;lighter;hotter;cleaner;heavier
-21107;Comment dit-on 'je porte une chemise' en anglais ?;I am wearing a shirt;I am wearing pyjamas;I am wearing a dress;I am wearing socks
+21107;Comment dit-on 'je porte un/une chemise' en anglais ?;I am wearing a shirt;I am wearing pyjamas;I am wearing a dress;I am wearing socks
 21108;Comment dit-on 'un immeuble est plus propre qu'une maison' en anglais ?;A building is cleaner than a house;A giant is cleaner than a mouse;A train is hotter than a bicycle;A building is longer than a house
 21109;Comment dit-on 'le plus bruyant' en anglais ?;loudest;narrower;heaviest;shorter
 21110;Comment dit-on 'un lion est plus long qu'un canard' en anglais ?;A lion is longer than a duck;A car is richer than a bike;An elephant is heavier than a mouse;A whale is heavier than a fish
 21111;Comment dit-on 'le plus large' en anglais ?;widest;richer;heavier;highest
-21112;Comment dit-on 'je porte une cravate' en anglais ?;I am wearing a tie;I am wearing shoes;I am wearing a dress;I am wearing a scarf
-21113;Comment dit-on 'je porte une ceinture' en anglais ?;I am wearing a belt;I am wearing a dress;I am wearing shoes;I am wearing pyjamas
+21112;Comment dit-on 'je porte un/une cravate' en anglais ?;I am wearing a tie;I am wearing shoes;I am wearing a dress;I am wearing a scarf
+21113;Comment dit-on 'je porte un/une ceinture' en anglais ?;I am wearing a belt;I am wearing a dress;I am wearing shoes;I am wearing pyjamas
 21114;Comment dit-on 'un fleuve est plus riche qu'un ruisseau' en anglais ?;A river is richer than a stream;A rock is hotter than a feather;A plane is heavier than a bird;A river is higher than a stream
 21115;Comment dit-on 'le plus bas' en anglais ?;lowest;widest;cleanest;loudest
 21116;Comment dit-on 'un cheval est plus riche qu'un chien' en anglais ?;A horse is richer than a dog;An elephant is richer than a mouse;A tortoise is louder than a rabbit;A truck is heavier than a motorbike
@@ -120,15 +120,15 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21119;Comment dit-on 'une baleine est plus chaude qu'un poisson' en anglais ?;A whale is hotter than a fish;A car is cleaner than a bike;A whale is richer than a fish;A bear is hotter than a cat
 21120;Comment dit-on 'un géant est plus riche qu'une souris' en anglais ?;A giant is richer than a mouse;A mountain is hotter than a hill;A mountain is wider than a hill;A train is richer than a bicycle
 21121;Comment dit-on 'le deuxième' en anglais ?;the second;the third;the fourth;the tenth
-21122;Comment dit-on 'j'ai mal à la main' en anglais ?;My hand hurts;My knee hurts;My arm hurts;My eye hurts
+21122;Comment dit-on 'j'ai mal au/à la main' en anglais ?;My hand hurts;My knee hurts;My arm hurts;My eye hurts
 21123;Comment dit-on 'un éléphant est plus riche qu'une souris' en anglais ?;An elephant is richer than a mouse;A horse is louder than a dog;A lion is higher than a duck;A horse is higher than a dog
 21124;Comment dit-on 'un camion est plus bruyant qu'une moto' en anglais ?;A truck is louder than a motorbike;A whale is heavier than a fish;A car is louder than a bike;A whale is louder than a fish
-21125;Comment dit-on 'je suis dans la cuisine' en anglais ?;I am in the kitchen;I am in the cellar;I am in the bathroom;I am in the garage
+21125;Comment dit-on 'je suis dans le/la cuisine' en anglais ?;I am in the kitchen;I am in the cellar;I am in the bathroom;I am in the garage
 21126;Comment dit-on 'un cheval est plus long qu'un chien' en anglais ?;A horse is longer than a dog;A car is higher than a bike;A bear is higher than a cat;A car is richer than a bike
 21127;Comment dit-on 'une tortue est plus longue qu'un lapin' en anglais ?;A tortoise is longer than a rabbit;A horse is cleaner than a dog;A bear is heavier than a cat;An elephant is louder than a mouse
 21128;Comment dit-on 'une baleine est plus longue qu'un poisson' en anglais ?;A whale is longer than a fish;A horse is longer than a dog;A tortoise is louder than a rabbit;A truck is wider than a motorbike
 21129;Comment dit-on 'mon sport préféré est l'équitation' en anglais ?;My favourite sport is horse riding;My favourite sport is golf;My favourite sport is rugby;My favourite sport is judo
-21130;Comment dit-on 'je suis dans le jardin' en anglais ?;I am in the garden;I am in the bathroom;I am in the garage;I am in the living room
+21130;Comment dit-on 'je suis dans le/la jardin' en anglais ?;I am in the garden;I am in the bathroom;I am in the garage;I am in the living room
 21131;Comment dit-on 'je viens des États-Unis' en anglais ?;I come from the United States;He was born in Canada;I come from Belgium;I come from Canada
 21132;Comment dit-on 'il est né aux États-Unis' en anglais ?;He was born in the United States;He was born in Portugal;He was born in Belgium;He was born in China
 21133;Comment dit-on 'plus bruyant' en anglais ?;louder;coldest;dirtiest;lightest
@@ -141,12 +141,12 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21140;Comment dit-on 'je viens du Canada' en anglais ?;I come from Canada;I come from Italy;He was born in Portugal;He was born in Italy
 21141;Comment dit-on 'un rocher est plus riche qu'une plume' en anglais ?;A rock is richer than a feather;A giant is cleaner than a mouse;A plane is richer than a bird;A river is higher than a stream
 21142;Comment dit-on 'j'ai mal à l'oreille' en anglais ?;My ear hurts;My leg hurts;My tooth hurts;My stomach hurts
-21143;Comment dit-on 'j'ai mal au ventre' en anglais ?;My stomach hurts;My back hurts;My arm hurts;My knee hurts
+21143;Comment dit-on 'j'ai mal au/à la ventre' en anglais ?;My stomach hurts;My back hurts;My arm hurts;My knee hurts
 21144;Comment dit-on 'le plus froid' en anglais ?;coldest;poorest;richest;dirtiest
 21145;Comment dit-on 'un train est plus propre qu'une bicyclette' en anglais ?;A train is cleaner than a bicycle;A plane is higher than a bird;A mountain is cleaner than a hill;A rock is heavier than a feather
 21146;Comment dit-on 'un avion est plus long qu'un oiseau' en anglais ?;A plane is longer than a bird;A giant is heavier than a mouse;A mountain is cleaner than a hill;A rock is longer than a feather
 21147;Comment dit-on 'j'ai un cousin' en anglais ?;I have a cousin;I have a baby;I have a nephew;I have a wife
-21148;Comment dit-on 'j'ai mal à la tête' en anglais ?;My head hurts;My arm hurts;My foot hurts;My leg hurts
+21148;Comment dit-on 'j'ai mal au/à la tête' en anglais ?;My head hurts;My arm hurts;My foot hurts;My leg hurts
 21149;Comment dit-on 'un livre est plus riche qu'une feuille' en anglais ?;A book is richer than a leaf;A building is heavier than a house;A river is louder than a stream;A train is wider than a bicycle
 21150;Comment dit-on 'mon sport préféré est tennis' en anglais ?;My favourite sport is tennis;My favourite sport is gymnastics;My favourite sport is golf;My favourite sport is volleyball
 21151;Comment dit-on 'un géant est plus large qu'une souris' en anglais ?;A giant is wider than a mouse;A train is louder than a bicycle;A mountain is louder than a hill;A river is wider than a stream
@@ -157,7 +157,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21156;Comment dit-on 'ne touche pas' en anglais ?;don't touch;don't sing so loud;don't run;don't sleep in class
 21157;Comment dit-on 'le premier' en anglais ?;the first;the eighth;the tenth;the second
 21158;Comment dit-on 'un camion est plus large qu'une moto' en anglais ?;A truck is wider than a motorbike;An elephant is higher than a mouse;A whale is wider than a fish;A horse is hotter than a dog
-21159;Comment dit-on 'je joue du violon' en anglais ?;I play the violin;I play the piano;I play the flute;I play the drum
+21159;Comment dit-on 'je joue du/de la violon' en anglais ?;I play the violin;I play the piano;I play the flute;I play the drum
 21160;Comment dit-on 'le plus riche' en anglais ?;richest;coldest;lightest;cleanest
 21161;Comment dit-on 'un immeuble est plus large qu'une maison' en anglais ?;A building is wider than a house;A building is hotter than a house;A rock is louder than a feather;A giant is heavier than a mouse
 21162;Comment dit-on 'dixième' en anglais ?;tenth;fourth;seventh;eighth
@@ -193,7 +193,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21192;Comment dit-on 'plus haut' en anglais ?;higher;coldest;widest;heaviest
 21193;Comment dit-on 'un immeuble est plus long qu'une maison' en anglais ?;A building is longer than a house;A plane is heavier than a bird;A giant is wider than a mouse;A giant is richer than a mouse
 21194;Comment dit-on 'une tortue est plus haute qu'un lapin' en anglais ?;A tortoise is higher than a rabbit;A lion is cleaner than a duck;A car is heavier than a bike;A horse is hotter than a dog
-21195;Comment dit-on 'je porte un manteau' en anglais ?;I am wearing a coat;I am wearing a belt;I am wearing a dress;I am wearing gloves
+21195;Comment dit-on 'je porte un/une manteau' en anglais ?;I am wearing a coat;I am wearing a belt;I am wearing a dress;I am wearing gloves
 21196;Comment dit-on 'un géant est plus lourd qu'une souris' en anglais ?;A giant is heavier than a mouse;A train is hotter than a bicycle;A giant is richer than a mouse;A building is cleaner than a house
 21197;Comment dit-on 'un cheval est plus large qu'un chien' en anglais ?;A horse is wider than a dog;A car is hotter than a bike;A horse is hotter than a dog;An elephant is hotter than a mouse
 21198;Que veut dire 'the tenth' en français ?;la dixième;le septième;le deuxième;la cinquième
@@ -202,13 +202,13 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21201;Comment dit-on 'le plus étroit' en anglais ?;narrowest;louder;cleaner;quietest
 21202;Comment dit-on 'je viens d'Irlande' en anglais ?;I come from Ireland;I come from Germany;I come from France;He was born in the United States
 21203;Comment dit-on 'un rocher est plus large qu'une plume' en anglais ?;A rock is wider than a feather;A plane is hotter than a bird;A rock is louder than a feather;A book is longer than a leaf
-21204;Comment dit-on 'j'ai mal à la jambe' en anglais ?;My leg hurts;My head hurts;My hand hurts;My back hurts
+21204;Comment dit-on 'j'ai mal au/à la jambe' en anglais ?;My leg hurts;My head hurts;My hand hurts;My back hurts
 21205;Comment dit-on 'un éléphant est plus long qu'une souris' en anglais ?;An elephant is longer than a mouse;A bear is cleaner than a cat;A lion is wider than a duck;A truck is higher than a motorbike
 21206;Comment dit-on 'une montagne est plus propre qu'une colline' en anglais ?;A mountain is cleaner than a hill;A building is higher than a house;A plane is wider than a bird;A plane is louder than a bird
-21207;Comment dit-on 'je joue de la flûte' en anglais ?;I play the flute;I play the harp;I play the violin;I play the trumpet
-21208;Comment dit-on 'je joue du piano' en anglais ?;I play the piano;I play the violin;I play the drum;I play the guitar
+21207;Comment dit-on 'je joue du/de la flûte' en anglais ?;I play the flute;I play the harp;I play the violin;I play the trumpet
+21208;Comment dit-on 'je joue du/de la piano' en anglais ?;I play the piano;I play the violin;I play the drum;I play the guitar
 21209;Comment dit-on 'il est né en Irlande' en anglais ?;He was born in Ireland;I come from Japan;I come from Spain;I come from Belgium
-21210;Comment dit-on 'je joue de la harpe' en anglais ?;I play the harp;I play the piano;I play the guitar;I play the drum
+21210;Comment dit-on 'je joue du/de la harpe' en anglais ?;I play the harp;I play the piano;I play the guitar;I play the drum
 21211;Comment dit-on 'un immeuble est plus haut qu'une maison' en anglais ?;A building is higher than a house;A rock is longer than a feather;A train is louder than a bicycle;A train is longer than a bicycle
 21212;Comment dit-on 'un train est plus chaud qu'une bicyclette' en anglais ?;A train is hotter than a bicycle;A book is longer than a leaf;A mountain is wider than a hill;A plane is louder than a bird
 21213;Comment dit-on 'une voiture est plus riche qu'un vélo' en anglais ?;A car is richer than a bike;A bear is cleaner than a cat;A tortoise is heavier than a rabbit;A truck is longer than a motorbike
@@ -217,7 +217,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21216;Comment dit-on 'une montagne est plus chaude qu'une colline' en anglais ?;A mountain is hotter than a hill;A book is wider than a leaf;A rock is higher than a feather;A plane is hotter than a bird
 21217;Comment dit-on 'ne saute pas sur le lit' en anglais ?;don't jump on the bed;don't touch;don't draw on the wall;don't climb on the table
 21218;Comment dit-on 'viande' en anglais ?;meat;rice;bread;cake
-21219;Comment dit-on 'je suis dans le salon' en anglais ?;I am in the living room;I am in the bedroom;I am in the bathroom;I am in the garage
+21219;Comment dit-on 'je suis dans le/la salon' en anglais ?;I am in the living room;I am in the bedroom;I am in the bathroom;I am in the garage
 21220;Comment dit-on 'une tortue est plus large qu'un lapin' en anglais ?;A tortoise is wider than a rabbit;A truck is cleaner than a motorbike;A bear is cleaner than a cat;A lion is higher than a duck
 21221;Que veut dire 'soup' en français ?;soupe;gâteau;viande;chocolat
 21222;Comment dit-on 'neige' en anglais ?;snow;wind;hot;cloud
@@ -228,7 +228,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21227;Comment dit-on 'un géant est plus propre qu'une souris' en anglais ?;A giant is cleaner than a mouse;A book is cleaner than a leaf;A building is cleaner than a house;A plane is heavier than a bird
 21228;Comment dit-on 'un ours est plus propre qu'un chat' en anglais ?;A bear is cleaner than a cat;A car is heavier than a bike;A lion is higher than a duck;A tortoise is cleaner than a rabbit
 21229;Comment dit-on 'un ours est plus chaud qu'un chat' en anglais ?;A bear is hotter than a cat;A whale is louder than a fish;A truck is louder than a motorbike;An elephant is louder than a mouse
-21230;Comment dit-on 'je joue de la trompette' en anglais ?;I play the trumpet;I play the violin;I play the flute;I play the harp
+21230;Comment dit-on 'je joue du/de la trompette' en anglais ?;I play the trumpet;I play the violin;I play the flute;I play the harp
 21231;Comment dit-on 'je porte des pyjama' en anglais ?;I am wearing pyjamas;I am wearing gloves;I am wearing a dress;I am wearing a tie
 21232;Comment dit-on 'je viens du Portugal' en anglais ?;I come from Portugal;He was born in Switzerland;He was born in Portugal;I come from France
 21233;Comment dit-on 'le plus sale' en anglais ?;dirtiest;lighter;lowest;loudest
@@ -236,7 +236,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21235;Comment dit-on 'un train est plus large qu'une bicyclette' en anglais ?;A train is wider than a bicycle;A building is louder than a house;A plane is cleaner than a bird;A giant is cleaner than a mouse
 21236;Comment dit-on 'mon sport préféré est volley' en anglais ?;My favourite sport is volleyball;My favourite sport is skating;My favourite sport is skiing;My favourite sport is judo
 21237;Comment dit-on 'un camion est plus haut qu'une moto' en anglais ?;A truck is higher than a motorbike;An elephant is richer than a mouse;A bear is heavier than a cat;An elephant is longer than a mouse
-21238;Comment dit-on 'j'ai mal à la dent' en anglais ?;My tooth hurts;My head hurts;My foot hurts;My arm hurts
+21238;Comment dit-on 'j'ai mal au/à la dent' en anglais ?;My tooth hurts;My head hurts;My foot hurts;My arm hurts
 21239;Comment dit-on 'plus chaud' en anglais ?;hotter;lightest;louder;lower
 21240;Comment dit-on 'il est né en France' en anglais ?;He was born in France;I come from Belgium;I come from England;He was born in England
 21241;Comment dit-on 'une tortue est plus lourde qu'un lapin' en anglais ?;A tortoise is heavier than a rabbit;A horse is heavier than a dog;A bear is hotter than a cat;An elephant is wider than a mouse
@@ -450,14 +450,14 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21449;Comment dit-on 'un train est plus bruyant qu'une bicyclette' en anglais ?;A train is louder than a bicycle;A building is higher than a house;A giant is cleaner than a mouse;A rock is hotter than a feather
 21450;Comment dit-on 'un éléphant est plus haut qu'une souris' en anglais ?;An elephant is higher than a mouse;A horse is richer than a dog;A tortoise is hotter than a rabbit;A whale is heavier than a fish
 21451;Comment dit-on 'j'ai un jumeau' en anglais ?;I have a twin;I have a husband;I have a niece;I have a cousin
-21452;Comment dit-on 'je suis dans la chambre' en anglais ?;I am in the bedroom;I am in the garage;I am in the garden;I am in the kitchen
+21452;Comment dit-on 'je suis dans le/la chambre' en anglais ?;I am in the bedroom;I am in the garage;I am in the garden;I am in the kitchen
 21453;Comment dit-on 'un rocher est plus bruyant qu'une plume' en anglais ?;A rock is louder than a feather;A plane is wider than a bird;A rock is wider than a feather;A building is wider than a house
 21454;Comment dit-on 'une baleine est plus propre qu'un poisson' en anglais ?;A whale is cleaner than a fish;A tortoise is longer than a rabbit;A car is longer than a bike;An elephant is cleaner than a mouse
 21455;Comment dit-on 'une montagne est plus riche qu'une colline' en anglais ?;A mountain is richer than a hill;A train is longer than a bicycle;A train is louder than a bicycle;A river is cleaner than a stream
 21456;Comment dit-on 'un fleuve est plus lourd qu'un ruisseau' en anglais ?;A river is heavier than a stream;A building is wider than a house;A building is longer than a house;A rock is richer than a feather
-21457;Comment dit-on 'je porte une robe' en anglais ?;I am wearing a dress;I am wearing gloves;I am wearing pyjamas;I am wearing a jacket
+21457;Comment dit-on 'je porte un/une robe' en anglais ?;I am wearing a dress;I am wearing gloves;I am wearing pyjamas;I am wearing a jacket
 21458;Comment dit-on 'je viens d'Angleterre' en anglais ?;I come from England;He was born in France;I come from Japan;I come from Switzerland
-21459;Comment dit-on 'je joue de la guitare' en anglais ?;I play the guitar;I play the flute;I play the drum;I play the harp
+21459;Comment dit-on 'je joue du/de la guitare' en anglais ?;I play the guitar;I play the flute;I play the drum;I play the harp
 21460;Comment dit-on 'j'ai un neveu' en anglais ?;I have a nephew;I have a cousin;I have an aunt;I have a baby
 21461;Comment dit-on 'j'ai un oncle' en anglais ?;I have an uncle;I have a twin;I have an aunt;I have a cousin
 21462;Comment dit-on 'un lion est plus lourd qu'un canard' en anglais ?;A lion is heavier than a duck;A tortoise is wider than a rabbit;A lion is wider than a duck;A horse is hotter than a dog
@@ -467,7 +467,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21466;Comment dit-on 'une montagne est plus large qu'une colline' en anglais ?;A mountain is wider than a hill;A plane is richer than a bird;A mountain is longer than a hill;A book is higher than a leaf
 21467;Comment dit-on 'un immeuble est plus chaud qu'une maison' en anglais ?;A building is hotter than a house;A book is hotter than a leaf;A rock is higher than a feather;A book is higher than a leaf
 21468;Comment dit-on 'une voiture est plus bruyante qu'un vélo' en anglais ?;A car is louder than a bike;A truck is louder than a motorbike;A truck is wider than a motorbike;A tortoise is heavier than a rabbit
-21469;Comment dit-on 'j'ai mal au genou' en anglais ?;My knee hurts;My nose hurts;My hand hurts;My head hurts
+21469;Comment dit-on 'j'ai mal au/à la genou' en anglais ?;My knee hurts;My nose hurts;My hand hurts;My head hurts
 21470;Comment dit-on 'plus long' en anglais ?;longer;poorest;longest;lightest
 21471;Comment dit-on 'un train est plus lourd qu'une bicyclette' en anglais ?;A train is heavier than a bicycle;A train is wider than a bicycle;A train is cleaner than a bicycle;A plane is longer than a bird
 21472;Comment dit-on 'un éléphant est plus bruyant qu'une souris' en anglais ?;An elephant is louder than a mouse;A car is richer than a bike;A horse is heavier than a dog;A truck is higher than a motorbike
