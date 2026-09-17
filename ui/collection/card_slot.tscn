@@ -4,7 +4,7 @@
 [ext_resource type="Script" uid="uid://b8pj4ctl7vte8" path="res://ui/collection/pet_placeholder_icon.gd" id="2"]
 
 [node name="CardSlot" type="Control" unique_id=1369651028]
-mouse_filter = 2
+mouse_filter = 1
 layout_mode = 3
 anchors_preset = 0
 script = ExtResource("1")
