@@ -93,6 +93,15 @@ const THEME_PREVIEWS := {
 signal account_logged_in(profile: Dictionary)
 ## Emis a la deconnexion (logout()) ou a la suppression du compte connecte (delete_current_account()).
 signal account_logged_out
+## Emis par _disconnect_due_to_server_failure() ci-dessous (2026-09-17, directive utilisateur
+## explicite : "il ne peut pas y avoir d'etat hors ligne [...] si la connexion internet est rompue
+## lors d'un update on ajoute un message deconnexion du serveur et le jeu revient sur la page
+## d'intro en deconnectant le compte") - TOUJOURS emis juste apres account_logged_out (jamais seul,
+## voir _disconnect_due_to_server_failure()) : WelcomePanel ecoute deja account_logged_out pour
+## revenir sur l'ecran d'accueil (voir _on_account_logged_out()) - ce signal ne fait qu'AJOUTER le
+## message d'erreur par-dessus ce retour deja en place, voir _on_server_connection_lost().
+## [message] est deja le texte pret a afficher tel quel (pas de code d'erreur a traduire cote UI).
+signal server_connection_lost(message: String)
 
 ## Reglages geres directement ici. fullscreen reste partage par tous les comptes de l'appareil (pas
 ## assez de logique propre a chacun pour justifier un autoload dedie, contrairement a Economy/
@@ -123,12 +132,19 @@ var _accounts: Array[Dictionary] = []
 ## Id du compte actuellement connecte, ou "" si personne n'est connecte (WelcomePanel visible).
 var current_account_id: String = ""
 
-## Motif du dernier echec de login() (2026-09-13, chantier "conflit de connexion") - vide des le
-## debut de chaque appel a login()/_login_from_server(), rempli UNIQUEMENT sur un refus serveur
-## explicite "compte_deja_connecte" (voir ces deux fonctions plus bas). WelcomePanel s'en sert pour
-## distinguer ce cas d'un simple pseudo/mot de passe incorrect - contrairement a ce dernier cas
-## (volontairement indistinct, voir login()), un joueur qui vient de taper SES BONS identifiants
-## merite de savoir pourquoi il ne rentre pas, ce n'est pas une information a proteger.
+## Motif du dernier echec de login() (2026-09-13, chantier "conflit de connexion") - vide au debut
+## de chaque appel a login() (voir son tout premier statement), rempli sur un refus explicite que
+## WelcomePanel doit afficher differemment du "Pseudo ou mot de passe incorrect" generique
+## (volontairement indistinct pour tout le reste, voir login()) :
+## - "compte_deja_connecte" (2026-09-13) : le joueur vient de taper SES BONS identifiants, ce n'est
+##   pas une information a proteger.
+## - "connexion_requise" (2026-09-17, chantier "premiere connexion online obligatoire" - directive
+##   utilisateur explicite : "il faut la premiere connexion online pour jouer [...] on reste sur un
+##   navigateur web donc pas de chargement = pas d'internet = pas de jeu") : impossible de confirmer
+##   les identifiants aupres du serveur (reseau coupe, VPS injoignable, ou connexion perdue en cours
+##   de handshake) - login()/_login_from_server()/_resync_password_from_server() bloquent desormais
+##   TOUS la connexion dans ce cas (plus de repli "confiance locale") : le joueur n'a rien fait de
+##   mal, inutile de lui laisser croire a un mauvais mot de passe.
 var last_login_error: String = ""
 
 func _ready() -> void:
@@ -229,9 +245,14 @@ func _generate_random_hex(byte_length: int) -> String:
 ## 2. "conflit de connexion" : meme pour un pseudo DEJA connu de cet appareil, une reclamation de
 ##    session serveur est tentee (voir plus bas) - UNIQUEMENT pour verifier qu'aucun AUTRE appareil
 ##    ne joue deja sur ce compte en ce moment (voir fn_login dans schema.sql), jamais pour re-
-##    verifier le mot de passe (deja fait juste avant, en local). Un probleme reseau/VPS injoignable
-##    ici NE BLOQUE PAS la connexion (le jeu doit rester jouable hors-ligne) - seul un refus EXPLICITE
-##    "compte_deja_connecte" la bloque reellement.
+##    verifier le mot de passe (deja fait juste avant, en local).
+## MODIFIE le 2026-09-17 (chantier "premiere connexion online obligatoire", directive utilisateur
+## explicite : "il faut la premiere connexion online pour jouer [...] on reste sur un navigateur web
+## donc pas de chargement = pas d'internet = pas de jeu") : un probleme reseau/VPS injoignable ici
+## NE bloquait PAS la connexion jusqu'ici (le jeu devait rester jouable hors-ligne) - il BLOQUE
+## desormais la connexion comme n'importe quel autre refus (voir last_login_error ==
+## "connexion_requise" plus bas) : le jeu ne se joue de toute facon jamais hors d'un navigateur
+## connecte a internet, inutile de continuer en confiance locale le temps d'une coupure.
 func login(login_name: String, password: String) -> bool:
 	last_login_error = ""
 	var index := _find_account_index_by_login(login_name)
@@ -273,26 +294,64 @@ func login(login_name: String, password: String) -> bool:
 	elif login_result.get("type", "") == "serveur" and login_result.get("message", "") == "compte_deja_connecte":
 		last_login_error = "compte_deja_connecte"
 		return false
-	## Tout autre cas (reseau, VPS injoignable, ou tout refus serveur AUTRE que
-	## "compte_deja_connecte") : on ignore et on continue en confiance locale, exactement comme
-	## avant ce chantier - le mot de passe local vient deja d'etre verifie plus haut.
+	elif login_result.get("type", "") == "reseau":
+		## MODIFIE le 2026-09-17 (2e directive utilisateur du meme jour : "il faut la premiere
+		## connexion online pour jouer [...] on reste sur un navigateur web donc pas de chargement =
+		## pas d'internet = pas de jeu") : ce cas (reseau/VPS injoignable) "continuait en confiance
+		## locale" jusqu'ici, exactement comme avant ce chantier - le mot de passe local venait
+		## certes d'etre verifie plus haut, mais le serveur fait desormais AUTORITE (voir "synchro
+		## systematique" plus bas) et le jeu ne se joue de toute facon jamais hors d'un navigateur
+		## connecte : entrer quand meme aurait recree exactement le probleme que ce chantier corrige
+		## (progression divergente le temps que la connexion revienne). Bloque desormais la
+		## connexion, exactement comme _login_from_server()/_resync_password_from_server() l'ont
+		## toujours fait pour un pseudo inconnu de l'appareil - last_login_error dedie (voir
+		## WelcomePanel._on_login_pressed()) pour ne pas afficher a tort "mot de passe incorrect" a
+		## un enfant/parent dont les identifiants sont pourtant bons.
+		last_login_error = "connexion_requise"
+		return false
+	else:
+		## Tout autre refus serveur (type "serveur" autre que "compte_deja_connecte", ex.
+		## "identifiants_invalides" si le mot de passe a ete change ailleurs entre-temps alors que le
+		## hash LOCAL semblait pourtant encore a jour - tres improbable en pratique) : bloque aussi
+		## la connexion desormais (meme raisonnement que le cas "reseau" ci-dessus - le serveur fait
+		## autorite) - message generique "Pseudo ou mot de passe incorrect" cote WelcomePanel, pas de
+		## last_login_error dedie puisque le serveur A repondu, ce n'est donc pas un probleme de
+		## connexion a signaler differemment.
+		return false
 
 	index = _find_account_index_by_login(login_name)
 	if index == -1: # compte retire localement pendant l'attente reseau (tres improbable) - filet
 		return false
 	account = _accounts[index]
 	current_account_id = String(account.get("id", ""))
+
+	## Synchro systematique au login (2026-09-17, directive utilisateur explicite : "on va sur
+	## internet pour y jouer, on ne joue jamais en local donc les sauvegardes doivent se faire
+	## uniquement en ligne et le jeu doit recuperer l'etat du compte en se synchronisant [...] on
+	## passe en mode synchro systematique et check server au login" - voir aussi
+	## project_save_sync_architecture.md en memoire projet). AVANT ce chantier, un compte deja
+	## connu de CET appareil ne rapatriait plus jamais l'etat serveur apres sa toute premiere
+	## connexion locale (seul _login_from_server() ci-dessous le faisait, uniquement pour un
+	## pseudo totalement inconnu ici) - le push d'evenements ne faisait que COMPLETER le serveur,
+	## jamais l'inverse, d'ou des progressions parallele divergentes entre plusieurs
+	## appareils/navigateurs. _sync_account_from_server() pousse d'abord tout evenement local en
+	## attente (attend sa fin, voir son commentaire) PUIS rapatrie l'etat COMPLET et fait autorite
+	## du serveur - sans effet si totalement hors-ligne, auquel cas on continue en confiance locale
+	## comme avant ce chantier.
+	await _sync_account_from_server(current_account_id)
+	index = _current_account_index()
+	if index == -1:
+		return false
+	account = _accounts[index]
+
 	_apply_account_to_runtime(account)
 	_apply_volume_from_profile(account.get("profile", {}))
 	_apply_theme_from_profile(account.get("profile", {}))
+	_save_to_disk()
 	account_logged_in.emit(account.get("profile", {}))
 	## Memorise ce pseudo sur cet appareil (2026-09-13, voir PseudoCache) - permet l autocompletion
 	## au prochain retour sur cet ecran, voir WelcomePanel.
 	PseudoCache.remember(login_name)
-	## Rattrape tout evenement reste en attente d'une session precedente hors-ligne (voir
-	## log_event()/_flush_pending_events() plus bas, chantier "sauvegarde serveur" 2026-09-13) -
-	## sans effet (retour immediat) si la file est deja vide, jamais bloquant pour ce login.
-	_flush_pending_events()
 	return true
 
 ## Recupere un compte existant cote serveur quand son pseudo est inconnu de CET appareil (voir
@@ -312,8 +371,13 @@ func _login_from_server(login_name: String, password: String) -> bool:
 	if trimmed_login.is_empty():
 		return false
 
+	## fn_obtenir_sel ne refuse jamais un pseudo inconnu (renvoie un sel factice mais deterministe
+	## pour ne pas laisser deviner l'existence d'un compte, voir schema.sql) : un echec ici ne peut
+	## donc etre qu'un probleme reseau/serveur (2026-09-17, chantier "premiere connexion online
+	## obligatoire" - voir le commentaire de login() plus haut).
 	var sel_result := await ServerApi.obtenir_sel(trimmed_login)
 	if not sel_result.get("ok", false):
+		last_login_error = "connexion_requise"
 		return false
 	var salt := String(sel_result.get("data", ""))
 	var mdp_hash := _hash_password(password, salt)
@@ -322,6 +386,10 @@ func _login_from_server(login_name: String, password: String) -> bool:
 	if not login_result.get("ok", false):
 		if login_result.get("type", "") == "serveur" and login_result.get("message", "") == "compte_deja_connecte":
 			last_login_error = "compte_deja_connecte"
+		elif login_result.get("type", "") == "reseau":
+			last_login_error = "connexion_requise"
+		## Sinon (refus serveur du type "identifiants_invalides") : message generique "Pseudo ou mot
+		## de passe incorrect" cote WelcomePanel, cas normal pour un pseudo inconnu de l'appareil.
 		return false
 	var login_data: Dictionary = login_result.get("data", {})
 	var jeton := String(login_data.get("jeton", ""))
@@ -330,8 +398,12 @@ func _login_from_server(login_name: String, password: String) -> bool:
 	if jeton.is_empty() or compte_id.is_empty():
 		return false
 
+	## Connexion reussie mais la connexion a lache PENDANT la recuperation de la progression : meme
+	## chantier que ci-dessus, message dedie plutot que le "Pseudo ou mot de passe incorrect"
+	## generique - les identifiants venaient pourtant d'etre confirmes bons par le serveur.
 	var progression_result := await ServerApi.recuperer_progression(jeton)
 	if not progression_result.get("ok", false):
+		last_login_error = "connexion_requise"
 		return false
 	var data: Dictionary = progression_result.get("data", {})
 
@@ -377,6 +449,60 @@ func _login_from_server(login_name: String, password: String) -> bool:
 	_save_to_disk()
 	account_logged_in.emit(account["profile"])
 	PseudoCache.remember(trimmed_login)
+	return true
+
+## Synchro systematique d'un compte DEJA connu localement (2026-09-17, chantier "synchro
+## systematique et check server au login" - voir le commentaire de login() ci-dessus pour le
+## contexte complet). Appelee par login() ET _resync_password_from_server() (les deux chemins de
+## connexion d'un compte deja present dans _accounts). Deroulement en 2 temps, dans cet ordre
+## PRECIS :
+##   1) Pousse d'abord tout evenement local encore en attente (_flush_pending_events(), attend
+##      REELLEMENT sa fin ici, contrairement a l'ancien appel "tire et oublie" en fin de login()) -
+##      pour ne pas ecraser juste apres, a l'etape 2, des gains obtenus hors-ligne sur CET appareil
+##      mais pas encore transmis au serveur.
+##   2) Rapatrie ENSUITE l'etat complet et fait AUTORITE du serveur (fn_recuperer_progression) et
+##      l'ecrase tel quel en local - le serveur est la source de verite unique (le jeu ne se joue
+##      jamais hors-ligne, voir la directive utilisateur citee dans login()) : c'est ce qui permet
+##      a un appareil de rattraper une progression obtenue entre-temps sur un AUTRE appareil/
+##      navigateur, ce qui ne se produisait encore jamais avant ce chantier.
+## Relit le jeton juste avant l'etape 2 (et non celui capture avant l'etape 1) : _ensure_server_
+## session() (appelee en cascade par le flush) a pu en obtenir un tout frais entre-temps si aucun
+## n'existait encore (voir son commentaire plus bas dans ce fichier) - l'utiliser immediatement
+## evite d'echouer bêtement le pull pour un compte qui vient tout juste d'obtenir sa toute premiere
+## session. Ne synchronise QUE la progression (economie/cartes/defis/skins prof/decors/musiques de
+## classe) : le PROFIL suit son propre mecanisme de synchro dedie (voir "profil_synchronise" et
+## update_current_profile() plus bas) et n'est volontairement PAS ecrase ici, pour ne pas perdre un
+## reglage de controle parental modifie hors-ligne sur cet appareil et pas encore pousse. Renvoie
+## false sans qu'aucun etat local ne soit modifie des qu'une etape echoue (hors-ligne, jeton
+## introuvable, VPS injoignable...) - jamais bloquant pour l'appelant, qui continue alors en
+## confiance locale exactement comme avant ce chantier.
+func _sync_account_from_server(account_id: String) -> bool:
+	## false ici (voir le commentaire de parametre de _flush_pending_events()) : un echec de push a
+	## CE stade (juste apres un login) suit le repli deja documente de login()/
+	## _resync_password_from_server() ("continue en confiance locale"), pas encore une deconnexion
+	## en cours de partie au sens strict de la directive "synchro systematique".
+	await _flush_pending_events(false)
+	var index := _current_account_index()
+	if index == -1 or String(_accounts[index].get("id", "")) != account_id:
+		return false
+	var jeton: String = _accounts[index].get("sync_jeton", "")
+	if jeton.is_empty():
+		return false
+	var progression_result := await ServerApi.recuperer_progression(jeton)
+	if not progression_result.get("ok", false):
+		return false
+	## Relit l'index par id APRES l'attente reseau : meme prudence que _do_flush()/
+	## _ensure_server_session() plus bas dans ce fichier (_accounts a pu changer entre-temps).
+	index = _current_account_index()
+	if index == -1 or String(_accounts[index].get("id", "")) != account_id:
+		return false
+	var data: Dictionary = progression_result.get("data", {})
+	_accounts[index]["economy"] = data.get("economy", {})
+	_accounts[index]["cards"] = data.get("cards", {})
+	_accounts[index]["defis"] = data.get("defis", {})
+	_accounts[index]["prof_skins"] = data.get("prof_skins", {"unlocked": {}, "active": {}})
+	_accounts[index]["classroom_decor"] = data.get("classroom_decor", {"unlocked": {}, "active": {}})
+	_accounts[index]["classroom_music"] = data.get("classroom_music", {"unlocked": {}, "active": {}})
 	return true
 
 ## Cree un nouveau compte et connecte immediatement dessus. [profile] attend les cles nom/prenom/
@@ -581,6 +707,47 @@ func logout() -> void:
 	_reset_volume_to_default()
 	_reset_theme_to_default()
 	account_logged_out.emit()
+
+## true pendant qu'un _disconnect_due_to_server_failure() est deja en cours pour ce compte (voir
+## juste en dessous) - evite un double logout()/double message si plusieurs envois en vol echouent
+## en meme temps (ex. un log_event() ET update_current_profile() tous deux en cours au moment ou la
+## connexion tombe).
+var _disconnecting_due_to_server_failure := false
+
+## Texte affiche par WelcomePanel (voir _on_server_connection_lost()) quand cette fonction force
+## une deconnexion - un seul message generique, jamais de distinction technique (reseau, session
+## perimee, autre appareil deja connecte...) affichee a l'enfant/au parent, voir le commentaire de
+## cette fonction.
+const SERVER_CONNECTION_LOST_MESSAGE := "Connexion au serveur perdue. Reconnecte-toi pour continuer."
+
+## Deconnecte de force le compte courant suite a l'echec d'un envoi cense etre confirme par le
+## serveur (2026-09-17, directive utilisateur explicite, voir le commentaire de
+## server_connection_lost ci-dessus) : "on va sur internet pour y jouer, on ne joue jamais en local
+## [...] chaque mise a jour des infos de jeu (gain de piece, utilisation des pieces, maj des infos
+## parentales etc) doit etre uploadee et confirmee a chaque fois, si la connexion internet est
+## rompue lors d'un update on ajoute un message deconnexion du serveur et le jeu revient sur la
+## page d'intro en deconnectant le compte". Appelee par _flush_pending_events() (evenements de
+## progression - gains/depenses de pieces, cartes, defis...) et _push_profile_to_server() (profil/
+## controle parental) des qu'un envoi echoue, quelle qu'en soit la cause precise (reseau coupe, VPS
+## injoignable, session expiree, ou meme un autre appareil connecte entre-temps sur ce compte - dans
+## TOUS ces cas, continuer a jouer localement sans confirmation reviendrait exactement au probleme
+## que ce chantier corrige : une progression qui diverge du serveur, voir
+## project_save_sync_architecture.md en memoire projet). Reutilise logout() tel quel (sauvegarde
+## locale au passage - un simple miroir/cache, plus jamais la source de verite pendant qu'on joue -
+## puis reinitialise Economy/CardCollection/etc. et emet account_logged_out, deja ecoute par
+## WelcomePanel pour revenir sur l'ecran d'accueil) : server_connection_lost n'est emis QU'APRES,
+## pour se superposer a ce retour deja en place plutot que de le dupliquer (voir
+## _on_server_connection_lost() dans welcome_panel.gd). _disconnecting_due_to_server_failure evite
+## un double declenchement si plusieurs echecs arrivent au meme instant (voir sa declaration
+## ci-dessus) - sans compte connecte, ne fait rien (rien a deconnecter, ex. l'echec survient alors
+## que le joueur vient deja de se deconnecter par un autre chemin pendant l'attente reseau).
+func _disconnect_due_to_server_failure() -> void:
+	if current_account_id.is_empty() or _disconnecting_due_to_server_failure:
+		return
+	_disconnecting_due_to_server_failure = true
+	logout()
+	server_connection_lost.emit(SERVER_CONNECTION_LOST_MESSAGE)
+	_disconnecting_due_to_server_failure = false
 
 ## Wrapper fire-and-forget autour de ServerApi.deconnecter() (meme raison que
 ## _register_account_on_server() plus bas : absorber la valeur de retour Dictionary proprement, pas
@@ -798,8 +965,12 @@ func change_password(current_password: String, new_password: String) -> String:
 ## champs copies).
 func _resync_password_from_server(login_name: String, password: String) -> bool:
 	var trimmed_login := login_name.strip_edges()
+	## Meme raisonnement que _login_from_server() (fn_obtenir_sel ne refuse jamais un pseudo
+	## existant, voir schema.sql) : un echec ici est forcement reseau/serveur, jamais "mauvais
+	## pseudo" (2026-09-17, chantier "premiere connexion online obligatoire").
 	var sel_result := await ServerApi.obtenir_sel(trimmed_login)
 	if not sel_result.get("ok", false):
+		last_login_error = "connexion_requise"
 		return false
 	var salt := String(sel_result.get("data", ""))
 	var mdp_hash := _hash_password(password, salt)
@@ -808,6 +979,11 @@ func _resync_password_from_server(login_name: String, password: String) -> bool:
 	if not login_result.get("ok", false):
 		if login_result.get("type", "") == "serveur" and login_result.get("message", "") == "compte_deja_connecte":
 			last_login_error = "compte_deja_connecte"
+		elif login_result.get("type", "") == "reseau":
+			last_login_error = "connexion_requise"
+		## Sinon (refus serveur du type "identifiants_invalides") : mot de passe reellement
+		## incorrect, message generique cote WelcomePanel - le cas le plus courant pour arriver ici
+		## (voir login(), qui n'appelle cette fonction que si le hash LOCAL ne correspondait pas).
 		return false
 	var data: Dictionary = login_result.get("data", {})
 	var jeton := String(data.get("jeton", ""))
@@ -824,13 +1000,22 @@ func _resync_password_from_server(login_name: String, password: String) -> bool:
 	_accounts[index]["email_verifie"] = bool(data.get("email_verifie", true))
 	var account: Dictionary = _accounts[index]
 	current_account_id = String(account.get("id", ""))
+
+	## Synchro systematique au login (voir le commentaire complet sur _sync_account_from_server()
+	## ci-dessus) : ce chemin de connexion (mot de passe reinitialise ailleurs, voir le commentaire
+	## de login()) est un login legitime comme un autre et doit lui aussi rapatrier l'etat serveur.
+	await _sync_account_from_server(current_account_id)
+	index = _current_account_index()
+	if index == -1:
+		return false
+	account = _accounts[index]
+
 	_apply_account_to_runtime(account)
 	_apply_volume_from_profile(account.get("profile", {}))
 	_apply_theme_from_profile(account.get("profile", {}))
 	_save_to_disk()
 	account_logged_in.emit(account.get("profile", {}))
 	PseudoCache.remember(trimmed_login)
-	_flush_pending_events()
 	return true
 
 ## Genere hash+sel pour un mot de passe de controle parental (2026-09-05, retour utilisateur :
@@ -1117,11 +1302,19 @@ func _apply_account_to_runtime(account: Dictionary) -> void:
 ## ici - l'appel explicite au point d'action reste la seule source fiable de "ceci vient vraiment de
 ## se produire maintenant".
 ##
-## JAMAIS BLOQUANT (voir ServerApi, meme principe) : aucune fonction de cette section ne fait
-## planter/attendre l'appelant en cas de probleme reseau - le jeu reste 100% jouable hors-ligne, les
-## evenements non confirmes restent simplement dans la file locale (persistee sur disque comme le
-## reste du compte, voir "sync_evenements" dans create_account()) jusqu'a la prochaine tentative
-## reussie (prochain evenement, prochaine connexion, ou le minuteur de _setup_sync_retry_timer()).
+## JAMAIS BLOQUANT AU SENS GODOT (voir ServerApi, meme principe) : aucune fonction de cette section
+## ne fait planter l'appelant en cas de probleme reseau - mais depuis le chantier "synchro
+## systematique" (2026-09-17, directive utilisateur explicite : "il ne peut pas y avoir d'etat hors
+## ligne [...] chaque mise a jour des infos de jeu doit etre uploadee et confirmee a chaque fois, si
+## la connexion internet est rompue lors d'un update on ajoute un message deconnexion du serveur et
+## le jeu revient sur la page d'intro"), le jeu N'EST PLUS cense rester jouable hors-ligne : un
+## evenement (ou une mise a jour de profil, voir _push_profile_to_server()) qui echoue a se faire
+## confirmer force desormais une deconnexion immediate via _disconnect_due_to_server_failure(), au
+## lieu de rester silencieusement dans la file locale en attendant une reconnexion. La file
+## "sync_evenements"/le minuteur de _setup_sync_retry_timer() ne servent donc plus, en pratique,
+## qu'a couvrir la toute petite fenetre entre la journalisation locale d'un evenement et la
+## confirmation serveur qui suit aussitot (voir log_event()) - jamais plus a tolerer une vraie
+## progression hors-ligne prolongee.
 
 ## Cree un minuteur qui retente periodiquement d'envoyer la file d'evenements en attente (voir le
 ## commentaire de SYNC_RETRY_INTERVAL_SECONDS) - filet de secours pour le cas ou le reseau revient
@@ -1177,21 +1370,31 @@ func _retry_profile_sync_if_needed() -> void:
 ## principe que le reste de cette section). Relit l'index via _current_account_index() + comparaison
 ## d'id APRES chaque attente reseau (meme prudence/idiome que _do_flush() plus haut) : le compte
 ## connecte a pu changer entre-temps.
+## Chantier "synchro systematique" (2026-09-17) : une mise a jour du profil (nom/prenom/controle
+## parental/limite quotidienne...) fait partie des "infos parentales" citees explicitement par la
+## directive utilisateur (voir server_connection_lost/_disconnect_due_to_server_failure ci-dessus,
+## section evenements) - un echec ici force donc desormais lui aussi une deconnexion immediate,
+## exactement comme _flush_pending_events(), plutot que de compter en silence sur
+## _retry_profile_sync_if_needed() (minuteur de secours, devenu un filet inerte dans la pratique :
+## le compte est deja deconnecte avant son prochain passage).
 func _push_profile_to_server(index: int) -> void:
 	var account_id := String(_accounts[index].get("id", ""))
 	if not await _ensure_server_session(index):
-		return # hors-ligne ou VPS injoignable - _retry_profile_sync_if_needed() retentera plus tard
+		_disconnect_due_to_server_failure() # hors-ligne, VPS injoignable, ou session perimee
+		return
 
 	var index_now := _current_account_index()
 	if index_now == -1 or String(_accounts[index_now].get("id", "")) != account_id:
-		return # le compte connecte a change pendant l'attente reseau ci-dessus
+		return # le compte connecte a change (deja deconnecte par un autre chemin) pendant l'attente reseau ci-dessus
 	var jeton := String(_accounts[index_now].get("sync_jeton", ""))
 	if jeton.is_empty():
+		_disconnect_due_to_server_failure() # incoherence : une session vient d'etre assuree ci-dessus
 		return
 	var profile_snapshot: Dictionary = _accounts[index_now].get("profile", {})
 	var result := await ServerApi.maj_profil(jeton, profile_snapshot)
 	if not result.get("ok", false):
-		return # retente au prochain passage du minuteur (voir _retry_profile_sync_if_needed())
+		_disconnect_due_to_server_failure()
+		return
 
 	index_now = _current_account_index()
 	if index_now == -1 or String(_accounts[index_now].get("id", "")) != account_id:
@@ -1242,7 +1445,14 @@ var _sync_en_cours: Dictionary = {}
 ## appeler "pour rien" (ressort immediatement si rien n'attend d'etre envoye, ou si une synchro pour
 ## ce compte est deja en cours) : c'est ce qui permet a tous ces points d'appel differents de
 ## coexister sans logique de coordination entre eux.
-func _flush_pending_events() -> void:
+## [disconnect_on_failure] (2026-09-17, chantier "synchro systematique") : true par defaut (tous les
+## appels EN COURS DE PARTIE - log_event()/minuteur de secours - doivent forcer une deconnexion en
+## cas d'echec, voir _disconnect_due_to_server_failure()). login()/_resync_password_from_server()
+## passent explicitement false via _sync_account_from_server() : un login qui echoue a pousser une
+## file laissee en attente d'une PRECEDENTE session hors-ligne suit son propre repli documente
+## ("continue en confiance locale", voir le commentaire de login()) - il ne s'agit pas encore d'une
+## deconnexion EN COURS DE PARTIE au sens de cette directive.
+func _flush_pending_events(disconnect_on_failure: bool = true) -> void:
 	var index := _current_account_index()
 	if index == -1:
 		return
@@ -1280,7 +1490,15 @@ func _flush_pending_events() -> void:
 	## de boucle : la file ne peut alors etre non-vide que si de nouveaux evenements sont arrives
 	## PENDANT cet envoi (voir le commentaire plus haut), donc un nombre fini de relances.
 	if succeeded:
-		_flush_pending_events()
+		_flush_pending_events(disconnect_on_failure)
+	elif disconnect_on_failure:
+		## Chantier "synchro systematique" (2026-09-17, voir le commentaire de parametre ci-dessus) :
+		## un evenement de PARTIE EN COURS (gain/depense de pieces, carte, defi...) qui echoue a se
+		## faire confirmer ne doit plus jamais rester silencieusement dans la file en attendant le
+		## minuteur de secours - il force desormais une deconnexion immediate (voir
+		## _disconnect_due_to_server_failure()) plutot que de laisser le joueur continuer a jouer sur
+		## un etat que le serveur n'a pas confirme.
+		_disconnect_due_to_server_failure()
 
 ## Coeur de la synchro : s'assure d'une session serveur valide (voir _ensure_server_session()) puis
 ## pousse [sent_events] (l'instantane de la file au moment ou _flush_pending_events() a demarre).

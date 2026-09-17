@@ -361,6 +361,13 @@ func _ready() -> void:
 	## Suppression de compte (voir GameMenuPanel._do_delete_account) ou future deconnexion : cet
 	## ecran doit revenir tout seul sans qu'il soit besoin de le referencer depuis le menu.
 	SaveManager.account_logged_out.connect(_on_account_logged_out)
+	## Deconnexion FORCEE par le serveur (2026-09-17, chantier "synchro systematique" - voir le
+	## commentaire de SaveManager.server_connection_lost) : logout() (appele par
+	## _disconnect_due_to_server_failure()) emet DEJA account_logged_out juste avant ce signal, donc
+	## _on_account_logged_out() a deja tourne (champs vides, ecran d'accueil affiche) au moment ou
+	## _on_server_connection_lost() ci-dessous s'execute - elle n'a plus qu'a rediriger vers le
+	## formulaire de connexion et y superposer le message d'erreur.
+	SaveManager.server_connection_lost.connect(_on_server_connection_lost)
 
 	## Personne n'est connecte au demarrage (voir SaveManager._ready()) : cet ecran doit donc
 	## s'afficher des le lancement, avant meme toute interaction du joueur avec le parc - sauf si
@@ -390,6 +397,23 @@ func _on_account_logged_out() -> void:
 	_clear_login_suggestions()
 	show()
 	_show_intro_menu()
+
+## Reaction a SaveManager.server_connection_lost (2026-09-17, chantier "synchro systematique") :
+## _on_account_logged_out() ci-dessus vient deja de remettre cet ecran sur les 2 gros boutons
+## (voir son commentaire d'ordre d'emission cote SaveManager) - va ici directement sur le
+## formulaire de connexion, PAS sur les 2 boutons, pour que l'enfant/le parent puisse retaper le
+## mot de passe et repartir tout de suite, avec le message explicite affiche par-dessus (meme
+## pattern que "Pseudo ou mot de passe incorrect."/"Ce compte est déjà connecté..." dans
+## _on_login_pressed()).
+func _on_server_connection_lost(message: String) -> void:
+	if not ENABLED:
+		return
+	show()
+	intro_menu.hide()
+	panel.show()
+	_show_login_section()
+	login_error_label.text = message
+	login_error_label.show()
 
 ## Etat de depart (et etat de retour apres deconnexion) : image d'accueil + les deux boutons
 ## "Entrer en classe"/"Quitter", formulaire de connexion masque.
@@ -490,8 +514,10 @@ func _on_login_pressed() -> void:
 		## Blocage dur avant confirmation d'email (2026-09-16, voir TODO_UI_MODS.md) : verifie a
 		## CHAQUE connexion (pas seulement a la creation), voir SaveManager.
 		## current_account_needs_email_verification() - reflete la reponse SERVEUR la plus recente
-		## obtenue par SaveManager.login() (fn_login renvoie desormais aussi email/email_verifie),
-		## ou la derniere valeur connue localement si hors-ligne a cet instant.
+		## obtenue par SaveManager.login() (fn_login renvoie desormais aussi email/email_verifie).
+		## [success] ne peut plus etre true sans confirmation serveur depuis le 2026-09-17 (chantier
+		## "premiere connexion online obligatoire", voir le commentaire de SaveManager.login()) - ce
+		## n'est donc plus jamais une valeur locale perimee ici.
 		if SaveManager.current_account_needs_email_verification():
 			_show_email_pending_section()
 		else:
@@ -501,6 +527,13 @@ func _on_login_pressed() -> void:
 		## last_login_error) : le joueur vient de taper SES BONS identifiants, ce n'est pas une
 		## information a lui cacher.
 		login_error_label.text = "Ce compte est déjà connecté sur un autre appareil."
+		login_error_label.show()
+	elif SaveManager.last_login_error == "connexion_requise":
+		## 2026-09-17, chantier "premiere connexion online obligatoire" (voir le commentaire de
+		## SaveManager.last_login_error) : la connexion serveur a echoue (reseau coupe, VPS
+		## injoignable, ou connexion perdue en cours de handshake) - le joueur n'a pas forcement tape
+		## un mauvais mot de passe, inutile de le lui laisser croire.
+		login_error_label.text = "Impossible de contacter le serveur. Vérifie ta connexion internet et réessaie."
 		login_error_label.show()
 	else:
 		login_error_label.text = "Pseudo ou mot de passe incorrect."
