@@ -22,6 +22,10 @@ func _ready() -> void:
 	## GameMenuPanel/etc.
 	theme = SaveManager.THEMES[SaveManager.ui_theme]
 	EventBus.ui_theme_changed.connect(func(new_theme: Theme) -> void: theme = new_theme)
+
+	## Glissement au doigt possible depuis n'importe quelle zone (pas seulement la fine barre
+	## de defilement) - voir ui/common/touch_scroll_fix.gd (retour utilisateur 2026-09-18).
+	TouchScrollFix.allow_scroll_passthrough(self)
 	close_button.pressed.connect(close)
 	## Titres affiches fixes ici plutot que via le nom des noeuds (ContenuJeu/MisesAJour dans le
 	## .tscn, SANS espace) : un nom de noeud avec espace/accent fonctionne (voir l'onglet "Succès"

@@ -258,6 +258,12 @@ func _ready() -> void:
 		theme = new_theme
 		_apply_theme_colors(new_theme)
 	)
+	## Glissement au doigt possible depuis n'importe quelle zone (pas seulement la fine barre
+	## de defilement) - voir ui/common/touch_scroll_fix.gd (retour utilisateur 2026-09-18). Les
+	## cases CardSlot de la grille se corrigent elles-memes (voir card_slot.gd), ceci couvre le
+	## reste du panneau (cases a cocher de filtre/tri, etc.).
+	TouchScrollFix.allow_scroll_passthrough(self)
+
 	var icon_source := get_node_or_null(title_icon_source_path) as Button
 	if icon_source:
 		title_icon.texture = icon_source.icon

@@ -125,6 +125,11 @@ const GREY_COLOR := Color(0.878431, 0.862745, 0.827451)
 var _quantity: int = 1
 
 func _ready() -> void:
+	## Cree dynamiquement (pas dans le _ready() du panneau parent) : se corrige donc soi-meme
+	## pour rester attrapable au doigt en glissement depuis un ScrollContainer parent, plutot
+	## que de dependre du moment ou ce panneau a ete peuple - voir ui/common/touch_scroll_fix.gd
+	## (retour utilisateur 2026-09-18).
+	mouse_filter = Control.MOUSE_FILTER_PASS
 	if loot_table:
 		var grade := GradeLevel.get_grade_for_rarity(loot_table.rarity)
 		_apply_flat_style(frame_panel, CREAM_COLOR, OUTER_RADIUS, INK_COLOR, 2)

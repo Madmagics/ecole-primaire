@@ -282,6 +282,11 @@ func _ready() -> void:
 	theme = SaveManager.THEMES[SaveManager.ui_theme]
 	EventBus.ui_theme_changed.connect(func(new_theme: Theme) -> void: theme = new_theme)
 
+	## Glissement au doigt possible depuis n'importe quelle zone (pas seulement la fine barre
+	## de defilement) sur CreateScroll/LoginSuggestionsScroll - voir ui/common/touch_scroll_fix.gd
+	## pour l'explication complete (retour utilisateur 2026-09-18).
+	TouchScrollFix.allow_scroll_passthrough(panel)
+
 	## Choix du pays DESACTIVE pour l'instant (2026-09-05, retour utilisateur : "desactive le choix
 	## du pays, si le jeu se developpe on y reviendra plus tard, en attendant on laisse de cote
 	## l'option du pays") : PaysRow masque dans le .tscn (visible=false), voir aussi

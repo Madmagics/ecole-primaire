@@ -55,6 +55,11 @@ const ICON_LOCKED_TINT := Color(0.55, 0.55, 0.55)
 @onready var count_label: Label = $Frame/ChallengeIcon/CountLabel
 
 func _ready() -> void:
+	## Cree dynamiquement (pas dans le _ready() du panneau parent) : se corrige donc soi-meme
+	## pour rester attrapable au doigt en glissement depuis un ScrollContainer parent, plutot
+	## que de dependre du moment ou ce panneau a ete peuple - voir ui/common/touch_scroll_fix.gd
+	## (retour utilisateur 2026-09-18).
+	mouse_filter = Control.MOUSE_FILTER_PASS
 	music_icon.texture = load("res://assets/classe2.0/icones/musique-on.webp")
 	challenge_icon.texture = load("res://assets/classe2.0/icones/defis.webp")
 	pressed.connect(_on_pressed)

@@ -58,6 +58,10 @@ func _ready() -> void:
 	## get_tree().root - voir EventBus.ui_theme_changed.
 	theme = SaveManager.THEMES[SaveManager.ui_theme]
 	EventBus.ui_theme_changed.connect(func(new_theme: Theme) -> void: theme = new_theme)
+
+	## Glissement au doigt possible depuis n'importe quelle zone (pas seulement la fine barre
+	## de defilement) - voir ui/common/touch_scroll_fix.gd (retour utilisateur 2026-09-18).
+	TouchScrollFix.allow_scroll_passthrough(self)
 	## Autowrap + expansion en code plutot que dans le .tscn : evite de coder en dur la valeur
 	## numerique de l'enum TextServer.AutowrapMode dans un fichier texte.
 	text_label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART

@@ -92,6 +92,10 @@ const COUNTRY_FLAG_FRANCE := preload("res://assets/flags/flag_fr.svg")
 @onready var delete_account_button: Button = $VBoxContainer/OptionsScroll/OptionsContent/DeleteAccountButton
 
 func _ready() -> void:
+	## Glissement au doigt possible depuis n'importe quelle zone (pas seulement la fine barre
+	## de defilement) - voir ui/common/touch_scroll_fix.gd (retour utilisateur 2026-09-18).
+	TouchScrollFix.allow_scroll_passthrough(self)
+
 	validate_button.pressed.connect(_on_validate_pressed)
 	## Entree valide directement le mot de passe (LineEdit.text_submitted) - meme convention que
 	## WelcomePanel pour ses propres champs pseudo/mot de passe.

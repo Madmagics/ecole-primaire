@@ -82,6 +82,11 @@ const UNKNOWN_COLOR := Color(0.694118, 0.690196, 0.662745) # gris neutre, carte 
 @onready var extra_label: Label = $ExtraLabel
 
 func _ready() -> void:
+	## Cree dynamiquement (pas dans le _ready() du panneau parent) : se corrige donc soi-meme
+	## pour rester attrapable au doigt en glissement depuis un ScrollContainer parent, plutot
+	## que de dependre du moment ou ce panneau a ete peuple - voir ui/common/touch_scroll_fix.gd
+	## (retour utilisateur 2026-09-18).
+	mouse_filter = Control.MOUSE_FILTER_PASS
 	custom_minimum_size = CARD_SIZE + Vector2(SHADOW_OFFSET, SHADOW_OFFSET)
 	pet_texture.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
 	## Sans ca, TextureRect impose sa taille minimum = resolution native de la texture (512x612,

@@ -122,6 +122,10 @@ func _ready() -> void:
 	## get_tree().root - voir EventBus.ui_theme_changed.
 	theme = SaveManager.THEMES[SaveManager.ui_theme]
 	EventBus.ui_theme_changed.connect(func(new_theme: Theme) -> void: theme = new_theme)
+
+	## Glissement au doigt possible depuis n'importe quelle zone (pas seulement la fine barre
+	## de defilement) - voir ui/common/touch_scroll_fix.gd (retour utilisateur 2026-09-18).
+	TouchScrollFix.allow_scroll_passthrough(self)
 	var icon_source := get_node_or_null(title_icon_source_path) as Button
 	if icon_source:
 		title_icon.texture = icon_source.icon
