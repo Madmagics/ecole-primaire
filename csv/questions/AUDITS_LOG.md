@@ -14,6 +14,7 @@ etroite.
 | 1 | 2026-09-17 | Ambiguïté "un/une X" (et variantes du/de la, au/à la, le/la) dans les questions "Comment dit-on..." | English | CP, CE1, CE2, CM1, CM2 | 209 corrections appliquées (0 ambiguïté restante) |
 | 2 | 2026-09-17 | Guillemets simples ' ' peu visibles dans les questions -> remplacés par " " | Conjugaison, grammaire, orthographe, english, french (CP), lecture (histoires), logique (CM2 seulement) — aucune occurrence en math ni dans le reste de logique | CP, CE1, CE2, CM1, CM2 | 11 040 questions corrigées sur 23 fichiers |
 | 3 | 2026-09-18 | Distracteurs de conjugaison trop faciles à écarter car "phonétiquement/visuellement trop différents" de la bonne réponse (ex. proposer "il tombons"/"il tombez" pour "il tombe", au lieu de variantes proches comme "il tombes"/"il tomb"/"il toombe") | Conjugaison | CE1, CE2, CM1, CM2 | 4000/4000 questions réécrites (100%) — les 3 mauvaises réponses de chaque question sont désormais des quasi-fautes d'orthographe de la bonne réponse |
+| 4 | 2026-09-18 | Questions "j'ai N [objet/animal]" en anglais : chiffre (4) affiché au lieu du mot (four) dans les choix, et phrases improbables avec des animaux de ferme/sauvages ("j'ai quatre oiseaux") | English | CP, CE1 (seules classes concernées — CE2/CM1/CM2 non touchées) | 256/256 lignes corrigées (176 CP + 80 CE1) |
 
 ## Détail
 
@@ -155,3 +156,43 @@ d'unicité des 4 propositions par ligne, contrôle de non-dégénérescence (pas
 **Import Godot en attente** (comme pour chaque lot précédent, cf. [[project_question_bank_ids]]) :
 `tools/admin/import_questions.gd` doit être relancé (File > Run) pour CE1, CE2, CM1 et CM2 afin que
 `data/question/resources/<classe>/conjugaison/conjugaison.tres` reprenne les nouveaux distracteurs.
+
+
+### #4 — 2026-09-18 — "j'ai N [objet]" en anglais : chiffre au lieu du mot + phrases improbables
+
+**Demande initiale** : sur `cp/english`, la question "Comment dit-on ""j'ai quatre oiseaux"" en
+anglais ?" propose "I have 4 birds" (chiffre) au lieu de "I have four birds" (mot), alors que le
+but de la question est de tester le vocabulaire des nombres — et la phrase elle-même n'a pas de
+sens ("avoir quatre oiseaux" n'est pas une chose qu'un enfant dirait naturellement).
+
+**Portée réelle auditée** : exhaustive sur les 5 fichiers `<classe>/english/generated.csv`. Les
+deux familles combinatoires concernées (nombre × objet) n'existent qu'en CP ("j'ai deux/trois/
+quatre/cinq/six [objet]", 170 lignes) et CE1 ("j'ai onze/douze/treize/quinze/vingt [objet]", 80
+lignes) ; CE2/CM1/CM2 n'ont pas ce type de question. Une troisième famille (CP uniquement, "j'ai
+N ans" / "I'm N years old", 6 lignes) a le même défaut de chiffre mais pas le problème de
+plausibilité.
+
+**Corrections appliquées** :
+- Chiffre → mot anglais dans les 4 choix de chaque question (ex. "I have 4 birds" →
+  "I have four birds"), y compris pour les âges ("I'm 4 years old" → "I'm four years old").
+- Pour les 5 objets CP (oiseaux/vaches/cochons/canards/grenouilles) et le seul objet CE1 (oiseaux)
+  qui ne sont pas des choses qu'un enfant "a" en petit nombre : reformulation "j'ai" → "j'ai vu" /
+  "I have" → "I saw" (cohérent avec le tournure déjà utilisée ailleurs dans le jeu pour ce type
+  d'animal, ex. CM2 "j'ai vu un hibou au zoo" → "I saw an owl at the zoo"). Appliqué à toutes les
+  occurrences du couple (nombre, animal), qu'elles soient la bonne réponse d'une ligne ou un
+  distracteur dans une autre ligne, pour une cohérence totale de la phrase dans tout le fichier.
+  Les 12 autres objets CP (pommes, bananes, œufs, gâteaux, crayons, gommes, règles, livres,
+  stylos, chats, chiens, lapins) et les 7 autres objets CE1 restent en "j'ai"/"I have", jugés
+  plausibles.
+
+**Résultats** : 176/176 lignes CP corrigées (170 "j'ai N objet" + 6 "j'ai N ans"), 80/80 lignes
+CE1 corrigées. `id`, structure des 6 colonnes et nombre de lignes strictement inchangés (vérifié
+par diff et par parsing CSV). Aucun chiffre résiduel de ce type, aucune double reformulation
+("vu vu"/"saw saw") détectée.
+
+**Sauvegardes** : `generated.csv.bak_avant_fix_nombres_animaux_20260918` dans `cp/english/` et
+`ce1/english/`.
+
+**Import Godot en attente** (comme pour chaque lot précédent, cf. [[project_question_bank_ids]]) :
+`tools/admin/import_questions.gd` doit être relancé (File > Run) pour CP et CE1 afin que
+`data/question/resources/<classe>/english/english.tres` reprenne les phrases corrigées.

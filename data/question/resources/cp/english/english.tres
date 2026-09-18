@@ -1876,43 +1876,43 @@ choices = Array[String](["My favourite colour is yellow", "My favourite colour i
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai quatre ans\" en anglais ?"
-correct_answer = "I'm 4 years old"
-choices = Array[String](["I'm 9 years old", "I'm 6 years old", "I'm 7 years old"])
+correct_answer = "I'm four years old"
+choices = Array[String](["I'm nine years old", "I'm six years old", "I'm seven years old"])
 
 [sub_resource type="Resource" id="Resource_v7wvq"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai cinq ans\" en anglais ?"
-correct_answer = "I'm 5 years old"
-choices = Array[String](["I'm 8 years old", "I'm 9 years old", "I'm 6 years old"])
+correct_answer = "I'm five years old"
+choices = Array[String](["I'm eight years old", "I'm nine years old", "I'm six years old"])
 
 [sub_resource type="Resource" id="Resource_kqatx"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai six ans\" en anglais ?"
-correct_answer = "I'm 6 years old"
-choices = Array[String](["I'm 4 years old", "I'm 9 years old", "I'm 5 years old"])
+correct_answer = "I'm six years old"
+choices = Array[String](["I'm four years old", "I'm nine years old", "I'm five years old"])
 
 [sub_resource type="Resource" id="Resource_y351b"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai sept ans\" en anglais ?"
-correct_answer = "I'm 7 years old"
-choices = Array[String](["I'm 5 years old", "I'm 8 years old", "I'm 6 years old"])
+correct_answer = "I'm seven years old"
+choices = Array[String](["I'm five years old", "I'm eight years old", "I'm six years old"])
 
 [sub_resource type="Resource" id="Resource_fgvx8"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai huit ans\" en anglais ?"
-correct_answer = "I'm 8 years old"
-choices = Array[String](["I'm 5 years old", "I'm 6 years old", "I'm 7 years old"])
+correct_answer = "I'm eight years old"
+choices = Array[String](["I'm five years old", "I'm six years old", "I'm seven years old"])
 
 [sub_resource type="Resource" id="Resource_tq05b"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai neuf ans\" en anglais ?"
-correct_answer = "I'm 9 years old"
-choices = Array[String](["I'm 8 years old", "I'm 6 years old", "I'm 5 years old"])
+correct_answer = "I'm nine years old"
+choices = Array[String](["I'm eight years old", "I'm six years old", "I'm five years old"])
 
 [sub_resource type="Resource" id="Resource_mrprq"]
 script = ExtResource("1_hiwpi")
@@ -2352,27 +2352,27 @@ choices = Array[String](["Take your chair", "Take your scissors", "Take your sch
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai deux pommes\" en anglais ?"
-correct_answer = "I have 2 apples"
-choices = Array[String](["I have 2 eggs", "I have 2 pencils", "I have 2 cats"])
+correct_answer = "I have two apples"
+choices = Array[String](["I have two eggs", "I have two pencils", "I have two cats"])
 
 [sub_resource type="Resource" id="Resource_qajtj"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 2 apples\" en français ?"
+text = "Que veut dire \"I have two apples\" en français ?"
 correct_answer = "j'ai deux pommes"
-choices = Array[String](["j'ai deux lapins", "j'ai deux chiens", "j'ai deux vaches"])
+choices = Array[String](["j'ai deux lapins", "j'ai deux chiens", "j'ai vu deux vaches"])
 
 [sub_resource type="Resource" id="Resource_xfvv7"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai deux bananes\" en anglais ?"
-correct_answer = "I have 2 bananas"
-choices = Array[String](["I have 2 frogs", "I have 2 birds", "I have 2 pens"])
+correct_answer = "I have two bananas"
+choices = Array[String](["I saw two frogs", "I saw two birds", "I have two pens"])
 
 [sub_resource type="Resource" id="Resource_iiwer"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 2 bananas\" en français ?"
+text = "Que veut dire \"I have two bananas\" en français ?"
 correct_answer = "j'ai deux bananes"
 choices = Array[String](["j'ai deux oeufs", "j'ai deux crayons", "j'ai deux gommes"])
 
@@ -2380,27 +2380,27 @@ choices = Array[String](["j'ai deux oeufs", "j'ai deux crayons", "j'ai deux gomm
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai deux oeufs\" en anglais ?"
-correct_answer = "I have 2 eggs"
-choices = Array[String](["I have 2 rubbers", "I have 2 ducks", "I have 2 frogs"])
+correct_answer = "I have two eggs"
+choices = Array[String](["I have two rubbers", "I saw two ducks", "I saw two frogs"])
 
 [sub_resource type="Resource" id="Resource_gabdi"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 2 eggs\" en français ?"
+text = "Que veut dire \"I have two eggs\" en français ?"
 correct_answer = "j'ai deux oeufs"
-choices = Array[String](["j'ai deux canards", "j'ai deux grenouilles", "j'ai deux lapins"])
+choices = Array[String](["j'ai vu deux canards", "j'ai vu deux grenouilles", "j'ai deux lapins"])
 
 [sub_resource type="Resource" id="Resource_w0obl"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai deux gâteaux\" en anglais ?"
-correct_answer = "I have 2 cakes"
-choices = Array[String](["I have 2 frogs", "I have 2 bananas", "I have 2 apples"])
+correct_answer = "I have two cakes"
+choices = Array[String](["I saw two frogs", "I have two bananas", "I have two apples"])
 
 [sub_resource type="Resource" id="Resource_rdotu"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 2 cakes\" en français ?"
+text = "Que veut dire \"I have two cakes\" en français ?"
 correct_answer = "j'ai deux gâteaux"
 choices = Array[String](["j'ai deux stylos", "j'ai deux lapins", "j'ai deux oeufs"])
 
@@ -2408,27 +2408,27 @@ choices = Array[String](["j'ai deux stylos", "j'ai deux lapins", "j'ai deux oeuf
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai deux crayons\" en anglais ?"
-correct_answer = "I have 2 pencils"
-choices = Array[String](["I have 2 dogs", "I have 2 cats", "I have 2 apples"])
+correct_answer = "I have two pencils"
+choices = Array[String](["I have two dogs", "I have two cats", "I have two apples"])
 
 [sub_resource type="Resource" id="Resource_glujy"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 2 pencils\" en français ?"
+text = "Que veut dire \"I have two pencils\" en français ?"
 correct_answer = "j'ai deux crayons"
-choices = Array[String](["j'ai deux cochons", "j'ai deux bananes", "j'ai deux gâteaux"])
+choices = Array[String](["j'ai vu deux cochons", "j'ai deux bananes", "j'ai deux gâteaux"])
 
 [sub_resource type="Resource" id="Resource_ols6s"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai deux gommes\" en anglais ?"
-correct_answer = "I have 2 rubbers"
-choices = Array[String](["I have 2 cakes", "I have 2 pens", "I have 2 bananas"])
+correct_answer = "I have two rubbers"
+choices = Array[String](["I have two cakes", "I have two pens", "I have two bananas"])
 
 [sub_resource type="Resource" id="Resource_b0ges"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 2 rubbers\" en français ?"
+text = "Que veut dire \"I have two rubbers\" en français ?"
 correct_answer = "j'ai deux gommes"
 choices = Array[String](["j'ai deux crayons", "j'ai deux stylos", "j'ai deux lapins"])
 
@@ -2436,181 +2436,181 @@ choices = Array[String](["j'ai deux crayons", "j'ai deux stylos", "j'ai deux lap
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai deux règles\" en anglais ?"
-correct_answer = "I have 2 rulers"
-choices = Array[String](["I have 2 dogs", "I have 2 cats", "I have 2 rabbits"])
+correct_answer = "I have two rulers"
+choices = Array[String](["I have two dogs", "I have two cats", "I have two rabbits"])
 
 [sub_resource type="Resource" id="Resource_j30gw"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 2 rulers\" en français ?"
+text = "Que veut dire \"I have two rulers\" en français ?"
 correct_answer = "j'ai deux règles"
-choices = Array[String](["j'ai deux chats", "j'ai deux livres", "j'ai deux cochons"])
+choices = Array[String](["j'ai deux chats", "j'ai deux livres", "j'ai vu deux cochons"])
 
 [sub_resource type="Resource" id="Resource_hptts"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai deux livres\" en anglais ?"
-correct_answer = "I have 2 books"
-choices = Array[String](["I have 2 frogs", "I have 2 pens", "I have 2 cakes"])
+correct_answer = "I have two books"
+choices = Array[String](["I saw two frogs", "I have two pens", "I have two cakes"])
 
 [sub_resource type="Resource" id="Resource_ckugj"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 2 books\" en français ?"
+text = "Que veut dire \"I have two books\" en français ?"
 correct_answer = "j'ai deux livres"
-choices = Array[String](["j'ai deux canards", "j'ai deux chats", "j'ai deux oeufs"])
+choices = Array[String](["j'ai vu deux canards", "j'ai deux chats", "j'ai deux oeufs"])
 
 [sub_resource type="Resource" id="Resource_vu77a"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai deux stylos\" en anglais ?"
-correct_answer = "I have 2 pens"
-choices = Array[String](["I have 2 cows", "I have 2 cakes", "I have 2 dogs"])
+correct_answer = "I have two pens"
+choices = Array[String](["I saw two cows", "I have two cakes", "I have two dogs"])
 
 [sub_resource type="Resource" id="Resource_0t5v3"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 2 pens\" en français ?"
+text = "Que veut dire \"I have two pens\" en français ?"
 correct_answer = "j'ai deux stylos"
-choices = Array[String](["j'ai deux crayons", "j'ai deux cochons", "j'ai deux bananes"])
+choices = Array[String](["j'ai deux crayons", "j'ai vu deux cochons", "j'ai deux bananes"])
 
 [sub_resource type="Resource" id="Resource_n6gkq"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai deux chats\" en anglais ?"
-correct_answer = "I have 2 cats"
-choices = Array[String](["I have 2 pens", "I have 2 cows", "I have 2 ducks"])
+correct_answer = "I have two cats"
+choices = Array[String](["I have two pens", "I saw two cows", "I saw two ducks"])
 
 [sub_resource type="Resource" id="Resource_qsg82"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 2 cats\" en français ?"
+text = "Que veut dire \"I have two cats\" en français ?"
 correct_answer = "j'ai deux chats"
-choices = Array[String](["j'ai deux cochons", "j'ai deux gommes", "j'ai deux vaches"])
+choices = Array[String](["j'ai vu deux cochons", "j'ai deux gommes", "j'ai vu deux vaches"])
 
 [sub_resource type="Resource" id="Resource_d2q41"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai deux chiens\" en anglais ?"
-correct_answer = "I have 2 dogs"
-choices = Array[String](["I have 2 pens", "I have 2 pigs", "I have 2 apples"])
+correct_answer = "I have two dogs"
+choices = Array[String](["I have two pens", "I saw two pigs", "I have two apples"])
 
 [sub_resource type="Resource" id="Resource_u25fv"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 2 dogs\" en français ?"
+text = "Que veut dire \"I have two dogs\" en français ?"
 correct_answer = "j'ai deux chiens"
 choices = Array[String](["j'ai deux chats", "j'ai deux lapins", "j'ai deux crayons"])
 
 [sub_resource type="Resource" id="Resource_jg38u"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Comment dit-on \"j'ai deux oiseaux\" en anglais ?"
-correct_answer = "I have 2 birds"
-choices = Array[String](["I have 2 frogs", "I have 2 pigs", "I have 2 eggs"])
+text = "Comment dit-on \"j'ai vu deux oiseaux\" en anglais ?"
+correct_answer = "I saw two birds"
+choices = Array[String](["I saw two frogs", "I saw two pigs", "I have two eggs"])
 
 [sub_resource type="Resource" id="Resource_cb1p6"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 2 birds\" en français ?"
-correct_answer = "j'ai deux oiseaux"
-choices = Array[String](["j'ai deux canards", "j'ai deux stylos", "j'ai deux livres"])
+text = "Que veut dire \"I saw two birds\" en français ?"
+correct_answer = "j'ai vu deux oiseaux"
+choices = Array[String](["j'ai vu deux canards", "j'ai deux stylos", "j'ai deux livres"])
 
 [sub_resource type="Resource" id="Resource_bcaum"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai deux lapins\" en anglais ?"
-correct_answer = "I have 2 rabbits"
-choices = Array[String](["I have 2 birds", "I have 2 rubbers", "I have 2 pens"])
+correct_answer = "I have two rabbits"
+choices = Array[String](["I saw two birds", "I have two rubbers", "I have two pens"])
 
 [sub_resource type="Resource" id="Resource_3bmmh"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 2 rabbits\" en français ?"
+text = "Que veut dire \"I have two rabbits\" en français ?"
 correct_answer = "j'ai deux lapins"
-choices = Array[String](["j'ai deux vaches", "j'ai deux livres", "j'ai deux gommes"])
+choices = Array[String](["j'ai vu deux vaches", "j'ai deux livres", "j'ai deux gommes"])
 
 [sub_resource type="Resource" id="Resource_xrrfl"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Comment dit-on \"j'ai deux vaches\" en anglais ?"
-correct_answer = "I have 2 cows"
-choices = Array[String](["I have 2 rulers", "I have 2 birds", "I have 2 cakes"])
+text = "Comment dit-on \"j'ai vu deux vaches\" en anglais ?"
+correct_answer = "I saw two cows"
+choices = Array[String](["I have two rulers", "I saw two birds", "I have two cakes"])
 
 [sub_resource type="Resource" id="Resource_5hgr1"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 2 cows\" en français ?"
-correct_answer = "j'ai deux vaches"
-choices = Array[String](["j'ai deux lapins", "j'ai deux gâteaux", "j'ai deux cochons"])
+text = "Que veut dire \"I saw two cows\" en français ?"
+correct_answer = "j'ai vu deux vaches"
+choices = Array[String](["j'ai deux lapins", "j'ai deux gâteaux", "j'ai vu deux cochons"])
 
 [sub_resource type="Resource" id="Resource_ycdqi"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Comment dit-on \"j'ai deux cochons\" en anglais ?"
-correct_answer = "I have 2 pigs"
-choices = Array[String](["I have 2 cows", "I have 2 apples", "I have 2 rubbers"])
+text = "Comment dit-on \"j'ai vu deux cochons\" en anglais ?"
+correct_answer = "I saw two pigs"
+choices = Array[String](["I saw two cows", "I have two apples", "I have two rubbers"])
 
 [sub_resource type="Resource" id="Resource_34w87"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 2 pigs\" en français ?"
-correct_answer = "j'ai deux cochons"
-choices = Array[String](["j'ai deux grenouilles", "j'ai deux oiseaux", "j'ai deux lapins"])
+text = "Que veut dire \"I saw two pigs\" en français ?"
+correct_answer = "j'ai vu deux cochons"
+choices = Array[String](["j'ai vu deux grenouilles", "j'ai vu deux oiseaux", "j'ai deux lapins"])
 
 [sub_resource type="Resource" id="Resource_ykqmv"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Comment dit-on \"j'ai deux canards\" en anglais ?"
-correct_answer = "I have 2 ducks"
-choices = Array[String](["I have 2 rabbits", "I have 2 rulers", "I have 2 dogs"])
+text = "Comment dit-on \"j'ai vu deux canards\" en anglais ?"
+correct_answer = "I saw two ducks"
+choices = Array[String](["I have two rabbits", "I have two rulers", "I have two dogs"])
 
 [sub_resource type="Resource" id="Resource_8n2me"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 2 ducks\" en français ?"
-correct_answer = "j'ai deux canards"
+text = "Que veut dire \"I saw two ducks\" en français ?"
+correct_answer = "j'ai vu deux canards"
 choices = Array[String](["j'ai deux crayons", "j'ai deux livres", "j'ai deux pommes"])
 
 [sub_resource type="Resource" id="Resource_h15bh"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Comment dit-on \"j'ai deux grenouilles\" en anglais ?"
-correct_answer = "I have 2 frogs"
-choices = Array[String](["I have 2 pencils", "I have 2 pens", "I have 2 cats"])
+text = "Comment dit-on \"j'ai vu deux grenouilles\" en anglais ?"
+correct_answer = "I saw two frogs"
+choices = Array[String](["I have two pencils", "I have two pens", "I have two cats"])
 
 [sub_resource type="Resource" id="Resource_a3cay"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 2 frogs\" en français ?"
-correct_answer = "j'ai deux grenouilles"
-choices = Array[String](["j'ai deux chiens", "j'ai deux vaches", "j'ai deux bananes"])
+text = "Que veut dire \"I saw two frogs\" en français ?"
+correct_answer = "j'ai vu deux grenouilles"
+choices = Array[String](["j'ai deux chiens", "j'ai vu deux vaches", "j'ai deux bananes"])
 
 [sub_resource type="Resource" id="Resource_horsq"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai trois pommes\" en anglais ?"
-correct_answer = "I have 3 apples"
-choices = Array[String](["I have 3 ducks", "I have 3 eggs", "I have 3 cats"])
+correct_answer = "I have three apples"
+choices = Array[String](["I saw three ducks", "I have three eggs", "I have three cats"])
 
 [sub_resource type="Resource" id="Resource_mhfp4"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 3 apples\" en français ?"
+text = "Que veut dire \"I have three apples\" en français ?"
 correct_answer = "j'ai trois pommes"
-choices = Array[String](["j'ai trois canards", "j'ai trois bananes", "j'ai trois lapins"])
+choices = Array[String](["j'ai vu trois canards", "j'ai trois bananes", "j'ai trois lapins"])
 
 [sub_resource type="Resource" id="Resource_boehe"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai trois bananes\" en anglais ?"
-correct_answer = "I have 3 bananas"
-choices = Array[String](["I have 3 rubbers", "I have 3 books", "I have 3 pigs"])
+correct_answer = "I have three bananas"
+choices = Array[String](["I have three rubbers", "I have three books", "I saw three pigs"])
 
 [sub_resource type="Resource" id="Resource_wsjv2"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 3 bananas\" en français ?"
+text = "Que veut dire \"I have three bananas\" en français ?"
 correct_answer = "j'ai trois bananes"
 choices = Array[String](["j'ai trois gommes", "j'ai trois oeufs", "j'ai trois stylos"])
 
@@ -2618,55 +2618,55 @@ choices = Array[String](["j'ai trois gommes", "j'ai trois oeufs", "j'ai trois st
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai trois oeufs\" en anglais ?"
-correct_answer = "I have 3 eggs"
-choices = Array[String](["I have 3 cats", "I have 3 rulers", "I have 3 dogs"])
+correct_answer = "I have three eggs"
+choices = Array[String](["I have three cats", "I have three rulers", "I have three dogs"])
 
 [sub_resource type="Resource" id="Resource_s758u"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 3 eggs\" en français ?"
+text = "Que veut dire \"I have three eggs\" en français ?"
 correct_answer = "j'ai trois oeufs"
-choices = Array[String](["j'ai trois vaches", "j'ai trois oiseaux", "j'ai trois bananes"])
+choices = Array[String](["j'ai vu trois vaches", "j'ai vu trois oiseaux", "j'ai trois bananes"])
 
 [sub_resource type="Resource" id="Resource_7hil3"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai trois gâteaux\" en anglais ?"
-correct_answer = "I have 3 cakes"
-choices = Array[String](["I have 3 birds", "I have 3 pigs", "I have 3 frogs"])
+correct_answer = "I have three cakes"
+choices = Array[String](["I saw three birds", "I saw three pigs", "I saw three frogs"])
 
 [sub_resource type="Resource" id="Resource_wabi4"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 3 cakes\" en français ?"
+text = "Que veut dire \"I have three cakes\" en français ?"
 correct_answer = "j'ai trois gâteaux"
-choices = Array[String](["j'ai trois vaches", "j'ai trois règles", "j'ai trois oiseaux"])
+choices = Array[String](["j'ai vu trois vaches", "j'ai trois règles", "j'ai vu trois oiseaux"])
 
 [sub_resource type="Resource" id="Resource_upamo"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai trois crayons\" en anglais ?"
-correct_answer = "I have 3 pencils"
-choices = Array[String](["I have 3 frogs", "I have 3 pigs", "I have 3 cats"])
+correct_answer = "I have three pencils"
+choices = Array[String](["I saw three frogs", "I saw three pigs", "I have three cats"])
 
 [sub_resource type="Resource" id="Resource_xijti"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 3 pencils\" en français ?"
+text = "Que veut dire \"I have three pencils\" en français ?"
 correct_answer = "j'ai trois crayons"
-choices = Array[String](["j'ai trois bananes", "j'ai trois chiens", "j'ai trois grenouilles"])
+choices = Array[String](["j'ai trois bananes", "j'ai trois chiens", "j'ai vu trois grenouilles"])
 
 [sub_resource type="Resource" id="Resource_r4cct"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai trois gommes\" en anglais ?"
-correct_answer = "I have 3 rubbers"
-choices = Array[String](["I have 3 pens", "I have 3 birds", "I have 3 ducks"])
+correct_answer = "I have three rubbers"
+choices = Array[String](["I have three pens", "I saw three birds", "I saw three ducks"])
 
 [sub_resource type="Resource" id="Resource_bb07i"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 3 rubbers\" en français ?"
+text = "Que veut dire \"I have three rubbers\" en français ?"
 correct_answer = "j'ai trois gommes"
 choices = Array[String](["j'ai trois chiens", "j'ai trois gâteaux", "j'ai trois lapins"])
 
@@ -2674,13 +2674,13 @@ choices = Array[String](["j'ai trois chiens", "j'ai trois gâteaux", "j'ai trois
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai trois règles\" en anglais ?"
-correct_answer = "I have 3 rulers"
-choices = Array[String](["I have 3 eggs", "I have 3 books", "I have 3 bananas"])
+correct_answer = "I have three rulers"
+choices = Array[String](["I have three eggs", "I have three books", "I have three bananas"])
 
 [sub_resource type="Resource" id="Resource_psyeq"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 3 rulers\" en français ?"
+text = "Que veut dire \"I have three rulers\" en français ?"
 correct_answer = "j'ai trois règles"
 choices = Array[String](["j'ai trois gâteaux", "j'ai trois stylos", "j'ai trois oeufs"])
 
@@ -2688,27 +2688,27 @@ choices = Array[String](["j'ai trois gâteaux", "j'ai trois stylos", "j'ai trois
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai trois livres\" en anglais ?"
-correct_answer = "I have 3 books"
-choices = Array[String](["I have 3 dogs", "I have 3 ducks", "I have 3 apples"])
+correct_answer = "I have three books"
+choices = Array[String](["I have three dogs", "I saw three ducks", "I have three apples"])
 
 [sub_resource type="Resource" id="Resource_omxvo"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 3 books\" en français ?"
+text = "Que veut dire \"I have three books\" en français ?"
 correct_answer = "j'ai trois livres"
-choices = Array[String](["j'ai trois bananes", "j'ai trois gommes", "j'ai trois vaches"])
+choices = Array[String](["j'ai trois bananes", "j'ai trois gommes", "j'ai vu trois vaches"])
 
 [sub_resource type="Resource" id="Resource_l6i7k"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai trois stylos\" en anglais ?"
-correct_answer = "I have 3 pens"
-choices = Array[String](["I have 3 bananas", "I have 3 pencils", "I have 3 rubbers"])
+correct_answer = "I have three pens"
+choices = Array[String](["I have three bananas", "I have three pencils", "I have three rubbers"])
 
 [sub_resource type="Resource" id="Resource_bmd0y"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 3 pens\" en français ?"
+text = "Que veut dire \"I have three pens\" en français ?"
 correct_answer = "j'ai trois stylos"
 choices = Array[String](["j'ai trois lapins", "j'ai trois règles", "j'ai trois oeufs"])
 
@@ -2716,167 +2716,167 @@ choices = Array[String](["j'ai trois lapins", "j'ai trois règles", "j'ai trois 
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai trois chats\" en anglais ?"
-correct_answer = "I have 3 cats"
-choices = Array[String](["I have 3 books", "I have 3 pens", "I have 3 rulers"])
+correct_answer = "I have three cats"
+choices = Array[String](["I have three books", "I have three pens", "I have three rulers"])
 
 [sub_resource type="Resource" id="Resource_l0o3s"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 3 cats\" en français ?"
+text = "Que veut dire \"I have three cats\" en français ?"
 correct_answer = "j'ai trois chats"
-choices = Array[String](["j'ai trois gommes", "j'ai trois oeufs", "j'ai trois canards"])
+choices = Array[String](["j'ai trois gommes", "j'ai trois oeufs", "j'ai vu trois canards"])
 
 [sub_resource type="Resource" id="Resource_emhdx"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai trois chiens\" en anglais ?"
-correct_answer = "I have 3 dogs"
-choices = Array[String](["I have 3 eggs", "I have 3 cats", "I have 3 pigs"])
+correct_answer = "I have three dogs"
+choices = Array[String](["I have three eggs", "I have three cats", "I saw three pigs"])
 
 [sub_resource type="Resource" id="Resource_0v333"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 3 dogs\" en français ?"
+text = "Que veut dire \"I have three dogs\" en français ?"
 correct_answer = "j'ai trois chiens"
-choices = Array[String](["j'ai trois vaches", "j'ai trois chats", "j'ai trois oiseaux"])
+choices = Array[String](["j'ai vu trois vaches", "j'ai trois chats", "j'ai vu trois oiseaux"])
 
 [sub_resource type="Resource" id="Resource_3isjv"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Comment dit-on \"j'ai trois oiseaux\" en anglais ?"
-correct_answer = "I have 3 birds"
-choices = Array[String](["I have 3 books", "I have 3 frogs", "I have 3 cats"])
+text = "Comment dit-on \"j'ai vu trois oiseaux\" en anglais ?"
+correct_answer = "I saw three birds"
+choices = Array[String](["I have three books", "I saw three frogs", "I have three cats"])
 
 [sub_resource type="Resource" id="Resource_aq2x1"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 3 birds\" en français ?"
-correct_answer = "j'ai trois oiseaux"
+text = "Que veut dire \"I saw three birds\" en français ?"
+correct_answer = "j'ai vu trois oiseaux"
 choices = Array[String](["j'ai trois crayons", "j'ai trois gâteaux", "j'ai trois livres"])
 
 [sub_resource type="Resource" id="Resource_haam8"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai trois lapins\" en anglais ?"
-correct_answer = "I have 3 rabbits"
-choices = Array[String](["I have 3 pens", "I have 3 books", "I have 3 pencils"])
+correct_answer = "I have three rabbits"
+choices = Array[String](["I have three pens", "I have three books", "I have three pencils"])
 
 [sub_resource type="Resource" id="Resource_g44c8"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 3 rabbits\" en français ?"
+text = "Que veut dire \"I have three rabbits\" en français ?"
 correct_answer = "j'ai trois lapins"
-choices = Array[String](["j'ai trois pommes", "j'ai trois canards", "j'ai trois vaches"])
+choices = Array[String](["j'ai trois pommes", "j'ai vu trois canards", "j'ai vu trois vaches"])
 
 [sub_resource type="Resource" id="Resource_i72eq"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Comment dit-on \"j'ai trois vaches\" en anglais ?"
-correct_answer = "I have 3 cows"
-choices = Array[String](["I have 3 ducks", "I have 3 frogs", "I have 3 pencils"])
+text = "Comment dit-on \"j'ai vu trois vaches\" en anglais ?"
+correct_answer = "I saw three cows"
+choices = Array[String](["I saw three ducks", "I saw three frogs", "I have three pencils"])
 
 [sub_resource type="Resource" id="Resource_urp72"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 3 cows\" en français ?"
-correct_answer = "j'ai trois vaches"
+text = "Que veut dire \"I saw three cows\" en français ?"
+correct_answer = "j'ai vu trois vaches"
 choices = Array[String](["j'ai trois gommes", "j'ai trois bananes", "j'ai trois livres"])
 
 [sub_resource type="Resource" id="Resource_3184e"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Comment dit-on \"j'ai trois cochons\" en anglais ?"
-correct_answer = "I have 3 pigs"
-choices = Array[String](["I have 3 birds", "I have 3 cats", "I have 3 pencils"])
+text = "Comment dit-on \"j'ai vu trois cochons\" en anglais ?"
+correct_answer = "I saw three pigs"
+choices = Array[String](["I saw three birds", "I have three cats", "I have three pencils"])
 
 [sub_resource type="Resource" id="Resource_qwdld"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 3 pigs\" en français ?"
-correct_answer = "j'ai trois cochons"
-choices = Array[String](["j'ai trois vaches", "j'ai trois oiseaux", "j'ai trois crayons"])
+text = "Que veut dire \"I saw three pigs\" en français ?"
+correct_answer = "j'ai vu trois cochons"
+choices = Array[String](["j'ai vu trois vaches", "j'ai vu trois oiseaux", "j'ai trois crayons"])
 
 [sub_resource type="Resource" id="Resource_h6syd"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Comment dit-on \"j'ai trois canards\" en anglais ?"
-correct_answer = "I have 3 ducks"
-choices = Array[String](["I have 3 pigs", "I have 3 cows", "I have 3 pencils"])
+text = "Comment dit-on \"j'ai vu trois canards\" en anglais ?"
+correct_answer = "I saw three ducks"
+choices = Array[String](["I saw three pigs", "I saw three cows", "I have three pencils"])
 
 [sub_resource type="Resource" id="Resource_jwcw1"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 3 ducks\" en français ?"
-correct_answer = "j'ai trois canards"
-choices = Array[String](["j'ai trois règles", "j'ai trois grenouilles", "j'ai trois vaches"])
+text = "Que veut dire \"I saw three ducks\" en français ?"
+correct_answer = "j'ai vu trois canards"
+choices = Array[String](["j'ai trois règles", "j'ai vu trois grenouilles", "j'ai vu trois vaches"])
 
 [sub_resource type="Resource" id="Resource_0jgmk"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Comment dit-on \"j'ai trois grenouilles\" en anglais ?"
-correct_answer = "I have 3 frogs"
-choices = Array[String](["I have 3 ducks", "I have 3 bananas", "I have 3 cakes"])
+text = "Comment dit-on \"j'ai vu trois grenouilles\" en anglais ?"
+correct_answer = "I saw three frogs"
+choices = Array[String](["I saw three ducks", "I have three bananas", "I have three cakes"])
 
 [sub_resource type="Resource" id="Resource_kkyoe"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 3 frogs\" en français ?"
-correct_answer = "j'ai trois grenouilles"
+text = "Que veut dire \"I saw three frogs\" en français ?"
+correct_answer = "j'ai vu trois grenouilles"
 choices = Array[String](["j'ai trois lapins", "j'ai trois chats", "j'ai trois gommes"])
 
 [sub_resource type="Resource" id="Resource_p8rrp"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai quatre pommes\" en anglais ?"
-correct_answer = "I have 4 apples"
-choices = Array[String](["I have 4 dogs", "I have 4 rabbits", "I have 4 rubbers"])
+correct_answer = "I have four apples"
+choices = Array[String](["I have four dogs", "I have four rabbits", "I have four rubbers"])
 
 [sub_resource type="Resource" id="Resource_7jxi1"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 4 apples\" en français ?"
+text = "Que veut dire \"I have four apples\" en français ?"
 correct_answer = "j'ai quatre pommes"
-choices = Array[String](["j'ai quatre bananes", "j'ai quatre cochons", "j'ai quatre oiseaux"])
+choices = Array[String](["j'ai quatre bananes", "j'ai vu quatre cochons", "j'ai vu quatre oiseaux"])
 
 [sub_resource type="Resource" id="Resource_6h1l0"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai quatre bananes\" en anglais ?"
-correct_answer = "I have 4 bananas"
-choices = Array[String](["I have 4 cows", "I have 4 rubbers", "I have 4 apples"])
+correct_answer = "I have four bananas"
+choices = Array[String](["I saw four cows", "I have four rubbers", "I have four apples"])
 
 [sub_resource type="Resource" id="Resource_k0pow"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 4 bananas\" en français ?"
+text = "Que veut dire \"I have four bananas\" en français ?"
 correct_answer = "j'ai quatre bananes"
-choices = Array[String](["j'ai quatre oeufs", "j'ai quatre canards", "j'ai quatre chiens"])
+choices = Array[String](["j'ai quatre oeufs", "j'ai vu quatre canards", "j'ai quatre chiens"])
 
 [sub_resource type="Resource" id="Resource_qs4jl"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai quatre oeufs\" en anglais ?"
-correct_answer = "I have 4 eggs"
-choices = Array[String](["I have 4 frogs", "I have 4 pigs", "I have 4 rubbers"])
+correct_answer = "I have four eggs"
+choices = Array[String](["I saw four frogs", "I saw four pigs", "I have four rubbers"])
 
 [sub_resource type="Resource" id="Resource_u6npy"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 4 eggs\" en français ?"
+text = "Que veut dire \"I have four eggs\" en français ?"
 correct_answer = "j'ai quatre oeufs"
-choices = Array[String](["j'ai quatre stylos", "j'ai quatre chiens", "j'ai quatre vaches"])
+choices = Array[String](["j'ai quatre stylos", "j'ai quatre chiens", "j'ai vu quatre vaches"])
 
 [sub_resource type="Resource" id="Resource_g27dh"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai quatre gâteaux\" en anglais ?"
-correct_answer = "I have 4 cakes"
-choices = Array[String](["I have 4 rabbits", "I have 4 pencils", "I have 4 birds"])
+correct_answer = "I have four cakes"
+choices = Array[String](["I have four rabbits", "I have four pencils", "I saw four birds"])
 
 [sub_resource type="Resource" id="Resource_3l5t0"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 4 cakes\" en français ?"
+text = "Que veut dire \"I have four cakes\" en français ?"
 correct_answer = "j'ai quatre gâteaux"
 choices = Array[String](["j'ai quatre livres", "j'ai quatre chiens", "j'ai quatre gommes"])
 
@@ -2884,279 +2884,279 @@ choices = Array[String](["j'ai quatre livres", "j'ai quatre chiens", "j'ai quatr
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai quatre crayons\" en anglais ?"
-correct_answer = "I have 4 pencils"
-choices = Array[String](["I have 4 rubbers", "I have 4 birds", "I have 4 bananas"])
+correct_answer = "I have four pencils"
+choices = Array[String](["I have four rubbers", "I saw four birds", "I have four bananas"])
 
 [sub_resource type="Resource" id="Resource_eiepe"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 4 pencils\" en français ?"
+text = "Que veut dire \"I have four pencils\" en français ?"
 correct_answer = "j'ai quatre crayons"
-choices = Array[String](["j'ai quatre bananes", "j'ai quatre gommes", "j'ai quatre vaches"])
+choices = Array[String](["j'ai quatre bananes", "j'ai quatre gommes", "j'ai vu quatre vaches"])
 
 [sub_resource type="Resource" id="Resource_8isdw"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai quatre gommes\" en anglais ?"
-correct_answer = "I have 4 rubbers"
-choices = Array[String](["I have 4 ducks", "I have 4 apples", "I have 4 dogs"])
+correct_answer = "I have four rubbers"
+choices = Array[String](["I saw four ducks", "I have four apples", "I have four dogs"])
 
 [sub_resource type="Resource" id="Resource_wnhn0"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 4 rubbers\" en français ?"
+text = "Que veut dire \"I have four rubbers\" en français ?"
 correct_answer = "j'ai quatre gommes"
-choices = Array[String](["j'ai quatre lapins", "j'ai quatre grenouilles", "j'ai quatre oeufs"])
+choices = Array[String](["j'ai quatre lapins", "j'ai vu quatre grenouilles", "j'ai quatre oeufs"])
 
 [sub_resource type="Resource" id="Resource_qvhxh"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai quatre règles\" en anglais ?"
-correct_answer = "I have 4 rulers"
-choices = Array[String](["I have 4 eggs", "I have 4 ducks", "I have 4 pencils"])
+correct_answer = "I have four rulers"
+choices = Array[String](["I have four eggs", "I saw four ducks", "I have four pencils"])
 
 [sub_resource type="Resource" id="Resource_qyxlh"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 4 rulers\" en français ?"
+text = "Que veut dire \"I have four rulers\" en français ?"
 correct_answer = "j'ai quatre règles"
-choices = Array[String](["j'ai quatre oiseaux", "j'ai quatre lapins", "j'ai quatre livres"])
+choices = Array[String](["j'ai vu quatre oiseaux", "j'ai quatre lapins", "j'ai quatre livres"])
 
 [sub_resource type="Resource" id="Resource_hwen6"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai quatre livres\" en anglais ?"
-correct_answer = "I have 4 books"
-choices = Array[String](["I have 4 rubbers", "I have 4 cakes", "I have 4 eggs"])
+correct_answer = "I have four books"
+choices = Array[String](["I have four rubbers", "I have four cakes", "I have four eggs"])
 
 [sub_resource type="Resource" id="Resource_7qbmn"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 4 books\" en français ?"
+text = "Que veut dire \"I have four books\" en français ?"
 correct_answer = "j'ai quatre livres"
-choices = Array[String](["j'ai quatre lapins", "j'ai quatre chats", "j'ai quatre canards"])
+choices = Array[String](["j'ai quatre lapins", "j'ai quatre chats", "j'ai vu quatre canards"])
 
 [sub_resource type="Resource" id="Resource_6t4hd"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai quatre stylos\" en anglais ?"
-correct_answer = "I have 4 pens"
-choices = Array[String](["I have 4 cats", "I have 4 pigs", "I have 4 eggs"])
+correct_answer = "I have four pens"
+choices = Array[String](["I have four cats", "I saw four pigs", "I have four eggs"])
 
 [sub_resource type="Resource" id="Resource_wrdjb"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 4 pens\" en français ?"
+text = "Que veut dire \"I have four pens\" en français ?"
 correct_answer = "j'ai quatre stylos"
-choices = Array[String](["j'ai quatre chats", "j'ai quatre canards", "j'ai quatre cochons"])
+choices = Array[String](["j'ai quatre chats", "j'ai vu quatre canards", "j'ai vu quatre cochons"])
 
 [sub_resource type="Resource" id="Resource_5m7x1"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai quatre chats\" en anglais ?"
-correct_answer = "I have 4 cats"
-choices = Array[String](["I have 4 frogs", "I have 4 cows", "I have 4 pencils"])
+correct_answer = "I have four cats"
+choices = Array[String](["I saw four frogs", "I saw four cows", "I have four pencils"])
 
 [sub_resource type="Resource" id="Resource_jy8wp"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 4 cats\" en français ?"
+text = "Que veut dire \"I have four cats\" en français ?"
 correct_answer = "j'ai quatre chats"
-choices = Array[String](["j'ai quatre oiseaux", "j'ai quatre vaches", "j'ai quatre bananes"])
+choices = Array[String](["j'ai vu quatre oiseaux", "j'ai vu quatre vaches", "j'ai quatre bananes"])
 
 [sub_resource type="Resource" id="Resource_04d25"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai quatre chiens\" en anglais ?"
-correct_answer = "I have 4 dogs"
-choices = Array[String](["I have 4 ducks", "I have 4 bananas", "I have 4 eggs"])
+correct_answer = "I have four dogs"
+choices = Array[String](["I saw four ducks", "I have four bananas", "I have four eggs"])
 
 [sub_resource type="Resource" id="Resource_drap4"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 4 dogs\" en français ?"
+text = "Que veut dire \"I have four dogs\" en français ?"
 correct_answer = "j'ai quatre chiens"
-choices = Array[String](["j'ai quatre livres", "j'ai quatre cochons", "j'ai quatre oiseaux"])
+choices = Array[String](["j'ai quatre livres", "j'ai vu quatre cochons", "j'ai vu quatre oiseaux"])
 
 [sub_resource type="Resource" id="Resource_2ccag"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Comment dit-on \"j'ai quatre oiseaux\" en anglais ?"
-correct_answer = "I have 4 birds"
-choices = Array[String](["I have 4 cows", "I have 4 pigs", "I have 4 frogs"])
+text = "Comment dit-on \"j'ai vu quatre oiseaux\" en anglais ?"
+correct_answer = "I saw four birds"
+choices = Array[String](["I saw four cows", "I saw four pigs", "I saw four frogs"])
 
 [sub_resource type="Resource" id="Resource_6tjmh"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 4 birds\" en français ?"
-correct_answer = "j'ai quatre oiseaux"
-choices = Array[String](["j'ai quatre lapins", "j'ai quatre bananes", "j'ai quatre vaches"])
+text = "Que veut dire \"I saw four birds\" en français ?"
+correct_answer = "j'ai vu quatre oiseaux"
+choices = Array[String](["j'ai quatre lapins", "j'ai quatre bananes", "j'ai vu quatre vaches"])
 
 [sub_resource type="Resource" id="Resource_kfgw1"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai quatre lapins\" en anglais ?"
-correct_answer = "I have 4 rabbits"
-choices = Array[String](["I have 4 cows", "I have 4 apples", "I have 4 pencils"])
+correct_answer = "I have four rabbits"
+choices = Array[String](["I saw four cows", "I have four apples", "I have four pencils"])
 
 [sub_resource type="Resource" id="Resource_cx0eo"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 4 rabbits\" en français ?"
+text = "Que veut dire \"I have four rabbits\" en français ?"
 correct_answer = "j'ai quatre lapins"
 choices = Array[String](["j'ai quatre gâteaux", "j'ai quatre livres", "j'ai quatre gommes"])
 
 [sub_resource type="Resource" id="Resource_w3m88"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Comment dit-on \"j'ai quatre vaches\" en anglais ?"
-correct_answer = "I have 4 cows"
-choices = Array[String](["I have 4 pens", "I have 4 cats", "I have 4 rulers"])
+text = "Comment dit-on \"j'ai vu quatre vaches\" en anglais ?"
+correct_answer = "I saw four cows"
+choices = Array[String](["I have four pens", "I have four cats", "I have four rulers"])
 
 [sub_resource type="Resource" id="Resource_cr466"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 4 cows\" en français ?"
-correct_answer = "j'ai quatre vaches"
-choices = Array[String](["j'ai quatre oiseaux", "j'ai quatre bananes", "j'ai quatre chiens"])
+text = "Que veut dire \"I saw four cows\" en français ?"
+correct_answer = "j'ai vu quatre vaches"
+choices = Array[String](["j'ai vu quatre oiseaux", "j'ai quatre bananes", "j'ai quatre chiens"])
 
 [sub_resource type="Resource" id="Resource_4o35w"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Comment dit-on \"j'ai quatre cochons\" en anglais ?"
-correct_answer = "I have 4 pigs"
-choices = Array[String](["I have 4 books", "I have 4 frogs", "I have 4 apples"])
+text = "Comment dit-on \"j'ai vu quatre cochons\" en anglais ?"
+correct_answer = "I saw four pigs"
+choices = Array[String](["I have four books", "I saw four frogs", "I have four apples"])
 
 [sub_resource type="Resource" id="Resource_nlanx"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 4 pigs\" en français ?"
-correct_answer = "j'ai quatre cochons"
-choices = Array[String](["j'ai quatre chiens", "j'ai quatre canards", "j'ai quatre chats"])
+text = "Que veut dire \"I saw four pigs\" en français ?"
+correct_answer = "j'ai vu quatre cochons"
+choices = Array[String](["j'ai quatre chiens", "j'ai vu quatre canards", "j'ai quatre chats"])
 
 [sub_resource type="Resource" id="Resource_wq8aq"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Comment dit-on \"j'ai quatre canards\" en anglais ?"
-correct_answer = "I have 4 ducks"
-choices = Array[String](["I have 4 books", "I have 4 dogs", "I have 4 bananas"])
+text = "Comment dit-on \"j'ai vu quatre canards\" en anglais ?"
+correct_answer = "I saw four ducks"
+choices = Array[String](["I have four books", "I have four dogs", "I have four bananas"])
 
 [sub_resource type="Resource" id="Resource_l42t0"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 4 ducks\" en français ?"
-correct_answer = "j'ai quatre canards"
-choices = Array[String](["j'ai quatre cochons", "j'ai quatre grenouilles", "j'ai quatre oiseaux"])
+text = "Que veut dire \"I saw four ducks\" en français ?"
+correct_answer = "j'ai vu quatre canards"
+choices = Array[String](["j'ai vu quatre cochons", "j'ai vu quatre grenouilles", "j'ai vu quatre oiseaux"])
 
 [sub_resource type="Resource" id="Resource_qauf1"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Comment dit-on \"j'ai quatre grenouilles\" en anglais ?"
-correct_answer = "I have 4 frogs"
-choices = Array[String](["I have 4 cats", "I have 4 dogs", "I have 4 rulers"])
+text = "Comment dit-on \"j'ai vu quatre grenouilles\" en anglais ?"
+correct_answer = "I saw four frogs"
+choices = Array[String](["I have four cats", "I have four dogs", "I have four rulers"])
 
 [sub_resource type="Resource" id="Resource_k8hgb"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 4 frogs\" en français ?"
-correct_answer = "j'ai quatre grenouilles"
+text = "Que veut dire \"I saw four frogs\" en français ?"
+correct_answer = "j'ai vu quatre grenouilles"
 choices = Array[String](["j'ai quatre gâteaux", "j'ai quatre oeufs", "j'ai quatre pommes"])
 
 [sub_resource type="Resource" id="Resource_1jjgw"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai cinq pommes\" en anglais ?"
-correct_answer = "I have 5 apples"
-choices = Array[String](["I have 5 eggs", "I have 5 rubbers", "I have 5 pens"])
+correct_answer = "I have five apples"
+choices = Array[String](["I have five eggs", "I have five rubbers", "I have five pens"])
 
 [sub_resource type="Resource" id="Resource_vv36t"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 5 apples\" en français ?"
+text = "Que veut dire \"I have five apples\" en français ?"
 correct_answer = "j'ai cinq pommes"
-choices = Array[String](["j'ai cinq crayons", "j'ai cinq oeufs", "j'ai cinq grenouilles"])
+choices = Array[String](["j'ai cinq crayons", "j'ai cinq oeufs", "j'ai vu cinq grenouilles"])
 
 [sub_resource type="Resource" id="Resource_kaspt"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai cinq bananes\" en anglais ?"
-correct_answer = "I have 5 bananas"
-choices = Array[String](["I have 5 rubbers", "I have 5 books", "I have 5 pens"])
+correct_answer = "I have five bananas"
+choices = Array[String](["I have five rubbers", "I have five books", "I have five pens"])
 
 [sub_resource type="Resource" id="Resource_3cvin"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 5 bananas\" en français ?"
+text = "Que veut dire \"I have five bananas\" en français ?"
 correct_answer = "j'ai cinq bananes"
-choices = Array[String](["j'ai cinq lapins", "j'ai cinq oiseaux", "j'ai cinq grenouilles"])
+choices = Array[String](["j'ai cinq lapins", "j'ai vu cinq oiseaux", "j'ai vu cinq grenouilles"])
 
 [sub_resource type="Resource" id="Resource_0qi12"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai cinq oeufs\" en anglais ?"
-correct_answer = "I have 5 eggs"
-choices = Array[String](["I have 5 pigs", "I have 5 dogs", "I have 5 rabbits"])
+correct_answer = "I have five eggs"
+choices = Array[String](["I saw five pigs", "I have five dogs", "I have five rabbits"])
 
 [sub_resource type="Resource" id="Resource_dn542"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 5 eggs\" en français ?"
+text = "Que veut dire \"I have five eggs\" en français ?"
 correct_answer = "j'ai cinq oeufs"
-choices = Array[String](["j'ai cinq gommes", "j'ai cinq canards", "j'ai cinq livres"])
+choices = Array[String](["j'ai cinq gommes", "j'ai vu cinq canards", "j'ai cinq livres"])
 
 [sub_resource type="Resource" id="Resource_skpku"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai cinq gâteaux\" en anglais ?"
-correct_answer = "I have 5 cakes"
-choices = Array[String](["I have 5 pencils", "I have 5 pigs", "I have 5 pens"])
+correct_answer = "I have five cakes"
+choices = Array[String](["I have five pencils", "I saw five pigs", "I have five pens"])
 
 [sub_resource type="Resource" id="Resource_ru6tn"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 5 cakes\" en français ?"
+text = "Que veut dire \"I have five cakes\" en français ?"
 correct_answer = "j'ai cinq gâteaux"
-choices = Array[String](["j'ai cinq cochons", "j'ai cinq gommes", "j'ai cinq pommes"])
+choices = Array[String](["j'ai vu cinq cochons", "j'ai cinq gommes", "j'ai cinq pommes"])
 
 [sub_resource type="Resource" id="Resource_34pdk"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai cinq crayons\" en anglais ?"
-correct_answer = "I have 5 pencils"
-choices = Array[String](["I have 5 rabbits", "I have 5 cakes", "I have 5 pens"])
+correct_answer = "I have five pencils"
+choices = Array[String](["I have five rabbits", "I have five cakes", "I have five pens"])
 
 [sub_resource type="Resource" id="Resource_i6pge"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 5 pencils\" en français ?"
+text = "Que veut dire \"I have five pencils\" en français ?"
 correct_answer = "j'ai cinq crayons"
-choices = Array[String](["j'ai cinq canards", "j'ai cinq gâteaux", "j'ai cinq cochons"])
+choices = Array[String](["j'ai vu cinq canards", "j'ai cinq gâteaux", "j'ai vu cinq cochons"])
 
 [sub_resource type="Resource" id="Resource_wde3o"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai cinq gommes\" en anglais ?"
-correct_answer = "I have 5 rubbers"
-choices = Array[String](["I have 5 rabbits", "I have 5 bananas", "I have 5 birds"])
+correct_answer = "I have five rubbers"
+choices = Array[String](["I have five rabbits", "I have five bananas", "I saw five birds"])
 
 [sub_resource type="Resource" id="Resource_rr3hn"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 5 rubbers\" en français ?"
+text = "Que veut dire \"I have five rubbers\" en français ?"
 correct_answer = "j'ai cinq gommes"
-choices = Array[String](["j'ai cinq lapins", "j'ai cinq chats", "j'ai cinq oiseaux"])
+choices = Array[String](["j'ai cinq lapins", "j'ai cinq chats", "j'ai vu cinq oiseaux"])
 
 [sub_resource type="Resource" id="Resource_4d7yj"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai cinq règles\" en anglais ?"
-correct_answer = "I have 5 rulers"
-choices = Array[String](["I have 5 rabbits", "I have 5 apples", "I have 5 books"])
+correct_answer = "I have five rulers"
+choices = Array[String](["I have five rabbits", "I have five apples", "I have five books"])
 
 [sub_resource type="Resource" id="Resource_q2euv"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 5 rulers\" en français ?"
+text = "Que veut dire \"I have five rulers\" en français ?"
 correct_answer = "j'ai cinq règles"
 choices = Array[String](["j'ai cinq chats", "j'ai cinq gâteaux", "j'ai cinq bananes"])
 
@@ -3164,41 +3164,41 @@ choices = Array[String](["j'ai cinq chats", "j'ai cinq gâteaux", "j'ai cinq ban
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai cinq livres\" en anglais ?"
-correct_answer = "I have 5 books"
-choices = Array[String](["I have 5 ducks", "I have 5 bananas", "I have 5 birds"])
+correct_answer = "I have five books"
+choices = Array[String](["I saw five ducks", "I have five bananas", "I saw five birds"])
 
 [sub_resource type="Resource" id="Resource_k21eh"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 5 books\" en français ?"
+text = "Que veut dire \"I have five books\" en français ?"
 correct_answer = "j'ai cinq livres"
-choices = Array[String](["j'ai cinq règles", "j'ai cinq oiseaux", "j'ai cinq canards"])
+choices = Array[String](["j'ai cinq règles", "j'ai vu cinq oiseaux", "j'ai vu cinq canards"])
 
 [sub_resource type="Resource" id="Resource_edhrl"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai cinq stylos\" en anglais ?"
-correct_answer = "I have 5 pens"
-choices = Array[String](["I have 5 apples", "I have 5 frogs", "I have 5 cows"])
+correct_answer = "I have five pens"
+choices = Array[String](["I have five apples", "I saw five frogs", "I saw five cows"])
 
 [sub_resource type="Resource" id="Resource_nujif"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 5 pens\" en français ?"
+text = "Que veut dire \"I have five pens\" en français ?"
 correct_answer = "j'ai cinq stylos"
-choices = Array[String](["j'ai cinq oiseaux", "j'ai cinq gâteaux", "j'ai cinq oeufs"])
+choices = Array[String](["j'ai vu cinq oiseaux", "j'ai cinq gâteaux", "j'ai cinq oeufs"])
 
 [sub_resource type="Resource" id="Resource_u2gdw"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai cinq chats\" en anglais ?"
-correct_answer = "I have 5 cats"
-choices = Array[String](["I have 5 rulers", "I have 5 bananas", "I have 5 pigs"])
+correct_answer = "I have five cats"
+choices = Array[String](["I have five rulers", "I have five bananas", "I saw five pigs"])
 
 [sub_resource type="Resource" id="Resource_ta63a"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 5 cats\" en français ?"
+text = "Que veut dire \"I have five cats\" en français ?"
 correct_answer = "j'ai cinq chats"
 choices = Array[String](["j'ai cinq règles", "j'ai cinq chiens", "j'ai cinq gâteaux"])
 
@@ -3206,111 +3206,111 @@ choices = Array[String](["j'ai cinq règles", "j'ai cinq chiens", "j'ai cinq gâ
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai cinq chiens\" en anglais ?"
-correct_answer = "I have 5 dogs"
-choices = Array[String](["I have 5 books", "I have 5 rubbers", "I have 5 cows"])
+correct_answer = "I have five dogs"
+choices = Array[String](["I have five books", "I have five rubbers", "I saw five cows"])
 
 [sub_resource type="Resource" id="Resource_pb7eb"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 5 dogs\" en français ?"
+text = "Que veut dire \"I have five dogs\" en français ?"
 correct_answer = "j'ai cinq chiens"
-choices = Array[String](["j'ai cinq crayons", "j'ai cinq vaches", "j'ai cinq chats"])
+choices = Array[String](["j'ai cinq crayons", "j'ai vu cinq vaches", "j'ai cinq chats"])
 
 [sub_resource type="Resource" id="Resource_pfpsc"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Comment dit-on \"j'ai cinq oiseaux\" en anglais ?"
-correct_answer = "I have 5 birds"
-choices = Array[String](["I have 5 apples", "I have 5 pencils", "I have 5 pigs"])
+text = "Comment dit-on \"j'ai vu cinq oiseaux\" en anglais ?"
+correct_answer = "I saw five birds"
+choices = Array[String](["I have five apples", "I have five pencils", "I saw five pigs"])
 
 [sub_resource type="Resource" id="Resource_2cqku"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 5 birds\" en français ?"
-correct_answer = "j'ai cinq oiseaux"
+text = "Que veut dire \"I saw five birds\" en français ?"
+correct_answer = "j'ai vu cinq oiseaux"
 choices = Array[String](["j'ai cinq crayons", "j'ai cinq oeufs", "j'ai cinq stylos"])
 
 [sub_resource type="Resource" id="Resource_b2btg"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai cinq lapins\" en anglais ?"
-correct_answer = "I have 5 rabbits"
-choices = Array[String](["I have 5 pens", "I have 5 cows", "I have 5 eggs"])
+correct_answer = "I have five rabbits"
+choices = Array[String](["I have five pens", "I saw five cows", "I have five eggs"])
 
 [sub_resource type="Resource" id="Resource_k13kw"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 5 rabbits\" en français ?"
+text = "Que veut dire \"I have five rabbits\" en français ?"
 correct_answer = "j'ai cinq lapins"
-choices = Array[String](["j'ai cinq gâteaux", "j'ai cinq chiens", "j'ai cinq cochons"])
+choices = Array[String](["j'ai cinq gâteaux", "j'ai cinq chiens", "j'ai vu cinq cochons"])
 
 [sub_resource type="Resource" id="Resource_v0t7v"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Comment dit-on \"j'ai cinq vaches\" en anglais ?"
-correct_answer = "I have 5 cows"
-choices = Array[String](["I have 5 apples", "I have 5 eggs", "I have 5 frogs"])
+text = "Comment dit-on \"j'ai vu cinq vaches\" en anglais ?"
+correct_answer = "I saw five cows"
+choices = Array[String](["I have five apples", "I have five eggs", "I saw five frogs"])
 
 [sub_resource type="Resource" id="Resource_bbwxy"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 5 cows\" en français ?"
-correct_answer = "j'ai cinq vaches"
-choices = Array[String](["j'ai cinq oiseaux", "j'ai cinq lapins", "j'ai cinq canards"])
+text = "Que veut dire \"I saw five cows\" en français ?"
+correct_answer = "j'ai vu cinq vaches"
+choices = Array[String](["j'ai vu cinq oiseaux", "j'ai cinq lapins", "j'ai vu cinq canards"])
 
 [sub_resource type="Resource" id="Resource_eyxhq"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Comment dit-on \"j'ai cinq cochons\" en anglais ?"
-correct_answer = "I have 5 pigs"
-choices = Array[String](["I have 5 books", "I have 5 cats", "I have 5 rubbers"])
+text = "Comment dit-on \"j'ai vu cinq cochons\" en anglais ?"
+correct_answer = "I saw five pigs"
+choices = Array[String](["I have five books", "I have five cats", "I have five rubbers"])
 
 [sub_resource type="Resource" id="Resource_w16r2"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 5 pigs\" en français ?"
-correct_answer = "j'ai cinq cochons"
+text = "Que veut dire \"I saw five pigs\" en français ?"
+correct_answer = "j'ai vu cinq cochons"
 choices = Array[String](["j'ai cinq pommes", "j'ai cinq oeufs", "j'ai cinq crayons"])
 
 [sub_resource type="Resource" id="Resource_qonjm"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Comment dit-on \"j'ai cinq canards\" en anglais ?"
-correct_answer = "I have 5 ducks"
-choices = Array[String](["I have 5 bananas", "I have 5 eggs", "I have 5 birds"])
+text = "Comment dit-on \"j'ai vu cinq canards\" en anglais ?"
+correct_answer = "I saw five ducks"
+choices = Array[String](["I have five bananas", "I have five eggs", "I saw five birds"])
 
 [sub_resource type="Resource" id="Resource_fmv3f"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 5 ducks\" en français ?"
-correct_answer = "j'ai cinq canards"
-choices = Array[String](["j'ai cinq vaches", "j'ai cinq stylos", "j'ai cinq bananes"])
+text = "Que veut dire \"I saw five ducks\" en français ?"
+correct_answer = "j'ai vu cinq canards"
+choices = Array[String](["j'ai vu cinq vaches", "j'ai cinq stylos", "j'ai cinq bananes"])
 
 [sub_resource type="Resource" id="Resource_qipup"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Comment dit-on \"j'ai cinq grenouilles\" en anglais ?"
-correct_answer = "I have 5 frogs"
-choices = Array[String](["I have 5 eggs", "I have 5 books", "I have 5 pigs"])
+text = "Comment dit-on \"j'ai vu cinq grenouilles\" en anglais ?"
+correct_answer = "I saw five frogs"
+choices = Array[String](["I have five eggs", "I have five books", "I saw five pigs"])
 
 [sub_resource type="Resource" id="Resource_nxjk1"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 5 frogs\" en français ?"
-correct_answer = "j'ai cinq grenouilles"
-choices = Array[String](["j'ai cinq oiseaux", "j'ai cinq stylos", "j'ai cinq chats"])
+text = "Que veut dire \"I saw five frogs\" en français ?"
+correct_answer = "j'ai vu cinq grenouilles"
+choices = Array[String](["j'ai vu cinq oiseaux", "j'ai cinq stylos", "j'ai cinq chats"])
 
 [sub_resource type="Resource" id="Resource_5tu4j"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai six pommes\" en anglais ?"
-correct_answer = "I have 6 apples"
-choices = Array[String](["I have 6 pencils", "I have 6 pens", "I have 6 cats"])
+correct_answer = "I have six apples"
+choices = Array[String](["I have six pencils", "I have six pens", "I have six cats"])
 
 [sub_resource type="Resource" id="Resource_wer0o"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 6 apples\" en français ?"
+text = "Que veut dire \"I have six apples\" en français ?"
 correct_answer = "j'ai six pommes"
 choices = Array[String](["j'ai six stylos", "j'ai six chiens", "j'ai six bananes"])
 
@@ -3318,27 +3318,27 @@ choices = Array[String](["j'ai six stylos", "j'ai six chiens", "j'ai six bananes
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai six bananes\" en anglais ?"
-correct_answer = "I have 6 bananas"
-choices = Array[String](["I have 6 dogs", "I have 6 pens", "I have 6 birds"])
+correct_answer = "I have six bananas"
+choices = Array[String](["I have six dogs", "I have six pens", "I saw six birds"])
 
 [sub_resource type="Resource" id="Resource_57an8"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 6 bananas\" en français ?"
+text = "Que veut dire \"I have six bananas\" en français ?"
 correct_answer = "j'ai six bananes"
-choices = Array[String](["j'ai six pommes", "j'ai six grenouilles", "j'ai six stylos"])
+choices = Array[String](["j'ai six pommes", "j'ai vu six grenouilles", "j'ai six stylos"])
 
 [sub_resource type="Resource" id="Resource_m4spo"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai six oeufs\" en anglais ?"
-correct_answer = "I have 6 eggs"
-choices = Array[String](["I have 6 cows", "I have 6 books", "I have 6 birds"])
+correct_answer = "I have six eggs"
+choices = Array[String](["I saw six cows", "I have six books", "I saw six birds"])
 
 [sub_resource type="Resource" id="Resource_g6ii7"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 6 eggs\" en français ?"
+text = "Que veut dire \"I have six eggs\" en français ?"
 correct_answer = "j'ai six oeufs"
 choices = Array[String](["j'ai six crayons", "j'ai six stylos", "j'ai six lapins"])
 
@@ -3346,196 +3346,196 @@ choices = Array[String](["j'ai six crayons", "j'ai six stylos", "j'ai six lapins
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai six gâteaux\" en anglais ?"
-correct_answer = "I have 6 cakes"
-choices = Array[String](["I have 6 ducks", "I have 6 bananas", "I have 6 frogs"])
+correct_answer = "I have six cakes"
+choices = Array[String](["I saw six ducks", "I have six bananas", "I saw six frogs"])
 
 [sub_resource type="Resource" id="Resource_l2jsv"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 6 cakes\" en français ?"
+text = "Que veut dire \"I have six cakes\" en français ?"
 correct_answer = "j'ai six gâteaux"
-choices = Array[String](["j'ai six oiseaux", "j'ai six chiens", "j'ai six oeufs"])
+choices = Array[String](["j'ai vu six oiseaux", "j'ai six chiens", "j'ai six oeufs"])
 
 [sub_resource type="Resource" id="Resource_1veua"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai six crayons\" en anglais ?"
-correct_answer = "I have 6 pencils"
-choices = Array[String](["I have 6 eggs", "I have 6 frogs", "I have 6 rubbers"])
+correct_answer = "I have six pencils"
+choices = Array[String](["I have six eggs", "I saw six frogs", "I have six rubbers"])
 
 [sub_resource type="Resource" id="Resource_d1840"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 6 pencils\" en français ?"
+text = "Que veut dire \"I have six pencils\" en français ?"
 correct_answer = "j'ai six crayons"
-choices = Array[String](["j'ai six oiseaux", "j'ai six livres", "j'ai six chiens"])
+choices = Array[String](["j'ai vu six oiseaux", "j'ai six livres", "j'ai six chiens"])
 
 [sub_resource type="Resource" id="Resource_tint7"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai six gommes\" en anglais ?"
-correct_answer = "I have 6 rubbers"
-choices = Array[String](["I have 6 dogs", "I have 6 pens", "I have 6 cats"])
+correct_answer = "I have six rubbers"
+choices = Array[String](["I have six dogs", "I have six pens", "I have six cats"])
 
 [sub_resource type="Resource" id="Resource_mjhh5"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 6 rubbers\" en français ?"
+text = "Que veut dire \"I have six rubbers\" en français ?"
 correct_answer = "j'ai six gommes"
-choices = Array[String](["j'ai six cochons", "j'ai six bananes", "j'ai six vaches"])
+choices = Array[String](["j'ai vu six cochons", "j'ai six bananes", "j'ai vu six vaches"])
 
 [sub_resource type="Resource" id="Resource_h1fvn"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai six règles\" en anglais ?"
-correct_answer = "I have 6 rulers"
-choices = Array[String](["I have 6 cakes", "I have 6 pigs", "I have 6 birds"])
+correct_answer = "I have six rulers"
+choices = Array[String](["I have six cakes", "I saw six pigs", "I saw six birds"])
 
 [sub_resource type="Resource" id="Resource_baoka"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 6 rulers\" en français ?"
+text = "Que veut dire \"I have six rulers\" en français ?"
 correct_answer = "j'ai six règles"
-choices = Array[String](["j'ai six livres", "j'ai six grenouilles", "j'ai six stylos"])
+choices = Array[String](["j'ai six livres", "j'ai vu six grenouilles", "j'ai six stylos"])
 
 [sub_resource type="Resource" id="Resource_7yh14"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai six livres\" en anglais ?"
-correct_answer = "I have 6 books"
-choices = Array[String](["I have 6 pens", "I have 6 rulers", "I have 6 rubbers"])
+correct_answer = "I have six books"
+choices = Array[String](["I have six pens", "I have six rulers", "I have six rubbers"])
 
 [sub_resource type="Resource" id="Resource_r0li3"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 6 books\" en français ?"
+text = "Que veut dire \"I have six books\" en français ?"
 correct_answer = "j'ai six livres"
-choices = Array[String](["j'ai six canards", "j'ai six règles", "j'ai six grenouilles"])
+choices = Array[String](["j'ai vu six canards", "j'ai six règles", "j'ai vu six grenouilles"])
 
 [sub_resource type="Resource" id="Resource_sdnd6"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai six stylos\" en anglais ?"
-correct_answer = "I have 6 pens"
-choices = Array[String](["I have 6 cakes", "I have 6 rubbers", "I have 6 rulers"])
+correct_answer = "I have six pens"
+choices = Array[String](["I have six cakes", "I have six rubbers", "I have six rulers"])
 
 [sub_resource type="Resource" id="Resource_pbp5b"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 6 pens\" en français ?"
+text = "Que veut dire \"I have six pens\" en français ?"
 correct_answer = "j'ai six stylos"
-choices = Array[String](["j'ai six oiseaux", "j'ai six grenouilles", "j'ai six crayons"])
+choices = Array[String](["j'ai vu six oiseaux", "j'ai vu six grenouilles", "j'ai six crayons"])
 
 [sub_resource type="Resource" id="Resource_wsnmy"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai six chats\" en anglais ?"
-correct_answer = "I have 6 cats"
-choices = Array[String](["I have 6 rabbits", "I have 6 eggs", "I have 6 birds"])
+correct_answer = "I have six cats"
+choices = Array[String](["I have six rabbits", "I have six eggs", "I saw six birds"])
 
 [sub_resource type="Resource" id="Resource_pvsdb"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 6 cats\" en français ?"
+text = "Que veut dire \"I have six cats\" en français ?"
 correct_answer = "j'ai six chats"
-choices = Array[String](["j'ai six grenouilles", "j'ai six bananes", "j'ai six canards"])
+choices = Array[String](["j'ai vu six grenouilles", "j'ai six bananes", "j'ai vu six canards"])
 
 [sub_resource type="Resource" id="Resource_768m5"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai six chiens\" en anglais ?"
-correct_answer = "I have 6 dogs"
-choices = Array[String](["I have 6 eggs", "I have 6 bananas", "I have 6 rulers"])
+correct_answer = "I have six dogs"
+choices = Array[String](["I have six eggs", "I have six bananas", "I have six rulers"])
 
 [sub_resource type="Resource" id="Resource_orr4i"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 6 dogs\" en français ?"
+text = "Que veut dire \"I have six dogs\" en français ?"
 correct_answer = "j'ai six chiens"
-choices = Array[String](["j'ai six gâteaux", "j'ai six lapins", "j'ai six canards"])
+choices = Array[String](["j'ai six gâteaux", "j'ai six lapins", "j'ai vu six canards"])
 
 [sub_resource type="Resource" id="Resource_gby18"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Comment dit-on \"j'ai six oiseaux\" en anglais ?"
-correct_answer = "I have 6 birds"
-choices = Array[String](["I have 6 rabbits", "I have 6 cows", "I have 6 eggs"])
+text = "Comment dit-on \"j'ai vu six oiseaux\" en anglais ?"
+correct_answer = "I saw six birds"
+choices = Array[String](["I have six rabbits", "I saw six cows", "I have six eggs"])
 
 [sub_resource type="Resource" id="Resource_ubn47"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 6 birds\" en français ?"
-correct_answer = "j'ai six oiseaux"
+text = "Que veut dire \"I saw six birds\" en français ?"
+correct_answer = "j'ai vu six oiseaux"
 choices = Array[String](["j'ai six bananes", "j'ai six chats", "j'ai six stylos"])
 
 [sub_resource type="Resource" id="Resource_y76tu"]
 script = ExtResource("1_hiwpi")
 subject = 5
 text = "Comment dit-on \"j'ai six lapins\" en anglais ?"
-correct_answer = "I have 6 rabbits"
-choices = Array[String](["I have 6 dogs", "I have 6 frogs", "I have 6 bananas"])
+correct_answer = "I have six rabbits"
+choices = Array[String](["I have six dogs", "I saw six frogs", "I have six bananas"])
 
 [sub_resource type="Resource" id="Resource_2vkwp"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 6 rabbits\" en français ?"
+text = "Que veut dire \"I have six rabbits\" en français ?"
 correct_answer = "j'ai six lapins"
-choices = Array[String](["j'ai six cochons", "j'ai six gommes", "j'ai six grenouilles"])
+choices = Array[String](["j'ai vu six cochons", "j'ai six gommes", "j'ai vu six grenouilles"])
 
 [sub_resource type="Resource" id="Resource_4kax4"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Comment dit-on \"j'ai six vaches\" en anglais ?"
-correct_answer = "I have 6 cows"
-choices = Array[String](["I have 6 pigs", "I have 6 frogs", "I have 6 birds"])
+text = "Comment dit-on \"j'ai vu six vaches\" en anglais ?"
+correct_answer = "I saw six cows"
+choices = Array[String](["I saw six pigs", "I saw six frogs", "I saw six birds"])
 
 [sub_resource type="Resource" id="Resource_3u2ow"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 6 cows\" en français ?"
-correct_answer = "j'ai six vaches"
+text = "Que veut dire \"I saw six cows\" en français ?"
+correct_answer = "j'ai vu six vaches"
 choices = Array[String](["j'ai six bananes", "j'ai six crayons", "j'ai six chats"])
 
 [sub_resource type="Resource" id="Resource_s5ajp"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Comment dit-on \"j'ai six cochons\" en anglais ?"
-correct_answer = "I have 6 pigs"
-choices = Array[String](["I have 6 cats", "I have 6 rubbers", "I have 6 bananas"])
+text = "Comment dit-on \"j'ai vu six cochons\" en anglais ?"
+correct_answer = "I saw six pigs"
+choices = Array[String](["I have six cats", "I have six rubbers", "I have six bananas"])
 
 [sub_resource type="Resource" id="Resource_mmmr4"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 6 pigs\" en français ?"
-correct_answer = "j'ai six cochons"
+text = "Que veut dire \"I saw six pigs\" en français ?"
+correct_answer = "j'ai vu six cochons"
 choices = Array[String](["j'ai six règles", "j'ai six oeufs", "j'ai six chiens"])
 
 [sub_resource type="Resource" id="Resource_wao0n"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Comment dit-on \"j'ai six canards\" en anglais ?"
-correct_answer = "I have 6 ducks"
-choices = Array[String](["I have 6 frogs", "I have 6 cakes", "I have 6 cows"])
+text = "Comment dit-on \"j'ai vu six canards\" en anglais ?"
+correct_answer = "I saw six ducks"
+choices = Array[String](["I saw six frogs", "I have six cakes", "I saw six cows"])
 
 [sub_resource type="Resource" id="Resource_2xym6"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 6 ducks\" en français ?"
-correct_answer = "j'ai six canards"
-choices = Array[String](["j'ai six gâteaux", "j'ai six gommes", "j'ai six vaches"])
+text = "Que veut dire \"I saw six ducks\" en français ?"
+correct_answer = "j'ai vu six canards"
+choices = Array[String](["j'ai six gâteaux", "j'ai six gommes", "j'ai vu six vaches"])
 
 [sub_resource type="Resource" id="Resource_lml7n"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Comment dit-on \"j'ai six grenouilles\" en anglais ?"
-correct_answer = "I have 6 frogs"
-choices = Array[String](["I have 6 birds", "I have 6 bananas", "I have 6 rabbits"])
+text = "Comment dit-on \"j'ai vu six grenouilles\" en anglais ?"
+correct_answer = "I saw six frogs"
+choices = Array[String](["I saw six birds", "I have six bananas", "I have six rabbits"])
 
 [sub_resource type="Resource" id="Resource_jqe0o"]
 script = ExtResource("1_hiwpi")
 subject = 5
-text = "Que veut dire \"I have 6 frogs\" en français ?"
-correct_answer = "j'ai six grenouilles"
+text = "Que veut dire \"I saw six frogs\" en français ?"
+correct_answer = "j'ai vu six grenouilles"
 choices = Array[String](["j'ai six stylos", "j'ai six chats", "j'ai six gâteaux"])
 
 [sub_resource type="Resource" id="Resource_qw0rc"]
