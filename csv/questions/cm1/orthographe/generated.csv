@@ -24,16 +24,16 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 11104;Il est ___ grand pour son âge : il dépasse tout juste la taille minimum exigée pour le manège.;assez;trop;beaucoup;très
 11105;Elle chante ___ bien, elle mériterait de passer à la télévision !;très;trop;assez;beaucoup
 11106;Nous partirons ___, dans un instant.;bientôt;déjà;encore;jamais
-11107;Comment écrit-on le verbe 'appeler' avec 'j' au présent ?;j'appelle;j'appelé;j'apelle;j'apele
-11108;Comment écrit-on le verbe 'jeter' avec 'je' au présent ?;je jette;je jeté;je gette;je gete
-11109;Comment s'écrit le mot pour 'endroit où l'on habite' ?;adresse;esserda;adrese;adreesse
-11110;Comment s'écrit le mot pour 'personne qui enseigne' ?;professeur;profeseur;proffeseur;professeure
+11107;"Comment écrit-on le verbe ""appeler"" avec ""j"" au présent ?";j'appelle;j'appelé;j'apelle;j'apele
+11108;"Comment écrit-on le verbe ""jeter"" avec ""je"" au présent ?";je jette;je jeté;je gette;je gete
+11109;"Comment s'écrit le mot pour ""endroit où l'on habite"" ?";adresse;esserda;adrese;adreesse
+11110;"Comment s'écrit le mot pour ""personne qui enseigne"" ?";professeur;profeseur;proffeseur;professeure
 11111;Quelle est la bonne orthographe ?;arriver;ariver;arrriver;arrivre
 11112;Quelle est la bonne orthographe ?;pomme;pome;pommme;pomem
 11113;Quelle est la bonne orthographe ?;ballon;balon;balllon;ballno
 11114;Quelle est la bonne orthographe ?;lettre;letre;letttre;letter
-11115;Comment s'écrit correctement : 'la classe' ou 'la clase' ?;la classe;la clase;la classse;la clace
-11116;Comment s'écrit correctement : 'le tapis' ou 'le tapiss' ?;le tapis;le tapiss;le tapit;le tapix
+11115;"Comment s'écrit correctement : ""la classe"" ou ""la clase"" ?";la classe;la clase;la classse;la clace
+11116;"Comment s'écrit correctement : ""le tapis"" ou ""le tapiss"" ?";le tapis;le tapiss;le tapit;le tapix
 36000;Marie ___ trouvée hier.;l'a;la;las;l'as
 36001;Regarde ___-bas, c'est une revue.;là;l'a;las;l'as
 36002;Paul ___ trouvée hier.;l'a;la;las;l'as
@@ -101,14 +101,14 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 36064;Le trajet dure ___ deux heures, à quelques minutes près.;environ;exactement;précisément;juste
 36065;Ils ont discuté ___, pendant plus de trois heures.;longtemps;brièvement;rapidement;aussitôt
 36066;Dès qu'elle a entendu la sonnette, elle a ___ ouvert la porte.;aussitôt;longtemps;tard;lentement
-36067;Dans la phrase 'Il pleut souvent en automne.', quel est l'adverbe invariable ?;souvent;en;automne;pleut
-36068;Dans la phrase 'Nous partons bientôt en vacances.', quel est l'adverbe invariable ?;bientôt;partons;en;vacances
-36069;Dans la phrase 'Ils habitent environ à dix kilomètres.', quel est l'adverbe invariable ?;environ;dix;kilomètres;à
-36070;Dans la phrase 'Le chat dort toujours dans son panier.', quel est l'adverbe invariable ?;toujours;dort;dans;panier
-36071;Dans la phrase 'Cependant, il a réussi.', quel est l'adverbe invariable ?;Cependant;a;il;réussi
-36072;Dans la phrase 'Pourtant, elle a essayé.', quel est l'adverbe invariable ?;Pourtant;elle;a;essayé
-36073;Comment écrit-on le verbe 'étiqueter' avec 'je' au présent ?;j'étiquette;je étiquete;j'étiquete;j'étiquettee
-36074;Comment écrit-on le verbe 'épeler' avec 'je' au présent ?;j'épelle;je épele;j'épele;j'épellee
+36067;"Dans la phrase ""Il pleut souvent en automne."", quel est l'adverbe invariable ?";souvent;en;automne;pleut
+36068;"Dans la phrase ""Nous partons bientôt en vacances."", quel est l'adverbe invariable ?";bientôt;partons;en;vacances
+36069;"Dans la phrase ""Ils habitent environ à dix kilomètres."", quel est l'adverbe invariable ?";environ;dix;kilomètres;à
+36070;"Dans la phrase ""Le chat dort toujours dans son panier."", quel est l'adverbe invariable ?";toujours;dort;dans;panier
+36071;"Dans la phrase ""Cependant, il a réussi."", quel est l'adverbe invariable ?";Cependant;a;il;réussi
+36072;"Dans la phrase ""Pourtant, elle a essayé."", quel est l'adverbe invariable ?";Pourtant;elle;a;essayé
+36073;"Comment écrit-on le verbe ""étiqueter"" avec ""je"" au présent ?";j'étiquette;je étiquete;j'étiquete;j'étiquettee
+36074;"Comment écrit-on le verbe ""épeler"" avec ""je"" au présent ?";j'épelle;je épele;j'épele;j'épellee
 36075;Quelle est la bonne orthographe ?;carotte;carote;carottte;carotet
 36076;Quelle est la bonne orthographe ?;chaussette;chaussete;chaussettte;chaussetet
 36077;Quelle est la bonne orthographe ?;bouteille;boutteille;bouteilel;bbouteille
@@ -232,13 +232,13 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 36195;Elle est rentrée ___ que ses amies.;plus tôt;plutôt;plus tard;plutard
 36196;___ que de te plaindre, agis !;Plutôt;Plus tôt;Plus tard;Plutard
 36197;Le réveil a sonné ___ que d'habitude.;plus tôt;plutôt;plus tard;plutard
-36198;Dans la phrase 'Il fait très beau ce matin.', quel est l'adverbe invariable ?;très;fait;beau;matin
-36199;Dans la phrase 'Ils arrivent tard le soir.', quel est l'adverbe invariable ?;tard;arrivent;le;soir
-36200;Dans la phrase 'Range tes affaires devant la porte.', quelle est la préposition invariable ?;devant;tes;la;porte
-36201;Dans la phrase 'Le chat se cache derrière le canapé.', quelle est la préposition invariable ?;derrière;canapé;se;chat
-36202;Dans la phrase 'Il joue dehors malgré la pluie.', quel est l'adverbe invariable ?;dehors;malgré;pluie;la
-36203;Dans la phrase 'Elle range ses jouets dedans.', quel est l'adverbe invariable ?;dedans;range;jouets;ses
-36204;Dans la phrase 'Il vit seul dans cette maison.', quelle est la préposition invariable ?;dans;vit;cette;seul
+36198;"Dans la phrase ""Il fait très beau ce matin."", quel est l'adverbe invariable ?";très;fait;beau;matin
+36199;"Dans la phrase ""Ils arrivent tard le soir."", quel est l'adverbe invariable ?";tard;arrivent;le;soir
+36200;"Dans la phrase ""Range tes affaires devant la porte."", quelle est la préposition invariable ?";devant;tes;la;porte
+36201;"Dans la phrase ""Le chat se cache derrière le canapé."", quelle est la préposition invariable ?";derrière;canapé;se;chat
+36202;"Dans la phrase ""Il joue dehors malgré la pluie."", quel est l'adverbe invariable ?";dehors;malgré;pluie;la
+36203;"Dans la phrase ""Elle range ses jouets dedans."", quel est l'adverbe invariable ?";dedans;range;jouets;ses
+36204;"Dans la phrase ""Il vit seul dans cette maison."", quelle est la préposition invariable ?";dans;vit;cette;seul
 36205;Quelle est la bonne orthographe ?;chatouiller;cchatouiller;chatouillre;chhatouiller
 36206;Quelle est la bonne orthographe ?;terrain;terain;terrrain;terrani
 36207;Quelle est la bonne orthographe ?;cueillette;cueilette;cueilllette;cueilletet
@@ -824,21 +824,21 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 36787;Le pompier est intervenu très ___ après l'appel, en à peine deux minutes.;rapidement;souvent;peu;beaucoup
 36788;Ce bébé pleure ___, jour et nuit, sans aucune pause.;constamment;lentement;souvent;jamais
 36789;Il est ___ midi, pas une minute de plus ou de moins.;exactement;beaucoup;souvent;dehors
-36790;Dans la phrase 'Il range soigneusement ses outils.', quel est l'adverbe invariable ?;soigneusement;range;ses;outils
-36791;Dans la phrase 'Nous mangeons ensemble le dimanche.', quel est l'adverbe invariable ?;ensemble;mangeons;le;dimanche
-36792;Dans la phrase 'Le train part bientôt de la gare.', quel est l'adverbe invariable ?;bientôt;part;de;gare
-36793;Dans la phrase 'Les oiseaux chantent partout dans le jardin.', quel est l'adverbe invariable ?;partout;chantent;dans;jardin
-36794;Dans la phrase 'Elle range soigneusement ses affaires.', quel est l'adverbe invariable ?;soigneusement;range;ses;affaires
-36795;Dans la phrase 'Le chien dort dehors ce soir.', quel est l'adverbe invariable ?;dehors;dort;ce;soir
-36796;Dans la phrase 'Elle parle doucement à son chat.', quel est l'adverbe invariable ?;doucement;parle;à;chat
-36797;Dans la phrase 'Elle chante toujours sous la douche.', quel est l'adverbe invariable ?;toujours;chante;sous;douche
-36798;Dans la phrase 'Il travaille rarement le samedi.', quel est l'adverbe invariable ?;rarement;travaille;le;samedi
-36799;Dans la phrase 'Le magasin ouvre tôt le matin.', quel est l'adverbe invariable ?;tôt;ouvre;le;matin
-36800;Dans la phrase 'Ils marchent lentement vers l'école.', quel est l'adverbe invariable ?;lentement;marchent;vers;école
-36801;Dans la phrase 'Nous partons aujourd'hui en voyage.', quel est l'adverbe invariable ?;aujourd'hui;partons;en;voyage
-36802;Dans la phrase 'Nous arrivons enfin au sommet.', quel est l'adverbe invariable ?;enfin;arrivons;au;sommet
-36803;Dans la phrase 'Nous restons ici jusqu'au soir.', quel est l'adverbe invariable ?;ici;restons;jusqu'au;soir
-36804;Dans la phrase 'Il pleut rarement en été.', quel est l'adverbe invariable ?;rarement;pleut;en;été
+36790;"Dans la phrase ""Il range soigneusement ses outils."", quel est l'adverbe invariable ?";soigneusement;range;ses;outils
+36791;"Dans la phrase ""Nous mangeons ensemble le dimanche."", quel est l'adverbe invariable ?";ensemble;mangeons;le;dimanche
+36792;"Dans la phrase ""Le train part bientôt de la gare."", quel est l'adverbe invariable ?";bientôt;part;de;gare
+36793;"Dans la phrase ""Les oiseaux chantent partout dans le jardin."", quel est l'adverbe invariable ?";partout;chantent;dans;jardin
+36794;"Dans la phrase ""Elle range soigneusement ses affaires."", quel est l'adverbe invariable ?";soigneusement;range;ses;affaires
+36795;"Dans la phrase ""Le chien dort dehors ce soir."", quel est l'adverbe invariable ?";dehors;dort;ce;soir
+36796;"Dans la phrase ""Elle parle doucement à son chat."", quel est l'adverbe invariable ?";doucement;parle;à;chat
+36797;"Dans la phrase ""Elle chante toujours sous la douche."", quel est l'adverbe invariable ?";toujours;chante;sous;douche
+36798;"Dans la phrase ""Il travaille rarement le samedi."", quel est l'adverbe invariable ?";rarement;travaille;le;samedi
+36799;"Dans la phrase ""Le magasin ouvre tôt le matin."", quel est l'adverbe invariable ?";tôt;ouvre;le;matin
+36800;"Dans la phrase ""Ils marchent lentement vers l'école."", quel est l'adverbe invariable ?";lentement;marchent;vers;école
+36801;"Dans la phrase ""Nous partons aujourd'hui en voyage."", quel est l'adverbe invariable ?";aujourd'hui;partons;en;voyage
+36802;"Dans la phrase ""Nous arrivons enfin au sommet."", quel est l'adverbe invariable ?";enfin;arrivons;au;sommet
+36803;"Dans la phrase ""Nous restons ici jusqu'au soir."", quel est l'adverbe invariable ?";ici;restons;jusqu'au;soir
+36804;"Dans la phrase ""Il pleut rarement en été."", quel est l'adverbe invariable ?";rarement;pleut;en;été
 36805;Quelle est la bonne orthographe ?;chaussure;cchaussure;chausssure;chaussuer
 36806;Quelle est la bonne orthographe ?;participation;partiicipation;participatino;pparticipation
 36807;Quelle est la bonne orthographe ?;particulier;partticulier;particulire;pparticulier

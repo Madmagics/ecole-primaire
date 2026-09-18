@@ -1,1001 +1,1001 @@
 id;text;correct_answer;choice_2;choice_3;choice_4
-2201;Quel est le pluriel de 'canal' ?;canaux;canals;canales;canaus
-2202;Quel est le pluriel de 'général' ?;généraux;générals;générales;généraus
-2203;Quel est le pluriel de 'hôpital' ?;hôpitaux;hôpitals;hôpitales;hôpitaus
-2204;Quel est le pluriel de 'tribunal' ?;tribunaux;tribunals;tribunales;tribunaus
-2205;Quel est le pluriel de 'cheval' ?;chevaux;chevals;chevales;chevaus
-2206;Quel est le pluriel de 'journal' ?;journaux;journals;journales;journaus
-2207;Quel est le pluriel de 'animal' ?;animaux;animals;animales;animaus
-2208;Quel est le pluriel de 'signal' ?;signaux;signals;signales;signaus
-2209;Quel est le pluriel de 'bras' ?;bras;brass;brases;brasx
-2210;Quel est le pluriel de 'souris' ?;souris;souriss;sourises;sourisx
-2211;Quel est le pluriel de 'tapis' ?;tapis;tapiss;tapises;tapisx
-2212;Quel est le pluriel de 'croix' ?;croix;croixs;croixes;croixx
-2213;Quel est le pluriel de 'voix' ?;voix;voixs;voixes;voixx
-2214;Quel est le pluriel de 'fils' ?;fils;filss;filses;filsx
-2215;Quel est le pluriel de 'pays' ?;pays;payss;payses;paysx
-2216;Quel est le pluriel de 'nez' ?;nez;nezs;nezes;nezx
-2217;Quel est le pluriel de 'temps' ?;temps;tempss;tempses;tempsx
-2218;Quel est le pluriel de 'prix' ?;prix;prixs;prixes;prixx
-2219;Quel est le féminin de 'heureux' ?;heureuse;heureux;heureuxe;heureus
-2220;Quel est le féminin de 'gros' ?;grosse;gros;grose;gross
-2221;Quel est le féminin de 'bas' ?;basse;bas;base;bass
-2222;Quel est le féminin de 'muet' ?;muette;muet;muete;muett
-2223;Quel est le féminin de 'neuf' ?;neuve;neuf;neufe;neuv
-2224;Quel est le féminin de 'italien' ?;italienne;italien;italiene;italienn
-2225;Quel est le féminin de 'blanc' ?;blanche;blanc;blance;blanch
-2226;Quel est le féminin de 'faux' ?;fausse;faux;fauxe;fauss
-2227;Quel est le féminin de 'beau' ?;belle;beau;beaue;bell
-2228;Quel est le féminin de 'bon' ?;bonne;bon;bone;bonn
-2229;Quel est le féminin de 'sec' ?;sèche;sec;sèce;sèch
-2230;Quel est le féminin de 'long' ?;longue;long;longe;longu
-2231;Quel est le féminin de 'mignon' ?;mignonne;mignon;mignone;mignonn
-2232;Quel est le féminin de 'vif' ?;vive;vif;vife;viv
-2233;Quel est le féminin de 'curieux' ?;curieuse;curieux;curieuxe;curieus
-2234;Quel est le féminin de 'actif' ?;active;actif;actife;activ
-2235;Quel est le féminin de 'frais' ?;fraîche;frais;fraise;fraîch
-2236;Quel est le féminin de 'nouveau' ?;nouvelle;nouveau;nouveaue;nouvell
-2237;Quel est le féminin de 'roux' ?;rousse;roux;rouxe;rouss
-2238;Quel est le féminin de 'jaloux' ?;jalouse;jaloux;jalouxe;jalous
-2239;Quel est le féminin de 'gentil' ?;gentille;gentil;gentile;gentill
-2240;Quel est le féminin de 'amoureux' ?;amoureuse;amoureux;amoureuxe;amoureus
-2241;Quel est le féminin de 'sérieux' ?;sérieuse;sérieux;sérieuxe;sérieus
-2242;Quel est le féminin de 'dangereux' ?;dangereuse;dangereux;dangereuxe;dangereus
-2243;Quel est le féminin de 'épais' ?;épaisse;épais;épaise;épaiss
-2244;Quel est le féminin de 'doux' ?;douce;doux;douxe;douc
-2245;Quel est le féminin de 'ancien' ?;ancienne;ancien;anciene;ancienn
-2246;Quel est le féminin de 'sportif' ?;sportive;sportif;sportife;sportiv
-2344;Quelle est la nature du mot 'joli' ?;adjectif;adverbe;verbe;nom
-2345;Quelle est la nature du mot 'maison' ?;nom;adjectif;adverbe;verbe
-2346;Quelle est la nature du mot 'petit' ?;adjectif;nom;adverbe;verbe
-2347;Quelle est la nature du mot 'danser' ?;verbe;adverbe;nom;adjectif
-2348;Quelle est la nature du mot 'table' ?;nom;adverbe;verbe;adjectif
-2349;Quelle est la nature du mot 'chanter' ?;verbe;adverbe;nom;adjectif
-2350;Quelle est la nature du mot 'beau' ?;adjectif;verbe;nom;adverbe
-2351;Quelle est la nature du mot 'jardin' ?;nom;verbe;adverbe;adjectif
-2352;Quelle est la nature du mot 'gentil' ?;adjectif;nom;adverbe;verbe
-2353;Quelle est la nature du mot 'doucement' ?;adverbe;verbe;adjectif;nom
-2354;Quelle est la nature du mot 'sauter' ?;verbe;adverbe;adjectif;nom
-2355;Quelle est la nature du mot 'voiture' ?;nom;adverbe;verbe;adjectif
-2356;Quelle est la nature du mot 'souvent' ?;adverbe;verbe;adjectif;nom
-2357;Quelle est la nature du mot 'manger' ?;verbe;nom;adjectif;adverbe
-2358;Quelle est la nature du mot 'courir' ?;verbe;adjectif;adverbe;nom
-2359;Quelle est la nature du mot 'vite' ?;adverbe;adjectif;nom;verbe
-2360;Quelle est la nature du mot 'rapidement' ?;adverbe;adjectif;nom;verbe
-2361;Quelle est la nature du mot 'chat' ?;nom;verbe;adjectif;adverbe
-2362;Quelle est la nature du mot 'lentement' ?;adverbe;adjectif;verbe;nom
-2363;Quelle est la nature du mot 'grand' ?;adjectif;nom;verbe;adverbe
-2378;Quel est le masculin de 'fausse' ?;faux;fausse;faussée;fauxe
-2379;Quel est le masculin de 'sérieuse' ?;sérieux;sérieuse;sérieusee;sérieuxe
-2380;Quel est le masculin de 'basse' ?;bas;basse;bassee;base
-2381;Quel est le masculin de 'neuve' ?;neuf;neuve;neuvee;neufe
-2382;Quel est le masculin de 'italienne' ?;italien;italienne;italiennee;italiene
-2383;Quel est le masculin de 'douce' ?;doux;douce;doucee;douxe
-2384;Quel est le masculin de 'blanche' ?;blanc;blanche;blanchee;blance
-2385;Quel est le masculin de 'curieuse' ?;curieux;curieuse;curieusee;curieuxe
-2386;Quel est le masculin de 'sèche' ?;sec;sèche;séchée;sèce
-2387;Quel est le masculin de 'rousse' ?;roux;rousse;roussee;rouxe
-2388;Quel est le masculin de 'fraîche' ?;frais;fraîche;fraîchée;fraise
-2389;Quel est le masculin de 'jalouse' ?;jaloux;jalouse;jalousée;jalouxe
-2390;Quel est le masculin de 'vive' ?;vif;vive;vivee;vife
-2391;Quel est le masculin de 'amoureuse' ?;amoureux;amoureuse;amoureusee;amoureuxe
-2392;Quel est le masculin de 'épaisse' ?;épais;épaisse;épaissée;épaise
-2393;Quel est le masculin de 'grosse' ?;gros;grosse;grossee;grose
-2394;Quel est le masculin de 'active' ?;actif;active;activée;actife
-2395;Quel est le masculin de 'muette' ?;muet;muette;muettee;muete
-2396;Quel est le masculin de 'dangereuse' ?;dangereux;dangereuse;dangereusee;dangereuxe
-2397;Quel est le masculin de 'nouvelle' ?;nouveau;nouvelle;nouvellee;nouveaue
-28000;Quel est le pluriel de 'bocal' ?;bocaux;bocals;bocas;bocalx
-28001;Quel est le pluriel de 'local' ?;locaux;locals;locas;localx
-28002;Quel est le pluriel de 'métal' ?;métaux;métals;métas;métalx
-28003;Quel est le pluriel de 'minéral' ?;minéraux;minérals;minéras;minéralx
-28004;Quel est le pluriel de 'végétal' ?;végétaux;végétals;végétas;végétalx
-28005;Quel est le pluriel de 'mal' ?;maux;mals;mas;malx
-28006;Quel est le pluriel de 'travail' ?;travaux;travails;travais;travailx
-28007;Quel est le pluriel de 'corail' ?;coraux;corails;corais;corailx
-28008;Quel est le pluriel de 'gaz' ?;gaz;gazs;gazes;gazx
-28009;Quel est le pluriel de 'radis' ?;radis;radiss;radises;radisx
-28010;Quel est le pluriel de 'avis' ?;avis;aviss;avises;avisx
-28011;Quel est le pluriel de 'repas' ?;repas;repass;repases;repasx
-28012;Quel est le pluriel de 'permis' ?;permis;permiss;permises;permisx
-28013;Quel est le pluriel de 'puits' ?;puits;puitss;puitses;puitsx
-28014;Quel est le pluriel de 'matelas' ?;matelas;matelass;matelases;matelasx
-28015;Quel est le pluriel de 'ours' ?;ours;ourss;ourses;oursx
-28016;Quel est le pluriel de 'dos' ?;dos;doss;doses;dosx
-28017;Quel est le pluriel de 'choix' ?;choix;choixs;choixes;choixx
-28018;Quel est le féminin de 'grand' ?;grande;grand;grandee;grandes
-28019;Quel est le masculin de 'grande' ?;grand;grande;grandee;grands
-28020;Quel est le féminin de 'petit' ?;petite;petit;petitee;petites
-28021;Quel est le masculin de 'petite' ?;petit;petite;petitee;petits
-28022;Quel est le féminin de 'vert' ?;verte;vert;vertee;vertes
-28023;Quel est le masculin de 'verte' ?;vert;verte;vertee;verts
-28024;Quel est le féminin de 'bleu' ?;bleue;bleu;bleuee;bleues
-28025;Quel est le masculin de 'bleue' ?;bleu;bleue;bleuee;bleus
-28026;Quel est le féminin de 'noir' ?;noire;noir;noiree;noires
-28027;Quel est le masculin de 'noire' ?;noir;noire;noiree;noirs
-28028;Quel est le féminin de 'gris' ?;grise;gris;grisee;grises
-28029;Quel est le masculin de 'grise' ?;gris;grise;grisee;griss
-28030;Quel est le féminin de 'lourd' ?;lourde;lourd;lourdee;lourdes
-28031;Quel est le masculin de 'lourde' ?;lourd;lourde;lourdee;lourds
-28032;Quel est le féminin de 'chaud' ?;chaude;chaud;chaudee;chaudes
-28033;Quel est le masculin de 'chaude' ?;chaud;chaude;chaudee;chauds
-28034;Quel est le féminin de 'froid' ?;froide;froid;froidee;froides
-28035;Quel est le masculin de 'froide' ?;froid;froide;froidee;froids
-28036;Quel est le féminin de 'fort' ?;forte;fort;fortee;fortes
-28037;Quel est le masculin de 'forte' ?;fort;forte;fortee;forts
-28038;Quel est le féminin de 'poli' ?;polie;poli;poliee;polies
-28039;Quel est le masculin de 'polie' ?;poli;polie;poliee;polis
-28040;Quel est le féminin de 'joli' ?;jolie;joli;joliee;jolies
-28041;Quel est le masculin de 'jolie' ?;joli;jolie;joliee;jolis
-28042;Quel est le féminin de 'patient' ?;patiente;patient;patientee;patientes
-28043;Quel est le masculin de 'patiente' ?;patient;patiente;patientee;patients
-28044;Quel est le féminin de 'prudent' ?;prudente;prudent;prudentee;prudentes
-28045;Quel est le masculin de 'prudente' ?;prudent;prudente;prudentee;prudents
-28046;Quel est le féminin de 'content' ?;contente;content;contentee;contentes
-28047;Quel est le masculin de 'contente' ?;content;contente;contentee;contents
-28048;Quel est le féminin de 'méchant' ?;méchante;méchant;méchantee;méchantes
-28049;Quel est le masculin de 'méchante' ?;méchant;méchante;méchantee;méchants
-28050;Quel est le féminin de 'charmant' ?;charmante;charmant;charmantee;charmantes
-28051;Quel est le masculin de 'charmante' ?;charmant;charmante;charmantee;charmants
-28052;Quel est le féminin de 'brillant' ?;brillante;brillant;brillantee;brillantes
-28053;Quel est le masculin de 'brillante' ?;brillant;brillante;brillantee;brillants
-28054;Quel est le féminin de 'intelligent' ?;intelligente;intelligent;intelligentee;intelligentes
-28055;Quel est le masculin de 'intelligente' ?;intelligent;intelligente;intelligentee;intelligents
-28056;Quel est le féminin de 'gourmand' ?;gourmande;gourmand;gourmandee;gourmandes
-28057;Quel est le masculin de 'gourmande' ?;gourmand;gourmande;gourmandee;gourmands
-28058;Quel est le féminin de 'élégant' ?;élégante;élégant;élégantee;élégantes
-28059;Quel est le masculin de 'élégante' ?;élégant;élégante;élégantee;élégants
-28060;Quel est le féminin de 'puissant' ?;puissante;puissant;puissantee;puissantes
-28061;Quel est le masculin de 'puissante' ?;puissant;puissante;puissantee;puissants
-28062;Quel est le féminin de 'bruyant' ?;bruyante;bruyant;bruyantee;bruyantes
-28063;Quel est le masculin de 'bruyante' ?;bruyant;bruyante;bruyantee;bruyants
-28064;Quel est le féminin de 'suivant' ?;suivante;suivant;suivantee;suivantes
-28065;Quel est le masculin de 'suivante' ?;suivant;suivante;suivantee;suivants
-28066;Quel est le féminin de 'important' ?;importante;important;importantee;importantes
-28067;Quel est le masculin de 'importante' ?;important;importante;importantee;importants
-28068;Quel est le féminin de 'vaillant' ?;vaillante;vaillant;vaillantee;vaillantes
-28069;Quel est le masculin de 'vaillante' ?;vaillant;vaillante;vaillantee;vaillants
-28070;Quel est le féminin de 'savant' ?;savante;savant;savantee;savantes
-28071;Quel est le masculin de 'savante' ?;savant;savante;savantee;savants
-28072;Quel est le féminin de 'persévérant' ?;persévérante;persévérant;persévérantee;persévérantes
-28073;Quel est le masculin de 'persévérante' ?;persévérant;persévérante;persévérantee;persévérants
-28074;Quel est le féminin de 'obéissant' ?;obéissante;obéissant;obéissantee;obéissantes
-28075;Quel est le masculin de 'obéissante' ?;obéissant;obéissante;obéissantee;obéissants
-28076;Quel est le féminin de 'souriant' ?;souriante;souriant;souriantee;souriantes
-28077;Quel est le masculin de 'souriante' ?;souriant;souriante;souriantee;souriants
-28078;Quel est le féminin de 'amusant' ?;amusante;amusant;amusantee;amusantes
-28079;Quel est le masculin de 'amusante' ?;amusant;amusante;amusantee;amusants
-28080;Quel est le féminin de 'effrayant' ?;effrayante;effrayant;effrayantee;effrayantes
-28081;Quel est le masculin de 'effrayante' ?;effrayant;effrayante;effrayantee;effrayants
-28082;Quel est le féminin de 'tremblant' ?;tremblante;tremblant;tremblantee;tremblantes
-28083;Quel est le masculin de 'tremblante' ?;tremblant;tremblante;tremblantee;tremblants
-28084;Quel est le féminin de 'hésitant' ?;hésitante;hésitant;hésitantee;hésitantes
-28085;Quel est le masculin de 'hésitante' ?;hésitant;hésitante;hésitantee;hésitants
-28086;Quel est le féminin de 'surprenant' ?;surprenante;surprenant;surprenantee;surprenantes
-28087;Quel est le masculin de 'surprenante' ?;surprenant;surprenante;surprenantee;surprenants
-28088;Quel est le féminin de 'inquiétant' ?;inquiétante;inquiétant;inquiétantee;inquiétantes
-28089;Quel est le masculin de 'inquiétante' ?;inquiétant;inquiétante;inquiétantee;inquiétants
-28090;Quel est le féminin de 'reposant' ?;reposante;reposant;reposantee;reposantes
-28091;Quel est le masculin de 'reposante' ?;reposant;reposante;reposantee;reposants
-28092;Quel est le féminin de 'passionnant' ?;passionnante;passionnant;passionnantee;passionnantes
-28093;Quel est le masculin de 'passionnante' ?;passionnant;passionnante;passionnantee;passionnants
-28094;Quel est le féminin de 'joyeux' ?;joyeuse;joyeux;joyeuxee;joyeusee
-28095;Quel est le masculin de 'joyeuse' ?;joyeux;joyeuse;joyeusee;joyeuxe
-28096;Quel est le féminin de 'peureux' ?;peureuse;peureux;peureuxee;peureusee
-28097;Quel est le masculin de 'peureuse' ?;peureux;peureuse;peureusee;peureuxe
-28098;Quel est le féminin de 'généreux' ?;généreuse;généreux;généreuxee;généreusee
-28099;Quel est le masculin de 'généreuse' ?;généreux;généreuse;généreusee;généreuxe
-28100;Quel est le féminin de 'courageux' ?;courageuse;courageux;courageuxee;courageusee
-28101;Quel est le masculin de 'courageuse' ?;courageux;courageuse;courageusee;courageuxe
-28102;Quel est le féminin de 'silencieux' ?;silencieuse;silencieux;silencieuxee;silencieusee
-28103;Quel est le masculin de 'silencieuse' ?;silencieux;silencieuse;silencieusee;silencieuxe
-28104;Quel est le féminin de 'merveilleux' ?;merveilleuse;merveilleux;merveilleuxee;merveilleusee
-28105;Quel est le masculin de 'merveilleuse' ?;merveilleux;merveilleuse;merveilleusee;merveilleuxe
-28106;Quel est le féminin de 'délicieux' ?;délicieuse;délicieux;délicieuxee;délicieusee
-28107;Quel est le masculin de 'délicieuse' ?;délicieux;délicieuse;délicieusee;délicieuxe
-28108;Quel est le féminin de 'ennuyeux' ?;ennuyeuse;ennuyeux;ennuyeuxee;ennuyeusee
-28109;Quel est le masculin de 'ennuyeuse' ?;ennuyeux;ennuyeuse;ennuyeusee;ennuyeuxe
-28110;Quel est le féminin de 'chanceux' ?;chanceuse;chanceux;chanceuxee;chanceusee
-28111;Quel est le masculin de 'chanceuse' ?;chanceux;chanceuse;chanceusee;chanceuxe
-28112;Quel est le féminin de 'malheureux' ?;malheureuse;malheureux;malheureuxee;malheureusee
-28113;Quel est le masculin de 'malheureuse' ?;malheureux;malheureuse;malheureusee;malheureuxe
-28114;Quel est le féminin de 'affreux' ?;affreuse;affreux;affreuxee;affreusee
-28115;Quel est le masculin de 'affreuse' ?;affreux;affreuse;affreusee;affreuxe
-28116;Quel est le féminin de 'nerveux' ?;nerveuse;nerveux;nerveuxee;nerveusee
-28117;Quel est le masculin de 'nerveuse' ?;nerveux;nerveuse;nerveusee;nerveuxe
-28118;Quel est le féminin de 'poussiéreux' ?;poussiéreuse;poussiéreux;poussiéreuxee;poussiéreusee
-28119;Quel est le masculin de 'poussiéreuse' ?;poussiéreux;poussiéreuse;poussiéreusee;poussiéreuxe
-28120;Quel est le féminin de 'orageux' ?;orageuse;orageux;orageuxee;orageusee
-28121;Quel est le masculin de 'orageuse' ?;orageux;orageuse;orageusee;orageuxe
-28122;Quel est le féminin de 'venteux' ?;venteuse;venteux;venteuxee;venteusee
-28123;Quel est le masculin de 'venteuse' ?;venteux;venteuse;venteusee;venteuxe
-28124;Quel est le féminin de 'hasardeux' ?;hasardeuse;hasardeux;hasardeuxee;hasardeusee
-28125;Quel est le masculin de 'hasardeuse' ?;hasardeux;hasardeuse;hasardeusee;hasardeuxe
-28126;Quel est le féminin de 'naïf' ?;naïve;naïf;naïfee;naïvee
-28127;Quel est le masculin de 'naïve' ?;naïf;naïve;naïvee;naïfe
-28128;Quel est le féminin de 'attentif' ?;attentive;attentif;attentifee;attentivee
-28129;Quel est le masculin de 'attentive' ?;attentif;attentive;attentivee;attentife
-28130;Quel est le féminin de 'craintif' ?;craintive;craintif;craintifee;craintivee
-28131;Quel est le masculin de 'craintive' ?;craintif;craintive;craintivee;craintife
-28132;Quel est le féminin de 'inventif' ?;inventive;inventif;inventifee;inventivee
-28133;Quel est le masculin de 'inventive' ?;inventif;inventive;inventivee;inventife
-28134;Quel est le féminin de 'créatif' ?;créative;créatif;créatifee;créativee
-28135;Quel est le masculin de 'créative' ?;créatif;créative;créativee;créatife
-28136;Quel est le féminin de 'instructif' ?;instructive;instructif;instructifee;instructivee
-28137;Quel est le masculin de 'instructive' ?;instructif;instructive;instructivee;instructife
-28138;Quel est le féminin de 'moyen' ?;moyenne;moyen;moyenee;moyennee
-28139;Quel est le masculin de 'moyenne' ?;moyen;moyenne;moyennee;moyene
-28140;Quel est le féminin de 'parisien' ?;parisienne;parisien;parisienee;parisiennee
-28141;Quel est le masculin de 'parisienne' ?;parisien;parisienne;parisiennee;parisiene
-28142;Quel est le féminin de 'canadien' ?;canadienne;canadien;canadienee;canadiennee
-28143;Quel est le masculin de 'canadienne' ?;canadien;canadienne;canadiennee;canadiene
-28144;Quel est le féminin de 'breton' ?;bretonne;breton;bretonee;bretonnee
-28145;Quel est le masculin de 'bretonne' ?;breton;bretonne;bretonnee;bretone
-28146;Quel est le féminin de 'franc' ?;franche;franc;francee;franchee
-28147;Quel est le masculin de 'franche' ?;franc;franche;franchee;france
-28148;Quel est le féminin de 'coquet' ?;coquette;coquet;coquetee;coquettee
-28149;Quel est le masculin de 'coquette' ?;coquet;coquette;coquettee;coquete
-28150;Quel est le féminin de 'violet' ?;violette;violet;violetee;violettee
-28151;Quel est le masculin de 'violette' ?;violet;violette;violettee;violete
-28152;Quel est le féminin de 'net' ?;nette;net;netee;nettee
-28153;Quel est le masculin de 'nette' ?;net;nette;nettee;nete
-28154;Quel est le féminin de 'jumeau' ?;jumelle;jumeau;jumeauee;jumellee
-28155;Quel est le masculin de 'jumelle' ?;jumeau;jumelle;jumellee;jumeaue
-28156;Quelle est la nature du mot 'école' ?;nom;adjectif;adverbe;verbe
-28157;Quelle est la nature du mot 'fille' ?;nom;verbe;adjectif;adverbe
-28158;Quelle est la nature du mot 'garçon' ?;nom;adverbe;adjectif;verbe
-28159;Quelle est la nature du mot 'fleur' ?;nom;verbe;adjectif;adverbe
-28160;Quelle est la nature du mot 'arbre' ?;nom;verbe;adjectif;adverbe
-28161;Quelle est la nature du mot 'livre' ?;nom;verbe;adjectif;adverbe
-28162;Quelle est la nature du mot 'ballon' ?;nom;adjectif;adverbe;verbe
-28163;Quelle est la nature du mot 'soleil' ?;nom;adjectif;adverbe;verbe
-28164;Quelle est la nature du mot 'lune' ?;nom;verbe;adjectif;adverbe
-28165;Quelle est la nature du mot 'étoile' ?;nom;adjectif;verbe;adverbe
-28166;Quelle est la nature du mot 'montagne' ?;nom;adjectif;verbe;adverbe
-28167;Quelle est la nature du mot 'rivière' ?;nom;verbe;adjectif;adverbe
-28168;Quelle est la nature du mot 'forêt' ?;nom;adverbe;verbe;adjectif
-28169;Quelle est la nature du mot 'vélo' ?;nom;adjectif;adverbe;verbe
-28170;Quelle est la nature du mot 'ami' ?;nom;adjectif;verbe;adverbe
-28171;Quelle est la nature du mot 'famille' ?;nom;adjectif;verbe;adverbe
-28172;Quelle est la nature du mot 'cuisine' ?;nom;verbe;adverbe;adjectif
-28173;Quelle est la nature du mot 'classe' ?;nom;verbe;adjectif;adverbe
-28174;Quelle est la nature du mot 'cahier' ?;nom;adjectif;adverbe;verbe
-28175;Quelle est la nature du mot 'stylo' ?;nom;adjectif;verbe;adverbe
-28176;Quelle est la nature du mot 'gomme' ?;nom;adverbe;adjectif;verbe
-28177;Quelle est la nature du mot 'règle' ?;nom;adjectif;adverbe;verbe
-28178;Quelle est la nature du mot 'porte' ?;nom;adverbe;adjectif;verbe
-28179;Quelle est la nature du mot 'fenêtre' ?;nom;adverbe;adjectif;verbe
-28180;Quelle est la nature du mot 'chaise' ?;nom;verbe;adjectif;adverbe
-28181;Quelle est la nature du mot 'lampe' ?;nom;adverbe;verbe;adjectif
-28182;Quelle est la nature du mot 'tasse' ?;nom;verbe;adjectif;adverbe
-28183;Quelle est la nature du mot 'assiette' ?;nom;verbe;adverbe;adjectif
-28184;Quelle est la nature du mot 'cuillère' ?;nom;adjectif;adverbe;verbe
-28185;Quelle est la nature du mot 'fourchette' ?;nom;adverbe;adjectif;verbe
-28186;Quelle est la nature du mot 'valise' ?;nom;adjectif;adverbe;verbe
-28187;Quelle est la nature du mot 'parapluie' ?;nom;adjectif;verbe;adverbe
-28188;Quelle est la nature du mot 'chapeau' ?;nom;adverbe;verbe;adjectif
-28189;Quelle est la nature du mot 'écharpe' ?;nom;verbe;adjectif;adverbe
-28190;Quelle est la nature du mot 'gant' ?;nom;verbe;adverbe;adjectif
-28191;Quelle est la nature du mot 'chaussette' ?;nom;verbe;adverbe;adjectif
-28192;Quelle est la nature du mot 'bouton' ?;nom;adjectif;verbe;adverbe
-28193;Quelle est la nature du mot 'poche' ?;nom;adjectif;adverbe;verbe
-28194;Quelle est la nature du mot 'miroir' ?;nom;adjectif;adverbe;verbe
-28195;Quelle est la nature du mot 'brosse' ?;nom;adjectif;verbe;adverbe
-28196;Quelle est la nature du mot 'lire' ?;verbe;adjectif;nom;adverbe
-28197;Quelle est la nature du mot 'écrire' ?;verbe;adjectif;nom;adverbe
-28198;Quelle est la nature du mot 'dormir' ?;verbe;adjectif;nom;adverbe
-28199;Quelle est la nature du mot 'jouer' ?;verbe;nom;adverbe;adjectif
-28200;Quelle est la nature du mot 'parler' ?;verbe;nom;adverbe;adjectif
-28201;Quelle est la nature du mot 'marcher' ?;verbe;nom;adjectif;adverbe
-28202;Quelle est la nature du mot 'nager' ?;verbe;nom;adverbe;adjectif
-28203;Quelle est la nature du mot 'voler' ?;verbe;adjectif;adverbe;nom
-28204;Quelle est la nature du mot 'grimper' ?;verbe;adjectif;adverbe;nom
-28205;Quelle est la nature du mot 'tomber' ?;verbe;nom;adverbe;adjectif
-28206;Quelle est la nature du mot 'ouvrir' ?;verbe;adjectif;nom;adverbe
-28207;Quelle est la nature du mot 'fermer' ?;verbe;adjectif;nom;adverbe
-28208;Quelle est la nature du mot 'regarder' ?;verbe;adverbe;nom;adjectif
-28209;Quelle est la nature du mot 'écouter' ?;verbe;adjectif;adverbe;nom
-28210;Quelle est la nature du mot 'aider' ?;verbe;adverbe;nom;adjectif
-28211;Quelle est la nature du mot 'partir' ?;verbe;nom;adjectif;adverbe
-28212;Quelle est la nature du mot 'arriver' ?;verbe;adverbe;nom;adjectif
-28213;Quelle est la nature du mot 'rentrer' ?;verbe;nom;adjectif;adverbe
-28214;Quelle est la nature du mot 'pleurer' ?;verbe;nom;adverbe;adjectif
-28215;Quelle est la nature du mot 'rire' ?;verbe;adjectif;adverbe;nom
-28216;Quelle est la nature du mot 'sourire' ?;verbe;adjectif;nom;adverbe
-28217;Quelle est la nature du mot 'penser' ?;verbe;adverbe;adjectif;nom
-28218;Quelle est la nature du mot 'réfléchir' ?;verbe;adjectif;nom;adverbe
-28219;Quelle est la nature du mot 'construire' ?;verbe;nom;adverbe;adjectif
-28220;Quelle est la nature du mot 'dessiner' ?;verbe;adjectif;adverbe;nom
-28221;Quelle est la nature du mot 'peindre' ?;verbe;adjectif;nom;adverbe
-28222;Quelle est la nature du mot 'couper' ?;verbe;adverbe;nom;adjectif
-28223;Quelle est la nature du mot 'coller' ?;verbe;adjectif;nom;adverbe
-28224;Quelle est la nature du mot 'plier' ?;verbe;nom;adjectif;adverbe
-28225;Quelle est la nature du mot 'ranger' ?;verbe;adjectif;nom;adverbe
-28226;Quelle est la nature du mot 'laver' ?;verbe;adverbe;adjectif;nom
-28227;Quelle est la nature du mot 'essuyer' ?;verbe;adjectif;adverbe;nom
-28228;Quelle est la nature du mot 'balayer' ?;verbe;adverbe;adjectif;nom
-28229;Quelle est la nature du mot 'cuisiner' ?;verbe;adverbe;nom;adjectif
-28230;Quelle est la nature du mot 'goûter' ?;verbe;adjectif;nom;adverbe
-28231;Quelle est la nature du mot 'sentir' ?;verbe;nom;adjectif;adverbe
-28232;Quelle est la nature du mot 'toucher' ?;verbe;nom;adjectif;adverbe
-28233;Quelle est la nature du mot 'choisir' ?;verbe;adjectif;nom;adverbe
-28234;Quelle est la nature du mot 'répondre' ?;verbe;adjectif;adverbe;nom
-28235;Quelle est la nature du mot 'rouge' ?;adjectif;adverbe;verbe;nom
-28236;Quelle est la nature du mot 'vert' ?;adjectif;verbe;nom;adverbe
-28237;Quelle est la nature du mot 'heureux' ?;adjectif;adverbe;verbe;nom
-28238;Quelle est la nature du mot 'triste' ?;adjectif;adverbe;verbe;nom
-28239;Quelle est la nature du mot 'fort' ?;adjectif;verbe;adverbe;nom
-28240;Quelle est la nature du mot 'rapide' ?;adjectif;verbe;adverbe;nom
-28241;Quelle est la nature du mot 'facile' ?;adjectif;adverbe;nom;verbe
-28242;Quelle est la nature du mot 'difficile' ?;adjectif;adverbe;nom;verbe
-28243;Quelle est la nature du mot 'léger' ?;adjectif;nom;verbe;adverbe
-28244;Quelle est la nature du mot 'lourd' ?;adjectif;verbe;nom;adverbe
-28245;Quelle est la nature du mot 'doux' ?;adjectif;nom;adverbe;verbe
-28246;Quelle est la nature du mot 'gros' ?;adjectif;adverbe;nom;verbe
-28247;Quelle est la nature du mot 'mince' ?;adjectif;verbe;adverbe;nom
-28248;Quelle est la nature du mot 'jeune' ?;adjectif;adverbe;verbe;nom
-28249;Quelle est la nature du mot 'vieux' ?;adjectif;nom;verbe;adverbe
-28250;Quelle est la nature du mot 'nouveau' ?;adjectif;adverbe;nom;verbe
-28251;Quelle est la nature du mot 'ancien' ?;adjectif;adverbe;verbe;nom
-28252;Quelle est la nature du mot 'propre' ?;adjectif;nom;adverbe;verbe
-28253;Quelle est la nature du mot 'sale' ?;adjectif;nom;adverbe;verbe
-28254;Quelle est la nature du mot 'chaud' ?;adjectif;nom;adverbe;verbe
-28255;Quelle est la nature du mot 'froid' ?;adjectif;nom;adverbe;verbe
-28256;Quelle est la nature du mot 'clair' ?;adjectif;nom;verbe;adverbe
-28257;Quelle est la nature du mot 'sombre' ?;adjectif;verbe;nom;adverbe
-28258;Quelle est la nature du mot 'calme' ?;adjectif;adverbe;verbe;nom
-28259;Quelle est la nature du mot 'agité' ?;adjectif;verbe;adverbe;nom
-28260;Quelle est la nature du mot 'poli' ?;adjectif;verbe;adverbe;nom
-28261;Quelle est la nature du mot 'méchant' ?;adjectif;verbe;adverbe;nom
-28262;Quelle est la nature du mot 'curieux' ?;adjectif;verbe;adverbe;nom
-28263;Quelle est la nature du mot 'fatigué' ?;adjectif;nom;verbe;adverbe
-28264;Quelle est la nature du mot 'malade' ?;adjectif;nom;adverbe;verbe
-28265;Quelle est la nature du mot 'guéri' ?;adjectif;adverbe;nom;verbe
-28266;Quelle est la nature du mot 'élégant' ?;adjectif;adverbe;verbe;nom
-28267;Quelle est la nature du mot 'simple' ?;adjectif;nom;adverbe;verbe
-28268;Quelle est la nature du mot 'complexe' ?;adjectif;nom;verbe;adverbe
-28269;Quelle est la nature du mot 'utile' ?;adjectif;adverbe;verbe;nom
-28270;Quelle est la nature du mot 'inutile' ?;adjectif;verbe;adverbe;nom
-28271;Quelle est la nature du mot 'précieux' ?;adjectif;nom;verbe;adverbe
-28272;Quelle est la nature du mot 'fragile' ?;adjectif;adverbe;verbe;nom
-28273;Quelle est la nature du mot 'toujours' ?;adverbe;verbe;adjectif;nom
-28274;Quelle est la nature du mot 'jamais' ?;adverbe;adjectif;nom;verbe
-28275;Quelle est la nature du mot 'ici' ?;adverbe;adjectif;nom;verbe
-28276;Quelle est la nature du mot 'là' ?;adverbe;nom;adjectif;verbe
-28277;Quelle est la nature du mot 'demain' ?;adverbe;adjectif;verbe;nom
-28278;Quelle est la nature du mot 'hier' ?;adverbe;nom;adjectif;verbe
-28279;Quelle est la nature du mot 'aujourd'hui' ?;adverbe;nom;adjectif;verbe
-28280;Quelle est la nature du mot 'beaucoup' ?;adverbe;nom;verbe;adjectif
-28281;Quelle est la nature du mot 'peu' ?;adverbe;nom;verbe;adjectif
-28282;Quelle est la nature du mot 'très' ?;adverbe;verbe;nom;adjectif
-28283;Quelle est la nature du mot 'bien' ?;adverbe;nom;adjectif;verbe
-28284;Quelle est la nature du mot 'mal' ?;adverbe;verbe;nom;adjectif
-28285;Quelle est la nature du mot 'tard' ?;adverbe;verbe;adjectif;nom
-28286;Quelle est la nature du mot 'tôt' ?;adverbe;adjectif;nom;verbe
-28287;Quelle est la nature du mot 'dehors' ?;adverbe;adjectif;verbe;nom
-28288;Quelle est la nature du mot 'dedans' ?;adverbe;adjectif;verbe;nom
-28289;Quelle est la nature du mot 'partout' ?;adverbe;adjectif;nom;verbe
-28290;Quelle est la nature du mot 'ailleurs' ?;adverbe;verbe;nom;adjectif
-28291;Quelle est la nature du mot 'gentiment' ?;adverbe;nom;adjectif;verbe
-28292;Quelle est la nature du mot 'joyeusement' ?;adverbe;verbe;adjectif;nom
-28293;Quelle est la nature du mot 'tristement' ?;adverbe;adjectif;verbe;nom
-28294;Quelle est la nature du mot 'calmement' ?;adverbe;adjectif;nom;verbe
-28295;Quelle est la nature du mot 'bruyamment' ?;adverbe;adjectif;verbe;nom
-28296;Quelle est la nature du mot 'patiemment' ?;adverbe;adjectif;nom;verbe
-28297;Quelle est la nature du mot 'prudemment' ?;adverbe;verbe;nom;adjectif
-28298;Quelle est la nature du mot 'vraiment' ?;adverbe;verbe;nom;adjectif
-28299;Quelle est la nature du mot 'simplement' ?;adverbe;adjectif;verbe;nom
-28300;Quelle est la nature du mot 'route' ?;nom;adjectif;adverbe;verbe
-28301;Quelle est la nature du mot 'train' ?;nom;adverbe;adjectif;verbe
-28302;Quelle est la nature du mot 'avion' ?;nom;verbe;adjectif;adverbe
-28303;Quelle est la nature du mot 'bateau' ?;nom;verbe;adjectif;adverbe
-28304;Quelle est la nature du mot 'gare' ?;nom;verbe;adjectif;adverbe
-28305;Quelle est la nature du mot 'aéroport' ?;nom;adjectif;adverbe;verbe
-28306;Quelle est la nature du mot 'magasin' ?;nom;adjectif;adverbe;verbe
-28307;Quelle est la nature du mot 'marché' ?;nom;verbe;adjectif;adverbe
-28308;Quelle est la nature du mot 'boulangerie' ?;nom;adjectif;verbe;adverbe
-28309;Quelle est la nature du mot 'pharmacie' ?;nom;adjectif;verbe;adverbe
-28310;Quelle est la nature du mot 'hôpital' ?;nom;verbe;adjectif;adverbe
-28311;Quelle est la nature du mot 'piscine' ?;nom;adverbe;verbe;adjectif
-28312;Quelle est la nature du mot 'plage' ?;nom;adjectif;adverbe;verbe
-28313;Quelle est la nature du mot 'océan' ?;nom;adjectif;verbe;adverbe
-28314;Quelle est la nature du mot 'lac' ?;nom;adjectif;verbe;adverbe
-28315;Quelle est la nature du mot 'île' ?;nom;verbe;adverbe;adjectif
-28316;Quelle est la nature du mot 'désert' ?;nom;verbe;adjectif;adverbe
-28317;Quelle est la nature du mot 'volcan' ?;nom;adjectif;adverbe;verbe
-28318;Quelle est la nature du mot 'glacier' ?;nom;adjectif;verbe;adverbe
-28319;Quelle est la nature du mot 'printemps' ?;nom;adverbe;adjectif;verbe
-28320;Quelle est la nature du mot 'été' ?;nom;adjectif;adverbe;verbe
-28321;Quelle est la nature du mot 'automne' ?;nom;adverbe;adjectif;verbe
-28322;Quelle est la nature du mot 'hiver' ?;nom;adverbe;adjectif;verbe
-28323;Quelle est la nature du mot 'matin' ?;nom;verbe;adjectif;adverbe
-28324;Quelle est la nature du mot 'soir' ?;nom;adverbe;verbe;adjectif
-28325;Quelle est la nature du mot 'nuit' ?;nom;verbe;adjectif;adverbe
-28326;Quelle est la nature du mot 'jour' ?;nom;verbe;adverbe;adjectif
-28327;Quelle est la nature du mot 'semaine' ?;nom;adjectif;adverbe;verbe
-28328;Quelle est la nature du mot 'année' ?;nom;adverbe;adjectif;verbe
-28329;Quelle est la nature du mot 'siècle' ?;nom;adjectif;adverbe;verbe
-28330;Quelle est la nature du mot 'minute' ?;nom;adjectif;verbe;adverbe
-28331;Quelle est la nature du mot 'seconde' ?;nom;adverbe;verbe;adjectif
-28332;Quelle est la nature du mot 'heure' ?;nom;verbe;adjectif;adverbe
-28333;Quelle est la nature du mot 'calendrier' ?;nom;verbe;adverbe;adjectif
-28334;Quelle est la nature du mot 'horloge' ?;nom;verbe;adverbe;adjectif
-28335;Quelle est la nature du mot 'colline' ?;nom;adjectif;adverbe;verbe
-28336;Quelle est la nature du mot 'vallée' ?;nom;adjectif;adverbe;verbe
-28337;Quelle est la nature du mot 'prairie' ?;nom;adjectif;verbe;adverbe
-28338;Quelle est la nature du mot 'champ' ?;nom;adjectif;verbe;adverbe
-28339;Quelle est la nature du mot 'ferme' ?;nom;adjectif;verbe;adverbe
-28340;Quelle est la nature du mot 'grange' ?;nom;adjectif;verbe;adverbe
-28341;Quelle est la nature du mot 'tracteur' ?;nom;verbe;adverbe;adjectif
-28342;Quelle est la nature du mot 'récolte' ?;nom;verbe;adverbe;adjectif
-28343;Quelle est la nature du mot 'moisson' ?;nom;verbe;adjectif;adverbe
-28344;Quelle est la nature du mot 'semence' ?;nom;verbe;adverbe;adjectif
-28345;Quelle est la nature du mot 'voyager' ?;verbe;adjectif;adverbe;nom
-28346;Quelle est la nature du mot 'conduire' ?;verbe;adjectif;adverbe;nom
-28347;Quelle est la nature du mot 'piloter' ?;verbe;nom;adverbe;adjectif
-28348;Quelle est la nature du mot 'atterrir' ?;verbe;adjectif;nom;adverbe
-28349;Quelle est la nature du mot 'décoller' ?;verbe;adjectif;nom;adverbe
-28350;Quelle est la nature du mot 'naviguer' ?;verbe;adverbe;nom;adjectif
-28351;Quelle est la nature du mot 'pêcher' ?;verbe;adjectif;adverbe;nom
-28352;Quelle est la nature du mot 'camper' ?;verbe;adverbe;nom;adjectif
-28353;Quelle est la nature du mot 'randonner' ?;verbe;nom;adjectif;adverbe
-28354;Quelle est la nature du mot 'escalader' ?;verbe;adverbe;nom;adjectif
-28355;Quelle est la nature du mot 'plonger' ?;verbe;nom;adjectif;adverbe
-28356;Quelle est la nature du mot 'skier' ?;verbe;nom;adverbe;adjectif
-28357;Quelle est la nature du mot 'patiner' ?;verbe;adjectif;adverbe;nom
-28358;Quelle est la nature du mot 'bondir' ?;verbe;adjectif;nom;adverbe
-28359;Quelle est la nature du mot 'ramper' ?;verbe;nom;adverbe;adjectif
-28360;Quelle est la nature du mot 'planer' ?;verbe;adjectif;nom;adverbe
-28361;Quelle est la nature du mot 'flotter' ?;verbe;adjectif;nom;adverbe
-28362;Quelle est la nature du mot 'couler' ?;verbe;nom;adverbe;adjectif
-28363;Quelle est la nature du mot 'fondre' ?;verbe;adverbe;nom;adjectif
-28364;Quelle est la nature du mot 'geler' ?;verbe;adjectif;nom;adverbe
-28365;Quelle est la nature du mot 'chauffer' ?;verbe;nom;adjectif;adverbe
-28366;Quelle est la nature du mot 'refroidir' ?;verbe;adjectif;nom;adverbe
-28367;Quelle est la nature du mot 'allumer' ?;verbe;adverbe;adjectif;nom
-28368;Quelle est la nature du mot 'éteindre' ?;verbe;adjectif;adverbe;nom
-28369;Quelle est la nature du mot 'éplucher' ?;verbe;adverbe;nom;adjectif
-28370;Quelle est la nature du mot 'mélanger' ?;verbe;adjectif;nom;adverbe
-28371;Quelle est la nature du mot 'verser' ?;verbe;nom;adjectif;adverbe
-28372;Quelle est la nature du mot 'déguster' ?;verbe;adjectif;nom;adverbe
-28373;Quelle est la nature du mot 'savourer' ?;verbe;adjectif;adverbe;nom
-28374;Quelle est la nature du mot 'mâcher' ?;verbe;adverbe;adjectif;nom
-28375;Quelle est la nature du mot 'avaler' ?;verbe;adjectif;nom;adverbe
-28376;Quelle est la nature du mot 'respirer' ?;verbe;adverbe;adjectif;nom
-28377;Quelle est la nature du mot 'souffler' ?;verbe;adverbe;adjectif;nom
-28378;Quelle est la nature du mot 'crier' ?;verbe;adjectif;adverbe;nom
-28379;Quelle est la nature du mot 'chuchoter' ?;verbe;adjectif;adverbe;nom
-28380;Quelle est la nature du mot 'murmurer' ?;verbe;adverbe;nom;adjectif
-28381;Quelle est la nature du mot 'appeler' ?;verbe;adverbe;nom;adjectif
-28382;Quelle est la nature du mot 'questionner' ?;verbe;adjectif;nom;adverbe
-28383;Quelle est la nature du mot 'expliquer' ?;verbe;nom;adverbe;adjectif
-28384;Quelle est la nature du mot 'comprendre' ?;verbe;adverbe;nom;adjectif
-28385;Quelle est la nature du mot 'apprendre' ?;verbe;adjectif;adverbe;nom
-28386;Quelle est la nature du mot 'enseigner' ?;verbe;adverbe;adjectif;nom
-28387;Quelle est la nature du mot 'étroit' ?;adjectif;nom;verbe;adverbe
-28388;Quelle est la nature du mot 'large' ?;adjectif;adverbe;nom;verbe
-28389;Quelle est la nature du mot 'profond' ?;adjectif;adverbe;verbe;nom
-28390;Quelle est la nature du mot 'superficiel' ?;adjectif;nom;adverbe;verbe
-28391;Quelle est la nature du mot 'solide' ?;adjectif;nom;adverbe;verbe
-28392;Quelle est la nature du mot 'souple' ?;adjectif;nom;adverbe;verbe
-28393;Quelle est la nature du mot 'rigide' ?;adjectif;nom;verbe;adverbe
-28394;Quelle est la nature du mot 'transparent' ?;adjectif;verbe;nom;adverbe
-28395;Quelle est la nature du mot 'opaque' ?;adjectif;adverbe;verbe;nom
-28396;Quelle est la nature du mot 'brillant' ?;adjectif;verbe;adverbe;nom
-28397;Quelle est la nature du mot 'terne' ?;adjectif;verbe;adverbe;nom
-28398;Quelle est la nature du mot 'vif' ?;adjectif;verbe;adverbe;nom
-28399;Quelle est la nature du mot 'pâle' ?;adjectif;verbe;adverbe;nom
-28400;Quelle est la nature du mot 'foncé' ?;adjectif;verbe;adverbe;nom
-28401;Quelle est la nature du mot 'tiède' ?;adjectif;adverbe;nom;verbe
-28402;Quelle est la nature du mot 'glacé' ?;adjectif;adverbe;nom;verbe
-28403;Quelle est la nature du mot 'brûlant' ?;adjectif;adverbe;verbe;nom
-28404;Quelle est la nature du mot 'salé' ?;adjectif;nom;adverbe;verbe
-28405;Quelle est la nature du mot 'sucré' ?;adjectif;nom;verbe;adverbe
-28406;Quelle est la nature du mot 'amer' ?;adjectif;adverbe;verbe;nom
-28407;Quelle est la nature du mot 'acide' ?;adjectif;verbe;adverbe;nom
-28408;Quelle est la nature du mot 'épicé' ?;adjectif;nom;verbe;adverbe
-28409;Quelle est la nature du mot 'fade' ?;adjectif;adverbe;verbe;nom
-28410;Quelle est la nature du mot 'tendre' ?;adjectif;verbe;adverbe;nom
-28411;Quelle est la nature du mot 'dur' ?;adjectif;adverbe;nom;verbe
-28412;Quelle est la nature du mot 'croquant' ?;adjectif;adverbe;nom;verbe
-28413;Quelle est la nature du mot 'moelleux' ?;adjectif;nom;adverbe;verbe
-28414;Quelle est la nature du mot 'diviser' ?;verbe;nom;adverbe;adjectif
-28415;Quelle est la nature du mot 'microscope' ?;nom;adverbe;adjectif;verbe
-28416;Quelle est la nature du mot 'particulièrement' ?;adverbe;nom;verbe;adjectif
-28417;Quelle est la nature du mot 'naturellement' ?;adverbe;adjectif;verbe;nom
-28418;Quelle est la nature du mot 'deviner' ?;verbe;nom;adjectif;adverbe
-28419;Quelle est la nature du mot 'frapper' ?;verbe;nom;adverbe;adjectif
-28420;Quelle est la nature du mot 'violemment' ?;adverbe;nom;adjectif;verbe
-28421;Quelle est la nature du mot 'magicien' ?;nom;adjectif;verbe;adverbe
-28422;Quelle est la nature du mot 'rêver' ?;verbe;adjectif;adverbe;nom
-28423;Quelle est la nature du mot 'bijou' ?;nom;adverbe;verbe;adjectif
-28424;Quelle est la nature du mot 'vétérinaire' ?;nom;adjectif;verbe;adverbe
-28425;Quelle est la nature du mot 'rare' ?;adjectif;verbe;nom;adverbe
-28426;Quelle est la nature du mot 'étonnant' ?;adjectif;verbe;nom;adverbe
-28427;Quelle est la nature du mot 'partiellement' ?;adverbe;verbe;nom;adjectif
-28428;Quelle est la nature du mot 'fantastique' ?;adjectif;nom;adverbe;verbe
-28429;Quelle est la nature du mot 'prince' ?;nom;adverbe;verbe;adjectif
-28430;Quelle est la nature du mot 'annoncer' ?;verbe;adjectif;adverbe;nom
-28431;Quelle est la nature du mot 'plafond' ?;nom;adverbe;adjectif;verbe
-28432;Quelle est la nature du mot 'anxieux' ?;adjectif;verbe;adverbe;nom
-28433;Quelle est la nature du mot 'jardinier' ?;nom;verbe;adjectif;adverbe
-28434;Quelle est la nature du mot 'détendu' ?;adjectif;nom;adverbe;verbe
-28435;Quelle est la nature du mot 'instantanément' ?;adverbe;nom;verbe;adjectif
-28436;Quelle est la nature du mot 'fier' ?;adjectif;adverbe;verbe;nom
-28437;Quelle est la nature du mot 'comète' ?;nom;adverbe;adjectif;verbe
-28438;Quelle est la nature du mot 'découvrir' ?;verbe;adjectif;nom;adverbe
-28439;Quelle est la nature du mot 'intensément' ?;adverbe;verbe;adjectif;nom
-28440;Quelle est la nature du mot 'arrêter' ?;verbe;nom;adverbe;adjectif
-28441;Quelle est la nature du mot 'ovale' ?;adjectif;verbe;nom;adverbe
-28442;Quelle est la nature du mot 'extraordinaire' ?;adjectif;nom;verbe;adverbe
-28443;Quelle est la nature du mot 'féliciter' ?;verbe;adjectif;adverbe;nom
-28444;Quelle est la nature du mot 'espérer' ?;verbe;nom;adverbe;adjectif
-28445;Quelle est la nature du mot 'statue' ?;nom;adjectif;adverbe;verbe
-28446;Quelle est la nature du mot 'dentiste' ?;nom;adjectif;adverbe;verbe
-28447;Quelle est la nature du mot 'casserole' ?;nom;adjectif;adverbe;verbe
-28448;Quelle est la nature du mot 'princesse' ?;nom;verbe;adverbe;adjectif
-28449;Quelle est la nature du mot 'apparemment' ?;adverbe;nom;verbe;adjectif
-28450;Quelle est la nature du mot 'visiblement' ?;adverbe;nom;verbe;adjectif
-28451;Quelle est la nature du mot 'marin' ?;nom;verbe;adverbe;adjectif
-28452;Quelle est la nature du mot 'multiplier' ?;verbe;adverbe;nom;adjectif
-28453;Quelle est la nature du mot 'collier' ?;nom;adverbe;adjectif;verbe
-28454;Quelle est la nature du mot 'balcon' ?;nom;adverbe;verbe;adjectif
-28455;Quelle est la nature du mot 'capitaine' ?;nom;verbe;adverbe;adjectif
-28456;Quelle est la nature du mot 'canapé' ?;nom;adverbe;adjectif;verbe
-28457;Quelle est la nature du mot 'creux' ?;adjectif;adverbe;verbe;nom
-28458;Quelle est la nature du mot 'souhaiter' ?;verbe;nom;adverbe;adjectif
-28459;Quelle est la nature du mot 'graduellement' ?;adverbe;verbe;adjectif;nom
-28460;Quelle est la nature du mot 'pyjama' ?;nom;adverbe;adjectif;verbe
-28461;Quelle est la nature du mot 'tordu' ?;adjectif;adverbe;nom;verbe
-28462;Quelle est la nature du mot 'unique' ?;adjectif;nom;verbe;adverbe
-28463;Quelle est la nature du mot 'cartable' ?;nom;adjectif;adverbe;verbe
-28464;Quelle est la nature du mot 'couronne' ?;nom;verbe;adverbe;adjectif
-28465;Quelle est la nature du mot 'géant' ?;nom;adjectif;verbe;adverbe
-28466;Quelle est la nature du mot 'montrer' ?;verbe;adverbe;nom;adjectif
-28467;Quelle est la nature du mot 'couloir' ?;nom;adjectif;adverbe;verbe
-28468;Quelle est la nature du mot 'détester' ?;verbe;adjectif;nom;adverbe
-28469;Quelle est la nature du mot 'tapis' ?;nom;adverbe;adjectif;verbe
-28470;Quelle est la nature du mot 'protéger' ?;verbe;adjectif;nom;adverbe
-28471;Quelle est la nature du mot 'incroyable' ?;adjectif;verbe;adverbe;nom
-28472;Quelle est la nature du mot 'jaloux' ?;adjectif;nom;verbe;adverbe
-28473;Quelle est la nature du mot 'punir' ?;verbe;nom;adjectif;adverbe
-28474;Quelle est la nature du mot 'résoudre' ?;verbe;nom;adjectif;adverbe
-28475;Quelle est la nature du mot 'habituellement' ?;adverbe;adjectif;nom;verbe
-28476;Quelle est la nature du mot 'défendre' ?;verbe;adjectif;nom;adverbe
-28477;Quelle est la nature du mot 'franchement' ?;adverbe;nom;adjectif;verbe
-28478;Quelle est la nature du mot 'stressé' ?;adjectif;verbe;adverbe;nom
-28479;Quelle est la nature du mot 'étrange' ?;adjectif;nom;verbe;adverbe
-28480;Quelle est la nature du mot 'courbé' ?;adjectif;adverbe;verbe;nom
-28481;Quelle est la nature du mot 'compter' ?;verbe;adjectif;adverbe;nom
-28482;Quelle est la nature du mot 'aimer' ?;verbe;adjectif;nom;adverbe
-28483;Quelle est la nature du mot 'empiler' ?;verbe;adverbe;adjectif;nom
-28484;Quelle est la nature du mot 'méchamment' ?;adverbe;adjectif;nom;verbe
-28485;Quelle est la nature du mot 'commode' ?;nom;adverbe;adjectif;verbe
-28486;Quelle est la nature du mot 'remercier' ?;verbe;adverbe;nom;adjectif
-28487;Quelle est la nature du mot 'chanteur' ?;nom;verbe;adjectif;adverbe
-28488;Quelle est la nature du mot 'journaliste' ?;nom;adverbe;verbe;adjectif
-28489;Quelle est la nature du mot 'surprenant' ?;adjectif;adverbe;nom;verbe
-28490;Quelle est la nature du mot 'danseur' ?;nom;adverbe;adjectif;verbe
-28491;Quelle est la nature du mot 'mesurer' ?;verbe;adjectif;nom;adverbe
-28492;Quelle est la nature du mot 'impressionnant' ?;adjectif;adverbe;verbe;nom
-28493;Quelle est la nature du mot 'énergique' ?;adjectif;nom;verbe;adverbe
-28494;Quelle est la nature du mot 'répéter' ?;verbe;adjectif;adverbe;nom
-28495;Quelle est la nature du mot 'couverture' ?;nom;adverbe;verbe;adjectif
-28496;Quelle est la nature du mot 'ciseaux' ?;nom;adverbe;adjectif;verbe
-28497;Quelle est la nature du mot 'charmant' ?;adjectif;nom;verbe;adverbe
-28498;Quelle est la nature du mot 'fatigant' ?;adjectif;adverbe;nom;verbe
-28499;Quelle est la nature du mot 'récompenser' ?;verbe;nom;adverbe;adjectif
-28500;Quelle est la nature du mot 'palette' ?;nom;adjectif;verbe;adverbe
-28501;Quelle est la nature du mot 'décrire' ?;verbe;adjectif;nom;adverbe
-28502;Quelle est la nature du mot 'préparer' ?;verbe;adverbe;nom;adjectif
-28503;Quelle est la nature du mot 'cacher' ?;verbe;adjectif;adverbe;nom
-28504;Quelle est la nature du mot 'cassant' ?;adjectif;nom;verbe;adverbe
-28505;Quelle est la nature du mot 'pilote' ?;nom;adjectif;verbe;adverbe
-28506;Quelle est la nature du mot 'poliment' ?;adverbe;nom;adjectif;verbe
-28507;Quelle est la nature du mot 'spécialement' ?;adverbe;nom;adjectif;verbe
-28508;Quelle est la nature du mot 'baignoire' ?;nom;verbe;adjectif;adverbe
-28509;Quelle est la nature du mot 'proposer' ?;verbe;adverbe;nom;adjectif
-28510;Quelle est la nature du mot 'brutalement' ?;adverbe;nom;verbe;adjectif
-28511;Quelle est la nature du mot 'coussin' ?;nom;adverbe;adjectif;verbe
-28512;Quelle est la nature du mot 'chevalier' ?;nom;adjectif;adverbe;verbe
-28513;Quelle est la nature du mot 'impatiemment' ?;adverbe;adjectif;nom;verbe
-28514;Quelle est la nature du mot 'désobéir' ?;verbe;nom;adverbe;adjectif
-28515;Quelle est la nature du mot 'agréable' ?;adjectif;nom;adverbe;verbe
-28516;Quelle est la nature du mot 'verre' ?;nom;adverbe;adjectif;verbe
-28517;Quelle est la nature du mot 'préférer' ?;verbe;adverbe;adjectif;nom
-28518;Quelle est la nature du mot 'terminer' ?;verbe;adjectif;nom;adverbe
-28519;Quelle est la nature du mot 'drapeau' ?;nom;adverbe;verbe;adjectif
-28520;Quelle est la nature du mot 'dévoiler' ?;verbe;adjectif;nom;adverbe
-28521;Quelle est la nature du mot 'montre' ?;nom;verbe;adverbe;adjectif
-28522;Quelle est la nature du mot 'microscopique' ?;adjectif;verbe;adverbe;nom
-28523;Quelle est la nature du mot 'oreiller' ?;nom;adjectif;adverbe;verbe
-28524;Quelle est la nature du mot 'bague' ?;nom;verbe;adverbe;adjectif
-28525;Quelle est la nature du mot 'bracelet' ?;nom;adjectif;verbe;adverbe
-28526;Quelle est la nature du mot 'effrayant' ?;adjectif;nom;verbe;adverbe
-28527;Quelle est la nature du mot 'boulanger' ?;nom;adjectif;adverbe;verbe
-28528;Quelle est la nature du mot 'peintre' ?;nom;adverbe;adjectif;verbe
-28529;Quelle est la nature du mot 'honteux' ?;adjectif;verbe;adverbe;nom
-28530;Quelle est la nature du mot 'clairement' ?;adverbe;nom;verbe;adjectif
-28531;Quelle est la nature du mot 'roi' ?;nom;adverbe;verbe;adjectif
-28532;Quelle est la nature du mot 'honnêtement' ?;adverbe;nom;verbe;adjectif
-28533;Quelle est la nature du mot 'obéir' ?;verbe;nom;adverbe;adjectif
-28534;Quelle est la nature du mot 'confortable' ?;adjectif;verbe;adverbe;nom
-28535;Quelle est la nature du mot 'colossal' ?;adjectif;nom;adverbe;verbe
-28536;Quelle est la nature du mot 'réveil' ?;nom;verbe;adjectif;adverbe
-28537;Quelle est la nature du mot 'tranchant' ?;adjectif;adverbe;verbe;nom
-28538;Quelle est la nature du mot 'impoliment' ?;adverbe;nom;adjectif;verbe
-28539;Quelle est la nature du mot 'déplier' ?;verbe;adverbe;adjectif;nom
-28540;Quelle est la nature du mot 'drap' ?;nom;adjectif;verbe;adverbe
-28541;Quelle est la nature du mot 'toile' ?;nom;adjectif;verbe;adverbe
-28542;Quelle est la nature du mot 'soustraire' ?;verbe;nom;adjectif;adverbe
-28543;Quelle est la nature du mot 'poêle' ?;nom;adjectif;verbe;adverbe
-28544;Quelle est la nature du mot 'cave' ?;nom;adverbe;adjectif;verbe
-28545;Quelle est la nature du mot 'toit' ?;nom;verbe;adjectif;adverbe
-28546;Quelle est la nature du mot 'planète' ?;nom;adverbe;adjectif;verbe
-28547;Quelle est la nature du mot 'cuisinier' ?;nom;adjectif;verbe;adverbe
-28548;Quelle est la nature du mot 'discuter' ?;verbe;nom;adjectif;adverbe
-28549;Quelle est la nature du mot 'attaquer' ?;verbe;adverbe;adjectif;nom
-28550;Quelle est la nature du mot 'télescope' ?;nom;verbe;adverbe;adjectif
-28551;Quelle est la nature du mot 'fortement' ?;adverbe;nom;verbe;adjectif
-28552;Quelle est la nature du mot 'décider' ?;verbe;nom;adjectif;adverbe
-28553;Quelle est la nature du mot 'créer' ?;verbe;adjectif;nom;adverbe
-28554;Quelle est la nature du mot 'aimant' ?;nom;adverbe;verbe;adjectif
-28555;Quelle est la nature du mot 'habituel' ?;adjectif;adverbe;nom;verbe
-28556;Quelle est la nature du mot 'calculer' ?;verbe;adverbe;adjectif;nom
-28557;Quelle est la nature du mot 'couteau' ?;nom;adverbe;adjectif;verbe
-28558;Quelle est la nature du mot 'brusquement' ?;adverbe;adjectif;nom;verbe
-28559;Quelle est la nature du mot 'évidemment' ?;adverbe;verbe;nom;adjectif
-28560;Quelle est la nature du mot 'grenier' ?;nom;adjectif;verbe;adverbe
-28561;Quelle est la nature du mot 'bavarder' ?;verbe;nom;adjectif;adverbe
-28562;Quelle est la nature du mot 'évier' ?;nom;adverbe;adjectif;verbe
-28563;Quelle est la nature du mot 'satellite' ?;nom;adverbe;verbe;adjectif
-28564;Quelle est la nature du mot 'additionner' ?;verbe;adverbe;nom;adjectif
-28565;Quelle est la nature du mot 'vide' ?;adjectif;adverbe;verbe;nom
-28566;Quelle est la nature du mot 'partiel' ?;adjectif;nom;verbe;adverbe
-28567;Quelle est la nature du mot 'matelas' ?;nom;adverbe;verbe;adjectif
-28568;Quelle est la nature du mot 'trousse' ?;nom;adjectif;verbe;adverbe
-28569;Quelle est la nature du mot 'incomplet' ?;adjectif;adverbe;verbe;nom
-28570;Quelle est la nature du mot 'organiser' ?;verbe;adjectif;nom;adverbe
-28571;Quelle est la nature du mot 'serveur' ?;nom;verbe;adjectif;adverbe
-28572;Quelle est la nature du mot 'infirmier' ?;nom;adverbe;adjectif;verbe
-28573;Quelle est la nature du mot 'refuser' ?;verbe;adjectif;nom;adverbe
-28574;Quelle est la nature du mot 'droit' ?;adjectif;verbe;nom;adverbe
-28575;Quelle est la nature du mot 'rattraper' ?;verbe;adverbe;adjectif;nom
-28576;Quelle est la nature du mot 'monstre' ?;nom;adverbe;adjectif;verbe
-28577;Quelle est la nature du mot 'sculpteur' ?;nom;adverbe;verbe;adjectif
-28578;Quelle est la nature du mot 'magique' ?;adjectif;nom;verbe;adverbe
-28579;Quelle est la nature du mot 'mur' ?;nom;verbe;adjectif;adverbe
-28580;Quelle est la nature du mot 'demander' ?;verbe;adjectif;nom;adverbe
-28581;Quelle est la nature du mot 'comparer' ?;verbe;adverbe;adjectif;nom
-28582;Quelle est la nature du mot 'interroger' ?;verbe;nom;adjectif;adverbe
-28583;Quelle est la nature du mot 'dégonfler' ?;verbe;adjectif;nom;adverbe
-28584;Quelle est la nature du mot 'désagréable' ?;adjectif;nom;verbe;adverbe
-28585;Quelle est la nature du mot 'résistant' ?;adjectif;nom;adverbe;verbe
-28586;Quelle est la nature du mot 'fée' ?;nom;adverbe;adjectif;verbe
-28587;Quelle est la nature du mot 'paisiblement' ?;adverbe;nom;verbe;adjectif
-28588;Quelle est la nature du mot 'boucher' ?;nom;adjectif;verbe;adverbe
-28589;Quelle est la nature du mot 'gonfler' ?;verbe;nom;adverbe;adjectif
-28590;Quelle est la nature du mot 'astronaute' ?;nom;adjectif;adverbe;verbe
-28591;Quelle est la nature du mot 'inventer' ?;verbe;adjectif;adverbe;nom
-28592;Quelle est la nature du mot 'flexible' ?;adjectif;verbe;adverbe;nom
-28593;Quelle est la nature du mot 'rond' ?;adjectif;verbe;nom;adverbe
-28594;Quelle est la nature du mot 'lutin' ?;nom;verbe;adjectif;adverbe
-28595;Quelle est la nature du mot 'poursuivre' ?;verbe;adverbe;nom;adjectif
-28596;Quelle est la nature du mot 'confiant' ?;adjectif;nom;verbe;adverbe
-28597;Quelle est la nature du mot 'reposant' ?;adjectif;adverbe;verbe;nom
-28598;Quelle est la nature du mot 'tranquille' ?;adjectif;verbe;adverbe;nom
-28599;Quelle est la nature du mot 'feutre' ?;nom;adjectif;adverbe;verbe
-28600;Quelle est la nature du mot 'spacieux' ?;adjectif;verbe;nom;adverbe
-28601;Quelle est la nature du mot 'généralement' ?;adverbe;adjectif;nom;verbe
-28602;Quelle est la nature du mot 'planifier' ?;verbe;nom;adjectif;adverbe
-28603;Quelle est la nature du mot 'raconter' ?;verbe;adjectif;adverbe;nom
-28604;Quelle est la nature du mot 'médaille' ?;nom;adverbe;verbe;adjectif
-28605;Quelle est la nature du mot 'sorcière' ?;nom;adjectif;adverbe;verbe
-28606;Quelle est la nature du mot 'mystérieux' ?;adjectif;adverbe;nom;verbe
-28607;Quelle est la nature du mot 'agenda' ?;nom;adverbe;adjectif;verbe
-28608;Quelle est la nature du mot 'photographe' ?;nom;adjectif;adverbe;verbe
-28609;Quelle est la nature du mot 'cadre' ?;nom;adverbe;adjectif;verbe
-28610;Quelle est la nature du mot 'échapper' ?;verbe;adjectif;nom;adverbe
-28611;Quelle est la nature du mot 'serviette' ?;nom;verbe;adjectif;adverbe
-28612;Quelle est la nature du mot 'haïr' ?;verbe;nom;adverbe;adjectif
-28613;Quelle est la nature du mot 'commencer' ?;verbe;adjectif;adverbe;nom
-28614;Quelle est la nature du mot 'caissier' ?;nom;verbe;adverbe;adjectif
-28615;Quelle est la nature du mot 'escalier' ?;nom;adverbe;adjectif;verbe
-28616;Quelle est la nature du mot 'vase' ?;nom;verbe;adverbe;adjectif
-28617;Quelle est la nature du mot 'présenter' ?;verbe;adjectif;adverbe;nom
-28618;Quelle est la nature du mot 'logiquement' ?;adverbe;verbe;adjectif;nom
-28619;Quelle est la nature du mot 'aussitôt' ?;adverbe;nom;verbe;adjectif
-28620;Quelle est la nature du mot 'bombé' ?;adjectif;adverbe;nom;verbe
-28621;Quelle est la nature du mot 'plat' ?;adjectif;adverbe;nom;verbe
-28622;Quelle est la nature du mot 'fuir' ?;verbe;nom;adverbe;adjectif
-28623;Quelle est la nature du mot 'carte' ?;nom;adverbe;adjectif;verbe
-28624;Quelle est la nature du mot 'reine' ?;nom;adjectif;verbe;adverbe
-28625;Quelle est la nature du mot 'robinet' ?;nom;adjectif;adverbe;verbe
-28626;Quelle est la nature du mot 'immédiatement' ?;adverbe;verbe;nom;adjectif
-28627;Quelle est la nature du mot 'fauteuil' ?;nom;adjectif;adverbe;verbe
-28628;Quelle est la nature du mot 'minuscule' ?;adjectif;nom;adverbe;verbe
-28629;Quelle est la nature du mot 'sincèrement' ?;adverbe;nom;adjectif;verbe
-28630;Quelle est la nature du mot 'silencieusement' ?;adverbe;nom;verbe;adjectif
-28631;Quelle est la nature du mot 'légèrement' ?;adverbe;nom;adjectif;verbe
-28632;Quelle est la nature du mot 'complètement' ?;adverbe;verbe;nom;adjectif
-28633;Quelle est la nature du mot 'envieux' ?;adjectif;nom;adverbe;verbe
-28634;Quelle est la nature du mot 'peser' ?;verbe;nom;adjectif;adverbe
-28635;Quelle est la nature du mot 'pharmacien' ?;nom;verbe;adverbe;adjectif
-28636;Quelle est la nature du mot 'normalement' ?;adverbe;adjectif;nom;verbe
-28637;Quelle est la nature du mot 'apaisant' ?;adjectif;adverbe;nom;verbe
-28638;Quelle est la nature du mot 'globe' ?;nom;verbe;adjectif;adverbe
-28639;Quelle est la nature du mot 'gigantesque' ?;adjectif;adverbe;verbe;nom
-28640;Quelle est la nature du mot 'chercher' ?;verbe;adjectif;adverbe;nom
-28641;Quelle est la nature du mot 'entier' ?;adjectif;nom;adverbe;verbe
-28642;Quelle est la nature du mot 'rideau' ?;nom;adjectif;verbe;adverbe
-28643;Quelle est la nature du mot 'crayon' ?;nom;verbe;adjectif;adverbe
-28644;Quelle est la nature du mot 'colle' ?;nom;adverbe;adjectif;verbe
-28645;Quelle est la nature du mot 'fantôme' ?;nom;adverbe;verbe;adjectif
-28646;Quelle est la nature du mot 'tabouret' ?;nom;adverbe;verbe;adjectif
-28647;Quelle est la nature du mot 'soudainement' ?;adverbe;nom;verbe;adjectif
-28648;Quelle est la nature du mot 'normal' ?;adjectif;verbe;nom;adverbe
-28649;Quelle est la nature du mot 'pinceau' ?;nom;adjectif;adverbe;verbe
-28650;Quelle est la nature du mot 'boussole' ?;nom;adjectif;verbe;adverbe
-28651;Quelle est la nature du mot 'gratter' ?;verbe;adjectif;nom;adverbe
-28652;Quelle est la nature du mot 'robot' ?;nom;adverbe;adjectif;verbe
-28653;Quelle est la nature du mot 'entièrement' ?;adverbe;adjectif;verbe;nom
-28654;Quelle est la nature du mot 'carré' ?;adjectif;nom;adverbe;verbe
-28655;Quelle est la nature du mot 'accepter' ?;verbe;adjectif;nom;adverbe
-28656;Quelle est la nature du mot 'météorite' ?;nom;adjectif;verbe;adverbe
-28657;Quelle est la nature du mot 'commun' ?;adjectif;nom;adverbe;verbe
-28658;Quelle est la nature du mot 'clown' ?;nom;adjectif;verbe;adverbe
-28659;Quelle est la nature du mot 'placard' ?;nom;verbe;adverbe;adjectif
-28660;Quelle est la nature du mot 'acteur' ?;nom;adjectif;verbe;adverbe
-28661;Quelle est la nature du mot 'nettement' ?;adverbe;adjectif;nom;verbe
-28662;Quelle est la nature du mot 'choquant' ?;adjectif;adverbe;nom;verbe
-28663;Quelle est la nature du mot 'galaxie' ?;nom;verbe;adverbe;adjectif
-28664;Quelle est la nature du mot 'dragon' ?;nom;adverbe;adjectif;verbe
-28665;Quelle est la nature du mot 'tiroir' ?;nom;adjectif;verbe;adverbe
-28666;Quelle est la nature du mot 'gronder' ?;verbe;adjectif;adverbe;nom
-28667;Quelle est la nature du mot 'énorme' ?;adjectif;nom;verbe;adverbe
-28668;Quelle est la nature du mot 'policier' ?;nom;verbe;adjectif;adverbe
-28669;Quelle est la nature du mot 'fusée' ?;nom;adverbe;verbe;adjectif
-28670;Quelle est la nature du mot 'étagère' ?;nom;verbe;adverbe;adjectif
-28671;Quelle est la nature du mot 'musicien' ?;nom;verbe;adverbe;adjectif
-28672;Quelle est la nature du mot 'respecter' ?;verbe;adverbe;nom;adjectif
-28673;Quelle est la nature du mot 'généreux' ?;adjectif;nom;verbe;adverbe
-28674;Quelle est la nature du mot 'paisible' ?;adjectif;verbe;nom;adverbe
-28675;Quelle est la nature du mot 'inhabituel' ?;adjectif;nom;verbe;adverbe
-28676;Quelle est la nature du mot 'pardonner' ?;verbe;adjectif;adverbe;nom
-28677;Quelle est la nature du mot 'adorer' ?;verbe;adjectif;nom;adverbe
-28678;Quelle est la nature du mot 'progressivement' ?;adverbe;nom;adjectif;verbe
-28679;Quelle est la nature du mot 'épuisant' ?;adjectif;verbe;nom;adverbe
-28680;Quelle est la nature du mot 'plein' ?;adjectif;verbe;adverbe;nom
-28681;Quelle est la nature du mot 'trophée' ?;nom;verbe;adjectif;adverbe
-28682;Quelle est la nature du mot 'nerveux' ?;adjectif;nom;verbe;adverbe
-28683;Quelle est la nature du mot 'continuer' ?;verbe;nom;adverbe;adjectif
-28684;Quelle est la nature du mot 'pointu' ?;adjectif;verbe;adverbe;nom
-28685;Quelle est la nature du mot 'pantoufle' ?;nom;adverbe;verbe;adjectif
-28686;Quelle est la nature du mot 'exceptionnellement' ?;adverbe;nom;adjectif;verbe
-28687;Quelle est la nature du mot 'avare' ?;adjectif;nom;verbe;adverbe
-28688;Quelle est la nature du mot 'imaginer' ?;verbe;nom;adverbe;adjectif
-28689;Quelle est la nature du mot 'douche' ?;nom;adjectif;verbe;adverbe
-28690;Quelle est la nature du mot 'recommencer' ?;verbe;adjectif;adverbe;nom
-28691;Quelle est la nature du mot 'totalement' ?;adverbe;nom;verbe;adjectif
-28692;Quelle est la nature du mot 'facteur' ?;nom;verbe;adverbe;adjectif
-28693;Quelle est la nature du mot 'bizarre' ?;adjectif;adverbe;nom;verbe
-28694;Quelle est la nature du mot 'fréquent' ?;adjectif;verbe;nom;adverbe
-28695;Quelle est la nature du mot 'complet' ?;adjectif;adverbe;nom;verbe
-28696;Quelle est la nature du mot 'écrivain' ?;nom;verbe;adjectif;adverbe
-28697;Quelle est la nature du mot 'triangulaire' ?;adjectif;adverbe;nom;verbe
-28698;Quelle est la nature du mot 'savon' ?;nom;adverbe;verbe;adjectif
-28699;Quelle est la nature du mot 'peigne' ?;nom;verbe;adjectif;adverbe
-28700;Quelle est la nature du mot 'élastique' ?;adjectif;adverbe;verbe;nom
-28701;Quelle est la nature du mot 'dynamique' ?;adjectif;adverbe;nom;verbe
-28702;Quelle est la nature du mot 'immense' ?;adjectif;adverbe;verbe;nom
-28703;Quel est le féminin de 'délicat' ?;délicate;délicatee;délicatees;délicat
-28704;Quel est le féminin de 'passionné' ?;passionnée;passionné;passionnéee;passionnéees
-28705;Quel est le féminin de 'sociable' ?;sociable;sociablee;sociablees;ssociable
-28706;Quel est le féminin de 'magnifique' ?;magnifique;magnifiquee;magnifiquees;mmagnifique
-28707;Quel est le féminin de 'naturel' ?;naturelle;naturellee;naturellees;naturel
-28708;Quel est le féminin de 'précieux' ?;précieuse;précieusees;précieusee;précieux
-28709;Quel est le féminin de 'cadet' ?;cadette;cadettees;cadet;cadettee
-28710;Quel est le féminin de 'pareil' ?;pareille;pareil;pareillees;pareillee
-28711;Quel est le féminin de 'bel' ?;belle;bellees;bellee;bel
-28712;Quel est le féminin de 'solide' ?;solide;solidee;solidees;ssolide
-28713;Quel est le féminin de 'impatient' ?;impatiente;impatientee;impatient;impatientees
-28714;Quel est le féminin de 'respectueux' ?;respectueuse;respectueusee;respectueusees;respectueux
-28715;Quel est le féminin de 'horrible' ?;horrible;horriblee;horriblees;hhorrible
-28716;Quel est le féminin de 'terrible' ?;terrible;terriblees;terriblee;tterrible
-28717;Quel est le féminin de 'imprudent' ?;imprudente;imprudentees;imprudent;imprudentee
-28718;Quel est le féminin de 'gentillet' ?;gentillette;gentillettee;gentillet;gentillettees
-28719;Quel est le féminin de 'nul' ?;nulle;nullees;nul;nullee
-28720;Quel est le féminin de 'déterminé' ?;déterminée;déterminé;déterminéees;déterminéee
-28721;Quel est le féminin de 'maladroit' ?;maladroite;maladroitees;maladroit;maladroitee
-28722;Quel est le féminin de 'distrait' ?;distraite;distraitees;distrait;distraitee
-28723;Quel est le féminin de 'timide' ?;timide;timidees;timidee;ttimide
-28724;Quel est le féminin de 'officiel' ?;officielle;officiellees;officiel;officiellee
-28725;Quel est le féminin de 'splendide' ?;splendide;splendidee;splendidees;ssplendide
-28726;Quel est le féminin de 'fragile' ?;fragile;fragilee;fragilees;ffragile
-28727;Quel est le féminin de 'adorable' ?;adorable;adorablee;adorablees;addorable
-28728;Quel est le féminin de 'cruel' ?;cruelle;cruel;cruellees;cruellee
-28729;Quel est le féminin de 'désordonné' ?;désordonnée;désordonnéee;désordonnéees;désordonné
-28730;Quel est le féminin de 'ponctuel' ?;ponctuelle;ponctuellees;ponctuel;ponctuellee
-28731;Quel est le féminin de 'habituel' ?;habituelle;habituel;habituellee;habituellees
-28732;Quel est le féminin de 'mensuel' ?;mensuelle;mensuel;mensuellee;mensuellees
-28733;Quel est le féminin de 'aimable' ?;aimable;aimablee;aimablees;aimmable
-28734;Quel est le féminin de 'organisé' ?;organisée;organiséees;organiséee;organisé
-28735;Quel est le féminin de 'annuel' ?;annuelle;annuel;annuellees;annuellee
-28736;Quel est le féminin de 'imaginatif' ?;imaginative;imaginatif;imaginativees;imaginativee
-28737;Quel est le féminin de 'adroit' ?;adroite;adroitee;adroit;adroitees
-28738;Quel est le féminin de 'agile' ?;agile;agilees;agilee;aggile
-28739;Quel est le féminin de 'gras' ?;grasse;gras;grassees;grassee
-28740;Quel est le féminin de 'robuste' ?;robuste;robustees;robustee;rrobuste
-28741;Quel est le féminin de 'las' ?;lasse;las;lassees;lassee
-28742;Quel est le féminin de 'motivé' ?;motivée;motivé;motivéees;motivéee
-28743;Quel est le masculin de 'naturelle' ?;naturel;natureles;naturelle;naturele
-28744;Quel est le masculin de 'nulle' ?;nul;nulle;nules;nule
-28745;Quel est le masculin de 'splendide' ?;splendide;splendidee;splendidees;ssplendide
-28746;Quel est le masculin de 'désordonnée' ?;désordonné;désordonnées;désordonnée;ddésordonné
-28747;Quel est le masculin de 'belle' ?;bel;beles;belle;bele
-28748;Quel est le masculin de 'pareille' ?;pareil;pareille;pareile;pareiles
-28749;Quel est le masculin de 'imprudente' ?;imprudent;imprudentes;imprudente;immprudent
-28750;Quel est le masculin de 'distraite' ?;distrait;distraite;distraites;ddistrait
-28751;Quel est le masculin de 'fragile' ?;fragile;fragilee;fragilees;ffragile
-28752;Quel est le masculin de 'habituelle' ?;habituel;habitueles;habituelle;habituele
-28753;Quel est le masculin de 'respectueuse' ?;respectueux;respectueuse;respectueuxe;respectueuxes
-28754;Quel est le masculin de 'adorable' ?;adorable;adorablee;adorablees;addorable
-28755;Quel est le masculin de 'magnifique' ?;magnifique;magnifiquee;magnifiquees;mmagnifique
-28756;Quel est le masculin de 'agile' ?;agile;agilees;agilee;aggile
-28757;Quel est le masculin de 'robuste' ?;robuste;robustees;robustee;rrobuste
-28758;Quel est le masculin de 'timide' ?;timide;timidees;timidee;ttimide
-28759;Quel est le masculin de 'grasse' ?;gras;grase;grasse;grases
-28760;Quel est le masculin de 'solide' ?;solide;solidee;solidees;ssolide
-28761;Quel est le masculin de 'maladroite' ?;maladroit;maladroites;maladroite;mmaladroit
-28762;Quel est le masculin de 'officielle' ?;officiel;officieles;officielle;officiele
-28763;Quel est le masculin de 'passionnée' ?;passionné;passionnées;passionnée;ppassionné
-28764;Quel est le masculin de 'annuelle' ?;annuel;annueles;annuelle;annuele
-28765;Quel est le masculin de 'adroite' ?;adroit;adroites;adroite;addroit
-28766;Quel est le masculin de 'mensuelle' ?;mensuel;mensuele;mensueles;mensuelle
-28767;Quel est le masculin de 'organisée' ?;organisé;organisée;organisées;orrganisé
-28768;Quel est le masculin de 'cruelle' ?;cruel;crueles;cruelle;cruele
-28769;Quel est le masculin de 'ponctuelle' ?;ponctuel;ponctuelle;ponctuele;ponctueles
-28770;Quel est le masculin de 'sociable' ?;sociable;sociablee;sociablees;ssociable
-28771;Quel est le masculin de 'délicate' ?;délicat;délicate;délicates;ddélicat
-28772;Quel est le masculin de 'motivée' ?;motivé;motivées;motivée;mmotivé
-28773;Quel est le masculin de 'aimable' ?;aimable;aimablee;aimablees;aimmable
-28774;Quel est le masculin de 'gentillette' ?;gentillet;gentillete;gentillette;gentilletes
-28775;Quel est le masculin de 'terrible' ?;terrible;terriblees;terriblee;tterrible
-28776;Quel est le masculin de 'imaginative' ?;imaginatif;imaginatife;imaginatifes;imaginative
-28777;Quel est le masculin de 'horrible' ?;horrible;horriblee;horriblees;hhorrible
-28778;Quel est le masculin de 'impatiente' ?;impatient;impatientes;impatiente;immpatient
-28779;Quel est le masculin de 'lasse' ?;las;lase;lases;lasse
-28780;Quel est le masculin de 'déterminée' ?;déterminé;déterminée;déterminées;ddéterminé
-28781;Quel est le masculin de 'précieuse' ?;précieux;précieuxe;précieuse;précieuxes
-28782;Quel est le masculin de 'cadette' ?;cadet;cadette;cadete;cadetes
-28783;Quel est le pluriel de 'corps' ?;corps;corpses;corpsx;corpss
-28784;Quel est le pluriel de 'musicien' ?;musiciens;musicienx;musicien;musicienes
-28785;Quel est le pluriel de 'médaille' ?;médailles;médaillex;médaille;médaillees
-28786;Quel est le pluriel de 'photographe' ?;photographes;photographex;photographe;photographees
-28787;Quel est le pluriel de 'satellite' ?;satellites;satellite;satellitees;satellitex
-28788;Quel est le pluriel de 'niveau' ?;niveaux;niveaus;niveau;niveaues
-28789;Quel est le pluriel de 'robinet' ?;robinets;robinetx;robinet;robinetes
-28790;Quel est le pluriel de 'planète' ?;planètes;planètex;planètees;planète
-28791;Quel est le pluriel de 'boulanger' ?;boulangers;boulanger;boulangerx;boulangeres
-28792;Quel est le pluriel de 'trousse' ?;trousses;troussees;troussex;trousse
-28793;Quel est le pluriel de 'panneau' ?;panneaux;panneaus;panneau;panneaues
-28794;Quel est le pluriel de 'canapé' ?;canapés;canapéx;canapées;canapé
-28795;Quel est le pluriel de 'secours' ?;secours;secourses;secoursx;secourss
-28796;Quel est le pluriel de 'escalier' ?;escaliers;escalieres;escalier;escalierx
-28797;Quel est le pluriel de 'morceau' ?;morceaux;morceau;morceaus;morceaues
-28798;Quel est le pluriel de 'succès' ?;succès;succèsx;succèss;succèses
-28799;Quel est le pluriel de 'balcon' ?;balcons;balcones;balcon;balconx
-28800;Quel est le pluriel de 'roseau' ?;roseaux;roseaus;roseau;roseaues
-28801;Quel est le pluriel de 'fantôme' ?;fantômes;fantômex;fantôme;fantômees
-28802;Quel est le pluriel de 'carreau' ?;carreaux;carreaues;carreau;carreaus
-28803;Quel est le pluriel de 'serveur' ?;serveurs;serveures;serveurx;serveur
-28804;Quel est le pluriel de 'facteur' ?;facteurs;facteur;facteures;facteurx
-28805;Quel est le pluriel de 'oiseau' ?;oiseaux;oiseau;oiseaus;oiseaues
-28806;Quel est le pluriel de 'boussole' ?;boussoles;boussolees;boussolex;boussole
-28807;Quel est le pluriel de 'peigne' ?;peignes;peignees;peigne;peignex
-28808;Quel est le pluriel de 'lutin' ?;lutins;lutin;lutines;lutinx
-28809;Quel est le pluriel de 'peintre' ?;peintres;peintrex;peintrees;peintre
-28810;Quel est le pluriel de 'toit' ?;toits;toites;toitx;toit
-28811;Quel est le pluriel de 'fauteuil' ?;fauteuils;fauteuilx;fauteuiles;fauteuil
-28812;Quel est le pluriel de 'dragon' ?;dragons;dragones;dragon;dragonx
-28813;Quel est le pluriel de 'robot' ?;robots;robotes;robotx;robot
-28814;Quel est le pluriel de 'fusée' ?;fusées;fuséex;fusée;fuséees
-28815;Quel est le pluriel de 'réseau' ?;réseaux;réseau;réseaus;réseaues
-28816;Quel est le pluriel de 'trophée' ?;trophées;trophéex;trophéees;trophée
-28817;Quel est le pluriel de 'savon' ?;savons;savones;savon;savonx
-28818;Quel est le pluriel de 'caissier' ?;caissiers;caissieres;caissierx;caissier
-28819;Quel est le pluriel de 'refus' ?;refus;refuses;refuss;refusx
-28820;Quel est le pluriel de 'drapeau' ?;drapeaux;drapeaus;drapeau;drapeaues
-28821;Quel est le pluriel de 'chevalier' ?;chevaliers;chevalieres;chevalierx;chevalier
-28822;Quel est le pluriel de 'cartable' ?;cartables;cartable;cartablex;cartablees
-28823;Quelle est la nature du mot 'digue' ?;nom;adverbe;verbe;adjectif
-28824;Quelle est la nature du mot 'barrage' ?;nom;adjectif;verbe;adverbe
-28825;Quelle est la nature du mot 'suffisamment' ?;adverbe;verbe;nom;adjectif
-28826;Quelle est la nature du mot 'mat' ?;adjectif;nom;verbe;adverbe
-28827;Quelle est la nature du mot 'assécher' ?;verbe;adjectif;nom;adverbe
-28828;Quelle est la nature du mot 'apparaître' ?;verbe;nom;adjectif;adverbe
-28829;Quelle est la nature du mot 'côtier' ?;adjectif;adverbe;verbe;nom
-28830;Quelle est la nature du mot 'ruisseler' ?;verbe;adjectif;nom;adverbe
-28831;Quelle est la nature du mot 'volcanique' ?;adjectif;nom;adverbe;verbe
-28832;Quelle est la nature du mot 'ruisseau' ?;nom;adverbe;verbe;adjectif
-28833;Quelle est la nature du mot 'sirop' ?;nom;verbe;adjectif;adverbe
-28834;Quelle est la nature du mot 'clairière' ?;nom;adverbe;verbe;adjectif
-28835;Quelle est la nature du mot 'surgir' ?;verbe;adjectif;nom;adverbe
-28836;Quelle est la nature du mot 'vitreux' ?;adjectif;adverbe;nom;verbe
-28837;Quelle est la nature du mot 'briller' ?;verbe;adjectif;nom;adverbe
-28838;Quelle est la nature du mot 'torride' ?;adjectif;nom;adverbe;verbe
-28839;Quelle est la nature du mot 'scientifique' ?;adjectif;verbe;adverbe;nom
-28840;Quelle est la nature du mot 'éclairer' ?;verbe;adjectif;adverbe;nom
-28841;Quelle est la nature du mot 'arc-en-ciel' ?;nom;adjectif;adverbe;verbe
-28842;Quelle est la nature du mot 'ensoleillé' ?;adjectif;adverbe;verbe;nom
-28843;Quelle est la nature du mot 'médicament' ?;nom;adverbe;adjectif;verbe
-28844;Quelle est la nature du mot 'gel' ?;nom;adjectif;verbe;adverbe
-28845;Quelle est la nature du mot 'médical' ?;adjectif;verbe;nom;adverbe
-28846;Quelle est la nature du mot 'laboratoire' ?;nom;verbe;adverbe;adjectif
-28847;Quelle est la nature du mot 'orageux' ?;adjectif;adverbe;verbe;nom
-28848;Quelle est la nature du mot 'caverne' ?;nom;adverbe;adjectif;verbe
-28849;Quelle est la nature du mot 'chemin' ?;nom;adverbe;adjectif;verbe
-28850;Quelle est la nature du mot 'dévaler' ?;verbe;nom;adverbe;adjectif
-28851;Quelle est la nature du mot 'scintiller' ?;verbe;nom;adjectif;adverbe
-28852;Quelle est la nature du mot 'brumeux' ?;adjectif;verbe;nom;adverbe
-28853;Quelle est la nature du mot 'illuminer' ?;verbe;adjectif;nom;adverbe
-28854;Quelle est la nature du mot 'pluvieux' ?;adjectif;adverbe;nom;verbe
-28855;Quelle est la nature du mot 'adéquatement' ?;adverbe;verbe;adjectif;nom
-28856;Quelle est la nature du mot 'modérément' ?;adverbe;verbe;adjectif;nom
-28857;Quelle est la nature du mot 'clinique' ?;nom;adverbe;verbe;adjectif
-28858;Quelle est la nature du mot 'sauver' ?;verbe;adjectif;nom;adverbe
-28859;Quelle est la nature du mot 'abruptement' ?;adverbe;nom;adjectif;verbe
-28860;Quelle est la nature du mot 'hypothèse' ?;nom;adjectif;verbe;adverbe
-28861;Quelle est la nature du mot 'soigner' ?;verbe;adverbe;nom;adjectif
-28862;Quelle est la nature du mot 'tornade' ?;nom;verbe;adverbe;adjectif
-28863;Quelle est la nature du mot 'conclusion' ?;nom;adverbe;verbe;adjectif
-28864;Quelle est la nature du mot 'incorrectement' ?;adverbe;adjectif;verbe;nom
-28865;Quelle est la nature du mot 'tunnel' ?;nom;verbe;adverbe;adjectif
-28866;Quelle est la nature du mot 'numériquement' ?;adverbe;nom;adjectif;verbe
-28867;Quelle est la nature du mot 'avalanche' ?;nom;verbe;adjectif;adverbe
-28868;Quelle est la nature du mot 'montagneux' ?;adjectif;nom;verbe;adverbe
-28869;Quelle est la nature du mot 'canicule' ?;nom;adjectif;verbe;adverbe
-28870;Quelle est la nature du mot 'déborder' ?;verbe;adjectif;nom;adverbe
-28871;Quelle est la nature du mot 'trembler' ?;verbe;adverbe;adjectif;nom
-28872;Quelle est la nature du mot 'nuageux' ?;adjectif;verbe;nom;adverbe
-28873;Quelle est la nature du mot 'manuel' ?;adjectif;adverbe;verbe;nom
-28874;Quelle est la nature du mot 'plumeau' ?;nom;adverbe;verbe;adjectif
-28875;Quelle est la nature du mot 'aurore' ?;nom;adverbe;adjectif;verbe
-28876;Quelle est la nature du mot 'électronique' ?;adjectif;adverbe;nom;verbe
-28877;Quelle est la nature du mot 'expérimenter' ?;verbe;adjectif;adverbe;nom
-28878;Quelle est la nature du mot 'lumineux' ?;adjectif;nom;adverbe;verbe
-28879;Quelle est la nature du mot 'vacciner' ?;verbe;adjectif;nom;adverbe
-28880;Quelle est la nature du mot 'brouillard' ?;nom;adverbe;verbe;adjectif
-28881;Quelle est la nature du mot 'grotte' ?;nom;verbe;adverbe;adjectif
-28882;Quelle est la nature du mot 'sécheresse' ?;nom;adjectif;adverbe;verbe
-28883;Quelle est la nature du mot 'inondation' ?;nom;adverbe;verbe;adjectif
-28884;Quelle est la nature du mot 'diagnostiquer' ?;verbe;adjectif;nom;adverbe
-28885;Quelle est la nature du mot 'tempéré' ?;adjectif;adverbe;nom;verbe
-28886;Quelle est la nature du mot 'tourbillonner' ?;verbe;adjectif;nom;adverbe
-28887;Quelle est la nature du mot 'carrefour' ?;nom;adverbe;adjectif;verbe
-28888;Quelle est la nature du mot 'ouragan' ?;nom;adverbe;adjectif;verbe
-28889;Quelle est la nature du mot 'rocheux' ?;adjectif;nom;adverbe;verbe
-28890;Quelle est la nature du mot 'récif' ?;nom;adverbe;verbe;adjectif
-28891;Quelle est la nature du mot 'secourir' ?;verbe;adverbe;adjectif;nom
-28892;Quelle est la nature du mot 'séisme' ?;nom;adjectif;verbe;adverbe
-28893;Quelle est la nature du mot 'glacial' ?;adjectif;adverbe;nom;verbe
-28894;Quelle est la nature du mot 'voiler' ?;verbe;nom;adjectif;adverbe
-28895;Quelle est la nature du mot 'mécanique' ?;adjectif;adverbe;nom;verbe
-28896;Quelle est la nature du mot 'guérir' ?;verbe;nom;adverbe;adjectif
-28897;Quelle est la nature du mot 'subitement' ?;adverbe;verbe;nom;adjectif
-28898;Quelle est la nature du mot 'marais' ?;nom;verbe;adjectif;adverbe
-28899;Quelle est la nature du mot 'comprimé' ?;nom;adjectif;adverbe;verbe
-28900;Quelle est la nature du mot 'automatique' ?;adjectif;adverbe;verbe;nom
-28901;Quelle est la nature du mot 'scientifiquement' ?;adverbe;nom;verbe;adjectif
-28902;Quelle est la nature du mot 'iceberg' ?;nom;adjectif;verbe;adverbe
-28903;Quelle est la nature du mot 'expérience' ?;nom;verbe;adverbe;adjectif
-28904;Quelle est la nature du mot 'émerger' ?;verbe;adjectif;adverbe;nom
-28905;Quelle est la nature du mot 'stéthoscope' ?;nom;verbe;adjectif;adverbe
-28906;Quelle est la nature du mot 'démontrer' ?;verbe;nom;adjectif;adverbe
-28907;Quelle est la nature du mot 'analyser' ?;verbe;adverbe;nom;adjectif
-28908;Quelle est la nature du mot 'disparaître' ?;verbe;adverbe;nom;adjectif
-28909;Quelle est la nature du mot 'source' ?;nom;adverbe;verbe;adjectif
-28910;Quelle est la nature du mot 'étinceler' ?;verbe;adjectif;adverbe;nom
-28911;Quelle est la nature du mot 'panorama' ?;nom;verbe;adverbe;adjectif
-28912;Quelle est la nature du mot 'éruption' ?;nom;verbe;adverbe;adjectif
-28913;Quelle est la nature du mot 'falaise' ?;nom;adjectif;adverbe;verbe
+2201;"Quel est le pluriel de ""canal"" ?";canaux;canals;canales;canaus
+2202;"Quel est le pluriel de ""général"" ?";généraux;générals;générales;généraus
+2203;"Quel est le pluriel de ""hôpital"" ?";hôpitaux;hôpitals;hôpitales;hôpitaus
+2204;"Quel est le pluriel de ""tribunal"" ?";tribunaux;tribunals;tribunales;tribunaus
+2205;"Quel est le pluriel de ""cheval"" ?";chevaux;chevals;chevales;chevaus
+2206;"Quel est le pluriel de ""journal"" ?";journaux;journals;journales;journaus
+2207;"Quel est le pluriel de ""animal"" ?";animaux;animals;animales;animaus
+2208;"Quel est le pluriel de ""signal"" ?";signaux;signals;signales;signaus
+2209;"Quel est le pluriel de ""bras"" ?";bras;brass;brases;brasx
+2210;"Quel est le pluriel de ""souris"" ?";souris;souriss;sourises;sourisx
+2211;"Quel est le pluriel de ""tapis"" ?";tapis;tapiss;tapises;tapisx
+2212;"Quel est le pluriel de ""croix"" ?";croix;croixs;croixes;croixx
+2213;"Quel est le pluriel de ""voix"" ?";voix;voixs;voixes;voixx
+2214;"Quel est le pluriel de ""fils"" ?";fils;filss;filses;filsx
+2215;"Quel est le pluriel de ""pays"" ?";pays;payss;payses;paysx
+2216;"Quel est le pluriel de ""nez"" ?";nez;nezs;nezes;nezx
+2217;"Quel est le pluriel de ""temps"" ?";temps;tempss;tempses;tempsx
+2218;"Quel est le pluriel de ""prix"" ?";prix;prixs;prixes;prixx
+2219;"Quel est le féminin de ""heureux"" ?";heureuse;heureux;heureuxe;heureus
+2220;"Quel est le féminin de ""gros"" ?";grosse;gros;grose;gross
+2221;"Quel est le féminin de ""bas"" ?";basse;bas;base;bass
+2222;"Quel est le féminin de ""muet"" ?";muette;muet;muete;muett
+2223;"Quel est le féminin de ""neuf"" ?";neuve;neuf;neufe;neuv
+2224;"Quel est le féminin de ""italien"" ?";italienne;italien;italiene;italienn
+2225;"Quel est le féminin de ""blanc"" ?";blanche;blanc;blance;blanch
+2226;"Quel est le féminin de ""faux"" ?";fausse;faux;fauxe;fauss
+2227;"Quel est le féminin de ""beau"" ?";belle;beau;beaue;bell
+2228;"Quel est le féminin de ""bon"" ?";bonne;bon;bone;bonn
+2229;"Quel est le féminin de ""sec"" ?";sèche;sec;sèce;sèch
+2230;"Quel est le féminin de ""long"" ?";longue;long;longe;longu
+2231;"Quel est le féminin de ""mignon"" ?";mignonne;mignon;mignone;mignonn
+2232;"Quel est le féminin de ""vif"" ?";vive;vif;vife;viv
+2233;"Quel est le féminin de ""curieux"" ?";curieuse;curieux;curieuxe;curieus
+2234;"Quel est le féminin de ""actif"" ?";active;actif;actife;activ
+2235;"Quel est le féminin de ""frais"" ?";fraîche;frais;fraise;fraîch
+2236;"Quel est le féminin de ""nouveau"" ?";nouvelle;nouveau;nouveaue;nouvell
+2237;"Quel est le féminin de ""roux"" ?";rousse;roux;rouxe;rouss
+2238;"Quel est le féminin de ""jaloux"" ?";jalouse;jaloux;jalouxe;jalous
+2239;"Quel est le féminin de ""gentil"" ?";gentille;gentil;gentile;gentill
+2240;"Quel est le féminin de ""amoureux"" ?";amoureuse;amoureux;amoureuxe;amoureus
+2241;"Quel est le féminin de ""sérieux"" ?";sérieuse;sérieux;sérieuxe;sérieus
+2242;"Quel est le féminin de ""dangereux"" ?";dangereuse;dangereux;dangereuxe;dangereus
+2243;"Quel est le féminin de ""épais"" ?";épaisse;épais;épaise;épaiss
+2244;"Quel est le féminin de ""doux"" ?";douce;doux;douxe;douc
+2245;"Quel est le féminin de ""ancien"" ?";ancienne;ancien;anciene;ancienn
+2246;"Quel est le féminin de ""sportif"" ?";sportive;sportif;sportife;sportiv
+2344;"Quelle est la nature du mot ""joli"" ?";adjectif;adverbe;verbe;nom
+2345;"Quelle est la nature du mot ""maison"" ?";nom;adjectif;adverbe;verbe
+2346;"Quelle est la nature du mot ""petit"" ?";adjectif;nom;adverbe;verbe
+2347;"Quelle est la nature du mot ""danser"" ?";verbe;adverbe;nom;adjectif
+2348;"Quelle est la nature du mot ""table"" ?";nom;adverbe;verbe;adjectif
+2349;"Quelle est la nature du mot ""chanter"" ?";verbe;adverbe;nom;adjectif
+2350;"Quelle est la nature du mot ""beau"" ?";adjectif;verbe;nom;adverbe
+2351;"Quelle est la nature du mot ""jardin"" ?";nom;verbe;adverbe;adjectif
+2352;"Quelle est la nature du mot ""gentil"" ?";adjectif;nom;adverbe;verbe
+2353;"Quelle est la nature du mot ""doucement"" ?";adverbe;verbe;adjectif;nom
+2354;"Quelle est la nature du mot ""sauter"" ?";verbe;adverbe;adjectif;nom
+2355;"Quelle est la nature du mot ""voiture"" ?";nom;adverbe;verbe;adjectif
+2356;"Quelle est la nature du mot ""souvent"" ?";adverbe;verbe;adjectif;nom
+2357;"Quelle est la nature du mot ""manger"" ?";verbe;nom;adjectif;adverbe
+2358;"Quelle est la nature du mot ""courir"" ?";verbe;adjectif;adverbe;nom
+2359;"Quelle est la nature du mot ""vite"" ?";adverbe;adjectif;nom;verbe
+2360;"Quelle est la nature du mot ""rapidement"" ?";adverbe;adjectif;nom;verbe
+2361;"Quelle est la nature du mot ""chat"" ?";nom;verbe;adjectif;adverbe
+2362;"Quelle est la nature du mot ""lentement"" ?";adverbe;adjectif;verbe;nom
+2363;"Quelle est la nature du mot ""grand"" ?";adjectif;nom;verbe;adverbe
+2378;"Quel est le masculin de ""fausse"" ?";faux;fausse;faussée;fauxe
+2379;"Quel est le masculin de ""sérieuse"" ?";sérieux;sérieuse;sérieusee;sérieuxe
+2380;"Quel est le masculin de ""basse"" ?";bas;basse;bassee;base
+2381;"Quel est le masculin de ""neuve"" ?";neuf;neuve;neuvee;neufe
+2382;"Quel est le masculin de ""italienne"" ?";italien;italienne;italiennee;italiene
+2383;"Quel est le masculin de ""douce"" ?";doux;douce;doucee;douxe
+2384;"Quel est le masculin de ""blanche"" ?";blanc;blanche;blanchee;blance
+2385;"Quel est le masculin de ""curieuse"" ?";curieux;curieuse;curieusee;curieuxe
+2386;"Quel est le masculin de ""sèche"" ?";sec;sèche;séchée;sèce
+2387;"Quel est le masculin de ""rousse"" ?";roux;rousse;roussee;rouxe
+2388;"Quel est le masculin de ""fraîche"" ?";frais;fraîche;fraîchée;fraise
+2389;"Quel est le masculin de ""jalouse"" ?";jaloux;jalouse;jalousée;jalouxe
+2390;"Quel est le masculin de ""vive"" ?";vif;vive;vivee;vife
+2391;"Quel est le masculin de ""amoureuse"" ?";amoureux;amoureuse;amoureusee;amoureuxe
+2392;"Quel est le masculin de ""épaisse"" ?";épais;épaisse;épaissée;épaise
+2393;"Quel est le masculin de ""grosse"" ?";gros;grosse;grossee;grose
+2394;"Quel est le masculin de ""active"" ?";actif;active;activée;actife
+2395;"Quel est le masculin de ""muette"" ?";muet;muette;muettee;muete
+2396;"Quel est le masculin de ""dangereuse"" ?";dangereux;dangereuse;dangereusee;dangereuxe
+2397;"Quel est le masculin de ""nouvelle"" ?";nouveau;nouvelle;nouvellee;nouveaue
+28000;"Quel est le pluriel de ""bocal"" ?";bocaux;bocals;bocas;bocalx
+28001;"Quel est le pluriel de ""local"" ?";locaux;locals;locas;localx
+28002;"Quel est le pluriel de ""métal"" ?";métaux;métals;métas;métalx
+28003;"Quel est le pluriel de ""minéral"" ?";minéraux;minérals;minéras;minéralx
+28004;"Quel est le pluriel de ""végétal"" ?";végétaux;végétals;végétas;végétalx
+28005;"Quel est le pluriel de ""mal"" ?";maux;mals;mas;malx
+28006;"Quel est le pluriel de ""travail"" ?";travaux;travails;travais;travailx
+28007;"Quel est le pluriel de ""corail"" ?";coraux;corails;corais;corailx
+28008;"Quel est le pluriel de ""gaz"" ?";gaz;gazs;gazes;gazx
+28009;"Quel est le pluriel de ""radis"" ?";radis;radiss;radises;radisx
+28010;"Quel est le pluriel de ""avis"" ?";avis;aviss;avises;avisx
+28011;"Quel est le pluriel de ""repas"" ?";repas;repass;repases;repasx
+28012;"Quel est le pluriel de ""permis"" ?";permis;permiss;permises;permisx
+28013;"Quel est le pluriel de ""puits"" ?";puits;puitss;puitses;puitsx
+28014;"Quel est le pluriel de ""matelas"" ?";matelas;matelass;matelases;matelasx
+28015;"Quel est le pluriel de ""ours"" ?";ours;ourss;ourses;oursx
+28016;"Quel est le pluriel de ""dos"" ?";dos;doss;doses;dosx
+28017;"Quel est le pluriel de ""choix"" ?";choix;choixs;choixes;choixx
+28018;"Quel est le féminin de ""grand"" ?";grande;grand;grandee;grandes
+28019;"Quel est le masculin de ""grande"" ?";grand;grande;grandee;grands
+28020;"Quel est le féminin de ""petit"" ?";petite;petit;petitee;petites
+28021;"Quel est le masculin de ""petite"" ?";petit;petite;petitee;petits
+28022;"Quel est le féminin de ""vert"" ?";verte;vert;vertee;vertes
+28023;"Quel est le masculin de ""verte"" ?";vert;verte;vertee;verts
+28024;"Quel est le féminin de ""bleu"" ?";bleue;bleu;bleuee;bleues
+28025;"Quel est le masculin de ""bleue"" ?";bleu;bleue;bleuee;bleus
+28026;"Quel est le féminin de ""noir"" ?";noire;noir;noiree;noires
+28027;"Quel est le masculin de ""noire"" ?";noir;noire;noiree;noirs
+28028;"Quel est le féminin de ""gris"" ?";grise;gris;grisee;grises
+28029;"Quel est le masculin de ""grise"" ?";gris;grise;grisee;griss
+28030;"Quel est le féminin de ""lourd"" ?";lourde;lourd;lourdee;lourdes
+28031;"Quel est le masculin de ""lourde"" ?";lourd;lourde;lourdee;lourds
+28032;"Quel est le féminin de ""chaud"" ?";chaude;chaud;chaudee;chaudes
+28033;"Quel est le masculin de ""chaude"" ?";chaud;chaude;chaudee;chauds
+28034;"Quel est le féminin de ""froid"" ?";froide;froid;froidee;froides
+28035;"Quel est le masculin de ""froide"" ?";froid;froide;froidee;froids
+28036;"Quel est le féminin de ""fort"" ?";forte;fort;fortee;fortes
+28037;"Quel est le masculin de ""forte"" ?";fort;forte;fortee;forts
+28038;"Quel est le féminin de ""poli"" ?";polie;poli;poliee;polies
+28039;"Quel est le masculin de ""polie"" ?";poli;polie;poliee;polis
+28040;"Quel est le féminin de ""joli"" ?";jolie;joli;joliee;jolies
+28041;"Quel est le masculin de ""jolie"" ?";joli;jolie;joliee;jolis
+28042;"Quel est le féminin de ""patient"" ?";patiente;patient;patientee;patientes
+28043;"Quel est le masculin de ""patiente"" ?";patient;patiente;patientee;patients
+28044;"Quel est le féminin de ""prudent"" ?";prudente;prudent;prudentee;prudentes
+28045;"Quel est le masculin de ""prudente"" ?";prudent;prudente;prudentee;prudents
+28046;"Quel est le féminin de ""content"" ?";contente;content;contentee;contentes
+28047;"Quel est le masculin de ""contente"" ?";content;contente;contentee;contents
+28048;"Quel est le féminin de ""méchant"" ?";méchante;méchant;méchantee;méchantes
+28049;"Quel est le masculin de ""méchante"" ?";méchant;méchante;méchantee;méchants
+28050;"Quel est le féminin de ""charmant"" ?";charmante;charmant;charmantee;charmantes
+28051;"Quel est le masculin de ""charmante"" ?";charmant;charmante;charmantee;charmants
+28052;"Quel est le féminin de ""brillant"" ?";brillante;brillant;brillantee;brillantes
+28053;"Quel est le masculin de ""brillante"" ?";brillant;brillante;brillantee;brillants
+28054;"Quel est le féminin de ""intelligent"" ?";intelligente;intelligent;intelligentee;intelligentes
+28055;"Quel est le masculin de ""intelligente"" ?";intelligent;intelligente;intelligentee;intelligents
+28056;"Quel est le féminin de ""gourmand"" ?";gourmande;gourmand;gourmandee;gourmandes
+28057;"Quel est le masculin de ""gourmande"" ?";gourmand;gourmande;gourmandee;gourmands
+28058;"Quel est le féminin de ""élégant"" ?";élégante;élégant;élégantee;élégantes
+28059;"Quel est le masculin de ""élégante"" ?";élégant;élégante;élégantee;élégants
+28060;"Quel est le féminin de ""puissant"" ?";puissante;puissant;puissantee;puissantes
+28061;"Quel est le masculin de ""puissante"" ?";puissant;puissante;puissantee;puissants
+28062;"Quel est le féminin de ""bruyant"" ?";bruyante;bruyant;bruyantee;bruyantes
+28063;"Quel est le masculin de ""bruyante"" ?";bruyant;bruyante;bruyantee;bruyants
+28064;"Quel est le féminin de ""suivant"" ?";suivante;suivant;suivantee;suivantes
+28065;"Quel est le masculin de ""suivante"" ?";suivant;suivante;suivantee;suivants
+28066;"Quel est le féminin de ""important"" ?";importante;important;importantee;importantes
+28067;"Quel est le masculin de ""importante"" ?";important;importante;importantee;importants
+28068;"Quel est le féminin de ""vaillant"" ?";vaillante;vaillant;vaillantee;vaillantes
+28069;"Quel est le masculin de ""vaillante"" ?";vaillant;vaillante;vaillantee;vaillants
+28070;"Quel est le féminin de ""savant"" ?";savante;savant;savantee;savantes
+28071;"Quel est le masculin de ""savante"" ?";savant;savante;savantee;savants
+28072;"Quel est le féminin de ""persévérant"" ?";persévérante;persévérant;persévérantee;persévérantes
+28073;"Quel est le masculin de ""persévérante"" ?";persévérant;persévérante;persévérantee;persévérants
+28074;"Quel est le féminin de ""obéissant"" ?";obéissante;obéissant;obéissantee;obéissantes
+28075;"Quel est le masculin de ""obéissante"" ?";obéissant;obéissante;obéissantee;obéissants
+28076;"Quel est le féminin de ""souriant"" ?";souriante;souriant;souriantee;souriantes
+28077;"Quel est le masculin de ""souriante"" ?";souriant;souriante;souriantee;souriants
+28078;"Quel est le féminin de ""amusant"" ?";amusante;amusant;amusantee;amusantes
+28079;"Quel est le masculin de ""amusante"" ?";amusant;amusante;amusantee;amusants
+28080;"Quel est le féminin de ""effrayant"" ?";effrayante;effrayant;effrayantee;effrayantes
+28081;"Quel est le masculin de ""effrayante"" ?";effrayant;effrayante;effrayantee;effrayants
+28082;"Quel est le féminin de ""tremblant"" ?";tremblante;tremblant;tremblantee;tremblantes
+28083;"Quel est le masculin de ""tremblante"" ?";tremblant;tremblante;tremblantee;tremblants
+28084;"Quel est le féminin de ""hésitant"" ?";hésitante;hésitant;hésitantee;hésitantes
+28085;"Quel est le masculin de ""hésitante"" ?";hésitant;hésitante;hésitantee;hésitants
+28086;"Quel est le féminin de ""surprenant"" ?";surprenante;surprenant;surprenantee;surprenantes
+28087;"Quel est le masculin de ""surprenante"" ?";surprenant;surprenante;surprenantee;surprenants
+28088;"Quel est le féminin de ""inquiétant"" ?";inquiétante;inquiétant;inquiétantee;inquiétantes
+28089;"Quel est le masculin de ""inquiétante"" ?";inquiétant;inquiétante;inquiétantee;inquiétants
+28090;"Quel est le féminin de ""reposant"" ?";reposante;reposant;reposantee;reposantes
+28091;"Quel est le masculin de ""reposante"" ?";reposant;reposante;reposantee;reposants
+28092;"Quel est le féminin de ""passionnant"" ?";passionnante;passionnant;passionnantee;passionnantes
+28093;"Quel est le masculin de ""passionnante"" ?";passionnant;passionnante;passionnantee;passionnants
+28094;"Quel est le féminin de ""joyeux"" ?";joyeuse;joyeux;joyeuxee;joyeusee
+28095;"Quel est le masculin de ""joyeuse"" ?";joyeux;joyeuse;joyeusee;joyeuxe
+28096;"Quel est le féminin de ""peureux"" ?";peureuse;peureux;peureuxee;peureusee
+28097;"Quel est le masculin de ""peureuse"" ?";peureux;peureuse;peureusee;peureuxe
+28098;"Quel est le féminin de ""généreux"" ?";généreuse;généreux;généreuxee;généreusee
+28099;"Quel est le masculin de ""généreuse"" ?";généreux;généreuse;généreusee;généreuxe
+28100;"Quel est le féminin de ""courageux"" ?";courageuse;courageux;courageuxee;courageusee
+28101;"Quel est le masculin de ""courageuse"" ?";courageux;courageuse;courageusee;courageuxe
+28102;"Quel est le féminin de ""silencieux"" ?";silencieuse;silencieux;silencieuxee;silencieusee
+28103;"Quel est le masculin de ""silencieuse"" ?";silencieux;silencieuse;silencieusee;silencieuxe
+28104;"Quel est le féminin de ""merveilleux"" ?";merveilleuse;merveilleux;merveilleuxee;merveilleusee
+28105;"Quel est le masculin de ""merveilleuse"" ?";merveilleux;merveilleuse;merveilleusee;merveilleuxe
+28106;"Quel est le féminin de ""délicieux"" ?";délicieuse;délicieux;délicieuxee;délicieusee
+28107;"Quel est le masculin de ""délicieuse"" ?";délicieux;délicieuse;délicieusee;délicieuxe
+28108;"Quel est le féminin de ""ennuyeux"" ?";ennuyeuse;ennuyeux;ennuyeuxee;ennuyeusee
+28109;"Quel est le masculin de ""ennuyeuse"" ?";ennuyeux;ennuyeuse;ennuyeusee;ennuyeuxe
+28110;"Quel est le féminin de ""chanceux"" ?";chanceuse;chanceux;chanceuxee;chanceusee
+28111;"Quel est le masculin de ""chanceuse"" ?";chanceux;chanceuse;chanceusee;chanceuxe
+28112;"Quel est le féminin de ""malheureux"" ?";malheureuse;malheureux;malheureuxee;malheureusee
+28113;"Quel est le masculin de ""malheureuse"" ?";malheureux;malheureuse;malheureusee;malheureuxe
+28114;"Quel est le féminin de ""affreux"" ?";affreuse;affreux;affreuxee;affreusee
+28115;"Quel est le masculin de ""affreuse"" ?";affreux;affreuse;affreusee;affreuxe
+28116;"Quel est le féminin de ""nerveux"" ?";nerveuse;nerveux;nerveuxee;nerveusee
+28117;"Quel est le masculin de ""nerveuse"" ?";nerveux;nerveuse;nerveusee;nerveuxe
+28118;"Quel est le féminin de ""poussiéreux"" ?";poussiéreuse;poussiéreux;poussiéreuxee;poussiéreusee
+28119;"Quel est le masculin de ""poussiéreuse"" ?";poussiéreux;poussiéreuse;poussiéreusee;poussiéreuxe
+28120;"Quel est le féminin de ""orageux"" ?";orageuse;orageux;orageuxee;orageusee
+28121;"Quel est le masculin de ""orageuse"" ?";orageux;orageuse;orageusee;orageuxe
+28122;"Quel est le féminin de ""venteux"" ?";venteuse;venteux;venteuxee;venteusee
+28123;"Quel est le masculin de ""venteuse"" ?";venteux;venteuse;venteusee;venteuxe
+28124;"Quel est le féminin de ""hasardeux"" ?";hasardeuse;hasardeux;hasardeuxee;hasardeusee
+28125;"Quel est le masculin de ""hasardeuse"" ?";hasardeux;hasardeuse;hasardeusee;hasardeuxe
+28126;"Quel est le féminin de ""naïf"" ?";naïve;naïf;naïfee;naïvee
+28127;"Quel est le masculin de ""naïve"" ?";naïf;naïve;naïvee;naïfe
+28128;"Quel est le féminin de ""attentif"" ?";attentive;attentif;attentifee;attentivee
+28129;"Quel est le masculin de ""attentive"" ?";attentif;attentive;attentivee;attentife
+28130;"Quel est le féminin de ""craintif"" ?";craintive;craintif;craintifee;craintivee
+28131;"Quel est le masculin de ""craintive"" ?";craintif;craintive;craintivee;craintife
+28132;"Quel est le féminin de ""inventif"" ?";inventive;inventif;inventifee;inventivee
+28133;"Quel est le masculin de ""inventive"" ?";inventif;inventive;inventivee;inventife
+28134;"Quel est le féminin de ""créatif"" ?";créative;créatif;créatifee;créativee
+28135;"Quel est le masculin de ""créative"" ?";créatif;créative;créativee;créatife
+28136;"Quel est le féminin de ""instructif"" ?";instructive;instructif;instructifee;instructivee
+28137;"Quel est le masculin de ""instructive"" ?";instructif;instructive;instructivee;instructife
+28138;"Quel est le féminin de ""moyen"" ?";moyenne;moyen;moyenee;moyennee
+28139;"Quel est le masculin de ""moyenne"" ?";moyen;moyenne;moyennee;moyene
+28140;"Quel est le féminin de ""parisien"" ?";parisienne;parisien;parisienee;parisiennee
+28141;"Quel est le masculin de ""parisienne"" ?";parisien;parisienne;parisiennee;parisiene
+28142;"Quel est le féminin de ""canadien"" ?";canadienne;canadien;canadienee;canadiennee
+28143;"Quel est le masculin de ""canadienne"" ?";canadien;canadienne;canadiennee;canadiene
+28144;"Quel est le féminin de ""breton"" ?";bretonne;breton;bretonee;bretonnee
+28145;"Quel est le masculin de ""bretonne"" ?";breton;bretonne;bretonnee;bretone
+28146;"Quel est le féminin de ""franc"" ?";franche;franc;francee;franchee
+28147;"Quel est le masculin de ""franche"" ?";franc;franche;franchee;france
+28148;"Quel est le féminin de ""coquet"" ?";coquette;coquet;coquetee;coquettee
+28149;"Quel est le masculin de ""coquette"" ?";coquet;coquette;coquettee;coquete
+28150;"Quel est le féminin de ""violet"" ?";violette;violet;violetee;violettee
+28151;"Quel est le masculin de ""violette"" ?";violet;violette;violettee;violete
+28152;"Quel est le féminin de ""net"" ?";nette;net;netee;nettee
+28153;"Quel est le masculin de ""nette"" ?";net;nette;nettee;nete
+28154;"Quel est le féminin de ""jumeau"" ?";jumelle;jumeau;jumeauee;jumellee
+28155;"Quel est le masculin de ""jumelle"" ?";jumeau;jumelle;jumellee;jumeaue
+28156;"Quelle est la nature du mot ""école"" ?";nom;adjectif;adverbe;verbe
+28157;"Quelle est la nature du mot ""fille"" ?";nom;verbe;adjectif;adverbe
+28158;"Quelle est la nature du mot ""garçon"" ?";nom;adverbe;adjectif;verbe
+28159;"Quelle est la nature du mot ""fleur"" ?";nom;verbe;adjectif;adverbe
+28160;"Quelle est la nature du mot ""arbre"" ?";nom;verbe;adjectif;adverbe
+28161;"Quelle est la nature du mot ""livre"" ?";nom;verbe;adjectif;adverbe
+28162;"Quelle est la nature du mot ""ballon"" ?";nom;adjectif;adverbe;verbe
+28163;"Quelle est la nature du mot ""soleil"" ?";nom;adjectif;adverbe;verbe
+28164;"Quelle est la nature du mot ""lune"" ?";nom;verbe;adjectif;adverbe
+28165;"Quelle est la nature du mot ""étoile"" ?";nom;adjectif;verbe;adverbe
+28166;"Quelle est la nature du mot ""montagne"" ?";nom;adjectif;verbe;adverbe
+28167;"Quelle est la nature du mot ""rivière"" ?";nom;verbe;adjectif;adverbe
+28168;"Quelle est la nature du mot ""forêt"" ?";nom;adverbe;verbe;adjectif
+28169;"Quelle est la nature du mot ""vélo"" ?";nom;adjectif;adverbe;verbe
+28170;"Quelle est la nature du mot ""ami"" ?";nom;adjectif;verbe;adverbe
+28171;"Quelle est la nature du mot ""famille"" ?";nom;adjectif;verbe;adverbe
+28172;"Quelle est la nature du mot ""cuisine"" ?";nom;verbe;adverbe;adjectif
+28173;"Quelle est la nature du mot ""classe"" ?";nom;verbe;adjectif;adverbe
+28174;"Quelle est la nature du mot ""cahier"" ?";nom;adjectif;adverbe;verbe
+28175;"Quelle est la nature du mot ""stylo"" ?";nom;adjectif;verbe;adverbe
+28176;"Quelle est la nature du mot ""gomme"" ?";nom;adverbe;adjectif;verbe
+28177;"Quelle est la nature du mot ""règle"" ?";nom;adjectif;adverbe;verbe
+28178;"Quelle est la nature du mot ""porte"" ?";nom;adverbe;adjectif;verbe
+28179;"Quelle est la nature du mot ""fenêtre"" ?";nom;adverbe;adjectif;verbe
+28180;"Quelle est la nature du mot ""chaise"" ?";nom;verbe;adjectif;adverbe
+28181;"Quelle est la nature du mot ""lampe"" ?";nom;adverbe;verbe;adjectif
+28182;"Quelle est la nature du mot ""tasse"" ?";nom;verbe;adjectif;adverbe
+28183;"Quelle est la nature du mot ""assiette"" ?";nom;verbe;adverbe;adjectif
+28184;"Quelle est la nature du mot ""cuillère"" ?";nom;adjectif;adverbe;verbe
+28185;"Quelle est la nature du mot ""fourchette"" ?";nom;adverbe;adjectif;verbe
+28186;"Quelle est la nature du mot ""valise"" ?";nom;adjectif;adverbe;verbe
+28187;"Quelle est la nature du mot ""parapluie"" ?";nom;adjectif;verbe;adverbe
+28188;"Quelle est la nature du mot ""chapeau"" ?";nom;adverbe;verbe;adjectif
+28189;"Quelle est la nature du mot ""écharpe"" ?";nom;verbe;adjectif;adverbe
+28190;"Quelle est la nature du mot ""gant"" ?";nom;verbe;adverbe;adjectif
+28191;"Quelle est la nature du mot ""chaussette"" ?";nom;verbe;adverbe;adjectif
+28192;"Quelle est la nature du mot ""bouton"" ?";nom;adjectif;verbe;adverbe
+28193;"Quelle est la nature du mot ""poche"" ?";nom;adjectif;adverbe;verbe
+28194;"Quelle est la nature du mot ""miroir"" ?";nom;adjectif;adverbe;verbe
+28195;"Quelle est la nature du mot ""brosse"" ?";nom;adjectif;verbe;adverbe
+28196;"Quelle est la nature du mot ""lire"" ?";verbe;adjectif;nom;adverbe
+28197;"Quelle est la nature du mot ""écrire"" ?";verbe;adjectif;nom;adverbe
+28198;"Quelle est la nature du mot ""dormir"" ?";verbe;adjectif;nom;adverbe
+28199;"Quelle est la nature du mot ""jouer"" ?";verbe;nom;adverbe;adjectif
+28200;"Quelle est la nature du mot ""parler"" ?";verbe;nom;adverbe;adjectif
+28201;"Quelle est la nature du mot ""marcher"" ?";verbe;nom;adjectif;adverbe
+28202;"Quelle est la nature du mot ""nager"" ?";verbe;nom;adverbe;adjectif
+28203;"Quelle est la nature du mot ""voler"" ?";verbe;adjectif;adverbe;nom
+28204;"Quelle est la nature du mot ""grimper"" ?";verbe;adjectif;adverbe;nom
+28205;"Quelle est la nature du mot ""tomber"" ?";verbe;nom;adverbe;adjectif
+28206;"Quelle est la nature du mot ""ouvrir"" ?";verbe;adjectif;nom;adverbe
+28207;"Quelle est la nature du mot ""fermer"" ?";verbe;adjectif;nom;adverbe
+28208;"Quelle est la nature du mot ""regarder"" ?";verbe;adverbe;nom;adjectif
+28209;"Quelle est la nature du mot ""écouter"" ?";verbe;adjectif;adverbe;nom
+28210;"Quelle est la nature du mot ""aider"" ?";verbe;adverbe;nom;adjectif
+28211;"Quelle est la nature du mot ""partir"" ?";verbe;nom;adjectif;adverbe
+28212;"Quelle est la nature du mot ""arriver"" ?";verbe;adverbe;nom;adjectif
+28213;"Quelle est la nature du mot ""rentrer"" ?";verbe;nom;adjectif;adverbe
+28214;"Quelle est la nature du mot ""pleurer"" ?";verbe;nom;adverbe;adjectif
+28215;"Quelle est la nature du mot ""rire"" ?";verbe;adjectif;adverbe;nom
+28216;"Quelle est la nature du mot ""sourire"" ?";verbe;adjectif;nom;adverbe
+28217;"Quelle est la nature du mot ""penser"" ?";verbe;adverbe;adjectif;nom
+28218;"Quelle est la nature du mot ""réfléchir"" ?";verbe;adjectif;nom;adverbe
+28219;"Quelle est la nature du mot ""construire"" ?";verbe;nom;adverbe;adjectif
+28220;"Quelle est la nature du mot ""dessiner"" ?";verbe;adjectif;adverbe;nom
+28221;"Quelle est la nature du mot ""peindre"" ?";verbe;adjectif;nom;adverbe
+28222;"Quelle est la nature du mot ""couper"" ?";verbe;adverbe;nom;adjectif
+28223;"Quelle est la nature du mot ""coller"" ?";verbe;adjectif;nom;adverbe
+28224;"Quelle est la nature du mot ""plier"" ?";verbe;nom;adjectif;adverbe
+28225;"Quelle est la nature du mot ""ranger"" ?";verbe;adjectif;nom;adverbe
+28226;"Quelle est la nature du mot ""laver"" ?";verbe;adverbe;adjectif;nom
+28227;"Quelle est la nature du mot ""essuyer"" ?";verbe;adjectif;adverbe;nom
+28228;"Quelle est la nature du mot ""balayer"" ?";verbe;adverbe;adjectif;nom
+28229;"Quelle est la nature du mot ""cuisiner"" ?";verbe;adverbe;nom;adjectif
+28230;"Quelle est la nature du mot ""goûter"" ?";verbe;adjectif;nom;adverbe
+28231;"Quelle est la nature du mot ""sentir"" ?";verbe;nom;adjectif;adverbe
+28232;"Quelle est la nature du mot ""toucher"" ?";verbe;nom;adjectif;adverbe
+28233;"Quelle est la nature du mot ""choisir"" ?";verbe;adjectif;nom;adverbe
+28234;"Quelle est la nature du mot ""répondre"" ?";verbe;adjectif;adverbe;nom
+28235;"Quelle est la nature du mot ""rouge"" ?";adjectif;adverbe;verbe;nom
+28236;"Quelle est la nature du mot ""vert"" ?";adjectif;verbe;nom;adverbe
+28237;"Quelle est la nature du mot ""heureux"" ?";adjectif;adverbe;verbe;nom
+28238;"Quelle est la nature du mot ""triste"" ?";adjectif;adverbe;verbe;nom
+28239;"Quelle est la nature du mot ""fort"" ?";adjectif;verbe;adverbe;nom
+28240;"Quelle est la nature du mot ""rapide"" ?";adjectif;verbe;adverbe;nom
+28241;"Quelle est la nature du mot ""facile"" ?";adjectif;adverbe;nom;verbe
+28242;"Quelle est la nature du mot ""difficile"" ?";adjectif;adverbe;nom;verbe
+28243;"Quelle est la nature du mot ""léger"" ?";adjectif;nom;verbe;adverbe
+28244;"Quelle est la nature du mot ""lourd"" ?";adjectif;verbe;nom;adverbe
+28245;"Quelle est la nature du mot ""doux"" ?";adjectif;nom;adverbe;verbe
+28246;"Quelle est la nature du mot ""gros"" ?";adjectif;adverbe;nom;verbe
+28247;"Quelle est la nature du mot ""mince"" ?";adjectif;verbe;adverbe;nom
+28248;"Quelle est la nature du mot ""jeune"" ?";adjectif;adverbe;verbe;nom
+28249;"Quelle est la nature du mot ""vieux"" ?";adjectif;nom;verbe;adverbe
+28250;"Quelle est la nature du mot ""nouveau"" ?";adjectif;adverbe;nom;verbe
+28251;"Quelle est la nature du mot ""ancien"" ?";adjectif;adverbe;verbe;nom
+28252;"Quelle est la nature du mot ""propre"" ?";adjectif;nom;adverbe;verbe
+28253;"Quelle est la nature du mot ""sale"" ?";adjectif;nom;adverbe;verbe
+28254;"Quelle est la nature du mot ""chaud"" ?";adjectif;nom;adverbe;verbe
+28255;"Quelle est la nature du mot ""froid"" ?";adjectif;nom;adverbe;verbe
+28256;"Quelle est la nature du mot ""clair"" ?";adjectif;nom;verbe;adverbe
+28257;"Quelle est la nature du mot ""sombre"" ?";adjectif;verbe;nom;adverbe
+28258;"Quelle est la nature du mot ""calme"" ?";adjectif;adverbe;verbe;nom
+28259;"Quelle est la nature du mot ""agité"" ?";adjectif;verbe;adverbe;nom
+28260;"Quelle est la nature du mot ""poli"" ?";adjectif;verbe;adverbe;nom
+28261;"Quelle est la nature du mot ""méchant"" ?";adjectif;verbe;adverbe;nom
+28262;"Quelle est la nature du mot ""curieux"" ?";adjectif;verbe;adverbe;nom
+28263;"Quelle est la nature du mot ""fatigué"" ?";adjectif;nom;verbe;adverbe
+28264;"Quelle est la nature du mot ""malade"" ?";adjectif;nom;adverbe;verbe
+28265;"Quelle est la nature du mot ""guéri"" ?";adjectif;adverbe;nom;verbe
+28266;"Quelle est la nature du mot ""élégant"" ?";adjectif;adverbe;verbe;nom
+28267;"Quelle est la nature du mot ""simple"" ?";adjectif;nom;adverbe;verbe
+28268;"Quelle est la nature du mot ""complexe"" ?";adjectif;nom;verbe;adverbe
+28269;"Quelle est la nature du mot ""utile"" ?";adjectif;adverbe;verbe;nom
+28270;"Quelle est la nature du mot ""inutile"" ?";adjectif;verbe;adverbe;nom
+28271;"Quelle est la nature du mot ""précieux"" ?";adjectif;nom;verbe;adverbe
+28272;"Quelle est la nature du mot ""fragile"" ?";adjectif;adverbe;verbe;nom
+28273;"Quelle est la nature du mot ""toujours"" ?";adverbe;verbe;adjectif;nom
+28274;"Quelle est la nature du mot ""jamais"" ?";adverbe;adjectif;nom;verbe
+28275;"Quelle est la nature du mot ""ici"" ?";adverbe;adjectif;nom;verbe
+28276;"Quelle est la nature du mot ""là"" ?";adverbe;nom;adjectif;verbe
+28277;"Quelle est la nature du mot ""demain"" ?";adverbe;adjectif;verbe;nom
+28278;"Quelle est la nature du mot ""hier"" ?";adverbe;nom;adjectif;verbe
+28279;"Quelle est la nature du mot ""aujourd'hui"" ?";adverbe;nom;adjectif;verbe
+28280;"Quelle est la nature du mot ""beaucoup"" ?";adverbe;nom;verbe;adjectif
+28281;"Quelle est la nature du mot ""peu"" ?";adverbe;nom;verbe;adjectif
+28282;"Quelle est la nature du mot ""très"" ?";adverbe;verbe;nom;adjectif
+28283;"Quelle est la nature du mot ""bien"" ?";adverbe;nom;adjectif;verbe
+28284;"Quelle est la nature du mot ""mal"" ?";adverbe;verbe;nom;adjectif
+28285;"Quelle est la nature du mot ""tard"" ?";adverbe;verbe;adjectif;nom
+28286;"Quelle est la nature du mot ""tôt"" ?";adverbe;adjectif;nom;verbe
+28287;"Quelle est la nature du mot ""dehors"" ?";adverbe;adjectif;verbe;nom
+28288;"Quelle est la nature du mot ""dedans"" ?";adverbe;adjectif;verbe;nom
+28289;"Quelle est la nature du mot ""partout"" ?";adverbe;adjectif;nom;verbe
+28290;"Quelle est la nature du mot ""ailleurs"" ?";adverbe;verbe;nom;adjectif
+28291;"Quelle est la nature du mot ""gentiment"" ?";adverbe;nom;adjectif;verbe
+28292;"Quelle est la nature du mot ""joyeusement"" ?";adverbe;verbe;adjectif;nom
+28293;"Quelle est la nature du mot ""tristement"" ?";adverbe;adjectif;verbe;nom
+28294;"Quelle est la nature du mot ""calmement"" ?";adverbe;adjectif;nom;verbe
+28295;"Quelle est la nature du mot ""bruyamment"" ?";adverbe;adjectif;verbe;nom
+28296;"Quelle est la nature du mot ""patiemment"" ?";adverbe;adjectif;nom;verbe
+28297;"Quelle est la nature du mot ""prudemment"" ?";adverbe;verbe;nom;adjectif
+28298;"Quelle est la nature du mot ""vraiment"" ?";adverbe;verbe;nom;adjectif
+28299;"Quelle est la nature du mot ""simplement"" ?";adverbe;adjectif;verbe;nom
+28300;"Quelle est la nature du mot ""route"" ?";nom;adjectif;adverbe;verbe
+28301;"Quelle est la nature du mot ""train"" ?";nom;adverbe;adjectif;verbe
+28302;"Quelle est la nature du mot ""avion"" ?";nom;verbe;adjectif;adverbe
+28303;"Quelle est la nature du mot ""bateau"" ?";nom;verbe;adjectif;adverbe
+28304;"Quelle est la nature du mot ""gare"" ?";nom;verbe;adjectif;adverbe
+28305;"Quelle est la nature du mot ""aéroport"" ?";nom;adjectif;adverbe;verbe
+28306;"Quelle est la nature du mot ""magasin"" ?";nom;adjectif;adverbe;verbe
+28307;"Quelle est la nature du mot ""marché"" ?";nom;verbe;adjectif;adverbe
+28308;"Quelle est la nature du mot ""boulangerie"" ?";nom;adjectif;verbe;adverbe
+28309;"Quelle est la nature du mot ""pharmacie"" ?";nom;adjectif;verbe;adverbe
+28310;"Quelle est la nature du mot ""hôpital"" ?";nom;verbe;adjectif;adverbe
+28311;"Quelle est la nature du mot ""piscine"" ?";nom;adverbe;verbe;adjectif
+28312;"Quelle est la nature du mot ""plage"" ?";nom;adjectif;adverbe;verbe
+28313;"Quelle est la nature du mot ""océan"" ?";nom;adjectif;verbe;adverbe
+28314;"Quelle est la nature du mot ""lac"" ?";nom;adjectif;verbe;adverbe
+28315;"Quelle est la nature du mot ""île"" ?";nom;verbe;adverbe;adjectif
+28316;"Quelle est la nature du mot ""désert"" ?";nom;verbe;adjectif;adverbe
+28317;"Quelle est la nature du mot ""volcan"" ?";nom;adjectif;adverbe;verbe
+28318;"Quelle est la nature du mot ""glacier"" ?";nom;adjectif;verbe;adverbe
+28319;"Quelle est la nature du mot ""printemps"" ?";nom;adverbe;adjectif;verbe
+28320;"Quelle est la nature du mot ""été"" ?";nom;adjectif;adverbe;verbe
+28321;"Quelle est la nature du mot ""automne"" ?";nom;adverbe;adjectif;verbe
+28322;"Quelle est la nature du mot ""hiver"" ?";nom;adverbe;adjectif;verbe
+28323;"Quelle est la nature du mot ""matin"" ?";nom;verbe;adjectif;adverbe
+28324;"Quelle est la nature du mot ""soir"" ?";nom;adverbe;verbe;adjectif
+28325;"Quelle est la nature du mot ""nuit"" ?";nom;verbe;adjectif;adverbe
+28326;"Quelle est la nature du mot ""jour"" ?";nom;verbe;adverbe;adjectif
+28327;"Quelle est la nature du mot ""semaine"" ?";nom;adjectif;adverbe;verbe
+28328;"Quelle est la nature du mot ""année"" ?";nom;adverbe;adjectif;verbe
+28329;"Quelle est la nature du mot ""siècle"" ?";nom;adjectif;adverbe;verbe
+28330;"Quelle est la nature du mot ""minute"" ?";nom;adjectif;verbe;adverbe
+28331;"Quelle est la nature du mot ""seconde"" ?";nom;adverbe;verbe;adjectif
+28332;"Quelle est la nature du mot ""heure"" ?";nom;verbe;adjectif;adverbe
+28333;"Quelle est la nature du mot ""calendrier"" ?";nom;verbe;adverbe;adjectif
+28334;"Quelle est la nature du mot ""horloge"" ?";nom;verbe;adverbe;adjectif
+28335;"Quelle est la nature du mot ""colline"" ?";nom;adjectif;adverbe;verbe
+28336;"Quelle est la nature du mot ""vallée"" ?";nom;adjectif;adverbe;verbe
+28337;"Quelle est la nature du mot ""prairie"" ?";nom;adjectif;verbe;adverbe
+28338;"Quelle est la nature du mot ""champ"" ?";nom;adjectif;verbe;adverbe
+28339;"Quelle est la nature du mot ""ferme"" ?";nom;adjectif;verbe;adverbe
+28340;"Quelle est la nature du mot ""grange"" ?";nom;adjectif;verbe;adverbe
+28341;"Quelle est la nature du mot ""tracteur"" ?";nom;verbe;adverbe;adjectif
+28342;"Quelle est la nature du mot ""récolte"" ?";nom;verbe;adverbe;adjectif
+28343;"Quelle est la nature du mot ""moisson"" ?";nom;verbe;adjectif;adverbe
+28344;"Quelle est la nature du mot ""semence"" ?";nom;verbe;adverbe;adjectif
+28345;"Quelle est la nature du mot ""voyager"" ?";verbe;adjectif;adverbe;nom
+28346;"Quelle est la nature du mot ""conduire"" ?";verbe;adjectif;adverbe;nom
+28347;"Quelle est la nature du mot ""piloter"" ?";verbe;nom;adverbe;adjectif
+28348;"Quelle est la nature du mot ""atterrir"" ?";verbe;adjectif;nom;adverbe
+28349;"Quelle est la nature du mot ""décoller"" ?";verbe;adjectif;nom;adverbe
+28350;"Quelle est la nature du mot ""naviguer"" ?";verbe;adverbe;nom;adjectif
+28351;"Quelle est la nature du mot ""pêcher"" ?";verbe;adjectif;adverbe;nom
+28352;"Quelle est la nature du mot ""camper"" ?";verbe;adverbe;nom;adjectif
+28353;"Quelle est la nature du mot ""randonner"" ?";verbe;nom;adjectif;adverbe
+28354;"Quelle est la nature du mot ""escalader"" ?";verbe;adverbe;nom;adjectif
+28355;"Quelle est la nature du mot ""plonger"" ?";verbe;nom;adjectif;adverbe
+28356;"Quelle est la nature du mot ""skier"" ?";verbe;nom;adverbe;adjectif
+28357;"Quelle est la nature du mot ""patiner"" ?";verbe;adjectif;adverbe;nom
+28358;"Quelle est la nature du mot ""bondir"" ?";verbe;adjectif;nom;adverbe
+28359;"Quelle est la nature du mot ""ramper"" ?";verbe;nom;adverbe;adjectif
+28360;"Quelle est la nature du mot ""planer"" ?";verbe;adjectif;nom;adverbe
+28361;"Quelle est la nature du mot ""flotter"" ?";verbe;adjectif;nom;adverbe
+28362;"Quelle est la nature du mot ""couler"" ?";verbe;nom;adverbe;adjectif
+28363;"Quelle est la nature du mot ""fondre"" ?";verbe;adverbe;nom;adjectif
+28364;"Quelle est la nature du mot ""geler"" ?";verbe;adjectif;nom;adverbe
+28365;"Quelle est la nature du mot ""chauffer"" ?";verbe;nom;adjectif;adverbe
+28366;"Quelle est la nature du mot ""refroidir"" ?";verbe;adjectif;nom;adverbe
+28367;"Quelle est la nature du mot ""allumer"" ?";verbe;adverbe;adjectif;nom
+28368;"Quelle est la nature du mot ""éteindre"" ?";verbe;adjectif;adverbe;nom
+28369;"Quelle est la nature du mot ""éplucher"" ?";verbe;adverbe;nom;adjectif
+28370;"Quelle est la nature du mot ""mélanger"" ?";verbe;adjectif;nom;adverbe
+28371;"Quelle est la nature du mot ""verser"" ?";verbe;nom;adjectif;adverbe
+28372;"Quelle est la nature du mot ""déguster"" ?";verbe;adjectif;nom;adverbe
+28373;"Quelle est la nature du mot ""savourer"" ?";verbe;adjectif;adverbe;nom
+28374;"Quelle est la nature du mot ""mâcher"" ?";verbe;adverbe;adjectif;nom
+28375;"Quelle est la nature du mot ""avaler"" ?";verbe;adjectif;nom;adverbe
+28376;"Quelle est la nature du mot ""respirer"" ?";verbe;adverbe;adjectif;nom
+28377;"Quelle est la nature du mot ""souffler"" ?";verbe;adverbe;adjectif;nom
+28378;"Quelle est la nature du mot ""crier"" ?";verbe;adjectif;adverbe;nom
+28379;"Quelle est la nature du mot ""chuchoter"" ?";verbe;adjectif;adverbe;nom
+28380;"Quelle est la nature du mot ""murmurer"" ?";verbe;adverbe;nom;adjectif
+28381;"Quelle est la nature du mot ""appeler"" ?";verbe;adverbe;nom;adjectif
+28382;"Quelle est la nature du mot ""questionner"" ?";verbe;adjectif;nom;adverbe
+28383;"Quelle est la nature du mot ""expliquer"" ?";verbe;nom;adverbe;adjectif
+28384;"Quelle est la nature du mot ""comprendre"" ?";verbe;adverbe;nom;adjectif
+28385;"Quelle est la nature du mot ""apprendre"" ?";verbe;adjectif;adverbe;nom
+28386;"Quelle est la nature du mot ""enseigner"" ?";verbe;adverbe;adjectif;nom
+28387;"Quelle est la nature du mot ""étroit"" ?";adjectif;nom;verbe;adverbe
+28388;"Quelle est la nature du mot ""large"" ?";adjectif;adverbe;nom;verbe
+28389;"Quelle est la nature du mot ""profond"" ?";adjectif;adverbe;verbe;nom
+28390;"Quelle est la nature du mot ""superficiel"" ?";adjectif;nom;adverbe;verbe
+28391;"Quelle est la nature du mot ""solide"" ?";adjectif;nom;adverbe;verbe
+28392;"Quelle est la nature du mot ""souple"" ?";adjectif;nom;adverbe;verbe
+28393;"Quelle est la nature du mot ""rigide"" ?";adjectif;nom;verbe;adverbe
+28394;"Quelle est la nature du mot ""transparent"" ?";adjectif;verbe;nom;adverbe
+28395;"Quelle est la nature du mot ""opaque"" ?";adjectif;adverbe;verbe;nom
+28396;"Quelle est la nature du mot ""brillant"" ?";adjectif;verbe;adverbe;nom
+28397;"Quelle est la nature du mot ""terne"" ?";adjectif;verbe;adverbe;nom
+28398;"Quelle est la nature du mot ""vif"" ?";adjectif;verbe;adverbe;nom
+28399;"Quelle est la nature du mot ""pâle"" ?";adjectif;verbe;adverbe;nom
+28400;"Quelle est la nature du mot ""foncé"" ?";adjectif;verbe;adverbe;nom
+28401;"Quelle est la nature du mot ""tiède"" ?";adjectif;adverbe;nom;verbe
+28402;"Quelle est la nature du mot ""glacé"" ?";adjectif;adverbe;nom;verbe
+28403;"Quelle est la nature du mot ""brûlant"" ?";adjectif;adverbe;verbe;nom
+28404;"Quelle est la nature du mot ""salé"" ?";adjectif;nom;adverbe;verbe
+28405;"Quelle est la nature du mot ""sucré"" ?";adjectif;nom;verbe;adverbe
+28406;"Quelle est la nature du mot ""amer"" ?";adjectif;adverbe;verbe;nom
+28407;"Quelle est la nature du mot ""acide"" ?";adjectif;verbe;adverbe;nom
+28408;"Quelle est la nature du mot ""épicé"" ?";adjectif;nom;verbe;adverbe
+28409;"Quelle est la nature du mot ""fade"" ?";adjectif;adverbe;verbe;nom
+28410;"Quelle est la nature du mot ""tendre"" ?";adjectif;verbe;adverbe;nom
+28411;"Quelle est la nature du mot ""dur"" ?";adjectif;adverbe;nom;verbe
+28412;"Quelle est la nature du mot ""croquant"" ?";adjectif;adverbe;nom;verbe
+28413;"Quelle est la nature du mot ""moelleux"" ?";adjectif;nom;adverbe;verbe
+28414;"Quelle est la nature du mot ""diviser"" ?";verbe;nom;adverbe;adjectif
+28415;"Quelle est la nature du mot ""microscope"" ?";nom;adverbe;adjectif;verbe
+28416;"Quelle est la nature du mot ""particulièrement"" ?";adverbe;nom;verbe;adjectif
+28417;"Quelle est la nature du mot ""naturellement"" ?";adverbe;adjectif;verbe;nom
+28418;"Quelle est la nature du mot ""deviner"" ?";verbe;nom;adjectif;adverbe
+28419;"Quelle est la nature du mot ""frapper"" ?";verbe;nom;adverbe;adjectif
+28420;"Quelle est la nature du mot ""violemment"" ?";adverbe;nom;adjectif;verbe
+28421;"Quelle est la nature du mot ""magicien"" ?";nom;adjectif;verbe;adverbe
+28422;"Quelle est la nature du mot ""rêver"" ?";verbe;adjectif;adverbe;nom
+28423;"Quelle est la nature du mot ""bijou"" ?";nom;adverbe;verbe;adjectif
+28424;"Quelle est la nature du mot ""vétérinaire"" ?";nom;adjectif;verbe;adverbe
+28425;"Quelle est la nature du mot ""rare"" ?";adjectif;verbe;nom;adverbe
+28426;"Quelle est la nature du mot ""étonnant"" ?";adjectif;verbe;nom;adverbe
+28427;"Quelle est la nature du mot ""partiellement"" ?";adverbe;verbe;nom;adjectif
+28428;"Quelle est la nature du mot ""fantastique"" ?";adjectif;nom;adverbe;verbe
+28429;"Quelle est la nature du mot ""prince"" ?";nom;adverbe;verbe;adjectif
+28430;"Quelle est la nature du mot ""annoncer"" ?";verbe;adjectif;adverbe;nom
+28431;"Quelle est la nature du mot ""plafond"" ?";nom;adverbe;adjectif;verbe
+28432;"Quelle est la nature du mot ""anxieux"" ?";adjectif;verbe;adverbe;nom
+28433;"Quelle est la nature du mot ""jardinier"" ?";nom;verbe;adjectif;adverbe
+28434;"Quelle est la nature du mot ""détendu"" ?";adjectif;nom;adverbe;verbe
+28435;"Quelle est la nature du mot ""instantanément"" ?";adverbe;nom;verbe;adjectif
+28436;"Quelle est la nature du mot ""fier"" ?";adjectif;adverbe;verbe;nom
+28437;"Quelle est la nature du mot ""comète"" ?";nom;adverbe;adjectif;verbe
+28438;"Quelle est la nature du mot ""découvrir"" ?";verbe;adjectif;nom;adverbe
+28439;"Quelle est la nature du mot ""intensément"" ?";adverbe;verbe;adjectif;nom
+28440;"Quelle est la nature du mot ""arrêter"" ?";verbe;nom;adverbe;adjectif
+28441;"Quelle est la nature du mot ""ovale"" ?";adjectif;verbe;nom;adverbe
+28442;"Quelle est la nature du mot ""extraordinaire"" ?";adjectif;nom;verbe;adverbe
+28443;"Quelle est la nature du mot ""féliciter"" ?";verbe;adjectif;adverbe;nom
+28444;"Quelle est la nature du mot ""espérer"" ?";verbe;nom;adverbe;adjectif
+28445;"Quelle est la nature du mot ""statue"" ?";nom;adjectif;adverbe;verbe
+28446;"Quelle est la nature du mot ""dentiste"" ?";nom;adjectif;adverbe;verbe
+28447;"Quelle est la nature du mot ""casserole"" ?";nom;adjectif;adverbe;verbe
+28448;"Quelle est la nature du mot ""princesse"" ?";nom;verbe;adverbe;adjectif
+28449;"Quelle est la nature du mot ""apparemment"" ?";adverbe;nom;verbe;adjectif
+28450;"Quelle est la nature du mot ""visiblement"" ?";adverbe;nom;verbe;adjectif
+28451;"Quelle est la nature du mot ""marin"" ?";nom;verbe;adverbe;adjectif
+28452;"Quelle est la nature du mot ""multiplier"" ?";verbe;adverbe;nom;adjectif
+28453;"Quelle est la nature du mot ""collier"" ?";nom;adverbe;adjectif;verbe
+28454;"Quelle est la nature du mot ""balcon"" ?";nom;adverbe;verbe;adjectif
+28455;"Quelle est la nature du mot ""capitaine"" ?";nom;verbe;adverbe;adjectif
+28456;"Quelle est la nature du mot ""canapé"" ?";nom;adverbe;adjectif;verbe
+28457;"Quelle est la nature du mot ""creux"" ?";adjectif;adverbe;verbe;nom
+28458;"Quelle est la nature du mot ""souhaiter"" ?";verbe;nom;adverbe;adjectif
+28459;"Quelle est la nature du mot ""graduellement"" ?";adverbe;verbe;adjectif;nom
+28460;"Quelle est la nature du mot ""pyjama"" ?";nom;adverbe;adjectif;verbe
+28461;"Quelle est la nature du mot ""tordu"" ?";adjectif;adverbe;nom;verbe
+28462;"Quelle est la nature du mot ""unique"" ?";adjectif;nom;verbe;adverbe
+28463;"Quelle est la nature du mot ""cartable"" ?";nom;adjectif;adverbe;verbe
+28464;"Quelle est la nature du mot ""couronne"" ?";nom;verbe;adverbe;adjectif
+28465;"Quelle est la nature du mot ""géant"" ?";nom;adjectif;verbe;adverbe
+28466;"Quelle est la nature du mot ""montrer"" ?";verbe;adverbe;nom;adjectif
+28467;"Quelle est la nature du mot ""couloir"" ?";nom;adjectif;adverbe;verbe
+28468;"Quelle est la nature du mot ""détester"" ?";verbe;adjectif;nom;adverbe
+28469;"Quelle est la nature du mot ""tapis"" ?";nom;adverbe;adjectif;verbe
+28470;"Quelle est la nature du mot ""protéger"" ?";verbe;adjectif;nom;adverbe
+28471;"Quelle est la nature du mot ""incroyable"" ?";adjectif;verbe;adverbe;nom
+28472;"Quelle est la nature du mot ""jaloux"" ?";adjectif;nom;verbe;adverbe
+28473;"Quelle est la nature du mot ""punir"" ?";verbe;nom;adjectif;adverbe
+28474;"Quelle est la nature du mot ""résoudre"" ?";verbe;nom;adjectif;adverbe
+28475;"Quelle est la nature du mot ""habituellement"" ?";adverbe;adjectif;nom;verbe
+28476;"Quelle est la nature du mot ""défendre"" ?";verbe;adjectif;nom;adverbe
+28477;"Quelle est la nature du mot ""franchement"" ?";adverbe;nom;adjectif;verbe
+28478;"Quelle est la nature du mot ""stressé"" ?";adjectif;verbe;adverbe;nom
+28479;"Quelle est la nature du mot ""étrange"" ?";adjectif;nom;verbe;adverbe
+28480;"Quelle est la nature du mot ""courbé"" ?";adjectif;adverbe;verbe;nom
+28481;"Quelle est la nature du mot ""compter"" ?";verbe;adjectif;adverbe;nom
+28482;"Quelle est la nature du mot ""aimer"" ?";verbe;adjectif;nom;adverbe
+28483;"Quelle est la nature du mot ""empiler"" ?";verbe;adverbe;adjectif;nom
+28484;"Quelle est la nature du mot ""méchamment"" ?";adverbe;adjectif;nom;verbe
+28485;"Quelle est la nature du mot ""commode"" ?";nom;adverbe;adjectif;verbe
+28486;"Quelle est la nature du mot ""remercier"" ?";verbe;adverbe;nom;adjectif
+28487;"Quelle est la nature du mot ""chanteur"" ?";nom;verbe;adjectif;adverbe
+28488;"Quelle est la nature du mot ""journaliste"" ?";nom;adverbe;verbe;adjectif
+28489;"Quelle est la nature du mot ""surprenant"" ?";adjectif;adverbe;nom;verbe
+28490;"Quelle est la nature du mot ""danseur"" ?";nom;adverbe;adjectif;verbe
+28491;"Quelle est la nature du mot ""mesurer"" ?";verbe;adjectif;nom;adverbe
+28492;"Quelle est la nature du mot ""impressionnant"" ?";adjectif;adverbe;verbe;nom
+28493;"Quelle est la nature du mot ""énergique"" ?";adjectif;nom;verbe;adverbe
+28494;"Quelle est la nature du mot ""répéter"" ?";verbe;adjectif;adverbe;nom
+28495;"Quelle est la nature du mot ""couverture"" ?";nom;adverbe;verbe;adjectif
+28496;"Quelle est la nature du mot ""ciseaux"" ?";nom;adverbe;adjectif;verbe
+28497;"Quelle est la nature du mot ""charmant"" ?";adjectif;nom;verbe;adverbe
+28498;"Quelle est la nature du mot ""fatigant"" ?";adjectif;adverbe;nom;verbe
+28499;"Quelle est la nature du mot ""récompenser"" ?";verbe;nom;adverbe;adjectif
+28500;"Quelle est la nature du mot ""palette"" ?";nom;adjectif;verbe;adverbe
+28501;"Quelle est la nature du mot ""décrire"" ?";verbe;adjectif;nom;adverbe
+28502;"Quelle est la nature du mot ""préparer"" ?";verbe;adverbe;nom;adjectif
+28503;"Quelle est la nature du mot ""cacher"" ?";verbe;adjectif;adverbe;nom
+28504;"Quelle est la nature du mot ""cassant"" ?";adjectif;nom;verbe;adverbe
+28505;"Quelle est la nature du mot ""pilote"" ?";nom;adjectif;verbe;adverbe
+28506;"Quelle est la nature du mot ""poliment"" ?";adverbe;nom;adjectif;verbe
+28507;"Quelle est la nature du mot ""spécialement"" ?";adverbe;nom;adjectif;verbe
+28508;"Quelle est la nature du mot ""baignoire"" ?";nom;verbe;adjectif;adverbe
+28509;"Quelle est la nature du mot ""proposer"" ?";verbe;adverbe;nom;adjectif
+28510;"Quelle est la nature du mot ""brutalement"" ?";adverbe;nom;verbe;adjectif
+28511;"Quelle est la nature du mot ""coussin"" ?";nom;adverbe;adjectif;verbe
+28512;"Quelle est la nature du mot ""chevalier"" ?";nom;adjectif;adverbe;verbe
+28513;"Quelle est la nature du mot ""impatiemment"" ?";adverbe;adjectif;nom;verbe
+28514;"Quelle est la nature du mot ""désobéir"" ?";verbe;nom;adverbe;adjectif
+28515;"Quelle est la nature du mot ""agréable"" ?";adjectif;nom;adverbe;verbe
+28516;"Quelle est la nature du mot ""verre"" ?";nom;adverbe;adjectif;verbe
+28517;"Quelle est la nature du mot ""préférer"" ?";verbe;adverbe;adjectif;nom
+28518;"Quelle est la nature du mot ""terminer"" ?";verbe;adjectif;nom;adverbe
+28519;"Quelle est la nature du mot ""drapeau"" ?";nom;adverbe;verbe;adjectif
+28520;"Quelle est la nature du mot ""dévoiler"" ?";verbe;adjectif;nom;adverbe
+28521;"Quelle est la nature du mot ""montre"" ?";nom;verbe;adverbe;adjectif
+28522;"Quelle est la nature du mot ""microscopique"" ?";adjectif;verbe;adverbe;nom
+28523;"Quelle est la nature du mot ""oreiller"" ?";nom;adjectif;adverbe;verbe
+28524;"Quelle est la nature du mot ""bague"" ?";nom;verbe;adverbe;adjectif
+28525;"Quelle est la nature du mot ""bracelet"" ?";nom;adjectif;verbe;adverbe
+28526;"Quelle est la nature du mot ""effrayant"" ?";adjectif;nom;verbe;adverbe
+28527;"Quelle est la nature du mot ""boulanger"" ?";nom;adjectif;adverbe;verbe
+28528;"Quelle est la nature du mot ""peintre"" ?";nom;adverbe;adjectif;verbe
+28529;"Quelle est la nature du mot ""honteux"" ?";adjectif;verbe;adverbe;nom
+28530;"Quelle est la nature du mot ""clairement"" ?";adverbe;nom;verbe;adjectif
+28531;"Quelle est la nature du mot ""roi"" ?";nom;adverbe;verbe;adjectif
+28532;"Quelle est la nature du mot ""honnêtement"" ?";adverbe;nom;verbe;adjectif
+28533;"Quelle est la nature du mot ""obéir"" ?";verbe;nom;adverbe;adjectif
+28534;"Quelle est la nature du mot ""confortable"" ?";adjectif;verbe;adverbe;nom
+28535;"Quelle est la nature du mot ""colossal"" ?";adjectif;nom;adverbe;verbe
+28536;"Quelle est la nature du mot ""réveil"" ?";nom;verbe;adjectif;adverbe
+28537;"Quelle est la nature du mot ""tranchant"" ?";adjectif;adverbe;verbe;nom
+28538;"Quelle est la nature du mot ""impoliment"" ?";adverbe;nom;adjectif;verbe
+28539;"Quelle est la nature du mot ""déplier"" ?";verbe;adverbe;adjectif;nom
+28540;"Quelle est la nature du mot ""drap"" ?";nom;adjectif;verbe;adverbe
+28541;"Quelle est la nature du mot ""toile"" ?";nom;adjectif;verbe;adverbe
+28542;"Quelle est la nature du mot ""soustraire"" ?";verbe;nom;adjectif;adverbe
+28543;"Quelle est la nature du mot ""poêle"" ?";nom;adjectif;verbe;adverbe
+28544;"Quelle est la nature du mot ""cave"" ?";nom;adverbe;adjectif;verbe
+28545;"Quelle est la nature du mot ""toit"" ?";nom;verbe;adjectif;adverbe
+28546;"Quelle est la nature du mot ""planète"" ?";nom;adverbe;adjectif;verbe
+28547;"Quelle est la nature du mot ""cuisinier"" ?";nom;adjectif;verbe;adverbe
+28548;"Quelle est la nature du mot ""discuter"" ?";verbe;nom;adjectif;adverbe
+28549;"Quelle est la nature du mot ""attaquer"" ?";verbe;adverbe;adjectif;nom
+28550;"Quelle est la nature du mot ""télescope"" ?";nom;verbe;adverbe;adjectif
+28551;"Quelle est la nature du mot ""fortement"" ?";adverbe;nom;verbe;adjectif
+28552;"Quelle est la nature du mot ""décider"" ?";verbe;nom;adjectif;adverbe
+28553;"Quelle est la nature du mot ""créer"" ?";verbe;adjectif;nom;adverbe
+28554;"Quelle est la nature du mot ""aimant"" ?";nom;adverbe;verbe;adjectif
+28555;"Quelle est la nature du mot ""habituel"" ?";adjectif;adverbe;nom;verbe
+28556;"Quelle est la nature du mot ""calculer"" ?";verbe;adverbe;adjectif;nom
+28557;"Quelle est la nature du mot ""couteau"" ?";nom;adverbe;adjectif;verbe
+28558;"Quelle est la nature du mot ""brusquement"" ?";adverbe;adjectif;nom;verbe
+28559;"Quelle est la nature du mot ""évidemment"" ?";adverbe;verbe;nom;adjectif
+28560;"Quelle est la nature du mot ""grenier"" ?";nom;adjectif;verbe;adverbe
+28561;"Quelle est la nature du mot ""bavarder"" ?";verbe;nom;adjectif;adverbe
+28562;"Quelle est la nature du mot ""évier"" ?";nom;adverbe;adjectif;verbe
+28563;"Quelle est la nature du mot ""satellite"" ?";nom;adverbe;verbe;adjectif
+28564;"Quelle est la nature du mot ""additionner"" ?";verbe;adverbe;nom;adjectif
+28565;"Quelle est la nature du mot ""vide"" ?";adjectif;adverbe;verbe;nom
+28566;"Quelle est la nature du mot ""partiel"" ?";adjectif;nom;verbe;adverbe
+28567;"Quelle est la nature du mot ""matelas"" ?";nom;adverbe;verbe;adjectif
+28568;"Quelle est la nature du mot ""trousse"" ?";nom;adjectif;verbe;adverbe
+28569;"Quelle est la nature du mot ""incomplet"" ?";adjectif;adverbe;verbe;nom
+28570;"Quelle est la nature du mot ""organiser"" ?";verbe;adjectif;nom;adverbe
+28571;"Quelle est la nature du mot ""serveur"" ?";nom;verbe;adjectif;adverbe
+28572;"Quelle est la nature du mot ""infirmier"" ?";nom;adverbe;adjectif;verbe
+28573;"Quelle est la nature du mot ""refuser"" ?";verbe;adjectif;nom;adverbe
+28574;"Quelle est la nature du mot ""droit"" ?";adjectif;verbe;nom;adverbe
+28575;"Quelle est la nature du mot ""rattraper"" ?";verbe;adverbe;adjectif;nom
+28576;"Quelle est la nature du mot ""monstre"" ?";nom;adverbe;adjectif;verbe
+28577;"Quelle est la nature du mot ""sculpteur"" ?";nom;adverbe;verbe;adjectif
+28578;"Quelle est la nature du mot ""magique"" ?";adjectif;nom;verbe;adverbe
+28579;"Quelle est la nature du mot ""mur"" ?";nom;verbe;adjectif;adverbe
+28580;"Quelle est la nature du mot ""demander"" ?";verbe;adjectif;nom;adverbe
+28581;"Quelle est la nature du mot ""comparer"" ?";verbe;adverbe;adjectif;nom
+28582;"Quelle est la nature du mot ""interroger"" ?";verbe;nom;adjectif;adverbe
+28583;"Quelle est la nature du mot ""dégonfler"" ?";verbe;adjectif;nom;adverbe
+28584;"Quelle est la nature du mot ""désagréable"" ?";adjectif;nom;verbe;adverbe
+28585;"Quelle est la nature du mot ""résistant"" ?";adjectif;nom;adverbe;verbe
+28586;"Quelle est la nature du mot ""fée"" ?";nom;adverbe;adjectif;verbe
+28587;"Quelle est la nature du mot ""paisiblement"" ?";adverbe;nom;verbe;adjectif
+28588;"Quelle est la nature du mot ""boucher"" ?";nom;adjectif;verbe;adverbe
+28589;"Quelle est la nature du mot ""gonfler"" ?";verbe;nom;adverbe;adjectif
+28590;"Quelle est la nature du mot ""astronaute"" ?";nom;adjectif;adverbe;verbe
+28591;"Quelle est la nature du mot ""inventer"" ?";verbe;adjectif;adverbe;nom
+28592;"Quelle est la nature du mot ""flexible"" ?";adjectif;verbe;adverbe;nom
+28593;"Quelle est la nature du mot ""rond"" ?";adjectif;verbe;nom;adverbe
+28594;"Quelle est la nature du mot ""lutin"" ?";nom;verbe;adjectif;adverbe
+28595;"Quelle est la nature du mot ""poursuivre"" ?";verbe;adverbe;nom;adjectif
+28596;"Quelle est la nature du mot ""confiant"" ?";adjectif;nom;verbe;adverbe
+28597;"Quelle est la nature du mot ""reposant"" ?";adjectif;adverbe;verbe;nom
+28598;"Quelle est la nature du mot ""tranquille"" ?";adjectif;verbe;adverbe;nom
+28599;"Quelle est la nature du mot ""feutre"" ?";nom;adjectif;adverbe;verbe
+28600;"Quelle est la nature du mot ""spacieux"" ?";adjectif;verbe;nom;adverbe
+28601;"Quelle est la nature du mot ""généralement"" ?";adverbe;adjectif;nom;verbe
+28602;"Quelle est la nature du mot ""planifier"" ?";verbe;nom;adjectif;adverbe
+28603;"Quelle est la nature du mot ""raconter"" ?";verbe;adjectif;adverbe;nom
+28604;"Quelle est la nature du mot ""médaille"" ?";nom;adverbe;verbe;adjectif
+28605;"Quelle est la nature du mot ""sorcière"" ?";nom;adjectif;adverbe;verbe
+28606;"Quelle est la nature du mot ""mystérieux"" ?";adjectif;adverbe;nom;verbe
+28607;"Quelle est la nature du mot ""agenda"" ?";nom;adverbe;adjectif;verbe
+28608;"Quelle est la nature du mot ""photographe"" ?";nom;adjectif;adverbe;verbe
+28609;"Quelle est la nature du mot ""cadre"" ?";nom;adverbe;adjectif;verbe
+28610;"Quelle est la nature du mot ""échapper"" ?";verbe;adjectif;nom;adverbe
+28611;"Quelle est la nature du mot ""serviette"" ?";nom;verbe;adjectif;adverbe
+28612;"Quelle est la nature du mot ""haïr"" ?";verbe;nom;adverbe;adjectif
+28613;"Quelle est la nature du mot ""commencer"" ?";verbe;adjectif;adverbe;nom
+28614;"Quelle est la nature du mot ""caissier"" ?";nom;verbe;adverbe;adjectif
+28615;"Quelle est la nature du mot ""escalier"" ?";nom;adverbe;adjectif;verbe
+28616;"Quelle est la nature du mot ""vase"" ?";nom;verbe;adverbe;adjectif
+28617;"Quelle est la nature du mot ""présenter"" ?";verbe;adjectif;adverbe;nom
+28618;"Quelle est la nature du mot ""logiquement"" ?";adverbe;verbe;adjectif;nom
+28619;"Quelle est la nature du mot ""aussitôt"" ?";adverbe;nom;verbe;adjectif
+28620;"Quelle est la nature du mot ""bombé"" ?";adjectif;adverbe;nom;verbe
+28621;"Quelle est la nature du mot ""plat"" ?";adjectif;adverbe;nom;verbe
+28622;"Quelle est la nature du mot ""fuir"" ?";verbe;nom;adverbe;adjectif
+28623;"Quelle est la nature du mot ""carte"" ?";nom;adverbe;adjectif;verbe
+28624;"Quelle est la nature du mot ""reine"" ?";nom;adjectif;verbe;adverbe
+28625;"Quelle est la nature du mot ""robinet"" ?";nom;adjectif;adverbe;verbe
+28626;"Quelle est la nature du mot ""immédiatement"" ?";adverbe;verbe;nom;adjectif
+28627;"Quelle est la nature du mot ""fauteuil"" ?";nom;adjectif;adverbe;verbe
+28628;"Quelle est la nature du mot ""minuscule"" ?";adjectif;nom;adverbe;verbe
+28629;"Quelle est la nature du mot ""sincèrement"" ?";adverbe;nom;adjectif;verbe
+28630;"Quelle est la nature du mot ""silencieusement"" ?";adverbe;nom;verbe;adjectif
+28631;"Quelle est la nature du mot ""légèrement"" ?";adverbe;nom;adjectif;verbe
+28632;"Quelle est la nature du mot ""complètement"" ?";adverbe;verbe;nom;adjectif
+28633;"Quelle est la nature du mot ""envieux"" ?";adjectif;nom;adverbe;verbe
+28634;"Quelle est la nature du mot ""peser"" ?";verbe;nom;adjectif;adverbe
+28635;"Quelle est la nature du mot ""pharmacien"" ?";nom;verbe;adverbe;adjectif
+28636;"Quelle est la nature du mot ""normalement"" ?";adverbe;adjectif;nom;verbe
+28637;"Quelle est la nature du mot ""apaisant"" ?";adjectif;adverbe;nom;verbe
+28638;"Quelle est la nature du mot ""globe"" ?";nom;verbe;adjectif;adverbe
+28639;"Quelle est la nature du mot ""gigantesque"" ?";adjectif;adverbe;verbe;nom
+28640;"Quelle est la nature du mot ""chercher"" ?";verbe;adjectif;adverbe;nom
+28641;"Quelle est la nature du mot ""entier"" ?";adjectif;nom;adverbe;verbe
+28642;"Quelle est la nature du mot ""rideau"" ?";nom;adjectif;verbe;adverbe
+28643;"Quelle est la nature du mot ""crayon"" ?";nom;verbe;adjectif;adverbe
+28644;"Quelle est la nature du mot ""colle"" ?";nom;adverbe;adjectif;verbe
+28645;"Quelle est la nature du mot ""fantôme"" ?";nom;adverbe;verbe;adjectif
+28646;"Quelle est la nature du mot ""tabouret"" ?";nom;adverbe;verbe;adjectif
+28647;"Quelle est la nature du mot ""soudainement"" ?";adverbe;nom;verbe;adjectif
+28648;"Quelle est la nature du mot ""normal"" ?";adjectif;verbe;nom;adverbe
+28649;"Quelle est la nature du mot ""pinceau"" ?";nom;adjectif;adverbe;verbe
+28650;"Quelle est la nature du mot ""boussole"" ?";nom;adjectif;verbe;adverbe
+28651;"Quelle est la nature du mot ""gratter"" ?";verbe;adjectif;nom;adverbe
+28652;"Quelle est la nature du mot ""robot"" ?";nom;adverbe;adjectif;verbe
+28653;"Quelle est la nature du mot ""entièrement"" ?";adverbe;adjectif;verbe;nom
+28654;"Quelle est la nature du mot ""carré"" ?";adjectif;nom;adverbe;verbe
+28655;"Quelle est la nature du mot ""accepter"" ?";verbe;adjectif;nom;adverbe
+28656;"Quelle est la nature du mot ""météorite"" ?";nom;adjectif;verbe;adverbe
+28657;"Quelle est la nature du mot ""commun"" ?";adjectif;nom;adverbe;verbe
+28658;"Quelle est la nature du mot ""clown"" ?";nom;adjectif;verbe;adverbe
+28659;"Quelle est la nature du mot ""placard"" ?";nom;verbe;adverbe;adjectif
+28660;"Quelle est la nature du mot ""acteur"" ?";nom;adjectif;verbe;adverbe
+28661;"Quelle est la nature du mot ""nettement"" ?";adverbe;adjectif;nom;verbe
+28662;"Quelle est la nature du mot ""choquant"" ?";adjectif;adverbe;nom;verbe
+28663;"Quelle est la nature du mot ""galaxie"" ?";nom;verbe;adverbe;adjectif
+28664;"Quelle est la nature du mot ""dragon"" ?";nom;adverbe;adjectif;verbe
+28665;"Quelle est la nature du mot ""tiroir"" ?";nom;adjectif;verbe;adverbe
+28666;"Quelle est la nature du mot ""gronder"" ?";verbe;adjectif;adverbe;nom
+28667;"Quelle est la nature du mot ""énorme"" ?";adjectif;nom;verbe;adverbe
+28668;"Quelle est la nature du mot ""policier"" ?";nom;verbe;adjectif;adverbe
+28669;"Quelle est la nature du mot ""fusée"" ?";nom;adverbe;verbe;adjectif
+28670;"Quelle est la nature du mot ""étagère"" ?";nom;verbe;adverbe;adjectif
+28671;"Quelle est la nature du mot ""musicien"" ?";nom;verbe;adverbe;adjectif
+28672;"Quelle est la nature du mot ""respecter"" ?";verbe;adverbe;nom;adjectif
+28673;"Quelle est la nature du mot ""généreux"" ?";adjectif;nom;verbe;adverbe
+28674;"Quelle est la nature du mot ""paisible"" ?";adjectif;verbe;nom;adverbe
+28675;"Quelle est la nature du mot ""inhabituel"" ?";adjectif;nom;verbe;adverbe
+28676;"Quelle est la nature du mot ""pardonner"" ?";verbe;adjectif;adverbe;nom
+28677;"Quelle est la nature du mot ""adorer"" ?";verbe;adjectif;nom;adverbe
+28678;"Quelle est la nature du mot ""progressivement"" ?";adverbe;nom;adjectif;verbe
+28679;"Quelle est la nature du mot ""épuisant"" ?";adjectif;verbe;nom;adverbe
+28680;"Quelle est la nature du mot ""plein"" ?";adjectif;verbe;adverbe;nom
+28681;"Quelle est la nature du mot ""trophée"" ?";nom;verbe;adjectif;adverbe
+28682;"Quelle est la nature du mot ""nerveux"" ?";adjectif;nom;verbe;adverbe
+28683;"Quelle est la nature du mot ""continuer"" ?";verbe;nom;adverbe;adjectif
+28684;"Quelle est la nature du mot ""pointu"" ?";adjectif;verbe;adverbe;nom
+28685;"Quelle est la nature du mot ""pantoufle"" ?";nom;adverbe;verbe;adjectif
+28686;"Quelle est la nature du mot ""exceptionnellement"" ?";adverbe;nom;adjectif;verbe
+28687;"Quelle est la nature du mot ""avare"" ?";adjectif;nom;verbe;adverbe
+28688;"Quelle est la nature du mot ""imaginer"" ?";verbe;nom;adverbe;adjectif
+28689;"Quelle est la nature du mot ""douche"" ?";nom;adjectif;verbe;adverbe
+28690;"Quelle est la nature du mot ""recommencer"" ?";verbe;adjectif;adverbe;nom
+28691;"Quelle est la nature du mot ""totalement"" ?";adverbe;nom;verbe;adjectif
+28692;"Quelle est la nature du mot ""facteur"" ?";nom;verbe;adverbe;adjectif
+28693;"Quelle est la nature du mot ""bizarre"" ?";adjectif;adverbe;nom;verbe
+28694;"Quelle est la nature du mot ""fréquent"" ?";adjectif;verbe;nom;adverbe
+28695;"Quelle est la nature du mot ""complet"" ?";adjectif;adverbe;nom;verbe
+28696;"Quelle est la nature du mot ""écrivain"" ?";nom;verbe;adjectif;adverbe
+28697;"Quelle est la nature du mot ""triangulaire"" ?";adjectif;adverbe;nom;verbe
+28698;"Quelle est la nature du mot ""savon"" ?";nom;adverbe;verbe;adjectif
+28699;"Quelle est la nature du mot ""peigne"" ?";nom;verbe;adjectif;adverbe
+28700;"Quelle est la nature du mot ""élastique"" ?";adjectif;adverbe;verbe;nom
+28701;"Quelle est la nature du mot ""dynamique"" ?";adjectif;adverbe;nom;verbe
+28702;"Quelle est la nature du mot ""immense"" ?";adjectif;adverbe;verbe;nom
+28703;"Quel est le féminin de ""délicat"" ?";délicate;délicatee;délicatees;délicat
+28704;"Quel est le féminin de ""passionné"" ?";passionnée;passionné;passionnéee;passionnéees
+28705;"Quel est le féminin de ""sociable"" ?";sociable;sociablee;sociablees;ssociable
+28706;"Quel est le féminin de ""magnifique"" ?";magnifique;magnifiquee;magnifiquees;mmagnifique
+28707;"Quel est le féminin de ""naturel"" ?";naturelle;naturellee;naturellees;naturel
+28708;"Quel est le féminin de ""précieux"" ?";précieuse;précieusees;précieusee;précieux
+28709;"Quel est le féminin de ""cadet"" ?";cadette;cadettees;cadet;cadettee
+28710;"Quel est le féminin de ""pareil"" ?";pareille;pareil;pareillees;pareillee
+28711;"Quel est le féminin de ""bel"" ?";belle;bellees;bellee;bel
+28712;"Quel est le féminin de ""solide"" ?";solide;solidee;solidees;ssolide
+28713;"Quel est le féminin de ""impatient"" ?";impatiente;impatientee;impatient;impatientees
+28714;"Quel est le féminin de ""respectueux"" ?";respectueuse;respectueusee;respectueusees;respectueux
+28715;"Quel est le féminin de ""horrible"" ?";horrible;horriblee;horriblees;hhorrible
+28716;"Quel est le féminin de ""terrible"" ?";terrible;terriblees;terriblee;tterrible
+28717;"Quel est le féminin de ""imprudent"" ?";imprudente;imprudentees;imprudent;imprudentee
+28718;"Quel est le féminin de ""gentillet"" ?";gentillette;gentillettee;gentillet;gentillettees
+28719;"Quel est le féminin de ""nul"" ?";nulle;nullees;nul;nullee
+28720;"Quel est le féminin de ""déterminé"" ?";déterminée;déterminé;déterminéees;déterminéee
+28721;"Quel est le féminin de ""maladroit"" ?";maladroite;maladroitees;maladroit;maladroitee
+28722;"Quel est le féminin de ""distrait"" ?";distraite;distraitees;distrait;distraitee
+28723;"Quel est le féminin de ""timide"" ?";timide;timidees;timidee;ttimide
+28724;"Quel est le féminin de ""officiel"" ?";officielle;officiellees;officiel;officiellee
+28725;"Quel est le féminin de ""splendide"" ?";splendide;splendidee;splendidees;ssplendide
+28726;"Quel est le féminin de ""fragile"" ?";fragile;fragilee;fragilees;ffragile
+28727;"Quel est le féminin de ""adorable"" ?";adorable;adorablee;adorablees;addorable
+28728;"Quel est le féminin de ""cruel"" ?";cruelle;cruel;cruellees;cruellee
+28729;"Quel est le féminin de ""désordonné"" ?";désordonnée;désordonnéee;désordonnéees;désordonné
+28730;"Quel est le féminin de ""ponctuel"" ?";ponctuelle;ponctuellees;ponctuel;ponctuellee
+28731;"Quel est le féminin de ""habituel"" ?";habituelle;habituel;habituellee;habituellees
+28732;"Quel est le féminin de ""mensuel"" ?";mensuelle;mensuel;mensuellee;mensuellees
+28733;"Quel est le féminin de ""aimable"" ?";aimable;aimablee;aimablees;aimmable
+28734;"Quel est le féminin de ""organisé"" ?";organisée;organiséees;organiséee;organisé
+28735;"Quel est le féminin de ""annuel"" ?";annuelle;annuel;annuellees;annuellee
+28736;"Quel est le féminin de ""imaginatif"" ?";imaginative;imaginatif;imaginativees;imaginativee
+28737;"Quel est le féminin de ""adroit"" ?";adroite;adroitee;adroit;adroitees
+28738;"Quel est le féminin de ""agile"" ?";agile;agilees;agilee;aggile
+28739;"Quel est le féminin de ""gras"" ?";grasse;gras;grassees;grassee
+28740;"Quel est le féminin de ""robuste"" ?";robuste;robustees;robustee;rrobuste
+28741;"Quel est le féminin de ""las"" ?";lasse;las;lassees;lassee
+28742;"Quel est le féminin de ""motivé"" ?";motivée;motivé;motivéees;motivéee
+28743;"Quel est le masculin de ""naturelle"" ?";naturel;natureles;naturelle;naturele
+28744;"Quel est le masculin de ""nulle"" ?";nul;nulle;nules;nule
+28745;"Quel est le masculin de ""splendide"" ?";splendide;splendidee;splendidees;ssplendide
+28746;"Quel est le masculin de ""désordonnée"" ?";désordonné;désordonnées;désordonnée;ddésordonné
+28747;"Quel est le masculin de ""belle"" ?";bel;beles;belle;bele
+28748;"Quel est le masculin de ""pareille"" ?";pareil;pareille;pareile;pareiles
+28749;"Quel est le masculin de ""imprudente"" ?";imprudent;imprudentes;imprudente;immprudent
+28750;"Quel est le masculin de ""distraite"" ?";distrait;distraite;distraites;ddistrait
+28751;"Quel est le masculin de ""fragile"" ?";fragile;fragilee;fragilees;ffragile
+28752;"Quel est le masculin de ""habituelle"" ?";habituel;habitueles;habituelle;habituele
+28753;"Quel est le masculin de ""respectueuse"" ?";respectueux;respectueuse;respectueuxe;respectueuxes
+28754;"Quel est le masculin de ""adorable"" ?";adorable;adorablee;adorablees;addorable
+28755;"Quel est le masculin de ""magnifique"" ?";magnifique;magnifiquee;magnifiquees;mmagnifique
+28756;"Quel est le masculin de ""agile"" ?";agile;agilees;agilee;aggile
+28757;"Quel est le masculin de ""robuste"" ?";robuste;robustees;robustee;rrobuste
+28758;"Quel est le masculin de ""timide"" ?";timide;timidees;timidee;ttimide
+28759;"Quel est le masculin de ""grasse"" ?";gras;grase;grasse;grases
+28760;"Quel est le masculin de ""solide"" ?";solide;solidee;solidees;ssolide
+28761;"Quel est le masculin de ""maladroite"" ?";maladroit;maladroites;maladroite;mmaladroit
+28762;"Quel est le masculin de ""officielle"" ?";officiel;officieles;officielle;officiele
+28763;"Quel est le masculin de ""passionnée"" ?";passionné;passionnées;passionnée;ppassionné
+28764;"Quel est le masculin de ""annuelle"" ?";annuel;annueles;annuelle;annuele
+28765;"Quel est le masculin de ""adroite"" ?";adroit;adroites;adroite;addroit
+28766;"Quel est le masculin de ""mensuelle"" ?";mensuel;mensuele;mensueles;mensuelle
+28767;"Quel est le masculin de ""organisée"" ?";organisé;organisée;organisées;orrganisé
+28768;"Quel est le masculin de ""cruelle"" ?";cruel;crueles;cruelle;cruele
+28769;"Quel est le masculin de ""ponctuelle"" ?";ponctuel;ponctuelle;ponctuele;ponctueles
+28770;"Quel est le masculin de ""sociable"" ?";sociable;sociablee;sociablees;ssociable
+28771;"Quel est le masculin de ""délicate"" ?";délicat;délicate;délicates;ddélicat
+28772;"Quel est le masculin de ""motivée"" ?";motivé;motivées;motivée;mmotivé
+28773;"Quel est le masculin de ""aimable"" ?";aimable;aimablee;aimablees;aimmable
+28774;"Quel est le masculin de ""gentillette"" ?";gentillet;gentillete;gentillette;gentilletes
+28775;"Quel est le masculin de ""terrible"" ?";terrible;terriblees;terriblee;tterrible
+28776;"Quel est le masculin de ""imaginative"" ?";imaginatif;imaginatife;imaginatifes;imaginative
+28777;"Quel est le masculin de ""horrible"" ?";horrible;horriblee;horriblees;hhorrible
+28778;"Quel est le masculin de ""impatiente"" ?";impatient;impatientes;impatiente;immpatient
+28779;"Quel est le masculin de ""lasse"" ?";las;lase;lases;lasse
+28780;"Quel est le masculin de ""déterminée"" ?";déterminé;déterminée;déterminées;ddéterminé
+28781;"Quel est le masculin de ""précieuse"" ?";précieux;précieuxe;précieuse;précieuxes
+28782;"Quel est le masculin de ""cadette"" ?";cadet;cadette;cadete;cadetes
+28783;"Quel est le pluriel de ""corps"" ?";corps;corpses;corpsx;corpss
+28784;"Quel est le pluriel de ""musicien"" ?";musiciens;musicienx;musicien;musicienes
+28785;"Quel est le pluriel de ""médaille"" ?";médailles;médaillex;médaille;médaillees
+28786;"Quel est le pluriel de ""photographe"" ?";photographes;photographex;photographe;photographees
+28787;"Quel est le pluriel de ""satellite"" ?";satellites;satellite;satellitees;satellitex
+28788;"Quel est le pluriel de ""niveau"" ?";niveaux;niveaus;niveau;niveaues
+28789;"Quel est le pluriel de ""robinet"" ?";robinets;robinetx;robinet;robinetes
+28790;"Quel est le pluriel de ""planète"" ?";planètes;planètex;planètees;planète
+28791;"Quel est le pluriel de ""boulanger"" ?";boulangers;boulanger;boulangerx;boulangeres
+28792;"Quel est le pluriel de ""trousse"" ?";trousses;troussees;troussex;trousse
+28793;"Quel est le pluriel de ""panneau"" ?";panneaux;panneaus;panneau;panneaues
+28794;"Quel est le pluriel de ""canapé"" ?";canapés;canapéx;canapées;canapé
+28795;"Quel est le pluriel de ""secours"" ?";secours;secourses;secoursx;secourss
+28796;"Quel est le pluriel de ""escalier"" ?";escaliers;escalieres;escalier;escalierx
+28797;"Quel est le pluriel de ""morceau"" ?";morceaux;morceau;morceaus;morceaues
+28798;"Quel est le pluriel de ""succès"" ?";succès;succèsx;succèss;succèses
+28799;"Quel est le pluriel de ""balcon"" ?";balcons;balcones;balcon;balconx
+28800;"Quel est le pluriel de ""roseau"" ?";roseaux;roseaus;roseau;roseaues
+28801;"Quel est le pluriel de ""fantôme"" ?";fantômes;fantômex;fantôme;fantômees
+28802;"Quel est le pluriel de ""carreau"" ?";carreaux;carreaues;carreau;carreaus
+28803;"Quel est le pluriel de ""serveur"" ?";serveurs;serveures;serveurx;serveur
+28804;"Quel est le pluriel de ""facteur"" ?";facteurs;facteur;facteures;facteurx
+28805;"Quel est le pluriel de ""oiseau"" ?";oiseaux;oiseau;oiseaus;oiseaues
+28806;"Quel est le pluriel de ""boussole"" ?";boussoles;boussolees;boussolex;boussole
+28807;"Quel est le pluriel de ""peigne"" ?";peignes;peignees;peigne;peignex
+28808;"Quel est le pluriel de ""lutin"" ?";lutins;lutin;lutines;lutinx
+28809;"Quel est le pluriel de ""peintre"" ?";peintres;peintrex;peintrees;peintre
+28810;"Quel est le pluriel de ""toit"" ?";toits;toites;toitx;toit
+28811;"Quel est le pluriel de ""fauteuil"" ?";fauteuils;fauteuilx;fauteuiles;fauteuil
+28812;"Quel est le pluriel de ""dragon"" ?";dragons;dragones;dragon;dragonx
+28813;"Quel est le pluriel de ""robot"" ?";robots;robotes;robotx;robot
+28814;"Quel est le pluriel de ""fusée"" ?";fusées;fuséex;fusée;fuséees
+28815;"Quel est le pluriel de ""réseau"" ?";réseaux;réseau;réseaus;réseaues
+28816;"Quel est le pluriel de ""trophée"" ?";trophées;trophéex;trophéees;trophée
+28817;"Quel est le pluriel de ""savon"" ?";savons;savones;savon;savonx
+28818;"Quel est le pluriel de ""caissier"" ?";caissiers;caissieres;caissierx;caissier
+28819;"Quel est le pluriel de ""refus"" ?";refus;refuses;refuss;refusx
+28820;"Quel est le pluriel de ""drapeau"" ?";drapeaux;drapeaus;drapeau;drapeaues
+28821;"Quel est le pluriel de ""chevalier"" ?";chevaliers;chevalieres;chevalierx;chevalier
+28822;"Quel est le pluriel de ""cartable"" ?";cartables;cartable;cartablex;cartablees
+28823;"Quelle est la nature du mot ""digue"" ?";nom;adverbe;verbe;adjectif
+28824;"Quelle est la nature du mot ""barrage"" ?";nom;adjectif;verbe;adverbe
+28825;"Quelle est la nature du mot ""suffisamment"" ?";adverbe;verbe;nom;adjectif
+28826;"Quelle est la nature du mot ""mat"" ?";adjectif;nom;verbe;adverbe
+28827;"Quelle est la nature du mot ""assécher"" ?";verbe;adjectif;nom;adverbe
+28828;"Quelle est la nature du mot ""apparaître"" ?";verbe;nom;adjectif;adverbe
+28829;"Quelle est la nature du mot ""côtier"" ?";adjectif;adverbe;verbe;nom
+28830;"Quelle est la nature du mot ""ruisseler"" ?";verbe;adjectif;nom;adverbe
+28831;"Quelle est la nature du mot ""volcanique"" ?";adjectif;nom;adverbe;verbe
+28832;"Quelle est la nature du mot ""ruisseau"" ?";nom;adverbe;verbe;adjectif
+28833;"Quelle est la nature du mot ""sirop"" ?";nom;verbe;adjectif;adverbe
+28834;"Quelle est la nature du mot ""clairière"" ?";nom;adverbe;verbe;adjectif
+28835;"Quelle est la nature du mot ""surgir"" ?";verbe;adjectif;nom;adverbe
+28836;"Quelle est la nature du mot ""vitreux"" ?";adjectif;adverbe;nom;verbe
+28837;"Quelle est la nature du mot ""briller"" ?";verbe;adjectif;nom;adverbe
+28838;"Quelle est la nature du mot ""torride"" ?";adjectif;nom;adverbe;verbe
+28839;"Quelle est la nature du mot ""scientifique"" ?";adjectif;verbe;adverbe;nom
+28840;"Quelle est la nature du mot ""éclairer"" ?";verbe;adjectif;adverbe;nom
+28841;"Quelle est la nature du mot ""arc-en-ciel"" ?";nom;adjectif;adverbe;verbe
+28842;"Quelle est la nature du mot ""ensoleillé"" ?";adjectif;adverbe;verbe;nom
+28843;"Quelle est la nature du mot ""médicament"" ?";nom;adverbe;adjectif;verbe
+28844;"Quelle est la nature du mot ""gel"" ?";nom;adjectif;verbe;adverbe
+28845;"Quelle est la nature du mot ""médical"" ?";adjectif;verbe;nom;adverbe
+28846;"Quelle est la nature du mot ""laboratoire"" ?";nom;verbe;adverbe;adjectif
+28847;"Quelle est la nature du mot ""orageux"" ?";adjectif;adverbe;verbe;nom
+28848;"Quelle est la nature du mot ""caverne"" ?";nom;adverbe;adjectif;verbe
+28849;"Quelle est la nature du mot ""chemin"" ?";nom;adverbe;adjectif;verbe
+28850;"Quelle est la nature du mot ""dévaler"" ?";verbe;nom;adverbe;adjectif
+28851;"Quelle est la nature du mot ""scintiller"" ?";verbe;nom;adjectif;adverbe
+28852;"Quelle est la nature du mot ""brumeux"" ?";adjectif;verbe;nom;adverbe
+28853;"Quelle est la nature du mot ""illuminer"" ?";verbe;adjectif;nom;adverbe
+28854;"Quelle est la nature du mot ""pluvieux"" ?";adjectif;adverbe;nom;verbe
+28855;"Quelle est la nature du mot ""adéquatement"" ?";adverbe;verbe;adjectif;nom
+28856;"Quelle est la nature du mot ""modérément"" ?";adverbe;verbe;adjectif;nom
+28857;"Quelle est la nature du mot ""clinique"" ?";nom;adverbe;verbe;adjectif
+28858;"Quelle est la nature du mot ""sauver"" ?";verbe;adjectif;nom;adverbe
+28859;"Quelle est la nature du mot ""abruptement"" ?";adverbe;nom;adjectif;verbe
+28860;"Quelle est la nature du mot ""hypothèse"" ?";nom;adjectif;verbe;adverbe
+28861;"Quelle est la nature du mot ""soigner"" ?";verbe;adverbe;nom;adjectif
+28862;"Quelle est la nature du mot ""tornade"" ?";nom;verbe;adverbe;adjectif
+28863;"Quelle est la nature du mot ""conclusion"" ?";nom;adverbe;verbe;adjectif
+28864;"Quelle est la nature du mot ""incorrectement"" ?";adverbe;adjectif;verbe;nom
+28865;"Quelle est la nature du mot ""tunnel"" ?";nom;verbe;adverbe;adjectif
+28866;"Quelle est la nature du mot ""numériquement"" ?";adverbe;nom;adjectif;verbe
+28867;"Quelle est la nature du mot ""avalanche"" ?";nom;verbe;adjectif;adverbe
+28868;"Quelle est la nature du mot ""montagneux"" ?";adjectif;nom;verbe;adverbe
+28869;"Quelle est la nature du mot ""canicule"" ?";nom;adjectif;verbe;adverbe
+28870;"Quelle est la nature du mot ""déborder"" ?";verbe;adjectif;nom;adverbe
+28871;"Quelle est la nature du mot ""trembler"" ?";verbe;adverbe;adjectif;nom
+28872;"Quelle est la nature du mot ""nuageux"" ?";adjectif;verbe;nom;adverbe
+28873;"Quelle est la nature du mot ""manuel"" ?";adjectif;adverbe;verbe;nom
+28874;"Quelle est la nature du mot ""plumeau"" ?";nom;adverbe;verbe;adjectif
+28875;"Quelle est la nature du mot ""aurore"" ?";nom;adverbe;adjectif;verbe
+28876;"Quelle est la nature du mot ""électronique"" ?";adjectif;adverbe;nom;verbe
+28877;"Quelle est la nature du mot ""expérimenter"" ?";verbe;adjectif;adverbe;nom
+28878;"Quelle est la nature du mot ""lumineux"" ?";adjectif;nom;adverbe;verbe
+28879;"Quelle est la nature du mot ""vacciner"" ?";verbe;adjectif;nom;adverbe
+28880;"Quelle est la nature du mot ""brouillard"" ?";nom;adverbe;verbe;adjectif
+28881;"Quelle est la nature du mot ""grotte"" ?";nom;verbe;adverbe;adjectif
+28882;"Quelle est la nature du mot ""sécheresse"" ?";nom;adjectif;adverbe;verbe
+28883;"Quelle est la nature du mot ""inondation"" ?";nom;adverbe;verbe;adjectif
+28884;"Quelle est la nature du mot ""diagnostiquer"" ?";verbe;adjectif;nom;adverbe
+28885;"Quelle est la nature du mot ""tempéré"" ?";adjectif;adverbe;nom;verbe
+28886;"Quelle est la nature du mot ""tourbillonner"" ?";verbe;adjectif;nom;adverbe
+28887;"Quelle est la nature du mot ""carrefour"" ?";nom;adverbe;adjectif;verbe
+28888;"Quelle est la nature du mot ""ouragan"" ?";nom;adverbe;adjectif;verbe
+28889;"Quelle est la nature du mot ""rocheux"" ?";adjectif;nom;adverbe;verbe
+28890;"Quelle est la nature du mot ""récif"" ?";nom;adverbe;verbe;adjectif
+28891;"Quelle est la nature du mot ""secourir"" ?";verbe;adverbe;adjectif;nom
+28892;"Quelle est la nature du mot ""séisme"" ?";nom;adjectif;verbe;adverbe
+28893;"Quelle est la nature du mot ""glacial"" ?";adjectif;adverbe;nom;verbe
+28894;"Quelle est la nature du mot ""voiler"" ?";verbe;nom;adjectif;adverbe
+28895;"Quelle est la nature du mot ""mécanique"" ?";adjectif;adverbe;nom;verbe
+28896;"Quelle est la nature du mot ""guérir"" ?";verbe;nom;adverbe;adjectif
+28897;"Quelle est la nature du mot ""subitement"" ?";adverbe;verbe;nom;adjectif
+28898;"Quelle est la nature du mot ""marais"" ?";nom;verbe;adjectif;adverbe
+28899;"Quelle est la nature du mot ""comprimé"" ?";nom;adjectif;adverbe;verbe
+28900;"Quelle est la nature du mot ""automatique"" ?";adjectif;adverbe;verbe;nom
+28901;"Quelle est la nature du mot ""scientifiquement"" ?";adverbe;nom;verbe;adjectif
+28902;"Quelle est la nature du mot ""iceberg"" ?";nom;adjectif;verbe;adverbe
+28903;"Quelle est la nature du mot ""expérience"" ?";nom;verbe;adverbe;adjectif
+28904;"Quelle est la nature du mot ""émerger"" ?";verbe;adjectif;adverbe;nom
+28905;"Quelle est la nature du mot ""stéthoscope"" ?";nom;verbe;adjectif;adverbe
+28906;"Quelle est la nature du mot ""démontrer"" ?";verbe;nom;adjectif;adverbe
+28907;"Quelle est la nature du mot ""analyser"" ?";verbe;adverbe;nom;adjectif
+28908;"Quelle est la nature du mot ""disparaître"" ?";verbe;adverbe;nom;adjectif
+28909;"Quelle est la nature du mot ""source"" ?";nom;adverbe;verbe;adjectif
+28910;"Quelle est la nature du mot ""étinceler"" ?";verbe;adjectif;adverbe;nom
+28911;"Quelle est la nature du mot ""panorama"" ?";nom;verbe;adverbe;adjectif
+28912;"Quelle est la nature du mot ""éruption"" ?";nom;verbe;adverbe;adjectif
+28913;"Quelle est la nature du mot ""falaise"" ?";nom;adjectif;adverbe;verbe

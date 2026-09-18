@@ -1,19 +1,19 @@
 id;text;correct_answer;choice_2;choice_3;choice_4
-12000;Dans la phrase 'Il pleut depuis ce matin.', 'depuis ce matin' est un complément circonstanciel de quel type ?;temps;lieu;manière;cause
-12001;Dans la phrase 'Nous partons demain.', 'demain' est un complément circonstanciel de quel type ?;temps;lieu;manière;cause
-12002;Dans la phrase 'Elle est arrivée hier soir.', 'hier soir' est un complément circonstanciel de quel type ?;temps;lieu;manière;cause
-12003;Dans la phrase 'Les oiseaux volent dans le ciel.', 'dans le ciel' est un complément circonstanciel de quel type ?;lieu;temps;manière;cause
-12004;Dans la phrase 'Le chat dort sous la table.', 'sous la table' est un complément circonstanciel de quel type ?;lieu;temps;manière;cause
-12005;Dans la phrase 'Ils habitent près de la gare.', 'près de la gare' est un complément circonstanciel de quel type ?;lieu;temps;manière;cause
-12006;Dans la phrase 'Elle chante avec joie.', 'avec joie' est un complément circonstanciel de quel type ?;manière;temps;lieu;cause
-12007;Dans la phrase 'Il marche lentement.', 'lentement' est un complément circonstanciel de quel type ?;manière;temps;lieu;cause
-12008;Dans la phrase 'Le chien aboie furieusement.', 'furieusement' est un complément circonstanciel de quel type ?;manière;temps;lieu;cause
-12009;Dans la phrase 'Nous jouons dans le jardin.', 'dans le jardin' est un complément circonstanciel de quel type ?;lieu;temps;manière;cause
-12010;Dans la phrase 'Le train part à huit heures.', 'à huit heures' est un complément circonstanciel de quel type ?;temps;lieu;manière;cause
-12011;Dans la phrase 'Elle répond poliment.', 'poliment' est un complément circonstanciel de quel type ?;manière;temps;lieu;cause
-12012;Dans la phrase 'Les enfants rentrent après l'école.', 'après l'école' est un complément circonstanciel de quel type ?;temps;lieu;manière;cause
-12013;Dans la phrase 'Le poisson nage dans l'aquarium.', 'dans l'aquarium' est un complément circonstanciel de quel type ?;lieu;temps;manière;cause
-12014;Dans la phrase 'Il travaille avec sérieux.', 'avec sérieux' est un complément circonstanciel de quel type ?;manière;temps;lieu;cause
+12000;"Dans la phrase ""Il pleut depuis ce matin."", ""depuis ce matin"" est un complément circonstanciel de quel type ?";temps;lieu;manière;cause
+12001;"Dans la phrase ""Nous partons demain."", ""demain"" est un complément circonstanciel de quel type ?";temps;lieu;manière;cause
+12002;"Dans la phrase ""Elle est arrivée hier soir."", ""hier soir"" est un complément circonstanciel de quel type ?";temps;lieu;manière;cause
+12003;"Dans la phrase ""Les oiseaux volent dans le ciel."", ""dans le ciel"" est un complément circonstanciel de quel type ?";lieu;temps;manière;cause
+12004;"Dans la phrase ""Le chat dort sous la table."", ""sous la table"" est un complément circonstanciel de quel type ?";lieu;temps;manière;cause
+12005;"Dans la phrase ""Ils habitent près de la gare."", ""près de la gare"" est un complément circonstanciel de quel type ?";lieu;temps;manière;cause
+12006;"Dans la phrase ""Elle chante avec joie."", ""avec joie"" est un complément circonstanciel de quel type ?";manière;temps;lieu;cause
+12007;"Dans la phrase ""Il marche lentement."", ""lentement"" est un complément circonstanciel de quel type ?";manière;temps;lieu;cause
+12008;"Dans la phrase ""Le chien aboie furieusement."", ""furieusement"" est un complément circonstanciel de quel type ?";manière;temps;lieu;cause
+12009;"Dans la phrase ""Nous jouons dans le jardin."", ""dans le jardin"" est un complément circonstanciel de quel type ?";lieu;temps;manière;cause
+12010;"Dans la phrase ""Le train part à huit heures."", ""à huit heures"" est un complément circonstanciel de quel type ?";temps;lieu;manière;cause
+12011;"Dans la phrase ""Elle répond poliment."", ""poliment"" est un complément circonstanciel de quel type ?";manière;temps;lieu;cause
+12012;"Dans la phrase ""Les enfants rentrent après l'école."", ""après l'école"" est un complément circonstanciel de quel type ?";temps;lieu;manière;cause
+12013;"Dans la phrase ""Le poisson nage dans l'aquarium."", ""dans l'aquarium"" est un complément circonstanciel de quel type ?";lieu;temps;manière;cause
+12014;"Dans la phrase ""Il travaille avec sérieux."", ""avec sérieux"" est un complément circonstanciel de quel type ?";manière;temps;lieu;cause
 12015;Le livre ___ je lis est passionnant.;que;qui;où;dont
 12016;La maison ___ j'habite est grande.;où;qui;que;dont
 12017;Le stylo ___ est sur la table appartient à Lea.;qui;que;où;dont
@@ -39,23 +39,23 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 12037;Vous avez ___ vos affaires.;vendu;vendue;vendus;vendues
 12038;Ils ont ___ leur travail.;terminé;terminée;termines;terminées
 12039;Elle a ___ toute la journée.;travaillé;travaillée;travailles;travaillées
-37000;Dans la phrase 'Il travaille le week-end.', 'le week-end' est un complément circonstanciel de quel type ?;temps;lieu;manière;cause
-37001;Dans la phrase 'Nous nous voyons chaque semaine.', 'chaque semaine' est un complément circonstanciel de quel type ?;temps;lieu;manière;cause
-37002;Dans la phrase 'Le magasin ouvre à neuf heures.', 'à neuf heures' est un complément circonstanciel de quel type ?;temps;lieu;manière;cause
-37003;Dans la phrase 'Elle part en vacances en juillet.', 'en juillet' est un complément circonstanciel de quel type ?;temps;lieu;manière;cause
-37004;Dans la phrase 'Il se lève tôt le matin.', 'tôt le matin' est un complément circonstanciel de quel type ?;temps;lieu;manière;cause
-37005;Dans la phrase 'Nous mangeons à midi.', 'à midi' est un complément circonstanciel de quel type ?;temps;lieu;manière;cause
-37006;Dans la phrase 'Le spectacle commence ce soir.', 'ce soir' est un complément circonstanciel de quel type ?;temps;lieu;manière;cause
-37007;Dans la phrase 'Elle range ses affaires dans l'armoire.', 'dans l'armoire' est un complément circonstanciel de quel type ?;lieu;temps;manière;cause
-37008;Dans la phrase 'Les enfants courent sur la plage.', 'sur la plage' est un complément circonstanciel de quel type ?;lieu;temps;manière;cause
-37009;Dans la phrase 'Le chien dort devant la cheminée.', 'devant la cheminée' est un complément circonstanciel de quel type ?;lieu;temps;manière;cause
-37010;Dans la phrase 'Nous nous promenons dans la forêt.', 'dans la forêt' est un complément circonstanciel de quel type ?;lieu;temps;manière;cause
-37011;Dans la phrase 'Le livre est posé sur le bureau.', 'sur le bureau' est un complément circonstanciel de quel type ?;lieu;temps;manière;cause
-37012;Dans la phrase 'Nous avançons prudemment.', 'prudemment' est un complément circonstanciel de quel type ?;manière;temps;lieu;cause
-37013;Dans la phrase 'Elle parle doucement.', 'doucement' est un complément circonstanciel de quel type ?;manière;temps;lieu;cause
-37014;Dans la phrase 'Il conduit dangereusement.', 'dangereusement' est un complément circonstanciel de quel type ?;manière;temps;lieu;cause
-37015;Dans la phrase 'Ils dansent gracieusement.', 'gracieusement' est un complément circonstanciel de quel type ?;manière;temps;lieu;cause
-37016;Dans la phrase 'Elle écrit soigneusement.', 'soigneusement' est un complément circonstanciel de quel type ?;manière;temps;lieu;cause
+37000;"Dans la phrase ""Il travaille le week-end."", ""le week-end"" est un complément circonstanciel de quel type ?";temps;lieu;manière;cause
+37001;"Dans la phrase ""Nous nous voyons chaque semaine."", ""chaque semaine"" est un complément circonstanciel de quel type ?";temps;lieu;manière;cause
+37002;"Dans la phrase ""Le magasin ouvre à neuf heures."", ""à neuf heures"" est un complément circonstanciel de quel type ?";temps;lieu;manière;cause
+37003;"Dans la phrase ""Elle part en vacances en juillet."", ""en juillet"" est un complément circonstanciel de quel type ?";temps;lieu;manière;cause
+37004;"Dans la phrase ""Il se lève tôt le matin."", ""tôt le matin"" est un complément circonstanciel de quel type ?";temps;lieu;manière;cause
+37005;"Dans la phrase ""Nous mangeons à midi."", ""à midi"" est un complément circonstanciel de quel type ?";temps;lieu;manière;cause
+37006;"Dans la phrase ""Le spectacle commence ce soir."", ""ce soir"" est un complément circonstanciel de quel type ?";temps;lieu;manière;cause
+37007;"Dans la phrase ""Elle range ses affaires dans l'armoire."", ""dans l'armoire"" est un complément circonstanciel de quel type ?";lieu;temps;manière;cause
+37008;"Dans la phrase ""Les enfants courent sur la plage."", ""sur la plage"" est un complément circonstanciel de quel type ?";lieu;temps;manière;cause
+37009;"Dans la phrase ""Le chien dort devant la cheminée."", ""devant la cheminée"" est un complément circonstanciel de quel type ?";lieu;temps;manière;cause
+37010;"Dans la phrase ""Nous nous promenons dans la forêt."", ""dans la forêt"" est un complément circonstanciel de quel type ?";lieu;temps;manière;cause
+37011;"Dans la phrase ""Le livre est posé sur le bureau."", ""sur le bureau"" est un complément circonstanciel de quel type ?";lieu;temps;manière;cause
+37012;"Dans la phrase ""Nous avançons prudemment."", ""prudemment"" est un complément circonstanciel de quel type ?";manière;temps;lieu;cause
+37013;"Dans la phrase ""Elle parle doucement."", ""doucement"" est un complément circonstanciel de quel type ?";manière;temps;lieu;cause
+37014;"Dans la phrase ""Il conduit dangereusement."", ""dangereusement"" est un complément circonstanciel de quel type ?";manière;temps;lieu;cause
+37015;"Dans la phrase ""Ils dansent gracieusement."", ""gracieusement"" est un complément circonstanciel de quel type ?";manière;temps;lieu;cause
+37016;"Dans la phrase ""Elle écrit soigneusement."", ""soigneusement"" est un complément circonstanciel de quel type ?";manière;temps;lieu;cause
 37017;Le stylo ___ est sur la table appartient à Léo.;qui;que;où;dont
 37018;L'homme ___ traverse la rue est mon voisin.;qui;que;où;dont
 37019;Le vélo ___ est garé là appartient à Tom.;qui;que;où;dont
@@ -282,51 +282,51 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 37240;Cette semaine, ils ont ___ leur devoir.;fait;faite;faites;faits
 37241;Finalement, vous avez ___ vos jouets.;lavé;lavées;lavés;lavée
 37242;Cette semaine, il a ___ une tarte.;vendu;vendues;vendue;vendus
-37243;Dans la phrase 'Les élèves arrivent à huit heures.', quel est le type de complément circonstanciel exprimé ?;temps;lieu;manière;cause
-37244;Dans la phrase 'Les abeilles partent demain matin.', quel est le type de complément circonstanciel exprimé ?;temps;lieu;manière;cause
-37245;Dans la phrase 'Les chiens travaillent depuis lundi.', quel est le type de complément circonstanciel exprimé ?;temps;lieu;manière;cause
-37246;Dans la phrase 'La pluie revient ce soir.', quel est le type de complément circonstanciel exprimé ?;temps;lieu;manière;cause
-37247;Dans la phrase 'Les étoiles apparaissent dans une heure.', quel est le type de complément circonstanciel exprimé ?;temps;lieu;manière;cause
-37248;Dans la phrase 'Le pêcheur dort toute la nuit.', quel est le type de complément circonstanciel exprimé ?;temps;lieu;manière;cause
-37249;Dans la phrase 'Le fermier joue le week-end.', quel est le type de complément circonstanciel exprimé ?;temps;lieu;manière;cause
-37250;Dans la phrase 'Les enfants se réveillent tôt.', quel est le type de complément circonstanciel exprimé ?;temps;lieu;manière;cause
-37251;Dans la phrase 'Le bateau part en vacances en été.', quel est le type de complément circonstanciel exprimé ?;temps;lieu;manière;cause
-37252;Dans la phrase 'Les oiseaux rentrent au coucher du soleil.', quel est le type de complément circonstanciel exprimé ?;temps;lieu;manière;cause
-37253;Dans la phrase 'Le soleil sort chaque matin.', quel est le type de complément circonstanciel exprimé ?;temps;lieu;manière;cause
-37254;Dans la phrase 'Le fermier dîne à vingt heures.', quel est le type de complément circonstanciel exprimé ?;temps;lieu;manière;cause
-37255;Dans la phrase 'Le jardinier part dans dix minutes.', quel est le type de complément circonstanciel exprimé ?;temps;lieu;manière;cause
-37256;Dans la phrase 'La maîtresse reste jusqu'à demain.', quel est le type de complément circonstanciel exprimé ?;temps;lieu;manière;cause
-37257;Dans la phrase 'Le facteur arrive en retard aujourd'hui.', quel est le type de complément circonstanciel exprimé ?;temps;lieu;manière;cause
-37258;Dans la phrase 'Les fleurs poussent près de la mairie.', quel est le type de complément circonstanciel exprimé ?;lieu;temps;manière;cause
-37259;Dans la phrase 'Les poissons nagent dans le bassin.', quel est le type de complément circonstanciel exprimé ?;lieu;temps;manière;cause
-37260;Dans la phrase 'L'oiseau vole au-dessus des toits.', quel est le type de complément circonstanciel exprimé ?;lieu;temps;manière;cause
-37261;Dans la phrase 'Le boulanger nage dans la rivière.', quel est le type de complément circonstanciel exprimé ?;lieu;temps;manière;cause
-37262;Dans la phrase 'Les voitures stationnent sous l'arbre.', quel est le type de complément circonstanciel exprimé ?;lieu;temps;manière;cause
-37263;Dans la phrase 'Les fermiers travaillent dans les champs.', quel est le type de complément circonstanciel exprimé ?;lieu;temps;manière;cause
-37264;Dans la phrase 'Le renard vit dans la forêt.', quel est le type de complément circonstanciel exprimé ?;lieu;temps;manière;cause
-37265;Dans la phrase 'Ma soeur passe devant l'école.', quel est le type de complément circonstanciel exprimé ?;lieu;temps;manière;cause
-37266;Dans la phrase 'Le chat se cache derrière la maison.', quel est le type de complément circonstanciel exprimé ?;lieu;temps;manière;cause
-37267;Dans la phrase 'Le professeur court sur la plage.', quel est le type de complément circonstanciel exprimé ?;lieu;temps;manière;cause
-37268;Dans la phrase 'Mon père attend à l'arrêt de bus.', quel est le type de complément circonstanciel exprimé ?;lieu;temps;manière;cause
-37269;Dans la phrase 'Les enfants grimpent sur le rocher.', quel est le type de complément circonstanciel exprimé ?;lieu;temps;manière;cause
-37270;Dans la phrase 'Les bateaux naviguent sur le lac.', quel est le type de complément circonstanciel exprimé ?;lieu;temps;manière;cause
-37271;Dans la phrase 'Le jardinier travaille dans le jardin.', quel est le type de complément circonstanciel exprimé ?;lieu;temps;manière;cause
-37272;Dans la phrase 'L'étoile brille dans le ciel.', quel est le type de complément circonstanciel exprimé ?;lieu;temps;manière;cause
-37273;Dans la phrase 'Les élèves chantent joyeusement.', quel est le type de complément circonstanciel exprimé ?;manière;temps;lieu;cause
-37274;Dans la phrase 'Les abeilles volent prudemment.', quel est le type de complément circonstanciel exprimé ?;manière;temps;lieu;cause
-37275;Dans la phrase 'Les chiens répondent calmement.', quel est le type de complément circonstanciel exprimé ?;manière;temps;lieu;cause
-37276;Dans la phrase 'L'ouvrier travaille sérieusement.', quel est le type de complément circonstanciel exprimé ?;manière;temps;lieu;cause
-37277;Dans la phrase 'Les enfants parlent doucement.', quel est le type de complément circonstanciel exprimé ?;manière;temps;lieu;cause
-37278;Dans la phrase 'Le pêcheur court rapidement.', quel est le type de complément circonstanciel exprimé ?;manière;temps;lieu;cause
-37279;Dans la phrase 'Le fermier écrit soigneusement.', quel est le type de complément circonstanciel exprimé ?;manière;temps;lieu;cause
-37280;Dans la phrase 'Les enfants dansent gracieusement.', quel est le type de complément circonstanciel exprimé ?;manière;temps;lieu;cause
-37281;Dans la phrase 'Le chauffeur conduit prudemment.', quel est le type de complément circonstanciel exprimé ?;manière;temps;lieu;cause
-37282;Dans la phrase 'Les oiseaux écoutent attentivement.', quel est le type de complément circonstanciel exprimé ?;manière;temps;lieu;cause
-37283;Dans la phrase 'Le voisin salue poliment.', quel est le type de complément circonstanciel exprimé ?;manière;temps;lieu;cause
-37284;Dans la phrase 'Le vélo avance lentement.', quel est le type de complément circonstanciel exprimé ?;manière;temps;lieu;cause
-37285;Dans la phrase 'Le jardinier réagit vivement.', quel est le type de complément circonstanciel exprimé ?;manière;temps;lieu;cause
-37286;Dans la phrase 'La maîtresse se comporte gentiment.', quel est le type de complément circonstanciel exprimé ?;manière;temps;lieu;cause
-37287;Dans la phrase 'Le commerçant agit honnêtement.', quel est le type de complément circonstanciel exprimé ?;manière;temps;lieu;cause
+37243;"Dans la phrase ""Les élèves arrivent à huit heures."", quel est le type de complément circonstanciel exprimé ?";temps;lieu;manière;cause
+37244;"Dans la phrase ""Les abeilles partent demain matin."", quel est le type de complément circonstanciel exprimé ?";temps;lieu;manière;cause
+37245;"Dans la phrase ""Les chiens travaillent depuis lundi."", quel est le type de complément circonstanciel exprimé ?";temps;lieu;manière;cause
+37246;"Dans la phrase ""La pluie revient ce soir."", quel est le type de complément circonstanciel exprimé ?";temps;lieu;manière;cause
+37247;"Dans la phrase ""Les étoiles apparaissent dans une heure."", quel est le type de complément circonstanciel exprimé ?";temps;lieu;manière;cause
+37248;"Dans la phrase ""Le pêcheur dort toute la nuit."", quel est le type de complément circonstanciel exprimé ?";temps;lieu;manière;cause
+37249;"Dans la phrase ""Le fermier joue le week-end."", quel est le type de complément circonstanciel exprimé ?";temps;lieu;manière;cause
+37250;"Dans la phrase ""Les enfants se réveillent tôt."", quel est le type de complément circonstanciel exprimé ?";temps;lieu;manière;cause
+37251;"Dans la phrase ""Le bateau part en vacances en été."", quel est le type de complément circonstanciel exprimé ?";temps;lieu;manière;cause
+37252;"Dans la phrase ""Les oiseaux rentrent au coucher du soleil."", quel est le type de complément circonstanciel exprimé ?";temps;lieu;manière;cause
+37253;"Dans la phrase ""Le soleil sort chaque matin."", quel est le type de complément circonstanciel exprimé ?";temps;lieu;manière;cause
+37254;"Dans la phrase ""Le fermier dîne à vingt heures."", quel est le type de complément circonstanciel exprimé ?";temps;lieu;manière;cause
+37255;"Dans la phrase ""Le jardinier part dans dix minutes."", quel est le type de complément circonstanciel exprimé ?";temps;lieu;manière;cause
+37256;"Dans la phrase ""La maîtresse reste jusqu'à demain."", quel est le type de complément circonstanciel exprimé ?";temps;lieu;manière;cause
+37257;"Dans la phrase ""Le facteur arrive en retard aujourd'hui."", quel est le type de complément circonstanciel exprimé ?";temps;lieu;manière;cause
+37258;"Dans la phrase ""Les fleurs poussent près de la mairie."", quel est le type de complément circonstanciel exprimé ?";lieu;temps;manière;cause
+37259;"Dans la phrase ""Les poissons nagent dans le bassin."", quel est le type de complément circonstanciel exprimé ?";lieu;temps;manière;cause
+37260;"Dans la phrase ""L'oiseau vole au-dessus des toits."", quel est le type de complément circonstanciel exprimé ?";lieu;temps;manière;cause
+37261;"Dans la phrase ""Le boulanger nage dans la rivière."", quel est le type de complément circonstanciel exprimé ?";lieu;temps;manière;cause
+37262;"Dans la phrase ""Les voitures stationnent sous l'arbre."", quel est le type de complément circonstanciel exprimé ?";lieu;temps;manière;cause
+37263;"Dans la phrase ""Les fermiers travaillent dans les champs."", quel est le type de complément circonstanciel exprimé ?";lieu;temps;manière;cause
+37264;"Dans la phrase ""Le renard vit dans la forêt."", quel est le type de complément circonstanciel exprimé ?";lieu;temps;manière;cause
+37265;"Dans la phrase ""Ma soeur passe devant l'école."", quel est le type de complément circonstanciel exprimé ?";lieu;temps;manière;cause
+37266;"Dans la phrase ""Le chat se cache derrière la maison."", quel est le type de complément circonstanciel exprimé ?";lieu;temps;manière;cause
+37267;"Dans la phrase ""Le professeur court sur la plage."", quel est le type de complément circonstanciel exprimé ?";lieu;temps;manière;cause
+37268;"Dans la phrase ""Mon père attend à l'arrêt de bus."", quel est le type de complément circonstanciel exprimé ?";lieu;temps;manière;cause
+37269;"Dans la phrase ""Les enfants grimpent sur le rocher."", quel est le type de complément circonstanciel exprimé ?";lieu;temps;manière;cause
+37270;"Dans la phrase ""Les bateaux naviguent sur le lac."", quel est le type de complément circonstanciel exprimé ?";lieu;temps;manière;cause
+37271;"Dans la phrase ""Le jardinier travaille dans le jardin."", quel est le type de complément circonstanciel exprimé ?";lieu;temps;manière;cause
+37272;"Dans la phrase ""L'étoile brille dans le ciel."", quel est le type de complément circonstanciel exprimé ?";lieu;temps;manière;cause
+37273;"Dans la phrase ""Les élèves chantent joyeusement."", quel est le type de complément circonstanciel exprimé ?";manière;temps;lieu;cause
+37274;"Dans la phrase ""Les abeilles volent prudemment."", quel est le type de complément circonstanciel exprimé ?";manière;temps;lieu;cause
+37275;"Dans la phrase ""Les chiens répondent calmement."", quel est le type de complément circonstanciel exprimé ?";manière;temps;lieu;cause
+37276;"Dans la phrase ""L'ouvrier travaille sérieusement."", quel est le type de complément circonstanciel exprimé ?";manière;temps;lieu;cause
+37277;"Dans la phrase ""Les enfants parlent doucement."", quel est le type de complément circonstanciel exprimé ?";manière;temps;lieu;cause
+37278;"Dans la phrase ""Le pêcheur court rapidement."", quel est le type de complément circonstanciel exprimé ?";manière;temps;lieu;cause
+37279;"Dans la phrase ""Le fermier écrit soigneusement."", quel est le type de complément circonstanciel exprimé ?";manière;temps;lieu;cause
+37280;"Dans la phrase ""Les enfants dansent gracieusement."", quel est le type de complément circonstanciel exprimé ?";manière;temps;lieu;cause
+37281;"Dans la phrase ""Le chauffeur conduit prudemment."", quel est le type de complément circonstanciel exprimé ?";manière;temps;lieu;cause
+37282;"Dans la phrase ""Les oiseaux écoutent attentivement."", quel est le type de complément circonstanciel exprimé ?";manière;temps;lieu;cause
+37283;"Dans la phrase ""Le voisin salue poliment."", quel est le type de complément circonstanciel exprimé ?";manière;temps;lieu;cause
+37284;"Dans la phrase ""Le vélo avance lentement."", quel est le type de complément circonstanciel exprimé ?";manière;temps;lieu;cause
+37285;"Dans la phrase ""Le jardinier réagit vivement."", quel est le type de complément circonstanciel exprimé ?";manière;temps;lieu;cause
+37286;"Dans la phrase ""La maîtresse se comporte gentiment."", quel est le type de complément circonstanciel exprimé ?";manière;temps;lieu;cause
+37287;"Dans la phrase ""Le commerçant agit honnêtement."", quel est le type de complément circonstanciel exprimé ?";manière;temps;lieu;cause
 37288;Le professeur ___ enseigne le français est gentil.;qui;que;où;dont
 37289;La voiture ___ roule vite est rouge.;qui;que;où;dont
 37290;Le boulanger ___ vend le pain se lève tôt.;qui;que;où;dont
@@ -584,7 +584,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 37542;Vous avez ___ les documents.;rangé;rangées;rangés;rangée
 37543;J'ai ___ le colis.;perdu;perdue;perdus;perdues
 37544;Hier, les enfants ont ___ le colis.;attendu;attendue;attendues;attendus
-37545;Complète avec le participe passé du verbe 'prendre' : Ma tante a ___ des photos.;pris;prise;prises;ouvert
+37545;"Complète avec le participe passé du verbe ""prendre"" : Ma tante a ___ des photos.";pris;prise;prises;ouvert
 37546;Hier, la couturière a ___ les affiches.;préparé;préparées;préparés;préparée
 37547;Les enfants ont ___ les paquets.;ouvert;ouvertes;ouverts;ouverte
 37548;Hier, vous avez ___ les valises.;vu;vues;vus;vue
@@ -761,35 +761,35 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 37719;Les fleurs ___ elle cueille sont blanches.;que;dont;où;qui
 37720;Le sujet ___ nous discutons est complexe.;dont;où;qui;que
 37721;L'histoire ___ elle se souvient est triste.;dont;où;qui;que
-37722;Dans la phrase 'Le nid est caché derrière la haie.', 'derrière la haie' est un complément circonstanciel de quel type ?;lieu;temps;manière;cause
-37723;Dans la phrase 'Nous partirons dans une semaine.', 'dans une semaine' est un complément circonstanciel de quel type ?;temps;manière;lieu;cause
-37724;Dans la phrase 'Il parle avec calme.', 'avec calme' est un complément circonstanciel de quel type ?;manière;temps;lieu;cause
-37725;Dans la phrase 'Nous déjeunons vers midi.', 'vers midi' est un complément circonstanciel de quel type ?;temps;cause;manière;lieu
-37726;Dans la phrase 'Ils campent près du lac.', 'près du lac' est un complément circonstanciel de quel type ?;lieu;cause;manière;temps
-37727;Dans la phrase 'Il range ses affaires soigneusement.', 'soigneusement' est un complément circonstanciel de quel type ?;manière;cause;temps;lieu
-37728;Dans la phrase 'Nous nous retrouvons ce week-end.', 'ce week-end' est un complément circonstanciel de quel type ?;temps;manière;lieu;cause
-37729;Dans la phrase 'Le magasin ferme à minuit.', 'à minuit' est un complément circonstanciel de quel type ?;temps;lieu;cause;manière
-37730;Dans la phrase 'Le ballon roule vers la porte.', 'vers la porte' est un complément circonstanciel de quel type ?;lieu;temps;cause;manière
-37731;Dans la phrase 'Ils arriveront après le dîner.', 'après le dîner' est un complément circonstanciel de quel type ?;temps;cause;lieu;manière
-37732;Dans la phrase 'Il écrit avec application.', 'avec application' est un complément circonstanciel de quel type ?;manière;lieu;cause;temps
-37733;Dans la phrase 'Nous voyageons pendant l'été.', 'pendant l'été' est un complément circonstanciel de quel type ?;temps;manière;cause;lieu
-37734;Dans la phrase 'Le chat grimpe sur le toit.', 'sur le toit' est un complément circonstanciel de quel type ?;lieu;manière;cause;temps
-37735;Dans la phrase 'Le spectacle commence dans dix minutes.', 'dans dix minutes' est un complément circonstanciel de quel type ?;temps;lieu;manière;cause
-37736;Dans la phrase 'Elle sourit avec douceur.', 'avec douceur' est un complément circonstanciel de quel type ?;manière;cause;lieu;temps
-37737;Dans la phrase 'Les enfants jouent sur la plage.', 'sur la plage' est un complément circonstanciel de quel type ?;lieu;temps;manière;cause
-37738;Dans la phrase 'Elle chante avec entrain.', 'avec entrain' est un complément circonstanciel de quel type ?;manière;cause;lieu;temps
-37739;Dans la phrase 'Les oiseaux nichent dans les arbres.', 'dans les arbres' est un complément circonstanciel de quel type ?;lieu;temps;cause;manière
-37740;Dans la phrase 'Elle danse avec grâce.', 'avec grâce' est un complément circonstanciel de quel type ?;manière;cause;temps;lieu
-37741;Dans la phrase 'Elle répond avec assurance.', 'avec assurance' est un complément circonstanciel de quel type ?;manière;cause;temps;lieu
-37742;Dans la phrase 'Nous rentrerons avant la nuit.', 'avant la nuit' est un complément circonstanciel de quel type ?;temps;cause;lieu;manière
-37743;Dans la phrase 'La voiture roule sur l'autoroute.', 'sur l'autoroute' est un complément circonstanciel de quel type ?;lieu;cause;manière;temps
-37744;Dans la phrase 'Elle se lève tôt chaque matin.', 'tôt' est un complément circonstanciel de quel type ?;temps;cause;manière;lieu
-37745;Dans la phrase 'Il conduit prudemment.', 'prudemment' est un complément circonstanciel de quel type ?;manière;lieu;temps;cause
-37746;Dans la phrase 'Le cours commence à huit heures.', 'à huit heures' est un complément circonstanciel de quel type ?;temps;lieu;manière;cause
-37747;Dans la phrase 'Il salue poliment.', 'poliment' est un complément circonstanciel de quel type ?;manière;lieu;temps;cause
-37748;Dans la phrase 'Les enfants courent dans le couloir.', 'dans le couloir' est un complément circonstanciel de quel type ?;lieu;temps;cause;manière
-37749;Dans la phrase 'Le chien dort sous le lit.', 'sous le lit' est un complément circonstanciel de quel type ?;lieu;cause;temps;manière
-37750;Dans la phrase 'Les poissons nagent dans la rivière.', 'dans la rivière' est un complément circonstanciel de quel type ?;lieu;temps;cause;manière
+37722;"Dans la phrase ""Le nid est caché derrière la haie."", ""derrière la haie"" est un complément circonstanciel de quel type ?";lieu;temps;manière;cause
+37723;"Dans la phrase ""Nous partirons dans une semaine."", ""dans une semaine"" est un complément circonstanciel de quel type ?";temps;manière;lieu;cause
+37724;"Dans la phrase ""Il parle avec calme."", ""avec calme"" est un complément circonstanciel de quel type ?";manière;temps;lieu;cause
+37725;"Dans la phrase ""Nous déjeunons vers midi."", ""vers midi"" est un complément circonstanciel de quel type ?";temps;cause;manière;lieu
+37726;"Dans la phrase ""Ils campent près du lac."", ""près du lac"" est un complément circonstanciel de quel type ?";lieu;cause;manière;temps
+37727;"Dans la phrase ""Il range ses affaires soigneusement."", ""soigneusement"" est un complément circonstanciel de quel type ?";manière;cause;temps;lieu
+37728;"Dans la phrase ""Nous nous retrouvons ce week-end."", ""ce week-end"" est un complément circonstanciel de quel type ?";temps;manière;lieu;cause
+37729;"Dans la phrase ""Le magasin ferme à minuit."", ""à minuit"" est un complément circonstanciel de quel type ?";temps;lieu;cause;manière
+37730;"Dans la phrase ""Le ballon roule vers la porte."", ""vers la porte"" est un complément circonstanciel de quel type ?";lieu;temps;cause;manière
+37731;"Dans la phrase ""Ils arriveront après le dîner."", ""après le dîner"" est un complément circonstanciel de quel type ?";temps;cause;lieu;manière
+37732;"Dans la phrase ""Il écrit avec application."", ""avec application"" est un complément circonstanciel de quel type ?";manière;lieu;cause;temps
+37733;"Dans la phrase ""Nous voyageons pendant l'été."", ""pendant l'été"" est un complément circonstanciel de quel type ?";temps;manière;cause;lieu
+37734;"Dans la phrase ""Le chat grimpe sur le toit."", ""sur le toit"" est un complément circonstanciel de quel type ?";lieu;manière;cause;temps
+37735;"Dans la phrase ""Le spectacle commence dans dix minutes."", ""dans dix minutes"" est un complément circonstanciel de quel type ?";temps;lieu;manière;cause
+37736;"Dans la phrase ""Elle sourit avec douceur."", ""avec douceur"" est un complément circonstanciel de quel type ?";manière;cause;lieu;temps
+37737;"Dans la phrase ""Les enfants jouent sur la plage."", ""sur la plage"" est un complément circonstanciel de quel type ?";lieu;temps;manière;cause
+37738;"Dans la phrase ""Elle chante avec entrain."", ""avec entrain"" est un complément circonstanciel de quel type ?";manière;cause;lieu;temps
+37739;"Dans la phrase ""Les oiseaux nichent dans les arbres."", ""dans les arbres"" est un complément circonstanciel de quel type ?";lieu;temps;cause;manière
+37740;"Dans la phrase ""Elle danse avec grâce."", ""avec grâce"" est un complément circonstanciel de quel type ?";manière;cause;temps;lieu
+37741;"Dans la phrase ""Elle répond avec assurance."", ""avec assurance"" est un complément circonstanciel de quel type ?";manière;cause;temps;lieu
+37742;"Dans la phrase ""Nous rentrerons avant la nuit."", ""avant la nuit"" est un complément circonstanciel de quel type ?";temps;cause;lieu;manière
+37743;"Dans la phrase ""La voiture roule sur l'autoroute."", ""sur l'autoroute"" est un complément circonstanciel de quel type ?";lieu;cause;manière;temps
+37744;"Dans la phrase ""Elle se lève tôt chaque matin."", ""tôt"" est un complément circonstanciel de quel type ?";temps;cause;manière;lieu
+37745;"Dans la phrase ""Il conduit prudemment."", ""prudemment"" est un complément circonstanciel de quel type ?";manière;lieu;temps;cause
+37746;"Dans la phrase ""Le cours commence à huit heures."", ""à huit heures"" est un complément circonstanciel de quel type ?";temps;lieu;manière;cause
+37747;"Dans la phrase ""Il salue poliment."", ""poliment"" est un complément circonstanciel de quel type ?";manière;lieu;temps;cause
+37748;"Dans la phrase ""Les enfants courent dans le couloir."", ""dans le couloir"" est un complément circonstanciel de quel type ?";lieu;temps;cause;manière
+37749;"Dans la phrase ""Le chien dort sous le lit."", ""sous le lit"" est un complément circonstanciel de quel type ?";lieu;cause;temps;manière
+37750;"Dans la phrase ""Les poissons nagent dans la rivière."", ""dans la rivière"" est un complément circonstanciel de quel type ?";lieu;temps;cause;manière
 37751;Les dessins que j'ai ___.;perdus;perdu;perdue;perdues
 37752;Le dessin que nous avons ___.;regardé;regardées;regardée;regardés
 37753;Le gâteau que vous avez ___.;offert;offerte;offerts;offertes
@@ -904,7 +904,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 37862;Les lettres qu'elle a ___.;rangées;rangé;rangée;rangés
 37863;Regarde les messages que vous avez ___.;lu;lues;lue;lus
 37864;Regarde les valises qu'elle a ___.;vue;vu;vus;vues
-37865;Complète avec le participe passé du verbe 'prendre' : Les photos que j'ai ___.;prises;pris;prise;rangées
+37865;"Complète avec le participe passé du verbe ""prendre"" : Les photos que j'ai ___.";prises;pris;prise;rangées
 37866;C'est les valises qu'elle a ___.;choisie;choisi;choisies;choisis
 37867;Voici les chansons qu'il a ___.;trouvée;trouvés;trouvé;trouvées
 37868;Regarde les pommes que nous avons ___.;offertes;offert;offerte;offerts

@@ -1,19 +1,19 @@
 id;text;correct_answer;choice_2;choice_3;choice_4
-11000;Dans la phrase 'Marie mange une pomme.', quelle est la fonction de 'une pomme' ?;COD;COI;attribut du sujet;complément circonstanciel
-11001;Dans la phrase 'Paul lit un livre.', quelle est la fonction de 'un livre' ?;COD;COI;attribut du sujet;complément circonstanciel
-11002;Dans la phrase 'Le chat attrape la souris.', quelle est la fonction de 'la souris' ?;COD;COI;attribut du sujet;complément circonstanciel
-11003;Dans la phrase 'Les enfants regardent un film.', quelle est la fonction de 'un film' ?;COD;COI;attribut du sujet;complément circonstanciel
-11004;Dans la phrase 'Leo range ses jouets.', quelle est la fonction de 'ses jouets' ?;COD;COI;attribut du sujet;complément circonstanciel
-11005;Dans la phrase 'Paul pense à ses vacances.', quelle est la fonction de 'à ses vacances' ?;COI;COD;attribut du sujet;complément circonstanciel
-11006;Dans la phrase 'Elle parle à sa voisine.', quelle est la fonction de 'à sa voisine' ?;COI;COD;attribut du sujet;complément circonstanciel
-11007;Dans la phrase 'Nous obéissons à nos parents.', quelle est la fonction de 'à nos parents' ?;COI;COD;attribut du sujet;complément circonstanciel
-11008;Dans la phrase 'Il réfléchit à la question.', quelle est la fonction de 'à la question' ?;COI;COD;attribut du sujet;complément circonstanciel
-11009;Dans la phrase 'Tu écris à ton correspondant.', quelle est la fonction de 'à ton correspondant' ?;COI;COD;attribut du sujet;complément circonstanciel
-11010;Dans la phrase 'Le ciel est bleu.', quelle est la fonction de 'bleu' ?;attribut du sujet;COD;COI;complément circonstanciel
-11011;Dans la phrase 'Cette histoire semble vraie.', quelle est la fonction de 'vraie' ?;attribut du sujet;COD;COI;complément circonstanciel
-11012;Dans la phrase 'Mon frère est médecin.', quelle est la fonction de 'médecin' ?;attribut du sujet;COD;COI;complément circonstanciel
-11013;Dans la phrase 'La soupe parait délicieuse.', quelle est la fonction de 'délicieuse' ?;attribut du sujet;COD;COI;complément circonstanciel
-11014;Dans la phrase 'Les élèves restent silencieux.', quelle est la fonction de 'silencieux' ?;attribut du sujet;COD;COI;complément circonstanciel
+11000;"Dans la phrase ""Marie mange une pomme."", quelle est la fonction de ""une pomme"" ?";COD;COI;attribut du sujet;complément circonstanciel
+11001;"Dans la phrase ""Paul lit un livre."", quelle est la fonction de ""un livre"" ?";COD;COI;attribut du sujet;complément circonstanciel
+11002;"Dans la phrase ""Le chat attrape la souris."", quelle est la fonction de ""la souris"" ?";COD;COI;attribut du sujet;complément circonstanciel
+11003;"Dans la phrase ""Les enfants regardent un film."", quelle est la fonction de ""un film"" ?";COD;COI;attribut du sujet;complément circonstanciel
+11004;"Dans la phrase ""Leo range ses jouets."", quelle est la fonction de ""ses jouets"" ?";COD;COI;attribut du sujet;complément circonstanciel
+11005;"Dans la phrase ""Paul pense à ses vacances."", quelle est la fonction de ""à ses vacances"" ?";COI;COD;attribut du sujet;complément circonstanciel
+11006;"Dans la phrase ""Elle parle à sa voisine."", quelle est la fonction de ""à sa voisine"" ?";COI;COD;attribut du sujet;complément circonstanciel
+11007;"Dans la phrase ""Nous obéissons à nos parents."", quelle est la fonction de ""à nos parents"" ?";COI;COD;attribut du sujet;complément circonstanciel
+11008;"Dans la phrase ""Il réfléchit à la question."", quelle est la fonction de ""à la question"" ?";COI;COD;attribut du sujet;complément circonstanciel
+11009;"Dans la phrase ""Tu écris à ton correspondant."", quelle est la fonction de ""à ton correspondant"" ?";COI;COD;attribut du sujet;complément circonstanciel
+11010;"Dans la phrase ""Le ciel est bleu."", quelle est la fonction de ""bleu"" ?";attribut du sujet;COD;COI;complément circonstanciel
+11011;"Dans la phrase ""Cette histoire semble vraie."", quelle est la fonction de ""vraie"" ?";attribut du sujet;COD;COI;complément circonstanciel
+11012;"Dans la phrase ""Mon frère est médecin."", quelle est la fonction de ""médecin"" ?";attribut du sujet;COD;COI;complément circonstanciel
+11013;"Dans la phrase ""La soupe parait délicieuse."", quelle est la fonction de ""délicieuse"" ?";attribut du sujet;COD;COI;complément circonstanciel
+11014;"Dans la phrase ""Les élèves restent silencieux."", quelle est la fonction de ""silencieux"" ?";attribut du sujet;COD;COI;complément circonstanciel
 11015;C'est à moi : ___ chien aboie fort.;mon;ton;son;ce
 11016;C'est à toi : ___ cartable est neuf.;ton;mon;ces;cette
 11017;C'est à lui : ___ chaussures sont sales.;ses;ces;mes;cette
@@ -39,106 +39,106 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 11037;Ils sont ___ par la fenêtre.;sortis;sorti;sortie;sorties
 11038;Elle est ___ chez elle.;restée;reste;restes;restées
 11039;Il est ___ en retard.;monté;montée;montes;montées
-34000;Dans la phrase 'Marie achète une robe.', quelle est la fonction de 'une robe' ?;COD;COI;attribut du sujet;complément circonstanciel
-34001;Dans la phrase 'Paul répare son vélo.', quelle est la fonction de 'son vélo' ?;COD;COI;attribut du sujet;complément circonstanciel
-34002;Dans la phrase 'Le chat griffe le canapé.', quelle est la fonction de 'le canapé' ?;COD;COI;attribut du sujet;complément circonstanciel
-34003;Dans la phrase 'Les enfants dessinent un château.', quelle est la fonction de 'un château' ?;COD;COI;attribut du sujet;complément circonstanciel
-34004;Dans la phrase 'Léo construit une cabane.', quelle est la fonction de 'une cabane' ?;COD;COI;attribut du sujet;complément circonstanciel
-34005;Dans la phrase 'Zoé porte un sac.', quelle est la fonction de 'un sac' ?;COD;COI;attribut du sujet;complément circonstanciel
-34006;Dans la phrase 'Le boulanger vend du pain.', quelle est la fonction de 'du pain' ?;COD;COI;attribut du sujet;complément circonstanciel
-34007;Dans la phrase 'Nous rangeons la cuisine.', quelle est la fonction de 'la cuisine' ?;COD;COI;attribut du sujet;complément circonstanciel
-34008;Dans la phrase 'Vous cherchez vos clés.', quelle est la fonction de 'vos clés' ?;COD;COI;attribut du sujet;complément circonstanciel
-34009;Dans la phrase 'Tu lis un roman.', quelle est la fonction de 'un roman' ?;COD;COI;attribut du sujet;complément circonstanciel
-34010;Dans la phrase 'Le fermier cultive son champ.', quelle est la fonction de 'son champ' ?;COD;COI;attribut du sujet;complément circonstanciel
-34011;Dans la phrase 'La maîtresse corrige les cahiers.', quelle est la fonction de 'les cahiers' ?;COD;COI;attribut du sujet;complément circonstanciel
-34012;Dans la phrase 'Mon oncle conduit une camionnette.', quelle est la fonction de 'une camionnette' ?;COD;COI;attribut du sujet;complément circonstanciel
-34013;Dans la phrase 'Les élèves apprennent une poésie.', quelle est la fonction de 'une poésie' ?;COD;COI;attribut du sujet;complément circonstanciel
-34014;Dans la phrase 'Le peintre peint un tableau.', quelle est la fonction de 'un tableau' ?;COD;COI;attribut du sujet;complément circonstanciel
-34015;Dans la phrase 'Ma tante coud une robe.', quelle est la fonction de 'une robe' ?;COD;COI;attribut du sujet;complément circonstanciel
-34016;Dans la phrase 'Les pompiers éteignent le feu.', quelle est la fonction de 'le feu' ?;COD;COI;attribut du sujet;complément circonstanciel
-34017;Dans la phrase 'Le vétérinaire soigne les animaux.', quelle est la fonction de 'les animaux' ?;COD;COI;attribut du sujet;complément circonstanciel
-34018;Dans la phrase 'Nous préparons le repas.', quelle est la fonction de 'le repas' ?;COD;COI;attribut du sujet;complément circonstanciel
-34019;Dans la phrase 'Ils construisent un pont.', quelle est la fonction de 'un pont' ?;COD;COI;attribut du sujet;complément circonstanciel
-34020;Dans la phrase 'Le musicien accorde son violon.', quelle est la fonction de 'son violon' ?;COD;COI;attribut du sujet;complément circonstanciel
-34021;Dans la phrase 'La chanteuse répète sa chanson.', quelle est la fonction de 'sa chanson' ?;COD;COI;attribut du sujet;complément circonstanciel
-34022;Dans la phrase 'Les jardiniers taillent les arbres.', quelle est la fonction de 'les arbres' ?;COD;COI;attribut du sujet;complément circonstanciel
-34023;Dans la phrase 'Le boucher découpe la viande.', quelle est la fonction de 'la viande' ?;COD;COI;attribut du sujet;complément circonstanciel
-34024;Dans la phrase 'La couturière coud un manteau.', quelle est la fonction de 'un manteau' ?;COD;COI;attribut du sujet;complément circonstanciel
-34025;Dans la phrase 'Les élèves récitent une fable.', quelle est la fonction de 'une fable' ?;COD;COI;attribut du sujet;complément circonstanciel
-34026;Dans la phrase 'Le photographe prend une photo.', quelle est la fonction de 'une photo' ?;COD;COI;attribut du sujet;complément circonstanciel
-34027;Dans la phrase 'Ma cousine range ses affaires.', quelle est la fonction de 'ses affaires' ?;COD;COI;attribut du sujet;complément circonstanciel
-34028;Dans la phrase 'Le pêcheur attrape un poisson.', quelle est la fonction de 'un poisson' ?;COD;COI;attribut du sujet;complément circonstanciel
-34029;Dans la phrase 'Nous visitons le musée.', quelle est la fonction de 'le musée' ?;COD;COI;attribut du sujet;complément circonstanciel
-34030;Dans la phrase 'Elle écrit une lettre.', quelle est la fonction de 'une lettre' ?;COD;COI;attribut du sujet;complément circonstanciel
-34031;Dans la phrase 'Il répare la clôture.', quelle est la fonction de 'la clôture' ?;COD;COI;attribut du sujet;complément circonstanciel
-34032;Dans la phrase 'Les ouvriers construisent une maison.', quelle est la fonction de 'une maison' ?;COD;COI;attribut du sujet;complément circonstanciel
-34033;Dans la phrase 'Le chauffeur gare le camion.', quelle est la fonction de 'le camion' ?;COD;COI;attribut du sujet;complément circonstanciel
-34034;Dans la phrase 'La secrétaire classe les dossiers.', quelle est la fonction de 'les dossiers' ?;COD;COI;attribut du sujet;complément circonstanciel
-34035;Dans la phrase 'Le facteur distribue le courrier.', quelle est la fonction de 'le courrier' ?;COD;COI;attribut du sujet;complément circonstanciel
-34036;Dans la phrase 'Les enfants ramassent des coquillages.', quelle est la fonction de 'des coquillages' ?;COD;COI;attribut du sujet;complément circonstanciel
-34037;Dans la phrase 'Mon grand-père raconte une histoire.', quelle est la fonction de 'une histoire' ?;COD;COI;attribut du sujet;complément circonstanciel
-34038;Dans la phrase 'Le boulanger pétrit la pâte.', quelle est la fonction de 'la pâte' ?;COD;COI;attribut du sujet;complément circonstanciel
-34039;Dans la phrase 'Les randonneurs suivent le sentier.', quelle est la fonction de 'le sentier' ?;COD;COI;attribut du sujet;complément circonstanciel
-34040;Dans la phrase 'Il pense à ses examens.', quelle est la fonction de 'à ses examens' ?;COI;COD;attribut du sujet;complément circonstanciel
-34041;Dans la phrase 'Elle obéit à ses parents.', quelle est la fonction de 'à ses parents' ?;COI;COD;attribut du sujet;complément circonstanciel
-34042;Dans la phrase 'Nous réfléchissons à la question.', quelle est la fonction de 'à la question' ?;COI;COD;attribut du sujet;complément circonstanciel
-34043;Dans la phrase 'Tu écris à ta correspondante.', quelle est la fonction de 'à ta correspondante' ?;COI;COD;attribut du sujet;complément circonstanciel
-34044;Dans la phrase 'Le chien obéit à son maître.', quelle est la fonction de 'à son maître' ?;COI;COD;attribut du sujet;complément circonstanciel
-34045;Dans la phrase 'Vous parlez à vos amis.', quelle est la fonction de 'à vos amis' ?;COI;COD;attribut du sujet;complément circonstanciel
-34046;Dans la phrase 'Je téléphone à ma grand-mère.', quelle est la fonction de 'à ma grand-mère' ?;COI;COD;attribut du sujet;complément circonstanciel
-34047;Dans la phrase 'Elle ressemble à sa mère.', quelle est la fonction de 'à sa mère' ?;COI;COD;attribut du sujet;complément circonstanciel
-34048;Dans la phrase 'Ce jeu plaît à tout le monde.', quelle est la fonction de 'à tout le monde' ?;COI;COD;attribut du sujet;complément circonstanciel
-34049;Dans la phrase 'Les élèves participent à la sortie.', quelle est la fonction de 'à la sortie' ?;COI;COD;attribut du sujet;complément circonstanciel
-34050;Dans la phrase 'Il s'intéresse à l'astronomie.', quelle est la fonction de 'à l'astronomie' ?;COI;COD;attribut du sujet;complément circonstanciel
-34051;Dans la phrase 'Nous pensons à nos vacances.', quelle est la fonction de 'à nos vacances' ?;COI;COD;attribut du sujet;complément circonstanciel
-34052;Dans la phrase 'Tu obéis à la loi.', quelle est la fonction de 'à la loi' ?;COI;COD;attribut du sujet;complément circonstanciel
-34053;Dans la phrase 'Elle répond à sa maîtresse.', quelle est la fonction de 'à sa maîtresse' ?;COI;COD;attribut du sujet;complément circonstanciel
-34054;Dans la phrase 'Le résultat plaît à l'entraîneur.', quelle est la fonction de 'à l'entraîneur' ?;COI;COD;attribut du sujet;complément circonstanciel
-34055;Dans la phrase 'Les enfants jouent à la marelle.', quelle est la fonction de 'à la marelle' ?;COI;COD;attribut du sujet;complément circonstanciel
-34056;Dans la phrase 'Il songe à son avenir.', quelle est la fonction de 'à son avenir' ?;COI;COD;attribut du sujet;complément circonstanciel
-34057;Dans la phrase 'Vous réfléchissez à votre choix.', quelle est la fonction de 'à votre choix' ?;COI;COD;attribut du sujet;complément circonstanciel
-34058;Dans la phrase 'Elle succède à son père.', quelle est la fonction de 'à son père' ?;COI;COD;attribut du sujet;complément circonstanciel
-34059;Dans la phrase 'Nous assistons à la réunion.', quelle est la fonction de 'à la réunion' ?;COI;COD;attribut du sujet;complément circonstanciel
-34060;Dans la phrase 'Le chat échappe à son maître.', quelle est la fonction de 'à son maître' ?;COI;COD;attribut du sujet;complément circonstanciel
-34061;Dans la phrase 'Elle renonce à son projet.', quelle est la fonction de 'à son projet' ?;COI;COD;attribut du sujet;complément circonstanciel
-34062;Dans la phrase 'Il survit à l'accident.', quelle est la fonction de 'à l'accident' ?;COI;COD;attribut du sujet;complément circonstanciel
-34063;Dans la phrase 'Nous goûtons à la soupe.', quelle est la fonction de 'à la soupe' ?;COI;COD;attribut du sujet;complément circonstanciel
-34064;Dans la phrase 'Tu ressembles à ton père.', quelle est la fonction de 'à ton père' ?;COI;COD;attribut du sujet;complément circonstanciel
-34065;Dans la phrase 'Le sportif participe à la compétition.', quelle est la fonction de 'à la compétition' ?;COI;COD;attribut du sujet;complément circonstanciel
-34066;Dans la phrase 'Ils obéissent à leur professeur.', quelle est la fonction de 'à leur professeur' ?;COI;COD;attribut du sujet;complément circonstanciel
-34067;Dans la phrase 'Elle pense à son avenir.', quelle est la fonction de 'à son avenir' ?;COI;COD;attribut du sujet;complément circonstanciel
-34068;Dans la phrase 'Je m'intéresse à la musique.', quelle est la fonction de 'à la musique' ?;COI;COD;attribut du sujet;complément circonstanciel
-34069;Dans la phrase 'Nous croyons à cette histoire.', quelle est la fonction de 'à cette histoire' ?;COI;COD;attribut du sujet;complément circonstanciel
-34070;Dans la phrase 'Le ciel est gris.', quelle est la fonction de 'gris' ?;attribut du sujet;COD;COI;complément circonstanciel
-34071;Dans la phrase 'Cette histoire semble incroyable.', quelle est la fonction de 'incroyable' ?;attribut du sujet;COD;COI;complément circonstanciel
-34072;Dans la phrase 'Mon père est pompier.', quelle est la fonction de 'pompier' ?;attribut du sujet;COD;COI;complément circonstanciel
-34073;Dans la phrase 'La soupe paraît froide.', quelle est la fonction de 'froide' ?;attribut du sujet;COD;COI;complément circonstanciel
-34074;Dans la phrase 'Les élèves restent attentifs.', quelle est la fonction de 'attentifs' ?;attribut du sujet;COD;COI;complément circonstanciel
-34075;Dans la phrase 'Ce fruit est mûr.', quelle est la fonction de 'mûr' ?;attribut du sujet;COD;COI;complément circonstanciel
-34076;Dans la phrase 'Ma soeur devient infirmière.', quelle est la fonction de 'infirmière' ?;attribut du sujet;COD;COI;complément circonstanciel
-34077;Dans la phrase 'Le chemin semble dangereux.', quelle est la fonction de 'dangereux' ?;attribut du sujet;COD;COI;complément circonstanciel
-34078;Dans la phrase 'Cette idée paraît excellente.', quelle est la fonction de 'excellente' ?;attribut du sujet;COD;COI;complément circonstanciel
-34079;Dans la phrase 'Le film semble long.', quelle est la fonction de 'long' ?;attribut du sujet;COD;COI;complément circonstanciel
-34080;Dans la phrase 'Mon frère est architecte.', quelle est la fonction de 'architecte' ?;attribut du sujet;COD;COI;complément circonstanciel
-34081;Dans la phrase 'La réponse semble juste.', quelle est la fonction de 'juste' ?;attribut du sujet;COD;COI;complément circonstanciel
-34082;Dans la phrase 'Ces enfants restent sages.', quelle est la fonction de 'sages' ?;attribut du sujet;COD;COI;complément circonstanciel
-34083;Dans la phrase 'Le gâteau semble délicieux.', quelle est la fonction de 'délicieux' ?;attribut du sujet;COD;COI;complément circonstanciel
-34084;Dans la phrase 'Cette maison paraît vide.', quelle est la fonction de 'vide' ?;attribut du sujet;COD;COI;complément circonstanciel
-34085;Dans la phrase 'Ton projet semble ambitieux.', quelle est la fonction de 'ambitieux' ?;attribut du sujet;COD;COI;complément circonstanciel
-34086;Dans la phrase 'Elle devient médecin.', quelle est la fonction de 'médecin' ?;attribut du sujet;COD;COI;complément circonstanciel
-34087;Dans la phrase 'Ce livre paraît passionnant.', quelle est la fonction de 'passionnant' ?;attribut du sujet;COD;COI;complément circonstanciel
-34088;Dans la phrase 'Ce chemin reste boueux.', quelle est la fonction de 'boueux' ?;attribut du sujet;COD;COI;complément circonstanciel
-34089;Dans la phrase 'La météo semble incertaine.', quelle est la fonction de 'incertaine' ?;attribut du sujet;COD;COI;complément circonstanciel
-34090;Dans la phrase 'Cet exercice paraît facile.', quelle est la fonction de 'facile' ?;attribut du sujet;COD;COI;complément circonstanciel
-34091;Dans la phrase 'Le professeur est patient.', quelle est la fonction de 'patient' ?;attribut du sujet;COD;COI;complément circonstanciel
-34092;Dans la phrase 'Cette plante reste fragile.', quelle est la fonction de 'fragile' ?;attribut du sujet;COD;COI;complément circonstanciel
-34093;Dans la phrase 'Le résultat semble surprenant.', quelle est la fonction de 'surprenant' ?;attribut du sujet;COD;COI;complément circonstanciel
-34094;Dans la phrase 'Mon voisin est gentil.', quelle est la fonction de 'gentil' ?;attribut du sujet;COD;COI;complément circonstanciel
-34095;Dans la phrase 'La rue reste calme.', quelle est la fonction de 'calme' ?;attribut du sujet;COD;COI;complément circonstanciel
-34096;Dans la phrase 'Ce dessert paraît succulent.', quelle est la fonction de 'succulent' ?;attribut du sujet;COD;COI;complément circonstanciel
-34097;Dans la phrase 'L'eau devient glacée.', quelle est la fonction de 'glacée' ?;attribut du sujet;COD;COI;complément circonstanciel
-34098;Dans la phrase 'Le ciel reste couvert.', quelle est la fonction de 'couvert' ?;attribut du sujet;COD;COI;complément circonstanciel
-34099;Dans la phrase 'Cette nouvelle semble fausse.', quelle est la fonction de 'fausse' ?;attribut du sujet;COD;COI;complément circonstanciel
+34000;"Dans la phrase ""Marie achète une robe."", quelle est la fonction de ""une robe"" ?";COD;COI;attribut du sujet;complément circonstanciel
+34001;"Dans la phrase ""Paul répare son vélo."", quelle est la fonction de ""son vélo"" ?";COD;COI;attribut du sujet;complément circonstanciel
+34002;"Dans la phrase ""Le chat griffe le canapé."", quelle est la fonction de ""le canapé"" ?";COD;COI;attribut du sujet;complément circonstanciel
+34003;"Dans la phrase ""Les enfants dessinent un château."", quelle est la fonction de ""un château"" ?";COD;COI;attribut du sujet;complément circonstanciel
+34004;"Dans la phrase ""Léo construit une cabane."", quelle est la fonction de ""une cabane"" ?";COD;COI;attribut du sujet;complément circonstanciel
+34005;"Dans la phrase ""Zoé porte un sac."", quelle est la fonction de ""un sac"" ?";COD;COI;attribut du sujet;complément circonstanciel
+34006;"Dans la phrase ""Le boulanger vend du pain."", quelle est la fonction de ""du pain"" ?";COD;COI;attribut du sujet;complément circonstanciel
+34007;"Dans la phrase ""Nous rangeons la cuisine."", quelle est la fonction de ""la cuisine"" ?";COD;COI;attribut du sujet;complément circonstanciel
+34008;"Dans la phrase ""Vous cherchez vos clés."", quelle est la fonction de ""vos clés"" ?";COD;COI;attribut du sujet;complément circonstanciel
+34009;"Dans la phrase ""Tu lis un roman."", quelle est la fonction de ""un roman"" ?";COD;COI;attribut du sujet;complément circonstanciel
+34010;"Dans la phrase ""Le fermier cultive son champ."", quelle est la fonction de ""son champ"" ?";COD;COI;attribut du sujet;complément circonstanciel
+34011;"Dans la phrase ""La maîtresse corrige les cahiers."", quelle est la fonction de ""les cahiers"" ?";COD;COI;attribut du sujet;complément circonstanciel
+34012;"Dans la phrase ""Mon oncle conduit une camionnette."", quelle est la fonction de ""une camionnette"" ?";COD;COI;attribut du sujet;complément circonstanciel
+34013;"Dans la phrase ""Les élèves apprennent une poésie."", quelle est la fonction de ""une poésie"" ?";COD;COI;attribut du sujet;complément circonstanciel
+34014;"Dans la phrase ""Le peintre peint un tableau."", quelle est la fonction de ""un tableau"" ?";COD;COI;attribut du sujet;complément circonstanciel
+34015;"Dans la phrase ""Ma tante coud une robe."", quelle est la fonction de ""une robe"" ?";COD;COI;attribut du sujet;complément circonstanciel
+34016;"Dans la phrase ""Les pompiers éteignent le feu."", quelle est la fonction de ""le feu"" ?";COD;COI;attribut du sujet;complément circonstanciel
+34017;"Dans la phrase ""Le vétérinaire soigne les animaux."", quelle est la fonction de ""les animaux"" ?";COD;COI;attribut du sujet;complément circonstanciel
+34018;"Dans la phrase ""Nous préparons le repas."", quelle est la fonction de ""le repas"" ?";COD;COI;attribut du sujet;complément circonstanciel
+34019;"Dans la phrase ""Ils construisent un pont."", quelle est la fonction de ""un pont"" ?";COD;COI;attribut du sujet;complément circonstanciel
+34020;"Dans la phrase ""Le musicien accorde son violon."", quelle est la fonction de ""son violon"" ?";COD;COI;attribut du sujet;complément circonstanciel
+34021;"Dans la phrase ""La chanteuse répète sa chanson."", quelle est la fonction de ""sa chanson"" ?";COD;COI;attribut du sujet;complément circonstanciel
+34022;"Dans la phrase ""Les jardiniers taillent les arbres."", quelle est la fonction de ""les arbres"" ?";COD;COI;attribut du sujet;complément circonstanciel
+34023;"Dans la phrase ""Le boucher découpe la viande."", quelle est la fonction de ""la viande"" ?";COD;COI;attribut du sujet;complément circonstanciel
+34024;"Dans la phrase ""La couturière coud un manteau."", quelle est la fonction de ""un manteau"" ?";COD;COI;attribut du sujet;complément circonstanciel
+34025;"Dans la phrase ""Les élèves récitent une fable."", quelle est la fonction de ""une fable"" ?";COD;COI;attribut du sujet;complément circonstanciel
+34026;"Dans la phrase ""Le photographe prend une photo."", quelle est la fonction de ""une photo"" ?";COD;COI;attribut du sujet;complément circonstanciel
+34027;"Dans la phrase ""Ma cousine range ses affaires."", quelle est la fonction de ""ses affaires"" ?";COD;COI;attribut du sujet;complément circonstanciel
+34028;"Dans la phrase ""Le pêcheur attrape un poisson."", quelle est la fonction de ""un poisson"" ?";COD;COI;attribut du sujet;complément circonstanciel
+34029;"Dans la phrase ""Nous visitons le musée."", quelle est la fonction de ""le musée"" ?";COD;COI;attribut du sujet;complément circonstanciel
+34030;"Dans la phrase ""Elle écrit une lettre."", quelle est la fonction de ""une lettre"" ?";COD;COI;attribut du sujet;complément circonstanciel
+34031;"Dans la phrase ""Il répare la clôture."", quelle est la fonction de ""la clôture"" ?";COD;COI;attribut du sujet;complément circonstanciel
+34032;"Dans la phrase ""Les ouvriers construisent une maison."", quelle est la fonction de ""une maison"" ?";COD;COI;attribut du sujet;complément circonstanciel
+34033;"Dans la phrase ""Le chauffeur gare le camion."", quelle est la fonction de ""le camion"" ?";COD;COI;attribut du sujet;complément circonstanciel
+34034;"Dans la phrase ""La secrétaire classe les dossiers."", quelle est la fonction de ""les dossiers"" ?";COD;COI;attribut du sujet;complément circonstanciel
+34035;"Dans la phrase ""Le facteur distribue le courrier."", quelle est la fonction de ""le courrier"" ?";COD;COI;attribut du sujet;complément circonstanciel
+34036;"Dans la phrase ""Les enfants ramassent des coquillages."", quelle est la fonction de ""des coquillages"" ?";COD;COI;attribut du sujet;complément circonstanciel
+34037;"Dans la phrase ""Mon grand-père raconte une histoire."", quelle est la fonction de ""une histoire"" ?";COD;COI;attribut du sujet;complément circonstanciel
+34038;"Dans la phrase ""Le boulanger pétrit la pâte."", quelle est la fonction de ""la pâte"" ?";COD;COI;attribut du sujet;complément circonstanciel
+34039;"Dans la phrase ""Les randonneurs suivent le sentier."", quelle est la fonction de ""le sentier"" ?";COD;COI;attribut du sujet;complément circonstanciel
+34040;"Dans la phrase ""Il pense à ses examens."", quelle est la fonction de ""à ses examens"" ?";COI;COD;attribut du sujet;complément circonstanciel
+34041;"Dans la phrase ""Elle obéit à ses parents."", quelle est la fonction de ""à ses parents"" ?";COI;COD;attribut du sujet;complément circonstanciel
+34042;"Dans la phrase ""Nous réfléchissons à la question."", quelle est la fonction de ""à la question"" ?";COI;COD;attribut du sujet;complément circonstanciel
+34043;"Dans la phrase ""Tu écris à ta correspondante."", quelle est la fonction de ""à ta correspondante"" ?";COI;COD;attribut du sujet;complément circonstanciel
+34044;"Dans la phrase ""Le chien obéit à son maître."", quelle est la fonction de ""à son maître"" ?";COI;COD;attribut du sujet;complément circonstanciel
+34045;"Dans la phrase ""Vous parlez à vos amis."", quelle est la fonction de ""à vos amis"" ?";COI;COD;attribut du sujet;complément circonstanciel
+34046;"Dans la phrase ""Je téléphone à ma grand-mère."", quelle est la fonction de ""à ma grand-mère"" ?";COI;COD;attribut du sujet;complément circonstanciel
+34047;"Dans la phrase ""Elle ressemble à sa mère."", quelle est la fonction de ""à sa mère"" ?";COI;COD;attribut du sujet;complément circonstanciel
+34048;"Dans la phrase ""Ce jeu plaît à tout le monde."", quelle est la fonction de ""à tout le monde"" ?";COI;COD;attribut du sujet;complément circonstanciel
+34049;"Dans la phrase ""Les élèves participent à la sortie."", quelle est la fonction de ""à la sortie"" ?";COI;COD;attribut du sujet;complément circonstanciel
+34050;"Dans la phrase ""Il s'intéresse à l'astronomie."", quelle est la fonction de ""à l'astronomie"" ?";COI;COD;attribut du sujet;complément circonstanciel
+34051;"Dans la phrase ""Nous pensons à nos vacances."", quelle est la fonction de ""à nos vacances"" ?";COI;COD;attribut du sujet;complément circonstanciel
+34052;"Dans la phrase ""Tu obéis à la loi."", quelle est la fonction de ""à la loi"" ?";COI;COD;attribut du sujet;complément circonstanciel
+34053;"Dans la phrase ""Elle répond à sa maîtresse."", quelle est la fonction de ""à sa maîtresse"" ?";COI;COD;attribut du sujet;complément circonstanciel
+34054;"Dans la phrase ""Le résultat plaît à l'entraîneur."", quelle est la fonction de ""à l'entraîneur"" ?";COI;COD;attribut du sujet;complément circonstanciel
+34055;"Dans la phrase ""Les enfants jouent à la marelle."", quelle est la fonction de ""à la marelle"" ?";COI;COD;attribut du sujet;complément circonstanciel
+34056;"Dans la phrase ""Il songe à son avenir."", quelle est la fonction de ""à son avenir"" ?";COI;COD;attribut du sujet;complément circonstanciel
+34057;"Dans la phrase ""Vous réfléchissez à votre choix."", quelle est la fonction de ""à votre choix"" ?";COI;COD;attribut du sujet;complément circonstanciel
+34058;"Dans la phrase ""Elle succède à son père."", quelle est la fonction de ""à son père"" ?";COI;COD;attribut du sujet;complément circonstanciel
+34059;"Dans la phrase ""Nous assistons à la réunion."", quelle est la fonction de ""à la réunion"" ?";COI;COD;attribut du sujet;complément circonstanciel
+34060;"Dans la phrase ""Le chat échappe à son maître."", quelle est la fonction de ""à son maître"" ?";COI;COD;attribut du sujet;complément circonstanciel
+34061;"Dans la phrase ""Elle renonce à son projet."", quelle est la fonction de ""à son projet"" ?";COI;COD;attribut du sujet;complément circonstanciel
+34062;"Dans la phrase ""Il survit à l'accident."", quelle est la fonction de ""à l'accident"" ?";COI;COD;attribut du sujet;complément circonstanciel
+34063;"Dans la phrase ""Nous goûtons à la soupe."", quelle est la fonction de ""à la soupe"" ?";COI;COD;attribut du sujet;complément circonstanciel
+34064;"Dans la phrase ""Tu ressembles à ton père."", quelle est la fonction de ""à ton père"" ?";COI;COD;attribut du sujet;complément circonstanciel
+34065;"Dans la phrase ""Le sportif participe à la compétition."", quelle est la fonction de ""à la compétition"" ?";COI;COD;attribut du sujet;complément circonstanciel
+34066;"Dans la phrase ""Ils obéissent à leur professeur."", quelle est la fonction de ""à leur professeur"" ?";COI;COD;attribut du sujet;complément circonstanciel
+34067;"Dans la phrase ""Elle pense à son avenir."", quelle est la fonction de ""à son avenir"" ?";COI;COD;attribut du sujet;complément circonstanciel
+34068;"Dans la phrase ""Je m'intéresse à la musique."", quelle est la fonction de ""à la musique"" ?";COI;COD;attribut du sujet;complément circonstanciel
+34069;"Dans la phrase ""Nous croyons à cette histoire."", quelle est la fonction de ""à cette histoire"" ?";COI;COD;attribut du sujet;complément circonstanciel
+34070;"Dans la phrase ""Le ciel est gris."", quelle est la fonction de ""gris"" ?";attribut du sujet;COD;COI;complément circonstanciel
+34071;"Dans la phrase ""Cette histoire semble incroyable."", quelle est la fonction de ""incroyable"" ?";attribut du sujet;COD;COI;complément circonstanciel
+34072;"Dans la phrase ""Mon père est pompier."", quelle est la fonction de ""pompier"" ?";attribut du sujet;COD;COI;complément circonstanciel
+34073;"Dans la phrase ""La soupe paraît froide."", quelle est la fonction de ""froide"" ?";attribut du sujet;COD;COI;complément circonstanciel
+34074;"Dans la phrase ""Les élèves restent attentifs."", quelle est la fonction de ""attentifs"" ?";attribut du sujet;COD;COI;complément circonstanciel
+34075;"Dans la phrase ""Ce fruit est mûr."", quelle est la fonction de ""mûr"" ?";attribut du sujet;COD;COI;complément circonstanciel
+34076;"Dans la phrase ""Ma soeur devient infirmière."", quelle est la fonction de ""infirmière"" ?";attribut du sujet;COD;COI;complément circonstanciel
+34077;"Dans la phrase ""Le chemin semble dangereux."", quelle est la fonction de ""dangereux"" ?";attribut du sujet;COD;COI;complément circonstanciel
+34078;"Dans la phrase ""Cette idée paraît excellente."", quelle est la fonction de ""excellente"" ?";attribut du sujet;COD;COI;complément circonstanciel
+34079;"Dans la phrase ""Le film semble long."", quelle est la fonction de ""long"" ?";attribut du sujet;COD;COI;complément circonstanciel
+34080;"Dans la phrase ""Mon frère est architecte."", quelle est la fonction de ""architecte"" ?";attribut du sujet;COD;COI;complément circonstanciel
+34081;"Dans la phrase ""La réponse semble juste."", quelle est la fonction de ""juste"" ?";attribut du sujet;COD;COI;complément circonstanciel
+34082;"Dans la phrase ""Ces enfants restent sages."", quelle est la fonction de ""sages"" ?";attribut du sujet;COD;COI;complément circonstanciel
+34083;"Dans la phrase ""Le gâteau semble délicieux."", quelle est la fonction de ""délicieux"" ?";attribut du sujet;COD;COI;complément circonstanciel
+34084;"Dans la phrase ""Cette maison paraît vide."", quelle est la fonction de ""vide"" ?";attribut du sujet;COD;COI;complément circonstanciel
+34085;"Dans la phrase ""Ton projet semble ambitieux."", quelle est la fonction de ""ambitieux"" ?";attribut du sujet;COD;COI;complément circonstanciel
+34086;"Dans la phrase ""Elle devient médecin."", quelle est la fonction de ""médecin"" ?";attribut du sujet;COD;COI;complément circonstanciel
+34087;"Dans la phrase ""Ce livre paraît passionnant."", quelle est la fonction de ""passionnant"" ?";attribut du sujet;COD;COI;complément circonstanciel
+34088;"Dans la phrase ""Ce chemin reste boueux."", quelle est la fonction de ""boueux"" ?";attribut du sujet;COD;COI;complément circonstanciel
+34089;"Dans la phrase ""La météo semble incertaine."", quelle est la fonction de ""incertaine"" ?";attribut du sujet;COD;COI;complément circonstanciel
+34090;"Dans la phrase ""Cet exercice paraît facile."", quelle est la fonction de ""facile"" ?";attribut du sujet;COD;COI;complément circonstanciel
+34091;"Dans la phrase ""Le professeur est patient."", quelle est la fonction de ""patient"" ?";attribut du sujet;COD;COI;complément circonstanciel
+34092;"Dans la phrase ""Cette plante reste fragile."", quelle est la fonction de ""fragile"" ?";attribut du sujet;COD;COI;complément circonstanciel
+34093;"Dans la phrase ""Le résultat semble surprenant."", quelle est la fonction de ""surprenant"" ?";attribut du sujet;COD;COI;complément circonstanciel
+34094;"Dans la phrase ""Mon voisin est gentil."", quelle est la fonction de ""gentil"" ?";attribut du sujet;COD;COI;complément circonstanciel
+34095;"Dans la phrase ""La rue reste calme."", quelle est la fonction de ""calme"" ?";attribut du sujet;COD;COI;complément circonstanciel
+34096;"Dans la phrase ""Ce dessert paraît succulent."", quelle est la fonction de ""succulent"" ?";attribut du sujet;COD;COI;complément circonstanciel
+34097;"Dans la phrase ""L'eau devient glacée."", quelle est la fonction de ""glacée"" ?";attribut du sujet;COD;COI;complément circonstanciel
+34098;"Dans la phrase ""Le ciel reste couvert."", quelle est la fonction de ""couvert"" ?";attribut du sujet;COD;COI;complément circonstanciel
+34099;"Dans la phrase ""Cette nouvelle semble fausse."", quelle est la fonction de ""fausse"" ?";attribut du sujet;COD;COI;complément circonstanciel
 34100;C'est à moi : ___ chapeau est là.;mon;votre;leur;ma
 34101;C'est à moi : ___ écharpe est là.;mon;notre;son;votre
 34102;C'est à moi : ___ gants sont là.;mes;ton;son;ma
@@ -499,52 +499,52 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 34457;Nathan était ___ hier.;descendu;descendue;descendues;descendus
 34458;Alice était ___ hier.;venue;venus;venues;venu
 34459;Inès était ___ hier.;passée;passées;passé;passés
-34460;Dans la phrase 'Nous nous souvenons de ce jour.', quelle est la fonction de 'de ce jour' ?;COI;complément circonstanciel;attribut du sujet;COD
-34461;Dans la phrase 'Le jardinier taille les rosiers.', quelle est la fonction de 'les rosiers' ?;COD;COI;attribut du sujet;complément circonstanciel
-34462;Dans la phrase 'Mon oncle est devenu pompier.', quelle est la fonction de 'pompier' ?;attribut du sujet;COD;complément circonstanciel;COI
-34463;Dans la phrase 'Il ressemble à son grand-père.', quelle est la fonction de 'à son grand-père' ?;COI;complément circonstanciel;COD;attribut du sujet
-34464;Dans la phrase 'Tu ranges ta chambre.', quelle est la fonction de 'ta chambre' ?;COD;COI;attribut du sujet;complément circonstanciel
-34465;Dans la phrase 'Les enfants construisent un igloo.', quelle est la fonction de 'un igloo' ?;COD;COI;complément circonstanciel;attribut du sujet
-34466;Dans la phrase 'Le peintre termine son tableau.', quelle est la fonction de 'son tableau' ?;COD;attribut du sujet;COI;complément circonstanciel
-34467;Dans la phrase 'Ils s'habituent à la nouvelle école.', quelle est la fonction de 'à la nouvelle école' ?;COI;COD;attribut du sujet;complément circonstanciel
-34468;Dans la phrase 'La météo reste incertaine.', quelle est la fonction de 'incertaine' ?;attribut du sujet;COI;complément circonstanciel;COD
-34469;Dans la phrase 'Les enfants dessinent un dragon.', quelle est la fonction de 'un dragon' ?;COD;complément circonstanciel;attribut du sujet;COI
-34470;Dans la phrase 'Les élèves recopient la leçon.', quelle est la fonction de 'la leçon' ?;COD;complément circonstanciel;attribut du sujet;COI
-34471;Dans la phrase 'Elle rêve d'un beau voyage.', quelle est la fonction de 'd'un beau voyage' ?;COI;complément circonstanciel;attribut du sujet;COD
-34472;Dans la phrase 'Ma tante peint une fresque.', quelle est la fonction de 'une fresque' ?;COD;attribut du sujet;COI;complément circonstanciel
-34473;Dans la phrase 'Le fermier récolte le maïs.', quelle est la fonction de 'le maïs' ?;COD;complément circonstanciel;COI;attribut du sujet
-34474;Dans la phrase 'Vous fermez la porte.', quelle est la fonction de 'la porte' ?;COD;attribut du sujet;complément circonstanciel;COI
-34475;Dans la phrase 'Vous téléphonez à vos cousins.', quelle est la fonction de 'à vos cousins' ?;COI;COD;complément circonstanciel;attribut du sujet
-34476;Dans la phrase 'Cette élève est devenue championne.', quelle est la fonction de 'championne' ?;attribut du sujet;complément circonstanciel;COI;COD
-34477;Dans la phrase 'Ce chemin paraît long.', quelle est la fonction de 'long' ?;attribut du sujet;COD;complément circonstanciel;COI
-34478;Dans la phrase 'Le ciel reste gris.', quelle est la fonction de 'gris' ?;attribut du sujet;complément circonstanciel;COD;COI
-34479;Dans la phrase 'Mon frère répare son vélo.', quelle est la fonction de 'son vélo' ?;COD;COI;attribut du sujet;complément circonstanciel
-34480;Dans la phrase 'Le résultat paraît étonnant.', quelle est la fonction de 'étonnant' ?;attribut du sujet;COD;COI;complément circonstanciel
-34481;Dans la phrase 'Le chien poursuit le facteur.', quelle est la fonction de 'le facteur' ?;COD;COI;attribut du sujet;complément circonstanciel
-34482;Dans la phrase 'Le boulanger vend des croissants.', quelle est la fonction de 'des croissants' ?;COD;COI;attribut du sujet;complément circonstanciel
-34483;Dans la phrase 'Elle profite de ses vacances.', quelle est la fonction de 'de ses vacances' ?;COI;attribut du sujet;COD;complément circonstanciel
-34484;Dans la phrase 'Ce fruit paraît mûr.', quelle est la fonction de 'mûr' ?;attribut du sujet;complément circonstanciel;COI;COD
-34485;Dans la phrase 'Le public applaudit aux artistes.', quelle est la fonction de 'aux artistes' ?;COI;attribut du sujet;complément circonstanciel;COD
-34486;Dans la phrase 'Les musiciens répètent leur morceau.', quelle est la fonction de 'leur morceau' ?;COD;complément circonstanciel;attribut du sujet;COI
-34487;Dans la phrase 'Tu obéis à ton entraîneur.', quelle est la fonction de 'à ton entraîneur' ?;COI;COD;attribut du sujet;complément circonstanciel
-34488;Dans la phrase 'Le chat attrape une souris.', quelle est la fonction de 'une souris' ?;COD;complément circonstanciel;attribut du sujet;COI
-34489;Dans la phrase 'Nous parlons à nos voisins.', quelle est la fonction de 'à nos voisins' ?;COI;complément circonstanciel;attribut du sujet;COD
-34490;Dans la phrase 'Cet exercice devient difficile.', quelle est la fonction de 'difficile' ?;attribut du sujet;COI;COD;complément circonstanciel
-34491;Dans la phrase 'Le film était passionnant.', quelle est la fonction de 'passionnant' ?;attribut du sujet;COI;complément circonstanciel;COD
-34492;Dans la phrase 'Je pense à mon prochain voyage.', quelle est la fonction de 'à mon prochain voyage' ?;COI;COD;complément circonstanciel;attribut du sujet
-34493;Dans la phrase 'Nous préparons le dîner.', quelle est la fonction de 'le dîner' ?;COD;COI;attribut du sujet;complément circonstanciel
-34494;Dans la phrase 'Nous répondons à la maîtresse.', quelle est la fonction de 'à la maîtresse' ?;COI;COD;complément circonstanciel;attribut du sujet
-34495;Dans la phrase 'La glace devient molle.', quelle est la fonction de 'molle' ?;attribut du sujet;COD;COI;complément circonstanciel
-34496;Dans la phrase 'Ce jeu semble amusant.', quelle est la fonction de 'amusant' ?;attribut du sujet;COD;COI;complément circonstanciel
-34497;Dans la phrase 'Les enfants pensent à leurs vacances.', quelle est la fonction de 'à leurs vacances' ?;COI;complément circonstanciel;COD;attribut du sujet
-34498;Dans la phrase 'Les castors bâtissent un barrage.', quelle est la fonction de 'un barrage' ?;COD;COI;complément circonstanciel;attribut du sujet
-34499;Dans la phrase 'Les élèves réfléchissent à la question.', quelle est la fonction de 'à la question' ?;COI;complément circonstanciel;attribut du sujet;COD
-34500;Dans la phrase 'Les alpinistes gravissent le sommet.', quelle est la fonction de 'le sommet' ?;COD;COI;complément circonstanciel;attribut du sujet
-34501;Dans la phrase 'La soupe semble trop salée.', quelle est la fonction de 'trop salée' ?;attribut du sujet;COI;COD;complément circonstanciel
-34502;Dans la phrase 'Les pêcheurs remontent leurs filets.', quelle est la fonction de 'leurs filets' ?;COD;attribut du sujet;COI;complément circonstanciel
-34503;Dans la phrase 'Elle range ses affaires.', quelle est la fonction de 'ses affaires' ?;COD;complément circonstanciel;attribut du sujet;COI
-34504;Dans la phrase 'La rivière paraît calme.', quelle est la fonction de 'calme' ?;attribut du sujet;COD;COI;complément circonstanciel
-34505;Dans la phrase 'Les touristes s'intéressent au musée.', quelle est la fonction de 'au musée' ?;COI;complément circonstanciel;attribut du sujet;COD
+34460;"Dans la phrase ""Nous nous souvenons de ce jour."", quelle est la fonction de ""de ce jour"" ?";COI;complément circonstanciel;attribut du sujet;COD
+34461;"Dans la phrase ""Le jardinier taille les rosiers."", quelle est la fonction de ""les rosiers"" ?";COD;COI;attribut du sujet;complément circonstanciel
+34462;"Dans la phrase ""Mon oncle est devenu pompier."", quelle est la fonction de ""pompier"" ?";attribut du sujet;COD;complément circonstanciel;COI
+34463;"Dans la phrase ""Il ressemble à son grand-père."", quelle est la fonction de ""à son grand-père"" ?";COI;complément circonstanciel;COD;attribut du sujet
+34464;"Dans la phrase ""Tu ranges ta chambre."", quelle est la fonction de ""ta chambre"" ?";COD;COI;attribut du sujet;complément circonstanciel
+34465;"Dans la phrase ""Les enfants construisent un igloo."", quelle est la fonction de ""un igloo"" ?";COD;COI;complément circonstanciel;attribut du sujet
+34466;"Dans la phrase ""Le peintre termine son tableau."", quelle est la fonction de ""son tableau"" ?";COD;attribut du sujet;COI;complément circonstanciel
+34467;"Dans la phrase ""Ils s'habituent à la nouvelle école."", quelle est la fonction de ""à la nouvelle école"" ?";COI;COD;attribut du sujet;complément circonstanciel
+34468;"Dans la phrase ""La météo reste incertaine."", quelle est la fonction de ""incertaine"" ?";attribut du sujet;COI;complément circonstanciel;COD
+34469;"Dans la phrase ""Les enfants dessinent un dragon."", quelle est la fonction de ""un dragon"" ?";COD;complément circonstanciel;attribut du sujet;COI
+34470;"Dans la phrase ""Les élèves recopient la leçon."", quelle est la fonction de ""la leçon"" ?";COD;complément circonstanciel;attribut du sujet;COI
+34471;"Dans la phrase ""Elle rêve d'un beau voyage."", quelle est la fonction de ""d'un beau voyage"" ?";COI;complément circonstanciel;attribut du sujet;COD
+34472;"Dans la phrase ""Ma tante peint une fresque."", quelle est la fonction de ""une fresque"" ?";COD;attribut du sujet;COI;complément circonstanciel
+34473;"Dans la phrase ""Le fermier récolte le maïs."", quelle est la fonction de ""le maïs"" ?";COD;complément circonstanciel;COI;attribut du sujet
+34474;"Dans la phrase ""Vous fermez la porte."", quelle est la fonction de ""la porte"" ?";COD;attribut du sujet;complément circonstanciel;COI
+34475;"Dans la phrase ""Vous téléphonez à vos cousins."", quelle est la fonction de ""à vos cousins"" ?";COI;COD;complément circonstanciel;attribut du sujet
+34476;"Dans la phrase ""Cette élève est devenue championne."", quelle est la fonction de ""championne"" ?";attribut du sujet;complément circonstanciel;COI;COD
+34477;"Dans la phrase ""Ce chemin paraît long."", quelle est la fonction de ""long"" ?";attribut du sujet;COD;complément circonstanciel;COI
+34478;"Dans la phrase ""Le ciel reste gris."", quelle est la fonction de ""gris"" ?";attribut du sujet;complément circonstanciel;COD;COI
+34479;"Dans la phrase ""Mon frère répare son vélo."", quelle est la fonction de ""son vélo"" ?";COD;COI;attribut du sujet;complément circonstanciel
+34480;"Dans la phrase ""Le résultat paraît étonnant."", quelle est la fonction de ""étonnant"" ?";attribut du sujet;COD;COI;complément circonstanciel
+34481;"Dans la phrase ""Le chien poursuit le facteur."", quelle est la fonction de ""le facteur"" ?";COD;COI;attribut du sujet;complément circonstanciel
+34482;"Dans la phrase ""Le boulanger vend des croissants."", quelle est la fonction de ""des croissants"" ?";COD;COI;attribut du sujet;complément circonstanciel
+34483;"Dans la phrase ""Elle profite de ses vacances."", quelle est la fonction de ""de ses vacances"" ?";COI;attribut du sujet;COD;complément circonstanciel
+34484;"Dans la phrase ""Ce fruit paraît mûr."", quelle est la fonction de ""mûr"" ?";attribut du sujet;complément circonstanciel;COI;COD
+34485;"Dans la phrase ""Le public applaudit aux artistes."", quelle est la fonction de ""aux artistes"" ?";COI;attribut du sujet;complément circonstanciel;COD
+34486;"Dans la phrase ""Les musiciens répètent leur morceau."", quelle est la fonction de ""leur morceau"" ?";COD;complément circonstanciel;attribut du sujet;COI
+34487;"Dans la phrase ""Tu obéis à ton entraîneur."", quelle est la fonction de ""à ton entraîneur"" ?";COI;COD;attribut du sujet;complément circonstanciel
+34488;"Dans la phrase ""Le chat attrape une souris."", quelle est la fonction de ""une souris"" ?";COD;complément circonstanciel;attribut du sujet;COI
+34489;"Dans la phrase ""Nous parlons à nos voisins."", quelle est la fonction de ""à nos voisins"" ?";COI;complément circonstanciel;attribut du sujet;COD
+34490;"Dans la phrase ""Cet exercice devient difficile."", quelle est la fonction de ""difficile"" ?";attribut du sujet;COI;COD;complément circonstanciel
+34491;"Dans la phrase ""Le film était passionnant."", quelle est la fonction de ""passionnant"" ?";attribut du sujet;COI;complément circonstanciel;COD
+34492;"Dans la phrase ""Je pense à mon prochain voyage."", quelle est la fonction de ""à mon prochain voyage"" ?";COI;COD;complément circonstanciel;attribut du sujet
+34493;"Dans la phrase ""Nous préparons le dîner."", quelle est la fonction de ""le dîner"" ?";COD;COI;attribut du sujet;complément circonstanciel
+34494;"Dans la phrase ""Nous répondons à la maîtresse."", quelle est la fonction de ""à la maîtresse"" ?";COI;COD;complément circonstanciel;attribut du sujet
+34495;"Dans la phrase ""La glace devient molle."", quelle est la fonction de ""molle"" ?";attribut du sujet;COD;COI;complément circonstanciel
+34496;"Dans la phrase ""Ce jeu semble amusant."", quelle est la fonction de ""amusant"" ?";attribut du sujet;COD;COI;complément circonstanciel
+34497;"Dans la phrase ""Les enfants pensent à leurs vacances."", quelle est la fonction de ""à leurs vacances"" ?";COI;complément circonstanciel;COD;attribut du sujet
+34498;"Dans la phrase ""Les castors bâtissent un barrage."", quelle est la fonction de ""un barrage"" ?";COD;COI;complément circonstanciel;attribut du sujet
+34499;"Dans la phrase ""Les élèves réfléchissent à la question."", quelle est la fonction de ""à la question"" ?";COI;complément circonstanciel;attribut du sujet;COD
+34500;"Dans la phrase ""Les alpinistes gravissent le sommet."", quelle est la fonction de ""le sommet"" ?";COD;COI;complément circonstanciel;attribut du sujet
+34501;"Dans la phrase ""La soupe semble trop salée."", quelle est la fonction de ""trop salée"" ?";attribut du sujet;COI;COD;complément circonstanciel
+34502;"Dans la phrase ""Les pêcheurs remontent leurs filets."", quelle est la fonction de ""leurs filets"" ?";COD;attribut du sujet;COI;complément circonstanciel
+34503;"Dans la phrase ""Elle range ses affaires."", quelle est la fonction de ""ses affaires"" ?";COD;complément circonstanciel;attribut du sujet;COI
+34504;"Dans la phrase ""La rivière paraît calme."", quelle est la fonction de ""calme"" ?";attribut du sujet;COD;COI;complément circonstanciel
+34505;"Dans la phrase ""Les touristes s'intéressent au musée."", quelle est la fonction de ""au musée"" ?";COI;complément circonstanciel;attribut du sujet;COD
 34506;Timéo est ___ au marché.;allé;allée;allés;allées
 34507;Clément est ___ au marché.;allé;allée;allés;allées
 34508;Lisa est ___ par le parc.;passée;passé;passés;passées

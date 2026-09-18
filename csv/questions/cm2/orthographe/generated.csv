@@ -14,26 +14,26 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 12092;Les élèves sont ___ arrivés.;tous;tout;toux;toutes
 12093;Quand ___ demanderont, dis la vérité.;quant;quand;qu'en;kan
 12094;Je ne sais pas ___ il reviendra.;quand;quant;qu'en;kan
-12095;Que signifie le préfixe 're-' dans 'refaire' ?;faire de nouveau;faire le contraire;faire avant;faire vite
-12096;Que signifie le préfixe 'de-' dans 'défaire' ?;faire le contraire;faire de nouveau;faire avant;faire vite
-12097;Que signifie le préfixe 'in-' dans 'impossible' ?;le contraire de;la même chose que;faire de nouveau;avant
-12098;Quel est le contraire de 'content' avec un préfixe ?;mécontent;decontent;incontent;recontent
-12099;Quel est le contraire de 'faire' avec un préfixe ?;défaire;refaire;infaire;mecfaire
-12100;Quel mot signifie 'plier de nouveau' ?;replier;déplier;implier;complier
-12101;Quel préfixe donne le sens 'pas possible' ?;im-;re-;de-;sur-
-12102;Quel mot veut dire 'refaire une lecture' ?;relire;délire;inlire;surlire
-12103;Quel suffixe transforme l'adjectif 'gentil' en 'gentillesse' ?;-esse;-tion;-ment;-eur
-12104;Quel suffixe transforme l'adjectif 'lent' en 'lentement' ?;-ment;-tion;-esse;-eur
-12105;Quel suffixe transforme le verbe 'nager' en 'nageur' ?;-eur;-tion;-ment;-esse
-12106;Quel suffixe transforme le verbe 'inventer' en 'invention' ?;-tion;-ment;-esse;-eur
-12107;Quel mot signifie 'action de laver' ?;lavage;lavement;laveur;lavesse
+12095;"Que signifie le préfixe ""re-"" dans ""refaire"" ?";faire de nouveau;faire le contraire;faire avant;faire vite
+12096;"Que signifie le préfixe ""de-"" dans ""défaire"" ?";faire le contraire;faire de nouveau;faire avant;faire vite
+12097;"Que signifie le préfixe ""in-"" dans ""impossible"" ?";le contraire de;la même chose que;faire de nouveau;avant
+12098;"Quel est le contraire de ""content"" avec un préfixe ?";mécontent;decontent;incontent;recontent
+12099;"Quel est le contraire de ""faire"" avec un préfixe ?";défaire;refaire;infaire;mecfaire
+12100;"Quel mot signifie ""plier de nouveau"" ?";replier;déplier;implier;complier
+12101;"Quel préfixe donne le sens ""pas possible"" ?";im-;re-;de-;sur-
+12102;"Quel mot veut dire ""refaire une lecture"" ?";relire;délire;inlire;surlire
+12103;"Quel suffixe transforme l'adjectif ""gentil"" en ""gentillesse"" ?";-esse;-tion;-ment;-eur
+12104;"Quel suffixe transforme l'adjectif ""lent"" en ""lentement"" ?";-ment;-tion;-esse;-eur
+12105;"Quel suffixe transforme le verbe ""nager"" en ""nageur"" ?";-eur;-tion;-ment;-esse
+12106;"Quel suffixe transforme le verbe ""inventer"" en ""invention"" ?";-tion;-ment;-esse;-eur
+12107;"Quel mot signifie ""action de laver"" ?";lavage;lavement;laveur;lavesse
 12108;Quel mot désigne celui qui chante ?;chanteur;chantage;chantment;chanture
-12109;Quel mot signifie 'de manière rapide' ?;rapidement;rapidage;rapideur;rapidesse
-12110;Comment s'écrit le mot pour 'que l'on mange le matin' ?;petit-déjeuner;petit déjeune;petit-déjeune;petitdejeuner
-12111;Quel accent porte le 'e' dans 'la mère' ?;accent grave;accent aigu;accent circonflexe;aucun accent
-12112;Quel accent porte le 'e' dans 'l'école' ?;accent aigu;accent grave;accent circonflexe;aucun accent
-12113;Quel accent porte le 'e' dans 'la fenêtre' ?;accent circonflexe;accent grave;accent aigu;aucun accent
-12114;Comment écrit-on correctement : 'il neige' ou 'il neiges' ?;il neige;il neiges;il neigent;il neigea
+12109;"Quel mot signifie ""de manière rapide"" ?";rapidement;rapidage;rapideur;rapidesse
+12110;"Comment s'écrit le mot pour ""que l'on mange le matin"" ?";petit-déjeuner;petit déjeune;petit-déjeune;petitdejeuner
+12111;"Quel accent porte le ""e"" dans ""la mère"" ?";accent grave;accent aigu;accent circonflexe;aucun accent
+12112;"Quel accent porte le ""e"" dans ""l'école"" ?";accent aigu;accent grave;accent circonflexe;aucun accent
+12113;"Quel accent porte le ""e"" dans ""la fenêtre"" ?";accent circonflexe;accent grave;accent aigu;aucun accent
+12114;"Comment écrit-on correctement : ""il neige"" ou ""il neiges"" ?";il neige;il neiges;il neigent;il neigea
 12115;Quelle est la bonne orthographe ?;anniversaire;anniverssaire;anniversère;aniversaire
 12116;Quelle est la bonne orthographe ?;restaurant;restorant;réstaurant;restaurent
 39000;___ arrives-tu demain ?;Quand;Quant;Qu'en;Lorsque
@@ -66,60 +66,60 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 39027;Il connaît ___ les réponses.;toutes;tout;tous;toute
 39028;Ils ont ___ compris.;tout;tous;toute;toutes
 39029;___ ces livres sont à moi.;Tous;Tout;Toute;Toutes
-39030;Que signifie le préfixe 're-' dans 'relire' ?;lire de nouveau;faire le contraire;le contraire de;voler au-dessus
-39031;Que signifie le préfixe 'dé-' dans 'déplier' ?;plier en sens contraire;voler au-dessus;faire le contraire;faire de nouveau
-39032;Que signifie le préfixe 'in-' dans 'incertain' ?;le contraire de;voir à l'avance;porter à travers;voler au-dessus
-39033;Que signifie le préfixe 're-' dans 'revoir' ?;voir de nouveau;faire de nouveau;contre le gel;voler au-dessus
-39034;Que signifie le préfixe 'dé-' dans 'découdre' ?;défaire une couture;lire de nouveau;voler au-dessus;porter à travers
-39035;Que signifie le préfixe 'in-' dans 'inutile' ?;le contraire de;lire de nouveau;contre le gel;faire de nouveau
-39036;Que signifie le préfixe 're-' dans 'rejouer' ?;jouer de nouveau;lire de nouveau;faire de nouveau;contre le gel
-39037;Que signifie le préfixe 'dé-' dans 'décoller' ?;détacher ce qui était collé;lire de nouveau;le contraire de;faire de nouveau
-39038;Que signifie le préfixe 'im-' dans 'impoli' ?;le contraire de;faire de nouveau;contre le gel;lire de nouveau
-39039;Que signifie le préfixe 're-' dans 'recommencer' ?;commencer de nouveau;faire de nouveau;voler au-dessus;voir à l'avance
-39040;Que signifie le préfixe 'dé-' dans 'démonter' ?;défaire un montage;faire de nouveau;porter à travers;le contraire de
-39041;Que signifie le préfixe 'mé-' dans 'mécontent' ?;le contraire de content;porter à travers;faire de nouveau;voir à l'avance
-39042;Que signifie le préfixe 'sur-' dans 'survoler' ?;voler au-dessus;le contraire de;contre le gel;faire de nouveau
-39043;Que signifie le préfixe 'sous-' dans 'souligner' ?;tirer un trait en dessous;faire de nouveau;porter à travers;contre le gel
-39044;Que signifie le préfixe 'anti-' dans 'antigel' ?;contre le gel;voler au-dessus;faire de nouveau;voir à l'avance
-39045;Que signifie le préfixe 'pré-' dans 'prévoir' ?;voir à l'avance;porter à travers;faire de nouveau;faire le contraire
-39046;Que signifie le préfixe 'trans-' dans 'transporter' ?;porter à travers;voir à l'avance;faire le contraire;faire de nouveau
-39047;Quel suffixe transforme 'gentil' en 'gentillesse' ?;-esse;-tion;-ment;-able
-39048;Quel suffixe transforme 'lent' en 'lentement' ?;-ment;-esse;-ette;-eur
-39049;Quel suffixe transforme 'nager' en 'nageur' ?;-eur;-iste;-tion;-ment
-39050;Quel suffixe transforme 'inventer' en 'invention' ?;-tion;-ette;-iste;-able
-39051;Quel suffixe transforme 'laver' en 'lavage' ?;-age;-tion;-esse;-able
-39052;Quel suffixe transforme 'chanter' en 'chanteur' ?;-eur;-able;-ette;-tion
-39053;Quel suffixe transforme 'rapide' en 'rapidement' ?;-ment;-tion;-esse;-able
-39054;Quel suffixe transforme 'créer' en 'création' ?;-tion;-age;-eur;-esse
-39055;Quel suffixe transforme 'voler' en 'voleur' ?;-eur;-ette;-iste;-esse
-39056;Quel suffixe transforme 'nettoyer' en 'nettoyage' ?;-age;-iste;-esse;-ment
-39057;Quel suffixe transforme 'riche' en 'richesse' ?;-esse;-ette;-iste;-age
-39058;Quel suffixe transforme 'doux' en 'doucement' ?;-ment;-ette;-age;-able
-39059;Quel suffixe transforme 'informer' en 'information' ?;-tion;-iste;-age;-ette
-39060;Quel suffixe transforme 'balayer' en 'balayage' ?;-age;-able;-tion;-esse
-39061;Quel suffixe transforme 'danser' en 'danseur' ?;-eur;-iste;-esse;-ette
-39062;Quel suffixe transforme 'fille' en 'fillette' ?;-ette;-eur;-ment;-esse
-39063;Quel suffixe transforme 'cigare' en 'cigarette' ?;-ette;-esse;-age;-iste
-39064;Quel suffixe transforme 'manger' en 'mangeable' ?;-able;-ment;-esse;-tion
-39065;Quel suffixe transforme 'laver' en 'lavable' ?;-able;-age;-eur;-ette
-39066;Quel suffixe transforme 'art' en 'artiste' ?;-iste;-eur;-ment;-age
-39067;Quel accent porte le 'e' dans 'le père' ?;accent grave;aucun accent;accent aigu;accent circonflexe
-39068;Quel accent porte le 'e' dans 'le vélo' ?;accent aigu;aucun accent;accent circonflexe;accent grave
-39069;Quel accent porte le 'e' dans 'la forêt' ?;accent circonflexe;aucun accent;accent aigu;accent grave
-39070;Quel accent porte le 'e' dans 'la fête' ?;accent circonflexe;accent grave;aucun accent;accent aigu
-39071;Quel accent porte le 'e' dans 'le café' ?;accent aigu;aucun accent;accent circonflexe;accent grave
-39072;Quel accent porte le 'e' dans 'la crème' ?;accent grave;aucun accent;accent aigu;accent circonflexe
-39073;Quel accent porte le 'e' dans 'le théâtre' ?;accent circonflexe;aucun accent;accent aigu;accent grave
-39074;Quel accent porte le 'e' dans 'la rivière' ?;accent grave;accent circonflexe;accent aigu;aucun accent
-39075;Quel accent porte le 'e' dans 'le résultat' ?;accent aigu;aucun accent;accent grave;accent circonflexe
-39076;Quel accent porte le 'e' dans 'la scène' ?;accent grave;accent aigu;aucun accent;accent circonflexe
-39077;Quel accent porte le 'e' dans 'le château' ?;accent circonflexe;accent aigu;aucun accent;accent grave
-39078;Quel accent porte le 'e' dans 'la télévision' ?;accent aigu;accent grave;accent circonflexe;aucun accent
-39079;Quel accent porte le 'e' dans 'le frère' ?;accent grave;accent aigu;aucun accent;accent circonflexe
-39080;Quel accent porte le 'e' dans 'le bébé' ?;accent aigu;aucun accent;accent grave;accent circonflexe
-39081;Quel accent porte le 'e' dans 'l'hôpital' ?;accent circonflexe;aucun accent;accent aigu;accent grave
-39082;Quel accent porte le 'e' dans 'le problème' ?;accent grave;accent aigu;accent circonflexe;aucun accent
-39083;Quel accent porte le 'e' dans 'la réponse' ?;accent aigu;accent circonflexe;aucun accent;accent grave
+39030;"Que signifie le préfixe ""re-"" dans ""relire"" ?";lire de nouveau;faire le contraire;le contraire de;voler au-dessus
+39031;"Que signifie le préfixe ""dé-"" dans ""déplier"" ?";plier en sens contraire;voler au-dessus;faire le contraire;faire de nouveau
+39032;"Que signifie le préfixe ""in-"" dans ""incertain"" ?";le contraire de;voir à l'avance;porter à travers;voler au-dessus
+39033;"Que signifie le préfixe ""re-"" dans ""revoir"" ?";voir de nouveau;faire de nouveau;contre le gel;voler au-dessus
+39034;"Que signifie le préfixe ""dé-"" dans ""découdre"" ?";défaire une couture;lire de nouveau;voler au-dessus;porter à travers
+39035;"Que signifie le préfixe ""in-"" dans ""inutile"" ?";le contraire de;lire de nouveau;contre le gel;faire de nouveau
+39036;"Que signifie le préfixe ""re-"" dans ""rejouer"" ?";jouer de nouveau;lire de nouveau;faire de nouveau;contre le gel
+39037;"Que signifie le préfixe ""dé-"" dans ""décoller"" ?";détacher ce qui était collé;lire de nouveau;le contraire de;faire de nouveau
+39038;"Que signifie le préfixe ""im-"" dans ""impoli"" ?";le contraire de;faire de nouveau;contre le gel;lire de nouveau
+39039;"Que signifie le préfixe ""re-"" dans ""recommencer"" ?";commencer de nouveau;faire de nouveau;voler au-dessus;voir à l'avance
+39040;"Que signifie le préfixe ""dé-"" dans ""démonter"" ?";défaire un montage;faire de nouveau;porter à travers;le contraire de
+39041;"Que signifie le préfixe ""mé-"" dans ""mécontent"" ?";le contraire de content;porter à travers;faire de nouveau;voir à l'avance
+39042;"Que signifie le préfixe ""sur-"" dans ""survoler"" ?";voler au-dessus;le contraire de;contre le gel;faire de nouveau
+39043;"Que signifie le préfixe ""sous-"" dans ""souligner"" ?";tirer un trait en dessous;faire de nouveau;porter à travers;contre le gel
+39044;"Que signifie le préfixe ""anti-"" dans ""antigel"" ?";contre le gel;voler au-dessus;faire de nouveau;voir à l'avance
+39045;"Que signifie le préfixe ""pré-"" dans ""prévoir"" ?";voir à l'avance;porter à travers;faire de nouveau;faire le contraire
+39046;"Que signifie le préfixe ""trans-"" dans ""transporter"" ?";porter à travers;voir à l'avance;faire le contraire;faire de nouveau
+39047;"Quel suffixe transforme ""gentil"" en ""gentillesse"" ?";-esse;-tion;-ment;-able
+39048;"Quel suffixe transforme ""lent"" en ""lentement"" ?";-ment;-esse;-ette;-eur
+39049;"Quel suffixe transforme ""nager"" en ""nageur"" ?";-eur;-iste;-tion;-ment
+39050;"Quel suffixe transforme ""inventer"" en ""invention"" ?";-tion;-ette;-iste;-able
+39051;"Quel suffixe transforme ""laver"" en ""lavage"" ?";-age;-tion;-esse;-able
+39052;"Quel suffixe transforme ""chanter"" en ""chanteur"" ?";-eur;-able;-ette;-tion
+39053;"Quel suffixe transforme ""rapide"" en ""rapidement"" ?";-ment;-tion;-esse;-able
+39054;"Quel suffixe transforme ""créer"" en ""création"" ?";-tion;-age;-eur;-esse
+39055;"Quel suffixe transforme ""voler"" en ""voleur"" ?";-eur;-ette;-iste;-esse
+39056;"Quel suffixe transforme ""nettoyer"" en ""nettoyage"" ?";-age;-iste;-esse;-ment
+39057;"Quel suffixe transforme ""riche"" en ""richesse"" ?";-esse;-ette;-iste;-age
+39058;"Quel suffixe transforme ""doux"" en ""doucement"" ?";-ment;-ette;-age;-able
+39059;"Quel suffixe transforme ""informer"" en ""information"" ?";-tion;-iste;-age;-ette
+39060;"Quel suffixe transforme ""balayer"" en ""balayage"" ?";-age;-able;-tion;-esse
+39061;"Quel suffixe transforme ""danser"" en ""danseur"" ?";-eur;-iste;-esse;-ette
+39062;"Quel suffixe transforme ""fille"" en ""fillette"" ?";-ette;-eur;-ment;-esse
+39063;"Quel suffixe transforme ""cigare"" en ""cigarette"" ?";-ette;-esse;-age;-iste
+39064;"Quel suffixe transforme ""manger"" en ""mangeable"" ?";-able;-ment;-esse;-tion
+39065;"Quel suffixe transforme ""laver"" en ""lavable"" ?";-able;-age;-eur;-ette
+39066;"Quel suffixe transforme ""art"" en ""artiste"" ?";-iste;-eur;-ment;-age
+39067;"Quel accent porte le ""e"" dans ""le père"" ?";accent grave;aucun accent;accent aigu;accent circonflexe
+39068;"Quel accent porte le ""e"" dans ""le vélo"" ?";accent aigu;aucun accent;accent circonflexe;accent grave
+39069;"Quel accent porte le ""e"" dans ""la forêt"" ?";accent circonflexe;aucun accent;accent aigu;accent grave
+39070;"Quel accent porte le ""e"" dans ""la fête"" ?";accent circonflexe;accent grave;aucun accent;accent aigu
+39071;"Quel accent porte le ""e"" dans ""le café"" ?";accent aigu;aucun accent;accent circonflexe;accent grave
+39072;"Quel accent porte le ""e"" dans ""la crème"" ?";accent grave;aucun accent;accent aigu;accent circonflexe
+39073;"Quel accent porte le ""e"" dans ""le théâtre"" ?";accent circonflexe;aucun accent;accent aigu;accent grave
+39074;"Quel accent porte le ""e"" dans ""la rivière"" ?";accent grave;accent circonflexe;accent aigu;aucun accent
+39075;"Quel accent porte le ""e"" dans ""le résultat"" ?";accent aigu;aucun accent;accent grave;accent circonflexe
+39076;"Quel accent porte le ""e"" dans ""la scène"" ?";accent grave;accent aigu;aucun accent;accent circonflexe
+39077;"Quel accent porte le ""e"" dans ""le château"" ?";accent circonflexe;accent aigu;aucun accent;accent grave
+39078;"Quel accent porte le ""e"" dans ""la télévision"" ?";accent aigu;accent grave;accent circonflexe;aucun accent
+39079;"Quel accent porte le ""e"" dans ""le frère"" ?";accent grave;accent aigu;aucun accent;accent circonflexe
+39080;"Quel accent porte le ""e"" dans ""le bébé"" ?";accent aigu;aucun accent;accent grave;accent circonflexe
+39081;"Quel accent porte le ""e"" dans ""l'hôpital"" ?";accent circonflexe;aucun accent;accent aigu;accent grave
+39082;"Quel accent porte le ""e"" dans ""le problème"" ?";accent grave;accent aigu;accent circonflexe;aucun accent
+39083;"Quel accent porte le ""e"" dans ""la réponse"" ?";accent aigu;accent circonflexe;aucun accent;accent grave
 39084;Quelle est la bonne orthographe ?;immédiatement;imediatement;immediatemment;immédiatementt
 39085;Quelle est la bonne orthographe ?;développement;developement;develloppement;développementt
 39086;Quelle est la bonne orthographe ?;appartement;apartement;appartemment;appartementt
@@ -132,46 +132,46 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 39093;Quelle est la bonne orthographe ?;gouvernement;gouvernemant;gouvernemment;gouvernementt
 39094;Quelle est la bonne orthographe ?;appareil;apareil;apparreil;appareill
 39095;Quelle est la bonne orthographe ?;accompagner;acompagner;accompagnner;accompagnerr
-39096;Quel accent porte le 'e' dans 'la tempête' ?;accent circonflexe;accent aigu;accent grave;aucun accent
-39097;Quel accent porte le 'e' dans 'le zèbre' ?;accent grave;accent aigu;accent circonflexe;aucun accent
-39098;Quel accent porte le 'e' dans 'la pêche' ?;accent circonflexe;accent grave;aucun accent;accent aigu
-39099;Quel accent porte le 'e' dans 'le collège' ?;accent grave;accent aigu;aucun accent;accent circonflexe
-39100;Quel accent porte le 'e' dans 'la modèle' ?;accent grave;accent circonflexe;accent aigu;aucun accent
-39101;Quel accent porte le 'e' dans 'le modèle' ?;accent grave;accent circonflexe;accent aigu;aucun accent
-39102;Quel accent porte le 'e' dans 'la fièvre' ?;accent grave;aucun accent;accent aigu;accent circonflexe
-39103;Quel accent porte le 'e' dans 'le siège' ?;accent grave;aucun accent;accent circonflexe;accent aigu
-39104;Quel accent porte le 'e' dans 'le manège' ?;accent grave;accent circonflexe;accent aigu;aucun accent
-39105;Quel accent porte le 'e' dans 'la crêpe' ?;accent circonflexe;accent aigu;accent grave;aucun accent
-39106;Quel accent porte le 'e' dans 'le prêtre' ?;accent circonflexe;accent grave;aucun accent;accent aigu
-39107;Quel accent porte le 'e' dans 'la bête' ?;accent circonflexe;accent aigu;aucun accent;accent grave
-39108;Quel accent porte le 'e' dans 'le maître' ?;accent circonflexe;accent grave;aucun accent;accent aigu
-39109;Quel accent porte le 'e' dans 'la tête' ?;accent circonflexe;aucun accent;accent aigu;accent grave
-39110;Quel accent porte le 'e' dans 'l'ancêtre' ?;accent circonflexe;aucun accent;accent aigu;accent grave
-39111;Quel accent porte le 'e' dans 'le poème' ?;accent grave;accent circonflexe;accent aigu;aucun accent
-39112;Quel accent porte le 'e' dans 'le système' ?;accent grave;accent aigu;accent circonflexe;aucun accent
-39113;Quel accent porte le 'e' dans 'la pierre' ?;aucun accent;accent circonflexe;accent grave;accent aigu
-39114;Quel accent porte le 'e' dans 'la lumière' ?;accent grave;accent aigu;aucun accent;accent circonflexe
-39115;Quel accent porte le 'e' dans 'la carrière' ?;accent grave;accent circonflexe;aucun accent;accent aigu
-39116;Quel accent porte le 'e' dans 'la barrière' ?;accent grave;accent circonflexe;accent aigu;aucun accent
-39117;Quel accent porte le 'e' dans 'le repère' ?;accent grave;accent circonflexe;accent aigu;aucun accent
-39118;Quel accent porte le 'e' dans 'la sphère' ?;accent grave;accent aigu;accent circonflexe;aucun accent
-39119;Quel accent porte le 'e' dans 'l'hémisphère' ?;accent grave;aucun accent;accent aigu;accent circonflexe
-39120;Quel accent porte le 'e' dans 'le progrès' ?;accent grave;accent aigu;accent circonflexe;aucun accent
-39121;Quel accent porte le 'e' dans 'le succès' ?;accent grave;accent aigu;aucun accent;accent circonflexe
-39122;Quel accent porte le 'e' dans 'l'accès' ?;accent grave;aucun accent;accent circonflexe;accent aigu
-39123;Quel accent porte le 'e' dans 'le décès' ?;accent aigu;aucun accent;accent grave;accent circonflexe
-39124;Quel accent porte le 'e' dans 'le décor' ?;aucun accent;accent aigu;accent circonflexe;accent grave
-39125;Quel accent porte le 'e' dans 'le décodeur' ?;aucun accent;accent aigu;accent grave;accent circonflexe
-39126;Quel accent porte le 'e' dans 'le résumé' ?;accent aigu;accent circonflexe;aucun accent;accent grave
-39127;Quel accent porte le 'e' dans 'le téléphone' ?;accent aigu;accent grave;aucun accent;accent circonflexe
-39128;Quel accent porte le 'e' dans 'l'éléphant' ?;accent aigu;accent grave;accent circonflexe;aucun accent
-39129;Quel accent porte le 'e' dans 'l'étoile' ?;accent aigu;accent circonflexe;aucun accent;accent grave
-39130;Quel accent porte le 'e' dans 'l'équipe' ?;accent aigu;aucun accent;accent circonflexe;accent grave
-39131;Quel accent porte le 'e' dans 'l'écran' ?;accent aigu;accent grave;accent circonflexe;aucun accent
-39132;Quel accent porte le 'e' dans 'le générique' ?;accent aigu;accent grave;aucun accent;accent circonflexe
-39133;Quel accent porte le 'e' dans 'le mérite' ?;accent aigu;accent circonflexe;accent grave;aucun accent
-39134;Quel accent porte le 'e' dans 'le zéro' ?;accent aigu;aucun accent;accent grave;accent circonflexe
-39135;Quel accent porte le 'e' dans 'le numéro' ?;accent aigu;accent grave;aucun accent;accent circonflexe
+39096;"Quel accent porte le ""e"" dans ""la tempête"" ?";accent circonflexe;accent aigu;accent grave;aucun accent
+39097;"Quel accent porte le ""e"" dans ""le zèbre"" ?";accent grave;accent aigu;accent circonflexe;aucun accent
+39098;"Quel accent porte le ""e"" dans ""la pêche"" ?";accent circonflexe;accent grave;aucun accent;accent aigu
+39099;"Quel accent porte le ""e"" dans ""le collège"" ?";accent grave;accent aigu;aucun accent;accent circonflexe
+39100;"Quel accent porte le ""e"" dans ""la modèle"" ?";accent grave;accent circonflexe;accent aigu;aucun accent
+39101;"Quel accent porte le ""e"" dans ""le modèle"" ?";accent grave;accent circonflexe;accent aigu;aucun accent
+39102;"Quel accent porte le ""e"" dans ""la fièvre"" ?";accent grave;aucun accent;accent aigu;accent circonflexe
+39103;"Quel accent porte le ""e"" dans ""le siège"" ?";accent grave;aucun accent;accent circonflexe;accent aigu
+39104;"Quel accent porte le ""e"" dans ""le manège"" ?";accent grave;accent circonflexe;accent aigu;aucun accent
+39105;"Quel accent porte le ""e"" dans ""la crêpe"" ?";accent circonflexe;accent aigu;accent grave;aucun accent
+39106;"Quel accent porte le ""e"" dans ""le prêtre"" ?";accent circonflexe;accent grave;aucun accent;accent aigu
+39107;"Quel accent porte le ""e"" dans ""la bête"" ?";accent circonflexe;accent aigu;aucun accent;accent grave
+39108;"Quel accent porte le ""e"" dans ""le maître"" ?";accent circonflexe;accent grave;aucun accent;accent aigu
+39109;"Quel accent porte le ""e"" dans ""la tête"" ?";accent circonflexe;aucun accent;accent aigu;accent grave
+39110;"Quel accent porte le ""e"" dans ""l'ancêtre"" ?";accent circonflexe;aucun accent;accent aigu;accent grave
+39111;"Quel accent porte le ""e"" dans ""le poème"" ?";accent grave;accent circonflexe;accent aigu;aucun accent
+39112;"Quel accent porte le ""e"" dans ""le système"" ?";accent grave;accent aigu;accent circonflexe;aucun accent
+39113;"Quel accent porte le ""e"" dans ""la pierre"" ?";aucun accent;accent circonflexe;accent grave;accent aigu
+39114;"Quel accent porte le ""e"" dans ""la lumière"" ?";accent grave;accent aigu;aucun accent;accent circonflexe
+39115;"Quel accent porte le ""e"" dans ""la carrière"" ?";accent grave;accent circonflexe;aucun accent;accent aigu
+39116;"Quel accent porte le ""e"" dans ""la barrière"" ?";accent grave;accent circonflexe;accent aigu;aucun accent
+39117;"Quel accent porte le ""e"" dans ""le repère"" ?";accent grave;accent circonflexe;accent aigu;aucun accent
+39118;"Quel accent porte le ""e"" dans ""la sphère"" ?";accent grave;accent aigu;accent circonflexe;aucun accent
+39119;"Quel accent porte le ""e"" dans ""l'hémisphère"" ?";accent grave;aucun accent;accent aigu;accent circonflexe
+39120;"Quel accent porte le ""e"" dans ""le progrès"" ?";accent grave;accent aigu;accent circonflexe;aucun accent
+39121;"Quel accent porte le ""e"" dans ""le succès"" ?";accent grave;accent aigu;aucun accent;accent circonflexe
+39122;"Quel accent porte le ""e"" dans ""l'accès"" ?";accent grave;aucun accent;accent circonflexe;accent aigu
+39123;"Quel accent porte le ""e"" dans ""le décès"" ?";accent aigu;aucun accent;accent grave;accent circonflexe
+39124;"Quel accent porte le ""e"" dans ""le décor"" ?";aucun accent;accent aigu;accent circonflexe;accent grave
+39125;"Quel accent porte le ""e"" dans ""le décodeur"" ?";aucun accent;accent aigu;accent grave;accent circonflexe
+39126;"Quel accent porte le ""e"" dans ""le résumé"" ?";accent aigu;accent circonflexe;aucun accent;accent grave
+39127;"Quel accent porte le ""e"" dans ""le téléphone"" ?";accent aigu;accent grave;aucun accent;accent circonflexe
+39128;"Quel accent porte le ""e"" dans ""l'éléphant"" ?";accent aigu;accent grave;accent circonflexe;aucun accent
+39129;"Quel accent porte le ""e"" dans ""l'étoile"" ?";accent aigu;accent circonflexe;aucun accent;accent grave
+39130;"Quel accent porte le ""e"" dans ""l'équipe"" ?";accent aigu;aucun accent;accent circonflexe;accent grave
+39131;"Quel accent porte le ""e"" dans ""l'écran"" ?";accent aigu;accent grave;accent circonflexe;aucun accent
+39132;"Quel accent porte le ""e"" dans ""le générique"" ?";accent aigu;accent grave;aucun accent;accent circonflexe
+39133;"Quel accent porte le ""e"" dans ""le mérite"" ?";accent aigu;accent circonflexe;accent grave;aucun accent
+39134;"Quel accent porte le ""e"" dans ""le zéro"" ?";accent aigu;aucun accent;accent grave;accent circonflexe
+39135;"Quel accent porte le ""e"" dans ""le numéro"" ?";accent aigu;accent grave;aucun accent;accent circonflexe
 39136;Quelle est la bonne orthographe ?;appeler;apeler;appeller;appéler
 39137;Quelle est la bonne orthographe ?;attention;atention;attenttion;atténtion
 39138;Quelle est la bonne orthographe ?;balayer;balaier;ballayer;balayér
@@ -208,30 +208,30 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 39169;Quelle est la bonne orthographe ?;million;milion;milllion;millions
 39170;Quelle est la bonne orthographe ?;nettoyer;netoyer;nettoier;néttoyer
 39171;Quelle est la bonne orthographe ?;possible;posible;possibble;possiblé
-39172;Que signifie le préfixe 're-' dans 'reprendre' ?;prendre de nouveau;avant l'histoire;chauffer excessivement;de plusieurs couleurs
-39173;Que signifie le préfixe 're-' dans 'retourner' ?;tourner de nouveau ou en sens inverse;chauffer excessivement;d'une seule couleur;après l'écrit
-39174;Que signifie le préfixe 'dé-' dans 'dénouer' ?;défaire un noeud;contre le vol;avant l'histoire;qui est sous la mer
-39175;Que signifie le préfixe 'in-' dans 'incapable' ?;le contraire de;chauffer excessivement;après l'écrit;défaire un noeud
-39176;Que signifie le préfixe 'im-' dans 'immobile' ?;le contraire de;qui est sous la mer;prendre de nouveau;après l'écrit
-39177;Que signifie le préfixe 'il-' dans 'illisible' ?;le contraire de;prendre de nouveau;tourner de nouveau ou en sens inverse;d'une seule couleur
-39178;Que signifie le préfixe 'ir-' dans 'irréel' ?;le contraire de;tourner de nouveau ou en sens inverse;après l'écrit;prendre de nouveau
-39179;Que signifie le préfixe 'sur-' dans 'surchauffer' ?;chauffer excessivement;prendre de nouveau;à deux roues;le contraire de
-39180;Que signifie le préfixe 'sous-' dans 'sous-marin' ?;qui est sous la mer;défaire un noeud;de plusieurs couleurs;avant l'histoire
-39181;Que signifie le préfixe 'anti-' dans 'antivol' ?;contre le vol;de plusieurs couleurs;qui est sous la mer;à deux roues
-39182;Que signifie le préfixe 'pré-' dans 'préhistoire' ?;avant l'histoire;prendre de nouveau;contre le vol;défaire un noeud
-39183;Que signifie le préfixe 'post-' dans 'post-scriptum' ?;après l'écrit;qui est sous la mer;prendre de nouveau;contre le vol
-39184;Que signifie le préfixe 'multi-' dans 'multicolore' ?;de plusieurs couleurs;chauffer excessivement;avant l'histoire;prendre de nouveau
-39185;Que signifie le préfixe 'mono-' dans 'monocolore' ?;d'une seule couleur;qui est sous la mer;prendre de nouveau;contre le vol
-39186;Que signifie le préfixe 'bi-' dans 'bicyclette' ?;à deux roues;le contraire de;avant l'histoire;tourner de nouveau ou en sens inverse
-39187;Quel suffixe transforme 'boulanger' en 'boulangerie' ?;-erie;-el;-if;-oire
-39188;Quel suffixe transforme 'épicier' en 'épicerie' ?;-erie;-ette;-al;-oire
-39189;Quel suffixe transforme 'fourche' en 'fourchette' ?;-ette;-oire;-el;-al
-39190;Quel suffixe transforme 'laver' en 'lavoir' ?;-oir;-erie;-ette;-if
-39191;Quel suffixe transforme 'obliger' en 'obligatoire' ?;-oire;-el;-eux;-al
-39192;Quel suffixe transforme 'sport' en 'sportif' ?;-if;-oire;-el;-eux
-39193;Quel suffixe transforme 'courage' en 'courageux' ?;-eux;-if;-oir;-ette
-39194;Quel suffixe transforme 'nation' en 'national' ?;-al;-if;-oir;-el
-39195;Quel suffixe transforme 'exception' en 'exceptionnel' ?;-el;-erie;-ette;-oire
+39172;"Que signifie le préfixe ""re-"" dans ""reprendre"" ?";prendre de nouveau;avant l'histoire;chauffer excessivement;de plusieurs couleurs
+39173;"Que signifie le préfixe ""re-"" dans ""retourner"" ?";tourner de nouveau ou en sens inverse;chauffer excessivement;d'une seule couleur;après l'écrit
+39174;"Que signifie le préfixe ""dé-"" dans ""dénouer"" ?";défaire un noeud;contre le vol;avant l'histoire;qui est sous la mer
+39175;"Que signifie le préfixe ""in-"" dans ""incapable"" ?";le contraire de;chauffer excessivement;après l'écrit;défaire un noeud
+39176;"Que signifie le préfixe ""im-"" dans ""immobile"" ?";le contraire de;qui est sous la mer;prendre de nouveau;après l'écrit
+39177;"Que signifie le préfixe ""il-"" dans ""illisible"" ?";le contraire de;prendre de nouveau;tourner de nouveau ou en sens inverse;d'une seule couleur
+39178;"Que signifie le préfixe ""ir-"" dans ""irréel"" ?";le contraire de;tourner de nouveau ou en sens inverse;après l'écrit;prendre de nouveau
+39179;"Que signifie le préfixe ""sur-"" dans ""surchauffer"" ?";chauffer excessivement;prendre de nouveau;à deux roues;le contraire de
+39180;"Que signifie le préfixe ""sous-"" dans ""sous-marin"" ?";qui est sous la mer;défaire un noeud;de plusieurs couleurs;avant l'histoire
+39181;"Que signifie le préfixe ""anti-"" dans ""antivol"" ?";contre le vol;de plusieurs couleurs;qui est sous la mer;à deux roues
+39182;"Que signifie le préfixe ""pré-"" dans ""préhistoire"" ?";avant l'histoire;prendre de nouveau;contre le vol;défaire un noeud
+39183;"Que signifie le préfixe ""post-"" dans ""post-scriptum"" ?";après l'écrit;qui est sous la mer;prendre de nouveau;contre le vol
+39184;"Que signifie le préfixe ""multi-"" dans ""multicolore"" ?";de plusieurs couleurs;chauffer excessivement;avant l'histoire;prendre de nouveau
+39185;"Que signifie le préfixe ""mono-"" dans ""monocolore"" ?";d'une seule couleur;qui est sous la mer;prendre de nouveau;contre le vol
+39186;"Que signifie le préfixe ""bi-"" dans ""bicyclette"" ?";à deux roues;le contraire de;avant l'histoire;tourner de nouveau ou en sens inverse
+39187;"Quel suffixe transforme ""boulanger"" en ""boulangerie"" ?";-erie;-el;-if;-oire
+39188;"Quel suffixe transforme ""épicier"" en ""épicerie"" ?";-erie;-ette;-al;-oire
+39189;"Quel suffixe transforme ""fourche"" en ""fourchette"" ?";-ette;-oire;-el;-al
+39190;"Quel suffixe transforme ""laver"" en ""lavoir"" ?";-oir;-erie;-ette;-if
+39191;"Quel suffixe transforme ""obliger"" en ""obligatoire"" ?";-oire;-el;-eux;-al
+39192;"Quel suffixe transforme ""sport"" en ""sportif"" ?";-if;-oire;-el;-eux
+39193;"Quel suffixe transforme ""courage"" en ""courageux"" ?";-eux;-if;-oir;-ette
+39194;"Quel suffixe transforme ""nation"" en ""national"" ?";-al;-if;-oir;-el
+39195;"Quel suffixe transforme ""exception"" en ""exceptionnel"" ?";-el;-erie;-ette;-oire
 39196;Marie se demande ___ le train va arriver.;quand;quant;qu'en;lorsque
 39197;Paul se demande ___ le train va arriver.;quand;quant;qu'en;lorsque
 39198;Léo se demande ___ le train va arriver.;quand;quant;qu'en;lorsque
@@ -699,45 +699,45 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 39660;Quelle est la bonne orthographe ?;habitude;habitudee;hàbitude;habitued
 39661;Quelle est la bonne orthographe ?;extraction;extractiion;éxtraction;extractino
 39662;Quelle est la bonne orthographe ?;habitude;habituude;hàbitude;habitued
-39663;Que signifie le préfixe 'mono-' dans 'monoplace' ?;une seule;plusieurs;après;avant
-39664;Que signifie le préfixe 'post-' dans 'postdater' ?;après;à travers;avant;en dessous de
-39665;Que signifie le préfixe 'dé-' dans 'dévisser' ?;le contraire de;deux;plusieurs;en dessous de
-39666;Que signifie le préfixe 'im-' dans 'imparfait' ?;le contraire de;une seule;contre;deux
-39667;Que signifie le préfixe 'il-' dans 'illégal' ?;le contraire de;une seule;contre;plusieurs
-39668;Que signifie le préfixe 'trans-' dans 'transatlantique' ?;à travers;une seule;en dessous de;de nouveau
-39669;Que signifie le préfixe 'sous-' dans 'souterrain' ?;en dessous de;une seule;avant;de nouveau
-39670;Que signifie le préfixe 'sur-' dans 'surcharger' ?;en trop;contre;deux;une seule
-39671;Que signifie le préfixe 'in-' dans 'inconnu' ?;le contraire de;à travers;de nouveau;plusieurs
-39672;Quel suffixe transforme 'juste' en 'justice' ?;-ice;-ette;-age;-al
-39673;Quel suffixe transforme 'beau' en 'beauté' ?;-té;-ité;-if;-iste
-39674;Quel suffixe transforme 'jardin' en 'jardinage' ?;-age;-eur;-al;-ice
-39675;Quel suffixe transforme 'aimer' en 'aimable' ?;-able;-ette;-oire;-té
-39676;Quel suffixe transforme 'laid' en 'laideur' ?;-eur;-oire;-isme;-esse
-39677;Quel suffixe transforme 'propre' en 'propreté' ?;-té;-eur;-ice;-oire
-39678;Quel suffixe transforme 'réparer' en 'réparable' ?;-able;-ité;-al;-age
-39679;Quel suffixe transforme 'nettoyer' en 'nettoyable' ?;-able;-al;-ice;-ité
-39680;Quel suffixe transforme 'vendre' en 'vendable' ?;-able;-age;-al;-iste
-39681;Quel suffixe transforme 'dent' en 'dentiste' ?;-iste;-age;-té;-ité
-39682;Quel suffixe transforme 'pur' en 'pureté' ?;-té;-able;-ité;-ice
-39683;Quel suffixe transforme 'doux' en 'douceur' ?;-eur;-té;-able;-age
-39684;Quel suffixe transforme 'simple' en 'simplicité' ?;-ité;-té;-eur;-age
-39685;Quel suffixe transforme 'national' en 'nationalisme' ?;-isme;-ette;-eur;-oire
-39686;Quel accent porte le 'e' dans 'la générosité' ?;accent aigu;accent circonflexe;aucun accent;accent grave
-39687;Quel accent porte le 'e' dans 'le livre' ?;aucun accent;accent circonflexe;accent grave;accent aigu
-39688;Quel accent porte le 'e' dans 'l'énergie' ?;accent aigu;accent grave;accent circonflexe;aucun accent
-39689;Quel accent porte le 'e' dans 'la classe' ?;aucun accent;accent circonflexe;accent grave;accent aigu
-39690;Quel accent porte le 'e' dans 'la porte' ?;aucun accent;accent aigu;accent circonflexe;accent grave
-39691;Quel accent porte le 'e' dans 'le référé' ?;accent aigu;aucun accent;accent grave;accent circonflexe
-39692;Quel accent porte le 'e' dans 'l'âge' ?;accent circonflexe;aucun accent;accent grave;accent aigu
-39693;Quel accent porte le 'e' dans 'le début' ?;accent aigu;accent grave;accent circonflexe;aucun accent
-39694;Quel accent porte le 'e' dans 'la table' ?;aucun accent;accent aigu;accent grave;accent circonflexe
-39695;Quel accent porte le 'e' dans 'la sévérité' ?;accent aigu;accent grave;accent circonflexe;aucun accent
-39696;Quel accent porte le 'e' dans 'le sac' ?;aucun accent;accent aigu;accent grave;accent circonflexe
-39697;Quel accent porte le 'e' dans 'la sécurité' ?;accent aigu;accent grave;aucun accent;accent circonflexe
-39698;Quel accent porte le 'e' dans 'la vérité' ?;accent aigu;aucun accent;accent circonflexe;accent grave
-39699;Quel accent porte le 'e' dans 'le stylo' ?;aucun accent;accent grave;accent aigu;accent circonflexe
-39700;Quel accent porte le 'e' dans 'le mémoire' ?;accent aigu;accent grave;accent circonflexe;aucun accent
-39701;Quel accent porte le 'e' dans 'la boîte' ?;accent circonflexe;accent aigu;accent grave;aucun accent
+39663;"Que signifie le préfixe ""mono-"" dans ""monoplace"" ?";une seule;plusieurs;après;avant
+39664;"Que signifie le préfixe ""post-"" dans ""postdater"" ?";après;à travers;avant;en dessous de
+39665;"Que signifie le préfixe ""dé-"" dans ""dévisser"" ?";le contraire de;deux;plusieurs;en dessous de
+39666;"Que signifie le préfixe ""im-"" dans ""imparfait"" ?";le contraire de;une seule;contre;deux
+39667;"Que signifie le préfixe ""il-"" dans ""illégal"" ?";le contraire de;une seule;contre;plusieurs
+39668;"Que signifie le préfixe ""trans-"" dans ""transatlantique"" ?";à travers;une seule;en dessous de;de nouveau
+39669;"Que signifie le préfixe ""sous-"" dans ""souterrain"" ?";en dessous de;une seule;avant;de nouveau
+39670;"Que signifie le préfixe ""sur-"" dans ""surcharger"" ?";en trop;contre;deux;une seule
+39671;"Que signifie le préfixe ""in-"" dans ""inconnu"" ?";le contraire de;à travers;de nouveau;plusieurs
+39672;"Quel suffixe transforme ""juste"" en ""justice"" ?";-ice;-ette;-age;-al
+39673;"Quel suffixe transforme ""beau"" en ""beauté"" ?";-té;-ité;-if;-iste
+39674;"Quel suffixe transforme ""jardin"" en ""jardinage"" ?";-age;-eur;-al;-ice
+39675;"Quel suffixe transforme ""aimer"" en ""aimable"" ?";-able;-ette;-oire;-té
+39676;"Quel suffixe transforme ""laid"" en ""laideur"" ?";-eur;-oire;-isme;-esse
+39677;"Quel suffixe transforme ""propre"" en ""propreté"" ?";-té;-eur;-ice;-oire
+39678;"Quel suffixe transforme ""réparer"" en ""réparable"" ?";-able;-ité;-al;-age
+39679;"Quel suffixe transforme ""nettoyer"" en ""nettoyable"" ?";-able;-al;-ice;-ité
+39680;"Quel suffixe transforme ""vendre"" en ""vendable"" ?";-able;-age;-al;-iste
+39681;"Quel suffixe transforme ""dent"" en ""dentiste"" ?";-iste;-age;-té;-ité
+39682;"Quel suffixe transforme ""pur"" en ""pureté"" ?";-té;-able;-ité;-ice
+39683;"Quel suffixe transforme ""doux"" en ""douceur"" ?";-eur;-té;-able;-age
+39684;"Quel suffixe transforme ""simple"" en ""simplicité"" ?";-ité;-té;-eur;-age
+39685;"Quel suffixe transforme ""national"" en ""nationalisme"" ?";-isme;-ette;-eur;-oire
+39686;"Quel accent porte le ""e"" dans ""la générosité"" ?";accent aigu;accent circonflexe;aucun accent;accent grave
+39687;"Quel accent porte le ""e"" dans ""le livre"" ?";aucun accent;accent circonflexe;accent grave;accent aigu
+39688;"Quel accent porte le ""e"" dans ""l'énergie"" ?";accent aigu;accent grave;accent circonflexe;aucun accent
+39689;"Quel accent porte le ""e"" dans ""la classe"" ?";aucun accent;accent circonflexe;accent grave;accent aigu
+39690;"Quel accent porte le ""e"" dans ""la porte"" ?";aucun accent;accent aigu;accent circonflexe;accent grave
+39691;"Quel accent porte le ""e"" dans ""le référé"" ?";accent aigu;aucun accent;accent grave;accent circonflexe
+39692;"Quel accent porte le ""e"" dans ""l'âge"" ?";accent circonflexe;aucun accent;accent grave;accent aigu
+39693;"Quel accent porte le ""e"" dans ""le début"" ?";accent aigu;accent grave;accent circonflexe;aucun accent
+39694;"Quel accent porte le ""e"" dans ""la table"" ?";aucun accent;accent aigu;accent grave;accent circonflexe
+39695;"Quel accent porte le ""e"" dans ""la sévérité"" ?";accent aigu;accent grave;accent circonflexe;aucun accent
+39696;"Quel accent porte le ""e"" dans ""le sac"" ?";aucun accent;accent aigu;accent grave;accent circonflexe
+39697;"Quel accent porte le ""e"" dans ""la sécurité"" ?";accent aigu;accent grave;aucun accent;accent circonflexe
+39698;"Quel accent porte le ""e"" dans ""la vérité"" ?";accent aigu;aucun accent;accent circonflexe;accent grave
+39699;"Quel accent porte le ""e"" dans ""le stylo"" ?";aucun accent;accent grave;accent aigu;accent circonflexe
+39700;"Quel accent porte le ""e"" dans ""le mémoire"" ?";accent aigu;accent grave;accent circonflexe;aucun accent
+39701;"Quel accent porte le ""e"" dans ""la boîte"" ?";accent circonflexe;accent aigu;accent grave;aucun accent
 39702;___ es-tu revenu ?;Quand;Quant;Qu'en;Kan
 39703;___ à elle, elle est d'accord.;Quant;Quand;Qu'en;Kan
 39704;Je me demande ___ tu penses.;qu'en;quand;quant;kan
