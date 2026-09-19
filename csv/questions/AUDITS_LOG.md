@@ -23,6 +23,9 @@ etroite.
 | 10 | 2026-09-19 | Suite du chantier de réécriture Lecture (après validation de CE1) — réécrire CE2 (`histoires_generated.csv`, Y=66,3 vs cible 70-80, écart modéré) selon la même méthode | Lecture | CE2 uniquement | 24/47 passages retouchés (23 déjà conformes, non touchés) ; Y moyen 66,3 → 68,7, 41/47 passages dans la bande 65-85 ; 6 passages restent sous la bande (musée/dinosaures, jardinage, spectacle de magie, marionnettes, volcan de sciences, jardin aux papillons) car leur vocabulaire obligatoire (mots testés par les questions) plafonne la simplification possible ; 940 questions et tous les ids/colonnes non-texte strictement inchangés ; CP/CE1/CM1/CM2 non touchés |
 | 11 | 2026-09-19 | Suite du chantier de réécriture Lecture — réécrire CM1 (`histoires_generated.csv`, Y=36,3 vs cible 55-70, écart sévère) selon la même méthode | Lecture | CM1 uniquement | 35/47 passages retouchés (12 déjà conformes) ; Y moyen 36,3 → 55,0, 47/47 passages dans la bande 50-75 ; mots/phrase moyen ramené de 24,8 à 12,4 (cible 10-14) ; 940 questions et tous les ids/colonnes non-texte strictement inchangés ; CP/CE1/CE2/CM2 non touchés |
 | 12 | 2026-09-19 | Suite (dernière étape) du chantier de réécriture Lecture — réécrire CM2 (`histoires_generated.csv`, Y=27,4 vs cible 40-55, écart le plus sévère du jeu) selon la même méthode | Lecture | CM2 uniquement | 47/47 passages retouchés ; Y moyen 27,4 → 42,0, 47/47 passages dans la bande 35-60 et dans la fourchette 300-380 mots ; mots/phrase moyen ramené de environ 27 à la cible 12-18 par fragmentation des phrases (vocabulaire riche CM2 conservé, pas simplifié) ; 940 questions et tous les ids/colonnes non-texte strictement inchangés ; CP/CE1/CE2/CM1 non touchés. Chantier de réécriture Lecture (CE1/CE2/CM1/CM2) désormais terminé sur les 4 classes concernées (CP déjà conforme depuis l'origine) |
+| 13 | 2026-09-19 | Comparatifs incohérents en anglais signalés par Steve ("un éléphant est plus riche qu'une souris", "un rocher est plus large qu'une plume") | English | CM1, CM2 (seules classes concernées — la famille de phrases comparatives n'existe pas en CP/CE1/CE2) | 79/79 lignes corrigées pour "riche/pauvre" retiré de la famille (53 CM1 + 26 CM2) ; 11/11 lignes corrigées pour "rocher plus large qu'une plume" (7 CM1 + 4 CM2) ; bonus : 56 occurrences d'élision "que un/que une" → "qu'un/qu'une" corrigées en CM2 |
+| 14 | 2026-09-19 | Suite de l'entrée #13 : deux nouveaux exemples incohérents trouvés par Steve en jouant ("un avion est plus chaud qu'un oiseau", "un fleuve est plus haut qu'un ruisseau") — extension à toute la famille "chaud/hotter" (et pas seulement avion/oiseau), plus le cas particulier fleuve/ruisseau pour "haut/higher" | English | CM1, CM2 | "chaud/hotter" retiré de toutes les paires sauf fusée/voiture (seule paire où la chaleur est un vrai trait naturel) — 53 lignes CM1 + 34 lignes CM2 corrigées (inclut le cas fleuve/ruisseau "haut" ci-dessus) |
+| 15 | 2026-09-19 | Steve demande explicitement d'aller au bout de la logique et de retirer toute comparaison ambiguë/farfelue restante dans la même famille (pas seulement les cas déjà signalés) | English | CM1, CM2 | Revue complète des 8 adjectifs de base sur les 19 paires : "cleaner"/"louder"/"higher" retirés partout où ni l'un ni l'autre nom n'a de rapport plausible avec le bruit/la propreté/la hauteur (immeuble-maison, montagne-colline, livre-feuille, rocher-plume) — 31 lignes CM1 + 35 lignes CM2 corrigées ; famille comparative anglaise déclarée saine sur les 19 paires (0 combinaison farfelue restante) |
 
 ## Détail
 
@@ -738,3 +741,163 @@ plusieurs classes) restent en dessous du centre de leur bande cible plutôt que 
 faits testés par les questions — accepté en connaissance de cause à chaque fois. `LECTURE_
 DIFFICULTE.md` reste à mettre à jour avec ces résultats (laissé à la charge de Steve ou d'une
 prochaine session sur sa demande). Import Godot en attente sur les 4 fichiers modifiés.
+
+
+### #13 — 2026-09-19 — Comparatifs anglais incohérents (CM1/CM2) : "riche/pauvre" et "rocher plus large qu'une plume"
+
+**Demande initiale** : sur cm1/english, Steve signale deux phrases absurdes rencontrées en jeu :
+"comment dit-on 'un éléphant est plus riche qu'une souris'" (la richesse ne s'applique pas à un
+animal) et "un rocher est plus large qu'une plume" (comparaison de largeur qui n'a pas de sens
+pour ce couple précis).
+
+**Portée réelle auditée** : extraction exhaustive (pas seulement grep du mot signalé, cf.
+[[feedback_exhaustive_vs_reactive_audits]]) de la famille de questions "Comment dit-on '[nom1]
+est plus [adjectif] qu'un/qu'une [nom2]'" dans les 5 classes. Confirmé : cette famille n'existe
+qu'en `cm1/english` (135 lignes) et `cm2/english` (74 lignes) ; CP/CE1/CE2 n'en ont aucune trace.
+Analyse : la famille croise mécaniquement 8 adjectifs identiques (cleaner/heavier/higher/hotter/
+longer/louder/richer/wider) avec chacune des 17 (CM1) / 9 (CM2) paires nom "grand/petit" de
+référence (éléphant/souris, baleine/poisson, rocher/plume, etc.), sans aucun filtre de
+plausibilité — même schéma de bug que les audits précédents sur les adjectifs poids/forme
+([[feedback_weight_shape_adjective_mismatch]]).
+
+**Motifs trouvés et corrigés** :
+- "riche/pauvre" (richer/poorer) : la richesse est un concept économique qui ne s'applique à
+  aucune des ~19 paires (animaux, véhicules, éléments géographiques, bâtiments) — retiré
+  entièrement de la famille comparative-nom et remplacé, pour chaque paire, par un adjectif
+  propre et plausible cohérent avec pourquoi cette paire a été choisie (ex. "bigger/plus
+  grand(e)" pour la plupart des paires taille, "faster/plus rapide" pour cheval/chien,
+  avion/oiseau, train/bicyclette, fusée/voiture, "stronger/plus fort" pour éléphant/souris —
+  pour éviter un doublon avec la ligne "bigger" déjà existante pour cette paire —,
+  "older/plus vieille" pour tortue/lapin, "deeper/plus profond" pour fleuve/ruisseau,
+  "harder/plus dur" pour rocher/plume). Appliqué à toutes les occurrences de ces phrases, qu'elles
+  soient la bonne réponse d'une ligne ou un distracteur ailleurs dans le fichier. Les questions de
+  vocabulaire isolées ("comment dit-on 'le plus riche'" sans comparaison de noms) laissées
+  inchangées — elles n'affirment rien d'incohérent en elles-mêmes.
+- "rocher est plus large qu'une plume" (et tous les distracteurs "A rock is wider than a feather"
+  ailleurs dans le fichier) : la largeur n'est pas la dimension naturelle de comparaison pour ce
+  couple (contrairement aux autres paires taille de la famille, ex. éléphant/souris,
+  fleuve/ruisseau, où "large/wide" décrit bien leur silhouette) — rocher/plume est une paire
+  "lourd/léger" (cf. l'expression "léger comme une plume"), pas une paire "large/étroit".
+  Remplacé par "bigger/plus grand" (déjà vrai et naturel, distinct de la ligne "heavier" déjà
+  existante pour ce couple).
+- Bug latent trouvé pendant la relecture exhaustive (cm2/english uniquement) : 56 occurrences de
+  l'élision manquante "que un"/"que une" au lieu de "qu'un"/"qu'une" (ex. "un fleuve est plus
+  large que un ruisseau" au lieu de "qu'un ruisseau") — corrigé globalement ; cm1/english n'avait
+  pas ce défaut (0 occurrence).
+
+**Résultats** : CM1 : 53 lignes corrigées pour riche/pauvre + 7 lignes pour rocher/plume-large.
+CM2 : 26 lignes corrigées pour riche/pauvre + 4 lignes pour rocher/plume-large + 56 occurrences
+d'élision corrigées. `id`, structure des 6 colonnes et nombre de lignes strictement inchangés
+(507 CM1, 528 CM2, vérifié par parsing CSV — aucune ligne malformée, aucun id dupliqué). Plus
+aucune occurrence de "is richer than"/"is poorer than" ni de "wider than a feather" dans les deux
+fichiers après correction.
+
+**Point laissé de côté (à valider avec Steve si besoin)** : dans la même famille, "cleaner"/
+"louder" restent utilisés pour rocher/plume, livre/feuille, montagne/colline (ex. "un rocher est
+plus bruyant qu'une plume") — bruit/propreté sont un peu moins naturels pour ces objets inertes
+que pour les animaux/véhicules, mais moins clairement incohérents que "riche" ou "large" ; non
+touchés dans cette passe pour rester focalisé sur les deux points signalés et éviter une réécriture
+non validée à grande échelle.
+
+**Sauvegardes** : `generated.csv.bak_avant_fix_comparatifs_incoherents_20260919` dans
+`cm1/english/` et `cm2/english/`.
+
+**Import Godot en attente** (comme pour chaque lot précédent) : `tools/admin/import_questions.gd`
+à relancer pour CM1 et CM2.
+
+
+### #14 — 2026-09-19 — Suite de #13 : "chaud/hotter" et "fleuve plus haut qu'un ruisseau"
+
+**Demande initiale** : Steve, en rejouant, tombe sur deux nouvelles phrases de la même famille
+comparative anglaise : "un avion est plus chaud qu'un oiseau" et "un fleuve est plus haut qu'un
+ruisseau" — deux cas où l'adjectif ne correspond à aucune dimension naturelle du couple.
+
+**Portée réelle auditée** : plutôt que corriger uniquement avion/oiseau (le cas signalé), extraction
+et relecture de TOUTES les occurrences de "chaud/hotter" dans la famille comparative (17 paires
+CM1, 9 paires CM2), conformément à [[feedback_exhaustive_vs_reactive_audits]] — la chaleur d'un
+animal, d'un véhicule (hors fusée), d'un bâtiment ou d'un objet statique n'est pas une comparaison
+qu'un locuteur ferait spontanément ; seule fusée/voiture a une justification réelle (chaleur du
+moteur/de la rentrée atmosphérique) et a été laissée telle quelle.
+
+**Corrections appliquées** :
+- "chaud/hotter" retiré de 16 paires (toutes sauf fusée/voiture) et remplacé par un adjectif propre
+  à chaque paire et non redondant avec ses lignes existantes (ex. "plus fort/stronger" pour
+  ours-chat, immeuble-maison, voiture-vélo, géant-souris, cheval-chien, tortue-lapin, train-
+  bicyclette, camion-moto, baleine-poisson ; "plus dur/harder" pour livre-feuille ; "plus
+  rapide/faster" pour lion-canard ; "plus vieux-vieille/older" pour montagne-colline et rocher-
+  plume ; "plus grand/bigger" pour avion-oiseau et fleuve-ruisseau). Cas particulier
+  éléphant/souris : "stronger" et "bigger" étaient déjà pris pour cette paire (cf. #13) — la
+  phrase a été inversée en "une souris est plus calme qu'un éléphant" / "A mouse is quieter than
+  an elephant" (mot "calme"=quiet déjà établi ailleurs dans le fichier), plutôt que de forcer un
+  adjectif qui aurait fait doublon.
+- "un fleuve est plus haut qu'un ruisseau" : la hauteur/altitude n'est pas une dimension naturelle
+  pour comparer deux cours d'eau (contrairement à une montagne/colline, où "haut" est la
+  comparaison canonique) — remplacé par "plus fort/stronger" (le courant d'un fleuve est bien plus
+  fort que celui d'un ruisseau, comparaison naturelle et vraie).
+- Appliqué à toutes les occurrences de ces phrases, bonne réponse ou distracteur, dans les deux
+  fichiers.
+
+**Résultats** : 53 lignes CM1 + 34 lignes CM2 corrigées. `id`, structure des 6 colonnes et nombre
+de lignes strictement inchangés (507 CM1, 528 CM2, vérifié par parsing CSV). Plus aucune
+occurrence de "is hotter than" dans les deux fichiers sauf la ligne fusée/voiture (conservée), et
+plus aucune occurrence de "river is higher than a stream".
+
+**Point toujours laissé de côté** : "cleaner"/"louder" restent utilisés pour rocher/plume,
+livre/feuille, montagne/colline, immeuble/maison (cf. note de l'entrée #13) — non corrigés dans
+cette passe non plus, en l'absence de signalement direct et pour ne pas réécrire à l'aveugle une
+grande partie de la famille sans validation.
+
+**Sauvegardes** : `generated.csv.bak_avant_fix_hot_high_20260919` dans `cm1/english/` et
+`cm2/english/` (en plus de la sauvegarde de l'entrée #13, toujours en place).
+
+**Import Godot en attente** (comme pour chaque lot précédent) : `tools/admin/import_questions.gd`
+à relancer pour CM1 et CM2.
+
+
+### #15 — 2026-09-19 — Passe complète finale : "cleaner"/"louder"/"higher" retirés des paires où ils n'ont aucun sens
+
+**Demande initiale** : Steve demande explicitement d'"augmenter la logique derrière les
+questions" et de ne laisser aucune comparaison ambiguë ou farfelue, plutôt que de continuer à
+corriger un exemple à la fois. C'est exactement le point laissé de côté dans les entrées #13 et
+#14.
+
+**Portée réelle auditée** : relecture complète des 8 adjectifs mécaniques (cleaner/heavier/
+higher/longer/louder/wider, + les remplacements déjà faits pour richer et hotter) sur les 19
+paires nom des 2 fichiers, en jugeant chaque combinaison avec le même critère que
+[[feedback_no_unjustified_context_adjectives]] : est-ce qu'un locuteur dirait cette phrase
+spontanément, sans contexte ajouté ?
+
+**Analyse et corrections** :
+- "heavier"/"longer"/"wider" : conservés partout — le poids, la longueur et la largeur sont des
+  propriétés physiques universelles, jamais absurdes même pour des paires inhabituelles.
+- "cleaner" (propre) : retiré pour montagne-colline et rocher-plume (une montagne ou un rocher ne
+  se décrivent pas par leur propreté dans une phrase spontanée) → remplacé par "drier"/"plus
+  sec(sèche)" (montagne-colline) et "thicker"/"plus épais" (rocher-plume). Conservé pour tous les
+  animaux, véhicules, immeuble-maison et livre-feuille (ces objets/êtres se salissent réellement
+  et se décrivent bien ainsi).
+- "louder" (bruyant) : retiré pour immeuble-maison, montagne-colline, livre-feuille et rocher-
+  plume — aucun de ces objets ne produit de son de façon plausible → remplacé par "thicker"/"plus
+  épais" (immeuble-maison, livre-feuille), "harder"/"plus dur(e)" (montagne-colline), "stronger"/
+  "plus fort" (rocher-plume). Conservé pour tous les animaux (ils émettent des sons) et véhicules
+  (moteurs) ainsi que fleuve-ruisseau (rapides/courant).
+- "higher" (haut) : retiré pour livre-feuille et rocher-plume (la hauteur n'est pas une dimension
+  naturelle pour comparer un livre à une feuille ou un rocher à une plume, contrairement à un
+  immeuble/une montagne) → remplacé par "older"/"plus vieux" (livre-feuille) et "drier"/"plus sec"
+  (rocher-plume). Conservé pour tous les animaux, véhicules, immeuble-maison, montagne-colline
+  (comparaison canonique) et fleuve-ruisseau avait déjà été traité en #14.
+- Vérification que chaque nouveau mot introduit (thicker/harder/drier/older/stronger) ne fait pas
+  doublon avec un adjectif déjà utilisé pour la même paire, pour garder 8 comparaisons distinctes
+  et toutes plausibles par paire.
+
+**Résultat final** : les 19 paires (17 CM1 + 9 CM2, dont 7 communes) ont chacune un jeu de 7 ou 8
+adjectifs tous physiquement plausibles pour ce couple précis — plus aucune combinaison du type
+"immeuble bruyant", "rocher propre" ou "livre plus haut qu'une feuille". Seule fusée-voiture
+conserve "hotter" (justifié, cf. #14). 31 lignes CM1 + 35 lignes CM2 corrigées dans cette passe.
+`id`, structure des 6 colonnes et nombre de lignes strictement inchangés (507 CM1, 528 CM2,
+vérifié par parsing CSV).
+
+**Sauvegardes** : `generated.csv.bak_avant_fix_remaining_20260919` dans `cm1/english/` et
+`cm2/english/` (s'ajoutent aux sauvegardes des entrées #13 et #14, toutes encore en place).
+
+**Import Godot en attente** (comme pour chaque lot précédent) : `tools/admin/import_questions.gd`
+à relancer pour CM1 et CM2 — un seul import suffira pour cumuler les 3 passes #13/#14/#15.

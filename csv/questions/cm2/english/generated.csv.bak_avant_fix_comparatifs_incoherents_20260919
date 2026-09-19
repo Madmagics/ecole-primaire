@@ -1,7 +1,7 @@
 id;text;correct_answer;choice_2;choice_3;choice_4
 22000;"Comment dit-on ""j'ai fait de la gymnastique le week-end dernier"" en anglais ?";I did gymnastics last weekend;I did volleyball last weekend;I did rugby last weekend;I did tennis last weekend
 22001;"Que veut dire ""cleanest"" en français ?";le plus propre;le plus riche;le plus chaud;le plus lourd
-22002;"Comment dit-on ""un fleuve est plus large qu'un ruisseau"" en anglais ?";A river is wider than a stream;A truck is longer than a motorbike;A mountain is drier than a hill;A rock is bigger than a feather
+22002;"Comment dit-on ""un fleuve est plus large que un ruisseau"" en anglais ?";A river is wider than a stream;A truck is longer than a motorbike;A mountain is cleaner than a hill;A rock is wider than a feather
 22003;"Comment dit-on ""j'ai choisi"" en anglais ?";I chose;I sent;I drove;I broke
 22004;"Comment dit-on ""je suis tombé"" en anglais ?";I fell;I thought;I chose;I flew
 22005;"Comment dit-on ""j'ai porté des chaussettes hier"" en anglais ?";I wore socks yesterday;I wore a tie yesterday;I wore a coat yesterday;I wore a dress yesterday
@@ -10,12 +10,12 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 22008;"Comment dit-on ""j'ai rencontré un mécanicien hier"" en anglais ?";I met a mechanic yesterday;I met a journalist yesterday;I met a butcher yesterday;I met a pilot yesterday
 22009;"Comment dit-on ""camion"" en anglais ?";truck;boat;bus;plane
 22010;"Comment dit-on ""j'ai porté des chaussures hier"" en anglais ?";I wore shoes yesterday;I wore socks yesterday;I wore a coat yesterday;I wore gloves yesterday
-22011;"Comment dit-on ""un camion est plus grand qu'une moto"" en anglais ?";A truck is bigger than a motorbike;A building is stronger than a house;A train is higher than a bicycle;A plane is louder than a bird
+22011;"Comment dit-on ""un camion est plus riche que une moto"" en anglais ?";A truck is richer than a motorbike;A building is hotter than a house;A train is higher than a bicycle;A plane is louder than a bird
 22012;"Que veut dire ""noon"" en français ?";midi;hier;aujourd'hui;matin
 22013;"Comment dit-on ""parfois, je fais mes devoirs"" en anglais ?";I sometimes do my homework;I never wash my hands;I never do my homework;I often do sport
 22014;"Comment dit-on ""j'ai rencontré un avocat hier"" en anglais ?";I met a lawyer yesterday;I met a butcher yesterday;I met a driver yesterday;I met a baker yesterday
 22015;"Comment dit-on ""moins riche que"" en anglais ?";less rich than;less wide than;less heavy than;heaviest
-22016;"Comment dit-on ""un train est plus long qu'une bicyclette"" en anglais ?";A train is longer than a bicycle;A mountain is harder than a hill;A truck is bigger than a motorbike;A plane is longer than a bird
+22016;"Comment dit-on ""un train est plus long que une bicyclette"" en anglais ?";A train is longer than a bicycle;A mountain is louder than a hill;A truck is richer than a motorbike;A plane is longer than a bird
 22017;"Comment dit-on ""j'ai vu un lézard au zoo"" en anglais ?";I saw a lizard at the zoo;I saw a peacock at the zoo;I saw an eagle at the zoo;I saw a swan at the zoo
 22018;"Comment dit-on ""j'ai vu un cygne au zoo"" en anglais ?";I saw a swan at the zoo;I saw a crocodile at the zoo;I saw an eagle at the zoo;I saw a seal at the zoo
 22019;"Comment dit-on ""j'ai fermé la fenêtre"" en anglais ?";I closed the window;I found a treasure;I broke my toy;I broke a plate
@@ -26,7 +26,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 22024;"Comment dit-on ""jamais, je me lave les mains"" en anglais ?";I never wash my hands;I often do my homework;I sometimes drink water;I often do sport
 22025;"Comment dit-on ""hier"" en anglais ?";yesterday;afternoon;morning;night
 22026;"Comment dit-on ""j'ai rencontré un chauffeur hier"" en anglais ?";I met a driver yesterday;I met a pilot yesterday;I met an electrician yesterday;I met an architect yesterday
-22027;"Comment dit-on ""un train est plus bruyant qu'une bicyclette"" en anglais ?";A train is louder than a bicycle;A river is stronger than a stream;A truck is higher than a motorbike;A plane is cleaner than a bird
+22027;"Comment dit-on ""un train est plus bruyant que une bicyclette"" en anglais ?";A train is louder than a bicycle;A river is higher than a stream;A truck is higher than a motorbike;A plane is cleaner than a bird
 22028;"Comment dit-on ""j'ai porté une cravate hier"" en anglais ?";I wore a tie yesterday;I wore a hat yesterday;I wore a belt yesterday;I wore gloves yesterday
 22029;"Que veut dire ""today"" en français ?";aujourd'hui;demain;matin;midi
 22030;"Comment dit-on ""j'ai mangé du riz ce midi"" en anglais ?";I ate rice at lunch;I ate chicken at lunch;I ate honey at lunch;I ate chocolate at lunch
@@ -34,12 +34,12 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 22032;"Que veut dire ""widest"" en français ?";le plus large;le plus haut;le plus bruyant;le plus lourd
 22033;"Comment dit-on ""j'ai porté un manteau hier"" en anglais ?";I wore a coat yesterday;I wore pyjamas yesterday;I wore trousers yesterday;I wore a belt yesterday
 22034;"Comment dit-on ""j'ai vu mon oncle le week-end dernier"" en anglais ?";I saw my uncle last weekend;I saw my twin last weekend;I saw my nephew last weekend;I saw my grandpa last weekend
-22035;"Comment dit-on ""un livre est plus propre qu'une feuille"" en anglais ?";A book is cleaner than a leaf;A train is higher than a bicycle;A building is longer than a house;A rock is drier than a feather
-22036;"Comment dit-on ""un camion est plus bruyant qu'une moto"" en anglais ?";A truck is louder than a motorbike;A plane is longer than a bird;A river is deeper than a stream;A rock is thicker than a feather
+22035;"Comment dit-on ""un livre est plus propre que une feuille"" en anglais ?";A book is cleaner than a leaf;A train is higher than a bicycle;A building is longer than a house;A rock is higher than a feather
+22036;"Comment dit-on ""un camion est plus bruyant que une moto"" en anglais ?";A truck is louder than a motorbike;A plane is longer than a bird;A river is richer than a stream;A rock is cleaner than a feather
 22037;"Comment dit-on ""j'ai vu un crocodile au zoo"" en anglais ?";I saw a crocodile at the zoo;I saw an eagle at the zoo;I saw a seal at the zoo;I saw a peacock at the zoo
-22038;"Comment dit-on ""un camion est plus fort qu'une moto"" en anglais ?";A truck is stronger than a motorbike;A plane is cleaner than a bird;A book is wider than a leaf;A book is thicker than a leaf
-22039;"Comment dit-on ""une fusée est plus rapide qu'une voiture"" en anglais ?";A rocket is faster than a car;A plane is cleaner than a bird;A book is cleaner than a leaf;A truck is stronger than a motorbike
-22040;"Comment dit-on ""une montagne est plus lourde qu'une colline"" en anglais ?";A mountain is heavier than a hill;A truck is louder than a motorbike;A rock is harder than a feather;A building is stronger than a house
+22038;"Comment dit-on ""un camion est plus chaud que une moto"" en anglais ?";A truck is hotter than a motorbike;A plane is cleaner than a bird;A book is wider than a leaf;A book is louder than a leaf
+22039;"Comment dit-on ""une fusée est plus riche qu'une voiture"" en anglais ?";A rocket is richer than a car;A plane is cleaner than a bird;A book is cleaner than a leaf;A truck is hotter than a motorbike
+22040;"Comment dit-on ""une montagne est plus lourde que une colline"" en anglais ?";A mountain is heavier than a hill;A truck is louder than a motorbike;A rock is richer than a feather;A building is hotter than a house
 22041;"Comment dit-on ""j'ai fermé mon livre"" en anglais ?";I closed my book;I painted a chair;I cleaned my room;I opened the present
 22042;"Comment dit-on ""j'ai vu une baleine au zoo"" en anglais ?";I saw a whale at the zoo;I saw a hedgehog at the zoo;I saw a penguin at the zoo;I saw a camel at the zoo
 22043;"Que veut dire ""to drink"" en français ?";boire;jouer;écrire;chanter
@@ -49,10 +49,10 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 22047;"Comment dit-on ""demain"" en anglais ?";tomorrow;morning;night;evening
 22048;"Comment dit-on ""chanter"" en anglais ?";to sing;to play;to sleep;to read
 22049;"Comment dit-on ""j'ai ouvert le cadeau"" en anglais ?";I opened the present;I bought an ice cream;I cleaned the table;I broke a glass
-22050;"Comment dit-on ""un rocher est plus fort qu'une plume"" en anglais ?";A rock is stronger than a feather;A river is stronger than a stream;A truck is bigger than a motorbike;A river is longer than a stream
+22050;"Comment dit-on ""un rocher est plus bruyant que une plume"" en anglais ?";A rock is louder than a feather;A river is higher than a stream;A truck is richer than a motorbike;A river is longer than a stream
 22051;"Comment dit-on ""j'ai rencontré un scientifique hier"" en anglais ?";I met a scientist yesterday;I met a doctor yesterday;I met an architect yesterday;I met a mechanic yesterday
 22052;"Comment dit-on ""toujours, je fais du sport"" en anglais ?";I always do sport;I always do my homework;I never do sport;I often walk the dog
-22053;"Comment dit-on ""un fleuve est plus long qu'un ruisseau"" en anglais ?";A river is longer than a stream;A truck is longer than a motorbike;A mountain is older than a hill;A truck is cleaner than a motorbike
+22053;"Comment dit-on ""un fleuve est plus long que un ruisseau"" en anglais ?";A river is longer than a stream;A truck is longer than a motorbike;A mountain is hotter than a hill;A truck is cleaner than a motorbike
 22054;"Comment dit-on ""aussi lourd que"" en anglais ?";as heavy as;cleanest;heaviest;as hot as
 22055;"Comment dit-on ""j'ai pleuré"" en anglais ?";I cried;I flew;I taught;I won
 22056;"Comment dit-on ""j'ai vu mon beau-père le week-end dernier"" en anglais ?";I saw my stepfather last weekend;I saw my aunt last weekend;I saw my grandpa last weekend;I saw my uncle last weekend
@@ -63,24 +63,24 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 22061;"Comment dit-on ""j'ai rencontré un dentiste hier"" en anglais ?";I met a dentist yesterday;I met a singer yesterday;I met a plumber yesterday;I met a postman yesterday
 22062;"Comment dit-on ""j'ai peint le mur"" en anglais ?";I painted the wall;I washed the dog;I lost my hat;I closed the window
 22063;"Comment dit-on ""j'ai envoyé"" en anglais ?";I sent;I flew;I lost;I fell
-22064;"Comment dit-on ""une montagne est plus haute qu'une colline"" en anglais ?";A mountain is higher than a hill;A mountain is wider than a hill;A rock is drier than a feather;A building is cleaner than a house
+22064;"Comment dit-on ""une montagne est plus haute que une colline"" en anglais ?";A mountain is higher than a hill;A mountain is wider than a hill;A rock is higher than a feather;A building is cleaner than a house
 22065;"Comment dit-on ""j'ai rencontré un acteur hier"" en anglais ?";I met an actor yesterday;I met a singer yesterday;I met a plumber yesterday;I met a scientist yesterday
-22066;"Comment dit-on ""un immeuble est plus fort qu'une maison"" en anglais ?";A building is stronger than a house;A train is wider than a bicycle;A mountain is older than a hill;A book is thicker than a leaf
+22066;"Comment dit-on ""un immeuble est plus chaud que une maison"" en anglais ?";A building is hotter than a house;A train is wider than a bicycle;A mountain is hotter than a hill;A book is louder than a leaf
 22067;"Comment dit-on ""j'ai vu un hérisson au zoo"" en anglais ?";I saw a hedgehog at the zoo;I saw a fox at the zoo;I saw a kangaroo at the zoo;I saw a penguin at the zoo
-22068;"Comment dit-on ""un immeuble est plus grand qu'une maison"" en anglais ?";A building is bigger than a house;A river is cleaner than a stream;A rock is drier than a feather;A book is bigger than a leaf
+22068;"Comment dit-on ""un immeuble est plus riche que une maison"" en anglais ?";A building is richer than a house;A river is cleaner than a stream;A rock is higher than a feather;A book is richer than a leaf
 22069;"Comment dit-on ""toujours, je fais mes devoirs"" en anglais ?";I always do my homework;I often do sport;I sometimes tidy my room;I never tidy my room
 22070;"Que veut dire ""heaviest"" en français ?";le plus lourd;le plus riche;le plus propre;le plus chaud
 22071;"Comment dit-on ""souvent, je bois de l'eau"" en anglais ?";I often drink water;I often do sport;I always do my homework;I sometimes walk the dog
 22072;"Comment dit-on ""j'ai peint une chaise"" en anglais ?";I painted a chair;I broke a glass;I opened the fridge;I closed the door
 22073;"Que veut dire ""to read"" en français ?";lire;boire;jouer;manger
-22074;"Comment dit-on ""un livre est plus lourd qu'une feuille"" en anglais ?";A book is heavier than a leaf;A building is cleaner than a house;A building is thicker than a house;A rock is longer than a feather
+22074;"Comment dit-on ""un livre est plus lourd que une feuille"" en anglais ?";A book is heavier than a leaf;A building is cleaner than a house;A building is louder than a house;A rock is longer than a feather
 22075;"Comment dit-on ""nuit"" en anglais ?";night;morning;yesterday;today
 22076;"Que veut dire ""morning"" en français ?";matin;midi;hier;aujourd'hui
 22077;"Comment dit-on ""j'ai construit"" en anglais ?";I built;I laughed;I thought;I chose
-22078;"Comment dit-on ""un rocher est plus sec qu'une plume"" en anglais ?";A rock is drier than a feather;A truck is higher than a motorbike;A rock is older than a feather;A train is higher than a bicycle
+22078;"Comment dit-on ""un rocher est plus haut que une plume"" en anglais ?";A rock is higher than a feather;A truck is higher than a motorbike;A rock is hotter than a feather;A train is higher than a bicycle
 22079;"Que veut dire ""to write"" en français ?";écrire;lire;dormir;manger
 22080;"Comment dit-on ""aussi propre que"" en anglais ?";as clean as;hotter than;less heavy than;richer than
-22081;"Comment dit-on ""un livre est plus large qu'une feuille"" en anglais ?";A book is wider than a leaf;A river is deeper than a stream;A river is longer than a stream;A book is thicker than a leaf
+22081;"Comment dit-on ""un livre est plus large que une feuille"" en anglais ?";A book is wider than a leaf;A river is richer than a stream;A river is longer than a stream;A book is louder than a leaf
 22082;"Comment dit-on ""toujours, je bois de l'eau"" en anglais ?";I always drink water;I sometimes wash my hands;I never do my homework;I always walk the dog
 22083;"Comment dit-on ""aussi large que"" en anglais ?";as wide as;less loud than;as heavy as;cleaner than
 22084;"Comment dit-on ""plus large que"" en anglais ?";wider than;cleanest;as hot as;longest
@@ -91,19 +91,19 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 22091;"Comment dit-on ""j'ai suivi"" en anglais ?";I followed;I received;I believed;I started
 22092;"Comment dit-on ""j'ai voulu"" en anglais ?";I wanted;I believed;I followed;I received
 22093;"Comment dit-on ""j'ai perdu mon ballon"" en anglais ?";I lost my ball;I cleaned the table;I found my keys;I closed my book
-22094;"Comment dit-on ""un rocher est plus long qu'une plume"" en anglais ?";A rock is longer than a feather;A building is thicker than a house;A building is higher than a house;A mountain is older than a hill
-22095;"Comment dit-on ""un camion est plus long qu'une moto"" en anglais ?";A truck is longer than a motorbike;A plane is wider than a bird;A mountain is older than a hill;A train is higher than a bicycle
+22094;"Comment dit-on ""un rocher est plus long que une plume"" en anglais ?";A rock is longer than a feather;A building is louder than a house;A building is higher than a house;A mountain is hotter than a hill
+22095;"Comment dit-on ""un camion est plus long que une moto"" en anglais ?";A truck is longer than a motorbike;A plane is wider than a bird;A mountain is hotter than a hill;A train is higher than a bicycle
 22096;"Comment dit-on ""j'ai joué de la batterie hier"" en anglais ?";I played the drums yesterday;I played the piano yesterday;I played the guitar yesterday;I played the flute yesterday
 22097;"Comment dit-on ""j'ai vu un aigle au zoo"" en anglais ?";I saw an eagle at the zoo;I saw a peacock at the zoo;I saw a swan at the zoo;I saw a seal at the zoo
-22098;"Comment dit-on ""un train est plus rapide qu'une bicyclette"" en anglais ?";A train is faster than a bicycle;A rock is thicker than a feather;A truck is longer than a motorbike;A river is wider than a stream
-22099;"Comment dit-on ""un immeuble est plus lourd qu'une maison"" en anglais ?";A building is heavier than a house;A truck is wider than a motorbike;A river is stronger than a stream;A rock is stronger than a feather
+22098;"Comment dit-on ""un train est plus riche que une bicyclette"" en anglais ?";A train is richer than a bicycle;A rock is cleaner than a feather;A truck is longer than a motorbike;A river is wider than a stream
+22099;"Comment dit-on ""un immeuble est plus lourd que une maison"" en anglais ?";A building is heavier than a house;A truck is wider than a motorbike;A river is higher than a stream;A rock is louder than a feather
 22100;"Comment dit-on ""j'ai porté un pull hier"" en anglais ?";I wore a sweater yesterday;I wore a shirt yesterday;I wore a dress yesterday;I wore a coat yesterday
 22101;"Comment dit-on ""j'ai joué de la harpe hier"" en anglais ?";I played the harp yesterday;I played the piano yesterday;I played the flute yesterday;I played the drums yesterday
 22102;"Comment dit-on ""j'ai joué de la guitare hier"" en anglais ?";I played the guitar yesterday;I played the piano yesterday;I played the drum yesterday;I played the harp yesterday
 22103;"Comment dit-on ""j'ai rencontré un coiffeur hier"" en anglais ?";I met a hairdresser yesterday;I met a musician yesterday;I met a scientist yesterday;I met a postman yesterday
 22104;"Comment dit-on ""je suis allé à la bibliothèque hier"" en anglais ?";I went to the library yesterday;I went to the shop yesterday;I went to the farm yesterday;I went to the lake yesterday
 22105;"Comment dit-on ""moins bruyant que"" en anglais ?";less loud than;as wide as;hotter than;less hot than
-22106;"Comment dit-on ""un camion est plus haut qu'une moto"" en anglais ?";A truck is higher than a motorbike;A truck is longer than a motorbike;A book is heavier than a leaf;A river is heavier than a stream
+22106;"Comment dit-on ""un camion est plus haut que une moto"" en anglais ?";A truck is higher than a motorbike;A truck is longer than a motorbike;A book is heavier than a leaf;A river is heavier than a stream
 22107;"Comment dit-on ""j'ai mangé du gâteau ce midi"" en anglais ?";I ate cake at lunch;I ate bread at lunch;I ate pasta at lunch;I ate jam at lunch
 22108;"Comment dit-on ""j'ai perdu mon chapeau"" en anglais ?";I lost my hat;I opened the fridge;I opened the box;I found a coin
 22109;"Que veut dire ""richest"" en français ?";le plus riche;le plus bruyant;le plus chaud;le plus propre
@@ -111,10 +111,10 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 22111;"Que veut dire ""hottest"" en français ?";le plus chaud;le plus haut;le plus lourd;le plus riche
 22112;"Comment dit-on ""jamais, je promène le chien"" en anglais ?";I never walk the dog;I never do sport;I sometimes do my homework;I always drink water
 22113;"Comment dit-on ""souvent, je range ma chambre"" en anglais ?";I often tidy my room;I sometimes drink water;I never wash my hands;I often drink water
-22114;"Comment dit-on ""une montagne est plus vieille qu'une colline"" en anglais ?";A mountain is older than a hill;A train is faster than a bicycle;A book is heavier than a leaf;A truck is wider than a motorbike
-22115;"Comment dit-on ""une fusée est plus haute qu'une voiture"" en anglais ?";A rocket is higher than a car;A rock is heavier than a feather;A train is stronger than a bicycle;A river is longer than a stream
+22114;"Comment dit-on ""une montagne est plus chaude que une colline"" en anglais ?";A mountain is hotter than a hill;A train is richer than a bicycle;A book is heavier than a leaf;A truck is wider than a motorbike
+22115;"Comment dit-on ""une fusée est plus haute qu'une voiture"" en anglais ?";A rocket is higher than a car;A rock is heavier than a feather;A train is hotter than a bicycle;A river is longer than a stream
 22116;"Comment dit-on ""j'ai mangé du miel ce midi"" en anglais ?";I ate honey at lunch;I ate cheese at lunch;I ate rice at lunch;I ate chocolate at lunch
-22117;"Comment dit-on ""un livre est plus grand qu'une feuille"" en anglais ?";A book is bigger than a leaf;A building is heavier than a house;A train is faster than a bicycle;A rock is longer than a feather
+22117;"Comment dit-on ""un livre est plus riche que une feuille"" en anglais ?";A book is richer than a leaf;A building is heavier than a house;A train is richer than a bicycle;A rock is longer than a feather
 22118;"Comment dit-on ""j'ai porté un pyjama hier"" en anglais ?";I wore pyjamas yesterday;I wore gloves yesterday;I wore trousers yesterday;I wore shoes yesterday
 22119;"Comment dit-on ""je suis allé à l'hôpital hier"" en anglais ?";I went to the hospital yesterday;I went to the mountain yesterday;I went to the library yesterday;I went to the farm yesterday
 22120;"Comment dit-on ""j'ai acheté une glace"" en anglais ?";I bought an ice cream;I broke a plate;I lost my hat;I bought some fruit
@@ -123,34 +123,34 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 22123;"Comment dit-on ""j'ai lavé mes mains"" en anglais ?";I washed my hands;I opened the box;I opened the present;I closed my book
 22124;"Comment dit-on ""j'ai fait du volley le week-end dernier"" en anglais ?";I did volleyball last weekend;I did horse riding last weekend;I did skiing last weekend;I did swimming last weekend
 22125;"Comment dit-on ""j'ai vu un dauphin au zoo"" en anglais ?";I saw a dolphin at the zoo;I saw a hedgehog at the zoo;I saw an octopus at the zoo;I saw a giraffe at the zoo
-22126;"Comment dit-on ""un fleuve est plus fort qu'un ruisseau"" en anglais ?";A river is stronger than a stream;A river is deeper than a stream;A rock is longer than a feather;A plane is bigger than a bird
+22126;"Comment dit-on ""un fleuve est plus haut que un ruisseau"" en anglais ?";A river is higher than a stream;A river is richer than a stream;A rock is longer than a feather;A plane is hotter than a bird
 22127;"Comment dit-on ""j'ai lu"" en anglais ?";I read;I lost;I won;I fell
 22128;"Comment dit-on ""aussi long que"" en anglais ?";as long as;higher than;richer than;less loud than
 22129;"Comment dit-on ""j'ai rencontré un boucher hier"" en anglais ?";I met a butcher yesterday;I met a journalist yesterday;I met a sailor yesterday;I met an architect yesterday
 22130;"Comment dit-on ""j'ai rencontré un peintre hier"" en anglais ?";I met a painter yesterday;I met a postman yesterday;I met a sailor yesterday;I met an electrician yesterday
 22131;"Comment dit-on ""j'ai cru"" en anglais ?";I believed;I wanted;I heard;I followed
 22132;"Comment dit-on ""aussi chaud que"" en anglais ?";as hot as;as wide as;as long as;wider than
-22133;"Comment dit-on ""une montagne est plus large qu'une colline"" en anglais ?";A mountain is wider than a hill;A book is longer than a leaf;A book is cleaner than a leaf;A building is higher than a house
+22133;"Comment dit-on ""une montagne est plus large que une colline"" en anglais ?";A mountain is wider than a hill;A book is longer than a leaf;A book is cleaner than a leaf;A building is higher than a house
 22134;"Comment dit-on ""j'ai vu un écureuil au zoo"" en anglais ?";I saw a squirrel at the zoo;I saw a hedgehog at the zoo;I saw a penguin at the zoo;I saw a crab at the zoo
 22135;"Comment dit-on ""jamais, je fais mes devoirs"" en anglais ?";I never do my homework;I sometimes do my homework;I never tidy my room;I often wash my hands
 22136;"Comment dit-on ""j'ai fait de l'escalade le week-end dernier"" en anglais ?";I did climbing last weekend;I did tennis last weekend;I did skating last weekend;I did gymnastics last weekend
 22137;"Comment dit-on ""j'ai vu ma nièce le week-end dernier"" en anglais ?";I saw my niece last weekend;I saw my cousin last weekend;I saw my uncle last weekend;I saw my nephew last weekend
 22138;"Comment dit-on ""j'ai mangé de la soupe ce midi"" en anglais ?";I ate soup at lunch;I ate chocolate at lunch;I ate salad at lunch;I ate chicken at lunch
 22139;"Comment dit-on ""j'ai vu une pieuvre au zoo"" en anglais ?";I saw an octopus at the zoo;I saw a crab at the zoo;I saw a dolphin at the zoo;I saw a kangaroo at the zoo
-22140;"Comment dit-on ""un camion est plus lourd qu'une moto"" en anglais ?";A truck is heavier than a motorbike;A building is cleaner than a house;A rock is stronger than a feather;A river is longer than a stream
-22141;"Comment dit-on ""une fusée est plus lourde qu'une voiture"" en anglais ?";A rocket is heavier than a car;A mountain is bigger than a hill;A book is thicker than a leaf;A truck is higher than a motorbike
-22142;"Comment dit-on ""un livre est plus épais qu'une feuille"" en anglais ?";A book is thicker than a leaf;A book is older than a leaf;A rock is longer than a feather;A river is wider than a stream
+22140;"Comment dit-on ""un camion est plus lourd que une moto"" en anglais ?";A truck is heavier than a motorbike;A building is cleaner than a house;A rock is louder than a feather;A river is longer than a stream
+22141;"Comment dit-on ""une fusée est plus lourde qu'une voiture"" en anglais ?";A rocket is heavier than a car;A mountain is richer than a hill;A book is louder than a leaf;A truck is higher than a motorbike
+22142;"Comment dit-on ""un livre est plus bruyant que une feuille"" en anglais ?";A book is louder than a leaf;A book is higher than a leaf;A rock is longer than a feather;A river is wider than a stream
 22143;"Comment dit-on ""je suis allé au zoo hier"" en anglais ?";I went to the zoo yesterday;I went to the swimming pool yesterday;I went to the market yesterday;I went to the mountain yesterday
 22144;"Comment dit-on ""j'ai fait de l'équitation le week-end dernier"" en anglais ?";I did horse riding last weekend;I did gymnastics last weekend;I did swimming last weekend;I did judo last weekend
-22145;"Comment dit-on ""un immeuble est plus large qu'une maison"" en anglais ?";A building is wider than a house;A plane is bigger than a bird;A rock is drier than a feather;A mountain is older than a hill
-22146;"Comment dit-on ""un train est plus haut qu'une bicyclette"" en anglais ?";A train is higher than a bicycle;A river is deeper than a stream;A book is harder than a leaf;A train is faster than a bicycle
+22145;"Comment dit-on ""un immeuble est plus large que une maison"" en anglais ?";A building is wider than a house;A plane is hotter than a bird;A rock is higher than a feather;A mountain is hotter than a hill
+22146;"Comment dit-on ""un train est plus haut que une bicyclette"" en anglais ?";A train is higher than a bicycle;A river is richer than a stream;A book is hotter than a leaf;A train is richer than a bicycle
 22147;"Comment dit-on ""j'ai trouvé"" en anglais ?";I found;I broke;I cried;I drove
 22148;"Comment dit-on ""j'ai peint mon vélo"" en anglais ?";I painted my bike;I closed the window;I lost my hat;I bought some fruit
-22149;"Comment dit-on ""une fusée est plus longue qu'une voiture"" en anglais ?";A rocket is longer than a car;A plane is heavier than a bird;A truck is longer than a motorbike;A rock is bigger than a feather
+22149;"Comment dit-on ""une fusée est plus longue qu'une voiture"" en anglais ?";A rocket is longer than a car;A plane is heavier than a bird;A truck is longer than a motorbike;A rock is wider than a feather
 22150;"Comment dit-on ""plus lourd que"" en anglais ?";heavier than;wider than;less high than;as clean as
 22151;"Comment dit-on ""j'ai entendu"" en anglais ?";I heard;I waited;I followed;I received
 22152;"Comment dit-on ""j'ai vu une girafe au zoo"" en anglais ?";I saw a giraffe at the zoo;I saw a bat at the zoo;I saw a hedgehog at the zoo;I saw a kangaroo at the zoo
-22153;"Comment dit-on ""un immeuble est plus épais qu'une maison"" en anglais ?";A building is thicker than a house;A rock is stronger than a feather;A truck is wider than a motorbike;A train is louder than a bicycle
+22153;"Comment dit-on ""un immeuble est plus bruyant que une maison"" en anglais ?";A building is louder than a house;A rock is louder than a feather;A truck is wider than a motorbike;A train is louder than a bicycle
 22154;"Comment dit-on ""j'ai construit un pont"" en anglais ?";I built a bridge;I found a treasure;I painted the wall;I bought an ice cream
 22155;"Comment dit-on ""j'ai rencontré un facteur hier"" en anglais ?";I met a postman yesterday;I met a baker yesterday;I met a journalist yesterday;I met a lawyer yesterday
 22156;"Comment dit-on ""souvent, je promène le chien"" en anglais ?";I often walk the dog;I never do my homework;I never drink water;I often wash my hands
@@ -161,26 +161,26 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 22161;"Comment dit-on ""j'ai trouvé mes clés"" en anglais ?";I found my keys;I broke my toy;I painted my bike;I closed the window
 22162;"Que veut dire ""bird"" en français ?";oiseau;vache;mouton;cochon
 22163;"Comment dit-on ""j'ai vu un chameau au zoo"" en anglais ?";I saw a camel at the zoo;I saw a hedgehog at the zoo;I saw a squirrel at the zoo;I saw an octopus at the zoo
-22164;"Comment dit-on ""un fleuve est plus propre qu'un ruisseau"" en anglais ?";A river is cleaner than a stream;A river is deeper than a stream;A building is cleaner than a house;A plane is louder than a bird
+22164;"Comment dit-on ""un fleuve est plus propre que un ruisseau"" en anglais ?";A river is cleaner than a stream;A river is richer than a stream;A building is cleaner than a house;A plane is louder than a bird
 22165;"Comment dit-on ""j'ai oublié"" en anglais ?";I forgot;I built;I cried;I caught
 22166;"Comment dit-on ""j'ai rencontré un plombier hier"" en anglais ?";I met a plumber yesterday;I met a driver yesterday;I met an architect yesterday;I met a painter yesterday
 22167;"Comment dit-on ""j'ai mangé du yaourt ce midi"" en anglais ?";I ate yogurt at lunch;I ate soup at lunch;I ate pasta at lunch;I ate rice at lunch
 22168;"Comment dit-on ""j'ai acheté un livre"" en anglais ?";I bought a book;I broke a plate;I opened the present;I cleaned my shoes
 22169;"Comment dit-on ""j'ai porté une chemise hier"" en anglais ?";I wore a shirt yesterday;I wore socks yesterday;I wore a jacket yesterday;I wore pyjamas yesterday
 22170;"Comment dit-on ""jamais, je bois de l'eau"" en anglais ?";I never drink water;I always do sport;I often tidy my room;I often wash my hands
-22171;"Comment dit-on ""une fusée est plus large qu'une voiture"" en anglais ?";A rocket is wider than a car;A river is deeper than a stream;A truck is cleaner than a motorbike;A mountain is older than a hill
-22172;"Comment dit-on ""un immeuble est plus propre qu'une maison"" en anglais ?";A building is cleaner than a house;A building is thicker than a house;A river is bigger than a stream;A truck is stronger than a motorbike
+22171;"Comment dit-on ""une fusée est plus large qu'une voiture"" en anglais ?";A rocket is wider than a car;A river is richer than a stream;A truck is cleaner than a motorbike;A mountain is hotter than a hill
+22172;"Comment dit-on ""un immeuble est plus propre que une maison"" en anglais ?";A building is cleaner than a house;A building is louder than a house;A river is hotter than a stream;A truck is hotter than a motorbike
 22173;"Comment dit-on ""j'ai lavé la voiture"" en anglais ?";I washed the car;I lost my hat;I built a house;I broke a glass
 22174;"Comment dit-on ""j'ai joué de la trompette hier"" en anglais ?";I played the trumpet yesterday;I played the flute yesterday;I played the harp yesterday;I played the piano yesterday
 22175;"Comment dit-on ""j'ai acheté des fruits"" en anglais ?";I bought some fruit;I lost my hat;I broke a plate;I opened the present
 22176;"Comment dit-on ""j'ai vu un requin au zoo"" en anglais ?";I saw a shark at the zoo;I saw a bat at the zoo;I saw a giraffe at the zoo;I saw a hedgehog at the zoo
 22177;"Comment dit-on ""j'ai vu mon cousin le week-end dernier"" en anglais ?";I saw my cousin last weekend;I saw my aunt last weekend;I saw my stepmother last weekend;I saw my uncle last weekend
-22178;"Comment dit-on ""un train est plus large qu'une bicyclette"" en anglais ?";A train is wider than a bicycle;A mountain is older than a hill;A rock is thicker than a feather;A truck is louder than a motorbike
+22178;"Comment dit-on ""un train est plus large que une bicyclette"" en anglais ?";A train is wider than a bicycle;A mountain is hotter than a hill;A rock is cleaner than a feather;A truck is louder than a motorbike
 22179;"Comment dit-on ""parfois, je range ma chambre"" en anglais ?";I sometimes tidy my room;I never tidy my room;I often tidy my room;I always tidy my room
 22180;"Que veut dire ""longest"" en français ?";le plus long;le plus chaud;le plus large;le plus propre
 22181;"Comment dit-on ""j'ai vu un loup au zoo"" en anglais ?";I saw a wolf at the zoo;I saw a whale at the zoo;I saw a kangaroo at the zoo;I saw a squirrel at the zoo
-22182;"Comment dit-on ""une montagne est plus dure qu'une colline"" en anglais ?";A mountain is harder than a hill;A river is wider than a stream;A river is bigger than a stream;A mountain is drier than a hill
-22183;"Comment dit-on ""une fusée est plus bruyante qu'une voiture"" en anglais ?";A rocket is louder than a car;A river is longer than a stream;A river is stronger than a stream;A rock is older than a feather
+22182;"Comment dit-on ""une montagne est plus bruyante que une colline"" en anglais ?";A mountain is louder than a hill;A river is wider than a stream;A river is hotter than a stream;A mountain is cleaner than a hill
+22183;"Comment dit-on ""une fusée est plus bruyante qu'une voiture"" en anglais ?";A rocket is louder than a car;A river is longer than a stream;A river is higher than a stream;A rock is hotter than a feather
 22184;"Comment dit-on ""j'ai cassé mon jouet"" en anglais ?";I broke my toy;I built a tower;I found a coin;I cleaned the table
 22185;"Comment dit-on ""jamais, je fais du sport"" en anglais ?";I never do sport;I sometimes drink water;I never walk the dog;I never tidy my room
 22186;"Comment dit-on ""j'ai vu un zèbre au zoo"" en anglais ?";I saw a zebra at the zoo;I saw a dolphin at the zoo;I saw a bat at the zoo;I saw a wolf at the zoo
@@ -190,9 +190,9 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 22190;"Comment dit-on ""j'ai mangé de la salade ce midi"" en anglais ?";I ate salad at lunch;I ate soup at lunch;I ate bread at lunch;I ate rice at lunch
 22191;"Comment dit-on ""je suis allé au musée hier"" en anglais ?";I went to the museum yesterday;I went to the market yesterday;I went to the shop yesterday;I went to the beach yesterday
 22192;"Comment dit-on ""j'ai vu un crabe au zoo"" en anglais ?";I saw a crab at the zoo;I saw a shark at the zoo;I saw an owl at the zoo;I saw a giraffe at the zoo
-22193;"Comment dit-on ""un livre est plus vieux qu'une feuille"" en anglais ?";A book is older than a leaf;A plane is bigger than a bird;A train is heavier than a bicycle;A train is louder than a bicycle
+22193;"Comment dit-on ""un livre est plus haut que une feuille"" en anglais ?";A book is higher than a leaf;A plane is hotter than a bird;A train is heavier than a bicycle;A train is louder than a bicycle
 22194;"Comment dit-on ""moins propre que"" en anglais ?";less clean than;widest;highest;as clean as
-22195;"Comment dit-on ""un livre est plus long qu'une feuille"" en anglais ?";A book is longer than a leaf;A train is heavier than a bicycle;A truck is louder than a motorbike;A book is thicker than a leaf
+22195;"Comment dit-on ""un livre est plus long que une feuille"" en anglais ?";A book is longer than a leaf;A train is heavier than a bicycle;A truck is louder than a motorbike;A book is louder than a leaf
 22196;"Comment dit-on ""parfois, je bois de l'eau"" en anglais ?";I sometimes drink water;I always walk the dog;I always do sport;I often wash my hands
 22197;"Comment dit-on ""j'ai joué du piano hier"" en anglais ?";I played the piano yesterday;I played the drum yesterday;I played the drums yesterday;I played the trumpet yesterday
 22198;"Comment dit-on ""j'ai attendu"" en anglais ?";I waited;I heard;I wanted;I believed
@@ -203,7 +203,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 22203;"Comment dit-on ""toujours, je range ma chambre"" en anglais ?";I always tidy my room;I always do my homework;I always walk the dog;I sometimes do my homework
 22204;"Comment dit-on ""j'ai mangé du chocolat ce midi"" en anglais ?";I ate chocolate at lunch;I ate yogurt at lunch;I ate honey at lunch;I ate pasta at lunch
 22205;"Comment dit-on ""j'ai rencontré un juge hier"" en anglais ?";I met a judge yesterday;I met a doctor yesterday;I met a pilot yesterday;I met a musician yesterday
-22206;"Comment dit-on ""un train est plus propre qu'une bicyclette"" en anglais ?";A train is cleaner than a bicycle;A book is thicker than a leaf;A mountain is drier than a hill;A mountain is older than a hill
+22206;"Comment dit-on ""un train est plus propre que une bicyclette"" en anglais ?";A train is cleaner than a bicycle;A book is louder than a leaf;A mountain is cleaner than a hill;A mountain is hotter than a hill
 22207;"Comment dit-on ""j'ai compris"" en anglais ?";I understood;I thought;I smiled;I learned
 22208;"Comment dit-on ""souvent, je me lave les mains"" en anglais ?";I often wash my hands;I often do my homework;I never tidy my room;I sometimes drink water
 22209;"Comment dit-on ""j'ai cassé un verre"" en anglais ?";I broke a glass;I cleaned my shoes;I built a bridge;I opened the box
@@ -216,70 +216,70 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 22216;"Comment dit-on ""j'ai gagné"" en anglais ?";I won;I read;I drove;I built
 22217;"Comment dit-on ""moins chaud que"" en anglais ?";less hot than;longer than;wider than;as high as
 22218;"Comment dit-on ""je suis allé au lac hier"" en anglais ?";I went to the lake yesterday;I went to the hospital yesterday;I went to the museum yesterday;I went to the forest yesterday
-22219;"Comment dit-on ""un livre est plus dur qu'une feuille"" en anglais ?";A book is harder than a leaf;A plane is bigger than a bird;A mountain is longer than a hill;A rock is longer than a feather
+22219;"Comment dit-on ""un livre est plus chaud que une feuille"" en anglais ?";A book is hotter than a leaf;A plane is hotter than a bird;A mountain is longer than a hill;A rock is longer than a feather
 22220;"Comment dit-on ""j'ai nettoyé ma chambre"" en anglais ?";I cleaned my room;I bought a book;I built a house;I closed the door
 22221;"Comment dit-on ""j'ai rencontré un marin hier"" en anglais ?";I met a sailor yesterday;I met a soldier yesterday;I met a doctor yesterday;I met an electrician yesterday
 22222;"Comment dit-on ""j'ai porté un pantalon hier"" en anglais ?";I wore trousers yesterday;I wore a dress yesterday;I wore pyjamas yesterday;I wore a belt yesterday
 22223;"Comment dit-on ""j'ai ouvert la boîte"" en anglais ?";I opened the box;I closed the door;I lost my hat;I cleaned my room
 22224;"Comment dit-on ""je suis allé au marché hier"" en anglais ?";I went to the market yesterday;I went to the shop yesterday;I went to the mountain yesterday;I went to the museum yesterday
-22225;"Comment dit-on ""un rocher est plus lourd qu'une plume"" en anglais ?";A rock is heavier than a feather;A train is higher than a bicycle;A building is longer than a house;A plane is longer than a bird
+22225;"Comment dit-on ""un rocher est plus lourd que une plume"" en anglais ?";A rock is heavier than a feather;A train is higher than a bicycle;A building is longer than a house;A plane is longer than a bird
 22226;"Comment dit-on ""j'ai porté des gants hier"" en anglais ?";I wore gloves yesterday;I wore a belt yesterday;I wore shoes yesterday;I wore socks yesterday
 22227;"Comment dit-on ""j'ai vu un pingouin au zoo"" en anglais ?";I saw a penguin at the zoo;I saw a camel at the zoo;I saw a crab at the zoo;I saw a dolphin at the zoo
-22228;"Comment dit-on ""un rocher est plus épais qu'une plume"" en anglais ?";A rock is thicker than a feather;A mountain is older than a hill;A truck is cleaner than a motorbike;A train is longer than a bicycle
+22228;"Comment dit-on ""un rocher est plus propre que une plume"" en anglais ?";A rock is cleaner than a feather;A mountain is hotter than a hill;A truck is cleaner than a motorbike;A train is longer than a bicycle
 22229;"Comment dit-on ""j'ai fait du tennis le week-end dernier"" en anglais ?";I did tennis last weekend;I did judo last weekend;I did volleyball last weekend;I did horse riding last weekend
 22230;"Comment dit-on ""toujours, je promène le chien"" en anglais ?";I always walk the dog;I always do my homework;I sometimes drink water;I often do sport
 22231;"Comment dit-on ""je suis allé au château hier"" en anglais ?";I went to the castle yesterday;I went to the beach yesterday;I went to the shop yesterday;I went to the library yesterday
-22232;"Comment dit-on ""un immeuble est plus haut qu'une maison"" en anglais ?";A building is higher than a house;A building is bigger than a house;A book is cleaner than a leaf;A rock is longer than a feather
-22233;"Comment dit-on ""un camion est plus propre qu'une moto"" en anglais ?";A truck is cleaner than a motorbike;A rock is longer than a feather;A river is heavier than a stream;A plane is faster than a bird
+22232;"Comment dit-on ""un immeuble est plus haut que une maison"" en anglais ?";A building is higher than a house;A building is richer than a house;A book is cleaner than a leaf;A rock is longer than a feather
+22233;"Comment dit-on ""un camion est plus propre que une moto"" en anglais ?";A truck is cleaner than a motorbike;A rock is longer than a feather;A river is heavier than a stream;A plane is richer than a bird
 22234;"Comment dit-on ""j'ai cassé"" en anglais ?";I broke;I thought;I laughed;I drove
 22235;"Comment dit-on ""j'ai fait du rugby le week-end dernier"" en anglais ?";I did rugby last weekend;I did golf last weekend;I did skating last weekend;I did tennis last weekend
 22236;"Comment dit-on ""j'ai vu ma tante le week-end dernier"" en anglais ?";I saw my aunt last weekend;I saw my twin last weekend;I saw my stepfather last weekend;I saw my nephew last weekend
 22237;"Comment dit-on ""j'ai appris"" en anglais ?";I learned;I taught;I lost;I forgot
 22238;"Comment dit-on ""j'ai mangé de la confiture ce midi"" en anglais ?";I ate jam at lunch;I ate cheese at lunch;I ate chocolate at lunch;I ate soup at lunch
 22239;"Comment dit-on ""j'ai vu mon jumeau le week-end dernier"" en anglais ?";I saw my twin last weekend;I saw my grandma last weekend;I saw my stepmother last weekend;I saw my nephew last weekend
-22240;"Comment dit-on ""une montagne est plus sèche qu'une colline"" en anglais ?";A mountain is drier than a hill;A train is higher than a bicycle;A plane is cleaner than a bird;A plane is longer than a bird
+22240;"Comment dit-on ""une montagne est plus propre que une colline"" en anglais ?";A mountain is cleaner than a hill;A train is higher than a bicycle;A plane is cleaner than a bird;A plane is longer than a bird
 22241;"Comment dit-on ""souvent, je fais du sport"" en anglais ?";I often do sport;I always walk the dog;I never do my homework;I sometimes tidy my room
 22242;"Comment dit-on ""j'ai porté une ceinture hier"" en anglais ?";I wore a belt yesterday;I wore gloves yesterday;I wore a hat yesterday;I wore a sweater yesterday
-22243;"Comment dit-on ""un fleuve est plus lourd qu'un ruisseau"" en anglais ?";A river is heavier than a stream;A river is deeper than a stream;A mountain is longer than a hill;A plane is bigger than a bird
-22244;"Comment dit-on ""un fleuve est plus bruyant qu'un ruisseau"" en anglais ?";A river is louder than a stream;A book is thicker than a leaf;A plane is louder than a bird;A river is heavier than a stream
+22243;"Comment dit-on ""un fleuve est plus lourd que un ruisseau"" en anglais ?";A river is heavier than a stream;A river is richer than a stream;A mountain is longer than a hill;A plane is hotter than a bird
+22244;"Comment dit-on ""un fleuve est plus bruyant que un ruisseau"" en anglais ?";A river is louder than a stream;A book is louder than a leaf;A plane is louder than a bird;A river is heavier than a stream
 22245;"Comment dit-on ""moins long que"" en anglais ?";less long than;as high as;wider than;less hot than
 22246;"Que veut dire ""sun"" en français ?";soleil;froid;pluie;vent
 22247;"Comment dit-on ""j'ai joué de la flûte hier"" en anglais ?";I played the flute yesterday;I played the drum yesterday;I played the violin yesterday;I played the drums yesterday
 22248;"Que veut dire ""rain"" en français ?";pluie;orage;chaud;vent
-22249;"Comment dit-on ""une montagne est plus grande qu'une colline"" en anglais ?";A mountain is bigger than a hill;A plane is longer than a bird;A building is thicker than a house;A river is heavier than a stream
+22249;"Comment dit-on ""une montagne est plus riche que une colline"" en anglais ?";A mountain is richer than a hill;A plane is longer than a bird;A building is louder than a house;A river is heavier than a stream
 22250;"Comment dit-on ""j'ai rencontré un boulanger hier"" en anglais ?";I met a baker yesterday;I met a lawyer yesterday;I met a judge yesterday;I met an architect yesterday
 22251;"Comment dit-on ""j'ai joué du violon hier"" en anglais ?";I played the violin yesterday;I played the flute yesterday;I played the piano yesterday;I played the drum yesterday
 22252;"Comment dit-on ""parfois, je me lave les mains"" en anglais ?";I sometimes wash my hands;I sometimes do sport;I always do sport;I always walk the dog
-22253;"Comment dit-on ""un camion est plus large qu'une moto"" en anglais ?";A truck is wider than a motorbike;A truck is heavier than a motorbike;A river is longer than a stream;A plane is bigger than a bird
+22253;"Comment dit-on ""un camion est plus large que une moto"" en anglais ?";A truck is wider than a motorbike;A truck is heavier than a motorbike;A river is longer than a stream;A plane is hotter than a bird
 22254;"Comment dit-on ""j'ai mangé du poulet ce midi"" en anglais ?";I ate chicken at lunch;I ate rice at lunch;I ate cake at lunch;I ate bread at lunch
-22255;"Comment dit-on ""un rocher est plus vieux qu'une plume"" en anglais ?";A rock is older than a feather;A rock is bigger than a feather;A river is bigger than a stream;A book is bigger than a leaf
-22256;"Comment dit-on ""un train est plus fort qu'une bicyclette"" en anglais ?";A train is stronger than a bicycle;A book is older than a leaf;A mountain is heavier than a hill;A plane is wider than a bird
+22255;"Comment dit-on ""un rocher est plus chaud que une plume"" en anglais ?";A rock is hotter than a feather;A rock is wider than a feather;A river is hotter than a stream;A book is richer than a leaf
+22256;"Comment dit-on ""un train est plus chaud que une bicyclette"" en anglais ?";A train is hotter than a bicycle;A book is higher than a leaf;A mountain is heavier than a hill;A plane is wider than a bird
 22257;"Comment dit-on ""j'ai lavé le chien"" en anglais ?";I washed the dog;I bought a book;I found my keys;I closed my book
-22258;"Comment dit-on ""une fusée est plus chaude qu'une voiture"" en anglais ?";A rocket is hotter than a car;A mountain is harder than a hill;A book is harder than a leaf;A train is faster than a bicycle
+22258;"Comment dit-on ""une fusée est plus chaude qu'une voiture"" en anglais ?";A rocket is hotter than a car;A mountain is louder than a hill;A book is hotter than a leaf;A train is richer than a bicycle
 22259;"Que veut dire ""loudest"" en français ?";le plus bruyant;le plus long;le plus large;le plus lourd
 22260;"Comment dit-on ""je suis allé à la montagne hier"" en anglais ?";I went to the mountain yesterday;I went to the forest yesterday;I went to the market yesterday;I went to the museum yesterday
-22261;"Comment dit-on ""un rocher est plus grand qu'une plume"" en anglais ?";A rock is bigger than a feather;A train is heavier than a bicycle;A truck is longer than a motorbike;A plane is wider than a bird
+22261;"Comment dit-on ""un rocher est plus large que une plume"" en anglais ?";A rock is wider than a feather;A train is heavier than a bicycle;A truck is longer than a motorbike;A plane is wider than a bird
 22262;"Comment dit-on ""plus long que"" en anglais ?";longer than;less high than;less loud than;less hot than
-22263;"Comment dit-on ""une montagne est plus longue qu'une colline"" en anglais ?";A mountain is longer than a hill;A building is wider than a house;A book is older than a leaf;A river is longer than a stream
+22263;"Comment dit-on ""une montagne est plus longue que une colline"" en anglais ?";A mountain is longer than a hill;A building is wider than a house;A book is higher than a leaf;A river is longer than a stream
 22264;"Comment dit-on ""j'ai mangé des pâtes ce midi"" en anglais ?";I ate pasta at lunch;I ate soup at lunch;I ate chicken at lunch;I ate cheese at lunch
 22265;"Comment dit-on ""j'ai rencontré un architecte hier"" en anglais ?";I met an architect yesterday;I met a driver yesterday;I met a singer yesterday;I met a scientist yesterday
-22266;"Comment dit-on ""un immeuble est plus long qu'une maison"" en anglais ?";A building is longer than a house;A truck is wider than a motorbike;A mountain is older than a hill;A rock is older than a feather
+22266;"Comment dit-on ""un immeuble est plus long que une maison"" en anglais ?";A building is longer than a house;A truck is wider than a motorbike;A mountain is hotter than a hill;A rock is hotter than a feather
 22267;"Comment dit-on ""navire"" en anglais ?";ship;truck;car;bus
 22268;"Que veut dire ""ship"" en français ?";navire;voiture;bus;taxi
 22269;"Comment dit-on ""taxi"" en anglais ?";taxi;ship;scooter;boat
 22270;"Que veut dire ""taxi"" en français ?";taxi;camion;avion;train
 22271;"Comment dit-on ""j'ai fait de la natation le week-end dernier"" en anglais ?";I did swimming last weekend;I did climbing last weekend;I did rugby last weekend;I did skating last weekend
-22272;"Comment dit-on ""un rocher est plus dur qu'une plume"" en anglais ?";A rock is harder than a feather;A rock is drier than a feather;A train is higher than a bicycle;A plane is bigger than a bird
+22272;"Comment dit-on ""un rocher est plus riche que une plume"" en anglais ?";A rock is richer than a feather;A rock is higher than a feather;A train is higher than a bicycle;A plane is hotter than a bird
 22273;"Comment dit-on ""toujours, je me lave les mains"" en anglais ?";I always wash my hands;I often drink water;I often tidy my room;I never do my homework
 22274;"Comment dit-on ""parfois, je promène le chien"" en anglais ?";I sometimes walk the dog;I never walk the dog;I often drink water;I sometimes tidy my room
 22275;"Comment dit-on ""j'ai rencontré un électricien hier"" en anglais ?";I met an electrician yesterday;I met a mechanic yesterday;I met an architect yesterday;I met a postman yesterday
-22276;"Comment dit-on ""un train est plus lourd qu'une bicyclette"" en anglais ?";A train is heavier than a bicycle;A truck is cleaner than a motorbike;A plane is faster than a bird;A building is thicker than a house
+22276;"Comment dit-on ""un train est plus lourd que une bicyclette"" en anglais ?";A train is heavier than a bicycle;A truck is cleaner than a motorbike;A plane is richer than a bird;A building is louder than a house
 22277;"Comment dit-on ""j'ai nettoyé la table"" en anglais ?";I cleaned the table;I washed the car;I lost my hat;I found a coin
 22278;"Comment dit-on ""j'ai fait du patinage le week-end dernier"" en anglais ?";I did skating last weekend;I did swimming last weekend;I did volleyball last weekend;I did golf last weekend
 22279;"Comment dit-on ""je suis allé au parc hier"" en anglais ?";I went to the park yesterday;I went to the lake yesterday;I went to the shop yesterday;I went to the mountain yesterday
 22280;"Comment dit-on ""j'ai trouvé une pièce"" en anglais ?";I found a coin;I opened the fridge;I lost my hat;I broke a plate
 22281;"Comment dit-on ""j'ai ri"" en anglais ?";I laughed;I thought;I smiled;I won
-22282;"Comment dit-on ""un fleuve est plus grand qu'un ruisseau"" en anglais ?";A river is bigger than a stream;A train is cleaner than a bicycle;A mountain is bigger than a hill;A train is longer than a bicycle
+22282;"Comment dit-on ""un fleuve est plus chaud que un ruisseau"" en anglais ?";A river is hotter than a stream;A train is cleaner than a bicycle;A mountain is richer than a hill;A train is longer than a bicycle
 22283;"Comment dit-on ""journaliste"" en anglais ?";journalist;firefighter;engineer;doctor
 22284;"Que veut dire ""journalist"" en français ?";journaliste;dentiste;infirmier;pompier
 22285;"Comment dit-on ""ingénieur"" en anglais ?";engineer;baker;doctor;nurse
@@ -292,7 +292,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 22292;"Comment dit-on ""plus propre que"" en anglais ?";cleaner than;longest;as wide as;heavier than
 22293;"Comment dit-on ""j'ai rencontré un journaliste hier"" en anglais ?";I met a journalist yesterday;I met a butcher yesterday;I met a musician yesterday;I met a scientist yesterday
 22294;"Comment dit-on ""j'ai rencontré un soldat hier"" en anglais ?";I met a soldier yesterday;I met a painter yesterday;I met a baker yesterday;I met a journalist yesterday
-22295;"Comment dit-on ""un fleuve est plus profond qu'un ruisseau"" en anglais ?";A river is deeper than a stream;A train is wider than a bicycle;A plane is faster than a bird;A truck is louder than a motorbike
+22295;"Comment dit-on ""un fleuve est plus riche que un ruisseau"" en anglais ?";A river is richer than a stream;A train is wider than a bicycle;A plane is richer than a bird;A truck is louder than a motorbike
 22296;"Comment dit-on ""j'ai joué du tambour hier"" en anglais ?";I played the drum yesterday;I played the trumpet yesterday;I played the piano yesterday;I played the drums yesterday
 22297;"Comment dit-on ""parfois, je fais du sport"" en anglais ?";I sometimes do sport;I never wash my hands;I often tidy my room;I sometimes drink water
 22298;"Comment dit-on ""j'ai vu un kangourou au zoo"" en anglais ?";I saw a kangaroo at the zoo;I saw a penguin at the zoo;I saw a camel at the zoo;I saw a zebra at the zoo

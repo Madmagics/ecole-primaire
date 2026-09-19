@@ -1,7 +1,7 @@
 id;text;correct_answer;choice_2;choice_3;choice_4
 21000;"Comment dit-on ""un cheval est plus bruyant qu'un chien"" en anglais ?";A horse is louder than a dog;A lion is wider than a duck;A tortoise is cleaner than a rabbit;A horse is faster than a dog
 21001;"Comment dit-on ""une voiture est plus haute qu'un vélo"" en anglais ?";A car is higher than a bike;A whale is stronger than a fish;A lion is faster than a duck;A tortoise is older than a rabbit
-21002;"Comment dit-on ""un train est plus haut qu'une bicyclette"" en anglais ?";A train is higher than a bicycle;A book is harder than a leaf;A mountain is harder than a hill;A building is bigger than a house
+21002;"Comment dit-on ""un train est plus haut qu'une bicyclette"" en anglais ?";A train is higher than a bicycle;A book is harder than a leaf;A mountain is louder than a hill;A building is bigger than a house
 21003;"Comment dit-on ""un éléphant est plus large qu'une souris"" en anglais ?";An elephant is wider than a mouse;A car is bigger than a bike;A bear is stronger than a cat;A horse is stronger than a dog
 21004;"Comment dit-on ""j'ai une femme"" en anglais ?";I have a wife;I have a cousin;I have a niece;I have a nephew
 21005;"Comment dit-on ""un lion est plus rapide qu'un canard"" en anglais ?";A lion is faster than a duck;A lion is higher than a duck;An elephant is heavier than a mouse;A car is higher than a bike
@@ -11,8 +11,8 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21009;"Comment dit-on ""soleil"" en anglais ?";sun;cold;snow;rain
 21010;"Comment dit-on ""il vient de Chine"" en anglais ?";He comes from China;He comes from Germany;He comes from France;I come from France
 21011;"Comment dit-on ""je porte une écharpe"" en anglais ?";I am wearing a scarf;I am wearing a coat;I am wearing trousers;I am wearing a jacket
-21012;"Comment dit-on ""un rocher est plus sec qu'une plume"" en anglais ?";A rock is drier than a feather;A building is cleaner than a house;A giant is cleaner than a mouse;A mountain is harder than a hill
-21013;"Comment dit-on ""un rocher est plus épais qu'une plume"" en anglais ?";A rock is thicker than a feather;A giant is louder than a mouse;A rock is drier than a feather;A book is wider than a leaf
+21012;"Comment dit-on ""un rocher est plus haut qu'une plume"" en anglais ?";A rock is higher than a feather;A building is cleaner than a house;A giant is cleaner than a mouse;A mountain is louder than a hill
+21013;"Comment dit-on ""un rocher est plus propre qu'une plume"" en anglais ?";A rock is cleaner than a feather;A giant is louder than a mouse;A rock is higher than a feather;A book is wider than a leaf
 21014;"Comment dit-on ""une voiture est plus lourde qu'un vélo"" en anglais ?";A car is heavier than a bike;A truck is bigger than a motorbike;A whale is stronger than a fish;A car is cleaner than a bike
 21015;"Comment dit-on ""un cheval est plus propre qu'un chien"" en anglais ?";A horse is cleaner than a dog;An elephant is cleaner than a mouse;A car is louder than a bike;A lion is cleaner than a duck
 21016;"Comment dit-on ""nuage"" en anglais ?";cloud;storm;snow;sun
@@ -27,12 +27,12 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21025;"Comment dit-on ""je porte un pull"" en anglais ?";I am wearing a sweater;I am wearing a coat;I am wearing a jacket;I am wearing a scarf
 21026;"Comment dit-on ""un livre est plus propre qu'une feuille"" en anglais ?";A book is cleaner than a leaf;A train is wider than a bicycle;A train is higher than a bicycle;A giant is longer than a mouse
 21027;"Comment dit-on ""un lion est plus propre qu'un canard"" en anglais ?";A lion is cleaner than a duck;An elephant is heavier than a mouse;A lion is louder than a duck;A horse is cleaner than a dog
-21028;"Comment dit-on ""un livre est plus lourd qu'une feuille"" en anglais ?";A book is heavier than a leaf;A mountain is harder than a hill;A plane is heavier than a bird;A mountain is heavier than a hill
+21028;"Comment dit-on ""un livre est plus lourd qu'une feuille"" en anglais ?";A book is heavier than a leaf;A mountain is louder than a hill;A plane is heavier than a bird;A mountain is heavier than a hill
 21029;"Comment dit-on ""une tortue est plus forte qu'un lapin"" en anglais ?";A tortoise is stronger than a rabbit;A lion is heavier than a duck;A truck is louder than a motorbike;A car is cleaner than a bike
 21030;"Comment dit-on ""j'ai mal au pied"" en anglais ?";My foot hurts;My back hurts;My nose hurts;My head hurts
 21031;"Comment dit-on ""je porte des chaussettes"" en anglais ?";I am wearing socks;I am wearing a scarf;I am wearing shoes;I am wearing a dress
 21032;"Comment dit-on ""le plus long"" en anglais ?";longest;heavier;coldest;shorter
-21033;"Comment dit-on ""un fleuve est plus propre qu'un ruisseau"" en anglais ?";A river is cleaner than a stream;A river is louder than a stream;A book is bigger than a leaf;A rock is drier than a feather
+21033;"Comment dit-on ""un fleuve est plus propre qu'un ruisseau"" en anglais ?";A river is cleaner than a stream;A river is louder than a stream;A book is bigger than a leaf;A rock is higher than a feather
 21034;"Comment dit-on ""un avion est plus bruyant qu'un oiseau"" en anglais ?";A plane is louder than a bird;A rock is harder than a feather;A mountain is higher than a hill;A train is wider than a bicycle
 21035;"Comment dit-on ""plus sale"" en anglais ?";dirtier;richer;widest;lighter
 21036;"Comment dit-on ""un éléphant est plus lourd qu'une souris"" en anglais ?";An elephant is heavier than a mouse;A horse is heavier than a dog;A horse is louder than a dog;A truck is louder than a motorbike
@@ -84,7 +84,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21083;"Comment dit-on ""une voiture est plus longue qu'un vélo"" en anglais ?";A car is longer than a bike;A horse is wider than a dog;A tortoise is older than a rabbit;A truck is higher than a motorbike
 21084;"Comment dit-on ""je viens d'Espagne"" en anglais ?";I come from Spain;I come from Japan;He comes from France;I come from France
 21085;"Comment dit-on ""il vient d'Allemagne"" en anglais ?";He comes from Germany;He comes from Switzerland;He comes from Canada;He comes from Spain
-21086;"Comment dit-on ""un livre est plus vieux qu'une feuille"" en anglais ?";A book is older than a leaf;A book is bigger than a leaf;A building is higher than a house;A train is faster than a bicycle
+21086;"Comment dit-on ""un livre est plus haut qu'une feuille"" en anglais ?";A book is higher than a leaf;A book is bigger than a leaf;A building is higher than a house;A train is faster than a bicycle
 21087;"Comment dit-on ""une baleine est plus haute qu'un poisson"" en anglais ?";A whale is higher than a fish;A bear is higher than a cat;A bear is heavier than a cat;An elephant is higher than a mouse
 21088;"Comment dit-on ""deux cents"" en anglais ?";two hundred;six;five;one thousand
 21089;"Que veut dire ""two hundred"" en français ?";deux cents;cinq cents;cent;six
@@ -116,7 +116,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21115;"Comment dit-on ""le plus bas"" en anglais ?";lowest;widest;cleanest;loudest
 21116;"Comment dit-on ""un cheval est plus rapide qu'un chien"" en anglais ?";A horse is faster than a dog;An elephant is stronger than a mouse;A tortoise is louder than a rabbit;A truck is heavier than a motorbike
 21117;"Comment dit-on ""une tortue est plus bruyante qu'un lapin"" en anglais ?";A tortoise is louder than a rabbit;A car is bigger than a bike;A horse is faster than a dog;A truck is heavier than a motorbike
-21118;"Comment dit-on ""une montagne est plus dure qu'une colline"" en anglais ?";A mountain is harder than a hill;A train is higher than a bicycle;A train is faster than a bicycle;A rock is stronger than a feather
+21118;"Comment dit-on ""une montagne est plus bruyante qu'une colline"" en anglais ?";A mountain is louder than a hill;A train is higher than a bicycle;A train is faster than a bicycle;A rock is louder than a feather
 21119;"Comment dit-on ""une baleine est plus forte qu'un poisson"" en anglais ?";A whale is stronger than a fish;A car is cleaner than a bike;A whale is bigger than a fish;A bear is stronger than a cat
 21120;"Comment dit-on ""un géant est plus grand qu'une souris"" en anglais ?";A giant is bigger than a mouse;A mountain is older than a hill;A mountain is wider than a hill;A train is faster than a bicycle
 21121;"Comment dit-on ""le deuxième"" en anglais ?";the second;the third;the fourth;the tenth
@@ -133,7 +133,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21132;"Comment dit-on ""il vient des États-Unis"" en anglais ?";He comes from the United States;He comes from Portugal;He comes from Belgium;He comes from China
 21133;"Comment dit-on ""plus bruyant"" en anglais ?";louder;coldest;dirtiest;lightest
 21134;"Comment dit-on ""une voiture est plus forte qu'un vélo"" en anglais ?";A car is stronger than a bike;A lion is louder than a duck;A whale is longer than a fish;A lion is longer than a duck
-21135;"Comment dit-on ""un train est plus long qu'une bicyclette"" en anglais ?";A train is longer than a bicycle;A rock is drier than a feather;A building is thicker than a house;A river is heavier than a stream
+21135;"Comment dit-on ""un train est plus long qu'une bicyclette"" en anglais ?";A train is longer than a bicycle;A rock is higher than a feather;A building is louder than a house;A river is heavier than a stream
 21136;"Comment dit-on ""il vient du Japon"" en anglais ?";He comes from Japan;I come from Spain;He comes from Scotland;He comes from Ireland
 21137;"Comment dit-on ""j'ai mal à l'oeil"" en anglais ?";My eye hurts;My stomach hurts;My knee hurts;My head hurts
 21138;"Comment dit-on ""il vient d'Italie"" en anglais ?";He comes from Italy;He comes from Japan;He comes from Canada;I come from England
@@ -143,15 +143,15 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21142;"Comment dit-on ""j'ai mal à l'oreille"" en anglais ?";My ear hurts;My leg hurts;My tooth hurts;My stomach hurts
 21143;"Comment dit-on ""j'ai mal au ventre"" en anglais ?";My stomach hurts;My back hurts;My arm hurts;My knee hurts
 21144;"Comment dit-on ""le plus froid"" en anglais ?";coldest;poorest;richest;dirtiest
-21145;"Comment dit-on ""un train est plus propre qu'une bicyclette"" en anglais ?";A train is cleaner than a bicycle;A plane is higher than a bird;A mountain is drier than a hill;A rock is heavier than a feather
-21146;"Comment dit-on ""un avion est plus long qu'un oiseau"" en anglais ?";A plane is longer than a bird;A giant is heavier than a mouse;A mountain is drier than a hill;A rock is longer than a feather
+21145;"Comment dit-on ""un train est plus propre qu'une bicyclette"" en anglais ?";A train is cleaner than a bicycle;A plane is higher than a bird;A mountain is cleaner than a hill;A rock is heavier than a feather
+21146;"Comment dit-on ""un avion est plus long qu'un oiseau"" en anglais ?";A plane is longer than a bird;A giant is heavier than a mouse;A mountain is cleaner than a hill;A rock is longer than a feather
 21147;"Comment dit-on ""j'ai un cousin"" en anglais ?";I have a cousin;I have a baby;I have a nephew;I have a wife
 21148;"Comment dit-on ""j'ai mal à la tête"" en anglais ?";My head hurts;My arm hurts;My foot hurts;My leg hurts
 21149;"Comment dit-on ""un livre est plus grand qu'une feuille"" en anglais ?";A book is bigger than a leaf;A building is heavier than a house;A river is louder than a stream;A train is wider than a bicycle
 21150;"Comment dit-on ""mon sport préféré est tennis"" en anglais ?";My favourite sport is tennis;My favourite sport is gymnastics;My favourite sport is golf;My favourite sport is volleyball
-21151;"Comment dit-on ""un géant est plus large qu'une souris"" en anglais ?";A giant is wider than a mouse;A train is louder than a bicycle;A mountain is harder than a hill;A river is wider than a stream
-21152;"Comment dit-on ""un géant est plus bruyant qu'une souris"" en anglais ?";A giant is louder than a mouse;A river is longer than a stream;A book is thicker than a leaf;A book is longer than a leaf
-21153;"Comment dit-on ""un rocher est plus long qu'une plume"" en anglais ?";A rock is longer than a feather;A mountain is drier than a hill;A rock is thicker than a feather;A rock is stronger than a feather
+21151;"Comment dit-on ""un géant est plus large qu'une souris"" en anglais ?";A giant is wider than a mouse;A train is louder than a bicycle;A mountain is louder than a hill;A river is wider than a stream
+21152;"Comment dit-on ""un géant est plus bruyant qu'une souris"" en anglais ?";A giant is louder than a mouse;A river is longer than a stream;A book is louder than a leaf;A book is longer than a leaf
+21153;"Comment dit-on ""un rocher est plus long qu'une plume"" en anglais ?";A rock is longer than a feather;A mountain is cleaner than a hill;A rock is cleaner than a feather;A rock is louder than a feather
 21154;"Comment dit-on ""une baleine est plus large qu'un poisson"" en anglais ?";A whale is wider than a fish;A whale is longer than a fish;A lion is longer than a duck;An elephant is higher than a mouse
 21155;"Comment dit-on ""le plus lourd"" en anglais ?";heaviest;shortest;heavier;longest
 21156;"Comment dit-on ""ne touche pas"" en anglais ?";don't touch;don't sing so loud;don't run;don't sleep in class
@@ -159,7 +159,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21158;"Comment dit-on ""un camion est plus large qu'une moto"" en anglais ?";A truck is wider than a motorbike;An elephant is higher than a mouse;A whale is wider than a fish;A horse is stronger than a dog
 21159;"Comment dit-on ""je joue du violon"" en anglais ?";I play the violin;I play the piano;I play the flute;I play the drum
 21160;"Comment dit-on ""le plus riche"" en anglais ?";richest;coldest;lightest;cleanest
-21161;"Comment dit-on ""un immeuble est plus large qu'une maison"" en anglais ?";A building is wider than a house;A building is stronger than a house;A rock is stronger than a feather;A giant is heavier than a mouse
+21161;"Comment dit-on ""un immeuble est plus large qu'une maison"" en anglais ?";A building is wider than a house;A building is stronger than a house;A rock is louder than a feather;A giant is heavier than a mouse
 21162;"Comment dit-on ""dixième"" en anglais ?";tenth;fourth;seventh;eighth
 21163;"Comment dit-on ""plus riche"" en anglais ?";richer;heavier;quietest;lightest
 21164;"Comment dit-on ""un camion est plus propre qu'une moto"" en anglais ?";A truck is cleaner than a motorbike;A horse is louder than a dog;A bear is higher than a cat;A car is longer than a bike
@@ -174,7 +174,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21173;"Que veut dire ""cousin"" en français ?";cousin;bébé;frère;grand-père
 21174;"Comment dit-on ""le plus haut"" en anglais ?";highest;cleanest;colder;richest
 21175;"Comment dit-on ""mon sport préféré est pêche"" en anglais ?";My favourite sport is fishing;My favourite sport is rugby;My favourite sport is judo;My favourite sport is horse riding
-21176;"Comment dit-on ""un livre est plus dur qu'une feuille"" en anglais ?";A book is harder than a leaf;A book is cleaner than a leaf;A mountain is harder than a hill;A building is wider than a house
+21176;"Comment dit-on ""un livre est plus dur qu'une feuille"" en anglais ?";A book is harder than a leaf;A book is cleaner than a leaf;A mountain is louder than a hill;A building is wider than a house
 21177;"Comment dit-on ""plus court"" en anglais ?";shorter;heavier;narrower;lowest
 21178;"Comment dit-on ""un ours est plus lourd qu'un chat"" en anglais ?";A bear is heavier than a cat;A bear is longer than a cat;A tortoise is stronger than a rabbit;A whale is wider than a fish
 21179;"Que veut dire ""coat"" en français ?";manteau;gants;pull;chemise
@@ -187,7 +187,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21186;"Comment dit-on ""un ours est plus grand qu'un chat"" en anglais ?";A bear is bigger than a cat;A whale is cleaner than a fish;A truck is longer than a motorbike;A tortoise is higher than a rabbit
 21187;"Comment dit-on ""mon sport préféré est le judo"" en anglais ?";My favourite sport is judo;My favourite sport is climbing;My favourite sport is gymnastics;My favourite sport is volleyball
 21188;"Comment dit-on ""la cinquième"" en anglais ?";the fifth;the third;the ninth;the first
-21189;"Comment dit-on ""un livre est plus épais qu'une feuille"" en anglais ?";A book is thicker than a leaf;A train is higher than a bicycle;A plane is louder than a bird;A giant is stronger than a mouse
+21189;"Comment dit-on ""un livre est plus bruyant qu'une feuille"" en anglais ?";A book is louder than a leaf;A train is higher than a bicycle;A plane is louder than a bird;A giant is stronger than a mouse
 21190;"Comment dit-on ""un camion est plus grand qu'une moto"" en anglais ?";A truck is bigger than a motorbike;A truck is longer than a motorbike;A mouse is quieter than an elephant;An elephant is stronger than a mouse
 21191;"Comment dit-on ""un éléphant est plus propre qu'une souris"" en anglais ?";An elephant is cleaner than a mouse;An elephant is higher than a mouse;A truck is cleaner than a motorbike;A car is stronger than a bike
 21192;"Comment dit-on ""plus haut"" en anglais ?";higher;coldest;widest;heaviest
@@ -201,10 +201,10 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21200;"Que veut dire ""the third"" en français ?";la troisième;la cinquième;le premier;le septième
 21201;"Comment dit-on ""le plus étroit"" en anglais ?";narrowest;louder;cleaner;quietest
 21202;"Comment dit-on ""je viens d'Irlande"" en anglais ?";I come from Ireland;I come from Germany;I come from France;He comes from the United States
-21203;"Comment dit-on ""un rocher est plus grand qu'une plume"" en anglais ?";A rock is bigger than a feather;A plane is bigger than a bird;A rock is stronger than a feather;A book is longer than a leaf
+21203;"Comment dit-on ""un rocher est plus grand qu'une plume"" en anglais ?";A rock is bigger than a feather;A plane is bigger than a bird;A rock is louder than a feather;A book is longer than a leaf
 21204;"Comment dit-on ""j'ai mal à la jambe"" en anglais ?";My leg hurts;My head hurts;My hand hurts;My back hurts
 21205;"Comment dit-on ""un éléphant est plus long qu'une souris"" en anglais ?";An elephant is longer than a mouse;A bear is cleaner than a cat;A lion is wider than a duck;A truck is higher than a motorbike
-21206;"Comment dit-on ""une montagne est plus sèche qu'une colline"" en anglais ?";A mountain is drier than a hill;A building is higher than a house;A plane is wider than a bird;A plane is louder than a bird
+21206;"Comment dit-on ""une montagne est plus propre qu'une colline"" en anglais ?";A mountain is cleaner than a hill;A building is higher than a house;A plane is wider than a bird;A plane is louder than a bird
 21207;"Comment dit-on ""je joue de la flûte"" en anglais ?";I play the flute;I play the harp;I play the violin;I play the trumpet
 21208;"Comment dit-on ""je joue du piano"" en anglais ?";I play the piano;I play the violin;I play the drum;I play the guitar
 21209;"Comment dit-on ""il vient d'Irlande"" en anglais ?";He comes from Ireland;I come from Japan;I come from Spain;I come from Belgium
@@ -212,9 +212,9 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21211;"Comment dit-on ""un immeuble est plus haut qu'une maison"" en anglais ?";A building is higher than a house;A rock is longer than a feather;A train is louder than a bicycle;A train is longer than a bicycle
 21212;"Comment dit-on ""un train est plus fort qu'une bicyclette"" en anglais ?";A train is stronger than a bicycle;A book is longer than a leaf;A mountain is wider than a hill;A plane is louder than a bird
 21213;"Comment dit-on ""une voiture est plus grande qu'un vélo"" en anglais ?";A car is bigger than a bike;A bear is cleaner than a cat;A tortoise is heavier than a rabbit;A truck is longer than a motorbike
-21214;"Comment dit-on ""un fleuve est plus large qu'un ruisseau"" en anglais ?";A river is wider than a stream;A rock is thicker than a feather;A giant is stronger than a mouse;A rock is older than a feather
-21215;"Comment dit-on ""un rocher est plus vieux qu'une plume"" en anglais ?";A rock is older than a feather;A mountain is heavier than a hill;A rock is stronger than a feather;A book is heavier than a leaf
-21216;"Comment dit-on ""une montagne est plus vieille qu'une colline"" en anglais ?";A mountain is older than a hill;A book is wider than a leaf;A rock is drier than a feather;A plane is bigger than a bird
+21214;"Comment dit-on ""un fleuve est plus large qu'un ruisseau"" en anglais ?";A river is wider than a stream;A rock is cleaner than a feather;A giant is stronger than a mouse;A rock is older than a feather
+21215;"Comment dit-on ""un rocher est plus vieux qu'une plume"" en anglais ?";A rock is older than a feather;A mountain is heavier than a hill;A rock is louder than a feather;A book is heavier than a leaf
+21216;"Comment dit-on ""une montagne est plus vieille qu'une colline"" en anglais ?";A mountain is older than a hill;A book is wider than a leaf;A rock is higher than a feather;A plane is bigger than a bird
 21217;"Comment dit-on ""ne saute pas sur le lit"" en anglais ?";don't jump on the bed;don't touch;don't draw on the wall;don't climb on the table
 21218;"Comment dit-on ""viande"" en anglais ?";meat;rice;bread;cake
 21219;"Comment dit-on ""je suis dans le salon"" en anglais ?";I am in the living room;I am in the bedroom;I am in the bathroom;I am in the garage
@@ -232,8 +232,8 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21231;"Comment dit-on ""je porte des pyjama"" en anglais ?";I am wearing pyjamas;I am wearing gloves;I am wearing a dress;I am wearing a tie
 21232;"Comment dit-on ""je viens du Portugal"" en anglais ?";I come from Portugal;He comes from Switzerland;He comes from Portugal;I come from France
 21233;"Comment dit-on ""le plus sale"" en anglais ?";dirtiest;lighter;lowest;loudest
-21234;"Comment dit-on ""un avion est plus propre qu'un oiseau"" en anglais ?";A plane is cleaner than a bird;A book is older than a leaf;A giant is stronger than a mouse;A giant is higher than a mouse
-21235;"Comment dit-on ""un train est plus large qu'une bicyclette"" en anglais ?";A train is wider than a bicycle;A building is thicker than a house;A plane is cleaner than a bird;A giant is cleaner than a mouse
+21234;"Comment dit-on ""un avion est plus propre qu'un oiseau"" en anglais ?";A plane is cleaner than a bird;A book is higher than a leaf;A giant is stronger than a mouse;A giant is higher than a mouse
+21235;"Comment dit-on ""un train est plus large qu'une bicyclette"" en anglais ?";A train is wider than a bicycle;A building is louder than a house;A plane is cleaner than a bird;A giant is cleaner than a mouse
 21236;"Comment dit-on ""mon sport préféré est volley"" en anglais ?";My favourite sport is volleyball;My favourite sport is skating;My favourite sport is skiing;My favourite sport is judo
 21237;"Comment dit-on ""un camion est plus haut qu'une moto"" en anglais ?";A truck is higher than a motorbike;An elephant is stronger than a mouse;A bear is heavier than a cat;An elephant is longer than a mouse
 21238;"Comment dit-on ""j'ai mal à la dent"" en anglais ?";My tooth hurts;My head hurts;My foot hurts;My arm hurts
@@ -241,7 +241,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21240;"Comment dit-on ""il vient de France"" en anglais ?";He comes from France;I come from Belgium;I come from England;He comes from England
 21241;"Comment dit-on ""une tortue est plus lourde qu'un lapin"" en anglais ?";A tortoise is heavier than a rabbit;A horse is heavier than a dog;A bear is stronger than a cat;An elephant is wider than a mouse
 21242;"Comment dit-on ""plus froid"" en anglais ?";colder;dirtiest;longer;dirtier
-21243;"Comment dit-on ""un livre est plus long qu'une feuille"" en anglais ?";A book is longer than a leaf;A building is thicker than a house;A giant is stronger than a mouse;A rock is bigger than a feather
+21243;"Comment dit-on ""un livre est plus long qu'une feuille"" en anglais ?";A book is longer than a leaf;A building is louder than a house;A giant is stronger than a mouse;A rock is bigger than a feather
 21244;"Comment dit-on ""une voiture est plus propre qu'un vélo"" en anglais ?";A car is cleaner than a bike;A horse is faster than a dog;A horse is longer than a dog;A lion is heavier than a duck
 21245;"Comment dit-on ""un lion est plus haut qu'un canard"" en anglais ?";A lion is higher than a duck;A tortoise is heavier than a rabbit;A whale is longer than a fish;A tortoise is louder than a rabbit
 21246;"Comment dit-on ""n'oublie pas ton cahier"" en anglais ?";don't forget your notebook;don't jump on the bed;don't run;don't climb on the table
@@ -252,8 +252,8 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21251;"Comment dit-on ""j'ai une tante"" en anglais ?";I have an aunt;I have a niece;I have a nephew;I have an uncle
 21252;"Comment dit-on ""un avion est plus lourd qu'un oiseau"" en anglais ?";A plane is heavier than a bird;A giant is heavier than a mouse;A river is deeper than a stream;A rock is bigger than a feather
 21253;"Comment dit-on ""un avion est plus large qu'un oiseau"" en anglais ?";A plane is wider than a bird;A giant is longer than a mouse;A plane is bigger than a bird;A book is cleaner than a leaf
-21254;"Comment dit-on ""un rocher est plus lourd qu'une plume"" en anglais ?";A rock is heavier than a feather;A train is louder than a bicycle;A building is longer than a house;A mountain is harder than a hill
-21255;"Comment dit-on ""un géant est plus fort qu'une souris"" en anglais ?";A giant is stronger than a mouse;A river is louder than a stream;A mountain is longer than a hill;A book is thicker than a leaf
+21254;"Comment dit-on ""un rocher est plus lourd qu'une plume"" en anglais ?";A rock is heavier than a feather;A train is louder than a bicycle;A building is longer than a house;A mountain is louder than a hill
+21255;"Comment dit-on ""un géant est plus fort qu'une souris"" en anglais ?";A giant is stronger than a mouse;A river is louder than a stream;A mountain is longer than a hill;A book is louder than a leaf
 21256;"Comment dit-on ""je viens de Belgique"" en anglais ?";I come from Belgium;He comes from Portugal;I come from Switzerland;He comes from Switzerland
 21257;"Comment dit-on ""un ours est plus long qu'un chat"" en anglais ?";A bear is longer than a cat;A lion is bigger than a duck;A truck is cleaner than a motorbike;A car is bigger than a bike
 21258;"Comment dit-on ""j'ai un mari"" en anglais ?";I have a husband;I have a cousin;I have a baby;I have a niece
@@ -451,7 +451,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21450;"Comment dit-on ""un éléphant est plus haut qu'une souris"" en anglais ?";An elephant is higher than a mouse;A horse is faster than a dog;A tortoise is stronger than a rabbit;A whale is heavier than a fish
 21451;"Comment dit-on ""j'ai un jumeau"" en anglais ?";I have a twin;I have a husband;I have a niece;I have a cousin
 21452;"Comment dit-on ""je suis dans la chambre"" en anglais ?";I am in the bedroom;I am in the garage;I am in the garden;I am in the kitchen
-21453;"Comment dit-on ""un rocher est plus fort qu'une plume"" en anglais ?";A rock is stronger than a feather;A plane is wider than a bird;A rock is bigger than a feather;A building is wider than a house
+21453;"Comment dit-on ""un rocher est plus bruyant qu'une plume"" en anglais ?";A rock is louder than a feather;A plane is wider than a bird;A rock is bigger than a feather;A building is wider than a house
 21454;"Comment dit-on ""une baleine est plus propre qu'un poisson"" en anglais ?";A whale is cleaner than a fish;A tortoise is longer than a rabbit;A car is longer than a bike;An elephant is cleaner than a mouse
 21455;"Comment dit-on ""une montagne est plus grande qu'une colline"" en anglais ?";A mountain is bigger than a hill;A train is longer than a bicycle;A train is louder than a bicycle;A river is cleaner than a stream
 21456;"Comment dit-on ""un fleuve est plus lourd qu'un ruisseau"" en anglais ?";A river is heavier than a stream;A building is wider than a house;A building is longer than a house;A rock is harder than a feather
@@ -462,10 +462,10 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21461;"Comment dit-on ""j'ai un oncle"" en anglais ?";I have an uncle;I have a twin;I have an aunt;I have a cousin
 21462;"Comment dit-on ""un lion est plus lourd qu'un canard"" en anglais ?";A lion is heavier than a duck;A tortoise is wider than a rabbit;A lion is wider than a duck;A horse is stronger than a dog
 21463;"Comment dit-on ""un ours est plus bruyant qu'un chat"" en anglais ?";A bear is louder than a cat;A truck is wider than a motorbike;An elephant is louder than a mouse;A car is louder than a bike
-21464;"Comment dit-on ""un train est plus rapide qu'une bicyclette"" en anglais ?";A train is faster than a bicycle;A building is thicker than a house;A giant is cleaner than a mouse;A building is heavier than a house
+21464;"Comment dit-on ""un train est plus rapide qu'une bicyclette"" en anglais ?";A train is faster than a bicycle;A building is louder than a house;A giant is cleaner than a mouse;A building is heavier than a house
 21465;"Que veut dire ""seventh"" en français ?";septième;deuxième;cinquième;dixième
-21466;"Comment dit-on ""une montagne est plus large qu'une colline"" en anglais ?";A mountain is wider than a hill;A plane is faster than a bird;A mountain is longer than a hill;A book is older than a leaf
-21467;"Comment dit-on ""un immeuble est plus fort qu'une maison"" en anglais ?";A building is stronger than a house;A book is harder than a leaf;A rock is drier than a feather;A book is older than a leaf
+21466;"Comment dit-on ""une montagne est plus large qu'une colline"" en anglais ?";A mountain is wider than a hill;A plane is faster than a bird;A mountain is longer than a hill;A book is higher than a leaf
+21467;"Comment dit-on ""un immeuble est plus fort qu'une maison"" en anglais ?";A building is stronger than a house;A book is harder than a leaf;A rock is higher than a feather;A book is higher than a leaf
 21468;"Comment dit-on ""une voiture est plus bruyante qu'un vélo"" en anglais ?";A car is louder than a bike;A truck is louder than a motorbike;A truck is wider than a motorbike;A tortoise is heavier than a rabbit
 21469;"Comment dit-on ""j'ai mal au genou"" en anglais ?";My knee hurts;My nose hurts;My hand hurts;My head hurts
 21470;"Comment dit-on ""plus long"" en anglais ?";longer;poorest;longest;lightest
@@ -473,7 +473,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21472;"Comment dit-on ""un éléphant est plus bruyant qu'une souris"" en anglais ?";An elephant is louder than a mouse;A car is bigger than a bike;A horse is heavier than a dog;A truck is higher than a motorbike
 21473;"Comment dit-on ""un cheval est plus haut qu'un chien"" en anglais ?";A horse is higher than a dog;A truck is longer than a motorbike;A car is louder than a bike;A horse is cleaner than a dog
 21474;"Comment dit-on ""huitième"" en anglais ?";eighth;seventh;third;second
-21475;"Comment dit-on ""un immeuble est plus épais qu'une maison"" en anglais ?";A building is thicker than a house;A river is bigger than a stream;A rock is bigger than a feather;A giant is cleaner than a mouse
+21475;"Comment dit-on ""un immeuble est plus bruyant qu'une maison"" en anglais ?";A building is louder than a house;A river is bigger than a stream;A rock is bigger than a feather;A giant is cleaner than a mouse
 21476;"Comment dit-on ""quatrième"" en anglais ?";fourth;sixth;ninth;second
 21477;"Comment dit-on ""troisième"" en anglais ?";third;sixth;eighth;fourth
 21478;"Comment dit-on ""un éléphant est plus grand qu'une souris"" en anglais ?";An elephant is bigger than a mouse;A grandpa is older than a baby;A car is faster than a bike;A mouse is smaller than a horse
