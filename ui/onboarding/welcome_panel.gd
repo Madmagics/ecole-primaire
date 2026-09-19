@@ -373,6 +373,27 @@ func _ready() -> void:
 	## plutot que de la laisser trainer sur un pseudo qui a change.
 	new_login_input.text_changed.connect(func(_text: String) -> void: login_suggestion_button.hide())
 
+	## Clavier virtuel mobile qui ne s'affiche pas en plein ecran (2026-09-19, retour utilisateur) :
+	## limitation connue et NON RESOLUE cote moteur Godot (voir github.com/godotengine/godot issue
+	## #117342, confirmee toujours ouverte au 2026-09-19) - la Fullscreen API des navigateurs mobiles
+	## (Android ET iOS) bloque le clavier virtuel tant que la page est en vrai plein ecran, quel que
+	## soit le champ concerne. Contournement communautaire (aucun correctif moteur disponible) :
+	## sortir du plein ecran des qu'un champ de ce formulaire recoit le focus (le clavier peut alors
+	## s'afficher), y revenir des qu'il le perd - SEULEMENT si le joueur avait active le plein ecran
+	## (SaveManager.fullscreen), jamais si le jeu tournait deja en fenetre. find_children (recursif,
+	## voir docs.godotengine.org/en/4.7/classes/class_node.html#class-node-method-find-children) sur
+	## TOUTES les LineEdit du panneau plutot qu'un branchement champ par champ : ce formulaire en
+	## compte 12, et un futur champ ajoute ici herite du comportement sans rebranchage manuel.
+	## Limite assumee : remettre le plein ecran automatiquement peut echouer sur certains navigateurs
+	## mobiles (la Fullscreen API exige parfois un geste utilisateur direct pour se reactiver, un
+	## focus perdu n'en est pas toujours un) - dans ce cas le joueur devra retoucher la case "Plein
+	## ecran" des Options pour y revenir, degrade mais jamais bloquant. Voir aussi
+	## _on_form_field_focus_entered()/_exited() plus bas.
+	for field: Node in find_children("*", "LineEdit", true, true):
+		var line_edit := field as LineEdit
+		line_edit.focus_entered.connect(_on_form_field_focus_entered)
+		line_edit.focus_exited.connect(_on_form_field_focus_exited)
+
 	_show_login_section()
 	visibility_changed.connect(_on_visibility_changed)
 	## Suppression de compte (voir GameMenuPanel._do_delete_account) ou future deconnexion : cet
@@ -392,6 +413,19 @@ func _ready() -> void:
 	if ENABLED and SaveManager.current_account_id.is_empty():
 		show()
 		_show_intro_menu()
+
+## Contournement clavier virtuel mobile + plein ecran (voir le commentaire complet dans _ready(),
+## juste avant la boucle find_children) - issue moteur non resolue github.com/godotengine/godot
+## #117342. Bascule en fenetre le temps de la saisie, uniquement si le plein ecran est actif.
+func _on_form_field_focus_entered() -> void:
+	if _is_web and SaveManager.fullscreen:
+		DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_WINDOWED)
+
+## Restaure le plein ecran une fois la saisie terminee - peut echouer sur certains navigateurs
+## mobiles si la Fullscreen API exige un geste utilisateur direct (voir meme commentaire).
+func _on_form_field_focus_exited() -> void:
+	if _is_web and SaveManager.fullscreen:
+		DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_FULLSCREEN)
 
 func _on_visibility_changed() -> void:
 	if visible:

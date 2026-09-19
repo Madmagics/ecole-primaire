@@ -1788,5 +1788,10 @@ func set_fullscreen(value: bool) -> void:
 	fullscreen = value
 	DisplayServer.window_set_mode(
 		DisplayServer.WINDOW_MODE_FULLSCREEN if fullscreen else DisplayServer.WINDOW_MODE_WINDOWED)
+	## Tient a jour toute icone/case a cocher affichant ce reglage ailleurs (voir le commentaire de
+	## EventBus.fullscreen_changed) - notamment les 2 nouveaux boutons "plein ecran" (ecran d'intro
+	## + HUD de jeu, 2026-09-19) qui peuvent rester dans l'arbre de scene pendant qu'un autre chemin
+	## (la case a cocher de SectionConfig) change ce meme reglage.
+	EventBus.fullscreen_changed.emit(fullscreen)
 	_save_to_disk()
 

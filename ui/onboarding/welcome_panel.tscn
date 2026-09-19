@@ -13,6 +13,8 @@
 [ext_resource type="Script" uid="uid://bkfltmv3k5m4k" path="res://ui/onboarding/help_button.gd" id="11_help_button"]
 [ext_resource type="Texture2D" uid="uid://befr47ftxwtr3" path="res://assets/classe2.0/icones/help.webp" id="12_icon_help"]
 [ext_resource type="PackedScene" uid="uid://cn16e2u5cb0q" path="res://ui/onboarding/help_overlay.tscn" id="13_help_overlay"]
+[ext_resource type="Texture2D" uid="uid://cduam6gg8d2i0" path="res://assets/classe2.0/icones/plein-ecran.webp" id="14_icon_fullscreen"]
+[ext_resource type="Script" path="res://ui/hud/fullscreen_button.gd" id="15_fullscreen_button"]
 
 [node name="WelcomePanel" type="Control" unique_id=309200071]
 layout_mode = 3
@@ -597,3 +599,21 @@ overlay_path = NodePath("../HelpOverlay")
 [node name="HelpOverlay" parent="." unique_id=1869504952 instance=ExtResource("13_help_overlay")]
 visible = false
 layout_mode = 1
+
+[node name="FullscreenButton" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -88.0
+offset_top = 20.0
+offset_right = -20.0
+offset_bottom = 88.0
+grow_horizontal = 0
+tooltip_text = "Plein écran"
+focus_mode = 0
+icon = ExtResource("14_icon_fullscreen")
+flat = true
+icon_alignment = 1
+expand_icon = true
+script = ExtResource("15_fullscreen_button")

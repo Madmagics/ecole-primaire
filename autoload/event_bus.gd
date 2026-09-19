@@ -39,3 +39,13 @@ signal subject_selected(source: Node, subject: SubjectType.Subject)
 ## panneau s'applique donc son propre theme (theme = ...) a la reception de ce signal.
 @warning_ignore("unused_signal")
 signal ui_theme_changed(theme: Theme)
+
+## Emis par SaveManager.set_fullscreen() quand le plein ecran est active/desactive. Permet a
+## plusieurs boutons independants de refleter le meme reglage sans se connaitre entre eux (icone
+## "plein ecran" de l'ecran d'intro, icone "plein ecran" du HUD de jeu a cote du bouton menu de
+## droite, case a cocher de SectionConfig) - retour utilisateur 2026-09-19 : un raccourci direct
+## vers le plein ecran etait demande, en plus de la case a cocher des Options deja existante (voir
+## SectionConfig.fullscreen_check), pour eviter d'avoir a repasser par le menu Options a chaque
+## fois. Voir ui/hud/fullscreen_button.gd.
+@warning_ignore("unused_signal")
+signal fullscreen_changed(value: bool)

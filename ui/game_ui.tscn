@@ -1,4 +1,4 @@
-[gd_scene load_steps=26 format=3]
+[gd_scene load_steps=28 format=3]
 
 [ext_resource type="PackedScene" path="res://ui/question_panel/question_panel.tscn" id="4_rb02j"]
 [ext_resource type="PackedScene" path="res://ui/subject_select/subject_select_panel.tscn" id="4_subject"]
@@ -24,6 +24,8 @@
 [ext_resource type="Texture2D" path="res://assets/classe2.0/icones/menu.webp" id="42_icon_menu"]
 [ext_resource type="Texture2D" path="res://assets/classe2.0/icones/inventaire.webp" id="45_icon_inventory"]
 [ext_resource type="Shader" path="res://ui/game_menu/icon_dock_blur.gdshader" id="50_blur_shader"]
+[ext_resource type="Texture2D" uid="uid://cduam6gg8d2i0" path="res://assets/classe2.0/icones/plein-ecran.webp" id="63_icon_fullscreen"]
+[ext_resource type="Script" path="res://ui/hud/fullscreen_button.gd" id="64_fullscreen_button"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_backpack_blur"]
 shader = ExtResource("50_blur_shader")
@@ -136,6 +138,28 @@ icon_alignment = 1
 vertical_icon_alignment = 1
 script = ExtResource("22_menutoggle")
 toggled_panel_paths = Array[NodePath]([NodePath("../GameMenuPanel"), NodePath("../CardAlbum"), NodePath("../ShopPanel"), NodePath("../SuccessPanel"), NodePath("../BackpackMenu"), NodePath("../WelcomePanel"), NodePath("../QuitOverlay")])
+
+[node name="FullscreenButton" type="Button" parent="."]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 0.0
+offset_left = -176.0
+offset_top = 20.0
+offset_right = -103.0
+offset_bottom = 102.0
+grow_horizontal = 0
+tooltip_text = "Plein écran"
+focus_mode = 0
+flat = true
+text = ""
+icon = ExtResource("63_icon_fullscreen")
+expand_icon = true
+icon_alignment = 1
+vertical_icon_alignment = 1
+script = ExtResource("64_fullscreen_button")
+toggled_panel_paths = Array[NodePath]([NodePath("../GameMenuPanel"), NodePath("../CardAlbum"), NodePath("../ShopPanel"), NodePath("../SuccessPanel"), NodePath("../BackpackMenu"), NodePath("../WelcomePanel"), NodePath("../QuitOverlay"), NodePath("../QuestionPanel"), NodePath("../SubjectSelectPanel"), NodePath("../ReadingIntroPanel")])
 
 [node name="DailyLimitBadge" parent="." instance=ExtResource("60_daily_limit_badge")]
 popup_path = NodePath("../DailyLimitPopup")
