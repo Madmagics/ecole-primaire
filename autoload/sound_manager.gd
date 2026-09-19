@@ -105,6 +105,13 @@ var _music_player: AudioStreamPlayer
 ## celle en cours de lecture.
 var _current_music_path: String = ""
 
+## Web uniquement (voir _setup_web_background_mute()) - references gardees en vie tant que le jeu
+## tourne, comme l'exige la doc officielle (docs.godotengine.org/en/4.7/classes/
+## class_javascriptbridge.html, "must keep reference") : une fois liberees par le GC de GDScript,
+## le rappel cote JavaScript ne fonctionnerait plus.
+var _document_interface: JavaScriptObject
+var _visibility_callback: JavaScriptObject
+
 func _ready() -> void:
 	for sfx_id: Sfx in _STREAM_PATHS:
 		var path: String = _STREAM_PATHS[sfx_id]
@@ -131,6 +138,11 @@ func _ready() -> void:
 	SaveManager.account_logged_in.connect(func(_profile: Dictionary) -> void: _refresh_music())
 	SaveManager.account_logged_out.connect(_refresh_music)
 	ClassroomMusic.music_activated.connect(func(_grade: GradeLevel.Grade, _active: bool) -> void: _refresh_music())
+
+	## Contournement bug moteur (voir _setup_web_background_mute()) - Web uniquement, un export
+	## desktop/mobile natif n'a pas ce probleme.
+	if OS.has_feature("web"):
+		_setup_web_background_mute()
 
 ## Joue le bruitage [sfx_id]. Ne fait rien silencieusement si le fichier correspondant est
 ## absent (voir _STREAM_PATHS) - permet d'appeler play() partout dans le code sans jamais
@@ -201,3 +213,35 @@ func _refresh_music() -> void:
 	_music_player.stream = stream
 	_music_player.play()
 	_current_music_path = path
+
+## Coupe musique ET bruitages quand l'onglet/la page devient invisible (changement d'onglet,
+## ecran eteint, passage a une autre app sur mobile), et les remet exactement comme avant au
+## retour - SEULEMENT sur l'export Web (voir garde OS.has_feature("web") dans _ready()).
+##
+## Necessaire car NOTIFICATION_APPLICATION_FOCUS_IN/OUT (le mecanisme normal pour ca) ne se
+## declenche JAMAIS dans un export Web quand c'est le NAVIGATEUR qui perd la main - bug moteur
+## confirme et toujours non resolu en 4.7 (github.com/godotengine/godot issue #87014). Sans ce
+## contournement la musique jouait indefiniment en arriere-plan, contrairement a la quasi-totalite
+## des sites/apps qui coupent leur son via l'API navigateur "document.visibilitychange".
+##
+## Contournement (confirme fonctionnel par la communaute Godot, forum.godotengine.org) :
+## JavaScriptBridge (pont JS/GDScript propre a l'export Web, voir doc officielle
+## docs.godotengine.org/en/4.7/tutorials/platform/web/javascript_bridge.html) branche
+## document.onvisibilitychange cote navigateur - l'evenement standard qu'utilisent les vrais
+## sites web pour ca, contrairement au focus de fenetre (peu fiable sur mobile : un ecran qui
+## s'eteint ne "defocus" pas toujours la fenetre au sens de Godot, alors qu'il rend TOUJOURS la
+## page invisible au sens de cette API).
+func _setup_web_background_mute() -> void:
+	_document_interface = JavaScriptBridge.get_interface("document")
+	_visibility_callback = JavaScriptBridge.create_callback(_on_web_visibility_changed)
+	_document_interface.onvisibilitychange = _visibility_callback
+
+## Mute par BUS (AudioServer.set_bus_mute), jamais par volume : n'interfere ni avec le volume
+## reglable par compte (SaveManager.music_volume/sfx_volume) ni avec les icones son/musique
+## on/off de SectionConfig (qui, elles, jouent sur le volume en dB, pas sur ce flag) - au retour
+## sur la page, le son reprend exactement au niveau ou il etait juste avant la mise en
+## arriere-plan, quel que soit ce niveau.
+func _on_web_visibility_changed(_args: Array) -> void:
+	var hidden: bool = _document_interface.hidden
+	AudioServer.set_bus_mute(AudioServer.get_bus_index("Musique"), hidden)
+	AudioServer.set_bus_mute(AudioServer.get_bus_index("Bruitages"), hidden)
