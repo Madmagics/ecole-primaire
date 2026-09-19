@@ -99,6 +99,29 @@ const _BRONZE_COLOR := Color("CD7F32")
 const _SILVER_COLOR := Color("C0C0C0")
 const _GOLD_COLOR := Color("FFD700")
 
+## Icones des jalons de recompense affiches au-dessus de chaque cadre de classe (maquette 2
+## retenue le 2026-09-18, voir project_success_milestone_bar en memoire projet - "jalons alignes
+## sur les barres" : pas de piste separee, juste 3 icones fixees en haut du cadre + des reperes
+## (voir _build_bar_tickmark) a la meme position horizontale sur chaque barre de matiere en
+## dessous). Mapping palier -> recompense (revu le 2026-09-18) :
+##   BRONZE (ChallengeTracker.BRONZE_GOAL, 5)  -> ClassroomMusic (icone partagee, toutes classes)
+##   ARGENT (ChallengeTracker.SILVER_GOAL, 20) -> ClassroomDecor (icone badge-<classe>, par classe)
+##   OR     (ChallengeTracker.GOLD_GOAL, 50)   -> future recompense "coupe", PAS ENCORE
+##                                                IMPLEMENTEE - defis.webp sert de PLACEHOLDER en
+##                                                attendant (choix explicite de Steve), jalon
+##                                                toujours affiche verrouille (_UNSTARTED_COLOR)
+##                                                puisqu'aucun ClassroomTrophy n'existe encore.
+const _BRONZE_MILESTONE_ICON: Texture2D = preload("res://assets/classe2.0/icones/musique-on.webp")
+const _GOLD_MILESTONE_ICON: Texture2D = preload("res://assets/classe2.0/icones/defis.webp")
+
+## Diametre du badge rond d'un jalon, et taille de l'icone centree a l'interieur (voir
+## _build_milestone_pin) - hauteur de la ligne titre+jalons (_build_title_row) casee dessus.
+## Doublees le 2026-09-18 (retour utilisateur : "double la taille des icones... on va gagner de
+## la place en hauteur et en visibilite sur les icones") - etaient 30/18/40.
+const _MILESTONE_BADGE_SIZE := 60
+const _MILESTONE_ICON_SIZE := 36
+const _MILESTONE_LANE_HEIGHT := 80
+
 ## Ordre d'affichage des cadres de classe (CP en premier) - l'enum GradeLevel.Grade est deja range
 ## dans cet ordre mais on l'explicite ici plutot que de dependre de son ordre de declaration.
 const _GRADES: Array[GradeLevel.Grade] = [
@@ -179,10 +202,7 @@ func _build_grade_frame(grade: GradeLevel.Grade) -> PanelContainer:
 	content.add_theme_constant_override("separation", _ROW_SEPARATION)
 	margin.add_child(content)
 
-	var title := Label.new()
-	title.theme_type_variation = &"TitleLabel"
-	title.text = GradeLevel.get_label(grade)
-	content.add_child(title)
+	content.add_child(_build_title_row(grade))
 
 	for subject in QuestionBankScanner.get_available_subjects(grade):
 		content.add_child(_build_subject_row(grade, subject))
@@ -220,6 +240,10 @@ func _build_subject_row(grade: GradeLevel.Grade, subject: SubjectType.Subject) -
 	fill_style.bg_color = _tier_color(count)
 	fill_style.set_corner_radius_all(8)
 	bar.add_theme_stylebox_override("fill", fill_style)
+	## Reperes verticaux discrets aux 3 paliers (voir _build_bar_tickmark) - memes ratios que les
+	## jalons de _build_title_row au-dessus, pour l'effet de colonne alignee du croquis.
+	for goal in [ChallengeTracker.BRONZE_GOAL, ChallengeTracker.SILVER_GOAL, ChallengeTracker.GOLD_GOAL]:
+		bar.add_child(_build_bar_tickmark(_milestone_ratio(goal)))
 	row.add_child(bar)
 
 	var count_label := Label.new()
@@ -243,3 +267,120 @@ func _tier_color(count: int) -> Color:
 	if count >= ChallengeTracker.BRONZE_GOAL:
 		return _BRONZE_COLOR
 	return _UNSTARTED_COLOR
+
+## Position horizontale (0..1) d'un palier sur l'axe commun 0..GOLD_GOAL - partagee par
+## _build_milestone_row (position des icones) et _build_bar_tickmark (reperes sur chaque barre),
+## calculee plutot que codee en dur pour ne jamais se desynchroniser si les seuils changent.
+func _milestone_ratio(goal: int) -> float:
+	return float(goal) / float(ChallengeTracker.GOLD_GOAL)
+
+## Ligne combinant le titre de la classe et ses 3 jalons de recompense (maquette 2, voir la const
+## _BRONZE_MILESTONE_ICON plus haut pour le detail du mapping palier -> recompense) - ajoutee par
+## _build_grade_frame en premier, avant les lignes de matiere. Titre et jalons sur la MEME ligne
+## (2026-09-18, retour utilisateur : "aligne horizontalement ces icones avec le titre de chaque
+## bloc... on va gagner de la place en hauteur et en visibilite sur les icones" - fusionne l'ancien
+## _build_milestone_row separe avec le Label de titre, icones doublees de taille au passage, voir
+## _MILESTONE_BADGE_SIZE/_MILESTONE_ICON_SIZE). Le titre recoit la meme largeur de colonne fixe
+## (240) que les libelles de matiere pour que la "lane" du milieu commence exactement au meme x
+## que les barres en dessous - sans GridContainer (Godot a des bugs connus avec SIZE_EXPAND_FILL a
+## l'interieur d'un GridContainer - la meme construction HBoxContainer que chaque ligne de
+## matiere, deja fiable, evite le probleme).
+func _build_title_row(grade: GradeLevel.Grade) -> HBoxContainer:
+	var row := HBoxContainer.new()
+	row.add_theme_constant_override("separation", 12)
+
+	var title := Label.new()
+	title.theme_type_variation = &"TitleLabel"
+	title.text = GradeLevel.get_label(grade)
+	title.custom_minimum_size = Vector2(240, _MILESTONE_LANE_HEIGHT)
+	title.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
+	row.add_child(title)
+
+	var lane := Control.new()
+	lane.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	lane.custom_minimum_size = Vector2(0, _MILESTONE_LANE_HEIGHT)
+	lane.add_child(_build_milestone_pin(
+		_BRONZE_MILESTONE_ICON,
+		_BRONZE_COLOR if ClassroomMusic.is_unlocked(grade) else _UNSTARTED_COLOR,
+		_milestone_ratio(ChallengeTracker.BRONZE_GOAL),
+		"Musique de classe (%d reussites par matiere)" % ChallengeTracker.BRONZE_GOAL,
+	))
+	lane.add_child(_build_milestone_pin(
+		load(GradeLevel.get_badge_icon_path(grade)),
+		_SILVER_COLOR if ClassroomDecor.is_unlocked(grade) else _UNSTARTED_COLOR,
+		_milestone_ratio(ChallengeTracker.SILVER_GOAL),
+		"Nouveau decor de classe (%d reussites par matiere)" % ChallengeTracker.SILVER_GOAL,
+	))
+	lane.add_child(_build_milestone_pin(
+		_GOLD_MILESTONE_ICON,
+		_UNSTARTED_COLOR,
+		_milestone_ratio(ChallengeTracker.GOLD_GOAL),
+		"Recompense a venir (%d reussites par matiere)" % ChallengeTracker.GOLD_GOAL,
+	))
+	row.add_child(lane)
+
+	var count_spacer := Control.new()
+	count_spacer.custom_minimum_size = Vector2(64, _MILESTONE_LANE_HEIGHT)
+	row.add_child(count_spacer)
+
+	return row
+
+## Un jalon = un badge rond (icone + anneau colore) positionne a [ratio] (0..1) de la largeur de
+## son parent via anchor_left == anchor_right (position en %, taille fixe - meme idiome que le
+## reste du projet pour un element de taille fixe cale sur un pourcentage). Anneau gris
+## (_UNSTARTED_COLOR) tant que non debloque, couleur du palier une fois [ClassroomMusic]/
+## [ClassroomDecor] debloque(e) pour cette classe - voir les appels dans _build_title_row.
+func _build_milestone_pin(icon: Texture2D, ring_color: Color, ratio: float, hint: String) -> Panel:
+	var badge := Panel.new()
+	badge.anchor_left = ratio
+	badge.anchor_right = ratio
+	badge.anchor_top = 0.0
+	badge.anchor_bottom = 0.0
+	badge.offset_left = -_MILESTONE_BADGE_SIZE / 2.0
+	badge.offset_right = _MILESTONE_BADGE_SIZE / 2.0
+	badge.offset_top = 0.0
+	badge.offset_bottom = _MILESTONE_BADGE_SIZE
+	badge.tooltip_text = hint
+	badge.mouse_filter = Control.MOUSE_FILTER_STOP
+
+	var badge_style := StyleBoxFlat.new()
+	badge_style.bg_color = Color(1, 1, 1)
+	badge_style.border_color = ring_color
+	badge_style.set_border_width_all(3)
+	badge_style.set_corner_radius_all(_MILESTONE_BADGE_SIZE / 2)
+	badge.add_theme_stylebox_override("panel", badge_style)
+
+	var icon_rect := TextureRect.new()
+	icon_rect.texture = icon
+	icon_rect.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	icon_rect.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+	icon_rect.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+	icon_rect.anchor_left = 0.5
+	icon_rect.anchor_right = 0.5
+	icon_rect.anchor_top = 0.5
+	icon_rect.anchor_bottom = 0.5
+	icon_rect.offset_left = -_MILESTONE_ICON_SIZE / 2.0
+	icon_rect.offset_right = _MILESTONE_ICON_SIZE / 2.0
+	icon_rect.offset_top = -_MILESTONE_ICON_SIZE / 2.0
+	icon_rect.offset_bottom = _MILESTONE_ICON_SIZE / 2.0
+	badge.add_child(icon_rect)
+
+	return badge
+
+## Repere vertical discret sur une barre de matiere (enfant direct du ProgressBar, donc dessine
+## par-dessus son fill - ordre de dessin standard des enfants de Control) a [ratio] (0..1) de la
+## largeur de la barre - meme ratio que le jalon correspondant dans _build_milestone_row, donne
+## l'effet de colonne alignee demande (voir croquis utilisateur).
+func _build_bar_tickmark(ratio: float) -> ColorRect:
+	var tick := ColorRect.new()
+	tick.color = Color(_UNSTARTED_COLOR, 0.55)
+	tick.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	tick.anchor_left = ratio
+	tick.anchor_right = ratio
+	tick.anchor_top = 0.0
+	tick.anchor_bottom = 1.0
+	tick.offset_left = -1.0
+	tick.offset_right = 1.0
+	tick.offset_top = 3.0
+	tick.offset_bottom = -3.0
+	return tick

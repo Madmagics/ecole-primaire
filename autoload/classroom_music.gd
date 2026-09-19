@@ -1,15 +1,22 @@
 ## Musiques de classe (nouvelles pistes musicales) debloquees par les Defis valides au palier
-## ARGENT (SILVER_GOAL, voir ChallengeTracker) - 2026-09-06, retour utilisateur : "ajoute 5 cases
+## BRONZE (BRONZE_GOAL, voir ChallengeTracker) - 2026-09-06, retour utilisateur : "ajoute 5 cases
 ## en 2eme ligne de l onglet succes. lorsque les defis sont aux niveaux argent on debloquera de
 ## nouvelles musiques que je provisionnerai plus tard". Meme mecanique que ClassroomDecor (voir
-## son commentaire de classe pour le detail), seuil different : ici SILVER_GOAL (20) plutot que
-## GOLD_GOAL (50) - un palier moins exigeant, cohérent avec "musiques" arrivant avant "décors"
-## dans la progression du joueur. Autoload separe plutot qu'un parametre sur ClassroomDecor : 2
-## recompenses differentes (musique vs decor), meme duplication assumee que CrateItem/ProfSkinItem
-## (voir feedback_lightweight_game.md - scripts courts et independants plutot qu'une base commune
+## son commentaire de classe pour le detail), seuil different : ici BRONZE_GOAL (5) plutot que
+## SILVER_GOAL (20) - un palier moins exigeant, cohérent avec "musiques" arrivant avant "décors"
+## dans la progression du joueur.
+##
+## SEUIL REVU le 2026-09-18 (retour utilisateur, apres validation de la maquette de barre de
+## jalons de la fenetre Succes - voir project_success_milestone_bar en memoire projet) : le
+## palier de deblocage passe d'ARGENT (SILVER_GOAL) a BRONZE (BRONZE_GOAL) - la musique devient
+## la 1ere recompense obtenue (palier le plus bas), le decor (ClassroomDecor) prend sa place a
+## l'ARGENT, et un nouveau palier OR accueille une future recompense "coupe" pas encore
+## implementee. Autoload separe plutot qu'un parametre sur ClassroomDecor : 2 recompenses
+## differentes (musique vs decor), meme duplication assumee que CrateItem/ProfSkinItem (voir
+## feedback_lightweight_game.md - scripts courts et independants plutot qu'une base commune
 ## prematuree).
 ##
-## Une classe debloque ses musiques quand LA TOTALITE de ses Defis est au palier argent ou plus -
+## Une classe debloque ses musiques quand LA TOTALITE de ses Defis est au palier bronze ou plus -
 ## meme lecture dynamique de QuestionBankScanner.get_available_subjects(grade) que ClassroomDecor,
 ## pas de nombre code en dur.
 ##
@@ -63,16 +70,16 @@ func is_unlocked(grade: Grade) -> bool:
 func is_active(grade: Grade) -> bool:
 	return is_unlocked(grade) and bool(_active.get(grade, false))
 
-## Nombre de Defis actuellement a l'argent (SILVER_GOAL, voir ChallengeTracker) pour [grade], sur
+## Nombre de Defis actuellement au bronze (BRONZE_GOAL, voir ChallengeTracker) pour [grade], sur
 ## le total requis (voir get_required_count) - affiche en "X/Y" sur la case de boutique.
 func get_validated_count(grade: Grade) -> int:
 	var count := 0
 	for subject in QuestionBankScanner.get_available_subjects(grade):
-		if ChallengeTracker.get_count(grade, subject) >= ChallengeTracker.SILVER_GOAL:
+		if ChallengeTracker.get_count(grade, subject) >= ChallengeTracker.BRONZE_GOAL:
 			count += 1
 	return count
 
-## Nombre de Defis a valider (a l'argent) pour debloquer les musiques de [grade] - TOUS les Defis
+## Nombre de Defis a valider (au bronze) pour debloquer les musiques de [grade] - TOUS les Defis
 ## de la classe, voir le commentaire de classe.
 func get_required_count(grade: Grade) -> int:
 	return QuestionBankScanner.get_available_subjects(grade).size()

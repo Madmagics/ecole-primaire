@@ -45,6 +45,7 @@ signal questions_requested(source: Node, questions: Array[QuestionResource], rar
 
 @onready var panel: PanelContainer = $Panel
 @onready var close_button: Button = $Panel/Margin/Content/HeaderRow/CloseButton
+@onready var text_scroll: ScrollContainer = $Panel/Margin/Content/TextScroll
 @onready var text_label: Label = $Panel/Margin/Content/TextScroll/TextContent/TextLabel
 @onready var start_button: Button = $Panel/Margin/Content/TextScroll/TextContent/StartButton
 
@@ -94,6 +95,14 @@ func open_for(source: Node, passage: PassageResource, questions: Array[QuestionR
 	_rarity = rarity
 	text_label.text = passage.text
 	show()
+	## Remet le defilement en haut a chaque nouvelle ouverture (retour utilisateur 2026-09-19) :
+	## sans ce reset, le ScrollContainer gardait la position de defilement du texte precedent, si
+	## bien qu'un nouveau texte de lecture pouvait s'afficher deja scrolle vers le bas. Le
+	## ScrollContainer ne recalcule sa plage de defilement qu'apres que le nouveau texte du Label
+	## a ete mis en page (NOTIFICATION_SORT_CHILDREN) : fixer scroll_vertical avant cette frame ne
+	## servirait a rien, d'ou l'attente d'une frame complete avant de le remettre a 0.
+	await get_tree().process_frame
+	text_scroll.scroll_vertical = 0
 
 func _on_start_pressed() -> void:
 	var source := _source

@@ -9,7 +9,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21007;"Comment dit-on ""plus bas"" en anglais ?";lower;louder;narrower;poorer
 21008;"Comment dit-on ""je porte des pantalon"" en anglais ?";I am wearing trousers;I am wearing a shirt;I am wearing a jacket;I am wearing a dress
 21009;"Comment dit-on ""soleil"" en anglais ?";sun;cold;snow;rain
-21010;"Comment dit-on ""il vient de Chine"" en anglais ?";He comes from China;He comes from Germany;He comes from France;I come from France
+21010;"Comment dit-on ""il est né en Chine"" en anglais ?";He was born in China;He was born in Germany;He was born in France;I come from France
 21011;"Comment dit-on ""je porte une écharpe"" en anglais ?";I am wearing a scarf;I am wearing a coat;I am wearing trousers;I am wearing a jacket
 21012;"Comment dit-on ""un rocher est plus haut qu'une plume"" en anglais ?";A rock is higher than a feather;A building is cleaner than a house;A giant is cleaner than a mouse;A mountain is louder than a hill
 21013;"Comment dit-on ""un rocher est plus propre qu'une plume"" en anglais ?";A rock is cleaner than a feather;A giant is louder than a mouse;A rock is higher than a feather;A book is wider than a leaf
@@ -19,7 +19,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21017;"Comment dit-on ""j'ai mal au nez"" en anglais ?";My nose hurts;My head hurts;My foot hurts;My tooth hurts
 21018;"Comment dit-on ""mon sport préféré est natation"" en anglais ?";My favourite sport is swimming;My favourite sport is golf;My favourite sport is tennis;My favourite sport is horse riding
 21019;"Comment dit-on ""j'ai un bébé"" en anglais ?";I have a baby;I have an uncle;I have a twin;I have a niece
-21020;"Comment dit-on ""il vient de Belgique"" en anglais ?";He comes from Belgium;He comes from England;He comes from China;I come from Switzerland
+21020;"Comment dit-on ""il est né en Belgique"" en anglais ?";He was born in Belgium;He was born in England;He was born in China;I come from Switzerland
 21021;"Comment dit-on ""une baleine est plus bruyante qu'un poisson"" en anglais ?";A whale is louder than a fish;An elephant is cleaner than a mouse;An elephant is richer than a mouse;A car is heavier than a bike
 21022;"Comment dit-on ""une baleine est plus riche qu'un poisson"" en anglais ?";A whale is richer than a fish;A car is heavier than a bike;A lion is heavier than a duck;A horse is cleaner than a dog
 21023;"Comment dit-on ""mon sport préféré est gymnastique"" en anglais ?";My favourite sport is gymnastics;My favourite sport is skiing;My favourite sport is judo;My favourite sport is horse riding
@@ -43,8 +43,8 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21041;"Comment dit-on ""un camion est plus lourd qu'une moto"" en anglais ?";A truck is heavier than a motorbike;A car is heavier than a bike;A whale is richer than a fish;A bear is cleaner than a cat
 21042;"Comment dit-on ""un fleuve est plus chaud qu'un ruisseau"" en anglais ?";A river is hotter than a stream;A building is hotter than a house;A book is cleaner than a leaf;A rock is longer than a feather
 21043;"Comment dit-on ""ne dors pas en classe"" en anglais ?";don't sleep in class;don't sing so loud;don't run;don't jump on the bed
-21044;"Comment dit-on ""je viens d'Allemagne"" en anglais ?";I come from Germany;I come from Belgium;I come from Scotland;He comes from Italy
-21045;"Comment dit-on ""je viens de Chine"" en anglais ?";I come from China;He comes from England;He comes from Japan;I come from Scotland
+21044;"Comment dit-on ""je viens d'Allemagne"" en anglais ?";I come from Germany;I come from Belgium;I come from Scotland;He was born in Italy
+21045;"Comment dit-on ""je viens de Chine"" en anglais ?";I come from China;He was born in England;He was born in Japan;I come from Scotland
 21046;"Comment dit-on ""un immeuble est plus riche qu'une maison"" en anglais ?";A building is richer than a house;A building is higher than a house;A plane is hotter than a bird;A book is hotter than a leaf
 21047;"Comment dit-on ""je porte un chapeau"" en anglais ?";I am wearing a hat;I am wearing pyjamas;I am wearing shoes;I am wearing a sweater
 21048;"Comment dit-on ""plus étroit"" en anglais ?";narrower;cleanest;poorest;quietest
@@ -59,7 +59,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21057;"Comment dit-on ""j'ai mal au bras"" en anglais ?";My arm hurts;My foot hurts;My leg hurts;My knee hurts
 21058;"Comment dit-on ""mon sport préféré est patinage"" en anglais ?";My favourite sport is skating;My favourite sport is swimming;My favourite sport is judo;My favourite sport is tennis
 21059;"Comment dit-on ""j'ai mal au dos"" en anglais ?";My back hurts;My tooth hurts;My foot hurts;My stomach hurts
-21060;"Comment dit-on ""il vient du Canada"" en anglais ?";He comes from Canada;I come from Switzerland;I come from Japan;I come from Belgium
+21060;"Comment dit-on ""il est né au Canada"" en anglais ?";He was born in Canada;I come from Switzerland;I come from Japan;I come from Belgium
 21061;"Comment dit-on ""une montagne est plus lourde qu'une colline"" en anglais ?";A mountain is heavier than a hill;A river is louder than a stream;A mountain is higher than a hill;A plane is cleaner than a bird
 21062;"Comment dit-on ""ne chante pas si fort"" en anglais ?";don't sing so loud;don't forget your notebook;don't sleep in class;don't draw on the wall
 21063;"Comment dit-on ""plus lourd"" en anglais ?";heavier;quieter;longer;quietest
@@ -80,10 +80,10 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21079;"Comment dit-on ""mon sport préféré est rugby"" en anglais ?";My favourite sport is rugby;My favourite sport is skating;My favourite sport is tennis;My favourite sport is judo
 21080;"Comment dit-on ""je porte des gants"" en anglais ?";I am wearing gloves;I am wearing socks;I am wearing a dress;I am wearing a shirt
 21081;"Comment dit-on ""plus calme"" en anglais ?";quieter;longer;highest;coldest
-21082;"Comment dit-on ""il vient d'Écosse"" en anglais ?";He comes from Scotland;I come from Germany;I come from Portugal;I come from France
+21082;"Comment dit-on ""il est né en Écosse"" en anglais ?";He was born in Scotland;I come from Germany;I come from Portugal;I come from France
 21083;"Comment dit-on ""une voiture est plus longue qu'un vélo"" en anglais ?";A car is longer than a bike;A horse is wider than a dog;A tortoise is richer than a rabbit;A truck is higher than a motorbike
-21084;"Comment dit-on ""je viens d'Espagne"" en anglais ?";I come from Spain;I come from Japan;He comes from France;I come from France
-21085;"Comment dit-on ""il vient d'Allemagne"" en anglais ?";He comes from Germany;He comes from Switzerland;He comes from Canada;He comes from Spain
+21084;"Comment dit-on ""je viens d'Espagne"" en anglais ?";I come from Spain;I come from Japan;He was born in France;I come from France
+21085;"Comment dit-on ""il est né en Allemagne"" en anglais ?";He was born in Germany;He was born in Switzerland;He was born in Canada;He was born in Spain
 21086;"Comment dit-on ""un livre est plus haut qu'une feuille"" en anglais ?";A book is higher than a leaf;A book is richer than a leaf;A building is higher than a house;A train is richer than a bicycle
 21087;"Comment dit-on ""une baleine est plus haute qu'un poisson"" en anglais ?";A whale is higher than a fish;A bear is higher than a cat;A bear is heavier than a cat;An elephant is higher than a mouse
 21088;"Comment dit-on ""deux cents"" en anglais ?";two hundred;six;five;one thousand
@@ -103,7 +103,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21102;"Comment dit-on ""un immeuble est plus lourd qu'une maison"" en anglais ?";A building is heavier than a house;A plane is richer than a bird;A mountain is wider than a hill;A rock is richer than a feather
 21103;"Comment dit-on ""mon sport préféré est golf"" en anglais ?";My favourite sport is golf;My favourite sport is tennis;My favourite sport is skiing;My favourite sport is fishing
 21104;"Comment dit-on ""je suis dans la cave"" en anglais ?";I am in the cellar;I am in the bedroom;I am in the bathroom;I am in the garage
-21105;"Comment dit-on ""je viens d'Italie"" en anglais ?";I come from Italy;He comes from England;He comes from Japan;He comes from Scotland
+21105;"Comment dit-on ""je viens d'Italie"" en anglais ?";I come from Italy;He was born in England;He was born in Japan;He was born in Scotland
 21106;"Comment dit-on ""plus léger"" en anglais ?";lighter;hotter;cleaner;heavier
 21107;"Comment dit-on ""je porte une chemise"" en anglais ?";I am wearing a shirt;I am wearing pyjamas;I am wearing a dress;I am wearing socks
 21108;"Comment dit-on ""un immeuble est plus propre qu'une maison"" en anglais ?";A building is cleaner than a house;A giant is cleaner than a mouse;A train is hotter than a bicycle;A building is longer than a house
@@ -129,16 +129,16 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21128;"Comment dit-on ""une baleine est plus longue qu'un poisson"" en anglais ?";A whale is longer than a fish;A horse is longer than a dog;A tortoise is louder than a rabbit;A truck is wider than a motorbike
 21129;"Comment dit-on ""mon sport préféré est l'équitation"" en anglais ?";My favourite sport is horse riding;My favourite sport is golf;My favourite sport is rugby;My favourite sport is judo
 21130;"Comment dit-on ""je suis dans le jardin"" en anglais ?";I am in the garden;I am in the bathroom;I am in the garage;I am in the living room
-21131;"Comment dit-on ""je viens des États-Unis"" en anglais ?";I come from the United States;He comes from Canada;I come from Belgium;I come from Canada
-21132;"Comment dit-on ""il vient des États-Unis"" en anglais ?";He comes from the United States;He comes from Portugal;He comes from Belgium;He comes from China
+21131;"Comment dit-on ""je viens des États-Unis"" en anglais ?";I come from the United States;He was born in Canada;I come from Belgium;I come from Canada
+21132;"Comment dit-on ""il est né aux États-Unis"" en anglais ?";He was born in the United States;He was born in Portugal;He was born in Belgium;He was born in China
 21133;"Comment dit-on ""plus bruyant"" en anglais ?";louder;coldest;dirtiest;lightest
 21134;"Comment dit-on ""une voiture est plus chaude qu'un vélo"" en anglais ?";A car is hotter than a bike;A lion is louder than a duck;A whale is longer than a fish;A lion is longer than a duck
 21135;"Comment dit-on ""un train est plus long qu'une bicyclette"" en anglais ?";A train is longer than a bicycle;A rock is higher than a feather;A building is louder than a house;A river is heavier than a stream
-21136;"Comment dit-on ""il vient du Japon"" en anglais ?";He comes from Japan;I come from Spain;He comes from Scotland;He comes from Ireland
+21136;"Comment dit-on ""il est né au Japon"" en anglais ?";He was born in Japan;I come from Spain;He was born in Scotland;He was born in Ireland
 21137;"Comment dit-on ""j'ai mal à l'oeil"" en anglais ?";My eye hurts;My stomach hurts;My knee hurts;My head hurts
-21138;"Comment dit-on ""il vient d'Italie"" en anglais ?";He comes from Italy;He comes from Japan;He comes from Canada;I come from England
+21138;"Comment dit-on ""il est né en Italie"" en anglais ?";He was born in Italy;He was born in Japan;He was born in Canada;I come from England
 21139;"Que veut dire ""first"" en français ?";premier;troisième;deuxième;cinquième
-21140;"Comment dit-on ""je viens du Canada"" en anglais ?";I come from Canada;I come from Italy;He comes from Portugal;He comes from Italy
+21140;"Comment dit-on ""je viens du Canada"" en anglais ?";I come from Canada;I come from Italy;He was born in Portugal;He was born in Italy
 21141;"Comment dit-on ""un rocher est plus riche qu'une plume"" en anglais ?";A rock is richer than a feather;A giant is cleaner than a mouse;A plane is richer than a bird;A river is higher than a stream
 21142;"Comment dit-on ""j'ai mal à l'oreille"" en anglais ?";My ear hurts;My leg hurts;My tooth hurts;My stomach hurts
 21143;"Comment dit-on ""j'ai mal au ventre"" en anglais ?";My stomach hurts;My back hurts;My arm hurts;My knee hurts
@@ -164,12 +164,12 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21163;"Comment dit-on ""plus riche"" en anglais ?";richer;heavier;quietest;lightest
 21164;"Comment dit-on ""un camion est plus propre qu'une moto"" en anglais ?";A truck is cleaner than a motorbike;A horse is louder than a dog;A bear is higher than a cat;A car is longer than a bike
 21165;"Comment dit-on ""un ours est plus large qu'un chat"" en anglais ?";A bear is wider than a cat;A lion is longer than a duck;A car is hotter than a bike;A tortoise is hotter than a rabbit
-21166;"Comment dit-on ""il vient de Suisse"" en anglais ?";He comes from Switzerland;I come from Portugal;I come from Switzerland;He comes from Scotland
+21166;"Comment dit-on ""il est né en Suisse"" en anglais ?";He was born in Switzerland;I come from Portugal;I come from Switzerland;He was born in Scotland
 21167;"Comment dit-on ""mon sport préféré est ski"" en anglais ?";My favourite sport is skiing;My favourite sport is rugby;My favourite sport is golf;My favourite sport is swimming
 21168;"Comment dit-on ""un ours est plus haut qu'un chat"" en anglais ?";A bear is higher than a cat;A horse is hotter than a dog;A horse is louder than a dog;A whale is longer than a fish
 21169;"Comment dit-on ""un lion est plus riche qu'un canard"" en anglais ?";A lion is richer than a duck;A lion is cleaner than a duck;A lion is longer than a duck;A bear is higher than a cat
 21170;"Comment dit-on ""un géant est plus long qu'une souris"" en anglais ?";A giant is longer than a mouse;A building is cleaner than a house;A plane is cleaner than a bird;A rock is heavier than a feather
-21171;"Comment dit-on ""je viens de Suisse"" en anglais ?";I come from Switzerland;He comes from Scotland;He comes from Germany;He comes from Italy
+21171;"Comment dit-on ""je viens de Suisse"" en anglais ?";I come from Switzerland;He was born in Scotland;He was born in Germany;He was born in Italy
 21172;"Comment dit-on ""cousin"" en anglais ?";cousin;dad;baby;grandpa
 21173;"Que veut dire ""cousin"" en français ?";cousin;bébé;frère;grand-père
 21174;"Comment dit-on ""le plus haut"" en anglais ?";highest;cleanest;colder;richest
@@ -183,7 +183,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21182;"Comment dit-on ""une tortue est plus propre qu'un lapin"" en anglais ?";A tortoise is cleaner than a rabbit;A car is hotter than a bike;A tortoise is louder than a rabbit;A whale is richer than a fish
 21183;"Comment dit-on ""sixième"" en anglais ?";sixth;second;seventh;fourth
 21184;"Comment dit-on ""un avion est plus riche qu'un oiseau"" en anglais ?";A plane is richer than a bird;A rock is hotter than a feather;A plane is longer than a bird;A river is louder than a stream
-21185;"Comment dit-on ""je viens de France"" en anglais ?";I come from France;I come from Portugal;He comes from China;He comes from Germany
+21185;"Comment dit-on ""je viens de France"" en anglais ?";I come from France;I come from Portugal;He was born in China;He was born in Germany
 21186;"Comment dit-on ""un ours est plus riche qu'un chat"" en anglais ?";A bear is richer than a cat;A whale is cleaner than a fish;A truck is longer than a motorbike;A tortoise is higher than a rabbit
 21187;"Comment dit-on ""mon sport préféré est le judo"" en anglais ?";My favourite sport is judo;My favourite sport is climbing;My favourite sport is gymnastics;My favourite sport is volleyball
 21188;"Comment dit-on ""la cinquième"" en anglais ?";the fifth;the third;the ninth;the first
@@ -197,17 +197,17 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21196;"Comment dit-on ""un géant est plus lourd qu'une souris"" en anglais ?";A giant is heavier than a mouse;A train is hotter than a bicycle;A giant is richer than a mouse;A building is cleaner than a house
 21197;"Comment dit-on ""un cheval est plus large qu'un chien"" en anglais ?";A horse is wider than a dog;A car is hotter than a bike;A horse is hotter than a dog;An elephant is hotter than a mouse
 21198;"Que veut dire ""the tenth"" en français ?";la dixième;le septième;le deuxième;la cinquième
-21199;"Comment dit-on ""il vient d'Angleterre"" en anglais ?";He comes from England;I come from England;He comes from France;I come from Ireland
+21199;"Comment dit-on ""il est né en Angleterre"" en anglais ?";He was born in England;I come from England;He was born in France;I come from Ireland
 21200;"Que veut dire ""the third"" en français ?";la troisième;la cinquième;le premier;le septième
 21201;"Comment dit-on ""le plus étroit"" en anglais ?";narrowest;louder;cleaner;quietest
-21202;"Comment dit-on ""je viens d'Irlande"" en anglais ?";I come from Ireland;I come from Germany;I come from France;He comes from the United States
+21202;"Comment dit-on ""je viens d'Irlande"" en anglais ?";I come from Ireland;I come from Germany;I come from France;He was born in the United States
 21203;"Comment dit-on ""un rocher est plus large qu'une plume"" en anglais ?";A rock is wider than a feather;A plane is hotter than a bird;A rock is louder than a feather;A book is longer than a leaf
 21204;"Comment dit-on ""j'ai mal à la jambe"" en anglais ?";My leg hurts;My head hurts;My hand hurts;My back hurts
 21205;"Comment dit-on ""un éléphant est plus long qu'une souris"" en anglais ?";An elephant is longer than a mouse;A bear is cleaner than a cat;A lion is wider than a duck;A truck is higher than a motorbike
 21206;"Comment dit-on ""une montagne est plus propre qu'une colline"" en anglais ?";A mountain is cleaner than a hill;A building is higher than a house;A plane is wider than a bird;A plane is louder than a bird
 21207;"Comment dit-on ""je joue de la flûte"" en anglais ?";I play the flute;I play the harp;I play the violin;I play the trumpet
 21208;"Comment dit-on ""je joue du piano"" en anglais ?";I play the piano;I play the violin;I play the drum;I play the guitar
-21209;"Comment dit-on ""il vient d'Irlande"" en anglais ?";He comes from Ireland;I come from Japan;I come from Spain;I come from Belgium
+21209;"Comment dit-on ""il est né en Irlande"" en anglais ?";He was born in Ireland;I come from Japan;I come from Spain;I come from Belgium
 21210;"Comment dit-on ""je joue de la harpe"" en anglais ?";I play the harp;I play the piano;I play the guitar;I play the drum
 21211;"Comment dit-on ""un immeuble est plus haut qu'une maison"" en anglais ?";A building is higher than a house;A rock is longer than a feather;A train is louder than a bicycle;A train is longer than a bicycle
 21212;"Comment dit-on ""un train est plus chaud qu'une bicyclette"" en anglais ?";A train is hotter than a bicycle;A book is longer than a leaf;A mountain is wider than a hill;A plane is louder than a bird
@@ -230,7 +230,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21229;"Comment dit-on ""un ours est plus chaud qu'un chat"" en anglais ?";A bear is hotter than a cat;A whale is louder than a fish;A truck is louder than a motorbike;An elephant is louder than a mouse
 21230;"Comment dit-on ""je joue de la trompette"" en anglais ?";I play the trumpet;I play the violin;I play the flute;I play the harp
 21231;"Comment dit-on ""je porte des pyjama"" en anglais ?";I am wearing pyjamas;I am wearing gloves;I am wearing a dress;I am wearing a tie
-21232;"Comment dit-on ""je viens du Portugal"" en anglais ?";I come from Portugal;He comes from Switzerland;He comes from Portugal;I come from France
+21232;"Comment dit-on ""je viens du Portugal"" en anglais ?";I come from Portugal;He was born in Switzerland;He was born in Portugal;I come from France
 21233;"Comment dit-on ""le plus sale"" en anglais ?";dirtiest;lighter;lowest;loudest
 21234;"Comment dit-on ""un avion est plus propre qu'un oiseau"" en anglais ?";A plane is cleaner than a bird;A book is higher than a leaf;A giant is hotter than a mouse;A giant is higher than a mouse
 21235;"Comment dit-on ""un train est plus large qu'une bicyclette"" en anglais ?";A train is wider than a bicycle;A building is louder than a house;A plane is cleaner than a bird;A giant is cleaner than a mouse
@@ -238,7 +238,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21237;"Comment dit-on ""un camion est plus haut qu'une moto"" en anglais ?";A truck is higher than a motorbike;An elephant is richer than a mouse;A bear is heavier than a cat;An elephant is longer than a mouse
 21238;"Comment dit-on ""j'ai mal à la dent"" en anglais ?";My tooth hurts;My head hurts;My foot hurts;My arm hurts
 21239;"Comment dit-on ""plus chaud"" en anglais ?";hotter;lightest;louder;lower
-21240;"Comment dit-on ""il vient de France"" en anglais ?";He comes from France;I come from Belgium;I come from England;He comes from England
+21240;"Comment dit-on ""il est né en France"" en anglais ?";He was born in France;I come from Belgium;I come from England;He was born in England
 21241;"Comment dit-on ""une tortue est plus lourde qu'un lapin"" en anglais ?";A tortoise is heavier than a rabbit;A horse is heavier than a dog;A bear is hotter than a cat;An elephant is wider than a mouse
 21242;"Comment dit-on ""plus froid"" en anglais ?";colder;dirtiest;longer;dirtier
 21243;"Comment dit-on ""un livre est plus long qu'une feuille"" en anglais ?";A book is longer than a leaf;A building is louder than a house;A giant is hotter than a mouse;A rock is wider than a feather
@@ -254,7 +254,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21253;"Comment dit-on ""un avion est plus large qu'un oiseau"" en anglais ?";A plane is wider than a bird;A giant is longer than a mouse;A plane is hotter than a bird;A book is cleaner than a leaf
 21254;"Comment dit-on ""un rocher est plus lourd qu'une plume"" en anglais ?";A rock is heavier than a feather;A train is louder than a bicycle;A building is longer than a house;A mountain is louder than a hill
 21255;"Comment dit-on ""un géant est plus chaud qu'une souris"" en anglais ?";A giant is hotter than a mouse;A river is louder than a stream;A mountain is longer than a hill;A book is louder than a leaf
-21256;"Comment dit-on ""je viens de Belgique"" en anglais ?";I come from Belgium;He comes from Portugal;I come from Switzerland;He comes from Switzerland
+21256;"Comment dit-on ""je viens de Belgique"" en anglais ?";I come from Belgium;He was born in Portugal;I come from Switzerland;He was born in Switzerland
 21257;"Comment dit-on ""un ours est plus long qu'un chat"" en anglais ?";A bear is longer than a cat;A lion is richer than a duck;A truck is cleaner than a motorbike;A car is richer than a bike
 21258;"Comment dit-on ""j'ai un mari"" en anglais ?";I have a husband;I have a cousin;I have a baby;I have a niece
 21259;"Comment dit-on ""le plus pauvre"" en anglais ?";poorest;quietest;heaviest;heavier
@@ -278,7 +278,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21277;"Que veut dire ""young"" en français ?";jeune;neuf;grand (taille);facile
 21278;"Comment dit-on ""neuf"" en anglais ?";new;easy;old;dirty
 21279;"Que veut dire ""new"" en français ?";neuf;grand (taille);vide;propre
-21280;"Comment dit-on ""il vient d'Espagne"" en anglais ?";He comes from Spain;He comes from England;He comes from Switzerland;He comes from Ireland
+21280;"Comment dit-on ""il est né en Espagne"" en anglais ?";He was born in Spain;He was born in England;He was born in Switzerland;He was born in Ireland
 21281;"Comment dit-on ""ne grimpe pas sur la table"" en anglais ?";don't climb on the table;don't sleep in class;don't forget your notebook;don't touch
 21282;"Comment dit-on ""faible"" en anglais ?";weak;short;tall;new
 21283;"Que veut dire ""weak"" en français ?";faible;sale;facile;petit (taille)
@@ -444,7 +444,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21443;"Que veut dire ""I live in Canada"" en français ?";j'habite au Canada;j'habite en Irlande;j'habite en Italie;j'habite en Espagne
 21444;"Comment dit-on ""j'habite en Irlande"" en anglais ?";I live in Ireland;I live in France;I live in Canada;I live in Italy
 21445;"Que veut dire ""I live in Ireland"" en français ?";j'habite en Irlande;j'habite en Espagne;j'habite en Angleterre;j'habite en France
-21446;"Comment dit-on ""il vient du Portugal"" en anglais ?";He comes from Portugal;He comes from Canada;I come from Italy;He comes from Italy
+21446;"Comment dit-on ""il est né au Portugal"" en anglais ?";He was born in Portugal;He was born in Canada;I come from Italy;He was born in Italy
 21447;"Comment dit-on ""un lion est plus bruyant qu'un canard"" en anglais ?";A lion is louder than a duck;A truck is heavier than a motorbike;A horse is wider than a dog;A truck is wider than a motorbike
 21448;"Comment dit-on ""un camion est plus long qu'une moto"" en anglais ?";A truck is longer than a motorbike;An elephant is wider than a mouse;A horse is cleaner than a dog;A tortoise is higher than a rabbit
 21449;"Comment dit-on ""un train est plus bruyant qu'une bicyclette"" en anglais ?";A train is louder than a bicycle;A building is higher than a house;A giant is cleaner than a mouse;A rock is hotter than a feather
@@ -456,7 +456,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 21455;"Comment dit-on ""une montagne est plus riche qu'une colline"" en anglais ?";A mountain is richer than a hill;A train is longer than a bicycle;A train is louder than a bicycle;A river is cleaner than a stream
 21456;"Comment dit-on ""un fleuve est plus lourd qu'un ruisseau"" en anglais ?";A river is heavier than a stream;A building is wider than a house;A building is longer than a house;A rock is richer than a feather
 21457;"Comment dit-on ""je porte une robe"" en anglais ?";I am wearing a dress;I am wearing gloves;I am wearing pyjamas;I am wearing a jacket
-21458;"Comment dit-on ""je viens d'Angleterre"" en anglais ?";I come from England;He comes from France;I come from Japan;I come from Switzerland
+21458;"Comment dit-on ""je viens d'Angleterre"" en anglais ?";I come from England;He was born in France;I come from Japan;I come from Switzerland
 21459;"Comment dit-on ""je joue de la guitare"" en anglais ?";I play the guitar;I play the flute;I play the drum;I play the harp
 21460;"Comment dit-on ""j'ai un neveu"" en anglais ?";I have a nephew;I have a cousin;I have an aunt;I have a baby
 21461;"Comment dit-on ""j'ai un oncle"" en anglais ?";I have an uncle;I have a twin;I have an aunt;I have a cousin

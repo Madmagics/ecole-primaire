@@ -1,9 +1,9 @@
 id;type;text;correct_answer;choice_2;choice_3;choice_4;passage_id;qtype
-24000;passage;"Léa passe la journée à la plage avec son papa. Elle emporte un seau bleu. Elle emporte aussi une pelle rouge dans son sac. Dès qu'elle arrive près de l'eau, Léa commence à creuser le sable mouillé. Elle veut construire un grand château.
+24000;passage;"Léa passe la journée à la plage avec son papa. Elle emporte un seau bleu et une pelle rouge dans son sac. Dès qu'elle arrive près de l'eau, Léa commence à creuser le sable mouillé pour bâtir un grand château.
 
-Le château a quatre tours pointues. Un petit pont relie les tours. Léa plante fièrement un drapeau jaune. Elle le plante tout en haut de la tour principale. Son papa l'aide à ramasser des coquillages sur le rivage. Ils décorent ensemble les murs du château.
+Le château à quatre tours pointues et un petit pont. Léa plante fièrement un drapeau jaune tout en haut de la tour principale. Son papa l'aide à ramasser des coquillages sur le rivage pour décorer les murs.
 
-Peu à peu, la marée monte. L'eau vient tout près du château. Léa rit très fort. Elle regarde les vagues s'approcher doucement du château.";;;;;;
+Peu à peu, la marée monte et l'eau vient tout près du château. Léa rit très fort en regardant les vagues s'approcher doucement de sa création.";;;;;;
 24001;question;Où Léa passe-t-elle sa journée ?;à la plage;à la piscine;à la maison;au parc;24000;L
 24002;question;Avec qui est Léa ?;son papa;sa maman;son frère;sa mamie;24000;L
 24003;question;Que emporte Léa dans son sac ?;un seau et une pelle;une serviette et un livre;un ballon et un cerf-volant;des lunettes et une casquette;24000;L
@@ -24,11 +24,11 @@ Peu à peu, la marée monte. L'eau vient tout près du château. Léa rit très 
 24018;question;"Que veut dire ""fièrement"" dans le texte ?";avec fierté;avec tristesse;avec peur;avec colère;24000;V
 24019;question;Pourquoi Léa rit-elle en voyant les vagues approcher ?;elle n'a pas peur et s'amuse de son jeu;elle veut que son château soit détruit;elle a peur des vagues;elle est en colère contre la mer;24000;I
 24020;question;Que va probablement arriver au château si la marée continue de monter ?;il va être abîme par l'eau;il va devenir plus grand;il va voler;rien ne va changer;24000;I
-24021;passage;"Hugo part visiter une ferme avec toute sa classe. Dès son arrivée, la maîtresse rassemble les enfants. Ils se rassemblent près du poulailler. Hugo observe des poules toutes blanches. Les poules picorent des graines dans la cour.
+24021;passage;"Hugo part visiter une ferme avec toute sa classe. Dès son arrivée, la maîtresse rassemble les enfants près du poulailler. Hugo observe des poules toutes blanches qui picorent des graines dans la cour.
 
-Un peu plus loin, il caresse doucement un lapin gris. Le lapin ne bouge presque pas. Dans le pré voisin, une grosse vache brune mange de l'herbe fraîche. Elle mange sans se presser. Hugo tend un morceau de pain à une chèvre curieuse. La chèvre vient renifler sa main.
+Un peu plus loin, il caresse doucement un lapin gris qui ne bouge presque pas. Dans le pré voisin, une grosse vache brune mange de l'herbe fraîche sans se presser. Hugo tend un morceau de pain à une chèvre curieuse qui vient renifler sa main.
 
-Soudain, un coq pousse un cri très fort. Il crie du haut de son perchoir. À midi, tous les enfants s'installent dehors. Ils mangent leur pique-nique. Hugo trouve cette sortie formidable. Il rentre à l'école avec le sourire.";;;;;;
+Soudain, un coq pousse un cri très fort du haut de son perchoir. A midi, tous les enfants s'installent dehors pour manger leur pique-nique. Hugo trouve cette sortie formidable et rentre à l'école avec le sourire.";;;;;;
 24022;question;Où Hugo part-il en sortie ?;à la ferme;au musée;à la piscine;au zoo;24021;L
 24023;question;Avec qui part-il ?;sa classe;sa famille;ses cousins;ses voisins;24021;L
 24024;question;Qui rassemble les enfants près du poulailler ?;la maîtresse;le fermier;sa maman;personne;24021;L
@@ -49,11 +49,11 @@ Soudain, un coq pousse un cri très fort. Il crie du haut de son perchoir. À mi
 24039;question;"Que veut dire ""renifler"" dans le texte ?";sentir avec le nez;goûter avec la langue;regarder de près;toucher avec la patte;24021;V
 24040;question;Pourquoi la chèvre vient-elle vers Hugo ?;elle sent le pain et veut le manger;elle a peur de lui;elle veut jouer;elle le reconnaît;24021;I
 24041;question;Qu'est-ce qui montre que Hugo a aimé la sortie ?;il rentre avec le sourire;il pleure au moment de partir;il ne dit rien;il veut repartir chez lui plus tôt;24021;I
-24042;passage;"Nora part faire une randonnée en montagne avec sa maman. Elles partent tôt un samedi matin. Elles empruntent un sentier étroit. Le sentier grimpe entre les sapins. Nora remarque des fleurs violettes. Les fleurs poussent au bord du chemin.
+24042;passage;"Nora part faire une randonnée en montagne avec sa maman, tôt un samedi matin. Elles empruntent un sentier étroit qui grimpe entre les sapins. Nora remarque des fleurs violettes qui poussent au bord du chemin.
 
-Un peu plus haut, elle entend le bruit d'une cascade. La cascade est cachée derrière les rochers. Un écureuil roux traverse soudain le sentier. Il grimpe dans un arbre. Nora s'arrête pour boire un peu d'eau fraîche. Elle boit l'eau de sa gourde.
+Un peu plus haut, elle entend le bruit d'une cascade cachée derrière les rochers. Un écureuil roux traverse soudain le sentier et grimpe dans un arbre. Nora s'arrête pour boire un peu d'eau fraîche de sa gourde.
 
-Quand elles atteignent enfin le sommet, on peut voir tout le village en contrebas. Nora se sent très fière. Elle a grimpé jusqu'en haut sans se plaindre.";;;;;;
+Quand elles atteignent enfin le sommet, on peut voir tout le village en contrebas. Nora se sent très fière d'avoir grimpé jusqu'en haut sans se plaindre.";;;;;;
 24043;question;Avec qui Nora part-elle en randonnée ?;sa maman;son papa;sa mamie;sa classe;24042;L
 24044;question;Quel jour partent-elles ?;un samedi matin;un dimanche soir;un mercredi;un jour de semaine;24042;L
 24045;question;Où passe le sentier qu'elles empruntent ?;entre les sapins;au bord de la mer;dans un village;dans un champ;24042;L
@@ -74,11 +74,11 @@ Quand elles atteignent enfin le sommet, on peut voir tout le village en contreba
 24060;question;"Que veut dire ""en contrebas"" dans le texte ?";plus bas, en dessous;tout en haut;très loin sur le côté;au milieu;24042;V
 24061;question;Pourquoi Nora est-elle fière en arrivant au sommet ?;elle a réussi à grimper sans se plaindre;elle a gagné une course;on lui a offert un cadeau;elle a retrouvé des amis;24042;I
 24062;question;Qu'est-ce que la randonnée a demandé à Nora ?;de l'effort et de la persévérance;aucun effort particulier;de l'argent;de la chance seulement;24042;I
-24063;passage;"Tom se rend à la fête foraine avec son grand frère. Ils y vont un samedi soir. Dès leur arrivée, Tom monte sur le manège à chevaux. Le manège tourne en musique. Il achète ensuite une grosse barbe à papa rose. La barbe à papa colle à ses doigts.
+24063;passage;"Tom se rend à la fête foraine avec son grand frère, un samedi soir. Dès leur arrivée, Tom monte sur le manège à chevaux qui tourne en musique. Il achète ensuite une grosse barbe à papa rose qui colle à ses doigts.
 
-Au stand de tir, Tom vise bien. Il gagne un ours en peluche marron. La nuit tombe. Des milliers de lumières colorées s'allument autour d'eux.
+Au stand de tir, Tom vise bien et gagne un ours en peluche marron. La nuit tombe et des milliers de lumières colorées s'allument autour d'eux.
 
-Tom entend de la musique. Elle vient de partout à la fois. Pour finir la soirée, il rit aux éclats sur les autos tamponneuses. Il y est avec son frère. Quelle soirée merveilleuse pour Tom !";;;;;;
+Tom entend de la musique qui vient de partout à la fois. Pour finir la soirée, il rit aux éclats sur les autos tamponneuses avec son frère. Quelle soirée merveilleuse pour Tom !";;;;;;
 24064;question;Quand Tom va-t-il à la fête foraine ?;un samedi soir;un dimanche matin;un mercredi après-midi;pendant les vacances d'été;24063;L
 24065;question;Avec qui Tom y va-t-il ?;son grand frère;sa mamie;sa classe;son papa;24063;L
 24066;question;Sur quoi Tom monte-t-il en premier ?;le manège à chevaux;la grande roue;le train fantôme;le grand huit;24063;L
@@ -99,11 +99,11 @@ Tom entend de la musique. Elle vient de partout à la fois. Pour finir la soiré
 24081;question;"Que veut dire ""rit aux éclats"" dans le texte ?";rit très fort;pleure un peu;chante fort;crie de peur;24063;V
 24082;question;Pourquoi la barbe à papa colle-t-elle aux doigts de Tom ?;c'est du sucre qui devient collant;Tom à les mains sales;elle est trop chaude;elle est cassée;24063;I
 24083;question;Qu'est-ce qui montre que Tom passe une très bonne soirée ?;il rit et qualifie la soirée de merveilleuse;il regarde tout le temps l'heure;il demande à rentrer tôt;il reste seul dans un coin;24063;I
-24084;passage;"Alice prend le train avec sa mamie. Il fait beau ce jour-là. Elles vont à la campagne. Elles y passent le week-end. Avant de partir, Alice range ses affaires. Elle les range dans une valise rouge.
+24084;passage;"Alice prend le train avec sa mamie pour aller passer le week-end à la campagne. Avant de partir, elle range ses affaires dans une petite valise rouge.
 
-Alice regarde par la fenêtre. Le ciel est bleu. Le paysage défile à toute vitesse. Le train passe dans de grands champs verts. Des vaches y paissent.
+Une fois assise, Alice regarde par la fenêtre le paysage qui défile à toute vitesse. Le train traverse de grands champs verts où paissent des vaches tranquilles.
 
-Vers midi, la mamie d'Alice sort un goûter. Elle le partage avec Alice. Un contrôleur passe dans le train. Il vérifie le billet de chaque voyageur. Bercée par le train, Alice s'endort un moment. Elle se réveille. Le train arrive doucement en gare.";;;;;;
+Vers midi, sa mamie sort un goûter et le partage avec Alice. Un contrôleur passe dans le wagon pour vérifier le billet de chaque voyageur. Bercée par le mouvement du train, Alice finit par s'endormir un moment. Quand elle se réveille, le train arrive doucement en gare.";;;;;;
 24085;question;Avec qui Alice prend-elle le train ?;sa mamie;son papa;sa classe;sa soeur;24084;L
 24086;question;Où vont-elles ?;à la campagne;à la mer;en ville;à la montagne;24084;L
 24087;question;Que fait Alice avant de partir ?;elle range ses affaires dans une valise;elle prépare à manger;elle téléphone à une amie;elle dort;24084;L
@@ -124,11 +124,11 @@ Vers midi, la mamie d'Alice sort un goûter. Elle le partage avec Alice. Un cont
 24102;question;"Que veut dire ""bercée"" dans le texte ?";endormie doucement par un mouvement régulier;réveillée brusquement;effrayée;gênée;24084;V
 24103;question;Pourquoi Alice s'endort-elle pendant le trajet ?;le mouvement régulier du train la berce;elle est malade;elle s'ennuie beaucoup;il fait très sombre dans le wagon;24084;I
 24104;question;Que peut-on deviner sur la relation d'Alice avec sa mamie ?;elles passent un moment agréable ensemble;elles se disputent souvent;elles se voient pour la première fois;Alice n'aime pas voyager avec elle;24084;I
-24105;passage;"Diego prend l'avion pour la toute première fois de sa vie. Il vole en direction de l'Espagne. Un peu nerveux, il serre fort la main de son papa. Il la serre pendant le décollage. L'avion s'élève très vite dans le ciel. Diego sent son ventre se serrer.
+24105;passage;"Diego prend l'avion pour la toute première fois de sa vie, en direction de l'Espagne. Un peu nerveux, il serre fort la main de son papa pendant le décollage. L'avion s'élève très vite dans le ciel et Diego sent son ventre se serrer.
 
-Par le hublot, il regarde les nuages blancs. Ils ressemblent à de la barbe à papa. Une hôtesse souriante lui apporte un jus d'orange. Elle lui apporte aussi un petit gâteau salé. Diego observe longtemps la mer bleue. Elle s'étend à perte de vue sous l'avion.
+Par le hublot, il regarde les nuages blancs qui ressemblent à de la barbe à papa. Une hôtesse souriante lui apporte un jus d'orange et un petit gâteau sale. Diego observe longtemps la mer bleue qui s'étend à perte de vue sous l'avion.
 
-Peu à peu, il se détend. Il commence même à trouver ce voyage passionnant. Quand l'avion se pose enfin, Diego a déjà hâte de reprendre l'avion un jour.";;;;;;
+Peu à peu, il se détend et commence même à trouver ce voyage passionnant. Quand l'avion se pose enfin, Diego a déjà hâte de reprendre l'avion un jour.";;;;;;
 24106;question;Que fait Diego pour la première fois ?;il prend l'avion;il prend le bateau;il nage dans la mer;il conduit une voiture;24105;L
 24107;question;Vers quel pays vole l'avion ?;l'Espagne;l'Italie;le Portugal;la Grèce;24105;L
 24108;question;Comment Diego se sent-il avant le décollage ?;un peu nerveux;très calme;en colère;endormi;24105;L
@@ -149,11 +149,11 @@ Peu à peu, il se détend. Il commence même à trouver ce voyage passionnant. Q
 24123;question;"Que veut dire ""s'étend à perte de vue"" dans le texte ?";va très loin, jusqu'à l'horizon;est toute petite;est invisible;est très agitée;24105;V
 24124;question;Pourquoi le ventre de Diego se serre-t-il au décollage ?;c'est la sensation inhabituelle de l'accélération;il est malade;il a faim;il a trop mangé;24105;I
 24125;question;Qu'est-ce qui montre que Diego a changé d'avis pendant le vol ?;il passe de nerveux à passionné par le voyage;il pleure de plus en plus;il demande à rentrer;il reste inquiet jusqu'à la fin;24105;I
-24126;passage;"Ingrid part en bateau avec ses parents. C'est la première semaine des vacances. Le soleil brille. Le ciel est bleu. Le bateau est immense. Il est tout blanc. Il a des étages. Des escaliers relient les étages. Ingrid est accoudée au bastingage. Elle regarde la mer. La mer est d'un bleu profond. Elle s'étend à l'infini.
+24126;passage;"Ingrid embarque pour une croisière en mer avec ses parents, pour la première semaine des vacances. Le bateau est immense, tout blanc, avec plusieurs étages relies par des escaliers. Accoudée au bastingage, Ingrid regarde la mer d'un bleu profond qui s'étend à l'infini.
 
-Soudain, un groupe de dauphins bondit hors de l'eau. Ils sont tout près du bateau. Ingrid est ravie. Le capitaine porte un uniforme blanc. Il salue les gens sur le pont.
+Soudain, un groupe de dauphins bondit hors de l'eau tout près du bateau, ce qui ravit Ingrid. Le capitaine, en uniforme blanc, salue les passagers réunis sur le pont.
 
-Le soir, Ingrid mange dans une grande salle. La salle a des lumières. Les lumières sont scintillantes. Le roulis du bateau berce Ingrid. Elle s'endort dans sa cabine. La cabine est petite et confortable. Ingrid espère refaire une croisière l'année prochaine.";;;;;;
+Le soir, Ingrid dîne dans une grande salle décorée de lumières scintillantes. Bercée par le roulis du bateau, elle s'endort dans sa petite cabine confortable. Ingrid espère déjà pouvoir refaire une croisière l'année prochaine.";;;;;;
 24127;question;Avec qui Ingrid part-elle en croisière ?;ses parents;sa classe;ses cousins;sa mamie;24126;L
 24128;question;Quand a lieu cette croisière ?;la première semaine des vacances;un week-end d'hiver;pendant l'année scolaire;un jour férié;24126;L
 24129;question;Comment est le bateau ?;immense et blanc;petit et vieux;en bois;rouge et jaune;24126;L
@@ -174,11 +174,9 @@ Le soir, Ingrid mange dans une grande salle. La salle a des lumières. Les lumi�
 24144;question;"Que veut dire ""s'étend à l'infini"" dans le texte ?";semble ne jamais s'arrêter;est très petite;change de couleur;est dangereuse;24126;V
 24145;question;Pourquoi Ingrid est-elle ravie de voir les dauphins ?;c'est un spectacle rare et magnifique en pleine mer;elle a peur des dauphins d'habitude;elle ne les avait jamais vus en photo;le capitaine le lui avait promis;24126;I
 24146;question;Qu'est-ce qui montre qu'Ingrid a passé un bon séjour ?;elle espère refaire une croisière l'an prochain;elle est pressée de rentrer;elle ne parle pas de la croisière;elle veut essayer un autre transport;24126;I
-24147;passage;"Marco passe toute la journée chez ses cousins. Ils vivent dans une grande maison. La maison a un jardin. Dès son arrivée, il voit sa cousine Livia. Ils jouent au ballon. Ils jouent sous le soleil.
+24147;passage;"Marco passe toute la journée chez ses cousins, qui habitent une grande maison avec un jardin. Dès son arrivée, il retrouve sa cousine Livia et ils jouent au ballon sous le soleil. Livia propose ensuite de fabriquer une cabane en empilant des couvertures sur des chaises. Leur tante prépare des cookies encore chauds que les enfants dégustent avec plaisir. Marco et Livia rient beaucoup en se racontant des histoires drôles dans leur cabane improvisée.
 
-Livia veut fabriquer une cabane. Ils mettent des couvertures sur des chaises. Leur tante prépare des cookies. Les cookies sont encore chauds. Les enfants les dégustent avec plaisir.
-
-Marco et Livia rient. Ils racontent des histoires drôles. Ils sont dans leur cabane improvisée. Le soir, toute la famille regarde un film. Elle le regarde dans le salon. Quand ses parents viennent le chercher, Marco n'a pas envie de repartir.";;;;;;
+Le soir venu, toute la famille regarde ensemble un film dans le salon. Quand ses parents viennent le chercher, Marco n'a vraiment pas envie de repartir.";;;;;;
 24148;question;Chez qui Marco passe-t-il la journée ?;ses cousins;ses grands-parents;ses voisins;sa marraine;24147;L
 24149;question;Où habitent les cousins de Marco ?;une grande maison avec jardin;un appartement en ville;une ferme;au bord de la mer;24147;L
 24150;question;Comment s'appelle la cousine de Marco ?;Livia;Sofia;Inès;Zoé;24147;L
@@ -199,11 +197,11 @@ Marco et Livia rient. Ils racontent des histoires drôles. Ils sont dans leur ca
 24165;question;"Que veut dire ""dégustent"" dans le texte ?";mangent en appréciant le goût;avalent très vite;refusent de manger;partagent avec d'autres;24147;V
 24166;question;Pourquoi Marco ne veut-il pas repartir à la fin de la journée ?;il a passé un très bon moment avec ses cousins;il s'est disputé avec ses parents;il a oublié quelque chose chez sa tante;il a peur de rentrer seul;24147;I
 24167;question;Qu'est-ce qui montre que Marco et Livia s'entendent bien ?;ils jouent, rient et inventent des histoires ensemble;ils se disputent tout le temps;ils restent chacun de leur côté;ils ne se parlent presque pas;24147;I
-24168;passage;"Sofia part pique-niquer avec toute sa famille. C'est un dimanche ensoleillé. Il fait très beau. Le ciel est bleu. Ils installent une grande nappe à carreaux. Ils s'installent à l'ombre d'un vieux chêne. Sofia a faim. Elle sourit. Elle croque avec plaisir dans un sandwich au fromage. Sa maman a préparé le sandwich.
+24168;passage;"Sofia part pique-niquer à la campagne un dimanche ensoleillé avec toute sa famille. Ils installent une grande nappe à carreaux à l'ombre d'un vieux chêne. Sofia croque avec plaisir dans un sandwich au fromage préparé par sa maman.
 
-Sa maman découpe ensuite une pastèque bien sucrée. Elle la découpe en tranches épaisses pour tout le monde. Tout le monde sourit. Non loin de là, des vaches broutent calmement dans un pré. Le pré est entouré de fleurs.
+Celle-ci découpe ensuite une pastèque bien sucrée en tranches épaisses pour tout le monde. Non loin de la, des vaches broutent calmement dans un pré entouré de fleurs.
 
-Sofia s'amuse à courir après des papillons colorés. Les papillons volent au-dessus de l'herbe. Son papa sort sa guitare. Il joue des airs joyeux. Le soleil descend doucement. Fatiguée par sa journée, Sofia s'endort dans l'herbe tendre.";;;;;;
+Sofia s'amuse à courir après des papillons multicolores qui volent au-dessus de l'herbe. Son papa sort sa guitare et joue quelques airs joyeux pendant que le soleil descend doucement. Fatiguée par sa journée, Sofia finit par s'endormir calmement dans l'herbe tendre.";;;;;;
 24169;question;Quel jour Sofia pique-nique-t-elle ?;un dimanche ensoleillé;un lundi pluvieux;un jour de neige;un soir d'hiver;24168;L
 24170;question;Où installent-ils la nappe ?;à l'ombre d'un vieux chêne;en plein soleil;sous une tente;au bord de l'eau;24168;L
 24171;question;Comment est la nappe ?;à carreaux;unie et blanche;fleurie;à rayures;24168;L
@@ -224,11 +222,11 @@ Sofia s'amuse à courir après des papillons colorés. Les papillons volent au-d
 24186;question;"Que veut dire ""entoure"" dans le texte ?";se trouve tout autour;est loin de;est caché sous;est au-dessus de;24168;V
 24187;question;Pourquoi Sofia s'endort-elle à la fin de la journée ?;elle est fatiguée par une journée active et agréable;elle est malade;elle s'ennuie beaucoup;il fait très froid dehors;24168;I
 24188;question;Qu'est-ce qui montre que la famille de Sofia passe un bon moment ensemble ?;chacun profite du pique-nique et de la musique;ils se disputent pour la nourriture;ils veulent rentrer très vite;personne ne parle pendant le repas;24168;I
-24189;passage;"Elias se rend à la plage avec son cerf-volant. Le cerf-volant est rouge et jaune. Il est tout neuf. Ce jour-là, un vent fort souffle depuis la mer. C'est idéal pour faire voler un cerf-volant. Elias court sur le sable en tenant fermement la ficelle tendue.
+24189;passage;"Elias se rend à la plage avec son cerf-volant rouge et jaune tout neuf. Ce jour-là, un vent fort souffle depuis la mer, idéal pour faire voler un cerf-volant. Elias court sur le sable en tenant fermement la ficelle tendue.
 
-Peu à peu, le cerf-volant s'élève. Il monte très haut dans le ciel bleu. Sa soeur applaudit. Elle l'encourage depuis sa serviette de plage.
+Peu à peu, le cerf-volant s'élève et monte très haut dans le ciel bleu. Sa soeur applaudit et l'encourage depuis sa serviette de plage.
 
-Un petit chien noir court gaiement autour d'eux. Il aboie joyeusement. Des rafales secouent le cerf-volant. Elias maintient quand même fermement la ficelle. Quand il rentre chez lui, Elias est très fier de son exploit.";;;;;;
+Un petit chien noir court gaiement autour d'eux en aboyant. Elias maintient fermement la ficelle malgré les rafales qui secouent le cerf-volant. Quand il rentre chez lui, Elias est très fier de son exploit.";;;;;;
 24190;question;Où Elias se rend-il avec son cerf-volant ?;à la plage;au parc;en montagne;dans son jardin;24189;L
 24191;question;De quelles couleurs est le cerf-volant ?;rouge et jaune;bleu et blanc;vert et noir;rose et violet;24189;L
 24192;question;D'ou souffle le vent ce jour-là ?;depuis la mer;depuis la montagne;il n'y à pas de vent;depuis la ville;24189;L
@@ -249,11 +247,11 @@ Un petit chien noir court gaiement autour d'eux. Il aboie joyeusement. Des rafal
 24207;question;"Que veut dire ""exploit"" dans le texte ?";une réussite dont on est fier;un échec;une erreur;un accident;24189;V
 24208;question;Pourquoi Elias tient-il si fermement la ficelle ?;pour que le vent ne lui arrache pas le cerf-volant;parce que la ficelle est fragile;pour impressionner sa soeur;parce qu'il a peur du chien;24189;I
 24209;question;Qu'est-ce qui montre que la sortie est une réussite pour Elias ?;il rentre très fier de lui;il perd son cerf-volant à la fin;il pleure en rentrant;il ne veut plus jamais recommencer;24189;I
-24210;passage;"Greta accompagne son papi en forêt pour cueillir des champignons. C'est un matin d'automne. Il fait un peu froid. Le temps est brumeux. Elle porte un panier en osier. Le panier est accroché à son bras. Papi lui explique comment reconnaître les bons champignons.
+24210;passage;"Greta accompagne son papi en forêt pour cueillir des champignons, un matin d'automne brumeux. Elle porte un panier en osier accroche à son bras. Papi lui explique comment reconnaître les bons champignons des mauvais.
 
-Sous un vieux chêne, Greta découvre un énorme cèpe. Il est caché dans les feuilles mortes. Un oiseau chante au-dessus d'eux. Ils avancent lentement entre les arbres. Greta ramasse aussi des châtaignes. Elles sont tombées au sol. Elles sont encore dans leur bogue piquante.
+Sous un vieux chêne, Greta découvre un énorme cèpe cache dans les feuilles mortes. Un oiseau chante quelque part au-dessus d'eux pendant qu'ils avancent lentement entre les arbres. Greta ramasse aussi plusieurs châtaignes tombées au sol, encore dans leur bogue piquante.
 
-Au fil de la promenade, son panier devient de plus en plus lourd. De retour à la maison, Greta est très fière. Elle montre sa récolte à toute la famille.";;;;;;
+Au fil de la promenade, son panier devient de plus en plus lourd à porter. De retour à la maison, Greta est très fière de montrer sa récolte à toute la famille.";;;;;;
 24211;question;Où Greta va-t-elle avec son papi ?;en forêt;au marche;au jardin;à la plage;24210;L
 24212;question;Quand se passe cette sortie ?;un matin d'automne;un soir d'été;en plein hiver;au printemps;24210;L
 24213;question;Comment est la matinée ?;brumeuse;ensoleillée;pluvieuse;venteuse;24210;L
@@ -274,13 +272,11 @@ Au fil de la promenade, son panier devient de plus en plus lourd. De retour à l
 24228;question;"Que veut dire ""récolte"" dans le texte ?";ce qu'on a ramassé ou cueilli;un repas complet;un jeu;une promenade;24210;V
 24229;question;Pourquoi papi explique-t-il à Greta comment reconnaître les champignons ?;pour qu'elle ne ramasse pas de champignons dangereux;pour qu'elle apprenne à cuisiner;pour qu'elle devienne jardinière;pour l'occuper pendant la promenade;24210;I
 24230;question;Qu'est-ce qui montre que la cueillette a été une réussite ?;le panier devient lourd et Greta est fière;Greta rentre les mains vides;papi est déçu du résultat;Greta ne trouve rien du tout;24210;I
-24231;passage;"Oskar se réveille un matin. Il découvre un tapis de neige blanche. La neige recouvre tout le jardin. Oskar est tout excité.
+24231;passage;"Oskar se réveille un matin et découvre un épais tapis de neige blanche recouvrant le jardin. Tout excite, il enfile rapidement ses bottes fourrées et son gros bonnet de laine. Dehors, Oskar et son frère fabriquent des boules de neige bien compactes pour se les lancer.
 
-Il enfile vite ses bottes fourrées. Il met aussi son gros bonnet de laine. Dehors, Oskar joue avec son frère. Ensemble, ils fabriquent des boules de neige compactes. Ils se les lancent en riant.
+Ensuite, ils grimpent sur une petite pente et glissent en riant jusqu'en bas. Un merle rouge se pose sur une branche couverte de givre, juste au-dessus d'eux.
 
-Puis ils grimpent sur une petite pente. Ils glissent en riant jusqu'en bas. Un merle rouge se pose sur une branche. La branche est couverte de givre.
-
-Après un moment, les mains d'Oskar deviennent toutes rouges de froid. Il a pourtant mis des gants. Sa maman prépare un grand chocolat chaud. Elle le prépare dès qu'il rentre. Oskar termine sa journée complètement ravi.";;;;;;
+Après un moment, Oskar sent ses mains devenir toutes rouges de froid malgré ses gants. Sa maman lui prépare alors un grand bol de chocolat chaud dès qu'il rentre. Oskar termine cette journée enneigée complètement ravi.";;;;;;
 24232;question;Que découvre Oskar en se réveillant ?;un tapis de neige blanche;de la pluie;un jardin fleuri;du brouillard;24231;L
 24233;question;Où se trouve la neige ?;dans le jardin;seulement sur la route;sur le toit uniquement;il n'y à pas de neige;24231;L
 24234;question;Comment Oskar se sent-il en voyant la neige ?;tout excité;indifférent;en colère;fatigué;24231;L
@@ -301,11 +297,11 @@ Après un moment, les mains d'Oskar deviennent toutes rouges de froid. Il a pour
 24249;question;"Que veut dire ""compactes"" dans le texte ?";serrées et dures;molles et fondantes;toutes petites;invisibles;24231;V
 24250;question;Pourquoi les mains d'Oskar deviennent-elles rouges ?;à cause du froid intense dehors;il s'est fait mal;il a trop serré les boules de neige;il a une allergie;24231;I
 24251;question;Qu'est-ce qui montre qu'Oskar a passé une excellente journée ?;il termine la journée complètement ravi;il pleure en rentrant;il refuse de ressortir le lendemain;il se plaint tout du long;24231;I
-24252;passage;"Chiara fête son anniversaire à la maison. Elle est entourée de sa famille et de ses amis. Sa maman a préparé un gâteau au chocolat. Le gâteau est énorme. Il est décoré de fraises fraîches. Chiara souffle ses huit bougies d'un seul coup. Tout le monde applaudit.
+24252;passage;"Chiara fête son anniversaire à la maison, entourée de sa famille et de ses amis. Sa maman a préparé un énorme gâteau au chocolat décore de fraises fraîches. Chiara souffle ses huit bougies d'un seul coup, sous les applaudissements de tous.
 
-Ses amis lui offrent des cadeaux. Les cadeaux sont colorés. Ils sont emballés dans du papier brillant. Dans le jardin, les enfants jouent à cache-cache. La partie est endiablée.
+Ses amis lui offrent des cadeaux colorés, emballés dans du papier brillant. Dans le jardin, les enfants organisent une partie de cache-cache endiablée.
 
-Parmi ses cadeaux, Chiara trouve un livre. Elle est très contente. Elle voulait ce livre depuis longtemps. Toute la soirée, on chante et on danse dans le salon. Chiara garde de cette journée un souvenir merveilleux.";;;;;;
+Parmi ses cadeaux, Chiara découvre avec joie un livre qu'elle voulait depuis longtemps. Toute la soirée, on chante et on danse dans le salon. Chiara garde de cette journée un souvenir merveilleux.";;;;;;
 24253;question;Où Chiara fête-t-elle son anniversaire ?;à la maison;au restaurant;à l'école;au parc;24252;L
 24254;question;Qui entoure Chiara ce jour-là ?;sa famille et ses amis;seulement ses parents;sa classe entière;personne, elle est seule;24252;L
 24255;question;Quel gâteau a préparé la maman de Chiara ?;un gâteau au chocolat;un gâteau aux fraises;une tarte aux pommes;des cookies;24252;L
@@ -326,11 +322,11 @@ Parmi ses cadeaux, Chiara trouve un livre. Elle est très contente. Elle voulait
 24270;question;"Que veut dire ""entourée"" dans le texte ?";accompagnée de personnes autour d'elle;seule dans une pièce;loin de tous;cachée quelque part;24252;V
 24271;question;Pourquoi tout le monde applaudit-il quand Chiara souffle les bougies ?;c'est une façon de féliciter et célébrer avec elle;elle a gagné un jeu;elle a fait une erreur amusante;c'est la fin de la fête;24252;I
 24272;question;Qu'est-ce qui montre que cette fête à beaucoup plu à Chiara ?;elle garde un souvenir merveilleux de cette journée;elle oublie vite cette journée;elle est pressée que ça se termine;elle préfère ses anniversaires précédents;24252;I
-24273;passage;"Chaque mercredi, Liam va à la bibliothèque du quartier. Il y va avec sa maman. Ce jour-là, il cherche un livre. Il veut un livre sur les dinosaures. La bibliothécaire est très serviable. Elle l'aide à trouver plusieurs livres. Les livres sont illustrés sur ce thème.
+24273;passage;"Chaque mercredi, Liam se rend à la bibliothèque du quartier avec sa maman. Ce jour-là, il cherche activement un livre passionnant sur les dinosaures. La bibliothécaire, très serviable, l'aide à trouver plusieurs ouvrages illustrés sur ce thème.
 
-Liam s'installe dans un grand fauteuil. Le fauteuil est près de la fenêtre. Il commence à lire. Il lit une histoire de dragons. L'histoire est pleine d'aventures. Elle a plein de rebondissements. Non loin de lui, un garçon lit. Il lit une bande dessinée. Il lit tranquillement.
+Liam s'installe confortablement dans un grand fauteuil près de la fenêtre pour commencer sa lecture. Il plonge dans une histoire de dragons pleine d'aventures et de rebondissements. Non loin de lui, un autre garçon lit tranquillement une bande dessinée.
 
-Avant de repartir, Liam choisit trois livres. Il les prend avec lui. Il les emporte avec impatience. Il a hâte de retrouver son fauteuil favori. Il veut vite lire encore.";;;;;;
+Avant de repartir, Liam choisit trois livres qu'il emporte chez lui avec impatience. Il a déjà hâte de retrouver son fauteuil favori pour continuer sa lecture.";;;;;;
 24274;question;Quel jour Liam va-t-il à la bibliothèque ?;le mercredi;le lundi;le samedi;le dimanche;24273;L
 24275;question;Avec qui y va-t-il ?;sa maman;son papa;sa classe;sa mamie;24273;L
 24276;question;Où se situe cette bibliothèque ?;dans le quartier;au centre-ville uniquement;à l'école;dans une autre ville;24273;L
@@ -351,11 +347,11 @@ Avant de repartir, Liam choisit trois livres. Il les prend avec lui. Il les empo
 24291;question;"Que veut dire ""rebondissements"" dans le texte ?";des rebondissements de l'histoire, des surprises;des chutes physiques;des personnages;des chapitres;24273;V
 24292;question;Pourquoi Liam choisit-il un livre sur les dinosaures ?;ce sujet le passionne visiblement;sa maman le lui impose;c'est le seul livre disponible;il n'aime pas vraiment ce sujet;24273;I
 24293;question;Qu'est-ce qui montre que Liam aime beaucoup lire ?;il a hâte de retrouver son fauteuil pour lire encore;il rend ses livres sans les ouvrir;il préfère jouer dehors;il oublie souvent d'aller à la bibliothèque;24273;I
-24294;passage;"Amelia va à la piscine chaque samedi. Elle y va le matin avec son papa. Il fait beau. Le ciel est bleu. Dès son arrivée, elle enfile son maillot de bain. Le maillot est rose. C'est son maillot préféré. Sans attendre, Amelia saute dans l'eau. Elle saute dans le grand bassin. Elle commence à nager.
+24294;passage;"Amelia va à la piscine municipale chaque samedi matin avec son papa. Dès son arrivée, elle enfile son maillot de bain rose préféré. Sans hésiter, Amelia saute dans le grand bassin et commence à s'exercer à nager.
 
-Son papa la regarde depuis le bord. Il est fier d'elle. Il voit ses progrès. Ses progrès sont rapides. Amelia glisse sur le grand toboggan bleu. Elle glisse plusieurs fois. Elle rit à chaque fois. Un maître nageur surveille attentivement les enfants.
+Son papa la regarde depuis le bord, fier de voir ses progrès rapides. Amelia glisse ensuite plusieurs fois sur le grand toboggan bleu, en riant à chaque descente. Un maître nageur surveille attentivement tous les enfants qui jouent dans l'eau.
 
-Après, Amelia mange une glace au chocolat. Elle la mange sur une chaise longue. Elle est fatiguée mais très heureuse. Elle a hâte de revenir la semaine suivante.";;;;;;
+Après la séance, Amelia mange une glace au chocolat sur une chaise longue. Fatiguée mais très heureuse, elle a hâte de revenir la semaine suivante.";;;;;;
 24295;question;Où Amelia va-t-elle chaque samedi ?;à la piscine municipale;au parc;à l'école;au zoo;24294;L
 24296;question;Avec qui y va-t-elle ?;son papa;sa maman;sa classe;sa mamie;24294;L
 24297;question;Que fait Amelia dès son arrivée ?;elle enfile son maillot de bain;elle mange;elle s'assoit au bord;elle repart tout de suite;24294;L
@@ -376,11 +372,11 @@ Après, Amelia mange une glace au chocolat. Elle la mange sur une chaise longue.
 24312;question;"Que veut dire ""progrès"" dans le texte ?";amélioration dans ce qu'on apprend;des erreurs répétées;de la fatigue;de la peur;24294;V
 24313;question;Pourquoi le papa d'Amelia est-il fier ?;il voit qu'elle progresse vite en natation;elle a gagné une compétition;elle a offert un cadeau;elle a bien rangé ses affaires;24294;I
 24314;question;Qu'est-ce qui montre qu'Amelia aime beaucoup la piscine ?;elle a hâte d'y retourner la semaine suivante;elle demande à ne plus y aller;elle reste toujours au bord sans se baigner;elle s'ennuie tout le temps;24294;I
-24315;passage;"Mateo part faire une longue balade à vélo. Il roule avec sa maman. Ils vont le long de la rivière. Avant de partir, il attache son casque bleu. Il l'attache bien sous son menton. Pendant le trajet, Mateo observe des canards. Les canards nagent près de la berge.
+24315;passage;"Mateo part faire une longue balade à vélo avec sa maman, le long de la rivière. Avant de partir, il attache soigneusement son casque bleu sous son menton. Pendant le trajet, Mateo observe des canards qui nagent tranquillement près de la berge.
 
-Un peu essoufflé, il s'arrête. Il boit une gorgée d'eau fraîche. L'eau vient de sa gourde. Une côte assez raide se dresse devant eux. Cela fatigue beaucoup Mateo.
+Un peu essouffle, il s'arrête pour boire une gorgée d'eau fraîche de sa gourde. Une côte assez raide se dresse ensuite devant eux, ce qui fatigue beaucoup Mateo.
 
-Sa maman l'encourage gentiment. Elle lui dit qu'il est presque en haut. Avec un dernier effort, Mateo atteint le sommet. Il se sent extrêmement fier. Il a tenu bon jusqu'au bout.";;;;;;
+Sa maman l'encourage gentiment, en lui rappelant qu'il est presque arrive en haut. Avec un dernier effort, Mateo atteint enfin le sommet de la côte. Il se sent extrêmement fier d'avoir tenu bon jusqu'au bout.";;;;;;
 24316;question;Avec qui Mateo fait-il du vélo ?;sa maman;son papa;sa classe;son frère;24315;L
 24317;question;Le long de quoi roulent-ils ?;la rivière;la route principale;la forêt;la plage;24315;L
 24318;question;Que fait Mateo avant de partir ?;il attache son casque;il gonfle ses pneus;il mange;il change de vêtements;24315;L
@@ -401,11 +397,11 @@ Sa maman l'encourage gentiment. Elle lui dit qu'il est presque en haut. Avec un 
 24333;question;"Que veut dire ""se dresse"" dans le texte ?";se trouve, apparaît devant eux;disparaît;s'écroule;recule;24315;V
 24334;question;Pourquoi la maman de Mateo l'encourage-t-elle dans la côte ?;pour l'aider à ne pas abandonner;pour le faire aller plus vite que nécessaire;pour le punir de s'être arrête;parce qu'elle est pressée de rentrer;24315;I
 24335;question;Qu'est-ce qui montre que Mateo est persévérant ?;il continue malgré la fatigue et atteint le sommet;il abandonne des la première difficulté;il demande à rentrer à mi-chemin;il refuse de refaire du vélo ensuite;24315;I
-24336;passage;"Freya découvre une cabane secrète dans les bois. Elle la découvre en jouant avec ses amis. La cabane est faite de branches et de feuilles. Elle a une petite porte basse. À l'intérieur, les enfants trouvent une table en bois. Un ancien visiteur a fait la table.
+24336;passage;"Freya découvre une cabane secrète dans les bois en jouant avec ses amis. Construite avec des branches et des feuilles, la cabane possède une petite porte basse. à l'intérieur, les enfants trouvent une table en bois fabriquée par un ancien visiteur.
 
-Ses amis apportent des coussins moelleux. Ils veulent rendre l'endroit confortable. C'est plus doux. Un écureuil curieux les observe de loin. Il se cache derrière un arbre.
+Ses amis apportent alors des coussins moelleux pour rendre l'endroit plus confortable. Un écureuil curieux les observe de loin, cache derrière le tronc d'un arbre.
 
-Freya décide de décorer les murs. Elle met des dessins et des fleurs séchées. Chaque jour après l'école, les enfants reviennent. C'est leur refuge secret. Freya adore cet endroit par-dessus tout. C'est un endroit rien qu'à eux.";;;;;;
+Freya décide de décorer les murs avec des dessins et des fleurs séchées. Chaque jour après l'école, les enfants reviennent dans leur refuge secret. Freya adore par-dessus tout cet endroit rien qu'à eux.";;;;;;
 24337;question;Où Freya découvre-t-elle une cabane ?;dans les bois;dans son jardin;à l'école;à la plage;24336;L
 24338;question;Avec qui joue-t-elle quand elle la découvre ?;ses amis;sa famille;sa classe;personne;24336;L
 24339;question;En quoi est construite la cabane ?;des branches et des feuilles;du carton;des pierres;du métal;24336;L
@@ -426,11 +422,11 @@ Freya décide de décorer les murs. Elle met des dessins et des fleurs séchées
 24354;question;"Que veut dire ""refuge"" dans le texte ?";un endroit ou l'on se sent bien et en sécurité;un endroit dangereux;un endroit interdit;un endroit très bruyant;24336;V
 24355;question;Pourquoi Freya décore-t-elle la cabane ?;pour se l'approprier et la rendre agréable;parce qu'un adulte le lui demande;pour la vendre ensuite;par obligation de l'école;24336;I
 24356;question;Qu'est-ce qui montre que la cabane compte beaucoup pour les enfants ?;ils y reviennent chaque jour après l'école;ils l'oublient rapidement;ils n'y retournent jamais;ils la détruisent à la fin;24336;I
-24357;passage;"Antoine promène son chien Rex dans un grand parc. C'est près de chez lui. Il le promène chaque soir. Soudain, Rex aperçoit un chat noir. Il se met à courir à toute vitesse. Antoine court derrière lui. Il crie son nom. Mais Rex disparaît entre les buissons.
+24357;passage;"Antoine promène son chien Rex dans le grand parc près de chez lui, comme chaque soir. Soudain, Rex aperçoit un chat noir et se met à courir à toute vitesse. Antoine court derrière lui en criant son nom, mais Rex disparaît entre les buissons.
 
-Pris de panique, Antoine cherche partout. Il appelle son chien de plus en plus fort. Une dame promène aussi son chien. Elle finit par retrouver Rex près d'une fontaine.
+Pris de panique, Antoine cherche partout et appelle son chien de plus en plus fort. Une dame promenant elle aussi son chien finit par retrouver Rex près d'une fontaine.
 
-Elle ramène doucement Rex à Antoine. Antoine n'en croit pas ses yeux de soulagement. Il serre très fort son chien dans ses bras. Il est soulagé de l'avoir retrouvé. Depuis ce jour, il attache toujours la laisse plus solidement.";;;;;;
+Elle le ramène doucement à Antoine, qui n'en croit pas ses yeux de soulagement. Antoine serre très fort son chien dans ses bras, soulage de l'avoir retrouvé. Depuis ce jour, il attache toujours la laisse plus solidement.";;;;;;
 24358;question;Comment s'appelle le chien d'Antoine ?;Rex;Milo;Max;Fido;24357;L
 24359;question;Où Antoine promène-t-il son chien ?;dans un grand parc;à la plage;en forêt;dans la rue;24357;L
 24360;question;Quand Antoine promène-t-il habituellement son chien ?;chaque soir;seulement le week-end;une fois par mois;jamais d'habitude;24357;L
@@ -451,11 +447,11 @@ Elle ramène doucement Rex à Antoine. Antoine n'en croit pas ses yeux de soulag
 24375;question;"Que veut dire ""soulage"" dans le texte ?";libère d'une inquiétude;encore plus inquiet;fâche;fatigué;24357;V
 24376;question;Pourquoi Antoine attache-t-il désormais la laisse plus solidement ?;pour éviter que Rex ne s'échappe à nouveau;parce que Rex est devenu plus fort;parce que la dame le lui a demandé;parce que la laisse était cassée avant;24357;I
 24377;question;Qu'est-ce qui montre qu'Antoine tient beaucoup à son chien ?;sa panique quand il le perd et son soulagement quand il le retrouve;il ne cherche pas longtemps Rex;il est indifférent à sa disparition;il en profite pour rentrer plus tôt;24357;I
-24378;passage;"Zoé fait sa rentrée des classes ce matin. Elle est un peu nerveuse. Elle est aussi impatiente. Elle porte son nouveau cartable violet. Elle l'a acheté spécialement pour la rentrée. Il fait très beau. Le ciel est tout bleu. Dans la cour, Zoé retrouve ses copains avec joie. Elle ne les avait pas vus depuis l'été.
+24378;passage;"Zoé fait sa rentrée des classes ce matin, un peu nerveuse mais surtout impatiente. Elle porte fièrement son nouveau cartable violet, achète spécialement pour l'occasion. Dans la cour, Zoé retrouve avec joie ses copains qu'elle n'avait pas vus depuis l'été.
 
-Sa nouvelle maîtresse s'appelle madame Dubois. Elle accueille chaleureusement chaque élève. Elle les accueille à l'entrée de la classe. Zoé voit sa nouvelle salle. Des dessins colorés sont accrochés aux murs.
+Sa nouvelle maîtresse, madame Dubois, accueille chaleureusement chaque élève à l'entrée de la classe. Zoé découvre sa nouvelle salle, décorée de dessins colorés accroches aux murs.
 
-Elle range ses crayons et ses cahiers. Elle les met dans sa trousse neuve. À la récréation, Zoé joue à la corde à sauter avec ses amies. Le soir venu, Zoé raconte sa journée à toute sa famille. Elle la raconte avec enthousiasme.";;;;;;
+Elle range soigneusement ses crayons et ses cahiers dans sa trousse neuve. A la récréation, Zoé s'amuse à la corde à sauter avec ses amies. Le soir venu, Zoé raconte sa journée avec enthousiasme à toute sa famille.";;;;;;
 24379;question;Quel jour se passe l'histoire ?;le jour de la rentrée;un jour de vacances;un dimanche;un jour de neige;24378;L
 24380;question;Comment Zoé se sent-elle ce matin-là ?;un peu nerveuse mais impatiente;très triste;en colère;totalement indifférente;24378;L
 24381;question;Que porte Zoé ?;un nouveau cartable violet;un sac à dos rouge;une valise;un panier;24378;L
@@ -476,11 +472,11 @@ Elle range ses crayons et ses cahiers. Elle les met dans sa trousse neuve. À la
 24396;question;"Que veut dire ""enthousiasme"" dans le texte ?";une grande joie et énergie positive;une grande fatigue;de la tristesse;de l'indifférence;24378;V
 24397;question;Pourquoi Zoé est-elle à la fois nerveuse et impatiente ?;une rentrée apporte de la nouveauté et un peu d'inconnu;elle déteste l'école;elle a peur de sa maîtresse;elle a perdu ses affaires;24378;I
 24398;question;Qu'est-ce qui montre que la journée de Zoé s'est bien passée ?;elle raconte sa journée avec enthousiasme le soir;elle refuse de parler de sa journée;elle pleure en rentrant;elle veut changer d'école;24378;I
-24399;passage;"Noah présente son expérience. C'est le jour de l'exposition de sciences de son école. Il est content. Il la présente fièrement. Avec l'aide de son papa, il a fait un volcan. Le volcan est en carton. Il est peint en gris. Tout le monde regarde. Devant le public, Noah verse du vinaigre. Il le verse doucement sur la poudre blanche.
+24399;passage;"Noah présente fièrement son expérience lors de l'exposition de sciences de son école. Avec l'aide de son papa, il a fabriqué un petit volcan en carton peint en gris. Devant un public attentif, Noah verse doucement du vinaigre sur du bicarbonate de soude.
 
-Une mousse orange sort alors. Elle est spectaculaire. Elle jaillit du volcan. Cela fait des cris. Ce sont des cris d'admiration. Les autres élèves sont surpris. Ils applaudissent bien fort.
+Une mousse orange spectaculaire jaillit alors du sommet du volcan, provoquant des cris d'admiration. Les autres élèves applaudissent chaleureusement cette expérience réussie et surprenante.
 
-La maîtresse félicite Noah. Elle aime son travail. Il est sérieux. Elle est très contente de lui. En récompense, il reçoit un diplôme. Il l'accroche fièrement dans sa chambre. Cette expérience lui donne une idée. Il veut être scientifique.";;;;;;
+La maîtresse félicite Noah pour son travail sérieux et sa belle présentation. En récompense, Noah reçoit un diplôme qu'il accroche fièrement dans sa chambre. Cette expérience lui donne désormais très envie de devenir scientifique plus tard.";;;;;;
 24400;question;Que présente Noah lors de l'exposition ?;son expérience;un dessin;un poème;une chanson;24399;L
 24401;question;Qui a aidé Noah à fabriquer son volcan ?;son papa;sa maman;la maîtresse;personne;24399;L
 24402;question;En quoi est fait le volcan ?;en carton peint en gris;en pâte à modeler;en pierre;en papier mâche blanc;24399;L
@@ -501,11 +497,11 @@ La maîtresse félicite Noah. Elle aime son travail. Il est sérieux. Elle est t
 24417;question;"Que veut dire ""jaillit"" dans le texte ?";sort brusquement et avec force;coule très doucement;reste immobile;disparaît;24399;V
 24418;question;Pourquoi la mousse orange provoque-t-elle des cris d'admiration ?;l'effet visuel surprend et impressionne le public;les élèves ont peur d'une explosion;c'est la première expérience de la journée;personne ne s'attendait à une expérience;24399;I
 24419;question;Qu'est-ce qui montre que Noah a pris cette expérience très au sérieux ?;il l'a préparée avec soin et en est fier;il l'a faite au dernier moment;il n'a pas voulu la présenter;il l'a copiée sur un ami;24399;I
-24420;passage;"Camille cuisine des crêpes avec sa grand-mère. Elles cuisinent chaque dimanche. Elles sont prêtes. Elles sont contentes. Camille sourit. Il fait bon dans la cuisine. Elles mettent la farine et les oeufs. Elles ajoutent le lait tiède. Camille verse la pâte dans une poêle. La poêle est chaude et beurrée.
+24420;passage;"Camille passe l'après-midi à cuisiner des crêpes avec sa grand-mère, comme chaque dimanche. Ensemble, elles mélangent avec soin la farine, les oeufs frais et le lait tiède. Camille verse ensuite la pâte dans une poêle bien chaude et beurrée.
 
-D'un geste habile, sa grand-mère retourne la crêpe. Elle ne la fait jamais tomber. Camille ajoute du sucre sur sa crêpe. Elle ajoute de la confiture de fraises. Cela sent bon. Tout va bien.
+D'un geste habile, sa grand-mère retourne la crêpe sans jamais la faire tomber. Camille ajoute du sucre et une bonne cuillère de confiture de fraises sur sa crêpe.
 
-À table, elles dégustent leurs crêpes. Elle sourit. Elles parlent de tout et de rien. Un peu de farine tombe sur le nez de Camille. Cela la fait rire. Elle rit bien fort. Elle aime ces moments avec sa grand-mère. Ce sont ses moments préférés.";;;;;;
+Assises à table, elles dégustent leurs créations en discutant joyeusement de tout et de rien. Un peu de farine s'est retrouvée sur le nez de Camille, ce qui la fait beaucoup rire. Elle adore par-dessus tout ces moments partagés avec sa grand-mère.";;;;;;
 24421;question;Que cuisine Camille ?;des crêpes;un gâteau;une tarte;des cookies;24420;L
 24422;question;Avec qui cuisine-t-elle ?;sa grand-mère;sa maman;sa tâta;sa soeur;24420;L
 24423;question;Quel jour cuisinent-elles habituellement ensemble ?;le dimanche;le lundi;le samedi matin;un jour au hasard;24420;L
@@ -526,11 +522,11 @@ D'un geste habile, sa grand-mère retourne la crêpe. Elle ne la fait jamais tom
 24438;question;"Que veut dire ""déguster"" dans le texte ?";manger en savourant avec plaisir;avaler très vite;refuser de manger;cuisiner;24420;V
 24439;question;Pourquoi la grand-mère de Camille réussit-elle à retourner la crêpe sans la faire tomber ?;elle a de l'expérience et du savoir-faire;elle a dé la chance à chaque fois;la poêle est magique;Camille l'aide en secret;24420;I
 24440;question;Qu'est-ce qui montre que Camille apprécie ce moment avec sa grand-mère ?;elle adore ces moments partagés et en rit de bon coeur;elle regarde l'heure sans arrêt;elle préfère cuisiner seule;elle s'ennuie pendant la recette;24420;I
-24441;passage;"Bruno aide son papi à jardiner. Ils sont dans le potager. Ils y vont tous les samedis après-midi. Il fait beau. Le ciel est bleu. Bruno est content. Ils plantent de petites graines. Ce sont des graines de tomates. La terre est meuble. Bruno arrose la terre. Il utilise son arrosoir vert. Le jardin sent bon. Bruno est calme.
+24441;passage;"Bruno aide son papi à jardiner dans le potager tous les samedis après-midi. Ensemble, ils plantent avec attention de petites graines de tomates dans la terre meuble. Bruno arrose ensuite chaque rangée à l'aide de son arrosoir vert préféré.
 
-Un ver de terre surgit du sol. Cela amuse Bruno. Il rit fort. Bruno sourit. Le temps est doux. Papi lui montre patiemment comment reconnaître les mauvaises herbes.
+Soudain, un ver de terre surgit du sol fraîchement retourne, ce qui amuse beaucoup Bruno. Papi lui montre patiemment comment reconnaître et retirer les mauvaises herbes.
 
-Une coccinelle rouge se pose délicatement sur une feuille de salade. La feuille est proche. Bruno rit. Bruno a hâte de voir pousser les tomates. Les tomates seront bien rouges. Jardiner avec papi lui plaît beaucoup. C'est son moment préféré de la semaine.";;;;;;
+Une coccinelle rouge se pose délicatement sur une feuille de salade toute proche. Bruno attend avec impatience de voir pousser les premières tomates bien rouges. Jardiner avec papi est devenu son moment préféré de la semaine.";;;;;;
 24442;question;Où Bruno aide-t-il son papi ?;dans le potager;dans la cuisine;au garage;au marche;24441;L
 24443;question;Quand jardinent-ils habituellement ensemble ?;le samedi après-midi;tous les matins;seulement en hiver;pendant les vacances scolaires uniquement;24441;L
 24444;question;Que plantent-ils ?;des graines de tomates;des fleurs;des pommes de terre;des carottes;24441;L
@@ -551,11 +547,11 @@ Une coccinelle rouge se pose délicatement sur une feuille de salade. La feuille
 24459;question;"Que veut dire ""délicatement"" dans le texte ?";avec douceur et précaution;avec force;rapidement;par accident;24441;V
 24460;question;Pourquoi papi apprend-il patiemment à Bruno à reconnaître les mauvaises herbes ?;pour que Bruno puisse jardiner correctement plus tard;parce que Bruno se trompe tout le temps exprès;pour l'occuper le temps qu'il travaille lui-même;parce que c'est obligatoire à l'école;24441;I
 24461;question;Qu'est-ce qui montre que Bruno aime jardiner avec son papi ?;c'est devenu son moment préféré de la semaine;il cherche des excuses pour ne pas y aller;il s'ennuie à chaque fois;il préfère jardiner seul;24441;I
-24462;passage;"Inès va au musée avec sa classe. Il fait beau ce jour-là. Tout le monde est content. Elle sourit. C'est un musée d'histoire naturelle. Dès l'entrée, elle voit un grand squelette. C'est un squelette de dinosaure. Il est suspendu au plafond. Elle est impressionnée. Le guide parle. Il parle bien. Il raconte l'histoire de ces animaux. Ces animaux ont disparu. Cela fait des millions d'années.
+24462;passage;"Inès visite un grand musée d'histoire naturelle avec toute sa classe. Dès l'entrée, elle est impressionnée par un immense squelette de dinosaure suspendu au plafond. Le guide raconte avec passion l'histoire de ces animaux disparus depuis des millions d'années.
 
-Inès pose beaucoup de questions. Elle veut tout savoir. Elle demande leur taille. Elle prend son carnet. Elle le dessine soigneusement. Ses copains admirent les vitrines. Il y a des fossiles dedans. Il y a aussi des roches anciennes.
+Curieuse, Inès pose de nombreuses questions sur la taille et l'alimentation des dinosaures. Elle prend le temps de dessiner soigneusement le squelette dans son carnet de croquis. Ses copains, eux, admirent surtout les vitrines remplies de fossiles et de roches anciennes.
 
-Avant de partir, Inès achète une carte postale. Elle montre son dinosaure préféré. Elle rentre chez elle, contente. Elle a appris une multitude de choses passionnantes.";;;;;;
+Avant de repartir, Inès achète une carte postale représentant son dinosaure préféré. Elle rentre chez elle en ayant appris une multitude de choses passionnantes.";;;;;;
 24463;question;Quel type de musée Inès visite-t-elle ?;un musée d'histoire naturelle;un musée d'art moderne;un musée de voitures;un musée de la musique;24462;L
 24464;question;Avec qui Inès visite-t-elle le musée ?;sa classe;sa famille;sa mamie;ses cousins;24462;L
 24465;question;Que voit Inès dès l'entrée ?;un squelette de dinosaure suspendu;des tableaux anciens;des voitures;des bijoux;24462;L
@@ -576,11 +572,11 @@ Avant de partir, Inès achète une carte postale. Elle montre son dinosaure pré
 24480;question;"Que veut dire ""multitude"" dans le texte ?";un très grand nombre;un tout petit nombre;aucune quantité;une seule chose;24462;V
 24481;question;Pourquoi Inès pose-t-elle beaucoup de questions au guide ?;elle est curieuse et intéressée par les dinosaures;elle veut faire perdre du temps à la classe;elle n'a pas écoute les explications;elle veut impressionner ses copains;24462;I
 24482;question;Qu'est-ce qui montre qu'Inès à beaucoup aime cette visite ?;elle rentre avoir appris une multitude de choses passionnantes;elle s'ennuie tout le long de la visite;elle ne retient rien de la visite;elle préférait rentrer plus tôt;24462;I
-24483;passage;"Lucas passe la journée au zoo avec sa famille. C'est un dimanche ensoleillé de printemps. Devant l'enclos des lions, il regarde ces grands félins. Les lions dorment paisiblement au soleil. Un peu plus loin, les singes font rire Lucas. Ils font des pitreries.
+24483;passage;"Lucas passe toute une journée au zoo avec sa famille, un dimanche ensoleillé de printemps. Devant l'enclos des lions, il observe longuement ces grands félins qui dorment paisiblement au soleil. Un peu plus loin, les singes acrobates font beaucoup rire Lucas avec leurs pitreries.
 
-Une girafe étire son long cou. Elle veut attraper des feuilles. Les feuilles sont en haut d'un arbre. Lucas dit à son papa qu'il aime l'éléphant. C'est son animal préféré.
+Une girafe immense étire son long cou pour attraper les feuilles d'un grand arbre. Lucas confie à son papa que l'éléphant reste définitivement son animal préféré.
 
-Près du bassin, il regarde les manchots. Les manchots plongent dans l'eau. Ils nagent avec agilité. À la boutique du zoo, Lucas choisit une peluche. C'est une peluche de lion. Il rentre chez lui. Il a les yeux remplis d'images extraordinaires.";;;;;;
+Près du bassin, il observe avec fascination les manchots plonger et nager avec agilité. A la boutique du zoo, Lucas choisit une peluche de lion pour garder un souvenir. Il rentre chez lui, les yeux encore remplis d'images extraordinaires.";;;;;;
 24484;question;Où Lucas passe-t-il sa journée ?;au zoo;au musée;à la ferme;à la piscine;24483;L
 24485;question;Avec qui y va-t-il ?;sa famille;sa classe;ses cousins;ses voisins;24483;L
 24486;question;Quelle saison est-ce ?;le printemps;l'hiver;l'automne;on ne sait pas;24483;L
@@ -601,11 +597,11 @@ Près du bassin, il regarde les manchots. Les manchots plongent dans l'eau. Ils 
 24501;question;"Que veut dire ""agilité"" dans le texte ?";une grande souplesse et rapidité de mouvement;une grande lenteur;de la maladresse;de la fatigue;24483;V
 24502;question;Pourquoi la girafe étire-t-elle son cou ?;pour atteindre les feuilles en hauteur;pour saluer les visiteurs;parce qu'elle a mal au cou;pour imiter un autre animal;24483;I
 24503;question;Qu'est-ce qui montre que Lucas a passé une journée inoubliable ?;il rentre les yeux remplis d'images extraordinaires;il oublie vite sa visite;il s'est ennuie devant chaque enclos;il ne veut plus jamais revenir au zoo;24483;I
-24504;passage;"Marta se promène dans la forêt avec son papa. C'est un dimanche après-midi d'automne. Il fait beau. Le chemin est recouvert de feuilles mortes. Les feuilles sont bruissantes. En chemin, Marta ramasse un joli caillou gris. Le caillou est lisse et rond.
+24504;passage;"Marta se promène dans la forêt avec son papa, un dimanche après-midi d'automne. Le chemin qu'ils empruntent est entièrement recouvert de feuilles mortes bruissantes. En chemin, Marta ramasse un joli caillou gris parfaitement lisse et rond.
 
-Un renard roux traverse soudain le sentier. Il disparaît dans les fourrés. Marta s'arrête un instant. Elle écoute le vent. Le vent souffle doucement dans les arbres.
+Un renard roux traverse soudain le sentier avant de disparaître dans les fourres. Marta s'arrête un instant pour écouter le vent qui souffle doucement dans les arbres.
 
-Son papa lui montre un chêne énorme. Ce chêne est planté depuis plus de deux cents ans. Ils croisent un promeneur avec son chien. Le promeneur les salue amicalement. Marta rentre chez elle. Elle a de très beaux souvenirs plein la tête.";;;;;;
+Son papa lui montre un chêne énorme, plante la depuis plus de deux cents ans. Ils croisent un promeneur accompagné de son chien, qui les salue amicalement. Marta rentre chez elle avec de très beaux souvenirs plein la tête.";;;;;;
 24505;question;Où Marta se promène-t-elle ?;en forêt;à la plage;en ville;à la montagne;24504;L
 24506;question;Avec qui se promène-t-elle ?;son papa;sa maman;sa classe;sa mamie;24504;L
 24507;question;Quelle saison est-ce ?;l'automne;l'été;l'hiver;le printemps;24504;L
@@ -626,11 +622,11 @@ Son papa lui montre un chêne énorme. Ce chêne est planté depuis plus de deux
 24522;question;"Que veut dire ""fourres"" dans le texte ?";des buissons denses;des trous dans le sol;des rochers;des flaques d'eau;24504;V
 24523;question;Pourquoi le renard disparaît-il rapidement dans les fourres ?;il est sauvage et se méfie des humains;il connaît bien Marta;il cherche à jouer avec elle;il est fatigué;24504;I
 24524;question;Qu'est-ce qui montre que Marta a appris quelque chose pendant cette promenade ?;son papa lui montre et explique des choses sur la nature;elle reste tout le temps sur son téléphone;elle ne regarde jamais autour d'elle;elle refuse d'écouter son papa;24504;I
-24525;passage;"Julian passe la journée à la ferme de son papi. C'est la période des moissons. Il fait beau. Julian est assis à côté de papi. Il est assis dans la cabine. Il observe son papi conduire l'énorme tracteur. Devant eux s'étend un champ de blé. Le blé est entièrement doré. Il est prêt à être récolté.
+24525;passage;"Julian passe la journée à la ferme de son papi pendant la période des moissons. Assis à côté de lui dans la cabine, Julian observe son papi conduire l'énorme tracteur. Devant eux s'étend un champ de blé entièrement dore, prêt à être récolte.
 
-La moissonneuse-batteuse avance lentement. Elle coupe le blé. Elle dégage une fine poussière jaune. Plusieurs lièvres sont effrayés par le bruit. Ils bondissent hors du champ.
+La moissonneuse-batteuse avance lentement et coupe le blé en dégageant une fine poussière jaune. Effrayes par le bruit de la machine, plusieurs lièvres bondissent hors du champ.
 
-À midi, toute la famille se retrouve. Elle déjeune à l'ombre d'un grand arbre. Julian se sent très utile. Il a pu aider un peu son papi. Ce moment restera longtemps gravé dans sa mémoire.";;;;;;
+A midi, toute la famille se retrouve pour déjeuner à l'ombre d'un grand arbre. Julian se sent très utile d'avoir pu aider un peu son papi ce jour-là. Ce moment restera longtemps grave dans sa mémoire.";;;;;;
 24526;question;Où Julian passe-t-il la journée ?;à la ferme de son papi;à l'école;chez ses cousins;à la plage;24525;L
 24527;question;Pendant quelle période se passe cette journée ?;la période des moissons;les vendanges;la période des semis;l'hiver;24525;L
 24528;question;Où Julian est-il assis pendant que papi conduit ?;à côté de lui dans la cabine;sur le toit du tracteur;loin, sur un banc;il ne monte pas dans le tracteur;24525;L
@@ -651,11 +647,11 @@ La moissonneuse-batteuse avance lentement. Elle coupe le blé. Elle dégage une 
 24543;question;"Que veut dire ""gravée dans sa mémoire"" dans le texte ?";un souvenir qui restera longtemps;un souvenir vite oublie;une photo imprimée;un dessin dans un cahier;24525;V
 24544;question;Pourquoi les lièvres bondissent-ils hors du champ ?;le bruit de la machine les effraie;ils veulent jouer avec le tracteur;ils cherchent de la nourriture ailleurs;papi les chasse volontairement;24525;I
 24545;question;Qu'est-ce qui montre que cette journée compte beaucoup pour Julian ?;il dit que ce moment restera grave dans sa mémoire;il oublie cette journée dès le lendemain;il préfère rester à la maison la prochaine fois;il trouve la journée ennuyeuse;24525;I
-24546;passage;"Erik décide de construire un bonhomme de neige avec sa soeur. C'est la première neige de l'hiver. Il fait froid dehors. Ensemble, ils roulent une énorme boule de neige. Cette boule servira de corps. Erik ajoute une boule plus petite par-dessus. Elle formera la tête. Ils sont contents.
+24546;passage;"Erik décide de construire un bonhomme de neige avec sa soeur, des la première neige de l'hiver. Ensemble, ils roulent avec effort une énorme boule de neige qui servira de corps. Erik ajoute ensuite une boule plus petite par-dessus, pour former la tête.
 
-Sa soeur plante une carotte orange. La carotte est bien droite. C'est le nez. Ils utilisent aussi deux gros boutons noirs. Ils ont trouvé les boutons dans une vieille boîte. Ce sont les yeux.
+Sa soeur plante fièrement une carotte orange bien droite en guise de nez. Ils utilisent deux gros boutons noirs, trouvés dans une vieille boite, pour les yeux.
 
-Pour terminer, Erik pose un chapeau sur la tête. Le chapeau est tout abîmé. Il l'a déniché dans le grenier. Le bonhomme de neige a fière allure. Il est au milieu du jardin. Erik est content. Erik le photographie vite. Le soleil va bientôt le faire fondre.";;;;;;
+Pour terminer, Erik pose sur la tête un chapeau tout abîmé, déniché dans le grenier. Le bonhomme de neige ainsi terminé, à vraiment fière allure au milieu du jardin. Erik prend soin de le photographier avant que le soleil ne le fasse fondre.";;;;;;
 24547;question;Avec qui Erik construit-il le bonhomme de neige ?;sa soeur;son frère;sa maman;sa classe;24546;L
 24548;question;Quand décident-ils de le construire ?;des la première neige de l'hiver;au printemps;en plein été;un jour sans neige;24546;L
 24549;question;Que roulent-ils pour faire le corps ?;une énorme boule de neige;un cube de neige;des petites boules;un bloc de glace;24546;L
@@ -676,11 +672,9 @@ Pour terminer, Erik pose un chapeau sur la tête. Le chapeau est tout abîmé. I
 24564;question;"Que veut dire ""fière allure"" dans le texte ?";une belle apparence, impressionnante;un aspect rate et laid;une petite taille;une couleur vive;24546;V
 24565;question;Pourquoi Erik prend-il soin de photographier le bonhomme de neige ?;il sait que la neige va fondre et vouloir en garder un souvenir;il veut le vendre;sa soeur le lui demande fermement;c'est un exercice donné par la maîtresse;24546;I
 24566;question;Qu'est-ce qui montre qu'Erik et sa soeur ont travaillé ensemble avec soin ?;chaque détail du bonhomme est pensé et ajoute avec attention;ils ont fait le bonhomme très vite sans y penser;ils se sont disputés tout le long;un seul d'entre eux a tout fait;24546;I
-24567;passage;"Mia découvre le patinage sur glace. Elle est à la patinoire avec son papa. Il fait froid. Un peu maladroite au début, elle enfile ses patins. C'est difficile. Les patins sont blancs. Ils sont tout neufs. Dès ses premiers pas sur la glace, Mia tombe. C'est sa première chute. Elle ne se fait pas mal.
+24567;passage;"Mia découvre le patinage sur glace lors d'une sortie à la patinoire avec son papa. Un peu maladroite au début, elle enfile difficilement ses patins blancs tout neufs. Dès ses premiers pas sur la glace, Mia tombe une première fois sans se faire mal. Son papa l'aide gentiment à se relever et lui donne quelques conseils utiles.
 
-Son papa l'aide gentiment à se relever. Il lui donne des conseils utiles. Petit à petit, Mia apprend à garder son équilibre. Elle plie un peu les genoux. Après plusieurs essais, elle glisse enfin toute seule. Elle ne tombe plus.
-
-Autour d'elle, des enfants plus expérimentés tournent en musique. Ils tournent gracieusement. Mia termine cette sortie très fière. Elle a progressé très vite.";;;;;;
+Petit à petit, Mia apprend à garder son équilibre en pliant légèrement les genoux. Après plusieurs essais, elle parvient enfin à glisser toute seule sans tomber. Autour d'elle, des enfants plus expérimentés tournent gracieusement en musique. Mia termine cette sortie très fière d'avoir progressé aussi vite.";;;;;;
 24568;question;Que découvre Mia ce jour-là ?;le patinage sur glace;le ski;la natation;le vélo;24567;L
 24569;question;Avec qui Mia va-t-elle à la patinoire ?;son papa;sa maman;sa classe;sa mamie;24567;L
 24570;question;Comment Mia est-elle au début ?;un peu maladroite;très à l'aise;effrayée et refusant d'avancer;déjà experte;24567;L
@@ -701,11 +695,11 @@ Autour d'elle, des enfants plus expérimentés tournent en musique. Ils tournent
 24585;question;"Que veut dire ""gracieusement"" dans le texte ?";avec élégance et légèreté;maladroitement;avec lenteur et difficulté;en tombant souvent;24567;V
 24586;question;Pourquoi Mia tombe-t-elle au début de la séance ?;c'est sa première fois et elle n'a pas encore l'équilibre;la glace est cassée;son papa l'a poussée;ses patins sont cassés;24567;I
 24587;question;Qu'est-ce qui montre que Mia a fait de vrais progrès ce jour-là ?;elle passe de maladroite à capable de glisser seule;elle tombe de plus en plus au fil de la séance;elle refuse de continuer après sa chute;elle quitte la patinoire dès le début;24567;I
-24588;passage;"Léon grimpe tout en haut d'une colline. La colline est recouverte de neige fraîche. Il porte sa luge rouge sous le bras. En bas de la pente, sa soeur et son papa l'attendent. Ils rient déjà d'avance. Bien installé sur sa luge, Léon prend son élan. Il pousse fort avec ses pieds.
+24588;passage;"Léon grimpe tout en haut d'une colline recouverte de neige fraîche, sa luge rouge sous le bras. En bas de la pente, sa soeur et son papa l'attendent en riant déjà d'avance. Bien installé sur sa luge, Léon prend son élan en poussant fort avec ses pieds.
 
-La luge dévale la pente à toute vitesse. Elle soulève une petite poudreuse de neige. Léon rit aux éclats pendant toute la descente. Ses joues sont rougies par le froid.
+La luge dévale la pente à toute vitesse, soulevant une petite poudreuse de neige. Léon rit aux éclats pendant toute la descente, les joues rougies par le froid.
 
-Arrivé en bas, il s'arrête tout près de sa soeur. Elle applaudit sa performance. Sans perdre une seconde, Léon remonte la colline. Il veut recommencer une nouvelle descente. Il refait le trajet une bonne dizaine de fois. Il continue jusqu'à la tombée de la nuit.";;;;;;
+Arrive en bas, il s'arrête tout près de sa soeur qui applaudit sa performance. Sans perdre une seconde, Léon remonte la colline pour recommencer une nouvelle descente. Il refait ainsi le trajet une bonne dizaine de fois avant la tombée de la nuit.";;;;;;
 24589;question;Où Léon monte-t-il ?;en haut d'une colline enneigée;en haut d'un immeuble;sur un toit;dans un arbre;24588;L
 24590;question;De quelle couleur est la luge de Léon ?;rouge;bleue;verte;jaune;24588;L
 24591;question;Qui attend Léon en bas de la pente ?;sa soeur et son papa;sa maîtresse;sa classe;personne;24588;L
@@ -726,11 +720,11 @@ Arrivé en bas, il s'arrête tout près de sa soeur. Elle applaudit sa performan
 24606;question;"Que veut dire ""poudreuse"" dans le texte ?";de la neige fine et légère;de la neige fondue en eau;de la glace dure;de la pluie fine;24588;V
 24607;question;Pourquoi les joues de Léon sont-elles rougies ?;à cause du froid et de l'effort;il a de la fièvre;il a trop mangé;il est en colère;24588;I
 24608;question;Qu'est-ce qui montre que Léon adore la luge ?;il refait la descente une dizaine de fois de suite;il abandonne après une seule descente;il préfère rentrer au chaud;il pleure à chaque descente;24588;I
-24609;passage;"Anna s'installe autour d'un grand feu de camp. Elle est avec toute sa famille. C'est un soir d'été. Il fait doux. Les flammes sont orangées. Elles dansent et crépitent doucement dans la nuit. Assise sur un tronc d'arbre, Anna fait griller un marshmallow. Elle utilise un long bâton.
+24609;passage;"Anna s'installe confortablement autour d'un grand feu de camp avec toute sa famille, un soir d'été. Les flammes orangées dansent et crépitent doucement dans l'obscurité grandissante de la nuit. Assise sur un tronc d'arbre, Anna fait griller un marshmallow au bout d'un long bâton.
 
-Son papa raconte une histoire mystérieuse. L'histoire donne des frissons à tous les enfants. Au-dessus d'eux, des milliers d'étoiles scintillent. Le ciel est parfaitement dégagé.
+Son papa raconte alors une histoire mystérieuse qui donne des frissons à tous les enfants. Au-dessus d'eux, des milliers d'étoiles scintillent dans un ciel parfaitement dégage.
 
-Anna entend au loin le chant grave d'un hibou. Le hibou est caché dans les arbres. Tout le monde finit par chanter ensemble. C'est une chanson connue de tous. Anna se sent particulièrement bien. Elle est blottie près de la chaleur du feu.";;;;;;
+Anna entend au loin le chant grave d'un hibou cache quelque part dans les arbres. Tout le monde finit par chanter ensemble une chanson connue de tous. Anna se sent particulièrement bien, blottie près de la chaleur du feu.";;;;;;
 24610;question;Avec qui Anna s'installe-t-elle autour du feu ?;sa famille;sa classe;ses voisins;personne;24609;L
 24611;question;Quand se passe cette scène ?;un soir d'été;un matin d'hiver;en plein après-midi;un jour de pluie;24609;L
 24612;question;Comment sont les flammes ?;orangées et elles dansent;éteintes;bleues;toutes petites et invisibles;24609;L
@@ -751,9 +745,9 @@ Anna entend au loin le chant grave d'un hibou. Le hibou est caché dans les arbr
 24627;question;"Que veut dire ""scintillent"" dans le texte ?";brillent avec de petits éclats;sont invisibles;sont très grosses;se déplacent vite;24609;V
 24628;question;Pourquoi l'histoire du papa donne-t-elle des frissons aux enfants ?;elle est racontée de façon mystérieuse et impressionnante;elle est très drôle;elle est ennuyeuse;elle est trop longue;24609;I
 24629;question;Qu'est-ce qui montre qu'Anna se sent bien ce soir-là ?;elle se sent particulièrement bien près du feu;elle a hâte de rentrer;elle s'ennuie tout le long;elle a très froid malgré le feu;24609;I
-24630;passage;"Félix part camper sous la tente pendant une semaine. Il part avec ses parents. Ils campent au bord d'un grand lac. Il fait beau. Dès leur arrivée, toute la famille s'active. Ils montent la tente sur un emplacement plat. Félix aide son papa. Il plante solidement chaque piquet. Le sol est un peu sec. Avec une pompe manuelle, il gonfle son matelas. Il le gonfle avec application. C'est son matelas préféré.
+24630;passage;"Félix part camper sous la tente pendant une semaine avec ses parents, au bord d'un grand lac. Dès leur arrivée, toute la famille s'active pour monter la tente sur un emplacement plat. Félix aide son papa à planter solidement chaque piquet dans le sol un peu sec. Avec une pompe manuelle, il gonfle ensuite avec application son matelas gonflable préféré.
 
-Le soir, la famille dîne dehors. Elle dîne autour d'une petite table pliante. Une fois la nuit tombée, Félix entend le concert des grenouilles. Les grenouilles chantent près du lac. Blotti dans son sac de couchage bien chaud, il s'endort vite. Il est bercé par ces bruits. Félix adore par-dessus tout dormir ainsi en pleine nature.";;;;;;
+Le soir, la famille dîne dehors, installée autour d'une petite table pliante. Une fois la nuit tombée, Félix entend le concert des grenouilles qui chantent près du lac. Blotti dans son sac de couchage bien chaud, il s'endort rapidement, bercée par ces bruits familiers. Félix adore par-dessus tout dormir ainsi en pleine nature.";;;;;;
 24631;question;Où Félix part-il camper ?;sous une tente;dans un hôtel;chez sa mamie;dans une caravane;24630;L
 24632;question;Combien de temps dure ce séjour de camping ?;une semaine;un seul jour;un mois;un week-end seulement;24630;L
 24633;question;Près de quoi installent-ils le camp ?;un grand lac;la mer;la montagne;une rivière gelée;24630;L
@@ -774,9 +768,9 @@ Le soir, la famille dîne dehors. Elle dîne autour d'une petite table pliante. 
 24648;question;"Que veut dire ""avec application"" dans le texte ?";avec soin et concentration;n'importe comment;avec paresse;avec colère;24630;V
 24649;question;Pourquoi Félix aide-t-il son papa à planter les piquets ?;pour que la tente tienne bien et ne s'envole pas;parce qu'il n'a rien d'autre à faire;parce que son papa n'y arrive pas seul;par obligation stricte de ses parents;24630;I
 24650;question;Qu'est-ce qui montre que Félix apprécie particulièrement ce mode de vie ?;il adore par-dessus tout dormir en pleine nature;il a hâte de rentrer chez lui;il se plaint du bruit des grenouilles;il préfère dormir dans un hôtel;24630;I
-24651;passage;"Louis part à la pêche avec son grand-père. Ils partent très tôt un matin de printemps. Ils s'installent silencieusement au bord d'une rivière calme. La rivière est entourée de roseaux. Louis tient fermement sa canne à pêche. Ses yeux sont fixés sur le bouchon flottant. Il patiente longtemps. Il ne fait pas de bruit. Il ne veut pas effrayer les poissons.
+24651;passage;"Louis part à la pêche avec son grand-père très tôt un matin de printemps. Ils s'installent silencieusement au bord d'une rivière calme, entourée de roseaux. Louis tient fermement sa canne à pêche, les yeux fixés sur le bouchon flottant. Il patiente longtemps, sans faire le moindre bruit pour ne pas effrayer les poissons.
 
-Soudain, quelque chose tire violemment sur le fil. Cela surprend beaucoup Louis. Avec l'aide de son grand-père, il remonte lentement un poisson. Le poisson est joli et argenté. Fier de sa prise, Louis observe le poisson un instant. Puis il le relâche doucement dans l'eau. Son grand-père le félicite chaleureusement. C'est sa première prise.";;;;;;
+Soudain, quelque chose tire violemment sur le fil, ce qui surprend beaucoup Louis. Avec l'aide de son grand-père, il remonte lentement un joli poisson argenté. Fier de sa prise, Louis observe un instant le poisson avant de le relâcher doucement dans l'eau. Son grand-père le félicite chaleureusement pour sa première prise.";;;;;;
 24652;question;Avec qui Louis part-il à la pêche ?;son grand-père;son papa;sa mamie;sa classe;24651;L
 24653;question;Quand partent-ils à la pêche ?;très tôt un matin de printemps;le soir en été;à midi en hiver;la nuit;24651;L
 24654;question;Où s'installent-ils ?;au bord d'une rivière calme;sur un bateau en mer;au bord d'un lac gelé;dans la forêt;24651;L
@@ -797,11 +791,11 @@ Soudain, quelque chose tire violemment sur le fil. Cela surprend beaucoup Louis.
 24669;question;"Que veut dire ""chaleureusement"" dans ce contexte ?";avec beaucoup de gentillesse et d'enthousiasme;froidement;brièvement;avec ironie;24651;V
 24670;question;Pourquoi Louis et son grand-père restent-ils silencieux au bord de l'eau ?;le bruit ferait fuir les poissons;ils sont fatigués de parler;ils se sont disputés;ils n'ont rien à se dire;24651;I
 24671;question;Qu'est-ce qui montre que Louis respecte la nature ?;il relâche doucement le poisson qu'il a attrapé;il garde le poisson pour le manger;il jette le poisson n'importe comment;il attrape le plus de poissons possible;24651;I
-24672;passage;"Charlotte monte à cheval pour la première fois. Elle est dans un centre équestre. Il fait beau. Elle est contente. Elle sourit. Elle rit. Avant de commencer, elle caresse la crinière d'un poney. Le poney est brun. Il s'appelle Cannelle. La monitrice aide Charlotte. Elle l'aide à monter en selle. Elle est gentille.
+24672;passage;"Charlotte monte à cheval pour la toute première fois, dans un centre équestre proche de chez elle. Avant de commencer, elle caresse doucement la crinière épaisse d'un poney brun nomme Cannelle. La monitrice aide patiemment Charlotte à s'installer correctement en selle.
 
-Charlotte tient les rênes. Il fait chaud. Elle les tient fort. Elle les tient des deux mains. Elle est un peu nerveuse. Le poney avance tout doucement. La monitrice le guide. Elle le guide par la voix. Sa voix est rassurante.
+Une fois assise, Charlotte tient fermement les rênes de ses deux mains, un peu nerveuse. Le poney avance tranquillement dans le manège, guidé par la voix rassurante de la monitrice.
 
-Petit à petit, Charlotte apprend à faire trotter Cannelle. Elle le fait en douceur. À la fin, elle offre une carotte. C'est pour son nouveau compagnon. Charlotte ne pense qu'à une chose. Elle veut revenir vite.";;;;;;
+Petit à petit, Charlotte apprend à faire trotter Cannelle en douceur. à la fin de la séance, elle offre fièrement une carotte à son nouveau compagnon. Charlotte ne pense plus qu'à une chose : revenir le plus vite possible.";;;;;;
 24673;question;Où Charlotte monte-t-elle à cheval ?;un centre équestre;une ferme;un zoo;un cirque;24672;L
 24674;question;Que fait Charlotte avant de commencer ?;elle caresse la crinière du poney;elle nourrit le poney;elle brosse le poney;elle observe seulement de loin;24672;L
 24675;question;De quelle couleur est le poney ?;brun;blanc;noir;gris;24672;L
@@ -822,11 +816,11 @@ Petit à petit, Charlotte apprend à faire trotter Cannelle. Elle le fait en dou
 24690;question;"Que veut dire ""compagnon"" dans le texte ?";un ami avec qui on partage un moment;un simple objet;un adversaire;un inconnu;24672;V
 24691;question;Pourquoi Charlotte est-elle un peu nerveuse au début ?;c'est sa toute première fois à cheval;le poney est agressif;elle n'aime pas les animaux;la monitrice est sévère avec elle;24672;I
 24692;question;Qu'est-ce qui montre que Charlotte a adoré cette expérience ?;elle ne pense qu'à revenir le plus vite possible;elle ne veut plus jamais remonter;elle est restée indifférente durant la séance;elle a eu peur du poney toute la séance;24672;I
-24693;passage;"Gabriel joue dehors. Il fait doux. Soudain, de gros nuages noirs arrivent dans le ciel. Sans perdre une minute, il enfile ses bottes jaunes. Il enfile aussi son imperméable. La pluie va redoubler. Dès les premières gouttes, Gabriel saute dans les flaques. Il saute joyeusement.
+24693;passage;"Gabriel joue tranquillement dehors quand de gros nuages noirs envahissent soudain le ciel. Sans perdre une minute, il enfile ses bottes jaunes et son imperméable avant que la pluie ne redouble. Dès les premières gouttes, Gabriel saute joyeusement dans toutes les flaques qu'il trouve.
 
-Il fait naviguer une feuille. Elle flotte dans l'eau du caniveau. Un escargot avance très lentement sur le trottoir. Le trottoir est tout luisant. Gabriel ouvre un grand parapluie rouge. Il continue sa balade au sec.
+Il s'amuse aussi à faire naviguer une feuille dans le petit torrent du caniveau. Un escargot avance très lentement sur le trottoir devenu tout luisant de pluie. Gabriel ouvre alors un grand parapluie rouge pour continuer sa promenade au sec.
 
-De retour chez lui, il est trempé mais radieux. Il raconte tout à sa maman. Sa maman lui prépare une serviette chaude. Elle lui donne aussi un bon goûter.";;;;;;
+De retour chez lui, trempe mais radieux, il raconte son aventure à sa maman. Celle-ci lui prépare aussitôt une serviette bien chaude et un bon goûter.";;;;;;
 24694;question;Que fait Gabriel au début de l'histoire ?;il joue dehors;il dort;il fait ses devoirs;il regarde la télévision;24693;L
 24695;question;Qu'envahit soudain le ciel ?;de gros nuages noirs;un arc-en-ciel;un soleil éclatant;de la brume légère;24693;L
 24696;question;Que fait Gabriel avant que la pluie ne redouble ?;il enfile ses bottes et son imperméable;il rentre immédiatement;il continue de jouer sans se protéger;il appelle sa maman;24693;L
@@ -847,11 +841,11 @@ De retour chez lui, il est trempé mais radieux. Il raconte tout à sa maman. Sa
 24711;question;"Que veut dire ""radieux"" dans le texte ?";très heureux, rayonnant de joie;très triste;malade;fatigué;24693;V
 24712;question;Pourquoi Gabriel s'habille-t-il rapidement dès les premiers nuages ?;pour pouvoir continuer à jouer sous la pluie qui arrive;il a peur de l'orage;sa maman le gronde s'il ne le fait pas;il veut rentrer tout de suite;24693;I
 24713;question;Qu'est-ce qui montre que Gabriel adore jouer sous la pluie ?;il rentre trempe mais radieux et raconte son aventure avec enthousiasme;il rentre en pleurant à cause du froid;il refuse de sortir malgré la pluie;il s'ennuie fortement dehors;24693;I
-24714;passage;"Julia construit une cabane en bois. Elle la construit au fond du jardin. Son papa l'aide bien. Pendant tout un week-end, ils clouent des planches de récupération. Ils font les murs. Julia peint elle-même la porte. Elle la peint en bleu vif. Elle a choisi cette couleur. Elle est très contente.
+24714;passage;"Julia construit une cabane en bois au fond du jardin avec l'aide de son papa. Pendant tout un week-end, ils clouent ensemble des planches de récupération pour former les murs. Julia peint elle-même la porte d'un joli bleu vif qu'elle a choisi.
 
-Son papa met une petite fenêtre ronde. Cela laisse entrer la lumière. Dedans, Julia range ses jouets préférés. Elle les met sur une petite étagère. Un oiseau curieux se pose parfois sur le toit. Le toit est tout neuf. Le soleil brille.
+Son papa installe ensuite une petite fenêtre ronde pour laisser entrer la lumière. à l'intérieur, Julia range soigneusement ses jouets préfères sur une petite étagère.
 
-Fière de son travail, Julia invite sa meilleure amie. Elle vient voir la cabane. Elle est joyeuse. Les deux amies passent tous leurs mercredis après-midi ensemble. Elles se retrouvent dans ce petit refuge. Elles sont heureuses.";;;;;;
+Un oiseau curieux vient parfois se poser sur le toit fraîchement construit. Fière de son travail, Julia invite sa meilleure amie à venir découvrir sa cabane. Les deux amies passent désormais tous leurs mercredis après-midi dans ce petit refuge.";;;;;;
 24715;question;Où Julia construit-elle une cabane ?;au fond du jardin;dans la forêt;dans sa chambre;à l'école;24714;L
 24716;question;Avec qui la construit-elle ?;son papa;sa maman;son frère;sa classe;24714;L
 24717;question;Pendant combien de temps construisent-ils la cabane ?;tout un week-end;une seule heure;un mois entier;toute une semaine de classe;24714;L
@@ -872,11 +866,11 @@ Fière de son travail, Julia invite sa meilleure amie. Elle vient voir la cabane
 24732;question;"Que veut dire ""refuge"" dans le texte ?";un endroit ou l'on se sent bien et protège;un endroit dangereux;un endroit interdit d'accès;un endroit très bruyant;24714;V
 24733;question;Pourquoi Julia peint-elle elle-même la porte de la cabane ?;pour personnaliser son espace à son goût;parce que son papa le lui impose;parce que c'est plus rapide;pour cacher un défaut du bois;24714;I
 24734;question;Qu'est-ce qui montre que la cabane est devenue importante pour Julia ?;elle y passe désormais tous ses mercredis avec son amie;elle n'y retourne jamais;elle préfère jouer ailleurs;elle a fini par la démonter;24714;I
-24735;passage;"Victor participe à une grande chasse au trésor. Sa mamie l'organise pour son anniversaire. Tout le monde est content. Il sourit. Dès le début, il reçoit une carte. La carte est mystérieuse. Elle est couverte d'indices. Les indices sont écrits à l'encre violette. Le premier indice le conduit sous le grand chêne. Le chêne trône au milieu du jardin.
+24735;passage;"Victor participe à une grande chasse au trésor organisée par sa mamie pour son anniversaire. Dès le début, il reçoit une carte mystérieuse couverte d'indices écrits à l'encre violette. Le premier indice le conduit sous le grand chêne qui trône au milieu du jardin.
 
-Victor trouve une petite boîte en bois. Elle contient un nouvel indice. Le deuxième indice l'envoie près de la vieille fontaine. La fontaine est en pierre.
+Là-bas, Victor découvre une petite boite en bois contenant un nouvel indice. Le deuxième indice l'envoie ensuite près de la vieille fontaine de pierre.
 
-Victor court partout dans le jardin. Il est de plus en plus excité. Victor sourit. Il trouve un coffre en bois. Il est plein de bonbons et de jouets. Ravi de sa trouvaille, Victor partage vite son trésor. Il le partage avec ses cousins.";;;;;;
+Victor court partout dans le jardin, de plus en plus excite par sa recherche. Finalement, il découvre un coffre en bois rempli de bonbons et de petits jouets. Ravi de sa découverte, Victor partage aussitôt son trésor avec tous ses cousins.";;;;;;
 24736;question;Qui organise la chasse au trésor ?;sa mamie;sa maîtresse;son papa;un ami;24735;L
 24737;question;À quelle occasion cette chasse au trésor est-elle organisée ?;l'anniversaire de Victor;la fête de l'école;Noël;sans occasion particulière;24735;L
 24738;question;Que reçoit Victor pour commencer ?;une carte mystérieuse;une pelle;un plan de la ville;un livre;24735;L
@@ -897,11 +891,11 @@ Victor court partout dans le jardin. Il est de plus en plus excité. Victor sour
 24753;question;"Que veut dire ""ravi"" dans le texte ?";très content, enchanté;déçu;fatigué;en colère;24735;V
 24754;question;Pourquoi Victor court-il de plus en plus vite pendant le jeu ?;l'excitation de la recherche grandit à chaque indice trouve;il est en retard pour un rendez-vous;il a peur de quelque chose;il veut simplement faire de l'exercice;24735;I
 24755;question;Qu'est-ce qui montre que Victor aime partager ses joies avec les autres ?;il partage son trésor avec tous ses cousins;il cache le trésor pour lui seul;il refuse de montrer sa découverte;il jette les bonbons trouvés;24735;I
-24756;passage;"Rosa va voir un spectacle de magie. C'est la fête de son village. Cette fête a lieu chaque année. Sur scène, le magicien porte un grand chapeau noir. Il porte aussi une cape. La cape a des reflets étincelants. D'un geste théâtral, il fait disparaître une colombe blanche. Le public a les yeux ébahis.
+24756;passage;"Rosa assiste à un spectacle de magie impressionnant lors de la fête annuelle de son village. Sur scène, le magicien porte un grand chapeau noir et une cape aux reflets étincelants. D'un geste théâtral, il fait disparaître complètement une colombe blanche sous les yeux ébahis du public.
 
-Rosa n'en croit pas ses yeux. Elle se demande comment ce tour est possible. Le magicien sort un lapin tout blanc. Il le sort de son chapeau.
+Rosa n'en croit pas ses yeux et se demande comment un tel tour est possible. Le magicien sort ensuite un lapin tout blanc de son fameux chapeau.
 
-À la surprise générale, il invite Rosa sur scène. Elle vient jouer un tour avec lui. Rosa choisit une carte. Elle ne la montre à personne. Le magicien devine son choix exact. Rosa redescend de scène. Elle est complètement émerveillée.";;;;;;
+A la surprise générale, il invite Rosa à monter sur scène pour participer à un tour. Rosa choisit une carte sans la montrer, et le magicien devine son choix exact. Rosa redescend de scène complètement émerveillée par cette expérience magique.";;;;;;
 24757;question;Où Rosa assiste-t-elle au spectacle ?;la fête annuelle du village;au cirque;à l'école;au théâtre municipal;24756;L
 24758;question;Que porte le magicien ?;un grand chapeau noir et une cape;une cape rouge seulement;des lunettes;un costume blanc simple;24756;L
 24759;question;Comment est la cape du magicien ?;aux reflets étincelants;toute simple et grise;déchirée;invisible;24756;L
@@ -922,11 +916,11 @@ Rosa n'en croit pas ses yeux. Elle se demande comment ce tour est possible. Le m
 24774;question;"Que veut dire ""théâtral"" dans le texte ?";fait avec des gestes amples et impressionnants;fait discrètement, sans attirer l'attention;fait par accident;fait très lentement;24756;V
 24775;question;Pourquoi Rosa n'en croit-elle pas ses yeux ?;le tour de magie semble impossible à expliquer;elle connaît déjà le truc du magicien;elle n'a pas bien regarde le tour;le magicien lui a expliqué le secret;24756;I
 24776;question;Qu'est-ce qui montre que Rosa a adoré participer au spectacle ?;elle redescend de scène complètement émerveillée;elle refuse de monter sur scène;elle s'ennuie pendant tout le tour;elle quitte la fête avant la fin;24756;I
-24777;passage;"Simon va voir un théâtre de marionnettes. Il est installé pour un temps dans le parc de son quartier. Le petit théâtre est en bois. Il a de jolis rideaux rouges. Les rideaux sont brodés de motifs dorés. Une marionnette de loup est très expressive. Elle fait rire tous les enfants.
+24777;passage;"Simon assiste à un théâtre de marionnettes installé temporairement dans le parc de son quartier. Le petit théâtre en bois arbore de jolis rideaux rouges brodés de motifs dorés. Une marionnette de loup, très expressive, fait immédiatement rire tous les enfants présents.
 
-Simon rit de bon coeur. Il est avec ses copains, juste à côté de lui. Une marionnette de princesse chante ensuite. Sa chanson est douce et mélodieuse. À chaque fin de scène, les enfants applaudissent très fort. Ils sont ravis.
+Simon rit de bon coeur avec ses copains assis juste à côté de lui. Une marionnette de princesse chante ensuite une chanson douce et mélodieuse. à chaque fin de scène, les enfants applaudissent très fort, ravis du spectacle.
 
-Une fois la représentation finie, Simon s'approche. Il veut toucher les marionnettes de près. Il repart le sourire aux lèvres. Il pense déjà au prochain spectacle.";;;;;;
+Une fois la représentation terminée, Simon s'approche pour toucher les marionnettes de près. Il repart de la, le sourire aux lèvres, en pensant déjà au prochain spectacle.";;;;;;
 24778;question;Où Simon assiste-t-il au spectacle ?;dans le parc de son quartier;à l'école;au cirque;chez lui;24777;L
 24779;question;Comment le théâtre est-il installé ?;temporairement;de façon permanente;il est mobile sur un camion;il est construit en dur;24777;L
 24780;question;En quoi est fait le petit théâtre ?;en bois;en carton;en tissu;en plastique;24777;L
@@ -947,11 +941,11 @@ Une fois la représentation finie, Simon s'approche. Il veut toucher les marionn
 24795;question;"Que veut dire ""mélodieuse"" dans le texte ?";agréable à l'oreille, harmonieuse;criarde et désagréable;totalement silencieuse;rapide et saccadée;24777;V
 24796;question;Pourquoi les enfants applaudissent-ils à chaque fin de scène ?;ils apprécient beaucoup le spectacle;c'est une règle qu'on leur impose;ils veulent que ça s'arrête;ils ne savent pas quoi faire d'autre;24777;I
 24797;question;Qu'est-ce qui montre que Simon à beaucoup aime ce spectacle ?;il repart le sourire aux lèvres en pensant au prochain spectacle;il s'ennuie visiblement pendant la représentation;il quitte le parc avant la fin;il ne veut plus jamais revoir de marionnettes;24777;I
-24798;passage;"Emma chante dans la chorale de son école. Elle chante avec passion depuis le début de l'année. Chaque mardi après-midi, elle répète avec sa classe. Ils apprennent de nouvelles chansons pour le concert. Le jour du concert, Emma met une chemise blanche. Sa chemise est impeccable. Elle est un peu nerveuse.
+24798;passage;"Emma chante avec passion dans la chorale de son école depuis le début de l'année. Chaque mardi après-midi, elle répète avec sa classe de nouvelles chansons pour le concert. Le jour du grand concert, Emma enfile une chemise blanche impeccable pour l'occasion.
 
-Juste avant de monter sur scène, elle a un peu de trac. Son coeur est battant. Le public est nombreux. Le professeur de musique lève la main. C'est le signal de départ. Emma chante de tout son coeur. Elle chante avec ses camarades. Ils sont tous unis.
+Juste avant de monter sur scène, elle ressent un peu de trac, le coeur battant. Le professeur de musique lève enfin la main pour donner le signal de départ. Emma chante alors de tout son coeur, aux côtés de ses camarades unis.
 
-À la fin du morceau, les parents applaudissent longtemps. Ils sont très touchés. Emma redescend de scène. Elle sourit largement. Elle est très fière d'avoir bien chanté.";;;;;;
+à la fin du morceau, les parents applaudissent longuement, visiblement très touches. Emma redescend de scène extrêmement fière d'avoir si bien chante devant tout le monde.";;;;;;
 24799;question;Où Emma chante-t-elle ?;dans la chorale de son école;dans un groupe professionnel;à la télévision;au cirque;24798;L
 24800;question;Depuis quand Emma fait-elle partie de la chorale ?;depuis le début de l'année;depuis une semaine seulement;depuis toujours;depuis hier;24798;L
 24801;question;Quel jour Emma répète-t-elle ?;le mardi après-midi;le lundi matin;le vendredi soir;le dimanche;24798;L
@@ -972,11 +966,11 @@ Juste avant de monter sur scène, elle a un peu de trac. Son coeur est battant. 
 24816;question;"Que veut dire ""impeccable"" dans le texte ?";parfaitement propre et soignée;sale et froissée;trop grande;trop petite;24798;V
 24817;question;Pourquoi Emma ressent-elle du trac avant de monter sur scène ?;chanter devant beaucoup de monde est impressionnant;elle n'a pas répète du tout;elle n'aime pas chanter;elle a peur du professeur de musique;24798;I
 24818;question;Qu'est-ce qui montre qu'Emma a réussi sa prestation ?;les parents applaudissent longuement et elle se sent très fière;les parents restent silencieux et déçus;elle oublie les paroles sur scène;elle refuse de remonter sur scène après;24798;I
-24819;passage;"Nathan participe à la journée sportive de son école. Cette journée a lieu chaque année. Il fait beau. Dès le matin, il s'élance dans une course de vitesse. Il court au milieu de la cour. Un peu plus tard, Nathan tente sa chance. Il fait l'épreuve du saut en longueur.
+24819;passage;"Nathan participe avec enthousiasme à la journée sportive annuelle organisée par son école. Dès le matin, il s'élancé dans une course de vitesse au milieu de la cour. Un peu plus tard, Nathan tente sa chance à l'épreuve du saut en longueur.
 
-Son équipe joue ensuite un match de ballon prisonnier. Le match est animé. Ils jouent contre une autre classe. La maîtresse a un sifflet. Elle chronomètre chaque course avec soin. Entre deux épreuves, Nathan boit une grande gorgée d'eau. Il veut reprendre des forces.
+Son équipe dispute ensuite un match anime de ballon prisonnier contre une autre classe. La maîtresse, munie d'un sifflet, chronomètre soigneusement chaque course de la journée. Entre deux épreuves, Nathan boit une grande gorgée d'eau pour reprendre des forces.
 
-À la fin, tous les enfants reçoivent une médaille souvenir. Ils la reçoivent fièrement. Nathan rentre chez lui épuisé. Il est extrêmement satisfait de sa performance.";;;;;;
+à la fin de la journée, tous les enfants reçoivent fièrement une médaille souvenir. Nathan rentre chez lui épuise mais extrêmement satisfait de sa performance.";;;;;;
 24820;question;À quoi Nathan participe-t-il ?;la journée sportive de l'école;un match de football professionnel;une course cycliste;un spectacle de danse;24819;L
 24821;question;Quand a lieu cette journée sportive ?;chaque année;une seule fois dans la scolarité;tous les mois;on ne sait pas;24819;L
 24822;question;Que fait Nathan dès le matin ?;il s'élancé dans une course de vitesse;il regarde seulement les autres;il rentre chez lui;il fait ses devoirs;24819;L
@@ -997,11 +991,11 @@ Son équipe joue ensuite un match de ballon prisonnier. Le match est animé. Ils
 24837;question;"Que veut dire ""anime"" dans le texte, à propos du match ?";vivant, plein d'action;calme et sans intérêt;triste;silencieux;24819;V
 24838;question;Pourquoi Nathan est-il épuise à la fin de la journée ?;il a participé à de nombreuses épreuves physiques;il n'a presque rien fait de la journée;il a mal dormi la veille;il est malade depuis le matin;24819;I
 24839;question;Qu'est-ce qui montre que Nathan est content de sa journée malgré la fatigue ?;il se sent extrêmement satisfait de sa performance;il regrette d'avoir participé;il est déçu de ses résultats;il ne veut plus jamais refaire de sport;24819;I
-24840;passage;"Sara découvre un parcours d'obstacles. Elle est au centre de loisirs. Elle est contente. Il fait beau. Le ciel est bleu. Sans hésiter, elle rampe la première. Elle rampe sous un grand filet vert. Le filet est bas au sol. Un peu plus loin, Sara saute avec agilité. Elle saute par-dessus des pneus.
+24840;passage;"Sara découvre un parcours d'obstacles impressionnant lors d'une sortie au centre de loisirs. Sans hésiter, elle rampe la première sous un grand filet vert tendu bas au sol. Un peu plus loin, Sara saute avec agilité par-dessus une série de pneus alignés.
 
-Elle grimpe ensuite sur un haut mur. Le mur est couvert de mousse. Un moniteur encourage Sara. Il est attentif. Il l'encourage à chaque étape difficile.
+Elle grimpe ensuite courageusement sur un haut mur recouvert de mousse épaisse. Un moniteur attentif encourage Sara à chaque étape difficile du parcours.
 
-Elle traverse enfin un pont de corde. Le pont est suspendu. Il se balance un peu sous ses pas. Dans un dernier effort, Sara passe la ligne d'arrivée. Elle court très vite. Elle est extrêmement fière. Elle a surmonté toutes les difficultés.";;;;;;
+Elle traverse enfin un pont de corde suspendu qui se balance légèrement sous ses pas. Dans un dernier effort, Sara franchit la ligne d'arrivée en courant à toute vitesse. Elle termine ce parcours extrêmement fière d'avoir surmonté toutes les difficultés.";;;;;;
 24841;question;Où Sara découvre-t-elle le parcours d'obstacles ?;au centre de loisirs;à l'école;au stade;à la piscine;24840;L
 24842;question;Sous quoi Sara rampe-t-elle ?;un grand filet vert;une table;une corde tendue;un tunnel en bois;24840;L
 24843;question;Comment est tendu ce filet ?;bas au sol;très haut;il n'est pas tendu;il flotte dans les airs;24840;L
@@ -1022,11 +1016,11 @@ Elle traverse enfin un pont de corde. Le pont est suspendu. Il se balance un peu
 24858;question;"Que veut dire ""surmonte"" dans le texte ?";réussit à dépasser une difficulté;abandonne face à une difficulté;ignore complètement;crée une difficulté;24840;V
 24859;question;Pourquoi le moniteur encourage-t-il Sara pendant le parcours ?;pour l'aider à garder confiance face aux difficultés;parce qu'elle pleure tout le long;parce qu'elle refuse d'avancer;pour la faire aller plus vite que les autres;24840;I
 24860;question;Qu'est-ce qui montre que Sara a bien réussi ce parcours ?;elle franchit la ligne d'arrivée fière d'avoir surmonté les difficultés;elle abandonne avant la fin;elle refuse de recommencer;elle se blesse pendant le parcours;24840;I
-24861;passage;"Adam passe une journée formidable au parc aquatique. Il est avec ses parents. C'est en plein été. Dès son arrivée, il grimpe tout en haut d'un immense toboggan. Le toboggan est bleu vif. Pendant toute la descente, Adam crie de joie. Ses bras sont levés bien haut.
+24861;passage;"Adam passe une journée formidable au parc aquatique avec ses parents, en plein été. Dès son arrivée, il grimpe tout en haut d'un immense toboggan bleu vif. Pendant toute la descente, Adam crie de joie, les bras levés bien haut.
 
-Il atterrit dans le grand bassin. Il fait un énorme plouf éclaboussant. Sa maman nage joyeusement à ses côtés. Ils nagent dans la rivière artificielle du parc.
+Il atterrit finalement dans le grand bassin avec un énorme plouf éclaboussant. Sa maman nage joyeusement à ses côtés dans la rivière artificielle du parc.
 
-Après plusieurs heures de baignade, Adam mange une glace. Il la mange au bord de l'eau. Encore et encore, il refait le même toboggan, sans jamais se lasser. À la fermeture du parc, Adam supplie ses parents. Il veut revenir dès le lendemain.";;;;;;
+Après plusieurs heures de baignade, Adam savoure une glace au bord de l'eau. Encore et encore, il refait le même toboggan, sans jamais se lasser. A la fermeture du parc, Adam supplie ses parents de revenir dès le lendemain.";;;;;;
 24862;question;Où Adam passe-t-il sa journée ?;au parc aquatique;à la piscine du quartier;à la plage;au lac;24861;L
 24863;question;Avec qui y va-t-il ?;ses parents;sa classe;ses cousins;ses voisins;24861;L
 24864;question;À quelle saison se passe cette journée ?;en plein été;en hiver;au printemps;en automne;24861;L
@@ -1047,11 +1041,9 @@ Après plusieurs heures de baignade, Adam mange une glace. Il la mange au bord d
 24879;question;"Que veut dire ""se lasser"" dans le texte ?";perdre l'intérêt pour quelque chose à force de le répéter;adorer de plus en plus quelque chose;avoir peur de quelque chose;oublier quelque chose complètement;24861;V
 24880;question;Pourquoi Adam refait-il le toboggan tant de fois ?;il prend un plaisir immense à cette activité;il n'a rien d'autre à faire;ses parents l'y obligent;il attend un ami;24861;I
 24881;question;Qu'est-ce qui montre qu'Adam a adoré sa journée au parc aquatique ?;il supplie ses parents de revenir dès le lendemain;il est soulagé quand le parc ferme;il refuse de refaire le toboggan une seconde fois;il s'ennuie visiblement toute la journée;24861;I
-24882;passage;"Léna monte pour la première fois dans le grand huit. Elle est à la fête foraine. Elle est excitée. Il fait beau. Le coeur battant, elle attache sa ceinture. Elle l'attache avant le départ. Le wagon grimpe lentement. Il grimpe tout en haut d'une côte. La côte est très raide. Arrivée au sommet, Léna ferme les yeux un instant. Elle a une petite frayeur.
+24882;passage;"Léna monte pour la toute première fois dans le grand huit de la fête foraine. Le coeur battant, elle attache soigneusement sa ceinture de sécurité avant le départ. Le wagon grimpe lentement tout en haut d'une côte impressionnante et très raide. Arrivée au sommet, Léna ferme les yeux un court instant, prise d'une petite frayeur.
 
-Soudain, le wagon dévale la pente. Il va très vite. Il enchaîne les virages. Léna lève les bras très haut. Elle pousse un grand cri.
-
-Après deux minutes intenses, le tour se termine. Il se termine dans un dernier virage. Léna demande vite à son papa de refaire un tour. Elle veut recommencer encore et encore.";;;;;;
+Soudain, le wagon dévale la pente à une vitesse folle en enchaînant les virages. Léna lève alors les bras très haut, en poussant un grand cri joyeux. Après deux minutes intenses, le tour se termine enfin dans un dernier virage. Léna demande immédiatement à son papa de refaire un tour, encore et encore.";;;;;;
 24883;question;Où Léna monte-t-elle dans le grand huit ?;à la fête foraine;au cirque;au parc de la ville;à l'école;24882;L
 24884;question;Comment est le coeur de Léna avant le départ ?;battant;très calme;on ne sait pas;endormi;24882;L
 24885;question;Que fait Léna avant le départ ?;elle attache sa ceinture;elle ferme la porte;elle appelle sa maman;elle enlève ses chaussures;24882;L
@@ -1072,11 +1064,11 @@ Après deux minutes intenses, le tour se termine. Il se termine dans un dernier 
 24900;question;"Que veut dire ""intenses"" dans le texte, à propos des deux minutes ?";fortes en émotions et en sensations;ennuyeuses et longues;totalement calmes;sans aucune sensation;24882;V
 24901;question;Pourquoi Léna ferme-t-elle les yeux au sommet de la côte ?;l'appréhension avant la descente rapide;elle a sommeil;elle n'aime pas la lumière;elle a terminé le tour;24882;I
 24902;question;Qu'est-ce qui montre que Léna a adoré cette expérience malgré sa frayeur initiale ?;elle demande à refaire un tour encore et encore;elle refuse absolument de remonter;elle pleure à la fin du tour;elle veut quitter la fête tout de suite;24882;I
-24903;passage;"Paul monte avec entrain sur un cheval de bois. Le cheval est sur le vieux manège de la fête. Sa petite soeur grimpe juste à côté de lui. Elle monte sur un cheval blanc voisin. Une musique entraînante se met à jouer. Elle joue très fort dans les haut-parleurs.
+24903;passage;"Paul monte avec entrain sur un magnifique cheval de bois, installé sur le vieux manège de la fête. Sa petite soeur grimpe juste à côté de lui, sur un cheval blanc voisin. Une musique entraînante se met alors à jouer très fort dans les haut-parleurs.
 
-Paul agrippe fermement la barre dorée. Il a un large sourire aux lèvres. Le manège se met en mouvement doucement. Il tourne de plus en plus vite.
+Paul agrippe fermement la barre dorée, un large sourire aux lèvres. Le manège se met en mouvement doucement, tournant de plus en plus vite.
 
-Sa soeur agite joyeusement la main. Elle le fait à chaque passage devant leurs parents. Pendant le tour, Paul tente d'attraper un petit anneau. L'anneau est en bois. Il est suspendu au passage. Une fois le manège terminé, toute la famille file. Ils rejoignent la grande roue voisine.";;;;;;
+Sa soeur agite joyeusement la main à chaque fois qu'ils passent devant leurs parents. Pendant le tour, Paul tente d'attraper un petit anneau en bois suspendu au passage. Une fois le manège termine, toute la famille file rejoindre la grande roue voisine.";;;;;;
 24904;question;Sur quoi Paul monte-t-il d'abord ?;un cheval de bois;un dragon;une voiture;un avion;24903;L
 24905;question;Où est installé le manège ?;à la fête;au cirque;à l'école;au zoo;24903;L
 24906;question;Avec qui Paul monte-t-il sur le manège ?;sa petite soeur;son grand frère;sa mamie;un ami;24903;L
@@ -1097,11 +1089,9 @@ Sa soeur agite joyeusement la main. Elle le fait à chaque passage devant leurs 
 24921;question;"Que veut dire ""agrippe"" dans le texte ?";tient fermement quelque chose;lâche quelque chose;touche à peine quelque chose;regarde quelque chose;24903;V
 24922;question;Pourquoi Paul tient-il si fermement la barre dorée ?;pour ne pas glisser pendant que le manège tourne;parce que la barre est fragile;pour impressionner sa soeur;parce qu'on le lui ordonne;24903;I
 24923;question;Qu'est-ce qui montre que Paul et sa soeur s'amusent beaucoup sur le manège ?;le large sourire de Paul et les signes joyeux de sa soeur;ils restent silencieux et immobiles;ils demandent à descendre tout de suite;ils se disputent pendant le tour;24903;I
-24924;passage;"Iris dort chez ses grands-parents. C'est la première fois. C'est un week-end de vacances. Elle est contente. Elle sourit. Elle est très calme. Dans sa valise, elle a mis son doudou lapin. Elle l'a mis soigneusement. Pour le dîner, mamie fait une bonne soupe. C'est une soupe de légumes du jardin. Iris aide son papi à mettre la table. Elle est fière d'être utile.
+24924;passage;"Iris dort chez ses grands-parents pour la toute première fois, un week-end de vacances. Dans sa petite valise, elle a soigneusement glissé son doudou lapin adoré. Pour le dîner, mamie prépare une bonne soupe de légumes du jardin. Iris aide son papi à mettre la table, fière de se rendre utile.
 
-Après le repas, papi raconte une longue histoire. C'est une histoire de son enfance. Iris se glisse dans un grand lit. Le lit est très douillet. Le lit sent bon. Il a été préparé pour elle.
-
-Mamie lui chante une berceuse. Elle la chante doucement. Sa propre maman lui chantait cette chanson autrefois. Bercée par cette douce mélodie, Iris s'endort vite. Elle est très heureuse.";;;;;;
+Après le repas, papi raconte une longue histoire tirée de son enfance. Iris se glisse ensuite dans un grand lit très douillet, préparé spécialement pour elle. Mamie lui chante doucement une berceuse que sa propre maman lui chantait autrefois. Bercée par cette douce mélodie, Iris s'endort très vite, parfaitement heureuse.";;;;;;
 24925;question;Où Iris dort-elle pour la première fois ?;chez ses grands-parents;chez ses cousins;à l'école;chez une amie;24924;L
 24926;question;Quand se passe cette nuit particulière ?;un week-end de vacances;un jour d'école;le jour de son anniversaire;pendant une sortie scolaire;24924;L
 24927;question;Que glisse Iris dans sa valise ?;son doudou lapin;ses jouets;ses livres;ses vêtements de sport;24924;L
@@ -1122,11 +1112,11 @@ Mamie lui chante une berceuse. Elle la chante doucement. Sa propre maman lui cha
 24942;question;"Que veut dire ""bercée"" dans le texte ?";endormie doucement par un mouvement ou un son apaisant;réveillée brusquement;effrayée;gênée;24924;V
 24943;question;Pourquoi papi raconte-t-il une histoire de son enfance à Iris ?;pour partager un moment complice avant le coucher;parce qu'il n'a rien d'autre à faire;parce qu'Iris le lui demande avec insistance;par obligation avant chaque nuit;24924;I
 24944;question;Qu'est-ce qui montre qu'Iris se sent bien chez ses grands-parents ?;elle s'endort vite, parfaitement heureuse;elle pleure avant de dormir;elle demande à rentrer chez elle;elle a du mal à s'endormir;24924;I
-24945;passage;"Milan revient de vacances avec sa famille. Ils reviennent après deux semaines. Ils étaient au bord de la mer. Il fait beau. À peine arrivé, il aide son papa. Ils sortent les valises du coffre. Milan range ensuite ses coquillages préférés. Il les range avec soin. Il les met dans une boîte en carton.
+24945;passage;"Milan revient de vacances avec sa famille, après deux semaines passées au bord de la mer. à peine arrive, il aide son papa à sortir les lourdes valises du coffre de la voiture. Milan range ensuite avec soin ses coquillages préfères dans une petite boite en carton.
 
-Son chat l'attendait devant la porte. Il l'attendait patiemment. Il est ravi de son retour. Sa maman lave déjà les vêtements. Les vêtements sont pleins de sable.
+Son chat, visiblement ravi de son retour, l'attendait patiemment devant la porte. Sa maman commence déjà à laver les vêtements couverts de sable fin.
 
-Assis avec son papa, Milan regarde les photos du séjour. Il les regarde avec plaisir. En pensant à l'école qui reprend bientôt, il ressent un petit pincement au coeur. Malgré tout, Milan garde un très bon souvenir de ces vacances.";;;;;;
+Assis avec son papa, Milan regarde avec plaisir les photos prises pendant le séjour. En repensant à l'école qui reprend bientôt, il ressent un petit pincement au coeur. Malgré tout, Milan garde de ces vacances un très bon souvenir.";;;;;;
 24946;question;D'ou Milan revient-il ?;de vacances au bord de la mer;de l'école;de chez ses cousins;de la montagne;24945;L
 24947;question;Combien de temps a duré le séjour ?;deux semaines;un week-end;un mois;trois jours;24945;L
 24948;question;Que fait Milan à peine arrive ?;il aide à sortir les valises;il va se coucher tout de suite;il part jouer dehors;il appelle ses amis;24945;L
@@ -1147,11 +1137,11 @@ Assis avec son papa, Milan regarde les photos du séjour. Il les regarde avec pl
 24963;question;"Que veut dire ""patiemment"" dans le texte ?";en attendant calmement, sans s'impatienter;en s'agitant beaucoup;en dormant;en pleurant;24945;V
 24964;question;Pourquoi Milan ressent-il un pincement au coeur en pensant à l'école ?;cela signifie la fin des vacances qu'il a appréciées;il n'aime pas du tout l'école;il a oublié ses affaires scolaires;il est déjà en retard pour la rentrée;24945;I
 24965;question;Qu'est-ce qui montre que Milan a passé de bonnes vacances ?;il garde un très bon souvenir malgré la fin des vacances;il est soulagé que les vacances soient finies;il n'a rien à raconter de son séjour;il ne veut plus jamais repartir en vacances;24945;I
-24966;passage;"Selma visite un jardin de papillons. Elle est avec toute sa classe. Il fait chaud. Le ciel est bleu. Dès son arrivée, un grand papillon bleu se pose sur sa main. Il se pose tout doucement. Sa main est tendue. Selma reste immobile. Elle retient presque son souffle. Elle ne veut pas lui faire peur.
+24966;passage;"Selma visite un magnifique jardin rempli de papillons multicolores, accompagnée de toute sa classe. Dès son arrivée, un grand papillon bleu vient se poser délicatement sur sa main tendue. Selma reste parfaitement immobile, retenant presque sa respiration pour ne pas l'effrayer.
 
-La guide du jardin explique avec passion. Elle dit comment naissent les papillons. Curieuse, Selma observe une chenille verte. La chenille avance lentement sur une feuille. Tout autour d'elle flotte un parfum de fleurs. L'air chaud embaume.
+La guide du jardin explique alors avec passion comment naissent et se transforment les papillons. Curieuse, Selma observe longuement une chenille verte qui avance lentement sur une feuille. Tout autour d'elle flotte un doux parfum de fleurs qui embaume l'air chaud.
 
-Avant de partir, Selma prend le temps de dessiner un papillon. Elle le dessine avec soin dans son cahier. Elle rentre chez elle. Elle garde précieusement ce joli souvenir dans son coeur.";;;;;;
+Avant de repartir, Selma prend le temps de dessiner soigneusement un papillon dans son cahier. Elle rentre chez elle en gardant précieusement ce joli souvenir dans son coeur.";;;;;;
 24967;question;Que visite Selma avec sa classe ?;un jardin de papillons;un zoo;un musée;une ferme;24966;L
 24968;question;De quelle couleur est le papillon qui se pose sur sa main ?;bleu;rouge;jaune;orange;24966;L
 24969;question;Où se pose ce papillon ?;sur sa main tendue;sur sa tête;sur son épaule;il ne se pose pas;24966;L

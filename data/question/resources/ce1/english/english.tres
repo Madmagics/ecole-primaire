@@ -3921,7 +3921,7 @@ subject = 5
 grade = 1
 text = "Comment dit-on \"j'ai onze crayons\" en anglais ?"
 correct_answer = "I have eleven pencils"
-choices = Array[String](["I have eleven cats", "I saw eleven birds", "I have eleven rulers"])
+choices = Array[String](["I have eleven cats", "I see eleven birds", "I have eleven rulers"])
 
 [sub_resource type="Resource" id="Resource_t100b"]
 script = ExtResource("1_orqwb")
@@ -3937,7 +3937,7 @@ subject = 5
 grade = 1
 text = "Comment dit-on \"j'ai onze gommes\" en anglais ?"
 correct_answer = "I have eleven rubbers"
-choices = Array[String](["I have eleven dogs", "I have eleven cats", "I saw eleven birds"])
+choices = Array[String](["I have eleven dogs", "I have eleven cats", "I see eleven birds"])
 
 [sub_resource type="Resource" id="Resource_igsf8"]
 script = ExtResource("1_orqwb")
@@ -3953,7 +3953,7 @@ subject = 5
 grade = 1
 text = "Comment dit-on \"j'ai onze règles\" en anglais ?"
 correct_answer = "I have eleven rulers"
-choices = Array[String](["I have eleven rubbers", "I saw eleven birds", "I have eleven dogs"])
+choices = Array[String](["I have eleven rubbers", "I see eleven birds", "I have eleven dogs"])
 
 [sub_resource type="Resource" id="Resource_n1cvl"]
 script = ExtResource("1_orqwb")
@@ -3969,7 +3969,7 @@ subject = 5
 grade = 1
 text = "Comment dit-on \"j'ai onze livres\" en anglais ?"
 correct_answer = "I have eleven books"
-choices = Array[String](["I have eleven rubbers", "I have eleven pencils", "I saw eleven birds"])
+choices = Array[String](["I have eleven rubbers", "I have eleven pencils", "I see eleven birds"])
 
 [sub_resource type="Resource" id="Resource_vnkfw"]
 script = ExtResource("1_orqwb")
@@ -3977,7 +3977,7 @@ subject = 5
 grade = 1
 text = "Que veut dire \"I have eleven books\" en français ?"
 correct_answer = "j'ai onze livres"
-choices = Array[String](["j'ai onze lapins", "j'ai onze règles", "j'ai vu onze oiseaux"])
+choices = Array[String](["j'ai onze lapins", "j'ai onze règles", "je vois onze oiseaux"])
 
 [sub_resource type="Resource" id="Resource_ptv4l"]
 script = ExtResource("1_orqwb")
@@ -4015,16 +4015,16 @@ choices = Array[String](["j'ai onze chats", "j'ai onze règles", "j'ai onze livr
 script = ExtResource("1_orqwb")
 subject = 5
 grade = 1
-text = "Comment dit-on \"j'ai vu onze oiseaux\" en anglais ?"
-correct_answer = "I saw eleven birds"
+text = "Comment dit-on \"je vois onze oiseaux\" en anglais ?"
+correct_answer = "I see eleven birds"
 choices = Array[String](["I have eleven rulers", "I have eleven cats", "I have eleven dogs"])
 
 [sub_resource type="Resource" id="Resource_11tod"]
 script = ExtResource("1_orqwb")
 subject = 5
 grade = 1
-text = "Que veut dire \"I saw eleven birds\" en français ?"
-correct_answer = "j'ai vu onze oiseaux"
+text = "Que veut dire \"I see eleven birds\" en français ?"
+correct_answer = "je vois onze oiseaux"
 choices = Array[String](["j'ai onze chats", "j'ai onze livres", "j'ai onze crayons"])
 
 [sub_resource type="Resource" id="Resource_6pom5"]
@@ -4041,7 +4041,7 @@ subject = 5
 grade = 1
 text = "Que veut dire \"I have eleven rabbits\" en français ?"
 correct_answer = "j'ai onze lapins"
-choices = Array[String](["j'ai onze chiens", "j'ai vu onze oiseaux", "j'ai onze chats"])
+choices = Array[String](["j'ai onze chiens", "je vois onze oiseaux", "j'ai onze chats"])
 
 [sub_resource type="Resource" id="Resource_71244"]
 script = ExtResource("1_orqwb")
@@ -4073,7 +4073,7 @@ subject = 5
 grade = 1
 text = "Que veut dire \"I have twelve rubbers\" en français ?"
 correct_answer = "j'ai douze gommes"
-choices = Array[String](["j'ai douze livres", "j'ai vu douze oiseaux", "j'ai douze règles"])
+choices = Array[String](["j'ai douze livres", "je vois douze oiseaux", "j'ai douze règles"])
 
 [sub_resource type="Resource" id="Resource_6ara1"]
 script = ExtResource("1_orqwb")
@@ -4097,7 +4097,7 @@ subject = 5
 grade = 1
 text = "Comment dit-on \"j'ai douze livres\" en anglais ?"
 correct_answer = "I have twelve books"
-choices = Array[String](["I have twelve dogs", "I saw twelve birds", "I have twelve rulers"])
+choices = Array[String](["I have twelve dogs", "I see twelve birds", "I have twelve rulers"])
 
 [sub_resource type="Resource" id="Resource_u4qrh"]
 script = ExtResource("1_orqwb")
@@ -4121,7 +4121,7 @@ subject = 5
 grade = 1
 text = "Que veut dire \"I have twelve cats\" en français ?"
 correct_answer = "j'ai douze chats"
-choices = Array[String](["j'ai vu douze oiseaux", "j'ai douze règles", "j'ai douze chiens"])
+choices = Array[String](["je vois douze oiseaux", "j'ai douze règles", "j'ai douze chiens"])
 
 [sub_resource type="Resource" id="Resource_6aric"]
 script = ExtResource("1_orqwb")
@@ -4137,22 +4137,22 @@ subject = 5
 grade = 1
 text = "Que veut dire \"I have twelve dogs\" en français ?"
 correct_answer = "j'ai douze chiens"
-choices = Array[String](["j'ai vu douze oiseaux", "j'ai douze gommes", "j'ai douze règles"])
+choices = Array[String](["je vois douze oiseaux", "j'ai douze gommes", "j'ai douze règles"])
 
 [sub_resource type="Resource" id="Resource_iblhv"]
 script = ExtResource("1_orqwb")
 subject = 5
 grade = 1
-text = "Comment dit-on \"j'ai vu douze oiseaux\" en anglais ?"
-correct_answer = "I saw twelve birds"
+text = "Comment dit-on \"je vois douze oiseaux\" en anglais ?"
+correct_answer = "I see twelve birds"
 choices = Array[String](["I have twelve cats", "I have twelve books", "I have twelve rulers"])
 
 [sub_resource type="Resource" id="Resource_rqivr"]
 script = ExtResource("1_orqwb")
 subject = 5
 grade = 1
-text = "Que veut dire \"I saw twelve birds\" en français ?"
-correct_answer = "j'ai vu douze oiseaux"
+text = "Que veut dire \"I see twelve birds\" en français ?"
+correct_answer = "je vois douze oiseaux"
 choices = Array[String](["j'ai douze lapins", "j'ai douze crayons", "j'ai douze gommes"])
 
 [sub_resource type="Resource" id="Resource_dhkgo"]
@@ -4185,7 +4185,7 @@ subject = 5
 grade = 1
 text = "Que veut dire \"I have thirteen pencils\" en français ?"
 correct_answer = "j'ai treize crayons"
-choices = Array[String](["j'ai treize règles", "j'ai vu treize oiseaux", "j'ai treize chiens"])
+choices = Array[String](["j'ai treize règles", "je vois treize oiseaux", "j'ai treize chiens"])
 
 [sub_resource type="Resource" id="Resource_igc4k"]
 script = ExtResource("1_orqwb")
@@ -4201,7 +4201,7 @@ subject = 5
 grade = 1
 text = "Que veut dire \"I have thirteen rubbers\" en français ?"
 correct_answer = "j'ai treize gommes"
-choices = Array[String](["j'ai vu treize oiseaux", "j'ai treize chiens", "j'ai treize chats"])
+choices = Array[String](["je vois treize oiseaux", "j'ai treize chiens", "j'ai treize chats"])
 
 [sub_resource type="Resource" id="Resource_pldmt"]
 script = ExtResource("1_orqwb")
@@ -4217,7 +4217,7 @@ subject = 5
 grade = 1
 text = "Que veut dire \"I have thirteen rulers\" en français ?"
 correct_answer = "j'ai treize règles"
-choices = Array[String](["j'ai treize gommes", "j'ai vu treize oiseaux", "j'ai treize crayons"])
+choices = Array[String](["j'ai treize gommes", "je vois treize oiseaux", "j'ai treize crayons"])
 
 [sub_resource type="Resource" id="Resource_ut0kb"]
 script = ExtResource("1_orqwb")
@@ -4241,7 +4241,7 @@ subject = 5
 grade = 1
 text = "Comment dit-on \"j'ai treize chats\" en anglais ?"
 correct_answer = "I have thirteen cats"
-choices = Array[String](["I saw thirteen birds", "I have thirteen rulers", "I have thirteen books"])
+choices = Array[String](["I see thirteen birds", "I have thirteen rulers", "I have thirteen books"])
 
 [sub_resource type="Resource" id="Resource_w28d4"]
 script = ExtResource("1_orqwb")
@@ -4249,7 +4249,7 @@ subject = 5
 grade = 1
 text = "Que veut dire \"I have thirteen cats\" en français ?"
 correct_answer = "j'ai treize chats"
-choices = Array[String](["j'ai vu treize oiseaux", "j'ai treize crayons", "j'ai treize livres"])
+choices = Array[String](["je vois treize oiseaux", "j'ai treize crayons", "j'ai treize livres"])
 
 [sub_resource type="Resource" id="Resource_vf1am"]
 script = ExtResource("1_orqwb")
@@ -4265,22 +4265,22 @@ subject = 5
 grade = 1
 text = "Que veut dire \"I have thirteen dogs\" en français ?"
 correct_answer = "j'ai treize chiens"
-choices = Array[String](["j'ai vu treize oiseaux", "j'ai treize règles", "j'ai treize chats"])
+choices = Array[String](["je vois treize oiseaux", "j'ai treize règles", "j'ai treize chats"])
 
 [sub_resource type="Resource" id="Resource_cn3kx"]
 script = ExtResource("1_orqwb")
 subject = 5
 grade = 1
-text = "Comment dit-on \"j'ai vu treize oiseaux\" en anglais ?"
-correct_answer = "I saw thirteen birds"
+text = "Comment dit-on \"je vois treize oiseaux\" en anglais ?"
+correct_answer = "I see thirteen birds"
 choices = Array[String](["I have thirteen books", "I have thirteen rulers", "I have thirteen rubbers"])
 
 [sub_resource type="Resource" id="Resource_7jqcx"]
 script = ExtResource("1_orqwb")
 subject = 5
 grade = 1
-text = "Que veut dire \"I saw thirteen birds\" en français ?"
-correct_answer = "j'ai vu treize oiseaux"
+text = "Que veut dire \"I see thirteen birds\" en français ?"
+correct_answer = "je vois treize oiseaux"
 choices = Array[String](["j'ai treize chats", "j'ai treize gommes", "j'ai treize chiens"])
 
 [sub_resource type="Resource" id="Resource_rd2cb"]
@@ -4321,7 +4321,7 @@ subject = 5
 grade = 1
 text = "Comment dit-on \"j'ai quinze gommes\" en anglais ?"
 correct_answer = "I have fifteen rubbers"
-choices = Array[String](["I saw fifteen birds", "I have fifteen pencils", "I have fifteen dogs"])
+choices = Array[String](["I see fifteen birds", "I have fifteen pencils", "I have fifteen dogs"])
 
 [sub_resource type="Resource" id="Resource_dj6ue"]
 script = ExtResource("1_orqwb")
@@ -4329,7 +4329,7 @@ subject = 5
 grade = 1
 text = "Que veut dire \"I have fifteen rubbers\" en français ?"
 correct_answer = "j'ai quinze gommes"
-choices = Array[String](["j'ai vu quinze oiseaux", "j'ai quinze règles", "j'ai quinze crayons"])
+choices = Array[String](["je vois quinze oiseaux", "j'ai quinze règles", "j'ai quinze crayons"])
 
 [sub_resource type="Resource" id="Resource_0qb0l"]
 script = ExtResource("1_orqwb")
@@ -4353,7 +4353,7 @@ subject = 5
 grade = 1
 text = "Comment dit-on \"j'ai quinze livres\" en anglais ?"
 correct_answer = "I have fifteen books"
-choices = Array[String](["I have fifteen rubbers", "I have fifteen rabbits", "I saw fifteen birds"])
+choices = Array[String](["I have fifteen rubbers", "I have fifteen rabbits", "I see fifteen birds"])
 
 [sub_resource type="Resource" id="Resource_k4rbm"]
 script = ExtResource("1_orqwb")
@@ -4361,7 +4361,7 @@ subject = 5
 grade = 1
 text = "Que veut dire \"I have fifteen books\" en français ?"
 correct_answer = "j'ai quinze livres"
-choices = Array[String](["j'ai vu quinze oiseaux", "j'ai quinze crayons", "j'ai quinze gommes"])
+choices = Array[String](["je vois quinze oiseaux", "j'ai quinze crayons", "j'ai quinze gommes"])
 
 [sub_resource type="Resource" id="Resource_wckme"]
 script = ExtResource("1_orqwb")
@@ -4369,7 +4369,7 @@ subject = 5
 grade = 1
 text = "Comment dit-on \"j'ai quinze chats\" en anglais ?"
 correct_answer = "I have fifteen cats"
-choices = Array[String](["I have fifteen dogs", "I have fifteen pencils", "I saw fifteen birds"])
+choices = Array[String](["I have fifteen dogs", "I have fifteen pencils", "I see fifteen birds"])
 
 [sub_resource type="Resource" id="Resource_asgvr"]
 script = ExtResource("1_orqwb")
@@ -4377,7 +4377,7 @@ subject = 5
 grade = 1
 text = "Que veut dire \"I have fifteen cats\" en français ?"
 correct_answer = "j'ai quinze chats"
-choices = Array[String](["j'ai quinze gommes", "j'ai quinze lapins", "j'ai vu quinze oiseaux"])
+choices = Array[String](["j'ai quinze gommes", "j'ai quinze lapins", "je vois quinze oiseaux"])
 
 [sub_resource type="Resource" id="Resource_vapsv"]
 script = ExtResource("1_orqwb")
@@ -4393,22 +4393,22 @@ subject = 5
 grade = 1
 text = "Que veut dire \"I have fifteen dogs\" en français ?"
 correct_answer = "j'ai quinze chiens"
-choices = Array[String](["j'ai vu quinze oiseaux", "j'ai quinze livres", "j'ai quinze lapins"])
+choices = Array[String](["je vois quinze oiseaux", "j'ai quinze livres", "j'ai quinze lapins"])
 
 [sub_resource type="Resource" id="Resource_omsq6"]
 script = ExtResource("1_orqwb")
 subject = 5
 grade = 1
-text = "Comment dit-on \"j'ai vu quinze oiseaux\" en anglais ?"
-correct_answer = "I saw fifteen birds"
+text = "Comment dit-on \"je vois quinze oiseaux\" en anglais ?"
+correct_answer = "I see fifteen birds"
 choices = Array[String](["I have fifteen rulers", "I have fifteen books", "I have fifteen rabbits"])
 
 [sub_resource type="Resource" id="Resource_rw8gx"]
 script = ExtResource("1_orqwb")
 subject = 5
 grade = 1
-text = "Que veut dire \"I saw fifteen birds\" en français ?"
-correct_answer = "j'ai vu quinze oiseaux"
+text = "Que veut dire \"I see fifteen birds\" en français ?"
+correct_answer = "je vois quinze oiseaux"
 choices = Array[String](["j'ai quinze lapins", "j'ai quinze crayons", "j'ai quinze chats"])
 
 [sub_resource type="Resource" id="Resource_ym3l3"]
@@ -4425,7 +4425,7 @@ subject = 5
 grade = 1
 text = "Que veut dire \"I have fifteen rabbits\" en français ?"
 correct_answer = "j'ai quinze lapins"
-choices = Array[String](["j'ai vu quinze oiseaux", "j'ai quinze règles", "j'ai quinze gommes"])
+choices = Array[String](["je vois quinze oiseaux", "j'ai quinze règles", "j'ai quinze gommes"])
 
 [sub_resource type="Resource" id="Resource_88344"]
 script = ExtResource("1_orqwb")
@@ -4441,7 +4441,7 @@ subject = 5
 grade = 1
 text = "Que veut dire \"I have twenty pencils\" en français ?"
 correct_answer = "j'ai vingt crayons"
-choices = Array[String](["j'ai vu vingt oiseaux", "j'ai vingt chats", "j'ai vingt chiens"])
+choices = Array[String](["je vois vingt oiseaux", "j'ai vingt chats", "j'ai vingt chiens"])
 
 [sub_resource type="Resource" id="Resource_aklvf"]
 script = ExtResource("1_orqwb")
@@ -4449,7 +4449,7 @@ subject = 5
 grade = 1
 text = "Comment dit-on \"j'ai vingt gommes\" en anglais ?"
 correct_answer = "I have twenty rubbers"
-choices = Array[String](["I saw twenty birds", "I have twenty rabbits", "I have twenty rulers"])
+choices = Array[String](["I see twenty birds", "I have twenty rabbits", "I have twenty rulers"])
 
 [sub_resource type="Resource" id="Resource_j1ewp"]
 script = ExtResource("1_orqwb")
@@ -4457,7 +4457,7 @@ subject = 5
 grade = 1
 text = "Que veut dire \"I have twenty rubbers\" en français ?"
 correct_answer = "j'ai vingt gommes"
-choices = Array[String](["j'ai vu vingt oiseaux", "j'ai vingt chats", "j'ai vingt chiens"])
+choices = Array[String](["je vois vingt oiseaux", "j'ai vingt chats", "j'ai vingt chiens"])
 
 [sub_resource type="Resource" id="Resource_qlhwx"]
 script = ExtResource("1_orqwb")
@@ -4489,7 +4489,7 @@ subject = 5
 grade = 1
 text = "Que veut dire \"I have twenty books\" en français ?"
 correct_answer = "j'ai vingt livres"
-choices = Array[String](["j'ai vu vingt oiseaux", "j'ai vingt chiens", "j'ai vingt lapins"])
+choices = Array[String](["je vois vingt oiseaux", "j'ai vingt chiens", "j'ai vingt lapins"])
 
 [sub_resource type="Resource" id="Resource_e685c"]
 script = ExtResource("1_orqwb")
@@ -4497,7 +4497,7 @@ subject = 5
 grade = 1
 text = "Comment dit-on \"j'ai vingt chats\" en anglais ?"
 correct_answer = "I have twenty cats"
-choices = Array[String](["I saw twenty birds", "I have twenty dogs", "I have twenty rabbits"])
+choices = Array[String](["I see twenty birds", "I have twenty dogs", "I have twenty rabbits"])
 
 [sub_resource type="Resource" id="Resource_681e1"]
 script = ExtResource("1_orqwb")
@@ -4505,7 +4505,7 @@ subject = 5
 grade = 1
 text = "Que veut dire \"I have twenty cats\" en français ?"
 correct_answer = "j'ai vingt chats"
-choices = Array[String](["j'ai vingt crayons", "j'ai vu vingt oiseaux", "j'ai vingt gommes"])
+choices = Array[String](["j'ai vingt crayons", "je vois vingt oiseaux", "j'ai vingt gommes"])
 
 [sub_resource type="Resource" id="Resource_17jpw"]
 script = ExtResource("1_orqwb")
@@ -4513,7 +4513,7 @@ subject = 5
 grade = 1
 text = "Comment dit-on \"j'ai vingt chiens\" en anglais ?"
 correct_answer = "I have twenty dogs"
-choices = Array[String](["I saw twenty birds", "I have twenty rabbits", "I have twenty books"])
+choices = Array[String](["I see twenty birds", "I have twenty rabbits", "I have twenty books"])
 
 [sub_resource type="Resource" id="Resource_i1yqv"]
 script = ExtResource("1_orqwb")
@@ -4521,22 +4521,22 @@ subject = 5
 grade = 1
 text = "Que veut dire \"I have twenty dogs\" en français ?"
 correct_answer = "j'ai vingt chiens"
-choices = Array[String](["j'ai vu vingt oiseaux", "j'ai vingt chats", "j'ai vingt gommes"])
+choices = Array[String](["je vois vingt oiseaux", "j'ai vingt chats", "j'ai vingt gommes"])
 
 [sub_resource type="Resource" id="Resource_x12r1"]
 script = ExtResource("1_orqwb")
 subject = 5
 grade = 1
-text = "Comment dit-on \"j'ai vu vingt oiseaux\" en anglais ?"
-correct_answer = "I saw twenty birds"
+text = "Comment dit-on \"je vois vingt oiseaux\" en anglais ?"
+correct_answer = "I see twenty birds"
 choices = Array[String](["I have twenty books", "I have twenty dogs", "I have twenty rabbits"])
 
 [sub_resource type="Resource" id="Resource_jmuxg"]
 script = ExtResource("1_orqwb")
 subject = 5
 grade = 1
-text = "Que veut dire \"I saw twenty birds\" en français ?"
-correct_answer = "j'ai vu vingt oiseaux"
+text = "Que veut dire \"I see twenty birds\" en français ?"
+correct_answer = "je vois vingt oiseaux"
 choices = Array[String](["j'ai vingt chiens", "j'ai vingt chats", "j'ai vingt livres"])
 
 [sub_resource type="Resource" id="Resource_l5fpo"]

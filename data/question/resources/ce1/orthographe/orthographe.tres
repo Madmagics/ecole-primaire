@@ -151,145 +151,145 @@ choices = Array[String](["son", "sons", "se"])
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel mois vient juste après janvier ?"
-correct_answer = "février"
-choices = Array[String](["octobre", "novembre", "décembre"])
+text = "Combien de lettres y a-t-il dans le mot \"ruisseau\" ?"
+correct_answer = "8"
+choices = Array[String](["5", "6", "10"])
 
 [sub_resource type="Resource" id="Resource_y1d5e"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel mois vient juste après février ?"
-correct_answer = "mars"
-choices = Array[String](["novembre", "octobre", "juillet"])
+text = "Combien de lettres y a-t-il dans le mot \"demander\" ?"
+correct_answer = "8"
+choices = Array[String](["9", "6", "10"])
 
 [sub_resource type="Resource" id="Resource_gf0cv"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel mois vient juste après mars ?"
-correct_answer = "avril"
-choices = Array[String](["janvier", "novembre", "mars"])
+text = "Combien de lettres y a-t-il dans le mot \"bavarder\" ?"
+correct_answer = "8"
+choices = Array[String](["10", "7", "6"])
 
 [sub_resource type="Resource" id="Resource_rvwx8"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel mois vient juste après avril ?"
-correct_answer = "mai"
-choices = Array[String](["avril", "janvier", "juin"])
+text = "Combien de lettres y a-t-il dans le mot \"bijou\" ?"
+correct_answer = "5"
+choices = Array[String](["4", "8", "3"])
 
 [sub_resource type="Resource" id="Resource_s4ljw"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel mois vient juste après mai ?"
-correct_answer = "juin"
-choices = Array[String](["avril", "novembre", "octobre"])
+text = "Combien de lettres y a-t-il dans le mot \"immense\" ?"
+correct_answer = "7"
+choices = Array[String](["5", "10", "9"])
 
 [sub_resource type="Resource" id="Resource_o5yhb"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel mois vient juste après juin ?"
-correct_answer = "juillet"
-choices = Array[String](["mars", "novembre", "août"])
+text = "Combien de lettres y a-t-il dans le mot \"colline\" ?"
+correct_answer = "7"
+choices = Array[String](["9", "5", "10"])
 
 [sub_resource type="Resource" id="Resource_fqwd7"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel mois vient juste après juillet ?"
-correct_answer = "août"
-choices = Array[String](["novembre", "juillet", "septembre"])
+text = "Combien de lettres y a-t-il dans le mot \"gentil\" ?"
+correct_answer = "6"
+choices = Array[String](["7", "4", "9"])
 
 [sub_resource type="Resource" id="Resource_igy05"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel mois vient juste après août ?"
-correct_answer = "septembre"
-choices = Array[String](["décembre", "juin", "juillet"])
+text = "Combien de lettres y a-t-il dans le mot \"sauter\" ?"
+correct_answer = "6"
+choices = Array[String](["3", "9", "4"])
 
 [sub_resource type="Resource" id="Resource_cxxcp"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel mois vient juste après septembre ?"
-correct_answer = "octobre"
-choices = Array[String](["septembre", "août", "mai"])
+text = "Combien de lettres y a-t-il dans le mot \"vieux\" ?"
+correct_answer = "5"
+choices = Array[String](["7", "6", "2"])
 
 [sub_resource type="Resource" id="Resource_a57fk"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel mois vient juste après octobre ?"
-correct_answer = "novembre"
-choices = Array[String](["juillet", "octobre", "janvier"])
+text = "Combien de lettres y a-t-il dans le mot \"détester\" ?"
+correct_answer = "8"
+choices = Array[String](["5", "10", "7"])
 
 [sub_resource type="Resource" id="Resource_6ccbr"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel mois vient juste après novembre ?"
-correct_answer = "décembre"
-choices = Array[String](["juin", "novembre", "août"])
+text = "Combien de lettres y a-t-il dans le mot \"agenda\" ?"
+correct_answer = "6"
+choices = Array[String](["9", "5", "4"])
 
 [sub_resource type="Resource" id="Resource_obmyh"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel mois vient juste après décembre ?"
-correct_answer = "janvier"
-choices = Array[String](["avril", "juin", "décembre"])
+text = "Combien de lettres y a-t-il dans le mot \"planète\" ?"
+correct_answer = "7"
+choices = Array[String](["4", "9", "10"])
 
 [sub_resource type="Resource" id="Resource_ovwxd"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"grand\" ?"
-correct_answer = "immense"
-choices = Array[String](["minuscule", "joli", "rapide"])
+text = "Combien de lettres y a-t-il dans le mot \"feutre\" ?"
+correct_answer = "6"
+choices = Array[String](["8", "3", "5"])
 
 [sub_resource type="Resource" id="Resource_u4h5p"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"commencer\" ?"
-correct_answer = "débuter"
-choices = Array[String](["observer", "discuter", "raconter"])
+text = "Combien de lettres y a-t-il dans le mot \"plage\" ?"
+correct_answer = "5"
+choices = Array[String](["7", "3", "6"])
 
 [sub_resource type="Resource" id="Resource_gm8m7"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"drôle\" ?"
-correct_answer = "amusant"
-choices = Array[String](["joli", "triste", "malheureux"])
+text = "Combien de lettres y a-t-il dans le mot \"utile\" ?"
+correct_answer = "5"
+choices = Array[String](["7", "6", "8"])
 
 [sub_resource type="Resource" id="Resource_8ng4d"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"triste\" ?"
-correct_answer = "malheureux"
-choices = Array[String](["épuisé", "amusant", "immense"])
+text = "Combien de lettres y a-t-il dans le mot \"dévoiler\" ?"
+correct_answer = "8"
+choices = Array[String](["7", "11", "9"])
 
 [sub_resource type="Resource" id="Resource_gr6td"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"parler\" ?"
-correct_answer = "discuter"
-choices = Array[String](["observer", "raconter", "débuter"])
+text = "Combien de lettres y a-t-il dans le mot \"savourer\" ?"
+correct_answer = "8"
+choices = Array[String](["7", "11", "6"])
 
 [sub_resource type="Resource" id="Resource_v67ex"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"fatigue\" ?"
-correct_answer = "épuisement"
-choices = Array[String](["joli", "malheureux", "triste"])
+text = "Combien de lettres y a-t-il dans le mot \"fréquent\" ?"
+correct_answer = "8"
+choices = Array[String](["7", "5", "6"])
 
 [sub_resource type="Resource" id="Resource_70gad"]
 script = ExtResource("1_g8n4a")
@@ -359,25 +359,25 @@ choices = Array[String](["et", "es", "ai"])
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel mois vient juste avant janvier ?"
-correct_answer = "décembre"
-choices = Array[String](["septembre", "octobre", "août"])
+text = "Combien de lettres y a-t-il dans le mot \"maison\" ?"
+correct_answer = "6"
+choices = Array[String](["5", "7", "9"])
 
 [sub_resource type="Resource" id="Resource_5kec6"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel mois vient juste avant février ?"
-correct_answer = "janvier"
-choices = Array[String](["septembre", "mai", "avril"])
+text = "Combien de lettres y a-t-il dans le mot \"galaxie\" ?"
+correct_answer = "7"
+choices = Array[String](["10", "6", "4"])
 
 [sub_resource type="Resource" id="Resource_3w6m3"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel mois vient juste avant mars ?"
-correct_answer = "février"
-choices = Array[String](["septembre", "juillet", "mars"])
+text = "Combien de lettres y a-t-il dans le mot \"torride\" ?"
+correct_answer = "7"
+choices = Array[String](["10", "6", "9"])
 
 [sub_resource type="Resource" id="Resource_q2u74"]
 script = ExtResource("1_g8n4a")
@@ -6423,353 +6423,353 @@ choices = Array[String](["son", "sons", "se"])
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"terminer\" ?"
-correct_answer = "finir"
-choices = Array[String](["donner", "descendre", "fermer"])
+text = "Combien de lettres y a-t-il dans le mot \"grenier\" ?"
+correct_answer = "7"
+choices = Array[String](["4", "5", "6"])
 
 [sub_resource type="Resource" id="Resource_wvkuy"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"observer\" ?"
-correct_answer = "fixer"
-choices = Array[String](["donner", "monter", "pleurer"])
+text = "Combien de lettres y a-t-il dans le mot \"aider\" ?"
+correct_answer = "5"
+choices = Array[String](["4", "2", "8"])
 
 [sub_resource type="Resource" id="Resource_uiv0r"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"dire\" ?"
-correct_answer = "raconter"
-choices = Array[String](["rire", "monter", "prendre"])
+text = "Combien de lettres y a-t-il dans le mot \"large\" ?"
+correct_answer = "5"
+choices = Array[String](["3", "2", "7"])
 
 [sub_resource type="Resource" id="Resource_0wq2r"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"aimer\" ?"
-correct_answer = "adorer"
-choices = Array[String](["fermer", "rire", "tomber"])
+text = "Combien de lettres y a-t-il dans le mot \"arbre\" ?"
+correct_answer = "5"
+choices = Array[String](["7", "3", "8"])
 
 [sub_resource type="Resource" id="Resource_p1cny"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"détester\" ?"
-correct_answer = "haïr"
-choices = Array[String](["donner", "parler", "chanter"])
+text = "Combien de lettres y a-t-il dans le mot \"boussole\" ?"
+correct_answer = "8"
+choices = Array[String](["9", "5", "11"])
 
 [sub_resource type="Resource" id="Resource_yc1eu"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"pleurer\" ?"
-correct_answer = "sangloter"
-choices = Array[String](["dormir", "ouvrir", "sauter"])
+text = "Combien de lettres y a-t-il dans le mot \"commode\" ?"
+correct_answer = "7"
+choices = Array[String](["6", "4", "8"])
 
 [sub_resource type="Resource" id="Resource_7akxi"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"rire\" ?"
-correct_answer = "glousser"
-choices = Array[String](["aider", "prendre", "pleurer"])
+text = "Combien de lettres y a-t-il dans le mot \"gel\" ?"
+correct_answer = "3"
+choices = Array[String](["5", "4", "6"])
 
 [sub_resource type="Resource" id="Resource_otpaq"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"courir\" ?"
-correct_answer = "filer"
-choices = Array[String](["manger", "descendre", "dormir"])
+text = "Combien de lettres y a-t-il dans le mot \"étagère\" ?"
+correct_answer = "7"
+choices = Array[String](["10", "4", "5"])
 
 [sub_resource type="Resource" id="Resource_aoika"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"sauter\" ?"
-correct_answer = "bondir"
-choices = Array[String](["dormir", "fermer", "courir"])
+text = "Combien de lettres y a-t-il dans le mot \"océan\" ?"
+correct_answer = "5"
+choices = Array[String](["8", "2", "4"])
 
 [sub_resource type="Resource" id="Resource_k81nq"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"tomber\" ?"
-correct_answer = "chuter"
-choices = Array[String](["regarder", "manger", "prendre"])
+text = "Combien de lettres y a-t-il dans le mot \"gomme\" ?"
+correct_answer = "5"
+choices = Array[String](["4", "3", "2"])
 
 [sub_resource type="Resource" id="Resource_mn4ef"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"marcher\" ?"
-correct_answer = "avancer"
-choices = Array[String](["jouer", "prendre", "pleurer"])
+text = "Combien de lettres y a-t-il dans le mot \"cadre\" ?"
+correct_answer = "5"
+choices = Array[String](["3", "2", "8"])
 
 [sub_resource type="Resource" id="Resource_2354y"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"manger\" ?"
-correct_answer = "dévorer"
-choices = Array[String](["descendre", "regarder", "marcher"])
+text = "Combien de lettres y a-t-il dans le mot \"seconde\" ?"
+correct_answer = "7"
+choices = Array[String](["4", "10", "9"])
 
 [sub_resource type="Resource" id="Resource_he1k2"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"boire\" ?"
-correct_answer = "avaler"
-choices = Array[String](["prendre", "manger", "dormir"])
+text = "Combien de lettres y a-t-il dans le mot \"skier\" ?"
+correct_answer = "5"
+choices = Array[String](["8", "3", "7"])
 
 [sub_resource type="Resource" id="Resource_f580a"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"dormir\" ?"
-correct_answer = "sommeiller"
-choices = Array[String](["prendre", "parler", "donner"])
+text = "Combien de lettres y a-t-il dans le mot \"deviner\" ?"
+correct_answer = "7"
+choices = Array[String](["9", "6", "4"])
 
 [sub_resource type="Resource" id="Resource_4cosw"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"réveiller\" ?"
-correct_answer = "éveiller"
-choices = Array[String](["descendre", "dormir", "regarder"])
+text = "Combien de lettres y a-t-il dans le mot \"déborder\" ?"
+correct_answer = "8"
+choices = Array[String](["7", "6", "11"])
 
 [sub_resource type="Resource" id="Resource_2prsu"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"attraper\" ?"
-correct_answer = "saisir"
-choices = Array[String](["marcher", "courir", "monter"])
+text = "Combien de lettres y a-t-il dans le mot \"serveur\" ?"
+correct_answer = "7"
+choices = Array[String](["6", "9", "4"])
 
 [sub_resource type="Resource" id="Resource_6pm3d"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"lancer\" ?"
-correct_answer = "jeter"
-choices = Array[String](["parler", "manger", "dormir"])
+text = "Combien de lettres y a-t-il dans le mot \"souple\" ?"
+correct_answer = "6"
+choices = Array[String](["3", "8", "9"])
 
 [sub_resource type="Resource" id="Resource_v7sxp"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"porter\" ?"
-correct_answer = "transporter"
-choices = Array[String](["ouvrir", "tomber", "chercher"])
+text = "Combien de lettres y a-t-il dans le mot \"forêt\" ?"
+correct_answer = "5"
+choices = Array[String](["2", "7", "3"])
 
 [sub_resource type="Resource" id="Resource_56n1r"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"casser\" ?"
-correct_answer = "briser"
-choices = Array[String](["tomber", "parler", "chercher"])
+text = "Combien de lettres y a-t-il dans le mot \"habituel\" ?"
+correct_answer = "8"
+choices = Array[String](["6", "10", "7"])
 
 [sub_resource type="Resource" id="Resource_o6usq"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"réparer\" ?"
-correct_answer = "arranger"
-choices = Array[String](["dormir", "manger", "ouvrir"])
+text = "Combien de lettres y a-t-il dans le mot \"mince\" ?"
+correct_answer = "5"
+choices = Array[String](["7", "6", "8"])
 
 [sub_resource type="Resource" id="Resource_ap285"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"construire\" ?"
-correct_answer = "bâtir"
-choices = Array[String](["pleurer", "fermer", "sauter"])
+text = "Combien de lettres y a-t-il dans le mot \"grotte\" ?"
+correct_answer = "6"
+choices = Array[String](["7", "5", "9"])
 
 [sub_resource type="Resource" id="Resource_dfstw"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"détruire\" ?"
-correct_answer = "démolir"
-choices = Array[String](["prendre", "chercher", "ouvrir"])
+text = "Combien de lettres y a-t-il dans le mot \"facteur\" ?"
+correct_answer = "7"
+choices = Array[String](["9", "4", "6"])
 
 [sub_resource type="Resource" id="Resource_sjdi2"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"chanter\" ?"
-correct_answer = "fredonner"
-choices = Array[String](["donner", "dormir", "courir"])
+text = "Combien de lettres y a-t-il dans le mot \"vallée\" ?"
+correct_answer = "6"
+choices = Array[String](["3", "9", "5"])
 
 [sub_resource type="Resource" id="Resource_8bhpa"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"jouer\" ?"
-correct_answer = "s'amuser"
-choices = Array[String](["regarder", "marcher", "dormir"])
+text = "Combien de lettres y a-t-il dans le mot \"toit\" ?"
+correct_answer = "4"
+choices = Array[String](["7", "6", "5"])
 
 [sub_resource type="Resource" id="Resource_a4mei"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"gagner\" ?"
-correct_answer = "remporter"
-choices = Array[String](["parler", "marcher", "manger"])
+text = "Combien de lettres y a-t-il dans le mot \"fatigué\" ?"
+correct_answer = "7"
+choices = Array[String](["8", "6", "5"])
 
 [sub_resource type="Resource" id="Resource_bpfwl"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"perdre\" ?"
-correct_answer = "égarer"
-choices = Array[String](["aider", "tomber", "chanter"])
+text = "Combien de lettres y a-t-il dans le mot \"dragon\" ?"
+correct_answer = "6"
+choices = Array[String](["8", "9", "5"])
 
 [sub_resource type="Resource" id="Resource_bp0c7"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"donner\" ?"
-correct_answer = "offrir"
-choices = Array[String](["courir", "tomber", "manger"])
+text = "Combien de lettres y a-t-il dans le mot \"clinique\" ?"
+correct_answer = "8"
+choices = Array[String](["6", "9", "10"])
 
 [sub_resource type="Resource" id="Resource_yuuhh"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"garder\" ?"
-correct_answer = "conserver"
-choices = Array[String](["sauter", "donner", "prendre"])
+text = "Combien de lettres y a-t-il dans le mot \"poêle\" ?"
+correct_answer = "5"
+choices = Array[String](["2", "3", "8"])
 
 [sub_resource type="Resource" id="Resource_tubto"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"cacher\" ?"
-correct_answer = "dissimuler"
-choices = Array[String](["rire", "descendre", "pleurer"])
+text = "Combien de lettres y a-t-il dans le mot \"mesurer\" ?"
+correct_answer = "7"
+choices = Array[String](["8", "5", "10"])
 
 [sub_resource type="Resource" id="Resource_hgctb"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"chuchoter\" ?"
-correct_answer = "murmurer"
-choices = Array[String](["donner", "monter", "pleurer"])
+text = "Combien de lettres y a-t-il dans le mot \"tiède\" ?"
+correct_answer = "5"
+choices = Array[String](["7", "4", "3"])
 
 [sub_resource type="Resource" id="Resource_43mao"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"penser\" ?"
-correct_answer = "réfléchir"
-choices = Array[String](["chanter", "aider", "chercher"])
+text = "Combien de lettres y a-t-il dans le mot \"plat\" ?"
+correct_answer = "4"
+choices = Array[String](["3", "6", "1"])
 
 [sub_resource type="Resource" id="Resource_feelj"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"essayer\" ?"
-correct_answer = "tenter"
-choices = Array[String](["tomber", "chercher", "aider"])
+text = "Combien de lettres y a-t-il dans le mot \"champ\" ?"
+correct_answer = "5"
+choices = Array[String](["2", "4", "3"])
 
 [sub_resource type="Resource" id="Resource_kfugk"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"réussir\" ?"
-correct_answer = "parvenir"
-choices = Array[String](["pleurer", "manger", "regarder"])
+text = "Combien de lettres y a-t-il dans le mot \"balcon\" ?"
+correct_answer = "6"
+choices = Array[String](["7", "3", "4"])
 
 [sub_resource type="Resource" id="Resource_41b08"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"échouer\" ?"
-correct_answer = "rater"
-choices = Array[String](["ouvrir", "parler", "manger"])
+text = "Combien de lettres y a-t-il dans le mot \"répondre\" ?"
+correct_answer = "8"
+choices = Array[String](["10", "6", "11"])
 
 [sub_resource type="Resource" id="Resource_dtqln"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"continuer\" ?"
-correct_answer = "poursuivre"
-choices = Array[String](["pleurer", "rire", "chercher"])
+text = "Combien de lettres y a-t-il dans le mot \"brillant\" ?"
+correct_answer = "8"
+choices = Array[String](["7", "5", "6"])
 
 [sub_resource type="Resource" id="Resource_qmghc"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"arrêter\" ?"
-correct_answer = "stopper"
-choices = Array[String](["fermer", "ouvrir", "tomber"])
+text = "Combien de lettres y a-t-il dans le mot \"entier\" ?"
+correct_answer = "6"
+choices = Array[String](["8", "3", "9"])
 
 [sub_resource type="Resource" id="Resource_o8wvi"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"bouger\" ?"
-correct_answer = "remuer"
-choices = Array[String](["sauter", "chanter", "pleurer"])
+text = "Combien de lettres y a-t-il dans le mot \"classe\" ?"
+correct_answer = "6"
+choices = Array[String](["3", "7", "4"])
 
 [sub_resource type="Resource" id="Resource_n0i1y"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"trembler\" ?"
-correct_answer = "frissonner"
-choices = Array[String](["donner", "regarder", "manger"])
+text = "Combien de lettres y a-t-il dans le mot \"lac\" ?"
+correct_answer = "3"
+choices = Array[String](["2", "5", "4"])
 
 [sub_resource type="Resource" id="Resource_cb2fk"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"briller\" ?"
-correct_answer = "scintiller"
-choices = Array[String](["fermer", "marcher", "parler"])
+text = "Combien de lettres y a-t-il dans le mot \"ouragan\" ?"
+correct_answer = "7"
+choices = Array[String](["6", "10", "9"])
 
 [sub_resource type="Resource" id="Resource_kxukg"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"crier\" ?"
-correct_answer = "hurler"
-choices = Array[String](["chercher", "dormir", "ouvrir"])
+text = "Combien de lettres y a-t-il dans le mot \"dehors\" ?"
+correct_answer = "6"
+choices = Array[String](["5", "3", "4"])
 
 [sub_resource type="Resource" id="Resource_kmadq"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"appeler\" ?"
-correct_answer = "héler"
-choices = Array[String](["dormir", "pleurer", "courir"])
+text = "Combien de lettres y a-t-il dans le mot \"peu\" ?"
+correct_answer = "3"
+choices = Array[String](["5", "2", "6"])
 
 [sub_resource type="Resource" id="Resource_x0yl3"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"expliquer\" ?"
-correct_answer = "détailler"
-choices = Array[String](["manger", "jouer", "ouvrir"])
+text = "Combien de lettres y a-t-il dans le mot \"escalier\" ?"
+correct_answer = "8"
+choices = Array[String](["5", "10", "9"])
 
 [sub_resource type="Resource" id="Resource_cf6le"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"choisir\" ?"
-correct_answer = "sélectionner"
-choices = Array[String](["fermer", "donner", "chanter"])
+text = "Combien de lettres y a-t-il dans le mot \"vite\" ?"
+correct_answer = "4"
+choices = Array[String](["1", "7", "2"])
 
 [sub_resource type="Resource" id="Resource_xidrd"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"admirer\" ?"
-correct_answer = "contempler"
-choices = Array[String](["ouvrir", "prendre", "chanter"])
+text = "Combien de lettres y a-t-il dans le mot \"coller\" ?"
+correct_answer = "6"
+choices = Array[String](["3", "8", "4"])
 
 [sub_resource type="Resource" id="Resource_dhkp4"]
 script = ExtResource("1_g8n4a")
@@ -7399,561 +7399,561 @@ choices = Array[String](["chien", "chat", "taureau"])
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"content\" ?"
-correct_answer = "heureux"
-choices = Array[String](["triste", "lent", "petit"])
+text = "Combien de lettres y a-t-il dans le mot \"complexe\" ?"
+correct_answer = "8"
+choices = Array[String](["7", "10", "9"])
 
 [sub_resource type="Resource" id="Resource_7t7kb"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"rapide\" ?"
-correct_answer = "vif"
-choices = Array[String](["triste", "lent", "petit"])
+text = "Combien de lettres y a-t-il dans le mot \"musicien\" ?"
+correct_answer = "8"
+choices = Array[String](["9", "7", "5"])
 
 [sub_resource type="Resource" id="Resource_clc3q"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"beau\" ?"
-correct_answer = "magnifique"
-choices = Array[String](["triste", "lent", "petit"])
+text = "Combien de lettres y a-t-il dans le mot \"courbé\" ?"
+correct_answer = "6"
+choices = Array[String](["3", "4", "8"])
 
 [sub_resource type="Resource" id="Resource_7hgdg"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"laid\" ?"
-correct_answer = "affreux"
-choices = Array[String](["triste", "lent", "petit"])
+text = "Combien de lettres y a-t-il dans le mot \"ici\" ?"
+correct_answer = "3"
+choices = Array[String](["4", "6", "5"])
 
 [sub_resource type="Resource" id="Resource_6rvy1"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"petit\" ?"
-correct_answer = "minuscule"
-choices = Array[String](["triste", "lent", "grand"])
+text = "Combien de lettres y a-t-il dans le mot \"partiel\" ?"
+correct_answer = "7"
+choices = Array[String](["9", "8", "4"])
 
 [sub_resource type="Resource" id="Resource_ilffr"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"fort\" ?"
-correct_answer = "puissant"
-choices = Array[String](["triste", "lent", "petit"])
+text = "Combien de lettres y a-t-il dans le mot \"glacé\" ?"
+correct_answer = "5"
+choices = Array[String](["6", "3", "8"])
 
 [sub_resource type="Resource" id="Resource_octfn"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"intelligent\" ?"
-correct_answer = "malin"
-choices = Array[String](["triste", "lent", "petit"])
+text = "Combien de lettres y a-t-il dans le mot \"fondre\" ?"
+correct_answer = "6"
+choices = Array[String](["8", "5", "3"])
 
 [sub_resource type="Resource" id="Resource_f525h"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"gentil\" ?"
-correct_answer = "aimable"
-choices = Array[String](["triste", "lent", "petit"])
+text = "Combien de lettres y a-t-il dans le mot \"flotter\" ?"
+correct_answer = "7"
+choices = Array[String](["4", "10", "5"])
 
 [sub_resource type="Resource" id="Resource_ghklq"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"courageux\" ?"
-correct_answer = "brave"
-choices = Array[String](["triste", "lent", "petit"])
+text = "Combien de lettres y a-t-il dans le mot \"plein\" ?"
+correct_answer = "5"
+choices = Array[String](["6", "8", "7"])
 
 [sub_resource type="Resource" id="Resource_4j4qu"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"peur\" ?"
-correct_answer = "crainte"
-choices = Array[String](["triste", "lent", "petit"])
+text = "Combien de lettres y a-t-il dans le mot \"roi\" ?"
+correct_answer = "3"
+choices = Array[String](["5", "4", "2"])
 
 [sub_resource type="Resource" id="Resource_c4rbm"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"joie\" ?"
-correct_answer = "bonheur"
-choices = Array[String](["triste", "lent", "petit"])
+text = "Combien de lettres y a-t-il dans le mot \"tempéré\" ?"
+correct_answer = "7"
+choices = Array[String](["5", "6", "8"])
 
 [sub_resource type="Resource" id="Resource_8mtmx"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"colère\" ?"
-correct_answer = "fureur"
-choices = Array[String](["triste", "lent", "petit"])
+text = "Combien de lettres y a-t-il dans le mot \"allumer\" ?"
+correct_answer = "7"
+choices = Array[String](["5", "10", "8"])
 
 [sub_resource type="Resource" id="Resource_yc3xp"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"regarder\" ?"
-correct_answer = "observer"
-choices = Array[String](["triste", "lent", "petit"])
+text = "Combien de lettres y a-t-il dans le mot \"agréable\" ?"
+correct_answer = "8"
+choices = Array[String](["5", "11", "7"])
 
 [sub_resource type="Resource" id="Resource_a25a8"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"écouter\" ?"
-correct_answer = "entendre"
-choices = Array[String](["triste", "lent", "petit"])
+text = "Combien de lettres y a-t-il dans le mot \"matin\" ?"
+correct_answer = "5"
+choices = Array[String](["2", "3", "7"])
 
 [sub_resource type="Resource" id="Resource_c10po"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"chercher\" ?"
-correct_answer = "fouiller"
-choices = Array[String](["triste", "lent", "petit"])
+text = "Combien de lettres y a-t-il dans le mot \"joli\" ?"
+correct_answer = "4"
+choices = Array[String](["2", "5", "7"])
 
 [sub_resource type="Resource" id="Resource_2la2b"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"trouver\" ?"
-correct_answer = "découvrir"
-choices = Array[String](["triste", "lent", "petit"])
+text = "Combien de lettres y a-t-il dans le mot \"cuisine\" ?"
+correct_answer = "7"
+choices = Array[String](["9", "4", "8"])
 
 [sub_resource type="Resource" id="Resource_uqhw5"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"aider\" ?"
-correct_answer = "assister"
-choices = Array[String](["triste", "lent", "petit"])
+text = "Combien de lettres y a-t-il dans le mot \"collier\" ?"
+correct_answer = "7"
+choices = Array[String](["8", "4", "6"])
 
 [sub_resource type="Resource" id="Resource_yfue3"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"finir\" ?"
-correct_answer = "terminer"
-choices = Array[String](["triste", "lent", "petit"])
+text = "Combien de lettres y a-t-il dans le mot \"rideau\" ?"
+correct_answer = "6"
+choices = Array[String](["8", "5", "9"])
 
 [sub_resource type="Resource" id="Resource_jbkhq"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"débuter\" ?"
-correct_answer = "commencer"
-choices = Array[String](["triste", "lent", "petit"])
+text = "Combien de lettres y a-t-il dans le mot \"flexible\" ?"
+correct_answer = "8"
+choices = Array[String](["10", "11", "9"])
 
 [sub_resource type="Resource" id="Resource_uaj2v"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"montrer\" ?"
-correct_answer = "indiquer"
-choices = Array[String](["triste", "lent", "petit"])
+text = "Combien de lettres y a-t-il dans le mot \"nouveau\" ?"
+correct_answer = "7"
+choices = Array[String](["5", "9", "6"])
 
 [sub_resource type="Resource" id="Resource_1ml1v"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel mois vient juste avant avril ?"
-correct_answer = "mars"
-choices = Array[String](["août", "février", "juillet"])
+text = "Combien de lettres y a-t-il dans le mot \"attaquer\" ?"
+correct_answer = "8"
+choices = Array[String](["11", "5", "9"])
 
 [sub_resource type="Resource" id="Resource_ps13a"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel mois vient juste avant mai ?"
-correct_answer = "avril"
-choices = Array[String](["novembre", "juin", "juillet"])
+text = "Combien de lettres y a-t-il dans le mot \"chapeau\" ?"
+correct_answer = "7"
+choices = Array[String](["6", "4", "8"])
 
 [sub_resource type="Resource" id="Resource_f3jg2"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel mois vient juste avant juin ?"
-correct_answer = "mai"
-choices = Array[String](["décembre", "juin", "février"])
+text = "Combien de lettres y a-t-il dans le mot \"éclairer\" ?"
+correct_answer = "8"
+choices = Array[String](["10", "7", "9"])
 
 [sub_resource type="Resource" id="Resource_e2yai"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel mois vient juste avant juillet ?"
-correct_answer = "juin"
-choices = Array[String](["août", "septembre", "mars"])
+text = "Combien de lettres y a-t-il dans le mot \"petit\" ?"
+correct_answer = "5"
+choices = Array[String](["7", "3", "4"])
 
 [sub_resource type="Resource" id="Resource_l1buh"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel mois vient juste avant août ?"
-correct_answer = "juillet"
-choices = Array[String](["février", "mars", "juin"])
+text = "Combien de lettres y a-t-il dans le mot \"glacial\" ?"
+correct_answer = "7"
+choices = Array[String](["4", "5", "9"])
 
 [sub_resource type="Resource" id="Resource_aeyw6"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel mois vient juste avant septembre ?"
-correct_answer = "août"
-choices = Array[String](["mai", "septembre", "décembre"])
+text = "Combien de lettres y a-t-il dans le mot \"verser\" ?"
+correct_answer = "6"
+choices = Array[String](["9", "5", "4"])
 
 [sub_resource type="Resource" id="Resource_2ypjt"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel mois vient juste avant octobre ?"
-correct_answer = "septembre"
-choices = Array[String](["février", "juillet", "novembre"])
+text = "Combien de lettres y a-t-il dans le mot \"colossal\" ?"
+correct_answer = "8"
+choices = Array[String](["6", "11", "9"])
 
 [sub_resource type="Resource" id="Resource_d6b05"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel mois vient juste avant novembre ?"
-correct_answer = "octobre"
-choices = Array[String](["mai", "février", "mars"])
+text = "Combien de lettres y a-t-il dans le mot \"dévaler\" ?"
+correct_answer = "7"
+choices = Array[String](["8", "5", "6"])
 
 [sub_resource type="Resource" id="Resource_mdd50"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel mois vient juste avant décembre ?"
-correct_answer = "novembre"
-choices = Array[String](["juin", "octobre", "septembre"])
+text = "Combien de lettres y a-t-il dans le mot \"vide\" ?"
+correct_answer = "4"
+choices = Array[String](["7", "3", "5"])
 
 [sub_resource type="Resource" id="Resource_xoq7l"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"surveiller\" ?"
-correct_answer = "guetter"
-choices = Array[String](["chercher", "rire", "chanter"])
+text = "Combien de lettres y a-t-il dans le mot \"placard\" ?"
+correct_answer = "7"
+choices = Array[String](["4", "9", "10"])
 
 [sub_resource type="Resource" id="Resource_yh5pt"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"posséder\" ?"
-correct_answer = "détenir"
-choices = Array[String](["parler", "courir", "ouvrir"])
+text = "Combien de lettres y a-t-il dans le mot \"hiver\" ?"
+correct_answer = "5"
+choices = Array[String](["8", "7", "3"])
 
 [sub_resource type="Resource" id="Resource_o8daj"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"refuser\" ?"
-correct_answer = "décliner"
-choices = Array[String](["pleurer", "rire", "descendre"])
+text = "Combien de lettres y a-t-il dans le mot \"magique\" ?"
+correct_answer = "7"
+choices = Array[String](["9", "10", "8"])
 
 [sub_resource type="Resource" id="Resource_gi51v"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"accepter\" ?"
-correct_answer = "approuver"
-choices = Array[String](["pleurer", "chercher", "prendre"])
+text = "Combien de lettres y a-t-il dans le mot \"lampe\" ?"
+correct_answer = "5"
+choices = Array[String](["2", "3", "7"])
 
 [sub_resource type="Resource" id="Resource_1t5ei"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"inventer\" ?"
-correct_answer = "créer"
-choices = Array[String](["fermer", "dormir", "aider"])
+text = "Combien de lettres y a-t-il dans le mot \"sirop\" ?"
+correct_answer = "5"
+choices = Array[String](["4", "3", "8"])
 
 [sub_resource type="Resource" id="Resource_bdy51"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"mignon\" ?"
-correct_answer = "adorable"
-choices = Array[String](["carré", "content", "triste"])
+text = "Combien de lettres y a-t-il dans le mot \"choquant\" ?"
+correct_answer = "8"
+choices = Array[String](["10", "9", "6"])
 
 [sub_resource type="Resource" id="Resource_7re0b"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"immense\" ?"
-correct_answer = "gigantesque"
-choices = Array[String](["carré", "triste", "chaud"])
+text = "Combien de lettres y a-t-il dans le mot \"pilote\" ?"
+correct_answer = "6"
+choices = Array[String](["5", "3", "4"])
 
 [sub_resource type="Resource" id="Resource_slyqt"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"minuscule\" ?"
-correct_answer = "microscopique"
-choices = Array[String](["clair", "rond", "chaud"])
+text = "Combien de lettres y a-t-il dans le mot \"orageux\" ?"
+correct_answer = "7"
+choices = Array[String](["4", "10", "8"])
 
 [sub_resource type="Resource" id="Resource_ukvbe"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"propre\" ?"
-correct_answer = "impeccable"
-choices = Array[String](["léger", "court", "vieux"])
+text = "Combien de lettres y a-t-il dans le mot \"salé\" ?"
+correct_answer = "4"
+choices = Array[String](["3", "2", "6"])
 
 [sub_resource type="Resource" id="Resource_iqnam"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"sale\" ?"
-correct_answer = "crasseux"
-choices = Array[String](["triste", "doux", "froid"])
+text = "Combien de lettres y a-t-il dans le mot \"rêver\" ?"
+correct_answer = "5"
+choices = Array[String](["2", "6", "8"])
 
 [sub_resource type="Resource" id="Resource_7gpxo"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"puissant\" ?"
-correct_answer = "robuste"
-choices = Array[String](["lent", "clair", "court"])
+text = "Combien de lettres y a-t-il dans le mot \"rentrer\" ?"
+correct_answer = "7"
+choices = Array[String](["8", "9", "6"])
 
 [sub_resource type="Resource" id="Resource_8vpbl"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"malin\" ?"
-correct_answer = "astucieux"
-choices = Array[String](["joli", "froid", "chaud"])
+text = "Combien de lettres y a-t-il dans le mot \"ballon\" ?"
+correct_answer = "6"
+choices = Array[String](["7", "4", "9"])
 
 [sub_resource type="Resource" id="Resource_d2k3u"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"rusé\" ?"
-correct_answer = "futé"
-choices = Array[String](["poli", "joli", "rouge"])
+text = "Combien de lettres y a-t-il dans le mot \"iceberg\" ?"
+correct_answer = "7"
+choices = Array[String](["6", "8", "9"])
 
 [sub_resource type="Resource" id="Resource_63hfu"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"effrayé\" ?"
-correct_answer = "apeuré"
-choices = Array[String](["froid", "chaud", "léger"])
+text = "Combien de lettres y a-t-il dans le mot \"carte\" ?"
+correct_answer = "5"
+choices = Array[String](["2", "7", "4"])
 
 [sub_resource type="Resource" id="Resource_qmxdj"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"fatigué\" ?"
-correct_answer = "exténué"
-choices = Array[String](["salé", "clair", "carré"])
+text = "Combien de lettres y a-t-il dans le mot \"couler\" ?"
+correct_answer = "6"
+choices = Array[String](["3", "9", "4"])
 
 [sub_resource type="Resource" id="Resource_p70go"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"calme\" ?"
-correct_answer = "tranquille"
-choices = Array[String](["carré", "doux", "vieux"])
+text = "Combien de lettres y a-t-il dans le mot \"stressé\" ?"
+correct_answer = "7"
+choices = Array[String](["6", "4", "9"])
 
 [sub_resource type="Resource" id="Resource_qurlh"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"agité\" ?"
-correct_answer = "turbulent"
-choices = Array[String](["grand", "triste", "lent"])
+text = "Combien de lettres y a-t-il dans le mot \"dur\" ?"
+correct_answer = "3"
+choices = Array[String](["4", "5", "1"])
 
 [sub_resource type="Resource" id="Resource_rmpxf"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"difficile\" ?"
-correct_answer = "ardu"
-choices = Array[String](["froid", "grand", "lent"])
+text = "Combien de lettres y a-t-il dans le mot \"peigne\" ?"
+correct_answer = "6"
+choices = Array[String](["9", "4", "3"])
 
 [sub_resource type="Resource" id="Resource_nauui"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"facile\" ?"
-correct_answer = "aisé"
-choices = Array[String](["salé", "petit", "lent"])
+text = "Combien de lettres y a-t-il dans le mot \"vélo\" ?"
+correct_answer = "4"
+choices = Array[String](["6", "2", "1"])
 
 [sub_resource type="Resource" id="Resource_wtd2m"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"simple\" ?"
-correct_answer = "élémentaire"
-choices = Array[String](["carré", "rouge", "court"])
+text = "Combien de lettres y a-t-il dans le mot \"avaler\" ?"
+correct_answer = "6"
+choices = Array[String](["3", "9", "4"])
 
 [sub_resource type="Resource" id="Resource_nsiyl"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"joli\" ?"
-correct_answer = "charmant"
-choices = Array[String](["grand", "vieux", "rouge"])
+text = "Combien de lettres y a-t-il dans le mot \"fille\" ?"
+correct_answer = "5"
+choices = Array[String](["8", "2", "7"])
 
 [sub_resource type="Resource" id="Resource_fgic5"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"magnifique\" ?"
-correct_answer = "splendide"
-choices = Array[String](["rouge", "froid", "court"])
+text = "Combien de lettres y a-t-il dans le mot \"ailleurs\" ?"
+correct_answer = "8"
+choices = Array[String](["7", "5", "11"])
 
 [sub_resource type="Resource" id="Resource_alxy1"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"horrible\" ?"
-correct_answer = "affreux"
-choices = Array[String](["froid", "vieux", "petit"])
+text = "Combien de lettres y a-t-il dans le mot \"marché\" ?"
+correct_answer = "6"
+choices = Array[String](["9", "3", "4"])
 
 [sub_resource type="Resource" id="Resource_cmfaq"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"étrange\" ?"
-correct_answer = "bizarre"
-choices = Array[String](["lent", "froid", "triste"])
+text = "Combien de lettres y a-t-il dans le mot \"émerger\" ?"
+correct_answer = "7"
+choices = Array[String](["9", "10", "6"])
 
 [sub_resource type="Resource" id="Resource_ry2c0"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"célèbre\" ?"
-correct_answer = "connu"
-choices = Array[String](["salé", "grand", "carré"])
+text = "Combien de lettres y a-t-il dans le mot \"tomber\" ?"
+correct_answer = "6"
+choices = Array[String](["8", "4", "5"])
 
 [sub_resource type="Resource" id="Resource_p6orx"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"précieux\" ?"
-correct_answer = "inestimable"
-choices = Array[String](["lent", "petit", "grand"])
+text = "Combien de lettres y a-t-il dans le mot \"drapeau\" ?"
+correct_answer = "7"
+choices = Array[String](["9", "10", "6"])
 
 [sub_resource type="Resource" id="Resource_61tto"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"solide\" ?"
-correct_answer = "résistant"
-choices = Array[String](["froid", "court", "joli"])
+text = "Combien de lettres y a-t-il dans le mot \"nager\" ?"
+correct_answer = "5"
+choices = Array[String](["8", "7", "3"])
 
 [sub_resource type="Resource" id="Resource_k8g6w"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"fragile\" ?"
-correct_answer = "délicat"
-choices = Array[String](["léger", "rouge", "court"])
+text = "Combien de lettres y a-t-il dans le mot \"gronder\" ?"
+correct_answer = "7"
+choices = Array[String](["9", "5", "8"])
 
 [sub_resource type="Resource" id="Resource_rw83w"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"véloce\" ?"
-correct_answer = "prompt"
-choices = Array[String](["rouge", "rond", "triste"])
+text = "Combien de lettres y a-t-il dans le mot \"cartable\" ?"
+correct_answer = "8"
+choices = Array[String](["6", "10", "11"])
 
 [sub_resource type="Resource" id="Resource_7bgtq"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"maison\" ?"
-correct_answer = "demeure"
-choices = Array[String](["table", "chapeau", "fenêtre"])
+text = "Combien de lettres y a-t-il dans le mot \"ouvrir\" ?"
+correct_answer = "6"
+choices = Array[String](["7", "3", "8"])
 
 [sub_resource type="Resource" id="Resource_kvjx5"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"chemin\" ?"
-correct_answer = "sentier"
-choices = Array[String](["montagne", "fenêtre", "voiture"])
+text = "Combien de lettres y a-t-il dans le mot \"rire\" ?"
+correct_answer = "4"
+choices = Array[String](["3", "7", "2"])
 
 [sub_resource type="Resource" id="Resource_mul3c"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"bois\" ?"
-correct_answer = "forêt"
-choices = Array[String](["rivière", "nuage", "cahier"])
+text = "Combien de lettres y a-t-il dans le mot \"caverne\" ?"
+correct_answer = "7"
+choices = Array[String](["9", "5", "8"])
 
 [sub_resource type="Resource" id="Resource_4wplu"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"bruit\" ?"
-correct_answer = "vacarme"
-choices = Array[String](["voiture", "cahier", "chaise"])
+text = "Combien de lettres y a-t-il dans le mot \"très\" ?"
+correct_answer = "4"
+choices = Array[String](["7", "5", "2"])
 
 [sub_resource type="Resource" id="Resource_s3wed"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"odeur\" ?"
-correct_answer = "parfum"
-choices = Array[String](["porte", "ballon", "route"])
+text = "Combien de lettres y a-t-il dans le mot \"magasin\" ?"
+correct_answer = "7"
+choices = Array[String](["9", "4", "6"])
 
 [sub_resource type="Resource" id="Resource_tk73e"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"travail\" ?"
-correct_answer = "labeur"
-choices = Array[String](["montagne", "vélo", "fleur"])
+text = "Combien de lettres y a-t-il dans le mot \"acteur\" ?"
+correct_answer = "6"
+choices = Array[String](["7", "8", "5"])
 
 [sub_resource type="Resource" id="Resource_16op1"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"récompense\" ?"
-correct_answer = "prix"
-choices = Array[String](["table", "nuage", "chapeau"])
+text = "Combien de lettres y a-t-il dans le mot \"propre\" ?"
+correct_answer = "6"
+choices = Array[String](["9", "3", "5"])
 
 [sub_resource type="Resource" id="Resource_8qor7"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"problème\" ?"
-correct_answer = "souci"
-choices = Array[String](["montagne", "ballon", "table"])
+text = "Combien de lettres y a-t-il dans le mot \"grange\" ?"
+correct_answer = "6"
+choices = Array[String](["3", "8", "9"])
 
 [sub_resource type="Resource" id="Resource_6jgx8"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"idée\" ?"
-correct_answer = "pensée"
-choices = Array[String](["ballon", "chaise", "fenêtre"])
+text = "Combien de lettres y a-t-il dans le mot \"manger\" ?"
+correct_answer = "6"
+choices = Array[String](["5", "8", "4"])
 
 [sub_resource type="Resource" id="Resource_xoak8"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"histoire\" ?"
-correct_answer = "récit"
-choices = Array[String](["route", "fleur", "chapeau"])
+text = "Combien de lettres y a-t-il dans le mot \"chanteur\" ?"
+correct_answer = "8"
+choices = Array[String](["11", "6", "10"])
 
 [sub_resource type="Resource" id="Resource_noelk"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"ami\" ?"
-correct_answer = "copain"
-choices = Array[String](["route", "nuage", "table"])
+text = "Combien de lettres y a-t-il dans le mot \"lire\" ?"
+correct_answer = "4"
+choices = Array[String](["1", "6", "2"])
 
 [sub_resource type="Resource" id="Resource_lht61"]
 script = ExtResource("1_g8n4a")
 subject = 4
 grade = 1
-text = "Quel est un synonyme de \"collation\" ?"
-correct_answer = "goûter"
-choices = Array[String](["chaise", "nuage", "montagne"])
+text = "Combien de lettres y a-t-il dans le mot \"patiner\" ?"
+correct_answer = "7"
+choices = Array[String](["10", "6", "4"])
 
 [sub_resource type="Resource" id="Resource_sp15p"]
 script = ExtResource("1_g8n4a")

@@ -87,9 +87,9 @@ choices = Array[String](["cold", "snow", "rain"])
 script = ExtResource("1_1fu3i")
 subject = 5
 grade = 3
-text = "Comment dit-on \"il est né en Chine\" en anglais ?"
-correct_answer = "He was born in China"
-choices = Array[String](["He was born in Germany", "He was born in France", "I come from France"])
+text = "Comment dit-on \"il vient de Chine\" en anglais ?"
+correct_answer = "He comes from China"
+choices = Array[String](["He comes from Germany", "He comes from France", "I come from France"])
 
 [sub_resource type="Resource" id="Resource_idn50"]
 script = ExtResource("1_1fu3i")
@@ -167,9 +167,9 @@ choices = Array[String](["I have an uncle", "I have a twin", "I have a niece"])
 script = ExtResource("1_1fu3i")
 subject = 5
 grade = 3
-text = "Comment dit-on \"il est né en Belgique\" en anglais ?"
-correct_answer = "He was born in Belgium"
-choices = Array[String](["He was born in England", "He was born in China", "I come from Switzerland"])
+text = "Comment dit-on \"il vient de Belgique\" en anglais ?"
+correct_answer = "He comes from Belgium"
+choices = Array[String](["He comes from England", "He comes from China", "I come from Switzerland"])
 
 [sub_resource type="Resource" id="Resource_6nqxx"]
 script = ExtResource("1_1fu3i")
@@ -361,7 +361,7 @@ subject = 5
 grade = 3
 text = "Comment dit-on \"je viens d'Allemagne\" en anglais ?"
 correct_answer = "I come from Germany"
-choices = Array[String](["I come from Belgium", "I come from Scotland", "He was born in Italy"])
+choices = Array[String](["I come from Belgium", "I come from Scotland", "He comes from Italy"])
 
 [sub_resource type="Resource" id="Resource_rkwp0"]
 script = ExtResource("1_1fu3i")
@@ -369,7 +369,7 @@ subject = 5
 grade = 3
 text = "Comment dit-on \"je viens de Chine\" en anglais ?"
 correct_answer = "I come from China"
-choices = Array[String](["He was born in England", "He was born in Japan", "I come from Scotland"])
+choices = Array[String](["He comes from England", "He comes from Japan", "I come from Scotland"])
 
 [sub_resource type="Resource" id="Resource_jnsox"]
 script = ExtResource("1_1fu3i")
@@ -487,8 +487,8 @@ choices = Array[String](["My tooth hurts", "My foot hurts", "My stomach hurts"])
 script = ExtResource("1_1fu3i")
 subject = 5
 grade = 3
-text = "Comment dit-on \"il est né au Canada\" en anglais ?"
-correct_answer = "He was born in Canada"
+text = "Comment dit-on \"il vient du Canada\" en anglais ?"
+correct_answer = "He comes from Canada"
 choices = Array[String](["I come from Switzerland", "I come from Japan", "I come from Belgium"])
 
 [sub_resource type="Resource" id="Resource_qvmnb"]
@@ -655,8 +655,8 @@ choices = Array[String](["longer", "highest", "coldest"])
 script = ExtResource("1_1fu3i")
 subject = 5
 grade = 3
-text = "Comment dit-on \"il est né en Écosse\" en anglais ?"
-correct_answer = "He was born in Scotland"
+text = "Comment dit-on \"il vient d'Écosse\" en anglais ?"
+correct_answer = "He comes from Scotland"
 choices = Array[String](["I come from Germany", "I come from Portugal", "I come from France"])
 
 [sub_resource type="Resource" id="Resource_emfga"]
@@ -673,15 +673,15 @@ subject = 5
 grade = 3
 text = "Comment dit-on \"je viens d'Espagne\" en anglais ?"
 correct_answer = "I come from Spain"
-choices = Array[String](["I come from Japan", "He was born in France", "I come from France"])
+choices = Array[String](["I come from Japan", "He comes from France", "I come from France"])
 
 [sub_resource type="Resource" id="Resource_g6c13"]
 script = ExtResource("1_1fu3i")
 subject = 5
 grade = 3
-text = "Comment dit-on \"il est né en Allemagne\" en anglais ?"
-correct_answer = "He was born in Germany"
-choices = Array[String](["He was born in Switzerland", "He was born in Canada", "He was born in Spain"])
+text = "Comment dit-on \"il vient d'Allemagne\" en anglais ?"
+correct_answer = "He comes from Germany"
+choices = Array[String](["He comes from Switzerland", "He comes from Canada", "He comes from Spain"])
 
 [sub_resource type="Resource" id="Resource_85sjn"]
 script = ExtResource("1_1fu3i")
@@ -841,7 +841,7 @@ subject = 5
 grade = 3
 text = "Comment dit-on \"je viens d'Italie\" en anglais ?"
 correct_answer = "I come from Italy"
-choices = Array[String](["He was born in England", "He was born in Japan", "He was born in Scotland"])
+choices = Array[String](["He comes from England", "He comes from Japan", "He comes from Scotland"])
 
 [sub_resource type="Resource" id="Resource_lh85v"]
 script = ExtResource("1_1fu3i")
@@ -1049,15 +1049,15 @@ subject = 5
 grade = 3
 text = "Comment dit-on \"je viens des États-Unis\" en anglais ?"
 correct_answer = "I come from the United States"
-choices = Array[String](["He was born in Canada", "I come from Belgium", "I come from Canada"])
+choices = Array[String](["He comes from Canada", "I come from Belgium", "I come from Canada"])
 
 [sub_resource type="Resource" id="Resource_b4bbq"]
 script = ExtResource("1_1fu3i")
 subject = 5
 grade = 3
-text = "Comment dit-on \"il est né aux États-Unis\" en anglais ?"
-correct_answer = "He was born in the United States"
-choices = Array[String](["He was born in Portugal", "He was born in Belgium", "He was born in China"])
+text = "Comment dit-on \"il vient des États-Unis\" en anglais ?"
+correct_answer = "He comes from the United States"
+choices = Array[String](["He comes from Portugal", "He comes from Belgium", "He comes from China"])
 
 [sub_resource type="Resource" id="Resource_01jdb"]
 script = ExtResource("1_1fu3i")
@@ -1087,9 +1087,9 @@ choices = Array[String](["A rock is higher than a feather", "A building is loude
 script = ExtResource("1_1fu3i")
 subject = 5
 grade = 3
-text = "Comment dit-on \"il est né au Japon\" en anglais ?"
-correct_answer = "He was born in Japan"
-choices = Array[String](["I come from Spain", "He was born in Scotland", "He was born in Ireland"])
+text = "Comment dit-on \"il vient du Japon\" en anglais ?"
+correct_answer = "He comes from Japan"
+choices = Array[String](["I come from Spain", "He comes from Scotland", "He comes from Ireland"])
 
 [sub_resource type="Resource" id="Resource_nopnc"]
 script = ExtResource("1_1fu3i")
@@ -1103,9 +1103,9 @@ choices = Array[String](["My stomach hurts", "My knee hurts", "My head hurts"])
 script = ExtResource("1_1fu3i")
 subject = 5
 grade = 3
-text = "Comment dit-on \"il est né en Italie\" en anglais ?"
-correct_answer = "He was born in Italy"
-choices = Array[String](["He was born in Japan", "He was born in Canada", "I come from England"])
+text = "Comment dit-on \"il vient d'Italie\" en anglais ?"
+correct_answer = "He comes from Italy"
+choices = Array[String](["He comes from Japan", "He comes from Canada", "I come from England"])
 
 [sub_resource type="Resource" id="Resource_afvcn"]
 script = ExtResource("1_1fu3i")
@@ -1121,7 +1121,7 @@ subject = 5
 grade = 3
 text = "Comment dit-on \"je viens du Canada\" en anglais ?"
 correct_answer = "I come from Canada"
-choices = Array[String](["I come from Italy", "He was born in Portugal", "He was born in Italy"])
+choices = Array[String](["I come from Italy", "He comes from Portugal", "He comes from Italy"])
 
 [sub_resource type="Resource" id="Resource_y1f05"]
 script = ExtResource("1_1fu3i")
@@ -1327,9 +1327,9 @@ choices = Array[String](["A lion is longer than a duck", "A car is hotter than a
 script = ExtResource("1_1fu3i")
 subject = 5
 grade = 3
-text = "Comment dit-on \"il est né en Suisse\" en anglais ?"
-correct_answer = "He was born in Switzerland"
-choices = Array[String](["I come from Portugal", "I come from Switzerland", "He was born in Scotland"])
+text = "Comment dit-on \"il vient de Suisse\" en anglais ?"
+correct_answer = "He comes from Switzerland"
+choices = Array[String](["I come from Portugal", "I come from Switzerland", "He comes from Scotland"])
 
 [sub_resource type="Resource" id="Resource_x8fn4"]
 script = ExtResource("1_1fu3i")
@@ -1369,7 +1369,7 @@ subject = 5
 grade = 3
 text = "Comment dit-on \"je viens de Suisse\" en anglais ?"
 correct_answer = "I come from Switzerland"
-choices = Array[String](["He was born in Scotland", "He was born in Germany", "He was born in Italy"])
+choices = Array[String](["He comes from Scotland", "He comes from Germany", "He comes from Italy"])
 
 [sub_resource type="Resource" id="Resource_lqn3h"]
 script = ExtResource("1_1fu3i")
@@ -1481,7 +1481,7 @@ subject = 5
 grade = 3
 text = "Comment dit-on \"je viens de France\" en anglais ?"
 correct_answer = "I come from France"
-choices = Array[String](["I come from Portugal", "He was born in China", "He was born in Germany"])
+choices = Array[String](["I come from Portugal", "He comes from China", "He comes from Germany"])
 
 [sub_resource type="Resource" id="Resource_if7qd"]
 script = ExtResource("1_1fu3i")
@@ -1591,9 +1591,9 @@ choices = Array[String](["le septième", "le deuxième", "la cinquième"])
 script = ExtResource("1_1fu3i")
 subject = 5
 grade = 3
-text = "Comment dit-on \"il est né en Angleterre\" en anglais ?"
-correct_answer = "He was born in England"
-choices = Array[String](["I come from England", "He was born in France", "I come from Ireland"])
+text = "Comment dit-on \"il vient d'Angleterre\" en anglais ?"
+correct_answer = "He comes from England"
+choices = Array[String](["I come from England", "He comes from France", "I come from Ireland"])
 
 [sub_resource type="Resource" id="Resource_oqdq6"]
 script = ExtResource("1_1fu3i")
@@ -1617,7 +1617,7 @@ subject = 5
 grade = 3
 text = "Comment dit-on \"je viens d'Irlande\" en anglais ?"
 correct_answer = "I come from Ireland"
-choices = Array[String](["I come from Germany", "I come from France", "He was born in the United States"])
+choices = Array[String](["I come from Germany", "I come from France", "He comes from the United States"])
 
 [sub_resource type="Resource" id="Resource_4b3b0"]
 script = ExtResource("1_1fu3i")
@@ -1671,8 +1671,8 @@ choices = Array[String](["I play the violin", "I play the drum", "I play the gui
 script = ExtResource("1_1fu3i")
 subject = 5
 grade = 3
-text = "Comment dit-on \"il est né en Irlande\" en anglais ?"
-correct_answer = "He was born in Ireland"
+text = "Comment dit-on \"il vient d'Irlande\" en anglais ?"
+correct_answer = "He comes from Ireland"
 choices = Array[String](["I come from Japan", "I come from Spain", "I come from Belgium"])
 
 [sub_resource type="Resource" id="Resource_xt5ha"]
@@ -1857,7 +1857,7 @@ subject = 5
 grade = 3
 text = "Comment dit-on \"je viens du Portugal\" en anglais ?"
 correct_answer = "I come from Portugal"
-choices = Array[String](["He was born in Switzerland", "He was born in Portugal", "I come from France"])
+choices = Array[String](["He comes from Switzerland", "He comes from Portugal", "I come from France"])
 
 [sub_resource type="Resource" id="Resource_mcq3r"]
 script = ExtResource("1_1fu3i")
@@ -1919,9 +1919,9 @@ choices = Array[String](["lightest", "louder", "lower"])
 script = ExtResource("1_1fu3i")
 subject = 5
 grade = 3
-text = "Comment dit-on \"il est né en France\" en anglais ?"
-correct_answer = "He was born in France"
-choices = Array[String](["I come from Belgium", "I come from England", "He was born in England"])
+text = "Comment dit-on \"il vient de France\" en anglais ?"
+correct_answer = "He comes from France"
+choices = Array[String](["I come from Belgium", "I come from England", "He comes from England"])
 
 [sub_resource type="Resource" id="Resource_8n4tc"]
 script = ExtResource("1_1fu3i")
@@ -2049,7 +2049,7 @@ subject = 5
 grade = 3
 text = "Comment dit-on \"je viens de Belgique\" en anglais ?"
 correct_answer = "I come from Belgium"
-choices = Array[String](["He was born in Portugal", "I come from Switzerland", "He was born in Switzerland"])
+choices = Array[String](["He comes from Portugal", "I come from Switzerland", "He comes from Switzerland"])
 
 [sub_resource type="Resource" id="Resource_p5u2e"]
 script = ExtResource("1_1fu3i")
@@ -2239,9 +2239,9 @@ choices = Array[String](["grand (taille)", "vide", "propre"])
 script = ExtResource("1_1fu3i")
 subject = 5
 grade = 3
-text = "Comment dit-on \"il est né en Espagne\" en anglais ?"
-correct_answer = "He was born in Spain"
-choices = Array[String](["He was born in England", "He was born in Switzerland", "He was born in Ireland"])
+text = "Comment dit-on \"il vient d'Espagne\" en anglais ?"
+correct_answer = "He comes from Spain"
+choices = Array[String](["He comes from England", "He comes from Switzerland", "He comes from Ireland"])
 
 [sub_resource type="Resource" id="Resource_3xgfk"]
 script = ExtResource("1_1fu3i")
@@ -3567,9 +3567,9 @@ choices = Array[String](["j'habite en Espagne", "j'habite en Angleterre", "j'hab
 script = ExtResource("1_1fu3i")
 subject = 5
 grade = 3
-text = "Comment dit-on \"il est né au Portugal\" en anglais ?"
-correct_answer = "He was born in Portugal"
-choices = Array[String](["He was born in Canada", "I come from Italy", "He was born in Italy"])
+text = "Comment dit-on \"il vient du Portugal\" en anglais ?"
+correct_answer = "He comes from Portugal"
+choices = Array[String](["He comes from Canada", "I come from Italy", "He comes from Italy"])
 
 [sub_resource type="Resource" id="Resource_yq470"]
 script = ExtResource("1_1fu3i")
@@ -3665,7 +3665,7 @@ subject = 5
 grade = 3
 text = "Comment dit-on \"je viens d'Angleterre\" en anglais ?"
 correct_answer = "I come from England"
-choices = Array[String](["He was born in France", "I come from Japan", "I come from Switzerland"])
+choices = Array[String](["He comes from France", "I come from Japan", "I come from Switzerland"])
 
 [sub_resource type="Resource" id="Resource_7kxyy"]
 script = ExtResource("1_1fu3i")

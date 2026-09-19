@@ -16,7 +16,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 20014;"Comment dit-on ""au milieu, il y a quatre éléphants"" en anglais ?";In the middle, there are 4 elephants;In the middle, there are 4 cows;In the middle, there are 4 cats;In the middle, there are 4 sheep
 20015;"Que veut dire ""rice"" en français ?";riz;fromage;oeuf;pomme
 20016;"Comment dit-on ""pomme de terre"" en anglais ?";potato;honey;sugar;pepper
-20017;"Comment dit-on ""à gauche, il y a sept oiseaux"" en anglais ?";On the left, there are 7 birds;On the left, there are 7 monkeys;On the left, there are 7 fish;On the left, there are 7 sheep
+20017;"Comment dit-on ""à gauche, il y a sept oiseaus"" en anglais ?";On the left, there are 7 birds;On the left, there are 7 monkeys;On the left, there are 7 fish;On the left, there are 7 sheep
 20018;"Que veut dire ""bag"" en français ?";sac;fenêtre;table;stylo
 20019;"Comment dit-on ""à gauche, il y a cinq cochons"" en anglais ?";On the left, there are 5 pigs;On the left, there are 5 rabbits;On the left, there are 5 bears;On the left, there are 5 ducks
 20020;"Comment dit-on ""étoile"" en anglais ?";star;valley;volcano;root
@@ -53,7 +53,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 20051;"Comment dit-on ""à droite, il y a cinq grenouilles"" en anglais ?";On the right, there are 5 frogs;On the right, there are 5 tigers;On the right, there are 5 lions;On the right, there are 5 horses
 20052;"Comment dit-on ""en haut, il y a six canards"" en anglais ?";At the top, there are 6 ducks;At the top, there are 6 birds;At the top, there are 6 sheep;At the top, there are 6 horses
 20053;"Comment dit-on ""il y a sept singes"" en anglais ?";There are 7 monkeys;There are 7 ducks;There are 7 horses;There are 7 sheep
-20054;"Comment dit-on ""en bas, il y a six oiseaux"" en anglais ?";At the bottom, there are 6 birds;At the bottom, there are 6 elephants;At the bottom, there are 6 cats;At the bottom, there are 6 bears
+20054;"Comment dit-on ""en bas, il y a six oiseaus"" en anglais ?";At the bottom, there are 6 birds;At the bottom, there are 6 elephants;At the bottom, there are 6 cats;At the bottom, there are 6 bears
 20055;"Comment dit-on ""à gauche, il y a cinq éléphants"" en anglais ?";On the left, there are 5 elephants;On the left, there are 5 fish;On the left, there are 5 lions;On the left, there are 5 tigers
 20056;"Comment dit-on ""à droite, il y a quatre souriss"" en anglais ?";On the right, there are 4 mice;On the right, there are 4 cats;On the right, there are 4 rabbits;On the right, there are 4 birds
 20057;"Que veut dire ""Australian"" en français ?";australien;gallois;japonais;belge
@@ -74,9 +74,9 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 20072;"Comment dit-on ""au milieu, il y a cinq chats"" en anglais ?";In the middle, there are 5 cats;In the middle, there are 5 cows;In the middle, there are 5 ducks;In the middle, there are 5 monkeys
 20073;"Comment dit-on ""gel"" en anglais ?";frost;storm;rainbow;thunder
 20074;"Que veut dire ""oven"" en français ?";four;bol;cuillère;tasse
-20075;"Comment dit-on ""au milieu, il y a sept oiseaux"" en anglais ?";In the middle, there are 7 birds;In the middle, there are 7 elephants;In the middle, there are 7 horses;In the middle, there are 7 frogs
+20075;"Comment dit-on ""au milieu, il y a sept oiseaus"" en anglais ?";In the middle, there are 7 birds;In the middle, there are 7 elephants;In the middle, there are 7 horses;In the middle, there are 7 frogs
 20076;"Comment dit-on ""à gauche, il y a sept ours"" en anglais ?";On the left, there are 7 bears;On the left, there are 7 snakes;On the left, there are 7 rabbits;On the left, there are 7 horses
-20077;"Comment dit-on ""au milieu, il y a cinq oiseaux"" en anglais ?";In the middle, there are 5 birds;In the middle, there are 5 bears;In the middle, there are 5 frogs;In the middle, there are 5 elephants
+20077;"Comment dit-on ""au milieu, il y a cinq oiseaus"" en anglais ?";In the middle, there are 5 birds;In the middle, there are 5 bears;In the middle, there are 5 frogs;In the middle, there are 5 elephants
 20078;"Comment dit-on ""il y a cinq tigres"" en anglais ?";There are 5 tigers;There are 5 sheep;There are 5 rabbits;There are 5 fish
 20079;"Comment dit-on ""quarante"" en anglais ?";forty;two;one hundred;sixty
 20080;"Que veut dire ""forty"" en français ?";quarante;deux;vingt;trente
@@ -95,7 +95,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 20093;"Comment dit-on ""à droite, il y a six ours"" en anglais ?";On the right, there are 6 bears;On the right, there are 6 rabbits;On the right, there are 6 cows;On the right, there are 6 tigers
 20094;"Que veut dire ""roof"" en français ?";toit;garage;salon;cave
 20095;"Comment dit-on ""chinois"" en anglais ?";Chinese;Scottish;Brazilian;Mexican
-20096;"Comment dit-on ""à gauche, il y a six oiseaux"" en anglais ?";On the left, there are 6 birds;On the left, there are 6 frogs;On the left, there are 6 horses;On the left, there are 6 pigs
+20096;"Comment dit-on ""à gauche, il y a six oiseaus"" en anglais ?";On the left, there are 6 birds;On the left, there are 6 frogs;On the left, there are 6 horses;On the left, there are 6 pigs
 20097;"Comment dit-on ""dauphin"" en anglais ?";dolphin;polar bear;hen;fox
 20098;"Que veut dire ""park"" en français ?";parc;plage;aéroport;ferme
 20099;"Comment dit-on ""à droite, il y a quatre éléphants"" en anglais ?";On the right, there are 4 elephants;On the right, there are 4 pigs;On the right, there are 4 rabbits;On the right, there are 4 tigers
@@ -147,7 +147,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 20145;"Comment dit-on ""en haut, il y a cinq vaches"" en anglais ?";At the top, there are 5 cows;At the top, there are 5 cats;At the top, there are 5 fish;At the top, there are 5 elephants
 20146;"Comment dit-on ""en bas, il y a quatre poissons"" en anglais ?";At the bottom, there are 4 fish;At the bottom, there are 4 bears;At the bottom, there are 4 tigers;At the bottom, there are 4 lions
 20147;"Comment dit-on ""il y a sept chiens"" en anglais ?";There are 7 dogs;There are 7 bears;There are 7 elephants;There are 7 cats
-20148;"Comment dit-on ""il y a sept oiseaux"" en anglais ?";There are 7 birds;There are 7 rabbits;There are 7 cats;There are 7 frogs
+20148;"Comment dit-on ""il y a sept oiseaus"" en anglais ?";There are 7 birds;There are 7 rabbits;There are 7 cats;There are 7 frogs
 20149;"Comment dit-on ""en bas, il y a six poissons"" en anglais ?";At the bottom, there are 6 fish;At the bottom, there are 6 rabbits;At the bottom, there are 6 dogs;At the bottom, there are 6 ducks
 20150;"Comment dit-on ""en haut, il y a sept canards"" en anglais ?";At the top, there are 7 ducks;At the top, there are 7 bears;At the top, there are 7 birds;At the top, there are 7 pigs
 20151;"Comment dit-on ""en haut, il y a six moutons"" en anglais ?";At the top, there are 6 sheep;At the top, there are 6 cows;At the top, there are 6 bears;At the top, there are 6 tigers
@@ -178,7 +178,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 20176;"Comment dit-on ""au milieu, il y a cinq vaches"" en anglais ?";In the middle, there are 5 cows;In the middle, there are 5 horses;In the middle, there are 5 pigs;In the middle, there are 5 bears
 20177;"Comment dit-on ""en bas, il y a cinq cochons"" en anglais ?";At the bottom, there are 5 pigs;At the bottom, there are 5 elephants;At the bottom, there are 5 snakes;At the bottom, there are 5 rabbits
 20178;"Comment dit-on ""à droite, il y a six chevaux"" en anglais ?";On the right, there are 6 horses;On the right, there are 6 fish;On the right, there are 6 rabbits;On the right, there are 6 cows
-20179;"Comment dit-on ""en haut, il y a six oiseaux"" en anglais ?";At the top, there are 6 birds;At the top, there are 6 pigs;At the top, there are 6 elephants;At the top, there are 6 cats
+20179;"Comment dit-on ""en haut, il y a six oiseaus"" en anglais ?";At the top, there are 6 birds;At the top, there are 6 pigs;At the top, there are 6 elephants;At the top, there are 6 cats
 20180;"Comment dit-on ""il y a quatre singes"" en anglais ?";There are 4 monkeys;There are 4 cats;There are 4 rabbits;There are 4 frogs
 20181;"Comment dit-on ""en haut, il y a quatre chevaux"" en anglais ?";At the top, there are 4 horses;At the top, there are 4 pigs;At the top, there are 4 ducks;At the top, there are 4 birds
 20182;"Comment dit-on ""à droite, il y a quatre moutons"" en anglais ?";On the right, there are 4 sheep;On the right, there are 4 monkeys;On the right, there are 4 cows;On the right, there are 4 mice

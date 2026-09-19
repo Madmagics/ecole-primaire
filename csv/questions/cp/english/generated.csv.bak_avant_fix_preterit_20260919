@@ -335,175 +335,175 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 18333;"Comment dit-on ""Prends ta chaise"" en anglais ?";Take your chair;Take your glue;Take your pencil;Take your pen
 18334;"Comment dit-on ""Prends ta table"" en anglais ?";Take your table;Take your chair;Take your scissors;Take your schoolbag
 18335;"Comment dit-on ""j'ai deux pommes"" en anglais ?";I have two apples;I have two eggs;I have two pencils;I have two cats
-18336;"Que veut dire ""I have two apples"" en français ?";j'ai deux pommes;j'ai deux lapins;j'ai deux chiens;je vois deux vaches
-18337;"Comment dit-on ""j'ai deux bananes"" en anglais ?";I have two bananas;I see two frogs;I see two birds;I have two pens
+18336;"Que veut dire ""I have two apples"" en français ?";j'ai deux pommes;j'ai deux lapins;j'ai deux chiens;j'ai vu deux vaches
+18337;"Comment dit-on ""j'ai deux bananes"" en anglais ?";I have two bananas;I saw two frogs;I saw two birds;I have two pens
 18338;"Que veut dire ""I have two bananas"" en français ?";j'ai deux bananes;j'ai deux oeufs;j'ai deux crayons;j'ai deux gommes
-18339;"Comment dit-on ""j'ai deux oeufs"" en anglais ?";I have two eggs;I have two rubbers;I see two ducks;I see two frogs
-18340;"Que veut dire ""I have two eggs"" en français ?";j'ai deux oeufs;je vois deux canards;je vois deux grenouilles;j'ai deux lapins
-18341;"Comment dit-on ""j'ai deux gâteaux"" en anglais ?";I have two cakes;I see two frogs;I have two bananas;I have two apples
+18339;"Comment dit-on ""j'ai deux oeufs"" en anglais ?";I have two eggs;I have two rubbers;I saw two ducks;I saw two frogs
+18340;"Que veut dire ""I have two eggs"" en français ?";j'ai deux oeufs;j'ai vu deux canards;j'ai vu deux grenouilles;j'ai deux lapins
+18341;"Comment dit-on ""j'ai deux gâteaux"" en anglais ?";I have two cakes;I saw two frogs;I have two bananas;I have two apples
 18342;"Que veut dire ""I have two cakes"" en français ?";j'ai deux gâteaux;j'ai deux stylos;j'ai deux lapins;j'ai deux oeufs
 18343;"Comment dit-on ""j'ai deux crayons"" en anglais ?";I have two pencils;I have two dogs;I have two cats;I have two apples
-18344;"Que veut dire ""I have two pencils"" en français ?";j'ai deux crayons;je vois deux cochons;j'ai deux bananes;j'ai deux gâteaux
+18344;"Que veut dire ""I have two pencils"" en français ?";j'ai deux crayons;j'ai vu deux cochons;j'ai deux bananes;j'ai deux gâteaux
 18345;"Comment dit-on ""j'ai deux gommes"" en anglais ?";I have two rubbers;I have two cakes;I have two pens;I have two bananas
 18346;"Que veut dire ""I have two rubbers"" en français ?";j'ai deux gommes;j'ai deux crayons;j'ai deux stylos;j'ai deux lapins
 18347;"Comment dit-on ""j'ai deux règles"" en anglais ?";I have two rulers;I have two dogs;I have two cats;I have two rabbits
-18348;"Que veut dire ""I have two rulers"" en français ?";j'ai deux règles;j'ai deux chats;j'ai deux livres;je vois deux cochons
-18349;"Comment dit-on ""j'ai deux livres"" en anglais ?";I have two books;I see two frogs;I have two pens;I have two cakes
-18350;"Que veut dire ""I have two books"" en français ?";j'ai deux livres;je vois deux canards;j'ai deux chats;j'ai deux oeufs
-18351;"Comment dit-on ""j'ai deux stylos"" en anglais ?";I have two pens;I see two cows;I have two cakes;I have two dogs
-18352;"Que veut dire ""I have two pens"" en français ?";j'ai deux stylos;j'ai deux crayons;je vois deux cochons;j'ai deux bananes
-18353;"Comment dit-on ""j'ai deux chats"" en anglais ?";I have two cats;I have two pens;I see two cows;I see two ducks
-18354;"Que veut dire ""I have two cats"" en français ?";j'ai deux chats;je vois deux cochons;j'ai deux gommes;je vois deux vaches
-18355;"Comment dit-on ""j'ai deux chiens"" en anglais ?";I have two dogs;I have two pens;I see two pigs;I have two apples
+18348;"Que veut dire ""I have two rulers"" en français ?";j'ai deux règles;j'ai deux chats;j'ai deux livres;j'ai vu deux cochons
+18349;"Comment dit-on ""j'ai deux livres"" en anglais ?";I have two books;I saw two frogs;I have two pens;I have two cakes
+18350;"Que veut dire ""I have two books"" en français ?";j'ai deux livres;j'ai vu deux canards;j'ai deux chats;j'ai deux oeufs
+18351;"Comment dit-on ""j'ai deux stylos"" en anglais ?";I have two pens;I saw two cows;I have two cakes;I have two dogs
+18352;"Que veut dire ""I have two pens"" en français ?";j'ai deux stylos;j'ai deux crayons;j'ai vu deux cochons;j'ai deux bananes
+18353;"Comment dit-on ""j'ai deux chats"" en anglais ?";I have two cats;I have two pens;I saw two cows;I saw two ducks
+18354;"Que veut dire ""I have two cats"" en français ?";j'ai deux chats;j'ai vu deux cochons;j'ai deux gommes;j'ai vu deux vaches
+18355;"Comment dit-on ""j'ai deux chiens"" en anglais ?";I have two dogs;I have two pens;I saw two pigs;I have two apples
 18356;"Que veut dire ""I have two dogs"" en français ?";j'ai deux chiens;j'ai deux chats;j'ai deux lapins;j'ai deux crayons
-18357;"Comment dit-on ""je vois deux oiseaux"" en anglais ?";I see two birds;I see two frogs;I see two pigs;I have two eggs
-18358;"Que veut dire ""I see two birds"" en français ?";je vois deux oiseaux;je vois deux canards;j'ai deux stylos;j'ai deux livres
-18359;"Comment dit-on ""j'ai deux lapins"" en anglais ?";I have two rabbits;I see two birds;I have two rubbers;I have two pens
-18360;"Que veut dire ""I have two rabbits"" en français ?";j'ai deux lapins;je vois deux vaches;j'ai deux livres;j'ai deux gommes
-18361;"Comment dit-on ""je vois deux vaches"" en anglais ?";I see two cows;I have two rulers;I see two birds;I have two cakes
-18362;"Que veut dire ""I see two cows"" en français ?";je vois deux vaches;j'ai deux lapins;j'ai deux gâteaux;je vois deux cochons
-18363;"Comment dit-on ""je vois deux cochons"" en anglais ?";I see two pigs;I see two cows;I have two apples;I have two rubbers
-18364;"Que veut dire ""I see two pigs"" en français ?";je vois deux cochons;je vois deux grenouilles;je vois deux oiseaux;j'ai deux lapins
-18365;"Comment dit-on ""je vois deux canards"" en anglais ?";I see two ducks;I have two rabbits;I have two rulers;I have two dogs
-18366;"Que veut dire ""I see two ducks"" en français ?";je vois deux canards;j'ai deux crayons;j'ai deux livres;j'ai deux pommes
-18367;"Comment dit-on ""je vois deux grenouilles"" en anglais ?";I see two frogs;I have two pencils;I have two pens;I have two cats
-18368;"Que veut dire ""I see two frogs"" en français ?";je vois deux grenouilles;j'ai deux chiens;je vois deux vaches;j'ai deux bananes
-18369;"Comment dit-on ""j'ai trois pommes"" en anglais ?";I have three apples;I see three ducks;I have three eggs;I have three cats
-18370;"Que veut dire ""I have three apples"" en français ?";j'ai trois pommes;je vois trois canards;j'ai trois bananes;j'ai trois lapins
-18371;"Comment dit-on ""j'ai trois bananes"" en anglais ?";I have three bananas;I have three rubbers;I have three books;I see three pigs
+18357;"Comment dit-on ""j'ai vu deux oiseaux"" en anglais ?";I saw two birds;I saw two frogs;I saw two pigs;I have two eggs
+18358;"Que veut dire ""I saw two birds"" en français ?";j'ai vu deux oiseaux;j'ai vu deux canards;j'ai deux stylos;j'ai deux livres
+18359;"Comment dit-on ""j'ai deux lapins"" en anglais ?";I have two rabbits;I saw two birds;I have two rubbers;I have two pens
+18360;"Que veut dire ""I have two rabbits"" en français ?";j'ai deux lapins;j'ai vu deux vaches;j'ai deux livres;j'ai deux gommes
+18361;"Comment dit-on ""j'ai vu deux vaches"" en anglais ?";I saw two cows;I have two rulers;I saw two birds;I have two cakes
+18362;"Que veut dire ""I saw two cows"" en français ?";j'ai vu deux vaches;j'ai deux lapins;j'ai deux gâteaux;j'ai vu deux cochons
+18363;"Comment dit-on ""j'ai vu deux cochons"" en anglais ?";I saw two pigs;I saw two cows;I have two apples;I have two rubbers
+18364;"Que veut dire ""I saw two pigs"" en français ?";j'ai vu deux cochons;j'ai vu deux grenouilles;j'ai vu deux oiseaux;j'ai deux lapins
+18365;"Comment dit-on ""j'ai vu deux canards"" en anglais ?";I saw two ducks;I have two rabbits;I have two rulers;I have two dogs
+18366;"Que veut dire ""I saw two ducks"" en français ?";j'ai vu deux canards;j'ai deux crayons;j'ai deux livres;j'ai deux pommes
+18367;"Comment dit-on ""j'ai vu deux grenouilles"" en anglais ?";I saw two frogs;I have two pencils;I have two pens;I have two cats
+18368;"Que veut dire ""I saw two frogs"" en français ?";j'ai vu deux grenouilles;j'ai deux chiens;j'ai vu deux vaches;j'ai deux bananes
+18369;"Comment dit-on ""j'ai trois pommes"" en anglais ?";I have three apples;I saw three ducks;I have three eggs;I have three cats
+18370;"Que veut dire ""I have three apples"" en français ?";j'ai trois pommes;j'ai vu trois canards;j'ai trois bananes;j'ai trois lapins
+18371;"Comment dit-on ""j'ai trois bananes"" en anglais ?";I have three bananas;I have three rubbers;I have three books;I saw three pigs
 18372;"Que veut dire ""I have three bananas"" en français ?";j'ai trois bananes;j'ai trois gommes;j'ai trois oeufs;j'ai trois stylos
 18373;"Comment dit-on ""j'ai trois oeufs"" en anglais ?";I have three eggs;I have three cats;I have three rulers;I have three dogs
-18374;"Que veut dire ""I have three eggs"" en français ?";j'ai trois oeufs;je vois trois vaches;je vois trois oiseaux;j'ai trois bananes
-18375;"Comment dit-on ""j'ai trois gâteaux"" en anglais ?";I have three cakes;I see three birds;I see three pigs;I see three frogs
-18376;"Que veut dire ""I have three cakes"" en français ?";j'ai trois gâteaux;je vois trois vaches;j'ai trois règles;je vois trois oiseaux
-18377;"Comment dit-on ""j'ai trois crayons"" en anglais ?";I have three pencils;I see three frogs;I see three pigs;I have three cats
-18378;"Que veut dire ""I have three pencils"" en français ?";j'ai trois crayons;j'ai trois bananes;j'ai trois chiens;je vois trois grenouilles
-18379;"Comment dit-on ""j'ai trois gommes"" en anglais ?";I have three rubbers;I have three pens;I see three birds;I see three ducks
+18374;"Que veut dire ""I have three eggs"" en français ?";j'ai trois oeufs;j'ai vu trois vaches;j'ai vu trois oiseaux;j'ai trois bananes
+18375;"Comment dit-on ""j'ai trois gâteaux"" en anglais ?";I have three cakes;I saw three birds;I saw three pigs;I saw three frogs
+18376;"Que veut dire ""I have three cakes"" en français ?";j'ai trois gâteaux;j'ai vu trois vaches;j'ai trois règles;j'ai vu trois oiseaux
+18377;"Comment dit-on ""j'ai trois crayons"" en anglais ?";I have three pencils;I saw three frogs;I saw three pigs;I have three cats
+18378;"Que veut dire ""I have three pencils"" en français ?";j'ai trois crayons;j'ai trois bananes;j'ai trois chiens;j'ai vu trois grenouilles
+18379;"Comment dit-on ""j'ai trois gommes"" en anglais ?";I have three rubbers;I have three pens;I saw three birds;I saw three ducks
 18380;"Que veut dire ""I have three rubbers"" en français ?";j'ai trois gommes;j'ai trois chiens;j'ai trois gâteaux;j'ai trois lapins
 18381;"Comment dit-on ""j'ai trois règles"" en anglais ?";I have three rulers;I have three eggs;I have three books;I have three bananas
 18382;"Que veut dire ""I have three rulers"" en français ?";j'ai trois règles;j'ai trois gâteaux;j'ai trois stylos;j'ai trois oeufs
-18383;"Comment dit-on ""j'ai trois livres"" en anglais ?";I have three books;I have three dogs;I see three ducks;I have three apples
-18384;"Que veut dire ""I have three books"" en français ?";j'ai trois livres;j'ai trois bananes;j'ai trois gommes;je vois trois vaches
+18383;"Comment dit-on ""j'ai trois livres"" en anglais ?";I have three books;I have three dogs;I saw three ducks;I have three apples
+18384;"Que veut dire ""I have three books"" en français ?";j'ai trois livres;j'ai trois bananes;j'ai trois gommes;j'ai vu trois vaches
 18385;"Comment dit-on ""j'ai trois stylos"" en anglais ?";I have three pens;I have three bananas;I have three pencils;I have three rubbers
 18386;"Que veut dire ""I have three pens"" en français ?";j'ai trois stylos;j'ai trois lapins;j'ai trois règles;j'ai trois oeufs
 18387;"Comment dit-on ""j'ai trois chats"" en anglais ?";I have three cats;I have three books;I have three pens;I have three rulers
-18388;"Que veut dire ""I have three cats"" en français ?";j'ai trois chats;j'ai trois gommes;j'ai trois oeufs;je vois trois canards
-18389;"Comment dit-on ""j'ai trois chiens"" en anglais ?";I have three dogs;I have three eggs;I have three cats;I see three pigs
-18390;"Que veut dire ""I have three dogs"" en français ?";j'ai trois chiens;je vois trois vaches;j'ai trois chats;je vois trois oiseaux
-18391;"Comment dit-on ""je vois trois oiseaux"" en anglais ?";I see three birds;I have three books;I see three frogs;I have three cats
-18392;"Que veut dire ""I see three birds"" en français ?";je vois trois oiseaux;j'ai trois crayons;j'ai trois gâteaux;j'ai trois livres
+18388;"Que veut dire ""I have three cats"" en français ?";j'ai trois chats;j'ai trois gommes;j'ai trois oeufs;j'ai vu trois canards
+18389;"Comment dit-on ""j'ai trois chiens"" en anglais ?";I have three dogs;I have three eggs;I have three cats;I saw three pigs
+18390;"Que veut dire ""I have three dogs"" en français ?";j'ai trois chiens;j'ai vu trois vaches;j'ai trois chats;j'ai vu trois oiseaux
+18391;"Comment dit-on ""j'ai vu trois oiseaux"" en anglais ?";I saw three birds;I have three books;I saw three frogs;I have three cats
+18392;"Que veut dire ""I saw three birds"" en français ?";j'ai vu trois oiseaux;j'ai trois crayons;j'ai trois gâteaux;j'ai trois livres
 18393;"Comment dit-on ""j'ai trois lapins"" en anglais ?";I have three rabbits;I have three pens;I have three books;I have three pencils
-18394;"Que veut dire ""I have three rabbits"" en français ?";j'ai trois lapins;j'ai trois pommes;je vois trois canards;je vois trois vaches
-18395;"Comment dit-on ""je vois trois vaches"" en anglais ?";I see three cows;I see three ducks;I see three frogs;I have three pencils
-18396;"Que veut dire ""I see three cows"" en français ?";je vois trois vaches;j'ai trois gommes;j'ai trois bananes;j'ai trois livres
-18397;"Comment dit-on ""je vois trois cochons"" en anglais ?";I see three pigs;I see three birds;I have three cats;I have three pencils
-18398;"Que veut dire ""I see three pigs"" en français ?";je vois trois cochons;je vois trois vaches;je vois trois oiseaux;j'ai trois crayons
-18399;"Comment dit-on ""je vois trois canards"" en anglais ?";I see three ducks;I see three pigs;I see three cows;I have three pencils
-18400;"Que veut dire ""I see three ducks"" en français ?";je vois trois canards;j'ai trois règles;je vois trois grenouilles;je vois trois vaches
-18401;"Comment dit-on ""je vois trois grenouilles"" en anglais ?";I see three frogs;I see three ducks;I have three bananas;I have three cakes
-18402;"Que veut dire ""I see three frogs"" en français ?";je vois trois grenouilles;j'ai trois lapins;j'ai trois chats;j'ai trois gommes
+18394;"Que veut dire ""I have three rabbits"" en français ?";j'ai trois lapins;j'ai trois pommes;j'ai vu trois canards;j'ai vu trois vaches
+18395;"Comment dit-on ""j'ai vu trois vaches"" en anglais ?";I saw three cows;I saw three ducks;I saw three frogs;I have three pencils
+18396;"Que veut dire ""I saw three cows"" en français ?";j'ai vu trois vaches;j'ai trois gommes;j'ai trois bananes;j'ai trois livres
+18397;"Comment dit-on ""j'ai vu trois cochons"" en anglais ?";I saw three pigs;I saw three birds;I have three cats;I have three pencils
+18398;"Que veut dire ""I saw three pigs"" en français ?";j'ai vu trois cochons;j'ai vu trois vaches;j'ai vu trois oiseaux;j'ai trois crayons
+18399;"Comment dit-on ""j'ai vu trois canards"" en anglais ?";I saw three ducks;I saw three pigs;I saw three cows;I have three pencils
+18400;"Que veut dire ""I saw three ducks"" en français ?";j'ai vu trois canards;j'ai trois règles;j'ai vu trois grenouilles;j'ai vu trois vaches
+18401;"Comment dit-on ""j'ai vu trois grenouilles"" en anglais ?";I saw three frogs;I saw three ducks;I have three bananas;I have three cakes
+18402;"Que veut dire ""I saw three frogs"" en français ?";j'ai vu trois grenouilles;j'ai trois lapins;j'ai trois chats;j'ai trois gommes
 18403;"Comment dit-on ""j'ai quatre pommes"" en anglais ?";I have four apples;I have four dogs;I have four rabbits;I have four rubbers
-18404;"Que veut dire ""I have four apples"" en français ?";j'ai quatre pommes;j'ai quatre bananes;je vois quatre cochons;je vois quatre oiseaux
-18405;"Comment dit-on ""j'ai quatre bananes"" en anglais ?";I have four bananas;I see four cows;I have four rubbers;I have four apples
-18406;"Que veut dire ""I have four bananas"" en français ?";j'ai quatre bananes;j'ai quatre oeufs;je vois quatre canards;j'ai quatre chiens
-18407;"Comment dit-on ""j'ai quatre oeufs"" en anglais ?";I have four eggs;I see four frogs;I see four pigs;I have four rubbers
-18408;"Que veut dire ""I have four eggs"" en français ?";j'ai quatre oeufs;j'ai quatre stylos;j'ai quatre chiens;je vois quatre vaches
-18409;"Comment dit-on ""j'ai quatre gâteaux"" en anglais ?";I have four cakes;I have four rabbits;I have four pencils;I see four birds
+18404;"Que veut dire ""I have four apples"" en français ?";j'ai quatre pommes;j'ai quatre bananes;j'ai vu quatre cochons;j'ai vu quatre oiseaux
+18405;"Comment dit-on ""j'ai quatre bananes"" en anglais ?";I have four bananas;I saw four cows;I have four rubbers;I have four apples
+18406;"Que veut dire ""I have four bananas"" en français ?";j'ai quatre bananes;j'ai quatre oeufs;j'ai vu quatre canards;j'ai quatre chiens
+18407;"Comment dit-on ""j'ai quatre oeufs"" en anglais ?";I have four eggs;I saw four frogs;I saw four pigs;I have four rubbers
+18408;"Que veut dire ""I have four eggs"" en français ?";j'ai quatre oeufs;j'ai quatre stylos;j'ai quatre chiens;j'ai vu quatre vaches
+18409;"Comment dit-on ""j'ai quatre gâteaux"" en anglais ?";I have four cakes;I have four rabbits;I have four pencils;I saw four birds
 18410;"Que veut dire ""I have four cakes"" en français ?";j'ai quatre gâteaux;j'ai quatre livres;j'ai quatre chiens;j'ai quatre gommes
-18411;"Comment dit-on ""j'ai quatre crayons"" en anglais ?";I have four pencils;I have four rubbers;I see four birds;I have four bananas
-18412;"Que veut dire ""I have four pencils"" en français ?";j'ai quatre crayons;j'ai quatre bananes;j'ai quatre gommes;je vois quatre vaches
-18413;"Comment dit-on ""j'ai quatre gommes"" en anglais ?";I have four rubbers;I see four ducks;I have four apples;I have four dogs
-18414;"Que veut dire ""I have four rubbers"" en français ?";j'ai quatre gommes;j'ai quatre lapins;je vois quatre grenouilles;j'ai quatre oeufs
-18415;"Comment dit-on ""j'ai quatre règles"" en anglais ?";I have four rulers;I have four eggs;I see four ducks;I have four pencils
-18416;"Que veut dire ""I have four rulers"" en français ?";j'ai quatre règles;je vois quatre oiseaux;j'ai quatre lapins;j'ai quatre livres
+18411;"Comment dit-on ""j'ai quatre crayons"" en anglais ?";I have four pencils;I have four rubbers;I saw four birds;I have four bananas
+18412;"Que veut dire ""I have four pencils"" en français ?";j'ai quatre crayons;j'ai quatre bananes;j'ai quatre gommes;j'ai vu quatre vaches
+18413;"Comment dit-on ""j'ai quatre gommes"" en anglais ?";I have four rubbers;I saw four ducks;I have four apples;I have four dogs
+18414;"Que veut dire ""I have four rubbers"" en français ?";j'ai quatre gommes;j'ai quatre lapins;j'ai vu quatre grenouilles;j'ai quatre oeufs
+18415;"Comment dit-on ""j'ai quatre règles"" en anglais ?";I have four rulers;I have four eggs;I saw four ducks;I have four pencils
+18416;"Que veut dire ""I have four rulers"" en français ?";j'ai quatre règles;j'ai vu quatre oiseaux;j'ai quatre lapins;j'ai quatre livres
 18417;"Comment dit-on ""j'ai quatre livres"" en anglais ?";I have four books;I have four rubbers;I have four cakes;I have four eggs
-18418;"Que veut dire ""I have four books"" en français ?";j'ai quatre livres;j'ai quatre lapins;j'ai quatre chats;je vois quatre canards
-18419;"Comment dit-on ""j'ai quatre stylos"" en anglais ?";I have four pens;I have four cats;I see four pigs;I have four eggs
-18420;"Que veut dire ""I have four pens"" en français ?";j'ai quatre stylos;j'ai quatre chats;je vois quatre canards;je vois quatre cochons
-18421;"Comment dit-on ""j'ai quatre chats"" en anglais ?";I have four cats;I see four frogs;I see four cows;I have four pencils
-18422;"Que veut dire ""I have four cats"" en français ?";j'ai quatre chats;je vois quatre oiseaux;je vois quatre vaches;j'ai quatre bananes
-18423;"Comment dit-on ""j'ai quatre chiens"" en anglais ?";I have four dogs;I see four ducks;I have four bananas;I have four eggs
-18424;"Que veut dire ""I have four dogs"" en français ?";j'ai quatre chiens;j'ai quatre livres;je vois quatre cochons;je vois quatre oiseaux
-18425;"Comment dit-on ""je vois quatre oiseaux"" en anglais ?";I see four birds;I see four cows;I see four pigs;I see four frogs
-18426;"Que veut dire ""I see four birds"" en français ?";je vois quatre oiseaux;j'ai quatre lapins;j'ai quatre bananes;je vois quatre vaches
-18427;"Comment dit-on ""j'ai quatre lapins"" en anglais ?";I have four rabbits;I see four cows;I have four apples;I have four pencils
+18418;"Que veut dire ""I have four books"" en français ?";j'ai quatre livres;j'ai quatre lapins;j'ai quatre chats;j'ai vu quatre canards
+18419;"Comment dit-on ""j'ai quatre stylos"" en anglais ?";I have four pens;I have four cats;I saw four pigs;I have four eggs
+18420;"Que veut dire ""I have four pens"" en français ?";j'ai quatre stylos;j'ai quatre chats;j'ai vu quatre canards;j'ai vu quatre cochons
+18421;"Comment dit-on ""j'ai quatre chats"" en anglais ?";I have four cats;I saw four frogs;I saw four cows;I have four pencils
+18422;"Que veut dire ""I have four cats"" en français ?";j'ai quatre chats;j'ai vu quatre oiseaux;j'ai vu quatre vaches;j'ai quatre bananes
+18423;"Comment dit-on ""j'ai quatre chiens"" en anglais ?";I have four dogs;I saw four ducks;I have four bananas;I have four eggs
+18424;"Que veut dire ""I have four dogs"" en français ?";j'ai quatre chiens;j'ai quatre livres;j'ai vu quatre cochons;j'ai vu quatre oiseaux
+18425;"Comment dit-on ""j'ai vu quatre oiseaux"" en anglais ?";I saw four birds;I saw four cows;I saw four pigs;I saw four frogs
+18426;"Que veut dire ""I saw four birds"" en français ?";j'ai vu quatre oiseaux;j'ai quatre lapins;j'ai quatre bananes;j'ai vu quatre vaches
+18427;"Comment dit-on ""j'ai quatre lapins"" en anglais ?";I have four rabbits;I saw four cows;I have four apples;I have four pencils
 18428;"Que veut dire ""I have four rabbits"" en français ?";j'ai quatre lapins;j'ai quatre gâteaux;j'ai quatre livres;j'ai quatre gommes
-18429;"Comment dit-on ""je vois quatre vaches"" en anglais ?";I see four cows;I have four pens;I have four cats;I have four rulers
-18430;"Que veut dire ""I see four cows"" en français ?";je vois quatre vaches;je vois quatre oiseaux;j'ai quatre bananes;j'ai quatre chiens
-18431;"Comment dit-on ""je vois quatre cochons"" en anglais ?";I see four pigs;I have four books;I see four frogs;I have four apples
-18432;"Que veut dire ""I see four pigs"" en français ?";je vois quatre cochons;j'ai quatre chiens;je vois quatre canards;j'ai quatre chats
-18433;"Comment dit-on ""je vois quatre canards"" en anglais ?";I see four ducks;I have four books;I have four dogs;I have four bananas
-18434;"Que veut dire ""I see four ducks"" en français ?";je vois quatre canards;je vois quatre cochons;je vois quatre grenouilles;je vois quatre oiseaux
-18435;"Comment dit-on ""je vois quatre grenouilles"" en anglais ?";I see four frogs;I have four cats;I have four dogs;I have four rulers
-18436;"Que veut dire ""I see four frogs"" en français ?";je vois quatre grenouilles;j'ai quatre gâteaux;j'ai quatre oeufs;j'ai quatre pommes
+18429;"Comment dit-on ""j'ai vu quatre vaches"" en anglais ?";I saw four cows;I have four pens;I have four cats;I have four rulers
+18430;"Que veut dire ""I saw four cows"" en français ?";j'ai vu quatre vaches;j'ai vu quatre oiseaux;j'ai quatre bananes;j'ai quatre chiens
+18431;"Comment dit-on ""j'ai vu quatre cochons"" en anglais ?";I saw four pigs;I have four books;I saw four frogs;I have four apples
+18432;"Que veut dire ""I saw four pigs"" en français ?";j'ai vu quatre cochons;j'ai quatre chiens;j'ai vu quatre canards;j'ai quatre chats
+18433;"Comment dit-on ""j'ai vu quatre canards"" en anglais ?";I saw four ducks;I have four books;I have four dogs;I have four bananas
+18434;"Que veut dire ""I saw four ducks"" en français ?";j'ai vu quatre canards;j'ai vu quatre cochons;j'ai vu quatre grenouilles;j'ai vu quatre oiseaux
+18435;"Comment dit-on ""j'ai vu quatre grenouilles"" en anglais ?";I saw four frogs;I have four cats;I have four dogs;I have four rulers
+18436;"Que veut dire ""I saw four frogs"" en français ?";j'ai vu quatre grenouilles;j'ai quatre gâteaux;j'ai quatre oeufs;j'ai quatre pommes
 18437;"Comment dit-on ""j'ai cinq pommes"" en anglais ?";I have five apples;I have five eggs;I have five rubbers;I have five pens
-18438;"Que veut dire ""I have five apples"" en français ?";j'ai cinq pommes;j'ai cinq crayons;j'ai cinq oeufs;je vois cinq grenouilles
+18438;"Que veut dire ""I have five apples"" en français ?";j'ai cinq pommes;j'ai cinq crayons;j'ai cinq oeufs;j'ai vu cinq grenouilles
 18439;"Comment dit-on ""j'ai cinq bananes"" en anglais ?";I have five bananas;I have five rubbers;I have five books;I have five pens
-18440;"Que veut dire ""I have five bananas"" en français ?";j'ai cinq bananes;j'ai cinq lapins;je vois cinq oiseaux;je vois cinq grenouilles
-18441;"Comment dit-on ""j'ai cinq oeufs"" en anglais ?";I have five eggs;I see five pigs;I have five dogs;I have five rabbits
-18442;"Que veut dire ""I have five eggs"" en français ?";j'ai cinq oeufs;j'ai cinq gommes;je vois cinq canards;j'ai cinq livres
-18443;"Comment dit-on ""j'ai cinq gâteaux"" en anglais ?";I have five cakes;I have five pencils;I see five pigs;I have five pens
-18444;"Que veut dire ""I have five cakes"" en français ?";j'ai cinq gâteaux;je vois cinq cochons;j'ai cinq gommes;j'ai cinq pommes
+18440;"Que veut dire ""I have five bananas"" en français ?";j'ai cinq bananes;j'ai cinq lapins;j'ai vu cinq oiseaux;j'ai vu cinq grenouilles
+18441;"Comment dit-on ""j'ai cinq oeufs"" en anglais ?";I have five eggs;I saw five pigs;I have five dogs;I have five rabbits
+18442;"Que veut dire ""I have five eggs"" en français ?";j'ai cinq oeufs;j'ai cinq gommes;j'ai vu cinq canards;j'ai cinq livres
+18443;"Comment dit-on ""j'ai cinq gâteaux"" en anglais ?";I have five cakes;I have five pencils;I saw five pigs;I have five pens
+18444;"Que veut dire ""I have five cakes"" en français ?";j'ai cinq gâteaux;j'ai vu cinq cochons;j'ai cinq gommes;j'ai cinq pommes
 18445;"Comment dit-on ""j'ai cinq crayons"" en anglais ?";I have five pencils;I have five rabbits;I have five cakes;I have five pens
-18446;"Que veut dire ""I have five pencils"" en français ?";j'ai cinq crayons;je vois cinq canards;j'ai cinq gâteaux;je vois cinq cochons
-18447;"Comment dit-on ""j'ai cinq gommes"" en anglais ?";I have five rubbers;I have five rabbits;I have five bananas;I see five birds
-18448;"Que veut dire ""I have five rubbers"" en français ?";j'ai cinq gommes;j'ai cinq lapins;j'ai cinq chats;je vois cinq oiseaux
+18446;"Que veut dire ""I have five pencils"" en français ?";j'ai cinq crayons;j'ai vu cinq canards;j'ai cinq gâteaux;j'ai vu cinq cochons
+18447;"Comment dit-on ""j'ai cinq gommes"" en anglais ?";I have five rubbers;I have five rabbits;I have five bananas;I saw five birds
+18448;"Que veut dire ""I have five rubbers"" en français ?";j'ai cinq gommes;j'ai cinq lapins;j'ai cinq chats;j'ai vu cinq oiseaux
 18449;"Comment dit-on ""j'ai cinq règles"" en anglais ?";I have five rulers;I have five rabbits;I have five apples;I have five books
 18450;"Que veut dire ""I have five rulers"" en français ?";j'ai cinq règles;j'ai cinq chats;j'ai cinq gâteaux;j'ai cinq bananes
-18451;"Comment dit-on ""j'ai cinq livres"" en anglais ?";I have five books;I see five ducks;I have five bananas;I see five birds
-18452;"Que veut dire ""I have five books"" en français ?";j'ai cinq livres;j'ai cinq règles;je vois cinq oiseaux;je vois cinq canards
-18453;"Comment dit-on ""j'ai cinq stylos"" en anglais ?";I have five pens;I have five apples;I see five frogs;I see five cows
-18454;"Que veut dire ""I have five pens"" en français ?";j'ai cinq stylos;je vois cinq oiseaux;j'ai cinq gâteaux;j'ai cinq oeufs
-18455;"Comment dit-on ""j'ai cinq chats"" en anglais ?";I have five cats;I have five rulers;I have five bananas;I see five pigs
+18451;"Comment dit-on ""j'ai cinq livres"" en anglais ?";I have five books;I saw five ducks;I have five bananas;I saw five birds
+18452;"Que veut dire ""I have five books"" en français ?";j'ai cinq livres;j'ai cinq règles;j'ai vu cinq oiseaux;j'ai vu cinq canards
+18453;"Comment dit-on ""j'ai cinq stylos"" en anglais ?";I have five pens;I have five apples;I saw five frogs;I saw five cows
+18454;"Que veut dire ""I have five pens"" en français ?";j'ai cinq stylos;j'ai vu cinq oiseaux;j'ai cinq gâteaux;j'ai cinq oeufs
+18455;"Comment dit-on ""j'ai cinq chats"" en anglais ?";I have five cats;I have five rulers;I have five bananas;I saw five pigs
 18456;"Que veut dire ""I have five cats"" en français ?";j'ai cinq chats;j'ai cinq règles;j'ai cinq chiens;j'ai cinq gâteaux
-18457;"Comment dit-on ""j'ai cinq chiens"" en anglais ?";I have five dogs;I have five books;I have five rubbers;I see five cows
-18458;"Que veut dire ""I have five dogs"" en français ?";j'ai cinq chiens;j'ai cinq crayons;je vois cinq vaches;j'ai cinq chats
-18459;"Comment dit-on ""je vois cinq oiseaux"" en anglais ?";I see five birds;I have five apples;I have five pencils;I see five pigs
-18460;"Que veut dire ""I see five birds"" en français ?";je vois cinq oiseaux;j'ai cinq crayons;j'ai cinq oeufs;j'ai cinq stylos
-18461;"Comment dit-on ""j'ai cinq lapins"" en anglais ?";I have five rabbits;I have five pens;I see five cows;I have five eggs
-18462;"Que veut dire ""I have five rabbits"" en français ?";j'ai cinq lapins;j'ai cinq gâteaux;j'ai cinq chiens;je vois cinq cochons
-18463;"Comment dit-on ""je vois cinq vaches"" en anglais ?";I see five cows;I have five apples;I have five eggs;I see five frogs
-18464;"Que veut dire ""I see five cows"" en français ?";je vois cinq vaches;je vois cinq oiseaux;j'ai cinq lapins;je vois cinq canards
-18465;"Comment dit-on ""je vois cinq cochons"" en anglais ?";I see five pigs;I have five books;I have five cats;I have five rubbers
-18466;"Que veut dire ""I see five pigs"" en français ?";je vois cinq cochons;j'ai cinq pommes;j'ai cinq oeufs;j'ai cinq crayons
-18467;"Comment dit-on ""je vois cinq canards"" en anglais ?";I see five ducks;I have five bananas;I have five eggs;I see five birds
-18468;"Que veut dire ""I see five ducks"" en français ?";je vois cinq canards;je vois cinq vaches;j'ai cinq stylos;j'ai cinq bananes
-18469;"Comment dit-on ""je vois cinq grenouilles"" en anglais ?";I see five frogs;I have five eggs;I have five books;I see five pigs
-18470;"Que veut dire ""I see five frogs"" en français ?";je vois cinq grenouilles;je vois cinq oiseaux;j'ai cinq stylos;j'ai cinq chats
+18457;"Comment dit-on ""j'ai cinq chiens"" en anglais ?";I have five dogs;I have five books;I have five rubbers;I saw five cows
+18458;"Que veut dire ""I have five dogs"" en français ?";j'ai cinq chiens;j'ai cinq crayons;j'ai vu cinq vaches;j'ai cinq chats
+18459;"Comment dit-on ""j'ai vu cinq oiseaux"" en anglais ?";I saw five birds;I have five apples;I have five pencils;I saw five pigs
+18460;"Que veut dire ""I saw five birds"" en français ?";j'ai vu cinq oiseaux;j'ai cinq crayons;j'ai cinq oeufs;j'ai cinq stylos
+18461;"Comment dit-on ""j'ai cinq lapins"" en anglais ?";I have five rabbits;I have five pens;I saw five cows;I have five eggs
+18462;"Que veut dire ""I have five rabbits"" en français ?";j'ai cinq lapins;j'ai cinq gâteaux;j'ai cinq chiens;j'ai vu cinq cochons
+18463;"Comment dit-on ""j'ai vu cinq vaches"" en anglais ?";I saw five cows;I have five apples;I have five eggs;I saw five frogs
+18464;"Que veut dire ""I saw five cows"" en français ?";j'ai vu cinq vaches;j'ai vu cinq oiseaux;j'ai cinq lapins;j'ai vu cinq canards
+18465;"Comment dit-on ""j'ai vu cinq cochons"" en anglais ?";I saw five pigs;I have five books;I have five cats;I have five rubbers
+18466;"Que veut dire ""I saw five pigs"" en français ?";j'ai vu cinq cochons;j'ai cinq pommes;j'ai cinq oeufs;j'ai cinq crayons
+18467;"Comment dit-on ""j'ai vu cinq canards"" en anglais ?";I saw five ducks;I have five bananas;I have five eggs;I saw five birds
+18468;"Que veut dire ""I saw five ducks"" en français ?";j'ai vu cinq canards;j'ai vu cinq vaches;j'ai cinq stylos;j'ai cinq bananes
+18469;"Comment dit-on ""j'ai vu cinq grenouilles"" en anglais ?";I saw five frogs;I have five eggs;I have five books;I saw five pigs
+18470;"Que veut dire ""I saw five frogs"" en français ?";j'ai vu cinq grenouilles;j'ai vu cinq oiseaux;j'ai cinq stylos;j'ai cinq chats
 18471;"Comment dit-on ""j'ai six pommes"" en anglais ?";I have six apples;I have six pencils;I have six pens;I have six cats
 18472;"Que veut dire ""I have six apples"" en français ?";j'ai six pommes;j'ai six stylos;j'ai six chiens;j'ai six bananes
-18473;"Comment dit-on ""j'ai six bananes"" en anglais ?";I have six bananas;I have six dogs;I have six pens;I see six birds
-18474;"Que veut dire ""I have six bananas"" en français ?";j'ai six bananes;j'ai six pommes;je vois six grenouilles;j'ai six stylos
-18475;"Comment dit-on ""j'ai six oeufs"" en anglais ?";I have six eggs;I see six cows;I have six books;I see six birds
+18473;"Comment dit-on ""j'ai six bananes"" en anglais ?";I have six bananas;I have six dogs;I have six pens;I saw six birds
+18474;"Que veut dire ""I have six bananas"" en français ?";j'ai six bananes;j'ai six pommes;j'ai vu six grenouilles;j'ai six stylos
+18475;"Comment dit-on ""j'ai six oeufs"" en anglais ?";I have six eggs;I saw six cows;I have six books;I saw six birds
 18476;"Que veut dire ""I have six eggs"" en français ?";j'ai six oeufs;j'ai six crayons;j'ai six stylos;j'ai six lapins
-18477;"Comment dit-on ""j'ai six gâteaux"" en anglais ?";I have six cakes;I see six ducks;I have six bananas;I see six frogs
-18478;"Que veut dire ""I have six cakes"" en français ?";j'ai six gâteaux;je vois six oiseaux;j'ai six chiens;j'ai six oeufs
-18479;"Comment dit-on ""j'ai six crayons"" en anglais ?";I have six pencils;I have six eggs;I see six frogs;I have six rubbers
-18480;"Que veut dire ""I have six pencils"" en français ?";j'ai six crayons;je vois six oiseaux;j'ai six livres;j'ai six chiens
+18477;"Comment dit-on ""j'ai six gâteaux"" en anglais ?";I have six cakes;I saw six ducks;I have six bananas;I saw six frogs
+18478;"Que veut dire ""I have six cakes"" en français ?";j'ai six gâteaux;j'ai vu six oiseaux;j'ai six chiens;j'ai six oeufs
+18479;"Comment dit-on ""j'ai six crayons"" en anglais ?";I have six pencils;I have six eggs;I saw six frogs;I have six rubbers
+18480;"Que veut dire ""I have six pencils"" en français ?";j'ai six crayons;j'ai vu six oiseaux;j'ai six livres;j'ai six chiens
 18481;"Comment dit-on ""j'ai six gommes"" en anglais ?";I have six rubbers;I have six dogs;I have six pens;I have six cats
-18482;"Que veut dire ""I have six rubbers"" en français ?";j'ai six gommes;je vois six cochons;j'ai six bananes;je vois six vaches
-18483;"Comment dit-on ""j'ai six règles"" en anglais ?";I have six rulers;I have six cakes;I see six pigs;I see six birds
-18484;"Que veut dire ""I have six rulers"" en français ?";j'ai six règles;j'ai six livres;je vois six grenouilles;j'ai six stylos
+18482;"Que veut dire ""I have six rubbers"" en français ?";j'ai six gommes;j'ai vu six cochons;j'ai six bananes;j'ai vu six vaches
+18483;"Comment dit-on ""j'ai six règles"" en anglais ?";I have six rulers;I have six cakes;I saw six pigs;I saw six birds
+18484;"Que veut dire ""I have six rulers"" en français ?";j'ai six règles;j'ai six livres;j'ai vu six grenouilles;j'ai six stylos
 18485;"Comment dit-on ""j'ai six livres"" en anglais ?";I have six books;I have six pens;I have six rulers;I have six rubbers
-18486;"Que veut dire ""I have six books"" en français ?";j'ai six livres;je vois six canards;j'ai six règles;je vois six grenouilles
+18486;"Que veut dire ""I have six books"" en français ?";j'ai six livres;j'ai vu six canards;j'ai six règles;j'ai vu six grenouilles
 18487;"Comment dit-on ""j'ai six stylos"" en anglais ?";I have six pens;I have six cakes;I have six rubbers;I have six rulers
-18488;"Que veut dire ""I have six pens"" en français ?";j'ai six stylos;je vois six oiseaux;je vois six grenouilles;j'ai six crayons
-18489;"Comment dit-on ""j'ai six chats"" en anglais ?";I have six cats;I have six rabbits;I have six eggs;I see six birds
-18490;"Que veut dire ""I have six cats"" en français ?";j'ai six chats;je vois six grenouilles;j'ai six bananes;je vois six canards
+18488;"Que veut dire ""I have six pens"" en français ?";j'ai six stylos;j'ai vu six oiseaux;j'ai vu six grenouilles;j'ai six crayons
+18489;"Comment dit-on ""j'ai six chats"" en anglais ?";I have six cats;I have six rabbits;I have six eggs;I saw six birds
+18490;"Que veut dire ""I have six cats"" en français ?";j'ai six chats;j'ai vu six grenouilles;j'ai six bananes;j'ai vu six canards
 18491;"Comment dit-on ""j'ai six chiens"" en anglais ?";I have six dogs;I have six eggs;I have six bananas;I have six rulers
-18492;"Que veut dire ""I have six dogs"" en français ?";j'ai six chiens;j'ai six gâteaux;j'ai six lapins;je vois six canards
-18493;"Comment dit-on ""je vois six oiseaux"" en anglais ?";I see six birds;I have six rabbits;I see six cows;I have six eggs
-18494;"Que veut dire ""I see six birds"" en français ?";je vois six oiseaux;j'ai six bananes;j'ai six chats;j'ai six stylos
-18495;"Comment dit-on ""j'ai six lapins"" en anglais ?";I have six rabbits;I have six dogs;I see six frogs;I have six bananas
-18496;"Que veut dire ""I have six rabbits"" en français ?";j'ai six lapins;je vois six cochons;j'ai six gommes;je vois six grenouilles
-18497;"Comment dit-on ""je vois six vaches"" en anglais ?";I see six cows;I see six pigs;I see six frogs;I see six birds
-18498;"Que veut dire ""I see six cows"" en français ?";je vois six vaches;j'ai six bananes;j'ai six crayons;j'ai six chats
-18499;"Comment dit-on ""je vois six cochons"" en anglais ?";I see six pigs;I have six cats;I have six rubbers;I have six bananas
-18500;"Que veut dire ""I see six pigs"" en français ?";je vois six cochons;j'ai six règles;j'ai six oeufs;j'ai six chiens
-18501;"Comment dit-on ""je vois six canards"" en anglais ?";I see six ducks;I see six frogs;I have six cakes;I see six cows
-18502;"Que veut dire ""I see six ducks"" en français ?";je vois six canards;j'ai six gâteaux;j'ai six gommes;je vois six vaches
-18503;"Comment dit-on ""je vois six grenouilles"" en anglais ?";I see six frogs;I see six birds;I have six bananas;I have six rabbits
-18504;"Que veut dire ""I see six frogs"" en français ?";je vois six grenouilles;j'ai six stylos;j'ai six chats;j'ai six gâteaux
+18492;"Que veut dire ""I have six dogs"" en français ?";j'ai six chiens;j'ai six gâteaux;j'ai six lapins;j'ai vu six canards
+18493;"Comment dit-on ""j'ai vu six oiseaux"" en anglais ?";I saw six birds;I have six rabbits;I saw six cows;I have six eggs
+18494;"Que veut dire ""I saw six birds"" en français ?";j'ai vu six oiseaux;j'ai six bananes;j'ai six chats;j'ai six stylos
+18495;"Comment dit-on ""j'ai six lapins"" en anglais ?";I have six rabbits;I have six dogs;I saw six frogs;I have six bananas
+18496;"Que veut dire ""I have six rabbits"" en français ?";j'ai six lapins;j'ai vu six cochons;j'ai six gommes;j'ai vu six grenouilles
+18497;"Comment dit-on ""j'ai vu six vaches"" en anglais ?";I saw six cows;I saw six pigs;I saw six frogs;I saw six birds
+18498;"Que veut dire ""I saw six cows"" en français ?";j'ai vu six vaches;j'ai six bananes;j'ai six crayons;j'ai six chats
+18499;"Comment dit-on ""j'ai vu six cochons"" en anglais ?";I saw six pigs;I have six cats;I have six rubbers;I have six bananas
+18500;"Que veut dire ""I saw six pigs"" en français ?";j'ai vu six cochons;j'ai six règles;j'ai six oeufs;j'ai six chiens
+18501;"Comment dit-on ""j'ai vu six canards"" en anglais ?";I saw six ducks;I saw six frogs;I have six cakes;I saw six cows
+18502;"Que veut dire ""I saw six ducks"" en français ?";j'ai vu six canards;j'ai six gâteaux;j'ai six gommes;j'ai vu six vaches
+18503;"Comment dit-on ""j'ai vu six grenouilles"" en anglais ?";I saw six frogs;I saw six birds;I have six bananas;I have six rabbits
+18504;"Que veut dire ""I saw six frogs"" en français ?";j'ai vu six grenouilles;j'ai six stylos;j'ai six chats;j'ai six gâteaux
 18505;"Comment dit-on ""aujourd'hui, nous sommes lundi"" en anglais ?";Today is monday;Today is friday;Today is saturday;Today is tuesday
 18506;"Que veut dire ""Today is monday"" en français ?";aujourd'hui, nous sommes lundi;aujourd'hui, nous sommes samedi;aujourd'hui, nous sommes jeudi;aujourd'hui, nous sommes mardi
 18507;"Comment dit-on ""aujourd'hui, nous sommes mardi"" en anglais ?";Today is tuesday;Today is wednesday;Today is thursday;Today is saturday

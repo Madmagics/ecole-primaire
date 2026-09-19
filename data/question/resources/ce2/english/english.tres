@@ -143,7 +143,7 @@ choices = Array[String](["honey", "sugar", "pepper"])
 script = ExtResource("1_v1o58")
 subject = 5
 grade = 2
-text = "Comment dit-on \"à gauche, il y a sept oiseaus\" en anglais ?"
+text = "Comment dit-on \"à gauche, il y a sept oiseaux\" en anglais ?"
 correct_answer = "On the left, there are 7 birds"
 choices = Array[String](["On the left, there are 7 monkeys", "On the left, there are 7 fish", "On the left, there are 7 sheep"])
 
@@ -439,7 +439,7 @@ choices = Array[String](["There are 7 ducks", "There are 7 horses", "There are 7
 script = ExtResource("1_v1o58")
 subject = 5
 grade = 2
-text = "Comment dit-on \"en bas, il y a six oiseaus\" en anglais ?"
+text = "Comment dit-on \"en bas, il y a six oiseaux\" en anglais ?"
 correct_answer = "At the bottom, there are 6 birds"
 choices = Array[String](["At the bottom, there are 6 elephants", "At the bottom, there are 6 cats", "At the bottom, there are 6 bears"])
 
@@ -607,7 +607,7 @@ choices = Array[String](["bol", "cuillère", "tasse"])
 script = ExtResource("1_v1o58")
 subject = 5
 grade = 2
-text = "Comment dit-on \"au milieu, il y a sept oiseaus\" en anglais ?"
+text = "Comment dit-on \"au milieu, il y a sept oiseaux\" en anglais ?"
 correct_answer = "In the middle, there are 7 birds"
 choices = Array[String](["In the middle, there are 7 elephants", "In the middle, there are 7 horses", "In the middle, there are 7 frogs"])
 
@@ -623,7 +623,7 @@ choices = Array[String](["On the left, there are 7 snakes", "On the left, there 
 script = ExtResource("1_v1o58")
 subject = 5
 grade = 2
-text = "Comment dit-on \"au milieu, il y a cinq oiseaus\" en anglais ?"
+text = "Comment dit-on \"au milieu, il y a cinq oiseaux\" en anglais ?"
 correct_answer = "In the middle, there are 5 birds"
 choices = Array[String](["In the middle, there are 5 bears", "In the middle, there are 5 frogs", "In the middle, there are 5 elephants"])
 
@@ -775,7 +775,7 @@ choices = Array[String](["Scottish", "Brazilian", "Mexican"])
 script = ExtResource("1_v1o58")
 subject = 5
 grade = 2
-text = "Comment dit-on \"à gauche, il y a six oiseaus\" en anglais ?"
+text = "Comment dit-on \"à gauche, il y a six oiseaux\" en anglais ?"
 correct_answer = "On the left, there are 6 birds"
 choices = Array[String](["On the left, there are 6 frogs", "On the left, there are 6 horses", "On the left, there are 6 pigs"])
 
@@ -1191,7 +1191,7 @@ choices = Array[String](["There are 7 bears", "There are 7 elephants", "There ar
 script = ExtResource("1_v1o58")
 subject = 5
 grade = 2
-text = "Comment dit-on \"il y a sept oiseaus\" en anglais ?"
+text = "Comment dit-on \"il y a sept oiseaux\" en anglais ?"
 correct_answer = "There are 7 birds"
 choices = Array[String](["There are 7 rabbits", "There are 7 cats", "There are 7 frogs"])
 
@@ -1439,7 +1439,7 @@ choices = Array[String](["On the right, there are 6 fish", "On the right, there 
 script = ExtResource("1_v1o58")
 subject = 5
 grade = 2
-text = "Comment dit-on \"en haut, il y a six oiseaus\" en anglais ?"
+text = "Comment dit-on \"en haut, il y a six oiseaux\" en anglais ?"
 correct_answer = "At the top, there are 6 birds"
 choices = Array[String](["At the top, there are 6 pigs", "At the top, there are 6 elephants", "At the top, there are 6 cats"])
 

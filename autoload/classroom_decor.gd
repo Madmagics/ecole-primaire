@@ -9,11 +9,18 @@
 ## construire plus tard - cet autoload ne fait que suivre l'etat "achete/pas achete" et "applique/
 ## pas applique").
 ##
-## Une classe se debloque quand la TOTALITE de ses Defis (voir ChallengeTracker) est au palier or
-## (GOLD_GOAL) - pas un nombre fixe code en dur : QuestionBankScanner.get_available_subjects(grade)
-## donne deja 5 matieres pour le CP et 7 pour CE1-CM2 (francais scinde en grammaire/conjugaison/
-## orthographe, voir son commentaire de classe), exactement les chiffres cites par l'utilisateur -
-## get_required_count() lit donc cette liste plutot que de dupliquer 5/7 en dur.
+## Une classe se debloque quand la TOTALITE de ses Defis (voir ChallengeTracker) est au palier
+## argent (SILVER_GOAL) - pas un nombre fixe code en dur : QuestionBankScanner.get_available_
+## subjects(grade) donne deja 5 matieres pour le CP et 7 pour CE1-CM2 (francais scinde en
+## grammaire/conjugaison/orthographe, voir son commentaire de classe), exactement les chiffres
+## cites par l'utilisateur - get_required_count() lit donc cette liste plutot que de dupliquer 5/7
+## en dur.
+##
+## SEUIL REVU le 2026-09-18 (retour utilisateur, apres validation de la maquette de barre de
+## jalons de la fenetre Succes - voir project_success_milestone_bar en memoire projet) : le
+## palier de deblocage passe d'OR (GOLD_GOAL) a ARGENT (SILVER_GOAL) - la musique de classe
+## (ClassroomMusic) prend la place du decor au palier BRONZE, et un nouveau palier OR accueille
+## une future recompense "coupe" pas encore implementee.
 ##
 ## Selection/desactivation (2026-09-06, 2e passe, retour utilisateur : "afin de pouvoir
 ## selectionner le decor de classe de base ou la musique originale: selectionner une case fera
@@ -66,17 +73,17 @@ func is_unlocked(grade: Grade) -> bool:
 func is_active(grade: Grade) -> bool:
 	return is_unlocked(grade) and bool(_active.get(grade, false))
 
-## Nombre de Defis actuellement a l'or (GOLD_GOAL, voir ChallengeTracker) pour [grade], sur le
-## total requis (voir get_required_count) - affiche en "X/Y" sur la case de boutique.
+## Nombre de Defis actuellement a l'argent (SILVER_GOAL, voir ChallengeTracker) pour [grade], sur
+## le total requis (voir get_required_count) - affiche en "X/Y" sur la case de boutique.
 func get_validated_count(grade: Grade) -> int:
 	var count := 0
 	for subject in QuestionBankScanner.get_available_subjects(grade):
-		if ChallengeTracker.get_count(grade, subject) >= ChallengeTracker.GOLD_GOAL:
+		if ChallengeTracker.get_count(grade, subject) >= ChallengeTracker.SILVER_GOAL:
 			count += 1
 	return count
 
-## Nombre de Defis a valider (a l'or) pour debloquer le decor de [grade] - TOUS les Defis de la
-## classe, voir le commentaire de classe.
+## Nombre de Defis a valider (a l'argent) pour debloquer le decor de [grade] - TOUS les Defis de
+## la classe, voir le commentaire de classe.
 func get_required_count(grade: Grade) -> int:
 	return QuestionBankScanner.get_available_subjects(grade).size()
 
@@ -85,8 +92,8 @@ func can_unlock(grade: Grade) -> bool:
 
 ## Tente de debloquer le decor de [grade] (echoue si deja debloque ou Defis insuffisants) - rien
 ## n'est jamais "depense" ici (contrairement a Economy.try_spend), ChallengeTracker ne redescend
-## jamais une fois un Defi a l'or. N'active PAS automatiquement le decor (voir le commentaire de
-## classe) - reste au joueur de le selectionner ensuite via toggle_active().
+## jamais une fois un Defi a l'argent. N'active PAS automatiquement le decor (voir le commentaire
+## de classe) - reste au joueur de le selectionner ensuite via toggle_active().
 func try_unlock(grade: Grade) -> bool:
 	if is_unlocked(grade):
 		return false

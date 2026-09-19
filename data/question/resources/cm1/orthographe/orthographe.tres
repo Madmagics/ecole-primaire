@@ -240,32 +240,32 @@ script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "arriver"
-choices = Array[String](["ariver", "arrriver", "arrivre"])
+correct_answer = "appeler"
+choices = Array[String](["apppeler", "apeler", "appeller"])
 
 [sub_resource type="Resource" id="Resource_wfm8c"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "pomme"
-choices = Array[String](["pome", "pommme", "pomem"])
+correct_answer = "apporter"
+choices = Array[String](["apportter", "appporter", "aporter"])
 
 [sub_resource type="Resource" id="Resource_5ioxi"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "ballon"
-choices = Array[String](["balon", "balllon", "ballno"])
+correct_answer = "apprendre"
+choices = Array[String](["appprendre", "aprendre", "apprendrre"])
 
 [sub_resource type="Resource" id="Resource_05aw2"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "lettre"
-choices = Array[String](["letre", "letttre", "letter"])
+correct_answer = "apparaître"
+choices = Array[String](["appparaître", "apparaîttre", "aparaître"])
 
 [sub_resource type="Resource" id="Resource_c5nic"]
 script = ExtResource("1_gfs2s")
@@ -888,560 +888,560 @@ script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "carotte"
-choices = Array[String](["carote", "carottte", "carotet"])
+correct_answer = "grappe"
+choices = Array[String](["grape", "ggrappe", "grapppe"])
 
 [sub_resource type="Resource" id="Resource_84485"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "chaussette"
-choices = Array[String](["chaussete", "chaussettte", "chaussetet"])
+correct_answer = "échapper"
+choices = Array[String](["échaper", "échappper", "écchapper"])
 
 [sub_resource type="Resource" id="Resource_5nrsg"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "bouteille"
-choices = Array[String](["boutteille", "bouteilel", "bbouteille"])
+correct_answer = "enveloppe"
+choices = Array[String](["envveloppe", "envelope", "envelopppe"])
 
 [sub_resource type="Resource" id="Resource_56cc5"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "addition"
-choices = Array[String](["adition", "adddition", "additino"])
+correct_answer = "appartement"
+choices = Array[String](["apparrtement", "apppartement", "apartement"])
 
 [sub_resource type="Resource" id="Resource_ama0w"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "collier"
-choices = Array[String](["colier", "colllier", "collire"])
+correct_answer = "applaudir"
+choices = Array[String](["aplaudir", "appplaudir", "applaudire"])
 
 [sub_resource type="Resource" id="Resource_5oosx"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "grammaire"
-choices = Array[String](["gramaire", "grammmaire", "grammaier"])
+correct_answer = "appartenir"
+choices = Array[String](["apparttenir", "apartenir", "apppartenir"])
 
 [sub_resource type="Resource" id="Resource_1e70k"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "attention"
-choices = Array[String](["atention", "atttention", "attentino"])
+correct_answer = "attendre"
+choices = Array[String](["atttendre", "atendre", "attendree"])
 
 [sub_resource type="Resource" id="Resource_ttqw3"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "nettoyer"
-choices = Array[String](["netoyer", "netttoyer", "nettoyre"])
+correct_answer = "attraper"
+choices = Array[String](["atttraper", "atraper", "attrapper"])
 
 [sub_resource type="Resource" id="Resource_6hs4e"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "caravane"
-choices = Array[String](["caravvane", "caravaen", "ccaravane"])
+correct_answer = "lettre"
+choices = Array[String](["letttre", "llettre", "letre"])
 
 [sub_resource type="Resource" id="Resource_3k1ua"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "assiette"
-choices = Array[String](["assiete", "assiettte", "assietet"])
+correct_answer = "chatte"
+choices = Array[String](["chattte", "chate", "cchatte"])
 
 [sub_resource type="Resource" id="Resource_020ey"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "bicyclette"
-choices = Array[String](["bicyclete", "bicyclettte", "bicycletet"])
+correct_answer = "attention"
+choices = Array[String](["atttention", "atention", "attentione"])
 
 [sub_resource type="Resource" id="Resource_gtcq4"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "cassette"
-choices = Array[String](["cassete", "cassettte", "cassetet"])
+correct_answer = "chaussette"
+choices = Array[String](["chausette", "chausssette", "chaussettee"])
 
 [sub_resource type="Resource" id="Resource_h5je8"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "difficile"
-choices = Array[String](["dificile", "diffficile", "difficiel"])
+correct_answer = "raquette"
+choices = Array[String](["raquettte", "raquete", "raquettee"])
 
 [sub_resource type="Resource" id="Resource_3d25k"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "apporter"
-choices = Array[String](["aporter", "appporter", "apportre"])
+correct_answer = "assiette"
+choices = Array[String](["asiette", "asssiette", "assiettee"])
 
 [sub_resource type="Resource" id="Resource_4rr8y"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "appartement"
-choices = Array[String](["apartement", "apppartement", "appartemetn"])
+correct_answer = "fillette"
+choices = Array[String](["filllette", "filette", "fillettte"])
 
 [sub_resource type="Resource" id="Resource_amld1"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "immense"
-choices = Array[String](["imense", "immmense", "immenes"])
+correct_answer = "battre"
+choices = Array[String](["batre", "bbattre", "batttre"])
 
 [sub_resource type="Resource" id="Resource_84se2"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "chatte"
-choices = Array[String](["chate", "chattte", "chatet"])
+correct_answer = "belle"
+choices = Array[String](["bellle", "bele", "bellee"])
 
 [sub_resource type="Resource" id="Resource_0gldd"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "printemps"
-choices = Array[String](["pprintemps", "printemsp", "prrintemps"])
+correct_answer = "allumer"
+choices = Array[String](["alllumer", "alumer", "allummer"])
 
 [sub_resource type="Resource" id="Resource_1eouq"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "ennemi"
-choices = Array[String](["enemi", "ennnemi", "enneim"])
+correct_answer = "collection"
+choices = Array[String](["collecction", "colllection", "colection"])
 
 [sub_resource type="Resource" id="Resource_r7vmw"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "intelligent"
-choices = Array[String](["inteligent", "intellligent", "intelligetn"])
+correct_answer = "illustration"
+choices = Array[String](["illlustration", "illusttration", "ilustration"])
 
 [sub_resource type="Resource" id="Resource_v5gnj"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "commencer"
-choices = Array[String](["comencer", "commmencer", "commencre"])
+correct_answer = "ballon"
+choices = Array[String](["balon", "balllon", "bballon"])
 
 [sub_resource type="Resource" id="Resource_4espa"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "gramme"
-choices = Array[String](["grame", "grammme", "gramem"])
+correct_answer = "village"
+choices = Array[String](["vilage", "villlage", "villagee"])
 
 [sub_resource type="Resource" id="Resource_4m7pm"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "possible"
-choices = Array[String](["posible", "posssible", "possibel"])
+correct_answer = "famille"
+choices = Array[String](["famillle", "fammille", "famile"])
 
 [sub_resource type="Resource" id="Resource_37q1y"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "professionnel"
-choices = Array[String](["professionel", "professionnnel", "professionnle"])
+correct_answer = "bouteille"
+choices = Array[String](["bouteillle", "bbouteille", "bouteile"])
 
 [sub_resource type="Resource" id="Resource_qvrsr"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "tellement"
-choices = Array[String](["telement", "telllement", "tellemetn"])
+correct_answer = "vaisselle"
+choices = Array[String](["vaissselle", "vaiselle", "vvaisselle"])
 
 [sub_resource type="Resource" id="Resource_5vweo"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "terrible"
-choices = Array[String](["terible", "terrrible", "terribel"])
+correct_answer = "cueillette"
+choices = Array[String](["cueilllette", "cueilette", "cueillettee"])
 
 [sub_resource type="Resource" id="Resource_immcu"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "horrible"
-choices = Array[String](["horible", "horrrible", "horribel"])
+correct_answer = "poisson"
+choices = Array[String](["poissson", "poison", "poissone"])
 
 [sub_resource type="Resource" id="Resource_leqdi"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "nappe"
-choices = Array[String](["nape", "napppe", "napep"])
+correct_answer = "brosse"
+choices = Array[String](["bbrosse", "brossse", "brose"])
 
 [sub_resource type="Resource" id="Resource_xghnv"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "trottoir"
-choices = Array[String](["trotoir", "trotttoir", "trottori"])
+correct_answer = "adresse"
+choices = Array[String](["adressse", "adrese", "adrresse"])
 
 [sub_resource type="Resource" id="Resource_yqw32"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "chariot"
-choices = Array[String](["charriot", "charito", "cchariot"])
+correct_answer = "discussion"
+choices = Array[String](["discusion", "disccussion", "discusssion"])
 
 [sub_resource type="Resource" id="Resource_tb1h2"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "hirondelle"
-choices = Array[String](["hirondele", "hirondellle", "hirondelel"])
+correct_answer = "tresse"
+choices = Array[String](["ttresse", "tressse", "trese"])
 
 [sub_resource type="Resource" id="Resource_74860"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "cannelle"
-choices = Array[String](["canelle", "cannnelle", "cannelel"])
+correct_answer = "carrosse"
+choices = Array[String](["carosse", "carrrosse", "carrossse"])
 
 [sub_resource type="Resource" id="Resource_w33eu"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "dictionnaire"
-choices = Array[String](["dictionaire", "dictionnnaire", "dictionnaier"])
+correct_answer = "paresse"
+choices = Array[String](["parresse", "parese", "paressse"])
 
 [sub_resource type="Resource" id="Resource_6xmf6"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "questionnaire"
-choices = Array[String](["questionaire", "questionnnaire", "questionnaier"])
+correct_answer = "richesse"
+choices = Array[String](["richessse", "richese", "richessee"])
 
 [sub_resource type="Resource" id="Resource_3kkjk"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "million"
-choices = Array[String](["milion", "milllion", "millino"])
+correct_answer = "promesse"
+choices = Array[String](["ppromesse", "promessse", "promese"])
 
 [sub_resource type="Resource" id="Resource_f12ld"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "billet"
-choices = Array[String](["bilet", "billlet", "billte"])
+correct_answer = "chaussure"
+choices = Array[String](["chausssure", "chausure", "cchaussure"])
 
 [sub_resource type="Resource" id="Resource_bktv2"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "famille"
-choices = Array[String](["famile", "famillle", "familel"])
+correct_answer = "personne"
+choices = Array[String](["persone", "personnne", "ppersonne"])
 
 [sub_resource type="Resource" id="Resource_wn3ty"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "bataille"
-choices = Array[String](["bataile", "bataillle", "batailel"])
+correct_answer = "donner"
+choices = Array[String](["ddonner", "doner", "donnner"])
 
 [sub_resource type="Resource" id="Resource_u3i2d"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "médaille"
-choices = Array[String](["médaile", "médaillle", "médailel"])
+correct_answer = "sonner"
+choices = Array[String](["soner", "sonnner", "ssonner"])
 
 [sub_resource type="Resource" id="Resource_iibf5"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "fourmi"
-choices = Array[String](["fourrmi", "fourim", "ffourmi"])
+correct_answer = "tonnerre"
+choices = Array[String](["tonnnerre", "tonnerrre", "tonerre"])
 
 [sub_resource type="Resource" id="Resource_bc5fc"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "tomber"
-choices = Array[String](["tommber", "tombre", "ttomber"])
+correct_answer = "anniversaire"
+choices = Array[String](["anniverrsaire", "aniversaire", "annniversaire"])
 
 [sub_resource type="Resource" id="Resource_3ibje"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "courrier"
-choices = Array[String](["courier", "courrrier", "courrire"])
+correct_answer = "cannelle"
+choices = Array[String](["cannellle", "cannnelle", "canelle"])
 
 [sub_resource type="Resource" id="Resource_o2dmb"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "terrasse"
-choices = Array[String](["terasse", "terrrasse", "terrases"])
+correct_answer = "antenne"
+choices = Array[String](["antennne", "anttenne", "antene"])
 
 [sub_resource type="Resource" id="Resource_egoay"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "piscine"
-choices = Array[String](["pisscine", "piscien", "ppiscine"])
+correct_answer = "bonne"
+choices = Array[String](["bone", "bonnne", "bonnee"])
 
 [sub_resource type="Resource" id="Resource_vop8x"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "classe"
-choices = Array[String](["clase", "classse", "clases"])
+correct_answer = "panne"
+choices = Array[String](["pannne", "pane", "pannee"])
 
 [sub_resource type="Resource" id="Resource_uf0d3"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "bosse"
-choices = Array[String](["bose", "bossse", "boses"])
+correct_answer = "année"
+choices = Array[String](["annnée", "anée", "annéee"])
 
 [sub_resource type="Resource" id="Resource_ejics"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "brosse"
-choices = Array[String](["brose", "brossse", "broses"])
+correct_answer = "grammaire"
+choices = Array[String](["grrammaire", "grammmaire", "gramaire"])
 
 [sub_resource type="Resource" id="Resource_trqlw"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "tasse"
-choices = Array[String](["tase", "tassse", "tases"])
+correct_answer = "pomme"
+choices = Array[String](["pommme", "pome", "pommee"])
 
 [sub_resource type="Resource" id="Resource_2ib22"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "masse"
-choices = Array[String](["mase", "massse", "mases"])
+correct_answer = "homme"
+choices = Array[String](["hommme", "home", "hommee"])
 
 [sub_resource type="Resource" id="Resource_taa8s"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "adresse"
-choices = Array[String](["adrese", "adressse", "adreses"])
+correct_answer = "comme"
+choices = Array[String](["commme", "come", "commee"])
 
 [sub_resource type="Resource" id="Resource_tbmpo"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "pinceau"
-choices = Array[String](["pinnceau", "pinceua", "ppinceau"])
+correct_answer = "gomme"
+choices = Array[String](["gome", "gommme", "gommee"])
 
 [sub_resource type="Resource" id="Resource_4q7er"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "cheminée"
-choices = Array[String](["chemminée", "chemineé", "ccheminée"])
+correct_answer = "programme"
+choices = Array[String](["programmme", "programe", "programmee"])
 
 [sub_resource type="Resource" id="Resource_h0mce"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "cannette"
-choices = Array[String](["canette", "cannnette", "cannetet"])
+correct_answer = "dilemme"
+choices = Array[String](["dileme", "dilemmme", "dillemme"])
 
 [sub_resource type="Resource" id="Resource_q28ho"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "baguette"
-choices = Array[String](["baguete", "baguettte", "baguetet"])
+correct_answer = "sommeil"
+choices = Array[String](["sommmeil", "someil", "sommeile"])
 
 [sub_resource type="Resource" id="Resource_ulbev"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "fourchette"
-choices = Array[String](["fourchete", "fourchettte", "fourchetet"])
+correct_answer = "pommier"
+choices = Array[String](["pommmier", "pomier", "pommiere"])
 
 [sub_resource type="Resource" id="Resource_bsbtk"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "serviette"
-choices = Array[String](["serviete", "serviettte", "servietet"])
+correct_answer = "comment"
+choices = Array[String](["coment", "commment", "commente"])
 
 [sub_resource type="Resource" id="Resource_m82ue"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "omelette"
-choices = Array[String](["omelete", "omelettte", "omeletet"])
+correct_answer = "chiffre"
+choices = Array[String](["chifre", "chifffre", "chiffree"])
 
 [sub_resource type="Resource" id="Resource_cgijc"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "silhouette"
-choices = Array[String](["silhouete", "silhouettte", "silhouetet"])
+correct_answer = "difficile"
+choices = Array[String](["dificile", "diffficile", "difficilee"])
 
 [sub_resource type="Resource" id="Resource_tg723"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "chouette"
-choices = Array[String](["chouete", "chouettte", "chouetet"])
+correct_answer = "effacer"
+choices = Array[String](["efffacer", "effaccer", "efacer"])
 
 [sub_resource type="Resource" id="Resource_suafg"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "sommeil"
-choices = Array[String](["someil", "sommmeil", "sommeli"])
+correct_answer = "effrayant"
+choices = Array[String](["efrayant", "efffrayant", "effrayante"])
 
 [sub_resource type="Resource" id="Resource_8jolm"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "comme"
-choices = Array[String](["come", "commme", "comem"])
+correct_answer = "affreux"
+choices = Array[String](["afffreux", "afreux", "affrreux"])
 
 [sub_resource type="Resource" id="Resource_obc5j"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "gomme"
-choices = Array[String](["gome", "gommme", "gomem"])
+correct_answer = "souffler"
+choices = Array[String](["souffller", "soufler", "soufffler"])
 
 [sub_resource type="Resource" id="Resource_u2767"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "appeler"
-choices = Array[String](["apeler", "apppeler", "appelre"])
+correct_answer = "offrir"
+choices = Array[String](["offfrir", "ofrir", "offrire"])
 
 [sub_resource type="Resource" id="Resource_h3s53"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "appartenir"
-choices = Array[String](["apartenir", "apppartenir", "appartenri"])
+correct_answer = "coiffer"
+choices = Array[String](["coifffer", "coifer", "coiffere"])
 
 [sub_resource type="Resource" id="Resource_fykts"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "apprendre"
-choices = Array[String](["aprendre", "appprendre", "apprender"])
+correct_answer = "bouffée"
+choices = Array[String](["boufée", "boufffée", "boufféee"])
 
 [sub_resource type="Resource" id="Resource_tbv15"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "approcher"
-choices = Array[String](["aprocher", "appprocher", "approchre"])
+correct_answer = "souffrir"
+choices = Array[String](["soufrir", "souffrrir", "soufffrir"])
 
 [sub_resource type="Resource" id="Resource_mau37"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "allumer"
-choices = Array[String](["alumer", "alllumer", "allumre"])
+correct_answer = "arriver"
+choices = Array[String](["arrivver", "arrriver", "ariver"])
 
 [sub_resource type="Resource" id="Resource_nwuj1"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "aller"
-choices = Array[String](["aler", "alller", "allre"])
+correct_answer = "correction"
+choices = Array[String](["corection", "corrrection", "correcction"])
 
 [sub_resource type="Resource" id="Resource_ei1dl"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "cassette"
-choices = Array[String](["casette", "casssette", "cassetet"])
+correct_answer = "terrible"
+choices = Array[String](["terrrible", "tterrible", "terible"])
 
 [sub_resource type="Resource" id="Resource_ytwtb"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "cheveux"
-choices = Array[String](["cheeveux", "chevexu", "ccheveux"])
+correct_answer = "erreur"
+choices = Array[String](["ereur", "errreur", "erreure"])
 
 [sub_resource type="Resource" id="Resource_sae1w"]
 script = ExtResource("1_gfs2s")
@@ -1928,464 +1928,464 @@ script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "chatouiller"
-choices = Array[String](["cchatouiller", "chatouillre", "chhatouiller"])
+correct_answer = "serrure"
+choices = Array[String](["serure", "serrrure", "serruree"])
 
 [sub_resource type="Resource" id="Resource_mc42c"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "terrain"
-choices = Array[String](["terain", "terrrain", "terrani"])
+correct_answer = "charrette"
+choices = Array[String](["charrrette", "ccharrette", "charette"])
 
 [sub_resource type="Resource" id="Resource_1hm82"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "cueillette"
-choices = Array[String](["cueilette", "cueilllette", "cueilletet"])
+correct_answer = "beurre"
+choices = Array[String](["beurrre", "bbeurre", "beure"])
 
 [sub_resource type="Resource" id="Resource_c4pqa"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "favori"
-choices = Array[String](["favvori", "favoir", "ffavori"])
+correct_answer = "correspondre"
+choices = Array[String](["corespondre", "corresponddre", "corrrespondre"])
 
 [sub_resource type="Resource" id="Resource_3wulv"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "semaine"
-choices = Array[String](["semmaine", "semaien", "ssemaine"])
+correct_answer = "arracher"
+choices = Array[String](["arrracher", "aracher", "arrachere"])
 
 [sub_resource type="Resource" id="Resource_647gr"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "incendie"
-choices = Array[String](["inncendie", "incendei", "inccendie"])
+correct_answer = "terrasse"
+choices = Array[String](["terrrasse", "terrassse", "terasse"])
 
 [sub_resource type="Resource" id="Resource_envoi"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "lampion"
-choices = Array[String](["lammpion", "lampino", "llampion"])
+correct_answer = "accident"
+choices = Array[String](["acccident", "accidennt", "acident"])
 
 [sub_resource type="Resource" id="Resource_veeh5"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "déjeuner"
-choices = Array[String](["déjjeuner", "déjeunre", "ddéjeuner"])
+correct_answer = "occuper"
+choices = Array[String](["occcuper", "occupper", "ocuper"])
 
 [sub_resource type="Resource" id="Resource_qm3dw"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "ordonnance"
-choices = Array[String](["orddonnance", "ordonnanec", "orrdonnance"])
+correct_answer = "accompagner"
+choices = Array[String](["accommpagner", "acompagner", "acccompagner"])
 
 [sub_resource type="Resource" id="Resource_nqagm"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "spectacle"
-choices = Array[String](["specttacle", "spectacel", "sspectacle"])
+correct_answer = "accueillir"
+choices = Array[String](["acueillir", "acccueillir", "accueillire"])
 
 [sub_resource type="Resource" id="Resource_fifsv"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "camion"
-choices = Array[String](["cammion", "camino", "ccamion"])
+correct_answer = "occasion"
+choices = Array[String](["occcasion", "ocasion", "occasione"])
 
 [sub_resource type="Resource" id="Resource_t2bnc"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "télévision"
-choices = Array[String](["télévvision", "télévisino", "ttélévision"])
+correct_answer = "accrocher"
+choices = Array[String](["acccrocher", "acrocher", "accrochere"])
 
 [sub_resource type="Resource" id="Resource_cya18"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "empereur"
-choices = Array[String](["emppereur", "empereru", "emmpereur"])
+correct_answer = "accepter"
+choices = Array[String](["acceptter", "acccepter", "acepter"])
 
 [sub_resource type="Resource" id="Resource_tc6rm"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "allumette"
-choices = Array[String](["allumete", "allumettte", "allumetet"])
+correct_answer = "succès"
+choices = Array[String](["succcès", "sucès", "ssuccès"])
 
 [sub_resource type="Resource" id="Resource_d0xus"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "vaisselle"
-choices = Array[String](["vvaisselle", "vaisselel", "vàisselle"])
+correct_answer = "essayer"
+choices = Array[String](["esayer", "esssayer", "essayere"])
 
 [sub_resource type="Resource" id="Resource_305p8"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "koala"
-choices = Array[String](["kkoala", "koaal", "koalla"])
+correct_answer = "dessin"
+choices = Array[String](["ddessin", "desin", "desssin"])
 
 [sub_resource type="Resource" id="Resource_bbfks"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "anniversaire"
-choices = Array[String](["anniverrsaire", "anniversaier", "annivversaire"])
+correct_answer = "masse"
+choices = Array[String](["massse", "mase", "massee"])
 
 [sub_resource type="Resource" id="Resource_eid75"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "mademoiselle"
-choices = Array[String](["mmademoiselle", "mademoiselel", "maddemoiselle"])
+correct_answer = "classe"
+choices = Array[String](["cclasse", "classse", "clase"])
 
 [sub_resource type="Resource" id="Resource_whaqa"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "fontaine"
-choices = Array[String](["ffontaine", "fontaien", "fonntaine"])
+correct_answer = "presse"
+choices = Array[String](["pressse", "ppresse", "prese"])
 
 [sub_resource type="Resource" id="Resource_m6r80"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "traversée"
-choices = Array[String](["traverssée", "traverseé", "ttraversée"])
+correct_answer = "tasse"
+choices = Array[String](["tassse", "tase", "tassee"])
 
 [sub_resource type="Resource" id="Resource_lyphf"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "village"
-choices = Array[String](["vilage", "villlage", "villaeg"])
+correct_answer = "glisser"
+choices = Array[String](["gliser", "glissser", "gllisser"])
 
 [sub_resource type="Resource" id="Resource_0srgt"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "ressembler"
-choices = Array[String](["resembler", "resssembler", "ressemblre"])
+correct_answer = "chausser"
+choices = Array[String](["chaussser", "chauser", "cchausser"])
 
 [sub_resource type="Resource" id="Resource_5uejo"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "imprimer"
-choices = Array[String](["immprimer", "imprimre", "impprimer"])
+correct_answer = "dresser"
+choices = Array[String](["drresser", "dreser", "dressser"])
 
 [sub_resource type="Resource" id="Resource_mo3vi"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "exercice"
-choices = Array[String](["exerccice", "exerciec", "exxercice"])
+correct_answer = "pousser"
+choices = Array[String](["poussser", "pouser", "poussere"])
 
 [sub_resource type="Resource" id="Resource_q0ew2"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "attraper"
-choices = Array[String](["attrraper", "attrapre", "attrapper"])
+correct_answer = "immense"
+choices = Array[String](["immennse", "imense", "immmense"])
 
 [sub_resource type="Resource" id="Resource_jtq2a"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "message"
-choices = Array[String](["messagge", "messaeg", "mmessage"])
+correct_answer = "immobile"
+choices = Array[String](["immmobile", "immobille", "imobile"])
 
 [sub_resource type="Resource" id="Resource_q1fb8"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "machine"
-choices = Array[String](["macchine", "machien", "mmachine"])
+correct_answer = "commencer"
+choices = Array[String](["comencer", "commmencer", "commencere"])
 
 [sub_resource type="Resource" id="Resource_vpar3"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "voisin"
-choices = Array[String](["vvoisin", "voisni", "voissin"])
+correct_answer = "commander"
+choices = Array[String](["commmander", "comander", "commandere"])
 
 [sub_resource type="Resource" id="Resource_no673"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "policier"
-choices = Array[String](["pollicier", "policire", "ppolicier"])
+correct_answer = "immédiat"
+choices = Array[String](["immmédiat", "imédiat", "immédiate"])
 
 [sub_resource type="Resource" id="Resource_3j5gj"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "hérisson"
-choices = Array[String](["hérison", "hérissson", "hérissno"])
+correct_answer = "collège"
+choices = Array[String](["colège", "colllège", "collègee"])
 
 [sub_resource type="Resource" id="Resource_s8lh7"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "affaire"
-choices = Array[String](["afaire", "afffaire", "affaier"])
+correct_answer = "intelligent"
+choices = Array[String](["intellligent", "inttelligent", "inteligent"])
 
 [sub_resource type="Resource" id="Resource_7ijat"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "costume"
-choices = Array[String](["ccostume", "costuem", "cosstume"])
+correct_answer = "cellule"
+choices = Array[String](["celllule", "celule", "cellulee"])
 
 [sub_resource type="Resource" id="Resource_ev34v"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "quotidien"
-choices = Array[String](["qquotidien", "quotidine", "quottidien"])
+correct_answer = "travailler"
+choices = Array[String](["travailer", "travailller", "travvailler"])
 
 [sub_resource type="Resource" id="Resource_uq5dd"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "immeuble"
-choices = Array[String](["immeublle", "immeubel", "immeubble"])
+correct_answer = "habiller"
+choices = Array[String](["habiler", "habbiller", "habilller"])
 
 [sub_resource type="Resource" id="Resource_i1m2b"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "griller"
-choices = Array[String](["griler", "grilller", "grillre"])
+correct_answer = "tranquille"
+choices = Array[String](["tranquile", "ttranquille", "tranquillle"])
 
 [sub_resource type="Resource" id="Resource_soy7c"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "oiseau"
-choices = Array[String](["oisseau", "oiseua", "ôiseau"])
+correct_answer = "grenouille"
+choices = Array[String](["grennouille", "grenouile", "grenouillle"])
 
 [sub_resource type="Resource" id="Resource_sfq7c"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "admettre"
-choices = Array[String](["admmettre", "admetter", "addmettre"])
+correct_answer = "brouillard"
+choices = Array[String](["brouilard", "brouilllard", "brouillarde"])
 
 [sub_resource type="Resource" id="Resource_si4k6"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "jonquille"
-choices = Array[String](["jjonquille", "jonquilel", "jonnquille"])
+correct_answer = "carotte"
+choices = Array[String](["carottte", "carrotte", "carote"])
 
 [sub_resource type="Resource" id="Resource_im0cj"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "félicitation"
-choices = Array[String](["félicittation", "félicitatino", "ffélicitation"])
+correct_answer = "botte"
+choices = Array[String](["bottte", "bote", "bottee"])
 
 [sub_resource type="Resource" id="Resource_6akyh"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "oreille"
-choices = Array[String](["orreille", "oreilel", "ôreille"])
+correct_answer = "crotte"
+choices = Array[String](["ccrotte", "crottte", "crote"])
 
 [sub_resource type="Resource" id="Resource_6dehp"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "emmener"
-choices = Array[String](["emener", "emmmener", "emmenre"])
+correct_answer = "culotte"
+choices = Array[String](["culottte", "cullotte", "culote"])
 
 [sub_resource type="Resource" id="Resource_jak5h"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "raquette"
-choices = Array[String](["raqquette", "raquetet", "rraquette"])
+correct_answer = "flotte"
+choices = Array[String](["flote", "flottte", "fflotte"])
 
 [sub_resource type="Resource" id="Resource_4r8pb"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "lapin"
-choices = Array[String](["lappin", "lapni", "llapin"])
+correct_answer = "trottoir"
+choices = Array[String](["trotoir", "trotttoir", "trottoire"])
 
 [sub_resource type="Resource" id="Resource_aluom"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "meuble"
-choices = Array[String](["meubble", "meubel", "mmeuble"])
+correct_answer = "trottiner"
+choices = Array[String](["trotiner", "trrottiner", "trotttiner"])
 
 [sub_resource type="Resource" id="Resource_ynfol"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "miroir"
-choices = Array[String](["mmiroir", "mirori", "mirroir"])
+correct_answer = "frotter"
+choices = Array[String](["frottter", "froter", "frrotter"])
 
 [sub_resource type="Resource" id="Resource_gfv80"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "sandwich"
-choices = Array[String](["sanddwich", "sandwihc", "ssandwich"])
+correct_answer = "pattes"
+choices = Array[String](["ppattes", "patttes", "pates"])
 
 [sub_resource type="Resource" id="Resource_c0w0e"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "nuage"
-choices = Array[String](["nnuage", "nuaeg", "nuagge"])
+correct_answer = "hirondelle"
+choices = Array[String](["hironddelle", "hirondele", "hirondellle"])
 
 [sub_resource type="Resource" id="Resource_duddr"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "étiquette"
-choices = Array[String](["étiqquette", "étiquetet", "etiquette"])
+correct_answer = "poubelle"
+choices = Array[String](["poubele", "poubellle", "poubellee"])
 
 [sub_resource type="Resource" id="Resource_kgjd1"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "attitude"
-choices = Array[String](["atitude", "atttitude", "attitued"])
+correct_answer = "sauterelle"
+choices = Array[String](["sauterele", "sauterrelle", "sauterellle"])
 
 [sub_resource type="Resource" id="Resource_n6i17"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "yaourt"
-choices = Array[String](["yaourtt", "yaoutr", "yaourrt"])
+correct_answer = "échelle"
+choices = Array[String](["échele", "échellle", "échellee"])
 
 [sub_resource type="Resource" id="Resource_e87ss"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "recommander"
-choices = Array[String](["recommandder", "recommandre", "rrecommander"])
+correct_answer = "ficelle"
+choices = Array[String](["ficellle", "ficele", "ficcelle"])
 
 [sub_resource type="Resource" id="Resource_myxrm"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "cinéma"
-choices = Array[String](["ccinéma", "cinéam", "cinnéma"])
+correct_answer = "selle"
+choices = Array[String](["sellle", "sele", "sellee"])
 
 [sub_resource type="Resource" id="Resource_fx0f0"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "verglas"
-choices = Array[String](["vergllas", "verglsa", "vverglas"])
+correct_answer = "abeille"
+choices = Array[String](["abeillle", "abeile", "abeillee"])
 
 [sub_resource type="Resource" id="Resource_amvc1"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "menuisier"
-choices = Array[String](["menuisierr", "menuisire", "mmenuisier"])
+correct_answer = "corbeille"
+choices = Array[String](["corbeillle", "corbeile", "corrbeille"])
 
 [sub_resource type="Resource" id="Resource_1e8m0"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "corridor"
-choices = Array[String](["ccorridor", "corridro", "corriddor"])
+correct_answer = "oreille"
+choices = Array[String](["oreillle", "oreile", "oreillee"])
 
 [sub_resource type="Resource" id="Resource_fatig"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "malheur"
-choices = Array[String](["mmalheur", "malheru", "mallheur"])
+correct_answer = "bataille"
+choices = Array[String](["bataillle", "bataile", "bataillee"])
 
 [sub_resource type="Resource" id="Resource_qiocq"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "voyage"
-choices = Array[String](["vvoyage", "voyaeg", "voyagge"])
+correct_answer = "médaille"
+choices = Array[String](["médaile", "médaillle", "médaillee"])
 
 [sub_resource type="Resource" id="Resource_5nlj1"]
 script = ExtResource("1_gfs2s")
 subject = 4
 grade = 3
 text = "Quelle est la bonne orthographe ?"
-correct_answer = "flamme"
-choices = Array[String](["fflamme", "flamem", "fllamme"])
+correct_answer = "muraille"
+choices = Array[String](["muraile", "muraillle", "muraillee"])
 
 [sub_resource type="Resource" id="Resource_7ogqk"]
 script = ExtResource("1_gfs2s")

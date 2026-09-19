@@ -4,191 +4,191 @@
 [ext_resource type="Script" uid="uid://crepyep5nhuxq" path="res://data/question/passage_resource.gd" id="2_d04sq"]
 [ext_resource type="Script" uid="uid://c422qc1cinnna" path="res://data/question/question_bank_resource.gd" id="3_ou01a"]
 
-[sub_resource type="Resource" id="Resource_p0e02"]
+[sub_resource type="Resource" id="Resource_id4v8"]
 script = ExtResource("2_d04sq")
 grade = 1
 text = "Milo est un chat noir et blanc qui habite avec Emma. Un matin, la porte du jardin reste ouverte. Milo sort tout doucement dans l'herbe mouillée. Il aperçoit un papillon jaune qui vole près des fleurs. Milo court après le papillon pendant longtemps. Quand il s'arrête, il ne reconnaît plus le chemin de la maison. Milo a très peur et se cache sous un buisson. Il miaule de plus en plus fort. Emma cherche son chat dans tout le jardin. Elle entend enfin les miaulements près du grand arbre. Emma prend Milo dans ses bras et le rassure doucement. Milo ronronne de bonheur. Ensemble, ils rentrent à la maison pour goûter."
 
-[sub_resource type="Resource" id="Resource_y8b36"]
+[sub_resource type="Resource" id="Resource_d04sq"]
 script = ExtResource("1_id4v8")
 subject = 6
 grade = 1
 text = "Avec qui habite Milo ?"
 correct_answer = "Emma"
 choices = Array[String](["personne", "un chien", "sa maman"])
-passage = SubResource("Resource_p0e02")
+passage = SubResource("Resource_id4v8")
 
-[sub_resource type="Resource" id="Resource_lk6j5"]
+[sub_resource type="Resource" id="Resource_ou01a"]
 script = ExtResource("1_id4v8")
 subject = 6
 grade = 1
 text = "Qu'est-ce qui reste ouvert un matin ?"
 correct_answer = "la porte du jardin"
 choices = Array[String](["la fenêtre", "le portail", "la porte de la maison"])
-passage = SubResource("Resource_p0e02")
+passage = SubResource("Resource_id4v8")
 
-[sub_resource type="Resource" id="Resource_matux"]
+[sub_resource type="Resource" id="Resource_p0e02"]
 script = ExtResource("1_id4v8")
 subject = 6
 grade = 1
 text = "Où Milo sort-il dès que la porte est ouverte ?"
 correct_answer = "dans l'herbe mouillée du jardin"
 choices = Array[String](["sur le toit", "dans la rue", "chez le voisin"])
-passage = SubResource("Resource_p0e02")
+passage = SubResource("Resource_id4v8")
 
-[sub_resource type="Resource" id="Resource_bkwl7"]
+[sub_resource type="Resource" id="Resource_y8b36"]
 script = ExtResource("1_id4v8")
 subject = 6
 grade = 1
 text = "De quelle couleur est le papillon ?"
 correct_answer = "jaune"
 choices = Array[String](["bleu", "rouge", "vert"])
-passage = SubResource("Resource_p0e02")
+passage = SubResource("Resource_id4v8")
 
-[sub_resource type="Resource" id="Resource_igt5v"]
+[sub_resource type="Resource" id="Resource_lk6j5"]
 script = ExtResource("1_id4v8")
 subject = 6
 grade = 1
 text = "Où Milo se cache-t-il quand il a peur ?"
 correct_answer = "sous un buisson"
 choices = Array[String](["derrière la maison", "sous le lit", "dans un arbre"])
-passage = SubResource("Resource_p0e02")
+passage = SubResource("Resource_id4v8")
 
-[sub_resource type="Resource" id="Resource_q3jwh"]
+[sub_resource type="Resource" id="Resource_matux"]
 script = ExtResource("1_id4v8")
 subject = 6
 grade = 1
 text = "Près de quoi Emma entend-elle Milo ?"
 correct_answer = "le grand arbre"
 choices = Array[String](["la porte", "la fleur", "le buisson de roses"])
-passage = SubResource("Resource_p0e02")
+passage = SubResource("Resource_id4v8")
 
-[sub_resource type="Resource" id="Resource_au6xf"]
+[sub_resource type="Resource" id="Resource_bkwl7"]
 script = ExtResource("1_id4v8")
 subject = 6
 grade = 1
 text = "Que fait Emma quand elle trouve Milo ?"
 correct_answer = "elle le prend dans ses bras"
 choices = Array[String](["elle le gronde", "elle repart", "elle appelle un ami"])
-passage = SubResource("Resource_p0e02")
+passage = SubResource("Resource_id4v8")
 
-[sub_resource type="Resource" id="Resource_3gcag"]
+[sub_resource type="Resource" id="Resource_igt5v"]
 script = ExtResource("1_id4v8")
 subject = 6
 grade = 1
 text = "Que font Milo et Emma en rentrant ?"
 correct_answer = "ils vont goûter"
 choices = Array[String](["ils vont dormir", "ils repartent au jardin", "ils cherchent le papillon"])
-passage = SubResource("Resource_p0e02")
+passage = SubResource("Resource_id4v8")
 
-[sub_resource type="Resource" id="Resource_s80e4"]
+[sub_resource type="Resource" id="Resource_q3jwh"]
 script = ExtResource("1_id4v8")
 subject = 6
 grade = 1
 text = "Que veut dire \"Milo sort tout doucement\" ?"
 correct_answer = "il sort sans faire de bruit, lentement"
 choices = Array[String](["il sort très vite en courant", "il sort en miaulant fort", "il ne sort pas du tout"])
-passage = SubResource("Resource_p0e02")
+passage = SubResource("Resource_id4v8")
 
-[sub_resource type="Resource" id="Resource_vgljx"]
+[sub_resource type="Resource" id="Resource_au6xf"]
 script = ExtResource("1_id4v8")
 subject = 6
 grade = 1
 text = "Pourquoi Milo ne reconnaît-il plus le chemin de la maison ?"
 correct_answer = "il a trop couru après le papillon et s'est trop éloigné"
 choices = Array[String](["il fait nuit", "la maison a changé de place", "il a les yeux fermés"])
-passage = SubResource("Resource_p0e02")
+passage = SubResource("Resource_id4v8")
 
-[sub_resource type="Resource" id="Resource_rj6qj"]
+[sub_resource type="Resource" id="Resource_3gcag"]
 script = ExtResource("1_id4v8")
 subject = 6
 grade = 1
 text = "De quelle couleur est Milo ?"
 correct_answer = "noir et blanc"
 choices = Array[String](["gris et blanc", "roux", "tout noir"])
-passage = SubResource("Resource_p0e02")
+passage = SubResource("Resource_id4v8")
 
-[sub_resource type="Resource" id="Resource_lmn7g"]
+[sub_resource type="Resource" id="Resource_s80e4"]
 script = ExtResource("1_id4v8")
 subject = 6
 grade = 1
 text = "Quand la porte du jardin reste-t-elle ouverte ?"
 correct_answer = "un matin"
 choices = Array[String](["un soir", "à midi", "la nuit"])
-passage = SubResource("Resource_p0e02")
+passage = SubResource("Resource_id4v8")
 
-[sub_resource type="Resource" id="Resource_r6g2w"]
+[sub_resource type="Resource" id="Resource_vgljx"]
 script = ExtResource("1_id4v8")
 subject = 6
 grade = 1
 text = "Comment est l'herbe dans le jardin ce matin-là ?"
 correct_answer = "mouillée"
 choices = Array[String](["sèche", "couverte de feuilles", "gelée"])
-passage = SubResource("Resource_p0e02")
+passage = SubResource("Resource_id4v8")
 
-[sub_resource type="Resource" id="Resource_yjqf5"]
+[sub_resource type="Resource" id="Resource_rj6qj"]
 script = ExtResource("1_id4v8")
 subject = 6
 grade = 1
 text = "Pendant combien de temps Milo court-il après le papillon ?"
 correct_answer = "pendant longtemps"
 choices = Array[String](["quelques secondes", "une minute", "il ne court pas"])
-passage = SubResource("Resource_p0e02")
+passage = SubResource("Resource_id4v8")
 
-[sub_resource type="Resource" id="Resource_fm7b3"]
+[sub_resource type="Resource" id="Resource_lmn7g"]
 script = ExtResource("1_id4v8")
 subject = 6
 grade = 1
 text = "Comment Milo miaule-t-il quand il a peur ?"
 correct_answer = "de plus en plus fort"
 choices = Array[String](["tout doucement", "une seule fois", "pas du tout"])
-passage = SubResource("Resource_p0e02")
+passage = SubResource("Resource_id4v8")
 
-[sub_resource type="Resource" id="Resource_bvxsq"]
+[sub_resource type="Resource" id="Resource_r6g2w"]
 script = ExtResource("1_id4v8")
 subject = 6
 grade = 1
 text = "Où Emma cherche-t-elle Milo dans le jardin ?"
 correct_answer = "partout dans le jardin"
 choices = Array[String](["seulement près de la porte", "dans la maison", "chez le voisin"])
-passage = SubResource("Resource_p0e02")
+passage = SubResource("Resource_id4v8")
 
-[sub_resource type="Resource" id="Resource_sm7h2"]
+[sub_resource type="Resource" id="Resource_yjqf5"]
 script = ExtResource("1_id4v8")
 subject = 6
 grade = 1
 text = "Que fait Milo quand Emma le prend dans ses bras ?"
 correct_answer = "il ronronne de bonheur"
 choices = Array[String](["il continue de miauler", "il s'échappe en courant", "il a encore peur"])
-passage = SubResource("Resource_p0e02")
+passage = SubResource("Resource_id4v8")
 
-[sub_resource type="Resource" id="Resource_ioxuu"]
+[sub_resource type="Resource" id="Resource_fm7b3"]
 script = ExtResource("1_id4v8")
 subject = 6
 grade = 1
 text = "Que fait Milo juste avant de s'arrêter de courir après le papillon ?"
 correct_answer = "il poursuit le papillon pendant longtemps"
 choices = Array[String](["il rentre directement à la maison", "il s'endort dans l'herbe", "il retourne voir Emma"])
-passage = SubResource("Resource_p0e02")
+passage = SubResource("Resource_id4v8")
 
-[sub_resource type="Resource" id="Resource_r78y2"]
+[sub_resource type="Resource" id="Resource_bvxsq"]
 script = ExtResource("1_id4v8")
 subject = 6
 grade = 1
 text = "Que veut dire \"il aperçoit un papillon\" ?"
 correct_answer = "il voit soudain un papillon"
 choices = Array[String](["il entend un papillon", "il touche un papillon", "il sent un papillon"])
-passage = SubResource("Resource_p0e02")
+passage = SubResource("Resource_id4v8")
 
-[sub_resource type="Resource" id="Resource_nyg4k"]
+[sub_resource type="Resource" id="Resource_sm7h2"]
 script = ExtResource("1_id4v8")
 subject = 6
 grade = 1
 text = "Pourquoi Milo se cache-t-il sous un buisson ?"
 correct_answer = "parce qu'il a peur et cherche à se protéger"
 choices = Array[String](["parce qu'il veut jouer", "parce qu'il a faim", "parce qu'il fait la sieste"])
-passage = SubResource("Resource_p0e02")
+passage = SubResource("Resource_id4v8")
 
 [resource]
 script = ExtResource("3_ou01a")
-questions = Array[ExtResource("1_id4v8")]([SubResource("Resource_y8b36"), SubResource("Resource_lk6j5"), SubResource("Resource_matux"), SubResource("Resource_bkwl7"), SubResource("Resource_igt5v"), SubResource("Resource_q3jwh"), SubResource("Resource_au6xf"), SubResource("Resource_3gcag"), SubResource("Resource_s80e4"), SubResource("Resource_vgljx"), SubResource("Resource_rj6qj"), SubResource("Resource_lmn7g"), SubResource("Resource_r6g2w"), SubResource("Resource_yjqf5"), SubResource("Resource_fm7b3"), SubResource("Resource_bvxsq"), SubResource("Resource_sm7h2"), SubResource("Resource_ioxuu"), SubResource("Resource_r78y2"), SubResource("Resource_nyg4k")])
+questions = Array[ExtResource("1_id4v8")]([SubResource("Resource_d04sq"), SubResource("Resource_ou01a"), SubResource("Resource_p0e02"), SubResource("Resource_y8b36"), SubResource("Resource_lk6j5"), SubResource("Resource_matux"), SubResource("Resource_bkwl7"), SubResource("Resource_igt5v"), SubResource("Resource_q3jwh"), SubResource("Resource_au6xf"), SubResource("Resource_3gcag"), SubResource("Resource_s80e4"), SubResource("Resource_vgljx"), SubResource("Resource_rj6qj"), SubResource("Resource_lmn7g"), SubResource("Resource_r6g2w"), SubResource("Resource_yjqf5"), SubResource("Resource_fm7b3"), SubResource("Resource_bvxsq"), SubResource("Resource_sm7h2")])

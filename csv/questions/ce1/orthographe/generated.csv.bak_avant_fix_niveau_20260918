@@ -17,24 +17,24 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 2329;Les enfants ___ contents.;sont;son;sons;se
 2330;Elle range ___ cartable.;son;sont;sons;se
 2331;Mes amis ___ en retard.;sont;son;sons;se
-2332;"Combien de lettres y a-t-il dans le mot ""ruisseau"" ?";8;5;6;10
-2333;"Combien de lettres y a-t-il dans le mot ""demander"" ?";8;9;6;10
-2334;"Combien de lettres y a-t-il dans le mot ""bavarder"" ?";8;10;7;6
-2335;"Combien de lettres y a-t-il dans le mot ""bijou"" ?";5;4;8;3
-2336;"Combien de lettres y a-t-il dans le mot ""immense"" ?";7;5;10;9
-2337;"Combien de lettres y a-t-il dans le mot ""colline"" ?";7;9;5;10
-2338;"Combien de lettres y a-t-il dans le mot ""gentil"" ?";6;7;4;9
-2339;"Combien de lettres y a-t-il dans le mot ""sauter"" ?";6;3;9;4
-2340;"Combien de lettres y a-t-il dans le mot ""vieux"" ?";5;7;6;2
-2341;"Combien de lettres y a-t-il dans le mot ""détester"" ?";8;5;10;7
-2342;"Combien de lettres y a-t-il dans le mot ""agenda"" ?";6;9;5;4
-2343;"Combien de lettres y a-t-il dans le mot ""planète"" ?";7;4;9;10
-2364;"Combien de lettres y a-t-il dans le mot ""feutre"" ?";6;8;3;5
-2365;"Combien de lettres y a-t-il dans le mot ""plage"" ?";5;7;3;6
-2366;"Combien de lettres y a-t-il dans le mot ""utile"" ?";5;7;6;8
-2367;"Combien de lettres y a-t-il dans le mot ""dévoiler"" ?";8;7;11;9
-2368;"Combien de lettres y a-t-il dans le mot ""savourer"" ?";8;7;11;6
-2369;"Combien de lettres y a-t-il dans le mot ""fréquent"" ?";8;7;5;6
+2332;Quel mois vient juste après janvier ?;février;octobre;novembre;décembre
+2333;Quel mois vient juste après février ?;mars;novembre;octobre;juillet
+2334;Quel mois vient juste après mars ?;avril;janvier;novembre;mars
+2335;Quel mois vient juste après avril ?;mai;avril;janvier;juin
+2336;Quel mois vient juste après mai ?;juin;avril;novembre;octobre
+2337;Quel mois vient juste après juin ?;juillet;mars;novembre;août
+2338;Quel mois vient juste après juillet ?;août;novembre;juillet;septembre
+2339;Quel mois vient juste après août ?;septembre;décembre;juin;juillet
+2340;Quel mois vient juste après septembre ?;octobre;septembre;août;mai
+2341;Quel mois vient juste après octobre ?;novembre;juillet;octobre;janvier
+2342;Quel mois vient juste après novembre ?;décembre;juin;novembre;août
+2343;Quel mois vient juste après décembre ?;janvier;avril;juin;décembre
+2364;"Quel est un synonyme de ""grand"" ?";immense;minuscule;joli;rapide
+2365;"Quel est un synonyme de ""commencer"" ?";débuter;observer;discuter;raconter
+2366;"Quel est un synonyme de ""drôle"" ?";amusant;joli;triste;malheureux
+2367;"Quel est un synonyme de ""triste"" ?";malheureux;épuisé;amusant;immense
+2368;"Quel est un synonyme de ""parler"" ?";discuter;observer;raconter;débuter
+2369;"Quel est un synonyme de ""fatigue"" ?";épuisement;joli;malheureux;triste
 2370;Noé ___ rapide en ce moment.;est;et;es;ai
 2371;Louna ___ vraiment timide.;est;et;es;ai
 2372;Aujourd'hui, Capucine ___ bavarde.;est;et;es;ai
@@ -43,9 +43,9 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 2375;Aujourd'hui, Robin ___ vif.;est;et;es;ai
 2376;Milo ___ têtu en ce moment.;est;et;es;ai
 2377;Raphaël ___ vraiment serviable.;est;et;es;ai
-2398;"Combien de lettres y a-t-il dans le mot ""maison"" ?";6;5;7;9
-2399;"Combien de lettres y a-t-il dans le mot ""galaxie"" ?";7;10;6;4
-2400;"Combien de lettres y a-t-il dans le mot ""torride"" ?";7;10;6;9
+2398;Quel mois vient juste avant janvier ?;décembre;septembre;octobre;août
+2399;Quel mois vient juste avant février ?;janvier;septembre;mai;avril
+2400;Quel mois vient juste avant mars ?;février;septembre;juillet;mars
 30000;Comment s'appelle la femelle du : cerf ?;biche;cerf;cerfe;bichee
 30001;Comment s'appelle le mâle de la : biche ?;cerf;biche;bichee;cerfe
 30002;Comment s'appelle la femelle du : bouc ?;chèvre;bouc;bouce;chèvree
@@ -801,50 +801,50 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 30756;Les escargots ___ vraiment émerveillés aujourd'hui.;sont;son;sons;se
 30757;Les chevreaux ___ assoiffés.;sont;son;sons;se
 30758;Les pingouins ___ vraiment attentifs aujourd'hui.;sont;son;sons;se
-30759;"Combien de lettres y a-t-il dans le mot ""grenier"" ?";7;4;5;6
-30760;"Combien de lettres y a-t-il dans le mot ""aider"" ?";5;4;2;8
-30761;"Combien de lettres y a-t-il dans le mot ""large"" ?";5;3;2;7
-30762;"Combien de lettres y a-t-il dans le mot ""arbre"" ?";5;7;3;8
-30763;"Combien de lettres y a-t-il dans le mot ""boussole"" ?";8;9;5;11
-30764;"Combien de lettres y a-t-il dans le mot ""commode"" ?";7;6;4;8
-30765;"Combien de lettres y a-t-il dans le mot ""gel"" ?";3;5;4;6
-30766;"Combien de lettres y a-t-il dans le mot ""étagère"" ?";7;10;4;5
-30767;"Combien de lettres y a-t-il dans le mot ""océan"" ?";5;8;2;4
-30768;"Combien de lettres y a-t-il dans le mot ""gomme"" ?";5;4;3;2
-30769;"Combien de lettres y a-t-il dans le mot ""cadre"" ?";5;3;2;8
-30770;"Combien de lettres y a-t-il dans le mot ""seconde"" ?";7;4;10;9
-30771;"Combien de lettres y a-t-il dans le mot ""skier"" ?";5;8;3;7
-30773;"Combien de lettres y a-t-il dans le mot ""deviner"" ?";7;9;6;4
-30774;"Combien de lettres y a-t-il dans le mot ""déborder"" ?";8;7;6;11
-30775;"Combien de lettres y a-t-il dans le mot ""serveur"" ?";7;6;9;4
-30776;"Combien de lettres y a-t-il dans le mot ""souple"" ?";6;3;8;9
-30777;"Combien de lettres y a-t-il dans le mot ""forêt"" ?";5;2;7;3
-30778;"Combien de lettres y a-t-il dans le mot ""habituel"" ?";8;6;10;7
-30779;"Combien de lettres y a-t-il dans le mot ""mince"" ?";5;7;6;8
-30780;"Combien de lettres y a-t-il dans le mot ""grotte"" ?";6;7;5;9
-30781;"Combien de lettres y a-t-il dans le mot ""facteur"" ?";7;9;4;6
-30782;"Combien de lettres y a-t-il dans le mot ""vallée"" ?";6;3;9;5
-30783;"Combien de lettres y a-t-il dans le mot ""toit"" ?";4;7;6;5
-30784;"Combien de lettres y a-t-il dans le mot ""fatigué"" ?";7;8;6;5
-30785;"Combien de lettres y a-t-il dans le mot ""dragon"" ?";6;8;9;5
-30786;"Combien de lettres y a-t-il dans le mot ""clinique"" ?";8;6;9;10
-30787;"Combien de lettres y a-t-il dans le mot ""poêle"" ?";5;2;3;8
-30788;"Combien de lettres y a-t-il dans le mot ""mesurer"" ?";7;8;5;10
-30789;"Combien de lettres y a-t-il dans le mot ""tiède"" ?";5;7;4;3
-30790;"Combien de lettres y a-t-il dans le mot ""plat"" ?";4;3;6;1
-30792;"Combien de lettres y a-t-il dans le mot ""champ"" ?";5;2;4;3
-30793;"Combien de lettres y a-t-il dans le mot ""balcon"" ?";6;7;3;4
-30794;"Combien de lettres y a-t-il dans le mot ""répondre"" ?";8;10;6;11
-30795;"Combien de lettres y a-t-il dans le mot ""brillant"" ?";8;7;5;6
-30796;"Combien de lettres y a-t-il dans le mot ""entier"" ?";6;8;3;9
-30797;"Combien de lettres y a-t-il dans le mot ""classe"" ?";6;3;7;4
-30798;"Combien de lettres y a-t-il dans le mot ""lac"" ?";3;2;5;4
-30799;"Combien de lettres y a-t-il dans le mot ""ouragan"" ?";7;6;10;9
-30800;"Combien de lettres y a-t-il dans le mot ""dehors"" ?";6;5;3;4
-30801;"Combien de lettres y a-t-il dans le mot ""peu"" ?";3;5;2;6
-30802;"Combien de lettres y a-t-il dans le mot ""escalier"" ?";8;5;10;9
-30803;"Combien de lettres y a-t-il dans le mot ""vite"" ?";4;1;7;2
-30804;"Combien de lettres y a-t-il dans le mot ""coller"" ?";6;3;8;4
+30759;"Quel est un synonyme de ""terminer"" ?";finir;donner;descendre;fermer
+30760;"Quel est un synonyme de ""observer"" ?";fixer;donner;monter;pleurer
+30761;"Quel est un synonyme de ""dire"" ?";raconter;rire;monter;prendre
+30762;"Quel est un synonyme de ""aimer"" ?";adorer;fermer;rire;tomber
+30763;"Quel est un synonyme de ""détester"" ?";haïr;donner;parler;chanter
+30764;"Quel est un synonyme de ""pleurer"" ?";sangloter;dormir;ouvrir;sauter
+30765;"Quel est un synonyme de ""rire"" ?";glousser;aider;prendre;pleurer
+30766;"Quel est un synonyme de ""courir"" ?";filer;manger;descendre;dormir
+30767;"Quel est un synonyme de ""sauter"" ?";bondir;dormir;fermer;courir
+30768;"Quel est un synonyme de ""tomber"" ?";chuter;regarder;manger;prendre
+30769;"Quel est un synonyme de ""marcher"" ?";avancer;jouer;prendre;pleurer
+30770;"Quel est un synonyme de ""manger"" ?";dévorer;descendre;regarder;marcher
+30771;"Quel est un synonyme de ""boire"" ?";avaler;prendre;manger;dormir
+30773;"Quel est un synonyme de ""dormir"" ?";sommeiller;prendre;parler;donner
+30774;"Quel est un synonyme de ""réveiller"" ?";éveiller;descendre;dormir;regarder
+30775;"Quel est un synonyme de ""attraper"" ?";saisir;marcher;courir;monter
+30776;"Quel est un synonyme de ""lancer"" ?";jeter;parler;manger;dormir
+30777;"Quel est un synonyme de ""porter"" ?";transporter;ouvrir;tomber;chercher
+30778;"Quel est un synonyme de ""casser"" ?";briser;tomber;parler;chercher
+30779;"Quel est un synonyme de ""réparer"" ?";arranger;dormir;manger;ouvrir
+30780;"Quel est un synonyme de ""construire"" ?";bâtir;pleurer;fermer;sauter
+30781;"Quel est un synonyme de ""détruire"" ?";démolir;prendre;chercher;ouvrir
+30782;"Quel est un synonyme de ""chanter"" ?";fredonner;donner;dormir;courir
+30783;"Quel est un synonyme de ""jouer"" ?";s'amuser;regarder;marcher;dormir
+30784;"Quel est un synonyme de ""gagner"" ?";remporter;parler;marcher;manger
+30785;"Quel est un synonyme de ""perdre"" ?";égarer;aider;tomber;chanter
+30786;"Quel est un synonyme de ""donner"" ?";offrir;courir;tomber;manger
+30787;"Quel est un synonyme de ""garder"" ?";conserver;sauter;donner;prendre
+30788;"Quel est un synonyme de ""cacher"" ?";dissimuler;rire;descendre;pleurer
+30789;"Quel est un synonyme de ""chuchoter"" ?";murmurer;donner;monter;pleurer
+30790;"Quel est un synonyme de ""penser"" ?";réfléchir;chanter;aider;chercher
+30792;"Quel est un synonyme de ""essayer"" ?";tenter;tomber;chercher;aider
+30793;"Quel est un synonyme de ""réussir"" ?";parvenir;pleurer;manger;regarder
+30794;"Quel est un synonyme de ""échouer"" ?";rater;ouvrir;parler;manger
+30795;"Quel est un synonyme de ""continuer"" ?";poursuivre;pleurer;rire;chercher
+30796;"Quel est un synonyme de ""arrêter"" ?";stopper;fermer;ouvrir;tomber
+30797;"Quel est un synonyme de ""bouger"" ?";remuer;sauter;chanter;pleurer
+30798;"Quel est un synonyme de ""trembler"" ?";frissonner;donner;regarder;manger
+30799;"Quel est un synonyme de ""briller"" ?";scintiller;fermer;marcher;parler
+30800;"Quel est un synonyme de ""crier"" ?";hurler;chercher;dormir;ouvrir
+30801;"Quel est un synonyme de ""appeler"" ?";héler;dormir;pleurer;courir
+30802;"Quel est un synonyme de ""expliquer"" ?";détailler;manger;jouer;ouvrir
+30803;"Quel est un synonyme de ""choisir"" ?";sélectionner;fermer;donner;chanter
+30804;"Quel est un synonyme de ""admirer"" ?";contempler;ouvrir;prendre;chanter
 30805;Le livre ___ ouvert.;est;et;son;sont
 30806;L'eau ___ froide.;est;et;son;sont
 30807;Le ballon ___ rouge.;est;et;son;sont
@@ -923,76 +923,76 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 30880;Comment s'appelle le mâle de la : pigeonne ?;pigeon;chien;chat;taureau
 30881;Comment s'appelle la femelle du : chameau ?;chamelle;chienne;chatte;vache
 30882;Comment s'appelle le mâle de la : chamelle ?;chameau;chien;chat;taureau
-30883;"Combien de lettres y a-t-il dans le mot ""complexe"" ?";8;7;10;9
-30884;"Combien de lettres y a-t-il dans le mot ""musicien"" ?";8;9;7;5
-30885;"Combien de lettres y a-t-il dans le mot ""courbé"" ?";6;3;4;8
-30886;"Combien de lettres y a-t-il dans le mot ""ici"" ?";3;4;6;5
-30887;"Combien de lettres y a-t-il dans le mot ""partiel"" ?";7;9;8;4
-30888;"Combien de lettres y a-t-il dans le mot ""glacé"" ?";5;6;3;8
-30889;"Combien de lettres y a-t-il dans le mot ""fondre"" ?";6;8;5;3
-30890;"Combien de lettres y a-t-il dans le mot ""flotter"" ?";7;4;10;5
-30891;"Combien de lettres y a-t-il dans le mot ""plein"" ?";5;6;8;7
-30892;"Combien de lettres y a-t-il dans le mot ""roi"" ?";3;5;4;2
-30893;"Combien de lettres y a-t-il dans le mot ""tempéré"" ?";7;5;6;8
-30894;"Combien de lettres y a-t-il dans le mot ""allumer"" ?";7;5;10;8
-30895;"Combien de lettres y a-t-il dans le mot ""agréable"" ?";8;5;11;7
-30896;"Combien de lettres y a-t-il dans le mot ""matin"" ?";5;2;3;7
-30897;"Combien de lettres y a-t-il dans le mot ""joli"" ?";4;2;5;7
-30898;"Combien de lettres y a-t-il dans le mot ""cuisine"" ?";7;9;4;8
-30899;"Combien de lettres y a-t-il dans le mot ""collier"" ?";7;8;4;6
-30900;"Combien de lettres y a-t-il dans le mot ""rideau"" ?";6;8;5;9
-30901;"Combien de lettres y a-t-il dans le mot ""flexible"" ?";8;10;11;9
-30902;"Combien de lettres y a-t-il dans le mot ""nouveau"" ?";7;5;9;6
-30903;"Combien de lettres y a-t-il dans le mot ""attaquer"" ?";8;11;5;9
-30904;"Combien de lettres y a-t-il dans le mot ""chapeau"" ?";7;6;4;8
-30905;"Combien de lettres y a-t-il dans le mot ""éclairer"" ?";8;10;7;9
-30906;"Combien de lettres y a-t-il dans le mot ""petit"" ?";5;7;3;4
-30907;"Combien de lettres y a-t-il dans le mot ""glacial"" ?";7;4;5;9
-30908;"Combien de lettres y a-t-il dans le mot ""verser"" ?";6;9;5;4
-30909;"Combien de lettres y a-t-il dans le mot ""colossal"" ?";8;6;11;9
-30910;"Combien de lettres y a-t-il dans le mot ""dévaler"" ?";7;8;5;6
-30911;"Combien de lettres y a-t-il dans le mot ""vide"" ?";4;7;3;5
-30912;"Combien de lettres y a-t-il dans le mot ""placard"" ?";7;4;9;10
-30914;"Combien de lettres y a-t-il dans le mot ""hiver"" ?";5;8;7;3
-30916;"Combien de lettres y a-t-il dans le mot ""magique"" ?";7;9;10;8
-30917;"Combien de lettres y a-t-il dans le mot ""lampe"" ?";5;2;3;7
-30918;"Combien de lettres y a-t-il dans le mot ""sirop"" ?";5;4;3;8
-30919;"Combien de lettres y a-t-il dans le mot ""choquant"" ?";8;10;9;6
-30920;"Combien de lettres y a-t-il dans le mot ""pilote"" ?";6;5;3;4
-30921;"Combien de lettres y a-t-il dans le mot ""orageux"" ?";7;4;10;8
-30922;"Combien de lettres y a-t-il dans le mot ""salé"" ?";4;3;2;6
-30923;"Combien de lettres y a-t-il dans le mot ""rêver"" ?";5;2;6;8
-30924;"Combien de lettres y a-t-il dans le mot ""rentrer"" ?";7;8;9;6
-30925;"Combien de lettres y a-t-il dans le mot ""ballon"" ?";6;7;4;9
-30926;"Combien de lettres y a-t-il dans le mot ""iceberg"" ?";7;6;8;9
-30927;"Combien de lettres y a-t-il dans le mot ""carte"" ?";5;2;7;4
-30928;"Combien de lettres y a-t-il dans le mot ""couler"" ?";6;3;9;4
-30929;"Combien de lettres y a-t-il dans le mot ""stressé"" ?";7;6;4;9
-30930;"Combien de lettres y a-t-il dans le mot ""dur"" ?";3;4;5;1
-30931;"Combien de lettres y a-t-il dans le mot ""peigne"" ?";6;9;4;3
-30932;"Combien de lettres y a-t-il dans le mot ""vélo"" ?";4;6;2;1
-30933;"Combien de lettres y a-t-il dans le mot ""avaler"" ?";6;3;9;4
-30934;"Combien de lettres y a-t-il dans le mot ""fille"" ?";5;8;2;7
-30935;"Combien de lettres y a-t-il dans le mot ""ailleurs"" ?";8;7;5;11
-30936;"Combien de lettres y a-t-il dans le mot ""marché"" ?";6;9;3;4
-30937;"Combien de lettres y a-t-il dans le mot ""émerger"" ?";7;9;10;6
-30938;"Combien de lettres y a-t-il dans le mot ""tomber"" ?";6;8;4;5
-30939;"Combien de lettres y a-t-il dans le mot ""drapeau"" ?";7;9;10;6
-30941;"Combien de lettres y a-t-il dans le mot ""nager"" ?";5;8;7;3
-30942;"Combien de lettres y a-t-il dans le mot ""gronder"" ?";7;9;5;8
-30943;"Combien de lettres y a-t-il dans le mot ""cartable"" ?";8;6;10;11
-30944;"Combien de lettres y a-t-il dans le mot ""ouvrir"" ?";6;7;3;8
-30945;"Combien de lettres y a-t-il dans le mot ""rire"" ?";4;3;7;2
-30946;"Combien de lettres y a-t-il dans le mot ""caverne"" ?";7;9;5;8
-30947;"Combien de lettres y a-t-il dans le mot ""très"" ?";4;7;5;2
-30948;"Combien de lettres y a-t-il dans le mot ""magasin"" ?";7;9;4;6
-30949;"Combien de lettres y a-t-il dans le mot ""acteur"" ?";6;7;8;5
-30950;"Combien de lettres y a-t-il dans le mot ""propre"" ?";6;9;3;5
-30951;"Combien de lettres y a-t-il dans le mot ""grange"" ?";6;3;8;9
-30952;"Combien de lettres y a-t-il dans le mot ""manger"" ?";6;5;8;4
-30953;"Combien de lettres y a-t-il dans le mot ""chanteur"" ?";8;11;6;10
-30954;"Combien de lettres y a-t-il dans le mot ""lire"" ?";4;1;6;2
-30955;"Combien de lettres y a-t-il dans le mot ""patiner"" ?";7;10;6;4
+30883;"Quel est un synonyme de ""content"" ?";heureux;triste;lent;petit
+30884;"Quel est un synonyme de ""rapide"" ?";vif;triste;lent;petit
+30885;"Quel est un synonyme de ""beau"" ?";magnifique;triste;lent;petit
+30886;"Quel est un synonyme de ""laid"" ?";affreux;triste;lent;petit
+30887;"Quel est un synonyme de ""petit"" ?";minuscule;triste;lent;grand
+30888;"Quel est un synonyme de ""fort"" ?";puissant;triste;lent;petit
+30889;"Quel est un synonyme de ""intelligent"" ?";malin;triste;lent;petit
+30890;"Quel est un synonyme de ""gentil"" ?";aimable;triste;lent;petit
+30891;"Quel est un synonyme de ""courageux"" ?";brave;triste;lent;petit
+30892;"Quel est un synonyme de ""peur"" ?";crainte;triste;lent;petit
+30893;"Quel est un synonyme de ""joie"" ?";bonheur;triste;lent;petit
+30894;"Quel est un synonyme de ""colère"" ?";fureur;triste;lent;petit
+30895;"Quel est un synonyme de ""regarder"" ?";observer;triste;lent;petit
+30896;"Quel est un synonyme de ""écouter"" ?";entendre;triste;lent;petit
+30897;"Quel est un synonyme de ""chercher"" ?";fouiller;triste;lent;petit
+30898;"Quel est un synonyme de ""trouver"" ?";découvrir;triste;lent;petit
+30899;"Quel est un synonyme de ""aider"" ?";assister;triste;lent;petit
+30900;"Quel est un synonyme de ""finir"" ?";terminer;triste;lent;petit
+30901;"Quel est un synonyme de ""débuter"" ?";commencer;triste;lent;petit
+30902;"Quel est un synonyme de ""montrer"" ?";indiquer;triste;lent;petit
+30903;Quel mois vient juste avant avril ?;mars;août;février;juillet
+30904;Quel mois vient juste avant mai ?;avril;novembre;juin;juillet
+30905;Quel mois vient juste avant juin ?;mai;décembre;juin;février
+30906;Quel mois vient juste avant juillet ?;juin;août;septembre;mars
+30907;Quel mois vient juste avant août ?;juillet;février;mars;juin
+30908;Quel mois vient juste avant septembre ?;août;mai;septembre;décembre
+30909;Quel mois vient juste avant octobre ?;septembre;février;juillet;novembre
+30910;Quel mois vient juste avant novembre ?;octobre;mai;février;mars
+30911;Quel mois vient juste avant décembre ?;novembre;juin;octobre;septembre
+30912;"Quel est un synonyme de ""surveiller"" ?";guetter;chercher;rire;chanter
+30914;"Quel est un synonyme de ""posséder"" ?";détenir;parler;courir;ouvrir
+30916;"Quel est un synonyme de ""refuser"" ?";décliner;pleurer;rire;descendre
+30917;"Quel est un synonyme de ""accepter"" ?";approuver;pleurer;chercher;prendre
+30918;"Quel est un synonyme de ""inventer"" ?";créer;fermer;dormir;aider
+30919;"Quel est un synonyme de ""mignon"" ?";adorable;carré;content;triste
+30920;"Quel est un synonyme de ""immense"" ?";gigantesque;carré;triste;chaud
+30921;"Quel est un synonyme de ""minuscule"" ?";microscopique;clair;rond;chaud
+30922;"Quel est un synonyme de ""propre"" ?";impeccable;léger;court;vieux
+30923;"Quel est un synonyme de ""sale"" ?";crasseux;triste;doux;froid
+30924;"Quel est un synonyme de ""puissant"" ?";robuste;lent;clair;court
+30925;"Quel est un synonyme de ""malin"" ?";astucieux;joli;froid;chaud
+30926;"Quel est un synonyme de ""rusé"" ?";futé;poli;joli;rouge
+30927;"Quel est un synonyme de ""effrayé"" ?";apeuré;froid;chaud;léger
+30928;"Quel est un synonyme de ""fatigué"" ?";exténué;salé;clair;carré
+30929;"Quel est un synonyme de ""calme"" ?";tranquille;carré;doux;vieux
+30930;"Quel est un synonyme de ""agité"" ?";turbulent;grand;triste;lent
+30931;"Quel est un synonyme de ""difficile"" ?";ardu;froid;grand;lent
+30932;"Quel est un synonyme de ""facile"" ?";aisé;salé;petit;lent
+30933;"Quel est un synonyme de ""simple"" ?";élémentaire;carré;rouge;court
+30934;"Quel est un synonyme de ""joli"" ?";charmant;grand;vieux;rouge
+30935;"Quel est un synonyme de ""magnifique"" ?";splendide;rouge;froid;court
+30936;"Quel est un synonyme de ""horrible"" ?";affreux;froid;vieux;petit
+30937;"Quel est un synonyme de ""étrange"" ?";bizarre;lent;froid;triste
+30938;"Quel est un synonyme de ""célèbre"" ?";connu;salé;grand;carré
+30939;"Quel est un synonyme de ""précieux"" ?";inestimable;lent;petit;grand
+30941;"Quel est un synonyme de ""solide"" ?";résistant;froid;court;joli
+30942;"Quel est un synonyme de ""fragile"" ?";délicat;léger;rouge;court
+30943;"Quel est un synonyme de ""véloce"" ?";prompt;rouge;rond;triste
+30944;"Quel est un synonyme de ""maison"" ?";demeure;table;chapeau;fenêtre
+30945;"Quel est un synonyme de ""chemin"" ?";sentier;montagne;fenêtre;voiture
+30946;"Quel est un synonyme de ""bois"" ?";forêt;rivière;nuage;cahier
+30947;"Quel est un synonyme de ""bruit"" ?";vacarme;voiture;cahier;chaise
+30948;"Quel est un synonyme de ""odeur"" ?";parfum;porte;ballon;route
+30949;"Quel est un synonyme de ""travail"" ?";labeur;montagne;vélo;fleur
+30950;"Quel est un synonyme de ""récompense"" ?";prix;table;nuage;chapeau
+30951;"Quel est un synonyme de ""problème"" ?";souci;montagne;ballon;table
+30952;"Quel est un synonyme de ""idée"" ?";pensée;ballon;chaise;fenêtre
+30953;"Quel est un synonyme de ""histoire"" ?";récit;route;fleur;chapeau
+30954;"Quel est un synonyme de ""ami"" ?";copain;route;nuage;table
+30955;"Quel est un synonyme de ""collation"" ?";goûter;chaise;nuage;montagne
 30956;Comment s'appelle le mâle de la : jument ?;cheval;jument;jumente;chevale
 30957;Comment s'appelle le mâle de la : guenon ?;singe;guenon;guenone;singee
 30958;Comment s'appelle le mâle de la : chienne ?;chien;chienne;chienneee;chiene

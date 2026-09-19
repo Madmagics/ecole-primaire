@@ -488,83 +488,83 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 19486;"Que veut dire ""The ball is behind the box"" en français ?";le ballon est derrière la boîte;le ballon est dans la boîte;le ballon est sous la boîte;le ballon est sur la boîte
 19487;"Comment dit-on ""le ballon est devant la boîte"" en anglais ?";The ball is in front of the box;The ball is under the box;The ball is in the box;The ball is next to the box
 19488;"Que veut dire ""The ball is in front of the box"" en français ?";le ballon est devant la boîte;le ballon est derrière la boîte;le ballon est dans la boîte;le ballon est sous la boîte
-19489;"Comment dit-on ""j'ai onze crayons"" en anglais ?";I have eleven pencils;I have eleven cats;I see eleven birds;I have eleven rulers
+19489;"Comment dit-on ""j'ai onze crayons"" en anglais ?";I have eleven pencils;I have eleven cats;I saw eleven birds;I have eleven rulers
 19490;"Que veut dire ""I have eleven pencils"" en français ?";j'ai onze crayons;j'ai onze lapins;j'ai onze livres;j'ai onze chats
-19491;"Comment dit-on ""j'ai onze gommes"" en anglais ?";I have eleven rubbers;I have eleven dogs;I have eleven cats;I see eleven birds
+19491;"Comment dit-on ""j'ai onze gommes"" en anglais ?";I have eleven rubbers;I have eleven dogs;I have eleven cats;I saw eleven birds
 19492;"Que veut dire ""I have eleven rubbers"" en français ?";j'ai onze gommes;j'ai onze crayons;j'ai onze règles;j'ai onze lapins
-19493;"Comment dit-on ""j'ai onze règles"" en anglais ?";I have eleven rulers;I have eleven rubbers;I see eleven birds;I have eleven dogs
+19493;"Comment dit-on ""j'ai onze règles"" en anglais ?";I have eleven rulers;I have eleven rubbers;I saw eleven birds;I have eleven dogs
 19494;"Que veut dire ""I have eleven rulers"" en français ?";j'ai onze règles;j'ai onze chats;j'ai onze gommes;j'ai onze crayons
-19495;"Comment dit-on ""j'ai onze livres"" en anglais ?";I have eleven books;I have eleven rubbers;I have eleven pencils;I see eleven birds
-19496;"Que veut dire ""I have eleven books"" en français ?";j'ai onze livres;j'ai onze lapins;j'ai onze règles;je vois onze oiseaux
+19495;"Comment dit-on ""j'ai onze livres"" en anglais ?";I have eleven books;I have eleven rubbers;I have eleven pencils;I saw eleven birds
+19496;"Que veut dire ""I have eleven books"" en français ?";j'ai onze livres;j'ai onze lapins;j'ai onze règles;j'ai vu onze oiseaux
 19497;"Comment dit-on ""j'ai onze chats"" en anglais ?";I have eleven cats;I have eleven dogs;I have eleven rulers;I have eleven books
 19498;"Que veut dire ""I have eleven cats"" en français ?";j'ai onze chats;j'ai onze gommes;j'ai onze lapins;j'ai onze chiens
 19499;"Comment dit-on ""j'ai onze chiens"" en anglais ?";I have eleven dogs;I have eleven rabbits;I have eleven rubbers;I have eleven books
 19500;"Que veut dire ""I have eleven dogs"" en français ?";j'ai onze chiens;j'ai onze chats;j'ai onze règles;j'ai onze livres
-19501;"Comment dit-on ""je vois onze oiseaux"" en anglais ?";I see eleven birds;I have eleven rulers;I have eleven cats;I have eleven dogs
-19502;"Que veut dire ""I see eleven birds"" en français ?";je vois onze oiseaux;j'ai onze chats;j'ai onze livres;j'ai onze crayons
+19501;"Comment dit-on ""j'ai vu onze oiseaux"" en anglais ?";I saw eleven birds;I have eleven rulers;I have eleven cats;I have eleven dogs
+19502;"Que veut dire ""I saw eleven birds"" en français ?";j'ai vu onze oiseaux;j'ai onze chats;j'ai onze livres;j'ai onze crayons
 19503;"Comment dit-on ""j'ai onze lapins"" en anglais ?";I have eleven rabbits;I have eleven dogs;I have eleven cats;I have eleven rulers
-19504;"Que veut dire ""I have eleven rabbits"" en français ?";j'ai onze lapins;j'ai onze chiens;je vois onze oiseaux;j'ai onze chats
+19504;"Que veut dire ""I have eleven rabbits"" en français ?";j'ai onze lapins;j'ai onze chiens;j'ai vu onze oiseaux;j'ai onze chats
 19505;"Comment dit-on ""j'ai douze crayons"" en anglais ?";I have twelve pencils;I have twelve dogs;I have twelve books;I have twelve rubbers
 19506;"Que veut dire ""I have twelve pencils"" en français ?";j'ai douze crayons;j'ai douze lapins;j'ai douze règles;j'ai douze livres
 19507;"Comment dit-on ""j'ai douze gommes"" en anglais ?";I have twelve rubbers;I have twelve pencils;I have twelve rabbits;I have twelve dogs
-19508;"Que veut dire ""I have twelve rubbers"" en français ?";j'ai douze gommes;j'ai douze livres;je vois douze oiseaux;j'ai douze règles
+19508;"Que veut dire ""I have twelve rubbers"" en français ?";j'ai douze gommes;j'ai douze livres;j'ai vu douze oiseaux;j'ai douze règles
 19509;"Comment dit-on ""j'ai douze règles"" en anglais ?";I have twelve rulers;I have twelve dogs;I have twelve books;I have twelve rabbits
 19510;"Que veut dire ""I have twelve rulers"" en français ?";j'ai douze règles;j'ai douze livres;j'ai douze crayons;j'ai douze chats
-19511;"Comment dit-on ""j'ai douze livres"" en anglais ?";I have twelve books;I have twelve dogs;I see twelve birds;I have twelve rulers
+19511;"Comment dit-on ""j'ai douze livres"" en anglais ?";I have twelve books;I have twelve dogs;I saw twelve birds;I have twelve rulers
 19512;"Que veut dire ""I have twelve books"" en français ?";j'ai douze livres;j'ai douze chiens;j'ai douze gommes;j'ai douze chats
 19513;"Comment dit-on ""j'ai douze chats"" en anglais ?";I have twelve cats;I have twelve pencils;I have twelve rubbers;I have twelve rulers
-19514;"Que veut dire ""I have twelve cats"" en français ?";j'ai douze chats;je vois douze oiseaux;j'ai douze règles;j'ai douze chiens
+19514;"Que veut dire ""I have twelve cats"" en français ?";j'ai douze chats;j'ai vu douze oiseaux;j'ai douze règles;j'ai douze chiens
 19515;"Comment dit-on ""j'ai douze chiens"" en anglais ?";I have twelve dogs;I have twelve cats;I have twelve pencils;I have twelve rulers
-19516;"Que veut dire ""I have twelve dogs"" en français ?";j'ai douze chiens;je vois douze oiseaux;j'ai douze gommes;j'ai douze règles
-19517;"Comment dit-on ""je vois douze oiseaux"" en anglais ?";I see twelve birds;I have twelve cats;I have twelve books;I have twelve rulers
-19518;"Que veut dire ""I see twelve birds"" en français ?";je vois douze oiseaux;j'ai douze lapins;j'ai douze crayons;j'ai douze gommes
+19516;"Que veut dire ""I have twelve dogs"" en français ?";j'ai douze chiens;j'ai vu douze oiseaux;j'ai douze gommes;j'ai douze règles
+19517;"Comment dit-on ""j'ai vu douze oiseaux"" en anglais ?";I saw twelve birds;I have twelve cats;I have twelve books;I have twelve rulers
+19518;"Que veut dire ""I saw twelve birds"" en français ?";j'ai vu douze oiseaux;j'ai douze lapins;j'ai douze crayons;j'ai douze gommes
 19519;"Comment dit-on ""j'ai douze lapins"" en anglais ?";I have twelve rabbits;I have twelve books;I have twelve rulers;I have twelve dogs
 19520;"Que veut dire ""I have twelve rabbits"" en français ?";j'ai douze lapins;j'ai douze crayons;j'ai douze chiens;j'ai douze livres
 19521;"Comment dit-on ""j'ai treize crayons"" en anglais ?";I have thirteen pencils;I have thirteen rabbits;I have thirteen dogs;I have thirteen rulers
-19522;"Que veut dire ""I have thirteen pencils"" en français ?";j'ai treize crayons;j'ai treize règles;je vois treize oiseaux;j'ai treize chiens
+19522;"Que veut dire ""I have thirteen pencils"" en français ?";j'ai treize crayons;j'ai treize règles;j'ai vu treize oiseaux;j'ai treize chiens
 19523;"Comment dit-on ""j'ai treize gommes"" en anglais ?";I have thirteen rubbers;I have thirteen dogs;I have thirteen pencils;I have thirteen rabbits
-19524;"Que veut dire ""I have thirteen rubbers"" en français ?";j'ai treize gommes;je vois treize oiseaux;j'ai treize chiens;j'ai treize chats
+19524;"Que veut dire ""I have thirteen rubbers"" en français ?";j'ai treize gommes;j'ai vu treize oiseaux;j'ai treize chiens;j'ai treize chats
 19525;"Comment dit-on ""j'ai treize règles"" en anglais ?";I have thirteen rulers;I have thirteen rubbers;I have thirteen dogs;I have thirteen rabbits
-19526;"Que veut dire ""I have thirteen rulers"" en français ?";j'ai treize règles;j'ai treize gommes;je vois treize oiseaux;j'ai treize crayons
+19526;"Que veut dire ""I have thirteen rulers"" en français ?";j'ai treize règles;j'ai treize gommes;j'ai vu treize oiseaux;j'ai treize crayons
 19527;"Comment dit-on ""j'ai treize livres"" en anglais ?";I have thirteen books;I have thirteen rabbits;I have thirteen rubbers;I have thirteen pencils
 19528;"Que veut dire ""I have thirteen books"" en français ?";j'ai treize livres;j'ai treize chats;j'ai treize lapins;j'ai treize crayons
-19529;"Comment dit-on ""j'ai treize chats"" en anglais ?";I have thirteen cats;I see thirteen birds;I have thirteen rulers;I have thirteen books
-19530;"Que veut dire ""I have thirteen cats"" en français ?";j'ai treize chats;je vois treize oiseaux;j'ai treize crayons;j'ai treize livres
+19529;"Comment dit-on ""j'ai treize chats"" en anglais ?";I have thirteen cats;I saw thirteen birds;I have thirteen rulers;I have thirteen books
+19530;"Que veut dire ""I have thirteen cats"" en français ?";j'ai treize chats;j'ai vu treize oiseaux;j'ai treize crayons;j'ai treize livres
 19531;"Comment dit-on ""j'ai treize chiens"" en anglais ?";I have thirteen dogs;I have thirteen rabbits;I have thirteen rubbers;I have thirteen cats
-19532;"Que veut dire ""I have thirteen dogs"" en français ?";j'ai treize chiens;je vois treize oiseaux;j'ai treize règles;j'ai treize chats
-19533;"Comment dit-on ""je vois treize oiseaux"" en anglais ?";I see thirteen birds;I have thirteen books;I have thirteen rulers;I have thirteen rubbers
-19534;"Que veut dire ""I see thirteen birds"" en français ?";je vois treize oiseaux;j'ai treize chats;j'ai treize gommes;j'ai treize chiens
+19532;"Que veut dire ""I have thirteen dogs"" en français ?";j'ai treize chiens;j'ai vu treize oiseaux;j'ai treize règles;j'ai treize chats
+19533;"Comment dit-on ""j'ai vu treize oiseaux"" en anglais ?";I saw thirteen birds;I have thirteen books;I have thirteen rulers;I have thirteen rubbers
+19534;"Que veut dire ""I saw thirteen birds"" en français ?";j'ai vu treize oiseaux;j'ai treize chats;j'ai treize gommes;j'ai treize chiens
 19535;"Comment dit-on ""j'ai treize lapins"" en anglais ?";I have thirteen rabbits;I have thirteen pencils;I have thirteen cats;I have thirteen books
 19536;"Que veut dire ""I have thirteen rabbits"" en français ?";j'ai treize lapins;j'ai treize gommes;j'ai treize chats;j'ai treize crayons
 19537;"Comment dit-on ""j'ai quinze crayons"" en anglais ?";I have fifteen pencils;I have fifteen cats;I have fifteen rulers;I have fifteen rabbits
 19538;"Que veut dire ""I have fifteen pencils"" en français ?";j'ai quinze crayons;j'ai quinze livres;j'ai quinze chiens;j'ai quinze lapins
-19539;"Comment dit-on ""j'ai quinze gommes"" en anglais ?";I have fifteen rubbers;I see fifteen birds;I have fifteen pencils;I have fifteen dogs
-19540;"Que veut dire ""I have fifteen rubbers"" en français ?";j'ai quinze gommes;je vois quinze oiseaux;j'ai quinze règles;j'ai quinze crayons
+19539;"Comment dit-on ""j'ai quinze gommes"" en anglais ?";I have fifteen rubbers;I saw fifteen birds;I have fifteen pencils;I have fifteen dogs
+19540;"Que veut dire ""I have fifteen rubbers"" en français ?";j'ai quinze gommes;j'ai vu quinze oiseaux;j'ai quinze règles;j'ai quinze crayons
 19541;"Comment dit-on ""j'ai quinze règles"" en anglais ?";I have fifteen rulers;I have fifteen pencils;I have fifteen dogs;I have fifteen rabbits
 19542;"Que veut dire ""I have fifteen rulers"" en français ?";j'ai quinze règles;j'ai quinze crayons;j'ai quinze chiens;j'ai quinze chats
-19543;"Comment dit-on ""j'ai quinze livres"" en anglais ?";I have fifteen books;I have fifteen rubbers;I have fifteen rabbits;I see fifteen birds
-19544;"Que veut dire ""I have fifteen books"" en français ?";j'ai quinze livres;je vois quinze oiseaux;j'ai quinze crayons;j'ai quinze gommes
-19545;"Comment dit-on ""j'ai quinze chats"" en anglais ?";I have fifteen cats;I have fifteen dogs;I have fifteen pencils;I see fifteen birds
-19546;"Que veut dire ""I have fifteen cats"" en français ?";j'ai quinze chats;j'ai quinze gommes;j'ai quinze lapins;je vois quinze oiseaux
+19543;"Comment dit-on ""j'ai quinze livres"" en anglais ?";I have fifteen books;I have fifteen rubbers;I have fifteen rabbits;I saw fifteen birds
+19544;"Que veut dire ""I have fifteen books"" en français ?";j'ai quinze livres;j'ai vu quinze oiseaux;j'ai quinze crayons;j'ai quinze gommes
+19545;"Comment dit-on ""j'ai quinze chats"" en anglais ?";I have fifteen cats;I have fifteen dogs;I have fifteen pencils;I saw fifteen birds
+19546;"Que veut dire ""I have fifteen cats"" en français ?";j'ai quinze chats;j'ai quinze gommes;j'ai quinze lapins;j'ai vu quinze oiseaux
 19547;"Comment dit-on ""j'ai quinze chiens"" en anglais ?";I have fifteen dogs;I have fifteen pencils;I have fifteen rubbers;I have fifteen books
-19548;"Que veut dire ""I have fifteen dogs"" en français ?";j'ai quinze chiens;je vois quinze oiseaux;j'ai quinze livres;j'ai quinze lapins
-19549;"Comment dit-on ""je vois quinze oiseaux"" en anglais ?";I see fifteen birds;I have fifteen rulers;I have fifteen books;I have fifteen rabbits
-19550;"Que veut dire ""I see fifteen birds"" en français ?";je vois quinze oiseaux;j'ai quinze lapins;j'ai quinze crayons;j'ai quinze chats
+19548;"Que veut dire ""I have fifteen dogs"" en français ?";j'ai quinze chiens;j'ai vu quinze oiseaux;j'ai quinze livres;j'ai quinze lapins
+19549;"Comment dit-on ""j'ai vu quinze oiseaux"" en anglais ?";I saw fifteen birds;I have fifteen rulers;I have fifteen books;I have fifteen rabbits
+19550;"Que veut dire ""I saw fifteen birds"" en français ?";j'ai vu quinze oiseaux;j'ai quinze lapins;j'ai quinze crayons;j'ai quinze chats
 19551;"Comment dit-on ""j'ai quinze lapins"" en anglais ?";I have fifteen rabbits;I have fifteen cats;I have fifteen rubbers;I have fifteen books
-19552;"Que veut dire ""I have fifteen rabbits"" en français ?";j'ai quinze lapins;je vois quinze oiseaux;j'ai quinze règles;j'ai quinze gommes
+19552;"Que veut dire ""I have fifteen rabbits"" en français ?";j'ai quinze lapins;j'ai vu quinze oiseaux;j'ai quinze règles;j'ai quinze gommes
 19553;"Comment dit-on ""j'ai vingt crayons"" en anglais ?";I have twenty pencils;I have twenty rubbers;I have twenty dogs;I have twenty rulers
-19554;"Que veut dire ""I have twenty pencils"" en français ?";j'ai vingt crayons;je vois vingt oiseaux;j'ai vingt chats;j'ai vingt chiens
-19555;"Comment dit-on ""j'ai vingt gommes"" en anglais ?";I have twenty rubbers;I see twenty birds;I have twenty rabbits;I have twenty rulers
-19556;"Que veut dire ""I have twenty rubbers"" en français ?";j'ai vingt gommes;je vois vingt oiseaux;j'ai vingt chats;j'ai vingt chiens
+19554;"Que veut dire ""I have twenty pencils"" en français ?";j'ai vingt crayons;j'ai vu vingt oiseaux;j'ai vingt chats;j'ai vingt chiens
+19555;"Comment dit-on ""j'ai vingt gommes"" en anglais ?";I have twenty rubbers;I saw twenty birds;I have twenty rabbits;I have twenty rulers
+19556;"Que veut dire ""I have twenty rubbers"" en français ?";j'ai vingt gommes;j'ai vu vingt oiseaux;j'ai vingt chats;j'ai vingt chiens
 19557;"Comment dit-on ""j'ai vingt règles"" en anglais ?";I have twenty rulers;I have twenty dogs;I have twenty rubbers;I have twenty cats
 19558;"Que veut dire ""I have twenty rulers"" en français ?";j'ai vingt règles;j'ai vingt livres;j'ai vingt chats;j'ai vingt lapins
 19559;"Comment dit-on ""j'ai vingt livres"" en anglais ?";I have twenty books;I have twenty rulers;I have twenty cats;I have twenty pencils
-19560;"Que veut dire ""I have twenty books"" en français ?";j'ai vingt livres;je vois vingt oiseaux;j'ai vingt chiens;j'ai vingt lapins
-19561;"Comment dit-on ""j'ai vingt chats"" en anglais ?";I have twenty cats;I see twenty birds;I have twenty dogs;I have twenty rabbits
-19562;"Que veut dire ""I have twenty cats"" en français ?";j'ai vingt chats;j'ai vingt crayons;je vois vingt oiseaux;j'ai vingt gommes
-19563;"Comment dit-on ""j'ai vingt chiens"" en anglais ?";I have twenty dogs;I see twenty birds;I have twenty rabbits;I have twenty books
-19564;"Que veut dire ""I have twenty dogs"" en français ?";j'ai vingt chiens;je vois vingt oiseaux;j'ai vingt chats;j'ai vingt gommes
-19565;"Comment dit-on ""je vois vingt oiseaux"" en anglais ?";I see twenty birds;I have twenty books;I have twenty dogs;I have twenty rabbits
-19566;"Que veut dire ""I see twenty birds"" en français ?";je vois vingt oiseaux;j'ai vingt chiens;j'ai vingt chats;j'ai vingt livres
+19560;"Que veut dire ""I have twenty books"" en français ?";j'ai vingt livres;j'ai vu vingt oiseaux;j'ai vingt chiens;j'ai vingt lapins
+19561;"Comment dit-on ""j'ai vingt chats"" en anglais ?";I have twenty cats;I saw twenty birds;I have twenty dogs;I have twenty rabbits
+19562;"Que veut dire ""I have twenty cats"" en français ?";j'ai vingt chats;j'ai vingt crayons;j'ai vu vingt oiseaux;j'ai vingt gommes
+19563;"Comment dit-on ""j'ai vingt chiens"" en anglais ?";I have twenty dogs;I saw twenty birds;I have twenty rabbits;I have twenty books
+19564;"Que veut dire ""I have twenty dogs"" en français ?";j'ai vingt chiens;j'ai vu vingt oiseaux;j'ai vingt chats;j'ai vingt gommes
+19565;"Comment dit-on ""j'ai vu vingt oiseaux"" en anglais ?";I saw twenty birds;I have twenty books;I have twenty dogs;I have twenty rabbits
+19566;"Que veut dire ""I saw twenty birds"" en français ?";j'ai vu vingt oiseaux;j'ai vingt chiens;j'ai vingt chats;j'ai vingt livres
 19567;"Comment dit-on ""j'ai vingt lapins"" en anglais ?";I have twenty rabbits;I have twenty rulers;I have twenty rubbers;I have twenty cats
 19568;"Que veut dire ""I have twenty rabbits"" en français ?";j'ai vingt lapins;j'ai vingt chiens;j'ai vingt livres;j'ai vingt règles
