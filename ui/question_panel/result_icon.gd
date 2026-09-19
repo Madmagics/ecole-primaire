@@ -17,6 +17,11 @@ var is_correct: bool = true
 var badge_color: Color = Color.WHITE
 
 func _ready() -> void:
+	## Cree dynamiquement (pas dans le _ready() du panneau parent) : se corrige donc soi-meme
+	## pour rester attrapable au doigt en glissement depuis le ResultScroll parent
+	## (QuestionPanel, tableau recapitulatif) - voir ui/common/touch_scroll_fix.gd (retour
+	## utilisateur 2026-09-18, meme bug signale a nouveau le 2026-09-19 pour cette fenetre).
+	mouse_filter = Control.MOUSE_FILTER_PASS
 	custom_minimum_size = Vector2(SIZE, SIZE)
 
 func _draw() -> void:

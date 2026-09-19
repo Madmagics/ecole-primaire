@@ -230,6 +230,11 @@ func _build_subject_row(grade: GradeLevel.Grade, subject: SubjectType.Subject) -
 	var count := ChallengeTracker.get_count(grade, subject)
 
 	var bar := ProgressBar.new()
+	## mouse_filter=Pass (retour utilisateur 2026-09-19, meme bug/fix que lane/badge
+	## ci-dessus) : cree a la volee dans le ScrollContainer de cette fenetre - c'est la plus
+	## grande zone tactile de chaque ligne, donc la plus susceptible d'absorber un glissement
+	## destine a faire defiler la fenetre si elle garde son mouse_filter=Stop par defaut.
+	bar.mouse_filter = Control.MOUSE_FILTER_PASS
 	bar.min_value = 0
 	bar.max_value = ChallengeTracker.GOLD_GOAL
 	bar.value = count
@@ -297,6 +302,11 @@ func _build_title_row(grade: GradeLevel.Grade) -> HBoxContainer:
 	row.add_child(title)
 
 	var lane := Control.new()
+	## mouse_filter=Pass (retour utilisateur 2026-09-19, meme bug/fix que ResultIcon dans
+	## question_panel.gd) : cree a la volee dans le ScrollContainer de cette fenetre - sans ca
+	## son mouse_filter=Stop par defaut empecherait un glissement tactile demarre sur cette
+	## bande (large zone centrale de la ligne) de faire defiler la fenetre.
+	lane.mouse_filter = Control.MOUSE_FILTER_PASS
 	lane.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	lane.custom_minimum_size = Vector2(0, _MILESTONE_LANE_HEIGHT)
 	lane.add_child(_build_milestone_pin(
@@ -320,6 +330,8 @@ func _build_title_row(grade: GradeLevel.Grade) -> HBoxContainer:
 	row.add_child(lane)
 
 	var count_spacer := Control.new()
+	## mouse_filter=Pass, meme raison que lane ci-dessus.
+	count_spacer.mouse_filter = Control.MOUSE_FILTER_PASS
 	count_spacer.custom_minimum_size = Vector2(64, _MILESTONE_LANE_HEIGHT)
 	row.add_child(count_spacer)
 
@@ -341,7 +353,11 @@ func _build_milestone_pin(icon: Texture2D, ring_color: Color, ratio: float, hint
 	badge.offset_top = 0.0
 	badge.offset_bottom = _MILESTONE_BADGE_SIZE
 	badge.tooltip_text = hint
-	badge.mouse_filter = Control.MOUSE_FILTER_STOP
+	## Pass et non Stop (retour utilisateur 2026-09-19, meme bug/fix que lane/count_spacer
+	## ci-dessus) : le tooltip fonctionne a l'identique sous Pass et sous Stop (seul Ignore le
+	## desactiverait), donc Pass laisse aussi remonter un glissement tactile demarre sur ce
+	## badge jusqu'au ScrollContainer parent.
+	badge.mouse_filter = Control.MOUSE_FILTER_PASS
 
 	var badge_style := StyleBoxFlat.new()
 	badge_style.bg_color = Color(1, 1, 1)

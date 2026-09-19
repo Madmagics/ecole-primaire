@@ -362,6 +362,12 @@ func _populate_choice_buttons(question: QuestionResource) -> void:
 		button.text = str(option_text)
 		button.pressed.connect(_on_choice_pressed.bind(option_text))
 		choices_container.add_child(button)
+		## mouse_filter=Pass (retour utilisateur 2026-09-19, meme bug/fix que TODO_UI_MODS.md
+		## "Scroll tactile impossible" et welcome_panel.gd/_on_login_input_text_changed) : ce
+		## bouton QCM est cree a la volee dans QuestionScroll - sans ca son mouse_filter=Stop par
+		## defaut empecherait un glissement tactile demarre sur une case de faire defiler
+		## QuestionScroll (retour utilisateur : questions/reponses longues qui debordent).
+		button.mouse_filter = Control.MOUSE_FILTER_PASS
 		if _is_emoji_choice(str(option_text)):
 			has_emoji_choice = true
 			## Applique avant la mesure de largeur ci-dessous, pour que max_width tienne compte
