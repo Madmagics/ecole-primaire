@@ -62,14 +62,6 @@ static func get_color(grade: Grade) -> Color:
 			return Color("E53935") # rouge
 	return Color.WHITE
 
-## Chemin de la scene de decor de classe recompense (voir autoload/classroom_decor.gd,
-## ClassroomDecor.get_active_scene_path()) pour cette classe - school1.tscn pour CP, school2.tscn
-## pour CE1, etc (ordre de l'enum Grade + 1, school.tscn de base restant gere directement par
-## ClassroomDecor.BASE_SCENE_PATH). Ajoutee le 2026-09-20 (retour utilisateur : selectionner le
-## decor CP dans la boutique ne changeait pas la scene affichee).
-static func get_decor_scene_path(grade: Grade) -> String:
-	return "res://levels/school/school%d.tscn" % (int(grade) + 1)
-
 ## Chemin de l'icone "piece" (une seule piece, affichee a cote d'un prix a payer dans la boutique -
 ## voir CrateItem/ProfSkinItem) pour cette classe. Fichier deja colore selon get_color() ci-dessus
 ## (2026-08-30, retour utilisateur : "je les ai faites en webp avec leur couleur... les pieces a

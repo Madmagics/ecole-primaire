@@ -16,35 +16,7 @@ extends Node2D
 @onready var _daily_limit_reached_overlay: Node = $UI/DailyLimitReachedOverlay
 
 func _ready() -> void:
-	## Ajoute le 2026-09-20 (retour utilisateur : "quand je selectionne la classe cp dans la
-	## boutique on ne passe pas sur la scene school1, la scene affichee reste school") :
-	## ClassroomDecor.decor_activated n'etait ecoute nulle part (voir sa doc), donc le
-	## changement de decor bascule bien un etat interne mais ne changeait jamais la scene
-	## affichee. Rattrape ici un decor deja actif au demarrage de School (compte reconnecte avec
-	## un decor deja choisi la fois precedente), et reagit ensuite a chaque bascule live (voir
-	## _on_classroom_decor_activated). Si un changement de scene est declenche, on s'arrete la :
-	## cette instance de School va etre liberee, inutile de verifier son cablage NPC (voir
-	## _check_npc_wiring ci-dessous) ni de s'abonner a un signal pour un noeud sur le point de
-	## disparaitre - la nouvelle instance de School (school1.tscn etc.) refera ce _ready() en
-	## entier de toute facon.
-	if _apply_active_classroom_decor():
-		return
 	_check_npc_wiring()
-	ClassroomDecor.decor_activated.connect(_on_classroom_decor_activated)
-
-## Bascule vers la scene du decor de classe actuellement actif si elle differe de la scene en
-## cours (voir ClassroomDecor.get_active_scene_path()) - ne fait rien et renvoie false si la scene
-## en cours correspond deja a la cible (cas normal : aucun decor actif au tout premier lancement,
-## scene en cours = school.tscn = cible). Renvoie true si un changement a ete declenche.
-func _apply_active_classroom_decor() -> bool:
-	var target_path := ClassroomDecor.get_active_scene_path()
-	if scene_file_path == target_path:
-		return false
-	get_tree().change_scene_to_file(target_path)
-	return true
-
-func _on_classroom_decor_activated(_grade: GradeLevel.Grade, _active: bool) -> void:
-	_apply_active_classroom_decor()
 
 func _check_npc_wiring() -> void:
 	var npcs_root := get_node_or_null("NPCs")

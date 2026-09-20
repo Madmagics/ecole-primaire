@@ -41,18 +41,9 @@
 ## applique a la fois, toutes classes confondues). toggle_active() desactive desormais explicitement
 ## toute autre classe avant d'activer celle demandee - meme resultat qu'un groupe de boutons radio
 ## avec possibilite de tout deselectionner.
-##
-## MIS A JOUR le 2026-09-20 (retour utilisateur : "quand je selectionne la classe cp dans la
-## boutique on ne passe pas sur la scene school1, la scene affichee reste school") : l'application
-## visuelle mentionnee comme "a construire plus tard" ci-dessus est desormais cablee - voir
-## get_active_scene_path() plus bas, ecoutee par school.gd (seul abonne de decor_activated,
-## voir sa doc mise a jour egalement).
 extends Node
 
 const Grade = GradeLevel.Grade
-
-## Scene affichee quand aucun decor de classe n'est actif (voir get_active_scene_path() plus bas).
-const BASE_SCENE_PATH := "res://levels/school/school.tscn"
 
 var _unlocked: Dictionary = {
 	Grade.CP: false,
@@ -69,9 +60,9 @@ var _active: Dictionary = {
 	Grade.CM2: false,
 }
 
-## Emis a chaque bascule active/inactive (voir toggle_active) - ecoute par school.gd depuis le
-## 2026-09-20 (get_active_scene_path() ci-dessous + school.gd._on_classroom_decor_activated) pour
-## basculer effectivement vers la scene de decor de la classe active.
+## Emis a chaque bascule active/inactive (voir toggle_active) - pas encore ecoute nulle part (le
+## decor visuel reste a construire, voir le commentaire de classe), mais meme point d'accroche
+## futur que ProfSkins.skin_activated pour ProfVisual.
 signal decor_activated(grade: Grade, active: bool)
 
 func is_unlocked(grade: Grade) -> bool:
@@ -81,17 +72,6 @@ func is_unlocked(grade: Grade) -> bool:
 ## toute facon jamais arriver - toggle_active() refuse deja de s'activer si non debloque).
 func is_active(grade: Grade) -> bool:
 	return is_unlocked(grade) and bool(_active.get(grade, false))
-
-## Chemin de la scene a afficher compte tenu du decor de classe actuellement actif (_active
-## ci-dessus, un seul actif a la fois) - BASE_SCENE_PATH si aucun decor actif, sinon
-## GradeLevel.get_decor_scene_path() de la classe active. Ajoutee le 2026-09-20 (voir la note de
-## mise a jour en tete de fichier) - appelee par school.gd au demarrage et a chaque
-## decor_activated pour appliquer/rattraper le bon affichage.
-func get_active_scene_path() -> String:
-	for grade in _active.keys():
-		if _active[grade]:
-			return GradeLevel.get_decor_scene_path(grade)
-	return BASE_SCENE_PATH
 
 ## Nombre de Defis actuellement a l'argent (SILVER_GOAL, voir ChallengeTracker) pour [grade], sur
 ## le total requis (voir get_required_count) - affiche en "X/Y" sur la case de boutique.

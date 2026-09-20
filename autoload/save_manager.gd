@@ -136,8 +136,9 @@ var current_account_id: String = ""
 ## de chaque appel a login() (voir son tout premier statement), rempli sur un refus explicite que
 ## WelcomePanel doit afficher differemment du "Pseudo ou mot de passe incorrect" generique
 ## (volontairement indistinct pour tout le reste, voir login()) :
-## - "compte_deja_connecte" (2026-09-13) : le joueur vient de taper SES BONS identifiants, ce n'est
-##   pas une information a proteger.
+## - "compte_deja_connecte" n'existe plus depuis le 2026-09-20 (fn_login evince desormais toujours
+##   la session precedente au lieu de refuser la nouvelle connexion, voir schema.sql et
+##   _send_session_heartbeat() plus bas) - valeur retiree, ne peut plus etre affectee.
 ## - "connexion_requise" (2026-09-17, chantier "premiere connexion online obligatoire" - directive
 ##   utilisateur explicite : "il faut la premiere connexion online pour jouer [...] on reste sur un
 ##   navigateur web donc pas de chargement = pas d'internet = pas de jeu") : impossible de confirmer
@@ -291,9 +292,6 @@ func login(login_name: String, password: String) -> bool:
 			## de current_account_needs_email_verification() plus bas.
 			_accounts[index]["email"] = String(data.get("email", _accounts[index].get("email", "")))
 			_accounts[index]["email_verifie"] = bool(data.get("email_verifie", true))
-	elif login_result.get("type", "") == "serveur" and login_result.get("message", "") == "compte_deja_connecte":
-		last_login_error = "compte_deja_connecte"
-		return false
 	elif login_result.get("type", "") == "reseau":
 		## MODIFIE le 2026-09-17 (2e directive utilisateur du meme jour : "il faut la premiere
 		## connexion online pour jouer [...] on reste sur un navigateur web donc pas de chargement =
@@ -310,7 +308,7 @@ func login(login_name: String, password: String) -> bool:
 		last_login_error = "connexion_requise"
 		return false
 	else:
-		## Tout autre refus serveur (type "serveur" autre que "compte_deja_connecte", ex.
+		## Tout autre refus serveur (type "serveur", ex.
 		## "identifiants_invalides" si le mot de passe a ete change ailleurs entre-temps alors que le
 		## hash LOCAL semblait pourtant encore a jour - tres improbable en pratique) : bloque aussi
 		## la connexion desormais (meme raisonnement que le cas "reseau" ci-dessus - le serveur fait
@@ -384,9 +382,7 @@ func _login_from_server(login_name: String, password: String) -> bool:
 
 	var login_result := await ServerApi.login(trimmed_login, mdp_hash)
 	if not login_result.get("ok", false):
-		if login_result.get("type", "") == "serveur" and login_result.get("message", "") == "compte_deja_connecte":
-			last_login_error = "compte_deja_connecte"
-		elif login_result.get("type", "") == "reseau":
+		if login_result.get("type", "") == "reseau":
 			last_login_error = "connexion_requise"
 		## Sinon (refus serveur du type "identifiants_invalides") : message generique "Pseudo ou mot
 		## de passe incorrect" cote WelcomePanel, cas normal pour un pseudo inconnu de l'appareil.
@@ -685,12 +681,13 @@ func logout() -> void:
 		return
 	save_current_account()
 	## Libere IMMEDIATEMENT la place cote serveur (2026-09-13, chantier "conflit de connexion") -
-	## sans ca, une reconnexion sur CE MEME appareil resterait bloquee jusqu'a expiration naturelle
-	## de la presence (90s, voir fn_login dans schema.sql) meme juste apres une deconnexion
-	## volontaire. Fire-and-forget (voir _notify_server_logout() plus bas, meme principe que
-	## _delete_account_on_server()) : la deconnexion locale n'attend jamais le reseau. Efface aussi
-	## le jeton local tout de suite : il vient d'etre invalide cote serveur, plus la peine de le
-	## garder en cache (le prochain login() en obtiendra un nouveau).
+	## MODIFIE le 2026-09-20 : une reconnexion (meme appareil ou un autre) reussit de toute facon
+	## toujours immediatement depuis ce jour (fn_login evince desormais la session existante au lieu
+	## de la refuser, voir schema.sql) - cet appel reste utile pour liberer la ligne proprement tout
+	## de suite plutot que d'attendre. Fire-and-forget (voir _notify_server_logout() plus bas, meme
+	## principe que _delete_account_on_server()) : la deconnexion locale n'attend jamais le reseau.
+	## Efface aussi le jeton local tout de suite : il vient d'etre invalide cote serveur, plus la
+	## peine de le garder en cache (le prochain login() en obtiendra un nouveau).
 	var index := _current_account_index()
 	if index != -1:
 		var jeton := String(_accounts[index].get("sync_jeton", ""))
@@ -977,9 +974,7 @@ func _resync_password_from_server(login_name: String, password: String) -> bool:
 
 	var login_result := await ServerApi.login(trimmed_login, mdp_hash)
 	if not login_result.get("ok", false):
-		if login_result.get("type", "") == "serveur" and login_result.get("message", "") == "compte_deja_connecte":
-			last_login_error = "compte_deja_connecte"
-		elif login_result.get("type", "") == "reseau":
+		if login_result.get("type", "") == "reseau":
 			last_login_error = "connexion_requise"
 		## Sinon (refus serveur du type "identifiants_invalides") : mot de passe reellement
 		## incorrect, message generique cote WelcomePanel - le cas le plus courant pour arriver ici
@@ -1349,7 +1344,18 @@ func _send_session_heartbeat() -> void:
 	var jeton := String(_accounts[index].get("sync_jeton", ""))
 	if jeton.is_empty():
 		return
-	await ServerApi.pulse_session(jeton)
+	## MODIFIE le 2026-09-20 (retour utilisateur : remplacer le delai d'attente de 90s par une
+	## eviction immediate de la session precedente au login, voir fn_login dans schema.sql) : ce
+	## battement de coeur ignorait jusqu'ici completement son resultat - un jeton evince par une
+	## connexion ailleurs sur ce compte (fn_pulse_session repond alors "session_expiree", voir
+	## schema.sql) ne deconnectait donc CET appareil qu'a la prochaine progression/synchro profil
+	## (_flush_pending_events()/_push_profile_to_server(), qui verifient deja leur resultat), parfois
+	## bien plus tard. Complete desormais la meme politique "aucun etat hors-ligne tolere" que ces
+	## 2 fonctions (voir _disconnect_due_to_server_failure()) : la deconnexion locale suit donc
+	## maintenant l'eviction serveur en au plus SYNC_RETRY_INTERVAL_SECONDS (30s), jamais plus.
+	var result := await ServerApi.pulse_session(jeton)
+	if not result.get("ok", false):
+		_disconnect_due_to_server_failure()
 
 ## Filet de secours pour update_current_profile() (2026-09-13, meme chantier que ci-dessus) : si le
 ## profil du compte connecte n'a pas pu etre pousse au moment de sa modification (hors-ligne a cet
@@ -1582,14 +1588,12 @@ func _ensure_server_session(index: int) -> bool:
 
 	var login_result := await ServerApi.login(login_name, mdp_hash)
 	if not login_result.get("ok", false):
-		## "compte_deja_connecte" (2026-09-13, chantier "conflit de connexion") : un AUTRE appareil
-		## joue deja sur ce compte en ce moment - on ne tente evidemment pas de le "re-creer" dans ce
-		## cas (il existe deja), et on n'interrompt PAS non plus la partie en cours sur CET appareil
-		## (elle a deja ete autorisee a demarrer par login(), voir son commentaire) : juste un echec
-		## de synchro comme un autre, retente au prochain _flush_pending_events()/battement de coeur -
-		## meme branche que "hors-ligne, ou refus serveur inattendu" ci-dessous, sans traitement
-		## special, LIMITE CONNUE ET ASSUMEE (voir project_save_sync_architecture.md en memoire
-		## projet).
+		## Refus serveur (hors-ligne, VPS injoignable, session evincee entre-temps par une connexion
+		## ailleurs sur ce compte depuis le 2026-09-20 - voir fn_login dans schema.sql - ou tout
+		## autre refus inattendu) : on n'interrompt PAS la partie en cours sur CET appareil (elle a
+		## deja ete autorisee a demarrer par login(), voir son commentaire), juste un echec de
+		## synchro comme un autre, retente au prochain _flush_pending_events()/battement de coeur -
+		## LIMITE CONNUE ET ASSUMEE (voir project_save_sync_architecture.md en memoire projet).
 		if login_result.get("type", "") != "serveur" or login_result.get("message", "") != "identifiants_invalides":
 			return false # hors-ligne, ou refus serveur inattendu - on ne tente pas de creer/recreer dans ce cas
 		## BUG CORRIGE le 2026-09-13 (chantier "connexion cross-device") : le profil n'etait jusqu'ici

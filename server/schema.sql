@@ -242,16 +242,22 @@ $$;
 --    nom/prenom/classe/date de naissance/pays ET le controle parental (mot de passe/limite
 --    quotidienne, stockes dans ce meme "profil" cote client - voir SaveManager) - avant cette
 --    modification, seule la PROGRESSION de jeu (via fn_recuperer_progression) etait recuperee.
--- 2. "compte_deja_connecte" : refuse la connexion si une AUTRE session de ce compte est encore
---    active a l'instant (derniere_activite recente, voir la colonne ajoutee sur "sessions" et
---    v_delai_presence ci-dessous) - evite que 2 appareils jouent SIMULTANEMENT sur le meme compte
---    (conflit d'ecriture sur la progression). Le seuil (90s) tolere 2-3 battements de coeur
---    manques (SaveManager.pulse_session(), toutes les 30s cote client, voir
---    SYNC_RETRY_INTERVAL_SECONDS) avant de considerer une session comme abandonnee (app fermee/
---    crashee sans deconnexion propre) - LIMITE CONNUE ET ASSUMEE : apres une fermeture brutale
---    (pas de clic sur "Se deconnecter"), CE MEME appareil doit attendre jusqu'a 90s avant de
---    pouvoir se reconnecter au meme compte. fn_deconnecter (voir plus bas) libere la session
---    IMMEDIATEMENT sur une deconnexion volontaire, pour eviter cette attente dans le cas normal.
+-- 2. "compte_deja_connecte" : refusait la connexion si une AUTRE session de ce compte etait encore
+--    active a l'instant - VOIR LA REVISION DU 2026-09-20 CI-DESSOUS, qui remplace entierement ce
+--    mecanisme (le refus/l'attente de 90s decrits ci-dessus n'existent plus).
+-- ============================================================================
+-- MODIFIEE le 2026-09-20 (retour utilisateur : "je veux supprimer le delai de deconnexion et
+-- remplacer par lorsqu'un autre login apparait, il desactive la session precedente [...] si active
+-- sur une autre session/navigateur/pc/tablette") : au lieu de REFUSER la connexion avec
+-- "compte_deja_connecte" quand une autre session du meme compte est encore active, fn_login
+-- supprime desormais directement cette autre session (delete from sessions where compte_id = ...)
+-- puis cree la nouvelle normalement - la nouvelle connexion reussit donc TOUJOURS immediatement,
+-- plus aucune attente. La session evincee est detectee cote client au battement de coeur suivant
+-- (fn_pulse_session echoue avec "session_expiree" des que son jeton, supprime ici, est reutilise -
+-- voir SaveManager._send_session_heartbeat(), completee le meme jour pour forcer la deconnexion
+-- locale sur cet echec, jusqu'ici ignore) - au plus 30s de decalage (SYNC_RETRY_INTERVAL_SECONDS),
+-- jamais plus. "compte_deja_connecte" ne peut donc plus etre renvoye par cette fonction ; les
+-- branches qui le testaient cote client (SaveManager/WelcomePanel) ont ete retirees le meme jour.
 -- ============================================================================
 -- MODIFIEE le 2026-09-16 (voir TODO_UI_MODS.md, bug "acces au jeu possible avant confirmation
 -- d'email") : "email"/"email_verifie" ajoutes au retour jsonb - le client (SaveManager.login()/
@@ -271,10 +277,6 @@ declare
 	v_profil jsonb;
 	v_email text;
 	v_email_verifie boolean;
-	v_deja_connecte boolean;
-	-- Fenetre de tolerance de presence (voir commentaire de fonction ci-dessus) - reprise a
-	-- l'identique dans fn_pulse_session plus bas, aucune autre fonction n'a besoin de la connaitre.
-	v_delai_presence interval := interval '90 seconds';
 begin
 	delete from sessions where expire_le < now();
 
@@ -286,13 +288,10 @@ begin
 		raise exception 'identifiants_invalides';
 	end if;
 
-	select exists(
-		select 1 from sessions
-		where compte_id = v_compte_id and derniere_activite > now() - v_delai_presence
-	) into v_deja_connecte;
-	if v_deja_connecte then
-		raise exception 'compte_deja_connecte';
-	end if;
+	-- MODIFIE le 2026-09-20 (voir la note de revision en tete de fonction) : plus de refus/attente
+	-- - toute session preexistante de ce compte (autre appareil/navigateur/onglet) est evincee
+	-- directement, la nouvelle connexion prend systematiquement le dessus.
+	delete from sessions where compte_id = v_compte_id;
 
 	v_jeton := encode(gen_random_bytes(32), 'hex');
 	insert into sessions (jeton, compte_id, expire_le, derniere_activite)
@@ -372,9 +371,11 @@ $$;
 
 -- ============================================================================
 -- fn_deconnecter : libere IMMEDIATEMENT la session (chantier "conflit de connexion", voir fn_login
--- ci-dessus) - appelee par SaveManager.logout() sur une deconnexion VOLONTAIRE, pour que cet
--- appareil (ou un autre) puisse se reconnecter au meme compte sans attendre l'expiration naturelle
--- de la presence (90s, voir fn_login). Idempotente/best-effort a dessein (meme principe que
+-- ci-dessus) - appelee par SaveManager.logout() sur une deconnexion VOLONTAIRE. Depuis la revision
+-- du 2026-09-20 (voir fn_login), une reconnexion sur CE MEME compte reussit de toute facon toujours
+-- immediatement meme sans cet appel (fn_login evince la session existante) - fn_deconnecter reste
+-- utile pour liberer la ligne proprement tout de suite plutot que d'attendre le prochain login ou
+-- l'expiration naturelle du jeton (48h). Idempotente/best-effort a dessein (meme principe que
 -- fn_supprimer_compte pour la logique de suppression cote client) : un jeton deja absent/expire ne
 -- leve PAS d'erreur, la deconnexion locale ne doit jamais rester bloquee sur ca.
 -- ============================================================================

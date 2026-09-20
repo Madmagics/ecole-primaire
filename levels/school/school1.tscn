@@ -21,6 +21,7 @@
 [ext_resource type="Texture2D" uid="uid://cx2ki6ot2eaxy" path="res://assets/classe2.0/decor-cp/banc1.webp" id="19_if4mq"]
 [ext_resource type="PackedScene" path="res://entities/npc_2d/npc_2d.tscn" id="23_5buic"]
 [ext_resource type="Texture2D" uid="uid://dg7sceuyao4rg" path="res://assets/classe2.0/profs/prof1.0.webp" id="24_yvh4n"]
+[ext_resource type="Texture2D" uid="uid://bw1tfxtnva7t6" path="res://assets/classe2.0/decor-cp/vent.webp" id="25_ns1bp"]
 [ext_resource type="Script" uid="uid://ctewycpwm3g2u" path="res://entities/npc/components/prof_visual.gd" id="25_utxre"]
 [ext_resource type="Texture2D" uid="uid://c3csfrdy824dl" path="res://assets/classe2.0/profs/prof2.0.webp" id="26_nrg1w"]
 [ext_resource type="Texture2D" uid="uid://bixjxy284s35s" path="res://assets/classe2.0/profs/prof3.0.webp" id="27_3h2bs"]
@@ -44,8 +45,10 @@ scale = Vector2(0.750651, 0.6347656)
 texture = ExtResource("2_ncxpj")
 
 [node name="zone-nuages" type="Polygon2D" parent="Background" unique_id=718073878]
+position = Vector2(-8.337876, -41.315216)
+scale = Vector2(1.0200641, 1.2282609)
 color = Color(1, 1, 1, 0.48235294)
-polygon = PackedVector2Array(-11, 227, 1188, 221, 1187, 1, -12, -3)
+polygon = PackedVector2Array(-33, 181, 1213, 177, 1209.0786, 1.8849525, -33.980335, -3.0000038)
 script = ExtResource("35_cloudscroller")
 cloud_textures = Array[Texture2D]([ExtResource("31_nuage1"), ExtResource("32_nuage2"), ExtResource("33_nuage3"), ExtResource("34_nuage4")])
 
@@ -155,6 +158,11 @@ texture = ExtResource("6_grc2e")
 position = Vector2(82.75001, 434)
 scale = Vector2(0.6260331, 0.6707317)
 texture = ExtResource("19_if4mq")
+
+[node name="Vent" type="Sprite2D" parent="Decor" unique_id=1730995843]
+position = Vector2(924, 185.00002)
+scale = Vector2(0.8023256, 0.726087)
+texture = ExtResource("25_ns1bp")
 
 [node name="NPCs" type="Node2D" parent="." unique_id=1623536013]
 

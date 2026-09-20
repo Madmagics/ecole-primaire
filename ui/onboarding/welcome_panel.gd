@@ -593,12 +593,6 @@ func _on_login_pressed() -> void:
 			_show_email_pending_section()
 		else:
 			hide()
-	elif SaveManager.last_login_error == "compte_deja_connecte":
-		## Seul cas ou on s'ecarte du message generique ci-dessous (voir SaveManager.
-		## last_login_error) : le joueur vient de taper SES BONS identifiants, ce n'est pas une
-		## information a lui cacher.
-		login_error_label.text = "Ce compte est déjà connecté sur un autre appareil."
-		login_error_label.show()
 	elif SaveManager.last_login_error == "connexion_requise":
 		## 2026-09-17, chantier "premiere connexion online obligatoire" (voir le commentaire de
 		## SaveManager.last_login_error) : la connexion serveur a echoue (reseau coupe, VPS
