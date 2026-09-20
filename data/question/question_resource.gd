@@ -25,6 +25,12 @@ const Grade = GradeLevel.Grade
 ## est toujours liee a un passage) : reference directe plutot qu'un id manuel a faire
 ## correspondre a la main (voir PassageResource). Laisser null pour toutes les autres matieres.
 @export var passage: PassageResource = null
+## Donnees de grille 3x3 pour les questions Logique de type "complete la grille" (CM1/CM2,
+## voir csv/questions/cm1|cm2/logique/generated.csv, colonne "grid") : exactement 9 valeurs
+## dans l'ordre de lecture (ligne 1 gauche->droite, puis ligne 2, puis ligne 3), la case a
+## deviner etant une chaine vide "" - voir _populate_logic_grid dans question_panel.gd. Reste
+## un tableau vide pour toute autre question : QuestionPanel n'affiche alors pas de grille.
+@export var grid_cells: Array[String] = []
 
 ## Comparaison insensible aux espaces ET a la casse (public jeune, clavier tactile).
 func is_correct(answer: String) -> bool:

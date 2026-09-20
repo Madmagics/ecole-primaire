@@ -140,6 +140,12 @@ theme_override_constants/separation = 18
 layout_mode = 2
 theme_override_constants/separation = 14
 
+[node name="PseudoForgetButton" type="LinkButton" parent="Panel/Margin/Content/LoginSection" unique_id=1682833266]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 0
+text = "Oublier ce pseudo sur cet appareil"
+
 [node name="LoginRow" type="HBoxContainer" parent="Panel/Margin/Content/LoginSection" unique_id=285428542]
 layout_mode = 2
 theme_override_constants/separation = 10
@@ -153,12 +159,6 @@ text = "Pseudo"
 [node name="LoginInput" type="LineEdit" parent="Panel/Margin/Content/LoginSection/LoginRow" unique_id=1626031274]
 custom_minimum_size = Vector2(220, 0)
 layout_mode = 2
-
-[node name="PseudoForgetButton" type="Button" parent="Panel/Margin/Content/LoginSection" unique_id=1682833266]
-visible = false
-layout_mode = 2
-size_flags_horizontal = 0
-text = "Oublier ce pseudo sur cet appareil"
 
 [node name="PasswordRow" type="HBoxContainer" parent="Panel/Margin/Content/LoginSection" unique_id=439972480]
 layout_mode = 2

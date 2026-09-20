@@ -2,7 +2,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 43000;Quel nombre vient après ? 3, 6, 5, 10, 9, …;18;17;19;16
 43001;Si A=1, B=2, C=3…, quel nombre correspond à E ?;5;4;6;3
 43002;Si A=1, B=2, C=3…, quelle lettre correspond au nombre 4 ?;D;C;E;F
-43003;Grille : ligne 1 = ● ▲ ■, ligne 2 = ▲ ■ ●, ligne 3 = ■ ● … Quel symbole complète la grille ?;▲;●;■;★
+43003;Quel symbole complète la grille ?;▲;●;■;★;●|▲|■|▲|■|●|■|●|
 43004;Quel nombre vient après ? 1, 4, 9, 16, …;25;20;24;36
 43005;Emma est plus âgée que Noah. Léa est plus jeune que Noah. Qui est le plus âgé ?;Emma;Noah;Léa;Impossible à savoir
 43006;Le doigt est à la main ce que l'orteil est…;au pied;à la jambe;au genou;au bras
@@ -145,66 +145,66 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 43143;Si A=1, B=2, C=3…, quel nombre correspond à W ?;23;24;25;22
 43144;Si A=1, B=2, C=3…, quel nombre correspond à L ?;12;11;13;14
 43145;Si A=1, B=2, C=3…, quel nombre correspond à K ?;11;10;12;13
-43146;Grille : ligne 1 = ● ♥ ★, ligne 2 = … ★ ●, ligne 3 = ★ ● ♥. Quel symbole complète la grille ?;♥;●;★;■
-43147;Grille : ligne 1 = ★ ♥ ●, ligne 2 = … ● ★, ligne 3 = ● ★ ♥. Quel symbole complète la grille ?;♥;●;★;▲
-43148;Grille : ligne 1 = ■ ● ▲, ligne 2 = ● … ■, ligne 3 = ▲ ■ ●. Quel symbole complète la grille ?;▲;●;■;♦
-43149;Grille : ligne 1 = ▲ ♥ ■, ligne 2 = ♥ … ▲, ligne 3 = ■ ▲ ♥. Quel symbole complète la grille ?;■;♥;▲;♦
-43150;Grille : ligne 1 = ♥ ★ ♦, ligne 2 = … ♦ ♥, ligne 3 = ♦ ♥ ★. Quel symbole complète la grille ?;★;♦;♥;▲
-43151;Grille : ligne 1 = ▲ ● ■, ligne 2 = ● ■ ▲, ligne 3 = … ▲ ●. Quel symbole complète la grille ?;■;●;▲;★
-43152;Grille : ligne 1 = ▲ ♦ ■, ligne 2 = ♦ ■ …, ligne 3 = ■ ▲ ♦. Quel symbole complète la grille ?;▲;♦;■;●
-43153;Grille : ligne 1 = ● ▲ ■, ligne 2 = … ■ ●, ligne 3 = ■ ● ▲. Quel symbole complète la grille ?;▲;●;■;♥
-43154;Grille : ligne 1 = ■ ▲ ♦, ligne 2 = ▲ ♦ ■, ligne 3 = ♦ … ▲. Quel symbole complète la grille ?;■;▲;♦;★
-43155;Grille : ligne 1 = ■ ♥ ▲, ligne 2 = ♥ ▲ ■, ligne 3 = … ■ ♥. Quel symbole complète la grille ?;▲;■;♥;●
-43156;Grille : ligne 1 = ● ■ ▲, ligne 2 = ■ ▲ …, ligne 3 = ▲ ● ■. Quel symbole complète la grille ?;●;▲;■;★
-43157;Grille : ligne 1 = ▲ ■ ●, ligne 2 = … ● ▲, ligne 3 = ● ▲ ■. Quel symbole complète la grille ?;■;●;▲;♥
-43158;Grille : ligne 1 = ♦ ♥ ★, ligne 2 = ♥ ★ ♦, ligne 3 = ★ … ♥. Quel symbole complète la grille ?;♦;★;♥;■
-43159;Grille : ligne 1 = ▲ ♦ ■, ligne 2 = ♦ ■ ▲, ligne 3 = ■ ▲ …. Quel symbole complète la grille ?;♦;▲;■;●
-43160;Grille : ligne 1 = ♥ ■ ♦, ligne 2 = ■ … ♥, ligne 3 = ♦ ♥ ■. Quel symbole complète la grille ?;♦;♥;■;●
-43161;Grille : ligne 1 = ♥ ■ ▲, ligne 2 = ■ … ♥, ligne 3 = ▲ ♥ ■. Quel symbole complète la grille ?;▲;■;♥;★
-43162;Grille : ligne 1 = ♥ ● ★, ligne 2 = ● ★ …, ligne 3 = ★ ♥ ●. Quel symbole complète la grille ?;♥;●;★;♦
-43163;Grille : ligne 1 = ★ ♥ ●, ligne 2 = ♥ ● ★, ligne 3 = ● … ♥. Quel symbole complète la grille ?;★;●;♥;■
-43164;Grille : ligne 1 = ■ ▲ ♥, ligne 2 = … ♥ ■, ligne 3 = ♥ ■ ▲. Quel symbole complète la grille ?;▲;■;♥;●
-43165;Grille : ligne 1 = ■ ▲ ♥, ligne 2 = ▲ ♥ ■, ligne 3 = ♥ ■ …. Quel symbole complète la grille ?;▲;■;♥;★
-43166;Grille : ligne 1 = ♦ ♥ ■, ligne 2 = ♥ ■ ♦, ligne 3 = … ♦ ♥. Quel symbole complète la grille ?;■;♥;♦;●
-43167;Grille : ligne 1 = ● ♥ ★, ligne 2 = ♥ … ●, ligne 3 = ★ ● ♥. Quel symbole complète la grille ?;★;●;♥;■
-43168;Grille : ligne 1 = ■ ♦ ♥, ligne 2 = … ♥ ■, ligne 3 = ♥ ■ ♦. Quel symbole complète la grille ?;♦;♥;■;●
-43169;Grille : ligne 1 = ♥ ★ ●, ligne 2 = ★ … ♥, ligne 3 = ● ♥ ★. Quel symbole complète la grille ?;●;♥;★;■
-43170;Grille : ligne 1 = ★ ▲ ●, ligne 2 = ▲ … ★, ligne 3 = ● ★ ▲. Quel symbole complète la grille ?;●;▲;★;♥
-43171;Grille : ligne 1 = ★ ▲ ●, ligne 2 = ▲ ● ★, ligne 3 = ● … ▲. Quel symbole complète la grille ?;★;▲;●;♦
-43172;Grille : ligne 1 = ♦ ♥ ■, ligne 2 = … ■ ♦, ligne 3 = ■ ♦ ♥. Quel symbole complète la grille ?;♥;■;♦;★
-43173;Grille : ligne 1 = ♦ ★ ♥, ligne 2 = … ♥ ♦, ligne 3 = ♥ ♦ ★. Quel symbole complète la grille ?;★;♦;♥;▲
-43174;Grille : ligne 1 = ★ ♦ ●, ligne 2 = ♦ ● …, ligne 3 = ● ★ ♦. Quel symbole complète la grille ?;★;♦;●;♥
-43175;Grille : ligne 1 = ● ♦ ★, ligne 2 = … ★ ●, ligne 3 = ★ ● ♦. Quel symbole complète la grille ?;♦;●;★;■
-43176;Grille : ligne 1 = ★ ● ▲, ligne 2 = ● ▲ ★, ligne 3 = ▲ … ●. Quel symbole complète la grille ?;★;▲;●;♥
-43177;Grille : ligne 1 = ♥ ■ ▲, ligne 2 = ■ ▲ ♥, ligne 3 = … ♥ ■. Quel symbole complète la grille ?;▲;■;♥;♦
-43178;Grille : ligne 1 = ♦ ★ ●, ligne 2 = ★ ● …, ligne 3 = ● ♦ ★. Quel symbole complète la grille ?;♦;●;★;■
-43179;Grille : ligne 1 = ■ ▲ ♦, ligne 2 = ▲ ♦ ■, ligne 3 = ♦ ■ …. Quel symbole complète la grille ?;▲;♦;■;●
-43180;Grille : ligne 1 = ♦ ♥ ★, ligne 2 = ♥ ★ ♦, ligne 3 = … ♦ ♥. Quel symbole complète la grille ?;★;♦;♥;▲
-43181;Grille : ligne 1 = ■ ♦ ♥, ligne 2 = ♦ ♥ ■, ligne 3 = … ■ ♦. Quel symbole complète la grille ?;♥;■;♦;●
-43182;Grille : ligne 1 = ♦ ● ★, ligne 2 = ● ★ ♦, ligne 3 = … ♦ ●. Quel symbole complète la grille ?;★;♦;●;■
-43183;Grille : ligne 1 = ♥ ★ ♦, ligne 2 = ★ … ♥, ligne 3 = ♦ ♥ ★. Quel symbole complète la grille ?;♦;★;♥;●
-43184;Grille : ligne 1 = ■ ♥ ♦, ligne 2 = ♥ ♦ ■, ligne 3 = … ■ ♥. Quel symbole complète la grille ?;♦;♥;■;▲
-43185;Grille : ligne 1 = ♥ ■ ♦, ligne 2 = … ♦ ♥, ligne 3 = ♦ ♥ ■. Quel symbole complète la grille ?;■;♥;♦;★
-43186;Grille : ligne 1 = ♥ ♦ ■, ligne 2 = ♦ ■ ♥, ligne 3 = ■ ♥ …. Quel symbole complète la grille ?;♦;♥;■;★
-43187;Grille : ligne 1 = ♥ ♦ ★, ligne 2 = ♦ ★ ♥, ligne 3 = ★ ♥ …. Quel symbole complète la grille ?;♦;★;♥;■
-43188;Grille : ligne 1 = ♥ ▲ ■, ligne 2 = ▲ ■ …, ligne 3 = ■ ♥ ▲. Quel symbole complète la grille ?;♥;■;▲;★
-43189;Grille : ligne 1 = ♥ ♦ ■, ligne 2 = … ■ ♥, ligne 3 = ■ ♥ ♦. Quel symbole complète la grille ?;♦;♥;■;★
-43190;Grille : ligne 1 = ★ ● ♥, ligne 2 = … ♥ ★, ligne 3 = ♥ ★ ●. Quel symbole complète la grille ?;●;♥;★;■
-43191;Grille : ligne 1 = ♦ ★ ●, ligne 2 = … ● ♦, ligne 3 = ● ♦ ★. Quel symbole complète la grille ?;★;♦;●;■
-43192;Grille : ligne 1 = ● ■ ▲, ligne 2 = ■ ▲ ●, ligne 3 = ▲ ● …. Quel symbole complète la grille ?;■;●;▲;★
-43193;Grille : ligne 1 = ♥ ★ ♦, ligne 2 = ★ ♦ ♥, ligne 3 = … ♥ ★. Quel symbole complète la grille ?;♦;★;♥;■
-43194;Grille : ligne 1 = ♥ ♦ ■, ligne 2 = ♦ ■ ♥, ligne 3 = … ♥ ♦. Quel symbole complète la grille ?;■;♥;♦;●
-43195;Grille : ligne 1 = ● ▲ ■, ligne 2 = ▲ ■ …, ligne 3 = ■ ● ▲. Quel symbole complète la grille ?;●;▲;■;♥
-43196;Grille : ligne 1 = ■ ♥ ▲, ligne 2 = ♥ ▲ ■, ligne 3 = ▲ ■ …. Quel symbole complète la grille ?;♥;■;▲;♦
-43197;Grille : ligne 1 = ▲ ★ ●, ligne 2 = ★ ● ▲, ligne 3 = ● … ★. Quel symbole complète la grille ?;▲;★;●;♥
-43198;Grille : ligne 1 = ▲ ♥ ■, ligne 2 = … ■ ▲, ligne 3 = ■ ▲ ♥. Quel symbole complète la grille ?;♥;■;▲;★
-43199;Grille : ligne 1 = ▲ ● ■, ligne 2 = ● ■ …, ligne 3 = ■ ▲ ●. Quel symbole complète la grille ?;▲;●;■;♦
-43200;Grille : ligne 1 = ▲ ♥ ■, ligne 2 = ♥ ■ ▲, ligne 3 = ■ … ♥. Quel symbole complète la grille ?;▲;■;♥;●
-43201;Grille : ligne 1 = ♦ ● ★, ligne 2 = ● ★ ♦, ligne 3 = ★ ♦ …. Quel symbole complète la grille ?;●;♦;★;♥
-43202;Grille : ligne 1 = ● ■ ▲, ligne 2 = ■ ▲ ●, ligne 3 = ▲ … ■. Quel symbole complète la grille ?;●;▲;■;★
-43203;Grille : ligne 1 = ♦ ★ ♥, ligne 2 = ★ ♥ …, ligne 3 = ♥ ♦ ★. Quel symbole complète la grille ?;♦;★;♥;▲
-43204;Grille : ligne 1 = ▲ ■ ●, ligne 2 = ■ ● ▲, ligne 3 = … ▲ ■. Quel symbole complète la grille ?;●;▲;■;♦
-43205;Grille : ligne 1 = ★ ● ♦, ligne 2 = ● ♦ ★, ligne 3 = … ★ ●. Quel symbole complète la grille ?;♦;●;★;▲
+43146;Quel symbole complète la grille ?;♥;●;★;■;●|♥|★||★|●|★|●|♥
+43147;Quel symbole complète la grille ?;♥;●;★;▲;★|♥|●||●|★|●|★|♥
+43148;Quel symbole complète la grille ?;▲;●;■;♦;■|●|▲|●||■|▲|■|●
+43149;Quel symbole complète la grille ?;■;♥;▲;♦;▲|♥|■|♥||▲|■|▲|♥
+43150;Quel symbole complète la grille ?;★;♦;♥;▲;♥|★|♦||♦|♥|♦|♥|★
+43151;Quel symbole complète la grille ?;■;●;▲;★;▲|●|■|●|■|▲||▲|●
+43152;Quel symbole complète la grille ?;▲;♦;■;●;▲|♦|■|♦|■||■|▲|♦
+43153;Quel symbole complète la grille ?;▲;●;■;♥;●|▲|■||■|●|■|●|▲
+43154;Quel symbole complète la grille ?;■;▲;♦;★;■|▲|♦|▲|♦|■|♦||▲
+43155;Quel symbole complète la grille ?;▲;■;♥;●;■|♥|▲|♥|▲|■||■|♥
+43156;Quel symbole complète la grille ?;●;▲;■;★;●|■|▲|■|▲||▲|●|■
+43157;Quel symbole complète la grille ?;■;●;▲;♥;▲|■|●||●|▲|●|▲|■
+43158;Quel symbole complète la grille ?;♦;★;♥;■;♦|♥|★|♥|★|♦|★||♥
+43159;Quel symbole complète la grille ?;♦;▲;■;●;▲|♦|■|♦|■|▲|■|▲|
+43160;Quel symbole complète la grille ?;♦;♥;■;●;♥|■|♦|■||♥|♦|♥|■
+43161;Quel symbole complète la grille ?;▲;■;♥;★;♥|■|▲|■||♥|▲|♥|■
+43162;Quel symbole complète la grille ?;♥;●;★;♦;♥|●|★|●|★||★|♥|●
+43163;Quel symbole complète la grille ?;★;●;♥;■;★|♥|●|♥|●|★|●||♥
+43164;Quel symbole complète la grille ?;▲;■;♥;●;■|▲|♥||♥|■|♥|■|▲
+43165;Quel symbole complète la grille ?;▲;■;♥;★;■|▲|♥|▲|♥|■|♥|■|
+43166;Quel symbole complète la grille ?;■;♥;♦;●;♦|♥|■|♥|■|♦||♦|♥
+43167;Quel symbole complète la grille ?;★;●;♥;■;●|♥|★|♥||●|★|●|♥
+43168;Quel symbole complète la grille ?;♦;♥;■;●;■|♦|♥||♥|■|♥|■|♦
+43169;Quel symbole complète la grille ?;●;♥;★;■;♥|★|●|★||♥|●|♥|★
+43170;Quel symbole complète la grille ?;●;▲;★;♥;★|▲|●|▲||★|●|★|▲
+43171;Quel symbole complète la grille ?;★;▲;●;♦;★|▲|●|▲|●|★|●||▲
+43172;Quel symbole complète la grille ?;♥;■;♦;★;♦|♥|■||■|♦|■|♦|♥
+43173;Quel symbole complète la grille ?;★;♦;♥;▲;♦|★|♥||♥|♦|♥|♦|★
+43174;Quel symbole complète la grille ?;★;♦;●;♥;★|♦|●|♦|●||●|★|♦
+43175;Quel symbole complète la grille ?;♦;●;★;■;●|♦|★||★|●|★|●|♦
+43176;Quel symbole complète la grille ?;★;▲;●;♥;★|●|▲|●|▲|★|▲||●
+43177;Quel symbole complète la grille ?;▲;■;♥;♦;♥|■|▲|■|▲|♥||♥|■
+43178;Quel symbole complète la grille ?;♦;●;★;■;♦|★|●|★|●||●|♦|★
+43179;Quel symbole complète la grille ?;▲;♦;■;●;■|▲|♦|▲|♦|■|♦|■|
+43180;Quel symbole complète la grille ?;★;♦;♥;▲;♦|♥|★|♥|★|♦||♦|♥
+43181;Quel symbole complète la grille ?;♥;■;♦;●;■|♦|♥|♦|♥|■||■|♦
+43182;Quel symbole complète la grille ?;★;♦;●;■;♦|●|★|●|★|♦||♦|●
+43183;Quel symbole complète la grille ?;♦;★;♥;●;♥|★|♦|★||♥|♦|♥|★
+43184;Quel symbole complète la grille ?;♦;♥;■;▲;■|♥|♦|♥|♦|■||■|♥
+43185;Quel symbole complète la grille ?;■;♥;♦;★;♥|■|♦||♦|♥|♦|♥|■
+43186;Quel symbole complète la grille ?;♦;♥;■;★;♥|♦|■|♦|■|♥|■|♥|
+43187;Quel symbole complète la grille ?;♦;★;♥;■;♥|♦|★|♦|★|♥|★|♥|
+43188;Quel symbole complète la grille ?;♥;■;▲;★;♥|▲|■|▲|■||■|♥|▲
+43189;Quel symbole complète la grille ?;♦;♥;■;★;♥|♦|■||■|♥|■|♥|♦
+43190;Quel symbole complète la grille ?;●;♥;★;■;★|●|♥||♥|★|♥|★|●
+43191;Quel symbole complète la grille ?;★;♦;●;■;♦|★|●||●|♦|●|♦|★
+43192;Quel symbole complète la grille ?;■;●;▲;★;●|■|▲|■|▲|●|▲|●|
+43193;Quel symbole complète la grille ?;♦;★;♥;■;♥|★|♦|★|♦|♥||♥|★
+43194;Quel symbole complète la grille ?;■;♥;♦;●;♥|♦|■|♦|■|♥||♥|♦
+43195;Quel symbole complète la grille ?;●;▲;■;♥;●|▲|■|▲|■||■|●|▲
+43196;Quel symbole complète la grille ?;♥;■;▲;♦;■|♥|▲|♥|▲|■|▲|■|
+43197;Quel symbole complète la grille ?;▲;★;●;♥;▲|★|●|★|●|▲|●||★
+43198;Quel symbole complète la grille ?;♥;■;▲;★;▲|♥|■||■|▲|■|▲|♥
+43199;Quel symbole complète la grille ?;▲;●;■;♦;▲|●|■|●|■||■|▲|●
+43200;Quel symbole complète la grille ?;▲;■;♥;●;▲|♥|■|♥|■|▲|■||♥
+43201;Quel symbole complète la grille ?;●;♦;★;♥;♦|●|★|●|★|♦|★|♦|
+43202;Quel symbole complète la grille ?;●;▲;■;★;●|■|▲|■|▲|●|▲||■
+43203;Quel symbole complète la grille ?;♦;★;♥;▲;♦|★|♥|★|♥||♥|♦|★
+43204;Quel symbole complète la grille ?;●;▲;■;♦;▲|■|●|■|●|▲||▲|■
+43205;Quel symbole complète la grille ?;♦;●;★;▲;★|●|♦|●|♦|★||★|●
 43206;Sarah est plus âgée que Léa. Léa est plus âgée que Noah. Qui est le plus âgé ?;Sarah;Léa;Noah;Impossible à savoir
 43207;Jules est plus âgé que Hugo. Hugo est plus âgé que Noah. Qui est le/la plus jeune ?;Noah;Jules;Hugo;Impossible à savoir
 43208;Zoé est plus âgée que Inès. Inès est plus âgée que Camille. Qui est le/la plus jeune ?;Camille;Zoé;Inès;Impossible à savoir

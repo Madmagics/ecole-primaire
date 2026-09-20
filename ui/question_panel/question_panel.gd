@@ -98,6 +98,19 @@ const LOGIC_CHOICE_PADDING_SCALE := 0.7
 ## (aucun signalement de troncature horizontale).
 const LOGIC_CHOICE_VERTICAL_PADDING_SCALE := 0.2
 
+## Grille 3x3 des questions Logique de type "complete la grille" (voir QuestionResource.
+## grid_cells, _populate_logic_grid) : toujours 3 colonnes, la donnee CSV etant elle-meme
+## toujours 9 valeurs (3x3). Chaque case reutilise un Button non interactif (mouse_filter=
+## IGNORE) pour beneficier gratuitement du style dore existant des reponses QCM, symboles/
+## emoji agrandis inclus (memes constantes LOGIC_CHOICE_*, voir _is_emoji_choice) - seule la
+## case a deviner ("?") recoit un style different, voir _apply_logic_grid_missing_style.
+const LOGIC_GRID_COLUMNS := 3
+## Bordure de la case a deviner elargie (x2.5) et remplissage tres attenue, plutot qu'une
+## couleur codee en dur : border_color vient du style "normal" du theme actif dans les deux
+## cas, donc reste coherent sur les 4 variantes de theme (voir _apply_logic_grid_missing_style).
+const LOGIC_GRID_MISSING_BORDER_SCALE := 2.5
+const LOGIC_GRID_MISSING_FILL_ALPHA := 0.12
+
 ## Codepoint Unicode a partir duquel un caractere est considere comme un symbole/emoji plutot que
 ## du texte (voir _is_emoji_choice) : U+2190 (fleches) est bien au-dela de tout caractere latin/
 ## accentue utilise par le contenu du jeu (French/English + accents ne depassent jamais Latin
@@ -147,10 +160,16 @@ const PROGRESS_ICON_SIZE := 28
 ## voir ui/theme/*.tres) porte les cles normal_font_size/default_color en plus de font_size/
 ## font_color pour que ce changement de type de noeud ne change pas l'apparence des questions
 ## sans emoji.
-@onready var question_label: RichTextLabel = $Panel/Margin/Content/QuestionScroll/QuestionScrollMargin/QuestionScrollContent/QuestionCard/QuestionCardMargin/QuestionLabel
+@onready var question_label: RichTextLabel = $Panel/Margin/Content/QuestionScroll/QuestionScrollMargin/QuestionScrollContent/QuestionCard/QuestionCardMargin/QuestionCardContent/QuestionLabel
 ## Marge de QuestionCard (voir question_card plus haut) - lue dynamiquement dans
 ## _get_question_scroll_content_width, meme role que content_margin/question_scroll_margin.
 @onready var question_card_margin: MarginContainer = $Panel/Margin/Content/QuestionScroll/QuestionScrollMargin/QuestionScrollContent/QuestionCard/QuestionCardMargin
+## Grille 3x3 affichee pour les questions Logique de type "complete la grille" (voir
+## QuestionResource.grid_cells et _populate_logic_grid) - enfant de QuestionCardContent, juste
+## sous QuestionLabel dans la meme carte (design "option 3", retour utilisateur 2026-09-20).
+## Cachee par defaut dans la .tscn, montree seulement quand la question courante a des
+## grid_cells (9 valeurs).
+@onready var logic_grid_container: GridContainer = $Panel/Margin/Content/QuestionScroll/QuestionScrollMargin/QuestionScrollContent/QuestionCard/QuestionCardMargin/QuestionCardContent/LogicGridContainer
 @onready var answer_input: LineEdit = $Panel/Margin/Content/QuestionScroll/QuestionScrollMargin/QuestionScrollContent/AnswerRow/AnswerInput
 @onready var choices_container: GridContainer = $Panel/Margin/Content/QuestionScroll/QuestionScrollMargin/QuestionScrollContent/ChoicesContainer
 @onready var validate_button: Button = $Panel/Margin/Content/QuestionScroll/QuestionScrollMargin/QuestionScrollContent/AnswerRow/ValidateButton
@@ -288,6 +307,7 @@ func show_message(_unused_source: Node, message: String) -> void:
 	_progress_icon.visible = false
 	_update_question_label_max_width()
 	question_label.text = _build_question_bbcode(message)
+	_clear_logic_grid()
 	_clear_choice_buttons()
 	choices_container.visible = false
 	answer_input.visible = false
@@ -318,6 +338,7 @@ func _display_current_question() -> void:
 	_progress_icon.visible = false
 	_update_question_label_max_width()
 	question_label.text = _build_question_bbcode(question.text)
+	_populate_logic_grid(question)
 	_clear_choice_buttons()
 
 	## QCM par boutons des qu'une question a des choix, sur toutes les plateformes (y compris
@@ -562,12 +583,91 @@ func _get_question_scroll_content_width() -> float:
 ## PanelContainer brut, meme style par defaut 12px gauche/droite) moins la marge de
 ## QuestionCardMargin (question_card_margin) donne la largeur exacte que QuestionLabel recevra.
 func _update_question_label_max_width() -> void:
+	question_label.custom_maximum_size.x = _get_question_card_content_width()
+
+## Largeur reellement disponible A L'INTERIEUR de QuestionCard (sous QuestionLabel, la grille
+## 3x3 et tout futur contenu de QuestionCardContent) : factorise le calcul auparavant duplique
+## dans _update_question_label_max_width seule (voir son historique de bug 2026-08-04/2026-
+## 09-11 ci-dessus) - _logic_grid_cell_size en a maintenant besoin aussi pour dimensionner les
+## cases de la grille Logique sur la meme largeur exacte que le texte de la question.
+func _get_question_card_content_width() -> float:
 	var card_style := question_card.get_theme_stylebox("panel")
-	question_label.custom_maximum_size.x = _get_question_scroll_content_width() \
+	return _get_question_scroll_content_width() \
 			- card_style.get_margin(SIDE_LEFT) \
 			- card_style.get_margin(SIDE_RIGHT) \
 			- question_card_margin.get_theme_constant("margin_left") \
 			- question_card_margin.get_theme_constant("margin_right")
+
+## Vide et cache la grille Logique (voir logic_grid_container) : appelee avant chaque nouvel
+## affichage (message temporaire OU nouvelle question), _populate_logic_grid la remontre
+## ensuite seulement si la question courante a des grid_cells.
+func _clear_logic_grid() -> void:
+	for child in logic_grid_container.get_children():
+		child.queue_free()
+	logic_grid_container.visible = false
+
+## Affiche la grille 3x3 d'une question Logique de type "complete la grille" (voir
+## QuestionResource.grid_cells) directement dans la carte question, sous le texte de la
+## question (design "option 3", retour utilisateur 2026-09-20 : grille integree dans la meme
+## carte plutot qu'un bloc separe, remplace l'ancienne enumeration textuelle "ligne 1 = ...").
+## Ne fait rien (grille cachee, voir _clear_logic_grid deja appele par l'appelant) pour toute
+## question sans grid_cells.
+func _populate_logic_grid(question: QuestionResource) -> void:
+	if question.grid_cells.size() != 9:
+		return
+	logic_grid_container.visible = true
+	logic_grid_container.columns = LOGIC_GRID_COLUMNS
+	var cell_size := _logic_grid_cell_size()
+	for cell_text in question.grid_cells:
+		var is_missing := cell_text == ""
+		var cell := Button.new()
+		cell.text = "?" if is_missing else cell_text
+		## Case non interactive (pur affichage) : jamais cliquee ni focusable, et ignore la
+		## souris/le tactile (contrairement aux boutons de reponse, voir _populate_choice_
+		## buttons - mouse_filter=PASS la-bas car ELLES restent cliquables) pour ne jamais gener
+		## le glissement tactile de QuestionScroll au-dessus d'une case de grille.
+		cell.mouse_filter = Control.MOUSE_FILTER_IGNORE
+		cell.focus_mode = Control.FOCUS_NONE
+		cell.custom_minimum_size = Vector2(cell_size, cell_size)
+		if not is_missing and _is_emoji_choice(cell_text):
+			## Meme traitement qu'un symbole de reponse QCM (voir _populate_choice_buttons) :
+			## police x2 lue depuis le theme actif, jamais codee en dur (reste correct sur les 4
+			## variantes de theme).
+			var base_font_size := cell.get_theme_font_size("font_size")
+			cell.add_theme_font_size_override("font_size", roundi(base_font_size * LOGIC_CHOICE_FONT_MULTIPLIER))
+			_apply_logic_choice_padding(cell)
+		if is_missing:
+			_apply_logic_grid_missing_style(cell)
+		logic_grid_container.add_child(cell)
+
+## Case carree : cote = largeur disponible dans la carte question (_get_question_card_content_
+## width, meme reference que QuestionLabel) moins les 2 ecarts entre les 3 colonnes, divisee
+## par 3 - jamais de valeur codee en dur, pour rester correct quelle que soit la taille reelle
+## du cadre (voir _update_panel_max_size).
+func _logic_grid_cell_size() -> float:
+	var available_width := _get_question_card_content_width()
+	var separation := logic_grid_container.get_theme_constant("h_separation")
+	return (available_width - 2.0 * separation) / float(LOGIC_GRID_COLUMNS)
+
+## Distingue visuellement la case a deviner ("?") des 8 cases remplies : bordure elargie et
+## remplissage tres attenue, en dupliquant le style "normal" herite du theme (jamais modifie
+## directement - toucherait tous les boutons du jeu, meme technique que _apply_logic_choice_
+## padding) plutot qu'une couleur codee en dur, pour rester coherent sur les 4 variantes de
+## theme (ui/theme/*.tres). La case n'ayant ni hover ni pressed ni focus possibles (voir
+## mouse_filter/focus_mode plus haut dans _populate_logic_grid), seul l'etat "normal" a besoin
+## d'etre surcharge.
+func _apply_logic_grid_missing_style(cell: Button) -> void:
+	var original := cell.get_theme_stylebox("normal")
+	var flat := original as StyleBoxFlat
+	if flat == null:
+		return
+	var scaled: StyleBoxFlat = flat.duplicate()
+	scaled.border_width_left = roundi(flat.border_width_left * LOGIC_GRID_MISSING_BORDER_SCALE)
+	scaled.border_width_top = roundi(flat.border_width_top * LOGIC_GRID_MISSING_BORDER_SCALE)
+	scaled.border_width_right = roundi(flat.border_width_right * LOGIC_GRID_MISSING_BORDER_SCALE)
+	scaled.border_width_bottom = roundi(flat.border_width_bottom * LOGIC_GRID_MISSING_BORDER_SCALE)
+	scaled.bg_color.a = LOGIC_GRID_MISSING_FILL_ALPHA
+	cell.add_theme_stylebox_override("normal", scaled)
 
 func _clear_choice_buttons() -> void:
 	for child in choices_container.get_children():

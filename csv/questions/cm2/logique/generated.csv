@@ -2,7 +2,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 44000;Quel nombre vient après ? 1, 1, 2, 3, 5, …;8;7;9;6
 44001;Quel nombre vient après ? 2, 5, 10, 17, …;26;24;25;28
 44002;"Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on ""CAT"" ?";DBU;BZS;DBV;CBU
-44003;Grille : ligne 1 = 1 2 3, ligne 2 = 2 3 4, ligne 3 = 3 4 … Quel nombre complète la grille ?;5;4;6;3
+44003;Quel nombre complète la grille ?;5;4;6;3;1|2|3|2|3|4|3|4|
 44004;Léo, Emma et Noah ont chacun un animal différent : chat, chien, poisson. Emma a un chat. Léo n'a pas de poisson. Qui a le poisson ?;Noah;Léo;Emma;Impossible à savoir
 44005;Quel nombre vient après ? 1, 10, 2, 9, 3, …;8;7;9;4
 44006;"Sur une île, Ana dit toujours la vérité et Bo ment toujours. Une personne dit ""Il pleut"", mais il ne pleut pas. Qui a parlé ?";Bo;Ana;Les deux;Aucun des deux
@@ -146,66 +146,66 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 44144;"Avec un décalage de +5 où A devient F, B devient G, etc., comment écrit-on ""BATEAU"" ?";GFYJFZ;HGZKGA;FEXIEY;ZFJYFG
 44145;"Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on ""FLEUR"" ?";IOHXU;JPIYV;HNGWT;UXHOI
 44146;"Avec un décalage de +7 où A devient H, B devient I, etc., comment écrit-on ""SOLEIL"" ?";ZVSLPS;AWTMQT;YURKOR;SPLSVZ
-44147;Grille : ligne 1 = 8 11 14, ligne 2 = 10 13 …, ligne 3 = 12 15 18. Quel nombre complète la grille ?;16;17;18;15
-44148;Grille : ligne 1 = 7 10 13, ligne 2 = 11 14 17, ligne 3 = … 18 21. Quel nombre complète la grille ?;15;16;19;14
-44149;Grille : ligne 1 = 2 6 10, ligne 2 = 5 9 13, ligne 3 = … 12 16. Quel nombre complète la grille ?;8;9;11;7
-44150;Grille : ligne 1 = 3 5 7, ligne 2 = 7 9 11, ligne 3 = … 13 15. Quel nombre complète la grille ?;11;10;12;15
-44151;Grille : ligne 1 = … 8 10, ligne 2 = 7 9 11, ligne 3 = 8 10 12. Quel nombre complète la grille ?;6;8;5;7
-44152;Grille : ligne 1 = 2 6 10, ligne 2 = 3 … 11, ligne 3 = 4 8 12. Quel nombre complète la grille ?;7;8;11;6
-44153;Grille : ligne 1 = 2 5 8, ligne 2 = 4 7 10, ligne 3 = 6 9 …. Quel nombre complète la grille ?;12;11;13;14
-44154;Grille : ligne 1 = 10 14 18, ligne 2 = … 15 19, ligne 3 = 12 16 20. Quel nombre complète la grille ?;11;10;12;15
-44155;Grille : ligne 1 = 4 7 10, ligne 2 = … 9 12, ligne 3 = 8 11 14. Quel nombre complète la grille ?;6;8;5;7
-44156;Grille : ligne 1 = 3 6 9, ligne 2 = 5 8 11, ligne 3 = 7 … 13. Quel nombre complète la grille ?;10;9;11;12
-44157;Grille : ligne 1 = 1 3 5, ligne 2 = 2 … 6, ligne 3 = 3 5 7. Quel nombre complète la grille ?;4;3;5;6
-44158;Grille : ligne 1 = 3 5 7, ligne 2 = 7 9 …, ligne 3 = 11 13 15. Quel nombre complète la grille ?;11;10;12;15
-44159;Grille : ligne 1 = 4 … 6, ligne 2 = 7 8 9, ligne 3 = 10 11 12. Quel nombre complète la grille ?;5;8;4;6
-44160;Grille : ligne 1 = 2 4 6, ligne 2 = 6 8 10, ligne 3 = 10 … 14. Quel nombre complète la grille ?;12;16;11;13
-44161;Grille : ligne 1 = 2 5 8, ligne 2 = 6 9 …, ligne 3 = 10 13 16. Quel nombre complète la grille ?;12;16;11;13
-44162;Grille : ligne 1 = 3 6 9, ligne 2 = 4 7 10, ligne 3 = 5 8 …. Quel nombre complète la grille ?;11;10;12;14
-44163;Grille : ligne 1 = 7 10 13, ligne 2 = 9 12 …, ligne 3 = 11 14 17. Quel nombre complète la grille ?;15;16;17;14
-44164;Grille : ligne 1 = 3 6 9, ligne 2 = 4 7 …, ligne 3 = 5 8 11. Quel nombre complète la grille ?;10;9;11;13
-44165;Grille : ligne 1 = 5 … 9, ligne 2 = 9 11 13, ligne 3 = 13 15 17. Quel nombre complète la grille ?;7;8;11;6
-44166;Grille : ligne 1 = 4 8 …, ligne 2 = 7 11 15, ligne 3 = 10 14 18. Quel nombre complète la grille ?;12;11;13;15
-44167;Grille : ligne 1 = 9 10 11, ligne 2 = 12 13 14, ligne 3 = 15 … 17. Quel nombre complète la grille ?;16;17;19;15
-44168;Grille : ligne 1 = 2 3 4, ligne 2 = 5 6 7, ligne 3 = 8 … 10. Quel nombre complète la grille ?;9;8;10;12
-44169;Grille : ligne 1 = 6 … 10, ligne 2 = 7 9 11, ligne 3 = 8 10 12. Quel nombre complète la grille ?;8;9;10;7
-44170;Grille : ligne 1 = 8 12 16, ligne 2 = 9 13 17, ligne 3 = 10 14 …. Quel nombre complète la grille ?;18;17;19;22
-44171;Grille : ligne 1 = 2 6 10, ligne 2 = … 8 12, ligne 3 = 6 10 14. Quel nombre complète la grille ?;4;3;5;6
-44172;Grille : ligne 1 = 5 9 13, ligne 2 = 7 11 15, ligne 3 = 9 13 …. Quel nombre complète la grille ?;17;16;18;19
-44173;Grille : ligne 1 = 3 … 11, ligne 2 = 4 8 12, ligne 3 = 5 9 13. Quel nombre complète la grille ?;7;8;11;6
-44174;Grille : ligne 1 = 6 8 10, ligne 2 = 7 9 11, ligne 3 = … 10 12. Quel nombre complète la grille ?;8;9;10;7
-44175;Grille : ligne 1 = 7 8 9, ligne 2 = 11 12 13, ligne 3 = … 16 17. Quel nombre complète la grille ?;15;16;19;14
-44176;Grille : ligne 1 = … 6 10, ligne 2 = 5 9 13, ligne 3 = 8 12 16. Quel nombre complète la grille ?;2;1;3;5
-44177;Grille : ligne 1 = 9 10 11, ligne 2 = 11 … 13, ligne 3 = 13 14 15. Quel nombre complète la grille ?;12;11;13;14
-44178;Grille : ligne 1 = 1 5 9, ligne 2 = … 8 12, ligne 3 = 7 11 15. Quel nombre complète la grille ?;4;3;5;7
-44179;Grille : ligne 1 = 3 6 9, ligne 2 = … 8 11, ligne 3 = 7 10 13. Quel nombre complète la grille ?;5;4;6;7
-44180;Grille : ligne 1 = 10 14 18, ligne 2 = 11 … 19, ligne 3 = 12 16 20. Quel nombre complète la grille ?;15;16;19;14
-44181;Grille : ligne 1 = … 6 9, ligne 2 = 4 7 10, ligne 3 = 5 8 11. Quel nombre complète la grille ?;3;2;4;6
-44182;Grille : ligne 1 = … 12 15, ligne 2 = 13 16 19, ligne 3 = 17 20 23. Quel nombre complète la grille ?;9;8;10;13
-44183;Grille : ligne 1 = 10 13 16, ligne 2 = 11 … 17, ligne 3 = 12 15 18. Quel nombre complète la grille ?;14;17;13;15
-44184;Grille : ligne 1 = … 4 5, ligne 2 = 5 6 7, ligne 3 = 7 8 9. Quel nombre complète la grille ?;3;2;4;5
-44185;Grille : ligne 1 = 8 9 10, ligne 2 = 11 … 13, ligne 3 = 14 15 16. Quel nombre complète la grille ?;12;11;13;15
-44186;Grille : ligne 1 = 2 5 …, ligne 2 = 3 6 9, ligne 3 = 4 7 10. Quel nombre complète la grille ?;8;9;11;7
-44187;Grille : ligne 1 = 6 7 …, ligne 2 = 8 9 10, ligne 3 = 10 11 12. Quel nombre complète la grille ?;8;9;10;7
-44188;Grille : ligne 1 = 3 6 9, ligne 2 = 4 … 10, ligne 3 = 5 8 11. Quel nombre complète la grille ?;7;8;10;6
-44189;Grille : ligne 1 = 9 13 17, ligne 2 = 11 15 19, ligne 3 = … 17 21. Quel nombre complète la grille ?;13;12;14;15
-44190;Grille : ligne 1 = 10 11 12, ligne 2 = 13 14 15, ligne 3 = 16 … 18. Quel nombre complète la grille ?;17;16;18;20
-44191;Grille : ligne 1 = 7 9 11, ligne 2 = 10 12 14, ligne 3 = 13 … 17. Quel nombre complète la grille ?;15;16;18;14
-44192;Grille : ligne 1 = 2 5 8, ligne 2 = … 9 12, ligne 3 = 10 13 16. Quel nombre complète la grille ?;6;10;5;7
-44193;Grille : ligne 1 = 1 3 5, ligne 2 = 5 7 9, ligne 3 = 9 11 …. Quel nombre complète la grille ?;13;17;12;14
-44194;Grille : ligne 1 = 4 5 …, ligne 2 = 6 7 8, ligne 3 = 8 9 10. Quel nombre complète la grille ?;6;8;5;7
-44195;Grille : ligne 1 = 10 … 16, ligne 2 = 11 14 17, ligne 3 = 12 15 18. Quel nombre complète la grille ?;13;16;12;14
-44196;Grille : ligne 1 = 9 12 15, ligne 2 = 11 14 …, ligne 3 = 13 16 19. Quel nombre complète la grille ?;17;16;18;19
-44197;Grille : ligne 1 = 8 9 10, ligne 2 = 11 12 13, ligne 3 = … 15 16. Quel nombre complète la grille ?;14;17;13;15
-44198;Grille : ligne 1 = 7 11 15, ligne 2 = 8 12 16, ligne 3 = 9 … 17. Quel nombre complète la grille ?;13;17;12;14
-44199;Grille : ligne 1 = 2 6 10, ligne 2 = … 7 11, ligne 3 = 4 8 12. Quel nombre complète la grille ?;3;2;4;7
-44200;Grille : ligne 1 = 4 … 12, ligne 2 = 7 11 15, ligne 3 = 10 14 18. Quel nombre complète la grille ?;8;9;11;7
-44201;Grille : ligne 1 = 9 12 …, ligne 2 = 10 13 16, ligne 3 = 11 14 17. Quel nombre complète la grille ?;15;16;18;14
-44202;Grille : ligne 1 = 8 9 …, ligne 2 = 11 12 13, ligne 3 = 14 15 16. Quel nombre complète la grille ?;10;9;11;13
-44203;Grille : ligne 1 = 8 … 16, ligne 2 = 10 14 18, ligne 3 = 12 16 20. Quel nombre complète la grille ?;12;11;13;14
-44204;Grille : ligne 1 = 6 7 8, ligne 2 = 10 11 …, ligne 3 = 14 15 16. Quel nombre complète la grille ?;12;16;11;13
-44205;Grille : ligne 1 = 2 4 6, ligne 2 = 6 8 10, ligne 3 = 10 12 …. Quel nombre complète la grille ?;14;18;13;15
-44206;Grille : ligne 1 = 8 10 12, ligne 2 = 9 11 13, ligne 3 = … 12 14. Quel nombre complète la grille ?;10;9;11;12
+44147;Quel nombre complète la grille ?;16;17;18;15;8|11|14|10|13||12|15|18
+44148;Quel nombre complète la grille ?;15;16;19;14;7|10|13|11|14|17||18|21
+44149;Quel nombre complète la grille ?;8;9;11;7;2|6|10|5|9|13||12|16
+44150;Quel nombre complète la grille ?;11;10;12;15;3|5|7|7|9|11||13|15
+44151;Quel nombre complète la grille ?;6;8;5;7;|8|10|7|9|11|8|10|12
+44152;Quel nombre complète la grille ?;7;8;11;6;2|6|10|3||11|4|8|12
+44153;Quel nombre complète la grille ?;12;11;13;14;2|5|8|4|7|10|6|9|
+44154;Quel nombre complète la grille ?;11;10;12;15;10|14|18||15|19|12|16|20
+44155;Quel nombre complète la grille ?;6;8;5;7;4|7|10||9|12|8|11|14
+44156;Quel nombre complète la grille ?;10;9;11;12;3|6|9|5|8|11|7||13
+44157;Quel nombre complète la grille ?;4;3;5;6;1|3|5|2||6|3|5|7
+44158;Quel nombre complète la grille ?;11;10;12;15;3|5|7|7|9||11|13|15
+44159;Quel nombre complète la grille ?;5;8;4;6;4||6|7|8|9|10|11|12
+44160;Quel nombre complète la grille ?;12;16;11;13;2|4|6|6|8|10|10||14
+44161;Quel nombre complète la grille ?;12;16;11;13;2|5|8|6|9||10|13|16
+44162;Quel nombre complète la grille ?;11;10;12;14;3|6|9|4|7|10|5|8|
+44163;Quel nombre complète la grille ?;15;16;17;14;7|10|13|9|12||11|14|17
+44164;Quel nombre complète la grille ?;10;9;11;13;3|6|9|4|7||5|8|11
+44165;Quel nombre complète la grille ?;7;8;11;6;5||9|9|11|13|13|15|17
+44166;Quel nombre complète la grille ?;12;11;13;15;4|8||7|11|15|10|14|18
+44167;Quel nombre complète la grille ?;16;17;19;15;9|10|11|12|13|14|15||17
+44168;Quel nombre complète la grille ?;9;8;10;12;2|3|4|5|6|7|8||10
+44169;Quel nombre complète la grille ?;8;9;10;7;6||10|7|9|11|8|10|12
+44170;Quel nombre complète la grille ?;18;17;19;22;8|12|16|9|13|17|10|14|
+44171;Quel nombre complète la grille ?;4;3;5;6;2|6|10||8|12|6|10|14
+44172;Quel nombre complète la grille ?;17;16;18;19;5|9|13|7|11|15|9|13|
+44173;Quel nombre complète la grille ?;7;8;11;6;3||11|4|8|12|5|9|13
+44174;Quel nombre complète la grille ?;8;9;10;7;6|8|10|7|9|11||10|12
+44175;Quel nombre complète la grille ?;15;16;19;14;7|8|9|11|12|13||16|17
+44176;Quel nombre complète la grille ?;2;1;3;5;|6|10|5|9|13|8|12|16
+44177;Quel nombre complète la grille ?;12;11;13;14;9|10|11|11||13|13|14|15
+44178;Quel nombre complète la grille ?;4;3;5;7;1|5|9||8|12|7|11|15
+44179;Quel nombre complète la grille ?;5;4;6;7;3|6|9||8|11|7|10|13
+44180;Quel nombre complète la grille ?;15;16;19;14;10|14|18|11||19|12|16|20
+44181;Quel nombre complète la grille ?;3;2;4;6;|6|9|4|7|10|5|8|11
+44182;Quel nombre complète la grille ?;9;8;10;13;|12|15|13|16|19|17|20|23
+44183;Quel nombre complète la grille ?;14;17;13;15;10|13|16|11||17|12|15|18
+44184;Quel nombre complète la grille ?;3;2;4;5;|4|5|5|6|7|7|8|9
+44185;Quel nombre complète la grille ?;12;11;13;15;8|9|10|11||13|14|15|16
+44186;Quel nombre complète la grille ?;8;9;11;7;2|5||3|6|9|4|7|10
+44187;Quel nombre complète la grille ?;8;9;10;7;6|7||8|9|10|10|11|12
+44188;Quel nombre complète la grille ?;7;8;10;6;3|6|9|4||10|5|8|11
+44189;Quel nombre complète la grille ?;13;12;14;15;9|13|17|11|15|19||17|21
+44190;Quel nombre complète la grille ?;17;16;18;20;10|11|12|13|14|15|16||18
+44191;Quel nombre complète la grille ?;15;16;18;14;7|9|11|10|12|14|13||17
+44192;Quel nombre complète la grille ?;6;10;5;7;2|5|8||9|12|10|13|16
+44193;Quel nombre complète la grille ?;13;17;12;14;1|3|5|5|7|9|9|11|
+44194;Quel nombre complète la grille ?;6;8;5;7;4|5||6|7|8|8|9|10
+44195;Quel nombre complète la grille ?;13;16;12;14;10||16|11|14|17|12|15|18
+44196;Quel nombre complète la grille ?;17;16;18;19;9|12|15|11|14||13|16|19
+44197;Quel nombre complète la grille ?;14;17;13;15;8|9|10|11|12|13||15|16
+44198;Quel nombre complète la grille ?;13;17;12;14;7|11|15|8|12|16|9||17
+44199;Quel nombre complète la grille ?;3;2;4;7;2|6|10||7|11|4|8|12
+44200;Quel nombre complète la grille ?;8;9;11;7;4||12|7|11|15|10|14|18
+44201;Quel nombre complète la grille ?;15;16;18;14;9|12||10|13|16|11|14|17
+44202;Quel nombre complète la grille ?;10;9;11;13;8|9||11|12|13|14|15|16
+44203;Quel nombre complète la grille ?;12;11;13;14;8||16|10|14|18|12|16|20
+44204;Quel nombre complète la grille ?;12;16;11;13;6|7|8|10|11||14|15|16
+44205;Quel nombre complète la grille ?;14;18;13;15;2|4|6|6|8|10|10|12|
+44206;Quel nombre complète la grille ?;10;9;11;12;8|10|12|9|11|13||12|14
 44207;Chloé, Camille et Adam ont chacun un instrument différent : la guitare, le piano, la flûte. Chloé joue la guitare. Camille ne joue pas la flûte. Qui joue la flûte ?;Adam;Chloé;Camille;Impossible à savoir
 44208;Emma, Manon et Léo ont chacun un animal différent : chien, chat, poisson. Emma a un chien. Manon n'a pas de poisson. Qui a le poisson ?;Léo;Emma;Manon;Impossible à savoir
 44209;Zoé, Camille et Adam ont chacun un animal différent : chat, poisson, chien. Zoé a un chat. Camille n'a pas de chien. Qui a le chien ?;Adam;Zoé;Camille;Impossible à savoir
@@ -485,17 +485,17 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 44483;"Avec un décalage de +6 où A devient G, B devient H, etc., comment écrit-on ""SABLE"" ?";YGHRK;ZHISL;XFGQJ;KRHGY
 44484;"Avec un décalage de +7 où A devient H, B devient I, etc., comment écrit-on ""CHIEN"" ?";JOPLU;KPQMV;INOKT;ULPOJ
 44485;"Avec un décalage de +5 où A devient F, B devient G, etc., comment écrit-on ""OISEAU"" ?";TNXJFZ;UOYKGA;SMWIEY;ZFJXNT
-44486;Grille : ligne 1 = 8 … 12, ligne 2 = 11 13 15, ligne 3 = 14 16 18. Quel nombre complète la grille ?;10;9;11;13
-44487;Grille : ligne 1 = 6 9 12, ligne 2 = 7 10 …, ligne 3 = 8 11 14. Quel nombre complète la grille ?;13;16;12;14
-44488;Grille : ligne 1 = 8 12 16, ligne 2 = 9 13 17, ligne 3 = 10 … 18. Quel nombre complète la grille ?;14;18;13;15
-44489;Grille : ligne 1 = 4 6 8, ligne 2 = … 10 12, ligne 3 = 12 14 16. Quel nombre complète la grille ?;8;9;12;7
-44490;Grille : ligne 1 = 3 4 5, ligne 2 = 6 7 …, ligne 3 = 9 10 11. Quel nombre complète la grille ?;8;9;11;7
-44491;Grille : ligne 1 = 2 5 8, ligne 2 = 4 … 10, ligne 3 = 6 9 12. Quel nombre complète la grille ?;7;8;9;6
-44492;Grille : ligne 1 = 4 7 10, ligne 2 = 5 … 11, ligne 3 = 6 9 12. Quel nombre complète la grille ?;8;9;11;7
-44493;Grille : ligne 1 = 9 11 13, ligne 2 = 10 12 14, ligne 3 = … 13 15. Quel nombre complète la grille ?;11;10;12;13
-44494;Grille : ligne 1 = 8 11 14, ligne 2 = 10 13 16, ligne 3 = 12 … 18. Quel nombre complète la grille ?;15;16;17;14
-44495;Grille : ligne 1 = 6 8 10, ligne 2 = 7 9 11, ligne 3 = 8 … 12. Quel nombre complète la grille ?;10;9;11;12
-44496;Grille : ligne 1 = 9 12 15, ligne 2 = 13 16 …, ligne 3 = 17 20 23. Quel nombre complète la grille ?;19;18;20;23
-44497;Grille : ligne 1 = 2 4 6, ligne 2 = 5 … 9, ligne 3 = 8 10 12. Quel nombre complète la grille ?;7;8;10;6
-44498;Grille : ligne 1 = 6 10 14, ligne 2 = … 11 15, ligne 3 = 8 12 16. Quel nombre complète la grille ?;7;8;11;6
-44499;Grille : ligne 1 = 3 4 5, ligne 2 = … 7 8, ligne 3 = 9 10 11. Quel nombre complète la grille ?;6;9;5;7
+44486;Quel nombre complète la grille ?;10;9;11;13;8||12|11|13|15|14|16|18
+44487;Quel nombre complète la grille ?;13;16;12;14;6|9|12|7|10||8|11|14
+44488;Quel nombre complète la grille ?;14;18;13;15;8|12|16|9|13|17|10||18
+44489;Quel nombre complète la grille ?;8;9;12;7;4|6|8||10|12|12|14|16
+44490;Quel nombre complète la grille ?;8;9;11;7;3|4|5|6|7||9|10|11
+44491;Quel nombre complète la grille ?;7;8;9;6;2|5|8|4||10|6|9|12
+44492;Quel nombre complète la grille ?;8;9;11;7;4|7|10|5||11|6|9|12
+44493;Quel nombre complète la grille ?;11;10;12;13;9|11|13|10|12|14||13|15
+44494;Quel nombre complète la grille ?;15;16;17;14;8|11|14|10|13|16|12||18
+44495;Quel nombre complète la grille ?;10;9;11;12;6|8|10|7|9|11|8||12
+44496;Quel nombre complète la grille ?;19;18;20;23;9|12|15|13|16||17|20|23
+44497;Quel nombre complète la grille ?;7;8;10;6;2|4|6|5||9|8|10|12
+44498;Quel nombre complète la grille ?;7;8;11;6;6|10|14||11|15|8|12|16
+44499;Quel nombre complète la grille ?;6;9;5;7;3|4|5||7|8|9|10|11

@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Propositions de design — grille 3×3 Logique</title>
+<style>
+  :root {
+    --bg: #2b2f3c;
+    --panel: #3a3f52;
+    --panel-border: #d7a24a;
+    --card: #454a60;
+    --gold: #d7a24a;
+    --gold-dark: #b8853a;
+    --gold-light: #e8bd70;
+    --text: #f0ead9;
+    --accent: #e2574c;
+  }
+  * { box-sizing: border-box; }
+  body {
+    background: #1c1e28;
+    color: var(--text);
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    margin: 0;
+    padding: 32px 16px 64px;
+  }
+  h1 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 6px;
+    color: var(--gold-light);
+  }
+  p.intro {
+    text-align: center;
+    max-width: 680px;
+    margin: 0 auto 36px;
+    color: #c7c2b0;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .option {
+    background: #23262f;
+    border-radius: 16px;
+    padding: 18px;
+    width: 360px;
+  }
+  .option h2 {
+    font-size: 15px;
+    color: var(--gold-light);
+    margin: 4px 0 2px;
+  }
+  .option .tag {
+    display: inline-block;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    background: var(--gold-dark);
+    color: #1c1e28;
+    padding: 2px 8px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+  }
+  .option p.desc {
+    font-size: 12.5px;
+    color: #b9b4a4;
+    line-height: 1.45;
+    margin: 0 0 14px;
+  }
+
+  /* --- mockup of the in-game panel --- */
+  .mockup {
+    background: var(--bg);
+    border-radius: 14px;
+    padding: 14px;
+  }
+  .mockup .panel {
+    background: var(--panel);
+    border: 2px solid var(--panel-border);
+    border-radius: 14px;
+    padding: 14px;
+  }
+  .mockup .headerrow {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .mockup .badge {
+    border: 1.5px solid var(--gold);
+    border-radius: 8px;
+    padding: 3px 10px;
+    font-size: 11px;
+    font-weight: 600;
+  }
+  .mockup .close {
+    margin-left: auto;
+    background: var(--gold);
+    color: #2b2f3c;
+    font-weight: 700;
+    font-size: 10px;
+    border-radius: 6px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .mockup .qcard {
+    background: var(--card);
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 12.5px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    line-height: 1.4;
+  }
+  .mockup .qcard .sub {
+    display: block;
+    font-weight: 400;
+    font-size: 10.5px;
+    color: #cfc9b8;
+    margin-top: 4px;
+  }
+
+  .grid3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+    width: 168px;
+    margin: 0 auto 12px;
+  }
+  .grid3 .cell {
+    aspect-ratio: 1;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 700;
+    background: var(--gold);
+    color: #2b2f3c;
+    border: 2px solid var(--gold-dark);
+  }
+  .grid3 .cell.missing {
+    background: transparent;
+    color: var(--gold-light);
+    border: 2px dashed var(--gold-light);
+  }
+  .grid3.with-labels {
+    grid-template-columns: 18px repeat(3, 1fr);
+  }
+  .grid3.with-labels .rowlabel {
+    background: none;
+    border: none;
+    color: #8f8a7a;
+    font-size: 10px;
+    font-weight: 400;
+  }
+
+  .choices2x2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+  .choices2x2 .choice {
+    background: var(--gold);
+    color: #2b2f3c;
+    border: 2px solid var(--gold-dark);
+    border-radius: 8px;
+    padding: 10px 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+  }
+
+  .option3 .qcard-with-grid {
+    background: var(--card);
+    border-radius: 10px;
+    padding: 12px;
+    margin-bottom: 12px;
+  }
+  .option3 .qcard-with-grid .label {
+    font-size: 12.5px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  .note {
+    max-width: 900px;
+    margin: 40px auto 0;
+    background: #23262f;
+    border-radius: 12px;
+    padding: 18px 22px;
+    font-size: 13px;
+    color: #c7c2b0;
+    line-height: 1.6;
+  }
+  .note strong { color: var(--gold-light); }
+  .note code {
+    background: #1c1e28;
+    padding: 1px 5px;
+    border-radius: 4px;
+    font-size: 12px;
+  }
+</style>
+</head>
+<body>
+
+<h1>Grille 3×3 pour les questions Logique — 3 pistes de design</h1>
+<p class="intro">
+  Ces maquettes remplacent l'énumération textuelle ("ligne 1 = …, ligne 2 = …") par une vraie
+  grille visuelle. Aucune n'est implémentée — c'est pour choisir la direction avant de toucher au code.
+</p>
+
+<div class="options">
+
+  <!-- OPTION 1 -->
+  <div class="option">
+    <span class="tag">Recommandé</span>
+    <h2>Option 1 — Grille pure, question réduite</h2>
+    <p class="desc">
+      La phrase ne garde que la question finale. La grille (avec la case manquante en pointillés)
+      devient l'unique support visuel, juste au-dessus des 4 réponses.
+    </p>
+    <div class="mockup">
+      <div class="panel">
+        <div class="headerrow">
+          <div class="badge">Question 1/10</div>
+          <div class="close">X</div>
+        </div>
+        <div class="qcard">Quel nombre complète la grille ?</div>
+        <div class="grid3">
+          <div class="cell">2</div><div class="cell">5</div><div class="cell">8</div>
+          <div class="cell missing">?</div><div class="cell">9</div><div class="cell">12</div>
+          <div class="cell">10</div><div class="cell">13</div><div class="cell">16</div>
+        </div>
+        <div class="choices2x2">
+          <div class="choice">7</div><div class="choice">6</div>
+          <div class="choice">10</div><div class="choice">5</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- OPTION 2 -->
+  <div class="option">
+    <span class="tag">Variante lisible</span>
+    <h2>Option 2 — Grille avec repères de ligne</h2>
+    <p class="desc">
+      Même principe, mais chaque ligne garde une petite étiquette "L1 / L2 / L3" à gauche,
+      pour un enfant qui a besoin de se repérer explicitement ligne par ligne.
+    </p>
+    <div class="mockup">
+      <div class="panel">
+        <div class="headerrow">
+          <div class="badge">Question 1/10</div>
+          <div class="close">X</div>
+        </div>
+        <div class="qcard">Quel nombre complète la grille ?</div>
+        <div class="grid3 with-labels">
+          <div class="rowlabel">L1</div><div class="cell">2</div><div class="cell">5</div><div class="cell">8</div>
+          <div class="rowlabel">L2</div><div class="cell missing">?</div><div class="cell">9</div><div class="cell">12</div>
+          <div class="rowlabel">L3</div><div class="cell">10</div><div class="cell">13</div><div class="cell">16</div>
+        </div>
+        <div class="choices2x2">
+          <div class="choice">7</div><div class="choice">6</div>
+          <div class="choice">10</div><div class="choice">5</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- OPTION 3 -->
+  <div class="option option3">
+    <span class="tag">Intégré</span>
+    <h2>Option 3 — Grille dans la carte question</h2>
+    <p class="desc">
+      La grille reste à l'intérieur de la carte-question existante (pas de nouveau bloc séparé) :
+      une courte consigne en haut, la grille juste dessous, tout dans le même cadre.
+    </p>
+    <div class="mockup">
+      <div class="panel">
+        <div class="headerrow">
+          <div class="badge">Question 1/10</div>
+          <div class="close">X</div>
+        </div>
+        <div class="qcard-with-grid">
+          <div class="label">Complète la grille :</div>
+          <div class="grid3">
+            <div class="cell">2</div><div class="cell">5</div><div class="cell">8</div>
+            <div class="cell missing">?</div><div class="cell">9</div><div class="cell">12</div>
+            <div class="cell">10</div><div class="cell">13</div><div class="cell">16</div>
+          </div>
+        </div>
+        <div class="choices2x2">
+          <div class="choice">7</div><div class="choice">6</div>
+          <div class="choice">10</div><div class="choice">5</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="note">
+  <strong>Différences entre les 3 options</strong> : l'option 1 sépare bien la grille du texte
+  (plus proche visuellement des boutons de réponse déjà utilisés pour Logique, même style
+  doré/bordure) ; l'option 2 ajoute une aide de lecture (L1/L2/L3) utile surtout en CM1/CM2 où
+  les grilles portent des nombres à 2 chiffres ; l'option 3 économise de la hauteur d'écran en
+  gardant tout dans une seule carte, ce qui compte sur l'écran fixe 1152×648 du jeu.<br><br>
+  <strong>Point technique à garder en tête</strong> (pour plus tard, pas à traiter maintenant) :
+  aujourd'hui le CSV ne stocke qu'une phrase toute faite ("Grille : ligne 1 = … "). Pour afficher
+  une vraie grille, il faudra soit parser cette phrase avec une regex côté <code>question_panel.gd</code>,
+  soit ajouter une colonne structurée dédiée à la grille dans les CSV Logique (CM1/CM2, ids
+  43xxx/44xxx) — la 2ᵉ option est plus propre mais touche à la génération des questions, pas
+  seulement à l'affichage.
+</div>
+
+</body>
+</html>

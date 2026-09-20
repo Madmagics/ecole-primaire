@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://du2lcwn0v0avw" path="res://levels/school/school.gd" id="1_ius0d"]
 [ext_resource type="Texture2D" uid="uid://dnqbop3nengbl" path="res://assets/classe2.0/decor-cp/fond1.1.webp" id="2_ncxpj"]
+[ext_resource type="Texture2D" uid="uid://ju65pdrn2xkn" path="res://assets/classe2.0/decor-cp/soleil.webp" id="3_jvqxi"]
 [ext_resource type="Texture2D" uid="uid://4clc3siq1x6k" path="res://assets/classe2.0/decor-cp/arbre1.webp" id="3_uha7p"]
 [ext_resource type="Texture2D" uid="uid://cxk5rvldroygp" path="res://assets/classe2.0/decor-cp/arbre3.webp" id="4_68rdb"]
 [ext_resource type="Texture2D" uid="uid://b1ltx7vqpanb1" path="res://assets/classe2.0/decor-cp/fleurs-bordure1.webp" id="5_tmblu"]
@@ -44,6 +45,11 @@ position = Vector2(576.5, 324.00003)
 scale = Vector2(0.750651, 0.6347656)
 texture = ExtResource("2_ncxpj")
 
+[node name="Soleil" type="Sprite2D" parent="Background" unique_id=1676724117]
+position = Vector2(728, 88)
+scale = Vector2(0.99999994, 1)
+texture = ExtResource("3_jvqxi")
+
 [node name="zone-nuages" type="Polygon2D" parent="Background" unique_id=718073878]
 position = Vector2(-8.337876, -41.315216)
 scale = Vector2(1.0200641, 1.2282609)
@@ -68,6 +74,7 @@ scale = Vector2(0.6994383, 0.6148649)
 texture = ExtResource("4_68rdb")
 
 [node name="FleursBordure1" type="Sprite2D" parent="Decor" unique_id=1129487778]
+z_index = 1
 position = Vector2(611, 515)
 scale = Vector2(0.8972809, 0.78396755)
 texture = ExtResource("5_tmblu")
@@ -119,6 +126,7 @@ scale = Vector2(0.6245595, 0.53201216)
 texture = ExtResource("12_86i5g")
 
 [node name="PetitCheval" type="Sprite2D" parent="Decor" unique_id=527894562]
+z_index = 1
 position = Vector2(663.00006, 553)
 scale = Vector2(0.60674155, 0.625)
 texture = ExtResource("13_evxoo")
@@ -200,7 +208,7 @@ texture = ExtResource("26_nrg1w")
 script = ExtResource("25_utxre")
 
 [node name="NPC_CE2" parent="NPCs" unique_id=1274094477 instance=ExtResource("23_5buic")]
-position = Vector2(739, 392)
+position = Vector2(752, 417)
 
 [node name="QuestionGiverComponent" parent="NPCs/NPC_CE2" index="2"]
 grade = 2

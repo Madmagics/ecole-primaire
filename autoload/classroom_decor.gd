@@ -41,9 +41,28 @@
 ## applique a la fois, toutes classes confondues). toggle_active() desactive desormais explicitement
 ## toute autre classe avant d'activer celle demandee - meme resultat qu'un groupe de boutons radio
 ## avec possibilite de tout deselectionner.
+##
+## MIS A JOUR le 2026-09-20 (retour utilisateur : "quand je selectionne la classe cp dans la
+## boutique on ne passe pas sur la scene school1, la scene affichee reste school") : l'application
+## visuelle mentionnee comme "a construire plus tard" ci-dessus est desormais cablee - voir
+## get_active_scene_path() plus bas, ecoutee par school.gd (seul abonne de decor_activated, voir
+## sa doc mise a jour egalement). PREMIER ESSAI (le meme jour) fait via get_tree().
+## change_scene_to_file() - REVERTE dans l'heure : ce jeu n'a plus de scene "de niveau" separee de
+## l'UI/session depuis le pivot CLASSE2.0 (WelcomePanel/le login vivent DANS ui/game_ui.tscn,
+## instancie dans school.tscn) - un changement de scene ejectait donc le joueur du jeu (retour a
+## l'ecran de connexion) ET empechait la deconnexion serveur propre de se faire, imposant le delai
+## d'attente anti-double-connexion. Solution retenue : school.gd echange juste les noeuds
+## "Background"/"Decor" en place (voir _swap_decor_from()), sans jamais toucher au reste de la
+## scene (NPCs/UI/camera) ni la recharger.
 extends Node
 
 const Grade = GradeLevel.Grade
+
+## Scene dont le "Background"/"Decor" sont affiches quand aucun decor de classe n'est actif (voir
+## get_active_scene_path() plus bas) - c'est aussi TOUJOURS la seule scene reellement executee
+## (main_scene, voir project.godot) depuis le 2026-09-20 : school1.tscn etc. ne sont plus que des
+## scenes "donneuses" pour leurs noeuds Background/Decor (voir GradeLevel.get_decor_scene_path()).
+const BASE_SCENE_PATH := "res://levels/school/school.tscn"
 
 var _unlocked: Dictionary = {
 	Grade.CP: false,
@@ -60,9 +79,10 @@ var _active: Dictionary = {
 	Grade.CM2: false,
 }
 
-## Emis a chaque bascule active/inactive (voir toggle_active) - pas encore ecoute nulle part (le
-## decor visuel reste a construire, voir le commentaire de classe), mais meme point d'accroche
-## futur que ProfSkins.skin_activated pour ProfVisual.
+## Emis a chaque bascule active/inactive (voir toggle_active), ET a la restauration d'un compte
+## dont un decor etait deja actif (voir deserialize() plus bas) - ecoute par school.gd depuis le
+## 2026-09-20 (get_active_scene_path() ci-dessous + school.gd._on_classroom_decor_activated) pour
+## echanger effectivement les noeuds Background/Decor de la classe active.
 signal decor_activated(grade: Grade, active: bool)
 
 func is_unlocked(grade: Grade) -> bool:
@@ -72,6 +92,17 @@ func is_unlocked(grade: Grade) -> bool:
 ## toute facon jamais arriver - toggle_active() refuse deja de s'activer si non debloque).
 func is_active(grade: Grade) -> bool:
 	return is_unlocked(grade) and bool(_active.get(grade, false))
+
+## Chemin de la scene "donneuse" a appliquer compte tenu du decor de classe actuellement actif
+## (_active ci-dessus, un seul actif a la fois) - BASE_SCENE_PATH si aucun decor actif, sinon
+## GradeLevel.get_decor_scene_path() de la classe active. Ajoutee le 2026-09-20 - appelee par
+## school.gd au demarrage et a chaque decor_activated pour appliquer/rattraper le bon affichage
+## (voir school.gd._swap_decor_from(), qui n'effectue JAMAIS un changement de scene, voir sa doc).
+func get_active_scene_path() -> String:
+	for grade in _active.keys():
+		if _active[grade]:
+			return GradeLevel.get_decor_scene_path(grade)
+	return BASE_SCENE_PATH
 
 ## Nombre de Defis actuellement a l'argent (SILVER_GOAL, voir ChallengeTracker) pour [grade], sur
 ## le total requis (voir get_required_count) - affiche en "X/Y" sur la case de boutique.
@@ -152,9 +183,21 @@ func deserialize(data: Dictionary) -> void:
 	## rencontree (ordre de _active.keys(), stable - un Dictionary GDScript preserve l'ordre
 	## d'insertion) et desactive les eventuelles autres, plutot que de propager un etat invalide.
 	var kept_active := false
+	var restored_active_grade: int = -1
 	for grade in _active.keys():
 		if _active[grade]:
 			if kept_active:
 				_active[grade] = false
 			else:
 				kept_active = true
+				restored_active_grade = grade
+	## Ajoute le 2026-09-20 (voir school.gd, echange de decor) : contrairement a reset() ci-dessus
+	## (qui emet explicitement decor_activated(grade, false) par prevention), la restauration d'un
+	## compte n'emettait jusqu'ici jamais ce signal pour l'etat REEL restaure - school.gd (seul
+	## abonne, voir sa doc) ne pouvait donc jamais savoir qu'un decor etait deja actif a la
+	## connexion d'un compte qui l'avait choisi la fois precedente (main_scene ne se relancant
+	## jamais, school.gd._ready() ne retourne pas sur ce cas). Emission unique pour la classe
+	## restauree active, s'il y en a une (sinon rien a emettre, reset() vient deja de tout mettre a
+	## false juste au-dessus).
+	if restored_active_grade != -1:
+		decor_activated.emit(restored_active_grade, true)

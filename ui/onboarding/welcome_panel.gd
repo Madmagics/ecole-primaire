@@ -226,7 +226,7 @@ var _turnstile_js_callback: JavaScriptObject
 ## menu si beaucoup de pseudos partagent un prefixe commun (retour utilisateur 2026-09-09).
 @onready var login_suggestions_dropdown: PanelContainer = $Panel/Margin/Content/LoginSection/LoginSuggestionsDropdown
 @onready var login_suggestions_box: VBoxContainer = $Panel/Margin/Content/LoginSection/LoginSuggestionsDropdown/LoginSuggestionsScroll/LoginSuggestionsBox
-@onready var pseudo_forget_button: Button = $Panel/Margin/Content/LoginSection/PseudoForgetButton
+@onready var pseudo_forget_button: LinkButton = $Panel/Margin/Content/LoginSection/PseudoForgetButton
 @onready var forgot_password_button: LinkButton = $Panel/Margin/Content/LoginSection/ForgotPasswordButton
 
 ## "Mot de passe oublié" (2026-09-16, voir TODO_UI_MODS.md mod 1) : petit formulaire separe

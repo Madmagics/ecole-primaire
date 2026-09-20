@@ -26,6 +26,10 @@
 ##   reutiliser un id deja assigne - voir csv/questions/ID_RANGES.md).
 ## - choice_2/3/4 : mauvaises reponses pour le mode QCM tactile (colonnes optionnelles,
 ##   laisser vide si non utilisees -> la question restera saisie au clavier uniquement).
+## - grid (optionnelle, colonne absente ou vide pour toute question normale) : pour une
+##   question Logique de type "complete la grille" (CM1/CM2 pour l'instant), 9 valeurs
+##   separees par "|" dans l'ordre de lecture (voir QuestionResource.grid_cells), la case
+##   a deviner etant une valeur vide entre deux "|" (ex: "2|5|8||9|12|10|13|16").
 ##
 ## Le fichier .tres genere prend le nom de la MATIERE (ex: "math.tres") quand un seul CSV existe
 ## dans son dossier (cas courant, 28 des 33 dossiers actuels), ou le nom du CSV source si
@@ -175,5 +179,15 @@ func _build_question(headers: PackedStringArray, row: PackedStringArray, subject
 		if value != "":
 			choices.append(value)
 	question.choices = choices
+
+	var grid_raw: String = str(values.get("grid", "")).strip_edges()
+	if grid_raw != "":
+		## split(allow_empty=true) par defaut (voir docs.godotengine.org/en/stable/classes/
+		## class_string.html#class-string-method-split) : garde bien la case vide representant
+		## la case a deviner, plutot que de la faire disparaitre du tableau.
+		var grid_cells: Array[String] = []
+		for cell in grid_raw.split("|"):
+			grid_cells.append(cell)
+		question.grid_cells = grid_cells
 
 	return question
