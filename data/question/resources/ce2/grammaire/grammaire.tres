@@ -991,7 +991,7 @@ choices = Array[String](["décore", "décorez", "décorons"])
 script = ExtResource("1_sm5hi")
 subject = 2
 grade = 2
-text = "Chaque jour, vous ___."
+text = "Chaque jour, vous ___ des fleurs."
 correct_answer = "plantez"
 choices = Array[String](["plante", "plantes", "plantent"])
 
@@ -999,7 +999,7 @@ choices = Array[String](["plante", "plantes", "plantent"])
 script = ExtResource("1_sm5hi")
 subject = 2
 grade = 2
-text = "Chaque jour, tu ___."
+text = "Chaque jour, tu ___ les fleurs."
 correct_answer = "arroses"
 choices = Array[String](["arrosons", "arrosez", "arrose"])
 
@@ -1015,7 +1015,7 @@ choices = Array[String](["observons", "observez", "observes"])
 script = ExtResource("1_sm5hi")
 subject = 2
 grade = 2
-text = "Chaque jour, il ___."
+text = "Chaque jour, il ___ son budget."
 correct_answer = "calcule"
 choices = Array[String](["calcules", "calculent", "calculez"])
 
@@ -2287,7 +2287,7 @@ choices = Array[String](["jouons", "jouez", "joues"])
 script = ExtResource("1_sm5hi")
 subject = 2
 grade = 2
-text = "En ce moment, il ___."
+text = "En ce moment, il ___ la porte."
 correct_answer = "ferme"
 choices = Array[String](["ferment", "fermons", "fermez"])
 
@@ -2295,7 +2295,7 @@ choices = Array[String](["ferment", "fermons", "fermez"])
 script = ExtResource("1_sm5hi")
 subject = 2
 grade = 2
-text = "Chaque jour, elle ___."
+text = "Chaque jour, elle ___ les volets."
 correct_answer = "ouvre"
 choices = Array[String](["ouvrent", "ouvres", "ouvrez"])
 
@@ -2335,7 +2335,7 @@ choices = Array[String](["tournent", "tournes", "tournez"])
 script = ExtResource("1_sm5hi")
 subject = 2
 grade = 2
-text = "D'habitude, nous ___."
+text = "D'habitude, nous ___ les étoiles."
 correct_answer = "observons"
 choices = Array[String](["observes", "observez", "observe"])
 
@@ -2343,7 +2343,7 @@ choices = Array[String](["observes", "observez", "observe"])
 script = ExtResource("1_sm5hi")
 subject = 2
 grade = 2
-text = "Aujourd'hui, vous ___."
+text = "Aujourd'hui, vous ___ la distance."
 correct_answer = "calculez"
 choices = Array[String](["calculent", "calculons", "calcules"])
 
@@ -2351,7 +2351,7 @@ choices = Array[String](["calculent", "calculons", "calcules"])
 script = ExtResource("1_sm5hi")
 subject = 2
 grade = 2
-text = "Aujourd'hui, tu ___."
+text = "Aujourd'hui, tu ___ ta taille."
 correct_answer = "mesures"
 choices = Array[String](["mesurons", "mesurent", "mesurez"])
 
@@ -2359,7 +2359,7 @@ choices = Array[String](["mesurons", "mesurent", "mesurez"])
 script = ExtResource("1_sm5hi")
 subject = 2
 grade = 2
-text = "Aujourd'hui, je ___."
+text = "Aujourd'hui, je ___ le repas."
 correct_answer = "prépare"
 choices = Array[String](["préparent", "préparons", "préparez"])
 
@@ -2383,7 +2383,7 @@ choices = Array[String](["décorons", "décorent", "décores"])
 script = ExtResource("1_sm5hi")
 subject = 2
 grade = 2
-text = "Chaque jour, les enfants ___."
+text = "Chaque jour, les enfants ___ des graines."
 correct_answer = "plantent"
 choices = Array[String](["plantons", "plantez", "plantes"])
 
@@ -2431,7 +2431,7 @@ choices = Array[String](["voyages", "voyagez", "voyagent"])
 script = ExtResource("1_sm5hi")
 subject = 2
 grade = 2
-text = "D'habitude, vous ___."
+text = "D'habitude, vous ___ un musée."
 correct_answer = "visitez"
 choices = Array[String](["visites", "visitons", "visitent"])
 
@@ -2447,7 +2447,7 @@ choices = Array[String](["observez", "observe", "observons"])
 script = ExtResource("1_sm5hi")
 subject = 2
 grade = 2
-text = "D'habitude, je ___."
+text = "D'habitude, je ___ mes idées."
 correct_answer = "note"
 choices = Array[String](["notez", "notons", "notent"])
 
@@ -2455,7 +2455,7 @@ choices = Array[String](["notez", "notons", "notent"])
 script = ExtResource("1_sm5hi")
 subject = 2
 grade = 2
-text = "D'habitude, il ___."
+text = "D'habitude, il ___ ses idées."
 correct_answer = "teste"
 choices = Array[String](["testons", "testent", "testez"])
 
@@ -3583,7 +3583,7 @@ choices = Array[String](["fleuris", "fleurissons", "fleurit"])
 script = ExtResource("1_sm5hi")
 subject = 2
 grade = 2
-text = "Souvent, nous ___."
+text = "Souvent, nous ___ nos vêtements."
 correct_answer = "choisissons"
 choices = Array[String](["choisissent", "choisissez", "choisit"])
 
@@ -6887,7 +6887,7 @@ choices = Array[String](["nageons", "nage", "nagez"])
 script = ExtResource("1_sm5hi")
 subject = 2
 grade = 2
-text = "Chaque jour, la secrétaire ___."
+text = "Chaque jour, la secrétaire ___ les plantes."
 correct_answer = "arrose"
 choices = Array[String](["arrosons", "arrosent", "arroses"])
 
@@ -6911,7 +6911,7 @@ choices = Array[String](["mangent", "mangez", "mangeons"])
 script = ExtResource("1_sm5hi")
 subject = 2
 grade = 2
-text = "En ce moment, elles ___."
+text = "En ce moment, elles ___ les animaux."
 correct_answer = "nourrissent"
 choices = Array[String](["nourrissez", "nourris", "nourrissons"])
 
@@ -6983,7 +6983,7 @@ choices = Array[String](["sommes", "est", "êtes"])
 script = ExtResource("1_sm5hi")
 subject = 2
 grade = 2
-text = "Chaque jour, la chanteuse ___."
+text = "Chaque jour, la chanteuse ___ sa loge."
 correct_answer = "décore"
 choices = Array[String](["décores", "décorons", "décorez"])
 
@@ -7023,7 +7023,7 @@ choices = Array[String](["grandis", "grandissons", "grandit"])
 script = ExtResource("1_sm5hi")
 subject = 2
 grade = 2
-text = "Chaque jour, le boulanger ___."
+text = "Chaque jour, le boulanger ___ sa boutique."
 correct_answer = "ouvre"
 choices = Array[String](["ouvrent", "ouvrez", "ouvres"])
 
@@ -7079,7 +7079,7 @@ choices = Array[String](["avez", "a", "avons"])
 script = ExtResource("1_sm5hi")
 subject = 2
 grade = 2
-text = "Parfois, il ___."
+text = "Parfois, il ___ son sac."
 correct_answer = "prépare"
 choices = Array[String](["préparons", "préparent", "prépares"])
 
@@ -7183,7 +7183,7 @@ choices = Array[String](["prenez", "prend", "prennent"])
 script = ExtResource("1_sm5hi")
 subject = 2
 grade = 2
-text = "Aujourd'hui, les voisins ___."
+text = "Aujourd'hui, les voisins ___ leur nouvelle voiture."
 correct_answer = "testent"
 choices = Array[String](["testez", "testes", "testons"])
 
@@ -7191,7 +7191,7 @@ choices = Array[String](["testez", "testes", "testons"])
 script = ExtResource("1_sm5hi")
 subject = 2
 grade = 2
-text = "Chaque jour, la factrice ___."
+text = "Chaque jour, la factrice ___ dans le village."
 correct_answer = "habite"
 choices = Array[String](["habitez", "habitent", "habites"])
 
@@ -7215,7 +7215,7 @@ choices = Array[String](["pâlissons", "pâlit", "pâlissez"])
 script = ExtResource("1_sm5hi")
 subject = 2
 grade = 2
-text = "Chaque jour, les randonneurs ___."
+text = "Chaque jour, les randonneurs ___ le paysage."
 correct_answer = "observent"
 choices = Array[String](["observes", "observez", "observe"])
 
@@ -7287,7 +7287,7 @@ choices = Array[String](["nourris", "nourrissent", "nourrissez"])
 script = ExtResource("1_sm5hi")
 subject = 2
 grade = 2
-text = "Chaque jour, les moineaux ___."
+text = "Chaque jour, les moineaux ___ leurs petits."
 correct_answer = "nourrissent"
 choices = Array[String](["nourrissez", "nourrissons", "nourrit"])
 
@@ -7375,7 +7375,7 @@ choices = Array[String](["courez", "courent", "cours"])
 script = ExtResource("1_sm5hi")
 subject = 2
 grade = 2
-text = "Aujourd'hui, la secrétaire ___."
+text = "Aujourd'hui, la secrétaire ___ un logiciel."
 correct_answer = "teste"
 choices = Array[String](["testons", "testes", "testent"])
 
@@ -7407,7 +7407,7 @@ choices = Array[String](["finissez", "finissent", "finis"])
 script = ExtResource("1_sm5hi")
 subject = 2
 grade = 2
-text = "En ce moment, le vétérinaire ___."
+text = "En ce moment, le vétérinaire ___ un médicament."
 correct_answer = "cherche"
 choices = Array[String](["cherchent", "cherchez", "cherchons"])
 
@@ -7415,7 +7415,7 @@ choices = Array[String](["cherchent", "cherchez", "cherchons"])
 script = ExtResource("1_sm5hi")
 subject = 2
 grade = 2
-text = "D'habitude, la chanteuse ___."
+text = "D'habitude, la chanteuse ___ la salle."
 correct_answer = "remplit"
 choices = Array[String](["remplissent", "remplissez", "remplis"])
 
@@ -7447,7 +7447,7 @@ choices = Array[String](["pâlissons", "pâlis", "pâlissez"])
 script = ExtResource("1_sm5hi")
 subject = 2
 grade = 2
-text = "Chaque jour, les danseurs ___."
+text = "Chaque jour, les danseurs ___ les tricheurs."
 correct_answer = "punissent"
 choices = Array[String](["punissez", "punis", "punissons"])
 
@@ -7543,7 +7543,7 @@ choices = Array[String](["sommes", "es", "suis"])
 script = ExtResource("1_sm5hi")
 subject = 2
 grade = 2
-text = "Aujourd'hui, les randonneurs ___."
+text = "Aujourd'hui, les randonneurs ___ près de la forêt."
 correct_answer = "habitent"
 choices = Array[String](["habite", "habitez", "habitons"])
 
@@ -7567,7 +7567,7 @@ choices = Array[String](["cours", "court", "courons"])
 script = ExtResource("1_sm5hi")
 subject = 2
 grade = 2
-text = "Aujourd'hui, les sirènes ___."
+text = "Aujourd'hui, les sirènes ___ leur spectacle."
 correct_answer = "commencent"
 choices = Array[String](["commence", "commences", "commencez"])
 
@@ -7591,7 +7591,7 @@ choices = Array[String](["vieillissez", "vieillissons", "vieillit"])
 script = ExtResource("1_sm5hi")
 subject = 2
 grade = 2
-text = "D'habitude, le berger ___."
+text = "D'habitude, le berger ___ son troupeau."
 correct_answer = "observe"
 choices = Array[String](["observes", "observent", "observez"])
 
@@ -7599,7 +7599,7 @@ choices = Array[String](["observes", "observent", "observez"])
 script = ExtResource("1_sm5hi")
 subject = 2
 grade = 2
-text = "En ce moment, mes soeurs ___."
+text = "En ce moment, mes soeurs ___ les fenêtres."
 correct_answer = "ferment"
 choices = Array[String](["fermez", "fermes", "fermons"])
 
@@ -7607,7 +7607,7 @@ choices = Array[String](["fermez", "fermes", "fermons"])
 script = ExtResource("1_sm5hi")
 subject = 2
 grade = 2
-text = "D'habitude, les sirènes ___."
+text = "D'habitude, les sirènes ___ les poissons."
 correct_answer = "nourrissent"
 choices = Array[String](["nourris", "nourrit", "nourrissez"])
 
@@ -7687,7 +7687,7 @@ choices = Array[String](["chantons", "chantes", "chantent"])
 script = ExtResource("1_sm5hi")
 subject = 2
 grade = 2
-text = "Aujourd'hui, ma cousine ___."
+text = "Aujourd'hui, ma cousine ___ ses résultats."
 correct_answer = "note"
 choices = Array[String](["notons", "notez", "notent"])
 
@@ -7703,7 +7703,7 @@ choices = Array[String](["danses", "danse", "dansez"])
 script = ExtResource("1_sm5hi")
 subject = 2
 grade = 2
-text = "D'habitude, mon grand-père ___."
+text = "D'habitude, mon grand-père ___ à la campagne."
 correct_answer = "habite"
 choices = Array[String](["habites", "habitez", "habitent"])
 
@@ -7759,7 +7759,7 @@ choices = Array[String](["construisez", "construis", "construisons"])
 script = ExtResource("1_sm5hi")
 subject = 2
 grade = 2
-text = "Aujourd'hui, les grenouilles ___."
+text = "Aujourd'hui, les grenouilles ___ de la nourriture."
 correct_answer = "cherchent"
 choices = Array[String](["cherchez", "cherche", "cherchons"])
 
@@ -7767,7 +7767,7 @@ choices = Array[String](["cherchez", "cherche", "cherchons"])
 script = ExtResource("1_sm5hi")
 subject = 2
 grade = 2
-text = "D'habitude, les randonneurs ___."
+text = "D'habitude, les randonneurs ___ leur sac à dos."
 correct_answer = "décorent"
 choices = Array[String](["décores", "décorez", "décorons"])
 
@@ -7791,7 +7791,7 @@ choices = Array[String](["préparons", "prépare", "préparez"])
 script = ExtResource("1_sm5hi")
 subject = 2
 grade = 2
-text = "Aujourd'hui, les pompiers ___."
+text = "Aujourd'hui, les pompiers ___ la caserne."
 correct_answer = "ouvrent"
 choices = Array[String](["ouvrons", "ouvres", "ouvre"])
 
@@ -7807,7 +7807,7 @@ choices = Array[String](["prennent", "prenez", "prends"])
 script = ExtResource("1_sm5hi")
 subject = 2
 grade = 2
-text = "En ce moment, le chauffeur ___."
+text = "En ce moment, le chauffeur ___ une cabane."
 correct_answer = "bâtit"
 choices = Array[String](["bâtissons", "bâtissez", "bâtissent"])
 
@@ -7823,7 +7823,7 @@ choices = Array[String](["construis", "construisons", "construisez"])
 script = ExtResource("1_sm5hi")
 subject = 2
 grade = 2
-text = "En ce moment, les étudiants ___."
+text = "En ce moment, les étudiants ___ leurs cours."
 correct_answer = "choisissent"
 choices = Array[String](["choisissons", "choisit", "choisissez"])
 
@@ -7839,7 +7839,7 @@ choices = Array[String](["prennent", "prenons", "prenez"])
 script = ExtResource("1_sm5hi")
 subject = 2
 grade = 2
-text = "Aujourd'hui, les dauphins ___."
+text = "Aujourd'hui, les dauphins ___ les tricheurs."
 correct_answer = "punissent"
 choices = Array[String](["punit", "punissez", "punis"])
 
@@ -7847,7 +7847,7 @@ choices = Array[String](["punit", "punissez", "punis"])
 script = ExtResource("1_sm5hi")
 subject = 2
 grade = 2
-text = "En ce moment, la reine ___."
+text = "En ce moment, la reine ___ son discours."
 correct_answer = "prépare"
 choices = Array[String](["prépares", "préparez", "préparons"])
 
@@ -7887,7 +7887,7 @@ choices = Array[String](["chante", "chantons", "chantes"])
 script = ExtResource("1_sm5hi")
 subject = 2
 grade = 2
-text = "En ce moment, les girafes ___."
+text = "En ce moment, les girafes ___ la bouche."
 correct_answer = "ouvrent"
 choices = Array[String](["ouvres", "ouvrez", "ouvrons"])
 
@@ -7895,7 +7895,7 @@ choices = Array[String](["ouvres", "ouvrez", "ouvrons"])
 script = ExtResource("1_sm5hi")
 subject = 2
 grade = 2
-text = "Maintenant, ma cousine ___."
+text = "Maintenant, ma cousine ___ le jardin."
 correct_answer = "arrose"
 choices = Array[String](["arrosez", "arroses", "arrosent"])
 
@@ -7927,7 +7927,7 @@ choices = Array[String](["chantes", "chante", "chantons"])
 script = ExtResource("1_sm5hi")
 subject = 2
 grade = 2
-text = "Maintenant, les écureuils ___."
+text = "Maintenant, les écureuils ___ des noisettes."
 correct_answer = "cherchent"
 choices = Array[String](["cherchons", "cherchez", "cherches"])
 
@@ -7943,7 +7943,7 @@ choices = Array[String](["construit", "construisons", "construisez"])
 script = ExtResource("1_sm5hi")
 subject = 2
 grade = 2
-text = "Maintenant, mon grand-père ___."
+text = "Maintenant, mon grand-père ___ le chien."
 correct_answer = "punit"
 choices = Array[String](["punissons", "punissent", "punis"])
 
@@ -7959,7 +7959,7 @@ choices = Array[String](["cherches", "cherchez", "cherchent"])
 script = ExtResource("1_sm5hi")
 subject = 2
 grade = 2
-text = "Aujourd'hui, la cuisinière ___."
+text = "Aujourd'hui, la cuisinière ___ le four."
 correct_answer = "ouvre"
 choices = Array[String](["ouvrez", "ouvrent", "ouvrons"])
 
@@ -7999,7 +7999,7 @@ choices = Array[String](["cuisinez", "cuisinons", "cuisines"])
 script = ExtResource("1_sm5hi")
 subject = 2
 grade = 2
-text = "Souvent, la chanteuse ___."
+text = "Souvent, la chanteuse ___ les tricheurs."
 correct_answer = "punit"
 choices = Array[String](["punis", "punissez", "punissent"])
 

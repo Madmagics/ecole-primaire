@@ -2031,9 +2031,9 @@ choices = Array[String](["resté", "restés", "restées"])
 script = ExtResource("1_w0jco")
 subject = 2
 grade = 3
-text = "Lea vient d'être ___."
-correct_answer = "morte"
-choices = Array[String](["mortes", "morts", "mort"])
+text = "Lea vient d'être ___ pour son excellent dessin."
+correct_answer = "félicitée"
+choices = Array[String](["félicité", "félicités", "félicitées"])
 
 [sub_resource type="Resource" id="Resource_fg560"]
 script = ExtResource("1_w0jco")
@@ -2255,9 +2255,9 @@ choices = Array[String](["restée", "restées", "resté"])
 script = ExtResource("1_w0jco")
 subject = 2
 grade = 3
-text = "Paul vient d'être ___."
-correct_answer = "parti"
-choices = Array[String](["partie", "parties", "partis"])
+text = "Paul vient d'être ___ pour ses efforts."
+correct_answer = "récompensé"
+choices = Array[String](["récompensés", "récompensée", "récompensées"])
 
 [sub_resource type="Resource" id="Resource_puy7j"]
 script = ExtResource("1_w0jco")
@@ -2367,17 +2367,17 @@ choices = Array[String](["monté", "montées", "montée"])
 script = ExtResource("1_w0jco")
 subject = 2
 grade = 3
-text = "Nina vient d'être ___."
-correct_answer = "morte"
-choices = Array[String](["mort", "morts", "mortes"])
+text = "Nina vient d'être ___ pour son retard."
+correct_answer = "punie"
+choices = Array[String](["puni", "punis", "punies"])
 
 [sub_resource type="Resource" id="Resource_cmsiu"]
 script = ExtResource("1_w0jco")
 subject = 2
 grade = 3
-text = "Paul et Tom viennent d'être ___."
-correct_answer = "rentrés"
-choices = Array[String](["rentrée", "rentré", "rentrées"])
+text = "Paul et Tom viennent d'être ___ pour l'équipe de football."
+correct_answer = "choisis"
+choices = Array[String](["choisi", "choisie", "choisies"])
 
 [sub_resource type="Resource" id="Resource_gvnub"]
 script = ExtResource("1_w0jco")
@@ -2487,9 +2487,9 @@ choices = Array[String](["partis", "partie", "parties"])
 script = ExtResource("1_w0jco")
 subject = 2
 grade = 3
-text = "Hugo vient d'être ___."
-correct_answer = "tombé"
-choices = Array[String](["tombés", "tombées", "tombée"])
+text = "Hugo vient d'être ___ à l'anniversaire de sa cousine."
+correct_answer = "invité"
+choices = Array[String](["invités", "invitée", "invitées"])
 
 [sub_resource type="Resource" id="Resource_lrdml"]
 script = ExtResource("1_w0jco")
@@ -2575,17 +2575,17 @@ choices = Array[String](["passée", "passé", "passés"])
 script = ExtResource("1_w0jco")
 subject = 2
 grade = 3
-text = "Marie vient d'être ___."
-correct_answer = "passée"
-choices = Array[String](["passées", "passés", "passé"])
+text = "Marie vient d'être ___ déléguée de la classe."
+correct_answer = "nommée"
+choices = Array[String](["nommé", "nommés", "nommées"])
 
 [sub_resource type="Resource" id="Resource_eotgj"]
 script = ExtResource("1_w0jco")
 subject = 2
 grade = 3
-text = "Sami vient d'être ___."
-correct_answer = "mort"
-choices = Array[String](["morts", "mortes", "morte"])
+text = "Sami vient d'être ___ par sa grande soeur."
+correct_answer = "consolé"
+choices = Array[String](["consolés", "consolée", "consolées"])
 
 [sub_resource type="Resource" id="Resource_obbt5"]
 script = ExtResource("1_w0jco")
@@ -2599,9 +2599,9 @@ choices = Array[String](["retournées", "retourné", "retournée"])
 script = ExtResource("1_w0jco")
 subject = 2
 grade = 3
-text = "Les filles viennent d'être ___."
-correct_answer = "descendues"
-choices = Array[String](["descendu", "descendue", "descendus"])
+text = "Les filles viennent d'être ___ par tout le public."
+correct_answer = "applaudies"
+choices = Array[String](["applaudi", "applaudis", "applaudie"])
 
 [sub_resource type="Resource" id="Resource_gg3er"]
 script = ExtResource("1_w0jco")
@@ -2615,9 +2615,9 @@ choices = Array[String](["revenu", "revenue", "revenues"])
 script = ExtResource("1_w0jco")
 subject = 2
 grade = 3
-text = "Marie et Lea viennent d'être ___."
-correct_answer = "entrées"
-choices = Array[String](["entrée", "entré", "entrés"])
+text = "Marie et Lea viennent d'être ___ par le médecin."
+correct_answer = "examinées"
+choices = Array[String](["examiné", "examinés", "examinée"])
 
 [sub_resource type="Resource" id="Resource_i31c0"]
 script = ExtResource("1_w0jco")
@@ -2655,9 +2655,9 @@ choices = Array[String](["tombés", "tombée", "tombées"])
 script = ExtResource("1_w0jco")
 subject = 2
 grade = 3
-text = "Zoé vient d'être ___."
-correct_answer = "partie"
-choices = Array[String](["parti", "partis", "parties"])
+text = "Zoé vient d'être ___ sur la leçon de sciences."
+correct_answer = "interrogée"
+choices = Array[String](["interrogé", "interrogés", "interrogées"])
 
 [sub_resource type="Resource" id="Resource_gefks"]
 script = ExtResource("1_w0jco")
@@ -2671,9 +2671,9 @@ choices = Array[String](["sorties", "sortie", "sortis"])
 script = ExtResource("1_w0jco")
 subject = 2
 grade = 3
-text = "Les garçons viennent d'être ___."
-correct_answer = "passés"
-choices = Array[String](["passées", "passée", "passé"])
+text = "Les garçons viennent d'être ___ pour leur beau travail."
+correct_answer = "félicités"
+choices = Array[String](["félicité", "félicitée", "félicitées"])
 
 [sub_resource type="Resource" id="Resource_jso6y"]
 script = ExtResource("1_w0jco")
@@ -2775,9 +2775,9 @@ choices = Array[String](["montées", "montés", "montée"])
 script = ExtResource("1_w0jco")
 subject = 2
 grade = 3
-text = "Léo vient d'être ___."
-correct_answer = "tombé"
-choices = Array[String](["tombée", "tombés", "tombées"])
+text = "Léo vient d'être ___ pour sa gentillesse."
+correct_answer = "récompensé"
+choices = Array[String](["récompensés", "récompensée", "récompensées"])
 
 [sub_resource type="Resource" id="Resource_5bise"]
 script = ExtResource("1_w0jco")
@@ -2919,9 +2919,9 @@ choices = Array[String](["descendus", "descendue", "descendues"])
 script = ExtResource("1_w0jco")
 subject = 2
 grade = 3
-text = "Tom vient d'être ___."
-correct_answer = "descendu"
-choices = Array[String](["descendus", "descendue", "descendues"])
+text = "Tom vient d'être ___ pour sa bêtise."
+correct_answer = "puni"
+choices = Array[String](["punis", "punie", "punies"])
 
 [sub_resource type="Resource" id="Resource_toaw8"]
 script = ExtResource("1_w0jco")
@@ -5663,7 +5663,7 @@ choices = Array[String](["devenu", "devenus", "devenues"])
 script = ExtResource("1_w0jco")
 subject = 2
 grade = 3
-text = "Jade est déjà ___."
+text = "Jade est déjà ___ à la maison."
 correct_answer = "retournée"
 choices = Array[String](["retourné", "retournés", "retournées"])
 
@@ -5751,9 +5751,9 @@ choices = Array[String](["née", "nés", "nées"])
 script = ExtResource("1_w0jco")
 subject = 2
 grade = 3
-text = "Yasmine vient d'être ___."
-correct_answer = "tombée"
-choices = Array[String](["tombé", "tombés", "tombées"])
+text = "Yasmine vient d'être ___ pour le rôle principal."
+correct_answer = "choisie"
+choices = Array[String](["choisi", "choisis", "choisies"])
 
 [sub_resource type="Resource" id="Resource_lbx6m"]
 script = ExtResource("1_w0jco")
@@ -6175,9 +6175,9 @@ choices = Array[String](["allé", "allée", "allées"])
 script = ExtResource("1_w0jco")
 subject = 2
 grade = 3
-text = "Victor vient d'être ___."
-correct_answer = "né"
-choices = Array[String](["née", "nés", "nées"])
+text = "Victor vient d'être ___ au mariage de son oncle."
+correct_answer = "invité"
+choices = Array[String](["invités", "invitée", "invitées"])
 
 [sub_resource type="Resource" id="Resource_aclq0"]
 script = ExtResource("1_w0jco")
@@ -6199,9 +6199,9 @@ choices = Array[String](["entrée", "entrés", "entrées"])
 script = ExtResource("1_w0jco")
 subject = 2
 grade = 3
-text = "Océane vient d'être ___."
-correct_answer = "passée"
-choices = Array[String](["passé", "passés", "passées"])
+text = "Océane vient d'être ___ capitaine de l'équipe."
+correct_answer = "nommée"
+choices = Array[String](["nommé", "nommés", "nommées"])
 
 [sub_resource type="Resource" id="Resource_sdbwx"]
 script = ExtResource("1_w0jco")
@@ -7271,9 +7271,9 @@ choices = Array[String](["devenu", "devenus", "devenues"])
 script = ExtResource("1_w0jco")
 subject = 2
 grade = 3
-text = "Ilyes vient d'être ___."
-correct_answer = "né"
-choices = Array[String](["née", "nés", "nées"])
+text = "Ilyes vient d'être ___ par son meilleur ami."
+correct_answer = "consolé"
+choices = Array[String](["consolés", "consolée", "consolées"])
 
 [sub_resource type="Resource" id="Resource_2bslr"]
 script = ExtResource("1_w0jco")
@@ -7327,17 +7327,17 @@ choices = Array[String](["devenu", "devenus", "devenues"])
 script = ExtResource("1_w0jco")
 subject = 2
 grade = 3
-text = "Maxime vient d'être ___."
-correct_answer = "mort"
-choices = Array[String](["morte", "morts", "mortes"])
+text = "Maxime vient d'être ___ par ses camarades."
+correct_answer = "applaudi"
+choices = Array[String](["applaudis", "applaudie", "applaudies"])
 
 [sub_resource type="Resource" id="Resource_tdlgp"]
 script = ExtResource("1_w0jco")
 subject = 2
 grade = 3
-text = "Romain vient d'être ___."
-correct_answer = "resté"
-choices = Array[String](["restée", "restés", "restées"])
+text = "Romain vient d'être ___ par le dentiste."
+correct_answer = "examiné"
+choices = Array[String](["examinés", "examinée", "examinées"])
 
 [sub_resource type="Resource" id="Resource_s74r6"]
 script = ExtResource("1_w0jco")
@@ -7487,9 +7487,9 @@ choices = Array[String](["venue", "venus", "venues"])
 script = ExtResource("1_w0jco")
 subject = 2
 grade = 3
-text = "Timéo et Malo viennent d'être ___."
-correct_answer = "montés"
-choices = Array[String](["monté", "montée", "montées"])
+text = "Timéo et Malo viennent d'être ___ par le professeur."
+correct_answer = "interrogés"
+choices = Array[String](["interrogé", "interrogée", "interrogées"])
 
 [sub_resource type="Resource" id="Resource_iuphx"]
 script = ExtResource("1_w0jco")
@@ -7575,9 +7575,9 @@ choices = Array[String](["descendue", "descendus", "descendues"])
 script = ExtResource("1_w0jco")
 subject = 2
 grade = 3
-text = "Eliott vient d'être ___."
-correct_answer = "parti"
-choices = Array[String](["partie", "partis", "parties"])
+text = "Eliott vient d'être ___ pour sa bonne idée."
+correct_answer = "félicité"
+choices = Array[String](["félicités", "félicitée", "félicitées"])
 
 [sub_resource type="Resource" id="Resource_ehi84"]
 script = ExtResource("1_w0jco")
@@ -7679,9 +7679,9 @@ choices = Array[String](["monté", "montés", "montées"])
 script = ExtResource("1_w0jco")
 subject = 2
 grade = 3
-text = "Lisa vient d'être ___."
-correct_answer = "partie"
-choices = Array[String](["parti", "partis", "parties"])
+text = "Lisa vient d'être ___ pour sa persévérance."
+correct_answer = "récompensée"
+choices = Array[String](["récompensé", "récompensés", "récompensées"])
 
 [sub_resource type="Resource" id="Resource_oxll4"]
 script = ExtResource("1_w0jco")
@@ -7767,9 +7767,9 @@ choices = Array[String](["revenu", "revenus", "revenues"])
 script = ExtResource("1_w0jco")
 subject = 2
 grade = 3
-text = "Timéo vient d'être ___."
-correct_answer = "tombé"
-choices = Array[String](["tombée", "tombés", "tombées"])
+text = "Timéo vient d'être ___ pour son impolitesse."
+correct_answer = "puni"
+choices = Array[String](["punis", "punie", "punies"])
 
 [sub_resource type="Resource" id="Resource_8u38a"]
 script = ExtResource("1_w0jco")
@@ -7783,9 +7783,9 @@ choices = Array[String](["sortie", "sortis", "sorties"])
 script = ExtResource("1_w0jco")
 subject = 2
 grade = 3
-text = "Lola vient d'être ___."
-correct_answer = "passée"
-choices = Array[String](["passé", "passés", "passées"])
+text = "Lola vient d'être ___ pour le spectacle de fin d'année."
+correct_answer = "choisie"
+choices = Array[String](["choisi", "choisis", "choisies"])
 
 [sub_resource type="Resource" id="Resource_yxj6h"]
 script = ExtResource("1_w0jco")
@@ -7799,9 +7799,9 @@ choices = Array[String](["entrée", "entrés", "entrées"])
 script = ExtResource("1_w0jco")
 subject = 2
 grade = 3
-text = "Iris vient d'être ___."
-correct_answer = "montée"
-choices = Array[String](["monté", "montés", "montées"])
+text = "Iris vient d'être ___ à la fête de l'école."
+correct_answer = "invitée"
+choices = Array[String](["invité", "invités", "invitées"])
 
 [sub_resource type="Resource" id="Resource_4rdqp"]
 script = ExtResource("1_w0jco")
@@ -7839,9 +7839,9 @@ choices = Array[String](["revenue", "revenus", "revenues"])
 script = ExtResource("1_w0jco")
 subject = 2
 grade = 3
-text = "Anaïs vient d'être ___."
-correct_answer = "partie"
-choices = Array[String](["parti", "partis", "parties"])
+text = "Anaïs vient d'être ___ responsable du groupe."
+correct_answer = "nommée"
+choices = Array[String](["nommé", "nommés", "nommées"])
 
 [sub_resource type="Resource" id="Resource_trxv3"]
 script = ExtResource("1_w0jco")
@@ -7879,9 +7879,9 @@ choices = Array[String](["née", "nés", "nées"])
 script = ExtResource("1_w0jco")
 subject = 2
 grade = 3
-text = "Timéo et Jade viennent d'être ___."
-correct_answer = "revenus"
-choices = Array[String](["revenu", "revenue", "revenues"])
+text = "Timéo et Jade viennent d'être ___ par la maîtresse."
+correct_answer = "consolés"
+choices = Array[String](["consolé", "consolée", "consolées"])
 
 [sub_resource type="Resource" id="Resource_5awmv"]
 script = ExtResource("1_w0jco")
@@ -7895,9 +7895,9 @@ choices = Array[String](["arrivé", "arrivés", "arrivées"])
 script = ExtResource("1_w0jco")
 subject = 2
 grade = 3
-text = "Jade et Naomi viennent d'être ___."
-correct_answer = "descendues"
-choices = Array[String](["descendu", "descendue", "descendus"])
+text = "Jade et Naomi viennent d'être ___ par toute la classe."
+correct_answer = "applaudies"
+choices = Array[String](["applaudi", "applaudis", "applaudie"])
 
 [sub_resource type="Resource" id="Resource_fp0y2"]
 script = ExtResource("1_w0jco")
@@ -7999,9 +7999,9 @@ choices = Array[String](["arrivée", "arrivés", "arrivées"])
 script = ExtResource("1_w0jco")
 subject = 2
 grade = 3
-text = "Malo vient d'être ___."
-correct_answer = "passé"
-choices = Array[String](["passée", "passés", "passées"])
+text = "Malo vient d'être ___ par l'infirmière."
+correct_answer = "examiné"
+choices = Array[String](["examinés", "examinée", "examinées"])
 
 [resource]
 script = ExtResource("2_iq31g")

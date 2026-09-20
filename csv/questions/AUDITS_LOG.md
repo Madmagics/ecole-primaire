@@ -901,3 +901,153 @@ vérifié par parsing CSV).
 
 **Import Godot en attente** (comme pour chaque lot précédent) : `tools/admin/import_questions.gd`
 à relancer pour CM1 et CM2 — un seul import suffira pour cumuler les 3 passes #13/#14/#15.
+
+### #16 — 2026-09-20 — Phrases sans COD/COI, formulations non-sens et proposition correcte absente des choix (signalé depuis une session CM2)
+
+**Demande initiale** : Steve signale, en jouant une session CM2 (pack de révision, qui pioche
+aussi dans CE1/CE2/CM1), trois problèmes distincts : (1) des phrases sans COD ni COI, (2) des
+formulations qui n'ont pas de sens, (3) des propositions fausses où la bonne réponse n'est même
+pas dans les 4 choix (exemple donné : "___ belle surprise !" validait "Quel" alors que "Quelle"
+n'était pas proposée). Portée étendue aux 5 classes pour grammaire/conjugaison/orthographe, per
+[[feedback_csv_check_workflow]] — les 3 bugs trouvés viennent en réalité de CE2/CM1 (remontés en
+CM2 via le pack de révision), confirmant que le signalement "CM2" doit être audité toutes classes.
+
+**Bug #3 (réponse correcte absente des choix) — `ce2/orthographe`** : famille homophone
+quel/quelle/quels/quelles/qu'elle (31 lignes, revue exhaustivement). 2 lignes buguées : id 33823
+("___ belle surprise !", "surprise" est féminin) et id 33826 ("___ heure as-tu rendez-vous ?",
+"heure" est féminin) avaient toutes deux `correct_answer=Quel` (masculin, faux) alors que la
+forme féminine correcte "Quelle" n'apparaissait dans aucun des 4 choix. Corrigé en changeant
+`correct_answer` en "Quelle" (les 3 distracteurs Qu'elle/Quels/Quelles restent inchangés et
+suffisent, comme pour les lignes soeurs déjà correctes de la même famille).
+
+**Bug #1 (phrase sans COD/COI) — `ce2/grammaire`, famille accord sujet-verbe (notion CE2 "accord
+sujet-verbe")** : audit exhaustif des 178 lignes de cette famille (gabarit "Sujet [complément de
+temps] ___." testant la conjugaison au présent). 121 lignes n'avaient rien après le blanc ; sur
+ces 121, 47 utilisaient un verbe transitif qui a structurellement besoin d'un COD/COI/complément
+de lieu pour former une phrase complète (arroser, fermer, ouvrir, décorer, mesurer, préparer,
+tester, visiter, choisir, nourrir, habiter, chercher, punir, remplir, commencer, bâtir, observer,
+planter, calculer, noter) — ex. "Chaque jour, la secrétaire ___." (arrose) ne dit pas QUOI elle
+arrose. Les 74 autres verbes bare (danser, chanter, réfléchir, agir, grandir, vieillir, rougir,
+pâlir, réussir, obéir, voyager, nager, grimper, brouter, creuser, descendre, parler, écouter...)
+sont des emplois absolus authentiquement complets en français et n'ont pas été touchés. Les 47
+lignes corrigées ont reçu un complément ajouté après le blanc, cohérent avec le sujet (ex. id
+31820 "Chaque jour, la secrétaire ___ les plantes.", id 31245 "En ce moment, il ___ la porte.").
+Liste complète des 47 ids dans le commentaire de commit / diff. Même vérification programmatique
+(stem-grouping des 4 choix) faite sur `ce1/grammaire`, `cm1/grammaire`, `cp/french` et les
+fichiers `conjugaison` (format "Comment conjugue-t-on..." — jamais de phrase à trou, donc jamais
+concerné) : aucune famille équivalente ailleurs, le bug est confiné à `ce2/grammaire`.
+
+**Bug #1 bis (même famille, isolé) — `cm1/grammaire`** : id 34667 "Jade est déjà ___." (retournée)
+avait le même bug que le précédent [[feedback_obligatory_complement_verbs]] (retourner exige un
+complément de lieu) mais dans le nouveau lot de contenu ajouté après ce fix (ids 34xxx, lot
+d'extension à 1000 questions du 2026-08-07) — raté par le fix original qui ne portait que sur
+l'ancienne tranche d'ids. Corrigé : "Jade est déjà ___ à la maison."
+
+**Bug #2 (non-sens) — `cm2/orthographe`** :
+- id 12082 "Je suis sur ___ vous dites." (qu'en) n'est pas du français valide — corrigé en "Elle
+  ne sort ___ cas d'urgence." (qu'en cas d'urgence), qui respecte le schéma ne...que+en des autres
+  lignes correctes de la famille quand/quant/qu'en.
+- id 12093 "Quand ___ demanderont, dis la vérité." (quant) — le mot "Quand" apparaissait déjà en
+  clair dans le texte ET le blanc demandait "quant" juste après, ce qui donne "Quand quant
+  demanderont..." (incompréhensible). Corrigé en "___ ils te demanderont, dis la vérité."
+  (correct_answer="Quand", les 3 distracteurs recapitalisés Quant/Qu'en/Kan puisque le blanc est
+  maintenant en début de phrase, cf. [[feedback_no_parentheses_anywhere]] note sur la
+  capitalisation liée à la position du blanc).
+- Famille homophone sens/sans/s'en/sang (9 lignes avec `correct_answer=sens`, revue exhaustivement) :
+  5 lignes appliquaient "sens" (signification/direction) à un aliment ou un parfum là où le mot
+  attendu est "goût"/"odeur" — non-sens du type "ce gâteau a un bon sens", "le vin a un bon sens".
+  Corrigées en gardant le mot "sens" mais en changeant le sujet pour un contexte où il s'emploie
+  réellement (sens de l'orientation, sens des responsabilités, sens ironique, sens du rythme, sens
+  caché) : ids 12085, 39016, 39021, 39717, 39718. Les 4 lignes déjà correctes de la même famille
+  (sens de l'humour, phrase sans sens, chemin qui change de sens, mot sans aucun sens) inchangées.
+
+**Vérifié avant écriture** : chacun des 3 fichiers modifiés (`ce2/grammaire`, `ce2/orthographe`,
+`cm2/orthographe`, `cm1/grammaire`) garde exactement 1000 lignes, aucune des nouvelles phrases
+introduites ne duplique une ligne existante du même fichier (vérifié par comparaison de texte
+exacte), colonnes `id`/structure inchangées ailleurs.
+
+**Points laissés en attente, nécessitent une décision de Steve (pas corrigés dans cette passe)** :
+1. `cm1/grammaire` contient 34 lignes "X vient d'être ___." avec un participe de verbe
+   intransitif de mouvement/état (mourir, partir, tomber, monter, descendre, entrer, rentrer,
+   revenir, passer, naître, rester) — construction passive grammaticalement admise mais peu
+   naturelle à l'oral (voir [[feedback_obligatory_complement_verbs]], point déjà identifié le
+   2026-09-09 et jamais tranché). Ce lot de 34 est le même core issue que le signalement "non-sens"
+   actuel. Deux options de correction possibles : (a) réécrire en "vient de + infinitif" (perd le
+   test d'accord du participe, change la nature de l'exercice), (b) garder la construction "vient
+   d'être X" mais remplacer le verbe par un verbe transitif compatible avec le passif (puni,
+   félicité, récompensé...) pour ces 34 lignes précises, en gardant sujet/structure identiques.
+2. `cm2/orthographe`, famille tout/tous/toute/toutes : ~9 lignes du type "[Sujet] a/ont/avons ___
+   [participe] [COD explicite]" (ex. id 39023 "Elle a ___ fini son travail.", ids 39216-39221 "X a
+   ___ compris la leçon.") utilisent "tout" comme adverbe entre l'auxiliaire et le participe alors
+   qu'un COD explicite suit — combinaison à la limite du naturel en français standard (on dirait
+   plutôt "elle a fini tout son travail" ou "elle a tout fini"). Pas corrigé : nécessite de
+   déplacer le blanc et peut changer la bonne réponse (tout -> toute devant "la leçon", féminin),
+   donc changement plus lourd qu'une simple correction de texte.
+
+**Sauvegardes** : `generated.csv.bak_avant_fix_cod_nonsens_20260920` dans `ce2/grammaire/`,
+`ce2/orthographe/`, `cm1/grammaire/` et `cm2/orthographe/`.
+
+**Import Godot en attente** pour ces 4 fichiers.
+
+### #17 — 2026-09-20 — Suite de l'entrée #16 : les 2 points laissés en attente, tranchés par Steve
+
+**"Vient d'être" (`cm1/grammaire`, 29 des 34 lignes concernées — 5 avaient déjà un complément et
+n'étaient pas concernées)** : Steve choisit l'option "remplacer le verbe" (garder la structure
+"X vient d'être ___." et l'accord du participe, changer le verbe). Les 11 verbes intransitifs de
+mouvement/état (mourir/partir/tomber/monter/descendre/entrer/rentrer/revenir/passer/naître/rester)
+remplacés par une rotation de 10 verbes transitifs compatibles avec le passif, universellement
+applicables à un sujet humain (féliciter, récompenser, punir, choisir, inviter, nommer, consoler,
+applaudir, examiner, interroger) — ex. id 34213 "Lea vient d'être ___." : morte -> félicitée.
+Seuls `correct_answer`/`choice_2/3/4` changent (4 formes en genre/nombre du nouveau participe,
+accordées au même sujet) ; `id` et `text` inchangés.
+
+**"Tout" + COD explicite (`cm2/orthographe`, 9 lignes)** : Steve valide la correction. Le blanc
+déplacé pour que "tout/toute" soit un déterminant directement devant le COD plutôt qu'un adverbe
+entre l'auxiliaire et le participe : "Elle a ___ fini son travail." -> "Elle a fini ___ son
+travail." (accord inchangé : tout, "travail" masculin) ; "Marie a ___ compris la leçon." ->
+"Marie a compris ___ la leçon." (accord changé : tout -> toute, "leçon" féminin) sur 6 lignes
+(Marie/Paul/Léo/Zoé/Tom/Nina) ; "Nous avons ___ terminé l'exercice." -> "... terminé ___
+l'exercice." (tout, masculin, inchangé) ; "Elle a ___ rangé sa chambre." -> "... rangé ___ sa
+chambre." (tout -> toute, féminin).
+
+**Vérifié** : `cm1/grammaire` et `cm2/orthographe` toujours à 1000 lignes chacun, aucun nouveau
+doublon de texte introduit (les seuls doublons présents dans les 2 fichiers sont préexistants et
+non liés à cette passe : "Marie est ___ dans la cour." dans cm1/grammaire, et le gabarit
+générique "Quelle est la bonne orthographe ?" dans cm2/orthographe, répété par conception).
+
+**Sauvegardes** : réutilise les mêmes `generated.csv.bak_avant_fix_cod_nonsens_20260920` créées
+pour l'entrée #16 (contiennent l'état d'avant TOUTE cette session, donc avant #16 et #17).
+
+**Import Godot en attente** (cumulé avec l'entrée #16, un seul import suffira pour
+ce2/grammaire, ce2/orthographe, cm1/grammaire, cm2/orthographe).
+
+### #18 — 2026-09-20 — Ajout d'un COD/COI/complément aux 29 lignes "vient d'être X" (entrée #17)
+
+**Demande** : Steve fait remarquer que la correction de l'entrée #17 (remplacement du verbe
+intransitif par un verbe compatible avec le passif) n'ajoutait pas de complément — les phrases
+comme "Lola vient d'être choisie." restaient courtes, sans COD/COI, alors que c'est exactement ce
+que la demande initiale (entrée #16, point #1) visait à corriger.
+
+**Correction** : les 29 lignes de `cm1/grammaire` corrigées en #17 ont chacune reçu un complément
+adapté au verbe (COI introduit par pour/à/sur, complément d'agent introduit par par, ou attribut
+du COD sans préposition pour "nommer"), en variant sujet par sujet pour éviter la répétition :
+- féliciter/récompenser/punir -> "pour + raison" (pour son excellent dessin, pour ses efforts,
+  pour son retard...)
+- choisir -> "pour + rôle/évènement" (pour l'équipe de football, pour le rôle principal...)
+- inviter -> "à + évènement" (à l'anniversaire de sa cousine, au mariage de son oncle...)
+- nommer -> attribut direct (déléguée de la classe, capitaine de l'équipe...)
+- consoler/applaudir/examiner -> "par + agent" (par sa grande soeur, par tout le public, par le
+  médecin...)
+- interroger -> "sur + sujet" ou "par + agent" (sur la leçon de sciences, par le professeur)
+
+Exemple : id 34932 "Lola vient d'être ___." -> "Lola vient d'être ___ pour le spectacle de fin
+d'année." (correct=choisie, inchangé).
+
+**Vérifié** : `cm1/grammaire` toujours à 1000 lignes, aucun nouveau doublon de texte (seul
+doublon présent est préexistant : "Marie est ___ dans la cour.", sans rapport avec cette passe).
+Seule la colonne `text` a changé sur ces 29 lignes ; `id`/`correct_answer`/choix inchangés.
+
+**Sauvegarde** : réutilise `generated.csv.bak_avant_fix_cod_nonsens_20260920` (état d'avant toute
+la session, donc avant #16/#17/#18).
+
+**Import Godot en attente** (cumulé avec #16 et #17).

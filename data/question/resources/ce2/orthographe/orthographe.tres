@@ -6992,7 +6992,7 @@ script = ExtResource("1_g5wnn")
 subject = 4
 grade = 2
 text = "___ belle surprise !"
-correct_answer = "Quel"
+correct_answer = "Quelle"
 choices = Array[String](["Qu'elle", "Quels", "Quelles"])
 
 [sub_resource type="Resource" id="Resource_mdk60"]
@@ -7016,7 +7016,7 @@ script = ExtResource("1_g5wnn")
 subject = 4
 grade = 2
 text = "___ heure as-tu rendez-vous ?"
-correct_answer = "Quel"
+correct_answer = "Quelle"
 choices = Array[String](["Qu'elle", "Quels", "Quelles"])
 
 [sub_resource type="Resource" id="Resource_10exf"]

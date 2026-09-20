@@ -1,4 +1,4 @@
-[gd_scene load_steps=28 format=3]
+[gd_scene load_steps=29 format=3]
 
 [ext_resource type="PackedScene" path="res://ui/question_panel/question_panel.tscn" id="4_rb02j"]
 [ext_resource type="PackedScene" path="res://ui/subject_select/subject_select_panel.tscn" id="4_subject"]
@@ -26,6 +26,7 @@
 [ext_resource type="Shader" path="res://ui/game_menu/icon_dock_blur.gdshader" id="50_blur_shader"]
 [ext_resource type="Texture2D" uid="uid://cduam6gg8d2i0" path="res://assets/classe2.0/icones/plein-ecran.webp" id="63_icon_fullscreen"]
 [ext_resource type="Script" path="res://ui/hud/fullscreen_button.gd" id="64_fullscreen_button"]
+[ext_resource type="Script" path="res://ui/game_ui.gd" id="70_editorvis"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_backpack_blur"]
 shader = ExtResource("50_blur_shader")
@@ -33,6 +34,7 @@ shader_parameter/blur_amount = 2.0
 shader_parameter/tint_color = Color(0, 0, 0, 0.4)
 
 [node name="UI" type="CanvasLayer"]
+script = ExtResource("70_editorvis")
 
 [node name="NpcBlurBG" type="ColorRect" parent="."]
 layout_mode = 1

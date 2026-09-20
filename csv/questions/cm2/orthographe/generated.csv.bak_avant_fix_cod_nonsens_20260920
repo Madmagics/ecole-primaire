@@ -1,10 +1,10 @@
 id;text;correct_answer;choice_2;choice_3;choice_4
 12080;___ pars-tu en vacances ?;Quand;Quant;Qu'en;Kan
 12081;___ à moi, je reste ici.;Quant;Quand;Qu'en;Kan
-12082;Elle ne sort ___ cas d'urgence.;qu'en;quand;quant;kan
+12082;Je suis sur ___ vous dites.;qu'en;quand;quant;kan
 12083;Elle part ___ tarder.;sans;s'en;sens;sang
 12084;Elle ___ va déjà, sans dire au revoir.;s'en;sans;sens;sang
-12085;Cette histoire a un ___ caché.;sens;sans;s'en;sang
+12085;Ce gâteau a un bon ___.;sens;sans;s'en;sang
 12086;Il part ___ dire au revoir.;sans;s'en;sens;sang
 12087;Elle ___ souvient bien.;s'en;sans;sens;sang
 12088;___ les élèves sont présents.;Tous;Tout;Toux;XuoT
@@ -12,7 +12,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 12090;Elles sont ___ contentes.;toutes;tous;tout;toute
 12091;___ va bien, merci.;Tout;Tous;Toux;Toutes
 12092;Les élèves sont ___ arrivés.;tous;tout;toux;toutes
-12093;___ ils te demanderont, dis la vérité.;Quand;Quant;Qu'en;Kan
+12093;Quand ___ demanderont, dis la vérité.;quant;quand;qu'en;kan
 12094;Je ne sais pas ___ il reviendra.;quand;quant;qu'en;kan
 12095;"Que signifie le préfixe ""re-"" dans ""refaire"" ?";faire de nouveau;faire le contraire;faire avant;faire vite
 12096;"Que signifie le préfixe ""de-"" dans ""défaire"" ?";faire le contraire;faire de nouveau;faire avant;faire vite
@@ -52,14 +52,14 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 39013;Elle ___ va déjà.;s'en;sans;sens;sang
 39014;Il ___ souvient encore.;s'en;sans;sens;sang
 39015;Elle ___ occupe bien.;s'en;sans;sens;sang
-39016;Elle a un bon ___ de l'orientation.;sens;sans;s'en;sang
+39016;Ce parfum a un bon ___.;sens;sans;s'en;sang
 39017;Il a le ___ de l'humour.;sens;sans;s'en;sang
 39018;Cette phrase n'a pas de ___.;sens;sans;s'en;sang
 39019;Il part ___ un mot.;sans;s'en;sens;sang
 39020;Elle ___ va sans prévenir.;s'en;sans;sens;sang
-39021;Il a un bon ___ des responsabilités.;sens;sans;s'en;sang
+39021;Le vin a un bon ___.;sens;sans;s'en;sang
 39022;Les enfants sont ___ arrivés.;tous;tout;toute;toutes
-39023;Elle a fini ___ son travail.;tout;tous;toute;toutes
+39023;Elle a ___ fini son travail.;tout;tous;toute;toutes
 39024;Nous sommes ___ d'accord.;tous;tout;toute;toutes
 39025;Ces filles sont ___ ravies.;toutes;tout;tous;toute
 39026;___ le monde est là.;Tout;Tous;Toute;Toutes
@@ -252,12 +252,12 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 39213;Nina part ___ dire un mot à personne.;sans;s'en;sens;cent
 39214;Hugo part ___ dire un mot à personne.;sans;s'en;sens;cent
 39215;Chloé part ___ dire un mot à personne.;sans;s'en;sens;cent
-39216;Marie a compris ___ la leçon.;toute;tout;tous;toutes
-39217;Paul a compris ___ la leçon.;toute;tout;tous;toutes
-39218;Léo a compris ___ la leçon.;toute;tout;tous;toutes
-39219;Zoé a compris ___ la leçon.;toute;tout;tous;toutes
-39220;Tom a compris ___ la leçon.;toute;tout;tous;toutes
-39221;Nina a compris ___ la leçon.;toute;tout;tous;toutes
+39216;Marie a ___ compris la leçon.;tout;tous;toute;toutes
+39217;Paul a ___ compris la leçon.;tout;tous;toute;toutes
+39218;Léo a ___ compris la leçon.;tout;tous;toute;toutes
+39219;Zoé a ___ compris la leçon.;tout;tous;toute;toutes
+39220;Tom a ___ compris la leçon.;tout;tous;toute;toutes
+39221;Nina a ___ compris la leçon.;tout;tous;toute;toutes
 39222;Quelle est la bonne orthographe ?;bijou;bijjou;bîjou;bijuo
 39223;Quelle est la bonne orthographe ?;brillant;brillannt;brîllant;brillatn
 39224;Quelle est la bonne orthographe ?;gouvernail;ggouvernail;gôuvernail;gouvernali
@@ -753,20 +753,20 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 39714;Elle ___ va tout de suite.;s'en;sans;sens;sang
 39715;Elle ___ souvient très bien.;s'en;sans;sens;sang
 39716;Ce mot n'a aucun ___.;sens;sans;s'en;sang
-39717;Cette remarque a un ___ ironique.;sens;sans;s'en;sang
-39718;Cette danseuse a un bon ___ du rythme.;sens;sans;s'en;sang
+39717;Le miel a un ___ sucré.;sens;sans;s'en;sang
+39718;Le fruit a un bon ___.;sens;sans;s'en;sang
 39719;Elle ___ moque gentiment.;s'en;sans;sens;sang
 39720;Il traverse ___ regarder.;sans;s'en;sens;sang
 39721;Il agit ___ réfléchir vraiment.;sans;s'en;sens;sang
 39722;Il joue ___ se fatiguer.;sans;s'en;sens;sang
 39723;Elles ont ___ fini leurs devoirs.;tout;toute;tous;toutes
-39724;Nous avons terminé ___ l'exercice.;tout;tous;toute;toutes
+39724;Nous avons ___ terminé l'exercice.;tout;toutes;toute;tous
 39725;Il a lu ___ le livre.;tout;toute;toutes;tous
 39726;Ils sont ___ arrivés à l'heure.;tous;tout;toutes;toute
 39727;Elles sont ___ contentes du résultat.;toutes;tout;tous;toute
 39728;Les enfants sont ___ sages.;tous;tout;toute;toutes
 39729;Vous êtes ___ invités.;tous;toutes;toute;tout
-39730;Elle a rangé ___ sa chambre.;toute;tout;tous;toutes
+39730;Elle a ___ rangé sa chambre.;tout;toute;toutes;tous
 39731;Les garçons sont ___ partis.;tous;tout;toute;toutes
 39732;Les filles sont ___ prêtes.;toutes;tout;tous;toute
 39733;Quelle est la bonne orthographe ?;gouvernement;governement;gouvernemant;gouvernementt

@@ -23,7 +23,7 @@ choices = Array[String](["Quand", "Qu'en", "Kan"])
 script = ExtResource("1_3c4pk")
 subject = 4
 grade = 4
-text = "Je suis sur ___ vous dites."
+text = "Elle ne sort ___ cas d'urgence."
 correct_answer = "qu'en"
 choices = Array[String](["quand", "quant", "kan"])
 
@@ -47,7 +47,7 @@ choices = Array[String](["sans", "sens", "sang"])
 script = ExtResource("1_3c4pk")
 subject = 4
 grade = 4
-text = "Ce gâteau a un bon ___."
+text = "Cette histoire a un ___ caché."
 correct_answer = "sens"
 choices = Array[String](["sans", "s'en", "sang"])
 
@@ -111,9 +111,9 @@ choices = Array[String](["tout", "toux", "toutes"])
 script = ExtResource("1_3c4pk")
 subject = 4
 grade = 4
-text = "Quand ___ demanderont, dis la vérité."
-correct_answer = "quant"
-choices = Array[String](["quand", "qu'en", "kan"])
+text = "___ ils te demanderont, dis la vérité."
+correct_answer = "Quand"
+choices = Array[String](["Quant", "Qu'en", "Kan"])
 
 [sub_resource type="Resource" id="Resource_pqgmc"]
 script = ExtResource("1_3c4pk")
@@ -431,7 +431,7 @@ choices = Array[String](["sans", "sens", "sang"])
 script = ExtResource("1_3c4pk")
 subject = 4
 grade = 4
-text = "Ce parfum a un bon ___."
+text = "Elle a un bon ___ de l'orientation."
 correct_answer = "sens"
 choices = Array[String](["sans", "s'en", "sang"])
 
@@ -471,7 +471,7 @@ choices = Array[String](["sans", "sens", "sang"])
 script = ExtResource("1_3c4pk")
 subject = 4
 grade = 4
-text = "Le vin a un bon ___."
+text = "Il a un bon ___ des responsabilités."
 correct_answer = "sens"
 choices = Array[String](["sans", "s'en", "sang"])
 
@@ -487,7 +487,7 @@ choices = Array[String](["tout", "toute", "toutes"])
 script = ExtResource("1_3c4pk")
 subject = 4
 grade = 4
-text = "Elle a ___ fini son travail."
+text = "Elle a fini ___ son travail."
 correct_answer = "tout"
 choices = Array[String](["tous", "toute", "toutes"])
 
@@ -2031,49 +2031,49 @@ choices = Array[String](["s'en", "sens", "cent"])
 script = ExtResource("1_3c4pk")
 subject = 4
 grade = 4
-text = "Marie a ___ compris la leçon."
-correct_answer = "tout"
-choices = Array[String](["tous", "toute", "toutes"])
+text = "Marie a compris ___ la leçon."
+correct_answer = "toute"
+choices = Array[String](["tout", "tous", "toutes"])
 
 [sub_resource type="Resource" id="Resource_vlc75"]
 script = ExtResource("1_3c4pk")
 subject = 4
 grade = 4
-text = "Paul a ___ compris la leçon."
-correct_answer = "tout"
-choices = Array[String](["tous", "toute", "toutes"])
+text = "Paul a compris ___ la leçon."
+correct_answer = "toute"
+choices = Array[String](["tout", "tous", "toutes"])
 
 [sub_resource type="Resource" id="Resource_sxmeu"]
 script = ExtResource("1_3c4pk")
 subject = 4
 grade = 4
-text = "Léo a ___ compris la leçon."
-correct_answer = "tout"
-choices = Array[String](["tous", "toute", "toutes"])
+text = "Léo a compris ___ la leçon."
+correct_answer = "toute"
+choices = Array[String](["tout", "tous", "toutes"])
 
 [sub_resource type="Resource" id="Resource_k866n"]
 script = ExtResource("1_3c4pk")
 subject = 4
 grade = 4
-text = "Zoé a ___ compris la leçon."
-correct_answer = "tout"
-choices = Array[String](["tous", "toute", "toutes"])
+text = "Zoé a compris ___ la leçon."
+correct_answer = "toute"
+choices = Array[String](["tout", "tous", "toutes"])
 
 [sub_resource type="Resource" id="Resource_sxwo2"]
 script = ExtResource("1_3c4pk")
 subject = 4
 grade = 4
-text = "Tom a ___ compris la leçon."
-correct_answer = "tout"
-choices = Array[String](["tous", "toute", "toutes"])
+text = "Tom a compris ___ la leçon."
+correct_answer = "toute"
+choices = Array[String](["tout", "tous", "toutes"])
 
 [sub_resource type="Resource" id="Resource_elkbo"]
 script = ExtResource("1_3c4pk")
 subject = 4
 grade = 4
-text = "Nina a ___ compris la leçon."
-correct_answer = "tout"
-choices = Array[String](["tous", "toute", "toutes"])
+text = "Nina a compris ___ la leçon."
+correct_answer = "toute"
+choices = Array[String](["tout", "tous", "toutes"])
 
 [sub_resource type="Resource" id="Resource_yfacf"]
 script = ExtResource("1_3c4pk")
@@ -6039,7 +6039,7 @@ choices = Array[String](["sans", "s'en", "sang"])
 script = ExtResource("1_3c4pk")
 subject = 4
 grade = 4
-text = "Le miel a un ___ sucré."
+text = "Cette remarque a un ___ ironique."
 correct_answer = "sens"
 choices = Array[String](["sans", "s'en", "sang"])
 
@@ -6047,7 +6047,7 @@ choices = Array[String](["sans", "s'en", "sang"])
 script = ExtResource("1_3c4pk")
 subject = 4
 grade = 4
-text = "Le fruit a un bon ___."
+text = "Cette danseuse a un bon ___ du rythme."
 correct_answer = "sens"
 choices = Array[String](["sans", "s'en", "sang"])
 
@@ -6095,9 +6095,9 @@ choices = Array[String](["toute", "tous", "toutes"])
 script = ExtResource("1_3c4pk")
 subject = 4
 grade = 4
-text = "Nous avons ___ terminé l'exercice."
+text = "Nous avons terminé ___ l'exercice."
 correct_answer = "tout"
-choices = Array[String](["toutes", "toute", "tous"])
+choices = Array[String](["tous", "toute", "toutes"])
 
 [sub_resource type="Resource" id="Resource_5mn6n"]
 script = ExtResource("1_3c4pk")
@@ -6143,9 +6143,9 @@ choices = Array[String](["toutes", "toute", "tout"])
 script = ExtResource("1_3c4pk")
 subject = 4
 grade = 4
-text = "Elle a ___ rangé sa chambre."
-correct_answer = "tout"
-choices = Array[String](["toute", "toutes", "tous"])
+text = "Elle a rangé ___ sa chambre."
+correct_answer = "toute"
+choices = Array[String](["tout", "tous", "toutes"])
 
 [sub_resource type="Resource" id="Resource_knk7c"]
 script = ExtResource("1_3c4pk")

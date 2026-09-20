@@ -122,10 +122,10 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 31080;Les voisins ___ leurs clés.;cherchent;cherche;cherches;cherchez
 31081;Ma soeur ___ le repas.;prépare;préparons;préparent;prépares
 31082;Ils ___ la salle.;décorent;décore;décorez;décorons
-31083;Chaque jour, vous ___ des fleurs.;plantez;plante;plantes;plantent
-31084;Chaque jour, tu ___ les fleurs.;arroses;arrosons;arrosez;arrose
+31083;Chaque jour, vous ___.;plantez;plante;plantes;plantent
+31084;Chaque jour, tu ___.;arroses;arrosons;arrosez;arrose
 31085;Les scientifiques ___ les étoiles.;observent;observons;observez;observes
-31086;Chaque jour, il ___ son budget.;calcule;calcules;calculent;calculez
+31086;Chaque jour, il ___.;calcule;calcules;calculent;calculez
 31087;Elles ___ une fête.;organisent;organisez;organises;organisons
 31088;En ce moment, nous ___.;chantons;chantez;chante;chantes
 31089;"""Mon frère joue au football."" est une phrase de quel type ?";déclarative;interrogative;exclamative;impérative
@@ -284,28 +284,28 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 31242;En ce moment, vous ___.;chantez;chantons;chante;chantes
 31243;En ce moment, tu ___.;danses;dansons;dansent;danse
 31244;En ce moment, je ___.;joue;jouons;jouez;joues
-31245;En ce moment, il ___ la porte.;ferme;ferment;fermons;fermez
-31246;Chaque jour, elle ___ les volets.;ouvre;ouvrent;ouvres;ouvrez
+31245;En ce moment, il ___.;ferme;ferment;fermons;fermez
+31246;Chaque jour, elle ___.;ouvre;ouvrent;ouvres;ouvrez
 31247;Les oiseaux ___ dans le ciel.;volent;voles;volez;volons
 31248;Le peintre ___ un paysage.;dessine;dessines;dessinent;dessinons
 31249;Les musiciens ___ de la musique.;jouent;joues;joue;jouons
 31250;La danseuse ___ sur elle-même.;tourne;tournent;tournes;tournez
-31251;D'habitude, nous ___ les étoiles.;observons;observes;observez;observe
-31252;Aujourd'hui, vous ___ la distance.;calculez;calculent;calculons;calcules
-31253;Aujourd'hui, tu ___ ta taille.;mesures;mesurons;mesurent;mesurez
-31254;Aujourd'hui, je ___ le repas.;prépare;préparent;préparons;préparez
+31251;D'habitude, nous ___.;observons;observes;observez;observe
+31252;Aujourd'hui, vous ___.;calculez;calculent;calculons;calcules
+31253;Aujourd'hui, tu ___.;mesures;mesurons;mesurent;mesurez
+31254;Aujourd'hui, je ___.;prépare;préparent;préparons;préparez
 31255;Aujourd'hui, il ___.;range;ranges;rangeons;rangez
 31256;En ce moment, elle ___.;décore;décorons;décorent;décores
-31257;Chaque jour, les enfants ___ des graines.;plantent;plantons;plantez;plantes
+31257;Chaque jour, les enfants ___.;plantent;plantons;plantez;plantes
 31258;Le jardinier ___ les fleurs.;arrose;arroses;arrosons;arrosez
 31259;Les abeilles ___ les fleurs du jardin.;butinent;butinez;butinons;butine
 31260;Chaque jour, ma soeur ___.;dessine;dessinons;dessines;dessinent
 31261;Chaque jour, mon frère ___.;construit;construisez;construisons;construis
 31262;Maintenant, nous ___.;voyageons;voyages;voyagez;voyagent
-31263;D'habitude, vous ___ un musée.;visitez;visites;visitons;visitent
+31263;D'habitude, vous ___.;visitez;visites;visitons;visitent
 31264;D'habitude, tu ___.;observes;observez;observe;observons
-31265;D'habitude, je ___ mes idées.;note;notez;notons;notent
-31266;D'habitude, il ___ ses idées.;teste;testons;testent;testez
+31265;D'habitude, je ___.;note;notez;notons;notent
+31266;D'habitude, il ___.;teste;testons;testent;testez
 31267;"""Les moutons paissent dans le pré."" est une phrase de quel type ?";déclarative;interrogative;exclamative;impérative
 31268;"""Le loup hurle la nuit."" est une phrase de quel type ?";déclarative;interrogative;exclamative;impérative
 31269;"""Les canards nagent dans la piscine."" est une phrase de quel type ?";déclarative;interrogative;exclamative;impérative
@@ -446,7 +446,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 31404;Les chats ___ leur repas.;finissent;finis;finissez;finissons
 31405;Le bébé ___ vite.;grandit;grandis;grandissez;grandissent
 31406;Les fleurs ___ au printemps.;fleurissent;fleuris;fleurissons;fleurit
-31407;Souvent, nous ___ nos vêtements.;choisissons;choisissent;choisissez;choisit
+31407;Souvent, nous ___.;choisissons;choisissent;choisissez;choisit
 31408;Maintenant, vous ___.;réussissez;réussit;réussis;réussissons
 31409;Maintenant, tu ___.;obéis;obéit;obéissent;obéissons
 31410;Maintenant, j'___.;agis;agissez;agit;agissent
@@ -859,10 +859,10 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 31817;Le boulanger ___ avant de répondre.;réfléchit;réfléchis;réfléchissent;réfléchissez
 31818;Mon grand-père ___ les oiseaux.;observe;observes;observez;observons
 31819;Parfois, tu ___.;nages;nageons;nage;nagez
-31820;Chaque jour, la secrétaire ___ les plantes.;arrose;arrosons;arrosent;arroses
+31820;Chaque jour, la secrétaire ___.;arrose;arrosons;arrosent;arroses
 31821;Mes soeurs ___ doucement.;vieillissent;vieillit;vieillis;vieillissons
 31822;La chanteuse ___ avant le concert.;mange;mangent;mangez;mangeons
-31823;En ce moment, elles ___ les animaux.;nourrissent;nourrissez;nourris;nourrissons
+31823;En ce moment, elles ___.;nourrissent;nourrissez;nourris;nourrissons
 31824;Ici, tu ___.;cours;courent;courons;court
 31825;Le chauffeur ___ le camion.;décore;décorons;décorez;décorent
 31826;Les sirènes ___ de leur plus belle voix.;chantent;chantez;chante;chantons
@@ -871,19 +871,19 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 31829;D'habitude, elle ___.;observe;observent;observez;observons
 31830;Chaque jour, les écureuils ___.;obéissent;obéit;obéissons;obéissez
 31831;En ce moment, les voisins ___.;sont;sommes;est;êtes
-31832;Chaque jour, la chanteuse ___ sa loge.;décore;décores;décorons;décorez
+31832;Chaque jour, la chanteuse ___.;décore;décores;décorons;décorez
 31833;La reine ___ son trésor.;cherche;cherchons;cherchez;cherchent
 31834;Ici, je ___.;commence;commences;commençons;commencez
 31835;En ce moment, les écureuils ___.;grimpent;grimpes;grimpe;grimpez
 31836;Aujourd'hui, les écureuils ___.;grandissent;grandis;grandissons;grandit
-31837;Chaque jour, le boulanger ___ sa boutique.;ouvre;ouvrent;ouvrez;ouvres
+31837;Chaque jour, le boulanger ___.;ouvre;ouvrent;ouvrez;ouvres
 31838;En ce moment, la chanteuse ___.;réussit;réussissent;réussissez;réussissons
 31839;Aujourd'hui, la chanteuse ___.;observe;observons;observez;observes
 31840;Ici, nous ___.;réfléchissons;réfléchissez;réfléchit;réfléchissent
 31841;Chaque jour, les sirènes ___.;dansent;dansons;danses;dansez
 31842;Le berger ___ son troupeau.;aide;aides;aidons;aident
 31843;Les moineaux ___ un nid dans l'arbre.;ont;avez;a;avons
-31844;Parfois, il ___ son sac.;prépare;préparons;préparent;prépares
+31844;Parfois, il ___.;prépare;préparons;préparent;prépares
 31845;Chaque jour, les pompiers ___.;grandissent;grandissons;grandis;grandissez
 31846;Les randonneurs ___ leurs chaussures.;salissent;salis;salit;salissons
 31847;D'habitude, les écureuils ___.;courent;court;courons;courez
@@ -896,11 +896,11 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 31854;En ce moment, ils ___.;rangent;range;rangeons;ranges
 31855;Chaque jour, la reine ___.;nage;nagent;nages;nageons
 31856;En général, tu ___.;prends;prenez;prend;prennent
-31857;Aujourd'hui, les voisins ___ leur nouvelle voiture.;testent;testez;testes;testons
-31858;Chaque jour, la factrice ___ dans le village.;habite;habitez;habitent;habites
+31857;Aujourd'hui, les voisins ___.;testent;testez;testes;testons
+31858;Chaque jour, la factrice ___.;habite;habitez;habitent;habites
 31859;Les tortues ___ de la nourriture.;cherchent;cherche;cherchons;cherchez
 31860;Chaque jour, mes soeurs ___.;pâlissent;pâlissons;pâlit;pâlissez
-31861;Chaque jour, les randonneurs ___ le paysage.;observent;observes;observez;observe
+31861;Chaque jour, les randonneurs ___.;observent;observes;observez;observe
 31862;En ce moment, la secrétaire ___.;grandit;grandissez;grandissons;grandissent
 31863;Chaque jour, la cuisinière ___.;court;courent;courez;courons
 31864;Les dauphins ___ dans l'océan.;nagent;nages;nageons;nage
@@ -909,7 +909,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 31867;Chaque jour, les tortues ___.;nagent;nages;nageons;nagez
 31868;Chaque jour, ma cousine ___.;aide;aides;aidez;aident
 31869;Ici, il ___.;nourrit;nourris;nourrissent;nourrissez
-31870;Chaque jour, les moineaux ___ leurs petits.;nourrissent;nourrissez;nourrissons;nourrit
+31870;Chaque jour, les moineaux ___.;nourrissent;nourrissez;nourrissons;nourrit
 31871;Le vétérinaire ___ les médicaments.;prépare;préparez;préparent;prépares
 31872;Chaque jour, le vétérinaire ___.;grandit;grandissez;grandis;grandissons
 31873;Chaque jour, les dauphins ___.;nagent;nage;nagez;nageons
@@ -920,16 +920,16 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 31878;En général, je ___.;réussis;réussissez;réussissons;réussissent
 31879;Maintenant, ils ___.;prennent;prends;prenez;prend
 31880;En ce moment, ma cousine ___.;court;courez;courent;cours
-31881;Aujourd'hui, la secrétaire ___ un logiciel.;teste;testons;testes;testent
+31881;Aujourd'hui, la secrétaire ___.;teste;testons;testes;testent
 31882;En ce moment, les tortues ___.;creusent;creusons;creuse;creuses
 31883;Mes cousines ___ à la fête.;dansent;dansons;danse;danses
 31884;Chaque jour, le berger ___.;finit;finissez;finissent;finis
-31885;En ce moment, le vétérinaire ___ un médicament.;cherche;cherchent;cherchez;cherchons
-31886;D'habitude, la chanteuse ___ la salle.;remplit;remplissent;remplissez;remplis
+31885;En ce moment, le vétérinaire ___.;cherche;cherchent;cherchez;cherchons
+31886;D'habitude, la chanteuse ___.;remplit;remplissent;remplissez;remplis
 31887;Chaque jour, mes cousines ___.;nagent;nagez;nages;nage
 31888;Les champions ___ la compétition.;préparent;prépare;préparez;prépares
 31889;En ce moment, le berger ___.;pâlit;pâlissons;pâlis;pâlissez
-31890;Chaque jour, les danseurs ___ les tricheurs.;punissent;punissez;punis;punissons
+31890;Chaque jour, les danseurs ___.;punissent;punissez;punis;punissons
 31891;D'habitude, les voisins ___.;commencent;commencez;commençons;commence
 31892;En ce moment, les randonneurs ___.;vieillissent;vieillissons;vieillit;vieillissez
 31893;Aujourd'hui, le berger ___.;grandit;grandis;grandissons;grandissez
@@ -941,15 +941,15 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 31899;Maintenant, elle ___.;dessine;dessinent;dessines;dessinons
 31900;Chaque jour, les grenouilles ___.;voyagent;voyage;voyages;voyagez
 31901;En ce moment, les pompiers ___.;sont;sommes;es;suis
-31902;Aujourd'hui, les randonneurs ___ près de la forêt.;habitent;habite;habitez;habitons
+31902;Aujourd'hui, les randonneurs ___.;habitent;habite;habitez;habitons
 31903;En ce moment, les grenouilles ___.;construisent;construis;construisons;construit
 31904;En ce moment, les dauphins ___.;courent;cours;court;courons
-31905;Aujourd'hui, les sirènes ___ leur spectacle.;commencent;commence;commences;commencez
+31905;Aujourd'hui, les sirènes ___.;commencent;commence;commences;commencez
 31906;En général, il ___.;commence;commencez;commences;commençons
 31907;En ce moment, les champions ___.;vieillissent;vieillissez;vieillissons;vieillit
-31908;D'habitude, le berger ___ son troupeau.;observe;observes;observent;observez
-31909;En ce moment, mes soeurs ___ les fenêtres.;ferment;fermez;fermes;fermons
-31910;D'habitude, les sirènes ___ les poissons.;nourrissent;nourris;nourrit;nourrissez
+31908;D'habitude, le berger ___.;observe;observes;observent;observez
+31909;En ce moment, mes soeurs ___.;ferment;fermez;fermes;fermons
+31910;D'habitude, les sirènes ___.;nourrissent;nourris;nourrit;nourrissez
 31911;D'habitude, la secrétaire ___.;place;places;plaçons;placent
 31912;Tous les jours, nous ___.;cuisinons;cuisine;cuisines;cuisinez
 31913;Maintenant, les voisins ___.;prennent;prends;prenons;prenez
@@ -959,43 +959,43 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 31917;D'habitude, les tortues ___.;vieillissent;vieillit;vieillis;vieillissons
 31918;En ce moment, les moineaux ___.;chantent;chantons;chante;chantez
 31919;Aujourd'hui, mon grand-père ___.;chante;chantons;chantes;chantent
-31920;Aujourd'hui, ma cousine ___ ses résultats.;note;notons;notez;notent
+31920;Aujourd'hui, ma cousine ___.;note;notons;notez;notent
 31921;Aujourd'hui, les moineaux ___.;dansent;danses;danse;dansez
-31922;D'habitude, mon grand-père ___ à la campagne.;habite;habites;habitez;habitent
+31922;D'habitude, mon grand-père ___.;habite;habites;habitez;habitent
 31923;D'habitude, ma cousine ___.;descend;descendent;descends;descendez
 31924;Chaque jour, le chauffeur ___.;lave;lavent;laves;lavons
 31925;Tous les jours, il ___.;obéit;obéissent;obéis;obéissons
 31926;En ce moment, la cuisinière ___.;grandit;grandissons;grandissent;grandissez
 31927;Sans cesse, nous ___.;sommes;êtes;es;suis
 31928;En ce moment, la factrice ___.;construit;construisez;construis;construisons
-31929;Aujourd'hui, les grenouilles ___ de la nourriture.;cherchent;cherchez;cherche;cherchons
-31930;D'habitude, les randonneurs ___ leur sac à dos.;décorent;décores;décorez;décorons
+31929;Aujourd'hui, les grenouilles ___.;cherchent;cherchez;cherche;cherchons
+31930;D'habitude, les randonneurs ___.;décorent;décores;décorez;décorons
 31931;Chaque jour, les girafes ___.;broutent;broute;broutons;broutes
 31932;Chaque jour, les étudiants ___.;préparent;préparons;prépare;préparez
-31933;Aujourd'hui, les pompiers ___ la caserne.;ouvrent;ouvrons;ouvres;ouvre
+31933;Aujourd'hui, les pompiers ___.;ouvrent;ouvrons;ouvres;ouvre
 31934;Aujourd'hui, le boulanger ___.;prend;prennent;prenez;prends
-31935;En ce moment, le chauffeur ___ une cabane.;bâtit;bâtissons;bâtissez;bâtissent
+31935;En ce moment, le chauffeur ___.;bâtit;bâtissons;bâtissez;bâtissent
 31936;Aujourd'hui, mes soeurs ___.;construisent;construis;construisons;construisez
-31937;En ce moment, les étudiants ___ leurs cours.;choisissent;choisissons;choisit;choisissez
+31937;En ce moment, les étudiants ___.;choisissent;choisissons;choisit;choisissez
 31938;Sans cesse, il ___.;prend;prennent;prenons;prenez
-31939;Aujourd'hui, les dauphins ___ les tricheurs.;punissent;punit;punissez;punis
-31940;En ce moment, la reine ___ son discours.;prépare;prépares;préparez;préparons
+31939;Aujourd'hui, les dauphins ___.;punissent;punit;punissez;punis
+31940;En ce moment, la reine ___.;prépare;prépares;préparez;préparons
 31941;Tous les jours, je ___.;décore;décorez;décorent;décores
 31942;Maintenant, elles ___.;agissent;agissons;agis;agissez
 31943;Maintenant, les randonneurs ___.;obéissent;obéit;obéissons;obéissez
 31944;Maintenant, les sirènes ___.;chantent;chante;chantons;chantes
-31945;En ce moment, les girafes ___ la bouche.;ouvrent;ouvres;ouvrez;ouvrons
-31946;Maintenant, ma cousine ___ le jardin.;arrose;arrosez;arroses;arrosent
+31945;En ce moment, les girafes ___.;ouvrent;ouvres;ouvrez;ouvrons
+31946;Maintenant, ma cousine ___.;arrose;arrosez;arroses;arrosent
 31947;Souvent, elles ___.;dessinent;dessinons;dessinez;dessine
 31948;Souvent, les sirènes ___.;portent;portes;portons;portez
 31949;Aujourd'hui, les champions ___.;chantent;chantes;chante;chantons
-31950;Maintenant, les écureuils ___ des noisettes.;cherchent;cherchons;cherchez;cherches
+31950;Maintenant, les écureuils ___.;cherchent;cherchons;cherchez;cherches
 31951;Parfois, elles ___.;construisent;construit;construisons;construisez
-31952;Maintenant, mon grand-père ___ le chien.;punit;punissons;punissent;punis
+31952;Maintenant, mon grand-père ___.;punit;punissons;punissent;punis
 31953;Maintenant, la chanteuse ___.;cherche;cherches;cherchez;cherchent
-31954;Aujourd'hui, la cuisinière ___ le four.;ouvre;ouvrez;ouvrent;ouvrons
+31954;Aujourd'hui, la cuisinière ___.;ouvre;ouvrez;ouvrent;ouvrons
 31955;D'habitude, la cuisinière ___.;danse;danses;dansez;dansons
 31956;Souvent, les écureuils ___.;mangent;mangez;mangeons;mange
 31957;En ce moment, mes cousines ___.;observent;observe;observons;observes
 31958;Ici, elles ___.;cuisinent;cuisinez;cuisinons;cuisines
-31959;Souvent, la chanteuse ___ les tricheurs.;punit;punis;punissez;punissent
+31959;Souvent, la chanteuse ___.;punit;punis;punissez;punissent

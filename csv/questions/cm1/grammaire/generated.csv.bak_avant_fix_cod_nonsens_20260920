@@ -252,7 +252,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 34210;Paul et Tom sont ___ à la maison.;restés;resté;restée;restées
 34211;Léo est ___ aujourd'hui.;entré;entrés;entrées;entrée
 34212;Marie était ___ hier.;restée;resté;restés;restées
-34213;Lea vient d'être ___ pour son excellent dessin.;félicitée;félicité;félicités;félicitées
+34213;Lea vient d'être ___.;morte;mortes;morts;mort
 34214;Les filles sont déjà ___.;entrées;entré;entrée;entrés
 34215;Les filles sont bien ___.;montées;montés;monté;montée
 34216;Marie et Lea étaient ___ hier.;montées;montée;monté;montés
@@ -280,7 +280,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 34238;Zoé est déjà ___.;née;né;nées;nés
 34239;Nina est encore ___.;revenue;revenu;revenus;revenues
 34240;Les garçons sont bien ___.;restés;restée;restées;resté
-34241;Paul vient d'être ___ pour ses efforts.;récompensé;récompensés;récompensée;récompensées
+34241;Paul vient d'être ___.;parti;partie;parties;partis
 34242;Paul et Tom sont bien ___.;arrivés;arrivée;arrivées;arrivé
 34243;Tom est ___ à Lyon.;né;nés;née;nées
 34244;Hugo est ___ du camping.;revenu;revenus;revenue;revenues
@@ -294,8 +294,8 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 34252;Sami est bien ___.;arrivé;arrivée;arrivés;arrivées
 34253;Hugo est déjà ___.;passé;passées;passés;passée
 34254;Paul et Tom sont encore ___.;montés;monté;montées;montée
-34255;Nina vient d'être ___ pour son retard.;punie;puni;punis;punies
-34256;Paul et Tom viennent d'être ___ pour l'équipe de football.;choisis;choisi;choisie;choisies
+34255;Nina vient d'être ___.;morte;mort;morts;mortes
+34256;Paul et Tom viennent d'être ___.;rentrés;rentrée;rentré;rentrées
 34257;Marie est bien ___.;partie;partis;parti;parties
 34258;Hugo est bien ___.;arrivé;arrivés;arrivées;arrivée
 34259;Hugo était ___ sous la pluie.;sorti;sorties;sortie;sortis
@@ -309,7 +309,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 34267;Sami était ___ chercher son cahier.;retourné;retournés;retournées;retournée
 34268;Paul et Tom étaient déjà ___.;nés;né;née;nées
 34269;Hugo est encore ___.;parti;partis;partie;parties
-34270;Hugo vient d'être ___ à l'anniversaire de sa cousine.;invité;invités;invitée;invitées
+34270;Hugo vient d'être ___.;tombé;tombés;tombées;tombée
 34271;Léo est déjà ___.;mort;morte;mortes;morts
 34272;Marie et Lea étaient ___ avec dix minutes de retard.;arrivées;arrivé;arrivée;arrivés
 34273;Sami est encore ___.;revenu;revenues;revenus;revenue
@@ -320,19 +320,19 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 34278;Zoé est encore ___.;descendue;descendues;descendu;descendus
 34279;Marie est encore ___.;rentrée;rentrées;rentrés;rentré
 34280;Marie et Lea sont encore ___.;passées;passée;passé;passés
-34281;Marie vient d'être ___ déléguée de la classe.;nommée;nommé;nommés;nommées
-34282;Sami vient d'être ___ par sa grande soeur.;consolé;consolés;consolée;consolées
+34281;Marie vient d'être ___.;passée;passées;passés;passé
+34282;Sami vient d'être ___.;mort;morts;mortes;morte
 34283;Paul et Tom seront ___ à la maison.;retournés;retournées;retourné;retournée
-34284;Les filles viennent d'être ___ par tout le public.;applaudies;applaudi;applaudis;applaudie
+34284;Les filles viennent d'être ___.;descendues;descendu;descendue;descendus
 34285;Les garçons sont encore ___.;revenus;revenu;revenue;revenues
-34286;Marie et Lea viennent d'être ___ par le médecin.;examinées;examiné;examinés;examinée
+34286;Marie et Lea viennent d'être ___.;entrées;entrée;entré;entrés
 34287;Tom est bien ___.;resté;restés;restée;restées
 34288;Sami était déjà ___.;rentré;rentrés;rentrée;rentrées
 34289;Léo est encore ___.;sorti;sorties;sortie;sortis
 34290;Sami sera ___ de son vélo.;tombé;tombés;tombée;tombées
-34291;Zoé vient d'être ___ sur la leçon de sciences.;interrogée;interrogé;interrogés;interrogées
+34291;Zoé vient d'être ___.;partie;parti;partis;parties
 34292;Sami est ___ dans le couloir.;sorti;sorties;sortie;sortis
-34293;Les garçons viennent d'être ___ pour leur beau travail.;félicités;félicité;félicitée;félicitées
+34293;Les garçons viennent d'être ___.;passés;passées;passée;passé
 34294;Les garçons étaient déjà ___.;rentrés;rentrée;rentrées;rentré
 34295;Les garçons seront ___.;arrivés;arrivées;arrivé;arrivée
 34296;Chloé est bien ___.;entrée;entré;entrés;entrées
@@ -345,7 +345,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 34303;Zoé était déjà ___.;morte;morts;mort;mortes
 34304;Hugo était déjà ___.;rentré;rentrées;rentrés;rentrée
 34305;Hugo sera ___ sur le toit.;monté;montées;montés;montée
-34306;Léo vient d'être ___ pour sa gentillesse.;récompensé;récompensés;récompensée;récompensées
+34306;Léo vient d'être ___.;tombé;tombée;tombés;tombées
 34307;Zoé sera ___ de son vélo.;tombée;tombées;tombés;tombé
 34308;Chloé était ___ juste avant la cloche.;arrivée;arrivées;arrivé;arrivés
 34309;Marie et Lea sont ___ près du portail.;descendues;descendus;descendu;descendue
@@ -363,7 +363,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 34321;Hugo est ___ à la campagne.;né;nés;nées;née
 34322;Chloé vient d'être ___ au marché.;allée;allé;allés;allées
 34323;Paul était déjà ___.;descendu;descendus;descendue;descendues
-34324;Tom vient d'être ___ pour sa bêtise.;puni;punis;punie;punies
+34324;Tom vient d'être ___.;descendu;descendus;descendue;descendues
 34325;Paul sera ___ de rire.;mort;morte;mortes;morts
 34326;Marie et Lea sont maintenant ___.;venues;venue;venu;venus
 34327;Marie sera ___ en retard.;arrivée;arrivé;arrivés;arrivées
@@ -706,7 +706,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 34664;Kylian est ___ aujourd'hui.;descendu;descendue;descendus;descendues
 34665;Lola est déjà ___.;revenue;revenu;revenus;revenues
 34666;Iris est ___ la meilleure de la classe.;devenue;devenu;devenus;devenues
-34667;Jade est déjà ___ à la maison.;retournée;retourné;retournés;retournées
+34667;Jade est déjà ___.;retournée;retourné;retournés;retournées
 34668;Clara est ___ calme pendant le cours.;restée;resté;restés;restées
 34669;Iris est ___ devant chez moi.;passée;passé;passés;passées
 34670;Antoine est bien ___ un grand champion.;devenu;devenue;devenus;devenues
@@ -717,7 +717,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 34675;Océane est bien ___ une grande championne.;devenue;devenu;devenus;devenues
 34676;Maxime est ___ tranquille.;resté;restée;restés;restées
 34677;Malo est bien ___.;né;née;nés;nées
-34678;Yasmine vient d'être ___ pour le rôle principal.;choisie;choisi;choisis;choisies
+34678;Yasmine vient d'être ___.;tombée;tombé;tombés;tombées
 34679;Clara est ___ plus patiente.;devenue;devenu;devenus;devenues
 34680;Ilyes était ___ par la cour.;passé;passée;passés;passées
 34681;Bastien est ___ à l'hôpital du quartier.;né;née;nés;nées
@@ -770,10 +770,10 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 34728;Margaux est ___ la capitaine de l'équipe.;devenue;devenu;devenus;devenues
 34729;Lisa était ___ de rire.;morte;mort;morts;mortes
 34730;Timéo et Jade sont déjà ___ à la piscine.;allés;allé;allée;allées
-34731;Victor vient d'être ___ au mariage de son oncle.;invité;invités;invitée;invitées
+34731;Victor vient d'être ___.;né;née;nés;nées
 34732;Eliott est bien ___ un grand champion.;devenu;devenue;devenus;devenues
 34733;Malo était ___ discrètement.;entré;entrée;entrés;entrées
-34734;Océane vient d'être ___ capitaine de l'équipe.;nommée;nommé;nommés;nommées
+34734;Océane vient d'être ___.;passée;passé;passés;passées
 34735;Victor était déjà ___.;sorti;sortie;sortis;sorties
 34736;C'est à lui : ___ vélo est là.;son;ses;tes;mon
 34737;C'est à lui : ___ pull est là.;son;ses;notre;nos
@@ -907,15 +907,15 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 34865;Anaïs est bien ___ une grande championne.;devenue;devenu;devenus;devenues
 34866;Yasmine sera ___ dans la salle de classe.;entrée;entré;entrés;entrées
 34867;Jade vient d'être ___ une grande championne.;devenue;devenu;devenus;devenues
-34868;Ilyes vient d'être ___ par son meilleur ami.;consolé;consolés;consolée;consolées
+34868;Ilyes vient d'être ___.;né;née;nés;nées
 34869;Eliott est encore ___.;descendu;descendue;descendus;descendues
 34870;Maxime est encore ___.;parti;partie;partis;parties
 34871;Margaux est déjà ___.;tombée;tombé;tombés;tombées
 34872;Romain est encore ___.;tombé;tombée;tombés;tombées
 34873;Ilyes était déjà ___.;venu;venue;venus;venues
 34874;Agathe est ___ très sérieuse.;devenue;devenu;devenus;devenues
-34875;Maxime vient d'être ___ par ses camarades.;applaudi;applaudis;applaudie;applaudies
-34876;Romain vient d'être ___ par le dentiste.;examiné;examinés;examinée;examinées
+34875;Maxime vient d'être ___.;mort;morte;morts;mortes
+34876;Romain vient d'être ___.;resté;restée;restés;restées
 34877;Ilyes sera ___ en voyage.;parti;partie;partis;parties
 34878;Mattéo sera ___ de sa chambre.;descendu;descendue;descendus;descendues
 34879;Clara est déjà ___.;sortie;sorti;sortis;sorties
@@ -934,7 +934,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 34892;Timéo et Malo sont encore ___.;arrivés;arrivé;arrivée;arrivées
 34893;Agathe est bien ___.;tombée;tombé;tombés;tombées
 34894;Bastien était ___ malgré la pluie.;venu;venue;venus;venues
-34895;Timéo et Malo viennent d'être ___ par le professeur.;interrogés;interrogé;interrogée;interrogées
+34895;Timéo et Malo viennent d'être ___.;montés;monté;montée;montées
 34896;Kylian est déjà ___.;monté;montée;montés;montées
 34897;Bastien est encore ___.;mort;morte;morts;mortes
 34898;Antoine était ___ chercher son ballon.;descendu;descendue;descendus;descendues
@@ -945,7 +945,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 34903;Timéo était ___ silencieux.;resté;restée;restés;restées
 34904;Timéo est encore ___.;arrivé;arrivée;arrivés;arrivées
 34905;Maxime était déjà ___.;descendu;descendue;descendus;descendues
-34906;Eliott vient d'être ___ pour sa bonne idée.;félicité;félicités;félicitée;félicitées
+34906;Eliott vient d'être ___.;parti;partie;partis;parties
 34907;Juliette est encore ___.;entrée;entré;entrés;entrées
 34908;Sacha est déjà ___.;arrivé;arrivée;arrivés;arrivées
 34909;Juliette vient d'être ___ à la maison.;retournée;retourné;retournés;retournées
@@ -958,7 +958,7 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 34916;Aaron était déjà ___.;venu;venue;venus;venues
 34917;Timéo et Malo étaient déjà ___.;entrés;entré;entrée;entrées
 34918;Lola est encore ___.;montée;monté;montés;montées
-34919;Lisa vient d'être ___ pour sa persévérance.;récompensée;récompensé;récompensés;récompensées
+34919;Lisa vient d'être ___.;partie;parti;partis;parties
 34920;Clément est bien ___.;monté;montée;montés;montées
 34921;Yasmine est ___ de fatigue.;morte;mort;morts;mortes
 34922;Salomé est bien ___ au marché.;allée;allé;allés;allées
@@ -969,23 +969,23 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 34927;Timéo et Malo seront ___ de grands champions.;devenus;devenu;devenue;devenues
 34928;Iris est encore ___.;venue;venu;venus;venues
 34929;Océane sera ___ de vacances.;revenue;revenu;revenus;revenues
-34930;Timéo vient d'être ___ pour son impolitesse.;puni;punis;punie;punies
+34930;Timéo vient d'être ___.;tombé;tombée;tombés;tombées
 34931;Ilyes est maintenant ___.;sorti;sortie;sortis;sorties
-34932;Lola vient d'être ___ pour le spectacle de fin d'année.;choisie;choisi;choisis;choisies
+34932;Lola vient d'être ___.;passée;passé;passés;passées
 34933;Clément était ___ en courant.;entré;entrée;entrés;entrées
-34934;Iris vient d'être ___ à la fête de l'école.;invitée;invité;invités;invitées
+34934;Iris vient d'être ___.;montée;monté;montés;montées
 34935;Anaïs est encore ___.;revenue;revenu;revenus;revenues
 34936;Simon est encore ___ chez le dentiste.;allé;allée;allés;allées
 34937;Jade et Naomi sont encore ___ de grandes championnes.;devenues;devenu;devenue;devenus
 34938;Eliott était déjà ___.;revenu;revenue;revenus;revenues
-34939;Anaïs vient d'être ___ responsable du groupe.;nommée;nommé;nommés;nommées
+34939;Anaïs vient d'être ___.;partie;parti;partis;parties
 34940;Océane est ___ la première.;entrée;entré;entrés;entrées
 34941;Timéo et Jade sont encore ___.;sortis;sorti;sortie;sorties
 34942;Maya était ___ à sa place.;retournée;retourné;retournés;retournées
 34943;Romain sera ___ à Paris.;né;née;nés;nées
-34944;Timéo et Jade viennent d'être ___ par la maîtresse.;consolés;consolé;consolée;consolées
+34944;Timéo et Jade viennent d'être ___.;revenus;revenu;revenue;revenues
 34945;Lisa était déjà ___.;arrivée;arrivé;arrivés;arrivées
-34946;Jade et Naomi viennent d'être ___ par toute la classe.;applaudies;applaudi;applaudis;applaudie
+34946;Jade et Naomi viennent d'être ___.;descendues;descendu;descendue;descendus
 34947;Clara est bien ___.;tombée;tombé;tombés;tombées
 34948;Jade et Naomi étaient déjà ___.;restées;resté;restée;restés
 34949;Eliott sera ___ sur le toit.;monté;montée;montés;montées
@@ -998,4 +998,4 @@ id;text;correct_answer;choice_2;choice_3;choice_4
 34956;Margaux était ___ en dernier.;descendue;descendu;descendus;descendues
 34957;Clara était ___ à Marseille.;née;né;nés;nées
 34958;Clément est encore ___.;arrivé;arrivée;arrivés;arrivées
-34959;Malo vient d'être ___ par l'infirmière.;examiné;examinés;examinée;examinées
+34959;Malo vient d'être ___.;passé;passée;passés;passées
