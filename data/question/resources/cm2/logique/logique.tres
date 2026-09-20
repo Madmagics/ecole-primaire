@@ -23,9 +23,9 @@ choices = Array[String](["24", "25", "28"])
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on \"CAT\" ?"
-correct_answer = "DBU"
-choices = Array[String](["BZS", "DBV", "CBU"])
+text = "Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on \"LAC\" ?"
+correct_answer = "MBD"
+choices = Array[String](["NCE", "ODF", "DBM"])
 
 [sub_resource type="Resource" id="Resource_plih6"]
 script = ExtResource("1_qrd4y")
@@ -34,6 +34,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "5"
 choices = Array[String](["4", "6", "3"])
+grid_cells = Array[String](["1", "2", "3", "2", "3", "4", "3", "4", ""])
 
 [sub_resource type="Resource" id="Resource_xgx4p"]
 script = ExtResource("1_qrd4y")
@@ -79,9 +80,9 @@ choices = Array[String](["30", "29", "32"])
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Combien de façons différentes peut-on ranger 3 livres différents côte à côte sur une étagère ?"
-correct_answer = "6"
-choices = Array[String](["3", "9", "4"])
+text = "Quel nombre vient après ? 7, 17, 37, 77, …"
+correct_answer = "157"
+choices = Array[String](["159", "156", "158"])
 
 [sub_resource type="Resource" id="Resource_dawg2"]
 script = ExtResource("1_qrd4y")
@@ -703,363 +704,379 @@ choices = Array[String](["50", "52", "53"])
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on \"SOLEIL\" ?"
-correct_answer = "TPMFJM"
-choices = Array[String](["UQNGKN", "VROHLO", "MJFMPT"])
+text = "Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on \"LAC\" ?"
+correct_answer = "NCE"
+choices = Array[String](["ODF", "MBD", "ECN"])
 
 [sub_resource type="Resource" id="Resource_8mxfn"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +5 où A devient F, B devient G, etc., comment écrit-on \"MAISON\" ?"
-correct_answer = "RFNXTS"
-choices = Array[String](["SGOYUT", "QEMWSR", "STXNFR"])
+text = "Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on \"LAC\" ?"
+correct_answer = "ODF"
+choices = Array[String](["PEG", "NCE", "FDO"])
 
 [sub_resource type="Resource" id="Resource_it1oq"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +5 où A devient F, B devient G, etc., comment écrit-on \"TABLE\" ?"
-correct_answer = "YFGQJ"
-choices = Array[String](["ZGHRK", "XEFPI", "JQGFY"])
+text = "Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on \"MUR\" ?"
+correct_answer = "NVS"
+choices = Array[String](["OWT", "PXU", "SVN"])
 
 [sub_resource type="Resource" id="Resource_qkw58"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on \"VELO\" ?"
-correct_answer = "YHOR"
-choices = Array[String](["ZIPS", "XGNQ", "ROHY"])
+text = "Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on \"MUR\" ?"
+correct_answer = "OWT"
+choices = Array[String](["PXU", "NVS", "TWO"])
 
 [sub_resource type="Resource" id="Resource_fi0pi"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +4 où A devient E, B devient F, etc., comment écrit-on \"PIERRE\" ?"
-correct_answer = "TMIVVI"
-choices = Array[String](["UNJWWJ", "SLHUUH", "IVVIMT"])
+text = "Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on \"MUR\" ?"
+correct_answer = "PXU"
+choices = Array[String](["QYV", "OWT", "UXP"])
 
 [sub_resource type="Resource" id="Resource_oikwe"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +4 où A devient E, B devient F, etc., comment écrit-on \"MONTAGNE\" ?"
-correct_answer = "QSRXEKRI"
-choices = Array[String](["RTSYFLSJ", "PRQWDJQH", "IRKEXRSQ"])
+text = "Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on \"SAC\" ?"
+correct_answer = "TBD"
+choices = Array[String](["UCE", "VDF", "DBT"])
 
 [sub_resource type="Resource" id="Resource_dqspr"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +4 où A devient E, B devient F, etc., comment écrit-on \"PORTE\" ?"
-correct_answer = "TSVXI"
-choices = Array[String](["UTWYJ", "SRUWH", "IXVST"])
+text = "Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on \"SAC\" ?"
+correct_answer = "UCE"
+choices = Array[String](["VDF", "TBD", "ECU"])
 
 [sub_resource type="Resource" id="Resource_jxco3"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on \"MAISON\" ?"
-correct_answer = "PDLVRQ"
-choices = Array[String](["QEMWSR", "OCKUQP", "QRVLDP"])
+text = "Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on \"SAC\" ?"
+correct_answer = "VDF"
+choices = Array[String](["WEG", "UCE", "FDV"])
 
 [sub_resource type="Resource" id="Resource_pbovs"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on \"JARDIN\" ?"
-correct_answer = "LCTFKP"
-choices = Array[String](["MDUGLQ", "KBSEJO", "PKFTCL"])
+text = "Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on \"NID\" ?"
+correct_answer = "OJE"
+choices = Array[String](["PKF", "QLG", "EJO"])
 
 [sub_resource type="Resource" id="Resource_on4uo"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on \"PIERRE\" ?"
-correct_answer = "QJFSSF"
-choices = Array[String](["RKGTTG", "SLHUUH", "FSSFJQ"])
+text = "Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on \"NID\" ?"
+correct_answer = "PKF"
+choices = Array[String](["QLG", "OJE", "FKP"])
 
 [sub_resource type="Resource" id="Resource_lmivp"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +4 où A devient E, B devient F, etc., comment écrit-on \"TABLE\" ?"
-correct_answer = "XEFPI"
-choices = Array[String](["YFGQJ", "WDEOH", "IPFEX"])
+text = "Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on \"NID\" ?"
+correct_answer = "QLG"
+choices = Array[String](["RMH", "PKF", "GLQ"])
 
 [sub_resource type="Resource" id="Resource_0ix62"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on \"ROUTE\" ?"
-correct_answer = "URXWH"
-choices = Array[String](["VSYXI", "TQWVG", "HWXRU"])
+text = "Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on \"ROI\" ?"
+correct_answer = "SPJ"
+choices = Array[String](["TQK", "URL", "JPS"])
 
 [sub_resource type="Resource" id="Resource_scy4q"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +8 où A devient I, B devient J, etc., comment écrit-on \"MAISON\" ?"
-correct_answer = "UIQAWV"
-choices = Array[String](["VJRBXW", "THPZVU", "VWAQIU"])
+text = "Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on \"ROI\" ?"
+correct_answer = "TQK"
+choices = Array[String](["URL", "SPJ", "KQT"])
 
 [sub_resource type="Resource" id="Resource_i75di"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on \"NUAGE\" ?"
-correct_answer = "PWCIG"
-choices = Array[String](["QXDJH", "OVBHF", "GICWP"])
+text = "Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on \"ROI\" ?"
+correct_answer = "URL"
+choices = Array[String](["VSM", "TQK", "LRU"])
 
 [sub_resource type="Resource" id="Resource_gekxn"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +4 où A devient E, B devient F, etc., comment écrit-on \"CHIEN\" ?"
-correct_answer = "GLMIR"
-choices = Array[String](["HMNJS", "FKLHQ", "RIMLG"])
+text = "Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on \"LIT\" ?"
+correct_answer = "MJU"
+choices = Array[String](["NKV", "OLW", "UJM"])
 
 [sub_resource type="Resource" id="Resource_l1567"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +7 où A devient H, B devient I, etc., comment écrit-on \"CHAT\" ?"
-correct_answer = "JOHA"
-choices = Array[String](["KPIB", "INGZ", "AHOJ"])
+text = "Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on \"LIT\" ?"
+correct_answer = "NKV"
+choices = Array[String](["OLW", "MJU", "VKN"])
 
 [sub_resource type="Resource" id="Resource_u3hma"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on \"SOLEIL\" ?"
-correct_answer = "UQNGKN"
-choices = Array[String](["VROHLO", "TPMFJM", "NKGNQU"])
+text = "Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on \"LIT\" ?"
+correct_answer = "OLW"
+choices = Array[String](["PMX", "NKV", "WLO"])
 
 [sub_resource type="Resource" id="Resource_awjt8"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +6 où A devient G, B devient H, etc., comment écrit-on \"PLAGE\" ?"
-correct_answer = "VRGMK"
-choices = Array[String](["WSHNL", "UQFLJ", "KMGRV"])
+text = "Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on \"POT\" ?"
+correct_answer = "QPU"
+choices = Array[String](["RQV", "SRW", "UPQ"])
 
 [sub_resource type="Resource" id="Resource_blvyn"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on \"TABLE\" ?"
-correct_answer = "VCDNG"
-choices = Array[String](["WDEOH", "UBCMF", "GNDCV"])
+text = "Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on \"POT\" ?"
+correct_answer = "RQV"
+choices = Array[String](["SRW", "QPU", "VQR"])
 
 [sub_resource type="Resource" id="Resource_h7ln7"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on \"LIVRE\" ?"
-correct_answer = "OLYUH"
-choices = Array[String](["PMZVI", "NKXTG", "HUYLO"])
+text = "Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on \"POT\" ?"
+correct_answer = "SRW"
+choices = Array[String](["TSX", "RQV", "WRS"])
 
 [sub_resource type="Resource" id="Resource_b0e5p"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +5 où A devient F, B devient G, etc., comment écrit-on \"PIERRE\" ?"
-correct_answer = "UNJWWJ"
-choices = Array[String](["VOKXXK", "TMIVVI", "JWWJNU"])
+text = "Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on \"RAT\" ?"
+correct_answer = "SBU"
+choices = Array[String](["TCV", "UDW", "UBS"])
 
 [sub_resource type="Resource" id="Resource_eqdl2"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +5 où A devient F, B devient G, etc., comment écrit-on \"RIVIERE\" ?"
-correct_answer = "WNANJWJ"
-choices = Array[String](["XOBOKXK", "VMZMIVI", "JWJNANW"])
+text = "Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on \"RAT\" ?"
+correct_answer = "TCV"
+choices = Array[String](["UDW", "SBU", "VCT"])
 
 [sub_resource type="Resource" id="Resource_6jqcy"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +7 où A devient H, B devient I, etc., comment écrit-on \"OISEAU\" ?"
-correct_answer = "VPZLHB"
-choices = Array[String](["WQAMIC", "UOYKGA", "BHLZPV"])
+text = "Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on \"RAT\" ?"
+correct_answer = "UDW"
+choices = Array[String](["VEX", "TCV", "WDU"])
 
 [sub_resource type="Resource" id="Resource_nsjpq"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +7 où A devient H, B devient I, etc., comment écrit-on \"FORET\" ?"
-correct_answer = "MVYLA"
-choices = Array[String](["NWZMB", "LUXKZ", "ALYVM"])
+text = "Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on \"SEL\" ?"
+correct_answer = "TFM"
+choices = Array[String](["UGN", "VHO", "MFT"])
 
 [sub_resource type="Resource" id="Resource_6q8vo"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on \"FLEUR\" ?"
-correct_answer = "HNGWT"
-choices = Array[String](["IOHXU", "GMFVS", "TWGNH"])
+text = "Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on \"SEL\" ?"
+correct_answer = "UGN"
+choices = Array[String](["VHO", "TFM", "NGU"])
 
 [sub_resource type="Resource" id="Resource_sjkw4"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on \"NUAGE\" ?"
-correct_answer = "QXDJH"
-choices = Array[String](["RYEKI", "PWCIG", "HJDXQ"])
+text = "Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on \"SEL\" ?"
+correct_answer = "VHO"
+choices = Array[String](["WIP", "UGN", "OHV"])
 
 [sub_resource type="Resource" id="Resource_ff360"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +8 où A devient I, B devient J, etc., comment écrit-on \"SOLEIL\" ?"
-correct_answer = "AWTMQT"
-choices = Array[String](["BXUNRU", "ZVSLPS", "TQMTWA"])
+text = "Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on \"FEU\" ?"
+correct_answer = "GFV"
+choices = Array[String](["HGW", "IHX", "VFG"])
 
 [sub_resource type="Resource" id="Resource_f06gn"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on \"FORET\" ?"
-correct_answer = "HQTGV"
-choices = Array[String](["IRUHW", "GPSFU", "VGTQH"])
+text = "Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on \"FEU\" ?"
+correct_answer = "HGW"
+choices = Array[String](["IHX", "GFV", "WGH"])
 
 [sub_resource type="Resource" id="Resource_dxdkc"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on \"SABLE\" ?"
-correct_answer = "UCDNG"
-choices = Array[String](["VDEOH", "TBCMF", "GNDCU"])
+text = "Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on \"FEU\" ?"
+correct_answer = "IHX"
+choices = Array[String](["JIY", "HGW", "XHI"])
 
 [sub_resource type="Resource" id="Resource_h68m8"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on \"CHIEN\" ?"
-correct_answer = "DIJFO"
-choices = Array[String](["EJKGP", "FKLHQ", "OFJID"])
+text = "Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on \"AIR\" ?"
+correct_answer = "BJS"
+choices = Array[String](["CKT", "DLU", "SJB"])
 
 [sub_resource type="Resource" id="Resource_gt8bt"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +4 où A devient E, B devient F, etc., comment écrit-on \"RIVIERE\" ?"
-correct_answer = "VMZMIVI"
-choices = Array[String](["WNANJWJ", "ULYLHUH", "IVIMZMV"])
+text = "Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on \"AIR\" ?"
+correct_answer = "CKT"
+choices = Array[String](["DLU", "BJS", "TKC"])
 
 [sub_resource type="Resource" id="Resource_ohabs"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +5 où A devient F, B devient G, etc., comment écrit-on \"JARDIN\" ?"
-correct_answer = "OFWINS"
-choices = Array[String](["PGXJOT", "NEVHMR", "SNIWFO"])
+text = "Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on \"AIR\" ?"
+correct_answer = "DLU"
+choices = Array[String](["EMV", "CKT", "ULD"])
 
 [sub_resource type="Resource" id="Resource_rocmy"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +6 où A devient G, B devient H, etc., comment écrit-on \"OISEAU\" ?"
-correct_answer = "UOYKGA"
-choices = Array[String](["VPZLHB", "TNXJFZ", "AGKYOU"])
+text = "Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on \"VER\" ?"
+correct_answer = "WFS"
+choices = Array[String](["XGT", "YHU", "SFW"])
 
 [sub_resource type="Resource" id="Resource_ncnxu"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on \"OISEAU\" ?"
-correct_answer = "QKUGCW"
-choices = Array[String](["RLVHDX", "PJTFBV", "WCGUKQ"])
+text = "Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on \"VER\" ?"
+correct_answer = "XGT"
+choices = Array[String](["YHU", "WFS", "TGX"])
 
 [sub_resource type="Resource" id="Resource_qkddc"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on \"FORET\" ?"
-correct_answer = "GPSFU"
-choices = Array[String](["HQTGV", "IRUHW", "UFSPG"])
+text = "Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on \"VER\" ?"
+correct_answer = "YHU"
+choices = Array[String](["ZIV", "XGT", "UHY"])
 
 [sub_resource type="Resource" id="Resource_awfuu"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +6 où A devient G, B devient H, etc., comment écrit-on \"POISSON\" ?"
-correct_answer = "VUOYYUT"
-choices = Array[String](["WVPZZVU", "UTNXXTS", "TUYYOUV"])
+text = "Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on \"CHAT\" ?"
+correct_answer = "DIBU"
+choices = Array[String](["EJCV", "FKDW", "UBID"])
 
 [sub_resource type="Resource" id="Resource_sbdrn"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +5 où A devient F, B devient G, etc., comment écrit-on \"CHIEN\" ?"
-correct_answer = "HMNJS"
-choices = Array[String](["INOKT", "GLMIR", "SJNMH"])
+text = "Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on \"CHAT\" ?"
+correct_answer = "EJCV"
+choices = Array[String](["FKDW", "DIBU", "VCJE"])
 
 [sub_resource type="Resource" id="Resource_6fvak"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on \"PIERRE\" ?"
-correct_answer = "SLHUUH"
-choices = Array[String](["TMIVVI", "RKGTTG", "HUUHLS"])
+text = "Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on \"CHAT\" ?"
+correct_answer = "FKDW"
+choices = Array[String](["GLEX", "EJCV", "WDKF"])
 
 [sub_resource type="Resource" id="Resource_rkdhu"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +5 où A devient F, B devient G, etc., comment écrit-on \"SOLEIL\" ?"
-correct_answer = "XTQJNQ"
-choices = Array[String](["YURKOR", "WSPIMP", "QNJQTX"])
+text = "Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on \"LOUP\" ?"
+correct_answer = "MPVQ"
+choices = Array[String](["NQWR", "ORXS", "QVPM"])
 
 [sub_resource type="Resource" id="Resource_xmb3g"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +7 où A devient H, B devient I, etc., comment écrit-on \"NUAGE\" ?"
-correct_answer = "UBHNL"
-choices = Array[String](["VCIOM", "TAGMK", "LNHBU"])
+text = "Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on \"LOUP\" ?"
+correct_answer = "NQWR"
+choices = Array[String](["ORXS", "MPVQ", "RWQN"])
 
 [sub_resource type="Resource" id="Resource_bx1kc"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on \"RIVIERE\" ?"
-correct_answer = "TKXKGTG"
-choices = Array[String](["ULYLHUH", "SJWJFSF", "GTGKXKT"])
+text = "Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on \"LOUP\" ?"
+correct_answer = "ORXS"
+choices = Array[String](["PSYT", "NQWR", "SXRO"])
 
 [sub_resource type="Resource" id="Resource_8andq"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +7 où A devient H, B devient I, etc., comment écrit-on \"PLAGE\" ?"
-correct_answer = "WSHNL"
-choices = Array[String](["XTIOM", "VRGMK", "LNHSW"])
+text = "Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on \"OURS\" ?"
+correct_answer = "PVST"
+choices = Array[String](["QWTU", "RXUV", "TSVP"])
 
 [sub_resource type="Resource" id="Resource_8ff5g"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +8 où A devient I, B devient J, etc., comment écrit-on \"BATEAU\" ?"
-correct_answer = "JIBMIC"
-choices = Array[String](["KJCNJD", "IHALHB", "CIMBIJ"])
+text = "Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on \"OURS\" ?"
+correct_answer = "QWTU"
+choices = Array[String](["RXUV", "PVST", "UTWQ"])
 
 [sub_resource type="Resource" id="Resource_rylpo"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on \"BATEAU\" ?"
-correct_answer = "CBUFBV"
-choices = Array[String](["DCVGCW", "EDWHDX", "VBFUBC"])
+text = "Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on \"OURS\" ?"
+correct_answer = "RXUV"
+choices = Array[String](["SYVW", "QWTU", "VUXR"])
 
 [sub_resource type="Resource" id="Resource_qdtbo"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on \"OISEAU\" ?"
-correct_answer = "PJTFBV"
-choices = Array[String](["QKUGCW", "RLVHDX", "VBFTJP"])
+text = "Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on \"LION\" ?"
+correct_answer = "MJPO"
+choices = Array[String](["NKQP", "OLRQ", "OPJM"])
 
 [sub_resource type="Resource" id="Resource_govhl"]
+script = ExtResource("1_qrd4y")
+subject = 7
+grade = 4
+text = "Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on \"LION\" ?"
+correct_answer = "NKQP"
+choices = Array[String](["OLRQ", "MJPO", "PQKN"])
+
+[sub_resource type="Resource" id="Resource_3pcwt"]
+script = ExtResource("1_qrd4y")
+subject = 7
+grade = 4
+text = "Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on \"LION\" ?"
+correct_answer = "OLRQ"
+choices = Array[String](["PMSR", "NKQP", "QRLO"])
+
+[sub_resource type="Resource" id="Resource_h76j7"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
@@ -1067,117 +1084,101 @@ text = "Avec un décalage de +1 où A devient B, B devient C, etc., comment écr
 correct_answer = "WFMP"
 choices = Array[String](["XGNQ", "YHOR", "PMFW"])
 
-[sub_resource type="Resource" id="Resource_3pcwt"]
-script = ExtResource("1_qrd4y")
-subject = 7
-grade = 4
-text = "Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on \"NUAGE\" ?"
-correct_answer = "OVBHF"
-choices = Array[String](["PWCIG", "QXDJH", "FHBVO"])
-
-[sub_resource type="Resource" id="Resource_h76j7"]
-script = ExtResource("1_qrd4y")
-subject = 7
-grade = 4
-text = "Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on \"ROUTE\" ?"
-correct_answer = "SPVUF"
-choices = Array[String](["TQWVG", "URXWH", "FUVPS"])
-
 [sub_resource type="Resource" id="Resource_lwuq4"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on \"PORTE\" ?"
-correct_answer = "QPSUF"
-choices = Array[String](["RQTVG", "SRUWH", "FUSPQ"])
+text = "Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on \"VELO\" ?"
+correct_answer = "XGNQ"
+choices = Array[String](["YHOR", "WFMP", "QNGX"])
 
 [sub_resource type="Resource" id="Resource_citnr"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +4 où A devient E, B devient F, etc., comment écrit-on \"CHAT\" ?"
-correct_answer = "GLEX"
-choices = Array[String](["HMFY", "FKDW", "XELG"])
+text = "Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on \"VELO\" ?"
+correct_answer = "YHOR"
+choices = Array[String](["ZIPS", "XGNQ", "ROHY"])
 
 [sub_resource type="Resource" id="Resource_uc2fb"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +8 où A devient I, B devient J, etc., comment écrit-on \"RIVIERE\" ?"
-correct_answer = "ZQDQMZM"
-choices = Array[String](["ARERNAN", "YPCPLYL", "MZMQDQZ"])
+text = "Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on \"LUNE\" ?"
+correct_answer = "MVOF"
+choices = Array[String](["NWPG", "OXQH", "FOVM"])
 
 [sub_resource type="Resource" id="Resource_ej3xy"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +5 où A devient F, B devient G, etc., comment écrit-on \"PLAGE\" ?"
-correct_answer = "UQFLJ"
-choices = Array[String](["VRGMK", "TPEKI", "JLFQU"])
+text = "Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on \"LUNE\" ?"
+correct_answer = "NWPG"
+choices = Array[String](["OXQH", "MVOF", "GPWN"])
 
 [sub_resource type="Resource" id="Resource_vtdwk"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on \"LIVRE\" ?"
-correct_answer = "NKXTG"
-choices = Array[String](["OLYUH", "MJWSF", "GTXKN"])
+text = "Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on \"LUNE\" ?"
+correct_answer = "OXQH"
+choices = Array[String](["PYRI", "NWPG", "HQXO"])
 
 [sub_resource type="Resource" id="Resource_r80i8"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on \"MAISON\" ?"
-correct_answer = "NBJTPO"
-choices = Array[String](["OCKUQP", "PDLVRQ", "OPTJBN"])
+text = "Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on \"ROSE\" ?"
+correct_answer = "SPTF"
+choices = Array[String](["TQUG", "URVH", "FTPS"])
 
 [sub_resource type="Resource" id="Resource_ha2hu"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on \"MAISON\" ?"
-correct_answer = "OCKUQP"
-choices = Array[String](["PDLVRQ", "NBJTPO", "PQUKCO"])
+text = "Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on \"ROSE\" ?"
+correct_answer = "TQUG"
+choices = Array[String](["URVH", "SPTF", "GUQT"])
 
 [sub_resource type="Resource" id="Resource_h5rvj"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on \"PLAGE\" ?"
-correct_answer = "SODJH"
-choices = Array[String](["TPEKI", "RNCIG", "HJDOS"])
+text = "Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on \"ROSE\" ?"
+correct_answer = "URVH"
+choices = Array[String](["VSWI", "TQUG", "HVRU"])
 
 [sub_resource type="Resource" id="Resource_qhl0h"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +8 où A devient I, B devient J, etc., comment écrit-on \"ROUTE\" ?"
-correct_answer = "ZWCBM"
-choices = Array[String](["AXDCN", "YVBAL", "MBCWZ"])
+text = "Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on \"PAIN\" ?"
+correct_answer = "QBJO"
+choices = Array[String](["RCKP", "SDLQ", "OJBQ"])
 
 [sub_resource type="Resource" id="Resource_djkra"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +5 où A devient F, B devient G, etc., comment écrit-on \"BATEAU\" ?"
-correct_answer = "GFYJFZ"
-choices = Array[String](["HGZKGA", "FEXIEY", "ZFJYFG"])
+text = "Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on \"PAIN\" ?"
+correct_answer = "RCKP"
+choices = Array[String](["SDLQ", "QBJO", "PKCR"])
 
 [sub_resource type="Resource" id="Resource_fk3k6"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on \"FLEUR\" ?"
-correct_answer = "IOHXU"
-choices = Array[String](["JPIYV", "HNGWT", "UXHOI"])
+text = "Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on \"PAIN\" ?"
+correct_answer = "SDLQ"
+choices = Array[String](["TEMR", "RCKP", "QLDS"])
 
 [sub_resource type="Resource" id="Resource_72c2b"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +7 où A devient H, B devient I, etc., comment écrit-on \"SOLEIL\" ?"
-correct_answer = "ZVSLPS"
-choices = Array[String](["AWTMQT", "YURKOR", "SPLSVZ"])
+text = "Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on \"LAIT\" ?"
+correct_answer = "MBJU"
+choices = Array[String](["NCKV", "ODLW", "UJBM"])
 
 [sub_resource type="Resource" id="Resource_kurdt"]
 script = ExtResource("1_qrd4y")
@@ -1186,6 +1187,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "16"
 choices = Array[String](["17", "18", "15"])
+grid_cells = Array[String](["8", "11", "14", "10", "13", "", "12", "15", "18"])
 
 [sub_resource type="Resource" id="Resource_fj43c"]
 script = ExtResource("1_qrd4y")
@@ -1194,6 +1196,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "15"
 choices = Array[String](["16", "19", "14"])
+grid_cells = Array[String](["7", "10", "13", "11", "14", "17", "", "18", "21"])
 
 [sub_resource type="Resource" id="Resource_4vrcq"]
 script = ExtResource("1_qrd4y")
@@ -1202,6 +1205,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "8"
 choices = Array[String](["9", "11", "7"])
+grid_cells = Array[String](["2", "6", "10", "5", "9", "13", "", "12", "16"])
 
 [sub_resource type="Resource" id="Resource_0y444"]
 script = ExtResource("1_qrd4y")
@@ -1210,6 +1214,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "11"
 choices = Array[String](["10", "12", "15"])
+grid_cells = Array[String](["3", "5", "7", "7", "9", "11", "", "13", "15"])
 
 [sub_resource type="Resource" id="Resource_iejuk"]
 script = ExtResource("1_qrd4y")
@@ -1218,6 +1223,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "6"
 choices = Array[String](["8", "5", "7"])
+grid_cells = Array[String](["", "8", "10", "7", "9", "11", "8", "10", "12"])
 
 [sub_resource type="Resource" id="Resource_idi2f"]
 script = ExtResource("1_qrd4y")
@@ -1226,6 +1232,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "7"
 choices = Array[String](["8", "11", "6"])
+grid_cells = Array[String](["2", "6", "10", "3", "", "11", "4", "8", "12"])
 
 [sub_resource type="Resource" id="Resource_l0ypi"]
 script = ExtResource("1_qrd4y")
@@ -1234,6 +1241,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "12"
 choices = Array[String](["11", "13", "14"])
+grid_cells = Array[String](["2", "5", "8", "4", "7", "10", "6", "9", ""])
 
 [sub_resource type="Resource" id="Resource_l8f56"]
 script = ExtResource("1_qrd4y")
@@ -1242,6 +1250,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "11"
 choices = Array[String](["10", "12", "15"])
+grid_cells = Array[String](["10", "14", "18", "", "15", "19", "12", "16", "20"])
 
 [sub_resource type="Resource" id="Resource_8rmxl"]
 script = ExtResource("1_qrd4y")
@@ -1250,6 +1259,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "6"
 choices = Array[String](["8", "5", "7"])
+grid_cells = Array[String](["4", "7", "10", "", "9", "12", "8", "11", "14"])
 
 [sub_resource type="Resource" id="Resource_uvdjk"]
 script = ExtResource("1_qrd4y")
@@ -1258,6 +1268,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "10"
 choices = Array[String](["9", "11", "12"])
+grid_cells = Array[String](["3", "6", "9", "5", "8", "11", "7", "", "13"])
 
 [sub_resource type="Resource" id="Resource_oksvp"]
 script = ExtResource("1_qrd4y")
@@ -1266,6 +1277,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "4"
 choices = Array[String](["3", "5", "6"])
+grid_cells = Array[String](["1", "3", "5", "2", "", "6", "3", "5", "7"])
 
 [sub_resource type="Resource" id="Resource_qnwcc"]
 script = ExtResource("1_qrd4y")
@@ -1274,6 +1286,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "11"
 choices = Array[String](["10", "12", "15"])
+grid_cells = Array[String](["3", "5", "7", "7", "9", "", "11", "13", "15"])
 
 [sub_resource type="Resource" id="Resource_6ha0e"]
 script = ExtResource("1_qrd4y")
@@ -1282,6 +1295,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "5"
 choices = Array[String](["8", "4", "6"])
+grid_cells = Array[String](["4", "", "6", "7", "8", "9", "10", "11", "12"])
 
 [sub_resource type="Resource" id="Resource_dmpia"]
 script = ExtResource("1_qrd4y")
@@ -1290,6 +1304,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "12"
 choices = Array[String](["16", "11", "13"])
+grid_cells = Array[String](["2", "4", "6", "6", "8", "10", "10", "", "14"])
 
 [sub_resource type="Resource" id="Resource_qq8lu"]
 script = ExtResource("1_qrd4y")
@@ -1298,6 +1313,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "12"
 choices = Array[String](["16", "11", "13"])
+grid_cells = Array[String](["2", "5", "8", "6", "9", "", "10", "13", "16"])
 
 [sub_resource type="Resource" id="Resource_3nuf3"]
 script = ExtResource("1_qrd4y")
@@ -1306,6 +1322,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "11"
 choices = Array[String](["10", "12", "14"])
+grid_cells = Array[String](["3", "6", "9", "4", "7", "10", "5", "8", ""])
 
 [sub_resource type="Resource" id="Resource_c4xm5"]
 script = ExtResource("1_qrd4y")
@@ -1314,6 +1331,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "15"
 choices = Array[String](["16", "17", "14"])
+grid_cells = Array[String](["7", "10", "13", "9", "12", "", "11", "14", "17"])
 
 [sub_resource type="Resource" id="Resource_lhewg"]
 script = ExtResource("1_qrd4y")
@@ -1322,6 +1340,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "10"
 choices = Array[String](["9", "11", "13"])
+grid_cells = Array[String](["3", "6", "9", "4", "7", "", "5", "8", "11"])
 
 [sub_resource type="Resource" id="Resource_gox5c"]
 script = ExtResource("1_qrd4y")
@@ -1330,6 +1349,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "7"
 choices = Array[String](["8", "11", "6"])
+grid_cells = Array[String](["5", "", "9", "9", "11", "13", "13", "15", "17"])
 
 [sub_resource type="Resource" id="Resource_hxikn"]
 script = ExtResource("1_qrd4y")
@@ -1338,6 +1358,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "12"
 choices = Array[String](["11", "13", "15"])
+grid_cells = Array[String](["4", "8", "", "7", "11", "15", "10", "14", "18"])
 
 [sub_resource type="Resource" id="Resource_2yt2n"]
 script = ExtResource("1_qrd4y")
@@ -1346,6 +1367,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "16"
 choices = Array[String](["17", "19", "15"])
+grid_cells = Array[String](["9", "10", "11", "12", "13", "14", "15", "", "17"])
 
 [sub_resource type="Resource" id="Resource_ghx8i"]
 script = ExtResource("1_qrd4y")
@@ -1354,6 +1376,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "9"
 choices = Array[String](["8", "10", "12"])
+grid_cells = Array[String](["2", "3", "4", "5", "6", "7", "8", "", "10"])
 
 [sub_resource type="Resource" id="Resource_3ebqp"]
 script = ExtResource("1_qrd4y")
@@ -1362,6 +1385,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "8"
 choices = Array[String](["9", "10", "7"])
+grid_cells = Array[String](["6", "", "10", "7", "9", "11", "8", "10", "12"])
 
 [sub_resource type="Resource" id="Resource_8cs3e"]
 script = ExtResource("1_qrd4y")
@@ -1370,6 +1394,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "18"
 choices = Array[String](["17", "19", "22"])
+grid_cells = Array[String](["8", "12", "16", "9", "13", "17", "10", "14", ""])
 
 [sub_resource type="Resource" id="Resource_aydcb"]
 script = ExtResource("1_qrd4y")
@@ -1378,6 +1403,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "4"
 choices = Array[String](["3", "5", "6"])
+grid_cells = Array[String](["2", "6", "10", "", "8", "12", "6", "10", "14"])
 
 [sub_resource type="Resource" id="Resource_m4hb8"]
 script = ExtResource("1_qrd4y")
@@ -1386,6 +1412,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "17"
 choices = Array[String](["16", "18", "19"])
+grid_cells = Array[String](["5", "9", "13", "7", "11", "15", "9", "13", ""])
 
 [sub_resource type="Resource" id="Resource_6eeui"]
 script = ExtResource("1_qrd4y")
@@ -1394,6 +1421,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "7"
 choices = Array[String](["8", "11", "6"])
+grid_cells = Array[String](["3", "", "11", "4", "8", "12", "5", "9", "13"])
 
 [sub_resource type="Resource" id="Resource_vykah"]
 script = ExtResource("1_qrd4y")
@@ -1402,6 +1430,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "8"
 choices = Array[String](["9", "10", "7"])
+grid_cells = Array[String](["6", "8", "10", "7", "9", "11", "", "10", "12"])
 
 [sub_resource type="Resource" id="Resource_8kbx1"]
 script = ExtResource("1_qrd4y")
@@ -1410,6 +1439,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "15"
 choices = Array[String](["16", "19", "14"])
+grid_cells = Array[String](["7", "8", "9", "11", "12", "13", "", "16", "17"])
 
 [sub_resource type="Resource" id="Resource_8ylgp"]
 script = ExtResource("1_qrd4y")
@@ -1418,6 +1448,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "2"
 choices = Array[String](["1", "3", "5"])
+grid_cells = Array[String](["", "6", "10", "5", "9", "13", "8", "12", "16"])
 
 [sub_resource type="Resource" id="Resource_grv0e"]
 script = ExtResource("1_qrd4y")
@@ -1426,6 +1457,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "12"
 choices = Array[String](["11", "13", "14"])
+grid_cells = Array[String](["9", "10", "11", "11", "", "13", "13", "14", "15"])
 
 [sub_resource type="Resource" id="Resource_18c5e"]
 script = ExtResource("1_qrd4y")
@@ -1434,6 +1466,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "4"
 choices = Array[String](["3", "5", "7"])
+grid_cells = Array[String](["1", "5", "9", "", "8", "12", "7", "11", "15"])
 
 [sub_resource type="Resource" id="Resource_i80s1"]
 script = ExtResource("1_qrd4y")
@@ -1442,6 +1475,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "5"
 choices = Array[String](["4", "6", "7"])
+grid_cells = Array[String](["3", "6", "9", "", "8", "11", "7", "10", "13"])
 
 [sub_resource type="Resource" id="Resource_ci2ex"]
 script = ExtResource("1_qrd4y")
@@ -1450,6 +1484,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "15"
 choices = Array[String](["16", "19", "14"])
+grid_cells = Array[String](["10", "14", "18", "11", "", "19", "12", "16", "20"])
 
 [sub_resource type="Resource" id="Resource_4eicx"]
 script = ExtResource("1_qrd4y")
@@ -1458,6 +1493,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "3"
 choices = Array[String](["2", "4", "6"])
+grid_cells = Array[String](["", "6", "9", "4", "7", "10", "5", "8", "11"])
 
 [sub_resource type="Resource" id="Resource_qtj5u"]
 script = ExtResource("1_qrd4y")
@@ -1466,6 +1502,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "9"
 choices = Array[String](["8", "10", "13"])
+grid_cells = Array[String](["", "12", "15", "13", "16", "19", "17", "20", "23"])
 
 [sub_resource type="Resource" id="Resource_8nopi"]
 script = ExtResource("1_qrd4y")
@@ -1474,6 +1511,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "14"
 choices = Array[String](["17", "13", "15"])
+grid_cells = Array[String](["10", "13", "16", "11", "", "17", "12", "15", "18"])
 
 [sub_resource type="Resource" id="Resource_so53h"]
 script = ExtResource("1_qrd4y")
@@ -1482,6 +1520,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "3"
 choices = Array[String](["2", "4", "5"])
+grid_cells = Array[String](["", "4", "5", "5", "6", "7", "7", "8", "9"])
 
 [sub_resource type="Resource" id="Resource_i8q37"]
 script = ExtResource("1_qrd4y")
@@ -1490,6 +1529,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "12"
 choices = Array[String](["11", "13", "15"])
+grid_cells = Array[String](["8", "9", "10", "11", "", "13", "14", "15", "16"])
 
 [sub_resource type="Resource" id="Resource_4qr8c"]
 script = ExtResource("1_qrd4y")
@@ -1498,6 +1538,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "8"
 choices = Array[String](["9", "11", "7"])
+grid_cells = Array[String](["2", "5", "", "3", "6", "9", "4", "7", "10"])
 
 [sub_resource type="Resource" id="Resource_anjrd"]
 script = ExtResource("1_qrd4y")
@@ -1506,6 +1547,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "8"
 choices = Array[String](["9", "10", "7"])
+grid_cells = Array[String](["6", "7", "", "8", "9", "10", "10", "11", "12"])
 
 [sub_resource type="Resource" id="Resource_klu4f"]
 script = ExtResource("1_qrd4y")
@@ -1514,6 +1556,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "7"
 choices = Array[String](["8", "10", "6"])
+grid_cells = Array[String](["3", "6", "9", "4", "", "10", "5", "8", "11"])
 
 [sub_resource type="Resource" id="Resource_e5x77"]
 script = ExtResource("1_qrd4y")
@@ -1522,6 +1565,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "13"
 choices = Array[String](["12", "14", "15"])
+grid_cells = Array[String](["9", "13", "17", "11", "15", "19", "", "17", "21"])
 
 [sub_resource type="Resource" id="Resource_thjke"]
 script = ExtResource("1_qrd4y")
@@ -1530,6 +1574,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "17"
 choices = Array[String](["16", "18", "20"])
+grid_cells = Array[String](["10", "11", "12", "13", "14", "15", "16", "", "18"])
 
 [sub_resource type="Resource" id="Resource_m7epn"]
 script = ExtResource("1_qrd4y")
@@ -1538,6 +1583,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "15"
 choices = Array[String](["16", "18", "14"])
+grid_cells = Array[String](["7", "9", "11", "10", "12", "14", "13", "", "17"])
 
 [sub_resource type="Resource" id="Resource_2h45p"]
 script = ExtResource("1_qrd4y")
@@ -1546,6 +1592,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "6"
 choices = Array[String](["10", "5", "7"])
+grid_cells = Array[String](["2", "5", "8", "", "9", "12", "10", "13", "16"])
 
 [sub_resource type="Resource" id="Resource_q5opk"]
 script = ExtResource("1_qrd4y")
@@ -1554,6 +1601,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "13"
 choices = Array[String](["17", "12", "14"])
+grid_cells = Array[String](["1", "3", "5", "5", "7", "9", "9", "11", ""])
 
 [sub_resource type="Resource" id="Resource_0hakx"]
 script = ExtResource("1_qrd4y")
@@ -1562,6 +1610,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "6"
 choices = Array[String](["8", "5", "7"])
+grid_cells = Array[String](["4", "5", "", "6", "7", "8", "8", "9", "10"])
 
 [sub_resource type="Resource" id="Resource_mgwu0"]
 script = ExtResource("1_qrd4y")
@@ -1570,6 +1619,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "13"
 choices = Array[String](["16", "12", "14"])
+grid_cells = Array[String](["10", "", "16", "11", "14", "17", "12", "15", "18"])
 
 [sub_resource type="Resource" id="Resource_6nqht"]
 script = ExtResource("1_qrd4y")
@@ -1578,6 +1628,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "17"
 choices = Array[String](["16", "18", "19"])
+grid_cells = Array[String](["9", "12", "15", "11", "14", "", "13", "16", "19"])
 
 [sub_resource type="Resource" id="Resource_huowt"]
 script = ExtResource("1_qrd4y")
@@ -1586,6 +1637,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "14"
 choices = Array[String](["17", "13", "15"])
+grid_cells = Array[String](["8", "9", "10", "11", "12", "13", "", "15", "16"])
 
 [sub_resource type="Resource" id="Resource_wqd8u"]
 script = ExtResource("1_qrd4y")
@@ -1594,6 +1646,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "13"
 choices = Array[String](["17", "12", "14"])
+grid_cells = Array[String](["7", "11", "15", "8", "12", "16", "9", "", "17"])
 
 [sub_resource type="Resource" id="Resource_cqanf"]
 script = ExtResource("1_qrd4y")
@@ -1602,6 +1655,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "3"
 choices = Array[String](["2", "4", "7"])
+grid_cells = Array[String](["2", "6", "10", "", "7", "11", "4", "8", "12"])
 
 [sub_resource type="Resource" id="Resource_f6yms"]
 script = ExtResource("1_qrd4y")
@@ -1610,6 +1664,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "8"
 choices = Array[String](["9", "11", "7"])
+grid_cells = Array[String](["4", "", "12", "7", "11", "15", "10", "14", "18"])
 
 [sub_resource type="Resource" id="Resource_gx4c1"]
 script = ExtResource("1_qrd4y")
@@ -1618,6 +1673,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "15"
 choices = Array[String](["16", "18", "14"])
+grid_cells = Array[String](["9", "12", "", "10", "13", "16", "11", "14", "17"])
 
 [sub_resource type="Resource" id="Resource_detxo"]
 script = ExtResource("1_qrd4y")
@@ -1626,6 +1682,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "10"
 choices = Array[String](["9", "11", "13"])
+grid_cells = Array[String](["8", "9", "", "11", "12", "13", "14", "15", "16"])
 
 [sub_resource type="Resource" id="Resource_a35wi"]
 script = ExtResource("1_qrd4y")
@@ -1634,6 +1691,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "12"
 choices = Array[String](["11", "13", "14"])
+grid_cells = Array[String](["8", "", "16", "10", "14", "18", "12", "16", "20"])
 
 [sub_resource type="Resource" id="Resource_3bfwe"]
 script = ExtResource("1_qrd4y")
@@ -1642,6 +1700,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "12"
 choices = Array[String](["16", "11", "13"])
+grid_cells = Array[String](["6", "7", "8", "10", "11", "", "14", "15", "16"])
 
 [sub_resource type="Resource" id="Resource_l1d31"]
 script = ExtResource("1_qrd4y")
@@ -1650,6 +1709,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "14"
 choices = Array[String](["18", "13", "15"])
+grid_cells = Array[String](["2", "4", "6", "6", "8", "10", "10", "12", ""])
 
 [sub_resource type="Resource" id="Resource_nhjoe"]
 script = ExtResource("1_qrd4y")
@@ -1658,6 +1718,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "10"
 choices = Array[String](["9", "11", "12"])
+grid_cells = Array[String](["8", "10", "12", "9", "11", "13", "", "12", "14"])
 
 [sub_resource type="Resource" id="Resource_fitno"]
 script = ExtResource("1_qrd4y")
@@ -3583,313 +3644,313 @@ choices = Array[String](["363", "365", "366"])
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Combien de façons différentes peut-on ranger 4 objets différents côte à côte sur une étagère ?"
-correct_answer = "24"
-choices = Array[String](["16", "28", "6"])
+text = "Quel nombre vient après ? 4, 13, 31, 67, …"
+correct_answer = "139"
+choices = Array[String](["141", "138", "140"])
 
 [sub_resource type="Resource" id="Resource_e8i0v"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec 8 amis, combien de paires différentes peut-on former ?"
-correct_answer = "28"
-choices = Array[String](["56", "8", "27"])
+text = "Quel nombre vient après ? 7, 24, 75, 228, …"
+correct_answer = "687"
+choices = Array[String](["689", "686", "688"])
 
 [sub_resource type="Resource" id="Resource_1dcn8"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Combien de façons différentes peut-on ranger 5 objets différents côte à côte sur une étagère ?"
-correct_answer = "120"
-choices = Array[String](["24", "25", "125"])
+text = "Quel nombre vient après ? 6, 23, 74, 227, …"
+correct_answer = "686"
+choices = Array[String](["688", "685", "687"])
 
 [sub_resource type="Resource" id="Resource_3wxiq"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec 4 amis, combien de paires différentes peut-on former ?"
-correct_answer = "6"
-choices = Array[String](["4", "12", "5"])
+text = "Quel nombre vient après ? 3, 13, 43, 133, …"
+correct_answer = "403"
+choices = Array[String](["405", "402", "404"])
 
 [sub_resource type="Resource" id="Resource_ycbsq"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec 9 amis, combien de paires différentes peut-on former ?"
-correct_answer = "36"
-choices = Array[String](["72", "9", "35"])
+text = "Quel nombre vient après ? 9, 31, 97, 295, …"
+correct_answer = "889"
+choices = Array[String](["891", "888", "890"])
 
 [sub_resource type="Resource" id="Resource_5jmjx"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec 6 amis, combien de paires différentes peut-on former ?"
-correct_answer = "15"
-choices = Array[String](["16", "6", "30"])
+text = "Quel nombre vient après ? 9, 22, 48, 100, …"
+correct_answer = "204"
+choices = Array[String](["206", "203", "205"])
 
 [sub_resource type="Resource" id="Resource_kndf3"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec 7 amis, combien de paires différentes peut-on former ?"
-correct_answer = "21"
-choices = Array[String](["42", "20", "22"])
+text = "Quel nombre vient après ? 8, 27, 84, 255, …"
+correct_answer = "768"
+choices = Array[String](["770", "767", "769"])
 
 [sub_resource type="Resource" id="Resource_xtqjc"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Combien de façons différentes peut-on ranger 6 objets différents côte à côte sur une étagère ?"
-correct_answer = "720"
-choices = Array[String](["120", "36", "726"])
+text = "Quel nombre vient après ? 7, 22, 67, 202, …"
+correct_answer = "607"
+choices = Array[String](["609", "606", "608"])
 
 [sub_resource type="Resource" id="Resource_8p8cb"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec 5 amis, combien de paires différentes peut-on former ?"
-correct_answer = "10"
-choices = Array[String](["9", "11", "20"])
+text = "Quel nombre vient après ? 6, 20, 62, 188, …"
+correct_answer = "566"
+choices = Array[String](["568", "565", "567"])
 
 [sub_resource type="Resource" id="Resource_g7u88"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +6 où A devient G, B devient H, etc., comment écrit-on \"LIVRE\" ?"
-correct_answer = "ROBXK"
-choices = Array[String](["SPCYL", "QNAWJ", "KXBOR"])
+text = "Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on \"LAIT\" ?"
+correct_answer = "NCKV"
+choices = Array[String](["ODLW", "MBJU", "VKCN"])
 
 [sub_resource type="Resource" id="Resource_s2l68"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on \"PIERRE\" ?"
-correct_answer = "RKGTTG"
-choices = Array[String](["SLHUUH", "QJFSSF", "GTTGKR"])
+text = "Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on \"LAIT\" ?"
+correct_answer = "ODLW"
+choices = Array[String](["PEMX", "NCKV", "WLDO"])
 
 [sub_resource type="Resource" id="Resource_oq17x"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +4 où A devient E, B devient F, etc., comment écrit-on \"SABLE\" ?"
-correct_answer = "WEFPI"
-choices = Array[String](["XFGQJ", "VDEOH", "IPFEW"])
+text = "Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on \"BOIS\" ?"
+correct_answer = "CPJT"
+choices = Array[String](["DQKU", "ERLV", "TJPC"])
 
 [sub_resource type="Resource" id="Resource_s2vvx"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on \"CHIEN\" ?"
-correct_answer = "FKLHQ"
-choices = Array[String](["GLMIR", "EJKGP", "QHLKF"])
+text = "Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on \"BOIS\" ?"
+correct_answer = "DQKU"
+choices = Array[String](["ERLV", "CPJT", "UKQD"])
 
 [sub_resource type="Resource" id="Resource_6xiky"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on \"SABLE\" ?"
-correct_answer = "VDEOH"
-choices = Array[String](["WEFPI", "UCDNG", "HOEDV"])
+text = "Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on \"BOIS\" ?"
+correct_answer = "ERLV"
+choices = Array[String](["FSMW", "DQKU", "VLRE"])
 
 [sub_resource type="Resource" id="Resource_jyfbi"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on \"VELO\" ?"
-correct_answer = "XGNQ"
-choices = Array[String](["YHOR", "WFMP", "QNGX"])
+text = "Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on \"MAIN\" ?"
+correct_answer = "NBJO"
+choices = Array[String](["OCKP", "PDLQ", "OJBN"])
 
 [sub_resource type="Resource" id="Resource_0ykm5"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +7 où A devient H, B devient I, etc., comment écrit-on \"ARBRE\" ?"
-correct_answer = "HYIYL"
-choices = Array[String](["IZJZM", "GXHXK", "LYIYH"])
+text = "Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on \"MAIN\" ?"
+correct_answer = "OCKP"
+choices = Array[String](["PDLQ", "NBJO", "PKCO"])
 
 [sub_resource type="Resource" id="Resource_o87aj"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on \"PLAGE\" ?"
-correct_answer = "QMBHF"
-choices = Array[String](["RNCIG", "SODJH", "FHBMQ"])
+text = "Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on \"MAIN\" ?"
+correct_answer = "PDLQ"
+choices = Array[String](["QEMR", "OCKP", "QLDP"])
 
 [sub_resource type="Resource" id="Resource_ooauq"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on \"FORET\" ?"
-correct_answer = "IRUHW"
-choices = Array[String](["JSVIX", "HQTGV", "WHURI"])
+text = "Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on \"PIED\" ?"
+correct_answer = "QJFE"
+choices = Array[String](["RKGF", "SLHG", "EFJQ"])
 
 [sub_resource type="Resource" id="Resource_i8n51"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +7 où A devient H, B devient I, etc., comment écrit-on \"JARDIN\" ?"
-correct_answer = "QHYKPU"
-choices = Array[String](["RIZLQV", "PGXJOT", "UPKYHQ"])
+text = "Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on \"PIED\" ?"
+correct_answer = "RKGF"
+choices = Array[String](["SLHG", "QJFE", "FGKR"])
 
 [sub_resource type="Resource" id="Resource_6mddm"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on \"SABLE\" ?"
-correct_answer = "TBCMF"
-choices = Array[String](["UCDNG", "VDEOH", "FMCBT"])
+text = "Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on \"PIED\" ?"
+correct_answer = "SLHG"
+choices = Array[String](["TMIH", "RKGF", "GHLS"])
 
 [sub_resource type="Resource" id="Resource_uf4up"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +8 où A devient I, B devient J, etc., comment écrit-on \"MONTAGNE\" ?"
-correct_answer = "UWVBIOVM"
-choices = Array[String](["VXWCJPWN", "TVUAHNUL", "MVOIBVWU"])
+text = "Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on \"DENT\" ?"
+correct_answer = "EFOU"
+choices = Array[String](["FGPV", "GHQW", "UOFE"])
 
 [sub_resource type="Resource" id="Resource_w74pj"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +4 où A devient E, B devient F, etc., comment écrit-on \"SOLEIL\" ?"
-correct_answer = "WSPIMP"
-choices = Array[String](["XTQJNQ", "VROHLO", "PMIPSW"])
+text = "Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on \"DENT\" ?"
+correct_answer = "FGPV"
+choices = Array[String](["GHQW", "EFOU", "VPGF"])
 
 [sub_resource type="Resource" id="Resource_usrml"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on \"POISSON\" ?"
-correct_answer = "SRLVVRQ"
-choices = Array[String](["TSMWWSR", "RQKUUQP", "QRVVLRS"])
+text = "Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on \"DENT\" ?"
+correct_answer = "GHQW"
+choices = Array[String](["HIRX", "FGPV", "WQHG"])
 
 [sub_resource type="Resource" id="Resource_g7d1w"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on \"BATEAU\" ?"
-correct_answer = "EDWHDX"
-choices = Array[String](["FEXIEY", "DCVGCW", "XDHWDE"])
+text = "Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on \"OEUF\" ?"
+correct_answer = "PFVG"
+choices = Array[String](["QGWH", "RHXI", "GVFP"])
 
 [sub_resource type="Resource" id="Resource_ai2qy"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on \"PORTE\" ?"
-correct_answer = "RQTVG"
-choices = Array[String](["SRUWH", "QPSUF", "GVTQR"])
+text = "Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on \"OEUF\" ?"
+correct_answer = "QGWH"
+choices = Array[String](["RHXI", "PFVG", "HWGQ"])
 
 [sub_resource type="Resource" id="Resource_2bvcj"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +6 où A devient G, B devient H, etc., comment écrit-on \"JARDIN\" ?"
-correct_answer = "PGXJOT"
-choices = Array[String](["QHYKPU", "OFWINS", "TOJXGP"])
+text = "Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on \"OEUF\" ?"
+correct_answer = "RHXI"
+choices = Array[String](["SIYJ", "QGWH", "IXHR"])
 
 [sub_resource type="Resource" id="Resource_ljjch"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on \"ARBRE\" ?"
-correct_answer = "CTDTG"
-choices = Array[String](["DUEUH", "BSCSF", "GTDTC"])
+text = "Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on \"NOIX\" ?"
+correct_answer = "OPJY"
+choices = Array[String](["PQKZ", "QRLA", "YJPO"])
 
 [sub_resource type="Resource" id="Resource_6hst1"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +8 où A devient I, B devient J, etc., comment écrit-on \"FORET\" ?"
-correct_answer = "NWZMB"
-choices = Array[String](["OXANC", "MVYLA", "BMZWN"])
+text = "Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on \"NOIX\" ?"
+correct_answer = "PQKZ"
+choices = Array[String](["QRLA", "OPJY", "ZKQP"])
 
 [sub_resource type="Resource" id="Resource_j5s25"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +4 où A devient E, B devient F, etc., comment écrit-on \"MAISON\" ?"
-correct_answer = "QEMWSR"
-choices = Array[String](["RFNXTS", "PDLVRQ", "RSWMEQ"])
+text = "Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on \"NOIX\" ?"
+correct_answer = "QRLA"
+choices = Array[String](["RSMB", "PQKZ", "ALRQ"])
 
 [sub_resource type="Resource" id="Resource_vvjgc"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +5 où A devient F, B devient G, etc., comment écrit-on \"CHAT\" ?"
-correct_answer = "HMFY"
-choices = Array[String](["INGZ", "GLEX", "YFMH"])
+text = "Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on \"MIEL\" ?"
+correct_answer = "NJFM"
+choices = Array[String](["OKGN", "PLHO", "MFJN"])
 
 [sub_resource type="Resource" id="Resource_tc3og"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +5 où A devient F, B devient G, etc., comment écrit-on \"ROUTE\" ?"
-correct_answer = "WTZYJ"
-choices = Array[String](["XUAZK", "VSYXI", "JYZTW"])
+text = "Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on \"MIEL\" ?"
+correct_answer = "OKGN"
+choices = Array[String](["PLHO", "NJFM", "NGKO"])
 
 [sub_resource type="Resource" id="Resource_hnqg7"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +7 où A devient H, B devient I, etc., comment écrit-on \"MAISON\" ?"
-correct_answer = "THPZVU"
-choices = Array[String](["UIQAWV", "SGOYUT", "UVZPHT"])
+text = "Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on \"MIEL\" ?"
+correct_answer = "PLHO"
+choices = Array[String](["QMIP", "OKGN", "OHLP"])
 
 [sub_resource type="Resource" id="Resource_fwh8j"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +8 où A devient I, B devient J, etc., comment écrit-on \"POISSON\" ?"
-correct_answer = "XWQAAWV"
-choices = Array[String](["YXRBBXW", "WVPZZVU", "VWAAQWX"])
+text = "Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on \"TOIT\" ?"
+correct_answer = "UPJU"
+choices = Array[String](["VQKV", "WRLW", "UJPU"])
 
 [sub_resource type="Resource" id="Resource_ehg44"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +7 où A devient H, B devient I, etc., comment écrit-on \"FLEUR\" ?"
-correct_answer = "MSLBY"
-choices = Array[String](["NTMCZ", "LRKAX", "YBLSM"])
+text = "Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on \"TOIT\" ?"
+correct_answer = "VQKV"
+choices = Array[String](["WRLW", "UPJU", "VKQV"])
 
 [sub_resource type="Resource" id="Resource_r4m28"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +7 où A devient H, B devient I, etc., comment écrit-on \"PORTE\" ?"
-correct_answer = "WVYAL"
-choices = Array[String](["XWZBM", "VUXZK", "LAYVW"])
+text = "Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on \"TOIT\" ?"
+correct_answer = "WRLW"
+choices = Array[String](["XSMX", "VQKV", "WLRW"])
 
 [sub_resource type="Resource" id="Resource_xivck"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on \"LIVRE\" ?"
-correct_answer = "MJWSF"
-choices = Array[String](["NKXTG", "OLYUH", "FSWJM"])
+text = "Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on \"PONT\" ?"
+correct_answer = "QPOU"
+choices = Array[String](["RQPV", "SRQW", "UOPQ"])
 
 [sub_resource type="Resource" id="Resource_ecmod"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +6 où A devient G, B devient H, etc., comment écrit-on \"SABLE\" ?"
-correct_answer = "YGHRK"
-choices = Array[String](["ZHISL", "XFGQJ", "KRHGY"])
+text = "Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on \"PONT\" ?"
+correct_answer = "RQPV"
+choices = Array[String](["SRQW", "QPOU", "VPQR"])
 
 [sub_resource type="Resource" id="Resource_sfcf2"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +7 où A devient H, B devient I, etc., comment écrit-on \"CHIEN\" ?"
-correct_answer = "JOPLU"
-choices = Array[String](["KPQMV", "INOKT", "ULPOJ"])
+text = "Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on \"PONT\" ?"
+correct_answer = "SRQW"
+choices = Array[String](["TSRX", "RQPV", "WQRS"])
 
 [sub_resource type="Resource" id="Resource_meuqr"]
 script = ExtResource("1_qrd4y")
 subject = 7
 grade = 4
-text = "Avec un décalage de +5 où A devient F, B devient G, etc., comment écrit-on \"OISEAU\" ?"
-correct_answer = "TNXJFZ"
-choices = Array[String](["UOYKGA", "SMWIEY", "ZFJXNT"])
+text = "Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on \"PORT\" ?"
+correct_answer = "QPSU"
+choices = Array[String](["RQTV", "SRUW", "USPQ"])
 
 [sub_resource type="Resource" id="Resource_q2ff1"]
 script = ExtResource("1_qrd4y")
@@ -3898,6 +3959,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "10"
 choices = Array[String](["9", "11", "13"])
+grid_cells = Array[String](["8", "", "12", "11", "13", "15", "14", "16", "18"])
 
 [sub_resource type="Resource" id="Resource_20yvu"]
 script = ExtResource("1_qrd4y")
@@ -3906,6 +3968,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "13"
 choices = Array[String](["16", "12", "14"])
+grid_cells = Array[String](["6", "9", "12", "7", "10", "", "8", "11", "14"])
 
 [sub_resource type="Resource" id="Resource_mhe0l"]
 script = ExtResource("1_qrd4y")
@@ -3914,6 +3977,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "14"
 choices = Array[String](["18", "13", "15"])
+grid_cells = Array[String](["8", "12", "16", "9", "13", "17", "10", "", "18"])
 
 [sub_resource type="Resource" id="Resource_35dgc"]
 script = ExtResource("1_qrd4y")
@@ -3922,6 +3986,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "8"
 choices = Array[String](["9", "12", "7"])
+grid_cells = Array[String](["4", "6", "8", "", "10", "12", "12", "14", "16"])
 
 [sub_resource type="Resource" id="Resource_xfamc"]
 script = ExtResource("1_qrd4y")
@@ -3930,6 +3995,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "8"
 choices = Array[String](["9", "11", "7"])
+grid_cells = Array[String](["3", "4", "5", "6", "7", "", "9", "10", "11"])
 
 [sub_resource type="Resource" id="Resource_5vw7u"]
 script = ExtResource("1_qrd4y")
@@ -3938,6 +4004,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "7"
 choices = Array[String](["8", "9", "6"])
+grid_cells = Array[String](["2", "5", "8", "4", "", "10", "6", "9", "12"])
 
 [sub_resource type="Resource" id="Resource_3kcif"]
 script = ExtResource("1_qrd4y")
@@ -3946,6 +4013,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "8"
 choices = Array[String](["9", "11", "7"])
+grid_cells = Array[String](["4", "7", "10", "5", "", "11", "6", "9", "12"])
 
 [sub_resource type="Resource" id="Resource_iprgg"]
 script = ExtResource("1_qrd4y")
@@ -3954,6 +4022,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "11"
 choices = Array[String](["10", "12", "13"])
+grid_cells = Array[String](["9", "11", "13", "10", "12", "14", "", "13", "15"])
 
 [sub_resource type="Resource" id="Resource_ftou3"]
 script = ExtResource("1_qrd4y")
@@ -3962,6 +4031,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "15"
 choices = Array[String](["16", "17", "14"])
+grid_cells = Array[String](["8", "11", "14", "10", "13", "16", "12", "", "18"])
 
 [sub_resource type="Resource" id="Resource_sme0d"]
 script = ExtResource("1_qrd4y")
@@ -3970,6 +4040,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "10"
 choices = Array[String](["9", "11", "12"])
+grid_cells = Array[String](["6", "8", "10", "7", "9", "11", "8", "", "12"])
 
 [sub_resource type="Resource" id="Resource_v0550"]
 script = ExtResource("1_qrd4y")
@@ -3978,6 +4049,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "19"
 choices = Array[String](["18", "20", "23"])
+grid_cells = Array[String](["9", "12", "15", "13", "16", "", "17", "20", "23"])
 
 [sub_resource type="Resource" id="Resource_05mpq"]
 script = ExtResource("1_qrd4y")
@@ -3986,6 +4058,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "7"
 choices = Array[String](["8", "10", "6"])
+grid_cells = Array[String](["2", "4", "6", "5", "", "9", "8", "10", "12"])
 
 [sub_resource type="Resource" id="Resource_wdvgj"]
 script = ExtResource("1_qrd4y")
@@ -3994,6 +4067,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "7"
 choices = Array[String](["8", "11", "6"])
+grid_cells = Array[String](["6", "10", "14", "", "11", "15", "8", "12", "16"])
 
 [sub_resource type="Resource" id="Resource_7h8ah"]
 script = ExtResource("1_qrd4y")
@@ -4002,6 +4076,7 @@ grade = 4
 text = "Quel nombre complète la grille ?"
 correct_answer = "6"
 choices = Array[String](["9", "5", "7"])
+grid_cells = Array[String](["3", "4", "5", "", "7", "8", "9", "10", "11"])
 
 [resource]
 script = ExtResource("2_fygcb")

@@ -94,13 +94,14 @@ theme_override_constants/margin_top = 16
 theme_override_constants/margin_right = 20
 theme_override_constants/margin_bottom = 16
 
-[node name="QuestionCardContent" type="VBoxContainer" parent="Panel/Margin/Content/QuestionScroll/QuestionScrollMargin/QuestionScrollContent/QuestionCard/QuestionCardMargin"]
+[node name="QuestionCardContent" type="HBoxContainer" parent="Panel/Margin/Content/QuestionScroll/QuestionScrollMargin/QuestionScrollContent/QuestionCard/QuestionCardMargin"]
 layout_mode = 2
-theme_override_constants/separation = 14
+theme_override_constants/separation = 16
 
 [node name="QuestionLabel" type="RichTextLabel" parent="Panel/Margin/Content/QuestionScroll/QuestionScrollMargin/QuestionScrollContent/QuestionCard/QuestionCardMargin/QuestionCardContent"]
-theme_type_variation = &"TitleLabel"
 layout_mode = 2
+size_flags_horizontal = 3
+theme_type_variation = &"TitleLabel"
 bbcode_enabled = true
 text = "Question"
 fit_content = true
@@ -110,6 +111,7 @@ autowrap_mode = 2
 [node name="LogicGridContainer" type="GridContainer" parent="Panel/Margin/Content/QuestionScroll/QuestionScrollMargin/QuestionScrollContent/QuestionCard/QuestionCardMargin/QuestionCardContent"]
 layout_mode = 2
 size_flags_horizontal = 4
+size_flags_vertical = 4
 theme_override_constants/h_separation = 8
 theme_override_constants/v_separation = 8
 columns = 3

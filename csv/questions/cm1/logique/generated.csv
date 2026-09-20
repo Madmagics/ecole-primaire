@@ -1,4 +1,4 @@
-id;text;correct_answer;choice_2;choice_3;choice_4
+id;text;correct_answer;choice_2;choice_3;choice_4;grid
 43000;Quel nombre vient après ? 3, 6, 5, 10, 9, …;18;17;19;16
 43001;Si A=1, B=2, C=3…, quel nombre correspond à E ?;5;4;6;3
 43002;Si A=1, B=2, C=3…, quelle lettre correspond au nombre 4 ?;D;C;E;F

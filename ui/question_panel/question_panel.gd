@@ -105,11 +105,17 @@ const LOGIC_CHOICE_VERTICAL_PADDING_SCALE := 0.2
 ## emoji agrandis inclus (memes constantes LOGIC_CHOICE_*, voir _is_emoji_choice) - seule la
 ## case a deviner ("?") recoit un style different, voir _apply_logic_grid_missing_style.
 const LOGIC_GRID_COLUMNS := 3
-## Bordure de la case a deviner elargie (x2.5) et remplissage tres attenue, plutot qu'une
-## couleur codee en dur : border_color vient du style "normal" du theme actif dans les deux
-## cas, donc reste coherent sur les 4 variantes de theme (voir _apply_logic_grid_missing_style).
-const LOGIC_GRID_MISSING_BORDER_SCALE := 2.5
-const LOGIC_GRID_MISSING_FILL_ALPHA := 0.12
+## Taille (cote du carre) d'une case de grille : retour utilisateur 2026-09-20, les cases
+## calculees a partir du 1/3 de la largeur du cadre etaient enormes (jusqu'a ~260px, la grille
+## seule debordait de l'ecran) - on reutilise a la place LOGIC_CHOICE_MIN_HEIGHT, deja la
+## taille eprouvee (plusieurs passes de retours utilisateur, voir son commentaire plus haut)
+## pour une case-bouton symbole/emoji de meme famille visuelle. _logic_grid_cell_size garde un
+## plafond base sur la largeur du cadre pour ne jamais deborder sur un tres petit ecran.
+const LOGIC_GRID_CELL_SIZE := LOGIC_CHOICE_MIN_HEIGHT
+## Bordure de la case a deviner un peu elargie (x1.6) - couleur de bordure/texte et couleur
+## de fond toutes deux reprises du theme actif (jamais codees en dur, voir
+## _apply_logic_grid_missing_style), donc coherentes sur les 4 variantes de theme.
+const LOGIC_GRID_MISSING_BORDER_SCALE := 1.6
 
 ## Codepoint Unicode a partir duquel un caractere est considere comme un symbole/emoji plutot que
 ## du texte (voir _is_emoji_choice) : U+2190 (fleches) est bien au-dela de tout caractere latin/
@@ -164,6 +170,12 @@ const PROGRESS_ICON_SIZE := 28
 ## Marge de QuestionCard (voir question_card plus haut) - lue dynamiquement dans
 ## _get_question_scroll_content_width, meme role que content_margin/question_scroll_margin.
 @onready var question_card_margin: MarginContainer = $Panel/Margin/Content/QuestionScroll/QuestionScrollMargin/QuestionScrollContent/QuestionCard/QuestionCardMargin
+## Rangee horizontale QuestionLabel + LogicGridContainer (voir plus bas) - retour utilisateur
+## 2026-09-20 : la grille Logique est affichee A COTE du texte de question (pas empilee en
+## dessous) pour gagner une ligne de hauteur et tenir sur un seul ecran sans scroll. Sa
+## constante "separation" est lue dynamiquement dans _update_question_label_max_width pour
+## calculer la largeur restante pour QuestionLabel quand la grille est affichee.
+@onready var question_card_content: HBoxContainer = $Panel/Margin/Content/QuestionScroll/QuestionScrollMargin/QuestionScrollContent/QuestionCard/QuestionCardMargin/QuestionCardContent
 ## Grille 3x3 affichee pour les questions Logique de type "complete la grille" (voir
 ## QuestionResource.grid_cells et _populate_logic_grid) - enfant de QuestionCardContent, juste
 ## sous QuestionLabel dans la meme carte (design "option 3", retour utilisateur 2026-09-20).
@@ -336,7 +348,7 @@ func _display_current_question() -> void:
 	var question := _questions[_current_index]
 	progress_label.text = "Question %d/%d" % [_current_index + 1, _questions.size()]
 	_progress_icon.visible = false
-	_update_question_label_max_width()
+	_update_question_label_max_width(question.grid_cells.size() == 9)
 	question_label.text = _build_question_bbcode(question.text)
 	_populate_logic_grid(question)
 	_clear_choice_buttons()
@@ -582,8 +594,18 @@ func _get_question_scroll_content_width() -> float:
 ## du style de QuestionCard (meme cas que Panel juste au-dessus - QuestionCard est aussi un
 ## PanelContainer brut, meme style par defaut 12px gauche/droite) moins la marge de
 ## QuestionCardMargin (question_card_margin) donne la largeur exacte que QuestionLabel recevra.
-func _update_question_label_max_width() -> void:
-	question_label.custom_maximum_size.x = _get_question_card_content_width()
+## [reserve_grid_width] : true quand la question affichee a une grille (voir
+## QuestionResource.grid_cells) placee a cote du texte (voir question_card_content plus haut) -
+## retire alors la largeur reelle de la grille (3 cases + 2 ecarts) et l'ecart entre les deux
+## de la largeur maximale calculee pour QuestionLabel, sinon le texte se retrouverait mesure
+## pour toute la largeur de la carte et pousserait la grille hors du cadre.
+func _update_question_label_max_width(reserve_grid_width: bool = false) -> void:
+	var content_width := _get_question_card_content_width()
+	if reserve_grid_width:
+		var grid_h_separation := logic_grid_container.get_theme_constant("h_separation")
+		var grid_width := LOGIC_GRID_COLUMNS * _logic_grid_cell_size() + float(LOGIC_GRID_COLUMNS - 1) * grid_h_separation
+		content_width -= grid_width + question_card_content.get_theme_constant("separation")
+	question_label.custom_maximum_size.x = content_width
 
 ## Largeur reellement disponible A L'INTERIEUR de QuestionCard (sous QuestionLabel, la grille
 ## 3x3 et tout futur contenu de QuestionCardContent) : factorise le calcul auparavant duplique
@@ -613,6 +635,15 @@ func _clear_logic_grid() -> void:
 ## Ne fait rien (grille cachee, voir _clear_logic_grid deja appele par l'appelant) pour toute
 ## question sans grid_cells.
 func _populate_logic_grid(question: QuestionResource) -> void:
+	## BUG CORRIGE 2026-09-20 (retour utilisateur : le cadre de question debordait hors ecran
+	## sur une question SANS grille) : cette fonction ne faisait rien du tout quand la
+	## question courante n'a pas de grid_cells, laissant affichee la grille d'une question
+	## PRECEDENTE du meme pack (logic_grid_container.visible restait a true, ses cases
+	## n'etaient jamais videes) - elle poussait alors la carte question plus large que sa
+	## largeur fixe (voir _update_question_label_max_width) au lieu de disparaitre. _clear_
+	## logic_grid() en premiere ligne garantit que la grille est TOUJOURS remise a zero avant
+	## d'etre, ou non, repeuplee - plus besoin de compter sur l'appelant pour le faire.
+	_clear_logic_grid()
 	if question.grid_cells.size() != 9:
 		return
 	logic_grid_container.visible = true
@@ -640,14 +671,17 @@ func _populate_logic_grid(question: QuestionResource) -> void:
 			_apply_logic_grid_missing_style(cell)
 		logic_grid_container.add_child(cell)
 
-## Case carree : cote = largeur disponible dans la carte question (_get_question_card_content_
-## width, meme reference que QuestionLabel) moins les 2 ecarts entre les 3 colonnes, divisee
-## par 3 - jamais de valeur codee en dur, pour rester correct quelle que soit la taille reelle
-## du cadre (voir _update_panel_max_size).
+## Case carree, cote = LOGIC_GRID_CELL_SIZE (voir sa declaration) sauf sur un cadre trop
+## etroit pour l'accueillir, ou le plafond calcule depuis la largeur disponible de la carte
+## question (_get_question_card_content_width, meme reference que QuestionLabel) prend le
+## relais - jamais l'inverse (retour utilisateur 2026-09-20, voir LOGIC_GRID_CELL_SIZE).
 func _logic_grid_cell_size() -> float:
 	var available_width := _get_question_card_content_width()
 	var separation := logic_grid_container.get_theme_constant("h_separation")
-	return (available_width - 2.0 * separation) / float(LOGIC_GRID_COLUMNS)
+	var max_by_width := (available_width - 2.0 * separation) / float(LOGIC_GRID_COLUMNS)
+	## LOGIC_GRID_CELL_SIZE (taille voulue) sauf si meme elle deborderait le cadre (tres petit
+	## ecran) : le plafond par largeur reste alors le dernier recours, jamais l'inverse.
+	return minf(LOGIC_GRID_CELL_SIZE, max_by_width)
 
 ## Distingue visuellement la case a deviner ("?") des 8 cases remplies : bordure elargie et
 ## remplissage tres attenue, en dupliquant le style "normal" herite du theme (jamais modifie
@@ -662,12 +696,24 @@ func _apply_logic_grid_missing_style(cell: Button) -> void:
 	if flat == null:
 		return
 	var scaled: StyleBoxFlat = flat.duplicate()
+	## Fond sombre repris directement du style de QuestionCard (meme couleur que la carte
+	## question elle-meme, jamais codee en dur - reste donc correcte sur les 4 variantes de
+	## theme) plutot que le fond dore attenue en transparence de la 1ere version : un alpha
+	## tres bas combine a l'antialiasing des bords laissait apparaitre un carre plus sombre
+	## mal delimite a l'interieur de la bordure (retour utilisateur 2026-09-20). Un
+	## remplissage plein, sans transparence, evite ce probleme de rendu.
+	var card_style := question_card.get_theme_stylebox("panel") as StyleBoxFlat
+	scaled.bg_color = card_style.bg_color if card_style != null else flat.bg_color.darkened(0.5)
 	scaled.border_width_left = roundi(flat.border_width_left * LOGIC_GRID_MISSING_BORDER_SCALE)
 	scaled.border_width_top = roundi(flat.border_width_top * LOGIC_GRID_MISSING_BORDER_SCALE)
 	scaled.border_width_right = roundi(flat.border_width_right * LOGIC_GRID_MISSING_BORDER_SCALE)
 	scaled.border_width_bottom = roundi(flat.border_width_bottom * LOGIC_GRID_MISSING_BORDER_SCALE)
-	scaled.bg_color.a = LOGIC_GRID_MISSING_FILL_ALPHA
 	cell.add_theme_stylebox_override("normal", scaled)
+	## Theme "inverse" des 8 autres cases (retour utilisateur 2026-09-20) : elles sont fond
+	## dore/texte sombre, celle-ci fond sombre/texte dore - reprend la couleur de bordure du
+	## theme actif (flat.border_color, deja utilisee pour encadrer les 9 cases) plutot qu'une
+	## couleur codee en dur, pour rester lisible et coherente sur les 4 variantes de theme.
+	cell.add_theme_color_override("font_color", flat.border_color)
 
 func _clear_choice_buttons() -> void:
 	for child in choices_container.get_children():

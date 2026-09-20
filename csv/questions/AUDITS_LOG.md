@@ -26,6 +26,8 @@ etroite.
 | 13 | 2026-09-19 | Comparatifs incohérents en anglais signalés par Steve ("un éléphant est plus riche qu'une souris", "un rocher est plus large qu'une plume") | English | CM1, CM2 (seules classes concernées — la famille de phrases comparatives n'existe pas en CP/CE1/CE2) | 79/79 lignes corrigées pour "riche/pauvre" retiré de la famille (53 CM1 + 26 CM2) ; 11/11 lignes corrigées pour "rocher plus large qu'une plume" (7 CM1 + 4 CM2) ; bonus : 56 occurrences d'élision "que un/que une" → "qu'un/qu'une" corrigées en CM2 |
 | 14 | 2026-09-19 | Suite de l'entrée #13 : deux nouveaux exemples incohérents trouvés par Steve en jouant ("un avion est plus chaud qu'un oiseau", "un fleuve est plus haut qu'un ruisseau") — extension à toute la famille "chaud/hotter" (et pas seulement avion/oiseau), plus le cas particulier fleuve/ruisseau pour "haut/higher" | English | CM1, CM2 | "chaud/hotter" retiré de toutes les paires sauf fusée/voiture (seule paire où la chaleur est un vrai trait naturel) — 53 lignes CM1 + 34 lignes CM2 corrigées (inclut le cas fleuve/ruisseau "haut" ci-dessus) |
 | 15 | 2026-09-19 | Steve demande explicitement d'aller au bout de la logique et de retirer toute comparaison ambiguë/farfelue restante dans la même famille (pas seulement les cas déjà signalés) | English | CM1, CM2 | Revue complète des 8 adjectifs de base sur les 19 paires : "cleaner"/"louder"/"higher" retirés partout où ni l'un ni l'autre nom n'a de rapport plausible avec le bruit/la propreté/la hauteur (immeuble-maison, montagne-colline, livre-feuille, rocher-plume) — 31 lignes CM1 + 35 lignes CM2 corrigées ; famille comparative anglaise déclarée saine sur les 19 paires (0 combinaison farfelue restante) |
+| 19 | 2026-09-20 | Steve signale en jouant que certaines questions de logique CM1/CM2 sont trop difficiles (capture d'écran : "façons de ranger 4 objets" = 24, "avec 7 amis, combien de paires" = 21) — audit de la difficulté et du type de questions demandé pour ces 2 classes | Logique | CM1, CM2 (scope explicitement restreint par Steve à ces 2 classes) | Famille « combinatoire simple » (10 questions CM2, ids 44009 + 44447-44455) confirmée hors-programme : permutations (n!) et combinaisons (n(n-1)/2) sont des notions de lycée, aucune formule n'est enseignée au primaire, énumération manuelle infaisable au-delà de 4-5 éléments — audit seul, aucune correction appliquée, en attente de décision de Steve. Famille « chiffrement de César » (91 questions CM2, 18% du fichier) signalée comme suspecte : décalage modulo-26 lettre par lettre sur des mots de 3 à 8 lettres, charge de calcul élevée pour du CM2. Reste des familles CM1 (grille 3x3, code lettre-chiffre direct, carrés parfaits, suites, déduction d'âge/course, analogies) et CM2 (grille numérique Raven, menteur/vérité, déduction 3-personnes, suites, analogies) jugées appropriées au niveau. |
+| 20 | 2026-09-20 | Suite de l'entrée #19 : Steve valide les corrections (combinatoire retirée et remplacée ; César raccourci) | Logique | CM2 uniquement | Combinatoire (10 questions, ids 44009+44447-44455) remplacée par 10 suites numériques ×k+c (famille déjà validée pour CM2) ; César (91 questions) raccourci à des mots de 3-4 lettres et décalage +1 à +3 (au lieu de 3-8 lettres et +1 à +8) — 500/500 questions, 0 doublon de texte introduit, 0 erreur de calcul (vérifié programmatiquement), 0 modification hors des 101 lignes ciblées |
 
 ## Détail
 
@@ -1051,3 +1053,110 @@ Seule la colonne `text` a changé sur ces 29 lignes ; `id`/`correct_answer`/choi
 la session, donc avant #16/#17/#18).
 
 **Import Godot en attente** (cumulé avec #16 et #17).
+
+
+### #19 — 2026-09-20 — Difficulté Logique CM1/CM2 : combinatoire hors-programme + César suspect
+
+**Demande** : Steve signale en jouant (capture d'écran) que certaines questions de logique CM1 et
+CM2 sont trop difficiles — exemples vus en jeu : « Combien de façons différentes peut-on ranger 4
+objets différents côte à côte sur une étagère ? » (réponse 24) et « Avec 7 amis, combien de paires
+différentes peut-on former ? » (réponse 21). Demande un audit de la difficulté et du type de
+questions pour CM1 et CM2 uniquement (scope explicitement restreint, contrairement à la règle
+générale d'audit sur toutes les classes — voir `feedback_csv_check_workflow.md`).
+
+**Contexte** : contredit en partie la conclusion de l'entrée #8 (2026-09-19), qui avait validé la
+progression de difficulté de Logique sur les 5 classes en se basant sur la cohérence *relative*
+de la progression (chaque famille apparaît à la bonne classe, complexité croissante à l'intérieur
+d'une famille) — mais sans juger le niveau *absolu* de chaque famille avancée par rapport au
+programme réel du primaire. Ce signalement en jeu comble ce trou méthodologique.
+
+**Méthode** : classification programmatique des 500 questions de `cm1/logique/generated.csv` et
+`cm2/logique/generated.csv` par famille (mots-clés + échantillonnage manuel), puis extraction
+complète de chaque famille suspecte pour lecture ligne par ligne (pas seulement le cas déjà
+signalé — voir `feedback_exhaustive_vs_reactive_audits.md`).
+
+**Résultat CM2 — famille « combinatoire simple » (10 questions, ids 44009, 44447-44455)** :
+- 4 questions de permutation (« ranger N objets », N=3,4,5,6) — réponses 6, 24, 120, 720 (N!).
+- 6 questions de combinaison (« paires avec N amis », N=4,5,6,7,8,9) — réponses 6, 10, 15, 21, 28,
+  36 (N×(N-1)/2).
+- **Confirmé hors-programme** : la factorielle et le calcul de combinaisons ne sont enseignés à
+  aucun moment du primaire français (notions de lycée). Sans connaître la formule, un·e élève de
+  CM2 ne peut résoudre ces questions que par énumération manuelle exhaustive, qui devient
+  rapidement infaisable (36 paires à lister pour N=9, 720 arrangements pour N=6) — contrairement
+  aux autres familles avancées de CM2 (César, grille de Raven, menteur/vérité, déduction), qui
+  restent résolubles par raisonnement pas-à-pas même sans formule mémorisée. C'est très
+  probablement la famille visée par le signalement de Steve (les deux exemples de la capture
+  d'écran correspondent exactement aux ids 44447 et 44453).
+
+**Résultat CM2 — famille « chiffrement de César » (91 questions, 18% du fichier)** : décalage de
++1 à +8 appliqué lettre par lettre (avec retour au début de l'alphabet) à des mots de 3 à 8 lettres
+(majorité 5-6 lettres). Contrairement au code CM1 (A=1, B=2… consultation directe d'une seule
+lettre à la fois), décoder un mot entier demande de répéter un décalage modulo 26 sur chaque
+lettre en gérant le rebouclage (ex. S+7=Z), ce qui représente une charge de calcul élevée et
+répétitive pour du CM2 — **suspecte mais pas confirmée hors-programme** comme la combinatoire :
+le principe (décalage circulaire) reste un raisonnement accessible, contrairement à une formule
+absente du programme. Signalée à Steve pour décision (réduire le nombre de lettres/le décalage
+maximum, réduire le volume de la famille, ou laisser en l'état).
+
+**Reste de CM2 jugé approprié** : grille numérique façon Raven (75 questions, pattern additif
+ligne/colonne, résoluble par tâtonnement), menteur/vérité (41 questions, logique directe : qui a
+dit une phrase vraie/fausse), déduction 3-personnes par élimination (14 questions), suites
+numériques simples/composées/entrelacées/×k+c, analogies fonctionnelles.
+
+**Résultat CM1 (aucune famille hors-programme confirmée)** : code lettre-chiffre direct (68
+questions — lecture d'une seule lettre, ou somme de 4 à 8 lettres pour 20 d'entre elles, addition
+multiple mais sans notion nouvelle), grille 3x3 à rotation cyclique de symboles (61 questions),
+carrés parfaits (19 questions), suites composées à une ou deux opérations, déduction d'âge/ordre
+de course par transitivité, analogies partie-tout, contraires — toutes jugées cohérentes avec le
+niveau CM1, aucun signal de difficulté excessive trouvé.
+
+**Vérifié** : comptage exhaustif par famille sur les 500+500 lignes (pas d'échantillon partiel),
+lecture ligne par ligne de la totalité des 10 questions de combinatoire et d'un échantillon large
+des autres familles suspectes (César, grille Raven, code lettre-chiffre) pour juger la charge de
+calcul réelle, pas seulement la présence du marqueur textuel.
+
+**Aucune correction appliquée** — audit seul, comme demandé. Décision de Steve attendue :
+(a) combinatoire — retirer/remplacer les 10 questions (ids ci-dessus), et par quoi ; (b) César —
+garder en l'état, réduire la difficulté (mots plus courts / décalage plus petit), ou réduire le
+volume ; (c) éventuellement corriger `LOGIQUE_DIFFICULTE.md` section 1 (tableau CM2) pour retirer
+la mention « combinatoire simple » de la liste des familles validées, et documenter ce nouveau
+constat.
+
+**Import Godot** : sans objet (aucune modification de CSV à ce stade).
+
+
+### #20 — 2026-09-20 — Suite de l'entrée #19 : correction appliquée (combinatoire retirée, César raccourci)
+
+**Décision de Steve** : (a) combinatoire CM2 — retirer et remplacer par 10 nouvelles questions
+dans une famille déjà validée pour CM2 ; (b) César CM2 — réduire la difficulté (mots plus courts,
+décalage plus petit) plutôt que le volume ou le statu quo.
+
+**Combinatoire (10 questions, ids 44009, 44447-44455)** : remplacée par 10 suites numériques
+« ×k+c » (multiplier par k puis ajouter c), même format que les suites déjà présentes dans le
+fichier (`Quel nombre vient après ? a, b, c, d, …`), avec k∈{2,3}, dernier terme < 900 pour rester
+lisible. Distracteurs sur le même schéma que les suites ×k+c existantes (réponse+2, réponse-1,
+réponse+1). 10 textes vérifiés uniques parmi les 500 lignes du fichier.
+
+**César (91 questions)** : mots réduits à 3-4 lettres (banque de 32 noms courants : LAC, MUR, SAC,
+CHAT, LOUP, VELO, LUNE, PAIN… au lieu des mots de 5-8 lettres précédents) et décalage limité à
++1/+2/+3 (au lieu de +1 à +8). Schéma de distracteurs conservé à l'identique de la famille
+d'origine (décalage+1, décalage-1 ou +2 si le -1 tombe à 0, mot inversé) pour ne pas introduire de
+nouvelle logique de génération. Les 91 réponses recalculées et vérifiées programmatiquement contre
+un chiffrement de César indépendant — 0 erreur.
+
+**Vérifié** :
+- 500/500 lignes conservées, ids et ordre identiques à l'original.
+- Aucune modification hors des 101 lignes ciblées (diff ligne à ligne contre la sauvegarde,
+  0 écart inattendu) — grille numérique/menteur-vérité/déduction/suites existantes intactes.
+- 0 doublon de texte introduit parmi les 101 lignes remplacées.
+- Chaque ligne modifiée garde exactement 4 choix distincts.
+- 0 erreur de calcul sur les 91 questions de César (recalcul indépendant du chiffrement).
+
+**Sauvegarde** : `generated.csv.bak_avant_fix_logique_cm2_20260920` (état complet du fichier avant
+cette correction) — à supprimer seulement après validation en jeu + push GitHub, comme d'habitude.
+
+**Import Godot en attente** (comme pour tout ajout/modification de contenu CSV).
+
+**À faire ensuite si Steve le demande** : mettre à jour `LOGIQUE_DIFFICULTE.md` section 1 (le
+tableau CM2 mentionne encore « combinatoire simple » comme famille — fait, voir section 7 mise à
+jour du même fichier).

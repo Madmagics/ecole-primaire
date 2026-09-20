@@ -16,7 +16,7 @@ et l'historique des bugs corriges lors de la creation du contenu, 2026-08-05). L
 | CE1 | Suites numeriques a une etape, suites alphabet, completion de motif ABC, intrus (categorie/nombre de pattes), contraires, bebes animaux, choix des extremes, analogies de fonction, intrus numerique | Riche (continuite CP) |
 | CE2 | Suites a deux etapes, double/moitie, locomotion, habitat, **syllogismes** (appartenance a une categorie, introduits), intrus (alimentation), suites alphabet, **grille spatiale 3x3** (introduite, formes simples), deduction transitive d'age, **conditionnel si...alors** (introduit), contraires, extremes | Limite : fruits/legumes uniquement |
 | CM1 | Suites composees (melange x/±), **code lettre-chiffre** (A=1, B=2..., introduit, direct dans les deux sens + somme de mot), **grille 3x3 a rotation cyclique** (symboles, plus complexe que CE2), **deduction a 2 indices** (age/course), carres parfaits, suites appariees lettre+chiffre, analogies partie-tout, contraires | Minimal : formes geometriques basiques uniquement (■▲●★♥♦) |
-| CM2 | Suites Fibonacci simplifiees, carres+k, **chiffrement de Cesar** (decalage modulo l'alphabet, plus complexe que le code direct de CM1), grilles numeriques façon Raven (calcul, plus complexe que la rotation de CM1), **deduction a 3 personnes/3 indices** (indices positifs et negatifs), suites entrelacees, **menteur/verite** (introduit), analogies de fonction, suites x k + c, **combinatoire simple** (introduite) | **Aucun** : 100% textuel/numerique |
+| CM2 | Suites Fibonacci simplifiees, carres+k, **chiffrement de Cesar** (decalage modulo l'alphabet, plus complexe que le code direct de CM1), grilles numeriques façon Raven (calcul, plus complexe que la rotation de CM1), **deduction a 3 personnes/3 indices** (indices positifs et negatifs), suites entrelacees, **menteur/verite** (introduit), analogies de fonction, suites x k + c renforcee le 2026-09-20 (remplace la combinatoire simple, retiree - voir section 7) | **Aucun** : 100% textuel/numerique |
 
 Progression verifiee par echantillonnage et recherche de marqueurs : chaque famille avancee
 apparait exactement a sa classe d'introduction et jamais avant (grilles a partir de CE2,
@@ -90,3 +90,31 @@ Headroom disponible sans nouvelle tranche : 500 id libres par fichier (X500-X999
 Conclusion : aucune correction de contenu necessaire pour la progression de difficulte de Logique.
 Le seul point ouvert est le bug d'affichage de la section 3, distinct de la difficulte, en attente
 de decision.
+
+
+## 7. Mise a jour 2026-09-20 — signalement de Steve : combinatoire CM2 trop difficile, corrigee
+
+**Contredit partiellement la conclusion de la section 6** (audit du 2026-09-19, qui ne jugeait que
+la coherence *relative* de la progression, pas le niveau *absolu* de chaque famille). Voir
+`csv/questions/AUDITS_LOG.md` entrees #19 (audit) et #20 (correction appliquee) pour le detail
+complet.
+
+- **Combinatoire simple (CM2, 10 questions, ids 44009 + 44447-44455)** : CONFIRMEE hors-programme.
+  Permutations (n!) et combinaisons (n×(n-1)/2) ne sont enseignees a aucun moment du primaire
+  francais — notions de lycee. Sans la formule, seule l'enumeration manuelle exhaustive permet de
+  resoudre, infaisable au-dela de 4-5 elements (36 paires a lister pour 9 amis, 720 arrangements
+  pour 6 objets). **Corrigee le 2026-09-20** : retiree de la liste des familles validees ci-dessus,
+  les 10 questions remplacees par 10 suites numeriques ×k+c (famille deja validee pour CM2, meme
+  format `Quel nombre vient apres ? a, b, c, d, …`).
+- **Chiffrement de Cesar (CM2, 91 questions, 18% du fichier)** : signale comme SUSPECT (pas
+  confirme hors-programme comme la combinatoire — le principe de decalage circulaire reste un
+  raisonnement accessible), mais la charge de calcul (decalage modulo 26 repete sur 3 a 8 lettres
+  par mot, majorite 5-6 lettres) etait elevee pour du CM2. **Corrigee le 2026-09-20** : mots reduits
+  a 3-4 lettres (banque de 32 noms courants), decalage limite a +1/+2/+3 (au lieu de 3-8 lettres et
+  +1 a +8). Schema de generation des distracteurs (mauvais decalage +1/-1, mot inverse) inchange.
+- **CM1 et le reste de CM2** : aucune famille hors-programme confirmee lors de cette re-verification
+  ciblee (voir AUDITS_LOG.md #19 pour le detail par famille) — aucune correction necessaire.
+
+Fichier modifie : `csv/questions/cm2/logique/generated.csv` (101/500 lignes ; sauvegarde
+`generated.csv.bak_avant_fix_logique_cm2_20260920`, a supprimer apres validation en jeu + push
+GitHub). Import Godot en attente.

@@ -1,14 +1,14 @@
 id;text;correct_answer;choice_2;choice_3;choice_4;grid
 44000;Quel nombre vient après ? 1, 1, 2, 3, 5, …;8;7;9;6
 44001;Quel nombre vient après ? 2, 5, 10, 17, …;26;24;25;28
-44002;"Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on ""LAC"" ?";MBD;NCE;ODF;DBM
+44002;"Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on ""CAT"" ?";DBU;BZS;DBV;CBU
 44003;Quel nombre complète la grille ?;5;4;6;3;1|2|3|2|3|4|3|4|
 44004;Léo, Emma et Noah ont chacun un animal différent : chat, chien, poisson. Emma a un chat. Léo n'a pas de poisson. Qui a le poisson ?;Noah;Léo;Emma;Impossible à savoir
 44005;Quel nombre vient après ? 1, 10, 2, 9, 3, …;8;7;9;4
 44006;"Sur une île, Ana dit toujours la vérité et Bo ment toujours. Une personne dit ""Il pleut"", mais il ne pleut pas. Qui a parlé ?";Bo;Ana;Les deux;Aucun des deux
 44007;Le livre est à lire ce que la musique est…;à écouter;à voir;à toucher;à sentir
 44008;Quel nombre vient après ? 1, 3, 7, 15, …;31;30;29;32
-44009;Quel nombre vient après ? 7, 17, 37, 77, …;157;159;156;158
+44009;Combien de façons différentes peut-on ranger 3 livres différents côte à côte sur une étagère ?;6;3;9;4
 44010;Quel nombre vient après ? 2, 7, 9, 16, 25, …;41;40;42;66
 44011;Quel nombre vient après ? 1, 4, 5, 9, 14, …;23;24;37;22
 44012;Quel nombre vient après ? 3, 1, 4, 5, 9, …;14;23;13;15
@@ -86,66 +86,66 @@ id;text;correct_answer;choice_2;choice_3;choice_4;grid
 44084;Quel nombre vient après ? 7, 14, 23, 34, …;47;48;49;46
 44085;Quel nombre vient après ? 24, 35, 48, 63, …;80;81;82;79
 44086;Quel nombre vient après ? 11, 18, 27, 38, …;51;50;52;53
-44087;"Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on ""LAC"" ?";NCE;ODF;MBD;ECN
-44088;"Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on ""LAC"" ?";ODF;PEG;NCE;FDO
-44089;"Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on ""MUR"" ?";NVS;OWT;PXU;SVN
-44090;"Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on ""MUR"" ?";OWT;PXU;NVS;TWO
-44091;"Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on ""MUR"" ?";PXU;QYV;OWT;UXP
-44092;"Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on ""SAC"" ?";TBD;UCE;VDF;DBT
-44093;"Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on ""SAC"" ?";UCE;VDF;TBD;ECU
-44094;"Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on ""SAC"" ?";VDF;WEG;UCE;FDV
-44095;"Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on ""NID"" ?";OJE;PKF;QLG;EJO
-44096;"Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on ""NID"" ?";PKF;QLG;OJE;FKP
-44097;"Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on ""NID"" ?";QLG;RMH;PKF;GLQ
-44098;"Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on ""ROI"" ?";SPJ;TQK;URL;JPS
-44099;"Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on ""ROI"" ?";TQK;URL;SPJ;KQT
-44100;"Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on ""ROI"" ?";URL;VSM;TQK;LRU
-44101;"Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on ""LIT"" ?";MJU;NKV;OLW;UJM
-44102;"Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on ""LIT"" ?";NKV;OLW;MJU;VKN
-44103;"Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on ""LIT"" ?";OLW;PMX;NKV;WLO
-44104;"Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on ""POT"" ?";QPU;RQV;SRW;UPQ
-44105;"Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on ""POT"" ?";RQV;SRW;QPU;VQR
-44106;"Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on ""POT"" ?";SRW;TSX;RQV;WRS
-44107;"Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on ""RAT"" ?";SBU;TCV;UDW;UBS
-44108;"Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on ""RAT"" ?";TCV;UDW;SBU;VCT
-44109;"Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on ""RAT"" ?";UDW;VEX;TCV;WDU
-44110;"Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on ""SEL"" ?";TFM;UGN;VHO;MFT
-44111;"Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on ""SEL"" ?";UGN;VHO;TFM;NGU
-44112;"Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on ""SEL"" ?";VHO;WIP;UGN;OHV
-44113;"Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on ""FEU"" ?";GFV;HGW;IHX;VFG
-44114;"Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on ""FEU"" ?";HGW;IHX;GFV;WGH
-44115;"Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on ""FEU"" ?";IHX;JIY;HGW;XHI
-44116;"Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on ""AIR"" ?";BJS;CKT;DLU;SJB
-44117;"Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on ""AIR"" ?";CKT;DLU;BJS;TKC
-44118;"Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on ""AIR"" ?";DLU;EMV;CKT;ULD
-44119;"Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on ""VER"" ?";WFS;XGT;YHU;SFW
-44120;"Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on ""VER"" ?";XGT;YHU;WFS;TGX
-44121;"Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on ""VER"" ?";YHU;ZIV;XGT;UHY
-44122;"Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on ""CHAT"" ?";DIBU;EJCV;FKDW;UBID
-44123;"Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on ""CHAT"" ?";EJCV;FKDW;DIBU;VCJE
-44124;"Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on ""CHAT"" ?";FKDW;GLEX;EJCV;WDKF
-44125;"Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on ""LOUP"" ?";MPVQ;NQWR;ORXS;QVPM
-44126;"Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on ""LOUP"" ?";NQWR;ORXS;MPVQ;RWQN
-44127;"Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on ""LOUP"" ?";ORXS;PSYT;NQWR;SXRO
-44128;"Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on ""OURS"" ?";PVST;QWTU;RXUV;TSVP
-44129;"Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on ""OURS"" ?";QWTU;RXUV;PVST;UTWQ
-44130;"Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on ""OURS"" ?";RXUV;SYVW;QWTU;VUXR
-44131;"Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on ""LION"" ?";MJPO;NKQP;OLRQ;OPJM
-44132;"Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on ""LION"" ?";NKQP;OLRQ;MJPO;PQKN
-44133;"Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on ""LION"" ?";OLRQ;PMSR;NKQP;QRLO
-44134;"Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on ""VELO"" ?";WFMP;XGNQ;YHOR;PMFW
-44135;"Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on ""VELO"" ?";XGNQ;YHOR;WFMP;QNGX
-44136;"Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on ""VELO"" ?";YHOR;ZIPS;XGNQ;ROHY
-44137;"Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on ""LUNE"" ?";MVOF;NWPG;OXQH;FOVM
-44138;"Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on ""LUNE"" ?";NWPG;OXQH;MVOF;GPWN
-44139;"Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on ""LUNE"" ?";OXQH;PYRI;NWPG;HQXO
-44140;"Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on ""ROSE"" ?";SPTF;TQUG;URVH;FTPS
-44141;"Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on ""ROSE"" ?";TQUG;URVH;SPTF;GUQT
-44142;"Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on ""ROSE"" ?";URVH;VSWI;TQUG;HVRU
-44143;"Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on ""PAIN"" ?";QBJO;RCKP;SDLQ;OJBQ
-44144;"Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on ""PAIN"" ?";RCKP;SDLQ;QBJO;PKCR
-44145;"Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on ""PAIN"" ?";SDLQ;TEMR;RCKP;QLDS
-44146;"Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on ""LAIT"" ?";MBJU;NCKV;ODLW;UJBM
+44087;"Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on ""SOLEIL"" ?";TPMFJM;UQNGKN;VROHLO;MJFMPT
+44088;"Avec un décalage de +5 où A devient F, B devient G, etc., comment écrit-on ""MAISON"" ?";RFNXTS;SGOYUT;QEMWSR;STXNFR
+44089;"Avec un décalage de +5 où A devient F, B devient G, etc., comment écrit-on ""TABLE"" ?";YFGQJ;ZGHRK;XEFPI;JQGFY
+44090;"Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on ""VELO"" ?";YHOR;ZIPS;XGNQ;ROHY
+44091;"Avec un décalage de +4 où A devient E, B devient F, etc., comment écrit-on ""PIERRE"" ?";TMIVVI;UNJWWJ;SLHUUH;IVVIMT
+44092;"Avec un décalage de +4 où A devient E, B devient F, etc., comment écrit-on ""MONTAGNE"" ?";QSRXEKRI;RTSYFLSJ;PRQWDJQH;IRKEXRSQ
+44093;"Avec un décalage de +4 où A devient E, B devient F, etc., comment écrit-on ""PORTE"" ?";TSVXI;UTWYJ;SRUWH;IXVST
+44094;"Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on ""MAISON"" ?";PDLVRQ;QEMWSR;OCKUQP;QRVLDP
+44095;"Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on ""JARDIN"" ?";LCTFKP;MDUGLQ;KBSEJO;PKFTCL
+44096;"Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on ""PIERRE"" ?";QJFSSF;RKGTTG;SLHUUH;FSSFJQ
+44097;"Avec un décalage de +4 où A devient E, B devient F, etc., comment écrit-on ""TABLE"" ?";XEFPI;YFGQJ;WDEOH;IPFEX
+44098;"Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on ""ROUTE"" ?";URXWH;VSYXI;TQWVG;HWXRU
+44099;"Avec un décalage de +8 où A devient I, B devient J, etc., comment écrit-on ""MAISON"" ?";UIQAWV;VJRBXW;THPZVU;VWAQIU
+44100;"Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on ""NUAGE"" ?";PWCIG;QXDJH;OVBHF;GICWP
+44101;"Avec un décalage de +4 où A devient E, B devient F, etc., comment écrit-on ""CHIEN"" ?";GLMIR;HMNJS;FKLHQ;RIMLG
+44102;"Avec un décalage de +7 où A devient H, B devient I, etc., comment écrit-on ""CHAT"" ?";JOHA;KPIB;INGZ;AHOJ
+44103;"Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on ""SOLEIL"" ?";UQNGKN;VROHLO;TPMFJM;NKGNQU
+44104;"Avec un décalage de +6 où A devient G, B devient H, etc., comment écrit-on ""PLAGE"" ?";VRGMK;WSHNL;UQFLJ;KMGRV
+44105;"Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on ""TABLE"" ?";VCDNG;WDEOH;UBCMF;GNDCV
+44106;"Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on ""LIVRE"" ?";OLYUH;PMZVI;NKXTG;HUYLO
+44107;"Avec un décalage de +5 où A devient F, B devient G, etc., comment écrit-on ""PIERRE"" ?";UNJWWJ;VOKXXK;TMIVVI;JWWJNU
+44108;"Avec un décalage de +5 où A devient F, B devient G, etc., comment écrit-on ""RIVIERE"" ?";WNANJWJ;XOBOKXK;VMZMIVI;JWJNANW
+44109;"Avec un décalage de +7 où A devient H, B devient I, etc., comment écrit-on ""OISEAU"" ?";VPZLHB;WQAMIC;UOYKGA;BHLZPV
+44110;"Avec un décalage de +7 où A devient H, B devient I, etc., comment écrit-on ""FORET"" ?";MVYLA;NWZMB;LUXKZ;ALYVM
+44111;"Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on ""FLEUR"" ?";HNGWT;IOHXU;GMFVS;TWGNH
+44112;"Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on ""NUAGE"" ?";QXDJH;RYEKI;PWCIG;HJDXQ
+44113;"Avec un décalage de +8 où A devient I, B devient J, etc., comment écrit-on ""SOLEIL"" ?";AWTMQT;BXUNRU;ZVSLPS;TQMTWA
+44114;"Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on ""FORET"" ?";HQTGV;IRUHW;GPSFU;VGTQH
+44115;"Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on ""SABLE"" ?";UCDNG;VDEOH;TBCMF;GNDCU
+44116;"Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on ""CHIEN"" ?";DIJFO;EJKGP;FKLHQ;OFJID
+44117;"Avec un décalage de +4 où A devient E, B devient F, etc., comment écrit-on ""RIVIERE"" ?";VMZMIVI;WNANJWJ;ULYLHUH;IVIMZMV
+44118;"Avec un décalage de +5 où A devient F, B devient G, etc., comment écrit-on ""JARDIN"" ?";OFWINS;PGXJOT;NEVHMR;SNIWFO
+44119;"Avec un décalage de +6 où A devient G, B devient H, etc., comment écrit-on ""OISEAU"" ?";UOYKGA;VPZLHB;TNXJFZ;AGKYOU
+44120;"Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on ""OISEAU"" ?";QKUGCW;RLVHDX;PJTFBV;WCGUKQ
+44121;"Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on ""FORET"" ?";GPSFU;HQTGV;IRUHW;UFSPG
+44122;"Avec un décalage de +6 où A devient G, B devient H, etc., comment écrit-on ""POISSON"" ?";VUOYYUT;WVPZZVU;UTNXXTS;TUYYOUV
+44123;"Avec un décalage de +5 où A devient F, B devient G, etc., comment écrit-on ""CHIEN"" ?";HMNJS;INOKT;GLMIR;SJNMH
+44124;"Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on ""PIERRE"" ?";SLHUUH;TMIVVI;RKGTTG;HUUHLS
+44125;"Avec un décalage de +5 où A devient F, B devient G, etc., comment écrit-on ""SOLEIL"" ?";XTQJNQ;YURKOR;WSPIMP;QNJQTX
+44126;"Avec un décalage de +7 où A devient H, B devient I, etc., comment écrit-on ""NUAGE"" ?";UBHNL;VCIOM;TAGMK;LNHBU
+44127;"Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on ""RIVIERE"" ?";TKXKGTG;ULYLHUH;SJWJFSF;GTGKXKT
+44128;"Avec un décalage de +7 où A devient H, B devient I, etc., comment écrit-on ""PLAGE"" ?";WSHNL;XTIOM;VRGMK;LNHSW
+44129;"Avec un décalage de +8 où A devient I, B devient J, etc., comment écrit-on ""BATEAU"" ?";JIBMIC;KJCNJD;IHALHB;CIMBIJ
+44130;"Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on ""BATEAU"" ?";CBUFBV;DCVGCW;EDWHDX;VBFUBC
+44131;"Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on ""OISEAU"" ?";PJTFBV;QKUGCW;RLVHDX;VBFTJP
+44132;"Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on ""VELO"" ?";WFMP;XGNQ;YHOR;PMFW
+44133;"Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on ""NUAGE"" ?";OVBHF;PWCIG;QXDJH;FHBVO
+44134;"Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on ""ROUTE"" ?";SPVUF;TQWVG;URXWH;FUVPS
+44135;"Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on ""PORTE"" ?";QPSUF;RQTVG;SRUWH;FUSPQ
+44136;"Avec un décalage de +4 où A devient E, B devient F, etc., comment écrit-on ""CHAT"" ?";GLEX;HMFY;FKDW;XELG
+44137;"Avec un décalage de +8 où A devient I, B devient J, etc., comment écrit-on ""RIVIERE"" ?";ZQDQMZM;ARERNAN;YPCPLYL;MZMQDQZ
+44138;"Avec un décalage de +5 où A devient F, B devient G, etc., comment écrit-on ""PLAGE"" ?";UQFLJ;VRGMK;TPEKI;JLFQU
+44139;"Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on ""LIVRE"" ?";NKXTG;OLYUH;MJWSF;GTXKN
+44140;"Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on ""MAISON"" ?";NBJTPO;OCKUQP;PDLVRQ;OPTJBN
+44141;"Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on ""MAISON"" ?";OCKUQP;PDLVRQ;NBJTPO;PQUKCO
+44142;"Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on ""PLAGE"" ?";SODJH;TPEKI;RNCIG;HJDOS
+44143;"Avec un décalage de +8 où A devient I, B devient J, etc., comment écrit-on ""ROUTE"" ?";ZWCBM;AXDCN;YVBAL;MBCWZ
+44144;"Avec un décalage de +5 où A devient F, B devient G, etc., comment écrit-on ""BATEAU"" ?";GFYJFZ;HGZKGA;FEXIEY;ZFJYFG
+44145;"Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on ""FLEUR"" ?";IOHXU;JPIYV;HNGWT;UXHOI
+44146;"Avec un décalage de +7 où A devient H, B devient I, etc., comment écrit-on ""SOLEIL"" ?";ZVSLPS;AWTMQT;YURKOR;SPLSVZ
 44147;Quel nombre complète la grille ?;16;17;18;15;8|11|14|10|13||12|15|18
 44148;Quel nombre complète la grille ?;15;16;19;14;7|10|13|11|14|17||18|21
 44149;Quel nombre complète la grille ?;8;9;11;7;2|6|10|5|9|13||12|16
@@ -446,45 +446,45 @@ id;text;correct_answer;choice_2;choice_3;choice_4;grid
 44444;Quel nombre vient après ? 4, 11, 32, 95, …;284;283;285;286
 44445;Quel nombre vient après ? 3, 10, 24, 52, …;108;112;107;109
 44446;Quel nombre vient après ? 4, 13, 40, 121, …;364;363;365;366
-44447;Quel nombre vient après ? 4, 13, 31, 67, …;139;141;138;140
-44448;Quel nombre vient après ? 7, 24, 75, 228, …;687;689;686;688
-44449;Quel nombre vient après ? 6, 23, 74, 227, …;686;688;685;687
-44450;Quel nombre vient après ? 3, 13, 43, 133, …;403;405;402;404
-44451;Quel nombre vient après ? 9, 31, 97, 295, …;889;891;888;890
-44452;Quel nombre vient après ? 9, 22, 48, 100, …;204;206;203;205
-44453;Quel nombre vient après ? 8, 27, 84, 255, …;768;770;767;769
-44454;Quel nombre vient après ? 7, 22, 67, 202, …;607;609;606;608
-44455;Quel nombre vient après ? 6, 20, 62, 188, …;566;568;565;567
-44456;"Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on ""LAIT"" ?";NCKV;ODLW;MBJU;VKCN
-44457;"Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on ""LAIT"" ?";ODLW;PEMX;NCKV;WLDO
-44458;"Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on ""BOIS"" ?";CPJT;DQKU;ERLV;TJPC
-44459;"Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on ""BOIS"" ?";DQKU;ERLV;CPJT;UKQD
-44460;"Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on ""BOIS"" ?";ERLV;FSMW;DQKU;VLRE
-44461;"Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on ""MAIN"" ?";NBJO;OCKP;PDLQ;OJBN
-44462;"Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on ""MAIN"" ?";OCKP;PDLQ;NBJO;PKCO
-44463;"Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on ""MAIN"" ?";PDLQ;QEMR;OCKP;QLDP
-44464;"Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on ""PIED"" ?";QJFE;RKGF;SLHG;EFJQ
-44465;"Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on ""PIED"" ?";RKGF;SLHG;QJFE;FGKR
-44466;"Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on ""PIED"" ?";SLHG;TMIH;RKGF;GHLS
-44467;"Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on ""DENT"" ?";EFOU;FGPV;GHQW;UOFE
-44468;"Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on ""DENT"" ?";FGPV;GHQW;EFOU;VPGF
-44469;"Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on ""DENT"" ?";GHQW;HIRX;FGPV;WQHG
-44470;"Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on ""OEUF"" ?";PFVG;QGWH;RHXI;GVFP
-44471;"Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on ""OEUF"" ?";QGWH;RHXI;PFVG;HWGQ
-44472;"Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on ""OEUF"" ?";RHXI;SIYJ;QGWH;IXHR
-44473;"Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on ""NOIX"" ?";OPJY;PQKZ;QRLA;YJPO
-44474;"Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on ""NOIX"" ?";PQKZ;QRLA;OPJY;ZKQP
-44475;"Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on ""NOIX"" ?";QRLA;RSMB;PQKZ;ALRQ
-44476;"Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on ""MIEL"" ?";NJFM;OKGN;PLHO;MFJN
-44477;"Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on ""MIEL"" ?";OKGN;PLHO;NJFM;NGKO
-44478;"Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on ""MIEL"" ?";PLHO;QMIP;OKGN;OHLP
-44479;"Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on ""TOIT"" ?";UPJU;VQKV;WRLW;UJPU
-44480;"Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on ""TOIT"" ?";VQKV;WRLW;UPJU;VKQV
-44481;"Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on ""TOIT"" ?";WRLW;XSMX;VQKV;WLRW
-44482;"Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on ""PONT"" ?";QPOU;RQPV;SRQW;UOPQ
-44483;"Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on ""PONT"" ?";RQPV;SRQW;QPOU;VPQR
-44484;"Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on ""PONT"" ?";SRQW;TSRX;RQPV;WQRS
-44485;"Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on ""PORT"" ?";QPSU;RQTV;SRUW;USPQ
+44447;Combien de façons différentes peut-on ranger 4 objets différents côte à côte sur une étagère ?;24;16;28;6
+44448;Avec 8 amis, combien de paires différentes peut-on former ?;28;56;8;27
+44449;Combien de façons différentes peut-on ranger 5 objets différents côte à côte sur une étagère ?;120;24;25;125
+44450;Avec 4 amis, combien de paires différentes peut-on former ?;6;4;12;5
+44451;Avec 9 amis, combien de paires différentes peut-on former ?;36;72;9;35
+44452;Avec 6 amis, combien de paires différentes peut-on former ?;15;16;6;30
+44453;Avec 7 amis, combien de paires différentes peut-on former ?;21;42;20;22
+44454;Combien de façons différentes peut-on ranger 6 objets différents côte à côte sur une étagère ?;720;120;36;726
+44455;Avec 5 amis, combien de paires différentes peut-on former ?;10;9;11;20
+44456;"Avec un décalage de +6 où A devient G, B devient H, etc., comment écrit-on ""LIVRE"" ?";ROBXK;SPCYL;QNAWJ;KXBOR
+44457;"Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on ""PIERRE"" ?";RKGTTG;SLHUUH;QJFSSF;GTTGKR
+44458;"Avec un décalage de +4 où A devient E, B devient F, etc., comment écrit-on ""SABLE"" ?";WEFPI;XFGQJ;VDEOH;IPFEW
+44459;"Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on ""CHIEN"" ?";FKLHQ;GLMIR;EJKGP;QHLKF
+44460;"Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on ""SABLE"" ?";VDEOH;WEFPI;UCDNG;HOEDV
+44461;"Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on ""VELO"" ?";XGNQ;YHOR;WFMP;QNGX
+44462;"Avec un décalage de +7 où A devient H, B devient I, etc., comment écrit-on ""ARBRE"" ?";HYIYL;IZJZM;GXHXK;LYIYH
+44463;"Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on ""PLAGE"" ?";QMBHF;RNCIG;SODJH;FHBMQ
+44464;"Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on ""FORET"" ?";IRUHW;JSVIX;HQTGV;WHURI
+44465;"Avec un décalage de +7 où A devient H, B devient I, etc., comment écrit-on ""JARDIN"" ?";QHYKPU;RIZLQV;PGXJOT;UPKYHQ
+44466;"Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on ""SABLE"" ?";TBCMF;UCDNG;VDEOH;FMCBT
+44467;"Avec un décalage de +8 où A devient I, B devient J, etc., comment écrit-on ""MONTAGNE"" ?";UWVBIOVM;VXWCJPWN;TVUAHNUL;MVOIBVWU
+44468;"Avec un décalage de +4 où A devient E, B devient F, etc., comment écrit-on ""SOLEIL"" ?";WSPIMP;XTQJNQ;VROHLO;PMIPSW
+44469;"Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on ""POISSON"" ?";SRLVVRQ;TSMWWSR;RQKUUQP;QRVVLRS
+44470;"Avec un décalage de +3 où A devient D, B devient E, etc., comment écrit-on ""BATEAU"" ?";EDWHDX;FEXIEY;DCVGCW;XDHWDE
+44471;"Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on ""PORTE"" ?";RQTVG;SRUWH;QPSUF;GVTQR
+44472;"Avec un décalage de +6 où A devient G, B devient H, etc., comment écrit-on ""JARDIN"" ?";PGXJOT;QHYKPU;OFWINS;TOJXGP
+44473;"Avec un décalage de +2 où A devient C, B devient D, etc., comment écrit-on ""ARBRE"" ?";CTDTG;DUEUH;BSCSF;GTDTC
+44474;"Avec un décalage de +8 où A devient I, B devient J, etc., comment écrit-on ""FORET"" ?";NWZMB;OXANC;MVYLA;BMZWN
+44475;"Avec un décalage de +4 où A devient E, B devient F, etc., comment écrit-on ""MAISON"" ?";QEMWSR;RFNXTS;PDLVRQ;RSWMEQ
+44476;"Avec un décalage de +5 où A devient F, B devient G, etc., comment écrit-on ""CHAT"" ?";HMFY;INGZ;GLEX;YFMH
+44477;"Avec un décalage de +5 où A devient F, B devient G, etc., comment écrit-on ""ROUTE"" ?";WTZYJ;XUAZK;VSYXI;JYZTW
+44478;"Avec un décalage de +7 où A devient H, B devient I, etc., comment écrit-on ""MAISON"" ?";THPZVU;UIQAWV;SGOYUT;UVZPHT
+44479;"Avec un décalage de +8 où A devient I, B devient J, etc., comment écrit-on ""POISSON"" ?";XWQAAWV;YXRBBXW;WVPZZVU;VWAAQWX
+44480;"Avec un décalage de +7 où A devient H, B devient I, etc., comment écrit-on ""FLEUR"" ?";MSLBY;NTMCZ;LRKAX;YBLSM
+44481;"Avec un décalage de +7 où A devient H, B devient I, etc., comment écrit-on ""PORTE"" ?";WVYAL;XWZBM;VUXZK;LAYVW
+44482;"Avec un décalage de +1 où A devient B, B devient C, etc., comment écrit-on ""LIVRE"" ?";MJWSF;NKXTG;OLYUH;FSWJM
+44483;"Avec un décalage de +6 où A devient G, B devient H, etc., comment écrit-on ""SABLE"" ?";YGHRK;ZHISL;XFGQJ;KRHGY
+44484;"Avec un décalage de +7 où A devient H, B devient I, etc., comment écrit-on ""CHIEN"" ?";JOPLU;KPQMV;INOKT;ULPOJ
+44485;"Avec un décalage de +5 où A devient F, B devient G, etc., comment écrit-on ""OISEAU"" ?";TNXJFZ;UOYKGA;SMWIEY;ZFJXNT
 44486;Quel nombre complète la grille ?;10;9;11;13;8||12|11|13|15|14|16|18
 44487;Quel nombre complète la grille ?;13;16;12;14;6|9|12|7|10||8|11|14
 44488;Quel nombre complète la grille ?;14;18;13;15;8|12|16|9|13|17|10||18
