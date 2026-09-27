@@ -28,6 +28,8 @@ etroite.
 | 15 | 2026-09-19 | Steve demande explicitement d'aller au bout de la logique et de retirer toute comparaison ambiguë/farfelue restante dans la même famille (pas seulement les cas déjà signalés) | English | CM1, CM2 | Revue complète des 8 adjectifs de base sur les 19 paires : "cleaner"/"louder"/"higher" retirés partout où ni l'un ni l'autre nom n'a de rapport plausible avec le bruit/la propreté/la hauteur (immeuble-maison, montagne-colline, livre-feuille, rocher-plume) — 31 lignes CM1 + 35 lignes CM2 corrigées ; famille comparative anglaise déclarée saine sur les 19 paires (0 combinaison farfelue restante) |
 | 19 | 2026-09-20 | Steve signale en jouant que certaines questions de logique CM1/CM2 sont trop difficiles (capture d'écran : "façons de ranger 4 objets" = 24, "avec 7 amis, combien de paires" = 21) — audit de la difficulté et du type de questions demandé pour ces 2 classes | Logique | CM1, CM2 (scope explicitement restreint par Steve à ces 2 classes) | Famille « combinatoire simple » (10 questions CM2, ids 44009 + 44447-44455) confirmée hors-programme : permutations (n!) et combinaisons (n(n-1)/2) sont des notions de lycée, aucune formule n'est enseignée au primaire, énumération manuelle infaisable au-delà de 4-5 éléments — audit seul, aucune correction appliquée, en attente de décision de Steve. Famille « chiffrement de César » (91 questions CM2, 18% du fichier) signalée comme suspecte : décalage modulo-26 lettre par lettre sur des mots de 3 à 8 lettres, charge de calcul élevée pour du CM2. Reste des familles CM1 (grille 3x3, code lettre-chiffre direct, carrés parfaits, suites, déduction d'âge/course, analogies) et CM2 (grille numérique Raven, menteur/vérité, déduction 3-personnes, suites, analogies) jugées appropriées au niveau. |
 | 20 | 2026-09-20 | Suite de l'entrée #19 : Steve valide les corrections (combinatoire retirée et remplacée ; César raccourci) | Logique | CM2 uniquement | Combinatoire (10 questions, ids 44009+44447-44455) remplacée par 10 suites numériques ×k+c (famille déjà validée pour CM2) ; César (91 questions) raccourci à des mots de 3-4 lettres et décalage +1 à +3 (au lieu de 3-8 lettres et +1 à +8) — 500/500 questions, 0 doublon de texte introduit, 0 erreur de calcul (vérifié programmatiquement), 0 modification hors des 101 lignes ciblées |
+| 22 | 2026-09-27 | Reprise du bug de l'entrée #8 : ronds de couleur emoji (🔴🟣🔵🟢🟡🟠) affichés rayés en jeu (police d'emoji monochrome NotoEmoji) | Logique | CP, CE1 | 87/87 questions corrigées dans Supabase : 54 suites « Quelle couleur vient ensuite ? » passées en noms de couleurs écrits ; 33 intrus : ronds remplacés par des formes (■ ▲ ★) ou des fruits (🍎 🍌 🍇), énoncé « rond de couleur » adapté ; 0 emoji rond restant |
+| 23 | 2026-09-27 | Audit complet de cohérence des phrases en français (grammaire, orthographe, conjugaison en phrase) : phrases illogiques, réponses fausses, distracteurs aussi corrects | Français | CP, CE1, CE2, CM1, CM2 | 2 088 questions corrigées dans Supabase (sur 9 000 relues + conjugaison CM2), par familles de gabarits avec listes blanches ; relecture indépendante (27+17+4+6 retouches) ; 0 doublon, 0 écart après application |
 
 ## Détail
 
@@ -1193,3 +1195,60 @@ Signalé par Steve (captures) : « Camille a rencontré un piano » (logique CE2
 **Sécurité** : chaque ligne n'est modifiée que si son id ET son ancien énoncé correspondent ; si le
 compte ≠ 267, tout est annulé. L'ancienne version de chaque ligne est gardée automatiquement dans
 `contenu_historique`. `fn_publier()` relancé à la fin (seuls les paquets modifiés changent de version).
+
+### #22 — 2026-09-27 — Ronds de couleur emoji (bug de l'entrée #8) — corrigé DANS SUPABASE
+
+**Cause** : la police d'emoji du jeu (NotoEmoji) est monochrome, les ronds 🔴🟣🔵🟢🟡🟠 s'affichent en noir et blanc avec des motifs rayés, jamais en couleur.
+
+**Correction (validée par Steve)** :
+- 54 questions « Que/Quelle couleur vient ensuite ? » (CP + CE1) : énoncé réécrit « Quelle couleur vient ensuite ? jaune, violet, jaune… », bonne réponse et 3 mauvaises réponses remplacées par les noms de couleur (rouge, violet, bleu, vert, jaune, orange).
+- 33 questions d'intrus (« Quel dessin ne va pas avec les autres ? », « Quel élément n'est pas… ? ») : 3 ronds + 1 intrus → ronds remplacés par ■ ▲ ★ (énoncé « un rond de couleur » → « une forme ») ; si l'intrus était lui-même une forme noire (● ■ ♦ ♠ ★ ♥), ronds remplacés par 🍎 🍌 🍇 (énoncé → « un fruit ») ; rond seul intrus → remplacé par ■ (ou 🍎 parmi des formes).
+
+**Vérifié** : 0 doublon dans les choix, la bonne réponse figure toujours dans la suite affichée, 0 emoji rond restant dans les questions publiées. Anciennes versions gardées dans `contenu_historique`. `fn_publier()` relancé : cp/logique et ce1/logique passent en version 4.
+
+### #23 — 2026-09-27 — Audit complet de cohérence du français (toutes classes) — corrigé DANS SUPABASE
+
+**Demande de Steve** : beaucoup de questions de grammaire/conjugaison/orthographe ont des phrases sans sens logique ; audit complet, et appliquer la même correction à toutes les phrases du même type.
+
+**Méthode** : export des 13 000 questions françaises publiées, lecture intégrale des phrases (cp/french, ce1→cm2 grammaire et orthographe, cm2 conjugaison), correction par famille de gabarit (script + listes blanches nom→adjectifs / verbe→compléments), puis relecture par un second passage indépendant.
+
+**Corrections par classe** (nombre de questions) :
+- **CP french (71)** : pluriels faux (tapis→« tapiss », ananas, ours), noms rares (miel, tigron…), contraires faux (voler/ramper), couleurs ambiguës, distracteurs synonymes aussi justes ; « la femelle du : X » → « la femelle du X / de l'âne » ; perroquet/perruche (pas la même espèce) remplacé ; « oisillon » retiré comme distracteur de pigeonneau/cygneau.
+- **CE1 grammaire (104)** : « nature du mot » sur mots ambigus (porte, règle, calme, rire, bien…) → « Dans la phrase « … », quelle est la nature du mot X ? » ; masculin de belle = beau ; mots trop rares remplacés.
+- **CE1 orthographe (379)** : et/est à double sujet (verbe sans complément, paires animal+humain) ; « son » avec objets absurdes (joue avec son cahier…) ; adjectifs d'animaux invraisemblables (tortues bruyantes, dauphins lents…) ; cygnette (n'existe pas) → hase ; femelle/mâle (bœuf/vache, perroquet/perruche) corrigés.
+- **CE2 grammaire (179)** : phrases de conjugaison incomplètes ou absurdes, types de phrase, impératifs bizarres, élisions (l'horloge, l'actrice), sujets au genre ambigu pour les pronoms (l'architecte, Camille…).
+- **CE2 orthographe (425)** : accord de l'adjectif (~360 phrases réécrites avec adjectif plausible + les 3 autres formes du même adjectif comme distracteurs) ; ses/ces (« Il range ces jouets » aussi correct → distracteurs sais/c'est/sait) ; subjonctif après « croire » ; synonymes/contraires obscurs ou faux.
+- **CM1 grammaire (361)** : participe passé avec être (mourir → « de rire », naître → lieu/date, aller → lieu, compléments ajoutés, « sera » → est) ; démonstratifs ; COI.
+- **CM1 orthographe (43)** : plus tôt/plutôt (distracteur aussi correct), objets implausibles, boîte, mots vieillis (naguère, tantôt).
+- **CM2 grammaire (492)** : participe avec avoir (verbe choisi selon l'objet et le complément) ; **61 réponses fausses** dans les relatives (« les valises que vous avez perdue » → perdues) ; fragments sans verbe ; « C'est les » → « Ce sont les » ; compléments circonstanciels absurdes.
+- **CM2 orthographe (34)** : accents (théâtre, décor, décodeur avaient une réponse fausse ; hôpital, château, sac, stylo n'ont pas de « e » accentué → mots remplacés) ; « Qu'en dis-tu de cette idée ? » fautif ; tout/tous ambigus ; « Lorsque » et « il neigea » étaient aussi corrects.
+
+**Sécurité** : chaque ligne n'est modifiée que si son id + ancien énoncé + ancienne réponse correspondent (essai à blanc : 2 088/2 088, puis application en une transaction). Réexport après coup : 9 000 questions comparées, 0 écart. Anciennes versions dans `contenu_historique`. `fn_publier()` relancé : 9 paquets français mis à jour (les joueurs les reçoivent à la prochaine connexion).
+
+**Laissé tel quel (acceptable)** : participes employés comme adjectifs classés « adjectif » au CE1 ; « soeur » sans œ (graphie majoritaire) ; quelques plus-que-parfaits isolés (« était né en 2015 »).
+
+
+### #24 — 2026-09-27 — Logique : exemple inutile en début de question — corrigé DANS SUPABASE
+
+**Signalé par Steve** (capture CP) : « Le petit de 🐑 est l'agneau. Le petit de 🐐 est… » → l'exemple ne sert à rien, poser directement la vraie question. Audit étendu à toutes les classes.
+
+**Trouvé** : 325 questions de ce type (CP, CE1, CE2 — rien en CM1/CM2) : le petit de (CP 30, CE1 31), le contraire de (CP 40, CE1 51, CE2 30), cris d'animaux (CP 31), « sert à » (CE1 50), déplacement (CE2 31), habitat (CE2 30), « Le jour, on se réveille. La nuit, on… » (CP 1).
+
+**Correction** :
+- Exemple retiré : « Le petit de 🐐 est… », « Le contraire de grand est… », « Le chien 🐶 fait… », « Le savon sert à… », « La nuit, on… ». Déplacement → « Pour se déplacer, le poisson… » ; habitat → « Où vit le lapin ? » (réponses sans « vit » : « dans un terrier »).
+- 194 questions devenaient des doublons exacts (seul l'exemple les différenciait) → choix de Steve : garder 1 exemplaire, remplacer les autres par de nouvelles questions du même type (même id, même notion) : sens inverse (« Quel animal fait « miaou » ? », « Le chaton est le petit de quel animal ? », « Quel objet sert à couper ? », « Le contraire de petit est… », « Quel animal vit dans une ruche ? ») et nouveaux éléments (caneton, renardeau, lapereau, louveteau, faon, ânon, aiglon… ; arrosoir, gomme, tournevis, passoire… ; dauphin, singe, limace, sauterelle… ; écurie, étable, poulailler, niche, banquise… ; allumer/éteindre, entrer/sortir, lisse/rugueux…).
+- Au passage : élision « Le contraire d'ouvert / d'acheter / d'épais », canard 🐦 → 🦆, mauvais choix ambigus refaits en déplacement/habitat (ex. « dans l'eau » proposé pour le poisson rouge, « sous terre » pour le lapin, « vole » pour la sauterelle, « nage » pour le crapaud).
+
+**Laissé tel quel (choix de Steve)** : analogies « Le doigt est à la main ce que l'orteil est… » (CE2-CM2) — l'exemple y est la question.
+
+**Vérifié** : 325/325 lignes appliquées (id + ancien énoncé vérifiés, tout ou rien), réexport : 0 modification hors périmètre, 0 doublon créé, 0 question à exemple restante. `fn_publier()` : cp/ce1/ce2 logique mis à jour.
+
+**Suite** : doublons « Quelle couleur vient ensuite ? … » en CP logique traités dans l'entrée #25.
+
+### #25 — 2026-09-27 — Logique CP : doublons « Quelle couleur vient ensuite ? » — corrigé DANS SUPABASE
+
+**Cause** : la réécriture en noms de couleur (entrée #22) a rendu identiques 8 paires de questions qui ne différaient que par la couleur des ronds.
+
+**Correction (validée par Steve)** : 1 question de chaque paire gardée, l'autre remplacée (même id) : 4 nouvelles suites AB (violet/bleu, bleu/violet, jaune/orange, orange/jaune) et 4 suites AAB (« jaune, jaune, rouge, jaune, jaune… »). Ids 40410, 40412, 40418, 40419, 40424, 40428, 40436, 40437.
+
+**Vérifié** : 8/8 lignes appliquées (id + ancien énoncé), CP logique : 500 questions, 0 doublon d'énoncé. `fn_publier()` : cp/logique mis à jour.
