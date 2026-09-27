@@ -15,9 +15,9 @@ dest_files=["res://.godot/imported/nuage2.webp-a763653a91d9af1d0afd7a8e8843f609.
 
 [params]
 
-compress/mode=0
+compress/mode=1
 compress/high_quality=false
-compress/lossy_quality=0.7
+compress/lossy_quality=0.8
 compress/uastc_level=0
 compress/rdo_quality_loss=0.0
 compress/hdr_compression=1

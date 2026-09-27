@@ -15,9 +15,9 @@ dest_files=["res://.godot/imported/le_temps.webp-1e524a8fd5e56c6cc804c41f688bffc
 
 [params]
 
-compress/mode=0
+compress/mode=1
 compress/high_quality=false
-compress/lossy_quality=0.7
+compress/lossy_quality=0.8
 compress/uastc_level=0
 compress/rdo_quality_loss=0.0
 compress/hdr_compression=1
