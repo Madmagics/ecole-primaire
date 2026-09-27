@@ -12,7 +12,7 @@ config_version=5
 
 config/name="L'école primaire"
 config/description="S'amuser en révisant du CP au CM2"
-config/version="1.0"
+config/version="1.01"
 run/main_scene="res://levels/school/school.tscn"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 boot_splash/bg_color=Color(0, 0, 0, 1)
@@ -34,6 +34,7 @@ PseudoCache="*res://autoload/pseudo_cache.gd"
 SoundManager="*res://autoload/sound_manager.gd"
 NpcBubbleScheduler="*res://autoload/npc_bubble_scheduler.gd"
 ServerApi="*res://autoload/server_api.gd"
+GameKeyboard="*res://ui/common/game_keyboard.gd"
 
 [display]
 

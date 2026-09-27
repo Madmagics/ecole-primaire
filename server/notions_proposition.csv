@@ -1,0 +1,89 @@
+domaine;code;libelle;cp;ce1;ce2;cm1;cm2;total
+Maths;addition;Addition;140;140;120;85;90;575
+Maths;aire;Aire;0;0;0;75;65;140
+Maths;comparer_nombres;Comparer des nombres;125;154;104;75;0;458
+Maths;complements;Compléments et nombres manquants;239;140;70;0;0;449
+Maths;division;Division et partages;0;0;120;110;95;325
+Maths;doubles_moities;Doubles, moitiés, tiers, quarts;60;95;80;0;0;235
+Maths;formes_geometriques;Formes géométriques;7;0;0;0;0;7
+Maths;fractions;Fractions;0;0;0;230;126;356
+Maths;mesures;Mesures et conversions;0;0;0;93;58;151
+Maths;multiplication;Multiplication et tables;0;130;100;120;152;502
+Maths;numeration;Numération (unités, dizaines, chiffres);120;0;0;60;54;234
+Maths;pair_impair;Pair et impair;40;40;40;0;0;120
+Maths;perimetre;Périmètre;0;40;55;30;0;125
+Maths;pourcentages;Pourcentages;0;0;0;0;105;105
+Maths;problemes;Petits problèmes;80;150;185;0;0;415
+Maths;proportionnalite;Proportionnalité;0;0;0;72;130;202
+Maths;soustraction;Soustraction;115;140;120;50;70;495
+Maths;suites_nombres;Suites de nombres;74;40;40;0;0;154
+Maths;volume;Volume;0;0;0;0;55;55
+Français;accents;Les accents;0;0;0;0;76;76
+Français;accord_adjectif;Accord de l'adjectif;0;0;512;13;0;525
+Français;accord_sujet_verbe;Accord sujet-verbe;0;0;229;0;0;229
+Français;complements_circonstanciels;Compléments circonstanciels;0;0;0;0;106;106
+Français;conditionnel;Conditionnel présent;0;0;0;0;287;287
+Français;determinants;Déterminants (ce/cet/cette, mon/ton/son…);0;0;0;127;0;127
+Français;fonctions;Fonctions dans la phrase (sujet, COD, COI…);0;0;97;161;0;258
+Français;formation_mots;Formation des mots (préfixes, suffixes);0;0;0;0;95;95
+Français;futur;Futur simple;0;0;300;350;0;650
+Français;homophones;Homophones (et/est, a/à, son/sont…);0;813;220;228;102;1363
+Français;imparfait;Imparfait;0;0;318;386;0;704
+Français;masculin_feminin;Masculin et féminin;46;318;0;0;0;364
+Français;mots_invariables;Mots invariables (adverbes, connecteurs);0;0;0;101;0;101
+Français;nature_mots;Nature des mots;0;658;0;0;0;658
+Français;nombres_en_lettres;Écrire les nombres en lettres;108;0;0;0;0;108
+Français;orthographe_mots;Orthographe des mots;0;135;0;722;723;1580
+Français;participe_passe;Accord du participe passé;0;0;0;647;781;1428
+Français;passe_compose;Passé composé;0;0;0;224;207;431
+Français;passe_simple;Passé simple;0;0;0;0;160;160
+Français;plus_que_parfait;Plus-que-parfait;0;0;0;0;346;346
+Français;present;Présent;0;1000;382;40;0;1422
+Français;pronoms;Pronoms personnels;0;0;362;0;0;362
+Français;pronoms_relatifs;Pronoms relatifs (qui, que, dont, où);0;0;0;0;112;112
+Français;singulier_pluriel;Singulier et pluriel;400;76;94;0;0;570
+Français;types_phrases;Types de phrases;0;0;300;0;0;300
+Français;vocabulaire_quotidien;Vocabulaire du quotidien (couleurs, jours);118;0;0;0;1;119
+Français;vocabulaire_sens;Synonymes, contraires, sens des mots;328;0;186;41;4;559
+Lecture;lecture_inference;Lecture : comprendre et déduire;0;96;192;288;384;960
+Lecture;lecture_litterale;Lecture : retrouver une information;480;768;576;384;288;2496
+Lecture;lecture_vocabulaire;Lecture : vocabulaire du texte;0;96;192;288;288;864
+Logique;analogies;Analogies;192;132;120;41;41;526
+Logique;classer;Classer et ranger (du plus grand au plus petit…);41;0;61;61;0;163
+Logique;codes;Codes secrets;0;0;0;68;91;159
+Logique;comparer;Comparer (qui a le plus / le moins);61;0;0;0;0;61
+Logique;grilles;Grilles à compléter;0;0;0;61;75;136
+Logique;intrus;Trouver l'intrus;62;101;41;0;0;204
+Logique;raisonnement;Raisonnement et déduction;0;0;83;57;102;242
+Logique;reperage_espace;Se repérer dans l'espace;0;0;37;0;0;37
+Logique;suites_logiques;Suites logiques;144;198;124;172;191;829
+Anglais;en_adjectifs;Décrire (adjectifs);0;7;0;30;0;37
+Anglais;en_animaux;Animaux;19;38;16;0;1;74
+Anglais;en_avoir_etre;Avoir et être (I have, I am);138;98;0;19;0;255
+Anglais;en_calendrier;Jours, mois, heure;45;10;26;0;6;87
+Anglais;en_comparer;Comparatifs et superlatifs;0;0;0;200;133;333
+Anglais;en_consignes_obligation;Obligation (must, should);0;24;0;20;12;56
+Anglais;en_contraires_synonymes;Contraires et synonymes;0;0;0;26;10;36
+Anglais;en_corps;Corps humain;20;18;3;12;0;53
+Anglais;en_couleurs;Couleurs;14;16;2;0;0;32
+Anglais;en_decrire_position;Décrire une image (there is, I see);50;10;240;0;0;300
+Anglais;en_demonstratifs;This / that / these / those;0;0;0;24;0;24
+Anglais;en_ecole;École et matières;20;7;47;0;2;76
+Anglais;en_emotions;Émotions et caractère;10;15;0;0;0;25
+Anglais;en_futur;Le futur (going to);0;0;0;0;20;20
+Anglais;en_gouts;Goûts (I like, I prefer);77;28;66;32;0;203
+Anglais;en_habitudes;Habitudes (always, often…);0;0;0;0;49;49
+Anglais;en_loisirs_metiers;Loisirs, musique, métiers;0;59;28;7;4;98
+Anglais;en_maison_famille;Maison et famille;17;43;10;2;0;72
+Anglais;en_meteo_nature;Météo et nature;15;29;6;7;8;65
+Anglais;en_nombres;Nombres;20;38;16;26;0;100
+Anglais;en_nourriture;Nourriture;22;23;11;2;0;58
+Anglais;en_passe;Le passé (prétérit);0;7;8;0;236;251
+Anglais;en_pays;Pays et nationalités;0;6;8;68;0;82
+Anglais;en_politesse_consignes;Politesse et consignes;43;0;0;8;0;51
+Anglais;en_present_continu;Présent en -ing;0;0;0;14;20;34
+Anglais;en_questions_lieux;Mots questions et prépositions (où ?);0;36;0;7;0;43
+Anglais;en_se_presenter;Se présenter;6;0;0;0;0;6
+Anglais;en_verbes;Verbes d'action;3;22;0;0;4;29
+Anglais;en_vetements;Vêtements;0;22;1;1;0;24
+Anglais;en_ville_transports;Ville et transports;0;13;17;2;23;55

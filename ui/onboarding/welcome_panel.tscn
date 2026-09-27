@@ -15,6 +15,8 @@
 [ext_resource type="PackedScene" uid="uid://cn16e2u5cb0q" path="res://ui/onboarding/help_overlay.tscn" id="13_help_overlay"]
 [ext_resource type="Texture2D" uid="uid://cduam6gg8d2i0" path="res://assets/classe2.0/icones/plein-ecran.webp" id="14_icon_fullscreen"]
 [ext_resource type="Script" path="res://ui/hud/fullscreen_button.gd" id="15_fullscreen_button"]
+[ext_resource type="Texture2D" path="res://assets/icons/oeil.svg" id="16_icon_eye"]
+[ext_resource type="Texture2D" path="res://assets/icons/oeil_barre.svg" id="17_icon_eye_off"]
 
 [node name="WelcomePanel" type="Control" unique_id=309200071]
 layout_mode = 3
@@ -174,6 +176,12 @@ text = "Mot de passe"
 custom_minimum_size = Vector2(220, 0)
 layout_mode = 2
 secret = true
+[node name="PasswordVisibilityButton" type="TextureButton" parent="Panel/Margin/Content/LoginSection/PasswordRow"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+texture_normal = ExtResource("16_icon_eye")
+ignore_texture_size = true
+stretch_mode = 5
 
 [node name="LoginErrorLabel" type="Label" parent="Panel/Margin/Content/LoginSection" unique_id=62318794]
 visible = false
@@ -406,6 +414,12 @@ text = "Mot de passe"
 custom_minimum_size = Vector2(220, 0)
 layout_mode = 2
 secret = true
+[node name="NewPasswordVisibilityButton" type="TextureButton" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/NewPasswordRow"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+texture_normal = ExtResource("16_icon_eye")
+ignore_texture_size = true
+stretch_mode = 5
 
 [node name="ConfirmPasswordRow" type="HBoxContainer" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList" unique_id=1142323499]
 layout_mode = 2
@@ -421,6 +435,12 @@ text = "Confirmer"
 custom_minimum_size = Vector2(220, 0)
 layout_mode = 2
 secret = true
+[node name="ConfirmPasswordVisibilityButton" type="TextureButton" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/ConfirmPasswordRow"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+texture_normal = ExtResource("16_icon_eye")
+ignore_texture_size = true
+stretch_mode = 5
 
 [node name="EmailRow" type="HBoxContainer" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList"]
 layout_mode = 2
@@ -478,6 +498,12 @@ text = "Mot de passe contrôle parental"
 custom_minimum_size = Vector2(220, 0)
 layout_mode = 2
 secret = true
+[node name="ParentalPasswordVisibilityButton" type="TextureButton" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/ParentalControlFrame/Margin/Content/ParentalPasswordGroup/ParentalPasswordRow"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+texture_normal = ExtResource("16_icon_eye")
+ignore_texture_size = true
+stretch_mode = 5
 
 [node name="ParentalPasswordConfirmRow" type="HBoxContainer" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/ParentalControlFrame/Margin/Content/ParentalPasswordGroup" unique_id=165874701]
 layout_mode = 2
@@ -493,6 +519,12 @@ text = "Confirmer le mot de passe"
 custom_minimum_size = Vector2(220, 0)
 layout_mode = 2
 secret = true
+[node name="ParentalPasswordConfirmVisibilityButton" type="TextureButton" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/ParentalControlFrame/Margin/Content/ParentalPasswordGroup/ParentalPasswordConfirmRow"]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+texture_normal = ExtResource("16_icon_eye")
+ignore_texture_size = true
+stretch_mode = 5
 
 [node name="CaptchaFrame" type="PanelContainer" parent="Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList"]
 mouse_filter = 2

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+	<path fill="#4A2E1A" fill-rule="evenodd" d="
+		M2,16 C2,16 9,6 16,6 C23,6 30,16 30,16 C30,16 23,26 16,26 C9,26 2,16 2,16 Z
+		M11.5,16 A4.5,4.5 0 1,0 20.5,16 A4.5,4.5 0 1,0 11.5,16 Z
+		M14,16 A2,2 0 1,0 18,16 A2,2 0 1,0 14,16 Z
+	"/>
+	<line x1="4" y1="27" x2="28" y2="5" stroke="#4A2E1A" stroke-width="3.2" stroke-linecap="round"/>
+</svg>

@@ -235,20 +235,32 @@ theme_override_constants/separation = 16
 [node name="Title" type="Label" parent="Panel/Margin/Content/Tabs/MisesAJour/Scroll/ScrollMargin/List" unique_id=965518411]
 layout_mode = 2
 theme_override_font_sizes/font_size = 20
-text = "Prochaine mise à jour : V1.01"
+text = "Version actuelle : V1.01"
 autowrap_mode = 2
 
 [node name="Intro" type="Label" parent="Panel/Margin/Content/Tabs/MisesAJour/Scroll/ScrollMargin/List" unique_id=483433055]
 layout_mode = 2
-text = "Voici ce qui arrive bientôt dans le jeu :"
+text = "Les nouveautés de cette version :"
 autowrap_mode = 2
 
 [node name="Liste" type="Label" parent="Panel/Margin/Content/Tabs/MisesAJour/Scroll/ScrollMargin/List" unique_id=1844344695]
 layout_mode = 2
-text = "- De nouvelles musiques de classe
-- Un son amélioré dans tout le jeu
-- Des corrections dans les questions
-- Un ajustement de la difficulté"
+text = "- Ajout d'un clavier virtuel pour écran tactile
+- Création des décors pour les succès des classes CP et CE1
+- Musiques ajoutées pour les 5 classes"
+autowrap_mode = 2
+
+[node name="ProchainementTitle" type="Label" parent="Panel/Margin/Content/Tabs/MisesAJour/Scroll/ScrollMargin/List"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "Prochainement"
+autowrap_mode = 2
+
+[node name="ProchainementListe" type="Label" parent="Panel/Margin/Content/Tabs/MisesAJour/Scroll/ScrollMargin/List"]
+layout_mode = 2
+text = "- Implémentation des fiches de cours
+- Ajout et correction de contenu
+- Décors de classes CE2, CM1 et CM2"
 autowrap_mode = 2
 
 [node name="Cloture" type="Label" parent="Panel/Margin/Content/Tabs/MisesAJour/Scroll/ScrollMargin/List" unique_id=296488017]

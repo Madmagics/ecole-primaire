@@ -140,6 +140,12 @@ const ENABLED := true
 
 const COUNTRY_FLAG_FRANCE := preload("res://assets/flags/flag_fr.svg")
 
+## Icone oeil des champs mot de passe (retour utilisateur 2026-09-22) : oeil ouvert = mot de
+## passe masque (etat par defaut, secret=true dans le .tscn), clic pour l'afficher en clair ;
+## oeil barre = affiche, clic pour remasquer. Voir _toggle_password_visibility().
+const _EYE_ICON_VISIBLE := preload("res://assets/icons/oeil.svg")
+const _EYE_ICON_HIDDEN := preload("res://assets/icons/oeil_barre.svg")
+
 ## LoginButton/SwitchToCreateButton/CreateButton/SwitchToLoginButton en size_flags_horizontal =
 ## SIZE_SHRINK_BEGIN (0) depuis 2026-08-26 (retour utilisateur : "reduit de moitie la longueur des
 ## pushbutton, ils prennent actuellement toute la largeur de la fenetre") - voir SectionProfile.gd
@@ -212,6 +218,7 @@ var _turnstile_js_callback: JavaScriptObject
 
 @onready var login_input: LineEdit = $Panel/Margin/Content/LoginSection/LoginRow/LoginInput
 @onready var password_input: LineEdit = $Panel/Margin/Content/LoginSection/PasswordRow/PasswordInput
+@onready var password_visibility_button: TextureButton = $Panel/Margin/Content/LoginSection/PasswordRow/PasswordVisibilityButton
 @onready var login_error_label: Label = $Panel/Margin/Content/LoginSection/LoginErrorLabel
 @onready var login_button: Button = $Panel/Margin/Content/LoginSection/LoginButton
 @onready var switch_to_create_button: Button = $Panel/Margin/Content/LoginSection/SwitchToCreateButton
@@ -252,7 +259,9 @@ var _turnstile_js_callback: JavaScriptObject
 @onready var parental_control_check: CheckBox = $Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/ParentalControlFrame/Margin/Content/ParentalControlCheck
 @onready var parental_password_group: VBoxContainer = $Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/ParentalControlFrame/Margin/Content/ParentalPasswordGroup
 @onready var parental_password_input: LineEdit = $Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/ParentalControlFrame/Margin/Content/ParentalPasswordGroup/ParentalPasswordRow/ParentalPasswordInput
+@onready var parental_password_visibility_button: TextureButton = $Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/ParentalControlFrame/Margin/Content/ParentalPasswordGroup/ParentalPasswordRow/ParentalPasswordVisibilityButton
 @onready var parental_password_confirm_input: LineEdit = $Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/ParentalControlFrame/Margin/Content/ParentalPasswordGroup/ParentalPasswordConfirmRow/ParentalPasswordConfirmInput
+@onready var parental_password_confirm_visibility_button: TextureButton = $Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/ParentalControlFrame/Margin/Content/ParentalPasswordGroup/ParentalPasswordConfirmRow/ParentalPasswordConfirmVisibilityButton
 @onready var nom_input: LineEdit = $Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/NomRow/NomInput
 @onready var prenom_input: LineEdit = $Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/PrenomRow/PrenomInput
 @onready var day_spin: SpinBox = $Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/BirthdateRow/DaySpin
@@ -262,7 +271,9 @@ var _turnstile_js_callback: JavaScriptObject
 @onready var new_login_input: LineEdit = $Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/NewLoginRow/NewLoginInput
 @onready var login_suggestion_button: Button = $Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/LoginSuggestionButton
 @onready var new_password_input: LineEdit = $Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/NewPasswordRow/NewPasswordInput
+@onready var new_password_visibility_button: TextureButton = $Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/NewPasswordRow/NewPasswordVisibilityButton
 @onready var confirm_password_input: LineEdit = $Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/ConfirmPasswordRow/ConfirmPasswordInput
+@onready var confirm_password_visibility_button: TextureButton = $Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/ConfirmPasswordRow/ConfirmPasswordVisibilityButton
 @onready var email_input: LineEdit = $Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/EmailRow/EmailInput
 @onready var captcha_web_group: VBoxContainer = $Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/CaptchaFrame/Margin/Content/CaptchaWebGroup
 @onready var captcha_web_status_label: Label = $Panel/Margin/Content/CreateSection/CreateScroll/ScrollMargin/CreateList/CaptchaFrame/Margin/Content/CaptchaWebGroup/CaptchaWebStatusLabel
@@ -352,6 +363,14 @@ func _ready() -> void:
 	## branche ici.
 	login_input.text_submitted.connect(func(_text: String) -> void: _on_login_pressed())
 	password_input.text_submitted.connect(func(_text: String) -> void: _on_login_pressed())
+
+	## Icone oeil (voir _EYE_ICON_VISIBLE/_EYE_ICON_HIDDEN et _toggle_password_visibility) sur les
+	## 5 champs mot de passe du formulaire.
+	password_visibility_button.pressed.connect(_toggle_password_visibility.bind(password_input, password_visibility_button))
+	new_password_visibility_button.pressed.connect(_toggle_password_visibility.bind(new_password_input, new_password_visibility_button))
+	confirm_password_visibility_button.pressed.connect(_toggle_password_visibility.bind(confirm_password_input, confirm_password_visibility_button))
+	parental_password_visibility_button.pressed.connect(_toggle_password_visibility.bind(parental_password_input, parental_password_visibility_button))
+	parental_password_confirm_visibility_button.pressed.connect(_toggle_password_visibility.bind(parental_password_confirm_input, parental_password_confirm_visibility_button))
 	switch_to_create_button.pressed.connect(_show_create_section)
 	create_button.pressed.connect(_on_create_pressed)
 	switch_to_login_button.pressed.connect(_show_login_section)
@@ -359,6 +378,14 @@ func _ready() -> void:
 	## Autocompletion pseudo (2026-09-13, voir point 7 de project_auth_creation_comptes.md) +
 	## suggestion de variante a la creation (point 5, meme fichier).
 	login_input.text_changed.connect(_on_login_input_text_changed)
+	## Ecran tactile : les pseudos memorises s'affichent en ligne au-dessus du clavier du jeu (le
+	## menu deroulant ci-dessous serait cache sous son flou, voir ui/common/game_keyboard.gd,
+	## SUGGESTIONS_META) - memes regles : 2 caracteres minimum, filtre par prefixe sur PseudoCache.
+	login_input.set_meta(GameKeyboard.SUGGESTIONS_META, func(text: String) -> Array[String]:
+		if text.length() < 2:
+			return [] as Array[String]
+		return PseudoCache.get_suggestions(text))
+	login_input.set_meta(GameKeyboard.SUGGESTION_CHOSEN_META, _on_login_suggestion_chosen)
 	pseudo_forget_button.pressed.connect(_on_pseudo_forget_pressed)
 	login_suggestion_button.pressed.connect(_on_login_suggestion_button_pressed)
 
@@ -372,27 +399,6 @@ func _ready() -> void:
 	## Une suggestion affichee devient perimee des que l'enfant retouche au champ - on la masque
 	## plutot que de la laisser trainer sur un pseudo qui a change.
 	new_login_input.text_changed.connect(func(_text: String) -> void: login_suggestion_button.hide())
-
-	## Clavier virtuel mobile qui ne s'affiche pas en plein ecran (2026-09-19, retour utilisateur) :
-	## limitation connue et NON RESOLUE cote moteur Godot (voir github.com/godotengine/godot issue
-	## #117342, confirmee toujours ouverte au 2026-09-19) - la Fullscreen API des navigateurs mobiles
-	## (Android ET iOS) bloque le clavier virtuel tant que la page est en vrai plein ecran, quel que
-	## soit le champ concerne. Contournement communautaire (aucun correctif moteur disponible) :
-	## sortir du plein ecran des qu'un champ de ce formulaire recoit le focus (le clavier peut alors
-	## s'afficher), y revenir des qu'il le perd - SEULEMENT si le joueur avait active le plein ecran
-	## (SaveManager.fullscreen), jamais si le jeu tournait deja en fenetre. find_children (recursif,
-	## voir docs.godotengine.org/en/4.7/classes/class_node.html#class-node-method-find-children) sur
-	## TOUTES les LineEdit du panneau plutot qu'un branchement champ par champ : ce formulaire en
-	## compte 12, et un futur champ ajoute ici herite du comportement sans rebranchage manuel.
-	## Limite assumee : remettre le plein ecran automatiquement peut echouer sur certains navigateurs
-	## mobiles (la Fullscreen API exige parfois un geste utilisateur direct pour se reactiver, un
-	## focus perdu n'en est pas toujours un) - dans ce cas le joueur devra retoucher la case "Plein
-	## ecran" des Options pour y revenir, degrade mais jamais bloquant. Voir aussi
-	## _on_form_field_focus_entered()/_exited() plus bas.
-	for field: Node in find_children("*", "LineEdit", true, true):
-		var line_edit := field as LineEdit
-		line_edit.focus_entered.connect(_on_form_field_focus_entered)
-		line_edit.focus_exited.connect(_on_form_field_focus_exited)
 
 	_show_login_section()
 	visibility_changed.connect(_on_visibility_changed)
@@ -413,19 +419,6 @@ func _ready() -> void:
 	if ENABLED and SaveManager.current_account_id.is_empty():
 		show()
 		_show_intro_menu()
-
-## Contournement clavier virtuel mobile + plein ecran (voir le commentaire complet dans _ready(),
-## juste avant la boucle find_children) - issue moteur non resolue github.com/godotengine/godot
-## #117342. Bascule en fenetre le temps de la saisie, uniquement si le plein ecran est actif.
-func _on_form_field_focus_entered() -> void:
-	if _is_web and SaveManager.fullscreen:
-		DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_WINDOWED)
-
-## Restaure le plein ecran une fois la saisie terminee - peut echouer sur certains navigateurs
-## mobiles si la Fullscreen API exige un geste utilisateur direct (voir meme commentaire).
-func _on_form_field_focus_exited() -> void:
-	if _is_web and SaveManager.fullscreen:
-		DisplayServer.window_set_mode(DisplayServer.WINDOW_MODE_FULLSCREEN)
 
 func _on_visibility_changed() -> void:
 	if visible:
@@ -570,6 +563,15 @@ func _on_parental_control_toggled(is_checked: bool) -> void:
 	if not is_checked:
 		parental_password_input.clear()
 		parental_password_confirm_input.clear()
+
+## Bascule l'affichage en clair d'un champ mot de passe (retour utilisateur 2026-09-22, icone
+## oeil/oeil-barre cliquable a droite du champ) : une seule fonction partagee par les 5 champs
+## mot de passe du formulaire (connexion, creation, confirmation, controle parental x2) plutot
+## qu'un script/scene dedie par champ, via Callable.bind() sur le signal pressed de chaque
+## bouton (voir _ready()) - pas de composant reutilisable ailleurs dans le jeu pour l'instant.
+func _toggle_password_visibility(line_edit: LineEdit, button: TextureButton) -> void:
+	line_edit.secret = not line_edit.secret
+	button.texture_normal = _EYE_ICON_HIDDEN if not line_edit.secret else _EYE_ICON_VISIBLE
 
 func _on_login_pressed() -> void:
 	## Devenu asynchrone le 2026-09-13 (SaveManager.login() interroge desormais toujours le serveur,
@@ -797,7 +799,8 @@ func _on_login_suggestion_button_pressed() -> void:
 func _on_login_input_text_changed(new_text: String) -> void:
 	pseudo_forget_button.visible = PseudoCache.has_pseudo(new_text)
 	_clear_login_suggestions()
-	if new_text.length() < 2:
+	## Clavier du jeu actif : les suggestions sont deja affichees au-dessus de lui.
+	if new_text.length() < 2 or GameKeyboard.is_enabled():
 		return
 	for suggestion in PseudoCache.get_suggestions(new_text):
 		var button := Button.new()

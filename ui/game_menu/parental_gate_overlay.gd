@@ -40,6 +40,9 @@ func _ready() -> void:
 func open() -> void:
 	_expected_code = _generate_code()
 	code_label.text = _expected_code
+	## Le code a recopier est cache sous le flou du clavier du jeu : on le reaffiche au-dessus de la
+	## case (voir ui/common/game_keyboard.gd, _describe()).
+	code_input.set_meta(GameKeyboard.DESCRIPTION_META, "Un adulte doit recopier ce code pour confirmer : " + _expected_code)
 	code_input.text = ""
 	error_label.hide()
 	show()

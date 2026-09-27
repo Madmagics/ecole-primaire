@@ -350,6 +350,9 @@ func _display_current_question() -> void:
 	_progress_icon.visible = false
 	_update_question_label_max_width(question.grid_cells.size() == 9)
 	question_label.text = _build_question_bbcode(question.text)
+	## Enonce recopie au-dessus de la case dans le clavier du jeu (le reste de l'ecran y est floute,
+	## voir ui/common/game_keyboard.gd, _describe()).
+	answer_input.set_meta(GameKeyboard.DESCRIPTION_META, question.text)
 	_populate_logic_grid(question)
 	_clear_choice_buttons()
 
