@@ -34,6 +34,7 @@ PseudoCache="*res://autoload/pseudo_cache.gd"
 SoundManager="*res://autoload/sound_manager.gd"
 NpcBubbleScheduler="*res://autoload/npc_bubble_scheduler.gd"
 ServerApi="*res://autoload/server_api.gd"
+ContentLibrary="*res://autoload/content_library.gd"
 GameKeyboard="*res://ui/common/game_keyboard.gd"
 
 [display]

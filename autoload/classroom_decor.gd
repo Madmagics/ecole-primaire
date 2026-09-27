@@ -108,7 +108,7 @@ func get_active_scene_path() -> String:
 ## le total requis (voir get_required_count) - affiche en "X/Y" sur la case de boutique.
 func get_validated_count(grade: Grade) -> int:
 	var count := 0
-	for subject in QuestionBankScanner.get_available_subjects(grade):
+	for subject in ContentLibrary.get_available_subjects(grade):
 		if ChallengeTracker.get_count(grade, subject) >= ChallengeTracker.SILVER_GOAL:
 			count += 1
 	return count
@@ -116,10 +116,12 @@ func get_validated_count(grade: Grade) -> int:
 ## Nombre de Defis a valider (a l'argent) pour debloquer le decor de [grade] - TOUS les Defis de
 ## la classe, voir le commentaire de classe.
 func get_required_count(grade: Grade) -> int:
-	return QuestionBankScanner.get_available_subjects(grade).size()
+	return ContentLibrary.get_available_subjects(grade).size()
 
+## Garde (2026-09-27) : 0 matiere = contenu pas encore charge, jamais un deblocage gratuit.
 func can_unlock(grade: Grade) -> bool:
-	return get_validated_count(grade) >= get_required_count(grade)
+	var required := get_required_count(grade)
+	return required > 0 and get_validated_count(grade) >= required
 
 ## Tente de debloquer le decor de [grade] (echoue si deja debloque ou Defis insuffisants) - rien
 ## n'est jamais "depense" ici (contrairement a Economy.try_spend), ChallengeTracker ne redescend

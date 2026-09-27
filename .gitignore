@@ -33,3 +33,6 @@ test-export/
 /index.apple-touch-icon.png.import
 /index.audio.worklet.js
 /index.audio.position.worklet.js
+
+# Acces direct de Claude a la base de contenu (cle SSH privee) - ne JAMAIS envoyer sur GitHub
+.acces_claude/

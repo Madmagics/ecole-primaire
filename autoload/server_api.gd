@@ -46,6 +46,8 @@ const BASE_URL := "https://api.ecole-primaire.eu/rest/v1/rpc/"
 ## le VPS est injoignable (un pare-feu peut laisser une connexion "pendre" plutot que la refuser
 ## immediatement, contrairement a un simple refus de port).
 const TIMEOUT_SECONDS := 8.0
+## Delai pour le telechargement d'un paquet de contenu (voir obtenir_paquet).
+const PACK_TIMEOUT_SECONDS := 30.0
 
 ## Recupere le sel du compte [p_login] (etape prealable a login(), voir commentaire de
 ## fn_obtenir_sel dans schema.sql) - data (si ok) : String.
@@ -188,9 +190,19 @@ func demander_reinitialisation_mdp(p_login_ou_email: String) -> Dictionary:
 ##   - reussite         : {"ok": true, "data": <resultat jsonb de la fonction, deja parse>}
 ##   - refus du serveur  : {"ok": false, "type": "serveur", "message": "<ex: identifiants_invalides>"}
 ##   - probleme reseau  : {"ok": false, "type": "reseau", "message": "<detail technique>"}
-func _call_rpc(fn_name: String, params: Dictionary) -> Dictionary:
+## Contenu pedagogique (2026-09-27, voir autoload/content_library.gd) : lecture seule, sans jeton.
+## data (si ok) : {"cp/math": 3, ...} (version de chaque paquet publie).
+func obtenir_manifeste() -> Dictionary:
+	return await _call_rpc("fn_manifeste", {})
+
+## data (si ok) : {"questions": [...], "passages": [...], "cours": [...], "version": int}.
+## Delai plus long que les autres appels : un paquet de lecture peut peser plusieurs centaines de Ko.
+func obtenir_paquet(p_classe: String, p_matiere: String) -> Dictionary:
+	return await _call_rpc("fn_paquet", {"p_classe": p_classe, "p_matiere": p_matiere}, PACK_TIMEOUT_SECONDS)
+
+func _call_rpc(fn_name: String, params: Dictionary, timeout: float = TIMEOUT_SECONDS) -> Dictionary:
 	var http := HTTPRequest.new()
-	http.timeout = TIMEOUT_SECONDS
+	http.timeout = timeout
 	add_child(http)
 
 	var headers := PackedStringArray([

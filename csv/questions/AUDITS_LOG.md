@@ -1160,3 +1160,36 @@ cette correction) — à supprimer seulement après validation en jeu + push Git
 **À faire ensuite si Steve le demande** : mettre à jour `LOGIQUE_DIFFICULTE.md` section 1 (le
 tableau CM2 mentionne encore « combinatoire simple » comme famille — fait, voir section 7 mise à
 jour du même fichier).
+
+### #21 — 2026-09-27 — Erreurs de langage + réponses illogiques (4 captures en jeu) — corrigé DANS SUPABASE
+
+**Premier audit appliqué directement dans la base** (Supabase = source de vérité depuis la phase 1 ;
+les CSV sont gelés et ne sont PAS modifiés). Script : `server/correctifs_2026-09-27_langage_logique.sql`,
+détail ligne à ligne : `server/correctifs_2026-09-27_detail.csv`. 267 questions corrigées, toutes classes.
+
+Signalé par Steve (captures) : « Camille a rencontré un piano » (logique CE2), « vélo » → cycling
+(anglais CE1), « un immeuble est plus fort qu'une maison » (anglais CM1/CM2), « Félix a 1 perles » (maths CP).
+
+Équivalents cherchés et corrigés :
+1. **Logique CE2 (32)** : famille « Tous les X sont des Y. Nom a rencontré un X » → « a vu un X »
+   (rencontrer ne marche pas avec un objet/légume/fleur/instrument).
+2. **Maths CP à CM2 (18)** : « 1 + nom au pluriel » → singulier (1 perle, 1 gâteau, 1 unité, 1 dizaine,
+   1 euro, 1 mètre, 1 heure). 3 questions seraient devenues des doublons exacts d'autres questions
+   (cm1 1762, cm2 1937/1938) → remplacées par une question du même type (demi-heure ; 30 et 90 km/h).
+3. **Anglais CE1 (3)** : mots isolés ambigus — « vélo » (= bike) → « faire du vélo », « pêche »
+   (= aussi peach, question 19360 existe !) → « faire de la pêche », « course » → « la course à pied ».
+4. **Anglais CM1 (10)** : « mon sport préféré est natation » → article ajouté (la natation, le ski…).
+5. **Anglais CM2 (12)** : « I did golf/fishing last weekend » → verbe correct selon le sport
+   (play pour les sports de balle, go + -ing, do pour gymnastique/judo), bonnes réponses ET choix.
+6. **Anglais CM1/CM2 comparatifs (192)** : famille « un X est plus ADJ qu'un Y » générée en croisant
+   paires × adjectifs sans contrôle → relue en entier (audit exhaustif, pas réactif). 85 phrases
+   cohérentes gardées, 107 incohérentes réécrites (propre, sec, vieux, haut pour un animal, fort pour
+   un immeuble…) avec une liste blanche paire → adjectifs plausibles, y compris le sens inverse
+   (« une souris est plus légère qu'un géant »). 0 doublon créé. En plus : « higher » → « taller »
+   (sauf montagne), « feuille » traduite « sheet of paper » au lieu de « leaf ». Mauvais choix
+   refaits en variantes proches de la même phrase (sujet inversé, autre adjectif de la même paire)
+   au lieu de phrases sans rapport.
+
+**Sécurité** : chaque ligne n'est modifiée que si son id ET son ancien énoncé correspondent ; si le
+compte ≠ 267, tout est annulé. L'ancienne version de chaque ligne est gardée automatiquement dans
+`contenu_historique`. `fn_publier()` relancé à la fin (seuls les paquets modifiés changent de version).

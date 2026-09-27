@@ -11,6 +11,10 @@ extends Resource
 const Subject = SubjectType.Subject
 const Grade = GradeLevel.Grade
 
+## Identifiant de la question dans Supabase (contenu_questions.id) - 0 pour les anciens .tres.
+@export var id: int = 0
+## Code de la notion (contenu_notions.code, ex. "addition") : relie la question a sa fiche de cours.
+@export var notion: String = ""
 @export var subject: Subject = Subject.MATH
 ## Classe scolaire ciblee (CP a CM2) : determine la rarete des pieces gagnees si cette
 ## question fait partie d'un pack reussi (voir GradeLevel.get_rarity).

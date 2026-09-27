@@ -17,7 +17,7 @@
 ## prematuree).
 ##
 ## Une classe debloque ses musiques quand LA TOTALITE de ses Defis est au palier bronze ou plus -
-## meme lecture dynamique de QuestionBankScanner.get_available_subjects(grade) que ClassroomDecor,
+## meme lecture dynamique de ContentLibrary.get_available_subjects(grade) que ClassroomDecor,
 ## pas de nombre code en dur.
 ##
 ## Selection/desactivation (2026-09-06, 2e passe, retour utilisateur : "afin de pouvoir
@@ -74,7 +74,7 @@ func is_active(grade: Grade) -> bool:
 ## le total requis (voir get_required_count) - affiche en "X/Y" sur la case de boutique.
 func get_validated_count(grade: Grade) -> int:
 	var count := 0
-	for subject in QuestionBankScanner.get_available_subjects(grade):
+	for subject in ContentLibrary.get_available_subjects(grade):
 		if ChallengeTracker.get_count(grade, subject) >= ChallengeTracker.BRONZE_GOAL:
 			count += 1
 	return count
@@ -82,10 +82,12 @@ func get_validated_count(grade: Grade) -> int:
 ## Nombre de Defis a valider (au bronze) pour debloquer les musiques de [grade] - TOUS les Defis
 ## de la classe, voir le commentaire de classe.
 func get_required_count(grade: Grade) -> int:
-	return QuestionBankScanner.get_available_subjects(grade).size()
+	return ContentLibrary.get_available_subjects(grade).size()
 
+## Garde (2026-09-27) : 0 matiere = contenu pas encore charge, jamais un deblocage gratuit.
 func can_unlock(grade: Grade) -> bool:
-	return get_validated_count(grade) >= get_required_count(grade)
+	var required := get_required_count(grade)
+	return required > 0 and get_validated_count(grade) >= required
 
 ## Tente de debloquer les musiques de [grade] (echoue si deja debloque ou Defis insuffisants) -
 ## rien n'est jamais "depense" ici (contrairement a Economy.try_spend), ChallengeTracker ne

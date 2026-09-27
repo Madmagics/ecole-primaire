@@ -204,7 +204,7 @@ func _build_grade_frame(grade: GradeLevel.Grade) -> PanelContainer:
 
 	content.add_child(_build_title_row(grade))
 
-	for subject in QuestionBankScanner.get_available_subjects(grade):
+	for subject in ContentLibrary.get_available_subjects(grade):
 		content.add_child(_build_subject_row(grade, subject))
 
 	return frame

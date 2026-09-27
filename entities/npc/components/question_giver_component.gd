@@ -47,7 +47,6 @@ signal daily_limit_reached(source: Node)
 signal reading_pack_started(source: Node, passage: PassageResource, questions: Array[QuestionResource], rarity: Rarity)
 
 const PACK_SIZE := 10
-const RESOURCES_DIR := "res://data/question/resources"
 
 ## Titre affiche dans le bouton du reticule central (voir InteractPrompt) quand ce PNJ est en
 ## portee - pose sur l'InteractableComponent (prompt_text) au _ready. Genre (Maitre/Maitresse)
@@ -66,12 +65,10 @@ const _GRADE_TEACHER_TITLES := {
 ## fixe et la classe choisie a l'interaction - voir MATIERES_CANDIDATES.md pour le contexte de
 ## ce changement).
 @export var grade: Grade = Grade.CP
-## Toutes les questions de ce PNJ, toutes matieres confondues (filtrees par matiere choisie au
-## moment de l'interaction, voir start_pack_for_subject). Laisser VIDE dans l'inspecteur pour
-## charger automatiquement toutes les QuestionResource de RESOURCES_DIR/<classe>/ correspondant
-## a "grade" (voir _ready) : evite de re-cabler chaque PNJ a la main a chaque ajout de contenu en
-## masse. Ne remplir ce champ a la main que si un PNJ doit un jour se limiter a un sous-ensemble
-## specifique de questions.
+## Questions forcees a la main pour ce PNJ (toutes matieres confondues). Laisser VIDE dans
+## l'inspecteur (cas normal) : les questions viennent alors de ContentLibrary (paquets Supabase,
+## depuis le 2026-09-27 - avant, scan des .tres de data/question/resources), demandees a chaque
+## lancement de pack (voir _get_pool) pour profiter d'une publication recue en cours de session.
 @export var question_pool: Array[QuestionResource] = []
 
 ## Matieres avec "pack de revision" (voir _build_review_pack) : en plus des questions de la
@@ -90,8 +87,6 @@ var _current_pack_size: int = PACK_SIZE
 
 func _ready() -> void:
 	_rarity = GradeLevel.get_rarity(grade)
-	if question_pool.is_empty():
-		question_pool = _load_all_for_grade(grade)
 	## Le jeu est desormais 2D uniquement (voir entities/npc_2d/npc_2d.tscn) - la branche 3D
 	## historique (InteractableComponent/npc.tscn) a ete retiree avec le reste du park 3D
 	## (voir project_2d_pivot en memoire ; recuperable via la branche git "backup3d" si besoin).
@@ -112,42 +107,17 @@ func _find_sibling_interactable() -> InteractableComponent2D:
 			return child
 	return null
 
-## Scanne RESOURCES_DIR/<classe>/ (et ses sous-dossiers matiere, voir import_questions.gd) et
-## renvoie toutes les QuestionResource qui s'y trouvent, toutes matieres confondues (le filtrage
-## par matiere se fait ensuite dans start_pack_for_subject, au moment ou le joueur choisit).
-## Depuis aout 2026, chaque .tres rencontre est un QuestionBankResource regroupant toutes les
-## questions d'UN CSV source (voir data/question/question_bank_resource.gd) plutot qu'une
-## QuestionResource isolee : un fichier par CSV/matiere au lieu d'un fichier par question, pour
-## eviter des milliers d'ouvertures de fichier a chaque demarrage (voir ARCHITECTURE.md).
-func _load_all_for_grade(target_grade: Grade) -> Array[QuestionResource]:
+## Questions d'UNE matiere pour ce PNJ : question_pool si rempli a la main, sinon ContentLibrary.
+## Renvoie toujours une COPIE (les appelants font des shuffle()).
+func _get_pool(subject: Subject) -> Array[QuestionResource]:
 	var result: Array[QuestionResource] = []
-	var folder_name := GradeLevel.get_folder_name(target_grade)
-	if folder_name == "":
+	if question_pool.is_empty():
+		result.assign(ContentLibrary.get_questions(grade, subject))
 		return result
-	_scan_dir(RESOURCES_DIR + "/" + folder_name, result)
+	for question in question_pool:
+		if question.subject == subject:
+			result.append(question)
 	return result
-
-## Enumeration via ResourceLoader.list_directory(), PAS DirAccess (2026-09-12, bug clic PNJ
-## inactif sur la version en ligne) : DirAccess.open()/list_dir_begin()/get_next() sur un dossier
-## res:// est un cas documente comme non fiable sur un projet EXPORTE (PCK), meme si parfaitement
-## fiable dans l'editeur (confirme via github.com/godotengine/godot issues #87552/#99047 et la
-## proposition officielle godot-proposals#13122 qui documente cette incoherence editeur/export) -
-## ce projet n'ayant qu'un seul export (Web, voir export_presets.cfg), le symptome se voit
-## uniquement "en ligne", jamais en testant depuis l'editeur. Consequence concrete ici : dir restait
-## null (ou la liste vide) sur la version deployee -> question_pool restait vide pour les 5 PNJ ->
-## _on_interacted() ci-dessous sortait des sa toute premiere ligne (question_pool.is_empty()) sans
-## rien faire, ni signal ni erreur - d'ou l'impression d'un clic totalement mort sur les PNJ.
-## ResourceLoader.list_directory() est le contournement confirme fonctionnel a l'export (meme
-## proposition #13122) : renvoie les noms de ressources "propres" (pas de suffixe .import/.remap a
-## filtrer) avec un "/" final pour les sous-dossiers.
-func _scan_dir(dir_path: String, result: Array[QuestionResource]) -> void:
-	for entry: String in ResourceLoader.list_directory(dir_path):
-		if entry.ends_with("/"):
-			_scan_dir("%s/%s" % [dir_path, entry.trim_suffix("/")], result)
-		elif entry.ends_with(".tres"):
-			var bank := load("%s/%s" % [dir_path, entry]) as QuestionBankResource
-			if bank:
-				result.append_array(bank.questions)
 
 ## Matieres reellement disponibles pour ce PNJ (donc cette classe), deduites du contenu charge
 ## plutot que d'une liste figee a la main : une nouvelle matiere apparait automatiquement des
@@ -157,6 +127,8 @@ func _scan_dir(dir_path: String, result: Array[QuestionResource]) -> void:
 ## utilisateur 2026-07-28) : l'enum est deja range dans un ordre pedagogique voulu (maths, puis
 ## les 3 competences francaises regroupees, anglais et lecture en dernier).
 func get_available_subjects() -> Array[Subject]:
+	if question_pool.is_empty():
+		return ContentLibrary.get_available_subjects(grade)
 	var seen: Dictionary = {}
 	var result: Array[Subject] = []
 	for question in question_pool:
@@ -179,7 +151,9 @@ func get_available_subjects() -> Array[Subject]:
 ## daily_limit_reached (voir son commentaire ci-dessus) plutot que pack_unavailable depuis le
 ## 2026-09-06, 2e passe - petit popup dedie au lieu de la fenetre complete de QuestionPanel.
 func _on_interacted(_who: Node) -> void:
-	if question_pool.is_empty():
+	if get_available_subjects().is_empty():
+		## Tout premier lancement du jeu sur cet appareil : paquets encore en telechargement.
+		pack_unavailable.emit(self, "Chargement des questions en cours… réessaie dans un instant !")
 		return
 	if SaveManager.has_reached_daily_game_limit():
 		daily_limit_reached.emit(self)
@@ -215,14 +189,15 @@ func start_pack_for_subject(source: Node, subject: Subject) -> void:
 ## plus large prevu pour cette classe). L'UI affiche d'abord le texte (ReadingIntroPanel) avant
 ## d'enchainer sur les questions, voir reading_pack_started.
 func _start_reading_pack(_source: Node) -> void:
-	var passages := _load_passages_for_grade(grade)
+	var reading_pool := _get_pool(Subject.READING)
+	var passages := _get_passages(reading_pool)
 	if passages.is_empty():
 		pack_unavailable.emit(self, "Pas encore de texte de %s pour le %s !" % [SubjectType.get_label(Subject.READING), GradeLevel.get_label(grade)])
 		return
 	var passage: PassageResource = passages.pick_random()
 	var pool: Array[QuestionResource] = []
-	for question in question_pool:
-		if question.subject == Subject.READING and question.passage == passage:
+	for question in reading_pool:
+		if question.passage == passage:
 			pool.append(question)
 	if pool.is_empty():
 		pack_unavailable.emit(self, "Ce texte n'a pas encore de questions !")
@@ -233,20 +208,14 @@ func _start_reading_pack(_source: Node) -> void:
 	_current_pack_size = questions.size()
 	reading_pack_started.emit(self, passage, questions, _rarity)
 
-## Renvoie tous les PassageResource distincts reference par les questions READING de
-## question_pool (deja charge en memoire par _load_all_for_grade au _ready) - PAS un nouveau
-## scan/chargement depuis le disque. Important depuis le passage aux QuestionBankResource (aout
-## 2026, voir _scan_dir) : un second load() independant du meme fichier .tres pourrait renvoyer
-## une INSTANCE DIFFERENTE du meme passage si le QuestionBankResource charge une premiere fois
-## au _ready n'est plus reference nulle part (son cache memoire n'est alors plus garanti), ce qui
-## casserait la comparaison par reference "question.passage == passage" plus bas dans
-## _start_reading_pack (meme bug que celui documente dans passage_resource.gd, evite ici en ne
-## rechargeant jamais depuis le disque une donnee deja en memoire).
-func _load_passages_for_grade(_target_grade: Grade) -> Array[PassageResource]:
+## PassageResource distincts references par [pool] - meme instance partagee par toutes les
+## questions d'un meme paquet (voir ContentLibrary._build_questions), d'ou la comparaison "=="
+## fiable dans _start_reading_pack.
+func _get_passages(pool: Array[QuestionResource]) -> Array[PassageResource]:
 	var seen: Dictionary = {}
 	var result: Array[PassageResource] = []
-	for question in question_pool:
-		if question.subject == Subject.READING and question.passage != null and not seen.has(question.passage):
+	for question in pool:
+		if question.passage != null and not seen.has(question.passage):
 			seen[question.passage] = true
 			result.append(question.passage)
 	return result
@@ -254,10 +223,7 @@ func _load_passages_for_grade(_target_grade: Grade) -> Array[PassageResource]:
 ## Matiere "plate" (Maths, Lecture) : tire au hasard dans le pool de la classe de ce PNJ
 ## uniquement, comme avant l'introduction du pack de revision.
 func _sample_own_grade(subject: Subject, count: int) -> Array[QuestionResource]:
-	var matching: Array[QuestionResource] = []
-	for question in question_pool:
-		if question.subject == subject:
-			matching.append(question)
+	var matching := _get_pool(subject)
 	matching.shuffle()
 	return matching.slice(0, mini(count, matching.size()))
 
@@ -274,11 +240,11 @@ func _build_review_pack(subject: Subject) -> Array[QuestionResource]:
 	for quota in _compute_review_quotas(scope, idx):
 		var source_grade: Grade = quota[0]
 		var count: int = quota[1]
-		var pool := question_pool if source_grade == grade else _load_subject_for_grade(subject, source_grade)
 		var matching: Array[QuestionResource] = []
-		for question in pool:
-			if question.subject == subject:
-				matching.append(question)
+		if source_grade == grade:
+			matching = _get_pool(subject)
+		else:
+			matching.assign(ContentLibrary.get_questions(source_grade, subject))
 		matching.shuffle()
 		result.append_array(matching.slice(0, mini(count, matching.size())))
 	return result
@@ -339,27 +305,15 @@ func _distribute_quota(weights: Array[float], total: int) -> Array[int]:
 		quotas[order[i]] += 1
 	return quotas
 
-## Liste ordonnee (CP -> CM2) des classes ou cette matiere a effectivement du contenu sur le
-## disque - deduite de l'arborescence plutot que figee en dur, meme principe data-driven que
+## Liste ordonnee (CP -> CM2) des classes ou cette matiere a effectivement du contenu (paquet
+## publie dans ContentLibrary) - deduite des donnees plutot que figee en dur, meme principe data-driven que
 ## get_available_subjects (une matiere qui gagne une classe supplementaire plus tard n'a rien
 ## a toucher ici).
 func _get_subject_grade_scope(subject: Subject) -> Array[Grade]:
-	var subject_folder := SubjectType.get_folder_name(subject)
 	var result: Array[Grade] = []
 	for g in [Grade.CP, Grade.CE1, Grade.CE2, Grade.CM1, Grade.CM2]:
-		var path := "%s/%s/%s" % [RESOURCES_DIR, GradeLevel.get_folder_name(g), subject_folder]
-		if DirAccess.dir_exists_absolute(path):
+		if ContentLibrary.has_pack(g, subject):
 			result.append(g)
-	return result
-
-## Charge uniquement les QuestionResource d'UNE matiere pour UNE classe anterieure (pas tout le
-## pool de cette classe comme _load_all_for_grade) : utilise par _build_review_pack pour aller
-## chercher les questions de revision sans recharger des matieres non concernees.
-func _load_subject_for_grade(subject: Subject, target_grade: Grade) -> Array[QuestionResource]:
-	var subject_folder := SubjectType.get_folder_name(subject)
-	var path := "%s/%s/%s" % [RESOURCES_DIR, GradeLevel.get_folder_name(target_grade), subject_folder]
-	var result: Array[QuestionResource] = []
-	_scan_dir(path, result)
 	return result
 
 ## Appele par l'UI (QuestionPanel, partagee par tous les PNJ) une fois que le joueur a
