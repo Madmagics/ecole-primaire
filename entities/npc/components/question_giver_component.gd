@@ -3,11 +3,11 @@
 ## college/lycee ou chaque matiere a son propre professeur). A l'interaction, demande d'abord au
 ## joueur quelle matiere il veut travailler (parmi celles disponibles pour cette classe, voir
 ## get_available_subjects), puis compose un pack de questions de cette matiere et le lance : soit
-## PACK_SIZE questions au total (10, voir retour utilisateur 2026-08-01 "questionnaires a
-## rallonge" - avant cette date, un "pack de revision" pouvait monter a 10-25 questions), soit
-## tirees uniquement dans la classe de ce PNJ (Maths, Lecture), soit reparties avec les classes
-## anterieures pour Grammaire/Conjugaison/Orthographe/Anglais (voir REVIEW_SUBJECTS,
-## _build_review_pack, et FRANCAIS_DIFFICULTE.md pour le detail du bareme).
+## PACK_SIZE questions (10), tirees UNIQUEMENT dans la classe de ce PNJ. Depuis le 2026-09-28
+## (retour d'utilisateurs "toujours les memes questions/textes"), le tirage passe par QuestionDraw :
+## au moins une question par notion, pas de repetition avant d'avoir epuise une notion, textes de
+## lecture tous lus avant d'en revoir un. L'ancien "pack de revision" qui melangeait les classes
+## anterieures (Grammaire/Conjugaison/Orthographe/Anglais) est supprime.
 ## Recompense finale en pieces de la rarete liee a la classe de ce PNJ (voir GradeLevel.get_rarity),
 ## mise a l'echelle sur la taille reelle du pack (voir CardRarity.get_pack_reward) : impossible de
 ## "se declarer" plus jeune pour farmer des pieces, le gain reste plafonne a la classe du PNJ
@@ -70,14 +70,6 @@ const _GRADE_TEACHER_TITLES := {
 ## depuis le 2026-09-27 - avant, scan des .tres de data/question/resources), demandees a chaque
 ## lancement de pack (voir _get_pool) pour profiter d'une publication recue en cours de session.
 @export var question_pool: Array[QuestionResource] = []
-
-## Matieres avec "pack de revision" (voir _build_review_pack) : en plus des questions de la
-## classe de ce PNJ, le pack pioche aussi dans les classes anterieures pour faire reviser les
-## acquis, evitant que le joueur oublie une notion vue l'annee precedente. Exclut Maths (les
-## acquis y sont deja cumulatifs par construction - un probleme de CM2 suppose les tables et les
-## 4 operations - reviser au hasard des additions de CP n'apporterait rien) et Lecture (mecanique
-## dediee au passage, pas de pack "plat"). Voir FRANCAIS_DIFFICULTE.md pour le detail du bareme.
-const REVIEW_SUBJECTS: Array[Subject] = [Subject.GRAMMAR, Subject.CONJUGATION, Subject.SPELLING, Subject.ENGLISH]
 
 ## Rarete des pieces gagnees par ce PNJ, fixee une fois pour toutes par sa classe (voir grade).
 var _rarity: Rarity = Rarity.COMMON
@@ -169,32 +161,31 @@ func start_pack_for_subject(source: Node, subject: Subject) -> void:
 	if subject == Subject.READING:
 		_start_reading_pack(source)
 		return
-	var sample: Array[QuestionResource] = _build_review_pack(subject) if subject in REVIEW_SUBJECTS else _sample_own_grade(subject, PACK_SIZE)
+	var key := _draw_key(subject)
+	var state := SaveManager.get_draw_state(key)
+	var sample := QuestionDraw.draw_questions(_get_pool(subject), PACK_SIZE, state)
 	if sample.is_empty():
 		pack_unavailable.emit(self, "Pas encore de questions de %s pour le %s !" % [SubjectType.get_label(subject), GradeLevel.get_label(grade)])
 		return
-	sample.shuffle()
+	SaveManager.set_draw_state(key, state)
 	_current_subject = subject
 	_current_pack_size = sample.size()
 	pack_started.emit(self, sample, _rarity)
 
-## Matiere "Comprehension de texte" : tire un passage au hasard parmi ceux de cette classe,
-## reunit TOUTES les questions liees a ce passage (pas un echantillon plat comme les autres
-## matieres - uniquement celles du texte tire), puis n'en garde que PACK_SIZE tirees au hasard
-## parmi elles (voir PACK_SIZE) : la banque par texte peut contenir plus de questions que
-## PACK_SIZE (CE1 a CM2 : 20 questions en banque, 10 jouees a chaque fois) afin qu'une relecture
-## du meme texte ne repose pas systematiquement les 20 memes questions dans le meme ordre - voir
-## retour utilisateur 2026-07-31. Au CP, la banque ne compte que 10 questions (= PACK_SIZE) : le
-## tirage y est donc toujours integral, sans variation possible, ce qui est attendu (pas de pool
-## plus large prevu pour cette classe). L'UI affiche d'abord le texte (ReadingIntroPanel) avant
-## d'enchainer sur les questions, voir reading_pack_started.
+## Matiere "Comprehension de texte" : tire un texte de cette classe pas encore lu dans le cycle en
+## cours (voir QuestionDraw.draw_passage), puis PACK_SIZE questions parmi celles de CE texte (au
+## moins une par notion, sans repetition avant d'avoir epuise la banque du texte). Banque par
+## texte : 10 questions au CP (donc toujours les 10, ordre melange), 20 du CE1 au CM2. L'UI
+## affiche d'abord le texte (ReadingIntroPanel), voir reading_pack_started.
 func _start_reading_pack(_source: Node) -> void:
 	var reading_pool := _get_pool(Subject.READING)
 	var passages := _get_passages(reading_pool)
 	if passages.is_empty():
 		pack_unavailable.emit(self, "Pas encore de texte de %s pour le %s !" % [SubjectType.get_label(Subject.READING), GradeLevel.get_label(grade)])
 		return
-	var passage: PassageResource = passages.pick_random()
+	var key := _draw_key(Subject.READING)
+	var state := SaveManager.get_draw_state(key)
+	var passage := QuestionDraw.draw_passage(passages, state)
 	var pool: Array[QuestionResource] = []
 	for question in reading_pool:
 		if question.passage == passage:
@@ -202,11 +193,15 @@ func _start_reading_pack(_source: Node) -> void:
 	if pool.is_empty():
 		pack_unavailable.emit(self, "Ce texte n'a pas encore de questions !")
 		return
-	pool.shuffle()
-	var questions: Array[QuestionResource] = pool.slice(0, mini(PACK_SIZE, pool.size()))
+	var questions := QuestionDraw.draw_questions(pool, PACK_SIZE, state)
+	SaveManager.set_draw_state(key, state)
 	_current_subject = Subject.READING
 	_current_pack_size = questions.size()
 	reading_pack_started.emit(self, passage, questions, _rarity)
+
+## Cle de l'historique de tirage du compte (voir SaveManager.get_draw_state), ex. "ce2/math".
+func _draw_key(subject: Subject) -> String:
+	return "%s/%s" % [GradeLevel.get_folder_name(grade), SubjectType.get_folder_name(subject)]
 
 ## PassageResource distincts references par [pool] - meme instance partagee par toutes les
 ## questions d'un meme paquet (voir ContentLibrary._build_questions), d'ou la comparaison "=="
@@ -218,102 +213,6 @@ func _get_passages(pool: Array[QuestionResource]) -> Array[PassageResource]:
 		if question.passage != null and not seen.has(question.passage):
 			seen[question.passage] = true
 			result.append(question.passage)
-	return result
-
-## Matiere "plate" (Maths, Lecture) : tire au hasard dans le pool de la classe de ce PNJ
-## uniquement, comme avant l'introduction du pack de revision.
-func _sample_own_grade(subject: Subject, count: int) -> Array[QuestionResource]:
-	var matching := _get_pool(subject)
-	matching.shuffle()
-	return matching.slice(0, mini(count, matching.size()))
-
-## Matiere "avec revision" (voir REVIEW_SUBJECTS) : compose le pack en piochant a la fois dans
-## la classe de ce PNJ et dans les classes anterieures ou cette matiere existe, selon un bareme
-## qui augmente avec la classe (voir _compute_review_quotas) - documente et valide avec
-## l'utilisateur dans FRANCAIS_DIFFICULTE.md.
-func _build_review_pack(subject: Subject) -> Array[QuestionResource]:
-	var scope := _get_subject_grade_scope(subject)
-	var idx := scope.find(grade)
-	if idx == -1:
-		return []
-	var result: Array[QuestionResource] = []
-	for quota in _compute_review_quotas(scope, idx):
-		var source_grade: Grade = quota[0]
-		var count: int = quota[1]
-		var matching: Array[QuestionResource] = []
-		if source_grade == grade:
-			matching = _get_pool(subject)
-		else:
-			matching.assign(ContentLibrary.get_questions(source_grade, subject))
-		matching.shuffle()
-		result.append_array(matching.slice(0, mini(count, matching.size())))
-	return result
-
-## Bareme de revision (voir FRANCAIS_DIFFICULTE.md) : pour une matiere qui existe sur N classes
-## (ex. Anglais : CP a CM2, N=5 ; Grammaire/Conjugaison/Orthographe : CE1 a CM2, N=4), la classe
-## d'index idx (0 = premiere classe ou la matiere existe) determine des POIDS relatifs entre les
-## classes concernees, puis _distribute_quota les convertit en un nombre entier de questions dont
-## la somme fait toujours PACK_SIZE (10) au total - avant le 2026-08-01 le total montait jusqu'a
-## 25 (poids fixes multiplies par le nombre de classes anterieures au lieu d'etre mis a l'echelle,
-## retour utilisateur "questionnaires a rallonge") :
-## - idx == 0 (premiere classe) : PACK_SIZE questions de sa propre classe uniquement.
-## - idx == derniere classe : poids egal (1) pour CHAQUE classe du parcours (y compris la sienne)
-##   - revision egalitaire de toutes les annees avant l'entree au college.
-## - sinon : poids double (2) pour sa propre classe par rapport a chaque classe anterieure (poids
-##   1 chacune) - reprend le ratio 10:5 de l'ancien bareme fixe, juste mis a l'echelle.
-func _compute_review_quotas(scope: Array[Grade], idx: int) -> Array:
-	if idx == 0:
-		return [[scope[0], PACK_SIZE]]
-	if idx == scope.size() - 1:
-		var equal_weights: Array[float] = []
-		for _g in scope:
-			equal_weights.append(1.0)
-		var equal_counts := _distribute_quota(equal_weights, PACK_SIZE)
-		var equal_quotas: Array = []
-		for i in scope.size():
-			equal_quotas.append([scope[i], equal_counts[i]])
-		return equal_quotas
-	var weights: Array[float] = [2.0]
-	for _i in range(idx):
-		weights.append(1.0)
-	var counts := _distribute_quota(weights, PACK_SIZE)
-	var quotas: Array = [[scope[idx], counts[0]]]
-	for i in range(idx):
-		quotas.append([scope[i], counts[i + 1]])
-	return quotas
-
-## Convertit des poids relatifs en quotas entiers dont la somme vaut exactement "total" (methode
-## du plus grand reste : un arrondi naif poids par poids peut sinon totaliser un de plus ou de
-## moins que "total", ex. 3 poids egaux pour 10 questions donnerait 3+3+3=9 sans cette correction).
-func _distribute_quota(weights: Array[float], total: int) -> Array[int]:
-	var weight_sum := 0.0
-	for w in weights:
-		weight_sum += w
-	var shares: Array[float] = []
-	var quotas: Array[int] = []
-	var assigned := 0
-	for w in weights:
-		var share: float = w / weight_sum * total
-		shares.append(share)
-		var floor_share := int(share)
-		quotas.append(floor_share)
-		assigned += floor_share
-	var remaining := total - assigned
-	var order := range(weights.size())
-	order.sort_custom(func(a: int, b: int) -> bool: return (shares[a] - quotas[a]) > (shares[b] - quotas[b]))
-	for i in range(remaining):
-		quotas[order[i]] += 1
-	return quotas
-
-## Liste ordonnee (CP -> CM2) des classes ou cette matiere a effectivement du contenu (paquet
-## publie dans ContentLibrary) - deduite des donnees plutot que figee en dur, meme principe data-driven que
-## get_available_subjects (une matiere qui gagne une classe supplementaire plus tard n'a rien
-## a toucher ici).
-func _get_subject_grade_scope(subject: Subject) -> Array[Grade]:
-	var result: Array[Grade] = []
-	for g in [Grade.CP, Grade.CE1, Grade.CE2, Grade.CM1, Grade.CM2]:
-		if ContentLibrary.has_pack(g, subject):
-			result.append(g)
 	return result
 
 ## Appele par l'UI (QuestionPanel, partagee par tous les PNJ) une fois que le joueur a

@@ -1,5 +1,9 @@
 # Difficulte et progression — Logique (CP a CM2)
 
+> **2026-09-28 : pack de revision SUPPRIME.** Chaque prof ne tire plus que dans sa propre classe,
+> via `QuestionDraw` (une question par notion, sans repetition) - voir ARCHITECTURE.md. Les
+> mentions de `REVIEW_SUBJECTS` / `_build_review_pack` ci-dessous sont historiques.
+
 Statut : **reference ecrite le 2026-09-19**, derniere etape du tour de reequilibrage de difficulte
 demande par l'utilisateur (voir `csv/questions/AUDITS_LOG.md`, entree #8). Contrairement aux autres
 matieres, Logique n'est pas issue du programme scolaire officiel (voir `project_logique_test_batch.md`)

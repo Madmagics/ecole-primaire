@@ -15,5 +15,8 @@ extends Resource
 const Grade = GradeLevel.Grade
 
 ## Classe scolaire ciblee (CP a CM2), meme role que QuestionResource.grade.
+## ID du texte dans Supabase (contenu_passages.id) - sert a memoriser les textes deja lus
+## (voir QuestionDraw.draw_passage). 0 = inconnu.
+@export var id: int = 0
 @export var grade: Grade = Grade.CP
 @export var text: String = ""

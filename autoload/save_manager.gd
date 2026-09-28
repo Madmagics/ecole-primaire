@@ -425,6 +425,7 @@ func _login_from_server(login_name: String, password: String) -> bool:
 		"prof_skins": data.get("prof_skins", {"unlocked": {}, "active": {}}),
 		"classroom_decor": data.get("classroom_decor", {"unlocked": {}, "active": {}}),
 		"classroom_music": data.get("classroom_music", {"unlocked": {}, "active": {}}),
+		"tirages": data.get("tirages", {}) if data.get("tirages") is Dictionary else {},
 		## Deja rapatrie a l'instant depuis le serveur : un jeton flambant neuf, aucune raison de le
 		## jeter puis en redemander un autre au prochain log_event() (voir _ensure_server_session()).
 		"sync_jeton": jeton,
@@ -481,6 +482,11 @@ func _sync_account_from_server(account_id: String) -> bool:
 	var index := _current_account_index()
 	if index == -1 or String(_accounts[index].get("id", "")) != account_id:
 		return false
+	## Historique de tirage en attente d'envoi (2026-09-28) : pousse d'abord, comme les evenements.
+	await _push_draw_states(index)
+	index = _current_account_index()
+	if index == -1 or String(_accounts[index].get("id", "")) != account_id:
+		return false
 	var jeton: String = _accounts[index].get("sync_jeton", "")
 	if jeton.is_empty():
 		return false
@@ -499,6 +505,17 @@ func _sync_account_from_server(account_id: String) -> bool:
 	_accounts[index]["prof_skins"] = data.get("prof_skins", {"unlocked": {}, "active": {}})
 	_accounts[index]["classroom_decor"] = data.get("classroom_decor", {"unlocked": {}, "active": {}})
 	_accounts[index]["classroom_music"] = data.get("classroom_music", {"unlocked": {}, "active": {}})
+	## Historique de tirage (2026-09-28) : celui du serveur fait foi, sauf pour les cles encore en
+	## attente d'envoi depuis cet appareil. Si le serveur ne renvoie pas "tirages" (script
+	## server/tirages.sql pas encore passe), on garde l'historique local tel quel.
+	var server_draws: Variant = data.get("tirages")
+	if server_draws is Dictionary:
+		var merged: Dictionary = (server_draws as Dictionary).duplicate(true)
+		var local_draws: Dictionary = _accounts[index].get("tirages", {})
+		for key: Variant in (_accounts[index].get("tirages_a_envoyer", []) as Array):
+			if local_draws.has(key):
+				merged[key] = local_draws[key]
+		_accounts[index]["tirages"] = merged
 	return true
 
 ## Cree un nouveau compte et connecte immediatement dessus. [profile] attend les cles nom/prenom/
@@ -1167,6 +1184,81 @@ func _on_pack_completed_for_daily_limit(_subject: SubjectType.Subject, _rarity: 
 	_accounts[index]["daily_game_count"] = _daily_game_count_for_today(index, today) + 1
 	_accounts[index]["daily_game_count_date"] = today
 
+## Historique des tirages du compte connecte (2026-09-28, voir QuestionDraw) : un Dictionary par
+## cle "<classe>/<matiere>" (ex. "ce2/math"), avec les questions/notions/textes deja tombes.
+## Garde dans la sauvegarde locale du compte ET envoye au serveur (table tirages, voir
+## server/tirages.sql) pour suivre le joueur d'un appareil a l'autre. Renvoie une COPIE.
+func get_draw_state(key: String) -> Dictionary:
+	var index := _current_account_index()
+	if index == -1:
+		return {}
+	var all: Variant = _accounts[index].get("tirages", {})
+	if not (all is Dictionary):
+		return {}
+	var state: Variant = (all as Dictionary).get(key, {})
+	return (state as Dictionary).duplicate(true) if state is Dictionary else {}
+
+## Enregistre l'historique de tirage [state] sous [key], ecrit tout de suite sur le disque (un
+## tirage compte meme si le joueur quitte la serie avant la fin) puis l'envoie au serveur en tache
+## de fond (voir _push_draw_states). Sans effet si personne n'est connecte.
+func set_draw_state(key: String, state: Dictionary) -> void:
+	var index := _current_account_index()
+	if index == -1:
+		return
+	var all: Variant = _accounts[index].get("tirages", {})
+	if not (all is Dictionary):
+		all = {}
+	all[key] = state
+	_accounts[index]["tirages"] = all
+	var pending: Array = _accounts[index].get("tirages_a_envoyer", [])
+	if not pending.has(key):
+		pending.append(key)
+	_accounts[index]["tirages_a_envoyer"] = pending
+	_save_to_disk()
+	_push_draw_states(index)
+
+## Envoie au serveur les cles de tirage en attente ("tirages_a_envoyer") de _accounts[index] - une
+## requete par cle (fn_maj_tirage, etat complet). Contrairement aux evenements de progression, un
+## echec ne DECONNECTE PAS le joueur (un historique de tirage en retard n'est pas une perte de
+## progression) : la cle reste en attente et _on_sync_retry_timeout() retente toutes les 30 s.
+## Une cle n'est retiree de l'attente que si l'etat local n'a pas change pendant l'envoi (meme
+## precaution que _push_profile_to_server). Un seul envoi a la fois (_tirages_en_cours).
+var _tirages_en_cours := false
+func _push_draw_states(index: int) -> void:
+	if _tirages_en_cours or index < 0 or index >= _accounts.size():
+		return
+	if (_accounts[index].get("tirages_a_envoyer", []) as Array).is_empty():
+		return
+	_tirages_en_cours = true
+	var account_id := String(_accounts[index].get("id", ""))
+	if await _ensure_server_session(index):
+		var keys: Array = (_accounts[index].get("tirages_a_envoyer", []) as Array).duplicate()
+		for key: Variant in keys:
+			var index_now := _current_account_index()
+			if index_now == -1 or String(_accounts[index_now].get("id", "")) != account_id:
+				break # le compte connecte a change pendant l'attente reseau
+			var jeton := String(_accounts[index_now].get("sync_jeton", ""))
+			if jeton.is_empty():
+				break
+			var all: Dictionary = _accounts[index_now].get("tirages", {})
+			var snapshot: Dictionary = (all.get(key, {}) as Dictionary).duplicate(true)
+			var result := await ServerApi.maj_tirage(jeton, String(key), snapshot)
+			if not result.get("ok", false):
+				break
+			index_now = _current_account_index()
+			if index_now == -1 or String(_accounts[index_now].get("id", "")) != account_id:
+				break
+			var all_now: Dictionary = _accounts[index_now].get("tirages", {})
+			if all_now.get(key, {}) == snapshot:
+				(_accounts[index_now].get("tirages_a_envoyer", []) as Array).erase(key)
+		_save_to_disk()
+	_tirages_en_cours = false
+
+func _retry_draw_sync_if_needed() -> void:
+	var index := _current_account_index()
+	if index != -1:
+		_push_draw_states(index)
+
 ## Sauvegarde la progression EN COURS (Economy/CardCollection/ChallengeTracker) dans le
 ## compte connecte. A appeler apres tout evenement qui doit survivre (achat, pack reussi...) - la
 ## sauvegarde automatique complete (evenement par evenement) reste a cabler dans ShopPanel/etc.
@@ -1332,6 +1424,7 @@ func _on_sync_retry_timeout() -> void:
 	_flush_pending_events()
 	_send_session_heartbeat()
 	_retry_profile_sync_if_needed()
+	_retry_draw_sync_if_needed()
 
 ## "Battement de coeur" de presence (2026-09-13, chantier "conflit de connexion", voir fn_login/
 ## fn_pulse_session dans schema.sql) - sans effet si personne n'est connecte, hors-ligne, ou si

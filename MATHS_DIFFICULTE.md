@@ -1,5 +1,9 @@
 # Difficulte et progression — Mathematiques (CP a CM2)
 
+> **2026-09-28 : pack de revision SUPPRIME.** Chaque prof ne tire plus que dans sa propre classe,
+> via `QuestionDraw` (une question par notion, sans repetition) - voir ARCHITECTURE.md. Les
+> mentions de `REVIEW_SUBJECTS` / `_build_review_pack` ci-dessous sont historiques.
+
 Statut : **reference ecrite le 2026-09-18**, suite a l'audit de reequilibrage de difficulte demande
 par l'utilisateur (voir `csv/questions/AUDITS_LOG.md`). Contrairement a Grammaire/Conjugaison/
 Orthographe (`FRANCAIS_DIFFICULTE.md`) et Lecture (`LECTURE_DIFFICULTE.md`), les Maths n'avaient

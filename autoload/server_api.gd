@@ -133,6 +133,12 @@ func supprimer_compte(p_jeton: String) -> Dictionary:
 func maj_profil(p_jeton: String, p_profil: Dictionary) -> Dictionary:
 	return await _call_rpc("fn_maj_profil", {"p_jeton": p_jeton, "p_profil": p_profil})
 
+## Remplace l'historique de tirage [p_cle] ("<classe>/<matiere>", ex. "ce2/math") du compte associe
+## au jeton - data (si ok) : {"ok": true}. 2026-09-28, voir fn_maj_tirage dans server/tirages.sql et
+## SaveManager.set_draw_state (derniere ecriture gagnante, etat complet de la cle).
+func maj_tirage(p_jeton: String, p_cle: String, p_etat: Dictionary) -> Dictionary:
+	return await _call_rpc("fn_maj_tirage", {"p_jeton": p_jeton, "p_cle": p_cle, "p_etat": p_etat})
+
 ## "Battement de coeur" de presence (chantier "conflit de connexion" 2026-09-13, voir fn_pulse_session
 ## dans schema.sql) - rafraichit derniere_activite pour ce jeton, sans rien lire/ecrire d'autre. A
 ## appeler periodiquement tant qu'un compte est connecte, voir SaveManager._send_session_heartbeat().

@@ -1,5 +1,9 @@
 # Difficulte et progression — Anglais (CP a CM2)
 
+> **2026-09-28 : pack de revision SUPPRIME.** Chaque prof ne tire plus que dans sa propre classe,
+> via `QuestionDraw` (une question par notion, sans repetition) - voir ARCHITECTURE.md. Les
+> mentions de `REVIEW_SUBJECTS` / `_build_review_pack` ci-dessous sont historiques.
+
 Statut : **reference ecrite le 2026-09-19**, suite a l'audit de reequilibrage de difficulte demande
 par l'utilisateur (voir `csv/questions/AUDITS_LOG.md`, entree #7). Comme pour les Maths
 (`MATHS_DIFFICULTE.md`), l'Anglais n'avait jamais eu de document de reference formel malgre la

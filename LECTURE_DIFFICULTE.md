@@ -1,5 +1,9 @@
 # Algorithme de difficulté — matière "Comprehension de texte" (CP à CM2)
 
+> **2026-09-28 : pack de revision SUPPRIME.** Chaque prof ne tire plus que dans sa propre classe,
+> via `QuestionDraw` (une question par notion, sans repetition) - voir ARCHITECTURE.md. Les
+> mentions de `REVIEW_SUBJECTS` / `_build_review_pack` ci-dessous sont historiques.
+
 Statut : **algorithme validé par l'utilisateur le 2026-07-20** (texte + questions), à appliquer
 telle quelle à toute future histoire générée pour cette matière. **Branché côté Godot le
 2026-07-21** : `PassageResource`, `tools/admin/import_reading.gd`, cas particulier `READING`

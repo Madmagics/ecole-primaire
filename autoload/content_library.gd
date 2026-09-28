@@ -123,6 +123,7 @@ func _build_questions(grade: Grade, subject: Subject, data: Dictionary) -> Array
 	for p: Variant in data.get("passages", []):
 		if p is Dictionary:
 			var passage := PassageResource.new()
+			passage.id = int(p.get("id", 0))
 			passage.grade = grade
 			passage.text = str(p.get("texte", ""))
 			passages[int(p.get("id", 0))] = passage

@@ -59,7 +59,15 @@ courtes. Les contenus (questions, cartes, coffres) sont des `Resource` (.tres), 
     enseignant couvre toutes les matières d'une classe (contrairement à un PNJ par matière, plus
     "collège/lycée" ; bascule faite le 2026-07-20, voir `MATIERES_CANDIDATES.md`). À
     l'interaction, demande d'abord la **matière** parmi celles disponibles pour cette classe
-    (via `SubjectSelectPanel`), puis compose un pack : toujours **`PACK_SIZE` (10) questions au
+    (via `SubjectSelectPanel`), puis compose un pack.
+    **Depuis le 2026-09-28 (retour d'utilisateurs : toujours les mêmes questions/textes), le tirage
+    passe par `QuestionDraw` (`entities/npc/components/question_draw.gd`) : uniquement la classe du
+    PNJ (pack de révision multi-classes SUPPRIMÉ), au moins une question par notion (rotation des
+    notions s'il y en a plus de 10), pas de répétition d'une question avant d'avoir épuisé sa
+    notion, textes de lecture tous lus avant d'en revoir un. Historique par compte dans la
+    sauvegarde locale (`SaveManager.get_draw_state`/`set_draw_state`, clé `tirages`). Le texte
+    ci-dessous décrit l'ancien fonctionnement.**
+    Ancien fonctionnement : toujours **`PACK_SIZE` (10) questions au
     total** (retour utilisateur 2026-08-01, "questionnaires à rallonge" — avant cette date, un
     pack de révision pouvait monter à 10-25 questions), soit **10 questions au hasard** dans la
     classe du PNJ (Maths, Comprehension de texte — celle-ci via un flux dédié, voir plus bas),

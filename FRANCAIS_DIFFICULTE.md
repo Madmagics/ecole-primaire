@@ -1,5 +1,9 @@
 # Difficulte et revision — Grammaire, Conjugaison, Orthographe, Anglais
 
+> **2026-09-28 : pack de revision SUPPRIME.** Chaque prof ne tire plus que dans sa propre classe,
+> via `QuestionDraw` (une question par notion, sans repetition) - voir ARCHITECTURE.md. Les
+> mentions de `REVIEW_SUBJECTS` / `_build_review_pack` ci-dessous sont historiques.
+
 Statut : **scope et mecanisme valides par l'utilisateur le 2026-07-21**, contenu regenere pour
 CE2/CM1/CM2 (CE1 deja conforme, non touche). Fait suite a un signalement : les questions de
 Grammaire/Conjugaison/Orthographe etaient quasi identiques d'une classe a l'autre (meme banque de
