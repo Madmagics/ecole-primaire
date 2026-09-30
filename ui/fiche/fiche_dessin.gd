@@ -6,6 +6,16 @@
 ##   [cubes d=1 u=5]                                     -> barres de dizaines + cubes unites
 ##   [cubes d=1 u=8 vers=2:8]                            -> avant, fleche "+10", apres
 ##   [cases n=10 bleu=3]                                 -> rangee de cases, les premieres coloriees
+## Soustraction (2026-09-30) :
+##   [billes groupes=5 barrees=2 total=oui]              -> 5 billes dont 2 barrees, "=" + les 3 restantes
+##   [file de=0 a=10 bonds=7:4]                          -> bond en arriere (fleche vers la gauche, "-3")
+##   [cubes d=2 u=8 vers=1:8]                            -> avant, fleche "-10", apres
+##   [cases n=10 bleu=10 barrees=3]                      -> les 3 dernieres cases barrees
+## Maths CP (2026-09-30) :
+##   [file de=0 a=10 points=3,7]                         -> nombres marques, sans bond
+##   [cubes d=2 u=6 vers=1:3 fleche=moitié]              -> etiquette libre sur la fleche
+##   [paires n=7]                                        -> billes rangees par 2 (pair / impair)
+##   [formes liste=carre,triangle,rond cotes=oui]        -> formes geometriques + nombre de cotes
 ## Les couleurs "classe" suivent le code couleur de la classe (GradeLevel.get_color).
 class_name FicheDessin
 extends Control
@@ -25,6 +35,12 @@ const CASE := 42.0
 const CUBE_LABEL_SIZE := 18
 const CUBE_GROUP_GAP := 28.0
 const CUBE_ARROW_W := 90.0
+const FORME := 84.0
+const FORME_GAP := 34.0
+const FORMES_NOMS := {
+	"carre": "carré", "rectangle": "rectangle", "triangle": "triangle", "rond": "rond",
+	"losange": "losange", "pentagone": "pentagone", "hexagone": "hexagone",
+}
 
 var kind: String = ""
 var params: Dictionary = {}
@@ -74,6 +90,13 @@ func _compute_min_size() -> Vector2:
 		"cases":
 			var n := int(params.get("n", 10))
 			return Vector2(n * CASE, CASE + 8.0)
+		"paires":
+			var cols := ceili(int(params.get("n", 0)) / 2.0)
+			return Vector2(cols * _paire_col_w(), 2.0 * (BILLE_R * 2.0 + BILLE_GAP) + 22.0)
+		"formes":
+			var count := _formes_liste().size()
+			var h := FORME + 34.0 + (26.0 if str(params.get("cotes", "")) == "oui" else 0.0)
+			return Vector2(count * (_forme_w() + FORME_GAP) - FORME_GAP, h)
 	return Vector2.ZERO
 
 func _billes_groups() -> PackedInt32Array:
@@ -82,8 +105,12 @@ func _billes_groups() -> PackedInt32Array:
 		var total := 0
 		for g: int in groups:
 			total += g
-		groups.append(total)
+		groups.append(maxi(0, total - _barrees()))
 	return groups
+
+## Nombre de billes (ou de cases) barrees, prises a la fin : ce qu'on enleve dans une soustraction.
+func _barrees() -> int:
+	return maxi(0, int(params.get("barrees", 0)))
 
 func _billes_box_size(count: int) -> Vector2:
 	var cols := clampi(count, 1, 5)
@@ -160,6 +187,10 @@ func _draw() -> void:
 			_draw_cubes()
 		"cases":
 			_draw_cases()
+		"paires":
+			_draw_paires()
+		"formes":
+			_draw_formes()
 
 func _font() -> Font:
 	return get_theme_default_font()
@@ -168,10 +199,21 @@ func _text(pos: Vector2, text: String, font_size: int, color: Color = INK, width
 	var align := HORIZONTAL_ALIGNMENT_CENTER if width > 0.0 else HORIZONTAL_ALIGNMENT_LEFT
 	draw_string(_font(), pos, text, align, width, font_size, color)
 
-func _bille(center: Vector2, color: Color) -> void:
+func _bille(center: Vector2, color: Color, barree: bool = false) -> void:
+	if barree:
+		# Bille enlevee : palie puis barree d'une croix
+		color = color.lerp(Color.WHITE, 0.6)
 	draw_circle(center, BILLE_R, color.darkened(0.25))
 	draw_circle(center, BILLE_R - 2.5, color)
 	draw_circle(center + Vector2(-4, -4), 3.5, Color(1, 1, 1, 0.65))
+	if barree:
+		_croix(center, BILLE_R + 2.0)
+
+## Croix rouge fonce qui barre un objet enleve (bille ou case).
+func _croix(center: Vector2, half: float) -> void:
+	var col := Color("C62828")
+	draw_line(center + Vector2(-half, -half), center + Vector2(half, half), col, 4.0, true)
+	draw_line(center + Vector2(-half, half), center + Vector2(half, -half), col, 4.0, true)
 
 func _draw_billes() -> void:
 	var groups := _ints("groupes")
@@ -180,6 +222,7 @@ func _draw_billes() -> void:
 	for i: int in groups.size():
 		colors.append(_color_named(names[i] if i < names.size() else "bleu", classe_color))
 	var show_total := str(params.get("total", "")) == "oui"
+	var barrees := _barrees()
 	var box_h := _billes_box_height()
 	var x := maxf(0.0, (size.x - custom_minimum_size.x) / 2.0)
 	var y := 4.0
@@ -188,15 +231,23 @@ func _draw_billes() -> void:
 		if i > 0:
 			_text(Vector2(x, y + box_h / 2.0 + 12.0), "+", 34, INK, 44.0)
 			x += 44.0
-		x += _draw_bille_box(Vector2(x, y), box_h, [groups[i]], [colors[i]], cell)
+		# Les billes barrees sont les dernieres du dernier groupe
+		var crossed := barrees if i == groups.size() - 1 else 0
+		x += _draw_bille_box(Vector2(x, y), box_h, [groups[i]], [colors[i]], cell, crossed)
 	if show_total:
 		_text(Vector2(x, y + box_h / 2.0 + 12.0), "=", 34, INK, 44.0)
 		x += 44.0
-		_draw_bille_box(Vector2(x, y), box_h, Array(groups), colors, cell)
+		if barrees > 0:
+			var total := 0
+			for g: int in groups:
+				total += g
+			_draw_bille_box(Vector2(x, y), box_h, [maxi(0, total - barrees)], [colors[0]], cell)
+		else:
+			_draw_bille_box(Vector2(x, y), box_h, Array(groups), colors, cell)
 
 ## Une boite arrondie contenant les billes (plusieurs couleurs a la suite pour le total).
-## Renvoie la largeur occupee.
-func _draw_bille_box(origin: Vector2, box_h: float, counts: Array, colors: Array, cell: float) -> float:
+## Les "crossed" dernieres billes sont barrees. Renvoie la largeur occupee.
+func _draw_bille_box(origin: Vector2, box_h: float, counts: Array, colors: Array, cell: float, crossed: int = 0) -> float:
 	var total := 0
 	for c: int in counts:
 		total += c
@@ -214,7 +265,7 @@ func _draw_bille_box(origin: Vector2, box_h: float, counts: Array, colors: Array
 			var col := index % 5
 			var row := floori(index / 5.0)
 			var center := rect.position + Vector2(4.0 + BILLE_GAP + BILLE_R + col * cell, 4.0 + BILLE_GAP + BILLE_R + row * cell)
-			_bille(center, colors[g])
+			_bille(center, colors[g], index >= total - crossed)
 			index += 1
 	return box.x
 
@@ -233,6 +284,8 @@ func _draw_file() -> void:
 	draw_colored_polygon(PackedVector2Array([
 		Vector2(x0 + width + 22, line_y), Vector2(x0 + width + 10, line_y - 7), Vector2(x0 + width + 10, line_y + 7)]), line_col)
 	var marked: Dictionary = {}
+	for p: String in str(params.get("points", "")).split(",", false):
+		marked[int(p)] = true
 	var bonds: Array[Vector2i] = []
 	for pair: String in str(params.get("bonds", "")).split(",", false):
 		var ab := pair.split(":")
@@ -261,10 +314,13 @@ func _draw_file() -> void:
 		for s: int in 25:
 			var t := PI + PI * s / 24.0
 			pts.append(center + Vector2(cos(t) * radius, sin(t) * height))
+		# Bond en arriere (soustraction) : l'arc part de la droite, la pointe arrive a gauche
+		if bonds[b].y < bonds[b].x:
+			pts.reverse()
 		draw_polyline(pts, col, 4.0, true)
 		var tip := pts[pts.size() - 1]
 		draw_colored_polygon(PackedVector2Array([tip + Vector2(0, 4), tip + Vector2(-8, -8), tip + Vector2(8, -8)]), col)
-		_text(Vector2(center.x - 30, center.y - height - 6), "+%d" % (bonds[b].y - bonds[b].x), 22, col.darkened(0.2), 60.0)
+		_text(Vector2(center.x - 30, center.y - height - 6), "%+d" % (bonds[b].y - bonds[b].x), 22, col.darkened(0.2), 60.0)
 
 func _cube(rect: Rect2, color: Color) -> void:
 	draw_rect(rect, color)
@@ -281,7 +337,8 @@ func _draw_cubes() -> void:
 			draw_colored_polygon(PackedVector2Array([Vector2(x + CUBE_ARROW_W - 12, y),
 				Vector2(x + CUBE_ARROW_W - 24, y - 9), Vector2(x + CUBE_ARROW_W - 24, y + 9)]), col)
 			var diff := (states[1].x - states[0].x) * 10 + (states[1].y - states[0].y)
-			_text(Vector2(x, y - 14), "%+d" % diff, 22, UNITES.darkened(0.25), CUBE_ARROW_W)
+			var label := str(params.get("fleche", "%+d" % diff))
+			_text(Vector2(x - 20, y - 14), label, 22, UNITES.darkened(0.25), CUBE_ARROW_W + 40.0)
 			x += CUBE_ARROW_W
 		_draw_cubes_state(x, states[i])
 		x += _cubes_state_width(states[i])
@@ -310,8 +367,96 @@ func _draw_cubes_state(x: float, state: Vector2i) -> void:
 func _draw_cases() -> void:
 	var n := int(params.get("n", 10))
 	var colored := int(params.get("bleu", 0))
+	var crossed := _barrees()
 	var x0 := (size.x - n * CASE) / 2.0
 	for i: int in n:
 		var rect := Rect2(x0 + i * CASE, 2.0, CASE, CASE)
-		draw_rect(rect, classe_color if i < colored else JAUNE)
+		var fill := classe_color if i < colored else JAUNE
+		var barree := i >= n - crossed
+		draw_rect(rect, fill.lerp(Color.WHITE, 0.6) if barree else fill)
 		draw_rect(rect, INK.lerp(Color.WHITE, 0.2), false, 2.0)
+		if barree:
+			_croix(rect.get_center(), CASE / 2.0 - 8.0)
+
+# ---------------------------------------------------------------- paires (pair / impair)
+
+func _paire_col_w() -> float:
+	return BILLE_R * 2.0 + BILLE_GAP + 14.0
+
+## Billes rangees par colonnes de 2 : chaque paire est entouree. S'il en reste une toute seule
+## (nombre impair), elle est dessinee en orange, sans partenaire.
+func _draw_paires() -> void:
+	var n := int(params.get("n", 0))
+	var cols := ceili(n / 2.0)
+	var col_w := _paire_col_w()
+	var cell := BILLE_R * 2.0 + BILLE_GAP
+	var x0 := (size.x - cols * col_w) / 2.0
+	for c: int in cols:
+		var in_col := mini(2, n - c * 2)
+		var rect := Rect2(x0 + c * col_w + 4.0, 2.0, col_w - 8.0, in_col * cell + 8.0)
+		var style := StyleBoxFlat.new()
+		style.bg_color = Color(1, 1, 1, 0.9)
+		style.border_color = (UNITES if in_col == 1 else INK.lerp(Color.WHITE, 0.55))
+		style.set_border_width_all(2)
+		style.set_corner_radius_all(10)
+		draw_style_box(style, rect)
+		for r: int in in_col:
+			var center := Vector2(rect.get_center().x, rect.position.y + 4.0 + BILLE_GAP / 2.0 + BILLE_R + r * cell)
+			_bille(center, UNITES if in_col == 1 else classe_color)
+
+# ---------------------------------------------------------------- formes geometriques
+
+func _formes_liste() -> PackedStringArray:
+	return str(params.get("liste", "")).split(",", false)
+
+func _forme_w() -> float:
+	return FORME + 26.0
+
+## Sommets d'une forme dans un carre de cote FORME (vide pour le rond).
+func _forme_points(forme: String, o: Vector2) -> PackedVector2Array:
+	var f := FORME
+	match forme:
+		"carre":
+			return PackedVector2Array([o + Vector2(8, 8), o + Vector2(f - 8, 8), o + Vector2(f - 8, f - 8), o + Vector2(8, f - 8)])
+		"rectangle":
+			return PackedVector2Array([o + Vector2(-8, 20), o + Vector2(f + 8, 20), o + Vector2(f + 8, f - 12), o + Vector2(-8, f - 12)])
+		"triangle":
+			return PackedVector2Array([o + Vector2(f / 2.0, 6), o + Vector2(f - 4, f - 8), o + Vector2(4, f - 8)])
+		"losange":
+			return PackedVector2Array([o + Vector2(f / 2.0, 2), o + Vector2(f - 18, f / 2.0), o + Vector2(f / 2.0, f - 2), o + Vector2(18, f / 2.0)])
+		"pentagone", "hexagone":
+			var k := 5 if forme == "pentagone" else 6
+			var pts := PackedVector2Array()
+			for i: int in k:
+				var a := -PI / 2.0 + TAU * i / k
+				pts.append(o + Vector2(f / 2.0, f / 2.0 + 3.0) + Vector2(cos(a), sin(a)) * (f / 2.0 - 4.0))
+			return pts
+	return PackedVector2Array()
+
+func _draw_formes() -> void:
+	var liste := _formes_liste()
+	var show_cotes := str(params.get("cotes", "")) == "oui"
+	var w := _forme_w()
+	var x := (size.x - (liste.size() * (w + FORME_GAP) - FORME_GAP)) / 2.0
+	var fill := classe_color.lerp(Color.WHITE, 0.55)
+	var line := classe_color.darkened(0.3)
+	for forme: String in liste:
+		var o := Vector2(x + (w - FORME) / 2.0, 2.0)
+		var pts := _forme_points(forme, o)
+		var cotes := pts.size()
+		if forme == "rond":
+			var c := o + Vector2(FORME / 2.0, FORME / 2.0)
+			draw_circle(c, FORME / 2.0 - 4.0, fill)
+			draw_arc(c, FORME / 2.0 - 4.0, 0.0, TAU, 48, line, 4.0, true)
+		else:
+			draw_colored_polygon(pts, fill)
+			var closed := pts.duplicate()
+			closed.append(pts[0])
+			draw_polyline(closed, line, 4.0, true)
+			for p: Vector2 in pts:
+				draw_circle(p, 5.0, UNITES)
+		_text(Vector2(x, FORME + 28.0), str(FORMES_NOMS.get(forme, forme)), 20, INK, w)
+		if show_cotes:
+			var txt := "0 côté" if cotes == 0 else "%d côtés" % cotes
+			_text(Vector2(x, FORME + 54.0), txt, 18, UNITES.darkened(0.3), w)
+		x += w + FORME_GAP

@@ -9,7 +9,7 @@ On compte tout : 1, 2, 3… 4, 5.
 [page]
 [titre]Les signes + et =[/titre]
 Pour écrire une addition, on utilise deux signes :
-[table=2][cell bg=#classe_clair border=#classe padding=8,6,8,6][font_size=34][b]+[/b][/font_size][/cell][cell border=#classe padding=8,6,8,6]se lit « plus » : on ajoute[/cell][cell bg=#classe_clair border=#classe padding=8,6,8,6][font_size=34][b]=[/b][/font_size][/cell][cell border=#classe padding=8,6,8,6]se lit « égale » : voici le résultat[/cell][/table]
+[table=2][cell bg=#classe_clair border=#classe padding=14,6,14,6][center][font_size=34][b]+[/b][/font_size][/center][/cell][cell border=#classe padding=14,15,14,6][center]se lit « plus » : on ajoute[/center][/cell][cell bg=#classe_clair border=#classe padding=14,6,14,6][center][font_size=34][b]=[/b][/font_size][/center][/cell][cell border=#classe padding=14,15,14,6][center]se lit « égale » : voici le résultat[/center][/cell][/table]
 [center][font_size=34][b]3 + 2 = 5[/b][/font_size][/center]
 [center]« trois plus deux égale cinq »[/center]
 [cadre]Le résultat d'une addition s'appelle [b]la somme[/b].[/cadre]

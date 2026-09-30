@@ -4,7 +4,7 @@
 ##   [titre]...[/titre]                 -> titre de la page, couleur de la classe
 ##   [cadre]...[/cadre]                 -> encadre "a retenir"
 ##   [cadre=astuce]...[/cadre]          -> encadre "Astuce"
-##   [billes ...] [file ...] [cubes ...] [cases ...] seules sur leur ligne -> FicheDessin
+##   [billes ...] [file ...] [cubes ...] [cases ...] [paires ...] [formes ...] seules sur leur ligne -> FicheDessin
 ##   [table=N]...[/table] seul sur sa ligne -> tableau Godot natif, centre
 ## Tout le reste est du texte BBCode affiche dans un RichTextLabel.
 ## Jetons de couleur utilisables dans le BBCode (remplaces avant affichage, pour qu'une meme
@@ -42,7 +42,7 @@ static func build(page_text: String, classe: Color, bold_font: Font) -> VBoxCont
 		_block_regex.compile(
 			"(?ms)\\[titre\\](.*?)\\[/titre\\]"
 			+ "|\\[cadre(?:=(\\w+))?\\](.*?)\\[/cadre\\]"
-			+ "|^[ \\t]*\\[(billes|file|cubes|cases)((?: [^\\]]*)?)\\][ \\t]*$"
+			+ "|^[ \\t]*\\[(billes|file|cubes|cases|paires|formes)((?: [^\\]]*)?)\\][ \\t]*$"
 			+ "|^[ \\t]*(\\[table=.*?\\[/table\\])[ \\t]*$")
 	var text := apply_color_tokens(page_text, classe)
 	var root := VBoxContainer.new()
