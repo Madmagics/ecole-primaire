@@ -1,0 +1,508 @@
+id;classe;matiere;notion;enonce;bonne_reponse;mauvais_choix
+110000;cp;english;en_verbes;"Que veut dire ""jump"" en français ?";saute;danse | regarde | écris
+110001;cp;english;en_verbes;"Que veut dire ""walk"" en français ?";marche;bois | écris | écoute
+110002;cp;english;en_verbes;"Que veut dire ""run"" en français ?";cours;écoute | écris | bois
+110003;cp;english;en_verbes;"Comment dit-on ""nage"" en anglais ?";swim;clap your hands | sleep | read
+110004;cp;english;en_verbes;"Que veut dire ""swim"" en français ?";nage;dessine | cours | mange
+110005;cp;english;en_verbes;"Comment dit-on ""danse"" en anglais ?";dance;come here | turn around | swim
+110006;cp;english;en_verbes;"Que veut dire ""dance"" en français ?";danse;écris | mange | nage
+110007;cp;english;en_verbes;"Comment dit-on ""chante"" en anglais ?";sing;dance | jump | sit down
+110008;cp;english;en_verbes;"Que veut dire ""sing"" en français ?";chante;écris | viens ici | lève-toi
+110009;cp;english;en_verbes;"Comment dit-on ""dessine"" en anglais ?";draw;sing | sleep | look
+110010;cp;english;en_verbes;"Que veut dire ""draw"" en français ?";dessine;tape des mains | viens ici | regarde
+110011;cp;english;en_verbes;"Comment dit-on ""lis"" en anglais ?";read;sit down | drink | look
+110012;cp;english;en_verbes;"Que veut dire ""read"" en français ?";lis;dors | bois | regarde
+110013;cp;english;en_verbes;"Comment dit-on ""écris"" en anglais ?";write;drink | stand up | run
+110014;cp;english;en_verbes;"Que veut dire ""write"" en français ?";écris;viens ici | dors | marche
+110015;cp;english;en_verbes;"Comment dit-on ""mange"" en anglais ?";eat;come here | look | drink
+110016;cp;english;en_verbes;"Que veut dire ""eat"" en français ?";mange;écris | lève-toi | cours
+110017;cp;english;en_se_presenter;"Comment dit-on ""j'ai trois ans"" en anglais ?";I'm three years old;I'm twelve years old | I'm nine years old | I'm seven years old
+110018;cp;english;en_se_presenter;"Comment dit-on ""je m'appelle Tom"" en anglais ?";My name is Tom;How old are you? | I'm a girl | I'm a boy
+110019;cp;english;en_se_presenter;"Que veut dire ""I'm three years old"" en français ?";j'ai trois ans;j'ai dix ans | j'ai sept ans | j'ai onze ans
+110020;cp;english;en_se_presenter;"Que veut dire ""My name is Tom"" en français ?";je m'appelle Tom;je suis une fille | quel âge as-tu ? | comment tu t'appelles ?
+110021;cp;english;en_se_presenter;"Comment dit-on ""comment tu t'appelles ?"" en anglais ?";What's your name?;I'm a girl | How old are you? | I'm a boy
+110022;cp;english;en_se_presenter;"Que veut dire ""I'm four years old"" en français ?";j'ai quatre ans;j'ai neuf ans | j'ai trois ans | j'ai douze ans
+110023;cp;english;en_se_presenter;"Que veut dire ""What's your name?"" en français ?";comment tu t'appelles ?;je suis une fille | je m'appelle Tom | quel âge as-tu ?
+110024;cp;english;en_se_presenter;"Comment dit-on ""quel âge as-tu ?"" en anglais ?";How old are you?;I'm a boy | My name is Tom | I'm a girl
+110025;cp;english;en_se_presenter;"Que veut dire ""I'm five years old"" en français ?";j'ai cinq ans;j'ai douze ans | j'ai huit ans | j'ai trois ans
+110026;cp;english;en_se_presenter;"Que veut dire ""How old are you?"" en français ?";quel âge as-tu ?;je suis un garçon | comment tu t'appelles ? | je m'appelle Tom
+110027;cp;english;en_se_presenter;"Comment dit-on ""je suis un garçon"" en anglais ?";I'm a boy;How old are you? | My name is Tom | What's your name?
+110028;cp;english;en_se_presenter;"Que veut dire ""I'm six years old"" en français ?";j'ai six ans;j'ai dix ans | j'ai huit ans | j'ai cinq ans
+110029;cp;english;en_se_presenter;"Que veut dire ""I'm a boy"" en français ?";je suis un garçon;je m'appelle Tom | comment tu t'appelles ? | je suis une fille
+110030;cp;english;en_se_presenter;"Comment dit-on ""je suis une fille"" en anglais ?";I'm a girl;How old are you? | I'm a boy | My name is Tom
+110031;cp;english;en_emotions;"Que veut dire ""I'm happy"" en français ?";je suis content;j'ai faim | je suis fâché | j'ai peur
+110032;cp;english;en_emotions;"Que veut dire ""I'm sad"" en français ?";je suis triste;je suis fâché | j'ai peur | je suis fatigué
+110033;cp;english;en_emotions;"Que veut dire ""I'm angry"" en français ?";je suis fâché;je suis content | j'ai faim | j'ai soif
+110034;cp;english;en_emotions;"Comment dit-on ""j'ai peur"" en anglais ?";I'm scared;I'm tired | I'm happy | I'm thirsty
+110035;cp;english;en_emotions;"Que veut dire ""I'm scared"" en français ?";j'ai peur;j'ai faim | je suis fâché | je suis triste
+110036;cp;english;en_emotions;"Que veut dire ""I'm tired"" en français ?";je suis fatigué;je suis content | j'ai peur | je suis triste
+110037;cp;english;en_emotions;"Comment dit-on ""j'ai faim"" en anglais ?";I'm hungry;I'm sad | I'm angry | I'm tired
+110038;cp;english;en_emotions;"Que veut dire ""I'm hungry"" en français ?";j'ai faim;je suis fatigué | je suis content | j'ai peur
+110039;cp;english;en_emotions;"Comment dit-on ""assoiffé"" en anglais ?";thirsty;sick | scared | hungry
+110040;cp;english;en_emotions;"Comment dit-on ""j'ai soif"" en anglais ?";I'm thirsty;I'm tired | I'm sad | I'm scared
+110041;cp;english;en_couleurs;"Comment dit-on ""blanc"" en anglais ?";white;grey | pink | green
+110042;cp;english;en_couleurs;"Comment dit-on ""orange"" en anglais ?";orange;yellow | grey | purple
+110043;cp;english;en_couleurs;"Comment dit-on ""rouge"" en anglais ?";red;orange | yellow | black
+110044;cp;english;en_couleurs;"Comment dit-on ""noir"" en anglais ?";black;white | red | blue
+110045;cp;english;en_couleurs;"Que veut dire ""brown"" en français ?";marron;noir | gris | bleu
+110046;cp;english;en_couleurs;"Que veut dire ""pink"" en français ?";rose;rouge | gris | violet
+110047;cp;english;en_meteo_nature;"Que veut dire ""It's sunny"" en français ?";il y a du soleil;il fait chaud | il neige | il fait froid
+110048;cp;english;en_meteo_nature;"Que veut dire ""It's rainy"" en français ?";il pleut;il y a du vent | il fait chaud | il y a des nuages
+110049;cp;english;en_meteo_nature;"Que veut dire ""It's windy"" en français ?";il y a du vent;il pleut | il fait chaud | il y a des nuages
+110050;cp;english;en_meteo_nature;"Que veut dire ""It's cloudy"" en français ?";il y a des nuages;il y a du vent | il fait froid | il fait chaud
+110051;cp;english;en_meteo_nature;"Que veut dire ""It's snowy"" en français ?";il neige;il y a du vent | il pleut | il fait froid
+110052;cp;english;en_maison_famille;"Comment dit-on ""papa"" en anglais ?";dad;mum | baby | grandpa
+110053;cp;english;en_maison_famille;"Comment dit-on ""soeur"" en anglais ?";sister;baby | brother | dad
+110054;cp;english;en_maison_famille;"Que veut dire ""grandma"" en français ?";grand-mère;grand-père | bébé | maman
+110055;cp;english;en_animaux;"Comment dit-on ""chat"" en anglais ?";cat;rabbit | duck | fish
+110056;ce1;english;en_pays;"Que veut dire ""Mexican"" en français ?";mexicain;suisse | irlandais | anglais
+110057;ce1;english;en_pays;"Comment dit-on ""grec"" en anglais ?";Greek;Swiss | Swedish | English
+110058;ce1;english;en_pays;"Comment dit-on ""russe"" en anglais ?";Russian;Swedish | Swiss | French
+110059;ce1;english;en_pays;"Comment dit-on ""suédois"" en anglais ?";Swedish;Russian | Greek | Japanese
+110060;ce1;english;en_pays;"Comment dit-on ""suisse"" en anglais ?";Swiss;Italian | Japanese | Swedish
+110061;ce1;english;en_pays;"Que veut dire ""Indian"" en français ?";indien;suédois | portugais | américain
+110062;ce1;english;en_pays;"Comment dit-on ""français"" en anglais ?";French;Japanese | English | Russian
+110063;ce1;english;en_pays;"Que veut dire ""French"" en français ?";français;russe | suédois | chinois
+110064;ce1;english;en_pays;"Comment dit-on ""anglais"" en anglais ?";English;Swiss | Indian | Russian
+110065;ce1;english;en_pays;"Que veut dire ""English"" en français ?";anglais;portugais | mexicain | irlandais
+110066;ce1;english;en_pays;"Comment dit-on ""espagnol"" en anglais ?";Spanish;Russian | Swiss | Italian
+110067;ce1;english;en_pays;"Que veut dire ""Spanish"" en français ?";espagnol;français | suisse | chinois
+110068;ce1;english;en_pays;"Comment dit-on ""italien"" en anglais ?";Italian;Irish | Japanese | Portuguese
+110069;ce1;english;en_pays;"Que veut dire ""Italian"" en français ?";italien;espagnol | américain | irlandais
+110070;ce1;english;en_adjectifs;"Que veut dire ""light"" en français ?";léger;fort | sale | nouveau
+110071;ce1;english;en_adjectifs;"Comment dit-on ""lourd"" en anglais ?";heavy;young | strong | easy
+110072;ce1;english;en_adjectifs;"Que veut dire ""heavy"" en français ?";lourd;mouillé | léger | froid
+110073;ce1;english;en_adjectifs;"Comment dit-on ""rapide"" en anglais ?";fast;hot | wet | short
+110074;ce1;english;en_adjectifs;"Que veut dire ""fast"" en français ?";rapide;chaud | nouveau | jeune
+110075;ce1;english;en_adjectifs;"Comment dit-on ""lent"" en anglais ?";slow;young | cold | hot
+110076;ce1;english;en_adjectifs;"Que veut dire ""slow"" en français ?";lent;lourd | fort | mouillé
+110077;ce1;english;en_adjectifs;"Comment dit-on ""propre"" en anglais ?";clean;cold | strong | fast
+110078;ce1;english;en_adjectifs;"Que veut dire ""clean"" en français ?";propre;froid | léger | lent
+110079;ce1;english;en_adjectifs;"Comment dit-on ""sale"" en anglais ?";dirty;slow | fast | easy
+110080;ce1;english;en_adjectifs;"Que veut dire ""dirty"" en français ?";sale;léger | court | fort
+110081;ce1;english;en_adjectifs;"Comment dit-on ""jeune"" en anglais ?";young;slow | heavy | dry
+110082;ce1;english;en_adjectifs;"Que veut dire ""young"" en français ?";jeune;chaud | léger | mouillé
+110083;ce1;english;en_ecole;"Que veut dire ""calculator"" en français ?";calculatrice;colle | règle | agrafeuse
+110084;ce1;english;en_ecole;"Que veut dire ""binder"" en français ?";classeur;livre | tableau | cahier
+110085;ce1;english;en_ecole;"Que veut dire ""computer"" en français ?";ordinateur;classeur | ciseaux | trousse
+110086;ce1;english;en_ecole;"Comment dit-on ""taille-crayon"" en anglais ?";pencil sharpener;scissors | book | board
+110087;ce1;english;en_ecole;"Comment dit-on ""agrafeuse"" en anglais ?";stapler;notebook | glue | binder
+110088;ce1;english;en_ecole;"Comment dit-on ""crayon"" en anglais ?";pencil;book | schoolbag | board
+110089;ce1;english;en_ecole;"Que veut dire ""pencil"" en français ?";crayon;cahier | gomme | tableau
+110090;ce1;english;en_ecole;"Comment dit-on ""stylo"" en anglais ?";pen;computer | pencil case | notebook
+110091;ce1;english;en_ecole;"Que veut dire ""pen"" en français ?";stylo;ordinateur | gomme | agrafeuse
+110092;ce1;english;en_ecole;"Comment dit-on ""règle"" en anglais ?";ruler;scissors | stapler | pen
+110093;ce1;english;en_ecole;"Que veut dire ""ruler"" en français ?";règle;feutre | colle | cahier
+110094;ce1;english;en_ecole;"Comment dit-on ""gomme"" en anglais ?";rubber;pencil sharpener | ruler | book
+110095;ce1;english;en_ecole;"Que veut dire ""rubber"" en français ?";gomme;crayon | calculatrice | ordinateur
+110096;ce1;english;en_calendrier;"Comment dit-on ""lundi"" en anglais ?";Monday;Thursday | Tuesday | Sunday
+110097;ce1;english;en_calendrier;"Comment dit-on ""janvier"" en anglais ?";January;March | November | May
+110098;ce1;english;en_calendrier;"Comment dit-on ""matin"" en anglais ?";morning;night | midnight | weekend
+110099;ce1;english;en_calendrier;"Que veut dire ""Monday"" en français ?";lundi;mercredi | jeudi | dimanche
+110100;ce1;english;en_calendrier;"Que veut dire ""January"" en français ?";janvier;mars | juin | mai
+110101;ce1;english;en_calendrier;"Que veut dire ""morning"" en français ?";matin;week-end | soir | semaine
+110102;ce1;english;en_calendrier;"Comment dit-on ""mardi"" en anglais ?";Tuesday;Thursday | Friday | Wednesday
+110103;ce1;english;en_calendrier;"Comment dit-on ""février"" en anglais ?";February;August | July | September
+110104;ce1;english;en_calendrier;"Que veut dire ""Tuesday"" en français ?";mardi;jeudi | samedi | dimanche
+110105;ce1;english;en_calendrier;"Que veut dire ""February"" en français ?";février;mars | avril | janvier
+110106;ce1;english;en_decrire_position;"Comment dit-on ""le chat est sur la table"" en anglais ?";The cat is on the table;The cat is under the table | The cat is in the box | The cat is next to the table
+110107;ce1;english;en_decrire_position;"Comment dit-on ""le ballon est sur le lit"" en anglais ?";The ball is on the bed;The ball is next to the bed | The ball is under the bed | The ball is in the bag
+110108;ce1;english;en_decrire_position;"Que veut dire ""The cat is on the table"" en français ?";le chat est sur la table;le chat est sous la table | le chat est à côté de la table | le chat est dans la boîte
+110109;ce1;english;en_decrire_position;"Que veut dire ""The ball is on the bed"" en français ?";le ballon est sur le lit;le ballon est sous le lit | le ballon est à côté du lit | le ballon est dans le sac
+110110;ce1;english;en_decrire_position;"Comment dit-on ""le chat est sous la table"" en anglais ?";The cat is under the table;The cat is in the box | The cat is next to the table | The cat is on the table
+110111;ce1;english;en_decrire_position;"Comment dit-on ""le ballon est sous le lit"" en anglais ?";The ball is under the bed;The ball is in the bag | The ball is on the bed | The ball is next to the bed
+110112;ce1;english;en_decrire_position;"Que veut dire ""The cat is under the table"" en français ?";le chat est sous la table;le chat est sur la table | le chat est dans la boîte | le chat est à côté de la table
+110113;ce1;english;en_decrire_position;"Que veut dire ""The ball is under the bed"" en français ?";le ballon est sous le lit;le ballon est sur le lit | le ballon est dans le sac | le ballon est à côté du lit
+110114;ce1;english;en_decrire_position;"Comment dit-on ""le chat est à côté de la table"" en anglais ?";The cat is next to the table;The cat is on the table | The cat is in the box | The cat is under the table
+110115;ce1;english;en_decrire_position;"Comment dit-on ""le ballon est à côté du lit"" en anglais ?";The ball is next to the bed;The ball is under the bed | The ball is on the bed | The ball is in the bag
+110116;ce1;english;en_ville_transports;"Que veut dire ""bridge"" en français ?";pont;hôpital | piscine | lac
+110117;ce1;english;en_ville_transports;"Que veut dire ""rocket"" en français ?";fusée;bateau à voile | voiture | camion
+110118;ce1;english;en_ville_transports;"Comment dit-on ""musée"" en anglais ?";museum;swimming pool | station | library
+110119;ce1;english;en_ville_transports;"Que veut dire ""museum"" en français ?";musée;magasin | château | gare
+110120;ce1;english;en_ville_transports;"Que veut dire ""helicopter"" en français ?";hélicoptère;fusée | tracteur | bateau à voile
+110121;ce1;english;en_ville_transports;"Que veut dire ""shop"" en français ?";magasin;ferme | parc | piscine
+110122;ce1;english;en_ville_transports;"Que veut dire ""sailboat"" en français ?";bateau à voile;camion | voiture | vélo
+110123;ce1;english;en_emotions;"Comment dit-on ""content"" en anglais ?";happy;sad | clever | nice
+110124;ce1;english;en_emotions;"Que veut dire ""happy"" en français ?";content;malin | bruyant | triste
+110125;ce1;english;en_emotions;"Comment dit-on ""triste"" en anglais ?";sad;clever | tired | funny
+110126;ce1;english;en_emotions;"Que veut dire ""sad"" en français ?";triste;content | courageux | gentil
+110127;ce1;english;en_emotions;"Comment dit-on ""fâché"" en anglais ?";angry;surprised | funny | happy
+110128;ce1;english;en_couleurs;"Que veut dire ""turquoise"" en français ?";turquoise;blanc | jaune | rose
+110129;ce1;english;en_couleurs;"Comment dit-on ""doré"" en anglais ?";golden;white | khaki | brown
+110130;ce1;english;en_couleurs;"Que veut dire ""indigo"" en français ?";indigo;bordeaux | vert | rouge
+110131;ce1;english;en_couleurs;"Que veut dire ""khaki"" en français ?";kaki;turquoise | gris | noir
+110132;ce1;english;en_corps;"Comment dit-on ""dent"" en anglais ?";tooth;back | hair | head
+110133;ce1;english;en_corps;"Que veut dire ""hand"" en français ?";main;dent | épaule | nez
+110134;ce2;english;en_vetements;"Que veut dire ""trousers"" en français ?";pantalon;chapeau | chemise | chaussettes
+110135;ce2;english;en_vetements;"Comment dit-on ""chaussures"" en anglais ?";shoes;hat | coat | belt
+110136;ce2;english;en_vetements;"Que veut dire ""shoes"" en français ?";chaussures;veste | manteau | bottes
+110137;ce2;english;en_vetements;"Comment dit-on ""manteau"" en anglais ?";coat;scarf | jumper | gloves
+110138;ce2;english;en_vetements;"Que veut dire ""coat"" en français ?";manteau;robe | veste | bottes
+110139;ce2;english;en_vetements;"Comment dit-on ""chemise"" en anglais ?";shirt;shorts | jacket | scarf
+110140;ce2;english;en_vetements;"Que veut dire ""shirt"" en français ?";chemise;casquette | manteau | chaussures
+110141;ce2;english;en_vetements;"Comment dit-on ""robe"" en anglais ?";dress;scarf | pyjamas | shirt
+110142;ce2;english;en_vetements;"Que veut dire ""dress"" en français ?";robe;chaussures | pull | chaussettes
+110143;ce2;english;en_vetements;"Comment dit-on ""chapeau"" en anglais ?";hat;jumper | shirt | coat
+110144;ce2;english;en_vetements;"Que veut dire ""hat"" en français ?";chapeau;manteau | bottes | pyjama
+110145;ce2;english;en_vetements;"Comment dit-on ""chaussettes"" en anglais ?";socks;belt | jacket | trousers
+110146;ce2;english;en_vetements;"Que veut dire ""socks"" en français ?";chaussettes;ceinture | robe | chapeau
+110147;ce2;english;en_vetements;"Comment dit-on ""pull"" en anglais ?";jumper;jacket | socks | boots
+110148;ce2;english;en_vetements;"Que veut dire ""jumper"" en français ?";pull;chapeau | écharpe | robe
+110149;ce2;english;en_vetements;"Comment dit-on ""écharpe"" en anglais ?";scarf;gloves | jacket | shoes
+110150;ce2;english;en_vetements;"Que veut dire ""scarf"" en français ?";écharpe;jupe | chapeau | pyjama
+110151;ce2;english;en_vetements;"Comment dit-on ""gants"" en anglais ?";gloves;boots | hat | shoes
+110152;ce2;english;en_vetements;"Que veut dire ""gloves"" en français ?";gants;robe | pantalon | short
+110153;ce2;english;en_couleurs;"Comment dit-on ""rose"" en anglais ?";pink;grey | blue | purple
+110154;ce2;english;en_couleurs;"Comment dit-on ""lavande"" en anglais ?";lavender;white | green | yellow
+110155;ce2;english;en_couleurs;"Comment dit-on ""blanc"" en anglais ?";white;maroon | silver | black
+110156;ce2;english;en_couleurs;"Que veut dire ""white"" en français ?";blanc;lavande | rouge | noir
+110157;ce2;english;en_couleurs;"Comment dit-on ""noir"" en anglais ?";black;red | lavender | golden
+110158;ce2;english;en_couleurs;"Que veut dire ""black"" en français ?";noir;vert | gris | jaune
+110159;ce2;english;en_couleurs;"Comment dit-on ""rouge"" en anglais ?";red;golden | turquoise | white
+110160;ce2;english;en_couleurs;"Que veut dire ""red"" en français ?";rouge;doré | violet | bordeaux
+110161;ce2;english;en_couleurs;"Comment dit-on ""bleu"" en anglais ?";blue;silver | yellow | brown
+110162;ce2;english;en_couleurs;"Que veut dire ""blue"" en français ?";bleu;lavande | violet | rose
+110163;ce2;english;en_couleurs;"Comment dit-on ""vert"" en anglais ?";green;red | lavender | cream
+110164;ce2;english;en_couleurs;"Que veut dire ""green"" en français ?";vert;rouge | bordeaux | gris
+110165;ce2;english;en_couleurs;"Comment dit-on ""jaune"" en anglais ?";yellow;blue | golden | maroon
+110166;ce2;english;en_couleurs;"Que veut dire ""yellow"" en français ?";jaune;crème | gris | blanc
+110167;ce2;english;en_couleurs;"Comment dit-on ""violet"" en anglais ?";purple;white | lavender | silver
+110168;ce2;english;en_couleurs;"Que veut dire ""purple"" en français ?";violet;turquoise | rouge | bleu
+110169;ce2;english;en_couleurs;"Comment dit-on ""gris"" en anglais ?";grey;green | lavender | turquoise
+110170;ce2;english;en_couleurs;"Que veut dire ""grey"" en français ?";gris;rose | bleu | vert
+110171;ce2;english;en_corps;"Comment dit-on ""oreille"" en anglais ?";ear;head | mouth | nose
+110172;ce2;english;en_corps;"Comment dit-on ""main"" en anglais ?";hand;back | mouth | foot
+110173;ce2;english;en_corps;"Comment dit-on ""épaule"" en anglais ?";shoulder;leg | eye | foot
+110174;ce2;english;en_corps;"Comment dit-on ""tête"" en anglais ?";head;neck | elbow | tooth
+110175;ce2;english;en_corps;"Que veut dire ""head"" en français ?";tête;genou | coude | cou
+110176;ce2;english;en_corps;"Comment dit-on ""nez"" en anglais ?";nose;toe | arm | head
+110177;ce2;english;en_corps;"Que veut dire ""nose"" en français ?";nez;bras | jambe | ventre
+110178;ce2;english;en_corps;"Comment dit-on ""bouche"" en anglais ?";mouth;knee | toe | hand
+110179;ce2;english;en_corps;"Que veut dire ""mouth"" en français ?";bouche;ventre | nez | doigt
+110180;ce2;english;en_corps;"Comment dit-on ""oeil"" en anglais ?";eye;tooth | leg | nose
+110181;ce2;english;en_corps;"Que veut dire ""eye"" en français ?";oeil;bouche | épaule | cou
+110182;ce2;english;en_corps;"Comment dit-on ""dent"" en anglais ?";tooth;elbow | neck | toe
+110183;ce2;english;en_corps;"Que veut dire ""tooth"" en français ?";dent;nez | bouche | main
+110184;ce2;english;en_corps;"Comment dit-on ""bras"" en anglais ?";arm;eye | knee | head
+110185;ce2;english;en_corps;"Que veut dire ""arm"" en français ?";bras;oreille | bouche | tête
+110186;ce2;english;en_corps;"Comment dit-on ""jambe"" en anglais ?";leg;knee | elbow | finger
+110187;ce2;english;en_corps;"Que veut dire ""leg"" en français ?";jambe;oeil | épaule | genou
+110188;ce2;english;en_meteo_nature;"Que veut dire ""star"" en français ?";étoile;soleil | fleur | lune
+110189;ce2;english;en_meteo_nature;"Comment dit-on ""nuage"" en anglais ?";cloud;moon | stone | tree
+110190;ce2;english;en_meteo_nature;"Que veut dire ""rain"" en français ?";pluie;forêt | mer | orage
+110191;ce2;english;en_meteo_nature;"Comment dit-on ""orage"" en anglais ?";storm;stone | rain | flower
+110192;ce2;english;en_meteo_nature;"Que veut dire ""frost"" en français ?";gel;mer | rivière | volcan
+110193;ce2;english;en_meteo_nature;"Que veut dire ""stone"" en français ?";caillou;nuage | rivière | arbre
+110194;ce2;english;en_meteo_nature;"Comment dit-on ""soleil"" en anglais ?";sun;sea | moon | star
+110195;ce2;english;en_meteo_nature;"Que veut dire ""sun"" en français ?";soleil;pluie | vent | arbre
+110196;ce2;english;en_meteo_nature;"Comment dit-on ""neige"" en anglais ?";snow;stone | flower | sea
+110197;ce2;english;en_meteo_nature;"Que veut dire ""snow"" en français ?";neige;orage | gel | fleur
+110198;ce2;english;en_meteo_nature;"Comment dit-on ""vent"" en anglais ?";wind;rainbow | tree | sun
+110199;ce2;english;en_meteo_nature;"Que veut dire ""wind"" en français ?";vent;gel | mer | volcan
+110200;ce2;english;en_meteo_nature;"Comment dit-on ""lune"" en anglais ?";moon;wind | cloud | leaf
+110201;ce2;english;en_meteo_nature;"Que veut dire ""moon"" en français ?";lune;vent | arc-en-ciel | caillou
+110202;ce2;english;en_pays;"Que veut dire ""Japanese"" en français ?";japonais;canadien | brésilien | chinois
+110203;ce2;english;en_pays;"Que veut dire ""Brazilian"" en français ?";brésilien;mexicain | japonais | grec
+110204;ce2;english;en_pays;"Que veut dire ""Portuguese"" en français ?";portugais;japonais | gallois | brésilien
+110205;ce2;english;en_pays;"Comment dit-on ""australien"" en anglais ?";Australian;American | Chinese | Greek
+110206;ce2;english;en_pays;"Que veut dire ""Chinese"" en français ?";chinois;brésilien | américain | russe
+110207;ce2;english;en_pays;"Que veut dire ""Welsh"" en français ?";gallois;portugais | japonais | mexicain
+110208;ce2;english;en_pays;"Comment dit-on ""écossais"" en anglais ?";Scottish;Canadian | Welsh | Australian
+110209;ce2;english;en_pays;"Comment dit-on ""belge"" en anglais ?";Belgian;Australian | Brazilian | Scottish
+110210;ce2;english;en_pays;"Comment dit-on ""mexicain"" en anglais ?";Mexican;Portuguese | Greek | Australian
+110211;ce2;english;en_pays;"Que veut dire ""Mexican"" en français ?";mexicain;australien | canadien | écossais
+110212;ce2;english;en_pays;"Comment dit-on ""russe"" en anglais ?";Russian;Portuguese | Australian | Welsh
+110213;ce2;english;en_pays;"Que veut dire ""Russian"" en français ?";russe;suédois | portugais | écossais
+110214;ce2;english;en_verbes;"Que veut dire ""I start"" en français ?";je commence;je réponds | j'attends | j'écoute
+110215;ce2;english;en_verbes;"Comment dit-on ""je trouve"" en anglais ?";I find;I sit | I play | I start
+110216;ce2;english;en_verbes;"Que veut dire ""I finish"" en français ?";je finis;je lis | je nage | je joue
+110217;ce2;english;en_verbes;"Que veut dire ""I answer"" en français ?";je réponds;je trouve | je commence | je cuisine
+110218;ce2;english;en_verbes;"Que veut dire ""I catch"" en français ?";j'attrape;j'attends | j'enseigne | j'aide
+110219;ce2;english;en_verbes;"Comment dit-on ""je m'assois"" en anglais ?";I sit;I help | I play | I catch
+110220;ce2;english;en_verbes;"Comment dit-on ""j'enseigne"" en anglais ?";I teach;I start | I finish | I sing
+110221;ce2;english;en_verbes;"Que veut dire ""I swim"" en français ?";je nage;j'attends | je chante | je joue
+110222;ce2;english;en_verbes;"Comment dit-on ""je chante"" en anglais ?";I sing;I read | I help | I swim
+110223;ce2;english;en_verbes;"Que veut dire ""I sing"" en français ?";je chante;j'attrape | je finis | j'enseigne
+110224;ce2;english;en_verbes;"Comment dit-on ""j'écoute"" en anglais ?";I listen;I read | I sit | I start
+110225;ce2;english;en_verbes;"Que veut dire ""I listen"" en français ?";j'écoute;j'attrape | je m'assois | je commence
+110226;ce2;english;en_maison_famille;"Comment dit-on ""tasse"" en anglais ?";cup;pot | bowl | oven
+110227;ce2;english;en_maison_famille;"Comment dit-on ""toit"" en anglais ?";roof;kitchen | door | window
+110228;ce2;english;en_maison_famille;"Que veut dire ""twin"" en français ?";jumeau;beau-père | tante | belle-mère
+110229;ce2;english;en_maison_famille;"Comment dit-on ""four"" en anglais ?";oven;spoon | plate | glass
+110230;ce2;english;en_maison_famille;"Comment dit-on ""belle-mère"" en anglais ?";stepmother;stepfather | niece | nephew
+110231;ce2;english;en_maison_famille;"Que veut dire ""floor"" en français ?";sol;chambre | cuisine | porte
+110232;ce2;english;en_maison_famille;"Comment dit-on ""couteau"" en anglais ?";knife;glass | pot | fork
+110233;ce2;english;en_maison_famille;"Comment dit-on ""beau-père"" en anglais ?";stepfather;aunt | stepmother | uncle
+110234;ce2;english;en_maison_famille;"Que veut dire ""stairs"" en français ?";escalier;porte | sol | plafond
+110235;ce2;english;en_maison_famille;"Que veut dire ""stepfather"" en français ?";beau-père;belle-mère | neveu | jumeau
+110236;ce2;english;en_nourriture;"Que veut dire ""potato"" en français ?";pomme de terre;citron | raisin | beurre
+110237;ce2;english;en_nourriture;"Comment dit-on ""viande"" en anglais ?";meat;sandwich | milk | soup
+110238;ce2;english;en_nourriture;"Que veut dire ""soup"" en français ?";soupe;lait | salade | poire
+110239;ce2;english;en_nourriture;"Comment dit-on ""carotte"" en anglais ?";carrot;salad | cheese | butter
+110240;ce2;english;en_nourriture;"Que veut dire ""sugar"" en français ?";sucre;sandwich | citron | raisin
+110241;ce2;english;en_nourriture;"Comment dit-on ""raisin"" en anglais ?";grape;meat | cake | egg
+110242;ce2;english;en_nourriture;"Comment dit-on ""sandwich"" en anglais ?";sandwich;apple | sugar | jam
+110243;ce2;english;en_nourriture;"Comment dit-on ""fromage"" en anglais ?";cheese;butter | soup | bread
+110244;ce2;english;en_nourriture;"Que veut dire ""cheese"" en français ?";fromage;pomme | beurre | sucre
+110245;ce2;english;en_nombres;"Comment dit-on ""dix"" en anglais ?";ten;thirty | eighty | sixty
+110246;ce2;english;en_nombres;"Que veut dire ""ten"" en français ?";dix;quatre-vingt-dix | trente | quarante
+110247;ce2;english;en_nombres;"Que veut dire ""first"" en français ?";premier;troisième | deuxième | dixième
+110248;ce2;english;en_nombres;"Comment dit-on ""vingt"" en anglais ?";twenty;eighty | seventy | sixty
+110249;ce2;english;en_animaux;"Que veut dire ""turkey"" en français ?";dinde;poule | hibou | chauve-souris
+110250;ce2;english;en_animaux;"Comment dit-on ""requin"" en anglais ?";shark;ant | swan | eagle
+110251;ce2;english;en_animaux;"Comment dit-on ""zèbre"" en anglais ?";zebra;bee | shark | owl
+110252;ce2;english;en_animaux;"Comment dit-on ""escargot"" en anglais ?";snail;shark | turkey | octopus
+110253;ce2;english;en_ville_transports;"Comment dit-on ""parc"" en anglais ?";park;bakery | station | market
+110254;ce2;english;en_ville_transports;"Comment dit-on ""plage"" en anglais ?";beach;park | bakery | station
+110255;ce2;english;en_ville_transports;"Que veut dire ""beach"" en français ?";plage;ferme | musée | hôpital
+110256;cm1;english;en_vetements;"Que veut dire ""trousers"" en français ?";pantalon;chapeau | manteau | veste
+110257;cm1;english;en_vetements;"Que veut dire ""scarf"" en français ?";écharpe;veste | gants | chapeau
+110258;cm1;english;en_vetements;"Que veut dire ""sweater"" en français ?";pull;maillot de bain | bottes | chaussettes
+110259;cm1;english;en_vetements;"Que veut dire ""socks"" en français ?";chaussettes;manteau | short | cravate
+110260;cm1;english;en_vetements;"Que veut dire ""hat"" en français ?";chapeau;pull | cravate | robe
+110261;cm1;english;en_nourriture;"Comment dit-on ""petit-déjeuner"" en anglais ?";breakfast;lunch | snack | dinner
+110262;cm1;english;en_nourriture;"Que veut dire ""meat"" en français ?";viande;pain | fromage | oeuf
+110263;cm1;english;en_nourriture;"Que veut dire ""breakfast"" en français ?";petit-déjeuner;dîner | déjeuner | goûter
+110264;cm1;english;en_nourriture;"Comment dit-on ""soupe"" en anglais ?";soup;cake | cheese | cherry
+110265;cm1;english;en_nourriture;"Comment dit-on ""déjeuner"" en anglais ?";lunch;dinner | snack | breakfast
+110266;cm1;english;en_nourriture;"Que veut dire ""lunch"" en français ?";déjeuner;goûter | petit-déjeuner | dîner
+110267;cm1;english;en_nourriture;"Comment dit-on ""riz"" en anglais ?";rice;pasta | banana | vegetables
+110268;cm1;english;en_nourriture;"Comment dit-on ""dîner"" en anglais ?";dinner;snack | breakfast | lunch
+110269;cm1;english;en_nourriture;"Que veut dire ""rice"" en français ?";riz;poulet | oeuf | banane
+110270;cm1;english;en_nourriture;"Que veut dire ""dinner"" en français ?";dîner;petit-déjeuner | goûter | déjeuner
+110271;cm1;english;en_nourriture;"Comment dit-on ""pain"" en anglais ?";bread;cake | chicken | cheese
+110272;cm1;english;en_nourriture;"Comment dit-on ""goûter"" en anglais ?";snack;dinner | lunch | breakfast
+110273;cm1;english;en_nourriture;"Que veut dire ""bread"" en français ?";pain;cerise | lait | oeuf
+110274;cm1;english;en_nourriture;"Que veut dire ""snack"" en français ?";goûter;déjeuner | dîner | petit-déjeuner
+110275;cm1;english;en_nourriture;"Comment dit-on ""gâteau"" en anglais ?";cake;banana | bread | peach
+110276;cm1;english;en_nourriture;"Que veut dire ""cake"" en français ?";gâteau;banane | pâtes | beurre
+110277;cm1;english;en_nourriture;"Comment dit-on ""fromage"" en anglais ?";cheese;butter | cherry | chicken
+110278;cm1;english;en_nourriture;"Que veut dire ""cheese"" en français ?";fromage;légumes | riz | pêche
+110279;cm1;english;en_maison_famille;"Comment dit-on ""salon"" en anglais ?";living room;door | roof | attic
+110280;cm1;english;en_maison_famille;"Que veut dire ""living room"" en français ?";salon;grenier | escalier | porte
+110281;cm1;english;en_maison_famille;"Comment dit-on ""papa"" en anglais ?";dad;nephew | cousin | niece
+110282;cm1;english;en_maison_famille;"Comment dit-on ""cuisine"" en anglais ?";kitchen;stairs | window | living room
+110283;cm1;english;en_maison_famille;"Que veut dire ""dad"" en français ?";papa;tante | frère | soeur
+110284;cm1;english;en_maison_famille;"Que veut dire ""kitchen"" en français ?";cuisine;toit | chambre | escalier
+110285;cm1;english;en_maison_famille;"Comment dit-on ""bébé"" en anglais ?";baby;grandpa | son | nephew
+110286;cm1;english;en_maison_famille;"Comment dit-on ""chambre"" en anglais ?";bedroom;door | attic | stairs
+110287;cm1;english;en_maison_famille;"Que veut dire ""baby"" en français ?";bébé;parents | nièce | papa
+110288;cm1;english;en_maison_famille;"Que veut dire ""bedroom"" en français ?";chambre;porte | fenêtre | salon
+110289;cm1;english;en_maison_famille;"Comment dit-on ""grand-père"" en anglais ?";grandpa;cousin | niece | brother
+110290;cm1;english;en_maison_famille;"Comment dit-on ""salle de bain"" en anglais ?";bathroom;living room | attic | stairs
+110291;cm1;english;en_maison_famille;"Que veut dire ""grandpa"" en français ?";grand-père;nièce | papa | neveu
+110292;cm1;english;en_maison_famille;"Que veut dire ""bathroom"" en français ?";salle de bain;salon | toit | fenêtre
+110293;cm1;english;en_maison_famille;"Comment dit-on ""frère"" en anglais ?";brother;grandpa | baby | nephew
+110294;cm1;english;en_maison_famille;"Comment dit-on ""grenier"" en anglais ?";attic;kitchen | door | bathroom
+110295;cm1;english;en_maison_famille;"Que veut dire ""brother"" en français ?";frère;bébé | nièce | grands-parents
+110296;cm1;english;en_maison_famille;"Que veut dire ""attic"" en français ?";grenier;porte | fenêtre | toit
+110297;cm1;english;en_ville_transports;"Comment dit-on ""moto"" en anglais ?";motorbike;bike | car | plane
+110298;cm1;english;en_ville_transports;"Comment dit-on ""rue"" en anglais ?";street;cinema | bridge | library
+110299;cm1;english;en_ville_transports;"Que veut dire ""street"" en français ?";rue;bibliothèque | pont | hôpital
+110300;cm1;english;en_ville_transports;"Comment dit-on ""camion"" en anglais ?";truck;rocket | plane | boat
+110301;cm1;english;en_ville_transports;"Comment dit-on ""pont"" en anglais ?";bridge;hospital | town hall | street
+110302;cm1;english;en_ville_transports;"Que veut dire ""bridge"" en français ?";pont;cinéma | hôpital | église
+110303;cm1;english;en_ville_transports;"Comment dit-on ""voiture"" en anglais ?";car;tractor | truck | train
+110304;cm1;english;en_ville_transports;"Comment dit-on ""gare"" en anglais ?";station;town hall | park | swimming pool
+110305;cm1;english;en_ville_transports;"Que veut dire ""car"" en français ?";voiture;vélo | hélicoptère | camion
+110306;cm1;english;en_ville_transports;"Que veut dire ""station"" en français ?";gare;boulangerie | piscine | mairie
+110307;cm1;english;en_ville_transports;"Comment dit-on ""train"" en anglais ?";train;truck | motorbike | bike
+110308;cm1;english;en_ville_transports;"Comment dit-on ""église"" en anglais ?";church;library | town hall | bakery
+110309;cm1;english;en_ville_transports;"Que veut dire ""train"" en français ?";train;tracteur | camion | voiture
+110310;cm1;english;en_ville_transports;"Que veut dire ""church"" en français ?";église;piscine | mairie | gare
+110311;cm1;english;en_ville_transports;"Comment dit-on ""bateau"" en anglais ?";boat;truck | train | motorbike
+110312;cm1;english;en_ville_transports;"Comment dit-on ""mairie"" en anglais ?";town hall;swimming pool | church | bakery
+110313;cm1;english;en_ville_transports;"Que veut dire ""boat"" en français ?";bateau;train | vélo | moto
+110314;cm1;english;en_ville_transports;"Que veut dire ""town hall"" en français ?";mairie;boulangerie | hôpital | parc
+110315;cm1;english;en_loisirs_metiers;"Comment dit-on ""boulanger"" en anglais ?";baker;nurse | vet | firefighter
+110316;cm1;english;en_loisirs_metiers;"Que veut dire ""I play the drum"" en français ?";je joue du tambour;je joue du violon | je joue de la guitare | je joue du piano
+110317;cm1;english;en_loisirs_metiers;"Que veut dire ""baker"" en français ?";boulanger;fermier | facteur | cuisinier
+110318;cm1;english;en_loisirs_metiers;"Comment dit-on ""médecin"" en anglais ?";doctor;baker | postman | police officer
+110319;cm1;english;en_loisirs_metiers;"Que veut dire ""I play the violin"" en français ?";je joue du violon;je joue de la trompette | je joue du piano | je joue du tambour
+110320;cm1;english;en_loisirs_metiers;"Que veut dire ""doctor"" en français ?";médecin;facteur | pompier | cuisinier
+110321;cm1;english;en_loisirs_metiers;"Comment dit-on ""pompier"" en anglais ?";firefighter;baker | doctor | nurse
+110322;cm1;english;en_loisirs_metiers;"Que veut dire ""I play the flute"" en français ?";je joue de la flûte;je joue du tambour | je joue de la guitare | je joue de la harpe
+110323;cm1;english;en_loisirs_metiers;"Que veut dire ""firefighter"" en français ?";pompier;infirmier | dentiste | policier
+110324;cm1;english;en_loisirs_metiers;"Comment dit-on ""infirmier"" en anglais ?";nurse;vet | farmer | firefighter
+110325;cm1;english;en_loisirs_metiers;"Que veut dire ""I play the piano"" en français ?";je joue du piano;je joue de la harpe | je joue du tambour | je joue du violon
+110326;cm1;english;en_loisirs_metiers;"Que veut dire ""nurse"" en français ?";infirmier;vétérinaire | policier | cuisinier
+110327;cm1;english;en_loisirs_metiers;"Comment dit-on ""fermier"" en anglais ?";farmer;baker | doctor | nurse
+110328;cm1;english;en_questions_lieux;"Comment dit-on ""où"" en anglais ?";where;when | why | how
+110329;cm1;english;en_questions_lieux;"Que veut dire ""I am in the garage"" en français ?";je suis dans le garage;je suis dans la cuisine | je suis dans le salon | je suis dans le jardin
+110330;cm1;english;en_questions_lieux;"Que veut dire ""where"" en français ?";où;qui | pourquoi | quand
+110331;cm1;english;en_questions_lieux;"Comment dit-on ""qui"" en anglais ?";who;what | where | how
+110332;cm1;english;en_questions_lieux;"Que veut dire ""I am in the bathroom"" en français ?";je suis dans la salle de bain;je suis dans la cuisine | je suis dans le jardin | je suis dans le salon
+110333;cm1;english;en_questions_lieux;"Que veut dire ""who"" en français ?";qui;quand | quoi | comment
+110334;cm1;english;en_questions_lieux;"Comment dit-on ""quand"" en anglais ?";when;how | where | who
+110335;cm1;english;en_questions_lieux;"Que veut dire ""I am in the cellar"" en français ?";je suis dans la cave;je suis dans la chambre | je suis dans la cuisine | je suis dans le garage
+110336;cm1;english;en_questions_lieux;"Que veut dire ""when"" en français ?";quand;quoi | pourquoi | comment
+110337;cm1;english;en_questions_lieux;"Comment dit-on ""pourquoi"" en anglais ?";why;how | who | what
+110338;cm1;english;en_questions_lieux;"Que veut dire ""I am in the kitchen"" en français ?";je suis dans la cuisine;je suis dans le jardin | je suis dans la cave | je suis dans la salle de bain
+110339;cm1;english;en_questions_lieux;"Que veut dire ""why"" en français ?";pourquoi;qui | quand | comment
+110340;cm1;english;en_questions_lieux;"Comment dit-on ""comment"" en anglais ?";how;why | when | what
+110341;cm1;english;en_meteo_nature;"Que veut dire ""sun"" en français ?";soleil;tonnerre | neige | pluie
+110342;cm1;english;en_meteo_nature;"Que veut dire ""cloud"" en français ?";nuage;ciel | vent | pluie
+110343;cm1;english;en_meteo_nature;"Que veut dire ""storm"" en français ?";orage;glace | éclair | soleil
+110344;cm1;english;en_meteo_nature;"Comment dit-on ""pluie"" en anglais ?";rain;storm | thunder | moon
+110345;cm1;english;en_meteo_nature;"Que veut dire ""rain"" en français ?";pluie;ciel | arc-en-ciel | brouillard
+110346;cm1;english;en_meteo_nature;"Comment dit-on ""brouillard"" en anglais ?";fog;sky | snow | cloud
+110347;cm1;english;en_meteo_nature;"Que veut dire ""fog"" en français ?";brouillard;glace | arc-en-ciel | soleil
+110348;cm1;english;en_meteo_nature;"Comment dit-on ""arc-en-ciel"" en anglais ?";rainbow;sky | rain | sun
+110349;cm1;english;en_meteo_nature;"Que veut dire ""rainbow"" en français ?";arc-en-ciel;orage | éclair | lune
+110350;cm1;english;en_meteo_nature;"Comment dit-on ""éclair"" en anglais ?";lightning;thunder | storm | star
+110351;cm1;english;en_meteo_nature;"Que veut dire ""lightning"" en français ?";éclair;lune | glace | soleil
+110352;cm1;english;en_meteo_nature;"Comment dit-on ""tonnerre"" en anglais ?";thunder;cloud | lightning | star
+110353;cm1;english;en_meteo_nature;"Que veut dire ""thunder"" en français ?";tonnerre;nuage | pluie | arc-en-ciel
+110354;cm1;english;en_politesse_consignes;"Comment dit-on ""s'il te plaît"" en anglais ?";please;sorry | you're welcome | excuse me
+110355;cm1;english;en_politesse_consignes;"Que veut dire ""don't sleep in class"" en français ?";ne dors pas en classe;ne cours pas | ne grimpe pas sur la table | ne touche pas
+110356;cm1;english;en_politesse_consignes;"Que veut dire ""please"" en français ?";s'il te plaît;de rien | au revoir | pardon
+110357;cm1;english;en_politesse_consignes;"Comment dit-on ""merci"" en anglais ?";thank you;excuse me | goodbye | sorry
+110358;cm1;english;en_politesse_consignes;"Que veut dire ""don't run"" en français ?";ne cours pas;n'oublie pas ton cahier | ne chante pas si fort | ne saute pas sur le lit
+110359;cm1;english;en_politesse_consignes;"Que veut dire ""thank you"" en français ?";merci;excuse-moi | bonne nuit | s'il te plaît
+110360;cm1;english;en_politesse_consignes;"Comment dit-on ""pardon"" en anglais ?";sorry;goodbye | excuse me | thank you
+110361;cm1;english;en_politesse_consignes;"Que veut dire ""don't sing so loud"" en français ?";ne chante pas si fort;ne saute pas sur le lit | n'oublie pas ton cahier | ne dessine pas sur le mur
+110362;cm1;english;en_politesse_consignes;"Que veut dire ""sorry"" en français ?";pardon;merci | de rien | bonne nuit
+110363;cm1;english;en_politesse_consignes;"Comment dit-on ""de rien"" en anglais ?";you're welcome;thank you | goodbye | please
+110364;cm1;english;en_politesse_consignes;"Que veut dire ""don't touch"" en français ?";ne touche pas;ne dors pas en classe | ne cours pas | ne dessine pas sur le mur
+110365;cm1;english;en_politesse_consignes;"Que veut dire ""you're welcome"" en français ?";de rien;au revoir | pardon | merci
+110366;cm1;english;en_corps;"Comment dit-on ""nez"" en anglais ?";nose;eye | leg | hand
+110367;cm1;english;en_corps;"Que veut dire ""nose"" en français ?";nez;tête | bras | oreille
+110368;cm1;english;en_corps;"Comment dit-on ""pied"" en anglais ?";foot;tooth | back | nose
+110369;cm1;english;en_corps;"Que veut dire ""foot"" en français ?";pied;oeil | nez | genou
+110370;cm1;english;en_corps;"Comment dit-on ""bras"" en anglais ?";arm;foot | hand | ear
+110371;cm1;english;en_corps;"Que veut dire ""arm"" en français ?";bras;oreille | épaule | dos
+110372;cm1;english;en_corps;"Comment dit-on ""dos"" en anglais ?";back;tooth | finger | eye
+110373;cm1;english;en_corps;"Que veut dire ""back"" en français ?";dos;épaule | main | dent
+110374;cm1;english;en_avoir_etre;"Que veut dire ""I have a wife"" en français ?";j'ai une femme;j'ai un neveu | j'ai un jumeau | j'ai une nièce
+110375;cm2;english;en_animaux;"Comment dit-on ""oiseau"" en anglais ?";bird;dolphin | snake | lion
+110376;cm2;english;en_animaux;"Comment dit-on ""baleine"" en anglais ?";whale;monkey | bat | dolphin
+110377;cm2;english;en_animaux;"Que veut dire ""whale"" en français ?";baleine;tigre | girafe | aigle
+110378;cm2;english;en_animaux;"Comment dit-on ""pieuvre"" en anglais ?";octopus;bear | elephant | fox
+110379;cm2;english;en_animaux;"Que veut dire ""octopus"" en français ?";pieuvre;singe | girafe | oiseau
+110380;cm2;english;en_animaux;"Comment dit-on ""aigle"" en anglais ?";eagle;monkey | giraffe | fox
+110381;cm2;english;en_animaux;"Que veut dire ""eagle"" en français ?";aigle;perroquet | hérisson | loup
+110382;cm2;english;en_animaux;"Comment dit-on ""dauphin"" en anglais ?";dolphin;monkey | bat | snake
+110383;cm2;english;en_animaux;"Que veut dire ""dolphin"" en français ?";dauphin;chauve-souris | renard | loup
+110384;cm2;english;en_animaux;"Comment dit-on ""requin"" en anglais ?";shark;giraffe | monkey | parrot
+110385;cm2;english;en_animaux;"Que veut dire ""shark"" en français ?";requin;pieuvre | dauphin | tortue
+110386;cm2;english;en_animaux;"Comment dit-on ""perroquet"" en anglais ?";parrot;tiger | bear | shark
+110387;cm2;english;en_animaux;"Que veut dire ""parrot"" en français ?";perroquet;tortue | girafe | chauve-souris
+110388;cm2;english;en_animaux;"Comment dit-on ""chauve-souris"" en anglais ?";bat;shark | giraffe | parrot
+110389;cm2;english;en_animaux;"Que veut dire ""bat"" en français ?";chauve-souris;aigle | hérisson | lion
+110390;cm2;english;en_animaux;"Comment dit-on ""écureuil"" en anglais ?";squirrel;lion | wolf | tiger
+110391;cm2;english;en_animaux;"Que veut dire ""squirrel"" en français ?";écureuil;ours | éléphant | girafe
+110392;cm2;english;en_animaux;"Comment dit-on ""hérisson"" en anglais ?";hedgehog;elephant | dolphin | snake
+110393;cm2;english;en_animaux;"Que veut dire ""hedgehog"" en français ?";hérisson;éléphant | écureuil | ours
+110394;cm2;english;en_ecole;"Comment dit-on ""histoire"" en anglais ?";history;maths | geography | science
+110395;cm2;english;en_ecole;"Que veut dire ""history"" en français ?";histoire;musique | géographie | sport
+110396;cm2;english;en_ecole;"Comment dit-on ""géographie"" en anglais ?";geography;PE | history | science
+110397;cm2;english;en_ecole;"Comment dit-on ""cour de récréation"" en anglais ?";playground;canteen | dictionary | timetable
+110398;cm2;english;en_ecole;"Que veut dire ""geography"" en français ?";géographie;sport | mathématiques | arts plastiques
+110399;cm2;english;en_ecole;"Que veut dire ""playground"" en français ?";cour de récréation;cartable | carte | cantine
+110400;cm2;english;en_ecole;"Comment dit-on ""sciences"" en anglais ?";science;art | music | PE
+110401;cm2;english;en_ecole;"Comment dit-on ""cantine"" en anglais ?";canteen;homework | schoolbag | playground
+110402;cm2;english;en_ecole;"Que veut dire ""science"" en français ?";sciences;musique | sport | arts plastiques
+110403;cm2;english;en_ecole;"Que veut dire ""canteen"" en français ?";cantine;cour de récréation | carte | cartable
+110404;cm2;english;en_ecole;"Comment dit-on ""mathématiques"" en anglais ?";maths;geography | science | music
+110405;cm2;english;en_ecole;"Comment dit-on ""emploi du temps"" en anglais ?";timetable;classroom | lesson | pencil case
+110406;cm2;english;en_ecole;"Que veut dire ""maths"" en français ?";mathématiques;histoire | musique | sport
+110407;cm2;english;en_ecole;"Que veut dire ""timetable"" en français ?";emploi du temps;cantine | leçon | dictionnaire
+110408;cm2;english;en_ecole;"Comment dit-on ""arts plastiques"" en anglais ?";art;PE | history | science
+110409;cm2;english;en_ecole;"Comment dit-on ""devoirs"" en anglais ?";homework;schoolbag | playground | map
+110410;cm2;english;en_ecole;"Que veut dire ""art"" en français ?";arts plastiques;géographie | sport | mathématiques
+110411;cm2;english;en_ecole;"Que veut dire ""homework"" en français ?";devoirs;leçon | trousse | cartable
+110412;cm2;english;en_verbes;"Comment dit-on ""boire"" en anglais ?";to drink;to read | to forget | to learn
+110413;cm2;english;en_verbes;"Que veut dire ""to sing"" en français ?";chanter;écrire | dormir | construire
+110414;cm2;english;en_verbes;"Comment dit-on ""lire"" en anglais ?";to read;to sleep | to run | to write
+110415;cm2;english;en_verbes;"Comment dit-on ""écrire"" en anglais ?";to write;to swim | to travel | to eat
+110416;cm2;english;en_verbes;"Comment dit-on ""jouer"" en anglais ?";to play;to dance | to sing | to sell
+110417;cm2;english;en_verbes;"Que veut dire ""to play"" en français ?";jouer;manger | lire | voyager
+110418;cm2;english;en_verbes;"Comment dit-on ""dormir"" en anglais ?";to sleep;to read | to sell | to play
+110419;cm2;english;en_verbes;"Que veut dire ""to sleep"" en français ?";dormir;apprendre | vendre | boire
+110420;cm2;english;en_verbes;"Comment dit-on ""manger"" en anglais ?";to eat;to sing | to sell | to play
+110421;cm2;english;en_verbes;"Que veut dire ""to eat"" en français ?";manger;lire | vendre | danser
+110422;cm2;english;en_verbes;"Comment dit-on ""nager"" en anglais ?";to swim;to choose | to learn | to dance
+110423;cm2;english;en_verbes;"Que veut dire ""to swim"" en français ?";nager;construire | voyager | acheter
+110424;cm2;english;en_verbes;"Comment dit-on ""courir"" en anglais ?";to run;to sing | to choose | to travel
+110425;cm2;english;en_verbes;"Que veut dire ""to run"" en français ?";courir;fermer | lire | écrire
+110426;cm2;english;en_verbes;"Comment dit-on ""danser"" en anglais ?";to dance;to choose | to buy | to play
+110427;cm2;english;en_verbes;"Que veut dire ""to dance"" en français ?";danser;oublier | courir | construire
+110428;cm2;english;en_loisirs_metiers;"Comment dit-on ""pompier"" en anglais ?";firefighter;nurse | vet | hairdresser
+110429;cm2;english;en_loisirs_metiers;"Que veut dire ""firefighter"" en français ?";pompier;facteur | mécanicien | policier
+110430;cm2;english;en_loisirs_metiers;"Comment dit-on ""médecin"" en anglais ?";doctor;postman | engineer | journalist
+110431;cm2;english;en_loisirs_metiers;"Que veut dire ""doctor"" en français ?";médecin;mécanicien | architecte | cuisinier
+110432;cm2;english;en_loisirs_metiers;"Comment dit-on ""infirmier"" en anglais ?";nurse;dentist | pilot | hairdresser
+110433;cm2;english;en_loisirs_metiers;"Que veut dire ""nurse"" en français ?";infirmier;ingénieur | mécanicien | boulanger
+110434;cm2;english;en_loisirs_metiers;"Comment dit-on ""boulanger"" en anglais ?";baker;dentist | waiter | hairdresser
+110435;cm2;english;en_loisirs_metiers;"Que veut dire ""baker"" en français ?";boulanger;mécanicien | architecte | pilote
+110436;cm2;english;en_loisirs_metiers;"Comment dit-on ""dentiste"" en anglais ?";dentist;baker | farmer | postman
+110437;cm2;english;en_loisirs_metiers;"Que veut dire ""dentist"" en français ?";dentiste;infirmier | serveur | ingénieur
+110438;cm2;english;en_loisirs_metiers;"Comment dit-on ""fermier"" en anglais ?";farmer;engineer | vet | pilot
+110439;cm2;english;en_loisirs_metiers;"Que veut dire ""farmer"" en français ?";fermier;coiffeur | mécanicien | policier
+110440;cm2;english;en_loisirs_metiers;"Comment dit-on ""pilote"" en anglais ?";pilot;vet | architect | waiter
+110441;cm2;english;en_loisirs_metiers;"Que veut dire ""pilot"" en français ?";pilote;dentiste | fermier | boulanger
+110442;cm2;english;en_loisirs_metiers;"Comment dit-on ""avocat"" en anglais ?";lawyer;mechanic | nurse | vet
+110443;cm2;english;en_loisirs_metiers;"Que veut dire ""lawyer"" en français ?";avocat;serveur | ingénieur | mécanicien
+110444;cm2;english;en_calendrier;"Comment dit-on ""midi"" en anglais ?";noon;tomorrow | morning | yesterday
+110445;cm2;english;en_calendrier;"Comment dit-on ""printemps"" en anglais ?";spring;summer | autumn | winter
+110446;cm2;english;en_calendrier;"Comment dit-on ""semaine"" en anglais ?";week;year | day | month
+110447;cm2;english;en_calendrier;"Que veut dire ""spring"" en français ?";printemps;automne | hiver | été
+110448;cm2;english;en_calendrier;"Que veut dire ""week"" en français ?";semaine;jour | week-end | année
+110449;cm2;english;en_calendrier;"Comment dit-on ""été"" en anglais ?";summer;autumn | spring | winter
+110450;cm2;english;en_calendrier;"Comment dit-on ""mois"" en anglais ?";month;year | weekend | day
+110451;cm2;english;en_calendrier;"Que veut dire ""yesterday"" en français ?";hier;demain | midi | matin
+110452;cm2;english;en_calendrier;"Que veut dire ""summer"" en français ?";été;hiver | automne | printemps
+110453;cm2;english;en_calendrier;"Que veut dire ""month"" en français ?";mois;week-end | jour | année
+110454;cm2;english;en_calendrier;"Comment dit-on ""aujourd'hui"" en anglais ?";today;midnight | noon | yesterday
+110455;cm2;english;en_calendrier;"Comment dit-on ""automne"" en anglais ?";autumn;winter | spring | summer
+110456;cm2;english;en_calendrier;"Comment dit-on ""année"" en anglais ?";year;month | week | weekend
+110457;cm2;english;en_calendrier;"Que veut dire ""autumn"" en français ?";automne;hiver | été | printemps
+110458;cm2;english;en_meteo_nature;"Comment dit-on ""soleil"" en anglais ?";sun;forest | cave | beach
+110459;cm2;english;en_meteo_nature;"Comment dit-on ""pluie"" en anglais ?";rain;sea | desert | cave
+110460;cm2;english;en_meteo_nature;"Comment dit-on ""lac"" en anglais ?";lake;hill | cave | desert
+110461;cm2;english;en_meteo_nature;"Que veut dire ""lake"" en français ?";lac;désert | colline | grotte
+110462;cm2;english;en_meteo_nature;"Comment dit-on ""île"" en anglais ?";island;mountain | beach | forest
+110463;cm2;english;en_meteo_nature;"Que veut dire ""island"" en français ?";île;lac | grotte | plage
+110464;cm2;english;en_meteo_nature;"Comment dit-on ""mer"" en anglais ?";sea;island | beach | cave
+110465;cm2;english;en_meteo_nature;"Que veut dire ""sea"" en français ?";mer;grotte | volcan | montagne
+110466;cm2;english;en_meteo_nature;"Comment dit-on ""désert"" en anglais ?";desert;forest | sun | beach
+110467;cm2;english;en_meteo_nature;"Que veut dire ""desert"" en français ?";désert;mer | vallée | soleil
+110468;cm2;english;en_meteo_nature;"Comment dit-on ""colline"" en anglais ?";hill;sea | desert | sun
+110469;cm2;english;en_meteo_nature;"Que veut dire ""hill"" en français ?";colline;soleil | grotte | cascade
+110470;cm2;english;en_consignes_obligation;"Comment dit-on ""tu dois écouter"" en anglais ?";You must listen;You must do your homework | You must raise your hand | You must tidy your room
+110471;cm2;english;en_consignes_obligation;"Que veut dire ""You must listen"" en français ?";tu dois écouter;tu dois ranger ta chambre | tu dois te taire | tu dois te laver les mains
+110472;cm2;english;en_consignes_obligation;"Comment dit-on ""tu dois te taire"" en anglais ?";You must be quiet;You must wash your hands | You must tidy your room | You must raise your hand
+110473;cm2;english;en_consignes_obligation;"Que veut dire ""You must be quiet"" en français ?";tu dois te taire;tu dois faire tes devoirs | tu dois lever la main | tu dois ranger ta chambre
+110474;cm2;english;en_consignes_obligation;"Comment dit-on ""tu dois te laver les mains"" en anglais ?";You must wash your hands;You must be on time | You must listen | You must do your homework
+110475;cm2;english;en_consignes_obligation;"Que veut dire ""You must wash your hands"" en français ?";tu dois te laver les mains;tu dois être à l'heure | tu dois écouter | tu dois faire tes devoirs
+110476;cm2;english;en_consignes_obligation;"Comment dit-on ""tu dois être à l'heure"" en anglais ?";You must be on time;You must listen | You must wash your hands | You must do your homework
+110477;cm2;english;en_consignes_obligation;"Que veut dire ""You must be on time"" en français ?";tu dois être à l'heure;tu dois te taire | tu dois faire tes devoirs | tu dois te laver les mains
+110478;cm2;english;en_contraires_synonymes;"Quel est le contraire de ""hot"" en anglais ?";cold;late | clean | heavy
+110479;cm2;english;en_contraires_synonymes;"Quel est le contraire de ""cold"" en anglais ?";hot;young | small | slow
+110480;cm2;english;en_contraires_synonymes;"Quel est le contraire de ""big"" en anglais ?";small;late | hot | young
+110481;cm2;english;en_contraires_synonymes;"Quel est le contraire de ""small"" en anglais ?";big;happy | late | weak
+110482;cm2;english;en_contraires_synonymes;"Quel est le contraire de ""fast"" en anglais ?";slow;strong | big | young
+110483;cm2;english;en_contraires_synonymes;"Quel est le contraire de ""slow"" en anglais ?";fast;heavy | strong | dirty
+110484;cm2;english;en_contraires_synonymes;"Quel est le contraire de ""happy"" en anglais ?";sad;small | big | cold
+110485;cm2;english;en_contraires_synonymes;"Quel est le contraire de ""sad"" en anglais ?";happy;small | big | strong
+110486;cm2;english;en_contraires_synonymes;"Quel est le contraire de ""young"" en anglais ?";old;small | weak | clean
+110487;cm2;english;en_contraires_synonymes;"Quel est le contraire de ""clean"" en anglais ?";dirty;young | small | early
+110488;cp;math;formes_geometriques;Quelle forme a 3 côtés ?;triangle;carré | cercle | rectangle
+110489;cp;math;formes_geometriques;Quelle forme est toute ronde ?;cercle;carré | triangle | rectangle
+110490;cp;math;formes_geometriques;Combien de coins a un carré ?;4;3 | 5 | 0
+110491;cp;math;formes_geometriques;Combien de coins a un triangle ?;3;4 | 5 | 0
+110492;cp;math;formes_geometriques;Combien de coins a un rectangle ?;4;3 | 0 | 5
+110493;cp;math;formes_geometriques;Combien de coins a un cercle ?;0;3 | 4 | 5
+110494;cp;math;formes_geometriques;Quelle forme a une roue de vélo ?;cercle;carré | triangle | rectangle
+110495;cp;math;formes_geometriques;Quelle forme a une pièce de monnaie ?;cercle;carré | triangle | rectangle
+110496;cp;math;formes_geometriques;Quelle forme a une part de pizza ?;triangle;carré | cercle | rectangle
+110497;cp;math;formes_geometriques;Quelle forme a une feuille de cahier ?;rectangle;triangle | cercle | losange
+110498;cp;math;formes_geometriques;Quelle forme a une face d'un dé ?;carré;triangle | cercle | pentagone
+110499;cp;math;formes_geometriques;Quelle forme a 5 côtés ?;pentagone;triangle | carré | rectangle
+110500;cp;math;formes_geometriques;Combien de côtés ont 2 triangles en tout ?;6;3 | 5 | 4
+110501;cm2;math;mesures;Combien de centilitres y a-t-il dans 3 L ?;300;30 | 3000 | 3
+110502;cm2;math;mesures;Combien de millimètres y a-t-il dans 7 cm ?;70;7 | 700 | 17
+110503;cm2;math;mesures;Combien de minutes y a-t-il dans 3 h ?;180;300 | 120 | 30
+110504;cm2;math;mesures;Combien de secondes y a-t-il dans 4 min ?;240;400 | 40 | 204
+110505;cm2;math;mesures;Combien de kilogrammes y a-t-il dans 5 t ?;5000;500 | 50000 | 50
+110506;cm2;math;mesures;Combien de mètres y a-t-il dans 2,5 km ?;2500;250 | 25000 | 25

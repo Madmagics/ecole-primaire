@@ -75,14 +75,11 @@ func _ready() -> void:
 		## theme_sombre dont le Label de base est presque blanc - d'ou le symptome "les couleurs
 		## restent normales en mode sombre"). add_theme_color_override fixe directement le
 		## font_color reel du Label, independamment du theme actif.
-		label.add_theme_color_override("font_color", color)
-		## Contour noir : certaines couleurs de classe (ex: blanc pour CP) seraient illisibles sans
-		## contour sur un fond clair. add_theme_constant_override, pas add_theme_font_size_override -
-		## outline_size est une constante de theme, pas une taille de police ; avec la mauvaise
-		## categorie l'override etait silencieusement ignore et aucun contour ne s'affichait (bug
-		## repere le 2026-07-28 via section_stats.gd).
-		label.add_theme_color_override("font_outline_color", Color.BLACK)
-		label.add_theme_constant_override("outline_size", 6)
+		## Remplissage seul, sans contour (2026-09-30, demande de Steve : couleur + contour noir peu
+		## lisible). Meme convention que les pastilles de classe de CoursPanel : couleur de classe
+		## assombrie de 40% (sinon le jaune CE2 disparait sur les fonds clairs). Plus de
+		## font_outline_color / outline_size ici.
+		label.add_theme_color_override("font_color", color.darkened(0.4))
 		row.add_child(label)
 		container.add_child(row)
 		_labels[grade] = label

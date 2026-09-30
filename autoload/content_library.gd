@@ -33,6 +33,10 @@ const MANIFEST_PATH := CACHE_DIR + "/manifeste.json"
 var _manifest: Dictionary = {}
 ## Paquets deja fabriques en memoire : cle -> Array[QuestionResource].
 var _built: Dictionary = {}
+## Fiches de cours deja lues : cle -> Array[Dictionary] {"id", "notion", "titre", "contenu"}.
+var _fiches: Dictionary = {}
+## Notions de chaque paquet : cle -> Array[Dictionary] {"code", "libelle"}.
+var _notions: Dictionary = {}
 var _refreshing := false
 var _pending_downloads := 0
 
@@ -79,6 +83,62 @@ func get_questions(grade: Grade, subject: Subject) -> Array[QuestionResource]:
 	_built[key] = questions
 	return questions
 
+## Fiches de cours PUBLIEES d'une classe+matiere (tableau vide si aucune). Chaque fiche :
+## {"id": int, "notion": code de notion, "titre": String, "contenu": BBCode avec balises [page]},
+## triees dans l'ordre des notions. Envoyees dans le meme paquet que les questions (champ "cours"
+## de fn_publier) : aucun telechargement en plus.
+func get_fiches(grade: Grade, subject: Subject) -> Array[Dictionary]:
+	var key := _key(grade, subject)
+	_load_extras(key)
+	return _fiches.get(key, [] as Array[Dictionary])
+
+## Notions d'une classe+matiere, dans l'ordre pedagogique : [{"code", "libelle"}] (champ
+## "notions" du paquet, voir server/fiches_1_notions_paquets.sql). Pour un paquet publie avant ce
+## champ, on retombe sur les codes des questions (libelle = titre de la fiche s'il y en a une,
+## sinon le code lui-meme).
+func get_notions(grade: Grade, subject: Subject) -> Array[Dictionary]:
+	var key := _key(grade, subject)
+	_load_extras(key)
+	return _notions.get(key, [] as Array[Dictionary])
+
+## Lit une seule fois les fiches et notions d'un paquet du cache (les questions, elles, sont
+## fabriquees a part par get_questions).
+func _load_extras(key: String) -> void:
+	if _fiches.has(key):
+		return
+	var fiches: Array[Dictionary] = []
+	var notions: Array[Dictionary] = []
+	var data: Variant = _read_json(_pack_path(key)) if _manifest.has(key) else null
+	if data is Dictionary:
+		for c: Variant in data.get("cours", []):
+			if c is Dictionary:
+				fiches.append(c)
+		for n: Variant in data.get("notions", []):
+			if n is Dictionary:
+				notions.append(n)
+		if notions.is_empty():
+			var seen: Dictionary = {}
+			for q: Variant in data.get("questions", []):
+				var code := str((q as Dictionary).get("notion", "")) if q is Dictionary else ""
+				if code != "" and not seen.has(code):
+					seen[code] = true
+					var libelle := code
+					for fiche: Dictionary in fiches:
+						if str(fiche.get("notion", "")) == code:
+							libelle = str(fiche.get("titre", code))
+					notions.append({"code": code, "libelle": libelle})
+	_fiches[key] = fiches
+	_notions[key] = notions
+
+## La fiche d'une notion (code, ex. "addition") pour une classe, toutes matieres confondues ;
+## Dictionary vide si elle n'existe pas (encore).
+func find_fiche(grade: Grade, notion: String) -> Dictionary:
+	for subject: Subject in get_available_subjects(grade):
+		for fiche: Dictionary in get_fiches(grade, subject):
+			if str(fiche.get("notion", "")) == notion:
+				return fiche
+	return {}
+
 ## Compare les versions du serveur au cache et telecharge ce qui a change. Sans effet si un
 ## rafraichissement est deja en cours. Hors-ligne : on garde simplement le cache.
 func refresh() -> void:
@@ -93,6 +153,8 @@ func refresh() -> void:
 			if not server_manifest.has(key):
 				_manifest.erase(key)
 				_built.erase(key)
+				_fiches.erase(key)
+				_notions.erase(key)
 				DirAccess.remove_absolute(_pack_path(key))
 		# Paquets nouveaux ou modifies : telechargement en parallele.
 		for key: String in server_manifest.keys():
@@ -114,6 +176,8 @@ func _download_pack(key: String, version: int) -> void:
 		if _write_json(_pack_path(key), data):
 			_manifest[key] = version
 			_built.erase(key)
+			_fiches.erase(key)
+			_notions.erase(key)
 	_pending_downloads -= 1
 	if _pending_downloads == 0:
 		_downloads_finished.emit()

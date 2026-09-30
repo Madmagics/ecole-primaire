@@ -1,10 +1,11 @@
-[gd_scene load_steps=6 format=3]
+[gd_scene load_steps=7 format=3]
 
 [ext_resource type="Script" path="res://ui/hud/backpack_menu.gd" id="1"]
 [ext_resource type="PackedScene" path="res://ui/game_menu/icon_dock.tscn" id="2_icon_dock"]
 [ext_resource type="Texture2D" path="res://assets/classe2.0/icones/sac-de-pieces.webp" id="3_icon_wallet"]
 [ext_resource type="Texture2D" path="res://assets/classe2.0/icones/livre.webp" id="4_icon_livre"]
 [ext_resource type="Texture2D" path="res://assets/classe2.0/icones/defis.webp" id="5_icon_succes"]
+[ext_resource type="Texture2D" path="res://assets/classe2.0/icones/cours.webp" id="6_icon_cours"]
 
 [node name="BackpackMenu" type="Control"]
 layout_mode = 3
@@ -30,8 +31,20 @@ offset_bottom = -20.0
 grow_horizontal = 0
 grow_vertical = 2
 
+[node name="CoursButton" type="Button" parent="IconDock/IconList"]
+custom_minimum_size = Vector2(80, 76)
+layout_mode = 2
+size_flags_horizontal = 4
+flat = true
+text = ""
+icon = ExtResource("6_icon_cours")
+expand_icon = true
+icon_alignment = 1
+vertical_icon_alignment = 1
+tooltip_text = "Cours"
+
 [node name="SacDePiecesButton" type="Button" parent="IconDock/IconList"]
-custom_minimum_size = Vector2(70, 76)
+custom_minimum_size = Vector2(80, 76)
 layout_mode = 2
 size_flags_horizontal = 4
 flat = true
@@ -43,7 +56,7 @@ vertical_icon_alignment = 1
 tooltip_text = "Récompenses"
 
 [node name="LivreButton" type="Button" parent="IconDock/IconList"]
-custom_minimum_size = Vector2(70, 76)
+custom_minimum_size = Vector2(80, 76)
 layout_mode = 2
 size_flags_horizontal = 4
 flat = true
@@ -55,7 +68,7 @@ vertical_icon_alignment = 1
 tooltip_text = "Livre"
 
 [node name="SuccesButton" type="Button" parent="IconDock/IconList"]
-custom_minimum_size = Vector2(83, 77)
+custom_minimum_size = Vector2(80, 76)
 layout_mode = 2
 size_flags_horizontal = 4
 flat = true

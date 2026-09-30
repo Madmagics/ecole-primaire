@@ -153,6 +153,8 @@ extends Control
 @export var wallet_panel_path: NodePath
 @export var collection_panel_path: NodePath
 @export var success_panel_path: NodePath
+## Fenetre "Cours" (sommaire des fiches de cours, 2026-09-29) - icone en haut de la colonne.
+@export var cours_panel_path: NodePath
 ## Flou plein ecran derriere la colonne + le panneau ouvert (voir commentaire d'entete, "Page de
 ## base a l'ouverture + flou plein ecran cote droit") : NodePath vers BackpackBlurBG (game_ui.tscn),
 ## un ColorRect EXTERNE a cette scene (pas un enfant, contrairement a BlurBG dans
@@ -162,6 +164,7 @@ extends Control
 @export var blur_bg_path: NodePath
 
 @onready var close_column_button: Button = $IconDock/CloseButton
+@onready var cours_button: Button = $IconDock/IconList/CoursButton
 @onready var sac_de_pieces_button: Button = $IconDock/IconList/SacDePiecesButton
 @onready var livre_button: Button = $IconDock/IconList/LivreButton
 @onready var succes_button: Button = $IconDock/IconList/SuccesButton
@@ -173,6 +176,7 @@ func _ready() -> void:
 	theme = SaveManager.THEMES[SaveManager.ui_theme]
 	EventBus.ui_theme_changed.connect(func(new_theme: Theme) -> void: theme = new_theme)
 	close_column_button.pressed.connect(close)
+	cours_button.pressed.connect(_open_panel.bind(cours_panel_path))
 	sac_de_pieces_button.pressed.connect(_open_panel.bind(wallet_panel_path))
 	livre_button.pressed.connect(_open_panel.bind(collection_panel_path))
 	succes_button.pressed.connect(_open_panel.bind(success_panel_path))
@@ -194,7 +198,7 @@ func _on_visibility_changed() -> void:
 ## a la fois, meme principe que _hide_all_sections()/_show_xxx() dans GameMenuPanel, adapte ici a 3
 ## panneaux externes (pas des enfants de cette scene) plutot qu'a des sections internes.
 func _open_panel(panel_path: NodePath) -> void:
-	for other_path in [wallet_panel_path, collection_panel_path, success_panel_path]:
+	for other_path in [cours_panel_path, wallet_panel_path, collection_panel_path, success_panel_path]:
 		if other_path == panel_path:
 			continue
 		var other := get_node(other_path) as Control
@@ -215,7 +219,7 @@ func open() -> void:
 ## ECHAP doit fermer le menu ET la fenetre, actuellement ca fonctionne bien avec la colonne de
 ## gauche mais a droite la fenetre reste ouverte") - voir le commentaire d'entete pour le detail.
 func close() -> void:
-	for path in [wallet_panel_path, collection_panel_path, success_panel_path]:
+	for path in [cours_panel_path, wallet_panel_path, collection_panel_path, success_panel_path]:
 		var panel := get_node(path) as Control
 		if panel and panel.has_method("close"):
 			panel.close()

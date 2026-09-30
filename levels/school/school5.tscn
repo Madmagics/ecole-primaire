@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://du2lcwn0v0avw" path="res://levels/school/school.gd" id="1_r65ic"]
 [ext_resource type="Texture2D" uid="uid://4xitsvo0ehq8" path="res://assets/classe2.0/decor/classe_vide.webp" id="2_nlv31"]
-[ext_resource type="Texture2D" uid="uid://cjptu7oh5lu6h" path="res://assets/classe2.0/decor/fenetre_ete.webp" id="3_s0hfj"]
+[ext_resource type="PackedScene" path="res://entities/decor_2d/seasonal_window.tscn" id="3_s0hfj_seasonwin"]
 [ext_resource type="Texture2D" uid="uid://goaj5kdf5o8d" path="res://assets/classe2.0/decor/les_regles.webp" id="4_4ogx1"]
 [ext_resource type="Texture2D" uid="uid://bro71wgcepsyk" path="res://assets/classe2.0/decor/bureau.webp" id="5_y22g5"]
 [ext_resource type="Texture2D" uid="uid://bs68p3tirmai5" path="res://assets/classe2.0/decor/plante01.webp" id="6_ggkl6"]
@@ -46,10 +46,9 @@ position = Vector2(576, 324)
 
 [node name="Decor" type="Node2D" parent="." unique_id=1157127673]
 
-[node name="FenetreEte" type="Sprite2D" parent="Decor" unique_id=605431050]
+[node name="Fenetre" parent="Decor" unique_id=605431050 instance=ExtResource("3_s0hfj_seasonwin")]
 position = Vector2(574.8, 262.8)
 scale = Vector2(0.6, 0.6)
-texture = ExtResource("3_s0hfj")
 
 [node name="LesRegles" type="Sprite2D" parent="Decor" unique_id=1588250878]
 position = Vector2(376.8, 291)

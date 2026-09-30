@@ -33,6 +33,9 @@
 [ext_resource type="Texture2D" uid="uid://nm7be1p8puip" path="res://assets/classe2.0/decor-cp/nuage2.webp" id="32_nuage2"]
 [ext_resource type="Texture2D" uid="uid://cgc5aqly7hhfo" path="res://assets/classe2.0/decor-cp/nuage3.webp" id="33_nuage3"]
 [ext_resource type="Texture2D" uid="uid://cwjcnhm3xugr2" path="res://assets/classe2.0/decor-cp/nuage4.webp" id="34_nuage4"]
+[ext_resource type="Texture2D" uid="uid://uxyauvbkf03n" path="res://assets/classe2.0/decor-cp/nuage5.webp" id="36_nuage5"]
+[ext_resource type="Texture2D" uid="uid://brpf3u3fsi42g" path="res://assets/classe2.0/decor-cp/nuage6.webp" id="37_nuage6"]
+[ext_resource type="Texture2D" uid="uid://b3g0fnmfphyxo" path="res://assets/classe2.0/decor-cp/nuage7.webp" id="38_nuage7"]
 [ext_resource type="Script" uid="uid://u15yupbfkhe6" path="res://entities/decor_2d/cloud_scroller.gd" id="35_cloudscroller"]
 
 [node name="School" type="Node2D" unique_id=765689896]
@@ -56,7 +59,7 @@ scale = Vector2(1.0200641, 1.2282609)
 color = Color(1, 1, 1, 0.48235294)
 polygon = PackedVector2Array(-33, 181, 1213, 177, 1209.0786, 1.8849525, -33.980335, -3.0000038)
 script = ExtResource("35_cloudscroller")
-cloud_textures = Array[Texture2D]([ExtResource("31_nuage1"), ExtResource("32_nuage2"), ExtResource("33_nuage3"), ExtResource("34_nuage4")])
+cloud_textures = Array[Texture2D]([ExtResource("31_nuage1"), ExtResource("32_nuage2"), ExtResource("33_nuage3"), ExtResource("34_nuage4"), ExtResource("36_nuage5"), ExtResource("37_nuage6"), ExtResource("38_nuage7")])
 
 [node name="FixedCamera" type="Camera2D" parent="." unique_id=1281644587]
 position = Vector2(576, 324)

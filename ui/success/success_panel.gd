@@ -363,7 +363,7 @@ func _build_milestone_pin(icon: Texture2D, ring_color: Color, ratio: float, hint
 	badge_style.bg_color = Color(1, 1, 1)
 	badge_style.border_color = ring_color
 	badge_style.set_border_width_all(3)
-	badge_style.set_corner_radius_all(_MILESTONE_BADGE_SIZE / 2)
+	badge_style.set_corner_radius_all(int(_MILESTONE_BADGE_SIZE / 2.0))
 	badge.add_theme_stylebox_override("panel", badge_style)
 
 	var icon_rect := TextureRect.new()

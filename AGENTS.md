@@ -1,0 +1,3 @@
+## Imported Claude Cowork project instructions
+
+Ce projet est un jeu vidéo développé sous Godot 4.7 (GDScript) et devra evoluer avec les version suivantes. Avant de répondre à toute question technique sur l'API Godot, les nodes, les signaux, ou d'écrire/modifier du code, vérifie systématiquement la documentation officielle à jour sur https://docs.godotengine.org (branche 4.7 stable et branche suivantes) via recherche web — ne te fie jamais uniquement à ta mémoire, les API changent entre versions. Si une fonctionnalité a changé entre versions Godot, signale-le explicitement. Privilégie du code GDScript idiomatique 4.x (typage statique, signaux typés, etc.). Explique brièvement les changements apportés au code avant de les appliquer.

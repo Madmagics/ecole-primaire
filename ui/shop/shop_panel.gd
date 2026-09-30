@@ -253,7 +253,7 @@ var _prof_skin_items: Array[ProfSkinItem] = []
 ## toutes les rafraichir d'un coup, meme principe que _prof_skin_items.
 var _classroom_decor_items: Array[ClassroomDecorItem] = []
 
-## Les 5 cases de musiques de classe, 2eme ligne du MEME ItemGrid que _classroom_decor_items (voir
+## Les 5 cases de musiques de classe, 1ere ligne du MEME ItemGrid que _classroom_decor_items (voir
 ## _ready()) - conservees separement pour pouvoir les rafraichir sans toucher aux cases de decor.
 var _classroom_music_items: Array[ClassroomMusicItem] = []
 
@@ -307,20 +307,11 @@ func _ready() -> void:
 			grid.add_child(skin_item)
 			_prof_skin_items.append(skin_item)
 
-	## Meme PROF_SKIN_GRADES (5 classes) pour l'onglet "Succes" : une seule case par classe, pas
-	## de boucle interne comme pour les skins (pas d'index, un decor par classe).
-	for grade in PROF_SKIN_GRADES:
-		var decor_item := ClassroomDecorItemScene.instantiate() as ClassroomDecorItem
-		decor_item.grade = grade
-		decor_item.purchase_requested.connect(_on_classroom_decor_purchase_requested)
-		decor_item.toggle_requested.connect(_on_classroom_decor_toggle_requested)
-		classroom_decor_grid.add_child(decor_item)
-		_classroom_decor_items.append(decor_item)
-
-	## 2e ligne du MEME ItemGrid (2026-09-06, retour utilisateur : "ajoute 5 cases en 2eme ligne
-	## de l onglet succes") : ajoutees APRES les 5 cases de decor ci-dessus dans le meme
-	## classroom_decor_grid (GridContainer, columns=5) - 10 enfants sur 5 colonnes forment
-	## naturellement 2 lignes, aucun 2e GridContainer necessaire.
+	## Onglet "Succes" : un seul ItemGrid (GridContainer, columns=5) pour 2 lignes de 5 cases,
+	## une case par classe (PROF_SKIN_GRADES), pas de 2e GridContainer - 10 enfants sur 5 colonnes
+	## forment naturellement 2 lignes. L'ordre d'ajout fixe donc l'ordre des lignes.
+	## Musiques en 1ere ligne, decors en 2e (inverse le 2026-09-30, demande de Steve : dans la
+	## chronologie des Defis on gagne les musiques avant les decors). Musiques ajoutees 2026-09-06.
 	for grade in PROF_SKIN_GRADES:
 		var music_item := ClassroomMusicItemScene.instantiate() as ClassroomMusicItem
 		music_item.grade = grade
@@ -328,6 +319,14 @@ func _ready() -> void:
 		music_item.toggle_requested.connect(_on_classroom_music_toggle_requested)
 		classroom_decor_grid.add_child(music_item)
 		_classroom_music_items.append(music_item)
+
+	for grade in PROF_SKIN_GRADES:
+		var decor_item := ClassroomDecorItemScene.instantiate() as ClassroomDecorItem
+		decor_item.grade = grade
+		decor_item.purchase_requested.connect(_on_classroom_decor_purchase_requested)
+		decor_item.toggle_requested.connect(_on_classroom_decor_toggle_requested)
+		classroom_decor_grid.add_child(decor_item)
+		_classroom_decor_items.append(decor_item)
 
 	## Fige le joueur (deplacement + interaction) tant que la boutique est visible.
 	visibility_changed.connect(_on_visibility_changed)

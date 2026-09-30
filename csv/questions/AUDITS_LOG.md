@@ -30,6 +30,8 @@ etroite.
 | 20 | 2026-09-20 | Suite de l'entrée #19 : Steve valide les corrections (combinatoire retirée et remplacée ; César raccourci) | Logique | CM2 uniquement | Combinatoire (10 questions, ids 44009+44447-44455) remplacée par 10 suites numériques ×k+c (famille déjà validée pour CM2) ; César (91 questions) raccourci à des mots de 3-4 lettres et décalage +1 à +3 (au lieu de 3-8 lettres et +1 à +8) — 500/500 questions, 0 doublon de texte introduit, 0 erreur de calcul (vérifié programmatiquement), 0 modification hors des 101 lignes ciblées |
 | 22 | 2026-09-27 | Reprise du bug de l'entrée #8 : ronds de couleur emoji (🔴🟣🔵🟢🟡🟠) affichés rayés en jeu (police d'emoji monochrome NotoEmoji) | Logique | CP, CE1 | 87/87 questions corrigées dans Supabase : 54 suites « Quelle couleur vient ensuite ? » passées en noms de couleurs écrits ; 33 intrus : ronds remplacés par des formes (■ ▲ ★) ou des fruits (🍎 🍌 🍇), énoncé « rond de couleur » adapté ; 0 emoji rond restant |
 | 23 | 2026-09-27 | Audit complet de cohérence des phrases en français (grammaire, orthographe, conjugaison en phrase) : phrases illogiques, réponses fausses, distracteurs aussi corrects | Français | CP, CE1, CE2, CM1, CM2 | 2 088 questions corrigées dans Supabase (sur 9 000 relues + conjugaison CM2), par familles de gabarits avec listes blanches ; relecture indépendante (27+17+4+6 retouches) ; 0 doublon, 0 écart après application |
+| 26 | 2026-09-29 | Question « La saison ___ il fait le plus chaud est l'été » (grammaire CM2) qui revient à chaque série → vérifier les notions et passer chacune à 20 questions minimum | Toutes (anglais surtout) | CP, CE1, CE2, CM1, CM2 | 54 notions sous 20 : 8 mal classées ou hors programme corrigées (75 questions modifiées), 507 questions ajoutées ; 0 notion sous 20, 0 doublon créé |
+| 27 | 2026-09-29 | Suite de #26 : « I prefer apple » (pluriel manquant) et jours/mois anglais sans majuscule | English | CP, CE1, CE2, CM1, CM2 | 74 questions corrigées (22 « I prefer » CE2, 52 jours/mois CP-CE2) ; 0 reste |
 
 ## Détail
 
@@ -1252,3 +1254,51 @@ compte ≠ 267, tout est annulé. L'ancienne version de chaque ligne est gardée
 **Correction (validée par Steve)** : 1 question de chaque paire gardée, l'autre remplacée (même id) : 4 nouvelles suites AB (violet/bleu, bleu/violet, jaune/orange, orange/jaune) et 4 suites AAB (« jaune, jaune, rouge, jaune, jaune… »). Ids 40410, 40412, 40418, 40419, 40424, 40428, 40436, 40437.
 
 **Vérifié** : 8/8 lignes appliquées (id + ancien énoncé), CP logique : 500 questions, 0 doublon d'énoncé. `fn_publier()` : cp/logique mis à jour.
+
+### #26 — 2026-09-29 — Notions trop petites (répétitions au tirage) — corrigé DANS SUPABASE
+
+**Demande** : Steve voit revenir « La saison ___ il fait le plus chaud est l'été. » à chaque série de grammaire CM2. Cause : c'était la seule question de sa notion (« vocabulaire_quotidien ») ; comme le tirage met au moins une question par notion dans chaque série, elle tombait à chaque fois. Consigne : vérifier les notions et passer chacune à 20 questions minimum, en complétant celles qui sont presque vides.
+
+**État de départ** : 54 couples classe/notion sous 20 questions (dont 5 à 1 seule question).
+
+**1. Questions mal classées, reclassées (notion seule, texte inchangé)**
+- CM2 grammaire : 37309 (« où ») → pronoms_relatifs.
+- CM1 orthographe « accord_adjectif » (13 questions, en fait des adverbes) → mots_invariables (11) ; « pouvez / peuvent » (36188, 36189) → homophones. 11102 « vraiment » → mots_invariables.
+- CM2 orthographe « vocabulaire_sens » (12100, 12102, 12107, 12109 : re-, -age, -ment) → formation_mots.
+- CE2 grammaire « homophones » (12 questions est/sont/a/ont, sans homophone) → accord_sujet_verbe.
+
+**2. Anglais hors programme (ANGLAIS_DIFFICULTE.md), réécrit**
+- Prétérit en CE1 (7) et CE2 (8) → présent (« I think / je pense »…), notion en_verbes. 20135 « j'ai volé » (ambigu) → « je nage ».
+- Présent en -ing en CM1 (14 « I am wearing… ») → vocabulaire des vêtements (« Comment dit-on "manteau" en anglais ? »), notion en_vetements ; corrige aussi « des pantalon / des pyjama ».
+
+**3. Français fautif corrigé au passage**
+- CP (18285-18289) et CE1 (19416-19430) météo : « il fait ensoleillé / pluvieux / venteux / nuageux / neigeux / brumeux » → « il y a du soleil / il pleut / il y a du vent / il y a des nuages / il neige / il y a du brouillard ».
+- CE2 20203/20204 « plat de poisson / fish dish / poisson (plat) » → salade / salad.
+
+**4. Ajouts : 507 questions (ids 110000-110506)**, format existant « Comment dit-on… / Que veut dire… », mauvais choix pris dans la même famille de mots ; phrases (âges, émotions, prépositions sur/sous/à côté de/dans, consignes, must, question words) dans la limite du programme de la classe. CP maths « formes géométriques » +13, CM2 maths « mesures » +6 (cL, mm, min, s, t, km décimal). Liste complète : `server/notions_completees_2026-09-29.csv` ; script appliqué : `server/notions_completees_2026-09-29.sql`.
+
+**Vérifié** : 1 transaction (75 UPDATE + 507 INSERT), 0 couple classe/notion sous 20, 0 doublon d'énoncé créé (les 119 doublons restants préexistent, surtout « Quelle est la bonne orthographe ? »). `fn_publier()` : 11 paquets mis à jour.
+
+**Signalé, non corrigé** : CE2 anglais 20337 « je préfère les pommes » → « I prefer apple » (devrait être « apples », avec « I prefer fish dish » en mauvais choix) — même famille de gabarit probablement concernée ; les jours/mois en CE1 existants sont écrits sans majuscule (« wednesday »).
+
+### #27 — 2026-09-29 — « I prefer apple » + jours/mois sans majuscule — corrigé DANS SUPABASE
+
+**Demande** : suite des 2 points signalés en #26, validés par Steve.
+
+**Correction** :
+- CE2 en_gouts : « I prefer apple / banana / egg / cake » → apples / bananas / eggs / cakes (préférence générale = pluriel en anglais, comme « je préfère les pommes »), et « I prefer fish dish » → « I prefer fish ». 22 questions (énoncés, réponses et mauvais choix). Cherché sur toutes les classes (I like / I don't like / I prefer / he, she likes) : les autres cas trouvés sont des couleurs (« I like orange ») ou des noms non comptables, corrects.
+- Jours et mois anglais écrits sans majuscule (« wednesday », « june ») → majuscule (« Wednesday », « June ») : 52 questions (CP 45, CE1 5, CE2 2), le français reste en minuscule.
+
+**Vérifié** : 74 UPDATE conditionnés sur l'ancien énoncé, 0 jour/mois anglais en minuscule restant, 0 « I prefer » au singulier restant. `fn_publier()` : cp/ce1/ce2 english. Script : `server/correctifs_2026-09-29_anglais.sql`.
+
+### #28 — 2026-09-29 — Lecture : fins « rit un peu », fautes CP, accents CE1-CM2 — corrigé DANS SUPABASE
+
+**Demande** : les histoires finissent souvent par « il/elle rit un peu » → varier les fins ; puis corriger les fautes repérées ; puis check rapide des autres classes.
+
+**CP (45 textes)** : bloc de remplissage final supprimé (« Il/Elle rit un peu. Il fait beau. Le jour est doux. Tout va bien. Elle est bien la. C'est un beau jour. »), remplacé par une fin propre à chaque histoire. Dernières phrases gardées quand une question « à la fin » en dépend (Léa rit très fort, Oskar très content, Erik photo, Simon sourire). Puis 34 textes + 29 questions corrigés : prénom remplacé par « Il/Elle » (« fatigue Il », « aide Elle »…), à/a, phrases cassées, verbes pauvres (passe/voit/dit → traverse/regarde/raconte), texte réaligné sur les questions (pêche tôt le matin, centre équestre, sifflet de départ…), accords dans les choix (fâché, gêné/gênée, cassé, marché, pêcher).
+
+**CE1-CM2** : pas de fin répétée ni de remplissage (sauf « Tout va bien. » dans 24420, supprimé). 48 textes + 317 questions corrigés : participes/adjectifs sans accent final repérés par règles (après être/avoir, très/bien/trop, réponse d'un seul mot, pluriel après nom), triés à la main pour écarter les faux positifs (hâte, envie, salle comble, terre meuble…) ; « à » → « a » (n'y a, Sara a déjà…) ; accents en trop (elle achève, elle gèle, il relativise) ; À en début de phrase ; boîte, mûre, cache-cache, Qu'apportent.
+
+**Signalé, non corrigé** : les questions CM1/CM2 longues (inférence/vocabulaire) gardent encore des accents manquants isolés hors des contextes détectables par règle (ex. « le plaisir procure par »). Relecture ligne par ligne nécessaire pour les éliminer tous.
+
+Scripts : `server/correctifs_2026-09-29_lecture_cp_fins.sql`, `..._lecture_cp_textes.sql`, `..._lecture_ce1_cm2.sql`. `fn_publier()` : cp/ce1/ce2/cm1/cm2 lecture.
