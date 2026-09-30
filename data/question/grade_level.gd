@@ -98,6 +98,18 @@ static func get_coin_pile_icon_path(grade: Grade) -> String:
 static func get_badge_icon_path(grade: Grade) -> String:
 	return "res://assets/classe2.0/icones/badge-%s.webp" % get_label(grade)
 
+## Icone de la musique de classe (recompense ClassroomMusic, palier BRONZE) - fichiers
+## assets/classe2.0/icones/music-<classe>.webp fournis par Steve le 2026-09-30. Nom de classe en
+## MINUSCULES dans ces fichiers (music-cp, pas music-CP comme badge-/piece-) : to_lower()
+## obligatoire, les chemins res:// sont sensibles a la casse dans l'export Web (PCK).
+static func get_music_icon_path(grade: Grade) -> String:
+	return "res://assets/classe2.0/icones/music-%s.webp" % get_label(grade).to_lower()
+
+## Icone du decor de classe (recompense ClassroomDecor, palier ARGENT) - meme convention et meme
+## remarque de casse que get_music_icon_path() ci-dessus (decor-<classe>.webp, 2026-09-30).
+static func get_decor_icon_path(grade: Grade) -> String:
+	return "res://assets/classe2.0/icones/decor-%s.webp" % get_label(grade).to_lower()
+
 ## Correspondance niveau -> rarete des pieces gagnees pour un pack reussi a ce niveau :
 ## plus la classe est avancee, plus la recompense est elevee. Ca empeche un enfant de se
 ## "declarer" plus jeune pour farmer des pieces sur des questions faciles : le gain reste

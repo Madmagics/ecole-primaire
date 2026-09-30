@@ -9,9 +9,8 @@
 ## project_shop_tab_frame en memoire projet pour l'historique de cette convention et le bug de
 ## double cadre qu'elle evite.
 ##
-## DecorIcon : badge-<classe>.webp (GradeLevel.get_badge_icon_path) utilise en PLACEHOLDER en
-## attendant la vraie icone de decor par classe ("litem a acheter (icone) sera cree prochainement",
-## retour utilisateur) - a remplacer ici des qu'un asset dedie existe.
+## DecorIcon : decor-<classe>.webp (GradeLevel.get_decor_icon_path), icone dediee par classe
+## fournie par Steve le 2026-09-30 - remplace le placeholder badge-<classe>.webp.
 ##
 ## ChallengeIcon/CountLabel : meme role/position que CoinIcon/PriceLabel de CrateItem/ProfSkinItem
 ## (icone sans cadre propre, fond transparent), mais avec assets/classe2.0/icones/defis.webp
@@ -66,7 +65,8 @@ func _ready() -> void:
 	## que de dependre du moment ou ce panneau a ete peuple - voir ui/common/touch_scroll_fix.gd
 	## (retour utilisateur 2026-09-18).
 	mouse_filter = Control.MOUSE_FILTER_PASS
-	decor_icon.texture = load(GradeLevel.get_badge_icon_path(grade))
+	## decor-<classe>.webp (2026-09-30) : remplace le placeholder badge-<classe>.webp.
+	decor_icon.texture = load(GradeLevel.get_decor_icon_path(grade))
 	challenge_icon.texture = load("res://assets/classe2.0/icones/defis.webp")
 	pressed.connect(_on_pressed)
 	refresh()

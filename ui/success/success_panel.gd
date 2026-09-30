@@ -104,15 +104,14 @@ const _GOLD_COLOR := Color("FFD700")
 ## sur les barres" : pas de piste separee, juste 3 icones fixees en haut du cadre + des reperes
 ## (voir _build_bar_tickmark) a la meme position horizontale sur chaque barre de matiere en
 ## dessous). Mapping palier -> recompense (revu le 2026-09-18) :
-##   BRONZE (ChallengeTracker.BRONZE_GOAL, 5)  -> ClassroomMusic (icone partagee, toutes classes)
-##   ARGENT (ChallengeTracker.SILVER_GOAL, 20) -> ClassroomDecor (icone badge-<classe>, par classe)
-##   OR     (ChallengeTracker.GOLD_GOAL, 50)   -> future recompense "coupe", PAS ENCORE
-##                                                IMPLEMENTEE - defis.webp sert de PLACEHOLDER en
-##                                                attendant (choix explicite de Steve), jalon
-##                                                toujours affiche verrouille (_UNSTARTED_COLOR)
-##                                                puisqu'aucun ClassroomTrophy n'existe encore.
-const _BRONZE_MILESTONE_ICON: Texture2D = preload("res://assets/classe2.0/icones/musique-on.webp")
-const _GOLD_MILESTONE_ICON: Texture2D = preload("res://assets/classe2.0/icones/defis.webp")
+##   BRONZE (ChallengeTracker.BRONZE_GOAL, 5)  -> ClassroomMusic (icone music-<classe>)
+##   ARGENT (ChallengeTracker.SILVER_GOAL, 20) -> ClassroomDecor (icone decor-<classe>)
+##   OR     (ChallengeTracker.GOLD_GOAL, 50)   -> badge de la classe (icone badge-<classe>),
+##                                                recompense elle-meme PAS ENCORE IMPLEMENTEE :
+##                                                jalon toujours affiche verrouille
+##                                                (_UNSTARTED_COLOR), aucun systeme a lire.
+## Icones par classe depuis le 2026-09-30 (demande Steve, memes icones que les cases de l'onglet
+## Succes de la boutique) - remplacent musique-on.webp / badge- / defis.webp (placeholders).
 
 ## Diametre du badge rond d'un jalon, et taille de l'icone centree a l'interieur (voir
 ## _build_milestone_pin) - hauteur de la ligne titre+jalons (_build_title_row) casee dessus.
@@ -279,8 +278,8 @@ func _tier_color(count: int) -> Color:
 func _milestone_ratio(goal: int) -> float:
 	return float(goal) / float(ChallengeTracker.GOLD_GOAL)
 
-## Ligne combinant le titre de la classe et ses 3 jalons de recompense (maquette 2, voir la const
-## _BRONZE_MILESTONE_ICON plus haut pour le detail du mapping palier -> recompense) - ajoutee par
+## Ligne combinant le titre de la classe et ses 3 jalons de recompense (maquette 2, voir
+## le commentaire des jalons BRONZE/ARGENT/OR plus haut pour le mapping palier -> recompense) - ajoutee par
 ## _build_grade_frame en premier, avant les lignes de matiere. Titre et jalons sur la MEME ligne
 ## (2026-09-18, retour utilisateur : "aligne horizontalement ces icones avec le titre de chaque
 ## bloc... on va gagner de la place en hauteur et en visibilite sur les icones" - fusionne l'ancien
@@ -310,22 +309,22 @@ func _build_title_row(grade: GradeLevel.Grade) -> HBoxContainer:
 	lane.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	lane.custom_minimum_size = Vector2(0, _MILESTONE_LANE_HEIGHT)
 	lane.add_child(_build_milestone_pin(
-		_BRONZE_MILESTONE_ICON,
+		load(GradeLevel.get_music_icon_path(grade)),
 		_BRONZE_COLOR if ClassroomMusic.is_unlocked(grade) else _UNSTARTED_COLOR,
 		_milestone_ratio(ChallengeTracker.BRONZE_GOAL),
 		"Musique de classe (%d reussites par matiere)" % ChallengeTracker.BRONZE_GOAL,
 	))
 	lane.add_child(_build_milestone_pin(
-		load(GradeLevel.get_badge_icon_path(grade)),
+		load(GradeLevel.get_decor_icon_path(grade)),
 		_SILVER_COLOR if ClassroomDecor.is_unlocked(grade) else _UNSTARTED_COLOR,
 		_milestone_ratio(ChallengeTracker.SILVER_GOAL),
 		"Nouveau decor de classe (%d reussites par matiere)" % ChallengeTracker.SILVER_GOAL,
 	))
 	lane.add_child(_build_milestone_pin(
-		_GOLD_MILESTONE_ICON,
+		load(GradeLevel.get_badge_icon_path(grade)),
 		_UNSTARTED_COLOR,
 		_milestone_ratio(ChallengeTracker.GOLD_GOAL),
-		"Recompense a venir (%d reussites par matiere)" % ChallengeTracker.GOLD_GOAL,
+		"Badge de classe (%d reussites par matiere)" % ChallengeTracker.GOLD_GOAL,
 	))
 	row.add_child(lane)
 

@@ -8,10 +8,8 @@
 ## ClassroomDecorItem (Frame = fond+bordure en un seul Panel, Button racine flat=true) - voir
 ## project_shop_tab_frame en memoire projet pour l'historique de cette convention.
 ##
-## MusicIcon : musique-on.webp (icone de reglage son existante, la plus proche du concept
-## "musique" disponible dans le projet) utilisee en PLACEHOLDER en attendant la vraie icone/les
-## vrais morceaux ("que je provisionnerai plus tard", retour utilisateur) - a remplacer ici des
-## qu'un asset dedie existe.
+## MusicIcon : music-<classe>.webp (GradeLevel.get_music_icon_path), icone dediee par classe
+## fournie par Steve le 2026-09-30 - remplace le placeholder musique-on.webp.
 ##
 ## ChallengeIcon/CountLabel : identique a ClassroomDecorItem (meme icone defis.webp partagee, meme
 ## affichage "valides/requis" au palier argent plutot qu'au palier or) - voir son commentaire de
@@ -60,7 +58,8 @@ func _ready() -> void:
 	## que de dependre du moment ou ce panneau a ete peuple - voir ui/common/touch_scroll_fix.gd
 	## (retour utilisateur 2026-09-18).
 	mouse_filter = Control.MOUSE_FILTER_PASS
-	music_icon.texture = load("res://assets/classe2.0/icones/musique-on.webp")
+	## music-<classe>.webp (2026-09-30) : remplace le placeholder musique-on.webp.
+	music_icon.texture = load(GradeLevel.get_music_icon_path(grade))
 	challenge_icon.texture = load("res://assets/classe2.0/icones/defis.webp")
 	pressed.connect(_on_pressed)
 	refresh()
