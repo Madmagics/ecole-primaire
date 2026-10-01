@@ -4,11 +4,12 @@
 ##   [titre]...[/titre]                 -> titre de la page, couleur de la classe
 ##   [cadre]...[/cadre]                 -> encadre "a retenir"
 ##   [cadre=astuce]...[/cadre]          -> encadre "Astuce"
-##   [billes ...] [file ...] [cubes ...] [cases ...] [paires ...] [formes ...] seules sur leur ligne -> FicheDessin
+##   [billes ...] [file ...] [cubes ...] [cases ...] [paires ...] [formes ...] [grille ...] [tarte ...] [rect ...] seules sur leur ligne -> FicheDessin
 ##   [table=N]...[/table] seul sur sa ligne -> tableau Godot natif, centre
 ## Tout le reste est du texte BBCode affiche dans un RichTextLabel.
 ## Jetons de couleur utilisables dans le BBCode (remplaces avant affichage, pour qu'une meme
-## ecriture marche pour toutes les classes) : #classe, #classe_clair, #unites, #unites_clair.
+## ecriture marche pour toutes les classes) : #classe, #classe_clair, #unites, #unites_clair,
+## #centaines, #centaines_clair (2026-10-01, CE1 : couleur de classe assombrie, comme les plaques).
 class_name FichePage
 extends RefCounted
 
@@ -31,6 +32,8 @@ static func light_color(classe: Color) -> Color:
 ## Remplace les jetons de couleur par les vraies couleurs de la classe.
 static func apply_color_tokens(text: String, classe: Color) -> String:
 	return text \
+		.replace("#centaines_clair", "#" + light_color(classe.darkened(0.2)).to_html(false)) \
+		.replace("#centaines", "#" + classe.darkened(0.2).to_html(false)) \
 		.replace("#classe_clair", "#" + light_color(classe).to_html(false)) \
 		.replace("#classe", "#" + classe.to_html(false)) \
 		.replace("#unites_clair", "#" + UNITES.lerp(Color.WHITE, 0.8).to_html(false)) \
@@ -42,7 +45,7 @@ static func build(page_text: String, classe: Color, bold_font: Font) -> VBoxCont
 		_block_regex.compile(
 			"(?ms)\\[titre\\](.*?)\\[/titre\\]"
 			+ "|\\[cadre(?:=(\\w+))?\\](.*?)\\[/cadre\\]"
-			+ "|^[ \\t]*\\[(billes|file|cubes|cases|paires|formes)((?: [^\\]]*)?)\\][ \\t]*$"
+			+ "|^[ \\t]*\\[(billes|file|cubes|cases|paires|formes|grille|tarte|rect)((?: [^\\]]*)?)\\][ \\t]*$"
 			+ "|^[ \\t]*(\\[table=.*?\\[/table\\])[ \\t]*$")
 	var text := apply_color_tokens(page_text, classe)
 	var root := VBoxContainer.new()

@@ -16,6 +16,14 @@
 ##   [cubes d=2 u=6 vers=1:3 fleche=moitié]              -> etiquette libre sur la fleche
 ##   [paires n=7]                                        -> billes rangees par 2 (pair / impair)
 ##   [formes liste=carre,triangle,rond cotes=oui]        -> formes geometriques + nombre de cotes
+## Maths CE1 (2026-10-01) :
+##   [cubes c=2 d=3 u=4]                                 -> plaques de centaines (10 x 10) en plus
+##   [cubes c=1 d=2 u=5 vers=2:2:5]                      -> "vers" a 3 nombres = centaines:dizaines:unites
+##   [file de=0 a=500 pas=100 bonds=100:200]             -> une graduation tous les "pas"
+##   [billes groupes=4,4,4 signes=non]                   -> groupes sans "+" (partages)
+##   [grille lignes=3 colonnes=5]                        -> quadrillage (multiplication 3 x 5)
+##   [tarte parts=2,3,4 colorees=1 noms=oui]             -> tartes coupees en parts egales
+##   [rect long=10 larg=6 unite=cm]                      -> rectangle avec la longueur de ses cotes
 ## Les couleurs "classe" suivent le code couleur de la classe (GradeLevel.get_color).
 class_name FicheDessin
 extends Control
@@ -35,6 +43,11 @@ const CASE := 42.0
 const CUBE_LABEL_SIZE := 18
 const CUBE_GROUP_GAP := 28.0
 const CUBE_ARROW_W := 90.0
+const PLAQUE_GAP := 8.0
+const GRILLE := 34.0
+const TARTE_R := 54.0
+const TARTE_GAP := 50.0
+const TARTE_NOMS := {2: "une moitié", 3: "un tiers", 4: "un quart"}
 const FORME := 84.0
 const FORME_GAP := 34.0
 const FORMES_NOMS := {
@@ -87,6 +100,15 @@ func _compute_min_size() -> Vector2:
 			return Vector2(300, 112)
 		"cubes":
 			return Vector2(_cubes_width(), 10 * CUBE + 32.0)
+		"grille":
+			return Vector2(int(params.get("colonnes", 5)) * GRILLE, int(params.get("lignes", 3)) * GRILLE + 4.0)
+		"tarte":
+			var n_tartes := _ints("parts").size()
+			var h_tarte := TARTE_R * 2.0 + 8.0 + (30.0 if str(params.get("noms", "")) == "oui" else 0.0)
+			return Vector2(n_tartes * (TARTE_R * 2.0 + TARTE_GAP) - TARTE_GAP + 20.0, h_tarte)
+		"rect":
+			var rs := _rect_size()
+			return Vector2(rs.x + 150.0, rs.y + 70.0)
 		"cases":
 			var n := int(params.get("n", 10))
 			return Vector2(n * CASE, CASE + 8.0)
@@ -134,17 +156,23 @@ func _billes_layout_widths() -> Array[float]:
 		widths.append(_billes_box_size(maxi(groups[i], 1)).x)
 	return widths
 
-## Un "etat" de cubes = d barres de dizaines + u cubes unites. [cubes d=1 u=8 vers=2:8] dessine
-## deux etats sur une ligne, relies par une fleche "+10" (avant -> apres).
-func _cubes_states() -> Array[Vector2i]:
-	var states: Array[Vector2i] = [Vector2i(int(params.get("d", 0)), int(params.get("u", 0)))]
+## Un "etat" de cubes = c plaques de centaines + d barres de dizaines + u cubes unites (x, y, z).
+## [cubes d=1 u=8 vers=2:8] dessine deux etats sur une ligne, relies par une fleche "+10"
+## (avant -> apres) ; "vers" a 3 nombres (c:d:u) pour les centaines.
+func _cubes_states() -> Array[Vector3i]:
+	var states: Array[Vector3i] = [Vector3i(int(params.get("c", 0)), int(params.get("d", 0)), int(params.get("u", 0)))]
 	var vers := str(params.get("vers", "")).split(":")
 	if vers.size() == 2:
-		states.append(Vector2i(int(vers[0]), int(vers[1])))
+		states.append(Vector3i(0, int(vers[0]), int(vers[1])))
+	elif vers.size() == 3:
+		states.append(Vector3i(int(vers[0]), int(vers[1]), int(vers[2])))
 	return states
 
 func _label_width(text: String) -> float:
 	return _font().get_string_size(text, HORIZONTAL_ALIGNMENT_LEFT, -1, CUBE_LABEL_SIZE).x
+
+func _centaine_label(c: int) -> String:
+	return "%d centaine%s" % [c, "s" if c > 1 else ""]
 
 func _dizaine_label(d: int) -> String:
 	return "%d dizaine%s" % [d, "s" if d > 1 else ""]
@@ -152,24 +180,31 @@ func _dizaine_label(d: int) -> String:
 func _unite_label(u: int) -> String:
 	return "%d unité%s" % [u, "s" if u > 1 else ""]
 
-## Largeurs [groupe dizaines, groupe unites] d'un etat, etiquettes comprises.
-func _cubes_group_widths(state: Vector2i) -> Vector2:
-	var dw := 0.0
+## Largeurs [groupe centaines, groupe dizaines, groupe unites] d'un etat, etiquettes comprises.
+func _cubes_group_widths(state: Vector3i) -> Vector3:
+	var cw := 0.0
 	if state.x > 0:
-		dw = maxf(state.x * (CUBE + 8.0) - 8.0, _label_width(_dizaine_label(state.x)))
-	var uw := 0.0
+		cw = maxf(state.x * (10 * CUBE + PLAQUE_GAP) - PLAQUE_GAP, _label_width(_centaine_label(state.x)))
+	var dw := 0.0
 	if state.y > 0:
-		uw = maxf(ceili(state.y / 10.0) * (CUBE + 6.0) - 6.0, _label_width(_unite_label(state.y)))
-	return Vector2(dw, uw)
+		dw = maxf(state.y * (CUBE + 8.0) - 8.0, _label_width(_dizaine_label(state.y)))
+	var uw := 0.0
+	if state.z > 0:
+		uw = maxf(ceili(state.z / 10.0) * (CUBE + 6.0) - 6.0, _label_width(_unite_label(state.z)))
+	return Vector3(cw, dw, uw)
 
-func _cubes_state_width(state: Vector2i) -> float:
+func _cubes_state_width(state: Vector3i) -> float:
 	var g := _cubes_group_widths(state)
-	return g.x + g.y + (CUBE_GROUP_GAP if g.x > 0.0 and g.y > 0.0 else 0.0)
+	var used := 0
+	for w: float in [g.x, g.y, g.z]:
+		if w > 0.0:
+			used += 1
+	return g.x + g.y + g.z + CUBE_GROUP_GAP * maxi(0, used - 1)
 
 func _cubes_width() -> float:
 	var states := _cubes_states()
 	var w := 0.0
-	for s: Vector2i in states:
+	for s: Vector3i in states:
 		w += _cubes_state_width(s)
 	if states.size() == 2:
 		w += CUBE_ARROW_W
@@ -191,6 +226,12 @@ func _draw() -> void:
 			_draw_paires()
 		"formes":
 			_draw_formes()
+		"grille":
+			_draw_grille()
+		"tarte":
+			_draw_tarte()
+		"rect":
+			_draw_rect()
 
 func _font() -> Font:
 	return get_theme_default_font()
@@ -229,7 +270,8 @@ func _draw_billes() -> void:
 	var cell := BILLE_R * 2.0 + BILLE_GAP
 	for i: int in groups.size():
 		if i > 0:
-			_text(Vector2(x, y + box_h / 2.0 + 12.0), "+", 34, INK, 44.0)
+			if str(params.get("signes", "")) != "non":
+				_text(Vector2(x, y + box_h / 2.0 + 12.0), "+", 34, INK, 44.0)
 			x += 44.0
 		# Les billes barrees sont les dernieres du dernier groupe
 		var crossed := barrees if i == groups.size() - 1 else 0
@@ -272,9 +314,11 @@ func _draw_bille_box(origin: Vector2, box_h: float, counts: Array, colors: Array
 func _draw_file() -> void:
 	var from := int(params.get("de", 0))
 	var to := int(params.get("a", 10))
-	var count := maxi(1, to - from)
+	# "pas" : une graduation tous les pas (de 10 en 10, de 100 en 100...)
+	var pas := maxi(1, int(params.get("pas", 1)))
+	var count := maxi(1, (to - from) / pas)
 	var margin := 20.0
-	var step := minf(56.0, (size.x - margin * 2.0) / count)
+	var step := minf(56.0 if pas == 1 else 84.0, (size.x - margin * 2.0) / count)
 	var width := step * count
 	var x0 := (size.x - width) / 2.0
 	var line_y := 74.0
@@ -294,17 +338,17 @@ func _draw_file() -> void:
 			marked[int(ab[0])] = true
 			marked[int(ab[1])] = true
 	for i: int in count + 1:
-		var n := from + i
+		var n := from + i * pas
 		var x := x0 + i * step
 		var is_marked: bool = marked.has(n)
 		draw_line(Vector2(x, line_y - 8), Vector2(x, line_y + 8), line_col, 2.0, true)
 		if is_marked:
 			draw_circle(Vector2(x, line_y), 7.0, classe_color)
-		_text(Vector2(x - 20, line_y + 32), str(n), 22 if is_marked else 18, INK if is_marked else INK.lerp(Color.WHITE, 0.3), 40.0)
+		_text(Vector2(x - 30, line_y + 32), str(n), 22 if is_marked else 18, INK if is_marked else INK.lerp(Color.WHITE, 0.3), 60.0)
 	var palette: Array[Color] = [UNITES, classe_color.darkened(0.15)]
 	for b: int in bonds.size():
-		var a := x0 + (bonds[b].x - from) * step
-		var c := x0 + (bonds[b].y - from) * step
+		var a := x0 + float(bonds[b].x - from) / pas * step
+		var c := x0 + float(bonds[b].y - from) / pas * step
 		var col := palette[b % palette.size()]
 		var center := Vector2((a + c) / 2.0, line_y - 6.0)
 		var radius := absf(c - a) / 2.0
@@ -336,33 +380,43 @@ func _draw_cubes() -> void:
 			draw_line(Vector2(x + 14, y), Vector2(x + CUBE_ARROW_W - 22, y), col, 4.0, true)
 			draw_colored_polygon(PackedVector2Array([Vector2(x + CUBE_ARROW_W - 12, y),
 				Vector2(x + CUBE_ARROW_W - 24, y - 9), Vector2(x + CUBE_ARROW_W - 24, y + 9)]), col)
-			var diff := (states[1].x - states[0].x) * 10 + (states[1].y - states[0].y)
+			var diff := (states[1].x - states[0].x) * 100 + (states[1].y - states[0].y) * 10 + (states[1].z - states[0].z)
 			var label := str(params.get("fleche", "%+d" % diff))
 			_text(Vector2(x - 20, y - 14), label, 22, UNITES.darkened(0.25), CUBE_ARROW_W + 40.0)
 			x += CUBE_ARROW_W
 		_draw_cubes_state(x, states[i])
 		x += _cubes_state_width(states[i])
 
-func _draw_cubes_state(x: float, state: Vector2i) -> void:
+func _draw_cubes_state(x: float, state: Vector3i) -> void:
 	var widths := _cubes_group_widths(state)
 	var top := 2.0
 	var label_y := top + 10 * CUBE + 24.0
 	if state.x > 0:
-		var bars_w := state.x * (CUBE + 8.0) - 8.0
-		var bx := x + (widths.x - bars_w) / 2.0
+		# Plaques de centaines : 10 x 10 petits carres, couleur de la classe assombrie
+		var plaques_w := state.x * (10 * CUBE + PLAQUE_GAP) - PLAQUE_GAP
+		var px := x + (widths.x - plaques_w) / 2.0
+		var plaque_col := classe_color.darkened(0.2)
 		for i: int in state.x:
-			for k: int in 10:
-				_cube(Rect2(bx + i * (CUBE + 8.0), top + k * CUBE, CUBE, CUBE), classe_color)
-		_text(Vector2(x, label_y), _dizaine_label(state.x), CUBE_LABEL_SIZE, classe_color.darkened(0.35), widths.x)
+			for k: int in 100:
+				_cube(Rect2(px + i * (10 * CUBE + PLAQUE_GAP) + (k % 10) * CUBE, top + floori(k / 10.0) * CUBE, CUBE, CUBE), plaque_col)
+		_text(Vector2(x, label_y), _centaine_label(state.x), CUBE_LABEL_SIZE, plaque_col.darkened(0.35), widths.x)
 		x += widths.x + CUBE_GROUP_GAP
 	if state.y > 0:
-		var cols := ceili(state.y / 10.0)
-		var cubes_w := cols * (CUBE + 6.0) - 6.0
-		var ux := x + (widths.y - cubes_w) / 2.0
+		var bars_w := state.y * (CUBE + 8.0) - 8.0
+		var bx := x + (widths.y - bars_w) / 2.0
 		for i: int in state.y:
+			for k: int in 10:
+				_cube(Rect2(bx + i * (CUBE + 8.0), top + k * CUBE, CUBE, CUBE), classe_color)
+		_text(Vector2(x, label_y), _dizaine_label(state.y), CUBE_LABEL_SIZE, classe_color.darkened(0.35), widths.y)
+		x += widths.y + CUBE_GROUP_GAP
+	if state.z > 0:
+		var cols := ceili(state.z / 10.0)
+		var cubes_w := cols * (CUBE + 6.0) - 6.0
+		var ux := x + (widths.z - cubes_w) / 2.0
+		for i: int in state.z:
 			# Les unites s'empilent depuis le bas, colonne par colonne
 			_cube(Rect2(ux + floori(i / 10.0) * (CUBE + 6.0), top + (9 - i % 10) * CUBE, CUBE, CUBE), UNITES)
-		_text(Vector2(x, label_y), _unite_label(state.y), CUBE_LABEL_SIZE, UNITES.darkened(0.35), widths.y)
+		_text(Vector2(x, label_y), _unite_label(state.z), CUBE_LABEL_SIZE, UNITES.darkened(0.35), widths.z)
 
 func _draw_cases() -> void:
 	var n := int(params.get("n", 10))
@@ -460,3 +514,75 @@ func _draw_formes() -> void:
 			var txt := "0 côté" if cotes == 0 else "%d côtés" % cotes
 			_text(Vector2(x, FORME + 54.0), txt, 18, UNITES.darkened(0.3), w)
 		x += w + FORME_GAP
+
+# ---------------------------------------------------------------- grille (multiplication)
+
+## Quadrillage de lignes x colonnes cases : 3 lignes de 5 cases = 3 x 5 = 15.
+func _draw_grille() -> void:
+	var lignes := int(params.get("lignes", 3))
+	var colonnes := int(params.get("colonnes", 5))
+	var x0 := (size.x - colonnes * GRILLE) / 2.0
+	var fill := classe_color.lerp(Color.WHITE, 0.45)
+	for l: int in lignes:
+		# Une ligne sur deux un peu plus claire, pour bien voir les rangees
+		var col := fill if l % 2 == 0 else fill.lerp(Color.WHITE, 0.35)
+		for c: int in colonnes:
+			var rect := Rect2(x0 + c * GRILLE, 2.0 + l * GRILLE, GRILLE, GRILLE)
+			draw_rect(rect, col)
+			draw_rect(rect, classe_color.darkened(0.3), false, 2.0)
+
+# ---------------------------------------------------------------- tartes (fractions simples)
+
+## Tartes coupees en parts egales ; les "colorees" premieres parts sont dans la couleur de la classe.
+func _draw_tarte() -> void:
+	var parts_list := _ints("parts")
+	var colorees := int(params.get("colorees", 1))
+	var show_noms := str(params.get("noms", "")) == "oui"
+	var w := parts_list.size() * (TARTE_R * 2.0 + TARTE_GAP) - TARTE_GAP
+	var x := (size.x - w) / 2.0
+	for parts: int in parts_list:
+		var center := Vector2(x + TARTE_R, 4.0 + TARTE_R)
+		for p: int in parts:
+			var a0 := -PI / 2.0 + TAU * p / parts
+			var a1 := -PI / 2.0 + TAU * (p + 1) / parts
+			var pts := PackedVector2Array([center])
+			for k: int in 17:
+				var a := lerpf(a0, a1, k / 16.0)
+				pts.append(center + Vector2(cos(a), sin(a)) * TARTE_R)
+			draw_colored_polygon(pts, classe_color if p < colorees else JAUNE.lerp(Color.WHITE, 0.4))
+		draw_arc(center, TARTE_R, 0.0, TAU, 64, INK.lerp(Color.WHITE, 0.2), 3.0, true)
+		for p: int in parts:
+			var a := -PI / 2.0 + TAU * p / parts
+			draw_line(center, center + Vector2(cos(a), sin(a)) * TARTE_R, INK.lerp(Color.WHITE, 0.2), 3.0, true)
+		if show_noms:
+			_text(Vector2(x - 20, TARTE_R * 2.0 + 32.0), str(TARTE_NOMS.get(parts, "1 part sur %d" % parts)), 20, INK, TARTE_R * 2.0 + 40.0)
+		x += TARTE_R * 2.0 + TARTE_GAP
+
+# ---------------------------------------------------------------- rectangle (perimetre)
+
+## Taille a l'ecran du rectangle : la longueur fait 300 px, la largeur suit la proportion.
+func _rect_size() -> Vector2:
+	var longueur := maxf(1.0, float(params.get("long", 10)))
+	var largeur := maxf(1.0, float(params.get("larg", 6)))
+	return Vector2(300.0, clampf(300.0 * largeur / longueur, 50.0, 200.0))
+
+## Rectangle avec la mesure de chaque cote : les longueurs dans la couleur de la classe,
+## les largeurs en orange, pour bien voir les 2 paires de cotes egaux.
+func _draw_rect() -> void:
+	var unite := str(params.get("unite", "cm"))
+	var rs := _rect_size()
+	var o := Vector2((size.x - rs.x) / 2.0, 32.0)
+	var r := Rect2(o, rs)
+	draw_rect(r, classe_color.lerp(Color.WHITE, 0.75))
+	var c_long := classe_color.darkened(0.2)
+	var c_larg := UNITES.darkened(0.1)
+	draw_line(r.position, r.position + Vector2(rs.x, 0), c_long, 5.0, true)
+	draw_line(r.position + Vector2(0, rs.y), r.end, c_long, 5.0, true)
+	draw_line(r.position, r.position + Vector2(0, rs.y), c_larg, 5.0, true)
+	draw_line(r.position + Vector2(rs.x, 0), r.end, c_larg, 5.0, true)
+	var t_long := "%s %s" % [str(params.get("long", 10)), unite]
+	var t_larg := "%s %s" % [str(params.get("larg", 6)), unite]
+	_text(Vector2(o.x, o.y - 10.0), t_long, 22, c_long.darkened(0.2), rs.x)
+	_text(Vector2(o.x, o.y + rs.y + 28.0), t_long, 22, c_long.darkened(0.2), rs.x)
+	_text(Vector2(o.x - 80.0, o.y + rs.y / 2.0 + 8.0), t_larg, 22, c_larg.darkened(0.2), 72.0)
+	_text(Vector2(o.x + rs.x + 8.0, o.y + rs.y / 2.0 + 8.0), t_larg, 22, c_larg.darkened(0.2), 72.0)

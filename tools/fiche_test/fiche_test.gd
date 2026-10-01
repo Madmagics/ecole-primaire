@@ -6,6 +6,7 @@
 ## serveur :
 ##   --fiche-fichier=<chemin>  lit le texte de la fiche dans un fichier local au lieu du serveur
 ##   --capture=<dossier>       enregistre une image PNG de chaque page puis quitte
+##   --classe=ce1              couleurs d'une autre classe que TEST_GRADE (avec --fiche-fichier)
 extends Control
 
 const TEST_GRADE := GradeLevel.Grade.CP
@@ -32,7 +33,10 @@ func _ready() -> void:
 		info.text = "Aucune fiche publiee pour cette classe et cette matiere."
 		return
 	info.text = ""
-	panel.open_fiche(TEST_GRADE, fiche)
+	var grade: GradeLevel.Grade = TEST_GRADE
+	if args.has("classe"):
+		grade = GradeLevel.Grade[str(args["classe"]).to_upper()]
+	panel.open_fiche(grade, fiche)
 	if args.has("capture"):
 		await _capture_all(args["capture"])
 
