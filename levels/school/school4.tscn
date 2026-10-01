@@ -100,7 +100,7 @@ flip_h = true
 script = ExtResource("25_uon28")
 
 [node name="NPC_CM2" parent="NPCs" unique_id=41311839 instance=ExtResource("23_rl0lt")]
-position = Vector2(1006, 453)
+position = Vector2(960, 440)
 
 [node name="CollisionShape2D" parent="NPCs/NPC_CM2/InteractableComponent" index="0"]
 position = Vector2(-25, 37)
@@ -110,6 +110,9 @@ grade = 4
 
 [node name="CapsuleVisual" parent="NPCs/NPC_CM2" index="3"]
 visible = false
+
+[node name="SpeechBubble" parent="NPCs/NPC_CM2" index="4"]
+metadata/_edit_use_anchors_ = true
 
 [node name="ProfVisual" type="Sprite2D" parent="NPCs/NPC_CM2" unique_id=563921740]
 position = Vector2(-22.000004, 31.000015)

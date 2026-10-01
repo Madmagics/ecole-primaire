@@ -209,6 +209,16 @@ const RESULT_ROW_MARGIN := 10
 ## ces deux lignes de 20% vers la droite par rapport a la question, pour bien les distinguer d'un
 ## simple coup d'oeil (retour utilisateur 2026-08-01).
 const RESULT_INDENT_RATIO := 0.2
+## Pastille "Revoir : <notion>" sous la correction d'une reponse fausse (2026-10-01, demande
+## Steve) : ouvre la fiche de cours de la notion DANS ce panneau, la croix de la fiche ramene a
+## la feuille de correction (jamais au sommaire Cours). Hauteur mini 44 px = cible tactile.
+const REVIEW_ICON := preload("res://assets/classe2.0/icones/cours.webp")
+const FICHE_PANEL_SCENE := preload("res://ui/fiche/fiche_panel.tscn")
+const REVIEW_MIN_HEIGHT := 44.0
+const REVIEW_ICON_SIZE := 28
+## Deplacement de ResultScroll (px) au-dela duquel un appui sur la pastille est considere comme
+## un glissement de defilement et ignore (voir _add_review_button).
+const REVIEW_SCROLL_TOLERANCE := 6
 
 ## Taille visee pour Panel (voir _update_panel_max_size), mise en cache ici plutot que relue via
 ## panel.size a chaque calcul de largeur (_get_question_scroll_content_width,
@@ -229,6 +239,9 @@ var _correct_count: int = 0
 ## Historique du pack en cours, une entree par question repondue, dans l'ordre : sert a
 ## construire le tableau recapitulatif affiche par _show_result.
 var _history: Array[Dictionary] = []
+## Fiche de cours ouverte depuis la feuille de correction (creee a la premiere ouverture).
+var _fiche_panel: FichePanel
+var _saved_result_scroll := 0
 
 ## Icone piece coloree affichee dans la pastille de resultat (voir _show_result) - creee au
 ## runtime comme les icones de CoinHUD, plutot que posee dans la .tscn : masquee (visible = false)
@@ -280,6 +293,8 @@ func _ready() -> void:
 	resized.connect(_update_panel_max_size)
 
 func _on_visibility_changed() -> void:
+	if not visible:
+		_close_fiche()
 	var blur_bg := get_node_or_null(blur_bg_path) as CanvasItem
 	if blur_bg:
 		blur_bg.visible = visible
@@ -303,6 +318,11 @@ func _unhandled_input(event: InputEvent) -> void:
 		return
 	if event.is_action_pressed("ui_cancel"):
 		get_viewport().set_input_as_handled()
+		## Fiche de cours ouverte depuis la correction : Echap la referme (retour a la feuille de
+		## correction) au lieu de quitter le pack.
+		if _fiche_panel != null and _fiche_panel.visible:
+			_fiche_panel.close()
+			return
 		_abort_pack()
 
 ## Affiche un message temporaire (ex: "pas encore de questions pour ce niveau") puis se
@@ -762,6 +782,7 @@ func _submit_answer(answer_text: String) -> void:
 		"correct_answer": question.correct_answer,
 		"is_correct": is_correct,
 		"subject": question.subject,
+		"notion": question.notion,
 	})
 	_current_index += 1
 	if _current_index >= _questions.size():
@@ -840,7 +861,101 @@ func _show_challenge_popup(text: String) -> void:
 	await get_tree().create_timer(RESULT_DISPLAY_SECONDS).timeout
 	challenge_popup.visible = false
 
+## Ligne de la pastille "Revoir" : meme decalage de RESULT_INDENT_RATIO que les lignes
+## reponse/correction (voir _build_indented_line), pastille calee a gauche sans s'etirer.
+func _build_review_line(grade: GradeLevel.Grade, fiche: Dictionary) -> HBoxContainer:
+	var row := HBoxContainer.new()
+	row.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	var margin_zone := Control.new()
+	margin_zone.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	margin_zone.size_flags_stretch_ratio = RESULT_INDENT_RATIO
+	margin_zone.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	row.add_child(margin_zone)
+	var zone := HBoxContainer.new()
+	zone.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	zone.size_flags_stretch_ratio = 1.0 - RESULT_INDENT_RATIO
+	zone.add_child(_build_review_button(grade, fiche))
+	row.add_child(zone)
+	return row
+
+## Pastille arrondie aux couleurs de la classe (fond clair, bordure couleur de classe), icone
+## Cours + "Revoir : <titre de la fiche>".
+func _build_review_button(grade: GradeLevel.Grade, fiche: Dictionary) -> Button:
+	var classe_color := GradeLevel.get_color(grade)
+	var button := Button.new()
+	button.text = "Revoir : %s" % str(fiche.get("titre", ""))
+	button.icon = REVIEW_ICON
+	button.expand_icon = false
+	button.add_theme_constant_override("icon_max_width", REVIEW_ICON_SIZE)
+	button.add_theme_constant_override("h_separation", 8)
+	button.custom_minimum_size.y = REVIEW_MIN_HEIGHT
+	button.size_flags_horizontal = Control.SIZE_SHRINK_BEGIN
+	button.focus_mode = Control.FOCUS_NONE
+	var ink := classe_color.darkened(0.55)
+	for state: String in ["font_color", "font_hover_color", "font_pressed_color", "font_focus_color", "font_hover_pressed_color"]:
+		button.add_theme_color_override(state, ink)
+	button.add_theme_stylebox_override("normal", _review_style(classe_color.lerp(Color.WHITE, 0.82), classe_color))
+	button.add_theme_stylebox_override("hover", _review_style(classe_color.lerp(Color.WHITE, 0.68), classe_color))
+	button.add_theme_stylebox_override("pressed", _review_style(classe_color.lerp(Color.WHITE, 0.55), classe_color))
+	button.add_theme_stylebox_override("hover_pressed", _review_style(classe_color.lerp(Color.WHITE, 0.55), classe_color))
+	button.add_theme_stylebox_override("focus", StyleBoxEmpty.new())
+	## Le passage en MOUSE_FILTER_PASS (glissement au doigt dans ResultScroll) est fait
+	## automatiquement par TouchScrollFix (node_added). Garde-fou : un glissement commence sur la
+	## pastille peut se terminer avec le doigt encore dessus, et le Button emettrait alors
+	## "pressed" - on compare la position de defilement entre l'appui et le relachement.
+	var scroll_at_press := [0]
+	button.button_down.connect(func() -> void: scroll_at_press[0] = result_scroll.scroll_vertical)
+	button.pressed.connect(func() -> void:
+		if absi(result_scroll.scroll_vertical - scroll_at_press[0]) > REVIEW_SCROLL_TOLERANCE:
+			return
+		_open_fiche(grade, fiche))
+	return button
+
+func _review_style(bg: Color, border: Color) -> StyleBoxFlat:
+	var style := StyleBoxFlat.new()
+	style.bg_color = bg
+	style.border_color = border
+	style.set_border_width_all(2)
+	style.set_corner_radius_all(int(REVIEW_MIN_HEIGHT / 2.0))
+	style.content_margin_left = 14
+	style.content_margin_right = 16
+	style.content_margin_top = 6
+	style.content_margin_bottom = 6
+	return style
+
+## Ouvre la fiche a la place de la feuille de correction (Panel masque, meme emplacement a
+## l'ecran) ; la position de defilement de ResultScroll est memorisee pour la retrouver au retour.
+func _open_fiche(grade: GradeLevel.Grade, fiche: Dictionary) -> void:
+	if _fiche_panel == null:
+		_fiche_panel = FICHE_PANEL_SCENE.instantiate() as FichePanel
+		add_child(_fiche_panel)
+		_fiche_panel.anchor_left = panel.anchor_left
+		_fiche_panel.anchor_top = panel.anchor_top
+		_fiche_panel.anchor_right = panel.anchor_right
+		_fiche_panel.anchor_bottom = panel.anchor_bottom
+		_fiche_panel.offset_left = 0
+		_fiche_panel.offset_top = 0
+		_fiche_panel.offset_right = 0
+		_fiche_panel.offset_bottom = 0
+		_fiche_panel.closed.connect(_on_fiche_closed)
+	_saved_result_scroll = result_scroll.scroll_vertical
+	panel.visible = false
+	_fiche_panel.open_fiche(grade, fiche)
+
+## Croix de la fiche : retour a la feuille de correction, au meme endroit du defilement.
+func _on_fiche_closed() -> void:
+	panel.visible = true
+	await get_tree().process_frame
+	result_scroll.scroll_vertical = _saved_result_scroll
+
+## Referme sans bruit une fiche restee ouverte (panneau masque, nouveau pack...).
+func _close_fiche() -> void:
+	if _fiche_panel != null and _fiche_panel.visible:
+		_fiche_panel.hide()
+	panel.visible = true
+
 func _clear_result_rows() -> void:
+	_close_fiche()
 	for child in result_rows_container.get_children():
 		child.queue_free()
 
@@ -853,7 +968,8 @@ func _populate_result_table() -> void:
 			str(record["given_answer"]),
 			correction,
 			record["is_correct"],
-			record["subject"]
+			record["subject"],
+			str(record.get("notion", ""))
 		)
 
 ## Une carte par question repondue, en 3 lignes empilees plutot qu'un tableau a colonnes (ancien
@@ -863,7 +979,7 @@ func _populate_result_table() -> void:
 ## fausse - rien a corriger sinon) ; ces deux lignes sont decalees de 20% vers la droite par
 ## rapport a la question (voir _build_indented_line) pour bien les distinguer d'un coup d'oeil
 ## (retour utilisateur 2026-08-01).
-func _add_result_row(question_text: String, given_text: String, correction_text: String, is_correct: bool, subject: SubjectType.Subject) -> void:
+func _add_result_row(question_text: String, given_text: String, correction_text: String, is_correct: bool, subject: SubjectType.Subject, notion: String = "") -> void:
 	## Logique (2026-08-04) : la reponse/correction peut etre un emoji ou une forme Unicode -
 	## le modulate rouge/vert (voir _build_indented_line) teinte les glyphes couleur au lieu de se
 	## limiter au texte, ce qui denature le symbole (retour utilisateur ingame). Pour cette
@@ -903,6 +1019,11 @@ func _add_result_row(question_text: String, given_text: String, correction_text:
 	))
 	if not correction_text.is_empty():
 		lines.add_child(_build_indented_line("Correction : ", correction_text, CORRECT_COLOR, tint_value))
+	if not is_correct and not notion.is_empty():
+		var grade := GradeLevel.get_grade_for_rarity(_rarity)
+		var fiche := ContentLibrary.find_fiche(grade, notion)
+		if not fiche.is_empty():
+			lines.add_child(_build_review_line(grade, fiche))
 
 	var row_margin := MarginContainer.new()
 	row_margin.add_theme_constant_override("margin_left", RESULT_ROW_MARGIN)
