@@ -1254,6 +1254,34 @@ func _push_draw_states(index: int) -> void:
 		_save_to_disk()
 	_tirages_en_cours = false
 
+## Signalement d'un probleme sur une question (2026-10-03, bouton BUG de QuestionPanel) : envoie
+## l'id de la question au serveur (table signalements, le compte est deduit du jeton cote serveur).
+## Renvoie true si le serveur a bien enregistre le signalement. Un jeton expire est renouvele une
+## fois puis l'envoi retente ; pas de file d'attente persistante (le jeu exige deja d'etre en ligne,
+## et le joueur voit tout de suite le message "reessaie plus tard" en cas d'echec).
+func report_question(question_id: int) -> bool:
+	var index := _current_account_index()
+	if index == -1 or question_id <= 0:
+		return false
+	var account_id := String(_accounts[index].get("id", ""))
+	for _attempt in 2:
+		if not await _ensure_server_session(index):
+			return false
+		index = _current_account_index()
+		if index == -1 or String(_accounts[index].get("id", "")) != account_id:
+			return false # le compte connecte a change pendant l'attente reseau
+		var jeton := String(_accounts[index].get("sync_jeton", ""))
+		var result := await ServerApi.signaler_question(jeton, question_id)
+		if result.get("ok", false):
+			return true
+		if result.get("message", "") != "session_expiree":
+			return false
+		index = _current_account_index()
+		if index == -1 or String(_accounts[index].get("id", "")) != account_id:
+			return false
+		_accounts[index]["sync_jeton"] = "" # force un nouveau jeton au 2e essai
+	return false
+
 func _retry_draw_sync_if_needed() -> void:
 	var index := _current_account_index()
 	if index != -1:

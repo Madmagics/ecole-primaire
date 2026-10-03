@@ -1,0 +1,16 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://667mqh0rk3pi"
+
+[deps]
+
+source_file="res://Claude outputs/audit_conj/audit_conjugaison_qcm_20261003.csv"
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

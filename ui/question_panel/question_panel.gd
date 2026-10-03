@@ -201,6 +201,18 @@ const PROGRESS_ICON_SIZE := 28
 ## PACK_REWARD (voir SoundManager.Sfx).
 @onready var challenge_popup: PanelContainer = $ChallengePopup
 @onready var challenge_popup_label: Label = $ChallengePopup/ChallengePopupMargin/ChallengePopupLabel
+## Signalement de question (2026-10-03, demande Steve : "on va placer une icone dans chaque
+## question... voulez vous signaler un probleme sur cette question? oui ou non") : BugButton dans
+## l'en-tete (visible seulement pendant une question, pas sur un message ni sur le recapitulatif),
+## BugConfirm = petite fenetre Oui/Non par-dessus le panneau. "Oui" envoie l'id de la question au
+## serveur (SaveManager.report_question -> table signalements, voir server/signalements.sql) ;
+## "Non" ou Echap referment simplement la fenetre et la question reprend la ou elle en etait.
+@onready var bug_button: Button = $Panel/Margin/Content/HeaderRow/BugButton
+@onready var bug_confirm: Control = $BugConfirm
+@onready var bug_yes_button: Button = $BugConfirm/Card/Margin/Content/Buttons/YesButton
+@onready var bug_no_button: Button = $BugConfirm/Card/Margin/Content/Buttons/NoButton
+## Id de la question affichee au moment du clic sur BugButton (0 = aucune).
+var _bug_question_id := 0
 
 ## Marge interne d'une ligne du tableau recapitulatif (voir _add_result_row) - assez large pour
 ## une lecture confortable sans gonfler artificiellement la hauteur de chaque ligne.
@@ -262,6 +274,9 @@ func _ready() -> void:
 	answer_input.text_submitted.connect(_on_answer_submitted)
 	validate_button.pressed.connect(_on_validate_pressed)
 	close_button.pressed.connect(_on_close_pressed)
+	bug_button.pressed.connect(_on_bug_pressed)
+	bug_yes_button.pressed.connect(_on_bug_yes_pressed)
+	bug_no_button.pressed.connect(_close_bug_confirm)
 	## Fige le joueur (deplacement + interaction) tant que ce panneau est visible.
 	visibility_changed.connect(_on_visibility_changed)
 	## Meme pattern que CoinHUD._ready() (icone creee en code, jamais posee dans la .tscn) :
@@ -295,6 +310,7 @@ func _ready() -> void:
 func _on_visibility_changed() -> void:
 	if not visible:
 		_close_fiche()
+		_close_bug_confirm()
 	var blur_bg := get_node_or_null(blur_bg_path) as CanvasItem
 	if blur_bg:
 		blur_bg.visible = visible
@@ -318,6 +334,10 @@ func _unhandled_input(event: InputEvent) -> void:
 		return
 	if event.is_action_pressed("ui_cancel"):
 		get_viewport().set_input_as_handled()
+		## Fenetre de signalement ouverte : Echap = "Non" (retour a la question).
+		if bug_confirm.visible:
+			_close_bug_confirm()
+			return
 		## Fiche de cours ouverte depuis la correction : Echap la referme (retour a la feuille de
 		## correction) au lieu de quitter le pack.
 		if _fiche_panel != null and _fiche_panel.visible:
@@ -337,6 +357,7 @@ func show_message(_unused_source: Node, message: String) -> void:
 	question_card.visible = true
 	progress_label.text = ""
 	_progress_icon.visible = false
+	bug_button.visible = false
 	_update_question_label_max_width()
 	question_label.text = _build_question_bbcode(message)
 	_clear_logic_grid()
@@ -368,6 +389,7 @@ func _display_current_question() -> void:
 	var question := _questions[_current_index]
 	progress_label.text = "Question %d/%d" % [_current_index + 1, _questions.size()]
 	_progress_icon.visible = false
+	bug_button.visible = true
 	_update_question_label_max_width(question.grid_cells.size() == 9)
 	question_label.text = _build_question_bbcode(question.text)
 	## Enonce recopie au-dessus de la case dans le clavier du jeu (le reste de l'ecran y est floute,
@@ -756,6 +778,32 @@ func _on_validate_pressed() -> void:
 func _on_close_pressed() -> void:
 	_abort_pack()
 
+## --- Signalement d'une question (BugButton / BugConfirm) ---
+
+func _on_bug_pressed() -> void:
+	if _current_index < 0 or _current_index >= _questions.size():
+		return
+	_bug_question_id = _questions[_current_index].id
+	bug_confirm.show()
+
+func _close_bug_confirm() -> void:
+	bug_confirm.hide()
+
+## "Oui" : referme la fenetre tout de suite (le joueur reprend sa question sans attendre le
+## reseau), envoie le signalement en tache de fond puis affiche le resultat dans le bandeau
+## ChallengePopup deja existant (meme bandeau que les defis, voir _show_challenge_popup).
+func _on_bug_yes_pressed() -> void:
+	_close_bug_confirm()
+	var question_id := _bug_question_id
+	_bug_question_id = 0
+	if question_id <= 0:
+		return
+	var sent: bool = await SaveManager.report_question(question_id)
+	if not visible:
+		return
+	_show_challenge_popup("Merci ! Le problème a été signalé." if sent
+		else "Signalement impossible pour le moment, réessaie plus tard.")
+
 ## Ferme la fenetre (croix, ou joueur qui s'eloigne du PNJ en cours). Si le pack etait
 ## deja termine (tableau recapitulatif affiche), la recompense a deja ete versee dans
 ## _show_result : fermer ici ne fait qu'arreter l'affichage, rien n'est perdu pour le joueur.
@@ -795,6 +843,7 @@ func _submit_answer(answer_text: String) -> void:
 ## voir _on_close_pressed) : contrairement a show_message, pas de fermeture automatique, pour
 ## laisser le temps de relire le detail.
 func _show_result() -> void:
+	bug_button.visible = false
 	var correct := _correct_count
 	var total := _questions.size()
 	var reward := CardRarity.get_pack_reward(_rarity, correct, total)

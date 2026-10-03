@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://ddvnloh5h5man"
+
+[deps]
+
+files=["res://Claude outputs/audit_logique/audit_logique_20261003.classe.translation", "res://Claude outputs/audit_logique/audit_logique_20261003.motif.translation", "res://Claude outputs/audit_logique/audit_logique_20261003.enonce.translation", "res://Claude outputs/audit_logique/audit_logique_20261003.enonce.translation", "res://Claude outputs/audit_logique/audit_logique_20261003.choix.translation", "res://Claude outputs/audit_logique/audit_logique_20261003.choix.translation", "res://Claude outputs/audit_logique/audit_logique_20261003.notion.translation", "res://Claude outputs/audit_logique/audit_logique_20261003.notion.translation"]
+
+source_file="res://Claude outputs/audit_logique/audit_logique_20261003.csv"
+dest_files=["res://Claude outputs/audit_logique/audit_logique_20261003.classe.translation", "res://Claude outputs/audit_logique/audit_logique_20261003.motif.translation", "res://Claude outputs/audit_logique/audit_logique_20261003.enonce.translation", "res://Claude outputs/audit_logique/audit_logique_20261003.enonce.translation", "res://Claude outputs/audit_logique/audit_logique_20261003.choix.translation", "res://Claude outputs/audit_logique/audit_logique_20261003.choix.translation", "res://Claude outputs/audit_logique/audit_logique_20261003.notion.translation", "res://Claude outputs/audit_logique/audit_logique_20261003.notion.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

@@ -108,3 +108,15 @@ CE1 (grammaire=86, conjugaison=67, orthographe=47, ids 9000-9199ish) n'a pas ete
   (script de validation automatique avant ecriture des `.tres`).
 - Echantillon relu manuellement (conjugaisons irregulieres, accords, homophones) pour verifier
   la correction grammaticale des formes generees.
+
+## Regle des mauvaises reponses en Conjugaison (2026-10-03, AUDITS_LOG #29)
+
+Le sujet des 4 choix est toujours celui de la question. Jamais de faute « typo » sans interet
+(lettre ajoutee/retiree/doublee : rremplir, expliquonst).
+- CE2 a CM2 : 2 choix = meme verbe conjugue a un AUTRE temps deja connu de la classe
+  (CE2 present/imparfait/futur ; CM1 + passe compose ; CM2 + plus-que-parfait, passe simple
+  3e personne, conditionnel), en privilegiant le temps voisin (futur/conditionnel,
+  imparfait/passe simple, passe compose/plus-que-parfait) + 1 faute d'accord homophone
+  (terminaison muette) ou faute d'auxiliaire (il a alle) pour les verbes avec etre.
+- CE1 (present seul) : fautes de terminaison homophones (chante/chantes/chantent, chantont,
+  chanter/chante) + infinitif ; etre/avoir : a/a/as, est/et/es, ont/sont, j'ai/je suis.

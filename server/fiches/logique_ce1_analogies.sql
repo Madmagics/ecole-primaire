@@ -1,0 +1,36 @@
+-- Fiche Ce qui va ensemble (CE1) - logique, notion 'analogies'. Relancer ce script remplace le contenu de la fiche.
+insert into contenu_cours (classe, matiere, titre, contenu, statut, notion_id)
+select 'ce1', 'logique', 'Ce qui va ensemble', $fiche$
+[titre]Les contraires[/titre]
+[table=4][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=21]devant[/font_size][/center][/cell][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=21]derrière[/font_size][/center][/cell][cell bg=#FFD49A border=#F2A541 padding=10,4,10,4][center][font_size=21]acheter[/font_size][/center][/cell][cell bg=#FFD49A border=#F2A541 padding=10,4,10,4][center][font_size=21]vendre[/font_size][/center][/cell][cell bg=#FFD49A border=#F2A541 padding=10,4,10,4][center][font_size=21]ouvert[/font_size][/center][/cell][cell bg=#FFD49A border=#F2A541 padding=10,4,10,4][center][font_size=21]fermé[/font_size][/center][/cell][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=21]étroit[/font_size][/center][/cell][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=21]large[/font_size][/center][/cell][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=21]épais[/font_size][/center][/cell][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=21]mince[/font_size][/center][/cell][cell bg=#FFD49A border=#F2A541 padding=10,4,10,4][center][font_size=21]mouillé[/font_size][/center][/cell][cell bg=#FFD49A border=#F2A541 padding=10,4,10,4][center][font_size=21]sec[/font_size][/center][/cell][cell bg=#FFD49A border=#F2A541 padding=10,4,10,4][center][font_size=21]vieux[/font_size][/center][/cell][cell bg=#FFD49A border=#F2A541 padding=10,4,10,4][center][font_size=21]jeune[/font_size][/center][/cell][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=21]sombre[/font_size][/center][/cell][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=21]clair[/font_size][/center][/cell][/table]
+[cadre]Le contraire veut dire [b]l'inverse[/b]. Je peux tester avec une phrase :
+« La porte est [b]ouverte[/b]… non, elle est [b]fermée[/b]. »[/cadre]
+[page]
+[titre]À quoi ça sert ?[/titre]
+Chaque objet a une [b]utilité[/b] : il sert à faire quelque chose.
+[table=4][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=19]la gomme[/font_size][/center][/cell][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=19]effacer[/font_size][/center][/cell][cell bg=#FFD49A border=#F2A541 padding=10,4,10,4][center][font_size=19]la règle[/font_size][/center][/cell][cell bg=#FFD49A border=#F2A541 padding=10,4,10,4][center][font_size=19]mesurer[/font_size][/center][/cell][cell bg=#FFD49A border=#F2A541 padding=10,4,10,4][center][font_size=19]la balance[/font_size][/center][/cell][cell bg=#FFD49A border=#F2A541 padding=10,4,10,4][center][font_size=19]peser[/font_size][/center][/cell][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=19]le marteau[/font_size][/center][/cell][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=19]clouer[/font_size][/center][/cell][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=19]la loupe[/font_size][/center][/cell][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=19]voir en plus gros[/font_size][/center][/cell][cell bg=#FFD49A border=#F2A541 padding=10,4,10,4][center][font_size=19]le sécateur[/font_size][/center][/cell][cell bg=#FFD49A border=#F2A541 padding=10,4,10,4][center][font_size=19]tailler les branches[/font_size][/center][/cell][cell bg=#FFD49A border=#F2A541 padding=10,4,10,4][center][font_size=19]le thermomètre[/font_size][/center][/cell][cell bg=#FFD49A border=#F2A541 padding=10,4,10,4][center][font_size=19]mesurer la température[/font_size][/center][/cell][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=19]la passoire[/font_size][/center][/cell][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=19]égoutter les pâtes[/font_size][/center][/cell][/table]
+[page]
+[titre]Trouver l'objet[/titre]
+La question peut être posée [b]dans les deux sens[/b] :
+[cadre]« La gomme sert à… » → [b]effacer[/b].
+« Quel objet sert à effacer ? » → [b]la gomme[/b].[/cadre]
+[cadre=astuce]Je m'imagine en train de faire l'action : pour [b]peser[/b] des pommes, je les pose sur… [b]la balance[/b] ![/cadre]
+[page]
+[titre]Les petits des animaux[/titre]
+[table=4][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=20]l'aigle[/font_size][/center][/cell][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=20]l'aiglon[/font_size][/center][/cell][cell bg=#FFD49A border=#F2A541 padding=10,4,10,4][center][font_size=20]l'âne[/font_size][/center][/cell][cell bg=#FFD49A border=#F2A541 padding=10,4,10,4][center][font_size=20]l'ânon[/font_size][/center][/cell][cell bg=#FFD49A border=#F2A541 padding=10,4,10,4][center][font_size=20]le canard[/font_size][/center][/cell][cell bg=#FFD49A border=#F2A541 padding=10,4,10,4][center][font_size=20]le caneton[/font_size][/center][/cell][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=20]le cerf[/font_size][/center][/cell][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=20]le faon[/font_size][/center][/cell][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=20]le loup[/font_size][/center][/cell][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=20]le louveteau[/font_size][/center][/cell][cell bg=#FFD49A border=#F2A541 padding=10,4,10,4][center][font_size=20]la baleine[/font_size][/center][/cell][cell bg=#FFD49A border=#F2A541 padding=10,4,10,4][center][font_size=20]le baleineau[/font_size][/center][/cell][cell bg=#FFD49A border=#F2A541 padding=10,4,10,4][center][font_size=20]l'oie[/font_size][/center][/cell][cell bg=#FFD49A border=#F2A541 padding=10,4,10,4][center][font_size=20]l'oison[/font_size][/center][/cell][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=20]le lapin[/font_size][/center][/cell][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=20]le lapereau[/font_size][/center][/cell][/table]
+[cadre]Le faon (petit du cerf) est un piège : on n'entend pas « cerf » dedans ![/cadre]
+[page]
+[titre]Dans l'autre sens[/titre]
+[cadre]« Le petit de la vache est… » → [b]le veau[/b].
+« Le veau est le petit de quel animal ? » → [b]la vache[/b].[/cadre]
+[cadre=astuce]Je relis la question : on me demande [b]le petit[/b] ou [b]le parent[/b] ?[/cadre]
+[page]
+[titre]Je retiens[/titre]
+[cadre]• Le [b]contraire[/b] dit l'inverse : acheter → vendre.
+• Chaque objet [b]sert à[/b] quelque chose : le peigne sert à se coiffer.
+• Chaque animal a son [b]petit[/b] : le loup → le louveteau.
+• La question peut être posée dans les [b]deux sens[/b] : je relis bien.[/cadre]
+$fiche$, 'publie', n.id from contenu_notions n where n.code = 'analogies'
+on conflict (notion_id, classe) where statut <> 'archive'
+do update set titre = excluded.titre, contenu = excluded.contenu, matiere = excluded.matiere, statut = 'publie', modifie_le = now()
+returning id, classe, titre, statut;

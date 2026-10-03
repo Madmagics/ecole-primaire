@@ -196,6 +196,12 @@ func demander_reinitialisation_mdp(p_login_ou_email: String) -> Dictionary:
 ##   - reussite         : {"ok": true, "data": <resultat jsonb de la fonction, deja parse>}
 ##   - refus du serveur  : {"ok": false, "type": "serveur", "message": "<ex: identifiants_invalides>"}
 ##   - probleme reseau  : {"ok": false, "type": "reseau", "message": "<detail technique>"}
+## Signale un probleme sur la question [p_question_id] pour le compte associe au jeton (2026-10-03,
+## voir fn_signaler_question dans server/signalements.sql) - data (si ok) : {"ok": true}. Un 2e
+## signalement de la meme question par le meme compte est ignore sans erreur cote serveur.
+func signaler_question(p_jeton: String, p_question_id: int) -> Dictionary:
+	return await _call_rpc("fn_signaler_question", {"p_jeton": p_jeton, "p_question_id": p_question_id})
+
 ## Contenu pedagogique (2026-09-27, voir autoload/content_library.gd) : lecture seule, sans jeton.
 ## data (si ok) : {"cp/math": 3, ...} (version de chaque paquet publie).
 func obtenir_manifeste() -> Dictionary:

@@ -32,6 +32,7 @@ etroite.
 | 23 | 2026-09-27 | Audit complet de cohérence des phrases en français (grammaire, orthographe, conjugaison en phrase) : phrases illogiques, réponses fausses, distracteurs aussi corrects | Français | CP, CE1, CE2, CM1, CM2 | 2 088 questions corrigées dans Supabase (sur 9 000 relues + conjugaison CM2), par familles de gabarits avec listes blanches ; relecture indépendante (27+17+4+6 retouches) ; 0 doublon, 0 écart après application |
 | 26 | 2026-09-29 | Question « La saison ___ il fait le plus chaud est l'été » (grammaire CM2) qui revient à chaque série → vérifier les notions et passer chacune à 20 questions minimum | Toutes (anglais surtout) | CP, CE1, CE2, CM1, CM2 | 54 notions sous 20 : 8 mal classées ou hors programme corrigées (75 questions modifiées), 507 questions ajoutées ; 0 notion sous 20, 0 doublon créé |
 | 27 | 2026-09-29 | Suite de #26 : « I prefer apple » (pluriel manquant) et jours/mois anglais sans majuscule | English | CP, CE1, CE2, CM1, CM2 | 74 questions corrigées (22 « I prefer » CE2, 52 jours/mois CP-CE2) ; 0 reste |
+| 30 | 2026-10-03 | Défauts trouvés en rédigeant les fiches de cours Logique (accords, élisions, réponses contradictoires, mauvais choix aussi corrects, questions rangées dans la mauvaise notion) — Steve : « oui corrige maintenant » | Logique | CP, CE2, CM1, CM2 (rien à corriger en CE1) | 222 questions corrigées dans Supabase ; 0 défaut restant |
 
 ## Détail
 
@@ -1302,3 +1303,54 @@ compte ≠ 267, tout est annulé. L'ancienne version de chaque ligne est gardée
 **Signalé, non corrigé** : les questions CM1/CM2 longues (inférence/vocabulaire) gardent encore des accents manquants isolés hors des contextes détectables par règle (ex. « le plaisir procure par »). Relecture ligne par ligne nécessaire pour les éliminer tous.
 
 Scripts : `server/correctifs_2026-09-29_lecture_cp_fins.sql`, `..._lecture_cp_textes.sql`, `..._lecture_ce1_cm2.sql`. `fn_publier()` : cp/ce1/ce2/cm1/cm2 lecture.
+
+### #29 — 2026-10-03 — Conjugaison : QCM refaits selon les temps connus par classe — corrigé DANS SUPABASE
+
+**Demande** : distracteurs de conjugaison trop évidents (lettre ajoutée/supprimée/doublée : « remplir / rremplir », « nous expliquonst », « je coommande ») → les remplacer par des erreurs qui ont un intérêt, en mélangeant les temps connus par la classe ; audit de la base et correction.
+
+**Constat** : les 4000 questions CE1-CM2 (100 %) avaient les 3 distracteurs « typo » de l'entrée #3 (lettre ajoutée à la fin, dernière lettre retirée, voyelle doublée), éliminables sans rien savoir de la conjugaison.
+
+**Nouvelle règle (sujet toujours identique à celui demandé)** — temps connus (cumulatifs, FRANCAIS_DIFFICULTE.md) : CE1 présent ; CE2 + imparfait, futur ; CM1 + passé composé ; CM2 + plus-que-parfait, passé simple (3e personne seulement), conditionnel.
+- CE2-CM2 : 2 distracteurs = le même verbe, même sujet, conjugué à un AUTRE temps connu de la classe (le 1er est le temps « voisin » le plus confondu : futur↔conditionnel, imparfait↔passé simple, passé composé↔plus-que-parfait ; le 2e tourne selon l'id) + 1 faute d'accord homophone (terminaison muette : chantait/chantais/chantaient, j'ai fini/finis, il prend/prent, vous chanterez/chanteré).
+- Verbes avec être aux temps composés : la faute d'auxiliaire est prioritaire (« il est allé » → « il a allé »).
+- CE1 (un seul temps connu) : fautes de terminaison homophones (il chante/chantes/chantent, nous chantont, vous chanter/chanté/chantés) + infinitif (« il chanter ») ; être/avoir : confusions classiques a/à/as, est/et/es, ont/sont/on, j'ai/je suis.
+- Formes conjuguées tirées des tables Verbiste (validées sur les 4000 bonnes réponses existantes : 99 % identiques, écarts = fautes ci-dessous ou variantes admises paye/paie, protégera/protègera). Variantes admises jamais proposées comme mauvaise réponse.
+
+**Bonnes réponses fausses corrigées (13)** : il/elle essuye → essuie (+ ils/elles essuyent, j'essuye), je nettoye → nettoie, tu rangais → rangeais, je souleverai → soulèverai, nettoyerons/nettoyerai/nettoyeront/essuyeras/essuyerai → nettoierons/nettoierai/nettoieront/essuieras/essuierai.
+**Verbe remplacé (3)** : « envieillir » (archaïque) → « vieillir » (ce2, ids 32477, 32496, 32614).
+
+**Vérifié** : 4000/4000 lignes avec 3 distracteurs distincts, aucun égal à la bonne réponse ni à une variante admise, aucun changement de sujet, 0 doublon de question. Détail ligne par ligne : `Claude outputs/audit_conj/audit_conjugaison_qcm_20261003.csv`. Anciennes versions dans contenu_historique.
+
+Script : `server/correctifs_2026-10-03_conjugaison_qcm.sql`. `fn_publier()` : ce1/ce2/cm1/cm2 conjugaison.
+
+
+### #30 — 2026-10-03 — Logique : défauts relevés pendant la rédaction des fiches de cours — corrigé DANS SUPABASE
+
+**Origine** : en rédigeant les 25 fiches de cours Logique (CP→CM2, publiées le même jour), relecture des questions de chaque notion. Steve a validé la correction de tous les points signalés.
+
+**Corrections (222 questions)** :
+- Classer CE2/CM1 (65) : accord de l'adjectif avec le prénom (« Zoé est plus grande »), élision « qu'Enzo / qu'Inès », « Qui n'est ni le plus grand, ni le plus petit ? », « le/la plus jeune » → « le plus jeune ».
+- Raisonnement CE2 (8) : « S'il a faim, Zoé… Il a faim. » → « Si elle a faim, Zoé… Elle a faim. » (idem a soif, est fatiguée) ; « S'il pleut / fait froid » (impersonnel) inchangés.
+- Syllogismes CE2 (28) : « Toutes les X sont des Y » étaient rangés dans Analogies → notion Raisonnement ; « a rencontré » → « a vu » ; « Toutes les tomates sont des légumes » → aubergines (la tomate compte comme un fruit dans les questions d'intrus et dans la fiche).
+- CP (90) : motifs (« Que vient ensuite ? », « Quelle couleur vient ensuite ? ») et « groupes qui grandissent » étaient rangés dans Analogies → notion Suites logiques (la fiche Suites CP les explique).
+- Intrus CP (7) : l'étoile ⭐ est aussi une forme, ambiguë parmi ■ ▲ ★ → remplacée par un objet (🎈) ou, quand elle était l'intrus parmi ♥ ● ★, par un fruit (🍓).
+- Classer CP (7) : deux animaux de taille trop proche dans la même question (vache/cheval, lapin/chat, lapin/poule, lion/ours) → l'un des deux remplacé par un animal nettement plus petit (ou plus grand) ; bonne réponse inchangée.
+- Analogies CM2 (16) : mauvais choix qui étaient aussi de bonnes réponses (la photo est… « à regarder », « à envoyer » ; le livre « à offrir » ; la chanson « à écouter »…) → remplacés par des actions impossibles pour cet objet.
+- Suite CP (1, id 40330) : 20, 15, 10, 5 → mauvais choix -1 et -3 (nombres négatifs, hors CP) → 1 et 5.
+
+**Vérifié** : 0 défaut restant pour chaque famille (requêtes de contrôle), 3 mauvais choix distincts partout, aucune bonne réponse parmi les mauvais choix, 0 doublon de texte. Notions après correction : CP suites 234 / analogies 102 ; CE2 analogies 92 / raisonnement 111. Détail ligne par ligne : `Claude outputs/audit_logique/audit_logique_20261003.csv`. Anciennes versions dans contenu_historique.
+
+Script : `server/correctifs_2026-10-03_logique.sql`. `fn_publier()` : cp/ce2/cm1/cm2 logique.
+
+### #31 — 2026-10-03 — Synonymes / contraires CP : mots trop difficiles et paires ambiguës — corrigé DANS SUPABASE
+
+- **Demande** : pendant la rédaction de la fiche de cours « Synonymes et contraires » CP, Claude signale des mots trop difficiles (« efficace », « supposer ») ; Steve demande la vérification.
+- **Portée** : notion `vocabulaire_sens`, CP uniquement (seule classe où la notion est en français ; CE2 l'a en orthographe, CM1 en logique). 328 questions relues une par une.
+- **Résultat** : 76 questions proposées à l'archivage (statut `archive`, pas de suppression), 328 → 252.
+  - 35 contraires avec un mot hors vocabulaire CP : actuel, aride, avare/généreux, bref, terne (×2), captif, indifférent, déçu/satisfait, délicat/brutal, économe/dépensier, efficace, incomplet, épuisé, familier, gracieux, hardi, haïr, naïf, malpropre, obscur, extraordinaire, paisible, bombé, robuste, torride, rugueux, vaincu, récent, amer, lâche, semblable, raide, habile.
+  - 27 synonymes avec un mot hors vocabulaire CP : se procurer, chatoyer/étinceler, cheminer, converser, dépanner, empoigner, engloutir, flâner, glousser, pouffer, exposer, supposer, apeuré, ardu, parvenir, sommeiller (×2), brailler, impeccable, gémir, fredonner, entamer, égarer, dissimuler, épuisé, sot, haïr.
+  - 14 paires ambiguës ou fausses : grave→léger, frais→chaud, fin→épais, piquant→doux, muet→bavard, rire→sangloter, carré↔rond (×2, formes et non contraires), nord→sud et est→ouest (hors programme CP), écouter→entendre, fixer→observer, aider→assister, sursauter→bondir.
+  - Liste des ids : 100627,100628,8326,8187,8332,8333,100612,100620,8344,100618,8346,8233,8350,8353,8354,8355,8363,100629,100613,100625,100639,8339,100633,100634,100637,8356,8338,8199,8212,8322,8321,8341,8192,8206,100626,8378,8397,100655,8386,8367,8380,100656,8374,100651,8242,8383,8388,8247,8248,8390,100658,8244,8384,100699,100650,8373,8392,8377,8382,8245,8250,100649,8364,8358,8360,100636,100630,8213,8336,8203,8195,8194,100644,100643,100647,100653
+- **Décision de Steve (option 3)** : remplacer les 76 questions par des paires simples de niveau CP plutôt que les archiver (on garde 328 questions).
+- **Appliqué** : 76 UPDATE sur les mêmes ids (anciennes versions dans contenu_historique), 45 contraires (fermer→ouvrir, descendre→monter, hiver→été, sous→sur, hier→demain, toujours→jamais, beaucoup→peu, question→réponse…) et 31 synonymes (voiture→auto, vélo→bicyclette, docteur→médecin, visage→figure, fâché→en colère, hurler→crier, nettoyer→laver, papa→père…) ; aucun doublon avec les 252 questions gardées, 3 mauvaises réponses distinctes par question ; fn_publier → paquet cp/french republié. Script : server/correctifs_2026-10-03_synonymes_contraires_cp.sql.
+- **Fiche de cours** CP « Synonymes et contraires » (pas encore publiée) : « imaginer / supposer » remplacé par « regarder / observer ».

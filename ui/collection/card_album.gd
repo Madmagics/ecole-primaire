@@ -248,6 +248,9 @@ var _sort_mode: SortMode = SortMode.BY_CLASS
 ## CardSlot actuellement affichee en grand (voir "Zoom sur une carte" plus bas), ou null si aucune.
 var _zoom_slot: CardSlot = null
 
+## Detecteur de glissement tactile pour tourner les pages (voir _ready).
+var _swipe: SwipePager
+
 func _ready() -> void:
 	## Applique le theme d'interface choisi (et reagit a un changement) : ce panneau est un
 	## enfant direct du CanvasLayer "UI", qui coupe la propagation automatique de Theme depuis
@@ -272,6 +275,10 @@ func _ready() -> void:
 	CardCollection.card_added.connect(_on_card_added)
 	prev_button.pressed.connect(_on_prev_pressed)
 	next_button.pressed.connect(_on_next_pressed)
+	## Glissement horizontal au doigt = fleches precedent/suivant (2026-10-03, voir
+	## ui/common/swipe_pager.gd), desactive tant qu'une carte est zoomee.
+	_swipe = SwipePager.attach($Panel as Control, _on_prev_pressed, _on_next_pressed,
+		func() -> bool: return _zoom_slot == null)
 	visibility_changed.connect(_on_visibility_changed)
 
 	## Chaque paire de CheckBox partage un ButtonGroup (voir card_album.tscn) : les deux emettent
@@ -453,7 +460,11 @@ func _refresh() -> void:
 func _on_grid_card_gui_input(event: InputEvent, card: CardResource, quantity: int) -> void:
 	if _zoom_slot != null:
 		return
-	if event is InputEventMouseButton and event.pressed and event.button_index == MOUSE_BUTTON_LEFT:
+	## Au RELACHEMENT (2026-10-03, et plus a l'appui) : un glissement de page commence sur une
+	## carte ne doit pas l'ouvrir en grand - on ne sait qu'au relachement si le doigt a glisse.
+	if event is InputEventMouseButton and not event.pressed and event.button_index == MOUSE_BUTTON_LEFT:
+		if _swipe != null and _swipe.has_moved():
+			return
 		_open_zoom(card, quantity)
 
 ## Voir "Zoom sur une carte" (commentaire de classe) : instancie une CardSlot independante de

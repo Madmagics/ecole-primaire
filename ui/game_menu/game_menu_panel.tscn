@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3]
+[gd_scene load_steps=12 format=3]
 
 [ext_resource type="Script" path="res://ui/game_menu/game_menu_panel.gd" id="1"]
 [ext_resource type="Theme" path="res://ui/theme/menu_options_font.tres" id="20_options_font"]
@@ -10,7 +10,6 @@
 [ext_resource type="Texture2D" path="res://assets/classe2.0/icones/profil.webp" id="11_icon_profil"]
 [ext_resource type="Shader" path="res://ui/game_menu/icon_dock_blur.gdshader" id="19_blur_shader"]
 [ext_resource type="PackedScene" path="res://ui/game_menu/icon_dock.tscn" id="21_icon_dock"]
-[ext_resource type="Texture2D" path="res://assets/classe2.0/icones/quitter.webp" id="22_icon_quit"]
 [ext_resource type="Texture2D" path="res://assets/classe2.0/icones/controle-parental.webp" id="24_icon_parental"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_menu_blur"]
@@ -168,8 +167,7 @@ offset_bottom = -10.0
 grow_horizontal = 2
 grow_vertical = 0
 flat = true
-text = ""
-icon = ExtResource("22_icon_quit")
+text = "Quitter"
 expand_icon = true
 icon_alignment = 1
 vertical_icon_alignment = 1

@@ -58,10 +58,22 @@ func _ready() -> void:
 	close_button.pressed.connect(close)
 	prev_button.pressed.connect(func() -> void: _show_page(_index - 1))
 	next_button.pressed.connect(func() -> void: _show_page(_index + 1))
+	## Glissement horizontal au doigt = fleches precedent/suivant (2026-10-03, voir
+	## ui/common/swipe_pager.gd). Garde sur les bornes : _show_page reconstruirait sinon la
+	## meme page (fondu inutile) en glissant au-dela de la premiere/derniere.
+	SwipePager.attach(panel, _on_swipe_prev, _on_swipe_next)
 	page_dots.draw.connect(_draw_dots)
 	page_area.resized.connect(func() -> void:
 		if _current_page != null:
 			_fit_page(_current_page))
+
+func _on_swipe_prev() -> void:
+	if _index > 0:
+		_show_page(_index - 1)
+
+func _on_swipe_next() -> void:
+	if _index < _pages.size() - 1:
+		_show_page(_index + 1)
 
 func open_fiche(grade: GradeLevel.Grade, fiche: Dictionary) -> void:
 	_classe_color = GradeLevel.get_color(grade)

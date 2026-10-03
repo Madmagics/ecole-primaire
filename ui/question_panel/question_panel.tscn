@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3]
+[gd_scene load_steps=3 format=3]
 
 [ext_resource type="Script" path="res://ui/question_panel/question_panel.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/classe2.0/icones/bug.webp" id="2_icon_bug"]
 
 [node name="QuestionPanel" type="Control"]
 layout_mode = 3
@@ -50,6 +51,17 @@ theme_type_variation = &"TitleLabel"
 layout_mode = 2
 text = "Question 1/10"
 horizontal_alignment = 1
+
+[node name="BugButton" type="Button" parent="Panel/Margin/Content/HeaderRow"]
+custom_minimum_size = Vector2(62, 59)
+layout_mode = 2
+size_flags_vertical = 0
+tooltip_text = "Signaler un problème sur cette question"
+flat = true
+icon = ExtResource("2_icon_bug")
+expand_icon = true
+icon_alignment = 1
+vertical_icon_alignment = 1
 
 [node name="HeaderSpacer" type="Control" parent="Panel/Margin/Content/HeaderRow"]
 layout_mode = 2
@@ -188,3 +200,67 @@ horizontal_alignment = 1
 autowrap_mode = 2
 text = ""
 
+[node name="BugConfirm" type="Control" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Dimmer" type="ColorRect" parent="BugConfirm"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.4)
+
+[node name="Card" type="PanelContainer" parent="BugConfirm"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -220.0
+offset_top = -90.0
+offset_right = 220.0
+offset_bottom = 90.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Margin" type="MarginContainer" parent="BugConfirm/Card"]
+layout_mode = 2
+theme_override_constants/margin_left = 24
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 24
+theme_override_constants/margin_bottom = 20
+
+[node name="Content" type="VBoxContainer" parent="BugConfirm/Card/Margin"]
+layout_mode = 2
+theme_override_constants/separation = 18
+
+[node name="MessageLabel" type="Label" parent="BugConfirm/Card/Margin/Content"]
+theme_type_variation = &"TitleLabel"
+layout_mode = 2
+horizontal_alignment = 1
+autowrap_mode = 2
+text = "Voulez-vous signaler un problème sur cette question ?"
+
+[node name="Buttons" type="HBoxContainer" parent="BugConfirm/Card/Margin/Content"]
+layout_mode = 2
+alignment = 1
+theme_override_constants/separation = 24
+
+[node name="YesButton" type="Button" parent="BugConfirm/Card/Margin/Content/Buttons"]
+custom_minimum_size = Vector2(120, 44)
+layout_mode = 2
+text = "Oui"
+
+[node name="NoButton" type="Button" parent="BugConfirm/Card/Margin/Content/Buttons"]
+custom_minimum_size = Vector2(120, 44)
+layout_mode = 2
+text = "Non"
