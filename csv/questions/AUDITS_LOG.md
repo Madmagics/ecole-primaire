@@ -1354,3 +1354,47 @@ Script : `server/correctifs_2026-10-03_logique.sql`. `fn_publier()` : cp/ce2/cm1
 - **Décision de Steve (option 3)** : remplacer les 76 questions par des paires simples de niveau CP plutôt que les archiver (on garde 328 questions).
 - **Appliqué** : 76 UPDATE sur les mêmes ids (anciennes versions dans contenu_historique), 45 contraires (fermer→ouvrir, descendre→monter, hiver→été, sous→sur, hier→demain, toujours→jamais, beaucoup→peu, question→réponse…) et 31 synonymes (voiture→auto, vélo→bicyclette, docteur→médecin, visage→figure, fâché→en colère, hurler→crier, nettoyer→laver, papa→père…) ; aucun doublon avec les 252 questions gardées, 3 mauvaises réponses distinctes par question ; fn_publier → paquet cp/french republié. Script : server/correctifs_2026-10-03_synonymes_contraires_cp.sql.
 - **Fiche de cours** CP « Synonymes et contraires » (pas encore publiée) : « imaginer / supposer » remplacé par « regarder / observer ».
+
+### #32 — 2026-10-03 — Mauvaises réponses trop faciles à écarter (orthographe, préfixes, masculin/féminin) — corrigé DANS SUPABASE
+
+- **Demande** : défauts relevés par Claude pendant la rédaction des fiches de cours d'orthographe ; Steve : « lance la correction ».
+- **Portée** : orthographe_mots CM1 + CM2 (1 445 questions), formation_mots CM2 (99), masculin_feminin CE1 orthographe + grammaire (318), homophones CM2 (102).
+- **Problème** : mauvaises réponses fabriquées par fautes de frappe (« ffavorite », « locatino », « gazno »), absurdes (« chauffer excessivement » pour re- dans « retourner »), « louveee », « adorablees », « Kan ». Un enfant trouvait la réponse sans rien savoir. Et 492 mots en double dans orthographe_mots (251 CM1, 241 CM2).
+- **Correction** (1 811 questions modifiées, mêmes ids, anciennes versions dans contenu_historique) :
+  - orthographe_mots : 3 vraies fautes d'orthographe par mot (consonne doublée ou non, m devant b/p, accents, -tion/-ssion/-xion, -ance/-ence, lettres muettes, ph/f, y/i, ill, s/ss/c/ç, g/j…), générées par `server/outils_corrections/variantes.py` ; **aucune faute proposée n'est un vrai mot** (contrôle par dictionnaire français de 140 000 formes, pour éviter l'ambiguïté type dessin/dessein). 706 mots en double ou trop pauvres en fautes possibles remplacés par de nouveaux mots courants (`mots_nouveaux.py`, tous présents au dictionnaire) → 0 doublon par classe. Verbes en -eler/-eter faits à la main ; « j'étiquète » et « j'épèle » (admis par l'orthographe de 1990) ne sont jamais proposés comme fautes.
+  - formation_mots : « Que signifie le préfixe… » réécrit avec des sens courts (de nouveau, le contraire de, avant, après, contre, à travers, en dessous de, au-dessus de, en trop, plusieurs, un seul, deux), cohérents avec la fiche de cours ; « de- » corrigé en « dé- ».
+  - masculin_feminin CE1 : animaux → mâle + faute classique (loupe, chiene, guenonne…) + autre femelle du même groupe ; adjectifs → masculin, faute selon la terminaison (curieuxe, sportife, cruele, gentile, contente/contante…), pluriel.
+  - homophones CM2 : « Kan » → « Quan ».
+- Script : `server/correctifs_2026-10-03_mauvaises_reponses.sql` ; avant/après : `Claude outputs/correction_ortho/avant_apres.tsv`.
+
+### #33 — 2026-10-03 — Sujet du verbe CE2 et pluriel des noms CE1 (grammaire) : mauvaises réponses — corrigé DANS SUPABASE
+
+- **Demande** : défauts relevés pendant la rédaction des fiches de grammaire ; Steve : « publie et corrige ».
+- **Sujet du verbe CE2 (97 questions)** : les mauvaises réponses étaient « l'adjectif / le verbe / le complément » face à un groupe de mots → réponse évidente. Désormais 3 morceaux de la même phrase : le verbe, ce qui suit le verbe, et le verbe avec sa suite (« Le hérisson se cache sous les feuilles » → se cache / sous les feuilles / se cache sous les feuilles). Bonne réponse passée en minuscule (« le hérisson ») pour ne pas se distinguer par sa majuscule.
+- **Pluriel des noms CE1 grammaire (76 questions)** : fautes de frappe (« voixx », « radiss ») remplacées par des erreurs réalistes : -al/-ail → chevals, chevaus, cheveaux ; -eau → oiseaus, oiseau, oisaux ; mots invariables → radix, radises, radi ; mots réguliers → singulier, ajout d'un x, e oublié (médails) ou -es (robotes).
+- Script : `server/correctifs_2026-10-03_sujet_pluriel.sql` (généré par `server/outils_corrections/corrige_sujet_pluriel.py`).
+
+### #34 — 2026-10-03 — Anglais : fautes de français relevées pendant la rédaction des fiches — corrigé DANS SUPABASE
+
+- **CM1 démonstratifs (8 questions)** : « ce chaise-ci », « ce table-là », « ce porte-ci », « ce fenêtre-là » → « cette … » (`server/correctifs_2026-10-03_demonstratifs_cm1.sql`).
+- **CM2 habitudes (33 questions)** : « jamais, je fais mes devoirs » (qui veut dire le contraire de « I never do my homework ») et « toujours, je … » remplacés par un français correct : « je ne fais jamais mes devoirs », « je ne bois jamais d'eau », « je ne fais jamais de sport », « je fais toujours mes devoirs », « je regarde souvent la télé » ; « parfois, … » et « d'habitude, … » gardés (`server/correctifs_2026-10-03_habitudes_cm2.sql`).
+
+### #35 — 2026-10-03 — Anglais : phrases-cadres ramenées au mot essentiel — corrigé DANS SUPABASE
+
+- **Demande de Steve** : dans les fiches et les questions, « j'ai un animal, c'est un chien », « j'ai trois œufs », « je vois deux canards »… sont des phrases, pas du vocabulaire ; ne garder que le mot. Choix de Steve : garder environ 5 phrases entières par structure et par classe pour que la structure reste testée.
+- **Familles traitées** (`server/outils_corrections/anglais_noyau.py`) : j'ai N … / I have N … ; j'ai un animal, c'est un … ; je vois N … ; (à droite / à gauche / en haut / en bas / au milieu,) il y a N … / there is/are … ; j'aime / je n'aime pas / je préfère / elle aime … ; ma couleur préférée est … ; mon passe-temps / mon sport préféré est … ; le lundi, nous avons … (CP, CE1, CE2, CM1).
+- **Résultat** : 86 phrases gardées entières, 257 questions transformées en questions sur le mot (« un chien → a dog », « des œufs → eggs », « le chant → singing »), mauvaises réponses prises parmi les autres mots de la même famille (même nombre, même type) ; 384 questions devenues strictement identiques à une autre archivées (statut archive, récupérables). Anglais : 3 116 → 2 732 questions. Plus gros changements : décrire une image CE2 240 → 42, avoir et être CP 138 → 47, CE1 98 → 47, décrire une image CP 50 → 15. « a elephant » → « an elephant ».
+- **Fiches** : les tableaux de vocabulaire n'affichent plus que le mot (même extraction) ; la structure est expliquée sur la page de règle.
+- Script : `server/correctifs_2026-10-03_anglais_mots.sql`.
+
+### #36 — 2026-10-03 — Anglais CP : plus de pluriel (hors programme) — corrigé DANS SUPABASE
+
+- **Demande de Steve** : « le CP ne propose pas le pluriel dans le programme ? » (vocabulaire « des œufs = eggs », « des chats = cats » dans la fiche « Avoir et être »). Au CP, on apprend des mots isolés avec leur article ; le pluriel régulier vient au CE1.
+- **Correction CP** (`server/outils_corrections/anglais_cp_singulier.py`) :
+  - avoir et être, décrire une image : « des pommes → apples » devient « une pomme → an apple » ; « j'ai deux pommes → I have two apples » devient « j'ai une pomme → I have an apple » ; « je vois deux canards » devient « je vois un canard → I see a duck ». Les mauvaises réponses sont converties de la même façon.
+  - mes goûts : les 32 questions « les pommes → apples », « les chats → cats »… archivées (le pluriel général « I like apples » ne peut pas se mettre au singulier) ; dans les autres questions, les mauvaises réponses au pluriel (« I like rabbits », « mice ») sont remplacées par des choix de la notion (couleurs, aliments).
+  - Pluriels gardés : les parties du corps (eyes, hands, feet…) et « scissors », appris comme des mots entiers.
+- **Autres anomalies vues en rangeant le vocabulaire** : « des souriss » (CE2, doublon de « des souris ») archivé ; « voler = fly » rangé dans les animaux CE1 et « forêt = forest » rangé dans « comparer » CM2 archivés (4 questions).
+- **Résultat** : 56 questions converties, 37 archivées. Anglais : 2 732 → 2 695 questions ; CP 449 → 417.
+- **Fiches CP** : exemples et astuces sans pluriel (« I have a cat », « I see a frog », « a = un, une ») ; les pluriels restent expliqués à partir du CE1.
+- Script : `server/correctifs_2026-10-03_anglais_cp_singulier.sql`.

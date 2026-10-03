@@ -1,0 +1,20 @@
+-- Fiche Les émotions (CP) - anglais, notion 'en_emotions'. Relancer ce script remplace le contenu de la fiche.
+insert into contenu_cours (classe, matiere, titre, contenu, statut, notion_id)
+select 'cp', 'english', 'Les émotions', $fiche$
+[titre]Dire comment je me sens[/titre]
+[cadre][b]I'm[/b] happy = je suis content(e).
+[b]I'm[/b] est la forme courte de [b]I am[/b].[/cadre]
+[cadre=astuce]En anglais, l'adjectif ne change pas pour une fille : I'm happy (garçon ou fille).[/cadre]
+[page]
+[titre]Les mots à connaître[/titre]
+[center][font_size=22][b][color=#classe]Comment je me sens[/color][/b][/font_size][/center]
+[table=4][cell bg=#classe border=#classe padding=10,4,10,4][center][color=white][b]français[/b][/color][/center][/cell][cell bg=#classe border=#classe padding=10,4,10,4][center][color=white][b]anglais[/b][/color][/center][/cell][cell bg=#classe border=#classe padding=10,4,10,4][center][color=white][b]français[/b][/color][/center][/cell][cell bg=#classe border=#classe padding=10,4,10,4][center][color=white][b]anglais[/b][/color][/center][/cell][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=18]apeuré[/font_size][/center][/cell][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=18][b]scared[/b][/font_size][/center][/cell][cell bg=#FFD49A border=#F2A541 padding=10,4,10,4][center][font_size=18]assoiffé[/font_size][/center][/cell][cell bg=#FFD49A border=#F2A541 padding=10,4,10,4][center][font_size=18][b]thirsty[/b][/font_size][/center][/cell][cell bg=#FFD49A border=#F2A541 padding=10,4,10,4][center][font_size=18]content[/font_size][/center][/cell][cell bg=#FFD49A border=#F2A541 padding=10,4,10,4][center][font_size=18][b]happy[/b][/font_size][/center][/cell][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=18]fâché[/font_size][/center][/cell][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=18][b]angry[/b][/font_size][/center][/cell][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=18]fatigué[/font_size][/center][/cell][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=18][b]tired[/b][/font_size][/center][/cell][cell bg=#FFD49A border=#F2A541 padding=10,4,10,4][center][font_size=18]triste[/font_size][/center][/cell][cell bg=#FFD49A border=#F2A541 padding=10,4,10,4][center][font_size=18][b]sad[/b][/font_size][/center][/cell][/table]
+[center][font_size=22][b][color=#classe]Des phrases modèles[/color][/b][/font_size][/center]
+[table=2][cell bg=#classe border=#classe padding=10,4,10,4][center][color=white][b]français[/b][/color][/center][/cell][cell bg=#classe border=#classe padding=10,4,10,4][center][color=white][b]anglais[/b][/color][/center][/cell][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=18]je suis content[/font_size][/center][/cell][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=18][b]I'm happy[/b][/font_size][/center][/cell][cell bg=#FFD49A border=#F2A541 padding=10,4,10,4][center][font_size=18]je suis triste[/font_size][/center][/cell][cell bg=#FFD49A border=#F2A541 padding=10,4,10,4][center][font_size=18][b]I'm sad[/b][/font_size][/center][/cell][/table]
+[page]
+[titre]Je retiens[/titre]
+[cadre]I'm = I am. L'adjectif ne change pas au féminin.[/cadre]
+$fiche$, 'publie', n.id from contenu_notions n where n.code = 'en_emotions'
+on conflict (notion_id, classe) where statut <> 'archive'
+do update set titre = excluded.titre, contenu = excluded.contenu, matiere = excluded.matiere, statut = 'publie', modifie_le = now()
+returning id, classe, titre, statut;

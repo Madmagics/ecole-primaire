@@ -1,0 +1,173 @@
+10010	ce2	fonctions	Dans la phrase "Le chat mange la souris.", quel est le sujet du verbe ?	Le chat	l'adjectif|le groupe nominal complément|le verbe
+10011	ce2	fonctions	Dans la phrase "Les enfants jouent dans le jardin.", quel est le sujet du verbe ?	Les enfants	l'adjectif|le verbe|le groupe nominal complément
+10012	ce2	fonctions	Dans la phrase "Ma mère prépare le repas.", quel est le sujet du verbe ?	Ma mère	le complément|le groupe nominal complément|l'adjectif
+10013	ce2	fonctions	Dans la phrase "Les oiseaux chantent le matin.", quel est le sujet du verbe ?	Les oiseaux	le complément|le groupe nominal complément|l'adjectif
+10014	ce2	fonctions	Dans la phrase "Le vent souffle fort.", quel est le sujet du verbe ?	Le vent	le verbe|l'adjectif|le groupe nominal complément
+10015	ce2	fonctions	Dans la phrase "Les élèves écoutent la maîtresse.", quel est le sujet du verbe ?	Les élèves	l'adjectif|le groupe nominal complément|le complément
+10016	ce2	fonctions	Dans la phrase "Mon frère lit un livre.", quel est le sujet du verbe ?	Mon frère	l'adjectif|le verbe|le groupe nominal complément
+10017	ce2	fonctions	Dans la phrase "La pluie tombe sur la ville.", quel est le sujet du verbe ?	La pluie	le complément|le groupe nominal complément|le verbe
+10018	ce2	fonctions	Dans la phrase "Les voitures roulent vite.", quel est le sujet du verbe ?	Les voitures	l'adjectif|le verbe|le groupe nominal complément
+10019	ce2	fonctions	Dans la phrase "Le soleil brille aujourd'hui.", quel est le sujet du verbe ?	Le soleil	le verbe|le complément|l'adjectif
+28000	ce1	singulier_pluriel	Quel est le pluriel de "bocal" ?	bocaux	bocals|bocas|bocalx
+28001	ce1	singulier_pluriel	Quel est le pluriel de "local" ?	locaux	locals|locas|localx
+28002	ce1	singulier_pluriel	Quel est le pluriel de "métal" ?	métaux	métals|métas|métalx
+28003	ce1	singulier_pluriel	Quel est le pluriel de "minéral" ?	minéraux	minérals|minéras|minéralx
+28004	ce1	singulier_pluriel	Quel est le pluriel de "végétal" ?	végétaux	végétals|végétas|végétalx
+28005	ce1	singulier_pluriel	Quel est le pluriel de "mal" ?	maux	mals|mas|malx
+28006	ce1	singulier_pluriel	Quel est le pluriel de "travail" ?	travaux	travails|travais|travailx
+28007	ce1	singulier_pluriel	Quel est le pluriel de "corail" ?	coraux	corails|corais|corailx
+28008	ce1	singulier_pluriel	Quel est le pluriel de "gaz" ?	gaz	gazs|gazes|gazx
+28009	ce1	singulier_pluriel	Quel est le pluriel de "radis" ?	radis	radiss|radises|radisx
+28010	ce1	singulier_pluriel	Quel est le pluriel de "avis" ?	avis	aviss|avises|avisx
+28011	ce1	singulier_pluriel	Quel est le pluriel de "repas" ?	repas	repass|repases|repasx
+28012	ce1	singulier_pluriel	Quel est le pluriel de "permis" ?	permis	permiss|permises|permisx
+28013	ce1	singulier_pluriel	Quel est le pluriel de "puits" ?	puits	puitss|puitses|puitsx
+28014	ce1	singulier_pluriel	Quel est le pluriel de "matelas" ?	matelas	matelass|matelases|matelasx
+28015	ce1	singulier_pluriel	Quel est le pluriel de "ours" ?	ours	ourss|ourses|oursx
+28016	ce1	singulier_pluriel	Quel est le pluriel de "dos" ?	dos	doss|doses|dosx
+28017	ce1	singulier_pluriel	Quel est le pluriel de "choix" ?	choix	choixs|choixes|choixx
+28783	ce1	singulier_pluriel	Quel est le pluriel de "corps" ?	corps	corpses|corpsx|corpss
+28784	ce1	singulier_pluriel	Quel est le pluriel de "musicien" ?	musiciens	musicienx|musicien|musicienes
+28785	ce1	singulier_pluriel	Quel est le pluriel de "médaille" ?	médailles	médaillex|médaille|médaillees
+28786	ce1	singulier_pluriel	Quel est le pluriel de "photographe" ?	photographes	photographex|photographe|photographees
+28787	ce1	singulier_pluriel	Quel est le pluriel de "satellite" ?	satellites	satellite|satellitees|satellitex
+28788	ce1	singulier_pluriel	Quel est le pluriel de "niveau" ?	niveaux	niveaus|niveau|niveaues
+28789	ce1	singulier_pluriel	Quel est le pluriel de "robinet" ?	robinets	robinetx|robinet|robinetes
+28790	ce1	singulier_pluriel	Quel est le pluriel de "planète" ?	planètes	planètex|planètees|planète
+28791	ce1	singulier_pluriel	Quel est le pluriel de "boulanger" ?	boulangers	boulanger|boulangerx|boulangeres
+28792	ce1	singulier_pluriel	Quel est le pluriel de "trousse" ?	trousses	troussees|troussex|trousse
+28793	ce1	singulier_pluriel	Quel est le pluriel de "panneau" ?	panneaux	panneaus|panneau|panneaues
+28794	ce1	singulier_pluriel	Quel est le pluriel de "canapé" ?	canapés	canapéx|canapées|canapé
+28795	ce1	singulier_pluriel	Quel est le pluriel de "secours" ?	secours	secourses|secoursx|secourss
+28796	ce1	singulier_pluriel	Quel est le pluriel de "escalier" ?	escaliers	escalieres|escalier|escalierx
+28797	ce1	singulier_pluriel	Quel est le pluriel de "morceau" ?	morceaux	morceau|morceaus|morceaues
+28798	ce1	singulier_pluriel	Quel est le pluriel de "succès" ?	succès	succèsx|succèss|succèses
+28799	ce1	singulier_pluriel	Quel est le pluriel de "balcon" ?	balcons	balcones|balcon|balconx
+28800	ce1	singulier_pluriel	Quel est le pluriel de "roseau" ?	roseaux	roseaus|roseau|roseaues
+28801	ce1	singulier_pluriel	Quel est le pluriel de "fantôme" ?	fantômes	fantômex|fantôme|fantômees
+28802	ce1	singulier_pluriel	Quel est le pluriel de "carreau" ?	carreaux	carreaues|carreau|carreaus
+28803	ce1	singulier_pluriel	Quel est le pluriel de "serveur" ?	serveurs	serveures|serveurx|serveur
+28804	ce1	singulier_pluriel	Quel est le pluriel de "facteur" ?	facteurs	facteur|facteures|facteurx
+28805	ce1	singulier_pluriel	Quel est le pluriel de "oiseau" ?	oiseaux	oiseau|oiseaus|oiseaues
+28806	ce1	singulier_pluriel	Quel est le pluriel de "boussole" ?	boussoles	boussolees|boussolex|boussole
+28807	ce1	singulier_pluriel	Quel est le pluriel de "peigne" ?	peignes	peignees|peigne|peignex
+28808	ce1	singulier_pluriel	Quel est le pluriel de "lutin" ?	lutins	lutin|lutines|lutinx
+28809	ce1	singulier_pluriel	Quel est le pluriel de "peintre" ?	peintres	peintrex|peintrees|peintre
+28810	ce1	singulier_pluriel	Quel est le pluriel de "toit" ?	toits	toites|toitx|toit
+28811	ce1	singulier_pluriel	Quel est le pluriel de "fauteuil" ?	fauteuils	fauteuilx|fauteuiles|fauteuil
+28812	ce1	singulier_pluriel	Quel est le pluriel de "dragon" ?	dragons	dragones|dragon|dragonx
+28813	ce1	singulier_pluriel	Quel est le pluriel de "robot" ?	robots	robotes|robotx|robot
+28814	ce1	singulier_pluriel	Quel est le pluriel de "fusée" ?	fusées	fuséex|fusée|fuséees
+28815	ce1	singulier_pluriel	Quel est le pluriel de "réseau" ?	réseaux	réseau|réseaus|réseaues
+28816	ce1	singulier_pluriel	Quel est le pluriel de "trophée" ?	trophées	trophéex|trophéees|trophée
+28817	ce1	singulier_pluriel	Quel est le pluriel de "savon" ?	savons	savones|savon|savonx
+28818	ce1	singulier_pluriel	Quel est le pluriel de "caissier" ?	caissiers	caissieres|caissierx|caissier
+28819	ce1	singulier_pluriel	Quel est le pluriel de "refus" ?	refus	refuses|refuss|refusx
+28820	ce1	singulier_pluriel	Quel est le pluriel de "drapeau" ?	drapeaux	drapeaus|drapeau|drapeaues
+28821	ce1	singulier_pluriel	Quel est le pluriel de "chevalier" ?	chevaliers	chevalieres|chevalierx|chevalier
+28822	ce1	singulier_pluriel	Quel est le pluriel de "cartable" ?	cartables	cartable|cartablex|cartablees
+31043	ce2	fonctions	Dans la phrase "Mon père travaille dur.", quel est le sujet du verbe ?	Mon père	l'adjectif|le verbe|le complément
+31044	ce2	fonctions	Dans la phrase "La maîtresse explique la leçon.", quel est le sujet du verbe ?	La maîtresse	l'adjectif|le verbe|le complément
+31045	ce2	fonctions	Dans la phrase "Les chiens aboient fort.", quel est le sujet du verbe ?	Les chiens	l'adjectif|le verbe|le complément
+31046	ce2	fonctions	Dans la phrase "Le facteur distribue le courrier.", quel est le sujet du verbe ?	Le facteur	l'adjectif|le verbe|le complément
+31047	ce2	fonctions	Dans la phrase "Les fleurs poussent au printemps.", quel est le sujet du verbe ?	Les fleurs	l'adjectif|le verbe|le complément
+31048	ce2	fonctions	Dans la phrase "Le fermier cultive son champ.", quel est le sujet du verbe ?	Le fermier	l'adjectif|le verbe|le complément
+31049	ce2	fonctions	Dans la phrase "Les nuages cachent le soleil.", quel est le sujet du verbe ?	Les nuages	l'adjectif|le verbe|le complément
+31050	ce2	fonctions	Dans la phrase "La rivière coule doucement.", quel est le sujet du verbe ?	La rivière	l'adjectif|le verbe|le complément
+31051	ce2	fonctions	Dans la phrase "Le vélo roule vite.", quel est le sujet du verbe ?	Le vélo	l'adjectif|le verbe|le complément
+31052	ce2	fonctions	Dans la phrase "Les avions décollent à midi.", quel est le sujet du verbe ?	Les avions	l'adjectif|le verbe|le complément
+31053	ce2	fonctions	Dans la phrase "Le train arrive en retard.", quel est le sujet du verbe ?	Le train	l'adjectif|le verbe|le complément
+31054	ce2	fonctions	Dans la phrase "Ma soeur dessine un chat.", quel est le sujet du verbe ?	Ma soeur	l'adjectif|le verbe|le complément
+31055	ce2	fonctions	Dans la phrase "Les poissons nagent dans l'étang.", quel est le sujet du verbe ?	Les poissons	l'adjectif|le verbe|le complément
+31056	ce2	fonctions	Dans la phrase "Le jardinier plante des fleurs.", quel est le sujet du verbe ?	Le jardinier	l'adjectif|le verbe|le complément
+31057	ce2	fonctions	Dans la phrase "Les abeilles butinent les fleurs.", quel est le sujet du verbe ?	Les abeilles	l'adjectif|le verbe|le complément
+31058	ce2	fonctions	Dans la phrase "Le boulanger vend du pain.", quel est le sujet du verbe ?	Le boulanger	l'adjectif|le verbe|le complément
+31059	ce2	fonctions	Dans la phrase "La neige tombe en hiver.", quel est le sujet du verbe ?	La neige	l'adjectif|le verbe|le complément
+31060	ce2	fonctions	Dans la phrase "Les feuilles tombent en automne.", quel est le sujet du verbe ?	Les feuilles	l'adjectif|le verbe|le complément
+31061	ce2	fonctions	Dans la phrase "Le bateau navigue sur le lac.", quel est le sujet du verbe ?	Le bateau	l'adjectif|le verbe|le complément
+31062	ce2	fonctions	Dans la phrase "Les étoiles brillent la nuit.", quel est le sujet du verbe ?	Les étoiles	l'adjectif|le verbe|le complément
+31208	ce2	fonctions	Dans la phrase "Le renard court dans la forêt.", quel est le sujet du verbe ?	Le renard	l'adjectif|le verbe|le complément
+31209	ce2	fonctions	Dans la phrase "La biche broute l'herbe.", quel est le sujet du verbe ?	La biche	l'adjectif|le verbe|le complément
+31210	ce2	fonctions	Dans la phrase "Les lapins creusent un terrier.", quel est le sujet du verbe ?	Les lapins	l'adjectif|le verbe|le complément
+31211	ce2	fonctions	Dans la phrase "Mon cousin répare son vélo.", quel est le sujet du verbe ?	Mon cousin	l'adjectif|le verbe|le complément
+31212	ce2	fonctions	Dans la phrase "Ma cousine lit un magazine.", quel est le sujet du verbe ?	Ma cousine	l'adjectif|le verbe|le complément
+31213	ce2	fonctions	Dans la phrase "Les pêcheurs attrapent des poissons.", quel est le sujet du verbe ?	Les pêcheurs	l'adjectif|le verbe|le complément
+31214	ce2	fonctions	Dans la phrase "Le boulanger vend des croissants.", quel est le sujet du verbe ?	Le boulanger	l'adjectif|le verbe|le complément
+31215	ce2	fonctions	Dans la phrase "La fleuriste vend des bouquets.", quel est le sujet du verbe ?	La fleuriste	l'adjectif|le verbe|le complément
+31216	ce2	fonctions	Dans la phrase "Les tortues nagent lentement.", quel est le sujet du verbe ?	Les tortues	l'adjectif|le verbe|le complément
+31217	ce2	fonctions	Dans la phrase "Le dauphin saute hors de l'eau.", quel est le sujet du verbe ?	Le dauphin	l'adjectif|le verbe|le complément
+31218	ce2	fonctions	Dans la phrase "Les fourmis transportent des graines.", quel est le sujet du verbe ?	Les fourmis	l'adjectif|le verbe|le complément
+31219	ce2	fonctions	Dans la phrase "La coccinelle vole de fleur en fleur.", quel est le sujet du verbe ?	La coccinelle	l'adjectif|le verbe|le complément
+31220	ce2	fonctions	Dans la phrase "Le loup hurle la nuit.", quel est le sujet du verbe ?	Le loup	l'adjectif|le verbe|le complément
+31221	ce2	fonctions	Dans la phrase "Les moutons broutent dans le pré.", quel est le sujet du verbe ?	Les moutons	l'adjectif|le verbe|le complément
+31222	ce2	fonctions	Dans la phrase "La chèvre broute l'herbe du pré.", quel est le sujet du verbe ?	La chèvre	l'adjectif|le verbe|le complément
+31223	ce2	fonctions	Dans la phrase "Le berger garde le troupeau.", quel est le sujet du verbe ?	Le berger	l'adjectif|le verbe|le complément
+31224	ce2	fonctions	Dans la phrase "La libellule vole doucement.", quel est le sujet du verbe ?	La libellule	l'adjectif|le verbe|le complément
+31225	ce2	fonctions	Dans la phrase "Le hérisson se cache sous les feuilles.", quel est le sujet du verbe ?	Le hérisson	l'adjectif|le verbe|le complément
+31226	ce2	fonctions	Dans la phrase "Les papillons volent au-dessus du jardin.", quel est le sujet du verbe ?	Les papillons	l'adjectif|le verbe|le complément
+31227	ce2	fonctions	Dans la phrase "Le jardinier plante des légumes.", quel est le sujet du verbe ?	Le jardinier	l'adjectif|le verbe|le complément
+31228	ce2	fonctions	Dans la phrase "La cuisinière prépare le dîner.", quel est le sujet du verbe ?	La cuisinière	l'adjectif|le verbe|le complément
+31229	ce2	fonctions	Dans la phrase "Les musiciens jouent une mélodie.", quel est le sujet du verbe ?	Les musiciens	l'adjectif|le verbe|le complément
+31230	ce2	fonctions	Dans la phrase "Le peintre peint un tableau.", quel est le sujet du verbe ?	Le peintre	l'adjectif|le verbe|le complément
+31231	ce2	fonctions	Dans la phrase "La danseuse danse sur scène.", quel est le sujet du verbe ?	La danseuse	l'adjectif|le verbe|le complément
+31232	ce2	fonctions	Dans la phrase "Les chanteurs chantent en choeur.", quel est le sujet du verbe ?	Les chanteurs	l'adjectif|le verbe|le complément
+31233	ce2	fonctions	Dans la phrase "Le sportif court le marathon.", quel est le sujet du verbe ?	Le sportif	l'adjectif|le verbe|le complément
+31234	ce2	fonctions	Dans la phrase "La nageuse nage dans la piscine.", quel est le sujet du verbe ?	La nageuse	l'adjectif|le verbe|le complément
+31235	ce2	fonctions	Dans la phrase "Les cyclistes roulent vite.", quel est le sujet du verbe ?	Les cyclistes	l'adjectif|le verbe|le complément
+31236	ce2	fonctions	Dans la phrase "Le coureur gagne la course.", quel est le sujet du verbe ?	Le coureur	l'adjectif|le verbe|le complément
+31772	ce2	fonctions	Dans la phrase "Les élèves rangent leurs cahiers.", quel est le sujet du verbe ?	Les élèves	l'adjectif|le verbe|le complément
+31773	ce2	fonctions	Dans la phrase "Le boucher coupe la viande.", quel est le sujet du verbe ?	Le boucher	l'adjectif|le verbe|le complément
+31774	ce2	fonctions	Dans la phrase "Le pâtissier prépare des croissants.", quel est le sujet du verbe ?	Le pâtissier	l'adjectif|le verbe|le complément
+31775	ce2	fonctions	Dans la phrase "La coccinelle grimpe sur la tige.", quel est le sujet du verbe ?	La coccinelle	l'adjectif|le verbe|le complément
+31776	ce2	fonctions	Dans la phrase "Les truites nagent dans le ruisseau.", quel est le sujet du verbe ?	Les truites	l'adjectif|le verbe|le complément
+31777	ce2	fonctions	Dans la phrase "Le dragon garde le trésor.", quel est le sujet du verbe ?	Le dragon	l'adjectif|le verbe|le complément
+31778	ce2	fonctions	Dans la phrase "Le bus s'arrête devant l'école.", quel est le sujet du verbe ?	Le bus	l'adjectif|le verbe|le complément
+31779	ce2	fonctions	Dans la phrase "Le pompier éteint l'incendie.", quel est le sujet du verbe ?	Le pompier	l'adjectif|le verbe|le complément
+31780	ce2	fonctions	Dans la phrase "Le paysan laboure son champ.", quel est le sujet du verbe ?	Le paysan	l'adjectif|le verbe|le complément
+31781	ce2	fonctions	Dans la phrase "Les castors construisent un barrage.", quel est le sujet du verbe ?	Les castors	l'adjectif|le verbe|le complément
+31782	ce2	fonctions	Dans la phrase "Les nuages annoncent la pluie.", quel est le sujet du verbe ?	Les nuages	l'adjectif|le verbe|le complément
+31783	ce2	fonctions	Dans la phrase "La brume recouvre la vallée.", quel est le sujet du verbe ?	La brume	l'adjectif|le verbe|le complément
+31784	ce2	fonctions	Dans la phrase "Les phoques plongent dans l'eau glacée.", quel est le sujet du verbe ?	Les phoques	l'adjectif|le verbe|le complément
+31785	ce2	fonctions	Dans la phrase "Le chat miaule devant la porte.", quel est le sujet du verbe ?	Le chat	l'adjectif|le verbe|le complément
+31786	ce2	fonctions	Dans la phrase "Les cigognes reviennent chaque année.", quel est le sujet du verbe ?	Les cigognes	l'adjectif|le verbe|le complément
+31787	ce2	fonctions	Dans la phrase "Les fourmis transportent une feuille.", quel est le sujet du verbe ?	Les fourmis	l'adjectif|le verbe|le complément
+31788	ce2	fonctions	Dans la phrase "Le vent agite les branches.", quel est le sujet du verbe ?	Le vent	l'adjectif|le verbe|le complément
+31789	ce2	fonctions	Dans la phrase "Les abeilles retournent à la ruche.", quel est le sujet du verbe ?	Les abeilles	l'adjectif|le verbe|le complément
+31790	ce2	fonctions	Dans la phrase "Le professeur explique la leçon.", quel est le sujet du verbe ?	Le professeur	l'adjectif|le verbe|le complément
+31791	ce2	fonctions	Dans la phrase "Le facteur sonne à la porte.", quel est le sujet du verbe ?	Le facteur	l'adjectif|le verbe|le complément
+31792	ce2	fonctions	Dans la phrase "Le berger guide son troupeau.", quel est le sujet du verbe ?	Le berger	l'adjectif|le verbe|le complément
+31793	ce2	fonctions	Dans la phrase "Les hérissons se cachent sous les feuilles.", quel est le sujet du verbe ?	Les hérissons	l'adjectif|le verbe|le complément
+31794	ce2	fonctions	Dans la phrase "Les feuilles jaunissent en automne.", quel est le sujet du verbe ?	Les feuilles	l'adjectif|le verbe|le complément
+31795	ce2	fonctions	Dans la phrase "Les randonneurs traversent le pont.", quel est le sujet du verbe ?	Les randonneurs	l'adjectif|le verbe|le complément
+31796	ce2	fonctions	Dans la phrase "Les sirènes chantent dans la mer.", quel est le sujet du verbe ?	Les sirènes	l'adjectif|le verbe|le complément
+31797	ce2	fonctions	Dans la phrase "Le magicien réalise un tour.", quel est le sujet du verbe ?	Le magicien	l'adjectif|le verbe|le complément
+31798	ce2	fonctions	Dans la phrase "Le hibou chasse la nuit.", quel est le sujet du verbe ?	Le hibou	l'adjectif|le verbe|le complément
+31799	ce2	fonctions	Dans la phrase "Le prince libère la princesse.", quel est le sujet du verbe ?	Le prince	l'adjectif|le verbe|le complément
+31800	ce2	fonctions	Dans la phrase "La sorcière prépare une potion.", quel est le sujet du verbe ?	La sorcière	l'adjectif|le verbe|le complément
+31801	ce2	fonctions	Dans la phrase "Les explorateurs traversent le désert.", quel est le sujet du verbe ?	Les explorateurs	l'adjectif|le verbe|le complément
+31802	ce2	fonctions	Dans la phrase "Le clown fait rire les enfants.", quel est le sujet du verbe ?	Le clown	l'adjectif|le verbe|le complément
+31803	ce2	fonctions	Dans la phrase "Le vieux chêne perd ses feuilles.", quel est le sujet du verbe ?	Le vieux chêne	l'adjectif|le verbe|le complément
+31804	ce2	fonctions	Dans la phrase "Le chevalier porte une armure.", quel est le sujet du verbe ?	Le chevalier	l'adjectif|le verbe|le complément
+31805	ce2	fonctions	Dans la phrase "Les moineaux picorent des graines.", quel est le sujet du verbe ?	Les moineaux	l'adjectif|le verbe|le complément
+31806	ce2	fonctions	Dans la phrase "Ma tante peint un tableau.", quel est le sujet du verbe ?	Ma tante	l'adjectif|le verbe|le complément
+31807	ce2	fonctions	Dans la phrase "Les castors rongent le tronc.", quel est le sujet du verbe ?	Les castors	l'adjectif|le verbe|le complément
+31808	ce2	fonctions	Dans la phrase "La reine dirige son royaume.", quel est le sujet du verbe ?	La reine	l'adjectif|le verbe|le complément
+31809	ce2	fonctions	Dans la phrase "Le champion lève la coupe.", quel est le sujet du verbe ?	Le champion	l'adjectif|le verbe|le complément
+100067	ce1	singulier_pluriel	Quel est le pluriel de "canal" ?	canaux	canals|canales|canaus
+100068	ce1	singulier_pluriel	Quel est le pluriel de "général" ?	généraux	générals|générales|généraus
+100069	ce1	singulier_pluriel	Quel est le pluriel de "hôpital" ?	hôpitaux	hôpitals|hôpitales|hôpitaus
+100070	ce1	singulier_pluriel	Quel est le pluriel de "tribunal" ?	tribunaux	tribunals|tribunales|tribunaus
+100071	ce1	singulier_pluriel	Quel est le pluriel de "cheval" ?	chevaux	chevals|chevales|chevaus
+100072	ce1	singulier_pluriel	Quel est le pluriel de "journal" ?	journaux	journals|journales|journaus
+100073	ce1	singulier_pluriel	Quel est le pluriel de "animal" ?	animaux	animals|animales|animaus
+100074	ce1	singulier_pluriel	Quel est le pluriel de "signal" ?	signaux	signals|signales|signaus
+100075	ce1	singulier_pluriel	Quel est le pluriel de "bras" ?	bras	brass|brases|brasx
+100076	ce1	singulier_pluriel	Quel est le pluriel de "souris" ?	souris	souriss|sourises|sourisx
+100077	ce1	singulier_pluriel	Quel est le pluriel de "tapis" ?	tapis	tapiss|tapises|tapisx
+100078	ce1	singulier_pluriel	Quel est le pluriel de "croix" ?	croix	croixs|croixes|croixx
+100079	ce1	singulier_pluriel	Quel est le pluriel de "voix" ?	voix	voixs|voixes|voixx
+100080	ce1	singulier_pluriel	Quel est le pluriel de "fils" ?	fils	filss|filses|filsx
+100081	ce1	singulier_pluriel	Quel est le pluriel de "pays" ?	pays	payss|payses|paysx
+100082	ce1	singulier_pluriel	Quel est le pluriel de "nez" ?	nez	nezs|nezes|nezx
+100083	ce1	singulier_pluriel	Quel est le pluriel de "temps" ?	temps	tempss|tempses|tempsx
+100084	ce1	singulier_pluriel	Quel est le pluriel de "prix" ?	prix	prixs|prixes|prixx
