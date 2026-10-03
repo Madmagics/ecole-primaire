@@ -20,8 +20,8 @@ const Grade = GradeLevel.Grade
 const _FRAME_THICKNESS := 4.0
 const _FRAME_CORNER_RADIUS := 16
 const _DISABLED_ALPHA := 0.4
-## Nombre de lignes de notions qui tiennent dans la fenetre (boutons de 40 px + marges).
-const _MAX_ROWS := 7
+## Nombre de notions au-dela duquel la liste passe de 2 a 3 colonnes (5 lignes de 2 au plus).
+const _MAX_NOTIONS_2_COLONNES := 10
 
 ## Bouton de la colonne a cloner pour l'icone de titre - assigne dans game_ui.tscn.
 @export var title_icon_source_path: NodePath
@@ -163,10 +163,10 @@ func _show_notions(subject: Subject) -> void:
 	for fiche: Dictionary in ContentLibrary.get_fiches(_grade, subject):
 		fiches_by_notion[str(fiche.get("notion", ""))] = fiche
 	var notions := ContentLibrary.get_notions(_grade, subject)
-	# 2 colonnes tiennent jusqu'a 7 lignes (14 notions) dans la fenetre ; au-dela, 3 colonnes plus
-	# etroites (2026-10-03, demande Steve) : sinon la 8e ligne deborde sous le cadre.
-	notion_grid.columns = 3 if notions.size() > _MAX_ROWS * 2 else 2
-	var width := 250.0 if notion_grid.columns == 3 else 360.0
+	# Au-dela de 10 notions (5 lignes), 3 colonnes plus etroites (2026-10-03, demande Steve) :
+	# en 2 colonnes, la 6e ligne sortait du cadre des qu'un libelle passait sur 2 lignes (CM2).
+	notion_grid.columns = 3 if notions.size() > _MAX_NOTIONS_2_COLONNES else 2
+	var width := 300.0 if notion_grid.columns == 3 else 360.0
 	for notion: Dictionary in notions:
 		var code := str(notion.get("code", ""))
 		var frame := _colored_frame(SubjectType.get_color(subject), str(notion.get("libelle", code)), Vector2(width, 40))
