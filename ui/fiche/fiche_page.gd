@@ -4,18 +4,25 @@
 ##   [titre]...[/titre]                 -> titre de la page, couleur de la classe
 ##   [cadre]...[/cadre]                 -> encadre "a retenir"
 ##   [cadre=astuce]...[/cadre]          -> encadre "Astuce"
-##   [billes ...] [file ...] [cubes ...] [cases ...] [paires ...] [formes ...] [grille ...] [tarte ...] [rect ...] seules sur leur ligne -> FicheDessin
+##   [billes ...] [file ...] [cubes ...] [cases ...] [paires ...] [formes ...] [grille ...] [tarte ...] [rect ...] [potence ...] [pave ...] [droite ...] seules sur leur ligne -> FicheDessin
 ##   [table=N]...[/table] seul sur sa ligne -> tableau Godot natif, centre
 ## Tout le reste est du texte BBCode affiche dans un RichTextLabel.
 ## Jetons de couleur utilisables dans le BBCode (remplaces avant affichage, pour qu'une meme
 ## ecriture marche pour toutes les classes) : #classe, #classe_clair, #unites, #unites_clair,
-## #centaines, #centaines_clair (2026-10-01, CE1 : couleur de classe assombrie, comme les plaques).
+## #centaines, #centaines_clair (2026-10-01, CE1 : couleur de classe assombrie, comme les plaques),
+## #milliers, #milliers_clair (2026-10-01, CE2 : colonne M),
+## #dixiemes, #centiemes, #milliemes (+ _clair) (2026-10-03, CM1-CM2 : chiffres apres la virgule,
+## memes couleurs dans toutes les classes).
 class_name FichePage
 extends RefCounted
 
 const INK := Color("3b2a1e")
 const UNITES := Color("F2A541")
 const ASTUCE := Color("E08A1E")
+## Colonnes apres la virgule (2026-10-03) : couleurs fixes, distinctes du violet CM1 et du rouge CM2.
+const DIXIEMES := Color("26A69A")
+const CENTIEMES := Color("4E7FD0")
+const MILLIEMES := Color("7CB342")
 const BODY_SIZE := 22
 const TITLE_SIZE := 30
 
@@ -29,13 +36,33 @@ static func title_color(classe: Color) -> Color:
 static func light_color(classe: Color) -> Color:
 	return classe.lerp(Color.WHITE, 0.82)
 
+## Couleur de classe utilisee pour les jetons des tableaux (2026-10-01, CE2) : une couleur trop
+## claire (le jaune CE2) est assombrie pour que le texte blanc des en-tetes C/D/U reste lisible.
+## Les autres classes gardent leur couleur telle quelle.
+static func token_color(classe: Color) -> Color:
+	return classe.darkened(0.3) if is_light(classe) else classe
+
+## Vrai pour une couleur de classe trop claire sur le papier creme (seulement le jaune CE2).
+static func is_light(classe: Color) -> bool:
+	return classe.get_luminance() > 0.7
+
 ## Remplace les jetons de couleur par les vraies couleurs de la classe.
+## #milliers / #milliers_clair (2026-10-01) : colonne M des nombres a 4 chiffres (CE2+).
 static func apply_color_tokens(text: String, classe: Color) -> String:
+	var base := token_color(classe)
 	return text \
-		.replace("#centaines_clair", "#" + light_color(classe.darkened(0.2)).to_html(false)) \
-		.replace("#centaines", "#" + classe.darkened(0.2).to_html(false)) \
-		.replace("#classe_clair", "#" + light_color(classe).to_html(false)) \
-		.replace("#classe", "#" + classe.to_html(false)) \
+		.replace("#dixiemes_clair", "#" + DIXIEMES.lerp(Color.WHITE, 0.8).to_html(false)) \
+		.replace("#dixiemes", "#" + DIXIEMES.to_html(false)) \
+		.replace("#centiemes_clair", "#" + CENTIEMES.lerp(Color.WHITE, 0.8).to_html(false)) \
+		.replace("#centiemes", "#" + CENTIEMES.to_html(false)) \
+		.replace("#milliemes_clair", "#" + MILLIEMES.lerp(Color.WHITE, 0.8).to_html(false)) \
+		.replace("#milliemes", "#" + MILLIEMES.to_html(false)) \
+		.replace("#milliers_clair", "#" + light_color(base.darkened(0.4)).to_html(false)) \
+		.replace("#milliers", "#" + base.darkened(0.4).to_html(false)) \
+		.replace("#centaines_clair", "#" + light_color(base.darkened(0.2)).to_html(false)) \
+		.replace("#centaines", "#" + base.darkened(0.2).to_html(false)) \
+		.replace("#classe_clair", "#" + light_color(base).to_html(false)) \
+		.replace("#classe", "#" + base.to_html(false)) \
 		.replace("#unites_clair", "#" + UNITES.lerp(Color.WHITE, 0.8).to_html(false)) \
 		.replace("#unites", "#" + UNITES.to_html(false))
 
@@ -45,7 +72,7 @@ static func build(page_text: String, classe: Color, bold_font: Font) -> VBoxCont
 		_block_regex.compile(
 			"(?ms)\\[titre\\](.*?)\\[/titre\\]"
 			+ "|\\[cadre(?:=(\\w+))?\\](.*?)\\[/cadre\\]"
-			+ "|^[ \\t]*\\[(billes|file|cubes|cases|paires|formes|grille|tarte|rect)((?: [^\\]]*)?)\\][ \\t]*$"
+			+ "|^[ \\t]*\\[(billes|file|cubes|cases|paires|formes|grille|tarte|rect|potence|pave|droite)((?: [^\\]]*)?)\\][ \\t]*$"
 			+ "|^[ \\t]*(\\[table=.*?\\[/table\\])[ \\t]*$")
 	var text := apply_color_tokens(page_text, classe)
 	var root := VBoxContainer.new()

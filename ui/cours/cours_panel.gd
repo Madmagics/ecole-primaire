@@ -20,6 +20,8 @@ const Grade = GradeLevel.Grade
 const _FRAME_THICKNESS := 4.0
 const _FRAME_CORNER_RADIUS := 16
 const _DISABLED_ALPHA := 0.4
+## Nombre de lignes de notions qui tiennent dans la fenetre (boutons de 40 px + marges).
+const _MAX_ROWS := 7
 
 ## Bouton de la colonne a cloner pour l'icone de titre - assigne dans game_ui.tscn.
 @export var title_icon_source_path: NodePath
@@ -114,6 +116,9 @@ func _show_subjects() -> void:
 	for child in subject_grid.get_children():
 		child.queue_free()
 	var subjects := ContentLibrary.get_available_subjects(_grade)
+	# Pas de fiches pour la Lecture (2026-10-01, choix de Steve) : les questions portent sur un
+	# texte precis, rien a revoir dans une fiche -> matiere masquee du livre de cours.
+	subjects.erase(Subject.READING)
 	subject_grid.columns = 2 if subjects.size() >= 5 else 1
 	for subject: Subject in subjects:
 		var has_fiche := not ContentLibrary.get_fiches(_grade, subject).is_empty()
@@ -158,7 +163,9 @@ func _show_notions(subject: Subject) -> void:
 	for fiche: Dictionary in ContentLibrary.get_fiches(_grade, subject):
 		fiches_by_notion[str(fiche.get("notion", ""))] = fiche
 	var notions := ContentLibrary.get_notions(_grade, subject)
-	notion_grid.columns = 3 if notions.size() > 16 else 2
+	# 2 colonnes tiennent jusqu'a 7 lignes (14 notions) dans la fenetre ; au-dela, 3 colonnes plus
+	# etroites (2026-10-03, demande Steve) : sinon la 8e ligne deborde sous le cadre.
+	notion_grid.columns = 3 if notions.size() > _MAX_ROWS * 2 else 2
 	var width := 250.0 if notion_grid.columns == 3 else 360.0
 	for notion: Dictionary in notions:
 		var code := str(notion.get("code", ""))

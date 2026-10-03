@@ -128,11 +128,18 @@ func _draw_dots() -> void:
 	var count := _pages.size()
 	if count <= 1:
 		return
+	# CE2 (jaune, couleur trop claire) : point actif orange et autres points beige, sinon
+	# invisibles sur le papier creme (2026-10-01). Les autres classes gardent leur couleur.
+	var active_color := _classe_color
+	var other_color := _classe_color.lerp(Color.WHITE, 0.6)
+	if FichePage.is_light(_classe_color):
+		active_color = FichePage.UNITES.darkened(0.15)
+		other_color = PAPER_BORDER.lerp(PAPER, 0.6)
 	var spacing := 22.0
 	var start := (page_dots.size.x - (count - 1) * spacing) / 2.0
 	for i: int in count:
 		var center := Vector2(start + i * spacing, page_dots.size.y / 2.0)
 		if i == _index:
-			page_dots.draw_circle(center, 7.0, _classe_color)
+			page_dots.draw_circle(center, 7.0, active_color)
 		else:
-			page_dots.draw_circle(center, 5.0, _classe_color.lerp(Color.WHITE, 0.6))
+			page_dots.draw_circle(center, 5.0, other_color)

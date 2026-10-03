@@ -24,6 +24,16 @@
 ##   [grille lignes=3 colonnes=5]                        -> quadrillage (multiplication 3 x 5)
 ##   [tarte parts=2,3,4 colorees=1 noms=oui]             -> tartes coupees en parts egales
 ##   [rect long=10 larg=6 unite=cm]                      -> rectangle avec la longueur de ses cotes
+## Maths CM1-CM2 (2026-10-03) :
+##   [tarte parts=2,4 colorees=1,2]                      -> nombre de parts colorees par tarte
+##   [grille lignes=10 colonnes=10 case=18 colorees=25]  -> petites cases, les 25 premieres colorees
+##   [grille lignes=4 colonnes=6 forme=6,6,3,3]          -> nombre de cases par ligne (figure en L)
+##   [potence dividende=293 diviseur=6]                  -> division posee "en potence", etapes
+##                                                          calculees ici (quotient + reste)
+##   [pave long=4 larg=3 haut=2 unite=cm]                -> pave droit en petits cubes (volume)
+##   [droite de=0 a=2 parts=8 points=3,5 noms=fraction]  -> droite graduee entre deux entiers,
+##                                                          "parts" = graduations ; noms=decimal
+##                                                          ecrit 0,3 au lieu de 3/10
 ## Les couleurs "classe" suivent le code couleur de la classe (GradeLevel.get_color).
 class_name FicheDessin
 extends Control
@@ -101,7 +111,7 @@ func _compute_min_size() -> Vector2:
 		"cubes":
 			return Vector2(_cubes_width(), 10 * CUBE + 32.0)
 		"grille":
-			return Vector2(int(params.get("colonnes", 5)) * GRILLE, int(params.get("lignes", 3)) * GRILLE + 4.0)
+			return Vector2(int(params.get("colonnes", 5)) * _grille_case(), int(params.get("lignes", 3)) * _grille_case() + 4.0)
 		"tarte":
 			var n_tartes := _ints("parts").size()
 			var h_tarte := TARTE_R * 2.0 + 8.0 + (30.0 if str(params.get("noms", "")) == "oui" else 0.0)
@@ -115,6 +125,12 @@ func _compute_min_size() -> Vector2:
 		"paires":
 			var cols := ceili(int(params.get("n", 0)) / 2.0)
 			return Vector2(cols * _paire_col_w(), 2.0 * (BILLE_R * 2.0 + BILLE_GAP) + 22.0)
+		"potence":
+			return _potence_size()
+		"pave":
+			return _pave_size()
+		"droite":
+			return Vector2(560, 112)
 		"formes":
 			var count := _formes_liste().size()
 			var h := FORME + 34.0 + (26.0 if str(params.get("cotes", "")) == "oui" else 0.0)
@@ -232,6 +248,12 @@ func _draw() -> void:
 			_draw_tarte()
 		"rect":
 			_draw_rect()
+		"potence":
+			_draw_potence()
+		"pave":
+			_draw_pave()
+		"droite":
+			_draw_droite()
 
 func _font() -> Font:
 	return get_theme_default_font()
@@ -316,6 +338,8 @@ func _draw_file() -> void:
 	var to := int(params.get("a", 10))
 	# "pas" : une graduation tous les pas (de 10 en 10, de 100 en 100...)
 	var pas := maxi(1, int(params.get("pas", 1)))
+	## Division entiere volontaire : nombre de graduations entier.
+	@warning_ignore("integer_division")
 	var count := maxi(1, (to - from) / pas)
 	var margin := 20.0
 	var step := minf(56.0 if pas == 1 else 84.0, (size.x - margin * 2.0) / count)
@@ -521,26 +545,48 @@ func _draw_formes() -> void:
 func _draw_grille() -> void:
 	var lignes := int(params.get("lignes", 3))
 	var colonnes := int(params.get("colonnes", 5))
-	var x0 := (size.x - colonnes * GRILLE) / 2.0
+	var cote := _grille_case()
+	var x0 := (size.x - colonnes * cote) / 2.0
 	var fill := classe_color.lerp(Color.WHITE, 0.45)
+	# CM (2026-10-03) : "forme" = nombre de cases de chaque ligne (figure en L pour l'aire),
+	# "colorees" = les N premieres cases en couleur pleine, les autres en jaune pale (pourcentages)
+	var forme := _ints("forme")
+	var colorees := int(params.get("colorees", -1))
+	var index := 0
 	for l: int in lignes:
 		# Une ligne sur deux un peu plus claire, pour bien voir les rangees
 		var col := fill if l % 2 == 0 else fill.lerp(Color.WHITE, 0.35)
-		for c: int in colonnes:
-			var rect := Rect2(x0 + c * GRILLE, 2.0 + l * GRILLE, GRILLE, GRILLE)
-			draw_rect(rect, col)
+		var n_cases := forme[l] if l < forme.size() else colonnes
+		for c: int in n_cases:
+			var rect := Rect2(x0 + c * cote, 2.0 + l * cote, cote, cote)
+			var case_col := col
+			if colorees >= 0:
+				case_col = classe_color.lerp(Color.WHITE, 0.2) if index < colorees else JAUNE.lerp(Color.WHITE, 0.55)
+			draw_rect(rect, case_col)
 			draw_rect(rect, classe_color.darkened(0.3), false, 2.0)
+			index += 1
+
+## Cote d'une case du quadrillage : GRILLE par defaut, "case=20" pour un grand quadrillage (10 x 10).
+func _grille_case() -> float:
+	return float(params.get("case", GRILLE))
 
 # ---------------------------------------------------------------- tartes (fractions simples)
 
 ## Tartes coupees en parts egales ; les "colorees" premieres parts sont dans la couleur de la classe.
 func _draw_tarte() -> void:
 	var parts_list := _ints("parts")
-	var colorees := int(params.get("colorees", 1))
+	# "colorees" : un nombre pour toutes les tartes, ou une liste (2026-10-03 : colorees=1,2 pour
+	# montrer que 1/2 = 2/4)
+	var colorees_list := _ints("colorees")
+	if colorees_list.is_empty():
+		colorees_list.append(1)
+	var t := 0
 	var show_noms := str(params.get("noms", "")) == "oui"
 	var w := parts_list.size() * (TARTE_R * 2.0 + TARTE_GAP) - TARTE_GAP
 	var x := (size.x - w) / 2.0
 	for parts: int in parts_list:
+		var colorees := colorees_list[mini(t, colorees_list.size() - 1)]
+		t += 1
 		var center := Vector2(x + TARTE_R, 4.0 + TARTE_R)
 		for p: int in parts:
 			var a0 := -PI / 2.0 + TAU * p / parts
@@ -555,16 +601,24 @@ func _draw_tarte() -> void:
 			var a := -PI / 2.0 + TAU * p / parts
 			draw_line(center, center + Vector2(cos(a), sin(a)) * TARTE_R, INK.lerp(Color.WHITE, 0.2), 3.0, true)
 		if show_noms:
-			_text(Vector2(x - 20, TARTE_R * 2.0 + 32.0), str(TARTE_NOMS.get(parts, "1 part sur %d" % parts)), 20, INK, TARTE_R * 2.0 + 40.0)
+			_text(Vector2(x - 20, TARTE_R * 2.0 + 32.0), _tarte_nom(parts, colorees), 20, INK, TARTE_R * 2.0 + 40.0)
 		x += TARTE_R * 2.0 + TARTE_GAP
+
+## Nom ecrit sous une tarte : "un quart" pour 1 part, sinon la fraction ("2/4").
+func _tarte_nom(parts: int, colorees: int) -> String:
+	if colorees == 1:
+		return str(TARTE_NOMS.get(parts, "1 part sur %d" % parts))
+	return "%d/%d" % [colorees, parts]
 
 # ---------------------------------------------------------------- rectangle (perimetre)
 
-## Taille a l'ecran du rectangle : la longueur fait 300 px, la largeur suit la proportion.
+## Taille a l'ecran du rectangle : au plus 300 x 200 px, en gardant la proportion (2026-10-03 :
+## un carre de 8 cm sur 8 cm est dessine carre, et non plus etire en 300 x 200).
 func _rect_size() -> Vector2:
 	var longueur := maxf(1.0, float(params.get("long", 10)))
 	var largeur := maxf(1.0, float(params.get("larg", 6)))
-	return Vector2(300.0, clampf(300.0 * largeur / longueur, 50.0, 200.0))
+	var echelle := minf(300.0 / longueur, 200.0 / largeur)
+	return Vector2(maxf(120.0, longueur * echelle), clampf(largeur * echelle, 50.0, 200.0))
 
 ## Rectangle avec la mesure de chaque cote : les longueurs dans la couleur de la classe,
 ## les largeurs en orange, pour bien voir les 2 paires de cotes egaux.
@@ -574,7 +628,7 @@ func _draw_rect() -> void:
 	var o := Vector2((size.x - rs.x) / 2.0, 32.0)
 	var r := Rect2(o, rs)
 	draw_rect(r, classe_color.lerp(Color.WHITE, 0.75))
-	var c_long := classe_color.darkened(0.2)
+	var c_long := FichePage.token_color(classe_color).darkened(0.2)
 	var c_larg := UNITES.darkened(0.1)
 	draw_line(r.position, r.position + Vector2(rs.x, 0), c_long, 5.0, true)
 	draw_line(r.position + Vector2(0, rs.y), r.end, c_long, 5.0, true)
@@ -586,3 +640,208 @@ func _draw_rect() -> void:
 	_text(Vector2(o.x, o.y + rs.y + 28.0), t_long, 22, c_long.darkened(0.2), rs.x)
 	_text(Vector2(o.x - 80.0, o.y + rs.y / 2.0 + 8.0), t_larg, 22, c_larg.darkened(0.2), 72.0)
 	_text(Vector2(o.x + rs.x + 8.0, o.y + rs.y / 2.0 + 8.0), t_larg, 22, c_larg.darkened(0.2), 72.0)
+
+# ---------------------------------------------------------------- potence (division posee, CM)
+
+const POT_W := 26.0
+const POT_H := 34.0
+const POT_SIZE := 26
+
+## Calcule les etapes de la division posee de "dividende" par "diviseur", comme a l'ecole :
+## on prend assez de chiffres pour pouvoir diviser, on soustrait, on abaisse le chiffre suivant.
+## Renvoie {lignes: [{texte, fin, moins, abaisse}], quotient, reste} ; "fin" = colonne du dernier
+## chiffre (0 = premier chiffre du dividende).
+func _potence_calc() -> Dictionary:
+	var dividende := str(params.get("dividende", "0"))
+	var diviseur := maxi(1, int(params.get("diviseur", 1)))
+	var n := dividende.length()
+	var fin := 0
+	var partiel := int(dividende.substr(0, 1))
+	while partiel < diviseur and fin < n - 1:
+		fin += 1
+		partiel = partiel * 10 + int(dividende[fin])
+	var lignes: Array[Dictionary] = []
+	var quotient := ""
+	var reste := partiel
+	while true:
+		## Division entiere volontaire : chiffre du quotient (division posee).
+		@warning_ignore("integer_division")
+		var q := partiel / diviseur
+		quotient += str(q)
+		reste = partiel - q * diviseur
+		if q > 0:
+			lignes.append({"texte": str(q * diviseur), "fin": fin, "moins": true, "abaisse": false})
+			lignes.append({"texte": str(reste), "fin": fin, "moins": false, "abaisse": false})
+		if fin >= n - 1:
+			break
+		fin += 1
+		partiel = reste * 10 + int(dividende[fin])
+		if lignes.is_empty():
+			# Rien a soustraire encore (0 au quotient tout de suite) : on reste sur le dividende
+			continue
+		var derniere: Dictionary = lignes[lignes.size() - 1]
+		derniere["texte"] = str(partiel)
+		derniere["fin"] = fin
+		derniere["abaisse"] = true
+	return {"lignes": lignes, "quotient": quotient, "reste": reste, "n": n, "diviseur": str(diviseur)}
+
+func _potence_size() -> Vector2:
+	var calc := _potence_calc()
+	var n: int = calc["n"]
+	var droite := maxf(str(calc["diviseur"]).length(), str(calc["quotient"]).length()) * POT_W
+	var rows: int = 1 + (calc["lignes"] as Array).size()
+	return Vector2((n + 1) * POT_W + 24.0 + droite + 150.0, rows * POT_H + 16.0)
+
+## Abscisse de la colonne "col" (la colonne 0 du dessin est reservee au signe "-").
+func _pot_x(x0: float, col: int) -> float:
+	return x0 + (col + 1) * POT_W
+
+## Ligne de base du texte de la rangee "row".
+func _pot_y(row: int) -> float:
+	return 4.0 + row * POT_H + POT_H - 8.0
+
+func _draw_potence() -> void:
+	var calc := _potence_calc()
+	var n: int = calc["n"]
+	var lignes: Array = calc["lignes"]
+	var dividende := str(params.get("dividende", "0"))
+	var droite := maxf(str(calc["diviseur"]).length(), str(calc["quotient"]).length()) * POT_W
+	var total_w := (n + 1) * POT_W + 24.0 + droite + 150.0
+	var x0 := (size.x - total_w) / 2.0
+	var col_ink := INK
+	var col_classe := FichePage.token_color(classe_color).darkened(0.15)
+	var col_reste := UNITES.darkened(0.3)
+	var line_col := INK.lerp(Color.WHITE, 0.2)
+	for i: int in n:
+		_text(Vector2(_pot_x(x0, i), _pot_y(0)), dividende[i], POT_SIZE, col_ink, POT_W)
+	for r: int in lignes.size():
+		var ligne: Dictionary = lignes[r]
+		var texte := str(ligne["texte"])
+		var fin: int = ligne["fin"]
+		var debut := fin - texte.length() + 1
+		var est_reste := r == lignes.size() - 1
+		for k: int in texte.length():
+			var col := col_ink
+			if est_reste:
+				col = col_reste
+			elif bool(ligne["abaisse"]) and k == texte.length() - 1:
+				col = col_classe
+			_text(Vector2(_pot_x(x0, debut + k), _pot_y(r + 1)), texte[k], POT_SIZE, col, POT_W)
+		if bool(ligne["moins"]):
+			_text(Vector2(_pot_x(x0, debut - 1), _pot_y(r + 1)), "-", POT_SIZE, col_ink, POT_W)
+			var y := 4.0 + (r + 2) * POT_H - 3.0
+			draw_line(Vector2(_pot_x(x0, debut - 1) + 4.0, y), Vector2(_pot_x(x0, fin) + POT_W, y), line_col, 2.0, true)
+		if est_reste:
+			_text(Vector2(_pot_x(x0, fin) + POT_W + 8.0, _pot_y(r + 1) - 2.0), "← reste", 18, col_reste)
+	if lignes.is_empty():
+		# Dividende plus petit que le diviseur : le reste est le dividende lui-meme
+		_text(Vector2(_pot_x(x0, n - 1) + POT_W + 8.0, _pot_y(0) + POT_H), "reste = %s" % dividende, 18, col_reste)
+	# La potence : contour vertical apres le dividende, contour horizontal sous le diviseur
+	var xv := _pot_x(x0, n - 1) + POT_W + 14.0
+	var h := maxf(2, lignes.size() + 1) * POT_H
+	draw_line(Vector2(xv, 2.0), Vector2(xv, 2.0 + h), line_col, 3.0, true)
+	draw_line(Vector2(xv, 2.0 + POT_H), Vector2(xv + droite + 24.0, 2.0 + POT_H), line_col, 3.0, true)
+	var div_txt := str(calc["diviseur"])
+	var quot := str(calc["quotient"])
+	for k: int in div_txt.length():
+		_text(Vector2(xv + 12.0 + k * POT_W, _pot_y(0)), div_txt[k], POT_SIZE, col_ink, POT_W)
+	for k: int in quot.length():
+		_text(Vector2(xv + 12.0 + k * POT_W, _pot_y(1)), quot[k], POT_SIZE, col_classe, POT_W)
+	_text(Vector2(xv + 8.0, _pot_y(2) - 4.0), "quotient", 18, col_classe)
+
+# ---------------------------------------------------------------- pave droit (volume, CM2)
+
+## Taille d'un petit cube a l'ecran : le pave doit tenir dans environ 300 x 190 px.
+func _pave_cube() -> float:
+	var lo := maxf(1.0, float(params.get("long", 4)))
+	var la := maxf(1.0, float(params.get("larg", 3)))
+	var ha := maxf(1.0, float(params.get("haut", 2)))
+	return clampf(minf(300.0 / (lo + la * 0.5), 190.0 / (ha + la * 0.5)), 14.0, 40.0)
+
+func _pave_size() -> Vector2:
+	var s := _pave_cube()
+	var lo := float(params.get("long", 4))
+	var la := float(params.get("larg", 3))
+	var ha := float(params.get("haut", 2))
+	return Vector2((lo + la * 0.5) * s + 190.0, (ha + la * 0.5) * s + 44.0)
+
+## Pave droit fait de petits cubes, dessine en perspective cavaliere (la profondeur part en haut
+## a droite). Les cubes sont traces du fond vers l'avant, de bas en haut et de gauche a droite :
+## chaque cube recouvre ceux qu'il cache.
+func _draw_pave() -> void:
+	var s := _pave_cube()
+	var lo := int(params.get("long", 4))
+	var la := int(params.get("larg", 3))
+	var ha := int(params.get("haut", 2))
+	var unite := str(params.get("unite", ""))
+	var w := (lo + la * 0.5) * s
+	var ox := (size.x - w) / 2.0 - 20.0
+	var oy := 8.0 + (ha + la * 0.5) * s
+	var dep := Vector2(s * 0.5, -s * 0.5)
+	var face := classe_color.lerp(Color.WHITE, 0.35)
+	var dessus := classe_color.lerp(Color.WHITE, 0.65)
+	var cote := classe_color.darkened(0.15)
+	var contour := INK.lerp(Color.WHITE, 0.15)
+	for y: int in range(la - 1, -1, -1):
+		for z: int in ha:
+			for x: int in lo:
+				var p := Vector2(ox + x * s, oy - z * s) + dep * y
+				var avant := PackedVector2Array([p, p + Vector2(s, 0), p + Vector2(s, -s), p + Vector2(0, -s)])
+				var haut_f := PackedVector2Array([p + Vector2(0, -s), p + Vector2(s, -s), p + Vector2(s, -s) + dep, p + Vector2(0, -s) + dep])
+				var droite_f := PackedVector2Array([p + Vector2(s, 0), p + Vector2(s, 0) + dep, p + Vector2(s, -s) + dep, p + Vector2(s, -s)])
+				for poly: Array in [[droite_f, cote], [haut_f, dessus], [avant, face]]:
+					var pts: PackedVector2Array = poly[0]
+					draw_colored_polygon(pts, poly[1])
+					var ferme := pts.duplicate()
+					ferme.append(pts[0])
+					draw_polyline(ferme, contour, 1.5, true)
+	if unite == "":
+		return
+	var c_long := FichePage.token_color(classe_color).darkened(0.25)
+	var c_larg := UNITES.darkened(0.2)
+	var c_haut := Color("2E7D32")
+	# Longueur sous l'arete avant, largeur le long de la profondeur, hauteur a gauche
+	_text(Vector2(ox, oy + 26.0), "%d %s" % [lo, unite], 20, c_long, lo * s)
+	var mid_depth := Vector2(ox + lo * s, oy) + dep * (la * 0.5)
+	_text(mid_depth + Vector2(12.0, 14.0), "%d %s" % [la, unite], 20, c_larg)
+	_text(Vector2(ox - 78.0, oy - ha * s * 0.5 + 8.0), "%d %s" % [ha, unite], 20, c_haut, 70.0)
+
+# ---------------------------------------------------------------- droite graduee (fractions, decimaux)
+
+func _draw_droite() -> void:
+	var from := int(params.get("de", 0))
+	var to := maxi(from + 1, int(params.get("a", 1)))
+	var parts := maxi(1, int(params.get("parts", 10)))
+	## Division entiere volontaire : graduations par unite, entier.
+	@warning_ignore("integer_division")
+	var par_unite := maxi(1, parts / (to - from))
+	var noms := str(params.get("noms", "fraction"))
+	var margin := 40.0
+	var width := size.x - margin * 2.0
+	var x0 := margin
+	var line_y := 60.0
+	var line_col := INK.lerp(Color.WHITE, 0.25)
+	draw_line(Vector2(x0 - 10, line_y), Vector2(x0 + width + 14, line_y), line_col, 3.0, true)
+	draw_colored_polygon(PackedVector2Array([
+		Vector2(x0 + width + 22, line_y), Vector2(x0 + width + 10, line_y - 7), Vector2(x0 + width + 10, line_y + 7)]), line_col)
+	var marked: Dictionary = {}
+	for p: String in str(params.get("points", "")).split(",", false):
+		marked[int(p)] = true
+	var col_point := FichePage.token_color(classe_color).darkened(0.1)
+	for i: int in parts + 1:
+		var x := x0 + width * i / parts
+		var entier := i % par_unite == 0
+		draw_line(Vector2(x, line_y - (12 if entier else 7)), Vector2(x, line_y + (12 if entier else 7)), line_col, 3.0 if entier else 2.0, true)
+		if entier:
+			## Division entiere volontaire : valeur entiere affichee sous la graduation.
+			@warning_ignore("integer_division")
+			_text(Vector2(x - 30, line_y + 38), str(from + i / par_unite), 24, INK, 60.0)
+		if marked.has(i):
+			draw_circle(Vector2(x, line_y), 8.0, col_point)
+			var label := ""
+			if noms == "decimal":
+				var v := from + float(i) / par_unite
+				label = String.num(v, 3).replace(".", ",")
+			else:
+				label = "%d/%d" % [i + from * par_unite, par_unite]
+			_text(Vector2(x - 40, line_y - 18), label, 22, col_point, 80.0)
