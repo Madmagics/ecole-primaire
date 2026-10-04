@@ -134,6 +134,8 @@
 ## recoit toujours exactement le meme espace, quel que soit ce qu'il contient - cette reduction
 ## de moitie ne fait donc que liberer de l'espace VIDE dans l'onglet Cartes, sans jamais
 ## rapetisser la fenetre de la boutique elle-meme.
+## 2026-10-04 : ReservedRow est devenu DuplicateGrid (GridContainer, columns=5) - la 2e ligne
+## recoit les 5 coffres a doublons (voir DuplicateCrateItem), meme hauteur que la 1ere.
 ##
 ## Onglets tous a la meme largeur + premier onglet decale (2026-08-31, retour utilisateur :
 ## "decale le premier onglet de 5px vers la droite, ensuite applique la meme largeur d'onglet a
@@ -177,6 +179,7 @@ class_name ShopPanel
 extends Control
 
 const CrateItemScene := preload("res://ui/shop/crate_item.tscn")
+const DuplicateCrateItemScene := preload("res://ui/shop/duplicate_crate_item.tscn")
 const ProfSkinItemScene := preload("res://ui/shop/prof_skin_item.tscn")
 const ClassroomDecorItemScene := preload("res://ui/shop/classroom_decor_item.tscn")
 const ClassroomMusicItemScene := preload("res://ui/shop/classroom_music_item.tscn")
@@ -219,6 +222,9 @@ const PROF_SKIN_GRADES: Array[GradeLevel.Grade] = [
 @onready var title_icon: TextureRect = $Panel/TitleRow/TitleIcon
 @onready var tabs: TabContainer = $Panel/Margin/Content/Tabs
 @onready var item_grid: GridContainer = $Panel/Margin/Content/Tabs/Cartes/TabMargin/Layout/ItemGrid
+## 2e ligne de l'onglet Cartes (2026-10-04) : coffres a doublons, une case par classe - occupe
+## l'ancien emplacement vide "ReservedRow" garde pour ca depuis le 2026-08-30.
+@onready var duplicate_grid: GridContainer = $Panel/Margin/Content/Tabs/Cartes/TabMargin/Layout/DuplicateGrid
 ## Un GridContainer par classe, cle par GradeLevel.Grade - voir _ready() pour le remplissage et
 ## PROF_SKIN_GRADES pour l'ordre d'iteration.
 @onready var prof_skin_grids: Dictionary = {
@@ -244,6 +250,9 @@ const PROF_SKIN_GRADES: Array[GradeLevel.Grade] = [
 ## pouvoir rafraichir leur plafond +/- d'un coup apres tout achat (voir _refresh_crate_items) -
 ## un achat sur une case peut changer le solde affecte a une AUTRE case de la meme rarete.
 var _crate_items: Array[CrateItem] = []
+
+## Les 5 cases "coffre a doublons" (2e ligne de l'onglet Cartes, voir DuplicateCrateItem).
+var _duplicate_crate_items: Array[DuplicateCrateItem] = []
 
 ## Les 50 cases de skins de prof (5 classes x 10 skins), tous onglets confondus - conservees pour
 ## pouvoir toutes les rafraichir d'un coup, meme principe que _crate_items.
@@ -295,6 +304,13 @@ func _ready() -> void:
 			item.purchase_requested.connect(_on_purchase_requested)
 			item_grid.add_child(item)
 			_crate_items.append(item)
+			## Meme ordre de classe que la 1ere ligne : chaque coffre a doublons se retrouve juste
+			## sous le coffre en pieces de sa classe (il reutilise sa liste de cartes).
+			var duplicate_item := DuplicateCrateItemScene.instantiate() as DuplicateCrateItem
+			duplicate_item.loot_table = crate
+			duplicate_item.purchase_requested.connect(_on_duplicate_crate_requested)
+			duplicate_grid.add_child(duplicate_item)
+			_duplicate_crate_items.append(duplicate_item)
 
 	for grade in PROF_SKIN_GRADES:
 		var grid: GridContainer = prof_skin_grids[grade]
@@ -340,6 +356,7 @@ func _on_visibility_changed() -> void:
 		## (packs de questions reussis entre-temps) : recalcule a chaque ouverture plutot qu'une seule
 		## fois a _ready().
 		_refresh_crate_items()
+		_refresh_duplicate_crate_items()
 		_refresh_prof_skin_items()
 		_refresh_classroom_decor_items()
 		_refresh_classroom_music_items()
@@ -405,6 +422,8 @@ func _do_purchase_crate(loot_table: LootTableResource, quantity: int) -> void:
 	## Recalcule le plafond +/- des autres coffres de la meme rarete (voir _refresh_crate_items) :
 	## la case achetee repart a 1, les autres voient juste leur plafond +/- recalcule.
 	_refresh_crate_items(loot_table)
+	## Les cartes tirees ont pu etre des doublons : met a jour le decompte "x/10" de la 2e ligne.
+	_refresh_duplicate_crate_items()
 	## Un coffre commun/peu commun peut avoir depense la meme monnaie qu'un skin de prof (voir
 	## ProfSkins.SKIN_PRICE, meme monnaie que GradeLevel.get_rarity) : rafraichit aussi les
 	## skins pour regriser ceux devenus inabordables.
@@ -464,6 +483,64 @@ func _refresh_crate_items(just_purchased: LootTableResource = null) -> void:
 			crate_item.reset_quantity()
 		else:
 			crate_item.refresh_availability()
+
+func _refresh_duplicate_crate_items() -> void:
+	for duplicate_item in _duplicate_crate_items:
+		duplicate_item.refresh()
+
+## Clic sur un coffre a doublons (la case n'est cliquable qu'a partir de 10 doublons et s'il reste
+## une carte a decouvrir, voir DuplicateCrateItem.refresh) : meme popup de confirmation que les
+## autres achats.
+func _on_duplicate_crate_requested(loot_table: LootTableResource) -> void:
+	var item := _find_duplicate_crate_item(loot_table)
+	if item == null or item.disabled:
+		return
+	var question := "Échanger %d doublons %s contre une nouvelle carte ?" % [
+		DuplicateCrateItem.DUPLICATES_PER_CRATE, GradeLevel.get_label(item.get_grade())
+	]
+	_ask_confirm(question, _do_duplicate_crate_purchase.bind(item))
+
+## Echange reel : retire 10 doublons de la classe (CardCollection.consume_duplicates - jamais le
+## dernier exemplaire d'une carte) puis donne une carte de la classe PAS ENCORE possedee, tiree
+## avec les memes poids que le coffre en pieces mais parmi les cartes manquantes uniquement.
+## Journalise "doublons_echanges" (nouveau type d'evenement serveur, voir
+## server/doublons_echanges.sql) puis "carte_debloquee" comme un achat normal.
+func _do_duplicate_crate_purchase(item: DuplicateCrateItem) -> void:
+	var missing := item.get_missing_cards()
+	if missing.is_empty():
+		return
+	var removed := CardCollection.consume_duplicates(item.get_grade_cards(), DuplicateCrateItem.DUPLICATES_PER_CRATE)
+	if removed.is_empty():
+		item.refresh()
+		return
+	SaveManager.log_event("doublons_echanges", {"cards": removed})
+	var card := _draw_missing_card(item.loot_table, missing)
+	CardCollection.add_card(card)
+	EventBus.card_obtained.emit(card)
+	SaveManager.log_event("carte_debloquee", {"card_id": str(card.id)})
+	_refresh_duplicate_crate_items()
+	SaveManager.save_current_account()
+
+## Tirage pondere (poids des LootEntry du coffre de la classe) restreint a [missing].
+func _draw_missing_card(loot_table: LootTableResource, missing: Array[CardResource]) -> CardResource:
+	var cards: Array = []
+	var weights: Array[float] = []
+	for card in missing:
+		var weight := 0.0
+		for entry in loot_table.entries:
+			if entry != null and entry.card != null and entry.card.id == card.id:
+				weight = maxf(weight, entry.weight)
+		cards.append(card)
+		## Une carte sans poids positif reste tirable (poids minimal) : le coffre doit toujours
+		## donner une carte manquante, meme si le coffre en pieces la rendait introuvable.
+		weights.append(maxf(weight, 0.001))
+	return WeightedRandom.pick(cards, weights) as CardResource
+
+func _find_duplicate_crate_item(loot_table: LootTableResource) -> DuplicateCrateItem:
+	for duplicate_item in _duplicate_crate_items:
+		if duplicate_item.loot_table == loot_table:
+			return duplicate_item
+	return null
 
 func _on_prof_skin_purchase_requested(grade: GradeLevel.Grade, skin_index: int) -> void:
 	## Meme verification prealable que _on_purchase_requested (2026-09-05) : en pratique ProfSkinItem

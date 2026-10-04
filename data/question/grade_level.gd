@@ -89,6 +89,12 @@ static func get_coin_icon_path(grade: Grade) -> String:
 static func get_coin_pile_icon_path(grade: Grade) -> String:
 	return "res://assets/classe2.0/icones/tasdepiece-%s.webp" % get_label(grade)
 
+## Chemin de l'icone "doublons" (2 cartes superposees, monnaie de la ligne "coffres a doublons"
+## de la boutique, voir DuplicateCrateItem - 2026-10-04) : nom de fichier en MINUSCULES
+## (doublon-cp), meme convention que get_music_icon_path()/get_decor_icon_path().
+static func get_doublon_icon_path(grade: Grade) -> String:
+	return "res://assets/classe2.0/icones/doublon-%s.webp" % get_label(grade).to_lower()
+
 ## Chemin de l'icone "badge" (medaille ronde coloree + lettres de la classe, voir
 ## assets/classe2.0/icones/badge-<CLASSE>.webp) - meme convention que get_coin_icon_path() /
 ## get_coin_pile_icon_path() ci-dessus : fichier deja fini en couleur par classe, pas de modulate

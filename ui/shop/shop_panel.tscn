@@ -113,10 +113,13 @@ theme_override_constants/h_separation = 10
 theme_override_constants/v_separation = 10
 columns = 5
 
-[node name="ReservedRow" type="Control" parent="Panel/Margin/Content/Tabs/Cartes/TabMargin/Layout"]
+[node name="DuplicateGrid" type="GridContainer" parent="Panel/Margin/Content/Tabs/Cartes/TabMargin/Layout"]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
+theme_override_constants/h_separation = 10
+theme_override_constants/v_separation = 10
+columns = 5
 
 [node name="CP" type="ScrollContainer" parent="Panel/Margin/Content/Tabs"]
 layout_mode = 2

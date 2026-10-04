@@ -8,6 +8,10 @@
 ## commentaire), qui tient aussi ce bouton a jour si le reglage change depuis l'autre endroit
 ## pendant que ce bouton reste dans l'arbre de scene.
 ##
+## 2026-10-04 (demande de Steve) : l'icone assombrie ci-dessous est remplacee par l'icone
+## ecran-reduit.webp quand le plein ecran est actif (plein-ecran.webp sinon) - plus de modulate.
+## Paragraphe suivant garde pour l'historique.
+##
 ## Icone assombrie quand le plein ecran est actif (filtre noir transparent 50%, retour
 ## utilisateur) : `modulate` a 50% gris multiplie chaque pixel opaque de l'icone par 0.5,
 ## exactement equivalent visuellement a superposer un calque noir a 50% d'opacite (memes maths :
@@ -27,7 +31,8 @@
 class_name FullscreenButton
 extends Button
 
-const _DARKENED_MODULATE := Color(0.5, 0.5, 0.5, 1.0)
+const _ICON_FULLSCREEN := preload("res://assets/classe2.0/icones/plein-ecran.webp")
+const _ICON_WINDOWED := preload("res://assets/classe2.0/icones/ecran-reduit.webp")
 
 @export var toggled_panel_paths: Array[NodePath] = []
 
@@ -52,8 +57,8 @@ func _ready() -> void:
 	_update_visibility()
 
 	pressed.connect(_on_pressed)
-	EventBus.fullscreen_changed.connect(_update_modulate)
-	_update_modulate(SaveManager.fullscreen)
+	EventBus.fullscreen_changed.connect(_update_icon)
+	_update_icon(SaveManager.fullscreen)
 
 func _update_visibility() -> void:
 	for panel in _toggled_panels:
@@ -65,5 +70,6 @@ func _update_visibility() -> void:
 func _on_pressed() -> void:
 	SaveManager.set_fullscreen(not SaveManager.fullscreen)
 
-func _update_modulate(is_fullscreen: bool) -> void:
-	modulate = _DARKENED_MODULATE if is_fullscreen else Color.WHITE
+## En plein ecran : icone "ecran reduit" (ce que fera le prochain clic), sinon icone "plein ecran".
+func _update_icon(is_fullscreen: bool) -> void:
+	icon = _ICON_WINDOWED if is_fullscreen else _ICON_FULLSCREEN

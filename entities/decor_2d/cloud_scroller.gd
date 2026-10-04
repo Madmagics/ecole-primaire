@@ -112,20 +112,20 @@ func _half_extent(sprite: Sprite2D) -> float:
 
 func _spawn_cloud() -> void:
 	var pick: int = _draw_from_bag()
-	var texture: Texture2D
+	var cloud_tex: Texture2D
 	var goes_left: bool = false
 	var angle_deg: float = 0.0
 	if pick < cloud_textures.size():
-		texture = cloud_textures[pick]
+		cloud_tex = cloud_textures[pick]
 	else:
 		var entry: ScrollingSpriteEntry = entries[pick - cloud_textures.size()]
 		if entry == null or entry.texture == null:
 			return
-		texture = entry.texture
+		cloud_tex = entry.texture
 		goes_left = entry.direction == ScrollingSpriteEntry.Direction.RIGHT_TO_LEFT
 		angle_deg = entry.angle_deg
 	var sprite := Sprite2D.new()
-	sprite.texture = texture
+	sprite.texture = cloud_tex
 	sprite.scale = Vector2(sprite_scale, sprite_scale)
 	sprite.z_index = sprite_z_index
 	var angle_rad: float = deg_to_rad(angle_deg)

@@ -90,7 +90,8 @@ create type type_evenement as enum (
 	'decor_debloque',
 	'decor_actif_change',
 	'musique_debloquee',
-	'musique_active_change'
+	'musique_active_change',
+	'doublons_echanges'      -- ajoute le 2026-10-04, voir server/doublons_echanges.sql
 );
 
 create table if not exists evenements (
@@ -444,6 +445,7 @@ $$;
 --   decor_actif_change            : {"grade": <int>, "actif": <bool>}      -- ClassroomDecor.toggle_active
 --   musique_debloquee             : {"grade": <int>}                       -- ClassroomMusic.try_unlock
 --   musique_active_change         : {"grade": <int>, "actif": <bool>}      -- ClassroomMusic.toggle_active
+--   doublons_echanges             : {"cards": {"<card_id>": <int>, ...}}   -- coffre a doublons (2026-10-04), jamais sous 1 exemplaire
 --
 -- Decision de portee (revisee 2026-09-13, retour utilisateur "il faut que les options du jeu
 -- suivent partout") : dorenavant "unlocked" ET "active" sont synchronises pour classroom_decor et
@@ -476,6 +478,7 @@ declare
 	v_subject text;
 	v_actif boolean;
 	v_active_reset jsonb;
+	v_doublon record;
 begin
 	select compte_id into v_compte_id from sessions
 	where jeton = p_jeton and expire_le > now();
@@ -649,6 +652,19 @@ begin
 						maj_le = now()
 					where compte_id = v_compte_id;
 				end if;
+
+			elsif v_type = 'doublons_echanges' then
+				-- Voir server/doublons_echanges.sql (2026-10-04).
+				for v_doublon in select key, value from jsonb_each_text(coalesce(v_payload->'cards', '{}'::jsonb))
+				loop
+					update progressions set
+						cards = jsonb_set(
+							cards, array[v_doublon.key],
+							to_jsonb(greatest(coalesce((cards->>v_doublon.key)::int, 0) - v_doublon.value::int, 1))
+						),
+						maj_le = now()
+					where compte_id = v_compte_id and cards ? v_doublon.key;
+				end loop;
 			end if;
 
 			v_ids_appliques := array_append(v_ids_appliques, v_id);
