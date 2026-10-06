@@ -33,6 +33,7 @@ etroite.
 | 26 | 2026-09-29 | Question « La saison ___ il fait le plus chaud est l'été » (grammaire CM2) qui revient à chaque série → vérifier les notions et passer chacune à 20 questions minimum | Toutes (anglais surtout) | CP, CE1, CE2, CM1, CM2 | 54 notions sous 20 : 8 mal classées ou hors programme corrigées (75 questions modifiées), 507 questions ajoutées ; 0 notion sous 20, 0 doublon créé |
 | 27 | 2026-09-29 | Suite de #26 : « I prefer apple » (pluriel manquant) et jours/mois anglais sans majuscule | English | CP, CE1, CE2, CM1, CM2 | 74 questions corrigées (22 « I prefer » CE2, 52 jours/mois CP-CE2) ; 0 reste |
 | 30 | 2026-10-03 | Défauts trouvés en rédigeant les fiches de cours Logique (accords, élisions, réponses contradictoires, mauvais choix aussi corrects, questions rangées dans la mauvaise notion) — Steve : « oui corrige maintenant » | Logique | CP, CE2, CM1, CM2 (rien à corriger en CE1) | 222 questions corrigées dans Supabase ; 0 défaut restant |
+| 38 | 2026-10-06 | Passer chaque notion à 50 questions minimum (modèles existants, questions et réponses variées), sans doublon | Toutes sauf Lecture | CP, CE1, CE2, CM1, CM2 | 98 couples notion+classe sous 50 ; 115 doublons archivés ; 2 346 questions ajoutées (ids 120000-122345), PUBLIÉES le 2026-10-06 ; 1 seule notion reste sous 50 (anglais CP émotions : 47) |
 
 ## Détail
 
@@ -1398,3 +1399,29 @@ Script : `server/correctifs_2026-10-03_logique.sql`. `fn_publier()` : cp/ce2/cm1
 - **Résultat** : 56 questions converties, 37 archivées. Anglais : 2 732 → 2 695 questions ; CP 449 → 417.
 - **Fiches CP** : exemples et astuces sans pluriel (« I have a cat », « I see a frog », « a = un, une ») ; les pluriels restent expliqués à partir du CE1.
 - Script : `server/correctifs_2026-10-03_anglais_cp_singulier.sql`.
+
+### #37 — 2026-10-04 — CM2 : analogies de logique et suffixes d'orthographe (signalements BUG) — corrigé DANS SUPABASE
+
+- **Origine** : signalements joueurs 44394 (logique), 39189 et 39673 (orthographe), vérifiés avec Steve.
+- **Analogies logique CM2** (41 questions, ids 44007 et 44357-44396) : la forme « Le linge est à laver ce que la porte est… à ouvrir » était bancale (verbe au lieu d'un nom). Toutes remplacées par de vraies analogies « A est à B ce que C est… D » en 6 relations : outil → métier, animal → petit, animal → abri, matière → objet, lieu → activité, contenant → contenu ; un mauvais choix « piège » lié par une autre relation. Les analogies CE2/CM1 (25, partie/tout) étaient correctes, non touchées.
+- **Suffixes orthographe CM2** (48 questions « Quel suffixe transforme X en Y ? ») : la réponse se lisait dans la question. Test sur 10 questions validé par Steve : format « Avec le suffixe -ette, « maison » devient… » (4 choix avec le suffixe, même prononciation, fautes dans le radical) et format « que veut dire le suffixe -eur ? » (sens). Ids : 39052, 39055, 39058, 39060, 39062, 39063, 39064, 39189, 39190, 39673. Les 38 autres restent à convertir.
+- **Résultat** : 51 questions modifiées, publiées (paquets cm2/logique et cm2/orthographe), signalements passés en « corrige ».
+- Script : `server/correctifs_2026-10-04_analogies_suffixes_cm2.sql`.
+
+### #38 — 2026-10-06 — Toutes les notions à 50 questions minimum — en BROUILLON dans Supabase
+
+- **Demande de Steve** : « pour les notions du jeu, passe à 50 questions minimum pour chaque notion en se basant sur les modèles existants mais en variant les questions et les réponses, check PAS DE DOUBLONS ». Comptage par notion + classe + matière (une série = un paquet classe/matière), Lecture exclue.
+- **État avant** : 98 couples sous 50 (surtout l'anglais, beaucoup à 20) ; plus bas : anglais décrire/position CE1 (11) et CP (15), formes géométriques CP (20), mesures CM2 (25).
+- **Doublons** : 115 doublons existants archivés (même classe + matière, même énoncé et même réponse, articles « le/la/un/a/the » ignorés) — surtout l'anglais CP/CE1/CE2 (mots de couleurs/aliments recopiés dans « mes goûts », animaux dans « avoir et être » / « décrire »), 3 en grammaire CE2, 1 en orthographe CM1. On garde l'exemplaire rangé dans la bonne notion. Liste : `server/ajout50/ajout50_archives.tsv`.
+- **Ajouts (2 346 questions, statut brouillon)** : maths et logique générées et calculées par script (pair/impair avec nouveau format « lequel est pair ? », périmètres rectangle/carré/triangle, suites croissantes et décroissantes, conversions CM2, comparaisons, déplacements en 2 étapes sur la grille) ; questions écrites à la main pour formes CP, intrus CE2, analogies CM1/CM2, contraires CM1, classer CP, présent CM1 (apprendre, comprendre, devoir, revoir), masculin/féminin CP. Anglais : banques de vocabulaire par notion et par classe + formats validés par Steve : emoji ↔ mot, jours/mois/saisons avant-après, calcul en anglais, nombres en lettres, phrases à compléter pour les notions de grammaire (am/have, has/is/are, must/mustn't, should, Do/Does, This/These, going to, -ing).
+- **Contrôles** : aucun doublon d'énoncé (même sans les articles) dans la classe ; pas de mot transparent en traduction (pizza = pizza) ; mauvais choix pris dans la même catégorie (pays avec pays, métiers avec métiers…) ; pas de parenthèse dans les énoncés ; couleurs plausibles (pas de chien bleu) ; relecture complète de la liste.
+- **Reste sous 50** : anglais CP « émotions » (47) — vocabulaire CP épuisé, accepté par Steve.
+- **Publication** : 2026-10-06, sur demande de Steve (« active les nouvelles questions et publie ») — 2 346 questions passées en « publie » + fn_publier.
+- Scripts : `server/ajout50/ajout50.sql`, générateurs dans `server/ajout50/outils/`.
+
+
+## 2026-10-06 - CP français : "masculin de" (animaux) -> "Quel est le mâle de..."
+- 24 questions (8398-8400, 100365-100464, 120238) reformulées "Quel est le mâle de la/l' X ?" à la demande de Steve.
+- Faux choix remplacés : orthographes inventées (ânessee, coqe...) -> la femelle elle-même + 2 autres mâles.
+- Réponses corrigées : brebis -> bélier (au lieu de mouton), vache -> taureau (au lieu de boeuf).
+- Signalements : #15 corrigé (Prends ta trousse / Take your pencil case), #16-#17 corrigés côté code (carrés couleur, question_panel.gd), #3-#4 rejetés.

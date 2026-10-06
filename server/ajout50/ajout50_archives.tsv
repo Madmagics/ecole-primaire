@@ -1,0 +1,116 @@
+id	classe	matiere	notion	enonce	bonne_reponse
+19464	ce1	english	en_avoir_etre	"Comment dit-on ""un ours"" en anglais ?"	a bear
+110100	ce1	english	en_calendrier	"Que veut dire ""January"" en français ?"	janvier
+19357	ce1	english	en_gouts	"Comment dit-on ""la lecture"" en anglais ?"	reading
+19394	ce1	english	en_gouts	"Comment dit-on ""la lecture"" en anglais ?"	reading
+19358	ce1	english	en_gouts	"Comment dit-on ""le chant"" en anglais ?"	singing
+19395	ce1	english	en_gouts	"Comment dit-on ""le chant"" en anglais ?"	singing
+19396	ce1	english	en_gouts	"Comment dit-on ""la course"" en anglais ?"	running
+19409	ce1	english	en_gouts	"Comment dit-on ""les serpents"" en anglais ?"	snakes
+19410	ce1	english	en_gouts	"Comment dit-on ""les lions"" en anglais ?"	lions
+19411	ce1	english	en_gouts	"Comment dit-on ""les éléphants"" en anglais ?"	elephants
+19412	ce1	english	en_gouts	"Comment dit-on ""les singes"" en anglais ?"	monkeys
+19413	ce1	english	en_gouts	"Comment dit-on ""les tigres"" en anglais ?"	tigers
+19414	ce1	english	en_gouts	"Comment dit-on ""les ours"" en anglais ?"	bears
+20361	ce2	english	en_gouts	"Comment dit-on ""le poisson"" en anglais ?"	fish
+20346	ce2	english	en_gouts	"Que veut dire ""cheese"" en français ?"	le fromage
+20355	ce2	english	en_gouts	"Comment dit-on ""le riz"" en anglais ?"	rice
+20356	ce2	english	en_gouts	"Que veut dire ""rice"" en français ?"	le riz
+20357	ce2	english	en_gouts	"Comment dit-on ""la viande"" en anglais ?"	meat
+20358	ce2	english	en_gouts	"Que veut dire ""meat"" en français ?"	la viande
+20359	ce2	english	en_gouts	"Comment dit-on ""la soupe"" en anglais ?"	soup
+20360	ce2	english	en_gouts	"Que veut dire ""soup"" en français ?"	la soupe
+20444	ce2	english	en_gouts	"Que veut dire ""football"" en français ?"	le football
+20446	ce2	english	en_gouts	"Que veut dire ""swimming"" en français ?"	la natation
+20367	ce2	english	en_gouts	"Comment dit-on ""faire du vélo"" en anglais ?"	cycling
+20368	ce2	english	en_gouts	"Que veut dire ""cycling"" en français ?"	faire du vélo
+20448	ce2	english	en_gouts	"Que veut dire ""cycling"" en français ?"	faire du vélo
+20450	ce2	english	en_gouts	"Que veut dire ""dancing"" en français ?"	la danse
+20452	ce2	english	en_gouts	"Que veut dire ""drawing"" en français ?"	le dessin
+20453	ce2	english	en_gouts	"Comment dit-on ""la lecture"" en anglais ?"	reading
+20454	ce2	english	en_gouts	"Que veut dire ""reading"" en français ?"	la lecture
+20455	ce2	english	en_gouts	"Comment dit-on ""le chant"" en anglais ?"	singing
+20456	ce2	english	en_gouts	"Que veut dire ""singing"" en français ?"	le chant
+20457	ce2	english	en_gouts	"Comment dit-on ""la course"" en anglais ?"	running
+20458	ce2	english	en_gouts	"Que veut dire ""running"" en français ?"	la course
+20379	ce2	english	en_gouts	"Comment dit-on ""le tennis"" en anglais ?"	tennis
+20459	ce2	english	en_gouts	"Comment dit-on ""le tennis"" en anglais ?"	tennis
+20380	ce2	english	en_gouts	"Que veut dire ""tennis"" en français ?"	le tennis
+20460	ce2	english	en_gouts	"Que veut dire ""tennis"" en français ?"	le tennis
+20381	ce2	english	en_gouts	"Comment dit-on ""le basket"" en anglais ?"	basketball
+20461	ce2	english	en_gouts	"Comment dit-on ""le basket"" en anglais ?"	basketball
+20382	ce2	english	en_gouts	"Que veut dire ""basketball"" en français ?"	le basket
+20462	ce2	english	en_gouts	"Que veut dire ""basketball"" en français ?"	le basket
+31066	ce2	grammaire	accord_sujet_verbe	Nous ___ à la piscine.	nageons
+31068	ce2	grammaire	accord_sujet_verbe	La maîtresse ___ la classe.	surveille
+31070	ce2	grammaire	accord_sujet_verbe	Je ___ mes devoirs.	finis
+21426	cm1	english	en_gouts	"Comment dit-on ""le tennis"" en anglais ?"	tennis
+36222	cm1	orthographe	orthographe_mots	Quelle est la bonne orthographe ?	classe
+18359	cp	english	en_avoir_etre	"Comment dit-on ""un lapin"" en anglais ?"	a rabbit
+18354	cp	english	en_avoir_etre	"Que veut dire ""a cat"" en français ?"	un chat
+18281	cp	english	en_avoir_etre	"Comment dit-on ""un cochon"" en anglais ?"	a pig
+18397	cp	english	en_decrire_position	"Comment dit-on ""un cochon"" en anglais ?"	a pig
+18278	cp	english	en_avoir_etre	"Comment dit-on ""un oiseau"" en anglais ?"	a bird
+18391	cp	english	en_decrire_position	"Comment dit-on ""un oiseau"" en anglais ?"	a bird
+18355	cp	english	en_avoir_etre	"Comment dit-on ""un chien"" en anglais ?"	a dog
+18356	cp	english	en_avoir_etre	"Que veut dire ""a dog"" en français ?"	un chien
+18279	cp	english	en_avoir_etre	"Comment dit-on ""un cheval"" en anglais ?"	a horse
+18280	cp	english	en_avoir_etre	"Comment dit-on ""une vache"" en anglais ?"	a cow
+18395	cp	english	en_decrire_position	"Comment dit-on ""une vache"" en anglais ?"	a cow
+18362	cp	english	en_decrire_position	"Que veut dire ""a cow"" en français ?"	une vache
+18282	cp	english	en_avoir_etre	"Comment dit-on ""un mouton"" en anglais ?"	a sheep
+18283	cp	english	en_avoir_etre	"Comment dit-on ""un canard"" en anglais ?"	a duck
+18399	cp	english	en_decrire_position	"Comment dit-on ""un canard"" en anglais ?"	a duck
+18366	cp	english	en_decrire_position	"Que veut dire ""a duck"" en français ?"	un canard
+18284	cp	english	en_avoir_etre	"Comment dit-on ""une grenouille"" en anglais ?"	a frog
+18401	cp	english	en_decrire_position	"Comment dit-on ""une grenouille"" en anglais ?"	a frog
+18368	cp	english	en_decrire_position	"Que veut dire ""a frog"" en français ?"	une grenouille
+18353	cp	english	en_avoir_etre	"Comment dit-on ""un chat"" en anglais ?"	a cat
+18336	cp	english	en_avoir_etre	"Que veut dire ""an apple"" en français ?"	une pomme
+18338	cp	english	en_avoir_etre	"Que veut dire ""a banana"" en français ?"	une banane
+18340	cp	english	en_avoir_etre	"Que veut dire ""an egg"" en français ?"	un oeuf
+18342	cp	english	en_avoir_etre	"Que veut dire ""a cake"" en français ?"	un gâteau
+18344	cp	english	en_avoir_etre	"Que veut dire ""a pencil"" en français ?"	un crayon
+18345	cp	english	en_avoir_etre	"Comment dit-on ""une gomme"" en anglais ?"	a rubber
+18346	cp	english	en_avoir_etre	"Que veut dire ""a rubber"" en français ?"	une gomme
+18347	cp	english	en_avoir_etre	"Comment dit-on ""une règle"" en anglais ?"	a ruler
+18348	cp	english	en_avoir_etre	"Que veut dire ""a ruler"" en français ?"	une règle
+18349	cp	english	en_avoir_etre	"Comment dit-on ""un livre"" en anglais ?"	a book
+18350	cp	english	en_avoir_etre	"Que veut dire ""a book"" en français ?"	un livre
+18351	cp	english	en_avoir_etre	"Comment dit-on ""un stylo"" en anglais ?"	a pen
+18352	cp	english	en_avoir_etre	"Que veut dire ""a pen"" en français ?"	un stylo
+18369	cp	english	en_avoir_etre	"Comment dit-on ""une pomme"" en anglais ?"	an apple
+18371	cp	english	en_avoir_etre	"Comment dit-on ""une banane"" en anglais ?"	a banana
+18373	cp	english	en_avoir_etre	"Comment dit-on ""un oeuf"" en anglais ?"	an egg
+18375	cp	english	en_avoir_etre	"Comment dit-on ""un gâteau"" en anglais ?"	a cake
+18377	cp	english	en_avoir_etre	"Comment dit-on ""un crayon"" en anglais ?"	a pencil
+18202	cp	english	en_gouts	"Comment dit-on ""le marron"" en anglais ?"	brown
+18203	cp	english	en_gouts	"Comment dit-on ""le marron"" en anglais ?"	brown
+18262	cp	english	en_gouts	"Comment dit-on ""marron"" en anglais ?"	brown
+18204	cp	english	en_gouts	"Comment dit-on ""le rose"" en anglais ?"	pink
+18205	cp	english	en_gouts	"Comment dit-on ""le rose"" en anglais ?"	pink
+18263	cp	english	en_gouts	"Comment dit-on ""rose"" en anglais ?"	pink
+18206	cp	english	en_gouts	"Comment dit-on ""le violet"" en anglais ?"	purple
+18207	cp	english	en_gouts	"Comment dit-on ""le violet"" en anglais ?"	purple
+18264	cp	english	en_gouts	"Comment dit-on ""violet"" en anglais ?"	purple
+18210	cp	english	en_gouts	"Comment dit-on ""le gris"" en anglais ?"	grey
+18211	cp	english	en_gouts	"Comment dit-on ""le gris"" en anglais ?"	grey
+18266	cp	english	en_gouts	"Comment dit-on ""gris"" en anglais ?"	grey
+18200	cp	english	en_gouts	"Comment dit-on ""le blanc"" en anglais ?"	white
+18201	cp	english	en_gouts	"Comment dit-on ""le blanc"" en anglais ?"	white
+18261	cp	english	en_gouts	"Comment dit-on ""blanc"" en anglais ?"	white
+18208	cp	english	en_gouts	"Comment dit-on ""l'orange"" en anglais ?"	orange
+18209	cp	english	en_gouts	"Comment dit-on ""l'orange"" en anglais ?"	orange
+18265	cp	english	en_gouts	"Comment dit-on ""orange"" en anglais ?"	orange
+18212	cp	english	en_gouts	"Comment dit-on ""le pain"" en anglais ?"	bread
+18213	cp	english	en_gouts	"Comment dit-on ""le pain"" en anglais ?"	bread
+18214	cp	english	en_gouts	"Comment dit-on ""le lait"" en anglais ?"	milk
+18215	cp	english	en_gouts	"Comment dit-on ""le lait"" en anglais ?"	milk
+18216	cp	english	en_gouts	"Comment dit-on ""le fromage"" en anglais ?"	cheese
+18217	cp	english	en_gouts	"Comment dit-on ""le fromage"" en anglais ?"	cheese
+18218	cp	english	en_gouts	"Comment dit-on ""le chocolat"" en anglais ?"	chocolate
+18219	cp	english	en_gouts	"Comment dit-on ""le chocolat"" en anglais ?"	chocolate
+18220	cp	english	en_gouts	"Comment dit-on ""l'eau"" en anglais ?"	water
+18221	cp	english	en_gouts	"Comment dit-on ""l'eau"" en anglais ?"	water
+18222	cp	english	en_gouts	"Comment dit-on ""le jus de fruit"" en anglais ?"	juice
+18223	cp	english	en_gouts	"Comment dit-on ""le jus de fruit"" en anglais ?"	juice

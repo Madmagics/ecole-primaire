@@ -123,6 +123,38 @@ const LOGIC_GRID_MISSING_BORDER_SCALE := 1.6
 ## Extended-A, ~U+0180), donc aucun risque de faux positif sur un mot ou un nombre.
 const EMOJI_CODEPOINT_THRESHOLD := 0x2190
 
+## Emojis "couleur" (carres 🟥... et ronds 🔴...) - signalements #16/#17 du 2026-10-06 : la police
+## de secours NotoEmoji est MONOCHROME (voir ui/theme/fonts/baloo2_fallback_emoji.tres), elle
+## dessine ces emojis a l'encre du theme avec des hachures/motifs au lieu de leur couleur. Chacun
+## est donc remplace A L'AFFICHAGE SEULEMENT par un glyphe PLEIN de la meme forme (⬛ ou ⚫, pleins
+## dans NotoEmoji) teinte de sa vraie couleur - [color] en BBCode (QuestionLabel, recapitulatif) ou
+## font_color en theme override (boutons, cases de grille, Labels). Le contenu en base n'est pas
+## touche : la reponse est toujours comparee au texte d'origine (voir _on_choice_pressed).
+## ⬜/⚪ (blanc) volontairement absents : leur contour dessine a l'encre se lit deja "blanc".
+## Valeur = [glyphe plein, couleur].
+const COLOR_EMOJIS: Dictionary[String, Array] = {
+	"🟥": ["⬛", Color(0.90, 0.22, 0.21)],
+	"🟧": ["⬛", Color(0.98, 0.55, 0.0)],
+	"🟨": ["⬛", Color(0.99, 0.80, 0.10)],
+	"🟩": ["⬛", Color(0.26, 0.63, 0.28)],
+	"🟦": ["⬛", Color(0.12, 0.53, 0.90)],
+	"🟪": ["⬛", Color(0.56, 0.14, 0.67)],
+	"🟫": ["⬛", Color(0.47, 0.30, 0.20)],
+	"⬛": ["⬛", Color(0.10, 0.10, 0.10)],
+	"🔴": ["⚫", Color(0.90, 0.22, 0.21)],
+	"🟠": ["⚫", Color(0.98, 0.55, 0.0)],
+	"🟡": ["⚫", Color(0.99, 0.80, 0.10)],
+	"🟢": ["⚫", Color(0.26, 0.63, 0.28)],
+	"🔵": ["⚫", Color(0.12, 0.53, 0.90)],
+	"🟣": ["⚫", Color(0.56, 0.14, 0.67)],
+	"🟤": ["⚫", Color(0.47, 0.30, 0.20)],
+	"⚫": ["⚫", Color(0.10, 0.10, 0.10)],
+}
+
+## Selecteur de variante emoji (U+FE0F) qui peut suivre un emoji dans le contenu (ex. "❤️") -
+## ignore quand il suit un emoji couleur remplace (voir _colorize_bbcode/_color_emoji_of).
+const VARIATION_SELECTOR_16 := "\uFE0F"
+
 ## Taille affichee de l'icone piece dans la pastille d'en-tete, a cote du texte de resultat (voir
 ## _show_result). Plus petite que CoinHUD.ICON_SIZE (48) : ici l'icone est en ligne avec du texte
 ## de la taille TitleLabel standard, pas dans une bande dediee.
@@ -438,6 +470,7 @@ func _populate_choice_buttons(question: QuestionResource) -> void:
 	for option_text in options:
 		var button := Button.new()
 		button.text = str(option_text)
+		_apply_color_emoji(button)
 		button.pressed.connect(_on_choice_pressed.bind(option_text))
 		choices_container.add_child(button)
 		## mouse_filter=Pass (retour utilisateur 2026-09-19, meme bug/fix que TODO_UI_MODS.md
@@ -581,8 +614,48 @@ func _build_question_bbcode(text: String) -> String:
 
 func _wrap_bbcode_run(run: String, is_emoji: bool, emoji_font_size: int) -> String:
 	if is_emoji:
-		return "[font_size=%d]%s[/font_size]" % [emoji_font_size, run]
+		return "[font_size=%d]%s[/font_size]" % [emoji_font_size, _colorize_bbcode(run)]
 	return run.replace("[", "[lb]")
+
+## Remplace chaque emoji couleur de [text] (voir COLOR_EMOJIS) par son glyphe plein entoure de
+## [color=#...] (BBCode) - le reste du texte est recopie tel quel : l'appelant doit l'avoir deja
+## echappe ([lb]) si besoin. Un U+FE0F juste apres un emoji remplace est retire.
+func _colorize_bbcode(text: String) -> String:
+	var result := ""
+	var skip_selector := false
+	for character in text:
+		if skip_selector and character == VARIATION_SELECTOR_16:
+			skip_selector = false
+			continue
+		var entry: Array = COLOR_EMOJIS.get(character, [])
+		skip_selector = not entry.is_empty()
+		if entry.is_empty():
+			result += character
+		else:
+			result += "[color=#%s]%s[/color]" % [(entry[1] as Color).to_html(false), entry[0]]
+	return result
+
+## [glyphe plein, couleur] si [text] n'est QU'UN seul emoji couleur (voir COLOR_EMOJIS), sinon [].
+func _color_emoji_of(text: String) -> Array:
+	return COLOR_EMOJIS.get(text.strip_edges().replace(VARIATION_SELECTOR_16, ""), [])
+
+## Contient au moins un emoji couleur (voir COLOR_EMOJIS) ?
+func _has_color_emoji(text: String) -> bool:
+	for character in text:
+		if COLOR_EMOJIS.has(character):
+			return true
+	return false
+
+## Bouton (reponse QCM ou case de grille Logique) dont le texte n'est qu'un emoji couleur :
+## affiche le glyphe plein teinte (voir COLOR_EMOJIS) dans TOUS les etats du bouton - sinon le
+## theme repasserait le glyphe a la couleur d'encre au survol/appui. Sans effet sur tout autre texte.
+func _apply_color_emoji(button: Button) -> void:
+	var entry := _color_emoji_of(button.text)
+	if entry.is_empty():
+		return
+	button.text = entry[0]
+	for color_name: StringName in [&"font_color", &"font_hover_color", &"font_pressed_color", &"font_hover_pressed_color", &"font_focus_color", &"font_disabled_color"]:
+		button.add_theme_color_override(color_name, entry[1])
 
 ## Plafonne la taille REELLE de Panel a la portion d'ecran que ses ancres lui reservent (voir
 ## commentaire dans _ready()) - "size" ici est celle de QuestionPanel (racine de ce script), qui
@@ -698,6 +771,8 @@ func _populate_logic_grid(question: QuestionResource) -> void:
 		var is_missing := cell_text == ""
 		var cell := Button.new()
 		cell.text = "?" if is_missing else cell_text
+		if not is_missing:
+			_apply_color_emoji(cell)
 		## Case non interactive (pur affichage) : jamais cliquee ni focusable, et ignore la
 		## souris/le tactile (contrairement aux boutons de reponse, voir _populate_choice_
 		## buttons - mouse_filter=PASS la-bas car ELLES restent cliquables) pour ne jamais gener
@@ -1044,9 +1119,24 @@ func _add_result_row(question_text: String, given_text: String, correction_text:
 	lines.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	lines.add_theme_constant_override("separation", 4)
 
-	var q_label := Label.new()
-	q_label.text = question_text
-	q_label.autowrap_mode = TextServer.AUTOWRAP_WORD
+	## RichTextLabel (meme reglage que QuestionLabel, voir la .tscn) UNIQUEMENT si la question
+	## contient un emoji couleur, pour pouvoir le teinter en BBCode (voir COLOR_EMOJIS) - Label
+	## inchange pour toutes les autres questions. TitleLabel definit deja default_color et
+	## normal_font_size pour RichTextLabel (voir game_theme.tres), d'ou un rendu identique.
+	var q_label: Control
+	if _has_color_emoji(question_text):
+		var rich_label := RichTextLabel.new()
+		rich_label.bbcode_enabled = true
+		rich_label.fit_content = true
+		rich_label.scroll_active = false
+		rich_label.autowrap_mode = TextServer.AUTOWRAP_WORD
+		rich_label.text = _colorize_bbcode(question_text.replace("[", "[lb]"))
+		q_label = rich_label
+	else:
+		var plain_label := Label.new()
+		plain_label.text = question_text
+		plain_label.autowrap_mode = TextServer.AUTOWRAP_WORD
+		q_label = plain_label
 	## Sans ceci, le Label garde sa largeur minimale (juste assez pour le mot le plus long) au lieu
 	## de prendre toute la largeur offerte par la ligne : l'autowrap coupait alors apres chaque mot,
 	## produisant une colonne verticale d'un seul mot par ligne (rate visuel du 2026-08-01).
@@ -1127,7 +1217,12 @@ func _build_indented_line(prefix: String, value: String, color: Color, tint_valu
 	value_label.text = value
 	value_label.autowrap_mode = TextServer.AUTOWRAP_WORD
 	value_label.size_flags_horizontal = Control.SIZE_EXPAND_FILL
-	if tint_value:
+	## Emoji couleur (voir COLOR_EMOJIS) : glyphe plein a SA couleur, jamais teinte vert/rouge.
+	var color_entry := _color_emoji_of(value)
+	if not color_entry.is_empty():
+		value_label.text = color_entry[0]
+		value_label.add_theme_color_override("font_color", color_entry[1])
+	elif tint_value:
 		value_label.add_theme_color_override("font_color", color)
 	text_row.add_child(value_label)
 
