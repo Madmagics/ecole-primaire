@@ -49,6 +49,11 @@
 [ext_resource type="Resource" uid="uid://demxxpica4rqb" path="res://data/loot/resources/crate_legendaire.tres" id="t_crate5"]
 [ext_resource type="Script" path="res://ui/tutorial/tutorial_spotlight.gd" id="t_spot_script"]
 [ext_resource type="Shader" path="res://ui/tutorial/tutorial_spotlight.gdshader" id="t_spot_shader"]
+[ext_resource type="Texture2D" path="res://assets/classe2.0/icones/menu.webp" id="t_icon_menu"]
+[ext_resource type="PackedScene" path="res://ui/game_menu/icon_dock.tscn" id="t_icon_dock"]
+[ext_resource type="Texture2D" path="res://assets/classe2.0/icones/reglages.webp" id="t_icon_config"]
+[ext_resource type="Texture2D" path="res://assets/classe2.0/icones/profil.webp" id="t_icon_profil"]
+[ext_resource type="Texture2D" path="res://assets/classe2.0/icones/controle-parental.webp" id="t_icon_parental"]
 [ext_resource type="PackedScene" path="res://ui/name_tag/name_tag.tscn" id="t_nametag"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_npc"]
@@ -279,13 +284,13 @@ visible = false
 
 [node name="QuestionPanel" parent="UI" instance=ExtResource("t_question")]
 blur_bg_path = NodePath("../NpcBlurBG")
-open_menu_button_path = NodePath("../BackpackButton")
+open_menu_button_path = NodePath("../OpenMenuButton")
 backpack_button_path = NodePath("../BackpackButton")
 tutorial_mode = true
 
 [node name="SubjectSelectPanel" parent="UI" instance=ExtResource("t_subject")]
 blur_bg_path = NodePath("../NpcBlurBG")
-open_menu_button_path = NodePath("../BackpackButton")
+open_menu_button_path = NodePath("../OpenMenuButton")
 backpack_button_path = NodePath("../BackpackButton")
 
 [node name="BackpackBlurBG" type="ColorRect" parent="UI"]
@@ -349,7 +354,58 @@ expand_icon = true
 icon_alignment = 1
 vertical_icon_alignment = 1
 script = ExtResource("t_menutoggle")
-toggled_panel_paths = Array[NodePath]([NodePath("../CardAlbum"), NodePath("../ShopPanel"), NodePath("../SuccessPanel"), NodePath("../CoursPanel"), NodePath("../BackpackMenu")])
+toggled_panel_paths = Array[NodePath]([NodePath("../CardAlbum"), NodePath("../ShopPanel"), NodePath("../SuccessPanel"), NodePath("../CoursPanel"), NodePath("../BackpackMenu"), NodePath("../DemoMenuDock")])
+
+[node name="OpenMenuButton" type="Button" parent="UI"]
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 97.0
+offset_bottom = 96.0
+focus_mode = 0
+flat = true
+icon = ExtResource("t_icon_menu")
+expand_icon = true
+icon_alignment = 1
+vertical_icon_alignment = 1
+script = ExtResource("t_menutoggle")
+toggled_panel_paths = Array[NodePath]([NodePath("../CardAlbum"), NodePath("../ShopPanel"), NodePath("../SuccessPanel"), NodePath("../CoursPanel"), NodePath("../BackpackMenu"), NodePath("../DemoMenuDock")])
+
+[node name="DemoMenuDock" parent="UI" instance=ExtResource("t_icon_dock")]
+visible = false
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 113.0
+offset_bottom = -20.0
+
+[node name="ConfigButton" type="Button" parent="UI/DemoMenuDock/IconList"]
+custom_minimum_size = Vector2(73, 73)
+layout_mode = 2
+size_flags_horizontal = 4
+flat = true
+icon = ExtResource("t_icon_config")
+expand_icon = true
+icon_alignment = 1
+vertical_icon_alignment = 1
+
+[node name="InformationsButton" type="Button" parent="UI/DemoMenuDock/IconList"]
+custom_minimum_size = Vector2(69, 72)
+layout_mode = 2
+size_flags_horizontal = 4
+flat = true
+icon = ExtResource("t_icon_profil")
+expand_icon = true
+icon_alignment = 1
+vertical_icon_alignment = 1
+
+[node name="ParentalControlButton" type="Button" parent="UI/DemoMenuDock/IconList"]
+custom_minimum_size = Vector2(80, 59)
+layout_mode = 2
+size_flags_horizontal = 4
+flat = true
+icon = ExtResource("t_icon_parental")
+expand_icon = true
+icon_alignment = 1
+vertical_icon_alignment = 1
 
 [node name="CardRevealOverlay" parent="UI" instance=ExtResource("t_reveal")]
 book_icon_path = NodePath("../BackpackMenu/IconDock/IconList/LivreButton")
@@ -419,9 +475,18 @@ theme_override_font_sizes/font_size = 18
 text = "..."
 autowrap_mode = 3
 
+[node name="NextButton" type="Button" parent="TutorialLayer/Root/Bubble/Margin/Content"]
+layout_mode = 2
+size_flags_horizontal = 4
+focus_mode = 0
+text = "Suivant"
+visible = false
+
 [node name="FinishButton" type="Button" parent="TutorialLayer/Root/Bubble/Margin/Content"]
 layout_mode = 2
 size_flags_horizontal = 4
 focus_mode = 0
 text = "Retour à l'accueil"
 visible = false
+
+[editable path="UI/DemoMenuDock"]

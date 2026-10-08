@@ -6,7 +6,11 @@
 ##   1-2. Une serie de 10 questions en Mathematiques puis en Francais (series fixes, voir
 ##        TutorialQuestions ; les autres matieres sont grisees, une matiere faite se grise aussi).
 ##   3. Ouvrir le menu de droite.   4. Recompenses : ouvrir un coffre du CP (seul le CP est actif,
-##   voir ShopPanel.tutorial_cp_only).   5. Le Livre.   6. Les succes.   7. Les cours.   8. Fin.
+##   voir ShopPanel.tutorial_cp_only).   5. Le Livre.   6. Les succes.
+##   7. Les cours : Mathematiques CP, 1re notion, lire la fiche jusqu'a la derniere page, la fermer.
+##   8. Controle parental : ouvrir le menu de gauche, l'icone est montree mais inactive (on n'entre
+##      pas dedans - DemoMenuDock n'est qu'une copie visuelle du dock de GameMenuPanel).
+##   9. Contenu du jeu (chiffres calcules en direct, voir _content_text).   10. Fin.
 ## Les pieces/cartes gagnees ne vivent qu'en memoire : Economy/CardCollection/ChallengeTracker sont
 ## remis a zero en entrant ET en sortant du tutoriel (sinon elles se retrouveraient dans le
 ## prochain compte cree ou connecte sur l'appareil). Retour a l'ecran d'intro par
@@ -22,12 +26,17 @@ const Grade = GradeLevel.Grade
 const SHOWN_SUBJECTS: Array[Subject] = [Subject.MATH, Subject.FRENCH, Subject.ENGLISH, Subject.READING, Subject.LOGIC]
 const PLAYABLE_SUBJECTS: Array[Subject] = [Subject.MATH, Subject.FRENCH]
 
-enum Step { NPC, CHOOSE, ANSWER, RESULT, OPEN_MENU, SHOP, REVEAL, OPEN_BOOK, BOOK, SUCCESS, COURS, DONE }
+enum Step {
+	NPC, CHOOSE, ANSWER, RESULT, OPEN_MENU, SHOP, REVEAL, OPEN_BOOK, BOOK, SUCCESS,
+	COURS, COURS_NOTION, COURS_FICHE, COURS_FICHE_END, COURS_CLOSE,
+	OPEN_LEFT, PARENTAL, CONTENT, DONE,
+}
 enum Place { TOP, BOTTOM, BOTTOM_RIGHT, CENTER }
 
 const QUEST_TITLES := [
 	"Ta première série", "Ta deuxième série", "Le menu", "Les récompenses",
-	"Le Livre", "Les succès", "Les cours", "Fin de la visite",
+	"Le Livre", "Les succès", "Les cours", "Le contrôle parental", "Le contenu du jeu",
+	"Fin de la visite",
 ]
 const BUBBLE_WIDTH := 620.0
 ## Bulle "compacte" pendant une serie de questions : une seule ligne, tenue dans la marge du haut de
@@ -35,6 +44,13 @@ const BUBBLE_WIDTH := 620.0
 const BUBBLE_WIDTH_COMPACT := 900.0
 const BUBBLE_MARGIN := 8.0
 const BUBBLE_MARGIN_COMPACT := 3.0
+## Style propre a l'info-bulle (2026-10-08, retour Steve : meme fond que les fenetres du jeu, "ca
+## fait fouillis") : lavande pastel + bordure violette + ombre portee, pour qu'elle se lise comme
+## une couche posee PAR-DESSUS le jeu et ne se confonde avec aucune fenetre (aucune n'utilise de
+## violet, couleur seulement associee au CM1 dans le code couleur des classes).
+const BUBBLE_BG := Color("EEE6FF")
+const BUBBLE_BORDER := Color("7E57C2")
+const BUBBLE_TEXT := Color("3E2470")
 
 @onready var _npc_click: InteractableComponent2D = $NPCs/NPC_CP/InteractableComponent
 @onready var _npc_visual: Sprite2D = $NPCs/NPC_CP/ProfVisual
@@ -46,6 +62,10 @@ const BUBBLE_MARGIN_COMPACT := 3.0
 @onready var _cours_panel: Control = $UI/CoursPanel
 @onready var _backpack_menu: BackpackMenu = $UI/BackpackMenu
 @onready var _backpack_button: Button = $UI/BackpackButton
+@onready var _open_menu_button: Button = $UI/OpenMenuButton
+@onready var _demo_menu_dock: Control = $UI/DemoMenuDock
+@onready var _demo_blur: CanvasItem = $UI/BackpackBlurBG
+@onready var _cours: CoursPanel = $UI/CoursPanel
 @onready var _reveal_mask: Control = $UI/CardRevealOverlay/InputMask
 @onready var _tutorial_root: Control = $TutorialLayer/Root
 @onready var _spotlight: TutorialSpotlight = $TutorialLayer/Root/Spotlight
@@ -54,6 +74,7 @@ const BUBBLE_MARGIN_COMPACT := 3.0
 @onready var _skip_button: Button = $TutorialLayer/Root/Bubble/Margin/Content/HeaderRow/SkipButton
 @onready var _text_label: Label = $TutorialLayer/Root/Bubble/Margin/Content/TextLabel
 @onready var _finish_button: Button = $TutorialLayer/Root/Bubble/Margin/Content/FinishButton
+@onready var _next_button: Button = $TutorialLayer/Root/Bubble/Margin/Content/NextButton
 @onready var _bubble_margin: MarginContainer = $TutorialLayer/Root/Bubble/Margin
 
 var _step: Step = Step.NPC
@@ -62,12 +83,16 @@ var _current_subject: Subject = Subject.MATH
 var _current_total: int = 0
 var _place: Place = Place.BOTTOM
 var _compact := false
+## Fiches de cours pas (encore) disponibles (paquets Supabase non telecharges, ex. hors ligne) :
+## la quete 7 saute directement a "ferme le menu".
+var _cours_unavailable := false
 
 func _ready() -> void:
 	_reset_demo_progress()
 	## CanvasLayer coupe la propagation du Theme (meme raison que les autres fenetres).
 	_tutorial_root.theme = SaveManager.THEMES[SaveManager.ui_theme]
 	_text_label.custom_minimum_size.x = BUBBLE_WIDTH - 40.0
+	_apply_bubble_style()
 
 	_npc_click.interacted.connect(_on_npc_clicked)
 	_subject_panel.visibility_changed.connect(_on_subject_panel_visibility_changed)
@@ -84,11 +109,34 @@ func _ready() -> void:
 	for overlay_name in ["ConfirmOverlay", "InsufficientFundsOverlay"]:
 		var overlay := _shop_panel.get_node(overlay_name) as Control
 		overlay.visibility_changed.connect(_refresh_spotlight)
+	_cours.notions_view.visibility_changed.connect(_on_cours_notions_visibility_changed)
+	_cours.fiche_panel.visibility_changed.connect(_on_fiche_visibility_changed)
+	_cours.fiche_panel.closed.connect(_on_fiche_closed)
+	ContentLibrary.content_updated.connect(func() -> void: _refresh_spotlight.call_deferred())
+	_demo_menu_dock.theme = _tutorial_root.theme
+	_demo_menu_dock.hide()
+	for button in _demo_menu_dock.find_children("*", "Button", true, false):
+		(button as Control).mouse_filter = Control.MOUSE_FILTER_IGNORE # vitrine : on n'entre pas dedans
+	_open_menu_button.pressed.connect(_on_open_menu_pressed)
+	_next_button.pressed.connect(_on_next_pressed)
 	_skip_button.pressed.connect(_leave_tutorial)
 	_finish_button.pressed.connect(_leave_tutorial)
 	_bubble.resized.connect(_place_bubble)
 
 	_go(Step.NPC)
+
+func _apply_bubble_style() -> void:
+	var style := StyleBoxFlat.new()
+	style.bg_color = BUBBLE_BG
+	style.border_color = BUBBLE_BORDER
+	style.set_border_width_all(4)
+	style.set_corner_radius_all(18)
+	style.shadow_color = Color(0, 0, 0, 0.35)
+	style.shadow_size = 10
+	style.shadow_offset = Vector2(0, 5)
+	_bubble.add_theme_stylebox_override("panel", style)
+	_text_label.add_theme_color_override("font_color", BUBBLE_TEXT)
+	_quest_label.add_theme_color_override("font_color", BUBBLE_BORDER)
 
 ## --- Deroule des quetes ---
 
@@ -103,18 +151,29 @@ func _go(step: Step) -> void:
 	for side in ["margin_top", "margin_bottom"]:
 		_bubble_margin.add_theme_constant_override(side, 2 if _compact else (8 if side == "margin_top" else 10))
 	_finish_button.visible = step == Step.DONE
+	_next_button.visible = step in [Step.PARENTAL, Step.CONTENT]
 	_skip_button.visible = step != Step.DONE
 	match step:
 		Step.CHOOSE, Step.ANSWER, Step.RESULT:
 			_place = Place.TOP
-		Step.DONE:
+		Step.DONE, Step.CONTENT:
 			_place = Place.CENTER
 		Step.NPC:
 			_place = Place.BOTTOM_RIGHT # a l'ecart du cercle autour de la maitresse (a gauche)
 		_:
 			_place = Place.BOTTOM
 	_refresh_spotlight()
+	## 2e passage differe : certaines cibles (cases du livre de cours) ne sont construites que
+	## juste apres l'ouverture de leur fenetre.
+	_refresh_spotlight.call_deferred()
 	_place_bubble.call_deferred()
+	if step in [Step.COURS, Step.COURS_NOTION]:
+		_check_cours_available.call_deferred()
+
+func _process(_delta: float) -> void:
+	## Fiche lue jusqu'au bout = bouton "page suivante" desactive (derniere page, voir FichePanel).
+	if _step == Step.COURS_FICHE and _cours.fiche_panel.visible and _cours.fiche_panel.next_button.disabled:
+		_go(Step.COURS_FICHE_END)
 
 func _quest_index() -> int:
 	match _step:
@@ -130,9 +189,13 @@ func _quest_index() -> int:
 			return 4
 		Step.SUCCESS:
 			return 5
-		Step.COURS:
+		Step.COURS, Step.COURS_NOTION, Step.COURS_FICHE, Step.COURS_FICHE_END, Step.COURS_CLOSE:
 			return 6
-	return 7
+		Step.OPEN_LEFT, Step.PARENTAL:
+			return 7
+		Step.CONTENT:
+			return 8
+	return 9
 
 func _step_text() -> String:
 	match _step:
@@ -161,7 +224,23 @@ func _step_text() -> String:
 		Step.SUCCESS:
 			return "Chaque sans-faute fait avancer un défi (bronze, argent, or) qui débloque des musiques et des décors de classe. Clique sur Cours."
 		Step.COURS:
-			return "Les cours sont des fiches pour réviser chaque notion. Ferme le menu avec la croix."
+			return "Les cours sont des fiches pour réviser chaque notion. Clique sur Mathématiques."
+		Step.COURS_NOTION:
+			return "Voici les notions de mathématiques du CP. Clique sur la première."
+		Step.COURS_FICHE:
+			return "Lis la fiche et passe à la page suivante avec la flèche, jusqu'à la dernière page."
+		Step.COURS_FICHE_END:
+			return "Bravo, tu as lu toute la fiche ! Ferme-la avec la croix."
+		Step.COURS_CLOSE:
+			if _cours_unavailable:
+				return "Les fiches de cours ne sont pas encore chargées. Ferme le menu avec la croix."
+			return "Tu sais réviser une notion avec les cours. Ferme le menu avec la croix."
+		Step.OPEN_LEFT:
+			return "Un conseil pour les parents ! Ouvre le menu de gauche."
+		Step.PARENTAL:
+			return "Dans le menu de gauche, l'icône Contrôle parental permet de changer le nombre de parties autorisées par jour. Elle est protégée par le mot de passe parental, obligatoire à la création du compte. Aujourd'hui, on n'entre pas dedans !"
+		Step.CONTENT:
+			return _content_text()
 	return "Bravo, tu connais l'essentiel ! Pour jouer pour de vrai et garder tes pièces et tes cartes, crée un compte avec un adulte. À bientôt en classe !"
 
 func _remaining_subject() -> Subject:
@@ -186,9 +265,21 @@ func _refresh_spotlight() -> void:
 				_spotlight.clear()
 			else:
 				_spotlight.focus_on(_shop_panel.get_crate_item(Grade.CP))
-		Step.OPEN_BOOK, Step.BOOK, Step.SUCCESS, Step.COURS:
+		Step.OPEN_BOOK, Step.BOOK, Step.SUCCESS, Step.COURS_CLOSE:
 			_spotlight.focus_on(_backpack_menu.get_node(_dock_target_path()))
-		Step.DONE:
+		Step.COURS:
+			_spotlight.focus_on(_cours_target())
+		Step.COURS_NOTION:
+			_spotlight.focus_on(_cours_target())
+		Step.COURS_FICHE:
+			_spotlight.focus_on(_cours.fiche_panel.next_button)
+		Step.COURS_FICHE_END:
+			_spotlight.focus_on(_cours.fiche_panel.close_button)
+		Step.OPEN_LEFT:
+			_spotlight.focus_on(_open_menu_button)
+		Step.PARENTAL:
+			_spotlight.focus_on(_demo_menu_dock.get_node("IconList/ParentalControlButton"))
+		Step.DONE, Step.CONTENT:
 			_spotlight.dim_all()
 		_:
 			_spotlight.clear()
@@ -202,6 +293,35 @@ func _dock_target_path() -> NodePath:
 		Step.SUCCESS:
 			return ^"IconDock/IconList/CoursButton"
 	return ^"IconDock/CloseButton"
+
+## Case a viser dans le livre de cours : Mathematiques (etape COURS) ou 1re notion ayant une fiche
+## (etape COURS_NOTION). null tant que la grille n'est pas construite.
+func _cours_target() -> Button:
+	if _step == Step.COURS:
+		var math_button := _find_live_button(_cours.subject_grid, SubjectType.get_label(Subject.MATH))
+		return math_button if math_button != null and not math_button.disabled else null
+	return _find_live_button(_cours.notion_grid, "")
+
+## Verifie (en differe, une fois la grille reconstruite par CoursPanel) qu'il y a bien une fiche a
+## montrer - sinon la quete 7 passe directement a "ferme le menu".
+func _check_cours_available() -> void:
+	if _step in [Step.COURS, Step.COURS_NOTION] and _cours_target() == null:
+		_cours_unavailable = true
+		_go(Step.COURS_CLOSE)
+
+## Bouton (cree en code dans un cadre colore, voir CoursPanel._colored_frame) d'une grille du livre
+## de cours : celui dont le texte vaut [text], ou le 1er bouton actif si [text] est vide. Ignore
+## les cases en cours de suppression (la grille est reconstruite a chaque affichage).
+func _find_live_button(grid: Node, text: String) -> Button:
+	for frame in grid.get_children():
+		if frame.is_queued_for_deletion() or frame.get_child_count() == 0:
+			continue
+		var button := frame.get_child(0) as Button
+		if button == null:
+			continue
+		if (text.is_empty() and not button.disabled) or button.text == text:
+			return button
+	return null
 
 func _place_bubble() -> void:
 	var view := get_viewport().get_visible_rect().size
@@ -278,9 +398,9 @@ func _on_backpack_menu_visibility_changed() -> void:
 			_top_up_for_cp_crate()
 			_shop_panel.tabs.current_tab = 0
 			_go(Step.SHOP)
-	elif _step == Step.COURS:
-		_go(Step.DONE)
-	elif _step in [Step.SHOP, Step.OPEN_BOOK, Step.BOOK, Step.SUCCESS]:
+	elif _step == Step.COURS_CLOSE:
+		_go(Step.OPEN_LEFT)
+	elif _step in [Step.SHOP, Step.OPEN_BOOK, Step.BOOK, Step.SUCCESS, Step.COURS, Step.COURS_NOTION, Step.COURS_FICHE, Step.COURS_FICHE_END]:
 		_go(Step.OPEN_MENU)
 
 ## "La maitresse complete ta bourse" : de quoi acheter au moins un coffre du CP, meme apres deux
@@ -305,6 +425,64 @@ func _on_reveal_mask_visibility_changed() -> void:
 func _on_panel_opened(panel: Control, from_step: Step, to_step: Step) -> void:
 	if panel.visible and _step == from_step:
 		_go(to_step)
+
+func _on_cours_notions_visibility_changed() -> void:
+	if _cours.notions_view.visible and _step == Step.COURS:
+		_go(Step.COURS_NOTION)
+
+func _on_fiche_visibility_changed() -> void:
+	if _cours.fiche_panel.visible and _step == Step.COURS_NOTION:
+		_go(Step.COURS_FICHE)
+
+func _on_fiche_closed() -> void:
+	if _step in [Step.COURS_FICHE, Step.COURS_FICHE_END]:
+		_go(Step.COURS_CLOSE)
+
+func _on_open_menu_pressed() -> void:
+	if _step != Step.OPEN_LEFT:
+		return
+	_demo_menu_dock.show()
+	_demo_blur.visible = true
+	_go(Step.PARENTAL)
+
+func _on_next_pressed() -> void:
+	match _step:
+		Step.PARENTAL:
+			_demo_menu_dock.hide()
+			_demo_blur.visible = false
+			_go(Step.CONTENT)
+		Step.CONTENT:
+			_go(Step.DONE)
+
+## Chiffres du jeu complet, calcules en direct : cartes = cartes distinctes des 5 coffres, tenues =
+## 9 achetables par classe (la tenue n°0 est offerte), questions = tous les paquets deja
+## telecharges (texte generique si rien n'est encore charge, ex. 1er lancement hors ligne).
+func _content_text() -> String:
+	var cards: Dictionary = {}
+	for crate: LootTableResource in _shop_panel.available_crates:
+		for entry: LootEntry in crate.entries:
+			if entry.card != null:
+				cards[entry.card.id] = true
+	var grade_count := Grade.size()
+	var outfits := (ProfSkinCatalog.SKINS_PER_GRADE - 1) * grade_count
+	var questions := 0
+	for grade: Grade in Grade.values():
+		for subject: Subject in ContentLibrary.get_available_subjects(grade):
+			questions += ContentLibrary.get_questions(grade, subject).size()
+	var questions_text := "des milliers de questions" if questions == 0 else "%s questions" % _format_number(questions)
+	return "Le jeu complet, c'est %s du CP au CM2, %d cartes d'animaux à collectionner, %d tenues de professeurs, %d décors et %d musiques de classe à débloquer !" % [
+		questions_text, cards.size(), outfits, grade_count, grade_count,
+	]
+
+## 12345 -> "12 345" (espace des milliers, usage francais).
+func _format_number(value: int) -> String:
+	var digits := str(value)
+	var result := ""
+	for i in digits.length():
+		if i > 0 and (digits.length() - i) % 3 == 0:
+			result += " "
+		result += digits[i]
+	return result
 
 ## --- Entree / sortie ---
 

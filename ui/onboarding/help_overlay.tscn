@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://cn16e2u5cb0q"]
 
 [ext_resource type="Script" uid="uid://b2pflp8kuybb8" path="res://ui/onboarding/help_overlay.gd" id="1"]
+[ext_resource type="Script" path="res://ui/common/underlined_label.gd" id="2"]
 
 [node name="HelpOverlay" type="Control" unique_id=821936609]
 visible = false
@@ -101,6 +102,7 @@ size_flags_horizontal = 3
 theme_override_constants/separation = 16
 
 [node name="Title" type="Label" parent="Panel/Margin/Content/Tabs/Intro/Scroll/ScrollMargin/List" unique_id=1465213423]
+script = ExtResource("2")
 layout_mode = 2
 theme_override_font_sizes/font_size = 20
 text = "Le but du jeu"
@@ -155,6 +157,7 @@ size_flags_horizontal = 3
 theme_override_constants/separation = 16
 
 [node name="ClassesTitle" type="Label" parent="Panel/Margin/Content/Tabs/ContenuJeu/Scroll/ScrollMargin/List" unique_id=1993054813]
+script = ExtResource("2")
 layout_mode = 2
 theme_override_font_sizes/font_size = 20
 text = "Les classes et les matières"
@@ -166,6 +169,7 @@ text = "Une seule salle de classe accueille cinq professeurs, un par niveau du C
 autowrap_mode = 2
 
 [node name="QuestionsTitle" type="Label" parent="Panel/Margin/Content/Tabs/ContenuJeu/Scroll/ScrollMargin/List" unique_id=159161777]
+script = ExtResource("2")
 layout_mode = 2
 theme_override_font_sizes/font_size = 20
 text = "Les questions"
@@ -177,6 +181,7 @@ text = "En cliquant sur un professeur, l'enfant reçoit un petit paquet de quest
 autowrap_mode = 2
 
 [node name="RecompensesTitle" type="Label" parent="Panel/Margin/Content/Tabs/ContenuJeu/Scroll/ScrollMargin/List" unique_id=2009965787]
+script = ExtResource("2")
 layout_mode = 2
 theme_override_font_sizes/font_size = 20
 text = "La boutique et les récompenses"
@@ -188,6 +193,7 @@ text = "L'icône « Récompenses » ouvre la boutique : les pièces permettent d
 autowrap_mode = 2
 
 [node name="DefisTitle" type="Label" parent="Panel/Margin/Content/Tabs/ContenuJeu/Scroll/ScrollMargin/List" unique_id=2111874738]
+script = ExtResource("2")
 layout_mode = 2
 theme_override_font_sizes/font_size = 20
 text = "Les défis"
@@ -199,6 +205,7 @@ text = "L'icône « Succès » suit un défi par classe et par matière : plus o
 autowrap_mode = 2
 
 [node name="CartesTitle" type="Label" parent="Panel/Margin/Content/Tabs/ContenuJeu/Scroll/ScrollMargin/List" unique_id=900935007]
+script = ExtResource("2")
 layout_mode = 2
 theme_override_font_sizes/font_size = 20
 text = "Les cartes"
@@ -233,9 +240,10 @@ size_flags_horizontal = 3
 theme_override_constants/separation = 16
 
 [node name="Title" type="Label" parent="Panel/Margin/Content/Tabs/MisesAJour/Scroll/ScrollMargin/List" unique_id=965518411]
+script = ExtResource("2")
 layout_mode = 2
 theme_override_font_sizes/font_size = 20
-text = "Version actuelle : V1.01"
+text = "Version actuelle : V1.02 - 08/10/2026"
 autowrap_mode = 2
 
 [node name="Intro" type="Label" parent="Panel/Margin/Content/Tabs/MisesAJour/Scroll/ScrollMargin/List" unique_id=483433055]
@@ -245,22 +253,30 @@ autowrap_mode = 2
 
 [node name="Liste" type="Label" parent="Panel/Margin/Content/Tabs/MisesAJour/Scroll/ScrollMargin/List" unique_id=1844344695]
 layout_mode = 2
+text = "- Fiches de cours en mathématiques (du CP au CM2), en français et en anglais
+- Nouveau décor de classe
+- Coffres : gestion des cartes en double
+- Icône plein écran
+- Bulles d'aide et démo-tutoriel depuis l'écran d'accueil
+- Corrections de contenu"
+autowrap_mode = 2
+
+[node name="SeparatorV101" type="HSeparator" parent="Panel/Margin/Content/Tabs/MisesAJour/Scroll/ScrollMargin/List"]
+layout_mode = 2
+
+[node name="TitleV101" type="Label" parent="Panel/Margin/Content/Tabs/MisesAJour/Scroll/ScrollMargin/List"]
+script = ExtResource("2")
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "V1.01 - 27/09/2026"
+autowrap_mode = 2
+
+[node name="ListeV101" type="Label" parent="Panel/Margin/Content/Tabs/MisesAJour/Scroll/ScrollMargin/List"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
 text = "- Ajout d'un clavier virtuel pour écran tactile
 - Création des décors pour les succès des classes CP et CE1
 - Musiques ajoutées pour les 5 classes"
-autowrap_mode = 2
-
-[node name="ProchainementTitle" type="Label" parent="Panel/Margin/Content/Tabs/MisesAJour/Scroll/ScrollMargin/List"]
-layout_mode = 2
-theme_override_font_sizes/font_size = 20
-text = "Prochainement"
-autowrap_mode = 2
-
-[node name="ProchainementListe" type="Label" parent="Panel/Margin/Content/Tabs/MisesAJour/Scroll/ScrollMargin/List"]
-layout_mode = 2
-text = "- Implémentation des fiches de cours
-- Ajout et correction de contenu
-- Décors de classes CE2, CM1 et CM2"
 autowrap_mode = 2
 
 [node name="Cloture" type="Label" parent="Panel/Margin/Content/Tabs/MisesAJour/Scroll/ScrollMargin/List" unique_id=296488017]
