@@ -49,17 +49,8 @@ signal reading_pack_started(source: Node, passage: PassageResource, questions: A
 const PACK_SIZE := 10
 
 ## Titre affiche dans le bouton du reticule central (voir InteractPrompt) quand ce PNJ est en
-## portee - pose sur l'InteractableComponent (prompt_text) au _ready. Genre (Maitre/Maitresse)
-## choisi au hasard par classe pour l'instant, juste pour avoir un texte plausible a l'ecran :
-## PAS de systeme de genre a construire ici, ces titres seront corriges/rendus coherents avec le
-## personnage reel une fois les modeles 3D des PNJ en place (retour Steve, 2026-08-02).
-const _GRADE_TEACHER_TITLES := {
-	GradeLevel.Grade.CP: "Maîtresse du CP",
-	GradeLevel.Grade.CE1: "Maître du CE1",
-	GradeLevel.Grade.CE2: "Maîtresse du CE2",
-	GradeLevel.Grade.CM1: "Maître du CM1",
-	GradeLevel.Grade.CM2: "Maîtresse du CM2",
-}
+## portee - pose sur l'InteractableComponent (prompt_text) au _ready. Source unique depuis le
+## 2026-10-08 : TeacherIdentity (data/teacher_identity.gd), partagee avec l'etiquette NameTag.
 
 ## Classe fixe de ce PNJ (contrairement a l'ancienne version ou c'etait la matiere qui etait
 ## fixe et la classe choisie a l'interaction - voir MATIERES_CANDIDATES.md pour le contexte de
@@ -85,7 +76,7 @@ func _ready() -> void:
 	var interactable := _find_sibling_interactable()
 	if interactable:
 		interactable.interacted.connect(_on_interacted)
-		interactable.prompt_text = _GRADE_TEACHER_TITLES.get(grade, GradeLevel.get_label(grade))
+		interactable.prompt_text = TeacherIdentity.get_teacher_title(grade)
 	## Auto-connexion via EventBus (pas une connexion posee dans le .tscn) : voir event_bus.gd,
 	## une connexion de scene pour ce signal s'est perdue plusieurs fois (reconstruction de
 	## scene, ou ecrasee par un enregistrement depuis l'editeur). start_pack_for_subject

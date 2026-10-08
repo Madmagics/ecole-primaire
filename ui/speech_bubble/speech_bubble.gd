@@ -38,14 +38,17 @@ const _DOT_MID_OFFSET_X := 5.0
 const _DOT_FAR_OFFSET_X := 7.0
 
 @export_range(0.0, 10.0, 0.5) var idle_bob_amplitude: float = 3.0
-## Largeur minimale forcee sur le Label (voir _ready) : sans elle, le PanelContainer/
-## MarginContainer se reduisent a la taille intrinseque du Label, qui - autowrap actif - peut
-## descendre pres de 0 et fait alors passer chaque mot a la ligne (bulle haute et etroite, bug
-## constate en jeu le 2026-09-05). custom_minimum_size force un plancher par axe indépendamment
-## de l'autre (meme lecon que le badge carre de interact_prompt.gd) : ca donne au texte assez de
-## largeur pour se repartir normalement, et autowrap_mode=WORD prend le relais si un texte plus
-## long depasse quand meme cette largeur.
-@export var bubble_text_width: float = 200.0
+## Largeur du texte adaptee a sa longueur (2026-10-08, retour de Steve "adapter la taille de la
+## bulle en fonction de la longueur des textes" apres la reecriture des bulles a la 1re personne,
+## 53 a 129 caracteres) : remplace l'ancienne largeur fixe bubble_text_width (200 px), qui donnait
+## une bulle haute et etroite sur les textes longs. Voir _fit_label_width.
+## Un texte qui tient sur une ligne en dessous de bubble_max_width garde sa largeur naturelle
+## (plancher bubble_min_width) ; au-dela, il est reparti sur le nombre de lignes minimal, a
+## largeur egale, pour une bulle equilibree plutot qu'une ligne pleine suivie d'un mot seul.
+@export var bubble_min_width: float = 140.0
+@export var bubble_max_width: float = 340.0
+## Marge laissee entre la bulle et le bord de l'ecran (voir _keep_inside_screen).
+@export var screen_edge_margin: float = 8.0
 
 @onready var _body: PanelContainer = $Body
 @onready var _label: Label = $Body/Margin/Label
@@ -63,7 +66,6 @@ func _ready() -> void:
 	mouse_filter = Control.MOUSE_FILTER_IGNORE
 	modulate.a = 0.0
 	pivot_offset = Vector2.ZERO
-	_label.custom_minimum_size.x = bubble_text_width
 	_prof_visual = _find_sibling_prof_visual()
 	var question_giver := _find_sibling_question_giver()
 	if question_giver:
@@ -117,8 +119,15 @@ func show_bubble() -> void:
 	if text.is_empty():
 		return
 	_label.text = text
-	await get_tree().process_frame # laisse le PanelContainer/MarginContainer recalculer leur taille sur le nouveau texte
+	_fit_label_width(text)
+	await get_tree().process_frame # laisse le Label recalculer sa hauteur (retour a la ligne) sur la nouvelle largeur
+	## Un Control ne retrecit jamais tout seul quand sa taille minimale baisse : sans reset_size(),
+	## la bulle garderait la taille du texte precedent, plus long (doc Control.reset_size).
+	_body.reset_size()
+	await get_tree().process_frame
+	_body.reset_size()
 	_layout_bubble()
+	_keep_inside_screen()
 	_is_showing = true
 	await _pop_in()
 
@@ -138,6 +147,37 @@ func _layout_bubble() -> void:
 	_dot_near.position = Vector2(-_DOT_SIZE_NEAR * 0.5, -_DOT_SIZE_NEAR)
 	_dot_mid.position = Vector2(-_DOT_SIZE_MID * 0.5 + _DOT_MID_OFFSET_X, -_DOT_SIZE_NEAR - _DOT_GAP - _DOT_SIZE_MID)
 	_dot_far.position = Vector2(-_DOT_SIZE_FAR * 0.5 + _DOT_FAR_OFFSET_X, -_DOT_SIZE_NEAR - _DOT_GAP - _DOT_SIZE_MID - _DOT_GAP - _DOT_SIZE_FAR)
+
+## Calcule la largeur du Label selon la longueur reelle du texte, mesuree avec la police et la
+## taille effectivement utilisees par le Label (Font.get_string_size, une seule ligne).
+func _fit_label_width(text: String) -> void:
+	var font: Font = _label.get_theme_font("font")
+	var font_size: int = _label.get_theme_font_size("font_size")
+	var natural_width: float = font.get_string_size(text, HORIZONTAL_ALIGNMENT_LEFT, -1.0, font_size).x
+	var width: float = natural_width
+	if natural_width > bubble_max_width:
+		var line_count: float = ceilf(natural_width / bubble_max_width)
+		## +10 % : le retour a la ligne se fait par mots entiers, chaque ligne perd donc un peu de
+		## place - sans cette marge, le dernier mot passerait souvent sur une ligne de plus.
+		width = minf(bubble_max_width, natural_width / line_count * 1.1)
+	_label.custom_minimum_size.x = clampf(ceilf(width), bubble_min_width, bubble_max_width)
+
+## Decale horizontalement le corps de la bulle (pas les petits ronds, qui restent sous la tete du
+## PNJ) s'il deborde de l'ecran - cas du PNJ du CM2, proche du bord droit, avec un texte long.
+## Coordonnees ecran via get_global_transform_with_canvas() (tient compte de la camera).
+func _keep_inside_screen() -> void:
+	var screen_width: float = get_viewport_rect().size.x
+	var anchor_x: float = get_global_transform_with_canvas().origin.x
+	var body_left: float = anchor_x + _body.position.x
+	var body_right: float = body_left + _body.size.x
+	var shift: float = 0.0
+	if body_left < screen_edge_margin:
+		shift = screen_edge_margin - body_left
+	elif body_right > screen_width - screen_edge_margin:
+		shift = (screen_width - screen_edge_margin) - body_right
+	## Jamais au point que les petits ronds sortent de sous la bulle.
+	var max_shift: float = maxf(0.0, _body.size.x * 0.5 - 24.0)
+	_body.position.x += clampf(shift, -max_shift, max_shift)
 
 func _pop_in() -> void:
 	scale = Vector2(0.6, 0.6)

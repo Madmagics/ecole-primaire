@@ -53,6 +53,10 @@ const TWO_COLUMNS_THRESHOLD := 5
 const _FRAME_THICKNESS := 4.0
 const _FRAME_CORNER_RADIUS := 16
 
+## Case de matiere grisee (tutoriel, voir open_for) : anneau gris + case a demi transparente.
+const DISABLED_FRAME_COLOR := Color(0.6, 0.6, 0.6)
+const DISABLED_FRAME_MODULATE := Color(1, 1, 1, 0.5)
+
 var _source: Node
 
 func _ready() -> void:
@@ -81,27 +85,29 @@ func _on_visibility_changed() -> void:
 		PlayerInputLock.unlock()
 
 ## Appele par le PNJ (QuestionGiverComponent) a l'interaction, avant de lancer un pack.
-func open_for(source: Node, grade: GradeLevel.Grade, available_subjects: Array[SubjectType.Subject]) -> void:
+## [disabled_subjects] (2026-10-08, tutoriel) : matieres affichees mais grisees et non cliquables -
+## vide dans le jeu normal (les PNJ passent 3 arguments via le signal, la valeur par defaut s'applique).
+func open_for(source: Node, grade: GradeLevel.Grade, available_subjects: Array[SubjectType.Subject], disabled_subjects: Array[SubjectType.Subject] = []) -> void:
 	_source = source
 	title_label.text = "Choisis ta matière (%s)" % GradeLevel.get_label(grade)
-	_rebuild_buttons(available_subjects)
+	_rebuild_buttons(available_subjects, disabled_subjects)
 	show()
 
-func _rebuild_buttons(available_subjects: Array[SubjectType.Subject]) -> void:
+func _rebuild_buttons(available_subjects: Array[SubjectType.Subject], disabled_subjects: Array[SubjectType.Subject] = []) -> void:
 	for child in buttons_container.get_children():
 		child.queue_free()
 	buttons_container.columns = 2 if available_subjects.size() >= TWO_COLUMNS_THRESHOLD else 1
 	for subject in available_subjects:
-		buttons_container.add_child(_build_subject_frame(subject))
+		buttons_container.add_child(_build_subject_frame(subject, subject in disabled_subjects))
 
 ## Une "case" = carte coloree (couleur de la matiere) contenant le bouton natif du theme, legerement
 ## inset (voir _FRAME_THICKNESS) pour laisser apparaitre un anneau colore tout autour - une seule
 ## cellule pour le GridContainer parent. Taille naturelle (pas d'expand) : avec une seule colonne,
 ## le CenterContainer parent (voir .tscn) centre le bloc au lieu de l'etirer sur toute la largeur.
-func _build_subject_frame(subject: SubjectType.Subject) -> PanelContainer:
+func _build_subject_frame(subject: SubjectType.Subject, is_disabled: bool = false) -> PanelContainer:
 	var frame := PanelContainer.new()
 	var frame_style := StyleBoxFlat.new()
-	frame_style.bg_color = SubjectType.get_color(subject)
+	frame_style.bg_color = DISABLED_FRAME_COLOR if is_disabled else SubjectType.get_color(subject)
 	frame_style.set_corner_radius_all(_FRAME_CORNER_RADIUS)
 	frame_style.set_content_margin_all(_FRAME_THICKNESS)
 	frame.add_theme_stylebox_override("panel", frame_style)
@@ -117,6 +123,9 @@ func _build_subject_frame(subject: SubjectType.Subject) -> PanelContainer:
 	button.text = SubjectType.get_label(subject)
 	button.custom_minimum_size = Vector2(200, 44)
 	button.pressed.connect(_on_subject_pressed.bind(subject))
+	if is_disabled:
+		button.disabled = true
+		frame.modulate = DISABLED_FRAME_MODULATE
 	frame.add_child(button)
 
 	return frame

@@ -63,6 +63,12 @@ const BLUR_SHADER := preload("res://ui/game_menu/icon_dock_blur.gdshader")
 ## Meme reglage que NpcBlurBG (game_ui.tscn) : flou 2 + voile noir 40 %.
 const BLUR_AMOUNT := 2.0
 const BLUR_TINT := Color(0, 0, 0, 0.4)
+## Icone oeil des champs mot de passe (2026-10-08, retour utilisateur) : memes icones que le
+## formulaire de connexion (welcome_panel.gd) - oeil = masque, clic pour afficher ; oeil barre =
+## affiche, clic pour remasquer.
+const EYE_ICON_VISIBLE := preload("res://assets/icons/oeil.svg")
+const EYE_ICON_HIDDEN := preload("res://assets/icons/oeil_barre.svg")
+const EYE_BUTTON_SIZE := 50.0
 
 ## Rangees de touches caractere. Les touches speciales (Maj, effacer, Fermer, espace, OK) sont
 ## ajoutees dans _build_ui(). Largeurs relatives via size_flags_stretch_ratio : chaque rangee
@@ -86,6 +92,12 @@ var _description_label: Label
 var _preview_panel: PanelContainer
 var _preview_label: Label
 var _suggestions_row: HBoxContainer
+## Bouton oeil, visible seulement si le champ est un mot de passe (LineEdit.secret).
+var _eye_button: Button
+## true = le mot de passe est affiche en clair dans la copie. Ne touche PAS LineEdit.secret du
+## vrai champ (il reste masque dans le formulaire, cache sous le flou de toute facon) ; remis a
+## false a chaque ouverture du clavier.
+var _reveal_secret: bool = false
 ## Texte pour lequel la ligne de suggestions a ete calculee (evite de reconstruire les boutons a
 ## chaque image, seulement quand le texte change).
 var _suggestions_for_text: String = ""
@@ -123,6 +135,8 @@ func _on_gui_focus_changed(node: Control) -> void:
 	_target = line_edit
 	_target.virtual_keyboard_enabled = false
 	_set_shift(ShiftState.OFF)
+	_set_reveal_secret(false)
+	_eye_button.visible = line_edit.secret
 	_show_description(_describe(line_edit))
 	_root.show()
 	set_process(true)
@@ -149,7 +163,8 @@ func _update_preview() -> void:
 		_preview_label.text = _target.placeholder_text
 		_preview_label.modulate.a = 0.5
 		return
-	var shown := SECRET_CHAR.repeat(text.length()) if _target.secret else text
+	var masked := _target.secret and not _reveal_secret
+	var shown := SECRET_CHAR.repeat(text.length()) if masked else text
 	var caret := clampi(_target.caret_column, 0, shown.length())
 	_preview_label.text = shown.left(caret) + CARET_CHAR + shown.substr(caret)
 	_preview_label.modulate.a = 1.0
@@ -251,6 +266,13 @@ func _on_close_pressed() -> void:
 	if is_instance_valid(_target):
 		_target.release_focus()
 	_close()
+
+func _on_eye_pressed() -> void:
+	_set_reveal_secret(not _reveal_secret)
+
+func _set_reveal_secret(reveal: bool) -> void:
+	_reveal_secret = reveal
+	_eye_button.icon = EYE_ICON_HIDDEN if reveal else EYE_ICON_VISIBLE
 
 ## Maj : un appui = une seule majuscule, deuxieme appui = verrouille (pratique pour le code
 ## parental tout en majuscules), troisieme appui = retour en minuscules.
@@ -363,6 +385,20 @@ func _build_ui() -> void:
 	_preview_label.text_overrun_behavior = TextServer.OVERRUN_TRIM_CHAR
 	_preview_label.clip_text = true
 	_preview_panel.add_child(_preview_label)
+
+	## Bouton oeil a droite de la copie. Button (pas TextureButton) pour garder le clic sonore de
+	## SoundManager, et FOCUS_NONE comme les touches pour ne pas voler le focus au champ.
+	_eye_button = Button.new()
+	_eye_button.flat = true
+	_eye_button.focus_mode = Control.FOCUS_NONE
+	_eye_button.expand_icon = true
+	_eye_button.icon_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	_eye_button.custom_minimum_size = Vector2(EYE_BUTTON_SIZE, EYE_BUTTON_SIZE)
+	_eye_button.size_flags_vertical = Control.SIZE_SHRINK_CENTER
+	_eye_button.icon = EYE_ICON_VISIBLE
+	_eye_button.pressed.connect(_on_eye_pressed)
+	_eye_button.hide()
+	_card_box.add_child(_eye_button)
 
 	_panel = PanelContainer.new()
 	layout.add_child(_panel)

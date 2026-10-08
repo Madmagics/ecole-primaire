@@ -209,6 +209,10 @@ var _turnstile_js_callback: JavaScriptObject
 @onready var intro_menu: HBoxContainer = $IntroMenu
 @onready var enter_button: TextureButton = $IntroMenu/EntrerButton
 @onready var quit_button: TextureButton = $IntroMenu/QuitterButton
+## Demo-tutoriel sans compte (2026-10-08) : bascule sur levels/tutorial/tutorial.tscn, qui revient
+## ici (school.tscn) a la fin - voir levels/tutorial/tutorial.gd.
+@onready var tutorial_button: TextureButton = $IntroMenu/TutorielButton
+const TUTORIAL_SCENE := "res://levels/tutorial/tutorial.tscn"
 @onready var panel: Panel = $Panel
 
 @onready var close_button: Button = $Panel/TitleRow/CloseButton
@@ -323,6 +327,7 @@ func _ready() -> void:
 
 	enter_button.pressed.connect(_on_enter_pressed)
 	quit_button.pressed.connect(_on_quit_pressed)
+	tutorial_button.pressed.connect(_on_tutorial_pressed)
 	## Bouton "Quitter" retire sur la version Web (2026-09-12, retour utilisateur : "Quitter" fige
 	## la page d'intro au lieu de fermer quoi que ce soit) : get_tree().quit() arrete la boucle du
 	## moteur mais ne ferme jamais l'onglet - comportement documente du moteur sur export Web, pas
@@ -473,6 +478,12 @@ func _show_intro_menu() -> void:
 ## "Entrer en classe" : bascule vers le formulaire (Panel), toujours sur l'onglet connexion
 ## (_show_login_section) - la creation de compte reste accessible depuis la, via
 ## SwitchToCreateButton, comme avant.
+## hide() avant de changer de scene : libere le PlayerInputLock pose par cet ecran (voir
+## _on_visibility_changed), qui sinon resterait compte une fois la scene detruite.
+func _on_tutorial_pressed() -> void:
+	hide()
+	get_tree().change_scene_to_file(TUTORIAL_SCENE)
+
 func _on_enter_pressed() -> void:
 	intro_menu.hide()
 	panel.show()

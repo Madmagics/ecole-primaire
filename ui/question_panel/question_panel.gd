@@ -168,6 +168,10 @@ const PROGRESS_ICON_SIZE := 28
 ## commentaire de classe, 2026-09-04) - assignes dans game_ui.tscn.
 @export var open_menu_button_path: NodePath
 @export var backpack_button_path: NodePath
+## Mode tutoriel (2026-10-08, scene levels/tutorial) : pas d'icone de signalement, et un sans-faute
+## n'enregistre rien (ni Defi ni evenement serveur - aucun compte connecte pendant la demo), seul
+## un message explicatif s'affiche. Faux dans le jeu normal.
+@export var tutorial_mode: bool = false
 
 @onready var panel: PanelContainer = $Panel
 ## Marge du cadre (Panel/Margin) - lue dynamiquement (get_theme_constant) dans
@@ -421,7 +425,7 @@ func _display_current_question() -> void:
 	var question := _questions[_current_index]
 	progress_label.text = "Question %d/%d" % [_current_index + 1, _questions.size()]
 	_progress_icon.visible = false
-	bug_button.visible = true
+	bug_button.visible = not tutorial_mode
 	_update_question_label_max_width(question.grid_cells.size() == 9)
 	question_label.text = _build_question_bbcode(question.text)
 	## Enonce recopie au-dessus de la case dans le clavier du jeu (le reste de l'ecran y est floute,
@@ -958,7 +962,12 @@ func _show_result() -> void:
 	## Popup + son (Sfx.CHALLENGE_SUCCESS) distincts de la fanfare PACK_REWARD ci-dessus : un
 	## evenement different (progression Défis), pas la recompense en pieces - retour utilisateur :
 	## "on precise l'incrementation de succes avec une popup et un petit son de reussite".
-	if correct == total and total > 0:
+	if correct == total and total > 0 and tutorial_mode:
+		challenge_label.text = "Sans faute ! Dans le vrai jeu, cela fait avancer un défi."
+		challenge_label.visible = true
+		## Pas de popup flottante ici : elle passerait sous l'info-bulle du tutoriel (en haut).
+		SoundManager.play(SoundManager.Sfx.CHALLENGE_SUCCESS)
+	elif correct == total and total > 0:
 		var subject: SubjectType.Subject = _questions[0].subject
 		var new_count := ChallengeTracker.register_success(grade, subject)
 		## Journal d'evenements pour la synchro serveur (2026-09-13, voir SaveManager.log_event()) :

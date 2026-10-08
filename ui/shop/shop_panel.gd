@@ -218,6 +218,10 @@ const PROF_SKIN_GRADES: Array[GradeLevel.Grade] = [
 @export var available_crates: Array[LootTableResource] = []
 ## Bouton IconDock a cloner pour title_icon (voir commentaire de classe) - assigne dans game_ui.tscn.
 @export var title_icon_source_path: NodePath
+## Tutoriel (2026-10-08, demande Steve : "desactiver les coffres et la boutique pour les classes
+## autres que CP") : coffres, coffres a doublons, onglets de skins et cases Succes des classes
+## CE1-CM2 grises et non cliquables. Faux dans le jeu normal.
+@export var tutorial_cp_only: bool = false
 
 @onready var title_icon: TextureRect = $Panel/TitleRow/TitleIcon
 @onready var tabs: TabContainer = $Panel/Margin/Content/Tabs
@@ -348,6 +352,45 @@ func _ready() -> void:
 	visibility_changed.connect(_on_visibility_changed)
 
 	_equalize_tab_widths()
+	if tutorial_cp_only:
+		_apply_tutorial_cp_only()
+
+## Voir tutorial_cp_only. Les cases verrouillees gardent leur propre logique de rafraichissement
+## (qui ne touche jamais au modulate/mouse_filter de la racine) : le verrou pose ici tient donc.
+func _apply_tutorial_cp_only() -> void:
+	for i in tabs.get_tab_count():
+		var tab_name := String(tabs.get_tab_control(i).name)
+		if tab_name in ["CE1", "CE2", "CM1", "CM2"]:
+			tabs.set_tab_disabled(i, true)
+	for item in _crate_items:
+		if GradeLevel.get_grade_for_rarity(item.loot_table.rarity) != GradeLevel.Grade.CP:
+			_lock_item(item)
+	for item in _duplicate_crate_items:
+		if item.get_grade() != GradeLevel.Grade.CP:
+			_lock_item(item)
+	for item in _classroom_music_items:
+		if item.grade != GradeLevel.Grade.CP:
+			_lock_item(item)
+	for item in _classroom_decor_items:
+		if item.grade != GradeLevel.Grade.CP:
+			_lock_item(item)
+
+func _lock_item(control: Control) -> void:
+	control.modulate = Color(1, 1, 1, 0.35)
+	_ignore_mouse_recursive(control)
+
+func _ignore_mouse_recursive(control: Control) -> void:
+	control.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	for child in control.get_children():
+		if child is Control:
+			_ignore_mouse_recursive(child)
+
+## Case "coffre" de [grade] (tutoriel : cible du cercle de mise en valeur), null si absente.
+func get_crate_item(grade: GradeLevel.Grade) -> Control:
+	for item in _crate_items:
+		if GradeLevel.get_grade_for_rarity(item.loot_table.rarity) == grade:
+			return item
+	return null
 
 func _on_visibility_changed() -> void:
 	if visible:
@@ -393,11 +436,15 @@ func _on_purchase_requested(loot_table: LootTableResource, quantity: int) -> voi
 	if Economy.get_balance(loot_table.rarity) < total_price:
 		_show_insufficient_funds()
 		return
+	## Formulation (2026-10-08, demande de Steve) : "Utilise 20 pièces pour acheter un nouveau coffre,
+	## tu trouveras une des cartes de la collection CP !" - crate_name vaut deja le nom de la classe
+	## (CP/CE1/CE2/CM1/CM2), d'ou une seule phrase pour les 5 coffres. Variante au pluriel si le
+	## joueur a monte la quantite avec le "+" de la case.
 	var question: String
 	if quantity > 1:
-		question = "Acheter %d x « %s » pour %d ?" % [quantity, loot_table.crate_name, total_price]
+		question = "Utilise %d pièces pour acheter %d nouveaux coffres, tu trouveras %d cartes de la collection %s !" % [total_price, quantity, quantity, loot_table.crate_name]
 	else:
-		question = "Acheter « %s » pour %d ?" % [loot_table.crate_name, total_price]
+		question = "Utilise %d pièces pour acheter un nouveau coffre, tu trouveras une des cartes de la collection %s !" % [total_price, loot_table.crate_name]
 	_ask_confirm(question, _do_purchase_crate.bind(loot_table, quantity))
 
 func _do_purchase_crate(loot_table: LootTableResource, quantity: int) -> void:
