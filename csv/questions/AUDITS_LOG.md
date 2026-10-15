@@ -1425,3 +1425,8 @@ Script : `server/correctifs_2026-10-03_logique.sql`. `fn_publier()` : cp/ce2/cm1
 - Faux choix remplacés : orthographes inventées (ânessee, coqe...) -> la femelle elle-même + 2 autres mâles.
 - Réponses corrigées : brebis -> bélier (au lieu de mouton), vache -> taureau (au lieu de boeuf).
 - Signalements : #15 corrigé (Prends ta trousse / Take your pencil case), #16-#17 corrigés côté code (carrés couleur, question_panel.gd), #3-#4 rejetés.
+
+### #39 — 2026-10-12 — CE1 : signalement "escalier" + intrus de logique trop faciles — corrigé et publié DANS SUPABASE
+- Signalement BUG 30802 (CE1 orthographe) : "escalier" admet la diérèse es-ca-li-er (4) alors que 4 est un mauvais choix -> mot remplacé par "lavabo" (3). Signalement passé en "corrige". Script : server/correctifs_2026-10-12_signalement_30802.sql.
+- Demande de Steve : CE1 logique "Quel élément n'est pas un animal/fruit/objet/une forme ?" trop facile (une forme au milieu d'animaux). Les 40 questions (41222-41261, notion intrus) remplacées par des intrus à l'intérieur d'une même catégorie, avec pièges : oiseau (chauve-souris, papillon, abeille, coccinelle qui volent ; manchot et poule restent des oiseaux), insecte (escargot, crabe, oiseau, chauve-souris), ne vole pas (manchot), poisson (dauphin, baleine, pieuvre, crabe), fruit/légume, ne pond pas d'œufs (dauphin piège), forme sans coin. Script : server/correctifs_2026-10-12_intrus_logique_ce1.sql. Ce format n'existe dans aucune autre classe.
+- Validé ensuite par Steve : 30884 "musicien" -> "pantalon", 30950 "parapluie" -> "robinet", 100198 "galaxie" -> "tabouret" (3 syllabes, sans ambiguïté). Script : server/correctifs_2026-10-12_syllabes_ambigus.sql.
