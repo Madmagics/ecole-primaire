@@ -27,7 +27,7 @@ THEMES_LIBRES = [
         'pencil, pencils, pen, rubber, rubbers, ruler, rulers, schoolbag, bag, book, books, notebook, glue, scissors, '
         'pencil sharpener, calculator, binder, stapler, marker, map, computer')),
     ('ecole_classe', "Dans l'école", _l(
-        'chair, table, blackboard, teacher, playground, canteen, timetable, homework, classroom, desk')),
+        'chair, table, blackboard, teacher, playground, cafeteria, timetable, homework, classroom, desk')),
     ('ecole_matieres', 'Les matières', _l('english, maths, art, music, pe, science, history, geography, french')),
     ('emotions', 'Comment je me sens', _l('happy, sad, angry, scared, tired, hungry, thirsty, surprised, sick, bored')),
     ('caractere', 'Le caractère', _l('nice, funny, brave, shy, clever, busy, noisy, quiet, kind, lazy')),

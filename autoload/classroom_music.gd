@@ -37,17 +37,20 @@
 ## commentaire de classe pour le detail) - _active etait un bool INDEPENDANT par classe, rien
 ## n'empechait donc d'activer la musique du CP ET celle du CE1 en meme temps. toggle_active()
 ## desactive desormais explicitement toute autre classe avant d'activer celle demandee.
+##
+## DEBLOCAGE CALCULE EN DIRECT (2026-11-06, demande de Steve a l'arrivee de l'Histoire-Geo) : plus
+## aucun etat "debloque" stocke. is_unlocked() = can_unlock() : TOUTES les matieres ACTUELLES de la
+## classe doivent etre au palier. Quand une matiere est ajoutee, le bonus se reverrouille donc
+## naturellement jusqu'a ce que cette matiere atteigne le palier ; les compteurs des autres
+## matieres (ChallengeTracker, sauvegardes/synchronises par classe+matiere) ne sont jamais touches.
+## _active (choix du joueur) est conserve : pendant un reverrouillage, is_active() renvoie false
+## (retour a la base), puis le choix revient tout seul une fois le bonus revalide.
+## _refresh_active() re-emet le signal a chaque mise a jour du contenu ou nouvelle reussite pour que
+## school.gd / SoundManager rappliquent le bon etat.
 extends Node
 
 const Grade = GradeLevel.Grade
 
-var _unlocked: Dictionary = {
-	Grade.CP: false,
-	Grade.CE1: false,
-	Grade.CE2: false,
-	Grade.CM1: false,
-	Grade.CM2: false,
-}
 var _active: Dictionary = {
 	Grade.CP: false,
 	Grade.CE1: false,
@@ -61,8 +64,25 @@ var _active: Dictionary = {
 ## ProfSkins.skin_activated.
 signal music_activated(grade: Grade, active: bool)
 
+## Connexions differees : ContentLibrary est declare APRES cet autoload dans project.godot, on attend
+## donc que tous les autoloads soient dans l'arbre avant de s'y abonner.
+func _ready() -> void:
+	_connect_sources.call_deferred()
+
+func _connect_sources() -> void:
+	ContentLibrary.content_updated.connect(_refresh_active)
+	ChallengeTracker.success_registered.connect(func(_g: Grade, _s: int) -> void: _refresh_active())
+
+## Re-emet music_activated pour la classe choisie par le joueur (s'il y en a une), avec son etat REEL
+## (debloque ou non a cet instant) - les abonnes relisent l'etat complet, un signal en trop ne coute
+## rien (ils ne changent rien si l'affichage est deja le bon).
+func _refresh_active() -> void:
+	for grade in _active.keys():
+		if _active[grade]:
+			music_activated.emit(grade, is_active(grade))
+
 func is_unlocked(grade: Grade) -> bool:
-	return bool(_unlocked.get(grade, false))
+	return can_unlock(grade)
 
 ## Une musique NON debloquee n'est jamais active, quoi que _active contienne (garde-fou, ne
 ## devrait de toute facon jamais arriver - toggle_active() refuse deja de s'activer si non
@@ -94,12 +114,8 @@ func can_unlock(grade: Grade) -> bool:
 ## redescend jamais une fois un Defi a l'argent. N'active PAS automatiquement la musique (voir le
 ## commentaire de classe) - reste au joueur de la selectionner ensuite via toggle_active().
 func try_unlock(grade: Grade) -> bool:
-	if is_unlocked(grade):
-		return false
-	if not can_unlock(grade):
-		return false
-	_unlocked[grade] = true
-	return true
+	## Plus d'etat stocke (voir DEBLOCAGE CALCULE EN DIRECT) : simple verification.
+	return can_unlock(grade)
 
 ## Bascule la musique de [grade] entre active et inactive (retour a la musique de base) - ne fait
 ## rien si non debloquee. Renvoie le nouvel etat. Une seule musique active a la fois, toutes classes
@@ -121,8 +137,7 @@ func toggle_active(grade: Grade) -> bool:
 ## Remet chaque classe a "non debloquee, non active" (voir SaveManager.reset_current_account_
 ## progress).
 func reset() -> void:
-	for grade in _unlocked.keys():
-		_unlocked[grade] = false
+	for grade in _active.keys():
 		_active[grade] = false
 	## Meme famille de bug que ProfSkins.reset() (voir son commentaire, 2026-09-13) - meme raison que
 	## ClassroomDecor.reset() ci-dessus (voir son commentaire) : musique_activated emis par
@@ -131,7 +146,7 @@ func reset() -> void:
 		music_activated.emit(grade, false)
 
 func serialize() -> Dictionary:
-	return {"unlocked": _unlocked.duplicate(true), "active": _active.duplicate(true)}
+	return {"active": _active.duplicate(true)}
 
 ## Cles Dictionary : GDScript garde des int (l'enum Grade) mais JSON n'accepte que des cles
 ## String - meme situation deja documentee dans Economy.deserialize/ProfSkins.deserialize. Format
@@ -139,9 +154,7 @@ func serialize() -> Dictionary:
 ## {grade: bool} de la 1ere passe, meme mecanique que ClassroomDecor.serialize/deserialize.
 func deserialize(data: Dictionary) -> void:
 	reset()
-	var unlocked_data: Dictionary = data.get("unlocked", {})
-	for key in unlocked_data.keys():
-		_unlocked[int(key)] = bool(unlocked_data[key])
+	## L'ancienne cle "unlocked" des sauvegardes d'avant le 2026-11-06 est ignoree (deblocage calcule).
 	var active_data: Dictionary = data.get("active", {})
 	for key in active_data.keys():
 		_active[int(key)] = bool(active_data[key])

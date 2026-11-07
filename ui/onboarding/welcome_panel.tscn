@@ -18,6 +18,8 @@
 [ext_resource type="Texture2D" path="res://assets/icons/oeil.svg" id="16_icon_eye"]
 [ext_resource type="Texture2D" path="res://assets/icons/oeil_barre.svg" id="17_icon_eye_off"]
 [ext_resource type="Texture2D" path="res://assets/classe2.0/intro/Tutoriel.webp" id="18_tutoriel"]
+[ext_resource type="Texture2D" path="res://assets/icons/facebook.svg" id="19_icon_facebook"]
+[ext_resource type="Script" path="res://ui/onboarding/social_button.gd" id="20_social_button"]
 
 [node name="WelcomePanel" type="Control" unique_id=309200071]
 layout_mode = 3
@@ -50,9 +52,9 @@ anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
-offset_left = -420.0
+offset_left = -450.0
 offset_top = -124.0
-offset_right = 420.0
+offset_right = 390.0
 offset_bottom = -40.0
 grow_horizontal = 2
 grow_vertical = 0
@@ -624,9 +626,9 @@ anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
 offset_left = -88.0
-offset_top = -88.0
+offset_top = -116.0
 offset_right = -20.0
-offset_bottom = -20.0
+offset_bottom = -48.0
 grow_horizontal = 0
 grow_vertical = 0
 pivot_offset = Vector2(34, 34)
@@ -638,6 +640,29 @@ icon_alignment = 1
 expand_icon = true
 script = ExtResource("11_help_button")
 overlay_path = NodePath("../HelpOverlay")
+
+[node name="FacebookButton" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -164.0
+offset_top = -116.0
+offset_right = -96.0
+offset_bottom = -48.0
+grow_horizontal = 0
+grow_vertical = 0
+tooltip_text = "Notre page Facebook"
+focus_mode = 0
+mouse_default_cursor_shape = 2
+icon = ExtResource("19_icon_facebook")
+flat = true
+icon_alignment = 1
+expand_icon = true
+script = ExtResource("20_social_button")
+url = "https://www.facebook.com/people/%C3%89cole-Primaire/61595557884713/"
 
 [node name="HelpOverlay" parent="." unique_id=1869504952 instance=ExtResource("13_help_overlay")]
 visible = false

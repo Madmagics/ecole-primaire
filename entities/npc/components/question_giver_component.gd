@@ -154,7 +154,11 @@ func start_pack_for_subject(source: Node, subject: Subject) -> void:
 		return
 	var key := _draw_key(subject)
 	var state := SaveManager.get_draw_state(key)
-	var sample := QuestionDraw.draw_questions(_get_pool(subject), PACK_SIZE, state)
+	var sample: Array[QuestionResource]
+	if subject == Subject.HISTORY_GEO:
+		sample = _draw_history_geo(state)
+	else:
+		sample = QuestionDraw.draw_questions(_get_pool(subject), PACK_SIZE, state)
 	if sample.is_empty():
 		pack_unavailable.emit(self, "Pas encore de questions de %s pour le %s !" % [SubjectType.get_label(subject), GradeLevel.get_label(grade)])
 		return
@@ -189,6 +193,22 @@ func _start_reading_pack(_source: Node) -> void:
 	_current_subject = Subject.READING
 	_current_pack_size = questions.size()
 	reading_pack_started.emit(self, passage, questions, _rarity)
+
+## Histoire-Geo (CP, CE1, CE2 - decision de Steve du 2026-11-06) : chaque serie contient moitie
+## questions d'histoire, moitie questions de geographie (5 + 5). Le domaine de chaque question vient
+## de sa notion (ContentLibrary.get_notion_domains) ; une notion sans domaine connu va en histoire.
+func _draw_history_geo(state: Dictionary) -> Array[QuestionResource]:
+	var domains := ContentLibrary.get_notion_domains(grade, Subject.HISTORY_GEO)
+	var history: Array[QuestionResource] = []
+	var geography: Array[QuestionResource] = []
+	for question in _get_pool(Subject.HISTORY_GEO):
+		if str(domains.get(question.notion, "")) == "Géographie":
+			geography.append(question)
+		else:
+			history.append(question)
+	var half := PACK_SIZE / 2.0
+	var counts: Array[int] = [int(ceil(half)), int(floor(half))]
+	return QuestionDraw.draw_by_groups([history, geography], counts, state)
 
 ## Cle de l'historique de tirage du compte (voir SaveManager.get_draw_state), ex. "ce2/math".
 func _draw_key(subject: Subject) -> String:

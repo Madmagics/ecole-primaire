@@ -101,6 +101,15 @@ func get_notions(grade: Grade, subject: Subject) -> Array[Dictionary]:
 	_load_extras(key)
 	return _notions.get(key, [] as Array[Dictionary])
 
+## Domaine de chaque notion d'une classe+matiere : {code: "Histoire" | "Géographie" | ...} (champ
+## "domaine" des notions du paquet, ajoute le 2026-11-07 par server/histgeo_1_structure.sql). Sert au
+## tirage 5 histoire + 5 geographie de la matiere Histoire-Geo (CP-CE2).
+func get_notion_domains(grade: Grade, subject: Subject) -> Dictionary:
+	var result: Dictionary = {}
+	for notion: Dictionary in get_notions(grade, subject):
+		result[str(notion.get("code", ""))] = str(notion.get("domaine", ""))
+	return result
+
 ## Lit une seule fois les fiches et notions d'un paquet du cache (les questions, elles, sont
 ## fabriquees a part par get_questions).
 func _load_extras(key: String) -> void:

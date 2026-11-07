@@ -34,6 +34,9 @@
 ##   [droite de=0 a=2 parts=8 points=3,5 noms=fraction]  -> droite graduee entre deux entiers,
 ##                                                          "parts" = graduations ; noms=decimal
 ##                                                          ecrit 0,3 au lieu de 3/10
+## Histoire-Geographie (2026-11-06) : [planisphere] [horloge] [terre] [frise] [roue] [plan] [arbre]
+## [periodes] [relief] [cours_eau] ; CE2 (2026-11-07) : [carte] [quartiers], voir la
+## section "histoire-geographie" en fin de fichier.
 ## Les couleurs "classe" suivent le code couleur de la classe (GradeLevel.get_color).
 class_name FicheDessin
 extends Control
@@ -131,6 +134,32 @@ func _compute_min_size() -> Vector2:
 			return _pave_size()
 		"droite":
 			return Vector2(560, 112)
+		"planisphere":
+			return _plani_size() + Vector2(0, 6)
+		"horloge":
+			return Vector2(_horloges().size() * (HORLOGE_R * 2.0 + 50.0) - 50.0, HORLOGE_R * 2.0 + 50.0)
+		"terre":
+			return Vector2(560, 236)
+		"frise":
+			return Vector2(maxf(560.0, _liste("points").size() * 130.0), 90)
+		"roue":
+			return Vector2(ROUE_R * 2.0 + 80.0, ROUE_R * 2.0 + 50.0)
+		"plan":
+			return Vector2(640, 352)
+		"arbre":
+			return Vector2(640, 250)
+		"periodes":
+			return Vector2(PERIODE_W * 5.0 + 80.0, 140)
+		"relief":
+			return Vector2(700, 248)
+		"cours_eau":
+			return Vector2(700, 248)
+		"paysage":
+			return Vector2(790, 262)
+		"carte":
+			return _carte_min_size()
+		"quartiers":
+			return Vector2(720, 270)
 		"formes":
 			var count := _formes_liste().size()
 			var h := FORME + 34.0 + (26.0 if str(params.get("cotes", "")) == "oui" else 0.0)
@@ -254,6 +283,32 @@ func _draw() -> void:
 			_draw_pave()
 		"droite":
 			_draw_droite()
+		"planisphere":
+			_draw_planisphere()
+		"horloge":
+			_draw_horloge()
+		"terre":
+			_draw_terre()
+		"frise":
+			_draw_frise()
+		"roue":
+			_draw_roue()
+		"plan":
+			_draw_plan()
+		"arbre":
+			_draw_arbre()
+		"periodes":
+			_draw_periodes()
+		"relief":
+			_draw_relief()
+		"cours_eau":
+			_draw_cours_eau()
+		"paysage":
+			_draw_paysage()
+		"carte":
+			_draw_carte()
+		"quartiers":
+			_draw_quartiers()
 
 func _font() -> Font:
 	return get_theme_default_font()
@@ -845,3 +900,984 @@ func _draw_droite() -> void:
 			else:
 				label = "%d/%d" % [i + from * par_unite, par_unite]
 			_text(Vector2(x - 40, line_y - 18), label, 22, col_point, 80.0)
+
+# ---------------------------------------------------------------- histoire-geographie (2026-11-06)
+# Dessins des fiches d'Histoire et de Geographie, traces a la main comme les autres (aucune image) :
+#   [planisphere noms=oui oceans=oui france=oui cardinaux=oui seul=afrique largeur=720]
+#   [horloge heures=3h,9h30 numerique=oui]   [terre]   [plan]
+#   [frise points=hier,aujourd'hui,demain marque=2 debut=passé fin=futur]  ("_" = espace)
+#   [roue liste=lundi,mardi,... marque=1]   [arbre] (arbre genealogique sur 3 generations)
+
+const PlaniData := preload("res://ui/fiche/planisphere_data.gd")
+const PLANI_LAT_N := 84.0
+const PLANI_LAT_S := -78.0
+const MER := Color("BFE3F5")
+const MER_TEXTE := Color("1F5F8B")
+## code -> [couleur, nom, position du nom (longitude, latitude)]
+const PLANI_CONTINENTS := {
+	"amerique_nord": [Color("7CC47F"), "Amérique du Nord", Vector2(-102, 47)],
+	"amerique_sud": [Color("F6D55C"), "Amérique du Sud", Vector2(-60, -12)],
+	"europe": [Color("A98BE0"), "Europe", Vector2(24, 57)],
+	"afrique": [Color("EDA84A"), "Afrique", Vector2(20, 6)],
+	"asie": [Color("E57373"), "Asie", Vector2(95, 52)],
+	"oceanie": [Color("F08CC0"), "Océanie", Vector2(134, -25)],
+	"antarctique": [Color("FFFFFF"), "Antarctique", Vector2(20, -71)],
+}
+## [nom, position, principal (un des 3 grands oceans du CP)]
+const PLANI_OCEANS := [
+	["Atlantique", Vector2(-38, 22), true],
+	["Pacifique", Vector2(-140, 2), true],
+	["Pacifique", Vector2(170, 12), true],
+	["Indien", Vector2(78, -22), true],
+	["Arctique", Vector2(-165, 77), false],
+	["Austral", Vector2(-100, -60), false],
+]
+const HORLOGE_R := 56.0
+const ROUE_R := 140.0
+
+func _txt(s: String) -> String:
+	return s.replace("_", " ")
+
+func _liste(key: String) -> PackedStringArray:
+	var out := PackedStringArray()
+	for s: String in str(params.get(key, "")).split(",", false):
+		out.append(_txt(s))
+	return out
+
+## Texte centre sur [center] (ligne de base calculee), avec un contour clair pour rester lisible.
+func _label(center: Vector2, text: String, font_size: int, color: Color, outline: Color = Color.TRANSPARENT) -> void:
+	var w := _font().get_string_size(text, HORIZONTAL_ALIGNMENT_LEFT, -1, font_size).x + 4.0
+	var pos := Vector2(center.x - w / 2.0, center.y + font_size * 0.35)
+	if outline.a > 0.0:
+		draw_string_outline(_font(), pos, text, HORIZONTAL_ALIGNMENT_CENTER, w, font_size, 5, outline)
+	draw_string(_font(), pos, text, HORIZONTAL_ALIGNMENT_CENTER, w, font_size, color)
+
+## Le trait s'arrete a la base de la pointe (1 px de recouvrement pour ne pas laisser de jour) :
+## s'il allait jusqu'au bout, son epaisseur depassait du triangle et la pointe paraissait
+## emoussee (retour Steve 2026-11-07).
+func _fleche(from: Vector2, to: Vector2, color: Color, width: float = 3.0, head: float = 12.0) -> void:
+	var dir := (to - from).normalized()
+	var n := Vector2(-dir.y, dir.x)
+	var base := to - dir * (head - 1.0)
+	if (base - from).dot(dir) > 0.0:
+		draw_line(from, base, color, width, true)
+	draw_colored_polygon(PackedVector2Array([to, to - dir * head + n * head * 0.55, to - dir * head - n * head * 0.55]), color)
+
+# -------- planisphere
+
+## Bornes affichees [lon0, lat0, lon1, lat1] : le monde entier, ou cadre=lon0,lat0,lon1,lat1 (CM1, 2026-11-07)
+## pour zoomer sur une partie du planisphere (continents et traces decoupes au bord du cadre).
+func _plani_bornes() -> Array:
+	var c := str(params.get("cadre", "")).split(",", false)
+	if c.size() == 4:
+		return [float(c[0]), float(c[1]), float(c[2]), float(c[3])]
+	return [-180.0, PLANI_LAT_S, 180.0, PLANI_LAT_N]
+
+func _plani_size() -> Vector2:
+	var w := float(params.get("largeur", 720))
+	var b := _plani_bornes()
+	return Vector2(w, w * (b[3] - b[1]) / (b[2] - b[0]))
+
+func _geo(r: Rect2, lon: float, lat: float) -> Vector2:
+	var b := _plani_bornes()
+	return r.position + Vector2((lon - b[0]) / (b[2] - b[0]) * r.size.x, (b[3] - lat) / (b[3] - b[1]) * r.size.y)
+
+func _rect_poly(r: Rect2) -> PackedVector2Array:
+	return PackedVector2Array([r.position, Vector2(r.end.x, r.position.y), r.end, Vector2(r.position.x, r.end.y)])
+
+## Polygone decoupe au cadre de la carte (seulement si cadre= est donne).
+func _clip_poly(pts: PackedVector2Array, r: Rect2) -> Array:
+	if str(params.get("cadre", "")) == "":
+		return [pts]
+	return Geometry2D.intersect_polygons(pts, _rect_poly(r))
+
+func _clip_ligne(pts: PackedVector2Array, r: Rect2) -> Array:
+	if str(params.get("cadre", "")) == "":
+		return [pts]
+	return Geometry2D.intersect_polyline_with_polygon(pts, _rect_poly(r))
+
+func _label_dans(r: Rect2, c: Vector2, text: String, fs: int, color: Color, outline: Color = Color.TRANSPARENT) -> void:
+	if r.has_point(c):
+		_label(c, text, fs, color, outline)
+
+func _draw_planisphere() -> void:
+	var ps := _plani_size()
+	var r := Rect2(Vector2((size.x - ps.x) / 2.0, 2.0), ps)
+	var k := r.size.x / 720.0
+	draw_rect(r, MER)
+	var seul := str(params.get("seul", ""))
+	for code: String in PlaniData.CONTINENTS:
+		var fill: Color = PLANI_CONTINENTS[code][0]
+		if seul != "" and code != seul:
+			fill = fill.lerp(Color("EFEAE0"), 0.8)
+		elif _on("pale"):
+			fill = fill.lerp(Color("F4EFE6"), 0.75)
+		for ring: Array in PlaniData.CONTINENTS[code]:
+			var pts := PackedVector2Array()
+			for i: int in range(0, ring.size(), 2):
+				pts.append(_geo(r, float(ring[i]), float(ring[i + 1])))
+			for poly: PackedVector2Array in _clip_poly(pts, r):
+				if poly.size() < 3:
+					continue
+				draw_colored_polygon(poly, fill)
+				poly.append(poly[0])
+				draw_polyline(poly, INK.lerp(MER, 0.4), 1.2, true)
+	_draw_plani_couches(r, k)
+	if str(params.get("oceans", "")) != "":
+		var tous := str(params.get("oceans", "")) == "tous"
+		for o: Array in PLANI_OCEANS:
+			if o[2] or tous:
+				var c := _geo(r, o[1].x, o[1].y)
+				var fs := int(round((18.0 if o[2] else 14.0) * k))
+				_label(c - Vector2(0, fs * 0.6), "océan", fs - 2, MER_TEXTE)
+				_label(c + Vector2(0, fs * 0.6), o[0], fs, MER_TEXTE)
+	if str(params.get("noms", "")) == "oui":
+		for code: String in PLANI_CONTINENTS:
+			if seul == "" or code == seul:
+				var info: Array = PLANI_CONTINENTS[code]
+				_label_dans(r, _geo(r, info[2].x, info[2].y), info[1], int(round(20.0 * k)), INK, Color(1, 1, 1, 0.85))
+	if str(params.get("france", "")) == "oui":
+		var f := _geo(r, PlaniData.FRANCE.x, PlaniData.FRANCE.y)
+		draw_circle(f, 6.0 * k, Color("C62828"))
+		draw_arc(f, 6.0 * k, 0.0, TAU, 20, Color.WHITE, 2.0, true)
+		_label(f + Vector2(-46.0 * k, 0), "France", int(round(16.0 * k)), Color("C62828"), Color(1, 1, 1, 0.9))
+	if str(params.get("cardinaux", "")) == "oui":
+		_rose(_geo(r, -158, -36), 34.0 * k)
+	draw_rect(r, INK, false, 2.0)
+
+## Rose des vents : N en haut, puis E, S, O dans le sens des aiguilles d'une montre.
+func _rose(c: Vector2, l: float) -> void:
+	var col := INK
+	for d: Vector2 in [Vector2.UP, Vector2.RIGHT, Vector2.DOWN, Vector2.LEFT]:
+		var n := Vector2(-d.y, d.x)
+		draw_colored_polygon(PackedVector2Array([c + d * l, c + n * l * 0.2, c - n * l * 0.2]),
+			Color("C62828") if d == Vector2.UP else col)
+	var fs := int(l * 0.55)
+	_label(c + Vector2(0, -l - fs * 0.7), "N", fs, Color("C62828"), Color.WHITE)
+	_label(c + Vector2(l + fs * 0.7, 0), "E", fs, col, Color.WHITE)
+	_label(c + Vector2(0, l + fs * 0.7), "S", fs, col, Color.WHITE)
+	_label(c + Vector2(-l - fs * 0.7, 0), "O", fs, col, Color.WHITE)
+
+# -------- horloge
+
+func _horloges() -> Array:
+	var out := []
+	for s: String in str(params.get("heures", "3h")).split(",", false):
+		var parts := s.split("h")
+		out.append([int(parts[0]), int(parts[1]) if parts.size() > 1 and parts[1] != "" else 0])
+	return out
+
+func _draw_horloge() -> void:
+	var hs := _horloges()
+	var cell := HORLOGE_R * 2.0 + 50.0
+	var x := (size.x - (hs.size() * cell - 50.0)) / 2.0 + HORLOGE_R
+	var numerique := str(params.get("numerique", "")) == "oui"
+	for hm: Array in hs:
+		var c := Vector2(x, HORLOGE_R + 4.0)
+		draw_circle(c, HORLOGE_R, Color.WHITE)
+		draw_arc(c, HORLOGE_R, 0.0, TAU, 48, classe_color.darkened(0.2), 5.0, true)
+		for i: int in 60:
+			var a := TAU * i / 60.0
+			var d := Vector2(sin(a), -cos(a))
+			var long := 8.0 if i % 5 == 0 else 3.0
+			draw_line(c + d * (HORLOGE_R - 4.0), c + d * (HORLOGE_R - 4.0 - long), INK, 2.0 if i % 5 == 0 else 1.0, true)
+		for n: int in range(1, 13):
+			var a := TAU * n / 12.0
+			_label(c + Vector2(sin(a), -cos(a)) * (HORLOGE_R - 22.0), str(n), 15, INK)
+		var h: int = hm[0]
+		var m: int = hm[1]
+		var ah := TAU * ((h % 12) + m / 60.0) / 12.0
+		var am := TAU * m / 60.0
+		draw_line(c, c + Vector2(sin(am), -cos(am)) * (HORLOGE_R - 12.0), classe_color.darkened(0.3), 4.0, true)
+		draw_line(c, c + Vector2(sin(ah), -cos(ah)) * (HORLOGE_R * 0.52), INK, 7.0, true)
+		draw_circle(c, 5.0, INK)
+		var y := HORLOGE_R * 2.0 + 30.0
+		var txt := "%d h" % h if m == 0 else "%d h %02d" % [h, m]
+		if numerique:
+			var box := Rect2(Vector2(x - 46.0, y - 22.0), Vector2(92.0, 34.0))
+			draw_rect(box, Color("263238"))
+			_label(box.get_center(), "%d:%02d" % [h, m], 22, Color("8CF59B"))
+		else:
+			_label(Vector2(x, y - 4.0), txt, 20, INK)
+		x += cell
+
+# -------- terre (jour / nuit)
+
+func _draw_terre() -> void:
+	var cy := 112.0
+	var sun := Vector2(size.x / 2.0 - 190.0, cy)
+	var earth := Vector2(size.x / 2.0 + 120.0, cy)
+	var er := 74.0
+	for i: int in 12:
+		var a := TAU * i / 12.0
+		var d := Vector2(cos(a), sin(a))
+		draw_line(sun + d * 50.0, sun + d * 66.0, Color("F9A825"), 4.0, true)
+	draw_circle(sun, 44.0, Color("FFD54F"))
+	draw_arc(sun, 44.0, 0.0, TAU, 40, Color("F9A825"), 3.0, true)
+	_label(sun + Vector2(0, 92), "le Soleil", 19, INK)
+	for dy: float in [-44.0, 0.0, 44.0]:
+		_fleche(sun + Vector2(76, dy * 0.6), earth + Vector2(-er - 14.0, dy), Color("F9A825"), 2.5, 10.0)
+	draw_circle(earth, er, Color("27365E"))
+	var lit := PackedVector2Array()
+	for i: int in 33:
+		var a := PI / 2.0 + PI * i / 32.0
+		lit.append(earth + Vector2(cos(a), sin(a)) * er)
+	draw_colored_polygon(lit, Color("6EC6F0"))
+	draw_arc(earth, er, 0.0, TAU, 48, INK, 2.5, true)
+	_label(earth + Vector2(-er * 0.48, 0), "jour", 20, INK)
+	_label(earth + Vector2(er * 0.48, 0), "nuit", 20, Color.WHITE)
+	_label(earth + Vector2(0, er + 20.0), "la Terre", 19, INK)
+	# fleche courbe : la Terre tourne sur elle-meme. La pointe suit la tangente de l'arc a son bout
+	# (angle croissant = sens des aiguilles d'une montre a l'ecran, y vers le bas).
+	var a_fin := PI * 1.85
+	var ar := er + 16.0
+	draw_arc(earth, ar, PI * 1.15, a_fin - 0.08, 24, classe_color.darkened(0.2), 4.0, true)
+	var bout := earth + Vector2(cos(a_fin), sin(a_fin)) * ar
+	var tangente := Vector2(-sin(a_fin), cos(a_fin))
+	_fleche(bout - tangente * 16.0, bout + tangente * 4.0, classe_color.darkened(0.2), 4.0, 16.0)
+
+# -------- frise
+
+func _draw_frise() -> void:
+	var pts := _liste("points")
+	var marque := int(params.get("marque", 0))
+	var y := 40.0
+	var x0 := 20.0
+	var x1 := size.x - 20.0
+	var col := classe_color.darkened(0.15)
+	# La pointe va jusqu'au bord du dessin (18 px plus loin que la base de calcul des points)
+	# pour laisser de l'air entre le dernier point et la fleche (retour Steve 2026-11-07).
+	var x_pointe := size.x - 2.0
+	_fleche(Vector2(x0, y), Vector2(x_pointe, y), col, 6.0, 20.0)
+	var debut := _txt(str(params.get("debut", "")))
+	var fin := _txt(str(params.get("fin", "")))
+	# Etiquettes calees sur les bords (et non centrees pres du bord) : un nom long comme
+	# « IIIe République » ne doit pas sortir du dessin.
+	if debut != "":
+		var t_debut := "← " + debut
+		_label(Vector2(x0 + _font().get_string_size(t_debut, HORIZONTAL_ALIGNMENT_LEFT, -1, 17).x / 2.0 + 2.0, y - 24.0), t_debut, 17, col)
+	if fin != "":
+		var t_fin := fin + " →"
+		_label(Vector2(x_pointe - _font().get_string_size(t_fin, HORIZONTAL_ALIGNMENT_LEFT, -1, 17).x / 2.0 - 2.0, y - 24.0), t_fin, 17, col)
+	var n := pts.size()
+	for i: int in n:
+		var px := x0 + 40.0 + (x1 - x0 - 110.0) * (i / maxf(1.0, n - 1.0))
+		var on := i + 1 == marque
+		draw_circle(Vector2(px, y), 11.0 if on else 8.0, UNITES if on else Color.WHITE)
+		draw_arc(Vector2(px, y), 11.0 if on else 8.0, 0.0, TAU, 20, UNITES.darkened(0.3) if on else col, 3.0, true)
+		_label(Vector2(px, y + 34.0), pts[i], 19 if on else 18, UNITES.darkened(0.35) if on else INK)
+
+# -------- roue (temps cyclique)
+
+func _draw_roue() -> void:
+	var items := _liste("liste")
+	var marque := int(params.get("marque", 0))
+	var n := items.size()
+	var c := Vector2(size.x / 2.0, ROUE_R + 24.0)
+	var light := classe_color.lerp(Color.WHITE, 0.7)
+	var alt := UNITES.lerp(Color.WHITE, 0.6)
+	for i: int in n:
+		var a0 := -PI / 2.0 + TAU * i / n
+		var a1 := a0 + TAU / n
+		var poly := PackedVector2Array([c])
+		for j: int in 13:
+			var a := a0 + (a1 - a0) * j / 12.0
+			poly.append(c + Vector2(cos(a), sin(a)) * ROUE_R)
+		var fill := UNITES if i + 1 == marque else (light if i % 2 == 0 else alt)
+		draw_colored_polygon(poly, fill)
+		poly.append(c)
+		draw_polyline(poly, classe_color.darkened(0.25), 2.0, true)
+		var am := (a0 + a1) / 2.0
+		_label(c + Vector2(cos(am), sin(am)) * ROUE_R * 0.66, items[i], 17, INK)
+	draw_circle(c, 16.0, classe_color.darkened(0.2))
+	# sens de lecture : fleche courbe autour de la roue (sens des aiguilles d'une montre)
+	# L'arc s'arrete dans la pointe, qui suit la tangente de l'arc a son bout (comme pour la Terre)
+	var a_fin := -PI / 2.0 + 0.5
+	draw_arc(c, ROUE_R + 12.0, -PI / 2.0 - 0.5, a_fin - 0.06, 16, INK, 3.0, true)
+	var e := c + Vector2(cos(a_fin), sin(a_fin)) * (ROUE_R + 12.0)
+	var tangente := Vector2(-sin(a_fin), cos(a_fin))
+	_fleche(e - tangente * 12.0, e + tangente * 4.0, INK, 3.0, 12.0)
+
+# -------- plan de la classe (vu de dessus)
+
+func _draw_plan() -> void:
+	var r := Rect2(Vector2((size.x - 520.0) / 2.0, 10.0), Vector2(520.0, 300.0))
+	draw_rect(r, Color("FFF8EC"))
+	draw_rect(r, INK, false, 6.0)
+	# fenetres sur le mur de gauche
+	for fy: float in [70.0, 170.0]:
+		draw_line(r.position + Vector2(0, fy), r.position + Vector2(0, fy + 60.0), Color("6EC6F0"), 8.0)
+	_label(r.position + Vector2(-46, 136), "fenêtres", 15, MER_TEXTE)
+	# porte sur le mur de droite, en bas (ouverture + battant + arc)
+	var hinge := r.end - Vector2(0, 16)
+	draw_line(hinge, hinge - Vector2(0, 62), Color("FFF8EC"), 8.0)
+	draw_line(hinge, hinge - Vector2(58, 0), Color("8D5524"), 4.0)
+	draw_arc(hinge, 58.0, PI, PI * 1.5, 16, Color("8D5524"), 1.5, true)
+	_label(hinge + Vector2(34, -30), "porte", 15, Color("8D5524"))
+	# tableau en haut
+	var tb := Rect2(r.position + Vector2(170, 8), Vector2(180, 16))
+	draw_rect(tb, Color("2E7D32"))
+	_label(tb.get_center() + Vector2(0, 26), "tableau", 16, Color("2E7D32"))
+	# bureau de la maitresse / du maitre
+	var bu := Rect2(r.position + Vector2(40, 40), Vector2(80, 40))
+	draw_rect(bu, Color("BCAAA4"))
+	draw_rect(bu, Color("6D4C41"), false, 2.0)
+	_label(bu.get_center(), "bureau", 14, INK)
+	# tables des eleves : 3 rangees de 3 tables doubles, chaises (ronds) cote tableau oppose
+	var fill := classe_color.lerp(Color.WHITE, 0.55)
+	for row: int in 3:
+		for col: int in 3:
+			var t := Rect2(r.position + Vector2(130 + col * 120, 112 + row * 62), Vector2(90, 30))
+			draw_rect(t, fill)
+			draw_rect(t, classe_color.darkened(0.3), false, 2.0)
+			for k: int in 2:
+				draw_circle(t.position + Vector2(24 + k * 42, 42), 7.0, UNITES)
+	_label(r.position + Vector2(r.size.x / 2.0 + 10.0, r.size.y + 26.0), "tables des élèves (les ronds sont les chaises)", 15, INK)
+
+# -------- arbre genealogique (3 generations)
+
+func _boite(c: Vector2, text: String, w: float, fill: Color, line: Color, fs: int = 18) -> void:
+	var r := Rect2(c - Vector2(w / 2.0, 22.0), Vector2(w, 44.0))
+	draw_rect(r, fill)
+	draw_rect(r, line, false, 2.5)
+	_label(c, text, fs, INK)
+
+func _draw_arbre() -> void:
+	var line := classe_color.darkened(0.3)
+	var fill := classe_color.lerp(Color.WHITE, 0.65)
+	var alt := UNITES.lerp(Color.WHITE, 0.6)
+	var cx := size.x / 2.0
+	var y1 := 30.0
+	var y2 := 125.0
+	var y3 := 220.0
+	var gx := [cx - 255.0, cx - 115.0, cx + 115.0, cx + 255.0]
+	var px := [cx - 185.0, cx + 185.0]
+	# traits : couple -> enfant
+	for i: int in 2:
+		var mid: float = (gx[i * 2] + gx[i * 2 + 1]) / 2.0
+		draw_line(Vector2(gx[i * 2], y1), Vector2(gx[i * 2 + 1], y1), line, 3.0)
+		draw_line(Vector2(mid, y1), Vector2(mid, y1 + 40.0), line, 3.0)
+		draw_line(Vector2(mid, y1 + 40.0), Vector2(px[i], y1 + 40.0), line, 3.0)
+		draw_line(Vector2(px[i], y1 + 40.0), Vector2(px[i], y2), line, 3.0)
+	draw_line(Vector2(px[0], y2), Vector2(px[1], y2), line, 3.0)
+	draw_line(Vector2(cx, y2), Vector2(cx, y3), line, 3.0)
+	for i: int in 4:
+		_boite(Vector2(gx[i], y1), "grand-père" if i % 2 == 0 else "grand-mère", 128.0, alt, line, 17)
+	_boite(Vector2(px[0], y2), "papa", 128.0, fill, line)
+	_boite(Vector2(px[1], y2), "maman", 128.0, fill, line)
+	_boite(Vector2(cx, y3), "moi", 110.0, UNITES, line, 20)
+
+# -------- CE1 (2026-11-06) : couches du planisphere, grandes periodes, relief, cours d'eau
+#   [planisphere pale=oui zones=oui fleuves=oui montagnes=oui villes=oui forets=oui deserts=oui]
+#   [periodes marque=3]   [relief]   [cours_eau]
+
+## [nom, points (lon, lat), position du nom]
+const PLANI_FLEUVES := [
+	["Amazone", [-76, -5, -73.2, -3.7, -70, -4.2, -65, -3.3, -60, -3.1, -55, -2.2, -51, -1, -49.5, 0], Vector2(-60, 3.5)],
+	["Nil", [33, -1, 32.6, 3.5, 31.6, 9.5, 32.5, 15.6, 33.9, 19, 31.5, 21, 32.9, 24.1, 31.2, 30, 31, 31.4], Vector2(24, 20)],
+	["Mississippi", [-95.2, 47.2, -91, 44.5, -90.2, 38.6, -89.2, 36.8, -90, 35.1, -91.1, 32.3, -90.1, 30, -89.3, 29.2], Vector2(-80, 34)],
+]
+const PLANI_MONTAGNES := [
+	["Rocheuses", [-125, 58, -116, 49, -110, 42, -106, 35], Vector2(-134, 44)],
+	["Andes", [-77, 6, -78, -2, -72, -15, -69, -25, -71, -38, -73, -48], Vector2(-86, -24)],
+	["Alpes", [6, 44.5, 8, 46, 12, 47, 15, 47.3], Vector2(11, 52)],
+	["Atlas", [-9, 30.5, -4, 32.5, 1, 34, 7, 35.5], Vector2(-10, 26)],
+	["Himalaya", [74, 35, 80, 31, 86, 28, 95, 28], Vector2(85, 37)],
+]
+## [nom, position, nom a gauche du point]
+const PLANI_VILLES := [
+	["Paris", Vector2(2.35, 48.85), true],
+	["Tokyo", Vector2(139.7, 35.7), false],
+	["Lagos", Vector2(3.4, 6.5), true],
+	["New York", Vector2(-74, 40.7), false],
+	["São Paulo", Vector2(-46.6, -23.5), false],
+	["Sydney", Vector2(151.2, -33.9), true],
+]
+## [nom, centre, demi-largeur, demi-hauteur (degres)]
+const PLANI_FORETS := [
+	["forêt amazonienne", Vector2(-62, -6), 11.0, 6.0],
+	["forêt du Congo", Vector2(22, -1), 7.0, 4.5],
+	["forêt d'Indonésie", Vector2(113, 0), 9.0, 3.0],
+]
+const PLANI_DESERTS := [
+	["Sahara", Vector2(10, 23), 20.0, 6.0],
+]
+## Les 3 grands foyers de peuplement du monde (programme CE1)
+const PLANI_FOYERS := [
+	["Asie de l'Est", Vector2(115, 32), 12.0, 8.0],
+	["Asie du Sud", Vector2(80, 22), 8.0, 7.0],
+	["Europe", Vector2(12, 49), 12.0, 5.0],
+]
+const ZONE_FROIDE := Color("6FA8DC")
+const ZONE_TEMPEREE := Color("7CC47F")
+const ZONE_CHAUDE := Color("F2A541")
+
+func _poly_geo(r: Rect2, flat: Array) -> PackedVector2Array:
+	var pts := PackedVector2Array()
+	for i: int in range(0, flat.size(), 2):
+		pts.append(_geo(r, float(flat[i]), float(flat[i + 1])))
+	return pts
+
+func _on(key: String) -> bool:
+	return str(params.get(key, "")) == "oui"
+
+## Couches thematiques dessinees par-dessus les continents (CE1).
+func _draw_plani_couches(r: Rect2, k: float) -> void:
+	_draw_plani_cm(r, k)
+	if _on("zones"):
+		var bands := [[90.0, 66.5, ZONE_FROIDE, "zone froide"], [66.5, 23.5, ZONE_TEMPEREE, "zone tempérée"],
+			[23.5, -23.5, ZONE_CHAUDE, "zone chaude"], [-23.5, -66.5, ZONE_TEMPEREE, "zone tempérée"],
+			[-66.5, -90.0, ZONE_FROIDE, "zone froide"]]
+		for b: Array in bands:
+			var top := _geo(r, -180, minf(b[0], PLANI_LAT_N)).y
+			var bot := _geo(r, -180, maxf(b[1], PLANI_LAT_S)).y
+			var col: Color = b[2]
+			draw_rect(Rect2(r.position.x, top, r.size.x, bot - top), Color(col, 0.42))
+			if b[1] > -90.0 and b[1] > PLANI_LAT_S:
+				_tirets(Vector2(r.position.x, bot), Vector2(r.end.x, bot), col.darkened(0.35))
+			_label_gauche(Vector2(r.position.x + 6.0, (top + bot) / 2.0), b[3], int(round(15.0 * k)), col.darkened(0.55))
+	if _on("foyers"):
+		for f: Array in PLANI_FOYERS:
+			_nuage_points(r, f[1], f[2], f[3], Color("C62828"), 4.5 * k)
+			_label(_geo(r, f[1].x, f[1].y - f[3] - 4.5), f[0], int(round(15.0 * k)), Color("B71C1C"), Color(1, 1, 1, 0.9))
+	if _on("forets"):
+		for f: Array in PLANI_FORETS:
+			_nuage_points(r, f[1], f[2], f[3], Color("2E7D32"), 5.0 * k)
+			_label(_geo(r, f[1].x, f[1].y - f[3] - 4.0), f[0], int(round(15.0 * k)), Color("1B5E20"), Color(1, 1, 1, 0.9))
+	if _on("deserts"):
+		for d: Array in PLANI_DESERTS:
+			_nuage_points(r, d[1], d[2], d[3], Color("C7922F"), 3.5 * k)
+			_label(_geo(r, d[1].x, d[1].y), d[0], int(round(17.0 * k)), Color("6D4C1F"), Color(1, 1, 1, 0.9))
+	if _on("fleuves"):
+		for f: Array in PLANI_FLEUVES:
+			draw_polyline(_poly_geo(r, f[1]), Color("1565C0"), 3.5 * k, true)
+			_label(_geo(r, f[2].x, f[2].y), f[0], int(round(16.0 * k)), Color("0D47A1"), Color(1, 1, 1, 0.9))
+	if _on("montagnes"):
+		for m: Array in PLANI_MONTAGNES:
+			var pts := _poly_geo(r, m[1])
+			for i: int in pts.size() - 1:
+				var n := maxi(1, int(pts[i].distance_to(pts[i + 1]) / (11.0 * k)))
+				for j: int in n:
+					_sommet(pts[i].lerp(pts[i + 1], (j + 0.5) / n), 7.0 * k)
+			_label(_geo(r, m[2].x, m[2].y), m[0], int(round(16.0 * k)), Color("4E342E"), Color(1, 1, 1, 0.9))
+	if _on("villes"):
+		for v: Array in PLANI_VILLES:
+			var p := _geo(r, v[1].x, v[1].y)
+			draw_circle(p, 5.5 * k, Color("C62828"))
+			draw_arc(p, 5.5 * k, 0.0, TAU, 16, Color.WHITE, 1.5, true)
+			var fs := int(round(16.0 * k))
+			var w := _font().get_string_size(v[0], HORIZONTAL_ALIGNMENT_LEFT, -1, fs).x
+			var dx := -(w / 2.0 + 10.0 * k) if v[2] else (w / 2.0 + 10.0 * k)
+			_label(p + Vector2(dx, 0), v[0], fs, Color("B71C1C"), Color(1, 1, 1, 0.9))
+
+func _sommet(c: Vector2, s: float) -> void:
+	draw_colored_polygon(PackedVector2Array([c + Vector2(0, -s), c + Vector2(s * 0.9, s * 0.6), c + Vector2(-s * 0.9, s * 0.6)]), Color("8D6E63"))
+	draw_colored_polygon(PackedVector2Array([c + Vector2(0, -s), c + Vector2(s * 0.3, -s * 0.35), c + Vector2(-s * 0.3, -s * 0.35)]), Color.WHITE)
+
+## Points repartis regulierement dans une ellipse (foret, desert) - pas d'aleatoire : rendu stable.
+func _nuage_points(r: Rect2, c: Vector2, rx: float, ry: float, col: Color, rad: float) -> void:
+	var step := 2.6
+	var y := -ry
+	var row := 0
+	while y <= ry:
+		var x := -rx + (step / 2.0 if row % 2 == 1 else 0.0)
+		while x <= rx:
+			if (x * x) / (rx * rx) + (y * y) / (ry * ry) <= 1.0:
+				draw_circle(_geo(r, c.x + x, c.y + y), rad * 0.5, col)
+			x += step
+		y += step * 0.8
+		row += 1
+
+func _tirets(a: Vector2, b: Vector2, col: Color) -> void:
+	var d := a.distance_to(b)
+	var n := int(d / 12.0)
+	for i: int in n:
+		if i % 2 == 0:
+			draw_line(a.lerp(b, float(i) / n), a.lerp(b, float(i + 1) / n), col, 1.5)
+
+func _label_gauche(left_mid: Vector2, text: String, fs: int, color: Color) -> void:
+	var w := _font().get_string_size(text, HORIZONTAL_ALIGNMENT_LEFT, -1, fs).x
+	_label(left_mid + Vector2(w / 2.0 + 2.0, 0), text, fs, color, Color(1, 1, 1, 0.85))
+
+# -------- les 5 grandes periodes
+
+const PERIODES := [
+	["Préhistoire", Color("A1887F")], ["Antiquité", Color("F6C445")], ["Moyen Âge", Color("7CB342")],
+	["Temps modernes", Color("4FA3E0")], ["Époque contemporaine", Color("E57373")],
+]
+const PERIODES_BORNES := ["premiers humains", "3000 av. J.-C.", "476", "1492", "1789", "aujourd'hui"]
+const PERIODE_W := 150.0
+
+func _draw_periodes() -> void:
+	var marque := int(params.get("marque", 0))
+	var x0 := (size.x - PERIODE_W * 5.0) / 2.0
+	var y := 14.0
+	var h := 70.0
+	for i: int in 5:
+		var col: Color = PERIODES[i][1]
+		if marque > 0 and i + 1 != marque:
+			col = col.lerp(Color("EFEAE0"), 0.7)
+		var rect := Rect2(Vector2(x0 + i * PERIODE_W, y), Vector2(PERIODE_W, h))
+		draw_rect(rect, col)
+		draw_rect(rect, INK, false, 2.0)
+		var nom: String = PERIODES[i][0]
+		var parts := nom.split(" ", false, 1)
+		if parts.size() == 2 and _font().get_string_size(nom, HORIZONTAL_ALIGNMENT_LEFT, -1, 18).x > PERIODE_W - 12.0:
+			_label(rect.get_center() - Vector2(0, 11), parts[0], 18, INK)
+			_label(rect.get_center() + Vector2(0, 11), parts[1], 18, INK)
+		else:
+			_label(rect.get_center(), nom, 18, INK)
+	_fleche(Vector2(x0 + PERIODE_W * 5.0, y + h / 2.0), Vector2(x0 + PERIODE_W * 5.0 + 34.0, y + h / 2.0), INK, 4.0, 14.0)
+	for i: int in 6:
+		var bx := x0 + i * PERIODE_W
+		draw_line(Vector2(bx, y + h), Vector2(bx, y + h + 10.0), INK, 2.0)
+		var b: String = PERIODES_BORNES[i]
+		var bp := b.split(" ", false, 1)
+		if i == 0 or i == 5:
+			_label(Vector2(bx, y + h + 24.0), bp[0], 15, INK)
+			if bp.size() > 1:
+				_label(Vector2(bx, y + h + 42.0), bp[1], 15, INK)
+		else:
+			_label(Vector2(bx, y + h + 26.0), b, 18, Color("B71C1C"))
+
+# -------- relief (vu de cote)
+
+func _draw_relief() -> void:
+	var w := 680.0
+	var x0 := (size.x - w) / 2.0
+	var base := 230.0
+	var sol := Color("8BC34A")
+	var roche := Color("A1887F")
+	draw_rect(Rect2(Vector2(x0, 20), Vector2(w, base - 20)), Color("E3F2FD"))
+	var p := PackedVector2Array([
+		Vector2(x0, base), Vector2(x0, 186), Vector2(x0 + 170, 186),           # plaine
+		Vector2(x0 + 250, 60), Vector2(x0 + 290, 120), Vector2(x0 + 318, 182),   # montagne 1 puis vallee
+		Vector2(x0 + 362, 182), Vector2(x0 + 395, 112), Vector2(x0 + 440, 46),   # montagne 2
+		Vector2(x0 + 490, 120), Vector2(x0 + 520, 96), Vector2(x0 + 660, 96),    # plateau
+		Vector2(x0 + w, 150), Vector2(x0 + w, base)])
+	draw_colored_polygon(p, sol)
+	var line := p.duplicate()
+	draw_polyline(line, Color("33691E"), 3.0, true)
+	# neige des sommets
+	for pk: Vector2 in [Vector2(x0 + 250, 60), Vector2(x0 + 440, 46)]:
+		draw_colored_polygon(PackedVector2Array([pk, pk + Vector2(16, 20), pk + Vector2(-14, 20)]), Color.WHITE)
+	draw_rect(Rect2(Vector2(x0 + 326, 178), Vector2(28, 6)), Color("1E88E5"))
+	draw_line(Vector2(x0, base), Vector2(x0 + w, base), Color("5D4037"), 3.0)
+	draw_rect(Rect2(Vector2(x0, base), Vector2(w, 10)), roche)
+	var lab := Color("3E2723")
+	_label(Vector2(x0 + 85, 160), "plaine", 19, lab, Color(1, 1, 1, 0.9))
+	_label(Vector2(x0 + 250, 36), "montagne", 19, lab, Color(1, 1, 1, 0.9))
+	_label(Vector2(x0 + 340, 212), "vallée", 19, lab, Color(1, 1, 1, 0.9))
+	_label(Vector2(x0 + 590, 74), "plateau", 19, lab, Color(1, 1, 1, 0.9))
+	_fleche(Vector2(x0 + 340, 200), Vector2(x0 + 340, 186), lab, 2.0, 8.0)
+
+# -------- fleuve et riviere (vu de dessus)
+
+func _draw_cours_eau() -> void:
+	var w := 680.0
+	var x0 := (size.x - w) / 2.0
+	draw_rect(Rect2(Vector2(x0, 10), Vector2(w, 230)), Color("EAF4D9"))
+	var mer := Rect2(Vector2(x0 + w - 110, 10), Vector2(110, 230))
+	draw_rect(mer, MER)
+	_label(mer.get_center(), "la mer", 19, MER_TEXTE)
+	for s: Vector2 in [Vector2(x0 + 40, 70), Vector2(x0 + 62, 64), Vector2(x0 + 52, 210), Vector2(x0 + 74, 204)]:
+		_sommet(s, 14.0)
+	var bleu := Color("1E88E5")
+	var fleuve := PackedVector2Array([Vector2(x0 + 70, 86), Vector2(x0 + 170, 110), Vector2(x0 + 270, 98),
+		Vector2(x0 + 380, 128), Vector2(x0 + 480, 120), Vector2(x0 + w - 110, 132)])
+	draw_polyline(fleuve, bleu, 8.0, true)
+	var riviere := PackedVector2Array([Vector2(x0 + 80, 196), Vector2(x0 + 180, 186), Vector2(x0 + 270, 170), Vector2(x0 + 380, 128)])
+	draw_polyline(riviere, bleu, 4.0, true)
+	var lab := Color("0D47A1")
+	_label(Vector2(x0 + 70, 40), "source", 17, INK)
+	_fleche(Vector2(x0 + 70, 50), Vector2(x0 + 70, 80), INK, 2.0, 8.0)
+	_label(Vector2(x0 + 220, 78), "le fleuve", 20, lab, Color(1, 1, 1, 0.9))
+	_label(Vector2(x0 + 230, 205), "la rivière", 20, lab, Color(1, 1, 1, 0.9))
+	_label(Vector2(x0 + w - 150, 165), "embouchure", 17, INK, Color(1, 1, 1, 0.9))
+	_fleche(Vector2(x0 + w - 150, 152), Vector2(x0 + w - 116, 136), INK, 2.0, 8.0)
+
+# -------- paysage : premier plan / arriere-plan
+
+func _draw_paysage() -> void:
+	var w := 520.0
+	var x0 := (size.x - w - 250.0) / 2.0
+	var r := Rect2(Vector2(x0, 8), Vector2(w, 250))
+	draw_rect(r, Color("DCEFFB"))
+	# arriere-plan : montagnes lointaines, petites et pales
+	draw_colored_polygon(PackedVector2Array([Vector2(x0, 130), Vector2(x0 + 90, 60), Vector2(x0 + 170, 120),
+		Vector2(x0 + 260, 50), Vector2(x0 + 360, 125), Vector2(x0 + 440, 70), Vector2(x0 + w, 120), Vector2(x0 + w, 140), Vector2(x0, 140)]), Color("A9B8C9"))
+	for i: int in 6:
+		_sommet(Vector2(x0 + 270 + i * 18, 128), 6.0)
+	# premier plan : champ, grand arbre, fleurs
+	draw_colored_polygon(PackedVector2Array([Vector2(x0, 140), Vector2(x0 + w, 132), Vector2(x0 + w, r.end.y), Vector2(x0, r.end.y)]), Color("8BC34A"))
+	draw_rect(Rect2(Vector2(x0 + 70, 160), Vector2(20, 80)), Color("6D4C41"))
+	draw_circle(Vector2(x0 + 80, 150), 46.0, Color("388E3C"))
+	for i: int in 7:
+		draw_circle(Vector2(x0 + 180 + i * 40, 222 + (i % 2) * 14), 7.0, Color("F06292") if i % 2 == 0 else Color("FFD54F"))
+	draw_rect(r, INK, false, 2.0)
+	_label_gauche(Vector2(x0 + w + 14, 90), "← arrière-plan : au fond", 18, Color("37474F"))
+	_label_gauche(Vector2(x0 + w + 14, 210), "← premier plan : devant", 18, Color("1B5E20"))
+
+# -------- CE2 (2026-11-07) : cartes de France et de l'empire romain
+#   [carte vue=france densites=oui villes=oui]        -> fortes / faibles densites + 5 agglomerations
+#   [carte vue=france massifs=oui fleuves=oui]         -> massifs de montagne et grands fleuves
+#   [carte vue=france domaines=987,1223,1483]          -> petites cartes cote a cote : domaine du roi
+#   [carte vue=france alesia=oui]                      -> point d'Alesia
+#   [carte vue=empire empire=oui gaule=oui]            -> empire romain a son apogee, Rome, la Gaule
+#   largeur=<px> : largeur d'une carte (420 par defaut, la hauteur suit la vue)
+# CM1-CM2 (2026-11-07) :
+#   [carte vue=europe fondateurs=oui noms=oui]          -> Union europeenne, 6 pays fondateurs plus fonces
+#   [carte vue=france regions=oui]                      -> les 13 Regions de metropole et leur capitale
+#   [carte vue=france tgv=oui villes=oui]               -> lignes a grande vitesse
+#   [carte vue=france fleuves=oui lacs=oui]             -> 3 lacs (naturels et artificiel)
+#   [carte vue=france front=oui]                        -> ligne de front 1914-1918, Verdun, la Somme
+#   [carte vue=france occupation=oui]                   -> zone occupee / zone libre (1940), debarquement
+
+const CarteData := preload("res://ui/fiche/carte_data.gd")
+const CARTE_TERRE := Color("EFE8DA")
+const CARTE_FRANCE := Color("FFF1C9")
+const CARTE_DENSE := Color("E0603F")
+const CARTE_MASSIF := Color("A1795A")
+const CARTE_FLEUVE := Color("1E6FD0")
+const CARTE_DOMAINE := Color("3F64C8")
+const CARTE_EMPIRE := Color("E39A63")
+const CARTE_GAP := 26.0
+const CARTE_UE := Color("9CC2EE")
+const REGION_COULEURS := [Color("F8BBD0"), Color("C5E1A5"), Color("FFE082"), Color("B3E5FC"), Color("D1C4E9"),
+	Color("FFCCBC"), Color("B2DFDB"), Color("F0F4C3")]
+
+## Points rouges et leur nom : [nom, lon, lat, nom a gauche du point]
+func _carte_points(r: Rect2, k: float, liste: Array) -> void:
+	for v: Array in liste:
+		var p := _cgeo(r, v[1], v[2])
+		draw_circle(p, 5.0 * k, Color("7A1010"))
+		draw_arc(p, 5.0 * k, 0.0, TAU, 16, Color.WHITE, 1.6, true)
+		var fs := int(round(15.0 * k))
+		var w := _font().get_string_size(v[0], HORIZONTAL_ALIGNMENT_LEFT, -1, fs).x
+		var dx := -(w / 2.0 + 9.0 * k) if v[3] else (w / 2.0 + 9.0 * k)
+		_label(p + Vector2(dx, 0), v[0], fs, Color("7A1010"), Color(1, 1, 1, 0.9))
+
+func _carte_vue() -> Array:
+	return CarteData.VUES.get(str(params.get("vue", "france")), CarteData.VUES["france"])
+
+func _carte_size() -> Vector2:
+	var v := _carte_vue()
+	var w := float(params.get("largeur", 420))
+	var kx := cos(deg_to_rad((v[1] + v[3]) / 2.0))
+	return Vector2(w, w * (v[3] - v[1]) / ((v[2] - v[0]) * kx))
+
+func _carte_domaines() -> PackedStringArray:
+	return str(params.get("domaines", "")).split(",", false)
+
+func _carte_min_size() -> Vector2:
+	var cs := _carte_size()
+	var n := _carte_domaines().size()
+	if n > 0:
+		return Vector2(n * (cs.x + CARTE_GAP) - CARTE_GAP, cs.y + 40.0)
+	return cs + Vector2(0, 6)
+
+func _cgeo(r: Rect2, lon: float, lat: float) -> Vector2:
+	var v := _carte_vue()
+	return r.position + Vector2((lon - v[0]) / (v[2] - v[0]) * r.size.x, (v[3] - lat) / (v[3] - v[1]) * r.size.y)
+
+func _cpoly(r: Rect2, flat: Array) -> PackedVector2Array:
+	var pts := PackedVector2Array()
+	for i: int in range(0, flat.size(), 2):
+		pts.append(_cgeo(r, float(flat[i]), float(flat[i + 1])))
+	return pts
+
+func _cfill(r: Rect2, rings: Array, fill: Color, border: Color = Color.TRANSPARENT, bw: float = 1.2) -> void:
+	for ring: Array in rings:
+		var pts := _cpoly(r, ring)
+		if pts.size() < 3:
+			continue
+		draw_colored_polygon(pts, fill)
+		if border.a > 0.0:
+			pts.append(pts[0])
+			draw_polyline(pts, border, bw, true)
+
+func _draw_carte() -> void:
+	var cs := _carte_size()
+	var doms := _carte_domaines()
+	if doms.size() > 0:
+		var x := (size.x - (doms.size() * (cs.x + CARTE_GAP) - CARTE_GAP)) / 2.0
+		for d: String in doms:
+			var r := Rect2(Vector2(x, 2.0), cs)
+			_carte_fond(r)
+			_cfill(r, CarteData.DOMAINES.get(d, []), CARTE_DOMAINE)
+			var p := _cgeo(r, 2.35, 48.86)
+			draw_circle(p, 3.5, Color.WHITE)
+			draw_rect(r, INK, false, 2.0)
+			_label(Vector2(r.get_center().x, r.end.y + 20.0), "en " + d, 20, Color("B71C1C"))
+			x += cs.x + CARTE_GAP
+		return
+	var r := Rect2(Vector2((size.x - cs.x) / 2.0, 2.0), cs)
+	var k := cs.x / 420.0
+	_carte_fond(r)
+	if str(params.get("vue", "france")) == "europe":
+		_cfill(r, CarteData.UE, CARTE_UE, Color.WHITE, 0.8)
+		if _on("fondateurs"):
+			_cfill(r, CarteData.FONDATEURS, CARTE_DOMAINE, Color.WHITE, 0.8)
+		if _on("noms"):
+			for n: Array in CarteData.PAYS_NOMS:
+				_label(_cgeo(r, n[1], n[2]), n[0], int(round(15.0 * k)), Color("0D2A6B") if n[3] else INK, Color(1, 1, 1, 0.92))
+		draw_rect(r, INK, false, 2.0)
+		return
+	if _on("regions"):
+		for i: int in CarteData.REGIONS.size():
+			_cfill(r, CarteData.REGIONS[i], REGION_COULEURS[i % REGION_COULEURS.size()], Color.WHITE, 1.5)
+		for ring: Array in CarteData.FRANCE:
+			var pts := _cpoly(r, ring)
+			pts.append(pts[0])
+			draw_polyline(pts, INK, 1.6, true)
+		_carte_points(r, k, CarteData.CAPITALES)
+	if _on("occupation"):
+		_cfill(r, CarteData.ZONE_OCCUPEE, Color("9E9E9E"))
+		var lig := _cpoly(r, CarteData.LIGNE_DEMARCATION)
+		draw_polyline(lig, Color("B71C1C"), 3.0 * k, true)
+		_label(_cgeo(r, 2.4, 48.0), "zone occupée", int(round(17.0 * k)), Color.WHITE, Color(0.2, 0.2, 0.2, 0.9))
+		_label(_cgeo(r, 3.6, 45.0), "zone libre", int(round(17.0 * k)), INK, Color(1, 1, 1, 0.9))
+		_carte_points(r, k, [["Paris", 2.35, 48.86, false], ["Vichy", 3.43, 46.13, true]])
+		var d := _cgeo(r, -0.6, 49.35)
+		_fleche(d + Vector2(-34.0, -40.0) * k, d, Color("1565C0"), 4.0 * k, 14.0 * k)
+		_label(d + Vector2(-60.0, -54.0) * k, "débarquement", int(round(15.0 * k)), Color("0D47A1"), Color(1, 1, 1, 0.9))
+	if _on("front"):
+		draw_polyline(_cpoly(r, CarteData.FRONT_1418), Color("B71C1C"), 5.0 * k, true)
+		_carte_points(r, k, [["Paris", 2.35, 48.86, true], ["Verdun", 5.38, 49.16, false]])
+		_label(_cgeo(r, 1.4, 50.05), "la Somme", int(round(16.0 * k)), Color("B71C1C"), Color(1, 1, 1, 0.9))
+		_label(_cgeo(r, 6.4, 50.5), "front", int(round(17.0 * k)), Color("B71C1C"), Color(1, 1, 1, 0.9))
+	if _on("tgv"):
+		for l: Array in CarteData.TGV:
+			draw_polyline(_cpoly(r, l), Color("6A1B9A"), 3.5 * k, true)
+	if str(params.get("vue", "france")) == "empire":
+		_cfill(r, CarteData.EMPIRE, CARTE_EMPIRE, CARTE_EMPIRE.darkened(0.3))
+		if _on("gaule"):
+			for ring: Array in CarteData.GAULE:
+				var pts := _cpoly(r, ring)
+				pts.append(pts[0])
+				for i: int in pts.size() - 1:
+					_tirets_carte(pts[i], pts[i + 1], Color("5D2E0C"))
+			_label(_cgeo(r, 2.0, 47.0), "la Gaule", int(round(17.0 * k)), Color("5D2E0C"), Color(1, 1, 1, 0.9))
+		var rome := _cgeo(r, 12.5, 41.9)
+		draw_circle(rome, 5.5 * k, Color("B71C1C"))
+		draw_arc(rome, 5.5 * k, 0.0, TAU, 16, Color.WHITE, 1.5, true)
+		_label(rome + Vector2(26.0 * k, -12.0 * k), "Rome", int(round(17.0 * k)), Color("B71C1C"), Color(1, 1, 1, 0.9))
+		_label(_cgeo(r, 18.5, 34.3), "mer Méditerranée", int(round(15.0 * k)), MER_TEXTE)
+		draw_rect(r, INK, false, 2.0)
+		return
+	if _on("densites"):
+		for rings: Array in CarteData.DENSES:
+			_cfill(r, rings, CARTE_DENSE)
+	if _on("massifs"):
+		for m: Array in CarteData.MASSIFS:
+			_cfill(r, m[1], Color(CARTE_MASSIF, 0.75))
+		for m: Array in CarteData.MASSIFS:
+			_label(_cgeo(r, m[2][0], m[2][1]), m[0], int(round(15.0 * k)), Color("3E2723"), Color(1, 1, 1, 0.9))
+	if _on("fleuves"):
+		for f: Array in CarteData.FLEUVES:
+			draw_polyline(_cpoly(r, f[1]), CARTE_FLEUVE, 3.0 * k, true)
+		for f: Array in CarteData.FLEUVES:
+			_label(_cgeo(r, f[2][0], f[2][1]), f[0], int(round(16.0 * k)), Color("0D47A1"), Color(1, 1, 1, 0.9))
+	if _on("villes"):
+		for v: Array in CarteData.VILLES:
+			var p := _cgeo(r, v[1], v[2])
+			draw_circle(p, 6.0 * k, Color("7A1010"))
+			draw_arc(p, 6.0 * k, 0.0, TAU, 16, Color.WHITE, 1.8, true)
+			var fs := int(round(17.0 * k))
+			var w := _font().get_string_size(v[0], HORIZONTAL_ALIGNMENT_LEFT, -1, fs).x
+			var dx := -(w / 2.0 + 10.0 * k) if v[3] else (w / 2.0 + 10.0 * k)
+			_label(p + Vector2(dx, 0), v[0], fs, Color("7A1010"), Color(1, 1, 1, 0.9))
+	if _on("lacs"):
+		for l: Array in CarteData.LACS:
+			var p := _cgeo(r, l[1], l[2])
+			draw_circle(p, 6.0 * k, Color("1E88E5"))
+			var fs := int(round(14.0 * k))
+			var w := _font().get_string_size(l[0], HORIZONTAL_ALIGNMENT_LEFT, -1, fs).x
+			_label(p + Vector2(-(w / 2.0 + 9.0 * k) if l[3] else (w / 2.0 + 9.0 * k), 0), l[0], fs, Color("0D47A1"), Color(1, 1, 1, 0.9))
+	if _on("alesia"):
+		var a := _cgeo(r, 4.5, 47.54)
+		draw_circle(a, 6.0 * k, Color("B71C1C"))
+		draw_arc(a, 6.0 * k, 0.0, TAU, 16, Color.WHITE, 1.8, true)
+		_label(a + Vector2(36.0 * k, 0), "Alésia", int(round(17.0 * k)), Color("B71C1C"), Color(1, 1, 1, 0.9))
+	draw_rect(r, INK, false, 2.0)
+
+## Mer, terres voisines (pales) puis la France (vue france) ou les terres (vue empire).
+func _carte_fond(r: Rect2) -> void:
+	draw_rect(r, MER)
+	if str(params.get("vue", "france")) == "empire":
+		_cfill(r, CarteData.TERRE_EMPIRE, CARTE_TERRE, INK.lerp(MER, 0.5), 1.0)
+		return
+	if str(params.get("vue", "france")) == "europe":
+		_cfill(r, CarteData.TERRE_EUROPE, CARTE_TERRE, INK.lerp(MER, 0.5), 1.0)
+		return
+	_cfill(r, CarteData.TERRE_FRANCE, CARTE_TERRE, INK.lerp(MER, 0.5), 1.0)
+	_cfill(r, CarteData.FRANCE, CARTE_FRANCE, INK, 1.6)
+
+func _carte_legende(r: Rect2, k: float, items: Array) -> void:
+	var fs := int(round(14.0 * k))
+	var y := _cgeo(r, -5.2, 43.6).y
+	var x := r.position.x + 8.0 * k
+	for it: Array in items:
+		var sq := Rect2(Vector2(x, y - 8.0 * k), Vector2(16.0, 16.0) * k)
+		draw_rect(sq, it[0])
+		draw_rect(sq, INK, false, 1.0)
+		_label_gauche(Vector2(x + 20.0 * k, y), it[1], fs, INK)
+		y += 22.0 * k
+
+func _tirets_carte(a: Vector2, b: Vector2, col: Color) -> void:
+	var d := a.distance_to(b)
+	var n := maxi(1, int(d / 6.0))
+	for i: int in n:
+		if i % 2 == 0:
+			draw_line(a.lerp(b, float(i) / n), a.lerp(b, float(i + 1) / n), col, 2.0)
+
+# -------- CE2 (2026-11-07) : [quartiers] du centre-ville vers la campagne (vu de dessus, schema)
+
+func _ellipse(c: Vector2, rx: float, ry: float) -> PackedVector2Array:
+	var pts := PackedVector2Array()
+	for i: int in 48:
+		var a := TAU * i / 48.0
+		pts.append(c + Vector2(cos(a) * rx, sin(a) * ry))
+	return pts
+
+func _draw_quartiers() -> void:
+	var c := Vector2(size.x / 2.0 - 120.0, 134.0)
+	draw_rect(Rect2(Vector2(c.x - 240.0, 6.0), Vector2(480.0, 256.0)), Color("C5E1A5"))
+	var anneaux := [[226.0, 118.0, Color("F3E5AB"), "lotissements pavillonnaires"],
+		[160.0, 84.0, Color("FFCC80"), "grands ensembles et quartiers récents"],
+		[78.0, 42.0, Color("E57373"), "centre-ville historique"]]
+	for a: Array in anneaux:
+		var pts := _ellipse(c, a[0], a[1])
+		draw_colored_polygon(pts, a[2])
+		pts.append(pts[0])
+		draw_polyline(pts, INK, 1.5, true)
+	draw_rect(Rect2(Vector2(c.x - 240.0, 6.0), Vector2(480.0, 256.0)), INK, false, 2.0)
+	# villages dans la campagne
+	for v: Vector2 in [Vector2(-222, -104), Vector2(214, 104), Vector2(-216, 100)]:
+		draw_circle(c + v, 9.0, Color("8D6E63"))
+	var lx := c.x + 270.0
+	var ys := [56.0, 104.0, 152.0, 200.0]
+	var cibles := [c + Vector2(0, -8), c + Vector2(118, -30), c + Vector2(198, -30), c + Vector2(214, 104)]
+	var noms := ["centre-ville historique", "grands ensembles,", "lotissements", "campagne et villages"]
+	var noms2 := ["", "quartiers récents", "pavillonnaires", ""]
+	var cols := [Color("E57373"), Color("FFCC80"), Color("F3E5AB"), Color("C5E1A5")]
+	for i: int in 4:
+		var y: float = ys[i]
+		draw_rect(Rect2(Vector2(lx, y - 9.0), Vector2(18, 18)), cols[i])
+		draw_rect(Rect2(Vector2(lx, y - 9.0), Vector2(18, 18)), INK, false, 1.0)
+		if noms2[i] == "":
+			_label_gauche(Vector2(lx + 26.0, y), noms[i], 18, INK)
+		else:
+			_label_gauche(Vector2(lx + 26.0, y - 10.0), noms[i], 18, INK)
+			_label_gauche(Vector2(lx + 26.0, y + 11.0), noms2[i], 18, INK)
+	_label(c, "centre", 17, Color.WHITE)
+
+# -------- CM1-CM2 (2026-11-07) : couches du planisphere
+#   [planisphere aires=oui]        -> noms des grandes aires regionales (inegalites)
+#   [planisphere cables=oui]       -> principaux cables sous-marins d'Internet
+#   [planisphere voyages=oui]      -> voyages de Christophe Colomb (1492) et de Magellan (1519-1522)
+#   [planisphere empires=oui]      -> premiers empires coloniaux en Amerique (XVIe-XVIIe siecles)
+#   [planisphere triangulaire=oui] -> commerce triangulaire
+#   [planisphere colonies=oui]     -> empire colonial francais vers 1914
+#   cadre=lon0,lat0,lon1,lat1      -> ne montre qu'une partie du monde (zoom)
+
+## Zones : [nom, centre (lon, lat), demi-largeur, demi-hauteur (degres), couleur, position du nom]
+const PLANI_ZONES := {
+	"empires": [
+		["empire espagnol", Vector2(-95, 22), 13.0, 8.0, Color("E53935"), Vector2(-100, 10)],
+		["", Vector2(-72, -14), 6.0, 16.0, Color("E53935"), Vector2.ZERO],
+		["empire portugais", Vector2(-48, -10), 9.0, 11.0, Color("43A047"), Vector2(-40, -25)],
+		["Nouvelle-France", Vector2(-75, 49), 11.0, 5.0, Color("1E88E5"), Vector2(-88, 58)],
+		["colonies anglaises", Vector2(-77, 38), 3.5, 5.0, Color("8E24AA"), Vector2(-56, 37)],
+	],
+	"colonies": [
+		["", Vector2(3, 32), 10.0, 4.0, Color("1E5BD8"), Vector2.ZERO],
+		["", Vector2(-4, 16), 13.0, 7.0, Color("1E5BD8"), Vector2.ZERO],
+		["", Vector2(16, 3), 5.0, 9.0, Color("1E5BD8"), Vector2.ZERO],
+		["", Vector2(47, -19), 2.5, 6.0, Color("1E5BD8"), Vector2.ZERO],
+		["", Vector2(106, 15), 3.0, 7.0, Color("1E5BD8"), Vector2.ZERO],
+		["", Vector2(-53, 4), 2.0, 2.0, Color("1E5BD8"), Vector2.ZERO],
+		["", Vector2(-61, 15.5), 1.6, 1.6, Color("1E5BD8"), Vector2.ZERO],
+		["", Vector2(165, -21), 2.0, 2.0, Color("1E5BD8"), Vector2.ZERO],
+		["", Vector2(-149, -17), 2.0, 2.0, Color("1E5BD8"), Vector2.ZERO],
+		["", Vector2(55.5, -21), 1.5, 1.5, Color("1E5BD8"), Vector2.ZERO],
+	],
+}
+## Noms poses sur le planisphere : [nom, position]
+const PLANI_NOMS := {
+	"aires": [["Amérique du Nord", Vector2(-102, 46)], ["Amérique du Sud", Vector2(-60, -14)], ["Europe", Vector2(16, 53)],
+		["Maghreb", Vector2(2, 30)], ["Afrique subsaharienne", Vector2(22, -3)], ["Asie de l'Est", Vector2(112, 38)],
+		["Asie du Sud-Est", Vector2(110, 5)], ["Océanie", Vector2(134, -26)]],
+	"colonies": [["Afrique du Nord", Vector2(3, 38)], ["Afrique-Occidentale", Vector2(-12, 7)],
+		["Afrique-Équatoriale", Vector2(28, -6)], ["Madagascar", Vector2(60, -12)], ["Indochine", Vector2(120, 22)],
+		["Guyane", Vector2(-50, -4)], ["Antilles", Vector2(-72, 22)], ["Nouvelle-Calédonie", Vector2(160, -32)]],
+}
+## Traces : [nom, points (lon, lat), position du nom, couleur, fleche au bout]
+const PLANI_TRACES := {
+	"voyages": [
+		["Colomb 1492", [-6.9, 37.2, -15.5, 28, -40, 25, -74.5, 24.1], Vector2(-38, 33), Color("C62828"), true],
+		["Magellan 1519-1522", [-6.35, 36.8, -17, 14, -35, -8, -43, -23, -58, -38, -70, -53, -90, -35, -140, -12, -180, 6],
+			Vector2(-118, -30), Color("1565C0"), false],
+		["", [180, 8, 145, 13, 125, 10, 127, -1, 110, -9, 80, -22, 20, -35, 0, -10, -17, 14, -6.35, 36.8], Vector2.ZERO,
+			Color("1565C0"), true],
+	],
+	"triangulaire": [
+		["tissus, armes, alcool", [-1.55, 47.2, -10, 30, 3, 6], Vector2(-20, 22), Color("6D4C41"), true],
+		["esclaves", [3, 6, -30, 10, -61, 16], Vector2(-30, 4), Color("B71C1C"), true],
+		["sucre, café, coton", [-61, 16, -40, 38, -1.55, 47.2], Vector2(-40, 46), Color("2E7D32"), true],
+	],
+	"cables": [
+		["", [-74, 40, -40, 47, -5, 50], Vector2.ZERO, Color("6A1B9A"), false],
+		["", [-74, 40, -40, 40, -9, 38.7], Vector2.ZERO, Color("6A1B9A"), false],
+		["", [-122, 37, -180, 36], Vector2.ZERO, Color("6A1B9A"), false],
+		["", [180, 36, 140, 35], Vector2.ZERO, Color("6A1B9A"), false],
+		["", [-122, 37, -160, 21, -180, 0], Vector2.ZERO, Color("6A1B9A"), false],
+		["", [180, 0, 151, -34], Vector2.ZERO, Color("6A1B9A"), false],
+		["", [5, 43, 32, 31.5, 43, 12, 73, 15, 80, 6, 103, 1.3, 121, 25, 140, 35], Vector2.ZERO, Color("6A1B9A"), false],
+		["", [-9, 38.7, -17, 14.7, 3, 6, 13, -9, 18, -34], Vector2.ZERO, Color("6A1B9A"), false],
+		["", [43, 12, 40, -4, 32, -29], Vector2.ZERO, Color("6A1B9A"), false],
+		["", [-74, 40, -80, 25, -66, 18, -38, -4, -43, -23], Vector2.ZERO, Color("6A1B9A"), false],
+		["", [-38, -4, 13, -9], Vector2.ZERO, Color("6A1B9A"), false],
+		["", [103, 1.3, 115, -32], Vector2.ZERO, Color("6A1B9A"), false],
+	],
+}
+
+func _draw_plani_cm(r: Rect2, k: float) -> void:
+	for couche: String in PLANI_ZONES:
+		if not _on(couche):
+			continue
+		for z: Array in PLANI_ZONES[couche]:
+			var pts := PackedVector2Array()
+			for i: int in 40:
+				var a := TAU * i / 40.0
+				pts.append(_geo(r, z[1].x + cos(a) * z[2], z[1].y + sin(a) * z[3]))
+			for poly: PackedVector2Array in _clip_poly(pts, r):
+				if poly.size() < 3:
+					continue
+				draw_colored_polygon(poly, Color(z[4], 0.55))
+				poly.append(poly[0])
+				draw_polyline(poly, z[4].darkened(0.3), 1.5, true)
+	for couche: String in PLANI_TRACES:
+		if not _on(couche):
+			continue
+		for t: Array in PLANI_TRACES[couche]:
+			var pts := _poly_geo(r, t[1])
+			for ligne: PackedVector2Array in _clip_ligne(pts, r):
+				draw_polyline(ligne, t[3], (2.0 if couche == "cables" else 3.5) * k, true)
+			if t[4] and r.has_point(pts[pts.size() - 1]):
+				var n := pts.size()
+				_fleche(pts[n - 1].lerp(pts[n - 2], 0.25), pts[n - 1], t[3], 3.5 * k, 14.0 * k)
+	for couche: String in PLANI_ZONES:
+		if _on(couche):
+			for z: Array in PLANI_ZONES[couche]:
+				if z[0] != "":
+					_label_dans(r, _geo(r, z[5].x, z[5].y), z[0], int(maxf(14.0, round(15.0 * k))), z[4].darkened(0.45), Color(1, 1, 1, 0.9))
+	for couche: String in PLANI_TRACES:
+		if _on(couche):
+			for t: Array in PLANI_TRACES[couche]:
+				if t[0] != "":
+					_label_dans(r, _geo(r, t[2].x, t[2].y), t[0], int(maxf(14.0, round(15.0 * k))), t[3].darkened(0.3), Color(1, 1, 1, 0.9))
+	for couche: String in PLANI_NOMS:
+		if _on(couche):
+			for nm: Array in PLANI_NOMS[couche]:
+				_label_dans(r, _geo(r, nm[1].x, nm[1].y), nm[0], int(maxf(15.0, round(16.0 * k))), INK, Color(1, 1, 1, 0.9))

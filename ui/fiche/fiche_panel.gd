@@ -115,7 +115,7 @@ func _show_page(index: int) -> void:
 	_fit_page(_current_page)
 
 ## Donne a la page toute la largeur de la zone, attend que les RichTextLabel aient calcule leur
-## hauteur, puis reduit l'echelle si la page depasse en hauteur. La page reste invisible pendant
+## hauteur, puis reduit l'echelle si la page depasse en hauteur ou en largeur. La page reste invisible pendant
 ## ce calcul (modulate.a = 0) pour ne jamais montrer un premier affichage qui deborde.
 func _fit_page(page: Control) -> void:
 	page.scale = Vector2.ONE
@@ -130,6 +130,12 @@ func _fit_page(page: Control) -> void:
 	var s := 1.0
 	if needed > available and needed > 0.0:
 		s = available / needed
+	# Meme chose en largeur : un dessin large (frise, carte...) ne doit jamais pousser la page
+	# hors de la zone, surtout dans la fenetre de correction, plus etroite que le livre de cours
+	# (retour Steve 2026-11-07 : cadre coupe a droite).
+	var needed_w := page.get_combined_minimum_size().x
+	if needed_w > page_area.size.x and needed_w > 0.0:
+		s = minf(s, page_area.size.x / needed_w)
 	page.scale = Vector2(s, s)
 	page.size = Vector2(page_area.size.x / s, needed)
 	# Page plus courte que la zone : on la centre verticalement

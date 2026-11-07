@@ -4,7 +4,7 @@
 ##   [titre]...[/titre]                 -> titre de la page, couleur de la classe
 ##   [cadre]...[/cadre]                 -> encadre "a retenir"
 ##   [cadre=astuce]...[/cadre]          -> encadre "Astuce"
-##   [billes ...] [file ...] [cubes ...] [cases ...] [paires ...] [formes ...] [grille ...] [tarte ...] [rect ...] [potence ...] [pave ...] [droite ...] seules sur leur ligne -> FicheDessin
+##   [billes ...] [file ...] [cubes ...] [cases ...] [paires ...] [formes ...] [grille ...] [tarte ...] [rect ...] [potence ...] [pave ...] [droite ...] [planisphere ...] [horloge ...] [terre] [frise ...] [roue ...] [plan] [arbre] [periodes ...] [relief] [cours_eau] [paysage] [carte ...] [quartiers] seules sur leur ligne -> FicheDessin
 ##   [table=N]...[/table] seul sur sa ligne -> tableau Godot natif, centre
 ## Tout le reste est du texte BBCode affiche dans un RichTextLabel.
 ## Jetons de couleur utilisables dans le BBCode (remplaces avant affichage, pour qu'une meme
@@ -72,7 +72,7 @@ static func build(page_text: String, classe: Color, bold_font: Font) -> VBoxCont
 		_block_regex.compile(
 			"(?ms)\\[titre\\](.*?)\\[/titre\\]"
 			+ "|\\[cadre(?:=(\\w+))?\\](.*?)\\[/cadre\\]"
-			+ "|^[ \\t]*\\[(billes|file|cubes|cases|paires|formes|grille|tarte|rect|potence|pave|droite)((?: [^\\]]*)?)\\][ \\t]*$"
+			+ "|^[ \\t]*\\[(billes|file|cubes|cases|paires|formes|grille|tarte|rect|potence|pave|droite|planisphere|horloge|terre|frise|roue|plan|arbre|periodes|relief|cours_eau|paysage|carte|quartiers)((?: [^\\]]*)?)\\][ \\t]*$"
 			+ "|^[ \\t]*(\\[table=.*?\\[/table\\])[ \\t]*$")
 	var text := apply_color_tokens(page_text, classe)
 	var root := VBoxContainer.new()
@@ -113,6 +113,9 @@ static func _rich(bbcode: String, bold_font: Font, word_wrap: bool) -> RichTextL
 	label.add_theme_font_size_override("bold_font_size", BODY_SIZE)
 	label.add_theme_font_override("bold_font", bold_font)
 	label.add_theme_constant_override("line_separation", 2)
+	# Les grands emoji ([font_size=56]⚔️) depassent la hauteur de ligne calculee sur Baloo :
+	# sans ca, leur haut est rogne (retour Steve 2026-11-07, fiche Verdun).
+	label.clip_contents = false
 	label.text = bbcode
 	return label
 

@@ -235,7 +235,7 @@ professeur=teacher==0
 classe=classroom==0
 dictionnaire=dictionary==3
 emploi du temps=timetable==3
-cantine=canteen==3
+cantine=cafeteria==3
 cour de récréation=playground==3
 devoirs=homework==3
 leçon=lesson==3

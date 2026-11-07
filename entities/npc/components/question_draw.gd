@@ -65,6 +65,40 @@ static func draw_questions(pool: Array[QuestionResource], count: int, state: Dic
 	result.shuffle()
 	return result
 
+## Tirage reparti entre plusieurs groupes de questions (2026-11-07, Histoire-Geo CP-CE2 : 5 questions
+## d'histoire + 5 de geographie par serie). [groups] et [counts] ont la meme taille ; chaque groupe
+## est tire avec draw_questions (memes regles : une question par notion, pas de repetition) en
+## partageant le meme historique [state]. Si un groupe a moins de questions que prevu, les places
+## manquantes sont prises dans les autres groupes.
+static func draw_by_groups(groups: Array, counts: Array[int], state: Dictionary) -> Array[QuestionResource]:
+	var result: Array[QuestionResource] = []
+	var notions: Dictionary = {}
+	var missing := 0
+	for i: int in groups.size():
+		var pool: Array[QuestionResource] = []
+		pool.assign(groups[i])
+		var sub := {"questions": state.get("questions", []), "notions": state.get("notions", [])}
+		var drawn := draw_questions(pool, counts[i], sub)
+		missing += counts[i] - drawn.size()
+		result.append_array(drawn)
+		state["questions"] = sub["questions"]
+		for code: Variant in sub["notions"]:
+			notions[str(code)] = true
+	if missing > 0:
+		var rest: Array[QuestionResource] = []
+		var taken: Dictionary = {}
+		for question in result:
+			taken[question.id] = true
+		for group: Variant in groups:
+			for question: QuestionResource in group:
+				if not taken.has(question.id):
+					rest.append(question)
+		rest.shuffle()
+		result.append_array(rest.slice(0, missing))
+	state["notions"] = notions.keys()
+	result.shuffle()
+	return result
+
 ## Tire un texte de lecture pas encore lu dans le cycle en cours. Met a jour [state] (cles
 ## "textes" et "dernier_texte"). Renvoie null si [passages] est vide.
 static func draw_passage(passages: Array[PassageResource], state: Dictionary) -> PassageResource:

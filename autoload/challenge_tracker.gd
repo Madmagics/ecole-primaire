@@ -26,6 +26,10 @@ const BRONZE_GOAL := 5
 const SILVER_GOAL := 20
 const GOLD_GOAL := 50
 
+## Emis apres chaque reussite enregistree (2026-11-06) - ecoute par ClassroomMusic/ClassroomDecor
+## pour rappliquer un bonus revalide (voir leur commentaire DEBLOCAGE CALCULE EN DIRECT).
+signal success_registered(grade: GradeLevel.Grade, subject: int)
+
 ## grade(int) -> { subject(int) -> reussites(int) }. Clés en int (jamais les enums directement) :
 ## même convention que StatsTracker.packs_completed_by_subject avant son retrait, nécessaire dès
 ## qu'une Dictionary est sérialisée en JSON (voir serialize()/deserialize()).
@@ -46,6 +50,7 @@ func register_success(grade: GradeLevel.Grade, subject: SubjectType.Subject) -> 
 		count += 1
 	by_subject[int(subject)] = count
 	_reussites[int(grade)] = by_subject
+	success_registered.emit(grade, int(subject))
 	return count
 
 ## Remet tous les défis à zéro (voir SaveManager.reset_current_account_progress).

@@ -5,31 +5,71 @@
 ## d'aucune logique de masquage conditionnelle - il disparait tout seul avec le reste de
 ## WelcomePanel des qu'un compte est connecte (WelcomePanel.hide(), voir welcome_panel.gd).
 ##
-## Animation - 3e passe le 2026-09-06 (retour utilisateur : "modifie le mouvement de l icone help,
-## toujours pas fluide, on stoppe le zoom progressif, fait une rotation centrale complete de
-## l icone sur elle meme qui se repete") : la pulsation de zoom (2 versions precedentes, la
-## derniere deja une oscillation continue via sin() sur `scale`) est abandonnee au profit d'une
-## rotation. Choix delibere de NE PAS utiliser Tween ni aucune easing curve (TRANS_SINE et
-## consorts ralentissent puis accelerent, ce qui est justement la source des "pas fluide"
-## precedents) : `rotation` est incremente lineairement a chaque frame dans `_process`, vitesse
-## angulaire CONSTANTE du debut a la fin - aucune deceleration nulle part, donc aucun a-coup
-## possible, contrairement a une sinusoide qui repasse par une vitesse nulle a chaque extremum.
-## fmod() garde `rotation` dans [0, TAU) pour eviter une derive numerique sur une session longue
-## (purement cosmetique, aucun effet visuel - une rotation modulo 2*PI est identique a elle-meme).
-## pivot_offset deja fixe au centre du bouton dans le .tscn (herite des versions precedentes) :
-## la rotation est donc bien centree sur l'icone, pas sur le coin haut-gauche.
+## Animation - 4e passe le 2026-11-07 (retour Steve : "on arrete sa rotation, j'aimerais a la place
+## y ajouter une aura de couleur qui varie sur plusieurs tons pastels") : l'icone reste droite,
+## alignee sur la rangee de boutons de l'intro. Derriere elle, un halo rond (degrade radial, enfant
+## dessine SOUS le bouton grace a show_behind_parent) dont la teinte tourne en continu sur la roue
+## des couleurs avec une saturation basse (= tons pastel) et qui "respire" doucement. Comme pour
+## l'ancienne rotation, la teinte avance a vitesse CONSTANTE dans _process (pas de Tween ni
+## d'easing), donc aucun a-coup ; seule la respiration utilise un sin(), volontairement lente.
 class_name HelpButton
 extends Button
 
-const ROTATION_PERIOD_SECONDS := 4.0
+## Duree d'un tour complet des couleurs, et d'une respiration du halo.
+const HUE_PERIOD_SECONDS := 6.0
+const BREATH_PERIOD_SECONDS := 2.4
+## Taille du halo par rapport au bouton, saturation/valeur des tons pastel.
+const AURA_SCALE := 1.5
+const PASTEL_SATURATION := 0.5
+const PASTEL_VALUE := 1.0
 
 @export var overlay_path: NodePath
 
+var _aura: TextureRect
+var _hue := 0.0
+var _time := 0.0
+
 func _ready() -> void:
 	pressed.connect(_on_pressed)
+	rotation = 0.0
+	_aura = _build_aura()
+	add_child(_aura)
+	resized.connect(_place_aura)
+	_place_aura()
 
 func _process(delta: float) -> void:
-	rotation = fmod(rotation + (TAU / ROTATION_PERIOD_SECONDS) * delta, TAU)
+	_hue = fmod(_hue + delta / HUE_PERIOD_SECONDS, 1.0)
+	_time = fmod(_time + delta, BREATH_PERIOD_SECONDS)
+	var breath := 0.5 + 0.5 * sin(TAU * _time / BREATH_PERIOD_SECONDS)
+	_aura.modulate = Color.from_hsv(_hue, PASTEL_SATURATION, PASTEL_VALUE, 0.8 + 0.2 * breath)
+	_aura.scale = Vector2.ONE * (0.92 + 0.12 * breath)
+
+func _build_aura() -> TextureRect:
+	var gradient := Gradient.new()
+	gradient.set_color(0, Color(1, 1, 1, 1))
+	gradient.set_color(1, Color(1, 1, 1, 0))
+	gradient.add_point(0.5, Color(1, 1, 1, 0.9))
+	var tex := GradientTexture2D.new()
+	tex.gradient = gradient
+	tex.fill = GradientTexture2D.FILL_RADIAL
+	tex.fill_from = Vector2(0.5, 0.5)
+	tex.fill_to = Vector2(0.5, 0.0)
+	tex.width = 128
+	tex.height = 128
+	var aura := TextureRect.new()
+	aura.texture = tex
+	aura.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+	aura.stretch_mode = TextureRect.STRETCH_SCALE
+	aura.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	aura.show_behind_parent = true
+	return aura
+
+## Halo centre sur le bouton, AURA_SCALE fois plus grand, pivot au centre pour la respiration.
+func _place_aura() -> void:
+	var s := size * AURA_SCALE
+	_aura.size = s
+	_aura.position = (size - s) / 2.0
+	_aura.pivot_offset = s / 2.0
 
 func _on_pressed() -> void:
 	var overlay := get_node_or_null(overlay_path)

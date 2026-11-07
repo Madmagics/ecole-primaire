@@ -1,0 +1,75 @@
+🎉 Mise à jour V1.03 : l'Histoire et la Géographie arrivent dans École Primaire ! 🌍📜
+
+Deux nouvelles matières font leur entrée, du CP au CM2 : 35 fiches de cours illustrées (plus de 300 pages de cartes, frises, horloges et tableaux) et 1 050 nouvelles questions pour s'entraîner. Le tout suit le programme officiel de l'Éducation nationale.
+
+👉 Du CP au CE2, l'Histoire-Géo est une seule matière : chaque série mélange 5 questions d'histoire et 5 questions de géographie.
+👉 En CM1 et CM2, l'Histoire et la Géographie deviennent deux matières séparées, comme à l'école.
+
+Et comme toujours, après une mauvaise réponse, un simple appui sur « Revoir » ouvre la fiche de cours correspondante.
+
+━━━━━━━━━━━━━━━
+🔵 CP — Histoire-Géo
+━━━━━━━━━━━━━━━
+⏳ Le jour, la nuit et les saisons : pourquoi le jour et la nuit, les moments de la journée, les 4 saisons, s'habiller selon la saison
+⏳ Mesurer le temps : les jours de la semaine, hier/aujourd'hui/demain, les 12 mois, le calendrier, lire l'heure
+⏳ Avant, maintenant, après : passé, présent, futur, la frise chronologique, les générations, l'arbre généalogique
+🗺️ Se repérer autour de l'école : gauche/droite, les lieux de l'école, lire un plan et sa légende, le chemin de l'école, les panneaux de la rue
+🗺️ Les continents et les océans : le globe et le planisphère, les 6 continents, les océans, les points cardinaux, où est la France
+
+━━━━━━━━━━━━━━━
+🟢 CE1 — Histoire-Géo
+━━━━━━━━━━━━━━━
+⏳ Du passé proche au passé lointain : les mots pour dire quand, compter le temps long, les siècles, autrefois et aujourd'hui
+⏳ Les grandes périodes de l'histoire : Préhistoire, Antiquité, Moyen Âge, Temps modernes, Époque contemporaine, avant et après J.-C.
+⏳ Les traces du passé : les fossiles, les traces de la Préhistoire, dater une trace, les métiers d'autrefois, les témoignages
+🗺️ Où vivent les êtres humains ? : les grands foyers de peuplement, les grandes villes du monde, la ville et la campagne
+🗺️ Climats et paysages du monde : météo et climat, les 3 zones climatiques, forêts, savanes, déserts, décrire un paysage
+🗺️ Montagnes, plaines et fleuves : les formes du relief, les grandes chaînes de montagnes, les grands fleuves du monde
+
+━━━━━━━━━━━━━━━
+🟡 CE2 — Histoire-Géo
+━━━━━━━━━━━━━━━
+⏳ La Préhistoire : Paléolithique et Néolithique, nomades et sédentaires, outils et feu, l'art des grottes, Ötzi
+⏳ Vivre à Rome : l'empire romain, l'empereur Auguste, se loger, se nourrir, se déplacer et se divertir à Rome, les monuments
+⏳ La Gaule romaine : les Gaulois, Jules César et Alésia, les Gallo-Romains, les traces romaines en France
+⏳ La construction du royaume de France : Hugues Capet (987), le sacre, le domaine royal qui s'agrandit, la guerre de Cent Ans, Jeanne d'Arc
+🗺️ Où vivent les habitants de la France ? : densités de population, les grandes agglomérations, les massifs et les fleuves, l'outre-mer
+🗺️ Se loger en France : centre-ville historique, grand ensemble, lotissement, quartier récent, village
+🗺️ Travailler en France : paysages agricole, industriel, commercial, quartier d'affaires, station touristique
+
+━━━━━━━━━━━━━━━
+🟣 CM1 — Histoire
+━━━━━━━━━━━━━━━
+🏰 La vie quotidienne au Moyen Âge : la seigneurie, le château fort, la vie des paysans, l'Église et les abbayes, art roman et gothique, la vie en ville
+👑 La monarchie (XVIe-XVIIe siècles) : la Renaissance, François Ier, les guerres de religion, Henri IV, Louis XIV et Versailles, la société d'ordres
+⛵ Explorations et conquêtes : les inventions pour naviguer, Christophe Colomb, le premier tour du monde, la conquête de l'Amérique, la traite et l'esclavage
+🇫🇷 1789, une année révolutionnaire : les Lumières, les États généraux, la prise de la Bastille, la nuit du 4 août, la Déclaration des droits de l'homme
+
+🟣 CM1 — Géographie
+🍎 Se nourrir dans le monde : sous-nutrition et malnutrition, produits agricoles et transformés, d'où vient ce que je mange
+🌐 Les inégalités dans le monde : niveaux de vie, accès à l'eau, à la santé et à l'éducation
+🚆 Se déplacer : moyens de transport et infrastructures, mesurer un déplacement, voyager dans le monde
+💻 Communiquer avec Internet : comment ça marche, les câbles sous-marins et les satellites, un accès inégal
+
+━━━━━━━━━━━━━━━
+🔴 CM2 — Histoire
+━━━━━━━━━━━━━━━
+⚔️ De la République à l'Empire (1792-1815) : La Marseillaise, la naissance de la République, Napoléon et ses réformes
+🏛️ Vers une France républicaine (1848-1914) : la IIIe République, l'école de Jules Ferry, la laïcité, les symboles de la République, la colonisation
+🏭 L'âge industriel au XIXe siècle : le charbon, le chemin de fer, les inventions, la vie des ouvriers et des bourgeois
+🪖 La Première Guerre mondiale : le front, la vie des poilus, Verdun, l'armistice du 11 novembre 1918
+🕊️ La Seconde Guerre mondiale : la défaite de 1940, l'Occupation, la persécution des Juifs, les Justes, la Résistance, la Libération
+🗳️ La France depuis 1945 : la Ve République, les droits des femmes, la construction européenne
+
+🔴 CM2 — Géographie
+🗺️ L'organisation du territoire français : communes, départements, régions de métropole et d'outre-mer, les grands axes de transport
+💧 Les usages de l'eau douce en France : fleuves et lacs, à quoi sert l'eau, une ressource menacée
+🇪🇺 L'Union européenne : les 27 pays, les 6 pays fondateurs, ce que l'UE apporte, ses symboles
+
+━━━━━━━━━━━━━━━
+🏆 Les nouvelles matières ont aussi leur ligne dans les Succès : elles comptent pour débloquer les décors et les musiques de classe !
+
+Bonne découverte à tous les petits historiens et géographes 👧🧒
+👉 www.ecole-primaire.eu
+
+#EcolePrimaire #Histoire #Geographie #CP #CE1 #CE2 #CM1 #CM2 #JeuEducatif #Apprendre

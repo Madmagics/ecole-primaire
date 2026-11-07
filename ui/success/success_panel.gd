@@ -107,9 +107,9 @@ const _GOLD_COLOR := Color("FFD700")
 ##   BRONZE (ChallengeTracker.BRONZE_GOAL, 5)  -> ClassroomMusic (icone music-<classe>)
 ##   ARGENT (ChallengeTracker.SILVER_GOAL, 20) -> ClassroomDecor (icone decor-<classe>)
 ##   OR     (ChallengeTracker.GOLD_GOAL, 50)   -> badge de la classe (icone badge-<classe>),
-##                                                recompense elle-meme PAS ENCORE IMPLEMENTEE :
-##                                                jalon toujours affiche verrouille
-##                                                (_UNSTARTED_COLOR), aucun systeme a lire.
+##                                                anneau dore quand toutes les matieres de la
+##                                                classe ont atteint GOLD_GOAL (2026-11-07, meme
+##                                                regle que musique/decor, voir _all_subjects_reached)
 ## Icones par classe depuis le 2026-09-30 (demande Steve, memes icones que les cases de l'onglet
 ## Succes de la boutique) - remplacent musique-on.webp / badge- / defis.webp (placeholders).
 
@@ -240,8 +240,19 @@ func _build_subject_row(grade: GradeLevel.Grade, subject: SubjectType.Subject) -
 	bar.show_percentage = false
 	bar.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	bar.custom_minimum_size = Vector2(0, 22)
+	## Barre vide = simple contour (retour Steve 2026-11-07) : l'ancien fond gris plein ne se
+	## distinguait pas de la jauge argent. La jauge colore la barre au fur et a mesure, avec un
+	## liseré plus fonce de sa couleur pour que le contour reste continu.
+	var bg_style := StyleBoxFlat.new()
+	bg_style.draw_center = false
+	bg_style.border_color = _UNSTARTED_COLOR
+	bg_style.set_border_width_all(2)
+	bg_style.set_corner_radius_all(8)
+	bar.add_theme_stylebox_override("background", bg_style)
 	var fill_style := StyleBoxFlat.new()
 	fill_style.bg_color = _tier_color(count)
+	fill_style.border_color = _tier_color(count).darkened(0.25)
+	fill_style.set_border_width_all(2)
 	fill_style.set_corner_radius_all(8)
 	bar.add_theme_stylebox_override("fill", fill_style)
 	## Reperes verticaux discrets aux 3 paliers (voir _build_bar_tickmark) - memes ratios que les
@@ -271,6 +282,17 @@ func _tier_color(count: int) -> Color:
 	if count >= ChallengeTracker.BRONZE_GOAL:
 		return _BRONZE_COLOR
 	return _UNSTARTED_COLOR
+
+## Vrai si toutes les matieres disponibles de [grade] ont atteint [goal] reussites - meme regle
+## que ClassroomMusic/ClassroomDecor (une matiere ajoutee doit etre revalidee).
+func _all_subjects_reached(grade: GradeLevel.Grade, goal: int) -> bool:
+	var subjects := ContentLibrary.get_available_subjects(grade)
+	if subjects.is_empty():
+		return false
+	for subject in subjects:
+		if ChallengeTracker.get_count(grade, subject) < goal:
+			return false
+	return true
 
 ## Position horizontale (0..1) d'un palier sur l'axe commun 0..GOLD_GOAL - partagee par
 ## _build_milestone_row (position des icones) et _build_bar_tickmark (reperes sur chaque barre),
@@ -322,7 +344,7 @@ func _build_title_row(grade: GradeLevel.Grade) -> HBoxContainer:
 	))
 	lane.add_child(_build_milestone_pin(
 		load(GradeLevel.get_badge_icon_path(grade)),
-		_UNSTARTED_COLOR,
+		_GOLD_COLOR if _all_subjects_reached(grade, ChallengeTracker.GOLD_GOAL) else _UNSTARTED_COLOR,
 		_milestone_ratio(ChallengeTracker.GOLD_GOAL),
 		"Badge de classe (%d reussites par matiere)" % ChallengeTracker.GOLD_GOAL,
 	))

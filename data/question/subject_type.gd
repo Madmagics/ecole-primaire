@@ -13,7 +13,12 @@ extends RefCounted
 ## (2026-08-04) : tests psychotechniques/logique pour enfants (suites, intrus, analogies,
 ## deduction) - hors programme scolaire officiel contrairement aux autres matieres, voir
 ## MATIERES_CANDIDATES.md pour la justification.
-enum Subject { MATH = 0, FRENCH = 1, GRAMMAR = 2, CONJUGATION = 3, SPELLING = 4, ENGLISH = 5, READING = 6, LOGIC = 7 }
+## HISTORY_GEO, HISTORY, GEOGRAPHY (2026-11-07, programme d'histoire-geographie du BO n° 22 du 28 mai
+## 2026) : CP, CE1, CE2 = une seule matiere HISTORY_GEO (series de 5 questions d'histoire + 5 de
+## geographie, voir QuestionGiverComponent.start_pack_for_subject) ; CM1, CM2 = deux matieres separees
+## HISTORY et GEOGRAPHY (pools de questions separes). Paquets serveur : histoire_geo / histoire /
+## geographie.
+enum Subject { MATH = 0, FRENCH = 1, GRAMMAR = 2, CONJUGATION = 3, SPELLING = 4, ENGLISH = 5, READING = 6, LOGIC = 7, HISTORY_GEO = 8, HISTORY = 9, GEOGRAPHY = 10 }
 
 ## Couleur de la piece recompense pour cette matiere (HUD, popups...) - reutilisee telle quelle
 ## comme code couleur des cadres de matiere dans SubjectSelectPanel (un seul systeme de couleurs
@@ -42,6 +47,12 @@ static func get_color(subject: Subject) -> Color:
 			return Color("8B5E34") # marron
 		Subject.LOGIC:
 			return Color("7E57C2") # violet
+		Subject.HISTORY_GEO:
+			return Color("00897B") # vert-bleu (sarcelle)
+		Subject.HISTORY:
+			return Color("3F51B5") # indigo (le prune se confondait avec le rouge de Grammaire)
+		Subject.GEOGRAPHY:
+			return Color("00897B") # sarcelle, comme Histoire-Geo (jamais affichees ensemble : CM1-CM2 seulement)
 	return Color.WHITE
 
 ## Nom de dossier (sous csv/questions/<classe>/ et data/question/resources/<classe>/) associe a
@@ -66,6 +77,12 @@ static func get_folder_name(subject: Subject) -> String:
 			return "lecture"
 		Subject.LOGIC:
 			return "logique"
+		Subject.HISTORY_GEO:
+			return "histoire_geo"
+		Subject.HISTORY:
+			return "histoire"
+		Subject.GEOGRAPHY:
+			return "geographie"
 	return ""
 
 static func get_label(subject: Subject) -> String:
@@ -86,4 +103,10 @@ static func get_label(subject: Subject) -> String:
 			return "Compréhension de texte"
 		Subject.LOGIC:
 			return "Logique"
+		Subject.HISTORY_GEO:
+			return "Histoire-Géo"
+		Subject.HISTORY:
+			return "Histoire"
+		Subject.GEOGRAPHY:
+			return "Géographie"
 	return "?"

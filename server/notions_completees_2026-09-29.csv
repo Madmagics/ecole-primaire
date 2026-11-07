@@ -396,13 +396,13 @@ id;classe;matiere;notion;enonce;bonne_reponse;mauvais_choix
 110394;cm2;english;en_ecole;"Comment dit-on ""histoire"" en anglais ?";history;maths | geography | science
 110395;cm2;english;en_ecole;"Que veut dire ""history"" en français ?";histoire;musique | géographie | sport
 110396;cm2;english;en_ecole;"Comment dit-on ""géographie"" en anglais ?";geography;PE | history | science
-110397;cm2;english;en_ecole;"Comment dit-on ""cour de récréation"" en anglais ?";playground;canteen | dictionary | timetable
+110397;cm2;english;en_ecole;"Comment dit-on ""cour de récréation"" en anglais ?";playground;cafeteria | dictionary | timetable
 110398;cm2;english;en_ecole;"Que veut dire ""geography"" en français ?";géographie;sport | mathématiques | arts plastiques
 110399;cm2;english;en_ecole;"Que veut dire ""playground"" en français ?";cour de récréation;cartable | carte | cantine
 110400;cm2;english;en_ecole;"Comment dit-on ""sciences"" en anglais ?";science;art | music | PE
-110401;cm2;english;en_ecole;"Comment dit-on ""cantine"" en anglais ?";canteen;homework | schoolbag | playground
+110401;cm2;english;en_ecole;"Comment dit-on ""cantine"" en anglais ?";cafeteria;homework | schoolbag | playground
 110402;cm2;english;en_ecole;"Que veut dire ""science"" en français ?";sciences;musique | sport | arts plastiques
-110403;cm2;english;en_ecole;"Que veut dire ""canteen"" en français ?";cantine;cour de récréation | carte | cartable
+110403;cm2;english;en_ecole;"Que veut dire ""cafeteria"" en français ?";cantine;cour de récréation | carte | cartable
 110404;cm2;english;en_ecole;"Comment dit-on ""mathématiques"" en anglais ?";maths;geography | science | music
 110405;cm2;english;en_ecole;"Comment dit-on ""emploi du temps"" en anglais ?";timetable;classroom | lesson | pencil case
 110406;cm2;english;en_ecole;"Que veut dire ""maths"" en français ?";mathématiques;histoire | musique | sport

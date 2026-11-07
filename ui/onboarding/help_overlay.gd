@@ -34,6 +34,7 @@ func _ready() -> void:
 	tabs.set_tab_title(0, "Intro")
 	tabs.set_tab_title(1, "Contenu du jeu")
 	tabs.set_tab_title(2, "Mises à jour")
+	tabs.set_tab_title(3, "Remerciements")
 	_equalize_tab_widths()
 
 func open() -> void:
@@ -57,6 +58,13 @@ func _equalize_tab_widths() -> void:
 		titles.append(tab_bar.get_tab_title(i))
 		widths.append(tab_bar.get_tab_rect(i).size.x)
 	var max_width: float = widths.max()
+	## 4e onglet "Remerciements" (2026-11-07) : aligner tous les onglets sur le plus large les
+	## faisait deborder de la fenetre (onglet "Intro" masque, fleches de defilement). On plafonne
+	## la largeur cible a la place reellement disponible, partagee entre les onglets.
+	var side_margin: float = tabs.get_theme_constant("side_margin")
+	var available: float = tabs.size.x - 2.0 * side_margin
+	if available > 0.0:
+		max_width = minf(max_width, floorf(available / tab_bar.tab_count) - 2.0)
 	for i in tab_bar.tab_count:
 		var gap := max_width - widths[i]
 		if gap <= 0.0 or space_width <= 0.0:

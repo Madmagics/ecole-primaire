@@ -848,7 +848,7 @@ cm2	english	en_ecole	"Comment dit-on ""tableau"" en anglais ?"	board	book | libr
 cm2	english	en_ecole	"Comment dit-on ""feutre"" en anglais ?"	marker	pencil sharpener | rubber | homework
 cm2	english	en_ecole	"Que veut dire ""teacher"" en français ?"	professeur	élève | table | règle
 cm2	english	en_ecole	"Comment dit-on ""classe"" en anglais ?"	classroom	teacher | glue | globe
-cm2	english	en_ecole	"Comment dit-on ""ordinateur"" en anglais ?"	computer	chair | calculator | canteen
+cm2	english	en_ecole	"Comment dit-on ""ordinateur"" en anglais ?"	computer	chair | calculator | cafeteria
 cm2	english	en_ecole	"Comment dit-on ""professeur"" en anglais ?"	teacher	pencil case | computer | library
 cp	english	en_ecole	"Que veut dire ""computer"" en français ?"	ordinateur	classe | colle | cartable
 cp	english	en_ecole	"Que veut dire ""pencil case"" en français ?"	trousse	chaise | stylo | règle
