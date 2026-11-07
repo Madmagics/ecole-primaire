@@ -36,3 +36,7 @@ test-export/
 
 # Acces direct de Claude a la base de contenu (cle SSH privee) - ne JAMAIS envoyer sur GitHub
 .acces_claude/
+
+# Export texte du contenu en base (server/outils_emoji/extraire_contenu.sh), sert seulement a
+# generer le pack d'emoji - regenerable, inutile dans Git.
+/server/outils_emoji/contenu_texte.tsv

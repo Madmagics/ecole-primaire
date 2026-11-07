@@ -132,24 +132,12 @@ const EMOJI_CODEPOINT_THRESHOLD := 0x2190
 ## touche : la reponse est toujours comparee au texte d'origine (voir _on_choice_pressed).
 ## ⬜/⚪ (blanc) volontairement absents : leur contour dessine a l'encre se lit deja "blanc".
 ## Valeur = [glyphe plein, couleur].
-const COLOR_EMOJIS: Dictionary[String, Array] = {
-	"🟥": ["⬛", Color(0.90, 0.22, 0.21)],
-	"🟧": ["⬛", Color(0.98, 0.55, 0.0)],
-	"🟨": ["⬛", Color(0.99, 0.80, 0.10)],
-	"🟩": ["⬛", Color(0.26, 0.63, 0.28)],
-	"🟦": ["⬛", Color(0.12, 0.53, 0.90)],
-	"🟪": ["⬛", Color(0.56, 0.14, 0.67)],
-	"🟫": ["⬛", Color(0.47, 0.30, 0.20)],
-	"⬛": ["⬛", Color(0.10, 0.10, 0.10)],
-	"🔴": ["⚫", Color(0.90, 0.22, 0.21)],
-	"🟠": ["⚫", Color(0.98, 0.55, 0.0)],
-	"🟡": ["⚫", Color(0.99, 0.80, 0.10)],
-	"🟢": ["⚫", Color(0.26, 0.63, 0.28)],
-	"🔵": ["⚫", Color(0.12, 0.53, 0.90)],
-	"🟣": ["⚫", Color(0.56, 0.14, 0.67)],
-	"🟤": ["⚫", Color(0.47, 0.30, 0.20)],
-	"⚫": ["⚫", Color(0.10, 0.10, 0.10)],
-}
+## 2026-11-07 : les emoji viennent maintenant d'une police EN COULEUR (TwemojiJeu.ttf, voir
+## server/outils_emoji/gen_emoji.py) : 🟥 🔴... s'affichent directement dans leur vraie couleur, et
+## une couleur de texte (vert/rouge de la correction) ne les teinte pas. Le remplacement par un
+## glyphe plein recolore n'a donc plus lieu d'etre : liste videe (les fonctions qui la lisent ne
+## font plus rien). Anciennes valeurs dans l'historique Git si besoin.
+const COLOR_EMOJIS: Dictionary[String, Array] = {}
 
 ## Selecteur de variante emoji (U+FE0F) qui peut suivre un emoji dans le contenu (ex. "❤️") -
 ## ignore quand il suit un emoji couleur remplace (voir _colorize_bbcode/_color_emoji_of).

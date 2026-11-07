@@ -369,7 +369,7 @@ autowrap_mode = 2
 
 [node name="Joueurs" type="Label" parent="Panel/Margin/Content/Tabs/Remerciements/Scroll/ScrollMargin/List"]
 layout_mode = 2
-text = "Merci à tous ceux qui reviennent jouer régulièrement et profitent du contenu du jeu. Chaque partie réussie, chaque badge gagné est aussi un peu le vôtre."
+text = "Merci à tous ceux qui reviennent jouer régulièrement et profitent du contenu du jeu. Vous faites vivre le jeu à chaque partie réussie et à chaque badge gagné."
 autowrap_mode = 2
 
 [node name="TitleMusique" type="Label" parent="Panel/Margin/Content/Tabs/Remerciements/Scroll/ScrollMargin/List"]
@@ -416,3 +416,14 @@ text = "Steve"
 [node name="EspaceDroite" type="Control" parent="Panel/Margin/Content/Tabs/Remerciements/Scroll/ScrollMargin/List/SignatureRow"]
 layout_mode = 2
 size_flags_horizontal = 3
+
+[node name="EspaceCredits" type="Control" parent="Panel/Margin/Content/Tabs/Remerciements/Scroll/ScrollMargin/List"]
+custom_minimum_size = Vector2(0, 8)
+layout_mode = 2
+
+[node name="CreditEmoji" type="Label" parent="Panel/Margin/Content/Tabs/Remerciements/Scroll/ScrollMargin/List"]
+modulate = Color(1, 1, 1, 0.75)
+layout_mode = 2
+theme_override_font_sizes/font_size = 14
+text = "Emoji : Twemoji, © Twitter Inc. et contributeurs, licence CC-BY 4.0"
+autowrap_mode = 2
