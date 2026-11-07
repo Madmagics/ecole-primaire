@@ -3,7 +3,7 @@
 [ext_resource type="FontFile" uid="uid://bw6gmha2bnweb" path="res://ui/theme/fonts/Baloo2-SemiBold.ttf" id="1"]
 [ext_resource type="FontFile" path="res://ui/theme/fonts/TwemojiJeu.ttf" id="2"]
 [ext_resource type="FontFile" path="res://ui/theme/fonts/NotoEmojiJeu.ttf" id="4"]
-[ext_resource type="FontFile" path="res://ui/theme/fonts/NotoSansSymbols2.ttf" id="3"]
+[ext_resource type="FontFile" path="res://ui/theme/fonts/SymbolesJeu.ttf" id="3"]
 
 [resource]
 base_font = ExtResource("1")

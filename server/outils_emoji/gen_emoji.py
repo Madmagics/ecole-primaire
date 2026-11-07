@@ -4,7 +4,12 @@
 #
 #   ui/theme/fonts/TwemojiJeu.ttf   emoji EN COULEUR (Twemoji, format COLR, lu par Godot sur
 #                                   toutes les plateformes, navigateur compris)
-#   ui/theme/fonts/NotoEmojiJeu.ttf emoji NOIR ET BLANC : seulement les symboles absents de Twemoji
+#   ui/theme/fonts/NotoEmojiJeu.ttf emoji NOIR ET BLANC : seulement les emoji absents de Twemoji
+#   ui/theme/fonts/SymbolesJeu.ttf  symboles NON emoji (fleches ←, ★, ✓...) absents des 2 autres,
+#                                   tires de Noto Sans Symbols 2
+# Une icone ne doit exister que dans UNE seule de ces polices : le 2026-11-07, sous Windows,
+# 🏭 ⚡ 🕊 🌍... sortaient en noir et blanc car la police de symboles complete les contenait aussi
+# et passait devant Twemoji (retour Steve).
 #
 # Utilisation (depuis la racine du projet) :
 #   bash server/outils_emoji/extraire_contenu.sh          -> server/outils_emoji/contenu_texte.tsv
@@ -23,6 +28,8 @@ ICI = os.path.dirname(os.path.abspath(__file__))
 RACINE = os.path.abspath(os.path.join(ICI, '..', '..'))
 SRC_COULEUR = os.path.join(ICI, 'Twemoji.Mozilla.ttf')
 SRC_NB = os.path.join(ICI, 'NotoEmoji-complet.ttf')
+SRC_SYM = os.path.join(ICI, 'NotoSansSymbols2-complet.ttf')
+OUT_SYM = os.path.join(RACINE, 'ui', 'theme', 'fonts', 'SymbolesJeu.ttf')
 OUT_COULEUR = os.path.join(RACINE, 'ui', 'theme', 'fonts', 'TwemojiJeu.ttf')
 OUT_NB = os.path.join(RACINE, 'ui', 'theme', 'fonts', 'NotoEmojiJeu.ttf')
 CONTENU = os.path.join(ICI, 'contenu_texte.tsv')
@@ -58,18 +65,20 @@ def main():
     cmap_c = TTFont(SRC_COULEUR).getBestCmap()
     cmap_nb = TTFont(SRC_NB).getBestCmap()
     base = TTFont(os.path.join(RACINE, 'ui', 'theme', 'fonts', 'Baloo2-SemiBold.ttf')).getBestCmap()
-    sym = TTFont(os.path.join(RACINE, 'ui', 'theme', 'fonts', 'NotoSansSymbols2.ttf')).getBestCmap()
+    sym = TTFont(SRC_SYM).getBestCmap()
     couleur = {u for u in utilises if u in cmap_c and u not in TOUJOURS_NB and u not in base}
     nb = {u for u in utilises if u not in couleur and u in cmap_nb and u not in base}
     nb |= TOUJOURS_NB
+    symboles = {u for u in utilises if u not in couleur and u not in nb and u not in base and u in sym}
     manquants = sorted(u for u in utilises if u not in couleur and u not in nb and u not in base and u not in sym)
-    print('Symboles/emoji utilises : %d  -> couleur : %d, noir et blanc : %d' % (len(utilises), len(couleur), len(nb)))
+    print('Symboles/emoji utilises : %d  -> couleur : %d, noir et blanc : %d, symboles : %d' % (len(utilises), len(couleur), len(nb), len(symboles)))
     print('Noir et blanc : ' + ' '.join(chr(u) for u in sorted(nb)))
+    print('Symboles : ' + ' '.join(chr(u) for u in sorted(symboles)))
     if manquants:
         print('INTROUVABLES dans les polices (s\'afficheraient en carre vide) : ' + ' '.join(chr(u) for u in manquants))
     if verifier:
         return
-    for src, out, codes in ((SRC_COULEUR, OUT_COULEUR, couleur), (SRC_NB, OUT_NB, nb)):
+    for src, out, codes in ((SRC_COULEUR, OUT_COULEUR, couleur), (SRC_NB, OUT_NB, nb), (SRC_SYM, OUT_SYM, symboles)):
         opts = subset.Options()
         opts.layout_features = ['*']      # drapeaux et emoji composes (ZWJ) = ligatures
         opts.name_IDs = ['*']
