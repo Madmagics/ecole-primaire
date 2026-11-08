@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Admin École Primaire</title>
+<style>
+:root{
+  --bg:#f5f6f8; --panel:#ffffff; --ink:#1d2330; --muted:#6a7282; --line:#e3e6ec;
+  --accent:#2f6fe4; --accent-soft:#e6eefc; --good:#1f9d55; --warn:#d98a00; --bad:#d64545;
+  --cp:#3b82f6; --ce1:#22a35a; --ce2:#d4a400; --cm1:#8b5cf6; --cm2:#e0464b;
+}
+@media (prefers-color-scheme: dark){
+  :root{ --bg:#14171d; --panel:#1c2029; --ink:#e7eaf0; --muted:#98a0b0; --line:#2c3240;
+    --accent:#6b9cff; --accent-soft:#22304d; }
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:16px 24px;background:var(--panel);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
+header h1{font-size:18px;margin:0;flex:1}
+header .meta{color:var(--muted);font-size:12px}
+button{font:inherit;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:8px;padding:6px 12px;cursor:pointer}
+button:hover{border-color:var(--accent)}
+button.on{background:var(--accent);border-color:var(--accent);color:#fff}
+main{max-width:1500px;margin:0 auto;padding:20px 24px 60px}
+.grid{display:grid;gap:16px}
+.kpis{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}
+.kpi{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.kpi .v{font-size:26px;font-weight:700;font-variant-numeric:tabular-nums}
+.kpi .l{color:var(--muted);font-size:12px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px;margin-top:16px}
+.card h2{font-size:15px;margin:0 0 12px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.card h2 .sp{flex:1}
+.two{grid-template-columns:repeat(auto-fit,minmax(min(380px,100%),1fr))}
+.seg{display:inline-flex;gap:4px}
+svg text{fill:var(--muted);font-size:11px}
+.tablewrap{overflow:auto;max-height:70vh;border:1px solid var(--line);border-radius:8px}
+table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}
+th,td{padding:7px 10px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap;vertical-align:top}
+th{position:sticky;top:0;background:var(--panel);font-size:12px;color:var(--muted);cursor:pointer;user-select:none;z-index:1}
+th.sorted{color:var(--accent)}
+tbody tr:hover{background:var(--accent-soft)}
+#comptes tbody tr{cursor:pointer}
+td.num,th.num{text-align:right}
+.muted{color:var(--muted)}
+.small{font-size:12px}
+.pill{display:inline-block;padding:1px 7px;border-radius:999px;font-size:11px;margin:1px 2px 1px 0;border:1px solid var(--line)}
+.pill.quitte{color:var(--good);border-color:var(--good)}
+.pill.erreur_serveur{color:var(--bad);border-color:var(--bad)}
+.pill.remplacee{color:var(--warn);border-color:var(--warn)}
+.pill.interrompue{color:var(--muted)}
+.pill.en_cours{color:var(--accent);border-color:var(--accent)}
+.grade{display:inline-block;min-width:34px;text-align:center;padding:1px 6px;border-radius:6px;color:#fff;font-size:11px;font-weight:600}
+.score{font-weight:600}
+input[type=search]{font:inherit;padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);min-width:280px}
+.bar{height:8px;border-radius:4px;background:var(--accent)}
+.bars td{border:none;padding:4px 8px;white-space:normal}
+#detail{position:fixed;inset:0;background:rgba(0,0,0,.45);display:none;z-index:10}
+#detail.open{display:block}
+#detail .sheet{position:absolute;right:0;top:0;bottom:0;width:min(1000px,100%);background:var(--bg);overflow:auto;padding:20px 24px;box-shadow:-8px 0 30px rgba(0,0,0,.25)}
+#detail .close{float:right}
+.defis td{text-align:center}
+.tier0{color:var(--muted)} .tier1{color:#b0702a;font-weight:600} .tier2{color:#7f8a99;font-weight:700} .tier3{color:#c9a000;font-weight:700}
+.colpick{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;margin:0 0 10px;font-size:12px}
+.colpick label{display:inline-flex;align-items:center;gap:4px;cursor:pointer;user-select:none}
+.colpick button{padding:3px 10px;font-size:12px}
+th .mv{display:inline-block;border:none;background:none;padding:0 3px;margin:0;color:var(--muted);cursor:pointer;font-size:11px;line-height:1}
+th .mv:hover{color:var(--accent)}
+th .mv[disabled]{visibility:hidden}
+.err{background:#fde8e8;color:#9b1c1c;border:1px solid #f5b5b5;padding:12px;border-radius:8px;margin-top:16px;display:none}
+.note{color:var(--muted);font-size:12px;margin-top:8px}
+@media (max-width:640px){ main{padding:12px} header{padding:12px} input[type=search]{min-width:0;width:100%} .two{grid-template-columns:1fr} }
+</style>
+</head>
+<body>
+<header>
+  <h1>École Primaire · Administration</h1>
+  <span class="meta" id="maj">Chargement…</span>
+  <button id="refresh">Actualiser</button>
+</header>
+<main>
+  <div class="err" id="err"></div>
+
+  <section class="grid kpis" id="kpis"></section>
+
+  <div class="card">
+    <h2>Créations de comptes <span class="sp"></span>
+      <span class="seg" id="periode">
+        <button data-p="jour" class="on">Jour</button><button data-p="semaine">Semaine</button><button data-p="mois">Mois</button>
+      </span>
+    </h2>
+    <div id="chart"></div>
+    <div class="note">Barres : nouveaux comptes sur la période · Ligne : total cumulé.</div>
+  </div>
+
+  <div class="grid two">
+    <div class="card">
+      <h2>Déconnexions par raison</h2>
+      <div id="deco"></div>
+      <div class="note">Enregistré depuis le 08/11/2026.</div>
+    </div>
+    <div class="card">
+      <h2>Navigateurs et appareils <span class="muted small">(30 derniers jours)</span></h2>
+      <div id="nav"></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Parties par classe et matière <span class="muted small">(tous comptes · scores enregistrés depuis le 08/11/2026)</span></h2>
+    <div id="matrice"></div>
+  </div>
+
+  <div class="card">
+    <h2>Comptes <span class="muted small" id="nbcomptes"></span><span class="sp"></span>
+      <input type="search" id="filtre" placeholder="Filtrer : pseudo, nom, prénom, email…">
+    </h2>
+    <div class="colpick" id="colpick"></div>
+    <div class="tablewrap"><table id="comptes"><thead></thead><tbody></tbody></table></div>
+    <div class="note">Clique sur une ligne pour voir la fiche détaillée. Clique sur un titre de colonne pour trier.</div>
+  </div>
+</main>
+
+<div id="detail"><div class="sheet" id="sheet"></div></div>
+
+<script>
+"use strict";
+const GRADES = ["CP","CE1","CE2","CM1","CM2"];
+const GRADE_VARS = ["--cp","--ce1","--ce2","--cm1","--cm2"];
+const SUBJECTS = {0:"Mathématiques",1:"Français",2:"Grammaire",3:"Conjugaison",4:"Orthographe",5:"Anglais",
+  6:"Compréhension de texte",7:"Logique",8:"Histoire-Géo",9:"Histoire",10:"Géographie"};
+const FOLDERS = {math:"Mathématiques",french:"Français",grammaire:"Grammaire",conjugaison:"Conjugaison",
+  orthographe:"Orthographe",english:"Anglais",lecture:"Compréhension de texte",logique:"Logique",
+  histoire_geo:"Histoire-Géo",histoiregeo:"Histoire-Géo",histoire:"Histoire",geographie:"Géographie"};
+/* Clé des pièces = rareté interne (voir GradeLevel.get_rarity) */
+const RARITY_TO_GRADE = {"0":0,"4":1,"1":2,"2":3,"3":4};
+const RAISONS = {
+  quitte:["A quitté","Bouton « Se déconnecter »"],
+  erreur_serveur:["Erreur serveur/réseau","Le jeu l'a renvoyé à l'intro (serveur injoignable)"],
+  remplacee:["Connecté ailleurs","Le même compte s'est connecté sur un autre appareil/onglet"],
+  interrompue:["Interrompue","Onglet fermé, réseau coupé ou appareil en veille"],
+  en_cours:["En cours","Session encore ouverte (ou fermée sans signal récent)"]
+};
+
+const $ = s => document.querySelector(s);
+const esc = v => String(v ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const fmtDate = d => d ? new Date(d).toLocaleDateString("fr-FR",{timeZone:"Europe/Paris"}) : "—";
+const fmtDT = d => d ? new Date(d).toLocaleString("fr-FR",{timeZone:"Europe/Paris",day:"2-digit",month:"2-digit",year:"2-digit",hour:"2-digit",minute:"2-digit"}) : "—";
+const gradeTag = g => (g===null||g===undefined||g==="" || GRADES[g]===undefined) ? '<span class="muted">—</span>'
+  : `<span class="grade" style="background:var(${GRADE_VARS[g]})">${GRADES[g]}</span>`;
+const subj = s => SUBJECTS[s] ?? ("Matière " + s);
+const pct = v => (v===null||v===undefined) ? "—" : (Math.round(v*10)/10).toLocaleString("fr-FR") + " %";
+const scoreColor = v => v===null||v===undefined ? "" : v>=80 ? "var(--good)" : v>=50 ? "var(--warn)" : "var(--bad)";
+
+function ago(d){
+  if(!d) return "—";
+  const s = (Date.now() - new Date(d).getTime())/1000;
+  if(s < 120) return "à l'instant";
+  if(s < 3600) return "il y a " + Math.round(s/60) + " min";
+  if(s < 86400) return "il y a " + Math.round(s/3600) + " h";
+  if(s < 86400*60) return "il y a " + Math.round(s/86400) + " j";
+  return fmtDate(d);
+}
+function parseUA(ua, plateforme){
+  ua = ua || "";
+  let b = "Inconnu", o = plateforme || "Inconnu", m;
+  if((m = ua.match(/Edg(?:e|A|iOS)?\/(\d+)/))) b = "Edge " + m[1];
+  else if((m = ua.match(/OPR\/(\d+)/))) b = "Opera " + m[1];
+  else if((m = ua.match(/SamsungBrowser\/(\d+)/))) b = "Samsung Internet " + m[1];
+  else if((m = ua.match(/FxiOS\/(\d+)/))) b = "Firefox " + m[1];
+  else if((m = ua.match(/Firefox\/(\d+)/))) b = "Firefox " + m[1];
+  else if((m = ua.match(/CriOS\/(\d+)/))) b = "Chrome " + m[1];
+  else if((m = ua.match(/Chrome\/(\d+)/))) b = "Chrome " + m[1];
+  else if((m = ua.match(/Version\/(\d+).*Safari/))) b = "Safari " + m[1];
+  if(/iPhone/.test(ua)) o = "iPhone";
+  else if(/iPad/.test(ua)) o = "iPad";
+  else if((m = ua.match(/Android (\d+)/))) o = "Android " + m[1];
+  else if(/Android/.test(ua)) o = "Android";
+  else if(/Windows/.test(ua)) o = "Windows";
+  else if(/Mac OS X/.test(ua)) o = (navigator.maxTouchPoints>1 && false) ? "iPad" : "macOS";
+  else if(/CrOS/.test(ua)) o = "ChromeOS";
+  else if(/Linux/.test(ua)) o = "Linux";
+  if(!ua) b = plateforme && plateforme !== "Web" ? "Application (hors navigateur)" : "Non transmis";
+  const mobile = /Mobi|iPhone|Android/.test(ua);
+  return {b, o, mobile};
+}
+function tirageLabel(cle){
+  if(!cle) return "—";
+  const [c, m] = cle.split("/");
+  const gi = GRADES.findIndex(g => g.toLowerCase() === (c||"").toLowerCase());
+  return (gi>=0 ? gradeTag(gi) : esc(c)) + " " + esc(FOLDERS[m] || m);
+}
+function tier(n){ return n>=50?3 : n>=20?2 : n>=5?1 : 0; }
+const TIER_NAMES = ["","bronze","argent","or"];
+
+async function rpc(fn, args){
+  const r = await fetch("/api/rpc/" + fn, {method:"POST", headers:{"Content-Type":"application/json"},
+    body: JSON.stringify(args || {}), credentials:"same-origin"});
+  if(!r.ok) throw new Error(fn + " → HTTP " + r.status + " " + (await r.text()).slice(0,300));
+  return r.json();
+}
+
+/* ---------- KPI ---------- */
+function renderKpis(r){
+  const k = [
+    [r.total_comptes, "Comptes créés"],
+    [r.emails_verifies, "Emails vérifiés"],
+    [r.connectes_maintenant, "Connectés maintenant"],
+    [r.actifs_24h, "Actifs 24 h"],
+    [r.actifs_7j, "Actifs 7 jours"],
+    [r.actifs_30j, "Actifs 30 jours"],
+    [r.parties_total, "Parties jouées*"],
+    [r.parties_7j, "Parties 7 jours*"],
+    [pct(r.reussite_moyenne), "Réussite moyenne*"],
+  ];
+  $("#kpis").innerHTML = k.map(([v,l]) => `<div class="kpi"><div class="v">${esc(v ?? 0)}</div><div class="l">${esc(l)}</div></div>`).join("");
+}
+
+/* ---------- Courbe des créations ---------- */
+let RESUME = null, PERIODE = "jour";
+function isoDay(d){ return d.toISOString().slice(0,10); }
+function bucketKey(dayStr, p){
+  if(p==="jour") return dayStr;
+  if(p==="mois") return dayStr.slice(0,7);
+  const d = new Date(dayStr + "T00:00:00Z");
+  const wd = (d.getUTCDay()+6)%7; d.setUTCDate(d.getUTCDate()-wd); return isoDay(d);
+}
+function bucketLabel(k, p){
+  if(p==="mois"){ const [y,m]=k.split("-"); return new Date(Date.UTC(+y,+m-1,1)).toLocaleDateString("fr-FR",{month:"short",year:"2-digit",timeZone:"UTC"}); }
+  const d = new Date(k+"T00:00:00Z"); const s = d.toLocaleDateString("fr-FR",{day:"2-digit",month:"2-digit",timeZone:"UTC"});
+  return p==="semaine" ? "sem. " + s : s;
+}
+function renderChart(){
+  const data = (RESUME && RESUME.creations) || [];
+  const box = $("#chart");
+  if(!data.length){ box.innerHTML = '<p class="muted">Aucun compte.</p>'; return; }
+  const counts = {}; data.forEach(x => counts[x.jour] = x.n);
+  const start = new Date(data[0].jour + "T00:00:00Z");
+  const today = new Date(new Date().toLocaleDateString("en-CA",{timeZone:"Europe/Paris"}) + "T00:00:00Z");
+  const buckets = new Map();
+  for(let d = new Date(start); d <= today; d.setUTCDate(d.getUTCDate()+1)){
+    const k = bucketKey(isoDay(d), PERIODE); buckets.set(k, (buckets.get(k)||0) + (counts[isoDay(d)]||0));
+  }
+  const keys = [...buckets.keys()], vals = keys.map(k => buckets.get(k));
+  let cum = 0; const cums = vals.map(v => cum += v);
+  const W = Math.max(box.clientWidth, 320), H = 260, padL = 36, padR = 40, padT = 12, padB = 46;
+  const iw = W - padL - padR, ih = H - padT - padB;
+  const maxV = Math.max(1, ...vals), maxC = Math.max(1, cum);
+  const bw = iw / keys.length;
+  const y = v => padT + ih - v / maxV * ih, yc = v => padT + ih - v / maxC * ih;
+  const step = Math.ceil(keys.length / Math.max(1, Math.floor(iw / 60)));
+  let s = `<svg width="${W}" height="${H}" role="img" aria-label="Créations de comptes">`;
+  const ticks = [...new Set([0,1,2,3,4].map(i => Math.round(maxV*i/4)))];
+  for(const v of ticks){ const yy = y(v);
+    s += `<line x1="${padL}" x2="${W-padR}" y1="${yy}" y2="${yy}" stroke="var(--line)"/><text x="${padL-6}" y="${yy+4}" text-anchor="end">${v}</text>`; }
+  s += `<text x="${W-padR+6}" y="${yc(maxC)+4}">${maxC}</text><text x="${W-padR+6}" y="${yc(0)+4}">0</text>`;
+  keys.forEach((k,i) => {
+    const x = padL + i*bw, h = ih - (y(vals[i]) - padT);
+    s += `<rect x="${x + bw*0.15}" y="${y(vals[i])}" width="${Math.max(1,bw*0.7)}" height="${h}" rx="2" fill="var(--accent)"><title>${esc(bucketLabel(k,PERIODE))} : ${vals[i]} compte(s) · total ${cums[i]}</title></rect>`;
+    if(i % step === 0) s += `<text x="${x + bw/2}" y="${H-padB+16}" text-anchor="middle">${esc(bucketLabel(k,PERIODE))}</text>`;
+  });
+  s += `<polyline fill="none" stroke="var(--good)" stroke-width="2" points="${keys.map((k,i)=>`${padL+i*bw+bw/2},${yc(cums[i])}`).join(" ")}"/>`;
+  s += `</svg>`;
+  box.innerHTML = s;
+}
+
+/* ---------- Déconnexions / navigateurs / matrice ---------- */
+function barsTable(rows){
+  const max = Math.max(1, ...rows.map(r => r.n));
+  return `<table class="bars">${rows.map(r => `<tr><td>${r.label}</td><td style="width:45%"><div class="bar" style="width:${r.n/max*100}%"></div></td><td class="num">${r.n}</td></tr>`).join("")}</table>`;
+}
+function renderDeco(r){
+  const d = r.deconnexions || {};
+  const rows = Object.keys(d).sort((a,b)=>d[b]-d[a]).map(k => ({n:d[k],
+    label:`<span class="pill ${esc(k)}">${esc((RAISONS[k]||[k])[0])}</span> <span class="muted small">${esc((RAISONS[k]||["",""])[1])}</span>`}));
+  $("#deco").innerHTML = rows.length ? barsTable(rows) : '<p class="muted">Rien pour l’instant.</p>';
+}
+function renderNav(r){
+  const agg = {};
+  (r.navigateurs||[]).forEach(x => { const p = parseUA(x.navigateur, x.plateforme);
+    const k = p.b.replace(/ \d+$/,"") + " · " + p.o + (p.mobile ? " (mobile)" : ""); agg[k] = (agg[k]||0) + x.n; });
+  const rows = Object.keys(agg).sort((a,b)=>agg[b]-agg[a]).map(k => ({n:agg[k], label:esc(k)}));
+  $("#nav").innerHTML = rows.length ? barsTable(rows) : '<p class="muted">Rien pour l’instant.</p>';
+}
+function matrix(list, withBest){
+  if(!list || !list.length) return '<p class="muted">Aucune partie enregistrée.</p>';
+  const subjects = [...new Set(list.map(x=>x.subject))].sort((a,b)=>a-b);
+  const grades = [...new Set(list.map(x=>x.grade))].sort((a,b)=>a-b);
+  const cell = {}; list.forEach(x => cell[x.grade+"_"+x.subject] = x);
+  let h = `<div class="tablewrap"><table><thead><tr><th>Classe</th>${subjects.map(s=>`<th>${esc(subj(s))}</th>`).join("")}<th class="num">Total</th></tr></thead><tbody>`;
+  grades.forEach(g => {
+    let tot = 0;
+    h += `<tr><td>${gradeTag(g)}</td>` + subjects.map(s => { const c = cell[g+"_"+s]; if(!c) return `<td class="muted">·</td>`; tot += c.parties;
+      return `<td><b>${c.parties}</b> partie${c.parties>1?"s":""}<br><span class="score" style="color:${scoreColor(c.moyenne)}">${pct(c.moyenne)}</span>${withBest && c.meilleure!=null ? ` <span class="muted small">max ${c.meilleure} %</span>`:""}${withBest && c.derniere ? `<br><span class="muted small">${ago(c.derniere)}</span>`:""}</td>`; }).join("") + `<td class="num"><b>${tot}</b></td></tr>`;
+  });
+  return h + `</tbody></table></div>`;
+}
+
+/* ---------- Tableau des comptes ---------- */
+let COMPTES = [], SORT = {key:"cree_le", dir:-1};
+const COLS = [
+  {k:"login", t:"Pseudo", v:c=>c.login, r:c=>`<b>${esc(c.login)}</b>`},
+  {k:"nom", t:"Prénom Nom", v:c=>((c.prenom||"")+" "+(c.nom||"")).trim().toLowerCase(), r:c=>esc(((c.prenom||"")+" "+(c.nom||"")).trim()) || '<span class="muted">—</span>'},
+  {k:"email", t:"Email", v:c=>c.email||"", r:c=>c.email ? esc(c.email) + (c.email_verifie ? ' <span title="vérifié" style="color:var(--good)">✓</span>' : ' <span class="muted small">(non vérifié)</span>') : '<span class="muted">—</span>'},
+  {k:"classe", t:"Classe", v:c=>c.classe ?? 99, r:c=>gradeTag(c.classe)},
+  {k:"cree_le", t:"Créé le", v:c=>c.cree_le||"", r:c=>fmtDate(c.cree_le)},
+  {k:"derniere_activite", t:"Dernière activité", v:c=>c.derniere_activite||"", r:c=>`<span title="${esc(fmtDT(c.derniere_activite))}">${ago(c.derniere_activite)}</span>`},
+  {k:"dernier_jeu", t:"Dernier jeu", v:c=>(c.dernier_jeu&&c.dernier_jeu.date)||(c.dernier_tirage&&c.dernier_tirage.date)||"", r:c=>{
+    if(c.dernier_jeu){ const j=c.dernier_jeu, p=j.total? j.bonnes*100/j.total : null;
+      return `${gradeTag(j.grade)} ${esc(subj(j.subject))} <span class="score" style="color:${scoreColor(p)}">${j.bonnes}/${j.total}</span> <span class="muted small">${ago(j.date)}</span>`; }
+    if(c.dernier_tirage) return `${tirageLabel(c.dernier_tirage.cle)} <span class="muted small">${ago(c.dernier_tirage.date)}</span>`;
+    return '<span class="muted">—</span>'; }},
+  {k:"parties", t:"Parties*", num:1, v:c=>c.parties||0, r:c=>c.parties||0},
+  {k:"moyenne", t:"Moyenne*", num:1, v:c=>c.moyenne ?? -1, r:c=>`<span class="score" style="color:${scoreColor(c.moyenne)}">${pct(c.moyenne)}</span>`},
+  {k:"cartes", t:"Cartes", num:1, v:c=>c.cartes_distinctes||0, r:c=>`${c.cartes_distinctes||0} <span class="muted small">(${c.cartes_total||0})</span>`},
+  {k:"defis", t:"Défis réussis", num:1, v:c=>c.defis_total||0, r:c=>c.defis_total||0},
+  {k:"connexions", t:"Connexions", num:1, v:c=>c.connexions||0, r:c=>c.connexions||0},
+  {k:"deconnexions", t:"Déconnexions", v:c=>Object.entries(c.deconnexions||{}).filter(([k])=>k!=="quitte"&&k!=="en_cours").reduce((a,[,n])=>a+n,0), r:c=>{
+    const d=c.deconnexions||{}; const ks=Object.keys(d); if(!ks.length) return '<span class="muted">—</span>';
+    return ks.map(k=>`<span class="pill ${esc(k)}" title="${esc((RAISONS[k]||[k])[1])}">${esc((RAISONS[k]||[k])[0])} ${d[k]}</span>`).join(""); }},
+];
+/* Colonnes affichees et leur ordre (memorises dans ce navigateur) */
+const DEFAULT_ORDER = COLS.map(c => c.k);
+let ORDER = DEFAULT_ORDER.slice(), HIDDEN = new Set();
+try{
+  const saved = JSON.parse(localStorage.getItem("admin_colonnes") || "null");
+  if(saved && Array.isArray(saved.order)){
+    ORDER = saved.order.filter(k => DEFAULT_ORDER.includes(k));
+    DEFAULT_ORDER.forEach(k => { if(!ORDER.includes(k)) ORDER.push(k); });
+    HIDDEN = new Set((saved.hidden || []).filter(k => DEFAULT_ORDER.includes(k)));
+  }
+}catch(e){}
+function saveCols(){ try{ localStorage.setItem("admin_colonnes", JSON.stringify({order:ORDER, hidden:[...HIDDEN]})); }catch(e){} }
+const colByKey = k => COLS.find(c => c.k === k);
+const visibleCols = () => ORDER.filter(k => !HIDDEN.has(k)).map(colByKey);
+function renderColPick(){
+  $("#colpick").innerHTML = '<span class="muted">Colonnes :</span>' +
+    DEFAULT_ORDER.map(k => `<label><input type="checkbox" data-col="${k}" ${HIDDEN.has(k)?"":"checked"}> ${esc(colByKey(k).t)}</label>`).join("") +
+    ' <button id="colreset" title="Toutes les colonnes, dans l\'ordre d\'origine">Réinitialiser</button>';
+}
+$("#colpick").addEventListener("change", e => {
+  const k = e.target.dataset.col; if(!k) return;
+  if(e.target.checked) HIDDEN.delete(k);
+  else { if(visibleCols().length <= 1){ e.target.checked = true; return; } HIDDEN.add(k); }
+  saveCols(); renderComptes();
+});
+$("#colpick").addEventListener("click", e => {
+  if(e.target.id !== "colreset") return;
+  ORDER = DEFAULT_ORDER.slice(); HIDDEN = new Set(); saveCols(); renderColPick(); renderComptes();
+});
+function moveCol(k, dir){
+  const vis = ORDER.filter(x => !HIDDEN.has(x));
+  const i = vis.indexOf(k), j = i + dir;
+  if(i < 0 || j < 0 || j >= vis.length) return;
+  const a = ORDER.indexOf(k), b = ORDER.indexOf(vis[j]);
+  [ORDER[a], ORDER[b]] = [ORDER[b], ORDER[a]];
+  saveCols(); renderComptes();
+}
+function renderComptes(){
+  const cols = visibleCols();
+  const f = $("#filtre").value.trim().toLowerCase();
+  let rows = COMPTES.filter(c => !f || [c.login,c.prenom,c.nom,c.email].some(x => (x||"").toLowerCase().includes(f)));
+  const col = colByKey(SORT.key) || colByKey("cree_le");
+  rows.sort((a,b) => { const va = col.v(a), vb = col.v(b); return (va>vb?1:va<vb?-1:0) * SORT.dir; });
+  $("#comptes thead").innerHTML = "<tr>" + cols.map((c, i) => `<th data-k="${c.k}" class="${c.num?"num ":""}${c.k===SORT.key?"sorted":""}"><button class="mv" data-mv="-1" data-col="${c.k}" title="Décaler à gauche" ${i===0?"disabled":""}>◀</button>${esc(c.t)}${c.k===SORT.key?(SORT.dir>0?" ▲":" ▼"):""}<button class="mv" data-mv="1" data-col="${c.k}" title="Décaler à droite" ${i===cols.length-1?"disabled":""}>▶</button></th>`).join("") + "</tr>";
+  $("#comptes tbody").innerHTML = rows.map(c => `<tr data-id="${esc(c.id)}">` + cols.map(col => `<td class="${col.num?"num":""}">${col.r(c)}</td>`).join("") + "</tr>").join("")
+    || `<tr><td colspan="${cols.length}" class="muted">Aucun compte ne correspond.</td></tr>`;
+  $("#nbcomptes").textContent = `(${rows.length}${rows.length!==COMPTES.length?" / "+COMPTES.length:""})`;
+}
+$("#comptes").addEventListener("click", e => {
+  const mv = e.target.closest("button.mv");
+  if(mv){ e.stopPropagation(); moveCol(mv.dataset.col, +mv.dataset.mv); return; }
+  const th = e.target.closest("th");
+  if(th){ const k = th.dataset.k; SORT = {key:k, dir: SORT.key===k ? -SORT.dir : (k==="login"||k==="nom"||k==="email"||k==="classe" ? 1 : -1)}; renderComptes(); return; }
+  const tr = e.target.closest("tr[data-id]"); if(tr) openDetail(tr.dataset.id);
+});
+$("#filtre").addEventListener("input", renderComptes);
+renderColPick();
+
+/* ---------- Fiche détaillée ---------- */
+async function openDetail(id){
+  $("#detail").classList.add("open");
+  $("#sheet").innerHTML = '<button class="close" id="close">Fermer ✕</button><p class="muted">Chargement…</p>';
+  try{
+    const c = await rpc("fn_admin_compte", {p_id:id});
+    if(!c){ $("#sheet").innerHTML += '<p>Compte introuvable.</p>'; return; }
+    const pieces = Object.entries(c.pieces||{}).map(([k,v]) => `${gradeTag(RARITY_TO_GRADE[k])} ${v}`).join(" &nbsp; ") || "—";
+    const cartes = Object.entries(c.cartes||{}).sort((a,b)=>b[1]-a[1]);
+    const defis = c.defis || {};
+    const defSubjects = [...new Set(Object.values(defis).flatMap(o => Object.keys(o||{})))].map(Number).sort((a,b)=>a-b);
+    const defGrades = Object.keys(defis).map(Number).sort((a,b)=>a-b);
+    let defHtml = '<p class="muted">Aucun Défi réussi.</p>';
+    if(defSubjects.length){
+      defHtml = `<div class="tablewrap"><table class="defis"><thead><tr><th>Classe</th>${defSubjects.map(s=>`<th>${esc(subj(s))}</th>`).join("")}</tr></thead><tbody>` +
+        defGrades.map(g => `<tr><td>${gradeTag(g)}</td>` + defSubjects.map(s => { const n = (defis[g]||{})[s]; if(!n) return '<td class="muted">·</td>';
+          const t = tier(n); return `<td class="tier${t}" title="${TIER_NAMES[t]||"pas encore bronze"}">${n}${t?" "+["","🥉","🥈","🥇"][t]:""}</td>`; }).join("") + "</tr>").join("") + "</tbody></table></div>";
+    }
+    const cx = (c.connexions||[]).map(x => { const p = parseUA(x.navigateur, x.plateforme); const k = x.raison || "en_cours";
+      const dur = x.fin ? Math.max(0, Math.round((new Date(x.fin) - new Date(x.debut))/60000)) : null;
+      return `<tr><td>${fmtDT(x.debut)}</td><td>${x.fin?fmtDT(x.fin):'<span class="muted">—</span>'}</td><td class="num">${dur===null?"—":dur+" min"}</td>
+        <td><span class="pill ${esc(k)}" title="${esc((RAISONS[k]||[k])[1])}">${esc((RAISONS[k]||[k])[0])}</span>${x.detail?` <span class="muted small">${esc(x.detail)}</span>`:""}</td>
+        <td>${esc(p.b)}</td><td>${esc(p.o)}${p.mobile?' <span class="muted small">mobile</span>':""}</td></tr>`; }).join("");
+    const pr = (c.parties_recentes||[]).map(x => { const p = x.total ? x.bonnes*100/x.total : null;
+      return `<tr><td>${fmtDT(x.date)}</td><td>${gradeTag(x.grade)}</td><td>${esc(subj(x.subject))}</td><td class="num"><span class="score" style="color:${scoreColor(p)}">${x.bonnes}/${x.total}</span></td></tr>`; }).join("");
+    const tir = (c.tirages||[]).map(t => `<tr><td>${tirageLabel(t.cle)}</td><td>${fmtDT(t.date)}</td></tr>`).join("");
+    $("#sheet").innerHTML = `<button class="close" id="close">Fermer ✕</button>
+      <h2 style="margin-top:0">${esc(c.login)} <span class="muted" style="font-weight:400">${esc(((c.prenom||"")+" "+(c.nom||"")).trim())}</span></h2>
+      <div class="grid kpis">
+        <div class="kpi"><div class="l">Email</div><div>${c.email?esc(c.email):"—"} ${c.email_verifie?'<span style="color:var(--good)">✓ vérifié</span>':'<span class="muted">non vérifié</span>'}</div></div>
+        <div class="kpi"><div class="l">Classe du profil</div><div>${gradeTag(c.classe)} ${c.pays?'<span class="muted small">· '+esc(c.pays)+'</span>':""}</div></div>
+        <div class="kpi"><div class="l">Compte créé le</div><div>${fmtDT(c.cree_le)}</div></div>
+        <div class="kpi"><div class="l">Dernière activité</div><div>${fmtDT(c.derniere_activite)} <span class="muted small">(${ago(c.derniere_activite)})</span></div></div>
+        <div class="kpi"><div class="l">Pièces par classe</div><div>${pieces}</div></div>
+        <div class="kpi"><div class="l">Cartes</div><div><b>${cartes.length}</b> différentes · ${cartes.reduce((a,[,n])=>a+n,0)} au total</div></div>
+      </div>
+      <div class="card"><h2>Parties par classe et matière <span class="muted small">(scores enregistrés depuis le 08/11/2026)</span></h2>${matrix(c.parties_par_matiere, true)}</div>
+      <div class="card"><h2>Défis réussis <span class="muted small">(séries sans faute · 🥉 5 · 🥈 20 · 🥇 50)</span></h2>${defHtml}</div>
+      <div class="grid two">
+        <div class="card"><h2>50 dernières parties</h2>${pr?`<div class="tablewrap"><table><thead><tr><th>Date</th><th>Classe</th><th>Matière</th><th class="num">Score</th></tr></thead><tbody>${pr}</tbody></table></div>`:'<p class="muted">Aucune.</p>'}</div>
+        <div class="card"><h2>Matières pratiquées <span class="muted small">(historique complet)</span></h2>${tir?`<div class="tablewrap"><table><thead><tr><th>Classe · matière</th><th>Dernière série</th></tr></thead><tbody>${tir}</tbody></table></div>`:'<p class="muted">Aucune.</p>'}</div>
+      </div>
+      <div class="card"><h2>Connexions <span class="muted small">(100 dernières · depuis le 08/11/2026)</span></h2>${cx?`<div class="tablewrap"><table><thead><tr><th>Début</th><th>Fin</th><th class="num">Durée</th><th>Raison de fin</th><th>Navigateur</th><th>Appareil</th></tr></thead><tbody>${cx}</tbody></table></div>`:'<p class="muted">Aucune connexion enregistrée.</p>'}</div>
+      ${cartes.length?`<div class="card"><h2>Détail des cartes</h2><p class="small">${cartes.map(([k,n])=>`${esc(k)}${n>1?" ×"+n:""}`).join(" · ")}</p></div>`:""}`;
+  }catch(err){ $("#sheet").innerHTML += `<div class="err" style="display:block">${esc(err.message)}</div>`; }
+}
+$("#detail").addEventListener("click", e => { if(e.target.id==="detail" || e.target.id==="close") $("#detail").classList.remove("open"); });
+document.addEventListener("keydown", e => { if(e.key==="Escape") $("#detail").classList.remove("open"); });
+
+/* ---------- Chargement ---------- */
+$("#periode").addEventListener("click", e => { const b = e.target.closest("button"); if(!b) return;
+  PERIODE = b.dataset.p; [...$("#periode").children].forEach(x => x.classList.toggle("on", x===b)); renderChart(); });
+window.addEventListener("resize", () => renderChart());
+async function load(){
+  $("#err").style.display = "none"; $("#maj").textContent = "Chargement…";
+  try{
+    const [r, c] = await Promise.all([rpc("fn_admin_resume"), rpc("fn_admin_comptes")]);
+    RESUME = r; COMPTES = c || [];
+    renderKpis(r); renderChart(); renderDeco(r); renderNav(r);
+    $("#matrice").innerHTML = matrix(r.parties_par_matiere, false);
+    renderComptes();
+    $("#maj").textContent = "Mis à jour le " + fmtDT(r.genere_le) + " · * scores enregistrés depuis le 08/11/2026";
+  }catch(err){ $("#err").textContent = "Erreur de chargement : " + err.message; $("#err").style.display = "block"; $("#maj").textContent = ""; }
+}
+$("#refresh").addEventListener("click", load);
+load();
+</script>
+</body>
+</html>

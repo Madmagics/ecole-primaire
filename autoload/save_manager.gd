@@ -1268,7 +1268,10 @@ func _push_draw_states(index: int) -> void:
 			var snapshot: Dictionary = (all.get(key, {}) as Dictionary).duplicate(true)
 			var result := await ServerApi.maj_tirage(jeton, String(key), snapshot)
 			if not result.get("ok", false):
-				break
+				## 2026-11-08 : une cle refusee ne bloque plus les suivantes (avant, "ce2/histoire_geo",
+				## refusee par le serveur, empechait l'envoi de TOUTES les autres cles du compte).
+				## Elle reste en attente et sera retentee au prochain passage.
+				continue
 			index_now = _current_account_index()
 			if index_now == -1 or String(_accounts[index_now].get("id", "")) != account_id:
 				break
