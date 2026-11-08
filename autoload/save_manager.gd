@@ -285,6 +285,7 @@ func login(login_name: String, password: String) -> bool:
 		index = _find_account_index_by_login(login_name)
 		if index != -1:
 			_accounts[index]["sync_jeton"] = String(data.get("jeton", ""))
+			_send_connection_info(String(data.get("jeton", "")))
 			## Blocage dur avant confirmation d'email (2026-09-16, voir TODO_UI_MODS.md) : fn_login
 			## renvoie desormais aussi "email"/"email_verifie" (schema.sql) - verifie a CHAQUE
 			## connexion reussie, pas seulement a la creation. Defaut "true" si la cle est absente
@@ -693,7 +694,9 @@ func _describe_public_creation_error(message: String) -> String:
 ## CardCollection/ChallengeTracker a un etat neutre, pour que WelcomePanel ne montre
 ## jamais les donnees d'un compte a un autre pendant la transition. Pas encore appele depuis
 ## l'UI (aucun bouton "Se deconnecter" cree pour l'instant) - disponible pour plus tard.
-func logout() -> void:
+## [raison] (2026-11-08, page admin) : "quitte" pour une deconnexion volontaire, "erreur_serveur"
+## depuis _disconnect_due_to_server_failure() - transmise au serveur (table connexions).
+func logout(raison: String = "quitte", detail: String = "") -> void:
 	if current_account_id.is_empty():
 		return
 	save_current_account()
@@ -709,7 +712,7 @@ func logout() -> void:
 	if index != -1:
 		var jeton := String(_accounts[index].get("sync_jeton", ""))
 		if not jeton.is_empty():
-			_notify_server_logout(jeton)
+			_notify_server_logout(jeton, raison, detail)
 			_accounts[index]["sync_jeton"] = ""
 	current_account_id = ""
 	Economy.reset()
@@ -759,15 +762,34 @@ func _disconnect_due_to_server_failure() -> void:
 	if current_account_id.is_empty() or _disconnecting_due_to_server_failure:
 		return
 	_disconnecting_due_to_server_failure = true
-	logout()
+	logout("erreur_serveur")
 	server_connection_lost.emit(SERVER_CONNECTION_LOST_MESSAGE)
 	_disconnecting_due_to_server_failure = false
 
 ## Wrapper fire-and-forget autour de ServerApi.deconnecter() (meme raison que
 ## _register_account_on_server() plus bas : absorber la valeur de retour Dictionary proprement, pas
 ## de logique en plus ici - la deconnexion locale est deja actee par logout() avant meme cet appel).
-func _notify_server_logout(jeton: String) -> void:
-	await ServerApi.deconnecter(jeton)
+func _notify_server_logout(jeton: String, raison: String = "quitte", detail: String = "") -> void:
+	await ServerApi.deconnecter(jeton, raison, detail)
+
+## Envoie navigateur + plateforme de la session qui vient d'etre ouverte (2026-11-08, page admin,
+## voir fn_infos_connexion dans server/admin_1_collecte.sql). Fire-and-forget comme
+## _notify_server_logout() : un echec ne gene jamais le joueur. JavaScriptBridge n'existe que sur
+## l'export Web (d'ou la garde OS.has_feature("web")) ; ailleurs (editeur, export PC) on envoie
+## juste OS.get_name().
+func _send_connection_info(jeton: String) -> void:
+	if jeton.is_empty():
+		return
+	var navigateur := ""
+	var plateforme := OS.get_name()
+	if OS.has_feature("web"):
+		var ua: Variant = JavaScriptBridge.eval("navigator.userAgent")
+		if ua is String:
+			navigateur = ua
+		var pf: Variant = JavaScriptBridge.eval("(navigator.userAgentData && navigator.userAgentData.platform) || navigator.platform || ''")
+		if pf is String and not (pf as String).is_empty():
+			plateforme = pf
+	await ServerApi.infos_connexion(jeton, navigateur, plateforme)
 
 func get_current_profile() -> Dictionary:
 	var index := _current_account_index()
@@ -1008,6 +1030,7 @@ func _resync_password_from_server(login_name: String, password: String) -> bool:
 	_accounts[index]["password_hash"] = mdp_hash
 	_accounts[index]["password_salt"] = salt
 	_accounts[index]["sync_jeton"] = jeton
+	_send_connection_info(jeton)
 	_accounts[index]["email"] = String(data.get("email", _accounts[index].get("email", "")))
 	_accounts[index]["email_verifie"] = bool(data.get("email_verifie", true))
 	var account: Dictionary = _accounts[index]
@@ -1737,6 +1760,7 @@ func _ensure_server_session(index: int) -> bool:
 		return true # le compte a change pendant l'attente reseau - la connexion a quand meme reussi, juste inutile a stocker ici
 	var data: Dictionary = login_result.get("data", {})
 	_accounts[index_now]["sync_jeton"] = String(data.get("jeton", ""))
+	_send_connection_info(String(data.get("jeton", "")))
 	return true
 
 ## --- Persistance disque ---

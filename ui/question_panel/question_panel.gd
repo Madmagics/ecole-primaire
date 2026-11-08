@@ -926,6 +926,12 @@ func _show_result() -> void:
 	## section "Récompenses" (2026-08-29, retour utilisateur : "on enleve le systeme commun peu
 	## commun etc et on remplace juste par le nom des classes") - voir GradeLevel.get_grade_for_rarity.
 	var grade := GradeLevel.get_grade_for_rarity(_rarity)
+	## Score de la serie pour la page admin (2026-11-08, voir server/admin_1_collecte.sql) - jamais
+	## pendant la demo-tutoriel. _questions est encore complete ici (voir commentaire Defi plus bas).
+	if not tutorial_mode and total > 0:
+		SaveManager.log_event("partie_terminee", {
+			"grade": int(grade), "subject": int(_questions[0].subject), "bonnes": correct, "total": total,
+		})
 	## "pièce(s) {classe}" remplace par l'icone piece coloree de la classe (2026-08-31, retour
 	## utilisateur : "remplace 'piece CP' par l icone de piece de la bonne couleur... pour toutes
 	## les classes toutes les matieres") - le texte s'arrete desormais au nombre, l'icone (creee

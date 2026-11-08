@@ -150,8 +150,15 @@ func pulse_session(p_jeton: String) -> Dictionary:
 ## logout()) pour que ce compte redevienne connectable ailleurs sans attendre l'expiration naturelle
 ## de la presence. Idempotente/best-effort (data (si ok) : {"ok": true} meme sur un jeton deja
 ## absent/expire).
-func deconnecter(p_jeton: String) -> Dictionary:
-	return await _call_rpc("fn_deconnecter", {"p_jeton": p_jeton})
+## [p_raison] (2026-11-08, page admin, voir server/admin_1_collecte.sql) : "quitte" (defaut) ou
+## "erreur_serveur", enregistree dans la table connexions avec [p_detail] (facultatif).
+func deconnecter(p_jeton: String, p_raison: String = "quitte", p_detail: String = "") -> Dictionary:
+	return await _call_rpc("fn_deconnecter", {"p_jeton": p_jeton, "p_raison": p_raison, "p_detail": p_detail})
+
+## Navigateur + plateforme de la session en cours (2026-11-08, page admin, voir
+## fn_infos_connexion dans server/admin_1_collecte.sql) - data (si ok) : {"ok": true}.
+func infos_connexion(p_jeton: String, p_navigateur: String, p_plateforme: String) -> Dictionary:
+	return await _call_rpc("fn_infos_connexion", {"p_jeton": p_jeton, "p_navigateur": p_navigateur, "p_plateforme": p_plateforme})
 
 ## Change le pseudo du compte associe au jeton - data (si ok) : {"login": String} (voir
 ## fn_changer_login dans schema.sql, qui peut refuser avec "pseudo_indisponible").
