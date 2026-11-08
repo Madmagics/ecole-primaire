@@ -441,6 +441,7 @@ func _login_from_server(login_name: String, password: String) -> bool:
 	}
 	_accounts.append(account)
 	current_account_id = compte_id
+	_send_connection_info(jeton)
 	_apply_account_to_runtime(account)
 	_apply_volume_from_profile(account["profile"])
 	_apply_theme_from_profile(account["profile"])
