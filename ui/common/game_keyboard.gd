@@ -110,6 +110,7 @@ func _ready() -> void:
 	if not DisplayServer.is_touchscreen_available():
 		return
 	_build_ui()
+	_mute_web_ime_keyboard()
 	## Meme mecanique de theme que les autres fenetres (voir quit_overlay.gd) : un CanvasLayer coupe
 	## la propagation automatique du Theme depuis la racine.
 	_apply_theme(SaveManager.THEMES[SaveManager.ui_theme])
@@ -134,11 +135,7 @@ func _on_gui_focus_changed(node: Control) -> void:
 		return
 	_target = line_edit
 	_target.virtual_keyboard_enabled = false
-	## Coupe aussi l'IME Web (voir _disable_native_ime) - differe car la LineEdit le reactive juste
-	## APRES ce signal (NOTIFICATION_FOCUS_ENTER arrive apres gui_focus_changed), et a chaque toucher.
-	_disable_native_ime.call_deferred()
-	if not line_edit.gui_input.is_connected(_on_target_gui_input):
-		line_edit.gui_input.connect(_on_target_gui_input)
+	_mute_web_ime_keyboard()
 	_set_shift(ShiftState.OFF)
 	_set_reveal_secret(false)
 	_eye_button.visible = line_edit.secret
@@ -154,20 +151,18 @@ func is_enabled() -> bool:
 	return _root != null
 
 ## Double clavier hors plein ecran (2026-11-19, retour joueurs smartphone/tablette) : l'export Web
-## de Godot gere l'IME via un element HTML cache (div contentEditable) qu'il met en focus des qu'une
-## LineEdit est active (DisplayServer.window_set_ime_active(true)) - et sur mobile, un element
-## editable en focus fait sortir le clavier natif, MEME avec virtual_keyboard_enabled=false et
-## html/experimental_virtual_keyboard=false. En plein ecran le navigateur le bloque deja, d'ou le
-## bug visible seulement en fenetre normale. On coupe donc l'IME tant que notre clavier est utilise :
-## la frappe passe par Input.parse_input_event (touches), pas par l'IME, rien n'est perdu.
-func _disable_native_ime() -> void:
-	if is_instance_valid(_target):
-		DisplayServer.window_set_ime_active(false)
-
-## Retoucher la case deja active peut relancer l'edition (et donc l'IME) : on le recoupe.
-func _on_target_gui_input(event: InputEvent) -> void:
-	if event is InputEventMouseButton or event is InputEventScreenTouch:
-		_disable_native_ime.call_deferred()
+## de Godot 4.7 gere l'IME via une div cachee (div.ime, contentEditable) qu'il remet en focus toutes
+## les 100 ms tant qu'une LineEdit est active (GodotIME.ime_active dans index.js) - et sur mobile un
+## element editable en focus fait sortir le clavier natif, MEME avec virtual_keyboard_enabled=false
+## et html/experimental_virtual_keyboard=false (en plein ecran le navigateur le bloquait deja).
+## 1er essai abandonne : DisplayServer.window_set_ime_active(false) -> Godot la reactive aussitot,
+## le clavier Chrome clignotait a chaque touche. Solution retenue : attribut HTML standard
+## inputmode="none" sur cette div - elle garde le focus, mais le navigateur n'ouvre plus son clavier.
+## Idempotent, rappele a chaque prise de focus (au cas ou la div serait recreee).
+func _mute_web_ime_keyboard() -> void:
+	if not OS.has_feature("web"):
+		return
+	JavaScriptBridge.eval("document.querySelectorAll('div.ime').forEach(function(e){e.setAttribute('inputmode','none');});")
 
 func _close() -> void:
 	_target = null
