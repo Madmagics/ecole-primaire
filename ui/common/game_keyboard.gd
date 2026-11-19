@@ -134,6 +134,11 @@ func _on_gui_focus_changed(node: Control) -> void:
 		return
 	_target = line_edit
 	_target.virtual_keyboard_enabled = false
+	## Coupe aussi l'IME Web (voir _disable_native_ime) - differe car la LineEdit le reactive juste
+	## APRES ce signal (NOTIFICATION_FOCUS_ENTER arrive apres gui_focus_changed), et a chaque toucher.
+	_disable_native_ime.call_deferred()
+	if not line_edit.gui_input.is_connected(_on_target_gui_input):
+		line_edit.gui_input.connect(_on_target_gui_input)
 	_set_shift(ShiftState.OFF)
 	_set_reveal_secret(false)
 	_eye_button.visible = line_edit.secret
@@ -147,6 +152,22 @@ func _on_gui_focus_changed(node: Control) -> void:
 ## ne pas afficher sa propre liste de suggestions (elle serait cachee sous le flou).
 func is_enabled() -> bool:
 	return _root != null
+
+## Double clavier hors plein ecran (2026-11-19, retour joueurs smartphone/tablette) : l'export Web
+## de Godot gere l'IME via un element HTML cache (div contentEditable) qu'il met en focus des qu'une
+## LineEdit est active (DisplayServer.window_set_ime_active(true)) - et sur mobile, un element
+## editable en focus fait sortir le clavier natif, MEME avec virtual_keyboard_enabled=false et
+## html/experimental_virtual_keyboard=false. En plein ecran le navigateur le bloque deja, d'ou le
+## bug visible seulement en fenetre normale. On coupe donc l'IME tant que notre clavier est utilise :
+## la frappe passe par Input.parse_input_event (touches), pas par l'IME, rien n'est perdu.
+func _disable_native_ime() -> void:
+	if is_instance_valid(_target):
+		DisplayServer.window_set_ime_active(false)
+
+## Retoucher la case deja active peut relancer l'edition (et donc l'IME) : on le recoupe.
+func _on_target_gui_input(event: InputEvent) -> void:
+	if event is InputEventMouseButton or event is InputEventScreenTouch:
+		_disable_native_ime.call_deferred()
 
 func _close() -> void:
 	_target = null

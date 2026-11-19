@@ -1430,3 +1430,14 @@ Script : `server/correctifs_2026-10-03_logique.sql`. `fn_publier()` : cp/ce2/cm1
 - Signalement BUG 30802 (CE1 orthographe) : "escalier" admet la diérèse es-ca-li-er (4) alors que 4 est un mauvais choix -> mot remplacé par "lavabo" (3). Signalement passé en "corrige". Script : server/correctifs_2026-10-12_signalement_30802.sql.
 - Demande de Steve : CE1 logique "Quel élément n'est pas un animal/fruit/objet/une forme ?" trop facile (une forme au milieu d'animaux). Les 40 questions (41222-41261, notion intrus) remplacées par des intrus à l'intérieur d'une même catégorie, avec pièges : oiseau (chauve-souris, papillon, abeille, coccinelle qui volent ; manchot et poule restent des oiseaux), insecte (escargot, crabe, oiseau, chauve-souris), ne vole pas (manchot), poisson (dauphin, baleine, pieuvre, crabe), fruit/légume, ne pond pas d'œufs (dauphin piège), forme sans coin. Script : server/correctifs_2026-10-12_intrus_logique_ce1.sql. Ce format n'existe dans aucune autre classe.
 - Validé ensuite par Steve : 30884 "musicien" -> "pantalon", 30950 "parapluie" -> "robinet", 100198 "galaxie" -> "tabouret" (3 syllabes, sans ambiguïté). Script : server/correctifs_2026-10-12_syllabes_ambigus.sql.
+
+### #40 — 2026-11-08 — CE1 logique : suites de nombres trop difficiles — corrigé et publié DANS SUPABASE
+- Constat après 3 signalements BUG (41087, 41020, 41034) : saut de difficulté CP -> CE1 (35 suites CE1 à pas de 11-20, dont 20 descendantes au-dessus de 100).
+- Règle validée par Steve : au-delà de 100, pas ≤ 5 ou pas ronds (10, 20, 50, 100) ; pas de 11 à 20 seulement sous 100 et en montant ; « Quel nombre vient ensuite ? » pour les suites qui descendent.
+- 36 questions remplacées (mauvais choix : ±1, ou ±10 pour pas ≥ 20, + dernier terme), 20 suites descendantes reformulées. Signalements 41087/41020/41034 -> corrige. Script : server/correctifs_2026-11-08_suites_ce1.sql. Publié (fn_publier, paquet ce1/logique).
+
+### #41 — 2026-11-08 — Audit complet Histoire-Géo (CP à CM2) + intrus de nombres CE1 — corrigé et publié DANS SUPABASE
+- Demande de Steve : les mauvais choix absurdes rendent la question sans intérêt ; corriger toutes les incohérences.
+- Lecture une par une des 1 050 questions HG publiées : 380 corrigées (mauvais choix absurdes remplacés par des distracteurs plausibles du même registre, erreurs de faits — ex. lois Ferry 1881-1882, plus long fleuve, câbles sous-marins —, doublons réécrits, bonnes réponses devinables). 123402/123404 ne recoupent plus 123405. Script : server/correctifs_2026-11-08_audit_histgeo.sql.
+- CE1 logique, intrus de nombres : « n'est pas un multiple de 5/10 » → « En comptant de 5 en 5 (10 en 10) à partir de 0, quel nombre ne dit-on pas ? » (21), « n'est pas un nombre impair/pair » → « Quel nombre est pair/impair ? » (17). Script : server/correctifs_2026-11-08_intrus_nombres_ce1.sql.
+- Publié (fn_publier) : 7 paquets HG + ce1/logique.
