@@ -445,11 +445,9 @@ func _populate_choice_buttons(question: QuestionResource) -> void:
 	options.append(question.correct_answer)
 	options.shuffle()
 
-	## Grille 2x2 agrandie pour Logique (voir LOGIC_CHOICE_* plus haut), sinon empilement vertical
-	## habituel (1 seule colonne) - remis a jour a chaque question au cas ou un pack melangerait
-	## les matieres (aucun cas actuel, mais pas de raison de le supposer).
+	## Nombre de colonnes (grille 2x2 ou empilement vertical) decide apres la boucle, une fois les
+	## reponses mesurees - voir use_grid plus bas. Remis a jour a chaque question.
 	var is_logic := question.subject == SubjectType.Subject.LOGIC
-	choices_container.columns = LOGIC_CHOICE_COLUMNS if is_logic else 1
 
 	var buttons: Array[Button] = []
 	var max_width := 0.0
@@ -523,10 +521,21 @@ func _populate_choice_buttons(question: QuestionResource) -> void:
 	## plusieurs lignes (le bouton grandit alors en hauteur, comportement deja supporte) au lieu de
 	## deborder en largeur.
 	var available_width := _get_question_scroll_content_width()
-	if is_logic:
-		## 2 colonnes cote a cote (voir LOGIC_CHOICE_COLUMNS) : chaque case ne dispose que de la
-		## moitie de available_width, moins l'ecart entre les 2 colonnes.
-		available_width = (available_width - choices_container.get_theme_constant("h_separation")) / float(LOGIC_CHOICE_COLUMNS)
+	## Largeur d'une case si la grille passe en 2 colonnes cote a cote (voir LOGIC_CHOICE_COLUMNS) :
+	## moitie de available_width, moins l'ecart entre les 2 colonnes.
+	var half_width := (available_width - choices_container.get_theme_constant("h_separation")) / float(LOGIC_CHOICE_COLUMNS)
+	## Grille 2x2 (retour utilisateur 2026-11-21 : en anglais CP, les 4 cases empilees, emoji
+	## agrandis compris, depassaient du bas de l'ecran et obligeaient a scroller pour voir la
+	## derniere reponse - Steve refuse tout scroll dans les choix et prefere 2 lignes x 2 colonnes
+	## a des cases moins hautes). Appliquee a Logique comme avant, a toute question dont une
+	## reponse est un emoji, et a toute question dont la reponse la plus longue (max_width, largeur
+	## naturelle sur une ligne, plancher compris) tient dans une demi-largeur. Les reponses longues
+	## (phrases de comprehension de texte) restent empilees sur 1 colonne : en 2 colonnes elles se
+	## replieraient sur beaucoup de lignes et la grille deviendrait plus haute, pas moins.
+	var use_grid := is_logic or has_emoji_choice or max_width <= half_width
+	choices_container.columns = LOGIC_CHOICE_COLUMNS if use_grid else 1
+	if use_grid:
+		available_width = half_width
 	max_width = minf(max_width, available_width)
 	for button in buttons:
 		button.custom_minimum_size.x = max_width
