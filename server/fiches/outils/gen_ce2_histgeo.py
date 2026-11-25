@@ -112,7 +112,7 @@ f"""[titre]Jules César conquiert la Gaule[/titre]
 [cadre]Alésia se trouvait en [b]Bourgogne[/b], près du village actuel d'Alise-Sainte-Reine. Après sa défaite, la Gaule fait partie de l'empire romain.[/cadre]""",
 f"""[titre]Les Gallo-Romains[/titre]
 {gros('🛡️ ➕ 🏛️', 50)}
-Pendant plus de 400 ans, les Gaulois vivent dans l'empire romain : on les appelle les [b]Gallo-Romains[/b].
+Pendant plus de 400 ans, les Gaulois vivent dans l'empire romain : on les appelle les [b]Gallo-Romains[/b]. Les Romains découpent la Gaule en plusieurs provinces : on parle alors des [b]Gaules[/b].
 [cadre]Le monde [b]gallo-romain[/b] mélange les deux cultures : les Gaulois gardent certains dieux et certaines habitudes, et adoptent la langue, les lois, les routes et les monuments des Romains.[/cadre]""",
 f"""[titre]Ce que les Romains apportent[/titre]
 {tableau(2, ['🗣️ le [b]latin[/b]', 'la langue des Romains : le français vient du latin', '🏙️ des [b]villes[/b]', 'construites comme Rome, avec un forum, des thermes, un amphithéâtre', '🛣️ des [b]routes[/b]', 'les voies romaines relient les villes', '🍇 de nouvelles cultures', 'la vigne et l\'olivier se répandent'], size=19, lignes=True)}""",

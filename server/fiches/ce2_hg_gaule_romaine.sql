@@ -16,7 +16,7 @@ Avant les Romains, la [b]Gaule[/b] (à peu près la France d'aujourd'hui) est ha
 [page]
 [titre]Les Gallo-Romains[/titre]
 [center][font_size=50]🛡️ ➕ 🏛️[/font_size][/center]
-Pendant plus de 400 ans, les Gaulois vivent dans l'empire romain : on les appelle les [b]Gallo-Romains[/b].
+Pendant plus de 400 ans, les Gaulois vivent dans l'empire romain : on les appelle les [b]Gallo-Romains[/b]. Les Romains découpent la Gaule en plusieurs provinces : on parle alors des [b]Gaules[/b].
 [cadre]Le monde [b]gallo-romain[/b] mélange les deux cultures : les Gaulois gardent certains dieux et certaines habitudes, et adoptent la langue, les lois, les routes et les monuments des Romains.[/cadre]
 [page]
 [titre]Ce que les Romains apportent[/titre]

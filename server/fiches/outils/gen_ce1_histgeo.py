@@ -78,7 +78,7 @@ De [b]476[/b] à [b]1492[/b]. C'est le temps des châteaux forts, des chevaliers
 f"""[titre]Les Temps modernes[/titre]
 [periodes marque=4]
 De [b]1492[/b] à [b]1789[/b]. C'est le temps des grands voyages en bateau et des rois puissants.
-{tableau(2, ['[b]Christophe Colomb[/b]', 'un navigateur, arrivé en Amérique en 1492', '[b]Léonard de Vinci[/b]', 'un peintre et inventeur, auteur de la Joconde', '[b]Louis XIV[/b]', 'le « Roi-Soleil », qui a fait construire Versailles'], size=19, lignes=True)}""",
+{tableau(2, ['[b]Christophe Colomb[/b]', 'un navigateur, arrivé en Amérique en 1492', '[b]Léonard de Vinci[/b]', 'un peintre et inventeur, célèbre pour la Joconde', '[b]Louis XIV[/b]', 'le « Roi-Soleil », qui a fait construire Versailles'], size=19, lignes=True)}""",
 f"""[titre]L'Époque contemporaine[/titre]
 [periodes marque=5]
 De [b]1789[/b] (la Révolution française) à [b]aujourd'hui[/b]. C'est le temps de l'électricité, des trains, des voitures, des avions et des ordinateurs.

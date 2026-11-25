@@ -940,6 +940,10 @@ func _show_result() -> void:
 	if not tutorial_mode and total > 0:
 		SaveManager.log_event("partie_terminee", {
 			"grade": int(grade), "subject": int(_questions[0].subject), "bonnes": correct, "total": total,
+			## Date locale de l'appareil (2026-11-25) : sert au compteur "parties du jour" du
+			## controle parental cote serveur (server/parties_du_jour.sql), meme jour que celui
+			## utilise par SaveManager._daily_game_count_for_today().
+			"jour": Time.get_date_string_from_system(),
 		})
 	## "pièce(s) {classe}" remplace par l'icone piece coloree de la classe (2026-08-31, retour
 	## utilisateur : "remplace 'piece CP' par l icone de piece de la bonne couleur... pour toutes

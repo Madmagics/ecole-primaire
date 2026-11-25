@@ -380,7 +380,7 @@ De [b]476[/b] à [b]1492[/b]. C'est le temps des châteaux forts, des chevaliers
 [titre]Les Temps modernes[/titre]
 [periodes marque=4]
 De [b]1492[/b] à [b]1789[/b]. C'est le temps des grands voyages en bateau et des rois puissants.
-[table=2][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=19][b]Christophe Colomb[/b][/font_size][/center][/cell][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=19]un navigateur, arrivé en Amérique en 1492[/font_size][/center][/cell][cell bg=#FFD49A border=#F2A541 padding=10,4,10,4][center][font_size=19][b]Léonard de Vinci[/b][/font_size][/center][/cell][cell bg=#FFD49A border=#F2A541 padding=10,4,10,4][center][font_size=19]un peintre et inventeur, auteur de la Joconde[/font_size][/center][/cell][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=19][b]Louis XIV[/b][/font_size][/center][/cell][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=19]le « Roi-Soleil », qui a fait construire Versailles[/font_size][/center][/cell][/table]
+[table=2][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=19][b]Christophe Colomb[/b][/font_size][/center][/cell][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=19]un navigateur, arrivé en Amérique en 1492[/font_size][/center][/cell][cell bg=#FFD49A border=#F2A541 padding=10,4,10,4][center][font_size=19][b]Léonard de Vinci[/b][/font_size][/center][/cell][cell bg=#FFD49A border=#F2A541 padding=10,4,10,4][center][font_size=19]un peintre et inventeur, célèbre pour la Joconde[/font_size][/center][/cell][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=19][b]Louis XIV[/b][/font_size][/center][/cell][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=19]le « Roi-Soleil », qui a fait construire Versailles[/font_size][/center][/cell][/table]
 [page]
 [titre]L'Époque contemporaine[/titre]
 [periodes marque=5]
@@ -679,7 +679,7 @@ Avant les Romains, la [b]Gaule[/b] (à peu près la France d'aujourd'hui) est ha
 [page]
 [titre]Les Gallo-Romains[/titre]
 [center][font_size=50]🛡️ ➕ 🏛️[/font_size][/center]
-Pendant plus de 400 ans, les Gaulois vivent dans l'empire romain : on les appelle les [b]Gallo-Romains[/b].
+Pendant plus de 400 ans, les Gaulois vivent dans l'empire romain : on les appelle les [b]Gallo-Romains[/b]. Les Romains découpent la Gaule en plusieurs provinces : on parle alors des [b]Gaules[/b].
 [cadre]Le monde [b]gallo-romain[/b] mélange les deux cultures : les Gaulois gardent certains dieux et certaines habitudes, et adoptent la langue, les lois, les routes et les monuments des Romains.[/cadre]
 [page]
 [titre]Ce que les Romains apportent[/titre]

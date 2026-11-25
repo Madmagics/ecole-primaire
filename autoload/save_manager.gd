@@ -518,6 +518,17 @@ func _sync_account_from_server(account_id: String) -> bool:
 			if local_draws.has(key):
 				merged[key] = local_draws[key]
 		_accounts[index]["tirages"] = merged
+	## Parties du jour (limite du controle parental, 2026-11-25) : le compteur n'etait garde qu'en
+	## local, il repartait donc de 0 sur un autre appareil/navigateur. Le serveur renvoie le nombre
+	## de parties terminees par jour (server/parties_du_jour.sql) ; on garde le plus grand des deux
+	## chiffres (serveur ou appareil) pour aujourd'hui, pour ne jamais en perdre.
+	var server_days: Variant = data.get("parties_par_jour")
+	if server_days is Dictionary:
+		var today := Time.get_date_string_from_system()
+		var server_count := int((server_days as Dictionary).get(today, 0))
+		var local_count := _daily_game_count_for_today(index, today)
+		_accounts[index]["daily_game_count"] = maxi(server_count, local_count)
+		_accounts[index]["daily_game_count_date"] = today
 	return true
 
 ## Cree un nouveau compte et connecte immediatement dessus. [profile] attend les cles nom/prenom/

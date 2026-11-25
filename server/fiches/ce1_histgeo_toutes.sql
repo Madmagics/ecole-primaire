@@ -79,7 +79,7 @@ De [b]476[/b] à [b]1492[/b]. C'est le temps des châteaux forts, des chevaliers
 [titre]Les Temps modernes[/titre]
 [periodes marque=4]
 De [b]1492[/b] à [b]1789[/b]. C'est le temps des grands voyages en bateau et des rois puissants.
-[table=2][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=19][b]Christophe Colomb[/b][/font_size][/center][/cell][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=19]un navigateur, arrivé en Amérique en 1492[/font_size][/center][/cell][cell bg=#FFD49A border=#F2A541 padding=10,4,10,4][center][font_size=19][b]Léonard de Vinci[/b][/font_size][/center][/cell][cell bg=#FFD49A border=#F2A541 padding=10,4,10,4][center][font_size=19]un peintre et inventeur, auteur de la Joconde[/font_size][/center][/cell][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=19][b]Louis XIV[/b][/font_size][/center][/cell][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=19]le « Roi-Soleil », qui a fait construire Versailles[/font_size][/center][/cell][/table]
+[table=2][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=19][b]Christophe Colomb[/b][/font_size][/center][/cell][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=19]un navigateur, arrivé en Amérique en 1492[/font_size][/center][/cell][cell bg=#FFD49A border=#F2A541 padding=10,4,10,4][center][font_size=19][b]Léonard de Vinci[/b][/font_size][/center][/cell][cell bg=#FFD49A border=#F2A541 padding=10,4,10,4][center][font_size=19]un peintre et inventeur, célèbre pour la Joconde[/font_size][/center][/cell][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=19][b]Louis XIV[/b][/font_size][/center][/cell][cell bg=#classe_clair border=#classe padding=10,4,10,4][center][font_size=19]le « Roi-Soleil », qui a fait construire Versailles[/font_size][/center][/cell][/table]
 [page]
 [titre]L'Époque contemporaine[/titre]
 [periodes marque=5]
@@ -245,7 +245,8 @@ insert into contenu_cours (classe, matiere, titre, contenu, statut, notion_id)
 select 'ce1', 'histoire_geo', 'Montagnes, plaines et fleuves', $fiche$
 [titre]Les formes du relief[/titre]
 [relief]
-[cadre]La [b]montagne[/b] est haute, avec des sommets. La [b]plaine[/b] est plate et basse. Le [b]plateau[/b] est plat mais en hauteur. La [b]vallée[/b] est un creux entre des montagnes.[/cadre]
+[cadre]La [b]montagne[/b] est haute, avec des sommets. La [b]plaine[/b] est plate et basse. Le [b]plateau[/b] est plat mais en hauteur. La [b]vallée[/b] est un creux entre des montagnes.
+En haut des montagnes, il y a souvent de la [b]neige[/b]. Au fond d'une vallée coule souvent une [b]rivière[/b].[/cadre]
 [page]
 [titre]Les grandes chaînes de montagnes[/titre]
 [planisphere pale=oui montagnes=oui largeur=660]
@@ -263,6 +264,11 @@ La [b]source[/b] est l'endroit où il naît, l'[b]embouchure[/b] l'endroit où i
 [planisphere pale=oui fleuves=oui largeur=640]
 [cadre]L'[b]Amazone[/b] (Amérique du Sud) porte plus d'eau que tous les autres. Le [b]Nil[/b] (Afrique) traverse le désert. Le [b]Mississippi[/b] coule en Amérique du Nord.[/cadre]
 [page]
+[titre]Les fleuves de France[/titre]
+[carte vue=france fleuves=oui largeur=420]
+[cadre]La France a quatre grands fleuves : la [b]Loire[/b], la [b]Seine[/b], la [b]Garonne[/b] et le [b]Rhône[/b].[/cadre]
+[cadre=astuce]La [b]Loire[/b] est le plus long fleuve de France : elle mesure plus de 1 000 km ![/cadre]
+[page]
 [titre]Les humains et les fleuves[/titre]
 [center][font_size=54]🏞️ 🚢[/font_size][/center]
 Depuis toujours, beaucoup de villes sont construites au bord des fleuves. Paris est au bord de la [b]Seine[/b].
@@ -273,7 +279,8 @@ Depuis toujours, beaucoup de villes sont construites au bord des fleuves. Paris 
 [cadre]• Montagne (haute), plaine (plate et basse), plateau (plat et haut), vallée (creux).
 • Les chaînes : Himalaya, Alpes, Andes, Rocheuses, Atlas.
 • Un [b]fleuve[/b] va jusqu'à la mer ; une [b]rivière[/b] se jette dans un autre cours d'eau.
-• Les grands fleuves : Amazone, Nil, Mississippi.[/cadre]
+• Les grands fleuves : Amazone, Nil, Mississippi.
+• En France : la Loire (le plus long), la Seine (à Paris), la Garonne, le Rhône.[/cadre]
 $fiche$, 'publie', n.id from contenu_notions n where n.code = 'reliefs_eau'
 on conflict (notion_id, classe) where statut <> 'archive'
 do update set titre = excluded.titre, contenu = excluded.contenu, matiere = excluded.matiere, statut = 'publie', modifie_le = now()
