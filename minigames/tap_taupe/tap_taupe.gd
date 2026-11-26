@@ -4,8 +4,10 @@
 ## (3 vies). Des serpents sortent aussi : en toucher un fait perdre la partie. Rythme, temps de
 ## sortie et nombre de taupes simultanees augmentent avec le score.
 ##
-## Decor (vue a 45 degres par le haut) : mettre l'image dans Background (texture) - sans image,
-## fond vert provisoire. Chaque noeud de Holes (MoleHole) se place sur un trou ovale du decor :
+## Decor : assets/classe2.0/decor-recre/tappe taupe.webp dans Background (sans image, fond vert
+## provisoire). Les 9 trous sont dans la moitie basse de l'ecran, en 3 rangees avec perspective :
+## scale 0.8 au fond, 0.95 au milieu, 1.0 devant (pivot_offset = centre du trou, donc changer
+## scale ne deplace pas le trou ; la taupe/le serpent suit la meme echelle). Chaque noeud de Holes (MoleHole) se place sur un trou ovale du decor :
 ## centre du trou = bas-milieu du noeud, a 30 px du bord inferieur (voir mole_hole.gd). Ajouter
 ## ou retirer des trous dans Holes suffit, le jeu les trouve tout seul. Decocher show_hole sur
 ## chaque trou une fois le decor en place (il dessine sinon un trou provisoire).

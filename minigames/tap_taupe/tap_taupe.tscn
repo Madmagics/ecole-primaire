@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3]
+[gd_scene load_steps=5 format=3]
 
 [ext_resource type="Script" path="res://minigames/tap_taupe/tap_taupe.gd" id="1"]
 [ext_resource type="PackedScene" path="res://minigames/base/minigame_hud.tscn" id="2_hud"]
 [ext_resource type="PackedScene" path="res://minigames/tap_taupe/mole_hole.tscn" id="3_hole"]
+[ext_resource type="Texture2D" path="res://assets/classe2.0/decor-recre/tappe taupe.webp" id="4_bg"]
 
 [node name="TapTaupe" type="Control"]
 layout_mode = 3
@@ -21,6 +22,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 mouse_filter = 2
+texture = ExtResource("4_bg")
 expand_mode = 1
 stretch_mode = 6
 
@@ -35,66 +37,81 @@ mouse_filter = 2
 
 [node name="Trou1" parent="Holes" instance=ExtResource("3_hole")]
 layout_mode = 0
-offset_left = 310.0
-offset_top = 120.0
-offset_right = 450.0
-offset_bottom = 280.0
+offset_left = 276.0
+offset_top = 222.0
+offset_right = 416.0
+offset_bottom = 382.0
+pivot_offset = Vector2(70, 130)
+scale = Vector2(0.8, 0.8)
 
 [node name="Trou2" parent="Holes" instance=ExtResource("3_hole")]
 layout_mode = 0
 offset_left = 506.0
-offset_top = 120.0
+offset_top = 222.0
 offset_right = 646.0
-offset_bottom = 280.0
+offset_bottom = 382.0
+pivot_offset = Vector2(70, 130)
+scale = Vector2(0.8, 0.8)
 
 [node name="Trou3" parent="Holes" instance=ExtResource("3_hole")]
 layout_mode = 0
-offset_left = 702.0
-offset_top = 120.0
-offset_right = 842.0
-offset_bottom = 280.0
+offset_left = 736.0
+offset_top = 222.0
+offset_right = 876.0
+offset_bottom = 382.0
+pivot_offset = Vector2(70, 130)
+scale = Vector2(0.8, 0.8)
 
 [node name="Trou4" parent="Holes" instance=ExtResource("3_hole")]
 layout_mode = 0
-offset_left = 230.0
-offset_top = 255.0
-offset_right = 370.0
-offset_bottom = 415.0
+offset_left = 231.0
+offset_top = 324.0
+offset_right = 371.0
+offset_bottom = 484.0
+pivot_offset = Vector2(70, 130)
+scale = Vector2(0.95, 0.95)
 
 [node name="Trou5" parent="Holes" instance=ExtResource("3_hole")]
 layout_mode = 0
 offset_left = 506.0
-offset_top = 255.0
+offset_top = 324.0
 offset_right = 646.0
-offset_bottom = 415.0
+offset_bottom = 484.0
+pivot_offset = Vector2(70, 130)
+scale = Vector2(0.95, 0.95)
 
 [node name="Trou6" parent="Holes" instance=ExtResource("3_hole")]
 layout_mode = 0
-offset_left = 782.0
-offset_top = 255.0
-offset_right = 922.0
-offset_bottom = 415.0
+offset_left = 781.0
+offset_top = 324.0
+offset_right = 921.0
+offset_bottom = 484.0
+pivot_offset = Vector2(70, 130)
+scale = Vector2(0.95, 0.95)
 
 [node name="Trou7" parent="Holes" instance=ExtResource("3_hole")]
 layout_mode = 0
-offset_left = 150.0
-offset_top = 390.0
-offset_right = 290.0
-offset_bottom = 550.0
+offset_left = 196.0
+offset_top = 432.0
+offset_right = 336.0
+offset_bottom = 592.0
+pivot_offset = Vector2(70, 130)
 
 [node name="Trou8" parent="Holes" instance=ExtResource("3_hole")]
 layout_mode = 0
 offset_left = 506.0
-offset_top = 390.0
+offset_top = 432.0
 offset_right = 646.0
-offset_bottom = 550.0
+offset_bottom = 592.0
+pivot_offset = Vector2(70, 130)
 
 [node name="Trou9" parent="Holes" instance=ExtResource("3_hole")]
 layout_mode = 0
-offset_left = 862.0
-offset_top = 390.0
-offset_right = 1002.0
-offset_bottom = 550.0
+offset_left = 816.0
+offset_top = 432.0
+offset_right = 956.0
+offset_bottom = 592.0
+pivot_offset = Vector2(70, 130)
 
 [node name="Hud" parent="." instance=ExtResource("2_hud")]
 layout_mode = 1

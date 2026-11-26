@@ -7,7 +7,9 @@
 ## show_hole dessine un trou ovale provisoire - a decocher quand le decor a ses propres trous.
 ##
 ## Toucher (clic ou tap) n'importe ou dans la zone pendant que la creature est sortie = touche :
-## zone genereuse expres pour les petits doigts sur tablette.
+## zone genereuse expres pour les petits doigts sur tablette. La zone n'attrape les clics que
+## pendant que la creature est sortie : avec la perspective (rangees serrees), un trou de devant
+## vide ne doit pas voler le clic destine a la creature du trou juste derriere.
 class_name MoleHole
 extends Control
 
@@ -57,6 +59,7 @@ var _textures: Dictionary = {}
 func _ready() -> void:
 	_clip.draw.connect(_draw_creature)
 	_clip.gui_input.connect(_on_clip_gui_input)
+	_set_clickable(false)
 
 func is_free() -> bool:
 	return _phase == Phase.EMPTY
@@ -71,9 +74,11 @@ func pop(new_kind: int, up_seconds: float) -> void:
 	_timer = 0.0
 	_rise = 0.0
 	_was_hit = false
+	_set_clickable(true)
 
 func clear() -> void:
 	_phase = Phase.EMPTY
+	_set_clickable(false)
 	_rise = 0.0
 	_clip.queue_redraw()
 
@@ -90,6 +95,7 @@ func _process(delta: float) -> void:
 		Phase.UP:
 			if _timer >= _up_seconds:
 				_phase = Phase.SINKING
+				_set_clickable(false)
 				_timer = 0.0
 		Phase.HIT:
 			if _timer >= HIT_SECONDS:
@@ -112,8 +118,12 @@ func _on_clip_gui_input(event: InputEvent) -> void:
 	_was_hit = true
 	_phase = Phase.HIT
 	_timer = 0.0
+	_set_clickable(false)
 	_clip.accept_event()
 	whacked.emit(self, kind)
+
+func _set_clickable(clickable: bool) -> void:
+	_clip.mouse_filter = Control.MOUSE_FILTER_STOP if clickable else Control.MOUSE_FILTER_IGNORE
 
 func _draw() -> void:
 	if not show_hole:

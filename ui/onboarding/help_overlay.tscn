@@ -244,7 +244,7 @@ theme_override_constants/separation = 16
 script = ExtResource("2")
 layout_mode = 2
 theme_override_font_sizes/font_size = 20
-text = "Version actuelle : V1.03 - 07/11/2026"
+text = "Version actuelle : V1.04 - 26/11/2026"
 autowrap_mode = 2
 
 [node name="Intro" type="Label" parent="Panel/Margin/Content/Tabs/MisesAJour/Scroll/ScrollMargin/List" unique_id=483433055]
@@ -254,6 +254,32 @@ autowrap_mode = 2
 
 [node name="Liste" type="Label" parent="Panel/Margin/Content/Tabs/MisesAJour/Scroll/ScrollMargin/List" unique_id=1844344695]
 layout_mode = 2
+text = "- Nouveau : la cour de récré et ses 10 mini-jeux, 2 par classe !
+   CP : Pluie de biscuits, Tap taupe
+   CE1 : Memory des animaux, Simon des animaux
+   CE2 : Saute-mouton, Tetri-Star
+   CM1 : Casse-briques, Taquin des animaux
+   CM2 : 2048 des animaux, 3 animaux alignés
+- Pour entrer : touche l'icône « Cour de récré » dans le menu de droite. La cour s'ouvre dès que tu as complété au moins une collection de cartes (toutes les cartes d'une classe, à voir dans le Livre).
+- Pour jouer : clique sur un enfant. Il regarde ta collection de sa classe : si elle est complète, il te propose son jeu. Sinon, il te dit combien de cartes il te manque.
+- Chaque partie coûte 10 pièces de la classe du jeu (pièces du CP pour les jeux du CP, etc.). Ces pièces se gagnent en répondant aux questions en classe.
+- Bouton TOP : le classement des 10 meilleurs joueurs de chaque jeu, avec ton meilleur score.
+- Les jeux se jouent à la souris ou au doigt. Tetri-Star se joue aussi au clavier (flèches et barre d'espace)."
+autowrap_mode = 2
+
+[node name="SeparatorV103" type="HSeparator" parent="Panel/Margin/Content/Tabs/MisesAJour/Scroll/ScrollMargin/List"]
+layout_mode = 2
+
+[node name="TitleV103" type="Label" parent="Panel/Margin/Content/Tabs/MisesAJour/Scroll/ScrollMargin/List"]
+script = ExtResource("2")
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "V1.03 - 07/11/2026"
+autowrap_mode = 2
+
+[node name="ListeV103" type="Label" parent="Panel/Margin/Content/Tabs/MisesAJour/Scroll/ScrollMargin/List"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
 text = "- Nouvelles matières : Histoire et Géographie, du CP au CM2, avec leurs fiches de cours"
 autowrap_mode = 2
 

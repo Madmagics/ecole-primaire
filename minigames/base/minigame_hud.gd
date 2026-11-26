@@ -23,7 +23,7 @@ signal quit_pressed
 
 const GAME_PRICE := 10
 const HEART_COLOR := Color(0.9, 0.22, 0.3)
-const HEART_EMPTY_COLOR := Color(1, 1, 1, 0.5)
+const HEART_EMPTY_COLOR := Color.WHITE ## opaque : en semi-transparent, les 3 formes du coeur se voyaient
 
 var _game_id: String = ""
 var _grade: GradeLevel.Grade = GradeLevel.Grade.CP
