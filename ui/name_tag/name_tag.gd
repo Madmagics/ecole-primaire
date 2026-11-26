@@ -32,14 +32,20 @@ extends PanelContainer
 @onready var _name_label: Label = $VBox/NameLabel
 @onready var _title_label: Label = $VBox/TitleLabel
 
-var _prof_visual: ProfVisual
+## Textes libres (2026-11-25, enfants de la cour de recre) : si custom_name est rempli, il
+## remplace le nom/titre du prof (TeacherIdentity). Le visuel suivi est alors le premier Sprite2D
+## frere (le "Skin" de l'enfant) a defaut de ProfVisual.
+var custom_name: String = ""
+var custom_title: String = ""
+
+var _prof_visual: Sprite2D
 
 func _ready() -> void:
 	modulate.a = opacity
 	var parent := get_parent()
 	if parent:
 		for child in parent.get_children():
-			if child is ProfVisual:
+			if child is ProfVisual or (_prof_visual == null and child is Sprite2D):
 				_prof_visual = child
 			elif child is QuestionGiverComponent:
 				grade = (child as QuestionGiverComponent).grade
@@ -47,6 +53,10 @@ func _ready() -> void:
 
 func _refresh_texts() -> void:
 	if _name_label == null: # setter appele avant l'arrivee des @onready (chargement de la scene)
+		return
+	if not custom_name.is_empty():
+		_name_label.text = custom_name
+		_title_label.text = custom_title
 		return
 	_name_label.text = TeacherIdentity.get_teacher_name(grade)
 	_title_label.text = TeacherIdentity.get_teacher_title(grade)

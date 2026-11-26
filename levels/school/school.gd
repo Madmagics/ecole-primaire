@@ -20,6 +20,16 @@ extends Node2D
 ## school.tscn, seule scene jamais executee comme main_scene (voir ClassroomDecor.BASE_SCENE_PATH).
 var _current_decor_scene_path: String = ""
 
+## Cour de recre (2026-11-25) : scene a part, instanciee par-dessus la classe - voir
+## levels/playground/playground.gd pour le pourquoi (pas de change_scene).
+const PLAYGROUND_SCENE_PATH := "res://levels/playground/playground.tscn"
+## Noeuds de la classe masques ET desactives pendant la visite de la cour. PROCESS_MODE_DISABLED
+## retire aussi leurs zones de clic de la physique (CollisionObject2D.disable_mode = REMOVE par
+## defaut, doc officielle) : les profs ne sont plus cliquables a travers la cour. Recherches par
+## nom a chaque fois car Background/Decor sont remplaces a chaud par _swap_decor_from().
+const CLASSROOM_WORLD_NODES: Array[String] = ["Background", "ShopKiosk", "Decor", "NPCs"]
+var _playground: Playground = null
+
 func _ready() -> void:
 	_current_decor_scene_path = scene_file_path
 	_check_npc_wiring()
@@ -35,6 +45,8 @@ func _ready() -> void:
 	## CETTE instance de School, jamais recrees ni interrompus.
 	ClassroomDecor.decor_activated.connect(_on_classroom_decor_activated)
 	_apply_active_classroom_decor()
+	EventBus.playground_requested.connect(_open_playground)
+	SaveManager.account_logged_out.connect(_close_playground)
 
 ## Reagit a toute bascule (voir ClassroomDecor.decor_activated) - _grade non utilise (on relit
 ## l'etat complet via get_active_scene_path(), plus simple que de raisonner sur le delta).
@@ -50,6 +62,8 @@ func _apply_active_classroom_decor() -> void:
 		return
 	_swap_decor_from(target_path)
 	_current_decor_scene_path = target_path
+	## Un decor change depuis la boutique pendant la visite de la cour doit rester masque.
+	_set_classroom_world_active(_playground == null)
 
 ## Charge [donor_path] (school.tscn ou school1-5.tscn - jamais joue directement, voir
 ## GradeLevel.get_decor_scene_path()), lui prend UNIQUEMENT ses noeuds "Background"/"Decor" et
@@ -211,3 +225,31 @@ func _check_npc_wiring() -> void:
 func _require(source_signal: Signal, target: Callable, npc_name: String, label: String) -> void:
 	if not source_signal.is_connected(target):
 		push_error("School: connexion manquante pour %s : %s" % [npc_name, label])
+
+func _open_playground() -> void:
+	if _playground != null:
+		return
+	var packed: PackedScene = load(PLAYGROUND_SCENE_PATH)
+	_playground = packed.instantiate() as Playground
+	_playground.exit_requested.connect(_close_playground)
+	add_child(_playground)
+	## Juste avant UI : les menus du jeu restent dessines par-dessus la cour.
+	move_child(_playground, $UI.get_index())
+	_set_classroom_world_active(false)
+
+## Aussi appelee a la deconnexion (volontaire ou perte du serveur) : retour a la classe.
+func _close_playground() -> void:
+	if _playground == null:
+		return
+	_playground.queue_free()
+	_playground = null
+	_set_classroom_world_active(true)
+
+func _set_classroom_world_active(active: bool) -> void:
+	for node_name in CLASSROOM_WORLD_NODES:
+		var node := get_node_or_null(node_name)
+		if node == null:
+			continue
+		if node is CanvasItem:
+			(node as CanvasItem).visible = active
+		node.process_mode = Node.PROCESS_MODE_INHERIT if active else Node.PROCESS_MODE_DISABLED

@@ -168,6 +168,11 @@ extends Control
 @onready var sac_de_pieces_button: Button = $IconDock/IconList/SacDePiecesButton
 @onready var livre_button: Button = $IconDock/IconList/LivreButton
 @onready var succes_button: Button = $IconDock/IconList/SuccesButton
+## Cour de recre (2026-11-25) : ouvre une autre scene, pas un panneau - voir _on_recre_pressed().
+@onready var recre_button: Button = $IconDock/IconList/RecreButton
+## Message affiche si le joueur n'a encore aucune collection complete (2026-11-25).
+@onready var recre_locked_popup: Control = $RecreLockedPopup
+@onready var recre_locked_ok_button: Button = $RecreLockedPopup/Panel/Margin/VBox/OkButton
 
 func _ready() -> void:
 	## Applique le theme d'interface choisi (et reagit a un changement) : ce panneau est un
@@ -180,6 +185,8 @@ func _ready() -> void:
 	sac_de_pieces_button.pressed.connect(_open_panel.bind(wallet_panel_path))
 	livre_button.pressed.connect(_open_panel.bind(collection_panel_path))
 	succes_button.pressed.connect(_open_panel.bind(success_panel_path))
+	recre_button.pressed.connect(_on_recre_pressed)
+	recre_locked_ok_button.pressed.connect(recre_locked_popup.hide)
 	visibility_changed.connect(_on_visibility_changed)
 
 func _on_visibility_changed() -> void:
@@ -224,6 +231,16 @@ func close() -> void:
 		if panel and panel.has_method("close"):
 			panel.close()
 	hide()
+
+## Ferme la colonne (et son panneau) puis demande a school.gd d'afficher la cour de recre - si
+## le joueur a au moins une collection de classe complete (2026-11-25, retour utilisateur), sinon
+## affiche un message et laisse la colonne ouverte.
+func _on_recre_pressed() -> void:
+	if not PlaygroundChildPopup.has_any_complete_collection():
+		recre_locked_popup.show()
+		return
+	close()
+	EventBus.playground_requested.emit()
 
 func toggle() -> void:
 	if visible:

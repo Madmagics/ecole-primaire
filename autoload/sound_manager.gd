@@ -163,6 +163,13 @@ func play(sfx_id: Sfx) -> void:
 		return
 	_playback.play_stream(stream, 0.0, 0.0, 1.0, AudioServer.PLAYBACK_TYPE_DEFAULT, &"Bruitages")
 
+## Joue un AudioStream fabrique ailleurs (ex. notes synthetisees par MiniGameSounds) sur le meme
+## lecteur polyphonique et le meme bus "Bruitages" que play() (meme contournement Web, voir plus haut).
+func play_stream(stream: AudioStream, volume_db: float = 0.0) -> void:
+	if stream == null or _playback == null:
+		return
+	_playback.play_stream(stream, 0.0, volume_db, 1.0, AudioServer.PLAYBACK_TYPE_DEFAULT, &"Bruitages")
+
 func _on_node_added(node: Node) -> void:
 	if node is Button and not node.pressed.is_connected(_on_button_pressed):
 		node.pressed.connect(_on_button_pressed)

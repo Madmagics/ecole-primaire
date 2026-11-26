@@ -209,6 +209,16 @@ func demander_reinitialisation_mdp(p_login_ou_email: String) -> Dictionary:
 func signaler_question(p_jeton: String, p_question_id: int) -> Dictionary:
 	return await _call_rpc("fn_signaler_question", {"p_jeton": p_jeton, "p_question_id": p_question_id})
 
+## Mini-jeux de la cour de recre (2026-11-25, voir server/scores_minijeux.sql). Fin de partie :
+## data (si ok) : {"ok": true, "meilleur_score": int, "nouveau_record": bool}.
+func enregistrer_score(p_jeton: String, p_jeu: String, p_score: int) -> Dictionary:
+	return await _call_rpc("fn_enregistrer_score", {"p_jeton": p_jeton, "p_jeu": p_jeu, "p_score": p_score})
+
+## data (si ok) : {"top": [{"pseudo": String, "score": int, "moi": bool}, ...] (10 max, un pseudo
+## une seule fois), "mon_score": int ou null}.
+func top_scores(p_jeton: String, p_jeu: String) -> Dictionary:
+	return await _call_rpc("fn_top_scores", {"p_jeton": p_jeton, "p_jeu": p_jeu})
+
 ## Contenu pedagogique (2026-09-27, voir autoload/content_library.gd) : lecture seule, sans jeton.
 ## data (si ok) : {"cp/math": 3, ...} (version de chaque paquet publie).
 func obtenir_manifeste() -> Dictionary:

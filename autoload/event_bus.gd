@@ -49,3 +49,8 @@ signal ui_theme_changed(theme: Theme)
 ## fois. Voir ui/hud/fullscreen_button.gd.
 @warning_ignore("unused_signal")
 signal fullscreen_changed(value: bool)
+
+## Bouton "Cour de recre" de la colonne de droite (BackpackMenu, 2026-11-25) : school.gd affiche
+## alors la scene de la cour (levels/playground/playground.tscn) a la place de la classe.
+@warning_ignore("unused_signal")
+signal playground_requested

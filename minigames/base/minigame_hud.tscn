@@ -1,0 +1,268 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://minigames/base/minigame_hud.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/classe2.0/icones/stats.webp" id="2_top"]
+
+[node name="MiniGameHud" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("1")
+
+[node name="QuitButton" type="Button" parent="."]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 140.0
+offset_bottom = 64.0
+text = "Quitter"
+
+[node name="TopButton" type="Button" parent="."]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 152.0
+offset_top = 20.0
+offset_right = 272.0
+offset_bottom = 64.0
+tooltip_text = "Meilleurs scores"
+text = "TOP"
+icon = ExtResource("2_top")
+expand_icon = true
+
+[node name="CoinBox" type="HBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 284.0
+offset_top = 20.0
+offset_right = 440.0
+offset_bottom = 64.0
+mouse_filter = 2
+theme_override_constants/separation = 6
+
+[node name="CoinIcon" type="TextureRect" parent="CoinBox"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(40, 40)
+layout_mode = 2
+size_flags_vertical = 4
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 5
+
+[node name="CoinLabel" type="Label" parent="CoinBox"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"TitleLabel"
+vertical_alignment = 1
+
+[node name="ScoreLabel" type="Label" parent="."]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -150.0
+offset_top = 20.0
+offset_right = 150.0
+offset_bottom = 64.0
+grow_horizontal = 2
+mouse_filter = 2
+theme_type_variation = &"TitleLabel"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="StartPanel" type="PanelContainer" parent="."]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -260.0
+offset_top = -120.0
+offset_right = 260.0
+offset_bottom = 120.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Margin" type="MarginContainer" parent="StartPanel"]
+layout_mode = 2
+theme_override_constants/margin_left = 24
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 24
+theme_override_constants/margin_bottom = 20
+
+[node name="VBox" type="VBoxContainer" parent="StartPanel/Margin"]
+layout_mode = 2
+theme_override_constants/separation = 14
+
+[node name="StartTitle" type="Label" parent="StartPanel/Margin/VBox"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"TitleLabel"
+horizontal_alignment = 1
+
+[node name="RulesLabel" type="Label" parent="StartPanel/Margin/VBox"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(460, 0)
+layout_mode = 2
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="StartCostLabel" type="Label" parent="StartPanel/Margin/VBox"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(460, 0)
+layout_mode = 2
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="PlayButton" type="Button" parent="StartPanel/Margin/VBox"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(160, 52)
+layout_mode = 2
+size_flags_horizontal = 4
+text = "Jouer"
+
+[node name="OverPanel" type="PanelContainer" parent="."]
+unique_name_in_owner = true
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -260.0
+offset_top = -110.0
+offset_right = 260.0
+offset_bottom = 110.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Margin" type="MarginContainer" parent="OverPanel"]
+layout_mode = 2
+theme_override_constants/margin_left = 24
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 24
+theme_override_constants/margin_bottom = 20
+
+[node name="VBox" type="VBoxContainer" parent="OverPanel/Margin"]
+layout_mode = 2
+theme_override_constants/separation = 14
+
+[node name="OverTitle" type="Label" parent="OverPanel/Margin/VBox"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"TitleLabel"
+text = "Partie terminée !"
+horizontal_alignment = 1
+
+[node name="OverLabel" type="Label" parent="OverPanel/Margin/VBox"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(460, 0)
+layout_mode = 2
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="OverCostLabel" type="Label" parent="OverPanel/Margin/VBox"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(460, 0)
+layout_mode = 2
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="Buttons" type="HBoxContainer" parent="OverPanel/Margin/VBox"]
+layout_mode = 2
+alignment = 1
+theme_override_constants/separation = 16
+
+[node name="ReplayButton" type="Button" parent="OverPanel/Margin/VBox/Buttons"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(160, 52)
+layout_mode = 2
+text = "Rejouer"
+
+[node name="BackButton" type="Button" parent="OverPanel/Margin/VBox/Buttons"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(200, 52)
+layout_mode = 2
+text = "Retour à la cour"
+
+[node name="TopPanel" type="Control" parent="."]
+unique_name_in_owner = true
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Dimmer" type="ColorRect" parent="TopPanel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.55)
+
+[node name="Panel" type="PanelContainer" parent="TopPanel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -240.0
+offset_top = -200.0
+offset_right = 240.0
+offset_bottom = 200.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Margin" type="MarginContainer" parent="TopPanel/Panel"]
+layout_mode = 2
+theme_override_constants/margin_left = 24
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 24
+theme_override_constants/margin_bottom = 20
+
+[node name="VBox" type="VBoxContainer" parent="TopPanel/Panel/Margin"]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Title" type="Label" parent="TopPanel/Panel/Margin/VBox"]
+layout_mode = 2
+theme_type_variation = &"TitleLabel"
+text = "Meilleurs scores"
+horizontal_alignment = 1
+
+[node name="TopStatus" type="Label" parent="TopPanel/Panel/Margin/VBox"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="TopList" type="VBoxContainer" parent="TopPanel/Panel/Margin/VBox"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+theme_override_constants/separation = 4
+
+[node name="MyBestLabel" type="Label" parent="TopPanel/Panel/Margin/VBox"]
+unique_name_in_owner = true
+layout_mode = 2
+horizontal_alignment = 1
+
+[node name="TopCloseButton" type="Button" parent="TopPanel/Panel/Margin/VBox"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(160, 52)
+layout_mode = 2
+size_flags_horizontal = 4
+text = "Fermer"

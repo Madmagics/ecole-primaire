@@ -1320,6 +1320,47 @@ func report_question(question_id: int) -> bool:
 		_accounts[index]["sync_jeton"] = "" # force un nouveau jeton au 2e essai
 	return false
 
+## Mini-jeux de la cour de recre (2026-11-25) : envoie le score d'une partie terminee ; le serveur
+## ne garde que le meilleur par joueur et par jeu. Renvoie le "data" du serveur
+## ({"meilleur_score", "nouveau_record"}) ou {} si l'envoi a echoue. Pas de deconnexion forcee en
+## cas d'echec (un score n'est pas de la progression : rien a resynchroniser, le jeu affiche juste
+## que le score n'a pas pu etre enregistre).
+func submit_minigame_score(game_id: String, score: int) -> Dictionary:
+	return await _call_with_server_session(func(jeton: String) -> Dictionary:
+		return await ServerApi.enregistrer_score(jeton, game_id, score))
+
+## Les 10 meilleurs joueurs d'un mini-jeu ({"top": [...], "mon_score": ...}), ou {} si echec.
+func fetch_minigame_top(game_id: String) -> Dictionary:
+	return await _call_with_server_session(func(jeton: String) -> Dictionary:
+		return await ServerApi.top_scores(jeton, game_id))
+
+## Appel serveur authentifie par le jeton du compte connecte, avec le meme schema que
+## report_question() : un jeton expire est renouvele une fois puis l'appel retente. [rpc] recoit le
+## jeton et renvoie le resultat de ServerApi. Renvoie le "data" du serveur, ou {} si echec.
+func _call_with_server_session(rpc: Callable) -> Dictionary:
+	var index := _current_account_index()
+	if index == -1:
+		return {}
+	var account_id := String(_accounts[index].get("id", ""))
+	for _attempt in 2:
+		if not await _ensure_server_session(index):
+			return {}
+		index = _current_account_index()
+		if index == -1 or String(_accounts[index].get("id", "")) != account_id:
+			return {} # le compte connecte a change pendant l'attente reseau
+		var jeton := String(_accounts[index].get("sync_jeton", ""))
+		var result: Dictionary = await rpc.call(jeton)
+		if result.get("ok", false):
+			var data: Variant = result.get("data", {})
+			return data if data is Dictionary else {}
+		if result.get("message", "") != "session_expiree":
+			return {}
+		index = _current_account_index()
+		if index == -1 or String(_accounts[index].get("id", "")) != account_id:
+			return {}
+		_accounts[index]["sync_jeton"] = "" # force un nouveau jeton au 2e essai
+	return {}
+
 func _retry_draw_sync_if_needed() -> void:
 	var index := _current_account_index()
 	if index != -1:

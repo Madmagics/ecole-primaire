@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://minigames/pluie_de_biscuits/pluie_de_biscuits.gd" id="1"]
+[ext_resource type="PackedScene" path="res://minigames/base/minigame_hud.tscn" id="2_hud"]
+[ext_resource type="Texture2D" path="res://assets/classe2.0/decor-recre/pluie-de-biscuits-fond.webp" id="3_fond"]
+
+[node name="PluieDeBiscuits" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1")
+background_texture = ExtResource("3_fond")
+
+[node name="Hud" parent="." instance=ExtResource("2_hud")]
+layout_mode = 1

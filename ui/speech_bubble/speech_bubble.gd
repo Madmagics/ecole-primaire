@@ -56,7 +56,9 @@ const _DOT_FAR_OFFSET_X := 7.0
 @onready var _dot_mid: Panel = $DotMid
 @onready var _dot_far: Panel = $DotFar
 
-var _prof_visual: ProfVisual
+## ProfVisual pour les profs ; pour les enfants de la cour de recre (2026-11-25), premier
+## Sprite2D frere (leur "Skin") - voir _find_sibling_prof_visual().
+var _prof_visual: Sprite2D
 var _grade: GradeLevel.Grade
 var _anchor_position: Vector2 = Vector2.ZERO
 var _idle_time: float = 0.0
@@ -75,7 +77,9 @@ func _ready() -> void:
 	# pas le garantir - la bulle ne s'enregistre pas au scheduler et reste simplement invisible
 	# plutot que de planter sur un ancrage introuvable ou une classe inconnue.
 	var is_valid := _prof_visual != null and question_giver != null
-	set_process(is_valid)
+	set_process(_prof_visual != null)
+	## Seules les bulles de prof passent par le planificateur de phrases au hasard ; celles des
+	## enfants de la cour sont pilotees par leurs dialogues (say(), playground_chatter.gd).
 	if is_valid:
 		NpcBubbleScheduler.register(self)
 
@@ -96,11 +100,14 @@ func _sync_head_anchor() -> void:
 	var half_height: float = _prof_visual.texture.get_height() * _prof_visual.scale.y * 0.5
 	_anchor_position = _prof_visual.position - Vector2(0.0, half_height + _HEAD_MARGIN)
 
-func _find_sibling_prof_visual() -> ProfVisual:
+func _find_sibling_prof_visual() -> Sprite2D:
+	var fallback: Sprite2D = null
 	for child in get_parent().get_children():
 		if child is ProfVisual:
 			return child
-	return null
+		if fallback == null and child is Sprite2D:
+			fallback = child
+	return fallback
 
 ## Meme "recherche du frere par type" que _find_sibling_prof_visual ci-dessus - utilisee ici pour
 ## connaitre la classe (grade) reelle de ce PNJ, afin de piocher les bulles dans le bon sous-pool
@@ -118,6 +125,11 @@ func show_bubble() -> void:
 	var text := NpcBubblePool.get_random_line(_grade)
 	if text.is_empty():
 		return
+	await say(text)
+
+## Affiche [text] dans la bulle (pop-in compris) - utilise directement par les dialogues des
+## enfants de la cour de recre (2026-11-25). Fermer ensuite avec hide_bubble().
+func say(text: String) -> void:
 	_label.text = text
 	_fit_label_width(text)
 	await get_tree().process_frame # laisse le Label recalculer sa hauteur (retour a la ligne) sur la nouvelle largeur
@@ -153,7 +165,11 @@ func _layout_bubble() -> void:
 func _fit_label_width(text: String) -> void:
 	var font: Font = _label.get_theme_font("font")
 	var font_size: int = _label.get_theme_font_size("font_size")
-	var natural_width: float = font.get_string_size(text, HORIZONTAL_ALIGNMENT_LEFT, -1.0, font_size).x
+	## Largeur de la ligne la plus longue : un texte peut contenir des retours a la ligne voulus
+	## (une phrase par ligne pour les enfants de la cour, 2026-11-25).
+	var natural_width: float = 0.0
+	for text_line in text.split("\n"):
+		natural_width = maxf(natural_width, font.get_string_size(text_line, HORIZONTAL_ALIGNMENT_LEFT, -1.0, font_size).x)
 	var width: float = natural_width
 	if natural_width > bubble_max_width:
 		var line_count: float = ceilf(natural_width / bubble_max_width)
