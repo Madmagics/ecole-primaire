@@ -108,10 +108,15 @@ const CREAM_COLOR := Color(1, 0.941176, 0.839216) # #FFF0D6
 ## _style_quantity_button) - meme teinte que le style "disabled" du theme, dupliquee ici pour ne
 ## pas dependre d'une autre scene pour une seule constante.
 const GREY_COLOR := Color(0.878431, 0.862745, 0.827451)
+## Coffre attenue quand toute la collection de la classe est trouvee (2026-11-27), meme valeur que
+## DuplicateCrateItem.LOCKED_ICON_MODULATE. La case reste cliquable : le clic affiche la popup
+## "collection complete" (voir ShopPanel._on_purchase_requested).
+const COMPLETE_ICON_MODULATE := Color(1, 1, 1, 0.45)
 
 @export var loot_table: LootTableResource
 
 @onready var frame_panel: Panel = $Frame
+@onready var item_icon: TextureRect = $Frame/ItemIcon
 @onready var coin_icon: TextureRect = $Frame/CoinIcon
 @onready var price_label: Label = $Frame/CoinIcon/PriceLabel
 @onready var minus_button: Button = $Frame/QuantityRow/MinusButton
@@ -206,6 +211,11 @@ func refresh_availability() -> void:
 	minus_button.disabled = _quantity <= 1
 	plus_button.disabled = _quantity >= max_affordable
 	price_label.text = str(loot_table.crate_price * _quantity)
+	var complete := loot_table.is_collection_complete()
+	item_icon.modulate = COMPLETE_ICON_MODULATE if complete else Color.WHITE
+	if complete:
+		minus_button.disabled = true
+		plus_button.disabled = true
 
 ## Nombre maximum de coffres achetables avec le solde actuel de la rarete concernee (division
 ## entiere : arrondie vers le bas, jamais au dela de ce que le joueur possede reellement).

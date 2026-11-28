@@ -28,3 +28,13 @@ func draw_card() -> CardResource:
 		cards.append(entry.card)
 		weights.append(entry.weight)
 	return WeightedRandom.pick(cards, weights) as CardResource
+
+## Vrai quand toutes les cartes de ce coffre sont deja possedees (2026-11-27, demande de Steve) :
+## la boutique bloque alors l'achat du coffre en pieces de cette classe (voir
+## ShopPanel._on_purchase_requested), pour que les pieces s'accumulent pour la cour de recre au
+## lieu de partir dans des doublons inutiles. Meme critere que le "Complet" de DuplicateCrateItem.
+func is_collection_complete() -> bool:
+	for entry in entries:
+		if entry != null and entry.card != null and not CardCollection.has_card(entry.card.id):
+			return false
+	return true

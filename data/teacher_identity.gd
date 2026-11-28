@@ -26,3 +26,16 @@ static func get_teacher_name(grade: GradeLevel.Grade) -> String:
 
 static func get_teacher_title(grade: GradeLevel.Grade) -> String:
 	return _TITLES.get(grade, GradeLevel.get_label(grade))
+
+## Message doux affiche quand le controle parental ferme cette classe pour le moment (classe
+## bloquee ou parties du jour terminees, 2026-11-28, demande de Steve : "un message moins negatif,
+## genre le maitre ou la maitresse n'est pas disponible pour le moment"). Ex. "La maîtresse du CP
+## n'est pas disponible pour le moment." - le titre vient de _TITLES (meme source que l'etiquette).
+static func get_unavailable_message(grade: GradeLevel.Grade) -> String:
+	var title := get_teacher_title(grade)
+	var is_female := title.begins_with("Maîtresse")
+	var article := "La " if is_female else "Le "
+	## Seule la 1re lettre passe en minuscule ("maîtresse du CP", pas "maîtresse du cp").
+	var lowered := title.left(1).to_lower() + title.substr(1)
+	return "%s%s n'est pas disponible pour le moment.\nReviens %s voir un peu plus tard !" % [
+		article, lowered, "la" if is_female else "le"]

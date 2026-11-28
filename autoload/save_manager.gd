@@ -102,6 +102,9 @@ signal account_logged_out
 ## message d'erreur par-dessus ce retour deja en place, voir _on_server_connection_lost().
 ## [message] est deja le texte pret a afficher tel quel (pas de code d'erreur a traduire cote UI).
 signal server_connection_lost(message: String)
+## Emis quand le parent enregistre de nouvelles limites (set_all_grade_limits) : le badge des
+## classes limitees se met a jour sans attendre la prochaine partie.
+signal parental_limits_changed
 
 ## Reglages geres directement ici. fullscreen reste partage par tous les comptes de l'appareil (pas
 ## assez de logique propre a chacun pour justifier un autoload dedie, contrairement a Economy/
@@ -115,7 +118,7 @@ signal server_connection_lost(message: String)
 ## PAR COMPTE depuis le 2026-09-05 (retour utilisateur, voir DEFAULT_VOLUME ci-dessus) : ces 2
 ## variables refletent le volume COURANT (celui de l'ecran d'accueil tant que personne n'est
 ## connecte, sinon celui du compte connecte) - stockees dans profile["music_volume"]/
-## profile["sfx_volume"] (comme daily_game_limit, voir get_daily_game_limit()), PAS dans
+## profile["sfx_volume"] (comme les limites du controle parental, voir get_grade_limits()), PAS dans
 ## device_settings sur le disque (voir _save_to_disk()/_read_from_path()) : ce n'est plus un
 ## reglage unique de l'appareil.
 var music_volume: float = DEFAULT_VOLUME # 0.0 (muet) a 1.0 (max)
@@ -518,17 +521,10 @@ func _sync_account_from_server(account_id: String) -> bool:
 			if local_draws.has(key):
 				merged[key] = local_draws[key]
 		_accounts[index]["tirages"] = merged
-	## Parties du jour (limite du controle parental, 2026-11-25) : le compteur n'etait garde qu'en
-	## local, il repartait donc de 0 sur un autre appareil/navigateur. Le serveur renvoie le nombre
-	## de parties terminees par jour (server/parties_du_jour.sql) ; on garde le plus grand des deux
-	## chiffres (serveur ou appareil) pour aujourd'hui, pour ne jamais en perdre.
-	var server_days: Variant = data.get("parties_par_jour")
-	if server_days is Dictionary:
-		var today := Time.get_date_string_from_system()
-		var server_count := int((server_days as Dictionary).get(today, 0))
-		var local_count := _daily_game_count_for_today(index, today)
-		_accounts[index]["daily_game_count"] = maxi(server_count, local_count)
-		_accounts[index]["daily_game_count_date"] = today
+	## Parties du jour (limite du controle parental) : le compteur n'etait garde qu'en local, il
+	## repartait donc de 0 sur un autre appareil/navigateur (2026-11-25). Depuis le 2026-11-28 le
+	## serveur renvoie le detail par classe/matiere, voir _merge_server_play_counts.
+	_merge_server_play_counts(index, data)
 	return true
 
 ## Cree un nouveau compte et connecte immediatement dessus. [profile] attend les cles nom/prenom/
@@ -1097,29 +1093,157 @@ func verify_parental_control_password(password: String) -> bool:
 	var actual_hash := _hash_password(password, String(profile.get("controle_parental_password_salt", "")))
 	return actual_hash == expected_hash
 
-## Limite quotidienne de jeux (questionnaires) termines configuree pour le compte connecte (2026-
-## 09-05, retour utilisateur : "je veux ajouter une limite d'utilisation par jour (se concretise
-## par un nombre de jeu termine (questionnaire))") - 0 = aucune limite (valeur par defaut, premiere
-## option de SectionParentalControl). Reellement applique depuis le 2026-09-06 (voir
-## has_reached_daily_game_limit()/_on_pack_completed_for_daily_limit() plus bas - le decompte et le
-## blocage n'existaient pas encore le 2026-09-05, seul ce reglage avait ete construit).
-func get_daily_game_limit() -> int:
-	return int(get_current_profile().get("daily_game_limit", 0))
+## --- Limites du controle parental par classe et par matiere (2026-11-28) ---
+##
+## Demande de Steve : chaque classe choisit un mode parmi 4 (illimite / limite libre / par matiere /
+## bloquee). "Limite libre" = l'ancien fonctionnement (un nombre de parties par jour, matieres au
+## choix de l'enfant) ; "par matiere" = chaque matiere est illimitee, limitee (avec son propre
+## plafond) ou bloquee ; "bloquee" = toute la classe est fermee.
+##
+## Stockage : profile["limites_classes"], un Dictionary par classe (cle = int de GradeLevel.Grade en
+## texte, "0" a "4", car le profil passe par JSON et le serveur) :
+## {"mode": String, "max": int, "matieres": {"<int de Subject en texte>": {"etat": String, "max": int}}}
+## Une matiere absente de "matieres" est illimitee. Le profil est deja synchronise avec le serveur
+## (voir update_current_profile), rien de plus a faire pour suivre le reglage d'un appareil a l'autre.
+##
+## Migration : un compte qui n'a pas encore "limites_classes" garde l'ancienne limite unique
+## profile["daily_game_limit"] (si > 0) comme "limite libre" dans chaque classe - le parent retrouve
+## exactement son reglage d'avant. La cle daily_game_limit est retiree au premier enregistrement.
+const PARENTAL_MODE_UNLIMITED := "illimite"
+const PARENTAL_MODE_FREE := "libre"
+const PARENTAL_MODE_BY_SUBJECT := "matiere"
+const PARENTAL_MODE_BLOCKED := "bloquee"
+const SUBJECT_STATE_UNLIMITED := "illimitee"
+const SUBJECT_STATE_LIMITED := "limitee"
+const SUBJECT_STATE_BLOCKED := "bloquee"
+## Bornes des fleches +/- de la fenetre Controle parental, et valeur proposee par defaut quand le
+## parent passe une classe ou une matiere en mode limite pour la premiere fois.
+const PARENTAL_LIMIT_MIN := 1
+const PARENTAL_LIMIT_MAX := 50
+const PARENTAL_LIMIT_DEFAULT := 10
 
-## Definit la limite quotidienne pour le compte connecte - ne touche a AUCUNE autre cle du profil
-## (nom/prenom/classe/controle_parental/etc.), contrairement a un remplacement direct de tout le
-## Dictionary : on lit d'abord le profil existant, on n'y modifie que cette cle, meme prudence que
-## SectionProfile._on_save_pressed() pour controle_parental (voir son commentaire).
-func set_daily_game_limit(limit: int) -> void:
+## Reglage d'une classe pour le compte connecte, toujours complet (mode/max/matieres presents).
+## Renvoie une COPIE : la modifier n'a aucun effet tant qu'on ne la repasse pas a set_all_grade_limits().
+func get_grade_limits(grade: GradeLevel.Grade) -> Dictionary:
 	var profile := get_current_profile()
-	profile["daily_game_limit"] = limit
+	var all: Variant = profile.get("limites_classes")
+	if all is Dictionary and (all as Dictionary).get(str(int(grade))) is Dictionary:
+		return _normalize_grade_limits((all as Dictionary)[str(int(grade))])
+	## Pas encore de reglage par classe : reprise de l'ancienne limite unique (voir plus haut).
+	var legacy := int(profile.get("daily_game_limit", 0))
+	if legacy > 0:
+		return {"mode": PARENTAL_MODE_FREE, "max": legacy, "matieres": {}}
+	return {"mode": PARENTAL_MODE_UNLIMITED, "max": PARENTAL_LIMIT_DEFAULT, "matieres": {}}
+
+## Reglages des 5 classes d'un coup (cle = int de la classe en texte), pour la fenetre Controle parental.
+func get_all_grade_limits() -> Dictionary:
+	var result := {}
+	for grade: GradeLevel.Grade in GradeLevel.Grade.values():
+		result[str(int(grade))] = get_grade_limits(grade)
+	return result
+
+## Enregistre les reglages des 5 classes (meme format que get_all_grade_limits) - ne touche a aucune
+## autre cle du profil, meme prudence que les autres reglages par compte.
+func set_all_grade_limits(limits: Dictionary) -> void:
+	var clean := {}
+	for key: Variant in limits:
+		if limits[key] is Dictionary:
+			clean[str(key)] = _normalize_grade_limits(limits[key])
+	var profile := get_current_profile()
+	profile["limites_classes"] = clean
+	profile.erase("daily_game_limit")
 	update_current_profile(profile)
+	parental_limits_changed.emit()
+
+## Complete/corrige un reglage de classe lu depuis le profil (cle manquante, valeur hors bornes ou
+## mode inconnu venant d'une ancienne version) : jamais de plantage sur un profil abime.
+func _normalize_grade_limits(raw: Dictionary) -> Dictionary:
+	var mode := String(raw.get("mode", PARENTAL_MODE_UNLIMITED))
+	if not [PARENTAL_MODE_UNLIMITED, PARENTAL_MODE_FREE, PARENTAL_MODE_BY_SUBJECT, PARENTAL_MODE_BLOCKED].has(mode):
+		mode = PARENTAL_MODE_UNLIMITED
+	var subjects := {}
+	var raw_subjects: Variant = raw.get("matieres", {})
+	if raw_subjects is Dictionary:
+		for key: Variant in raw_subjects:
+			var entry: Variant = (raw_subjects as Dictionary)[key]
+			if not (entry is Dictionary):
+				continue
+			var state := String((entry as Dictionary).get("etat", SUBJECT_STATE_UNLIMITED))
+			if not [SUBJECT_STATE_UNLIMITED, SUBJECT_STATE_LIMITED, SUBJECT_STATE_BLOCKED].has(state):
+				state = SUBJECT_STATE_UNLIMITED
+			subjects[str(key)] = {
+				"etat": state,
+				"max": clampi(int((entry as Dictionary).get("max", PARENTAL_LIMIT_DEFAULT)), PARENTAL_LIMIT_MIN, PARENTAL_LIMIT_MAX),
+			}
+	return {
+		"mode": mode,
+		"max": clampi(int(raw.get("max", PARENTAL_LIMIT_DEFAULT)), PARENTAL_LIMIT_MIN, PARENTAL_LIMIT_MAX),
+		"matieres": subjects,
+	}
+
+## true si la classe a une regle quelconque (tout sauf "illimite") - sert au badge de la classe.
+func grade_has_parental_limit(grade: GradeLevel.Grade) -> bool:
+	return String(get_grade_limits(grade).get("mode")) != PARENTAL_MODE_UNLIMITED
+
+## Etat d'une matiere en mode "par matiere" : {"etat": String, "max": int} (illimitee par defaut).
+func _subject_limit(limits: Dictionary, subject: SubjectType.Subject) -> Dictionary:
+	var subjects: Dictionary = limits.get("matieres", {})
+	return subjects.get(str(int(subject)), {"etat": SUBJECT_STATE_UNLIMITED, "max": PARENTAL_LIMIT_DEFAULT})
+
+## Matieres de [available] que l'enfant ne peut PAS lancer aujourd'hui dans cette classe : bloquees,
+## ou limitees et deja epuisees. Vide en mode illimite/limite libre (en limite libre seul le total
+## compte, verifie par is_grade_available). Toutes en mode "bloquee".
+func get_unavailable_subjects(grade: GradeLevel.Grade, available: Array[SubjectType.Subject]) -> Array[SubjectType.Subject]:
+	var result: Array[SubjectType.Subject] = []
+	var limits := get_grade_limits(grade)
+	match String(limits.get("mode")):
+		PARENTAL_MODE_BLOCKED:
+			result.assign(available)
+		PARENTAL_MODE_BY_SUBJECT:
+			for subject in available:
+				var rule := _subject_limit(limits, subject)
+				var state := String(rule.get("etat"))
+				if state == SUBJECT_STATE_BLOCKED:
+					result.append(subject)
+				elif state == SUBJECT_STATE_LIMITED and get_subject_play_count(grade, subject) >= int(rule.get("max")):
+					result.append(subject)
+	return result
+
+## false si le prof de cette classe doit repondre "n'est pas disponible pour le moment" : classe
+## bloquee, limite libre atteinte, ou (par matiere) plus aucune matiere de [available] jouable.
+## Verifie au clic sur le prof, avant le choix de matiere (voir QuestionGiverComponent._on_interacted).
+func is_grade_available(grade: GradeLevel.Grade, available: Array[SubjectType.Subject]) -> bool:
+	var limits := get_grade_limits(grade)
+	match String(limits.get("mode")):
+		PARENTAL_MODE_BLOCKED:
+			return false
+		PARENTAL_MODE_FREE:
+			return get_grade_play_count(grade) < int(limits.get("max"))
+		PARENTAL_MODE_BY_SUBJECT:
+			return get_unavailable_subjects(grade, available).size() < available.size()
+	return true
+
+## Petit resume lisible des regles, pour la section "Informations personnelles" (lecture seule) :
+## ex. "CP : 10 parties par jour · CE1 : par matière · CM1 : bloquée". Vide si aucune regle.
+func get_parental_limits_summary() -> String:
+	var parts: Array[String] = []
+	for grade: GradeLevel.Grade in GradeLevel.Grade.values():
+		var limits := get_grade_limits(grade)
+		var label := GradeLevel.get_label(grade)
+		match String(limits.get("mode")):
+			PARENTAL_MODE_FREE:
+				parts.append("%s : %d parties par jour" % [label, int(limits.get("max"))])
+			PARENTAL_MODE_BY_SUBJECT:
+				parts.append("%s : par matière" % label)
+			PARENTAL_MODE_BLOCKED:
+				parts.append("%s : bloquée" % label)
+	return " · ".join(parts)
 
 ## --- Volume par compte (2026-09-05) ---
 ##
 ## music_volume/sfx_volume (variables plus haut) refletent toujours la valeur COURANTE, deja
 ## appliquee au bus audio - ces 2 fonctions ne font qu'y ajouter la persistance dans le profil du
-## compte connecte, exactement comme set_daily_game_limit() ci-dessus. Pas d'effet si personne
+## compte connecte, comme les reglages du controle parental (set_all_grade_limits) plus haut. Pas d'effet si personne
 ## n'est connecte (update_current_profile() ne fait rien dans ce cas, voir sa garde) : SectionConfig
 ## (seul appelant) ne vit que dans le menu de jeu, jamais sur l'ecran d'accueil.
 func _apply_volume_from_profile(profile: Dictionary) -> void:
@@ -1158,66 +1282,81 @@ func _reset_theme_to_default() -> void:
 	ui_theme = DEFAULT_UI_THEME
 	_apply_ui_theme()
 
-## --- Application de la limite quotidienne (2026-09-06) ---
+## --- Compteurs de parties du jour, par classe et par matiere (2026-11-28) ---
 ##
-## Retour utilisateur : "remise a zero a minuit, on applique cette mod maintenant, les enfants ne
-## joueront sans doute pas la nuit" - reponse au choix laisse ouvert la veille (minuit vs 24h
-## glissantes) plus demande explicite de construire enfin l'application du reglage ci-dessus
-## (jusqu'ici seul le reglage existait, voir commentaire de get_daily_game_limit()).
+## Remplace l'ancien compteur unique daily_game_count/daily_game_count_date (2026-09-06). Stockage
+## sur le COMPTE (pas dans "profile", qui reste identite + reglages) :
+## account["parties_jour"] = {"date": "AAAA-MM-JJ", "compteurs": {"<classe>/<matiere>": n}}
+## (ex. "0/3" = CP / Conjugaison). Le total d'une classe = somme de ses matieres.
 ##
-## Stockage : cles "daily_game_count" (int) / "daily_game_count_date" (String "AAAA-MM-JJ")
-## posees DIRECTEMENT sur le compte (comme "economy"/"cards"/"stats"), PAS dans "profile" (qui
-## reste les donnees d'identite + le reglage choisi par le parent, daily_game_limit ci-dessus) :
-## ce sont 2 valeurs d'ETAT qui changent a chaque pack termine, pas un reglage. Persistent
-## automatiquement avec le reste du compte (_save_to_disk() serialise tout _accounts[] tel quel,
-## voir son commentaire) - aucun serialize()/deserialize() dedie a ecrire.
+## Remise a zero a minuit : toujours sans Timer, par simple comparaison de date a chaque lecture/
+## ecriture (Time.get_date_string_from_system(), heure locale de l'appareil) - un compteur date d'un
+## autre jour est traite comme vide, meme si le jeu etait ferme a minuit.
 ##
-## Remise a zero a minuit : PAS de Timer/minuterie, juste une comparaison de date a chaque lecture/
-## ecriture (Time.get_date_string_from_system(), heure LOCALE de l'appareil, verifie sur
-## docs.godotengine.org/en/stable - class_time) - des que daily_game_count_date differe
-## d'aujourd'hui le compteur est traite comme 0, meme si le jeu etait ferme au moment ou minuit a
-## sonne (rien ne depend d'un evenement declenche pile a minuit).
-func _daily_game_count_for_today(index: int, today: String) -> int:
-	var account := _accounts[index]
-	if String(account.get("daily_game_count_date", "")) != today:
-		return 0
-	return int(account.get("daily_game_count", 0))
+## Suivi d'un appareil a l'autre : voir _merge_server_play_counts (appelee apres la recuperation de
+## la progression) et server/parties_du_jour_detail.sql.
+func _play_counts_for_today(index: int) -> Dictionary:
+	var day: Variant = _accounts[index].get("parties_jour", {})
+	if not (day is Dictionary) or String((day as Dictionary).get("date", "")) != Time.get_date_string_from_system():
+		return {}
+	var counts: Variant = (day as Dictionary).get("compteurs", {})
+	return (counts as Dictionary).duplicate() if counts is Dictionary else {}
 
-## Nombre de questionnaires deja termines aujourd'hui par le compte connecte (0 si personne n'est
-## connecte, ou si la date enregistree n'est pas celle d'aujourd'hui).
-func get_daily_game_count() -> int:
+func _play_count_key(grade: GradeLevel.Grade, subject: SubjectType.Subject) -> String:
+	return "%d/%d" % [int(grade), int(subject)]
+
+## Parties terminees aujourd'hui dans une matiere d'une classe (0 si personne n'est connecte).
+func get_subject_play_count(grade: GradeLevel.Grade, subject: SubjectType.Subject) -> int:
 	var index := _current_account_index()
 	if index == -1:
 		return 0
-	return _daily_game_count_for_today(index, Time.get_date_string_from_system())
+	return int(_play_counts_for_today(index).get(_play_count_key(grade, subject), 0))
 
-## true si le compte connecte a atteint (ou depasse) sa limite quotidienne - toujours false si
-## get_daily_game_limit() vaut 0 (pas de limite, valeur par defaut). Appelee par
-## QuestionGiverComponent._on_interacted() AVANT meme de proposer le choix de matiere (voir son
-## commentaire) : bloque le lancement d'un NOUVEAU questionnaire, une session deja en cours n'est
-## elle jamais interrompue en plein milieu (le blocage n'agit qu'au moment ou le joueur relance un
-## PNJ).
-func has_reached_daily_game_limit() -> bool:
-	var limit := get_daily_game_limit()
-	if limit <= 0:
-		return false
-	return get_daily_game_count() >= limit
+## Parties terminees aujourd'hui dans une classe, toutes matieres confondues.
+func get_grade_play_count(grade: GradeLevel.Grade) -> int:
+	var index := _current_account_index()
+	if index == -1:
+		return 0
+	var prefix := "%d/" % int(grade)
+	var total := 0
+	var counts := _play_counts_for_today(index)
+	for key: Variant in counts:
+		if String(key).begins_with(prefix):
+			total += int(counts[key])
+	return total
 
-## Incremente le compteur du compte connecte d'un questionnaire termine - branchee sur
-## EventBus.pack_completed (voir _ready() plus haut, meme signal ecoute par
-## ChallengeTracker.register_success) plutot qu'appelee directement par
-## QuestionGiverComponent.resolve_pack(), pour rester decouple comme le reste du projet (voir
-## ARCHITECTURE.md). Ne persiste pas elle-meme sur disque : resolve_pack() appelle deja
-## SaveManager.save_current_account() juste apres avoir emis ce signal (emission synchrone, cette
-## fonction a donc deja tourne a ce moment-la), qui serialise tout le compte d'un coup - meme
-## principe que ChallengeTracker, qui ne s'ecrit pas non plus lui-meme.
-func _on_pack_completed_for_daily_limit(_subject: SubjectType.Subject, _rarity: CardRarity.Rarity, _correct_count: int, _total_count: int, _reward: int) -> void:
+## +1 dans la matiere/classe du questionnaire qui vient de se terminer - branchee sur
+## EventBus.pack_completed (voir _ready()). La classe vient de la rarete des pieces du prof
+## (GradeLevel.get_grade_for_rarity), une seule rarete par classe. Ne persiste pas elle-meme :
+## QuestionGiverComponent.resolve_pack() appelle save_current_account() juste apres ce signal.
+func _on_pack_completed_for_daily_limit(subject: SubjectType.Subject, rarity: CardRarity.Rarity, _correct_count: int, _total_count: int, _reward: int) -> void:
 	var index := _current_account_index()
 	if index == -1:
 		return
+	var counts := _play_counts_for_today(index)
+	var key := _play_count_key(GradeLevel.get_grade_for_rarity(rarity), subject)
+	counts[key] = int(counts.get(key, 0)) + 1
+	_accounts[index]["parties_jour"] = {"date": Time.get_date_string_from_system(), "compteurs": counts}
+	## Ancien compteur unique (avant le 2026-11-28) : plus lu nulle part.
+	_accounts[index].erase("daily_game_count")
+	_accounts[index].erase("daily_game_count_date")
+
+## Fusionne les compteurs du jour renvoyes par le serveur ("parties_detail_par_jour", voir
+## server/parties_du_jour_detail.sql) avec ceux de l'appareil : pour chaque classe/matiere on garde
+## le plus grand des deux chiffres, pour ne jamais en perdre. Sans effet si le serveur ne renvoie pas
+## encore ce detail (script SQL pas encore passe) : on garde alors le compteur local tel quel.
+func _merge_server_play_counts(index: int, data: Dictionary) -> void:
+	var server_days: Variant = data.get("parties_detail_par_jour")
+	if not (server_days is Dictionary):
+		return
 	var today := Time.get_date_string_from_system()
-	_accounts[index]["daily_game_count"] = _daily_game_count_for_today(index, today) + 1
-	_accounts[index]["daily_game_count_date"] = today
+	var server_today: Variant = (server_days as Dictionary).get(today, {})
+	if not (server_today is Dictionary):
+		return
+	var counts := _play_counts_for_today(index)
+	for key: Variant in server_today:
+		counts[String(key)] = maxi(int(counts.get(String(key), 0)), int((server_today as Dictionary)[key]))
+	_accounts[index]["parties_jour"] = {"date": today, "compteurs": counts}
 
 ## Historique des tirages du compte connecte (2026-09-28, voir QuestionDraw) : un Dictionary par
 ## cle "<classe>/<matiere>" (ex. "ce2/math"), avec les questions/notions/textes deja tombes.

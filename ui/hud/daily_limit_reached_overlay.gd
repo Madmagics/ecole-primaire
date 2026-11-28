@@ -17,7 +17,7 @@
 class_name DailyLimitReachedOverlay
 extends Control
 
-const AUTO_HIDE_SECONDS := 2.5
+const AUTO_HIDE_SECONDS := 3.0
 
 @onready var label: Label = $Card/Margin/Label
 
@@ -28,10 +28,16 @@ func _ready() -> void:
 	theme = SaveManager.THEMES[SaveManager.ui_theme]
 	EventBus.ui_theme_changed.connect(func(new_theme: Theme) -> void: theme = new_theme)
 
-## "_source" ignore (meme convention que QuestionPanel.show_message) - un seul message fixe, pas
-## besoin de savoir quel PNJ a declenche l'appel. Un second appel pendant que le message est deja
-## visible relance simplement un nouveau minuteur, sans consequence (meme technique que
-## ShopPanel._show_insufficient_funds).
-func open(_source: Node) -> void:
+## Message doux (2026-11-28, demande de Steve : "je prefere un message moins negatif, genre le
+## maitre ou la maitresse n'est pas disponible pour le moment") : remplace l'ancien texte rouge
+## "Limite de jeu du jour atteinte, reviens demain !". [source] = le QuestionGiverComponent du prof
+## clique, dont on lit la classe pour dire "La maîtresse du CP" / "Le maître du CE1" (voir
+## TeacherIdentity.get_unavailable_message). Un second appel pendant que le message est deja
+## visible relance simplement un nouveau minuteur (meme technique que ShopPanel).
+func open(source: Node) -> void:
+	var grade: GradeLevel.Grade = GradeLevel.Grade.CP
+	if source is QuestionGiverComponent:
+		grade = (source as QuestionGiverComponent).grade
+	label.text = TeacherIdentity.get_unavailable_message(grade)
 	show()
 	get_tree().create_timer(AUTO_HIDE_SECONDS).timeout.connect(hide)

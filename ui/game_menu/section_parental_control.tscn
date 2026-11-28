@@ -71,45 +71,33 @@ layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/separation = 12
 
-[node name="DailyLimitRow" type="HBoxContainer" parent="VBoxContainer/OptionsScroll/OptionsContent"]
+[node name="LimitsTitle" type="Label" parent="VBoxContainer/OptionsScroll/OptionsContent"]
 layout_mode = 2
-theme_override_constants/separation = 10
-
-[node name="DailyLimitLabel" type="Label" parent="VBoxContainer/OptionsScroll/OptionsContent/DailyLimitRow"]
 theme_type_variation = &"TitleLabel"
-custom_minimum_size = Vector2(160, 0)
-layout_mode = 2
-text = "Limite de jeux par jour :"
+text = "Limites de jeu par classe"
 
-[node name="DailyLimitSpin" type="SpinBox" parent="VBoxContainer/OptionsScroll/OptionsContent/DailyLimitRow"]
+[node name="LimitsHint" type="Label" parent="VBoxContainer/OptionsScroll/OptionsContent"]
 layout_mode = 2
-min_value = 0.0
-max_value = 50.0
-value = 0.0
+autowrap_mode = 2
+text = "Choisis un mode pour chaque classe. Les compteurs repartent à zéro à minuit."
 
-[node name="UnlimitedRow" type="HBoxContainer" parent="VBoxContainer/OptionsScroll/OptionsContent"]
+[node name="LimitsTree" type="VBoxContainer" parent="VBoxContainer/OptionsScroll/OptionsContent"]
 layout_mode = 2
-theme_override_constants/separation = 10
+theme_override_constants/separation = 8
 
-[node name="UnlimitedLabel" type="Label" parent="VBoxContainer/OptionsScroll/OptionsContent/UnlimitedRow"]
-theme_type_variation = &"TitleLabel"
-custom_minimum_size = Vector2(160, 0)
-layout_mode = 2
-text = "Nombre de jeux illimité"
-
-[node name="UnlimitedCheck" type="CheckBox" parent="VBoxContainer/OptionsScroll/OptionsContent/UnlimitedRow"]
-mouse_filter = 1
-layout_mode = 2
-
-[node name="DailyLimitValidateButton" type="Button" parent="VBoxContainer/OptionsScroll/OptionsContent"]
+[node name="LimitsValidateButton" type="Button" parent="VBoxContainer/OptionsScroll/OptionsContent"]
 mouse_filter = 1
 layout_mode = 2
 size_flags_horizontal = 0
-text = "Valider"
+text = "Valider les limites"
 
-[node name="DailyLimitCurrentLabel" type="Label" parent="VBoxContainer/OptionsScroll/OptionsContent"]
+[node name="LimitsStatusLabel" type="Label" parent="VBoxContainer/OptionsScroll/OptionsContent"]
 layout_mode = 2
-text = "Limite actuelle de jeu : 0"
+visible = false
+text = "Limites enregistrées."
+
+[node name="LimitsSeparator" type="HSeparator" parent="VBoxContainer/OptionsScroll/OptionsContent"]
+layout_mode = 2
 
 [node name="ResetProgressButton" type="Button" parent="VBoxContainer/OptionsScroll/OptionsContent"]
 mouse_filter = 1

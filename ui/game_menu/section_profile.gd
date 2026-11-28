@@ -14,7 +14,7 @@
 ##
 ## DailyLimitInfoLabel (meme mod) : "avec reaffichage de la limitation quotidienne si elle est
 ## utilisee" - rappel informatif de la limite de jeux/jour reglee dans Contrôle parental, masque si
-## aucune limite n'est active (0 = illimite, voir SaveManager.get_daily_game_limit()).
+## aucune limite n'est active (voir SaveManager.get_parental_limits_summary(), limites par classe).
 class_name SectionProfile
 extends Control
 
@@ -52,7 +52,9 @@ func refresh() -> void:
 	## pays_option n'a qu'un seul item pour l'instant (France) : rien a selectionner tant qu'un
 	## deuxieme pays n'existe pas.
 
-	var limit := SaveManager.get_daily_game_limit()
-	daily_limit_info_label.visible = limit > 0
-	if limit > 0:
-		daily_limit_info_label.text = "Limite de jeux par jour : %d" % limit
+	## Rappel des limites par classe (2026-11-28), masque si aucune classe n'a de regle.
+	var summary := SaveManager.get_parental_limits_summary()
+	daily_limit_info_label.visible = not summary.is_empty()
+	if not summary.is_empty():
+		daily_limit_info_label.text = "Limites de jeu : %s" % summary
+		daily_limit_info_label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART

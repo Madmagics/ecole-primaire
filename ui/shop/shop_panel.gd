@@ -192,6 +192,14 @@ const INSUFFICIENT_FUNDS_SECONDS := 2.5
 ## ClassroomDecor) - meme structure de popup, texte different selon la cause.
 const INSUFFICIENT_COINS_TEXT := "Pièces nécessaires insuffisantes"
 const INSUFFICIENT_CHALLENGES_TEXT := "Défis nécessaires insuffisants"
+## Popup affichee quand toutes les cartes d'une classe sont trouvees (2026-11-27, demande de
+## Steve) : l'achat de coffres en pieces de cette classe est bloque, les pieces restent pour la
+## cour de recre. %s = nom de la classe (crate_name).
+const COLLECTION_COMPLETE_TEXT := "Bravo ! Tu as trouvé toutes les cartes de la collection %s ! Garde tes pièces pour jouer dans la cour de récré."
+## Couleurs du texte du popup : rouge pour les erreurs (valeur d'origine du .tscn), vert pour la
+## collection complete (bonne nouvelle, pas une erreur).
+const POPUP_ERROR_COLOR := Color(0.92, 0.35, 0.35, 1)
+const POPUP_SUCCESS_COLOR := Color(0.25, 0.6, 0.3, 1)
 
 ## Ordre d'affichage des raretes dans l'onglet Cartes : les valeurs de l'enum CardRarity.Rarity
 ## ne sont pas dans l'ordre "logique" (UNCOMMON=4 vient apres LEGENDARY=3, voir card_rarity.gd,
@@ -425,6 +433,10 @@ func _on_purchase_requested(loot_table: LootTableResource, quantity: int) -> voi
 	## Prix total = prix de base * quantite selectionnee sur la case (2026-08-04, voir
 	## CrateItem._quantity) - la popup de confirmation affiche donc toujours le montant reel qui
 	## sera depense, pas seulement le prix unitaire.
+	## Collection complete (2026-11-27) : plus aucun achat possible, verifie AVANT le solde.
+	if loot_table.is_collection_complete():
+		_show_collection_complete(loot_table)
+		return
 	var total_price := loot_table.crate_price * quantity
 	## Message rouge a la place de la popup de confirmation si le solde est insuffisant (2026-09-05,
 	## retour utilisateur : "je veux que le fait de cliquer sur la case d achat avec un montant de
@@ -448,24 +460,38 @@ func _on_purchase_requested(loot_table: LootTableResource, quantity: int) -> voi
 	_ask_confirm(question, _do_purchase_crate.bind(loot_table, quantity))
 
 func _do_purchase_crate(loot_table: LootTableResource, quantity: int) -> void:
+	## Filet de securite : collection deja complete (voir _on_purchase_requested).
+	if loot_table.is_collection_complete():
+		_show_collection_complete(loot_table)
+		return
 	var total_price := loot_table.crate_price * quantity
-	## Filet de securite (2026-09-05) : le solde insuffisant est desormais deja intercepte plus tot,
-	## dans _on_purchase_requested, avant meme l'ouverture de la popup de confirmation - ce check ne
-	## devrait donc plus jamais echouer en pratique (rien ne peut faire baisser le solde entre le
-	## clic et la confirmation, le reste du jeu est verrouille tant que la popup est ouverte), mais
-	## reste en place au cas ou, meme principe que le filet de securite de _do_prof_skin_purchase.
-	if not Economy.try_spend(loot_table.rarity, total_price):
+	## Filet de securite (2026-09-05) : le solde insuffisant est deja intercepte dans
+	## _on_purchase_requested, ce check ne devrait jamais echouer en pratique.
+	if Economy.get_balance(loot_table.rarity) < total_price:
 		_show_insufficient_funds()
 		return
-	## Journal d'evenements pour la synchro serveur (2026-09-13, voir SaveManager.log_event()) :
-	## juste apres la mutation reelle (Economy.try_spend ci-dessus).
-	SaveManager.log_event("depense_piece", {"rarity": int(loot_table.rarity), "montant": total_price})
+	## Coffres ouverts un par un (2026-11-27) : si la collection se complete en cours de route
+	## (achat de plusieurs coffres), on s'arrete et les coffres restants ne sont PAS payes.
+	var spent := 0
+	var stopped_early := false
 	for i in quantity:
+		if loot_table.is_collection_complete():
+			stopped_early = true
+			break
+		if not Economy.try_spend(loot_table.rarity, loot_table.crate_price):
+			break
+		spent += loot_table.crate_price
 		var card := loot_table.draw_card()
 		if card:
 			CardCollection.add_card(card)
 			EventBus.card_obtained.emit(card)
 			SaveManager.log_event("carte_debloquee", {"card_id": str(card.id)})
+	## Journal d'evenements pour la synchro serveur (2026-09-13, voir SaveManager.log_event()) :
+	## montant REELLEMENT depense (peut etre inferieur au total si arret anticipe).
+	if spent > 0:
+		SaveManager.log_event("depense_piece", {"rarity": int(loot_table.rarity), "montant": spent})
+	if stopped_early or loot_table.is_collection_complete():
+		_show_collection_complete(loot_table)
 	## Recalcule le plafond +/- des autres coffres de la meme rarete (voir _refresh_crate_items) :
 	## la case achetee repart a 1, les autres voient juste leur plafond +/- recalcule.
 	_refresh_crate_items(loot_table)
@@ -516,7 +542,15 @@ func _close_confirm() -> void:
 ## Defis insuffisants), meme mecanique, texte different - defaut sur le texte pieces pour ne pas
 ## casser les appels existants (_do_purchase_crate/_do_prof_skin_purchase).
 func _show_insufficient_funds(message: String = INSUFFICIENT_COINS_TEXT) -> void:
+	_show_popup(message, POPUP_ERROR_COLOR)
+
+## Popup "collection complete" (2026-11-27) : reutilise InsufficientFundsOverlay en vert.
+func _show_collection_complete(loot_table: LootTableResource) -> void:
+	_show_popup(COLLECTION_COMPLETE_TEXT % loot_table.crate_name, POPUP_SUCCESS_COLOR)
+
+func _show_popup(message: String, color: Color) -> void:
 	insufficient_funds_label.text = message
+	insufficient_funds_label.add_theme_color_override("font_color", color)
 	insufficient_funds_overlay.show()
 	get_tree().create_timer(INSUFFICIENT_FUNDS_SECONDS).timeout.connect(insufficient_funds_overlay.hide)
 

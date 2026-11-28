@@ -31,8 +31,8 @@ signal subject_selection_requested(source: Node, grade: Grade, available_subject
 signal pack_started(source: Node, questions: Array[QuestionResource], rarity: Rarity)
 ## Emis si la matiere choisie n'a pas (encore) de questions dans ce PNJ.
 signal pack_unavailable(source: Node, message: String)
-## Emis specifiquement quand la limite d'utilisation quotidienne (controle parental) est deja
-## atteinte a l'interaction (voir _on_interacted) - VOLONTAIREMENT distinct de pack_unavailable
+## Emis quand le controle parental ferme cette classe a l'interaction (classe bloquee ou parties du
+## jour terminees, voir _on_interacted et SaveManager.is_grade_available) - VOLONTAIREMENT distinct de pack_unavailable
 ## (2026-09-06, retour utilisateur : "lorsque la limite est atteinte jaimerais que le click sur un
 ## npc ouvre une popup reduite comme celle dun manque de piece pour la boutique avec un message en
 ## rouge. actuellement cest une fenetre avec un cadre titre vide inutile" - pack_unavailable ouvre
@@ -138,7 +138,11 @@ func _on_interacted(_who: Node) -> void:
 		## Tout premier lancement du jeu sur cet appareil : paquets encore en telechargement.
 		pack_unavailable.emit(self, "Chargement des questions en cours… réessaie dans un instant !")
 		return
-	if SaveManager.has_reached_daily_game_limit():
+	## Controle parental par classe/matiere (2026-11-28) : classe bloquee, limite libre atteinte, ou
+	## plus aucune matiere jouable -> message doux "... n'est pas disponible pour le moment" (voir
+	## DailyLimitReachedOverlay). Les matieres bloquees/epuisees une par une sont, elles, grisees
+	## dans SubjectSelectPanel (voir open_for).
+	if not SaveManager.is_grade_available(grade, get_available_subjects()):
 		daily_limit_reached.emit(self)
 		return
 	subject_selection_requested.emit(self, grade, get_available_subjects())

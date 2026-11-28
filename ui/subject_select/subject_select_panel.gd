@@ -56,6 +56,8 @@ const _FRAME_CORNER_RADIUS := 16
 ## Case de matiere grisee (tutoriel, voir open_for) : anneau gris + case a demi transparente.
 const DISABLED_FRAME_COLOR := Color(0.6, 0.6, 0.6)
 const DISABLED_FRAME_MODULATE := Color(1, 1, 1, 0.5)
+## Icone posee sur une matiere fermee par le controle parental (2026-11-28).
+const PARENTAL_LOCK_ICON := preload("res://assets/classe2.0/icones/controle-parental.webp")
 
 var _source: Node
 
@@ -90,21 +92,29 @@ func _on_visibility_changed() -> void:
 func open_for(source: Node, grade: GradeLevel.Grade, available_subjects: Array[SubjectType.Subject], disabled_subjects: Array[SubjectType.Subject] = []) -> void:
 	_source = source
 	title_label.text = "Choisis ta matière (%s)" % GradeLevel.get_label(grade)
-	_rebuild_buttons(available_subjects, disabled_subjects)
+	## Controle parental (2026-11-28) : matieres bloquees ou deja epuisees aujourd'hui grisees avec
+	## l'icone du controle parental (voir _build_subject_frame), en plus de celles du tutoriel.
+	var locked := SaveManager.get_unavailable_subjects(grade, available_subjects)
+	var all_disabled: Array[SubjectType.Subject] = []
+	all_disabled.assign(disabled_subjects)
+	for subject in locked:
+		if not all_disabled.has(subject):
+			all_disabled.append(subject)
+	_rebuild_buttons(available_subjects, all_disabled, locked)
 	show()
 
-func _rebuild_buttons(available_subjects: Array[SubjectType.Subject], disabled_subjects: Array[SubjectType.Subject] = []) -> void:
+func _rebuild_buttons(available_subjects: Array[SubjectType.Subject], disabled_subjects: Array[SubjectType.Subject] = [], locked_subjects: Array[SubjectType.Subject] = []) -> void:
 	for child in buttons_container.get_children():
 		child.queue_free()
 	buttons_container.columns = 2 if available_subjects.size() >= TWO_COLUMNS_THRESHOLD else 1
 	for subject in available_subjects:
-		buttons_container.add_child(_build_subject_frame(subject, subject in disabled_subjects))
+		buttons_container.add_child(_build_subject_frame(subject, subject in disabled_subjects, subject in locked_subjects))
 
 ## Une "case" = carte coloree (couleur de la matiere) contenant le bouton natif du theme, legerement
 ## inset (voir _FRAME_THICKNESS) pour laisser apparaitre un anneau colore tout autour - une seule
 ## cellule pour le GridContainer parent. Taille naturelle (pas d'expand) : avec une seule colonne,
 ## le CenterContainer parent (voir .tscn) centre le bloc au lieu de l'etirer sur toute la largeur.
-func _build_subject_frame(subject: SubjectType.Subject, is_disabled: bool = false) -> PanelContainer:
+func _build_subject_frame(subject: SubjectType.Subject, is_disabled: bool = false, is_locked: bool = false) -> PanelContainer:
 	var frame := PanelContainer.new()
 	var frame_style := StyleBoxFlat.new()
 	frame_style.bg_color = DISABLED_FRAME_COLOR if is_disabled else SubjectType.get_color(subject)
@@ -126,6 +136,10 @@ func _build_subject_frame(subject: SubjectType.Subject, is_disabled: bool = fals
 	if is_disabled:
 		button.disabled = true
 		frame.modulate = DISABLED_FRAME_MODULATE
+	if is_locked:
+		## Cadenas = icone du controle parental (meme image que dans le menu), petite a gauche du texte.
+		button.icon = PARENTAL_LOCK_ICON
+		button.add_theme_constant_override("icon_max_width", 26)
 	frame.add_child(button)
 
 	return frame

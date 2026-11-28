@@ -121,7 +121,7 @@ autowrap_mode = 2
 
 [node name="Para3" type="Label" parent="Panel/Margin/Content/Tabs/Intro/Scroll/ScrollMargin/List" unique_id=838784631]
 layout_mode = 2
-text = "Les pièces gagnées s'échangent ensuite à la boutique contre des cartes à collectionner, rangées dans un album personnel, ou contre de nouvelles tenues et décors pour la classe."
+text = "Les pièces gagnées s'échangent ensuite à la boutique contre des cartes à collectionner, rangées dans un album personnel, ou contre de nouvelles tenues et décors pour la classe. Une collection complète ouvre la cour de récré et ses mini-jeux."
 autowrap_mode = 2
 
 [node name="Para4" type="Label" parent="Panel/Margin/Content/Tabs/Intro/Scroll/ScrollMargin/List" unique_id=1687447657]
@@ -131,7 +131,7 @@ autowrap_mode = 2
 
 [node name="Para5" type="Label" parent="Panel/Margin/Content/Tabs/Intro/Scroll/ScrollMargin/List" unique_id=172899045]
 layout_mode = 2
-text = "Un espace contrôle parental, réservé aux parents, permet de régler tranquillement le temps de jeu quotidien de chaque compte."
+text = "Un espace contrôle parental, réservé aux parents, permet de régler le nombre de parties par jour classe par classe, voire matière par matière, ou de fermer une classe ou une matière."
 autowrap_mode = 2
 
 [node name="ContenuJeu" type="MarginContainer" parent="Panel/Margin/Content/Tabs" unique_id=1430786389]
@@ -166,7 +166,7 @@ autowrap_mode = 2
 
 [node name="ClassesBody" type="Label" parent="Panel/Margin/Content/Tabs/ContenuJeu/Scroll/ScrollMargin/List" unique_id=78848358]
 layout_mode = 2
-text = "Une seule salle de classe accueille cinq professeurs, un par niveau du CP au CM2. Sept matières sont proposées au total : Mathématiques, Grammaire, Conjugaison, Orthographe, Anglais, Compréhension de texte et Logique."
+text = "Une seule salle de classe accueille cinq professeurs, un par niveau du CP au CM2. Les matières proposées : Mathématiques, Français (Grammaire, Conjugaison et Orthographe), Anglais, Compréhension de texte, Logique, Histoire et Géographie."
 autowrap_mode = 2
 
 [node name="QuestionsTitle" type="Label" parent="Panel/Margin/Content/Tabs/ContenuJeu/Scroll/ScrollMargin/List" unique_id=159161777]
@@ -178,7 +178,7 @@ autowrap_mode = 2
 
 [node name="QuestionsBody" type="Label" parent="Panel/Margin/Content/Tabs/ContenuJeu/Scroll/ScrollMargin/List" unique_id=434909886]
 layout_mode = 2
-text = "En cliquant sur un professeur, l'enfant reçoit un petit paquet de questions dans sa matière. Un résultat supérieur à la moitié des questions rapporte des pièces à la couleur de la matière, et un sans-faute (100 %) fait gagner un point de succès pour le défi de la classe et de la matière."
+text = "En cliquant sur un professeur, l'enfant reçoit un petit paquet de questions dans sa matière. Un résultat supérieur à la moitié des questions rapporte des pièces à la couleur de la classe, et un sans-faute (100 %) fait gagner un point de succès pour le défi de la classe et de la matière."
 autowrap_mode = 2
 
 [node name="RecompensesTitle" type="Label" parent="Panel/Margin/Content/Tabs/ContenuJeu/Scroll/ScrollMargin/List" unique_id=2009965787]
@@ -217,6 +217,42 @@ layout_mode = 2
 text = "Chaque coffre ouvert offre une carte à collectionner, qui rejoint aussitôt le « Livre » : l'album personnel où toutes les cartes obtenues restent consultables à tout moment."
 autowrap_mode = 2
 
+[node name="CoursTitle" type="Label" parent="Panel/Margin/Content/Tabs/ContenuJeu/Scroll/ScrollMargin/List"]
+script = ExtResource("2")
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "Les fiches de cours"
+autowrap_mode = 2
+
+[node name="CoursBody" type="Label" parent="Panel/Margin/Content/Tabs/ContenuJeu/Scroll/ScrollMargin/List"]
+layout_mode = 2
+text = "L'icône « Cours » ouvre les fiches de cours des notions travaillées en classe, pour revoir une notion avant ou après une série de questions."
+autowrap_mode = 2
+
+[node name="RecreTitle" type="Label" parent="Panel/Margin/Content/Tabs/ContenuJeu/Scroll/ScrollMargin/List"]
+script = ExtResource("2")
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "La cour de récré"
+autowrap_mode = 2
+
+[node name="RecreBody" type="Label" parent="Panel/Margin/Content/Tabs/ContenuJeu/Scroll/ScrollMargin/List"]
+layout_mode = 2
+text = "Dès qu'une collection de cartes est complète, l'icône « Cour de récré » ouvre la cour : 10 enfants y proposent chacun un mini-jeu, 2 par classe. Chaque partie coûte 10 pièces de la classe du jeu, et le bouton TOP affiche les 10 meilleurs scores."
+autowrap_mode = 2
+
+[node name="ParentalTitle" type="Label" parent="Panel/Margin/Content/Tabs/ContenuJeu/Scroll/ScrollMargin/List"]
+script = ExtResource("2")
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "Le contrôle parental"
+autowrap_mode = 2
+
+[node name="ParentalBody" type="Label" parent="Panel/Margin/Content/Tabs/ContenuJeu/Scroll/ScrollMargin/List"]
+layout_mode = 2
+text = "L'icône « Contrôle parental », protégée par le mot de passe parent, permet de régler chaque classe : illimitée, limitée à un nombre de parties par jour avec les matières au choix, limitée matière par matière, ou fermée. Quand la limite est atteinte, le maître ou la maîtresse n'est pas disponible pour le moment. Les compteurs repartent à zéro à minuit."
+autowrap_mode = 2
+
 [node name="MisesAJour" type="MarginContainer" parent="Panel/Margin/Content/Tabs" unique_id=1676537048]
 visible = false
 layout_mode = 2
@@ -244,7 +280,7 @@ theme_override_constants/separation = 16
 script = ExtResource("2")
 layout_mode = 2
 theme_override_font_sizes/font_size = 20
-text = "Version actuelle : V1.04 - 26/11/2026"
+text = "Version actuelle : V1.05 - 28/11/2026"
 autowrap_mode = 2
 
 [node name="Intro" type="Label" parent="Panel/Margin/Content/Tabs/MisesAJour/Scroll/ScrollMargin/List" unique_id=483433055]
@@ -254,17 +290,37 @@ autowrap_mode = 2
 
 [node name="Liste" type="Label" parent="Panel/Margin/Content/Tabs/MisesAJour/Scroll/ScrollMargin/List" unique_id=1844344695]
 layout_mode = 2
-text = "- Nouveau : la cour de récré et ses 10 mini-jeux, 2 par classe !
-   CP : Pluie de biscuits, Tap taupe
-   CE1 : Memory des animaux, Simon des animaux
-   CE2 : Saute-mouton, Tetri-Star
-   CM1 : Casse-briques, Taquin des animaux
-   CM2 : 2048 des animaux, 3 animaux alignés
-- Pour entrer : touche l'icône « Cour de récré » dans le menu de droite. La cour s'ouvre dès que tu as complété au moins une collection de cartes (toutes les cartes d'une classe, à voir dans le Livre).
-- Pour jouer : clique sur un enfant. Il regarde ta collection de sa classe : si elle est complète, il te propose son jeu. Sinon, il te dit combien de cartes il te manque.
-- Chaque partie coûte 10 pièces de la classe du jeu (pièces du CP pour les jeux du CP, etc.). Ces pièces se gagnent en répondant aux questions en classe.
-- Bouton TOP : le classement des 10 meilleurs joueurs de chaque jeu, avec ton meilleur score.
-- Les jeux se jouent à la souris ou au doigt. Tetri-Star se joue aussi au clavier (flèches et barre d'espace)."
+text = "- Nouveau : le contrôle parental se règle classe par classe, et même matière par matière !
+- Où : icône « Contrôle parental » du menu de gauche, protégée par le mot de passe parent.
+- Chaque classe se règle en touchant sa flèche, avec 4 modes au choix :
+   Illimité : aucune limite.
+   Limite libre : un nombre de parties par jour, l'enfant choisit ses matières.
+   Par matière : chaque matière est illimitée, limitée ou bloquée.
+   Bloquée : la classe est fermée.
+- Les boutons + et - : un appui court ajoute ou retire 1, un appui long fait défiler vite.
+- En classe, un badge en bas à gauche montre les classes limitées : touche une classe pour voir où en sont les parties du jour.
+- Quand une classe n'est plus disponible, le maître ou la maîtresse « n'est pas disponible pour le moment ». Les matières fermées sont grisées avec un cadenas.
+- Les compteurs repartent à zéro à minuit.
+- Les réglages déjà faits sont conservés : l'ancienne limite devient une « limite libre » dans chaque classe.
+- Cour de récré : le bouton « Retour en classe » est maintenant centré en bas de l'écran."
+autowrap_mode = 2
+
+[node name="SeparatorV104" type="HSeparator" parent="Panel/Margin/Content/Tabs/MisesAJour/Scroll/ScrollMargin/List"]
+layout_mode = 2
+
+[node name="TitleV104" type="Label" parent="Panel/Margin/Content/Tabs/MisesAJour/Scroll/ScrollMargin/List"]
+script = ExtResource("2")
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "V1.04 - 26/11/2026"
+autowrap_mode = 2
+
+[node name="ListeV104" type="Label" parent="Panel/Margin/Content/Tabs/MisesAJour/Scroll/ScrollMargin/List"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "- La cour de récré et ses 10 mini-jeux, 2 par classe, accessible dès qu'une collection de cartes est complète
+- Chaque partie coûte 10 pièces de la classe du jeu
+- Bouton TOP : le classement des 10 meilleurs joueurs de chaque jeu"
 autowrap_mode = 2
 
 [node name="SeparatorV103" type="HSeparator" parent="Panel/Margin/Content/Tabs/MisesAJour/Scroll/ScrollMargin/List"]
